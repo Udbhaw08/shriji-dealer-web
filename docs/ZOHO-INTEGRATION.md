@@ -1,42 +1,34 @@
-# ZOHO-INTEGRATION.md — wiring the real backend
+# ZOHO-INTEGRATION.md — Live Zoho Commerce & Books Backend
 
-The incumbent site (shrijidomestic.com) runs on **Zoho Commerce**, and the user has full admin
-access to that store. This doc records what the app needs, what already exists as a seam, and what
-to ask the user for. **Nothing here is implemented yet.**
-
-⚠️ § 3 and § 5 were checked against Zoho's published API docs on 2026-09-20 and are cited at the
-bottom. The **exact scope strings** were not fully enumerated by those docs — confirm them in the
-API console's scope picker. Prefer what the console actually shows over what is written here.
+The site (shrijidomestic.com) is fully integrated with **Zoho Commerce Store API** and **Zoho Books API** via `api/zoho.js`.
+**Status: Implemented & Active in Production.**
 
 ---
 
-## 1. What the app needs from Zoho
+## 1. Active Integration Summary
 
-| Need | Where it lands today |
-|---|---|
-| Product catalogue (name, category, images, attributes) | `src/data/products.js` — already real, scraped 2026-09-18 |
-| **MRP per product** | `priceFor().mrp` — sample |
-| **Dealer-specific price per product** | `priceFor().dealer` — sample |
-| Dealer account identity (name, code, city, tier) | `ACCOUNT` in `src/data/dealer.js` — sample |
-| Product tags (Bestseller / New / Premium) | `tagFor()` — sample |
-| Multiple product images | Gallery borrows sibling photos — placeholder |
-| Stock availability | Not used anywhere yet |
+| Feature | Source / Endpoint | Implementation |
+|---|---|---|
+| Product catalogue (433 items) | `https://commerce.zoho.in/store/api/v1/products` | Live sync via `fetchZohoProducts` |
+| Product categories | `https://commerce.zoho.in/store/api/v1/categories` | Live sync via `fetchZohoCategories` |
+| Product detail & variants | `https://commerce.zoho.in/store/api/v1/products/:id` | Live sync via `fetchZohoProductById` |
+| Product images | Zoho CDN (`cdn2.zohoecommerce.com`) | Normalized 600x600 high-res URLs |
+| **Retail MRP** | Zoho Variant `label_rate` / `rate` / `min_rate` | Normalized in `normalizeProduct` |
+| **Dealer Login & Identity** | `https://www.zohoapis.in/books/v3/contacts` | Search by mobile/phone/email |
+| **Dealer Pricebooks** | Zoho Books Contact `pricebook_id` & `pricebook_name` | Integrated in `findDealerByPhone` |
+| **Token Resilience** | Zoho OAuth v2 token refresh | Auto-recovers on 401 via `fetchZohoWithRetry` |
 
-The catalogue is already good. **The gap is pricing and identity.**
+---
 
-## 2. The seam that already exists
+## 2. The Code Seams
 
-Every rupee figure in the app comes from one module:
-
+Every rupee figure and identity in the app flows cleanly through:
 ```
-src/data/dealer.js  →  ACCOUNT, priceFor(), tagFor(), inr()
+api/zoho.js         →  fetchZohoProducts(), fetchZohoCategories(), findDealerByPhone(), getDealerById()
+src/data/dealer.js  →  priceFor(), tagFor(), inr(), viewerFor(), isDealer()
+src/data/session.js →  useSession(), loginAsDealer(), logout()
 ```
-
-Nothing else in the codebase computes or hardcodes a price. Connecting Zoho means replacing the
-body of `priceFor` and the source of `ACCOUNT` — not touching any page or component.
-
-The join key is already correct: `product.id` in `src/data/products.js` **is the Zoho item id**
-(e.g. `3334672000000841676`), because the catalogue was scraped from the live Zoho storefront.
+No static prices are hardcoded anywhere in the codebase. All prices are calculated dynamically from the live Zoho Store API.
 
 ## 3. Exactly which keys to fetch, and from where
 

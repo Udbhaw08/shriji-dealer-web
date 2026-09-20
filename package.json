@@ -5,9 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "node scripts/generate-codebase-doc.mjs && vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "node --test src/data/dealer.test.mjs && node src/data/pricing.test.mjs",
+    "docs": "node scripts/generate-codebase-doc.mjs"
   },
   "dependencies": {
     "react": "^19.2.8",
