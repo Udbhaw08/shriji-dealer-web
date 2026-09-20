@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 import { Link } from "react-router-dom";
-import { PRODUCTS, CATEGORIES } from "../data/products";
+import { useProducts } from "../data/productsStore";
 import { COMPANY, STATS, QUICK_NAV, QUICK_ACCESS, SCHEMES } from "../data/site";
 import { Icon, EnquiryButtons } from "../ui";
 import ProductCard from "../components/ProductCard";
@@ -11,23 +11,28 @@ const CAT_ICON = {
   hobs: "hob",
   hob_tops: "glass",
   small_appliances: "blender",
+  gas_geysers: "flame",
+  natraj_flour_mill: "bolt",
+  spares: "shield",
 };
 
 export default function Home() {
+  const { products: PRODUCTS, categories: CATEGORIES } = useProducts();
+
   const counts = useMemo(() => {
     const c = {};
     for (const p of PRODUCTS) c[p.cat] = (c[p.cat] || 0) + 1;
     return c;
-  }, []);
+  }, [PRODUCTS]);
 
-  const heroProduct = useMemo(() => PRODUCTS.find((p) => p.cat === "gas_stoves" && p.img), []);
+  const heroProduct = useMemo(() => PRODUCTS.find((p) => p.cat === "gas_stoves" && p.img) || PRODUCTS[0], [PRODUCTS]);
 
   const featured = useMemo(
     () =>
       CATEGORIES.map((c) => PRODUCTS.filter((p) => p.cat === c.key && p.img).slice(0, 2))
         .flat()
         .slice(0, 8),
-    [],
+    [PRODUCTS, CATEGORIES],
   );
 
   const scheme = SCHEMES.active[0];
@@ -47,7 +52,7 @@ export default function Home() {
                   Better Tomorrow
                 </h1>
                 <p>
-                  The complete Sunshine kitchen range — {PRODUCTS.length} models across gas stoves, hobs, hob tops,
+                  The complete Sunshine kitchen range — {PRODUCTS.length > 0 ? `${PRODUCTS.length} live models` : "400+ models"} across gas stoves, hobs, hob tops,
                   chimneys and small appliances, distributed by Shriji since {COMPANY.founded}.
                 </p>
                 <div className="row" style={{ marginTop: "var(--s5)" }}>
@@ -60,7 +65,12 @@ export default function Home() {
                 </div>
               </div>
               <div className="banner-art">
-                {heroProduct && <img src={`/img/${heroProduct.img}`} alt={heroProduct.name} />}
+                {heroProduct && (
+                  <img
+                    src={heroProduct.img?.startsWith("http") ? heroProduct.img : `/img/${heroProduct.img}`}
+                    alt={heroProduct.name}
+                  />
+                )}
               </div>
             </div>
           </div>
@@ -97,7 +107,14 @@ export default function Home() {
             {CATEGORIES.map((c) => (
               <Link className="cat" key={c.key} to={`/products?cat=${c.key}`}>
                 <span className="cat-img">
-                  <img src={c.img} alt={c.label} loading="lazy" />
+                  <img
+                    src={c.img}
+                    alt={c.label}
+                    loading="lazy"
+                    onError={(e) => {
+                      e.currentTarget.src = "/img/cat-small_appliances.webp";
+                    }}
+                  />
                 </span>
                 <span className="cat-foot">
                   <span>
@@ -105,7 +122,7 @@ export default function Home() {
                     <span>{counts[c.key] || 0} models</span>
                   </span>
                   <span className="tile tile-sm">
-                    <Icon name={CAT_ICON[c.key]} size={18} />
+                    <Icon name={CAT_ICON[c.key] || "stove"} size={18} />
                   </span>
                 </span>
               </Link>

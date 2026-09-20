@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useParams, useSearchParams } from "react-router-dom";
-import { PRODUCTS } from "../data/products";
+import { useProducts } from "../data/productsStore";
 import { COMPANY } from "../data/site";
 import { registerDealer, shareLink, tagFor, viewerFor } from "../data/dealer";
 import { useSession } from "../data/session";
@@ -36,8 +36,26 @@ export default function Product() {
   const { id } = useParams();
   const [params, setParams] = useSearchParams();
   const session = useSession();
-  const p = useMemo(() => PRODUCTS.find((x) => x.id === id), [id]);
+  const { products: PRODUCTS, loaded } = useProducts();
+  const [fetchedProduct, setFetchedProduct] = useState(null);
+
+  useEffect(() => {
+    if (id) {
+      fetch(`/api/products/${encodeURIComponent(id)}`)
+        .then((r) => r.json())
+        .then((data) => {
+          if (data.ok && data.product) setFetchedProduct(data.product);
+        })
+        .catch(() => {});
+    }
+  }, [id]);
+
+  const p = useMemo(() => {
+    return fetchedProduct || PRODUCTS.find((x) => x.id === id) || null;
+  }, [fetchedProduct, PRODUCTS, id]);
+
   const [shot, setShot] = useState(0);
+  const [shotError, setShotError] = useState(false);
   const [tab, setTab] = useState(TABS[0]);
   const [copied, setCopied] = useState(false);
 
@@ -66,20 +84,34 @@ export default function Product() {
 
   const related = useMemo(
     () => (p ? PRODUCTS.filter((x) => x.cat === p.cat && x.id !== p.id && x.img).slice(0, 4) : []),
-    [p],
+    [p, PRODUCTS],
   );
 
   // the mockup shows a thumbnail strip; we build it from the sibling shots on file
   const shots = useMemo(() => {
     if (!p) return [];
+    if (p.images && p.images.length > 0) return p.images;
     const others = PRODUCTS.filter((x) => x.cat === p.cat && x.img && x.img !== p.img)
       .map((x) => x.img)
       .filter((v, i, a) => a.indexOf(v) === i)
       .slice(0, 3);
     return [p.img, ...others].filter(Boolean);
-  }, [p]);
+  }, [p, PRODUCTS]);
 
   if (!p) {
+    if (!loaded) {
+      return (
+        <section className="sec" style={{ paddingTop: "var(--s8)" }}>
+          <div className="wrap empty" style={{ minHeight: "320px", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+            <span className="tile tile-lg" style={{ margin: "0 auto var(--s4)" }}>
+              <Icon name="bolt" size={24} style={{ animation: "spin 1s linear infinite" }} />
+            </span>
+            <h2 className="h3">Loading product from Zoho…</h2>
+            <p className="muted">Fetching real-time product details and live dealer pricing.</p>
+          </div>
+        </section>
+      );
+    }
     return (
       <section className="sec">
         <div className="wrap empty">
@@ -147,10 +179,14 @@ export default function Product() {
           {/* ---- gallery ---- */}
           <div className="gallery">
             <div className="gallery-main">
-              {shots.length ? (
-                <img src={`/img/${shots[shot]}`} alt={`${p.name}, view ${shot + 1}`} />
+              {shots.length && !shotError ? (
+                <img
+                  src={shots[shot]?.startsWith("http") ? shots[shot] : `/img/${shots[shot]}`}
+                  alt={`${p.name}, view ${shot + 1}`}
+                  onError={() => setShotError(true)}
+                />
               ) : (
-                <Icon name="stove" size={90} style={{ color: "var(--tx-3)" }} />
+                <Icon name={p.cat === "chimneys" ? "chimney" : p.cat === "small_appliances" ? "blender" : "stove"} size={90} style={{ color: "var(--tx-3)" }} />
               )}
               {tag && <span className={`badge badge-${tag.kind === "blue" ? "blue" : ""} prod-tag`}>{tag.label}</span>}
             </div>
@@ -164,14 +200,31 @@ export default function Product() {
                       className="dot"
                       aria-current={i === shot}
                       aria-label={`View ${i + 1}`}
-                      onClick={() => setShot(i)}
+                      onClick={() => {
+                        setShot(i);
+                        setShotError(false);
+                      }}
                     />
                   ))}
                 </div>
                 <div className="thumbs">
                   {shots.map((s, i) => (
-                    <button key={s} className="thumb" aria-pressed={i === shot} onClick={() => setShot(i)}>
-                      <img src={`/img/${s}`} alt="" />
+                    <button
+                      key={s}
+                      className="thumb"
+                      aria-pressed={i === shot}
+                      onClick={() => {
+                        setShot(i);
+                        setShotError(false);
+                      }}
+                    >
+                      <img
+                        src={s?.startsWith("http") ? s : `/img/${s}`}
+                        alt=""
+                        onError={(e) => {
+                          e.currentTarget.style.display = "none";
+                        }}
+                      />
                     </button>
                   ))}
                 </div>

@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { SCHEMES, COMPANY } from "../data/site";
 import { isDealer, useSession } from "../data/session";
-import { CATEGORIES } from "../data/products";
 import { Icon } from "../ui";
 
 const TABS = [

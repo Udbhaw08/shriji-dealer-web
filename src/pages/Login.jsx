@@ -5,135 +5,41 @@ import { setSession, signOut, useSession } from "../data/session";
 import { COMPANY } from "../data/site";
 import { Icon } from "../ui";
 
-/* Connected to Zoho Books & Commerce.
-   When a dealer applies, a contact is created in Zoho.
-   When an admin approves them in Zoho, their dealer pricing unlocks here.
-   See docs/ROLES-AND-SHARING.md and docs/ZOHO-INTEGRATION.md */
-
-function Card({ title, sub, foot, children, className = "" }) {
-  return (
-    <section className={`authcard ${className}`.trim()}>
-      <div className="authcard-head">
-        <h2>{title}</h2>
-        {sub && <p>{sub}</p>}
-      </div>
-      <div className="authcard-body">{children}</div>
-      {foot && <p className="note authcard-foot">{foot}</p>}
-    </section>
-  );
-}
-
-function Field({ id, label, error, ...rest }) {
-  return (
-    <p className="field">
-      <label htmlFor={id}>{label}</label>
-      <input id={id} {...rest} />
-      {error && <span style={{ color: "var(--red-600, #dc2626)", fontSize: "0.8rem", marginTop: "4px" }}>{error}</span>}
-    </p>
-  );
-}
-
-function Apply() {
-  const [form, setForm] = useState({ shop: "", person: "", phone: "", email: "", city: "", gst: "" });
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState("");
-
-  const set = (k) => (e) => setForm((v) => ({ ...v, [k]: e.target.value }));
-  const ok = form.shop.trim() && form.person.trim() && form.phone.trim();
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    if (!ok || loading) return;
-    setLoading(true);
-    setError("");
-
-    try {
-      const res = await fetch("/api/dealer/apply", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
-      });
-
-      const data = await res.json();
-      if (!res.ok || data.error) {
-        throw new Error(data.error || "Failed to submit dealer application to Zoho.");
-      }
-
-      setSession({
-        role: "dealer",
-        status: "pending",
-        dealerId: data.dealer?.id,
-        dealer: data.dealer,
-        shop: form.shop,
-        person: form.person,
-        phone: form.phone,
-        city: form.city,
-      });
-    } catch (err) {
-      setError(err.message);
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  return (
-    <Card
-      title="Apply for dealer access"
-      sub={`Stocking or planning to stock Sunshine? Apply here and ${COMPANY.legal} will approve your account in Zoho.`}
-      foot="Once approved in Zoho, your account automatically unlocks wholesale dealer pricing and share links."
-    >
-      <form onSubmit={handleSubmit} style={{ display: "contents" }}>
-        <div className="form-grid">
-          <Field id="shop" label="Shop / firm name *" required value={form.shop} onChange={set("shop")} placeholder="e.g. Shah Electronics" />
-          <Field id="person" label="Contact person *" required value={form.person} onChange={set("person")} placeholder="e.g. Kunal Shah" />
-          <Field id="phone" label="Mobile number *" type="tel" required value={form.phone} onChange={set("phone")} placeholder="e.g. 98200 12345" />
-          <Field id="email" label="Email address" type="email" value={form.email} onChange={set("email")} placeholder="dealer@example.com" />
-          <Field id="city" label="City / Region" value={form.city} onChange={set("city")} placeholder="e.g. Mumbai" />
-          <Field id="gst" label="GST Number (optional)" value={form.gst} onChange={set("gst")} placeholder="27AAAPT2184Q1Z2" />
-        </div>
-
-        {error && (
-          <div style={{ padding: "8px 12px", background: "var(--red-50, #fef2f2)", color: "var(--red-700, #b91c1c)", borderRadius: "var(--r-md)", fontSize: "0.85rem" }}>
-            {error}
-          </div>
-        )}
-
-        <button
-          type="submit"
-          className="btn btn-navy btn-block"
-          disabled={!ok || loading}
-        >
-          {loading ? "Connecting with Zoho..." : "Submit application to Zoho"}
-        </button>
-      </form>
-    </Card>
-  );
-}
-
-function DealerSignIn() {
-  const [phone, setPhone] = useState("");
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState("");
-  const [showDemo, setShowDemo] = useState(false);
-  const [picked, setPicked] = useState(DEALERS[0].id);
+export default function Login() {
+  const s = useSession();
   const nav = useNavigate();
+  const [activeTab, setActiveTab] = useState("dealer"); // "dealer" | "customer" | "apply"
 
-  const handleLogin = async (e) => {
-    e.preventDefault();
-    if (!phone.trim() || loading) return;
-    setLoading(true);
-    setError("");
+  // Dealer login states
+  const [phone, setPhone] = useState("");
+  const [dealerLoading, setDealerLoading] = useState(false);
+  const [dealerError, setDealerError] = useState("");
+
+  // Application form states
+  const [applyForm, setApplyForm] = useState({ shop: "", person: "", phone: "", email: "", city: "", gst: "" });
+  const [applyLoading, setApplyLoading] = useState(false);
+  const [applyError, setApplyError] = useState("");
+
+  // Pending approval refresh states
+  const [refreshing, setRefreshing] = useState(false);
+  const [refreshMsg, setRefreshMsg] = useState("");
+
+  const handleDealerLogin = async (inputVal) => {
+    const val = (inputVal || phone).trim();
+    if (!val || dealerLoading) return;
+    setDealerLoading(true);
+    setDealerError("");
 
     try {
       const res = await fetch("/api/dealer/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ phone: phone.trim() }),
+        body: JSON.stringify({ phone: val }),
       });
 
       const data = await res.json();
       if (!res.ok || data.error) {
-        throw new Error(data.error || "No dealer account found.");
+        throw new Error(data.error || "No dealer account found in Zoho with that phone/email.");
       }
 
       const d = data.dealer;
@@ -152,91 +58,54 @@ function DealerSignIn() {
         nav("/products");
       }
     } catch (err) {
-      setError(err.message);
+      setDealerError(err.message);
     } finally {
-      setLoading(false);
+      setDealerLoading(false);
     }
   };
 
-  return (
-    <Card
-      title="Dealer sign in"
-      sub="Approved retail partners see trade pricing, schemes, and shareable customer links."
-      foot={`Verified in real-time against Zoho contacts.`}
-    >
-      <form onSubmit={handleLogin} style={{ display: "contents" }}>
-        <p className="field">
-          <label htmlFor="dealer-phone">Registered Mobile or Email</label>
-          <input
-            id="dealer-phone"
-            type="text"
-            required
-            value={phone}
-            onChange={(e) => setPhone(e.target.value)}
-            placeholder="e.g. 9869861700 or dealer@shop.com"
-          />
-        </p>
+  const handleCustomerLogin = (name = "Customer") => {
+    setSession({
+      role: "customer",
+      person: name,
+    });
+    nav("/products");
+  };
 
-        {error && (
-          <div style={{ padding: "8px 12px", background: "var(--red-50, #fef2f2)", color: "var(--red-700, #b91c1c)", borderRadius: "var(--r-md)", fontSize: "0.85rem" }}>
-            {error}
-          </div>
-        )}
+  const handleApplySubmit = async (e) => {
+    e.preventDefault();
+    if (!applyForm.shop.trim() || !applyForm.person.trim() || !applyForm.phone.trim() || applyLoading) return;
+    setApplyLoading(true);
+    setApplyError("");
 
-        <button
-          type="submit"
-          className="btn btn-navy btn-block"
-          disabled={!phone.trim() || loading}
-        >
-          <Icon name="lock" /> {loading ? "Verifying with Zoho..." : "Sign in as dealer"}
-        </button>
-      </form>
+    try {
+      const res = await fetch("/api/dealer/apply", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(applyForm),
+      });
 
-      <div style={{ marginTop: "var(--s1)", textAlign: "center" }}>
-        <button
-          type="button"
-          onClick={() => setShowDemo(!showDemo)}
-          style={{ background: "none", border: "none", color: "var(--tx-3)", fontSize: "0.8rem", cursor: "pointer", textDecoration: "underline" }}
-        >
-          {showDemo ? "Hide demo accounts" : "Need a quick demo account?"}
-        </button>
-      </div>
+      const data = await res.json();
+      if (!res.ok || data.error) {
+        throw new Error(data.error || "Failed to submit dealer application to Zoho.");
+      }
 
-      {showDemo && (
-        <div style={{ padding: "12px", background: "var(--bg-subtle, #f8fafc)", borderRadius: "var(--r-md)", marginTop: "4px" }}>
-          <p className="field" style={{ margin: 0 }}>
-            <label htmlFor="demo-acct" style={{ fontSize: "0.8rem" }}>Sample dealer</label>
-            <select id="demo-acct" value={picked} onChange={(e) => setPicked(e.target.value)}>
-              {DEALERS.map((d) => (
-                <option key={d.id} value={d.id}>
-                  {d.name} · {d.id}
-                </option>
-              ))}
-            </select>
-          </p>
-          <button
-            type="button"
-            className="btn btn-ghost btn-block"
-            style={{ marginTop: "8px" }}
-            onClick={() => {
-              setSession({ role: "dealer", status: "approved", dealerId: picked });
-              nav("/products");
-            }}
-          >
-            Sign in as demo dealer
-          </button>
-        </div>
-      )}
-    </Card>
-  );
-}
-
-export default function Login() {
-  const s = useSession();
-  const nav = useNavigate();
-  const dealer = s.dealer || (s.dealerId ? dealerById(s.dealerId) : null);
-  const [refreshing, setRefreshing] = useState(false);
-  const [refreshMsg, setRefreshMsg] = useState("");
+      setSession({
+        role: "dealer",
+        status: "pending",
+        dealerId: data.dealer?.id,
+        dealer: data.dealer,
+        shop: applyForm.shop,
+        person: applyForm.person,
+        phone: applyForm.phone,
+        city: applyForm.city,
+      });
+    } catch (err) {
+      setApplyError(err.message);
+    } finally {
+      setApplyLoading(false);
+    }
+  };
 
   const checkApprovalStatus = async () => {
     if (!s.phone) return;
@@ -261,10 +130,10 @@ export default function Login() {
             phone: data.dealer.phone,
             city: data.dealer.city,
           });
-          setRefreshMsg("🎉 Approved! Your dealer pricing has been unlocked.");
-          nav("/products");
+          setRefreshMsg("🎉 Approved in Zoho! Your trade pricing and price list are unlocked.");
+          setTimeout(() => nav("/products"), 1200);
         } else {
-          setRefreshMsg("Still pending review by Shriji admin in Zoho.");
+          setRefreshMsg("Status: Contact is in Zoho, waiting for admin approval.");
         }
       }
     } catch {
@@ -274,187 +143,438 @@ export default function Login() {
     }
   };
 
-  /* ---- signed in as an approved dealer ---- */
+  const dealer = s.dealer || (s.dealerId ? dealerById(s.dealerId) : null);
+
+  // ----------------------------------------------------
+  // VIEW 1: ALREADY LOGGED IN AS APPROVED DEALER
+  // ----------------------------------------------------
   if (s.role === "dealer" && s.status === "approved" && dealer) {
     return (
-      <Shell title="Your dealer account" lead={`Signed in as ${dealer.person || dealer.name}.`} narrow>
-        <Card
-          title={dealer.name}
-          sub={`${dealer.person || dealer.name} · ${dealer.city || "Verified Partner"}`}
-          foot="You see dealer pricing on all product pages. Links you share with customers never carry it."
-        >
-          <span className="badge">{dealer.tier || "Verified Dealer"}</span>
-          <table className="spec">
-            <tbody>
-              <tr>
-                <th scope="row">Dealer ID</th>
-                <td>{dealer.id}</td>
-              </tr>
-              {dealer.phone && (
-                <tr>
-                  <th scope="row">Registered Contact</th>
-                  <td>{dealer.phone}</td>
-                </tr>
-              )}
-              <tr>
-                <th scope="row">Trade Rebate</th>
-                <td>{dealer.rebatePct || 20}% off MRP</td>
-              </tr>
-            </tbody>
-          </table>
-          <Link className="btn btn-navy btn-block" to="/products">
-            <Icon name="stove" /> Browse products with trade pricing
-          </Link>
-          <button className="btn btn-ghost btn-block" onClick={signOut}>
-            Sign out
-          </button>
-        </Card>
-      </Shell>
+      <section className="sec" style={{ paddingTop: "var(--s6)" }}>
+        <div className="wrap" style={{ maxWidth: 680 }}>
+          <div className="authcard" style={{ borderTop: "4px solid var(--blue-600, #2563eb)" }}>
+            <div className="authcard-head">
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 12 }}>
+                <div>
+                  <span className="badge badge-ok" style={{ marginBottom: "8px" }}>
+                    ✓ Active Dealer Portal
+                  </span>
+                  <h2 style={{ fontSize: "1.4rem" }}>{dealer.name}</h2>
+                  <p style={{ margin: "4px 0 0" }}>
+                    {dealer.person || dealer.name} · {dealer.city || "Verified Partner"}
+                  </p>
+                </div>
+                <button
+                  className="btn btn-ghost btn-sm"
+                  onClick={signOut}
+                  style={{ color: "var(--tx-3)" }}
+                  title="Sign out of dealer session"
+                >
+                  Sign out
+                </button>
+              </div>
+            </div>
+
+            <div className="authcard-body" style={{ marginTop: "var(--s3)" }}>
+              <div style={{ background: "var(--bg-subtle, #f8fafc)", padding: "14px 18px", borderRadius: "var(--r-md)", border: "1px solid var(--line)" }}>
+                <table className="spec" style={{ margin: 0 }}>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Dealer ID</th>
+                      <td><b>{dealer.id}</b></td>
+                    </tr>
+                    {dealer.phone && (
+                      <tr>
+                        <th scope="row">Registered Mobile</th>
+                        <td>{dealer.phone}</td>
+                      </tr>
+                    )}
+                    <tr>
+                      <th scope="row">Assigned Price List</th>
+                      <td>
+                        {dealer.pricebookName ? (
+                          <span style={{ display: "inline-flex", alignItems: "center", gap: 6, background: "var(--blue-50, #eff6ff)", color: "var(--blue-700, #1d4ed8)", padding: "2px 8px", borderRadius: 4, fontWeight: 700 }}>
+                            <Icon name="tag" size={14} /> {dealer.pricebookName}
+                          </span>
+                        ) : (
+                          <span style={{ color: "var(--tx-3)" }}>Standard Trade Discount</span>
+                        )}
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Default Trade Rebate</th>
+                      <td><b>{dealer.rebatePct || 20}% off MRP</b></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "10px", marginTop: "var(--s3)" }}>
+                <Link className="btn btn-navy btn-block" to="/products" style={{ textAlign: "center" }}>
+                  <Icon name="stove" size={17} /> Browse Trade Catalog
+                </Link>
+                <button
+                  className="btn btn-ghost btn-block"
+                  onClick={() => handleCustomerLogin("Customer")}
+                >
+                  Switch to Customer View
+                </button>
+              </div>
+
+              <p className="note" style={{ textAlign: "center", marginTop: "4px" }}>
+                You see wholesale dealer rates. Any link you share with customers automatically opens retail MRP.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     );
   }
 
-  /* ---- application submitted, waiting on the Zoho admin ---- */
+  // ----------------------------------------------------
+  // VIEW 2: APPLICATION PENDING IN ZOHO
+  // ----------------------------------------------------
   if (s.role === "dealer" && s.status === "pending") {
     return (
-      <Shell title="Application under review" lead={`${COMPANY.legal} reviews every dealer application in Zoho.`} narrow>
-        <Card
-          title={`Thanks, ${s.person || s.shop || "Partner"}`}
-          sub={`Your application for ${s.shop || "your shop"} has been submitted to Zoho. Once an admin approves your contact in Zoho, your dealer pricing and schemes will unlock automatically.`}
-          foot={
-            <>
-              Until approved you browse at standard MRP. Need immediate approval? Call{" "}
-              <a className="link" href={`tel:${COMPANY.phone.replace(/\s/g, "")}`}>
-                {COMPANY.phone}
-              </a>
-            </>
-          }
-        >
-          <span className="badge badge-warn">Pending Zoho approval</span>
-          
-          <table className="spec">
-            <tbody>
-              {s.shop && (
-                <tr>
-                  <th scope="row">Firm / Shop</th>
-                  <td>{s.shop}</td>
-                </tr>
-              )}
-              {s.person && (
-                <tr>
-                  <th scope="row">Applicant</th>
-                  <td>{s.person}</td>
-                </tr>
-              )}
-              {s.phone && (
-                <tr>
-                  <th scope="row">Phone</th>
-                  <td>{s.phone}</td>
-                </tr>
-              )}
-            </tbody>
-          </table>
-
-          {refreshMsg && (
-            <div style={{ padding: "8px 12px", background: "var(--blue-50, #eff6ff)", color: "var(--blue-700, #1d4ed8)", borderRadius: "var(--r-md)", fontSize: "0.85rem" }}>
-              {refreshMsg}
+      <section className="sec" style={{ paddingTop: "var(--s6)" }}>
+        <div className="wrap" style={{ maxWidth: 640 }}>
+          <div className="authcard" style={{ borderTop: "4px solid var(--amber-500, #f59e0b)" }}>
+            <div className="authcard-head">
+              <span className="badge badge-warn" style={{ marginBottom: "8px" }}>
+                ⏳ Pending Admin Approval in Zoho
+              </span>
+              <h2 style={{ fontSize: "1.3rem" }}>Application Submitted, {s.person || s.shop || "Partner"}</h2>
+              <p>
+                Your application for <b>{s.shop || "your firm"}</b> has been registered in Zoho Books. Once our distribution team activates your account in Zoho, your wholesale pricing unlocks immediately.
+              </p>
             </div>
-          )}
 
-          <button
-            className="btn btn-navy btn-block"
-            onClick={checkApprovalStatus}
-            disabled={refreshing}
-          >
-            <Icon name="check" size={16} /> {refreshing ? "Checking Zoho..." : "Check / Refresh approval status"}
-          </button>
+            <div className="authcard-body">
+              <div style={{ background: "var(--bg-subtle, #f8fafc)", padding: "12px 16px", borderRadius: "var(--r-md)", border: "1px solid var(--line)" }}>
+                <table className="spec" style={{ margin: 0 }}>
+                  <tbody>
+                    {s.shop && (
+                      <tr>
+                        <th scope="row">Shop / Firm</th>
+                        <td>{s.shop}</td>
+                      </tr>
+                    )}
+                    {s.person && (
+                      <tr>
+                        <th scope="row">Applicant</th>
+                        <td>{s.person}</td>
+                      </tr>
+                    )}
+                    {s.phone && (
+                      <tr>
+                        <th scope="row">Phone</th>
+                        <td>{s.phone}</td>
+                      </tr>
+                    )}
+                  </tbody>
+                </table>
+              </div>
 
-          <Link className="btn btn-ghost btn-block" to="/products">
-            Browse products at MRP
-          </Link>
-          <button className="btn btn-ghost btn-block" onClick={signOut}>
-            Sign out / Switch account
-          </button>
-        </Card>
+              {refreshMsg && (
+                <div style={{ padding: "10px 14px", background: "var(--blue-50, #eff6ff)", color: "var(--blue-700, #1d4ed8)", borderRadius: "var(--r-md)", fontSize: "0.88rem", fontWeight: 500 }}>
+                  {refreshMsg}
+                </div>
+              )}
 
-        <Card
-          className="demo-note"
-          title="Demo shortcut"
-          sub="Want to test without opening Zoho? Simulate an approval right here:"
-        >
-          <button
-            className="btn btn-navy btn-block"
-            onClick={() => setSession({ role: "dealer", status: "approved", dealerId: DEALERS[0].id, dealer: DEALERS[0] })}
-          >
-            <Icon name="check" size={16} /> Simulate admin approval
-          </button>
-        </Card>
-      </Shell>
+              <button
+                className="btn btn-navy btn-block"
+                onClick={checkApprovalStatus}
+                disabled={refreshing}
+              >
+                <Icon name="bolt" size={16} style={{ animation: refreshing ? "spin 1s linear infinite" : "none" }} />
+                {refreshing ? "Verifying with Zoho..." : "Check / Refresh Approval Status"}
+              </button>
+
+              <div style={{ display: "flex", gap: "10px", marginTop: "4px" }}>
+                <Link className="btn btn-ghost btn-block" to="/products">
+                  Browse catalog at MRP
+                </Link>
+                <button className="btn btn-ghost btn-block" onClick={signOut}>
+                  Sign out / Switch
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     );
   }
 
-  /* ---- signed in as a customer ---- */
-  if (s.role === "customer") {
-    return (
-      <Shell title="You are signed in" lead="Browsing as a customer.">
-        <Card
-          title="Customer account"
-          sub="Every product shows MRP. Dealer pricing is only available to approved retail partners."
-        >
-          <Link className="btn btn-navy btn-block" to="/products">
-            Browse products
-          </Link>
-          <button className="btn btn-ghost btn-block" onClick={signOut}>
-            Sign out
-          </button>
-        </Card>
-        <Apply />
-      </Shell>
-    );
-  }
-
-  /* ---- guest ---- */
-  return (
-    <Shell
-      title="Sign in"
-      lead="Approved dealers see trade pricing and customer sharing tools. Everyone else browses at MRP."
-    >
-      <DealerSignIn />
-
-      <Card
-        title="Continue as a customer"
-        sub="Browse the full Sunshine range at MRP and reach your nearest dealer."
-        foot="No dealer application needed. Signing in saves your view."
-      >
-        <button
-          className="btn btn-navy btn-block"
-          onClick={() => {
-            setSession({ role: "customer", person: "Customer" });
-            nav("/products");
-          }}
-        >
-          Continue as customer
-        </button>
-        <Link className="btn btn-ghost btn-block" to="/products">
-          Browse without signing in
-        </Link>
-      </Card>
-
-      <Apply />
-    </Shell>
-  );
-}
-
-function Shell({ title, lead, narrow, children }) {
+  // ----------------------------------------------------
+  // VIEW 3: SIGN IN SCREEN (TABBED INTERFACE)
+  // ----------------------------------------------------
   return (
     <section className="sec" style={{ paddingTop: "var(--s6)" }}>
-      <div className="wrap">
-        <h1 className="d2">{title}</h1>
-        {lead && (
+      <div className="wrap" style={{ maxWidth: 740 }}>
+        {/* Top Header */}
+        <div style={{ textAlign: "center", marginBottom: "var(--s5)" }}>
+          <h1 className="d2">Account Access</h1>
           <p className="sub" style={{ marginTop: "var(--s2)" }}>
-            {lead}
+            Select your role below to access wholesale dealer pricing or browse as a retail customer.
           </p>
+
+          {/* Segmented Pill Tabs */}
+          <div className="tabs" role="tablist" style={{ marginTop: "var(--s4)", display: "inline-flex" }}>
+            <button
+              className="tab"
+              role="tab"
+              aria-selected={activeTab === "dealer"}
+              onClick={() => setActiveTab("dealer")}
+            >
+              🏢 Dealer Sign In
+            </button>
+            <button
+              className="tab"
+              role="tab"
+              aria-selected={activeTab === "customer"}
+              onClick={() => setActiveTab("customer")}
+            >
+              👤 Customer Access
+            </button>
+            <button
+              className="tab"
+              role="tab"
+              aria-selected={activeTab === "apply"}
+              onClick={() => setActiveTab("apply")}
+            >
+              📝 Apply for Dealership
+            </button>
+          </div>
+        </div>
+
+        {/* TAB 1: DEALER SIGN IN */}
+        {activeTab === "dealer" && (
+          <div className="authcard rise" style={{ borderTop: "4px solid var(--blue-600, #2563eb)" }}>
+            <div className="authcard-head">
+              <h2>Authorized Dealer Login</h2>
+              <p>
+                Sign in with your registered mobile number or email. Real-time verified against Zoho Books Contacts.
+              </p>
+            </div>
+
+            <div className="authcard-body">
+              <form onSubmit={(e) => { e.preventDefault(); handleDealerLogin(); }} style={{ display: "contents" }}>
+                <p className="field">
+                  <label htmlFor="dealer-phone">Registered Mobile or Email</label>
+                  <input
+                    id="dealer-phone"
+                    type="text"
+                    required
+                    value={phone}
+                    onChange={(e) => setPhone(e.target.value)}
+                    placeholder="e.g. 7896543217 or 9820012345"
+                    autoComplete="tel"
+                  />
+                </p>
+
+                {dealerError && (
+                  <div style={{ padding: "8px 12px", background: "var(--red-50, #fef2f2)", color: "var(--red-700, #b91c1c)", borderRadius: "var(--r-md)", fontSize: "0.85rem" }}>
+                    {dealerError}
+                  </div>
+                )}
+
+                <button
+                  type="submit"
+                  className="btn btn-navy btn-block"
+                  disabled={!phone.trim() || dealerLoading}
+                  style={{ padding: "12px", fontSize: "1rem" }}
+                >
+                  <Icon name="lock" size={16} />
+                  {dealerLoading ? "Verifying with Zoho..." : "Sign in to Dealer Portal"}
+                </button>
+              </form>
+
+              {/* Quick 1-Click Client Testing Chips */}
+              <div style={{ marginTop: "var(--s4)", padding: "14px 16px", background: "var(--bg-subtle, #f8fafc)", borderRadius: "var(--r-md)", border: "1px dashed var(--blue-300, #93c5fd)" }}>
+                <p style={{ margin: "0 0 10px", fontSize: "0.82rem", fontWeight: 700, color: "var(--blue-900, #1e3a8a)", display: "flex", alignItems: "center", gap: 6 }}>
+                  <Icon name="bolt" size={15} /> 1-Click Test Accounts for Client Testing:
+                </p>
+                <div style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
+                  <button
+                    type="button"
+                    className="btn btn-white btn-sm"
+                    style={{ borderColor: "var(--blue-300)", fontWeight: 600, fontSize: "0.82rem" }}
+                    onClick={() => {
+                      setPhone("7896543217");
+                      handleDealerLogin("7896543217");
+                    }}
+                  >
+                    ⚡ Test Dealer: hello (Mumbai PL May 2026)
+                  </button>
+                  <button
+                    type="button"
+                    className="btn btn-white btn-sm"
+                    style={{ borderColor: "var(--line)", fontWeight: 600, fontSize: "0.82rem" }}
+                    onClick={() => {
+                      setSession({ role: "dealer", status: "approved", dealerId: DEALERS[0].id, dealer: DEALERS[0] });
+                      nav("/products");
+                    }}
+                  >
+                    🏢 Shah Electronics (22% Rebate)
+                  </button>
+                  <button
+                    type="button"
+                    className="btn btn-white btn-sm"
+                    style={{ borderColor: "var(--line)", fontWeight: 600, fontSize: "0.82rem" }}
+                    onClick={() => {
+                      setSession({ role: "dealer", status: "approved", dealerId: DEALERS[1].id, dealer: DEALERS[1] });
+                      nav("/products");
+                    }}
+                  >
+                    🏪 Rajesh Appliances (19% Rebate)
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <p className="note authcard-foot" style={{ textAlign: "center" }}>
+              New dealer? <button type="button" className="link" onClick={() => setActiveTab("apply")}>Apply for dealer access</button> or <button type="button" className="link" onClick={() => setActiveTab("customer")}>browse as customer</button>.
+            </p>
+          </div>
         )}
-        <div className={`authgrid${narrow ? " authgrid-narrow" : ""}`}>{children}</div>
+
+        {/* TAB 2: CUSTOMER ACCESS */}
+        {activeTab === "customer" && (
+          <div className="authcard rise" style={{ borderTop: "4px solid var(--navy, #0f172a)" }}>
+            <div className="authcard-head">
+              <h2>Customer View (Retail MRP)</h2>
+              <p>
+                Browse the complete Sunshine kitchen range at standard MRP, find nearby dealers, and connect on WhatsApp.
+              </p>
+            </div>
+
+            <div className="authcard-body">
+              <div style={{ background: "var(--bg-subtle, #f8fafc)", padding: "16px", borderRadius: "var(--r-md)", border: "1px solid var(--line)" }}>
+                <ul style={{ margin: 0, paddingLeft: "1.2rem", fontSize: "0.9rem", lineHeight: 1.8, color: "var(--tx-2)" }}>
+                  <li>Browse 400+ genuine Sunshine kitchen appliances</li>
+                  <li>View official retail MRP and technical specifications</li>
+                  <li>Direct WhatsApp & Phone calling to authorized dealers</li>
+                  <li>No registration or approval needed to browse</li>
+                </ul>
+              </div>
+
+              <div style={{ display: "grid", gap: "10px", marginTop: "var(--s2)" }}>
+                <button
+                  className="btn btn-navy btn-block"
+                  style={{ padding: "12px", fontSize: "1rem" }}
+                  onClick={() => handleCustomerLogin("Customer")}
+                >
+                  <Icon name="arrowsm" size={16} /> Enter as Customer (MRP Pricing)
+                </button>
+                <Link className="btn btn-ghost btn-block" to="/products">
+                  Browse Catalog Directly
+                </Link>
+              </div>
+            </div>
+
+            <p className="note authcard-foot" style={{ textAlign: "center" }}>
+              Are you a dealer? <button type="button" className="link" onClick={() => setActiveTab("dealer")}>Sign in for wholesale trade rates</button>.
+            </p>
+          </div>
+        )}
+
+        {/* TAB 3: APPLY FOR DEALER ACCESS */}
+        {activeTab === "apply" && (
+          <div className="authcard rise" style={{ borderTop: "4px solid var(--green-600, #16a34a)" }}>
+            <div className="authcard-head">
+              <h2>Apply for Dealer Access</h2>
+              <p>
+                Stocking or planning to stock Sunshine? Submit your firm details and {COMPANY.legal} will approve your account in Zoho Books.
+              </p>
+            </div>
+
+            <div className="authcard-body">
+              <form onSubmit={handleApplySubmit} style={{ display: "contents" }}>
+                <div className="form-grid">
+                  <p className="field">
+                    <label htmlFor="apply-shop">Shop / Firm Name *</label>
+                    <input
+                      id="apply-shop"
+                      required
+                      value={applyForm.shop}
+                      onChange={(e) => setApplyForm({ ...applyForm, shop: e.target.value })}
+                      placeholder="e.g. Shah Electronics"
+                    />
+                  </p>
+                  <p className="field">
+                    <label htmlFor="apply-person">Contact Person *</label>
+                    <input
+                      id="apply-person"
+                      required
+                      value={applyForm.person}
+                      onChange={(e) => setApplyForm({ ...applyForm, person: e.target.value })}
+                      placeholder="e.g. Kunal Shah"
+                    />
+                  </p>
+                  <p className="field">
+                    <label htmlFor="apply-phone">Mobile Number *</label>
+                    <input
+                      id="apply-phone"
+                      type="tel"
+                      required
+                      value={applyForm.phone}
+                      onChange={(e) => setApplyForm({ ...applyForm, phone: e.target.value })}
+                      placeholder="e.g. 98200 12345"
+                    />
+                  </p>
+                  <p className="field">
+                    <label htmlFor="apply-email">Email Address</label>
+                    <input
+                      id="apply-email"
+                      type="email"
+                      value={applyForm.email}
+                      onChange={(e) => setApplyForm({ ...applyForm, email: e.target.value })}
+                      placeholder="dealer@example.com"
+                    />
+                  </p>
+                  <p className="field">
+                    <label htmlFor="apply-city">City / Region</label>
+                    <input
+                      id="apply-city"
+                      value={applyForm.city}
+                      onChange={(e) => setApplyForm({ ...applyForm, city: e.target.value })}
+                      placeholder="e.g. Mumbai"
+                    />
+                  </p>
+                  <p className="field">
+                    <label htmlFor="apply-gst">GST Number (optional)</label>
+                    <input
+                      id="apply-gst"
+                      value={applyForm.gst}
+                      onChange={(e) => setApplyForm({ ...applyForm, gst: e.target.value })}
+                      placeholder="27AAAPT2184Q1Z2"
+                    />
+                  </p>
+                </div>
+
+                {applyError && (
+                  <div style={{ padding: "8px 12px", background: "var(--red-50, #fef2f2)", color: "var(--red-700, #b91c1c)", borderRadius: "var(--r-md)", fontSize: "0.85rem" }}>
+                    {applyError}
+                  </div>
+                )}
+
+                <button
+                  type="submit"
+                  className="btn btn-navy btn-block"
+                  disabled={!applyForm.shop.trim() || !applyForm.person.trim() || !applyForm.phone.trim() || applyLoading}
+                  style={{ padding: "12px", fontSize: "1rem" }}
+                >
+                  <Icon name="check" size={16} />
+                  {applyLoading ? "Submitting application to Zoho..." : "Submit Application to Zoho"}
+                </button>
+              </form>
+            </div>
+
+            <p className="note authcard-foot" style={{ textAlign: "center" }}>
+              Already approved in Zoho? <button type="button" className="link" onClick={() => setActiveTab("dealer")}>Sign in directly with your registered phone</button>.
+            </p>
+          </div>
+        )}
       </div>
     </section>
   );

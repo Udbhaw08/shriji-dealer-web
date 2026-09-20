@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
-import { PRODUCTS, CATEGORIES } from "../data/products";
+import { useProducts } from "../data/productsStore";
 import { priceFor } from "../data/dealer";
 import { Icon } from "../ui";
 import ProductCard from "../components/ProductCard";
@@ -36,6 +36,7 @@ function Group({ title, options, value, onPick, className = "" }) {
 }
 
 export default function Products() {
+  const { products: PRODUCTS, categories: CATEGORIES, loaded, syncing, refresh } = useProducts();
   const [params, setParams] = useSearchParams();
   const cat = params.get("cat") || "";
   const [q, setQ] = useState("");
@@ -53,7 +54,7 @@ export default function Products() {
     const c = {};
     for (const p of PRODUCTS) c[p.cat] = (c[p.cat] || 0) + 1;
     return c;
-  }, []);
+  }, [PRODUCTS]);
 
   // Facet counts are built from the products in the current category only.
   const facets = useMemo(() => {
@@ -78,7 +79,7 @@ export default function Products() {
         .map(([v, n]) => [String(v), `${v} Burner`, n]),
       finish: tally((p) => p.finish).map(([v, n]) => [v, v, n]),
     };
-  }, [cat]);
+  }, [cat, PRODUCTS]);
 
   const pickCat = (key) => {
     const next = new URLSearchParams(params);
@@ -103,7 +104,7 @@ export default function Products() {
     });
     const fn = SORTS[sort].fn;
     return fn ? [...out].sort(fn) : out;
-  }, [cat, finish, brand, burners, ignition, q, sort]);
+  }, [cat, finish, brand, burners, ignition, q, sort, PRODUCTS]);
 
   const dirty = Boolean(cat || finish || brand || burners || ignition || q.trim());
 
@@ -123,10 +124,29 @@ export default function Products() {
     <>
       <section style={{ paddingTop: "var(--s6)" }}>
         <div className="wrap">
-          <h1 className="d2">Products</h1>
-          <p className="sub" style={{ marginTop: "var(--s2)" }}>
-            {PRODUCTS.length} Sunshine models across five categories.
-          </p>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", flexWrap: "wrap", gap: "12px" }}>
+            <div>
+              <h1 className="d2">Products</h1>
+              <p className="sub" style={{ marginTop: "var(--s2)" }}>
+                {PRODUCTS.length > 0 ? `${PRODUCTS.length} live models across ${CATEGORIES.length} categories.` : "Connecting to Zoho…"}
+                {loaded && (
+                  <span style={{ marginLeft: "8px", fontSize: "0.8rem", color: "var(--blue-600, #2563eb)", fontWeight: 600 }}>
+                    ● Live Zoho Sync
+                  </span>
+                )}
+              </p>
+            </div>
+            <button
+              onClick={() => refresh()}
+              disabled={syncing}
+              className="btn btn-ghost"
+              style={{ padding: "6px 14px", fontSize: "0.85rem", gap: "6px", display: "inline-flex", alignItems: "center" }}
+              title="Fetch fresh items directly from Zoho Commerce"
+            >
+              <Icon name="bolt" size={14} style={{ animation: syncing ? "spin 1s linear infinite" : "none" }} />
+              {syncing ? "Syncing Zoho…" : "Sync with Zoho"}
+            </button>
+          </div>
         </div>
       </section>
 
@@ -161,11 +181,17 @@ export default function Products() {
           <div className="catchips" role="group" aria-label="Filter by category">
             {CATEGORIES.map((c) => (
               <button key={c.key} className="catchip" aria-pressed={cat === c.key} onClick={() => pickCat(c.key)}>
-                <img src={c.img} alt="" />
+                <img
+                  src={c.img}
+                  alt=""
+                  onError={(e) => {
+                    e.currentTarget.src = "/img/cat-small_appliances.webp";
+                  }}
+                />
                 <span>
                   {c.label}
                   <br />
-                  <small style={{ fontWeight: 500, opacity: 0.7 }}>{counts[c.key]}</small>
+                  <small style={{ fontWeight: 500, opacity: 0.7 }}>{counts[c.key] || 0}</small>
                 </span>
               </button>
             ))}
@@ -283,7 +309,15 @@ export default function Products() {
               </label>
             </div>
 
-            {results.length === 0 ? (
+            {!loaded && PRODUCTS.length === 0 ? (
+              <div className="empty" style={{ padding: "var(--s8) var(--s4)" }}>
+                <span className="tile tile-lg" style={{ margin: "0 auto var(--s4)" }}>
+                  <Icon name="bolt" size={24} style={{ animation: "spin 1s linear infinite" }} />
+                </span>
+                <h3 className="h3">Fetching live catalog from Zoho…</h3>
+                <p className="muted">Syncing the latest products and prices directly from your Zoho Commerce store.</p>
+              </div>
+            ) : results.length === 0 ? (
               <div className="empty">
                 <span className="tile tile-lg" style={{ margin: "0 auto var(--s4)" }}>
                   <Icon name="search" size={24} />

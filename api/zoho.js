@@ -129,24 +129,8 @@ export async function findDealerByPhone(rawPhone) {
 
   if (contacts.length === 0) return null;
 
-  const match = contacts[0];
-  const isApproved = match.status === "active" || match.portal_status === "enabled";
-  const resolvedPhone = match.phone || match.mobile || cleanPhone;
-  let digits = String(resolvedPhone).replace(/\D/g, "");
-  if (digits.length === 10) digits = `91${digits}`;
-
-  return {
-    id: match.contact_id,
-    name: match.company_name || match.contact_name,
-    person: match.first_name ? `${match.first_name} ${match.last_name || ""}`.trim() : (match.contact_name || match.company_name),
-    phone: resolvedPhone,
-    phoneRaw: digits,
-    city: match.place_of_contact_formatted || match.place_of_contact || "",
-    status: isApproved ? "approved" : "pending",
-    rawStatus: match.status,
-    tier: isApproved ? "Verified Dealer" : "Pending Verification",
-    rebatePct: 20, // default dealer discount on MRP
-  };
+  // Crucial: fetch the full contact record so pricebook_id, pricebook_name, and portal_status are always fresh!
+  return await getDealerById(contacts[0].contact_id);
 }
 
 /**
@@ -183,6 +167,8 @@ export async function getDealerById(contactId) {
     rawStatus: c.status,
     tier: isApproved ? "Verified Dealer" : "Pending Verification",
     rebatePct: 20,
+    pricebookId: c.pricebook_id || "",
+    pricebookName: c.pricebook_name || "",
   };
 }
 
@@ -264,4 +250,195 @@ export async function createDealerContact({ shop, person, phone, email, city, gs
     status: "pending",
     message: "Application successfully submitted to Zoho! It is placed under review.",
   };
+}
+
+// ---------------- Live Zoho Commerce Catalog Fetcher ---------------- //
+
+let cachedProducts = null;
+let productsCacheTime = 0;
+let cachedCategories = null;
+
+function slugifyCategory(name) {
+  if (!name) return "appliances";
+  const lower = name.toLowerCase().trim();
+  if (lower.includes("stove")) return "gas_stoves";
+  if (lower.includes("hob top") || lower.includes("hob_top")) return "hob_tops";
+  if (lower.includes("hob")) return "hobs";
+  if (lower.includes("chimney")) return "chimneys";
+  if (lower.includes("small") || lower.includes("kettle") || lower.includes("cooker")) return "small_appliances";
+  if (lower.includes("geyser") || lower.includes("water heater")) return "gas_geysers";
+  if (lower.includes("flour") || lower.includes("natraj")) return "natraj_flour_mill";
+  if (lower.includes("spare")) return "spares";
+  return lower.replace(/[^a-z0-9]+/g, "_").replace(/^_+|_+$/g, "") || "appliances";
+}
+
+function normalizeProduct(p) {
+  const variant = p.variants?.[0] || {};
+  const docs = p.documents?.length ? p.documents : (variant.documents || []);
+  const primaryDoc = docs[0] || (p.document_id && p.document_name ? { file_name: p.document_name, document_id: p.document_id } : null);
+
+  const cdnBase = "https://cdn2.zohoecommerce.com/product-images/";
+  const domainParam = "?storefront_domain=www.shrijidomestic.com";
+
+  const buildDocUrl = (d) => {
+    if (!d || !d.file_name) return "";
+    if (d.document_id) {
+      return `${cdnBase}${encodeURIComponent(d.file_name)}/${d.document_id}/600x600${domainParam}`;
+    }
+    return `${cdnBase}${encodeURIComponent(d.file_name)}${domainParam}`;
+  };
+
+  const img = buildDocUrl(primaryDoc);
+  const images = docs.map(buildDocUrl).filter(Boolean);
+
+  const catName = p.category_name || p.category?.category_name || "Appliances";
+  const catKey = slugifyCategory(catName);
+
+  // Extract size (e.g. 60 cm, 90 cm)
+  const sizeMatch = p.name.match(/(\d+)\s*(?:cm|CM)/);
+  const size = sizeMatch ? `${sizeMatch[1]} cm` : "";
+
+  // Extract burners (e.g. 2B, 3B, 4 Burner)
+  const burnerMatch = p.name.match(/(\d+)\s*(?:B\b|Burner)/i);
+  const burners = burnerMatch ? Number(burnerMatch[1]) : null;
+
+  // Extract finish
+  let finish = "Standard";
+  let fkey = "steel";
+  const lowerName = p.name.toLowerCase();
+  if (lowerName.includes("glass")) {
+    finish = "Toughened Glass";
+    fkey = "glass";
+  } else if (lowerName.includes("steel") || lowerName.includes("ss")) {
+    finish = "Stainless Steel";
+    fkey = "steel";
+  } else if (lowerName.includes("black")) {
+    finish = "Black Finish";
+    fkey = "glass";
+  }
+
+  // Extract features
+  const features = [];
+  if (lowerName.includes("bldc")) features.push("BLDC Motor");
+  if (lowerName.includes("auto")) features.push("Auto Ignition");
+  if (lowerName.includes("spill")) features.push("Spill Proof");
+  if (lowerName.includes("flame")) features.push("Flame Failure Device");
+
+  const mrp = Number(variant.label_rate || p.min_rate || variant.rate || 0);
+
+  return {
+    id: p.product_id,
+    name: p.name,
+    model: p.product_short_description || p.name,
+    size,
+    burners,
+    finish,
+    fkey,
+    features,
+    brand: p.brand || "Sunshine",
+    cat: catKey,
+    catLabel: catName,
+    code: catKey.substring(0, 2).toUpperCase(),
+    mrp,
+    purchaseRate: Number(variant.purchase_rate || 0),
+    stock: p.overall_stock ?? variant.stock_on_hand ?? 0,
+    img,
+    images: images.length ? images : (img ? [img] : []),
+    description: p.description || p.product_description || "",
+    status: p.status || "active",
+  };
+}
+
+export async function fetchZohoCategories({ refresh = false } = {}) {
+  const now = Date.now();
+  if (!refresh && cachedCategories && now - productsCacheTime < 30000) {
+    return cachedCategories;
+  }
+
+  const token = await getAccessToken();
+  const { dc, orgId } = getZohoConfig();
+
+  const res = await fetch(`https://commerce.zoho.${dc}/store/api/v1/categories`, {
+    headers: {
+      Authorization: `Zoho-oauthtoken ${token}`,
+      "X-com-zoho-store-organizationid": orgId,
+    },
+  });
+
+  const data = await res.json();
+  const rawList = data.categories || [];
+
+  const categories = rawList
+    .filter((c) => c.category_id !== "-1" && c.url !== "rootcategory" && c.name !== "ROOT" && c.name !== "Adjustments")
+    .map((c) => ({
+      id: c.category_id,
+      key: slugifyCategory(c.name),
+      label: c.name,
+      code: slugifyCategory(c.name).substring(0, 2).toUpperCase(),
+      img: `/img/cat-${slugifyCategory(c.name)}.webp`,
+    }));
+
+  cachedCategories = categories;
+  return categories;
+}
+
+export async function fetchZohoProducts({ refresh = false } = {}) {
+  const now = Date.now();
+  if (!refresh && cachedProducts && now - productsCacheTime < 30000) {
+    return cachedProducts;
+  }
+
+  const token = await getAccessToken();
+  const { dc, orgId } = getZohoConfig();
+
+  const allProducts = [];
+  let page = 1;
+  let hasMore = true;
+
+  while (hasMore) {
+    const url = `https://commerce.zoho.${dc}/store/api/v1/products?page=${page}&per_page=200`;
+    const res = await fetch(url, {
+      headers: {
+        Authorization: `Zoho-oauthtoken ${token}`,
+        "X-com-zoho-store-organizationid": orgId,
+      },
+    });
+
+    const data = await res.json();
+    const batch = data.products || [];
+    allProducts.push(...batch);
+
+    hasMore = Boolean(data.page_context?.has_more_page);
+    page += 1;
+    if (page > 10) break; // safety break
+  }
+
+  const normalized = allProducts.map(normalizeProduct);
+
+  cachedProducts = normalized;
+  productsCacheTime = now;
+  return normalized;
+}
+
+export async function fetchZohoProductById(productId) {
+  // If product is in cached list, check first
+  if (cachedProducts) {
+    const found = cachedProducts.find((p) => p.id === productId);
+    if (found && found.images?.length > 1) return found;
+  }
+
+  const token = await getAccessToken();
+  const { dc, orgId } = getZohoConfig();
+
+  const res = await fetch(`https://commerce.zoho.${dc}/store/api/v1/products/${productId}`, {
+    headers: {
+      Authorization: `Zoho-oauthtoken ${token}`,
+      "X-com-zoho-store-organizationid": orgId,
+    },
+  });
+
+  const data = await res.json();
+  if (!data.product) return null;
+
+  return normalizeProduct(data.product);
 }

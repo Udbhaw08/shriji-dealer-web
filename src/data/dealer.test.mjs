@@ -1,9 +1,13 @@
 /* node src/data/dealer.test.mjs */
 import assert from "node:assert/strict";
-import { PRODUCTS } from "./products.js";
 import { DEALERS, dealerById, inr, isDealer, priceFor, tierOf, viewerFor } from "./dealer.js";
 
-for (const p of PRODUCTS) {
+const TEST_PRODUCTS = [
+  { id: "test-stove-1", name: "Test 3B Gas Stove", mrp: 4999 },
+  { id: "test-chimney-2", name: "Test 60 Chimney", mrp: 12999 },
+];
+
+for (const p of TEST_PRODUCTS) {
   const guest = priceFor(p);
   assert.deepEqual(guest, priceFor(p), `${p.id}: price must be stable`);
   assert.equal(guest.mrp % 100, 99, `${p.id}: MRP should end in 99`);
@@ -23,7 +27,7 @@ for (const p of PRODUCTS) {
 
 // Two dealers on different rebates must not see the same number.
 const [a, b] = DEALERS;
-assert.notEqual(priceFor(PRODUCTS[0], a).dealer, priceFor(PRODUCTS[0], b).dealer);
+assert.notEqual(priceFor(TEST_PRODUCTS[0], a).dealer, priceFor(TEST_PRODUCTS[0], b).dealer);
 
 assert.equal(dealerById("nope"), null);
 assert.equal(dealerById(null), null);
@@ -61,4 +65,4 @@ assert.equal(viewerFor(guest, a.id).customerView, true);
 assert.equal(viewerFor(guest, a.id).sharedBy.name, a.name, "the customer sees which dealer shared it");
 assert.equal(viewerFor(guest, "SD-9999").sharedBy, null, "an unknown dealer id must not break the page");
 
-console.log(`ok — ${PRODUCTS.length} products × ${DEALERS.length} dealers priced`);
+console.log(`ok — ${TEST_PRODUCTS.length} test products × ${DEALERS.length} dealers priced`);

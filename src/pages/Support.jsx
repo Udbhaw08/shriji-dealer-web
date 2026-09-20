@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { PRODUCTS, CATEGORIES } from "../data/products";
 import { COMPANY, ISSUE_TYPES, MATERIALS } from "../data/site";
 import { Icon, EnquiryButtons } from "../ui";
 

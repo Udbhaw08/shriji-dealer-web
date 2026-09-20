@@ -52,6 +52,30 @@ export function signOut() {
   setSession(GUEST);
 }
 
+export function revalidateSession() {
+  const current = state;
+  const id = current?.dealerId || current?.dealer?.id;
+  if (!id) return;
+
+  fetch(`/api/dealer/info?id=${encodeURIComponent(id)}`)
+    .then((r) => r.json())
+    .then((data) => {
+      if (data.ok && data.dealer) {
+        setSession({
+          role: "dealer",
+          status: data.dealer.status, // "approved" or "pending"
+          dealerId: data.dealer.id,
+          dealer: data.dealer,
+          shop: data.dealer.name,
+          person: data.dealer.person,
+          phone: data.dealer.phone,
+          city: data.dealer.city,
+        });
+      }
+    })
+    .catch(() => {});
+}
+
 export function useSession() {
   return useSyncExternalStore(
     (fn) => {
@@ -61,5 +85,10 @@ export function useSession() {
     () => state,
     () => GUEST,
   );
+}
+
+// Automatically sync latest status & pricebook from Zoho on startup
+if (typeof window !== "undefined") {
+  revalidateSession();
 }
 
