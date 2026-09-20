@@ -1,5 +1,5 @@
 import { useSyncExternalStore } from "react";
-import { isDealer, tierOf } from "./dealer";
+import { isDealer, tierOf, registerDealer } from "./dealer";
 
 export { isDealer, tierOf };
 
@@ -21,7 +21,9 @@ export const GUEST = { role: "guest" };
 
 function load() {
   try {
-    return JSON.parse(localStorage.getItem(KEY)) || GUEST;
+    const s = JSON.parse(localStorage.getItem(KEY)) || GUEST;
+    if (s.dealer) registerDealer(s.dealer);
+    return s;
   } catch {
     return GUEST;
   }
@@ -41,6 +43,7 @@ function emit() {
 }
 
 export function setSession(next) {
+  if (next.dealer) registerDealer(next.dealer);
   state = next;
   emit();
 }

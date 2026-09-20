@@ -32,6 +32,13 @@ export const DEALERS = [
 
 export const dealerById = (id) => DEALERS.find((d) => d.id === id) || null;
 
+export function registerDealer(d) {
+  if (!d || !d.id) return;
+  const idx = DEALERS.findIndex((item) => item.id === d.id);
+  if (idx >= 0) DEALERS[idx] = { ...DEALERS[idx], ...d };
+  else DEALERS.push(d);
+}
+
 /** The signed-in dealer in the demo. Replaced by the real session after Zoho. */
 export const ACCOUNT = DEALERS[0];
 
@@ -95,7 +102,7 @@ export function tierOf(session) {
  */
 export function viewerFor(session, fromId) {
   const sharedBy = dealerById(fromId);
-  const me = isDealer(session) ? dealerById(session.dealerId) : null;
+  const me = isDealer(session) ? (dealerById(session?.dealerId) || session?.dealer || null) : null;
   return { sharedBy, me, customerView: Boolean(sharedBy) || !me };
 }
 

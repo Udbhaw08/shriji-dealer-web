@@ -79,12 +79,12 @@ function CustomerPrice({ p, sharedBy }) {
             <b>{sharedBy.name}</b>
             <small>{sharedBy.city}</small>
           </div>
-          <a className="btn btn-amber btn-block" href={`tel:${sharedBy.phone.replace(/\s/g, "")}`}>
+          <a className="btn btn-amber btn-block" href={`tel:${(sharedBy.phone || "").replace(/\s/g, "")}`}>
             <Icon name="phone" /> Contact Dealer
           </a>
           <a
             className="btn btn-wa btn-block"
-            href={`https://wa.me/${sharedBy.phoneRaw}?text=${msg}`}
+            href={`https://wa.me/${sharedBy.phoneRaw || (sharedBy.phone || "").replace(/\D/g, "")}?text=${msg}`}
             target="_blank"
             rel="noreferrer"
           >

@@ -1,8 +1,8 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Link, useParams, useSearchParams } from "react-router-dom";
 import { PRODUCTS } from "../data/products";
 import { COMPANY } from "../data/site";
-import { shareLink, tagFor, viewerFor } from "../data/dealer";
+import { registerDealer, shareLink, tagFor, viewerFor } from "../data/dealer";
 import { useSession } from "../data/session";
 import { Icon } from "../ui";
 import ProductCard from "../components/ProductCard";
@@ -43,7 +43,26 @@ export default function Product() {
 
   // A ?from= link is a customer link, full stop. Whoever opens it — including the
   // dealer who sent it — gets the customer view and no way to reach a dealer price.
-  const { sharedBy, me, customerView } = viewerFor(session, params.get("from"));
+  const fromId = params.get("from");
+  const { sharedBy: localSharedBy, me, customerView: viewerCustomerView } = viewerFor(session, fromId);
+  const [remoteSharedBy, setRemoteSharedBy] = useState(null);
+
+  useEffect(() => {
+    if (fromId && !localSharedBy && !remoteSharedBy) {
+      fetch(`/api/dealer/info?id=${encodeURIComponent(fromId)}`)
+        .then((r) => r.json())
+        .then((data) => {
+          if (data.ok && data.dealer) {
+            registerDealer(data.dealer);
+            setRemoteSharedBy(data.dealer);
+          }
+        })
+        .catch(() => {});
+    }
+  }, [fromId, localSharedBy, remoteSharedBy]);
+
+  const sharedBy = localSharedBy || remoteSharedBy;
+  const customerView = Boolean(fromId) || viewerCustomerView;
 
   const related = useMemo(
     () => (p ? PRODUCTS.filter((x) => x.cat === p.cat && x.id !== p.id && x.img).slice(0, 4) : []),
