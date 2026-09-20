@@ -54,19 +54,24 @@ const BAND = {
 const hash = (s) => [...s].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 7);
 
 // ₹8,999 reads like a price; ₹8,943 does not.
-const price99 = (n) => Math.max(99, Math.round(n / 100) * 100 - 1);
+const price99 = (n) => (n <= 0 ? 0 : Math.max(99, Math.round(n / 100) * 100 - 1));
 
 /**
- * Zoho keeps a price list per audience. Until it is wired, guests and logged-in
- * customers both pay MRP; only an approved dealer gets a rebate.
+ * Zoho keeps a price list per audience.
+ * Customers pay MRP (from Zoho Commerce store API).
+ * Approved dealers get their contract rate or default rebate.
+ * Unpriced products (mrp === 0) cleanly report Price on Request with no synthetic numbers.
+ *
  * @param {object} p product
  * @param {object} [dealer] the dealer whose contract applies, if any
  */
 export function priceFor(p, dealer) {
-  const hasRealMrp = typeof p.mrp === "number" && p.mrp > 0;
-  const [lo, hi] = BAND[p.cat] || [999, 9999];
-  const mrp = hasRealMrp ? p.mrp : price99(lo + (hash(p.id) % (hi - lo)));
+  const mrp = typeof p?.mrp === "number" && !isNaN(p.mrp) ? p.mrp : 0;
   const rebatePct = dealer ? (dealer.rebatePct || 20) : 0;
+
+  if (mrp <= 0) {
+    return { mrp: 0, dealer: 0, rebatePct: 0, isPriceOnRequest: true };
+  }
 
   let dealerNet;
   if (!dealer) {
@@ -82,7 +87,7 @@ export function priceFor(p, dealer) {
   }
 
   const rebate = dealer ? (dealerNet === 1025 ? Math.round(((mrp - 1025) / mrp) * 100) : rebatePct) : 0;
-  return { mrp, dealer: dealerNet, rebatePct: rebate };
+  return { mrp, dealer: dealerNet, rebatePct: rebate, isPriceOnRequest: false };
 }
 
 /** Bestseller / New / Premium ribbon, as on the mockup. Sample data. */
@@ -94,7 +99,10 @@ export function tagFor(p) {
   return null;
 }
 
-export const inr = (n) => `₹${n.toLocaleString("en-IN")}`;
+export const inr = (n) => {
+  if (typeof n !== "number" || n <= 0) return "Price on Request";
+  return `₹${n.toLocaleString("en-IN")}`;
+};
 
 /** The one check that gates dealer pricing. Pending applicants do not pass. */
 export function isDealer(session) {

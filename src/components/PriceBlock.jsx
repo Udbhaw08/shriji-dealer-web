@@ -21,7 +21,22 @@ export default function PriceBlock({ p, customerView, dealer, sharedBy }) {
 
 function DealerPrice({ p, dealer }) {
   const [open, setOpen] = useState(false);
-  const { dealer: net } = priceFor(p, dealer);
+  const { dealer: net, isPriceOnRequest } = priceFor(p, dealer);
+
+  if (isPriceOnRequest || net <= 0) {
+    return (
+      <div className="pricebox">
+        <div className="pricebox-l">
+          <span className="pricebox-lbl">Dealer Price</span>
+          <b className="pricebox-amt">Price on Request</b>
+          <small>Contact distributor for trade pricing</small>
+        </div>
+        <div className="pricebox-r">
+          <p className="note pricebox-note">Item unpriced in catalog</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="pricebox">
@@ -55,15 +70,15 @@ function DealerPrice({ p, dealer }) {
 }
 
 function CustomerPrice({ p, sharedBy }) {
-  const { mrp } = priceFor(p);
+  const { mrp, isPriceOnRequest } = priceFor(p);
   const msg = encodeURIComponent(`Hello, I am interested in the ${p.name}.\n${shareLink(p, sharedBy)}`);
 
   return (
     <div className="custbox">
       <div className="custbox-price">
-        <span className="pricebox-lbl">MRP</span>
-        <b className="pricebox-amt">{inr(mrp)}</b>
-        <small>(Incl. of all taxes)</small>
+        <span className="pricebox-lbl">{isPriceOnRequest || mrp <= 0 ? "Price" : "MRP"}</span>
+        <b className="pricebox-amt">{isPriceOnRequest || mrp <= 0 ? "Price on Request" : inr(mrp)}</b>
+        <small>{isPriceOnRequest || mrp <= 0 ? "Contact dealer or store for quote" : "(Incl. of all taxes)"}</small>
       </div>
 
       {sharedBy ? (

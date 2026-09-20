@@ -25,16 +25,16 @@ let tokenExpiryTime = 0;
 
 const cacheFile = path.resolve(os.tmpdir(), "webstore_zoho_token.json");
 
-export async function getAccessToken() {
+export async function getAccessToken({ forceRefresh = false } = {}) {
   const env = loadEnv();
   const now = Date.now();
 
-  if (cachedAccessToken && now < tokenExpiryTime - 60000) {
+  if (!forceRefresh && cachedAccessToken && now < tokenExpiryTime - 60000) {
     return cachedAccessToken;
   }
 
   // Check on-disk cache
-  if (fs.existsSync(cacheFile)) {
+  if (!forceRefresh && fs.existsSync(cacheFile)) {
     try {
       const diskData = JSON.parse(fs.readFileSync(cacheFile, "utf-8"));
       if (diskData.access_token && now < diskData.expires_at - 60000) {
@@ -80,6 +80,31 @@ export async function getAccessToken() {
   return cachedAccessToken;
 }
 
+/**
+ * Fetch wrapper that automatically catches 401 Unauthorized, purges cached token,
+ * requests a fresh OAuth access token, and retries the request once.
+ */
+export async function fetchZohoWithRetry(url, options = {}) {
+  let token = await getAccessToken();
+  const headers = {
+    ...(options.headers || {}),
+    Authorization: `Zoho-oauthtoken ${token}`,
+  };
+
+  let res = await fetch(url, { ...options, headers });
+  if (res.status === 401) {
+    try {
+      if (fs.existsSync(cacheFile)) fs.unlinkSync(cacheFile);
+    } catch {}
+    cachedAccessToken = null;
+    tokenExpiryTime = 0;
+    token = await getAccessToken({ forceRefresh: true });
+    headers.Authorization = `Zoho-oauthtoken ${token}`;
+    res = await fetch(url, { ...options, headers });
+  }
+  return res;
+}
+
 export function getZohoConfig() {
   const env = loadEnv();
   return {
@@ -106,23 +131,14 @@ export async function findDealerByPhone(rawPhone) {
     url += `&phone=${encodeURIComponent(cleanPhone)}`;
   }
 
-  let res = await fetch(url, {
-    headers: {
-      Authorization: `Zoho-oauthtoken ${token}`,
-    },
-  });
-
+  let res = await fetchZohoWithRetry(url);
   let data = await res.json();
   let contacts = data.contacts || [];
 
   // If not found by phone and it wasn't an email, try search_text
   if (contacts.length === 0 && !isEmail) {
     const searchUrl = `https://www.zohoapis.${dc}/books/v3/contacts?organization_id=${orgId}&search_text=${encodeURIComponent(cleanPhone)}`;
-    const searchRes = await fetch(searchUrl, {
-      headers: {
-        Authorization: `Zoho-oauthtoken ${token}`,
-      },
-    });
+    const searchRes = await fetchZohoWithRetry(searchUrl);
     const searchData = await searchRes.json();
     contacts = searchData.contacts || [];
   }
@@ -137,16 +153,10 @@ export async function findDealerByPhone(rawPhone) {
  * Fetch a specific dealer by Zoho contact ID.
  */
 export async function getDealerById(contactId) {
-  const token = await getAccessToken();
   const { dc, orgId } = getZohoConfig();
 
   const url = `https://www.zohoapis.${dc}/books/v3/contacts/${contactId}?organization_id=${orgId}`;
-  const res = await fetch(url, {
-    headers: {
-      Authorization: `Zoho-oauthtoken ${token}`,
-    },
-  });
-
+  const res = await fetchZohoWithRetry(url);
   const data = await res.json();
   if (!data.contact) return null;
 
@@ -272,6 +282,14 @@ function slugifyCategory(name) {
   return lower.replace(/[^a-z0-9]+/g, "_").replace(/^_+|_+$/g, "") || "appliances";
 }
 
+function parseRate(val) {
+  if (typeof val === "number") return val;
+  if (!val) return 0;
+  const clean = String(val).replace(/[^\d.]/g, "");
+  const n = parseFloat(clean);
+  return isNaN(n) ? 0 : n;
+}
+
 function normalizeProduct(p) {
   const variant = p.variants?.[0] || {};
   const docs = p.documents?.length ? p.documents : (variant.documents || []);
@@ -324,7 +342,14 @@ function normalizeProduct(p) {
   if (lowerName.includes("spill")) features.push("Spill Proof");
   if (lowerName.includes("flame")) features.push("Flame Failure Device");
 
-  const mrp = Number(variant.label_rate || p.min_rate || variant.rate || 0);
+  const labelRate = parseRate(variant.label_rate);
+  const sellingRate = parseRate(variant.rate);
+  const minRate = parseRate(p.min_rate);
+  const purchaseRate = parseRate(variant.purchase_rate);
+
+  // Accurate retail price (MRP): printed label price if set, else selling rate or min_rate
+  const mrp = labelRate > 0 ? labelRate : (sellingRate > 0 ? sellingRate : (minRate > 0 ? minRate : 0));
+  const sellingPrice = sellingRate > 0 ? sellingRate : (labelRate > 0 ? labelRate : (minRate > 0 ? minRate : 0));
 
   return {
     id: p.product_id,
@@ -340,12 +365,15 @@ function normalizeProduct(p) {
     catLabel: catName,
     code: catKey.substring(0, 2).toUpperCase(),
     mrp,
-    purchaseRate: Number(variant.purchase_rate || 0),
+    sellingPrice,
+    labelPrice: labelRate,
+    purchaseRate,
     stock: p.overall_stock ?? variant.stock_on_hand ?? 0,
     img,
     images: images.length ? images : (img ? [img] : []),
     description: p.description || p.product_description || "",
     status: p.status || "active",
+    showInStore: p.show_in_storefront ?? true,
   };
 }
 
@@ -355,12 +383,10 @@ export async function fetchZohoCategories({ refresh = false } = {}) {
     return cachedCategories;
   }
 
-  const token = await getAccessToken();
   const { dc, orgId } = getZohoConfig();
 
-  const res = await fetch(`https://commerce.zoho.${dc}/store/api/v1/categories`, {
+  const res = await fetchZohoWithRetry(`https://commerce.zoho.${dc}/store/api/v1/categories`, {
     headers: {
-      Authorization: `Zoho-oauthtoken ${token}`,
       "X-com-zoho-store-organizationid": orgId,
     },
   });
@@ -388,7 +414,6 @@ export async function fetchZohoProducts({ refresh = false } = {}) {
     return cachedProducts;
   }
 
-  const token = await getAccessToken();
   const { dc, orgId } = getZohoConfig();
 
   const allProducts = [];
@@ -397,9 +422,8 @@ export async function fetchZohoProducts({ refresh = false } = {}) {
 
   while (hasMore) {
     const url = `https://commerce.zoho.${dc}/store/api/v1/products?page=${page}&per_page=200`;
-    const res = await fetch(url, {
+    const res = await fetchZohoWithRetry(url, {
       headers: {
-        Authorization: `Zoho-oauthtoken ${token}`,
         "X-com-zoho-store-organizationid": orgId,
       },
     });
@@ -427,12 +451,10 @@ export async function fetchZohoProductById(productId) {
     if (found && found.images?.length > 1) return found;
   }
 
-  const token = await getAccessToken();
   const { dc, orgId } = getZohoConfig();
 
-  const res = await fetch(`https://commerce.zoho.${dc}/store/api/v1/products/${productId}`, {
+  const res = await fetchZohoWithRetry(`https://commerce.zoho.${dc}/store/api/v1/products/${productId}`, {
     headers: {
-      Authorization: `Zoho-oauthtoken ${token}`,
       "X-com-zoho-store-organizationid": orgId,
     },
   });
