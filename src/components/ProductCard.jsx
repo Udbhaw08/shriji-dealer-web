@@ -1,16 +1,13 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Icon } from "../ui";
-import { inr, priceFor, tagFor } from "../data/dealer";
-import { isDealer, useSession } from "../data/session";
+import { tagFor } from "../data/dealer";
 
+/* No price here by design — dealer pricing lives on the product detail page behind View Dealer Price. */
 export default function ProductCard({ p }) {
-  const session = useSession();
-  const dealerSession = isDealer(session) ? (session.dealer || session) : null;
   const [saved, setSaved] = useState(false);
   const [imgErr, setImgErr] = useState(false);
   const tag = tagFor(p);
-  const price = dealerSession ? priceFor(p, dealerSession) : null;
 
   return (
     <article className="prod">
@@ -42,19 +39,6 @@ export default function ProductCard({ p }) {
         <span className="prod-foot">
           <b>{p.model}</b>
           <span>{[p.size, p.features[0] || p.finish, p.catLabel].filter(Boolean).join(" · ")}</span>
-          {price && (
-            <span style={{ display: "flex", alignItems: "baseline", gap: "6px", marginTop: "4px" }}>
-              <b style={{ color: "var(--blue-700, #1d4ed8)", fontSize: "0.95rem" }}>
-                {inr(price.dealer)}
-              </b>
-              <s style={{ color: "var(--tx-3)", fontSize: "0.8rem" }}>
-                {inr(price.mrp)}
-              </s>
-              <span style={{ fontSize: "0.75rem", color: "var(--green-700, #15803d)", fontWeight: 600 }}>
-                {price.rebatePct}% off
-              </span>
-            </span>
-          )}
         </span>
       </Link>
     </article>

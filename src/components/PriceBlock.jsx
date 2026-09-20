@@ -20,8 +20,8 @@ export default function PriceBlock({ p, customerView, dealer, sharedBy }) {
 }
 
 function DealerPrice({ p, dealer }) {
-  const [open, setOpen] = useState(true);
-  const { mrp, dealer: net, rebatePct } = priceFor(p, dealer);
+  const [open, setOpen] = useState(false);
+  const { dealer: net } = priceFor(p, dealer);
 
   return (
     <div className="pricebox">
@@ -47,17 +47,7 @@ function DealerPrice({ p, dealer }) {
           <Icon name={open ? "eyeoff" : "lock"} /> {open ? "Hide Dealer Price" : "View Dealer Price"}
         </button>
         <p className="note pricebox-note">
-          {open ? (
-            <>
-              {rebatePct}% off {inr(mrp)} MRP · {dealer.pricebookName ? (
-                <>Price List: <b style={{ color: "var(--blue-700, #1d4ed8)" }}>{dealer.pricebookName}</b> for <b>{dealer.name}</b>.</>
-              ) : (
-                <>Rate for <b>{dealer.name}</b> ({dealer.id}).</>
-              )} Customers see only MRP.
-            </>
-          ) : (
-            <>Visible to approved dealers only</>
-          )}
+          Visible to approved dealers only
         </p>
       </div>
     </div>
