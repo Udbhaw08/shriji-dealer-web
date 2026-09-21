@@ -2,6 +2,7 @@
 
 ## Specialized Skills Available
 The project includes progressive-disclosure skills in `.agents/skills/`:
+- `graphify`: Knowledge graph querying (`graphify query`), token-efficient architecture navigation, and updates.
 - `shriji-zoho-integration`: Zoho Commerce API, live sync, pricebooks, OAuth auto-recovery.
 - `shriji-responsive-ui`: Design system, mobile-first responsiveness, zero-overflow rules.
 - `shriji-pricing-and-roles`: MRP vs dealer price masking, ?from= customer link rules, 5+1 schemes.
@@ -14,3 +15,4 @@ The project includes progressive-disclosure skills in `.agents/skills/`:
 4. **Mobile-First Layout**: Always maintain `overflow-x: clip;` and `min-width: 0;` constraints to prevent mobile browser zoom-out and horizontal panning.
 5. **No Auto-Push**: Keep changes local. Never run `git push` unless explicitly requested.
 6. **Sync Documentation**: Run `npm run docs` whenever components, routes, or models change.
+7. **Consult Knowledge Graph First**: When investigating architecture or cross-file flows, run `graphify query "<question>"` or check `graphify-out/GRAPH_REPORT.md` first to save context tokens before reading raw files. Run `graphify update .` after code changes.

@@ -15,6 +15,7 @@ whichever doc below covers your task. Do not infer facts about this business fro
 | [docs/DESIGN.md](docs/DESIGN.md) | Design system: tokens, components, layout rules, what to reuse instead of inventing. |
 | [docs/PRODUCT-PAGES.md](docs/PRODUCT-PAGES.md) | Deep spec of the product listing + product detail pages. |
 | [docs/ROLES-AND-SHARING.md](docs/ROLES-AND-SHARING.md) | **Who sees which price.** Roles, login, approval, and the customer share link. Read before touching pricing or auth. |
+| [graphify-out/GRAPH_REPORT.md](graphify-out/GRAPH_REPORT.md) | **Graphify Knowledge Graph.** God nodes, communities, cross-file connections, and token-saving index. |
 
 ## Hard rules (these exist to stop hallucination)
 
@@ -25,6 +26,7 @@ whichever doc below covers your task. Do not infer facts about this business fro
 5. **A `?from=` share link forces the customer view for everyone**, including the dealer who sent it.
 6. **Keep `CODEBASE.md` synchronized.** Run `npm run docs` whenever new features, routes, or files are created or changed.
 7. **Never push to git automatically.** Do NOT run `git push` or deploy unless the user explicitly asks you to push or deploy. Keep all changes local until specifically told to push.
+8. **Consult knowledge graph for context.** Use `graphify query "<question>"` to trace code relationships and architecture with minimal tokens. Run `graphify update .` after code edits.
 
 ## Commands
 
@@ -33,5 +35,6 @@ npm run dev                    # vite dev server
 npm test                       # run automated pricing & dealer regression test suite
 npm run build                  # production build
 npm run docs                   # regenerate CODEBASE.md
+npm run graphify:update        # update knowledge graph (AST-only, 0 tokens)
 node scripts/audit_prices.mjs  # audit 433 live API products against CSV export
 ```
