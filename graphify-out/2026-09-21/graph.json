@@ -704,6 +704,16 @@
       "norm_label": "run()"
     },
     {
+      "label": "build_wiki.py",
+      "file_type": "code",
+      "source_file": "scripts/build_wiki.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "scripts_build_wiki",
+      "community": 29,
+      "norm_label": "build_wiki.py"
+    },
+    {
       "label": "generate-codebase-doc.mjs",
       "file_type": "code",
       "source_file": "scripts/generate-codebase-doc.mjs",
@@ -860,7 +870,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "components_priceblock",
-      "community": 1,
+      "community": 0,
       "norm_label": "priceblock.jsx"
     },
     {
@@ -870,7 +880,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "components_priceblock_priceblock",
-      "community": 1,
+      "community": 0,
       "norm_label": "priceblock()"
     },
     {
@@ -880,7 +890,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "components_priceblock_dealerprice",
-      "community": 1,
+      "community": 0,
       "norm_label": "dealerprice()"
     },
     {
@@ -890,7 +900,7 @@
       "source_location": "L72",
       "_origin": "ast",
       "id": "components_priceblock_customerprice",
-      "community": 1,
+      "community": 0,
       "norm_label": "customerprice()"
     },
     {
@@ -900,7 +910,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "components_productcard",
-      "community": 1,
+      "community": 0,
       "norm_label": "productcard.jsx"
     },
     {
@@ -910,7 +920,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "components_productcard_productcard",
-      "community": 1,
+      "community": 0,
       "norm_label": "productcard()"
     },
     {
@@ -920,7 +930,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "data_dealer",
-      "community": 1,
+      "community": 0,
       "norm_label": "dealer.js"
     },
     {
@@ -930,7 +940,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "data_dealer_dealers",
-      "community": 1,
+      "community": 0,
       "norm_label": "dealers"
     },
     {
@@ -960,7 +970,7 @@
       "source_location": "L46",
       "_origin": "ast",
       "id": "data_dealer_band",
-      "community": 1,
+      "community": 0,
       "norm_label": "band"
     },
     {
@@ -970,7 +980,7 @@
       "source_location": "L54",
       "_origin": "ast",
       "id": "data_dealer_hash",
-      "community": 1,
+      "community": 0,
       "norm_label": "hash()"
     },
     {
@@ -980,7 +990,7 @@
       "source_location": "L57",
       "_origin": "ast",
       "id": "data_dealer_price99",
-      "community": 1,
+      "community": 0,
       "norm_label": "price99()"
     },
     {
@@ -990,7 +1000,7 @@
       "source_location": "L68",
       "_origin": "ast",
       "id": "data_dealer_pricefor",
-      "community": 1,
+      "community": 0,
       "norm_label": "pricefor()"
     },
     {
@@ -1000,7 +1010,7 @@
       "source_location": "L106",
       "_origin": "ast",
       "id": "data_dealer_tagfor",
-      "community": 1,
+      "community": 0,
       "norm_label": "tagfor()"
     },
     {
@@ -1010,7 +1020,7 @@
       "source_location": "L114",
       "_origin": "ast",
       "id": "data_dealer_inr",
-      "community": 1,
+      "community": 0,
       "norm_label": "inr()"
     },
     {
@@ -1030,7 +1040,7 @@
       "source_location": "L125",
       "_origin": "ast",
       "id": "data_dealer_tierof",
-      "community": 1,
+      "community": 0,
       "norm_label": "tierof()"
     },
     {
@@ -1040,7 +1050,7 @@
       "source_location": "L139",
       "_origin": "ast",
       "id": "data_dealer_viewerfor",
-      "community": 1,
+      "community": 0,
       "norm_label": "viewerfor()"
     },
     {
@@ -1050,7 +1060,7 @@
       "source_location": "L146",
       "_origin": "ast",
       "id": "data_dealer_sharelink",
-      "community": 1,
+      "community": 0,
       "norm_label": "sharelink()"
     },
     {
@@ -1060,7 +1070,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "data_dealer_test",
-      "community": 1,
+      "community": 0,
       "norm_label": "dealer.test.mjs"
     },
     {
@@ -1070,7 +1080,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "data_dealer_test_test_products",
-      "community": 1,
+      "community": 0,
       "norm_label": "test_products"
     },
     {
@@ -1080,7 +1090,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "data_dealer_test_approved",
-      "community": 1,
+      "community": 0,
       "norm_label": "approved"
     },
     {
@@ -1090,7 +1100,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "data_dealer_test_pending",
-      "community": 1,
+      "community": 0,
       "norm_label": "pending"
     },
     {
@@ -1100,7 +1110,7 @@
       "source_location": "L41",
       "_origin": "ast",
       "id": "data_dealer_test_customer",
-      "community": 1,
+      "community": 0,
       "norm_label": "customer"
     },
     {
@@ -1110,7 +1120,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "data_dealer_test_guest",
-      "community": 1,
+      "community": 0,
       "norm_label": "guest"
     },
     {
@@ -1380,7 +1390,7 @@
       "source_location": "L89",
       "_origin": "ast",
       "id": "data_productsstore_useproducts",
-      "community": 27,
+      "community": 0,
       "norm_label": "useproducts()"
     },
     {
@@ -1390,7 +1400,7 @@
       "source_location": "L108",
       "_origin": "ast",
       "id": "data_productsstore_useproduct",
-      "community": 27,
+      "community": 0,
       "norm_label": "useproduct()"
     },
     {
@@ -1630,7 +1640,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "pages_home_home",
-      "community": 27,
+      "community": 0,
       "norm_label": "home()"
     },
     {
@@ -1660,7 +1670,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "pages_product",
-      "community": 1,
+      "community": 0,
       "norm_label": "product.jsx"
     },
     {
@@ -1670,7 +1680,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "pages_product_featureboxes",
-      "community": 1,
+      "community": 0,
       "norm_label": "featureboxes()"
     },
     {
@@ -1680,7 +1690,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "pages_product_inthebox",
-      "community": 1,
+      "community": 0,
       "norm_label": "inthebox()"
     },
     {
@@ -1690,7 +1700,7 @@
       "source_location": "L33",
       "_origin": "ast",
       "id": "pages_product_tabs",
-      "community": 1,
+      "community": 0,
       "norm_label": "tabs"
     },
     {
@@ -1700,7 +1710,7 @@
       "source_location": "L35",
       "_origin": "ast",
       "id": "pages_product_product",
-      "community": 1,
+      "community": 0,
       "norm_label": "product()"
     },
     {
@@ -1710,7 +1720,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "pages_products",
-      "community": 1,
+      "community": 0,
       "norm_label": "products.jsx"
     },
     {
@@ -1720,7 +1730,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "pages_products_sorts",
-      "community": 1,
+      "community": 0,
       "norm_label": "sorts"
     },
     {
@@ -1730,7 +1740,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "pages_products_group",
-      "community": 1,
+      "community": 0,
       "norm_label": "group()"
     },
     {
@@ -1740,7 +1750,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "pages_products_products",
-      "community": 27,
+      "community": 0,
       "norm_label": "products()"
     },
     {
@@ -1870,7 +1880,7 @@
       "source_location": "L157",
       "_origin": "ast",
       "id": "src_ui_icon",
-      "community": 1,
+      "community": 0,
       "norm_label": "icon()"
     },
     {
@@ -1984,14 +1994,44 @@
       "norm_label": "graphify.md"
     },
     {
-      "label": "graphify",
+      "label": "Automatic Codebase Context & Knowledge Graph Protocol",
       "file_type": "document",
       "source_file": ".agents/rules/graphify.md",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "rules_graphify_graphify",
+      "id": "rules_graphify_automatic_codebase_context_knowledge_graph_protocol",
       "community": 25,
-      "norm_label": "graphify"
+      "norm_label": "automatic codebase context & knowledge graph protocol"
+    },
+    {
+      "label": "Rule 1: Mandatory Knowledge Graph Lookup (Never Blindly Read Files)",
+      "file_type": "document",
+      "source_file": ".agents/rules/graphify.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "rules_graphify_rule_1_mandatory_knowledge_graph_lookup_never_blindly_read_files",
+      "community": 25,
+      "norm_label": "rule 1: mandatory knowledge graph lookup (never blindly read files)"
+    },
+    {
+      "label": "Rule 2: Precision File Viewing",
+      "file_type": "document",
+      "source_file": ".agents/rules/graphify.md",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "rules_graphify_rule_2_precision_file_viewing",
+      "community": 25,
+      "norm_label": "rule 2: precision file viewing"
+    },
+    {
+      "label": "Rule 3: Keep Graph Fresh After Modifying Code",
+      "file_type": "document",
+      "source_file": ".agents/rules/graphify.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "rules_graphify_rule_3_keep_graph_fresh_after_modifying_code",
+      "community": 25,
+      "norm_label": "rule 3: keep graph fresh after modifying code"
     },
     {
       "label": "SKILL.md",
@@ -2662,6 +2702,56 @@
       "id": "codebase_7_development_git_workflow_guidelines",
       "community": 5,
       "norm_label": "7. development & git workflow guidelines"
+    },
+    {
+      "label": "GEMINI.md",
+      "file_type": "document",
+      "source_file": "GEMINI.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "gemini",
+      "community": 1,
+      "norm_label": "gemini.md"
+    },
+    {
+      "label": "Shriji Domestic Appliances \u2014 Sunshine Dealer Web",
+      "file_type": "document",
+      "source_file": "GEMINI.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "gemini_shriji_domestic_appliances_sunshine_dealer_web",
+      "community": 1,
+      "norm_label": "shriji domestic appliances \u2014 sunshine dealer web"
+    },
+    {
+      "label": "Agent Operating Guidelines & Zero-Token Context Strategy",
+      "file_type": "document",
+      "source_file": "GEMINI.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "gemini_agent_operating_guidelines_zero_token_context_strategy",
+      "community": 1,
+      "norm_label": "agent operating guidelines & zero-token context strategy"
+    },
+    {
+      "label": "Mandatory Context Rule: Knowledge Graph First",
+      "file_type": "document",
+      "source_file": "GEMINI.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "gemini_mandatory_context_rule_knowledge_graph_first",
+      "community": 1,
+      "norm_label": "mandatory context rule: knowledge graph first"
+    },
+    {
+      "label": "Project Hard Rules",
+      "file_type": "document",
+      "source_file": "GEMINI.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "gemini_project_hard_rules",
+      "community": 1,
+      "norm_label": "project hard rules"
     },
     {
       "label": "PRD.md",
@@ -4790,9 +4880,9 @@
       "source_file": "package.json",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_graphify_update",
-      "confidence_score": 1.0
+      "target": "package_scripts_graphify_update"
     },
     {
       "relation": "contains",
@@ -7718,9 +7808,39 @@
       "source_file": ".agents/rules/graphify.md",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "rules_graphify",
-      "target": "rules_graphify_graphify"
+      "target": "rules_graphify_automatic_codebase_context_knowledge_graph_protocol",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/graphify.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "rules_graphify_automatic_codebase_context_knowledge_graph_protocol",
+      "target": "rules_graphify_rule_1_mandatory_knowledge_graph_lookup_never_blindly_read_files",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/graphify.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "rules_graphify_automatic_codebase_context_knowledge_graph_protocol",
+      "target": "rules_graphify_rule_2_precision_file_viewing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/graphify.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "rules_graphify_automatic_codebase_context_knowledge_graph_protocol",
+      "target": "rules_graphify_rule_3_keep_graph_fresh_after_modifying_code",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7728,9 +7848,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill",
-      "target": "graphify_skill_graphify_knowledge_graph_skill",
-      "confidence_score": 1.0
+      "target": "graphify_skill_graphify_knowledge_graph_skill"
     },
     {
       "relation": "contains",
@@ -7738,9 +7858,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L59",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_graphify_knowledge_graph_skill",
-      "target": "graphify_skill_key_output_artifacts_in_graphify_out",
-      "confidence_score": 1.0
+      "target": "graphify_skill_key_output_artifacts_in_graphify_out"
     },
     {
       "relation": "contains",
@@ -7748,9 +7868,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_graphify_knowledge_graph_skill",
-      "target": "graphify_skill_primary_commands",
-      "confidence_score": 1.0
+      "target": "graphify_skill_primary_commands"
     },
     {
       "relation": "contains",
@@ -7758,9 +7878,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_graphify_knowledge_graph_skill",
-      "target": "graphify_skill_why_use_graphify",
-      "confidence_score": 1.0
+      "target": "graphify_skill_why_use_graphify"
     },
     {
       "relation": "contains",
@@ -7768,9 +7888,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_primary_commands",
-      "target": "graphify_skill_1_query_the_graph_context_efficient",
-      "confidence_score": 1.0
+      "target": "graphify_skill_1_query_the_graph_context_efficient"
     },
     {
       "relation": "contains",
@@ -7778,9 +7898,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_primary_commands",
-      "target": "graphify_skill_2_trace_relationships_shortest_path",
-      "confidence_score": 1.0
+      "target": "graphify_skill_2_trace_relationships_shortest_path"
     },
     {
       "relation": "contains",
@@ -7788,9 +7908,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_primary_commands",
-      "target": "graphify_skill_3_explain_a_node_or_symbol",
-      "confidence_score": 1.0
+      "target": "graphify_skill_3_explain_a_node_or_symbol"
     },
     {
       "relation": "contains",
@@ -7798,9 +7918,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_primary_commands",
-      "target": "graphify_skill_4_update_the_graph_ast_re_extraction",
-      "confidence_score": 1.0
+      "target": "graphify_skill_4_update_the_graph_ast_re_extraction"
     },
     {
       "relation": "contains",
@@ -8301,6 +8421,46 @@
       "confidence_score": 1.0,
       "source": "codebase_5_zoho_api_endpoints",
       "target": "codebase_5_3_auto_recovery_token_architecture"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEMINI.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "gemini",
+      "target": "gemini_shriji_domestic_appliances_sunshine_dealer_web",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEMINI.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "gemini_shriji_domestic_appliances_sunshine_dealer_web",
+      "target": "gemini_agent_operating_guidelines_zero_token_context_strategy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEMINI.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "gemini_agent_operating_guidelines_zero_token_context_strategy",
+      "target": "gemini_mandatory_context_rule_knowledge_graph_first",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEMINI.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "gemini_agent_operating_guidelines_zero_token_context_strategy",
+      "target": "gemini_project_hard_rules",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",

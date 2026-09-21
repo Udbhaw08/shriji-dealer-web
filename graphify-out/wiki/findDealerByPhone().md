@@ -7,11 +7,11 @@
 ## Connections by Relation
 
 ### calls
-- [[getZohoConfig()]] `EXTRACTED`
 - [[fetchZohoWithRetry()]] `EXTRACTED`
+- [[getZohoConfig()]] `EXTRACTED`
 - [[getDealerById()]] `EXTRACTED`
-- [[zohoApiPlugin()]] `EXTRACTED`
 - [[getAccessToken()]] `EXTRACTED`
+- [[zohoApiPlugin()]] `EXTRACTED`
 - [[handler()]] `EXTRACTED`
 
 ### contains

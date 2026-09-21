@@ -2,7 +2,7 @@
 
 > God node · 12 connections · `PRODUCT.md`
 
-**Community:** [[Zoho Integration Architecture]]
+**Community:** [[Client Products Data Store]]
 
 ## Connections by Relation
 

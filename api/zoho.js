@@ -22,8 +22,39 @@ function loadEnv() {
 
 let cachedAccessToken = null;
 let tokenExpiryTime = 0;
+let refreshPromise = null;
 
-const cacheFile = path.resolve(os.tmpdir(), "webstore_zoho_token.json");
+const localCacheFile = path.resolve(process.cwd(), ".token_cache.json");
+const tmpCacheFile = path.resolve(os.tmpdir(), "webstore_zoho_token.json");
+
+function readDiskCache() {
+  for (const file of [localCacheFile, tmpCacheFile]) {
+    try {
+      if (fs.existsSync(file)) {
+        const data = JSON.parse(fs.readFileSync(file, "utf-8"));
+        if (data.access_token) return data;
+      }
+    } catch {}
+  }
+  return null;
+}
+
+function writeDiskCache(token, expiry) {
+  const payload = JSON.stringify({ access_token: token, expires_at: expiry });
+  for (const file of [localCacheFile, tmpCacheFile]) {
+    try {
+      fs.writeFileSync(file, payload, "utf-8");
+    } catch {}
+  }
+}
+
+function clearDiskCache() {
+  for (const file of [localCacheFile, tmpCacheFile]) {
+    try {
+      if (fs.existsSync(file)) fs.unlinkSync(file);
+    } catch {}
+  }
+}
 
 export async function getAccessToken({ forceRefresh = false } = {}) {
   const env = loadEnv();
@@ -34,50 +65,67 @@ export async function getAccessToken({ forceRefresh = false } = {}) {
   }
 
   // Check on-disk cache
-  if (!forceRefresh && fs.existsSync(cacheFile)) {
+  if (!forceRefresh) {
+    const diskData = readDiskCache();
+    if (diskData && diskData.access_token && now < diskData.expires_at - 60000) {
+      cachedAccessToken = diskData.access_token;
+      tokenExpiryTime = diskData.expires_at;
+      return cachedAccessToken;
+    }
+  }
+
+  // Deduplicate concurrent token refresh requests (singleflight)
+  if (refreshPromise) {
+    return refreshPromise;
+  }
+
+  refreshPromise = (async () => {
     try {
-      const diskData = JSON.parse(fs.readFileSync(cacheFile, "utf-8"));
-      if (diskData.access_token && now < diskData.expires_at - 60000) {
-        cachedAccessToken = diskData.access_token;
-        tokenExpiryTime = diskData.expires_at;
-        return cachedAccessToken;
+      const dc = env.ZOHO_DC || "in";
+      const clientId = env.ZOHO_CLIENT_ID;
+      const clientSecret = env.ZOHO_CLIENT_SECRET;
+      const refreshToken = env.ZOHO_REFRESH_TOKEN;
+
+      if (!clientId || !clientSecret || !refreshToken) {
+        throw new Error("Missing Zoho credentials in environment / .env.local");
       }
-    } catch {}
-  }
 
-  const dc = env.ZOHO_DC || "in";
-  const clientId = env.ZOHO_CLIENT_ID;
-  const clientSecret = env.ZOHO_CLIENT_SECRET;
-  const refreshToken = env.ZOHO_REFRESH_TOKEN;
+      const res = await fetch(`https://accounts.zoho.${dc}/oauth/v2/token`, {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams({
+          grant_type: "refresh_token",
+          client_id: clientId,
+          client_secret: clientSecret,
+          refresh_token: refreshToken,
+        }),
+      });
 
-  if (!clientId || !clientSecret || !refreshToken) {
-    throw new Error("Missing Zoho credentials in environment / .env.local");
-  }
+      const data = await res.json();
+      if (!data.access_token) {
+        // If throttled by Zoho (10 requests/10 min), reuse disk cache if available
+        const diskData = readDiskCache();
+        if (diskData && diskData.access_token) {
+          console.warn("⚠️ Zoho refresh rate limited. Falling back to active token cache.", data.error_description || data.error);
+          cachedAccessToken = diskData.access_token;
+          tokenExpiryTime = diskData.expires_at;
+          return cachedAccessToken;
+        }
+        const desc = data.error_description ? ` (${data.error_description})` : "";
+        throw new Error(`Failed to refresh Zoho token: ${data.error || JSON.stringify(data)}${desc}`);
+      }
 
-  const res = await fetch(`https://accounts.zoho.${dc}/oauth/v2/token`, {
-    method: "POST",
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: new URLSearchParams({
-      grant_type: "refresh_token",
-      client_id: clientId,
-      client_secret: clientSecret,
-      refresh_token: refreshToken,
-    }),
-  });
+      cachedAccessToken = data.access_token;
+      tokenExpiryTime = Date.now() + (data.expires_in || 3600) * 1000;
+      writeDiskCache(cachedAccessToken, tokenExpiryTime);
 
-  const data = await res.json();
-  if (!data.access_token) {
-    throw new Error(`Failed to refresh Zoho token: ${data.error || JSON.stringify(data)}`);
-  }
+      return cachedAccessToken;
+    } finally {
+      refreshPromise = null;
+    }
+  })();
 
-  cachedAccessToken = data.access_token;
-  tokenExpiryTime = now + (data.expires_in || 3600) * 1000;
-
-  try {
-    fs.writeFileSync(cacheFile, JSON.stringify({ access_token: cachedAccessToken, expires_at: tokenExpiryTime }), "utf-8");
-  } catch {}
-
-  return cachedAccessToken;
+  return refreshPromise;
 }
 
 /**
@@ -93,9 +141,7 @@ export async function fetchZohoWithRetry(url, options = {}) {
 
   let res = await fetch(url, { ...options, headers });
   if (res.status === 401) {
-    try {
-      if (fs.existsSync(cacheFile)) fs.unlinkSync(cacheFile);
-    } catch {}
+    clearDiskCache();
     cachedAccessToken = null;
     tokenExpiryTime = 0;
     token = await getAccessToken({ forceRefresh: true });
@@ -220,10 +266,9 @@ export async function createDealerContact({ shop, person, phone, email, city, gs
   }
 
   const url = `https://www.zohoapis.${dc}/books/v3/contacts?organization_id=${orgId}`;
-  const res = await fetch(url, {
+  const res = await fetchZohoWithRetry(url, {
     method: "POST",
     headers: {
-      Authorization: `Zoho-oauthtoken ${token}`,
       "Content-Type": "application/json",
     },
     body: JSON.stringify(payload),

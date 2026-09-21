@@ -1,6 +1,6 @@
 # fetchZohoWithRetry()
 
-> God node · 9 connections · `api/zoho.js`
+> God node · 11 connections · `api/zoho.js`
 
 **Community:** [[Price Presentation & Product UI]]
 
@@ -10,11 +10,13 @@
 - [[fetchZohoProducts()]] `EXTRACTED`
 - [[fetchZohoProductById()]] `EXTRACTED`
 - [[findDealerByPhone()]] `EXTRACTED`
+- [[createDealerContact()]] `EXTRACTED`
 - [[getDealerById()]] `EXTRACTED`
 - [[fetchZohoCategories()]] `EXTRACTED`
-- [[fetchZohoPricebookItems()]] `EXTRACTED`
 - [[getAccessToken()]] `EXTRACTED`
+- [[fetchZohoPricebookItems()]] `EXTRACTED`
 - [[fetchZohoPricebooks()]] `EXTRACTED`
+- [[clearDiskCache()]] `EXTRACTED`
 
 ### contains
 - [[zoho.js]] `EXTRACTED`

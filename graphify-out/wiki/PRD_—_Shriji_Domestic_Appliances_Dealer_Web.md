@@ -2,7 +2,7 @@
 
 > God node · 11 connections · `PRD.md`
 
-**Community:** [[Design System & UI Tokens]]
+**Community:** [[Product Requirements Documentation]]
 
 ## Connections by Relation
 

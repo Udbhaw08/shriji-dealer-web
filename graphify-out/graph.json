@@ -184,20 +184,60 @@
       "norm_label": "loadenv()"
     },
     {
-      "label": "cacheFile",
+      "label": "localCacheFile",
       "file_type": "code",
       "source_file": "api/zoho.js",
-      "source_location": "L26",
+      "source_location": "L27",
       "_origin": "ast",
-      "id": "api_zoho_cachefile",
+      "id": "api_zoho_localcachefile",
       "community": 2,
-      "norm_label": "cachefile"
+      "norm_label": "localcachefile"
+    },
+    {
+      "label": "tmpCacheFile",
+      "file_type": "code",
+      "source_file": "api/zoho.js",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "api_zoho_tmpcachefile",
+      "community": 2,
+      "norm_label": "tmpcachefile"
+    },
+    {
+      "label": "readDiskCache()",
+      "file_type": "code",
+      "source_file": "api/zoho.js",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "api_zoho_readdiskcache",
+      "community": 2,
+      "norm_label": "readdiskcache()"
+    },
+    {
+      "label": "writeDiskCache()",
+      "file_type": "code",
+      "source_file": "api/zoho.js",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "api_zoho_writediskcache",
+      "community": 2,
+      "norm_label": "writediskcache()"
+    },
+    {
+      "label": "clearDiskCache()",
+      "file_type": "code",
+      "source_file": "api/zoho.js",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "api_zoho_cleardiskcache",
+      "community": 2,
+      "norm_label": "cleardiskcache()"
     },
     {
       "label": "getAccessToken()",
       "file_type": "code",
       "source_file": "api/zoho.js",
-      "source_location": "L28",
+      "source_location": "L59",
       "_origin": "ast",
       "id": "api_zoho_getaccesstoken",
       "community": 2,
@@ -207,7 +247,7 @@
       "label": "fetchZohoWithRetry()",
       "file_type": "code",
       "source_file": "api/zoho.js",
-      "source_location": "L87",
+      "source_location": "L135",
       "_origin": "ast",
       "id": "api_zoho_fetchzohowithretry",
       "community": 2,
@@ -217,7 +257,7 @@
       "label": "getZohoConfig()",
       "file_type": "code",
       "source_file": "api/zoho.js",
-      "source_location": "L108",
+      "source_location": "L154",
       "_origin": "ast",
       "id": "api_zoho_getzohoconfig",
       "community": 2,
@@ -227,7 +267,7 @@
       "label": "findDealerByPhone()",
       "file_type": "code",
       "source_file": "api/zoho.js",
-      "source_location": "L119",
+      "source_location": "L165",
       "_origin": "ast",
       "id": "api_zoho_finddealerbyphone",
       "community": 2,
@@ -237,7 +277,7 @@
       "label": "getDealerById()",
       "file_type": "code",
       "source_file": "api/zoho.js",
-      "source_location": "L155",
+      "source_location": "L201",
       "_origin": "ast",
       "id": "api_zoho_getdealerbyid",
       "community": 2,
@@ -247,7 +287,7 @@
       "label": "createDealerContact()",
       "file_type": "code",
       "source_file": "api/zoho.js",
-      "source_location": "L188",
+      "source_location": "L234",
       "_origin": "ast",
       "id": "api_zoho_createdealercontact",
       "community": 2,
@@ -257,7 +297,7 @@
       "label": "slugifyCategory()",
       "file_type": "code",
       "source_file": "api/zoho.js",
-      "source_location": "L271",
+      "source_location": "L316",
       "_origin": "ast",
       "id": "api_zoho_slugifycategory",
       "community": 2,
@@ -267,7 +307,7 @@
       "label": "parseRate()",
       "file_type": "code",
       "source_file": "api/zoho.js",
-      "source_location": "L285",
+      "source_location": "L330",
       "_origin": "ast",
       "id": "api_zoho_parserate",
       "community": 2,
@@ -277,7 +317,7 @@
       "label": "cachedPricebooks",
       "file_type": "code",
       "source_file": "api/zoho.js",
-      "source_location": "L293",
+      "source_location": "L338",
       "_origin": "ast",
       "id": "api_zoho_cachedpricebooks",
       "community": 2,
@@ -287,7 +327,7 @@
       "label": "fetchZohoPricebooks()",
       "file_type": "code",
       "source_file": "api/zoho.js",
-      "source_location": "L300",
+      "source_location": "L345",
       "_origin": "ast",
       "id": "api_zoho_fetchzohopricebooks",
       "community": 2,
@@ -297,7 +337,7 @@
       "label": "fetchZohoPricebookItems()",
       "file_type": "code",
       "source_file": "api/zoho.js",
-      "source_location": "L314",
+      "source_location": "L359",
       "_origin": "ast",
       "id": "api_zoho_fetchzohopricebookitems",
       "community": 2,
@@ -307,7 +347,7 @@
       "label": "normalizeProduct()",
       "file_type": "code",
       "source_file": "api/zoho.js",
-      "source_location": "L340",
+      "source_location": "L385",
       "_origin": "ast",
       "id": "api_zoho_normalizeproduct",
       "community": 2,
@@ -317,7 +357,7 @@
       "label": "fetchZohoCategories()",
       "file_type": "code",
       "source_file": "api/zoho.js",
-      "source_location": "L439",
+      "source_location": "L484",
       "_origin": "ast",
       "id": "api_zoho_fetchzohocategories",
       "community": 2,
@@ -327,7 +367,7 @@
       "label": "fetchZohoProducts()",
       "file_type": "code",
       "source_file": "api/zoho.js",
-      "source_location": "L470",
+      "source_location": "L515",
       "_origin": "ast",
       "id": "api_zoho_fetchzohoproducts",
       "community": 2,
@@ -337,7 +377,7 @@
       "label": "fetchZohoProductById()",
       "file_type": "code",
       "source_file": "api/zoho.js",
-      "source_location": "L513",
+      "source_location": "L558",
       "_origin": "ast",
       "id": "api_zoho_fetchzohoproductbyid",
       "community": 2,
@@ -830,38 +870,18 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "scripts_test_zoho_api",
-      "community": 22,
+      "community": 2,
       "norm_label": "test-zoho-api.mjs"
     },
     {
-      "label": "envPath",
+      "label": "{ dc, orgId }",
       "file_type": "code",
       "source_file": "scripts/test-zoho-api.mjs",
-      "source_location": "L4",
+      "source_location": "L3",
       "_origin": "ast",
-      "id": "scripts_test_zoho_api_envpath",
-      "community": 22,
-      "norm_label": "envpath"
-    },
-    {
-      "label": "envContent",
-      "file_type": "code",
-      "source_file": "scripts/test-zoho-api.mjs",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "scripts_test_zoho_api_envcontent",
-      "community": 22,
-      "norm_label": "envcontent"
-    },
-    {
-      "label": "env",
-      "file_type": "code",
-      "source_file": "scripts/test-zoho-api.mjs",
-      "source_location": "L6",
-      "_origin": "ast",
-      "id": "scripts_test_zoho_api_env",
-      "community": 22,
-      "norm_label": "env"
+      "id": "scripts_test_zoho_api_dc_orgid",
+      "community": 2,
+      "norm_label": "{ dc, orgid }"
     },
     {
       "label": "PriceBlock.jsx",
@@ -870,7 +890,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "components_priceblock",
-      "community": 0,
+      "community": 8,
       "norm_label": "priceblock.jsx"
     },
     {
@@ -890,7 +910,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "components_priceblock_dealerprice",
-      "community": 0,
+      "community": 8,
       "norm_label": "dealerprice()"
     },
     {
@@ -900,7 +920,7 @@
       "source_location": "L72",
       "_origin": "ast",
       "id": "components_priceblock_customerprice",
-      "community": 0,
+      "community": 8,
       "norm_label": "customerprice()"
     },
     {
@@ -930,7 +950,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "data_dealer",
-      "community": 0,
+      "community": 8,
       "norm_label": "dealer.js"
     },
     {
@@ -940,7 +960,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "data_dealer_dealers",
-      "community": 0,
+      "community": 8,
       "norm_label": "dealers"
     },
     {
@@ -960,7 +980,7 @@
       "source_location": "L35",
       "_origin": "ast",
       "id": "data_dealer_registerdealer",
-      "community": 0,
+      "community": 22,
       "norm_label": "registerdealer()"
     },
     {
@@ -970,7 +990,7 @@
       "source_location": "L46",
       "_origin": "ast",
       "id": "data_dealer_band",
-      "community": 0,
+      "community": 8,
       "norm_label": "band"
     },
     {
@@ -980,7 +1000,7 @@
       "source_location": "L54",
       "_origin": "ast",
       "id": "data_dealer_hash",
-      "community": 0,
+      "community": 8,
       "norm_label": "hash()"
     },
     {
@@ -990,7 +1010,7 @@
       "source_location": "L57",
       "_origin": "ast",
       "id": "data_dealer_price99",
-      "community": 0,
+      "community": 8,
       "norm_label": "price99()"
     },
     {
@@ -1000,7 +1020,7 @@
       "source_location": "L68",
       "_origin": "ast",
       "id": "data_dealer_pricefor",
-      "community": 0,
+      "community": 8,
       "norm_label": "pricefor()"
     },
     {
@@ -1020,7 +1040,7 @@
       "source_location": "L114",
       "_origin": "ast",
       "id": "data_dealer_inr",
-      "community": 0,
+      "community": 8,
       "norm_label": "inr()"
     },
     {
@@ -1040,7 +1060,7 @@
       "source_location": "L125",
       "_origin": "ast",
       "id": "data_dealer_tierof",
-      "community": 0,
+      "community": 8,
       "norm_label": "tierof()"
     },
     {
@@ -1060,7 +1080,7 @@
       "source_location": "L146",
       "_origin": "ast",
       "id": "data_dealer_sharelink",
-      "community": 0,
+      "community": 8,
       "norm_label": "sharelink()"
     },
     {
@@ -1070,7 +1090,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "data_dealer_test",
-      "community": 0,
+      "community": 8,
       "norm_label": "dealer.test.mjs"
     },
     {
@@ -1080,7 +1100,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "data_dealer_test_test_products",
-      "community": 0,
+      "community": 8,
       "norm_label": "test_products"
     },
     {
@@ -1090,7 +1110,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "data_dealer_test_approved",
-      "community": 0,
+      "community": 8,
       "norm_label": "approved"
     },
     {
@@ -1100,7 +1120,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "data_dealer_test_pending",
-      "community": 0,
+      "community": 8,
       "norm_label": "pending"
     },
     {
@@ -1110,7 +1130,7 @@
       "source_location": "L41",
       "_origin": "ast",
       "id": "data_dealer_test_customer",
-      "community": 0,
+      "community": 8,
       "norm_label": "customer"
     },
     {
@@ -1120,7 +1140,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "data_dealer_test_guest",
-      "community": 0,
+      "community": 8,
       "norm_label": "guest"
     },
     {
@@ -1390,7 +1410,7 @@
       "source_location": "L89",
       "_origin": "ast",
       "id": "data_productsstore_useproducts",
-      "community": 0,
+      "community": 27,
       "norm_label": "useproducts()"
     },
     {
@@ -1400,7 +1420,7 @@
       "source_location": "L108",
       "_origin": "ast",
       "id": "data_productsstore_useproduct",
-      "community": 0,
+      "community": 27,
       "norm_label": "useproduct()"
     },
     {
@@ -1410,7 +1430,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "data_session",
-      "community": 0,
+      "community": 22,
       "norm_label": "session.js"
     },
     {
@@ -1420,7 +1440,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "data_session_guest",
-      "community": 0,
+      "community": 22,
       "norm_label": "guest"
     },
     {
@@ -1430,7 +1450,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "data_session_load",
-      "community": 0,
+      "community": 22,
       "norm_label": "load()"
     },
     {
@@ -1440,7 +1460,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "data_session_state",
-      "community": 0,
+      "community": 22,
       "norm_label": "state"
     },
     {
@@ -1450,7 +1470,7 @@
       "source_location": "L33",
       "_origin": "ast",
       "id": "data_session_subs",
-      "community": 0,
+      "community": 22,
       "norm_label": "subs"
     },
     {
@@ -1460,7 +1480,7 @@
       "source_location": "L35",
       "_origin": "ast",
       "id": "data_session_emit",
-      "community": 0,
+      "community": 22,
       "norm_label": "emit()"
     },
     {
@@ -1470,7 +1490,7 @@
       "source_location": "L45",
       "_origin": "ast",
       "id": "data_session_setsession",
-      "community": 0,
+      "community": 22,
       "norm_label": "setsession()"
     },
     {
@@ -1480,7 +1500,7 @@
       "source_location": "L51",
       "_origin": "ast",
       "id": "data_session_signout",
-      "community": 0,
+      "community": 22,
       "norm_label": "signout()"
     },
     {
@@ -1490,7 +1510,7 @@
       "source_location": "L55",
       "_origin": "ast",
       "id": "data_session_revalidatesession",
-      "community": 0,
+      "community": 22,
       "norm_label": "revalidatesession()"
     },
     {
@@ -1720,7 +1740,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "pages_products",
-      "community": 0,
+      "community": 27,
       "norm_label": "products.jsx"
     },
     {
@@ -1730,7 +1750,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "pages_products_sorts",
-      "community": 0,
+      "community": 27,
       "norm_label": "sorts"
     },
     {
@@ -1740,7 +1760,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "pages_products_group",
-      "community": 0,
+      "community": 27,
       "norm_label": "group()"
     },
     {
@@ -1750,7 +1770,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "pages_products_products",
-      "community": 0,
+      "community": 27,
       "norm_label": "products()"
     },
     {
@@ -4156,11 +4176,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "api/zoho.js",
-      "source_location": "L26",
+      "source_location": "L51",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "api_zoho",
-      "target": "api_zoho_cachefile"
+      "target": "api_zoho_cleardiskcache",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4286,6 +4306,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "api/zoho.js",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "api_zoho",
+      "target": "api_zoho_localcachefile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/zoho.js",
       "source_location": "L340",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -4306,11 +4336,41 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "api/zoho.js",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "api_zoho",
+      "target": "api_zoho_readdiskcache",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/zoho.js",
       "source_location": "L271",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "api_zoho",
       "target": "api_zoho_slugifycategory"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/zoho.js",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "api_zoho",
+      "target": "api_zoho_tmpcachefile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/zoho.js",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "api_zoho",
+      "target": "api_zoho_writediskcache",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -4322,6 +4382,17 @@
       "confidence_score": 1.0,
       "source": "scripts_audit_prices",
       "target": "api_zoho"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/test-zoho-api.mjs",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_test_zoho_api",
+      "target": "api_zoho",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -4361,6 +4432,28 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "api/zoho.js",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "api_zoho_getaccesstoken",
+      "target": "api_zoho_readdiskcache",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/zoho.js",
+      "source_location": "L144",
+      "weight": 1.0,
+      "source": "api_zoho_fetchzohowithretry",
+      "target": "api_zoho_cleardiskcache",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/zoho.js",
       "source_location": "L189",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -4388,6 +4481,28 @@
       "confidence_score": 1.0,
       "source": "api_zoho_finddealerbyphone",
       "target": "api_zoho_getaccesstoken"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/test-zoho-api.mjs",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_test_zoho_api",
+      "target": "api_zoho_getaccesstoken",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/zoho.js",
+      "source_location": "L269",
+      "weight": 1.0,
+      "source": "api_zoho_createdealercontact",
+      "target": "api_zoho_fetchzohowithretry",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -4553,6 +4668,17 @@
       "confidence_score": 1.0,
       "source": "api_zoho_getdealerbyid",
       "target": "api_zoho_getzohoconfig"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/test-zoho-api.mjs",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_test_zoho_api",
+      "target": "api_zoho_getzohoconfig",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5218,31 +5344,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "scripts/test-zoho-api.mjs",
-      "source_location": "L6",
+      "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "scripts_test_zoho_api",
-      "target": "scripts_test_zoho_api_env"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/test-zoho-api.mjs",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_test_zoho_api",
-      "target": "scripts_test_zoho_api_envcontent"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/test-zoho-api.mjs",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_test_zoho_api",
-      "target": "scripts_test_zoho_api_envpath"
+      "target": "scripts_test_zoho_api_dc_orgid",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7808,9 +7914,9 @@
       "source_file": ".agents/rules/graphify.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_graphify",
-      "target": "rules_graphify_automatic_codebase_context_knowledge_graph_protocol",
-      "confidence_score": 1.0
+      "target": "rules_graphify_automatic_codebase_context_knowledge_graph_protocol"
     },
     {
       "relation": "contains",
@@ -7818,9 +7924,9 @@
       "source_file": ".agents/rules/graphify.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_graphify_automatic_codebase_context_knowledge_graph_protocol",
-      "target": "rules_graphify_rule_1_mandatory_knowledge_graph_lookup_never_blindly_read_files",
-      "confidence_score": 1.0
+      "target": "rules_graphify_rule_1_mandatory_knowledge_graph_lookup_never_blindly_read_files"
     },
     {
       "relation": "contains",
@@ -7828,9 +7934,9 @@
       "source_file": ".agents/rules/graphify.md",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_graphify_automatic_codebase_context_knowledge_graph_protocol",
-      "target": "rules_graphify_rule_2_precision_file_viewing",
-      "confidence_score": 1.0
+      "target": "rules_graphify_rule_2_precision_file_viewing"
     },
     {
       "relation": "contains",
@@ -7838,9 +7944,9 @@
       "source_file": ".agents/rules/graphify.md",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_graphify_automatic_codebase_context_knowledge_graph_protocol",
-      "target": "rules_graphify_rule_3_keep_graph_fresh_after_modifying_code",
-      "confidence_score": 1.0
+      "target": "rules_graphify_rule_3_keep_graph_fresh_after_modifying_code"
     },
     {
       "relation": "contains",
@@ -8428,9 +8534,9 @@
       "source_file": "GEMINI.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gemini",
-      "target": "gemini_shriji_domestic_appliances_sunshine_dealer_web",
-      "confidence_score": 1.0
+      "target": "gemini_shriji_domestic_appliances_sunshine_dealer_web"
     },
     {
       "relation": "contains",
@@ -8438,9 +8544,9 @@
       "source_file": "GEMINI.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gemini_shriji_domestic_appliances_sunshine_dealer_web",
-      "target": "gemini_agent_operating_guidelines_zero_token_context_strategy",
-      "confidence_score": 1.0
+      "target": "gemini_agent_operating_guidelines_zero_token_context_strategy"
     },
     {
       "relation": "contains",
@@ -8448,9 +8554,9 @@
       "source_file": "GEMINI.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gemini_agent_operating_guidelines_zero_token_context_strategy",
-      "target": "gemini_mandatory_context_rule_knowledge_graph_first",
-      "confidence_score": 1.0
+      "target": "gemini_mandatory_context_rule_knowledge_graph_first"
     },
     {
       "relation": "contains",
@@ -8458,9 +8564,9 @@
       "source_file": "GEMINI.md",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gemini_agent_operating_guidelines_zero_token_context_strategy",
-      "target": "gemini_project_hard_rules",
-      "confidence_score": 1.0
+      "target": "gemini_project_hard_rules"
     },
     {
       "relation": "contains",
@@ -9484,5 +9590,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "c89a04a09ce5a693a63f252e719169e4d1190417"
+  "built_at_commit": "7e925a8ca813a67d4657a9373ce5fcfd02947013"
 }

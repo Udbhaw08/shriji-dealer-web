@@ -2,7 +2,7 @@
 
 > God node · 9 connections · `src/data/dealer.js`
 
-**Community:** [[Dealer Auth & Session Management]]
+**Community:** [[Zoho Backend & Proxy Endpoints]]
 
 ## Connections by Relation
 

@@ -1,44 +1,52 @@
 # Zoho Backend & Proxy Endpoints
 
-> 23 nodes · cohesion 0.09
+> 35 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **scripts** (8 connections) — `package.json`
-- **package.json** (7 connections) — `package.json`
-- **devDependencies** (6 connections) — `package.json`
-- **dependencies** (4 connections) — `package.json`
-- **react** (1 connections) — `package.json`
-- **react-dom** (1 connections) — `package.json`
-- **react-router-dom** (1 connections) — `package.json`
-- **oxlint** (1 connections) — `package.json`
-- **@types/react** (1 connections) — `package.json`
-- **@types/react-dom** (1 connections) — `package.json`
-- **vite** (1 connections) — `package.json`
-- **@vitejs/plugin-react** (1 connections) — `package.json`
-- **name** (1 connections) — `package.json`
-- **private** (1 connections) — `package.json`
-- **build** (1 connections) — `package.json`
-- **dev** (1 connections) — `package.json`
-- **docs** (1 connections) — `package.json`
-- **graphify:update** (1 connections) — `package.json`
-- **lint** (1 connections) — `package.json`
-- **preview** (1 connections) — `package.json`
-- **test** (1 connections) — `package.json`
-- **type** (1 connections) — `package.json`
-- **version** (1 connections) — `package.json`
+- **dealer.js** (22 connections) — `src/data/dealer.js`
+- **pricing.test.mjs** (19 connections) — `src/data/pricing.test.mjs`
+- **dealer.test.mjs** (13 connections) — `src/data/dealer.test.mjs`
+- **PriceBlock.jsx** (12 connections) — `src/components/PriceBlock.jsx`
+- **priceFor()** (9 connections) — `src/data/dealer.js`
+- **inr()** (6 connections) — `src/data/dealer.js`
+- **CustomerPrice()** (4 connections) — `src/components/PriceBlock.jsx`
+- **shareLink()** (4 connections) — `src/data/dealer.js`
+- **tierOf()** (4 connections) — `src/data/dealer.js`
+- **DealerPrice()** (3 connections) — `src/components/PriceBlock.jsx`
+- **DEALERS** (3 connections) — `src/data/dealer.js`
+- **price99()** (2 connections) — `src/data/dealer.js`
+- **BAND** (1 connections) — `src/data/dealer.js`
+- **hash()** (1 connections) — `src/data/dealer.js`
+- **approved** (1 connections) — `src/data/dealer.test.mjs`
+- **customer** (1 connections) — `src/data/dealer.test.mjs`
+- **guest** (1 connections) — `src/data/dealer.test.mjs`
+- **pending** (1 connections) — `src/data/dealer.test.mjs`
+- **TEST_PRODUCTS** (1 connections) — `src/data/dealer.test.mjs`
+- **crystal** (1 connections) — `src/data/pricing.test.mjs`
+- **crystalDealer** (1 connections) — `src/data/pricing.test.mjs`
+- **crystalGuest** (1 connections) — `src/data/pricing.test.mjs`
+- **genericDealer** (1 connections) — `src/data/pricing.test.mjs`
+- **genericGuest** (1 connections) — `src/data/pricing.test.mjs`
+- **genericItem** (1 connections) — `src/data/pricing.test.mjs`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (21 shared connections)
+- [[Architecture Doc Generator]] (3 shared connections)
+- [[Zoho Integration Architecture]] (2 shared connections)
 
 ## Source Files
 
-- `package.json`
+- `src/components/PriceBlock.jsx`
+- `src/data/dealer.js`
+- `src/data/dealer.test.mjs`
+- `src/data/pricing.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (100%)
+- EXTRACTED: 124 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -7,8 +7,8 @@
 ## Connections by Relation
 
 ### calls
-- [[getZohoConfig()]] `EXTRACTED`
 - [[fetchZohoWithRetry()]] `EXTRACTED`
+- [[getZohoConfig()]] `EXTRACTED`
 - [[zohoApiPlugin()]] `EXTRACTED`
 - [[fetchZohoPricebookItems()]] `EXTRACTED`
 - [[normalizeProduct()]] `EXTRACTED`

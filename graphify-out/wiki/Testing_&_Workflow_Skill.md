@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **test-zoho-api.mjs** (3 connections) — `scripts/test-zoho-api.mjs`
-- **env** (1 connections) — `scripts/test-zoho-api.mjs`
-- **envContent** (1 connections) — `scripts/test-zoho-api.mjs`
-- **envPath** (1 connections) — `scripts/test-zoho-api.mjs`
+- **Shriji Dealer Web — Agent Guidelines** (3 connections) — `AGENTS.md`
+- **AGENTS.md** (1 connections) — `AGENTS.md`
+- **Hard Rules** (1 connections) — `AGENTS.md`
+- **Specialized Skills Available** (1 connections) — `AGENTS.md`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `scripts/test-zoho-api.mjs`
+- `AGENTS.md`
 
 ## Audit Trail
 

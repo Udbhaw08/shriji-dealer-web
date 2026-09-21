@@ -1,31 +1,33 @@
 # Architecture Doc Generator
 
-> 9 nodes · cohesion 0.28
+> 10 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **productsStore.js** (12 connections) — `src/data/productsStore.js`
-- **products.js** (3 connections) — `src/data/products.js`
-- **CATEGORIES** (2 connections) — `src/data/products.js`
-- **emit()** (2 connections) — `src/data/productsStore.js`
-- **fetchLiveProducts()** (2 connections) — `src/data/productsStore.js`
-- **PRODUCTS** (1 connections) — `src/data/products.js`
-- **listeners** (1 connections) — `src/data/productsStore.js`
-- **loadCached()** (1 connections) — `src/data/productsStore.js`
-- **storeState** (1 connections) — `src/data/productsStore.js`
+- **session.js** (17 connections) — `src/data/session.js`
+- **registerDealer()** (5 connections) — `src/data/dealer.js`
+- **setSession()** (5 connections) — `src/data/session.js`
+- **signOut()** (3 connections) — `src/data/session.js`
+- **emit()** (2 connections) — `src/data/session.js`
+- **load()** (2 connections) — `src/data/session.js`
+- **GUEST** (1 connections) — `src/data/session.js`
+- **revalidateSession()** (1 connections) — `src/data/session.js`
+- **state** (1 connections) — `src/data/session.js`
+- **subs** (1 connections) — `src/data/session.js`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (5 shared connections)
+- [[Dealer Auth & Session Management]] (9 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (3 shared connections)
 
 ## Source Files
 
-- `src/data/products.js`
-- `src/data/productsStore.js`
+- `src/data/dealer.js`
+- `src/data/session.js`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
+- EXTRACTED: 38 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
