@@ -37,7 +37,7 @@ export default function ProductCard({ p }) {
           {tag && <span className={`badge badge-${tag.kind === "blue" ? "blue" : ""} prod-tag`}>{tag.label}</span>}
         </span>
         <span className="prod-foot">
-          <b>{p.model}</b>
+          <b>{p.model && p.model.toLowerCase() !== "test" ? p.model : p.name}</b>
           <span>{[p.size, p.features[0] || p.finish, p.catLabel].filter(Boolean).join(" · ")}</span>
         </span>
       </Link>

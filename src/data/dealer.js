@@ -53,13 +53,15 @@ const BAND = {
 
 const hash = (s) => [...s].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 7);
 
+import DEALER_PRICEBOOK from "./dealer_pricebook.js";
+
 // ₹8,999 reads like a price; ₹8,943 does not.
 const price99 = (n) => (n <= 0 ? 0 : Math.max(99, Math.round(n / 100) * 100 - 1));
 
 /**
  * Zoho keeps a price list per audience.
  * Customers pay MRP (from Zoho Commerce store API).
- * Approved dealers get their contract rate or default rebate.
+ * Approved dealers get their assigned Zoho Pricebook rate, or standard rebate.
  * Unpriced products (mrp === 0) cleanly report Price on Request with no synthetic numbers.
  *
  * @param {object} p product
@@ -74,19 +76,28 @@ export function priceFor(p, dealer) {
   }
 
   let dealerNet;
+  let hasPricebookRate = false;
   if (!dealer) {
     dealerNet = mrp;
-  } else if (
-    (p.id === "3334672000000194828" || (p.name && p.name.toLowerCase().includes("kuchenbau") && p.name.toLowerCase().includes("kettle"))) &&
-    dealer.id !== "SD-4587" &&
-    dealer.id !== "SD-2210"
-  ) {
-    dealerNet = 1025;
+  } else if (p.dealerRate && p.dealerRate > 0) {
+    // 1. Direct rate attached from Zoho API
+    dealerNet = p.dealerRate;
+    hasPricebookRate = true;
   } else {
-    dealerNet = price99(mrp * (1 - rebatePct / 100));
+    // 2. Lookup in official Zoho Pricebook by Product ID
+    const pb = DEALER_PRICEBOOK[p.id];
+    if (pb && typeof pb.dealerRate === "number" && pb.dealerRate > 0) {
+      dealerNet = pb.dealerRate;
+      hasPricebookRate = true;
+    } else {
+      // 3. Fallback to standard contracted dealer rebate
+      dealerNet = price99(mrp * (1 - rebatePct / 100));
+    }
   }
 
-  const rebate = dealer ? (dealerNet === 1025 ? Math.round(((mrp - 1025) / mrp) * 100) : rebatePct) : 0;
+  const rebate = dealer && mrp > 0
+    ? (hasPricebookRate ? Math.round(((mrp - dealerNet) / mrp) * 100) : rebatePct)
+    : 0;
   return { mrp, dealer: dealerNet, rebatePct: rebate, isPriceOnRequest: false };
 }
 

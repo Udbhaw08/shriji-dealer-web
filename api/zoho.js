@@ -290,6 +290,14 @@ function parseRate(val) {
   return isNaN(n) ? 0 : n;
 }
 
+let dealerPricebookMap = {};
+try {
+  const pbPath = path.resolve(process.cwd(), "src/data/dealer_pricebook.json");
+  if (fs.existsSync(pbPath)) {
+    dealerPricebookMap = JSON.parse(fs.readFileSync(pbPath, "utf-8"));
+  }
+} catch {}
+
 function normalizeProduct(p) {
   const variant = p.variants?.[0] || {};
   const docs = p.documents?.length ? p.documents : (variant.documents || []);
@@ -351,10 +359,22 @@ function normalizeProduct(p) {
   const mrp = labelRate > 0 ? labelRate : (sellingRate > 0 ? sellingRate : (minRate > 0 ? minRate : 0));
   const sellingPrice = sellingRate > 0 ? sellingRate : (labelRate > 0 ? labelRate : (minRate > 0 ? minRate : 0));
 
+  // Sanitize model name: avoid using placeholder 'Test' descriptions from Zoho
+  const rawModel = (p.product_short_description || "").trim();
+  const isJunkModel = !rawModel || rawModel.toLowerCase() === "test" || rawModel.toLowerCase() === "null";
+  const model = isJunkModel ? p.name : rawModel;
+
+  const rawDesc = (p.description || p.product_description || "").trim();
+  const description = rawDesc.toLowerCase() === "test" ? "" : rawDesc;
+
+  // Dealer rate lookup from official Zoho Pricebook
+  const pbEntry = dealerPricebookMap[p.product_id];
+  const dealerRate = pbEntry && typeof pbEntry.dealerRate === "number" && pbEntry.dealerRate > 0 ? pbEntry.dealerRate : null;
+
   return {
     id: p.product_id,
     name: p.name,
-    model: p.product_short_description || p.name,
+    model,
     size,
     burners,
     finish,
@@ -367,11 +387,12 @@ function normalizeProduct(p) {
     mrp,
     sellingPrice,
     labelPrice: labelRate,
+    dealerRate,
     purchaseRate,
     stock: p.overall_stock ?? variant.stock_on_hand ?? 0,
     img,
     images: images.length ? images : (img ? [img] : []),
-    description: p.description || p.product_description || "",
+    description,
     status: p.status || "active",
     showInStore: p.show_in_storefront ?? true,
   };
@@ -437,7 +458,9 @@ export async function fetchZohoProducts({ refresh = false } = {}) {
     if (page > 10) break; // safety break
   }
 
-  const normalized = allProducts.map(normalizeProduct);
+  // Filter out inactive draft listings
+  const activeProducts = allProducts.filter((p) => p.status === "active" && !p.name.toLowerCase().startsWith("scheme "));
+  const normalized = activeProducts.map(normalizeProduct);
 
   cachedProducts = normalized;
   productsCacheTime = now;

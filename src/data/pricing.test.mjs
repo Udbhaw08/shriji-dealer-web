@@ -48,7 +48,24 @@ const vernaGuest = priceFor(vernaPlus);
 assert.equal(vernaGuest.mrp, 16395, "Should correctly pick label rate 16395 when selling price is 0");
 assert.equal(inr(vernaGuest.mrp), "₹16,395");
 
-// 4. Standard rebate calculation for other catalog products
+// 4. Exact dealer pricebook rate test (e.g. 3B Crystal BK HT Sunshine)
+const crystal = {
+  id: "3334672000000839771",
+  name: "3B Crystal BK HT Sunshine",
+  mrp: 22895,
+};
+
+const crystalGuest = priceFor(crystal);
+assert.equal(crystalGuest.mrp, 22895, "Guest sees full retail MRP 22895 for Crystal 3B");
+assert.equal(crystalGuest.dealer, 22895);
+assert.equal(crystalGuest.rebatePct, 0);
+
+const crystalDealer = priceFor(crystal, { id: "cust_hello", rebatePct: 20 });
+assert.equal(crystalDealer.mrp, 22895, "Crystal 3B MRP remains 22895");
+assert.equal(crystalDealer.dealer, 8550, "Crystal 3B dealer price must be exactly ₹8,550 from Zoho pricebook!");
+assert.equal(crystalDealer.rebatePct, 63, "Crystal 3B rebate percentage is 63% off MRP");
+
+// 5. Standard rebate calculation for products without specific pricebook overrides
 const nutriVita = {
   id: "3334672000000194738",
   name: "1000W Nutri Vita Pro Black 2 in 1 SA Sunshine",
@@ -61,7 +78,6 @@ assert.equal(nutriGuest.dealer, 9990);
 
 const nutriDealer = priceFor(nutriVita, { id: "cust_dealer_1", rebatePct: 20 });
 assert.equal(nutriDealer.mrp, 9990);
-assert.ok(nutriDealer.dealer < nutriDealer.mrp, "Dealer price must be lower than MRP");
-assert.equal(nutriDealer.rebatePct, 20);
+assert.equal(nutriDealer.dealer, 4100, "Nutri Vita Pro dealer price is 4100 from pricebook");
 
 console.log("✓ All pricing regression tests PASSED successfully.");

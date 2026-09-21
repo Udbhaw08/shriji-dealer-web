@@ -127,8 +127,10 @@ export default function Product() {
 
   const tag = tagFor(p);
 
+  const displayTitle = p?.model && p.model.toLowerCase() !== "test" ? p.model : (p?.name || "");
+
   const specs = [
-    ["Model", p.model],
+    ["Model", displayTitle],
     ["Full catalogue name", p.name],
     ["Category", p.catLabel],
     p.size && ["Size", p.size],
@@ -138,7 +140,7 @@ export default function Product() {
     ["Product code", `${p.code}-${p.id.slice(-6)}`],
   ].filter(Boolean);
 
-  const overview = `The Sunshine ${p.model} combines ${p.finish.toLowerCase()} construction with ${
+  const overview = `The Sunshine ${displayTitle} combines ${p.finish.toLowerCase()} construction with ${
     p.features.length ? p.features.join(" and ").toLowerCase() : "everyday reliability"
   }, making it a dependable choice for the modern Indian kitchen.`;
 
@@ -146,7 +148,7 @@ export default function Product() {
     const url = shareLink(p, me);
     const data = {
       title: p.name,
-      text: `${p.model} — ${p.catLabel} from ${COMPANY.brand}.`,
+      text: `${displayTitle} — ${p.catLabel} from ${COMPANY.brand}.`,
       url,
     };
     if (navigator.share) {
@@ -172,7 +174,7 @@ export default function Product() {
           <Icon name="chev" size={13} />
           <Link to={`/products?cat=${p.cat}`}>{p.catLabel}</Link>
           <Icon name="chev" size={13} />
-          <span>{p.model}</span>
+          <span>{displayTitle}</span>
         </nav>
 
         <div className="detail">
@@ -234,7 +236,7 @@ export default function Product() {
 
           {/* ---- info ---- */}
           <div>
-            <h1 className="d2">{p.model}</h1>
+            <h1 className="d2">{displayTitle}</h1>
             <p className="muted" style={{ marginTop: 6, fontWeight: 600 }}>
               {[p.size, p.features[0], p.catLabel].filter(Boolean).join(" · ")}
             </p>
