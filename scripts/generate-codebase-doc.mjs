@@ -152,8 +152,9 @@ node scripts/audit_prices.mjs
 
 ---
 
-## 7. How to Maintain this Document
-Whenever adding, renaming, or refactoring features, run:
+## 7. Development & Git Workflow Guidelines
+- **No Automatic Pushes**: Never run \`git push\` or trigger remote deployment without explicit instruction from the user. Keep work local until instructed.
+- **Continuous Documentation**: Whenever adding, renaming, or refactoring features, run:
 \`\`\`bash
 npm run docs
 \`\`\`

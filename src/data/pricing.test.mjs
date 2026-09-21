@@ -83,4 +83,23 @@ assert.equal(genericDealer.mrp, 5000);
 assert.equal(genericDealer.dealer, 3999, "Falls back to 20% rebate price99 when no specific pricebook rate exists");
 assert.equal(genericDealer.rebatePct, 20);
 
+// 6. Product with MRP 0 but active custom dealer rate in Zoho Pricebook (e.g. 3B TRIPLE COOK WITH 2 JUMBO)
+const tripleCookJumbo = {
+  id: "3334672000000840386",
+  name: "3B TRIPLE COOK WITH 2 JUMBO GS SUNSHINE",
+  mrp: 0,
+  dealerRate: 4350,
+};
+
+const tcjGuest = priceFor(tripleCookJumbo);
+assert.equal(tcjGuest.mrp, 0);
+assert.equal(tcjGuest.isPriceOnRequest, true, "Customer sees Price on Request because MRP is 0");
+assert.equal(inr(tcjGuest.mrp), "Price on Request");
+
+const tcjDealer = priceFor(tripleCookJumbo, { id: "cust_hello", rebatePct: 20 });
+assert.equal(tcjDealer.mrp, 0);
+assert.equal(tcjDealer.dealer, 4350, "Dealer sees their exact custom rate 4350 from Zoho Pricebook!");
+assert.equal(tcjDealer.isPriceOnRequest, false, "Dealer price is NOT on request because custom rate exists");
+assert.equal(inr(tcjDealer.dealer), "₹4,350");
+
 console.log("✓ All pricing regression tests PASSED successfully.");

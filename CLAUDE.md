@@ -24,6 +24,7 @@ whichever doc below covers your task. Do not infer facts about this business fro
 4. **MRP is shown to customers; dealer wholesale rates are gated.** Approved dealers view their wholesale rate masked behind "View Dealer Price". Customers only see MRP.
 5. **A `?from=` share link forces the customer view for everyone**, including the dealer who sent it.
 6. **Keep `CODEBASE.md` synchronized.** Run `npm run docs` whenever new features, routes, or files are created or changed.
+7. **Never push to git automatically.** Do NOT run `git push` or deploy unless the user explicitly asks you to push or deploy. Keep all changes local until specifically told to push.
 
 ## Commands
 

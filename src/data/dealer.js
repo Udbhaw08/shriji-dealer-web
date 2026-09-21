@@ -68,28 +68,38 @@ const price99 = (n) => (n <= 0 ? 0 : Math.max(99, Math.round(n / 100) * 100 - 1)
 export function priceFor(p, dealer) {
   const mrp = typeof p?.mrp === "number" && !isNaN(p.mrp) ? p.mrp : 0;
   const rebatePct = dealer ? (dealer.rebatePct || 20) : 0;
-
-  if (mrp <= 0) {
-    return { mrp: 0, dealer: 0, rebatePct: 0, isPriceOnRequest: true };
-  }
+  const hasLiveDealerRate = typeof p?.dealerRate === "number" && p.dealerRate > 0;
 
   let dealerNet;
-  let hasLiveDealerRate = false;
   if (!dealer) {
+    // Customers only see retail MRP
     dealerNet = mrp;
-  } else if (typeof p?.dealerRate === "number" && p.dealerRate > 0) {
-    // Exact live wholesale rate from Zoho Commerce Store API Pricebook
+  } else if (hasLiveDealerRate) {
+    // Exact custom wholesale rate directly from Zoho Commerce Pricebook API
     dealerNet = p.dealerRate;
-    hasLiveDealerRate = true;
-  } else {
-    // Fallback to standard contracted dealer rebate
+  } else if (mrp > 0) {
+    // Fallback to standard contracted dealer rebate from MRP
     dealerNet = price99(mrp * (1 - rebatePct / 100));
+  } else {
+    dealerNet = 0;
   }
 
-  const rebate = dealer && mrp > 0
-    ? (hasLiveDealerRate ? Math.round(((mrp - dealerNet) / mrp) * 100) : rebatePct)
+  const isDealerPriceOnRequest = !dealer ? mrp <= 0 : dealerNet <= 0;
+  const isCustomerPriceOnRequest = mrp <= 0;
+
+  const rebate = dealer
+    ? (hasLiveDealerRate && mrp > 0 && dealerNet < mrp
+        ? Math.round(((mrp - dealerNet) / mrp) * 100)
+        : rebatePct)
     : 0;
-  return { mrp, dealer: dealerNet, rebatePct: rebate, isPriceOnRequest: false };
+
+  return {
+    mrp,
+    dealer: dealerNet,
+    rebatePct: rebate,
+    isPriceOnRequest: isDealerPriceOnRequest,
+    isCustomerPriceOnRequest,
+  };
 }
 
 /** Bestseller / New / Premium ribbon, as on the mockup. Sample data. */

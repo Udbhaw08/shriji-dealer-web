@@ -1,7 +1,7 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-09-21T11:06:05.652Z
+> Last synchronized: 2026-09-21T11:12:59.384Z
 > Total Project Files: 46
 
 ---
@@ -67,9 +67,9 @@ $$\text{mrp} = \text{Label Rate (Printed MRP)} > \text{Selling Rate} > \text{Min
 - **`src/ui.jsx`**: Core UI components (Header, Footer, Icon, Search, CategoryCarousel).
 
 ### 4.3 State & Business Logic (`src/data/`)
-- **`src/data/dealer.js`** (4.8 KB)
+- **`src/data/dealer.js`** (5.0 KB)
 - **`src/data/dealer.test.mjs`** (3.1 KB)
-- **`src/data/pricing.test.mjs`** (3.3 KB)
+- **`src/data/pricing.test.mjs`** (4.2 KB)
 - **`src/data/products.js`** (1.1 KB)
 - **`src/data/productsStore.js`** (2.8 KB)
 - **`src/data/session.js`** (2.4 KB)
@@ -85,7 +85,7 @@ $$\text{mrp} = \text{Label Rate (Printed MRP)} > \text{Selling Rate} > \text{Min
 
 ### 4.5 Automation & Utility Scripts (`scripts/`)
 - **`scripts/audit_prices.mjs`** (3.8 KB)
-- **`scripts/generate-codebase-doc.mjs`** (6.3 KB)
+- **`scripts/generate-codebase-doc.mjs`** (6.5 KB)
 - **`scripts/get-refresh-token.mjs`** (2.3 KB)
 - **`scripts/test-zoho-api.mjs`** (2.1 KB)
 
@@ -130,8 +130,9 @@ node scripts/audit_prices.mjs
 
 ---
 
-## 7. How to Maintain this Document
-Whenever adding, renaming, or refactoring features, run:
+## 7. Development & Git Workflow Guidelines
+- **No Automatic Pushes**: Never run `git push` or trigger remote deployment without explicit instruction from the user. Keep work local until instructed.
+- **Continuous Documentation**: Whenever adding, renaming, or refactoring features, run:
 ```bash
 npm run docs
 ```
