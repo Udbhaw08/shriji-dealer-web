@@ -17,6 +17,7 @@ const PATHS = {
   arrow: <path d="M4 10h12M11 5l5 5-5 5" />,
   arrowsm: <path d="M5 10h9M10 6l4 4-4 4" />,
   chev: <path d="M8 5l5 5-5 5" />,
+  chevleft: <path d="M12 5l-5 5 5 5" />,
   search: (
     <>
       <circle cx="9" cy="9" r="5.4" />

@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { SCHEMES, COMPANY } from "../data/site";
 import { isDealer, useSession } from "../data/session";
+import { useProducts } from "../data/productsStore";
 import { Icon } from "../ui";
 
 const TABS = [
@@ -13,6 +14,7 @@ const TABS = [
 export default function Schemes() {
   const session = useSession();
   const dealer = isDealer(session);
+  const { categories: CATEGORIES } = useProducts();
   const [tab, setTab] = useState("active");
   const list = SCHEMES[tab] || [];
 

@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Link, useParams, useSearchParams } from "react-router-dom";
 import { useProducts } from "../data/productsStore";
 import { COMPANY } from "../data/site";
@@ -22,15 +22,7 @@ function featureBoxes(p) {
   return out.slice(0, 4);
 }
 
-function inTheBox(p) {
-  const box = [`${p.model} unit`, "User manual", "Warranty card"];
-  if (p.burners) box.push("Pan supports", "Burner caps");
-  if (p.cat === "chimneys") box.push("Mounting kit", "Duct pipe");
-  if (p.cat === "hobs" || p.cat === "hob_tops") box.push("Cut-out template", "Fixing clamps");
-  return box;
-}
-
-const TABS = ["Overview", "Specifications", "In The Box", "Marketing Material", "Videos"];
+const TABS = ["Overview", "Specifications", "Videos"];
 
 export default function Product() {
   const { id } = useParams();
@@ -58,6 +50,19 @@ export default function Product() {
   const [shotError, setShotError] = useState(false);
   const [tab, setTab] = useState(TABS[0]);
   const [copied, setCopied] = useState(false);
+
+  const thumbsRef = useRef(null);
+  const touchRef = useRef({ startX: 0, startY: 0, time: 0 });
+  const mouseDragRef = useRef({ startX: 0, isDown: false });
+
+  // Reset shot index & fetched product state when id changes
+  const [prevId, setPrevId] = useState(id);
+  if (prevId !== id) {
+    setPrevId(id);
+    setShot(0);
+    setShotError(false);
+    setFetchedProduct(null);
+  }
 
   // A ?from= link is a customer link, full stop. Whoever opens it — including the
   // dealer who sent it — gets the customer view and no way to reach a dealer price.
@@ -87,16 +92,106 @@ export default function Product() {
     [p, PRODUCTS],
   );
 
-  // the mockup shows a thumbnail strip; we build it from the sibling shots on file
+  // Gallery shots: use product images from Zoho, clean duplicates, or fallback
   const shots = useMemo(() => {
     if (!p) return [];
-    if (p.images && p.images.length > 0) return p.images;
+    if (p.images && p.images.length > 0) {
+      const clean = p.images.filter(Boolean);
+      return Array.from(new Set(clean));
+    }
     const others = PRODUCTS.filter((x) => x.cat === p.cat && x.img && x.img !== p.img)
       .map((x) => x.img)
       .filter((v, i, a) => a.indexOf(v) === i)
       .slice(0, 3);
     return [p.img, ...others].filter(Boolean);
   }, [p, PRODUCTS]);
+
+  const prevShot = useCallback(() => {
+    if (shots.length <= 1) return;
+    setShot((curr) => (curr > 0 ? curr - 1 : shots.length - 1));
+    setShotError(false);
+  }, [shots.length]);
+
+  const nextShot = useCallback(() => {
+    if (shots.length <= 1) return;
+    setShot((curr) => (curr < shots.length - 1 ? curr + 1 : 0));
+    setShotError(false);
+  }, [shots.length]);
+
+  // Keep active thumbnail centered in the scrollable strip
+  useEffect(() => {
+    if (thumbsRef.current && thumbsRef.current.children[shot]) {
+      const activeThumb = thumbsRef.current.children[shot];
+      if (typeof activeThumb.scrollIntoView === "function") {
+        activeThumb.scrollIntoView({
+          behavior: "smooth",
+          block: "nearest",
+          inline: "center",
+        });
+      }
+    }
+  }, [shot]);
+
+  // Touch swipe handlers (for phone / mobile)
+  const handleTouchStart = (e) => {
+    if (shots.length <= 1) return;
+    const t = e.touches[0];
+    touchRef.current = { startX: t.clientX, startY: t.clientY, time: Date.now() };
+  };
+
+  const handleTouchEnd = (e) => {
+    if (shots.length <= 1 || !touchRef.current.time) return;
+    const t = e.changedTouches[0];
+    const dx = t.clientX - touchRef.current.startX;
+    const dy = t.clientY - touchRef.current.startY;
+    const dt = Date.now() - touchRef.current.time;
+    touchRef.current.time = 0;
+
+    // Trigger only if horizontal swipe dominates over vertical movement
+    if (Math.abs(dx) > Math.abs(dy) * 1.1) {
+      if (Math.abs(dx) > 35 || (dt < 280 && Math.abs(dx) > 20)) {
+        if (dx < 0) {
+          nextShot();
+        } else {
+          prevShot();
+        }
+      }
+    }
+  };
+
+  // Mouse drag handlers (for desktop web)
+  const handleMouseDown = (e) => {
+    if (shots.length <= 1 || e.button !== 0) return;
+    mouseDragRef.current = { startX: e.clientX, isDown: true };
+  };
+
+  const handleMouseUp = (e) => {
+    if (!mouseDragRef.current.isDown || shots.length <= 1) return;
+    mouseDragRef.current.isDown = false;
+    const dx = e.clientX - mouseDragRef.current.startX;
+    if (Math.abs(dx) > 40) {
+      if (dx < 0) {
+        nextShot();
+      } else {
+        prevShot();
+      }
+    }
+  };
+
+  const handleMouseLeave = () => {
+    mouseDragRef.current.isDown = false;
+  };
+
+  const handleKeyDown = (e) => {
+    if (shots.length <= 1) return;
+    if (e.key === "ArrowLeft") {
+      e.preventDefault();
+      prevShot();
+    } else if (e.key === "ArrowRight") {
+      e.preventDefault();
+      nextShot();
+    }
+  };
 
   if (!p) {
     if (!loaded) {
@@ -180,17 +275,62 @@ export default function Product() {
         <div className="detail">
           {/* ---- gallery ---- */}
           <div className="gallery">
-            <div className="gallery-main">
+            <div
+              className={`gallery-main ${shots.length > 1 ? "gallery-interactive" : ""}`}
+              tabIndex={shots.length > 1 ? 0 : undefined}
+              role={shots.length > 1 ? "region" : undefined}
+              aria-label={shots.length > 1 ? "Product image gallery. Use arrow keys or swipe to change images" : undefined}
+              onKeyDown={handleKeyDown}
+              onTouchStart={handleTouchStart}
+              onTouchEnd={handleTouchEnd}
+              onMouseDown={handleMouseDown}
+              onMouseUp={handleMouseUp}
+              onMouseLeave={handleMouseLeave}
+            >
               {shots.length && !shotError ? (
                 <img
+                  key={shots[shot]}
                   src={shots[shot]?.startsWith("http") ? shots[shot] : `/img/${shots[shot]}`}
-                  alt={`${p.name}, view ${shot + 1}`}
+                  alt={`${p.name}, view ${shot + 1} of ${shots.length}`}
                   onError={() => setShotError(true)}
+                  draggable={false}
                 />
               ) : (
                 <Icon name={p.cat === "chimneys" ? "chimney" : p.cat === "small_appliances" ? "blender" : "stove"} size={90} style={{ color: "var(--tx-3)" }} />
               )}
               {tag && <span className={`badge badge-${tag.kind === "blue" ? "blue" : ""} prod-tag`}>{tag.label}</span>}
+
+              {shots.length > 1 && (
+                <>
+                  <button
+                    type="button"
+                    className="gallery-nav gallery-nav-prev"
+                    aria-label="Previous image"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      prevShot();
+                    }}
+                  >
+                    <Icon name="chevleft" size={18} />
+                  </button>
+
+                  <button
+                    type="button"
+                    className="gallery-nav gallery-nav-next"
+                    aria-label="Next image"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      nextShot();
+                    }}
+                  >
+                    <Icon name="chev" size={18} />
+                  </button>
+
+                  <div className="gallery-counter">
+                    {shot + 1} / {shots.length}
+                  </div>
+                </>
+              )}
             </div>
 
             {shots.length > 1 && (
@@ -199,9 +339,10 @@ export default function Product() {
                   {shots.map((s, i) => (
                     <button
                       key={s}
+                      type="button"
                       className="dot"
                       aria-current={i === shot}
-                      aria-label={`View ${i + 1}`}
+                      aria-label={`View image ${i + 1}`}
                       onClick={() => {
                         setShot(i);
                         setShotError(false);
@@ -209,12 +350,14 @@ export default function Product() {
                     />
                   ))}
                 </div>
-                <div className="thumbs">
+                <div className="thumbs" ref={thumbsRef}>
                   {shots.map((s, i) => (
                     <button
                       key={s}
+                      type="button"
                       className="thumb"
                       aria-pressed={i === shot}
+                      aria-label={`Select image ${i + 1}`}
                       onClick={() => {
                         setShot(i);
                         setShotError(false);
@@ -262,9 +405,6 @@ export default function Product() {
                     <Icon name="tag" /> Current Scheme · 5 + 1
                   </Link>
                 </div>
-                <p className="note" style={{ marginTop: "var(--s3)" }}>
-                  The link you share opens the customer view — MRP only, with your shop named on it.
-                </p>
               </>
             )}
 
@@ -329,26 +469,12 @@ export default function Product() {
                 </>
               )}
 
-              {tab === "In The Box" && (
+              {tab === "Videos" && (
                 <>
-                  <h3>In The Box</h3>
-                  <ul className="bullets">
-                    {inTheBox(p).map((b) => (
-                      <li key={b}>{b}</li>
-                    ))}
-                  </ul>
-                </>
-              )}
-
-              {(tab === "Marketing Material" || tab === "Videos") && (
-                <>
-                  <h3>{tab}</h3>
+                  <h3>Videos</h3>
                   <p className="muted" style={{ fontSize: "0.93rem" }}>
-                    No {tab.toLowerCase()} uploaded for the {p.model} yet.
+                    No videos uploaded for {p.model} yet.
                   </p>
-                  <Link className="btn btn-ghost btn-sm" to="/support#marketing" style={{ marginTop: "var(--s4)" }}>
-                    <Icon name="image" size={16} /> Browse all material
-                  </Link>
                 </>
               )}
             </div>

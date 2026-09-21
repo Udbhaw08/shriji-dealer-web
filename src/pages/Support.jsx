@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { COMPANY, ISSUE_TYPES, MATERIALS } from "../data/site";
 import { Icon, EnquiryButtons } from "../ui";
+import { useProducts } from "../data/productsStore";
 
 const TICKETS = [
   { id: "SR-2418", model: "3B Carnival Plus Auto Tablet Hob", issue: "Spare part required", state: "Open", tone: "badge-warn", when: "Raised 2 days ago" },
@@ -9,6 +10,7 @@ const TICKETS = [
 ];
 
 function ServiceForm() {
+  const { products: PRODUCTS, categories: CATEGORIES } = useProducts();
   const [v, setV] = useState({ product: "", issue: "", desc: "" });
   const [errors, setErrors] = useState({});
   const [sent, setSent] = useState(false);
@@ -158,33 +160,13 @@ function DealerForm() {
     );
   }
 
-  const F = ({ id, label, ph, type = "text" }) => (
-    <div className="field">
-      <label htmlFor={id}>{label}</label>
-      <input
-        id={id}
-        type={type}
-        value={v[id]}
-        onChange={set(id)}
-        placeholder={ph}
-        aria-invalid={!!errors[id]}
-        aria-describedby={errors[id] ? `e-${id}` : undefined}
-      />
-      {errors[id] && (
-        <span className="err" id={`e-${id}`}>
-          {errors[id]}
-        </span>
-      )}
-    </div>
-  );
-
   return (
     <form className="stack" onSubmit={submit} noValidate>
       <div className="form-grid">
-        <F id="shop" label="Shop / firm name" ph="Shah Electronics" />
-        <F id="person" label="Contact person" ph="Kunal Shah" />
-        <F id="phone" label="Phone" ph="+91 98200 00000" type="tel" />
-        <F id="city" label="City" ph="Mumbai" />
+        <DealerField id="shop" label="Shop / firm name" ph="Shah Electronics" value={v.shop} onChange={set("shop")} error={errors.shop} />
+        <DealerField id="person" label="Contact person" ph="Kunal Shah" value={v.person} onChange={set("person")} error={errors.person} />
+        <DealerField id="phone" label="Phone" ph="+91 98200 00000" type="tel" value={v.phone} onChange={set("phone")} error={errors.phone} />
+        <DealerField id="city" label="City" ph="Mumbai" value={v.city} onChange={set("city")} error={errors.city} />
       </div>
       <div className="row">
         <button className="btn btn-navy" type="submit">
@@ -193,6 +175,28 @@ function DealerForm() {
         <span className="note">Demo form — nothing is stored or sent.</span>
       </div>
     </form>
+  );
+}
+
+function DealerField({ id, label, ph, type = "text", value, onChange, error }) {
+  return (
+    <div className="field">
+      <label htmlFor={id}>{label}</label>
+      <input
+        id={id}
+        type={type}
+        value={value}
+        onChange={onChange}
+        placeholder={ph}
+        aria-invalid={!!error}
+        aria-describedby={error ? `e-${id}` : undefined}
+      />
+      {error && (
+        <span className="err" id={`e-${id}`}>
+          {error}
+        </span>
+      )}
+    </div>
   );
 }
 

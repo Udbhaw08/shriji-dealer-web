@@ -1134,6 +1134,7 @@ h4 {
 }
 
 .gallery-main {
+  position: relative;
   aspect-ratio: 4 / 3;
   display: grid;
   place-items: center;
@@ -1141,19 +1142,110 @@ h4 {
   border-radius: var(--r);
   overflow: hidden;
   padding: var(--s5);
+  user-select: none;
+  -webkit-user-select: none;
+}
+.gallery-main.gallery-interactive {
+  cursor: grab;
+  touch-action: pan-y;
+}
+.gallery-main.gallery-interactive:active {
+  cursor: grabbing;
 }
 .gallery-main img {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
   mix-blend-mode: multiply;
+  pointer-events: none;
+  transition: opacity 0.2s var(--ease), transform 0.2s var(--ease);
+}
+
+.gallery-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid var(--line);
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.12);
+  display: grid;
+  place-items: center;
+  color: var(--tx);
+  cursor: pointer;
+  z-index: 5;
+  padding: 0;
+  transition: transform 0.16s var(--ease), background 0.16s var(--ease), box-shadow 0.16s var(--ease), color 0.16s var(--ease);
+}
+.gallery-nav:hover {
+  background: #ffffff;
+  color: var(--amber-dark);
+  transform: translateY(-50%) scale(1.08);
+  box-shadow: 0 6px 16px rgba(15, 23, 42, 0.18);
+}
+.gallery-nav:active {
+  transform: translateY(-50%) scale(0.95);
+}
+.gallery-nav-prev {
+  left: 12px;
+}
+.gallery-nav-next {
+  right: 12px;
+}
+
+@media (max-width: 560px) {
+  .gallery-nav {
+    width: 34px;
+    height: 34px;
+    background: rgba(255, 255, 255, 0.9);
+  }
+  .gallery-nav-prev {
+    left: 8px;
+  }
+  .gallery-nav-next {
+    right: 8px;
+  }
+}
+
+.gallery-counter {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  background: rgba(15, 23, 42, 0.72);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  color: #ffffff;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  padding: 3px 10px;
+  border-radius: 999px;
+  pointer-events: none;
+  z-index: 4;
 }
 
 .thumbs {
   display: flex;
   gap: var(--s3);
   margin-top: var(--s4);
-  flex-wrap: wrap;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  padding-bottom: 6px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--line-2) transparent;
+  -webkit-overflow-scrolling: touch;
+  min-width: 0;
+}
+.thumbs::-webkit-scrollbar {
+  height: 4px;
+}
+.thumbs::-webkit-scrollbar-thumb {
+  background: var(--line-2);
+  border-radius: 4px;
 }
 .thumb {
   width: 66px;

@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-09-21T12:00:16.339Z
-> Total Project Files: 139
+> Last synchronized: 2026-09-21T18:43:39.529Z
+> Total Project Files: 141
 
 ---
 
@@ -56,10 +56,10 @@ $$\text{mrp} = \text{Label Rate (Printed MRP)} > \text{Selling Rate} > \text{Min
 ### 4.1 Pages (`src/pages/`)
 - **`src/pages/Home.jsx`** (7.3 KB)
 - **`src/pages/Login.jsx`** (23.5 KB)
-- **`src/pages/Product.jsx`** (14.3 KB)
+- **`src/pages/Product.jsx`** (18.0 KB)
 - **`src/pages/Products.jsx`** (13.1 KB)
-- **`src/pages/Schemes.jsx`** (6.2 KB)
-- **`src/pages/Support.jsx`** (12.8 KB)
+- **`src/pages/Schemes.jsx`** (6.3 KB)
+- **`src/pages/Support.jsx`** (13.2 KB)
 
 ### 4.2 Reusable Components (`src/components/` & `src/ui.jsx`)
 - **`src/components/PriceBlock.jsx`** (4.4 KB)
@@ -81,13 +81,13 @@ $$\text{mrp} = \text{Label Rate (Printed MRP)} > \text{Selling Rate} > \text{Min
 - **`api/dealer/login.js`** (0.8 KB)
 - **`api/products/index.js`** (0.9 KB)
 - **`api/products/[id].js`** (0.8 KB)
-- **`api/zoho.js`** (17.2 KB)
+- **`api/zoho.js`** (18.6 KB)
 
 ### 4.5 Automation & Utility Scripts (`scripts/`)
 - **`scripts/audit_prices.mjs`** (3.8 KB)
 - **`scripts/generate-codebase-doc.mjs`** (6.5 KB)
 - **`scripts/get-refresh-token.mjs`** (2.3 KB)
-- **`scripts/test-zoho-api.mjs`** (2.1 KB)
+- **`scripts/test-zoho-api.mjs`** (1.4 KB)
 
 ---
 
