@@ -19,8 +19,9 @@ function zohoApiPlugin() {
           try {
             const urlObj = new URL(req.url, 'http://localhost');
             const refresh = urlObj.searchParams.get('refresh') === 'true';
+            const pricebookId = urlObj.searchParams.get('pricebook_id') || '3334672000000547177';
             const [products, categories] = await Promise.all([
-              fetchZohoProducts({ refresh }),
+              fetchZohoProducts({ refresh, pricebookId }),
               fetchZohoCategories(),
             ]);
             res.statusCode = 200;
@@ -36,9 +37,11 @@ function zohoApiPlugin() {
         // Single product route: /api/products/:id
         if (req.url.startsWith('/api/products/') && req.method === 'GET') {
           try {
-            const urlParts = req.url.split('?')[0].split('/');
+            const urlObj = new URL(req.url, 'http://localhost');
+            const urlParts = urlObj.pathname.split('/');
             const id = urlParts[urlParts.length - 1];
-            const product = await fetchZohoProductById(id);
+            const pricebookId = urlObj.searchParams.get('pricebook_id') || '3334672000000547177';
+            const product = await fetchZohoProductById(id, { pricebookId });
             if (!product) {
               res.statusCode = 404;
               res.setHeader('Content-Type', 'application/json');

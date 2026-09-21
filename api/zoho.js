@@ -290,15 +290,54 @@ function parseRate(val) {
   return isNaN(n) ? 0 : n;
 }
 
-let dealerPricebookMap = {};
-try {
-  const pbPath = path.resolve(process.cwd(), "src/data/dealer_pricebook.json");
-  if (fs.existsSync(pbPath)) {
-    dealerPricebookMap = JSON.parse(fs.readFileSync(pbPath, "utf-8"));
-  }
-} catch {}
+let cachedPricebooks = new Map();
+let pricebooksCacheTime = 0;
 
-function normalizeProduct(p) {
+/**
+ * Fetch all available pricebooks live from Zoho Commerce Store API:
+ * GET https://commerce.zoho.in/store/api/v1/pricebooks
+ */
+export async function fetchZohoPricebooks({ refresh = false } = {}) {
+  const { dc, orgId } = getZohoConfig();
+  const url = `https://commerce.zoho.${dc}/store/api/v1/pricebooks`;
+  const res = await fetchZohoWithRetry(url, {
+    headers: { "X-com-zoho-store-organizationid": orgId },
+  });
+  const data = await res.json();
+  return data.pricebooks || [];
+}
+
+/**
+ * Fetch all item wholesale rates live from a Zoho Commerce Pricebook:
+ * GET https://commerce.zoho.in/store/api/v1/pricebooks/{pricebook_id}
+ */
+export async function fetchZohoPricebookItems(pricebookId = "3334672000000547177", { refresh = false } = {}) {
+  const now = Date.now();
+  if (!refresh && cachedPricebooks.has(pricebookId) && now - pricebooksCacheTime < 60000) {
+    return cachedPricebooks.get(pricebookId);
+  }
+
+  const { dc, orgId } = getZohoConfig();
+  const url = `https://commerce.zoho.${dc}/store/api/v1/pricebooks/${pricebookId}`;
+  const res = await fetchZohoWithRetry(url, {
+    headers: { "X-com-zoho-store-organizationid": orgId },
+  });
+
+  const data = await res.json();
+  const items = data.pricebook?.pricebook_items || [];
+  const rateMap = {};
+  for (const item of items) {
+    if (item.item_id && typeof item.pricebook_rate === "number") {
+      rateMap[item.item_id] = item.pricebook_rate;
+    }
+  }
+
+  cachedPricebooks.set(pricebookId, rateMap);
+  pricebooksCacheTime = now;
+  return rateMap;
+}
+
+function normalizeProduct(p, livePricebookRates = {}) {
   const variant = p.variants?.[0] || {};
   const docs = p.documents?.length ? p.documents : (variant.documents || []);
   const primaryDoc = docs[0] || (p.document_id && p.document_name ? { file_name: p.document_name, document_id: p.document_id } : null);
@@ -355,7 +394,7 @@ function normalizeProduct(p) {
   const minRate = parseRate(p.min_rate);
   const purchaseRate = parseRate(variant.purchase_rate);
 
-  // Accurate retail price (MRP): printed label price if set, else selling rate or min_rate
+  // Customer retail price (MRP) directly from Zoho Commerce API
   const mrp = labelRate > 0 ? labelRate : (sellingRate > 0 ? sellingRate : (minRate > 0 ? minRate : 0));
   const sellingPrice = sellingRate > 0 ? sellingRate : (labelRate > 0 ? labelRate : (minRate > 0 ? minRate : 0));
 
@@ -367,9 +406,8 @@ function normalizeProduct(p) {
   const rawDesc = (p.description || p.product_description || "").trim();
   const description = rawDesc.toLowerCase() === "test" ? "" : rawDesc;
 
-  // Dealer rate lookup from official Zoho Pricebook
-  const pbEntry = dealerPricebookMap[p.product_id];
-  const dealerRate = pbEntry && typeof pbEntry.dealerRate === "number" && pbEntry.dealerRate > 0 ? pbEntry.dealerRate : null;
+  // Live dealer rate directly from Zoho Commerce Pricebook API
+  const dealerRate = livePricebookRates[p.product_id] ?? null;
 
   return {
     id: p.product_id,
@@ -429,13 +467,18 @@ export async function fetchZohoCategories({ refresh = false } = {}) {
   return categories;
 }
 
-export async function fetchZohoProducts({ refresh = false } = {}) {
+export async function fetchZohoProducts({ refresh = false, pricebookId = "3334672000000547177" } = {}) {
   const now = Date.now();
   if (!refresh && cachedProducts && now - productsCacheTime < 30000) {
     return cachedProducts;
   }
 
   const { dc, orgId } = getZohoConfig();
+
+  // Fetch live products and live pricebook in parallel from Zoho Commerce API
+  const [livePricebookRates] = await Promise.all([
+    fetchZohoPricebookItems(pricebookId, { refresh }),
+  ]);
 
   const allProducts = [];
   let page = 1;
@@ -460,14 +503,14 @@ export async function fetchZohoProducts({ refresh = false } = {}) {
 
   // Filter out inactive draft listings
   const activeProducts = allProducts.filter((p) => p.status === "active" && !p.name.toLowerCase().startsWith("scheme "));
-  const normalized = activeProducts.map(normalizeProduct);
+  const normalized = activeProducts.map((p) => normalizeProduct(p, livePricebookRates));
 
   cachedProducts = normalized;
   productsCacheTime = now;
   return normalized;
 }
 
-export async function fetchZohoProductById(productId) {
+export async function fetchZohoProductById(productId, { pricebookId = "3334672000000547177" } = {}) {
   // If product is in cached list, check first
   if (cachedProducts) {
     const found = cachedProducts.find((p) => p.id === productId);
@@ -476,14 +519,17 @@ export async function fetchZohoProductById(productId) {
 
   const { dc, orgId } = getZohoConfig();
 
-  const res = await fetchZohoWithRetry(`https://commerce.zoho.${dc}/store/api/v1/products/${productId}`, {
-    headers: {
-      "X-com-zoho-store-organizationid": orgId,
-    },
-  });
+  const [res, livePricebookRates] = await Promise.all([
+    fetchZohoWithRetry(`https://commerce.zoho.${dc}/store/api/v1/products/${productId}`, {
+      headers: {
+        "X-com-zoho-store-organizationid": orgId,
+      },
+    }),
+    fetchZohoPricebookItems(pricebookId),
+  ]);
 
   const data = await res.json();
   if (!data.product) return null;
 
-  return normalizeProduct(data.product);
+  return normalizeProduct(data.product, livePricebookRates);
 }

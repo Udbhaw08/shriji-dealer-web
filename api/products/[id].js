@@ -7,12 +7,12 @@ export default async function handler(req, res) {
   }
 
   try {
-    const { id } = req.query || {};
+    const { id, pricebook_id } = req.query || {};
     if (!id) {
       return res.status(400).json({ error: "Missing product id" });
     }
 
-    const product = await fetchZohoProductById(id);
+    const product = await fetchZohoProductById(id, { pricebookId: pricebook_id || "3334672000000547177" });
     if (!product) {
       return res.status(404).json({ error: "Product not found in Zoho" });
     }

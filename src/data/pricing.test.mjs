@@ -22,6 +22,7 @@ const kettle = {
   id: "3334672000000194828",
   name: "1.8L Electric Kettle SA KuchenBau",
   mrp: 2999,
+  dealerRate: 1025,
 };
 
 const kettleGuest = priceFor(kettle);
@@ -32,7 +33,7 @@ assert.equal(inr(kettleGuest.mrp), "₹2,999");
 
 const kettleDealer = priceFor(kettle, { id: "cust_dealer_1", rebatePct: 20 });
 assert.equal(kettleDealer.mrp, 2999, "Kettle MRP stays 2999 for dealer");
-assert.equal(kettleDealer.dealer, 1025, "Kettle dealer rate must be 1025 as assigned in Zoho pricebook");
+assert.equal(kettleDealer.dealer, 1025, "Kettle dealer rate must be 1025 as fetched from Zoho Commerce API");
 
 // 3. Label Price vs Selling Price priority regression check
 // When Selling Price is 0 but Label Price is set (e.g. 3B Verna Plus GS Sunshine)
@@ -53,6 +54,7 @@ const crystal = {
   id: "3334672000000839771",
   name: "3B Crystal BK HT Sunshine",
   mrp: 22895,
+  dealerRate: 8550,
 };
 
 const crystalGuest = priceFor(crystal);
@@ -62,22 +64,23 @@ assert.equal(crystalGuest.rebatePct, 0);
 
 const crystalDealer = priceFor(crystal, { id: "cust_hello", rebatePct: 20 });
 assert.equal(crystalDealer.mrp, 22895, "Crystal 3B MRP remains 22895");
-assert.equal(crystalDealer.dealer, 8550, "Crystal 3B dealer price must be exactly ₹8,550 from Zoho pricebook!");
+assert.equal(crystalDealer.dealer, 8550, "Crystal 3B dealer price must be exactly ₹8,550 from Zoho Commerce API!");
 assert.equal(crystalDealer.rebatePct, 63, "Crystal 3B rebate percentage is 63% off MRP");
 
-// 5. Standard rebate calculation for products without specific pricebook overrides
-const nutriVita = {
-  id: "3334672000000194738",
-  name: "1000W Nutri Vita Pro Black 2 in 1 SA Sunshine",
-  mrp: 9990,
+// 5. Product without specific pricebook rate falls back to contracted rebate
+const genericItem = {
+  id: "generic-1",
+  name: "Generic 2B Gas Stove",
+  mrp: 5000,
 };
 
-const nutriGuest = priceFor(nutriVita);
-assert.equal(nutriGuest.mrp, 9990);
-assert.equal(nutriGuest.dealer, 9990);
+const genericGuest = priceFor(genericItem);
+assert.equal(genericGuest.mrp, 5000);
+assert.equal(genericGuest.dealer, 5000);
 
-const nutriDealer = priceFor(nutriVita, { id: "cust_dealer_1", rebatePct: 20 });
-assert.equal(nutriDealer.mrp, 9990);
-assert.equal(nutriDealer.dealer, 4100, "Nutri Vita Pro dealer price is 4100 from pricebook");
+const genericDealer = priceFor(genericItem, { id: "cust_dealer_1", rebatePct: 20 });
+assert.equal(genericDealer.mrp, 5000);
+assert.equal(genericDealer.dealer, 3999, "Falls back to 20% rebate price99 when no specific pricebook rate exists");
+assert.equal(genericDealer.rebatePct, 20);
 
 console.log("✓ All pricing regression tests PASSED successfully.");

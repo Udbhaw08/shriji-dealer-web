@@ -8,8 +8,9 @@ export default async function handler(req, res) {
 
   try {
     const refresh = req.query?.refresh === "true";
+    const pricebookId = req.query?.pricebook_id || "3334672000000547177";
     const [products, categories] = await Promise.all([
-      fetchZohoProducts({ refresh }),
+      fetchZohoProducts({ refresh, pricebookId }),
       fetchZohoCategories({ refresh }),
     ]);
 

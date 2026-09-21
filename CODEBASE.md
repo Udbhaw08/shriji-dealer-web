@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-09-21T11:02:41.517Z
-> Total Project Files: 48
+> Last synchronized: 2026-09-21T11:06:05.652Z
+> Total Project Files: 46
 
 ---
 
@@ -67,11 +67,9 @@ $$\text{mrp} = \text{Label Rate (Printed MRP)} > \text{Selling Rate} > \text{Min
 - **`src/ui.jsx`**: Core UI components (Header, Footer, Icon, Search, CategoryCarousel).
 
 ### 4.3 State & Business Logic (`src/data/`)
-- **`src/data/dealer.js`** (5.1 KB)
+- **`src/data/dealer.js`** (4.8 KB)
 - **`src/data/dealer.test.mjs`** (3.1 KB)
-- **`src/data/dealer_pricebook.js`** (73.3 KB)
-- **`src/data/dealer_pricebook.json`** (73.2 KB)
-- **`src/data/pricing.test.mjs`** (3.2 KB)
+- **`src/data/pricing.test.mjs`** (3.3 KB)
 - **`src/data/products.js`** (1.1 KB)
 - **`src/data/productsStore.js`** (2.8 KB)
 - **`src/data/session.js`** (2.4 KB)
@@ -81,9 +79,9 @@ $$\text{mrp} = \text{Label Rate (Printed MRP)} > \text{Selling Rate} > \text{Min
 - **`api/dealer/apply.js`** (0.7 KB)
 - **`api/dealer/info.js`** (0.6 KB)
 - **`api/dealer/login.js`** (0.8 KB)
-- **`api/products/index.js`** (0.8 KB)
-- **`api/products/[id].js`** (0.7 KB)
-- **`api/zoho.js`** (15.5 KB)
+- **`api/products/index.js`** (0.9 KB)
+- **`api/products/[id].js`** (0.8 KB)
+- **`api/zoho.js`** (17.2 KB)
 
 ### 4.5 Automation & Utility Scripts (`scripts/`)
 - **`scripts/audit_prices.mjs`** (3.8 KB)
