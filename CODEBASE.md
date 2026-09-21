@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-09-21T12:00:16.339Z
-> Total Project Files: 139
+> Last synchronized: 2026-09-21T12:14:13.652Z
+> Total Project Files: 103
 
 ---
 
@@ -56,9 +56,9 @@ $$\text{mrp} = \text{Label Rate (Printed MRP)} > \text{Selling Rate} > \text{Min
 ### 4.1 Pages (`src/pages/`)
 - **`src/pages/Home.jsx`** (7.3 KB)
 - **`src/pages/Login.jsx`** (23.5 KB)
-- **`src/pages/Product.jsx`** (14.3 KB)
-- **`src/pages/Products.jsx`** (13.1 KB)
-- **`src/pages/Schemes.jsx`** (6.2 KB)
+- **`src/pages/Product.jsx`** (13.9 KB)
+- **`src/pages/Products.jsx`** (12.7 KB)
+- **`src/pages/Schemes.jsx`** (6.1 KB)
 - **`src/pages/Support.jsx`** (12.8 KB)
 
 ### 4.2 Reusable Components (`src/components/` & `src/ui.jsx`)
@@ -67,27 +67,27 @@ $$\text{mrp} = \text{Label Rate (Printed MRP)} > \text{Selling Rate} > \text{Min
 - **`src/ui.jsx`**: Core UI components (Header, Footer, Icon, Search, CategoryCarousel).
 
 ### 4.3 State & Business Logic (`src/data/`)
-- **`src/data/dealer.js`** (5.0 KB)
-- **`src/data/dealer.test.mjs`** (3.1 KB)
+- **`src/data/dealer.js`** (4.9 KB)
+- **`src/data/dealer.test.mjs`** (3.0 KB)
 - **`src/data/pricing.test.mjs`** (4.2 KB)
 - **`src/data/products.js`** (1.1 KB)
 - **`src/data/productsStore.js`** (2.8 KB)
-- **`src/data/session.js`** (2.4 KB)
+- **`src/data/session.js`** (2.3 KB)
 - **`src/data/site.js`** (4.5 KB)
 
 ### 4.4 Zoho API & Serverless Handlers (`api/`)
 - **`api/dealer/apply.js`** (0.7 KB)
 - **`api/dealer/info.js`** (0.6 KB)
 - **`api/dealer/login.js`** (0.8 KB)
-- **`api/products/index.js`** (0.9 KB)
 - **`api/products/[id].js`** (0.8 KB)
-- **`api/zoho.js`** (17.2 KB)
+- **`api/products/index.js`** (0.9 KB)
+- **`api/zoho.js`** (18.6 KB)
 
 ### 4.5 Automation & Utility Scripts (`scripts/`)
 - **`scripts/audit_prices.mjs`** (3.8 KB)
 - **`scripts/generate-codebase-doc.mjs`** (6.5 KB)
 - **`scripts/get-refresh-token.mjs`** (2.3 KB)
-- **`scripts/test-zoho-api.mjs`** (2.1 KB)
+- **`scripts/test-zoho-api.mjs`** (1.4 KB)
 
 ---
 
