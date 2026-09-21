@@ -314,13 +314,20 @@ export default function Product() {
 
 
   return (
-    <section className="sec" style={{ paddingTop: "var(--s6)" }}>
+    <section className="sec product-detail-sec">
       <div className="wrap">
-        <div className="product-top-bar">
-          <Link to="/products" className="app-mobile-back">
-            <Icon name="chevleft" size={17} />
+        <div className="app-mobile-top-bar">
+          <Link to="/products" className="app-mobile-back" aria-label="Back to products">
+            <Icon name="chevleft" size={18} />
             <span>{t("nav_products") || "Products"}</span>
           </Link>
+          <span className="app-mobile-title">{displayTitle}</span>
+          <button type="button" onClick={share} className="app-mobile-icon-btn" aria-label="Share product">
+            <Icon name="share" size={17} />
+          </button>
+        </div>
+
+        <div className="product-top-bar desktop-only">
           <nav className="crumbs" aria-label="Breadcrumb">
             <Link to="/">{t("nav_home")}</Link>
             <Icon name="chev" size={13} />

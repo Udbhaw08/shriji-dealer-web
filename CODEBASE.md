@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-09-21T20:01:01.046Z
-> Total Project Files: 161
+> Last synchronized: 2026-09-21T20:09:36.290Z
+> Total Project Files: 163
 
 ---
 
@@ -56,7 +56,7 @@ $$\text{mrp} = \text{Label Rate (Printed MRP)} > \text{Selling Rate} > \text{Min
 ### 4.1 Pages (`src/pages/`)
 - **`src/pages/Home.jsx`** (13.3 KB)
 - **`src/pages/Login.jsx`** (22.6 KB)
-- **`src/pages/Product.jsx`** (23.1 KB)
+- **`src/pages/Product.jsx`** (23.4 KB)
 - **`src/pages/Products.jsx`** (12.5 KB)
 - **`src/pages/Schemes.jsx`** (0.8 KB)
 - **`src/pages/Support.jsx`** (6.3 KB)

@@ -8,7 +8,7 @@ export default function MobileBottomNav() {
   const { t } = useLanguage();
 
   const isHome = pathname === "/";
-  const isProducts = pathname.startsWith("/products");
+  const isProducts = pathname === "/products" || pathname.startsWith("/products/");
   const isSchemes = pathname.startsWith("/schemes");
   const isMore = pathname.startsWith("/support") || pathname.startsWith("/login");
 
@@ -23,7 +23,7 @@ export default function MobileBottomNav() {
             className={`mobile-bottom-tab ${isHome ? "active" : ""}`}
             aria-current={isHome ? "page" : undefined}
           >
-            <span className="mobile-tab-content">
+            <span className="mobile-tab-pill">
               <Icon name="home" size={19} />
               <span className="mobile-tab-text">{t("nav_home") || "Home"}</span>
             </span>
@@ -34,7 +34,7 @@ export default function MobileBottomNav() {
             className={`mobile-bottom-tab ${isProducts ? "active" : ""}`}
             aria-current={isProducts ? "page" : undefined}
           >
-            <span className="mobile-tab-content">
+            <span className="mobile-tab-pill">
               <Icon name="grid" size={19} />
               <span className="mobile-tab-text">{t("nav_products") || "Products"}</span>
             </span>
@@ -45,7 +45,7 @@ export default function MobileBottomNav() {
             className={`mobile-bottom-tab ${isSchemes ? "active" : ""}`}
             aria-current={isSchemes ? "page" : undefined}
           >
-            <span className="mobile-tab-content">
+            <span className="mobile-tab-pill">
               <Icon name="badge" size={19} />
               <span className="mobile-tab-text">{t("nav_schemes") || "Schemes"}</span>
             </span>
@@ -56,7 +56,7 @@ export default function MobileBottomNav() {
             className={`mobile-bottom-tab ${isMore ? "active" : ""}`}
             aria-current={isMore ? "page" : undefined}
           >
-            <span className="mobile-tab-content">
+            <span className="mobile-tab-pill">
               <Icon name="menu" size={19} />
               <span className="mobile-tab-text">{t("nav_more") || "More"}</span>
             </span>
@@ -66,7 +66,7 @@ export default function MobileBottomNav() {
         <a href={`tel:${phoneTel}`} className="mobile-bottom-call-bar" aria-label={`Call ${COMPANY.phone} for details`}>
           <div className="call-bar-left">
             <span className="call-bar-icon-wrap">
-              <Icon name="phone" size={16} />
+              <Icon name="phone" size={15} />
             </span>
             <span className="call-bar-number">{COMPANY.phone}</span>
           </div>

@@ -133,7 +133,7 @@ export default function Products() {
 
   return (
     <>
-      <section style={{ paddingTop: "var(--s6)" }}>
+      <section className="catalog-hero">
         <div className="wrap">
           <h1 className="d2">{t("catalog_title")}</h1>
           <p className="sub" style={{ marginTop: "var(--s2)" }}>
@@ -142,7 +142,7 @@ export default function Products() {
         </div>
       </section>
 
-      <div className="toolbar" style={{ marginTop: "var(--s5)" }}>
+      <div className="toolbar">
         <div className="wrap stack">
           <div className="row" style={{ flexWrap: "nowrap" }}>
             <label className="search">
