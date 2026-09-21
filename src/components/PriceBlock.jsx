@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { inr, priceFor, shareLink } from "../data/dealer";
 import { COMPANY } from "../data/site";
 import { Icon } from "../ui";
+import { useLanguage } from "../data/i18n";
 
 /* The whole dealer/customer split lives here.
  *
@@ -21,18 +22,19 @@ export default function PriceBlock({ p, customerView, dealer, sharedBy }) {
 
 function DealerPrice({ p, dealer }) {
   const [open, setOpen] = useState(false);
+  const { t } = useLanguage();
   const { dealer: net, isPriceOnRequest } = priceFor(p, dealer);
 
   if (isPriceOnRequest || net <= 0) {
     return (
       <div className="pricebox">
         <div className="pricebox-l">
-          <span className="pricebox-lbl">Dealer Price</span>
-          <b className="pricebox-amt">Price on Request</b>
-          <small>Contact distributor for trade pricing</small>
+          <span className="pricebox-lbl">{t("price_dealer_label")}</span>
+          <b className="pricebox-amt">{t("price_on_request")}</b>
+          <small>{t("price_on_request_sub")}</small>
         </div>
         <div className="pricebox-r">
-          <p className="note pricebox-note">Item unpriced in catalog</p>
+          <p className="note pricebox-note">{t("price_unpriced_catalog")}</p>
         </div>
       </div>
     );
@@ -41,25 +43,25 @@ function DealerPrice({ p, dealer }) {
   return (
     <div className="pricebox">
       <div className="pricebox-l">
-        <span className="pricebox-lbl">Your Dealer Price</span>
+        <span className="pricebox-lbl">{t("price_dealer_label")}</span>
         {open ? (
           <>
             <b className="pricebox-amt">{inr(net)}</b>
-            <small>(Incl. of all taxes)</small>
+            <small>{t("price_incl_taxes")}</small>
           </>
         ) : (
           <>
             <b className="pricebox-amt pricebox-mask" aria-hidden="true">
               ₹ • • • •
             </b>
-            <small>Hidden until you ask</small>
+            <small>{t("price_hidden_sub")}</small>
           </>
         )}
       </div>
 
       <div className="pricebox-r">
         <button className="btn btn-navy btn-block" aria-expanded={open} onClick={() => setOpen((v) => !v)}>
-          <Icon name={open ? "eyeoff" : "lock"} /> {open ? "Hide Dealer Price" : "View Dealer Price"}
+          <Icon name={open ? "eyeoff" : "lock"} /> {open ? t("price_dealer_hide") : t("price_dealer_view")}
         </button>
         <p className="note pricebox-note">
           Visible to approved dealers only
@@ -70,15 +72,16 @@ function DealerPrice({ p, dealer }) {
 }
 
 function CustomerPrice({ p, sharedBy }) {
+  const { t } = useLanguage();
   const { mrp, isPriceOnRequest } = priceFor(p);
   const msg = encodeURIComponent(`Hello, I am interested in the ${p.name}.\n${shareLink(p, sharedBy)}`);
 
   return (
     <div className="custbox">
       <div className="custbox-price">
-        <span className="pricebox-lbl">{isPriceOnRequest || mrp <= 0 ? "Price" : "MRP"}</span>
-        <b className="pricebox-amt">{isPriceOnRequest || mrp <= 0 ? "Price on Request" : inr(mrp)}</b>
-        <small>{isPriceOnRequest || mrp <= 0 ? "Contact dealer or store for quote" : "(Incl. of all taxes)"}</small>
+        <span className="pricebox-lbl">{isPriceOnRequest || mrp <= 0 ? t("price_on_request") : t("price_mrp_label")}</span>
+        <b className="pricebox-amt">{isPriceOnRequest || mrp <= 0 ? t("price_on_request") : inr(mrp)}</b>
+        <small>{isPriceOnRequest || mrp <= 0 ? t("price_on_request_sub") : t("price_incl_taxes")}</small>
       </div>
 
       {sharedBy ? (
@@ -111,13 +114,13 @@ function CustomerPrice({ p, sharedBy }) {
             <Icon name="phone" /> Contact Us
           </a>
           <Link className="btn btn-ghost btn-block" to="/login">
-            <Icon name="lock" /> Dealer sign in
+            <Icon name="lock" /> {t("dealer_login")}
           </Link>
         </>
       )}
 
       <p className="note" style={{ textAlign: "center" }}>
-        Customers see only MRP.
+        {t("customer_view_tag")}
       </p>
     </div>
   );

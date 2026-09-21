@@ -2,10 +2,11 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { DEALERS, dealerById } from "../data/dealer";
 import { setSession, signOut, useSession } from "../data/session";
-import { COMPANY } from "../data/site";
 import { Icon } from "../ui";
+import { useLanguage } from "../data/i18n";
 
 export default function Login() {
+  const { t } = useLanguage();
   const s = useSession();
   const nav = useNavigate();
   const [activeTab, setActiveTab] = useState("dealer"); // "dealer" | "customer" | "apply"
@@ -157,7 +158,7 @@ export default function Login() {
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 12 }}>
                 <div>
                   <span className="badge badge-ok" style={{ marginBottom: "8px" }}>
-                    ✓ Active Dealer Portal
+                    {t("active_dealer_portal")}
                   </span>
                   <h2 style={{ fontSize: "1.4rem" }}>{dealer.name}</h2>
                   <p style={{ margin: "4px 0 0" }}>
@@ -170,7 +171,7 @@ export default function Login() {
                   style={{ color: "var(--tx-3)" }}
                   title="Sign out of dealer session"
                 >
-                  Sign out
+                  {t("sign_out")}
                 </button>
               </div>
             </div>
@@ -185,7 +186,7 @@ export default function Login() {
                     </tr>
                     {dealer.phone && (
                       <tr>
-                        <th scope="row">Registered Mobile</th>
+                        <th scope="row">{t("phone_label")}</th>
                         <td>{dealer.phone}</td>
                       </tr>
                     )}
@@ -202,7 +203,7 @@ export default function Login() {
                       </td>
                     </tr>
                     <tr>
-                      <th scope="row">Default Trade Rebate</th>
+                      <th scope="row">{t("price_your_margin")}</th>
                       <td><b>{dealer.rebatePct || 20}% off MRP</b></td>
                     </tr>
                   </tbody>
@@ -211,7 +212,7 @@ export default function Login() {
 
               <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "10px", marginTop: "var(--s3)" }}>
                 <Link className="btn btn-navy btn-block" to="/products" style={{ textAlign: "center" }}>
-                  <Icon name="stove" size={17} /> Browse Trade Catalog
+                  <Icon name="stove" size={17} /> {t("nav_products")}
                 </Link>
                 <button
                   className="btn btn-ghost btn-block"
@@ -241,7 +242,7 @@ export default function Login() {
           <div className="authcard" style={{ borderTop: "4px solid var(--amber-500, #f59e0b)" }}>
             <div className="authcard-head">
               <span className="badge badge-warn" style={{ marginBottom: "8px" }}>
-                ⏳ Pending Admin Approval in Zoho
+                {t("pending_approval")}
               </span>
               <h2 style={{ fontSize: "1.3rem" }}>Application Submitted, {s.person || s.shop || "Partner"}</h2>
               <p>
@@ -255,19 +256,19 @@ export default function Login() {
                   <tbody>
                     {s.shop && (
                       <tr>
-                        <th scope="row">Shop / Firm</th>
+                        <th scope="row">{t("shop_name_label")}</th>
                         <td>{s.shop}</td>
                       </tr>
                     )}
                     {s.person && (
                       <tr>
-                        <th scope="row">Applicant</th>
+                        <th scope="row">{t("contact_person_label")}</th>
                         <td>{s.person}</td>
                       </tr>
                     )}
                     {s.phone && (
                       <tr>
-                        <th scope="row">Phone</th>
+                        <th scope="row">{t("phone_label")}</th>
                         <td>{s.phone}</td>
                       </tr>
                     )}
@@ -287,15 +288,15 @@ export default function Login() {
                 disabled={refreshing}
               >
                 <Icon name="bolt" size={16} style={{ animation: refreshing ? "spin 1s linear infinite" : "none" }} />
-                {refreshing ? "Verifying with Zoho..." : "Check / Refresh Approval Status"}
+                {refreshing ? t("verifying_zoho") : t("check_status_btn")}
               </button>
 
               <div style={{ display: "flex", gap: "10px", marginTop: "4px" }}>
                 <Link className="btn btn-ghost btn-block" to="/products">
-                  Browse catalog at MRP
+                  {t("browse_catalog_directly")}
                 </Link>
                 <button className="btn btn-ghost btn-block" onClick={signOut}>
-                  Sign out / Switch
+                  {t("sign_out")}
                 </button>
               </div>
             </div>
@@ -313,9 +314,9 @@ export default function Login() {
       <div className="wrap" style={{ maxWidth: 740 }}>
         {/* Top Header */}
         <div style={{ textAlign: "center", marginBottom: "var(--s5)" }}>
-          <h1 className="d2">Account Access</h1>
+          <h1 className="d2">{t("auth_access_title")}</h1>
           <p className="sub" style={{ marginTop: "var(--s2)" }}>
-            Select your role below to access wholesale dealer pricing or browse as a retail customer.
+            {t("auth_access_sub")}
           </p>
 
           {/* Segmented Pill Tabs */}
@@ -326,7 +327,7 @@ export default function Login() {
               aria-selected={activeTab === "dealer"}
               onClick={() => setActiveTab("dealer")}
             >
-              🏢 Dealer Sign In
+              {t("tab_dealer_signin")}
             </button>
             <button
               className="tab"
@@ -334,7 +335,7 @@ export default function Login() {
               aria-selected={activeTab === "customer"}
               onClick={() => setActiveTab("customer")}
             >
-              👤 Customer Access
+              {t("tab_customer_access")}
             </button>
             <button
               className="tab"
@@ -342,7 +343,7 @@ export default function Login() {
               aria-selected={activeTab === "apply"}
               onClick={() => setActiveTab("apply")}
             >
-              📝 Apply for Dealership
+              {t("tab_apply_dealer")}
             </button>
           </div>
         </div>
@@ -351,23 +352,23 @@ export default function Login() {
         {activeTab === "dealer" && (
           <div className="authcard rise" style={{ borderTop: "4px solid var(--blue-600, #2563eb)" }}>
             <div className="authcard-head">
-              <h2>Authorized Dealer Login</h2>
+              <h2>{t("dealer_login_title")}</h2>
               <p>
-                Sign in with your registered mobile number or email. Real-time verified against Zoho Books Contacts.
+                {t("dealer_login_sub")}
               </p>
             </div>
 
             <div className="authcard-body">
               <form onSubmit={(e) => { e.preventDefault(); handleDealerLogin(); }} style={{ display: "contents" }}>
                 <p className="field">
-                  <label htmlFor="dealer-phone">Registered Mobile or Email</label>
+                  <label htmlFor="dealer-phone">{t("dealer_phone_label")}</label>
                   <input
                     id="dealer-phone"
                     type="text"
                     required
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
-                    placeholder="e.g. 7896543217 or 9820012345"
+                    placeholder={t("dealer_phone_placeholder")}
                     autoComplete="tel"
                   />
                 </p>
@@ -385,7 +386,7 @@ export default function Login() {
                   style={{ padding: "12px", fontSize: "1rem" }}
                 >
                   <Icon name="lock" size={16} />
-                  {dealerLoading ? "Verifying with Zoho..." : "Sign in to Dealer Portal"}
+                  {dealerLoading ? t("verifying_zoho") : t("dealer_signin_btn")}
                 </button>
               </form>
 
@@ -442,9 +443,9 @@ export default function Login() {
         {activeTab === "customer" && (
           <div className="authcard rise" style={{ borderTop: "4px solid var(--navy, #0f172a)" }}>
             <div className="authcard-head">
-              <h2>Customer View (Retail MRP)</h2>
+              <h2>{t("customer_view_title")}</h2>
               <p>
-                Browse the complete Sunshine kitchen range at standard MRP, find nearby dealers, and connect on WhatsApp.
+                {t("customer_view_sub")}
               </p>
             </div>
 
@@ -464,10 +465,10 @@ export default function Login() {
                   style={{ padding: "12px", fontSize: "1rem" }}
                   onClick={() => handleCustomerLogin("Customer")}
                 >
-                  <Icon name="arrowsm" size={16} /> Enter as Customer (MRP Pricing)
+                  <Icon name="arrowsm" size={16} /> {t("customer_enter_btn")}
                 </button>
                 <Link className="btn btn-ghost btn-block" to="/products">
-                  Browse Catalog Directly
+                  {t("browse_catalog_directly")}
                 </Link>
               </div>
             </div>
@@ -482,9 +483,9 @@ export default function Login() {
         {activeTab === "apply" && (
           <div className="authcard rise" style={{ borderTop: "4px solid var(--green-600, #16a34a)" }}>
             <div className="authcard-head">
-              <h2>Apply for Dealer Access</h2>
+              <h2>{t("apply_dealer_title")}</h2>
               <p>
-                Stocking or planning to stock Sunshine? Submit your firm details and {COMPANY.legal} will approve your account in Zoho Books.
+                {t("apply_dealer_sub")}
               </p>
             </div>
 
@@ -492,7 +493,7 @@ export default function Login() {
               <form onSubmit={handleApplySubmit} style={{ display: "contents" }}>
                 <div className="form-grid">
                   <p className="field">
-                    <label htmlFor="apply-shop">Shop / Firm Name *</label>
+                    <label htmlFor="apply-shop">{t("shop_name_label")} *</label>
                     <input
                       id="apply-shop"
                       required
@@ -502,7 +503,7 @@ export default function Login() {
                     />
                   </p>
                   <p className="field">
-                    <label htmlFor="apply-person">Contact Person *</label>
+                    <label htmlFor="apply-person">{t("contact_person_label")} *</label>
                     <input
                       id="apply-person"
                       required
@@ -512,7 +513,7 @@ export default function Login() {
                     />
                   </p>
                   <p className="field">
-                    <label htmlFor="apply-phone">Mobile Number *</label>
+                    <label htmlFor="apply-phone">{t("phone_label")} *</label>
                     <input
                       id="apply-phone"
                       type="tel"
@@ -533,7 +534,7 @@ export default function Login() {
                     />
                   </p>
                   <p className="field">
-                    <label htmlFor="apply-city">City / Region</label>
+                    <label htmlFor="apply-city">{t("city_label")} / Region</label>
                     <input
                       id="apply-city"
                       value={applyForm.city}
@@ -565,7 +566,7 @@ export default function Login() {
                   style={{ padding: "12px", fontSize: "1rem" }}
                 >
                   <Icon name="check" size={16} />
-                  {applyLoading ? "Submitting application to Zoho..." : "Submit Application to Zoho"}
+                  {applyLoading ? t("verifying_zoho") : t("apply_submit_btn")}
                 </button>
               </form>
             </div>

@@ -3,16 +3,10 @@ import { Link, useSearchParams } from "react-router-dom";
 import { useProducts } from "../data/productsStore";
 import { priceFor } from "../data/dealer";
 import { Icon } from "../ui";
+import { useLanguage } from "../data/i18n";
 import ProductCard from "../components/ProductCard";
 
 const PAGE = 24;
-
-const SORTS = {
-  popularity: { label: "Popularity", fn: null },
-  name: { label: "Name (A–Z)", fn: (a, b) => a.model.localeCompare(b.model) },
-  low: { label: "Price: Low to High", fn: (a, b) => priceFor(a).dealer - priceFor(b).dealer },
-  high: { label: "Price: High to Low", fn: (a, b) => priceFor(b).dealer - priceFor(a).dealer },
-};
 
 /* One filter group, rendered the same on phone and desktop. */
 function Group({ title, options, value, onPick, className = "" }) {
@@ -37,6 +31,7 @@ function Group({ title, options, value, onPick, className = "" }) {
 
 export default function Products() {
   const { products: PRODUCTS, categories: CATEGORIES, loaded, syncing, refresh } = useProducts();
+  const { t, tCat } = useLanguage();
   const [params, setParams] = useSearchParams();
   const cat = params.get("cat") || "";
   const [q, setQ] = useState("");
@@ -91,6 +86,13 @@ export default function Products() {
     reset();
   };
 
+  const SORT_FNS = {
+    popularity: null,
+    name: (a, b) => a.model.localeCompare(b.model),
+    low: (a, b) => priceFor(a).dealer - priceFor(b).dealer,
+    high: (a, b) => priceFor(b).dealer - priceFor(a).dealer,
+  };
+
   const results = useMemo(() => {
     const needle = q.trim().toLowerCase();
     const out = PRODUCTS.filter((p) => {
@@ -102,7 +104,7 @@ export default function Products() {
       if (needle && !p.name.toLowerCase().includes(needle) && !p.model.toLowerCase().includes(needle)) return false;
       return true;
     });
-    const fn = SORTS[sort].fn;
+    const fn = SORT_FNS[sort];
     return fn ? [...out].sort(fn) : out;
   }, [cat, finish, brand, burners, ignition, q, sort, PRODUCTS]);
 
@@ -120,15 +122,22 @@ export default function Products() {
 
   const active = CATEGORIES.find((c) => c.key === cat);
 
+  const sortOptions = [
+    { key: "popularity", label: t("sort_featured") },
+    { key: "name", label: t("sort_name") },
+    { key: "low", label: t("sort_price_asc") },
+    { key: "high", label: t("sort_price_desc") },
+  ];
+
   return (
     <>
       <section style={{ paddingTop: "var(--s6)" }}>
         <div className="wrap">
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", flexWrap: "wrap", gap: "12px" }}>
             <div>
-              <h1 className="d2">Products</h1>
+              <h1 className="d2">{t("catalog_title")}</h1>
               <p className="sub" style={{ marginTop: "var(--s2)" }}>
-                {PRODUCTS.length > 0 ? `${PRODUCTS.length} live models across ${CATEGORIES.length} categories.` : "Connecting to Zoho…"}
+                {PRODUCTS.length > 0 ? t("live_models_across", { products: PRODUCTS.length, cats: CATEGORIES.length }) : t("connecting_zoho")}
                 {loaded && (
                   <span style={{ marginLeft: "8px", fontSize: "0.8rem", color: "var(--blue-600, #2563eb)", fontWeight: 600 }}>
                     ● Live Zoho Sync
@@ -144,7 +153,7 @@ export default function Products() {
               title="Fetch fresh items directly from Zoho Commerce"
             >
               <Icon name="bolt" size={14} style={{ animation: syncing ? "spin 1s linear infinite" : "none" }} />
-              {syncing ? "Syncing Zoho…" : "Sync with Zoho"}
+              {syncing ? t("syncing") : t("sync_zoho")}
             </button>
           </div>
         </div>
@@ -162,15 +171,15 @@ export default function Products() {
                   setQ(e.target.value);
                   reset();
                 }}
-                placeholder="Search products, model, category…"
-                aria-label="Search products"
+                placeholder={t("search_placeholder")}
+                aria-label={t("search_placeholder")}
               />
             </label>
             <button
               className="icon-btn filter-btn"
               aria-expanded={openFilters}
               aria-controls="filters"
-              aria-label="Filters"
+              aria-label={t("filter_btn")}
               onClick={() => setOpenFilters((v) => !v)}
               style={openFilters ? { background: "var(--blue-100)", borderColor: "var(--blue-300)" } : undefined}
             >
@@ -189,7 +198,7 @@ export default function Products() {
                   }}
                 />
                 <span>
-                  {c.label}
+                  {tCat(c.key, c.label)}
                   <br />
                   <small style={{ fontWeight: 500, opacity: 0.7 }}>{counts[c.key] || 0}</small>
                 </span>
@@ -203,22 +212,21 @@ export default function Products() {
         <div className="wrap listing">
           <aside className="filters" id="filters" data-open={openFilters || undefined}>
             <div className="fhead">
-              <h2>Filters</h2>
+              <h2>{t("filter_btn")}</h2>
               {dirty && (
                 <button className="link" onClick={clear}>
-                  Clear All
+                  {t("clear_filters")}
                 </button>
               )}
             </div>
             <Group
-              title="Category"
-              options={CATEGORIES.map((c) => [c.key, c.label, counts[c.key]])}
+              title={t("spec_category")}
+              options={CATEGORIES.map((c) => [c.key, tCat(c.key, c.label), counts[c.key]])}
               value={cat}
               onPick={pickCat}
-              className="cat-group"
             />
             <Group
-              title="Brand"
+              title={t("spec_brand")}
               options={facets.brand}
               value={brand}
               onPick={(v) => {
@@ -227,7 +235,7 @@ export default function Products() {
               }}
             />
             <Group
-              title="Burner Type"
+              title={t("filter_burners")}
               options={facets.burners}
               value={burners}
               onPick={(v) => {
@@ -236,7 +244,7 @@ export default function Products() {
               }}
             />
             <Group
-              title="Ignition Type"
+              title={t("filter_features")}
               options={facets.ignition}
               value={ignition}
               onPick={(v) => {
@@ -245,7 +253,7 @@ export default function Products() {
               }}
             />
             <Group
-              title="Finish"
+              title={t("filter_finish")}
               options={facets.finish}
               value={finish}
               onPick={(v) => {
@@ -254,7 +262,7 @@ export default function Products() {
               }}
             />
             <button className="btn btn-navy btn-block done-btn" onClick={() => setOpenFilters(false)}>
-              Show {results.length} products
+              {t("view_all")} ({results.length})
             </button>
           </aside>
 
@@ -263,7 +271,7 @@ export default function Products() {
               <div className="strip" style={{ marginBottom: "var(--s5)" }}>
                 <div className="strip-txt">
                   <p className="eyebrow">Sunshine</p>
-                  <h3>{active.label}</h3>
+                  <h3>{tCat(active.key, active.label)}</h3>
                   <p>Performance you can rely on.</p>
                 </div>
                 <span className="strip-art">
@@ -273,26 +281,26 @@ export default function Products() {
             )}
 
             <nav className="crumbs" aria-label="Breadcrumb">
-              <Link to="/">Home</Link>
+              <Link to="/">{t("nav_home")}</Link>
               <Icon name="chev" size={13} />
-              {active ? <Link to="/products">Products</Link> : <span>Products</span>}
+              {active ? <Link to="/products">{t("nav_products")}</Link> : <span>{t("nav_products")}</span>}
               {active && (
                 <>
                   <Icon name="chev" size={13} />
-                  <span>{active.label}</span>
+                  <span>{tCat(active.key, active.label)}</span>
                 </>
               )}
             </nav>
 
             <div className="sec-head">
               <h2>
-                {active ? active.label : "All Products"}{" "}
+                {active ? tCat(active.key, active.label) : t("cat_all")}{" "}
                 <span className="muted" style={{ fontWeight: 500 }}>
                   ({results.length})
                 </span>
               </h2>
               <label className="sortby">
-                Sort By
+                {t("sort_label")}
                 <select
                   value={sort}
                   onChange={(e) => {
@@ -300,8 +308,8 @@ export default function Products() {
                     reset();
                   }}
                 >
-                  {Object.entries(SORTS).map(([k, s]) => (
-                    <option key={k} value={k}>
+                  {sortOptions.map((s) => (
+                    <option key={s.key} value={s.key}>
                       {s.label}
                     </option>
                   ))}
@@ -314,7 +322,7 @@ export default function Products() {
                 <span className="tile tile-lg" style={{ margin: "0 auto var(--s4)" }}>
                   <Icon name="bolt" size={24} style={{ animation: "spin 1s linear infinite" }} />
                 </span>
-                <h3 className="h3">Fetching live catalog from Zoho…</h3>
+                <h3 className="h3">{t("connecting_zoho")}</h3>
                 <p className="muted">Syncing the latest products and prices directly from your Zoho Commerce store.</p>
               </div>
             ) : results.length === 0 ? (
@@ -322,12 +330,12 @@ export default function Products() {
                 <span className="tile tile-lg" style={{ margin: "0 auto var(--s4)" }}>
                   <Icon name="search" size={24} />
                 </span>
-                <h3 className="h3">No model matches that</h3>
+                <h3 className="h3">{t("no_products_found")}</h3>
                 <p className="muted">
-                  Try the model name on its own — <b>Carnival</b>, <b>Thunder</b>, <b>Casavo</b> — or clear the filters.
+                  {t("no_products_sub")}
                 </p>
                 <button className="btn btn-navy" style={{ marginTop: "var(--s5)" }} onClick={clear}>
-                  Clear filters
+                  {t("clear_filters")}
                 </button>
               </div>
             ) : (

@@ -5,30 +5,36 @@ import { COMPANY } from "../data/site";
 import { registerDealer, shareLink, tagFor, viewerFor } from "../data/dealer";
 import { useSession } from "../data/session";
 import { Icon } from "../ui";
+import { useLanguage } from "../data/i18n";
 import ProductCard from "../components/ProductCard";
 import PriceBlock from "../components/PriceBlock";
 
 /* Feature boxes mirror the mockup: icon over a two-line label. */
-function featureBoxes(p) {
+function featureBoxes(p, t) {
   const out = [];
-  if (p.burners) out.push({ icon: "flame", label: `${p.burners} Brass\nBurners` });
-  if (p.features.includes("Auto Ignition")) out.push({ icon: "bolt", label: "Auto\nIgnition" });
-  if (p.fkey === "glass") out.push({ icon: "glass", label: "Toughened\nGlass" });
-  if (p.fkey === "steel" || p.fkey === "alloy") out.push({ icon: "steel", label: "Stainless\nSteel Body" });
-  if (p.features.includes("BLDC Motor")) out.push({ icon: "bolt", label: "BLDC\nMotor" });
-  if (p.features.includes("Spill Proof")) out.push({ icon: "shield", label: "Spill\nProof" });
-  if (p.features.includes("Flame Failure Device")) out.push({ icon: "shield", label: "Flame Failure\nDevice" });
-  out.push({ icon: "shield", label: "Sunshine\nWarranty" });
+  if (p.burners) out.push({ icon: "flame", label: `${p.burners} ${t("feat_brass_burners")}` });
+  if (p.features.includes("Auto Ignition")) out.push({ icon: "bolt", label: t("feat_auto_ignition") });
+  if (p.fkey === "glass") out.push({ icon: "glass", label: t("feat_toughened_glass") });
+  if (p.fkey === "steel" || p.fkey === "alloy") out.push({ icon: "steel", label: t("feat_ss_body") });
+  if (p.features.includes("BLDC Motor")) out.push({ icon: "bolt", label: t("feat_bldc_motor") });
+  if (p.features.includes("Spill Proof")) out.push({ icon: "shield", label: t("feat_spill_proof") });
+  if (p.features.includes("Flame Failure Device")) out.push({ icon: "shield", label: t("feat_flame_failure") });
+  out.push({ icon: "shield", label: t("feat_sunshine_warranty") });
   return out.slice(0, 4);
 }
 
-const TABS = ["Overview", "Specifications", "Videos"];
+const TAB_ITEMS = [
+  { key: "Overview", labelKey: "tab_overview" },
+  { key: "Specifications", labelKey: "tab_specs" },
+  { key: "Videos", labelKey: "tab_videos" },
+];
 
 export default function Product() {
   const { id } = useParams();
   const [params, setParams] = useSearchParams();
   const session = useSession();
   const { products: PRODUCTS, loaded } = useProducts();
+  const { t, tCat } = useLanguage();
   const [fetchedProduct, setFetchedProduct] = useState(null);
 
   useEffect(() => {
@@ -48,7 +54,7 @@ export default function Product() {
 
   const [shot, setShot] = useState(0);
   const [shotError, setShotError] = useState(false);
-  const [tab, setTab] = useState(TABS[0]);
+  const [tab, setTab] = useState(TAB_ITEMS[0].key);
   const [copied, setCopied] = useState(false);
 
   const thumbsRef = useRef(null);
@@ -225,14 +231,14 @@ export default function Product() {
   const displayTitle = p?.model && p.model.toLowerCase() !== "test" ? p.model : (p?.name || "");
 
   const specs = [
-    ["Model", displayTitle],
-    ["Full catalogue name", p.name],
-    ["Category", p.catLabel],
-    p.size && ["Size", p.size],
-    ["Finish", p.finish],
-    ["Brand", p.brand],
-    p.features.length && ["Features", p.features.join(", ")],
-    ["Product code", `${p.code}-${p.id.slice(-6)}`],
+    [t("spec_model"), displayTitle],
+    [t("spec_full_name"), p.name],
+    [t("spec_category"), tCat(p.cat, p.catLabel)],
+    p.size && [t("spec_size"), p.size],
+    [t("spec_finish"), p.finish],
+    [t("spec_brand"), p.brand],
+    p.features.length && [t("spec_features"), p.features.join(", ")],
+    [t("spec_code"), `${p.code}-${p.id.slice(-6)}`],
   ].filter(Boolean);
 
   const overview = `The Sunshine ${displayTitle} combines ${p.finish.toLowerCase()} construction with ${
@@ -265,9 +271,9 @@ export default function Product() {
     <section className="sec" style={{ paddingTop: "var(--s6)" }}>
       <div className="wrap">
         <nav className="crumbs" aria-label="Breadcrumb">
-          <Link to="/">Home</Link>
+          <Link to="/">{t("nav_home")}</Link>
           <Icon name="chev" size={13} />
-          <Link to={`/products?cat=${p.cat}`}>{p.catLabel}</Link>
+          <Link to={`/products?cat=${p.cat}`}>{tCat(p.cat, p.catLabel)}</Link>
           <Icon name="chev" size={13} />
           <span>{displayTitle}</span>
         </nav>
@@ -385,7 +391,7 @@ export default function Product() {
             </p>
 
             <div className="feats">
-              {featureBoxes(p).map((f) => (
+              {featureBoxes(p, t).map((f) => (
                 <div className="feat" key={f.label}>
                   <Icon name={f.icon} size={20} />
                   <span style={{ whiteSpace: "pre-line" }}>{f.label}</span>
@@ -399,10 +405,10 @@ export default function Product() {
               <>
                 <div className="actions">
                   <button className="btn btn-ghost" onClick={share}>
-                    <Icon name="share" /> {copied ? "Link copied" : "Share with Customer"}
+                    <Icon name="share" /> {copied ? t("link_copied") : t("share_with_customer")}
                   </button>
                   <Link className="btn btn-ghost" to="/schemes">
-                    <Icon name="tag" /> Current Scheme · 5 + 1
+                    <Icon name="tag" /> {t("current_scheme")}
                   </Link>
                 </div>
               </>
@@ -424,18 +430,18 @@ export default function Product() {
 
             {customerView && !sharedBy && !me && session.role === "guest" && (
               <p className="note" style={{ marginTop: "var(--s3)" }}>
-                Are you a Sunshine retailer?{" "}
+                {t("price_retailer_prompt")}{" "}
                 <Link className="link" to="/login">
-                  Sign in for dealer pricing
+                  {t("price_signin_link")}
                 </Link>
                 .
               </p>
             )}
 
             <div className="utabs" role="tablist">
-              {TABS.map((t) => (
-                <button key={t} className="utab" role="tab" aria-selected={tab === t} onClick={() => setTab(t)}>
-                  {t}
+              {TAB_ITEMS.map((tItem) => (
+                <button key={tItem.key} className="utab" role="tab" aria-selected={tab === tItem.key} onClick={() => setTab(tItem.key)}>
+                  {t(tItem.labelKey)}
                 </button>
               ))}
             </div>
@@ -443,7 +449,7 @@ export default function Product() {
             <div className="overview" role="tabpanel">
               {tab === "Overview" && (
                 <>
-                  <h3>Engineered for Everyday Excellence</h3>
+                  <h3>{t("overview_engineered_title")}</h3>
                   <p className="muted" style={{ fontSize: "0.93rem" }}>
                     {overview}
                   </p>
@@ -452,7 +458,7 @@ export default function Product() {
 
               {tab === "Specifications" && (
                 <>
-                  <h3>Specification</h3>
+                  <h3>{t("tab_specs")}</h3>
                   <table className="spec">
                     <tbody>
                       {specs.map(([k, v]) => (
@@ -464,16 +470,16 @@ export default function Product() {
                     </tbody>
                   </table>
                   <p className="note" style={{ marginTop: "var(--s4)" }}>
-                    Specifications are drawn from the live {COMPANY.brand} catalogue.
+                    {t("spec_live_note")}
                   </p>
                 </>
               )}
 
               {tab === "Videos" && (
                 <>
-                  <h3>Videos</h3>
+                  <h3>{t("tab_videos")}</h3>
                   <p className="muted" style={{ fontSize: "0.93rem" }}>
-                    No videos uploaded for {p.model} yet.
+                    {t("no_videos_uploaded", { model: p.model })}
                   </p>
                 </>
               )}
@@ -486,9 +492,9 @@ export default function Product() {
         {related.length > 0 && (
           <div style={{ marginTop: "var(--s7)" }}>
             <div className="sec-head">
-              <h2>More in {p.catLabel}</h2>
+              <h2>{t("more_in_category", { category: tCat(p.cat, p.catLabel) })}</h2>
               <Link className="link" to={`/products?cat=${p.cat}`}>
-                View All <Icon name="arrowsm" size={15} />
+                {t("view_all")} <Icon name="arrowsm" size={15} />
               </Link>
             </div>
             <div className="prods">

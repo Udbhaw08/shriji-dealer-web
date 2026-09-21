@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useProducts } from "../data/productsStore";
 import { COMPANY, STATS, QUICK_NAV, QUICK_ACCESS, SCHEMES } from "../data/site";
 import { Icon, EnquiryButtons } from "../ui";
+import { useLanguage } from "../data/i18n";
 import ProductCard from "../components/ProductCard";
 
 const CAT_ICON = {
@@ -18,6 +19,7 @@ const CAT_ICON = {
 
 export default function Home() {
   const { products: PRODUCTS, categories: CATEGORIES } = useProducts();
+  const { t, tCat } = useLanguage();
 
   const counts = useMemo(() => {
     const c = {};
@@ -47,20 +49,17 @@ export default function Home() {
               <div>
                 <p className="eyebrow">Sunshine</p>
                 <h1 className="d1">
-                  Engineered for a
-                  <br />
-                  Better Tomorrow
+                  {t("hero_title")}
                 </h1>
                 <p>
-                  The complete Sunshine kitchen range — {PRODUCTS.length > 0 ? `${PRODUCTS.length} live models` : "400+ models"} across gas stoves, hobs, hob tops,
-                  chimneys and small appliances, distributed by Shriji since {COMPANY.founded}.
+                  {t("hero_sub")}
                 </p>
                 <div className="row" style={{ marginTop: "var(--s5)" }}>
                   <Link className="btn btn-white" to="/products">
-                    Explore Products <Icon name="arrowsm" />
+                    {t("hero_cta_products")} <Icon name="arrowsm" />
                   </Link>
                   <Link className="btn btn-ghost" to="/schemes" style={{ background: "transparent", color: "#fff", borderColor: "rgba(255,255,255,.28)" }}>
-                    View Schemes
+                    {t("hero_cta_schemes")}
                   </Link>
                 </div>
               </div>
@@ -81,15 +80,25 @@ export default function Home() {
       <section style={{ paddingBottom: "var(--s6)" }}>
         <div className="wrap">
           <div className="quicknav">
-            {QUICK_NAV.map((q) => (
-              <Link className="qn" key={q.label} to={q.to}>
-                <span className="tile">
-                  <Icon name={q.icon} size={22} />
-                </span>
-                <b>{q.label}</b>
-                <span>{q.sub}</span>
-              </Link>
-            ))}
+            {QUICK_NAV.map((q) => {
+              const label = q.label === "Products" ? t("quick_products")
+                : q.label === "Schemes" ? t("quick_schemes")
+                : q.label === "New Launches" ? t("quick_launches")
+                : t("quick_support");
+              const sub = q.label === "Products" ? t("quick_products_sub")
+                : q.label === "Schemes" ? t("quick_schemes_sub")
+                : q.label === "New Launches" ? t("quick_launches_sub")
+                : t("quick_support_sub");
+              return (
+                <Link className="qn" key={q.label} to={q.to}>
+                  <span className="tile">
+                    <Icon name={q.icon} size={22} />
+                  </span>
+                  <b>{label}</b>
+                  <span>{sub}</span>
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -98,9 +107,9 @@ export default function Home() {
       <section className="sec" style={{ paddingTop: 0 }}>
         <div className="wrap">
           <div className="sec-head">
-            <h2>Shop by Category</h2>
+            <h2>{t("sec_categories_title")}</h2>
             <Link className="link" to="/products">
-              View All <Icon name="arrowsm" size={15} />
+              {t("view_all")} <Icon name="arrowsm" size={15} />
             </Link>
           </div>
           <div className="cats">
@@ -109,7 +118,7 @@ export default function Home() {
                 <span className="cat-img">
                   <img
                     src={c.img}
-                    alt={c.label}
+                    alt={tCat(c.key, c.label)}
                     loading="lazy"
                     onError={(e) => {
                       e.currentTarget.src = "/img/cat-small_appliances.webp";
@@ -118,8 +127,8 @@ export default function Home() {
                 </span>
                 <span className="cat-foot">
                   <span>
-                    <b>{c.label}</b>
-                    <span>{counts[c.key] || 0} models</span>
+                    <b>{tCat(c.key, c.label)}</b>
+                    <span>{t("models_count", { count: counts[c.key] || 0 })}</span>
                   </span>
                   <span className="tile tile-sm">
                     <Icon name={CAT_ICON[c.key] || "stove"} size={18} />
@@ -135,9 +144,9 @@ export default function Home() {
       <section className="sec" style={{ paddingTop: 0 }}>
         <div className="wrap">
           <div className="sec-head">
-            <h2>Featured Products</h2>
+            <h2>{t("sec_fast_title")}</h2>
             <Link className="link" to="/products">
-              View All <Icon name="arrowsm" size={15} />
+              {t("view_all")} <Icon name="arrowsm" size={15} />
             </Link>
           </div>
           <div className="prods">
@@ -153,7 +162,7 @@ export default function Home() {
         <div className="wrap">
           <div className="grid" style={{ gridTemplateColumns: "repeat(auto-fit,minmax(300px,1fr))", gap: "var(--s5)" }}>
             <div className="list">
-              <p className="list-head">Quick Access</p>
+              <p className="list-head">{t("quick_products")}</p>
               {QUICK_ACCESS.map((q) => (
                 <Link className="list-row" key={q.title} to={q.to}>
                   <span className="tile tile-sm">
@@ -170,12 +179,12 @@ export default function Home() {
 
             <div className="scheme">
               <div className="scheme-txt">
-                <span className="badge">Active scheme</span>
+                <span className="badge">{t("scheme_live_now")}</span>
                 <h3 style={{ marginTop: "var(--s3)" }}>{scheme.title}</h3>
                 <p className="when">{scheme.when}</p>
                 <p>{scheme.blurb}</p>
                 <Link className="btn btn-navy btn-sm" to="/schemes" style={{ marginTop: "var(--s4)" }}>
-                  See all schemes
+                  {t("sec_schemes_title")}
                 </Link>
               </div>
               <Link className="fab" to="/schemes" aria-label="Open schemes">
@@ -190,12 +199,18 @@ export default function Home() {
       <section className="sec" style={{ paddingTop: 0 }}>
         <div className="wrap stack" style={{ gap: "var(--s5)" }}>
           <div className="stats">
-            {STATS.map((s) => (
-              <div key={s.label}>
-                <b>{s.value}</b>
-                <span>{s.label}</span>
-              </div>
-            ))}
+            {STATS.map((s, idx) => {
+              const labelKey = idx === 0 ? "stats_years"
+                : idx === 1 ? "stats_retailers"
+                : idx === 2 ? "stats_customers"
+                : "stats_installs";
+              return (
+                <div key={s.label}>
+                  <b>{s.value}</b>
+                  <span>{t(labelKey)}</span>
+                </div>
+              );
+            })}
           </div>
 
           <div className="card pad" style={{ display: "grid", gap: "var(--s4)" }}>

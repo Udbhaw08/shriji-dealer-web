@@ -2,6 +2,7 @@ import { useState } from "react";
 import { COMPANY, ISSUE_TYPES, MATERIALS } from "../data/site";
 import { Icon, EnquiryButtons } from "../ui";
 import { useProducts } from "../data/productsStore";
+import { useLanguage } from "../data/i18n";
 
 const TICKETS = [
   { id: "SR-2418", model: "3B Carnival Plus Auto Tablet Hob", issue: "Spare part required", state: "Open", tone: "badge-warn", when: "Raised 2 days ago" },
@@ -10,6 +11,7 @@ const TICKETS = [
 ];
 
 function ServiceForm() {
+  const { t, tCat } = useLanguage();
   const { products: PRODUCTS, categories: CATEGORIES } = useProducts();
   const [v, setV] = useState({ product: "", issue: "", desc: "" });
   const [errors, setErrors] = useState({});
@@ -36,14 +38,14 @@ function ServiceForm() {
         <Icon name="check" size={22} style={{ flex: "none", marginTop: 2 }} />
         <div>
           <h3 className="h3" style={{ fontSize: "1.05rem" }}>
-            Request logged
+            {t("support_request_logged")}
           </h3>
           <p style={{ fontSize: "0.92rem", marginTop: 4 }}>
             In the live site this creates a ticket and the service desk responds the same working day. This demo build
             stores nothing — nothing was sent.
           </p>
           <button className="btn btn-ghost btn-sm" style={{ marginTop: "var(--s4)" }} onClick={() => setSent(false)}>
-            Raise another request
+            {t("support_raise_another")}
           </button>
         </div>
       </div>
@@ -53,11 +55,11 @@ function ServiceForm() {
   return (
     <form className="stack" onSubmit={submit} noValidate>
       <div className="field">
-        <label htmlFor="product">Product</label>
+        <label htmlFor="product">{t("support_product_label")}</label>
         <select id="product" value={v.product} onChange={set("product")} aria-invalid={!!errors.product} aria-describedby={errors.product ? "e-product" : undefined}>
-          <option value="">Select Product</option>
+          <option value="">{t("support_select_product")}</option>
           {CATEGORIES.map((c) => (
-            <optgroup key={c.key} label={c.label}>
+            <optgroup key={c.key} label={tCat(c.key, c.label)}>
               {PRODUCTS.filter((p) => p.cat === c.key)
                 .slice(0, 14)
                 .map((p) => (
@@ -76,9 +78,9 @@ function ServiceForm() {
       </div>
 
       <div className="field">
-        <label htmlFor="issue">Issue Type</label>
+        <label htmlFor="issue">{t("support_issue_type")}</label>
         <select id="issue" value={v.issue} onChange={set("issue")} aria-invalid={!!errors.issue} aria-describedby={errors.issue ? "e-issue" : undefined}>
-          <option value="">Select Issue Type</option>
+          <option value="">{t("support_select_issue")}</option>
           {ISSUE_TYPES.map((i) => (
             <option key={i} value={i}>
               {i}
@@ -93,8 +95,8 @@ function ServiceForm() {
       </div>
 
       <div className="field">
-        <label htmlFor="desc">Description</label>
-        <textarea id="desc" rows="4" value={v.desc} onChange={set("desc")} placeholder="Describe the issue…" aria-invalid={!!errors.desc} aria-describedby={errors.desc ? "e-desc" : undefined} />
+        <label htmlFor="desc">{t("support_desc_label")}</label>
+        <textarea id="desc" rows="4" value={v.desc} onChange={set("desc")} placeholder={t("support_desc_placeholder")} aria-invalid={!!errors.desc} aria-describedby={errors.desc ? "e-desc" : undefined} />
         {errors.desc && (
           <span className="err" id="e-desc">
             {errors.desc}
@@ -104,18 +106,18 @@ function ServiceForm() {
 
       <div className="field">
         <label htmlFor="photos">
-          Upload Images <span className="note">(Optional)</span>
+          {t("support_upload_photos")} <span className="note">{t("support_optional")}</span>
         </label>
         <label className="dropzone" htmlFor="photos">
           <Icon name="upload" size={20} />
-          <b style={{ fontSize: "0.9rem" }}>Add Photos</b>
-          <span className="note">PNG or JPG, up to 5 files</span>
+          <b style={{ fontSize: "0.9rem" }}>{t("support_add_photos")}</b>
+          <span className="note">{t("support_photos_hint")}</span>
           <input id="photos" type="file" multiple accept="image/*" style={{ display: "none" }} />
         </label>
       </div>
 
       <button className="btn btn-navy btn-block" type="submit">
-        Submit Request
+        {t("support_submit_btn")}
       </button>
       <p className="note">Demo form — submissions are not stored or sent.</p>
     </form>
@@ -123,6 +125,7 @@ function ServiceForm() {
 }
 
 function DealerForm() {
+  const { t } = useLanguage();
   const [v, setV] = useState({ shop: "", person: "", phone: "", city: "" });
   const [errors, setErrors] = useState({});
   const [sent, setSent] = useState(false);
@@ -149,7 +152,7 @@ function DealerForm() {
         <Icon name="check" size={22} style={{ flex: "none", marginTop: 2 }} />
         <div>
           <h3 className="h3" style={{ fontSize: "1.05rem" }}>
-            Enquiry noted, {v.person.split(" ")[0]}
+            {t("dealer_enquiry_noted")}, {v.person.split(" ")[0]}
           </h3>
           <p style={{ fontSize: "0.92rem", marginTop: 4 }}>
             In the live site this reaches the distribution desk and someone calls {v.city} within a working day. Demo
@@ -163,14 +166,14 @@ function DealerForm() {
   return (
     <form className="stack" onSubmit={submit} noValidate>
       <div className="form-grid">
-        <DealerField id="shop" label="Shop / firm name" ph="Shah Electronics" value={v.shop} onChange={set("shop")} error={errors.shop} />
-        <DealerField id="person" label="Contact person" ph="Kunal Shah" value={v.person} onChange={set("person")} error={errors.person} />
-        <DealerField id="phone" label="Phone" ph="+91 98200 00000" type="tel" value={v.phone} onChange={set("phone")} error={errors.phone} />
-        <DealerField id="city" label="City" ph="Mumbai" value={v.city} onChange={set("city")} error={errors.city} />
+        <DealerField id="shop" label={t("shop_name_label")} ph="Shah Electronics" value={v.shop} onChange={set("shop")} error={errors.shop} />
+        <DealerField id="person" label={t("contact_person_label")} ph="Kunal Shah" value={v.person} onChange={set("person")} error={errors.person} />
+        <DealerField id="phone" label={t("phone_label")} ph="+91 98200 00000" type="tel" value={v.phone} onChange={set("phone")} error={errors.phone} />
+        <DealerField id="city" label={t("city_label")} ph="Mumbai" value={v.city} onChange={set("city")} error={errors.city} />
       </div>
       <div className="row">
         <button className="btn btn-navy" type="submit">
-          Send dealership enquiry <Icon name="arrowsm" />
+          {t("dealer_enquiry_send")} <Icon name="arrowsm" />
         </button>
         <span className="note">Demo form — nothing is stored or sent.</span>
       </div>
@@ -203,6 +206,7 @@ function DealerField({ id, label, ph, type = "text", value, onChange, error }) {
 const MAT_TABS = ["Images", "Videos", "Brochures"];
 
 export default function Support() {
+  const { t } = useLanguage();
   const [tab, setTab] = useState("request");
   const [matTab, setMatTab] = useState("Images");
 
@@ -210,17 +214,17 @@ export default function Support() {
     <>
       <section style={{ paddingTop: "var(--s6)" }}>
         <div className="wrap">
-          <h1 className="d2">Service Support</h1>
+          <h1 className="d2">{t("support_title")}</h1>
           <p className="sub" style={{ marginTop: "var(--s2)" }}>
-            Raise a request against any model in the range and track it to closure.
+            {t("support_sub")}
           </p>
 
           <div className="tabs" role="tablist" aria-label="Support view" style={{ marginTop: "var(--s5)" }}>
             <button className="tab" role="tab" aria-selected={tab === "request"} onClick={() => setTab("request")}>
-              Raise Request
+              {t("support_tab_request")}
             </button>
             <button className="tab" role="tab" aria-selected={tab === "tickets"} onClick={() => setTab("tickets")}>
-              My Tickets
+              {t("support_tab_tickets")}
             </button>
           </div>
         </div>
@@ -262,10 +266,10 @@ export default function Support() {
             <div className="stack" style={{ gap: "var(--s5)" }}>
               <div className="card pad" style={{ display: "grid", gap: "var(--s4)" }}>
                 <h3 className="h3" style={{ fontSize: "1.05rem" }}>
-                  Prefer to talk?
+                  {t("support_prefer_to_talk")}
                 </h3>
                 <p className="muted" style={{ fontSize: "0.94rem" }}>
-                  The Mumbai desk is open Monday to Saturday. WhatsApp is usually fastest.
+                  {t("support_talk_sub")}
                 </p>
                 <EnquiryButtons />
               </div>
@@ -296,7 +300,7 @@ export default function Support() {
       <section className="sec" id="marketing" style={{ paddingTop: 0, scrollMarginTop: 90 }}>
         <div className="wrap">
           <div className="sec-head">
-            <h2>Marketing Material</h2>
+            <h2>{t("mat_title")}</h2>
             <div className="tabs" role="tablist" aria-label="Material type">
               {MAT_TABS.map((t) => (
                 <button key={t} className="tab" role="tab" aria-selected={matTab === t} onClick={() => setMatTab(t)}>
@@ -333,11 +337,10 @@ export default function Support() {
         <div className="wrap">
           <div className="card pad">
             <h2 className="d2" style={{ fontSize: "clamp(1.4rem,2.4vw,1.9rem)" }}>
-              Become a Shriji dealer
+              {t("dealer_enquiry_title")}
             </h2>
             <p className="sub" style={{ margin: "var(--s3) 0 var(--s5)" }}>
-              Over a thousand retailers already stock this range. Tell us where you sell and we come back with the
-              current price list and the scheme running in your territory.
+              {t("dealer_enquiry_sub")}
             </p>
             <DealerForm />
           </div>

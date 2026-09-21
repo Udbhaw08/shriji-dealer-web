@@ -3,6 +3,7 @@ import { Link, NavLink, useLocation } from "react-router-dom";
 import { COMPANY, NAV } from "./data/site";
 import { isDealer, useSession } from "./data/session";
 import { dealerById } from "./data/dealer";
+import { useLanguage } from "./data/i18n";
 
 /* Line icons, one 1.6 stroke family — matches the mockup's icon set. */
 const base = {
@@ -183,9 +184,27 @@ export function Mark() {
   );
 }
 
+export function LangToggle({ className = "" }) {
+  const { toggleLang, isHindi } = useLanguage();
+  return (
+    <button
+      type="button"
+      className={`lang-toggle ${className}`.trim()}
+      onClick={toggleLang}
+      aria-label={isHindi ? "Switch to English" : "हिन्दी में बदलें"}
+      title={isHindi ? "Switch to English" : "हिन्दी में बदलें"}
+    >
+      <span className={`lang-opt ${!isHindi ? "active" : ""}`}>EN</span>
+      <span className="lang-sep">|</span>
+      <span className={`lang-opt ${isHindi ? "active" : ""}`}>हिन्दी</span>
+    </button>
+  );
+}
+
 /* One control, rendered twice (inside the mobile nav and beside it on desktop). */
 function AccountLink({ className = "" }) {
   const s = useSession();
+  const { t } = useLanguage();
   const dealer = isDealer(s) ? dealerById(s.dealerId) : null;
 
   if (dealer) {
@@ -204,15 +223,23 @@ function AccountLink({ className = "" }) {
 
   return (
     <Link className={`btn btn-navy btn-sm ${className}`.trim()} to="/login">
-      {s.role === "dealer" ? "Approval pending" : "Dealer Login"}
+      {s.role === "dealer" ? t("approval_pending") : t("dealer_login")}
     </Link>
   );
 }
 
 export function Header() {
   const [open, setOpen] = useState(false);
+  const { t } = useLanguage();
   const { pathname, hash } = useLocation();
   useEffect(() => setOpen(false), [pathname, hash]);
+
+  const navLabels = {
+    "/": t("nav_home"),
+    "/products": t("nav_products"),
+    "/schemes": t("nav_schemes"),
+    "/support": t("nav_support"),
+  };
 
   return (
     <header className="hdr">
@@ -222,21 +249,27 @@ export function Header() {
         <nav className={`nav${open ? " open" : ""}`} id="nav">
           {NAV.map((n) => (
             <NavLink key={n.to} to={n.to} end={n.to === "/"}>
-              {n.label}
+              {navLabels[n.to] || n.label}
             </NavLink>
           ))}
-          <AccountLink />
+          <div className="nav-drawer-actions">
+            <LangToggle />
+            <AccountLink />
+          </div>
         </nav>
 
         <p className="hdr-tag">
-          Better Products
+          {t("tagline_1")}
           <br />
-          Stronger Partners
+          {t("tagline_2")}
           <br />
-          Brighter Homes
+          {t("tagline_3")}
         </p>
 
-        <AccountLink className="btn-hdr" />
+        <div className="hdr-actions">
+          <LangToggle />
+          <AccountLink />
+        </div>
 
         <button
           className="icon-btn burger"
@@ -253,53 +286,54 @@ export function Header() {
 }
 
 export function Footer() {
+  const { t } = useLanguage();
   return (
     <footer className="ftr">
       <div className="wrap">
         <div className="ftr-grid">
           <div>
             <Mark />
-            <p style={{ marginTop: "var(--s4)", fontSize: "0.9rem", maxWidth: "30ch" }}>{COMPANY.tagline}</p>
+            <p style={{ marginTop: "var(--s4)", fontSize: "0.9rem", maxWidth: "30ch" }}>{t("ftr_about")}</p>
           </div>
           <div>
-            <h4>Range</h4>
+            <h4>{t("ftr_range")}</h4>
             <ul>
               <li>
-                <Link to="/products?cat=gas_stoves">Gas Stoves</Link>
+                <Link to="/products?cat=gas_stoves">{t("cat_gas_stoves")}</Link>
               </li>
               <li>
-                <Link to="/products?cat=hobs">Hobs</Link>
+                <Link to="/products?cat=hobs">{t("cat_hobs")}</Link>
               </li>
               <li>
-                <Link to="/products?cat=hob_tops">Hob Tops</Link>
+                <Link to="/products?cat=hob_tops">{t("cat_hob_tops")}</Link>
               </li>
               <li>
-                <Link to="/products?cat=chimneys">Chimneys</Link>
+                <Link to="/products?cat=chimneys">{t("cat_chimneys")}</Link>
               </li>
               <li>
-                <Link to="/products?cat=small_appliances">Small Appliances</Link>
+                <Link to="/products?cat=small_appliances">{t("cat_small_appliances")}</Link>
               </li>
             </ul>
           </div>
           <div>
-            <h4>Dealers</h4>
+            <h4>{t("ftr_dealers")}</h4>
             <ul>
               <li>
-                <Link to="/schemes">Schemes &amp; Offers</Link>
+                <Link to="/schemes">{t("nav_schemes")}</Link>
               </li>
               <li>
-                <Link to="/support#marketing">Marketing Material</Link>
+                <Link to="/support#marketing">{t("mat_title")}</Link>
               </li>
               <li>
-                <Link to="/support">Service Support</Link>
+                <Link to="/support">{t("support_title")}</Link>
               </li>
               <li>
-                <Link to="/support#apply">Become a Dealer</Link>
+                <Link to="/support#apply">{t("dealer_enquiry_title")}</Link>
               </li>
             </ul>
           </div>
           <div>
-            <h4>Contact</h4>
+            <h4>{t("ftr_contact")}</h4>
             <ul>
               <li>
                 <a href={`tel:${COMPANY.phone.replace(/\s/g, "")}`}>{COMPANY.phone}</a>
@@ -315,7 +349,7 @@ export function Footer() {
           <span>
             © {new Date().getFullYear()} {COMPANY.legal}
           </span>
-          <span>Privacy Policy · Terms &amp; Conditions · Version 1.0.0</span>
+          <span>{t("ftr_auth_dist")} · Sunshine India</span>
         </div>
       </div>
     </footer>

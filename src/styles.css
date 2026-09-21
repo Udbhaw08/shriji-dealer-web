@@ -453,12 +453,25 @@ h4 {
   border-bottom-color: var(--navy);
 }
 
-/* the drawer carries its own login button; hide it while the nav is inline */
-.nav > .btn {
+/* Drawer actions inside nav: NEVER display on desktop inline nav */
+.nav-drawer-actions {
   display: none;
 }
-.nav.open > .btn {
-  display: inline-flex;
+
+/* Header actions (Lang toggle + Account) on desktop */
+.hdr-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--s3);
+  flex: none;
+}
+
+/* Safeguard: no drawer controls ever appear in inline nav */
+.nav:not(.open) > .btn,
+.nav:not(.open) > .acct,
+.nav:not(.open) > .lang-toggle,
+.nav:not(.open) .nav-drawer-actions {
+  display: none !important;
 }
 
 .hdr-tag {
@@ -493,6 +506,44 @@ h4 {
   display: none;
 }
 
+/* Language Toggle Button */
+.lang-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: #ffffff;
+  border: 1px solid var(--line-2);
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--tx-2);
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  transition: all 0.2s var(--ease);
+  user-select: none;
+  flex: none;
+}
+.lang-toggle:hover {
+  background: var(--bg-2);
+  border-color: var(--navy);
+  color: var(--tx);
+}
+.lang-toggle .lang-opt {
+  padding: 1px 4px;
+  border-radius: 4px;
+  transition: color 0.15s ease, background 0.15s ease;
+}
+.lang-toggle .lang-opt.active {
+  color: var(--navy);
+  font-weight: 700;
+  background: rgba(14, 28, 54, 0.08);
+}
+.lang-toggle .lang-sep {
+  opacity: 0.35;
+  font-size: 0.75rem;
+}
+
 @media (max-width: 1040px) {
   .hdr-tag {
     display: none;
@@ -500,7 +551,7 @@ h4 {
 }
 @media (max-width: 900px) {
   .nav,
-  .hdr .btn-hdr {
+  .hdr-actions {
     display: none;
   }
   .burger {
@@ -526,8 +577,18 @@ h4 {
     border-bottom: 1px solid var(--line);
     font-size: 1rem;
   }
-  .nav.open .btn {
+  .nav.open .nav-drawer-actions {
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--s3);
     margin-top: var(--s4);
+    padding-top: var(--s3);
+    border-top: 1px solid var(--line);
+  }
+  .nav.open .nav-drawer-actions .btn {
+    width: 100%;
+    justify-content: center;
   }
 }
 
