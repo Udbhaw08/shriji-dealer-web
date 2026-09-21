@@ -1,21 +1,40 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Icon } from "../ui";
-import { tagFor } from "../data/dealer";
+import { inr, priceFor, tagFor } from "../data/dealer";
+import { useLanguage } from "../data/i18n";
 
-/* No price here by design — dealer pricing lives on the product detail page behind View Dealer Price. */
 export default function ProductCard({ p }) {
   const [saved, setSaved] = useState(false);
   const [imgErr, setImgErr] = useState(false);
+  const { t } = useLanguage();
+
   const tag = tagFor(p);
+  const { mrp, isPriceOnRequest } = priceFor(p);
+
+  const subtitle =
+    p.name && p.model && p.name.trim().toLowerCase() !== p.model.trim().toLowerCase()
+      ? p.name
+      : [p.features?.[0] || p.finish, p.catLabel].filter(Boolean).join(" ");
+
+  const badges = [];
+  if (tag) badges.push(tag);
+  if (p.isNew && (!tag || tag.label !== "New")) {
+    badges.push({ label: "New", kind: "blue" });
+  }
 
   return (
     <article className="prod">
       <button
+        type="button"
         className="heart"
         aria-pressed={saved}
         aria-label={saved ? `Remove ${p.model} from saved` : `Save ${p.model}`}
-        onClick={() => setSaved((v) => !v)}
+        onClick={(e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          setSaved((v) => !v);
+        }}
       >
         <Icon name="heart" size={16} />
       </button>
@@ -27,6 +46,7 @@ export default function ProductCard({ p }) {
               src={p.img.startsWith("http") ? p.img : `/img/${p.img}`}
               alt={p.name}
               loading="lazy"
+              draggable="false"
               onError={() => setImgErr(true)}
             />
           ) : (
@@ -34,11 +54,33 @@ export default function ProductCard({ p }) {
               <Icon name={p.cat === "chimneys" ? "chimney" : p.cat === "small_appliances" ? "blender" : "stove"} size={28} />
             </span>
           )}
-          {tag && <span className={`badge badge-${tag.kind === "blue" ? "blue" : ""} prod-tag`}>{tag.label}</span>}
         </span>
+
         <span className="prod-foot">
-          <b>{p.model && p.model.toLowerCase() !== "test" ? p.model : p.name}</b>
-          <span>{[p.size, p.features[0] || p.finish, p.catLabel].filter(Boolean).join(" · ")}</span>
+          <b className="prod-title">{p.model && p.model.toLowerCase() !== "test" ? p.model : p.name}</b>
+          {subtitle && <span className="prod-subtitle">{subtitle}</span>}
+
+          {badges.length > 0 && (
+            <span className="prod-badges-row">
+              {badges.map((b, idx) => (
+                <span key={idx} className={`badge badge-${b.kind === "blue" ? "blue" : b.kind === "ok" ? "ok" : "blue"}`}>
+                  {b.label}
+                </span>
+              ))}
+            </span>
+          )}
+
+          <span className="prod-price-block">
+            <span className="prod-price-row">
+              <span className="prod-price-lbl mrp-lbl">{t("price_mrp_label") || "MRP"}</span>
+              <b className="prod-price-val">
+                {isPriceOnRequest || mrp <= 0 ? t("price_on_request") : inr(mrp)}
+              </b>
+            </span>
+            {mrp > 0 && !isPriceOnRequest && (
+              <small className="prod-tax-sub">{t("price_incl_taxes") || "Incl. of all taxes"}</small>
+            )}
+          </span>
         </span>
       </Link>
     </article>

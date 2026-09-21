@@ -190,22 +190,12 @@ export default function Login() {
                         <td>{dealer.phone}</td>
                       </tr>
                     )}
-                    <tr>
-                      <th scope="row">Assigned Price List</th>
-                      <td>
-                        {dealer.pricebookName ? (
-                          <span style={{ display: "inline-flex", alignItems: "center", gap: 6, background: "var(--blue-50, #eff6ff)", color: "var(--blue-700, #1d4ed8)", padding: "2px 8px", borderRadius: 4, fontWeight: 700 }}>
-                            <Icon name="tag" size={14} /> {dealer.pricebookName}
-                          </span>
-                        ) : (
-                          <span style={{ color: "var(--tx-3)" }}>Standard Trade Discount</span>
-                        )}
-                      </td>
-                    </tr>
-                    <tr>
-                      <th scope="row">{t("price_your_margin")}</th>
-                      <td><b>{dealer.rebatePct || 20}% off MRP</b></td>
-                    </tr>
+                    {dealer.city && (
+                      <tr>
+                        <th scope="row">Location</th>
+                        <td>{dealer.city}</td>
+                      </tr>
+                    )}
                   </tbody>
                 </table>
               </div>
@@ -416,7 +406,7 @@ export default function Login() {
                       nav("/products");
                     }}
                   >
-                    🏢 Shah Electronics (22% Rebate)
+                    🏢 Shah Electronics
                   </button>
                   <button
                     type="button"
@@ -427,7 +417,7 @@ export default function Login() {
                       nav("/products");
                     }}
                   >
-                    🏪 Rajesh Appliances (19% Rebate)
+                    🏪 Rajesh Appliances
                   </button>
                 </div>
               </div>

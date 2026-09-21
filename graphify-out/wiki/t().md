@@ -1,17 +1,18 @@
 # t()
 
-> God node · 15 connections · `src/data/i18n.js`
+> God node · 16 connections · `src/data/i18n.js`
 
 **Community:** [[Dealer Auth & Session Management]]
 
 ## Connections by Relation
 
 ### calls
+- [[ProductCard()]] `EXTRACTED`
 - [[Product()]] `EXTRACTED`
+- [[Products()]] `EXTRACTED`
 - [[CustomerPrice()]] `EXTRACTED`
 - [[Home()]] `EXTRACTED`
 - [[Login()]] `EXTRACTED`
-- [[Products()]] `EXTRACTED`
 - [[Schemes()]] `EXTRACTED`
 - [[AccountLink()]] `EXTRACTED`
 - [[DealerPrice()]] `EXTRACTED`

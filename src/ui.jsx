@@ -17,6 +17,21 @@ const base = {
 const PATHS = {
   arrow: <path d="M4 10h12M11 5l5 5-5 5" />,
   arrowsm: <path d="M5 10h9M10 6l4 4-4 4" />,
+  home: <path d="m3 9.5 7-6 7 6v8a1 1 0 0 1-1 1h-4v-5h-4v5H4a1 1 0 0 1-1-1v-8Z" />,
+  grid: (
+    <>
+      <rect x="3" y="3" width="6" height="6" rx="1.5" />
+      <rect x="11" y="3" width="6" height="6" rx="1.5" />
+      <rect x="3" y="11" width="6" height="6" rx="1.5" />
+      <rect x="11" y="11" width="6" height="6" rx="1.5" />
+    </>
+  ),
+  badge: (
+    <>
+      <circle cx="10" cy="7.5" r="4.5" />
+      <path d="m7 11.5-1.5 6 4.5-2.2 4.5 2.2-1.5-6" />
+    </>
+  ),
   chev: <path d="M8 5l5 5-5 5" />,
   chevleft: <path d="M12 5l-5 5 5 5" />,
   search: (

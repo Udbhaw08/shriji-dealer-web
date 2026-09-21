@@ -499,7 +499,16 @@ export async function fetchZohoCategories({ refresh = false } = {}) {
   const rawList = data.categories || [];
 
   const categories = rawList
-    .filter((c) => c.category_id !== "-1" && c.url !== "rootcategory" && c.name !== "ROOT" && c.name !== "Adjustments")
+    .filter(
+      (c) =>
+        c.category_id !== "-1" &&
+        c.url !== "rootcategory" &&
+        c.name !== "ROOT" &&
+        c.name !== "Adjustments" &&
+        c.name?.trim().toLowerCase() !== "all products" &&
+        c.url !== "all-products" &&
+        c.has_active_items !== false
+    )
     .map((c) => ({
       id: c.category_id,
       key: slugifyCategory(c.name),

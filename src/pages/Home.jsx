@@ -1,24 +1,15 @@
 import { useCallback, useEffect, useMemo, useRef } from "react";
 import { Link } from "react-router-dom";
 import { useProducts } from "../data/productsStore";
-import { COMPANY, STATS, QUICK_NAV, QUICK_ACCESS, SCHEMES } from "../data/site";
+import { COMPANY, STATS, QUICK_ACCESS, SCHEMES } from "../data/site";
 import { Icon, EnquiryButtons } from "../ui";
 import { useLanguage } from "../data/i18n";
 import ProductCard from "../components/ProductCard";
 
-const CAT_ICON = {
-  gas_stoves: "stove",
-  chimneys: "chimney",
-  hobs: "hob",
-  hob_tops: "glass",
-  small_appliances: "blender",
-  gas_geysers: "flame",
-  natraj_flour_mill: "bolt",
-  spares: "shield",
-};
 
-function useAutoScroll(trackRef, { interval = 3000, step = 260 } = {}) {
+function useAutoScroll(trackRef, { interval = 4000, step = 260 } = {}) {
   const isPausedRef = useRef(false);
+  const resumeTimerRef = useRef(null);
 
   const scrollNext = useCallback(() => {
     const el = trackRef.current;
@@ -62,12 +53,20 @@ function useAutoScroll(trackRef, { interval = 3000, step = 260 } = {}) {
 
   const onTouchStart = useCallback(() => {
     isPausedRef.current = true;
+    if (resumeTimerRef.current) clearTimeout(resumeTimerRef.current);
   }, []);
 
   const onTouchEnd = useCallback(() => {
-    setTimeout(() => {
+    if (resumeTimerRef.current) clearTimeout(resumeTimerRef.current);
+    resumeTimerRef.current = setTimeout(() => {
       isPausedRef.current = false;
-    }, 2500);
+    }, 6000);
+  }, []);
+
+  useEffect(() => {
+    return () => {
+      if (resumeTimerRef.current) clearTimeout(resumeTimerRef.current);
+    };
   }, []);
 
   return {
@@ -85,16 +84,14 @@ export default function Home() {
   const { t, tCat } = useLanguage();
   const catTrackRef = useRef(null);
   const prodTrackRef = useRef(null);
-  const catScroll = useAutoScroll(catTrackRef, { interval: 3000, step: 240 });
-  const prodScroll = useAutoScroll(prodTrackRef, { interval: 3200, step: 260 });
+  const catScroll = useAutoScroll(catTrackRef, { interval: 4000, step: 240 });
+  const prodScroll = useAutoScroll(prodTrackRef, { interval: 4200, step: 260 });
 
   const counts = useMemo(() => {
     const c = {};
     for (const p of PRODUCTS) c[p.cat] = (c[p.cat] || 0) + 1;
     return c;
   }, [PRODUCTS]);
-
-  const heroProduct = useMemo(() => PRODUCTS.find((p) => p.cat === "gas_stoves" && p.img) || PRODUCTS[0], [PRODUCTS]);
 
   const featured = useMemo(
     () =>
@@ -108,70 +105,57 @@ export default function Home() {
 
   return (
     <>
-      {/* ---------- Hero banner ---------- */}
-      <section className="sec" style={{ paddingTop: "var(--s6)" }}>
+      {/* ---------- Hero ---------- */}
+      <section className="hero">
         <div className="wrap">
-          <div className="banner rise">
-            <div className="banner-in">
-              <div>
-                <p className="eyebrow">Sunshine</p>
-                <h1 className="d1">
-                  {t("hero_title")}
-                </h1>
-                <p>
-                  {t("hero_sub")}
-                </p>
-                <div className="row" style={{ marginTop: "var(--s5)" }}>
-                  <Link className="btn btn-white" to="/products">
-                    {t("hero_cta_products")} <Icon name="arrowsm" />
-                  </Link>
-                  <Link className="btn btn-ghost" to="/schemes" style={{ background: "transparent", color: "#fff", borderColor: "rgba(255,255,255,.28)" }}>
-                    {t("hero_cta_schemes")}
-                  </Link>
-                </div>
+          <div className="hero-grid">
+            <div>
+              <span className="hero-pill">
+                <span className="hero-dot" />
+                <span>{t("hero_badge")}</span>
+              </span>
+
+              <h1 className="hero-title">
+                {t("hero_h1_1")}
+                <br />
+                <span className="hero-grad">{t("hero_h1_2")}</span>
+                <br />
+                {t("hero_h1_3")}
+              </h1>
+
+              <p className="hero-lead">{t("hero_lead")}</p>
+
+              <div className="hero-btns">
+                <Link className="btn btn-primary" to="/products">
+                  {t("hero_cta_browse")} <Icon name="arrow" size={17} />
+                </Link>
+                <Link className="btn btn-ghost" to="/schemes">
+                  {t("hero_cta_schemes")}
+                </Link>
               </div>
-              <div className="banner-art">
-                {heroProduct && (
-                  <img
-                    src={heroProduct.img?.startsWith("http") ? heroProduct.img : `/img/${heroProduct.img}`}
-                    alt={heroProduct.name}
-                  />
-                )}
+            </div>
+
+            <div className="hero-card">
+              <div className="hero-card-head">
+                <span className="hero-card-tag">{t("hero_card_tag")}</span>
+                <p className="hero-card-title">{COMPANY.tagline}</p>
+                <p className="hero-card-sub">{COMPANY.address}</p>
+              </div>
+              <div className="hero-stats">
+                {STATS.map((s) => (
+                  <div className="hero-stat" key={s.label}>
+                    <b>{s.value || s.val}</b>
+                    <span>{s.label}</span>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ---------- Quick nav ---------- */}
-      <section style={{ paddingBottom: "var(--s6)" }}>
-        <div className="wrap">
-          <div className="quicknav">
-            {QUICK_NAV.map((q) => {
-              const label = q.label === "Products" ? t("quick_products")
-                : q.label === "Schemes" ? t("quick_schemes")
-                : q.label === "New Launches" ? t("quick_launches")
-                : t("quick_support");
-              const sub = q.label === "Products" ? t("quick_products_sub")
-                : q.label === "Schemes" ? t("quick_schemes_sub")
-                : q.label === "New Launches" ? t("quick_launches_sub")
-                : t("quick_support_sub");
-              return (
-                <Link className="qn" key={q.label} to={q.to}>
-                  <span className="tile">
-                    <Icon name={q.icon} size={22} />
-                  </span>
-                  <b>{label}</b>
-                  <span>{sub}</span>
-                </Link>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* ---------- Categories ---------- */}
-      <section className="sec" style={{ paddingTop: 0 }}>
+      {/* ---------- Browse by Category ---------- */}
+      <section className="sec">
         <div className="wrap">
           <div className="sec-head">
             <h2>{t("sec_categories_title")}</h2>
@@ -202,6 +186,15 @@ export default function Home() {
             </div>
           </div>
           <div className="carousel-wrap">
+            <button
+              type="button"
+              className="carousel-track-btn prev"
+              onClick={catScroll.scrollPrev}
+              aria-label="Scroll categories left"
+              title="Previous"
+            >
+              <Icon name="chevleft" size={20} />
+            </button>
             <div
               className="carousel-track"
               ref={catTrackRef}
@@ -210,7 +203,7 @@ export default function Home() {
               onTouchStart={catScroll.onTouchStart}
               onTouchEnd={catScroll.onTouchEnd}
             >
-              {CATEGORIES.map((c) => (
+              {CATEGORIES.filter((c) => c.key !== "all_products" && c.key !== "all").map((c) => (
                 <Link className="cat" key={c.key} to={`/products?cat=${c.key}`}>
                   <span className="cat-img">
                     <img
@@ -227,13 +220,28 @@ export default function Home() {
                       <b>{tCat(c.key, c.label)}</b>
                       <span>{t("models_count", { count: counts[c.key] || 0 })}</span>
                     </span>
-                    <span className="tile tile-sm">
-                      <Icon name={CAT_ICON[c.key] || "stove"} size={18} />
-                    </span>
                   </span>
                 </Link>
               ))}
+              <div className="carousel-more-card">
+                <Link to="/products" className="carousel-more-btn">
+                  <span className="carousel-more-circle">
+                    <Icon name="arrowsm" size={22} />
+                  </span>
+                  <b>{t("view_all")}</b>
+                  <span>{CATEGORIES.length} Categories</span>
+                </Link>
+              </div>
             </div>
+            <button
+              type="button"
+              className="carousel-track-btn next"
+              onClick={catScroll.scrollNext}
+              aria-label="Scroll categories right"
+              title="Next"
+            >
+              <Icon name="chev" size={20} />
+            </button>
           </div>
         </div>
       </section>
@@ -270,6 +278,15 @@ export default function Home() {
             </div>
           </div>
           <div className="carousel-wrap">
+            <button
+              type="button"
+              className="carousel-track-btn prev"
+              onClick={prodScroll.scrollPrev}
+              aria-label="Scroll products left"
+              title="Previous"
+            >
+              <Icon name="chevleft" size={20} />
+            </button>
             <div
               className="carousel-track"
               ref={prodTrackRef}
@@ -281,7 +298,25 @@ export default function Home() {
               {featured.map((p) => (
                 <ProductCard key={p.id} p={p} />
               ))}
+              <div className="carousel-more-card">
+                <Link to="/products" className="carousel-more-btn">
+                  <span className="carousel-more-circle">
+                    <Icon name="arrowsm" size={22} />
+                  </span>
+                  <b>{t("view_all")}</b>
+                  <span>{PRODUCTS.length} Models</span>
+                </Link>
+              </div>
             </div>
+            <button
+              type="button"
+              className="carousel-track-btn next"
+              onClick={prodScroll.scrollNext}
+              aria-label="Scroll products right"
+              title="Next"
+            >
+              <Icon name="chev" size={20} />
+            </button>
           </div>
         </div>
       </section>

@@ -23,13 +23,13 @@ export default function PriceBlock({ p, customerView, dealer, sharedBy }) {
 function DealerPrice({ p, dealer }) {
   const [open, setOpen] = useState(false);
   const { t } = useLanguage();
-  const { dealer: net, isPriceOnRequest } = priceFor(p, dealer);
+  const { dealer: net, mrp, rebatePct, isPriceOnRequest } = priceFor(p, dealer);
 
-  if (isPriceOnRequest || net <= 0) {
+  if (isPriceOnRequest || (mrp <= 0 && net <= 0)) {
     return (
       <div className="pricebox">
         <div className="pricebox-l">
-          <span className="pricebox-lbl">{t("price_dealer_label")}</span>
+          <span className="pricebox-lbl">{t("price_mrp_label")}</span>
           <b className="pricebox-amt">{t("price_on_request")}</b>
           <small>{t("price_on_request_sub")}</small>
         </div>
@@ -41,30 +41,37 @@ function DealerPrice({ p, dealer }) {
   }
 
   return (
-    <div className="pricebox">
+    <div className={`pricebox ${open ? "pricebox-revealed" : ""}`}>
       <div className="pricebox-l">
-        <span className="pricebox-lbl">{t("price_dealer_label")}</span>
         {open ? (
           <>
-            <b className="pricebox-amt">{inr(net)}</b>
-            <small>{t("price_incl_taxes")}</small>
+            <span className="pricebox-lbl">{t("price_dealer_label")}</span>
+            <b className="pricebox-amt pricebox-dealer-amt">{inr(net)}</b>
+            <small>
+              {t("price_incl_taxes")}
+              {mrp > 0 && ` · Retail MRP: ${inr(mrp)}`}
+            </small>
           </>
         ) : (
           <>
-            <b className="pricebox-amt pricebox-mask" aria-hidden="true">
-              ₹ • • • •
-            </b>
-            <small>{t("price_hidden_sub")}</small>
+            <span className="pricebox-lbl">{t("price_mrp_label")}</span>
+            <b className="pricebox-amt">{inr(mrp)}</b>
+            <small>{t("price_incl_taxes")}</small>
           </>
         )}
       </div>
 
       <div className="pricebox-r">
-        <button className="btn btn-navy btn-block" aria-expanded={open} onClick={() => setOpen((v) => !v)}>
+        <button
+          type="button"
+          className={`btn ${open ? "btn-ghost" : "btn-navy"} btn-block`}
+          aria-expanded={open}
+          onClick={() => setOpen((v) => !v)}
+        >
           <Icon name={open ? "eyeoff" : "lock"} /> {open ? t("price_dealer_hide") : t("price_dealer_view")}
         </button>
         <p className="note pricebox-note">
-          Visible to approved dealers only
+          {open ? "Visible to approved dealers only" : "Click to view your wholesale dealer price"}
         </p>
       </div>
     </div>
@@ -118,10 +125,6 @@ function CustomerPrice({ p, sharedBy }) {
           </Link>
         </>
       )}
-
-      <p className="note" style={{ textAlign: "center" }}>
-        {t("customer_view_tag")}
-      </p>
     </div>
   );
 }

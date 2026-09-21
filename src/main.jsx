@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import "./styles.css";
 import { Header, Footer } from "./ui";
+import MobileBottomNav from "./components/MobileBottomNav";
 import Home from "./pages/Home";
 import Products from "./pages/Products";
 import Product from "./pages/Product";
@@ -82,6 +83,7 @@ createRoot(document.getElementById("root")).render(
           </Routes>
         </main>
         <Footer />
+        <MobileBottomNav />
       </BrowserRouter>
     </ErrorBoundary>
   </StrictMode>,

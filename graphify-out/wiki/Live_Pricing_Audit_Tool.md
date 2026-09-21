@@ -1,33 +1,35 @@
 # Live Pricing Audit Tool
 
-> 10 nodes · cohesion 0.29
+> 12 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **session.js** (17 connections) — `src/data/session.js`
-- **registerDealer()** (5 connections) — `src/data/dealer.js`
-- **setSession()** (5 connections) — `src/data/session.js`
-- **signOut()** (3 connections) — `src/data/session.js`
-- **emit()** (2 connections) — `src/data/session.js`
-- **load()** (2 connections) — `src/data/session.js`
-- **GUEST** (1 connections) — `src/data/session.js`
-- **revalidateSession()** (1 connections) — `src/data/session.js`
-- **state** (1 connections) — `src/data/session.js`
-- **subs** (1 connections) — `src/data/session.js`
+- **productsStore.js** (13 connections) — `src/data/productsStore.js`
+- **useProducts()** (8 connections) — `src/data/productsStore.js`
+- **products.js** (3 connections) — `src/data/products.js`
+- **CATEGORIES** (2 connections) — `src/data/products.js`
+- **emit()** (2 connections) — `src/data/productsStore.js`
+- **fetchLiveProducts()** (2 connections) — `src/data/productsStore.js`
+- **loadCached()** (2 connections) — `src/data/productsStore.js`
+- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
+- **useProduct()** (2 connections) — `src/data/productsStore.js`
+- **PRODUCTS** (1 connections) — `src/data/products.js`
+- **listeners** (1 connections) — `src/data/productsStore.js`
+- **storeState** (1 connections) — `src/data/productsStore.js`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (8 shared connections)
-- [[Price Presentation & Product UI]] (4 shared connections)
+- [[Dealer Auth & Session Management]] (7 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (2 shared connections)
 
 ## Source Files
 
-- `src/data/dealer.js`
-- `src/data/session.js`
+- `src/data/products.js`
+- `src/data/productsStore.js`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
+- EXTRACTED: 39 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

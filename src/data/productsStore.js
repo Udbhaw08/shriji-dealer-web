@@ -3,6 +3,18 @@ import { CATEGORIES as INITIAL_CATEGORIES } from "./products";
 
 const CACHE_KEY = "shriji.zoho.products.v2";
 
+function sanitizeCategories(cats) {
+  if (!Array.isArray(cats)) return INITIAL_CATEGORIES;
+  const filtered = cats.filter(
+    (c) =>
+      c &&
+      c.key !== "all_products" &&
+      c.key !== "all" &&
+      c.label?.trim().toLowerCase() !== "all products"
+  );
+  return filtered.length > 0 ? filtered : INITIAL_CATEGORIES;
+}
+
 function loadCached() {
   try {
     const raw = localStorage.getItem(CACHE_KEY);
@@ -11,7 +23,7 @@ function loadCached() {
       if (Array.isArray(data.products) && data.products.length > 0) {
         return {
           products: data.products,
-          categories: data.categories || INITIAL_CATEGORIES,
+          categories: sanitizeCategories(data.categories),
           loaded: true,
           syncing: false,
         };
@@ -47,9 +59,12 @@ export function fetchLiveProducts(force = false) {
     .then((data) => {
       fetchPromise = null;
       if (data.ok && Array.isArray(data.products) && data.products.length > 0) {
+        const liveCategories = data.categories?.length
+          ? sanitizeCategories(data.categories)
+          : storeState.categories;
         storeState = {
           products: data.products,
-          categories: data.categories?.length ? data.categories : storeState.categories,
+          categories: liveCategories,
           loaded: true,
           syncing: false,
         };

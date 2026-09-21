@@ -33,7 +33,9 @@ export default function Products() {
   const { products: PRODUCTS, categories: CATEGORIES, loaded } = useProducts();
   const { t, tCat } = useLanguage();
   const [params, setParams] = useSearchParams();
-  const cat = params.get("cat") || "";
+
+  const rawCat = params.get("cat") || "";
+  const cat = rawCat === "all" || rawCat === "all_products" ? "" : rawCat;
   const [q, setQ] = useState("");
   const [finish, setFinish] = useState("");
   const [brand, setBrand] = useState("");
@@ -152,8 +154,8 @@ export default function Products() {
                   setQ(e.target.value);
                   reset();
                 }}
-                placeholder={t("search_placeholder")}
-                aria-label={t("search_placeholder")}
+                placeholder={t("search_app_placeholder") || "Search products, models, categories..."}
+                aria-label={t("search_app_placeholder") || "Search products, models, categories..."}
               />
             </label>
             <button

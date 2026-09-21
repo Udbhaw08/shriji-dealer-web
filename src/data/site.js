@@ -36,7 +36,6 @@ export const QUICK_NAV = [
 ];
 
 export const QUICK_ACCESS = [
-  { icon: "doc", title: "Price List", sub: "View latest dealer pricing", to: "/schemes#pricing" },
   { icon: "image", title: "Marketing Material", sub: "Images, videos, brochures", to: "/support#marketing" },
   { icon: "support", title: "Service Support", sub: "Raise a service request", to: "/support" },
 ];
