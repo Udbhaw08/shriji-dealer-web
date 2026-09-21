@@ -1,32 +1,33 @@
 # Live Pricing Audit Tool
 
-> 11 nodes · cohesion 0.18
+> 10 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **generate-codebase-doc.mjs** (10 connections) — `scripts/generate-codebase-doc.mjs`
-- **allFiles** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **apiFiles** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **components** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **dataStores** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **getFiles()** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **pages** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **pkg** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **rootDir** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **routes** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **scripts** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **session.js** (17 connections) — `src/data/session.js`
+- **registerDealer()** (5 connections) — `src/data/dealer.js`
+- **setSession()** (5 connections) — `src/data/session.js`
+- **signOut()** (3 connections) — `src/data/session.js`
+- **emit()** (2 connections) — `src/data/session.js`
+- **load()** (2 connections) — `src/data/session.js`
+- **GUEST** (1 connections) — `src/data/session.js`
+- **revalidateSession()** (1 connections) — `src/data/session.js`
+- **state** (1 connections) — `src/data/session.js`
+- **subs** (1 connections) — `src/data/session.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (8 shared connections)
+- [[Price Presentation & Product UI]] (4 shared connections)
 
 ## Source Files
 
-- `scripts/generate-codebase-doc.mjs`
+- `src/data/dealer.js`
+- `src/data/session.js`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 38 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

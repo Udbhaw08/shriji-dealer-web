@@ -1,54 +1,51 @@
 # Price Presentation & Product UI
 
-> 36 nodes · cohesion 0.14
+> 38 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **zoho.js** (29 connections) — `api/zoho.js`
-- **fetchZohoWithRetry()** (11 connections) — `api/zoho.js`
-- **getZohoConfig()** (11 connections) — `api/zoho.js`
-- **fetchZohoProducts()** (10 connections) — `api/zoho.js`
-- **fetchZohoProductById()** (9 connections) — `api/zoho.js`
-- **findDealerByPhone()** (9 connections) — `api/zoho.js`
-- **createDealerContact()** (8 connections) — `api/zoho.js`
-- **getDealerById()** (8 connections) — `api/zoho.js`
-- **vite.config.js** (8 connections) — `vite.config.js`
-- **fetchZohoCategories()** (7 connections) — `api/zoho.js`
-- **getAccessToken()** (7 connections) — `api/zoho.js`
-- **zohoApiPlugin()** (7 connections) — `vite.config.js`
-- **fetchZohoPricebookItems()** (5 connections) — `api/zoho.js`
-- **normalizeProduct()** (4 connections) — `api/zoho.js`
-- **index.js** (4 connections) — `api/products/index.js`
-- **test-zoho-api.mjs** (4 connections) — `scripts/test-zoho-api.mjs`
-- **fetchZohoPricebooks()** (3 connections) — `api/zoho.js`
-- **loadEnv()** (3 connections) — `api/zoho.js`
-- **apply.js** (3 connections) — `api/dealer/apply.js`
-- **info.js** (3 connections) — `api/dealer/info.js`
-- **login.js** (3 connections) — `api/dealer/login.js`
-- **[id].js** (3 connections) — `api/products/[id].js`
-- **handler()** (3 connections) — `api/products/index.js`
-- **clearDiskCache()** (2 connections) — `api/zoho.js`
-- **parseRate()** (2 connections) — `api/zoho.js`
-- *... and 11 more nodes in this community*
+- **dealer.js** (22 connections) — `src/data/dealer.js`
+- **pricing.test.mjs** (19 connections) — `src/data/pricing.test.mjs`
+- **PriceBlock.jsx** (14 connections) — `src/components/PriceBlock.jsx`
+- **dealer.test.mjs** (13 connections) — `src/data/dealer.test.mjs`
+- **isDealer()** (9 connections) — `src/data/dealer.js`
+- **priceFor()** (9 connections) — `src/data/dealer.js`
+- **dealerById()** (7 connections) — `src/data/dealer.js`
+- **CustomerPrice()** (6 connections) — `src/components/PriceBlock.jsx`
+- **inr()** (6 connections) — `src/data/dealer.js`
+- **viewerFor()** (6 connections) — `src/data/dealer.js`
+- **DealerPrice()** (5 connections) — `src/components/PriceBlock.jsx`
+- **shareLink()** (4 connections) — `src/data/dealer.js`
+- **tierOf()** (4 connections) — `src/data/dealer.js`
+- **DEALERS** (3 connections) — `src/data/dealer.js`
+- **price99()** (2 connections) — `src/data/dealer.js`
+- **BAND** (1 connections) — `src/data/dealer.js`
+- **hash()** (1 connections) — `src/data/dealer.js`
+- **approved** (1 connections) — `src/data/dealer.test.mjs`
+- **customer** (1 connections) — `src/data/dealer.test.mjs`
+- **guest** (1 connections) — `src/data/dealer.test.mjs`
+- **pending** (1 connections) — `src/data/dealer.test.mjs`
+- **TEST_PRODUCTS** (1 connections) — `src/data/dealer.test.mjs`
+- **crystal** (1 connections) — `src/data/pricing.test.mjs`
+- **crystalDealer** (1 connections) — `src/data/pricing.test.mjs`
+- **crystalGuest** (1 connections) — `src/data/pricing.test.mjs`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [[Product Brand & Business Vision]] (3 shared connections)
+- [[Dealer Auth & Session Management]] (32 shared connections)
+- [[Live Pricing Audit Tool]] (4 shared connections)
 
 ## Source Files
 
-- `api/dealer/apply.js`
-- `api/dealer/info.js`
-- `api/dealer/login.js`
-- `api/products/[id].js`
-- `api/products/index.js`
-- `api/zoho.js`
-- `scripts/test-zoho-api.mjs`
-- `vite.config.js`
+- `src/components/PriceBlock.jsx`
+- `src/data/dealer.js`
+- `src/data/dealer.test.mjs`
+- `src/data/pricing.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 183 (100%)
+- EXTRACTED: 152 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

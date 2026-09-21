@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import { useCallback, useEffect, useMemo, useRef } from "react";
 import { Link } from "react-router-dom";
 import { useProducts } from "../data/productsStore";
 import { COMPANY, STATS, QUICK_NAV, QUICK_ACCESS, SCHEMES } from "../data/site";
@@ -17,9 +17,76 @@ const CAT_ICON = {
   spares: "shield",
 };
 
+function useAutoScroll(trackRef, { interval = 3000, step = 260 } = {}) {
+  const isPausedRef = useRef(false);
+
+  const scrollNext = useCallback(() => {
+    const el = trackRef.current;
+    if (!el) return;
+    const maxScroll = el.scrollWidth - el.clientWidth;
+    if (el.scrollLeft >= maxScroll - 16) {
+      el.scrollTo({ left: 0, behavior: "smooth" });
+    } else {
+      el.scrollBy({ left: step, behavior: "smooth" });
+    }
+  }, [trackRef, step]);
+
+  const scrollPrev = useCallback(() => {
+    const el = trackRef.current;
+    if (!el) return;
+    if (el.scrollLeft <= 16) {
+      const maxScroll = el.scrollWidth - el.clientWidth;
+      el.scrollTo({ left: maxScroll, behavior: "smooth" });
+    } else {
+      el.scrollBy({ left: -step, behavior: "smooth" });
+    }
+  }, [trackRef, step]);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      if (!isPausedRef.current) {
+        scrollNext();
+      }
+    }, interval);
+
+    return () => clearInterval(timer);
+  }, [scrollNext, interval]);
+
+  const onMouseEnter = useCallback(() => {
+    isPausedRef.current = true;
+  }, []);
+
+  const onMouseLeave = useCallback(() => {
+    isPausedRef.current = false;
+  }, []);
+
+  const onTouchStart = useCallback(() => {
+    isPausedRef.current = true;
+  }, []);
+
+  const onTouchEnd = useCallback(() => {
+    setTimeout(() => {
+      isPausedRef.current = false;
+    }, 2500);
+  }, []);
+
+  return {
+    scrollPrev,
+    scrollNext,
+    onMouseEnter,
+    onMouseLeave,
+    onTouchStart,
+    onTouchEnd,
+  };
+}
+
 export default function Home() {
   const { products: PRODUCTS, categories: CATEGORIES } = useProducts();
   const { t, tCat } = useLanguage();
+  const catTrackRef = useRef(null);
+  const prodTrackRef = useRef(null);
+  const catScroll = useAutoScroll(catTrackRef, { interval: 3000, step: 240 });
+  const prodScroll = useAutoScroll(prodTrackRef, { interval: 3200, step: 260 });
 
   const counts = useMemo(() => {
     const c = {};
@@ -33,7 +100,7 @@ export default function Home() {
     () =>
       CATEGORIES.map((c) => PRODUCTS.filter((p) => p.cat === c.key && p.img).slice(0, 2))
         .flat()
-        .slice(0, 8),
+        .slice(0, 14),
     [PRODUCTS, CATEGORIES],
   );
 
@@ -108,34 +175,65 @@ export default function Home() {
         <div className="wrap">
           <div className="sec-head">
             <h2>{t("sec_categories_title")}</h2>
-            <Link className="link" to="/products">
-              {t("view_all")} <Icon name="arrowsm" size={15} />
-            </Link>
-          </div>
-          <div className="cats">
-            {CATEGORIES.map((c) => (
-              <Link className="cat" key={c.key} to={`/products?cat=${c.key}`}>
-                <span className="cat-img">
-                  <img
-                    src={c.img}
-                    alt={tCat(c.key, c.label)}
-                    loading="lazy"
-                    onError={(e) => {
-                      e.currentTarget.src = "/img/cat-small_appliances.webp";
-                    }}
-                  />
-                </span>
-                <span className="cat-foot">
-                  <span>
-                    <b>{tCat(c.key, c.label)}</b>
-                    <span>{t("models_count", { count: counts[c.key] || 0 })}</span>
-                  </span>
-                  <span className="tile tile-sm">
-                    <Icon name={CAT_ICON[c.key] || "stove"} size={18} />
-                  </span>
-                </span>
+            <div className="sec-head-controls">
+              <div className="carousel-arrow-group" role="group" aria-label="Category scroll controls">
+                <button
+                  type="button"
+                  className="carousel-arrow-btn"
+                  onClick={catScroll.scrollPrev}
+                  aria-label="Scroll categories left"
+                  title="Previous"
+                >
+                  <Icon name="chevleft" size={17} />
+                </button>
+                <button
+                  type="button"
+                  className="carousel-arrow-btn"
+                  onClick={catScroll.scrollNext}
+                  aria-label="Scroll categories right"
+                  title="Next"
+                >
+                  <Icon name="chev" size={17} />
+                </button>
+              </div>
+              <Link className="link" to="/products">
+                {t("view_all")} <Icon name="arrowsm" size={15} />
               </Link>
-            ))}
+            </div>
+          </div>
+          <div className="carousel-wrap">
+            <div
+              className="carousel-track"
+              ref={catTrackRef}
+              onMouseEnter={catScroll.onMouseEnter}
+              onMouseLeave={catScroll.onMouseLeave}
+              onTouchStart={catScroll.onTouchStart}
+              onTouchEnd={catScroll.onTouchEnd}
+            >
+              {CATEGORIES.map((c) => (
+                <Link className="cat" key={c.key} to={`/products?cat=${c.key}`}>
+                  <span className="cat-img">
+                    <img
+                      src={c.img}
+                      alt={tCat(c.key, c.label)}
+                      loading="lazy"
+                      onError={(e) => {
+                        e.currentTarget.src = "/img/cat-small_appliances.webp";
+                      }}
+                    />
+                  </span>
+                  <span className="cat-foot">
+                    <span>
+                      <b>{tCat(c.key, c.label)}</b>
+                      <span>{t("models_count", { count: counts[c.key] || 0 })}</span>
+                    </span>
+                    <span className="tile tile-sm">
+                      <Icon name={CAT_ICON[c.key] || "stove"} size={18} />
+                    </span>
+                  </span>
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
       </section>
@@ -145,14 +243,45 @@ export default function Home() {
         <div className="wrap">
           <div className="sec-head">
             <h2>{t("sec_fast_title")}</h2>
-            <Link className="link" to="/products">
-              {t("view_all")} <Icon name="arrowsm" size={15} />
-            </Link>
+            <div className="sec-head-controls">
+              <div className="carousel-arrow-group" role="group" aria-label="Product scroll controls">
+                <button
+                  type="button"
+                  className="carousel-arrow-btn"
+                  onClick={prodScroll.scrollPrev}
+                  aria-label="Scroll products left"
+                  title="Previous"
+                >
+                  <Icon name="chevleft" size={17} />
+                </button>
+                <button
+                  type="button"
+                  className="carousel-arrow-btn"
+                  onClick={prodScroll.scrollNext}
+                  aria-label="Scroll products right"
+                  title="Next"
+                >
+                  <Icon name="chev" size={17} />
+                </button>
+              </div>
+              <Link className="link" to="/products">
+                {t("view_all")} <Icon name="arrowsm" size={15} />
+              </Link>
+            </div>
           </div>
-          <div className="prods">
-            {featured.map((p) => (
-              <ProductCard key={p.id} p={p} />
-            ))}
+          <div className="carousel-wrap">
+            <div
+              className="carousel-track"
+              ref={prodTrackRef}
+              onMouseEnter={prodScroll.onMouseEnter}
+              onMouseLeave={prodScroll.onMouseLeave}
+              onTouchStart={prodScroll.onTouchStart}
+              onTouchEnd={prodScroll.onTouchEnd}
+            >
+              {featured.map((p) => (
+                <ProductCard key={p.id} p={p} />
+              ))}
+            </div>
           </div>
         </div>
       </section>

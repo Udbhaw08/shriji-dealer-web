@@ -1,11 +1,12 @@
 # Graphify Workflow
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **graphify.md** (1 connections) — `.agents/workflows/graphify.md`
-- **Workflow: graphify** (1 connections) — `.agents/workflows/graphify.md`
+- **vercel.json** (2 connections) — `vercel.json`
+- **framework** (1 connections) — `vercel.json`
+- **rewrites** (1 connections) — `vercel.json`
 
 ## Relationships
 
@@ -13,11 +14,11 @@
 
 ## Source Files
 
-- `.agents/workflows/graphify.md`
+- `vercel.json`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

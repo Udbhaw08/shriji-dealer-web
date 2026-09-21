@@ -843,6 +843,77 @@ h4 {
   font-weight: 700;
 }
 
+/* ---------- Horizontal Auto-Scroll Carousels (Home page) ---------- */
+
+.carousel-wrap {
+  position: relative;
+  width: 100%;
+}
+
+.carousel-track {
+  display: flex;
+  gap: var(--s4);
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 6px 4px var(--s3) 4px;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  overscroll-behavior-x: contain;
+}
+.carousel-track::-webkit-scrollbar {
+  display: none;
+}
+
+/* Category cards in carousel */
+.carousel-track .cat {
+  flex: 0 0 clamp(190px, 22vw, 240px);
+  scroll-snap-align: start;
+}
+
+/* Product cards in carousel */
+.carousel-track .prod {
+  flex: 0 0 clamp(220px, 25vw, 260px);
+  scroll-snap-align: start;
+}
+
+.sec-head-controls {
+  display: flex;
+  align-items: center;
+  gap: var(--s3);
+}
+
+.carousel-arrow-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.carousel-arrow-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid var(--line-2);
+  background: var(--card);
+  color: var(--tx-2);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  box-shadow: var(--sh-sm);
+  transition: all 0.2s var(--ease);
+  flex: none;
+}
+.carousel-arrow-btn:hover {
+  background: var(--blue-50);
+  border-color: var(--blue-300);
+  color: var(--navy);
+  transform: scale(1.06);
+}
+.carousel-arrow-btn:active {
+  transform: scale(0.96);
+}
+
 /* ---------- category tiles ---------- */
 
 .cats {

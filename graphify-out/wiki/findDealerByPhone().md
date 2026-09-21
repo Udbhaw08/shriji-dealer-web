@@ -2,7 +2,7 @@
 
 > God node · 9 connections · `api/zoho.js`
 
-**Community:** [[Price Presentation & Product UI]]
+**Community:** [[Zoho Backend & Proxy Endpoints]]
 
 ## Connections by Relation
 

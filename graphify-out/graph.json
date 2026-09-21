@@ -897,7 +897,7 @@
       "label": "PriceBlock()",
       "file_type": "code",
       "source_file": "src/components/PriceBlock.jsx",
-      "source_location": "L17",
+      "source_location": "L18",
       "_origin": "ast",
       "id": "components_priceblock_priceblock",
       "community": 0,
@@ -907,7 +907,7 @@
       "label": "DealerPrice()",
       "file_type": "code",
       "source_file": "src/components/PriceBlock.jsx",
-      "source_location": "L22",
+      "source_location": "L23",
       "_origin": "ast",
       "id": "components_priceblock_dealerprice",
       "community": 8,
@@ -917,7 +917,7 @@
       "label": "CustomerPrice()",
       "file_type": "code",
       "source_file": "src/components/PriceBlock.jsx",
-      "source_location": "L72",
+      "source_location": "L74",
       "_origin": "ast",
       "id": "components_priceblock_customerprice",
       "community": 8,
@@ -942,6 +942,26 @@
       "id": "components_productcard_productcard",
       "community": 0,
       "norm_label": "productcard()"
+    },
+    {
+      "label": "UnderMaintenance.jsx",
+      "file_type": "code",
+      "source_file": "src/components/UnderMaintenance.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_undermaintenance",
+      "community": 0,
+      "norm_label": "undermaintenance.jsx"
+    },
+    {
+      "label": "UnderMaintenance()",
+      "file_type": "code",
+      "source_file": "src/components/UnderMaintenance.jsx",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "components_undermaintenance_undermaintenance",
+      "community": 0,
+      "norm_label": "undermaintenance()"
     },
     {
       "label": "dealer.js",
@@ -970,7 +990,7 @@
       "source_location": "L33",
       "_origin": "ast",
       "id": "data_dealer_dealerbyid",
-      "community": 0,
+      "community": 8,
       "norm_label": "dealerbyid()"
     },
     {
@@ -1050,7 +1070,7 @@
       "source_location": "L120",
       "_origin": "ast",
       "id": "data_dealer_isdealer",
-      "community": 0,
+      "community": 8,
       "norm_label": "isdealer()"
     },
     {
@@ -1070,7 +1090,7 @@
       "source_location": "L139",
       "_origin": "ast",
       "id": "data_dealer_viewerfor",
-      "community": 0,
+      "community": 8,
       "norm_label": "viewerfor()"
     },
     {
@@ -1142,6 +1162,116 @@
       "id": "data_dealer_test_guest",
       "community": 8,
       "norm_label": "guest"
+    },
+    {
+      "label": "i18n.js",
+      "file_type": "code",
+      "source_file": "src/data/i18n.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "data_i18n",
+      "community": 0,
+      "norm_label": "i18n.js"
+    },
+    {
+      "label": "getInitialLang()",
+      "file_type": "code",
+      "source_file": "src/data/i18n.js",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "data_i18n_getinitiallang",
+      "community": 0,
+      "norm_label": "getinitiallang()"
+    },
+    {
+      "label": "currentLang",
+      "file_type": "code",
+      "source_file": "src/data/i18n.js",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "data_i18n_currentlang",
+      "community": 0,
+      "norm_label": "currentlang"
+    },
+    {
+      "label": "listeners",
+      "file_type": "code",
+      "source_file": "src/data/i18n.js",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "data_i18n_listeners",
+      "community": 0,
+      "norm_label": "listeners"
+    },
+    {
+      "label": "emit()",
+      "file_type": "code",
+      "source_file": "src/data/i18n.js",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "data_i18n_emit",
+      "community": 0,
+      "norm_label": "emit()"
+    },
+    {
+      "label": "setLanguage()",
+      "file_type": "code",
+      "source_file": "src/data/i18n.js",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "data_i18n_setlanguage",
+      "community": 0,
+      "norm_label": "setlanguage()"
+    },
+    {
+      "label": "toggleLanguage()",
+      "file_type": "code",
+      "source_file": "src/data/i18n.js",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "data_i18n_togglelanguage",
+      "community": 0,
+      "norm_label": "togglelanguage()"
+    },
+    {
+      "label": "getLanguage()",
+      "file_type": "code",
+      "source_file": "src/data/i18n.js",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "data_i18n_getlanguage",
+      "community": 0,
+      "norm_label": "getlanguage()"
+    },
+    {
+      "label": "t()",
+      "file_type": "code",
+      "source_file": "src/data/i18n.js",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "data_i18n_t",
+      "community": 0,
+      "norm_label": "t()"
+    },
+    {
+      "label": "tCat()",
+      "file_type": "code",
+      "source_file": "src/data/i18n.js",
+      "source_location": "L56",
+      "_origin": "ast",
+      "id": "data_i18n_tcat",
+      "community": 0,
+      "norm_label": "tcat()"
+    },
+    {
+      "label": "useLanguage()",
+      "file_type": "code",
+      "source_file": "src/data/i18n.js",
+      "source_location": "L63",
+      "_origin": "ast",
+      "id": "data_i18n_uselanguage",
+      "community": 0,
+      "norm_label": "uselanguage()"
     },
     {
       "label": "pricing.test.mjs",
@@ -1410,7 +1540,7 @@
       "source_location": "L89",
       "_origin": "ast",
       "id": "data_productsstore_useproducts",
-      "community": 27,
+      "community": 0,
       "norm_label": "useproducts()"
     },
     {
@@ -1614,6 +1744,26 @@
       "norm_label": "issue_types"
     },
     {
+      "label": "translations.js",
+      "file_type": "code",
+      "source_file": "src/data/translations.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "data_translations",
+      "community": 0,
+      "norm_label": "translations.js"
+    },
+    {
+      "label": "TRANSLATIONS",
+      "file_type": "code",
+      "source_file": "src/data/translations.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "data_translations_translations",
+      "community": 0,
+      "norm_label": "translations"
+    },
+    {
       "label": "main.jsx",
       "file_type": "code",
       "source_file": "src/main.jsx",
@@ -1624,10 +1774,60 @@
       "norm_label": "main.jsx"
     },
     {
-      "label": "ScrollManager()",
+      "label": "ErrorBoundary",
       "file_type": "code",
       "source_file": "src/main.jsx",
       "source_location": "L13",
+      "_origin": "ast",
+      "id": "src_main_errorboundary",
+      "community": 30,
+      "norm_label": "errorboundary"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/main.jsx",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "src_main_errorboundary_constructor",
+      "community": 30,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".getDerivedStateFromError()",
+      "file_type": "code",
+      "source_file": "src/main.jsx",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "src_main_errorboundary_getderivedstatefromerror",
+      "community": 30,
+      "norm_label": ".getderivedstatefromerror()"
+    },
+    {
+      "label": ".componentDidCatch()",
+      "file_type": "code",
+      "source_file": "src/main.jsx",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "src_main_errorboundary_componentdidcatch",
+      "community": 30,
+      "norm_label": ".componentdidcatch()"
+    },
+    {
+      "label": ".render()",
+      "file_type": "code",
+      "source_file": "src/main.jsx",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "src_main_errorboundary_render",
+      "community": 30,
+      "norm_label": ".render()"
+    },
+    {
+      "label": "ScrollManager()",
+      "file_type": "code",
+      "source_file": "src/main.jsx",
+      "source_location": "L47",
       "_origin": "ast",
       "id": "src_main_scrollmanager",
       "community": 0,
@@ -1647,17 +1847,27 @@
       "label": "CAT_ICON",
       "file_type": "code",
       "source_file": "src/pages/Home.jsx",
-      "source_location": "L8",
+      "source_location": "L9",
       "_origin": "ast",
       "id": "pages_home_cat_icon",
       "community": 0,
       "norm_label": "cat_icon"
     },
     {
+      "label": "useAutoScroll()",
+      "file_type": "code",
+      "source_file": "src/pages/Home.jsx",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "pages_home_useautoscroll",
+      "community": 0,
+      "norm_label": "useautoscroll()"
+    },
+    {
       "label": "Home()",
       "file_type": "code",
       "source_file": "src/pages/Home.jsx",
-      "source_location": "L19",
+      "source_location": "L83",
       "_origin": "ast",
       "id": "pages_home_home",
       "community": 0,
@@ -1697,37 +1907,27 @@
       "label": "featureBoxes()",
       "file_type": "code",
       "source_file": "src/pages/Product.jsx",
-      "source_location": "L12",
+      "source_location": "L13",
       "_origin": "ast",
       "id": "pages_product_featureboxes",
       "community": 0,
       "norm_label": "featureboxes()"
     },
     {
-      "label": "inTheBox()",
+      "label": "TAB_ITEMS",
       "file_type": "code",
       "source_file": "src/pages/Product.jsx",
-      "source_location": "L25",
+      "source_location": "L26",
       "_origin": "ast",
-      "id": "pages_product_inthebox",
+      "id": "pages_product_tab_items",
       "community": 0,
-      "norm_label": "inthebox()"
-    },
-    {
-      "label": "TABS",
-      "file_type": "code",
-      "source_file": "src/pages/Product.jsx",
-      "source_location": "L33",
-      "_origin": "ast",
-      "id": "pages_product_tabs",
-      "community": 0,
-      "norm_label": "tabs"
+      "norm_label": "tab_items"
     },
     {
       "label": "Product()",
       "file_type": "code",
       "source_file": "src/pages/Product.jsx",
-      "source_location": "L35",
+      "source_location": "L32",
       "_origin": "ast",
       "id": "pages_product_product",
       "community": 0,
@@ -1740,37 +1940,27 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "pages_products",
-      "community": 27,
+      "community": 0,
       "norm_label": "products.jsx"
-    },
-    {
-      "label": "SORTS",
-      "file_type": "code",
-      "source_file": "src/pages/Products.jsx",
-      "source_location": "L10",
-      "_origin": "ast",
-      "id": "pages_products_sorts",
-      "community": 27,
-      "norm_label": "sorts"
     },
     {
       "label": "Group()",
       "file_type": "code",
       "source_file": "src/pages/Products.jsx",
-      "source_location": "L18",
+      "source_location": "L12",
       "_origin": "ast",
       "id": "pages_products_group",
-      "community": 27,
+      "community": 0,
       "norm_label": "group()"
     },
     {
       "label": "Products()",
       "file_type": "code",
       "source_file": "src/pages/Products.jsx",
-      "source_location": "L38",
+      "source_location": "L32",
       "_origin": "ast",
       "id": "pages_products_products",
-      "community": 27,
+      "community": 0,
       "norm_label": "products()"
     },
     {
@@ -1784,20 +1974,10 @@
       "norm_label": "schemes.jsx"
     },
     {
-      "label": "TABS",
-      "file_type": "code",
-      "source_file": "src/pages/Schemes.jsx",
-      "source_location": "L7",
-      "_origin": "ast",
-      "id": "pages_schemes_tabs",
-      "community": 0,
-      "norm_label": "tabs"
-    },
-    {
       "label": "Schemes()",
       "file_type": "code",
       "source_file": "src/pages/Schemes.jsx",
-      "source_location": "L13",
+      "source_location": "L4",
       "_origin": "ast",
       "id": "pages_schemes_schemes",
       "community": 0,
@@ -1814,50 +1994,30 @@
       "norm_label": "support.jsx"
     },
     {
-      "label": "TICKETS",
-      "file_type": "code",
-      "source_file": "src/pages/Support.jsx",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "pages_support_tickets",
-      "community": 0,
-      "norm_label": "tickets"
-    },
-    {
-      "label": "ServiceForm()",
-      "file_type": "code",
-      "source_file": "src/pages/Support.jsx",
-      "source_location": "L11",
-      "_origin": "ast",
-      "id": "pages_support_serviceform",
-      "community": 0,
-      "norm_label": "serviceform()"
-    },
-    {
       "label": "DealerForm()",
       "file_type": "code",
       "source_file": "src/pages/Support.jsx",
-      "source_location": "L123",
+      "source_location": "L7",
       "_origin": "ast",
       "id": "pages_support_dealerform",
       "community": 0,
       "norm_label": "dealerform()"
     },
     {
-      "label": "MAT_TABS",
+      "label": "DealerField()",
       "file_type": "code",
       "source_file": "src/pages/Support.jsx",
-      "source_location": "L199",
+      "source_location": "L64",
       "_origin": "ast",
-      "id": "pages_support_mat_tabs",
+      "id": "pages_support_dealerfield",
       "community": 0,
-      "norm_label": "mat_tabs"
+      "norm_label": "dealerfield()"
     },
     {
       "label": "Support()",
       "file_type": "code",
       "source_file": "src/pages/Support.jsx",
-      "source_location": "L201",
+      "source_location": "L86",
       "_origin": "ast",
       "id": "pages_support_support",
       "community": 0,
@@ -1877,7 +2037,7 @@
       "label": "base",
       "file_type": "code",
       "source_file": "src/ui.jsx",
-      "source_location": "L8",
+      "source_location": "L9",
       "_origin": "ast",
       "id": "src_ui_base",
       "community": 0,
@@ -1887,7 +2047,7 @@
       "label": "PATHS",
       "file_type": "code",
       "source_file": "src/ui.jsx",
-      "source_location": "L16",
+      "source_location": "L17",
       "_origin": "ast",
       "id": "src_ui_paths",
       "community": 0,
@@ -1897,7 +2057,7 @@
       "label": "Icon()",
       "file_type": "code",
       "source_file": "src/ui.jsx",
-      "source_location": "L157",
+      "source_location": "L159",
       "_origin": "ast",
       "id": "src_ui_icon",
       "community": 0,
@@ -1907,17 +2067,27 @@
       "label": "Mark()",
       "file_type": "code",
       "source_file": "src/ui.jsx",
-      "source_location": "L165",
+      "source_location": "L167",
       "_origin": "ast",
       "id": "src_ui_mark",
       "community": 0,
       "norm_label": "mark()"
     },
     {
+      "label": "LangToggle()",
+      "file_type": "code",
+      "source_file": "src/ui.jsx",
+      "source_location": "L187",
+      "_origin": "ast",
+      "id": "src_ui_langtoggle",
+      "community": 0,
+      "norm_label": "langtoggle()"
+    },
+    {
       "label": "AccountLink()",
       "file_type": "code",
       "source_file": "src/ui.jsx",
-      "source_location": "L186",
+      "source_location": "L205",
       "_origin": "ast",
       "id": "src_ui_accountlink",
       "community": 0,
@@ -1927,7 +2097,7 @@
       "label": "Header()",
       "file_type": "code",
       "source_file": "src/ui.jsx",
-      "source_location": "L211",
+      "source_location": "L231",
       "_origin": "ast",
       "id": "src_ui_header",
       "community": 0,
@@ -1937,7 +2107,7 @@
       "label": "Footer()",
       "file_type": "code",
       "source_file": "src/ui.jsx",
-      "source_location": "L254",
+      "source_location": "L290",
       "_origin": "ast",
       "id": "src_ui_footer",
       "community": 0,
@@ -1947,7 +2117,7 @@
       "label": "EnquiryButtons()",
       "file_type": "code",
       "source_file": "src/ui.jsx",
-      "source_location": "L324",
+      "source_location": "L361",
       "_origin": "ast",
       "id": "src_ui_enquirybuttons",
       "community": 0,
@@ -2637,7 +2807,7 @@
       "label": "4.3 State & Business Logic (`src/data/`)",
       "file_type": "document",
       "source_file": "CODEBASE.md",
-      "source_location": "L69",
+      "source_location": "L70",
       "_origin": "ast",
       "id": "codebase_4_3_state_business_logic_src_data",
       "community": 5,
@@ -2647,7 +2817,7 @@
       "label": "4.4 Zoho API & Serverless Handlers (`api/`)",
       "file_type": "document",
       "source_file": "CODEBASE.md",
-      "source_location": "L78",
+      "source_location": "L81",
       "_origin": "ast",
       "id": "codebase_4_4_zoho_api_serverless_handlers_api",
       "community": 5,
@@ -2657,7 +2827,7 @@
       "label": "4.5 Automation & Utility Scripts (`scripts/`)",
       "file_type": "document",
       "source_file": "CODEBASE.md",
-      "source_location": "L86",
+      "source_location": "L89",
       "_origin": "ast",
       "id": "codebase_4_5_automation_utility_scripts_scripts",
       "community": 5,
@@ -2667,7 +2837,7 @@
       "label": "5. Zoho API Endpoints",
       "file_type": "document",
       "source_file": "CODEBASE.md",
-      "source_location": "L94",
+      "source_location": "L97",
       "_origin": "ast",
       "id": "codebase_5_zoho_api_endpoints",
       "community": 5,
@@ -2677,7 +2847,7 @@
       "label": "5.1 Zoho Commerce Storefront API",
       "file_type": "document",
       "source_file": "CODEBASE.md",
-      "source_location": "L96",
+      "source_location": "L99",
       "_origin": "ast",
       "id": "codebase_5_1_zoho_commerce_storefront_api",
       "community": 5,
@@ -2687,7 +2857,7 @@
       "label": "5.2 Zoho Books Contacts & Pricebooks API",
       "file_type": "document",
       "source_file": "CODEBASE.md",
-      "source_location": "L101",
+      "source_location": "L104",
       "_origin": "ast",
       "id": "codebase_5_2_zoho_books_contacts_pricebooks_api",
       "community": 5,
@@ -2697,7 +2867,7 @@
       "label": "5.3 Auto-Recovery Token Architecture",
       "file_type": "document",
       "source_file": "CODEBASE.md",
-      "source_location": "L107",
+      "source_location": "L110",
       "_origin": "ast",
       "id": "codebase_5_3_auto_recovery_token_architecture",
       "community": 5,
@@ -2707,7 +2877,7 @@
       "label": "6. How to Run & Verify",
       "file_type": "document",
       "source_file": "CODEBASE.md",
-      "source_location": "L112",
+      "source_location": "L115",
       "_origin": "ast",
       "id": "codebase_6_how_to_run_verify",
       "community": 5,
@@ -2717,7 +2887,7 @@
       "label": "7. Development & Git Workflow Guidelines",
       "file_type": "document",
       "source_file": "CODEBASE.md",
-      "source_location": "L133",
+      "source_location": "L136",
       "_origin": "ast",
       "id": "codebase_7_development_git_workflow_guidelines",
       "community": 5,
@@ -4178,9 +4348,9 @@
       "source_file": "api/zoho.js",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "api_zoho",
-      "target": "api_zoho_cleardiskcache",
-      "confidence_score": 1.0
+      "target": "api_zoho_cleardiskcache"
     },
     {
       "relation": "contains",
@@ -4308,9 +4478,9 @@
       "source_file": "api/zoho.js",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "api_zoho",
-      "target": "api_zoho_localcachefile",
-      "confidence_score": 1.0
+      "target": "api_zoho_localcachefile"
     },
     {
       "relation": "contains",
@@ -4338,9 +4508,9 @@
       "source_file": "api/zoho.js",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "api_zoho",
-      "target": "api_zoho_readdiskcache",
-      "confidence_score": 1.0
+      "target": "api_zoho_readdiskcache"
     },
     {
       "relation": "contains",
@@ -4358,9 +4528,9 @@
       "source_file": "api/zoho.js",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "api_zoho",
-      "target": "api_zoho_tmpcachefile",
-      "confidence_score": 1.0
+      "target": "api_zoho_tmpcachefile"
     },
     {
       "relation": "contains",
@@ -4368,9 +4538,9 @@
       "source_file": "api/zoho.js",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "api_zoho",
-      "target": "api_zoho_writediskcache",
-      "confidence_score": 1.0
+      "target": "api_zoho_writediskcache"
     },
     {
       "relation": "imports_from",
@@ -4390,9 +4560,9 @@
       "source_file": "scripts/test-zoho-api.mjs",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_test_zoho_api",
-      "target": "api_zoho",
-      "confidence_score": 1.0
+      "target": "api_zoho"
     },
     {
       "relation": "imports_from",
@@ -4434,9 +4604,9 @@
       "source_file": "api/zoho.js",
       "source_location": "L69",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "api_zoho_getaccesstoken",
-      "target": "api_zoho_readdiskcache",
-      "confidence_score": 1.0
+      "target": "api_zoho_readdiskcache"
     },
     {
       "relation": "calls",
@@ -4445,9 +4615,9 @@
       "source_file": "api/zoho.js",
       "source_location": "L144",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "api_zoho_fetchzohowithretry",
-      "target": "api_zoho_cleardiskcache",
-      "confidence_score": 1.0
+      "target": "api_zoho_cleardiskcache"
     },
     {
       "relation": "calls",
@@ -4489,9 +4659,9 @@
       "source_file": "scripts/test-zoho-api.mjs",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_test_zoho_api",
-      "target": "api_zoho_getaccesstoken",
-      "confidence_score": 1.0
+      "target": "api_zoho_getaccesstoken"
     },
     {
       "relation": "calls",
@@ -4500,9 +4670,9 @@
       "source_file": "api/zoho.js",
       "source_location": "L269",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "api_zoho_createdealercontact",
-      "target": "api_zoho_fetchzohowithretry",
-      "confidence_score": 1.0
+      "target": "api_zoho_fetchzohowithretry"
     },
     {
       "relation": "calls",
@@ -4676,9 +4846,9 @@
       "source_file": "scripts/test-zoho-api.mjs",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_test_zoho_api",
-      "target": "api_zoho_getzohoconfig",
-      "confidence_score": 1.0
+      "target": "api_zoho_getzohoconfig"
     },
     {
       "relation": "calls",
@@ -5346,9 +5516,9 @@
       "source_file": "scripts/test-zoho-api.mjs",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_test_zoho_api",
-      "target": "scripts_test_zoho_api_dc_orgid",
-      "confidence_score": 1.0
+      "target": "scripts_test_zoho_api_dc_orgid"
     },
     {
       "relation": "contains",
@@ -5423,6 +5593,28 @@
       "confidence_score": 1.0,
       "source": "components_priceblock",
       "target": "data_dealer_sharelink"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/PriceBlock.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "components_priceblock",
+      "target": "data_i18n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/PriceBlock.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "components_priceblock",
+      "target": "data_i18n_uselanguage",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -5516,6 +5708,28 @@
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/PriceBlock.jsx",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "components_priceblock_dealerprice",
+      "target": "data_i18n_t"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/PriceBlock.jsx",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "components_priceblock_dealerprice",
+      "target": "data_i18n_uselanguage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
       "source_file": "src/components/PriceBlock.jsx",
       "source_location": "L80",
       "weight": 1.0,
@@ -5544,6 +5758,28 @@
       "confidence_score": 1.0,
       "source": "components_priceblock_customerprice",
       "target": "data_dealer_sharelink"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/PriceBlock.jsx",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "components_priceblock_customerprice",
+      "target": "data_i18n_t"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/PriceBlock.jsx",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "components_priceblock_customerprice",
+      "target": "data_i18n_uselanguage",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5675,6 +5911,137 @@
       "confidence_score": 1.0,
       "source": "pages_products",
       "target": "components_productcard_productcard"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/UnderMaintenance.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "components_undermaintenance",
+      "target": "components_undermaintenance_undermaintenance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/UnderMaintenance.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "components_undermaintenance",
+      "target": "data_i18n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/UnderMaintenance.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "components_undermaintenance",
+      "target": "data_i18n_uselanguage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/UnderMaintenance.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "components_undermaintenance",
+      "target": "src_ui",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/UnderMaintenance.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "components_undermaintenance",
+      "target": "src_ui_enquirybuttons",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/UnderMaintenance.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "components_undermaintenance",
+      "target": "src_ui_icon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Schemes.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "pages_schemes",
+      "target": "components_undermaintenance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Support.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "pages_support",
+      "target": "components_undermaintenance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/UnderMaintenance.jsx",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "components_undermaintenance_undermaintenance",
+      "target": "data_i18n_t"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/UnderMaintenance.jsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "components_undermaintenance_undermaintenance",
+      "target": "data_i18n_uselanguage"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Schemes.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "pages_schemes",
+      "target": "components_undermaintenance_undermaintenance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Support.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "pages_support",
+      "target": "components_undermaintenance_undermaintenance",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6317,6 +6684,568 @@
       "confidence_score": 1.0,
       "source": "data_dealer_test",
       "target": "data_dealer_test_test_products"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data/i18n.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "data_i18n",
+      "target": "data_i18n_currentlang",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data/i18n.js",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "data_i18n",
+      "target": "data_i18n_emit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data/i18n.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "data_i18n",
+      "target": "data_i18n_getinitiallang",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data/i18n.js",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "data_i18n",
+      "target": "data_i18n_getlanguage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data/i18n.js",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "data_i18n",
+      "target": "data_i18n_listeners",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data/i18n.js",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "data_i18n",
+      "target": "data_i18n_setlanguage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data/i18n.js",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "data_i18n",
+      "target": "data_i18n_t",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data/i18n.js",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "data_i18n",
+      "target": "data_i18n_tcat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data/i18n.js",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "data_i18n",
+      "target": "data_i18n_togglelanguage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data/i18n.js",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "data_i18n",
+      "target": "data_i18n_uselanguage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data/i18n.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "data_i18n",
+      "target": "data_translations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data/i18n.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "data_i18n",
+      "target": "data_translations_translations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Home.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "pages_home",
+      "target": "data_i18n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Login.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "pages_login",
+      "target": "data_i18n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Product.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "pages_product",
+      "target": "data_i18n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Products.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "pages_products",
+      "target": "data_i18n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Schemes.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "pages_schemes",
+      "target": "data_i18n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Support.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "pages_support",
+      "target": "data_i18n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_ui",
+      "target": "data_i18n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data/i18n.js",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "data_i18n_setlanguage",
+      "target": "data_i18n_emit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data/i18n.js",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "data_i18n_togglelanguage",
+      "target": "data_i18n_setlanguage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/pages/Home.jsx",
+      "source_location": "L119",
+      "weight": 1.0,
+      "source": "pages_home_home",
+      "target": "data_i18n_t"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/pages/Login.jsx",
+      "source_location": "L161",
+      "weight": 1.0,
+      "source": "pages_login_login",
+      "target": "data_i18n_t"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/pages/Product.jsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "pages_product_featureboxes",
+      "target": "data_i18n_t"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/pages/Product.jsx",
+      "source_location": "L234",
+      "weight": 1.0,
+      "source": "pages_product_product",
+      "target": "data_i18n_t"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/pages/Products.jsx",
+      "source_location": "L126",
+      "weight": 1.0,
+      "source": "pages_products_products",
+      "target": "data_i18n_t"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/pages/Schemes.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "pages_schemes_schemes",
+      "target": "data_i18n_t"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/pages/Support.jsx",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "pages_support_dealerform",
+      "target": "data_i18n_t"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/pages/Support.jsx",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "pages_support_support",
+      "target": "data_i18n_t"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/ui.jsx",
+      "source_location": "L226",
+      "weight": 1.0,
+      "source": "src_ui_accountlink",
+      "target": "data_i18n_t"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/ui.jsx",
+      "source_location": "L298",
+      "weight": 1.0,
+      "source": "src_ui_footer",
+      "target": "data_i18n_t"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/ui.jsx",
+      "source_location": "L240",
+      "weight": 1.0,
+      "source": "src_ui_header",
+      "target": "data_i18n_t"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/pages/Product.jsx",
+      "source_location": "L236",
+      "weight": 1.0,
+      "source": "pages_product_product",
+      "target": "data_i18n_tcat"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/pages/Products.jsx",
+      "source_location": "L255",
+      "weight": 1.0,
+      "source": "pages_products_products",
+      "target": "data_i18n_tcat"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Home.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "pages_home",
+      "target": "data_i18n_uselanguage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/pages/Home.jsx",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "pages_home_home",
+      "target": "data_i18n_uselanguage"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Login.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "pages_login",
+      "target": "data_i18n_uselanguage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/pages/Login.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "pages_login_login",
+      "target": "data_i18n_uselanguage"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Product.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "pages_product",
+      "target": "data_i18n_uselanguage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/pages/Product.jsx",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "pages_product_product",
+      "target": "data_i18n_uselanguage"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Products.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "pages_products",
+      "target": "data_i18n_uselanguage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/pages/Products.jsx",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "pages_products_products",
+      "target": "data_i18n_uselanguage"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Schemes.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "pages_schemes",
+      "target": "data_i18n_uselanguage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/pages/Schemes.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "pages_schemes_schemes",
+      "target": "data_i18n_uselanguage"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Support.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "pages_support",
+      "target": "data_i18n_uselanguage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Support.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "pages_support_dealerform",
+      "target": "data_i18n_uselanguage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/pages/Support.jsx",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "pages_support_support",
+      "target": "data_i18n_uselanguage"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_ui",
+      "target": "data_i18n_uselanguage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui.jsx",
+      "source_location": "L207",
+      "weight": 1.0,
+      "source": "src_ui_accountlink",
+      "target": "data_i18n_uselanguage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/ui.jsx",
+      "source_location": "L291",
+      "weight": 1.0,
+      "source": "src_ui_footer",
+      "target": "data_i18n_uselanguage"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/ui.jsx",
+      "source_location": "L233",
+      "weight": 1.0,
+      "source": "src_ui_header",
+      "target": "data_i18n_uselanguage"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/ui.jsx",
+      "source_location": "L188",
+      "weight": 1.0,
+      "source": "src_ui_langtoggle",
+      "target": "data_i18n_uselanguage"
     },
     {
       "relation": "contains",
@@ -7278,6 +8207,16 @@
       "target": "data_site_issue_types"
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data/translations.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "data_translations",
+      "target": "data_translations_translations",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -7415,6 +8354,16 @@
       "source_file": "src/main.jsx",
       "source_location": "L13",
       "weight": 1.0,
+      "source": "src_main",
+      "target": "src_main_errorboundary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.jsx",
+      "source_location": "L13",
+      "weight": 1.0,
       "confidence_score": 1.0,
       "source": "src_main",
       "target": "src_main_scrollmanager"
@@ -7453,6 +8402,46 @@
       "target": "src_ui_header"
     },
     {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.jsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "src_main_errorboundary",
+      "target": "src_main_errorboundary_componentdidcatch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.jsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "src_main_errorboundary",
+      "target": "src_main_errorboundary_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.jsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "src_main_errorboundary",
+      "target": "src_main_errorboundary_getderivedstatefromerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.jsx",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "src_main_errorboundary",
+      "target": "src_main_errorboundary_render",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/pages/Home.jsx",
@@ -7471,6 +8460,16 @@
       "confidence_score": 1.0,
       "source": "pages_home",
       "target": "pages_home_home"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Home.jsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "pages_home",
+      "target": "pages_home_useautoscroll",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -7504,6 +8503,17 @@
       "confidence_score": 1.0,
       "source": "pages_home",
       "target": "src_ui_icon"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Home.jsx",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "pages_home_home",
+      "target": "pages_home_useautoscroll",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7551,16 +8561,6 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/pages/Product.jsx",
-      "source_location": "L25",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_product",
-      "target": "pages_product_inthebox"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/Product.jsx",
       "source_location": "L35",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -7571,11 +8571,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/pages/Product.jsx",
-      "source_location": "L33",
+      "source_location": "L26",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "pages_product",
-      "target": "pages_product_tabs"
+      "target": "pages_product_tab_items",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -7611,17 +8611,6 @@
       "target": "pages_product_featureboxes"
     },
     {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/Product.jsx",
-      "source_location": "L336",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_product_product",
-      "target": "pages_product_inthebox"
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/pages/Products.jsx",
@@ -7640,16 +8629,6 @@
       "confidence_score": 1.0,
       "source": "pages_products",
       "target": "pages_products_products"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/Products.jsx",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_products",
-      "target": "pages_products_sorts"
     },
     {
       "relation": "imports_from",
@@ -7684,16 +8663,6 @@
       "target": "pages_schemes_schemes"
     },
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/Schemes.jsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_schemes",
-      "target": "pages_schemes_tabs"
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -7719,6 +8688,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/pages/Support.jsx",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "pages_support",
+      "target": "pages_support_dealerfield",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Support.jsx",
       "source_location": "L123",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -7729,41 +8708,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/pages/Support.jsx",
-      "source_location": "L199",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_support",
-      "target": "pages_support_mat_tabs"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/Support.jsx",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_support",
-      "target": "pages_support_serviceform"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/Support.jsx",
       "source_location": "L201",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "pages_support",
       "target": "pages_support_support"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/Support.jsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_support",
-      "target": "pages_support_tickets"
     },
     {
       "relation": "imports_from",
@@ -7857,6 +8806,16 @@
       "confidence_score": 1.0,
       "source": "src_ui",
       "target": "src_ui_icon"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui.jsx",
+      "source_location": "L187",
+      "weight": 1.0,
+      "source": "src_ui",
+      "target": "src_ui_langtoggle",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9590,5 +10549,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "7e925a8ca813a67d4657a9373ce5fcfd02947013"
+  "built_at_commit": "6fd14553369c570c2e2c9e427db2de93facfecf9"
 }

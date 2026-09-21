@@ -1,128 +1,8 @@
 import { useState } from "react";
-import { COMPANY, ISSUE_TYPES, MATERIALS } from "../data/site";
+import { COMPANY } from "../data/site";
 import { Icon, EnquiryButtons } from "../ui";
-import { useProducts } from "../data/productsStore";
 import { useLanguage } from "../data/i18n";
-
-const TICKETS = [
-  { id: "SR-2418", model: "3B Carnival Plus Auto Tablet Hob", issue: "Spare part required", state: "Open", tone: "badge-warn", when: "Raised 2 days ago" },
-  { id: "SR-2402", model: "60 Dijon BLDC Chimney", issue: "Installation support", state: "Resolved", tone: "", when: "Closed 11 Sep 2026" },
-  { id: "SR-2377", model: "4B Magic Plus SS Gas Stove", issue: "Warranty claim", state: "Resolved", tone: "", when: "Closed 28 Aug 2026" },
-];
-
-function ServiceForm() {
-  const { t, tCat } = useLanguage();
-  const { products: PRODUCTS, categories: CATEGORIES } = useProducts();
-  const [v, setV] = useState({ product: "", issue: "", desc: "" });
-  const [errors, setErrors] = useState({});
-  const [sent, setSent] = useState(false);
-
-  const set = (k) => (e) => {
-    setV((s) => ({ ...s, [k]: e.target.value }));
-    setErrors((x) => ({ ...x, [k]: undefined }));
-  };
-
-  const submit = (e) => {
-    e.preventDefault();
-    const next = {};
-    if (!v.product) next.product = "Select the product the request is about.";
-    if (!v.issue) next.issue = "Select an issue type.";
-    if (v.desc.trim().length < 10) next.desc = "Describe the issue in a sentence or two.";
-    setErrors(next);
-    if (!Object.keys(next).length) setSent(true);
-  };
-
-  if (sent) {
-    return (
-      <div className="ok">
-        <Icon name="check" size={22} style={{ flex: "none", marginTop: 2 }} />
-        <div>
-          <h3 className="h3" style={{ fontSize: "1.05rem" }}>
-            {t("support_request_logged")}
-          </h3>
-          <p style={{ fontSize: "0.92rem", marginTop: 4 }}>
-            In the live site this creates a ticket and the service desk responds the same working day. This demo build
-            stores nothing — nothing was sent.
-          </p>
-          <button className="btn btn-ghost btn-sm" style={{ marginTop: "var(--s4)" }} onClick={() => setSent(false)}>
-            {t("support_raise_another")}
-          </button>
-        </div>
-      </div>
-    );
-  }
-
-  return (
-    <form className="stack" onSubmit={submit} noValidate>
-      <div className="field">
-        <label htmlFor="product">{t("support_product_label")}</label>
-        <select id="product" value={v.product} onChange={set("product")} aria-invalid={!!errors.product} aria-describedby={errors.product ? "e-product" : undefined}>
-          <option value="">{t("support_select_product")}</option>
-          {CATEGORIES.map((c) => (
-            <optgroup key={c.key} label={tCat(c.key, c.label)}>
-              {PRODUCTS.filter((p) => p.cat === c.key)
-                .slice(0, 14)
-                .map((p) => (
-                  <option key={p.id} value={p.name}>
-                    {p.name}
-                  </option>
-                ))}
-            </optgroup>
-          ))}
-        </select>
-        {errors.product && (
-          <span className="err" id="e-product">
-            {errors.product}
-          </span>
-        )}
-      </div>
-
-      <div className="field">
-        <label htmlFor="issue">{t("support_issue_type")}</label>
-        <select id="issue" value={v.issue} onChange={set("issue")} aria-invalid={!!errors.issue} aria-describedby={errors.issue ? "e-issue" : undefined}>
-          <option value="">{t("support_select_issue")}</option>
-          {ISSUE_TYPES.map((i) => (
-            <option key={i} value={i}>
-              {i}
-            </option>
-          ))}
-        </select>
-        {errors.issue && (
-          <span className="err" id="e-issue">
-            {errors.issue}
-          </span>
-        )}
-      </div>
-
-      <div className="field">
-        <label htmlFor="desc">{t("support_desc_label")}</label>
-        <textarea id="desc" rows="4" value={v.desc} onChange={set("desc")} placeholder={t("support_desc_placeholder")} aria-invalid={!!errors.desc} aria-describedby={errors.desc ? "e-desc" : undefined} />
-        {errors.desc && (
-          <span className="err" id="e-desc">
-            {errors.desc}
-          </span>
-        )}
-      </div>
-
-      <div className="field">
-        <label htmlFor="photos">
-          {t("support_upload_photos")} <span className="note">{t("support_optional")}</span>
-        </label>
-        <label className="dropzone" htmlFor="photos">
-          <Icon name="upload" size={20} />
-          <b style={{ fontSize: "0.9rem" }}>{t("support_add_photos")}</b>
-          <span className="note">{t("support_photos_hint")}</span>
-          <input id="photos" type="file" multiple accept="image/*" style={{ display: "none" }} />
-        </label>
-      </div>
-
-      <button className="btn btn-navy btn-block" type="submit">
-        {t("support_submit_btn")}
-      </button>
-      <p className="note">Demo form — submissions are not stored or sent.</p>
-    </form>
-  );
-}
+import UnderMaintenance from "../components/UnderMaintenance";
 
 function DealerForm() {
   const { t } = useLanguage();
@@ -203,64 +83,32 @@ function DealerField({ id, label, ph, type = "text", value, onChange, error }) {
   );
 }
 
-const MAT_TABS = ["Images", "Videos", "Brochures"];
-
 export default function Support() {
   const { t } = useLanguage();
-  const [tab, setTab] = useState("request");
-  const [matTab, setMatTab] = useState("Images");
 
   return (
     <>
+      {/* ---------- Service Support ---------- */}
       <section style={{ paddingTop: "var(--s6)" }}>
         <div className="wrap">
           <h1 className="d2">{t("support_title")}</h1>
           <p className="sub" style={{ marginTop: "var(--s2)" }}>
             {t("support_sub")}
           </p>
-
-          <div className="tabs" role="tablist" aria-label="Support view" style={{ marginTop: "var(--s5)" }}>
-            <button className="tab" role="tab" aria-selected={tab === "request"} onClick={() => setTab("request")}>
-              {t("support_tab_request")}
-            </button>
-            <button className="tab" role="tab" aria-selected={tab === "tickets"} onClick={() => setTab("tickets")}>
-              {t("support_tab_tickets")}
-            </button>
-          </div>
         </div>
       </section>
 
       <section className="sec">
         <div className="wrap">
           <div className="grid" style={{ gridTemplateColumns: "repeat(auto-fit,minmax(320px,1fr))", gap: "var(--s5)", alignItems: "start" }}>
-            <div className="card pad">
-              {tab === "request" ? (
-                <ServiceForm />
-              ) : (
-                <div className="stack" style={{ gap: "var(--s3)" }}>
-                  {TICKETS.map((t) => (
-                    <div
-                      key={t.id}
-                      style={{
-                        border: "1px solid var(--line)",
-                        borderRadius: "var(--r)",
-                        padding: "var(--s4)",
-                        display: "grid",
-                        gap: 6,
-                      }}
-                    >
-                      <div className="row" style={{ justifyContent: "space-between", gap: "var(--s3)" }}>
-                        <b style={{ fontSize: "0.9rem" }}>{t.id}</b>
-                        <span className={`badge ${t.tone}`}>{t.state}</span>
-                      </div>
-                      <b style={{ fontSize: "0.95rem" }}>{t.model}</b>
-                      <span className="muted small">{t.issue}</span>
-                      <span className="note">{t.when}</span>
-                    </div>
-                  ))}
-                  <p className="note">Sample tickets — the live list loads from the dealer account.</p>
-                </div>
-              )}
+            <div>
+              <UnderMaintenance
+                title={t("service_maintenance_title")}
+                description={t("service_maintenance_sub")}
+                showContact={false}
+                showBrowse={false}
+                compact={true}
+              />
             </div>
 
             <div className="stack" style={{ gap: "var(--s5)" }}>
@@ -301,34 +149,14 @@ export default function Support() {
         <div className="wrap">
           <div className="sec-head">
             <h2>{t("mat_title")}</h2>
-            <div className="tabs" role="tablist" aria-label="Material type">
-              {MAT_TABS.map((t) => (
-                <button key={t} className="tab" role="tab" aria-selected={matTab === t} onClick={() => setMatTab(t)}>
-                  {t}
-                </button>
-              ))}
-            </div>
           </div>
 
-          <div className="mats">
-            {MATERIALS.filter((m) => m.tab === matTab).map((m) => (
-              <a className="mat" key={m.title} href="#marketing" onClick={(e) => e.preventDefault()}>
-                <img src={m.img} alt="" loading="lazy" />
-                <span className="mat-foot">
-                  <span>
-                    <b>{m.title}</b>
-                    <span>{m.count}</span>
-                  </span>
-                  <span className="fab">
-                    <Icon name="arrowsm" size={15} />
-                  </span>
-                </span>
-              </a>
-            ))}
-          </div>
-          <p className="note" style={{ marginTop: "var(--s4)" }}>
-            Library counts are sample content for this demo build.
-          </p>
+          <UnderMaintenance
+            title={t("mat_maintenance_title")}
+            description={t("mat_maintenance_sub")}
+            showContact={true}
+            showBrowse={false}
+          />
         </div>
       </section>
 

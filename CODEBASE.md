@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-09-21T19:00:14.088Z
-> Total Project Files: 143
+> Last synchronized: 2026-09-21T19:30:57.532Z
+> Total Project Files: 144
 
 ---
 
@@ -54,16 +54,17 @@ $$\text{mrp} = \text{Label Rate (Printed MRP)} > \text{Selling Rate} > \text{Min
 ## 4. Codebase Directory Map
 
 ### 4.1 Pages (`src/pages/`)
-- **`src/pages/Home.jsx`** (8.0 KB)
+- **`src/pages/Home.jsx`** (12.2 KB)
 - **`src/pages/Login.jsx`** (23.3 KB)
 - **`src/pages/Product.jsx`** (18.4 KB)
-- **`src/pages/Products.jsx`** (13.3 KB)
-- **`src/pages/Schemes.jsx`** (6.4 KB)
-- **`src/pages/Support.jsx`** (13.4 KB)
+- **`src/pages/Products.jsx`** (12.4 KB)
+- **`src/pages/Schemes.jsx`** (0.8 KB)
+- **`src/pages/Support.jsx`** (6.3 KB)
 
 ### 4.2 Reusable Components (`src/components/` & `src/ui.jsx`)
 - **`src/components/PriceBlock.jsx`** (4.6 KB)
 - **`src/components/ProductCard.jsx`** (1.6 KB)
+- **`src/components/UnderMaintenance.jsx`** (2.1 KB)
 - **`src/ui.jsx`**: Core UI components (Header, Footer, Icon, Search, CategoryCarousel).
 
 ### 4.3 State & Business Logic (`src/data/`)
@@ -75,7 +76,7 @@ $$\text{mrp} = \text{Label Rate (Printed MRP)} > \text{Selling Rate} > \text{Min
 - **`src/data/productsStore.js`** (2.8 KB)
 - **`src/data/session.js`** (2.4 KB)
 - **`src/data/site.js`** (4.5 KB)
-- **`src/data/translations.js`** (24.3 KB)
+- **`src/data/translations.js`** (27.1 KB)
 
 ### 4.4 Zoho API & Serverless Handlers (`api/`)
 - **`api/dealer/apply.js`** (0.7 KB)

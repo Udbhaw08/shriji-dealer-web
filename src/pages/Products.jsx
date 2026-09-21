@@ -30,7 +30,7 @@ function Group({ title, options, value, onPick, className = "" }) {
 }
 
 export default function Products() {
-  const { products: PRODUCTS, categories: CATEGORIES, loaded, syncing, refresh } = useProducts();
+  const { products: PRODUCTS, categories: CATEGORIES, loaded } = useProducts();
   const { t, tCat } = useLanguage();
   const [params, setParams] = useSearchParams();
   const cat = params.get("cat") || "";
@@ -133,29 +133,10 @@ export default function Products() {
     <>
       <section style={{ paddingTop: "var(--s6)" }}>
         <div className="wrap">
-          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", flexWrap: "wrap", gap: "12px" }}>
-            <div>
-              <h1 className="d2">{t("catalog_title")}</h1>
-              <p className="sub" style={{ marginTop: "var(--s2)" }}>
-                {PRODUCTS.length > 0 ? t("live_models_across", { products: PRODUCTS.length, cats: CATEGORIES.length }) : t("connecting_zoho")}
-                {loaded && (
-                  <span style={{ marginLeft: "8px", fontSize: "0.8rem", color: "var(--blue-600, #2563eb)", fontWeight: 600 }}>
-                    ● Live Zoho Sync
-                  </span>
-                )}
-              </p>
-            </div>
-            <button
-              onClick={() => refresh()}
-              disabled={syncing}
-              className="btn btn-ghost"
-              style={{ padding: "6px 14px", fontSize: "0.85rem", gap: "6px", display: "inline-flex", alignItems: "center" }}
-              title="Fetch fresh items directly from Zoho Commerce"
-            >
-              <Icon name="bolt" size={14} style={{ animation: syncing ? "spin 1s linear infinite" : "none" }} />
-              {syncing ? t("syncing") : t("sync_zoho")}
-            </button>
-          </div>
+          <h1 className="d2">{t("catalog_title")}</h1>
+          <p className="sub" style={{ marginTop: "var(--s2)" }}>
+            {PRODUCTS.length > 0 ? t("live_models_across", { products: PRODUCTS.length, cats: CATEGORIES.length }) : t("connecting_zoho")}
+          </p>
         </div>
       </section>
 

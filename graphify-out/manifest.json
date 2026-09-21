@@ -55,8 +55,8 @@
     "semantic_hash": ""
   },
   "src/components/PriceBlock.jsx": {
-    "mtime": 1789938531.5777142,
-    "ast_hash": "f512fe07d7042ac3cce37e233bb664fd",
+    "mtime": 1790016613.082775,
+    "ast_hash": "b9c4d49fb91bd710b1a44751212519ca",
     "semantic_hash": ""
   },
   "src/components/ProductCard.jsx": {
@@ -100,43 +100,43 @@
     "semantic_hash": ""
   },
   "src/main.jsx": {
-    "mtime": 1789857696.556966,
-    "ast_hash": "75d4f68c8451b35c8ee4365a2451397d",
+    "mtime": 1790018627.9409914,
+    "ast_hash": "85257648c1d709c6ffb05bec3e2ffb0c",
     "semantic_hash": ""
   },
   "src/pages/Home.jsx": {
-    "mtime": 1789929002.118537,
-    "ast_hash": "23cf7c3704c2a4243a96b4013e4fea77",
+    "mtime": 1790019043.1116445,
+    "ast_hash": "bb62c03a73a80e054d9db2f786d866ba",
     "semantic_hash": ""
   },
   "src/pages/Login.jsx": {
-    "mtime": 1789930400.832284,
-    "ast_hash": "6bf4caa42319c23726fb65e551360988",
+    "mtime": 1790017003.5951128,
+    "ast_hash": "cc2e8cf4246523825df5a5a89cc5a564",
     "semantic_hash": ""
   },
   "src/pages/Product.jsx": {
-    "mtime": 1789988496.067654,
-    "ast_hash": "9715108c83cd11b0e771f3946b01a5de",
+    "mtime": 1790016790.1499784,
+    "ast_hash": "0338dc706cefd68c4cab4987bc77f83c",
     "semantic_hash": ""
   },
   "src/pages/Products.jsx": {
-    "mtime": 1789929026.2038867,
-    "ast_hash": "4fbb1076b99a3604202a00d52a274c0c",
+    "mtime": 1790017717.0853133,
+    "ast_hash": "46543cdb31f6fe129bdbcf3f4997e021",
     "semantic_hash": ""
   },
   "src/pages/Schemes.jsx": {
-    "mtime": 1789928959.8214288,
-    "ast_hash": "69cc5cf8e7879ed40c6d32a9986a8e56",
+    "mtime": 1790018737.6465693,
+    "ast_hash": "eefbe319381044b39d64fb4cc8d56c1b",
     "semantic_hash": ""
   },
   "src/pages/Support.jsx": {
-    "mtime": 1789928953.8492768,
-    "ast_hash": "4084c52c07aa90ba2133b50a718c509f",
+    "mtime": 1790018758.6860056,
+    "ast_hash": "6832b2293115269a6e954aeda53155e5",
     "semantic_hash": ""
   },
   "src/ui.jsx": {
-    "mtime": 1789857696.5584779,
-    "ast_hash": "45430390fb7c68b4bd191596a1c90402",
+    "mtime": 1790018636.6990676,
+    "ast_hash": "e5259c2f7be5a258f7d227384a0f1655",
     "semantic_hash": ""
   },
   "vercel.json": {
@@ -190,8 +190,8 @@
     "semantic_hash": ""
   },
   "CODEBASE.md": {
-    "mtime": 1789992016.3409534,
-    "ast_hash": "e2624154fef1a92a7ab9c20bc085ac0d",
+    "mtime": 1790019057.533121,
+    "ast_hash": "a018e0abc25ceed1a634d54850fbb849",
     "semantic_hash": ""
   },
   "PRD.md": {
@@ -317,6 +317,21 @@
   "GEMINI.md": {
     "mtime": 1789991996.2611837,
     "ast_hash": "9d151752ff3dedc90f9b810ac3e91dab",
+    "semantic_hash": ""
+  },
+  "src/components/UnderMaintenance.jsx": {
+    "mtime": 1790018707.6073039,
+    "ast_hash": "4541f2061cb646aa1c0e70d2ca615487",
+    "semantic_hash": ""
+  },
+  "src/data/i18n.js": {
+    "mtime": 1790016538.33968,
+    "ast_hash": "1d91f9832bffa0797c20374d07523092",
+    "semantic_hash": ""
+  },
+  "src/data/translations.js": {
+    "mtime": 1790018725.9820445,
+    "ast_hash": "7109cd251e2fc63c88231e7a642c0a49",
     "semantic_hash": ""
   }
 }

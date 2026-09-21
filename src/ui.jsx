@@ -232,7 +232,9 @@ export function Header() {
   const [open, setOpen] = useState(false);
   const { t } = useLanguage();
   const { pathname, hash } = useLocation();
-  useEffect(() => setOpen(false), [pathname, hash]);
+  useEffect(() => {
+    setOpen(false);
+  }, [pathname, hash]);
 
   const navLabels = {
     "/": t("nav_home"),

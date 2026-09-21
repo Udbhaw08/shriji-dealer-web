@@ -149,6 +149,15 @@ export const TRANSLATIONS = {
     price_list_download: "Download",
     price_list_format: "PDF · dealer pricing, all live models",
 
+    // Under Maintenance
+    under_maintenance_badge: "Under Maintenance",
+    schemes_maintenance_title: "Dealer Schemes Under Maintenance",
+    schemes_maintenance_sub: "Our quarterly incentive schemes, trade slab benefits, and eligible model lists are currently being updated. Please contact the distribution desk directly for ongoing scheme rates.",
+    service_maintenance_title: "Service Support Portal Under Maintenance",
+    service_maintenance_sub: "The online service ticket desk is currently undergoing scheduled maintenance. For warranty assistance, spare parts, or technician visits, please contact us directly via WhatsApp or phone.",
+    mat_maintenance_title: "Marketing Material Under Maintenance",
+    mat_maintenance_sub: "New 2026 high-resolution catalogues, digital creatives, and brand assets are being synchronized. Please reach out to your account manager for immediate marketing collateral.",
+
     // Support Page
     support_title: "Service Support",
     support_sub: "Raise a request against any model in the range and track it to closure.",
@@ -360,6 +369,15 @@ export const TRANSLATIONS = {
     price_lists_dealer_sub: "अपने डीलर खाते से साइन इन करें या आवेदन करें, श्रीजी टीम इसे स्वीकृत करेगी।",
     price_list_download: "डाउनलोड",
     price_list_format: "पीडीएफ · डीलर मूल्य, सभी लाइव मॉडल",
+
+    // Under Maintenance
+    under_maintenance_badge: "रखरखाव जारी है (Under Maintenance)",
+    schemes_maintenance_title: "डीलर स्कीम्स वर्तमान में रखरखाव में हैं",
+    schemes_maintenance_sub: "हमारी त्रैमासिक प्रोत्साहन योजनाएं, ट्रेड स्लैब लाभ और पात्र मॉडल्स की सूची वर्तमान में अपडेट की जा रही है। सक्रिय स्कीमों की जानकारी के लिए कृपया वितरक डेस्क से सीधे संपर्क करें।",
+    service_maintenance_title: "सर्विस एवं सहायता पोर्टल रखरखाव में है",
+    service_maintenance_sub: "ऑनलाइन सर्विस टिकट डेस्क वर्तमान में निर्धारित रखरखाव से गुजर रही है। वारंटी सहायता, स्पेयर पार्ट्स या तकनीशियन सहायता के लिए कृपया व्हाट्सएप या फोन द्वारा सीधे संपर्क करें।",
+    mat_maintenance_title: "मार्केटिंग सामग्री रखरखाव में है",
+    mat_maintenance_sub: "नए 2026 उच्च-रिज़ॉल्यूशन कैटलॉग, डिजिटल क्रिएटिव और ब्रांड सामग्री सिंक्रनाइज़ की जा रही है। तत्काल मार्केटिंग सामग्री के लिए कृपया संपर्क करें।",
 
     // Support Page
     support_title: "सर्विस एवं सहायता",

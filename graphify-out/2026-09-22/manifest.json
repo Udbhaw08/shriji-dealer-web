@@ -1,0 +1,322 @@
+{
+  ".oxlintrc.json": {
+    "mtime": 1789682547.107423,
+    "ast_hash": "5e6e3cea3e89137071c142dd7835b0ef",
+    "semantic_hash": ""
+  },
+  "api/dealer/apply.js": {
+    "mtime": 1789926692.1454,
+    "ast_hash": "045b3edac6a657c3934ef39d2d273ec0",
+    "semantic_hash": ""
+  },
+  "api/dealer/info.js": {
+    "mtime": 1789926697.8985538,
+    "ast_hash": "4fbbfa735525397a6ce717d8ea0d7e0a",
+    "semantic_hash": ""
+  },
+  "api/dealer/login.js": {
+    "mtime": 1789926686.3058317,
+    "ast_hash": "1ea34f6d524c14e4d6fbd5a0ca9ff3df",
+    "semantic_hash": ""
+  },
+  "api/products/[id].js": {
+    "mtime": 1789988727.891024,
+    "ast_hash": "c865147dadb4aecfac47c0708ee5216c",
+    "semantic_hash": ""
+  },
+  "api/products/index.js": {
+    "mtime": 1789988721.7689037,
+    "ast_hash": "45725fcdffdf737464e9fcba842d8c2c",
+    "semantic_hash": ""
+  },
+  "api/zoho.js": {
+    "mtime": 1789992614.7198944,
+    "ast_hash": "597aa273d86e6454c315e9b785dcff8c",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1789992003.173607,
+    "ast_hash": "2c0cbd6da14bccd5303493bda5c17912",
+    "semantic_hash": ""
+  },
+  "scripts/audit_prices.mjs": {
+    "mtime": 1789938466.3297575,
+    "ast_hash": "6a751b5a59425cbdc8d53d90885f48d4",
+    "semantic_hash": ""
+  },
+  "scripts/generate-codebase-doc.mjs": {
+    "mtime": 1789988924.740681,
+    "ast_hash": "0799555d7e8f0e400bf665c0e562ed72",
+    "semantic_hash": ""
+  },
+  "scripts/test-zoho-api.mjs": {
+    "mtime": 1789992630.1203096,
+    "ast_hash": "90afb48a2dada31699c3ae44b4d34831",
+    "semantic_hash": ""
+  },
+  "src/components/PriceBlock.jsx": {
+    "mtime": 1789938531.5777142,
+    "ast_hash": "f512fe07d7042ac3cce37e233bb664fd",
+    "semantic_hash": ""
+  },
+  "src/components/ProductCard.jsx": {
+    "mtime": 1789988471.112991,
+    "ast_hash": "081d745e0538fd1674df22c3db8000ab",
+    "semantic_hash": ""
+  },
+  "src/data/dealer.js": {
+    "mtime": 1789989167.1420293,
+    "ast_hash": "a531187cef7644312e7e13177199f7f4",
+    "semantic_hash": ""
+  },
+  "src/data/dealer.test.mjs": {
+    "mtime": 1789928941.9218762,
+    "ast_hash": "be6f6cfcc2e771f21f888206db798493",
+    "semantic_hash": ""
+  },
+  "src/data/pricing.test.mjs": {
+    "mtime": 1789989150.4299767,
+    "ast_hash": "f975927c21ae6e612efaac03206b357f",
+    "semantic_hash": ""
+  },
+  "src/data/products.js": {
+    "mtime": 1789928923.614965,
+    "ast_hash": "301af52f4bc20510678b274c3c69b0e2",
+    "semantic_hash": ""
+  },
+  "src/data/productsStore.js": {
+    "mtime": 1789928988.8450594,
+    "ast_hash": "2dfd9e24be20ca3bb29cd02dcedd216d",
+    "semantic_hash": ""
+  },
+  "src/data/session.js": {
+    "mtime": 1789930162.903967,
+    "ast_hash": "a2f981be0be552b831dba395f9defc75",
+    "semantic_hash": ""
+  },
+  "src/data/site.js": {
+    "mtime": 1789683629.182459,
+    "ast_hash": "61b0bd9987fafd16e390390104f4ee3d",
+    "semantic_hash": ""
+  },
+  "src/main.jsx": {
+    "mtime": 1789857696.556966,
+    "ast_hash": "75d4f68c8451b35c8ee4365a2451397d",
+    "semantic_hash": ""
+  },
+  "src/pages/Home.jsx": {
+    "mtime": 1789929002.118537,
+    "ast_hash": "23cf7c3704c2a4243a96b4013e4fea77",
+    "semantic_hash": ""
+  },
+  "src/pages/Login.jsx": {
+    "mtime": 1789930400.832284,
+    "ast_hash": "6bf4caa42319c23726fb65e551360988",
+    "semantic_hash": ""
+  },
+  "src/pages/Product.jsx": {
+    "mtime": 1789988496.067654,
+    "ast_hash": "9715108c83cd11b0e771f3946b01a5de",
+    "semantic_hash": ""
+  },
+  "src/pages/Products.jsx": {
+    "mtime": 1789929026.2038867,
+    "ast_hash": "4fbb1076b99a3604202a00d52a274c0c",
+    "semantic_hash": ""
+  },
+  "src/pages/Schemes.jsx": {
+    "mtime": 1789928959.8214288,
+    "ast_hash": "69cc5cf8e7879ed40c6d32a9986a8e56",
+    "semantic_hash": ""
+  },
+  "src/pages/Support.jsx": {
+    "mtime": 1789928953.8492768,
+    "ast_hash": "4084c52c07aa90ba2133b50a718c509f",
+    "semantic_hash": ""
+  },
+  "src/ui.jsx": {
+    "mtime": 1789857696.5584779,
+    "ast_hash": "45430390fb7c68b4bd191596a1c90402",
+    "semantic_hash": ""
+  },
+  "vercel.json": {
+    "mtime": 1789926704.1227708,
+    "ast_hash": "690b9a1ea71c8b84841855540822a3b2",
+    "semantic_hash": ""
+  },
+  "vite.config.js": {
+    "mtime": 1789988709.6382813,
+    "ast_hash": "e0e5b1d9eec2bf66b67dae383a651f04",
+    "semantic_hash": ""
+  },
+  ".agents/rules/graphify.md": {
+    "mtime": 1789991990.338364,
+    "ast_hash": "488077196afed8efa7d18b48ebd19f6d",
+    "semantic_hash": ""
+  },
+  ".agents/skills/shriji-pricing-and-roles/SKILL.md": {
+    "mtime": 1789991226.099891,
+    "ast_hash": "c39c98dea2bbd3fcab4779153c06d2da",
+    "semantic_hash": ""
+  },
+  ".agents/skills/shriji-responsive-ui/SKILL.md": {
+    "mtime": 1789991218.2923667,
+    "ast_hash": "c07b113dac8ae001c030c77760f3d2f2",
+    "semantic_hash": ""
+  },
+  ".agents/skills/shriji-testing-and-workflow/SKILL.md": {
+    "mtime": 1789991231.7912915,
+    "ast_hash": "afbdb8a40117433c7be65a3158b209c6",
+    "semantic_hash": ""
+  },
+  ".agents/skills/shriji-zoho-integration/SKILL.md": {
+    "mtime": 1789991211.9128902,
+    "ast_hash": "0a6b91850e3ee33ac43f4f8f71129700",
+    "semantic_hash": ""
+  },
+  ".agents/workflows/graphify.md": {
+    "mtime": 1789991706.8099246,
+    "ast_hash": "637776aa6f7496d069afe7520c845c8a",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1789991801.8834975,
+    "ast_hash": "b4c88d0c82d96feef06893f28e1c071b",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1789991808.544361,
+    "ast_hash": "049d94da0545f3d0394086456dc384ae",
+    "semantic_hash": ""
+  },
+  "CODEBASE.md": {
+    "mtime": 1789992016.3409534,
+    "ast_hash": "e2624154fef1a92a7ab9c20bc085ac0d",
+    "semantic_hash": ""
+  },
+  "PRD.md": {
+    "mtime": 1789857885.6009388,
+    "ast_hash": "44d9ec2bd36fb3f5f41cf17c4850d9a9",
+    "semantic_hash": ""
+  },
+  "PRODUCT.md": {
+    "mtime": 1789856026.7262936,
+    "ast_hash": "ee9bd1e2cb17ee50b912f69e01ba6415",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1789857885.5999382,
+    "ast_hash": "cc8eb91947159d30e285ab1feb16facb",
+    "semantic_hash": ""
+  },
+  "docs/DESIGN.md": {
+    "mtime": 1789855914.0106182,
+    "ast_hash": "9820bfb74da7d692147892bb739d04e0",
+    "semantic_hash": ""
+  },
+  "docs/PRICING-ARCHITECTURE.md": {
+    "mtime": 1789938651.5772204,
+    "ast_hash": "266229ecd91bbfd830917027de409d3d",
+    "semantic_hash": ""
+  },
+  "docs/PRODUCT-PAGES.md": {
+    "mtime": 1789857914.4470172,
+    "ast_hash": "3338a56d11207f9e7b073af7753c8ad8",
+    "semantic_hash": ""
+  },
+  "docs/ROLES-AND-SHARING.md": {
+    "mtime": 1789857843.738059,
+    "ast_hash": "d6d031a57ca8019ed78f4ce4a7665e32",
+    "semantic_hash": ""
+  },
+  "docs/ZOHO-INTEGRATION.md": {
+    "mtime": 1789938660.2299867,
+    "ast_hash": "d8611d70d5a958252761e3a75f4e91ac",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1789683797.5129244,
+    "ast_hash": "4cc53c7f4ea1d647381ac44c800c9e33",
+    "semantic_hash": ""
+  },
+  "mobile ref.jpeg": {
+    "mtime": 1789854616.5372598,
+    "ast_hash": "60bf188e3db4861a70855162310ad544",
+    "semantic_hash": ""
+  },
+  "public/favicon.svg": {
+    "mtime": 1789682547.115115,
+    "ast_hash": "7e840862161341271697daa99a40d76b",
+    "semantic_hash": ""
+  },
+  "public/icons.svg": {
+    "mtime": 1789682547.1171334,
+    "ast_hash": "3b4fcfcf393eca4d264dca4a4663bc37",
+    "semantic_hash": ""
+  },
+  "public/img/cat-chimneys.webp": {
+    "mtime": 1789682656.6470306,
+    "ast_hash": "e1f5e7456b3348d540471075d2dd4fd9",
+    "semantic_hash": ""
+  },
+  "public/img/cat-gas_stoves.webp": {
+    "mtime": 1789682656.9912553,
+    "ast_hash": "902be9b36416b4eee76f5638732a4260",
+    "semantic_hash": ""
+  },
+  "public/img/cat-hob_tops.webp": {
+    "mtime": 1789682657.2398717,
+    "ast_hash": "e35a80a68978f26c1180d172358757d3",
+    "semantic_hash": ""
+  },
+  "public/img/cat-hobs.webp": {
+    "mtime": 1789682657.5285287,
+    "ast_hash": "415b69828929a838413e02f19757c4a5",
+    "semantic_hash": ""
+  },
+  "public/img/cat-small_appliances.webp": {
+    "mtime": 1789682657.7674952,
+    "ast_hash": "861856bb1b4bdeb43e5104f5d0404624",
+    "semantic_hash": ""
+  },
+  "public/img/logo-alt.png": {
+    "mtime": 1789682630.8990362,
+    "ast_hash": "628f282c123973b38ec08763d3464072",
+    "semantic_hash": ""
+  },
+  "public/img/logo.png": {
+    "mtime": 1789682630.6162465,
+    "ast_hash": "179ce36f8c07cc731c82b86acbf9f516",
+    "semantic_hash": ""
+  },
+  "src/assets/hero.png": {
+    "mtime": 1789682547.1273108,
+    "ast_hash": "aead493361b27e7510691c5d7072dfc1",
+    "semantic_hash": ""
+  },
+  "src/assets/vite.svg": {
+    "mtime": 1789682547.1337776,
+    "ast_hash": "9960a24288958394ac50e57ff638b036",
+    "semantic_hash": ""
+  },
+  "web ref.jpeg": {
+    "mtime": 1789854439.0005178,
+    "ast_hash": "572396f3b02a12d3bf7a52951a5e3f3c",
+    "semantic_hash": ""
+  },
+  ".agents/skills/graphify/SKILL.md": {
+    "mtime": 1789991795.8748198,
+    "ast_hash": "c928f770078240b1d76295b2a1bebc8f",
+    "semantic_hash": ""
+  },
+  "scripts/build_wiki.py": {
+    "mtime": 1789991965.2657118,
+    "ast_hash": "7d061495e96de218733d672403b07fed",
+    "semantic_hash": ""
+  },
+  "GEMINI.md": {
+    "mtime": 1789991996.2611837,
+    "ast_hash": "9d151752ff3dedc90f9b810ac3e91dab",
+    "semantic_hash": ""
+  }
+}
