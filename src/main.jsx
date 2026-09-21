@@ -1,6 +1,7 @@
 import { StrictMode, useEffect } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 import "./styles.css";
 import { Header, Footer } from "./ui";
 import Home from "./pages/Home";
@@ -40,6 +41,7 @@ createRoot(document.getElementById("root")).render(
         </Routes>
       </main>
       <Footer />
+      <Analytics />
     </BrowserRouter>
   </StrictMode>,
 );
