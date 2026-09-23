@@ -1,16 +1,16 @@
-# Graph Report - Webstore  (2026-09-22)
+# Graph Report - Webstore  (2026-09-23)
 
 ## Corpus Check
-- 54 files · ~60,672 words
+- 57 files · ~237,377 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 406 nodes · 653 edges · 31 communities (28 shown, 3 thin omitted)
-- Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
+- 418 nodes · 708 edges · 32 communities (29 shown, 3 thin omitted)
+- Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `1329344e`
+- Built from commit: `e356a4bb`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -48,15 +48,15 @@
 
 ## God Nodes (most connected - your core abstractions)
 1. `useLanguage()` - 28 edges
-2. `t()` - 17 edges
-3. `isDealer()` - 13 edges
-4. `useSession()` - 13 edges
-5. `Product` - 12 edges
-6. `fetchZohoWithRetry()` - 11 edges
-7. `getZohoConfig()` - 11 edges
-8. `ProductCard()` - 11 edges
-9. `priceFor()` - 11 edges
-10. `Icon()` - 11 edges
+2. `useSession()` - 19 edges
+3. `t()` - 18 edges
+4. `isDealer()` - 15 edges
+5. `Product()` - 14 edges
+6. `priceFor()` - 13 edges
+7. `Icon()` - 13 edges
+8. `Product` - 12 edges
+9. `fetchZohoWithRetry()` - 11 edges
+10. `getZohoConfig()` - 11 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `run()` --calls--> `fetchZohoProducts()`  [EXTRACTED]
@@ -73,11 +73,11 @@
 ## Import Cycles
 - None detected.
 
-## Communities (31 total, 3 thin omitted)
+## Communities (32 total, 3 thin omitted)
 
 ### Community 0 - "Dealer Auth & Session Management"
-Cohesion: 0.10
-Nodes (44): MobileBottomNav(), ProductCard(), UnderMaintenance(), dealerById(), isDealer(), tagFor(), viewerFor(), currentLang (+36 more)
+Cohesion: 0.08
+Nodes (65): HeroSlider(), STORE_BANNERS, MobileBottomNav(), CustomerPrice(), DealerPrice(), PriceBlock(), ProductCard(), UnderMaintenance() (+57 more)
 
 ### Community 1 - "Price Presentation & Product UI"
 Cohesion: 0.40
@@ -108,8 +108,8 @@ Cohesion: 0.11
 Nodes (17): 10. Conventions worth knowing, 1. What this is, 2. Who uses it, 3. Scope, 4. Stack, 5. The pricing model — the core business rule, 6. Data, 7. Evidence ledger — what is verified vs. what is sample (+9 more)
 
 ### Community 8 - "Pricing Regression Test Suite"
-Cohesion: 0.08
-Nodes (31): CustomerPrice(), DealerPrice(), PriceBlock(), BAND, DEALERS, inr(), price99(), priceFor() (+23 more)
+Cohesion: 0.12
+Nodes (16): crystal, crystalDealer, crystalGuest, genericDealer, genericGuest, genericItem, kettle, kettleDealer (+8 more)
 
 ### Community 9 - "Zoho Integration Architecture"
 Cohesion: 0.12
@@ -176,32 +176,32 @@ Cohesion: 0.40
 Nodes (4): Automatic Codebase Context & Knowledge Graph Protocol, Rule 1: Mandatory Knowledge Graph Lookup (Never Blindly Read Files), Rule 2: Precision File Viewing, Rule 3: Keep Graph Fresh After Modifying Code
 
 ### Community 27 - "Graphify Agent Rules"
-Cohesion: 0.24
-Nodes (9): CATEGORIES, PRODUCTS, emit(), fetchLiveProducts(), listeners, loadCached(), sanitizeCategories(), storeState (+1 more)
+Cohesion: 0.21
+Nodes (10): CATEGORIES, PRODUCTS, emit(), fetchLiveProducts(), listeners, loadCached(), PREFERRED_ORDER, sanitizeCategories() (+2 more)
 
 ### Community 28 - "Graphify Workflow"
 Cohesion: 0.22
 Nodes (8): 1. Query the Graph (Context-Efficient), 2. Trace Relationships (Shortest Path), 3. Explain a Node or Symbol, 4. Update the Graph (AST Re-Extraction), Graphify Knowledge Graph Skill, Key Output Artifacts in `graphify-out/`, Primary Commands, Why Use Graphify
 
 ## Knowledge Gaps
-- **213 isolated node(s):** `$schema`, `plugins`, `react/rules-of-hooks`, `react/only-export-components`, `localCacheFile` (+208 more)
+- **215 isolated node(s):** `$schema`, `plugins`, `react/rules-of-hooks`, `react/only-export-components`, `localCacheFile` (+210 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `useLanguage()` connect `Dealer Auth & Session Management` to `Pricing Regression Test Suite`?**
+- **Why does `priceFor()` connect `Dealer Auth & Session Management` to `Pricing Regression Test Suite`?**
   _High betweenness centrality (0.007) - this node is a cross-community bridge._
 - **Why does `ErrorBoundary` connect `Community 30` to `Dealer Auth & Session Management`?**
   _High betweenness centrality (0.006) - this node is a cross-community bridge._
-- **Why does `priceFor()` connect `Pricing Regression Test Suite` to `Dealer Auth & Session Management`?**
-  _High betweenness centrality (0.006) - this node is a cross-community bridge._
 - **What connects `$schema`, `plugins`, `react/rules-of-hooks` to the rest of the system?**
-  _213 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _215 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Dealer Auth & Session Management` be split into smaller, more focused modules?**
-  _Cohesion score 0.10317460317460317 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._
 - **Should `Zoho Backend & Proxy Endpoints` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
 - **Should `Dependencies & Package Config` be split into smaller, more focused modules?**
   _Cohesion score 0.08695652173913043 - nodes in this community are weakly interconnected._
+- **Should `Product Pages Specification` be split into smaller, more focused modules?**
+  _Cohesion score 0.1 - nodes in this community are weakly interconnected._

@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-09-21T20:09:36.290Z
-> Total Project Files: 163
+> Last synchronized: 2026-09-23T01:20:07.678Z
+> Total Project Files: 192
 
 ---
 
@@ -42,42 +42,42 @@ $$\text{mrp} = \text{Label Rate (Printed MRP)} > \text{Selling Rate} > \text{Min
 | Route Path | Component | Description |
 |---|---|---|
 | `/` | `Home` | Direct application route |
-| `/products` | `Products` | Direct application route |
 | `/products/:id` | `Product` | Direct application route |
-| `/schemes` | `Schemes` | Direct application route |
 | `/support` | `Support` | Direct application route |
 | `/login` | `Login` | Direct application route |
-| `*` | `Product` | Direct application route |
+| `*` | `Navigate` | Direct application route |
 
 ---
 
 ## 4. Codebase Directory Map
 
 ### 4.1 Pages (`src/pages/`)
-- **`src/pages/Home.jsx`** (13.3 KB)
-- **`src/pages/Login.jsx`** (22.6 KB)
-- **`src/pages/Product.jsx`** (23.4 KB)
+- **`src/pages/Home.jsx`** (13.8 KB)
+- **`src/pages/Login.jsx`** (23.7 KB)
+- **`src/pages/Product.jsx`** (25.3 KB)
 - **`src/pages/Products.jsx`** (12.5 KB)
-- **`src/pages/Schemes.jsx`** (0.8 KB)
-- **`src/pages/Support.jsx`** (6.3 KB)
+- **`src/pages/Schemes.jsx`** (7.4 KB)
+- **`src/pages/Support.jsx`** (4.7 KB)
 
 ### 4.2 Reusable Components (`src/components/` & `src/ui.jsx`)
-- **`src/components/MobileBottomNav.jsx`** (2.8 KB)
-- **`src/components/PriceBlock.jsx`** (4.8 KB)
+- **`src/components/HeroSlider.jsx`** (5.8 KB)
+- **`src/components/MobileBottomNav.jsx`** (3.3 KB)
+- **`src/components/PriceBlock.jsx`** (5.1 KB)
 - **`src/components/ProductCard.jsx`** (2.9 KB)
 - **`src/components/UnderMaintenance.jsx`** (2.1 KB)
 - **`src/ui.jsx`**: Core UI components (Header, Footer, Icon, Search, CategoryCarousel).
 
 ### 4.3 State & Business Logic (`src/data/`)
-- **`src/data/dealer.js`** (5.0 KB)
+- **`src/data/dealer.js`** (7.0 KB)
 - **`src/data/dealer.test.mjs`** (3.1 KB)
 - **`src/data/i18n.js`** (1.7 KB)
+- **`src/data/portalGate.js`** (0.8 KB)
 - **`src/data/pricing.test.mjs`** (4.2 KB)
 - **`src/data/products.js`** (1.1 KB)
-- **`src/data/productsStore.js`** (3.2 KB)
+- **`src/data/productsStore.js`** (3.5 KB)
 - **`src/data/session.js`** (2.4 KB)
-- **`src/data/site.js`** (4.4 KB)
-- **`src/data/translations.js`** (28.3 KB)
+- **`src/data/site.js`** (4.5 KB)
+- **`src/data/translations.js`** (28.5 KB)
 
 ### 4.4 Zoho API & Serverless Handlers (`api/`)
 - **`api/dealer/apply.js`** (0.7 KB)
@@ -85,12 +85,13 @@ $$\text{mrp} = \text{Label Rate (Printed MRP)} > \text{Selling Rate} > \text{Min
 - **`api/dealer/login.js`** (0.8 KB)
 - **`api/products/index.js`** (0.9 KB)
 - **`api/products/[id].js`** (0.8 KB)
-- **`api/zoho.js`** (18.7 KB)
+- **`api/zoho.js`** (19.1 KB)
 
 ### 4.5 Automation & Utility Scripts (`scripts/`)
 - **`scripts/audit_prices.mjs`** (3.8 KB)
 - **`scripts/generate-codebase-doc.mjs`** (6.5 KB)
 - **`scripts/get-refresh-token.mjs`** (2.3 KB)
+- **`scripts/make-scheme-pdfs.mjs`** (2.2 KB)
 - **`scripts/test-zoho-api.mjs`** (1.4 KB)
 
 ---

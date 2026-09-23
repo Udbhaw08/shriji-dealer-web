@@ -517,6 +517,16 @@ export async function fetchZohoCategories({ refresh = false } = {}) {
       img: `/img/cat-${slugifyCategory(c.name)}.webp`,
     }));
 
+  const PREFERRED_ORDER = ["hob_tops", "gas_stoves", "hobs", "chimneys", "small_appliances"];
+  categories.sort((a, b) => {
+    const ai = PREFERRED_ORDER.indexOf(a.key);
+    const bi = PREFERRED_ORDER.indexOf(b.key);
+    if (ai !== -1 && bi !== -1) return ai - bi;
+    if (ai !== -1) return -1;
+    if (bi !== -1) return 1;
+    return 0;
+  });
+
   cachedCategories = categories;
   return categories;
 }

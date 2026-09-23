@@ -1,6 +1,6 @@
 # useLanguage()
 
-> God node · 26 connections · `src/data/i18n.js`
+> God node · 28 connections · `src/data/i18n.js`
 
 **Community:** [[Dealer Auth & Session Management]]
 
@@ -9,17 +9,18 @@
 ### calls
 - [[ProductCard()]] `EXTRACTED`
 - [[Product()]] `EXTRACTED`
+- [[Home()]] `EXTRACTED`
 - [[Products()]] `EXTRACTED`
 - [[CustomerPrice()]] `EXTRACTED`
-- [[Home()]] `EXTRACTED`
 - [[Login()]] `EXTRACTED`
 - [[Schemes()]] `EXTRACTED`
 - [[AccountLink()]] `EXTRACTED`
+- [[Header()]] `EXTRACTED`
 - [[DealerPrice()]] `EXTRACTED`
 - [[UnderMaintenance()]] `EXTRACTED`
+- [[MobileBottomNav()]] `EXTRACTED`
 - [[Support()]] `EXTRACTED`
 - [[Footer()]] `EXTRACTED`
-- [[Header()]] `EXTRACTED`
 - [[DealerForm()]] `EXTRACTED`
 - [[LangToggle()]] `EXTRACTED`
 
@@ -36,6 +37,7 @@
 - [[Support.jsx]] `EXTRACTED`
 - [[PriceBlock.jsx]] `EXTRACTED`
 - [[Schemes.jsx]] `EXTRACTED`
+- [[MobileBottomNav.jsx]] `EXTRACTED`
 - [[UnderMaintenance.jsx]] `EXTRACTED`
 
 ---

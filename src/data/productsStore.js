@@ -3,6 +3,8 @@ import { CATEGORIES as INITIAL_CATEGORIES } from "./products";
 
 const CACHE_KEY = "shriji.zoho.products.v2";
 
+const PREFERRED_ORDER = ["hob_tops", "gas_stoves", "hobs", "chimneys", "small_appliances"];
+
 function sanitizeCategories(cats) {
   if (!Array.isArray(cats)) return INITIAL_CATEGORIES;
   const filtered = cats.filter(
@@ -12,7 +14,15 @@ function sanitizeCategories(cats) {
       c.key !== "all" &&
       c.label?.trim().toLowerCase() !== "all products"
   );
-  return filtered.length > 0 ? filtered : INITIAL_CATEGORIES;
+  const list = filtered.length > 0 ? filtered : INITIAL_CATEGORIES;
+  return [...list].sort((a, b) => {
+    const ai = PREFERRED_ORDER.indexOf(a.key);
+    const bi = PREFERRED_ORDER.indexOf(b.key);
+    if (ai !== -1 && bi !== -1) return ai - bi;
+    if (ai !== -1) return -1;
+    if (bi !== -1) return 1;
+    return 0;
+  });
 }
 
 function loadCached() {

@@ -2,9 +2,10 @@ import { Link, useLocation } from "react-router-dom";
 import { Icon } from "../ui";
 import { COMPANY } from "../data/site";
 import { useLanguage } from "../data/i18n";
+import { dealerById } from "../data/dealer";
 
 export default function MobileBottomNav() {
-  const { pathname } = useLocation();
+  const { pathname, search } = useLocation();
   const { t } = useLanguage();
 
   const isHome = pathname === "/";
@@ -12,7 +13,15 @@ export default function MobileBottomNav() {
   const isSchemes = pathname.startsWith("/schemes");
   const isMore = pathname.startsWith("/support") || pathname.startsWith("/login");
 
-  const phoneTel = COMPANY.phone.replace(/[^0-9+]/g, "");
+  const params = new URLSearchParams(search);
+  const fromId = params.get("from");
+  const dPhone = params.get("phone") || params.get("dealerPhone");
+  const dName = params.get("name") || params.get("dealerName");
+  const sharedDealer = fromId ? dealerById(fromId) : null;
+
+  const displayPhone = dPhone || sharedDealer?.phone || COMPANY.phone;
+  const displayLabel = dName || sharedDealer?.name ? `Call ${dName || sharedDealer?.name}` : "Call for Details";
+  const phoneTel = displayPhone.replace(/[^0-9+]/g, "");
 
   return (
     <nav className="mobile-bottom-nav" aria-label="Mobile Navigation">

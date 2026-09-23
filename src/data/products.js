@@ -1,6 +1,12 @@
 // Live catalog is fetched dynamically from Zoho Commerce API via /api/products.
 export const CATEGORIES = [
   {
+    key: "hob_tops",
+    label: "Hob Tops",
+    code: "HT",
+    img: "/img/cat-hob_tops.webp",
+  },
+  {
     key: "gas_stoves",
     label: "Gas Stoves",
     code: "GS",
@@ -11,12 +17,6 @@ export const CATEGORIES = [
     label: "Hobs",
     code: "HB",
     img: "/img/cat-hobs.webp",
-  },
-  {
-    key: "hob_tops",
-    label: "Hob Tops",
-    code: "HT",
-    img: "/img/cat-hob_tops.webp",
   },
   {
     key: "chimneys",

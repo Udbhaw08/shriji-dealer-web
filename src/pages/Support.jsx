@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { COMPANY } from "../data/site";
-import { Icon, EnquiryButtons } from "../ui";
+import { Icon } from "../ui";
 import { useLanguage } from "../data/i18n";
 import UnderMaintenance from "../components/UnderMaintenance";
 
@@ -83,66 +82,26 @@ function DealerField({ id, label, ph, type = "text", value, onChange, error }) {
   );
 }
 
+// Dealer enquiry form toggle — set to true to restore the application form on the support page
+const SHOW_DEALER_ENQUIRY = false;
+
 export default function Support() {
   const { t } = useLanguage();
 
   return (
     <>
-      {/* ---------- Service Support ---------- */}
+      {/* ---------- Service Support Under Maintenance ---------- */}
       <section style={{ paddingTop: "var(--s6)" }}>
         <div className="wrap">
-          <h1 className="d2">{t("support_title")}</h1>
-          <p className="sub" style={{ marginTop: "var(--s2)" }}>
-            {t("support_sub")}
-          </p>
+          <UnderMaintenance
+            title={t("service_maintenance_title")}
+            description={t("service_maintenance_sub")}
+            showContact={false}
+            showBrowse={false}
+          />
         </div>
       </section>
 
-      <section className="sec">
-        <div className="wrap">
-          <div className="grid" style={{ gridTemplateColumns: "repeat(auto-fit,minmax(320px,1fr))", gap: "var(--s5)", alignItems: "start" }}>
-            <div>
-              <UnderMaintenance
-                title={t("service_maintenance_title")}
-                description={t("service_maintenance_sub")}
-                showContact={false}
-                showBrowse={false}
-                compact={true}
-              />
-            </div>
-
-            <div className="stack" style={{ gap: "var(--s5)" }}>
-              <div className="card pad" style={{ display: "grid", gap: "var(--s4)" }}>
-                <h3 className="h3" style={{ fontSize: "1.05rem" }}>
-                  {t("support_prefer_to_talk")}
-                </h3>
-                <p className="muted" style={{ fontSize: "0.94rem" }}>
-                  {t("support_talk_sub")}
-                </p>
-                <EnquiryButtons />
-              </div>
-
-              <div className="list">
-                {[
-                  { icon: "phone", label: "Phone", value: COMPANY.phone, href: `tel:${COMPANY.phone.replace(/\s/g, "")}` },
-                  { icon: "mail", label: "Email", value: COMPANY.email, href: `mailto:${COMPANY.email}` },
-                  { icon: "pin", label: "Office", value: COMPANY.address },
-                ].map((c) => (
-                  <div className="list-row" key={c.label}>
-                    <span className="tile tile-sm">
-                      <Icon name={c.icon} size={18} />
-                    </span>
-                    <span className="txt">
-                      <span>{c.label}</span>
-                      <b>{c.href ? <a href={c.href}>{c.value}</a> : c.value}</b>
-                    </span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* ---------- Marketing material ---------- */}
       <section className="sec" id="marketing" style={{ paddingTop: 0, scrollMarginTop: 90 }}>
@@ -160,20 +119,22 @@ export default function Support() {
         </div>
       </section>
 
-      {/* ---------- Apply ---------- */}
-      <section className="sec" id="apply" style={{ paddingTop: 0, scrollMarginTop: 90 }}>
-        <div className="wrap">
-          <div className="card pad">
-            <h2 className="d2" style={{ fontSize: "clamp(1.4rem,2.4vw,1.9rem)" }}>
-              {t("dealer_enquiry_title")}
-            </h2>
-            <p className="sub" style={{ margin: "var(--s3) 0 var(--s5)" }}>
-              {t("dealer_enquiry_sub")}
-            </p>
-            <DealerForm />
+      {/* ---------- Apply (Hidden for now) ---------- */}
+      {SHOW_DEALER_ENQUIRY && (
+        <section className="sec" id="apply" style={{ paddingTop: 0, scrollMarginTop: 90 }}>
+          <div className="wrap">
+            <div className="card pad">
+              <h2 className="d2" style={{ fontSize: "clamp(1.4rem,2.4vw,1.9rem)" }}>
+                {t("dealer_enquiry_title")}
+              </h2>
+              <p className="sub" style={{ margin: "var(--s3) 0 var(--s5)" }}>
+                {t("dealer_enquiry_sub")}
+              </p>
+              <DealerForm />
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
     </>
   );
 }

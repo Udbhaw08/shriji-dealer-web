@@ -1,6 +1,6 @@
 # useSession()
 
-> God node · 13 connections · `src/data/session.js`
+> God node · 19 connections · `src/data/session.js`
 
 **Community:** [[Dealer Auth & Session Management]]
 
@@ -9,17 +9,23 @@
 ### calls
 - [[ProductCard()]] `EXTRACTED`
 - [[Product()]] `EXTRACTED`
+- [[Home()]] `EXTRACTED`
 - [[Products()]] `EXTRACTED`
 - [[Login()]] `EXTRACTED`
 - [[Schemes()]] `EXTRACTED`
 - [[AccountLink()]] `EXTRACTED`
+- [[Header()]] `EXTRACTED`
+- [[ConditionalBottomNav()]] `EXTRACTED`
+- [[RequireVerifiedDealer()]] `EXTRACTED`
 
 ### contains
 - [[session.js]] `EXTRACTED`
 
 ### imports
 - [[ui.jsx]] `EXTRACTED`
+- [[main.jsx]] `EXTRACTED`
 - [[Product.jsx]] `EXTRACTED`
+- [[Home.jsx]] `EXTRACTED`
 - [[Products.jsx]] `EXTRACTED`
 - [[ProductCard.jsx]] `EXTRACTED`
 - [[Login.jsx]] `EXTRACTED`

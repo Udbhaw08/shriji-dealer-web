@@ -1,11 +1,10 @@
 # Live Pricing Audit Tool
 
-> 12 nodes · cohesion 0.23
+> 12 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **productsStore.js** (13 connections) — `src/data/productsStore.js`
-- **useProducts()** (8 connections) — `src/data/productsStore.js`
+- **productsStore.js** (14 connections) — `src/data/productsStore.js`
 - **products.js** (3 connections) — `src/data/products.js`
 - **CATEGORIES** (2 connections) — `src/data/products.js`
 - **emit()** (2 connections) — `src/data/productsStore.js`
@@ -15,12 +14,13 @@
 - **useProduct()** (2 connections) — `src/data/productsStore.js`
 - **PRODUCTS** (1 connections) — `src/data/products.js`
 - **listeners** (1 connections) — `src/data/productsStore.js`
+- **PREFERRED_ORDER** (1 connections) — `src/data/productsStore.js`
 - **storeState** (1 connections) — `src/data/productsStore.js`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (7 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (2 shared connections)
+- [[Dealer Auth & Session Management]] (4 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (1 shared connections)
 
 ## Source Files
 
@@ -29,7 +29,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 39 (100%)
+- EXTRACTED: 33 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

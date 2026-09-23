@@ -4,6 +4,7 @@ import { COMPANY, NAV } from "./data/site";
 import { isDealer, useSession } from "./data/session";
 import { dealerById } from "./data/dealer";
 import { useLanguage } from "./data/i18n";
+import { isPortalGated } from "./data/portalGate";
 
 /* Line icons, one 1.6 stroke family — matches the mockup's icon set. */
 const base = {
@@ -181,20 +182,14 @@ export function Icon({ name, size = 18, ...rest }) {
 
 export function Mark() {
   return (
-    <Link to="/" className="mark" aria-label={`${COMPANY.legal} — home`}>
-      <span className="mark-glyph" aria-hidden="true">
-        <svg viewBox="0 0 28 28" width="20" height="20" {...base} stroke="currentColor" strokeWidth={1.7}>
-          <rect x="3.2" y="8.4" width="21.6" height="13" rx="3" />
-          <circle cx="9.6" cy="13.4" r="2.5" />
-          <circle cx="18.4" cy="13.4" r="2.5" />
-          <path d="M7 18.4h14" />
-          <path d="M14 8.4V4.6" />
-        </svg>
-      </span>
-      <span>
-        <b>Shriji</b>
-        <span>Domestic Appliances Pvt. Ltd.</span>
-      </span>
+    <Link to="/" className="mark" aria-label="ReSTOR — Shriji Domestic Appliances">
+      <img
+        src="/img/logo.png"
+        alt="ReSTOR"
+        className="mark-logo"
+        width="145"
+        height="38"
+      />
     </Link>
   );
 }
@@ -238,15 +233,18 @@ function AccountLink({ className = "" }) {
 
   return (
     <Link className={`btn btn-navy btn-sm ${className}`.trim()} to="/login">
-      {s.role === "dealer" ? t("approval_pending") : t("dealer_login")}
+      {s.role === "dealer" ? t("approval_pending") : "Verified Dealer Login"}
     </Link>
   );
 }
 
 export function Header() {
   const [open, setOpen] = useState(false);
+  const s = useSession();
   const { t } = useLanguage();
   const { pathname, hash } = useLocation();
+  const isGated = isPortalGated(s);
+
   useEffect(() => {
     setOpen(false);
   }, [pathname, hash]);
@@ -263,40 +261,47 @@ export function Header() {
       <div className="wrap hdr-in">
         <Mark />
 
-        <nav className={`nav${open ? " open" : ""}`} id="nav">
-          {NAV.map((n) => (
-            <NavLink key={n.to} to={n.to} end={n.to === "/"}>
-              {navLabels[n.to] || n.label}
-            </NavLink>
-          ))}
-          <div className="nav-drawer-actions">
-            <LangToggle />
-            <AccountLink />
-          </div>
-        </nav>
+        {/* Navigation tabs only visible to verified dealers */}
+        {!isGated && (
+          <nav className={`nav${open ? " open" : ""}`} id="nav">
+            {NAV.map((n) => (
+              <NavLink key={n.to} to={n.to} end={n.to === "/"}>
+                {navLabels[n.to] || n.label}
+              </NavLink>
+            ))}
+            <div className="nav-drawer-actions">
+              <LangToggle />
+              <AccountLink />
+            </div>
+          </nav>
+        )}
 
-        <p className="hdr-tag">
-          {t("tagline_1")}
-          <br />
-          {t("tagline_2")}
-          <br />
-          {t("tagline_3")}
-        </p>
+        {!isGated && (
+          <p className="hdr-tag">
+            {t("tagline_1")}
+            <br />
+            {t("tagline_2")}
+            <br />
+            {t("tagline_3")}
+          </p>
+        )}
 
-        <div className="hdr-actions">
+        <div className="hdr-actions" style={isGated ? { marginLeft: "auto" } : undefined}>
           <LangToggle />
           <AccountLink />
         </div>
 
-        <button
-          className="icon-btn burger"
-          aria-expanded={open}
-          aria-controls="nav"
-          aria-label={open ? "Close menu" : "Open menu"}
-          onClick={() => setOpen((v) => !v)}
-        >
-          <Icon name={open ? "close" : "menu"} size={19} />
-        </button>
+        {!isGated && (
+          <button
+            className="icon-btn burger"
+            aria-expanded={open}
+            aria-controls="nav"
+            aria-label={open ? "Close menu" : "Open menu"}
+            onClick={() => setOpen((v) => !v)}
+          >
+            <Icon name={open ? "close" : "menu"} size={19} />
+          </button>
+        )}
       </div>
     </header>
   );
@@ -344,9 +349,11 @@ export function Footer() {
               <li>
                 <Link to="/support">{t("support_title")}</Link>
               </li>
+              {/* Dealer enquiry form hidden for now
               <li>
                 <Link to="/support#apply">{t("dealer_enquiry_title")}</Link>
               </li>
+              */}
             </ul>
           </div>
           <div>

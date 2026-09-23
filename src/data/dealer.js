@@ -128,6 +128,15 @@ export function tierOf(session) {
   return "guest";
 }
 
+/** Format a phone number into valid international WhatsApp format (e.g. 919820012345) */
+export function formatWhatsAppPhone(phone) {
+  if (!phone) return "";
+  let digits = String(phone).replace(/\D/g, "");
+  if (digits.startsWith("0")) digits = digits.slice(1);
+  if (digits.length === 10) digits = `91${digits}`;
+  return digits;
+}
+
 /**
  * Who is looking, and at which view. The single rule that decides whether a
  * dealer price may be rendered at all.
@@ -136,15 +145,52 @@ export function tierOf(session) {
  * dealer who sent the link — otherwise a customer opening a dealer's own device
  * or a forwarded session would see trade pricing.
  */
-export function viewerFor(session, fromId) {
-  const sharedBy = dealerById(fromId);
-  const me = isDealer(session) ? (dealerById(session?.dealerId) || session?.dealer || null) : null;
-  return { sharedBy, me, customerView: Boolean(sharedBy) || !me };
+export function viewerFor(session, fromId, searchParams) {
+  let sharedBy = dealerById(fromId);
+  const paramPhone = searchParams?.get ? (searchParams.get("phone") || searchParams.get("dealerPhone") || "") : "";
+  const paramName = searchParams?.get ? (searchParams.get("name") || searchParams.get("dealerName") || "") : "";
+  const paramCity = searchParams?.get ? (searchParams.get("city") || searchParams.get("dealerCity") || "") : "";
+  const paramPerson = searchParams?.get ? (searchParams.get("person") || "") : "";
+
+  if (paramPhone || paramName) {
+    sharedBy = {
+      id: fromId || sharedBy?.id || "dealer",
+      name: paramName || sharedBy?.name || "Authorised Dealer",
+      person: paramPerson || sharedBy?.person || "",
+      phone: paramPhone || sharedBy?.phone || "",
+      phoneRaw: formatWhatsAppPhone(paramPhone || sharedBy?.phoneRaw || sharedBy?.phone || ""),
+      city: paramCity || sharedBy?.city || "Mumbai",
+      tier: "Verified Dealer",
+      rebatePct: sharedBy?.rebatePct || 20,
+    };
+    registerDealer(sharedBy);
+  } else if (sharedBy) {
+    sharedBy = {
+      ...sharedBy,
+      phoneRaw: formatWhatsAppPhone(sharedBy.phoneRaw || sharedBy.phone),
+    };
+  }
+
+  const me = isDealer(session)
+    ? { ...(dealerById(session?.dealerId) || {}), ...(session?.dealer || {}) }
+    : null;
+
+  return { sharedBy, me, customerView: Boolean(fromId) || Boolean(sharedBy) || !me };
 }
 
-/** The link a dealer hands a customer. Always opens the customer view. */
+/** The link a dealer hands a customer. Always opens the customer view and encodes dealer contact details. */
 export function shareLink(p, dealer) {
-  const url = new URL(`/products/${p.id}`, window.location.origin);
-  if (dealer) url.searchParams.set("from", dealer.id);
+  if (!p) return "";
+  const origin = typeof window !== "undefined" && window.location?.origin ? window.location.origin : "https://shrijidomestic.com";
+  const url = new URL(`/products/${p.id}`, origin);
+  if (dealer) {
+    if (dealer.id) url.searchParams.set("from", dealer.id);
+    const phone = dealer.phone || dealer.phoneRaw || "";
+    if (phone) url.searchParams.set("phone", phone);
+    const name = dealer.name || dealer.shop || "";
+    if (name) url.searchParams.set("name", name);
+    const city = dealer.city || "";
+    if (city) url.searchParams.set("city", city);
+  }
   return url.toString();
 }

@@ -1,6 +1,6 @@
 # isDealer()
 
-> God node · 13 connections · `src/data/dealer.js`
+> God node · 15 connections · `src/data/dealer.js`
 
 **Community:** [[Zoho Backend & Proxy Endpoints]]
 
@@ -8,6 +8,7 @@
 
 ### calls
 - [[ProductCard()]] `EXTRACTED`
+- [[isPortalGated()]] `EXTRACTED`
 - [[Products()]] `EXTRACTED`
 - [[viewerFor()]] `EXTRACTED`
 - [[Schemes()]] `EXTRACTED`
@@ -24,6 +25,7 @@
 - [[ProductCard.jsx]] `EXTRACTED`
 - [[Schemes.jsx]] `EXTRACTED`
 - [[dealer.test.mjs]] `EXTRACTED`
+- [[portalGate.js]] `EXTRACTED`
 
 ---
 

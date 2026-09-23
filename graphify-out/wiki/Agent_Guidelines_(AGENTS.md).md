@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Shriji Domestic Appliances — Sunshine Dealer Web** (4 connections) — `README.md`
-- **README.md** (1 connections) — `README.md`
-- **Documentation** (1 connections) — `README.md`
-- **Layout** (1 connections) — `README.md`
-- **Two things to know before you change anything** (1 connections) — `README.md`
+- **Agent Operating Guidelines & Zero-Token Context Strategy** (3 connections) — `GEMINI.md`
+- **Shriji Domestic Appliances — Sunshine Dealer Web** (2 connections) — `GEMINI.md`
+- **GEMINI.md** (1 connections) — `GEMINI.md`
+- **Mandatory Context Rule: Knowledge Graph First** (1 connections) — `GEMINI.md`
+- **Project Hard Rules** (1 connections) — `GEMINI.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `README.md`
+- `GEMINI.md`
 
 ## Audit Trail
 

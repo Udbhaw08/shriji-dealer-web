@@ -2,12 +2,13 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Link, useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { useProducts } from "../data/productsStore";
 import { COMPANY } from "../data/site";
-import { registerDealer, shareLink, tagFor, viewerFor } from "../data/dealer";
+import { registerDealer, shareLink, tagFor, viewerFor, inr, priceFor } from "../data/dealer";
 import { useSession } from "../data/session";
 import { Icon } from "../ui";
 import { useLanguage } from "../data/i18n";
 import ProductCard from "../components/ProductCard";
 import PriceBlock from "../components/PriceBlock";
+import { isPortalGated } from "../data/portalGate";
 
 /* Feature boxes mirror the mockup: icon over a two-line label. */
 function featureBoxes(p, t) {
@@ -34,6 +35,7 @@ export default function Product() {
   const navigate = useNavigate();
   const [params, setParams] = useSearchParams();
   const session = useSession();
+  const isGated = isPortalGated(session);
   const { products: PRODUCTS, loaded } = useProducts();
   const { t, tCat } = useLanguage();
   const [fetchedProduct, setFetchedProduct] = useState(null);
@@ -117,7 +119,7 @@ export default function Product() {
   // A ?from= link is a customer link, full stop. Whoever opens it — including the
   // dealer who sent it — gets the customer view and no way to reach a dealer price.
   const fromId = params.get("from");
-  const { sharedBy: localSharedBy, me, customerView: viewerCustomerView } = viewerFor(session, fromId);
+  const { sharedBy: localSharedBy, me, customerView: viewerCustomerView } = viewerFor(session, fromId, params);
   const [remoteSharedBy, setRemoteSharedBy] = useState(null);
 
   useEffect(() => {
@@ -290,7 +292,7 @@ export default function Product() {
   }, making it a dependable choice for the modern Indian kitchen.`;
 
   const share = () => {
-    const url = shareLink(p, me);
+    const url = shareLink(p, me || sharedBy);
     const data = {
       title: p.name,
       text: `${displayTitle} — ${p.catLabel} from ${COMPANY.brand}.`,
@@ -317,10 +319,17 @@ export default function Product() {
     <section className="sec product-detail-sec">
       <div className="wrap">
         <div className="app-mobile-top-bar">
-          <Link to="/products" className="app-mobile-back" aria-label="Back to products">
-            <Icon name="chevleft" size={18} />
-            <span>{t("nav_products") || "Products"}</span>
-          </Link>
+          {!isGated ? (
+            <Link to="/products" className="app-mobile-back" aria-label="Back to products">
+              <Icon name="chevleft" size={18} />
+              <span>{t("nav_products") || "Products"}</span>
+            </Link>
+          ) : (
+            <Link to="/" className="app-mobile-back" aria-label="Home">
+              <Icon name="home" size={18} />
+              <span>{t("nav_home") || "Home"}</span>
+            </Link>
+          )}
           <span className="app-mobile-title">{displayTitle}</span>
           <button type="button" onClick={share} className="app-mobile-icon-btn" aria-label="Share product">
             <Icon name="share" size={17} />
@@ -330,83 +339,101 @@ export default function Product() {
         <div className="product-top-bar desktop-only">
           <nav className="crumbs" aria-label="Breadcrumb">
             <Link to="/">{t("nav_home")}</Link>
-            <Icon name="chev" size={13} />
-            <Link to={`/products?cat=${p.cat}`}>{tCat(p.cat, p.catLabel)}</Link>
+            {!isGated && (
+              <>
+                <Icon name="chev" size={13} />
+                <Link to={`/products?cat=${p.cat}`}>{tCat(p.cat, p.catLabel)}</Link>
+              </>
+            )}
             <Icon name="chev" size={13} />
             <span>{displayTitle}</span>
           </nav>
 
-          <div className="product-top-search" ref={searchWrapRef}>
-            <form onSubmit={handleSearchSubmit} className="search search-top" role="search">
-              <Icon name="search" size={16} style={{ color: "var(--tx-3)", flexShrink: 0 }} />
-              <input
-                type="search"
-                value={searchQ}
-                onChange={(e) => {
-                  setSearchQ(e.target.value);
-                  setSearchOpen(true);
-                }}
-                onFocus={() => setSearchOpen(true)}
-                placeholder={t("search_placeholder") || "Search products or models…"}
-                aria-label="Search another product"
-              />
-              {searchQ && (
-                <button
-                  type="button"
-                  className="search-clear"
-                  onClick={() => setSearchQ("")}
-                  aria-label="Clear search"
-                >
-                  <Icon name="close" size={14} />
-                </button>
-              )}
-            </form>
-
-            {searchOpen && searchQ.trim().length > 0 && (
-              <div className="search-drop">
-                {searchMatches.length > 0 ? (
-                  <>
-                    <div className="search-drop-list">
-                      {searchMatches.map((m) => (
-                        <button
-                          type="button"
-                          key={m.id}
-                          className="search-drop-item"
-                          onClick={() => handleSelectProduct(m.id)}
-                        >
-                          <span className="search-drop-thumb">
-                            {m.img ? (
-                              <img src={m.img.startsWith("http") ? m.img : `/img/${m.img}`} alt="" />
-                            ) : (
-                              <Icon name="stove" size={18} />
-                            )}
-                          </span>
-                          <span className="search-drop-info">
-                            <b>{m.model && m.model.toLowerCase() !== "test" ? m.model : m.name}</b>
-                            <small>{m.catLabel || m.size || m.finish}</small>
-                          </span>
-                          <Icon name="chev" size={13} className="search-drop-arrow" />
-                        </button>
-                      ))}
-                    </div>
+          {!isGated && (
+            <div className="product-top-actions">
+              <div className="product-top-search" ref={searchWrapRef}>
+                <form onSubmit={handleSearchSubmit} className="search search-top" role="search">
+                  <Icon name="search" size={16} style={{ color: "var(--tx-3)", flexShrink: 0 }} />
+                  <input
+                    type="search"
+                    value={searchQ}
+                    onChange={(e) => {
+                      setSearchQ(e.target.value);
+                      setSearchOpen(true);
+                    }}
+                    onFocus={() => setSearchOpen(true)}
+                    placeholder={t("search_placeholder") || "Search products or models…"}
+                    aria-label="Search another product"
+                  />
+                  {searchQ && (
                     <button
                       type="button"
-                      className="search-drop-all"
-                      onClick={handleSearchSubmit}
+                      className="search-clear"
+                      onClick={() => setSearchQ("")}
+                      aria-label="Clear search"
                     >
-                      <span>{t("view_all")} results for “{searchQ.trim()}”</span>
-                      <Icon name="arrowsm" size={15} />
+                      <Icon name="close" size={14} />
                     </button>
-                  </>
-                ) : (
-                  <div className="search-drop-empty">
-                    <span>No products found for “{searchQ.trim()}”</span>
+                  )}
+                </form>
+
+                {searchOpen && searchQ.trim().length > 0 && (
+                  <div className="search-drop">
+                    {searchMatches.length > 0 ? (
+                      <>
+                        <div className="search-drop-list">
+                          {searchMatches.map((m) => (
+                            <button
+                              type="button"
+                              key={m.id}
+                              className="search-drop-item"
+                              onClick={() => handleSelectProduct(m.id)}
+                            >
+                              <span className="search-drop-thumb">
+                                {m.img ? (
+                                  <img src={m.img.startsWith("http") ? m.img : `/img/${m.img}`} alt="" />
+                                ) : (
+                                  <Icon name="stove" size={18} />
+                                )}
+                              </span>
+                              <span className="search-drop-info">
+                                <b>{m.model && m.model.toLowerCase() !== "test" ? m.model : m.name}</b>
+                                <small>{m.catLabel || m.size || m.finish}</small>
+                              </span>
+                              <Icon name="chev" size={13} className="search-drop-arrow" />
+                            </button>
+                          ))}
+                        </div>
+                        <button
+                          type="button"
+                          className="search-drop-all"
+                          onClick={handleSearchSubmit}
+                        >
+                          <span>{t("view_all")} results for “{searchQ.trim()}”</span>
+                          <Icon name="arrowsm" size={15} />
+                        </button>
+                      </>
+                    ) : (
+                      <div className="search-drop-empty">
+                        <span>No products found for “{searchQ.trim()}”</span>
+                      </div>
+                    )}
                   </div>
                 )}
               </div>
-            )}
-          </div>
-        </div>
+
+              <button
+                type="button"
+                className="product-top-share"
+                onClick={share}
+                title="Share product link"
+              >
+                <Icon name="share" size={15} />
+                <span>{copied ? t("link_copied") : t("share") || "Share"}</span>
+              </button>
+            </div>
+          )}
+      </div>
 
         <div className="detail">
           {/* ---- gallery ---- */}
@@ -532,7 +559,17 @@ export default function Product() {
             <PriceBlock p={p} customerView={customerView} dealer={me} sharedBy={sharedBy} />
 
             {!customerView && (
-              <div className="actions">
+              <div className="actions" style={{ display: "grid", gap: "var(--s3)", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))" }}>
+                <a
+                  className="btn btn-wa"
+                  href={`https://api.whatsapp.com/send?text=${encodeURIComponent(
+                    `Hello! Take a look at Sunshine ${displayTitle} (${p.name}):\nRetail MRP: ${inr(priceFor(p).mrp)} (Incl. of all taxes)\n\nView details & specifications:\n${shareLink(p, me)}\n\nAvailable with ${me?.name || "Authorised Dealer"}${me?.phone ? ` · Contact: ${me.phone}` : ""}`
+                  )}`}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Icon name="wa" /> Share on WhatsApp
+                </a>
                 <button className="btn btn-ghost" onClick={share}>
                   <Icon name="share" /> {copied ? t("link_copied") : t("share_with_customer")}
                 </button>
@@ -614,9 +651,8 @@ export default function Product() {
           </div>
         </div>
 
-        {/* related sits below the whole detail block, so it never jumps above the
-            info column when the grid collapses to one column on a phone */}
-        {related.length > 0 && (
+        {/* Only verified dealers can browse related products; customers on a shared link only see the shared item */}
+        {!isGated && related.length > 0 && (
           <div style={{ marginTop: "var(--s7)" }}>
             <div className="sec-head">
               <h2>{t("more_in_category", { category: tCat(p.cat, p.catLabel) })}</h2>

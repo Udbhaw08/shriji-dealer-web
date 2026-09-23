@@ -38,7 +38,7 @@ export const TRANSLATIONS = {
     price_unpriced_catalog: "Item unpriced in catalog",
     price_mrp_label: "Retail MRP",
     price_mrp_sub: "Customer price · GST included",
-    price_hidden_sub: "Hidden until you ask",
+    price_hidden_sub: "Click to view your wholesale dealer rate",
     price_incl_taxes: "(Incl. of all taxes)",
     price_wholesale_rate: "Dealer Wholesale Rate",
     price_scheme_benefit: "Scheme Benefit",
@@ -52,6 +52,7 @@ export const TRANSLATIONS = {
     tagline_1: "Better Products",
     tagline_2: "Stronger Partners",
     tagline_3: "Brighter Homes",
+    home_tagline: "Delivering the heart of every kitchen",
     brand_sub: "Sunshine Kitchen Range · Mumbai Distribution",
 
     // Home Page
@@ -78,9 +79,9 @@ export const TRANSLATIONS = {
     quick_launches_sub: "Just in",
     quick_support: "Support",
     quick_support_sub: "Raise a request",
-    sec_categories_title: "Browse by Category",
+    sec_categories_title: "Shop by Categories",
     sec_categories_sub: "Engineered for daily use across thousands of Indian households.",
-    sec_fast_title: "Fast-Moving Models",
+    sec_fast_title: "All Products",
     sec_fast_sub: "High-demand appliances keeping dealer inventory moving this week.",
     sec_schemes_title: "Current Dealer Schemes",
     sec_schemes_sub: "Extra margins and promotional packages on select kitchen appliances.",
@@ -267,7 +268,7 @@ export const TRANSLATIONS = {
     price_unpriced_catalog: "कैटलॉग में मूल्य दर्ज नहीं",
     price_mrp_label: "रिटेल एमआरपी (MRP)",
     price_mrp_sub: "ग्राहक मूल्य · जीएसटी सहित",
-    price_hidden_sub: "क्लिक करने तक छुपा हुआ",
+    price_hidden_sub: "थोक डीलर दर देखने के लिए क्लिक करें",
     price_incl_taxes: "(सभी कर / GST सहित)",
     price_wholesale_rate: "डीलर थोक दर",
     price_scheme_benefit: "स्कीम लाभ",
@@ -281,6 +282,7 @@ export const TRANSLATIONS = {
     tagline_1: "बेहतर उत्पाद",
     tagline_2: "मजबूत साझेदार",
     tagline_3: "रोशन घर",
+    home_tagline: "हर रसोई की धड़कन आप तक पहुंचाते हुए",
     brand_sub: "सनशाइन किचन रेंज · मुंबई अधिकृत वितरण",
 
     // Home Page

@@ -8,9 +8,9 @@
 
 ### calls
 - [[useLanguage()]] `EXTRACTED`
+- [[useSession()]] `EXTRACTED`
 - [[t()]] `EXTRACTED`
 - [[isDealer()]] `EXTRACTED`
-- [[useSession()]] `EXTRACTED`
 - [[priceFor()]] `EXTRACTED`
 - [[inr()]] `EXTRACTED`
 - [[tagFor()]] `EXTRACTED`

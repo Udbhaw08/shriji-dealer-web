@@ -1,10 +1,13 @@
-import { useCallback, useEffect, useMemo, useRef } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { useProducts } from "../data/productsStore";
-import { COMPANY, STATS, QUICK_ACCESS, SCHEMES } from "../data/site";
+import { COMPANY, QUICK_ACCESS, SCHEMES } from "../data/site";
 import { Icon, EnquiryButtons } from "../ui";
 import { useLanguage } from "../data/i18n";
 import ProductCard from "../components/ProductCard";
+import HeroSlider from "../components/HeroSlider";
+import { useSession } from "../data/session";
+import { isPortalGated } from "../data/portalGate";
 
 
 function useAutoScroll(trackRef, { interval = 4000, step = 260 } = {}) {
@@ -101,55 +104,24 @@ export default function Home() {
     [PRODUCTS, CATEGORIES],
   );
 
-  const scheme = SCHEMES.active[0];
+  const [schemeIdx, setSchemeIdx] = useState(0);
+  const scheme = SCHEMES.active[schemeIdx] || SCHEMES.active[0];
+  const session = useSession();
+  const isGated = isPortalGated(session);
 
   return (
     <>
-      {/* ---------- Hero ---------- */}
-      <section className="hero">
+      {/* ---------- Hero Showcase Slider ---------- */}
+      <HeroSlider isGated={isGated} t={t} />
+
+      {/* ---------- Brand Tagline ---------- */}
+      <section className="sec home-trust-sec">
         <div className="wrap">
-          <div className="hero-grid">
-            <div>
-              <span className="hero-pill">
-                <span className="hero-dot" />
-                <span>{t("hero_badge")}</span>
-              </span>
-
-              <h1 className="hero-title">
-                {t("hero_h1_1")}
-                <br />
-                <span className="hero-grad">{t("hero_h1_2")}</span>
-                <br />
-                {t("hero_h1_3")}
-              </h1>
-
-              <p className="hero-lead">{t("hero_lead")}</p>
-
-              <div className="hero-btns">
-                <Link className="btn btn-primary" to="/products">
-                  {t("hero_cta_browse")} <Icon name="arrow" size={17} />
-                </Link>
-                <Link className="btn btn-ghost" to="/schemes">
-                  {t("hero_cta_schemes")}
-                </Link>
-              </div>
-            </div>
-
-            <div className="hero-card">
-              <div className="hero-card-head">
-                <span className="hero-card-tag">{t("hero_card_tag")}</span>
-                <p className="hero-card-title">{COMPANY.tagline}</p>
-                <p className="hero-card-sub">{COMPANY.address}</p>
-              </div>
-              <div className="hero-stats">
-                {STATS.map((s) => (
-                  <div className="hero-stat" key={s.label}>
-                    <b>{s.value || s.val}</b>
-                    <span>{s.label}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
+          <div className="home-tagline-block">
+            <h2 className="home-tagline-title">
+              {t("home_tagline") || "Delivering the heart of every kitchen"}
+            </h2>
+            <div className="home-tagline-accent" aria-hidden="true" />
           </div>
         </div>
       </section>
@@ -159,7 +131,7 @@ export default function Home() {
         <div className="wrap">
           <div className="sec-head">
             <h2>{t("sec_categories_title")}</h2>
-            <div className="sec-head-controls">
+            <div className="sec-head-controls sec-head-categories">
               <div className="carousel-arrow-group" role="group" aria-label="Category scroll controls">
                 <button
                   type="button"
@@ -180,12 +152,12 @@ export default function Home() {
                   <Icon name="chev" size={17} />
                 </button>
               </div>
-              <Link className="link" to="/products">
+              <Link className="link" to={isGated ? "/login" : "/products"}>
                 {t("view_all")} <Icon name="arrowsm" size={15} />
               </Link>
             </div>
           </div>
-          <div className="carousel-wrap">
+          <div className="carousel-wrap cat-carousel-wrap">
             <button
               type="button"
               className="carousel-track-btn prev"
@@ -196,15 +168,15 @@ export default function Home() {
               <Icon name="chevleft" size={20} />
             </button>
             <div
-              className="carousel-track"
+              className="carousel-track cat-track"
               ref={catTrackRef}
               onMouseEnter={catScroll.onMouseEnter}
               onMouseLeave={catScroll.onMouseLeave}
               onTouchStart={catScroll.onTouchStart}
               onTouchEnd={catScroll.onTouchEnd}
             >
-              {CATEGORIES.filter((c) => c.key !== "all_products" && c.key !== "all").map((c) => (
-                <Link className="cat" key={c.key} to={`/products?cat=${c.key}`}>
+              {CATEGORIES.filter((c) => c.key !== "all_products" && c.key !== "all").slice(0, 5).map((c) => (
+                <Link className="cat" key={c.key} to={isGated ? "/login" : `/products?cat=${c.key}`}>
                   <span className="cat-img">
                     <img
                       src={c.img}
@@ -216,22 +188,10 @@ export default function Home() {
                     />
                   </span>
                   <span className="cat-foot">
-                    <span>
-                      <b>{tCat(c.key, c.label)}</b>
-                      <span>{t("models_count", { count: counts[c.key] || 0 })}</span>
-                    </span>
+                    <b>{tCat(c.key, c.label)}</b>
                   </span>
                 </Link>
               ))}
-              <div className="carousel-more-card">
-                <Link to="/products" className="carousel-more-btn">
-                  <span className="carousel-more-circle">
-                    <Icon name="arrowsm" size={22} />
-                  </span>
-                  <b>{t("view_all")}</b>
-                  <span>{CATEGORIES.length} Categories</span>
-                </Link>
-              </div>
             </div>
             <button
               type="button"
@@ -272,7 +232,7 @@ export default function Home() {
                   <Icon name="chev" size={17} />
                 </button>
               </div>
-              <Link className="link" to="/products">
+              <Link className="link" to={isGated ? "/login" : "/products"}>
                 {t("view_all")} <Icon name="arrowsm" size={15} />
               </Link>
             </div>
@@ -299,7 +259,7 @@ export default function Home() {
                 <ProductCard key={p.id} p={p} />
               ))}
               <div className="carousel-more-card">
-                <Link to="/products" className="carousel-more-btn">
+                <Link to={isGated ? "/login" : "/products"} className="carousel-more-btn">
                   <span className="carousel-more-circle">
                     <Icon name="arrowsm" size={22} />
                   </span>
@@ -327,31 +287,74 @@ export default function Home() {
           <div className="grid" style={{ gridTemplateColumns: "repeat(auto-fit,minmax(300px,1fr))", gap: "var(--s5)" }}>
             <div className="list">
               <p className="list-head">{t("quick_products")}</p>
-              {QUICK_ACCESS.map((q) => (
-                <Link className="list-row" key={q.title} to={q.to}>
-                  <span className="tile tile-sm">
-                    <Icon name={q.icon} size={18} />
-                  </span>
-                  <span className="txt">
-                    <b>{q.title}</b>
-                    <span>{q.sub}</span>
-                  </span>
-                  <Icon name="chev" size={16} className="chev" />
-                </Link>
-              ))}
+              {QUICK_ACCESS.map((q) => {
+                const isSupport = q.to === "/support";
+                const toPath = isSupport ? "/support" : isGated ? "/login" : q.to;
+                const subText = isSupport ? (t("under_maintenance_badge") || "Under Maintenance") : isGated ? "Verified Dealer Access" : q.sub;
+                return (
+                  <Link className="list-row" key={q.title} to={toPath}>
+                    <span className="tile tile-sm">
+                      <Icon name={q.icon} size={18} />
+                    </span>
+                    <span className="txt">
+                      <b>{q.title}</b>
+                      <span>{subText}</span>
+                    </span>
+                    <Icon name="chev" size={16} className="chev" />
+                  </Link>
+                );
+              })}
             </div>
 
-            <div className="scheme">
+            <div className="scheme" style={{ position: "relative" }}>
               <div className="scheme-txt">
-                <span className="badge">{t("scheme_live_now")}</span>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 8 }}>
+                  <span className="badge">{t("scheme_live_now")}</span>
+                  {SCHEMES.active.length > 1 && (
+                    <div style={{ display: "inline-flex", gap: 4 }}>
+                      {SCHEMES.active.map((s, idx) => (
+                        <button
+                          key={s.id}
+                          type="button"
+                          onClick={() => setSchemeIdx(idx)}
+                          style={{
+                            width: 22,
+                            height: 22,
+                            borderRadius: "50%",
+                            border: "none",
+                            background: schemeIdx === idx ? "var(--navy)" : "rgba(14,36,56,0.15)",
+                            color: schemeIdx === idx ? "#fff" : "var(--navy)",
+                            fontSize: "0.72rem",
+                            fontWeight: 700,
+                            cursor: "pointer",
+                            display: "grid",
+                            placeItems: "center",
+                          }}
+                          aria-label={`Show ${s.title}`}
+                        >
+                          {idx + 1}
+                        </button>
+                      ))}
+                    </div>
+                  )}
+                </div>
                 <h3 style={{ marginTop: "var(--s3)" }}>{scheme.title}</h3>
                 <p className="when">{scheme.when}</p>
                 <p>{scheme.blurb}</p>
-                <Link className="btn btn-navy btn-sm" to="/schemes" style={{ marginTop: "var(--s4)" }}>
-                  {t("sec_schemes_title")}
-                </Link>
+                <div style={{ display: "flex", gap: "var(--s3)", marginTop: "var(--s4)", alignItems: "center" }}>
+                  <Link className="btn btn-navy btn-sm" to={isGated ? "/login" : "/schemes"}>
+                    {isGated ? "Dealer Login to View" : t("sec_schemes_title")}
+                  </Link>
+                  <a
+                    className="btn btn-ghost btn-sm"
+                    href={scheme.pdfUrl || scheme.flyer}
+                    download={scheme.pdfName}
+                  >
+                    <Icon name="download" size={15} /> PDF
+                  </a>
+                </div>
               </div>
-              <Link className="fab" to="/schemes" aria-label="Open schemes">
+              <Link className="fab" to={isGated ? "/login" : "/schemes"} aria-label="Open schemes">
                 <Icon name="arrowsm" size={17} />
               </Link>
             </div>
@@ -362,21 +365,6 @@ export default function Home() {
       {/* ---------- Trust ---------- */}
       <section className="sec" style={{ paddingTop: 0 }}>
         <div className="wrap stack" style={{ gap: "var(--s5)" }}>
-          <div className="stats">
-            {STATS.map((s, idx) => {
-              const labelKey = idx === 0 ? "stats_years"
-                : idx === 1 ? "stats_retailers"
-                : idx === 2 ? "stats_customers"
-                : "stats_installs";
-              return (
-                <div key={s.label}>
-                  <b>{s.value}</b>
-                  <span>{t(labelKey)}</span>
-                </div>
-              );
-            })}
-          </div>
-
           <div className="card pad" style={{ display: "grid", gap: "var(--s4)" }}>
             <h2 className="d2" style={{ maxWidth: "20ch" }}>
               Stocking Sunshine, or thinking about it?

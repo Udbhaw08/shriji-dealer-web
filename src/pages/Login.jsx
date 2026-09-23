@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate, useSearchParams } from "react-router-dom";
 import { DEALERS, dealerById } from "../data/dealer";
 import { setSession, signOut, useSession } from "../data/session";
 import { Icon } from "../ui";
@@ -9,7 +9,10 @@ export default function Login() {
   const { t } = useLanguage();
   const s = useSession();
   const nav = useNavigate();
-  const [activeTab, setActiveTab] = useState("dealer"); // "dealer" | "customer" | "apply"
+  const [params] = useSearchParams();
+  const needAuth = params.get("needAuth") === "true";
+  const initialTab = params.get("tab") === "apply" ? "apply" : params.get("tab") === "customer" ? "customer" : "dealer";
+  const [activeTab, setActiveTab] = useState(initialTab); // "dealer" | "customer" | "apply"
 
   // Dealer login states
   const [phone, setPhone] = useState("");
@@ -304,6 +307,31 @@ export default function Login() {
       <div className="wrap" style={{ maxWidth: 740 }}>
         {/* Top Header */}
         <div style={{ textAlign: "center", marginBottom: "var(--s5)" }}>
+          {needAuth && (
+            <div
+              style={{
+                background: "var(--blue-50, #eff6ff)",
+                border: "1px solid var(--blue-200, #bfdbfe)",
+                color: "var(--blue-ink, #1e40af)",
+                padding: "12px 18px",
+                borderRadius: "var(--r-md, 10px)",
+                marginBottom: "var(--s4)",
+                display: "inline-flex",
+                alignItems: "center",
+                gap: "10px",
+                fontSize: "0.92rem",
+                fontWeight: 600,
+                textAlign: "left",
+                maxWidth: 620,
+              }}
+            >
+              <Icon name="bolt" size={20} style={{ flexShrink: 0 }} />
+              <span>
+                <b>Verified Dealer Access Only:</b> Please sign in with your registered dealer number to unlock the wholesale catalogue, trade pricing, and schemes.
+              </span>
+            </div>
+          )}
+
           <h1 className="d2">{t("auth_access_title")}</h1>
           <p className="sub" style={{ marginTop: "var(--s2)" }}>
             {t("auth_access_sub")}

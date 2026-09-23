@@ -1,21 +1,22 @@
 # Zoho Backend & Proxy Endpoints
 
-> 35 nodes · cohesion 0.12
+> 36 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **dealer.js** (22 connections) — `src/data/dealer.js`
-- **session.js** (19 connections) — `src/data/session.js`
+- **dealer.js** (23 connections) — `src/data/dealer.js`
+- **session.js** (21 connections) — `src/data/session.js`
 - **Products.jsx** (16 connections) — `src/pages/Products.jsx`
 - **ProductCard.jsx** (15 connections) — `src/components/ProductCard.jsx`
+- **isDealer()** (15 connections) — `src/data/dealer.js`
 - **PriceBlock.jsx** (14 connections) — `src/components/PriceBlock.jsx`
-- **isDealer()** (13 connections) — `src/data/dealer.js`
 - **dealer.test.mjs** (13 connections) — `src/data/dealer.test.mjs`
 - **ProductCard()** (11 connections) — `src/components/ProductCard.jsx`
 - **priceFor()** (11 connections) — `src/data/dealer.js`
 - **inr()** (8 connections) — `src/data/dealer.js`
 - **CustomerPrice()** (6 connections) — `src/components/PriceBlock.jsx`
 - **tagFor()** (6 connections) — `src/data/dealer.js`
+- **viewerFor()** (6 connections) — `src/data/dealer.js`
 - **DealerPrice()** (5 connections) — `src/components/PriceBlock.jsx`
 - **registerDealer()** (5 connections) — `src/data/dealer.js`
 - **setSession()** (5 connections) — `src/data/session.js`
@@ -28,14 +29,14 @@
 - **emit()** (2 connections) — `src/data/session.js`
 - **load()** (2 connections) — `src/data/session.js`
 - **BAND** (1 connections) — `src/data/dealer.js`
-- **hash()** (1 connections) — `src/data/dealer.js`
-- *... and 10 more nodes in this community*
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (56 shared connections)
+- [[Dealer Auth & Session Management]] (59 shared connections)
+- [[Roles & Customer Sharing Spec]] (3 shared connections)
 - [[Pricing Regression Test Suite]] (3 shared connections)
-- [[Live Pricing Audit Tool]] (2 shared connections)
+- [[Live Pricing Audit Tool]] (1 shared connections)
 
 ## Source Files
 
@@ -48,7 +49,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 203 (100%)
+- EXTRACTED: 214 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
