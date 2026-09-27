@@ -1,8 +1,8 @@
 # dl()
 
-> God node · 35 connections · `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+> God node · 35 connections · `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
 
-**Community:** [[Mobile Responsive UI Skill]]
+**Community:** [[Product Pages Specification]]
 
 ## Connections by Relation
 

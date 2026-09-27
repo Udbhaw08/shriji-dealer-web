@@ -1,49 +1,46 @@
 # Community 70
 
-> 19 nodes · cohesion 0.25
+> 19 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **get()** (22 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **np()** (20 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **zt()** (19 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **bm()** (13 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **am()** (10 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **on()** (9 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **mm()** (8 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **tm()** (8 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **jm()** (7 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **om()** (7 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **zm()** (7 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **nm()** (6 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **qm()** (6 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **Rt()** (6 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **km()** (5 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **Um()** (4 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **jp()** (3 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **oh()** (3 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **Vm()** (3 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **finder-browser.test.mjs** (12 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **route-probe-browser.test.mjs** (12 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **viewer-click.mjs** (4 connections) — `.agents/skills/archify/test/helpers/viewer-click.mjs`
+- **createViewerClick()** (4 connections) — `.agents/skills/archify/test/helpers/viewer-click.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **search()** (3 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **opened()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **hash()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **route()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **installClickObserver()** (1 connections) — `.agents/skills/archify/test/helpers/viewer-click.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (23 shared connections)
-- [[Community 32]] (11 shared connections)
-- [[Community 39]] (9 shared connections)
-- [[Claude Agent Instructions]] (8 shared connections)
-- [[Community 29]] (8 shared connections)
-- [[Product Brand & Business Vision]] (6 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (6 shared connections)
-- [[Product Requirements Documentation]] (5 shared connections)
-- [[Roles & Customer Sharing Spec]] (4 shared connections)
+- [[Community 43]] (8 shared connections)
+- [[Community 40]] (2 shared connections)
+- [[Community 65]] (2 shared connections)
+- [[Community 93]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CXakf2n5.js`
+- `.agents/skills/archify/test/finder-browser.test.mjs`
+- `.agents/skills/archify/test/helpers/viewer-click.mjs`
+- `.agents/skills/archify/test/route-probe-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 166 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 69 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

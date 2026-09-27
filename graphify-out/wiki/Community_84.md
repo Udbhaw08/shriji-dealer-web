@@ -4,35 +4,38 @@
 
 ## Key Concepts
 
-- **legend-contract.test.mjs** (15 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **legendKinds()** (3 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **run()** (3 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **attrValues()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **canonicalSvg()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **clone()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **render()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **validateFailure()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **withLegend()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **AUTO_KINDS** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **CATALOGS** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **FIXTURES** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **compareArchitecture()** (12 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **fail()** (8 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **canonicalArchitecture()** (5 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryIndex()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **canonicalArchitectureJson()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **equal()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **normalizeRepository()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **canonical()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **extractArchitectureSvg()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **extractArtifactCss()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **presentationChanged()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **requireComparableShape()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **stableIndex()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryKey()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **sortedBy()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **summaryFor()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 50]] (18 shared connections)
+- [[Community 88]] (4 shared connections)
+- [[Community 101]] (2 shared connections)
+- [[Community 110]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/legend-contract.test.mjs`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 61 (94%)
+- INFERRED: 4 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

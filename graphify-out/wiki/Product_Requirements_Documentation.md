@@ -1,55 +1,56 @@
 # Product Requirements Documentation
 
-> 52 nodes · cohesion 0.07
+> 53 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **tl()** (20 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **F()** (15 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **Pd()** (15 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **Hc()** (14 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **ac()** (13 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **zc()** (12 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **delete()** (11 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **cc()** (10 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **oa()** (10 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **ba()** (9 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **Ei()** (9 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **hh()** (9 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **yh()** (9 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **jd()** (8 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **lc()** (8 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **gf()** (7 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **go()** (7 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **mh()** (7 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **oc()** (7 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **ti()** (7 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **ph()** (6 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **Ri()** (6 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **uc()** (6 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **ys()** (6 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- **dh()** (5 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
-- *... and 27 more nodes in this community*
+- **zoho.js** (31 connections) — `api/zoho.js`
+- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
+- **fetchZohoProductById()** (12 connections) — `api/zoho.js`
+- **fetchZohoProducts()** (11 connections) — `api/zoho.js`
+- **fetchZohoWithRetry()** (11 connections) — `api/zoho.js`
+- **getZohoConfig()** (11 connections) — `api/zoho.js`
+- **findDealerByPhone()** (9 connections) — `api/zoho.js`
+- **vite.config.js** (9 connections) — `vite.config.js`
+- **createDealerContact()** (8 connections) — `api/zoho.js`
+- **getDealerById()** (8 connections) — `api/zoho.js`
+- **fetchZohoCategories()** (7 connections) — `api/zoho.js`
+- **getAccessToken()** (7 connections) — `api/zoho.js`
+- **zohoApiPlugin()** (7 connections) — `vite.config.js`
+- **fetchZohoPricebookItems()** (5 connections) — `api/zoho.js`
+- **normalizeProduct()** (5 connections) — `api/zoho.js`
+- **index.js** (4 connections) — `api/products/index.js`
+- **test-zoho-api.mjs** (4 connections) — `scripts/test-zoho-api.mjs`
+- **og.js** (3 connections) — `api/og.js`
+- **fetchZohoPricebooks()** (3 connections) — `api/zoho.js`
+- **loadEnv()** (3 connections) — `api/zoho.js`
+- **apply.js** (3 connections) — `api/dealer/apply.js`
+- **info.js** (3 connections) — `api/dealer/info.js`
+- **login.js** (3 connections) — `api/dealer/login.js`
+- **[id].js** (3 connections) — `api/products/[id].js`
+- **handler()** (3 connections) — `api/products/index.js`
+- *... and 28 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (61 shared connections)
-- [[Roles & Customer Sharing Spec]] (24 shared connections)
-- [[Product Brand & Business Vision]] (21 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (13 shared connections)
-- [[Claude Agent Instructions]] (8 shared connections)
-- [[Community 29]] (7 shared connections)
-- [[Community 39]] (7 shared connections)
-- [[Community 32]] (5 shared connections)
-- [[Community 70]] (5 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CXakf2n5.js`
+- `api/dealer/apply.js`
+- `api/dealer/info.js`
+- `api/dealer/login.js`
+- `api/og.js`
+- `api/products/[id].js`
+- `api/products/index.js`
+- `api/zoho.js`
+- `scripts/audit_prices.mjs`
+- `scripts/test-zoho-api.mjs`
+- `vite.config.js`
 
 ## Audit Trail
 
-- EXTRACTED: 339 (100%)
+- EXTRACTED: 226 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

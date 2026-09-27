@@ -1,43 +1,44 @@
 # Community 79
 
-> 18 nodes · cohesion 0.16
+> 18 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **viewer-chrome-layout.test.mjs** (21 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
-- **evaluate()** (5 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
-- **waitForLayout()** (4 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
-- **finalGeometry()** (3 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
-- **resize()** (3 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
-- **edgePaintHitsUnderDock()** (2 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
-- **state()** (2 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
-- **clearStage()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
-- **renderWithoutLegend()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
-- **variant()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
-- **zero()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **output-path.mjs** (22 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **resolveOutputPath()** (11 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **futurePathsAlias()** (6 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **pathsAlias()** (6 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **canonicalFuturePath()** (5 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **sameFileIdentity()** (5 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **probeDirectorySemantics()** (4 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **canonicalize()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **directoryIdentityKey()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **hasFileIdentity()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **pathIsInside()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **probeNamesAlias()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **sameDirectory()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **nearestExistingDirectory()** (2 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **OutputPathError** (2 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **splitAbsolute()** (2 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **directorySemanticsCache** (1 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
 
 ## Relationships
 
-- [[Community 41]] (2 shared connections)
-- [[Community 63]] (1 shared connections)
-- [[Community 94]] (1 shared connections)
-- [[Community 44]] (1 shared connections)
+- [[Community 30]] (4 shared connections)
+- [[Master Codebase Architecture Reference]] (4 shared connections)
+- [[Community 56]] (3 shared connections)
+- [[Community 88]] (2 shared connections)
+- [[Community 130]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- `.agents/skills/archify/renderers/shared/output-path.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 53 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 82 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

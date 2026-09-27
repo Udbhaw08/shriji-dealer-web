@@ -20,8 +20,8 @@
 
 ## Relationships
 
-- [[Community 95]] (2 shared connections)
-- [[Zoho Integration Architecture]] (1 shared connections)
+- [[Community 94]] (2 shared connections)
+- [[Community 64]] (1 shared connections)
 
 ## Source Files
 

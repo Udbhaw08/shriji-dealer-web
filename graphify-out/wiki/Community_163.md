@@ -15,7 +15,7 @@
 
 ## Relationships
 
-- [[Testing & Workflow Skill]] (1 shared connections)
+- [[Community 58]] (1 shared connections)
 - [[Dependencies & Package Config]] (1 shared connections)
 
 ## Source Files

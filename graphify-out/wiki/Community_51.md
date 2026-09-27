@@ -32,9 +32,9 @@
 
 ## Relationships
 
-- [[Community 42]] (16 shared connections)
-- [[Community 30]] (3 shared connections)
-- [[Community 82]] (3 shared connections)
+- [[Community 41]] (16 shared connections)
+- [[Graphify Agent Rules]] (3 shared connections)
+- [[Community 83]] (3 shared connections)
 
 ## Source Files
 

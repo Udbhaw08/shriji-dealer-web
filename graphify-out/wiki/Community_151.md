@@ -15,7 +15,7 @@
 
 ## Relationships
 
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (2 shared connections)
+- [[Graphify Knowledge Graph Skill]] (2 shared connections)
 
 ## Source Files
 

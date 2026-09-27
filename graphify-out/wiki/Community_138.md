@@ -16,8 +16,8 @@
 
 ## Relationships
 
-- [[Pricing & Roles Skill]] (2 shared connections)
-- [[Community 127]] (1 shared connections)
+- [[Mobile Responsive UI Skill]] (2 shared connections)
+- [[Community 128]] (1 shared connections)
 
 ## Source Files
 

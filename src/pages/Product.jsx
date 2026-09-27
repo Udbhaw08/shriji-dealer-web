@@ -35,7 +35,6 @@ const TAB_ITEMS = [
 
 export default function Product() {
   const { id } = useParams();
-  const navigate = useNavigate();
   const [params, setParams] = useSearchParams();
   const session = useSession();
   const isGated = isPortalGated(session);

@@ -1,51 +1,55 @@
 # Pricing Hierarchy & Zero-Leakage Spec
 
-> 44 nodes · cohesion 0.05
+> 44 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **properties** (30 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **label** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **pad** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **row** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **brand** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **from** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **fromSide** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **id** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **kind** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **labelAt** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **labelDx** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **labelDy** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **pos** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **route** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **sublabel** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **tag** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **to** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **toSide** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **variant** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **width** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **i()** (66 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **n()** (28 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **t()** (23 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **as()** (13 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **s()** (12 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **r()** (11 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **ss()** (9 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **fs()** (7 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **js()** (7 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **ms()** (7 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **tc()** (7 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **zs()** (7 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **bs()** (6 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **Mp()** (6 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **vs()** (6 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **cs()** (5 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **el()** (5 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **ks()** (5 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **os()** (5 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **Qa()** (5 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **x()** (5 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **ds()** (4 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **ec()** (4 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **et()** (4 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **no()** (4 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
 - *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [[Community 88]] (5 shared connections)
-- [[Community 151]] (2 shared connections)
-- [[Community 240]] (1 shared connections)
-- [[Community 241]] (1 shared connections)
-- [[Community 197]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (54 shared connections)
+- [[Pricing Regression Test Suite]] (24 shared connections)
+- [[Zoho Integration Skill]] (18 shared connections)
+- [[Community 29]] (16 shared connections)
+- [[Live Pricing Audit Tool]] (14 shared connections)
+- [[Vercel Deployment Routing]] (13 shared connections)
+- [[Claude Agent Instructions]] (7 shared connections)
+- [[Community 37]] (5 shared connections)
+- [[Community 71]] (4 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `ios/App/App/public/assets/index-C1AeKaZg.js`
 
 ## Audit Trail
 
-- EXTRACTED: 96 (100%)
+- EXTRACTED: 313 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

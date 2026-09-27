@@ -1,47 +1,55 @@
 # Community 38
 
-> 33 nodes · cohesion 0.06
+> 32 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **scripts** (15 connections) — `.agents/skills/archify/package.json`
-- **package.json** (11 connections) — `.agents/skills/archify/package.json`
-- **devDependencies** (5 connections) — `.agents/skills/archify/package.json`
-- **bin** (2 connections) — `.agents/skills/archify/package.json`
-- **engines** (2 connections) — `.agents/skills/archify/package.json`
-- **overrides** (2 connections) — `.agents/skills/archify/package.json`
-- **archify** (1 connections) — `.agents/skills/archify/package.json`
-- **description** (1 connections) — `.agents/skills/archify/package.json`
-- **ajv** (1 connections) — `.agents/skills/archify/package.json`
-- **parse5** (1 connections) — `.agents/skills/archify/package.json`
-- **saxes** (1 connections) — `.agents/skills/archify/package.json`
-- **simple-icons** (1 connections) — `.agents/skills/archify/package.json`
-- **node** (1 connections) — `.agents/skills/archify/package.json`
-- **license** (1 connections) — `.agents/skills/archify/package.json`
-- **name** (1 connections) — `.agents/skills/archify/package.json`
-- **fast-uri** (1 connections) — `.agents/skills/archify/package.json`
-- **private** (1 connections) — `.agents/skills/archify/package.json`
-- **build:gallery** (1 connections) — `.agents/skills/archify/package.json`
-- **build:guide** (1 connections) — `.agents/skills/archify/package.json`
-- **build:readme-showcase** (1 connections) — `.agents/skills/archify/package.json`
-- **build:start** (1 connections) — `.agents/skills/archify/package.json`
-- **check:brand-marks** (1 connections) — `.agents/skills/archify/package.json`
-- **check:release-identity** (1 connections) — `.agents/skills/archify/package.json`
-- **check:validators** (1 connections) — `.agents/skills/archify/package.json`
-- **check:viewer** (1 connections) — `.agents/skills/archify/package.json`
-- *... and 8 more nodes in this community*
+- **vl()** (26 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
+- **qd()** (15 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
+- **Yd()** (13 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
+- **Fd()** (12 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
+- **yl()** (12 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
+- **Vd()** (11 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
+- **bl()** (7 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
+- **ef()** (7 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
+- **Bd()** (6 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
+- **Ci()** (6 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
+- **Id()** (6 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
+- **Oe()** (6 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
+- **Rd()** (6 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
+- **ea()** (5 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
+- **Fo()** (5 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
+- **ml()** (5 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
+- **Hd()** (4 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
+- **Ku()** (4 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
+- **pl()** (4 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
+- **Ro()** (4 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
+- **rs()** (4 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
+- **tf()** (4 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
+- **Gd()** (3 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
+- **to()** (3 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
+- **Ud()** (3 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (37 shared connections)
+- [[Product Pages Specification]] (16 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (9 shared connections)
+- [[Roles & Customer Sharing Spec]] (8 shared connections)
+- [[Community 35]] (6 shared connections)
+- [[Client Products Data Store]] (6 shared connections)
+- [[Community 47]] (4 shared connections)
+- [[Community 32]] (2 shared connections)
+- [[Graphify Workflow]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/package.json`
+- `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (100%)
+- EXTRACTED: 197 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

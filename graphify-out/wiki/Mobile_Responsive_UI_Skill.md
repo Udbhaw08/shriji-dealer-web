@@ -1,55 +1,55 @@
 # Mobile Responsive UI Skill
 
-> 42 nodes · cohesion 0.08
+> 43 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **dl()** (35 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **kc()** (15 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **lm()** (13 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **cl()** (12 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **ol()** (11 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **ul()** (11 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **la()** (9 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **Sp()** (9 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **fc()** (8 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **zo()** (8 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **Gc()** (6 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **ll()** (6 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **ns()** (6 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **ua()** (6 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **C()** (5 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **ga()** (5 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **hm()** (5 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **Lo()** (5 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **nl()** (5 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **Pc()** (5 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **Qo()** (5 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **rl()** (5 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **sl()** (5 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **ya()** (5 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **dm()** (4 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- *... and 17 more nodes in this community*
+- **properties** (33 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **bias** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **height** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **labelSegment** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **brand** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **channelX** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **channelY** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **fromSide** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **labelAt** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **labelDx** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **labelDy** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **lane** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **role** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **route** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **sublabel** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **tag** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **toSide** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **yOffset** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **maximum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (45 shared connections)
-- [[Product Pages Specification]] (20 shared connections)
-- [[Architecture Doc Generator]] (14 shared connections)
-- [[Project Readme & Layout]] (12 shared connections)
-- [[Community 37]] (9 shared connections)
-- [[Graphify Workflow]] (7 shared connections)
-- [[Community 31]] (6 shared connections)
-- [[Community 68]] (6 shared connections)
-- [[Zoho Integration Skill]] (5 shared connections)
+- [[Community 95]] (5 shared connections)
+- [[Community 138]] (2 shared connections)
+- [[Community 226]] (1 shared connections)
+- [[Community 227]] (1 shared connections)
+- [[Community 253]] (1 shared connections)
+- [[Community 228]] (1 shared connections)
+- [[Community 254]] (1 shared connections)
+- [[Community 62]] (1 shared connections)
+- [[Community 255]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 262 (100%)
+- EXTRACTED: 98 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

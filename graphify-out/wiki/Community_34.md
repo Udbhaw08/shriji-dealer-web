@@ -1,58 +1,47 @@
 # Community 34
 
-> 35 nodes · cohesion 0.15
+> 34 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **Product.jsx** (36 connections) — `src/pages/Product.jsx`
-- **dealer.js** (29 connections) — `src/data/dealer.js`
-- **ProductCard.jsx** (19 connections) — `src/components/ProductCard.jsx`
-- **dealer.test.mjs** (18 connections) — `src/data/dealer.test.mjs`
-- **Product()** (16 connections) — `src/pages/Product.jsx`
-- **PriceBlock.jsx** (15 connections) — `src/components/PriceBlock.jsx`
-- **ProductCard()** (15 connections) — `src/components/ProductCard.jsx`
-- **isDealer()** (15 connections) — `src/data/dealer.js`
-- **priceFor()** (14 connections) — `src/data/dealer.js`
-- **inr()** (11 connections) — `src/data/dealer.js`
-- **viewerFor()** (8 connections) — `src/data/dealer.js`
-- **CustomerPrice()** (7 connections) — `src/components/PriceBlock.jsx`
-- **productSlug()** (7 connections) — `src/data/dealer.js`
-- **shareLink()** (7 connections) — `src/data/dealer.js`
-- **tagFor()** (6 connections) — `src/data/dealer.js`
-- **DealerPrice()** (5 connections) — `src/components/PriceBlock.jsx`
-- **formatWhatsAppPhone()** (4 connections) — `src/data/dealer.js`
-- **slugifyProduct()** (4 connections) — `src/data/dealer.js`
-- **tierOf()** (4 connections) — `src/data/dealer.js`
-- **DEALERS** (3 connections) — `src/data/dealer.js`
-- **isFavorite()** (3 connections) — `src/data/favoritesStore.js`
-- **featureBoxes()** (3 connections) — `src/pages/Product.jsx`
-- **PriceBlock()** (2 connections) — `src/components/PriceBlock.jsx`
-- **price99()** (2 connections) — `src/data/dealer.js`
-- **BAND** (1 connections) — `src/data/dealer.js`
-- *... and 10 more nodes in this community*
+- **properties** (11 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **viewBox** (6 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **entries** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **legend** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **animation** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **locale** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **mode** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **output** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **subtitle** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **views** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **properties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [[Community 48]] (40 shared connections)
-- [[Community 45]] (15 shared connections)
-- [[Community 49]] (14 shared connections)
-- [[Community 87]] (11 shared connections)
-- [[Community 112]] (4 shared connections)
-- [[Community 111]] (3 shared connections)
-- [[Community 80]] (3 shared connections)
+- [[Community 63]] (1 shared connections)
 
 ## Source Files
 
-- `src/components/PriceBlock.jsx`
-- `src/components/ProductCard.jsx`
-- `src/data/dealer.js`
-- `src/data/dealer.test.mjs`
-- `src/data/favoritesStore.js`
-- `src/pages/Product.jsx`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 264 (100%)
+- EXTRACTED: 67 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

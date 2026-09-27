@@ -1,48 +1,41 @@
 # Community 68
 
-> 19 nodes · cohesion 0.25
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **get()** (22 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **np()** (20 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **zt()** (19 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **bm()** (13 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **am()** (10 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **on()** (9 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **mm()** (8 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **tm()** (8 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **jm()** (7 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **om()** (7 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **zm()** (7 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **nm()** (6 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **qm()** (6 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **Rt()** (6 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **km()** (5 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **Um()** (4 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **jp()** (3 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **oh()** (3 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
-- **Vm()** (3 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **Authoring contract** (12 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Mode placement** (6 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Executable geometry rules** (3 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **authoring-contract.md** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Architecture** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Dataflow** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Engineering profile default** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Hand-placed fallback** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Language consistency** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Legend contract** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Lifecycle** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Repair order** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Repository evidence** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Schema lookup** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Sequence** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Spacing and labels** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Title hierarchy** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Visual preset default** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Workflow** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Workflow layout contracts** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (23 shared connections)
-- [[Community 31]] (11 shared connections)
-- [[Community 37]] (9 shared connections)
-- [[Zoho Integration Skill]] (8 shared connections)
-- [[Graphify Workflow]] (8 shared connections)
-- [[Mobile Responsive UI Skill]] (6 shared connections)
-- [[Project Readme & Layout]] (6 shared connections)
-- [[Product Pages Specification]] (5 shared connections)
-- [[Architecture Doc Generator]] (4 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- `.agents/skills/archify/references/authoring-contract.md`
 
 ## Audit Trail
 
-- EXTRACTED: 166 (100%)
+- EXTRACTED: 38 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

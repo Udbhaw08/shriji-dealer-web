@@ -1,46 +1,48 @@
 # Community 71
 
-> 19 nodes · cohesion 0.11
+> 19 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **$defs** (16 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **animation** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **brandMark** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **componentType** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **legendMode** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **locale** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **qualityProfile** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **side** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **variant** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **visualPreset** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **oneOf** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **get()** (22 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **np()** (20 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **zt()** (19 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **bm()** (13 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **am()** (10 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **on()** (9 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **mm()** (8 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **tm()** (8 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **jm()** (7 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **om()** (7 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **zm()** (7 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **nm()** (6 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **qm()** (6 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **Rt()** (6 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **km()** (5 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **Um()** (4 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **jp()** (3 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **oh()** (3 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **Vm()** (3 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
 
 ## Relationships
 
-- [[Community 220]] (1 shared connections)
-- [[Community 136]] (1 shared connections)
-- [[Community 242]] (1 shared connections)
-- [[Community 243]] (1 shared connections)
-- [[Community 114]] (1 shared connections)
-- [[Community 199]] (1 shared connections)
-- [[Community 244]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (23 shared connections)
+- [[Community 29]] (11 shared connections)
+- [[Community 37]] (9 shared connections)
+- [[Zoho Integration Skill]] (8 shared connections)
+- [[Vercel Deployment Routing]] (8 shared connections)
+- [[Live Pricing Audit Tool]] (6 shared connections)
+- [[Claude Agent Instructions]] (6 shared connections)
+- [[Pricing Regression Test Suite]] (5 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (4 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `ios/App/App/public/assets/index-C1AeKaZg.js`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (100%)
+- EXTRACTED: 166 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

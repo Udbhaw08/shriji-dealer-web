@@ -15,11 +15,11 @@
 
 ## Relationships
 
-- [[Community 95]] (8 shared connections)
-- [[Community 100]] (5 shared connections)
-- [[Zoho Integration Architecture]] (4 shared connections)
+- [[Community 94]] (8 shared connections)
+- [[Community 99]] (5 shared connections)
+- [[Community 64]] (4 shared connections)
 - [[Dependencies & Package Config]] (3 shared connections)
-- [[Community 44]] (1 shared connections)
+- [[Community 43]] (1 shared connections)
 
 ## Source Files
 

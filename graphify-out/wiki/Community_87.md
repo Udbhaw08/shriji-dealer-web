@@ -1,44 +1,37 @@
 # Community 87
 
-> 15 nodes · cohesion 0.26
+> 16 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **Products.jsx** (25 connections) — `src/pages/Products.jsx`
-- **ProductSearchBar.jsx** (15 connections) — `src/components/ProductSearchBar.jsx`
-- **useProducts()** (12 connections) — `src/data/productsStore.js`
-- **searchHelper.js** (11 connections) — `src/data/searchHelper.js`
-- **ProductSearchBar()** (6 connections) — `src/components/ProductSearchBar.jsx`
-- **getSuggestions()** (5 connections) — `src/data/searchHelper.js`
-- **autocorrectQuery()** (4 connections) — `src/data/searchHelper.js`
-- **buildSearchDictionary()** (4 connections) — `src/data/searchHelper.js`
-- **useProduct()** (2 connections) — `src/data/productsStore.js`
-- **getPopularSearches()** (2 connections) — `src/data/searchHelper.js`
-- **scoreProduct()** (2 connections) — `src/data/searchHelper.js`
-- **COLLOQUIAL_SYNONYMS** (1 connections) — `src/data/searchHelper.js`
-- **levenshteinDistance()** (1 connections) — `src/data/searchHelper.js`
-- **Group()** (1 connections) — `src/pages/Products.jsx`
-- **SORT_FNS** (1 connections) — `src/pages/Products.jsx`
+- **legend-contract.test.mjs** (15 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **legendKinds()** (3 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **run()** (3 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **attrValues()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **canonicalSvg()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **clone()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **render()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **validateFailure()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **withLegend()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **AUTO_KINDS** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **CATALOGS** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **FIXTURES** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
 
 ## Relationships
 
-- [[Community 48]] (12 shared connections)
-- [[Community 34]] (11 shared connections)
-- [[Community 45]] (7 shared connections)
-- [[Community 49]] (5 shared connections)
-- [[Community 112]] (2 shared connections)
-- [[Community 111]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/components/ProductSearchBar.jsx`
-- `src/data/productsStore.js`
-- `src/data/searchHelper.js`
-- `src/pages/Products.jsx`
+- `.agents/skills/archify/test/legend-contract.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 92 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

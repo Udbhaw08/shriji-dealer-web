@@ -1,8 +1,8 @@
 # dl()
 
-> God node · 35 connections · `ios/App/App/public/assets/index-CXakf2n5.js`
+> God node · 35 connections · `ios/App/App/public/assets/index-C1AeKaZg.js`
 
-**Community:** [[Product Brand & Business Vision]]
+**Community:** [[Live Pricing Audit Tool]]
 
 ## Connections by Relation
 
