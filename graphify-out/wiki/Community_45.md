@@ -34,10 +34,10 @@
 ## Relationships
 
 - [[Community 37]] (16 shared connections)
-- [[Community 43]] (9 shared connections)
-- [[Community 54]] (7 shared connections)
+- [[Community 44]] (8 shared connections)
+- [[Community 42]] (8 shared connections)
 - [[Community 90]] (5 shared connections)
-- [[Community 117]] (1 shared connections)
+- [[Community 121]] (1 shared connections)
 
 ## Source Files
 

@@ -1,61 +1,56 @@
 # Community 34
 
-> 34 nodes · cohesion 0.10
+> 34 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **visual-check.mjs** (50 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **runVisualCheck()** (18 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **visual-check.test.mjs** (14 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **desktop-reader-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
-- **observationDiagnostics()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **safeUnlink()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **writeAtomic()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **baseReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **chromeVisualBrowserArgs()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **cleanupCaptureSidecars()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **contactSheetHtml()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **failureDiagnostic()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **persistReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **sha256()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **sidecarPaths()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **htmlEscape()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **observation()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **screenshotKey()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **viewportSubject()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **VISUAL_CHECK_VIEWPORTS** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **CAPTURE_VIEWPORTS** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **EXIT** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **THEMES** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
-- **packagedHtmlExamples** (1 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- **Z()** (23 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
+- **xl()** (12 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
+- **yi()** (12 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
+- **delete()** (11 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
+- **hu()** (11 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
+- **ql()** (10 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
+- **vu()** (10 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
+- **pu()** (8 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
+- **gf()** (7 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
+- **gt()** (7 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
+- **jl()** (7 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
+- **Zl()** (7 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
+- **Lu()** (6 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
+- **mu()** (6 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
+- **Nd()** (6 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
+- **zu()** (6 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
+- **Ma()** (5 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
+- **ru()** (5 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
+- **tl()** (5 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
+- **_u()** (5 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
+- **vf()** (5 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
+- **cl()** (4 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
+- **eu()** (4 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
+- **tu()** (4 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
+- **Uu()** (4 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
 - *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [[Community 104]] (7 shared connections)
-- [[Community 89]] (6 shared connections)
-- [[Product Pages Specification]] (4 shared connections)
-- [[Community 44]] (3 shared connections)
-- [[Community 86]] (2 shared connections)
-- [[Community 98]] (2 shared connections)
-- [[Community 68]] (2 shared connections)
-- [[Community 100]] (1 shared connections)
-- [[Community 101]] (1 shared connections)
-- [[Community 38]] (1 shared connections)
-- [[Testing & Workflow Skill]] (1 shared connections)
-- [[Community 114]] (1 shared connections)
+- [[Price Presentation & Product UI]] (39 shared connections)
+- [[Pricing Regression Test Suite]] (16 shared connections)
+- [[Client Products Data Store]] (8 shared connections)
+- [[Product Requirements Documentation]] (7 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (6 shared connections)
+- [[Dependencies & Package Config]] (5 shared connections)
+- [[Community 33]] (4 shared connections)
+- [[Community 120]] (3 shared connections)
+- [[Community 62]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
-- `.agents/skills/archify/test/visual-check.test.mjs`
+- `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
 
 ## Audit Trail
 
-- EXTRACTED: 149 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 216 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

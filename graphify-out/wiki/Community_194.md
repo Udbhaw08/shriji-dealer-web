@@ -1,35 +1,28 @@
 # Community 194
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **delete()** (11 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
-- **gf()** (7 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
-- **pt()** (4 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
-- **vf()** (4 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
-- **hf()** (3 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
-- **hl()** (3 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **story-horizon.test.mjs** (6 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (7 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (4 shared connections)
-- [[Community 41]] (2 shared connections)
-- [[Client Products Data Store]] (2 shared connections)
-- [[Architecture Doc Generator]] (2 shared connections)
-- [[Claude Agent Instructions]] (2 shared connections)
-- [[Community 46]] (1 shared connections)
-- [[Roles & Customer Sharing Spec]] (1 shared connections)
-- [[Community 65]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DgXogr-X.js`
+- `.agents/skills/archify/test/story-horizon.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

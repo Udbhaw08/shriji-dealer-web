@@ -21,13 +21,13 @@
 
 ## Relationships
 
-- [[Community 170]] (8 shared connections)
+- [[Community 172]] (8 shared connections)
 - [[Design System & UI Tokens]] (4 shared connections)
-- [[Community 62]] (4 shared connections)
-- [[Community 33]] (3 shared connections)
+- [[Community 61]] (4 shared connections)
+- [[Community 39]] (3 shared connections)
 - [[Community 96]] (3 shared connections)
 - [[Community 103]] (2 shared connections)
-- [[Community 48]] (2 shared connections)
+- [[Community 47]] (2 shared connections)
 
 ## Source Files
 

@@ -25,10 +25,10 @@
 ## Relationships
 
 - [[Community 31]] (19 shared connections)
-- [[Community 76]] (12 shared connections)
+- [[Community 75]] (12 shared connections)
 - [[Community 70]] (7 shared connections)
 - [[Community 71]] (3 shared connections)
-- [[Community 29]] (2 shared connections)
+- [[Graphify Workflow]] (2 shared connections)
 
 ## Source Files
 

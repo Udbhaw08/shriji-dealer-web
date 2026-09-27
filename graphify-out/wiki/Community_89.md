@@ -21,17 +21,17 @@
 
 ## Relationships
 
-- [[Community 44]] (7 shared connections)
-- [[Community 34]] (6 shared connections)
+- [[Community 43]] (7 shared connections)
+- [[Community 40]] (6 shared connections)
 - [[Community 68]] (2 shared connections)
-- [[Community 104]] (2 shared connections)
+- [[Community 50]] (2 shared connections)
+- [[Community 63]] (2 shared connections)
 - [[Community 100]] (1 shared connections)
 - [[Community 101]] (1 shared connections)
-- [[Community 38]] (1 shared connections)
+- [[Community 88]] (1 shared connections)
 - [[Testing & Workflow Skill]] (1 shared connections)
-- [[Community 114]] (1 shared connections)
-- [[Community 147]] (1 shared connections)
-- [[Community 98]] (1 shared connections)
+- [[Community 117]] (1 shared connections)
+- [[Community 149]] (1 shared connections)
 - [[Community 102]] (1 shared connections)
 
 ## Source Files

@@ -10,7 +10,7 @@
 
 ## Relationships
 
-- [[Pricing & Roles Skill]] (1 shared connections)
+- [[Oxlint Linter Configuration]] (1 shared connections)
 
 ## Source Files
 

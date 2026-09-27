@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **generate-validators.mjs** (8 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **ajv** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **diagramTypes** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **output** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **root** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **schemaIds** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **schemasDir** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **validatorCode** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **Delivery contract** (8 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **delivery-contract.md** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Automated browser evidence** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Handoff receipt** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Last-Good Live Preview** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Optional opening** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Perceptual delivery gate** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Recovering a failed comparison** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Validate and deliver** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/generate-validators.mjs`
+- `.agents/skills/archify/references/delivery-contract.md`
 
 ## Audit Trail
 

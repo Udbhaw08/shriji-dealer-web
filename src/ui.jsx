@@ -321,17 +321,6 @@ export function Header() {
           <AccountLink />
         </div>
 
-        {!isGated && (
-          <Link
-            to="/favorites"
-            className="hdr-fav-btn mobile-fav-btn"
-            aria-label={`Favorites (${favCount})`}
-            title="Saved Favorites"
-          >
-            <Icon name="heart" size={18} />
-            {favCount > 0 && <span className="hdr-fav-count">{favCount}</span>}
-          </Link>
-        )}
 
         <button
           className="icon-btn burger"

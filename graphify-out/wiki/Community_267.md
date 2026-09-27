@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **step** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **toSide** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- [[Zoho Integration Skill]] (1 shared connections)
+- [[Project Readme & Layout]] (1 shared connections)
 
 ## Source Files
 

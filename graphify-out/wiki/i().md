@@ -1,32 +1,32 @@
 # i()
 
-> God node · 66 connections · `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+> God node · 70 connections · `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
 
-**Community:** [[Master Codebase Architecture Reference]]
+**Community:** [[Agent Guidelines (AGENTS.md)]]
 
 ## Connections by Relation
 
 ### calls
-- [[dl()]] `EXTRACTED`
-- [[D()]] `EXTRACTED`
+- [[fl()]] `EXTRACTED`
 - [[vl()]] `EXTRACTED`
-- [[np()]] `EXTRACTED`
-- [[tl()]] `EXTRACTED`
+- [[D()]] `EXTRACTED`
+- [[n()]] `EXTRACTED`
 - [[t()]] `EXTRACTED`
+- [[get()]] `EXTRACTED`
+- [[np()]] `EXTRACTED`
+- [[nl()]] `EXTRACTED`
 - [[b()]] `EXTRACTED`
-- [[Jr()]] `EXTRACTED`
+- [[mt()]] `EXTRACTED`
+- [[uc()]] `EXTRACTED`
 - [[Au()]] `EXTRACTED`
-- [[kc()]] `EXTRACTED`
-- [[bm()]] `EXTRACTED`
-- [[Hc()]] `EXTRACTED`
 - [[O()]] `EXTRACTED`
-- [[ac()]] `EXTRACTED`
-- [[as()]] `EXTRACTED`
-- [[Yd()]] `EXTRACTED`
-- [[cl()]] `EXTRACTED`
-- [[Fd()]] `EXTRACTED`
-- [[s()]] `EXTRACTED`
 - [[yl()]] `EXTRACTED`
+- [[dn()]] `EXTRACTED`
+- [[ki()]] `EXTRACTED`
+- [[ll()]] `EXTRACTED`
+- [[sa()]] `EXTRACTED`
+- [[Yd()]] `EXTRACTED`
+- [[a()]] `EXTRACTED`
 
 ### contains
 - [[_()]] `EXTRACTED`

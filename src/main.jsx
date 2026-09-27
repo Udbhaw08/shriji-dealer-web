@@ -14,6 +14,7 @@ import Support from "./pages/Support";
 import Login from "./pages/Login";
 import { useSession } from "./data/session";
 import { isPortalGated } from "./data/portalGate";
+import NativeBackHandler from "./components/NativeBackHandler";
 
 class ErrorBoundary extends Component {
   constructor(props) {
@@ -90,6 +91,7 @@ createRoot(document.getElementById("root")).render(
     <ErrorBoundary>
       <BrowserRouter>
         <ScrollManager />
+        <NativeBackHandler />
         <a className="skip" href="#main">Skip to content</a>
         <Header />
         <main id="main">

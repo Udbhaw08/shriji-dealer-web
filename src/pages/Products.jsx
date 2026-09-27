@@ -265,9 +265,10 @@ export default function Products() {
         </div>
       </section>
 
-      <div className="toolbar">
-        <div className="wrap stack">
-          <div className="row" style={{ flexWrap: "nowrap", gap: "var(--s3)", alignItems: "center" }}>
+      {/* Sticky Search & Filter Bar */}
+      <div className="products-sticky-bar">
+        <div className="wrap">
+          <div className="products-sticky-search-row">
             <ProductSearchBar
               value={q}
               onChange={(val) => {
@@ -306,8 +307,12 @@ export default function Products() {
               </span>
             </button>
           </div>
+        </div>
+      </div>
 
-          {/* Quick Category Chips with Multi-Select & Favorites Toggle */}
+      {/* Quick Category Chips with Multi-Select & Favorites Toggle */}
+      <div className="toolbar toolbar-chips-only">
+        <div className="wrap">
           <div className="catchips" role="group" aria-label="Filter by category">
             {/* All Products Chip */}
             <button

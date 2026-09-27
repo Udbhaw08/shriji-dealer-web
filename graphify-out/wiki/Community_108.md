@@ -21,7 +21,7 @@
 
 - [[Design System & UI Tokens]] (6 shared connections)
 - [[Community 95]] (3 shared connections)
-- [[Community 49]] (2 shared connections)
+- [[Community 48]] (2 shared connections)
 - [[Community 82]] (1 shared connections)
 
 ## Source Files

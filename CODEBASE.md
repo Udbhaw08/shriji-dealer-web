@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-09-28T04:58:54.293+05:30 (GMT+5:30)
-> Total Project Files: 821
+> Last synchronized: 2026-09-28T05:12:50.270+05:30 (GMT+5:30)
+> Total Project Files: 825
 
 ---
 
@@ -84,14 +84,15 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/pages/Favorites.jsx`** (6.7 KB)
 - **`src/pages/Home.jsx`** (18.5 KB)
 - **`src/pages/Login.jsx`** (24.3 KB)
-- **`src/pages/Product.jsx`** (26.9 KB)
-- **`src/pages/Products.jsx`** (24.4 KB)
+- **`src/pages/Product.jsx`** (27.0 KB)
+- **`src/pages/Products.jsx`** (24.5 KB)
 - **`src/pages/Schemes.jsx`** (7.4 KB)
 - **`src/pages/Support.jsx`** (4.7 KB)
 
 ### 4.2 Reusable Components (`src/components/` & `src/ui.jsx`)
 - **`src/components/HeroSlider.jsx`** (5.8 KB)
 - **`src/components/MobileBottomNav.jsx`** (4.4 KB)
+- **`src/components/NativeBackHandler.jsx`** (3.7 KB)
 - **`src/components/PriceBlock.jsx`** (5.2 KB)
 - **`src/components/ProductCard.jsx`** (3.1 KB)
 - **`src/components/ProductSearchBar.jsx`** (16.6 KB)

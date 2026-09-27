@@ -1,55 +1,47 @@
 # Zoho API Diagnostic Script
 
-> 39 nodes · cohesion 0.10
+> 40 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **b()** (18 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **.addEventListener()** (18 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **fp()** (14 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **h()** (14 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **.removeEventListener()** (12 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **tp()** (10 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **ip()** (9 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **en()** (8 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **gn()** (8 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **sn()** (8 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **cm()** (7 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **lp()** (7 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **em()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **.blur()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **.scrollIntoView()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **g()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **yn()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **pm()** (5 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **Rp()** (5 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **tn()** (5 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **uh()** (5 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **un()** (5 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **an()** (4 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **Bp()** (4 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **.getClientRects()** (4 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- *... and 14 more nodes in this community*
+- **webm-artifact.smoke.mjs** (39 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **navigateReady()** (12 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **evaluate()** (11 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **delay()** (7 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **withTimeout()** (7 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **verifyArchitectureDeltaNavigator()** (5 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **captureCopiedShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **captureReachShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **captureRouteShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **captureRouteVisualMatrix()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **captureShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **verifyDynamicReducedMotionRoute()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **verifyResolvedLegendContract()** (3 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **verifySemanticPassportDismissal()** (3 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **devtoolsEndpoint()** (2 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **removeTempTree()** (2 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **waitForExit()** (2 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **chrome** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **chromeProcess** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **connectCdp()** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **executable()** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **ffmpeg** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **freePort()** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **input** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (34 shared connections)
-- [[Community 50]] (14 shared connections)
-- [[Master Codebase Architecture Reference]] (13 shared connections)
-- [[Oxlint Linter Configuration]] (11 shared connections)
-- [[Community 30]] (7 shared connections)
-- [[Community 32]] (4 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (4 shared connections)
-- [[Product Brand & Business Vision]] (3 shared connections)
-- [[Graphify Agent Rules]] (3 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- `.agents/skills/archify/test/webm-artifact.smoke.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 241 (100%)
+- EXTRACTED: 140 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

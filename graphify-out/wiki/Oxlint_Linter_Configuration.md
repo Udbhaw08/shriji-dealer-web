@@ -1,55 +1,52 @@
 # Oxlint Linter Configuration
 
-> 42 nodes · cohesion 0.10
+> 43 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **D()** (27 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **ft()** (20 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **t()** (19 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **ie()** (15 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **O()** (14 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **rn()** (11 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **ut()** (11 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **vt()** (11 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **De()** (10 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **dt()** (10 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **nn()** (10 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **bt()** (9 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **ke()** (9 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **lt()** (9 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **gt()** (7 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **re()** (7 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **af()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **se()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **xt()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **ct()** (5 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **Jt()** (5 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **mt()** (5 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **x()** (5 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **zn()** (5 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **A()** (4 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- *... and 17 more nodes in this community*
+- **properties** (28 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **label** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelSegment** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **brand** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **channelX** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **channelY** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **classification** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **from** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **fromSide** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelAt** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelDx** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelDy** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **route** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **sublabel** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **tag** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **to** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **toSide** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **variant** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **yOffset** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (53 shared connections)
-- [[Master Codebase Architecture Reference]] (14 shared connections)
-- [[Community 50]] (13 shared connections)
-- [[Graphify Agent Rules]] (11 shared connections)
-- [[Zoho API Diagnostic Script]] (11 shared connections)
-- [[Community 30]] (8 shared connections)
-- [[Product Brand & Business Vision]] (7 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (6 shared connections)
-- [[Community 32]] (4 shared connections)
+- [[Community 114]] (3 shared connections)
+- [[Community 245]] (1 shared connections)
+- [[Community 246]] (1 shared connections)
+- [[Community 247]] (1 shared connections)
+- [[Community 223]] (1 shared connections)
+- [[Community 224]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 295 (100%)
+- EXTRACTED: 92 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

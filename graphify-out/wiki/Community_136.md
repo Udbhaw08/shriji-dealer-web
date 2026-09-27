@@ -4,28 +4,27 @@
 
 ## Key Concepts
 
-- **semanticRelation** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **from** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **to** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **properties** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **web-BskzoZVY.js** (8 connections) — `ios/App/App/public/assets/web-BskzoZVY.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-BskzoZVY.js`
+- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-BskzoZVY.js`
+- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-BskzoZVY.js`
+- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-BskzoZVY.js`
+- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-BskzoZVY.js`
+- **getState()** (1 connections) — `ios/App/App/public/assets/web-BskzoZVY.js`
+- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-BskzoZVY.js`
+- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-BskzoZVY.js`
 
 ## Relationships
 
-- [[Mobile Responsive UI Skill]] (2 shared connections)
-- [[Community 125]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `ios/App/App/public/assets/web-BskzoZVY.js`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

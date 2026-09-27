@@ -1781,6 +1781,37 @@ h4 {
   padding-block: var(--s4);
 }
 
+/* Sticky search & filter bar on Products catalog */
+.products-sticky-bar {
+  position: sticky;
+  top: 72px;
+  z-index: 45;
+  background: rgba(248, 250, 252, 0.94);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--line);
+  padding: 10px 0;
+  box-shadow: 0 4px 16px rgba(10, 20, 40, 0.04);
+}
+
+.products-sticky-search-row {
+  display: flex;
+  align-items: center;
+  gap: var(--s3);
+  width: 100%;
+}
+
+.toolbar-chips-only {
+  border-bottom: 1px solid var(--line);
+  padding-block: var(--s3);
+}
+
+@media (min-width: 960px) {
+  .toolbar-chips-only {
+    display: none !important;
+  }
+}
+
 /* ---------- product detail ---------- */
 
 .detail {
@@ -2123,6 +2154,12 @@ h4 {
     padding: 6px 12px;
     border-radius: 999px;
     flex-shrink: 0;
+    cursor: pointer;
+    font-family: inherit;
+    line-height: inherit;
+  }
+  .app-mobile-back:active {
+    background: var(--blue-50);
   }
   .app-mobile-title {
     font-size: 0.92rem;
@@ -3401,7 +3438,13 @@ h4 {
     text-decoration: none !important;
     box-shadow: 0 1px 3px rgba(15, 29, 46, 0.05) !important;
     flex-shrink: 0 !important;
+    cursor: pointer !important;
+    font-family: inherit !important;
+    line-height: inherit !important;
     margin-bottom: 0 !important;
+  }
+  .app-mobile-back:active {
+    background: var(--blue-50) !important;
   }
 
   .app-mobile-title {
@@ -3460,6 +3503,15 @@ h4 {
   }
   .toolbar {
     margin-top: 8px !important;
+    padding-block: 8px !important;
+  }
+  .products-sticky-bar {
+    top: 54px !important;
+    padding: 8px 0 !important;
+    box-shadow: 0 4px 12px rgba(10, 20, 40, 0.07) !important;
+  }
+  .toolbar-chips-only {
+    margin-top: 0 !important;
     padding-block: 8px !important;
   }
 }
@@ -4198,16 +4250,6 @@ h4 {
   border-radius: 999px;
   text-align: center;
   padding: 0 3px;
-}
-.mobile-fav-btn {
-  display: none;
-}
-@media (max-width: 900px) {
-  .mobile-fav-btn {
-    display: grid;
-    margin-left: auto;
-    margin-right: 8px;
-  }
 }
 
 /* Microphone Permission In-App Modal */

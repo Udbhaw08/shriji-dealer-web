@@ -1,64 +1,46 @@
 # Community 54
 
-> 23 nodes · cohesion 0.26
+> 23 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **main.jsx** (30 connections) — `src/main.jsx`
-- **useSession()** (24 connections) — `src/data/session.js`
-- **t()** (20 connections) — `src/data/i18n.js`
-- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
-- **Product()** (16 connections) — `src/pages/Product.jsx`
-- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
-- **useFavorites()** (13 connections) — `src/data/favoritesStore.js`
-- **dealerById()** (11 connections) — `src/data/dealer.js`
-- **Products()** (9 connections) — `src/pages/Products.jsx`
-- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
-- **portalGate.js** (8 connections) — `src/data/portalGate.js`
-- **Favorites()** (8 connections) — `src/pages/Favorites.jsx`
-- **Home()** (8 connections) — `src/pages/Home.jsx`
-- **Header()** (7 connections) — `src/ui.jsx`
-- **Login()** (6 connections) — `src/pages/Login.jsx`
-- **Schemes()** (6 connections) — `src/pages/Schemes.jsx`
-- **AccountLink()** (6 connections) — `src/ui.jsx`
-- **Footer()** (6 connections) — `src/ui.jsx`
-- **tCat()** (3 connections) — `src/data/i18n.js`
-- **featureBoxes()** (3 connections) — `src/pages/Product.jsx`
-- **ConditionalBottomNav()** (3 connections) — `src/main.jsx`
-- **RequireVerifiedDealer()** (3 connections) — `src/main.jsx`
-- **ScrollManager()** (1 connections) — `src/main.jsx`
+- **properties** (8 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **layout** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **cols** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **cellH** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **cellW** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **gapX** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **gapY** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **origin** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **maximum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- [[Community 43]] (42 shared connections)
-- [[Community 37]] (34 shared connections)
-- [[Community 90]] (9 shared connections)
-- [[Community 45]] (7 shared connections)
-- [[Community 105]] (3 shared connections)
-- [[Community 117]] (3 shared connections)
-- [[Community 216]] (1 shared connections)
+- [[Community 111]] (1 shared connections)
+- [[Community 57]] (1 shared connections)
 
 ## Source Files
 
-- `src/components/MobileBottomNav.jsx`
-- `src/data/dealer.js`
-- `src/data/favoritesStore.js`
-- `src/data/i18n.js`
-- `src/data/portalGate.js`
-- `src/data/session.js`
-- `src/main.jsx`
-- `src/pages/Favorites.jsx`
-- `src/pages/Home.jsx`
-- `src/pages/Login.jsx`
-- `src/pages/Product.jsx`
-- `src/pages/Products.jsx`
-- `src/pages/Schemes.jsx`
-- `src/ui.jsx`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 228 (100%)
-- INFERRED: 1 (0%)
+- EXTRACTED: 46 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -33,7 +33,7 @@
 
 ## Relationships
 
-- [[Community 61]] (1 shared connections)
+- [[Community 60]] (1 shared connections)
 
 ## Source Files
 

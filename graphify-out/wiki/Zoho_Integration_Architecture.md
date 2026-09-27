@@ -1,67 +1,57 @@
 # Zoho Integration Architecture
 
-> 46 nodes · cohesion 0.12
+> 53 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **render-dataflow.mjs** (78 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **esc()** (31 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **escapeHtml()** (26 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **animateAttr()** (16 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **focusEdgeAttrs()** (15 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **renderBrandMark()** (14 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **renderNode()** (13 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderState()** (13 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **focusNodeAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **renderSemanticSigil()** (13 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **renderComponent()** (12 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderParticipant()** (12 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **brandLabelFitWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **brandMetadataFor()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **focusNodeTitle()** (12 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **routePointsValue()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **fittedNodeFontSize()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **variantAccent()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **renderConnectionLabel()** (8 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderFlowLabel()** (8 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderTransitionLabel()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderMessage()** (8 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **brandMarkFor()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **messageLabel()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **renderConnectionPath()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- *... and 21 more nodes in this community*
+- **zoho.js** (31 connections) — `api/zoho.js`
+- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
+- **fetchZohoProductById()** (12 connections) — `api/zoho.js`
+- **fetchZohoProducts()** (11 connections) — `api/zoho.js`
+- **fetchZohoWithRetry()** (11 connections) — `api/zoho.js`
+- **getZohoConfig()** (11 connections) — `api/zoho.js`
+- **findDealerByPhone()** (9 connections) — `api/zoho.js`
+- **vite.config.js** (9 connections) — `vite.config.js`
+- **createDealerContact()** (8 connections) — `api/zoho.js`
+- **getDealerById()** (8 connections) — `api/zoho.js`
+- **fetchZohoCategories()** (7 connections) — `api/zoho.js`
+- **getAccessToken()** (7 connections) — `api/zoho.js`
+- **zohoApiPlugin()** (7 connections) — `vite.config.js`
+- **fetchZohoPricebookItems()** (5 connections) — `api/zoho.js`
+- **normalizeProduct()** (5 connections) — `api/zoho.js`
+- **index.js** (4 connections) — `api/products/index.js`
+- **test-zoho-api.mjs** (4 connections) — `scripts/test-zoho-api.mjs`
+- **og.js** (3 connections) — `api/og.js`
+- **fetchZohoPricebooks()** (3 connections) — `api/zoho.js`
+- **loadEnv()** (3 connections) — `api/zoho.js`
+- **apply.js** (3 connections) — `api/dealer/apply.js`
+- **info.js** (3 connections) — `api/dealer/info.js`
+- **login.js** (3 connections) — `api/dealer/login.js`
+- **[id].js** (3 connections) — `api/products/[id].js`
+- **handler()** (3 connections) — `api/products/index.js`
+- *... and 28 more nodes in this community*
 
 ## Relationships
 
-- [[Dependencies & Package Config]] (51 shared connections)
-- [[Graphify Workflow]] (32 shared connections)
-- [[Community 39]] (30 shared connections)
-- [[Pricing Regression Test Suite]] (20 shared connections)
-- [[Community 38]] (13 shared connections)
-- [[Community 62]] (13 shared connections)
-- [[Design System & UI Tokens]] (11 shared connections)
-- [[Live Pricing Audit Tool]] (7 shared connections)
-- [[Community 49]] (5 shared connections)
-- [[Community 63]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/cli.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/i18n.mjs`
-- `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `api/dealer/apply.js`
+- `api/dealer/info.js`
+- `api/dealer/login.js`
+- `api/og.js`
+- `api/products/[id].js`
+- `api/products/index.js`
+- `api/zoho.js`
+- `scripts/audit_prices.mjs`
+- `scripts/test-zoho-api.mjs`
+- `vite.config.js`
 
 ## Audit Trail
 
-- EXTRACTED: 386 (90%)
-- INFERRED: 44 (10%)
+- EXTRACTED: 226 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

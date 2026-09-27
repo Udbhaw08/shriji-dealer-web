@@ -21,8 +21,8 @@
 
 ## Relationships
 
-- [[Mobile Responsive UI Skill]] (5 shared connections)
-- [[Community 61]] (5 shared connections)
+- [[Zoho Integration Skill]] (5 shared connections)
+- [[Community 60]] (5 shared connections)
 
 ## Source Files
 

@@ -9,7 +9,7 @@
 
 ## Relationships
 
-- [[Zoho Integration Skill]] (1 shared connections)
+- [[Project Readme & Layout]] (1 shared connections)
 
 ## Source Files
 

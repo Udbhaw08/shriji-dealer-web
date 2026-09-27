@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { Link, useParams, useSearchParams } from "react-router-dom";
+import { Link, useParams, useSearchParams, useNavigate } from "react-router-dom";
 import { useProducts } from "../data/productsStore";
 import { COMPANY } from "../data/site";
 import { registerDealer, shareLink, tagFor, viewerFor, inr, priceFor, slugifyProduct } from "../data/dealer";
@@ -36,12 +36,21 @@ const TAB_ITEMS = [
 export default function Product() {
   const { id } = useParams();
   const [params, setParams] = useSearchParams();
+  const navigate = useNavigate();
   const session = useSession();
   const isGated = isPortalGated(session);
   const { products: PRODUCTS, loaded } = useProducts();
   const { t, tCat } = useLanguage();
   const [fetchedProduct, setFetchedProduct] = useState(null);
   const { isFavorite, toggleFavorite } = useFavorites();
+
+  const handleBack = () => {
+    if (window.history.state && typeof window.history.state.idx === "number" && window.history.state.idx > 0) {
+      navigate(-1);
+    } else {
+      navigate(isGated ? "/" : "/products");
+    }
+  };
 
   const pid = params.get("pid");
 
@@ -349,17 +358,15 @@ export default function Product() {
     <section className="sec product-detail-sec">
       <div className="wrap">
         <div className="app-mobile-top-bar">
-          {!isGated ? (
-            <Link to="/products" className="app-mobile-back" aria-label="Back to products">
-              <Icon name="chevleft" size={18} />
-              <span>{t("nav_products") || "Products"}</span>
-            </Link>
-          ) : (
-            <Link to="/" className="app-mobile-back" aria-label="Home">
-              <Icon name="home" size={18} />
-              <span>{t("nav_home") || "Home"}</span>
-            </Link>
-          )}
+          <button
+            type="button"
+            onClick={handleBack}
+            className="app-mobile-back"
+            aria-label={t("back") || "Back"}
+          >
+            <Icon name="chevleft" size={18} />
+            <span>{t("back") || "Back"}</span>
+          </button>
           <span className="app-mobile-title">{displayTitle}</span>
           {p && (
             <button

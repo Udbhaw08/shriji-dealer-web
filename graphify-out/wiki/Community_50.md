@@ -1,53 +1,52 @@
 # Community 50
 
-> 24 nodes · cohesion 0.21
+> 24 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **get()** (22 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **E()** (20 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **np()** (20 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **zt()** (19 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **bm()** (14 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **lm()** (13 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **am()** (11 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **on()** (10 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **mm()** (9 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **jm()** (8 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **om()** (8 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **tm()** (8 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **zm()** (7 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **C()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **km()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **nm()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **qm()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **Rt()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **dm()** (4 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **im()** (4 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **rm()** (4 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **Um()** (4 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **oh()** (3 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
-- **Vm()** (3 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **intent-trace-browser.test.mjs** (15 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **semantic-lens-browser.test.mjs** (14 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **desktop-browser.mjs** (8 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **desktopBrowser()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **desktopPointerCheck()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **afterTimer()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **hash()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (28 shared connections)
-- [[Master Codebase Architecture Reference]] (17 shared connections)
-- [[Zoho API Diagnostic Script]] (14 shared connections)
-- [[Oxlint Linter Configuration]] (13 shared connections)
-- [[Product Brand & Business Vision]] (10 shared connections)
-- [[Community 32]] (9 shared connections)
-- [[Community 30]] (5 shared connections)
-- [[Graphify Agent Rules]] (5 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (2 shared connections)
+- [[Community 43]] (11 shared connections)
+- [[Community 40]] (3 shared connections)
+- [[Community 100]] (3 shared connections)
+- [[Community 101]] (3 shared connections)
+- [[Community 89]] (2 shared connections)
+- [[Community 63]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 221 (100%)
+- EXTRACTED: 103 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

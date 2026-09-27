@@ -1,61 +1,59 @@
 # Community 44
 
-> 26 nodes · cohesion 0.15
+> 26 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **.send()** (54 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **intent-trace-browser.test.mjs** (15 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **export-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **motion-governor-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **run()** (6 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **point()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **record()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **media()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **move()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **media()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **screenshot()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **afterTimer()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **ui.jsx** (37 connections) — `src/ui.jsx`
+- **Home.jsx** (24 connections) — `src/pages/Home.jsx`
+- **site.js** (20 connections) — `src/data/site.js`
+- **Support.jsx** (15 connections) — `src/pages/Support.jsx`
+- **Icon()** (15 connections) — `src/ui.jsx`
+- **Schemes.jsx** (14 connections) — `src/pages/Schemes.jsx`
+- **COMPANY** (12 connections) — `src/data/site.js`
+- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
+- **HeroSlider.jsx** (7 connections) — `src/components/HeroSlider.jsx`
+- **UnderMaintenance()** (5 connections) — `src/components/UnderMaintenance.jsx`
+- **EnquiryButtons()** (4 connections) — `src/ui.jsx`
+- **HeroSlider()** (3 connections) — `src/components/HeroSlider.jsx`
+- **SCHEMES** (3 connections) — `src/data/site.js`
+- **STATS** (3 connections) — `src/data/site.js`
+- **ISSUE_TYPES** (2 connections) — `src/data/site.js`
+- **MATERIALS** (2 connections) — `src/data/site.js`
+- **NAV** (2 connections) — `src/data/site.js`
+- **QUICK_ACCESS** (2 connections) — `src/data/site.js`
+- **QUICK_NAV** (2 connections) — `src/data/site.js`
+- **useAutoScroll()** (2 connections) — `src/pages/Home.jsx`
+- **LangToggle()** (2 connections) — `src/ui.jsx`
+- **STORE_BANNERS** (1 connections) — `src/components/HeroSlider.jsx`
+- **DealerField()** (1 connections) — `src/pages/Support.jsx`
+- **base** (1 connections) — `src/ui.jsx`
+- **Mark()** (1 connections) — `src/ui.jsx`
 - *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [[Community 68]] (8 shared connections)
-- [[Community 98]] (8 shared connections)
-- [[Community 89]] (7 shared connections)
-- [[Community 104]] (6 shared connections)
-- [[Community 100]] (5 shared connections)
-- [[Community 101]] (5 shared connections)
-- [[Community 114]] (4 shared connections)
-- [[Community 149]] (4 shared connections)
-- [[Community 34]] (3 shared connections)
-- [[Community 78]] (1 shared connections)
-- [[Community 170]] (1 shared connections)
+- [[Community 42]] (37 shared connections)
+- [[Community 37]] (19 shared connections)
+- [[Community 45]] (8 shared connections)
+- [[Community 90]] (7 shared connections)
+- [[Community 121]] (5 shared connections)
+- [[Community 104]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/export-browser.test.mjs`
-- `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- `src/components/HeroSlider.jsx`
+- `src/components/UnderMaintenance.jsx`
+- `src/data/site.js`
+- `src/pages/Home.jsx`
+- `src/pages/Schemes.jsx`
+- `src/pages/Support.jsx`
+- `src/ui.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 150 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 188 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

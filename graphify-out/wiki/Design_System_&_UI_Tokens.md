@@ -33,18 +33,18 @@
 
 ## Relationships
 
-- [[Dependencies & Package Config]] (12 shared connections)
-- [[Zoho Integration Architecture]] (11 shared connections)
-- [[Graphify Workflow]] (10 shared connections)
-- [[Community 62]] (8 shared connections)
-- [[Community 38]] (7 shared connections)
-- [[Live Pricing Audit Tool]] (6 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (11 shared connections)
+- [[Community 32]] (10 shared connections)
+- [[Community 29]] (9 shared connections)
+- [[Community 61]] (8 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (8 shared connections)
+- [[Community 78]] (7 shared connections)
+- [[Claude Agent Instructions]] (6 shared connections)
 - [[Community 108]] (6 shared connections)
-- [[Pricing Regression Test Suite]] (5 shared connections)
-- [[Community 39]] (5 shared connections)
-- [[Community 77]] (4 shared connections)
+- [[Product Brand & Business Vision]] (5 shared connections)
+- [[Community 76]] (4 shared connections)
 - [[Community 91]] (4 shared connections)
-- [[Community 127]] (3 shared connections)
+- [[Community 129]] (3 shared connections)
 
 ## Source Files
 

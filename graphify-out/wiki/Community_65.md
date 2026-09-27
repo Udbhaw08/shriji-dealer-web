@@ -1,48 +1,41 @@
 # Community 65
 
-> 20 nodes · cohesion 0.17
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **qd()** (15 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
-- **Yd()** (13 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
-- **Fd()** (12 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
-- **ut()** (11 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
-- **Vd()** (11 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
-- **ef()** (7 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
-- **Bd()** (6 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
-- **Ci()** (6 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
-- **Id()** (6 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
-- **Rd()** (6 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
-- **zd()** (6 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
-- **Hd()** (4 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
-- **Ku()** (4 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
-- **rs()** (4 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
-- **tf()** (4 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
-- **Gd()** (3 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
-- **Wd()** (3 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
-- **Ld()** (2 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
-- **Wt()** (2 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
-- **Xd()** (2 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **PRODUCT-PAGES.md — listing, detail, and dealer pricing** (9 connections) — `docs/PRODUCT-PAGES.md`
+- **4. Product listing — `/products`, `src/pages/Products.jsx`** (6 connections) — `docs/PRODUCT-PAGES.md`
+- **6. Product detail — `/products/:id`, `src/pages/Product.jsx`** (6 connections) — `docs/PRODUCT-PAGES.md`
+- **PRODUCT-PAGES.md** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **1. Price visibility — the rule everything else follows** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **2. The pricing module — `src/data/dealer.js`** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **3. `<PriceBlock>` — `src/components/PriceBlock.jsx`** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **5. Product card — `src/components/ProductCard.jsx`** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **7. What is deliberately not here** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **8. Files touched on 2026-09-20** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Below the whole grid** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Filters and facets** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Left column** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Pagination** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Responsive behaviour** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Right column** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Share with Customer** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Sort** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Structure** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Tabs** (1 connections) — `docs/PRODUCT-PAGES.md`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (25 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (12 shared connections)
-- [[Architecture Doc Generator]] (10 shared connections)
-- [[Client Products Data Store]] (6 shared connections)
-- [[Community 46]] (3 shared connections)
-- [[Roles & Customer Sharing Spec]] (2 shared connections)
-- [[Claude Agent Instructions]] (2 shared connections)
-- [[Community 194]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DgXogr-X.js`
+- `docs/PRODUCT-PAGES.md`
 
 ## Audit Trail
 
-- EXTRACTED: 127 (100%)
+- EXTRACTED: 38 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
