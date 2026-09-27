@@ -1,58 +1,56 @@
 # Product Brand & Business Vision
 
-> 45 nodes · cohesion 0.08
+> 45 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **brand-marks.mjs** (51 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **brand-marks.test.mjs** (15 connections) — `.agents/skills/archify/test/brand-marks.test.mjs`
-- **captureRemoteBrand()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **prepareDiagramBrandMarks()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **captureBrandReference()** (6 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **commandBrands()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **findBrandMark()** (5 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **checkedFetch()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **isPrivateBrandAddress()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **resolveRequestTarget()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **asUrl()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **iconCandidates()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **imageData()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **ipv4Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **ipv6Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **lookupForms()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **readLimited()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **validateUrlShape()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **generated-brand-marks.mjs** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
-- **BRAND_MARKS** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
-- **attribute()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **beforeDeadline()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **captureTimeoutMilliseconds()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **domainMark()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **listBrandMarks()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **Jr()** (18 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **gi()** (17 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **vi()** (16 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **Ir()** (13 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **ji()** (13 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **zi()** (13 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **ql()** (11 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **v()** (11 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **Di()** (9 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **Fi()** (9 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **oi()** (9 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **pu()** (9 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **kr()** (8 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **mu()** (8 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **ni()** (8 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **Pi()** (8 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **Zl()** (8 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **Ii()** (7 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **jl()** (7 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **l()** (7 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **Nd()** (7 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **Qi()** (7 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **ti()** (7 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **Ri()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **rr()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
 - *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (8 shared connections)
-- [[Client Products Data Store]] (4 shared connections)
-- [[Claude Agent Instructions]] (4 shared connections)
-- [[Dependencies & Package Config]] (2 shared connections)
-- [[Community 31]] (1 shared connections)
-- [[Community 89]] (1 shared connections)
-- [[Design System & UI Tokens]] (1 shared connections)
-- [[Community 33]] (1 shared connections)
+- [[Price Presentation & Product UI]] (53 shared connections)
+- [[Master Codebase Architecture Reference]] (16 shared connections)
+- [[Community 32]] (13 shared connections)
+- [[Community 50]] (10 shared connections)
+- [[Graphify Agent Rules]] (8 shared connections)
+- [[Community 30]] (8 shared connections)
+- [[Oxlint Linter Configuration]] (7 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (5 shared connections)
+- [[Zoho API Diagnostic Script]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
-- `.agents/skills/archify/test/brand-marks.test.mjs`
+- `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
 
 ## Audit Trail
 
-- EXTRACTED: 168 (98%)
-- INFERRED: 4 (2%)
+- EXTRACTED: 303 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

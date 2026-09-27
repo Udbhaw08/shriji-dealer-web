@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Primary Commands** (5 connections) — `.agents/skills/graphify/SKILL.md`
-- **Graphify Knowledge Graph Skill** (4 connections) — `.agents/skills/graphify/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/graphify/SKILL.md`
-- **1. Query the Graph (Context-Efficient)** (1 connections) — `.agents/skills/graphify/SKILL.md`
-- **2. Trace Relationships (Shortest Path)** (1 connections) — `.agents/skills/graphify/SKILL.md`
-- **3. Explain a Node or Symbol** (1 connections) — `.agents/skills/graphify/SKILL.md`
-- **4. Update the Graph (AST Re-Extraction)** (1 connections) — `.agents/skills/graphify/SKILL.md`
-- **Key Output Artifacts in `graphify-out/`** (1 connections) — `.agents/skills/graphify/SKILL.md`
-- **Why Use Graphify** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **Archify JSON IR Schemas** (7 connections) — `.agents/skills/archify/schemas/README.md`
+- **Files** (2 connections) — `.agents/skills/archify/schemas/README.md`
+- **README.md** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Error format** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Legend presentation contract** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Runtime validation** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **schema_version policy** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Shared definitions (common.schema.json)** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Visual quality and engineering truth** (1 connections) — `.agents/skills/archify/schemas/README.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/graphify/SKILL.md`
+- `.agents/skills/archify/schemas/README.md`
 
 ## Audit Trail
 

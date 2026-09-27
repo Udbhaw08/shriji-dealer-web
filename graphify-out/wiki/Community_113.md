@@ -1,37 +1,32 @@
 # Community 113
 
-> 11 nodes · cohesion 0.24
+> 11 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **i18n.js** (25 connections) — `src/data/i18n.js`
-- **setLanguage()** (3 connections) — `src/data/i18n.js`
-- **tCat()** (3 connections) — `src/data/i18n.js`
-- **emit()** (2 connections) — `src/data/i18n.js`
-- **toggleLanguage()** (2 connections) — `src/data/i18n.js`
-- **translations.js** (2 connections) — `src/data/translations.js`
-- **TRANSLATIONS** (2 connections) — `src/data/translations.js`
-- **currentLang** (1 connections) — `src/data/i18n.js`
-- **getInitialLang()** (1 connections) — `src/data/i18n.js`
-- **getLanguage()** (1 connections) — `src/data/i18n.js`
-- **listeners** (1 connections) — `src/data/i18n.js`
+- **degraded.test.mjs** (10 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **assertFriendlyFailure()** (2 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **render()** (2 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **ARRAY_FIELDS** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **filter()** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **installedRoot** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **mulberry32()** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
 
 ## Relationships
 
-- [[Community 50]] (5 shared connections)
-- [[Community 45]] (5 shared connections)
-- [[Community 32]] (4 shared connections)
-- [[Community 90]] (2 shared connections)
-- [[Community 51]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/data/i18n.js`
-- `src/data/translations.js`
+- `.agents/skills/archify/test/degraded.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

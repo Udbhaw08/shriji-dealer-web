@@ -11,7 +11,7 @@
 
 ## Relationships
 
-- [[Graphify Knowledge Graph Skill]] (1 shared connections)
+- [[Pricing & Roles Skill]] (1 shared connections)
 
 ## Source Files
 

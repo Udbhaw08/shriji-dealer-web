@@ -1,37 +1,37 @@
 # Community 101
 
-> 14 nodes · cohesion 0.14
+> 13 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **workflow-migration.test.mjs** (22 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **copyFixture()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **explicitPinConflictWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **fixture** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **heightConstrainedWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **parseJsonOutput()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **profileDivergenceWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **runMigration()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **runValidation()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **guided-views-browser.test.mjs** (17 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **run()** (8 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **settled()** (4 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **activate()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **hash()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **variant()** (1 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
 
 ## Relationships
 
-- [[Community 172]] (5 shared connections)
-- [[Community 96]] (3 shared connections)
-- [[Client Products Data Store]] (1 shared connections)
+- [[Community 44]] (5 shared connections)
+- [[Community 98]] (3 shared connections)
+- [[Community 34]] (1 shared connections)
+- [[Community 89]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/workflow-migration.test.mjs`
+- `.agents/skills/archify/test/guided-views-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 54 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

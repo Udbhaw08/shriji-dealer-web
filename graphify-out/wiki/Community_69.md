@@ -1,49 +1,41 @@
 # Community 69
 
-> 20 nodes · cohesion 0.17
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **qd()** (15 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **Yd()** (13 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **Fd()** (12 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **ut()** (11 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **Vd()** (11 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **ef()** (7 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **Bd()** (6 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **Ci()** (6 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **Id()** (6 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **Rd()** (6 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **zd()** (6 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **Hd()** (4 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **Ku()** (4 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **rs()** (4 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **tf()** (4 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **Gd()** (3 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **Wd()** (3 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **Ld()** (2 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **Wt()** (2 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **Xd()** (2 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **properties** (9 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **sequence.schema.json** (7 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **participants** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **segments** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **cards** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **schema_version** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$id** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$schema** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **title** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (25 shared connections)
-- [[Roles & Customer Sharing Spec]] (11 shared connections)
-- [[Product Requirements Documentation]] (7 shared connections)
-- [[Community 42]] (5 shared connections)
-- [[Pricing Regression Test Suite]] (5 shared connections)
-- [[Community 46]] (3 shared connections)
-- [[Live Pricing Audit Tool]] (2 shared connections)
-- [[Community 76]] (2 shared connections)
-- [[Community 29]] (1 shared connections)
+- [[Community 106]] (4 shared connections)
+- [[Community 226]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-D1Jftt-9.js`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 127 (100%)
+- EXTRACTED: 41 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

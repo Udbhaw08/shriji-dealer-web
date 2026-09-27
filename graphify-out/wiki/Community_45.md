@@ -1,59 +1,57 @@
 # Community 45
 
-> 26 nodes · cohesion 0.17
+> 26 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **ui.jsx** (37 connections) — `src/ui.jsx`
-- **Home.jsx** (24 connections) — `src/pages/Home.jsx`
-- **site.js** (20 connections) — `src/data/site.js`
-- **Support.jsx** (15 connections) — `src/pages/Support.jsx`
-- **Icon()** (15 connections) — `src/ui.jsx`
-- **Schemes.jsx** (14 connections) — `src/pages/Schemes.jsx`
-- **COMPANY** (12 connections) — `src/data/site.js`
-- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
-- **HeroSlider.jsx** (7 connections) — `src/components/HeroSlider.jsx`
-- **UnderMaintenance()** (5 connections) — `src/components/UnderMaintenance.jsx`
-- **EnquiryButtons()** (4 connections) — `src/ui.jsx`
-- **HeroSlider()** (3 connections) — `src/components/HeroSlider.jsx`
-- **SCHEMES** (3 connections) — `src/data/site.js`
-- **STATS** (3 connections) — `src/data/site.js`
-- **ISSUE_TYPES** (2 connections) — `src/data/site.js`
-- **MATERIALS** (2 connections) — `src/data/site.js`
-- **NAV** (2 connections) — `src/data/site.js`
-- **QUICK_ACCESS** (2 connections) — `src/data/site.js`
-- **QUICK_NAV** (2 connections) — `src/data/site.js`
-- **useAutoScroll()** (2 connections) — `src/pages/Home.jsx`
-- **LangToggle()** (2 connections) — `src/ui.jsx`
-- **STORE_BANNERS** (1 connections) — `src/components/HeroSlider.jsx`
-- **DealerField()** (1 connections) — `src/pages/Support.jsx`
-- **base** (1 connections) — `src/ui.jsx`
-- **Mark()** (1 connections) — `src/ui.jsx`
+- **session.js** (26 connections) — `src/data/session.js`
+- **productsStore.js** (19 connections) — `src/data/productsStore.js`
+- **Login.jsx** (18 connections) — `src/pages/Login.jsx`
+- **apiFetch()** (8 connections) — `src/data/api.js`
+- **apiUrl()** (8 connections) — `src/data/api.js`
+- **api.js** (6 connections) — `src/data/api.js`
+- **registerDealer()** (6 connections) — `src/data/dealer.js`
+- **setSession()** (5 connections) — `src/data/session.js`
+- **fetchLiveProducts()** (4 connections) — `src/data/productsStore.js`
+- **products.js** (3 connections) — `src/data/products.js`
+- **revalidateSession()** (3 connections) — `src/data/session.js`
+- **signOut()** (3 connections) — `src/data/session.js`
+- **CATEGORIES** (2 connections) — `src/data/products.js`
+- **emit()** (2 connections) — `src/data/productsStore.js`
+- **loadCached()** (2 connections) — `src/data/productsStore.js`
+- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
+- **useProduct()** (2 connections) — `src/data/productsStore.js`
+- **emit()** (2 connections) — `src/data/session.js`
+- **load()** (2 connections) — `src/data/session.js`
+- **PRODUCTS** (1 connections) — `src/data/products.js`
+- **listeners** (1 connections) — `src/data/productsStore.js`
+- **PREFERRED_ORDER** (1 connections) — `src/data/productsStore.js`
+- **storeState** (1 connections) — `src/data/productsStore.js`
+- **GUEST** (1 connections) — `src/data/session.js`
+- **state** (1 connections) — `src/data/session.js`
 - *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [[Community 50]] (41 shared connections)
-- [[Community 32]] (15 shared connections)
-- [[Community 51]] (8 shared connections)
-- [[Community 90]] (7 shared connections)
-- [[Community 113]] (5 shared connections)
-- [[Community 112]] (1 shared connections)
+- [[Community 37]] (16 shared connections)
+- [[Community 43]] (9 shared connections)
+- [[Community 54]] (7 shared connections)
+- [[Community 90]] (5 shared connections)
+- [[Community 117]] (1 shared connections)
 
 ## Source Files
 
-- `src/components/HeroSlider.jsx`
-- `src/components/UnderMaintenance.jsx`
-- `src/data/site.js`
-- `src/pages/Home.jsx`
-- `src/pages/Schemes.jsx`
-- `src/pages/Support.jsx`
-- `src/ui.jsx`
+- `src/data/api.js`
+- `src/data/dealer.js`
+- `src/data/products.js`
+- `src/data/productsStore.js`
+- `src/data/session.js`
+- `src/pages/Login.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 188 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 130 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

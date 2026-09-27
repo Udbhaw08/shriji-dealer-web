@@ -1,57 +1,62 @@
 # Graphify Workflow
 
-> 36 nodes · cohesion 0.09
+> 38 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **Pd()** (15 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **s()** (12 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **delete()** (11 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **cc()** (10 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **Ei()** (9 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **hh()** (9 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **yh()** (9 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **fc()** (8 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **jd()** (8 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **gf()** (7 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **mh()** (7 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **oc()** (7 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **tc()** (7 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **ph()** (6 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **uc()** (6 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **vs()** (6 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **ys()** (6 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **dh()** (5 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **ho()** (5 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **Ih()** (5 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **Sh()** (5 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **wi()** (5 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **bh()** (4 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **dc()** (4 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **ec()** (4 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- *... and 11 more nodes in this community*
+- **render-sequence.mjs** (67 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **legend.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **renderLegend()** (14 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **svgAccessibleText()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **svgRootAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **renderDefinitions()** (11 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **resolveLegend()** (10 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **renderSvg()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderLegend()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **arrowClassMap** (6 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **legendFootprint()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **measureLegend()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **componentFill** (5 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **relationshipLegendObstacles()** (5 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **messageGeometry()** (4 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **messageLabelBox()** (4 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **legendY()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **renderLifecycleRail()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **messageRouteBox()** (2 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **measuredEntryWidth()** (2 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (41 shared connections)
-- [[Vercel Deployment Routing]] (14 shared connections)
-- [[Product Pages Specification]] (14 shared connections)
-- [[Zoho Integration Skill]] (5 shared connections)
-- [[Testing & Workflow Skill]] (5 shared connections)
-- [[Graphify Agent Rules]] (5 shared connections)
-- [[Community 30]] (5 shared connections)
-- [[Community 81]] (4 shared connections)
-- [[Community 44]] (2 shared connections)
-- [[Community 49]] (2 shared connections)
+- [[Dependencies & Package Config]] (40 shared connections)
+- [[Zoho Integration Architecture]] (32 shared connections)
+- [[Pricing Regression Test Suite]] (14 shared connections)
+- [[Community 39]] (12 shared connections)
+- [[Community 38]] (11 shared connections)
+- [[Community 62]] (11 shared connections)
+- [[Design System & UI Tokens]] (10 shared connections)
+- [[Live Pricing Audit Tool]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- `.agents/skills/archify/renderers/shared/cli.mjs`
+- `.agents/skills/archify/renderers/shared/geometry.mjs`
+- `.agents/skills/archify/renderers/shared/legend.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 215 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 246 (99%)
+- INFERRED: 3 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

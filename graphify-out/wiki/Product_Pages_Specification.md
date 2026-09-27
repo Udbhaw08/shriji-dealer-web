@@ -1,56 +1,52 @@
 # Product Pages Specification
 
-> 55 nodes · cohesion 0.07
+> 58 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **dl()** (35 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **tl()** (20 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **F()** (15 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **kc()** (15 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **Hc()** (14 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **ac()** (13 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **cl()** (12 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **zc()** (12 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **ol()** (11 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **ul()** (11 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **oa()** (10 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **ba()** (9 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **lc()** (8 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **zo()** (8 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **xc()** (7 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **Gc()** (6 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **lh()** (6 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **ll()** (6 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **ns()** (6 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **fa()** (5 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **ga()** (5 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **ic()** (5 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **jo()** (5 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **Kd()** (5 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **Lo()** (5 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- *... and 30 more nodes in this community*
+- **check-render-output.mjs** (57 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **desktop-readability.mjs** (9 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **adaptive-reader-layout.test.mjs** (9 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **parseAttrs()** (7 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectArrows()** (6 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **numberAttr()** (6 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectCompositionFrames()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectLegendBoxes()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **lineSegments()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **DESKTOP_READABILITY_VIEWPORT** (5 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **collectDesktopReadability()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectNonFiniteAttrs()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **pathSegments()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **straightPathSegments()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **textBox()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **projectedNodeTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **attrEntries()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectLegendCollisions()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectRelationshipLabelMasks()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **crossProduct()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **isCommand()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **pointsFromPath()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **properSegmentIntersection()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **segmentIntersectsBox()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **segmentsIntersect()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- *... and 33 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (58 shared connections)
-- [[Vercel Deployment Routing]] (22 shared connections)
-- [[Graphify Workflow]] (14 shared connections)
-- [[Community 44]] (14 shared connections)
-- [[Graphify Agent Rules]] (13 shared connections)
-- [[Community 49]] (13 shared connections)
-- [[Community 30]] (11 shared connections)
-- [[Testing & Workflow Skill]] (8 shared connections)
-- [[Zoho Integration Skill]] (5 shared connections)
-- [[Community 81]] (3 shared connections)
+- [[Dependencies & Package Config]] (6 shared connections)
+- [[Community 34]] (4 shared connections)
+- [[Pricing Regression Test Suite]] (3 shared connections)
+- [[Community 78]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- `.agents/skills/archify/scripts/check-render-output.mjs`
+- `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 369 (100%)
+- EXTRACTED: 210 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -33,8 +33,8 @@
 
 ## Relationships
 
-- [[Community 96]] (2 shared connections)
-- [[Client Products Data Store]] (1 shared connections)
+- [[Community 91]] (2 shared connections)
+- [[Community 62]] (1 shared connections)
 
 ## Source Files
 

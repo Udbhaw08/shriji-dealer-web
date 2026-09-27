@@ -1,56 +1,55 @@
 # Graphify Agent Rules
 
-> 36 nodes · cohesion 0.10
+> 38 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **Z()** (24 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **Au()** (17 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **ht()** (12 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **hu()** (11 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **xl()** (11 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **vu()** (10 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **Cu()** (9 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **Sp()** (9 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **pn()** (8 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **go()** (7 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **ju()** (7 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **Lu()** (6 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **zu()** (6 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **Iu()** (5 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **ja()** (5 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **kl()** (5 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **Ou()** (5 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **_u()** (5 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **wl()** (5 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **eu()** (4 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **gm()** (4 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **gu()** (4 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **pf()** (4 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **tu()** (4 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **Uu()** (4 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- *... and 11 more nodes in this community*
+- **vl()** (26 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **qd()** (15 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **Yd()** (13 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **Fd()** (12 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **yl()** (12 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **Vd()** (11 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **bl()** (7 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **ef()** (7 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **fn()** (7 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **sa()** (7 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **Bd()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **Ci()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **Oe()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **ua()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **zd()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **cn()** (5 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **ea()** (5 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **Fo()** (5 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **ml()** (5 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **Hd()** (4 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **pl()** (4 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **Q()** (4 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **Ro()** (4 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **rs()** (4 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **tf()** (4 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (40 shared connections)
-- [[Community 30]] (14 shared connections)
-- [[Product Pages Specification]] (13 shared connections)
-- [[Community 44]] (10 shared connections)
-- [[Vercel Deployment Routing]] (5 shared connections)
-- [[Graphify Workflow]] (5 shared connections)
-- [[Zoho Integration Skill]] (4 shared connections)
-- [[Community 49]] (4 shared connections)
-- [[Testing & Workflow Skill]] (4 shared connections)
-- [[Community 81]] (1 shared connections)
+- [[Price Presentation & Product UI]] (41 shared connections)
+- [[Master Codebase Architecture Reference]] (23 shared connections)
+- [[Oxlint Linter Configuration]] (11 shared connections)
+- [[Product Brand & Business Vision]] (8 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (6 shared connections)
+- [[Community 50]] (5 shared connections)
+- [[Community 32]] (4 shared connections)
+- [[Zoho API Diagnostic Script]] (3 shared connections)
+- [[Community 30]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
 
 ## Audit Trail
 
-- EXTRACTED: 222 (100%)
+- EXTRACTED: 224 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

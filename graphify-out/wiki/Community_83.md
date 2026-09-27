@@ -1,38 +1,39 @@
 # Community 83
 
-> 17 nodes · cohesion 0.12
+> 16 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **3. Exactly which keys to fetch, and from where** (9 connections) — `docs/ZOHO-INTEGRATION.md`
-- **ZOHO-INTEGRATION.md — Live Zoho Commerce & Books Backend** (7 connections) — `docs/ZOHO-INTEGRATION.md`
-- **5. API surface** (2 connections) — `docs/ZOHO-INTEGRATION.md`
-- **ZOHO-INTEGRATION.md** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **1. Active Integration Summary** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **2. The Code Seams** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.1 Organization ID — from the Commerce dashboard** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.2 Client ID + Client Secret — from the API console, not the store** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.3 Refresh Token — generated once, then permanent** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.4 Scopes** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.5 Data centre** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.6 The API call the keys unlock** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.7 Still to confirm — only the store owner can answer** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **4. Architecture — the part that cannot be skipped** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **6. Migration checklist** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **How to hand the credentials over safely** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **Sources** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **properties** (8 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **meta** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **nodes** (4 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **flows** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **cards** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **schema_version** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 121]] (3 shared connections)
+- [[Community 171]] (1 shared connections)
+- [[Community 51]] (1 shared connections)
 
 ## Source Files
 
-- `docs/ZOHO-INTEGRATION.md`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 35 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

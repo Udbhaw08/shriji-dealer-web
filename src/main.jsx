@@ -79,20 +79,7 @@ function RequireVerifiedDealer({ children }) {
   return children;
 }
 
-function FloatingWhatsApp() {
-  return (
-    <a
-      href={`https://wa.me/${COMPANY.phoneRaw}?text=${encodeURIComponent("Hello Shriji Domestic, I would like to enquire about your appliances.")}`}
-      className="floating-wa"
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="Chat on WhatsApp"
-      title="Chat on WhatsApp"
-    >
-      <Icon name="wa" size={28} />
-    </a>
-  );
-}
+
 
 function ConditionalBottomNav() {
   return <MobileBottomNav />;
@@ -141,7 +128,6 @@ createRoot(document.getElementById("root")).render(
         </main>
         <Footer />
         <ConditionalBottomNav />
-        <FloatingWhatsApp />
       </BrowserRouter>
     </ErrorBoundary>
   </StrictMode>,

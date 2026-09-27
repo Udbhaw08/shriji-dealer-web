@@ -1,36 +1,36 @@
 # Community 92
 
-> 15 nodes · cohesion 0.13
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **repository** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **properties** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **revision** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **url** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **link_mode** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **provider** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **pattern** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minLength** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **required** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **edges** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **groups** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **phases** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- [[Community 71]] (1 shared connections)
+- [[Mobile Responsive UI Skill]] (5 shared connections)
+- [[Community 61]] (5 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (100%)
+- EXTRACTED: 52 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,53 +1,41 @@
 # Community 66
 
-> 20 nodes · cohesion 0.12
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **ChromeVisualBrowser** (21 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **visual-check.test.mjs** (14 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **PipeCdp** (7 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.attach()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.close()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.constructor()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **chromeVisualBrowserArgs()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.failAll()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.consume()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **VISUAL_CHECK_VIEWPORTS** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.constructor()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.failure()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **artifact()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **fakeBrowser()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **fakeChromeChild()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **png** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **Authoring contract** (12 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Mode placement** (6 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Executable geometry rules** (3 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **authoring-contract.md** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Architecture** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Dataflow** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Engineering profile default** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Hand-placed fallback** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Language consistency** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Legend contract** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Lifecycle** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Repair order** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Repository evidence** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Schema lookup** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Sequence** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Spacing and labels** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Title hierarchy** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Visual preset default** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Workflow** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Workflow layout contracts** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
 
 ## Relationships
 
-- [[Community 39]] (8 shared connections)
-- [[Community 43]] (7 shared connections)
-- [[Community 95]] (2 shared connections)
-- [[Community 72]] (2 shared connections)
-- [[Community 54]] (1 shared connections)
-- [[Community 94]] (1 shared connections)
-- [[Project Readme & Layout]] (1 shared connections)
-- [[Community 118]] (1 shared connections)
-- [[Community 150]] (1 shared connections)
-- [[Community 106]] (1 shared connections)
-- [[Community 131]] (1 shared connections)
-- [[Community 80]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/visual-check.test.mjs`
+- `.agents/skills/archify/references/authoring-contract.md`
 
 ## Audit Trail
 
-- EXTRACTED: 71 (100%)
+- EXTRACTED: 38 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

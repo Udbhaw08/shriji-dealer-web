@@ -1,56 +1,55 @@
 # Master Codebase Architecture Reference
 
-> 53 nodes · cohesion 0.08
+> 56 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **zoho.js** (31 connections) — `api/zoho.js`
-- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
-- **fetchZohoProductById()** (12 connections) — `api/zoho.js`
-- **fetchZohoProducts()** (11 connections) — `api/zoho.js`
-- **fetchZohoWithRetry()** (11 connections) — `api/zoho.js`
-- **getZohoConfig()** (11 connections) — `api/zoho.js`
-- **findDealerByPhone()** (9 connections) — `api/zoho.js`
-- **vite.config.js** (9 connections) — `vite.config.js`
-- **createDealerContact()** (8 connections) — `api/zoho.js`
-- **getDealerById()** (8 connections) — `api/zoho.js`
-- **fetchZohoCategories()** (7 connections) — `api/zoho.js`
-- **getAccessToken()** (7 connections) — `api/zoho.js`
-- **zohoApiPlugin()** (7 connections) — `vite.config.js`
-- **fetchZohoPricebookItems()** (5 connections) — `api/zoho.js`
-- **normalizeProduct()** (5 connections) — `api/zoho.js`
-- **index.js** (4 connections) — `api/products/index.js`
-- **test-zoho-api.mjs** (4 connections) — `scripts/test-zoho-api.mjs`
-- **og.js** (3 connections) — `api/og.js`
-- **fetchZohoPricebooks()** (3 connections) — `api/zoho.js`
-- **loadEnv()** (3 connections) — `api/zoho.js`
-- **apply.js** (3 connections) — `api/dealer/apply.js`
-- **info.js** (3 connections) — `api/dealer/info.js`
-- **login.js** (3 connections) — `api/dealer/login.js`
-- **[id].js** (3 connections) — `api/products/[id].js`
-- **handler()** (3 connections) — `api/products/index.js`
-- *... and 28 more nodes in this community*
+- **i()** (66 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **dl()** (35 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **tl()** (20 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **F()** (15 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **kc()** (15 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **Hc()** (14 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **cl()** (12 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **zc()** (12 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **ol()** (11 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **ul()** (11 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **oa()** (10 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **ba()** (9 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **la()** (9 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **lc()** (8 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **zo()** (8 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **xc()** (7 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **Gc()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **ns()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **fa()** (5 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **ga()** (5 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **hm()** (5 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **jo()** (5 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **Lo()** (5 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **nl()** (5 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **Pc()** (5 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- *... and 31 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (60 shared connections)
+- [[Graphify Agent Rules]] (23 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (20 shared connections)
+- [[Community 30]] (20 shared connections)
+- [[Community 50]] (17 shared connections)
+- [[Community 32]] (16 shared connections)
+- [[Product Brand & Business Vision]] (16 shared connections)
+- [[Oxlint Linter Configuration]] (14 shared connections)
+- [[Zoho API Diagnostic Script]] (13 shared connections)
 
 ## Source Files
 
-- `api/dealer/apply.js`
-- `api/dealer/info.js`
-- `api/dealer/login.js`
-- `api/og.js`
-- `api/products/[id].js`
-- `api/products/index.js`
-- `api/zoho.js`
-- `scripts/audit_prices.mjs`
-- `scripts/test-zoho-api.mjs`
-- `vite.config.js`
+- `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
 
 ## Audit Trail
 
-- EXTRACTED: 226 (100%)
+- EXTRACTED: 421 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

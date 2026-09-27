@@ -1813,7 +1813,7 @@ h4 {
   aspect-ratio: 4 / 3;
   display: grid;
   place-items: center;
-  background: linear-gradient(175deg, var(--bg-2), #fff);
+  background: #ffffff;
   border-radius: var(--r);
   overflow: hidden;
   padding: var(--s5);
@@ -1831,7 +1831,6 @@ h4 {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
-  mix-blend-mode: multiply;
   pointer-events: none;
   transition: opacity 0.2s var(--ease), transform 0.2s var(--ease);
 }
@@ -3802,36 +3801,7 @@ h4 {
   max-width: 100%;
 }
 
-/* ---------- Floating WhatsApp Button ---------- */
-.floating-wa {
-  position: fixed;
-  bottom: 24px;
-  left: 24px;
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-  background: #25d366;
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 4px 16px rgba(37, 211, 102, 0.4);
-  z-index: 85;
-  transition: transform 0.25s var(--ease), box-shadow 0.25s var(--ease);
-  text-decoration: none;
-}
-.floating-wa:hover {
-  transform: scale(1.1);
-  box-shadow: 0 6px 22px rgba(37, 211, 102, 0.55);
-}
-@media (max-width: 768px) {
-  .floating-wa {
-    bottom: 82px;
-    left: 16px;
-    width: 46px;
-    height: 46px;
-  }
-}
+/* Floating WhatsApp button removed */
 
 /* ---------- Enhanced Search Bar & Voice Search ---------- */
 .search-bar-wrap {

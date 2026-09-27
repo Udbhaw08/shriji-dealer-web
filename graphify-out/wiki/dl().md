@@ -1,8 +1,8 @@
 # dl()
 
-> God node · 35 connections · `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+> God node · 35 connections · `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
 
-**Community:** [[Product Pages Specification]]
+**Community:** [[Master Codebase Architecture Reference]]
 
 ## Connections by Relation
 

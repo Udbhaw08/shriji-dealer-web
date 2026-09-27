@@ -1,16 +1,15 @@
 # Community 193
 
-> 7 nodes · cohesion 0.29
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **story-horizon.test.mjs** (6 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **Data Flow Renderer** (5 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
+- **README.md** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
+- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
+- **Input** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
+- **Layout budget** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
+- **Legend** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
 
 ## Relationships
 
@@ -18,11 +17,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/story-horizon.test.mjs`
+- `.agents/skills/archify/renderers/dataflow/README.md`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

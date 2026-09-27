@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **size** (6 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **viewBox** (6 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 - **items** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 - **maxItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 - **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
@@ -13,7 +13,7 @@
 
 ## Relationships
 
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (1 shared connections)
+- [[Community 67]] (1 shared connections)
 
 ## Source Files
 

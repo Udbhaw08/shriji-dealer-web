@@ -1,48 +1,35 @@
 # Community 95
 
-> 14 nodes · cohesion 0.19
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **findChrome()** (22 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **export-cleanup-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **viewer-identifiers-browser.test.mjs** (7 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **evaluate()** (4 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **executable()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **findOnPath()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **run()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **exported()** (2 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **real-repository-proof.test.mjs** (15 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **automaticMcoRoot()** (2 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **artifactPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **connectionLabelGeometry()** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **evidencePayload()** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **experimentArtifactPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **experimentSourcePath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **pinnedSource** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **shareCardPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **sourcePath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
 
 ## Relationships
 
-- [[Community 43]] (7 shared connections)
-- [[Community 39]] (6 shared connections)
-- [[Community 72]] (2 shared connections)
-- [[Community 54]] (2 shared connections)
-- [[Community 66]] (2 shared connections)
-- [[Community 104]] (1 shared connections)
-- [[Community 105]] (1 shared connections)
-- [[Community 94]] (1 shared connections)
-- [[Project Readme & Layout]] (1 shared connections)
-- [[Community 118]] (1 shared connections)
-- [[Community 150]] (1 shared connections)
-- [[Community 106]] (1 shared connections)
+- [[Community 108]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- `.agents/skills/archify/test/real-repository-proof.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 62 (100%)
+- EXTRACTED: 29 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

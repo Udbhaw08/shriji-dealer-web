@@ -1,53 +1,64 @@
 # Community 54
 
-> 24 nodes · cohesion 0.14
+> 23 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **intent-trace-browser.test.mjs** (15 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **semantic-lens-browser.test.mjs** (14 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **desktop-browser.mjs** (8 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
-- **run()** (6 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **run()** (6 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **desktopBrowser()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
-- **desktopPointerCheck()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **point()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **point()** (4 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **media()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **move()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **move()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **afterTimer()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **hash()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **main.jsx** (30 connections) — `src/main.jsx`
+- **useSession()** (24 connections) — `src/data/session.js`
+- **t()** (20 connections) — `src/data/i18n.js`
+- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
+- **Product()** (16 connections) — `src/pages/Product.jsx`
+- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
+- **useFavorites()** (13 connections) — `src/data/favoritesStore.js`
+- **dealerById()** (11 connections) — `src/data/dealer.js`
+- **Products()** (9 connections) — `src/pages/Products.jsx`
+- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
+- **portalGate.js** (8 connections) — `src/data/portalGate.js`
+- **Favorites()** (8 connections) — `src/pages/Favorites.jsx`
+- **Home()** (8 connections) — `src/pages/Home.jsx`
+- **Header()** (7 connections) — `src/ui.jsx`
+- **Login()** (6 connections) — `src/pages/Login.jsx`
+- **Schemes()** (6 connections) — `src/pages/Schemes.jsx`
+- **AccountLink()** (6 connections) — `src/ui.jsx`
+- **Footer()** (6 connections) — `src/ui.jsx`
+- **tCat()** (3 connections) — `src/data/i18n.js`
+- **featureBoxes()** (3 connections) — `src/pages/Product.jsx`
+- **ConditionalBottomNav()** (3 connections) — `src/main.jsx`
+- **RequireVerifiedDealer()** (3 connections) — `src/main.jsx`
+- **ScrollManager()** (1 connections) — `src/main.jsx`
 
 ## Relationships
 
-- [[Community 43]] (11 shared connections)
-- [[Community 39]] (3 shared connections)
-- [[Community 104]] (3 shared connections)
+- [[Community 43]] (42 shared connections)
+- [[Community 37]] (34 shared connections)
+- [[Community 90]] (9 shared connections)
+- [[Community 45]] (7 shared connections)
 - [[Community 105]] (3 shared connections)
-- [[Community 95]] (2 shared connections)
-- [[Community 66]] (1 shared connections)
+- [[Community 117]] (3 shared connections)
+- [[Community 216]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/helpers/desktop-browser.mjs`
-- `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- `src/components/MobileBottomNav.jsx`
+- `src/data/dealer.js`
+- `src/data/favoritesStore.js`
+- `src/data/i18n.js`
+- `src/data/portalGate.js`
+- `src/data/session.js`
+- `src/main.jsx`
+- `src/pages/Favorites.jsx`
+- `src/pages/Home.jsx`
+- `src/pages/Login.jsx`
+- `src/pages/Product.jsx`
+- `src/pages/Products.jsx`
+- `src/pages/Schemes.jsx`
+- `src/ui.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 103 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 228 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

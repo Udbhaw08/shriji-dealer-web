@@ -1,32 +1,36 @@
 # Community 117
 
-> 11 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **degraded.test.mjs** (10 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **assertFriendlyFailure()** (2 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **render()** (2 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **ARRAY_FIELDS** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **filter()** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **installedRoot** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **mulberry32()** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **i18n.js** (25 connections) — `src/data/i18n.js`
+- **setLanguage()** (3 connections) — `src/data/i18n.js`
+- **emit()** (2 connections) — `src/data/i18n.js`
+- **toggleLanguage()** (2 connections) — `src/data/i18n.js`
+- **translations.js** (2 connections) — `src/data/translations.js`
+- **TRANSLATIONS** (2 connections) — `src/data/translations.js`
+- **currentLang** (1 connections) — `src/data/i18n.js`
+- **getInitialLang()** (1 connections) — `src/data/i18n.js`
+- **getLanguage()** (1 connections) — `src/data/i18n.js`
+- **listeners** (1 connections) — `src/data/i18n.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 43]] (6 shared connections)
+- [[Community 37]] (4 shared connections)
+- [[Community 54]] (3 shared connections)
+- [[Community 90]] (2 shared connections)
+- [[Community 45]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/degraded.test.mjs`
+- `src/data/i18n.js`
+- `src/data/translations.js`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

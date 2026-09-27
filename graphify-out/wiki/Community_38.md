@@ -1,51 +1,62 @@
 # Community 38
 
-> 32 nodes · cohesion 0.08
+> 33 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **check-update.mjs** (99 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **encodeRecoverableState()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **canonicalizeTrustedDirectoryPrefix()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **guardedCacheEntryRead()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **isWithinDirectory()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **notification()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationIsActive()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stateAfterFailedCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stateWithFailureCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertSafeCacheEntry()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cancelResponseBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **corruptClaimStatus()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **encodeBoundedState()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **eventKeyForDigest()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **metadataIsWithinLease()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **nextFailedCheck()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **readBoundedBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stateAfterAcknowledgement()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertRenameableCacheEntry()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertSafeRegularFile()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **CacheOperationRaceError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **CachePathChangedError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **defaultCacheDirectory()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **defaultReleasePath** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **FileIdentityChangedError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- *... and 7 more nodes in this community*
+- **utils.mjs** (26 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **i18n.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **translateMessage()** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **i18n.test.mjs** (20 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **text-fit.mjs** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- **applyTemplate()** (9 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **resolveLocale()** (7 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **viewerCatalog()** (4 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **localizeTemplate()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **translateCount()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **catalogKeys()** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **formatMessage()** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **SUPPORTED_LOCALES** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **serializeScriptJson()** (2 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **authoredExample()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **evaluate()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **example()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **loadArtifact()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **CATALOGS** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **ESCAPE_MAP** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **MESSAGE_PAIRS** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **nodeTextFit** (1 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- **SIGIL_SHAPE** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **SIGIL_TONE** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **TEMPLATE_PLACEHOLDERS** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [[Community 35]] (39 shared connections)
-- [[Community 78]] (20 shared connections)
-- [[Community 53]] (16 shared connections)
-- [[Zoho API Diagnostic Script]] (1 shared connections)
+- [[Zoho Integration Architecture]] (13 shared connections)
+- [[Graphify Workflow]] (11 shared connections)
+- [[Dependencies & Package Config]] (8 shared connections)
+- [[Design System & UI Tokens]] (7 shared connections)
+- [[Pricing Regression Test Suite]] (4 shared connections)
+- [[Community 39]] (4 shared connections)
+- [[Community 62]] (4 shared connections)
+- [[Live Pricing Audit Tool]] (1 shared connections)
+- [[Community 162]] (1 shared connections)
+- [[Community 34]] (1 shared connections)
+- [[Community 104]] (1 shared connections)
+- [[Community 89]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-update.mjs`
+- `.agents/skills/archify/renderers/shared/i18n.mjs`
+- `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `.agents/skills/archify/test/i18n.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 158 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 155 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

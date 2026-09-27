@@ -1,32 +1,30 @@
 # Community 137
 
-> 9 nodes · cohesion 0.31
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **cards** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **additionalProperties** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **required** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **generate-validators.mjs** (8 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **ajv** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **diagramTypes** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **output** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **root** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **schemaIds** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **schemasDir** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **validatorCode** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
 
 ## Relationships
 
-- [[Community 116]] (3 shared connections)
-- [[Community 61]] (1 shared connections)
-- [[Community 243]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/archify/scripts/generate-validators.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

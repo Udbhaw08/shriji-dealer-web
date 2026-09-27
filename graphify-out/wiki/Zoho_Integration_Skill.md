@@ -1,55 +1,55 @@
 # Zoho Integration Skill
 
-> 39 nodes · cohesion 0.10
+> 42 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **b()** (18 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **.addEventListener()** (18 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **fp()** (14 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **h()** (14 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **.removeEventListener()** (12 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **tp()** (10 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **ip()** (9 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **gn()** (8 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **sn()** (8 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **cm()** (7 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **lp()** (7 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **em()** (6 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **.blur()** (6 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **.scrollIntoView()** (6 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **g()** (6 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **yn()** (6 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **pm()** (5 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **Rp()** (5 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **tn()** (5 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **uh()** (5 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **un()** (5 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **an()** (4 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **Bp()** (4 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **.getClientRects()** (4 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- **up()** (4 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
-- *... and 14 more nodes in this community*
+- **properties** (30 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **col** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **height** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **brand** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **channelX** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **channelY** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **from** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **labelDx** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **labelDy** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **lane** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **note** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **route** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **sublabel** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **tag** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **to** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **toSide** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **variant** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **yOffset** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **maximum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (34 shared connections)
-- [[Community 44]] (13 shared connections)
-- [[Vercel Deployment Routing]] (12 shared connections)
-- [[Testing & Workflow Skill]] (12 shared connections)
-- [[Graphify Workflow]] (5 shared connections)
-- [[Product Pages Specification]] (5 shared connections)
-- [[Graphify Agent Rules]] (4 shared connections)
-- [[Community 49]] (4 shared connections)
-- [[Community 30]] (3 shared connections)
+- [[Community 123]] (3 shared connections)
+- [[Community 248]] (1 shared connections)
+- [[Community 265]] (1 shared connections)
+- [[Community 249]] (1 shared connections)
+- [[Community 266]] (1 shared connections)
+- [[Community 250]] (1 shared connections)
+- [[Community 267]] (1 shared connections)
+- [[Community 224]] (1 shared connections)
+- [[Community 225]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 236 (100%)
+- EXTRACTED: 93 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

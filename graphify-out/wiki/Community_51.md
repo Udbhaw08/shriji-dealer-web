@@ -1,55 +1,46 @@
 # Community 51
 
-> 25 nodes · cohesion 0.15
+> 24 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **session.js** (26 connections) — `src/data/session.js`
-- **productsStore.js** (19 connections) — `src/data/productsStore.js`
-- **Login.jsx** (18 connections) — `src/pages/Login.jsx`
-- **apiFetch()** (8 connections) — `src/data/api.js`
-- **apiUrl()** (8 connections) — `src/data/api.js`
-- **api.js** (6 connections) — `src/data/api.js`
-- **registerDealer()** (6 connections) — `src/data/dealer.js`
-- **setSession()** (5 connections) — `src/data/session.js`
-- **fetchLiveProducts()** (4 connections) — `src/data/productsStore.js`
-- **products.js** (3 connections) — `src/data/products.js`
-- **revalidateSession()** (3 connections) — `src/data/session.js`
-- **signOut()** (3 connections) — `src/data/session.js`
-- **CATEGORIES** (2 connections) — `src/data/products.js`
-- **emit()** (2 connections) — `src/data/productsStore.js`
-- **loadCached()** (2 connections) — `src/data/productsStore.js`
-- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
-- **emit()** (2 connections) — `src/data/session.js`
-- **load()** (2 connections) — `src/data/session.js`
-- **PRODUCTS** (1 connections) — `src/data/products.js`
-- **listeners** (1 connections) — `src/data/productsStore.js`
-- **PREFERRED_ORDER** (1 connections) — `src/data/productsStore.js`
-- **storeState** (1 connections) — `src/data/productsStore.js`
-- **GUEST** (1 connections) — `src/data/session.js`
-- **state** (1 connections) — `src/data/session.js`
-- **subs** (1 connections) — `src/data/session.js`
+- **properties** (11 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **viewBox** (6 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **animation** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **locale** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **output** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **subtitle** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **views** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **items** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Relationships
 
-- [[Community 32]] (14 shared connections)
-- [[Community 50]] (10 shared connections)
-- [[Community 45]] (8 shared connections)
-- [[Community 90]] (5 shared connections)
-- [[Community 113]] (1 shared connections)
+- [[Community 120]] (1 shared connections)
+- [[Community 83]] (1 shared connections)
 
 ## Source Files
 
-- `src/data/api.js`
-- `src/data/dealer.js`
-- `src/data/products.js`
-- `src/data/productsStore.js`
-- `src/data/session.js`
-- `src/pages/Login.jsx`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 128 (100%)
+- EXTRACTED: 48 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

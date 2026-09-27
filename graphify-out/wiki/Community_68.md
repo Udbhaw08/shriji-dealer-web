@@ -1,42 +1,46 @@
 # Community 68
 
-> 20 nodes · cohesion 0.10
+> 19 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **PRODUCT-PAGES.md — listing, detail, and dealer pricing** (9 connections) — `docs/PRODUCT-PAGES.md`
-- **4. Product listing — `/products`, `src/pages/Products.jsx`** (6 connections) — `docs/PRODUCT-PAGES.md`
-- **6. Product detail — `/products/:id`, `src/pages/Product.jsx`** (6 connections) — `docs/PRODUCT-PAGES.md`
-- **PRODUCT-PAGES.md** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **1. Price visibility — the rule everything else follows** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **2. The pricing module — `src/data/dealer.js`** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **3. `<PriceBlock>` — `src/components/PriceBlock.jsx`** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **5. Product card — `src/components/ProductCard.jsx`** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **7. What is deliberately not here** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **8. Files touched on 2026-09-20** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Below the whole grid** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Filters and facets** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Left column** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Pagination** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Responsive behaviour** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Right column** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Share with Customer** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Sort** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Structure** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Tabs** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **finder-browser.test.mjs** (12 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **route-probe-browser.test.mjs** (12 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **viewer-click.mjs** (4 connections) — `.agents/skills/archify/test/helpers/viewer-click.mjs`
+- **createViewerClick()** (4 connections) — `.agents/skills/archify/test/helpers/viewer-click.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **search()** (3 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **opened()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **hash()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **route()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **installClickObserver()** (1 connections) — `.agents/skills/archify/test/helpers/viewer-click.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 44]] (8 shared connections)
+- [[Community 34]] (2 shared connections)
+- [[Community 104]] (2 shared connections)
+- [[Community 89]] (2 shared connections)
 
 ## Source Files
 
-- `docs/PRODUCT-PAGES.md`
+- `.agents/skills/archify/test/finder-browser.test.mjs`
+- `.agents/skills/archify/test/helpers/viewer-click.mjs`
+- `.agents/skills/archify/test/route-probe-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 69 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

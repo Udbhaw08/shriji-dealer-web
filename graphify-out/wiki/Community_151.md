@@ -1,18 +1,17 @@
 # Community 151
 
-> 9 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **vertical-edge.test.mjs** (8 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **bin** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **edgePath()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **REPRO** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **segments()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **animation.test.mjs** (7 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **NODE_COLLECTION** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **svgBlock()** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
 
 ## Relationships
 
@@ -20,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/vertical-edge.test.mjs`
+- `.agents/skills/archify/test/animation.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

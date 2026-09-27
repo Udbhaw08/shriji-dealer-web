@@ -1,32 +1,33 @@
 # Community 128
 
-> 10 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **workflow.schema.json** (8 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$defs** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **side** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$id** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$schema** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **title** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **site-language-continuity.test.mjs** (12 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **clickAndNavigate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **evaluate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **loadRuntime()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **navigate()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **navigationPath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **runtimePath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **startStaticServer()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
 
 ## Relationships
 
-- [[Community 65]] (1 shared connections)
-- [[Community 139]] (1 shared connections)
+- [[Community 34]] (1 shared connections)
+- [[Community 104]] (1 shared connections)
+- [[Community 89]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `.agents/skills/archify/test/site-language-continuity.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 23 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,35 +1,40 @@
 # Community 98
 
-> 14 nodes · cohesion 0.14
+> 13 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **generate-brand-marks.mjs** (13 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **catalog** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **catalogPath** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **domains** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **fail()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **generated** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **here** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **ids** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **lookupForms()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **lookupKeys** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **normalizedList()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **outputPath** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **root** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **simpleBySlug** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **semantic-lens-browser.test.mjs** (14 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **desktop-browser.mjs** (8 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **desktopBrowser()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **desktopPointerCheck()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **hash()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 44]] (8 shared connections)
+- [[Community 100]] (3 shared connections)
+- [[Community 101]] (3 shared connections)
+- [[Community 34]] (2 shared connections)
+- [[Community 104]] (1 shared connections)
+- [[Community 89]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 58 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,60 +1,60 @@
 # Community 43
 
-> 27 nodes · cohesion 0.13
+> 29 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **.send()** (54 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **viewer-camera-browser.test.mjs** (11 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **export-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **motion-governor-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **.inspect()** (5 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **run()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **evaluate()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **record()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **media()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **screenshot()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **stable()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **viewport()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **.waitFor()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **screenshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- *... and 2 more nodes in this community*
+- **ui.jsx** (37 connections) — `src/ui.jsx`
+- **useLanguage()** (32 connections) — `src/data/i18n.js`
+- **Home.jsx** (24 connections) — `src/pages/Home.jsx`
+- **site.js** (20 connections) — `src/data/site.js`
+- **Support.jsx** (15 connections) — `src/pages/Support.jsx`
+- **Icon()** (15 connections) — `src/ui.jsx`
+- **Schemes.jsx** (14 connections) — `src/pages/Schemes.jsx`
+- **COMPANY** (12 connections) — `src/data/site.js`
+- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
+- **HeroSlider.jsx** (7 connections) — `src/components/HeroSlider.jsx`
+- **UnderMaintenance()** (5 connections) — `src/components/UnderMaintenance.jsx`
+- **Support()** (4 connections) — `src/pages/Support.jsx`
+- **EnquiryButtons()** (4 connections) — `src/ui.jsx`
+- **HeroSlider()** (3 connections) — `src/components/HeroSlider.jsx`
+- **SCHEMES** (3 connections) — `src/data/site.js`
+- **STATS** (3 connections) — `src/data/site.js`
+- **DealerForm()** (3 connections) — `src/pages/Support.jsx`
+- **ISSUE_TYPES** (2 connections) — `src/data/site.js`
+- **MATERIALS** (2 connections) — `src/data/site.js`
+- **NAV** (2 connections) — `src/data/site.js`
+- **QUICK_ACCESS** (2 connections) — `src/data/site.js`
+- **QUICK_NAV** (2 connections) — `src/data/site.js`
+- **useAutoScroll()** (2 connections) — `src/pages/Home.jsx`
+- **LangToggle()** (2 connections) — `src/ui.jsx`
+- **STORE_BANNERS** (1 connections) — `src/components/HeroSlider.jsx`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [[Community 54]] (11 shared connections)
-- [[Community 72]] (8 shared connections)
-- [[Community 66]] (7 shared connections)
-- [[Community 95]] (7 shared connections)
-- [[Community 39]] (5 shared connections)
-- [[Community 104]] (5 shared connections)
-- [[Community 105]] (5 shared connections)
-- [[Community 118]] (4 shared connections)
-- [[Community 80]] (1 shared connections)
-- [[Community 172]] (1 shared connections)
+- [[Community 54]] (42 shared connections)
+- [[Community 37]] (26 shared connections)
+- [[Community 90]] (10 shared connections)
+- [[Community 45]] (9 shared connections)
+- [[Community 117]] (6 shared connections)
+- [[Community 105]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/export-browser.test.mjs`
-- `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- `src/components/HeroSlider.jsx`
+- `src/components/UnderMaintenance.jsx`
+- `src/data/i18n.js`
+- `src/data/site.js`
+- `src/pages/Home.jsx`
+- `src/pages/Schemes.jsx`
+- `src/pages/Support.jsx`
+- `src/ui.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 146 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 227 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

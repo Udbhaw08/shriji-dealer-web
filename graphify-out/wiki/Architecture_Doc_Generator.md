@@ -1,48 +1,55 @@
 # Architecture Doc Generator
 
-> 45 nodes · cohesion 0.06
+> 45 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **generated-validators.mjs** (41 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **func3()** (11 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **generate-validators.test.mjs** (5 connections) — `.agents/skills/archify/test/generate-validators.test.mjs`
-- **validate20()** (4 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate22()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate27()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate28()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate30()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate31()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate33()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate34()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate36()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate37()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate24()** (2 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **pattern17** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **pattern18** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **pattern20** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **pattern4** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **pattern57** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema112** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema116** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema118** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema149** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema31** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema33** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **D()** (27 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **ft()** (20 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **t()** (19 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **ie()** (15 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **O()** (14 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **rn()** (11 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **vt()** (11 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **De()** (10 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **dt()** (10 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **nn()** (10 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **bt()** (9 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **ke()** (9 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **en()** (8 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **gn()** (8 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **sn()** (8 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **gt()** (7 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **re()** (7 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **af()** (6 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **se()** (6 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **xt()** (6 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **yn()** (6 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **Jt()** (5 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **mt()** (5 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **tn()** (5 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **un()** (5 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
 - *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [[Client Products Data Store]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (57 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (20 shared connections)
+- [[Community 46]] (14 shared connections)
+- [[Community 41]] (11 shared connections)
+- [[Community 65]] (10 shared connections)
+- [[Client Products Data Store]] (10 shared connections)
+- [[Roles & Customer Sharing Spec]] (7 shared connections)
+- [[Claude Agent Instructions]] (4 shared connections)
+- [[Community 194]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- `.agents/skills/archify/test/generate-validators.test.mjs`
+- `ios/App/App/public/assets/index-DgXogr-X.js`
 
 ## Audit Trail
 
-- EXTRACTED: 121 (100%)
+- EXTRACTED: 313 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

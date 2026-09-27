@@ -1,42 +1,43 @@
 # Community 78
 
-> 18 nodes · cohesion 0.22
+> 18 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **checkForUpdate()** (19 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **commitOperation()** (14 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **acknowledgeUpdate()** (13 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cancelOperation()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **resultForCandidate()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **silent()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **readState()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **resultAfterLosingOperation()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **readJsonFile()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **transitionOperation()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationOwnsActiveClaim()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **runCli()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **freshStateResult()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **versionCacheDirectory()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertBoundedRegularFile()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **digestForEventKey()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **fetchCandidate()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **waitUntilRetry()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **viewer-chrome-layout.test.mjs** (21 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **evaluate()** (5 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **waitForLayout()** (4 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **finalGeometry()** (3 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **resize()** (3 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **edgePaintHitsUnderDock()** (2 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **state()** (2 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **clearStage()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **renderWithoutLegend()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **variant()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **zero()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
 
 ## Relationships
 
-- [[Community 38]] (20 shared connections)
-- [[Community 35]] (18 shared connections)
-- [[Community 53]] (3 shared connections)
-- [[Zoho API Diagnostic Script]] (2 shared connections)
+- [[Community 34]] (1 shared connections)
+- [[Community 104]] (1 shared connections)
+- [[Community 89]] (1 shared connections)
+- [[Product Pages Specification]] (1 shared connections)
+- [[Community 44]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-update.mjs`
+- `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 111 (100%)
+- EXTRACTED: 53 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

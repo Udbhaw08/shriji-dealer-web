@@ -1,66 +1,54 @@
 # Community 50
 
-> 25 nodes · cohesion 0.26
+> 24 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **useLanguage()** (32 connections) — `src/data/i18n.js`
-- **main.jsx** (31 connections) — `src/main.jsx`
-- **useSession()** (24 connections) — `src/data/session.js`
-- **t()** (20 connections) — `src/data/i18n.js`
-- **Favorites.jsx** (20 connections) — `src/pages/Favorites.jsx`
-- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
-- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
-- **useFavorites()** (13 connections) — `src/data/favoritesStore.js`
-- **dealerById()** (11 connections) — `src/data/dealer.js`
-- **Products()** (9 connections) — `src/pages/Products.jsx`
-- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
-- **portalGate.js** (8 connections) — `src/data/portalGate.js`
-- **Favorites()** (8 connections) — `src/pages/Favorites.jsx`
-- **Home()** (8 connections) — `src/pages/Home.jsx`
-- **Header()** (7 connections) — `src/ui.jsx`
-- **Login()** (6 connections) — `src/pages/Login.jsx`
-- **Schemes()** (6 connections) — `src/pages/Schemes.jsx`
-- **AccountLink()** (6 connections) — `src/ui.jsx`
-- **Footer()** (6 connections) — `src/ui.jsx`
-- **Support()** (4 connections) — `src/pages/Support.jsx`
-- **DealerForm()** (3 connections) — `src/pages/Support.jsx`
-- **ConditionalBottomNav()** (3 connections) — `src/main.jsx`
-- **RequireVerifiedDealer()** (3 connections) — `src/main.jsx`
-- **FloatingWhatsApp()** (1 connections) — `src/main.jsx`
-- **ScrollManager()** (1 connections) — `src/main.jsx`
+- **get()** (22 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **E()** (20 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **np()** (20 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **zt()** (19 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **bm()** (14 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **lm()** (13 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **am()** (11 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **on()** (10 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **mm()** (9 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **jm()** (8 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **om()** (8 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **tm()** (8 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **zm()** (7 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **C()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **km()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **nm()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **qm()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **Rt()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **dm()** (4 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **im()** (4 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **rm()** (4 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **Um()** (4 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **oh()** (3 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **Vm()** (3 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
 
 ## Relationships
 
-- [[Community 45]] (41 shared connections)
-- [[Community 32]] (40 shared connections)
-- [[Community 90]] (12 shared connections)
-- [[Community 51]] (10 shared connections)
-- [[Community 113]] (5 shared connections)
-- [[Community 112]] (3 shared connections)
-- [[Community 216]] (1 shared connections)
+- [[Price Presentation & Product UI]] (28 shared connections)
+- [[Master Codebase Architecture Reference]] (17 shared connections)
+- [[Zoho API Diagnostic Script]] (14 shared connections)
+- [[Oxlint Linter Configuration]] (13 shared connections)
+- [[Product Brand & Business Vision]] (10 shared connections)
+- [[Community 32]] (9 shared connections)
+- [[Community 30]] (5 shared connections)
+- [[Graphify Agent Rules]] (5 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (2 shared connections)
 
 ## Source Files
 
-- `src/components/MobileBottomNav.jsx`
-- `src/data/dealer.js`
-- `src/data/favoritesStore.js`
-- `src/data/i18n.js`
-- `src/data/portalGate.js`
-- `src/data/session.js`
-- `src/main.jsx`
-- `src/pages/Favorites.jsx`
-- `src/pages/Home.jsx`
-- `src/pages/Login.jsx`
-- `src/pages/Products.jsx`
-- `src/pages/Schemes.jsx`
-- `src/pages/Support.jsx`
-- `src/ui.jsx`
+- `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
 
 ## Audit Trail
 
-- EXTRACTED: 267 (100%)
-- INFERRED: 1 (0%)
+- EXTRACTED: 221 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

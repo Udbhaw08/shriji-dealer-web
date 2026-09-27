@@ -1,6 +1,6 @@
 # Community 90
 
-> 15 nodes · cohesion 0.26
+> 14 nodes · cohesion 0.29
 
 ## Key Concepts
 
@@ -12,7 +12,6 @@
 - **getSuggestions()** (5 connections) — `src/data/searchHelper.js`
 - **autocorrectQuery()** (4 connections) — `src/data/searchHelper.js`
 - **buildSearchDictionary()** (4 connections) — `src/data/searchHelper.js`
-- **useProduct()** (2 connections) — `src/data/productsStore.js`
 - **getPopularSearches()** (2 connections) — `src/data/searchHelper.js`
 - **scoreProduct()** (2 connections) — `src/data/searchHelper.js`
 - **COLLOQUIAL_SYNONYMS** (1 connections) — `src/data/searchHelper.js`
@@ -22,12 +21,12 @@
 
 ## Relationships
 
-- [[Community 50]] (12 shared connections)
-- [[Community 32]] (11 shared connections)
-- [[Community 45]] (7 shared connections)
-- [[Community 51]] (5 shared connections)
-- [[Community 113]] (2 shared connections)
-- [[Community 112]] (1 shared connections)
+- [[Community 37]] (11 shared connections)
+- [[Community 43]] (10 shared connections)
+- [[Community 54]] (9 shared connections)
+- [[Community 45]] (5 shared connections)
+- [[Community 117]] (2 shared connections)
+- [[Community 105]] (1 shared connections)
 
 ## Source Files
 
@@ -38,7 +37,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 92 (100%)
+- EXTRACTED: 90 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

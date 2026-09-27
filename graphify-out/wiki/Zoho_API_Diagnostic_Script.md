@@ -1,49 +1,55 @@
 # Zoho API Diagnostic Script
 
-> 38 nodes · cohesion 0.07
+> 39 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **update-notifier.test.mjs** (43 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **operationPath()** (5 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **stateDirectory()** (4 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **fixture()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **remoteReleaseForVersion()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **runCheckInChild()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **statePath()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **writeCompactCommittedState()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **assertUnsafeCacheStateIsIgnored()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **committedStateFiles()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **compactStateSource()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **localRelease()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **pauseOpenOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **pauseRenameMatchingOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **pauseRenameOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **pauseWriteOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **remoteRelease()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **writeJson()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **writePendingOperation()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **baseTime** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **cachedStateWithHistory()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **cachedUpdateState()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **cancel()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **candidateStateForDigest()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **checkerPath** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- *... and 13 more nodes in this community*
+- **b()** (18 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **.addEventListener()** (18 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **fp()** (14 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **h()** (14 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **.removeEventListener()** (12 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **tp()** (10 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **ip()** (9 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **en()** (8 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **gn()** (8 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **sn()** (8 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **cm()** (7 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **lp()** (7 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **em()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **.blur()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **.scrollIntoView()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **g()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **yn()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **pm()** (5 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **Rp()** (5 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **tn()** (5 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **uh()** (5 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **un()** (5 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **an()** (4 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **Bp()** (4 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **.getClientRects()** (4 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [[Community 53]] (3 shared connections)
-- [[Community 78]] (2 shared connections)
-- [[Community 38]] (1 shared connections)
+- [[Price Presentation & Product UI]] (34 shared connections)
+- [[Community 50]] (14 shared connections)
+- [[Master Codebase Architecture Reference]] (13 shared connections)
+- [[Oxlint Linter Configuration]] (11 shared connections)
+- [[Community 30]] (7 shared connections)
+- [[Community 32]] (4 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (4 shared connections)
+- [[Product Brand & Business Vision]] (3 shared connections)
+- [[Graphify Agent Rules]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/update-notifier.test.mjs`
+- `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
 
 ## Audit Trail
 
-- EXTRACTED: 108 (100%)
+- EXTRACTED: 241 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

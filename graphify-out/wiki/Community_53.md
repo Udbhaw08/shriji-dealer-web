@@ -1,51 +1,52 @@
 # Community 53
 
-> 25 nodes · cohesion 0.17
+> 23 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **update-contract.mjs** (16 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **update-contract.test.mjs** (10 connections) — `.agents/skills/archify/test/update-contract.test.mjs`
-- **compareSemver()** (9 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **validateStableUpdateManifest()** (8 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **normalizeState()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **isStableCoreVersion()** (7 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **parseSemver()** (7 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **validateLocalRelease()** (7 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **validateCachedCandidate()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **validateReleaseNotesUrl()** (5 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **isPlainObject()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **hasExactKeys()** (4 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **releaseChannelForVersion()** (4 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **UpdateContractError** (4 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **hasOnlyKeys()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **validateClaimOwner()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **compareNumericIdentifiers()** (3 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **comparePrerelease()** (3 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **validateCanonicalUtcTimestamp()** (3 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **emptyState()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **validateManifest()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **isPlainObject()** (2 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **.constructor()** (1 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **localRelease()** (1 connections) — `.agents/skills/archify/test/update-contract.test.mjs`
-- **stableManifest()** (1 connections) — `.agents/skills/archify/test/update-contract.test.mjs`
+- **preview.mjs** (23 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **startPreview()** (10 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **open-artifact.mjs** (7 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
+- **openLoopbackUrl()** (5 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
+- **open-artifact.test.mjs** (5 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
+- **launchTarget()** (4 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
+- **openArtifact()** (4 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
+- **runPreview()** (3 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **compactMessage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **initialAuthoredOutput()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **previewPage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **redactDiagnostic()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **sha256()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **sourceDigest()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **spawn()** (2 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
+- **OPENERS** (1 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
+- **cliPath** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **diagramTypes** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **here** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **parseReceipt()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **responseHeaders()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **safeJson()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **target** (1 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
 
 ## Relationships
 
-- [[Community 38]] (16 shared connections)
-- [[Zoho API Diagnostic Script]] (3 shared connections)
-- [[Community 78]] (3 shared connections)
+- [[Community 33]] (4 shared connections)
+- [[Community 77]] (3 shared connections)
+- [[Community 143]] (2 shared connections)
+- [[Community 127]] (2 shared connections)
+- [[Community 182]] (2 shared connections)
+- [[Community 147]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-update.mjs`
-- `.agents/skills/archify/scripts/update-contract.mjs`
-- `.agents/skills/archify/test/update-contract.test.mjs`
+- `.agents/skills/archify/bin/open-artifact.mjs`
+- `.agents/skills/archify/bin/preview.mjs`
+- `.agents/skills/archify/test/open-artifact.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 122 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 79 (95%)
+- INFERRED: 4 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

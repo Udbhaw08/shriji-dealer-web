@@ -1,28 +1,27 @@
 # Community 74
 
-> 19 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **golden.mjs** (18 connections) — `.agents/skills/archify/test/golden.mjs`
-- **expectFailure()** (3 connections) — `.agents/skills/archify/test/golden.mjs`
-- **check()** (2 connections) — `.agents/skills/archify/test/golden.mjs`
-- **render()** (2 connections) — `.agents/skills/archify/test/golden.mjs`
-- **blocks()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **GOLDEN** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **landingPage** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **landingVersions** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **lock** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **normalizeNewlines()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **pkg** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **shieldsBadgeMessages()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **skillMd** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **webApp** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **PRD — Shriji Domestic Appliances Dealer Web** (11 connections) — `PRD.md`
+- **3. Scope** (3 connections) — `PRD.md`
+- **6. Data** (3 connections) — `PRD.md`
+- **7. Evidence ledger — what is verified vs. what is sample** (3 connections) — `PRD.md`
+- **PRD.md** (1 connections) — `PRD.md`
+- **10. Conventions worth knowing** (1 connections) — `PRD.md`
+- **1. What this is** (1 connections) — `PRD.md`
+- **2. Who uses it** (1 connections) — `PRD.md`
+- **4. Stack** (1 connections) — `PRD.md`
+- **5. The pricing model — the core business rule** (1 connections) — `PRD.md`
+- **8. Roadmap** (1 connections) — `PRD.md`
+- **9. Decision log** (1 connections) — `PRD.md`
+- **Built and working** (1 connections) — `PRD.md`
+- **⚠️ Known discrepancy** (1 connections) — `PRD.md`
+- **Not built yet (and deliberately so)** (1 connections) — `PRD.md`
+- **Product record shape** (1 connections) — `PRD.md`
+- **Sample / invented for the draft — must stay labelled as such** (1 connections) — `PRD.md`
+- **Verified (scraped from shrijidomestic.com, 2026-09-18)** (1 connections) — `PRD.md`
 
 ## Relationships
 
@@ -30,11 +29,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/golden.mjs`
+- `PRD.md`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
+- EXTRACTED: 34 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

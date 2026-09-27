@@ -1,48 +1,41 @@
 # Community 76
 
-> 18 nodes · cohesion 0.16
+> 18 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **delete()** (11 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **Ei()** (9 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **hh()** (9 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **yh()** (9 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **gf()** (7 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **mh()** (7 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **ph()** (6 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **Ih()** (5 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **Sh()** (5 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **wi()** (5 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **bh()** (4 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **fh()** (4 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **pt()** (4 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **vf()** (4 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **hf()** (3 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **hl()** (3 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **vh()** (3 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **zh()** (2 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **acquireOperation()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cacheTokenFor()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cacheWriteFile()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **promoteOperationClaim()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **reserveOperation()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **guardedCacheRead()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cacheMkdir()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **inspectActiveClaim()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **readState()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **fenceLowerOperations()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **listOperations()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **operationName()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **operationWasFenced()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **prepareOperationClaim()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **retireActiveClaim()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **hasActivePendingOperation()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **operationIsSuperseded()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **discardPreparedClaim()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (22 shared connections)
-- [[Product Requirements Documentation]] (8 shared connections)
-- [[Pricing Regression Test Suite]] (6 shared connections)
-- [[Community 40]] (3 shared connections)
-- [[Roles & Customer Sharing Spec]] (3 shared connections)
-- [[Community 29]] (3 shared connections)
-- [[Community 46]] (2 shared connections)
-- [[Live Pricing Audit Tool]] (2 shared connections)
-- [[Community 69]] (2 shared connections)
-- [[Community 42]] (1 shared connections)
+- [[Community 31]] (19 shared connections)
+- [[Community 70]] (14 shared connections)
+- [[Community 81]] (12 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-D1Jftt-9.js`
+- `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 100 (100%)
+- EXTRACTED: 113 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

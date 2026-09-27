@@ -1,33 +1,29 @@
 # Community 150
 
-> 9 nodes · cohesion 0.25
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **repository-evidence.test.mjs** (13 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **fixture()** (2 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **git()** (2 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **evidencePayload()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **waitForState()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **wraps** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **via** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- [[Community 58]] (2 shared connections)
-- [[Community 39]] (1 shared connections)
-- [[Community 66]] (1 shared connections)
-- [[Community 95]] (1 shared connections)
+- [[Graphify Knowledge Graph Skill]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/repository-evidence.test.mjs`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

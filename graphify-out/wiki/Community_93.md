@@ -1,38 +1,35 @@
 # Community 93
 
-> 15 nodes · cohesion 0.17
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **engineering-profiles.mjs** (10 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- **engineering-profile.test.mjs** (10 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
-- **validateEngineeringProfile()** (6 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- **deploymentOwnershipDiagnostics()** (4 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- **subject()** (2 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- **DEPLOYMENT_BOUNDARY_KINDS** (1 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- **membership()** (1 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- **PRIVATE_STATE_TYPES** (1 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
-- **clone()** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
-- **example** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
-- **examplePath** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
-- **validateJson()** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **generate-brand-marks.mjs** (13 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **catalog** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **catalogPath** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **domains** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **fail()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **generated** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **here** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **ids** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **lookupForms()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **lookupKeys** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **normalizedList()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **outputPath** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **root** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **simpleBySlug** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
 
 ## Relationships
 
-- [[Claude Agent Instructions]] (3 shared connections)
-- [[Client Products Data Store]] (3 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- `.agents/skills/archify/test/engineering-profile.test.mjs`
+- `.agents/skills/archify/scripts/generate-brand-marks.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

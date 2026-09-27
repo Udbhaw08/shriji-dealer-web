@@ -4,24 +4,32 @@
 
 ## Key Concepts
 
-- **Third-party notices** (5 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **THIRD_PARTY_NOTICES.md** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **JetBrains Mono** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **No additional rights granted** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **OpenAI mark** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **Simple Icons** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
+- **delete()** (11 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **gf()** (7 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **pt()** (4 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **vf()** (4 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **hf()** (3 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **hl()** (3 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (7 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (4 shared connections)
+- [[Community 41]] (2 shared connections)
+- [[Client Products Data Store]] (2 shared connections)
+- [[Architecture Doc Generator]] (2 shared connections)
+- [[Claude Agent Instructions]] (2 shared connections)
+- [[Community 46]] (1 shared connections)
+- [[Roles & Customer Sharing Spec]] (1 shared connections)
+- [[Community 65]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
+- `ios/App/App/public/assets/index-DgXogr-X.js`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

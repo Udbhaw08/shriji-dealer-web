@@ -1,11 +1,12 @@
 # Dependencies & Package Config
 
-> 64 nodes · cohesion 0.11
+> 71 nodes · cohesion 0.10
 
 ## Key Concepts
 
 - **geometry.mjs** (75 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
 - **compileWorkflowInternal()** (67 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **asArray()** (43 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
 - **geometry.test.mjs** (34 connections) — `.agents/skills/archify/test/geometry.test.mjs`
 - **textUnits()** (33 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
 - **validateArchitecture()** (22 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
@@ -16,7 +17,6 @@
 - **cleanFlowProblems()** (17 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
 - **rectsOverlap()** (16 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
 - **validateSequence()** (15 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **throwDiagnosticProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
 - **cleanAmbiguousCorridorProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
 - **cleanBorderRunProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
 - **cleanRouteRhythmProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
@@ -25,24 +25,25 @@
 - **cleanLabelRouteClearanceProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
 - **brandTopRailProblem()** (13 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 - **collectLabelRouteClearance()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **segmentIntersectsRect()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
 - **suggestLabelObstacleFix()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
 - **minimumNodeTextWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
 - **availableNodeTextWidth()** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **collectBorderRuns()** (10 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- *... and 39 more nodes in this community*
+- *... and 46 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (69 shared connections)
-- [[Client Products Data Store]] (52 shared connections)
-- [[Community 33]] (48 shared connections)
-- [[Design System & UI Tokens]] (42 shared connections)
-- [[Community 88]] (21 shared connections)
-- [[Claude Agent Instructions]] (7 shared connections)
-- [[Zoho Integration Architecture]] (6 shared connections)
-- [[Community 172]] (3 shared connections)
-- [[Product Brand & Business Vision]] (2 shared connections)
-- [[Community 164]] (1 shared connections)
+- [[Zoho Integration Architecture]] (51 shared connections)
+- [[Community 39]] (44 shared connections)
+- [[Pricing Regression Test Suite]] (43 shared connections)
+- [[Graphify Workflow]] (40 shared connections)
+- [[Community 62]] (38 shared connections)
+- [[Design System & UI Tokens]] (12 shared connections)
+- [[Community 38]] (8 shared connections)
+- [[Product Pages Specification]] (6 shared connections)
+- [[Community 170]] (3 shared connections)
+- [[Live Pricing Audit Tool]] (2 shared connections)
+- [[Community 162]] (1 shared connections)
 
 ## Source Files
 
@@ -60,7 +61,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 689 (100%)
+- EXTRACTED: 744 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

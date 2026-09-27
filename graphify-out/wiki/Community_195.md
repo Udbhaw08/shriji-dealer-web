@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Data Flow Renderer** (5 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
-- **README.md** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
-- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
-- **Input** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
-- **Layout budget** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
-- **Legend** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
+- **Lifecycle Renderer** (5 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **README.md** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Input** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Layout budget** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Legend** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/dataflow/README.md`
+- `.agents/skills/archify/renderers/lifecycle/README.md`
 
 ## Audit Trail
 

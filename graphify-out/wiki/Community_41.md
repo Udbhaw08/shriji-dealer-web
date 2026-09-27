@@ -1,48 +1,54 @@
 # Community 41
 
-> 29 nodes · cohesion 0.09
+> 31 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **AppDelegate** (10 connections) — `ios/App/App/AppDelegate.swift`
-- **.application()** (7 connections) — `ios/App/App/AppDelegate.swift`
-- **.scene()** (7 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIApplication** (6 connections) — `ios/App/App/AppDelegate.swift`
-- **SceneDelegate** (5 connections) — `ios/App/App/SceneDelegate.swift`
-- **AppDelegate.swift** (3 connections) — `ios/App/App/AppDelegate.swift`
-- **SceneDelegate.swift** (3 connections) — `ios/App/App/SceneDelegate.swift`
-- **.applicationDidBecomeActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationDidEnterBackground()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillEnterForeground()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillResignActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillTerminate()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **Capacitor** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIWindow** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIKit** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIResponder** (2 connections)
-- **Any** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **Bool** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIScene** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UISceneSession** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIWindow** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIScene** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **UISceneSession** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **NSUserActivity** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **Set** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- *... and 4 more nodes in this community*
+- **b()** (18 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **.addEventListener()** (18 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **fp()** (14 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **h()** (14 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **.removeEventListener()** (12 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **tp()** (10 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **ip()** (9 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **cm()** (7 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **lp()** (7 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **em()** (6 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **.blur()** (6 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **.scrollIntoView()** (6 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **g()** (6 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **pm()** (5 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **Rp()** (5 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **uh()** (5 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **Bp()** (4 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **.getClientRects()** (4 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **up()** (4 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **Vp()** (4 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **dn()** (3 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **.focusLast()** (3 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **.unobserveUsing()** (3 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **jp()** (3 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **oh()** (3 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (25 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (13 shared connections)
+- [[Community 46]] (12 shared connections)
+- [[Architecture Doc Generator]] (11 shared connections)
+- [[Client Products Data Store]] (7 shared connections)
+- [[Claude Agent Instructions]] (4 shared connections)
+- [[Roles & Customer Sharing Spec]] (3 shared connections)
+- [[Community 194]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/AppDelegate.swift`
-- `ios/App/App/SceneDelegate.swift`
+- `ios/App/App/public/assets/index-DgXogr-X.js`
 
 ## Audit Trail
 
-- EXTRACTED: 72 (100%)
+- EXTRACTED: 193 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

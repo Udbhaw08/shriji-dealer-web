@@ -1,63 +1,56 @@
 # Client Products Data Store
 
-> 47 nodes · cohesion 0.07
+> 46 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **workflow-compiler.mjs** (102 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **diagnostics.mjs** (27 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **legend.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **throwDiagnosticError()** (16 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **renderLegend()** (14 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **createReadableLayout()** (12 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **validator.mjs** (10 connections) — `.agents/skills/archify/renderers/shared/validator.mjs`
-- **validateSchema()** (10 connections) — `.agents/skills/archify/renderers/shared/validator.mjs`
-- **renderLegend()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **legendFootprint()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **measureLegend()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **relationshipLegendObstacles()** (5 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **readableGroupBounds()** (5 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **normalizedDiagnostic()** (4 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **authoredNodeWidth()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **compileWorkflowWithFeedback()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **fallbackDiagnostic()** (3 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **withDiagnosticRecordingSuppressed()** (3 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **authoredNodeHeight()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **compilerFailure()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **feedbackFailure()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **nodeWidthContributor()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **verticalIntervalsOverlap()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **workflowLabelWidth()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **legendY()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- *... and 22 more nodes in this community*
+- **n()** (28 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **Pd()** (15 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **s()** (12 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **r()** (11 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **cc()** (10 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **Ei()** (9 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **hh()** (9 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **ss()** (9 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **yh()** (9 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **jd()** (8 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **mh()** (7 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **oc()** (7 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **tc()** (7 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **Mp()** (6 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **ph()** (6 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **uc()** (6 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **cs()** (5 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **dh()** (5 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **eh()** (5 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **el()** (5 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **ho()** (5 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **Ih()** (5 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **Sh()** (5 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **th()** (5 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- **wi()** (5 connections) — `ios/App/App/public/assets/index-DgXogr-X.js`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [[Dependencies & Package Config]] (52 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (24 shared connections)
-- [[Community 33]] (17 shared connections)
-- [[Claude Agent Instructions]] (16 shared connections)
-- [[Design System & UI Tokens]] (11 shared connections)
-- [[Community 96]] (7 shared connections)
-- [[Community 88]] (6 shared connections)
-- [[Product Brand & Business Vision]] (4 shared connections)
-- [[Community 172]] (4 shared connections)
-- [[Community 93]] (3 shared connections)
-- [[Community 110]] (3 shared connections)
-- [[Architecture Doc Generator]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (54 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (27 shared connections)
+- [[Architecture Doc Generator]] (10 shared connections)
+- [[Roles & Customer Sharing Spec]] (8 shared connections)
+- [[Community 41]] (7 shared connections)
+- [[Community 65]] (6 shared connections)
+- [[Community 46]] (5 shared connections)
+- [[Claude Agent Instructions]] (4 shared connections)
+- [[Community 194]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- `.agents/skills/archify/renderers/shared/legend.mjs`
-- `.agents/skills/archify/renderers/shared/validator.mjs`
-- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- `ios/App/App/public/assets/index-DgXogr-X.js`
 
 ## Audit Trail
 
-- EXTRACTED: 312 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 269 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

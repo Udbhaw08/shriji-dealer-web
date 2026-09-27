@@ -2,7 +2,7 @@
 
 > God node · 32 connections · `src/data/i18n.js`
 
-**Community:** [[Community 50]]
+**Community:** [[Community 43]]
 
 ## Connections by Relation
 

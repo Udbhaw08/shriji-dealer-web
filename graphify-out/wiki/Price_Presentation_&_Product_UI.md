@@ -1,56 +1,55 @@
 # Price Presentation & Product UI
 
-> 101 nodes · cohesion 0.03
+> 97 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **_()** (444 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **kf()** (17 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **rf()** (11 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **df()** (10 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **request()** (8 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **ff()** (7 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **nf()** (6 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **sf()** (6 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **ct()** (5 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **eh()** (5 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **jf()** (5 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **lf()** (5 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **mf()** (5 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **nl()** (5 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **th()** (5 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **unavailable()** (5 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **ya()** (5 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **cf()** (4 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **ne()** (4 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **qf()** (4 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **removeWindowListener()** (4 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **Tt()** (4 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **uf()** (4 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **vr()** (4 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- **addListener()** (3 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
-- *... and 76 more nodes in this community*
+- **_()** (444 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **kf()** (17 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **rf()** (11 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **df()** (10 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **request()** (8 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **ff()** (7 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **Id()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **nf()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **sf()** (6 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **eh()** (5 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **ic()** (5 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **jf()** (5 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **lf()** (5 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **mf()** (5 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **th()** (5 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **unavailable()** (5 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **Ur()** (5 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **Ku()** (4 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **ne()** (4 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **qf()** (4 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **removeWindowListener()** (4 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **uf()** (4 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **vr()** (4 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- **addListener()** (3 connections) — `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
+- *... and 72 more nodes in this community*
 
 ## Relationships
 
-- [[Pricing Regression Test Suite]] (59 shared connections)
-- [[Product Requirements Documentation]] (56 shared connections)
-- [[Roles & Customer Sharing Spec]] (54 shared connections)
-- [[Live Pricing Audit Tool]] (52 shared connections)
-- [[Community 29]] (41 shared connections)
-- [[Community 46]] (30 shared connections)
-- [[Community 42]] (29 shared connections)
-- [[Community 40]] (26 shared connections)
-- [[Community 69]] (25 shared connections)
-- [[Community 76]] (22 shared connections)
+- [[Master Codebase Architecture Reference]] (60 shared connections)
+- [[Oxlint Linter Configuration]] (53 shared connections)
+- [[Product Brand & Business Vision]] (53 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (44 shared connections)
+- [[Graphify Agent Rules]] (41 shared connections)
+- [[Community 32]] (40 shared connections)
+- [[Community 30]] (39 shared connections)
+- [[Zoho API Diagnostic Script]] (34 shared connections)
+- [[Community 50]] (28 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-D1Jftt-9.js`
+- `android/app/src/main/assets/public/assets/index-DgXogr-X.js`
 
 ## Audit Trail
 
-- EXTRACTED: 723 (100%)
+- EXTRACTED: 715 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
