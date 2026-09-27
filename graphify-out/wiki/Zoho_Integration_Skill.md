@@ -1,43 +1,55 @@
 # Zoho Integration Skill
 
-> 22 nodes · cohesion 0.09
+> 40 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **CODEBASE.md — Project Architecture & Feature Guide** (8 connections) — `CODEBASE.md`
-- **2. Core Pricing & Identity Architecture** (6 connections) — `CODEBASE.md`
-- **4. Codebase Directory Map** (6 connections) — `CODEBASE.md`
-- **5. Zoho API Endpoints** (4 connections) — `CODEBASE.md`
-- **CODEBASE.md** (1 connections) — `CODEBASE.md`
-- **1. System Overview** (1 connections) — `CODEBASE.md`
-- **2.1 The Two Audiences (Zero Leakage Rule)** (1 connections) — `CODEBASE.md`
-- **2.2 Pricing Resolution Engine (`api/zoho.js` & `src/data/dealer.js`)** (1 connections) — `CODEBASE.md`
-- **2.3 Guest Access Control & Portal Gating (`src/data/portalGate.js`)** (1 connections) — `CODEBASE.md`
-- **2.4 Shareable Product Link & Zero-Leakage Experience (`src/pages/Product.jsx`)** (1 connections) — `CODEBASE.md`
-- **2.5 Navigation & Bottom Bar Dynamic Filtering** (1 connections) — `CODEBASE.md`
-- **3. Application Routes & Navigation** (1 connections) — `CODEBASE.md`
-- **4.1 Pages (`src/pages/`)** (1 connections) — `CODEBASE.md`
-- **4.2 Reusable Components (`src/components/` & `src/ui.jsx`)** (1 connections) — `CODEBASE.md`
-- **4.3 State & Business Logic (`src/data/`)** (1 connections) — `CODEBASE.md`
-- **4.4 Zoho API & Serverless Handlers (`api/`)** (1 connections) — `CODEBASE.md`
-- **4.5 Automation & Utility Scripts (`scripts/`)** (1 connections) — `CODEBASE.md`
-- **5.1 Zoho Commerce Storefront API** (1 connections) — `CODEBASE.md`
-- **5.2 Zoho Books Contacts & Pricebooks API** (1 connections) — `CODEBASE.md`
-- **5.3 Auto-Recovery Token Architecture** (1 connections) — `CODEBASE.md`
-- **6. How to Run & Verify** (1 connections) — `CODEBASE.md`
-- **7. Development & Git Workflow Guidelines** (1 connections) — `CODEBASE.md`
+- **pc()** (27 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **_e()** (13 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **ai()** (12 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **un()** (10 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **hc()** (8 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **dn()** (7 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **jp()** (7 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **mc()** (7 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **pi()** (7 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **ma()** (6 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **an()** (5 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **bu()** (5 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **ha()** (5 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **ln()** (5 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **lu()** (5 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **on()** (5 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **we()** (5 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **xe()** (5 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **aa()** (4 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **ga()** (4 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **os()** (4 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **pp()** (4 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **sn()** (4 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **ta()** (4 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **ui()** (4 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (40 shared connections)
+- [[Roles & Customer Sharing Spec]] (16 shared connections)
+- [[Design System & UI Tokens]] (13 shared connections)
+- [[Dependencies & Package Config]] (9 shared connections)
+- [[Community 31]] (6 shared connections)
+- [[Live Pricing Audit Tool]] (4 shared connections)
+- [[Community 34]] (4 shared connections)
+- [[Community 86]] (2 shared connections)
+- [[Community 131]] (1 shared connections)
 
 ## Source Files
 
-- `CODEBASE.md`
+- `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 213 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

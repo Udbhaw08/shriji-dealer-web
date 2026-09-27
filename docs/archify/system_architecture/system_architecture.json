@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "Shriji Dealer Web & Mobile Architecture",
+    "output": "system_architecture.html",
+    "quality_profile": "showcase",
+    "views": [
+      {
+        "id": "catalog-flow",
+        "label": "Live catalog & pricing path",
+        "focus": ["dealers_customers", "react_spa", "vercel_edge", "zoho_gateway", "zoho_commerce", "zoho_books"],
+        "note": "Trace how live Zoho catalog rates and dealer wholesale pricebooks flow through the serverless proxy."
+      },
+      {
+        "id": "security-gating",
+        "label": "Role gating & zero-leakage",
+        "focus": ["react_spa", "portal_gate", "zoho_gateway", "oauth_manager"],
+        "note": "Verify client-side access control, price masking, and backend OAuth token auto-recovery."
+      },
+      {
+        "id": "mobile-and-media",
+        "label": "Capacitor runtime & CDN media",
+        "focus": ["dealers_customers", "capacitor_shell", "react_spa", "zoho_cdn"],
+        "note": "Native Android & iOS Capacitor wrappers hosting the web application with direct Zoho CDN image delivery."
+      }
+    ]
+  },
+  "components": [
+    {
+      "id": "dealers_customers",
+      "type": "external",
+      "label": "Dealers & Buyers",
+      "sublabel": "Web & Mobile Clients",
+      "pos": [40, 260],
+      "size": [130, 60]
+    },
+    {
+      "id": "portal_gate",
+      "type": "security",
+      "label": "Portal Gate",
+      "sublabel": "Zero-Leakage & Masking",
+      "tag": "Security",
+      "pos": [260, 110],
+      "size": [140, 60]
+    },
+    {
+      "id": "react_spa",
+      "type": "frontend",
+      "brand": "react",
+      "label": "React 19 SPA",
+      "sublabel": "Vite 8 & Router v7",
+      "pos": [260, 260],
+      "size": [140, 60]
+    },
+    {
+      "id": "capacitor_shell",
+      "type": "frontend",
+      "label": "Capacitor Mobile",
+      "sublabel": "Android & iOS Shells",
+      "pos": [260, 410],
+      "size": [140, 60]
+    },
+    {
+      "id": "vercel_edge",
+      "type": "cloud",
+      "brand": "vercel",
+      "label": "Vercel Edge",
+      "sublabel": "Serverless Proxy",
+      "pos": [490, 260],
+      "size": [140, 60]
+    },
+    {
+      "id": "zoho_cdn",
+      "type": "cloud",
+      "label": "Zoho Media CDN",
+      "sublabel": "Product Image Assets",
+      "pos": [490, 410],
+      "size": [140, 60]
+    },
+    {
+      "id": "oauth_manager",
+      "type": "security",
+      "label": "OAuth Manager",
+      "sublabel": "Auto-Refresh on 401",
+      "tag": "Self-Healing",
+      "pos": [720, 110],
+      "size": [140, 60]
+    },
+    {
+      "id": "zoho_gateway",
+      "type": "backend",
+      "label": "Zoho Proxy",
+      "sublabel": "api/zoho.js Gateway",
+      "pos": [720, 260],
+      "size": [140, 60]
+    },
+    {
+      "id": "zoho_commerce",
+      "type": "external",
+      "label": "Zoho Commerce",
+      "sublabel": "Storefront API (433 items)",
+      "pos": [950, 190],
+      "size": [140, 60]
+    },
+    {
+      "id": "zoho_books",
+      "type": "external",
+      "label": "Zoho Books API",
+      "sublabel": "Contacts & Pricebooks",
+      "pos": [950, 330],
+      "size": [140, 60]
+    }
+  ],
+  "boundaries": [
+    {
+      "kind": "region",
+      "label": "Client Environment (Web & Mobile)",
+      "wraps": ["react_spa", "portal_gate", "capacitor_shell"]
+    },
+    {
+      "kind": "region",
+      "label": "Vercel Serverless Cloud",
+      "wraps": ["vercel_edge", "zoho_gateway", "oauth_manager"]
+    },
+    {
+      "kind": "region",
+      "label": "Zoho Enterprise Cloud",
+      "wraps": ["zoho_commerce", "zoho_books", "zoho_cdn"]
+    }
+  ],
+  "connections": [
+    {
+      "id": "users-to-spa",
+      "from": "dealers_customers",
+      "to": "react_spa",
+      "label": "HTTPS / App",
+      "variant": "emphasis"
+    },
+    {
+      "id": "users-to-cap",
+      "from": "dealers_customers",
+      "to": "capacitor_shell",
+      "label": "Mobile Shell",
+      "variant": "dashed",
+      "fromSide": "bottom",
+      "toSide": "left"
+    },
+    {
+      "id": "cap-to-spa",
+      "from": "capacitor_shell",
+      "to": "react_spa",
+      "label": "WebView Host",
+      "variant": "dashed",
+      "fromSide": "top",
+      "toSide": "bottom"
+    },
+    {
+      "id": "spa-to-gate",
+      "from": "react_spa",
+      "to": "portal_gate",
+      "label": "Role Gate",
+      "variant": "security",
+      "fromSide": "top",
+      "toSide": "bottom"
+    },
+    {
+      "id": "spa-to-edge",
+      "from": "react_spa",
+      "to": "vercel_edge",
+      "label": "REST /api/*",
+      "variant": "emphasis"
+    },
+    {
+      "id": "spa-to-cdn",
+      "from": "react_spa",
+      "to": "zoho_cdn",
+      "label": "CDN Images",
+      "variant": "dashed",
+      "fromSide": "bottom",
+      "toSide": "left"
+    },
+    {
+      "id": "edge-to-gateway",
+      "from": "vercel_edge",
+      "to": "zoho_gateway",
+      "label": "Proxy"
+    },
+    {
+      "id": "gateway-to-oauth",
+      "from": "zoho_gateway",
+      "to": "oauth_manager",
+      "label": "OAuth 2.0",
+      "variant": "security",
+      "fromSide": "top",
+      "toSide": "bottom"
+    },
+    {
+      "id": "gateway-to-commerce",
+      "from": "zoho_gateway",
+      "to": "zoho_commerce",
+      "label": "Store API"
+    },
+    {
+      "id": "gateway-to-books",
+      "from": "zoho_gateway",
+      "to": "zoho_books",
+      "label": "Books API"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "cyan",
+      "title": "Client Tier",
+      "items": [
+        "React 19 SPA powered by Vite 8 and React Router v7",
+        "Capacitor native container wrapping the responsive web application for Android and iOS",
+        "Portal Gate module strictly enforces guest restrictions and zero-leakage customer views"
+      ]
+    },
+    {
+      "dot": "emerald",
+      "title": "Serverless Gateway",
+      "items": [
+        "Vercel Edge functions proxy all /api/* requests with zero client token exposure",
+        "Centralized Zoho controller manages store catalog, variant rates, and custom pricebooks",
+        "OAuth Manager intercepts 401 errors and automatically recovers with fresh tokens"
+      ]
+    },
+    {
+      "dot": "rose",
+      "title": "Zoho Enterprise Cloud",
+      "items": [
+        "Zoho Commerce Storefront API serves 433 live products with published label rates",
+        "Zoho Books validates dealer contact credentials and maps dedicated wholesale rates",
+        "Zoho Commerce CDN delivers optimized 600x600 product images directly to clients"
+      ]
+    }
+  ]
+}

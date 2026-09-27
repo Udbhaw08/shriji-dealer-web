@@ -1,33 +1,56 @@
 # Community 43
 
-> 7 nodes · cohesion 0.29
+> 26 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **Dr()** (5 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **ir()** (5 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **Er()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **qn()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **Pr()** (3 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **Fr()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **gi()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **session.js** (25 connections) — `src/data/session.js`
+- **Login.jsx** (18 connections) — `src/pages/Login.jsx`
+- **productsStore.js** (17 connections) — `src/data/productsStore.js`
+- **apiFetch()** (8 connections) — `src/data/api.js`
+- **apiUrl()** (8 connections) — `src/data/api.js`
+- **api.js** (6 connections) — `src/data/api.js`
+- **registerDealer()** (6 connections) — `src/data/dealer.js`
+- **setSession()** (5 connections) — `src/data/session.js`
+- **fetchLiveProducts()** (4 connections) — `src/data/productsStore.js`
+- **products.js** (3 connections) — `src/data/products.js`
+- **revalidateSession()** (3 connections) — `src/data/session.js`
+- **signOut()** (3 connections) — `src/data/session.js`
+- **CATEGORIES** (2 connections) — `src/data/products.js`
+- **emit()** (2 connections) — `src/data/productsStore.js`
+- **loadCached()** (2 connections) — `src/data/productsStore.js`
+- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
+- **useProduct()** (2 connections) — `src/data/productsStore.js`
+- **emit()** (2 connections) — `src/data/session.js`
+- **load()** (2 connections) — `src/data/session.js`
+- **PRODUCTS** (1 connections) — `src/data/products.js`
+- **listeners** (1 connections) — `src/data/productsStore.js`
+- **PREFERRED_ORDER** (1 connections) — `src/data/productsStore.js`
+- **storeState** (1 connections) — `src/data/productsStore.js`
+- **GUEST** (1 connections) — `src/data/session.js`
+- **state** (1 connections) — `src/data/session.js`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [[Architecture Doc Generator]] (7 shared connections)
-- [[Community 29]] (2 shared connections)
-- [[Community 35]] (1 shared connections)
-- [[Community 38]] (1 shared connections)
-- [[Dependencies & Package Config]] (1 shared connections)
-- [[Community 44]] (1 shared connections)
+- [[Community 50]] (14 shared connections)
+- [[Community 41]] (9 shared connections)
+- [[Community 56]] (6 shared connections)
+- [[Community 82]] (5 shared connections)
+- [[Community 108]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- `src/data/api.js`
+- `src/data/dealer.js`
+- `src/data/products.js`
+- `src/data/productsStore.js`
+- `src/data/session.js`
+- `src/pages/Login.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
+- EXTRACTED: 127 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

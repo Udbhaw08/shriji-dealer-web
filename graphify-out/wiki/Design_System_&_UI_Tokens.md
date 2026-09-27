@@ -1,57 +1,55 @@
 # Design System & UI Tokens
 
-> 46 nodes · cohesion 0.08
+> 54 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **Z()** (23 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **Au()** (17 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **xl()** (12 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **hu()** (11 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **vu()** (11 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **yi()** (11 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **ql()** (10 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **Cu()** (9 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **pu()** (8 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **Sp()** (8 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **jl()** (7 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **ju()** (7 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **Zl()** (7 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **Lu()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **mu()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **Nd()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **zu()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **Iu()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **kl()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **Ma()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **Ou()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **ru()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **_u()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **cl()** (4 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **eu()** (4 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- *... and 21 more nodes in this community*
+- **delete()** (18 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **ze()** (18 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **bt()** (17 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **jd()** (16 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **bd()** (10 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **kd()** (10 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **pn()** (10 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **yt()** (10 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **en()** (9 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **vd()** (9 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **gn()** (8 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **hn()** (8 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **je()** (8 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **k()** (8 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **mt()** (8 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **tn()** (8 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **md()** (7 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **nn()** (7 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **rn()** (7 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **xd()** (7 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **ad()** (6 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **dd()** (6 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **mn()** (6 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **qt()** (6 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **rd()** (6 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- *... and 29 more nodes in this community*
 
 ## Relationships
 
-- [[Product Brand & Business Vision]] (46 shared connections)
-- [[Product Pages Specification]] (15 shared connections)
-- [[Price Presentation & Product UI]] (12 shared connections)
-- [[Client Products Data Store]] (9 shared connections)
-- [[Vercel Deployment Routing]] (5 shared connections)
-- [[Roles & Customer Sharing Spec]] (5 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (4 shared connections)
-- [[Graphify Knowledge Graph Skill]] (2 shared connections)
-- [[Community 60]] (1 shared connections)
-- [[Graphify Workflow]] (1 shared connections)
-- [[Graphify Agent Rules]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (67 shared connections)
+- [[Zoho Integration Skill]] (13 shared connections)
+- [[Dependencies & Package Config]] (12 shared connections)
+- [[Roles & Customer Sharing Spec]] (9 shared connections)
+- [[Community 34]] (7 shared connections)
+- [[Live Pricing Audit Tool]] (6 shared connections)
+- [[Community 131]] (5 shared connections)
+- [[Community 86]] (5 shared connections)
+- [[Community 31]] (4 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
 
 ## Audit Trail
 
-- EXTRACTED: 271 (100%)
+- EXTRACTED: 350 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

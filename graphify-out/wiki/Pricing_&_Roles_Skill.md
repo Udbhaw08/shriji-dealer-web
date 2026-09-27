@@ -1,56 +1,55 @@
 # Pricing & Roles Skill
 
-> 34 nodes · cohesion 0.09
+> 42 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **Pd()** (14 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **delete()** (11 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **Di()** (10 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **hh()** (9 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **yh()** (9 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **gf()** (7 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **mh()** (7 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **tt()** (7 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **ki()** (6 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **lh()** (6 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **oc()** (6 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **ph()** (6 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **s()** (6 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **Sh()** (6 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **ys()** (6 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **bs()** (5 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **ct()** (5 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **dh()** (5 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **fh()** (5 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **Ih()** (5 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **vf()** (5 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **vs()** (5 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **bh()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **go()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **ja()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- *... and 9 more nodes in this community*
+- **properties** (30 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **col** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **height** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **brand** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **channelX** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **channelY** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **from** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **labelDx** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **labelDy** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **lane** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **note** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **route** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **sublabel** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **tag** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **to** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **toSide** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **variant** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **yOffset** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **maximum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [[Architecture Doc Generator]] (35 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (18 shared connections)
-- [[Product Requirements Documentation]] (8 shared connections)
-- [[Dependencies & Package Config]] (8 shared connections)
-- [[Pricing Regression Test Suite]] (7 shared connections)
-- [[Live Pricing Audit Tool]] (4 shared connections)
-- [[Community 35]] (2 shared connections)
-- [[Zoho Integration Architecture]] (2 shared connections)
-- [[Community 42]] (2 shared connections)
-- [[Community 29]] (2 shared connections)
+- [[Community 123]] (3 shared connections)
+- [[Community 254]] (1 shared connections)
+- [[Community 276]] (1 shared connections)
+- [[Community 255]] (1 shared connections)
+- [[Community 277]] (1 shared connections)
+- [[Community 256]] (1 shared connections)
+- [[Community 278]] (1 shared connections)
+- [[Community 224]] (1 shared connections)
+- [[Community 225]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 190 (100%)
+- EXTRACTED: 93 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

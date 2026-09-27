@@ -1,38 +1,47 @@
 # Community 33
 
-> 10 nodes · cohesion 0.22
+> 32 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **ei()** (9 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **request()** (8 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **Gr()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **Wr()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **yr()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **Cr()** (3 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **kr()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **patch()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **post()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **put()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **scripts** (13 connections) — `package.json`
+- **dependencies** (8 connections) — `package.json`
+- **package.json** (7 connections) — `package.json`
+- **devDependencies** (6 connections) — `package.json`
+- **@capacitor/android** (1 connections) — `package.json`
+- **@capacitor/cli** (1 connections) — `package.json`
+- **@capacitor/core** (1 connections) — `package.json`
+- **@capacitor/ios** (1 connections) — `package.json`
+- **react** (1 connections) — `package.json`
+- **react-dom** (1 connections) — `package.json`
+- **react-router-dom** (1 connections) — `package.json`
+- **oxlint** (1 connections) — `package.json`
+- **@types/react** (1 connections) — `package.json`
+- **@types/react-dom** (1 connections) — `package.json`
+- **vite** (1 connections) — `package.json`
+- **@vitejs/plugin-react** (1 connections) — `package.json`
+- **name** (1 connections) — `package.json`
+- **private** (1 connections) — `package.json`
+- **build** (1 connections) — `package.json`
+- **cap:android** (1 connections) — `package.json`
+- **cap:ios** (1 connections) — `package.json`
+- **cap:sync** (1 connections) — `package.json`
+- **dev** (1 connections) — `package.json`
+- **docs** (1 connections) — `package.json`
+- **graphify:update** (1 connections) — `package.json`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [[Product Brand & Business Vision]] (10 shared connections)
-- [[Community 32]] (3 shared connections)
-- [[Price Presentation & Product UI]] (3 shared connections)
-- [[Product Pages Specification]] (2 shared connections)
-- [[Graphify Knowledge Graph Skill]] (2 shared connections)
-- [[Graphify Workflow]] (1 shared connections)
-- [[Graphify Agent Rules]] (1 shared connections)
-- [[Client Products Data Store]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- `package.json`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (100%)
+- EXTRACTED: 62 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

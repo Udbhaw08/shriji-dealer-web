@@ -1,47 +1,56 @@
 # Mobile Responsive UI Skill
 
-> 32 nodes · cohesion 0.06
+> 41 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **scripts** (13 connections) — `package.json`
-- **dependencies** (8 connections) — `package.json`
-- **package.json** (7 connections) — `package.json`
-- **devDependencies** (6 connections) — `package.json`
-- **@capacitor/android** (1 connections) — `package.json`
-- **@capacitor/cli** (1 connections) — `package.json`
-- **@capacitor/core** (1 connections) — `package.json`
-- **@capacitor/ios** (1 connections) — `package.json`
-- **react** (1 connections) — `package.json`
-- **react-dom** (1 connections) — `package.json`
-- **react-router-dom** (1 connections) — `package.json`
-- **oxlint** (1 connections) — `package.json`
-- **@types/react** (1 connections) — `package.json`
-- **@types/react-dom** (1 connections) — `package.json`
-- **vite** (1 connections) — `package.json`
-- **@vitejs/plugin-react** (1 connections) — `package.json`
-- **name** (1 connections) — `package.json`
-- **private** (1 connections) — `package.json`
-- **build** (1 connections) — `package.json`
-- **cap:android** (1 connections) — `package.json`
-- **cap:ios** (1 connections) — `package.json`
-- **cap:sync** (1 connections) — `package.json`
-- **dev** (1 connections) — `package.json`
-- **docs** (1 connections) — `package.json`
-- **graphify:update** (1 connections) — `package.json`
-- *... and 7 more nodes in this community*
+- **oc()** (34 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **me()** (18 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **vs()** (16 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **gi()** (15 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **ve()** (13 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **ac()** (11 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **fi()** (10 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **rc()** (10 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **ce()** (9 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **tc()** (9 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **be()** (7 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **js()** (7 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **zs()** (7 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **ci()** (6 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **ea()** (6 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **hi()** (6 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **ja()** (6 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **yi()** (6 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **as()** (5 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **ec()** (5 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **hs()** (5 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **ye()** (5 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **da()** (4 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **fa()** (4 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **he()** (4 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (43 shared connections)
+- [[Zoho API Diagnostic Script]] (15 shared connections)
+- [[Product Pages Specification]] (15 shared connections)
+- [[Graphify Agent Rules]] (15 shared connections)
+- [[Oxlint Linter Configuration]] (14 shared connections)
+- [[Community 42]] (11 shared connections)
+- [[Community 83]] (4 shared connections)
+- [[Community 35]] (1 shared connections)
+- [[Community 70]] (1 shared connections)
+- [[Community 44]] (1 shared connections)
 
 ## Source Files
 
-- `package.json`
+- `ios/App/App/public/assets/index-BgdMok-w.js`
 
 ## Audit Trail
 
-- EXTRACTED: 62 (100%)
+- EXTRACTED: 280 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

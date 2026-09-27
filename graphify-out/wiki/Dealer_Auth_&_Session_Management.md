@@ -1,67 +1,56 @@
 # Dealer Auth & Session Management
 
-> 127 nodes · cohesion 0.05
+> 107 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **ui.jsx** (33 connections) — `src/ui.jsx`
-- **Product.jsx** (32 connections) — `src/pages/Product.jsx`
-- **main.jsx** (29 connections) — `src/main.jsx`
-- **useLanguage()** (28 connections) — `src/data/i18n.js`
-- **dealer.js** (27 connections) — `src/data/dealer.js`
-- **session.js** (25 connections) — `src/data/session.js`
-- **Home.jsx** (24 connections) — `src/pages/Home.jsx`
-- **i18n.js** (23 connections) — `src/data/i18n.js`
-- **useSession()** (22 connections) — `src/data/session.js`
-- **dealer.test.mjs** (18 connections) — `src/data/dealer.test.mjs`
-- **t()** (18 connections) — `src/data/i18n.js`
-- **site.js** (18 connections) — `src/data/site.js`
-- **Login.jsx** (18 connections) — `src/pages/Login.jsx`
-- **productsStore.js** (17 connections) — `src/data/productsStore.js`
-- **ProductCard.jsx** (16 connections) — `src/components/ProductCard.jsx`
-- **Products.jsx** (16 connections) — `src/pages/Products.jsx`
-- **PriceBlock.jsx** (15 connections) — `src/components/PriceBlock.jsx`
-- **isDealer()** (15 connections) — `src/data/dealer.js`
-- **Support.jsx** (15 connections) — `src/pages/Support.jsx`
-- **MobileBottomNav.jsx** (14 connections) — `src/components/MobileBottomNav.jsx`
-- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
-- **Product()** (14 connections) — `src/pages/Product.jsx`
-- **Schemes.jsx** (14 connections) — `src/pages/Schemes.jsx`
-- **priceFor()** (13 connections) — `src/data/dealer.js`
-- **Icon()** (13 connections) — `src/ui.jsx`
-- *... and 102 more nodes in this community*
+- **_()** (441 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **w()** (14 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **hm()** (10 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **dt()** (9 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **nm()** (9 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **request()** (7 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **bf()** (5 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **eo()** (5 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **lt()** (5 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **rm()** (5 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **um()** (5 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **unavailable()** (5 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **xl()** (5 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **cm()** (4 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **df()** (4 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **jo()** (4 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **mm()** (4 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **mo()** (4 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **oa()** (4 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **od()** (4 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **qf()** (4 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **qo()** (4 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **sa()** (4 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **xf()** (4 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **yf()** (4 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- *... and 82 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho API Diagnostic Script]] (3 shared connections)
+- [[Dependencies & Package Config]] (73 shared connections)
+- [[Design System & UI Tokens]] (67 shared connections)
+- [[Live Pricing Audit Tool]] (59 shared connections)
+- [[Roles & Customer Sharing Spec]] (47 shared connections)
+- [[Zoho Integration Skill]] (40 shared connections)
+- [[Community 31]] (34 shared connections)
+- [[Community 34]] (32 shared connections)
+- [[Community 86]] (17 shared connections)
+- [[Community 131]] (11 shared connections)
 
 ## Source Files
 
-- `src/components/HeroSlider.jsx`
-- `src/components/MobileBottomNav.jsx`
-- `src/components/PriceBlock.jsx`
-- `src/components/ProductCard.jsx`
-- `src/components/UnderMaintenance.jsx`
-- `src/data/api.js`
-- `src/data/dealer.js`
-- `src/data/dealer.test.mjs`
-- `src/data/i18n.js`
-- `src/data/portalGate.js`
-- `src/data/products.js`
-- `src/data/productsStore.js`
-- `src/data/session.js`
-- `src/data/site.js`
-- `src/data/translations.js`
-- `src/main.jsx`
-- `src/pages/Home.jsx`
-- `src/pages/Login.jsx`
-- `src/pages/Product.jsx`
-- `src/pages/Products.jsx`
+- `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
 
 ## Audit Trail
 
-- EXTRACTED: 833 (100%)
-- INFERRED: 2 (0%)
+- EXTRACTED: 729 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

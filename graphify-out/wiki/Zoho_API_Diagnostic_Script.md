@@ -1,38 +1,56 @@
 # Zoho API Diagnostic Script
 
-> 17 nodes · cohesion 0.12
+> 39 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **pricing.test.mjs** (19 connections) — `src/data/pricing.test.mjs`
-- **crystal** (1 connections) — `src/data/pricing.test.mjs`
-- **crystalDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **crystalGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **genericDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **genericGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **genericItem** (1 connections) — `src/data/pricing.test.mjs`
-- **kettle** (1 connections) — `src/data/pricing.test.mjs`
-- **kettleDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **kettleGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **tcjDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **tcjGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **tripleCookJumbo** (1 connections) — `src/data/pricing.test.mjs`
-- **vernaGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **vernaPlus** (1 connections) — `src/data/pricing.test.mjs`
-- **zeroItem** (1 connections) — `src/data/pricing.test.mjs`
-- **zeroPricedResult** (1 connections) — `src/data/pricing.test.mjs`
+- **n()** (27 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **t()** (27 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **r()** (16 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **i()** (14 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **o()** (14 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **a()** (10 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **f()** (10 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **ae()** (9 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **of()** (9 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **ri()** (9 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **s()** (9 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **ue()** (9 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **ke()** (8 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **xo()** (7 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **co()** (6 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **d()** (6 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **ir()** (6 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **lo()** (6 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **qa()** (6 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **sr()** (6 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **bs()** (5 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **de()** (5 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **no()** (5 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **oo()** (5 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **ro()** (5 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (3 shared connections)
+- [[Price Presentation & Product UI]] (49 shared connections)
+- [[Product Pages Specification]] (25 shared connections)
+- [[Mobile Responsive UI Skill]] (15 shared connections)
+- [[Graphify Agent Rules]] (12 shared connections)
+- [[Community 70]] (8 shared connections)
+- [[Community 35]] (7 shared connections)
+- [[Oxlint Linter Configuration]] (5 shared connections)
+- [[Community 83]] (4 shared connections)
+- [[Community 44]] (3 shared connections)
+- [[Community 42]] (3 shared connections)
 
 ## Source Files
 
-- `src/data/pricing.test.mjs`
+- `ios/App/App/public/assets/index-BgdMok-w.js`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 285 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

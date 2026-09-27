@@ -1,32 +1,59 @@
 # Community 41
 
-> 7 nodes · cohesion 0.29
+> 29 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **eh()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **th()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **ah()** (3 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **nh()** (3 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **op()** (3 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **rh()** (3 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **ap()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **ui.jsx** (33 connections) — `src/ui.jsx`
+- **useLanguage()** (28 connections) — `src/data/i18n.js`
+- **Home.jsx** (24 connections) — `src/pages/Home.jsx`
+- **site.js** (18 connections) — `src/data/site.js`
+- **Support.jsx** (15 connections) — `src/pages/Support.jsx`
+- **Schemes.jsx** (14 connections) — `src/pages/Schemes.jsx`
+- **Icon()** (13 connections) — `src/ui.jsx`
+- **COMPANY** (10 connections) — `src/data/site.js`
+- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
+- **HeroSlider.jsx** (7 connections) — `src/components/HeroSlider.jsx`
+- **UnderMaintenance()** (5 connections) — `src/components/UnderMaintenance.jsx`
+- **Support()** (4 connections) — `src/pages/Support.jsx`
+- **EnquiryButtons()** (4 connections) — `src/ui.jsx`
+- **HeroSlider()** (3 connections) — `src/components/HeroSlider.jsx`
+- **SCHEMES** (3 connections) — `src/data/site.js`
+- **STATS** (3 connections) — `src/data/site.js`
+- **DealerForm()** (3 connections) — `src/pages/Support.jsx`
+- **ISSUE_TYPES** (2 connections) — `src/data/site.js`
+- **MATERIALS** (2 connections) — `src/data/site.js`
+- **NAV** (2 connections) — `src/data/site.js`
+- **QUICK_ACCESS** (2 connections) — `src/data/site.js`
+- **QUICK_NAV** (2 connections) — `src/data/site.js`
+- **useAutoScroll()** (2 connections) — `src/pages/Home.jsx`
+- **LangToggle()** (2 connections) — `src/ui.jsx`
+- **STORE_BANNERS** (1 connections) — `src/components/HeroSlider.jsx`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [[Product Brand & Business Vision]] (7 shared connections)
-- [[Price Presentation & Product UI]] (2 shared connections)
-- [[Graphify Knowledge Graph Skill]] (2 shared connections)
-- [[Vercel Deployment Routing]] (1 shared connections)
+- [[Community 56]] (36 shared connections)
+- [[Community 50]] (24 shared connections)
+- [[Community 43]] (9 shared connections)
+- [[Community 108]] (6 shared connections)
+- [[Community 82]] (5 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- `src/components/HeroSlider.jsx`
+- `src/components/UnderMaintenance.jsx`
+- `src/data/i18n.js`
+- `src/data/site.js`
+- `src/pages/Home.jsx`
+- `src/pages/Schemes.jsx`
+- `src/pages/Support.jsx`
+- `src/ui.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 213 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

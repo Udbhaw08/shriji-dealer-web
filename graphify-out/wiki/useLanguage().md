@@ -2,7 +2,7 @@
 
 > God node · 28 connections · `src/data/i18n.js`
 
-**Community:** [[Dealer Auth & Session Management]]
+**Community:** [[Community 41]]
 
 ## Connections by Relation
 
