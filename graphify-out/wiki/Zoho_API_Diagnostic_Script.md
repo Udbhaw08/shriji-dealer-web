@@ -1,14 +1,27 @@
 # Zoho API Diagnostic Script
 
-> 5 nodes · cohesion 0.40
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **Automatic Codebase Context & Knowledge Graph Protocol** (4 connections) — `.agents/rules/graphify.md`
-- **graphify.md** (1 connections) — `.agents/rules/graphify.md`
-- **Rule 1: Mandatory Knowledge Graph Lookup (Never Blindly Read Files)** (1 connections) — `.agents/rules/graphify.md`
-- **Rule 2: Precision File Viewing** (1 connections) — `.agents/rules/graphify.md`
-- **Rule 3: Keep Graph Fresh After Modifying Code** (1 connections) — `.agents/rules/graphify.md`
+- **DESIGN.md — the design system as actually built** (8 connections) — `docs/DESIGN.md`
+- **4. Components already built — reuse these** (7 connections) — `docs/DESIGN.md`
+- **2. Tokens** (4 connections) — `docs/DESIGN.md`
+- **DESIGN.md** (1 connections) — `docs/DESIGN.md`
+- **1. The direction in one paragraph** (1 connections) — `docs/DESIGN.md`
+- **3. Layout primitives** (1 connections) — `docs/DESIGN.md`
+- **5. Icons** (1 connections) — `docs/DESIGN.md`
+- **6. Responsive rules** (1 connections) — `docs/DESIGN.md`
+- **7. Motion and accessibility** (1 connections) — `docs/DESIGN.md`
+- **Actions** (1 connections) — `docs/DESIGN.md`
+- **Colour** (1 connections) — `docs/DESIGN.md`
+- **Content** (1 connections) — `docs/DESIGN.md`
+- **Detail** (1 connections) — `docs/DESIGN.md`
+- **Listing sidebar** (1 connections) — `docs/DESIGN.md`
+- **Navigation and filtering** (1 connections) — `docs/DESIGN.md`
+- **Product** (1 connections) — `docs/DESIGN.md`
+- **Spacing, radius, shadow, motion** (1 connections) — `docs/DESIGN.md`
+- **Type** (1 connections) — `docs/DESIGN.md`
 
 ## Relationships
 
@@ -16,11 +29,11 @@
 
 ## Source Files
 
-- `.agents/rules/graphify.md`
+- `docs/DESIGN.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 34 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

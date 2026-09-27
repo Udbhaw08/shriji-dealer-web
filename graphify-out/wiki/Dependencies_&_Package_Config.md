@@ -1,52 +1,58 @@
 # Dependencies & Package Config
 
-> 27 nodes · cohesion 0.10
+> 61 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **i18n.js** (23 connections) — `src/data/i18n.js`
-- **Products.jsx** (16 connections) — `src/pages/Products.jsx`
-- **productsStore.js** (14 connections) — `src/data/productsStore.js`
-- **useProducts()** (8 connections) — `src/data/productsStore.js`
-- **Products()** (8 connections) — `src/pages/Products.jsx`
-- **setLanguage()** (3 connections) — `src/data/i18n.js`
-- **tCat()** (3 connections) — `src/data/i18n.js`
-- **products.js** (3 connections) — `src/data/products.js`
-- **emit()** (2 connections) — `src/data/i18n.js`
-- **toggleLanguage()** (2 connections) — `src/data/i18n.js`
-- **CATEGORIES** (2 connections) — `src/data/products.js`
-- **emit()** (2 connections) — `src/data/productsStore.js`
-- **fetchLiveProducts()** (2 connections) — `src/data/productsStore.js`
-- **loadCached()** (2 connections) — `src/data/productsStore.js`
-- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
-- **useProduct()** (2 connections) — `src/data/productsStore.js`
-- **translations.js** (2 connections) — `src/data/translations.js`
-- **TRANSLATIONS** (2 connections) — `src/data/translations.js`
-- **currentLang** (1 connections) — `src/data/i18n.js`
-- **getInitialLang()** (1 connections) — `src/data/i18n.js`
-- **getLanguage()** (1 connections) — `src/data/i18n.js`
-- **listeners** (1 connections) — `src/data/i18n.js`
-- **PRODUCTS** (1 connections) — `src/data/products.js`
-- **listeners** (1 connections) — `src/data/productsStore.js`
-- **PREFERRED_ORDER** (1 connections) — `src/data/productsStore.js`
-- *... and 2 more nodes in this community*
+- **fl()** (34 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **n()** (25 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **qc()** (22 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **qr()** (16 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **lc()** (15 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **ll()** (13 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **r()** (13 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **Ii()** (12 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **Mi()** (12 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **cs()** (9 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **ei()** (9 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **el()** (9 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **Fr()** (9 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **kc()** (9 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **fc()** (8 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **Gc()** (8 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **ic()** (8 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **Pi()** (8 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **bc()** (7 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **dl()** (7 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **ea()** (7 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **Fi()** (7 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **Li()** (7 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **sc()** (7 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **dc()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- *... and 36 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (21 shared connections)
-- [[Price Presentation & Product UI]] (14 shared connections)
+- [[Graphify Knowledge Graph Skill]] (61 shared connections)
+- [[Product Requirements Documentation]] (44 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (21 shared connections)
+- [[Zoho Integration Skill]] (11 shared connections)
+- [[Pricing & Roles Skill]] (9 shared connections)
+- [[Roles & Customer Sharing Spec]] (9 shared connections)
+- [[Pricing Regression Test Suite]] (8 shared connections)
+- [[Live Pricing Audit Tool]] (6 shared connections)
+- [[Community 30]] (3 shared connections)
+- [[Community 39]] (2 shared connections)
+- [[Community 33]] (1 shared connections)
+- [[Community 44]] (1 shared connections)
 
 ## Source Files
 
-- `src/data/i18n.js`
-- `src/data/products.js`
-- `src/data/productsStore.js`
-- `src/data/translations.js`
-- `src/pages/Products.jsx`
+- `ios/App/App/public/assets/index-DqKn3RAn.js`
 
 ## Audit Trail
 
-- EXTRACTED: 107 (100%)
+- EXTRACTED: 432 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

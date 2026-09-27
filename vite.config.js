@@ -138,11 +138,76 @@ function zohoApiPlugin() {
         next();
       });
     },
+    async transformIndexHtml(html, ctx) {
+      const url = ctx?.originalUrl || ctx?.url || '';
+      if (url.startsWith('/products/')) {
+        try {
+          const urlObj = new URL(url, 'http://localhost');
+          const pathSegments = urlObj.pathname.split('/').filter(Boolean);
+          const identifier = pathSegments[pathSegments.length - 1];
+          const pid = urlObj.searchParams.get('pid');
+          const lookup = pid || identifier;
+          if (lookup) {
+            const product = await fetchZohoProductById(lookup);
+            if (product) {
+              const dealerName = urlObj.searchParams.get('name') || '';
+              const dealerCity = urlObj.searchParams.get('city') || '';
+              const dealerState = urlObj.searchParams.get('state') || '';
+              const dealerLoc = [dealerCity, dealerState].filter(Boolean).join(', ');
+              const title = `${product.name} · Sunshine Appliances`;
+              const priceStr = product.mrp > 0 ? `₹${Number(product.mrp).toLocaleString('en-IN')}` : 'Price on Request';
+              const desc = dealerName
+                ? `Retail MRP: ${priceStr} (Incl. of all taxes) · Available with ${dealerName}${dealerLoc ? ` (${dealerLoc})` : ''}`
+                : `Retail MRP: ${priceStr} (Incl. of all taxes) · Sunshine ReSTOR`;
+              const imgUrl = product.img || 'https://shrijidomestic.com/img/hero-stove.webp';
+
+              let transformed = html;
+              transformed = transformed.replace(/<title>.*?<\/title>/i, `<title>${title}</title>`);
+              transformed = transformed.replace(
+                /<meta\s+name=["']description["'].*?>/i,
+                `<meta name="description" content="${desc}" />`
+              );
+              transformed = transformed.replace(
+                /<meta\s+property=["']og:title["'].*?>/i,
+                `<meta property="og:title" content="${title}" />`
+              );
+              transformed = transformed.replace(
+                /<meta\s+property=["']og:description["'].*?>/i,
+                `<meta property="og:description" content="${desc}" />`
+              );
+              transformed = transformed.replace(
+                /<meta\s+property=["']og:image["'].*?>/i,
+                `<meta property="og:image" content="${imgUrl}" />\n    <meta property="og:image:secure_url" content="${imgUrl}" />\n    <meta property="og:image:type" content="image/jpeg" />\n    <meta property="og:image:width" content="600" />\n    <meta property="og:image:height" content="600" />`
+              );
+              transformed = transformed.replace(
+                /<meta\s+name=["']twitter:title["'].*?>/i,
+                `<meta name="twitter:title" content="${title}" />`
+              );
+              transformed = transformed.replace(
+                /<meta\s+name=["']twitter:description["'].*?>/i,
+                `<meta name="twitter:description" content="${desc}" />`
+              );
+              transformed = transformed.replace(
+                /<meta\s+name=["']twitter:image["'].*?>/i,
+                `<meta name="twitter:image" content="${imgUrl}" />`
+              );
+              return transformed;
+            }
+          }
+        } catch (err) {
+          console.error('Error injecting product OG tags in Vite:', err);
+        }
+      }
+      return html;
+    },
   };
 }
 
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), zohoApiPlugin()],
+  server: {
+    host: true,
+  },
 })
 

@@ -13,6 +13,7 @@ export const DEALERS = [
     name: "Shah Electronics",
     person: "Kunal Shah",
     city: "Andheri West, Mumbai",
+    state: "Maharashtra",
     phone: "+91 98200 12345",
     phoneRaw: "919820012345",
     tier: "Verified Dealer",
@@ -23,6 +24,7 @@ export const DEALERS = [
     name: "Rajesh Appliances",
     person: "Rajesh Mehta",
     city: "Borivali East, Mumbai",
+    state: "Maharashtra",
     phone: "+91 98201 44556",
     phoneRaw: "919820144556",
     tier: "Verified Dealer",
@@ -138,6 +140,31 @@ export function formatWhatsAppPhone(phone) {
 }
 
 /**
+ * Convert any product name or model string into a clean, URL-safe slug.
+ * Mirrors modern e-commerce URL slugs (e.g. sunshineindia.com).
+ */
+export function slugifyProduct(nameOrProduct) {
+  if (!nameOrProduct) return "";
+  const str = typeof nameOrProduct === "string"
+    ? nameOrProduct
+    : (nameOrProduct.name || nameOrProduct.model || "");
+  return str
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+/**
+ * Return the canonical URL slug for a product object.
+ */
+export function productSlug(p) {
+  if (!p) return "";
+  if (p.slug) return p.slug;
+  return slugifyProduct(p.name || p.model) || p.id || "";
+}
+
+/**
  * Who is looking, and at which view. The single rule that decides whether a
  * dealer price may be rendered at all.
  *
@@ -150,6 +177,7 @@ export function viewerFor(session, fromId, searchParams) {
   const paramPhone = searchParams?.get ? (searchParams.get("phone") || searchParams.get("dealerPhone") || "") : "";
   const paramName = searchParams?.get ? (searchParams.get("name") || searchParams.get("dealerName") || "") : "";
   const paramCity = searchParams?.get ? (searchParams.get("city") || searchParams.get("dealerCity") || "") : "";
+  const paramState = searchParams?.get ? (searchParams.get("state") || searchParams.get("dealerState") || "") : "";
   const paramPerson = searchParams?.get ? (searchParams.get("person") || "") : "";
 
   if (paramPhone || paramName) {
@@ -160,6 +188,7 @@ export function viewerFor(session, fromId, searchParams) {
       phone: paramPhone || sharedBy?.phone || "",
       phoneRaw: formatWhatsAppPhone(paramPhone || sharedBy?.phoneRaw || sharedBy?.phone || ""),
       city: paramCity || sharedBy?.city || "Mumbai",
+      state: paramState || sharedBy?.state || "",
       tier: "Verified Dealer",
       rebatePct: sharedBy?.rebatePct || 20,
     };
@@ -178,19 +207,31 @@ export function viewerFor(session, fromId, searchParams) {
   return { sharedBy, me, customerView: Boolean(fromId) || Boolean(sharedBy) || !me };
 }
 
-/** The link a dealer hands a customer. Always opens the customer view and encodes dealer contact details. */
+/**
+ * The link a dealer hands a customer.
+ * Uses a clean product slug (e.g. /products/sunshine-shine-rhombus-4-burner-hobtop-gas-stove-manual-auto-ignition)
+ * with dealer name, state, city, and phone encoded as search parameters.
+ */
 export function shareLink(p, dealer) {
   if (!p) return "";
   const origin = typeof window !== "undefined" && window.location?.origin ? window.location.origin : "https://shrijidomestic.com";
-  const url = new URL(`/products/${p.id}`, origin);
+  const slug = productSlug(p) || p.id;
+  const url = new URL(`/products/${slug}`, origin);
+
+  if (p.id) {
+    url.searchParams.set("pid", p.id);
+  }
+
   if (dealer) {
     if (dealer.id) url.searchParams.set("from", dealer.id);
-    const phone = dealer.phone || dealer.phoneRaw || "";
-    if (phone) url.searchParams.set("phone", phone);
     const name = dealer.name || dealer.shop || "";
     if (name) url.searchParams.set("name", name);
+    const state = dealer.state || "";
+    if (state) url.searchParams.set("state", state);
     const city = dealer.city || "";
     if (city) url.searchParams.set("city", city);
+    const phone = dealer.phone || dealer.phoneRaw || "";
+    if (phone) url.searchParams.set("phone", phone);
   }
   return url.toString();
 }

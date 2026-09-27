@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-09-27T20:44:11.362Z
-> Total Project Files: 198
+> Last synchronized: 2026-09-27T21:01:24.618Z
+> Total Project Files: 315
 
 ---
 
@@ -82,8 +82,8 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 
 ### 4.1 Pages (`src/pages/`)
 - **`src/pages/Home.jsx`** (18.5 KB)
-- **`src/pages/Login.jsx`** (23.7 KB)
-- **`src/pages/Product.jsx`** (25.3 KB)
+- **`src/pages/Login.jsx`** (23.8 KB)
+- **`src/pages/Product.jsx`** (26.6 KB)
 - **`src/pages/Products.jsx`** (12.5 KB)
 - **`src/pages/Schemes.jsx`** (7.4 KB)
 - **`src/pages/Support.jsx`** (4.7 KB)
@@ -91,20 +91,21 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 ### 4.2 Reusable Components (`src/components/` & `src/ui.jsx`)
 - **`src/components/HeroSlider.jsx`** (5.8 KB)
 - **`src/components/MobileBottomNav.jsx`** (3.6 KB)
-- **`src/components/PriceBlock.jsx`** (5.1 KB)
+- **`src/components/PriceBlock.jsx`** (5.2 KB)
 - **`src/components/ProductCard.jsx`** (2.9 KB)
 - **`src/components/UnderMaintenance.jsx`** (2.1 KB)
 - **`src/ui.jsx`**: Core UI components (Header, Footer, Icon, Search, CategoryCarousel).
 
 ### 4.3 State & Business Logic (`src/data/`)
-- **`src/data/dealer.js`** (7.0 KB)
-- **`src/data/dealer.test.mjs`** (3.1 KB)
+- **`src/data/api.js`** (0.4 KB)
+- **`src/data/dealer.js`** (8.2 KB)
+- **`src/data/dealer.test.mjs`** (4.2 KB)
 - **`src/data/i18n.js`** (1.7 KB)
 - **`src/data/portalGate.js`** (0.8 KB)
 - **`src/data/pricing.test.mjs`** (4.2 KB)
 - **`src/data/products.js`** (1.1 KB)
-- **`src/data/productsStore.js`** (3.5 KB)
-- **`src/data/session.js`** (2.4 KB)
+- **`src/data/productsStore.js`** (3.6 KB)
+- **`src/data/session.js`** (2.5 KB)
 - **`src/data/site.js`** (4.5 KB)
 - **`src/data/translations.js`** (28.5 KB)
 
@@ -112,16 +113,19 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`api/dealer/apply.js`** (0.7 KB)
 - **`api/dealer/info.js`** (0.6 KB)
 - **`api/dealer/login.js`** (0.8 KB)
+- **`api/og.js`** (3.9 KB)
 - **`api/products/index.js`** (0.9 KB)
 - **`api/products/[id].js`** (0.8 KB)
-- **`api/zoho.js`** (19.1 KB)
+- **`api/zoho.js`** (20.1 KB)
 
 ### 4.5 Automation & Utility Scripts (`scripts/`)
 - **`scripts/audit_prices.mjs`** (3.8 KB)
 - **`scripts/generate-codebase-doc.mjs`** (9.0 KB)
 - **`scripts/get-refresh-token.mjs`** (2.3 KB)
 - **`scripts/make-scheme-pdfs.mjs`** (2.2 KB)
+- **`scripts/sync-all.mjs`** (1.2 KB)
 - **`scripts/test-zoho-api.mjs`** (1.4 KB)
+- **`scripts/watch-sync.mjs`** (1.4 KB)
 
 ---
 

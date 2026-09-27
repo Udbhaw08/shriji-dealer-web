@@ -1,30 +1,58 @@
 # Pricing & Roles Skill
 
-> 9 nodes · cohesion 0.22
+> 33 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **Shriji Pricing & Roles Skill** (5 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **User Roles & View Modes** (4 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **1. Guest View (Public)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **2. Dealer View (Authenticated)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **3. Customer Shared View (`?from=<dealer_id>`)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **Key Files** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **Schemes Logic** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **Zero-Price Handling** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **D()** (27 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **ft()** (20 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **O()** (15 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **k()** (13 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **ai()** (12 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **ht()** (12 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **vt()** (12 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **bt()** (10 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **dt()** (10 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **nn()** (10 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **rn()** (10 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **en()** (8 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **pn()** (8 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **fn()** (7 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **gt()** (7 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **oe()** (7 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **ce()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **ie()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **ae()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **hi()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **Jt()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **mt()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **Oi()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **yt()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **zn()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Graphify Knowledge Graph Skill]] (35 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (21 shared connections)
+- [[Product Requirements Documentation]] (14 shared connections)
+- [[Roles & Customer Sharing Spec]] (12 shared connections)
+- [[Dependencies & Package Config]] (9 shared connections)
+- [[Zoho Integration Skill]] (6 shared connections)
+- [[Live Pricing Audit Tool]] (5 shared connections)
+- [[Community 33]] (5 shared connections)
+- [[Pricing Regression Test Suite]] (4 shared connections)
+- [[Community 40]] (3 shared connections)
+- [[Community 39]] (2 shared connections)
+- [[Community 46]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- `ios/App/App/public/assets/index-DqKn3RAn.js`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 260 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

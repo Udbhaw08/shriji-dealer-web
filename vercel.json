@@ -6,6 +6,10 @@
       "destination": "/api/$1"
     },
     {
+      "source": "/products/(.+)",
+      "destination": "/api/og?slug=$1"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }

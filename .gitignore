@@ -40,3 +40,21 @@ Thumbs.db
 # Graphify
 graphify-out/cache/
 graphify-out/.*
+
+# Mobile Native Builds (Capacitor)
+.gradle/
+android/app/build/
+android/build/
+android/.gradle/
+android/captures/
+android/local.properties
+android/**/*.apk
+android/**/*.aab
+ios/App/build/
+ios/App/Pods/
+ios/App/.build/
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3

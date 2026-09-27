@@ -219,6 +219,7 @@ export async function getDealerById(contactId) {
     phone: rawPhone,
     phoneRaw: digits,
     city: c.billing_address?.city || c.place_of_contact_formatted || c.place_of_contact || "",
+    state: c.billing_address?.state || c.shipping_address?.state || c.place_of_contact || "",
     status: isApproved ? "approved" : "pending",
     rawStatus: c.status,
     tier: isApproved ? "Verified Dealer" : "Pending Verification",
@@ -312,6 +313,18 @@ export async function createDealerContact({ shop, person, phone, email, city, gs
 let cachedProducts = null;
 let productsCacheTime = 0;
 let cachedCategories = null;
+
+export function slugifyProduct(nameOrProduct) {
+  if (!nameOrProduct) return "";
+  const str = typeof nameOrProduct === "string"
+    ? nameOrProduct
+    : (nameOrProduct.name || nameOrProduct.model || "");
+  return str
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
 
 function slugifyCategory(name) {
   if (!name) return "appliances";
@@ -456,6 +469,7 @@ function normalizeProduct(p, livePricebookRates = {}) {
 
   return {
     id: p.product_id,
+    slug: slugifyProduct(p.name),
     name: p.name,
     model,
     size,
@@ -574,17 +588,41 @@ export async function fetchZohoProducts({ refresh = false, pricebookId = "333467
   return normalized;
 }
 
-export async function fetchZohoProductById(productId, { pricebookId = "3334672000000547177" } = {}) {
-  // If product is in cached list, check first
+export async function fetchZohoProductById(identifier, { pricebookId = "3334672000000547177" } = {}) {
+  if (!identifier) return null;
+  const clean = String(identifier).trim();
+
+  // If product is in cached list, check by id, slug, or slugified name first
   if (cachedProducts) {
-    const found = cachedProducts.find((p) => p.id === productId);
+    const found = cachedProducts.find(
+      (p) =>
+        p.id === clean ||
+        p.slug === clean ||
+        slugifyProduct(p.name) === clean ||
+        slugifyProduct(p.model) === clean
+    );
     if (found && found.images?.length > 1) return found;
+  }
+
+  const isNumericId = /^\d+$/.test(clean);
+
+  // If it's a slug, load all products and find the matching one
+  if (!isNumericId) {
+    const all = await fetchZohoProducts({ pricebookId });
+    const match = all.find(
+      (p) =>
+        p.slug === clean ||
+        slugifyProduct(p.name) === clean ||
+        slugifyProduct(p.model) === clean
+    );
+    if (match) return match;
+    return null;
   }
 
   const { dc, orgId } = getZohoConfig();
 
   const [res, livePricebookRates] = await Promise.all([
-    fetchZohoWithRetry(`https://commerce.zoho.${dc}/store/api/v1/products/${productId}`, {
+    fetchZohoWithRetry(`https://commerce.zoho.${dc}/store/api/v1/products/${clean}`, {
       headers: {
         "X-com-zoho-store-organizationid": orgId,
       },

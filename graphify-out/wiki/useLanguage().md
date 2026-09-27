@@ -31,10 +31,10 @@
 - [[ui.jsx]] `EXTRACTED`
 - [[Product.jsx]] `EXTRACTED`
 - [[Home.jsx]] `EXTRACTED`
+- [[Login.jsx]] `EXTRACTED`
+- [[ProductCard.jsx]] `EXTRACTED`
 - [[Products.jsx]] `EXTRACTED`
 - [[PriceBlock.jsx]] `EXTRACTED`
-- [[ProductCard.jsx]] `EXTRACTED`
-- [[Login.jsx]] `EXTRACTED`
 - [[Support.jsx]] `EXTRACTED`
 - [[MobileBottomNav.jsx]] `EXTRACTED`
 - [[Schemes.jsx]] `EXTRACTED`

@@ -1,44 +1,58 @@
 # Product Pages Specification
 
-> 23 nodes · cohesion 0.09
+> 55 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **scripts** (8 connections) — `package.json`
-- **package.json** (7 connections) — `package.json`
-- **devDependencies** (6 connections) — `package.json`
-- **dependencies** (4 connections) — `package.json`
-- **react** (1 connections) — `package.json`
-- **react-dom** (1 connections) — `package.json`
-- **react-router-dom** (1 connections) — `package.json`
-- **oxlint** (1 connections) — `package.json`
-- **@types/react** (1 connections) — `package.json`
-- **@types/react-dom** (1 connections) — `package.json`
-- **vite** (1 connections) — `package.json`
-- **@vitejs/plugin-react** (1 connections) — `package.json`
-- **name** (1 connections) — `package.json`
-- **private** (1 connections) — `package.json`
-- **build** (1 connections) — `package.json`
-- **dev** (1 connections) — `package.json`
-- **docs** (1 connections) — `package.json`
-- **graphify:update** (1 connections) — `package.json`
-- **lint** (1 connections) — `package.json`
-- **preview** (1 connections) — `package.json`
-- **test** (1 connections) — `package.json`
-- **type** (1 connections) — `package.json`
-- **version** (1 connections) — `package.json`
+- **get()** (23 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **E()** (20 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **np()** (20 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **b()** (18 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **.addEventListener()** (18 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **zt()** (18 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **Au()** (17 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **bm()** (14 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **fp()** (14 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **h()** (14 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **.removeEventListener()** (13 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **am()** (11 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **on()** (11 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **tp()** (10 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **ip()** (9 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **mm()** (9 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **jm()** (8 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **om()** (8 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **tm()** (8 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **cm()** (7 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **lp()** (7 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **zm()** (7 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **em()** (6 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **.blur()** (6 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **.scrollIntoView()** (6 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- *... and 30 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Architecture Doc Generator]] (50 shared connections)
+- [[Client Products Data Store]] (24 shared connections)
+- [[Product Brand & Business Vision]] (23 shared connections)
+- [[Master Codebase Architecture Reference]] (19 shared connections)
+- [[Price Presentation & Product UI]] (18 shared connections)
+- [[Zoho Integration Architecture]] (11 shared connections)
+- [[Claude Agent Instructions]] (7 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (4 shared connections)
+- [[Community 29]] (2 shared connections)
+- [[Community 58]] (1 shared connections)
+- [[Community 45]] (1 shared connections)
+- [[Community 43]] (1 shared connections)
 
 ## Source Files
 
-- `package.json`
+- `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (100%)
+- EXTRACTED: 417 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -2,13 +2,14 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Link, useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { useProducts } from "../data/productsStore";
 import { COMPANY } from "../data/site";
-import { registerDealer, shareLink, tagFor, viewerFor, inr, priceFor } from "../data/dealer";
+import { registerDealer, shareLink, tagFor, viewerFor, inr, priceFor, slugifyProduct, productSlug } from "../data/dealer";
 import { useSession } from "../data/session";
 import { Icon } from "../ui";
 import { useLanguage } from "../data/i18n";
 import ProductCard from "../components/ProductCard";
 import PriceBlock from "../components/PriceBlock";
 import { isPortalGated } from "../data/portalGate";
+import { apiUrl } from "../data/api";
 
 /* Feature boxes mirror the mockup: icon over a two-line label. */
 function featureBoxes(p, t) {
@@ -77,26 +78,63 @@ export default function Product() {
     navigate(`/products?q=${encodeURIComponent(searchQ.trim())}`);
   };
 
-  const handleSelectProduct = (prodId) => {
+  const pid = params.get("pid");
+
+  const handleSelectProduct = (prodIdOrSlug) => {
     setSearchQ("");
     setSearchOpen(false);
-    navigate(`/products/${prodId}`);
+    navigate(`/products/${prodIdOrSlug}`);
   };
 
   useEffect(() => {
-    if (id) {
-      fetch(`/api/products/${encodeURIComponent(id)}`)
+    const lookupKey = pid || id;
+    if (lookupKey) {
+      fetch(apiUrl(`/api/products/${encodeURIComponent(lookupKey)}`))
         .then((r) => r.json())
         .then((data) => {
           if (data.ok && data.product) setFetchedProduct(data.product);
         })
         .catch(() => {});
     }
-  }, [id]);
+  }, [id, pid]);
 
   const p = useMemo(() => {
-    return fetchedProduct || PRODUCTS.find((x) => x.id === id) || null;
-  }, [fetchedProduct, PRODUCTS, id]);
+    if (fetchedProduct) return fetchedProduct;
+    if (pid) {
+      const matchPid = PRODUCTS.find((x) => x.id === pid);
+      if (matchPid) return matchPid;
+    }
+    return (
+      PRODUCTS.find(
+        (x) =>
+          x.id === id ||
+          x.slug === id ||
+          slugifyProduct(x.name) === id ||
+          slugifyProduct(x.model) === id
+      ) || null
+    );
+  }, [fetchedProduct, PRODUCTS, id, pid]);
+
+  useEffect(() => {
+    if (p) {
+      const title = `${p.name} · Sunshine Appliances`;
+      document.title = title;
+      const setMeta = (prop, content) => {
+        let el = document.querySelector(`meta[property="${prop}"]`);
+        if (!el) {
+          el = document.createElement("meta");
+          el.setAttribute("property", prop);
+          document.head.appendChild(el);
+        }
+        el.setAttribute("content", content);
+      };
+      setMeta("og:title", title);
+      setMeta("og:description", `Retail MRP: ${inr(priceFor(p).mrp)} · Sunshine ReSTOR`);
+      if (p.img) {
+        setMeta("og:image", p.img.startsWith("http") ? p.img : window.location.origin + p.img);
+      }
+    }
+  }, [p]);
 
   const [shot, setShot] = useState(0);
   const [shotError, setShotError] = useState(false);
@@ -124,7 +162,7 @@ export default function Product() {
 
   useEffect(() => {
     if (fromId && !localSharedBy && !remoteSharedBy) {
-      fetch(`/api/dealer/info?id=${encodeURIComponent(fromId)}`)
+      fetch(apiUrl(`/api/dealer/info?id=${encodeURIComponent(fromId)}`))
         .then((r) => r.json())
         .then((data) => {
           if (data.ok && data.dealer) {
@@ -387,7 +425,7 @@ export default function Product() {
                               type="button"
                               key={m.id}
                               className="search-drop-item"
-                              onClick={() => handleSelectProduct(m.id)}
+                              onClick={() => handleSelectProduct(m.slug || productSlug(m) || m.id)}
                             >
                               <span className="search-drop-thumb">
                                 {m.img ? (
@@ -563,7 +601,7 @@ export default function Product() {
                 <a
                   className="btn btn-wa"
                   href={`https://api.whatsapp.com/send?text=${encodeURIComponent(
-                    `Hello! Take a look at Sunshine ${displayTitle} (${p.name}):\nRetail MRP: ${inr(priceFor(p).mrp)} (Incl. of all taxes)\n\nView details & specifications:\n${shareLink(p, me)}\n\nAvailable with ${me?.name || "Authorised Dealer"}${me?.phone ? ` · Contact: ${me.phone}` : ""}`
+                    `Hello! Take a look at Sunshine ${displayTitle} (${p.name}):\nRetail MRP: ${inr(priceFor(p).mrp)} (Incl. of all taxes)\n\n${shareLink(p, me)}\n\nAvailable with ${me?.name || "Authorised Dealer"}${[me?.city, me?.state].filter(Boolean).length ? ` (${[me?.city, me?.state].filter(Boolean).join(", ")})` : ""}${me?.phone ? ` · Contact: ${me.phone}` : ""}`
                   )}`}
                   target="_blank"
                   rel="noreferrer"

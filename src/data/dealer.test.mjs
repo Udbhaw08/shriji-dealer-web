@@ -1,6 +1,6 @@
 /* node src/data/dealer.test.mjs */
 import assert from "node:assert/strict";
-import { DEALERS, dealerById, inr, isDealer, priceFor, tierOf, viewerFor } from "./dealer.js";
+import { DEALERS, dealerById, inr, isDealer, priceFor, tierOf, viewerFor, shareLink, slugifyProduct } from "./dealer.js";
 
 const TEST_PRODUCTS = [
   { id: "test-stove-1", name: "Test 3B Gas Stove", mrp: 4999 },
@@ -65,4 +65,22 @@ assert.equal(viewerFor(guest, a.id).customerView, true);
 assert.equal(viewerFor(guest, a.id).sharedBy.name, a.name, "the customer sees which dealer shared it");
 assert.equal(viewerFor(guest, "SD-9999").sharedBy, null, "an unknown dealer id must not break the page");
 
-console.log(`ok — ${TEST_PRODUCTS.length} test products × ${DEALERS.length} dealers priced`);
+/* ---- slugify & shareLink ---- */
+assert.equal(
+  slugifyProduct("Sunshine Shine Rhombus 4 Burner Hobtop Gas Stove Manual Auto Ignition"),
+  "sunshine-shine-rhombus-4-burner-hobtop-gas-stove-manual-auto-ignition",
+  "generates clean SEO product slug"
+);
+
+const link = shareLink(TEST_PRODUCTS[0], a);
+assert.ok(link.includes("/products/test-3b-gas-stove"), `link should contain product slug: ${link}`);
+assert.ok(link.includes("pid=test-stove-1"), `link should contain pid: ${link}`);
+assert.ok(link.includes("from=SD-4587"), `link should contain from: ${link}`);
+assert.ok(link.includes("name=Shah+Electronics") || link.includes("name=Shah%20Electronics"), `link should contain dealer name: ${link}`);
+assert.ok(link.includes("state=Maharashtra"), `link should contain dealer state: ${link}`);
+
+const paramsWithState = new URLSearchParams({ from: "SD-4587", state: "Delhi", name: "Custom Dealer" });
+const viewWithState = viewerFor(guest, "SD-4587", paramsWithState);
+assert.equal(viewWithState.sharedBy.state, "Delhi", "viewerFor captures dealer state");
+
+console.log(`ok — ${TEST_PRODUCTS.length} test products × ${DEALERS.length} dealers priced & shareLink verified`);

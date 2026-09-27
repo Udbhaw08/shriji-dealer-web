@@ -1,38 +1,58 @@
 # Client Products Data Store
 
-> 17 nodes · cohesion 0.12
+> 41 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **3. Exactly which keys to fetch, and from where** (9 connections) — `docs/ZOHO-INTEGRATION.md`
-- **ZOHO-INTEGRATION.md — Live Zoho Commerce & Books Backend** (7 connections) — `docs/ZOHO-INTEGRATION.md`
-- **5. API surface** (2 connections) — `docs/ZOHO-INTEGRATION.md`
-- **ZOHO-INTEGRATION.md** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **1. Active Integration Summary** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **2. The Code Seams** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.1 Organization ID — from the Commerce dashboard** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.2 Client ID + Client Secret — from the API console, not the store** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.3 Refresh Token — generated once, then permanent** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.4 Scopes** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.5 Data centre** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.6 The API call the keys unlock** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.7 Still to confirm — only the store owner can answer** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **4. Architecture — the part that cannot be skipped** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **6. Migration checklist** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **How to hand the credentials over safely** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **Sources** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **i()** (64 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **n()** (25 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **t()** (18 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **qr()** (16 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **r()** (13 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **ai()** (12 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **os()** (12 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **cs()** (9 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **ei()** (9 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **Fr()** (9 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **ps()** (8 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **Fi()** (7 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **hs()** (7 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **ms()** (7 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **ys()** (7 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **dc()** (6 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **es()** (6 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **ss()** (6 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **fs()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **gs()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **hi()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **ki()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **Oi()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **ti()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **vs()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Architecture Doc Generator]] (41 shared connections)
+- [[Price Presentation & Product UI]] (40 shared connections)
+- [[Product Pages Specification]] (24 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (17 shared connections)
+- [[Product Brand & Business Vision]] (16 shared connections)
+- [[Zoho Integration Architecture]] (15 shared connections)
+- [[Master Codebase Architecture Reference]] (8 shared connections)
+- [[Community 43]] (3 shared connections)
+- [[Claude Agent Instructions]] (3 shared connections)
+- [[Community 29]] (2 shared connections)
+- [[Community 41]] (2 shared connections)
+- [[Community 45]] (1 shared connections)
 
 ## Source Files
 
-- `docs/ZOHO-INTEGRATION.md`
+- `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 325 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

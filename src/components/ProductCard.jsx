@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Icon } from "../ui";
-import { inr, priceFor, tagFor } from "../data/dealer";
+import { inr, priceFor, tagFor, productSlug } from "../data/dealer";
 import { useLanguage } from "../data/i18n";
 
 export default function ProductCard({ p }) {
@@ -39,7 +39,7 @@ export default function ProductCard({ p }) {
         <Icon name="heart" size={16} />
       </button>
 
-      <Link to={`/products/${p.id}`} className="prod-link">
+      <Link to={`/products/${p.slug || productSlug(p) || p.id}`} className="prod-link">
         <span className="prod-img">
           {p.img && !imgErr ? (
             <img

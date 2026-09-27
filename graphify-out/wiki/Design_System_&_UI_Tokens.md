@@ -1,29 +1,35 @@
 # Design System & UI Tokens
 
-> 20 nodes · cohesion 0.10
+> 52 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **PRODUCT-PAGES.md — listing, detail, and dealer pricing** (9 connections) — `docs/PRODUCT-PAGES.md`
-- **4. Product listing — `/products`, `src/pages/Products.jsx`** (6 connections) — `docs/PRODUCT-PAGES.md`
-- **6. Product detail — `/products/:id`, `src/pages/Product.jsx`** (6 connections) — `docs/PRODUCT-PAGES.md`
-- **PRODUCT-PAGES.md** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **1. Price visibility — the rule everything else follows** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **2. The pricing module — `src/data/dealer.js`** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **3. `<PriceBlock>` — `src/components/PriceBlock.jsx`** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **5. Product card — `src/components/ProductCard.jsx`** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **7. What is deliberately not here** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **8. Files touched on 2026-09-20** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Below the whole grid** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Filters and facets** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Left column** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Pagination** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Responsive behaviour** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Right column** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Share with Customer** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Sort** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Structure** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Tabs** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **zoho.js** (31 connections) — `api/zoho.js`
+- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
+- **fetchZohoProductById()** (12 connections) — `api/zoho.js`
+- **fetchZohoProducts()** (11 connections) — `api/zoho.js`
+- **fetchZohoWithRetry()** (11 connections) — `api/zoho.js`
+- **getZohoConfig()** (11 connections) — `api/zoho.js`
+- **findDealerByPhone()** (9 connections) — `api/zoho.js`
+- **createDealerContact()** (8 connections) — `api/zoho.js`
+- **getDealerById()** (8 connections) — `api/zoho.js`
+- **vite.config.js** (8 connections) — `vite.config.js`
+- **fetchZohoCategories()** (7 connections) — `api/zoho.js`
+- **getAccessToken()** (7 connections) — `api/zoho.js`
+- **zohoApiPlugin()** (7 connections) — `vite.config.js`
+- **fetchZohoPricebookItems()** (5 connections) — `api/zoho.js`
+- **normalizeProduct()** (5 connections) — `api/zoho.js`
+- **index.js** (4 connections) — `api/products/index.js`
+- **test-zoho-api.mjs** (4 connections) — `scripts/test-zoho-api.mjs`
+- **og.js** (3 connections) — `api/og.js`
+- **fetchZohoPricebooks()** (3 connections) — `api/zoho.js`
+- **loadEnv()** (3 connections) — `api/zoho.js`
+- **apply.js** (3 connections) — `api/dealer/apply.js`
+- **info.js** (3 connections) — `api/dealer/info.js`
+- **login.js** (3 connections) — `api/dealer/login.js`
+- **[id].js** (3 connections) — `api/products/[id].js`
+- **handler()** (3 connections) — `api/products/index.js`
+- *... and 27 more nodes in this community*
 
 ## Relationships
 
@@ -31,11 +37,20 @@
 
 ## Source Files
 
-- `docs/PRODUCT-PAGES.md`
+- `api/dealer/apply.js`
+- `api/dealer/info.js`
+- `api/dealer/login.js`
+- `api/og.js`
+- `api/products/[id].js`
+- `api/products/index.js`
+- `api/zoho.js`
+- `scripts/audit_prices.mjs`
+- `scripts/test-zoho-api.mjs`
+- `vite.config.js`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
+- EXTRACTED: 224 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

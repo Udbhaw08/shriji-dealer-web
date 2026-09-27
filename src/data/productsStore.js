@@ -1,5 +1,6 @@
 import { useSyncExternalStore } from "react";
 import { CATEGORIES as INITIAL_CATEGORIES } from "./products";
+import { apiUrl } from "./api";
 
 const CACHE_KEY = "shriji.zoho.products.v2";
 
@@ -64,7 +65,7 @@ export function fetchLiveProducts(force = false) {
   emit();
 
   const url = force ? "/api/products?refresh=true" : "/api/products";
-  fetchPromise = fetch(url)
+  fetchPromise = fetch(apiUrl(url))
     .then((res) => res.json())
     .then((data) => {
       fetchPromise = null;

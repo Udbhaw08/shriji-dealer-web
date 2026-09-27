@@ -1,30 +1,58 @@
 # Pricing Hierarchy & Zero-Leakage Spec
 
-> 9 nodes · cohesion 0.22
+> 35 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **2. Customer vs. Dealer Price Resolution (`src/data/dealer.js`)** (4 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **PRICING-ARCHITECTURE.md — Pricing Engine & Audit Specification** (4 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **1. Source of Truth: Live Zoho Commerce Store API** (2 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **PRICING-ARCHITECTURE.md** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **2.1 Customer View** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **2.2 Dealer View** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **2.3 Share Link Invariant** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **3. Automated Pricing Regression Protection** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **Rate Priority Hierarchy** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **qd()** (14 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **Yd()** (13 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **Fd()** (12 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **Vd()** (12 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **wi()** (11 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **df()** (10 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **rf()** (10 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **ut()** (10 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **lt()** (9 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **ef()** (7 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **ff()** (7 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **af()** (6 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **Bd()** (6 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **Id()** (6 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **nf()** (6 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **ct()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **is()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **jf()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **lf()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **mf()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **sf()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **xt()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **Hd()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **Ku()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Architecture Doc Generator]] (35 shared connections)
+- [[Client Products Data Store]] (17 shared connections)
+- [[Product Brand & Business Vision]] (10 shared connections)
+- [[Zoho Integration Architecture]] (7 shared connections)
+- [[Price Presentation & Product UI]] (7 shared connections)
+- [[Claude Agent Instructions]] (5 shared connections)
+- [[Master Codebase Architecture Reference]] (4 shared connections)
+- [[Product Pages Specification]] (4 shared connections)
+- [[Community 29]] (3 shared connections)
+- [[Community 43]] (1 shared connections)
+- [[Community 41]] (1 shared connections)
+- [[Community 38]] (1 shared connections)
 
 ## Source Files
 
-- `docs/PRICING-ARCHITECTURE.md`
+- `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 215 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,0 +1,10 @@
+{
+  "appId": "com.shrijidomestic.app",
+  "appName": "Sunshine Domestic",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true
+  }
+}

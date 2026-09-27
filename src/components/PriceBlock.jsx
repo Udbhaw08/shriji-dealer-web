@@ -86,7 +86,9 @@ function CustomerPrice({ p, sharedBy }) {
   const telHref = dealerPhone ? `tel:${dealerPhone.replace(/[^0-9+]/g, "")}` : `tel:${COMPANY.phone.replace(/[^0-9+]/g, "")}`;
   const waNumber = dealerPhoneRaw || COMPANY.phoneRaw;
 
-  const msg = encodeURIComponent(`Hello ${dealerName}, I am interested in the ${p.name} from Sunshine.\n${shareLink(p, sharedBy)}`);
+  const msg = encodeURIComponent(`Hello ${dealerName}, I am interested in the ${p.name} from Sunshine.\n\n${shareLink(p, sharedBy)}`);
+
+  const dealerLocation = [sharedBy?.city, sharedBy?.state].filter(Boolean).join(", ");
 
   return (
     <div className="custbox">
@@ -101,7 +103,7 @@ function CustomerPrice({ p, sharedBy }) {
           <div className="availat">
             <span className="pricebox-lbl">Available with</span>
             <b>{sharedBy.name}</b>
-            <small>{[sharedBy.person, sharedBy.city, sharedBy.phone].filter(Boolean).join(" · ")}</small>
+            <small>{[sharedBy.person, dealerLocation, sharedBy.phone].filter(Boolean).join(" · ")}</small>
           </div>
           <a className="btn btn-amber btn-block" href={telHref}>
             <Icon name="phone" /> Contact Dealer

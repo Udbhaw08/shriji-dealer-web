@@ -1,39 +1,55 @@
 # Pricing Regression Test Suite
 
-> 18 nodes · cohesion 0.11
+> 45 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **PRD — Shriji Domestic Appliances Dealer Web** (11 connections) — `PRD.md`
-- **3. Scope** (3 connections) — `PRD.md`
-- **6. Data** (3 connections) — `PRD.md`
-- **7. Evidence ledger — what is verified vs. what is sample** (3 connections) — `PRD.md`
-- **PRD.md** (1 connections) — `PRD.md`
-- **10. Conventions worth knowing** (1 connections) — `PRD.md`
-- **1. What this is** (1 connections) — `PRD.md`
-- **2. Who uses it** (1 connections) — `PRD.md`
-- **4. Stack** (1 connections) — `PRD.md`
-- **5. The pricing model — the core business rule** (1 connections) — `PRD.md`
-- **8. Roadmap** (1 connections) — `PRD.md`
-- **9. Decision log** (1 connections) — `PRD.md`
-- **Built and working** (1 connections) — `PRD.md`
-- **⚠️ Known discrepancy** (1 connections) — `PRD.md`
-- **Not built yet (and deliberately so)** (1 connections) — `PRD.md`
-- **Product record shape** (1 connections) — `PRD.md`
-- **Sample / invented for the draft — must stay labelled as such** (1 connections) — `PRD.md`
-- **Verified (scraped from shrijidomestic.com, 2026-09-18)** (1 connections) — `PRD.md`
+- **Z()** (23 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **xl()** (12 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **delete()** (11 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **hu()** (11 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **vu()** (11 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **yi()** (11 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **ql()** (10 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **sl()** (10 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **jl()** (7 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **ju()** (7 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **pu()** (7 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **Zl()** (7 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **Bo()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **Lu()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **mu()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **Nd()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **zd()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **zu()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **Ma()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **rl()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **ru()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **sm()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **_u()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **cl()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **eu()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- *... and 20 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Graphify Knowledge Graph Skill]] (44 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (19 shared connections)
+- [[Product Requirements Documentation]] (11 shared connections)
+- [[Live Pricing Audit Tool]] (9 shared connections)
+- [[Dependencies & Package Config]] (8 shared connections)
+- [[Roles & Customer Sharing Spec]] (6 shared connections)
+- [[Pricing & Roles Skill]] (4 shared connections)
+- [[Zoho Integration Skill]] (3 shared connections)
+- [[Community 61]] (1 shared connections)
 
 ## Source Files
 
-- `PRD.md`
+- `ios/App/App/public/assets/index-DqKn3RAn.js`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
+- EXTRACTED: 259 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
