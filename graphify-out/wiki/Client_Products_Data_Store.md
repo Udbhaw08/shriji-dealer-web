@@ -1,58 +1,55 @@
 # Client Products Data Store
 
-> 43 nodes · cohesion 0.06
+> 45 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **_()** (444 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **removeWindowListener()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **addListener()** (3 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **addWindowListener()** (3 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **bn()** (3 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **ln()** (3 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **mn()** (3 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **re()** (3 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **clearAllCookies()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **clearCookies()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **jn()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **Nt()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **removeAllListeners()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **removeListener()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **sendRetainedArgumentsForEvent()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **te()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **xn()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **de()** (1 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **deleteCookie()** (1 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **Et()** (1 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **ge()** (1 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **getCookies()** (1 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **getDerivedStateFromError()** (1 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **getDerivedStateFromProps()** (1 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- *... and 18 more nodes in this community*
+- **fl()** (34 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **qc()** (22 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **nl()** (20 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **uc()** (17 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **lm()** (13 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **sa()** (10 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **sl()** (10 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **ua()** (9 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **xa()** (9 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **bc()** (7 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **dl()** (7 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Bo()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **rc()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **zd()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **as()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **ba()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Fo()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **ls()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **pa()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **rl()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **sm()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **tl()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **wa()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **zi()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Ga()** (4 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (66 shared connections)
-- [[Dependencies & Package Config]] (57 shared connections)
-- [[Zoho Integration Architecture]] (49 shared connections)
-- [[Product Requirements Documentation]] (48 shared connections)
-- [[Product Brand & Business Vision]] (43 shared connections)
-- [[Live Pricing Audit Tool]] (42 shared connections)
-- [[Mobile Responsive UI Skill]] (26 shared connections)
-- [[Graphify Workflow]] (15 shared connections)
-- [[Community 30]] (13 shared connections)
-- [[Community 39]] (8 shared connections)
-- [[Community 40]] (8 shared connections)
-- [[Community 44]] (7 shared connections)
+- [[Product Brand & Business Vision]] (46 shared connections)
+- [[Price Presentation & Product UI]] (30 shared connections)
+- [[Product Pages Specification]] (16 shared connections)
+- [[Roles & Customer Sharing Spec]] (14 shared connections)
+- [[Design System & UI Tokens]] (9 shared connections)
+- [[Graphify Knowledge Graph Skill]] (8 shared connections)
+- [[Graphify Workflow]] (4 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (3 shared connections)
+- [[Community 33]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
 
 ## Audit Trail
 
-- EXTRACTED: 509 (100%)
+- EXTRACTED: 295 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

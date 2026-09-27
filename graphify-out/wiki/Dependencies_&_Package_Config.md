@@ -33,18 +33,18 @@
 
 ## Relationships
 
-- [[Client Products Data Store]] (57 shared connections)
-- [[Price Presentation & Product UI]] (31 shared connections)
-- [[Zoho Integration Architecture]] (22 shared connections)
-- [[Product Brand & Business Vision]] (15 shared connections)
-- [[Product Requirements Documentation]] (13 shared connections)
+- [[Architecture Doc Generator]] (56 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (27 shared connections)
+- [[Product Requirements Documentation]] (22 shared connections)
+- [[Pricing Regression Test Suite]] (16 shared connections)
+- [[Zoho Integration Architecture]] (15 shared connections)
+- [[Pricing & Roles Skill]] (8 shared connections)
 - [[Live Pricing Audit Tool]] (7 shared connections)
-- [[Mobile Responsive UI Skill]] (3 shared connections)
-- [[Community 40]] (3 shared connections)
-- [[Graphify Workflow]] (3 shared connections)
-- [[Community 30]] (3 shared connections)
-- [[Community 39]] (2 shared connections)
-- [[Community 44]] (1 shared connections)
+- [[Community 29]] (3 shared connections)
+- [[Community 35]] (2 shared connections)
+- [[Community 38]] (2 shared connections)
+- [[Community 64]] (1 shared connections)
+- [[Community 43]] (1 shared connections)
 
 ## Source Files
 

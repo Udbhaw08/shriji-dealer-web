@@ -4,24 +4,22 @@
 
 ## Key Concepts
 
-- **le()** (5 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **Pe()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **fe()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **ue()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **vercel.json** (3 connections) — `vercel.json`
+- **framework** (1 connections) — `vercel.json`
+- **headers** (1 connections) — `vercel.json`
+- **rewrites** (1 connections) — `vercel.json`
 
 ## Relationships
 
-- [[Client Products Data Store]] (4 shared connections)
-- [[Zoho Integration Architecture]] (2 shared connections)
-- [[Live Pricing Audit Tool]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- `vercel.json`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,25 +1,25 @@
 # Community 61
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **Shriji Testing & Workflow Skill** (3 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
-- **Daily Development Commands** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
-- **Hard Workflow Rules** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
+- **removeWindowListener()** (4 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **removeAllListeners()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **removeListener()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Product Brand & Business Vision]] (3 shared connections)
+- [[Product Pages Specification]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/shriji-testing-and-workflow/SKILL.md`
+- `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

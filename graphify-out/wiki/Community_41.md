@@ -14,10 +14,10 @@
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (7 shared connections)
-- [[Oxlint Linter Configuration]] (2 shared connections)
-- [[Design System & UI Tokens]] (2 shared connections)
-- [[Zoho API Diagnostic Script]] (1 shared connections)
+- [[Product Brand & Business Vision]] (7 shared connections)
+- [[Price Presentation & Product UI]] (2 shared connections)
+- [[Graphify Knowledge Graph Skill]] (2 shared connections)
+- [[Vercel Deployment Routing]] (1 shared connections)
 
 ## Source Files
 

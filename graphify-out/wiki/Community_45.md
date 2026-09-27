@@ -4,30 +4,24 @@
 
 ## Key Concepts
 
-- **Id()** (6 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **nf()** (6 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **eh()** (5 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **ah()** (3 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **op()** (3 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **ap()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **.oxlintrc.json** (3 connections) — `.oxlintrc.json`
+- **rules** (3 connections) — `.oxlintrc.json`
+- **plugins** (1 connections) — `.oxlintrc.json`
+- **react/only-export-components** (1 connections) — `.oxlintrc.json`
+- **react/rules-of-hooks** (1 connections) — `.oxlintrc.json`
+- **$schema** (1 connections) — `.oxlintrc.json`
 
 ## Relationships
 
-- [[Client Products Data Store]] (6 shared connections)
-- [[Product Requirements Documentation]] (2 shared connections)
-- [[Live Pricing Audit Tool]] (2 shared connections)
-- [[Zoho Integration Architecture]] (2 shared connections)
-- [[Product Brand & Business Vision]] (1 shared connections)
-- [[Price Presentation & Product UI]] (1 shared connections)
-- [[Graphify Workflow]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- `.oxlintrc.json`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

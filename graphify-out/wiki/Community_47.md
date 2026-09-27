@@ -1,15 +1,14 @@
 # Community 47
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **.oxlintrc.json** (3 connections) — `.oxlintrc.json`
-- **rules** (3 connections) — `.oxlintrc.json`
-- **plugins** (1 connections) — `.oxlintrc.json`
-- **react/only-export-components** (1 connections) — `.oxlintrc.json`
-- **react/rules-of-hooks** (1 connections) — `.oxlintrc.json`
-- **$schema** (1 connections) — `.oxlintrc.json`
+- **CLAUDE.md — read this before touching anything** (4 connections) — `CLAUDE.md`
+- **CLAUDE.md** (1 connections) — `CLAUDE.md`
+- **Commands** (1 connections) — `CLAUDE.md`
+- **Doc map** (1 connections) — `CLAUDE.md`
+- **Hard rules (these exist to stop hallucination)** (1 connections) — `CLAUDE.md`
 
 ## Relationships
 
@@ -17,11 +16,11 @@
 
 ## Source Files
 
-- `.oxlintrc.json`
+- `CLAUDE.md`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -5,7 +5,7 @@
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1411 nodes · 3869 edges · 87 communities (79 shown, 8 thin omitted)
+- 1411 nodes · 3869 edges · 84 communities (76 shown, 8 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
@@ -78,10 +78,7 @@
 - [[_COMMUNITY_Community 65|Community 65]]
 - [[_COMMUNITY_Community 66|Community 66]]
 - [[_COMMUNITY_Community 67|Community 67]]
-- [[_COMMUNITY_Community 68|Community 68]]
 - [[_COMMUNITY_Community 69|Community 69]]
-- [[_COMMUNITY_Community 70|Community 70]]
-- [[_COMMUNITY_Community 72|Community 72]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `_()` - 444 edges
@@ -110,7 +107,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (87 total, 8 thin omitted)
+## Communities (84 total, 8 thin omitted)
 
 ### Community 0 - "Dealer Auth & Session Management"
 Cohesion: 0.05
@@ -118,11 +115,11 @@ Nodes (92): HeroSlider(), STORE_BANNERS, MobileBottomNav(), CustomerPrice(), Dea
 
 ### Community 1 - "Price Presentation & Product UI"
 Cohesion: 0.06
-Nodes (66): al(), as(), ba(), bc(), Bo(), co(), cs(), dc() (+58 more)
+Nodes (63): a(), ac(), ai(), c(), cc(), co(), componentDidCatch(), cs() (+55 more)
 
 ### Community 2 - "Zoho Backend & Proxy Endpoints"
 Cohesion: 0.06
-Nodes (65): al(), as(), ba(), bc(), Bo(), co(), cs(), dc() (+57 more)
+Nodes (63): a(), ac(), ai(), c(), cc(), co(), componentDidCatch(), cs() (+55 more)
 
 ### Community 3 - "Dependencies & Package Config"
 Cohesion: 0.08
@@ -130,67 +127,67 @@ Nodes (54): am(), an(), b(), bm(), Bp(), cm(), cn(), dn() (+46 more)
 
 ### Community 4 - "Product Pages Specification"
 Cohesion: 0.08
-Nodes (46): am(), b(), Bp(), cm(), delete(), dn(), E(), em() (+38 more)
+Nodes (51): am(), b(), bm(), Bp(), cm(), dn(), E(), em() (+43 more)
 
 ### Community 5 - "Master Codebase Architecture Reference"
 Cohesion: 0.08
 Nodes (40): handler(), cachedPricebooks, clearDiskCache(), createDealerContact(), fetchZohoCategories(), fetchZohoPricebookItems(), fetchZohoPricebooks(), fetchZohoProductById() (+32 more)
 
 ### Community 6 - "Design System & UI Tokens"
-Cohesion: 0.07
-Nodes (48): bh(), bs(), c(), cc(), dh(), Di(), ea(), ec() (+40 more)
+Cohesion: 0.08
+Nodes (46): Au(), Bu(), cl(), Cp(), Cu(), Du(), eu(), Fu() (+38 more)
 
 ### Community 7 - "Product Requirements Documentation"
-Cohesion: 0.07
-Nodes (48): ac(), ai(), bh(), bs(), c(), componentDidCatch(), ct(), Di() (+40 more)
-
-### Community 8 - "Pricing Regression Test Suite"
-Cohesion: 0.09
-Nodes (46): Au(), bm(), Bu(), cl(), Cp(), Cu(), Du(), eu() (+38 more)
-
-### Community 9 - "Zoho Integration Architecture"
 Cohesion: 0.09
 Nodes (46): ae(), af(), At(), bt(), ce(), cf(), ch(), D() (+38 more)
 
+### Community 8 - "Pricing Regression Test Suite"
+Cohesion: 0.08
+Nodes (46): al(), as(), ba(), bc(), Bo(), dl(), dm(), Do() (+38 more)
+
+### Community 9 - "Zoho Integration Architecture"
+Cohesion: 0.08
+Nodes (46): Au(), Bu(), cl(), Cp(), Cu(), Du(), eu(), Fu() (+38 more)
+
 ### Community 10 - "Client Products Data Store"
+Cohesion: 0.08
+Nodes (45): al(), as(), ba(), bc(), Bo(), dl(), dm(), Do() (+37 more)
+
+### Community 11 - "Product Brand & Business Vision"
+Cohesion: 0.06
+Nodes (18): _(), addListener(), addWindowListener(), clearAllCookies(), clearCookies(), hide(), jn(), Md() (+10 more)
+
+### Community 12 - "Live Pricing Audit Tool"
+Cohesion: 0.08
+Nodes (44): Bd(), bl(), ca(), da(), ef(), ep(), fa(), Fd() (+36 more)
+
+### Community 13 - "Architecture Doc Generator"
 Cohesion: 0.06
 Nodes (17): _(), addListener(), addWindowListener(), bn(), clearAllCookies(), clearCookies(), jn(), ln() (+9 more)
 
-### Community 11 - "Product Brand & Business Vision"
-Cohesion: 0.09
-Nodes (43): Au(), Bu(), cl(), Cp(), Cu(), Du(), eu(), Fu() (+35 more)
-
-### Community 12 - "Live Pricing Audit Tool"
+### Community 14 - "Roles & Customer Sharing Spec"
 Cohesion: 0.09
 Nodes (42): Bd(), bl(), ca(), da(), ef(), ep(), fa(), Fd() (+34 more)
 
-### Community 13 - "Architecture Doc Generator"
-Cohesion: 0.11
-Nodes (41): ae(), af(), an(), At(), bt(), ce(), ch(), cn() (+33 more)
-
-### Community 14 - "Roles & Customer Sharing Spec"
-Cohesion: 0.06
-Nodes (14): _(), ac(), addListener(), addWindowListener(), bn(), clearAllCookies(), clearCookies(), componentDidCatch() (+6 more)
-
 ### Community 15 - "Pricing Hierarchy & Zero-Leakage Spec"
-Cohesion: 0.10
-Nodes (37): Bd(), bl(), ca(), da(), ef(), ep(), fa(), Fd() (+29 more)
+Cohesion: 0.11
+Nodes (40): ae(), af(), an(), At(), bt(), ce(), ch(), cn() (+32 more)
 
 ### Community 16 - "Graphify Knowledge Graph Skill"
-Cohesion: 0.06
-Nodes (31): dependencies, @capacitor/android, @capacitor/cli, @capacitor/core, @capacitor/ios, react, react-dom, react-router-dom (+23 more)
+Cohesion: 0.09
+Nodes (35): bh(), bs(), ct(), delete(), dh(), Di(), _f(), fh() (+27 more)
 
 ### Community 17 - "Pricing & Roles Skill"
 Cohesion: 0.09
-Nodes (20): Any, AppDelegate, SceneDelegate, Bool, Capacitor, UIScene, UISceneSession, UIWindow (+12 more)
+Nodes (34): bh(), bs(), ct(), delete(), dh(), Di(), _f(), fh() (+26 more)
 
 ### Community 18 - "Mobile Responsive UI Skill"
-Cohesion: 0.12
-Nodes (26): cc(), dh(), ea(), ec(), es(), fc(), Gc(), Gh() (+18 more)
+Cohesion: 0.06
+Nodes (31): dependencies, @capacitor/android, @capacitor/cli, @capacitor/core, @capacitor/ios, react, react-dom, react-router-dom (+23 more)
 
 ### Community 19 - "Oxlint Linter Configuration"
-Cohesion: 0.13
-Nodes (24): ai(), ct(), ds(), eo(), fs(), gs(), hs(), js() (+16 more)
+Cohesion: 0.09
+Nodes (20): Any, AppDelegate, SceneDelegate, Bool, Capacitor, UIScene, UISceneSession, UIWindow (+12 more)
 
 ### Community 20 - "Zoho Integration Skill"
 Cohesion: 0.09
@@ -209,44 +206,44 @@ Cohesion: 0.11
 Nodes (17): 10. Conventions worth knowing, 1. What this is, 2. Who uses it, 3. Scope, 4. Stack, 5. The pricing model — the core business rule, 6. Data, 7. Evidence ledger — what is verified vs. what is sample (+9 more)
 
 ### Community 24 - "Zoho API Diagnostic Script"
-Cohesion: 0.17
-Nodes (17): cf(), df(), ff(), Id(), jc(), Kd(), lf(), mf() (+9 more)
-
-### Community 25 - "Testing & Workflow Skill"
 Cohesion: 0.12
 Nodes (16): crystal, crystalDealer, crystalGuest, genericDealer, genericGuest, genericItem, kettle, kettleDealer (+8 more)
 
-### Community 26 - "Vercel Deployment Routing"
+### Community 25 - "Testing & Workflow Skill"
 Cohesion: 0.12
 Nodes (16): 1. Active Integration Summary, 2. The Code Seams, 3.1 Organization ID — from the Commerce dashboard, 3.2 Client ID + Client Secret — from the API console, not the store, 3.3 Refresh Token — generated once, then permanent, 3.4 Scopes, 3.5 Data centre, 3.6 The API call the keys unlock (+8 more)
 
+### Community 26 - "Vercel Deployment Routing"
+Cohesion: 0.21
+Nodes (14): bn(), cf(), df(), ff(), Id(), lf(), nf(), qr() (+6 more)
+
 ### Community 27 - "Graphify Agent Rules"
-Cohesion: 0.17
-Nodes (16): br(), Cr(), ei(), Gr(), hp(), In(), jf(), kf() (+8 more)
+Cohesion: 0.15
+Nodes (13): Ar(), Dr(), Er(), Fr(), gi(), ir(), nr(), Pr() (+5 more)
 
 ### Community 28 - "Graphify Workflow"
-Cohesion: 0.18
-Nodes (15): br(), Cr(), ei(), Gr(), hp(), In(), kf(), kr() (+7 more)
+Cohesion: 0.28
+Nodes (13): Bi(), Ci(), ee(), Ii(), Li(), lo(), Lr(), Mi() (+5 more)
 
 ### Community 29 - "Community 29"
 Cohesion: 0.28
 Nodes (13): Bi(), Ci(), ee(), Ii(), Li(), lo(), Lr(), Mi() (+5 more)
 
 ### Community 30 - "Community 30"
-Cohesion: 0.28
-Nodes (13): Bi(), Ci(), ee(), Ii(), Li(), lo(), Lr(), Mi() (+5 more)
-
-### Community 31 - "Community 31"
 Cohesion: 0.15
 Nodes (12): Accessibility & Inclusion, Brand Commitments, Capabilities and Constraints, Evidence on Hand, Operating Context, Platform, Positioning, Product (+4 more)
 
-### Community 32 - "Community 32"
-Cohesion: 0.18
-Nodes (11): a(), _f(), gf(), gl(), Ld(), nr(), pt(), ro() (+3 more)
-
-### Community 33 - "Community 33"
+### Community 31 - "Community 31"
 Cohesion: 0.18
 Nodes (9): allFiles, apiFiles, components, dataStores, pages, pkg, rootDir, routes (+1 more)
+
+### Community 32 - "Community 32"
+Cohesion: 0.24
+Nodes (10): br(), hp(), In(), jf(), kf(), of(), qf(), Sr() (+2 more)
+
+### Community 33 - "Community 33"
+Cohesion: 0.22
+Nodes (10): Cr(), ei(), Gr(), kr(), patch(), post(), put(), request() (+2 more)
 
 ### Community 34 - "Community 34"
 Cohesion: 0.20
@@ -254,27 +251,27 @@ Nodes (9): 1. The four viewers, 2. The rule, in one function, 3. ⚠️ What thi
 
 ### Community 35 - "Community 35"
 Cohesion: 0.22
-Nodes (8): 1. Source of Truth: Live Zoho Commerce Store API, 2.1 Customer View, 2.2 Dealer View, 2.3 Share Link Invariant, 2. Customer vs. Dealer Price Resolution (`src/data/dealer.js`), 3. Automated Pricing Regression Protection, PRICING-ARCHITECTURE.md — Pricing Engine & Audit Specification, Rate Priority Hierarchy
+Nodes (10): Cr(), ei(), Gr(), kr(), patch(), post(), put(), request() (+2 more)
 
 ### Community 36 - "Community 36"
 Cohesion: 0.22
-Nodes (8): 1. Query the Graph (Context-Efficient), 2. Trace Relationships (Shortest Path), 3. Explain a Node or Symbol, 4. Update the Graph (AST Re-Extraction), Graphify Knowledge Graph Skill, Key Output Artifacts in `graphify-out/`, Primary Commands, Why Use Graphify
+Nodes (8): 1. Source of Truth: Live Zoho Commerce Store API, 2.1 Customer View, 2.2 Dealer View, 2.3 Share Link Invariant, 2. Customer vs. Dealer Price Resolution (`src/data/dealer.js`), 3. Automated Pricing Regression Protection, PRICING-ARCHITECTURE.md — Pricing Engine & Audit Specification, Rate Priority Hierarchy
 
 ### Community 37 - "Community 37"
 Cohesion: 0.22
-Nodes (8): 1. Guest View (Public), 2. Dealer View (Authenticated), 3. Customer Shared View (`?from=<dealer_id>`), Key Files, Schemes Logic, Shriji Pricing & Roles Skill, User Roles & View Modes, Zero-Price Handling
+Nodes (8): 1. Query the Graph (Context-Efficient), 2. Trace Relationships (Shortest Path), 3. Explain a Node or Symbol, 4. Update the Graph (AST Re-Extraction), Graphify Knowledge Graph Skill, Key Output Artifacts in `graphify-out/`, Primary Commands, Why Use Graphify
 
 ### Community 38 - "Community 38"
-Cohesion: 0.22
-Nodes (8): 1. Viewport Zoom-Out Prevention, 2. CSS Grid Child Shrinking, 3. Product Card Rows on Mobile (`<= 719px`), 4. Horizontal Scrollable Tabs (`.utabs`, `.tabs`), 5. Hero Banner on Small Screens (`<= 640px`), Critical Mobile Responsiveness Safeguards, Design System Tokens, Shriji Responsive UI Skill
+Cohesion: 0.28
+Nodes (9): br(), hp(), In(), kf(), of(), qf(), Sr(), Tr() (+1 more)
 
 ### Community 39 - "Community 39"
-Cohesion: 0.25
-Nodes (8): a(), _f(), gf(), gl(), Ld(), pt(), ro(), vf()
+Cohesion: 0.22
+Nodes (8): 1. Guest View (Public), 2. Dealer View (Authenticated), 3. Customer Shared View (`?from=<dealer_id>`), Key Files, Schemes Logic, Shriji Pricing & Roles Skill, User Roles & View Modes, Zero-Price Handling
 
 ### Community 40 - "Community 40"
-Cohesion: 0.25
-Nodes (8): delete(), hf(), ja(), lh(), patch(), post(), put(), request()
+Cohesion: 0.22
+Nodes (8): 1. Viewport Zoom-Out Prevention, 2. CSS Grid Child Shrinking, 3. Product Card Rows on Mobile (`<= 719px`), 4. Horizontal Scrollable Tabs (`.utabs`, `.tabs`), 5. Hero Banner on Small Screens (`<= 640px`), Critical Mobile Responsiveness Safeguards, Design System Tokens, Shriji Responsive UI Skill
 
 ### Community 41 - "Community 41"
 Cohesion: 0.29
@@ -282,31 +279,31 @@ Nodes (7): ah(), ap(), eh(), nh(), op(), rh(), th()
 
 ### Community 42 - "Community 42"
 Cohesion: 0.29
-Nodes (7): Ar(), Fr(), ir(), Pr(), qn(), Vr(), zr()
+Nodes (7): ah(), ap(), eh(), nh(), op(), rh(), th()
 
 ### Community 43 - "Community 43"
 Cohesion: 0.29
-Nodes (7): Dr(), Er(), gi(), patch(), post(), put(), request()
-
-### Community 44 - "Community 44"
-Cohesion: 0.29
 Nodes (7): Dr(), Er(), Fr(), gi(), ir(), Pr(), qn()
 
-### Community 45 - "Community 45"
-Cohesion: 0.33
-Nodes (6): ah(), ap(), eh(), Id(), nf(), op()
-
-### Community 46 - "Community 46"
+### Community 44 - "Community 44"
 Cohesion: 0.33
 Nodes (6): Ar(), nr(), rr(), vi(), Vr(), zr()
 
-### Community 47 - "Community 47"
+### Community 45 - "Community 45"
 Cohesion: 0.33
 Nodes (5): plugins, rules, react/only-export-components, react/rules-of-hooks, $schema
 
-### Community 48 - "Community 48"
+### Community 46 - "Community 46"
 Cohesion: 0.33
 Nodes (5): API Endpoints Reference, Key Files & Architecture, Pricing & Rate Priority, Shriji Zoho Integration Skill, Validation & Audit Commands
+
+### Community 47 - "Community 47"
+Cohesion: 0.40
+Nodes (4): CLAUDE.md — read this before touching anything, Commands, Doc map, Hard rules (these exist to stop hallucination)
+
+### Community 48 - "Community 48"
+Cohesion: 0.40
+Nodes (4): Agent Operating Guidelines & Zero-Token Context Strategy, Mandatory Context Rule: Knowledge Graph First, Project Hard Rules, Shriji Domestic Appliances — Sunshine Dealer Web
 
 ### Community 49 - "Community 49"
 Cohesion: 0.40
@@ -314,43 +311,39 @@ Nodes (5): hide(), setAnimation(), setStyle(), show(), unavailable()
 
 ### Community 50 - "Community 50"
 Cohesion: 0.40
-Nodes (4): CLAUDE.md — read this before touching anything, Commands, Doc map, Hard rules (these exist to stop hallucination)
+Nodes (4): Documentation, Layout, Shriji Domestic Appliances — Sunshine Dealer Web, Two things to know before you change anything
 
 ### Community 51 - "Community 51"
 Cohesion: 0.40
-Nodes (4): Agent Operating Guidelines & Zero-Token Context Strategy, Mandatory Context Rule: Knowledge Graph First, Project Hard Rules, Shriji Domestic Appliances — Sunshine Dealer Web
-
-### Community 52 - "Community 52"
-Cohesion: 0.40
-Nodes (5): hide(), setAnimation(), setStyle(), show(), unavailable()
-
-### Community 53 - "Community 53"
-Cohesion: 0.40
-Nodes (4): Documentation, Layout, Shriji Domestic Appliances — Sunshine Dealer Web, Two things to know before you change anything
-
-### Community 54 - "Community 54"
-Cohesion: 0.40
 Nodes (4): Automatic Codebase Context & Knowledge Graph Protocol, Rule 1: Mandatory Knowledge Graph Lookup (Never Blindly Read Files), Rule 2: Precision File Viewing, Rule 3: Keep Graph Fresh After Modifying Code
 
-### Community 55 - "Community 55"
+### Community 52 - "Community 52"
 Cohesion: 0.50
 Nodes (3): Hard Rules, Shriji Dealer Web — Agent Guidelines, Specialized Skills Available
 
-### Community 57 - "Community 57"
+### Community 54 - "Community 54"
 Cohesion: 0.50
 Nodes (4): fe(), le(), Pe(), ue()
 
-### Community 59 - "Community 59"
+### Community 56 - "Community 56"
 Cohesion: 0.50
 Nodes (4): fe(), le(), Pe(), ue()
 
-### Community 61 - "Community 61"
+### Community 58 - "Community 58"
 Cohesion: 0.50
 Nodes (3): Daily Development Commands, Hard Workflow Rules, Shriji Testing & Workflow Skill
 
-### Community 62 - "Community 62"
+### Community 59 - "Community 59"
 Cohesion: 0.50
 Nodes (3): framework, headers, rewrites
+
+### Community 60 - "Community 60"
+Cohesion: 1.00
+Nodes (3): be(), _m(), xe()
+
+### Community 61 - "Community 61"
+Cohesion: 0.67
+Nodes (3): removeAllListeners(), removeListener(), removeWindowListener()
 
 ### Community 63 - "Community 63"
 Cohesion: 1.00
@@ -358,15 +351,7 @@ Nodes (3): be(), _m(), xe()
 
 ### Community 64 - "Community 64"
 Cohesion: 0.67
-Nodes (3): qu(), Xu(), yu()
-
-### Community 65 - "Community 65"
-Cohesion: 0.67
 Nodes (3): removeAllListeners(), removeListener(), removeWindowListener()
-
-### Community 67 - "Community 67"
-Cohesion: 1.00
-Nodes (3): be(), _m(), xe()
 
 ## Knowledge Gaps
 - **247 isolated node(s):** `$schema`, `plugins`, `react/rules-of-hooks`, `react/only-export-components`, `localCacheFile` (+242 more)
@@ -376,17 +361,17 @@ Nodes (3): be(), _m(), xe()
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `_()` connect `Roles & Customer Sharing Spec` to `Zoho Backend & Proxy Endpoints`, `Product Pages Specification`, `Design System & UI Tokens`, `Pricing Regression Test Suite`, `Architecture Doc Generator`, `Pricing Hierarchy & Zero-Leakage Spec`, `Oxlint Linter Configuration`, `Zoho API Diagnostic Script`, `Graphify Agent Rules`, `Community 29`, `Community 32`, `Community 41`, `Community 42`, `Community 43`, `Community 49`, `Community 57`, `Community 63`, `Community 64`, `Community 65`?**
+- **Why does `_()` connect `Product Brand & Business Vision` to `Community 32`, `Price Presentation & Product UI`, `Community 33`, `Product Pages Specification`, `Design System & UI Tokens`, `Community 41`, `Client Products Data Store`, `Graphify Workflow`, `Roles & Customer Sharing Spec`, `Pricing Hierarchy & Zero-Leakage Spec`, `Graphify Knowledge Graph Skill`, `Community 54`, `Vercel Deployment Routing`, `Graphify Agent Rules`, `Community 60`, `Community 61`?**
   _High betweenness centrality (0.112) - this node is a cross-community bridge._
-- **Why does `_()` connect `Client Products Data Store` to `Price Presentation & Product UI`, `Dependencies & Package Config`, `Community 67`, `Product Requirements Documentation`, `Community 39`, `Zoho Integration Architecture`, `Community 40`, `Product Brand & Business Vision`, `Live Pricing Audit Tool`, `Community 45`, `Community 46`, `Community 44`, `Mobile Responsive UI Skill`, `Community 52`, `Community 59`, `Graphify Workflow`, `Community 30`?**
+- **Why does `_()` connect `Architecture Doc Generator` to `Community 64`, `Zoho Backend & Proxy Endpoints`, `Dependencies & Package Config`, `Community 35`, `Community 38`, `Product Requirements Documentation`, `Pricing Regression Test Suite`, `Zoho Integration Architecture`, `Community 42`, `Community 43`, `Community 44`, `Live Pricing Audit Tool`, `Pricing & Roles Skill`, `Community 49`, `Community 56`, `Community 29`, `Community 63`?**
   _High betweenness centrality (0.086) - this node is a cross-community bridge._
-- **Why does `i()` connect `Zoho Backend & Proxy Endpoints` to `Community 32`, `Product Pages Specification`, `Design System & UI Tokens`, `Pricing Regression Test Suite`, `Architecture Doc Generator`, `Roles & Customer Sharing Spec`, `Pricing Hierarchy & Zero-Leakage Spec`, `Oxlint Linter Configuration`, `Zoho API Diagnostic Script`, `Graphify Agent Rules`, `Community 29`?**
+- **Why does `i()` connect `Price Presentation & Product UI` to `Community 33`, `Product Pages Specification`, `Design System & UI Tokens`, `Client Products Data Store`, `Product Brand & Business Vision`, `Roles & Customer Sharing Spec`, `Pricing Hierarchy & Zero-Leakage Spec`, `Graphify Knowledge Graph Skill`, `Vercel Deployment Routing`, `Graphify Workflow`?**
   _High betweenness centrality (0.002) - this node is a cross-community bridge._
 - **What connects `$schema`, `plugins`, `react/rules-of-hooks` to the rest of the system?**
   _247 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Dealer Auth & Session Management` be split into smaller, more focused modules?**
   _Cohesion score 0.05199350081239845 - nodes in this community are weakly interconnected._
 - **Should `Price Presentation & Product UI` be split into smaller, more focused modules?**
-  _Cohesion score 0.06247086247086247 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.060515873015873016 - nodes in this community are weakly interconnected._
 - **Should `Zoho Backend & Proxy Endpoints` be split into smaller, more focused modules?**
-  _Cohesion score 0.06394230769230769 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.060515873015873016 - nodes in this community are weakly interconnected._

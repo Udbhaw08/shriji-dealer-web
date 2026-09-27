@@ -1,30 +1,37 @@
 # Community 38
 
-> 9 nodes · cohesion 0.22
+> 9 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **Critical Mobile Responsiveness Safeguards** (6 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **Shriji Responsive UI Skill** (3 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **1. Viewport Zoom-Out Prevention** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **2. CSS Grid Child Shrinking** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **3. Product Card Rows on Mobile (`<= 719px`)** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **4. Horizontal Scrollable Tabs (`.utabs`, `.tabs`)** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **5. Hero Banner on Small Screens (`<= 640px`)** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **Design System Tokens** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **kf()** (17 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **br()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **qf()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **Sr()** (3 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **Xf()** (3 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **hp()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **In()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **of()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **Tr()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Architecture Doc Generator]] (9 shared connections)
+- [[Community 35]] (3 shared connections)
+- [[Dependencies & Package Config]] (2 shared connections)
+- [[Community 44]] (1 shared connections)
+- [[Community 43]] (1 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (1 shared connections)
+- [[Live Pricing Audit Tool]] (1 shared connections)
+- [[Product Requirements Documentation]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/shriji-responsive-ui/SKILL.md`
+- `ios/App/App/public/assets/index-BwZ1pEe7.js`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 39 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

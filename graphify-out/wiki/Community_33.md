@@ -1,32 +1,38 @@
 # Community 33
 
-> 11 nodes · cohesion 0.18
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **generate-codebase-doc.mjs** (10 connections) — `scripts/generate-codebase-doc.mjs`
-- **allFiles** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **apiFiles** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **components** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **dataStores** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **getFiles()** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **pages** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **pkg** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **rootDir** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **routes** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **scripts** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **ei()** (9 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **request()** (8 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Gr()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Wr()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **yr()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Cr()** (3 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **kr()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **patch()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **post()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **put()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Product Brand & Business Vision]] (10 shared connections)
+- [[Community 32]] (3 shared connections)
+- [[Price Presentation & Product UI]] (3 shared connections)
+- [[Product Pages Specification]] (2 shared connections)
+- [[Graphify Knowledge Graph Skill]] (2 shared connections)
+- [[Graphify Workflow]] (1 shared connections)
+- [[Graphify Agent Rules]] (1 shared connections)
+- [[Client Products Data Store]] (1 shared connections)
 
 ## Source Files
 
-- `scripts/generate-codebase-doc.mjs`
+- `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 43 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

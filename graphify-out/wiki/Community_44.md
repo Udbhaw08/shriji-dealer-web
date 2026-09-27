@@ -1,25 +1,25 @@
 # Community 44
 
-> 7 nodes · cohesion 0.29
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **Dr()** (5 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **ir()** (5 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **Er()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **qn()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **Pr()** (3 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **Fr()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **gi()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **Ar()** (8 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **rr()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **vi()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **nr()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **Vr()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **zr()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
 
 ## Relationships
 
-- [[Client Products Data Store]] (7 shared connections)
-- [[Community 30]] (2 shared connections)
-- [[Community 40]] (1 shared connections)
-- [[Graphify Workflow]] (1 shared connections)
-- [[Dependencies & Package Config]] (1 shared connections)
-- [[Community 46]] (1 shared connections)
+- [[Architecture Doc Generator]] (6 shared connections)
+- [[Community 43]] (1 shared connections)
+- [[Product Requirements Documentation]] (1 shared connections)
+- [[Community 38]] (1 shared connections)
+- [[Community 29]] (1 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (1 shared connections)
+- [[Zoho Integration Architecture]] (1 shared connections)
 
 ## Source Files
 
@@ -27,7 +27,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

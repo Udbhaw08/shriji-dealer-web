@@ -1,6 +1,6 @@
 # Live Pricing Audit Tool
 
-> 42 nodes · cohesion 0.09
+> 44 nodes · cohesion 0.08
 
 ## Key Concepts
 
@@ -17,6 +17,8 @@
 - **je()** (7 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
 - **Bd()** (6 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
 - **da()** (6 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **Id()** (6 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **nf()** (6 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
 - **Rd()** (6 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
 - **wi()** (6 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
 - **Io()** (5 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
@@ -27,24 +29,21 @@
 - **p()** (5 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
 - **Hd()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
 - **hl()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **ko()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **ml()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- *... and 17 more nodes in this community*
+- *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [[Client Products Data Store]] (42 shared connections)
-- [[Price Presentation & Product UI]] (23 shared connections)
-- [[Zoho Integration Architecture]] (15 shared connections)
+- [[Architecture Doc Generator]] (44 shared connections)
+- [[Product Requirements Documentation]] (17 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (15 shared connections)
+- [[Pricing Regression Test Suite]] (14 shared connections)
 - [[Dependencies & Package Config]] (7 shared connections)
-- [[Mobile Responsive UI Skill]] (5 shared connections)
-- [[Product Brand & Business Vision]] (4 shared connections)
-- [[Community 45]] (2 shared connections)
-- [[Community 39]] (2 shared connections)
-- [[Product Requirements Documentation]] (2 shared connections)
-- [[Community 67]] (1 shared connections)
-- [[Community 59]] (1 shared connections)
-- [[Community 40]] (1 shared connections)
+- [[Zoho Integration Architecture]] (6 shared connections)
+- [[Pricing & Roles Skill]] (4 shared connections)
+- [[Community 42]] (1 shared connections)
+- [[Community 63]] (1 shared connections)
+- [[Community 38]] (1 shared connections)
+- [[Community 56]] (1 shared connections)
 
 ## Source Files
 
@@ -52,7 +51,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 257 (100%)
+- EXTRACTED: 269 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

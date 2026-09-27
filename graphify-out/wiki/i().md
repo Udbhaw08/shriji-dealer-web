@@ -2,7 +2,7 @@
 
 > God node · 64 connections · `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
 
-**Community:** [[Zoho Backend & Proxy Endpoints]]
+**Community:** [[Price Presentation & Product UI]]
 
 ## Connections by Relation
 

@@ -2,7 +2,7 @@
 
 > God node · 34 connections · `ios/App/App/public/assets/index-BwZ1pEe7.js`
 
-**Community:** [[Price Presentation & Product UI]]
+**Community:** [[Pricing Regression Test Suite]]
 
 ## Connections by Relation
 

@@ -33,7 +33,7 @@
 
 ## Relationships
 
-- [[Testing & Workflow Skill]] (3 shared connections)
+- [[Zoho API Diagnostic Script]] (3 shared connections)
 
 ## Source Files
 

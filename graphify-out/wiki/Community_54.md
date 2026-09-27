@@ -1,26 +1,27 @@
 # Community 54
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **Automatic Codebase Context & Knowledge Graph Protocol** (4 connections) — `.agents/rules/graphify.md`
-- **graphify.md** (1 connections) — `.agents/rules/graphify.md`
-- **Rule 1: Mandatory Knowledge Graph Lookup (Never Blindly Read Files)** (1 connections) — `.agents/rules/graphify.md`
-- **Rule 2: Precision File Viewing** (1 connections) — `.agents/rules/graphify.md`
-- **Rule 3: Keep Graph Fresh After Modifying Code** (1 connections) — `.agents/rules/graphify.md`
+- **le()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Pe()** (4 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **fe()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **ue()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Product Brand & Business Vision]] (4 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (2 shared connections)
+- [[Roles & Customer Sharing Spec]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/rules/graphify.md`
+- `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

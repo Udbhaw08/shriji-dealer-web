@@ -1,40 +1,30 @@
 # Community 40
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **delete()** (11 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **request()** (8 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **lh()** (6 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **ja()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **hf()** (3 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **patch()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **post()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **put()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **Critical Mobile Responsiveness Safeguards** (6 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **Shriji Responsive UI Skill** (3 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **1. Viewport Zoom-Out Prevention** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **2. CSS Grid Child Shrinking** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **3. Product Card Rows on Mobile (`<= 719px`)** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **4. Horizontal Scrollable Tabs (`.utabs`, `.tabs`)** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **5. Hero Banner on Small Screens (`<= 640px`)** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **Design System Tokens** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
 
 ## Relationships
 
-- [[Client Products Data Store]] (8 shared connections)
-- [[Dependencies & Package Config]] (3 shared connections)
-- [[Product Requirements Documentation]] (2 shared connections)
-- [[Product Brand & Business Vision]] (2 shared connections)
-- [[Price Presentation & Product UI]] (2 shared connections)
-- [[Zoho Integration Architecture]] (1 shared connections)
-- [[Community 39]] (1 shared connections)
-- [[Live Pricing Audit Tool]] (1 shared connections)
-- [[Mobile Responsive UI Skill]] (1 shared connections)
-- [[Community 30]] (1 shared connections)
-- [[Community 44]] (1 shared connections)
-- [[Graphify Workflow]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- `.agents/skills/shriji-responsive-ui/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

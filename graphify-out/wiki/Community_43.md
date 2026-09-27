@@ -4,26 +4,26 @@
 
 ## Key Concepts
 
-- **request()** (8 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **Dr()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **Er()** (4 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **gi()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **patch()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **post()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **put()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Dr()** (5 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **ir()** (5 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **Er()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **qn()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **Pr()** (3 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **Fr()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **gi()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (7 shared connections)
-- [[Graphify Agent Rules]] (2 shared connections)
-- [[Community 42]] (1 shared connections)
-- [[Community 29]] (1 shared connections)
-- [[Product Pages Specification]] (1 shared connections)
-- [[Pricing Regression Test Suite]] (1 shared connections)
+- [[Architecture Doc Generator]] (7 shared connections)
+- [[Community 29]] (2 shared connections)
+- [[Community 35]] (1 shared connections)
+- [[Community 38]] (1 shared connections)
+- [[Dependencies & Package Config]] (1 shared connections)
+- [[Community 44]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- `ios/App/App/public/assets/index-BwZ1pEe7.js`
 
 ## Audit Trail
 

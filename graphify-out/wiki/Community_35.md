@@ -1,30 +1,38 @@
 # Community 35
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **2. Customer vs. Dealer Price Resolution (`src/data/dealer.js`)** (4 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **PRICING-ARCHITECTURE.md — Pricing Engine & Audit Specification** (4 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **1. Source of Truth: Live Zoho Commerce Store API** (2 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **PRICING-ARCHITECTURE.md** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **2.1 Customer View** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **2.2 Dealer View** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **2.3 Share Link Invariant** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **3. Automated Pricing Regression Protection** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **Rate Priority Hierarchy** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **ei()** (9 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **request()** (8 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **Gr()** (5 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **Wr()** (5 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **yr()** (5 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **Cr()** (3 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **kr()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **patch()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **post()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **put()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Architecture Doc Generator]] (10 shared connections)
+- [[Community 38]] (3 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (3 shared connections)
+- [[Dependencies & Package Config]] (2 shared connections)
+- [[Pricing & Roles Skill]] (2 shared connections)
+- [[Community 29]] (1 shared connections)
+- [[Community 43]] (1 shared connections)
+- [[Pricing Regression Test Suite]] (1 shared connections)
 
 ## Source Files
 
-- `docs/PRICING-ARCHITECTURE.md`
+- `ios/App/App/public/assets/index-BwZ1pEe7.js`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 43 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

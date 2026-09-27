@@ -4,20 +4,20 @@
 
 ## Key Concepts
 
-- **be()** (4 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **_m()** (4 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **xe()** (4 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **be()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **_m()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **xe()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (3 shared connections)
-- [[Architecture Doc Generator]] (1 shared connections)
-- [[Pricing Regression Test Suite]] (1 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (1 shared connections)
+- [[Architecture Doc Generator]] (3 shared connections)
+- [[Product Requirements Documentation]] (1 shared connections)
+- [[Zoho Integration Architecture]] (1 shared connections)
+- [[Live Pricing Audit Tool]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- `ios/App/App/public/assets/index-BwZ1pEe7.js`
 
 ## Audit Trail
 

@@ -1,12 +1,11 @@
 # Community 68
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **sync-all.mjs** (2 connections) — `scripts/sync-all.mjs`
-- **rootDir** (1 connections) — `scripts/sync-all.mjs`
-- **run()** (1 connections) — `scripts/sync-all.mjs`
+- **make-scheme-pdfs.mjs** (1 connections) — `scripts/make-scheme-pdfs.mjs`
+- **createPdfWithJpg()** (1 connections) — `scripts/make-scheme-pdfs.mjs`
 
 ## Relationships
 
@@ -14,11 +13,11 @@
 
 ## Source Files
 
-- `scripts/sync-all.mjs`
+- `scripts/make-scheme-pdfs.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

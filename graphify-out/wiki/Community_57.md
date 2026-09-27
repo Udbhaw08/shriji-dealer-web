@@ -4,24 +4,22 @@
 
 ## Key Concepts
 
-- **le()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **Pe()** (4 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **fe()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **ue()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **watch-sync.mjs** (3 connections) — `scripts/watch-sync.mjs`
+- **rootDir** (1 connections) — `scripts/watch-sync.mjs`
+- **srcDir** (1 connections) — `scripts/watch-sync.mjs`
+- **triggerSync()** (1 connections) — `scripts/watch-sync.mjs`
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (4 shared connections)
-- [[Architecture Doc Generator]] (2 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- `scripts/watch-sync.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

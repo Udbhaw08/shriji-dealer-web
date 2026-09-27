@@ -1,26 +1,25 @@
 # Community 52
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **unavailable()** (5 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **hide()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **setAnimation()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **setStyle()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **show()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **Shriji Dealer Web — Agent Guidelines** (3 connections) — `AGENTS.md`
+- **AGENTS.md** (1 connections) — `AGENTS.md`
+- **Hard Rules** (1 connections) — `AGENTS.md`
+- **Specialized Skills Available** (1 connections) — `AGENTS.md`
 
 ## Relationships
 
-- [[Client Products Data Store]] (5 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- `AGENTS.md`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

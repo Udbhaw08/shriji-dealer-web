@@ -4,22 +4,21 @@
 
 ## Key Concepts
 
-- **removeWindowListener()** (4 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **removeAllListeners()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **removeListener()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **sync-all.mjs** (2 connections) — `scripts/sync-all.mjs`
+- **rootDir** (1 connections) — `scripts/sync-all.mjs`
+- **run()** (1 connections) — `scripts/sync-all.mjs`
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (3 shared connections)
-- [[Product Pages Specification]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- `scripts/sync-all.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

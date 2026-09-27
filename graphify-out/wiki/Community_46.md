@@ -4,30 +4,24 @@
 
 ## Key Concepts
 
-- **Ar()** (8 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **rr()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **vi()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **nr()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **Vr()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **zr()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **Shriji Zoho Integration Skill** (5 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
+- **API Endpoints Reference** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
+- **Key Files & Architecture** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
+- **Pricing & Rate Priority** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
+- **Validation & Audit Commands** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
 
 ## Relationships
 
-- [[Client Products Data Store]] (6 shared connections)
-- [[Community 44]] (1 shared connections)
-- [[Zoho Integration Architecture]] (1 shared connections)
-- [[Graphify Workflow]] (1 shared connections)
-- [[Community 30]] (1 shared connections)
-- [[Community 39]] (1 shared connections)
-- [[Product Brand & Business Vision]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- `.agents/skills/shriji-zoho-integration/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

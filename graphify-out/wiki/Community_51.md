@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Agent Operating Guidelines & Zero-Token Context Strategy** (3 connections) — `GEMINI.md`
-- **Shriji Domestic Appliances — Sunshine Dealer Web** (2 connections) — `GEMINI.md`
-- **GEMINI.md** (1 connections) — `GEMINI.md`
-- **Mandatory Context Rule: Knowledge Graph First** (1 connections) — `GEMINI.md`
-- **Project Hard Rules** (1 connections) — `GEMINI.md`
+- **Automatic Codebase Context & Knowledge Graph Protocol** (4 connections) — `.agents/rules/graphify.md`
+- **graphify.md** (1 connections) — `.agents/rules/graphify.md`
+- **Rule 1: Mandatory Knowledge Graph Lookup (Never Blindly Read Files)** (1 connections) — `.agents/rules/graphify.md`
+- **Rule 2: Precision File Viewing** (1 connections) — `.agents/rules/graphify.md`
+- **Rule 3: Keep Graph Fresh After Modifying Code** (1 connections) — `.agents/rules/graphify.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `GEMINI.md`
+- `.agents/rules/graphify.md`
 
 ## Audit Trail
 

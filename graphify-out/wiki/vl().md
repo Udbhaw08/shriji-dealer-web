@@ -2,7 +2,7 @@
 
 > God node · 27 connections · `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
 
-**Community:** [[Pricing Hierarchy & Zero-Leakage Spec]]
+**Community:** [[Roles & Customer Sharing Spec]]
 
 ## Connections by Relation
 

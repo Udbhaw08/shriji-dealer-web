@@ -1,58 +1,58 @@
 # Product Brand & Business Vision
 
-> 43 nodes · cohesion 0.09
+> 44 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **Z()** (23 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **Au()** (17 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **xl()** (12 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **hu()** (11 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **vu()** (11 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **yi()** (11 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **ql()** (10 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **Cu()** (9 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **pu()** (8 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **jl()** (7 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **ju()** (7 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **Zl()** (7 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **Lu()** (6 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **mu()** (6 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **Nd()** (6 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **zu()** (6 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **Iu()** (5 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **kl()** (5 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **Ma()** (5 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **ru()** (5 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **_u()** (5 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **cl()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **eu()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **gm()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **gu()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- *... and 18 more nodes in this community*
+- **_()** (444 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **unavailable()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **xs()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **addListener()** (3 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **addWindowListener()** (3 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Md()** (3 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **mn()** (3 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **re()** (3 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **clearAllCookies()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **clearCookies()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **hide()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **jn()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **sendRetainedArgumentsForEvent()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **setAnimation()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **setStyle()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **show()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **te()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **zs()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **de()** (1 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **deleteCookie()** (1 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Et()** (1 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **ge()** (1 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **getCookies()** (1 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **getDerivedStateFromError()** (1 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [[Client Products Data Store]] (43 shared connections)
-- [[Price Presentation & Product UI]] (16 shared connections)
-- [[Dependencies & Package Config]] (15 shared connections)
-- [[Zoho Integration Architecture]] (8 shared connections)
-- [[Live Pricing Audit Tool]] (4 shared connections)
-- [[Community 40]] (2 shared connections)
-- [[Community 67]] (1 shared connections)
-- [[Community 45]] (1 shared connections)
-- [[Community 30]] (1 shared connections)
-- [[Product Requirements Documentation]] (1 shared connections)
-- [[Community 39]] (1 shared connections)
-- [[Community 46]] (1 shared connections)
+- [[Price Presentation & Product UI]] (64 shared connections)
+- [[Product Pages Specification]] (52 shared connections)
+- [[Client Products Data Store]] (46 shared connections)
+- [[Design System & UI Tokens]] (46 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (42 shared connections)
+- [[Roles & Customer Sharing Spec]] (42 shared connections)
+- [[Graphify Knowledge Graph Skill]] (36 shared connections)
+- [[Vercel Deployment Routing]] (14 shared connections)
+- [[Graphify Agent Rules]] (13 shared connections)
+- [[Graphify Workflow]] (13 shared connections)
+- [[Community 32]] (10 shared connections)
+- [[Community 33]] (10 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
 
 ## Audit Trail
 
-- EXTRACTED: 255 (100%)
+- EXTRACTED: 514 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

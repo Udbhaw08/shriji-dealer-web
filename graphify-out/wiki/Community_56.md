@@ -1,25 +1,27 @@
 # Community 56
 
-> 4 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **Test** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
-- **ExampleInstrumentedTest.java** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
-- **ExampleInstrumentedTest** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
-- **.useAppContext()** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
+- **le()** (5 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **Pe()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **fe()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **ue()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Architecture Doc Generator]] (4 shared connections)
+- [[Product Requirements Documentation]] (2 shared connections)
+- [[Live Pricing Audit Tool]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
+- `ios/App/App/public/assets/index-BwZ1pEe7.js`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

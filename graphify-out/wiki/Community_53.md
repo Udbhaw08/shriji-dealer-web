@@ -1,14 +1,13 @@
 # Community 53
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **Shriji Domestic Appliances — Sunshine Dealer Web** (4 connections) — `README.md`
-- **README.md** (1 connections) — `README.md`
-- **Documentation** (1 connections) — `README.md`
-- **Layout** (1 connections) — `README.md`
-- **Two things to know before you change anything** (1 connections) — `README.md`
+- **Test** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
+- **ExampleInstrumentedTest.java** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
+- **ExampleInstrumentedTest** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
+- **.useAppContext()** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
 
 ## Relationships
 
@@ -16,7 +15,7 @@
 
 ## Source Files
 
-- `README.md`
+- `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
 
 ## Audit Trail
 

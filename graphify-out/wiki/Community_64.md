@@ -4,22 +4,22 @@
 
 ## Key Concepts
 
-- **qu()** (3 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **Xu()** (3 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **yu()** (3 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **removeWindowListener()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **removeAllListeners()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **removeListener()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (3 shared connections)
-- [[Pricing Regression Test Suite]] (2 shared connections)
+- [[Architecture Doc Generator]] (3 shared connections)
+- [[Dependencies & Package Config]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- `ios/App/App/public/assets/index-BwZ1pEe7.js`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

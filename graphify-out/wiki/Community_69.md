@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **Package.swift** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
-- **PackageDescription** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
+- **graphify.md** (1 connections) — `.agents/workflows/graphify.md`
+- **Workflow: graphify** (1 connections) — `.agents/workflows/graphify.md`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `ios/App/CapApp-SPM/Package.swift`
+- `.agents/workflows/graphify.md`
 
 ## Audit Trail
 

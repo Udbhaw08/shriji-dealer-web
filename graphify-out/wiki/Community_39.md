@@ -1,38 +1,30 @@
 # Community 39
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **a()** (10 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **gf()** (7 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **vf()** (5 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **pt()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **gl()** (3 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **Ld()** (3 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **ro()** (3 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
-- **_f()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **Shriji Pricing & Roles Skill** (5 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **User Roles & View Modes** (4 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **1. Guest View (Public)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **2. Dealer View (Authenticated)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **3. Customer Shared View (`?from=<dealer_id>`)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **Key Files** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **Schemes Logic** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **Zero-Price Handling** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
 
 ## Relationships
 
-- [[Client Products Data Store]] (8 shared connections)
-- [[Price Presentation & Product UI]] (3 shared connections)
-- [[Dependencies & Package Config]] (2 shared connections)
-- [[Product Requirements Documentation]] (2 shared connections)
-- [[Zoho Integration Architecture]] (2 shared connections)
-- [[Live Pricing Audit Tool]] (2 shared connections)
-- [[Mobile Responsive UI Skill]] (1 shared connections)
-- [[Community 46]] (1 shared connections)
-- [[Product Brand & Business Vision]] (1 shared connections)
-- [[Community 40]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- `.agents/skills/shriji-pricing-and-roles/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 37 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

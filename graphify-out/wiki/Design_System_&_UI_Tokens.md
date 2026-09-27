@@ -1,50 +1,49 @@
 # Design System & UI Tokens
 
-> 49 nodes · cohesion 0.07
+> 46 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **lc()** (14 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **Pd()** (14 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **Di()** (10 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **c()** (9 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **hh()** (9 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **kc()** (9 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **yh()** (9 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **fc()** (8 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **Gc()** (8 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **jd()** (8 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **Mp()** (8 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **ea()** (7 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **ec()** (7 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **mh()** (7 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **sc()** (7 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **es()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **ki()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **lh()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **nc()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **oc()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **ph()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **Qo()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **s()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **Sh()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- **bs()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
-- *... and 24 more nodes in this community*
+- **Z()** (23 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Au()** (17 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **xl()** (12 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **hu()** (11 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **vu()** (11 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **yi()** (11 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **ql()** (10 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Cu()** (9 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **pu()** (8 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Sp()** (8 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **jl()** (7 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **ju()** (7 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Zl()** (7 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Lu()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **mu()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Nd()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **zu()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Iu()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **kl()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Ma()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Ou()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **ru()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **_u()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **cl()** (4 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **eu()** (4 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (48 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (28 shared connections)
-- [[Oxlint Linter Configuration]] (11 shared connections)
-- [[Product Pages Specification]] (7 shared connections)
-- [[Architecture Doc Generator]] (6 shared connections)
-- [[Pricing Regression Test Suite]] (3 shared connections)
-- [[Community 32]] (3 shared connections)
-- [[Graphify Agent Rules]] (3 shared connections)
-- [[Zoho API Diagnostic Script]] (3 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (3 shared connections)
-- [[Community 29]] (2 shared connections)
-- [[Community 41]] (2 shared connections)
+- [[Product Brand & Business Vision]] (46 shared connections)
+- [[Product Pages Specification]] (15 shared connections)
+- [[Price Presentation & Product UI]] (12 shared connections)
+- [[Client Products Data Store]] (9 shared connections)
+- [[Vercel Deployment Routing]] (5 shared connections)
+- [[Roles & Customer Sharing Spec]] (5 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (4 shared connections)
+- [[Graphify Knowledge Graph Skill]] (2 shared connections)
+- [[Community 60]] (1 shared connections)
+- [[Graphify Workflow]] (1 shared connections)
+- [[Graphify Agent Rules]] (1 shared connections)
 
 ## Source Files
 
@@ -52,7 +51,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 281 (100%)
+- EXTRACTED: 271 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
