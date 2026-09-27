@@ -14,12 +14,12 @@
 - [[Product.jsx]] `EXTRACTED`
 - [[Home.jsx]] `EXTRACTED`
 - [[Products.jsx]] `EXTRACTED`
+- [[PriceBlock.jsx]] `EXTRACTED`
 - [[ProductCard.jsx]] `EXTRACTED`
 - [[Login.jsx]] `EXTRACTED`
 - [[Support.jsx]] `EXTRACTED`
-- [[PriceBlock.jsx]] `EXTRACTED`
-- [[Schemes.jsx]] `EXTRACTED`
 - [[MobileBottomNav.jsx]] `EXTRACTED`
+- [[Schemes.jsx]] `EXTRACTED`
 - [[UnderMaintenance.jsx]] `EXTRACTED`
 - [[HeroSlider.jsx]] `EXTRACTED`
 

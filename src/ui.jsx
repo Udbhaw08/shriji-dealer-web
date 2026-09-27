@@ -256,25 +256,26 @@ export function Header() {
     "/support": t("nav_support"),
   };
 
+  const navItems = isGated
+    ? NAV.filter((n) => n.to === "/" || n.to === "/support")
+    : NAV;
+
   return (
     <header className="hdr">
       <div className="wrap hdr-in">
         <Mark />
 
-        {/* Navigation tabs only visible to verified dealers */}
-        {!isGated && (
-          <nav className={`nav${open ? " open" : ""}`} id="nav">
-            {NAV.map((n) => (
-              <NavLink key={n.to} to={n.to} end={n.to === "/"}>
-                {navLabels[n.to] || n.label}
-              </NavLink>
-            ))}
-            <div className="nav-drawer-actions">
-              <LangToggle />
-              <AccountLink />
-            </div>
-          </nav>
-        )}
+        <nav className={`nav${open ? " open" : ""}`} id="nav">
+          {navItems.map((n) => (
+            <NavLink key={n.to} to={n.to} end={n.to === "/"}>
+              {navLabels[n.to] || n.label}
+            </NavLink>
+          ))}
+          <div className="nav-drawer-actions">
+            <LangToggle />
+            <AccountLink />
+          </div>
+        </nav>
 
         {!isGated && (
           <p className="hdr-tag">
@@ -291,17 +292,15 @@ export function Header() {
           <AccountLink />
         </div>
 
-        {!isGated && (
-          <button
-            className="icon-btn burger"
-            aria-expanded={open}
-            aria-controls="nav"
-            aria-label={open ? "Close menu" : "Open menu"}
-            onClick={() => setOpen((v) => !v)}
-          >
-            <Icon name={open ? "close" : "menu"} size={19} />
-          </button>
-        )}
+        <button
+          className="icon-btn burger"
+          aria-expanded={open}
+          aria-controls="nav"
+          aria-label={open ? "Close menu" : "Open menu"}
+          onClick={() => setOpen((v) => !v)}
+        >
+          <Icon name={open ? "close" : "menu"} size={19} />
+        </button>
       </div>
     </header>
   );
@@ -309,6 +308,9 @@ export function Header() {
 
 export function Footer() {
   const { t } = useLanguage();
+  const s = useSession();
+  const isGated = isPortalGated(s);
+
   return (
     <footer className="ftr">
       <div className="wrap">
@@ -317,43 +319,67 @@ export function Footer() {
             <Mark />
             <p style={{ marginTop: "var(--s4)", fontSize: "0.9rem", maxWidth: "30ch" }}>{t("ftr_about")}</p>
           </div>
-          <div>
-            <h4>{t("ftr_range")}</h4>
-            <ul>
-              <li>
-                <Link to="/products?cat=gas_stoves">{t("cat_gas_stoves")}</Link>
-              </li>
-              <li>
-                <Link to="/products?cat=hobs">{t("cat_hobs")}</Link>
-              </li>
-              <li>
-                <Link to="/products?cat=hob_tops">{t("cat_hob_tops")}</Link>
-              </li>
-              <li>
-                <Link to="/products?cat=chimneys">{t("cat_chimneys")}</Link>
-              </li>
-              <li>
-                <Link to="/products?cat=small_appliances">{t("cat_small_appliances")}</Link>
-              </li>
-            </ul>
-          </div>
+          {!isGated ? (
+            <div>
+              <h4>{t("ftr_range")}</h4>
+              <ul>
+                <li>
+                  <Link to="/products?cat=gas_stoves">{t("cat_gas_stoves")}</Link>
+                </li>
+                <li>
+                  <Link to="/products?cat=hobs">{t("cat_hobs")}</Link>
+                </li>
+                <li>
+                  <Link to="/products?cat=hob_tops">{t("cat_hob_tops")}</Link>
+                </li>
+                <li>
+                  <Link to="/products?cat=chimneys">{t("cat_chimneys")}</Link>
+                </li>
+                <li>
+                  <Link to="/products?cat=small_appliances">{t("cat_small_appliances")}</Link>
+                </li>
+              </ul>
+            </div>
+          ) : (
+            <div>
+              <h4>{t("quick_products") || "Quick Links"}</h4>
+              <ul>
+                <li>
+                  <Link to="/">{t("nav_home") || "Home"}</Link>
+                </li>
+                <li>
+                  <Link to="/support">{t("support_title") || "Customer Support"}</Link>
+                </li>
+                <li>
+                  <Link to="/support#marketing">{t("mat_title") || "Marketing Material"}</Link>
+                </li>
+              </ul>
+            </div>
+          )}
           <div>
             <h4>{t("ftr_dealers")}</h4>
             <ul>
-              <li>
-                <Link to="/schemes">{t("nav_schemes")}</Link>
-              </li>
+              {!isGated && (
+                <li>
+                  <Link to="/schemes">{t("nav_schemes")}</Link>
+                </li>
+              )}
               <li>
                 <Link to="/support#marketing">{t("mat_title")}</Link>
               </li>
               <li>
                 <Link to="/support">{t("support_title")}</Link>
               </li>
-              {/* Dealer enquiry form hidden for now
-              <li>
-                <Link to="/support#apply">{t("dealer_enquiry_title")}</Link>
-              </li>
-              */}
+              {isGated && (
+                <>
+                  <li>
+                    <Link to="/login">Verified Dealer Login</Link>
+                  </li>
+                  <li>
+                    <Link to="/login?tab=apply">Apply for Dealership</Link>
+                  </li>
+                </>
+              )}
             </ul>
           </div>
           <div>

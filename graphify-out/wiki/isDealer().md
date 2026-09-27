@@ -2,15 +2,15 @@
 
 > God node · 15 connections · `src/data/dealer.js`
 
-**Community:** [[Zoho Backend & Proxy Endpoints]]
+**Community:** [[Price Presentation & Product UI]]
 
 ## Connections by Relation
 
 ### calls
-- [[ProductCard()]] `EXTRACTED`
 - [[isPortalGated()]] `EXTRACTED`
-- [[Products()]] `EXTRACTED`
+- [[ProductCard()]] `EXTRACTED`
 - [[viewerFor()]] `EXTRACTED`
+- [[Products()]] `EXTRACTED`
 - [[Schemes()]] `EXTRACTED`
 - [[AccountLink()]] `EXTRACTED`
 - [[tierOf()]] `EXTRACTED`

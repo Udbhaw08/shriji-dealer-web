@@ -1,12 +1,13 @@
 # priceFor()
 
-> God node · 11 connections · `src/data/dealer.js`
+> God node · 13 connections · `src/data/dealer.js`
 
-**Community:** [[Zoho Backend & Proxy Endpoints]]
+**Community:** [[Price Presentation & Product UI]]
 
 ## Connections by Relation
 
 ### calls
+- [[Product()]] `EXTRACTED`
 - [[ProductCard()]] `EXTRACTED`
 - [[CustomerPrice()]] `EXTRACTED`
 - [[tagFor()]] `EXTRACTED`
@@ -17,10 +18,11 @@
 - [[dealer.js]] `EXTRACTED`
 
 ### imports
+- [[Product.jsx]] `EXTRACTED`
 - [[pricing.test.mjs]] `EXTRACTED`
 - [[Products.jsx]] `EXTRACTED`
-- [[ProductCard.jsx]] `EXTRACTED`
 - [[PriceBlock.jsx]] `EXTRACTED`
+- [[ProductCard.jsx]] `EXTRACTED`
 - [[dealer.test.mjs]] `EXTRACTED`
 
 ---

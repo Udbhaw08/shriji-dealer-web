@@ -7,20 +7,20 @@
 ## Connections by Relation
 
 ### calls
-- [[ProductCard()]] `EXTRACTED`
 - [[Product()]] `EXTRACTED`
+- [[ProductCard()]] `EXTRACTED`
 - [[Home()]] `EXTRACTED`
 - [[Products()]] `EXTRACTED`
+- [[MobileBottomNav()]] `EXTRACTED`
 - [[CustomerPrice()]] `EXTRACTED`
 - [[Login()]] `EXTRACTED`
 - [[Schemes()]] `EXTRACTED`
 - [[AccountLink()]] `EXTRACTED`
+- [[Footer()]] `EXTRACTED`
 - [[Header()]] `EXTRACTED`
 - [[DealerPrice()]] `EXTRACTED`
 - [[UnderMaintenance()]] `EXTRACTED`
-- [[MobileBottomNav()]] `EXTRACTED`
 - [[Support()]] `EXTRACTED`
-- [[Footer()]] `EXTRACTED`
 - [[DealerForm()]] `EXTRACTED`
 - [[LangToggle()]] `EXTRACTED`
 
@@ -32,12 +32,12 @@
 - [[Product.jsx]] `EXTRACTED`
 - [[Home.jsx]] `EXTRACTED`
 - [[Products.jsx]] `EXTRACTED`
+- [[PriceBlock.jsx]] `EXTRACTED`
 - [[ProductCard.jsx]] `EXTRACTED`
 - [[Login.jsx]] `EXTRACTED`
 - [[Support.jsx]] `EXTRACTED`
-- [[PriceBlock.jsx]] `EXTRACTED`
-- [[Schemes.jsx]] `EXTRACTED`
 - [[MobileBottomNav.jsx]] `EXTRACTED`
+- [[Schemes.jsx]] `EXTRACTED`
 - [[UnderMaintenance.jsx]] `EXTRACTED`
 
 ---

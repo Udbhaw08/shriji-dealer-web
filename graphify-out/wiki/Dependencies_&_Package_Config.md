@@ -1,44 +1,52 @@
 # Dependencies & Package Config
 
-> 23 nodes · cohesion 0.09
+> 27 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **scripts** (8 connections) — `package.json`
-- **package.json** (7 connections) — `package.json`
-- **devDependencies** (6 connections) — `package.json`
-- **dependencies** (4 connections) — `package.json`
-- **react** (1 connections) — `package.json`
-- **react-dom** (1 connections) — `package.json`
-- **react-router-dom** (1 connections) — `package.json`
-- **oxlint** (1 connections) — `package.json`
-- **@types/react** (1 connections) — `package.json`
-- **@types/react-dom** (1 connections) — `package.json`
-- **vite** (1 connections) — `package.json`
-- **@vitejs/plugin-react** (1 connections) — `package.json`
-- **name** (1 connections) — `package.json`
-- **private** (1 connections) — `package.json`
-- **build** (1 connections) — `package.json`
-- **dev** (1 connections) — `package.json`
-- **docs** (1 connections) — `package.json`
-- **graphify:update** (1 connections) — `package.json`
-- **lint** (1 connections) — `package.json`
-- **preview** (1 connections) — `package.json`
-- **test** (1 connections) — `package.json`
-- **type** (1 connections) — `package.json`
-- **version** (1 connections) — `package.json`
+- **i18n.js** (23 connections) — `src/data/i18n.js`
+- **Products.jsx** (16 connections) — `src/pages/Products.jsx`
+- **productsStore.js** (14 connections) — `src/data/productsStore.js`
+- **useProducts()** (8 connections) — `src/data/productsStore.js`
+- **Products()** (8 connections) — `src/pages/Products.jsx`
+- **setLanguage()** (3 connections) — `src/data/i18n.js`
+- **tCat()** (3 connections) — `src/data/i18n.js`
+- **products.js** (3 connections) — `src/data/products.js`
+- **emit()** (2 connections) — `src/data/i18n.js`
+- **toggleLanguage()** (2 connections) — `src/data/i18n.js`
+- **CATEGORIES** (2 connections) — `src/data/products.js`
+- **emit()** (2 connections) — `src/data/productsStore.js`
+- **fetchLiveProducts()** (2 connections) — `src/data/productsStore.js`
+- **loadCached()** (2 connections) — `src/data/productsStore.js`
+- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
+- **useProduct()** (2 connections) — `src/data/productsStore.js`
+- **translations.js** (2 connections) — `src/data/translations.js`
+- **TRANSLATIONS** (2 connections) — `src/data/translations.js`
+- **currentLang** (1 connections) — `src/data/i18n.js`
+- **getInitialLang()** (1 connections) — `src/data/i18n.js`
+- **getLanguage()** (1 connections) — `src/data/i18n.js`
+- **listeners** (1 connections) — `src/data/i18n.js`
+- **PRODUCTS** (1 connections) — `src/data/products.js`
+- **listeners** (1 connections) — `src/data/productsStore.js`
+- **PREFERRED_ORDER** (1 connections) — `src/data/productsStore.js`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (21 shared connections)
+- [[Price Presentation & Product UI]] (14 shared connections)
 
 ## Source Files
 
-- `package.json`
+- `src/data/i18n.js`
+- `src/data/products.js`
+- `src/data/productsStore.js`
+- `src/data/translations.js`
+- `src/pages/Products.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (100%)
+- EXTRACTED: 107 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

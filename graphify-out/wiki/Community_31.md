@@ -1,11 +1,10 @@
 # Community 31
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **graphify.md** (1 connections) — `.agents/workflows/graphify.md`
-- **Workflow: graphify** (1 connections) — `.agents/workflows/graphify.md`
+- **build_wiki.py** (0 connections) — `scripts/build_wiki.py`
 
 ## Relationships
 
@@ -13,11 +12,11 @@
 
 ## Source Files
 
-- `.agents/workflows/graphify.md`
+- `scripts/build_wiki.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

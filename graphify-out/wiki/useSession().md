@@ -1,19 +1,21 @@
 # useSession()
 
-> God node · 19 connections · `src/data/session.js`
+> God node · 22 connections · `src/data/session.js`
 
 **Community:** [[Dealer Auth & Session Management]]
 
 ## Connections by Relation
 
 ### calls
-- [[ProductCard()]] `EXTRACTED`
 - [[Product()]] `EXTRACTED`
+- [[ProductCard()]] `EXTRACTED`
 - [[Home()]] `EXTRACTED`
 - [[Products()]] `EXTRACTED`
+- [[MobileBottomNav()]] `EXTRACTED`
 - [[Login()]] `EXTRACTED`
 - [[Schemes()]] `EXTRACTED`
 - [[AccountLink()]] `EXTRACTED`
+- [[Footer()]] `EXTRACTED`
 - [[Header()]] `EXTRACTED`
 - [[ConditionalBottomNav()]] `EXTRACTED`
 - [[RequireVerifiedDealer()]] `EXTRACTED`
@@ -29,6 +31,7 @@
 - [[Products.jsx]] `EXTRACTED`
 - [[ProductCard.jsx]] `EXTRACTED`
 - [[Login.jsx]] `EXTRACTED`
+- [[MobileBottomNav.jsx]] `EXTRACTED`
 - [[Schemes.jsx]] `EXTRACTED`
 
 ---

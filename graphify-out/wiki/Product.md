@@ -2,7 +2,7 @@
 
 > God node · 12 connections · `PRODUCT.md`
 
-**Community:** [[Client Products Data Store]]
+**Community:** [[Product Brand & Business Vision]]
 
 ## Connections by Relation
 

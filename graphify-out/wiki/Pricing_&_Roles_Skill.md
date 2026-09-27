@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Primary Commands** (5 connections) — `.agents/skills/graphify/SKILL.md`
-- **Graphify Knowledge Graph Skill** (4 connections) — `.agents/skills/graphify/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/graphify/SKILL.md`
-- **1. Query the Graph (Context-Efficient)** (1 connections) — `.agents/skills/graphify/SKILL.md`
-- **2. Trace Relationships (Shortest Path)** (1 connections) — `.agents/skills/graphify/SKILL.md`
-- **3. Explain a Node or Symbol** (1 connections) — `.agents/skills/graphify/SKILL.md`
-- **4. Update the Graph (AST Re-Extraction)** (1 connections) — `.agents/skills/graphify/SKILL.md`
-- **Key Output Artifacts in `graphify-out/`** (1 connections) — `.agents/skills/graphify/SKILL.md`
-- **Why Use Graphify** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **Shriji Pricing & Roles Skill** (5 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **User Roles & View Modes** (4 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **1. Guest View (Public)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **2. Dealer View (Authenticated)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **3. Customer Shared View (`?from=<dealer_id>`)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **Key Files** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **Schemes Logic** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **Zero-Price Handling** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/graphify/SKILL.md`
+- `.agents/skills/shriji-pricing-and-roles/SKILL.md`
 
 ## Audit Trail
 

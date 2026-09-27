@@ -1,38 +1,39 @@
 # Pricing Regression Test Suite
 
-> 17 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **pricing.test.mjs** (19 connections) — `src/data/pricing.test.mjs`
-- **crystal** (1 connections) — `src/data/pricing.test.mjs`
-- **crystalDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **crystalGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **genericDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **genericGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **genericItem** (1 connections) — `src/data/pricing.test.mjs`
-- **kettle** (1 connections) — `src/data/pricing.test.mjs`
-- **kettleDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **kettleGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **tcjDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **tcjGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **tripleCookJumbo** (1 connections) — `src/data/pricing.test.mjs`
-- **vernaGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **vernaPlus** (1 connections) — `src/data/pricing.test.mjs`
-- **zeroItem** (1 connections) — `src/data/pricing.test.mjs`
-- **zeroPricedResult** (1 connections) — `src/data/pricing.test.mjs`
+- **PRD — Shriji Domestic Appliances Dealer Web** (11 connections) — `PRD.md`
+- **3. Scope** (3 connections) — `PRD.md`
+- **6. Data** (3 connections) — `PRD.md`
+- **7. Evidence ledger — what is verified vs. what is sample** (3 connections) — `PRD.md`
+- **PRD.md** (1 connections) — `PRD.md`
+- **10. Conventions worth knowing** (1 connections) — `PRD.md`
+- **1. What this is** (1 connections) — `PRD.md`
+- **2. Who uses it** (1 connections) — `PRD.md`
+- **4. Stack** (1 connections) — `PRD.md`
+- **5. The pricing model — the core business rule** (1 connections) — `PRD.md`
+- **8. Roadmap** (1 connections) — `PRD.md`
+- **9. Decision log** (1 connections) — `PRD.md`
+- **Built and working** (1 connections) — `PRD.md`
+- **⚠️ Known discrepancy** (1 connections) — `PRD.md`
+- **Not built yet (and deliberately so)** (1 connections) — `PRD.md`
+- **Product record shape** (1 connections) — `PRD.md`
+- **Sample / invented for the draft — must stay labelled as such** (1 connections) — `PRD.md`
+- **Verified (scraped from shrijidomestic.com, 2026-09-18)** (1 connections) — `PRD.md`
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (3 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/data/pricing.test.mjs`
+- `PRD.md`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 34 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

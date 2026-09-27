@@ -947,7 +947,7 @@
       "label": "MobileBottomNav()",
       "file_type": "code",
       "source_file": "src/components/MobileBottomNav.jsx",
-      "source_location": "L7",
+      "source_location": "L9",
       "_origin": "ast",
       "id": "components_mobilebottomnav_mobilebottomnav",
       "community": 0,
@@ -960,7 +960,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "components_priceblock",
-      "community": 0,
+      "community": 22,
       "norm_label": "priceblock.jsx"
     },
     {
@@ -970,7 +970,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "components_priceblock_priceblock",
-      "community": 0,
+      "community": 22,
       "norm_label": "priceblock()"
     },
     {
@@ -980,7 +980,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "components_priceblock_dealerprice",
-      "community": 0,
+      "community": 22,
       "norm_label": "dealerprice()"
     },
     {
@@ -990,7 +990,7 @@
       "source_location": "L80",
       "_origin": "ast",
       "id": "components_priceblock_customerprice",
-      "community": 0,
+      "community": 22,
       "norm_label": "customerprice()"
     },
     {
@@ -1000,7 +1000,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "components_productcard",
-      "community": 0,
+      "community": 22,
       "norm_label": "productcard.jsx"
     },
     {
@@ -1010,7 +1010,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "components_productcard_productcard",
-      "community": 0,
+      "community": 22,
       "norm_label": "productcard()"
     },
     {
@@ -1040,7 +1040,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "data_dealer",
-      "community": 0,
+      "community": 22,
       "norm_label": "dealer.js"
     },
     {
@@ -1050,7 +1050,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "data_dealer_dealers",
-      "community": 0,
+      "community": 22,
       "norm_label": "dealers"
     },
     {
@@ -1080,7 +1080,7 @@
       "source_location": "L46",
       "_origin": "ast",
       "id": "data_dealer_band",
-      "community": 0,
+      "community": 22,
       "norm_label": "band"
     },
     {
@@ -1090,7 +1090,7 @@
       "source_location": "L54",
       "_origin": "ast",
       "id": "data_dealer_hash",
-      "community": 0,
+      "community": 22,
       "norm_label": "hash()"
     },
     {
@@ -1100,7 +1100,7 @@
       "source_location": "L57",
       "_origin": "ast",
       "id": "data_dealer_price99",
-      "community": 0,
+      "community": 22,
       "norm_label": "price99()"
     },
     {
@@ -1110,7 +1110,7 @@
       "source_location": "L68",
       "_origin": "ast",
       "id": "data_dealer_pricefor",
-      "community": 0,
+      "community": 22,
       "norm_label": "pricefor()"
     },
     {
@@ -1120,7 +1120,7 @@
       "source_location": "L106",
       "_origin": "ast",
       "id": "data_dealer_tagfor",
-      "community": 0,
+      "community": 22,
       "norm_label": "tagfor()"
     },
     {
@@ -1130,7 +1130,7 @@
       "source_location": "L114",
       "_origin": "ast",
       "id": "data_dealer_inr",
-      "community": 0,
+      "community": 22,
       "norm_label": "inr()"
     },
     {
@@ -1140,7 +1140,7 @@
       "source_location": "L120",
       "_origin": "ast",
       "id": "data_dealer_isdealer",
-      "community": 0,
+      "community": 22,
       "norm_label": "isdealer()"
     },
     {
@@ -1150,7 +1150,7 @@
       "source_location": "L125",
       "_origin": "ast",
       "id": "data_dealer_tierof",
-      "community": 0,
+      "community": 22,
       "norm_label": "tierof()"
     },
     {
@@ -1160,7 +1160,7 @@
       "source_location": "L132",
       "_origin": "ast",
       "id": "data_dealer_formatwhatsappphone",
-      "community": 0,
+      "community": 22,
       "norm_label": "formatwhatsappphone()"
     },
     {
@@ -1170,7 +1170,7 @@
       "source_location": "L148",
       "_origin": "ast",
       "id": "data_dealer_viewerfor",
-      "community": 0,
+      "community": 22,
       "norm_label": "viewerfor()"
     },
     {
@@ -1180,7 +1180,7 @@
       "source_location": "L182",
       "_origin": "ast",
       "id": "data_dealer_sharelink",
-      "community": 0,
+      "community": 22,
       "norm_label": "sharelink()"
     },
     {
@@ -1190,7 +1190,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "data_dealer_test",
-      "community": 0,
+      "community": 22,
       "norm_label": "dealer.test.mjs"
     },
     {
@@ -1200,7 +1200,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "data_dealer_test_test_products",
-      "community": 0,
+      "community": 22,
       "norm_label": "test_products"
     },
     {
@@ -1210,7 +1210,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "data_dealer_test_approved",
-      "community": 0,
+      "community": 22,
       "norm_label": "approved"
     },
     {
@@ -1220,7 +1220,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "data_dealer_test_pending",
-      "community": 0,
+      "community": 22,
       "norm_label": "pending"
     },
     {
@@ -1230,7 +1230,7 @@
       "source_location": "L41",
       "_origin": "ast",
       "id": "data_dealer_test_customer",
-      "community": 0,
+      "community": 22,
       "norm_label": "customer"
     },
     {
@@ -1240,7 +1240,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "data_dealer_test_guest",
-      "community": 0,
+      "community": 22,
       "norm_label": "guest"
     },
     {
@@ -1250,7 +1250,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "data_i18n",
-      "community": 0,
+      "community": 27,
       "norm_label": "i18n.js"
     },
     {
@@ -1260,7 +1260,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "data_i18n_getinitiallang",
-      "community": 0,
+      "community": 27,
       "norm_label": "getinitiallang()"
     },
     {
@@ -1270,7 +1270,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "data_i18n_currentlang",
-      "community": 0,
+      "community": 27,
       "norm_label": "currentlang"
     },
     {
@@ -1280,7 +1280,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "data_i18n_listeners",
-      "community": 0,
+      "community": 27,
       "norm_label": "listeners"
     },
     {
@@ -1290,7 +1290,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "data_i18n_emit",
-      "community": 0,
+      "community": 27,
       "norm_label": "emit()"
     },
     {
@@ -1300,7 +1300,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "data_i18n_setlanguage",
-      "community": 0,
+      "community": 27,
       "norm_label": "setlanguage()"
     },
     {
@@ -1310,7 +1310,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "data_i18n_togglelanguage",
-      "community": 0,
+      "community": 27,
       "norm_label": "togglelanguage()"
     },
     {
@@ -1320,7 +1320,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "data_i18n_getlanguage",
-      "community": 0,
+      "community": 27,
       "norm_label": "getlanguage()"
     },
     {
@@ -1340,7 +1340,7 @@
       "source_location": "L56",
       "_origin": "ast",
       "id": "data_i18n_tcat",
-      "community": 0,
+      "community": 27,
       "norm_label": "tcat()"
     },
     {
@@ -1660,7 +1660,7 @@
       "source_location": "L114",
       "_origin": "ast",
       "id": "data_productsstore_useproducts",
-      "community": 0,
+      "community": 27,
       "norm_label": "useproducts()"
     },
     {
@@ -1870,7 +1870,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "data_translations",
-      "community": 0,
+      "community": 27,
       "norm_label": "translations.js"
     },
     {
@@ -1880,7 +1880,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "data_translations_translations",
-      "community": 0,
+      "community": 27,
       "norm_label": "translations"
     },
     {
@@ -2040,7 +2040,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "pages_product",
-      "community": 0,
+      "community": 22,
       "norm_label": "product.jsx"
     },
     {
@@ -2050,7 +2050,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "pages_product_featureboxes",
-      "community": 0,
+      "community": 22,
       "norm_label": "featureboxes()"
     },
     {
@@ -2060,7 +2060,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "pages_product_tab_items",
-      "community": 0,
+      "community": 22,
       "norm_label": "tab_items"
     },
     {
@@ -2070,7 +2070,7 @@
       "source_location": "L33",
       "_origin": "ast",
       "id": "pages_product_product",
-      "community": 0,
+      "community": 22,
       "norm_label": "product()"
     },
     {
@@ -2080,7 +2080,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "pages_products",
-      "community": 0,
+      "community": 27,
       "norm_label": "products.jsx"
     },
     {
@@ -2090,7 +2090,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "pages_products_group",
-      "community": 0,
+      "community": 27,
       "norm_label": "group()"
     },
     {
@@ -2100,7 +2100,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "pages_products_products",
-      "community": 0,
+      "community": 27,
       "norm_label": "products()"
     },
     {
@@ -2247,7 +2247,7 @@
       "label": "Footer()",
       "file_type": "code",
       "source_file": "src/ui.jsx",
-      "source_location": "L310",
+      "source_location": "L309",
       "_origin": "ast",
       "id": "src_ui_footer",
       "community": 0,
@@ -2257,7 +2257,7 @@
       "label": "EnquiryButtons()",
       "file_type": "code",
       "source_file": "src/ui.jsx",
-      "source_location": "L383",
+      "source_location": "L409",
       "_origin": "ast",
       "id": "src_ui_enquirybuttons",
       "community": 0,
@@ -2904,10 +2904,40 @@
       "norm_label": "2.2 pricing resolution engine (`api/zoho.js` & `src/data/dealer.js`)"
     },
     {
+      "label": "2.3 Guest Access Control & Portal Gating (`src/data/portalGate.js`)",
+      "file_type": "document",
+      "source_file": "CODEBASE.md",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "codebase_2_3_guest_access_control_portal_gating_src_data_portalgate_js",
+      "community": 5,
+      "norm_label": "2.3 guest access control & portal gating (`src/data/portalgate.js`)"
+    },
+    {
+      "label": "2.4 Shareable Product Link & Zero-Leakage Experience (`src/pages/Product.jsx`)",
+      "file_type": "document",
+      "source_file": "CODEBASE.md",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "codebase_2_4_shareable_product_link_zero_leakage_experience_src_pages_product_jsx",
+      "community": 5,
+      "norm_label": "2.4 shareable product link & zero-leakage experience (`src/pages/product.jsx`)"
+    },
+    {
+      "label": "2.5 Navigation & Bottom Bar Dynamic Filtering",
+      "file_type": "document",
+      "source_file": "CODEBASE.md",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "codebase_2_5_navigation_bottom_bar_dynamic_filtering",
+      "community": 5,
+      "norm_label": "2.5 navigation & bottom bar dynamic filtering"
+    },
+    {
       "label": "3. Application Routes & Navigation",
       "file_type": "document",
       "source_file": "CODEBASE.md",
-      "source_location": "L40",
+      "source_location": "L69",
       "_origin": "ast",
       "id": "codebase_3_application_routes_navigation",
       "community": 5,
@@ -2917,7 +2947,7 @@
       "label": "4. Codebase Directory Map",
       "file_type": "document",
       "source_file": "CODEBASE.md",
-      "source_location": "L52",
+      "source_location": "L81",
       "_origin": "ast",
       "id": "codebase_4_codebase_directory_map",
       "community": 5,
@@ -2927,7 +2957,7 @@
       "label": "4.1 Pages (`src/pages/`)",
       "file_type": "document",
       "source_file": "CODEBASE.md",
-      "source_location": "L54",
+      "source_location": "L83",
       "_origin": "ast",
       "id": "codebase_4_1_pages_src_pages",
       "community": 5,
@@ -2937,7 +2967,7 @@
       "label": "4.2 Reusable Components (`src/components/` & `src/ui.jsx`)",
       "file_type": "document",
       "source_file": "CODEBASE.md",
-      "source_location": "L62",
+      "source_location": "L91",
       "_origin": "ast",
       "id": "codebase_4_2_reusable_components_src_components_src_ui_jsx",
       "community": 5,
@@ -2947,7 +2977,7 @@
       "label": "4.3 State & Business Logic (`src/data/`)",
       "file_type": "document",
       "source_file": "CODEBASE.md",
-      "source_location": "L70",
+      "source_location": "L99",
       "_origin": "ast",
       "id": "codebase_4_3_state_business_logic_src_data",
       "community": 5,
@@ -2957,7 +2987,7 @@
       "label": "4.4 Zoho API & Serverless Handlers (`api/`)",
       "file_type": "document",
       "source_file": "CODEBASE.md",
-      "source_location": "L82",
+      "source_location": "L111",
       "_origin": "ast",
       "id": "codebase_4_4_zoho_api_serverless_handlers_api",
       "community": 5,
@@ -2967,7 +2997,7 @@
       "label": "4.5 Automation & Utility Scripts (`scripts/`)",
       "file_type": "document",
       "source_file": "CODEBASE.md",
-      "source_location": "L90",
+      "source_location": "L119",
       "_origin": "ast",
       "id": "codebase_4_5_automation_utility_scripts_scripts",
       "community": 5,
@@ -2977,7 +3007,7 @@
       "label": "5. Zoho API Endpoints",
       "file_type": "document",
       "source_file": "CODEBASE.md",
-      "source_location": "L99",
+      "source_location": "L128",
       "_origin": "ast",
       "id": "codebase_5_zoho_api_endpoints",
       "community": 5,
@@ -2987,7 +3017,7 @@
       "label": "5.1 Zoho Commerce Storefront API",
       "file_type": "document",
       "source_file": "CODEBASE.md",
-      "source_location": "L101",
+      "source_location": "L130",
       "_origin": "ast",
       "id": "codebase_5_1_zoho_commerce_storefront_api",
       "community": 5,
@@ -2997,7 +3027,7 @@
       "label": "5.2 Zoho Books Contacts & Pricebooks API",
       "file_type": "document",
       "source_file": "CODEBASE.md",
-      "source_location": "L106",
+      "source_location": "L135",
       "_origin": "ast",
       "id": "codebase_5_2_zoho_books_contacts_pricebooks_api",
       "community": 5,
@@ -3007,7 +3037,7 @@
       "label": "5.3 Auto-Recovery Token Architecture",
       "file_type": "document",
       "source_file": "CODEBASE.md",
-      "source_location": "L112",
+      "source_location": "L141",
       "_origin": "ast",
       "id": "codebase_5_3_auto_recovery_token_architecture",
       "community": 5,
@@ -3017,7 +3047,7 @@
       "label": "6. How to Run & Verify",
       "file_type": "document",
       "source_file": "CODEBASE.md",
-      "source_location": "L117",
+      "source_location": "L146",
       "_origin": "ast",
       "id": "codebase_6_how_to_run_verify",
       "community": 5,
@@ -3027,7 +3057,7 @@
       "label": "7. Development & Git Workflow Guidelines",
       "file_type": "document",
       "source_file": "CODEBASE.md",
-      "source_location": "L138",
+      "source_location": "L167",
       "_origin": "ast",
       "id": "codebase_7_development_git_workflow_guidelines",
       "community": 5,
@@ -5826,6 +5856,50 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/components/MobileBottomNav.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_mobilebottomnav",
+      "target": "data_portalgate"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/MobileBottomNav.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_mobilebottomnav",
+      "target": "data_portalgate_isportalgated"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/MobileBottomNav.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_mobilebottomnav",
+      "target": "data_session"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/MobileBottomNav.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_mobilebottomnav",
+      "target": "data_session_usesession"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/MobileBottomNav.jsx",
       "source_location": "L3",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -5908,6 +5982,28 @@
       "weight": 1.0,
       "source": "components_mobilebottomnav_mobilebottomnav",
       "target": "data_i18n_uselanguage"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/MobileBottomNav.jsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "components_mobilebottomnav_mobilebottomnav",
+      "target": "data_portalgate_isportalgated"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/MobileBottomNav.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "components_mobilebottomnav_mobilebottomnav",
+      "target": "data_session_usesession"
     },
     {
       "relation": "imports",
@@ -8102,6 +8198,17 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/ui.jsx",
+      "source_location": "L312",
+      "weight": 1.0,
+      "source": "src_ui_footer",
+      "target": "data_portalgate_isportalgated"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/ui.jsx",
       "source_location": "L246",
       "weight": 1.0,
       "source": "src_ui_header",
@@ -8905,6 +9012,17 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "src_ui_accountlink",
+      "target": "data_session_usesession"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/ui.jsx",
+      "source_location": "L311",
+      "weight": 1.0,
+      "source": "src_ui_footer",
       "target": "data_session_usesession"
     },
     {
@@ -10476,6 +10594,36 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CODEBASE.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "codebase_2_core_pricing_identity_architecture",
+      "target": "codebase_2_3_guest_access_control_portal_gating_src_data_portalgate_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CODEBASE.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "codebase_2_core_pricing_identity_architecture",
+      "target": "codebase_2_4_shareable_product_link_zero_leakage_experience_src_pages_product_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CODEBASE.md",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "codebase_2_core_pricing_identity_architecture",
+      "target": "codebase_2_5_navigation_bottom_bar_dynamic_filtering",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CODEBASE.md",
       "source_location": "L56",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -11614,5 +11762,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "e356a4bb6ee15a1004847481e7fb5025b866897d"
+  "built_at_commit": "7a23672ff326c9de3f22a69fe8351a62d53d3028"
 }

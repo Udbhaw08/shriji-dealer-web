@@ -126,241 +126,306 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ---------- Browse by Category ---------- */}
-      <section className="sec">
-        <div className="wrap">
-          <div className="sec-head">
-            <h2>{t("sec_categories_title")}</h2>
-            <div className="sec-head-controls sec-head-categories">
-              <div className="carousel-arrow-group" role="group" aria-label="Category scroll controls">
+      {/* When logged in as verified dealer: Show Browse by Category & Featured Products */}
+      {!isGated && (
+        <>
+          {/* ---------- Browse by Category ---------- */}
+          <section className="sec">
+            <div className="wrap">
+              <div className="sec-head">
+                <h2>{t("sec_categories_title")}</h2>
+                <div className="sec-head-controls sec-head-categories">
+                  <div className="carousel-arrow-group" role="group" aria-label="Category scroll controls">
+                    <button
+                      type="button"
+                      className="carousel-arrow-btn"
+                      onClick={catScroll.scrollPrev}
+                      aria-label="Scroll categories left"
+                      title="Previous"
+                    >
+                      <Icon name="chevleft" size={17} />
+                    </button>
+                    <button
+                      type="button"
+                      className="carousel-arrow-btn"
+                      onClick={catScroll.scrollNext}
+                      aria-label="Scroll categories right"
+                      title="Next"
+                    >
+                      <Icon name="chev" size={17} />
+                    </button>
+                  </div>
+                  <Link className="link" to="/products">
+                    {t("view_all")} <Icon name="arrowsm" size={15} />
+                  </Link>
+                </div>
+              </div>
+              <div className="carousel-wrap cat-carousel-wrap">
                 <button
                   type="button"
-                  className="carousel-arrow-btn"
+                  className="carousel-track-btn prev"
                   onClick={catScroll.scrollPrev}
                   aria-label="Scroll categories left"
                   title="Previous"
                 >
-                  <Icon name="chevleft" size={17} />
+                  <Icon name="chevleft" size={20} />
                 </button>
+                <div
+                  className="carousel-track cat-track"
+                  ref={catTrackRef}
+                  onMouseEnter={catScroll.onMouseEnter}
+                  onMouseLeave={catScroll.onMouseLeave}
+                  onTouchStart={catScroll.onTouchStart}
+                  onTouchEnd={catScroll.onTouchEnd}
+                >
+                  {CATEGORIES.filter((c) => c.key !== "all_products" && c.key !== "all").slice(0, 5).map((c) => (
+                    <Link className="cat" key={c.key} to={`/products?cat=${c.key}`}>
+                      <span className="cat-img">
+                        <img
+                          src={c.img}
+                          alt={tCat(c.key, c.label)}
+                          loading="lazy"
+                          onError={(e) => {
+                            e.currentTarget.src = "/img/cat-small_appliances.webp";
+                          }}
+                        />
+                      </span>
+                      <span className="cat-foot">
+                        <b>{tCat(c.key, c.label)}</b>
+                      </span>
+                    </Link>
+                  ))}
+                </div>
                 <button
                   type="button"
-                  className="carousel-arrow-btn"
+                  className="carousel-track-btn next"
                   onClick={catScroll.scrollNext}
                   aria-label="Scroll categories right"
                   title="Next"
                 >
-                  <Icon name="chev" size={17} />
+                  <Icon name="chev" size={20} />
                 </button>
               </div>
-              <Link className="link" to={isGated ? "/login" : "/products"}>
-                {t("view_all")} <Icon name="arrowsm" size={15} />
-              </Link>
             </div>
-          </div>
-          <div className="carousel-wrap cat-carousel-wrap">
-            <button
-              type="button"
-              className="carousel-track-btn prev"
-              onClick={catScroll.scrollPrev}
-              aria-label="Scroll categories left"
-              title="Previous"
-            >
-              <Icon name="chevleft" size={20} />
-            </button>
-            <div
-              className="carousel-track cat-track"
-              ref={catTrackRef}
-              onMouseEnter={catScroll.onMouseEnter}
-              onMouseLeave={catScroll.onMouseLeave}
-              onTouchStart={catScroll.onTouchStart}
-              onTouchEnd={catScroll.onTouchEnd}
-            >
-              {CATEGORIES.filter((c) => c.key !== "all_products" && c.key !== "all").slice(0, 5).map((c) => (
-                <Link className="cat" key={c.key} to={isGated ? "/login" : `/products?cat=${c.key}`}>
-                  <span className="cat-img">
-                    <img
-                      src={c.img}
-                      alt={tCat(c.key, c.label)}
-                      loading="lazy"
-                      onError={(e) => {
-                        e.currentTarget.src = "/img/cat-small_appliances.webp";
-                      }}
-                    />
-                  </span>
-                  <span className="cat-foot">
-                    <b>{tCat(c.key, c.label)}</b>
-                  </span>
-                </Link>
-              ))}
-            </div>
-            <button
-              type="button"
-              className="carousel-track-btn next"
-              onClick={catScroll.scrollNext}
-              aria-label="Scroll categories right"
-              title="Next"
-            >
-              <Icon name="chev" size={20} />
-            </button>
-          </div>
-        </div>
-      </section>
+          </section>
 
-      {/* ---------- Featured ---------- */}
-      <section className="sec" style={{ paddingTop: 0 }}>
-        <div className="wrap">
-          <div className="sec-head">
-            <h2>{t("sec_fast_title")}</h2>
-            <div className="sec-head-controls">
-              <div className="carousel-arrow-group" role="group" aria-label="Product scroll controls">
+          {/* ---------- Featured ---------- */}
+          <section className="sec" style={{ paddingTop: 0 }}>
+            <div className="wrap">
+              <div className="sec-head">
+                <h2>{t("sec_fast_title")}</h2>
+                <div className="sec-head-controls">
+                  <div className="carousel-arrow-group" role="group" aria-label="Product scroll controls">
+                    <button
+                      type="button"
+                      className="carousel-arrow-btn"
+                      onClick={prodScroll.scrollPrev}
+                      aria-label="Scroll products left"
+                      title="Previous"
+                    >
+                      <Icon name="chevleft" size={17} />
+                    </button>
+                    <button
+                      type="button"
+                      className="carousel-arrow-btn"
+                      onClick={prodScroll.scrollNext}
+                      aria-label="Scroll products right"
+                      title="Next"
+                    >
+                      <Icon name="chev" size={17} />
+                    </button>
+                  </div>
+                  <Link className="link" to="/products">
+                    {t("view_all")} <Icon name="arrowsm" size={15} />
+                  </Link>
+                </div>
+              </div>
+              <div className="carousel-wrap">
                 <button
                   type="button"
-                  className="carousel-arrow-btn"
+                  className="carousel-track-btn prev"
                   onClick={prodScroll.scrollPrev}
                   aria-label="Scroll products left"
                   title="Previous"
                 >
-                  <Icon name="chevleft" size={17} />
+                  <Icon name="chevleft" size={20} />
                 </button>
+                <div
+                  className="carousel-track"
+                  ref={prodTrackRef}
+                  onMouseEnter={prodScroll.onMouseEnter}
+                  onMouseLeave={prodScroll.onMouseLeave}
+                  onTouchStart={prodScroll.onTouchStart}
+                  onTouchEnd={prodScroll.onTouchEnd}
+                >
+                  {featured.map((p) => (
+                    <ProductCard key={p.id} p={p} />
+                  ))}
+                  <div className="carousel-more-card">
+                    <Link to="/products" className="carousel-more-btn">
+                      <span className="carousel-more-circle">
+                        <Icon name="arrowsm" size={22} />
+                      </span>
+                      <b>{t("view_all")}</b>
+                      <span>{PRODUCTS.length} Models</span>
+                    </Link>
+                  </div>
+                </div>
                 <button
                   type="button"
-                  className="carousel-arrow-btn"
+                  className="carousel-track-btn next"
                   onClick={prodScroll.scrollNext}
                   aria-label="Scroll products right"
                   title="Next"
                 >
-                  <Icon name="chev" size={17} />
+                  <Icon name="chev" size={20} />
                 </button>
               </div>
-              <Link className="link" to={isGated ? "/login" : "/products"}>
-                {t("view_all")} <Icon name="arrowsm" size={15} />
-              </Link>
             </div>
-          </div>
-          <div className="carousel-wrap">
-            <button
-              type="button"
-              className="carousel-track-btn prev"
-              onClick={prodScroll.scrollPrev}
-              aria-label="Scroll products left"
-              title="Previous"
-            >
-              <Icon name="chevleft" size={20} />
-            </button>
-            <div
-              className="carousel-track"
-              ref={prodTrackRef}
-              onMouseEnter={prodScroll.onMouseEnter}
-              onMouseLeave={prodScroll.onMouseLeave}
-              onTouchStart={prodScroll.onTouchStart}
-              onTouchEnd={prodScroll.onTouchEnd}
-            >
-              {featured.map((p) => (
-                <ProductCard key={p.id} p={p} />
-              ))}
-              <div className="carousel-more-card">
-                <Link to={isGated ? "/login" : "/products"} className="carousel-more-btn">
-                  <span className="carousel-more-circle">
-                    <Icon name="arrowsm" size={22} />
-                  </span>
-                  <b>{t("view_all")}</b>
-                  <span>{PRODUCTS.length} Models</span>
-                </Link>
+          </section>
+
+          {/* ---------- Quick access + live scheme (Dealers) ---------- */}
+          <section className="sec" style={{ paddingTop: 0 }}>
+            <div className="wrap">
+              <div className="grid" style={{ gridTemplateColumns: "repeat(auto-fit,minmax(300px,1fr))", gap: "var(--s5)" }}>
+                <div className="list">
+                  <p className="list-head">{t("quick_products")}</p>
+                  {QUICK_ACCESS.map((q) => {
+                    const isSupport = q.to === "/support";
+                    const toPath = isSupport ? "/support" : q.to;
+                    const subText = isSupport ? (t("under_maintenance_badge") || "Under Maintenance") : q.sub;
+                    return (
+                      <Link className="list-row" key={q.title} to={toPath}>
+                        <span className="tile tile-sm">
+                          <Icon name={q.icon} size={18} />
+                        </span>
+                        <span className="txt">
+                          <b>{q.title}</b>
+                          <span>{subText}</span>
+                        </span>
+                        <Icon name="chev" size={16} className="chev" />
+                      </Link>
+                    );
+                  })}
+                </div>
+
+                <div className="scheme" style={{ position: "relative" }}>
+                  <div className="scheme-txt">
+                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 8 }}>
+                      <span className="badge">{t("scheme_live_now")}</span>
+                      {SCHEMES.active.length > 1 && (
+                        <div style={{ display: "inline-flex", gap: 4 }}>
+                          {SCHEMES.active.map((s, idx) => (
+                            <button
+                              key={s.id}
+                              type="button"
+                              onClick={() => setSchemeIdx(idx)}
+                              style={{
+                                width: 22,
+                                height: 22,
+                                borderRadius: "50%",
+                                border: "none",
+                                background: schemeIdx === idx ? "var(--navy)" : "rgba(14,36,56,0.15)",
+                                color: schemeIdx === idx ? "#fff" : "var(--navy)",
+                                fontSize: "0.72rem",
+                                fontWeight: 700,
+                                cursor: "pointer",
+                                display: "grid",
+                                placeItems: "center",
+                              }}
+                              aria-label={`Show ${s.title}`}
+                            >
+                              {idx + 1}
+                            </button>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                    <h3 style={{ marginTop: "var(--s3)" }}>{scheme.title}</h3>
+                    <p className="when">{scheme.when}</p>
+                    <p>{scheme.blurb}</p>
+                    <div style={{ display: "flex", gap: "var(--s3)", marginTop: "var(--s4)", alignItems: "center" }}>
+                      <Link className="btn btn-navy btn-sm" to="/schemes">
+                        {t("sec_schemes_title")}
+                      </Link>
+                      <a
+                        className="btn btn-ghost btn-sm"
+                        href={scheme.pdfUrl || scheme.flyer}
+                        download={scheme.pdfName}
+                      >
+                        <Icon name="download" size={15} /> PDF
+                      </a>
+                    </div>
+                  </div>
+                  <Link className="fab" to="/schemes" aria-label="Open schemes">
+                    <Icon name="arrowsm" size={17} />
+                  </Link>
+                </div>
               </div>
             </div>
-            <button
-              type="button"
-              className="carousel-track-btn next"
-              onClick={prodScroll.scrollNext}
-              aria-label="Scroll products right"
-              title="Next"
-            >
-              <Icon name="chev" size={20} />
-            </button>
-          </div>
-        </div>
-      </section>
+          </section>
+        </>
+      )}
 
-      {/* ---------- Quick access + live scheme ---------- */}
-      <section className="sec" style={{ paddingTop: 0 }}>
-        <div className="wrap">
-          <div className="grid" style={{ gridTemplateColumns: "repeat(auto-fit,minmax(300px,1fr))", gap: "var(--s5)" }}>
-            <div className="list">
-              <p className="list-head">{t("quick_products")}</p>
-              {QUICK_ACCESS.map((q) => {
-                const isSupport = q.to === "/support";
-                const toPath = isSupport ? "/support" : isGated ? "/login" : q.to;
-                const subText = isSupport ? (t("under_maintenance_badge") || "Under Maintenance") : isGated ? "Verified Dealer Access" : q.sub;
-                return (
-                  <Link className="list-row" key={q.title} to={toPath}>
-                    <span className="tile tile-sm">
-                      <Icon name={q.icon} size={18} />
-                    </span>
-                    <span className="txt">
-                      <b>{q.title}</b>
-                      <span>{subText}</span>
-                    </span>
-                    <Icon name="chev" size={16} className="chev" />
-                  </Link>
-                );
-              })}
-            </div>
-
-            <div className="scheme" style={{ position: "relative" }}>
-              <div className="scheme-txt">
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 8 }}>
-                  <span className="badge">{t("scheme_live_now")}</span>
-                  {SCHEMES.active.length > 1 && (
-                    <div style={{ display: "inline-flex", gap: 4 }}>
-                      {SCHEMES.active.map((s, idx) => (
-                        <button
-                          key={s.id}
-                          type="button"
-                          onClick={() => setSchemeIdx(idx)}
-                          style={{
-                            width: 22,
-                            height: 22,
-                            borderRadius: "50%",
-                            border: "none",
-                            background: schemeIdx === idx ? "var(--navy)" : "rgba(14,36,56,0.15)",
-                            color: schemeIdx === idx ? "#fff" : "var(--navy)",
-                            fontSize: "0.72rem",
-                            fontWeight: 700,
-                            cursor: "pointer",
-                            display: "grid",
-                            placeItems: "center",
-                          }}
-                          aria-label={`Show ${s.title}`}
-                        >
-                          {idx + 1}
-                        </button>
-                      ))}
-                    </div>
-                  )}
+      {/* For Non-Login Users (Guests / Customers): Show Dedicated Support & Dealer Portal Cards */}
+      {isGated && (
+        <section className="sec" style={{ paddingTop: 0 }}>
+          <div className="wrap">
+            <div className="grid" style={{ gridTemplateColumns: "repeat(auto-fit,minmax(300px,1fr))", gap: "var(--s5)" }}>
+              {/* Customer & Service Support Card */}
+              <div className="card pad" style={{ display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+                <div>
+                  <div style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "4px 10px", borderRadius: 99, background: "rgba(14,36,56,0.08)", fontSize: "0.78rem", fontWeight: 700, color: "var(--navy)", textTransform: "uppercase", letterSpacing: "0.05em" }}>
+                    <Icon name="support" size={14} /> {t("nav_support") || "Customer Support"}
+                  </div>
+                  <h3 style={{ marginTop: "var(--s3)", fontSize: "1.35rem" }}>
+                    {t("support_title") || "Service & Customer Support"}
+                  </h3>
+                  <p className="muted" style={{ marginTop: "var(--s2)", fontSize: "0.92rem", lineHeight: 1.55 }}>
+                    Need assistance with your Sunshine domestic appliances, warranty registration, or authorised repair service? Our dedicated customer care desk is ready to help.
+                  </p>
                 </div>
-                <h3 style={{ marginTop: "var(--s3)" }}>{scheme.title}</h3>
-                <p className="when">{scheme.when}</p>
-                <p>{scheme.blurb}</p>
-                <div style={{ display: "flex", gap: "var(--s3)", marginTop: "var(--s4)", alignItems: "center" }}>
-                  <Link className="btn btn-navy btn-sm" to={isGated ? "/login" : "/schemes"}>
-                    {isGated ? "Dealer Login to View" : t("sec_schemes_title")}
+                <div style={{ display: "flex", gap: "var(--s3)", marginTop: "var(--s5)", flexWrap: "wrap" }}>
+                  <Link className="btn btn-navy btn-sm" to="/support">
+                    <Icon name="support" size={15} /> {t("nav_support") || "Help & Support"}
                   </Link>
                   <a
-                    className="btn btn-ghost btn-sm"
-                    href={scheme.pdfUrl || scheme.flyer}
-                    download={scheme.pdfName}
+                    className="btn btn-wa btn-sm"
+                    href={`https://wa.me/${COMPANY.phoneRaw}?text=${encodeURIComponent("Hello Sunshine Support, I need assistance with my appliance.")}`}
+                    target="_blank"
+                    rel="noreferrer"
                   >
-                    <Icon name="download" size={15} /> PDF
+                    <Icon name="wa" size={15} /> WhatsApp Support
                   </a>
                 </div>
               </div>
-              <Link className="fab" to={isGated ? "/login" : "/schemes"} aria-label="Open schemes">
-                <Icon name="arrowsm" size={17} />
-              </Link>
+
+              {/* Authorised Dealer Network Card */}
+              <div className="card pad" style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", background: "linear-gradient(135deg, #0e2438 0%, #173752 100%)", color: "#fff" }}>
+                <div>
+                  <div style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "4px 10px", borderRadius: 99, background: "rgba(255,255,255,0.15)", fontSize: "0.78rem", fontWeight: 700, color: "#fff", textTransform: "uppercase", letterSpacing: "0.05em" }}>
+                    <Icon name="lock" size={14} /> Dealer Network
+                  </div>
+                  <h3 style={{ marginTop: "var(--s3)", fontSize: "1.35rem", color: "#fff" }}>
+                    Authorised Dealer Portal
+                  </h3>
+                  <p style={{ marginTop: "var(--s2)", fontSize: "0.92rem", lineHeight: 1.55, color: "rgba(255,255,255,0.85)" }}>
+                    Wholesale catalog, live trade schemes, and dealer pricebooks are restricted to verified Sunshine partners. Sign in to your account or submit a dealership enquiry.
+                  </p>
+                </div>
+                <div style={{ display: "flex", gap: "var(--s3)", marginTop: "var(--s5)", flexWrap: "wrap" }}>
+                  <Link className="btn btn-amber btn-sm" to="/login">
+                    Verified Dealer Login <Icon name="arrow" size={15} />
+                  </Link>
+                  <Link className="btn btn-ghost btn-sm" to="/login?tab=apply" style={{ borderColor: "rgba(255,255,255,0.3)", color: "#fff" }}>
+                    Apply for Dealership
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       {/* ---------- Trust ---------- */}
       <section className="sec" style={{ paddingTop: 0 }}>

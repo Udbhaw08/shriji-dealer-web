@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-09-23T01:20:07.678Z
-> Total Project Files: 192
+> Last synchronized: 2026-09-27T20:44:11.362Z
+> Total Project Files: 198
 
 ---
 
@@ -28,12 +28,41 @@
    - Dealer rates on product details are **masked behind "View Dealer Price"** (`₹ • • • •`) to protect trade secrets on public or in-store screens.
 
 ### 2.2 Pricing Resolution Engine (`api/zoho.js` & `src/data/dealer.js`)
-$$\text{mrp} = \text{Label Rate (Printed MRP)} > \text{Selling Rate} > \text{Min Rate} > 0$$
-
+```
+MRP = Label Rate (Printed MRP) > Selling Rate > Min Rate > 0
+```
 - **Label Rate > 0**: Sourced from variant label rate (e.g. ₹16,395 on 3B Verna Plus).
 - **Selling Rate > 0**: Sourced from variant rate / selling price.
 - **Zero / Unpriced Products**: Sourced as `mrp: 0` with `isPriceOnRequest: true`.
 - **Formatting**: Sourced via `inr(n)` which returns `₹X,XXX` or `"Price on Request"`.
+
+### 2.3 Guest Access Control & Portal Gating (`src/data/portalGate.js`)
+When a user is not logged in or not verified as a dealer (`isPortalGated(session) === true`):
+1. **Allowed Pages**:
+   - **Home Page (`/`)**: Brand showcases, Hero slider, tagline, Customer Support card, Dealer Portal card, and Trust enquiry section.
+   - **Support Page (`/support`)**: Service support requests, maintenance notices, and marketing contact.
+   - **Direct Shared Product Links (`/products/:id` or with `?from=...`)**: Permitted for viewing single products shared by dealers.
+2. **Hidden from Non-Login Users**:
+   - **Shop by Category**: Completely hidden on the Home page.
+   - **Featured / All Products Carousel**: Completely hidden on the Home page.
+   - **Wholesale Schemes**: Active scheme flyers, PDF downloads, and scheme pages are completely hidden.
+   - **Full Catalog Browsing (`/products`)**: Gated by `<RequireVerifiedDealer>`, automatically redirects to `/login?needAuth=true`.
+   - **Schemes Page (`/schemes`)**: Gated by `<RequireVerifiedDealer>`, automatically redirects to `/login?needAuth=true`.
+
+### 2.4 Shareable Product Link & Zero-Leakage Experience (`src/pages/Product.jsx`)
+When a customer or non-logged-in user opens a link shared by a dealer:
+- **Single Product Isolation**: Only that specific product is visible.
+- **Customer Pricing Enforced**: Always displays retail MRP (never wholesale trade rates). If shared by a dealer, displays "Available with [Dealer Name]" and one-tap contact buttons.
+- **Zero Catalog Leakage**:
+  - Breadcrumbs display `Home > [Product Model]` (category link is omitted).
+  - Search bar is hidden to prevent exploring the unauthenticated catalog.
+  - Related products section ("More in this category") is hidden.
+  - Top back button on mobile navigates directly back to `Home` (`/`).
+
+### 2.5 Navigation & Bottom Bar Dynamic Filtering
+- **Header & Mobile Drawer (`src/ui.jsx`)**: Non-login users only see `Home` and `Support` navigation tabs. `Products` and `Schemes` tabs appear only after approved dealer sign-in.
+- **Mobile Bottom Navigation (`src/components/MobileBottomNav.jsx`)**: Non-login users have `Home`, `Support`, and the `Call for Details` bar. Full `Products` and `Schemes` tabs are reserved for approved dealers.
+- **Footer (`src/ui.jsx`)**: Wholesale product categories and scheme links are replaced with `Quick Links` (Home, Support, Marketing) and `Dealer Portal` links for non-logged-in visitors.
 
 ---
 
@@ -52,7 +81,7 @@ $$\text{mrp} = \text{Label Rate (Printed MRP)} > \text{Selling Rate} > \text{Min
 ## 4. Codebase Directory Map
 
 ### 4.1 Pages (`src/pages/`)
-- **`src/pages/Home.jsx`** (13.8 KB)
+- **`src/pages/Home.jsx`** (18.5 KB)
 - **`src/pages/Login.jsx`** (23.7 KB)
 - **`src/pages/Product.jsx`** (25.3 KB)
 - **`src/pages/Products.jsx`** (12.5 KB)
@@ -61,7 +90,7 @@ $$\text{mrp} = \text{Label Rate (Printed MRP)} > \text{Selling Rate} > \text{Min
 
 ### 4.2 Reusable Components (`src/components/` & `src/ui.jsx`)
 - **`src/components/HeroSlider.jsx`** (5.8 KB)
-- **`src/components/MobileBottomNav.jsx`** (3.3 KB)
+- **`src/components/MobileBottomNav.jsx`** (3.6 KB)
 - **`src/components/PriceBlock.jsx`** (5.1 KB)
 - **`src/components/ProductCard.jsx`** (2.9 KB)
 - **`src/components/UnderMaintenance.jsx`** (2.1 KB)
@@ -89,7 +118,7 @@ $$\text{mrp} = \text{Label Rate (Printed MRP)} > \text{Selling Rate} > \text{Min
 
 ### 4.5 Automation & Utility Scripts (`scripts/`)
 - **`scripts/audit_prices.mjs`** (3.8 KB)
-- **`scripts/generate-codebase-doc.mjs`** (6.5 KB)
+- **`scripts/generate-codebase-doc.mjs`** (9.0 KB)
 - **`scripts/get-refresh-token.mjs`** (2.3 KB)
 - **`scripts/make-scheme-pdfs.mjs`** (2.2 KB)
 - **`scripts/test-zoho-api.mjs`** (1.4 KB)

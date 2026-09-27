@@ -1,35 +1,34 @@
 # Live Pricing Audit Tool
 
-> 12 nodes · cohesion 0.21
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **productsStore.js** (14 connections) — `src/data/productsStore.js`
-- **products.js** (3 connections) — `src/data/products.js`
-- **CATEGORIES** (2 connections) — `src/data/products.js`
-- **emit()** (2 connections) — `src/data/productsStore.js`
-- **fetchLiveProducts()** (2 connections) — `src/data/productsStore.js`
-- **loadCached()** (2 connections) — `src/data/productsStore.js`
-- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
-- **useProduct()** (2 connections) — `src/data/productsStore.js`
-- **PRODUCTS** (1 connections) — `src/data/products.js`
-- **listeners** (1 connections) — `src/data/productsStore.js`
-- **PREFERRED_ORDER** (1 connections) — `src/data/productsStore.js`
-- **storeState** (1 connections) — `src/data/productsStore.js`
+- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
+- **run()** (2 connections) — `scripts/audit_prices.mjs`
+- **content** (1 connections) — `scripts/audit_prices.mjs`
+- **csvItems** (1 connections) — `scripts/audit_prices.mjs`
+- **idIdx** (1 connections) — `scripts/audit_prices.mjs`
+- **lines** (1 connections) — `scripts/audit_prices.mjs`
+- **lpIdx** (1 connections) — `scripts/audit_prices.mjs`
+- **nameIdx** (1 connections) — `scripts/audit_prices.mjs`
+- **parseCSVLine()** (1 connections) — `scripts/audit_prices.mjs`
+- **parsedHeader** (1 connections) — `scripts/audit_prices.mjs`
+- **showIdx** (1 connections) — `scripts/audit_prices.mjs`
+- **spIdx** (1 connections) — `scripts/audit_prices.mjs`
+- **statusIdx** (1 connections) — `scripts/audit_prices.mjs`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (4 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (1 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (3 shared connections)
 
 ## Source Files
 
-- `src/data/products.js`
-- `src/data/productsStore.js`
+- `scripts/audit_prices.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (100%)
+- EXTRACTED: 27 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

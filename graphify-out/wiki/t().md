@@ -7,20 +7,20 @@
 ## Connections by Relation
 
 ### calls
-- [[ProductCard()]] `EXTRACTED`
 - [[Product()]] `EXTRACTED`
+- [[ProductCard()]] `EXTRACTED`
 - [[Home()]] `EXTRACTED`
 - [[Products()]] `EXTRACTED`
+- [[MobileBottomNav()]] `EXTRACTED`
 - [[CustomerPrice()]] `EXTRACTED`
 - [[Login()]] `EXTRACTED`
 - [[Schemes()]] `EXTRACTED`
 - [[AccountLink()]] `EXTRACTED`
+- [[Footer()]] `EXTRACTED`
 - [[Header()]] `EXTRACTED`
 - [[DealerPrice()]] `EXTRACTED`
 - [[UnderMaintenance()]] `EXTRACTED`
-- [[MobileBottomNav()]] `EXTRACTED`
 - [[Support()]] `EXTRACTED`
-- [[Footer()]] `EXTRACTED`
 - [[HeroSlider()]] `INFERRED`
 - [[featureBoxes()]] `EXTRACTED`
 - [[DealerForm()]] `EXTRACTED`

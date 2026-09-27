@@ -94,10 +94,6 @@ function FloatingWhatsApp() {
 }
 
 function ConditionalBottomNav() {
-  const session = useSession();
-  if (isPortalGated(session)) {
-    return null;
-  }
   return <MobileBottomNav />;
 }
 

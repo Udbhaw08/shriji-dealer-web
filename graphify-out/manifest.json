@@ -45,8 +45,8 @@
     "semantic_hash": ""
   },
   "scripts/generate-codebase-doc.mjs": {
-    "mtime": 1789988924.740681,
-    "ast_hash": "0799555d7e8f0e400bf665c0e562ed72",
+    "mtime": 1790541843.241313,
+    "ast_hash": "8eb6c9bd81d6760e705eadd2a95b22c5",
     "semantic_hash": ""
   },
   "scripts/test-zoho-api.mjs": {
@@ -100,13 +100,13 @@
     "semantic_hash": ""
   },
   "src/main.jsx": {
-    "mtime": 1790124606.7375367,
-    "ast_hash": "695a4f674e46265c2d77cb320dd3c48b",
+    "mtime": 1790541580.2961118,
+    "ast_hash": "c5f98cd5cbf442e768c58576e1baea15",
     "semantic_hash": ""
   },
   "src/pages/Home.jsx": {
-    "mtime": 1790125347.1513855,
-    "ast_hash": "30f37e95b4cfe21400e0918ac9d18c01",
+    "mtime": 1790541615.2775764,
+    "ast_hash": "2b3fb910fd9e47c29da2535397bdaaf0",
     "semantic_hash": ""
   },
   "src/pages/Login.jsx": {
@@ -135,8 +135,8 @@
     "semantic_hash": ""
   },
   "src/ui.jsx": {
-    "mtime": 1790123070.5195513,
-    "ast_hash": "4114c78f198bea57ce5114bb70292116",
+    "mtime": 1790541592.0455346,
+    "ast_hash": "49b814e6bfe349e0fa3ab55c2f4f5125",
     "semantic_hash": ""
   },
   "vercel.json": {
@@ -190,8 +190,8 @@
     "semantic_hash": ""
   },
   "CODEBASE.md": {
-    "mtime": 1790126407.679982,
-    "ast_hash": "65dfdcb0e664d965d39dfaa108b7314a",
+    "mtime": 1790541851.3634627,
+    "ast_hash": "afdc8582e509fb8634ac43ba16dd5ede",
     "semantic_hash": ""
   },
   "PRD.md": {
@@ -335,8 +335,8 @@
     "semantic_hash": ""
   },
   "src/components/MobileBottomNav.jsx": {
-    "mtime": 1790125931.9919949,
-    "ast_hash": "0209e5939a6e90bb480b42ee333d1393",
+    "mtime": 1790541572.686584,
+    "ast_hash": "7887d64b06216f2694aca054019af1a4",
     "semantic_hash": ""
   },
   "public/favicon.png": {

@@ -3,15 +3,19 @@ import { Icon } from "../ui";
 import { COMPANY } from "../data/site";
 import { useLanguage } from "../data/i18n";
 import { dealerById } from "../data/dealer";
+import { useSession } from "../data/session";
+import { isPortalGated } from "../data/portalGate";
 
 export default function MobileBottomNav() {
   const { pathname, search } = useLocation();
   const { t } = useLanguage();
+  const session = useSession();
+  const isGated = isPortalGated(session);
 
   const isHome = pathname === "/";
   const isProducts = pathname === "/products" || pathname.startsWith("/products/");
   const isSchemes = pathname.startsWith("/schemes");
-  const isMore = pathname.startsWith("/support") || pathname.startsWith("/login");
+  const isSupport = pathname.startsWith("/support");
 
   const params = new URLSearchParams(search);
   const fromId = params.get("from");
@@ -38,36 +42,40 @@ export default function MobileBottomNav() {
             </span>
           </Link>
 
-          <Link
-            to="/products"
-            className={`mobile-bottom-tab ${isProducts ? "active" : ""}`}
-            aria-current={isProducts ? "page" : undefined}
-          >
-            <span className="mobile-tab-pill">
-              <Icon name="grid" size={19} />
-              <span className="mobile-tab-text">{t("nav_products") || "Products"}</span>
-            </span>
-          </Link>
+          {!isGated && (
+            <>
+              <Link
+                to="/products"
+                className={`mobile-bottom-tab ${isProducts ? "active" : ""}`}
+                aria-current={isProducts ? "page" : undefined}
+              >
+                <span className="mobile-tab-pill">
+                  <Icon name="grid" size={19} />
+                  <span className="mobile-tab-text">{t("nav_products") || "Products"}</span>
+                </span>
+              </Link>
 
-          <Link
-            to="/schemes"
-            className={`mobile-bottom-tab ${isSchemes ? "active" : ""}`}
-            aria-current={isSchemes ? "page" : undefined}
-          >
-            <span className="mobile-tab-pill">
-              <Icon name="badge" size={19} />
-              <span className="mobile-tab-text">{t("nav_schemes") || "Schemes"}</span>
-            </span>
-          </Link>
+              <Link
+                to="/schemes"
+                className={`mobile-bottom-tab ${isSchemes ? "active" : ""}`}
+                aria-current={isSchemes ? "page" : undefined}
+              >
+                <span className="mobile-tab-pill">
+                  <Icon name="badge" size={19} />
+                  <span className="mobile-tab-text">{t("nav_schemes") || "Schemes"}</span>
+                </span>
+              </Link>
+            </>
+          )}
 
           <Link
             to="/support"
-            className={`mobile-bottom-tab ${isMore ? "active" : ""}`}
-            aria-current={isMore ? "page" : undefined}
+            className={`mobile-bottom-tab ${isSupport ? "active" : ""}`}
+            aria-current={isSupport ? "page" : undefined}
           >
             <span className="mobile-tab-pill">
-              <Icon name="menu" size={19} />
-              <span className="mobile-tab-text">{t("nav_more") || "More"}</span>
+              <Icon name="support" size={19} />
+              <span className="mobile-tab-text">{t("nav_support") || "Support"}</span>
             </span>
           </Link>
         </div>
