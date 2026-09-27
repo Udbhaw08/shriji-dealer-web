@@ -1,7 +1,13 @@
 name: Build Mobile Apps (Android & iOS)
 
 on:
-  workflow_dispatch: # Manual trigger from GitHub Actions tab
+  workflow_dispatch: # Manual trigger from GitHub Actions tab or gh CLI
+  push:
+    paths:
+      - '.github/workflows/build-apps.yml'
+      - 'android/**'
+      - 'ios/**'
+      - 'capacitor.config.json'
 
 jobs:
   build-android:
@@ -23,11 +29,11 @@ jobs:
       - name: Build Web Assets & Sync Capacitor
         run: npm run cap:sync
 
-      - name: Setup Java JDK 17
+      - name: Setup Java JDK 21 (Required by Capacitor 8 / AGP)
         uses: actions/setup-java@v4
         with:
           distribution: 'zulu'
-          java-version: '17'
+          java-version: '21'
 
       - name: Make Gradle Executable
         run: chmod +x ./android/gradlew
@@ -64,7 +70,11 @@ jobs:
       - name: Build iOS App
         working-directory: ios/App
         run: |
-          xcodebuild -workspace App.xcworkspace -scheme App -destination generic/platform=iOS -configuration Release clean archive -archivePath build/App.xcarchive CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO
+          if [ -d "App.xcworkspace" ]; then
+            xcodebuild -workspace App.xcworkspace -scheme App -destination generic/platform=iOS -configuration Release clean archive -archivePath build/App.xcarchive CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY=""
+          else
+            xcodebuild -project App.xcodeproj -scheme App -destination generic/platform=iOS -configuration Release clean archive -archivePath build/App.xcarchive CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY=""
+          fi
 
       - name: Upload iOS Archive
         uses: actions/upload-artifact@v4
