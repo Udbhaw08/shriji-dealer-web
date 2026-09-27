@@ -1,55 +1,57 @@
 # Agent Guidelines (AGENTS.md)
 
-> 39 nodes · cohesion 0.07
+> 40 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **offline-font-browser.test.mjs** (13 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
-- **cli.test.mjs** (11 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **offline-self-containment.test.mjs** (9 connections) — `.agents/skills/archify/test/offline-self-containment.test.mjs`
-- **generated-artifact-xml.test.mjs** (8 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
-- **offline-fonts.mjs** (7 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **inspectDocuments()** (5 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **xml.mjs** (5 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
-- **assertFontCss()** (4 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **assertOfflineArtifact()** (4 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **extractSvgs()** (4 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
-- **parseXml()** (3 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
-- **visit()** (3 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
-- **evaluate()** (2 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
-- **exported()** (2 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
-- **EXPECTED_FACES** (1 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **FONT_LICENSE** (1 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **copyInstalledSkill()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **makeFakeOpeners()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **artifactRoots** (1 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
-- *... and 14 more nodes in this community*
+- **brand-marks.mjs** (51 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **brand-marks.test.mjs** (15 connections) — `.agents/skills/archify/test/brand-marks.test.mjs`
+- **captureRemoteBrand()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **captureBrandReference()** (6 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **findBrandMark()** (5 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **checkedFetch()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **isPrivateBrandAddress()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **resolveRequestTarget()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **asUrl()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **iconCandidates()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **imageData()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **ipv4Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **ipv6Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **lookupForms()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **readLimited()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **validateUrlShape()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **generated-brand-marks.mjs** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
+- **BRAND_MARKS** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
+- **attribute()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **beforeDeadline()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **domainMark()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **remoteBrand()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **requestPinned()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **suggestions()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **COLLECTIONS** (1 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [[Graphify Workflow]] (1 shared connections)
-- [[Community 104]] (1 shared connections)
-- [[Community 87]] (1 shared connections)
+- [[Product Pages Specification]] (8 shared connections)
+- [[Live Pricing Audit Tool]] (7 shared connections)
+- [[Community 93]] (3 shared connections)
+- [[Community 34]] (2 shared connections)
+- [[Pricing Regression Test Suite]] (1 shared connections)
+- [[Community 39]] (1 shared connections)
+- [[Community 40]] (1 shared connections)
+- [[Master Codebase Architecture Reference]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/cli.test.mjs`
-- `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
-- `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- `.agents/skills/archify/test/helpers/xml.mjs`
-- `.agents/skills/archify/test/offline-font-browser.test.mjs`
-- `.agents/skills/archify/test/offline-self-containment.test.mjs`
+- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
+- `.agents/skills/archify/test/brand-marks.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 103 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 153 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

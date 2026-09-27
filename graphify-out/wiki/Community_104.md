@@ -1,44 +1,37 @@
 # Community 104
 
-> 12 nodes · cohesion 0.21
+> 12 nodes · cohesion 0.41
 
 ## Key Concepts
 
-- **ChromeVisualBrowser** (21 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **PipeCdp** (7 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.inspect()** (5 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.attach()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.close()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.constructor()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **evaluate()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.failAll()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.consume()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.waitFor()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.constructor()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.failure()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **repository-evidence.mjs** (15 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **verifyRepositoryEvidence()** (14 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **evidenceFailure()** (6 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **repository-location.mjs** (5 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **parseRepositoryRemote()** (5 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **gitValue()** (4 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **runGit()** (4 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **verifiedSourcePath()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **redactRepositoryRemote()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **repositorySourceHref()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **hasRepositoryEvidence()** (2 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **sourceLineCount()** (2 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
 
 ## Relationships
 
-- [[Graphify Workflow]] (7 shared connections)
-- [[Community 47]] (6 shared connections)
-- [[Community 87]] (2 shared connections)
-- [[Community 65]] (2 shared connections)
-- [[Community 88]] (1 shared connections)
-- [[Community 85]] (1 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (1 shared connections)
-- [[Community 115]] (1 shared connections)
-- [[Community 147]] (1 shared connections)
-- [[Community 102]] (1 shared connections)
-- [[Community 128]] (1 shared connections)
-- [[Community 149]] (1 shared connections)
+- [[Product Pages Specification]] (6 shared connections)
+- [[Community 90]] (3 shared connections)
+- [[Community 48]] (2 shared connections)
+- [[Community 78]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- `.agents/skills/archify/renderers/shared/repository-location.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (100%)
+- EXTRACTED: 66 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

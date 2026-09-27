@@ -1,52 +1,64 @@
 # Master Codebase Architecture Reference
 
-> 59 nodes · cohesion 0.06
+> 66 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **check-render-output.mjs** (57 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **desktop-readability.mjs** (9 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **adaptive-reader-layout.test.mjs** (9 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **parseAttrs()** (7 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectArrows()** (6 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **numberAttr()** (6 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectCompositionFrames()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectLegendBoxes()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **lineSegments()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **DESKTOP_READABILITY_VIEWPORT** (5 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **collectDesktopReadability()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectNonFiniteAttrs()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **pathSegments()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **straightPathSegments()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **textBox()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **minimumReadableSourceTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **projectedNodeTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **attrEntries()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectLegendCollisions()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectRelationshipLabelMasks()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **crossProduct()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **isCommand()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **pointsFromPath()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **properSegmentIntersection()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **segmentIntersectsBox()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- *... and 34 more nodes in this community*
+- **geometry.mjs** (75 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **compileWorkflowInternal()** (67 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **asArray()** (43 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **geometry.test.mjs** (34 connections) — `.agents/skills/archify/test/geometry.test.mjs`
+- **validateArchitecture()** (22 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **validateDataflow()** (22 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **validateLifecycle()** (22 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **cleanCrossingProblems()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **isFinitePoint()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanFlowProblems()** (17 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **rectsOverlap()** (16 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **validateSequence()** (15 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **cleanAmbiguousCorridorProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanBorderRunProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanRouteRhythmProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **labelPoint()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanEndpointSideProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanLabelRouteClearanceProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **brandTopRailProblem()** (13 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **collectLabelRouteClearance()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **segmentIntersectsRect()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **suggestLabelObstacleFix()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **availableNodeTextWidth()** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- **collectBorderRuns()** (10 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **normalizeRoutePoints()** (10 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- *... and 41 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (6 shared connections)
-- [[Graphify Workflow]] (4 shared connections)
-- [[Pricing Regression Test Suite]] (3 shared connections)
-- [[Community 74]] (1 shared connections)
+- [[Community 34]] (55 shared connections)
+- [[Live Pricing Audit Tool]] (46 shared connections)
+- [[Community 39]] (38 shared connections)
+- [[Pricing Regression Test Suite]] (35 shared connections)
+- [[Community 40]] (26 shared connections)
+- [[Product Pages Specification]] (16 shared connections)
+- [[Architecture Doc Generator]] (6 shared connections)
+- [[Community 168]] (3 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- `.agents/skills/archify/scripts/check-render-output.mjs`
-- `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- `.agents/skills/archify/renderers/shared/geometry.mjs`
+- `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- `.agents/skills/archify/test/geometry.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 214 (100%)
+- EXTRACTED: 690 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

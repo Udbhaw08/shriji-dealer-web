@@ -1,11 +1,10 @@
 # Community 269
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **README.md** (1 connections) — `ios/App/CapApp-SPM/README.md`
-- **CapApp-SPM** (1 connections) — `ios/App/CapApp-SPM/README.md`
+- **cordova_plugins.js** (0 connections) — `android/app/src/main/assets/public/cordova_plugins.js`
 
 ## Relationships
 
@@ -13,11 +12,11 @@
 
 ## Source Files
 
-- `ios/App/CapApp-SPM/README.md`
+- `android/app/src/main/assets/public/cordova_plugins.js`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

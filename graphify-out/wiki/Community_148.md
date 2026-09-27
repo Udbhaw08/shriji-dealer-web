@@ -1,26 +1,25 @@
 # Community 148
 
-> 9 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **vertical-edge.test.mjs** (8 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **bin** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **edgePath()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **REPRO** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **segments()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **wraps** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **via** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Mobile Responsive UI Skill]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/vertical-edge.test.mjs`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 

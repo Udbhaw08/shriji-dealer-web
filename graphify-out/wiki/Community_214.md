@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **Automatic Codebase Context & Knowledge Graph Protocol** (4 connections) — `.agents/rules/graphify.md`
-- **graphify.md** (1 connections) — `.agents/rules/graphify.md`
-- **Rule 1: Mandatory Knowledge Graph Lookup (Never Blindly Read Files)** (1 connections) — `.agents/rules/graphify.md`
-- **Rule 2: Precision File Viewing** (1 connections) — `.agents/rules/graphify.md`
-- **Rule 3: Keep Graph Fresh After Modifying Code** (1 connections) — `.agents/rules/graphify.md`
+- **ErrorBoundary** (5 connections) — `src/main.jsx`
+- **.componentDidCatch()** (1 connections) — `src/main.jsx`
+- **.constructor()** (1 connections) — `src/main.jsx`
+- **.getDerivedStateFromError()** (1 connections) — `src/main.jsx`
+- **.render()** (1 connections) — `src/main.jsx`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 46]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/rules/graphify.md`
+- `src/main.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

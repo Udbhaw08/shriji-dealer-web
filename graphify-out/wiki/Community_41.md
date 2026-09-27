@@ -1,59 +1,60 @@
 # Community 41
 
-> 29 nodes · cohesion 0.17
+> 30 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **ui.jsx** (33 connections) — `src/ui.jsx`
-- **useLanguage()** (28 connections) — `src/data/i18n.js`
-- **Home.jsx** (24 connections) — `src/pages/Home.jsx`
-- **site.js** (18 connections) — `src/data/site.js`
-- **Support.jsx** (15 connections) — `src/pages/Support.jsx`
-- **Schemes.jsx** (14 connections) — `src/pages/Schemes.jsx`
-- **Icon()** (13 connections) — `src/ui.jsx`
-- **COMPANY** (10 connections) — `src/data/site.js`
-- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
-- **HeroSlider.jsx** (7 connections) — `src/components/HeroSlider.jsx`
-- **UnderMaintenance()** (5 connections) — `src/components/UnderMaintenance.jsx`
-- **Support()** (4 connections) — `src/pages/Support.jsx`
-- **EnquiryButtons()** (4 connections) — `src/ui.jsx`
-- **HeroSlider()** (3 connections) — `src/components/HeroSlider.jsx`
-- **SCHEMES** (3 connections) — `src/data/site.js`
-- **STATS** (3 connections) — `src/data/site.js`
-- **DealerForm()** (3 connections) — `src/pages/Support.jsx`
-- **ISSUE_TYPES** (2 connections) — `src/data/site.js`
-- **MATERIALS** (2 connections) — `src/data/site.js`
-- **NAV** (2 connections) — `src/data/site.js`
-- **QUICK_ACCESS** (2 connections) — `src/data/site.js`
-- **QUICK_NAV** (2 connections) — `src/data/site.js`
-- **useAutoScroll()** (2 connections) — `src/pages/Home.jsx`
-- **LangToggle()** (2 connections) — `src/ui.jsx`
-- **STORE_BANNERS** (1 connections) — `src/components/HeroSlider.jsx`
-- *... and 4 more nodes in this community*
+- **visual-check.mjs** (50 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **runVisualCheck()** (18 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **visual-check.test.mjs** (14 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **observationDiagnostics()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **safeUnlink()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **writeAtomic()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **baseReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **chromeVisualBrowserArgs()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **cleanupCaptureSidecars()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **contactSheetHtml()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **failureDiagnostic()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **persistReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **sha256()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **sidecarPaths()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **htmlEscape()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **observation()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **screenshotKey()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **viewportSubject()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **VISUAL_CHECK_VIEWPORTS** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **CAPTURE_VIEWPORTS** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **EXIT** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **THEMES** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **artifact()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **fakeBrowser()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [[Community 56]] (36 shared connections)
-- [[Community 50]] (24 shared connections)
-- [[Community 43]] (9 shared connections)
-- [[Community 108]] (6 shared connections)
-- [[Community 82]] (5 shared connections)
+- [[Community 36]] (10 shared connections)
+- [[Community 129]] (4 shared connections)
+- [[Community 97]] (4 shared connections)
+- [[Community 51]] (3 shared connections)
+- [[Community 93]] (2 shared connections)
+- [[Community 68]] (2 shared connections)
+- [[Community 98]] (1 shared connections)
+- [[Community 99]] (1 shared connections)
+- [[Community 85]] (1 shared connections)
+- [[Testing & Workflow Skill]] (1 shared connections)
+- [[Community 113]] (1 shared connections)
+- [[Community 144]] (1 shared connections)
 
 ## Source Files
 
-- `src/components/HeroSlider.jsx`
-- `src/components/UnderMaintenance.jsx`
-- `src/data/i18n.js`
-- `src/data/site.js`
-- `src/pages/Home.jsx`
-- `src/pages/Schemes.jsx`
-- `src/pages/Support.jsx`
-- `src/ui.jsx`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/test/visual-check.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 213 (100%)
-- INFERRED: 1 (0%)
+- EXTRACTED: 138 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

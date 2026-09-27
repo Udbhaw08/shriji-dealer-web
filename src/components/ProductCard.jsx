@@ -3,9 +3,11 @@ import { Link } from "react-router-dom";
 import { Icon } from "../ui";
 import { inr, priceFor, tagFor, productSlug } from "../data/dealer";
 import { useLanguage } from "../data/i18n";
+import { useFavorites } from "../data/favoritesStore";
 
 export default function ProductCard({ p }) {
-  const [saved, setSaved] = useState(false);
+  const { isFavorite, toggleFavorite } = useFavorites();
+  const saved = isFavorite(p.id);
   const [imgErr, setImgErr] = useState(false);
   const { t } = useLanguage();
 
@@ -29,11 +31,12 @@ export default function ProductCard({ p }) {
         type="button"
         className="heart"
         aria-pressed={saved}
-        aria-label={saved ? `Remove ${p.model} from saved` : `Save ${p.model}`}
+        aria-label={saved ? `Remove ${p.model || p.name} from saved favorites` : `Save ${p.model || p.name} to favorites`}
+        title={saved ? "Remove from favorites" : "Save to favorites"}
         onClick={(e) => {
           e.preventDefault();
           e.stopPropagation();
-          setSaved((v) => !v);
+          toggleFavorite(p.id);
         }}
       >
         <Icon name="heart" size={16} />

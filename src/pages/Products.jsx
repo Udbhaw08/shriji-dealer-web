@@ -1,29 +1,61 @@
-import { useMemo, useState } from "react";
+import { useMemo, useState, useEffect } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { useProducts } from "../data/productsStore";
+import { useFavorites } from "../data/favoritesStore";
 import { priceFor } from "../data/dealer";
 import { Icon } from "../ui";
 import { useLanguage } from "../data/i18n";
 import ProductCard from "../components/ProductCard";
+import ProductSearchBar from "../components/ProductSearchBar";
+import { buildSearchDictionary, autocorrectQuery, scoreProduct } from "../data/searchHelper";
 
 const PAGE = 24;
 
-/* One filter group, rendered the same on phone and desktop. */
-function Group({ title, options, value, onPick, className = "" }) {
+const SORT_FNS = {
+  popularity: null,
+  name: (a, b) => (a.model || a.name).localeCompare(b.model || b.name),
+  low: (a, b) => priceFor(a).dealer - priceFor(b).dealer,
+  high: (a, b) => priceFor(b).dealer - priceFor(a).dealer,
+};
+
+/* One filter group with multi-selection support */
+function Group({ title, options, selected = [], onToggle, onClear, className = "" }) {
   if (!options.length) return null;
   return (
     <div className={`fgroup ${className}`.trim()}>
-      <h3>{title}</h3>
+      <div className="fgroup-title-row">
+        <h3>
+          <span>{title}</span>
+          {selected.length > 0 && <span className="fgroup-badge-count">{selected.length}</span>}
+        </h3>
+        {selected.length > 0 && (
+          <button
+            type="button"
+            className="fgroup-clear-btn"
+            onClick={onClear}
+            aria-label={`Clear ${title} filters`}
+          >
+            Clear
+          </button>
+        )}
+      </div>
       <ul>
-        {options.map(([key, label, n]) => (
-          <li key={key}>
-            <label>
-              <input type="checkbox" checked={value === key} onChange={() => onPick(value === key ? "" : key)} />
-              <span>{label}</span>
-              <small>{n}</small>
-            </label>
-          </li>
-        ))}
+        {options.map(([key, label, n]) => {
+          const isChecked = selected.includes(key);
+          return (
+            <li key={key}>
+              <label className={isChecked ? "f-checked" : ""}>
+                <input
+                  type="checkbox"
+                  checked={isChecked}
+                  onChange={() => onToggle(key)}
+                />
+                <span>{label}</span>
+                <small>{n}</small>
+              </label>
+            </li>
+          );
+        })}
       </ul>
     </div>
   );
@@ -31,21 +63,66 @@ function Group({ title, options, value, onPick, className = "" }) {
 
 export default function Products() {
   const { products: PRODUCTS, categories: CATEGORIES, loaded } = useProducts();
+  const { isFavorite, count: favCount } = useFavorites();
   const { t, tCat } = useLanguage();
   const [params, setParams] = useSearchParams();
 
-  const rawCat = params.get("cat") || "";
-  const cat = rawCat === "all" || rawCat === "all_products" ? "" : rawCat;
-  const [q, setQ] = useState("");
-  const [finish, setFinish] = useState("");
-  const [brand, setBrand] = useState("");
-  const [burners, setBurners] = useState("");
-  const [ignition, setIgnition] = useState("");
+  // Parse multi-select filters from URL search params
+  const parseListParam = (key) => {
+    const raw = params.get(key);
+    if (!raw) return [];
+    return raw
+      .split(",")
+      .map((s) => s.trim())
+      .filter((s) => s && s !== "all" && s !== "all_products");
+  };
+
+  const selectedCats = parseListParam("cat");
+  const selectedBrands = parseListParam("brand");
+  const selectedBurners = parseListParam("burners");
+  const selectedIgnitions = parseListParam("ignition");
+  const selectedFinishes = parseListParam("finish");
+  const onlyFavorites = params.get("saved") === "true";
+  const urlQ = params.get("q") || "";
+
+  const [q, setQ] = useState(urlQ);
+  const [verbatimQ, setVerbatimQ] = useState("");
   const [sort, setSort] = useState("popularity");
   const [shown, setShown] = useState(PAGE);
   const [openFilters, setOpenFilters] = useState(false);
 
+  // Sync state if urlQ changes externally
+  useEffect(() => {
+    setQ(urlQ);
+  }, [urlQ]);
+
   const reset = () => setShown(PAGE);
+
+  const toggleInList = (list, item) => {
+    return list.includes(item) ? list.filter((x) => x !== item) : [...list, item];
+  };
+
+  const updateFilters = ({
+    cats = selectedCats,
+    brands = selectedBrands,
+    burners = selectedBurners,
+    ignitions = selectedIgnitions,
+    finishes = selectedFinishes,
+    saved = onlyFavorites,
+    query = q,
+  }) => {
+    const next = new URLSearchParams();
+    if (cats.length > 0) next.set("cat", cats.join(","));
+    if (brands.length > 0) next.set("brand", brands.join(","));
+    if (burners.length > 0) next.set("burners", burners.join(","));
+    if (ignitions.length > 0) next.set("ignition", ignitions.join(","));
+    if (finishes.length > 0) next.set("finish", finishes.join(","));
+    if (saved) next.set("saved", "true");
+    if (query && query.trim()) next.set("q", query.trim());
+
+    setParams(next, { replace: true });
+    reset();
+  };
 
   const counts = useMemo(() => {
     const c = {};
@@ -53,9 +130,13 @@ export default function Products() {
     return c;
   }, [PRODUCTS]);
 
-  // Facet counts are built from the products in the current category only.
+  // Facet tallies
   const facets = useMemo(() => {
-    const inCat = cat ? PRODUCTS.filter((p) => p.cat === cat) : PRODUCTS;
+    const inCat =
+      selectedCats.length > 0
+        ? PRODUCTS.filter((p) => selectedCats.includes(p.cat))
+        : PRODUCTS;
+
     const tally = (pick) => {
       const m = new Map();
       for (const p of inCat) {
@@ -64,71 +145,111 @@ export default function Products() {
       }
       return [...m.entries()].sort((a, b) => b[1] - a[1]);
     };
+
     return {
       brand: tally((p) => p.brand).map(([v, n]) => [v, v, n]),
-      ignition: tally((p) => (p.features.includes("Auto Ignition") ? "auto" : "manual")).map(([v, n]) => [
-        v,
-        v === "auto" ? "Auto Ignition" : "Manual",
-        n,
-      ]),
+      ignition: tally((p) => (p.features?.includes("Auto Ignition") ? "auto" : "manual")).map(
+        ([v, n]) => [v, v === "auto" ? "Auto Ignition" : "Manual", n]
+      ),
       burners: tally((p) => p.burners)
         .sort((a, b) => a[0] - b[0])
         .map(([v, n]) => [String(v), `${v} Burner`, n]),
       finish: tally((p) => p.finish).map(([v, n]) => [v, v, n]),
     };
-  }, [cat, PRODUCTS]);
+  }, [selectedCats, PRODUCTS]);
 
-  const pickCat = (key) => {
-    const next = new URLSearchParams(params);
-    if (key && next.get("cat") !== key) next.set("cat", key);
-    else next.delete("cat");
-    setParams(next, { replace: true });
-    setBurners("");
-    setFinish("");
-    reset();
-  };
+  // Autocorrect dictionary & check
+  const searchDict = useMemo(() => {
+    return buildSearchDictionary(PRODUCTS, CATEGORIES);
+  }, [PRODUCTS, CATEGORIES]);
 
-  const SORT_FNS = {
-    popularity: null,
-    name: (a, b) => a.model.localeCompare(b.model),
-    low: (a, b) => priceFor(a).dealer - priceFor(b).dealer,
-    high: (a, b) => priceFor(b).dealer - priceFor(a).dealer,
-  };
+  const autocorrect = useMemo(() => {
+    if (!q || q.trim().length < 3 || verbatimQ === q.trim()) return null;
+    const res = autocorrectQuery(q.trim(), searchDict);
+    return res.hasCorrection ? res.corrected : null;
+  }, [q, searchDict, verbatimQ]);
 
-  const results = useMemo(() => {
+  // Filter calculation
+  const { results, isUsingAutocorrect } = useMemo(() => {
     const needle = q.trim().toLowerCase();
-    const out = PRODUCTS.filter((p) => {
-      if (cat && p.cat !== cat) return false;
-      if (finish && p.finish !== finish) return false;
-      if (brand && p.brand !== brand) return false;
-      if (burners && String(p.burners) !== burners) return false;
-      if (ignition && (p.features.includes("Auto Ignition") ? "auto" : "manual") !== ignition) return false;
-      if (needle && !p.name.toLowerCase().includes(needle) && !p.model.toLowerCase().includes(needle)) return false;
+
+    const matchesFilter = (p, term) => {
+      if (onlyFavorites && !isFavorite(p.id)) return false;
+      if (selectedCats.length > 0 && !selectedCats.includes(p.cat)) return false;
+      if (selectedFinishes.length > 0 && !selectedFinishes.includes(p.finish)) return false;
+      if (selectedBrands.length > 0 && !selectedBrands.includes(p.brand)) return false;
+      if (selectedBurners.length > 0 && !selectedBurners.includes(String(p.burners))) return false;
+      if (selectedIgnitions.length > 0) {
+        const pIgn = p.features?.includes("Auto Ignition") ? "auto" : "manual";
+        if (!selectedIgnitions.includes(pIgn)) return false;
+      }
+      if (term) {
+        return scoreProduct(p, term) > 0;
+      }
       return true;
-    });
+    };
+
+    let direct = PRODUCTS.filter((p) => matchesFilter(p, needle));
+    let usedCorrection = false;
+
+    // If 0 direct matches found and autocorrect is available, use autocorrect
+    if (direct.length === 0 && autocorrect && needle !== verbatimQ) {
+      const correctedMatches = PRODUCTS.filter((p) => matchesFilter(p, autocorrect));
+      if (correctedMatches.length > 0) {
+        direct = correctedMatches;
+        usedCorrection = true;
+      }
+    }
+
     const fn = SORT_FNS[sort];
-    return fn ? [...out].sort(fn) : out;
-  }, [cat, finish, brand, burners, ignition, q, sort, PRODUCTS]);
+    const sorted = fn ? [...direct].sort(fn) : direct;
+    return { results: sorted, isUsingAutocorrect: usedCorrection };
+  }, [
+    onlyFavorites,
+    selectedCats,
+    selectedFinishes,
+    selectedBrands,
+    selectedBurners,
+    selectedIgnitions,
+    q,
+    sort,
+    autocorrect,
+    verbatimQ,
+    PRODUCTS,
+    isFavorite,
+  ]);
 
-  const dirty = Boolean(cat || finish || brand || burners || ignition || q.trim());
+  const dirty = Boolean(
+    selectedCats.length ||
+      selectedFinishes.length ||
+      selectedBrands.length ||
+      selectedBurners.length ||
+      selectedIgnitions.length ||
+      onlyFavorites ||
+      q.trim()
+  );
 
-  const clear = () => {
+  const activeFilterCount =
+    selectedCats.length +
+    selectedBrands.length +
+    selectedBurners.length +
+    selectedIgnitions.length +
+    selectedFinishes.length +
+    (onlyFavorites ? 1 : 0) +
+    (q.trim() ? 1 : 0);
+
+  const clearAll = () => {
     setParams(new URLSearchParams(), { replace: true });
     setQ("");
-    setFinish("");
-    setBrand("");
-    setBurners("");
-    setIgnition("");
+    setVerbatimQ("");
     reset();
   };
 
-  const active = CATEGORIES.find((c) => c.key === cat);
-
   const sortOptions = [
-    { key: "popularity", label: t("sort_featured") },
-    { key: "name", label: t("sort_name") },
-    { key: "low", label: t("sort_price_asc") },
-    { key: "high", label: t("sort_price_desc") },
+    { key: "popularity", label: t("sort_featured") || "Featured" },
+    { key: "name", label: t("sort_name") || "Name A–Z" },
+    { key: "low", label: t("sort_price_asc") || "Price: Low to High" },
+    { key: "high", label: t("sort_price_desc") || "Price: High to Low" },
   ];
 
   return (
@@ -137,56 +258,138 @@ export default function Products() {
         <div className="wrap">
           <h1 className="d2">{t("catalog_title")}</h1>
           <p className="sub" style={{ marginTop: "var(--s2)" }}>
-            {PRODUCTS.length > 0 ? t("live_models_across", { products: PRODUCTS.length, cats: CATEGORIES.length }) : t("connecting_zoho")}
+            {PRODUCTS.length > 0
+              ? t("live_models_across", { products: PRODUCTS.length, cats: CATEGORIES.length })
+              : t("connecting_zoho")}
           </p>
         </div>
       </section>
 
       <div className="toolbar">
         <div className="wrap stack">
-          <div className="row" style={{ flexWrap: "nowrap" }}>
-            <label className="search">
-              <Icon name="search" size={17} style={{ color: "var(--tx-3)" }} />
-              <input
-                type="search"
-                value={q}
-                onChange={(e) => {
-                  setQ(e.target.value);
-                  reset();
-                }}
-                placeholder={t("search_app_placeholder") || "Search products, models, categories..."}
-                aria-label={t("search_app_placeholder") || "Search products, models, categories..."}
-              />
-            </label>
+          <div className="row" style={{ flexWrap: "nowrap", gap: "var(--s3)", alignItems: "center" }}>
+            <ProductSearchBar
+              value={q}
+              onChange={(val) => {
+                setQ(val);
+                setVerbatimQ("");
+                updateFilters({ query: val });
+              }}
+              onSubmit={(val) => {
+                setQ(val);
+                setVerbatimQ("");
+                updateFilters({ query: val });
+              }}
+              placeholder={t("search_app_placeholder") || "Search products, models, categories..."}
+            />
+
             <button
               className="icon-btn filter-btn"
               aria-expanded={openFilters}
               aria-controls="filters"
               aria-label={t("filter_btn")}
               onClick={() => setOpenFilters((v) => !v)}
-              style={openFilters ? { background: "var(--blue-100)", borderColor: "var(--blue-300)" } : undefined}
+              style={
+                openFilters || activeFilterCount > 0
+                  ? { background: "var(--blue-100)", borderColor: "var(--blue-300)" }
+                  : undefined
+              }
+              title={`Filters (${activeFilterCount})`}
             >
-              <Icon name="filter" size={18} />
+              <span style={{ position: "relative", display: "inline-flex" }}>
+                <Icon name="filter" size={18} />
+                {activeFilterCount > 0 && (
+                  <span className="fgroup-badge-count" style={{ position: "absolute", top: "-8px", right: "-8px" }}>
+                    {activeFilterCount}
+                  </span>
+                )}
+              </span>
             </button>
           </div>
 
+          {/* Quick Category Chips with Multi-Select & Favorites Toggle */}
           <div className="catchips" role="group" aria-label="Filter by category">
-            {CATEGORIES.map((c) => (
-              <button key={c.key} className="catchip" aria-pressed={cat === c.key} onClick={() => pickCat(c.key)}>
-                <img
-                  src={c.img}
-                  alt=""
-                  onError={(e) => {
-                    e.currentTarget.src = "/img/cat-small_appliances.webp";
-                  }}
-                />
-                <span>
-                  {tCat(c.key, c.label)}
-                  <br />
-                  <small style={{ fontWeight: 500, opacity: 0.7 }}>{counts[c.key] || 0}</small>
-                </span>
-              </button>
-            ))}
+            {/* All Products Chip */}
+            <button
+              type="button"
+              className="catchip catchip-all"
+              aria-pressed={selectedCats.length === 0 && !onlyFavorites}
+              onClick={() => updateFilters({ cats: [], saved: false })}
+            >
+              <div
+                style={{
+                  width: "46px",
+                  height: "46px",
+                  borderRadius: "8px",
+                  background: "var(--blue-50)",
+                  display: "grid",
+                  placeItems: "center",
+                  color: "var(--blue-ink)",
+                }}
+              >
+                <Icon name="grid" size={22} />
+              </div>
+              <span>
+                {t("filter_all") || "All Products"}
+                <br />
+                <small style={{ fontWeight: 500, opacity: 0.7 }}>{PRODUCTS.length}</small>
+              </span>
+            </button>
+
+            {/* Saved Favorites Chip */}
+            <button
+              type="button"
+              className="catchip catchip-fav"
+              aria-pressed={onlyFavorites}
+              onClick={() => updateFilters({ saved: !onlyFavorites })}
+              title="Show saved favorites only"
+            >
+              <div
+                style={{
+                  width: "46px",
+                  height: "46px",
+                  borderRadius: "8px",
+                  background: "#fff1f1",
+                  display: "grid",
+                  placeItems: "center",
+                  color: "#d64545",
+                }}
+              >
+                <Icon name="heart" size={22} style={onlyFavorites ? { fill: "#d64545" } : undefined} />
+              </div>
+              <span>
+                {t("filter_saved_only") || "Saved"}
+                <br />
+                <small style={{ fontWeight: 600, opacity: 0.9 }}>{favCount}</small>
+              </span>
+            </button>
+
+            {/* Individual Categories (Can select multiple!) */}
+            {CATEGORIES.map((c) => {
+              const isSelected = selectedCats.includes(c.key);
+              return (
+                <button
+                  key={c.key}
+                  className="catchip"
+                  aria-pressed={isSelected}
+                  onClick={() => updateFilters({ cats: toggleInList(selectedCats, c.key) })}
+                  title={isSelected ? `Remove ${c.label}` : `Add ${c.label}`}
+                >
+                  <img
+                    src={c.img}
+                    alt=""
+                    onError={(e) => {
+                      e.currentTarget.src = "/img/cat-small_appliances.webp";
+                    }}
+                  />
+                  <span>
+                    {tCat(c.key, c.label)}
+                    <br />
+                    <small style={{ fontWeight: 500, opacity: 0.7 }}>{counts[c.key] || 0}</small>
+                  </span>
+                </button>
+              );
+            })}
           </div>
         </div>
       </div>
@@ -195,93 +398,225 @@ export default function Products() {
         <div className="wrap listing">
           <aside className="filters" id="filters" data-open={openFilters || undefined}>
             <div className="fhead">
-              <h2>{t("filter_btn")}</h2>
+              <h2>
+                {t("filter_btn")}{" "}
+                {activeFilterCount > 0 && <span className="fgroup-badge-count">{activeFilterCount}</span>}
+              </h2>
               {dirty && (
-                <button className="link" onClick={clear}>
+                <button className="link" onClick={clearAll}>
                   {t("clear_filters")}
                 </button>
               )}
             </div>
+
             <Group
-              title={t("spec_category")}
-              options={CATEGORIES.map((c) => [c.key, tCat(c.key, c.label), counts[c.key]])}
-              value={cat}
-              onPick={pickCat}
+              title={t("spec_category") || "Category"}
+              options={CATEGORIES.map((c) => [c.key, tCat(c.key, c.label), counts[c.key] || 0])}
+              selected={selectedCats}
+              onToggle={(k) => updateFilters({ cats: toggleInList(selectedCats, k) })}
+              onClear={() => updateFilters({ cats: [] })}
             />
+
             <Group
-              title={t("spec_brand")}
+              title={t("spec_brand") || "Brand"}
               options={facets.brand}
-              value={brand}
-              onPick={(v) => {
-                setBrand(v);
-                reset();
-              }}
+              selected={selectedBrands}
+              onToggle={(k) => updateFilters({ brands: toggleInList(selectedBrands, k) })}
+              onClear={() => updateFilters({ brands: [] })}
             />
+
             <Group
-              title={t("filter_burners")}
+              title={t("filter_burners") || "Burners"}
               options={facets.burners}
-              value={burners}
-              onPick={(v) => {
-                setBurners(v);
-                reset();
-              }}
+              selected={selectedBurners}
+              onToggle={(k) => updateFilters({ burners: toggleInList(selectedBurners, k) })}
+              onClear={() => updateFilters({ burners: [] })}
             />
+
             <Group
-              title={t("filter_features")}
+              title={t("filter_features") || "Features"}
               options={facets.ignition}
-              value={ignition}
-              onPick={(v) => {
-                setIgnition(v);
-                reset();
-              }}
+              selected={selectedIgnitions}
+              onToggle={(k) => updateFilters({ ignitions: toggleInList(selectedIgnitions, k) })}
+              onClear={() => updateFilters({ ignitions: [] })}
             />
+
             <Group
-              title={t("filter_finish")}
+              title={t("filter_finish") || "Finish"}
               options={facets.finish}
-              value={finish}
-              onPick={(v) => {
-                setFinish(v);
-                reset();
-              }}
+              selected={selectedFinishes}
+              onToggle={(k) => updateFilters({ finishes: toggleInList(selectedFinishes, k) })}
+              onClear={() => updateFilters({ finishes: [] })}
             />
+
             <button className="btn btn-navy btn-block done-btn" onClick={() => setOpenFilters(false)}>
               {t("view_all")} ({results.length})
             </button>
           </aside>
 
           <div>
-            {active && (
-              <div className="strip" style={{ marginBottom: "var(--s5)" }}>
-                <div className="strip-txt">
-                  <p className="eyebrow">Sunshine</p>
-                  <h3>{tCat(active.key, active.label)}</h3>
-                  <p>Performance you can rely on.</p>
-                </div>
-                <span className="strip-art">
-                  <img src={active.img} alt="" />
-                </span>
-              </div>
-            )}
-
             <nav className="crumbs" aria-label="Breadcrumb">
               <Link to="/">{t("nav_home")}</Link>
               <Icon name="chev" size={13} />
-              {active ? <Link to="/products">{t("nav_products")}</Link> : <span>{t("nav_products")}</span>}
-              {active && (
+              <span>{t("nav_products")}</span>
+              {selectedCats.length === 1 && (
                 <>
                   <Icon name="chev" size={13} />
-                  <span>{tCat(active.key, active.label)}</span>
+                  <span>
+                    {tCat(
+                      selectedCats[0],
+                      CATEGORIES.find((c) => c.key === selectedCats[0])?.label
+                    )}
+                  </span>
                 </>
               )}
             </nav>
 
+            {/* Active Multi-Select Filter Pills Bar */}
+            {dirty && (
+              <div className="active-filters-bar" aria-label="Active filters">
+                {selectedCats.map((catKey) => {
+                  const catObj = CATEGORIES.find((c) => c.key === catKey);
+                  return (
+                    <span key={catKey} className="active-filter-pill">
+                      <span>{catObj ? tCat(catObj.key, catObj.label) : catKey}</span>
+                      <button
+                        type="button"
+                        onClick={() => updateFilters({ cats: selectedCats.filter((c) => c !== catKey) })}
+                        aria-label={`Remove category ${catKey}`}
+                      >
+                        <Icon name="close" size={12} />
+                      </button>
+                    </span>
+                  );
+                })}
+
+                {selectedBrands.map((b) => (
+                  <span key={b} className="active-filter-pill">
+                    <span>{b}</span>
+                    <button
+                      type="button"
+                      onClick={() => updateFilters({ brands: selectedBrands.filter((x) => x !== b) })}
+                      aria-label={`Remove brand ${b}`}
+                    >
+                      <Icon name="close" size={12} />
+                    </button>
+                  </span>
+                ))}
+
+                {selectedBurners.map((b) => (
+                  <span key={b} className="active-filter-pill">
+                    <span>{b} Burner</span>
+                    <button
+                      type="button"
+                      onClick={() => updateFilters({ burners: selectedBurners.filter((x) => x !== b) })}
+                      aria-label={`Remove ${b} burner filter`}
+                    >
+                      <Icon name="close" size={12} />
+                    </button>
+                  </span>
+                ))}
+
+                {selectedIgnitions.map((ig) => (
+                  <span key={ig} className="active-filter-pill">
+                    <span>{ig === "auto" ? "Auto Ignition" : "Manual"}</span>
+                    <button
+                      type="button"
+                      onClick={() => updateFilters({ ignitions: selectedIgnitions.filter((x) => x !== ig) })}
+                      aria-label={`Remove ${ig} filter`}
+                    >
+                      <Icon name="close" size={12} />
+                    </button>
+                  </span>
+                ))}
+
+                {selectedFinishes.map((f) => (
+                  <span key={f} className="active-filter-pill">
+                    <span>{f}</span>
+                    <button
+                      type="button"
+                      onClick={() => updateFilters({ finishes: selectedFinishes.filter((x) => x !== f) })}
+                      aria-label={`Remove finish ${f}`}
+                    >
+                      <Icon name="close" size={12} />
+                    </button>
+                  </span>
+                ))}
+
+                {onlyFavorites && (
+                  <span className="active-filter-pill" style={{ background: "#fee2e2", borderColor: "#fca5a5", color: "#b91c1c" }}>
+                    <span>♥ Saved Favorites</span>
+                    <button
+                      type="button"
+                      onClick={() => updateFilters({ saved: false })}
+                      aria-label="Remove saved filter"
+                      style={{ color: "#b91c1c" }}
+                    >
+                      <Icon name="close" size={12} />
+                    </button>
+                  </span>
+                )}
+
+                {q.trim() && (
+                  <span className="active-filter-pill">
+                    <span>“{q.trim()}”</span>
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setQ("");
+                        setVerbatimQ("");
+                        updateFilters({ query: "" });
+                      }}
+                      aria-label="Clear search query"
+                    >
+                      <Icon name="close" size={12} />
+                    </button>
+                  </span>
+                )}
+
+                <button type="button" className="clear-all-pill" onClick={clearAll}>
+                  {t("clear_filters") || "Clear all"}
+                </button>
+              </div>
+            )}
+
+            {/* Autocorrect Notice Banner */}
+            {isUsingAutocorrect && autocorrect && (
+              <div className="catalog-autocorrect-notice" role="status">
+                <div>
+                  <span>{t("showing_results_for") || "Showing results for"} <b>“{autocorrect}”</b></span>
+                  <span className="muted" style={{ marginLeft: "8px", fontSize: "0.82rem" }}>
+                    (No exact matches for “{q.trim()}”)
+                  </span>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setVerbatimQ(q.trim());
+                  }}
+                >
+                  {t("search_instead_for") || "Search instead for"} “{q.trim()}”
+                </button>
+              </div>
+            )}
+
             <div className="sec-head">
               <h2>
-                {active ? tCat(active.key, active.label) : t("cat_all")}{" "}
+                {selectedCats.length === 1
+                  ? tCat(
+                      selectedCats[0],
+                      CATEGORIES.find((c) => c.key === selectedCats[0])?.label
+                    )
+                  : selectedCats.length > 1
+                  ? `${selectedCats.length} Categories`
+                  : onlyFavorites
+                  ? t("favorites_title") || "Saved Favorites"
+                  : t("cat_all")}{" "}
                 <span className="muted" style={{ fontWeight: 500 }}>
                   ({results.length})
                 </span>
               </h2>
+
               <label className="sortby">
                 {t("sort_label")}
                 <select
@@ -314,10 +649,8 @@ export default function Products() {
                   <Icon name="search" size={24} />
                 </span>
                 <h3 className="h3">{t("no_products_found")}</h3>
-                <p className="muted">
-                  {t("no_products_sub")}
-                </p>
-                <button className="btn btn-navy" style={{ marginTop: "var(--s5)" }} onClick={clear}>
+                <p className="muted">{t("no_products_sub")}</p>
+                <button className="btn btn-navy" style={{ marginTop: "var(--s5)" }} onClick={clearAll}>
                   {t("clear_filters")}
                 </button>
               </div>

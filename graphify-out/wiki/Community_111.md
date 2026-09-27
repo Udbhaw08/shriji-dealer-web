@@ -4,30 +4,29 @@
 
 ## Key Concepts
 
-- **legendEntry** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **label** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **properties** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **visible** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **maxLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **minLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **minProperties** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **generate-codebase-doc.mjs** (10 connections) — `scripts/generate-codebase-doc.mjs`
+- **allFiles** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **apiFiles** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **components** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **dataStores** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **getFiles()** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **pages** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **pkg** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **rootDir** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **routes** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **scripts** (1 connections) — `scripts/generate-codebase-doc.mjs`
 
 ## Relationships
 
-- [[Community 57]] (1 shared connections)
-- [[Community 112]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `scripts/generate-codebase-doc.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

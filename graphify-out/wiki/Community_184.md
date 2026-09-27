@@ -1,28 +1,28 @@
 # Community 184
 
-> 7 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **preview.test.mjs** (8 connections) — `.agents/skills/archify/test/preview.test.mjs`
-- **stateAt()** (2 connections) — `.agents/skills/archify/test/preview.test.mjs`
-- **waitForState()** (2 connections) — `.agents/skills/archify/test/preview.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
-- **rawRequest()** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
+- **semantic-camera.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
+- **svg()** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
 
 ## Relationships
 
-- [[Community 49]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/preview.test.mjs`
+- `.agents/skills/archify/test/semantic-camera.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

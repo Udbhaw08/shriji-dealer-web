@@ -1,36 +1,33 @@
 # Community 108
 
-> 11 nodes · cohesion 0.24
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **i18n.js** (23 connections) — `src/data/i18n.js`
-- **setLanguage()** (3 connections) — `src/data/i18n.js`
-- **tCat()** (3 connections) — `src/data/i18n.js`
-- **emit()** (2 connections) — `src/data/i18n.js`
-- **toggleLanguage()** (2 connections) — `src/data/i18n.js`
-- **translations.js** (2 connections) — `src/data/translations.js`
-- **TRANSLATIONS** (2 connections) — `src/data/translations.js`
-- **currentLang** (1 connections) — `src/data/i18n.js`
-- **getInitialLang()** (1 connections) — `src/data/i18n.js`
-- **getLanguage()** (1 connections) — `src/data/i18n.js`
-- **listeners** (1 connections) — `src/data/i18n.js`
+- **entries** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **legend** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **mode** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **properties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- [[Community 41]] (6 shared connections)
-- [[Community 50]] (5 shared connections)
-- [[Community 56]] (3 shared connections)
-- [[Community 43]] (1 shared connections)
+- [[Community 67]] (1 shared connections)
+- [[Community 58]] (1 shared connections)
 
 ## Source Files
 
-- `src/data/i18n.js`
-- `src/data/translations.js`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

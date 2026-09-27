@@ -17,6 +17,7 @@ export const COMPANY = {
 export const NAV = [
   { to: "/", label: "Home" },
   { to: "/products", label: "Products" },
+  { to: "/favorites", label: "Favorites" },
   { to: "/schemes", label: "Schemes" },
   { to: "/support", label: "Support" },
 ];

@@ -1,11 +1,10 @@
 # Community 280
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **checkout-line-endings.test.mjs** (1 connections) — `.agents/skills/archify/test/checkout-line-endings.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/checkout-line-endings.test.mjs`
+- **cordova_plugins.js** (0 connections) — `ios/App/App/public/cordova_plugins.js`
 
 ## Relationships
 
@@ -13,11 +12,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/checkout-line-endings.test.mjs`
+- `ios/App/App/public/cordova_plugins.js`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

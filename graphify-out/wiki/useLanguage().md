@@ -1,23 +1,25 @@
 # useLanguage()
 
-> God node · 28 connections · `src/data/i18n.js`
+> God node · 32 connections · `src/data/i18n.js`
 
-**Community:** [[Community 41]]
+**Community:** [[Community 46]]
 
 ## Connections by Relation
 
 ### calls
 - [[Product()]] `EXTRACTED`
 - [[ProductCard()]] `EXTRACTED`
-- [[Home()]] `EXTRACTED`
 - [[Products()]] `EXTRACTED`
 - [[MobileBottomNav()]] `EXTRACTED`
+- [[Favorites()]] `EXTRACTED`
+- [[Home()]] `EXTRACTED`
 - [[CustomerPrice()]] `EXTRACTED`
+- [[Header()]] `EXTRACTED`
+- [[ProductSearchBar()]] `EXTRACTED`
 - [[Login()]] `EXTRACTED`
 - [[Schemes()]] `EXTRACTED`
 - [[AccountLink()]] `EXTRACTED`
 - [[Footer()]] `EXTRACTED`
-- [[Header()]] `EXTRACTED`
 - [[DealerPrice()]] `EXTRACTED`
 - [[UnderMaintenance()]] `EXTRACTED`
 - [[Support()]] `EXTRACTED`
@@ -30,13 +32,15 @@
 ### imports
 - [[ui.jsx]] `EXTRACTED`
 - [[Product.jsx]] `EXTRACTED`
-- [[Home.jsx]] `EXTRACTED`
-- [[Login.jsx]] `EXTRACTED`
-- [[ProductCard.jsx]] `EXTRACTED`
 - [[Products.jsx]] `EXTRACTED`
-- [[PriceBlock.jsx]] `EXTRACTED`
-- [[Support.jsx]] `EXTRACTED`
+- [[Home.jsx]] `EXTRACTED`
+- [[Favorites.jsx]] `EXTRACTED`
+- [[ProductCard.jsx]] `EXTRACTED`
+- [[Login.jsx]] `EXTRACTED`
 - [[MobileBottomNav.jsx]] `EXTRACTED`
+- [[PriceBlock.jsx]] `EXTRACTED`
+- [[ProductSearchBar.jsx]] `EXTRACTED`
+- [[Support.jsx]] `EXTRACTED`
 - [[Schemes.jsx]] `EXTRACTED`
 - [[UnderMaintenance.jsx]] `EXTRACTED`
 

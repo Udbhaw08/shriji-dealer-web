@@ -1,41 +1,41 @@
 # Community 66
 
-> 19 nodes · cohesion 0.11
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **properties** (9 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **sequence.schema.json** (7 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **participants** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **segments** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **cards** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **schema_version** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$id** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$schema** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **title** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **Authoring contract** (12 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Mode placement** (6 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Executable geometry rules** (3 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **authoring-contract.md** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Architecture** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Dataflow** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Engineering profile default** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Hand-placed fallback** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Language consistency** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Legend contract** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Lifecycle** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Repair order** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Repository evidence** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Schema lookup** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Sequence** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Spacing and labels** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Title hierarchy** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Visual preset default** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Workflow** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Workflow layout contracts** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
 
 ## Relationships
 
-- [[Community 105]] (4 shared connections)
-- [[Community 226]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/sequence.schema.json`
+- `.agents/skills/archify/references/authoring-contract.md`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (100%)
+- EXTRACTED: 38 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,37 +1,30 @@
 # Community 131
 
-> 9 nodes · cohesion 0.28
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **hd()** (17 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **d()** (6 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **ir()** (6 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **rr()** (5 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **gd()** (4 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **cd()** (3 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **sd()** (3 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **yd()** (3 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **kn()** (2 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **Primary Commands** (5 connections) — `.agents/skills/graphify/SKILL.md`
+- **Graphify Knowledge Graph Skill** (4 connections) — `.agents/skills/graphify/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **1. Query the Graph (Context-Efficient)** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **2. Trace Relationships (Shortest Path)** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **3. Explain a Node or Symbol** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **4. Update the Graph (AST Re-Extraction)** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **Key Output Artifacts in `graphify-out/`** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **Why Use Graphify** (1 connections) — `.agents/skills/graphify/SKILL.md`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (11 shared connections)
-- [[Live Pricing Audit Tool]] (5 shared connections)
-- [[Design System & UI Tokens]] (5 shared connections)
-- [[Dependencies & Package Config]] (4 shared connections)
-- [[Roles & Customer Sharing Spec]] (1 shared connections)
-- [[Community 86]] (1 shared connections)
-- [[Zoho Integration Skill]] (1 shared connections)
-- [[Community 34]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- `.agents/skills/graphify/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

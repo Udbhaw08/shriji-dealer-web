@@ -1,44 +1,44 @@
 # Community 86
 
-> 14 nodes · cohesion 0.16
+> 14 nodes · cohesion 0.30
 
 ## Key Concepts
 
-- **rp()** (15 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **g()** (11 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **si()** (8 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **dp()** (7 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **yp()** (7 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **kp()** (5 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **xp()** (4 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **y()** (4 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **bp()** (3 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **lf()** (3 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **op()** (3 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **ua()** (3 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **v()** (3 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **pt()** (2 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- **workflow-v2.mjs** (21 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **migrateWorkflowDocument()** (15 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **compileWorkflow()** (13 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **clone()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **legacyLayoutProbe()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **legacyRequirementProbe()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **expandableViewBox()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **requiredViewBoxFrom()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **schemaDiagnostics()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **workflow-semantic-contract.test.mjs** (3 connections) — `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
+- **diagnostic()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **result()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **serializeMigratedWorkflow()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **document()** (1 connections) — `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (17 shared connections)
-- [[Dependencies & Package Config]] (6 shared connections)
-- [[Live Pricing Audit Tool]] (5 shared connections)
-- [[Design System & UI Tokens]] (5 shared connections)
-- [[Community 31]] (5 shared connections)
-- [[Roles & Customer Sharing Spec]] (4 shared connections)
-- [[Community 34]] (3 shared connections)
-- [[Zoho Integration Skill]] (2 shared connections)
-- [[Community 131]] (1 shared connections)
+- [[Community 168]] (8 shared connections)
+- [[Product Pages Specification]] (4 shared connections)
+- [[Community 34]] (4 shared connections)
+- [[Community 35]] (3 shared connections)
+- [[Community 91]] (3 shared connections)
+- [[Community 101]] (2 shared connections)
+- [[Community 45]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- `.agents/skills/archify/migrations/workflow-v2.mjs`
+- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 78 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

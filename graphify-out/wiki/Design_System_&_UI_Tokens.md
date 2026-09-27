@@ -1,55 +1,53 @@
 # Design System & UI Tokens
 
-> 54 nodes · cohesion 0.08
+> 53 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **delete()** (18 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **ze()** (18 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **bt()** (17 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **jd()** (16 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **bd()** (10 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **kd()** (10 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **pn()** (10 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **yt()** (10 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **en()** (9 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **vd()** (9 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **gn()** (8 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **hn()** (8 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **je()** (8 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **k()** (8 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **mt()** (8 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **tn()** (8 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **md()** (7 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **nn()** (7 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **rn()** (7 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **xd()** (7 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **ad()** (6 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **dd()** (6 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **mn()** (6 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **qt()** (6 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- **rd()** (6 connections) — `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
-- *... and 29 more nodes in this community*
+- **Z()** (23 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **Au()** (16 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **yi()** (12 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **hu()** (11 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **vu()** (11 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **xl()** (11 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **ql()** (10 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **sl()** (10 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **Cu()** (9 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **pu()** (8 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **Sp()** (8 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **jl()** (7 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **ju()** (7 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **Zl()** (7 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **Bo()** (6 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **Lu()** (6 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **mu()** (6 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **Nd()** (6 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **zu()** (6 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **Iu()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **kl()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **Ma()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **mn()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **Ou()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **rl()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- *... and 28 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (67 shared connections)
-- [[Zoho Integration Skill]] (13 shared connections)
-- [[Dependencies & Package Config]] (12 shared connections)
-- [[Roles & Customer Sharing Spec]] (9 shared connections)
-- [[Community 34]] (7 shared connections)
-- [[Live Pricing Audit Tool]] (6 shared connections)
-- [[Community 131]] (5 shared connections)
-- [[Community 86]] (5 shared connections)
-- [[Community 31]] (4 shared connections)
+- [[Price Presentation & Product UI]] (58 shared connections)
+- [[Zoho Integration Architecture]] (18 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (14 shared connections)
+- [[Oxlint Linter Configuration]] (10 shared connections)
+- [[Community 56]] (6 shared connections)
+- [[Community 29]] (4 shared connections)
+- [[Roles & Customer Sharing Spec]] (3 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BgdMok-w.js`
+- `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
 
 ## Audit Trail
 
-- EXTRACTED: 350 (100%)
+- EXTRACTED: 307 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

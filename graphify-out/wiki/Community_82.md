@@ -1,41 +1,44 @@
 # Community 82
 
-> 15 nodes · cohesion 0.17
+> 15 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **dealer.test.mjs** (18 connections) — `src/data/dealer.test.mjs`
-- **isDealer()** (15 connections) — `src/data/dealer.js`
-- **dealerById()** (9 connections) — `src/data/dealer.js`
-- **viewerFor()** (8 connections) — `src/data/dealer.js`
-- **AccountLink()** (6 connections) — `src/ui.jsx`
-- **tierOf()** (4 connections) — `src/data/dealer.js`
-- **DEALERS** (3 connections) — `src/data/dealer.js`
-- **approved** (1 connections) — `src/data/dealer.test.mjs`
-- **customer** (1 connections) — `src/data/dealer.test.mjs`
-- **guest** (1 connections) — `src/data/dealer.test.mjs`
-- **link** (1 connections) — `src/data/dealer.test.mjs`
-- **paramsWithState** (1 connections) — `src/data/dealer.test.mjs`
-- **pending** (1 connections) — `src/data/dealer.test.mjs`
-- **TEST_PRODUCTS** (1 connections) — `src/data/dealer.test.mjs`
-- **viewWithState** (1 connections) — `src/data/dealer.test.mjs`
+- **Products.jsx** (25 connections) — `src/pages/Products.jsx`
+- **ProductSearchBar.jsx** (15 connections) — `src/components/ProductSearchBar.jsx`
+- **useProducts()** (12 connections) — `src/data/productsStore.js`
+- **searchHelper.js** (11 connections) — `src/data/searchHelper.js`
+- **ProductSearchBar()** (6 connections) — `src/components/ProductSearchBar.jsx`
+- **getSuggestions()** (5 connections) — `src/data/searchHelper.js`
+- **autocorrectQuery()** (4 connections) — `src/data/searchHelper.js`
+- **buildSearchDictionary()** (4 connections) — `src/data/searchHelper.js`
+- **useProduct()** (2 connections) — `src/data/productsStore.js`
+- **getPopularSearches()** (2 connections) — `src/data/searchHelper.js`
+- **scoreProduct()** (2 connections) — `src/data/searchHelper.js`
+- **COLLOQUIAL_SYNONYMS** (1 connections) — `src/data/searchHelper.js`
+- **levenshteinDistance()** (1 connections) — `src/data/searchHelper.js`
+- **Group()** (1 connections) — `src/pages/Products.jsx`
+- **SORT_FNS** (1 connections) — `src/pages/Products.jsx`
 
 ## Relationships
 
-- [[Community 50]] (16 shared connections)
-- [[Community 56]] (9 shared connections)
-- [[Community 43]] (5 shared connections)
-- [[Community 41]] (5 shared connections)
+- [[Community 46]] (12 shared connections)
+- [[Community 30]] (11 shared connections)
+- [[Community 43]] (7 shared connections)
+- [[Community 47]] (5 shared connections)
+- [[Community 107]] (2 shared connections)
+- [[Community 106]] (1 shared connections)
 
 ## Source Files
 
-- `src/data/dealer.js`
-- `src/data/dealer.test.mjs`
-- `src/ui.jsx`
+- `src/components/ProductSearchBar.jsx`
+- `src/data/productsStore.js`
+- `src/data/searchHelper.js`
+- `src/pages/Products.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 71 (100%)
+- EXTRACTED: 92 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

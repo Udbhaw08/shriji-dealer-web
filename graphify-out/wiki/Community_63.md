@@ -1,41 +1,45 @@
 # Community 63
 
-> 20 nodes · cohesion 0.10
+> 21 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **Authoring contract** (12 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Mode placement** (6 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Executable geometry rules** (3 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **authoring-contract.md** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Architecture** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Dataflow** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Engineering profile default** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Hand-placed fallback** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Language consistency** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Legend contract** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Lifecycle** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Repair order** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Repository evidence** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Schema lookup** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Sequence** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Spacing and labels** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Title hierarchy** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Visual preset default** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Workflow** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Workflow layout contracts** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **properties** (12 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **meta** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **lanes** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **mainPath** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **nodes** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **cards** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **schema_version** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 87]] (5 shared connections)
+- [[Community 62]] (2 shared connections)
+- [[Community 123]] (1 shared connections)
+- [[Community 31]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/references/authoring-contract.md`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
+- EXTRACTED: 49 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

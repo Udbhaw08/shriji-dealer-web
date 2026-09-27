@@ -1,36 +1,34 @@
 # Community 102
 
-> 13 nodes · cohesion 0.21
+> 12 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **semantic-radar.test.mjs** (15 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **evaluate()** (5 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **dragMouse()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **loadArtifact()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **observe()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **radarRects()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **overlaps()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **guidedViews** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **cards** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **additionalProperties** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **required** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- [[Graphify Workflow]] (1 shared connections)
-- [[Community 104]] (1 shared connections)
-- [[Community 87]] (1 shared connections)
+- [[Community 110]] (3 shared connections)
+- [[Community 59]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/semantic-radar.test.mjs`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 33 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

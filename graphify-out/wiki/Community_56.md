@@ -1,57 +1,51 @@
 # Community 56
 
-> 22 nodes · cohesion 0.20
+> 23 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **main.jsx** (29 connections) — `src/main.jsx`
-- **useSession()** (22 connections) — `src/data/session.js`
-- **t()** (18 connections) — `src/data/i18n.js`
-- **MobileBottomNav.jsx** (14 connections) — `src/components/MobileBottomNav.jsx`
-- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
-- **portalGate.js** (8 connections) — `src/data/portalGate.js`
-- **Home()** (8 connections) — `src/pages/Home.jsx`
-- **Products()** (8 connections) — `src/pages/Products.jsx`
-- **MobileBottomNav()** (7 connections) — `src/components/MobileBottomNav.jsx`
-- **Login()** (6 connections) — `src/pages/Login.jsx`
-- **Schemes()** (6 connections) — `src/pages/Schemes.jsx`
-- **Footer()** (6 connections) — `src/ui.jsx`
-- **Header()** (6 connections) — `src/ui.jsx`
-- **ErrorBoundary** (5 connections) — `src/main.jsx`
-- **ConditionalBottomNav()** (3 connections) — `src/main.jsx`
-- **RequireVerifiedDealer()** (3 connections) — `src/main.jsx`
-- **.componentDidCatch()** (1 connections) — `src/main.jsx`
-- **.constructor()** (1 connections) — `src/main.jsx`
-- **.getDerivedStateFromError()** (1 connections) — `src/main.jsx`
-- **.render()** (1 connections) — `src/main.jsx`
-- **FloatingWhatsApp()** (1 connections) — `src/main.jsx`
-- **ScrollManager()** (1 connections) — `src/main.jsx`
+- **vl()** (28 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **Ce()** (16 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **yl()** (15 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **bl()** (11 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **je()** (8 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **ca()** (7 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **Io()** (6 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **ke()** (6 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **ko()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **ln()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **p()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **va()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **zo()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **hl()** (4 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **ml()** (4 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **ta()** (4 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **ep()** (3 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **Hc()** (3 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **Ud()** (3 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **we()** (3 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **Ym()** (3 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **fa()** (2 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **Wf()** (2 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
 
 ## Relationships
 
-- [[Community 41]] (36 shared connections)
-- [[Community 50]] (21 shared connections)
-- [[Community 82]] (9 shared connections)
-- [[Community 43]] (6 shared connections)
-- [[Community 108]] (3 shared connections)
+- [[Price Presentation & Product UI]] (25 shared connections)
+- [[Roles & Customer Sharing Spec]] (10 shared connections)
+- [[Zoho Integration Architecture]] (7 shared connections)
+- [[Community 29]] (6 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (6 shared connections)
+- [[Design System & UI Tokens]] (6 shared connections)
+- [[Oxlint Linter Configuration]] (3 shared connections)
 
 ## Source Files
 
-- `src/components/MobileBottomNav.jsx`
-- `src/data/i18n.js`
-- `src/data/portalGate.js`
-- `src/data/session.js`
-- `src/main.jsx`
-- `src/pages/Home.jsx`
-- `src/pages/Login.jsx`
-- `src/pages/Products.jsx`
-- `src/pages/Schemes.jsx`
-- `src/ui.jsx`
+- `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
 
 ## Audit Trail
 
-- EXTRACTED: 168 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 153 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

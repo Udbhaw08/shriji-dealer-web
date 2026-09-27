@@ -1,15 +1,17 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { Link, useNavigate, useParams, useSearchParams } from "react-router-dom";
+import { Link, useParams, useSearchParams } from "react-router-dom";
 import { useProducts } from "../data/productsStore";
 import { COMPANY } from "../data/site";
-import { registerDealer, shareLink, tagFor, viewerFor, inr, priceFor, slugifyProduct, productSlug } from "../data/dealer";
+import { registerDealer, shareLink, tagFor, viewerFor, inr, priceFor, slugifyProduct } from "../data/dealer";
 import { useSession } from "../data/session";
 import { Icon } from "../ui";
 import { useLanguage } from "../data/i18n";
 import ProductCard from "../components/ProductCard";
 import PriceBlock from "../components/PriceBlock";
+import ProductSearchBar from "../components/ProductSearchBar";
+import { useFavorites } from "../data/favoritesStore";
 import { isPortalGated } from "../data/portalGate";
-import { apiFetch, apiUrl } from "../data/api";
+import { apiFetch } from "../data/api";
 
 /* Feature boxes mirror the mockup: icon over a two-line label. */
 function featureBoxes(p, t) {
@@ -40,51 +42,9 @@ export default function Product() {
   const { products: PRODUCTS, loaded } = useProducts();
   const { t, tCat } = useLanguage();
   const [fetchedProduct, setFetchedProduct] = useState(null);
-
-  const [searchQ, setSearchQ] = useState("");
-  const [searchOpen, setSearchOpen] = useState(false);
-  const searchWrapRef = useRef(null);
-
-  const searchMatches = useMemo(() => {
-    const q = searchQ.trim().toLowerCase();
-    if (!q) return [];
-    return PRODUCTS.filter(
-      (item) =>
-        (item.model && item.model.toLowerCase().includes(q)) ||
-        (item.name && item.name.toLowerCase().includes(q)) ||
-        (item.catLabel && item.catLabel.toLowerCase().includes(q)) ||
-        (item.features && item.features.some((f) => f.toLowerCase().includes(q)))
-    ).slice(0, 6);
-  }, [searchQ, PRODUCTS]);
-
-  useEffect(() => {
-    const handleOutside = (e) => {
-      if (searchWrapRef.current && !searchWrapRef.current.contains(e.target)) {
-        setSearchOpen(false);
-      }
-    };
-    document.addEventListener("mousedown", handleOutside);
-    document.addEventListener("touchstart", handleOutside);
-    return () => {
-      document.removeEventListener("mousedown", handleOutside);
-      document.removeEventListener("touchstart", handleOutside);
-    };
-  }, []);
-
-  const handleSearchSubmit = (e) => {
-    e.preventDefault();
-    if (!searchQ.trim()) return;
-    setSearchOpen(false);
-    navigate(`/products?q=${encodeURIComponent(searchQ.trim())}`);
-  };
+  const { isFavorite, toggleFavorite } = useFavorites();
 
   const pid = params.get("pid");
-
-  const handleSelectProduct = (prodIdOrSlug) => {
-    setSearchQ("");
-    setSearchOpen(false);
-    navigate(`/products/${prodIdOrSlug}`);
-  };
 
   useEffect(() => {
     const lookupKey = pid || id;
@@ -369,6 +329,18 @@ export default function Product() {
             </Link>
           )}
           <span className="app-mobile-title">{displayTitle}</span>
+          {p && (
+            <button
+              type="button"
+              onClick={() => toggleFavorite(p.id)}
+              className="app-mobile-icon-btn"
+              style={isFavorite(p.id) ? { color: "#d64545" } : undefined}
+              aria-label={isFavorite(p.id) ? "Remove from favorites" : "Save to favorites"}
+              title={isFavorite(p.id) ? "Remove from favorites" : "Save to favorites"}
+            >
+              <Icon name="heart" size={17} style={isFavorite(p.id) ? { fill: "#d64545" } : undefined} />
+            </button>
+          )}
           <button type="button" onClick={share} className="app-mobile-icon-btn" aria-label="Share product">
             <Icon name="share" size={17} />
           </button>
@@ -389,76 +361,11 @@ export default function Product() {
 
           {!isGated && (
             <div className="product-top-actions">
-              <div className="product-top-search" ref={searchWrapRef}>
-                <form onSubmit={handleSearchSubmit} className="search search-top" role="search">
-                  <Icon name="search" size={16} style={{ color: "var(--tx-3)", flexShrink: 0 }} />
-                  <input
-                    type="search"
-                    value={searchQ}
-                    onChange={(e) => {
-                      setSearchQ(e.target.value);
-                      setSearchOpen(true);
-                    }}
-                    onFocus={() => setSearchOpen(true)}
-                    placeholder={t("search_placeholder") || "Search products or models…"}
-                    aria-label="Search another product"
-                  />
-                  {searchQ && (
-                    <button
-                      type="button"
-                      className="search-clear"
-                      onClick={() => setSearchQ("")}
-                      aria-label="Clear search"
-                    >
-                      <Icon name="close" size={14} />
-                    </button>
-                  )}
-                </form>
-
-                {searchOpen && searchQ.trim().length > 0 && (
-                  <div className="search-drop">
-                    {searchMatches.length > 0 ? (
-                      <>
-                        <div className="search-drop-list">
-                          {searchMatches.map((m) => (
-                            <button
-                              type="button"
-                              key={m.id}
-                              className="search-drop-item"
-                              onClick={() => handleSelectProduct(m.slug || productSlug(m) || m.id)}
-                            >
-                              <span className="search-drop-thumb">
-                                {m.img ? (
-                                  <img src={m.img.startsWith("http") ? m.img : `/img/${m.img}`} alt="" />
-                                ) : (
-                                  <Icon name="stove" size={18} />
-                                )}
-                              </span>
-                              <span className="search-drop-info">
-                                <b>{m.model && m.model.toLowerCase() !== "test" ? m.model : m.name}</b>
-                                <small>{m.catLabel || m.size || m.finish}</small>
-                              </span>
-                              <Icon name="chev" size={13} className="search-drop-arrow" />
-                            </button>
-                          ))}
-                        </div>
-                        <button
-                          type="button"
-                          className="search-drop-all"
-                          onClick={handleSearchSubmit}
-                        >
-                          <span>{t("view_all")} results for “{searchQ.trim()}”</span>
-                          <Icon name="arrowsm" size={15} />
-                        </button>
-                      </>
-                    ) : (
-                      <div className="search-drop-empty">
-                        <span>No products found for “{searchQ.trim()}”</span>
-                      </div>
-                    )}
-                  </div>
-                )}
-              </div>
+              <ProductSearchBar
+                autoNavigate={true}
+                placeholder={t("search_placeholder") || "Search products or models…"}
+                style={{ width: "280px" }}
+              />
 
               <button
                 type="button"
@@ -610,6 +517,15 @@ export default function Product() {
                 </a>
                 <button className="btn btn-ghost" onClick={share}>
                   <Icon name="share" /> {copied ? t("link_copied") : t("share_with_customer")}
+                </button>
+                <button
+                  type="button"
+                  className={`btn ${isFavorite(p.id) ? "btn-navy" : "btn-ghost"}`}
+                  onClick={() => toggleFavorite(p.id)}
+                  style={isFavorite(p.id) ? { background: "#d64545", borderColor: "#d64545", color: "#fff" } : undefined}
+                >
+                  <Icon name="heart" size={17} style={isFavorite(p.id) ? { fill: "#fff" } : undefined} />
+                  <span>{isFavorite(p.id) ? (t("filter_saved_only") || "Saved to Favorites") : "Save to Favorites"}</span>
                 </button>
                 {/* Hidden for now — will use this feature later */}
                 {/* <Link className="btn btn-ghost" to="/schemes">

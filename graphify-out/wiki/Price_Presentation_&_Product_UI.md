@@ -1,56 +1,54 @@
 # Price Presentation & Product UI
 
-> 103 nodes · cohesion 0.03
+> 101 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **_()** (441 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **w()** (14 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **dt()** (9 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **nm()** (9 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **request()** (7 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **bf()** (5 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **eo()** (5 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **lt()** (5 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **rm()** (5 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **um()** (5 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **unavailable()** (5 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **xl()** (5 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **cm()** (4 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **df()** (4 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **jo()** (4 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **mo()** (4 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **od()** (4 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **qf()** (4 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **qn()** (4 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **qo()** (4 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **xf()** (4 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **y()** (4 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **yf()** (4 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **zf()** (4 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **addListener()** (3 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- *... and 78 more nodes in this community*
+- **_()** (444 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **kf()** (23 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **Lr()** (12 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **delete()** (11 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **Xr()** (10 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **Ar()** (9 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **ni()** (8 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **request()** (8 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **gf()** (7 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **hi()** (7 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **sf()** (6 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **Dr()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **eh()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **Gr()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **ir()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **mt()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **th()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **unavailable()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **wn()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **Wr()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **xs()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **yr()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **ze()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **aa()** (4 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **br()** (4 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- *... and 76 more nodes in this community*
 
 ## Relationships
 
-- [[Product Pages Specification]] (71 shared connections)
-- [[Zoho API Diagnostic Script]] (49 shared connections)
-- [[Oxlint Linter Configuration]] (45 shared connections)
-- [[Mobile Responsive UI Skill]] (43 shared connections)
-- [[Community 44]] (36 shared connections)
-- [[Graphify Agent Rules]] (36 shared connections)
-- [[Community 35]] (33 shared connections)
-- [[Community 42]] (29 shared connections)
-- [[Community 70]] (22 shared connections)
-- [[Community 83]] (20 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (104 shared connections)
+- [[Roles & Customer Sharing Spec]] (63 shared connections)
+- [[Design System & UI Tokens]] (58 shared connections)
+- [[Zoho Integration Architecture]] (57 shared connections)
+- [[Oxlint Linter Configuration]] (54 shared connections)
+- [[Community 29]] (44 shared connections)
+- [[Community 56]] (25 shared connections)
+- [[Community 92]] (13 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BgdMok-w.js`
+- `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
 
 ## Audit Trail
 
-- EXTRACTED: 713 (100%)
+- EXTRACTED: 781 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

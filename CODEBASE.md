@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-09-27T22:09:35.592Z
-> Total Project Files: 810
+> Last synchronized: 2026-09-27T22:30:57.991Z
+> Total Project Files: 815
 
 ---
 
@@ -81,18 +81,20 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 ## 4. Codebase Directory Map
 
 ### 4.1 Pages (`src/pages/`)
+- **`src/pages/Favorites.jsx`** (6.7 KB)
 - **`src/pages/Home.jsx`** (18.5 KB)
 - **`src/pages/Login.jsx`** (24.3 KB)
-- **`src/pages/Product.jsx`** (26.6 KB)
-- **`src/pages/Products.jsx`** (12.5 KB)
+- **`src/pages/Product.jsx`** (23.4 KB)
+- **`src/pages/Products.jsx`** (24.4 KB)
 - **`src/pages/Schemes.jsx`** (7.4 KB)
 - **`src/pages/Support.jsx`** (4.7 KB)
 
 ### 4.2 Reusable Components (`src/components/` & `src/ui.jsx`)
 - **`src/components/HeroSlider.jsx`** (5.8 KB)
-- **`src/components/MobileBottomNav.jsx`** (3.6 KB)
+- **`src/components/MobileBottomNav.jsx`** (4.4 KB)
 - **`src/components/PriceBlock.jsx`** (5.2 KB)
-- **`src/components/ProductCard.jsx`** (2.9 KB)
+- **`src/components/ProductCard.jsx`** (3.1 KB)
+- **`src/components/ProductSearchBar.jsx`** (13.4 KB)
 - **`src/components/UnderMaintenance.jsx`** (2.1 KB)
 - **`src/ui.jsx`**: Core UI components (Header, Footer, Icon, Search, CategoryCarousel).
 
@@ -100,14 +102,16 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/data/api.js`** (1.7 KB)
 - **`src/data/dealer.js`** (8.4 KB)
 - **`src/data/dealer.test.mjs`** (4.2 KB)
+- **`src/data/favoritesStore.js`** (2.3 KB)
 - **`src/data/i18n.js`** (1.7 KB)
 - **`src/data/portalGate.js`** (0.8 KB)
 - **`src/data/pricing.test.mjs`** (4.2 KB)
 - **`src/data/products.js`** (1.1 KB)
 - **`src/data/productsStore.js`** (3.6 KB)
+- **`src/data/searchHelper.js`** (9.8 KB)
 - **`src/data/session.js`** (2.5 KB)
-- **`src/data/site.js`** (4.5 KB)
-- **`src/data/translations.js`** (28.5 KB)
+- **`src/data/site.js`** (4.6 KB)
+- **`src/data/translations.js`** (30.7 KB)
 
 ### 4.4 Zoho API & Serverless Handlers (`api/`)
 - **`api/dealer/apply.js`** (1.0 KB)

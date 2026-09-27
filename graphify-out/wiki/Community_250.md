@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **id** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **pattern** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **label** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- [[Community 57]] (1 shared connections)
+- [[Claude Agent Instructions]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 

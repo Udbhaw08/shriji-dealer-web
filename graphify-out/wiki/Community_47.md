@@ -1,60 +1,56 @@
 # Community 47
 
-> 25 nodes · cohesion 0.16
+> 25 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **.send()** (54 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **semantic-lens-browser.test.mjs** (14 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **export-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **motion-governor-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **run()** (6 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **point()** (4 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **record()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **media()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **screenshot()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **move()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **hash()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **session.js** (26 connections) — `src/data/session.js`
+- **productsStore.js** (19 connections) — `src/data/productsStore.js`
+- **Login.jsx** (18 connections) — `src/pages/Login.jsx`
+- **apiFetch()** (8 connections) — `src/data/api.js`
+- **apiUrl()** (8 connections) — `src/data/api.js`
+- **api.js** (6 connections) — `src/data/api.js`
+- **registerDealer()** (6 connections) — `src/data/dealer.js`
+- **setSession()** (5 connections) — `src/data/session.js`
+- **fetchLiveProducts()** (4 connections) — `src/data/productsStore.js`
+- **products.js** (3 connections) — `src/data/products.js`
+- **revalidateSession()** (3 connections) — `src/data/session.js`
+- **signOut()** (3 connections) — `src/data/session.js`
+- **CATEGORIES** (2 connections) — `src/data/products.js`
+- **emit()** (2 connections) — `src/data/productsStore.js`
+- **loadCached()** (2 connections) — `src/data/productsStore.js`
+- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
+- **emit()** (2 connections) — `src/data/session.js`
+- **load()** (2 connections) — `src/data/session.js`
+- **PRODUCTS** (1 connections) — `src/data/products.js`
+- **listeners** (1 connections) — `src/data/productsStore.js`
+- **PREFERRED_ORDER** (1 connections) — `src/data/productsStore.js`
+- **storeState** (1 connections) — `src/data/productsStore.js`
+- **GUEST** (1 connections) — `src/data/session.js`
+- **state** (1 connections) — `src/data/session.js`
+- **subs** (1 connections) — `src/data/session.js`
 
 ## Relationships
 
-- [[Community 88]] (9 shared connections)
-- [[Community 65]] (8 shared connections)
-- [[Community 87]] (7 shared connections)
-- [[Community 104]] (6 shared connections)
-- [[Community 100]] (5 shared connections)
-- [[Community 101]] (5 shared connections)
-- [[Community 115]] (4 shared connections)
-- [[Community 149]] (4 shared connections)
-- [[Graphify Workflow]] (3 shared connections)
-- [[Community 74]] (1 shared connections)
-- [[Community 171]] (1 shared connections)
+- [[Community 30]] (14 shared connections)
+- [[Community 46]] (10 shared connections)
+- [[Community 43]] (8 shared connections)
+- [[Community 82]] (5 shared connections)
+- [[Community 107]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/export-browser.test.mjs`
-- `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- `src/data/api.js`
+- `src/data/dealer.js`
+- `src/data/products.js`
+- `src/data/productsStore.js`
+- `src/data/session.js`
+- `src/pages/Login.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 145 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 128 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,14 +1,13 @@
 # Community 216
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **render-examples.mjs** (4 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
-- **outputRoot** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
-- **TARGETS** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
+- **Shriji Dealer Web — Agent Guidelines** (3 connections) — `AGENTS.md`
+- **AGENTS.md** (1 connections) — `AGENTS.md`
+- **Hard Rules** (1 connections) — `AGENTS.md`
+- **Specialized Skills Available** (1 connections) — `AGENTS.md`
 
 ## Relationships
 
@@ -16,11 +15,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/render-examples.mjs`
+- `AGENTS.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

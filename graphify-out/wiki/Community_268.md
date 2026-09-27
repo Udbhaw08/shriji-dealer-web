@@ -1,11 +1,10 @@
 # Community 268
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **Package.swift** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
-- **PackageDescription** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
+- **cordova.js** (0 connections) — `android/app/src/main/assets/public/cordova.js`
 
 ## Relationships
 
@@ -13,11 +12,11 @@
 
 ## Source Files
 
-- `ios/App/CapApp-SPM/Package.swift`
+- `android/app/src/main/assets/public/cordova.js`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

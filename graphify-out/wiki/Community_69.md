@@ -1,39 +1,41 @@
 # Community 69
 
-> 18 nodes · cohesion 0.11
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **DESIGN.md — the design system as actually built** (8 connections) — `docs/DESIGN.md`
-- **4. Components already built — reuse these** (7 connections) — `docs/DESIGN.md`
-- **2. Tokens** (4 connections) — `docs/DESIGN.md`
-- **DESIGN.md** (1 connections) — `docs/DESIGN.md`
-- **1. The direction in one paragraph** (1 connections) — `docs/DESIGN.md`
-- **3. Layout primitives** (1 connections) — `docs/DESIGN.md`
-- **5. Icons** (1 connections) — `docs/DESIGN.md`
-- **6. Responsive rules** (1 connections) — `docs/DESIGN.md`
-- **7. Motion and accessibility** (1 connections) — `docs/DESIGN.md`
-- **Actions** (1 connections) — `docs/DESIGN.md`
-- **Colour** (1 connections) — `docs/DESIGN.md`
-- **Content** (1 connections) — `docs/DESIGN.md`
-- **Detail** (1 connections) — `docs/DESIGN.md`
-- **Listing sidebar** (1 connections) — `docs/DESIGN.md`
-- **Navigation and filtering** (1 connections) — `docs/DESIGN.md`
-- **Product** (1 connections) — `docs/DESIGN.md`
-- **Spacing, radius, shadow, motion** (1 connections) — `docs/DESIGN.md`
-- **Type** (1 connections) — `docs/DESIGN.md`
+- **properties** (9 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **sequence.schema.json** (7 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **participants** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **segments** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **cards** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **schema_version** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$id** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$schema** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **title** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 103]] (4 shared connections)
+- [[Community 223]] (1 shared connections)
 
 ## Source Files
 
-- `docs/DESIGN.md`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
+- EXTRACTED: 41 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

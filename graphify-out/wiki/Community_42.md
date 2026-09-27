@@ -1,55 +1,48 @@
 # Community 42
 
-> 29 nodes · cohesion 0.11
+> 29 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **pc()** (27 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **_e()** (13 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **ai()** (12 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **hc()** (8 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **jp()** (7 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **mc()** (7 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **pi()** (7 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **ma()** (6 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **bu()** (5 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **ha()** (5 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **lu()** (5 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **we()** (5 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **xe()** (5 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **aa()** (4 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **ga()** (4 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **os()** (4 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **ta()** (4 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **ui()** (4 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **ws()** (4 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **cc()** (3 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **fd()** (3 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **ip()** (3 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **lc()** (3 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **pd()** (3 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **ap()** (2 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
+- **AppDelegate** (10 connections) — `ios/App/App/AppDelegate.swift`
+- **.application()** (7 connections) — `ios/App/App/AppDelegate.swift`
+- **.scene()** (7 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIApplication** (6 connections) — `ios/App/App/AppDelegate.swift`
+- **SceneDelegate** (5 connections) — `ios/App/App/SceneDelegate.swift`
+- **AppDelegate.swift** (3 connections) — `ios/App/App/AppDelegate.swift`
+- **SceneDelegate.swift** (3 connections) — `ios/App/App/SceneDelegate.swift`
+- **.applicationDidBecomeActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationDidEnterBackground()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillEnterForeground()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillResignActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillTerminate()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **Capacitor** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIWindow** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIKit** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIResponder** (2 connections)
+- **Any** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **Bool** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIScene** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UISceneSession** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIWindow** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIScene** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **UISceneSession** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **NSUserActivity** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **Set** (1 connections) — `ios/App/App/SceneDelegate.swift`
 - *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (29 shared connections)
-- [[Mobile Responsive UI Skill]] (11 shared connections)
-- [[Product Pages Specification]] (9 shared connections)
-- [[Graphify Agent Rules]] (8 shared connections)
-- [[Oxlint Linter Configuration]] (7 shared connections)
-- [[Zoho API Diagnostic Script]] (3 shared connections)
-- [[Community 35]] (3 shared connections)
-- [[Community 83]] (3 shared connections)
-- [[Community 44]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BgdMok-w.js`
+- `ios/App/App/AppDelegate.swift`
+- `ios/App/App/SceneDelegate.swift`
 
 ## Audit Trail
 
-- EXTRACTED: 161 (100%)
+- EXTRACTED: 72 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,33 +1,29 @@
 # Community 149
 
-> 9 nodes · cohesion 0.33
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **viewer-camera-browser.test.mjs** (11 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **run()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **stable()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **viewport()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **screenshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **animation.test.mjs** (7 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **NODE_COLLECTION** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **svgBlock()** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
 
 ## Relationships
 
-- [[Community 47]] (4 shared connections)
-- [[Graphify Workflow]] (1 shared connections)
-- [[Community 104]] (1 shared connections)
-- [[Community 87]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- `.agents/skills/archify/test/animation.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

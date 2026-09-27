@@ -1,29 +1,27 @@
 # Community 192
 
-> 7 nodes · cohesion 0.29
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **settled-flow.test.mjs** (8 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **Third-party notices** (5 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
+- **THIRD_PARTY_NOTICES.md** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
+- **JetBrains Mono** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
+- **No additional rights granted** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
+- **OpenAI mark** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
+- **Simple Icons** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
 
 ## Relationships
 
-- [[Client Products Data Store]] (1 shared connections)
-- [[Zoho Integration Architecture]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/settled-flow.test.mjs`
+- `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

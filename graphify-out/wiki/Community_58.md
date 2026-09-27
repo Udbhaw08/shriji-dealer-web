@@ -1,40 +1,41 @@
 # Community 58
 
-> 21 nodes · cohesion 0.10
+> 23 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **properties** (15 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **from** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **to** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **brand** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **id** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **note** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **participant** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **sublabel** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **variant** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **properties** (8 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **layout** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **cols** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **cellH** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **cellW** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **gapX** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **gapY** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **origin** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **maximum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- [[Community 105]] (4 shared connections)
-- [[Community 257]] (1 shared connections)
-- [[Community 259]] (1 shared connections)
+- [[Community 108]] (1 shared connections)
+- [[Community 61]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/sequence.schema.json`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 

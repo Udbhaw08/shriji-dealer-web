@@ -1,32 +1,34 @@
 # Community 113
 
-> 11 nodes · cohesion 0.18
+> 11 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **generate-codebase-doc.mjs** (10 connections) — `scripts/generate-codebase-doc.mjs`
-- **allFiles** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **apiFiles** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **components** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **dataStores** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **getFiles()** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **pages** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **pkg** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **rootDir** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **routes** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **scripts** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **reader-layout-browser.test.mjs** (13 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **load()** (6 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **evaluate()** (5 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **stable()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **viewport()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **inactive()** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **variant()** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 36]] (5 shared connections)
+- [[Community 41]] (1 shared connections)
+- [[Community 129]] (1 shared connections)
 
 ## Source Files
 
-- `scripts/generate-codebase-doc.mjs`
+- `.agents/skills/archify/test/reader-layout-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 39 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **title** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minLength** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- [[Community 77]] (1 shared connections)
+- [[Community 54]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 

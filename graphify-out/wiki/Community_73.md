@@ -1,44 +1,43 @@
 # Community 73
 
-> 18 nodes · cohesion 0.23
+> 18 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **output-path.mjs** (22 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **resolveOutputPath()** (11 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **futurePathsAlias()** (6 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **pathsAlias()** (6 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **canonicalFuturePath()** (5 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **sameFileIdentity()** (5 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **probeDirectorySemantics()** (4 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **canonicalize()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **directoryIdentityKey()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **hasFileIdentity()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **pathIsInside()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **probeNamesAlias()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **sameDirectory()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **nearestExistingDirectory()** (2 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **OutputPathError** (2 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **splitAbsolute()** (2 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **directorySemanticsCache** (1 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **.constructor()** (1 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **checkForUpdate()** (19 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **commitOperation()** (14 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **acknowledgeUpdate()** (13 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cancelOperation()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **resultForCandidate()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **silent()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **readState()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **resultAfterLosingOperation()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **readJsonFile()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **transitionOperation()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **operationOwnsActiveClaim()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **runCli()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **freshStateResult()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **versionCacheDirectory()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertBoundedRegularFile()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **digestForEventKey()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **fetchCandidate()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **waitUntilRetry()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Relationships
 
-- [[Community 32]] (4 shared connections)
-- [[Client Products Data Store]] (4 shared connections)
+- [[Community 38]] (20 shared connections)
+- [[Community 32]] (18 shared connections)
 - [[Community 49]] (3 shared connections)
-- [[Community 172]] (2 shared connections)
-- [[Community 127]] (2 shared connections)
+- [[Graphify Workflow]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/output-path.mjs`
+- `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 82 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 111 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

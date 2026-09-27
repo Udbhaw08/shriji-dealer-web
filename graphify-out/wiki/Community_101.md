@@ -1,37 +1,35 @@
 # Community 101
 
-> 13 nodes · cohesion 0.28
+> 13 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **guided-views-browser.test.mjs** (17 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **run()** (8 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **point()** (4 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **settled()** (4 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **activate()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **hash()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **move()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **variant()** (1 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **workflow-compiler-hard-contract.test.mjs** (14 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **workflow()** (4 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **oneLaneAnchors()** (3 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **oneLaneWorkflow()** (3 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **crossingAtForwardCollinearViaWorkflow()** (2 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **nestedOutsideRightCorridorWorkflow()** (2 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **assertExplicitPinConflict()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **assertOrthogonal()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **assertSupportedFixesNameChangedEdge()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **clone()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **mutate()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **routeContainsChannel()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **segmentMeetsRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
 
 ## Relationships
 
-- [[Community 47]] (5 shared connections)
-- [[Community 88]] (3 shared connections)
-- [[Graphify Workflow]] (1 shared connections)
-- [[Community 87]] (1 shared connections)
+- [[Community 86]] (2 shared connections)
+- [[Community 34]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (100%)
+- EXTRACTED: 35 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

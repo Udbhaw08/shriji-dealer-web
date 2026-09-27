@@ -5,15 +5,18 @@ import { useLanguage } from "../data/i18n";
 import { dealerById } from "../data/dealer";
 import { useSession } from "../data/session";
 import { isPortalGated } from "../data/portalGate";
+import { useFavorites } from "../data/favoritesStore";
 
 export default function MobileBottomNav() {
   const { pathname, search } = useLocation();
   const { t } = useLanguage();
   const session = useSession();
   const isGated = isPortalGated(session);
+  const { count: favCount } = useFavorites();
 
   const isHome = pathname === "/";
   const isProducts = pathname === "/products" || pathname.startsWith("/products/");
+  const isFavorites = pathname === "/favorites";
   const isSchemes = pathname.startsWith("/schemes");
   const isSupport = pathname.startsWith("/support");
 
@@ -52,6 +55,20 @@ export default function MobileBottomNav() {
                 <span className="mobile-tab-pill">
                   <Icon name="grid" size={19} />
                   <span className="mobile-tab-text">{t("nav_products") || "Products"}</span>
+                </span>
+              </Link>
+
+              <Link
+                to="/favorites"
+                className={`mobile-bottom-tab ${isFavorites ? "active" : ""}`}
+                aria-current={isFavorites ? "page" : undefined}
+              >
+                <span className="mobile-tab-pill">
+                  <span style={{ position: "relative", display: "inline-flex" }}>
+                    <Icon name="heart" size={19} />
+                    {favCount > 0 && <span className="mobile-fav-count-dot">{favCount}</span>}
+                  </span>
+                  <span className="mobile-tab-text">{t("nav_favorites") || "Favorites"}</span>
                 </span>
               </Link>
 

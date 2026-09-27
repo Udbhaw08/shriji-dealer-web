@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **Shriji Domestic Appliances — Sunshine Dealer Web** (4 connections) — `README.md`
-- **README.md** (1 connections) — `README.md`
-- **Documentation** (1 connections) — `README.md`
-- **Layout** (1 connections) — `README.md`
-- **Two things to know before you change anything** (1 connections) — `README.md`
+- **focus** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 110]] (1 shared connections)
 
 ## Source Files
 
-- `README.md`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

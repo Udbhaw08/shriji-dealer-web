@@ -1,35 +1,38 @@
 # Community 92
 
-> 14 nodes · cohesion 0.14
+> 13 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **generate-brand-marks.mjs** (13 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **catalog** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **catalogPath** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **domains** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **fail()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **generated** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **here** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **ids** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **lookupForms()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **lookupKeys** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **normalizedList()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **outputPath** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **root** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **simpleBySlug** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **jd()** (8 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **ec()** (7 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **nc()** (6 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **oc()** (6 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **dh()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **go()** (4 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **vo()** (4 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **cc()** (3 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **Ct()** (3 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **If()** (3 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **tc()** (3 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **Gh()** (2 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **.unstable_scheduleHydration()** (2 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (13 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (9 shared connections)
+- [[Oxlint Linter Configuration]] (3 shared connections)
+- [[Zoho Integration Architecture]] (2 shared connections)
+- [[Roles & Customer Sharing Spec]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 56 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

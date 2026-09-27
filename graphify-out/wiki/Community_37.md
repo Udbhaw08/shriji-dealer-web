@@ -1,53 +1,48 @@
 # Community 37
 
-> 30 nodes · cohesion 0.12
+> 32 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **architecture-delta.mjs** (65 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **compareArchitecture()** (12 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **fail()** (8 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **canonicalArchitecture()** (5 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundaryIndex()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **canonicalArchitectureJson()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **compareEntities()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **equal()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **normalizeRepository()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **canonical()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **extractArchitectureSvg()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **extractArtifactCss()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **presentationChanged()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **requireComparableShape()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **sortedObjects()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **stableIndex()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **addState()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundaryKey()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **fieldChanges()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **normalizeComponent()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **normalizedField()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **sortedBy()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **statusFor()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **summaryFor()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **BOUNDARY_FIELDS** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- *... and 5 more nodes in this community*
+- **scripts** (13 connections) — `package.json`
+- **dependencies** (8 connections) — `package.json`
+- **package.json** (7 connections) — `package.json`
+- **devDependencies** (6 connections) — `package.json`
+- **@capacitor/android** (1 connections) — `package.json`
+- **@capacitor/cli** (1 connections) — `package.json`
+- **@capacitor/core** (1 connections) — `package.json`
+- **@capacitor/ios** (1 connections) — `package.json`
+- **react** (1 connections) — `package.json`
+- **react-dom** (1 connections) — `package.json`
+- **react-router-dom** (1 connections) — `package.json`
+- **oxlint** (1 connections) — `package.json`
+- **@types/react** (1 connections) — `package.json`
+- **@types/react-dom** (1 connections) — `package.json`
+- **vite** (1 connections) — `package.json`
+- **@vitejs/plugin-react** (1 connections) — `package.json`
+- **name** (1 connections) — `package.json`
+- **private** (1 connections) — `package.json`
+- **build** (1 connections) — `package.json`
+- **cap:android** (1 connections) — `package.json`
+- **cap:ios** (1 connections) — `package.json`
+- **cap:sync** (1 connections) — `package.json`
+- **dev** (1 connections) — `package.json`
+- **docs** (1 connections) — `package.json`
+- **graphify:update** (1 connections) — `package.json`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [[Community 61]] (20 shared connections)
-- [[Community 109]] (12 shared connections)
-- [[Community 97]] (4 shared connections)
-- [[Community 172]] (4 shared connections)
-- [[Community 106]] (3 shared connections)
-- [[Zoho Integration Architecture]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
+- `package.json`
 
 ## Audit Trail
 
-- EXTRACTED: 149 (97%)
-- INFERRED: 4 (3%)
+- EXTRACTED: 62 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

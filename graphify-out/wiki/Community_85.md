@@ -22,10 +22,10 @@
 
 ## Relationships
 
-- [[Product Brand & Business Vision]] (5 shared connections)
-- [[Graphify Workflow]] (1 shared connections)
-- [[Community 104]] (1 shared connections)
-- [[Community 87]] (1 shared connections)
+- [[Product Pages Specification]] (5 shared connections)
+- [[Community 41]] (1 shared connections)
+- [[Community 36]] (1 shared connections)
+- [[Community 129]] (1 shared connections)
 
 ## Source Files
 

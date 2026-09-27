@@ -1,11 +1,10 @@
 # Community 270
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **fail-migration-cleanup.mjs** (1 connections) — `.agents/skills/archify/test/fixtures/fail-migration-cleanup.mjs`
-- **originalRmSync** (1 connections) — `.agents/skills/archify/test/fixtures/fail-migration-cleanup.mjs`
+- **build.gradle** (0 connections) — `android/build.gradle`
 
 ## Relationships
 
@@ -13,11 +12,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/fixtures/fail-migration-cleanup.mjs`
+- `android/build.gradle`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

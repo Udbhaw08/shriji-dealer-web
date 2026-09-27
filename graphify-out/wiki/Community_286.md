@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **capacitor.settings.gradle** (0 connections) — `android/capacitor.settings.gradle`
+- **site-language-integration.mjs** (0 connections) — `.agents/skills/archify/test/site-language-integration.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `android/capacitor.settings.gradle`
+- `.agents/skills/archify/test/site-language-integration.mjs`
 
 ## Audit Trail
 

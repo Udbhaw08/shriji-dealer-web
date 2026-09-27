@@ -1,48 +1,50 @@
 # Community 57
 
-> 22 nodes · cohesion 0.09
+> 23 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **$defs** (16 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **relationshipWidth** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **animation** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **brandMark** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **componentType** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **legendMode** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **locale** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **qualityProfile** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **side** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **variant** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **visualPreset** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **oneOf** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **vl()** (28 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **Ce()** (16 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **yl()** (15 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **bl()** (11 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **je()** (8 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **ca()** (7 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **Io()** (6 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **ke()** (6 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **ko()** (5 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **ln()** (5 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **p()** (5 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **va()** (5 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **zo()** (5 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **hl()** (4 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **ml()** (4 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **ta()** (4 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **ep()** (3 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **Hc()** (3 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **Ud()** (3 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **we()** (3 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **Ym()** (3 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **fa()** (2 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **Wf()** (2 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
 
 ## Relationships
 
-- [[Community 221]] (1 shared connections)
-- [[Community 135]] (1 shared connections)
-- [[Community 249]] (1 shared connections)
-- [[Community 250]] (1 shared connections)
-- [[Community 111]] (1 shared connections)
-- [[Community 201]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (26 shared connections)
+- [[Client Products Data Store]] (9 shared connections)
+- [[Product Brand & Business Vision]] (7 shared connections)
+- [[Graphify Agent Rules]] (6 shared connections)
+- [[Dependencies & Package Config]] (5 shared connections)
+- [[Graphify Knowledge Graph Skill]] (5 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (5 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `ios/App/App/public/assets/index-BrUZQ8Sa.js`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (100%)
+- EXTRACTED: 153 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

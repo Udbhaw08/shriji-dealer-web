@@ -4,25 +4,26 @@
 
 ## Key Concepts
 
-- **semantic-lens.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **settled-flow.test.mjs** (8 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Product Pages Specification]] (1 shared connections)
+- [[Live Pricing Audit Tool]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/semantic-lens.test.mjs`
+- `.agents/skills/archify/test/settled-flow.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

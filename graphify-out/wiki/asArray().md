@@ -2,7 +2,7 @@
 
 > God node · 43 connections · `.agents/skills/archify/renderers/shared/geometry.mjs`
 
-**Community:** [[Zoho Backend & Proxy Endpoints]]
+**Community:** [[Master Codebase Architecture Reference]]
 
 ## Connections by Relation
 

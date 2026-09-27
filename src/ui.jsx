@@ -5,6 +5,7 @@ import { isDealer, useSession } from "./data/session";
 import { dealerById } from "./data/dealer";
 import { useLanguage } from "./data/i18n";
 import { isPortalGated } from "./data/portalGate";
+import { useFavorites } from "./data/favoritesStore";
 
 /* Line icons, one 1.6 stroke family — matches the mockup's icon set. */
 const base = {
@@ -170,6 +171,18 @@ const PATHS = {
       <path d="M3.4 3.4l13.2 13.2" />
     </>
   ),
+  mic: (
+    <>
+      <rect x="7" y="3" width="6" height="9" rx="3" />
+      <path d="M4.5 9.5a5.5 5.5 0 0 0 11 0" />
+      <path d="M10 15v3m-3 0h6" />
+    </>
+  ),
+  trash: (
+    <>
+      <path d="M4 6h12M7 6V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2m2 0v11a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6" />
+    </>
+  ),
 };
 
 export function Icon({ name, size = 18, ...rest }) {
@@ -244,6 +257,7 @@ export function Header() {
   const { t } = useLanguage();
   const { pathname, hash } = useLocation();
   const isGated = isPortalGated(s);
+  const { count: favCount } = useFavorites();
 
   useEffect(() => {
     setOpen(false);
@@ -252,6 +266,7 @@ export function Header() {
   const navLabels = {
     "/": t("nav_home"),
     "/products": t("nav_products"),
+    "/favorites": t("nav_favorites") || "Favorites",
     "/schemes": t("nav_schemes"),
     "/support": t("nav_support"),
   };
@@ -269,6 +284,9 @@ export function Header() {
           {navItems.map((n) => (
             <NavLink key={n.to} to={n.to} end={n.to === "/"}>
               {navLabels[n.to] || n.label}
+              {n.to === "/favorites" && favCount > 0 && (
+                <span className="nav-fav-count">{favCount}</span>
+              )}
             </NavLink>
           ))}
           <div className="nav-drawer-actions">
@@ -288,9 +306,32 @@ export function Header() {
         )}
 
         <div className="hdr-actions" style={isGated ? { marginLeft: "auto" } : undefined}>
+          {!isGated && (
+            <Link
+              to="/favorites"
+              className="hdr-fav-btn"
+              aria-label={`Favorites (${favCount})`}
+              title="Saved Favorites"
+            >
+              <Icon name="heart" size={18} />
+              {favCount > 0 && <span className="hdr-fav-count">{favCount}</span>}
+            </Link>
+          )}
           <LangToggle />
           <AccountLink />
         </div>
+
+        {!isGated && (
+          <Link
+            to="/favorites"
+            className="hdr-fav-btn mobile-fav-btn"
+            aria-label={`Favorites (${favCount})`}
+            title="Saved Favorites"
+          >
+            <Icon name="heart" size={18} />
+            {favCount > 0 && <span className="hdr-fav-count">{favCount}</span>}
+          </Link>
+        )}
 
         <button
           className="icon-btn burger"

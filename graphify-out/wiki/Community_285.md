@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **build.gradle** (0 connections) — `android/build.gradle`
+- **sequence** (0 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `android/build.gradle`
+- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
 
 ## Audit Trail
 

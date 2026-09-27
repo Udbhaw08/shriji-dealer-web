@@ -1,36 +1,40 @@
 # Community 97
 
-> 13 nodes · cohesion 0.15
+> 13 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **architecture-delta.test.mjs** (16 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **ArchitectureDeltaError** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **.constructor()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **baseFixture** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **checkedArtifact** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **checkedReceipt** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **headFixture** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **read()** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **desktop-readability.mjs** (9 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **adaptive-reader-layout.test.mjs** (9 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **desktop-reader-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- **DESKTOP_READABILITY_VIEWPORT** (5 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **projectedNodeTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **reader** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **skill** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- **packagedHtmlExamples** (1 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
 
 ## Relationships
 
-- [[Community 37]] (4 shared connections)
-- [[Community 109]] (2 shared connections)
+- [[Community 41]] (4 shared connections)
+- [[Architecture Doc Generator]] (4 shared connections)
+- [[Pricing Regression Test Suite]] (3 shared connections)
+- [[Community 75]] (1 shared connections)
+- [[Community 129]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
-- `.agents/skills/archify/test/architecture-delta.test.mjs`
+- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
+- EXTRACTED: 43 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -8,6 +8,7 @@ import MobileBottomNav from "./components/MobileBottomNav";
 import Home from "./pages/Home";
 import Products from "./pages/Products";
 import Product from "./pages/Product";
+import Favorites from "./pages/Favorites";
 import Schemes from "./pages/Schemes";
 import Support from "./pages/Support";
 import Login from "./pages/Login";
@@ -112,6 +113,14 @@ createRoot(document.getElementById("root")).render(
               element={
                 <RequireVerifiedDealer>
                   <Products />
+                </RequireVerifiedDealer>
+              }
+            />
+            <Route
+              path="/favorites"
+              element={
+                <RequireVerifiedDealer>
+                  <Favorites />
                 </RequireVerifiedDealer>
               }
             />

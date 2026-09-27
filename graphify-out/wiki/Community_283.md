@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **cordova.js** (0 connections) — `android/app/src/main/assets/public/cordova.js`
+- **dataflow** (0 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/cordova.js`
+- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
 
 ## Audit Trail
 

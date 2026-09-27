@@ -1,55 +1,53 @@
 # Graphify Agent Rules
 
-> 35 nodes · cohesion 0.09
+> 38 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **ls()** (21 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **ks()** (13 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **xs()** (13 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **ds()** (10 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **oi()** (10 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **ni()** (8 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **nt()** (8 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **ru()** (7 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **ei()** (6 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **ka()** (6 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **ps()** (6 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **pu()** (6 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **ss()** (6 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **us()** (6 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **fu()** (5 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **jr()** (5 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **li()** (5 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **qi()** (5 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **qr()** (5 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **ti()** (5 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **et()** (4 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **go()** (4 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **na()** (4 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **qs()** (4 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- **tp()** (4 connections) — `ios/App/App/public/assets/index-BgdMok-w.js`
-- *... and 10 more nodes in this community*
+- **qd()** (14 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **Yd()** (13 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **Fd()** (12 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **Vd()** (12 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **df()** (10 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **dt()** (9 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **rf()** (9 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **ut()** (8 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **ef()** (7 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **ff()** (7 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **Rd()** (7 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **af()** (6 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **Bd()** (6 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **Id()** (6 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **nf()** (6 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **sf()** (6 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **wi()** (6 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **is()** (5 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **jf()** (5 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **lf()** (5 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **mf()** (5 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **vt()** (5 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **cf()** (4 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **Hd()** (4 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **qf()** (4 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (36 shared connections)
-- [[Mobile Responsive UI Skill]] (15 shared connections)
-- [[Zoho API Diagnostic Script]] (12 shared connections)
-- [[Product Pages Specification]] (11 shared connections)
-- [[Community 42]] (8 shared connections)
-- [[Community 83]] (5 shared connections)
-- [[Oxlint Linter Configuration]] (4 shared connections)
-- [[Community 35]] (3 shared connections)
-- [[Community 44]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (45 shared connections)
+- [[Client Products Data Store]] (11 shared connections)
+- [[Graphify Knowledge Graph Skill]] (10 shared connections)
+- [[Dependencies & Package Config]] (10 shared connections)
+- [[Community 57]] (6 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (6 shared connections)
+- [[Product Brand & Business Vision]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BgdMok-w.js`
+- `ios/App/App/public/assets/index-BrUZQ8Sa.js`
 
 ## Audit Trail
 
-- EXTRACTED: 207 (100%)
+- EXTRACTED: 218 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

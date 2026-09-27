@@ -1,35 +1,35 @@
 # Community 33
 
-> 32 nodes · cohesion 0.06
+> 33 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **scripts** (13 connections) — `package.json`
-- **dependencies** (8 connections) — `package.json`
-- **package.json** (7 connections) — `package.json`
-- **devDependencies** (6 connections) — `package.json`
-- **@capacitor/android** (1 connections) — `package.json`
-- **@capacitor/cli** (1 connections) — `package.json`
-- **@capacitor/core** (1 connections) — `package.json`
-- **@capacitor/ios** (1 connections) — `package.json`
-- **react** (1 connections) — `package.json`
-- **react-dom** (1 connections) — `package.json`
-- **react-router-dom** (1 connections) — `package.json`
-- **oxlint** (1 connections) — `package.json`
-- **@types/react** (1 connections) — `package.json`
-- **@types/react-dom** (1 connections) — `package.json`
-- **vite** (1 connections) — `package.json`
-- **@vitejs/plugin-react** (1 connections) — `package.json`
-- **name** (1 connections) — `package.json`
-- **private** (1 connections) — `package.json`
-- **build** (1 connections) — `package.json`
-- **cap:android** (1 connections) — `package.json`
-- **cap:ios** (1 connections) — `package.json`
-- **cap:sync** (1 connections) — `package.json`
-- **dev** (1 connections) — `package.json`
-- **docs** (1 connections) — `package.json`
-- **graphify:update** (1 connections) — `package.json`
-- *... and 7 more nodes in this community*
+- **scripts** (15 connections) — `.agents/skills/archify/package.json`
+- **package.json** (11 connections) — `.agents/skills/archify/package.json`
+- **devDependencies** (5 connections) — `.agents/skills/archify/package.json`
+- **bin** (2 connections) — `.agents/skills/archify/package.json`
+- **engines** (2 connections) — `.agents/skills/archify/package.json`
+- **overrides** (2 connections) — `.agents/skills/archify/package.json`
+- **archify** (1 connections) — `.agents/skills/archify/package.json`
+- **description** (1 connections) — `.agents/skills/archify/package.json`
+- **ajv** (1 connections) — `.agents/skills/archify/package.json`
+- **parse5** (1 connections) — `.agents/skills/archify/package.json`
+- **saxes** (1 connections) — `.agents/skills/archify/package.json`
+- **simple-icons** (1 connections) — `.agents/skills/archify/package.json`
+- **node** (1 connections) — `.agents/skills/archify/package.json`
+- **license** (1 connections) — `.agents/skills/archify/package.json`
+- **name** (1 connections) — `.agents/skills/archify/package.json`
+- **fast-uri** (1 connections) — `.agents/skills/archify/package.json`
+- **private** (1 connections) — `.agents/skills/archify/package.json`
+- **build:gallery** (1 connections) — `.agents/skills/archify/package.json`
+- **build:guide** (1 connections) — `.agents/skills/archify/package.json`
+- **build:readme-showcase** (1 connections) — `.agents/skills/archify/package.json`
+- **build:start** (1 connections) — `.agents/skills/archify/package.json`
+- **check:brand-marks** (1 connections) — `.agents/skills/archify/package.json`
+- **check:release-identity** (1 connections) — `.agents/skills/archify/package.json`
+- **check:validators** (1 connections) — `.agents/skills/archify/package.json`
+- **check:viewer** (1 connections) — `.agents/skills/archify/package.json`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
@@ -37,11 +37,11 @@
 
 ## Source Files
 
-- `package.json`
+- `.agents/skills/archify/package.json`
 
 ## Audit Trail
 
-- EXTRACTED: 62 (100%)
+- EXTRACTED: 64 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

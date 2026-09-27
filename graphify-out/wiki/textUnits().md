@@ -2,7 +2,7 @@
 
 > God node · 33 connections · `.agents/skills/archify/renderers/shared/utils.mjs`
 
-**Community:** [[Zoho Backend & Proxy Endpoints]]
+**Community:** [[Community 34]]
 
 ## Connections by Relation
 

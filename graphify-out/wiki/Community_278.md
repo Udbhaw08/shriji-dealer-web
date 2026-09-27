@@ -1,23 +1,22 @@
 # Community 278
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **step** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **CapApp-SPM.swift** (0 connections) — `ios/App/CapApp-SPM/Sources/CapApp-SPM/CapApp-SPM.swift`
 
 ## Relationships
 
-- [[Pricing & Roles Skill]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `ios/App/CapApp-SPM/Sources/CapApp-SPM/CapApp-SPM.swift`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
