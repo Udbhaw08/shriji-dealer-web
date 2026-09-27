@@ -1,36 +1,31 @@
 # Community 121
 
-> 10 nodes · cohesion 0.27
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **i18n.js** (25 connections) — `src/data/i18n.js`
-- **setLanguage()** (3 connections) — `src/data/i18n.js`
-- **emit()** (2 connections) — `src/data/i18n.js`
-- **toggleLanguage()** (2 connections) — `src/data/i18n.js`
-- **translations.js** (2 connections) — `src/data/translations.js`
-- **TRANSLATIONS** (2 connections) — `src/data/translations.js`
-- **currentLang** (1 connections) — `src/data/i18n.js`
-- **getInitialLang()** (1 connections) — `src/data/i18n.js`
-- **getLanguage()** (1 connections) — `src/data/i18n.js`
-- **listeners** (1 connections) — `src/data/i18n.js`
+- **entries** (4 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **legend** (4 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **mode** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **properties** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Relationships
 
-- [[Community 44]] (5 shared connections)
-- [[Community 42]] (4 shared connections)
-- [[Community 37]] (4 shared connections)
-- [[Community 90]] (2 shared connections)
-- [[Community 45]] (1 shared connections)
+- [[Community 55]] (1 shared connections)
 
 ## Source Files
 
-- `src/data/i18n.js`
-- `src/data/translations.js`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

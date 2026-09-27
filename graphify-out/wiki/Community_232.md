@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **Shriji Testing & Workflow Skill** (3 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
-- **Daily Development Commands** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
-- **Hard Workflow Rules** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
+- **delivery-contract.test.mjs** (3 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
+- **delivery** (1 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
+- **skill** (1 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `.agents/skills/shriji-testing-and-workflow/SKILL.md`
+- `.agents/skills/archify/test/delivery-contract.test.mjs`
 
 ## Audit Trail
 

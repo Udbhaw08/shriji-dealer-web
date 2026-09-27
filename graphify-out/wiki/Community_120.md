@@ -1,38 +1,31 @@
 # Community 120
 
-> 10 nodes · cohesion 0.31
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **df()** (10 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
-- **rf()** (9 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
-- **ff()** (7 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
-- **nf()** (6 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
-- **sf()** (6 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
-- **lf()** (5 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
-- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
-- **uf()** (4 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
-- **qr()** (2 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
-- **yf()** (2 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
+- **Viewer Runtime reference** (6 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Canonical exports** (4 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **viewer-runtime.md** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Exploration** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Guided views and story** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Motion and presentation** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Reach Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Route Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Truth boundary** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (11 shared connections)
-- [[Dependencies & Package Config]] (7 shared connections)
-- [[Community 34]] (3 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (2 shared connections)
-- [[Product Requirements Documentation]] (1 shared connections)
-- [[Client Products Data Store]] (1 shared connections)
-- [[Pricing Regression Test Suite]] (1 shared connections)
-- [[Community 62]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
+- `.agents/skills/archify/references/viewer-runtime.md`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

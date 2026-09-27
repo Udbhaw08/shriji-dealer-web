@@ -1,55 +1,55 @@
 # Testing & Workflow Skill
 
-> 39 nodes · cohesion 0.07
+> 39 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **offline-font-browser.test.mjs** (13 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
-- **cli.test.mjs** (11 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **offline-self-containment.test.mjs** (9 connections) — `.agents/skills/archify/test/offline-self-containment.test.mjs`
-- **generated-artifact-xml.test.mjs** (8 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
-- **offline-fonts.mjs** (7 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **inspectDocuments()** (5 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **xml.mjs** (5 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
-- **assertFontCss()** (4 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **assertOfflineArtifact()** (4 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **extractSvgs()** (4 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
-- **parseXml()** (3 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
-- **visit()** (3 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
-- **evaluate()** (2 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
-- **exported()** (2 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
-- **EXPECTED_FACES** (1 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **FONT_LICENSE** (1 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **copyInstalledSkill()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **makeFakeOpeners()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **artifactRoots** (1 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
+- **lc()** (16 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **Pd()** (14 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **hh()** (9 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **kc()** (9 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **yh()** (9 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **fc()** (8 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **Gc()** (8 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **jd()** (8 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **l()** (8 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **ea()** (7 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **ec()** (7 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **It()** (7 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **qs()** (7 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **sc()** (7 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **dc()** (6 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **Ei()** (6 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **fh()** (6 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **nc()** (6 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **oc()** (6 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **ph()** (6 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **Sh()** (6 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **bh()** (5 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **dh()** (5 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **rs()** (5 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **Ti()** (5 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
 - *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [[Community 40]] (1 shared connections)
-- [[Community 63]] (1 shared connections)
-- [[Community 89]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (48 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (18 shared connections)
+- [[Client Products Data Store]] (16 shared connections)
+- [[Product Pages Specification]] (8 shared connections)
+- [[Product Requirements Documentation]] (5 shared connections)
+- [[Community 74]] (5 shared connections)
+- [[Community 34]] (3 shared connections)
+- [[Community 33]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/cli.test.mjs`
-- `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
-- `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- `.agents/skills/archify/test/helpers/xml.mjs`
-- `.agents/skills/archify/test/offline-font-browser.test.mjs`
-- `.agents/skills/archify/test/offline-self-containment.test.mjs`
+- `ios/App/App/public/assets/index-BILU7txw.js`
 
 ## Audit Trail
 
-- EXTRACTED: 103 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 234 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

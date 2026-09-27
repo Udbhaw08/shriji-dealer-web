@@ -1,33 +1,31 @@
 # Community 131
 
-> 10 nodes · cohesion 0.20
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **v1-compatibility.test.mjs** (9 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **validate()** (3 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **check()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **legacyDataflowDocument()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **narrowExplicitViewBoxDocuments()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **OFFICIAL_V1_EXAMPLES** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **web--dw46ZXM.js** (8 connections) — `android/app/src/main/assets/public/assets/web--dw46ZXM.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web--dw46ZXM.js`
+- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web--dw46ZXM.js`
+- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web--dw46ZXM.js`
+- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web--dw46ZXM.js`
+- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web--dw46ZXM.js`
+- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web--dw46ZXM.js`
+- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web--dw46ZXM.js`
+- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web--dw46ZXM.js`
 
 ## Relationships
 
-- [[Community 70]] (1 shared connections)
-- [[Design System & UI Tokens]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- `android/app/src/main/assets/public/assets/web--dw46ZXM.js`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (90%)
-- INFERRED: 2 (10%)
+- EXTRACTED: 16 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

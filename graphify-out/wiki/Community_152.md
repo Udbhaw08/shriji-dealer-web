@@ -4,26 +4,26 @@
 
 ## Key Concepts
 
-- **wraps** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **via** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **guided-views.test.mjs** (7 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **fixture()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **svg()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
 
 ## Relationships
 
-- [[Pricing & Roles Skill]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `.agents/skills/archify/test/guided-views.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

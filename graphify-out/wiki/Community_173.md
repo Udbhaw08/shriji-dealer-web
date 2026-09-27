@@ -4,31 +4,26 @@
 
 ## Key Concepts
 
-- **commandCompare()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commitComparePair()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractCompareOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **formatDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportCompareFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **compareCommitError()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **compareReceiptPath()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **lifecycle.schema.json** (7 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$id** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$schema** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **title** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- [[Community 39]] (11 shared connections)
-- [[Community 82]] (4 shared connections)
-- [[Community 97]] (3 shared connections)
-- [[Community 64]] (2 shared connections)
-- [[Community 48]] (2 shared connections)
-- [[Community 76]] (2 shared connections)
+- [[Community 86]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (75%)
-- INFERRED: 9 (25%)
+- EXTRACTED: 13 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

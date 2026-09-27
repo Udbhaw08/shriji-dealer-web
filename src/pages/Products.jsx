@@ -257,11 +257,6 @@ export default function Products() {
       <section className="catalog-hero">
         <div className="wrap">
           <h1 className="d2">{t("catalog_title")}</h1>
-          <p className="sub" style={{ marginTop: "var(--s2)" }}>
-            {PRODUCTS.length > 0
-              ? t("live_models_across", { products: PRODUCTS.length, cats: CATEGORIES.length })
-              : t("connecting_zoho")}
-          </p>
         </div>
       </section>
 

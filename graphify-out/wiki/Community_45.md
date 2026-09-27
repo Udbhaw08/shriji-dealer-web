@@ -1,57 +1,60 @@
 # Community 45
 
-> 26 nodes · cohesion 0.14
+> 27 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **session.js** (26 connections) — `src/data/session.js`
-- **productsStore.js** (19 connections) — `src/data/productsStore.js`
-- **Login.jsx** (18 connections) — `src/pages/Login.jsx`
-- **apiFetch()** (8 connections) — `src/data/api.js`
-- **apiUrl()** (8 connections) — `src/data/api.js`
-- **api.js** (6 connections) — `src/data/api.js`
-- **registerDealer()** (6 connections) — `src/data/dealer.js`
-- **setSession()** (5 connections) — `src/data/session.js`
-- **fetchLiveProducts()** (4 connections) — `src/data/productsStore.js`
-- **products.js** (3 connections) — `src/data/products.js`
-- **revalidateSession()** (3 connections) — `src/data/session.js`
-- **signOut()** (3 connections) — `src/data/session.js`
-- **CATEGORIES** (2 connections) — `src/data/products.js`
-- **emit()** (2 connections) — `src/data/productsStore.js`
-- **loadCached()** (2 connections) — `src/data/productsStore.js`
-- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
-- **useProduct()** (2 connections) — `src/data/productsStore.js`
-- **emit()** (2 connections) — `src/data/session.js`
-- **load()** (2 connections) — `src/data/session.js`
-- **PRODUCTS** (1 connections) — `src/data/products.js`
-- **listeners** (1 connections) — `src/data/productsStore.js`
-- **PREFERRED_ORDER** (1 connections) — `src/data/productsStore.js`
-- **storeState** (1 connections) — `src/data/productsStore.js`
-- **GUEST** (1 connections) — `src/data/session.js`
-- **state** (1 connections) — `src/data/session.js`
-- *... and 1 more nodes in this community*
+- **.send()** (54 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **viewer-camera-browser.test.mjs** (11 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **export-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **motion-governor-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **.inspect()** (5 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **run()** (5 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **run()** (5 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **run()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **evaluate()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **record()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **screenshot()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **stable()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **viewport()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **.waitFor()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **screenshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [[Community 37]] (16 shared connections)
-- [[Community 44]] (8 shared connections)
-- [[Community 42]] (8 shared connections)
-- [[Community 90]] (5 shared connections)
-- [[Community 121]] (1 shared connections)
+- [[Community 53]] (11 shared connections)
+- [[Community 70]] (8 shared connections)
+- [[Community 66]] (7 shared connections)
+- [[Community 88]] (7 shared connections)
+- [[Community 42]] (5 shared connections)
+- [[Community 99]] (5 shared connections)
+- [[Community 100]] (5 shared connections)
+- [[Community 114]] (4 shared connections)
+- [[Community 78]] (1 shared connections)
+- [[Community 170]] (1 shared connections)
 
 ## Source Files
 
-- `src/data/api.js`
-- `src/data/dealer.js`
-- `src/data/products.js`
-- `src/data/productsStore.js`
-- `src/data/session.js`
-- `src/pages/Login.jsx`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/test/export-browser.test.mjs`
+- `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 130 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 146 (99%)
+- INFERRED: 2 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

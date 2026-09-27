@@ -1,49 +1,44 @@
 # Community 62
 
-> 20 nodes · cohesion 0.15
+> 21 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **Mi()** (15 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
-- **Qi()** (15 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
-- **Lr()** (12 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
-- **Pi()** (11 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
-- **Xr()** (10 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
-- **Oi()** (9 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
-- **ic()** (7 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
-- **Ii()** (7 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
-- **hi()** (6 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
-- **Li()** (6 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
-- **wi()** (6 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
-- **Dr()** (5 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
-- **ir()** (5 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
-- **zi()** (5 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
-- **Er()** (4 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
-- **ul()** (4 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
-- **vi()** (4 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
-- **y()** (3 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
-- **Bi()** (2 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
-- **lo()** (2 connections) — `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
+- **properties** (15 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **from** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **to** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **brand** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **note** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **participant** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **sublabel** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **variant** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (28 shared connections)
-- [[Product Requirements Documentation]] (12 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (11 shared connections)
-- [[Client Products Data Store]] (10 shared connections)
-- [[Dependencies & Package Config]] (7 shared connections)
-- [[Pricing Regression Test Suite]] (6 shared connections)
-- [[Community 33]] (3 shared connections)
-- [[Community 34]] (2 shared connections)
-- [[Community 120]] (1 shared connections)
+- [[Community 105]] (4 shared connections)
+- [[Community 251]] (1 shared connections)
+- [[Community 253]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 138 (100%)
+- EXTRACTED: 46 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

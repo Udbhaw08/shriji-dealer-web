@@ -1,13 +1,12 @@
 # Community 237
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **guide-page.test.mjs** (3 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
+- **MainActivity.java** (2 connections) — `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
+- **MainActivity** (2 connections) — `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
+- **BridgeActivity** (2 connections)
 
 ## Relationships
 
@@ -15,7 +14,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/guide-page.test.mjs`
+- `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
 
 ## Audit Trail
 

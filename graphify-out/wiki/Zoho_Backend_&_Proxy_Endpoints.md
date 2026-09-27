@@ -34,14 +34,14 @@
 ## Relationships
 
 - [[Community 29]] (63 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (45 shared connections)
-- [[Product Brand & Business Vision]] (35 shared connections)
+- [[Live Pricing Audit Tool]] (45 shared connections)
+- [[Zoho Integration Architecture]] (35 shared connections)
 - [[Community 32]] (33 shared connections)
-- [[Community 61]] (31 shared connections)
+- [[Community 65]] (31 shared connections)
 - [[Design System & UI Tokens]] (8 shared connections)
-- [[Roles & Customer Sharing Spec]] (6 shared connections)
-- [[Community 78]] (4 shared connections)
-- [[Community 172]] (3 shared connections)
+- [[Product Brand & Business Vision]] (6 shared connections)
+- [[Community 79]] (4 shared connections)
+- [[Community 170]] (3 shared connections)
 
 ## Source Files
 

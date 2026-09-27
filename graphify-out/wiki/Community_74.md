@@ -1,39 +1,47 @@
 # Community 74
 
-> 18 nodes · cohesion 0.11
+> 18 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **PRD — Shriji Domestic Appliances Dealer Web** (11 connections) — `PRD.md`
-- **3. Scope** (3 connections) — `PRD.md`
-- **6. Data** (3 connections) — `PRD.md`
-- **7. Evidence ledger — what is verified vs. what is sample** (3 connections) — `PRD.md`
-- **PRD.md** (1 connections) — `PRD.md`
-- **10. Conventions worth knowing** (1 connections) — `PRD.md`
-- **1. What this is** (1 connections) — `PRD.md`
-- **2. Who uses it** (1 connections) — `PRD.md`
-- **4. Stack** (1 connections) — `PRD.md`
-- **5. The pricing model — the core business rule** (1 connections) — `PRD.md`
-- **8. Roadmap** (1 connections) — `PRD.md`
-- **9. Decision log** (1 connections) — `PRD.md`
-- **Built and working** (1 connections) — `PRD.md`
-- **⚠️ Known discrepancy** (1 connections) — `PRD.md`
-- **Not built yet (and deliberately so)** (1 connections) — `PRD.md`
-- **Product record shape** (1 connections) — `PRD.md`
-- **Sample / invented for the draft — must stay labelled as such** (1 connections) — `PRD.md`
-- **Verified (scraped from shrijidomestic.com, 2026-09-18)** (1 connections) — `PRD.md`
+- **Mi()** (15 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **Qi()** (15 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **Lr()** (12 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **Pi()** (11 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **Xr()** (10 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **Oi()** (9 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **ic()** (7 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **Ii()** (7 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **hi()** (6 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **Li()** (6 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **wi()** (6 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **zi()** (5 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **kn()** (4 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **ul()** (4 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **vi()** (4 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **y()** (3 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **Bi()** (2 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **lo()** (2 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (27 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (13 shared connections)
+- [[Client Products Data Store]] (12 shared connections)
+- [[Product Pages Specification]] (7 shared connections)
+- [[Product Requirements Documentation]] (5 shared connections)
+- [[Testing & Workflow Skill]] (5 shared connections)
+- [[Community 33]] (4 shared connections)
+- [[Community 34]] (2 shared connections)
+- [[Community 119]] (1 shared connections)
 
 ## Source Files
 
-- `PRD.md`
+- `ios/App/App/public/assets/index-BILU7txw.js`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
+- EXTRACTED: 128 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

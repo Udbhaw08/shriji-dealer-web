@@ -1,59 +1,69 @@
 # Community 44
 
-> 26 nodes · cohesion 0.17
+> 28 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **ui.jsx** (37 connections) — `src/ui.jsx`
-- **Home.jsx** (24 connections) — `src/pages/Home.jsx`
-- **site.js** (20 connections) — `src/data/site.js`
-- **Support.jsx** (15 connections) — `src/pages/Support.jsx`
-- **Icon()** (15 connections) — `src/ui.jsx`
-- **Schemes.jsx** (14 connections) — `src/pages/Schemes.jsx`
-- **COMPANY** (12 connections) — `src/data/site.js`
-- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
-- **HeroSlider.jsx** (7 connections) — `src/components/HeroSlider.jsx`
-- **UnderMaintenance()** (5 connections) — `src/components/UnderMaintenance.jsx`
-- **EnquiryButtons()** (4 connections) — `src/ui.jsx`
-- **HeroSlider()** (3 connections) — `src/components/HeroSlider.jsx`
-- **SCHEMES** (3 connections) — `src/data/site.js`
-- **STATS** (3 connections) — `src/data/site.js`
-- **ISSUE_TYPES** (2 connections) — `src/data/site.js`
-- **MATERIALS** (2 connections) — `src/data/site.js`
-- **NAV** (2 connections) — `src/data/site.js`
-- **QUICK_ACCESS** (2 connections) — `src/data/site.js`
-- **QUICK_NAV** (2 connections) — `src/data/site.js`
-- **useAutoScroll()** (2 connections) — `src/pages/Home.jsx`
-- **LangToggle()** (2 connections) — `src/ui.jsx`
-- **STORE_BANNERS** (1 connections) — `src/components/HeroSlider.jsx`
-- **DealerField()** (1 connections) — `src/pages/Support.jsx`
-- **base** (1 connections) — `src/ui.jsx`
-- **Mark()** (1 connections) — `src/ui.jsx`
-- *... and 1 more nodes in this community*
+- **useLanguage()** (32 connections) — `src/data/i18n.js`
+- **main.jsx** (32 connections) — `src/main.jsx`
+- **useSession()** (24 connections) — `src/data/session.js`
+- **t()** (20 connections) — `src/data/i18n.js`
+- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
+- **Product()** (16 connections) — `src/pages/Product.jsx`
+- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
+- **useFavorites()** (13 connections) — `src/data/favoritesStore.js`
+- **dealerById()** (11 connections) — `src/data/dealer.js`
+- **Products()** (9 connections) — `src/pages/Products.jsx`
+- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
+- **portalGate.js** (8 connections) — `src/data/portalGate.js`
+- **Favorites()** (8 connections) — `src/pages/Favorites.jsx`
+- **Home()** (8 connections) — `src/pages/Home.jsx`
+- **Header()** (7 connections) — `src/ui.jsx`
+- **Login()** (6 connections) — `src/pages/Login.jsx`
+- **Schemes()** (6 connections) — `src/pages/Schemes.jsx`
+- **AccountLink()** (6 connections) — `src/ui.jsx`
+- **Footer()** (6 connections) — `src/ui.jsx`
+- **Support()** (4 connections) — `src/pages/Support.jsx`
+- **tCat()** (3 connections) — `src/data/i18n.js`
+- **featureBoxes()** (3 connections) — `src/pages/Product.jsx`
+- **DealerForm()** (3 connections) — `src/pages/Support.jsx`
+- **ConditionalBottomNav()** (3 connections) — `src/main.jsx`
+- **RequireVerifiedDealer()** (3 connections) — `src/main.jsx`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [[Community 42]] (37 shared connections)
-- [[Community 37]] (19 shared connections)
-- [[Community 45]] (8 shared connections)
-- [[Community 90]] (7 shared connections)
-- [[Community 121]] (5 shared connections)
-- [[Community 104]] (1 shared connections)
+- [[Community 38]] (41 shared connections)
+- [[Community 46]] (37 shared connections)
+- [[Community 89]] (12 shared connections)
+- [[Community 47]] (8 shared connections)
+- [[Community 117]] (4 shared connections)
+- [[Community 103]] (3 shared connections)
+- [[Community 215]] (1 shared connections)
 
 ## Source Files
 
-- `src/components/HeroSlider.jsx`
-- `src/components/UnderMaintenance.jsx`
-- `src/data/site.js`
+- `src/components/MobileBottomNav.jsx`
+- `src/components/NativeBackHandler.jsx`
+- `src/data/dealer.js`
+- `src/data/favoritesStore.js`
+- `src/data/i18n.js`
+- `src/data/portalGate.js`
+- `src/data/session.js`
+- `src/main.jsx`
+- `src/pages/Favorites.jsx`
 - `src/pages/Home.jsx`
+- `src/pages/Login.jsx`
+- `src/pages/Product.jsx`
+- `src/pages/Products.jsx`
 - `src/pages/Schemes.jsx`
 - `src/pages/Support.jsx`
 - `src/ui.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 188 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 273 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

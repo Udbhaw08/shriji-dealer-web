@@ -1,31 +1,32 @@
 # Community 122
 
-> 10 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **ROLES-AND-SHARING.md — who sees which price** (9 connections) — `docs/ROLES-AND-SHARING.md`
-- **ROLES-AND-SHARING.md** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **1. The four viewers** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **2. The rule, in one function** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **3. ⚠️ What this is not** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **4. The share link** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **5. What the customer sees — `CustomerPrice` in `PriceBlock.jsx`** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **6. The login flow** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **7. Also gated** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **8. Checks** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **stages** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **additionalProperties** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **required** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Mobile Responsive UI Skill]] (3 shared connections)
+- [[Community 83]] (3 shared connections)
 
 ## Source Files
 
-- `docs/ROLES-AND-SHARING.md`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

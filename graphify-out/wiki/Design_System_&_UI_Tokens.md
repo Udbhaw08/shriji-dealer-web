@@ -33,18 +33,18 @@
 
 ## Relationships
 
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (11 shared connections)
+- [[Live Pricing Audit Tool]] (11 shared connections)
 - [[Community 32]] (10 shared connections)
 - [[Community 29]] (9 shared connections)
-- [[Community 61]] (8 shared connections)
+- [[Community 65]] (8 shared connections)
 - [[Zoho Backend & Proxy Endpoints]] (8 shared connections)
-- [[Community 78]] (7 shared connections)
-- [[Claude Agent Instructions]] (6 shared connections)
-- [[Community 108]] (6 shared connections)
-- [[Product Brand & Business Vision]] (5 shared connections)
-- [[Community 76]] (4 shared connections)
-- [[Community 91]] (4 shared connections)
-- [[Community 129]] (3 shared connections)
+- [[Community 79]] (7 shared connections)
+- [[Zoho Integration Skill]] (6 shared connections)
+- [[Community 107]] (6 shared connections)
+- [[Zoho Integration Architecture]] (5 shared connections)
+- [[Community 77]] (4 shared connections)
+- [[Community 90]] (4 shared connections)
+- [[Community 127]] (3 shared connections)
 
 ## Source Files
 

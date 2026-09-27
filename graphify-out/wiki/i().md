@@ -1,8 +1,8 @@
 # i()
 
-> God node · 70 connections · `android/app/src/main/assets/public/assets/index-C09VGb0y.js`
+> God node · 70 connections · `android/app/src/main/assets/public/assets/index-BILU7txw.js`
 
-**Community:** [[Agent Guidelines (AGENTS.md)]]
+**Community:** [[Pricing & Roles Skill]]
 
 ## Connections by Relation
 

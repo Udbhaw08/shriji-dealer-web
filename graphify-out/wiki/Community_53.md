@@ -1,47 +1,52 @@
 # Community 53
 
-> 24 nodes · cohesion 0.08
+> 24 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **properties** (12 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **viewBox** (6 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **column_fit** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **animation** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **locale** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **output** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **subtitle** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **views** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **description** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **items** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **intent-trace-browser.test.mjs** (15 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **semantic-lens-browser.test.mjs** (14 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **desktop-browser.mjs** (8 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **desktopBrowser()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **desktopPointerCheck()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **afterTimer()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **hash()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
 
 ## Relationships
 
-- [[Community 126]] (1 shared connections)
-- [[Community 252]] (1 shared connections)
-- [[Community 227]] (1 shared connections)
+- [[Community 45]] (11 shared connections)
+- [[Community 42]] (3 shared connections)
+- [[Community 99]] (3 shared connections)
+- [[Community 100]] (3 shared connections)
+- [[Community 88]] (2 shared connections)
+- [[Community 66]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/sequence.schema.json`
+- `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (100%)
+- EXTRACTED: 103 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

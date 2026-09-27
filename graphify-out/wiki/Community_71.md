@@ -1,44 +1,41 @@
 # Community 71
 
-> 19 nodes · cohesion 0.23
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **update-contract.mjs** (16 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **update-contract.test.mjs** (10 connections) — `.agents/skills/archify/test/update-contract.test.mjs`
-- **compareSemver()** (9 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **validateStableUpdateManifest()** (8 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **isStableCoreVersion()** (7 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **parseSemver()** (7 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **validateLocalRelease()** (7 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **validateReleaseNotesUrl()** (5 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **hasExactKeys()** (4 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **releaseChannelForVersion()** (4 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **UpdateContractError** (4 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **compareNumericIdentifiers()** (3 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **comparePrerelease()** (3 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **validateCanonicalUtcTimestamp()** (3 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **validateManifest()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **isPlainObject()** (2 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **.constructor()** (1 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **localRelease()** (1 connections) — `.agents/skills/archify/test/update-contract.test.mjs`
-- **stableManifest()** (1 connections) — `.agents/skills/archify/test/update-contract.test.mjs`
+- **properties** (9 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **sequence.schema.json** (7 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **participants** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **segments** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **cards** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **schema_version** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$id** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$schema** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **title** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- [[Community 31]] (13 shared connections)
-- [[Graphify Workflow]] (3 shared connections)
-- [[Community 81]] (3 shared connections)
+- [[Community 105]] (4 shared connections)
+- [[Community 224]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-update.mjs`
-- `.agents/skills/archify/scripts/update-contract.mjs`
-- `.agents/skills/archify/test/update-contract.test.mjs`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 97 (100%)
+- EXTRACTED: 41 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

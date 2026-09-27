@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **col** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **row** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 - **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 - **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- [[Pricing & Roles Skill]] (1 shared connections)
+- [[Architecture Doc Generator]] (1 shared connections)
 
 ## Source Files
 

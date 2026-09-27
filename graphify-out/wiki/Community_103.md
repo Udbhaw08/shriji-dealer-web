@@ -1,35 +1,36 @@
 # Community 103
 
-> 13 nodes · cohesion 0.21
+> 12 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **workflow-compiler-hard-contract.test.mjs** (14 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **workflow()** (4 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **oneLaneAnchors()** (3 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **oneLaneWorkflow()** (3 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **crossingAtForwardCollinearViaWorkflow()** (2 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **nestedOutsideRightCorridorWorkflow()** (2 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **assertExplicitPinConflict()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **assertOrthogonal()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **assertSupportedFixesNameChangedEdge()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **clone()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **mutate()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **routeContainsChannel()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **segmentMeetsRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **favoritesStore.js** (18 connections) — `src/data/favoritesStore.js`
+- **persist()** (5 connections) — `src/data/favoritesStore.js`
+- **addFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **isFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **removeFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **toggleFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **clearFavorites()** (2 connections) — `src/data/favoritesStore.js`
+- **notify()** (2 connections) — `src/data/favoritesStore.js`
+- **favoritesState** (1 connections) — `src/data/favoritesStore.js`
+- **getFavorites()** (1 connections) — `src/data/favoritesStore.js`
+- **listeners** (1 connections) — `src/data/favoritesStore.js`
+- **loadFromStorage()** (1 connections) — `src/data/favoritesStore.js`
 
 ## Relationships
 
-- [[Community 91]] (2 shared connections)
-- [[Community 61]] (1 shared connections)
+- [[Community 38]] (4 shared connections)
+- [[Community 44]] (3 shared connections)
+- [[Community 89]] (1 shared connections)
+- [[Community 46]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- `src/data/favoritesStore.js`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 43 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

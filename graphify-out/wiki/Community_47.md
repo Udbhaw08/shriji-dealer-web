@@ -1,48 +1,56 @@
 # Community 47
 
-> 26 nodes · cohesion 0.11
+> 26 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **workflow-compiler.test.mjs** (27 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **assertReadableAdjacentResult()** (6 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **attribute()** (4 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **numericRect()** (4 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **edgeLabelRect()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **edgePoints()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **nodeRect()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **svgViewBox()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **asciiGroupLabelTextRect()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **assertRectInsideViewBox()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **compileSuccessfully()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **groupFrameRect()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **adjacentWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **asciiLaneHeaderTextRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **assertRectInsideRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **attributeOrUndefined()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **clone()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **legendGeometry()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **orthogonalSegmentIntersectsRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **readJson()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **rectsOverlap()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **session.js** (26 connections) — `src/data/session.js`
+- **productsStore.js** (19 connections) — `src/data/productsStore.js`
+- **Login.jsx** (18 connections) — `src/pages/Login.jsx`
+- **apiFetch()** (8 connections) — `src/data/api.js`
+- **apiUrl()** (8 connections) — `src/data/api.js`
+- **api.js** (6 connections) — `src/data/api.js`
+- **registerDealer()** (6 connections) — `src/data/dealer.js`
+- **setSession()** (5 connections) — `src/data/session.js`
+- **fetchLiveProducts()** (4 connections) — `src/data/productsStore.js`
+- **products.js** (3 connections) — `src/data/products.js`
+- **revalidateSession()** (3 connections) — `src/data/session.js`
+- **signOut()** (3 connections) — `src/data/session.js`
+- **CATEGORIES** (2 connections) — `src/data/products.js`
+- **emit()** (2 connections) — `src/data/productsStore.js`
+- **loadCached()** (2 connections) — `src/data/productsStore.js`
+- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
+- **useProduct()** (2 connections) — `src/data/productsStore.js`
+- **emit()** (2 connections) — `src/data/session.js`
+- **load()** (2 connections) — `src/data/session.js`
+- **PRODUCTS** (1 connections) — `src/data/products.js`
+- **listeners** (1 connections) — `src/data/productsStore.js`
+- **PREFERRED_ORDER** (1 connections) — `src/data/productsStore.js`
+- **storeState** (1 connections) — `src/data/productsStore.js`
+- **GUEST** (1 connections) — `src/data/session.js`
+- **state** (1 connections) — `src/data/session.js`
 - *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [[Community 91]] (2 shared connections)
-- [[Community 61]] (1 shared connections)
+- [[Community 38]] (16 shared connections)
+- [[Community 46]] (8 shared connections)
+- [[Community 44]] (8 shared connections)
+- [[Community 89]] (5 shared connections)
+- [[Community 117]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- `src/data/api.js`
+- `src/data/dealer.js`
+- `src/data/products.js`
+- `src/data/productsStore.js`
+- `src/data/session.js`
+- `src/pages/Login.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 75 (100%)
+- EXTRACTED: 130 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
