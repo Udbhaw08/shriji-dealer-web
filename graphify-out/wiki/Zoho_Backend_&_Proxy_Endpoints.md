@@ -33,16 +33,15 @@
 
 ## Relationships
 
-- [[Dependencies & Package Config]] (68 shared connections)
+- [[Dependencies & Package Config]] (69 shared connections)
 - [[Community 33]] (39 shared connections)
+- [[Claude Agent Instructions]] (28 shared connections)
+- [[Client Products Data Store]] (24 shared connections)
 - [[Design System & UI Tokens]] (23 shared connections)
-- [[Community 58]] (22 shared connections)
-- [[Master Codebase Architecture Reference]] (16 shared connections)
-- [[Community 64]] (16 shared connections)
-- [[Community 100]] (12 shared connections)
+- [[Community 88]] (13 shared connections)
 - [[Product Brand & Business Vision]] (8 shared connections)
-- [[Community 50]] (5 shared connections)
-- [[Community 66]] (2 shared connections)
+- [[Community 52]] (5 shared connections)
+- [[Community 67]] (2 shared connections)
 
 ## Source Files
 

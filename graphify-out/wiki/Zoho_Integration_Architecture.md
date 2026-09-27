@@ -34,7 +34,7 @@
 ## Relationships
 
 - [[Dependencies & Package Config]] (6 shared connections)
-- [[Community 40]] (4 shared connections)
+- [[Community 39]] (4 shared connections)
 
 ## Source Files
 

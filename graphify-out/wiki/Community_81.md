@@ -1,38 +1,46 @@
 # Community 81
 
-> 17 nodes · cohesion 0.12
+> 17 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **pricing.test.mjs** (19 connections) — `src/data/pricing.test.mjs`
-- **crystal** (1 connections) — `src/data/pricing.test.mjs`
-- **crystalDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **crystalGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **genericDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **genericGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **genericItem** (1 connections) — `src/data/pricing.test.mjs`
-- **kettle** (1 connections) — `src/data/pricing.test.mjs`
-- **kettleDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **kettleGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **tcjDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **tcjGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **tripleCookJumbo** (1 connections) — `src/data/pricing.test.mjs`
-- **vernaGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **vernaPlus** (1 connections) — `src/data/pricing.test.mjs`
-- **zeroItem** (1 connections) — `src/data/pricing.test.mjs`
-- **zeroPricedResult** (1 connections) — `src/data/pricing.test.mjs`
+- **qd()** (15 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **Yd()** (13 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **Fd()** (12 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **ut()** (11 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **Vd()** (11 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **Bd()** (6 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **Ci()** (6 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **Id()** (6 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **Rd()** (6 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **Hd()** (4 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **Ku()** (4 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **rs()** (4 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **Gd()** (3 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **Wd()** (3 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **Ld()** (2 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **Wt()** (2 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **Xd()** (2 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
 
 ## Relationships
 
-- [[Community 31]] (3 shared connections)
+- [[Dealer Auth & Session Management]] (23 shared connections)
+- [[Testing & Workflow Skill]] (8 shared connections)
+- [[Community 49]] (5 shared connections)
+- [[Graphify Workflow]] (4 shared connections)
+- [[Vercel Deployment Routing]] (4 shared connections)
+- [[Product Pages Specification]] (3 shared connections)
+- [[Community 30]] (2 shared connections)
+- [[Community 44]] (2 shared connections)
+- [[Graphify Agent Rules]] (1 shared connections)
 
 ## Source Files
 
-- `src/data/pricing.test.mjs`
+- `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 110 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

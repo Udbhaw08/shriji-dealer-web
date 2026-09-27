@@ -19,9 +19,10 @@
 
 ## Relationships
 
-- [[Master Codebase Architecture Reference]] (6 shared connections)
-- [[Community 98]] (3 shared connections)
-- [[Community 50]] (2 shared connections)
+- [[Claude Agent Instructions]] (3 shared connections)
+- [[Client Products Data Store]] (3 shared connections)
+- [[Community 100]] (3 shared connections)
+- [[Community 52]] (2 shared connections)
 - [[Community 84]] (1 shared connections)
 
 ## Source Files

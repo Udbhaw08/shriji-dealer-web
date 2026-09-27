@@ -1,56 +1,64 @@
 # Claude Agent Instructions
 
-> 40 nodes · cohesion 0.08
+> 39 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **vl()** (26 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **qd()** (15 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **Yd()** (13 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **Fd()** (12 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **yl()** (12 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **ut()** (11 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **Vd()** (11 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **bl()** (7 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **ef()** (7 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **fn()** (7 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **sa()** (7 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **Bd()** (6 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **Ci()** (6 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **Id()** (6 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **Oe()** (6 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **Rd()** (6 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **zd()** (6 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **cn()** (5 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **ea()** (5 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **Fo()** (5 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **ml()** (5 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **Hd()** (4 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **Ku()** (4 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **pl()** (4 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **Q()** (4 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- *... and 15 more nodes in this community*
+- **cli.mjs** (43 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **utils.mjs** (26 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **i18n.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **translateMessage()** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **writeDiagram()** (10 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **render-workflow.mjs** (10 connections) — `.agents/skills/archify/renderers/workflow/render-workflow.mjs`
+- **loadDiagram()** (9 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **applyTemplate()** (9 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **loadDiagramWithBrandMarks()** (8 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **settled-flow.test.mjs** (8 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **resolveLocale()** (7 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **componentContext()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **viewerCatalog()** (4 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **validateGuidedViews()** (3 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **validateRelationshipIds()** (3 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **localizeTemplate()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **translateCount()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **renderCards()** (3 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **formatMessage()** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **serializeScriptJson()** (2 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **outputPathGuards** (1 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **RELATIONSHIP_COLLECTIONS** (1 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **SEMANTIC_COLLECTIONS** (1 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **START_TYPES** (1 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **CATALOGS** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (46 shared connections)
-- [[Pricing Regression Test Suite]] (13 shared connections)
-- [[Vercel Deployment Routing]] (13 shared connections)
-- [[Live Pricing Audit Tool]] (12 shared connections)
-- [[Zoho Integration Skill]] (8 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (7 shared connections)
-- [[Community 71]] (6 shared connections)
-- [[Community 29]] (3 shared connections)
-- [[Community 37]] (3 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (28 shared connections)
+- [[Client Products Data Store]] (16 shared connections)
+- [[Community 33]] (12 shared connections)
+- [[Design System & UI Tokens]] (7 shared connections)
+- [[Dependencies & Package Config]] (7 shared connections)
+- [[Community 94]] (5 shared connections)
+- [[Product Brand & Business Vision]] (4 shared connections)
+- [[Community 79]] (4 shared connections)
+- [[Community 93]] (3 shared connections)
+- [[Community 110]] (3 shared connections)
+- [[Community 130]] (3 shared connections)
+- [[Community 164]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-C1AeKaZg.js`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/shared/cli.mjs`
+- `.agents/skills/archify/renderers/shared/i18n.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `.agents/skills/archify/renderers/workflow/render-workflow.mjs`
+- `.agents/skills/archify/test/settled-flow.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 241 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 217 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

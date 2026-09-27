@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **labelSegment** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **col** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 - **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 - **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- [[Graphify Knowledge Graph Skill]] (1 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (1 shared connections)
 
 ## Source Files
 

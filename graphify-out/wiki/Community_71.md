@@ -1,48 +1,44 @@
 # Community 71
 
-> 19 nodes · cohesion 0.25
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **get()** (22 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **np()** (20 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **zt()** (19 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **bm()** (13 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **am()** (10 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **on()** (9 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **mm()** (8 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **tm()** (8 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **jm()** (7 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **om()** (7 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **zm()** (7 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **nm()** (6 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **qm()** (6 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **Rt()** (6 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **km()** (5 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **Um()** (4 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **jp()** (3 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **oh()** (3 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
-- **Vm()** (3 connections) — `ios/App/App/public/assets/index-C1AeKaZg.js`
+- **properties** (13 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **animation** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **engineering_profile** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **locale** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **output** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **subtitle** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **views** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (23 shared connections)
-- [[Community 29]] (11 shared connections)
-- [[Community 37]] (9 shared connections)
-- [[Zoho Integration Skill]] (8 shared connections)
-- [[Vercel Deployment Routing]] (8 shared connections)
-- [[Live Pricing Audit Tool]] (6 shared connections)
-- [[Claude Agent Instructions]] (6 shared connections)
-- [[Pricing Regression Test Suite]] (5 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (4 shared connections)
+- [[Community 114]] (1 shared connections)
+- [[Community 92]] (1 shared connections)
+- [[Community 199]] (1 shared connections)
+- [[Community 62]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-C1AeKaZg.js`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 166 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

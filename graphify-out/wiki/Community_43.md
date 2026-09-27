@@ -33,16 +33,16 @@
 
 ## Relationships
 
-- [[Community 52]] (11 shared connections)
-- [[Community 70]] (8 shared connections)
-- [[Community 65]] (7 shared connections)
-- [[Community 93]] (7 shared connections)
-- [[Community 40]] (5 shared connections)
-- [[Community 103]] (5 shared connections)
+- [[Community 54]] (11 shared connections)
+- [[Community 72]] (8 shared connections)
+- [[Community 66]] (7 shared connections)
+- [[Community 95]] (7 shared connections)
+- [[Community 39]] (5 shared connections)
 - [[Community 104]] (5 shared connections)
+- [[Community 105]] (5 shared connections)
 - [[Community 118]] (4 shared connections)
 - [[Community 80]] (1 shared connections)
-- [[Community 171]] (1 shared connections)
+- [[Community 172]] (1 shared connections)
 
 ## Source Files
 

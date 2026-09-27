@@ -1,59 +1,57 @@
 # Community 44
 
-> 26 nodes · cohesion 0.17
+> 26 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **ui.jsx** (37 connections) — `src/ui.jsx`
-- **Home.jsx** (24 connections) — `src/pages/Home.jsx`
-- **site.js** (20 connections) — `src/data/site.js`
-- **Support.jsx** (15 connections) — `src/pages/Support.jsx`
-- **Icon()** (15 connections) — `src/ui.jsx`
-- **Schemes.jsx** (14 connections) — `src/pages/Schemes.jsx`
-- **COMPANY** (12 connections) — `src/data/site.js`
-- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
-- **HeroSlider.jsx** (7 connections) — `src/components/HeroSlider.jsx`
-- **UnderMaintenance()** (5 connections) — `src/components/UnderMaintenance.jsx`
-- **EnquiryButtons()** (4 connections) — `src/ui.jsx`
-- **HeroSlider()** (3 connections) — `src/components/HeroSlider.jsx`
-- **SCHEMES** (3 connections) — `src/data/site.js`
-- **STATS** (3 connections) — `src/data/site.js`
-- **ISSUE_TYPES** (2 connections) — `src/data/site.js`
-- **MATERIALS** (2 connections) — `src/data/site.js`
-- **NAV** (2 connections) — `src/data/site.js`
-- **QUICK_ACCESS** (2 connections) — `src/data/site.js`
-- **QUICK_NAV** (2 connections) — `src/data/site.js`
-- **useAutoScroll()** (2 connections) — `src/pages/Home.jsx`
-- **LangToggle()** (2 connections) — `src/ui.jsx`
-- **STORE_BANNERS** (1 connections) — `src/components/HeroSlider.jsx`
-- **DealerField()** (1 connections) — `src/pages/Support.jsx`
-- **base** (1 connections) — `src/ui.jsx`
-- **Mark()** (1 connections) — `src/ui.jsx`
+- **get()** (22 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **E()** (20 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **np()** (20 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **zt()** (19 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **bm()** (14 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **lm()** (13 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **am()** (11 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **on()** (10 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **la()** (9 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **mm()** (9 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **jm()** (8 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **om()** (8 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **tm()** (8 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **zm()** (7 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **C()** (6 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **km()** (6 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **nm()** (6 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **qm()** (6 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **Rt()** (6 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **dm()** (4 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **im()** (4 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **rm()** (4 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **Um()** (4 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **ca()** (3 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **pp()** (3 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
 - *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [[Community 48]] (41 shared connections)
-- [[Community 31]] (15 shared connections)
-- [[Community 49]] (8 shared connections)
-- [[Community 89]] (7 shared connections)
-- [[Community 113]] (5 shared connections)
-- [[Community 112]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (31 shared connections)
+- [[Product Pages Specification]] (14 shared connections)
+- [[Zoho Integration Skill]] (13 shared connections)
+- [[Testing & Workflow Skill]] (13 shared connections)
+- [[Graphify Agent Rules]] (10 shared connections)
+- [[Vercel Deployment Routing]] (9 shared connections)
+- [[Community 30]] (9 shared connections)
+- [[Community 49]] (6 shared connections)
+- [[Community 81]] (2 shared connections)
+- [[Graphify Workflow]] (2 shared connections)
 
 ## Source Files
 
-- `src/components/HeroSlider.jsx`
-- `src/components/UnderMaintenance.jsx`
-- `src/data/site.js`
-- `src/pages/Home.jsx`
-- `src/pages/Schemes.jsx`
-- `src/pages/Support.jsx`
-- `src/ui.jsx`
+- `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
 
 ## Audit Trail
 
-- EXTRACTED: 188 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 233 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

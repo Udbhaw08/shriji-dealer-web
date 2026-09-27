@@ -1,55 +1,58 @@
 # Community 32
 
-> 34 nodes · cohesion 0.11
+> 35 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **Z()** (24 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **Au()** (17 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **ht()** (12 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **hu()** (11 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **xl()** (11 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **vu()** (10 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **Cu()** (9 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **pn()** (8 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **go()** (7 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **ju()** (7 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **Lu()** (6 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **xc()** (6 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **zu()** (6 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **Iu()** (5 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **ja()** (5 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **kl()** (5 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **Ou()** (5 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **_u()** (5 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **wl()** (5 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **eu()** (4 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **gm()** (4 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **gu()** (4 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **pf()** (4 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **tu()** (4 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **Uu()** (4 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- *... and 9 more nodes in this community*
+- **Product.jsx** (36 connections) — `src/pages/Product.jsx`
+- **dealer.js** (29 connections) — `src/data/dealer.js`
+- **ProductCard.jsx** (19 connections) — `src/components/ProductCard.jsx`
+- **dealer.test.mjs** (18 connections) — `src/data/dealer.test.mjs`
+- **Product()** (16 connections) — `src/pages/Product.jsx`
+- **PriceBlock.jsx** (15 connections) — `src/components/PriceBlock.jsx`
+- **ProductCard()** (15 connections) — `src/components/ProductCard.jsx`
+- **isDealer()** (15 connections) — `src/data/dealer.js`
+- **priceFor()** (14 connections) — `src/data/dealer.js`
+- **inr()** (11 connections) — `src/data/dealer.js`
+- **viewerFor()** (8 connections) — `src/data/dealer.js`
+- **CustomerPrice()** (7 connections) — `src/components/PriceBlock.jsx`
+- **productSlug()** (7 connections) — `src/data/dealer.js`
+- **shareLink()** (7 connections) — `src/data/dealer.js`
+- **tagFor()** (6 connections) — `src/data/dealer.js`
+- **DealerPrice()** (5 connections) — `src/components/PriceBlock.jsx`
+- **formatWhatsAppPhone()** (4 connections) — `src/data/dealer.js`
+- **slugifyProduct()** (4 connections) — `src/data/dealer.js`
+- **tierOf()** (4 connections) — `src/data/dealer.js`
+- **DEALERS** (3 connections) — `src/data/dealer.js`
+- **isFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **featureBoxes()** (3 connections) — `src/pages/Product.jsx`
+- **PriceBlock()** (2 connections) — `src/components/PriceBlock.jsx`
+- **price99()** (2 connections) — `src/data/dealer.js`
+- **BAND** (1 connections) — `src/data/dealer.js`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (38 shared connections)
-- [[Roles & Customer Sharing Spec]] (15 shared connections)
-- [[Product Pages Specification]] (12 shared connections)
-- [[Community 47]] (10 shared connections)
-- [[Client Products Data Store]] (5 shared connections)
-- [[Community 35]] (5 shared connections)
-- [[Graphify Workflow]] (4 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (4 shared connections)
-- [[Community 38]] (2 shared connections)
+- [[Community 50]] (40 shared connections)
+- [[Community 45]] (15 shared connections)
+- [[Community 51]] (14 shared connections)
+- [[Community 90]] (11 shared connections)
+- [[Community 113]] (4 shared connections)
+- [[Community 112]] (3 shared connections)
+- [[Community 82]] (3 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
+- `src/components/PriceBlock.jsx`
+- `src/components/ProductCard.jsx`
+- `src/data/dealer.js`
+- `src/data/dealer.test.mjs`
+- `src/data/favoritesStore.js`
+- `src/pages/Product.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 213 (100%)
+- EXTRACTED: 264 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

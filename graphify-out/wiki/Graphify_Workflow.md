@@ -1,55 +1,56 @@
 # Graphify Workflow
 
-> 37 nodes · cohesion 0.11
+> 36 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **.addEventListener()** (18 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **b()** (17 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **fp()** (14 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **h()** (14 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **.removeEventListener()** (12 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **tp()** (10 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **ip()** (9 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **gn()** (8 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **sn()** (8 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **cm()** (7 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **lp()** (7 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **em()** (6 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **.blur()** (6 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **.scrollIntoView()** (6 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **g()** (6 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **yn()** (6 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **pm()** (5 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **Rp()** (5 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **tn()** (5 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **uh()** (5 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **un()** (5 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **an()** (4 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **Bp()** (4 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **.getClientRects()** (4 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- **up()** (4 connections) — `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
-- *... and 12 more nodes in this community*
+- **Pd()** (15 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **s()** (12 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **delete()** (11 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **cc()** (10 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **Ei()** (9 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **hh()** (9 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **yh()** (9 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **fc()** (8 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **jd()** (8 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **gf()** (7 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **mh()** (7 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **oc()** (7 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **tc()** (7 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **ph()** (6 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **uc()** (6 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **vs()** (6 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **ys()** (6 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **dh()** (5 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **ho()** (5 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **Ih()** (5 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **Sh()** (5 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **wi()** (5 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **bh()** (4 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **dc()** (4 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **ec()** (4 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (33 shared connections)
-- [[Client Products Data Store]] (16 shared connections)
-- [[Community 47]] (13 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (9 shared connections)
-- [[Product Pages Specification]] (7 shared connections)
-- [[Community 32]] (4 shared connections)
-- [[Community 35]] (4 shared connections)
-- [[Roles & Customer Sharing Spec]] (3 shared connections)
-- [[Community 38]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (41 shared connections)
+- [[Vercel Deployment Routing]] (14 shared connections)
+- [[Product Pages Specification]] (14 shared connections)
+- [[Zoho Integration Skill]] (5 shared connections)
+- [[Testing & Workflow Skill]] (5 shared connections)
+- [[Graphify Agent Rules]] (5 shared connections)
+- [[Community 30]] (5 shared connections)
+- [[Community 81]] (4 shared connections)
+- [[Community 44]] (2 shared connections)
+- [[Community 49]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-C1AeKaZg.js`
+- `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
 
 ## Audit Trail
 
-- EXTRACTED: 230 (100%)
+- EXTRACTED: 215 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

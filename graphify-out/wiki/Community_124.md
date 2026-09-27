@@ -17,7 +17,7 @@
 
 ## Relationships
 
-- [[Pricing & Roles Skill]] (3 shared connections)
+- [[Graphify Knowledge Graph Skill]] (3 shared connections)
 - [[Community 85]] (3 shared connections)
 
 ## Source Files

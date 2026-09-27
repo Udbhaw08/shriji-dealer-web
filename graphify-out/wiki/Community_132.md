@@ -17,8 +17,8 @@
 
 ## Relationships
 
-- [[Community 74]] (1 shared connections)
-- [[Master Codebase Architecture Reference]] (1 shared connections)
+- [[Community 35]] (1 shared connections)
+- [[Client Products Data Store]] (1 shared connections)
 
 ## Source Files
 

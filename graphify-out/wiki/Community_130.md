@@ -17,8 +17,8 @@
 
 ## Relationships
 
-- [[Master Codebase Architecture Reference]] (3 shared connections)
-- [[Community 56]] (2 shared connections)
+- [[Claude Agent Instructions]] (3 shared connections)
+- [[Community 58]] (2 shared connections)
 - [[Community 79]] (2 shared connections)
 
 ## Source Files

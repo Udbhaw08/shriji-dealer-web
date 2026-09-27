@@ -1,55 +1,55 @@
 # Community 49
 
-> 25 nodes · cohesion 0.15
+> 25 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **session.js** (26 connections) — `src/data/session.js`
-- **productsStore.js** (19 connections) — `src/data/productsStore.js`
-- **Login.jsx** (18 connections) — `src/pages/Login.jsx`
-- **apiFetch()** (8 connections) — `src/data/api.js`
-- **apiUrl()** (8 connections) — `src/data/api.js`
-- **api.js** (6 connections) — `src/data/api.js`
-- **registerDealer()** (6 connections) — `src/data/dealer.js`
-- **setSession()** (5 connections) — `src/data/session.js`
-- **fetchLiveProducts()** (4 connections) — `src/data/productsStore.js`
-- **products.js** (3 connections) — `src/data/products.js`
-- **revalidateSession()** (3 connections) — `src/data/session.js`
-- **signOut()** (3 connections) — `src/data/session.js`
-- **CATEGORIES** (2 connections) — `src/data/products.js`
-- **emit()** (2 connections) — `src/data/productsStore.js`
-- **loadCached()** (2 connections) — `src/data/productsStore.js`
-- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
-- **emit()** (2 connections) — `src/data/session.js`
-- **load()** (2 connections) — `src/data/session.js`
-- **PRODUCTS** (1 connections) — `src/data/products.js`
-- **listeners** (1 connections) — `src/data/productsStore.js`
-- **PREFERRED_ORDER** (1 connections) — `src/data/productsStore.js`
-- **storeState** (1 connections) — `src/data/productsStore.js`
-- **GUEST** (1 connections) — `src/data/session.js`
-- **state** (1 connections) — `src/data/session.js`
-- **subs** (1 connections) — `src/data/session.js`
+- **vl()** (26 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **yl()** (12 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **bl()** (7 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **ef()** (7 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **fn()** (7 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **sa()** (7 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **Oe()** (6 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **ua()** (6 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **zd()** (6 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **cn()** (5 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **ea()** (5 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **Fo()** (5 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **hm()** (5 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **ml()** (5 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **pl()** (4 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **Q()** (4 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **Ro()** (4 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **tf()** (4 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **ep()** (3 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **Ud()** (3 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **Ym()** (3 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **da()** (2 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **gl()** (2 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **ve()** (2 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
+- **Wf()** (2 connections) — `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
 
 ## Relationships
 
-- [[Community 31]] (14 shared connections)
-- [[Community 48]] (10 shared connections)
-- [[Community 44]] (8 shared connections)
-- [[Community 89]] (5 shared connections)
-- [[Community 113]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (25 shared connections)
+- [[Product Pages Specification]] (13 shared connections)
+- [[Community 44]] (6 shared connections)
+- [[Community 30]] (6 shared connections)
+- [[Community 81]] (5 shared connections)
+- [[Testing & Workflow Skill]] (5 shared connections)
+- [[Zoho Integration Skill]] (4 shared connections)
+- [[Vercel Deployment Routing]] (4 shared connections)
+- [[Graphify Agent Rules]] (4 shared connections)
+- [[Graphify Workflow]] (2 shared connections)
 
 ## Source Files
 
-- `src/data/api.js`
-- `src/data/dealer.js`
-- `src/data/products.js`
-- `src/data/productsStore.js`
-- `src/data/session.js`
-- `src/pages/Login.jsx`
+- `android/app/src/main/assets/public/assets/index-D1Jftt-9.js`
 
 ## Audit Trail
 
-- EXTRACTED: 128 (100%)
+- EXTRACTED: 142 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

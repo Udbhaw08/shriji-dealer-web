@@ -1,6 +1,6 @@
 # Dependencies & Package Config
 
-> 65 nodes · cohesion 0.11
+> 64 nodes · cohesion 0.11
 
 ## Key Concepts
 
@@ -16,6 +16,7 @@
 - **cleanFlowProblems()** (17 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
 - **rectsOverlap()** (16 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
 - **validateSequence()** (15 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **throwDiagnosticProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
 - **cleanAmbiguousCorridorProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
 - **cleanBorderRunProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
 - **cleanRouteRhythmProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
@@ -28,22 +29,20 @@
 - **minimumNodeTextWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
 - **availableNodeTextWidth()** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
 - **collectBorderRuns()** (10 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **normalizeRoutePoints()** (10 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- *... and 40 more nodes in this community*
+- *... and 39 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (68 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (69 shared connections)
+- [[Client Products Data Store]] (52 shared connections)
 - [[Community 33]] (48 shared connections)
-- [[Design System & UI Tokens]] (47 shared connections)
-- [[Community 64]] (33 shared connections)
-- [[Community 100]] (18 shared connections)
-- [[Master Codebase Architecture Reference]] (12 shared connections)
-- [[Community 58]] (11 shared connections)
+- [[Design System & UI Tokens]] (42 shared connections)
+- [[Community 88]] (21 shared connections)
+- [[Claude Agent Instructions]] (7 shared connections)
 - [[Zoho Integration Architecture]] (6 shared connections)
-- [[Community 171]] (3 shared connections)
+- [[Community 172]] (3 shared connections)
 - [[Product Brand & Business Vision]] (2 shared connections)
-- [[Community 163]] (1 shared connections)
+- [[Community 164]] (1 shared connections)
 
 ## Source Files
 

@@ -35,11 +35,10 @@
 
 - [[Dependencies & Package Config]] (48 shared connections)
 - [[Zoho Backend & Proxy Endpoints]] (39 shared connections)
-- [[Community 58]] (13 shared connections)
-- [[Design System & UI Tokens]] (9 shared connections)
-- [[Community 100]] (9 shared connections)
-- [[Community 64]] (9 shared connections)
-- [[Master Codebase Architecture Reference]] (7 shared connections)
+- [[Client Products Data Store]] (17 shared connections)
+- [[Claude Agent Instructions]] (12 shared connections)
+- [[Community 88]] (10 shared connections)
+- [[Design System & UI Tokens]] (8 shared connections)
 - [[Product Brand & Business Vision]] (1 shared connections)
 
 ## Source Files

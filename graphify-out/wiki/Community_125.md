@@ -17,7 +17,7 @@
 
 ## Relationships
 
-- [[Community 54]] (1 shared connections)
+- [[Community 56]] (1 shared connections)
 
 ## Source Files
 

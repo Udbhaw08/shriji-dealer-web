@@ -4,59 +4,53 @@
 
 ## Key Concepts
 
-- **visual-check.mjs** (50 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **runVisualCheck()** (18 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **desktop-readability.mjs** (9 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **adaptive-reader-layout.test.mjs** (9 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **desktop-reader-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
-- **DESKTOP_READABILITY_VIEWPORT** (5 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **observationDiagnostics()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **safeUnlink()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **writeAtomic()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **baseReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **cleanupCaptureSidecars()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **contactSheetHtml()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **failureDiagnostic()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **persistReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **sha256()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **sidecarPaths()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **htmlEscape()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **observation()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **screenshotKey()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **viewportSubject()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **CAPTURE_VIEWPORTS** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **EXIT** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **THEMES** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **reader** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **b()** (18 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **.addEventListener()** (18 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **fp()** (14 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **h()** (14 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **.removeEventListener()** (12 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **tp()** (10 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **ip()** (9 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **cm()** (7 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **lp()** (7 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **em()** (6 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **.blur()** (6 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **.scrollIntoView()** (6 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **g()** (6 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **pm()** (5 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **Rp()** (5 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **uh()** (5 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **Bp()** (4 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **.getClientRects()** (4 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **up()** (4 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **Vp()** (4 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **dn()** (3 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **.focusLast()** (3 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **.unobserveUsing()** (3 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **jp()** (3 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **oh()** (3 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
 - *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [[Community 65]] (8 shared connections)
-- [[Community 93]] (6 shared connections)
-- [[Community 43]] (5 shared connections)
-- [[Zoho Integration Architecture]] (4 shared connections)
-- [[Community 52]] (3 shared connections)
-- [[Design System & UI Tokens]] (3 shared connections)
-- [[Community 88]] (2 shared connections)
-- [[Community 70]] (2 shared connections)
-- [[Community 80]] (2 shared connections)
-- [[Community 103]] (1 shared connections)
-- [[Community 104]] (1 shared connections)
-- [[Community 92]] (1 shared connections)
+- [[Price Presentation & Product UI]] (26 shared connections)
+- [[Pricing Regression Test Suite]] (13 shared connections)
+- [[Community 46]] (12 shared connections)
+- [[Roles & Customer Sharing Spec]] (8 shared connections)
+- [[Community 29]] (4 shared connections)
+- [[Product Requirements Documentation]] (4 shared connections)
+- [[Community 42]] (4 shared connections)
+- [[Community 76]] (3 shared connections)
+- [[Live Pricing Audit Tool]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- `ios/App/App/public/assets/index-D1Jftt-9.js`
 
 ## Audit Trail
 
-- EXTRACTED: 150 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 193 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

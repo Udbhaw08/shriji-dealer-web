@@ -25,10 +25,10 @@
 
 ## Relationships
 
-- [[Community 30]] (4 shared connections)
-- [[Master Codebase Architecture Reference]] (4 shared connections)
-- [[Community 56]] (3 shared connections)
-- [[Community 88]] (2 shared connections)
+- [[Community 31]] (4 shared connections)
+- [[Claude Agent Instructions]] (4 shared connections)
+- [[Community 58]] (3 shared connections)
+- [[Community 89]] (2 shared connections)
 - [[Community 130]] (2 shared connections)
 
 ## Source Files

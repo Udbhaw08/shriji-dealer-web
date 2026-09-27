@@ -99,6 +99,8 @@ export default function Product() {
   const [shotError, setShotError] = useState(false);
   const [tab, setTab] = useState(TAB_ITEMS[0].key);
   const [copied, setCopied] = useState(false);
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [lightboxIdx, setLightboxIdx] = useState(0);
 
   const thumbsRef = useRef(null);
   const touchRef = useRef({ startX: 0, startY: 0, time: 0 });
@@ -241,6 +243,37 @@ export default function Product() {
       nextShot();
     }
   };
+
+  // ---- Image Lightbox (fullscreen zoom like Amazon/Myntra) ----
+  const openLightbox = (idx) => {
+    setLightboxIdx(idx);
+    setLightboxOpen(true);
+  };
+
+  const closeLightbox = () => setLightboxOpen(false);
+
+  const lightboxPrev = () => {
+    setLightboxIdx((i) => (i > 0 ? i - 1 : shots.length - 1));
+  };
+  const lightboxNext = () => {
+    setLightboxIdx((i) => (i < shots.length - 1 ? i + 1 : 0));
+  };
+
+  // Escape key closes lightbox & body scroll lock
+  useEffect(() => {
+    if (!lightboxOpen) return;
+    document.body.style.overflow = "hidden";
+    const onKey = (e) => {
+      if (e.key === "Escape") closeLightbox();
+      if (e.key === "ArrowLeft") lightboxPrev();
+      if (e.key === "ArrowRight") lightboxNext();
+    };
+    window.addEventListener("keydown", onKey);
+    return () => {
+      document.body.style.overflow = "";
+      window.removeEventListener("keydown", onKey);
+    };
+  }, [lightboxOpen, shots.length]);
 
   if (!p) {
     if (!loaded) {
@@ -401,6 +434,8 @@ export default function Product() {
                   alt={`${p.name}, view ${shot + 1} of ${shots.length}`}
                   onError={() => setShotError(true)}
                   draggable={false}
+                  onClick={() => openLightbox(shot)}
+                  style={{ cursor: "zoom-in", pointerEvents: "auto" }}
                 />
               ) : (
                 <Icon name={p.cat === "chimneys" ? "chimney" : p.cat === "small_appliances" ? "blender" : "stove"} size={90} style={{ color: "var(--tx-3)" }} />
@@ -621,6 +656,72 @@ export default function Product() {
           </div>
         )}
       </div>
+
+      {/* ---- Image Lightbox Modal (Amazon/Myntra style) ---- */}
+      {lightboxOpen && shots.length > 0 && (
+        <div
+          className="image-lightbox-backdrop"
+          onClick={closeLightbox}
+          role="dialog"
+          aria-modal="true"
+          aria-label="Fullscreen product image"
+        >
+          <button
+            type="button"
+            className="image-lightbox-close"
+            onClick={closeLightbox}
+            aria-label="Close image viewer"
+          >
+            <Icon name="close" size={20} />
+          </button>
+
+          <div className="image-lightbox-img-container" onClick={(e) => e.stopPropagation()}>
+            {shots.length > 1 && (
+              <button
+                type="button"
+                className="image-lightbox-nav image-lightbox-nav-prev"
+                onClick={lightboxPrev}
+                aria-label="Previous image"
+              >
+                <Icon name="chevleft" size={20} />
+              </button>
+            )}
+
+            <img
+              key={shots[lightboxIdx]}
+              src={shots[lightboxIdx]?.startsWith("http") ? shots[lightboxIdx] : `/img/${shots[lightboxIdx]}`}
+              alt={`${p.name}, fullscreen view ${lightboxIdx + 1} of ${shots.length}`}
+              draggable={false}
+            />
+
+            {shots.length > 1 && (
+              <button
+                type="button"
+                className="image-lightbox-nav image-lightbox-nav-next"
+                onClick={lightboxNext}
+                aria-label="Next image"
+              >
+                <Icon name="chev" size={20} />
+              </button>
+            )}
+          </div>
+
+          <div className="image-lightbox-footer" onClick={(e) => e.stopPropagation()}>
+            <span className="image-lightbox-counter">
+              {lightboxIdx + 1} / {shots.length}
+            </span>
+            <a
+              className="image-lightbox-download"
+              href={shots[lightboxIdx]?.startsWith("http") ? shots[lightboxIdx] : `/img/${shots[lightboxIdx]}`}
+              download={`${p.name || "product"}-image-${lightboxIdx + 1}`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Icon name="download" size={14} /> Download
+            </a>
+          </div>
+        </div>
+      )}
     </section>
   );
 }

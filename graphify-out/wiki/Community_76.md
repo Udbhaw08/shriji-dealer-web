@@ -1,39 +1,48 @@
 # Community 76
 
-> 18 nodes · cohesion 0.11
+> 18 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **DESIGN.md — the design system as actually built** (8 connections) — `docs/DESIGN.md`
-- **4. Components already built — reuse these** (7 connections) — `docs/DESIGN.md`
-- **2. Tokens** (4 connections) — `docs/DESIGN.md`
-- **DESIGN.md** (1 connections) — `docs/DESIGN.md`
-- **1. The direction in one paragraph** (1 connections) — `docs/DESIGN.md`
-- **3. Layout primitives** (1 connections) — `docs/DESIGN.md`
-- **5. Icons** (1 connections) — `docs/DESIGN.md`
-- **6. Responsive rules** (1 connections) — `docs/DESIGN.md`
-- **7. Motion and accessibility** (1 connections) — `docs/DESIGN.md`
-- **Actions** (1 connections) — `docs/DESIGN.md`
-- **Colour** (1 connections) — `docs/DESIGN.md`
-- **Content** (1 connections) — `docs/DESIGN.md`
-- **Detail** (1 connections) — `docs/DESIGN.md`
-- **Listing sidebar** (1 connections) — `docs/DESIGN.md`
-- **Navigation and filtering** (1 connections) — `docs/DESIGN.md`
-- **Product** (1 connections) — `docs/DESIGN.md`
-- **Spacing, radius, shadow, motion** (1 connections) — `docs/DESIGN.md`
-- **Type** (1 connections) — `docs/DESIGN.md`
+- **delete()** (11 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **Ei()** (9 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **hh()** (9 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **yh()** (9 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **gf()** (7 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **mh()** (7 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **ph()** (6 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **Ih()** (5 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **Sh()** (5 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **wi()** (5 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **bh()** (4 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **fh()** (4 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **pt()** (4 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **vf()** (4 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **hf()** (3 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **hl()** (3 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **vh()** (3 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **zh()** (2 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (22 shared connections)
+- [[Product Requirements Documentation]] (8 shared connections)
+- [[Pricing Regression Test Suite]] (6 shared connections)
+- [[Community 40]] (3 shared connections)
+- [[Roles & Customer Sharing Spec]] (3 shared connections)
+- [[Community 29]] (3 shared connections)
+- [[Community 46]] (2 shared connections)
+- [[Live Pricing Audit Tool]] (2 shared connections)
+- [[Community 69]] (2 shared connections)
+- [[Community 42]] (1 shared connections)
 
 ## Source Files
 
-- `docs/DESIGN.md`
+- `ios/App/App/public/assets/index-D1Jftt-9.js`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
+- EXTRACTED: 100 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

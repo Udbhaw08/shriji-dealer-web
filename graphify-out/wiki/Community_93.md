@@ -1,48 +1,38 @@
 # Community 93
 
-> 14 nodes · cohesion 0.19
+> 15 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **findChrome()** (22 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **export-cleanup-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **viewer-identifiers-browser.test.mjs** (7 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **evaluate()** (4 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **executable()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **findOnPath()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **run()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **exported()** (2 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **engineering-profiles.mjs** (10 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **engineering-profile.test.mjs** (10 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **validateEngineeringProfile()** (6 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **deploymentOwnershipDiagnostics()** (4 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **subject()** (2 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **DEPLOYMENT_BOUNDARY_KINDS** (1 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **membership()** (1 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **PRIVATE_STATE_TYPES** (1 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **clone()** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **example** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **examplePath** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **validateJson()** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
 
 ## Relationships
 
-- [[Community 43]] (7 shared connections)
-- [[Community 40]] (6 shared connections)
-- [[Community 70]] (2 shared connections)
-- [[Community 52]] (2 shared connections)
-- [[Community 65]] (2 shared connections)
-- [[Community 103]] (1 shared connections)
-- [[Community 104]] (1 shared connections)
-- [[Community 92]] (1 shared connections)
-- [[Zoho API Diagnostic Script]] (1 shared connections)
-- [[Community 118]] (1 shared connections)
-- [[Community 149]] (1 shared connections)
-- [[Community 105]] (1 shared connections)
+- [[Claude Agent Instructions]] (3 shared connections)
+- [[Client Products Data Store]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- `.agents/skills/archify/test/engineering-profile.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 62 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

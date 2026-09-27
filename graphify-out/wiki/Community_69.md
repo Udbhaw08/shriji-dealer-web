@@ -1,44 +1,49 @@
 # Community 69
 
-> 20 nodes · cohesion 0.10
+> 20 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **properties** (13 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **title** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **animation** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **engineering_profile** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **locale** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **output** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **subtitle** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **views** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minLength** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **qd()** (15 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **Yd()** (13 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **Fd()** (12 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **ut()** (11 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **Vd()** (11 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **ef()** (7 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **Bd()** (6 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **Ci()** (6 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **Id()** (6 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **Rd()** (6 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **zd()** (6 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **Hd()** (4 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **Ku()** (4 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **rs()** (4 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **tf()** (4 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **Gd()** (3 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **Wd()** (3 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **Ld()** (2 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **Wt()** (2 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
+- **Xd()** (2 connections) — `ios/App/App/public/assets/index-D1Jftt-9.js`
 
 ## Relationships
 
-- [[Community 114]] (1 shared connections)
-- [[Community 91]] (1 shared connections)
-- [[Community 198]] (1 shared connections)
-- [[Community 60]] (1 shared connections)
+- [[Price Presentation & Product UI]] (25 shared connections)
+- [[Roles & Customer Sharing Spec]] (11 shared connections)
+- [[Product Requirements Documentation]] (7 shared connections)
+- [[Community 42]] (5 shared connections)
+- [[Pricing Regression Test Suite]] (5 shared connections)
+- [[Community 46]] (3 shared connections)
+- [[Live Pricing Audit Tool]] (2 shared connections)
+- [[Community 76]] (2 shared connections)
+- [[Community 29]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `ios/App/App/public/assets/index-D1Jftt-9.js`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 127 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
