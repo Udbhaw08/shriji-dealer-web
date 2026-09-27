@@ -1,59 +1,52 @@
 # Community 42
 
-> 26 nodes · cohesion 0.17
+> 30 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **ui.jsx** (37 connections) — `src/ui.jsx`
-- **Home.jsx** (24 connections) — `src/pages/Home.jsx`
-- **site.js** (20 connections) — `src/data/site.js`
-- **Support.jsx** (15 connections) — `src/pages/Support.jsx`
-- **Icon()** (15 connections) — `src/ui.jsx`
-- **Schemes.jsx** (14 connections) — `src/pages/Schemes.jsx`
-- **COMPANY** (12 connections) — `src/data/site.js`
-- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
-- **HeroSlider.jsx** (7 connections) — `src/components/HeroSlider.jsx`
-- **UnderMaintenance()** (5 connections) — `src/components/UnderMaintenance.jsx`
-- **EnquiryButtons()** (4 connections) — `src/ui.jsx`
-- **HeroSlider()** (3 connections) — `src/components/HeroSlider.jsx`
-- **SCHEMES** (3 connections) — `src/data/site.js`
-- **STATS** (3 connections) — `src/data/site.js`
-- **ISSUE_TYPES** (2 connections) — `src/data/site.js`
-- **MATERIALS** (2 connections) — `src/data/site.js`
-- **NAV** (2 connections) — `src/data/site.js`
-- **QUICK_ACCESS** (2 connections) — `src/data/site.js`
-- **QUICK_NAV** (2 connections) — `src/data/site.js`
-- **useAutoScroll()** (2 connections) — `src/pages/Home.jsx`
-- **LangToggle()** (2 connections) — `src/ui.jsx`
-- **STORE_BANNERS** (1 connections) — `src/components/HeroSlider.jsx`
-- **DealerField()** (1 connections) — `src/pages/Support.jsx`
-- **base** (1 connections) — `src/ui.jsx`
-- **Mark()** (1 connections) — `src/ui.jsx`
-- *... and 1 more nodes in this community*
+- **check-update.mjs** (99 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **encodeRecoverableState()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **guardedCacheEntryRead()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **notification()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **operationIsActive()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stateAfterFailedCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stateWithFailureCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertSafeCacheEntry()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cancelResponseBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **corruptClaimStatus()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **encodeBoundedState()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **eventKeyForDigest()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **metadataIsWithinLease()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **nextFailedCheck()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **readBoundedBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stateAfterAcknowledgement()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertRenameableCacheEntry()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertSafeRegularFile()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **CacheOperationRaceError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **CachePathChangedError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **defaultCacheDirectory()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **defaultReleasePath** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **FileIdentityChangedError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **isMainModule()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **MAX_CACHE_HORIZON_MS** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [[Community 45]] (41 shared connections)
-- [[Community 31]] (15 shared connections)
-- [[Community 46]] (8 shared connections)
-- [[Community 84]] (7 shared connections)
-- [[Community 109]] (5 shared connections)
-- [[Community 108]] (1 shared connections)
+- [[Community 73]] (21 shared connections)
+- [[Community 82]] (19 shared connections)
+- [[Community 77]] (19 shared connections)
+- [[Community 51]] (16 shared connections)
+- [[Community 30]] (1 shared connections)
 
 ## Source Files
 
-- `src/components/HeroSlider.jsx`
-- `src/components/UnderMaintenance.jsx`
-- `src/data/site.js`
-- `src/pages/Home.jsx`
-- `src/pages/Schemes.jsx`
-- `src/pages/Support.jsx`
-- `src/ui.jsx`
+- `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 188 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 152 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

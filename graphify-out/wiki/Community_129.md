@@ -4,28 +4,30 @@
 
 ## Key Concepts
 
-- **Workflow Renderer** (6 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Layout contracts** (3 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Design Rules** (2 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **README.md** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Fixed v1** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Input** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Legend** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Migration and layout receipt** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Optional semantic checks** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Readable v2** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **output-path.test.mjs** (16 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **baseFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **copyInstalledSkill()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **directoryAliasesNames()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **headFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **workflowFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Testing & Workflow Skill]] (3 shared connections)
+- [[Community 57]] (2 shared connections)
+- [[Community 78]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/workflow/README.md`
+- `.agents/skills/archify/test/output-path.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 25 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,44 +1,49 @@
 # Community 68
 
-> 19 nodes · cohesion 0.26
+> 19 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **cacheRename()** (13 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheRm()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **captureMutationParentSnapshots()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **invalidateCacheToken()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **prepareCacheDirectory()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **resolveCacheTarget()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stableCacheEntry()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **verifyCacheToken()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **guardedCacheMutation()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertSafeDirectory()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **isSameFile()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheMkdirWithToken()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stablePreparedDirectory()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **verifyDirectorySnapshots()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **verifyMutationContext()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **verifyMutationParentSnapshots()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertCacheTargetAbsent()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **canonicalizeTrustedDirectoryPrefix()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **isWithinDirectory()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **get()** (22 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **np()** (20 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **zt()** (19 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **bm()** (13 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **am()** (10 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **on()** (9 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **mm()** (8 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **tm()** (8 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **jm()** (7 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **om()** (7 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **zm()** (7 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **nm()** (6 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **qm()** (6 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **Rt()** (6 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **km()** (5 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **Um()** (4 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **jp()** (3 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **oh()** (3 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **Vm()** (3 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
 
 ## Relationships
 
-- [[Community 38]] (21 shared connections)
-- [[Community 72]] (14 shared connections)
-- [[Community 77]] (7 shared connections)
-- [[Community 128]] (1 shared connections)
+- [[Price Presentation & Product UI]] (23 shared connections)
+- [[Community 31]] (11 shared connections)
+- [[Community 37]] (9 shared connections)
+- [[Zoho Integration Skill]] (8 shared connections)
+- [[Graphify Workflow]] (8 shared connections)
+- [[Mobile Responsive UI Skill]] (6 shared connections)
+- [[Project Readme & Layout]] (6 shared connections)
+- [[Product Pages Specification]] (5 shared connections)
+- [[Architecture Doc Generator]] (4 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-update.mjs`
+- `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
 
 ## Audit Trail
 
-- EXTRACTED: 130 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 166 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

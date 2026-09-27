@@ -1,64 +1,48 @@
 # Zoho API Diagnostic Script
 
-> 39 nodes · cohesion 0.08
+> 40 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **cli.mjs** (43 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **utils.mjs** (26 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **i18n.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **translateMessage()** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **writeDiagram()** (10 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **render-workflow.mjs** (10 connections) — `.agents/skills/archify/renderers/workflow/render-workflow.mjs`
-- **loadDiagram()** (9 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **applyTemplate()** (9 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **loadDiagramWithBrandMarks()** (8 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **settled-flow.test.mjs** (8 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **resolveLocale()** (7 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **componentContext()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **viewerCatalog()** (4 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **validateGuidedViews()** (3 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **validateRelationshipIds()** (3 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **localizeTemplate()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **translateCount()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **renderCards()** (3 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **formatMessage()** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **serializeScriptJson()** (2 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **outputPathGuards** (1 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **RELATIONSHIP_COLLECTIONS** (1 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **SEMANTIC_COLLECTIONS** (1 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **START_TYPES** (1 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **CATALOGS** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- *... and 14 more nodes in this community*
+- **webm-artifact.smoke.mjs** (39 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **navigateReady()** (12 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **evaluate()** (11 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **delay()** (7 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **withTimeout()** (7 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **verifyArchitectureDeltaNavigator()** (5 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **captureCopiedShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **captureReachShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **captureRouteShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **captureRouteVisualMatrix()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **captureShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **verifyDynamicReducedMotionRoute()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **verifyResolvedLegendContract()** (3 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **verifySemanticPassportDismissal()** (3 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **devtoolsEndpoint()** (2 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **removeTempTree()** (2 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **waitForExit()** (2 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **chrome** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **chromeProcess** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **connectCdp()** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **executable()** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **ffmpeg** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **freePort()** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **input** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [[Product Pages Specification]] (28 shared connections)
-- [[Roles & Customer Sharing Spec]] (16 shared connections)
-- [[Community 33]] (12 shared connections)
-- [[Zoho Integration Architecture]] (7 shared connections)
-- [[Design System & UI Tokens]] (7 shared connections)
-- [[Community 88]] (5 shared connections)
-- [[Graphify Knowledge Graph Skill]] (4 shared connections)
-- [[Community 73]] (4 shared connections)
-- [[Community 87]] (3 shared connections)
-- [[Community 106]] (3 shared connections)
-- [[Community 126]] (3 shared connections)
-- [[Community 160]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/shared/cli.mjs`
-- `.agents/skills/archify/renderers/shared/i18n.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
-- `.agents/skills/archify/renderers/workflow/render-workflow.mjs`
-- `.agents/skills/archify/test/settled-flow.test.mjs`
+- `.agents/skills/archify/test/webm-artifact.smoke.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 217 (100%)
-- INFERRED: 1 (0%)
+- EXTRACTED: 140 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

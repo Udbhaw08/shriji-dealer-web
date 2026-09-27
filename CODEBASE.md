@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-09-28T04:06:35.430+05:30 (GMT+5:30)
-> Total Project Files: 817
+> Last synchronized: 2026-09-28T04:18:13.320+05:30 (GMT+5:30)
+> Total Project Files: 815
 
 ---
 
@@ -94,7 +94,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/components/MobileBottomNav.jsx`** (4.4 KB)
 - **`src/components/PriceBlock.jsx`** (5.2 KB)
 - **`src/components/ProductCard.jsx`** (3.1 KB)
-- **`src/components/ProductSearchBar.jsx`** (13.4 KB)
+- **`src/components/ProductSearchBar.jsx`** (16.6 KB)
 - **`src/components/UnderMaintenance.jsx`** (2.1 KB)
 - **`src/ui.jsx`**: Core UI components (Header, Footer, Icon, Search, CategoryCarousel).
 
@@ -111,7 +111,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/data/searchHelper.js`** (9.8 KB)
 - **`src/data/session.js`** (2.5 KB)
 - **`src/data/site.js`** (4.6 KB)
-- **`src/data/translations.js`** (30.7 KB)
+- **`src/data/translations.js`** (32.0 KB)
 
 ### 4.4 Zoho API & Serverless Handlers (`api/`)
 - **`api/dealer/apply.js`** (1.0 KB)

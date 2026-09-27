@@ -1,38 +1,36 @@
 # Community 96
 
-> 13 nodes · cohesion 0.18
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **jd()** (8 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **ec()** (7 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **nc()** (6 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **oc()** (6 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **dh()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **go()** (4 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **vo()** (4 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **cc()** (3 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **Ct()** (3 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **If()** (3 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **tc()** (3 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **Gh()** (2 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **.unstable_scheduleHydration()** (2 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **required** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **edges** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **groups** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **phases** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (13 shared connections)
-- [[Dependencies & Package Config]] (9 shared connections)
-- [[Mobile Responsive UI Skill]] (3 shared connections)
-- [[Product Brand & Business Vision]] (2 shared connections)
-- [[Pricing Regression Test Suite]] (1 shared connections)
+- [[Pricing & Roles Skill]] (5 shared connections)
+- [[Community 62]] (5 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 56 (100%)
+- EXTRACTED: 52 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,32 +1,34 @@
 # Community 107
 
-> 11 nodes · cohesion 0.18
+> 12 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **Archify** (10 connections) — `.agents/skills/archify/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Authoring invariants** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Delivery** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Fast authoring path** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Mermaid input** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Optional viewer capabilities** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Output** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Setup and fallback** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Type router** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Update awareness** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **additionalProperties** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **required** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **messages** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **activations** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 56]] (4 shared connections)
+- [[Community 72]] (4 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/SKILL.md`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

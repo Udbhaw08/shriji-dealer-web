@@ -1,48 +1,66 @@
 # Community 48
 
-> 25 nodes · cohesion 0.09
+> 25 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **$ref** (6 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **semanticChecks** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **properties** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **mainPath** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **allowedRoots** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **allowedTerminals** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **requiredEdges** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **requiredPaths** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **via** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **useLanguage()** (32 connections) — `src/data/i18n.js`
+- **main.jsx** (31 connections) — `src/main.jsx`
+- **useSession()** (24 connections) — `src/data/session.js`
+- **t()** (20 connections) — `src/data/i18n.js`
+- **Favorites.jsx** (20 connections) — `src/pages/Favorites.jsx`
+- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
+- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
+- **useFavorites()** (13 connections) — `src/data/favoritesStore.js`
+- **dealerById()** (11 connections) — `src/data/dealer.js`
+- **Products()** (9 connections) — `src/pages/Products.jsx`
+- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
+- **portalGate.js** (8 connections) — `src/data/portalGate.js`
+- **Favorites()** (8 connections) — `src/pages/Favorites.jsx`
+- **Home()** (8 connections) — `src/pages/Home.jsx`
+- **Header()** (7 connections) — `src/ui.jsx`
+- **Login()** (6 connections) — `src/pages/Login.jsx`
+- **Schemes()** (6 connections) — `src/pages/Schemes.jsx`
+- **AccountLink()** (6 connections) — `src/ui.jsx`
+- **Footer()** (6 connections) — `src/ui.jsx`
+- **Support()** (4 connections) — `src/pages/Support.jsx`
+- **DealerForm()** (3 connections) — `src/pages/Support.jsx`
+- **ConditionalBottomNav()** (3 connections) — `src/main.jsx`
+- **RequireVerifiedDealer()** (3 connections) — `src/main.jsx`
+- **FloatingWhatsApp()** (1 connections) — `src/main.jsx`
+- **ScrollManager()** (1 connections) — `src/main.jsx`
 
 ## Relationships
 
-- [[Community 99]] (2 shared connections)
-- [[Claude Agent Instructions]] (1 shared connections)
+- [[Community 45]] (41 shared connections)
+- [[Community 34]] (40 shared connections)
+- [[Community 87]] (12 shared connections)
+- [[Community 49]] (10 shared connections)
+- [[Community 112]] (5 shared connections)
+- [[Community 111]] (3 shared connections)
+- [[Community 215]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `src/components/MobileBottomNav.jsx`
+- `src/data/dealer.js`
+- `src/data/favoritesStore.js`
+- `src/data/i18n.js`
+- `src/data/portalGate.js`
+- `src/data/session.js`
+- `src/main.jsx`
+- `src/pages/Favorites.jsx`
+- `src/pages/Home.jsx`
+- `src/pages/Login.jsx`
+- `src/pages/Products.jsx`
+- `src/pages/Schemes.jsx`
+- `src/pages/Support.jsx`
+- `src/ui.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 57 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 267 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

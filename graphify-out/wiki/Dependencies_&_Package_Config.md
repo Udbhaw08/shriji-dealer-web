@@ -1,54 +1,66 @@
 # Dependencies & Package Config
 
-> 81 nodes · cohesion 0.06
+> 64 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **fl()** (33 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **qc()** (22 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **nl()** (20 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **uc()** (18 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **lc()** (15 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **Mi()** (15 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **Pd()** (14 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **ll()** (13 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **lm()** (12 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **Di()** (11 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **Pi()** (11 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **r()** (11 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **jc()** (10 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **sa()** (10 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **c()** (9 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **el()** (9 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **hh()** (9 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **kc()** (9 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **xa()** (9 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **yh()** (9 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **dl()** (8 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **fc()** (8 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **Gc()** (8 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **s()** (8 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **bc()** (7 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- *... and 56 more nodes in this community*
+- **geometry.mjs** (75 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **compileWorkflowInternal()** (67 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **geometry.test.mjs** (34 connections) — `.agents/skills/archify/test/geometry.test.mjs`
+- **textUnits()** (33 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **validateArchitecture()** (22 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **validateDataflow()** (22 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **validateLifecycle()** (22 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **cleanCrossingProblems()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **isFinitePoint()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanFlowProblems()** (17 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **rectsOverlap()** (16 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **validateSequence()** (15 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **throwDiagnosticProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **cleanAmbiguousCorridorProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanBorderRunProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanRouteRhythmProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **labelPoint()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanEndpointSideProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanLabelRouteClearanceProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **brandTopRailProblem()** (13 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **collectLabelRouteClearance()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **suggestLabelObstacleFix()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **minimumNodeTextWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- **availableNodeTextWidth()** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- **collectBorderRuns()** (10 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- *... and 39 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (102 shared connections)
-- [[Mobile Responsive UI Skill]] (41 shared connections)
-- [[Product Brand & Business Vision]] (18 shared connections)
-- [[Pricing Regression Test Suite]] (14 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (13 shared connections)
-- [[Graphify Agent Rules]] (10 shared connections)
-- [[Community 96]] (9 shared connections)
-- [[Community 40]] (6 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (69 shared connections)
+- [[Zoho Integration Architecture]] (52 shared connections)
+- [[Community 35]] (48 shared connections)
+- [[Design System & UI Tokens]] (42 shared connections)
+- [[Community 85]] (21 shared connections)
+- [[Testing & Workflow Skill]] (7 shared connections)
+- [[Pricing Regression Test Suite]] (6 shared connections)
+- [[Community 171]] (3 shared connections)
+- [[Client Products Data Store]] (2 shared connections)
+- [[Community 163]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- `.agents/skills/archify/renderers/shared/geometry.mjs`
+- `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- `.agents/skills/archify/test/geometry.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 575 (100%)
+- EXTRACTED: 689 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

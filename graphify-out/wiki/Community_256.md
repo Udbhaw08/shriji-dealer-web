@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **repository-language-metadata.test.mjs** (2 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
-- **linguistGenerated()** (1 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
+- **sync-all.mjs** (2 connections) — `scripts/sync-all.mjs`
+- **rootDir** (1 connections) — `scripts/sync-all.mjs`
+- **run()** (1 connections) — `scripts/sync-all.mjs`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/repository-language-metadata.test.mjs`
+- `scripts/sync-all.mjs`
 
 ## Audit Trail
 

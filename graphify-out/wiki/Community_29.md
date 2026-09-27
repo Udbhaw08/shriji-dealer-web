@@ -1,49 +1,55 @@
 # Community 29
 
-> 38 nodes · cohesion 0.07
+> 38 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **update-notifier.test.mjs** (43 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **operationPath()** (5 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **stateDirectory()** (4 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **fixture()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **remoteReleaseForVersion()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **runCheckInChild()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **statePath()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **writeCompactCommittedState()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **assertUnsafeCacheStateIsIgnored()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **committedStateFiles()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **compactStateSource()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **localRelease()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **pauseOpenOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **pauseRenameMatchingOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **pauseRenameOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **pauseWriteOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **remoteRelease()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **writeJson()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **writePendingOperation()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **baseTime** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **cachedStateWithHistory()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **cachedUpdateState()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **cancel()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **candidateStateForDigest()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **checkerPath** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **E()** (22 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **ft()** (20 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **D()** (18 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **ie()** (15 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **vt()** (12 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **rn()** (11 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **De()** (10 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **dt()** (10 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **nn()** (10 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **bt()** (9 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **ke()** (9 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **lt()** (9 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **en()** (8 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **gt()** (7 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **re()** (7 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **af()** (6 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **xt()** (6 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **Jt()** (5 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **mt()** (5 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **O()** (5 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **ye()** (5 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **ae()** (4 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **At()** (4 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **kt()** (4 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **Ot()** (4 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
 - *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [[Community 49]] (3 shared connections)
-- [[Community 77]] (2 shared connections)
-- [[Community 38]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (47 shared connections)
+- [[Roles & Customer Sharing Spec]] (13 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (13 shared connections)
+- [[Community 32]] (9 shared connections)
+- [[Community 70]] (8 shared connections)
+- [[Product Requirements Documentation]] (7 shared connections)
+- [[Product Brand & Business Vision]] (7 shared connections)
+- [[Claude Agent Instructions]] (6 shared connections)
+- [[Community 39]] (4 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/update-notifier.test.mjs`
+- `ios/App/App/public/assets/index-CXakf2n5.js`
 
 ## Audit Trail
 
-- EXTRACTED: 108 (100%)
+- EXTRACTED: 260 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

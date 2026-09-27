@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **dataflow** (0 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **build_wiki.py** (0 connections) — `scripts/build_wiki.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- `scripts/build_wiki.py`
 
 ## Audit Trail
 

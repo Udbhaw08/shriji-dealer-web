@@ -4,28 +4,28 @@
 
 ## Key Concepts
 
-- **ordinary-model-floor.test.mjs** (9 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **benchmark** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **mutate()** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **renameCandidateIds()** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **writeJson()** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
+- **entries** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **legend** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **mode** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **properties** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 54]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

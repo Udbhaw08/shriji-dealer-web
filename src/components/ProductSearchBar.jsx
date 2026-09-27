@@ -24,6 +24,7 @@ export default function ProductSearchBar({
   const [isListening, setIsListening] = useState(false);
   const [voiceTooltip, setVoiceTooltip] = useState("");
   const [highlightIdx, setHighlightIdx] = useState(-1);
+  const [showMicPermissionModal, setShowMicPermissionModal] = useState(false);
 
   const wrapRef = useRef(null);
   const inputRef = useRef(null);
@@ -94,7 +95,21 @@ export default function ProductSearchBar({
     typeof window !== "undefined" &&
     Boolean(window.SpeechRecognition || window.webkitSpeechRecognition);
 
-  const startVoiceSearch = () => {
+  const requestMicAccess = async () => {
+    if (typeof navigator !== "undefined" && navigator.mediaDevices?.getUserMedia) {
+      try {
+        const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+        stream.getTracks().forEach((track) => track.stop());
+        return true;
+      } catch (err) {
+        console.warn("Microphone access check failed:", err);
+        return false;
+      }
+    }
+    return true;
+  };
+
+  const startVoiceSearch = async () => {
     if (!hasSpeechRecognition) {
       showTooltip(t("voice_not_supported") || "Voice search not supported in this browser", 3000);
       return;
@@ -109,6 +124,14 @@ export default function ProductSearchBar({
       }
       setIsListening(false);
       showTooltip("", 0);
+      return;
+    }
+
+    // Proactively request audio stream to trigger system permission dialog on Android / iOS WebView
+    const hasPermission = await requestMicAccess();
+    if (!hasPermission) {
+      showTooltip("", 0);
+      setShowMicPermissionModal(true);
       return;
     }
 
@@ -146,12 +169,15 @@ export default function ProductSearchBar({
           showTooltip("", 0);
           return;
         }
+        if (e.error === "not-allowed" || e.error === "audio-capture") {
+          showTooltip("", 0);
+          setShowMicPermissionModal(true);
+          return;
+        }
         const msg =
-          e.error === "not-allowed"
-            ? "Microphone access denied"
-            : e.error === "no-speech"
-            ? "No speech detected"
-            : "Voice search error";
+          e.error === "no-speech"
+            ? (t("voice_no_speech") || "No speech detected")
+            : (t("voice_error") || "Voice search error");
         showTooltip(msg, 2500);
       };
 
@@ -172,7 +198,7 @@ export default function ProductSearchBar({
     } catch (err) {
       console.warn("Speech recognition initialization failed:", err);
       setIsListening(false);
-      showTooltip("Could not start voice search", 2500);
+      setShowMicPermissionModal(true);
     }
   };
 
@@ -412,6 +438,71 @@ export default function ProductSearchBar({
               <Icon name="arrowsm" size={15} />
             </button>
           )}
+        </div>
+      )}
+
+      {/* In-app Microphone Permission Modal */}
+      {showMicPermissionModal && (
+        <div
+          className="mic-modal-overlay"
+          onClick={() => setShowMicPermissionModal(false)}
+        >
+          <div
+            className="mic-modal-card"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="mic-modal-title"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="mic-modal-header">
+              <div className="mic-modal-icon-badge">
+                <Icon name="mic" size={24} />
+              </div>
+              <div>
+                <h3 id="mic-modal-title" className="mic-modal-title">
+                  {t("mic_permission_title")}
+                </h3>
+              </div>
+            </div>
+
+            <p className="mic-modal-desc">{t("mic_permission_desc")}</p>
+
+            <div className="mic-modal-steps">
+              <div className="mic-modal-step-item">
+                <span className="mic-step-num">1</span>
+                <span>
+                  {isHindi
+                    ? "सिस्टम अनुमति प्रॉम्प्ट (System Prompt) में 'Allow' या 'While using the app' चुनें।"
+                    : "When prompted by your system, choose 'Allow' or 'While using the app'."}
+                </span>
+              </div>
+              <div className="mic-modal-step-item">
+                <span className="mic-step-num">2</span>
+                <span>{t("mic_permission_steps")}</span>
+              </div>
+            </div>
+
+            <div className="mic-modal-actions">
+              <button
+                type="button"
+                className="mic-modal-btn-allow"
+                onClick={async () => {
+                  setShowMicPermissionModal(false);
+                  await startVoiceSearch(true);
+                }}
+              >
+                <Icon name="mic" size={16} />
+                <span>{t("mic_permission_allow")}</span>
+              </button>
+              <button
+                type="button"
+                className="mic-modal-btn-cancel"
+                onClick={() => setShowMicPermissionModal(false)}
+              >
+                {t("mic_permission_cancel")}
+              </button>
+            </div>
+          </div>
         </div>
       )}
     </div>

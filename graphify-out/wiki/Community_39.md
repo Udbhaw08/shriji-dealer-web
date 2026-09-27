@@ -1,48 +1,55 @@
 # Community 39
 
-> 29 nodes · cohesion 0.09
+> 33 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **AppDelegate** (10 connections) — `ios/App/App/AppDelegate.swift`
-- **.application()** (7 connections) — `ios/App/App/AppDelegate.swift`
-- **.scene()** (7 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIApplication** (6 connections) — `ios/App/App/AppDelegate.swift`
-- **SceneDelegate** (5 connections) — `ios/App/App/SceneDelegate.swift`
-- **AppDelegate.swift** (3 connections) — `ios/App/App/AppDelegate.swift`
-- **SceneDelegate.swift** (3 connections) — `ios/App/App/SceneDelegate.swift`
-- **.applicationDidBecomeActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationDidEnterBackground()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillEnterForeground()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillResignActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillTerminate()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **Capacitor** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIWindow** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIKit** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIResponder** (2 connections)
-- **Any** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **Bool** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIScene** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UISceneSession** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIWindow** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIScene** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **UISceneSession** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **NSUserActivity** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **Set** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- *... and 4 more nodes in this community*
+- **Z()** (24 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **Au()** (17 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **ht()** (12 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **hu()** (11 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **xl()** (11 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **vu()** (10 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **Cu()** (9 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **pn()** (8 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **ju()** (7 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **Lu()** (6 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **xc()** (6 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **zu()** (6 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **Iu()** (5 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **ja()** (5 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **kl()** (5 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **Ou()** (5 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **_u()** (5 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **wl()** (5 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **eu()** (4 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **gm()** (4 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **gu()** (4 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **pf()** (4 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **tu()** (4 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **Uu()** (4 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- **wu()** (4 connections) — `ios/App/App/public/assets/index-CXakf2n5.js`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (37 shared connections)
+- [[Claude Agent Instructions]] (14 shared connections)
+- [[Community 70]] (9 shared connections)
+- [[Product Brand & Business Vision]] (9 shared connections)
+- [[Product Requirements Documentation]] (7 shared connections)
+- [[Roles & Customer Sharing Spec]] (5 shared connections)
+- [[Community 32]] (4 shared connections)
+- [[Community 29]] (4 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (3 shared connections)
 
 ## Source Files
 
-- `ios/App/App/AppDelegate.swift`
-- `ios/App/App/SceneDelegate.swift`
+- `ios/App/App/public/assets/index-CXakf2n5.js`
 
 ## Audit Trail
 
-- EXTRACTED: 72 (100%)
+- EXTRACTED: 206 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

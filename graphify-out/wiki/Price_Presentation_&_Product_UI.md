@@ -1,54 +1,55 @@
 # Price Presentation & Product UI
 
-> 101 nodes · cohesion 0.04
+> 100 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **_()** (444 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **kf()** (23 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **Lr()** (12 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **Xr()** (10 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **Ar()** (9 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **Cu()** (9 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **ua()** (9 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **ni()** (8 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **request()** (8 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **Sp()** (8 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **hi()** (7 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **Dr()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **eh()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **Gr()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **ir()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **Iu()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **kl()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **Ou()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **th()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **unavailable()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **wn()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **Wr()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **xs()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **yr()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- **aa()** (4 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
-- *... and 76 more nodes in this community*
+- **_()** (444 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **kf()** (18 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **rf()** (11 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **df()** (10 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **request()** (8 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **ff()** (7 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **nf()** (6 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **sf()** (6 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **ct()** (5 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **eh()** (5 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **ic()** (5 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **j()** (5 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **jf()** (5 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **lf()** (5 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **mf()** (5 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **se()** (5 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **te()** (5 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **th()** (5 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **unavailable()** (5 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **Ur()** (5 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **qf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **removeWindowListener()** (4 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **Tt()** (4 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- **uf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
+- *... and 75 more nodes in this community*
 
 ## Relationships
 
-- [[Dependencies & Package Config]] (102 shared connections)
-- [[Pricing Regression Test Suite]] (61 shared connections)
-- [[Mobile Responsive UI Skill]] (58 shared connections)
-- [[Product Brand & Business Vision]] (55 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (54 shared connections)
-- [[Graphify Agent Rules]] (44 shared connections)
-- [[Community 40]] (29 shared connections)
-- [[Community 96]] (13 shared connections)
+- [[Product Pages Specification]] (65 shared connections)
+- [[Architecture Doc Generator]] (54 shared connections)
+- [[Graphify Workflow]] (47 shared connections)
+- [[Project Readme & Layout]] (46 shared connections)
+- [[Zoho Integration Skill]] (46 shared connections)
+- [[Mobile Responsive UI Skill]] (45 shared connections)
+- [[Community 37]] (37 shared connections)
+- [[Community 31]] (33 shared connections)
+- [[Community 68]] (23 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
 
 ## Audit Trail
 
-- EXTRACTED: 785 (100%)
+- EXTRACTED: 731 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

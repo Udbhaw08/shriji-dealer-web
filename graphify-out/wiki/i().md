@@ -1,32 +1,32 @@
 # i()
 
-> God node · 69 connections · `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+> God node · 66 connections · `android/app/src/main/assets/public/assets/index-CXakf2n5.js`
 
-**Community:** [[Mobile Responsive UI Skill]]
+**Community:** [[Architecture Doc Generator]]
 
 ## Connections by Relation
 
 ### calls
-- [[fl()]] `EXTRACTED`
-- [[t()]] `EXTRACTED`
+- [[dl()]] `EXTRACTED`
 - [[vl()]] `EXTRACTED`
-- [[n()]] `EXTRACTED`
-- [[get()]] `EXTRACTED`
+- [[t()]] `EXTRACTED`
 - [[np()]] `EXTRACTED`
-- [[b()]] `EXTRACTED`
-- [[nl()]] `EXTRACTED`
+- [[tl()]] `EXTRACTED`
 - [[D()]] `EXTRACTED`
-- [[pt()]] `EXTRACTED`
-- [[uc()]] `EXTRACTED`
+- [[Jr()]] `EXTRACTED`
 - [[Au()]] `EXTRACTED`
-- [[yl()]] `EXTRACTED`
-- [[ll()]] `EXTRACTED`
-- [[Yd()]] `EXTRACTED`
+- [[b()]] `EXTRACTED`
+- [[kc()]] `EXTRACTED`
+- [[Hc()]] `EXTRACTED`
+- [[ac()]] `EXTRACTED`
+- [[as()]] `EXTRACTED`
 - [[bm()]] `EXTRACTED`
+- [[Yd()]] `EXTRACTED`
+- [[cl()]] `EXTRACTED`
 - [[Fd()]] `EXTRACTED`
-- [[Lr()]] `EXTRACTED`
-- [[os()]] `EXTRACTED`
-- [[ki()]] `EXTRACTED`
+- [[s()]] `EXTRACTED`
+- [[yl()]] `EXTRACTED`
+- [[r()]] `EXTRACTED`
 
 ### contains
 - [[_()]] `EXTRACTED`
