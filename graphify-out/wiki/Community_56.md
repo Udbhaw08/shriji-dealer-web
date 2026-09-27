@@ -4,21 +4,21 @@
 
 ## Key Concepts
 
-- **eh()** (5 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **ah()** (3 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **op()** (3 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **ap()** (2 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **eh()** (5 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **ah()** (3 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **op()** (3 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **ap()** (2 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
 
 ## Relationships
 
-- [[Architecture Doc Generator]] (4 shared connections)
-- [[Graphify Knowledge Graph Skill]] (1 shared connections)
-- [[Pricing Regression Test Suite]] (1 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (1 shared connections)
+- [[Roles & Customer Sharing Spec]] (4 shared connections)
+- [[Architecture Doc Generator]] (1 shared connections)
+- [[Master Codebase Architecture Reference]] (1 shared connections)
+- [[Live Pricing Audit Tool]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
 
 ## Audit Trail
 

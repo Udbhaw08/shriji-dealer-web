@@ -4,29 +4,33 @@
 
 ## Key Concepts
 
-- **le()** (5 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **p()** (5 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **Pe()** (4 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **we()** (4 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **He()** (3 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **Xd()** (3 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **fe()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **ue()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **tt()** (7 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **ct()** (5 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **xs()** (5 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **ze()** (4 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **ee()** (3 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **Md()** (3 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **Qe()** (3 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **zs()** (2 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
 
 ## Relationships
 
 - [[Roles & Customer Sharing Spec]] (8 shared connections)
-- [[Live Pricing Audit Tool]] (3 shared connections)
-- [[Project Readme & Layout]] (2 shared connections)
-- [[Zoho Integration Architecture]] (1 shared connections)
+- [[Master Codebase Architecture Reference]] (3 shared connections)
+- [[Zoho Integration Architecture]] (2 shared connections)
+- [[Architecture Doc Generator]] (1 shared connections)
+- [[Graphify Workflow]] (1 shared connections)
+- [[Dependencies & Package Config]] (1 shared connections)
+- [[Product Requirements Documentation]] (1 shared connections)
+- [[Design System & UI Tokens]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-jLVfK5XB.js`
+- `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,58 +1,58 @@
 # Architecture Doc Generator
 
-> 37 nodes · cohesion 0.07
+> 43 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **_()** (443 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **removeWindowListener()** (4 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **addListener()** (3 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **addWindowListener()** (3 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **ln()** (3 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **mn()** (3 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **re()** (3 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **clearAllCookies()** (2 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **clearCookies()** (2 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **jn()** (2 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **Nt()** (2 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **removeAllListeners()** (2 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **removeListener()** (2 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **sendRetainedArgumentsForEvent()** (2 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **te()** (2 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **de()** (1 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **deleteCookie()** (1 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **Et()** (1 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **ge()** (1 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **getCookies()** (1 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **getDerivedStateFromError()** (1 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **getDerivedStateFromProps()** (1 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **hasListeners()** (1 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **it()** (1 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- *... and 12 more nodes in this community*
+- **lc()** (14 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **Pd()** (14 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **delete()** (11 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **Di()** (10 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **hh()** (9 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **yh()** (9 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **jd()** (8 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **ec()** (7 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **gf()** (7 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **mh()** (7 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **sc()** (7 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **ki()** (6 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **lh()** (6 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **nc()** (6 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **oc()** (6 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **ph()** (6 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **Sh()** (6 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **dh()** (5 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **fh()** (5 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **Ih()** (5 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **th()** (5 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **vf()** (5 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **bh()** (4 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **go()** (4 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **ja()** (4 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [[Dependencies & Package Config]] (61 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (59 shared connections)
-- [[Product Requirements Documentation]] (49 shared connections)
-- [[Pricing Regression Test Suite]] (47 shared connections)
-- [[Client Products Data Store]] (44 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (36 shared connections)
-- [[Graphify Knowledge Graph Skill]] (32 shared connections)
-- [[Zoho Integration Skill]] (25 shared connections)
-- [[Community 30]] (11 shared connections)
-- [[Community 37]] (8 shared connections)
-- [[Community 38]] (8 shared connections)
-- [[Community 41]] (7 shared connections)
+- [[Roles & Customer Sharing Spec]] (42 shared connections)
+- [[Master Codebase Architecture Reference]] (22 shared connections)
+- [[Design System & UI Tokens]] (10 shared connections)
+- [[Zoho Integration Architecture]] (8 shared connections)
+- [[Dependencies & Package Config]] (7 shared connections)
+- [[Live Pricing Audit Tool]] (5 shared connections)
+- [[Community 32]] (3 shared connections)
+- [[Product Requirements Documentation]] (3 shared connections)
+- [[Community 34]] (1 shared connections)
+- [[Graphify Workflow]] (1 shared connections)
+- [[Community 56]] (1 shared connections)
+- [[Community 40]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
 
 ## Audit Trail
 
-- EXTRACTED: 499 (100%)
+- EXTRACTED: 230 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

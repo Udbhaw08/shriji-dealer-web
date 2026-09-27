@@ -1,6 +1,6 @@
 import { useSyncExternalStore } from "react";
 import { isDealer, tierOf, registerDealer } from "./dealer";
-import { apiUrl } from "./api";
+import { apiFetch, apiUrl } from "./api";
 
 export { isDealer, tierOf };
 
@@ -58,7 +58,7 @@ export function revalidateSession() {
   const id = current?.dealerId || current?.dealer?.id;
   if (!id) return;
 
-  fetch(apiUrl(`/api/dealer/info?id=${encodeURIComponent(id)}`))
+  apiFetch(`/api/dealer/info?id=${encodeURIComponent(id)}`)
     .then((r) => r.json())
     .then((data) => {
       if (data.ok && data.dealer) {

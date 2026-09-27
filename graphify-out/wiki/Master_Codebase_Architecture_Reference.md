@@ -1,58 +1,58 @@
 # Master Codebase Architecture Reference
 
-> 55 nodes · cohesion 0.09
+> 52 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **get()** (23 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **E()** (20 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **np()** (20 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **b()** (18 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **.addEventListener()** (18 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **zt()** (18 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **Au()** (17 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **bm()** (14 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **fp()** (14 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **h()** (14 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **.removeEventListener()** (13 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **am()** (11 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **on()** (11 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **tp()** (10 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **ip()** (9 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **mm()** (9 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **jm()** (8 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **om()** (8 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **tm()** (8 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **cm()** (7 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **lp()** (7 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **zm()** (7 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **em()** (6 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **.blur()** (6 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **.scrollIntoView()** (6 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- *... and 30 more nodes in this community*
+- **i()** (64 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **n()** (25 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **t()** (18 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **os()** (12 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **r()** (12 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **a()** (10 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **c()** (9 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **cs()** (9 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **el()** (9 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **kc()** (9 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **fc()** (8 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **Gc()** (8 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **Mp()** (8 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **ea()** (7 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **l()** (7 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **ps()** (7 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **qs()** (7 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **dc()** (6 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **es()** (6 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **hs()** (6 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **ms()** (6 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **Qo()** (6 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **s()** (6 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **ss()** (6 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **ys()** (6 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- *... and 27 more nodes in this community*
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (50 shared connections)
-- [[Live Pricing Audit Tool]] (23 shared connections)
-- [[Product Pages Specification]] (22 shared connections)
-- [[Mobile Responsive UI Skill]] (21 shared connections)
-- [[Price Presentation & Product UI]] (18 shared connections)
-- [[Zoho Integration Architecture]] (7 shared connections)
-- [[Project Readme & Layout]] (7 shared connections)
-- [[Product Brand & Business Vision]] (6 shared connections)
-- [[Community 39]] (2 shared connections)
-- [[Graphify Workflow]] (2 shared connections)
-- [[Community 61]] (1 shared connections)
-- [[Community 45]] (1 shared connections)
+- [[Roles & Customer Sharing Spec]] (52 shared connections)
+- [[Design System & UI Tokens]] (30 shared connections)
+- [[Dependencies & Package Config]] (23 shared connections)
+- [[Architecture Doc Generator]] (22 shared connections)
+- [[Zoho Integration Architecture]] (14 shared connections)
+- [[Live Pricing Audit Tool]] (13 shared connections)
+- [[Product Requirements Documentation]] (12 shared connections)
+- [[Graphify Workflow]] (7 shared connections)
+- [[Community 40]] (3 shared connections)
+- [[Community 32]] (2 shared connections)
+- [[Community 44]] (1 shared connections)
+- [[Community 56]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-jLVfK5XB.js`
+- `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
 
 ## Audit Trail
 
-- EXTRACTED: 417 (100%)
+- EXTRACTED: 370 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

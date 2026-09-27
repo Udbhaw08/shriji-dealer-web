@@ -1,38 +1,37 @@
 # Community 30
 
-> 11 nodes · cohesion 0.22
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **kf()** (17 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **yr()** (5 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **br()** (4 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **Tr()** (4 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **Cr()** (3 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **Gr()** (3 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **Sr()** (3 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **hp()** (2 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **In()** (2 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **of()** (2 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **Pr()** (2 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **request()** (8 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **Dr()** (5 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **ir()** (5 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **Er()** (4 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **qn()** (4 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **Pr()** (3 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **Fr()** (2 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **gi()** (2 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **patch()** (2 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **post()** (2 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **put()** (2 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
 
 ## Relationships
 
-- [[Architecture Doc Generator]] (11 shared connections)
-- [[Dependencies & Package Config]] (3 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (3 shared connections)
-- [[Community 41]] (2 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (11 shared connections)
+- [[Vercel Deployment Routing]] (2 shared connections)
+- [[Community 29]] (2 shared connections)
 - [[Zoho Backend & Proxy Endpoints]] (2 shared connections)
-- [[Graphify Knowledge Graph Skill]] (1 shared connections)
-- [[Community 58]] (1 shared connections)
+- [[Community 45]] (1 shared connections)
+- [[Mobile Responsive UI Skill]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- `ios/App/App/public/assets/index-ezd0j3_z.js`
 
 ## Audit Trail
 
-- EXTRACTED: 47 (100%)
+- EXTRACTED: 39 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

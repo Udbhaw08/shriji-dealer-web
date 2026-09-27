@@ -1,8 +1,8 @@
 # i()
 
-> God node · 64 connections · `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+> God node · 64 connections · `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
 
-**Community:** [[Pricing Regression Test Suite]]
+**Community:** [[Master Codebase Architecture Reference]]
 
 ## Connections by Relation
 
@@ -20,13 +20,13 @@
 - [[bm()]] `EXTRACTED`
 - [[yl()]] `EXTRACTED`
 - [[ll()]] `EXTRACTED`
-- [[r()]] `EXTRACTED`
 - [[Yd()]] `EXTRACTED`
 - [[Fd()]] `EXTRACTED`
-- [[Ii()]] `EXTRACTED`
 - [[os()]] `EXTRACTED`
+- [[r()]] `EXTRACTED`
+- [[a()]] `EXTRACTED`
+- [[jc()]] `EXTRACTED`
 - [[sa()]] `EXTRACTED`
-- [[wi()]] `EXTRACTED`
 
 ### contains
 - [[_()]] `EXTRACTED`

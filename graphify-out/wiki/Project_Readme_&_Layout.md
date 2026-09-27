@@ -1,51 +1,39 @@
 # Project Readme & Layout
 
-> 22 nodes · cohesion 0.16
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **vl()** (27 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **yl()** (14 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **bl()** (10 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **ca()** (7 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **je()** (7 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **da()** (6 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **cn()** (5 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **Io()** (5 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **ke()** (5 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **zo()** (5 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **hl()** (4 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **ko()** (4 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **ml()** (4 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **Q()** (4 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **ta()** (4 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **tf()** (4 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **va()** (4 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **ep()** (3 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **Ud()** (3 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **Ym()** (3 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **fa()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **Wf()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **DESIGN.md — the design system as actually built** (8 connections) — `docs/DESIGN.md`
+- **4. Components already built — reuse these** (7 connections) — `docs/DESIGN.md`
+- **2. Tokens** (4 connections) — `docs/DESIGN.md`
+- **DESIGN.md** (1 connections) — `docs/DESIGN.md`
+- **1. The direction in one paragraph** (1 connections) — `docs/DESIGN.md`
+- **3. Layout primitives** (1 connections) — `docs/DESIGN.md`
+- **5. Icons** (1 connections) — `docs/DESIGN.md`
+- **6. Responsive rules** (1 connections) — `docs/DESIGN.md`
+- **7. Motion and accessibility** (1 connections) — `docs/DESIGN.md`
+- **Actions** (1 connections) — `docs/DESIGN.md`
+- **Colour** (1 connections) — `docs/DESIGN.md`
+- **Content** (1 connections) — `docs/DESIGN.md`
+- **Detail** (1 connections) — `docs/DESIGN.md`
+- **Listing sidebar** (1 connections) — `docs/DESIGN.md`
+- **Navigation and filtering** (1 connections) — `docs/DESIGN.md`
+- **Product** (1 connections) — `docs/DESIGN.md`
+- **Spacing, radius, shadow, motion** (1 connections) — `docs/DESIGN.md`
+- **Type** (1 connections) — `docs/DESIGN.md`
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (22 shared connections)
-- [[Price Presentation & Product UI]] (9 shared connections)
-- [[Master Codebase Architecture Reference]] (7 shared connections)
-- [[Product Pages Specification]] (7 shared connections)
-- [[Zoho Integration Architecture]] (6 shared connections)
-- [[Live Pricing Audit Tool]] (4 shared connections)
-- [[Community 40]] (2 shared connections)
-- [[Mobile Responsive UI Skill]] (2 shared connections)
-- [[Community 39]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-jLVfK5XB.js`
+- `docs/DESIGN.md`
 
 ## Audit Trail
 
-- EXTRACTED: 132 (100%)
+- EXTRACTED: 34 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,34 +1,42 @@
 # Community 29
 
-> 13 nodes · cohesion 0.15
+> 11 nodes · cohesion 0.36
 
 ## Key Concepts
 
-- **Product** (12 connections) — `PRODUCT.md`
-- **PRODUCT.md** (1 connections) — `PRODUCT.md`
-- **Accessibility & Inclusion** (1 connections) — `PRODUCT.md`
-- **Brand Commitments** (1 connections) — `PRODUCT.md`
-- **Capabilities and Constraints** (1 connections) — `PRODUCT.md`
-- **Evidence on Hand** (1 connections) — `PRODUCT.md`
-- **Operating Context** (1 connections) — `PRODUCT.md`
-- **Platform** (1 connections) — `PRODUCT.md`
-- **Positioning** (1 connections) — `PRODUCT.md`
-- **Product Principles** (1 connections) — `PRODUCT.md`
-- **Product Purpose** (1 connections) — `PRODUCT.md`
-- **Stack** (1 connections) — `PRODUCT.md`
-- **Users** (1 connections) — `PRODUCT.md`
+- **Mi()** (19 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **Lr()** (11 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **Xr()** (10 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **Ii()** (9 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **Li()** (8 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **Ni()** (6 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **Ri()** (6 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **Bi()** (5 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **Ci()** (5 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **lo()** (2 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **Si()** (2 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (11 shared connections)
+- [[Price Presentation & Product UI]] (10 shared connections)
+- [[Client Products Data Store]] (8 shared connections)
+- [[Pricing Regression Test Suite]] (4 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (3 shared connections)
+- [[Community 30]] (2 shared connections)
+- [[Community 45]] (1 shared connections)
+- [[Mobile Responsive UI Skill]] (1 shared connections)
+- [[Community 41]] (1 shared connections)
+- [[Vercel Deployment Routing]] (1 shared connections)
+- [[Product Brand & Business Vision]] (1 shared connections)
 
 ## Source Files
 
-- `PRODUCT.md`
+- `ios/App/App/public/assets/index-ezd0j3_z.js`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
+- EXTRACTED: 83 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

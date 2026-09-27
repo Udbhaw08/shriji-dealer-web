@@ -4,30 +4,30 @@
 
 ## Key Concepts
 
-- **tt()** (7 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **xs()** (5 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **ze()** (4 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **ee()** (3 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **Md()** (3 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **Qe()** (3 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **zs()** (3 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **Dr()** (5 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **ir()** (5 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **Er()** (4 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **qn()** (4 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **Pr()** (3 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **Fr()** (2 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **gi()** (2 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
 
 ## Relationships
 
 - [[Roles & Customer Sharing Spec]] (7 shared connections)
-- [[Zoho Integration Architecture]] (2 shared connections)
-- [[Live Pricing Audit Tool]] (2 shared connections)
-- [[Mobile Responsive UI Skill]] (2 shared connections)
-- [[Price Presentation & Product UI]] (2 shared connections)
-- [[Master Codebase Architecture Reference]] (1 shared connections)
+- [[Graphify Workflow]] (2 shared connections)
+- [[Community 32]] (1 shared connections)
+- [[Community 34]] (1 shared connections)
+- [[Product Requirements Documentation]] (1 shared connections)
+- [[Community 44]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-jLVfK5XB.js`
+- `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 25 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

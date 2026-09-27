@@ -1,54 +1,43 @@
 # Zoho Integration Skill
 
-> 25 nodes · cohesion 0.13
+> 22 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **vl()** (27 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **yl()** (14 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **bl()** (10 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **ca()** (7 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **je()** (7 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **da()** (6 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **cn()** (5 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **Io()** (5 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **ke()** (5 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **zo()** (5 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **hl()** (4 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **ko()** (4 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **ml()** (4 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **pt()** (4 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **Q()** (4 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **ta()** (4 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **tf()** (4 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **va()** (4 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **ep()** (3 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **gl()** (3 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **Hc()** (3 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **Ud()** (3 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **Ym()** (3 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **fa()** (2 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **Wf()** (2 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **CODEBASE.md — Project Architecture & Feature Guide** (8 connections) — `CODEBASE.md`
+- **2. Core Pricing & Identity Architecture** (6 connections) — `CODEBASE.md`
+- **4. Codebase Directory Map** (6 connections) — `CODEBASE.md`
+- **5. Zoho API Endpoints** (4 connections) — `CODEBASE.md`
+- **CODEBASE.md** (1 connections) — `CODEBASE.md`
+- **1. System Overview** (1 connections) — `CODEBASE.md`
+- **2.1 The Two Audiences (Zero Leakage Rule)** (1 connections) — `CODEBASE.md`
+- **2.2 Pricing Resolution Engine (`api/zoho.js` & `src/data/dealer.js`)** (1 connections) — `CODEBASE.md`
+- **2.3 Guest Access Control & Portal Gating (`src/data/portalGate.js`)** (1 connections) — `CODEBASE.md`
+- **2.4 Shareable Product Link & Zero-Leakage Experience (`src/pages/Product.jsx`)** (1 connections) — `CODEBASE.md`
+- **2.5 Navigation & Bottom Bar Dynamic Filtering** (1 connections) — `CODEBASE.md`
+- **3. Application Routes & Navigation** (1 connections) — `CODEBASE.md`
+- **4.1 Pages (`src/pages/`)** (1 connections) — `CODEBASE.md`
+- **4.2 Reusable Components (`src/components/` & `src/ui.jsx`)** (1 connections) — `CODEBASE.md`
+- **4.3 State & Business Logic (`src/data/`)** (1 connections) — `CODEBASE.md`
+- **4.4 Zoho API & Serverless Handlers (`api/`)** (1 connections) — `CODEBASE.md`
+- **4.5 Automation & Utility Scripts (`scripts/`)** (1 connections) — `CODEBASE.md`
+- **5.1 Zoho Commerce Storefront API** (1 connections) — `CODEBASE.md`
+- **5.2 Zoho Books Contacts & Pricebooks API** (1 connections) — `CODEBASE.md`
+- **5.3 Auto-Recovery Token Architecture** (1 connections) — `CODEBASE.md`
+- **6. How to Run & Verify** (1 connections) — `CODEBASE.md`
+- **7. Development & Git Workflow Guidelines** (1 connections) — `CODEBASE.md`
 
 ## Relationships
 
-- [[Architecture Doc Generator]] (25 shared connections)
-- [[Pricing Regression Test Suite]] (8 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (8 shared connections)
-- [[Product Requirements Documentation]] (6 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (5 shared connections)
-- [[Client Products Data Store]] (5 shared connections)
-- [[Dependencies & Package Config]] (4 shared connections)
-- [[Community 38]] (2 shared connections)
-- [[Community 57]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- `CODEBASE.md`
 
 ## Audit Trail
 
-- EXTRACTED: 142 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

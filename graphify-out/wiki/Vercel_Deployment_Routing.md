@@ -1,38 +1,45 @@
 # Vercel Deployment Routing
 
-> 17 nodes · cohesion 0.12
+> 15 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **pricing.test.mjs** (19 connections) — `src/data/pricing.test.mjs`
-- **crystal** (1 connections) — `src/data/pricing.test.mjs`
-- **crystalDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **crystalGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **genericDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **genericGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **genericItem** (1 connections) — `src/data/pricing.test.mjs`
-- **kettle** (1 connections) — `src/data/pricing.test.mjs`
-- **kettleDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **kettleGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **tcjDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **tcjGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **tripleCookJumbo** (1 connections) — `src/data/pricing.test.mjs`
-- **vernaGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **vernaPlus** (1 connections) — `src/data/pricing.test.mjs`
-- **zeroItem** (1 connections) — `src/data/pricing.test.mjs`
-- **zeroPricedResult** (1 connections) — `src/data/pricing.test.mjs`
+- **kf()** (17 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **ei()** (9 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **Gr()** (5 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **Wr()** (5 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **yr()** (5 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **br()** (4 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **qf()** (4 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **Cr()** (3 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **Sr()** (3 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **Xf()** (3 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **hp()** (2 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **In()** (2 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **kr()** (2 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **of()** (2 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **Tr()** (2 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (3 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (15 shared connections)
+- [[Price Presentation & Product UI]] (4 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (3 shared connections)
+- [[Community 30]] (2 shared connections)
+- [[Community 45]] (1 shared connections)
+- [[Mobile Responsive UI Skill]] (1 shared connections)
+- [[Community 29]] (1 shared connections)
+- [[Community 37]] (1 shared connections)
+- [[Client Products Data Store]] (1 shared connections)
+- [[Pricing Regression Test Suite]] (1 shared connections)
 
 ## Source Files
 
-- `src/data/pricing.test.mjs`
+- `ios/App/App/public/assets/index-ezd0j3_z.js`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 68 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,8 +1,8 @@
 # fl()
 
-> God node · 34 connections · `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+> God node · 34 connections · `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
 
-**Community:** [[Dependencies & Package Config]]
+**Community:** [[Design System & UI Tokens]]
 
 ## Connections by Relation
 

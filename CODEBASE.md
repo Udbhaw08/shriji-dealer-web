@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-09-27T21:42:06.770Z
-> Total Project Files: 316
+> Last synchronized: 2026-09-27T21:50:19.034Z
+> Total Project Files: 319
 
 ---
 
@@ -97,7 +97,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/ui.jsx`**: Core UI components (Header, Footer, Icon, Search, CategoryCarousel).
 
 ### 4.3 State & Business Logic (`src/data/`)
-- **`src/data/api.js`** (0.4 KB)
+- **`src/data/api.js`** (1.7 KB)
 - **`src/data/dealer.js`** (8.2 KB)
 - **`src/data/dealer.test.mjs`** (4.2 KB)
 - **`src/data/i18n.js`** (1.7 KB)

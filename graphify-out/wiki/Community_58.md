@@ -1,28 +1,25 @@
 # Community 58
 
-> 4 nodes · cohesion 0.50
+> 4 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **request()** (7 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **patch()** (2 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **post()** (2 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **put()** (2 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **Test** (2 connections) — `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
+- **ExampleUnitTest.java** (2 connections) — `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
+- **ExampleUnitTest** (2 connections) — `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
+- **.addition_isCorrect()** (2 connections) — `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
 
 ## Relationships
 
-- [[Architecture Doc Generator]] (4 shared connections)
-- [[Graphify Knowledge Graph Skill]] (1 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (1 shared connections)
-- [[Community 30]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

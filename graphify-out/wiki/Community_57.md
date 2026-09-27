@@ -1,28 +1,27 @@
 # Community 57
 
-> 4 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **be()** (4 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **_m()** (4 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **xe()** (4 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **Cp()** (3 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **le()** (5 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **Pe()** (4 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **fe()** (2 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **ue()** (2 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
 
 ## Relationships
 
-- [[Architecture Doc Generator]] (4 shared connections)
-- [[Client Products Data Store]] (1 shared connections)
-- [[Product Requirements Documentation]] (1 shared connections)
-- [[Zoho Integration Skill]] (1 shared connections)
+- [[Roles & Customer Sharing Spec]] (4 shared connections)
+- [[Zoho Integration Architecture]] (2 shared connections)
+- [[Live Pricing Audit Tool]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

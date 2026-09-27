@@ -4,19 +4,19 @@
 
 ## Key Concepts
 
-- **unavailable()** (5 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **hide()** (2 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **setAnimation()** (2 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **setStyle()** (2 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **show()** (2 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **unavailable()** (5 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **hide()** (2 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **setAnimation()** (2 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **setStyle()** (2 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **show()** (2 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
 
 ## Relationships
 
-- [[Architecture Doc Generator]] (5 shared connections)
+- [[Roles & Customer Sharing Spec]] (5 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
 
 ## Audit Trail
 

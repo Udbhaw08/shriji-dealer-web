@@ -4,27 +4,30 @@
 
 ## Key Concepts
 
-- **ir()** (4 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **Mr()** (4 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **qn()** (4 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **nr()** (3 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **jr()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **Or()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **Ar()** (8 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **rr()** (4 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **vi()** (4 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **nr()** (2 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **Vr()** (2 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **zr()** (2 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (6 shared connections)
-- [[Zoho Integration Architecture]] (1 shared connections)
-- [[Master Codebase Architecture Reference]] (1 shared connections)
-- [[Community 42]] (1 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (6 shared connections)
+- [[Community 30]] (1 shared connections)
+- [[Client Products Data Store]] (1 shared connections)
+- [[Vercel Deployment Routing]] (1 shared connections)
+- [[Community 29]] (1 shared connections)
+- [[Price Presentation & Product UI]] (1 shared connections)
+- [[Product Brand & Business Vision]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-jLVfK5XB.js`
+- `ios/App/App/public/assets/index-ezd0j3_z.js`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

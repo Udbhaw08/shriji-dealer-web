@@ -4,25 +4,22 @@
 
 ## Key Concepts
 
-- **eh()** (5 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **ah()** (3 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **op()** (3 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **ap()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **watch-sync.mjs** (3 connections) — `scripts/watch-sync.mjs`
+- **rootDir** (1 connections) — `scripts/watch-sync.mjs`
+- **srcDir** (1 connections) — `scripts/watch-sync.mjs`
+- **triggerSync()** (1 connections) — `scripts/watch-sync.mjs`
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (4 shared connections)
-- [[Product Brand & Business Vision]] (1 shared connections)
-- [[Mobile Responsive UI Skill]] (1 shared connections)
-- [[Zoho Integration Architecture]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-jLVfK5XB.js`
+- `scripts/watch-sync.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

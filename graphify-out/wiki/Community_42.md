@@ -1,33 +1,31 @@
 # Community 42
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Ar()** (7 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **gi()** (4 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **rr()** (4 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **Er()** (3 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **Lr()** (3 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **Vr()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **zr()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **le()** (5 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **p()** (5 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **Pe()** (4 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **we()** (4 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **He()** (3 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **Xd()** (3 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **fe()** (2 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **ue()** (2 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (7 shared connections)
-- [[Graphify Workflow]] (2 shared connections)
-- [[Live Pricing Audit Tool]] (1 shared connections)
-- [[Community 39]] (1 shared connections)
-- [[Zoho Integration Architecture]] (1 shared connections)
-- [[Community 45]] (1 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (8 shared connections)
+- [[Client Products Data Store]] (3 shared connections)
+- [[Graphify Knowledge Graph Skill]] (3 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-jLVfK5XB.js`
+- `ios/App/App/public/assets/index-ezd0j3_z.js`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

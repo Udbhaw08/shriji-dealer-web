@@ -1,31 +1,38 @@
 # Community 32
 
-> 10 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **ROLES-AND-SHARING.md — who sees which price** (9 connections) — `docs/ROLES-AND-SHARING.md`
-- **ROLES-AND-SHARING.md** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **1. The four viewers** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **2. The rule, in one function** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **3. ⚠️ What this is not** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **4. The share link** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **5. What the customer sees — `CustomerPrice` in `PriceBlock.jsx`** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **6. The login flow** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **7. Also gated** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **8. Checks** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **ei()** (9 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **request()** (8 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **Gr()** (5 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **Wr()** (5 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **yr()** (5 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **Cr()** (3 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **kr()** (2 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **patch()** (2 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **post()** (2 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **put()** (2 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Roles & Customer Sharing Spec]] (10 shared connections)
+- [[Community 34]] (3 shared connections)
+- [[Architecture Doc Generator]] (3 shared connections)
+- [[Product Requirements Documentation]] (2 shared connections)
+- [[Master Codebase Architecture Reference]] (2 shared connections)
+- [[Graphify Workflow]] (1 shared connections)
+- [[Community 43]] (1 shared connections)
+- [[Design System & UI Tokens]] (1 shared connections)
 
 ## Source Files
 
-- `docs/ROLES-AND-SHARING.md`
+- `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 43 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,25 +4,22 @@
 
 ## Key Concepts
 
-- **request()** (7 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **patch()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **post()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **put()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **Shriji Testing & Workflow Skill** (3 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
+- **Daily Development Commands** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
+- **Hard Workflow Rules** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (4 shared connections)
-- [[Product Pages Specification]] (1 shared connections)
-- [[Master Codebase Architecture Reference]] (1 shared connections)
-- [[Graphify Workflow]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-jLVfK5XB.js`
+- `.agents/skills/shriji-testing-and-workflow/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

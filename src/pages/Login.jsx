@@ -4,7 +4,7 @@ import { DEALERS, dealerById } from "../data/dealer";
 import { setSession, signOut, useSession } from "../data/session";
 import { Icon } from "../ui";
 import { useLanguage } from "../data/i18n";
-import { apiUrl } from "../data/api";
+import { apiFetch, apiUrl } from "../data/api";
 
 export default function Login() {
   const { t } = useLanguage();
@@ -36,7 +36,7 @@ export default function Login() {
     setDealerError("");
 
     try {
-      const res = await fetch(apiUrl("/api/dealer/login"), {
+      const res = await apiFetch("/api/dealer/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ phone: val }),
@@ -84,7 +84,7 @@ export default function Login() {
     setApplyError("");
 
     try {
-      const res = await fetch(apiUrl("/api/dealer/apply"), {
+      const res = await apiFetch("/api/dealer/apply", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(applyForm),
@@ -117,7 +117,7 @@ export default function Login() {
     setRefreshing(true);
     setRefreshMsg("");
     try {
-      const res = await fetch(apiUrl("/api/dealer/login"), {
+      const res = await apiFetch("/api/dealer/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ phone: s.phone }),

@@ -1,32 +1,30 @@
 # Community 38
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **le()** (5 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **p()** (5 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **Pe()** (4 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **we()** (4 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **He()** (3 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **Xd()** (3 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **fe()** (2 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
-- **ue()** (2 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **Shriji Pricing & Roles Skill** (5 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **User Roles & View Modes** (4 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **1. Guest View (Public)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **2. Dealer View (Authenticated)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **3. Customer Shared View (`?from=<dealer_id>`)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **Key Files** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **Schemes Logic** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **Zero-Price Handling** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
 
 ## Relationships
 
-- [[Architecture Doc Generator]] (8 shared connections)
-- [[Client Products Data Store]] (3 shared connections)
-- [[Zoho Integration Skill]] (2 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- `.agents/skills/shriji-pricing-and-roles/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

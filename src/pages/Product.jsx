@@ -9,7 +9,7 @@ import { useLanguage } from "../data/i18n";
 import ProductCard from "../components/ProductCard";
 import PriceBlock from "../components/PriceBlock";
 import { isPortalGated } from "../data/portalGate";
-import { apiUrl } from "../data/api";
+import { apiFetch, apiUrl } from "../data/api";
 
 /* Feature boxes mirror the mockup: icon over a two-line label. */
 function featureBoxes(p, t) {
@@ -89,7 +89,7 @@ export default function Product() {
   useEffect(() => {
     const lookupKey = pid || id;
     if (lookupKey) {
-      fetch(apiUrl(`/api/products/${encodeURIComponent(lookupKey)}`))
+      apiFetch(`/api/products/${encodeURIComponent(lookupKey)}`)
         .then((r) => r.json())
         .then((data) => {
           if (data.ok && data.product) setFetchedProduct(data.product);
@@ -162,7 +162,7 @@ export default function Product() {
 
   useEffect(() => {
     if (fromId && !localSharedBy && !remoteSharedBy) {
-      fetch(apiUrl(`/api/dealer/info?id=${encodeURIComponent(fromId)}`))
+      apiFetch(`/api/dealer/info?id=${encodeURIComponent(fromId)}`)
         .then((r) => r.json())
         .then((data) => {
           if (data.ok && data.dealer) {

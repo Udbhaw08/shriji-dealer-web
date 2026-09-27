@@ -1,56 +1,57 @@
 # Product Brand & Business Vision
 
-> 39 nodes · cohesion 0.08
+> 45 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **Pd()** (14 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **Di()** (11 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **c()** (9 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **hh()** (9 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **yh()** (9 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **jd()** (8 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **Mp()** (8 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **ec()** (7 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **l()** (7 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **mh()** (7 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **qs()** (7 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **sc()** (7 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **nc()** (6 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **oc()** (6 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **ph()** (6 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **Rd()** (6 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **s()** (6 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **Sh()** (6 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **bs()** (5 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **dh()** (5 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **fh()** (5 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **Ih()** (5 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **th()** (5 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **bh()** (4 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- **go()** (4 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
-- *... and 14 more nodes in this community*
+- **Z()** (23 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **Au()** (17 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **xl()** (12 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **hu()** (11 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **vu()** (11 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **yi()** (11 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **ql()** (10 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **Cu()** (9 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **pu()** (8 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **Sp()** (8 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **jl()** (7 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **ju()** (7 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **Zl()** (7 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **Lu()** (6 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **mu()** (6 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **Nd()** (6 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **zu()** (6 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **Iu()** (5 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **kl()** (5 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **Ma()** (5 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **Ou()** (5 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **ru()** (5 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **_u()** (5 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **cl()** (4 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **eu()** (4 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (38 shared connections)
-- [[Price Presentation & Product UI]] (17 shared connections)
-- [[Mobile Responsive UI Skill]] (13 shared connections)
-- [[Zoho Integration Architecture]] (8 shared connections)
-- [[Live Pricing Audit Tool]] (7 shared connections)
-- [[Master Codebase Architecture Reference]] (6 shared connections)
-- [[Product Pages Specification]] (4 shared connections)
-- [[Community 39]] (2 shared connections)
-- [[Graphify Workflow]] (1 shared connections)
-- [[Community 60]] (1 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (45 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (15 shared connections)
+- [[Price Presentation & Product UI]] (12 shared connections)
+- [[Pricing Regression Test Suite]] (9 shared connections)
+- [[Client Products Data Store]] (8 shared connections)
+- [[Graphify Knowledge Graph Skill]] (5 shared connections)
+- [[Mobile Responsive UI Skill]] (2 shared connections)
+- [[Community 59]] (1 shared connections)
+- [[Community 37]] (1 shared connections)
+- [[Community 29]] (1 shared connections)
+- [[Community 45]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-jLVfK5XB.js`
+- `ios/App/App/public/assets/index-ezd0j3_z.js`
 
 ## Audit Trail
 
-- EXTRACTED: 213 (100%)
+- EXTRACTED: 268 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

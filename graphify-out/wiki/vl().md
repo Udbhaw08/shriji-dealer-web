@@ -1,8 +1,8 @@
 # vl()
 
-> God node · 27 connections · `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+> God node · 27 connections · `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
 
-**Community:** [[Zoho Integration Skill]]
+**Community:** [[Live Pricing Audit Tool]]
 
 ## Connections by Relation
 
@@ -13,7 +13,6 @@
 - [[ua()]] `EXTRACTED`
 - [[ef()]] `EXTRACTED`
 - [[ca()]] `EXTRACTED`
-- [[Fi()]] `EXTRACTED`
 - [[je()]] `EXTRACTED`
 - [[lp()]] `EXTRACTED`
 - [[Bo()]] `EXTRACTED`
@@ -21,12 +20,13 @@
 - [[hm()]] `EXTRACTED`
 - [[Io()]] `EXTRACTED`
 - [[ke()]] `EXTRACTED`
-- [[zo()]] `EXTRACTED`
 - [[hl()]] `EXTRACTED`
 - [[ko()]] `EXTRACTED`
 - [[ml()]] `EXTRACTED`
 - [[ta()]] `EXTRACTED`
 - [[va()]] `EXTRACTED`
+- [[zo()]] `EXTRACTED`
+- [[ep()]] `EXTRACTED`
 
 ### contains
 - [[_()]] `EXTRACTED`
