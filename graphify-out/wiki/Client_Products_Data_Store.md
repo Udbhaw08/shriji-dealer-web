@@ -1,6 +1,6 @@
 # Client Products Data Store
 
-> 50 nodes · cohesion 0.08
+> 52 nodes · cohesion 0.07
 
 ## Key Concepts
 
@@ -9,7 +9,6 @@
 - **pt()** (18 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
 - **ie()** (15 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
 - **bt()** (13 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **ft()** (11 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
 - **gt()** (11 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
 - **pn()** (11 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
 - **xt()** (11 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
@@ -22,25 +21,25 @@
 - **fn()** (8 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
 - **ht()** (8 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
 - **cn()** (7 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **ef()** (7 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
 - **gf()** (7 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
 - **rn()** (7 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
 - **an()** (6 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
 - **j()** (6 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
 - **re()** (6 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **Rt()** (6 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
 - **vn()** (6 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- *... and 25 more nodes in this community*
+- **zn()** (6 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- *... and 27 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (60 shared connections)
-- [[Graphify Knowledge Graph Skill]] (24 shared connections)
-- [[Product Brand & Business Vision]] (16 shared connections)
-- [[Dependencies & Package Config]] (14 shared connections)
-- [[Graphify Agent Rules]] (11 shared connections)
-- [[Community 57]] (9 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (5 shared connections)
-- [[Community 95]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (62 shared connections)
+- [[Master Codebase Architecture Reference]] (32 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (16 shared connections)
+- [[Community 32]] (13 shared connections)
+- [[Community 55]] (11 shared connections)
+- [[Community 37]] (9 shared connections)
+- [[Architecture Doc Generator]] (3 shared connections)
 
 ## Source Files
 

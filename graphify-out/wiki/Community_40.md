@@ -1,61 +1,54 @@
 # Community 40
 
-> 30 nodes · cohesion 0.10
+> 27 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **render-sequence.mjs** (67 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **svgAccessibleText()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **svgRootAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **renderDefinitions()** (11 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **resolveLegend()** (10 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **renderSvg()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **arrowClassMap** (6 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **componentFill** (5 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **messageGeometry()** (4 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **messageLabelBox()** (4 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **renderLifecycleRail()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **messageRouteBox()** (2 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **arrowClass** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **compositionFrames** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **layout** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **LEGEND_CATALOG** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **messagePath()** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **participantCount** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **participants** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- *... and 5 more nodes in this community*
+- **vl()** (28 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **Ce()** (16 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **yl()** (15 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **bl()** (11 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **je()** (8 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **ca()** (7 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **Io()** (6 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **ke()** (6 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **ko()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **ln()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **p()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **va()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **ze()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **zo()** (5 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **Et()** (4 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **hl()** (4 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **lt()** (4 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **ml()** (4 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **ta()** (4 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **ep()** (3 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **Hc()** (3 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **Ud()** (3 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **we()** (3 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **Ym()** (3 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- **fa()** (2 connections) — `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [[Live Pricing Audit Tool]] (27 shared connections)
-- [[Master Codebase Architecture Reference]] (26 shared connections)
-- [[Community 34]] (16 shared connections)
-- [[Product Pages Specification]] (13 shared connections)
-- [[Community 39]] (10 shared connections)
-- [[Pricing Regression Test Suite]] (7 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (1 shared connections)
+- [[Price Presentation & Product UI]] (29 shared connections)
+- [[Pricing Regression Test Suite]] (11 shared connections)
+- [[Product Brand & Business Vision]] (8 shared connections)
+- [[Graphify Agent Rules]] (7 shared connections)
+- [[Dependencies & Package Config]] (6 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (5 shared connections)
+- [[Mobile Responsive UI Skill]] (4 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/cli.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/legend.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
 
 ## Audit Trail
 
-- EXTRACTED: 184 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 168 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

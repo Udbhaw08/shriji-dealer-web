@@ -5,9 +5,9 @@
 ## Key Concepts
 
 - **properties** (33 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **bias** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **height** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **fromCol** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 - **labelSegment** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **variant** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 - **brand** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 - **channelX** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 - **channelY** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
@@ -24,24 +24,24 @@
 - **toSide** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 - **type** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 - **yOffset** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **maximum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 - **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 - **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **maximum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 - *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [[Community 87]] (5 shared connections)
-- [[Community 134]] (2 shared connections)
+- [[Community 91]] (5 shared connections)
+- [[Community 135]] (2 shared connections)
+- [[Community 223]] (1 shared connections)
 - [[Community 224]] (1 shared connections)
-- [[Community 225]] (1 shared connections)
-- [[Community 250]] (1 shared connections)
-- [[Community 226]] (1 shared connections)
 - [[Community 251]] (1 shared connections)
-- [[Community 62]] (1 shared connections)
 - [[Community 252]] (1 shared connections)
+- [[Community 225]] (1 shared connections)
+- [[Community 48]] (1 shared connections)
+- [[Community 253]] (1 shared connections)
 
 ## Source Files
 

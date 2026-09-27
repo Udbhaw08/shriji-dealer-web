@@ -15,8 +15,8 @@
 
 ## Relationships
 
-- [[Product Pages Specification]] (1 shared connections)
-- [[Community 34]] (1 shared connections)
+- [[Zoho API Diagnostic Script]] (1 shared connections)
+- [[Design System & UI Tokens]] (1 shared connections)
 
 ## Source Files
 

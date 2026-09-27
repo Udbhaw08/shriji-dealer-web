@@ -1,50 +1,54 @@
 # Community 32
 
-> 34 nodes · cohesion 0.16
+> 35 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **cacheRename()** (13 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **acquireOperation()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheRm()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheTokenFor()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **captureMutationParentSnapshots()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheWriteFile()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **invalidateCacheToken()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **prepareCacheDirectory()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **promoteOperationClaim()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **reserveOperation()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **resolveCacheTarget()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stableCacheEntry()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **verifyCacheToken()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **guardedCacheMutation()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **guardedCacheRead()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertSafeDirectory()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheMkdir()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **inspectActiveClaim()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **isSameFile()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheMkdirWithToken()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **fenceLowerOperations()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **listOperations()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationName()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationWasFenced()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **prepareOperationClaim()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- *... and 9 more nodes in this community*
+- **qd()** (14 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **Yd()** (13 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **Fd()** (12 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **Vd()** (12 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **ft()** (11 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **df()** (10 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **dt()** (9 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **rf()** (9 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **ut()** (8 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **ff()** (7 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **Rd()** (7 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **af()** (6 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **Bd()** (6 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **Id()** (6 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **nf()** (6 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **wi()** (6 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **is()** (5 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **jf()** (5 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **lf()** (5 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **mf()** (5 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **cf()** (4 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **Hd()** (4 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **Ku()** (4 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **qf()** (4 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **St()** (4 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [[Community 38]] (39 shared connections)
-- [[Community 73]] (18 shared connections)
-- [[Community 127]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (42 shared connections)
+- [[Client Products Data Store]] (13 shared connections)
+- [[Master Codebase Architecture Reference]] (12 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (10 shared connections)
+- [[Community 55]] (4 shared connections)
+- [[Architecture Doc Generator]] (4 shared connections)
+- [[Community 37]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-update.mjs`
+- `ios/App/App/public/assets/index-BrUZQ8Sa.js`
 
 ## Audit Trail
 
-- EXTRACTED: 231 (100%)
-- INFERRED: 1 (0%)
+- EXTRACTED: 209 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

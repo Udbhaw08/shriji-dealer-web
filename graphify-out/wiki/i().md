@@ -2,7 +2,7 @@
 
 > God node · 69 connections · `android/app/src/main/assets/public/assets/index-BrUZQ8Sa.js`
 
-**Community:** [[Oxlint Linter Configuration]]
+**Community:** [[Mobile Responsive UI Skill]]
 
 ## Connections by Relation
 

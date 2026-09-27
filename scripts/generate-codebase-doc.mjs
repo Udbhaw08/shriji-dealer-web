@@ -46,10 +46,13 @@ try {
   routes = matches.map((m) => ({ path: m[1], component: m[2] }));
 } catch {}
 
+// Formatted timestamp in GMT+5:30
+const istDateString = new Date(Date.now() + (5.5 * 60 * 60 * 1000)).toISOString().replace("Z", "+05:30");
+
 const docContent = `# CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: ${new Date().toISOString()}
+> Last synchronized: ${istDateString} (GMT+5:30)
 > Total Project Files: ${allFiles.length}
 
 ---

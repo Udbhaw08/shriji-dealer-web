@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-09-27T22:30:57.991Z
-> Total Project Files: 815
+> Last synchronized: 2026-09-28T04:06:35.430+05:30 (GMT+5:30)
+> Total Project Files: 817
 
 ---
 
@@ -124,7 +124,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 
 ### 4.5 Automation & Utility Scripts (`scripts/`)
 - **`scripts/audit_prices.mjs`** (3.8 KB)
-- **`scripts/generate-codebase-doc.mjs`** (9.0 KB)
+- **`scripts/generate-codebase-doc.mjs`** (9.1 KB)
 - **`scripts/get-refresh-token.mjs`** (2.3 KB)
 - **`scripts/make-scheme-pdfs.mjs`** (2.2 KB)
 - **`scripts/sync-all.mjs`** (1.2 KB)

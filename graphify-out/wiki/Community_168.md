@@ -15,11 +15,11 @@
 
 ## Relationships
 
-- [[Community 86]] (8 shared connections)
-- [[Community 91]] (5 shared connections)
-- [[Community 34]] (4 shared connections)
-- [[Master Codebase Architecture Reference]] (3 shared connections)
-- [[Community 36]] (1 shared connections)
+- [[Community 90]] (8 shared connections)
+- [[Community 95]] (5 shared connections)
+- [[Roles & Customer Sharing Spec]] (4 shared connections)
+- [[Design System & UI Tokens]] (3 shared connections)
+- [[Community 41]] (1 shared connections)
 
 ## Source Files
 

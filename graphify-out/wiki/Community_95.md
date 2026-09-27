@@ -1,38 +1,37 @@
 # Community 95
 
-> 13 nodes · cohesion 0.18
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **jd()** (8 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **ec()** (7 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **nc()** (6 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **oc()** (6 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **dh()** (5 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **go()** (4 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **vo()** (4 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **cc()** (3 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **Ct()** (3 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **If()** (3 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **tc()** (3 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **Gh()** (2 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **.unstable_scheduleHydration()** (2 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **workflow-migration.test.mjs** (22 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **copyFixture()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **explicitPinConflictWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **fixture** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **heightConstrainedWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **parseJsonOutput()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **profileDivergenceWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **runMigration()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **runValidation()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (13 shared connections)
-- [[Dependencies & Package Config]] (9 shared connections)
-- [[Graphify Knowledge Graph Skill]] (3 shared connections)
-- [[Product Brand & Business Vision]] (2 shared connections)
-- [[Client Products Data Store]] (1 shared connections)
+- [[Community 168]] (5 shared connections)
+- [[Community 90]] (3 shared connections)
+- [[Roles & Customer Sharing Spec]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- `.agents/skills/archify/test/workflow-migration.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 56 (100%)
+- EXTRACTED: 35 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

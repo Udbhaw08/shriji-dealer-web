@@ -1,14 +1,12 @@
 # Community 38
 
-> 32 nodes · cohesion 0.08
+> 30 nodes · cohesion 0.09
 
 ## Key Concepts
 
 - **check-update.mjs** (99 connections) — `.agents/skills/archify/scripts/check-update.mjs`
 - **encodeRecoverableState()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **canonicalizeTrustedDirectoryPrefix()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
 - **guardedCacheEntryRead()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **isWithinDirectory()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
 - **notification()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
 - **operationIsActive()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
 - **stateAfterFailedCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
@@ -29,14 +27,17 @@
 - **defaultCacheDirectory()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
 - **defaultReleasePath** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
 - **FileIdentityChangedError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- *... and 7 more nodes in this community*
+- **isMainModule()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **MAX_CACHE_HORIZON_MS** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [[Community 32]] (39 shared connections)
-- [[Community 73]] (20 shared connections)
+- [[Community 68]] (21 shared connections)
+- [[Community 77]] (19 shared connections)
+- [[Community 72]] (19 shared connections)
 - [[Community 49]] (16 shared connections)
-- [[Graphify Workflow]] (1 shared connections)
+- [[Community 29]] (1 shared connections)
 
 ## Source Files
 
@@ -44,7 +45,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 158 (100%)
+- EXTRACTED: 152 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,42 +1,31 @@
 # Community 129
 
-> 9 nodes · cohesion 0.31
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **findChrome()** (22 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **export-cleanup-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **evaluate()** (4 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **executable()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **findOnPath()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **exported()** (2 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **Workflow Renderer** (6 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **Layout contracts** (3 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **Design Rules** (2 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **README.md** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **Fixed v1** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **Input** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **Legend** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **Migration and layout receipt** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **Optional semantic checks** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **Readable v2** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
 
 ## Relationships
 
-- [[Community 36]] (6 shared connections)
-- [[Community 41]] (4 shared connections)
-- [[Community 68]] (2 shared connections)
-- [[Community 51]] (2 shared connections)
-- [[Community 97]] (1 shared connections)
-- [[Community 98]] (1 shared connections)
-- [[Community 99]] (1 shared connections)
-- [[Community 85]] (1 shared connections)
-- [[Testing & Workflow Skill]] (1 shared connections)
-- [[Community 113]] (1 shared connections)
-- [[Community 144]] (1 shared connections)
-- [[Community 100]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- `.agents/skills/archify/renderers/workflow/README.md`
 
 ## Audit Trail
 
-- EXTRACTED: 47 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

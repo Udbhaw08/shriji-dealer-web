@@ -15,7 +15,7 @@
 
 ## Relationships
 
-- [[Mobile Responsive UI Skill]] (2 shared connections)
+- [[Oxlint Linter Configuration]] (2 shared connections)
 
 ## Source Files
 

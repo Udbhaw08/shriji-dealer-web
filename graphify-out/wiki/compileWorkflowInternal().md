@@ -2,7 +2,7 @@
 
 > God node · 67 connections · `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
 
-**Community:** [[Master Codebase Architecture Reference]]
+**Community:** [[Design System & UI Tokens]]
 
 ## Connections by Relation
 

@@ -4,26 +4,25 @@
 
 ## Key Concepts
 
-- **settled-flow.test.mjs** (8 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **story-horizon.test.mjs** (6 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
 
 ## Relationships
 
-- [[Product Pages Specification]] (1 shared connections)
-- [[Live Pricing Audit Tool]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/settled-flow.test.mjs`
+- `.agents/skills/archify/test/story-horizon.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

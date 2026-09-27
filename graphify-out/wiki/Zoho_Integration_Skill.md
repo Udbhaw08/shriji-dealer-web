@@ -33,12 +33,12 @@
 
 ## Relationships
 
-- [[Community 119]] (3 shared connections)
+- [[Community 120]] (3 shared connections)
 - [[Community 242]] (1 shared connections)
 - [[Community 243]] (1 shared connections)
 - [[Community 244]] (1 shared connections)
+- [[Community 218]] (1 shared connections)
 - [[Community 219]] (1 shared connections)
-- [[Community 220]] (1 shared connections)
 
 ## Source Files
 

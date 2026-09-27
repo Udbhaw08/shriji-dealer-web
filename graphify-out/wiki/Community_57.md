@@ -1,50 +1,43 @@
 # Community 57
 
-> 23 nodes · cohesion 0.18
+> 22 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **vl()** (28 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **Ce()** (16 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **yl()** (15 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **bl()** (11 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **je()** (8 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **ca()** (7 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **Io()** (6 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **ke()** (6 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **ko()** (5 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **ln()** (5 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **p()** (5 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **va()** (5 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **zo()** (5 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **hl()** (4 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **ml()** (4 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **ta()** (4 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **ep()** (3 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **Hc()** (3 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **Ud()** (3 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **we()** (3 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **Ym()** (3 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **fa()** (2 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
-- **Wf()** (2 connections) — `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- **CODEBASE.md — Project Architecture & Feature Guide** (8 connections) — `CODEBASE.md`
+- **2. Core Pricing & Identity Architecture** (6 connections) — `CODEBASE.md`
+- **4. Codebase Directory Map** (6 connections) — `CODEBASE.md`
+- **5. Zoho API Endpoints** (4 connections) — `CODEBASE.md`
+- **CODEBASE.md** (1 connections) — `CODEBASE.md`
+- **1. System Overview** (1 connections) — `CODEBASE.md`
+- **2.1 The Two Audiences (Zero Leakage Rule)** (1 connections) — `CODEBASE.md`
+- **2.2 Pricing Resolution Engine (`api/zoho.js` & `src/data/dealer.js`)** (1 connections) — `CODEBASE.md`
+- **2.3 Guest Access Control & Portal Gating (`src/data/portalGate.js`)** (1 connections) — `CODEBASE.md`
+- **2.4 Shareable Product Link & Zero-Leakage Experience (`src/pages/Product.jsx`)** (1 connections) — `CODEBASE.md`
+- **2.5 Navigation & Bottom Bar Dynamic Filtering** (1 connections) — `CODEBASE.md`
+- **3. Application Routes & Navigation** (1 connections) — `CODEBASE.md`
+- **4.1 Pages (`src/pages/`)** (1 connections) — `CODEBASE.md`
+- **4.2 Reusable Components (`src/components/` & `src/ui.jsx`)** (1 connections) — `CODEBASE.md`
+- **4.3 State & Business Logic (`src/data/`)** (1 connections) — `CODEBASE.md`
+- **4.4 Zoho API & Serverless Handlers (`api/`)** (1 connections) — `CODEBASE.md`
+- **4.5 Automation & Utility Scripts (`scripts/`)** (1 connections) — `CODEBASE.md`
+- **5.1 Zoho Commerce Storefront API** (1 connections) — `CODEBASE.md`
+- **5.2 Zoho Books Contacts & Pricebooks API** (1 connections) — `CODEBASE.md`
+- **5.3 Auto-Recovery Token Architecture** (1 connections) — `CODEBASE.md`
+- **6. How to Run & Verify** (1 connections) — `CODEBASE.md`
+- **7. Development & Git Workflow Guidelines** (1 connections) — `CODEBASE.md`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (26 shared connections)
-- [[Client Products Data Store]] (9 shared connections)
-- [[Product Brand & Business Vision]] (7 shared connections)
-- [[Graphify Agent Rules]] (6 shared connections)
-- [[Dependencies & Package Config]] (5 shared connections)
-- [[Graphify Knowledge Graph Skill]] (5 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (5 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BrUZQ8Sa.js`
+- `CODEBASE.md`
 
 ## Audit Trail
 
-- EXTRACTED: 153 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

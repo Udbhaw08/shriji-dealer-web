@@ -33,7 +33,7 @@
 
 ## Relationships
 
-- [[Product Pages Specification]] (1 shared connections)
+- [[Roles & Customer Sharing Spec]] (1 shared connections)
 
 ## Source Files
 

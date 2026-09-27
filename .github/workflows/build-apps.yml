@@ -1,13 +1,8 @@
 name: Build Mobile Apps (Android & iOS)
 
 on:
-  workflow_dispatch: # Manual trigger from GitHub Actions tab or gh CLI
   push:
-    paths:
-      - '.github/workflows/build-apps.yml'
-      - 'android/**'
-      - 'ios/**'
-      - 'capacitor.config.json'
+  workflow_dispatch:
 
 jobs:
   build-android:

@@ -1,36 +1,38 @@
 # Community 87
 
-> 14 nodes · cohesion 0.23
+> 15 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **additionalProperties** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **required** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **edges** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **groups** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **phases** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **engineering-profiles.mjs** (10 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **engineering-profile.test.mjs** (10 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **validateEngineeringProfile()** (6 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **deploymentOwnershipDiagnostics()** (4 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **subject()** (2 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **DEPLOYMENT_BOUNDARY_KINDS** (1 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **membership()** (1 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **PRIVATE_STATE_TYPES** (1 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **clone()** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **example** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **examplePath** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **validateJson()** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
 
 ## Relationships
 
-- [[Claude Agent Instructions]] (5 shared connections)
-- [[Community 63]] (5 shared connections)
+- [[Zoho API Diagnostic Script]] (3 shared connections)
+- [[Roles & Customer Sharing Spec]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- `.agents/skills/archify/test/engineering-profile.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
