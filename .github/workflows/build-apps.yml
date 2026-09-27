@@ -62,6 +62,21 @@ jobs:
       - name: Build Web Assets & Sync Capacitor
         run: npm run cap:sync
 
+      - name: Resolve iOS Swift Package Dependencies
+        working-directory: ios/App
+        run: |
+          if [ -d "App.xcworkspace" ]; then
+            xcodebuild -resolvePackageDependencies \
+              -workspace App.xcworkspace \
+              -scheme App \
+              -destination 'generic/platform=iOS'
+          else
+            xcodebuild -resolvePackageDependencies \
+              -project App.xcodeproj \
+              -scheme App \
+              -destination 'generic/platform=iOS'
+          fi
+
       - name: Build iOS App
         working-directory: ios/App
         run: |
