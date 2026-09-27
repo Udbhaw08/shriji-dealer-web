@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **CLAUDE.md — read this before touching anything** (4 connections) — `CLAUDE.md`
-- **CLAUDE.md** (1 connections) — `CLAUDE.md`
-- **Commands** (1 connections) — `CLAUDE.md`
-- **Doc map** (1 connections) — `CLAUDE.md`
-- **Hard rules (these exist to stop hallucination)** (1 connections) — `CLAUDE.md`
+- **unavailable()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **hide()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **setAnimation()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **setStyle()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **show()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Roles & Customer Sharing Spec]] (5 shared connections)
 
 ## Source Files
 
-- `CLAUDE.md`
+- `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

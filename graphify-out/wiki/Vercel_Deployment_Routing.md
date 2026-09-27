@@ -1,45 +1,38 @@
 # Vercel Deployment Routing
 
-> 15 nodes · cohesion 0.18
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **kf()** (17 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **ei()** (9 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **Gr()** (5 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **Wr()** (5 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **yr()** (5 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **br()** (4 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **qf()** (4 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **Cr()** (3 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **Sr()** (3 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **Xf()** (3 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **hp()** (2 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **In()** (2 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **kr()** (2 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **of()** (2 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **Tr()** (2 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **3. Exactly which keys to fetch, and from where** (9 connections) — `docs/ZOHO-INTEGRATION.md`
+- **ZOHO-INTEGRATION.md — Live Zoho Commerce & Books Backend** (7 connections) — `docs/ZOHO-INTEGRATION.md`
+- **5. API surface** (2 connections) — `docs/ZOHO-INTEGRATION.md`
+- **ZOHO-INTEGRATION.md** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **1. Active Integration Summary** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **2. The Code Seams** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.1 Organization ID — from the Commerce dashboard** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.2 Client ID + Client Secret — from the API console, not the store** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.3 Refresh Token — generated once, then permanent** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.4 Scopes** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.5 Data centre** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.6 The API call the keys unlock** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.7 Still to confirm — only the store owner can answer** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **4. Architecture — the part that cannot be skipped** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **6. Migration checklist** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **How to hand the credentials over safely** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **Sources** (1 connections) — `docs/ZOHO-INTEGRATION.md`
 
 ## Relationships
 
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (15 shared connections)
-- [[Price Presentation & Product UI]] (4 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (3 shared connections)
-- [[Community 30]] (2 shared connections)
-- [[Community 45]] (1 shared connections)
-- [[Mobile Responsive UI Skill]] (1 shared connections)
-- [[Community 29]] (1 shared connections)
-- [[Community 37]] (1 shared connections)
-- [[Client Products Data Store]] (1 shared connections)
-- [[Pricing Regression Test Suite]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-ezd0j3_z.js`
+- `docs/ZOHO-INTEGRATION.md`
 
 ## Audit Trail
 
-- EXTRACTED: 68 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

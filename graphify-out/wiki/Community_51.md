@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **unavailable()** (5 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **hide()** (2 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **setAnimation()** (2 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **setStyle()** (2 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **show()** (2 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **Agent Operating Guidelines & Zero-Token Context Strategy** (3 connections) — `GEMINI.md`
+- **Shriji Domestic Appliances — Sunshine Dealer Web** (2 connections) — `GEMINI.md`
+- **GEMINI.md** (1 connections) — `GEMINI.md`
+- **Mandatory Context Rule: Knowledge Graph First** (1 connections) — `GEMINI.md`
+- **Project Hard Rules** (1 connections) — `GEMINI.md`
 
 ## Relationships
 
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (5 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-ezd0j3_z.js`
+- `GEMINI.md`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

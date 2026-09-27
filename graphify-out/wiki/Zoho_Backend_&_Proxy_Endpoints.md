@@ -1,58 +1,57 @@
 # Zoho Backend & Proxy Endpoints
 
-> 62 nodes · cohesion 0.08
+> 65 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **get()** (23 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **E()** (20 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **np()** (20 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **b()** (18 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **.addEventListener()** (18 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **zt()** (18 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **bm()** (14 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **fp()** (14 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **h()** (14 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **.removeEventListener()** (13 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **am()** (11 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **on()** (11 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **tp()** (10 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **ip()** (9 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **mm()** (9 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **en()** (8 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **gn()** (8 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **jm()** (8 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **om()** (8 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **sn()** (8 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **tm()** (8 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **cm()** (7 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **lp()** (7 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **zm()** (7 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **em()** (6 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- *... and 37 more nodes in this community*
+- **i()** (64 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **fl()** (34 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **qc()** (22 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **nl()** (20 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **uc()** (17 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **ll()** (13 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **lm()** (13 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **r()** (12 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **sa()** (10 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **sl()** (10 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **cs()** (9 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **el()** (9 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **ua()** (9 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **xa()** (9 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **ic()** (8 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Sp()** (8 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **bc()** (7 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **dl()** (7 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **l()** (7 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Pi()** (7 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **qs()** (7 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Bo()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **dc()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **rc()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **zd()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- *... and 40 more nodes in this community*
 
 ## Relationships
 
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (56 shared connections)
-- [[Price Presentation & Product UI]] (27 shared connections)
-- [[Client Products Data Store]] (22 shared connections)
-- [[Pricing Regression Test Suite]] (17 shared connections)
-- [[Product Brand & Business Vision]] (15 shared connections)
-- [[Graphify Knowledge Graph Skill]] (6 shared connections)
-- [[Mobile Responsive UI Skill]] (6 shared connections)
-- [[Vercel Deployment Routing]] (3 shared connections)
-- [[Community 29]] (3 shared connections)
-- [[Community 30]] (2 shared connections)
-- [[Community 41]] (2 shared connections)
-- [[Community 65]] (1 shared connections)
+- [[Roles & Customer Sharing Spec]] (66 shared connections)
+- [[Design System & UI Tokens]] (28 shared connections)
+- [[Product Pages Specification]] (27 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (18 shared connections)
+- [[Pricing Regression Test Suite]] (18 shared connections)
+- [[Oxlint Linter Configuration]] (16 shared connections)
+- [[Community 29]] (11 shared connections)
+- [[Architecture Doc Generator]] (11 shared connections)
+- [[Zoho API Diagnostic Script]] (7 shared connections)
+- [[Graphify Agent Rules]] (3 shared connections)
+- [[Community 32]] (3 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-ezd0j3_z.js`
+- `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
 
 ## Audit Trail
 
-- EXTRACTED: 444 (100%)
+- EXTRACTED: 474 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

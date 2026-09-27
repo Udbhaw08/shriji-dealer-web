@@ -1,8 +1,8 @@
 # vl()
 
-> God node · 27 connections · `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+> God node · 27 connections · `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
 
-**Community:** [[Live Pricing Audit Tool]]
+**Community:** [[Pricing Hierarchy & Zero-Leakage Spec]]
 
 ## Connections by Relation
 

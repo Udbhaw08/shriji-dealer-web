@@ -1,56 +1,58 @@
 # Design System & UI Tokens
 
-> 52 nodes · cohesion 0.07
+> 49 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **fl()** (34 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **qc()** (22 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **nl()** (20 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **uc()** (17 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **ll()** (13 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **lm()** (13 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **sa()** (10 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **sl()** (10 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **ua()** (9 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **xa()** (9 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **ic()** (8 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **Sp()** (8 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **bc()** (7 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **dl()** (7 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **Pi()** (7 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **Bo()** (6 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **rc()** (6 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **zd()** (6 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **as()** (5 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **ba()** (5 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **Fo()** (5 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **ls()** (5 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **Ou()** (5 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **pa()** (5 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **rl()** (5 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- *... and 27 more nodes in this community*
+- **lc()** (14 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Pd()** (14 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Di()** (10 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **c()** (9 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **hh()** (9 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **kc()** (9 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **yh()** (9 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **fc()** (8 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Gc()** (8 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **jd()** (8 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Mp()** (8 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **ea()** (7 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **ec()** (7 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **mh()** (7 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **sc()** (7 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **es()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **ki()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **lh()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **nc()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **oc()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **ph()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Qo()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **s()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Sh()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **bs()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (52 shared connections)
-- [[Master Codebase Architecture Reference]] (30 shared connections)
-- [[Live Pricing Audit Tool]] (16 shared connections)
-- [[Dependencies & Package Config]] (15 shared connections)
-- [[Architecture Doc Generator]] (10 shared connections)
-- [[Product Requirements Documentation]] (9 shared connections)
-- [[Graphify Workflow]] (7 shared connections)
-- [[Zoho Integration Architecture]] (5 shared connections)
-- [[Community 40]] (1 shared connections)
-- [[Community 32]] (1 shared connections)
+- [[Roles & Customer Sharing Spec]] (48 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (28 shared connections)
+- [[Oxlint Linter Configuration]] (11 shared connections)
+- [[Product Pages Specification]] (7 shared connections)
+- [[Architecture Doc Generator]] (6 shared connections)
+- [[Pricing Regression Test Suite]] (3 shared connections)
+- [[Community 32]] (3 shared connections)
+- [[Graphify Agent Rules]] (3 shared connections)
+- [[Zoho API Diagnostic Script]] (3 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (3 shared connections)
+- [[Community 29]] (2 shared connections)
+- [[Community 41]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
 
 ## Audit Trail
 
-- EXTRACTED: 342 (100%)
+- EXTRACTED: 281 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

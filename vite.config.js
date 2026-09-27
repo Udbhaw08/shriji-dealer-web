@@ -159,7 +159,7 @@ function zohoApiPlugin() {
               const desc = dealerName
                 ? `Retail MRP: ${priceStr} (Incl. of all taxes) · Available with ${dealerName}${dealerLoc ? ` (${dealerLoc})` : ''}`
                 : `Retail MRP: ${priceStr} (Incl. of all taxes) · Sunshine ReSTOR`;
-              const imgUrl = product.img || 'https://shrijidomestic.com/img/hero-stove.webp';
+              const imgUrl = product.img || '/img/hero-stove.webp';
 
               let transformed = html;
               transformed = transformed.replace(/<title>.*?<\/title>/i, `<title>${title}</title>`);

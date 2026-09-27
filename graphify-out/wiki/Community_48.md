@@ -1,26 +1,27 @@
 # Community 48
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **unavailable()** (5 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **hide()** (2 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **setAnimation()** (2 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **setStyle()** (2 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **show()** (2 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **Shriji Zoho Integration Skill** (5 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
+- **API Endpoints Reference** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
+- **Key Files & Architecture** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
+- **Pricing & Rate Priority** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
+- **Validation & Audit Commands** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (5 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- `.agents/skills/shriji-zoho-integration/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

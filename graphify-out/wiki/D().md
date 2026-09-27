@@ -1,8 +1,8 @@
 # D()
 
-> God node · 27 connections · `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+> God node · 27 connections · `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
 
-**Community:** [[Zoho Integration Architecture]]
+**Community:** [[Architecture Doc Generator]]
 
 ## Connections by Relation
 

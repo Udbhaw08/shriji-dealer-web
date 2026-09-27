@@ -1,33 +1,33 @@
 # Community 44
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Ar()** (8 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **rr()** (4 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **vi()** (4 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **nr()** (2 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **Vr()** (2 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **zr()** (2 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **Dr()** (5 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **ir()** (5 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **Er()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **qn()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **Pr()** (3 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **Fr()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **gi()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (6 shared connections)
-- [[Community 43]] (1 shared connections)
-- [[Zoho Integration Architecture]] (1 shared connections)
-- [[Community 34]] (1 shared connections)
+- [[Client Products Data Store]] (7 shared connections)
+- [[Community 30]] (2 shared connections)
+- [[Community 40]] (1 shared connections)
 - [[Graphify Workflow]] (1 shared connections)
-- [[Master Codebase Architecture Reference]] (1 shared connections)
-- [[Product Requirements Documentation]] (1 shared connections)
+- [[Dependencies & Package Config]] (1 shared connections)
+- [[Community 46]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- `ios/App/App/public/assets/index-BwZ1pEe7.js`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 25 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

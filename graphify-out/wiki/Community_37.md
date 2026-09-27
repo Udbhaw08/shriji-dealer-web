@@ -4,34 +4,27 @@
 
 ## Key Concepts
 
-- **Id()** (6 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **nf()** (6 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **eh()** (5 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **th()** (5 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **ah()** (3 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **nh()** (3 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **op()** (3 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **rh()** (3 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **ap()** (2 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **Shriji Pricing & Roles Skill** (5 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **User Roles & View Modes** (4 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **1. Guest View (Public)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **2. Dealer View (Authenticated)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **3. Customer Shared View (`?from=<dealer_id>`)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **Key Files** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **Schemes Logic** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **Zero-Price Handling** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
 
 ## Relationships
 
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (9 shared connections)
-- [[Price Presentation & Product UI]] (3 shared connections)
-- [[Client Products Data Store]] (2 shared connections)
-- [[Mobile Responsive UI Skill]] (2 shared connections)
-- [[Graphify Knowledge Graph Skill]] (1 shared connections)
-- [[Product Brand & Business Vision]] (1 shared connections)
-- [[Pricing Regression Test Suite]] (1 shared connections)
-- [[Vercel Deployment Routing]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-ezd0j3_z.js`
+- `.agents/skills/shriji-pricing-and-roles/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

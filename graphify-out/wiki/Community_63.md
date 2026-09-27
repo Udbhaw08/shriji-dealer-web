@@ -1,25 +1,27 @@
 # Community 63
 
-> 3 nodes · cohesion 0.67
+> 3 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **removeWindowListener()** (4 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **removeAllListeners()** (2 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **removeListener()** (2 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **be()** (4 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **_m()** (4 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **xe()** (4 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
 
 ## Relationships
 
 - [[Roles & Customer Sharing Spec]] (3 shared connections)
-- [[Dependencies & Package Config]] (1 shared connections)
+- [[Architecture Doc Generator]] (1 shared connections)
+- [[Pricing Regression Test Suite]] (1 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

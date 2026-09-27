@@ -1,31 +1,34 @@
 # Community 42
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **le()** (5 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **p()** (5 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **Pe()** (4 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **we()** (4 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **He()** (3 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **Xd()** (3 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **fe()** (2 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **ue()** (2 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **Ar()** (8 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **ir()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **qn()** (4 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Pr()** (3 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Fr()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Vr()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **zr()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
 
 ## Relationships
 
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (8 shared connections)
-- [[Client Products Data Store]] (3 shared connections)
-- [[Graphify Knowledge Graph Skill]] (3 shared connections)
+- [[Roles & Customer Sharing Spec]] (7 shared connections)
+- [[Community 29]] (2 shared connections)
+- [[Architecture Doc Generator]] (1 shared connections)
+- [[Community 32]] (1 shared connections)
+- [[Graphify Agent Rules]] (1 shared connections)
+- [[Community 43]] (1 shared connections)
+- [[Pricing Regression Test Suite]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-ezd0j3_z.js`
+- `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

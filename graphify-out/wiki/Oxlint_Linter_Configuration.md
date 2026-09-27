@@ -1,48 +1,55 @@
 # Oxlint Linter Configuration
 
-> 29 nodes · cohesion 0.09
+> 24 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **AppDelegate** (10 connections) — `ios/App/App/AppDelegate.swift`
-- **.application()** (7 connections) — `ios/App/App/AppDelegate.swift`
-- **.scene()** (7 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIApplication** (6 connections) — `ios/App/App/AppDelegate.swift`
-- **SceneDelegate** (5 connections) — `ios/App/App/SceneDelegate.swift`
-- **AppDelegate.swift** (3 connections) — `ios/App/App/AppDelegate.swift`
-- **SceneDelegate.swift** (3 connections) — `ios/App/App/SceneDelegate.swift`
-- **.applicationDidBecomeActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationDidEnterBackground()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillEnterForeground()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillResignActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillTerminate()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **Capacitor** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIWindow** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIKit** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIResponder** (2 connections)
-- **Any** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **Bool** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIScene** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UISceneSession** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIWindow** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIScene** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **UISceneSession** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **NSUserActivity** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **Set** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- *... and 4 more nodes in this community*
+- **n()** (25 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **t()** (18 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **os()** (12 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **lt()** (9 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **ps()** (7 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **tt()** (7 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **hs()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **ms()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **ss()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **ys()** (6 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **ct()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **fs()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **gs()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **x()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **xs()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **ne()** (4 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **eo()** (3 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Md()** (3 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **render()** (3 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **ai()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **ds()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **js()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **us()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **zs()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Roles & Customer Sharing Spec]] (25 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (16 shared connections)
+- [[Design System & UI Tokens]] (11 shared connections)
+- [[Product Pages Specification]] (8 shared connections)
+- [[Architecture Doc Generator]] (7 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (3 shared connections)
+- [[Community 29]] (3 shared connections)
+- [[Community 41]] (2 shared connections)
+- [[Zoho API Diagnostic Script]] (1 shared connections)
+- [[Graphify Agent Rules]] (1 shared connections)
+- [[Pricing Regression Test Suite]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/AppDelegate.swift`
-- `ios/App/App/SceneDelegate.swift`
+- `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
 
 ## Audit Trail
 
-- EXTRACTED: 72 (100%)
+- EXTRACTED: 150 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

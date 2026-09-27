@@ -1,23 +1,27 @@
 # Community 67
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **Package.swift** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
-- **PackageDescription** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
+- **be()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **_m()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **xe()** (4 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Client Products Data Store]] (3 shared connections)
+- [[Zoho Integration Architecture]] (1 shared connections)
+- [[Product Brand & Business Vision]] (1 shared connections)
+- [[Live Pricing Audit Tool]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/CapApp-SPM/Package.swift`
+- `ios/App/App/public/assets/index-BwZ1pEe7.js`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

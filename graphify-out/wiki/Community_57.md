@@ -4,20 +4,20 @@
 
 ## Key Concepts
 
-- **le()** (5 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **Pe()** (4 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **fe()** (2 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **ue()** (2 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **le()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Pe()** (4 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **fe()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **ue()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
 
 ## Relationships
 
 - [[Roles & Customer Sharing Spec]] (4 shared connections)
-- [[Zoho Integration Architecture]] (2 shared connections)
-- [[Live Pricing Audit Tool]] (1 shared connections)
+- [[Architecture Doc Generator]] (2 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
 
 ## Audit Trail
 

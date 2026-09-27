@@ -1,8 +1,8 @@
 # i()
 
-> God node · 64 connections · `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+> God node · 64 connections · `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
 
-**Community:** [[Master Codebase Architecture Reference]]
+**Community:** [[Zoho Backend & Proxy Endpoints]]
 
 ## Connections by Relation
 

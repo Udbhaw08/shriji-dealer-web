@@ -4,26 +4,26 @@
 
 ## Key Concepts
 
-- **Dr()** (5 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **ir()** (5 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **Er()** (4 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **qn()** (4 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **Pr()** (3 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **Fr()** (2 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **gi()** (2 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- **request()** (8 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Dr()** (5 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **Er()** (4 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **gi()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **patch()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **post()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **put()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
 
 ## Relationships
 
 - [[Roles & Customer Sharing Spec]] (7 shared connections)
-- [[Graphify Workflow]] (2 shared connections)
-- [[Community 32]] (1 shared connections)
-- [[Community 34]] (1 shared connections)
-- [[Product Requirements Documentation]] (1 shared connections)
-- [[Community 44]] (1 shared connections)
+- [[Graphify Agent Rules]] (2 shared connections)
+- [[Community 42]] (1 shared connections)
+- [[Community 29]] (1 shared connections)
+- [[Product Pages Specification]] (1 shared connections)
+- [[Pricing Regression Test Suite]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
 
 ## Audit Trail
 

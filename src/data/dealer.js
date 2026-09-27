@@ -214,7 +214,10 @@ export function viewerFor(session, fromId, searchParams) {
  */
 export function shareLink(p, dealer) {
   if (!p) return "";
-  const origin = typeof window !== "undefined" && window.location?.origin ? window.location.origin : "https://shrijidomestic.com";
+  const isLocal = typeof window !== "undefined" && (window.location?.hostname === "localhost" || window.location?.hostname === "127.0.0.1");
+  const origin = (typeof window !== "undefined" && window.location?.origin && !isLocal)
+    ? window.location.origin
+    : "https://shriji-dealer-web.vercel.app";
   const slug = productSlug(p) || p.id;
   const url = new URL(`/products/${slug}`, origin);
 

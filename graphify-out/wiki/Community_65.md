@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **removeWindowListener()** (4 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **removeAllListeners()** (2 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
-- **removeListener()** (2 connections) — `ios/App/App/public/assets/index-ezd0j3_z.js`
+- **removeWindowListener()** (4 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **removeAllListeners()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
+- **removeListener()** (2 connections) — `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
 
 ## Relationships
 
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (3 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (1 shared connections)
+- [[Roles & Customer Sharing Spec]] (3 shared connections)
+- [[Product Pages Specification]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-ezd0j3_z.js`
+- `android/app/src/main/assets/public/assets/index-BwZ1pEe7.js`
 
 ## Audit Trail
 

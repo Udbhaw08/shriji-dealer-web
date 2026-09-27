@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **Shriji Domestic Appliances — Sunshine Dealer Web** (4 connections) — `README.md`
-- **README.md** (1 connections) — `README.md`
-- **Documentation** (1 connections) — `README.md`
-- **Layout** (1 connections) — `README.md`
-- **Two things to know before you change anything** (1 connections) — `README.md`
+- **unavailable()** (5 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **hide()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **setAnimation()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **setStyle()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
+- **show()** (2 connections) — `ios/App/App/public/assets/index-BwZ1pEe7.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Client Products Data Store]] (5 shared connections)
 
 ## Source Files
 
-- `README.md`
+- `ios/App/App/public/assets/index-BwZ1pEe7.js`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

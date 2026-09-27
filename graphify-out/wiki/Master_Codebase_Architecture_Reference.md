@@ -1,58 +1,56 @@
 # Master Codebase Architecture Reference
 
-> 52 nodes · cohesion 0.07
+> 53 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **i()** (64 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **n()** (25 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **t()** (18 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **os()** (12 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **r()** (12 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **a()** (10 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **c()** (9 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **cs()** (9 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **el()** (9 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **kc()** (9 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **fc()** (8 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **Gc()** (8 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **Mp()** (8 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **ea()** (7 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **l()** (7 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **ps()** (7 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **qs()** (7 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **dc()** (6 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **es()** (6 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **hs()** (6 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **ms()** (6 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **Qo()** (6 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **s()** (6 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **ss()** (6 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- **ys()** (6 connections) — `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
-- *... and 27 more nodes in this community*
+- **zoho.js** (31 connections) — `api/zoho.js`
+- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
+- **fetchZohoProductById()** (12 connections) — `api/zoho.js`
+- **fetchZohoProducts()** (11 connections) — `api/zoho.js`
+- **fetchZohoWithRetry()** (11 connections) — `api/zoho.js`
+- **getZohoConfig()** (11 connections) — `api/zoho.js`
+- **findDealerByPhone()** (9 connections) — `api/zoho.js`
+- **vite.config.js** (9 connections) — `vite.config.js`
+- **createDealerContact()** (8 connections) — `api/zoho.js`
+- **getDealerById()** (8 connections) — `api/zoho.js`
+- **fetchZohoCategories()** (7 connections) — `api/zoho.js`
+- **getAccessToken()** (7 connections) — `api/zoho.js`
+- **zohoApiPlugin()** (7 connections) — `vite.config.js`
+- **fetchZohoPricebookItems()** (5 connections) — `api/zoho.js`
+- **normalizeProduct()** (5 connections) — `api/zoho.js`
+- **index.js** (4 connections) — `api/products/index.js`
+- **test-zoho-api.mjs** (4 connections) — `scripts/test-zoho-api.mjs`
+- **og.js** (3 connections) — `api/og.js`
+- **fetchZohoPricebooks()** (3 connections) — `api/zoho.js`
+- **loadEnv()** (3 connections) — `api/zoho.js`
+- **apply.js** (3 connections) — `api/dealer/apply.js`
+- **info.js** (3 connections) — `api/dealer/info.js`
+- **login.js** (3 connections) — `api/dealer/login.js`
+- **[id].js** (3 connections) — `api/products/[id].js`
+- **handler()** (3 connections) — `api/products/index.js`
+- *... and 28 more nodes in this community*
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (52 shared connections)
-- [[Design System & UI Tokens]] (30 shared connections)
-- [[Dependencies & Package Config]] (23 shared connections)
-- [[Architecture Doc Generator]] (22 shared connections)
-- [[Zoho Integration Architecture]] (14 shared connections)
-- [[Live Pricing Audit Tool]] (13 shared connections)
-- [[Product Requirements Documentation]] (12 shared connections)
-- [[Graphify Workflow]] (7 shared connections)
-- [[Community 40]] (3 shared connections)
-- [[Community 32]] (2 shared connections)
-- [[Community 44]] (1 shared connections)
-- [[Community 56]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-ezd0j3_z.js`
+- `api/dealer/apply.js`
+- `api/dealer/info.js`
+- `api/dealer/login.js`
+- `api/og.js`
+- `api/products/[id].js`
+- `api/products/index.js`
+- `api/zoho.js`
+- `scripts/audit_prices.mjs`
+- `scripts/test-zoho-api.mjs`
+- `vite.config.js`
 
 ## Audit Trail
 
-- EXTRACTED: 370 (100%)
+- EXTRACTED: 226 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
