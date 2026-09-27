@@ -4,22 +4,25 @@
 
 ## Key Concepts
 
-- **Test** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
-- **ExampleInstrumentedTest.java** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
-- **ExampleInstrumentedTest** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
-- **.useAppContext()** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
+- **be()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **_m()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **xe()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **Cp()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Roles & Customer Sharing Spec]] (4 shared connections)
+- [[Live Pricing Audit Tool]] (1 shared connections)
+- [[Product Requirements Documentation]] (1 shared connections)
+- [[Zoho Integration Skill]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
+- `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 15 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

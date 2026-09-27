@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **unavailable()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **hide()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **setAnimation()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **setStyle()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **show()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **Shriji Domestic Appliances — Sunshine Dealer Web** (4 connections) — `README.md`
+- **README.md** (1 connections) — `README.md`
+- **Documentation** (1 connections) — `README.md`
+- **Layout** (1 connections) — `README.md`
+- **Two things to know before you change anything** (1 connections) — `README.md`
 
 ## Relationships
 
-- [[Graphify Knowledge Graph Skill]] (5 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DqKn3RAn.js`
+- `README.md`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,20 +1,20 @@
 # Community 57
 
-> 4 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **be()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **_m()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **xe()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **Cp()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **request()** (7 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **patch()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **post()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **put()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
 
 ## Relationships
 
-- [[Architecture Doc Generator]] (4 shared connections)
-- [[Product Brand & Business Vision]] (1 shared connections)
-- [[Master Codebase Architecture Reference]] (1 shared connections)
-- [[Claude Agent Instructions]] (1 shared connections)
+- [[Roles & Customer Sharing Spec]] (4 shared connections)
+- [[Zoho Integration Architecture]] (1 shared connections)
+- [[Dependencies & Package Config]] (1 shared connections)
+- [[Community 29]] (1 shared connections)
 
 ## Source Files
 
@@ -22,7 +22,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

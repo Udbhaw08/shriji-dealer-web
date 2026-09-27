@@ -1,47 +1,50 @@
 # Pricing Regression Test Suite
 
-> 45 nodes · cohesion 0.08
+> 45 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **Z()** (23 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **xl()** (12 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **Pd()** (14 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
 - **delete()** (11 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **hu()** (11 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **vu()** (11 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **yi()** (11 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **ql()** (10 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **sl()** (10 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **jl()** (7 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **ju()** (7 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **pu()** (7 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Zl()** (7 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Bo()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Lu()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **mu()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Nd()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **zd()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **zu()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Ma()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **rl()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **ru()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **sm()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **_u()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **cl()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **eu()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **Di()** (11 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **a()** (10 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **c()** (9 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **hh()** (9 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **yh()** (9 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **jd()** (8 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **Mp()** (8 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **ec()** (7 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **gf()** (7 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **mh()** (7 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **sc()** (7 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **lh()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **nc()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **oc()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **ph()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **s()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **Sh()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **bs()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **dh()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **fh()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **Ih()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **vf()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **bh()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
 - *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [[Graphify Knowledge Graph Skill]] (44 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (19 shared connections)
-- [[Product Requirements Documentation]] (11 shared connections)
-- [[Live Pricing Audit Tool]] (9 shared connections)
-- [[Dependencies & Package Config]] (8 shared connections)
-- [[Roles & Customer Sharing Spec]] (6 shared connections)
-- [[Pricing & Roles Skill]] (4 shared connections)
-- [[Zoho Integration Skill]] (3 shared connections)
-- [[Community 61]] (1 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (43 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (17 shared connections)
+- [[Product Brand & Business Vision]] (15 shared connections)
+- [[Product Pages Specification]] (11 shared connections)
+- [[Architecture Doc Generator]] (8 shared connections)
+- [[Pricing & Roles Skill]] (6 shared connections)
+- [[Design System & UI Tokens]] (5 shared connections)
+- [[Community 42]] (2 shared connections)
+- [[Community 43]] (1 shared connections)
+- [[Community 60]] (1 shared connections)
+- [[Project Readme & Layout]] (1 shared connections)
+- [[Community 30]] (1 shared connections)
 
 ## Source Files
 
@@ -49,7 +52,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 259 (100%)
+- EXTRACTED: 245 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

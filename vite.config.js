@@ -203,9 +203,50 @@ function zohoApiPlugin() {
   };
 }
 
+let liveSyncTimer = null;
+let isLiveSyncing = false;
+
+function liveAutoSyncPlugin() {
+  return {
+    name: 'live-auto-sync-plugin',
+    apply: 'serve', // Only active during 'npm run dev', never during 'build'
+    handleHotUpdate({ file }) {
+      const normalized = (file || '').replace(/\\/g, '/');
+      if (
+        normalized.includes('/dist/') ||
+        normalized.includes('/node_modules/') ||
+        normalized.includes('/.git/') ||
+        normalized.includes('/android/') ||
+        normalized.includes('/ios/') ||
+        normalized.includes('/graphify-out/') ||
+        normalized.endsWith('CODEBASE.md')
+      ) {
+        return;
+      }
+
+      if (liveSyncTimer) clearTimeout(liveSyncTimer);
+      liveSyncTimer = setTimeout(async () => {
+        if (isLiveSyncing) return;
+        isLiveSyncing = true;
+        try {
+          const { exec } = await import('node:child_process');
+          exec('node scripts/generate-codebase-doc.mjs && npx vite build && npx cap copy', { cwd: process.cwd() }, (err) => {
+            isLiveSyncing = false;
+            if (!err) {
+              console.log('⚡ [Live Auto-Sync] Android, iOS & CODEBASE.md refreshed in background.');
+            }
+          });
+        } catch {
+          isLiveSyncing = false;
+        }
+      }, 3000);
+    },
+  };
+}
+
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), zohoApiPlugin()],
+  plugins: [react(), zohoApiPlugin(), liveAutoSyncPlugin()],
   server: {
     host: true,
   },

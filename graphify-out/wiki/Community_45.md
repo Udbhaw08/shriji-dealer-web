@@ -13,10 +13,10 @@
 
 ## Relationships
 
-- [[Architecture Doc Generator]] (6 shared connections)
+- [[Roles & Customer Sharing Spec]] (6 shared connections)
 - [[Client Products Data Store]] (1 shared connections)
-- [[Product Pages Specification]] (1 shared connections)
-- [[Community 42]] (1 shared connections)
+- [[Dependencies & Package Config]] (1 shared connections)
+- [[Community 40]] (1 shared connections)
 
 ## Source Files
 

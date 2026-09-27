@@ -12,7 +12,7 @@
 
 ## Relationships
 
-- [[Architecture Doc Generator]] (5 shared connections)
+- [[Roles & Customer Sharing Spec]] (5 shared connections)
 
 ## Source Files
 

@@ -1,55 +1,52 @@
 # Zoho Integration Skill
 
-> 29 nodes · cohesion 0.10
+> 22 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **Pd()** (14 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **c()** (9 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **hh()** (9 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **yh()** (9 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **jd()** (8 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **ec()** (7 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **mh()** (7 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **nc()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **oc()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **ph()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Rd()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Sh()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **dh()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **fh()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Ih()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **th()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **bh()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **go()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **vh()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **vo()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **cc()** (3 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **If()** (3 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **nh()** (3 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **rh()** (3 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **St()** (3 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- *... and 4 more nodes in this community*
+- **vl()** (27 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **yl()** (14 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **bl()** (10 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **ca()** (7 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **je()** (7 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **da()** (6 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **cn()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **Io()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **ke()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **zo()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **hl()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **ko()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **ml()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **Q()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **ta()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **tf()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **va()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **ep()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **Ud()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **Ym()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **fa()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **Wf()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
 
 ## Relationships
 
-- [[Graphify Knowledge Graph Skill]] (28 shared connections)
-- [[Product Requirements Documentation]] (13 shared connections)
-- [[Dependencies & Package Config]] (11 shared connections)
-- [[Pricing & Roles Skill]] (6 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (4 shared connections)
-- [[Roles & Customer Sharing Spec]] (4 shared connections)
-- [[Pricing Regression Test Suite]] (3 shared connections)
-- [[Community 30]] (1 shared connections)
-- [[Community 60]] (1 shared connections)
+- [[Roles & Customer Sharing Spec]] (22 shared connections)
+- [[Price Presentation & Product UI]] (9 shared connections)
+- [[Dependencies & Package Config]] (7 shared connections)
+- [[Product Requirements Documentation]] (6 shared connections)
+- [[Graphify Knowledge Graph Skill]] (5 shared connections)
+- [[Live Pricing Audit Tool]] (4 shared connections)
+- [[Client Products Data Store]] (3 shared connections)
+- [[Community 37]] (2 shared connections)
+- [[Community 56]] (1 shared connections)
+- [[Zoho Integration Architecture]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DqKn3RAn.js`
+- `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
 
 ## Audit Trail
 
-- EXTRACTED: 153 (100%)
+- EXTRACTED: 132 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

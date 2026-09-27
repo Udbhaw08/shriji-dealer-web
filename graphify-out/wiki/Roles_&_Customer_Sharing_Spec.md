@@ -1,58 +1,58 @@
 # Roles & Customer Sharing Spec
 
-> 36 nodes · cohesion 0.10
+> 37 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **qd()** (14 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Yd()** (13 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Fd()** (12 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Vd()** (12 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **wi()** (11 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **df()** (10 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **rf()** (10 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **ut()** (10 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **lt()** (9 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **ef()** (7 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **ff()** (7 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **af()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Bd()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Id()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **nf()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **ct()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **is()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **jf()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **lf()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **mf()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **sf()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **xt()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **cf()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Hd()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Ku()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- *... and 11 more nodes in this community*
+- **_()** (443 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **removeWindowListener()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **addListener()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **addWindowListener()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **ln()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **mn()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **re()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **clearAllCookies()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **clearCookies()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **jn()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **Nt()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **removeAllListeners()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **removeListener()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **sendRetainedArgumentsForEvent()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **te()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **de()** (1 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **deleteCookie()** (1 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **Et()** (1 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **ge()** (1 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **getCookies()** (1 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **getDerivedStateFromError()** (1 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **getDerivedStateFromProps()** (1 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **hasListeners()** (1 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **it()** (1 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [[Graphify Knowledge Graph Skill]] (36 shared connections)
-- [[Product Requirements Documentation]] (13 shared connections)
-- [[Pricing & Roles Skill]] (12 shared connections)
-- [[Dependencies & Package Config]] (9 shared connections)
-- [[Pricing Regression Test Suite]] (6 shared connections)
-- [[Live Pricing Audit Tool]] (5 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (5 shared connections)
-- [[Zoho Integration Skill]] (4 shared connections)
-- [[Community 30]] (3 shared connections)
-- [[Community 39]] (1 shared connections)
-- [[Community 60]] (1 shared connections)
-- [[Community 40]] (1 shared connections)
+- [[Price Presentation & Product UI]] (68 shared connections)
+- [[Product Requirements Documentation]] (52 shared connections)
+- [[Dependencies & Package Config]] (50 shared connections)
+- [[Zoho Integration Architecture]] (42 shared connections)
+- [[Client Products Data Store]] (41 shared connections)
+- [[Live Pricing Audit Tool]] (41 shared connections)
+- [[Graphify Knowledge Graph Skill]] (35 shared connections)
+- [[Zoho Integration Skill]] (22 shared connections)
+- [[Community 29]] (11 shared connections)
+- [[Community 37]] (8 shared connections)
+- [[Community 39]] (7 shared connections)
+- [[Community 40]] (7 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DqKn3RAn.js`
+- `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
 
 ## Audit Trail
 
-- EXTRACTED: 218 (100%)
+- EXTRACTED: 499 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

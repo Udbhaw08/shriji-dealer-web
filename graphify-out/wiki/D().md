@@ -2,7 +2,7 @@
 
 > God node · 27 connections · `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
 
-**Community:** [[Product Brand & Business Vision]]
+**Community:** [[Live Pricing Audit Tool]]
 
 ## Connections by Relation
 

@@ -4,21 +4,22 @@
 
 ## Key Concepts
 
-- **sync-all.mjs** (2 connections) — `scripts/sync-all.mjs`
-- **rootDir** (1 connections) — `scripts/sync-all.mjs`
-- **run()** (1 connections) — `scripts/sync-all.mjs`
+- **removeWindowListener()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **removeAllListeners()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **removeListener()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (3 shared connections)
+- [[Product Pages Specification]] (1 shared connections)
 
 ## Source Files
 
-- `scripts/sync-all.mjs`
+- `ios/App/App/public/assets/index-DqKn3RAn.js`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

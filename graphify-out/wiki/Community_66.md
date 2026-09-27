@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **vercel.json** (2 connections) — `vercel.json`
-- **framework** (1 connections) — `vercel.json`
-- **rewrites** (1 connections) — `vercel.json`
+- **sync-all.mjs** (2 connections) — `scripts/sync-all.mjs`
+- **rootDir** (1 connections) — `scripts/sync-all.mjs`
+- **run()** (1 connections) — `scripts/sync-all.mjs`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `vercel.json`
+- `scripts/sync-all.mjs`
 
 ## Audit Trail
 

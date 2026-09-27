@@ -1,37 +1,30 @@
 # Community 33
 
-> 10 nodes · cohesion 0.27
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **gn()** (8 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **sn()** (8 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **yn()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **tn()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **un()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **an()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **wn()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **hn()** (3 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **ln()** (3 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Nt()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **2. Customer vs. Dealer Price Resolution (`src/data/dealer.js`)** (4 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **PRICING-ARCHITECTURE.md — Pricing Engine & Audit Specification** (4 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **1. Source of Truth: Live Zoho Commerce Store API** (2 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **PRICING-ARCHITECTURE.md** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **2.1 Customer View** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **2.2 Dealer View** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **2.3 Share Link Invariant** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **3. Automated Pricing Regression Protection** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **Rate Priority Hierarchy** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
 
 ## Relationships
 
-- [[Graphify Knowledge Graph Skill]] (10 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (5 shared connections)
-- [[Pricing & Roles Skill]] (5 shared connections)
-- [[Dependencies & Package Config]] (1 shared connections)
-- [[Product Requirements Documentation]] (1 shared connections)
-- [[Community 39]] (1 shared connections)
-- [[Live Pricing Audit Tool]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DqKn3RAn.js`
+- `docs/PRICING-ARCHITECTURE.md`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

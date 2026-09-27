@@ -13,10 +13,10 @@
 
 ## Relationships
 
-- [[Graphify Knowledge Graph Skill]] (6 shared connections)
-- [[Pricing & Roles Skill]] (1 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (1 shared connections)
-- [[Community 44]] (1 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (6 shared connections)
+- [[Product Brand & Business Vision]] (1 shared connections)
+- [[Product Pages Specification]] (1 shared connections)
+- [[Community 43]] (1 shared connections)
 
 ## Source Files
 

@@ -33,17 +33,17 @@
 
 ## Relationships
 
-- [[Architecture Doc Generator]] (42 shared connections)
+- [[Roles & Customer Sharing Spec]] (42 shared connections)
 - [[Price Presentation & Product UI]] (18 shared connections)
 - [[Client Products Data Store]] (15 shared connections)
-- [[Product Pages Specification]] (11 shared connections)
-- [[Product Brand & Business Vision]] (9 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (7 shared connections)
-- [[Master Codebase Architecture Reference]] (5 shared connections)
-- [[Community 41]] (2 shared connections)
-- [[Community 42]] (1 shared connections)
-- [[Community 58]] (1 shared connections)
-- [[Claude Agent Instructions]] (1 shared connections)
+- [[Dependencies & Package Config]] (11 shared connections)
+- [[Live Pricing Audit Tool]] (9 shared connections)
+- [[Graphify Knowledge Graph Skill]] (7 shared connections)
+- [[Product Requirements Documentation]] (5 shared connections)
+- [[Community 39]] (2 shared connections)
+- [[Community 40]] (1 shared connections)
+- [[Community 57]] (1 shared connections)
+- [[Zoho Integration Skill]] (1 shared connections)
 - [[Community 29]] (1 shared connections)
 
 ## Source Files

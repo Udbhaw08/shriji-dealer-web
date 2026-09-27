@@ -1,43 +1,52 @@
 # Project Readme & Layout
 
-> 22 nodes · cohesion 0.09
+> 22 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **CODEBASE.md — Project Architecture & Feature Guide** (8 connections) — `CODEBASE.md`
-- **2. Core Pricing & Identity Architecture** (6 connections) — `CODEBASE.md`
-- **4. Codebase Directory Map** (6 connections) — `CODEBASE.md`
-- **5. Zoho API Endpoints** (4 connections) — `CODEBASE.md`
-- **CODEBASE.md** (1 connections) — `CODEBASE.md`
-- **1. System Overview** (1 connections) — `CODEBASE.md`
-- **2.1 The Two Audiences (Zero Leakage Rule)** (1 connections) — `CODEBASE.md`
-- **2.2 Pricing Resolution Engine (`api/zoho.js` & `src/data/dealer.js`)** (1 connections) — `CODEBASE.md`
-- **2.3 Guest Access Control & Portal Gating (`src/data/portalGate.js`)** (1 connections) — `CODEBASE.md`
-- **2.4 Shareable Product Link & Zero-Leakage Experience (`src/pages/Product.jsx`)** (1 connections) — `CODEBASE.md`
-- **2.5 Navigation & Bottom Bar Dynamic Filtering** (1 connections) — `CODEBASE.md`
-- **3. Application Routes & Navigation** (1 connections) — `CODEBASE.md`
-- **4.1 Pages (`src/pages/`)** (1 connections) — `CODEBASE.md`
-- **4.2 Reusable Components (`src/components/` & `src/ui.jsx`)** (1 connections) — `CODEBASE.md`
-- **4.3 State & Business Logic (`src/data/`)** (1 connections) — `CODEBASE.md`
-- **4.4 Zoho API & Serverless Handlers (`api/`)** (1 connections) — `CODEBASE.md`
-- **4.5 Automation & Utility Scripts (`scripts/`)** (1 connections) — `CODEBASE.md`
-- **5.1 Zoho Commerce Storefront API** (1 connections) — `CODEBASE.md`
-- **5.2 Zoho Books Contacts & Pricebooks API** (1 connections) — `CODEBASE.md`
-- **5.3 Auto-Recovery Token Architecture** (1 connections) — `CODEBASE.md`
-- **6. How to Run & Verify** (1 connections) — `CODEBASE.md`
-- **7. Development & Git Workflow Guidelines** (1 connections) — `CODEBASE.md`
+- **vl()** (27 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **yl()** (14 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **bl()** (10 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **ca()** (7 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **je()** (7 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **da()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **cn()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **Io()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **ke()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **zo()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **hl()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **ko()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **ml()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **Q()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **ta()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **tf()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **va()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **ep()** (3 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **Ud()** (3 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **Ym()** (3 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **fa()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **Wf()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (22 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (9 shared connections)
+- [[Product Pages Specification]] (7 shared connections)
+- [[Design System & UI Tokens]] (6 shared connections)
+- [[Pricing & Roles Skill]] (5 shared connections)
+- [[Architecture Doc Generator]] (4 shared connections)
+- [[Product Brand & Business Vision]] (3 shared connections)
+- [[Community 38]] (2 shared connections)
+- [[Community 59]] (1 shared connections)
+- [[Pricing Regression Test Suite]] (1 shared connections)
 
 ## Source Files
 
-- `CODEBASE.md`
+- `ios/App/App/public/assets/index-DqKn3RAn.js`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 132 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,30 +1,32 @@
 # Community 37
 
-> 9 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Critical Mobile Responsiveness Safeguards** (6 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **Shriji Responsive UI Skill** (3 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **1. Viewport Zoom-Out Prevention** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **2. CSS Grid Child Shrinking** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **3. Product Card Rows on Mobile (`<= 719px`)** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **4. Horizontal Scrollable Tabs (`.utabs`, `.tabs`)** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **5. Hero Banner on Small Screens (`<= 640px`)** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **Design System Tokens** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **le()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **p()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **Pe()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **we()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **He()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **Xd()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **fe()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **ue()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Roles & Customer Sharing Spec]] (8 shared connections)
+- [[Live Pricing Audit Tool]] (3 shared connections)
+- [[Zoho Integration Skill]] (2 shared connections)
+- [[Graphify Knowledge Graph Skill]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/shriji-responsive-ui/SKILL.md`
+- `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

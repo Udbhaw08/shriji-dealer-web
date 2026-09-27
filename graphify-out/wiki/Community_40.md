@@ -1,32 +1,33 @@
 # Community 40
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **le()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **p()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Pe()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **we()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **He()** (3 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Xd()** (3 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **fe()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **ue()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **Ar()** (7 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **gi()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **rr()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **Er()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **Lr()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **Vr()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **zr()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
 
 ## Relationships
 
-- [[Graphify Knowledge Graph Skill]] (8 shared connections)
-- [[Pricing & Roles Skill]] (3 shared connections)
-- [[Live Pricing Audit Tool]] (2 shared connections)
-- [[Roles & Customer Sharing Spec]] (1 shared connections)
+- [[Roles & Customer Sharing Spec]] (7 shared connections)
+- [[Community 29]] (2 shared connections)
+- [[Live Pricing Audit Tool]] (1 shared connections)
+- [[Zoho Integration Architecture]] (1 shared connections)
+- [[Client Products Data Store]] (1 shared connections)
+- [[Community 45]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DqKn3RAn.js`
+- `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 25 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

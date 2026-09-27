@@ -1,58 +1,58 @@
 # Pricing Hierarchy & Zero-Leakage Spec
 
-> 35 nodes · cohesion 0.10
+> 36 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **qd()** (14 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **Yd()** (13 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **Fd()** (12 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **Vd()** (12 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **wi()** (11 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **df()** (10 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **rf()** (10 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **ut()** (10 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **lt()** (9 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **ef()** (7 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **ff()** (7 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **af()** (6 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **Bd()** (6 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **Id()** (6 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **nf()** (6 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **ct()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **is()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **jf()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **lf()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **mf()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **sf()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **xt()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **Hd()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **Ku()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- *... and 10 more nodes in this community*
+- **_()** (443 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **unavailable()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **ln()** (3 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **mn()** (3 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **re()** (3 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **clearAllCookies()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **clearCookies()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **hide()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **jn()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **Nt()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **setAnimation()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **setStyle()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **show()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **te()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **de()** (1 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **deleteCookie()** (1 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **Et()** (1 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **ge()** (1 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **getCookies()** (1 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **getDerivedStateFromError()** (1 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **getDerivedStateFromProps()** (1 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **hasListeners()** (1 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **it()** (1 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **j()** (1 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [[Architecture Doc Generator]] (35 shared connections)
-- [[Client Products Data Store]] (17 shared connections)
-- [[Product Brand & Business Vision]] (10 shared connections)
-- [[Zoho Integration Architecture]] (7 shared connections)
-- [[Price Presentation & Product UI]] (7 shared connections)
-- [[Claude Agent Instructions]] (5 shared connections)
-- [[Master Codebase Architecture Reference]] (4 shared connections)
-- [[Product Pages Specification]] (4 shared connections)
-- [[Community 29]] (3 shared connections)
-- [[Community 43]] (1 shared connections)
-- [[Community 41]] (1 shared connections)
-- [[Community 38]] (1 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (66 shared connections)
+- [[Design System & UI Tokens]] (53 shared connections)
+- [[Product Pages Specification]] (48 shared connections)
+- [[Pricing Regression Test Suite]] (43 shared connections)
+- [[Product Brand & Business Vision]] (41 shared connections)
+- [[Architecture Doc Generator]] (41 shared connections)
+- [[Pricing & Roles Skill]] (35 shared connections)
+- [[Project Readme & Layout]] (22 shared connections)
+- [[Community 30]] (11 shared connections)
+- [[Community 38]] (8 shared connections)
+- [[Community 42]] (7 shared connections)
+- [[Community 43]] (7 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- `ios/App/App/public/assets/index-DqKn3RAn.js`
 
 ## Audit Trail
 
-- EXTRACTED: 215 (100%)
+- EXTRACTED: 496 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

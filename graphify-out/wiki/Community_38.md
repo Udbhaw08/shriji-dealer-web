@@ -4,25 +4,25 @@
 
 ## Key Concepts
 
-- **le()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **p()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **Pe()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **we()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **He()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **Xd()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **fe()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **ue()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **le()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **p()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **Pe()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **we()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **He()** (3 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **Xd()** (3 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **fe()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **ue()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
 
 ## Relationships
 
-- [[Architecture Doc Generator]] (8 shared connections)
-- [[Product Brand & Business Vision]] (3 shared connections)
-- [[Claude Agent Instructions]] (2 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (1 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (8 shared connections)
+- [[Architecture Doc Generator]] (3 shared connections)
+- [[Project Readme & Layout]] (2 shared connections)
+- [[Pricing & Roles Skill]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- `ios/App/App/public/assets/index-DqKn3RAn.js`
 
 ## Audit Trail
 

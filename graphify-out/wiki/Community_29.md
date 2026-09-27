@@ -18,14 +18,14 @@
 
 ## Relationships
 
-- [[Architecture Doc Generator]] (11 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (3 shared connections)
-- [[Community 42]] (2 shared connections)
+- [[Roles & Customer Sharing Spec]] (11 shared connections)
+- [[Graphify Knowledge Graph Skill]] (3 shared connections)
+- [[Community 40]] (2 shared connections)
 - [[Client Products Data Store]] (2 shared connections)
-- [[Product Pages Specification]] (2 shared connections)
+- [[Dependencies & Package Config]] (2 shared connections)
 - [[Zoho Integration Architecture]] (1 shared connections)
 - [[Price Presentation & Product UI]] (1 shared connections)
-- [[Community 58]] (1 shared connections)
+- [[Community 57]] (1 shared connections)
 
 ## Source Files
 

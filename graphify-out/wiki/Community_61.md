@@ -4,25 +4,22 @@
 
 ## Key Concepts
 
-- **request()** (7 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **patch()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **post()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **put()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **watch-sync.mjs** (3 connections) — `scripts/watch-sync.mjs`
+- **rootDir** (1 connections) — `scripts/watch-sync.mjs`
+- **srcDir** (1 connections) — `scripts/watch-sync.mjs`
+- **triggerSync()** (1 connections) — `scripts/watch-sync.mjs`
 
 ## Relationships
 
-- [[Graphify Knowledge Graph Skill]] (4 shared connections)
-- [[Pricing Regression Test Suite]] (1 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (1 shared connections)
-- [[Community 30]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DqKn3RAn.js`
+- `scripts/watch-sync.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

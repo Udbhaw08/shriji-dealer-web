@@ -2,7 +2,7 @@
 
 > God node · 27 connections · `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
 
-**Community:** [[Claude Agent Instructions]]
+**Community:** [[Zoho Integration Skill]]
 
 ## Connections by Relation
 

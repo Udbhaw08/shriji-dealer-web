@@ -2,7 +2,7 @@
 
 > God node · 34 connections · `ios/App/App/public/assets/index-DqKn3RAn.js`
 
-**Community:** [[Dependencies & Package Config]]
+**Community:** [[Zoho Backend & Proxy Endpoints]]
 
 ## Connections by Relation
 

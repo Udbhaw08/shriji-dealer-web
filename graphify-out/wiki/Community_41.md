@@ -4,20 +4,22 @@
 
 ## Key Concepts
 
-- **eh()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **th()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **ah()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **nh()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **op()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **rh()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **ap()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **tt()** (7 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **xs()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **ze()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **ee()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **Md()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **Qe()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **zs()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
 
 ## Relationships
 
-- [[Architecture Doc Generator]] (7 shared connections)
-- [[Client Products Data Store]] (2 shared connections)
-- [[Zoho Integration Architecture]] (2 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (1 shared connections)
+- [[Roles & Customer Sharing Spec]] (7 shared connections)
+- [[Client Products Data Store]] (3 shared connections)
+- [[Live Pricing Audit Tool]] (2 shared connections)
+- [[Price Presentation & Product UI]] (2 shared connections)
+- [[Graphify Knowledge Graph Skill]] (1 shared connections)
+- [[Dependencies & Package Config]] (1 shared connections)
 
 ## Source Files
 
@@ -25,7 +27,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

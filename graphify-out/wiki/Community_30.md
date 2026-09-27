@@ -18,13 +18,14 @@
 
 ## Relationships
 
-- [[Graphify Knowledge Graph Skill]] (11 shared connections)
-- [[Dependencies & Package Config]] (3 shared connections)
-- [[Roles & Customer Sharing Spec]] (3 shared connections)
-- [[Community 44]] (2 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (2 shared connections)
-- [[Zoho Integration Skill]] (1 shared connections)
-- [[Community 61]] (1 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (11 shared connections)
+- [[Pricing & Roles Skill]] (3 shared connections)
+- [[Community 43]] (2 shared connections)
+- [[Product Brand & Business Vision]] (2 shared connections)
+- [[Product Pages Specification]] (2 shared connections)
+- [[Pricing Regression Test Suite]] (1 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (1 shared connections)
+- [[Community 60]] (1 shared connections)
 
 ## Source Files
 
