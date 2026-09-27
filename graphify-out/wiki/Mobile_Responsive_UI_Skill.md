@@ -1,47 +1,58 @@
 # Mobile Responsive UI Skill
 
-> 32 nodes · cohesion 0.06
+> 31 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **scripts** (13 connections) — `package.json`
-- **dependencies** (8 connections) — `package.json`
-- **package.json** (7 connections) — `package.json`
-- **devDependencies** (6 connections) — `package.json`
-- **@capacitor/android** (1 connections) — `package.json`
-- **@capacitor/cli** (1 connections) — `package.json`
-- **@capacitor/core** (1 connections) — `package.json`
-- **@capacitor/ios** (1 connections) — `package.json`
-- **react** (1 connections) — `package.json`
-- **react-dom** (1 connections) — `package.json`
-- **react-router-dom** (1 connections) — `package.json`
-- **oxlint** (1 connections) — `package.json`
-- **@types/react** (1 connections) — `package.json`
-- **@types/react-dom** (1 connections) — `package.json`
-- **vite** (1 connections) — `package.json`
-- **@vitejs/plugin-react** (1 connections) — `package.json`
-- **name** (1 connections) — `package.json`
-- **private** (1 connections) — `package.json`
-- **build** (1 connections) — `package.json`
-- **cap:android** (1 connections) — `package.json`
-- **cap:ios** (1 connections) — `package.json`
-- **cap:sync** (1 connections) — `package.json`
-- **dev** (1 connections) — `package.json`
-- **docs** (1 connections) — `package.json`
-- **graphify:update** (1 connections) — `package.json`
-- *... and 7 more nodes in this community*
+- **i()** (64 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **n()** (25 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **t()** (18 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **r()** (13 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **os()** (12 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **cs()** (9 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **ei()** (9 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **ps()** (8 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **hs()** (7 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **ms()** (7 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **ys()** (7 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **dc()** (6 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **es()** (6 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **ss()** (6 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **fs()** (5 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **gs()** (5 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **ki()** (5 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **vs()** (5 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **ws()** (5 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **x()** (5 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **ac()** (4 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **ne()** (4 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **eo()** (3 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **no()** (3 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **co()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (33 shared connections)
+- [[Roles & Customer Sharing Spec]] (31 shared connections)
+- [[Master Codebase Architecture Reference]] (21 shared connections)
+- [[Zoho Integration Architecture]] (18 shared connections)
+- [[Product Brand & Business Vision]] (13 shared connections)
+- [[Live Pricing Audit Tool]] (10 shared connections)
+- [[Product Pages Specification]] (5 shared connections)
+- [[Community 39]] (3 shared connections)
+- [[Graphify Workflow]] (2 shared connections)
+- [[Project Readme & Layout]] (2 shared connections)
+- [[Community 43]] (2 shared connections)
+- [[Community 60]] (1 shared connections)
 
 ## Source Files
 
-- `package.json`
+- `ios/App/App/public/assets/index-jLVfK5XB.js`
 
 ## Audit Trail
 
-- EXTRACTED: 62 (100%)
+- EXTRACTED: 255 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

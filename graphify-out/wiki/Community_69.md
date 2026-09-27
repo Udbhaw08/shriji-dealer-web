@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **README.md** (1 connections) — `ios/App/CapApp-SPM/README.md`
-- **CapApp-SPM** (1 connections) — `ios/App/CapApp-SPM/README.md`
+- **make-scheme-pdfs.mjs** (1 connections) — `scripts/make-scheme-pdfs.mjs`
+- **createPdfWithJpg()** (1 connections) — `scripts/make-scheme-pdfs.mjs`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `ios/App/CapApp-SPM/README.md`
+- `scripts/make-scheme-pdfs.mjs`
 
 ## Audit Trail
 

@@ -1,25 +1,25 @@
 # Community 64
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **addListener()** (3 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **addWindowListener()** (3 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **sendRetainedArgumentsForEvent()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **vercel.json** (3 connections) — `vercel.json`
+- **framework** (1 connections) — `vercel.json`
+- **headers** (1 connections) — `vercel.json`
+- **rewrites** (1 connections) — `vercel.json`
 
 ## Relationships
 
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (3 shared connections)
-- [[Product Pages Specification]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DqKn3RAn.js`
+- `vercel.json`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

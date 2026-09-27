@@ -1,58 +1,47 @@
 # Pricing & Roles Skill
 
-> 35 nodes · cohesion 0.10
+> 32 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **qd()** (14 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Yd()** (13 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Fd()** (12 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Vd()** (12 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **wi()** (11 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **df()** (10 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **rf()** (10 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **ut()** (10 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **lt()** (9 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **ef()** (7 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **ff()** (7 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **af()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Bd()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Id()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **nf()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Rd()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **ct()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **is()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **jf()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **lf()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **mf()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **sf()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **xt()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **cf()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Hd()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- *... and 10 more nodes in this community*
+- **scripts** (13 connections) — `package.json`
+- **dependencies** (8 connections) — `package.json`
+- **package.json** (7 connections) — `package.json`
+- **devDependencies** (6 connections) — `package.json`
+- **@capacitor/android** (1 connections) — `package.json`
+- **@capacitor/cli** (1 connections) — `package.json`
+- **@capacitor/core** (1 connections) — `package.json`
+- **@capacitor/ios** (1 connections) — `package.json`
+- **react** (1 connections) — `package.json`
+- **react-dom** (1 connections) — `package.json`
+- **react-router-dom** (1 connections) — `package.json`
+- **oxlint** (1 connections) — `package.json`
+- **@types/react** (1 connections) — `package.json`
+- **@types/react-dom** (1 connections) — `package.json`
+- **vite** (1 connections) — `package.json`
+- **@vitejs/plugin-react** (1 connections) — `package.json`
+- **name** (1 connections) — `package.json`
+- **private** (1 connections) — `package.json`
+- **build** (1 connections) — `package.json`
+- **cap:android** (1 connections) — `package.json`
+- **cap:ios** (1 connections) — `package.json`
+- **cap:sync** (1 connections) — `package.json`
+- **dev** (1 connections) — `package.json`
+- **docs** (1 connections) — `package.json`
+- **graphify:update** (1 connections) — `package.json`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (35 shared connections)
-- [[Product Brand & Business Vision]] (17 shared connections)
-- [[Architecture Doc Generator]] (11 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (8 shared connections)
-- [[Pricing Regression Test Suite]] (6 shared connections)
-- [[Project Readme & Layout]] (5 shared connections)
-- [[Design System & UI Tokens]] (4 shared connections)
-- [[Product Pages Specification]] (3 shared connections)
-- [[Community 30]] (3 shared connections)
-- [[Community 44]] (1 shared connections)
-- [[Community 42]] (1 shared connections)
-- [[Community 38]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DqKn3RAn.js`
+- `package.json`
 
 ## Audit Trail
 
-- EXTRACTED: 217 (100%)
+- EXTRACTED: 62 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

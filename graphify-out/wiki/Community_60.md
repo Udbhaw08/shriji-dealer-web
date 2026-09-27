@@ -4,21 +4,21 @@
 
 ## Key Concepts
 
-- **request()** (7 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **patch()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **post()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **put()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **eh()** (5 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **ah()** (3 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **op()** (3 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **ap()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
 
 ## Relationships
 
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (4 shared connections)
-- [[Pricing Regression Test Suite]] (1 shared connections)
-- [[Product Pages Specification]] (1 shared connections)
-- [[Community 30]] (1 shared connections)
+- [[Roles & Customer Sharing Spec]] (4 shared connections)
+- [[Product Brand & Business Vision]] (1 shared connections)
+- [[Mobile Responsive UI Skill]] (1 shared connections)
+- [[Zoho Integration Architecture]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DqKn3RAn.js`
+- `ios/App/App/public/assets/index-jLVfK5XB.js`
 
 ## Audit Trail
 

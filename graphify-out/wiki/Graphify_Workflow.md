@@ -1,34 +1,42 @@
 # Graphify Workflow
 
-> 13 nodes · cohesion 0.15
+> 14 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **Product** (12 connections) — `PRODUCT.md`
-- **PRODUCT.md** (1 connections) — `PRODUCT.md`
-- **Accessibility & Inclusion** (1 connections) — `PRODUCT.md`
-- **Brand Commitments** (1 connections) — `PRODUCT.md`
-- **Capabilities and Constraints** (1 connections) — `PRODUCT.md`
-- **Evidence on Hand** (1 connections) — `PRODUCT.md`
-- **Operating Context** (1 connections) — `PRODUCT.md`
-- **Platform** (1 connections) — `PRODUCT.md`
-- **Positioning** (1 connections) — `PRODUCT.md`
-- **Product Principles** (1 connections) — `PRODUCT.md`
-- **Product Purpose** (1 connections) — `PRODUCT.md`
-- **Stack** (1 connections) — `PRODUCT.md`
-- **Users** (1 connections) — `PRODUCT.md`
+- **kf()** (17 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **jf()** (5 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **yr()** (5 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **br()** (4 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **qf()** (4 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **Tr()** (4 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **Cr()** (3 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **Gr()** (3 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **Sr()** (3 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **Xf()** (3 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **hp()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **In()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **of()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **Pr()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Roles & Customer Sharing Spec]] (14 shared connections)
+- [[Zoho Integration Architecture]] (4 shared connections)
+- [[Community 42]] (2 shared connections)
+- [[Mobile Responsive UI Skill]] (2 shared connections)
+- [[Master Codebase Architecture Reference]] (2 shared connections)
+- [[Product Brand & Business Vision]] (1 shared connections)
+- [[Price Presentation & Product UI]] (1 shared connections)
+- [[Community 61]] (1 shared connections)
 
 ## Source Files
 
-- `PRODUCT.md`
+- `ios/App/App/public/assets/index-jLVfK5XB.js`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
+- EXTRACTED: 59 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

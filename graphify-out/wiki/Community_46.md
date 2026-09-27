@@ -4,27 +4,24 @@
 
 ## Key Concepts
 
-- **ir()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Mr()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **qn()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **nr()** (3 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **jr()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Or()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **.oxlintrc.json** (3 connections) — `.oxlintrc.json`
+- **rules** (3 connections) — `.oxlintrc.json`
+- **plugins** (1 connections) — `.oxlintrc.json`
+- **react/only-export-components** (1 connections) — `.oxlintrc.json`
+- **react/rules-of-hooks** (1 connections) — `.oxlintrc.json`
+- **$schema** (1 connections) — `.oxlintrc.json`
 
 ## Relationships
 
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (6 shared connections)
-- [[Product Brand & Business Vision]] (1 shared connections)
-- [[Product Pages Specification]] (1 shared connections)
-- [[Community 43]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DqKn3RAn.js`
+- `.oxlintrc.json`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

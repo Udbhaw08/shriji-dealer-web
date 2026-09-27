@@ -4,29 +4,31 @@
 
 ## Key Concepts
 
-- **le()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **p()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **Pe()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **we()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **He()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **Xd()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **fe()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **ue()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **tt()** (7 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **as()** (5 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **xs()** (5 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **ze()** (4 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **ee()** (3 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **Md()** (3 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **Qe()** (3 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **zs()** (3 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (8 shared connections)
-- [[Live Pricing Audit Tool]] (3 shared connections)
-- [[Zoho Integration Skill]] (2 shared connections)
-- [[Graphify Knowledge Graph Skill]] (1 shared connections)
+- [[Architecture Doc Generator]] (8 shared connections)
+- [[Pricing Regression Test Suite]] (3 shared connections)
+- [[Client Products Data Store]] (3 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (2 shared connections)
+- [[Dependencies & Package Config]] (2 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 33 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

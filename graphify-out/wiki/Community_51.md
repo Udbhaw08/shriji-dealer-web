@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **Agent Operating Guidelines & Zero-Token Context Strategy** (3 connections) — `GEMINI.md`
-- **Shriji Domestic Appliances — Sunshine Dealer Web** (2 connections) — `GEMINI.md`
-- **GEMINI.md** (1 connections) — `GEMINI.md`
-- **Mandatory Context Rule: Knowledge Graph First** (1 connections) — `GEMINI.md`
-- **Project Hard Rules** (1 connections) — `GEMINI.md`
+- **unavailable()** (5 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **hide()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **setAnimation()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **setStyle()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **show()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Roles & Customer Sharing Spec]] (5 shared connections)
 
 ## Source Files
 
-- `GEMINI.md`
+- `ios/App/App/public/assets/index-jLVfK5XB.js`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

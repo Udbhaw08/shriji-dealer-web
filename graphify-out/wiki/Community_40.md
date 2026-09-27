@@ -1,33 +1,32 @@
 # Community 40
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Ar()** (7 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **gi()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **rr()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **Er()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **Lr()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **Vr()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **zr()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **le()** (5 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **p()** (5 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **Pe()** (4 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **we()** (4 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **He()** (3 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **Xd()** (3 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **fe()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **ue()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (7 shared connections)
-- [[Community 29]] (2 shared connections)
-- [[Live Pricing Audit Tool]] (1 shared connections)
+- [[Roles & Customer Sharing Spec]] (8 shared connections)
+- [[Live Pricing Audit Tool]] (3 shared connections)
+- [[Project Readme & Layout]] (2 shared connections)
 - [[Zoho Integration Architecture]] (1 shared connections)
-- [[Client Products Data Store]] (1 shared connections)
-- [[Community 45]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- `ios/App/App/public/assets/index-jLVfK5XB.js`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

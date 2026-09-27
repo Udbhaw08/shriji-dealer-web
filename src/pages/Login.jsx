@@ -63,7 +63,7 @@ export default function Login() {
         nav("/products");
       }
     } catch (err) {
-      setDealerError(err.message);
+      setDealerError(err.message === "Failed to fetch" ? "Unable to reach server. Please check internet connection." : err.message);
     } finally {
       setDealerLoading(false);
     }
@@ -415,6 +415,17 @@ export default function Login() {
                   <Icon name="bolt" size={15} /> 1-Click Test Accounts for Client Testing:
                 </p>
                 <div style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
+                  <button
+                    type="button"
+                    className="btn btn-white btn-sm"
+                    style={{ borderColor: "var(--blue-300)", fontWeight: 600, fontSize: "0.82rem" }}
+                    onClick={() => {
+                      setPhone("9876541237");
+                      handleDealerLogin("9876541237");
+                    }}
+                  >
+                    ⚡ Test Dealer: 9876541237
+                  </button>
                   <button
                     type="button"
                     className="btn btn-white btn-sm"

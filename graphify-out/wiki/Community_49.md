@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **unavailable()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **hide()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **setAnimation()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **setStyle()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **show()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **CLAUDE.md — read this before touching anything** (4 connections) — `CLAUDE.md`
+- **CLAUDE.md** (1 connections) — `CLAUDE.md`
+- **Commands** (1 connections) — `CLAUDE.md`
+- **Doc map** (1 connections) — `CLAUDE.md`
+- **Hard rules (these exist to stop hallucination)** (1 connections) — `CLAUDE.md`
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (5 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- `CLAUDE.md`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,32 +4,31 @@
 
 ## Key Concepts
 
-- **kf()** (17 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **yr()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **br()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Tr()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Cr()** (3 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Gr()** (3 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Sr()** (3 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **hp()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **In()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **of()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Pr()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **kf()** (17 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **yr()** (5 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **br()** (4 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **Tr()** (4 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **Cr()** (3 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **Gr()** (3 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **Sr()** (3 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **hp()** (2 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **In()** (2 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **of()** (2 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **Pr()** (2 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
 
 ## Relationships
 
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (11 shared connections)
-- [[Pricing & Roles Skill]] (3 shared connections)
-- [[Community 43]] (2 shared connections)
-- [[Product Brand & Business Vision]] (2 shared connections)
-- [[Product Pages Specification]] (2 shared connections)
-- [[Pricing Regression Test Suite]] (1 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (1 shared connections)
-- [[Community 60]] (1 shared connections)
+- [[Architecture Doc Generator]] (11 shared connections)
+- [[Dependencies & Package Config]] (3 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (3 shared connections)
+- [[Community 41]] (2 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (2 shared connections)
+- [[Graphify Knowledge Graph Skill]] (1 shared connections)
+- [[Community 58]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DqKn3RAn.js`
+- `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
 
 ## Audit Trail
 

@@ -1,12 +1,11 @@
 # Community 67
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **vercel.json** (2 connections) — `vercel.json`
-- **framework** (1 connections) — `vercel.json`
-- **rewrites** (1 connections) — `vercel.json`
+- **Package.swift** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
+- **PackageDescription** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
 
 ## Relationships
 
@@ -14,11 +13,11 @@
 
 ## Source Files
 
-- `vercel.json`
+- `ios/App/CapApp-SPM/Package.swift`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

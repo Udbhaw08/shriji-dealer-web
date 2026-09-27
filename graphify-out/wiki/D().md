@@ -1,8 +1,8 @@
 # D()
 
-> God node · 27 connections · `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+> God node · 27 connections · `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
 
-**Community:** [[Live Pricing Audit Tool]]
+**Community:** [[Client Products Data Store]]
 
 ## Connections by Relation
 

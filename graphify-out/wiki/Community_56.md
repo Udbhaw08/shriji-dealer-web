@@ -1,28 +1,28 @@
 # Community 56
 
-> 4 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **be()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **_m()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **xe()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **Cp()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **eh()** (5 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **ah()** (3 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **op()** (3 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **ap()** (2 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (4 shared connections)
-- [[Live Pricing Audit Tool]] (1 shared connections)
-- [[Product Requirements Documentation]] (1 shared connections)
-- [[Zoho Integration Skill]] (1 shared connections)
+- [[Architecture Doc Generator]] (4 shared connections)
+- [[Graphify Knowledge Graph Skill]] (1 shared connections)
+- [[Pricing Regression Test Suite]] (1 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

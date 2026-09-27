@@ -1,7 +1,7 @@
 import { Capacitor } from "@capacitor/core";
 
 export const API_BASE = Capacitor.isNativePlatform()
-  ? (import.meta.env.VITE_API_URL || "https://shrijidomestic.com")
+  ? (import.meta.env.VITE_API_URL || "https://shriji-dealer-web.vercel.app")
   : "";
 
 export function apiUrl(path) {

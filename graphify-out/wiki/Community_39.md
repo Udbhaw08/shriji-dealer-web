@@ -1,31 +1,38 @@
 # Community 39
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **eh()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **th()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **ah()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **nh()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **op()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **rh()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **ap()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **a()** (10 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **gf()** (7 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **vf()** (5 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **Ld()** (4 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **pt()** (4 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **gl()** (3 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **ro()** (3 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **_f()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (7 shared connections)
-- [[Client Products Data Store]] (2 shared connections)
-- [[Zoho Integration Architecture]] (2 shared connections)
-- [[Graphify Knowledge Graph Skill]] (1 shared connections)
+- [[Roles & Customer Sharing Spec]] (8 shared connections)
+- [[Mobile Responsive UI Skill]] (3 shared connections)
+- [[Master Codebase Architecture Reference]] (2 shared connections)
+- [[Price Presentation & Product UI]] (2 shared connections)
+- [[Product Brand & Business Vision]] (2 shared connections)
+- [[Product Pages Specification]] (2 shared connections)
+- [[Live Pricing Audit Tool]] (2 shared connections)
+- [[Community 42]] (1 shared connections)
+- [[Project Readme & Layout]] (1 shared connections)
+- [[Zoho Integration Architecture]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- `ios/App/App/public/assets/index-jLVfK5XB.js`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
+- EXTRACTED: 38 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

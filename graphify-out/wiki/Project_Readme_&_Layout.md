@@ -4,45 +4,44 @@
 
 ## Key Concepts
 
-- **vl()** (27 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **yl()** (14 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **bl()** (10 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **ca()** (7 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **je()** (7 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **da()** (6 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **cn()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Io()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **ke()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **zo()** (5 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **hl()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **ko()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **ml()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Q()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **ta()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **tf()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **va()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **ep()** (3 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Ud()** (3 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Ym()** (3 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **fa()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Wf()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **vl()** (27 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **yl()** (14 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **bl()** (10 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **ca()** (7 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **je()** (7 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **da()** (6 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **cn()** (5 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **Io()** (5 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **ke()** (5 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **zo()** (5 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **hl()** (4 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **ko()** (4 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **ml()** (4 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **Q()** (4 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **ta()** (4 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **tf()** (4 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **va()** (4 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **ep()** (3 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **Ud()** (3 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **Ym()** (3 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **fa()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **Wf()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
 
 ## Relationships
 
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (22 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (9 shared connections)
+- [[Roles & Customer Sharing Spec]] (22 shared connections)
+- [[Price Presentation & Product UI]] (9 shared connections)
+- [[Master Codebase Architecture Reference]] (7 shared connections)
 - [[Product Pages Specification]] (7 shared connections)
-- [[Design System & UI Tokens]] (6 shared connections)
-- [[Pricing & Roles Skill]] (5 shared connections)
-- [[Architecture Doc Generator]] (4 shared connections)
-- [[Product Brand & Business Vision]] (3 shared connections)
-- [[Community 38]] (2 shared connections)
-- [[Community 59]] (1 shared connections)
-- [[Pricing Regression Test Suite]] (1 shared connections)
+- [[Zoho Integration Architecture]] (6 shared connections)
+- [[Live Pricing Audit Tool]] (4 shared connections)
+- [[Community 40]] (2 shared connections)
+- [[Mobile Responsive UI Skill]] (2 shared connections)
+- [[Community 39]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DqKn3RAn.js`
+- `ios/App/App/public/assets/index-jLVfK5XB.js`
 
 ## Audit Trail
 

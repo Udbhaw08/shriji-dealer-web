@@ -1,58 +1,58 @@
 # Client Products Data Store
 
-> 41 nodes · cohesion 0.09
+> 41 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **i()** (64 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **n()** (25 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **t()** (18 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **qr()** (16 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **r()** (13 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **ai()** (12 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **os()** (12 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **cs()** (9 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **ei()** (9 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **Fr()** (9 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **ps()** (8 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **Fi()** (7 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **hs()** (7 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **ms()** (7 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **ys()** (7 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **dc()** (6 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **es()** (6 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **ss()** (6 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **fs()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **gs()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **hi()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **ki()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **Oi()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **ti()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **vs()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **D()** (27 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **ft()** (20 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **O()** (15 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **k()** (13 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **ai()** (12 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **ht()** (12 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **vt()** (12 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **bt()** (10 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **dt()** (10 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **nn()** (10 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **rn()** (10 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **en()** (8 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **gn()** (8 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **pn()** (8 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **sn()** (8 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **fn()** (7 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **gt()** (7 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **oe()** (7 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **ce()** (6 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **ie()** (6 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **yn()** (6 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **ae()** (5 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **hi()** (5 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **Jt()** (5 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **mt()** (5 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
 - *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (41 shared connections)
-- [[Price Presentation & Product UI]] (40 shared connections)
-- [[Dependencies & Package Config]] (24 shared connections)
-- [[Graphify Knowledge Graph Skill]] (17 shared connections)
-- [[Live Pricing Audit Tool]] (16 shared connections)
-- [[Zoho Integration Architecture]] (15 shared connections)
-- [[Product Requirements Documentation]] (8 shared connections)
-- [[Community 41]] (3 shared connections)
-- [[Zoho Integration Skill]] (3 shared connections)
-- [[Community 29]] (2 shared connections)
-- [[Community 39]] (2 shared connections)
-- [[Community 45]] (1 shared connections)
+- [[Architecture Doc Generator]] (44 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (26 shared connections)
+- [[Pricing Regression Test Suite]] (15 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (12 shared connections)
+- [[Dependencies & Package Config]] (10 shared connections)
+- [[Graphify Knowledge Graph Skill]] (7 shared connections)
+- [[Zoho Integration Skill]] (5 shared connections)
+- [[Community 37]] (3 shared connections)
+- [[Community 38]] (3 shared connections)
+- [[Product Requirements Documentation]] (3 shared connections)
+- [[Community 44]] (1 shared connections)
+- [[Community 41]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
 
 ## Audit Trail
 
-- EXTRACTED: 325 (100%)
+- EXTRACTED: 303 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

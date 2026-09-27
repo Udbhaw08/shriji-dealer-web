@@ -4,22 +4,25 @@
 
 ## Key Concepts
 
-- **watch-sync.mjs** (3 connections) — `scripts/watch-sync.mjs`
-- **rootDir** (1 connections) — `scripts/watch-sync.mjs`
-- **srcDir** (1 connections) — `scripts/watch-sync.mjs`
-- **triggerSync()** (1 connections) — `scripts/watch-sync.mjs`
+- **request()** (7 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **patch()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **post()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **put()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Roles & Customer Sharing Spec]] (4 shared connections)
+- [[Product Pages Specification]] (1 shared connections)
+- [[Master Codebase Architecture Reference]] (1 shared connections)
+- [[Graphify Workflow]] (1 shared connections)
 
 ## Source Files
 
-- `scripts/watch-sync.mjs`
+- `ios/App/App/public/assets/index-jLVfK5XB.js`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

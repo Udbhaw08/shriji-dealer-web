@@ -4,51 +4,51 @@
 
 ## Key Concepts
 
-- **_()** (443 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **removeWindowListener()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **addListener()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **addWindowListener()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **ln()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **mn()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **re()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **clearAllCookies()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **clearCookies()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **jn()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **Nt()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **removeAllListeners()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **removeListener()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **sendRetainedArgumentsForEvent()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **te()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **de()** (1 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **deleteCookie()** (1 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **Et()** (1 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **ge()** (1 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **getCookies()** (1 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **getDerivedStateFromError()** (1 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **getDerivedStateFromProps()** (1 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **hasListeners()** (1 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **it()** (1 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **_()** (443 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **removeWindowListener()** (4 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **addListener()** (3 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **addWindowListener()** (3 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **ln()** (3 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **mn()** (3 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **re()** (3 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **clearAllCookies()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **clearCookies()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **jn()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **Nt()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **removeAllListeners()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **removeListener()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **sendRetainedArgumentsForEvent()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **te()** (2 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **de()** (1 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **deleteCookie()** (1 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **Et()** (1 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **ge()** (1 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **getCookies()** (1 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **getDerivedStateFromError()** (1 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **getDerivedStateFromProps()** (1 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **hasListeners()** (1 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **it()** (1 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
 - *... and 12 more nodes in this community*
 
 ## Relationships
 
 - [[Price Presentation & Product UI]] (68 shared connections)
-- [[Product Requirements Documentation]] (52 shared connections)
-- [[Dependencies & Package Config]] (50 shared connections)
+- [[Product Pages Specification]] (55 shared connections)
+- [[Master Codebase Architecture Reference]] (50 shared connections)
 - [[Zoho Integration Architecture]] (42 shared connections)
-- [[Client Products Data Store]] (41 shared connections)
 - [[Live Pricing Audit Tool]] (41 shared connections)
-- [[Graphify Knowledge Graph Skill]] (35 shared connections)
-- [[Zoho Integration Skill]] (22 shared connections)
-- [[Community 29]] (11 shared connections)
-- [[Community 37]] (8 shared connections)
-- [[Community 39]] (7 shared connections)
-- [[Community 40]] (7 shared connections)
+- [[Product Brand & Business Vision]] (38 shared connections)
+- [[Mobile Responsive UI Skill]] (31 shared connections)
+- [[Project Readme & Layout]] (22 shared connections)
+- [[Graphify Workflow]] (14 shared connections)
+- [[Community 39]] (8 shared connections)
+- [[Community 40]] (8 shared connections)
+- [[Community 42]] (7 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- `ios/App/App/public/assets/index-jLVfK5XB.js`
 
 ## Audit Trail
 

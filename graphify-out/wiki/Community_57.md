@@ -1,28 +1,28 @@
 # Community 57
 
-> 4 nodes · cohesion 0.50
+> 4 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **request()** (7 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **patch()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **post()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **put()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **be()** (4 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **_m()** (4 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **xe()** (4 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **Cp()** (3 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (4 shared connections)
-- [[Zoho Integration Architecture]] (1 shared connections)
-- [[Dependencies & Package Config]] (1 shared connections)
-- [[Community 29]] (1 shared connections)
+- [[Architecture Doc Generator]] (4 shared connections)
+- [[Client Products Data Store]] (1 shared connections)
+- [[Product Requirements Documentation]] (1 shared connections)
+- [[Zoho Integration Skill]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 15 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

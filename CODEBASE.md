@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-09-27T21:17:09.520Z
-> Total Project Files: 317
+> Last synchronized: 2026-09-27T21:42:06.770Z
+> Total Project Files: 316
 
 ---
 
@@ -82,7 +82,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 
 ### 4.1 Pages (`src/pages/`)
 - **`src/pages/Home.jsx`** (18.5 KB)
-- **`src/pages/Login.jsx`** (23.8 KB)
+- **`src/pages/Login.jsx`** (24.3 KB)
 - **`src/pages/Product.jsx`** (26.6 KB)
 - **`src/pages/Products.jsx`** (12.5 KB)
 - **`src/pages/Schemes.jsx`** (7.4 KB)
@@ -110,13 +110,13 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/data/translations.js`** (28.5 KB)
 
 ### 4.4 Zoho API & Serverless Handlers (`api/`)
-- **`api/dealer/apply.js`** (0.7 KB)
-- **`api/dealer/info.js`** (0.6 KB)
-- **`api/dealer/login.js`** (0.8 KB)
+- **`api/dealer/apply.js`** (1.0 KB)
+- **`api/dealer/info.js`** (0.9 KB)
+- **`api/dealer/login.js`** (1.1 KB)
 - **`api/og.js`** (3.9 KB)
-- **`api/products/index.js`** (0.9 KB)
-- **`api/products/[id].js`** (0.8 KB)
-- **`api/zoho.js`** (20.1 KB)
+- **`api/products/index.js`** (1.1 KB)
+- **`api/products/[id].js`** (1.1 KB)
+- **`api/zoho.js`** (20.6 KB)
 
 ### 4.5 Automation & Utility Scripts (`scripts/`)
 - **`scripts/audit_prices.mjs`** (3.8 KB)

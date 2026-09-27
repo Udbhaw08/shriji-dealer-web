@@ -1,56 +1,58 @@
 # Master Codebase Architecture Reference
 
-> 53 nodes · cohesion 0.08
+> 55 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **zoho.js** (31 connections) — `api/zoho.js`
-- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
-- **fetchZohoProductById()** (12 connections) — `api/zoho.js`
-- **fetchZohoProducts()** (11 connections) — `api/zoho.js`
-- **fetchZohoWithRetry()** (11 connections) — `api/zoho.js`
-- **getZohoConfig()** (11 connections) — `api/zoho.js`
-- **findDealerByPhone()** (9 connections) — `api/zoho.js`
-- **vite.config.js** (9 connections) — `vite.config.js`
-- **createDealerContact()** (8 connections) — `api/zoho.js`
-- **getDealerById()** (8 connections) — `api/zoho.js`
-- **fetchZohoCategories()** (7 connections) — `api/zoho.js`
-- **getAccessToken()** (7 connections) — `api/zoho.js`
-- **zohoApiPlugin()** (7 connections) — `vite.config.js`
-- **fetchZohoPricebookItems()** (5 connections) — `api/zoho.js`
-- **normalizeProduct()** (5 connections) — `api/zoho.js`
-- **index.js** (4 connections) — `api/products/index.js`
-- **test-zoho-api.mjs** (4 connections) — `scripts/test-zoho-api.mjs`
-- **og.js** (3 connections) — `api/og.js`
-- **fetchZohoPricebooks()** (3 connections) — `api/zoho.js`
-- **loadEnv()** (3 connections) — `api/zoho.js`
-- **apply.js** (3 connections) — `api/dealer/apply.js`
-- **info.js** (3 connections) — `api/dealer/info.js`
-- **login.js** (3 connections) — `api/dealer/login.js`
-- **[id].js** (3 connections) — `api/products/[id].js`
-- **handler()** (3 connections) — `api/products/index.js`
-- *... and 28 more nodes in this community*
+- **get()** (23 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **E()** (20 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **np()** (20 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **b()** (18 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **.addEventListener()** (18 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **zt()** (18 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **Au()** (17 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **bm()** (14 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **fp()** (14 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **h()** (14 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **.removeEventListener()** (13 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **am()** (11 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **on()** (11 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **tp()** (10 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **ip()** (9 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **mm()** (9 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **jm()** (8 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **om()** (8 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **tm()** (8 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **cm()** (7 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **lp()** (7 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **zm()** (7 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **em()** (6 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **.blur()** (6 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- **.scrollIntoView()** (6 connections) — `ios/App/App/public/assets/index-jLVfK5XB.js`
+- *... and 30 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Roles & Customer Sharing Spec]] (50 shared connections)
+- [[Live Pricing Audit Tool]] (23 shared connections)
+- [[Product Pages Specification]] (22 shared connections)
+- [[Mobile Responsive UI Skill]] (21 shared connections)
+- [[Price Presentation & Product UI]] (18 shared connections)
+- [[Zoho Integration Architecture]] (7 shared connections)
+- [[Project Readme & Layout]] (7 shared connections)
+- [[Product Brand & Business Vision]] (6 shared connections)
+- [[Community 39]] (2 shared connections)
+- [[Graphify Workflow]] (2 shared connections)
+- [[Community 61]] (1 shared connections)
+- [[Community 45]] (1 shared connections)
 
 ## Source Files
 
-- `api/dealer/apply.js`
-- `api/dealer/info.js`
-- `api/dealer/login.js`
-- `api/og.js`
-- `api/products/[id].js`
-- `api/products/index.js`
-- `api/zoho.js`
-- `scripts/audit_prices.mjs`
-- `scripts/test-zoho-api.mjs`
-- `vite.config.js`
+- `ios/App/App/public/assets/index-jLVfK5XB.js`
 
 ## Audit Trail
 
-- EXTRACTED: 226 (100%)
+- EXTRACTED: 417 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

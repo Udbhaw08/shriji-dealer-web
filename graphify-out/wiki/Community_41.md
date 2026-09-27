@@ -4,30 +4,30 @@
 
 ## Key Concepts
 
-- **tt()** (7 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **xs()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **ze()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **ee()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **Md()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **Qe()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **zs()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **Ar()** (7 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **gi()** (4 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **rr()** (4 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **Er()** (3 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **Lr()** (3 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **Vr()** (2 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
+- **zr()** (2 connections) — `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (7 shared connections)
-- [[Client Products Data Store]] (3 shared connections)
-- [[Live Pricing Audit Tool]] (2 shared connections)
-- [[Price Presentation & Product UI]] (2 shared connections)
-- [[Graphify Knowledge Graph Skill]] (1 shared connections)
+- [[Architecture Doc Generator]] (7 shared connections)
+- [[Community 30]] (2 shared connections)
+- [[Client Products Data Store]] (1 shared connections)
+- [[Pricing Regression Test Suite]] (1 shared connections)
 - [[Dependencies & Package Config]] (1 shared connections)
+- [[Community 44]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- `android/app/src/main/assets/public/assets/index-jLVfK5XB.js`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 25 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

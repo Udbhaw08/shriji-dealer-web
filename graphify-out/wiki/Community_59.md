@@ -4,25 +4,22 @@
 
 ## Key Concepts
 
-- **be()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **_m()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **xe()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **Cp()** (3 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **Test** (2 connections) — `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
+- **ExampleUnitTest.java** (2 connections) — `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
+- **ExampleUnitTest** (2 connections) — `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
+- **.addition_isCorrect()** (2 connections) — `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
 
 ## Relationships
 
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (4 shared connections)
-- [[Architecture Doc Generator]] (1 shared connections)
-- [[Design System & UI Tokens]] (1 shared connections)
-- [[Project Readme & Layout]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DqKn3RAn.js`
+- `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

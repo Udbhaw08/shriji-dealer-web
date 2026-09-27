@@ -1,25 +1,24 @@
 # Community 65
 
-> 3 nodes · cohesion 0.67
+> 3 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **removeWindowListener()** (4 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **removeAllListeners()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
-- **removeListener()** (2 connections) — `ios/App/App/public/assets/index-DqKn3RAn.js`
+- **MainActivity.java** (2 connections) — `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
+- **MainActivity** (2 connections) — `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
+- **BridgeActivity** (2 connections)
 
 ## Relationships
 
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (3 shared connections)
-- [[Product Pages Specification]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DqKn3RAn.js`
+- `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **variables.gradle** (0 connections) — `android/variables.gradle`
+- **build.gradle** (0 connections) — `android/app/build.gradle`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `android/variables.gradle`
+- `android/app/build.gradle`
 
 ## Audit Trail
 

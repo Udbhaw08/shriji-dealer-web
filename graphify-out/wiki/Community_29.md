@@ -1,39 +1,34 @@
 # Community 29
 
-> 11 nodes · cohesion 0.22
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **kf()** (17 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **yr()** (5 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **br()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **Tr()** (4 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **Cr()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **Gr()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **Sr()** (3 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **hp()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **In()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **of()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
-- **Pr()** (2 connections) — `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- **Product** (12 connections) — `PRODUCT.md`
+- **PRODUCT.md** (1 connections) — `PRODUCT.md`
+- **Accessibility & Inclusion** (1 connections) — `PRODUCT.md`
+- **Brand Commitments** (1 connections) — `PRODUCT.md`
+- **Capabilities and Constraints** (1 connections) — `PRODUCT.md`
+- **Evidence on Hand** (1 connections) — `PRODUCT.md`
+- **Operating Context** (1 connections) — `PRODUCT.md`
+- **Platform** (1 connections) — `PRODUCT.md`
+- **Positioning** (1 connections) — `PRODUCT.md`
+- **Product Principles** (1 connections) — `PRODUCT.md`
+- **Product Purpose** (1 connections) — `PRODUCT.md`
+- **Stack** (1 connections) — `PRODUCT.md`
+- **Users** (1 connections) — `PRODUCT.md`
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (11 shared connections)
-- [[Graphify Knowledge Graph Skill]] (3 shared connections)
-- [[Community 40]] (2 shared connections)
-- [[Client Products Data Store]] (2 shared connections)
-- [[Dependencies & Package Config]] (2 shared connections)
-- [[Zoho Integration Architecture]] (1 shared connections)
-- [[Price Presentation & Product UI]] (1 shared connections)
-- [[Community 57]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DqKn3RAn.js`
+- `PRODUCT.md`
 
 ## Audit Trail
 
-- EXTRACTED: 47 (100%)
+- EXTRACTED: 24 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
