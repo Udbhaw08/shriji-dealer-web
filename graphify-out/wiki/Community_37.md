@@ -1,47 +1,54 @@
 # Community 37
 
-> 33 nodes · cohesion 0.06
+> 32 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **scripts** (15 connections) — `.agents/skills/archify/package.json`
-- **package.json** (11 connections) — `.agents/skills/archify/package.json`
-- **devDependencies** (5 connections) — `.agents/skills/archify/package.json`
-- **bin** (2 connections) — `.agents/skills/archify/package.json`
-- **engines** (2 connections) — `.agents/skills/archify/package.json`
-- **overrides** (2 connections) — `.agents/skills/archify/package.json`
-- **archify** (1 connections) — `.agents/skills/archify/package.json`
-- **description** (1 connections) — `.agents/skills/archify/package.json`
-- **ajv** (1 connections) — `.agents/skills/archify/package.json`
-- **parse5** (1 connections) — `.agents/skills/archify/package.json`
-- **saxes** (1 connections) — `.agents/skills/archify/package.json`
-- **simple-icons** (1 connections) — `.agents/skills/archify/package.json`
-- **node** (1 connections) — `.agents/skills/archify/package.json`
-- **license** (1 connections) — `.agents/skills/archify/package.json`
-- **name** (1 connections) — `.agents/skills/archify/package.json`
-- **fast-uri** (1 connections) — `.agents/skills/archify/package.json`
-- **private** (1 connections) — `.agents/skills/archify/package.json`
-- **build:gallery** (1 connections) — `.agents/skills/archify/package.json`
-- **build:guide** (1 connections) — `.agents/skills/archify/package.json`
-- **build:readme-showcase** (1 connections) — `.agents/skills/archify/package.json`
-- **build:start** (1 connections) — `.agents/skills/archify/package.json`
-- **check:brand-marks** (1 connections) — `.agents/skills/archify/package.json`
-- **check:release-identity** (1 connections) — `.agents/skills/archify/package.json`
-- **check:validators** (1 connections) — `.agents/skills/archify/package.json`
-- **check:viewer** (1 connections) — `.agents/skills/archify/package.json`
-- *... and 8 more nodes in this community*
+- **n()** (24 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **t()** (24 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **os()** (12 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **r()** (11 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **cs()** (9 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **ps()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **dc()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **es()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **hs()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **ms()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **Qo()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **ss()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **te()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **x()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **ys()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **as()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **fs()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **gs()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **ls()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **vs()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **xs()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **ne()** (4 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **ws()** (4 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **eo()** (3 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **Md()** (3 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (37 shared connections)
+- [[Zoho Integration Architecture]] (15 shared connections)
+- [[Project Readme & Layout]] (15 shared connections)
+- [[Pricing Regression Test Suite]] (9 shared connections)
+- [[Dependencies & Package Config]] (8 shared connections)
+- [[Community 51]] (7 shared connections)
+- [[Community 32]] (2 shared connections)
+- [[Community 29]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/package.json`
+- `android/app/src/main/assets/public/assets/index-CPb6hema.js`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (100%)
+- EXTRACTED: 200 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

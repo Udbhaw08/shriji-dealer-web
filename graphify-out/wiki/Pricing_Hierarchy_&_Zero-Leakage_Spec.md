@@ -1,55 +1,48 @@
 # Pricing Hierarchy & Zero-Leakage Spec
 
-> 46 nodes · cohesion 0.08
+> 45 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **i()** (70 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **n()** (24 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **t()** (24 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **ki()** (13 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **a()** (12 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **os()** (12 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **r()** (11 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **cs()** (9 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **Mp()** (7 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **ps()** (7 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **s()** (7 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **es()** (6 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **hs()** (6 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **ms()** (6 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **Qo()** (6 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **si()** (6 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **ss()** (6 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **te()** (6 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **x()** (6 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **ys()** (6 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **bs()** (5 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **fs()** (5 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **gs()** (5 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **hm()** (5 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **ls()** (5 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- *... and 21 more nodes in this community*
+- **generated-validators.mjs** (41 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **func3()** (11 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **generate-validators.test.mjs** (5 connections) — `.agents/skills/archify/test/generate-validators.test.mjs`
+- **validate20()** (4 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate22()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate27()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate28()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate30()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate31()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate33()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate34()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate36()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate37()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate24()** (2 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern17** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern18** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern20** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern4** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern57** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema112** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema116** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema118** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema149** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema31** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema33** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (56 shared connections)
-- [[Product Requirements Documentation]] (23 shared connections)
-- [[Product Pages Specification]] (22 shared connections)
-- [[Client Products Data Store]] (21 shared connections)
-- [[Testing & Workflow Skill]] (18 shared connections)
-- [[Community 74]] (13 shared connections)
-- [[Community 34]] (6 shared connections)
-- [[Community 33]] (6 shared connections)
-- [[Community 119]] (3 shared connections)
+- [[Design System & UI Tokens]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BILU7txw.js`
+- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- `.agents/skills/archify/test/generate-validators.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 334 (100%)
+- EXTRACTED: 121 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

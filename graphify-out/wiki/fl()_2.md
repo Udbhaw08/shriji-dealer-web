@@ -1,8 +1,8 @@
 # fl()
 
-> God node · 32 connections · `ios/App/App/public/assets/index-BILU7txw.js`
+> God node · 32 connections · `ios/App/App/public/assets/index-CPb6hema.js`
 
-**Community:** [[Client Products Data Store]]
+**Community:** [[Master Codebase Architecture Reference]]
 
 ## Connections by Relation
 

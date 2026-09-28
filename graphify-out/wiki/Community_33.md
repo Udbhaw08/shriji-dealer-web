@@ -1,54 +1,47 @@
 # Community 33
 
-> 35 nodes · cohesion 0.10
+> 34 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **vl()** (27 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **qd()** (14 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **yl()** (14 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **Yd()** (13 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **bl()** (10 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **je()** (8 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **ca()** (7 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **ef()** (7 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **Bd()** (6 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **da()** (6 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **zd()** (6 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **Io()** (5 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **is()** (5 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **sm()** (5 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **Hd()** (4 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **hl()** (4 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **ko()** (4 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **ml()** (4 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **Q()** (4 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **ta()** (4 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **tf()** (4 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **va()** (4 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **zo()** (4 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **ep()** (3 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **Fi()** (3 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- *... and 10 more nodes in this community*
+- **properties** (11 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **viewBox** (6 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **entries** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **legend** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **animation** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **locale** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **mode** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **output** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **subtitle** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **views** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **properties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (35 shared connections)
-- [[Product Pages Specification]] (19 shared connections)
-- [[Client Products Data Store]] (15 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (6 shared connections)
-- [[Community 34]] (4 shared connections)
-- [[Product Requirements Documentation]] (4 shared connections)
-- [[Community 74]] (4 shared connections)
-- [[Testing & Workflow Skill]] (1 shared connections)
+- [[Community 63]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BILU7txw.js`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 202 (100%)
+- EXTRACTED: 67 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

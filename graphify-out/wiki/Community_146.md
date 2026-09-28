@@ -1,18 +1,18 @@
 # Community 146
 
-> 9 nodes · cohesion 0.33
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **release-identity.test.mjs** (8 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **stableUpdateManifest()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **writeFile()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **writeValidDevelopmentFixture()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **writeValidStableFixture()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **checker** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **runCheck()** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **preview-contract.test.mjs** (8 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **chinese** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **delivery** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **english** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **readme** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **skill** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
 
 ## Relationships
 
@@ -20,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/release-identity.test.mjs`
+- `.agents/skills/archify/test/preview-contract.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

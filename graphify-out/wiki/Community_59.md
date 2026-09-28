@@ -30,11 +30,11 @@
 
 ## Relationships
 
-- [[Community 104]] (2 shared connections)
+- [[Community 106]] (2 shared connections)
+- [[Community 242]] (1 shared connections)
+- [[Community 113]] (1 shared connections)
+- [[Community 200]] (1 shared connections)
 - [[Community 243]] (1 shared connections)
-- [[Community 110]] (1 shared connections)
-- [[Community 199]] (1 shared connections)
-- [[Community 244]] (1 shared connections)
 
 ## Source Files
 

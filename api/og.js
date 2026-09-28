@@ -54,7 +54,7 @@ export default async function handler(req, res) {
       : `Retail MRP: ${priceStr} (Incl. of all taxes) · Sunshine ReSTOR`;
 
     const proto = req.headers["x-forwarded-proto"] || "https";
-    const host = req.headers["x-forwarded-host"] || req.headers.host || "shriji-dealer-web.vercel.app";
+    const host = req.headers["x-forwarded-host"] || req.headers.host || "restor.in";
     const imgUrl = product.img || `${proto}://${host}/img/hero-stove.webp`;
     const currentUrl = `${proto}://${host}${req.url}`;
 

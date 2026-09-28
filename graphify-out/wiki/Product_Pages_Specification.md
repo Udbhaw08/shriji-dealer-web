@@ -1,55 +1,54 @@
 # Product Pages Specification
 
-> 61 nodes · cohesion 0.07
+> 59 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **D()** (25 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **mt()** (18 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **O()** (15 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **St()** (14 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **ae()** (13 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **dn()** (13 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **Fd()** (12 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **Vd()** (12 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **ut()** (11 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **vn()** (11 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **vt()** (11 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **bt()** (10 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **dt()** (10 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **ip()** (10 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **en()** (9 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **pt()** (9 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **an()** (8 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **In()** (8 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **k()** (8 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **ke()** (8 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **Bn()** (7 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **E()** (7 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **ft()** (7 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **pn()** (7 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **Rd()** (7 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- *... and 36 more nodes in this community*
+- **D()** (25 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **mt()** (18 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **O()** (15 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **St()** (14 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **ae()** (13 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **dn()** (13 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **Fd()** (12 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **Vd()** (12 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **ut()** (11 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **vn()** (11 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **vt()** (11 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **bt()** (10 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **dt()** (10 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **ip()** (10 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **en()** (9 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **pt()** (9 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **an()** (8 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **In()** (8 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **k()** (8 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **ke()** (8 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **Bn()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **E()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **ft()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **pn()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **Rd()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- *... and 34 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (73 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (22 shared connections)
-- [[Product Requirements Documentation]] (19 shared connections)
-- [[Community 33]] (19 shared connections)
-- [[Testing & Workflow Skill]] (8 shared connections)
-- [[Client Products Data Store]] (8 shared connections)
-- [[Community 74]] (7 shared connections)
-- [[Community 119]] (7 shared connections)
-- [[Community 34]] (2 shared connections)
+- [[Dealer Auth & Session Management]] (71 shared connections)
+- [[Product Requirements Documentation]] (21 shared connections)
+- [[Community 31]] (19 shared connections)
+- [[Graphify Workflow]] (15 shared connections)
+- [[Master Codebase Architecture Reference]] (14 shared connections)
+- [[Zoho Integration Skill]] (12 shared connections)
+- [[Community 111]] (7 shared connections)
+- [[Roles & Customer Sharing Spec]] (4 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BILU7txw.js`
+- `ios/App/App/public/assets/index-CPb6hema.js`
 
 ## Audit Trail
 
-- EXTRACTED: 421 (100%)
+- EXTRACTED: 413 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

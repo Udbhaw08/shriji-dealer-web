@@ -1,8 +1,8 @@
 # fl()
 
-> God node · 32 connections · `android/app/src/main/assets/public/assets/index-BILU7txw.js`
+> God node · 32 connections · `android/app/src/main/assets/public/assets/index-CPb6hema.js`
 
-**Community:** [[Dependencies & Package Config]]
+**Community:** [[Zoho Integration Architecture]]
 
 ## Connections by Relation
 

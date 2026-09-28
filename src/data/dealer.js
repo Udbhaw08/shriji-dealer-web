@@ -217,7 +217,7 @@ export function shareLink(p, dealer) {
   const isLocal = typeof window !== "undefined" && (window.location?.hostname === "localhost" || window.location?.hostname === "127.0.0.1");
   const origin = (typeof window !== "undefined" && window.location?.origin && !isLocal)
     ? window.location.origin
-    : "https://shriji-dealer-web.vercel.app";
+    : "https://restor.in";
   const slug = productSlug(p) || p.id;
   const url = new URL(`/products/${slug}`, origin);
 

@@ -1,34 +1,37 @@
 # Community 111
 
-> 11 nodes · cohesion 0.18
+> 11 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **properties** (9 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **note** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **title** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **dot** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **id** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **maxLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **minLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **df()** (10 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **Xr()** (10 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **rf()** (9 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **ff()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **nf()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **sf()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **lf()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **cf()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **uf()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **qr()** (2 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **yf()** (2 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
 
 ## Relationships
 
-- [[Community 104]] (3 shared connections)
-- [[Community 213]] (1 shared connections)
-- [[Community 110]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (14 shared connections)
+- [[Product Pages Specification]] (7 shared connections)
+- [[Product Requirements Documentation]] (5 shared connections)
+- [[Roles & Customer Sharing Spec]] (4 shared connections)
+- [[Master Codebase Architecture Reference]] (4 shared connections)
+- [[Graphify Workflow]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `ios/App/App/public/assets/index-CPb6hema.js`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
+- EXTRACTED: 65 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

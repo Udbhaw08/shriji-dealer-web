@@ -1,47 +1,39 @@
 # Community 74
 
-> 18 nodes · cohesion 0.17
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **Mi()** (15 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **Qi()** (15 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **Lr()** (12 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **Pi()** (11 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **Xr()** (10 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **Oi()** (9 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **ic()** (7 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **Ii()** (7 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **hi()** (6 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **Li()** (6 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **wi()** (6 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **zi()** (5 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **kn()** (4 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **ul()** (4 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **vi()** (4 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **y()** (3 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **Bi()** (2 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **lo()** (2 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **DESIGN.md — the design system as actually built** (8 connections) — `docs/DESIGN.md`
+- **4. Components already built — reuse these** (7 connections) — `docs/DESIGN.md`
+- **2. Tokens** (4 connections) — `docs/DESIGN.md`
+- **DESIGN.md** (1 connections) — `docs/DESIGN.md`
+- **1. The direction in one paragraph** (1 connections) — `docs/DESIGN.md`
+- **3. Layout primitives** (1 connections) — `docs/DESIGN.md`
+- **5. Icons** (1 connections) — `docs/DESIGN.md`
+- **6. Responsive rules** (1 connections) — `docs/DESIGN.md`
+- **7. Motion and accessibility** (1 connections) — `docs/DESIGN.md`
+- **Actions** (1 connections) — `docs/DESIGN.md`
+- **Colour** (1 connections) — `docs/DESIGN.md`
+- **Content** (1 connections) — `docs/DESIGN.md`
+- **Detail** (1 connections) — `docs/DESIGN.md`
+- **Listing sidebar** (1 connections) — `docs/DESIGN.md`
+- **Navigation and filtering** (1 connections) — `docs/DESIGN.md`
+- **Product** (1 connections) — `docs/DESIGN.md`
+- **Spacing, radius, shadow, motion** (1 connections) — `docs/DESIGN.md`
+- **Type** (1 connections) — `docs/DESIGN.md`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (27 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (13 shared connections)
-- [[Client Products Data Store]] (12 shared connections)
-- [[Product Pages Specification]] (7 shared connections)
-- [[Product Requirements Documentation]] (5 shared connections)
-- [[Testing & Workflow Skill]] (5 shared connections)
-- [[Community 33]] (4 shared connections)
-- [[Community 34]] (2 shared connections)
-- [[Community 119]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BILU7txw.js`
+- `docs/DESIGN.md`
 
 ## Audit Trail
 
-- EXTRACTED: 128 (100%)
+- EXTRACTED: 34 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

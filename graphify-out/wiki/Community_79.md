@@ -24,16 +24,16 @@
 
 ## Relationships
 
-- [[Live Pricing Audit Tool]] (12 shared connections)
-- [[Community 32]] (10 shared connections)
+- [[Architecture Doc Generator]] (12 shared connections)
+- [[Community 30]] (10 shared connections)
 - [[Design System & UI Tokens]] (7 shared connections)
-- [[Community 29]] (5 shared connections)
-- [[Community 87]] (5 shared connections)
-- [[Zoho Integration Architecture]] (4 shared connections)
+- [[Graphify Agent Rules]] (5 shared connections)
+- [[Community 89]] (5 shared connections)
+- [[Product Brand & Business Vision]] (4 shared connections)
 - [[Zoho Backend & Proxy Endpoints]] (4 shared connections)
-- [[Community 65]] (3 shared connections)
-- [[Zoho Integration Skill]] (1 shared connections)
-- [[Community 162]] (1 shared connections)
+- [[Community 64]] (3 shared connections)
+- [[Oxlint Linter Configuration]] (1 shared connections)
+- [[Community 164]] (1 shared connections)
 
 ## Source Files
 

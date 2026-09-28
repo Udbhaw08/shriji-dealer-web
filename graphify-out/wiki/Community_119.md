@@ -1,37 +1,36 @@
 # Community 119
 
-> 10 nodes · cohesion 0.31
+> 10 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **df()** (10 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **rf()** (9 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **ff()** (7 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **nf()** (6 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **sf()** (6 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **lf()** (5 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **cf()** (4 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **uf()** (4 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **qr()** (2 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
-- **yf()** (2 connections) — `ios/App/App/public/assets/index-BILU7txw.js`
+- **i18n.js** (25 connections) — `src/data/i18n.js`
+- **setLanguage()** (3 connections) — `src/data/i18n.js`
+- **emit()** (2 connections) — `src/data/i18n.js`
+- **toggleLanguage()** (2 connections) — `src/data/i18n.js`
+- **translations.js** (2 connections) — `src/data/translations.js`
+- **TRANSLATIONS** (2 connections) — `src/data/translations.js`
+- **currentLang** (1 connections) — `src/data/i18n.js`
+- **getInitialLang()** (1 connections) — `src/data/i18n.js`
+- **getLanguage()** (1 connections) — `src/data/i18n.js`
+- **listeners** (1 connections) — `src/data/i18n.js`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (11 shared connections)
-- [[Product Pages Specification]] (7 shared connections)
-- [[Community 34]] (3 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (3 shared connections)
-- [[Client Products Data Store]] (1 shared connections)
-- [[Product Requirements Documentation]] (1 shared connections)
-- [[Community 74]] (1 shared connections)
+- [[Community 44]] (5 shared connections)
+- [[Community 42]] (4 shared connections)
+- [[Community 35]] (4 shared connections)
+- [[Community 91]] (2 shared connections)
+- [[Community 45]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BILU7txw.js`
+- `src/data/i18n.js`
+- `src/data/translations.js`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

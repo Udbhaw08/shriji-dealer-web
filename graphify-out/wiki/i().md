@@ -1,8 +1,8 @@
 # i()
 
-> God node · 70 connections · `android/app/src/main/assets/public/assets/index-BILU7txw.js`
+> God node · 70 connections · `android/app/src/main/assets/public/assets/index-CPb6hema.js`
 
-**Community:** [[Pricing & Roles Skill]]
+**Community:** [[Project Readme & Layout]]
 
 ## Connections by Relation
 
