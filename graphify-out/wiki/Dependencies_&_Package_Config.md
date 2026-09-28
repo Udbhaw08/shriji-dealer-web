@@ -1,6 +1,6 @@
 # Dependencies & Package Config
 
-> 61 nodes · cohesion 0.07
+> 62 nodes · cohesion 0.07
 
 ## Key Concepts
 
@@ -29,18 +29,19 @@
 - **ft()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
 - **pn()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
 - **Rd()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- *... and 36 more nodes in this community*
+- *... and 37 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (72 shared connections)
-- [[Project Readme & Layout]] (28 shared connections)
-- [[Pricing Regression Test Suite]] (19 shared connections)
-- [[Community 29]] (19 shared connections)
-- [[Zoho Integration Architecture]] (13 shared connections)
-- [[Community 37]] (8 shared connections)
-- [[Community 32]] (5 shared connections)
-- [[Community 51]] (1 shared connections)
+- [[Price Presentation & Product UI]] (71 shared connections)
+- [[Architecture Doc Generator]] (22 shared connections)
+- [[Product Requirements Documentation]] (19 shared connections)
+- [[Community 33]] (19 shared connections)
+- [[Claude Agent Instructions]] (12 shared connections)
+- [[Community 64]] (7 shared connections)
+- [[Community 118]] (7 shared connections)
+- [[Community 30]] (5 shared connections)
+- [[Master Codebase Architecture Reference]] (4 shared connections)
 
 ## Source Files
 
@@ -48,7 +49,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 421 (100%)
+- EXTRACTED: 426 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

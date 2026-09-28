@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Archify Diagram Generation Protocol** (4 connections) — `.agents/rules/archify.md`
-- **archify.md** (1 connections) — `.agents/rules/archify.md`
-- **Rule 1: Dedicated Subfolder Per Diagram** (1 connections) — `.agents/rules/archify.md`
-- **Rule 2: Output Artifacts (HTML & Dark Image Only)** (1 connections) — `.agents/rules/archify.md`
-- **Rule 3: Intermediate File Cleanup** (1 connections) — `.agents/rules/archify.md`
+- **Agent Operating Guidelines & Zero-Token Context Strategy** (3 connections) — `GEMINI.md`
+- **Shriji Domestic Appliances — Sunshine Dealer Web** (2 connections) — `GEMINI.md`
+- **GEMINI.md** (1 connections) — `GEMINI.md`
+- **Mandatory Context Rule: Knowledge Graph First** (1 connections) — `GEMINI.md`
+- **Project Hard Rules** (1 connections) — `GEMINI.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/rules/archify.md`
+- `GEMINI.md`
 
 ## Audit Trail
 

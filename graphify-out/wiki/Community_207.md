@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **skill-metadata.test.mjs** (5 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
-- **authoringContract** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
-- **frontmatter** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
-- **skill** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
+- **render-output-checks.test.mjs** (5 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **checker** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **checkHtml()** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/skill-metadata.test.mjs`
+- `.agents/skills/archify/test/render-output-checks.test.mjs`
 
 ## Audit Trail
 

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **capacitor.build.gradle** (0 connections) — `android/app/capacitor.build.gradle`
+- **settings.gradle** (0 connections) — `android/settings.gradle`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `android/app/capacitor.build.gradle`
+- `android/settings.gradle`
 
 ## Audit Trail
 

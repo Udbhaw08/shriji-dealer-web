@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **graphify.md** (1 connections) — `.agents/workflows/graphify.md`
-- **Workflow: graphify** (1 connections) — `.agents/workflows/graphify.md`
+- **make-scheme-pdfs.mjs** (1 connections) — `scripts/make-scheme-pdfs.mjs`
+- **createPdfWithJpg()** (1 connections) — `scripts/make-scheme-pdfs.mjs`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.agents/workflows/graphify.md`
+- `scripts/make-scheme-pdfs.mjs`
 
 ## Audit Trail
 

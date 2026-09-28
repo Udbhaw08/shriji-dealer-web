@@ -2,7 +2,7 @@
 
 > God node · 32 connections · `android/app/src/main/assets/public/assets/index-CPb6hema.js`
 
-**Community:** [[Zoho Integration Architecture]]
+**Community:** [[Master Codebase Architecture Reference]]
 
 ## Connections by Relation
 

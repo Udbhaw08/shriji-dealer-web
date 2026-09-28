@@ -18,7 +18,7 @@
 ## Relationships
 
 - [[Pricing & Roles Skill]] (3 shared connections)
-- [[Community 84]] (3 shared connections)
+- [[Community 85]] (3 shared connections)
 
 ## Source Files
 

@@ -1,30 +1,32 @@
 # Community 152
 
-> 8 nodes · cohesion 0.25
+> 8 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **wraps** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **via** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **open-artifact.mjs** (7 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
+- **openLoopbackUrl()** (5 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
+- **open-artifact.test.mjs** (5 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
+- **launchTarget()** (4 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
+- **openArtifact()** (4 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
+- **spawn()** (2 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
+- **OPENERS** (1 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
+- **target** (1 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
 
 ## Relationships
 
-- [[Graphify Knowledge Graph Skill]] (2 shared connections)
+- [[Community 50]] (3 shared connections)
+- [[Community 37]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `.agents/skills/archify/bin/open-artifact.mjs`
+- `.agents/skills/archify/test/open-artifact.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 26 (90%)
+- INFERRED: 3 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

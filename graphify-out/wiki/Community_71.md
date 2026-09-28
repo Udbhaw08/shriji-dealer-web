@@ -1,41 +1,45 @@
 # Community 71
 
-> 19 nodes · cohesion 0.11
+> 19 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **properties** (9 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **sequence.schema.json** (7 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **participants** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **segments** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **cards** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **schema_version** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$id** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$schema** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **title** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **sl()** (10 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **Cu()** (9 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **Sp()** (8 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **Bo()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **ba()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **Iu()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **kl()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **Ou()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **rl()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **gm()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **il()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **ol()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **wl()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **Cp()** (3 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **pl()** (3 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **ya()** (3 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **al()** (2 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **_m()** (2 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **Su()** (2 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
 
 ## Relationships
 
-- [[Community 107]] (4 shared connections)
-- [[Community 225]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (19 shared connections)
+- [[Zoho Integration Architecture]] (7 shared connections)
+- [[Pricing Regression Test Suite]] (7 shared connections)
+- [[Community 31]] (6 shared connections)
+- [[Project Readme & Layout]] (3 shared connections)
+- [[Community 29]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/sequence.schema.json`
+- `ios/App/App/public/assets/index-CPb6hema.js`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (100%)
+- EXTRACTED: 89 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

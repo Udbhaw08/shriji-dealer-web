@@ -1,51 +1,52 @@
 # Community 51
 
-> 24 nodes · cohesion 0.13
+> 24 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **lc()** (16 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **kc()** (9 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **fc()** (8 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **Gc()** (8 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **jd()** (8 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **ea()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **ec()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **sc()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **Ei()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **lh()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **nc()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **oc()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **dh()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **rs()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **Ti()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **go()** (4 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **ja()** (4 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **ns()** (4 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **pc()** (4 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **vo()** (4 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **yt()** (4 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **cc()** (3 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **If()** (3 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **tc()** (3 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **intent-trace-browser.test.mjs** (15 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **semantic-lens-browser.test.mjs** (14 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **desktop-browser.mjs** (8 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **desktopBrowser()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **desktopPointerCheck()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **afterTimer()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **hash()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (30 shared connections)
-- [[Zoho Integration Architecture]] (17 shared connections)
-- [[Project Readme & Layout]] (9 shared connections)
-- [[Community 37]] (7 shared connections)
-- [[Pricing Regression Test Suite]] (2 shared connections)
-- [[Community 32]] (2 shared connections)
-- [[Dependencies & Package Config]] (1 shared connections)
+- [[Community 43]] (11 shared connections)
+- [[Community 39]] (3 shared connections)
+- [[Community 102]] (3 shared connections)
+- [[Community 103]] (3 shared connections)
+- [[Community 91]] (2 shared connections)
+- [[Community 65]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 142 (100%)
+- EXTRACTED: 103 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

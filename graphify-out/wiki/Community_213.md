@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Automatic Codebase Context & Knowledge Graph Protocol** (4 connections) — `.agents/rules/graphify.md`
-- **graphify.md** (1 connections) — `.agents/rules/graphify.md`
-- **Rule 1: Mandatory Knowledge Graph Lookup (Never Blindly Read Files)** (1 connections) — `.agents/rules/graphify.md`
-- **Rule 2: Precision File Viewing** (1 connections) — `.agents/rules/graphify.md`
-- **Rule 3: Keep Graph Fresh After Modifying Code** (1 connections) — `.agents/rules/graphify.md`
+- **Shriji Domestic Appliances — Sunshine Dealer Web** (4 connections) — `README.md`
+- **README.md** (1 connections) — `README.md`
+- **Documentation** (1 connections) — `README.md`
+- **Layout** (1 connections) — `README.md`
+- **Two things to know before you change anything** (1 connections) — `README.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/rules/graphify.md`
+- `README.md`
 
 ## Audit Trail
 

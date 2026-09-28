@@ -1,52 +1,52 @@
 # Community 52
 
-> 24 nodes · cohesion 0.11
+> 24 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **preview.mjs** (23 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **startPreview()** (10 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **cli-output-types.test.mjs** (10 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **runPreview()** (3 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **compactMessage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **initialAuthoredOutput()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **previewPage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **redactDiagnostic()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **sha256()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **sourceDigest()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **cliPath** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **diagramTypes** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **here** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **parseReceipt()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **responseHeaders()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **safeJson()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **architecture** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **base** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **head** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **root** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **workflow** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **workspace()** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **lc()** (16 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **kc()** (9 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **fc()** (8 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **Gc()** (8 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **jd()** (8 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **ea()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **ec()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **sc()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **Ei()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **lh()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **nc()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **oc()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **dh()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **rs()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **Ti()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **go()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **ja()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **ns()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **pc()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **vo()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **yt()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **cc()** (3 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **If()** (3 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **tc()** (3 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
 
 ## Relationships
 
-- [[Community 151]] (3 shared connections)
-- [[Community 77]] (3 shared connections)
-- [[Community 38]] (2 shared connections)
-- [[Community 129]] (2 shared connections)
-- [[Community 185]] (2 shared connections)
-- [[Community 149]] (2 shared connections)
+- [[Dealer Auth & Session Management]] (30 shared connections)
+- [[Zoho Integration Architecture]] (17 shared connections)
+- [[Project Readme & Layout]] (9 shared connections)
+- [[Community 38]] (7 shared connections)
+- [[Pricing Regression Test Suite]] (2 shared connections)
+- [[Community 31]] (2 shared connections)
+- [[Product Pages Specification]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/preview.mjs`
-- `.agents/skills/archify/test/cli-output-types.test.mjs`
+- `ios/App/App/public/assets/index-CPb6hema.js`
 
 ## Audit Trail
 
-- EXTRACTED: 71 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 142 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

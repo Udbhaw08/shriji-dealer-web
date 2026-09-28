@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **via** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **common.schema.json** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **$id** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **$schema** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **title** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- [[Claude Agent Instructions]] (1 shared connections)
+- [[Community 59]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 

@@ -20,9 +20,9 @@
 ## Relationships
 
 - [[Design System & UI Tokens]] (6 shared connections)
-- [[Community 96]] (3 shared connections)
-- [[Community 49]] (2 shared connections)
-- [[Community 83]] (1 shared connections)
+- [[Community 97]] (3 shared connections)
+- [[Community 48]] (2 shared connections)
+- [[Community 84]] (1 shared connections)
 
 ## Source Files
 

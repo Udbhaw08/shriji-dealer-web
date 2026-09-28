@@ -34,11 +34,11 @@
 ## Relationships
 
 - [[Community 123]] (3 shared connections)
-- [[Community 244]] (1 shared connections)
-- [[Community 245]] (1 shared connections)
-- [[Community 246]] (1 shared connections)
-- [[Community 221]] (1 shared connections)
-- [[Community 222]] (1 shared connections)
+- [[Community 247]] (1 shared connections)
+- [[Community 248]] (1 shared connections)
+- [[Community 249]] (1 shared connections)
+- [[Community 224]] (1 shared connections)
+- [[Community 225]] (1 shared connections)
 
 ## Source Files
 

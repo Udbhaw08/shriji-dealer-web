@@ -17,8 +17,8 @@
 
 ## Relationships
 
-- [[Claude Agent Instructions]] (3 shared connections)
-- [[Community 85]] (3 shared connections)
+- [[Zoho Integration Skill]] (3 shared connections)
+- [[Community 86]] (3 shared connections)
 
 ## Source Files
 

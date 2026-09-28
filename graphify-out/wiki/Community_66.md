@@ -27,9 +27,9 @@
 
 ## Relationships
 
-- [[Community 49]] (20 shared connections)
-- [[Community 173]] (2 shared connections)
-- [[Architecture Doc Generator]] (2 shared connections)
+- [[Community 48]] (20 shared connections)
+- [[Community 174]] (2 shared connections)
+- [[Roles & Customer Sharing Spec]] (2 shared connections)
 
 ## Source Files
 

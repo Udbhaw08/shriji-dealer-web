@@ -17,7 +17,7 @@
 
 ## Relationships
 
-- [[Community 72]] (1 shared connections)
+- [[Community 73]] (1 shared connections)
 - [[Design System & UI Tokens]] (1 shared connections)
 
 ## Source Files

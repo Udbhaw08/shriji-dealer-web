@@ -1,54 +1,55 @@
 # Product Requirements Documentation
 
-> 55 nodes · cohesion 0.06
+> 54 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **i()** (70 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **lc()** (16 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Qi()** (15 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **ki()** (13 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **a()** (12 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **r()** (11 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **cs()** (9 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **kc()** (9 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Oi()** (9 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **fc()** (8 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Gc()** (8 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **jd()** (8 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **l()** (8 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **ea()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **ec()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **gf()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Mp()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **qs()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **sc()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **dc()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Ei()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **es()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **nc()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **oc()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Qo()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- *... and 30 more nodes in this community*
+- **get()** (23 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **np()** (21 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **b()** (19 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **.addEventListener()** (18 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **Au()** (16 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **h()** (14 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **fp()** (13 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **.removeEventListener()** (13 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **bm()** (12 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **sn()** (11 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **am()** (9 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **tp()** (9 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **cm()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **ju()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **lp()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **mm()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **tm()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **zm()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **zt()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **em()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **.blur()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **.scrollIntoView()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **jm()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **nm()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **om()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- *... and 29 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (69 shared connections)
-- [[Master Codebase Architecture Reference]] (37 shared connections)
-- [[Zoho Integration Skill]] (23 shared connections)
-- [[Product Pages Specification]] (21 shared connections)
-- [[Graphify Workflow]] (16 shared connections)
-- [[Roles & Customer Sharing Spec]] (11 shared connections)
-- [[Community 31]] (8 shared connections)
-- [[Community 111]] (5 shared connections)
+- [[Price Presentation & Product UI]] (55 shared connections)
+- [[Architecture Doc Generator]] (23 shared connections)
+- [[Dependencies & Package Config]] (19 shared connections)
+- [[Community 30]] (16 shared connections)
+- [[Master Codebase Architecture Reference]] (12 shared connections)
+- [[Claude Agent Instructions]] (7 shared connections)
+- [[Community 64]] (6 shared connections)
+- [[Community 33]] (4 shared connections)
+- [[Community 118]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CPb6hema.js`
+- `android/app/src/main/assets/public/assets/index-CPb6hema.js`
 
 ## Audit Trail
 
-- EXTRACTED: 382 (100%)
+- EXTRACTED: 369 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

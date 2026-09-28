@@ -1,55 +1,62 @@
 # Graphify Workflow
 
-> 36 nodes · cohesion 0.11
+> 35 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **get()** (23 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **np()** (21 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **.addEventListener()** (18 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Au()** (16 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **.removeEventListener()** (13 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **bm()** (12 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **sn()** (11 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **am()** (9 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **tp()** (9 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **cm()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **ju()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **mm()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **tm()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **zm()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **zt()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **em()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **jm()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **nm()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **om()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **mn()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **pm()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **qm()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Rp()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **uh()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Bp()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- *... and 11 more nodes in this community*
+- **render-dataflow.mjs** (78 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **legend.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **renderLegend()** (14 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **svgAccessibleText()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **svgRootAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **renderDefinitions()** (11 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **resolveLegend()** (10 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **renderSvg()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderLegend()** (6 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **legendFootprint()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **measureLegend()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **stageX()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **componentFill** (5 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **componentText** (4 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **lifecycleAreaBottom()** (3 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **measureNode()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **routeVia()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **stageFrame()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **legendY()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderLifecycleRail()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (42 shared connections)
-- [[Roles & Customer Sharing Spec]] (19 shared connections)
-- [[Product Requirements Documentation]] (16 shared connections)
-- [[Product Pages Specification]] (15 shared connections)
-- [[Zoho Integration Skill]] (11 shared connections)
-- [[Master Codebase Architecture Reference]] (10 shared connections)
-- [[Community 31]] (3 shared connections)
-- [[Community 111]] (1 shared connections)
+- [[Roles & Customer Sharing Spec]] (35 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (33 shared connections)
+- [[Graphify Agent Rules]] (27 shared connections)
+- [[Product Brand & Business Vision]] (14 shared connections)
+- [[Design System & UI Tokens]] (10 shared connections)
+- [[Community 80]] (10 shared connections)
+- [[Community 63]] (10 shared connections)
+- [[Oxlint Linter Configuration]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CPb6hema.js`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- `.agents/skills/archify/renderers/shared/cli.mjs`
+- `.agents/skills/archify/renderers/shared/geometry.mjs`
+- `.agents/skills/archify/renderers/shared/legend.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 261 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 249 (99%)
+- INFERRED: 3 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

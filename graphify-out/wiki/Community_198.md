@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **.oxlintrc.json** (3 connections) — `.oxlintrc.json`
-- **rules** (3 connections) — `.oxlintrc.json`
-- **plugins** (1 connections) — `.oxlintrc.json`
-- **react/only-export-components** (1 connections) — `.oxlintrc.json`
-- **react/rules-of-hooks** (1 connections) — `.oxlintrc.json`
-- **$schema** (1 connections) — `.oxlintrc.json`
+- **Lifecycle Renderer** (5 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **README.md** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Input** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Layout budget** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Legend** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.oxlintrc.json`
+- `.agents/skills/archify/renderers/lifecycle/README.md`
 
 ## Audit Trail
 

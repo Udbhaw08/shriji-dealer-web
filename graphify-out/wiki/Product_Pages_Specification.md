@@ -1,6 +1,6 @@
 # Product Pages Specification
 
-> 59 nodes · cohesion 0.07
+> 61 nodes · cohesion 0.07
 
 ## Key Concepts
 
@@ -29,18 +29,18 @@
 - **ft()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
 - **pn()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
 - **Rd()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- *... and 34 more nodes in this community*
+- *... and 36 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (71 shared connections)
-- [[Product Requirements Documentation]] (21 shared connections)
-- [[Community 31]] (19 shared connections)
-- [[Graphify Workflow]] (15 shared connections)
-- [[Master Codebase Architecture Reference]] (14 shared connections)
-- [[Zoho Integration Skill]] (12 shared connections)
-- [[Community 111]] (7 shared connections)
-- [[Roles & Customer Sharing Spec]] (4 shared connections)
+- [[Dealer Auth & Session Management]] (72 shared connections)
+- [[Project Readme & Layout]] (28 shared connections)
+- [[Pricing Regression Test Suite]] (19 shared connections)
+- [[Community 29]] (19 shared connections)
+- [[Zoho Integration Architecture]] (13 shared connections)
+- [[Community 38]] (8 shared connections)
+- [[Community 31]] (5 shared connections)
+- [[Community 52]] (1 shared connections)
 
 ## Source Files
 
@@ -48,7 +48,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 413 (100%)
+- EXTRACTED: 421 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

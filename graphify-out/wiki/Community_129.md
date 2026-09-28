@@ -18,8 +18,8 @@
 ## Relationships
 
 - [[Design System & UI Tokens]] (3 shared connections)
-- [[Community 52]] (2 shared connections)
-- [[Community 77]] (2 shared connections)
+- [[Community 50]] (2 shared connections)
+- [[Community 78]] (2 shared connections)
 
 ## Source Files
 

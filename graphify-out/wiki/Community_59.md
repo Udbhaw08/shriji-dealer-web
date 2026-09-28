@@ -1,11 +1,11 @@
 # Community 59
 
-> 23 nodes · cohesion 0.09
+> 22 nodes · cohesion 0.09
 
 ## Key Concepts
 
 - **$defs** (16 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **common.schema.json** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **id** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
 - **animation** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
 - **brandMark** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
 - **componentType** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
@@ -18,23 +18,23 @@
 - **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 - **oneOf** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 - **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **$id** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **pattern** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 - **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 - **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 - **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **$schema** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 - **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **title** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 - **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 - **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- [[Community 106]] (2 shared connections)
-- [[Community 242]] (1 shared connections)
-- [[Community 113]] (1 shared connections)
-- [[Community 200]] (1 shared connections)
-- [[Community 243]] (1 shared connections)
+- [[Community 223]] (1 shared connections)
+- [[Community 138]] (1 shared connections)
+- [[Community 245]] (1 shared connections)
+- [[Community 112]] (1 shared connections)
+- [[Community 202]] (1 shared connections)
+- [[Community 246]] (1 shared connections)
 
 ## Source Files
 
@@ -42,7 +42,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 50 (100%)
+- EXTRACTED: 48 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

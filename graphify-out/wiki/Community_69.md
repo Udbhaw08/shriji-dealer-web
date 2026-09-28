@@ -1,45 +1,44 @@
 # Community 69
 
-> 19 nodes · cohesion 0.13
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **sl()** (10 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **Cu()** (9 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **Sp()** (8 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **Bo()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **ba()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **Iu()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **kl()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **Ou()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **rl()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **gm()** (4 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **il()** (4 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **ol()** (4 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **wl()** (4 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **Cp()** (3 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **pl()** (3 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **ya()** (3 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **al()** (2 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **_m()** (2 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **Su()** (2 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **properties** (13 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **animation** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **engineering_profile** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **locale** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **output** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **subtitle** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **views** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (19 shared connections)
-- [[Zoho Integration Architecture]] (7 shared connections)
-- [[Pricing Regression Test Suite]] (7 shared connections)
-- [[Community 32]] (6 shared connections)
-- [[Project Readme & Layout]] (3 shared connections)
-- [[Community 29]] (3 shared connections)
+- [[Community 111]] (1 shared connections)
+- [[Community 89]] (1 shared connections)
+- [[Community 201]] (1 shared connections)
+- [[Community 60]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 89 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

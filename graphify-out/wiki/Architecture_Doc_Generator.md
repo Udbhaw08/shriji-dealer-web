@@ -1,67 +1,56 @@
 # Architecture Doc Generator
 
-> 49 nodes · cohesion 0.11
+> 49 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **render-lifecycle.mjs** (81 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **esc()** (31 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **escapeHtml()** (26 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **animateAttr()** (16 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **focusEdgeAttrs()** (15 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **labelPoint()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **renderBrandMark()** (14 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **renderNode()** (13 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderState()** (13 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **focusNodeAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **renderSemanticSigil()** (13 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **renderComponent()** (12 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderParticipant()** (12 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **brandLabelFitWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **brandMetadataFor()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **focusNodeTitle()** (12 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **routePointsValue()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **fittedNodeFontSize()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **variantAccent()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **renderConnectionLabel()** (8 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderFlowLabel()** (8 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderTransitionLabel()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderMessage()** (8 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **brandMarkFor()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **messageLabel()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **i()** (70 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **n()** (24 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **t()** (24 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **ki()** (13 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **a()** (12 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **os()** (12 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **r()** (11 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **cs()** (9 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **Mp()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **ps()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **dc()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **es()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **hs()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **ms()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **Qo()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **si()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **ss()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **te()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **x()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **ys()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **as()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **fs()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **gs()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **hm()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **ls()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
 - *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (45 shared connections)
-- [[Graphify Agent Rules]] (42 shared connections)
-- [[Community 30]] (35 shared connections)
-- [[Product Brand & Business Vision]] (21 shared connections)
-- [[Community 64]] (14 shared connections)
-- [[Community 79]] (12 shared connections)
-- [[Design System & UI Tokens]] (11 shared connections)
-- [[Oxlint Linter Configuration]] (7 shared connections)
-- [[Community 49]] (5 shared connections)
-- [[Community 66]] (2 shared connections)
+- [[Price Presentation & Product UI]] (54 shared connections)
+- [[Master Codebase Architecture Reference]] (24 shared connections)
+- [[Product Requirements Documentation]] (23 shared connections)
+- [[Dependencies & Package Config]] (22 shared connections)
+- [[Claude Agent Instructions]] (17 shared connections)
+- [[Community 64]] (12 shared connections)
+- [[Community 30]] (8 shared connections)
+- [[Community 33]] (6 shared connections)
+- [[Community 118]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/cli.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/i18n.mjs`
-- `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `android/app/src/main/assets/public/assets/index-CPb6hema.js`
 
 ## Audit Trail
 
-- EXTRACTED: 406 (90%)
-- INFERRED: 44 (10%)
+- EXTRACTED: 343 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

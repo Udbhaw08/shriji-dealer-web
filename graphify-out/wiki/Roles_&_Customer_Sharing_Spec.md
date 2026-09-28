@@ -1,55 +1,67 @@
 # Roles & Customer Sharing Spec
 
-> 48 nodes · cohesion 0.08
+> 49 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **Z()** (23 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **xl()** (12 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **yi()** (12 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **delete()** (11 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **hu()** (11 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **ql()** (10 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **sl()** (10 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **vu()** (10 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Cu()** (9 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **pu()** (8 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Sp()** (8 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **gt()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **jl()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Zl()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Bo()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Lu()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **mu()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Nd()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **zu()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **ba()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Iu()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **kl()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Ma()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Ou()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **rl()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- *... and 23 more nodes in this community*
+- **render-lifecycle.mjs** (81 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **esc()** (31 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **escapeHtml()** (26 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **animateAttr()** (16 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **focusEdgeAttrs()** (15 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **labelPoint()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **renderBrandMark()** (14 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **renderNode()** (13 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderState()** (13 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **focusNodeAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **renderSemanticSigil()** (13 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **renderComponent()** (12 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **renderParticipant()** (12 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **brandLabelFitWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **brandMetadataFor()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **focusNodeTitle()** (12 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **routePointsValue()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **fittedNodeFontSize()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- **variantAccent()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **renderConnectionLabel()** (8 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **renderFlowLabel()** (8 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderTransitionLabel()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderMessage()** (8 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **brandMarkFor()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **messageLabel()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (51 shared connections)
-- [[Graphify Workflow]] (19 shared connections)
-- [[Master Codebase Architecture Reference]] (15 shared connections)
-- [[Product Requirements Documentation]] (11 shared connections)
-- [[Community 31]] (7 shared connections)
-- [[Zoho Integration Skill]] (5 shared connections)
-- [[Product Pages Specification]] (4 shared connections)
-- [[Community 111]] (4 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (45 shared connections)
+- [[Graphify Agent Rules]] (42 shared connections)
+- [[Graphify Workflow]] (35 shared connections)
+- [[Product Brand & Business Vision]] (21 shared connections)
+- [[Community 63]] (14 shared connections)
+- [[Community 80]] (12 shared connections)
+- [[Design System & UI Tokens]] (11 shared connections)
+- [[Oxlint Linter Configuration]] (7 shared connections)
+- [[Community 48]] (5 shared connections)
+- [[Community 66]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CPb6hema.js`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- `.agents/skills/archify/renderers/shared/cli.mjs`
+- `.agents/skills/archify/renderers/shared/geometry.mjs`
+- `.agents/skills/archify/renderers/shared/i18n.mjs`
+- `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 286 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 406 (90%)
+- INFERRED: 44 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

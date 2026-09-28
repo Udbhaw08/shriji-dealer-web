@@ -1,32 +1,37 @@
 # Community 118
 
-> 11 nodes · cohesion 0.18
+> 10 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **release-package-gates.test.mjs** (10 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **canonicalZipTest()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **centralDirectoryModes()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **currentNodeMajor** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **spawnBuildZip()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **stagedFixture()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **workflowJob()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **workflowStep()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **writeArchive()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **df()** (10 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **rf()** (9 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **ff()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **nf()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **sf()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **lf()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **uf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **qr()** (2 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **yf()** (2 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (11 shared connections)
+- [[Dependencies & Package Config]] (7 shared connections)
+- [[Community 30]] (3 shared connections)
+- [[Architecture Doc Generator]] (3 shared connections)
+- [[Master Codebase Architecture Reference]] (1 shared connections)
+- [[Product Requirements Documentation]] (1 shared connections)
+- [[Community 64]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/release-package-gates.test.mjs`
+- `android/app/src/main/assets/public/assets/index-CPb6hema.js`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 55 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

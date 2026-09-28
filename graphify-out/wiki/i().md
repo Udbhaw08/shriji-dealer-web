@@ -2,7 +2,7 @@
 
 > God node · 70 connections · `android/app/src/main/assets/public/assets/index-CPb6hema.js`
 
-**Community:** [[Project Readme & Layout]]
+**Community:** [[Architecture Doc Generator]]
 
 ## Connections by Relation
 

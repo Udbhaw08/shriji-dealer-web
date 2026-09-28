@@ -1,53 +1,49 @@
 # Community 64
 
-> 21 nodes · cohesion 0.16
+> 20 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **workflow-compiler.mjs** (102 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **createReadableLayout()** (12 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **readableGroupBounds()** (5 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **authoredNodeWidth()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **compileWorkflowWithFeedback()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **authoredNodeHeight()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **compilerFailure()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **feedbackFailure()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **nodeWidthContributor()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **verticalIntervalsOverlap()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **workflowLabelWidth()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **createLegacyLayout()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **stableCompare()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **stableText()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **stableValueKey()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **workflowEdgeName()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **WorkflowLayoutFeedback** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **cloneWorkflow()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **LEGACY_COLUMN_CENTERS** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **READABLE_CANDIDATE_COST_PRIORITY** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **.constructor()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **Mi()** (15 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **Qi()** (15 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **Lr()** (12 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **Pi()** (11 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **Xr()** (10 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **Oi()** (9 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **ic()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **Ii()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **hi()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **Li()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **wi()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **Dr()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **ir()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **zi()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **Er()** (4 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **ul()** (4 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **vi()** (4 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **y()** (3 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **Bi()** (2 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **lo()** (2 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (31 shared connections)
-- [[Architecture Doc Generator]] (14 shared connections)
-- [[Graphify Agent Rules]] (14 shared connections)
-- [[Community 30]] (10 shared connections)
-- [[Design System & UI Tokens]] (8 shared connections)
-- [[Community 92]] (4 shared connections)
-- [[Community 172]] (4 shared connections)
-- [[Community 79]] (3 shared connections)
-- [[Community 104]] (1 shared connections)
-- [[Community 48]] (1 shared connections)
-- [[Community 97]] (1 shared connections)
-- [[Oxlint Linter Configuration]] (1 shared connections)
+- [[Price Presentation & Product UI]] (28 shared connections)
+- [[Master Codebase Architecture Reference]] (12 shared connections)
+- [[Architecture Doc Generator]] (12 shared connections)
+- [[Claude Agent Instructions]] (9 shared connections)
+- [[Dependencies & Package Config]] (7 shared connections)
+- [[Product Requirements Documentation]] (6 shared connections)
+- [[Community 33]] (3 shared connections)
+- [[Community 30]] (2 shared connections)
+- [[Community 118]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- `android/app/src/main/assets/public/assets/index-CPb6hema.js`
 
 ## Audit Trail
 
-- EXTRACTED: 161 (100%)
+- EXTRACTED: 138 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

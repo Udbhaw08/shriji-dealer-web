@@ -34,17 +34,17 @@
 ## Relationships
 
 - [[Community 65]] (8 shared connections)
-- [[Community 90]] (6 shared connections)
+- [[Community 91]] (6 shared connections)
 - [[Community 43]] (5 shared connections)
 - [[Live Pricing Audit Tool]] (4 shared connections)
-- [[Community 53]] (3 shared connections)
+- [[Community 51]] (3 shared connections)
 - [[Product Brand & Business Vision]] (3 shared connections)
-- [[Community 98]] (2 shared connections)
+- [[Community 99]] (2 shared connections)
 - [[Community 70]] (2 shared connections)
-- [[Community 78]] (2 shared connections)
-- [[Community 101]] (1 shared connections)
+- [[Community 79]] (2 shared connections)
 - [[Community 102]] (1 shared connections)
-- [[Community 89]] (1 shared connections)
+- [[Community 103]] (1 shared connections)
+- [[Community 90]] (1 shared connections)
 
 ## Source Files
 

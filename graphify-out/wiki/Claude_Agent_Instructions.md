@@ -1,55 +1,54 @@
 # Claude Agent Instructions
 
-> 42 nodes · cohesion 0.05
+> 41 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **properties** (30 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **col** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **height** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **brand** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **channelX** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **channelY** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **from** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **id** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **labelDx** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **labelDy** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **lane** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **note** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **step** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **sublabel** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **tag** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **to** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **toSide** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **variant** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **yOffset** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **maximum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- *... and 17 more nodes in this community*
+- **nl()** (20 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **uc()** (18 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **lc()** (16 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **Pd()** (14 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **Di()** (11 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **hh()** (9 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **yh()** (9 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **jd()** (8 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **l()** (8 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **ec()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **It()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **mh()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **qs()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **s()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **sc()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **Ei()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **fh()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **nc()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **oc()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **ph()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **Sh()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **bh()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **bs()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **dh()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **Ih()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [[Community 125]] (3 shared connections)
-- [[Community 247]] (1 shared connections)
-- [[Community 263]] (1 shared connections)
-- [[Community 248]] (1 shared connections)
-- [[Community 264]] (1 shared connections)
-- [[Community 249]] (1 shared connections)
-- [[Community 265]] (1 shared connections)
-- [[Community 223]] (1 shared connections)
-- [[Community 224]] (1 shared connections)
+- [[Price Presentation & Product UI]] (48 shared connections)
+- [[Master Codebase Architecture Reference]] (21 shared connections)
+- [[Architecture Doc Generator]] (17 shared connections)
+- [[Dependencies & Package Config]] (12 shared connections)
+- [[Community 64]] (9 shared connections)
+- [[Product Requirements Documentation]] (7 shared connections)
+- [[Community 30]] (6 shared connections)
+- [[Community 33]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `android/app/src/main/assets/public/assets/index-CPb6hema.js`
 
 ## Audit Trail
 
-- EXTRACTED: 93 (100%)
+- EXTRACTED: 267 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

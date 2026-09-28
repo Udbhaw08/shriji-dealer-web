@@ -34,14 +34,14 @@
 ## Relationships
 
 - [[Graphify Agent Rules]] (63 shared connections)
-- [[Architecture Doc Generator]] (45 shared connections)
+- [[Roles & Customer Sharing Spec]] (45 shared connections)
 - [[Product Brand & Business Vision]] (35 shared connections)
-- [[Community 30]] (33 shared connections)
-- [[Community 64]] (31 shared connections)
+- [[Graphify Workflow]] (33 shared connections)
+- [[Community 63]] (31 shared connections)
 - [[Design System & UI Tokens]] (8 shared connections)
 - [[Live Pricing Audit Tool]] (6 shared connections)
-- [[Community 79]] (4 shared connections)
-- [[Community 172]] (3 shared connections)
+- [[Community 80]] (4 shared connections)
+- [[Community 173]] (3 shared connections)
 
 ## Source Files
 

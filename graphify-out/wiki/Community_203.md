@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **automatic-port-spread.test.mjs** (5 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
-- **connectionPoints()** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
-- **fanOutArchitecture()** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- **Shriji Zoho Integration Skill** (5 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
+- **API Endpoints Reference** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
+- **Key Files & Architecture** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
+- **Pricing & Rate Priority** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
+- **Validation & Audit Commands** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- `.agents/skills/shriji-zoho-integration/SKILL.md`
 
 ## Audit Trail
 

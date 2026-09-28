@@ -1,34 +1,36 @@
 # Community 106
 
-> 12 nodes · cohesion 0.21
+> 12 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **guidedViews** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **cards** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **additionalProperties** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **required** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **favoritesStore.js** (18 connections) — `src/data/favoritesStore.js`
+- **persist()** (5 connections) — `src/data/favoritesStore.js`
+- **addFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **isFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **removeFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **toggleFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **clearFavorites()** (2 connections) — `src/data/favoritesStore.js`
+- **notify()** (2 connections) — `src/data/favoritesStore.js`
+- **favoritesState** (1 connections) — `src/data/favoritesStore.js`
+- **getFavorites()** (1 connections) — `src/data/favoritesStore.js`
+- **listeners** (1 connections) — `src/data/favoritesStore.js`
+- **loadFromStorage()** (1 connections) — `src/data/favoritesStore.js`
 
 ## Relationships
 
-- [[Community 114]] (3 shared connections)
-- [[Community 59]] (2 shared connections)
+- [[Community 35]] (4 shared connections)
+- [[Community 42]] (3 shared connections)
+- [[Community 92]] (1 shared connections)
+- [[Community 44]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `src/data/favoritesStore.js`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (100%)
+- EXTRACTED: 43 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

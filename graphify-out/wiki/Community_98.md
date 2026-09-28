@@ -1,39 +1,38 @@
 # Community 98
 
-> 13 nodes · cohesion 0.27
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **fail()** (15 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **usage()** (11 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **runNode()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandDemo()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **exitFrom()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandBrands()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandExamples()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandVisualCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandDoctor()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractMigrationOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandGuide()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **listBrandMarks()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **workflow-migration.test.mjs** (22 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **copyFixture()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **explicitPinConflictWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **fixture** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **heightConstrainedWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **parseJsonOutput()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **profileDivergenceWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **runMigration()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **runValidation()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
 
 ## Relationships
 
-- [[Community 38]] (27 shared connections)
-- [[Oxlint Linter Configuration]] (3 shared connections)
-- [[Community 173]] (3 shared connections)
-- [[Community 39]] (2 shared connections)
+- [[Community 173]] (5 shared connections)
+- [[Community 93]] (3 shared connections)
+- [[Community 63]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- `.agents/skills/archify/test/workflow-migration.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 73 (95%)
-- INFERRED: 4 (5%)
+- EXTRACTED: 35 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -33,17 +33,17 @@
 
 ## Relationships
 
-- [[Architecture Doc Generator]] (11 shared connections)
-- [[Community 30]] (10 shared connections)
+- [[Roles & Customer Sharing Spec]] (11 shared connections)
+- [[Graphify Workflow]] (10 shared connections)
 - [[Graphify Agent Rules]] (9 shared connections)
-- [[Community 64]] (8 shared connections)
+- [[Community 63]] (8 shared connections)
 - [[Zoho Backend & Proxy Endpoints]] (8 shared connections)
-- [[Community 79]] (7 shared connections)
+- [[Community 80]] (7 shared connections)
 - [[Oxlint Linter Configuration]] (6 shared connections)
 - [[Community 109]] (6 shared connections)
 - [[Product Brand & Business Vision]] (5 shared connections)
-- [[Community 77]] (4 shared connections)
-- [[Community 92]] (4 shared connections)
+- [[Community 78]] (4 shared connections)
+- [[Community 93]] (4 shared connections)
 - [[Community 129]] (3 shared connections)
 
 ## Source Files

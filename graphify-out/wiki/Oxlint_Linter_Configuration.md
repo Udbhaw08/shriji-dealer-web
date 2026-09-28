@@ -33,14 +33,14 @@
 
 ## Relationships
 
-- [[Architecture Doc Generator]] (7 shared connections)
+- [[Roles & Customer Sharing Spec]] (7 shared connections)
 - [[Design System & UI Tokens]] (6 shared connections)
-- [[Community 98]] (3 shared connections)
+- [[Community 99]] (3 shared connections)
 - [[Graphify Agent Rules]] (3 shared connections)
 - [[Product Brand & Business Vision]] (1 shared connections)
-- [[Community 30]] (1 shared connections)
-- [[Community 79]] (1 shared connections)
-- [[Community 64]] (1 shared connections)
+- [[Graphify Workflow]] (1 shared connections)
+- [[Community 80]] (1 shared connections)
+- [[Community 63]] (1 shared connections)
 
 ## Source Files
 
