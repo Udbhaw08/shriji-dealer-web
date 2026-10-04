@@ -1,45 +1,29 @@
 import { useSyncExternalStore } from "react";
 import { isDealer, tierOf, registerDealer } from "./dealer";
-import { apiFetch, apiUrl } from "./api";
+import {
+  initTokens, hasSession, fetchMe, logout as authLogout, sessionFromAuth,
+} from "./auth";
 
 export { isDealer, tierOf };
 
 /* Who is looking at the screen.
  *
  * ponytail: a tiny external store instead of a context provider — no wrapper in
- * main.jsx, and `useSession()` works from any component. localStorage keeps the
- * demo alive across reloads.
+ * main.jsx, and `useSession()` works from any component.
  *
- * THIS IS DEMO AUTHENTICATION. It proves the flow, not the security. The real
- * rule is server-side and non-negotiable: dealer pricing is returned only to a
- * request carrying an approved dealer's session. A client-side role check is a
- * UI convenience, never the thing that protects a price. See docs/ROLES-AND-SHARING.md.
+ * REAL AUTHENTICATION (backend service): the session mirrors the backend's
+ * /api/auth/me — JWT access token in memory, refresh token in secure storage
+ * (src/data/auth.js). Dealer approval status always comes from the server via
+ * CRM. A client-side role check is a UI convenience, never the thing that
+ * protects a price. See docs/BACKEND-ARCHITECTURE.md and docs/ROLES-AND-SHARING.md.
  */
-
-const KEY = "shriji.session";
 
 export const GUEST = { role: "guest" };
 
-function load() {
-  try {
-    const s = JSON.parse(localStorage.getItem(KEY)) || GUEST;
-    if (s.dealer) registerDealer(s.dealer);
-    return s;
-  } catch {
-    return GUEST;
-  }
-}
-
-let state = load();
+let state = GUEST;
 const subs = new Set();
 
 function emit() {
-  try {
-    if (state.role === "guest") localStorage.removeItem(KEY);
-    else localStorage.setItem(KEY, JSON.stringify(state));
-  } catch {
-    /* private mode — the session just does not survive a reload */
-  }
   for (const fn of subs) fn();
 }
 
@@ -49,32 +33,34 @@ export function setSession(next) {
   emit();
 }
 
-export function signOut() {
+export async function signOut() {
+  await authLogout().catch(() => {});
   setSession(GUEST);
 }
 
-export function revalidateSession() {
-  const current = state;
-  const id = current?.dealerId || current?.dealer?.id;
-  if (!id) return;
-
-  apiFetch(`/api/dealer/info?id=${encodeURIComponent(id)}`)
-    .then((r) => r.json())
-    .then((data) => {
-      if (data.ok && data.dealer) {
-        setSession({
-          role: "dealer",
-          status: data.dealer.status, // "approved" or "pending"
-          dealerId: data.dealer.id,
-          dealer: data.dealer,
-          shop: data.dealer.name,
-          person: data.dealer.person,
-          phone: data.dealer.phone,
-          city: data.dealer.city,
-        });
-      }
-    })
-    .catch(() => {});
+/**
+ * Re-validate against the backend: who am I, and is my dealer approved yet?
+ * This is also the pending-approval poll — call it on a timer from the UI.
+ */
+export async function revalidateSession() {
+  if (!hasSession()) {
+    if (state !== GUEST) setSession(GUEST);
+    return null;
+  }
+  try {
+    const data = await fetchMe();
+    if (!data || !data.user) {
+      // token dead and refresh failed — back to guest
+      await authLogout().catch(() => {});
+      setSession(GUEST);
+      return null;
+    }
+    const next = sessionFromAuth(data.user, data.dealer);
+    setSession(next);
+    return next;
+  } catch {
+    return state; // offline — keep showing what we have
+  }
 }
 
 export function useSession() {
@@ -88,8 +74,7 @@ export function useSession() {
   );
 }
 
-// Automatically sync latest status & pricebook from Zoho on startup
+// Restore tokens from secure storage and hydrate the session on startup
 if (typeof window !== "undefined") {
-  revalidateSession();
+  initTokens().then(revalidateSession);
 }
-

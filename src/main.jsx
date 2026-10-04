@@ -12,6 +12,7 @@ import Favorites from "./pages/Favorites";
 import Schemes from "./pages/Schemes";
 import Support from "./pages/Support";
 import Login from "./pages/Login";
+import DealerDashboard from "./pages/DealerDashboard";
 import { useSession } from "./data/session";
 import { isPortalGated } from "./data/portalGate";
 import NativeBackHandler from "./components/NativeBackHandler";
@@ -125,6 +126,14 @@ createRoot(document.getElementById("root")).render(
             />
             <Route path="/support" element={<Support />} />
             <Route path="/login" element={<Login />} />
+            <Route
+              path="/dealer"
+              element={
+                <RequireVerifiedDealer>
+                  <DealerDashboard />
+                </RequireVerifiedDealer>
+              }
+            />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </main>
