@@ -1,30 +1,34 @@
 # Community 157
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **preset-tryon.test.mjs** (7 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **presetRuntime()** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **svgBlock()** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
+- **commandCompare()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commitComparePair()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractCompareOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **formatDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportCompareFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **compareCommitError()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **compareReceiptPath()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Agent Guidelines (AGENTS.md)]] (11 shared connections)
+- [[Community 63]] (4 shared connections)
+- [[Community 81]] (3 shared connections)
+- [[Community 44]] (2 shared connections)
+- [[Community 33]] (2 shared connections)
+- [[Community 57]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/preset-tryon.test.mjs`
+- `.agents/skills/archify/bin/archify.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 27 (75%)
+- INFERRED: 9 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

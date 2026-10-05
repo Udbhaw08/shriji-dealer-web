@@ -1,52 +1,47 @@
 # Community 51
 
-> 24 nodes · cohesion 0.14
+> 19 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **intent-trace-browser.test.mjs** (15 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **semantic-lens-browser.test.mjs** (14 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **desktop-browser.mjs** (8 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
-- **run()** (6 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **run()** (6 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **desktopBrowser()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
-- **desktopPointerCheck()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **point()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **point()** (4 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **media()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **move()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **move()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **afterTimer()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **hash()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **render-sequence.mjs** (67 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **arrowClassMap** (6 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **componentFill** (5 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **messageGeometry()** (4 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **messageLabelBox()** (4 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **messageRouteBox()** (2 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **arrowClass** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **compositionFrames** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **layout** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **LEGEND_CATALOG** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **messagePath()** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **participantCount** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **participants** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **participantTextFit** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **participantX()** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **renderActivation()** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **renderLifeline()** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **renderSegment()** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
 
 ## Relationships
 
-- [[Community 43]] (11 shared connections)
-- [[Community 39]] (3 shared connections)
-- [[Community 102]] (3 shared connections)
-- [[Community 103]] (3 shared connections)
-- [[Community 91]] (2 shared connections)
-- [[Community 65]] (1 shared connections)
+- [[Price Presentation & Product UI]] (21 shared connections)
+- [[Design System & UI Tokens]] (18 shared connections)
+- [[Product Brand & Business Vision]] (10 shared connections)
+- [[Product Requirements Documentation]] (7 shared connections)
+- [[Master Codebase Architecture Reference]] (2 shared connections)
+- [[Community 31]] (2 shared connections)
+- [[Community 38]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/helpers/desktop-browser.mjs`
-- `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- `.agents/skills/archify/renderers/shared/geometry.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 103 (100%)
+- EXTRACTED: 101 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

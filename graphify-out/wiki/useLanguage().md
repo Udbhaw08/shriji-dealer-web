@@ -2,7 +2,7 @@
 
 > God node · 32 connections · `src/data/i18n.js`
 
-**Community:** [[Community 42]]
+**Community:** [[Dependencies & Package Config]]
 
 ## Connections by Relation
 
@@ -30,13 +30,13 @@
 - [[i18n.js]] `EXTRACTED`
 
 ### imports
+- [[Login.jsx]] `EXTRACTED`
 - [[ui.jsx]] `EXTRACTED`
 - [[Product.jsx]] `EXTRACTED`
 - [[Products.jsx]] `EXTRACTED`
 - [[Home.jsx]] `EXTRACTED`
 - [[Favorites.jsx]] `EXTRACTED`
 - [[ProductCard.jsx]] `EXTRACTED`
-- [[Login.jsx]] `EXTRACTED`
 - [[MobileBottomNav.jsx]] `EXTRACTED`
 - [[PriceBlock.jsx]] `EXTRACTED`
 - [[ProductSearchBar.jsx]] `EXTRACTED`

@@ -1,17 +1,16 @@
 # Community 172
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **story-shelf.test.mjs** (7 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **semantic-lens.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
 
 ## Relationships
 
@@ -19,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/story-shelf.test.mjs`
+- `.agents/skills/archify/test/semantic-lens.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

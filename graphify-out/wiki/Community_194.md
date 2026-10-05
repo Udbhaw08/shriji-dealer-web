@@ -1,16 +1,14 @@
 # Community 194
 
-> 7 nodes · cohesion 0.29
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **story-beat-navigator.test.mjs** (6 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
+- **Agent Operating Guidelines & Zero-Token Context Strategy** (3 connections) — `GEMINI.md`
+- **Shriji Domestic Appliances — Sunshine Dealer Web** (2 connections) — `GEMINI.md`
+- **GEMINI.md** (1 connections) — `GEMINI.md`
+- **Mandatory Context Rule: Knowledge Graph First** (1 connections) — `GEMINI.md`
+- **Project Hard Rules** (1 connections) — `GEMINI.md`
 
 ## Relationships
 
@@ -18,11 +16,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/story-beat-navigator.test.mjs`
+- `GEMINI.md`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

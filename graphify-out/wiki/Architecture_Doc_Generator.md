@@ -1,56 +1,55 @@
 # Architecture Doc Generator
 
-> 49 nodes · cohesion 0.07
+> 39 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **i()** (70 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **n()** (24 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **t()** (24 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **ki()** (13 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **a()** (12 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **os()** (12 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **r()** (11 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **cs()** (9 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **Mp()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **ps()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **dc()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **es()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **hs()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **ms()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **Qo()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **si()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **ss()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **te()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **x()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **ys()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **as()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **fs()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **gs()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **hm()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **ls()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- *... and 24 more nodes in this community*
+- **offline-font-browser.test.mjs** (13 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
+- **cli.test.mjs** (11 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **offline-self-containment.test.mjs** (9 connections) — `.agents/skills/archify/test/offline-self-containment.test.mjs`
+- **generated-artifact-xml.test.mjs** (8 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
+- **offline-fonts.mjs** (7 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **inspectDocuments()** (5 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **xml.mjs** (5 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
+- **assertFontCss()** (4 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **assertOfflineArtifact()** (4 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **extractSvgs()** (4 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
+- **parseXml()** (3 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
+- **visit()** (3 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
+- **evaluate()** (2 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
+- **exported()** (2 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
+- **EXPECTED_FACES** (1 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **FONT_LICENSE** (1 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **copyInstalledSkill()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **makeFakeOpeners()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **artifactRoots** (1 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (54 shared connections)
-- [[Master Codebase Architecture Reference]] (24 shared connections)
-- [[Product Requirements Documentation]] (23 shared connections)
-- [[Dependencies & Package Config]] (22 shared connections)
-- [[Claude Agent Instructions]] (17 shared connections)
-- [[Community 64]] (12 shared connections)
-- [[Community 30]] (8 shared connections)
-- [[Community 33]] (6 shared connections)
-- [[Community 118]] (3 shared connections)
+- [[Pricing & Roles Skill]] (1 shared connections)
+- [[Community 89]] (1 shared connections)
+- [[Community 69]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- `.agents/skills/archify/test/cli.test.mjs`
+- `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
+- `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- `.agents/skills/archify/test/helpers/xml.mjs`
+- `.agents/skills/archify/test/offline-font-browser.test.mjs`
+- `.agents/skills/archify/test/offline-self-containment.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 343 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 103 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

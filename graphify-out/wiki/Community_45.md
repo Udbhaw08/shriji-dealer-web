@@ -1,56 +1,41 @@
 # Community 45
 
-> 26 nodes · cohesion 0.14
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **session.js** (26 connections) — `src/data/session.js`
-- **productsStore.js** (19 connections) — `src/data/productsStore.js`
-- **Login.jsx** (18 connections) — `src/pages/Login.jsx`
-- **apiFetch()** (8 connections) — `src/data/api.js`
-- **apiUrl()** (8 connections) — `src/data/api.js`
-- **api.js** (6 connections) — `src/data/api.js`
-- **registerDealer()** (6 connections) — `src/data/dealer.js`
-- **setSession()** (5 connections) — `src/data/session.js`
-- **fetchLiveProducts()** (4 connections) — `src/data/productsStore.js`
-- **products.js** (3 connections) — `src/data/products.js`
-- **revalidateSession()** (3 connections) — `src/data/session.js`
-- **signOut()** (3 connections) — `src/data/session.js`
-- **CATEGORIES** (2 connections) — `src/data/products.js`
-- **emit()** (2 connections) — `src/data/productsStore.js`
-- **loadCached()** (2 connections) — `src/data/productsStore.js`
-- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
-- **useProduct()** (2 connections) — `src/data/productsStore.js`
-- **emit()** (2 connections) — `src/data/session.js`
-- **load()** (2 connections) — `src/data/session.js`
-- **PRODUCTS** (1 connections) — `src/data/products.js`
-- **listeners** (1 connections) — `src/data/productsStore.js`
-- **PREFERRED_ORDER** (1 connections) — `src/data/productsStore.js`
-- **storeState** (1 connections) — `src/data/productsStore.js`
-- **GUEST** (1 connections) — `src/data/session.js`
-- **state** (1 connections) — `src/data/session.js`
-- *... and 1 more nodes in this community*
+- **PRODUCT-PAGES.md — listing, detail, and dealer pricing** (9 connections) — `docs/PRODUCT-PAGES.md`
+- **4. Product listing — `/products`, `src/pages/Products.jsx`** (6 connections) — `docs/PRODUCT-PAGES.md`
+- **6. Product detail — `/products/:id`, `src/pages/Product.jsx`** (6 connections) — `docs/PRODUCT-PAGES.md`
+- **PRODUCT-PAGES.md** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **1. Price visibility — the rule everything else follows** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **2. The pricing module — `src/data/dealer.js`** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **3. `<PriceBlock>` — `src/components/PriceBlock.jsx`** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **5. Product card — `src/components/ProductCard.jsx`** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **7. What is deliberately not here** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **8. Files touched on 2026-09-20** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Below the whole grid** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Filters and facets** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Left column** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Pagination** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Responsive behaviour** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Right column** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Share with Customer** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Sort** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Structure** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Tabs** (1 connections) — `docs/PRODUCT-PAGES.md`
 
 ## Relationships
 
-- [[Community 35]] (16 shared connections)
-- [[Community 44]] (8 shared connections)
-- [[Community 42]] (8 shared connections)
-- [[Community 92]] (5 shared connections)
-- [[Community 119]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/data/api.js`
-- `src/data/dealer.js`
-- `src/data/products.js`
-- `src/data/productsStore.js`
-- `src/data/session.js`
-- `src/pages/Login.jsx`
+- `docs/PRODUCT-PAGES.md`
 
 ## Audit Trail
 
-- EXTRACTED: 130 (100%)
+- EXTRACTED: 38 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

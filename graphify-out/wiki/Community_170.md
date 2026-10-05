@@ -1,17 +1,16 @@
 # Community 170
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **story-follow-camera.test.mjs** (7 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
+- **semantic-camera.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
+- **svg()** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
 
 ## Relationships
 
@@ -19,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/story-follow-camera.test.mjs`
+- `.agents/skills/archify/test/semantic-camera.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

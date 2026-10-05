@@ -1,45 +1,41 @@
 # Community 71
 
-> 19 nodes · cohesion 0.13
+> 14 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **sl()** (10 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Cu()** (9 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Sp()** (8 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Bo()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **ba()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Iu()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **kl()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Ou()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **rl()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **gm()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **il()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **ol()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **wl()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Cp()** (3 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **pl()** (3 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **ya()** (3 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **al()** (2 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **_m()** (2 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Su()** (2 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **intent-trace-browser.test.mjs** (15 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **desktop-browser.mjs** (8 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **desktopBrowser()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **desktopPointerCheck()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **afterTimer()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (19 shared connections)
-- [[Zoho Integration Architecture]] (7 shared connections)
-- [[Pricing Regression Test Suite]] (7 shared connections)
-- [[Community 31]] (6 shared connections)
-- [[Project Readme & Layout]] (3 shared connections)
-- [[Community 29]] (3 shared connections)
+- [[Community 32]] (9 shared connections)
+- [[Community 85]] (3 shared connections)
+- [[Community 86]] (3 shared connections)
+- [[Pricing & Roles Skill]] (2 shared connections)
+- [[Community 89]] (1 shared connections)
+- [[Community 69]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CPb6hema.js`
+- `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- `.agents/skills/archify/test/intent-trace-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 89 (100%)
+- EXTRACTED: 63 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

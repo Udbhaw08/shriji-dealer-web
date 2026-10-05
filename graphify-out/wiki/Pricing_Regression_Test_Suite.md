@@ -1,55 +1,54 @@
 # Pricing Regression Test Suite
 
-> 54 nodes · cohesion 0.08
+> 47 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **get()** (23 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **np()** (21 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **b()** (19 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **.addEventListener()** (18 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Au()** (16 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **h()** (14 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **fp()** (13 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **.removeEventListener()** (13 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **bm()** (12 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **sn()** (11 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **am()** (9 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **tp()** (9 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **cm()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **ju()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **lp()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **mm()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **tm()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **zm()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **zt()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **em()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **.blur()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **.scrollIntoView()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **jm()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **nm()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **om()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- *... and 29 more nodes in this community*
+- **Login.jsx** (41 connections) — `src/pages/Login.jsx`
+- **session.js** (31 connections) — `src/data/session.js`
+- **auth.js** (27 connections) — `src/data/auth.js`
+- **callBackend()** (14 connections) — `src/data/auth.js`
+- **json()** (14 connections) — `src/data/auth.js`
+- **DealerDashboard.jsx** (12 connections) — `src/pages/DealerDashboard.jsx`
+- **revalidateSession()** (8 connections) — `src/data/session.js`
+- **requestOtp()** (7 connections) — `src/data/auth.js`
+- **applyAuthResponse()** (6 connections) — `src/data/auth.js`
+- **login()** (6 connections) — `src/data/auth.js`
+- **verifyOtp()** (6 connections) — `src/data/auth.js`
+- **setSession()** (6 connections) — `src/data/session.js`
+- **applyAsDealer()** (5 connections) — `src/data/auth.js`
+- **fetchMe()** (5 connections) — `src/data/auth.js`
+- **logout()** (5 connections) — `src/data/auth.js`
+- **signup()** (5 connections) — `src/data/auth.js`
+- **staffSignup()** (5 connections) — `src/data/auth.js`
+- **persistTokens()** (4 connections) — `src/data/auth.js`
+- **staffApprove()** (4 connections) — `src/data/auth.js`
+- **staffInvite()** (4 connections) — `src/data/auth.js`
+- **staffList()** (4 connections) — `src/data/auth.js`
+- **staffRevoke()** (4 connections) — `src/data/auth.js`
+- **signOut()** (4 connections) — `src/data/session.js`
+- **hasSession()** (3 connections) — `src/data/auth.js`
+- **initTokens()** (3 connections) — `src/data/auth.js`
+- *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (55 shared connections)
-- [[Project Readme & Layout]] (19 shared connections)
-- [[Product Pages Specification]] (19 shared connections)
-- [[Community 31]] (16 shared connections)
-- [[Zoho Integration Architecture]] (12 shared connections)
-- [[Community 38]] (9 shared connections)
-- [[Community 71]] (7 shared connections)
-- [[Community 29]] (4 shared connections)
-- [[Community 52]] (2 shared connections)
+- [[Dependencies & Package Config]] (24 shared connections)
+- [[Community 66]] (14 shared connections)
+- [[Graphify Knowledge Graph Skill]] (8 shared connections)
+- [[Community 70]] (1 shared connections)
+- [[Community 98]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CPb6hema.js`
+- `src/data/auth.js`
+- `src/data/session.js`
+- `src/pages/DealerDashboard.jsx`
+- `src/pages/Login.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 369 (100%)
+- EXTRACTED: 272 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

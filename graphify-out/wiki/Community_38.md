@@ -1,55 +1,54 @@
 # Community 38
 
-> 32 nodes · cohesion 0.11
+> 24 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **n()** (24 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **t()** (24 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **os()** (12 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **r()** (11 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **cs()** (9 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **ps()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **dc()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **es()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **hs()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **ms()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Qo()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **ss()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **te()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **x()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **ys()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **as()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **fs()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **gs()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **ls()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **vs()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **xs()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **ne()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **ws()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **eo()** (3 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Md()** (3 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- *... and 7 more nodes in this community*
+- **brand-marks.mjs** (51 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **captureRemoteBrand()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **captureBrandReference()** (6 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **findBrandMark()** (5 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **checkedFetch()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **resolveRequestTarget()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **asUrl()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **iconCandidates()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **imageData()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **lookupForms()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **readLimited()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **validateUrlShape()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **attribute()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **beforeDeadline()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **domainMark()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **remoteBrand()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **requestPinned()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **suggestions()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **COLLECTIONS** (1 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **MARK_BY_DOMAIN** (1 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **MARK_BY_LOOKUP** (1 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **RESOLVED_BY_NODE** (1 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **RESOLVED_MARK** (1 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **timeoutSignal()** (1 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (37 shared connections)
-- [[Zoho Integration Architecture]] (15 shared connections)
-- [[Project Readme & Layout]] (15 shared connections)
-- [[Pricing Regression Test Suite]] (9 shared connections)
-- [[Product Pages Specification]] (8 shared connections)
-- [[Community 52]] (7 shared connections)
-- [[Community 31]] (2 shared connections)
-- [[Community 29]] (1 shared connections)
+- [[Design System & UI Tokens]] (7 shared connections)
+- [[Community 64]] (6 shared connections)
+- [[Product Brand & Business Vision]] (5 shared connections)
+- [[Community 81]] (3 shared connections)
+- [[Product Requirements Documentation]] (3 shared connections)
+- [[Price Presentation & Product UI]] (2 shared connections)
+- [[Master Codebase Architecture Reference]] (1 shared connections)
+- [[Community 31]] (1 shared connections)
+- [[Community 51]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CPb6hema.js`
+- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 200 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 112 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

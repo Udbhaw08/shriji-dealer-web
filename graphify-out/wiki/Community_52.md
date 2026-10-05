@@ -1,51 +1,40 @@
 # Community 52
 
-> 24 nodes · cohesion 0.13
+> 19 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **lc()** (16 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **kc()** (9 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **fc()** (8 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Gc()** (8 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **jd()** (8 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **ea()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **ec()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **sc()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Ei()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **lh()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **nc()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **oc()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **dh()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **rs()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Ti()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **go()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **ja()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **ns()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **pc()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **vo()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **yt()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **cc()** (3 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **If()** (3 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **tc()** (3 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **golden.mjs** (18 connections) — `.agents/skills/archify/test/golden.mjs`
+- **expectFailure()** (3 connections) — `.agents/skills/archify/test/golden.mjs`
+- **check()** (2 connections) — `.agents/skills/archify/test/golden.mjs`
+- **render()** (2 connections) — `.agents/skills/archify/test/golden.mjs`
+- **blocks()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **GOLDEN** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **landingPage** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **landingVersions** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **lock** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **normalizeNewlines()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **pkg** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **shieldsBadgeMessages()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **skillMd** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **webApp** (1 connections) — `.agents/skills/archify/test/golden.mjs`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (30 shared connections)
-- [[Zoho Integration Architecture]] (17 shared connections)
-- [[Project Readme & Layout]] (9 shared connections)
-- [[Community 38]] (7 shared connections)
-- [[Pricing Regression Test Suite]] (2 shared connections)
-- [[Community 31]] (2 shared connections)
-- [[Product Pages Specification]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CPb6hema.js`
+- `.agents/skills/archify/test/golden.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 142 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

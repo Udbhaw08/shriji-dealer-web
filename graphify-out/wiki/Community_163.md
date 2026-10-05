@@ -1,17 +1,16 @@
 # Community 163
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **route-share-card.test.mjs** (7 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
+- **finder.test.mjs** (6 connections) — `.agents/skills/archify/test/finder.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
+- **svg()** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
 
 ## Relationships
 
@@ -19,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/route-share-card.test.mjs`
+- `.agents/skills/archify/test/finder.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

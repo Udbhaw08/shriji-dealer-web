@@ -1,55 +1,48 @@
 # Community 30
 
-> 34 nodes · cohesion 0.11
+> 26 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **Z()** (23 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **xl()** (12 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **yi()** (12 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **delete()** (11 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **hu()** (11 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **ql()** (10 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **vu()** (10 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **pu()** (8 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **gf()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **gt()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **jl()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **Zl()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **Lu()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **mu()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **Nd()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **zu()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **Ma()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **ru()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **tl()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **_u()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **vf()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **cl()** (4 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **eu()** (4 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **tu()** (4 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **Uu()** (4 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- *... and 9 more nodes in this community*
+- **workflow-compiler.test.mjs** (27 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **assertReadableAdjacentResult()** (6 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **attribute()** (4 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **numericRect()** (4 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **edgeLabelRect()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **edgePoints()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **nodeRect()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **svgViewBox()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **asciiGroupLabelTextRect()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **assertRectInsideViewBox()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **compileSuccessfully()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **groupFrameRect()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **adjacentWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **asciiLaneHeaderTextRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **assertRectInsideRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **attributeOrUndefined()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **clone()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **legendGeometry()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **orthogonalSegmentIntersectsRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **readJson()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **rectsOverlap()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (39 shared connections)
-- [[Product Requirements Documentation]] (16 shared connections)
-- [[Architecture Doc Generator]] (8 shared connections)
-- [[Master Codebase Architecture Reference]] (7 shared connections)
-- [[Claude Agent Instructions]] (6 shared connections)
-- [[Dependencies & Package Config]] (5 shared connections)
-- [[Community 33]] (4 shared connections)
-- [[Community 118]] (3 shared connections)
-- [[Community 64]] (2 shared connections)
+- [[Community 72]] (2 shared connections)
+- [[Product Requirements Documentation]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- `.agents/skills/archify/test/workflow-compiler.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 216 (100%)
+- EXTRACTED: 75 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

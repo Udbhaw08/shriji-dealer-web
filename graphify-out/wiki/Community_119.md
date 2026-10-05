@@ -1,36 +1,30 @@
 # Community 119
 
-> 10 nodes · cohesion 0.27
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **i18n.js** (25 connections) — `src/data/i18n.js`
-- **setLanguage()** (3 connections) — `src/data/i18n.js`
-- **emit()** (2 connections) — `src/data/i18n.js`
-- **toggleLanguage()** (2 connections) — `src/data/i18n.js`
-- **translations.js** (2 connections) — `src/data/translations.js`
-- **TRANSLATIONS** (2 connections) — `src/data/translations.js`
-- **currentLang** (1 connections) — `src/data/i18n.js`
-- **getInitialLang()** (1 connections) — `src/data/i18n.js`
-- **getLanguage()** (1 connections) — `src/data/i18n.js`
-- **listeners** (1 connections) — `src/data/i18n.js`
+- **Backend Build Plan — Shriji Dealer Web** (8 connections) — `.zcode/plans/plan-sess_d749a0f7-b4fd-4736-a57d-4aeb4776a331.md`
+- **plan-sess_d749a0f7-b4fd-4736-a57d-4aeb4776a331.md** (1 connections) — `.zcode/plans/plan-sess_d749a0f7-b4fd-4736-a57d-4aeb4776a331.md`
+- **Architecture Decision (final)** (1 connections) — `.zcode/plans/plan-sess_d749a0f7-b4fd-4736-a57d-4aeb4776a331.md`
+- **Guardrails throughout** (1 connections) — `.zcode/plans/plan-sess_d749a0f7-b4fd-4736-a57d-4aeb4776a331.md`
+- **Phase 0 — Docs First (aapka step: pehle docs, phir plan)** (1 connections) — `.zcode/plans/plan-sess_d749a0f7-b4fd-4736-a57d-4aeb4776a331.md`
+- **Phase 1 — Backend Build (`backend/`)** (1 connections) — `.zcode/plans/plan-sess_d749a0f7-b4fd-4736-a57d-4aeb4776a331.md`
+- **Phase 2 — Testing** (1 connections) — `.zcode/plans/plan-sess_d749a0f7-b4fd-4736-a57d-4aeb4776a331.md`
+- **Phase 3 — Frontend Integration** (1 connections) — `.zcode/plans/plan-sess_d749a0f7-b4fd-4736-a57d-4aeb4776a331.md`
+- **Phase 4 — Zoho Wiring (live)** (1 connections) — `.zcode/plans/plan-sess_d749a0f7-b4fd-4736-a57d-4aeb4776a331.md`
 
 ## Relationships
 
-- [[Community 44]] (5 shared connections)
-- [[Community 42]] (4 shared connections)
-- [[Community 35]] (4 shared connections)
-- [[Community 92]] (2 shared connections)
-- [[Community 45]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/data/i18n.js`
-- `src/data/translations.js`
+- `.zcode/plans/plan-sess_d749a0f7-b4fd-4736-a57d-4aeb4776a331.md`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

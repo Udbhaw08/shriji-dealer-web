@@ -1,33 +1,29 @@
 # Community 150
 
-> 9 nodes · cohesion 0.25
+> 8 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **repository-evidence.test.mjs** (13 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **fixture()** (2 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **git()** (2 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **evidencePayload()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **waitForState()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **stable-update-manifest.test.mjs** (7 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **annotatedTaggerTime()** (2 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **git()** (2 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **checker** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **runCheck()** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **writeJson()** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
 
 ## Relationships
 
-- [[Community 50]] (2 shared connections)
-- [[Community 39]] (1 shared connections)
-- [[Community 65]] (1 shared connections)
-- [[Community 91]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/repository-evidence.test.mjs`
+- `.agents/skills/archify/test/stable-update-manifest.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

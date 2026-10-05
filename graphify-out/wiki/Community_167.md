@@ -1,25 +1,24 @@
 # Community 167
 
-> 8 nodes · cohesion 0.29
+> 7 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **stable-update-manifest.test.mjs** (7 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **annotatedTaggerTime()** (2 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **git()** (2 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **checker** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **runCheck()** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **writeJson()** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **preview.test.mjs** (8 connections) — `.agents/skills/archify/test/preview.test.mjs`
+- **stateAt()** (2 connections) — `.agents/skills/archify/test/preview.test.mjs`
+- **waitForState()** (2 connections) — `.agents/skills/archify/test/preview.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
+- **rawRequest()** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 35]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- `.agents/skills/archify/test/preview.test.mjs`
 
 ## Audit Trail
 

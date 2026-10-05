@@ -1,18 +1,17 @@
 # Community 139
 
-> 9 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Archify JSON IR Schemas** (7 connections) — `.agents/skills/archify/schemas/README.md`
-- **Files** (2 connections) — `.agents/skills/archify/schemas/README.md`
-- **README.md** (1 connections) — `.agents/skills/archify/schemas/README.md`
-- **Error format** (1 connections) — `.agents/skills/archify/schemas/README.md`
-- **Legend presentation contract** (1 connections) — `.agents/skills/archify/schemas/README.md`
-- **Runtime validation** (1 connections) — `.agents/skills/archify/schemas/README.md`
-- **schema_version policy** (1 connections) — `.agents/skills/archify/schemas/README.md`
-- **Shared definitions (common.schema.json)** (1 connections) — `.agents/skills/archify/schemas/README.md`
-- **Visual quality and engineering truth** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **landing.test.mjs** (7 connections) — `.agents/skills/archify/test/landing.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
+- **docsRoot** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
+- **landing** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
+- **manifest** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
+- **proofs** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
 
 ## Relationships
 
@@ -20,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/README.md`
+- `.agents/skills/archify/test/landing.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

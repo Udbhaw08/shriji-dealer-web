@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **web-CCRxgSRk.js** (8 connections) — `android/app/src/main/assets/public/assets/web-CCRxgSRk.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-CCRxgSRk.js`
-- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-CCRxgSRk.js`
-- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-CCRxgSRk.js`
-- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-CCRxgSRk.js`
-- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-CCRxgSRk.js`
-- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-CCRxgSRk.js`
-- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-CCRxgSRk.js`
-- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-CCRxgSRk.js`
+- **vertical-edge.test.mjs** (8 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **bin** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **edgePath()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **REPRO** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **segments()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/web-CCRxgSRk.js`
+- `.agents/skills/archify/test/vertical-edge.test.mjs`
 
 ## Audit Trail
 

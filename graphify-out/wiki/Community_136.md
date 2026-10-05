@@ -1,26 +1,25 @@
 # Community 136
 
-> 9 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **web-CCRxgSRk.js** (8 connections) — `ios/App/App/public/assets/web-CCRxgSRk.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-CCRxgSRk.js`
-- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-CCRxgSRk.js`
-- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-CCRxgSRk.js`
-- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-CCRxgSRk.js`
-- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-CCRxgSRk.js`
-- **getState()** (1 connections) — `ios/App/App/public/assets/web-CCRxgSRk.js`
-- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-CCRxgSRk.js`
-- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-CCRxgSRk.js`
+- **wraps** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **via** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Testing & Workflow Skill]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-CCRxgSRk.js`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 

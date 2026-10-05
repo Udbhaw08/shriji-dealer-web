@@ -4,25 +4,26 @@
 
 ## Key Concepts
 
-- **dataflow.schema.json** (7 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$id** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$schema** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **title** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **settled-flow.test.mjs** (8 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
 
 ## Relationships
 
-- [[Community 85]] (1 shared connections)
+- [[Product Brand & Business Vision]] (1 shared connections)
+- [[Design System & UI Tokens]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `.agents/skills/archify/test/settled-flow.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

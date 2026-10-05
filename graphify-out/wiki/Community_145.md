@@ -1,18 +1,17 @@
 # Community 145
 
-> 9 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **authored-reachability.test.mjs** (8 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **reachabilityFunction()** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **route-journey.test.mjs** (7 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
 
 ## Relationships
 
@@ -20,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/authored-reachability.test.mjs`
+- `.agents/skills/archify/test/route-journey.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

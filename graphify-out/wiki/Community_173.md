@@ -1,34 +1,29 @@
 # Community 173
 
-> 8 nodes · cohesion 0.43
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **workflow-migration-geometry.mjs** (10 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **createMappedWorkflowCandidate()** (9 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **intrinsicWorkflow()** (8 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **planningWorkflow()** (7 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **createHorizontalRankMapper()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **clone()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **mapExplicitCoordinates()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **mappedNumber()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **semantic-passport.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **svg()** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
 
 ## Relationships
 
-- [[Community 93]] (8 shared connections)
-- [[Community 98]] (5 shared connections)
-- [[Community 63]] (4 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (3 shared connections)
-- [[Community 43]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- `.agents/skills/archify/test/semantic-passport.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 12 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

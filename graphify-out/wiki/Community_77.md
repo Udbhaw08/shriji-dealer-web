@@ -1,41 +1,37 @@
 # Community 77
 
-> 18 nodes · cohesion 0.22
+> 14 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **acquireOperation()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheTokenFor()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheWriteFile()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **promoteOperationClaim()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **reserveOperation()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **guardedCacheRead()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheMkdir()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **inspectActiveClaim()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **readState()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **fenceLowerOperations()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **listOperations()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationName()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationWasFenced()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **prepareOperationClaim()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **retireActiveClaim()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **hasActivePendingOperation()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationIsSuperseded()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **discardPreparedClaim()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **engineering-profiles.mjs** (10 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **engineering-profile.test.mjs** (10 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **deploymentOwnershipDiagnostics()** (4 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **subject()** (2 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **DEPLOYMENT_BOUNDARY_KINDS** (1 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **membership()** (1 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **PRIVATE_STATE_TYPES** (1 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **clone()** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **example** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **examplePath** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **validateJson()** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
 
 ## Relationships
 
-- [[Community 40]] (19 shared connections)
-- [[Community 73]] (14 shared connections)
-- [[Community 83]] (12 shared connections)
+- [[Product Brand & Business Vision]] (4 shared connections)
+- [[Product Requirements Documentation]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-update.mjs`
+- `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- `.agents/skills/archify/test/engineering-profile.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 113 (100%)
+- EXTRACTED: 36 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,32 +1,33 @@
 # Community 114
 
-> 11 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **degraded.test.mjs** (10 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **assertFriendlyFailure()** (2 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **render()** (2 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **ARRAY_FIELDS** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **filter()** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **installedRoot** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **mulberry32()** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **site-language-continuity.test.mjs** (12 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **clickAndNavigate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **evaluate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **loadRuntime()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **navigate()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **navigationPath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **runtimePath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **startStaticServer()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Pricing & Roles Skill]] (1 shared connections)
+- [[Community 89]] (1 shared connections)
+- [[Community 69]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/degraded.test.mjs`
+- `.agents/skills/archify/test/site-language-continuity.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 23 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

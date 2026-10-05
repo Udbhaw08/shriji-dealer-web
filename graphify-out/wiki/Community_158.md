@@ -1,17 +1,16 @@
 # Community 158
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **reach-share-card.test.mjs** (7 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
+- **Sequence Renderer** (5 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **Layout budget** (2 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **README.md** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **Column fit** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **Input** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **Legend** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
 
 ## Relationships
 
@@ -19,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/reach-share-card.test.mjs`
+- `.agents/skills/archify/renderers/sequence/README.md`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

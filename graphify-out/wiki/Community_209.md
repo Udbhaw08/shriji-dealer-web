@@ -1,27 +1,25 @@
 # Community 209
 
-> 6 nodes · cohesion 0.33
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **skill-metadata.test.mjs** (5 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
-- **authoringContract** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
-- **frontmatter** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
-- **skill** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
+- **width** (4 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Graphify Workflow]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/skill-metadata.test.mjs`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

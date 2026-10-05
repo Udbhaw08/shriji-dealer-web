@@ -1,32 +1,29 @@
 # Community 138
 
-> 9 nodes · cohesion 0.31
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **cards** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **additionalProperties** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **required** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **guided-views.test.mjs** (7 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **fixture()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **svg()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
 
 ## Relationships
 
-- [[Community 113]] (3 shared connections)
-- [[Community 59]] (1 shared connections)
-- [[Community 245]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/archify/test/guided-views.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
