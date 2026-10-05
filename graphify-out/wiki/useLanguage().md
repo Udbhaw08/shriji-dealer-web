@@ -2,7 +2,7 @@
 
 > God node · 32 connections · `src/data/i18n.js`
 
-**Community:** [[Dependencies & Package Config]]
+**Community:** [[Pricing Regression Test Suite]]
 
 ## Connections by Relation
 

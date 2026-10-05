@@ -1,72 +1,56 @@
 # Dependencies & Package Config
 
-> 54 nodes · cohesion 0.13
+> 79 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **ui.jsx** (38 connections) — `src/ui.jsx`
-- **main.jsx** (34 connections) — `src/main.jsx`
-- **useLanguage()** (32 connections) — `src/data/i18n.js`
-- **useSession()** (28 connections) — `src/data/session.js`
-- **Home.jsx** (24 connections) — `src/pages/Home.jsx`
-- **t()** (20 connections) — `src/data/i18n.js`
-- **site.js** (20 connections) — `src/data/site.js`
-- **Favorites.jsx** (20 connections) — `src/pages/Favorites.jsx`
-- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
-- **Icon()** (16 connections) — `src/ui.jsx`
-- **isDealer()** (15 connections) — `src/data/dealer.js`
-- **Support.jsx** (15 connections) — `src/pages/Support.jsx`
-- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
-- **Schemes.jsx** (14 connections) — `src/pages/Schemes.jsx`
-- **useFavorites()** (13 connections) — `src/data/favoritesStore.js`
-- **COMPANY** (12 connections) — `src/data/site.js`
-- **dealerById()** (11 connections) — `src/data/dealer.js`
-- **Products()** (9 connections) — `src/pages/Products.jsx`
-- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
-- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
-- **portalGate.js** (8 connections) — `src/data/portalGate.js`
-- **Favorites()** (8 connections) — `src/pages/Favorites.jsx`
-- **Home()** (8 connections) — `src/pages/Home.jsx`
-- **HeroSlider.jsx** (7 connections) — `src/components/HeroSlider.jsx`
-- **Header()** (7 connections) — `src/ui.jsx`
-- *... and 29 more nodes in this community*
+- **i()** (64 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **fl()** (34 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **qc()** (22 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **nl()** (19 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **uc()** (18 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **vi()** (18 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **lc()** (17 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **ya()** (15 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **ll()** (13 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **sa()** (13 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **lm()** (12 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **Ai()** (11 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **jc()** (11 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **pa()** (11 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **r()** (11 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **xa()** (11 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **ea()** (10 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **Hi()** (9 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **Ii()** (9 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **kc()** (9 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **Li()** (9 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **ua()** (9 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **fc()** (8 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **Gc()** (8 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **ic()** (8 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- *... and 54 more nodes in this community*
 
 ## Relationships
 
-- [[Graphify Knowledge Graph Skill]] (54 shared connections)
-- [[Pricing Regression Test Suite]] (24 shared connections)
-- [[Community 70]] (20 shared connections)
-- [[Community 98]] (10 shared connections)
-- [[Community 97]] (4 shared connections)
-- [[Community 66]] (2 shared connections)
-- [[Community 200]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (96 shared connections)
+- [[Community 32]] (39 shared connections)
+- [[Oxlint Linter Configuration]] (29 shared connections)
+- [[Zoho Integration Skill]] (25 shared connections)
+- [[Community 38]] (18 shared connections)
+- [[Testing & Workflow Skill]] (15 shared connections)
+- [[Community 35]] (11 shared connections)
+- [[Community 70]] (11 shared connections)
+- [[Community 55]] (10 shared connections)
 
 ## Source Files
 
-- `src/components/HeroSlider.jsx`
-- `src/components/MobileBottomNav.jsx`
-- `src/components/NativeBackHandler.jsx`
-- `src/components/UnderMaintenance.jsx`
-- `src/data/dealer.js`
-- `src/data/favoritesStore.js`
-- `src/data/i18n.js`
-- `src/data/portalGate.js`
-- `src/data/session.js`
-- `src/data/site.js`
-- `src/main.jsx`
-- `src/pages/DealerDashboard.jsx`
-- `src/pages/Favorites.jsx`
-- `src/pages/Home.jsx`
-- `src/pages/Login.jsx`
-- `src/pages/Products.jsx`
-- `src/pages/Schemes.jsx`
-- `src/pages/Support.jsx`
-- `src/ui.jsx`
+- `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
 
 ## Audit Trail
 
-- EXTRACTED: 485 (100%)
-- INFERRED: 2 (0%)
+- EXTRACTED: 652 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

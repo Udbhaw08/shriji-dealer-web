@@ -1,14 +1,15 @@
 # Community 202
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **integration.test.mjs** (4 connections) — `backend/test/integration.test.mjs`
-- **api()** (1 connections) — `backend/test/integration.test.mjs`
-- **COMMERCE_FIXTURE** (1 connections) — `backend/test/integration.test.mjs`
-- **crmMock** (1 connections) — `backend/test/integration.test.mjs`
-- **uniq()** (1 connections) — `backend/test/integration.test.mjs`
+- **Data Flow Renderer** (5 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
+- **README.md** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
+- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
+- **Input** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
+- **Layout budget** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
+- **Legend** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
 
 ## Relationships
 
@@ -16,11 +17,11 @@
 
 ## Source Files
 
-- `backend/test/integration.test.mjs`
+- `.agents/skills/archify/renderers/dataflow/README.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

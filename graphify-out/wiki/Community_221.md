@@ -1,25 +1,26 @@
 # Community 221
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **cursor-onboarding.test.mjs** (3 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
+- **focus** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 120]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/cursor-onboarding.test.mjs`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

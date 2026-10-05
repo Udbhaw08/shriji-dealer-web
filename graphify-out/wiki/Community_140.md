@@ -1,17 +1,18 @@
 # Community 140
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **preset-tryon.test.mjs** (7 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **presetRuntime()** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **svgBlock()** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
+- **Primary Commands** (5 connections) — `.agents/skills/graphify/SKILL.md`
+- **Graphify Knowledge Graph Skill** (4 connections) — `.agents/skills/graphify/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **1. Query the Graph (Context-Efficient)** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **2. Trace Relationships (Shortest Path)** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **3. Explain a Node or Symbol** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **4. Update the Graph (AST Re-Extraction)** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **Key Output Artifacts in `graphify-out/`** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **Why Use Graphify** (1 connections) — `.agents/skills/graphify/SKILL.md`
 
 ## Relationships
 
@@ -19,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/preset-tryon.test.mjs`
+- `.agents/skills/graphify/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

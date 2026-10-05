@@ -1,15 +1,17 @@
 # Community 178
 
-> 6 nodes · cohesion 0.33
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Third-party notices** (5 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **THIRD_PARTY_NOTICES.md** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **JetBrains Mono** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **No additional rights granted** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **OpenAI mark** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **Simple Icons** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
+- **story-shelf.test.mjs** (7 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
 
 ## Relationships
 
@@ -17,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
+- `.agents/skills/archify/test/story-shelf.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

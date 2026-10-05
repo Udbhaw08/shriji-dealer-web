@@ -1,16 +1,17 @@
 # Community 164
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **intent-trace.test.mjs** (6 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
+- **reach-share-card.test.mjs** (7 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
 
 ## Relationships
 
@@ -18,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/intent-trace.test.mjs`
+- `.agents/skills/archify/test/reach-share-card.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

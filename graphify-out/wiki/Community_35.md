@@ -1,52 +1,56 @@
 # Community 35
 
-> 24 nodes · cohesion 0.11
+> 33 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **preview.mjs** (23 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **startPreview()** (10 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **cli-output-types.test.mjs** (10 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **runPreview()** (3 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **compactMessage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **initialAuthoredOutput()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **previewPage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **redactDiagnostic()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **sha256()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **sourceDigest()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **cliPath** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **diagramTypes** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **here** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **parseReceipt()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **responseHeaders()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **safeJson()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **architecture** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **base** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **head** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **root** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **workflow** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **workspace()** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **.addEventListener()** (18 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **b()** (17 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **h()** (14 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **fp()** (13 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **.removeEventListener()** (13 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **tp()** (9 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **cm()** (7 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **lp()** (7 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **tm()** (7 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **em()** (6 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **.blur()** (6 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **.scrollIntoView()** (6 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **v()** (6 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **g()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **pm()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **Rp()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **uh()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **xp()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **Bp()** (4 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **.getClientRects()** (4 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **Q()** (4 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **up()** (4 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **Vp()** (4 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **.focusLast()** (3 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **.unobserveUsing()** (3 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [[Community 135]] (3 shared connections)
-- [[Community 57]] (3 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (2 shared connections)
-- [[Community 113]] (2 shared connections)
-- [[Community 167]] (2 shared connections)
-- [[Community 132]] (2 shared connections)
+- [[Dealer Auth & Session Management]] (32 shared connections)
+- [[Oxlint Linter Configuration]] (15 shared connections)
+- [[Dependencies & Package Config]] (11 shared connections)
+- [[Community 32]] (6 shared connections)
+- [[Community 70]] (5 shared connections)
+- [[Zoho Integration Skill]] (5 shared connections)
+- [[Community 55]] (3 shared connections)
+- [[Testing & Workflow Skill]] (2 shared connections)
+- [[Community 38]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/preview.mjs`
-- `.agents/skills/archify/test/cli-output-types.test.mjs`
+- `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
 
 ## Audit Trail
 
-- EXTRACTED: 71 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 200 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

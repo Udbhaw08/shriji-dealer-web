@@ -4,20 +4,20 @@
 
 ## Key Concepts
 
-- **fromSide** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **esm-CedIWXUo.js** (1 connections) — `ios/App/App/public/assets/esm-CedIWXUo.js`
+- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-CedIWXUo.js`
 
 ## Relationships
 
-- [[Graphify Agent Rules]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `ios/App/App/public/assets/esm-CedIWXUo.js`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

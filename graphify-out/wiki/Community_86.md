@@ -1,37 +1,44 @@
 # Community 86
 
-> 13 nodes · cohesion 0.28
+> 17 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **guided-views-browser.test.mjs** (17 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **run()** (8 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **point()** (4 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **settled()** (4 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **activate()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **hash()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **move()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **variant()** (1 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **vl()** (27 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **yl()** (15 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **bl()** (10 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **je()** (8 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **da()** (6 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **Io()** (5 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **zo()** (5 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **hl()** (4 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **ko()** (4 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **ta()** (4 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **va()** (4 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **gl()** (3 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **ml()** (3 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **Ud()** (3 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **Ym()** (3 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **fa()** (2 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **Wf()** (2 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
 
 ## Relationships
 
-- [[Community 32]] (5 shared connections)
-- [[Community 71]] (3 shared connections)
-- [[Pricing & Roles Skill]] (1 shared connections)
-- [[Community 69]] (1 shared connections)
+- [[Price Presentation & Product UI]] (20 shared connections)
+- [[Client Products Data Store]] (11 shared connections)
+- [[Master Codebase Architecture Reference]] (11 shared connections)
+- [[Community 56]] (4 shared connections)
+- [[Community 73]] (3 shared connections)
+- [[Live Pricing Audit Tool]] (2 shared connections)
+- [[Project Readme & Layout]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- `ios/App/App/public/assets/index-BpPwjHSs.js`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (100%)
+- EXTRACTED: 108 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

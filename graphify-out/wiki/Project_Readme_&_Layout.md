@@ -1,47 +1,55 @@
 # Project Readme & Layout
 
-> 33 nodes · cohesion 0.06
+> 42 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **scripts** (15 connections) — `.agents/skills/archify/package.json`
-- **package.json** (11 connections) — `.agents/skills/archify/package.json`
-- **devDependencies** (5 connections) — `.agents/skills/archify/package.json`
-- **bin** (2 connections) — `.agents/skills/archify/package.json`
-- **engines** (2 connections) — `.agents/skills/archify/package.json`
-- **overrides** (2 connections) — `.agents/skills/archify/package.json`
-- **archify** (1 connections) — `.agents/skills/archify/package.json`
-- **description** (1 connections) — `.agents/skills/archify/package.json`
-- **ajv** (1 connections) — `.agents/skills/archify/package.json`
-- **parse5** (1 connections) — `.agents/skills/archify/package.json`
-- **saxes** (1 connections) — `.agents/skills/archify/package.json`
-- **simple-icons** (1 connections) — `.agents/skills/archify/package.json`
-- **node** (1 connections) — `.agents/skills/archify/package.json`
-- **license** (1 connections) — `.agents/skills/archify/package.json`
-- **name** (1 connections) — `.agents/skills/archify/package.json`
-- **fast-uri** (1 connections) — `.agents/skills/archify/package.json`
-- **private** (1 connections) — `.agents/skills/archify/package.json`
-- **build:gallery** (1 connections) — `.agents/skills/archify/package.json`
-- **build:guide** (1 connections) — `.agents/skills/archify/package.json`
-- **build:readme-showcase** (1 connections) — `.agents/skills/archify/package.json`
-- **build:start** (1 connections) — `.agents/skills/archify/package.json`
-- **check:brand-marks** (1 connections) — `.agents/skills/archify/package.json`
-- **check:release-identity** (1 connections) — `.agents/skills/archify/package.json`
-- **check:validators** (1 connections) — `.agents/skills/archify/package.json`
-- **check:viewer** (1 connections) — `.agents/skills/archify/package.json`
-- *... and 8 more nodes in this community*
+- **n()** (27 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **t()** (21 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **a()** (13 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **Ur()** (13 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **os()** (12 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **c()** (9 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **cs()** (9 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **hh()** (9 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **Mp()** (8 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **ps()** (8 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **fh()** (7 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **hs()** (7 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **ms()** (7 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **s()** (7 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **Sh()** (7 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **ys()** (7 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **ph()** (6 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **ss()** (6 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **bs()** (5 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **fs()** (5 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **gs()** (5 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **la()** (5 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **tl()** (5 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **vs()** (5 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **ws()** (5 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (50 shared connections)
+- [[Master Codebase Architecture Reference]] (29 shared connections)
+- [[Roles & Customer Sharing Spec]] (21 shared connections)
+- [[Client Products Data Store]] (11 shared connections)
+- [[Live Pricing Audit Tool]] (10 shared connections)
+- [[Community 56]] (4 shared connections)
+- [[Community 39]] (3 shared connections)
+- [[Community 86]] (1 shared connections)
+- [[Community 73]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/package.json`
+- `ios/App/App/public/assets/index-BpPwjHSs.js`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (100%)
+- EXTRACTED: 270 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,34 +1,31 @@
 # Community 157
 
-> 7 nodes · cohesion 0.29
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **commandCompare()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commitComparePair()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractCompareOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **formatDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportCompareFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **compareCommitError()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **compareReceiptPath()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **vertical-edge.test.mjs** (8 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **bin** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **edgePath()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **REPRO** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **segments()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
 
 ## Relationships
 
-- [[Agent Guidelines (AGENTS.md)]] (11 shared connections)
-- [[Community 63]] (4 shared connections)
-- [[Community 81]] (3 shared connections)
-- [[Community 44]] (2 shared connections)
-- [[Community 33]] (2 shared connections)
-- [[Community 57]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
+- `.agents/skills/archify/test/vertical-edge.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (75%)
-- INFERRED: 9 (25%)
+- EXTRACTED: 16 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

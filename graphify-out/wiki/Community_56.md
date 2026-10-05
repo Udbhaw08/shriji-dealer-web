@@ -1,43 +1,52 @@
 # Community 56
 
-> 18 nodes · cohesion 0.22
+> 23 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **checkForUpdate()** (19 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **commitOperation()** (14 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **acknowledgeUpdate()** (13 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cancelOperation()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **resultForCandidate()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **silent()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **readState()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **resultAfterLosingOperation()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **readJsonFile()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **transitionOperation()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationOwnsActiveClaim()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **runCli()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **freshStateResult()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **versionCacheDirectory()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertBoundedRegularFile()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **digestForEventKey()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **fetchCandidate()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **waitUntilRetry()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **yi()** (15 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **xi()** (12 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **delete()** (11 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **ql()** (11 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **xl()** (11 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **hu()** (10 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **vu()** (10 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **pu()** (9 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **bi()** (8 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **Zl()** (8 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **Nd()** (7 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **mu()** (6 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **ru()** (6 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **zu()** (6 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **Lu()** (5 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **Ma()** (5 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **eu()** (4 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **Uu()** (4 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **Bu()** (3 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **nu()** (3 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **tu()** (3 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **wu()** (3 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **Fu()** (2 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
 
 ## Relationships
 
-- [[Zoho API Diagnostic Script]] (20 shared connections)
-- [[Community 41]] (10 shared connections)
-- [[Community 93]] (8 shared connections)
-- [[Community 34]] (3 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (2 shared connections)
+- [[Price Presentation & Product UI]] (33 shared connections)
+- [[Master Codebase Architecture Reference]] (10 shared connections)
+- [[Live Pricing Audit Tool]] (8 shared connections)
+- [[Project Readme & Layout]] (4 shared connections)
+- [[Client Products Data Store]] (4 shared connections)
+- [[Community 86]] (4 shared connections)
+- [[Community 73]] (2 shared connections)
+- [[Community 39]] (2 shared connections)
+- [[Roles & Customer Sharing Spec]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-update.mjs`
+- `ios/App/App/public/assets/index-BpPwjHSs.js`
 
 ## Audit Trail
 
-- EXTRACTED: 111 (100%)
+- EXTRACTED: 162 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

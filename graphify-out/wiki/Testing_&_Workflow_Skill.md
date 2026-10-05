@@ -1,57 +1,55 @@
 # Testing & Workflow Skill
 
-> 31 nodes · cohesion 0.06
+> 41 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **properties** (30 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **col** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **row** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **brand** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **fromSide** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **id** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **kind** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **labelDx** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **labelDy** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **pos** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **sublabel** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **tag** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **to** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **toSide** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **variant** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- *... and 6 more nodes in this community*
+- **D()** (19 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **E()** (17 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **St()** (14 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **ae()** (13 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **Fd()** (12 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **ut()** (11 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **vt()** (11 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **df()** (10 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **dt()** (10 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **pt()** (9 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **rf()** (9 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **k()** (8 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **ke()** (8 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **ff()** (7 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **ft()** (7 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **gt()** (7 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **Rd()** (7 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **af()** (6 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **Id()** (6 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **nf()** (6 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **ce()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **ie()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **jf()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **lf()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **lt()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [[Community 84]] (5 shared connections)
-- [[Community 136]] (2 shared connections)
-- [[Community 260]] (1 shared connections)
-- [[Community 233]] (1 shared connections)
-- [[Community 261]] (1 shared connections)
-- [[Community 234]] (1 shared connections)
-- [[Community 235]] (1 shared connections)
-- [[Community 262]] (1 shared connections)
-- [[Community 182]] (1 shared connections)
-- [[Community 263]] (1 shared connections)
-- [[Community 264]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (51 shared connections)
+- [[Dependencies & Package Config]] (15 shared connections)
+- [[Community 38]] (14 shared connections)
+- [[Community 70]] (12 shared connections)
+- [[Community 32]] (7 shared connections)
+- [[Zoho Integration Skill]] (6 shared connections)
+- [[Oxlint Linter Configuration]] (5 shared connections)
+- [[Community 55]] (3 shared connections)
+- [[Community 35]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
 
 ## Audit Trail
 
-- EXTRACTED: 76 (100%)
+- EXTRACTED: 279 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

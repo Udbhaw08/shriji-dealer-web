@@ -1,16 +1,17 @@
 # Community 166
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **presentation.test.mjs** (6 connections) — `.agents/skills/archify/test/presentation.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
-- **svg()** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
+- **relationship-lens.test.mjs** (7 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **escapeAttr()** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **svg()** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
 
 ## Relationships
 
@@ -18,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/presentation.test.mjs`
+- `.agents/skills/archify/test/relationship-lens.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

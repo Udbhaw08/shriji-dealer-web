@@ -1,43 +1,47 @@
 # Community 70
 
-> 14 nodes · cohesion 0.29
+> 19 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **Products.jsx** (25 connections) — `src/pages/Products.jsx`
-- **ProductSearchBar.jsx** (15 connections) — `src/components/ProductSearchBar.jsx`
-- **useProducts()** (12 connections) — `src/data/productsStore.js`
-- **searchHelper.js** (11 connections) — `src/data/searchHelper.js`
-- **ProductSearchBar()** (6 connections) — `src/components/ProductSearchBar.jsx`
-- **getSuggestions()** (5 connections) — `src/data/searchHelper.js`
-- **autocorrectQuery()** (4 connections) — `src/data/searchHelper.js`
-- **buildSearchDictionary()** (4 connections) — `src/data/searchHelper.js`
-- **getPopularSearches()** (2 connections) — `src/data/searchHelper.js`
-- **scoreProduct()** (2 connections) — `src/data/searchHelper.js`
-- **COLLOQUIAL_SYNONYMS** (1 connections) — `src/data/searchHelper.js`
-- **levenshteinDistance()** (1 connections) — `src/data/searchHelper.js`
-- **Group()** (1 connections) — `src/pages/Products.jsx`
-- **SORT_FNS** (1 connections) — `src/pages/Products.jsx`
+- **mt()** (18 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **dn()** (13 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **sn()** (11 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **vn()** (11 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **bt()** (10 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **ip()** (10 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **en()** (9 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **Bn()** (8 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **xn()** (7 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **cn()** (6 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **fn()** (6 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **wn()** (6 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **be()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **ye()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **Me()** (4 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **xe()** (4 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **yn()** (3 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **te()** (2 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **un()** (2 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
 
 ## Relationships
 
-- [[Dependencies & Package Config]] (20 shared connections)
-- [[Graphify Knowledge Graph Skill]] (10 shared connections)
-- [[Community 66]] (4 shared connections)
-- [[Community 98]] (2 shared connections)
-- [[Community 97]] (1 shared connections)
-- [[Pricing Regression Test Suite]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (26 shared connections)
+- [[Testing & Workflow Skill]] (12 shared connections)
+- [[Dependencies & Package Config]] (11 shared connections)
+- [[Oxlint Linter Configuration]] (6 shared connections)
+- [[Community 35]] (5 shared connections)
+- [[Community 38]] (3 shared connections)
+- [[Zoho Integration Skill]] (3 shared connections)
+- [[Community 55]] (2 shared connections)
 
 ## Source Files
 
-- `src/components/ProductSearchBar.jsx`
-- `src/data/productsStore.js`
-- `src/data/searchHelper.js`
-- `src/pages/Products.jsx`
+- `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
 
 ## Audit Trail
 
-- EXTRACTED: 90 (100%)
+- EXTRACTED: 140 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

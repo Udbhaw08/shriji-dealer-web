@@ -1,25 +1,25 @@
 # Community 175
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **settled-flow.test.mjs** (8 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **story-director-strip.test.mjs** (7 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
 
 ## Relationships
 
-- [[Product Brand & Business Vision]] (1 shared connections)
-- [[Design System & UI Tokens]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/settled-flow.test.mjs`
+- `.agents/skills/archify/test/story-director-strip.test.mjs`
 
 ## Audit Trail
 

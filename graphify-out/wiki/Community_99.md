@@ -1,33 +1,35 @@
 # Community 99
 
-> 11 nodes · cohesion 0.18
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **entries** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **legend** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **mode** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **properties** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **properties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **web-B5zpIaTm.js** (13 connections) — `ios/App/App/public/assets/web-B5zpIaTm.js`
+- **applyPrefix()** (4 connections) — `ios/App/App/public/assets/web-B5zpIaTm.js`
+- **keys()** (4 connections) — `ios/App/App/public/assets/web-B5zpIaTm.js`
+- **get()** (3 connections) — `ios/App/App/public/assets/web-B5zpIaTm.js`
+- **migrate()** (3 connections) — `ios/App/App/public/assets/web-B5zpIaTm.js`
+- **rawKeys()** (3 connections) — `ios/App/App/public/assets/web-B5zpIaTm.js`
+- **clear()** (2 connections) — `ios/App/App/public/assets/web-B5zpIaTm.js`
+- **remove()** (2 connections) — `ios/App/App/public/assets/web-B5zpIaTm.js`
+- **removeOld()** (2 connections) — `ios/App/App/public/assets/web-B5zpIaTm.js`
+- **set()** (2 connections) — `ios/App/App/public/assets/web-B5zpIaTm.js`
+- **configure()** (1 connections) — `ios/App/App/public/assets/web-B5zpIaTm.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-B5zpIaTm.js`
+- **impl()** (1 connections) — `ios/App/App/public/assets/web-B5zpIaTm.js`
+- **prefix()** (1 connections) — `ios/App/App/public/assets/web-B5zpIaTm.js`
 
 ## Relationships
 
-- [[Community 61]] (1 shared connections)
-- [[Community 73]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `ios/App/App/public/assets/web-B5zpIaTm.js`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

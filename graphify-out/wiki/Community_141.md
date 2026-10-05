@@ -1,17 +1,18 @@
 # Community 141
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **reach-share-card.test.mjs** (7 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
+- **web-B7ISCQuw.js** (8 connections) — `ios/App/App/public/assets/web-B7ISCQuw.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-B7ISCQuw.js`
+- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-B7ISCQuw.js`
+- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-B7ISCQuw.js`
+- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-B7ISCQuw.js`
+- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-B7ISCQuw.js`
+- **getState()** (1 connections) — `ios/App/App/public/assets/web-B7ISCQuw.js`
+- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-B7ISCQuw.js`
+- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-B7ISCQuw.js`
 
 ## Relationships
 
@@ -19,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/reach-share-card.test.mjs`
+- `ios/App/App/public/assets/web-B7ISCQuw.js`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

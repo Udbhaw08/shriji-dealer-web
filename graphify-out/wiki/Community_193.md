@@ -1,14 +1,16 @@
 # Community 193
 
-> 5 nodes · cohesion 0.40
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **CLAUDE.md — read this before touching anything** (4 connections) — `CLAUDE.md`
-- **CLAUDE.md** (1 connections) — `CLAUDE.md`
-- **Commands** (1 connections) — `CLAUDE.md`
-- **Doc map** (1 connections) — `CLAUDE.md`
-- **Hard rules (these exist to stop hallucination)** (1 connections) — `CLAUDE.md`
+- **route-probe.test.mjs** (6 connections) — `.agents/skills/archify/test/route-probe.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/route-probe.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/route-probe.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/route-probe.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/route-probe.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/route-probe.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/route-probe.test.mjs`
 
 ## Relationships
 
@@ -16,11 +18,11 @@
 
 ## Source Files
 
-- `CLAUDE.md`
+- `.agents/skills/archify/test/route-probe.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

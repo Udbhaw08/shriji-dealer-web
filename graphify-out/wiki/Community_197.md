@@ -1,14 +1,16 @@
 # Community 197
 
-> 5 nodes · cohesion 0.40
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Automatic Codebase Context & Knowledge Graph Protocol** (4 connections) — `.agents/rules/graphify.md`
-- **graphify.md** (1 connections) — `.agents/rules/graphify.md`
-- **Rule 1: Mandatory Knowledge Graph Lookup (Never Blindly Read Files)** (1 connections) — `.agents/rules/graphify.md`
-- **Rule 2: Precision File Viewing** (1 connections) — `.agents/rules/graphify.md`
-- **Rule 3: Keep Graph Fresh After Modifying Code** (1 connections) — `.agents/rules/graphify.md`
+- **semantic-passport.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **svg()** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
 
 ## Relationships
 
@@ -16,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/rules/graphify.md`
+- `.agents/skills/archify/test/semantic-passport.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

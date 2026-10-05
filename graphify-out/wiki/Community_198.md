@@ -1,26 +1,28 @@
 # Community 198
 
-> 5 nodes · cohesion 0.40
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **focus** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **semantic-zoom.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
+- **svg()** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
 
 ## Relationships
 
-- [[Community 101]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/archify/test/semantic-zoom.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

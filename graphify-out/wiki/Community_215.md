@@ -1,25 +1,27 @@
 # Community 215
 
-> 4 nodes · cohesion 0.50
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **col** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **maximum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **story-trail.test.mjs** (5 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
 
 ## Relationships
 
-- [[Client Products Data Store]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `.agents/skills/archify/test/story-trail.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

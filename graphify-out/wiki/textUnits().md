@@ -2,7 +2,7 @@
 
 > God node · 33 connections · `.agents/skills/archify/renderers/shared/utils.mjs`
 
-**Community:** [[Price Presentation & Product UI]]
+**Community:** [[Community 48]]
 
 ## Connections by Relation
 

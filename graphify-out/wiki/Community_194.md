@@ -1,14 +1,16 @@
 # Community 194
 
-> 5 nodes · cohesion 0.40
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Agent Operating Guidelines & Zero-Token Context Strategy** (3 connections) — `GEMINI.md`
-- **Shriji Domestic Appliances — Sunshine Dealer Web** (2 connections) — `GEMINI.md`
-- **GEMINI.md** (1 connections) — `GEMINI.md`
-- **Mandatory Context Rule: Knowledge Graph First** (1 connections) — `GEMINI.md`
-- **Project Hard Rules** (1 connections) — `GEMINI.md`
+- **semantic-camera.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
+- **svg()** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
 
 ## Relationships
 
@@ -16,11 +18,11 @@
 
 ## Source Files
 
-- `GEMINI.md`
+- `.agents/skills/archify/test/semantic-camera.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

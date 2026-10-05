@@ -1,47 +1,46 @@
 # Community 51
 
-> 19 nodes · cohesion 0.12
+> 24 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **render-sequence.mjs** (67 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **arrowClassMap** (6 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **componentFill** (5 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **messageGeometry()** (4 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **messageLabelBox()** (4 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **messageRouteBox()** (2 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **arrowClass** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **compositionFrames** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **layout** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **LEGEND_CATALOG** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **messagePath()** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **participantCount** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **participants** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **participantTextFit** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **participantX()** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **renderActivation()** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **renderLifeline()** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **renderSegment()** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **properties** (11 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **viewBox** (6 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **animation** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **locale** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **output** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **subtitle** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **views** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **items** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (21 shared connections)
-- [[Design System & UI Tokens]] (18 shared connections)
-- [[Product Brand & Business Vision]] (10 shared connections)
-- [[Product Requirements Documentation]] (7 shared connections)
-- [[Master Codebase Architecture Reference]] (2 shared connections)
-- [[Community 31]] (2 shared connections)
-- [[Community 38]] (1 shared connections)
+- [[Community 127]] (1 shared connections)
+- [[Community 89]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 101 (100%)
+- EXTRACTED: 48 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

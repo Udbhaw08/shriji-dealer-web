@@ -1,60 +1,55 @@
 # Community 32
 
-> 25 nodes · cohesion 0.16
+> 34 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **.send()** (54 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **semantic-lens-browser.test.mjs** (14 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **export-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **motion-governor-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **run()** (6 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **point()** (4 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **record()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **media()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **screenshot()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **move()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **hash()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **n()** (27 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **t()** (21 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **a()** (13 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **Ur()** (13 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **os()** (12 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **c()** (9 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **cs()** (9 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **Mp()** (8 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **ps()** (8 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **hs()** (7 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **ms()** (7 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **s()** (7 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **ys()** (7 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **ss()** (6 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **bs()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **fs()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **gs()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **la()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **tl()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **vs()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **ws()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **xs()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **Ld()** (4 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **eo()** (3 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **Md()** (3 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [[Community 71]] (9 shared connections)
-- [[Community 49]] (8 shared connections)
-- [[Community 69]] (7 shared connections)
-- [[Community 89]] (6 shared connections)
-- [[Community 85]] (5 shared connections)
-- [[Community 86]] (5 shared connections)
-- [[Community 104]] (4 shared connections)
-- [[Community 134]] (4 shared connections)
-- [[Pricing & Roles Skill]] (3 shared connections)
-- [[Community 58]] (1 shared connections)
-- [[Community 156]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (39 shared connections)
+- [[Dependencies & Package Config]] (39 shared connections)
+- [[Zoho Integration Skill]] (12 shared connections)
+- [[Testing & Workflow Skill]] (7 shared connections)
+- [[Community 35]] (6 shared connections)
+- [[Community 55]] (4 shared connections)
+- [[Community 38]] (4 shared connections)
+- [[Oxlint Linter Configuration]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/export-browser.test.mjs`
-- `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
 
 ## Audit Trail
 
-- EXTRACTED: 145 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 226 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

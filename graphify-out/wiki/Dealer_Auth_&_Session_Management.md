@@ -1,66 +1,55 @@
 # Dealer Auth & Session Management
 
-> 97 nodes · cohesion 0.06
+> 109 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **sql** (30 connections) — `backend/src/db/pool.js`
-- **server.js** (25 connections) — `backend/src/server.js`
-- **auth.js** (22 connections) — `backend/src/routes/auth.js`
-- **pool.js** (17 connections) — `backend/src/db/pool.js`
-- **crmClient.js** (17 connections) — `backend/src/services/crmClient.js`
-- **catalog.js** (16 connections) — `backend/src/services/catalog.js`
-- **dealers.js** (15 connections) — `backend/src/routes/dealers.js`
-- **staff.js** (14 connections) — `backend/src/services/staff.js`
-- **webhooks.js** (13 connections) — `backend/src/routes/webhooks.js`
-- **logger.js** (13 connections) — `backend/src/utils/logger.js`
-- **crmPoll.js** (12 connections) — `backend/src/jobs/crmPoll.js`
-- **dealerApp.js** (12 connections) — `backend/src/services/dealerApp.js`
-- **log** (12 connections) — `backend/src/utils/logger.js`
-- **env.js** (11 connections) — `backend/src/config/env.js`
-- **index.js** (11 connections) — `backend/src/jobs/index.js`
-- **commerceClient.js** (11 connections) — `backend/src/services/commerceClient.js`
-- **audit()** (11 connections) — `backend/src/utils/audit.js`
-- **hash.js** (11 connections) — `backend/src/utils/hash.js`
-- **env** (9 connections) — `backend/src/config/env.js`
-- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
-- **auth.js** (8 connections) — `backend/src/middleware/auth.js`
-- **health.js** (8 connections) — `backend/src/routes/health.js`
-- **errorHandler.js** (7 connections) — `backend/src/middleware/errorHandler.js`
-- **syncCatalog()** (7 connections) — `backend/src/services/catalog.js`
-- **crmFetch()** (7 connections) — `backend/src/services/crmClient.js`
-- *... and 72 more nodes in this community*
+- **_()** (446 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **kf()** (23 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **Lr()** (16 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **ca()** (10 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **Ar()** (8 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **request()** (8 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **an()** (7 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **It()** (7 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **pn()** (7 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **Dr()** (6 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **Le()** (6 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **sf()** (6 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **yr()** (6 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **zr()** (6 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **Ct()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **eh()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **ln()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **ne()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **rn()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **unavailable()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **Xr()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **ac()** (4 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **br()** (4 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **Cr()** (4 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **Er()** (4 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- *... and 84 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dependencies & Package Config]] (96 shared connections)
+- [[Testing & Workflow Skill]] (51 shared connections)
+- [[Oxlint Linter Configuration]] (50 shared connections)
+- [[Zoho Integration Skill]] (47 shared connections)
+- [[Community 32]] (39 shared connections)
+- [[Community 38]] (34 shared connections)
+- [[Community 35]] (32 shared connections)
+- [[Community 55]] (28 shared connections)
+- [[Community 70]] (26 shared connections)
 
 ## Source Files
 
-- `backend/src/config/env.js`
-- `backend/src/db/migrate.js`
-- `backend/src/db/pool.js`
-- `backend/src/jobs/catalogSync.js`
-- `backend/src/jobs/crmPoll.js`
-- `backend/src/jobs/index.js`
-- `backend/src/middleware/auth.js`
-- `backend/src/middleware/errorHandler.js`
-- `backend/src/middleware/rateLimit.js`
-- `backend/src/routes/auth.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/routes/health.js`
-- `backend/src/routes/prices.js`
-- `backend/src/routes/webhooks.js`
-- `backend/src/server.js`
-- `backend/src/services/catalog.js`
-- `backend/src/services/commerceClient.js`
-- `backend/src/services/crmClient.js`
-- `backend/src/services/dealerApp.js`
-- `backend/src/services/notifications.js`
+- `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
 
 ## Audit Trail
 
-- EXTRACTED: 542 (100%)
+- EXTRACTED: 786 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

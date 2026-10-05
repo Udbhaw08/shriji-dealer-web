@@ -1,60 +1,55 @@
 # Master Codebase Architecture Reference
 
-> 53 nodes · cohesion 0.06
+> 65 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **render-architecture.mjs** (122 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **pathFor()** (10 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **routeHonorsEndpointSides()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **renderLegend()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **routeVia()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **grid.mjs** (6 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **alignFacingPorts()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **buildLayoutReport()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **layoutBoundaryTitles()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **sideAwareBridgeCandidates()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **relationshipLegendObstacles()** (5 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **resolveComponentPos()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **validateGridPlacement()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **boundaryLabelWidth()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **measureBoundaryTitle()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **resolveBoundaryTitles()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **routeClearsComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **routeClearsEndpointComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **minimumReadableSourceTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **layout-report.mjs** (4 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
-- **grid.test.mjs** (4 connections) — `.agents/skills/archify/test/grid.test.mjs`
-- **gridLayout()** (3 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **autoViewBoxFor()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **expandBoundaryForReadableTitle()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **resolvedViewBoxWidth()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- *... and 28 more nodes in this community*
+- **i()** (64 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **fl()** (34 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **qc()** (22 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **nl()** (19 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **uc()** (18 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **vi()** (18 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **ya()** (15 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **sa()** (13 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **lm()** (12 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **Ai()** (11 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **jc()** (11 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **pa()** (11 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **r()** (11 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **xa()** (11 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **Ii()** (9 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **Li()** (9 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **sl()** (9 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **ua()** (9 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **l()** (8 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **ba()** (7 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **bc()** (7 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **dl()** (7 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **el()** (7 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **Qi()** (7 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **qs()** (7 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- *... and 40 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (46 shared connections)
-- [[Design System & UI Tokens]] (22 shared connections)
-- [[Product Brand & Business Vision]] (11 shared connections)
-- [[Community 31]] (10 shared connections)
-- [[Product Requirements Documentation]] (10 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (3 shared connections)
-- [[Community 51]] (2 shared connections)
-- [[Community 38]] (1 shared connections)
+- [[Price Presentation & Product UI]] (80 shared connections)
+- [[Roles & Customer Sharing Spec]] (39 shared connections)
+- [[Project Readme & Layout]] (29 shared connections)
+- [[Live Pricing Audit Tool]] (28 shared connections)
+- [[Client Products Data Store]] (17 shared connections)
+- [[Community 86]] (11 shared connections)
+- [[Community 56]] (10 shared connections)
+- [[Community 73]] (10 shared connections)
+- [[Community 39]] (8 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/grid.mjs`
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/layout-report.mjs`
-- `.agents/skills/archify/renderers/shared/legend.mjs`
-- `.agents/skills/archify/test/grid.test.mjs`
+- `ios/App/App/public/assets/index-BpPwjHSs.js`
 
 ## Audit Trail
 
-- EXTRACTED: 277 (100%)
+- EXTRACTED: 522 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

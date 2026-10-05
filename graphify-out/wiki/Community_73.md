@@ -1,39 +1,48 @@
 # Community 73
 
-> 14 nodes · cohesion 0.14
+> 19 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **properties** (8 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **layout** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **cols** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **cellW** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **origin** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **maximum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **mt()** (18 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **dn()** (13 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **sn()** (11 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **vn()** (11 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **bt()** (10 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **ip()** (10 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **en()** (9 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **Bn()** (8 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **xn()** (7 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **cn()** (6 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **fn()** (6 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **wn()** (6 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **be()** (5 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **ye()** (5 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **Me()** (4 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **xe()** (4 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **yn()** (3 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **te()** (2 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **un()** (2 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
 
 ## Relationships
 
-- [[Community 229]] (1 shared connections)
-- [[Community 231]] (1 shared connections)
-- [[Community 232]] (1 shared connections)
-- [[Community 99]] (1 shared connections)
-- [[Community 47]] (1 shared connections)
+- [[Price Presentation & Product UI]] (24 shared connections)
+- [[Client Products Data Store]] (12 shared connections)
+- [[Live Pricing Audit Tool]] (11 shared connections)
+- [[Master Codebase Architecture Reference]] (10 shared connections)
+- [[Community 39]] (4 shared connections)
+- [[Community 86]] (3 shared connections)
+- [[Community 56]] (2 shared connections)
+- [[Project Readme & Layout]] (1 shared connections)
+- [[Roles & Customer Sharing Spec]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `ios/App/App/public/assets/index-BpPwjHSs.js`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (100%)
+- EXTRACTED: 140 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

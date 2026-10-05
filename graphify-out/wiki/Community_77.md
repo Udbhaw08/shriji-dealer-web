@@ -1,37 +1,40 @@
 # Community 77
 
-> 14 nodes · cohesion 0.16
+> 19 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **engineering-profiles.mjs** (10 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- **engineering-profile.test.mjs** (10 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
-- **deploymentOwnershipDiagnostics()** (4 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- **subject()** (2 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- **DEPLOYMENT_BOUNDARY_KINDS** (1 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- **membership()** (1 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- **PRIVATE_STATE_TYPES** (1 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
-- **clone()** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
-- **example** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
-- **examplePath** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
-- **validateJson()** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **golden.mjs** (18 connections) — `.agents/skills/archify/test/golden.mjs`
+- **expectFailure()** (3 connections) — `.agents/skills/archify/test/golden.mjs`
+- **check()** (2 connections) — `.agents/skills/archify/test/golden.mjs`
+- **render()** (2 connections) — `.agents/skills/archify/test/golden.mjs`
+- **blocks()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **GOLDEN** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **landingPage** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **landingVersions** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **lock** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **normalizeNewlines()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **pkg** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **shieldsBadgeMessages()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **skillMd** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **webApp** (1 connections) — `.agents/skills/archify/test/golden.mjs`
 
 ## Relationships
 
-- [[Product Brand & Business Vision]] (4 shared connections)
-- [[Product Requirements Documentation]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- `.agents/skills/archify/test/engineering-profile.test.mjs`
+- `.agents/skills/archify/test/golden.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,41 +1,54 @@
 # Community 64
 
-> 16 nodes · cohesion 0.14
+> 21 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **brand-marks.test.mjs** (15 connections) — `.agents/skills/archify/test/brand-marks.test.mjs`
-- **isPrivateBrandAddress()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **ipv4Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **ipv6Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **generated-brand-marks.mjs** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
-- **BRAND_MARKS** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/brand-marks.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/brand-marks.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/brand-marks.test.mjs`
-- **nodeBlock()** (1 connections) — `.agents/skills/archify/test/brand-marks.test.mjs`
-- **renderAsync()** (1 connections) — `.agents/skills/archify/test/brand-marks.test.mjs`
-- **renderSync()** (1 connections) — `.agents/skills/archify/test/brand-marks.test.mjs`
-- **runCliAsync()** (1 connections) — `.agents/skills/archify/test/brand-marks.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/brand-marks.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/brand-marks.test.mjs`
-- **writeFixture()** (1 connections) — `.agents/skills/archify/test/brand-marks.test.mjs`
+- **utils.mjs** (26 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **i18n.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **translateMessage()** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **legend.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **renderLegend()** (14 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **applyTemplate()** (9 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **resolveLocale()** (7 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **legendFootprint()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **measureLegend()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **viewerCatalog()** (4 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **localizeTemplate()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **translateCount()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **formatMessage()** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **measuredEntryWidth()** (2 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **serializeScriptJson()** (2 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **CATALOGS** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **ESCAPE_MAP** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **MESSAGE_PAIRS** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **SIGIL_SHAPE** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **SIGIL_TONE** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **TEMPLATE_PLACEHOLDERS** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
 
 ## Relationships
 
-- [[Community 38]] (6 shared connections)
-- [[Product Brand & Business Vision]] (1 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (15 shared connections)
+- [[Community 37]] (12 shared connections)
+- [[Community 48]] (11 shared connections)
+- [[Product Requirements Documentation]] (10 shared connections)
+- [[Design System & UI Tokens]] (10 shared connections)
+- [[Product Pages Specification]] (9 shared connections)
+- [[Community 43]] (5 shared connections)
+- [[Community 95]] (5 shared connections)
+- [[Claude Agent Instructions]] (1 shared connections)
+- [[Community 171]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
-- `.agents/skills/archify/test/brand-marks.test.mjs`
+- `.agents/skills/archify/renderers/shared/i18n.mjs`
+- `.agents/skills/archify/renderers/shared/legend.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 151 (99%)
+- INFERRED: 2 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---
