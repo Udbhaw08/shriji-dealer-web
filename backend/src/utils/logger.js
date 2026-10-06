@@ -1,6 +1,14 @@
-const ts = () => new Date().toISOString();
-export const log = {
-  info: (...a) => console.log(ts(), ...a),
-  warn: (...a) => console.warn(ts(), '[warn]', ...a),
-  error: (...a) => console.error(ts(), '[error]', ...a),
+/**
+ * Structured logger for cloud and serverless log ingestion.
+ */
+export const logger = {
+  info: (msg, meta = {}) => {
+    console.log(JSON.stringify({ level: "info", timestamp: new Date().toISOString(), message: msg, ...meta }));
+  },
+  warn: (msg, meta = {}) => {
+    console.warn(JSON.stringify({ level: "warn", timestamp: new Date().toISOString(), message: msg, ...meta }));
+  },
+  error: (msg, meta = {}) => {
+    console.error(JSON.stringify({ level: "error", timestamp: new Date().toISOString(), message: msg, ...meta }));
+  },
 };
