@@ -1,35 +1,44 @@
 # Community 99
 
-> 14 nodes · cohesion 0.23
+> 14 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **web-B5zpIaTm.js** (13 connections) — `ios/App/App/public/assets/web-B5zpIaTm.js`
-- **applyPrefix()** (4 connections) — `ios/App/App/public/assets/web-B5zpIaTm.js`
-- **keys()** (4 connections) — `ios/App/App/public/assets/web-B5zpIaTm.js`
-- **get()** (3 connections) — `ios/App/App/public/assets/web-B5zpIaTm.js`
-- **migrate()** (3 connections) — `ios/App/App/public/assets/web-B5zpIaTm.js`
-- **rawKeys()** (3 connections) — `ios/App/App/public/assets/web-B5zpIaTm.js`
-- **clear()** (2 connections) — `ios/App/App/public/assets/web-B5zpIaTm.js`
-- **remove()** (2 connections) — `ios/App/App/public/assets/web-B5zpIaTm.js`
-- **removeOld()** (2 connections) — `ios/App/App/public/assets/web-B5zpIaTm.js`
-- **set()** (2 connections) — `ios/App/App/public/assets/web-B5zpIaTm.js`
-- **configure()** (1 connections) — `ios/App/App/public/assets/web-B5zpIaTm.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-B5zpIaTm.js`
-- **impl()** (1 connections) — `ios/App/App/public/assets/web-B5zpIaTm.js`
-- **prefix()** (1 connections) — `ios/App/App/public/assets/web-B5zpIaTm.js`
+- **em()** (7 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **qf()** (7 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **_f()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **_getReauthenticationResolver()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **Xf()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **buildRequest()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **_getIdTokenResponse()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **_linkToIdToken()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **Zf()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **_buildIdpRequest()** (4 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **_forOperation()** (4 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **ho()** (4 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **_makeVerificationRequest()** (4 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **Bf()** (3 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (17 shared connections)
+- [[Pricing Regression Test Suite]] (5 shared connections)
+- [[Community 38]] (2 shared connections)
+- [[Claude Agent Instructions]] (2 shared connections)
+- [[Community 29]] (2 shared connections)
+- [[Community 35]] (1 shared connections)
+- [[Community 49]] (1 shared connections)
+- [[Community 39]] (1 shared connections)
+- [[Client Products Data Store]] (1 shared connections)
+- [[Master Codebase Architecture Reference]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-B5zpIaTm.js`
+- `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 71 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

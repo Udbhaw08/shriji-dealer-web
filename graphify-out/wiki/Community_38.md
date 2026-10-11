@@ -1,55 +1,58 @@
 # Community 38
 
-> 32 nodes · cohesion 0.11
+> 36 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **vl()** (27 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **yl()** (15 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **qd()** (14 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **Yd()** (13 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **Vd()** (12 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **bl()** (10 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **Ei()** (8 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **je()** (8 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **ef()** (7 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **Bd()** (6 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **Hd()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **Io()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **is()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **zo()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **Fi()** (4 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **hl()** (4 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **ko()** (4 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **ta()** (4 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **tf()** (4 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **va()** (4 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **Gd()** (3 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **gl()** (3 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **Hc()** (3 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **hf()** (3 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **ml()** (3 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- *... and 7 more nodes in this community*
+- **df()** (13 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **rf()** (12 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **Kt()** (9 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **verify()** (9 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **cf()** (8 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **ft()** (8 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **nf()** (8 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **af()** (7 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **ff()** (7 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **He()** (7 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **jf()** (7 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **lf()** (7 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **render()** (7 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **reset()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **sf()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **Wf()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **assertNotDestroyed()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **clear()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **qe()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **td()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **ch()** (4 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **checkIfDeleted()** (4 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **getAssertedRecaptcha()** (4 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **getResponse()** (4 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **isProviderEnabled()** (4 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (34 shared connections)
-- [[Dependencies & Package Config]] (18 shared connections)
-- [[Testing & Workflow Skill]] (14 shared connections)
-- [[Community 55]] (5 shared connections)
-- [[Community 32]] (4 shared connections)
-- [[Zoho Integration Skill]] (3 shared connections)
-- [[Community 70]] (3 shared connections)
-- [[Oxlint Linter Configuration]] (3 shared connections)
-- [[Community 35]] (1 shared connections)
+- [[Price Presentation & Product UI]] (38 shared connections)
+- [[Master Codebase Architecture Reference]] (12 shared connections)
+- [[Pricing Regression Test Suite]] (9 shared connections)
+- [[Graphify Agent Rules]] (6 shared connections)
+- [[Community 49]] (6 shared connections)
+- [[Client Products Data Store]] (5 shared connections)
+- [[Community 35]] (4 shared connections)
+- [[Community 29]] (4 shared connections)
+- [[Community 39]] (3 shared connections)
+- [[Claude Agent Instructions]] (2 shared connections)
+- [[Community 99]] (2 shared connections)
+- [[Community 67]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
 
 ## Audit Trail
 
-- EXTRACTED: 197 (100%)
+- EXTRACTED: 196 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

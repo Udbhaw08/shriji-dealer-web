@@ -1,28 +1,29 @@
 # Community 181
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **lifecycle.schema.json** (7 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$id** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$schema** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **title** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **story-carrier.test.mjs** (7 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
 
 ## Relationships
 
-- [[Community 90]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `.agents/skills/archify/test/story-carrier.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

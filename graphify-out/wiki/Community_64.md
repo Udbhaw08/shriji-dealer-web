@@ -1,54 +1,54 @@
 # Community 64
 
-> 21 nodes · cohesion 0.18
+> 23 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **utils.mjs** (26 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **i18n.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **translateMessage()** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **legend.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **renderLegend()** (14 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **applyTemplate()** (9 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **resolveLocale()** (7 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **legendFootprint()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **measureLegend()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **viewerCatalog()** (4 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **localizeTemplate()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **translateCount()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **formatMessage()** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **measuredEntryWidth()** (2 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **serializeScriptJson()** (2 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **CATALOGS** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **ESCAPE_MAP** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **MESSAGE_PAIRS** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **SIGIL_SHAPE** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **SIGIL_TONE** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **TEMPLATE_PLACEHOLDERS** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **addEventListener()** (21 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **constructor()** (20 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **resolve()** (18 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **cm()** (12 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **execute()** (10 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **addListener()** (8 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **_withRetries()** (6 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **go()** (5 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **_remove()** (5 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **_isAvailable()** (4 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **no()** (4 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **addWindowListener()** (3 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **attachListener()** (3 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **executeNotNull()** (3 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **oh()** (3 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **registerLifecycleListeners()** (3 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **set()** (3 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **_withPendingWrite()** (3 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **addScope()** (2 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **makeTokenCallback()** (2 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **_openDb()** (2 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **sendRetainedArgumentsForEvent()** (2 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **validateStartingState()** (2 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
 
 ## Relationships
 
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (15 shared connections)
-- [[Community 37]] (12 shared connections)
-- [[Community 48]] (11 shared connections)
-- [[Product Requirements Documentation]] (10 shared connections)
-- [[Design System & UI Tokens]] (10 shared connections)
-- [[Product Pages Specification]] (9 shared connections)
-- [[Community 43]] (5 shared connections)
-- [[Community 95]] (5 shared connections)
-- [[Claude Agent Instructions]] (1 shared connections)
-- [[Community 171]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (35 shared connections)
+- [[Dependencies & Package Config]] (15 shared connections)
+- [[Product Pages Specification]] (7 shared connections)
+- [[Testing & Workflow Skill]] (6 shared connections)
+- [[Product Requirements Documentation]] (5 shared connections)
+- [[Community 41]] (5 shared connections)
+- [[Community 32]] (4 shared connections)
+- [[Community 46]] (3 shared connections)
+- [[Community 70]] (2 shared connections)
+- [[Zoho Integration Architecture]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/i18n.mjs`
-- `.agents/skills/archify/renderers/shared/legend.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `ios/App/App/public/assets/index-DxTMC5SR.js`
 
 ## Audit Trail
 
-- EXTRACTED: 151 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 144 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,23 +1,23 @@
 # Community 102
 
-> 14 nodes · cohesion 0.14
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **generate-brand-marks.mjs** (13 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **catalog** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **catalogPath** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **domains** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **fail()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **generated** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **here** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **ids** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **lookupForms()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **lookupKeys** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **normalizedList()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **outputPath** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **root** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **simpleBySlug** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **web-CPfpXF_h.js** (13 connections) — `ios/App/App/public/assets/web-CPfpXF_h.js`
+- **applyPrefix()** (4 connections) — `ios/App/App/public/assets/web-CPfpXF_h.js`
+- **keys()** (4 connections) — `ios/App/App/public/assets/web-CPfpXF_h.js`
+- **get()** (3 connections) — `ios/App/App/public/assets/web-CPfpXF_h.js`
+- **migrate()** (3 connections) — `ios/App/App/public/assets/web-CPfpXF_h.js`
+- **rawKeys()** (3 connections) — `ios/App/App/public/assets/web-CPfpXF_h.js`
+- **clear()** (2 connections) — `ios/App/App/public/assets/web-CPfpXF_h.js`
+- **remove()** (2 connections) — `ios/App/App/public/assets/web-CPfpXF_h.js`
+- **removeOld()** (2 connections) — `ios/App/App/public/assets/web-CPfpXF_h.js`
+- **set()** (2 connections) — `ios/App/App/public/assets/web-CPfpXF_h.js`
+- **configure()** (1 connections) — `ios/App/App/public/assets/web-CPfpXF_h.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-CPfpXF_h.js`
+- **impl()** (1 connections) — `ios/App/App/public/assets/web-CPfpXF_h.js`
+- **prefix()** (1 connections) — `ios/App/App/public/assets/web-CPfpXF_h.js`
 
 ## Relationships
 
@@ -25,11 +25,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- `ios/App/App/public/assets/web-CPfpXF_h.js`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

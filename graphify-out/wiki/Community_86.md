@@ -1,44 +1,42 @@
 # Community 86
 
-> 17 nodes · cohesion 0.21
+> 18 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **vl()** (27 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **yl()** (15 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **bl()** (10 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **je()** (8 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **da()** (6 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **Io()** (5 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **zo()** (5 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **hl()** (4 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **ko()** (4 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **ta()** (4 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **va()** (4 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **gl()** (3 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **ml()** (3 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **Ud()** (3 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **Ym()** (3 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **fa()** (2 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **Wf()** (2 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **checkForUpdate()** (19 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **commitOperation()** (14 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **acknowledgeUpdate()** (13 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cancelOperation()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **resultForCandidate()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **silent()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **readState()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **resultAfterLosingOperation()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **readJsonFile()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **transitionOperation()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **operationOwnsActiveClaim()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **runCli()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **freshStateResult()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **versionCacheDirectory()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertBoundedRegularFile()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **digestForEventKey()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **fetchCandidate()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **waitUntilRetry()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (20 shared connections)
-- [[Client Products Data Store]] (11 shared connections)
-- [[Master Codebase Architecture Reference]] (11 shared connections)
-- [[Community 56]] (4 shared connections)
-- [[Community 73]] (3 shared connections)
-- [[Live Pricing Audit Tool]] (2 shared connections)
-- [[Project Readme & Layout]] (1 shared connections)
+- [[Community 48]] (20 shared connections)
+- [[Community 44]] (18 shared connections)
+- [[Community 58]] (3 shared connections)
+- [[Community 34]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BpPwjHSs.js`
+- `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 108 (100%)
+- EXTRACTED: 111 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

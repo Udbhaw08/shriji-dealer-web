@@ -1,56 +1,57 @@
 # Zoho Integration Architecture
 
-> 53 nodes · cohesion 0.08
+> 62 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **zoho.js** (31 connections) — `api/zoho.js`
-- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
-- **fetchZohoProductById()** (12 connections) — `api/zoho.js`
-- **fetchZohoProducts()** (11 connections) — `api/zoho.js`
-- **fetchZohoWithRetry()** (11 connections) — `api/zoho.js`
-- **getZohoConfig()** (11 connections) — `api/zoho.js`
-- **findDealerByPhone()** (9 connections) — `api/zoho.js`
-- **vite.config.js** (9 connections) — `vite.config.js`
-- **createDealerContact()** (8 connections) — `api/zoho.js`
-- **getDealerById()** (8 connections) — `api/zoho.js`
-- **fetchZohoCategories()** (7 connections) — `api/zoho.js`
-- **getAccessToken()** (7 connections) — `api/zoho.js`
-- **zohoApiPlugin()** (7 connections) — `vite.config.js`
-- **fetchZohoPricebookItems()** (5 connections) — `api/zoho.js`
-- **normalizeProduct()** (5 connections) — `api/zoho.js`
-- **index.js** (4 connections) — `api/products/index.js`
-- **test-zoho-api.mjs** (4 connections) — `scripts/test-zoho-api.mjs`
-- **og.js** (3 connections) — `api/og.js`
-- **fetchZohoPricebooks()** (3 connections) — `api/zoho.js`
-- **loadEnv()** (3 connections) — `api/zoho.js`
-- **apply.js** (3 connections) — `api/dealer/apply.js`
-- **info.js** (3 connections) — `api/dealer/info.js`
-- **login.js** (3 connections) — `api/dealer/login.js`
-- **[id].js** (3 connections) — `api/products/[id].js`
-- **handler()** (3 connections) — `api/products/index.js`
-- *... and 28 more nodes in this community*
+- **yl()** (27 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **qd()** (17 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **Yd()** (16 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **Fd()** (15 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **Vd()** (15 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **jd()** (13 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **Ci()** (12 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **Ld()** (12 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **error()** (11 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **bl()** (10 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **xl()** (10 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **ef()** (9 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **Fu()** (9 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **iu()** (9 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **Nd()** (9 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **pa()** (9 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **Rd()** (9 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **Bd()** (8 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **pt()** (8 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **ql()** (8 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **zd()** (8 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **Gd()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **gl()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **gu()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **Hd()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- *... and 37 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (70 shared connections)
+- [[Product Pages Specification]] (34 shared connections)
+- [[Product Requirements Documentation]] (23 shared connections)
+- [[Dependencies & Package Config]] (21 shared connections)
+- [[Community 46]] (12 shared connections)
+- [[Community 41]] (8 shared connections)
+- [[Community 32]] (8 shared connections)
+- [[Testing & Workflow Skill]] (6 shared connections)
+- [[Community 43]] (5 shared connections)
+- [[Community 64]] (2 shared connections)
+- [[Community 70]] (1 shared connections)
 
 ## Source Files
 
-- `api/dealer/apply.js`
-- `api/dealer/info.js`
-- `api/dealer/login.js`
-- `api/og.js`
-- `api/products/[id].js`
-- `api/products/index.js`
-- `api/zoho.js`
-- `scripts/audit_prices.mjs`
-- `scripts/test-zoho-api.mjs`
-- `vite.config.js`
+- `ios/App/App/public/assets/index-DxTMC5SR.js`
 
 ## Audit Trail
 
-- EXTRACTED: 226 (100%)
+- EXTRACTED: 410 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

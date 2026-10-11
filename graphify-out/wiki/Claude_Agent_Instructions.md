@@ -1,59 +1,59 @@
 # Claude Agent Instructions
 
-> 42 nodes · cohesion 0.08
+> 43 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **brand-marks.mjs** (51 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **brand-marks.test.mjs** (15 connections) — `.agents/skills/archify/test/brand-marks.test.mjs`
-- **captureRemoteBrand()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **captureBrandReference()** (6 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **commandBrands()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **findBrandMark()** (5 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **checkedFetch()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **isPrivateBrandAddress()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **resolveRequestTarget()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **asUrl()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **iconCandidates()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **imageData()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **ipv4Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **ipv6Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **lookupForms()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **readLimited()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **validateUrlShape()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **generated-brand-marks.mjs** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
-- **BRAND_MARKS** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
-- **attribute()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **beforeDeadline()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **domainMark()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **listBrandMarks()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **remoteBrand()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **requestPinned()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- *... and 17 more nodes in this community*
+- **reject()** (22 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **hu()** (11 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **rm()** (10 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **dh()** (9 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **zu()** (9 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **directlySetCurrentUser()** (8 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **fm()** (8 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **initializeCurrentUser()** (8 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **Lt()** (7 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **setPersistence()** (7 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **_setRedirectUser()** (7 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **signOut()** (7 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **getCurrentUser()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **getOrInitRedirectPersistenceManager()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **onAuthEvent()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **queue()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **runMiddleware()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **sendToConsumer()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **updateCurrentUser()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **Uu()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **cancel()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **_fromGetAccountInfoResponse()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **It()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **removeCurrentUser()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **rt()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (7 shared connections)
-- [[Design System & UI Tokens]] (7 shared connections)
-- [[Community 41]] (2 shared connections)
-- [[Community 48]] (2 shared connections)
-- [[Product Requirements Documentation]] (1 shared connections)
-- [[Community 43]] (1 shared connections)
-- [[Community 37]] (1 shared connections)
-- [[Product Pages Specification]] (1 shared connections)
-- [[Community 64]] (1 shared connections)
+- [[Price Presentation & Product UI]] (56 shared connections)
+- [[Pricing Regression Test Suite]] (18 shared connections)
+- [[Zoho Integration Skill]] (9 shared connections)
+- [[Client Products Data Store]] (8 shared connections)
+- [[Master Codebase Architecture Reference]] (7 shared connections)
+- [[Community 35]] (5 shared connections)
+- [[Community 49]] (5 shared connections)
+- [[Community 39]] (4 shared connections)
+- [[Graphify Agent Rules]] (3 shared connections)
+- [[Community 67]] (2 shared connections)
+- [[Community 38]] (2 shared connections)
+- [[Community 99]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
-- `.agents/skills/archify/test/brand-marks.test.mjs`
+- `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
 
 ## Audit Trail
 
-- EXTRACTED: 157 (98%)
-- INFERRED: 4 (2%)
+- EXTRACTED: 245 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

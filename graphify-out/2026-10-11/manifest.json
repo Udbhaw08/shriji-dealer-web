@@ -1,0 +1,2847 @@
+{
+  ".oxlintrc.json": {
+    "mtime": 1789682547.107423,
+    "ast_hash": "5e6e3cea3e89137071c142dd7835b0ef",
+    "semantic_hash": ""
+  },
+  "api/dealer/apply.js": {
+    "mtime": 1790545237.2187521,
+    "ast_hash": "de21c34e7ee04f137f3f3443a286feb1",
+    "semantic_hash": ""
+  },
+  "api/dealer/info.js": {
+    "mtime": 1790545243.0129745,
+    "ast_hash": "8b9e7b82909d7f5f711bd83e12e09b0e",
+    "semantic_hash": ""
+  },
+  "api/dealer/login.js": {
+    "mtime": 1790545231.8320994,
+    "ast_hash": "de8fffa20cfd2d2009f47c0739d8b9a0",
+    "semantic_hash": ""
+  },
+  "api/products/[id].js": {
+    "mtime": 1790545256.3681028,
+    "ast_hash": "c361d782fb9bb281dac957502aeb25cd",
+    "semantic_hash": ""
+  },
+  "api/products/index.js": {
+    "mtime": 1790545251.206771,
+    "ast_hash": "202d3af16d124d0e28200077bc75c112",
+    "semantic_hash": ""
+  },
+  "api/zoho.js": {
+    "mtime": 1790616136.2023244,
+    "ast_hash": "f1957103f80806651e571e37a8d4c4f4",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1791703088.7202742,
+    "ast_hash": "2113fa7f7af0fe5eb5c93baab7e17ab4",
+    "semantic_hash": ""
+  },
+  "scripts/audit_prices.mjs": {
+    "mtime": 1789938466.3297575,
+    "ast_hash": "6a751b5a59425cbdc8d53d90885f48d4",
+    "semantic_hash": ""
+  },
+  "scripts/generate-codebase-doc.mjs": {
+    "mtime": 1790548581.207212,
+    "ast_hash": "f7a429d8f87fa30bf3ef1d0e86d4e635",
+    "semantic_hash": ""
+  },
+  "scripts/test-zoho-api.mjs": {
+    "mtime": 1789992630.1203096,
+    "ast_hash": "90afb48a2dada31699c3ae44b4d34831",
+    "semantic_hash": ""
+  },
+  "src/components/PriceBlock.jsx": {
+    "mtime": 1790542571.961546,
+    "ast_hash": "9342e9dc39006c9aded4b087cff989dd",
+    "semantic_hash": ""
+  },
+  "src/components/ProductCard.jsx": {
+    "mtime": 1790547505.6947503,
+    "ast_hash": "1470be4038d7cb28e4304922d21da7e9",
+    "semantic_hash": ""
+  },
+  "src/data/dealer.js": {
+    "mtime": 1790616100.885522,
+    "ast_hash": "ecd6d18a35e319f7f286172f1a5e32ed",
+    "semantic_hash": ""
+  },
+  "src/data/dealer.test.mjs": {
+    "mtime": 1790542714.4642422,
+    "ast_hash": "ab90c12976d3c390c0d2b1af0c90b5a7",
+    "semantic_hash": ""
+  },
+  "src/data/pricing.test.mjs": {
+    "mtime": 1789989150.4299767,
+    "ast_hash": "f975927c21ae6e612efaac03206b357f",
+    "semantic_hash": ""
+  },
+  "src/data/products.js": {
+    "mtime": 1790124210.8819609,
+    "ast_hash": "dda6df7e5a4ca34bfbadd9cdde8d3167",
+    "semantic_hash": ""
+  },
+  "src/data/productsStore.js": {
+    "mtime": 1790545776.047052,
+    "ast_hash": "61159b4721e8dfdb72ebf91cbd2455d9",
+    "semantic_hash": ""
+  },
+  "src/data/session.js": {
+    "mtime": 1791156612.758863,
+    "ast_hash": "437d1e9277176e336016dd53d8656cb1",
+    "semantic_hash": ""
+  },
+  "src/data/site.js": {
+    "mtime": 1790547646.6237018,
+    "ast_hash": "33b6e3a97244288fe3a930c5031d87e8",
+    "semantic_hash": ""
+  },
+  "src/main.jsx": {
+    "mtime": 1791156813.483867,
+    "ast_hash": "bb594d59f12ec436e4f77e3ad49e82da",
+    "semantic_hash": ""
+  },
+  "src/pages/Home.jsx": {
+    "mtime": 1790541615.2775764,
+    "ast_hash": "2b3fb910fd9e47c29da2535397bdaaf0",
+    "semantic_hash": ""
+  },
+  "src/pages/Login.jsx": {
+    "mtime": 1791717135.771305,
+    "ast_hash": "917efe0e5f0b5d88924090572a53f302",
+    "semantic_hash": ""
+  },
+  "src/pages/Product.jsx": {
+    "mtime": 1790552481.63377,
+    "ast_hash": "01463176ad8352493a932a91690b6b3f",
+    "semantic_hash": ""
+  },
+  "src/pages/Products.jsx": {
+    "mtime": 1790552734.9098477,
+    "ast_hash": "741a78a3fb53a3628cbf9fd987433438",
+    "semantic_hash": ""
+  },
+  "src/pages/Schemes.jsx": {
+    "mtime": 1790121036.441744,
+    "ast_hash": "2f8ceace03bcad6318f8101f78f6528d",
+    "semantic_hash": ""
+  },
+  "src/pages/Support.jsx": {
+    "mtime": 1790124701.1075118,
+    "ast_hash": "4e59b7177b191f07ca07945efa29aa05",
+    "semantic_hash": ""
+  },
+  "src/ui.jsx": {
+    "mtime": 1790552488.5909097,
+    "ast_hash": "8a3c004c5f358ad011e3bb01bd6779f1",
+    "semantic_hash": ""
+  },
+  "vercel.json": {
+    "mtime": 1790545226.5646553,
+    "ast_hash": "2b82e02022e3134f296d104e88b0c137",
+    "semantic_hash": ""
+  },
+  "vite.config.js": {
+    "mtime": 1790545932.4789405,
+    "ast_hash": "fff933ac840fe14434cf942bfd77e930",
+    "semantic_hash": ""
+  },
+  ".agents/rules/graphify.md": {
+    "mtime": 1789991990.338364,
+    "ast_hash": "488077196afed8efa7d18b48ebd19f6d",
+    "semantic_hash": ""
+  },
+  ".agents/skills/shriji-pricing-and-roles/SKILL.md": {
+    "mtime": 1789991226.099891,
+    "ast_hash": "c39c98dea2bbd3fcab4779153c06d2da",
+    "semantic_hash": ""
+  },
+  ".agents/skills/shriji-responsive-ui/SKILL.md": {
+    "mtime": 1789991218.2923667,
+    "ast_hash": "c07b113dac8ae001c030c77760f3d2f2",
+    "semantic_hash": ""
+  },
+  ".agents/skills/shriji-testing-and-workflow/SKILL.md": {
+    "mtime": 1789991231.7912915,
+    "ast_hash": "afbdb8a40117433c7be65a3158b209c6",
+    "semantic_hash": ""
+  },
+  ".agents/skills/shriji-zoho-integration/SKILL.md": {
+    "mtime": 1791154432.4305458,
+    "ast_hash": "75c0ee51bbfc030f81b0b5b621d054d1",
+    "semantic_hash": ""
+  },
+  ".agents/workflows/graphify.md": {
+    "mtime": 1789991706.8099246,
+    "ast_hash": "637776aa6f7496d069afe7520c845c8a",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1791154449.018458,
+    "ast_hash": "9488438aeb97db05607cf25793d4ad15",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1789991808.544361,
+    "ast_hash": "049d94da0545f3d0394086456dc384ae",
+    "semantic_hash": ""
+  },
+  "CODEBASE.md": {
+    "mtime": 1791717639.59238,
+    "ast_hash": "0f82aedf4b4a347c7e4a76840d26d8fe",
+    "semantic_hash": ""
+  },
+  "PRD.md": {
+    "mtime": 1789857885.6009388,
+    "ast_hash": "44d9ec2bd36fb3f5f41cf17c4850d9a9",
+    "semantic_hash": ""
+  },
+  "PRODUCT.md": {
+    "mtime": 1789856026.7262936,
+    "ast_hash": "ee9bd1e2cb17ee50b912f69e01ba6415",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1791706378.0550911,
+    "ast_hash": "56904a5707fcd8c36b1c4c1fda8d83bf",
+    "semantic_hash": ""
+  },
+  "docs/DESIGN.md": {
+    "mtime": 1789855914.0106182,
+    "ast_hash": "9820bfb74da7d692147892bb739d04e0",
+    "semantic_hash": ""
+  },
+  "docs/PRICING-ARCHITECTURE.md": {
+    "mtime": 1789938651.5772204,
+    "ast_hash": "266229ecd91bbfd830917027de409d3d",
+    "semantic_hash": ""
+  },
+  "docs/PRODUCT-PAGES.md": {
+    "mtime": 1789857914.4470172,
+    "ast_hash": "3338a56d11207f9e7b073af7753c8ad8",
+    "semantic_hash": ""
+  },
+  "docs/ROLES-AND-SHARING.md": {
+    "mtime": 1789857843.738059,
+    "ast_hash": "d6d031a57ca8019ed78f4ce4a7665e32",
+    "semantic_hash": ""
+  },
+  "docs/ZOHO-INTEGRATION.md": {
+    "mtime": 1791154426.2304697,
+    "ast_hash": "f1cec8ebffd0c10e478c055bef9f0e36",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1791701681.8138278,
+    "ast_hash": "ff8b39f4ef4769f9501f546043ce8a23",
+    "semantic_hash": ""
+  },
+  "mobile ref.jpeg": {
+    "mtime": 1789854616.5372598,
+    "ast_hash": "60bf188e3db4861a70855162310ad544",
+    "semantic_hash": ""
+  },
+  "public/favicon.svg": {
+    "mtime": 1790120722.3329093,
+    "ast_hash": "891628f87807f327b6450431e829445c",
+    "semantic_hash": ""
+  },
+  "public/icons.svg": {
+    "mtime": 1789682547.1171334,
+    "ast_hash": "3b4fcfcf393eca4d264dca4a4663bc37",
+    "semantic_hash": ""
+  },
+  "public/img/cat-chimneys.webp": {
+    "mtime": 1790124374.4683697,
+    "ast_hash": "ae9f965e49c31583d42cac77c0653606",
+    "semantic_hash": ""
+  },
+  "public/img/cat-gas_stoves.webp": {
+    "mtime": 1790124374.4348924,
+    "ast_hash": "a93ad57067caa92bf2ac166d9246c286",
+    "semantic_hash": ""
+  },
+  "public/img/cat-hob_tops.webp": {
+    "mtime": 1790124374.4173172,
+    "ast_hash": "ff8c1f74ffc52f2fb8f04a09cfbf9419",
+    "semantic_hash": ""
+  },
+  "public/img/cat-hobs.webp": {
+    "mtime": 1790124374.451269,
+    "ast_hash": "289e8d47024a988b373a983ccb356941",
+    "semantic_hash": ""
+  },
+  "public/img/cat-small_appliances.webp": {
+    "mtime": 1790124374.485758,
+    "ast_hash": "86dd2b287743546fd3500cff8388ad9d",
+    "semantic_hash": ""
+  },
+  "public/img/logo-alt.png": {
+    "mtime": 1789682630.8990362,
+    "ast_hash": "628f282c123973b38ec08763d3464072",
+    "semantic_hash": ""
+  },
+  "public/img/logo.png": {
+    "mtime": 1790120665.8196652,
+    "ast_hash": "cb3afb10b2830eb631840f5d79b5df2b",
+    "semantic_hash": ""
+  },
+  "src/assets/hero.png": {
+    "mtime": 1789682547.1273108,
+    "ast_hash": "aead493361b27e7510691c5d7072dfc1",
+    "semantic_hash": ""
+  },
+  "src/assets/vite.svg": {
+    "mtime": 1789682547.1337776,
+    "ast_hash": "9960a24288958394ac50e57ff638b036",
+    "semantic_hash": ""
+  },
+  "web ref.jpeg": {
+    "mtime": 1789854439.0005178,
+    "ast_hash": "572396f3b02a12d3bf7a52951a5e3f3c",
+    "semantic_hash": ""
+  },
+  ".agents/skills/graphify/SKILL.md": {
+    "mtime": 1789991795.8748198,
+    "ast_hash": "c928f770078240b1d76295b2a1bebc8f",
+    "semantic_hash": ""
+  },
+  "scripts/build_wiki.py": {
+    "mtime": 1789991965.2657118,
+    "ast_hash": "7d061495e96de218733d672403b07fed",
+    "semantic_hash": ""
+  },
+  "GEMINI.md": {
+    "mtime": 1790542811.1390476,
+    "ast_hash": "6ce19ffe76168895f2d54bfff9f143be",
+    "semantic_hash": ""
+  },
+  "src/components/UnderMaintenance.jsx": {
+    "mtime": 1790018707.6073039,
+    "ast_hash": "4541f2061cb646aa1c0e70d2ca615487",
+    "semantic_hash": ""
+  },
+  "src/data/i18n.js": {
+    "mtime": 1790016538.33968,
+    "ast_hash": "1d91f9832bffa0797c20374d07523092",
+    "semantic_hash": ""
+  },
+  "src/data/translations.js": {
+    "mtime": 1790549213.742903,
+    "ast_hash": "ec7859570c4cd68064e55dcca3f4c2c6",
+    "semantic_hash": ""
+  },
+  "src/components/MobileBottomNav.jsx": {
+    "mtime": 1790547624.5382392,
+    "ast_hash": "619f242c6abc795e620b40903213ab9c",
+    "semantic_hash": ""
+  },
+  "public/favicon.png": {
+    "mtime": 1790120672.5045967,
+    "ast_hash": "92c6e11b715d1fc7b5fbaf4add2ef995",
+    "semantic_hash": ""
+  },
+  "public/img/restor-banner.png": {
+    "mtime": 1790120665.815498,
+    "ast_hash": "cb3afb10b2830eb631840f5d79b5df2b",
+    "semantic_hash": ""
+  },
+  "public/img/restor-icon.png": {
+    "mtime": 1790120672.505609,
+    "ast_hash": "92c6e11b715d1fc7b5fbaf4add2ef995",
+    "semantic_hash": ""
+  },
+  "public/img/restor-logo.png": {
+    "mtime": 1790120665.8196652,
+    "ast_hash": "cb3afb10b2830eb631840f5d79b5df2b",
+    "semantic_hash": ""
+  },
+  "public/img/restor-original.png": {
+    "mtime": 1790120665.7934873,
+    "ast_hash": "9abcfb619ee6e19148c8df7bae023f77",
+    "semantic_hash": ""
+  },
+  "public/img/restor-wordmark-blue.png": {
+    "mtime": 1790120672.467429,
+    "ast_hash": "06f8c57bbc3c4f22f18f4db773cce21f",
+    "semantic_hash": ""
+  },
+  "public/img/restor-wordmark-white.png": {
+    "mtime": 1790120672.4649794,
+    "ast_hash": "c27e53e1ca9f26e7e78e1370346767c3",
+    "semantic_hash": ""
+  },
+  "scripts/make-scheme-pdfs.mjs": {
+    "mtime": 1790120984.1796072,
+    "ast_hash": "85bcbca5e6d8105257047a51b678d08f",
+    "semantic_hash": ""
+  },
+  "public/downloads/Sunshine-Annual-Business-Scheme-FY26-27.pdf": {
+    "mtime": 1790120989.3799646,
+    "ast_hash": "bdeed19404336b7896c91b7ba9b5a5a6",
+    "semantic_hash": ""
+  },
+  "public/downloads/Sunshine-Diwali-Scheme-2026.pdf": {
+    "mtime": 1790120989.3833773,
+    "ast_hash": "5c094a958d03e810cdc7429b0352465c",
+    "semantic_hash": ""
+  },
+  "public/img/mat-ad-scene.png": {
+    "mtime": 1790120925.993737,
+    "ast_hash": "2302bc24a96a7a8af0871e7130832c0f",
+    "semantic_hash": ""
+  },
+  "public/img/mat-blender-fryer.jpg": {
+    "mtime": 1790120961.242881,
+    "ast_hash": "a9259e19f5c30fe4cea989c667ce036b",
+    "semantic_hash": ""
+  },
+  "public/img/mat-blender-nutri.png": {
+    "mtime": 1790120925.9887164,
+    "ast_hash": "85390d0c8437dc116afa049c06668cc2",
+    "semantic_hash": ""
+  },
+  "public/img/mat-chimney-aura.png": {
+    "mtime": 1790120925.9841976,
+    "ast_hash": "47781b72874e4628eb7aedbaabd583a4",
+    "semantic_hash": ""
+  },
+  "public/img/mat-safari-stove.jpg": {
+    "mtime": 1790120961.2363572,
+    "ast_hash": "220ca5044bcb2329862bf7a465638fa0",
+    "semantic_hash": ""
+  },
+  "public/img/mat-stove-kyoto.png": {
+    "mtime": 1790120925.9787467,
+    "ast_hash": "dc2135c169f3cdf3ab43ce0176a837dc",
+    "semantic_hash": ""
+  },
+  "public/img/scheme-annual-business-2026.jpg": {
+    "mtime": 1790120902.6344995,
+    "ast_hash": "9ab29581e0221348986bf81e3d969db2",
+    "semantic_hash": ""
+  },
+  "public/img/scheme-diwali-2026.jpg": {
+    "mtime": 1790120902.636062,
+    "ast_hash": "06f734b4d126de0d3c3d4c8951eefb4a",
+    "semantic_hash": ""
+  },
+  "src/data/portalGate.js": {
+    "mtime": 1790121644.8562033,
+    "ast_hash": "8012083c5b18288f5c283514912dfab9",
+    "semantic_hash": ""
+  },
+  "src/components/HeroSlider.jsx": {
+    "mtime": 1790124325.0762446,
+    "ast_hash": "3edcf94d531c3641b36fce9eb2189bbd",
+    "semantic_hash": ""
+  },
+  "public/img/hero-defender.jpg": {
+    "mtime": 1790122745.1311412,
+    "ast_hash": "6442c2c083104d21469e094508ebb226",
+    "semantic_hash": ""
+  },
+  "public/img/hero-restor-vision.jpg": {
+    "mtime": 1790122745.127955,
+    "ast_hash": "b7f2347f34ce1397e59ccc4427a3320a",
+    "semantic_hash": ""
+  },
+  "public/img/hero-shine-platinum.jpg": {
+    "mtime": 1790122745.1295724,
+    "ast_hash": "5887cbba1c82d41c4361a17661ab6a4f",
+    "semantic_hash": ""
+  },
+  "public/img/banner-defender-wide.jpg": {
+    "mtime": 1790123794.0137103,
+    "ast_hash": "a8cb8d1579e9b8e8076ef58d01fef64c",
+    "semantic_hash": ""
+  },
+  "public/img/banner-restor-wide.jpg": {
+    "mtime": 1790123793.9661984,
+    "ast_hash": "8e745d7d0ec0c025687aa79249feeeea",
+    "semantic_hash": ""
+  },
+  "public/img/banner-shine-platinum-wide.jpg": {
+    "mtime": 1790123793.989824,
+    "ast_hash": "b494690257f36023daa6bc965dee0ab1",
+    "semantic_hash": ""
+  },
+  "public/img/banners/banner-defender-mobile.jpg": {
+    "mtime": 1790123899.8679492,
+    "ast_hash": "96e90096c39549569b4e1921831cf9b0",
+    "semantic_hash": ""
+  },
+  "public/img/banners/banner-defender.jpg": {
+    "mtime": 1790123888.811285,
+    "ast_hash": "5f5aecc1b17f5b86e5ccca5f495b4f7a",
+    "semantic_hash": ""
+  },
+  "public/img/banners/banner-restor-mobile.jpg": {
+    "mtime": 1790123899.8912413,
+    "ast_hash": "dd4ccaf566961ffd2e3ecc8291a5bee0",
+    "semantic_hash": ""
+  },
+  "public/img/banners/banner-restor.jpg": {
+    "mtime": 1790123895.1240036,
+    "ast_hash": "dfa05280a936c33e5c85086eb337904b",
+    "semantic_hash": ""
+  },
+  "public/img/banners/banner-shine-platinum-mobile.jpg": {
+    "mtime": 1790123899.8455434,
+    "ast_hash": "96404bcfa5628fac8cf7f3b44d9d24f0",
+    "semantic_hash": ""
+  },
+  "public/img/banners/banner-shine-platinum.jpg": {
+    "mtime": 1790123882.1362906,
+    "ast_hash": "f57473d5309f54ac6fccd90a73f746b7",
+    "semantic_hash": ""
+  },
+  "public/img/test-def-feat.png": {
+    "mtime": 1790123874.063981,
+    "ast_hash": "fc9767d6ff7179fc1a3e6864bb83f8de",
+    "semantic_hash": ""
+  },
+  "public/img/test-def-logo.png": {
+    "mtime": 1790123874.0030863,
+    "ast_hash": "1b5e715d21dc37c3ddac3aa3863419f7",
+    "semantic_hash": ""
+  },
+  "public/img/test-def-model.png": {
+    "mtime": 1790123874.052723,
+    "ast_hash": "24f4a432453e1e8e5c3de46981c86b4b",
+    "semantic_hash": ""
+  },
+  "public/img/test-def-specs.png": {
+    "mtime": 1790123874.0609846,
+    "ast_hash": "b29a01afb73bad513b6855698a85be78",
+    "semantic_hash": ""
+  },
+  "public/img/test-def-stove.png": {
+    "mtime": 1790123874.047714,
+    "ast_hash": "62317f075adacb9852b513b90d1b2f3c",
+    "semantic_hash": ""
+  },
+  "public/img/test-def-sub.png": {
+    "mtime": 1790123874.0070894,
+    "ast_hash": "e33c77cde9c0e5e29539e2c40766e652",
+    "semantic_hash": ""
+  },
+  "public/img/test-def-title.png": {
+    "mtime": 1790123874.0216372,
+    "ast_hash": "53573dbea0aaa3affce40386d822f98c",
+    "semantic_hash": ""
+  },
+  "public/img/test-shine-icons.png": {
+    "mtime": 1790123869.4497066,
+    "ast_hash": "c77b63cc4e49a5150007f2e81c65935f",
+    "semantic_hash": ""
+  },
+  "public/img/test-shine-logo.png": {
+    "mtime": 1790123869.4221187,
+    "ast_hash": "fd2911b0a13e15ed33efd3f9377b3dfc",
+    "semantic_hash": ""
+  },
+  "public/img/test-shine-stove.png": {
+    "mtime": 1790123869.4936664,
+    "ast_hash": "27186ad42ec2852f0806e2b7f1fc7570",
+    "semantic_hash": ""
+  },
+  "public/img/test-shine-title.png": {
+    "mtime": 1790123869.4321358,
+    "ast_hash": "734e04294bacaa6f946e25853177e8ed",
+    "semantic_hash": ""
+  },
+  "public/img/test-shine-variant.png": {
+    "mtime": 1790123869.452705,
+    "ast_hash": "b8ef571046c8abce0e38f23594bdfdbd",
+    "semantic_hash": ""
+  },
+  "public/img/test-shine-warranty.png": {
+    "mtime": 1790123869.4366443,
+    "ast_hash": "53f7ea4f1404e334c4b29b6ec40e438b",
+    "semantic_hash": ""
+  },
+  "1st.jpeg": {
+    "mtime": 1790124054.3019013,
+    "ast_hash": "f44b82f67c8fa16e62396aecdf2037e7",
+    "semantic_hash": ""
+  },
+  "2nd.jpeg": {
+    "mtime": 1790124058.7918606,
+    "ast_hash": "e5c4aa3ee52001ceb3437593ce2a5bd8",
+    "semantic_hash": ""
+  },
+  "3rd.jpeg": {
+    "mtime": 1790124049.289179,
+    "ast_hash": "485c6d4e4b080b2c076b645349bc8195",
+    "semantic_hash": ""
+  },
+  "public/img/1st.jpeg": {
+    "mtime": 1790124054.3019013,
+    "ast_hash": "f44b82f67c8fa16e62396aecdf2037e7",
+    "semantic_hash": ""
+  },
+  "public/img/2nd.jpeg": {
+    "mtime": 1790124058.7918606,
+    "ast_hash": "e5c4aa3ee52001ceb3437593ce2a5bd8",
+    "semantic_hash": ""
+  },
+  "public/img/3rd.jpeg": {
+    "mtime": 1790124049.289179,
+    "ast_hash": "485c6d4e4b080b2c076b645349bc8195",
+    "semantic_hash": ""
+  },
+  "android/app/build.gradle": {
+    "mtime": 1790542220.8679142,
+    "ast_hash": "2356c074a29cd629b2bb4f255c5e5fd7",
+    "semantic_hash": ""
+  },
+  "android/app/capacitor.build.gradle": {
+    "mtime": 1791717642.0004203,
+    "ast_hash": "6f95eb3e9a08ae902e6ebee49fae0e87",
+    "semantic_hash": ""
+  },
+  "android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java": {
+    "mtime": 1789138888.0,
+    "ast_hash": "fbaf7cc870c663eb52dcf218531c439d",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/capacitor.config.json": {
+    "mtime": 1791717641.9614913,
+    "ast_hash": "c3b7521daf5e0ffb05c899566a409603",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/capacitor.plugins.json": {
+    "mtime": 1791717641.983413,
+    "ast_hash": "5b7f24f78381c296e8f45d2e08b3387d",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/cordova.js": {
+    "mtime": 1791717641.9974205,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/cordova_plugins.js": {
+    "mtime": 1791717641.9974205,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/java/com/shrijidomestic/app/MainActivity.java": {
+    "mtime": 1790542220.8668804,
+    "ast_hash": "7b51b2e8a52eb5136e918b33fca46d79",
+    "semantic_hash": ""
+  },
+  "android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java": {
+    "mtime": 1789138888.0,
+    "ast_hash": "e91b4501c14da821682fa5c26a16d616",
+    "semantic_hash": ""
+  },
+  "android/build.gradle": {
+    "mtime": 1789138888.0,
+    "ast_hash": "682315a426653617c6a74fc12bef55b6",
+    "semantic_hash": ""
+  },
+  "android/capacitor-cordova-android-plugins/build.gradle": {
+    "mtime": 1791717642.0014205,
+    "ast_hash": "2af61653d70c95d20802c8b5c433ba90",
+    "semantic_hash": ""
+  },
+  "android/capacitor-cordova-android-plugins/cordova.variables.gradle": {
+    "mtime": 1791717642.0024195,
+    "ast_hash": "d2372a0ae9aa60abb8d03e7f06bf9194",
+    "semantic_hash": ""
+  },
+  "android/capacitor.settings.gradle": {
+    "mtime": 1791717641.9994211,
+    "ast_hash": "33ed8a9bcb1cb579ff402e4441ceba0e",
+    "semantic_hash": ""
+  },
+  "android/gradlew": {
+    "mtime": 1789138888.0,
+    "ast_hash": "794669d78aef1dd5c7d889ef618b311a",
+    "semantic_hash": ""
+  },
+  "android/settings.gradle": {
+    "mtime": 1789138888.0,
+    "ast_hash": "f6cd925b3f859e23c3d819fe2459e0e4",
+    "semantic_hash": ""
+  },
+  "android/variables.gradle": {
+    "mtime": 1789138888.0,
+    "ast_hash": "4b3fce8ea2a515a9d2e47e74757172ec",
+    "semantic_hash": ""
+  },
+  "capacitor.config.json": {
+    "mtime": 1790545744.0009258,
+    "ast_hash": "c004f284abd8d6d1e5175989597dc366",
+    "semantic_hash": ""
+  },
+  "ios/App/App/AppDelegate.swift": {
+    "mtime": 1789138889.0,
+    "ast_hash": "66cf80b6a9ef034e815c7d0135b97e36",
+    "semantic_hash": ""
+  },
+  "ios/App/App/Assets.xcassets/AppIcon.appiconset/Contents.json": {
+    "mtime": 1789138889.0,
+    "ast_hash": "7453c3002126811a57c38b2740f990cf",
+    "semantic_hash": ""
+  },
+  "ios/App/App/Assets.xcassets/Contents.json": {
+    "mtime": 1789138889.0,
+    "ast_hash": "31cc68f34934a99c0b0c1bebde56309c",
+    "semantic_hash": ""
+  },
+  "ios/App/App/Assets.xcassets/Splash.imageset/Contents.json": {
+    "mtime": 1789138889.0,
+    "ast_hash": "1162e1cddd7ea769bcacdd1aa7b4ac72",
+    "semantic_hash": ""
+  },
+  "ios/App/App/SceneDelegate.swift": {
+    "mtime": 1789138889.0,
+    "ast_hash": "109aded755e8064cd0c2de99e039aeb5",
+    "semantic_hash": ""
+  },
+  "ios/App/App/capacitor.config.json": {
+    "mtime": 1791717642.0924964,
+    "ast_hash": "153d51185cd9c15b71dd6730350bbb1e",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/cordova.js": {
+    "mtime": 1791717642.075527,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/cordova_plugins.js": {
+    "mtime": 1791717642.0760443,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "ios/App/CapApp-SPM/Package.swift": {
+    "mtime": 1791717642.0808039,
+    "ast_hash": "d382a118912be7b151ceff8ace266e42",
+    "semantic_hash": ""
+  },
+  "ios/App/CapApp-SPM/Sources/CapApp-SPM/CapApp-SPM.swift": {
+    "mtime": 1789138889.0,
+    "ast_hash": "0d92cb44a62bc3f2d73464a2e4f9a890",
+    "semantic_hash": ""
+  },
+  "src/data/api.js": {
+    "mtime": 1790616093.5848575,
+    "ast_hash": "3433b7d7f626353f3cbb134f147769c4",
+    "semantic_hash": ""
+  },
+  ".github/workflows/build-apps.yml": {
+    "mtime": 1790616947.28704,
+    "ast_hash": "62431835cdbf0d76d67a440d91c56d4e",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/index.html": {
+    "mtime": 1791717640.8382435,
+    "ast_hash": "97d6538418ea12e9a0193e54b5ed0337",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/index.html": {
+    "mtime": 1791717640.8382435,
+    "ast_hash": "97d6538418ea12e9a0193e54b5ed0337",
+    "semantic_hash": ""
+  },
+  "ios/App/CapApp-SPM/README.md": {
+    "mtime": 1789138889.0,
+    "ast_hash": "d256f6b5922d4249607779141357d565",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/downloads/Sunshine-Annual-Business-Scheme-FY26-27.pdf": {
+    "mtime": 1790120989.3799646,
+    "ast_hash": "bdeed19404336b7896c91b7ba9b5a5a6",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/downloads/Sunshine-Diwali-Scheme-2026.pdf": {
+    "mtime": 1790120989.3833773,
+    "ast_hash": "5c094a958d03e810cdc7429b0352465c",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/downloads/Sunshine-Annual-Business-Scheme-FY26-27.pdf": {
+    "mtime": 1790120989.3799646,
+    "ast_hash": "bdeed19404336b7896c91b7ba9b5a5a6",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/downloads/Sunshine-Diwali-Scheme-2026.pdf": {
+    "mtime": 1790120989.3833773,
+    "ast_hash": "5c094a958d03e810cdc7429b0352465c",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/favicon.png": {
+    "mtime": 1790120672.5045967,
+    "ast_hash": "92c6e11b715d1fc7b5fbaf4add2ef995",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/favicon.svg": {
+    "mtime": 1790120722.3329093,
+    "ast_hash": "891628f87807f327b6450431e829445c",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/icons.svg": {
+    "mtime": 1789682547.1171334,
+    "ast_hash": "3b4fcfcf393eca4d264dca4a4663bc37",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/1st.jpeg": {
+    "mtime": 1790124054.3019013,
+    "ast_hash": "f44b82f67c8fa16e62396aecdf2037e7",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/2nd.jpeg": {
+    "mtime": 1790124058.7918606,
+    "ast_hash": "e5c4aa3ee52001ceb3437593ce2a5bd8",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/3rd.jpeg": {
+    "mtime": 1790124049.289179,
+    "ast_hash": "485c6d4e4b080b2c076b645349bc8195",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/banner-defender-wide.jpg": {
+    "mtime": 1790123794.0137103,
+    "ast_hash": "a8cb8d1579e9b8e8076ef58d01fef64c",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/banner-restor-wide.jpg": {
+    "mtime": 1790123793.9661984,
+    "ast_hash": "8e745d7d0ec0c025687aa79249feeeea",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/banner-shine-platinum-wide.jpg": {
+    "mtime": 1790123793.989824,
+    "ast_hash": "b494690257f36023daa6bc965dee0ab1",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/banners/banner-defender-mobile.jpg": {
+    "mtime": 1790123899.8679492,
+    "ast_hash": "96e90096c39549569b4e1921831cf9b0",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/banners/banner-defender.jpg": {
+    "mtime": 1790123888.811285,
+    "ast_hash": "5f5aecc1b17f5b86e5ccca5f495b4f7a",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/banners/banner-restor-mobile.jpg": {
+    "mtime": 1790123899.8912413,
+    "ast_hash": "dd4ccaf566961ffd2e3ecc8291a5bee0",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/banners/banner-restor.jpg": {
+    "mtime": 1790123895.1240036,
+    "ast_hash": "dfa05280a936c33e5c85086eb337904b",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/banners/banner-shine-platinum-mobile.jpg": {
+    "mtime": 1790123899.8455434,
+    "ast_hash": "96404bcfa5628fac8cf7f3b44d9d24f0",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/banners/banner-shine-platinum.jpg": {
+    "mtime": 1790123882.1362906,
+    "ast_hash": "f57473d5309f54ac6fccd90a73f746b7",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/cat-chimneys.webp": {
+    "mtime": 1790124374.4683697,
+    "ast_hash": "ae9f965e49c31583d42cac77c0653606",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/cat-gas_stoves.webp": {
+    "mtime": 1790124374.4348924,
+    "ast_hash": "a93ad57067caa92bf2ac166d9246c286",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/cat-hob_tops.webp": {
+    "mtime": 1790124374.4173172,
+    "ast_hash": "ff8c1f74ffc52f2fb8f04a09cfbf9419",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/cat-hobs.webp": {
+    "mtime": 1790124374.451269,
+    "ast_hash": "289e8d47024a988b373a983ccb356941",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/cat-small_appliances.webp": {
+    "mtime": 1790124374.485758,
+    "ast_hash": "86dd2b287743546fd3500cff8388ad9d",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/hero-defender.jpg": {
+    "mtime": 1790122745.1311412,
+    "ast_hash": "6442c2c083104d21469e094508ebb226",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/hero-restor-vision.jpg": {
+    "mtime": 1790122745.127955,
+    "ast_hash": "b7f2347f34ce1397e59ccc4427a3320a",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/hero-shine-platinum.jpg": {
+    "mtime": 1790122745.1295724,
+    "ast_hash": "5887cbba1c82d41c4361a17661ab6a4f",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/logo-alt.png": {
+    "mtime": 1789682630.8990362,
+    "ast_hash": "628f282c123973b38ec08763d3464072",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/logo.png": {
+    "mtime": 1790120665.8196652,
+    "ast_hash": "cb3afb10b2830eb631840f5d79b5df2b",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/mat-ad-scene.png": {
+    "mtime": 1790120925.993737,
+    "ast_hash": "2302bc24a96a7a8af0871e7130832c0f",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/mat-blender-fryer.jpg": {
+    "mtime": 1790120961.242881,
+    "ast_hash": "a9259e19f5c30fe4cea989c667ce036b",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/mat-blender-nutri.png": {
+    "mtime": 1790120925.9887164,
+    "ast_hash": "85390d0c8437dc116afa049c06668cc2",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/mat-chimney-aura.png": {
+    "mtime": 1790120925.9841976,
+    "ast_hash": "47781b72874e4628eb7aedbaabd583a4",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/mat-safari-stove.jpg": {
+    "mtime": 1790120961.2363572,
+    "ast_hash": "220ca5044bcb2329862bf7a465638fa0",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/mat-stove-kyoto.png": {
+    "mtime": 1790120925.9787467,
+    "ast_hash": "dc2135c169f3cdf3ab43ce0176a837dc",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/restor-banner.png": {
+    "mtime": 1790120665.815498,
+    "ast_hash": "cb3afb10b2830eb631840f5d79b5df2b",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/restor-icon.png": {
+    "mtime": 1790120672.505609,
+    "ast_hash": "92c6e11b715d1fc7b5fbaf4add2ef995",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/restor-logo.png": {
+    "mtime": 1790120665.8196652,
+    "ast_hash": "cb3afb10b2830eb631840f5d79b5df2b",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/restor-original.png": {
+    "mtime": 1790120665.7934873,
+    "ast_hash": "9abcfb619ee6e19148c8df7bae023f77",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/restor-wordmark-blue.png": {
+    "mtime": 1790120672.467429,
+    "ast_hash": "06f8c57bbc3c4f22f18f4db773cce21f",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/restor-wordmark-white.png": {
+    "mtime": 1790120672.4649794,
+    "ast_hash": "c27e53e1ca9f26e7e78e1370346767c3",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/scheme-annual-business-2026.jpg": {
+    "mtime": 1790120902.6344995,
+    "ast_hash": "9ab29581e0221348986bf81e3d969db2",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/scheme-diwali-2026.jpg": {
+    "mtime": 1790120902.636062,
+    "ast_hash": "06f734b4d126de0d3c3d4c8951eefb4a",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/test-def-feat.png": {
+    "mtime": 1790123874.063981,
+    "ast_hash": "fc9767d6ff7179fc1a3e6864bb83f8de",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/test-def-logo.png": {
+    "mtime": 1790123874.0030863,
+    "ast_hash": "1b5e715d21dc37c3ddac3aa3863419f7",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/test-def-model.png": {
+    "mtime": 1790123874.052723,
+    "ast_hash": "24f4a432453e1e8e5c3de46981c86b4b",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/test-def-specs.png": {
+    "mtime": 1790123874.0609846,
+    "ast_hash": "b29a01afb73bad513b6855698a85be78",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/test-def-stove.png": {
+    "mtime": 1790123874.047714,
+    "ast_hash": "62317f075adacb9852b513b90d1b2f3c",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/test-def-sub.png": {
+    "mtime": 1790123874.0070894,
+    "ast_hash": "e33c77cde9c0e5e29539e2c40766e652",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/test-def-title.png": {
+    "mtime": 1790123874.0216372,
+    "ast_hash": "53573dbea0aaa3affce40386d822f98c",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/test-shine-icons.png": {
+    "mtime": 1790123869.4497066,
+    "ast_hash": "c77b63cc4e49a5150007f2e81c65935f",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/test-shine-logo.png": {
+    "mtime": 1790123869.4221187,
+    "ast_hash": "fd2911b0a13e15ed33efd3f9377b3dfc",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/test-shine-stove.png": {
+    "mtime": 1790123869.4936664,
+    "ast_hash": "27186ad42ec2852f0806e2b7f1fc7570",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/test-shine-title.png": {
+    "mtime": 1790123869.4321358,
+    "ast_hash": "734e04294bacaa6f946e25853177e8ed",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/test-shine-variant.png": {
+    "mtime": 1790123869.452705,
+    "ast_hash": "b8ef571046c8abce0e38f23594bdfdbd",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/test-shine-warranty.png": {
+    "mtime": 1790123869.4366443,
+    "ast_hash": "53f7ea4f1404e334c4b29b6ec40e438b",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/drawable-land-hdpi/splash.png": {
+    "mtime": 1789138888.0,
+    "ast_hash": "f7a80786dd355bd39014e58027aa6e19",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/drawable-land-mdpi/splash.png": {
+    "mtime": 1789138888.0,
+    "ast_hash": "acc976d4a36479233371a53021525c0c",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/drawable-land-xhdpi/splash.png": {
+    "mtime": 1789138888.0,
+    "ast_hash": "b8c72969bc1f78aab71a76035360d4af",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/drawable-land-xxhdpi/splash.png": {
+    "mtime": 1789138888.0,
+    "ast_hash": "f87e988387b07d843905f38b084929fb",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/drawable-land-xxxhdpi/splash.png": {
+    "mtime": 1789138888.0,
+    "ast_hash": "055a69553b16b0bf5f72094a2e459fc7",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/drawable-port-hdpi/splash.png": {
+    "mtime": 1789138888.0,
+    "ast_hash": "5eb10d16c81338abe8bbc033d49638a8",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/drawable-port-mdpi/splash.png": {
+    "mtime": 1789138888.0,
+    "ast_hash": "d855a76a5070c8e6fcfd83a27549bdce",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/drawable-port-xhdpi/splash.png": {
+    "mtime": 1789138888.0,
+    "ast_hash": "df100b2a36bdb98b711cca58941728de",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/drawable-port-xxhdpi/splash.png": {
+    "mtime": 1789138888.0,
+    "ast_hash": "2c1b668364e815256f67b71dcdfa4d6e",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/drawable-port-xxxhdpi/splash.png": {
+    "mtime": 1789138888.0,
+    "ast_hash": "b5b1b22b59abe686c1df0d74a423d034",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/drawable/splash.png": {
+    "mtime": 1789138888.0,
+    "ast_hash": "acc976d4a36479233371a53021525c0c",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-hdpi/ic_launcher.png": {
+    "mtime": 1789138888.0,
+    "ast_hash": "1956941339dd5fe36d5c66601c89a08d",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png": {
+    "mtime": 1789138888.0,
+    "ast_hash": "73b1e06d769fa08a9c3b8328cc15fd75",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png": {
+    "mtime": 1789138888.0,
+    "ast_hash": "f43e5674865a00186dd76183cf1f2f8e",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-mdpi/ic_launcher.png": {
+    "mtime": 1789138888.0,
+    "ast_hash": "7ed1b3739b83215d0c4a0b4a7f2dcab4",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png": {
+    "mtime": 1789138888.0,
+    "ast_hash": "5b77e8aec8b17eed320a97567c7cb8bf",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png": {
+    "mtime": 1789138888.0,
+    "ast_hash": "a49547a32c7d9b529af607b033811d81",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-xhdpi/ic_launcher.png": {
+    "mtime": 1789138888.0,
+    "ast_hash": "5689511ee4e41a367d0342f37ac48bdf",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png": {
+    "mtime": 1789138888.0,
+    "ast_hash": "15cdded29b9877ac98c5931024c5da5d",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png": {
+    "mtime": 1789138888.0,
+    "ast_hash": "c890fa4af62a63486d5dea62441ce7ab",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png": {
+    "mtime": 1789138888.0,
+    "ast_hash": "a3285eeaedda8201f04e7737b9df8421",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png": {
+    "mtime": 1789138888.0,
+    "ast_hash": "4e9584ecc16d1fc75afb798688ce576f",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png": {
+    "mtime": 1789138888.0,
+    "ast_hash": "14cde87848553e24d7106f56eb8ceb6f",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png": {
+    "mtime": 1789138888.0,
+    "ast_hash": "9e029293ab1ae8e3a6a7b7d0b7177e46",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png": {
+    "mtime": 1789138888.0,
+    "ast_hash": "ed3696b7c52d9747411a475dbe3fa34a",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png": {
+    "mtime": 1789138888.0,
+    "ast_hash": "85addb4159ecd3f76f02fbacd5ec86de",
+    "semantic_hash": ""
+  },
+  "ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-512@2x.png": {
+    "mtime": 1789138889.0,
+    "ast_hash": "0ac741c9e1701ee14dd05ea131f7cfd8",
+    "semantic_hash": ""
+  },
+  "ios/App/App/Assets.xcassets/Splash.imageset/splash-2732x2732-1.png": {
+    "mtime": 1789138889.0,
+    "ast_hash": "958532b95c3e7d4997327dc977b80600",
+    "semantic_hash": ""
+  },
+  "ios/App/App/Assets.xcassets/Splash.imageset/splash-2732x2732-2.png": {
+    "mtime": 1789138889.0,
+    "ast_hash": "958532b95c3e7d4997327dc977b80600",
+    "semantic_hash": ""
+  },
+  "ios/App/App/Assets.xcassets/Splash.imageset/splash-2732x2732.png": {
+    "mtime": 1789138889.0,
+    "ast_hash": "958532b95c3e7d4997327dc977b80600",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/favicon.png": {
+    "mtime": 1790120672.5045967,
+    "ast_hash": "92c6e11b715d1fc7b5fbaf4add2ef995",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/favicon.svg": {
+    "mtime": 1790120722.3329093,
+    "ast_hash": "891628f87807f327b6450431e829445c",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/icons.svg": {
+    "mtime": 1789682547.1171334,
+    "ast_hash": "3b4fcfcf393eca4d264dca4a4663bc37",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/1st.jpeg": {
+    "mtime": 1790124054.3019013,
+    "ast_hash": "f44b82f67c8fa16e62396aecdf2037e7",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/2nd.jpeg": {
+    "mtime": 1790124058.7918606,
+    "ast_hash": "e5c4aa3ee52001ceb3437593ce2a5bd8",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/3rd.jpeg": {
+    "mtime": 1790124049.289179,
+    "ast_hash": "485c6d4e4b080b2c076b645349bc8195",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/banner-defender-wide.jpg": {
+    "mtime": 1790123794.0137103,
+    "ast_hash": "a8cb8d1579e9b8e8076ef58d01fef64c",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/banner-restor-wide.jpg": {
+    "mtime": 1790123793.9661984,
+    "ast_hash": "8e745d7d0ec0c025687aa79249feeeea",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/banner-shine-platinum-wide.jpg": {
+    "mtime": 1790123793.989824,
+    "ast_hash": "b494690257f36023daa6bc965dee0ab1",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/banners/banner-defender-mobile.jpg": {
+    "mtime": 1790123899.8679492,
+    "ast_hash": "96e90096c39549569b4e1921831cf9b0",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/banners/banner-defender.jpg": {
+    "mtime": 1790123888.811285,
+    "ast_hash": "5f5aecc1b17f5b86e5ccca5f495b4f7a",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/banners/banner-restor-mobile.jpg": {
+    "mtime": 1790123899.8912413,
+    "ast_hash": "dd4ccaf566961ffd2e3ecc8291a5bee0",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/banners/banner-restor.jpg": {
+    "mtime": 1790123895.1240036,
+    "ast_hash": "dfa05280a936c33e5c85086eb337904b",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/banners/banner-shine-platinum-mobile.jpg": {
+    "mtime": 1790123899.8455434,
+    "ast_hash": "96404bcfa5628fac8cf7f3b44d9d24f0",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/banners/banner-shine-platinum.jpg": {
+    "mtime": 1790123882.1362906,
+    "ast_hash": "f57473d5309f54ac6fccd90a73f746b7",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/cat-chimneys.webp": {
+    "mtime": 1790124374.4683697,
+    "ast_hash": "ae9f965e49c31583d42cac77c0653606",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/cat-gas_stoves.webp": {
+    "mtime": 1790124374.4348924,
+    "ast_hash": "a93ad57067caa92bf2ac166d9246c286",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/cat-hob_tops.webp": {
+    "mtime": 1790124374.4173172,
+    "ast_hash": "ff8c1f74ffc52f2fb8f04a09cfbf9419",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/cat-hobs.webp": {
+    "mtime": 1790124374.451269,
+    "ast_hash": "289e8d47024a988b373a983ccb356941",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/cat-small_appliances.webp": {
+    "mtime": 1790124374.485758,
+    "ast_hash": "86dd2b287743546fd3500cff8388ad9d",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/hero-defender.jpg": {
+    "mtime": 1790122745.1311412,
+    "ast_hash": "6442c2c083104d21469e094508ebb226",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/hero-restor-vision.jpg": {
+    "mtime": 1790122745.127955,
+    "ast_hash": "b7f2347f34ce1397e59ccc4427a3320a",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/hero-shine-platinum.jpg": {
+    "mtime": 1790122745.1295724,
+    "ast_hash": "5887cbba1c82d41c4361a17661ab6a4f",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/logo-alt.png": {
+    "mtime": 1789682630.8990362,
+    "ast_hash": "628f282c123973b38ec08763d3464072",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/logo.png": {
+    "mtime": 1790120665.8196652,
+    "ast_hash": "cb3afb10b2830eb631840f5d79b5df2b",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/mat-ad-scene.png": {
+    "mtime": 1790120925.993737,
+    "ast_hash": "2302bc24a96a7a8af0871e7130832c0f",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/mat-blender-fryer.jpg": {
+    "mtime": 1790120961.242881,
+    "ast_hash": "a9259e19f5c30fe4cea989c667ce036b",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/mat-blender-nutri.png": {
+    "mtime": 1790120925.9887164,
+    "ast_hash": "85390d0c8437dc116afa049c06668cc2",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/mat-chimney-aura.png": {
+    "mtime": 1790120925.9841976,
+    "ast_hash": "47781b72874e4628eb7aedbaabd583a4",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/mat-safari-stove.jpg": {
+    "mtime": 1790120961.2363572,
+    "ast_hash": "220ca5044bcb2329862bf7a465638fa0",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/mat-stove-kyoto.png": {
+    "mtime": 1790120925.9787467,
+    "ast_hash": "dc2135c169f3cdf3ab43ce0176a837dc",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/restor-banner.png": {
+    "mtime": 1790120665.815498,
+    "ast_hash": "cb3afb10b2830eb631840f5d79b5df2b",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/restor-icon.png": {
+    "mtime": 1790120672.505609,
+    "ast_hash": "92c6e11b715d1fc7b5fbaf4add2ef995",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/restor-logo.png": {
+    "mtime": 1790120665.8196652,
+    "ast_hash": "cb3afb10b2830eb631840f5d79b5df2b",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/restor-original.png": {
+    "mtime": 1790120665.7934873,
+    "ast_hash": "9abcfb619ee6e19148c8df7bae023f77",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/restor-wordmark-blue.png": {
+    "mtime": 1790120672.467429,
+    "ast_hash": "06f8c57bbc3c4f22f18f4db773cce21f",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/restor-wordmark-white.png": {
+    "mtime": 1790120672.4649794,
+    "ast_hash": "c27e53e1ca9f26e7e78e1370346767c3",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/scheme-annual-business-2026.jpg": {
+    "mtime": 1790120902.6344995,
+    "ast_hash": "9ab29581e0221348986bf81e3d969db2",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/scheme-diwali-2026.jpg": {
+    "mtime": 1790120902.636062,
+    "ast_hash": "06f734b4d126de0d3c3d4c8951eefb4a",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/test-def-feat.png": {
+    "mtime": 1790123874.063981,
+    "ast_hash": "fc9767d6ff7179fc1a3e6864bb83f8de",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/test-def-logo.png": {
+    "mtime": 1790123874.0030863,
+    "ast_hash": "1b5e715d21dc37c3ddac3aa3863419f7",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/test-def-model.png": {
+    "mtime": 1790123874.052723,
+    "ast_hash": "24f4a432453e1e8e5c3de46981c86b4b",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/test-def-specs.png": {
+    "mtime": 1790123874.0609846,
+    "ast_hash": "b29a01afb73bad513b6855698a85be78",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/test-def-stove.png": {
+    "mtime": 1790123874.047714,
+    "ast_hash": "62317f075adacb9852b513b90d1b2f3c",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/test-def-sub.png": {
+    "mtime": 1790123874.0070894,
+    "ast_hash": "e33c77cde9c0e5e29539e2c40766e652",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/test-def-title.png": {
+    "mtime": 1790123874.0216372,
+    "ast_hash": "53573dbea0aaa3affce40386d822f98c",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/test-shine-icons.png": {
+    "mtime": 1790123869.4497066,
+    "ast_hash": "c77b63cc4e49a5150007f2e81c65935f",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/test-shine-logo.png": {
+    "mtime": 1790123869.4221187,
+    "ast_hash": "fd2911b0a13e15ed33efd3f9377b3dfc",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/test-shine-stove.png": {
+    "mtime": 1790123869.4936664,
+    "ast_hash": "27186ad42ec2852f0806e2b7f1fc7570",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/test-shine-title.png": {
+    "mtime": 1790123869.4321358,
+    "ast_hash": "734e04294bacaa6f946e25853177e8ed",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/test-shine-variant.png": {
+    "mtime": 1790123869.452705,
+    "ast_hash": "b8ef571046c8abce0e38f23594bdfdbd",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/test-shine-warranty.png": {
+    "mtime": 1790123869.4366443,
+    "ast_hash": "53f7ea4f1404e334c4b29b6ec40e438b",
+    "semantic_hash": ""
+  },
+  "api/og.js": {
+    "mtime": 1790616105.9968774,
+    "ast_hash": "1d1b3cc2f514fbbf0e18592b36713ed6",
+    "semantic_hash": ""
+  },
+  "scripts/sync-all.mjs": {
+    "mtime": 1790542747.7018507,
+    "ast_hash": "aa993aee8f831298cb53d435b10dfec6",
+    "semantic_hash": ""
+  },
+  "scripts/watch-sync.mjs": {
+    "mtime": 1790542753.9455025,
+    "ast_hash": "d3f245797db2c4bfd423acd6f0bd9ade",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/bin/archify.mjs": {
+    "mtime": 1790546335.836945,
+    "ast_hash": "7c1b096f8ad52809d4568b79aa7db67f",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/bin/open-artifact.mjs": {
+    "mtime": 1790546335.836945,
+    "ast_hash": "6d0d0c95d50e9c6c11002b1ba7bc1ae0",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/bin/preview.mjs": {
+    "mtime": 1790546335.8379364,
+    "ast_hash": "528e218fd081059d524c2f6c675906cf",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/bin/visual-check.mjs": {
+    "mtime": 1790546335.8379364,
+    "ast_hash": "c72f9bc5d6c88041797da3faaf0487a2",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/brand-marks/catalog.json": {
+    "mtime": 1790546335.8389363,
+    "ast_hash": "083a7d31af387969495003887753440b",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/delta/architecture-delta.mjs": {
+    "mtime": 1790546335.8399446,
+    "ast_hash": "cafff7f9737c4246fca763854190243b",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/examples/agent-run.lifecycle.json": {
+    "mtime": 1790546335.8399446,
+    "ast_hash": "25a55b84a1e733481e7e5c04d75a71d0",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/examples/agent-tool-call.workflow.json": {
+    "mtime": 1790546335.8399446,
+    "ast_hash": "276f3fecc729b9addd6f53ed82e8c3c0",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/examples/async-job-roundtrip.sequence.json": {
+    "mtime": 1790546335.8409376,
+    "ast_hash": "1a5bc663413441ff488de5c0b14e0292",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/examples/brand-aware-delivery.architecture.json": {
+    "mtime": 1790546335.8409376,
+    "ast_hash": "16e052b809653f3a16931619a2c9ffc2",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/examples/cache-miss-request.sequence.json": {
+    "mtime": 1790546335.8409376,
+    "ast_hash": "5982ffdd86585d9dc8bede41491cfa61",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/examples/checkout-platform.base.architecture.json": {
+    "mtime": 1790546335.8419516,
+    "ast_hash": "7b1504c86dd542d652b2155ce3f5a0c6",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/examples/checkout-platform.head.architecture.json": {
+    "mtime": 1790546335.8419516,
+    "ast_hash": "fc1c8313df6ff3600d806dccd12e723e",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/examples/deployment-release.lifecycle.json": {
+    "mtime": 1790546335.842937,
+    "ast_hash": "040c9c97810ee9318bb0148dbede56c4",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/examples/event-stream.dataflow.json": {
+    "mtime": 1790546335.842937,
+    "ast_hash": "f0cc0ababaf8e0c4a693c358a65ab24f",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/examples/incident-response.workflow.json": {
+    "mtime": 1790546335.843946,
+    "ast_hash": "453c96c111a3d66edbec9d9fcb26dd1e",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/examples/product-analytics.dataflow.json": {
+    "mtime": 1790546335.8449447,
+    "ast_hash": "88a53e7cec863193fa3e9dd9efab205d",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/examples/production-deployment.architecture.json": {
+    "mtime": 1790546335.8449447,
+    "ast_hash": "323582f1efcde99c858b92e979a804e2",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/examples/release-delivery.workflow.json": {
+    "mtime": 1790546335.8449447,
+    "ast_hash": "f48513f18f2bde7869b69d11c8a13f1d",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/examples/web-app.architecture.json": {
+    "mtime": 1790546335.8479364,
+    "ast_hash": "ac3daf46ac0be20e1a5bcf0e16fb2e98",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/migrations/workflow-v2.mjs": {
+    "mtime": 1790546335.848945,
+    "ast_hash": "708f40a2be88f8f4b5291b758470d26c",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/package.json": {
+    "mtime": 1790546335.848945,
+    "ast_hash": "6f923ef7cf04996bea7e8fef5c611427",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/recipes/scenarios.mjs": {
+    "mtime": 1790546335.849938,
+    "ast_hash": "73b6c2be77280404f5b763dcfe8cb00e",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/renderers/architecture/grid.mjs": {
+    "mtime": 1790546335.8519366,
+    "ast_hash": "1ee383ccc2fd72323bdad98189270b9d",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/renderers/architecture/render-architecture.mjs": {
+    "mtime": 1790546335.8519366,
+    "ast_hash": "5d67ffe86e0011ad07ab65cb945ef9a1",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/renderers/dataflow/render-dataflow.mjs": {
+    "mtime": 1790546335.8529365,
+    "ast_hash": "510b3336335c12d19046a68589d87c11",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs": {
+    "mtime": 1790546335.8539436,
+    "ast_hash": "817cfbec42c855a7baed8c2a2e35098f",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/renderers/sequence/render-sequence.mjs": {
+    "mtime": 1790546335.8549378,
+    "ast_hash": "870fbe956c85e185183842552603a782",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/renderers/shared/brand-marks.mjs": {
+    "mtime": 1790546335.8549378,
+    "ast_hash": "c527536979d6106d735c3cb489a61117",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/renderers/shared/cli.mjs": {
+    "mtime": 1790546335.8559377,
+    "ast_hash": "90625eea1df11d613d04d7ee928b0043",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/renderers/shared/desktop-readability.mjs": {
+    "mtime": 1790546335.8559377,
+    "ast_hash": "6fde6b95a303020a79296ca89b383592",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/renderers/shared/diagnostics.mjs": {
+    "mtime": 1790546335.8559377,
+    "ast_hash": "03eb850c1f53625993c0638558ceb550",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/renderers/shared/engineering-profiles.mjs": {
+    "mtime": 1790546335.8569376,
+    "ast_hash": "05a81c043ea97a912be0378a39776d8a",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/renderers/shared/generated-brand-marks.mjs": {
+    "mtime": 1790546335.8569376,
+    "ast_hash": "98c8686a9cc08e7b09b4a54f6cf4997a",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/renderers/shared/generated-validators.mjs": {
+    "mtime": 1790546335.8589377,
+    "ast_hash": "6e904810ddd7d34e01cbac8dca3a0487",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/renderers/shared/geometry.mjs": {
+    "mtime": 1790546335.8589377,
+    "ast_hash": "1a3f7a1bd5511457ef61462cbd9186c0",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/renderers/shared/i18n.mjs": {
+    "mtime": 1790546335.859938,
+    "ast_hash": "38677922ae654b109a554f928d8db5fa",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/renderers/shared/layout-report.mjs": {
+    "mtime": 1790546335.859938,
+    "ast_hash": "8edbe80bc1e1668a40207c0a4fb85cba",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/renderers/shared/legend.mjs": {
+    "mtime": 1790546335.859938,
+    "ast_hash": "8892f8577280cf1b98902df5df0dc365",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/renderers/shared/output-path.mjs": {
+    "mtime": 1790546335.859938,
+    "ast_hash": "2176c1d24558d10f2905d76c94cfe8ea",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/renderers/shared/repository-evidence.mjs": {
+    "mtime": 1790546335.860938,
+    "ast_hash": "cc05c858e39fb270fb267d2e1c01789f",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/renderers/shared/repository-location.mjs": {
+    "mtime": 1790546335.860938,
+    "ast_hash": "6fa090483373e324b8c14300065773f5",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/renderers/shared/text-fit.mjs": {
+    "mtime": 1790546335.860938,
+    "ast_hash": "670bbfaa557cc1105c8b75afcfae0799",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/renderers/shared/utils.mjs": {
+    "mtime": 1790546335.8619373,
+    "ast_hash": "8e82adeb2b39e72b9bcd122ea5688d7f",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/renderers/shared/validator.mjs": {
+    "mtime": 1790546335.8619373,
+    "ast_hash": "7321120cbbb8547dca7288a66c3a0ac0",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/renderers/workflow/render-workflow.mjs": {
+    "mtime": 1790546335.8629441,
+    "ast_hash": "ace6214e25c0e1891d03c82539bf66a2",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/renderers/workflow/workflow-compiler.mjs": {
+    "mtime": 1790546335.8629441,
+    "ast_hash": "651ecb290eb78449e437e577f89ef945",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs": {
+    "mtime": 1790546335.8639445,
+    "ast_hash": "11859aa7815dc3a28aaf32733ce6b80a",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/schemas/architecture.schema.json": {
+    "mtime": 1790546335.8649464,
+    "ast_hash": "8ff647b391f2e894ea3f79c8d2797dbd",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/schemas/common.schema.json": {
+    "mtime": 1790546335.8649464,
+    "ast_hash": "63770b7853cf1cb6cf11c3e8eefaa770",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/schemas/dataflow.schema.json": {
+    "mtime": 1790546335.8649464,
+    "ast_hash": "5b4deaf9459d331665befd98bca4f900",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/schemas/lifecycle.schema.json": {
+    "mtime": 1790546335.865937,
+    "ast_hash": "1e5ced513d9285cb586682b7b058ad24",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/schemas/sequence.schema.json": {
+    "mtime": 1790546335.865937,
+    "ast_hash": "79badc446feec6d71bbce57e3a60ab1d",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/schemas/workflow.schema.json": {
+    "mtime": 1790546335.865937,
+    "ast_hash": "ac64d660e64491fe5294493a5a770f60",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/scripts/check-render-output.mjs": {
+    "mtime": 1790546335.8669453,
+    "ast_hash": "ff596a2539dd51e386bc0b2cb2517ea5",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/scripts/check-update.mjs": {
+    "mtime": 1790546335.8669453,
+    "ast_hash": "76825132d0f5366a18e18851f22ce244",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/scripts/generate-brand-marks.mjs": {
+    "mtime": 1790546335.8669453,
+    "ast_hash": "9beb28a95d0b2cd18ede0704aabca9ca",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/scripts/generate-validators.mjs": {
+    "mtime": 1790546335.8679438,
+    "ast_hash": "a829f4ddb265b391a906847ec91c5709",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/scripts/render-examples.mjs": {
+    "mtime": 1790546335.8679438,
+    "ast_hash": "8702e168ddc797984323a84da7c26865",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/scripts/update-contract.mjs": {
+    "mtime": 1790546335.8679438,
+    "ast_hash": "4ffbe812021f02d332d09a54ae1e1b33",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/skill-release.json": {
+    "mtime": 1790546335.8679438,
+    "ast_hash": "540cb5aa8454cd87a8b119f713c06cce",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/adaptive-reader-layout.test.mjs": {
+    "mtime": 1790546335.8689365,
+    "ast_hash": "f538fe5634f7434ba83193b65dc28546",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/animation.test.mjs": {
+    "mtime": 1790546335.8689365,
+    "ast_hash": "5078619b250eba756e5cf2132d38a127",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/architecture-compare-recovery.test.mjs": {
+    "mtime": 1790546335.8689365,
+    "ast_hash": "598a3e283405392db2ac80dd33290e02",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/architecture-delta-markers.test.mjs": {
+    "mtime": 1790546335.869944,
+    "ast_hash": "91d9024b8c269f7b2681d5bfa3266e2b",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/architecture-delta.test.mjs": {
+    "mtime": 1790546335.869944,
+    "ast_hash": "1e76b80e9a8ad7fc9667ba58dc025edc",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/artifact-receipt-flush.test.mjs": {
+    "mtime": 1790546335.869944,
+    "ast_hash": "74d0c8335865a1b1b8b078bd52efeb07",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/authored-reachability.test.mjs": {
+    "mtime": 1790546335.869944,
+    "ast_hash": "ec53852f14e7b870a9ef6ed69cbf7d2b",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/authoring-safety-contract.test.mjs": {
+    "mtime": 1790546335.8709369,
+    "ast_hash": "fbe4de73a0089de4d942157a8ad47c39",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/automatic-port-spread.test.mjs": {
+    "mtime": 1790546335.8709369,
+    "ast_hash": "84c0148e3f94426851c01e670058aceb",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/base-input-compatibility.test.mjs": {
+    "mtime": 1790546335.8709369,
+    "ast_hash": "45511728eb27a7cca307e48f46c52954",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/brand-marks.test.mjs": {
+    "mtime": 1790546335.871944,
+    "ast_hash": "7fdb7535bede459348e869023dfc143a",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/chapter-delta-preview.test.mjs": {
+    "mtime": 1790546335.871944,
+    "ast_hash": "1ab4b2d9df852119cc8340eb028fb93e",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/chapter-handoff.test.mjs": {
+    "mtime": 1790546335.871944,
+    "ast_hash": "7d9d1b22d4f42753259c4c73c37c4b1f",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/chapter-rail.test.mjs": {
+    "mtime": 1790546335.871944,
+    "ast_hash": "ecacd7470d5ccca6973bcc37e34cd694",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/checkout-line-endings.test.mjs": {
+    "mtime": 1790546335.8729374,
+    "ast_hash": "5634d3404ae67dccb3c7b8fe12c16815",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/ci-scope.test.mjs": {
+    "mtime": 1790546335.8729374,
+    "ast_hash": "6ad0c47f80da31da3346d7693cc32a97",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/clean-skill-staging.test.mjs": {
+    "mtime": 1790546335.8729374,
+    "ast_hash": "e89d250f9c514ca53f76ae2e00b10bb1",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/cli-output-types.test.mjs": {
+    "mtime": 1790546335.8739517,
+    "ast_hash": "7b32b2777e4bfb84ab4f2ad05b5f4c98",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/cli.test.mjs": {
+    "mtime": 1790546335.8739517,
+    "ast_hash": "007ee07c3086369fa8a0c08609e24b3b",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/community-proof-intake.test.mjs": {
+    "mtime": 1790546335.8739517,
+    "ast_hash": "27697e7ac0f064400db062d9266b17bb",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/cursor-onboarding.test.mjs": {
+    "mtime": 1790546335.8749366,
+    "ast_hash": "d28093e74ad82abd78942c0aab9ccee1",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/degraded.test.mjs": {
+    "mtime": 1790546335.8749366,
+    "ast_hash": "15495010a15e9aace77a8838907395c0",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/delivery-contract.test.mjs": {
+    "mtime": 1790546335.8756826,
+    "ast_hash": "44c5fd7aee98f04cb36e099404f12146",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/desktop-reader-browser.test.mjs": {
+    "mtime": 1790546335.8756826,
+    "ast_hash": "f5bc68e7157a4f00c07642490dfb4b47",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/diagram-guide.test.mjs": {
+    "mtime": 1790546335.8762019,
+    "ast_hash": "009b6a3bddc84647adbbb2beddf314a6",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/engineering-profile.test.mjs": {
+    "mtime": 1790546335.8767152,
+    "ast_hash": "9e4be076c4c20f43f404a63a86b24dad",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/export-browser.test.mjs": {
+    "mtime": 1790546335.8767152,
+    "ast_hash": "b9bbed1ecfb72fcf9f8089da5fef721a",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/export-cleanup-browser.test.mjs": {
+    "mtime": 1790546335.8772292,
+    "ast_hash": "ec8a20e93c6636096ef601df4449c07a",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/finder-browser.test.mjs": {
+    "mtime": 1790546335.8777874,
+    "ast_hash": "63982694e1b288466e9b4a4b4ede3883",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/finder.test.mjs": {
+    "mtime": 1790546335.8777874,
+    "ast_hash": "25e404e2ba7ceeaf185a116293258ef5",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/fixtures/automatic-routing-node-border-clearance.workflow.json": {
+    "mtime": 1790546335.8783038,
+    "ast_hash": "8555fa88dcae6ccf9d127497aeaec74f",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/fixtures/fail-migration-cleanup.mjs": {
+    "mtime": 1790546335.8783038,
+    "ast_hash": "ee76b491db868d244f229f17d370731e",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/fixtures/issue-126/custom-widths.workflow.json": {
+    "mtime": 1790546335.878817,
+    "ast_hash": "2ea507ac60395ef8a6f3b5f41bba2b9b",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/fixtures/issue-126/explicit-route.workflow.json": {
+    "mtime": 1790546335.87933,
+    "ast_hash": "50304bdb54bca0b3a1051630d28790ee",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/fixtures/issue-126/explicit-viewbox.workflow.json": {
+    "mtime": 1790546335.8798707,
+    "ast_hash": "515cc2a8aa7339204f09259a1dee17c5",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/fixtures/issue-126/labels.workflow.json": {
+    "mtime": 1790546335.8798707,
+    "ast_hash": "42a95bbe78cd0a111336602abae9fde5",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/fixtures/v1-baseline/agent-run.lifecycle.json": {
+    "mtime": 1790546335.8803866,
+    "ast_hash": "3909060b366d363f73d2b96dcc031790",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/fixtures/v1-baseline/agent-tool-call.workflow.json": {
+    "mtime": 1790546335.8803866,
+    "ast_hash": "24e30f3feb43c62158ee4e4ed7dad35a",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/fixtures/v1-baseline/cache-miss-request.sequence.json": {
+    "mtime": 1790546335.8809023,
+    "ast_hash": "0acb98cc10d084e570247df336b88d2d",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/fixtures/v1-baseline/event-stream.dataflow.json": {
+    "mtime": 1790546335.8814337,
+    "ast_hash": "f0cc0ababaf8e0c4a693c358a65ab24f",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/fixtures/v1-baseline/product-analytics.dataflow.json": {
+    "mtime": 1790546335.8814337,
+    "ast_hash": "7f6986bf1f6bf5d4751b339c2dd5f50f",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/fixtures/v1-baseline/production-deployment.architecture.json": {
+    "mtime": 1790546335.8819795,
+    "ast_hash": "f2bfbed1bab49c7c25ef7277319469ff",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/fixtures/v1-baseline/web-app.architecture.json": {
+    "mtime": 1790546335.8819795,
+    "ast_hash": "6ef7b52172a72b36cf8fac134b357af4",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/fixtures/v1-workflow-700x400.workflow.json": {
+    "mtime": 1790546335.8825154,
+    "ast_hash": "64bd119f95b5a7b87a5eebc673b0dac6",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/fixtures/v1-workflow-explicit-coordinates.workflow.json": {
+    "mtime": 1790546335.8825154,
+    "ast_hash": "013a7277f8a209b399af885fb140e15e",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/focus-browser.test.mjs": {
+    "mtime": 1790546335.8830304,
+    "ast_hash": "8d7fecbedececf07d0b203282ba2555c",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/gallery.test.mjs": {
+    "mtime": 1790546335.8835526,
+    "ast_hash": "bbb32d3cc1f6c8cff7e03745b205975d",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/generate-validators.test.mjs": {
+    "mtime": 1790546335.8835526,
+    "ast_hash": "69440f4df69ac854cdff75786788ed87",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/generate-viewer.test.mjs": {
+    "mtime": 1790546335.8840964,
+    "ast_hash": "e8c7f96a2ff2d94354c229c14f538dca",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/generated-artifact-xml.test.mjs": {
+    "mtime": 1790546335.8840964,
+    "ast_hash": "6f1d6e286a2bd49ef8e4f5a5382097f6",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/geometry.test.mjs": {
+    "mtime": 1790546335.884631,
+    "ast_hash": "7b8d8e8d348296d8202ae0fdf97d4d0f",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/golden.mjs": {
+    "mtime": 1790546335.8851435,
+    "ast_hash": "580258dd983ed85332cb6ca553c583d2",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/grid.test.mjs": {
+    "mtime": 1790546335.8851435,
+    "ast_hash": "4758019f2cbabca71279f7a8563e18ba",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/guide-page.test.mjs": {
+    "mtime": 1790546335.8856697,
+    "ast_hash": "7c769641abd8477a334db186b0661035",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/guide.test.mjs": {
+    "mtime": 1790546335.8862028,
+    "ast_hash": "93dfa3ffc2ebd66c5b20023e2c7040db",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/guided-views-browser.test.mjs": {
+    "mtime": 1790546335.8862028,
+    "ast_hash": "da8b396ba33b531df73ca075a89ae775",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/guided-views.test.mjs": {
+    "mtime": 1790546335.8867493,
+    "ast_hash": "94333a294d500d015d67ef0b100f8e2e",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/helpers/desktop-browser.mjs": {
+    "mtime": 1790546335.8867493,
+    "ast_hash": "88530d21446dd86318ab0e5910a66135",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/helpers/offline-fonts.mjs": {
+    "mtime": 1790546335.887777,
+    "ast_hash": "26404d93bda971a0731c6099549edc6d",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/helpers/viewer-click.mjs": {
+    "mtime": 1790546335.887777,
+    "ast_hash": "52dfed707d68f0ccc10b681e0ffca3b4",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/helpers/xml.mjs": {
+    "mtime": 1790546335.887777,
+    "ast_hash": "da2ab599d548df403f8c10471e274608",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/i18n.test.mjs": {
+    "mtime": 1790546335.887777,
+    "ast_hash": "dd2330028e308be3c4eb40c5f9f8e338",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/intent-trace-browser.test.mjs": {
+    "mtime": 1790546335.8887658,
+    "ast_hash": "bdc54a2aaf40fbac5d7b4369a20b762f",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/intent-trace.test.mjs": {
+    "mtime": 1790546335.8887658,
+    "ast_hash": "f8b10508993fa6e97fb15cc3f2de86f4",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/landing.test.mjs": {
+    "mtime": 1790546335.8887658,
+    "ast_hash": "36f981e10fa51758c1abe0f909f27477",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/layout-rules.test.mjs": {
+    "mtime": 1790546335.8897579,
+    "ast_hash": "74d1fae49b4a92fa76c6f0f1730a346d",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/legend-contract.test.mjs": {
+    "mtime": 1790546335.890757,
+    "ast_hash": "9ffeb59a895b2493362f9e1919c89115",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/motion-governor-browser.test.mjs": {
+    "mtime": 1790546335.890757,
+    "ast_hash": "6037eed0d82b5128b65090134a1c91de",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/motion-governor.test.mjs": {
+    "mtime": 1790546335.890757,
+    "ast_hash": "33b82a6f7ab48481d830c857c1a33e3b",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/offline-font-browser.test.mjs": {
+    "mtime": 1790546335.8917568,
+    "ast_hash": "e5d5d4f51a15b96fec9c64e1689c1282",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/offline-self-containment.test.mjs": {
+    "mtime": 1790546335.8917568,
+    "ast_hash": "24f61015530d44f1756e46080160fb2a",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/open-artifact.test.mjs": {
+    "mtime": 1790546335.8917568,
+    "ast_hash": "03af594587db061b712c53ed35e42e9e",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/ordinary-model-floor.test.mjs": {
+    "mtime": 1790546335.8927572,
+    "ast_hash": "e1aaccf64c7aad36e8e603cc84c98e67",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/output-path.test.mjs": {
+    "mtime": 1790546335.8927572,
+    "ast_hash": "327f9663648118ed6455a3acebf79ddc",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/presentation.test.mjs": {
+    "mtime": 1790546335.8927572,
+    "ast_hash": "f4b737eb02b84b3addb262d30161305e",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/preset-tryon.test.mjs": {
+    "mtime": 1790546335.8937685,
+    "ast_hash": "0521bd5599b0e234711950c1595c056c",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/preview-contract.test.mjs": {
+    "mtime": 1790546335.8937685,
+    "ast_hash": "2b3f704358901b67062b2dd751128de3",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/preview.test.mjs": {
+    "mtime": 1790546335.8937685,
+    "ast_hash": "e0d80abbde4c450aec8fa8cde2fa7688",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/proof-aperture.test.mjs": {
+    "mtime": 1790546335.8947604,
+    "ast_hash": "4c2e112c608af721d8688e3bdfd4e9d3",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/reach-share-card.test.mjs": {
+    "mtime": 1790546335.8947604,
+    "ast_hash": "69083cc537f83a91eb3b4ddbf31c0bbf",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/reader-layout-browser.test.mjs": {
+    "mtime": 1790546335.8947604,
+    "ast_hash": "4d13559537cd9df333fc96f8fefb4604",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/readme-showcase.test.mjs": {
+    "mtime": 1790546335.8947604,
+    "ast_hash": "6a9ef5dad9bb55d89557fbe946538cff",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/real-repository-proof.test.mjs": {
+    "mtime": 1790546335.8957694,
+    "ast_hash": "d7501af6767bfa104dbdfe38cb48ac40",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/relationship-direct-explorer.test.mjs": {
+    "mtime": 1790546335.8957694,
+    "ast_hash": "4e2d098c223b599f4862b01dfc0fb46a",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/relationship-lens.test.mjs": {
+    "mtime": 1790546335.8957694,
+    "ast_hash": "38c022c5a8fb2b0c7357b40654cd9902",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/relationship-permalink.test.mjs": {
+    "mtime": 1790546335.8967605,
+    "ast_hash": "e676eb70dd156c031680a91f564c2a55",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/relationship-pulse.test.mjs": {
+    "mtime": 1790546335.8967605,
+    "ast_hash": "c1232c3d5b3f1dca1735ad228c8f1053",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/release-identity.test.mjs": {
+    "mtime": 1790546335.8967605,
+    "ast_hash": "e23cd2470907b112dd16e4c4ad6c74ea",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/release-package-gates.test.mjs": {
+    "mtime": 1790546335.8977604,
+    "ast_hash": "59054a419f87946fad70208ad2f726ef",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/render-output-checks.test.mjs": {
+    "mtime": 1790546335.8977604,
+    "ast_hash": "fc3f8bf9b3bcef05b8cdf34560ed6a03",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs": {
+    "mtime": 1790546335.8977604,
+    "ast_hash": "aff468fdc96540fa9f6265d8b1f6ab46",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/repair-receipt.test.mjs": {
+    "mtime": 1790546335.8977604,
+    "ast_hash": "5110ebcbd751d855772bbb78cd8a4414",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/repository-evidence-replacement.test.mjs": {
+    "mtime": 1790546335.8987677,
+    "ast_hash": "59e4f17f95b6def98ca56b813748c9d0",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/repository-evidence.test.mjs": {
+    "mtime": 1790546335.8987677,
+    "ast_hash": "22002badb74500df48be29a5a334117b",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/repository-language-metadata.test.mjs": {
+    "mtime": 1790546335.8987677,
+    "ast_hash": "6091543fb95a6bcf7fcd4b246a08c5c6",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/route-journey.test.mjs": {
+    "mtime": 1790546335.8987677,
+    "ast_hash": "1a62d1232056186bcaf291001b0d316e",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/route-probe-browser.test.mjs": {
+    "mtime": 1790546335.899761,
+    "ast_hash": "b99b8f21217ce87dd7f566ce89c1d416",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/route-probe.test.mjs": {
+    "mtime": 1790546335.899761,
+    "ast_hash": "0fb3c337d1894772b6c3162e894c0338",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/route-share-card.test.mjs": {
+    "mtime": 1790546335.899761,
+    "ast_hash": "c2f5e655ff331272d7d6ed96c090347a",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/semantic-camera.test.mjs": {
+    "mtime": 1790546335.9007688,
+    "ast_hash": "1ed2a0be02ccd985a68988f72d1eea3e",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/semantic-flow.test.mjs": {
+    "mtime": 1790546335.9007688,
+    "ast_hash": "4d9e24c021c3dc4ec3ac0f273edf2cfc",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/semantic-legend-gateway.test.mjs": {
+    "mtime": 1790546335.9007688,
+    "ast_hash": "eb5c9d560d678e78f4bf3989dfad741c",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/semantic-lens-browser.test.mjs": {
+    "mtime": 1790546335.9017608,
+    "ast_hash": "8ae5d03620b37ffec23234100cb91b6e",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/semantic-lens.test.mjs": {
+    "mtime": 1790546335.9017608,
+    "ast_hash": "97787245f1fc189c774ae211c2d60cc9",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/semantic-passport.test.mjs": {
+    "mtime": 1790546335.902768,
+    "ast_hash": "7351f985bfc60f885ef8190e8523191a",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/semantic-radar.test.mjs": {
+    "mtime": 1790546335.902768,
+    "ast_hash": "3b203787353a9374a689a49e33a05372",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/semantic-zoom.test.mjs": {
+    "mtime": 1790546335.902768,
+    "ast_hash": "7575b4c2ebfd9488a040b3c243d42a09",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/sequence-column-fit.test.mjs": {
+    "mtime": 1790546335.902768,
+    "ast_hash": "147302a1b1291758352bbc9db7b7d366",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/settled-flow.test.mjs": {
+    "mtime": 1790546335.9037604,
+    "ast_hash": "8b4959db0543cc2f4dc1ac29cade4dac",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/share-card-export.test.mjs": {
+    "mtime": 1790546335.9037604,
+    "ast_hash": "cc39ec96bbf510dda2497ef5b4e9c081",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/site-language-continuity.test.mjs": {
+    "mtime": 1790546335.9047606,
+    "ast_hash": "4a66b67170cd341696a9423052e73040",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/site-language-integration.mjs": {
+    "mtime": 1790546335.9047606,
+    "ast_hash": "eac4aaa9c44a1daabbf64ee4d52414de",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/skill-metadata.test.mjs": {
+    "mtime": 1790546335.9047606,
+    "ast_hash": "ed811e5afd24d0aa057739c40074fbb4",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/stable-update-manifest.test.mjs": {
+    "mtime": 1790546335.9047606,
+    "ast_hash": "52b33f2e72e35ca0cb0a737c79352941",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/start-page.test.mjs": {
+    "mtime": 1790546335.9057686,
+    "ast_hash": "1cf646cd965b8d7a52483b967377514c",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/story-beat-navigator.test.mjs": {
+    "mtime": 1790546335.9057686,
+    "ast_hash": "064b63c26d9bb8720566a35d84ab6aac",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/story-carrier.test.mjs": {
+    "mtime": 1790546335.9057686,
+    "ast_hash": "4dd711bbdc7994a07874a09538777bca",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/story-director-strip.test.mjs": {
+    "mtime": 1790546335.9057686,
+    "ast_hash": "7e1324e37cd53c3f8f1645809fcf37ff",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/story-follow-camera.test.mjs": {
+    "mtime": 1790546335.9067726,
+    "ast_hash": "b54fb6c7cd2fc82261025465469e96c1",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/story-horizon.test.mjs": {
+    "mtime": 1790546335.9067726,
+    "ast_hash": "c9b9d7187160722f01e7dca251049ce0",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/story-moment-link.test.mjs": {
+    "mtime": 1790546335.9077704,
+    "ast_hash": "80b22d925f39cfdbe03ca1acdf1be1e3",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/story-shelf.test.mjs": {
+    "mtime": 1790546335.9077704,
+    "ast_hash": "3cbe55cf48b30d90525f906240d4b383",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/story-trail.test.mjs": {
+    "mtime": 1790546335.9077704,
+    "ast_hash": "536458cc872263ece837815420793302",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/toolbar-polish.test.mjs": {
+    "mtime": 1790546335.9077704,
+    "ast_hash": "9a310fa5706e111e46c16fc6340d7b46",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/update-contract.test.mjs": {
+    "mtime": 1790546335.9089582,
+    "ast_hash": "fd521c3087798ee6927bfe14e280eeb5",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/update-notifier.test.mjs": {
+    "mtime": 1790546335.9089582,
+    "ast_hash": "08ae4640b7ba1ea11780996215ba0708",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/v1-compatibility.test.mjs": {
+    "mtime": 1790546335.9099572,
+    "ast_hash": "2be9174e155a094e2cb80f7fd2ef7336",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/vertical-edge.test.mjs": {
+    "mtime": 1790546335.9099572,
+    "ast_hash": "a6b220fbcbdca27dfb16d7a28d3f2e78",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/viewer-camera-browser.test.mjs": {
+    "mtime": 1790546335.9099572,
+    "ast_hash": "f18698fde4681d0c974962ece27df40d",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/viewer-chrome-layout.test.mjs": {
+    "mtime": 1790546335.9109647,
+    "ast_hash": "4dcf8f808dcfdf517c0a35162e37ccd5",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/viewer-identifiers-browser.test.mjs": {
+    "mtime": 1790546335.9109647,
+    "ast_hash": "b87368d619daaa048eda1bb15a9b4bb7",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/visual-check.test.mjs": {
+    "mtime": 1790546335.9109647,
+    "ast_hash": "ce2441af25f9d839345c7d6cae9ebae9",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/webm-artifact.smoke.mjs": {
+    "mtime": 1790546335.9119565,
+    "ast_hash": "3f2249be99f1230e1af825d4d7201b35",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs": {
+    "mtime": 1790546335.9119565,
+    "ast_hash": "217cab7d62e9a63937be4c82099fd34d",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/workflow-compiler.test.mjs": {
+    "mtime": 1790546335.9129665,
+    "ast_hash": "ffdaedbf28d6f9d7b6a2d3829f807ddb",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/workflow-migration.test.mjs": {
+    "mtime": 1790546335.9129665,
+    "ast_hash": "c3e5594a56b628620b139f5c02f91df1",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/test/workflow-semantic-contract.test.mjs": {
+    "mtime": 1790546335.9129665,
+    "ast_hash": "b03454a5e38fe63cb9689f922148ae21",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/SKILL.md": {
+    "mtime": 1790546335.8329453,
+    "ast_hash": "872f24170099bcda512fb9ae79dc2d57",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/THIRD_PARTY_NOTICES.md": {
+    "mtime": 1790546335.8329453,
+    "ast_hash": "9147c314e49943528815f81277e5df39",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/assets/JetBrainsMono-OFL.txt": {
+    "mtime": 1790546335.8339362,
+    "ast_hash": "1c09e67ab89d3a2e874aac38159e300f",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/assets/template.html": {
+    "mtime": 1790546335.835936,
+    "ast_hash": "0b482763d01819e41d7df85ee54c7d4b",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/brand-marks/README.md": {
+    "mtime": 1790546335.8389363,
+    "ast_hash": "699ee91498179c167bc3e19af79ca89c",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/examples/dataflow-product-analytics.html": {
+    "mtime": 1790733442.9478202,
+    "ast_hash": "0c6ddbe306fb34622298cbece5812709",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/examples/lifecycle-agent-run.html": {
+    "mtime": 1790733443.0807252,
+    "ast_hash": "5db1f05dfe8c3767a8d0fa669101debb",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/examples/sequence-cache-miss-request.html": {
+    "mtime": 1790733442.8090527,
+    "ast_hash": "261cdba992b22192dea5879c1e21550f",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/examples/web-app-rendered.html": {
+    "mtime": 1790733443.2192843,
+    "ast_hash": "2b7fc3c01247308f41d30ccaf13bd6fe",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/examples/workflow-agent-tool-call-rendered.html": {
+    "mtime": 1790733442.672971,
+    "ast_hash": "62deaa597827a7d43539d144df01e787",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/references/authoring-contract.md": {
+    "mtime": 1790546335.849938,
+    "ast_hash": "c3fd48c1727d46dce6a5476f4973fcfd",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/references/brand-marks.md": {
+    "mtime": 1790546335.8509498,
+    "ast_hash": "aec8b05b6a965de90881e60dafeb545c",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/references/delivery-contract.md": {
+    "mtime": 1790546335.8509498,
+    "ast_hash": "c58cbce15085aabdb929403338007863",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/references/viewer-runtime.md": {
+    "mtime": 1790546335.8509498,
+    "ast_hash": "2bc168d15534b7119b99c165871c99c0",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/renderers/dataflow/README.md": {
+    "mtime": 1790546335.8529365,
+    "ast_hash": "bbb3d5b2a172bcf0b6e9bf744a9b4397",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/renderers/lifecycle/README.md": {
+    "mtime": 1790546335.8539436,
+    "ast_hash": "eda71d056463a4c62709b97aaae33cb8",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/renderers/sequence/README.md": {
+    "mtime": 1790546335.8539436,
+    "ast_hash": "da6ee95bb62ddf347a82de6b1cbdffa5",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/renderers/workflow/README.md": {
+    "mtime": 1790546335.8619373,
+    "ast_hash": "4a6ccfc21faf503a19fcbce32646a7bc",
+    "semantic_hash": ""
+  },
+  ".agents/skills/archify/schemas/README.md": {
+    "mtime": 1790546335.8639445,
+    "ast_hash": "85d9074ae8a558a5b19b19cfa70ca783",
+    "semantic_hash": ""
+  },
+  "docs/archify/system_architecture/system_architecture.json": {
+    "mtime": 1790546972.4091103,
+    "ast_hash": "6e70362ef54f5b47664b9e3c8cb88d92",
+    "semantic_hash": ""
+  },
+  ".agents/rules/archify.md": {
+    "mtime": 1790546981.9220848,
+    "ast_hash": "2f6e2097234790719fd96a8e046b3596",
+    "semantic_hash": ""
+  },
+  "docs/archify/system_architecture/system_architecture.html": {
+    "mtime": 1790546810.4041314,
+    "ast_hash": "002a72a03cb50654b89f9e8def82611b",
+    "semantic_hash": ""
+  },
+  "docs/archify/system_architecture/system_architecture_dark.png": {
+    "mtime": 1790546816.5806732,
+    "ast_hash": "0dc828c49a6c368f6f93ac925842dd99",
+    "semantic_hash": ""
+  },
+  "src/components/ProductSearchBar.jsx": {
+    "mtime": 1790549287.9817636,
+    "ast_hash": "aa3d1c08a35f38bf12c21b49946f3ae8",
+    "semantic_hash": ""
+  },
+  "src/data/favoritesStore.js": {
+    "mtime": 1790547476.5996437,
+    "ast_hash": "678885853f87371fceddcc162dba2efb",
+    "semantic_hash": ""
+  },
+  "src/data/searchHelper.js": {
+    "mtime": 1790547961.0854206,
+    "ast_hash": "cfcea47101f73a085cf752aa03018db4",
+    "semantic_hash": ""
+  },
+  "src/pages/Favorites.jsx": {
+    "mtime": 1790547814.9942484,
+    "ast_hash": "7b673c9d4450814bdddfb548e5af07a2",
+    "semantic_hash": ""
+  },
+  "src/components/NativeBackHandler.jsx": {
+    "mtime": 1790552442.282856,
+    "ast_hash": "1720227d399f557a96238fa605896c04",
+    "semantic_hash": ""
+  },
+  ".agents/skills/shriji-backend/SKILL.md": {
+    "mtime": 1791156895.2048032,
+    "ast_hash": "d6a277a554ffbcf7c55596aecb602cbf",
+    "semantic_hash": ""
+  },
+  ".zcode/plans/plan-sess_d749a0f7-b4fd-4736-a57d-4aeb4776a331.md": {
+    "mtime": 1791154245.5535297,
+    "ast_hash": "db373625659f829295185bf0039936c3",
+    "semantic_hash": ""
+  },
+  "docs/BACKEND-ARCHITECTURE.md": {
+    "mtime": 1791700535.9536426,
+    "ast_hash": "a67d9738b5e5a302c866620f545f07c9",
+    "semantic_hash": ""
+  },
+  "backend/package.json": {
+    "mtime": 1791701261.5915918,
+    "ast_hash": "6e8da6d60b2e6fa7f401b8ca0cade15c",
+    "semantic_hash": ""
+  },
+  "backend/src/config/env.js": {
+    "mtime": 1791704344.5843265,
+    "ast_hash": "b1e8ca4d7148d4290a885a5c3a1e09dc",
+    "semantic_hash": ""
+  },
+  "backend/src/db/migrate.js": {
+    "mtime": 1791156114.1792912,
+    "ast_hash": "9c803d6220bf4c3964c6d7ce766463c0",
+    "semantic_hash": ""
+  },
+  "backend/src/db/migrations/001_init.sql": {
+    "mtime": 1791156143.0584304,
+    "ast_hash": "50766089b3a8a8984012ad90aeed3c17",
+    "semantic_hash": ""
+  },
+  "backend/src/db/pool.js": {
+    "mtime": 1791154716.8850613,
+    "ast_hash": "98150093662ac0be041c3cf209155314",
+    "semantic_hash": ""
+  },
+  "backend/src/jobs/catalogSync.js": {
+    "mtime": 1791154966.3870358,
+    "ast_hash": "49feff1c598f20769db8a7f0c30ddf32",
+    "semantic_hash": ""
+  },
+  "backend/src/jobs/crmPoll.js": {
+    "mtime": 1791717596.1834972,
+    "ast_hash": "3b42fe16543025ba2b7126364d50f500",
+    "semantic_hash": ""
+  },
+  "backend/src/jobs/index.js": {
+    "mtime": 1791154966.4000397,
+    "ast_hash": "c1497ed96e3765229d2b52f7c68eb435",
+    "semantic_hash": ""
+  },
+  "backend/src/middleware/auth.js": {
+    "mtime": 1791155054.822205,
+    "ast_hash": "6ebc37a8c7aab70be135b6806b687ab2",
+    "semantic_hash": ""
+  },
+  "backend/src/middleware/errorHandler.js": {
+    "mtime": 1791154999.8482866,
+    "ast_hash": "c8758f996379208859c0c11c4a996d87",
+    "semantic_hash": ""
+  },
+  "backend/src/middleware/rateLimit.js": {
+    "mtime": 1791707066.646255,
+    "ast_hash": "4ab9a205d64710e536d7ede5628b08ca",
+    "semantic_hash": ""
+  },
+  "backend/src/routes/auth.js": {
+    "mtime": 1791716432.4763086,
+    "ast_hash": "dca587c240ba18b18e45ba25ac1165be",
+    "semantic_hash": ""
+  },
+  "backend/src/routes/dealers.js": {
+    "mtime": 1791717577.6604645,
+    "ast_hash": "6ec7ab7a5beebb3e0ec09b0e93d8ff5f",
+    "semantic_hash": ""
+  },
+  "backend/src/routes/health.js": {
+    "mtime": 1791155171.658235,
+    "ast_hash": "dc880b1af470c541b7d3e6c29d91f7e9",
+    "semantic_hash": ""
+  },
+  "backend/src/routes/prices.js": {
+    "mtime": 1791155171.5890732,
+    "ast_hash": "6686f24fae3f986391dca689e72ee2d1",
+    "semantic_hash": ""
+  },
+  "backend/src/routes/webhooks.js": {
+    "mtime": 1791155217.523236,
+    "ast_hash": "33f03b2b23329f9cdb6367b592b78dd8",
+    "semantic_hash": ""
+  },
+  "backend/src/server.js": {
+    "mtime": 1791156542.1892939,
+    "ast_hash": "04c35b5cf486e75ec0653451899f906c",
+    "semantic_hash": ""
+  },
+  "backend/src/services/catalog.js": {
+    "mtime": 1791155362.263409,
+    "ast_hash": "84dbd904580c075d1b614e251eb44445",
+    "semantic_hash": ""
+  },
+  "backend/src/services/commerceClient.js": {
+    "mtime": 1791155285.9275172,
+    "ast_hash": "95d2c0ce5ba69bbfee9cd59af248b04d",
+    "semantic_hash": ""
+  },
+  "backend/src/services/crmClient.js": {
+    "mtime": 1791717550.3188784,
+    "ast_hash": "cd010b5bdfb35712754cd89c860f20f4",
+    "semantic_hash": ""
+  },
+  "backend/src/services/dealerApp.js": {
+    "mtime": 1791717528.3757484,
+    "ast_hash": "d9ba963a3cc8b984b8d000086d10b588",
+    "semantic_hash": ""
+  },
+  "backend/src/services/notifications.js": {
+    "mtime": 1791704360.7494335,
+    "ast_hash": "fc284cc4c63ec3df1a38f1067859bcf7",
+    "semantic_hash": ""
+  },
+  "backend/src/services/staff.js": {
+    "mtime": 1791716700.1920393,
+    "ast_hash": "b09fdfb85b7a57947ee24a53777bb51e",
+    "semantic_hash": ""
+  },
+  "backend/src/utils/audit.js": {
+    "mtime": 1791154739.6649106,
+    "ast_hash": "18139010a4a568d46d87063aaf8bc162",
+    "semantic_hash": ""
+  },
+  "backend/src/utils/hash.js": {
+    "mtime": 1791154739.651908,
+    "ast_hash": "51a97ae49dba3a33e6d6a53f0042da4e",
+    "semantic_hash": ""
+  },
+  "backend/src/utils/logger.js": {
+    "mtime": 1791154739.6379075,
+    "ast_hash": "59f8f08b5ad50eab626a2f9ccaf39eeb",
+    "semantic_hash": ""
+  },
+  "backend/test/hash.test.mjs": {
+    "mtime": 1791155344.3365114,
+    "ast_hash": "4728ff6ec39928a695320dc45e3b99c7",
+    "semantic_hash": ""
+  },
+  "backend/test/integration.test.mjs": {
+    "mtime": 1791156305.9573362,
+    "ast_hash": "af056b03cc33110c65a8effd2706b4d6",
+    "semantic_hash": ""
+  },
+  "backend/test/priceGate.test.mjs": {
+    "mtime": 1791155344.3675098,
+    "ast_hash": "635fca3f918211f791f98140da97eb88",
+    "semantic_hash": ""
+  },
+  "src/data/auth.js": {
+    "mtime": 1791716909.207475,
+    "ast_hash": "f53de6a2aa3c5e3a5a1e6e210174700c",
+    "semantic_hash": ""
+  },
+  "src/pages/DealerDashboard.jsx": {
+    "mtime": 1791716819.5992644,
+    "ast_hash": "4c2b0136eeb3acd38d9e77247440520d",
+    "semantic_hash": ""
+  },
+  ".mcp.json": {
+    "mtime": 1791157640.491486,
+    "ast_hash": "4e05deb71155fec6afc43f6c15c41ba4",
+    "semantic_hash": ""
+  },
+  "backend/src/db/migrations/002_security.sql": {
+    "mtime": 1791158018.5088904,
+    "ast_hash": "4fe3e9483d1a1e45d5f4fb8c7b2ba28a",
+    "semantic_hash": ""
+  },
+  "backend/src/db/migrations/003_users_full_name.sql": {
+    "mtime": 1791158262.5688248,
+    "ast_hash": "1a44c415c5de346371c9c6d2eadebc9a",
+    "semantic_hash": ""
+  },
+  "docs/DEALER-HIERARCHY-AND-WORKFLOW.md": {
+    "mtime": 1791699792.8887455,
+    "ast_hash": "f4095c958cb4b316a00ce0866c341abd",
+    "semantic_hash": ""
+  },
+  "docs/WORK-DONE-SESSION-2026-10-11.md": {
+    "mtime": 1791702019.1057594,
+    "ast_hash": "cfaf8a0594df5e6951337bbcef9c0195",
+    "semantic_hash": ""
+  },
+  "backend/src/db/migrations/004_phone_and_otp_auth.sql": {
+    "mtime": 1791706581.8859625,
+    "ast_hash": "076222873823bbdc7b510c2b8b266ca3",
+    "semantic_hash": ""
+  },
+  "src/data/firebase.js": {
+    "mtime": 1791710551.1115816,
+    "ast_hash": "18dd7f31d388ed4f3bf9b10918f5f066",
+    "semantic_hash": ""
+  },
+  "firebase.json": {
+    "mtime": 1791703488.1197038,
+    "ast_hash": "646a279d69e23e4164c4b01f6fa2c3c9",
+    "semantic_hash": ""
+  },
+  "backend/src/db/migrations/005_allow_approved_user_status.sql": {
+    "mtime": 1791716616.1319244,
+    "ast_hash": "e0b89c1485963eb6a03cdd8dc79b6d7d",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/assets/esm-B32JbgmY.js": {
+    "mtime": 1791717640.8372393,
+    "ast_hash": "b3cd0a30aee494cabf60ab512eaa3ea7",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/assets/index-CBe0fSas.js": {
+    "mtime": 1791717640.836119,
+    "ast_hash": "0e94d4a1149fdcc97f272f07798e1a24",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/assets/web-BxY31WRi.js": {
+    "mtime": 1791717640.8372393,
+    "ast_hash": "16a28f3ede10c8fb9d1f5aa9b3557acf",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/assets/web-Bz_oLDRD.js": {
+    "mtime": 1791717640.8372393,
+    "ast_hash": "986b4b7d8769c11014aa88b9483cdfdf",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/assets/esm-B32JbgmY.js": {
+    "mtime": 1791717640.8372393,
+    "ast_hash": "b3cd0a30aee494cabf60ab512eaa3ea7",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/assets/index-CBe0fSas.js": {
+    "mtime": 1791717640.836119,
+    "ast_hash": "0e94d4a1149fdcc97f272f07798e1a24",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/assets/web-BxY31WRi.js": {
+    "mtime": 1791717640.8372393,
+    "ast_hash": "16a28f3ede10c8fb9d1f5aa9b3557acf",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/assets/web-Bz_oLDRD.js": {
+    "mtime": 1791717640.8372393,
+    "ast_hash": "986b4b7d8769c11014aa88b9483cdfdf",
+    "semantic_hash": ""
+  }
+}

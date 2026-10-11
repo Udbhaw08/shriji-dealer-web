@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-05T05:54:46.577+05:30 (GMT+5:30)
-> Total Project Files: 916
+> Last synchronized: 2026-10-11T17:46:37.994+05:30 (GMT+5:30)
+> Total Project Files: 958
 
 ---
 
@@ -81,10 +81,10 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 ## 4. Codebase Directory Map
 
 ### 4.1 Pages (`src/pages/`)
-- **`src/pages/DealerDashboard.jsx`** (7.3 KB)
+- **`src/pages/DealerDashboard.jsx`** (27.6 KB)
 - **`src/pages/Favorites.jsx`** (6.7 KB)
 - **`src/pages/Home.jsx`** (18.5 KB)
-- **`src/pages/Login.jsx`** (29.7 KB)
+- **`src/pages/Login.jsx`** (53.9 KB)
 - **`src/pages/Product.jsx`** (27.0 KB)
 - **`src/pages/Products.jsx`** (24.3 KB)
 - **`src/pages/Schemes.jsx`** (7.4 KB)
@@ -102,10 +102,11 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 
 ### 4.3 State & Business Logic (`src/data/`)
 - **`src/data/api.js`** (1.7 KB)
-- **`src/data/auth.js`** (7.4 KB)
+- **`src/data/auth.js`** (9.0 KB)
 - **`src/data/dealer.js`** (8.4 KB)
 - **`src/data/dealer.test.mjs`** (4.2 KB)
 - **`src/data/favoritesStore.js`** (2.3 KB)
+- **`src/data/firebase.js`** (3.4 KB)
 - **`src/data/i18n.js`** (1.7 KB)
 - **`src/data/portalGate.js`** (0.8 KB)
 - **`src/data/pricing.test.mjs`** (4.2 KB)

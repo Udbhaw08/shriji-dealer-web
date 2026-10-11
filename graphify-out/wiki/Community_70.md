@@ -1,47 +1,52 @@
 # Community 70
 
-> 19 nodes · cohesion 0.21
+> 22 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **mt()** (18 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **dn()** (13 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **sn()** (11 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **vn()** (11 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **bt()** (10 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **ip()** (10 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **en()** (9 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **Bn()** (8 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **xn()** (7 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **cn()** (6 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **fn()** (6 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **wn()** (6 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **be()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **ye()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **Me()** (4 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **xe()** (4 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **yn()** (3 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **te()** (2 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **un()** (2 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- **kn()** (13 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **ln()** (13 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **tp()** (12 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **Cn()** (10 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **ip()** (10 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **bn()** (8 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **dn()** (8 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **on()** (8 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **un()** (8 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **nn()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **mn()** (6 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **pn()** (5 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **vn()** (5 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **yn()** (5 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **In()** (4 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **an()** (3 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **beforeAuthStateChanged()** (3 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **en()** (3 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **tn()** (3 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **xn()** (3 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **fn()** (2 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **pushCallback()** (2 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (26 shared connections)
-- [[Testing & Workflow Skill]] (12 shared connections)
+- [[Dealer Auth & Session Management]] (23 shared connections)
 - [[Dependencies & Package Config]] (11 shared connections)
-- [[Oxlint Linter Configuration]] (6 shared connections)
-- [[Community 35]] (5 shared connections)
-- [[Community 38]] (3 shared connections)
-- [[Zoho Integration Skill]] (3 shared connections)
-- [[Community 55]] (2 shared connections)
+- [[Product Pages Specification]] (8 shared connections)
+- [[Product Requirements Documentation]] (8 shared connections)
+- [[Community 46]] (7 shared connections)
+- [[Testing & Workflow Skill]] (5 shared connections)
+- [[Community 43]] (2 shared connections)
+- [[Community 32]] (2 shared connections)
+- [[Community 64]] (2 shared connections)
+- [[Zoho Integration Architecture]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- `ios/App/App/public/assets/index-DxTMC5SR.js`
 
 ## Audit Trail
 
-- EXTRACTED: 140 (100%)
+- EXTRACTED: 141 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

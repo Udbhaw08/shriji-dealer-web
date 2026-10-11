@@ -1,12 +1,16 @@
 import { Router } from 'express';
+import { OAuth2Client } from 'google-auth-library';
 import { sql } from '../db/pool.js';
 import { hashPassword, verifyPassword, generateOtp, sha256 } from '../utils/hash.js';
 import { signAccessToken, issueRefreshToken, rotateRefreshToken, revokeRefreshToken } from '../services/tokens.js';
 import { jwtAuth } from '../middleware/auth.js';
 import { rateLimit } from '../middleware/rateLimit.js';
 import { httpError } from '../middleware/errorHandler.js';
-import { notify } from '../services/notifications.js';
+import { sendOtpNotification, notify } from '../services/notifications.js';
 import { audit } from '../utils/audit.js';
+import { env } from '../config/env.js';
+import { log } from '../utils/logger.js';
+import * as crm from '../services/crmClient.js';
 
 export const authRouter = Router();
 
@@ -14,49 +18,291 @@ const OTP_TTL_MINUTES = 10;
 const OTP_MAX_ATTEMPTS = 5;
 const strictLimit = rateLimit({ windowMs: 60_000, max: 10 });
 
-async function issueSession(user) {
+const googleClient = new OAuth2Client(env.googleClientId || undefined);
+
+export async function resolveUserWithDealer(u) {
+  if (!u) return null;
+  const cleanDigits = u.phone ? String(u.phone).replace(/[^\d]/g, '').slice(-10) : null;
+  const cleanEmail = u.email ? String(u.email).trim().toLowerCase() : null;
+
+  const rows = await sql`
+    select d.id, d.status, d.business_name, d.dealer_code, d.price_tier, d.owner_user_id
+    from dealers d
+    left join users ou on ou.id = d.owner_user_id
+    where d.id = ${u.dealer_id}
+       or d.owner_user_id = ${u.id}
+       ${cleanDigits ? sql`
+       or (
+         ou.phone is not null and (
+           ou.phone = ${u.phone}
+           or ou.phone like ${`%${cleanDigits}`}
+           or replace(ou.phone, ' ', '') like ${`%${cleanDigits}`}
+         )
+       )` : sql``}
+       ${cleanEmail ? sql`
+       or (
+         ou.email is not null and lower(ou.email) = ${cleanEmail}
+       )` : sql``}
+    order by case when d.status = 'approved' then 1 when d.status = 'pending' then 2 else 3 end asc,
+             d.created_at desc
+    limit 1`;
+  const dealer = rows[0];
+  if (dealer) {
+    let changed = false;
+    // Do not modify staff members — their status stays 'pending' until the owner approves them
+    if (u.role !== 'dealer_staff') {
+      if (dealer.status === 'approved') {
+        if (u.role !== 'dealer') {
+          u.role = 'dealer';
+          changed = true;
+        }
+        if (u.status !== 'approved' && u.status !== 'active') {
+          u.status = 'active';
+          changed = true;
+        }
+        if (u.dealer_id !== dealer.id) {
+          u.dealer_id = dealer.id;
+          changed = true;
+        }
+      } else if (dealer.status === 'pending') {
+        if (u.role !== 'dealer') {
+          u.role = 'dealer';
+          changed = true;
+        }
+        if (u.dealer_id !== dealer.id) {
+          u.dealer_id = dealer.id;
+          changed = true;
+        }
+      }
+    }
+    if (changed) {
+      await sql`update users set role = ${u.role}, status = ${u.status}, dealer_id = ${u.dealer_id} where id = ${u.id}`;
+    }
+  }
+  return u;
+}
+
+export async function findUserByIdentifier({ email, phone }) {
+  if (phone) {
+    const cleanDigits = String(phone).replace(/[^\d]/g, '').slice(-10);
+    const rows = await sql`
+      select u.*
+      from users u
+      left join dealers d on d.owner_user_id = u.id or d.id = u.dealer_id
+      where u.phone = ${phone}
+         or u.phone like ${`%${cleanDigits}`}
+         or replace(u.phone, ' ', '') like ${`%${cleanDigits}`}
+      order by
+        case when u.role = 'dealer' or d.status = 'approved' then 1
+             when d.status = 'pending' then 2
+             when u.dealer_id is not null then 3
+             else 4 end asc,
+        u.created_at desc
+      limit 1`;
+    if (rows[0]) return rows[0];
+  }
+  if (email) {
+    const cleanEmail = String(email).trim().toLowerCase();
+    const rows = await sql`
+      select u.*
+      from users u
+      left join dealers d on d.owner_user_id = u.id or d.id = u.dealer_id
+      where lower(u.email) = ${cleanEmail}
+      order by
+        case when u.role = 'dealer' or d.status = 'approved' then 1
+             when d.status = 'pending' then 2
+             when u.dealer_id is not null then 3
+             else 4 end asc,
+        u.created_at desc
+      limit 1`;
+    if (rows[0]) return rows[0];
+  }
+  return null;
+}
+
+async function issueSession(rawUser) {
+  const user = await resolveUserWithDealer(rawUser);
   const accessToken = signAccessToken(user);
   const refreshToken = await issueRefreshToken(user.id);
-  return { accessToken, refreshToken, expiresIn: 900 };
+  return { accessToken, refreshToken, expiresIn: 900, user: publicUser(user) };
 }
 
 function publicUser(u) {
-  return { id: u.id, email: u.email, phone: u.phone, role: u.role, status: u.status, dealer_id: u.dealer_id, email_verified: u.email_verified };
+  return { id: u.id, email: u.email, phone: u.phone, full_name: u.full_name, role: u.role, status: u.status, dealer_id: u.dealer_id, email_verified: u.email_verified };
 }
 
-/* POST /api/auth/signup — customers sign up and can browse MRP immediately. */
+function parseIdentifier(input) {
+  if (!input) return { email: null, phone: null };
+  const str = String(input).trim();
+  if (str.includes('@')) {
+    return { email: str.toLowerCase(), phone: null };
+  }
+  // Phone: keep + and digits
+  const clean = str.replace(/[^\d+]/g, '');
+  return { email: null, phone: clean || str };
+}
+
+/* POST /api/auth/signup — register via Email, Phone, or Both. */
 authRouter.post('/signup', strictLimit, async (req, res, next) => {
   try {
-    const { email, password, phone, full_name } = req.body || {};
-    if (!email || !password || String(password).length < 8) {
-      throw httpError(400, 'email and a password of at least 8 characters are required');
+    const { email, phone, identifier, password, full_name } = req.body || {};
+    const parsed = parseIdentifier(identifier);
+    const cleanEmail = email ? String(email).trim().toLowerCase() : parsed.email;
+    const cleanPhone = phone ? String(phone).trim() : parsed.phone;
+
+    if (!cleanEmail && !cleanPhone) {
+      throw httpError(400, 'Mobile number or Email is required');
     }
-    const normalizedEmail = String(email).trim().toLowerCase();
-    const existing = await sql`select id from users where email = ${normalizedEmail}`;
-    if (existing.length) throw httpError(409, 'email already registered');
+    if (!password || String(password).length < 8) {
+      throw httpError(400, 'A password of at least 8 characters is required');
+    }
+
+    if (cleanEmail) {
+      const dupeEmail = await sql`select id from users where email = ${cleanEmail}`;
+      if (dupeEmail.length) throw httpError(409, 'Email is already registered');
+    }
+    if (cleanPhone) {
+      const dupePhone = await sql`select id from users where phone = ${cleanPhone}`;
+      if (dupePhone.length) throw httpError(409, 'Mobile number is already registered');
+    }
 
     const [user] = await sql`
-      insert into users (email, phone, password_hash, full_name, role, status)
-      values (${normalizedEmail}, ${phone || null}, ${await hashPassword(String(password))},
-              ${full_name ? String(full_name).trim() : null}, 'customer', 'active')
+      insert into users (email, phone, password_hash, full_name, role, status, email_verified)
+      values (${cleanEmail || null}, ${cleanPhone || null}, ${await hashPassword(String(password))},
+              ${full_name ? String(full_name).trim() : null}, 'customer', 'active', false)
       returning *`;
+
     await audit(user.id, 'auth.signup', 'user', user.id);
     res.status(201).json({ user: publicUser(user), ...(await issueSession(user)) });
   } catch (err) { next(err); }
 });
 
-/* POST /api/auth/login */
+/* POST /api/auth/login — log in via Email or Mobile number + Password. */
 authRouter.post('/login', strictLimit, async (req, res, next) => {
   try {
-    const { email, password } = req.body || {};
-    if (!email || !password) throw httpError(400, 'email and password are required');
-    const rows = await sql`select * from users where email = ${String(email).trim().toLowerCase()}`;
-    const user = rows[0];
-    // constant-shape failure: always run a hash compare
+    const { email, phone, identifier, password } = req.body || {};
+    const parsed = parseIdentifier(identifier);
+    const targetEmail = email ? String(email).trim().toLowerCase() : parsed.email;
+    const targetPhone = phone ? String(phone).trim() : parsed.phone;
+    const searchTarget = String(identifier || email || phone || '').trim();
+
+    if (!searchTarget || !password) throw httpError(400, 'Mobile/Email and password are required');
+
+    const user = await findUserByIdentifier({
+      email: targetEmail,
+      phone: targetPhone || (searchTarget.includes('@') ? null : searchTarget),
+    });
+
     const ok = user ? await verifyPassword(String(password), user.password_hash || '') : false;
-    if (!ok) throw httpError(401, 'invalid credentials');
+    if (!ok) throw httpError(401, 'Invalid mobile number/email or password');
+
     await audit(user.id, 'auth.login', 'user', user.id);
-    res.json({ user: publicUser(user), ...(await issueSession(user)) });
+    res.json(await issueSession(user));
+  } catch (err) { next(err); }
+});
+
+/* POST /api/auth/google — 1-click Google Sign-in / Signup. */
+authRouter.post('/google', strictLimit, async (req, res, next) => {
+  try {
+    const { credential, idToken } = req.body || {};
+    const token = credential || idToken;
+    if (!token) throw httpError(400, 'Google credential token is required');
+
+    let payload;
+    try {
+      const ticket = await googleClient.verifyIdToken({
+        idToken: token,
+        audience: env.googleClientId || undefined,
+      });
+      payload = ticket.getPayload();
+    } catch (verErr) {
+      log.warn('[auth:google] verify failed:', verErr.message);
+      throw httpError(401, 'Invalid Google token');
+    }
+
+    if (!payload?.email) throw httpError(400, 'Google account has no email');
+    const googleEmail = payload.email.trim().toLowerCase();
+    const fullName = payload.name || payload.given_name || null;
+
+    // Check if user exists
+    let user = await findUserByIdentifier({ email: googleEmail });
+
+    if (!user) {
+      // Create new customer account with verified email
+      const [newUser] = await sql`
+        insert into users (email, full_name, role, status, email_verified)
+        values (${googleEmail}, ${fullName}, 'customer', 'active', true)
+        returning *`;
+      user = newUser;
+      await audit(user.id, 'auth.google_signup', 'user', user.id);
+    } else {
+      if (!user.email_verified) {
+        await sql`update users set email_verified = true where id = ${user.id}`;
+      }
+      await audit(user.id, 'auth.google_login', 'user', user.id);
+    }
+
+    res.json(await issueSession(user));
+  } catch (err) { next(err); }
+});
+
+/* POST /api/auth/firebase — Verify Firebase ID token (Phone SMS OTP or Google Sign-in). */
+authRouter.post('/firebase', strictLimit, async (req, res, next) => {
+  try {
+    const { idToken } = req.body || {};
+    if (!idToken) throw httpError(400, 'Firebase idToken is required');
+
+    let phone = null;
+    let email = null;
+    let fullName = null;
+
+    if (env.firebaseApiKey) {
+      const lookupRes = await fetch(`https://identitytoolkit.googleapis.com/v1/accounts:lookup?key=${env.firebaseApiKey}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ idToken }),
+      });
+      const lookupData = await lookupRes.json();
+      const fbUser = lookupData?.users?.[0];
+      if (!fbUser) {
+        log.warn('[auth:firebase] verify failed:', lookupData?.error?.message || 'User not found');
+        throw httpError(401, 'Invalid or expired Firebase token');
+      }
+      phone = fbUser.phoneNumber ? String(fbUser.phoneNumber).trim() : null;
+      email = fbUser.email ? String(fbUser.email).trim().toLowerCase() : null;
+      fullName = fbUser.displayName || null;
+    } else {
+      const parts = idToken.split('.');
+      if (parts.length < 2) throw httpError(401, 'Malformed token');
+      const payload = JSON.parse(Buffer.from(parts[1], 'base64').toString('utf8'));
+      phone = payload.phone_number || null;
+      email = payload.email ? String(payload.email).trim().toLowerCase() : null;
+      fullName = payload.name || null;
+    }
+
+    if (!phone && !email) throw httpError(400, 'Firebase account has neither phone nor email');
+
+    // Find existing user by phone or email
+    let user = await findUserByIdentifier({ email, phone });
+
+    if (!user) {
+      const [newUser] = await sql`
+        insert into users (email, phone, full_name, role, status, email_verified)
+        values (${email || null}, ${phone || null}, ${fullName}, 'customer', 'active', true)
+        returning *`;
+      user = newUser;
+      await audit(user.id, 'auth.firebase_signup', 'user', user.id);
+    } else {
+      if (phone && !user.phone) {
+        await sql`update users set phone = ${phone} where id = ${user.id}`;
+      }
+      if (email && !user.email) {
+        await sql`update users set email = ${email}, email_verified = true where id = ${user.id}`;
+      }
+      await audit(user.id, 'auth.firebase_login', 'user', user.id);
+    }
+
+    res.json(await issueSession(user));
   } catch (err) { next(err); }
 });
 
@@ -80,93 +326,256 @@ authRouter.post('/logout', async (req, res, next) => {
   } catch (err) { next(err); }
 });
 
-/* POST /api/auth/otp/request */
-authRouter.post('/otp/request', rateLimit({ windowMs: 10 * 60_000, max: 5 }), async (req, res, next) => {
+/* POST /api/auth/otp/request — Request OTP via Mobile (WhatsApp/SMS) or Email. */
+authRouter.post('/otp/request', rateLimit({ windowMs: 10 * 60_000, max: 8 }), async (req, res, next) => {
   try {
-    const { email, phone } = req.body || {};
-    const lookup = String(email || '').trim().toLowerCase();
-    const lookupPhone = String(phone || '').trim();
-    const rows = await sql`
-      select id from users
-      where (${lookup} <> '' and email = ${lookup})
-         or (${lookupPhone} <> '' and phone = ${lookupPhone})
-      limit 1`;
-    if (rows[0]) {
-      const code = generateOtp();
-      await sql`insert into otp_codes (user_id, code_hash, expires_at)
-                values (${rows[0].id}, ${sha256(code)},
-                        ${new Date(Date.now() + OTP_TTL_MINUTES * 60_000)})`;
-      await notify(rows[0].id, 'email', 'otp_code', { code });
-    }
-    // same response whether or not the account exists — no enumeration
-    res.json({ ok: true, expires_in_minutes: OTP_TTL_MINUTES });
+    const { email, phone, identifier } = req.body || {};
+    const parsed = parseIdentifier(identifier);
+    const targetEmail = email ? String(email).trim().toLowerCase() : parsed.email;
+    const targetPhone = phone ? String(phone).trim() : parsed.phone;
+    const dest = targetPhone || targetEmail;
+
+    if (!dest) throw httpError(400, 'Mobile number or Email is required for OTP');
+
+    const user = await findUserByIdentifier({ email: targetEmail, phone: targetPhone });
+
+    const code = generateOtp();
+    await sql`
+      insert into otp_codes (user_id, identifier, code_hash, expires_at)
+      values (${user?.id || null}, ${dest}, ${sha256(code)},
+              ${new Date(Date.now() + OTP_TTL_MINUTES * 60_000)})`;
+
+    // Dispatch via WhatsApp/SMS or Email (with terminal log fallback)
+    await sendOtpNotification({ phone: targetPhone, email: targetEmail, code });
+
+    res.json({
+      ok: true,
+      destination: targetPhone ? 'phone' : 'email',
+      expires_in_minutes: OTP_TTL_MINUTES,
+      ...(process.env.NODE_ENV !== 'production' ? { dev_code: code } : {}),
+    });
   } catch (err) { next(err); }
 });
 
-/* POST /api/auth/otp/verify */
+/* POST /api/auth/otp/verify — Verify OTP and sign in / sign up. */
 authRouter.post('/otp/verify', strictLimit, async (req, res, next) => {
   try {
-    const { email, phone, code } = req.body || {};
-    const lookup = String(email || '').trim().toLowerCase();
-    const lookupPhone = String(phone || '').trim();
-    const rows = await sql`
-      select * from users
-      where (${lookup} <> '' and email = ${lookup})
-         or (${lookupPhone} <> '' and phone = ${lookupPhone})
-      limit 1`;
-    const user = rows[0];
-    if (!user || !code) throw httpError(401, 'invalid code');
+    const { email, phone, identifier, code } = req.body || {};
+    if (!code) throw httpError(400, 'Verification code is required');
 
+    const parsed = parseIdentifier(identifier);
+    const targetEmail = email ? String(email).trim().toLowerCase() : parsed.email;
+    const targetPhone = phone ? String(phone).trim() : parsed.phone;
+    const dest = targetPhone || targetEmail;
+    if (!dest) throw httpError(400, 'Mobile number or Email is required');
+
+    const hashedInput = sha256(String(code).trim());
+
+    // Find active unexpired OTP code by identifier or user_id
     const otpRows = await sql`
-      select id, attempts, expires_at from otp_codes
-      where user_id = ${user.id} and expires_at > now() and attempts < ${OTP_MAX_ATTEMPTS}
-      order by created_at desc limit 1`;
+      select oc.id, oc.attempts, oc.code_hash, oc.user_id, oc.identifier
+      from otp_codes oc
+      where (oc.identifier = ${dest}
+         or oc.user_id in (select id from users where email = ${dest} or phone = ${dest}))
+        and oc.expires_at > now()
+        and oc.attempts < ${OTP_MAX_ATTEMPTS}
+      order by oc.created_at desc limit 1`;
     const otp = otpRows[0];
-    if (!otp || sha256(String(code)) !== (await sql`select code_hash from otp_codes where id = ${otp.id}`)[0]?.code_hash) {
+
+    if (!otp || otp.code_hash !== hashedInput) {
       if (otp) await sql`update otp_codes set attempts = attempts + 1 where id = ${otp.id}`;
-      throw httpError(401, 'invalid code');
+      throw httpError(401, 'Invalid or expired verification code');
     }
+
+    // Burn OTP
     await sql`delete from otp_codes where id = ${otp.id}`;
-    await sql`update users set email_verified = true where id = ${user.id}`;
-    await audit(user.id, 'auth.otp_verified', 'user', user.id);
-    res.json({ user: publicUser({ ...user, email_verified: true }), ...(await issueSession(user)) });
+
+    // Find existing user or auto-create on OTP signup
+    let user = await findUserByIdentifier({ email: targetEmail, phone: targetPhone });
+
+    if (!user) {
+      // Auto-register new user via verified Phone or Email!
+      const [newUser] = await sql`
+        insert into users (email, phone, role, status, email_verified)
+        values (${targetEmail || null}, ${targetPhone || null}, 'customer', 'active', true)
+        returning *`;
+      user = newUser;
+      await audit(user.id, 'auth.otp_signup', 'user', user.id);
+    } else {
+      if (!user.email_verified) {
+        await sql`update users set email_verified = true where id = ${user.id}`;
+      }
+      await audit(user.id, 'auth.otp_verified', 'user', user.id);
+    }
+
+    res.json(await issueSession(user));
   } catch (err) { next(err); }
 });
 
-/* POST /api/auth/staff/signup — staff redeem an invite code (no session yet). */
+/* POST /api/auth/staff/lookup-code — preview business name from Dealer Code or invite code. */
+authRouter.post('/staff/lookup-code', strictLimit, async (req, res, next) => {
+  try {
+    const raw = String(req.body?.code || req.body?.dealer_code || req.body?.invite_code || '').trim();
+    if (!raw) throw httpError(400, 'code is required');
+
+    // 1. Check dealer_code on approved dealers
+    const dealerRows = await sql`
+      select id, business_name, dealer_code from dealers
+      where lower(dealer_code) = lower(${raw}) and status = 'approved' limit 1`;
+    if (dealerRows[0]) {
+      return res.json({
+        ok: true,
+        type: 'dealer_code',
+        business_name: dealerRows[0].business_name,
+        dealer_code: dealerRows[0].dealer_code,
+      });
+    }
+
+    // 2. Fallback: check staff_invites code hash
+    const inviteRows = await sql`
+      select si.dealer_id, d.business_name, d.dealer_code
+      from staff_invites si
+      join dealers d on d.id = si.dealer_id
+      where si.code_hash = ${sha256(raw.toUpperCase())}
+        and si.revoked = false and si.used_by is null
+        and si.expires_at > now() limit 1`;
+    if (inviteRows[0]) {
+      return res.json({
+        ok: true,
+        type: 'invite_code',
+        business_name: inviteRows[0].business_name,
+        dealer_code: inviteRows[0].dealer_code,
+      });
+    }
+
+    throw httpError(404, 'Invalid or unrecognized Dealer / Business Code');
+  } catch (err) { next(err); }
+});
+
+/* POST /api/auth/staff/signup — staff register via Dealer Code or invite code. */
 authRouter.post('/staff/signup', strictLimit, async (req, res, next) => {
   try {
-    const { email, password, invite_code, full_name, phone } = req.body || {};
-    if (!email || !password || String(password).length < 8 || !invite_code) {
-      throw httpError(400, 'email, password (8+ chars) and invite_code are required');
-    }
-    const normalizedEmail = String(email).trim().toLowerCase();
-    const dupe = await sql`select id from users where email = ${normalizedEmail}`;
-    if (dupe.length) throw httpError(409, 'email already registered');
+    const { email, password, invite_code, dealer_code, code, full_name, phone } = req.body || {};
+    const inputCode = String(dealer_code || code || invite_code || '').trim();
+    const cleanEmail = email ? String(email).trim().toLowerCase() : null;
+    const cleanPhone = phone ? String(phone).trim() : null;
 
-    const inviteRows = await sql`
-      select si.id, si.dealer_id, si.expires_at, si.revoked, si.used_by
-      from staff_invites si where si.code_hash = ${sha256(String(invite_code))} limit 1`;
-    const invite = inviteRows[0];
-    if (!invite || invite.revoked || invite.used_by || new Date(invite.expires_at) < new Date()) {
-      throw httpError(401, 'invalid or expired invite code');
+    if ((!cleanEmail && !cleanPhone) || !password || String(password).length < 8 || !inputCode) {
+      throw httpError(400, 'Mobile number or Email, password (8+ chars) and Dealer Code are required');
+    }
+    let existingPendingUser = null;
+    if (cleanEmail) {
+      const dupe = await sql`select id, role, status from users where email = ${cleanEmail}`;
+      if (dupe[0]) {
+        if (dupe[0].role === 'dealer_staff' && dupe[0].status === 'pending') {
+          existingPendingUser = dupe[0];
+        } else {
+          throw httpError(409, 'Email already registered');
+        }
+      }
+    }
+    if (cleanPhone) {
+      const dupe = await sql`select id, role, status from users where phone = ${cleanPhone}`;
+      if (dupe[0]) {
+        if (dupe[0].role === 'dealer_staff' && dupe[0].status === 'pending') {
+          existingPendingUser = dupe[0];
+        } else {
+          throw httpError(409, 'Mobile number already registered');
+        }
+      }
     }
 
-    const [user] = await sql`
-      insert into users (email, phone, password_hash, full_name, role, status, dealer_id)
-      values (${normalizedEmail}, ${phone ? String(phone).trim() : null},
-              ${await hashPassword(String(password))},
-              ${full_name ? String(full_name).trim() : null},
-              'dealer_staff', 'pending', ${invite.dealer_id})
-      returning *`;
-    await sql`update staff_invites set used_by = ${user.id}, used_at = now() where id = ${invite.id}`;
-    await audit(user.id, 'staff.signed_up', 'dealer', invite.dealer_id);
-    // notify the dealer's owner (dealers.id is not a users.id)
-    const ownerRows = await sql`select owner_user_id from dealers where id = ${invite.dealer_id}`;
+    let targetDealerId = null;
+    let inviteIdToMark = null;
+
+    // 1. Try matching dealer_code directly
+    const dealerRows = await sql`
+      select id, business_name, staff_limit from dealers
+      where lower(dealer_code) = lower(${inputCode}) and status = 'approved' limit 1`;
+    if (dealerRows[0]) {
+      targetDealerId = dealerRows[0].id;
+      const countRows = await sql`
+        select count(*)::int as n from users
+        where dealer_id = ${targetDealerId} and role = 'dealer_staff' and status in ('active', 'pending')
+          and (${existingPendingUser?.id ? sql`id != ${existingPendingUser.id}` : sql`true`})`;
+      if (countRows[0].n >= dealerRows[0].staff_limit) {
+        throw httpError(409, `This dealer has reached their staff limit (${dealerRows[0].staff_limit})`);
+      }
+    } else {
+      // 2. Fallback: check staff_invites code hash
+      const inviteRows = await sql`
+        select si.id, si.dealer_id, si.expires_at, si.revoked, si.used_by
+        from staff_invites si where si.code_hash = ${sha256(inputCode.toUpperCase())} limit 1`;
+      const invite = inviteRows[0];
+      if (!invite || invite.revoked || (invite.used_by && invite.used_by !== existingPendingUser?.id) || new Date(invite.expires_at) < new Date()) {
+        throw httpError(401, 'Invalid or expired Dealer / Invite Code');
+      }
+      targetDealerId = invite.dealer_id;
+      inviteIdToMark = invite.id;
+    }
+
+    let user;
+    if (existingPendingUser) {
+      const [updated] = await sql`
+        update users
+        set password_hash = ${await hashPassword(String(password))},
+            full_name = ${full_name ? String(full_name).trim() : null},
+            dealer_id = ${targetDealerId},
+            email = ${cleanEmail || null},
+            phone = ${cleanPhone || null}
+        where id = ${existingPendingUser.id}
+        returning *`;
+      user = updated;
+    } else {
+      const [inserted] = await sql`
+        insert into users (email, phone, password_hash, full_name, role, status, dealer_id)
+        values (${cleanEmail || null}, ${cleanPhone || null},
+                ${await hashPassword(String(password))},
+                ${full_name ? String(full_name).trim() : null},
+                'dealer_staff', 'pending', ${targetDealerId})
+        returning *`;
+      user = inserted;
+    }
+
+    if (inviteIdToMark) {
+      await sql`update staff_invites set used_by = ${user.id}, used_at = now() where id = ${inviteIdToMark}`;
+    }
+    await audit(user.id, 'staff.signed_up', 'dealer', targetDealerId);
+
+    // Auto-create Contact under Dealer Account in Zoho CRM
+    try {
+      const [dInfo] = await sql`
+        select d.id, d.zoho_account_id, d.dealer_code, d.owner_user_id, ou.zoho_contact_id as owner_contact_id
+        from dealers d
+        left join users ou on ou.id = d.owner_user_id
+        where d.id = ${targetDealerId}`;
+      if (dInfo?.zoho_account_id && !user.zoho_contact_id && crm.isCrmConfigured()) {
+        const cId = await crm.createDealerContact({
+          accountId: dInfo.zoho_account_id,
+          personName: user.full_name || (cleanEmail ? cleanEmail.split('@')[0] : 'Staff Member'),
+          phone: user.phone,
+          email: user.email,
+          portalRole: 'Staff',
+          userSource: 'User Portal',
+          reportingToContactId: dInfo.owner_contact_id || undefined,
+          dealerCode: dInfo.dealer_code,
+        });
+        await crm.linkContactToBackendUser(cId, user.id);
+        await sql`update users set zoho_contact_id = ${cId} where id = ${user.id}`;
+        user.zoho_contact_id = cId;
+        log.info(`[staff:signup] auto-created CRM contact ${cId} under Account ${dInfo.zoho_account_id}`);
+      }
+    } catch (crmErr) {
+      log.warn(`[staff:signup] CRM contact auto-create skipped: ${crmErr.message}`);
+    }
+
+    // Notify the dealer owner
+    const ownerRows = await sql`select owner_user_id from dealers where id = ${targetDealerId}`;
     if (ownerRows[0]) {
-      await notify(ownerRows[0].owner_user_id, 'email', 'staff_pending_approval', { staffEmail: user.email });
+      await notify(ownerRows[0].owner_user_id, 'email', 'staff_pending_approval', { staffEmail: user.email || user.phone });
     }
-    // no session until the dealer approves — the staff user stays pending
+
+    // No session until the dealer approves — the staff user stays pending
     res.status(201).json({ ok: true, status: 'pending' });
   } catch (err) { next(err); }
 });
@@ -174,12 +583,14 @@ authRouter.post('/staff/signup', strictLimit, async (req, res, next) => {
 /* GET /api/auth/me — the pending-approval screen polls this. */
 authRouter.get('/me', jwtAuth, async (req, res, next) => {
   try {
-    let dealer = null;
-    if (req.user.dealer_id) {
-      const rows = await sql`select id, business_name, status, reject_reason, dealer_code, price_tier
-                             from dealers where id = ${req.user.dealer_id}`;
-      dealer = rows[0] || null;
-    }
-    res.json({ user: publicUser(req.user), dealer });
+    const user = await resolveUserWithDealer(req.user);
+    const dealerRows = await sql`
+      select id, business_name, status, reject_reason, dealer_code, price_tier
+      from dealers
+      where id = ${user.dealer_id} or owner_user_id = ${user.id}
+      order by case when status = 'approved' then 1 when status = 'pending' then 2 else 3 end asc
+      limit 1`;
+    const dealer = dealerRows[0] || null;
+    res.json({ user: publicUser(user), dealer });
   } catch (err) { next(err); }
 });

@@ -1,48 +1,44 @@
 # Community 73
 
-> 19 nodes · cohesion 0.21
+> 21 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **mt()** (18 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **dn()** (13 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **sn()** (11 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **vn()** (11 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **bt()** (10 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **ip()** (10 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **en()** (9 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **Bn()** (8 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **xn()** (7 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **cn()** (6 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **fn()** (6 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **wn()** (6 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **be()** (5 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **ye()** (5 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **Me()** (4 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **xe()** (4 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **yn()** (3 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **te()** (2 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **un()** (2 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
+- **properties** (15 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **from** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **to** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **brand** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **note** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **participant** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **sublabel** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **variant** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (24 shared connections)
-- [[Client Products Data Store]] (12 shared connections)
-- [[Live Pricing Audit Tool]] (11 shared connections)
-- [[Master Codebase Architecture Reference]] (10 shared connections)
-- [[Community 39]] (4 shared connections)
-- [[Community 86]] (3 shared connections)
-- [[Community 56]] (2 shared connections)
-- [[Project Readme & Layout]] (1 shared connections)
-- [[Roles & Customer Sharing Spec]] (1 shared connections)
+- [[Community 118]] (4 shared connections)
+- [[Community 267]] (1 shared connections)
+- [[Community 269]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BpPwjHSs.js`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 140 (100%)
+- EXTRACTED: 46 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

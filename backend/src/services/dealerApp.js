@@ -17,19 +17,32 @@ export async function applyDealer({ user, businessName, gstNumber, address, pers
     throw Object.assign(new Error('Dealer application already exists'), { statusCode: 409 });
   }
 
+  const effectivePhone = (phone ? String(phone).trim() : null) || user.phone || null;
+
   const [dealer] = await sql`
     insert into dealers (owner_user_id, business_name, gst_number, address, status)
     values (${user.id}, ${businessName}, ${gstNumber || null}, ${address || null}, 'pending')
     returning id`;
 
   await sql`update users set role = 'dealer', status = 'pending', dealer_id = ${dealer.id},
-            phone = coalesce(phone, ${phone || null}) where id = ${user.id}`;
+            phone = coalesce(phone, ${effectivePhone}) where id = ${user.id}`;
 
   let zohoAccountId = null;
   try {
-    zohoAccountId = await crm.createDealerAccount({ businessName, gstNumber, phone, email: user.email, address });
+    zohoAccountId = await crm.createDealerAccount({
+      businessName,
+      gstNumber,
+      phone: effectivePhone,
+      email: user.email,
+      address,
+    });
     const contactId = await crm.createDealerContact({
-      accountId: zohoAccountId, personName, phone, email: user.email, portalRole: 'Owner',
+      accountId: zohoAccountId,
+      personName: personName || user.full_name,
+      phone: effectivePhone,
+      email: user.email,
+      portalRole: 'Owner',
+      userSource: 'Dealer Portal',
     });
     await crm.linkContactToBackendUser(contactId, user.id);
     await sql`update dealers set zoho_account_id = ${zohoAccountId} where id = ${dealer.id}`;

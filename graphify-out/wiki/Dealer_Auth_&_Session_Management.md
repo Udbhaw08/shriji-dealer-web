@@ -1,55 +1,57 @@
 # Dealer Auth & Session Management
 
-> 109 nodes · cohesion 0.03
+> 207 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **_()** (446 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **kf()** (23 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **Lr()** (16 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **ca()** (10 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **Ar()** (8 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **request()** (8 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **an()** (7 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **It()** (7 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **pn()** (7 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **Dr()** (6 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **Le()** (6 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **sf()** (6 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **yr()** (6 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **zr()** (6 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **Ct()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **eh()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **ln()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **ne()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **rn()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **unavailable()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **Xr()** (5 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **ac()** (4 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **br()** (4 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **Cr()** (4 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- **Er()** (4 connections) — `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
-- *... and 84 more nodes in this community*
+- **_()** (708 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **reject()** (22 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **getIdToken()** (13 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **hp()** (9 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **_onStorageEvent()** (9 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **directlySetCurrentUser()** (8 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **eh()** (8 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **fm()** (8 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **initializeCurrentUser()** (8 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **em()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **jp()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **load()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **qf()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **setPersistence()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **_setRedirectUser()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **signOut()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **uh()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **validatePassword()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **checkDestroyed()** (6 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **_f()** (6 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **getCurrentUser()** (6 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **getOrInitRedirectPersistenceManager()** (6 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **_getReauthenticationResolver()** (6 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **init_()** (6 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **onAuthEvent()** (6 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- *... and 182 more nodes in this community*
 
 ## Relationships
 
-- [[Dependencies & Package Config]] (96 shared connections)
-- [[Testing & Workflow Skill]] (51 shared connections)
-- [[Oxlint Linter Configuration]] (50 shared connections)
-- [[Zoho Integration Skill]] (47 shared connections)
-- [[Community 32]] (39 shared connections)
-- [[Community 38]] (34 shared connections)
-- [[Community 35]] (32 shared connections)
-- [[Community 55]] (28 shared connections)
-- [[Community 70]] (26 shared connections)
+- [[Dependencies & Package Config]] (106 shared connections)
+- [[Product Pages Specification]] (84 shared connections)
+- [[Product Requirements Documentation]] (77 shared connections)
+- [[Zoho Integration Architecture]] (70 shared connections)
+- [[Testing & Workflow Skill]] (50 shared connections)
+- [[Community 41]] (46 shared connections)
+- [[Community 32]] (44 shared connections)
+- [[Community 46]] (40 shared connections)
+- [[Community 43]] (38 shared connections)
+- [[Community 64]] (35 shared connections)
+- [[Community 70]] (23 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BpPwjHSs.js`
+- `ios/App/App/public/assets/index-DxTMC5SR.js`
 
 ## Audit Trail
 
-- EXTRACTED: 786 (100%)
+- EXTRACTED: 1410 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

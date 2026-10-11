@@ -1,54 +1,56 @@
 # Architecture Doc Generator
 
-> 47 nodes · cohesion 0.10
+> 53 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **Login.jsx** (41 connections) — `src/pages/Login.jsx`
-- **session.js** (31 connections) — `src/data/session.js`
-- **auth.js** (27 connections) — `src/data/auth.js`
-- **callBackend()** (14 connections) — `src/data/auth.js`
-- **json()** (14 connections) — `src/data/auth.js`
-- **DealerDashboard.jsx** (12 connections) — `src/pages/DealerDashboard.jsx`
-- **revalidateSession()** (8 connections) — `src/data/session.js`
-- **requestOtp()** (7 connections) — `src/data/auth.js`
-- **applyAuthResponse()** (6 connections) — `src/data/auth.js`
-- **login()** (6 connections) — `src/data/auth.js`
-- **verifyOtp()** (6 connections) — `src/data/auth.js`
-- **setSession()** (6 connections) — `src/data/session.js`
-- **applyAsDealer()** (5 connections) — `src/data/auth.js`
-- **fetchMe()** (5 connections) — `src/data/auth.js`
-- **logout()** (5 connections) — `src/data/auth.js`
-- **signup()** (5 connections) — `src/data/auth.js`
-- **staffSignup()** (5 connections) — `src/data/auth.js`
-- **persistTokens()** (4 connections) — `src/data/auth.js`
-- **staffApprove()** (4 connections) — `src/data/auth.js`
-- **staffInvite()** (4 connections) — `src/data/auth.js`
-- **staffList()** (4 connections) — `src/data/auth.js`
-- **staffRevoke()** (4 connections) — `src/data/auth.js`
-- **signOut()** (4 connections) — `src/data/session.js`
-- **hasSession()** (3 connections) — `src/data/auth.js`
-- **initTokens()** (3 connections) — `src/data/auth.js`
-- *... and 22 more nodes in this community*
+- **zoho.js** (31 connections) — `api/zoho.js`
+- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
+- **fetchZohoProductById()** (12 connections) — `api/zoho.js`
+- **fetchZohoProducts()** (11 connections) — `api/zoho.js`
+- **fetchZohoWithRetry()** (11 connections) — `api/zoho.js`
+- **getZohoConfig()** (11 connections) — `api/zoho.js`
+- **findDealerByPhone()** (9 connections) — `api/zoho.js`
+- **vite.config.js** (9 connections) — `vite.config.js`
+- **createDealerContact()** (8 connections) — `api/zoho.js`
+- **getDealerById()** (8 connections) — `api/zoho.js`
+- **fetchZohoCategories()** (7 connections) — `api/zoho.js`
+- **getAccessToken()** (7 connections) — `api/zoho.js`
+- **zohoApiPlugin()** (7 connections) — `vite.config.js`
+- **fetchZohoPricebookItems()** (5 connections) — `api/zoho.js`
+- **normalizeProduct()** (5 connections) — `api/zoho.js`
+- **index.js** (4 connections) — `api/products/index.js`
+- **test-zoho-api.mjs** (4 connections) — `scripts/test-zoho-api.mjs`
+- **og.js** (3 connections) — `api/og.js`
+- **fetchZohoPricebooks()** (3 connections) — `api/zoho.js`
+- **loadEnv()** (3 connections) — `api/zoho.js`
+- **apply.js** (3 connections) — `api/dealer/apply.js`
+- **info.js** (3 connections) — `api/dealer/info.js`
+- **login.js** (3 connections) — `api/dealer/login.js`
+- **[id].js** (3 connections) — `api/products/[id].js`
+- **handler()** (3 connections) — `api/products/index.js`
+- *... and 28 more nodes in this community*
 
 ## Relationships
 
-- [[Pricing Regression Test Suite]] (24 shared connections)
-- [[Community 92]] (14 shared connections)
-- [[Community 31]] (8 shared connections)
-- [[Community 98]] (1 shared connections)
-- [[Community 117]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/data/auth.js`
-- `src/data/session.js`
-- `src/pages/DealerDashboard.jsx`
-- `src/pages/Login.jsx`
+- `api/dealer/apply.js`
+- `api/dealer/info.js`
+- `api/dealer/login.js`
+- `api/og.js`
+- `api/products/[id].js`
+- `api/products/index.js`
+- `api/zoho.js`
+- `scripts/audit_prices.mjs`
+- `scripts/test-zoho-api.mjs`
+- `vite.config.js`
 
 ## Audit Trail
 
-- EXTRACTED: 272 (100%)
+- EXTRACTED: 226 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

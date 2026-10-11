@@ -8,11 +8,12 @@ export function rateLimit({ windowMs = 60_000, max = 30, keyFn = (req) => req.ip
   if (process.env.NODE_ENV === 'test') {
     return (_req, _res, next) => next();
   }
+  const effectiveMax = process.env.NODE_ENV !== 'production' ? Math.max(max, 500) : max;
   return (req, res, next) => {
     const key = keyFn(req);
     const now = Date.now();
     const arr = (buckets.get(key) || []).filter((t) => now - t < windowMs);
-    if (arr.length >= max) {
+    if (arr.length >= effectiveMax) {
       return res.status(429).json({ error: 'rate_limited', retry_after_seconds: Math.ceil((arr[0] + windowMs - now) / 1000) });
     }
     arr.push(now);

@@ -98,13 +98,26 @@ export async function createDealerAccount({ businessName, gstNumber, phone, emai
 }
 
 /** Create a Contact under the dealer Account. Returns the CRM Contact id. */
-export async function createDealerContact({ accountId, personName, phone, email, portalRole = 'Owner' }) {
+export async function createDealerContact({
+  accountId,
+  personName,
+  phone,
+  email,
+  portalRole = 'Owner',
+  dealerCode,
+  userSource,
+  reportingToContactId,
+}) {
   const contact = {
-    Last_Name: personName || 'Dealer Owner',
+    Last_Name: personName || (portalRole === 'Staff' ? 'Dealer Staff' : 'Dealer Owner'),
     Account_Name: { id: accountId },
     Phone: phone || undefined,
+    Mobile: phone || undefined,
     Email: email || undefined,
     [FIELDS.contact.portalRole()]: portalRole,
+    ...(dealerCode ? { [FIELDS.account.dealerCode()]: dealerCode } : {}),
+    ...(userSource ? { User_Source: userSource } : {}),
+    ...(reportingToContactId ? { Reporting_To: { id: reportingToContactId } } : {}),
   };
   const data = await crmFetch('/Contacts', {
     method: 'POST',
@@ -140,6 +153,54 @@ export async function getDealerAccount(zohoAccountId) {
     priceTier: acc[FIELDS.account.priceTier()] || null,
     businessName: acc.Account_Name || null,
   };
+}
+
+/**
+ * Update the Store Code (api name: Dealer_Code) on both the Account
+ * and its associated Contacts in Zoho CRM.
+ */
+export async function updateDealerCodeInCrm({ zohoAccountId, dealerCode, ownerPhone }) {
+  if (!zohoAccountId || !crmConfigured()) return false;
+  try {
+    const cleanPhone = ownerPhone ? String(ownerPhone).trim() : undefined;
+    // 1. Update the Account
+    const accPayload = {
+      id: String(zohoAccountId),
+      ...(dealerCode ? { [FIELDS.account.dealerCode()]: String(dealerCode).trim() } : {}),
+      ...(cleanPhone ? { Phone: cleanPhone } : {}),
+    };
+    await crmFetch('/Accounts', {
+      method: 'PUT',
+      body: { data: [accPayload] },
+    });
+
+    // 2. Find and update Contacts under this Account
+    try {
+      const contactsRes = await crmFetch(`/Contacts/search?criteria=(Account_Name:equals:${zohoAccountId})`);
+      const contacts = contactsRes?.data || [];
+      if (contacts.length > 0) {
+        const contactUpdates = contacts.map((c) => {
+          const isOwner = c.Portal_Role === 'Owner' || !c.Reporting_To;
+          return {
+            id: c.id,
+            ...(dealerCode ? { [FIELDS.account.dealerCode()]: String(dealerCode).trim() } : {}),
+            ...(isOwner && cleanPhone ? { Phone: cleanPhone, Mobile: cleanPhone } : {}),
+          };
+        });
+        await crmFetch('/Contacts', {
+          method: 'PUT',
+          body: { data: contactUpdates },
+        });
+      }
+    } catch (conErr) {
+      log.warn(`[crm] Contact update for account ${zohoAccountId} skipped:`, conErr.message);
+    }
+    log.info(`[crm] Synced Store Code ${dealerCode || ''} & phone to Account ${zohoAccountId} & Contacts`);
+    return true;
+  } catch (err) {
+    log.error(`[crm] Failed to sync Store Code to CRM:`, err.message);
+    return false;
+  }
 }
 
 export const isCrmConfigured = () => Boolean(crmConfigured());

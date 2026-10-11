@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **story-carrier.test.mjs** (7 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
+- **repair-receipt.test.mjs** (7 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **receipt()** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **writeFixture()** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/story-carrier.test.mjs`
+- `.agents/skills/archify/test/repair-receipt.test.mjs`
 
 ## Audit Trail
 

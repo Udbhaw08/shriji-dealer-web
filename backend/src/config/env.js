@@ -9,6 +9,24 @@ export const env = {
   jwtSecret: process.env.JWT_SECRET || '',
   enableJobs: bool(process.env.ENABLE_JOBS, true),
   webhookSecret: process.env.WEBHOOK_SECRET || '',
+  resendApiKey: process.env.RESEND_API_KEY || '',
+  googleClientId: process.env.GOOGLE_CLIENT_ID || '',
+  firebaseApiKey: process.env.FIREBASE_API_KEY || '',
+  firebaseProjectId: process.env.FIREBASE_PROJECT_ID || '',
+
+  whatsapp: {
+    token: process.env.WHATSAPP_TOKEN || '',
+    phoneId: process.env.WHATSAPP_PHONE_ID || '',
+    templateName: process.env.WHATSAPP_TEMPLATE_NAME || '',
+    templateLang: process.env.WHATSAPP_TEMPLATE_LANG || 'en_US',
+  },
+  fast2smsApiKey: process.env.FAST2SMS_API_KEY || '',
+  msg91AuthKey: process.env.MSG91_AUTH_KEY || '',
+  twilio: {
+    accountSid: process.env.TWILIO_ACCOUNT_SID || '',
+    authToken: process.env.TWILIO_AUTH_TOKEN || '',
+    from: process.env.TWILIO_FROM_NUMBER || '',
+  },
 
   zoho: {
     dc: process.env.ZOHO_DC || 'in',

@@ -1,10 +1,11 @@
 # Community 282
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **cordova.js** (0 connections) — `android/app/src/main/assets/public/cordova.js`
+- **esm-CtRI5Hcu.js** (1 connections) — `ios/App/App/public/assets/esm-CtRI5Hcu.js`
+- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-CtRI5Hcu.js`
 
 ## Relationships
 
@@ -12,11 +13,11 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/cordova.js`
+- `ios/App/App/public/assets/esm-CtRI5Hcu.js`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

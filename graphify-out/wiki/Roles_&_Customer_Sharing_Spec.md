@@ -1,55 +1,71 @@
 # Roles & Customer Sharing Spec
 
-> 46 nodes · cohesion 0.08
+> 52 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **lc()** (17 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **Pd()** (14 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **ll()** (13 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **ki()** (11 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **ea()** (10 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **Hi()** (9 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **kc()** (9 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **O()** (9 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **yh()** (9 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **fc()** (8 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **Gc()** (8 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **ic()** (8 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **jd()** (8 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **sc()** (8 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **z()** (8 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **ec()** (7 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **gf()** (7 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **gt()** (7 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **Oi()** (7 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **dc()** (6 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **Di()** (6 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **es()** (6 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **nc()** (6 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **oc()** (6 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **Pi()** (6 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- *... and 21 more nodes in this community*
+- **ui.jsx** (38 connections) — `src/ui.jsx`
+- **main.jsx** (34 connections) — `src/main.jsx`
+- **useLanguage()** (32 connections) — `src/data/i18n.js`
+- **useSession()** (28 connections) — `src/data/session.js`
+- **Home.jsx** (24 connections) — `src/pages/Home.jsx`
+- **t()** (20 connections) — `src/data/i18n.js`
+- **site.js** (20 connections) — `src/data/site.js`
+- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
+- **Icon()** (16 connections) — `src/ui.jsx`
+- **isDealer()** (15 connections) — `src/data/dealer.js`
+- **Support.jsx** (15 connections) — `src/pages/Support.jsx`
+- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
+- **Schemes.jsx** (14 connections) — `src/pages/Schemes.jsx`
+- **COMPANY** (12 connections) — `src/data/site.js`
+- **dealerById()** (11 connections) — `src/data/dealer.js`
+- **Products()** (9 connections) — `src/pages/Products.jsx`
+- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
+- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
+- **portalGate.js** (8 connections) — `src/data/portalGate.js`
+- **Favorites()** (8 connections) — `src/pages/Favorites.jsx`
+- **Home()** (8 connections) — `src/pages/Home.jsx`
+- **HeroSlider.jsx** (7 connections) — `src/components/HeroSlider.jsx`
+- **Header()** (7 connections) — `src/ui.jsx`
+- **Login()** (6 connections) — `src/pages/Login.jsx`
+- **Schemes()** (6 connections) — `src/pages/Schemes.jsx`
+- *... and 27 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (52 shared connections)
-- [[Master Codebase Architecture Reference]] (39 shared connections)
-- [[Project Readme & Layout]] (21 shared connections)
-- [[Client Products Data Store]] (12 shared connections)
-- [[Live Pricing Audit Tool]] (9 shared connections)
-- [[Community 39]] (3 shared connections)
-- [[Community 73]] (1 shared connections)
-- [[Community 56]] (1 shared connections)
+- [[Community 37]] (60 shared connections)
+- [[Community 52]] (19 shared connections)
+- [[Live Pricing Audit Tool]] (16 shared connections)
+- [[Community 123]] (9 shared connections)
+- [[Community 131]] (7 shared connections)
+- [[Community 122]] (2 shared connections)
+- [[Community 231]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BpPwjHSs.js`
+- `src/components/HeroSlider.jsx`
+- `src/components/MobileBottomNav.jsx`
+- `src/components/NativeBackHandler.jsx`
+- `src/components/UnderMaintenance.jsx`
+- `src/data/dealer.js`
+- `src/data/i18n.js`
+- `src/data/portalGate.js`
+- `src/data/session.js`
+- `src/data/site.js`
+- `src/main.jsx`
+- `src/pages/DealerDashboard.jsx`
+- `src/pages/Favorites.jsx`
+- `src/pages/Home.jsx`
+- `src/pages/Login.jsx`
+- `src/pages/Products.jsx`
+- `src/pages/Schemes.jsx`
+- `src/pages/Support.jsx`
+- `src/ui.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 298 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 452 (100%)
+- INFERRED: 2 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

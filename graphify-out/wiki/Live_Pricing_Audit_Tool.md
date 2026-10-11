@@ -1,55 +1,54 @@
 # Live Pricing Audit Tool
 
-> 49 nodes · cohesion 0.09
+> 54 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **get()** (24 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **np()** (21 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **w()** (19 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **.addEventListener()** (18 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **b()** (17 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **h()** (14 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **bm()** (13 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **fp()** (13 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **.removeEventListener()** (13 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **am()** (10 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **tp()** (9 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **mm()** (8 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **cm()** (7 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **jm()** (7 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **lp()** (7 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **om()** (7 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **tm()** (7 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **zm()** (7 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **zt()** (7 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **em()** (6 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **.blur()** (6 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **.scrollIntoView()** (6 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **nm()** (6 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **v()** (6 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **g()** (5 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- *... and 24 more nodes in this community*
+- **Login.jsx** (51 connections) — `src/pages/Login.jsx`
+- **auth.js** (34 connections) — `src/data/auth.js`
+- **callBackend()** (21 connections) — `src/data/auth.js`
+- **json()** (21 connections) — `src/data/auth.js`
+- **DealerDashboard.jsx** (17 connections) — `src/pages/DealerDashboard.jsx`
+- **applyAuthResponse()** (8 connections) — `src/data/auth.js`
+- **requestOtp()** (8 connections) — `src/data/auth.js`
+- **firebaseAuthLogin()** (7 connections) — `src/data/auth.js`
+- **login()** (7 connections) — `src/data/auth.js`
+- **firebase.js** (7 connections) — `src/data/firebase.js`
+- **sendFirebasePhoneOtp()** (7 connections) — `src/data/firebase.js`
+- **googleLogin()** (6 connections) — `src/data/auth.js`
+- **signup()** (6 connections) — `src/data/auth.js`
+- **verifyOtp()** (6 connections) — `src/data/auth.js`
+- **OtpStep()** (6 connections) — `src/pages/Login.jsx`
+- **applyAsDealer()** (5 connections) — `src/data/auth.js`
+- **fetchMe()** (5 connections) — `src/data/auth.js`
+- **logout()** (5 connections) — `src/data/auth.js`
+- **lookupStaffCode()** (5 connections) — `src/data/auth.js`
+- **staffSignup()** (5 connections) — `src/data/auth.js`
+- **Identify()** (5 connections) — `src/pages/Login.jsx`
+- **persistTokens()** (4 connections) — `src/data/auth.js`
+- **staffApprove()** (4 connections) — `src/data/auth.js`
+- **staffDelete()** (4 connections) — `src/data/auth.js`
+- **staffHold()** (4 connections) — `src/data/auth.js`
+- *... and 29 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (59 shared connections)
-- [[Master Codebase Architecture Reference]] (28 shared connections)
-- [[Community 73]] (11 shared connections)
-- [[Project Readme & Layout]] (10 shared connections)
-- [[Roles & Customer Sharing Spec]] (9 shared connections)
-- [[Community 56]] (8 shared connections)
-- [[Client Products Data Store]] (6 shared connections)
-- [[Community 39]] (4 shared connections)
-- [[Community 86]] (2 shared connections)
+- [[Roles & Customer Sharing Spec]] (16 shared connections)
+- [[Community 131]] (14 shared connections)
+- [[Community 52]] (9 shared connections)
+- [[Community 37]] (2 shared connections)
+- [[Community 123]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BpPwjHSs.js`
+- `src/data/auth.js`
+- `src/data/firebase.js`
+- `src/pages/DealerDashboard.jsx`
+- `src/pages/Login.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 347 (100%)
+- EXTRACTED: 326 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,41 +1,52 @@
 # Community 67
 
-> 20 nodes · cohesion 0.10
+> 22 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **PRODUCT-PAGES.md — listing, detail, and dealer pricing** (9 connections) — `docs/PRODUCT-PAGES.md`
-- **4. Product listing — `/products`, `src/pages/Products.jsx`** (6 connections) — `docs/PRODUCT-PAGES.md`
-- **6. Product detail — `/products/:id`, `src/pages/Product.jsx`** (6 connections) — `docs/PRODUCT-PAGES.md`
-- **PRODUCT-PAGES.md** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **1. Price visibility — the rule everything else follows** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **2. The pricing module — `src/data/dealer.js`** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **3. `<PriceBlock>` — `src/components/PriceBlock.jsx`** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **5. Product card — `src/components/ProductCard.jsx`** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **7. What is deliberately not here** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **8. Files touched on 2026-09-20** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Below the whole grid** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Filters and facets** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Left column** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Pagination** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Responsive behaviour** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Right column** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Share with Customer** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Sort** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Structure** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Tabs** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **kn()** (13 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **ln()** (13 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **tp()** (12 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **Cn()** (10 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **ip()** (10 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **bn()** (8 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **dn()** (8 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **on()** (8 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **un()** (8 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **nn()** (7 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **mn()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **pn()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **vn()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **yn()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **In()** (4 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **an()** (3 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **beforeAuthStateChanged()** (3 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **en()** (3 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **tn()** (3 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **xn()** (3 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **fn()** (2 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **pushCallback()** (2 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (24 shared connections)
+- [[Pricing Regression Test Suite]] (10 shared connections)
+- [[Client Products Data Store]] (8 shared connections)
+- [[Master Codebase Architecture Reference]] (8 shared connections)
+- [[Community 49]] (7 shared connections)
+- [[Community 39]] (5 shared connections)
+- [[Community 29]] (2 shared connections)
+- [[Community 35]] (2 shared connections)
+- [[Claude Agent Instructions]] (2 shared connections)
+- [[Community 38]] (1 shared connections)
 
 ## Source Files
 
-- `docs/PRODUCT-PAGES.md`
+- `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
+- EXTRACTED: 141 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

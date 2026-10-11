@@ -1,31 +1,36 @@
 # Community 131
 
-> 10 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **entries** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **legend** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **properties** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **mode** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **properties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **session.js** (31 connections) — `src/data/session.js`
+- **revalidateSession()** (9 connections) — `src/data/session.js`
+- **setSession()** (6 connections) — `src/data/session.js`
+- **signOut()** (4 connections) — `src/data/session.js`
+- **hasSession()** (3 connections) — `src/data/auth.js`
+- **sessionFromAuth()** (3 connections) — `src/data/auth.js`
+- **emit()** (2 connections) — `src/data/session.js`
+- **signOutAndReload()** (2 connections) — `src/pages/Login.jsx`
+- **GUEST** (1 connections) — `src/data/session.js`
+- **subs** (1 connections) — `src/data/session.js`
 
 ## Relationships
 
-- [[Community 53]] (1 shared connections)
+- [[Live Pricing Audit Tool]] (14 shared connections)
+- [[Roles & Customer Sharing Spec]] (7 shared connections)
+- [[Community 37]] (7 shared connections)
+- [[Community 52]] (6 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/sequence.schema.json`
+- `src/data/auth.js`
+- `src/data/session.js`
+- `src/pages/Login.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
+- EXTRACTED: 62 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

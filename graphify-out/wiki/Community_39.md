@@ -1,54 +1,58 @@
 # Community 39
 
-> 32 nodes · cohesion 0.10
+> 36 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **kf()** (23 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **Lr()** (16 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **Ar()** (8 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **In()** (8 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **Wr()** (7 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **Dr()** (6 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **ni()** (6 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **sf()** (6 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **yr()** (6 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **zr()** (6 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **Gr()** (5 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **ne()** (5 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **Xr()** (5 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **br()** (4 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **Cr()** (4 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **Er()** (4 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **kn()** (4 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **qf()** (4 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **rr()** (4 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **Rt()** (4 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **Vr()** (4 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **qr()** (3 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **Sr()** (3 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **Xf()** (3 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- **Fr()** (2 connections) — `ios/App/App/public/assets/index-BpPwjHSs.js`
-- *... and 7 more nodes in this community*
+- **delete()** (31 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **b()** (18 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **.removeEventListener()** (18 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **h()** (14 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **fp()** (13 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **tm()** (9 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **.addEventListener()** (7 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **g()** (7 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **lp()** (7 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **.blur()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **.scrollIntoView()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **pm()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **removeListener()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **v()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **Bp()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **ne()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **Rp()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **xp()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **detachListener()** (4 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **.getClientRects()** (4 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **.unobserveUsing()** (4 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **removeWindowListener()** (4 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **up()** (4 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **Vp()** (4 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **Yp()** (4 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (37 shared connections)
-- [[Master Codebase Architecture Reference]] (8 shared connections)
-- [[Client Products Data Store]] (5 shared connections)
-- [[Community 73]] (4 shared connections)
-- [[Live Pricing Audit Tool]] (4 shared connections)
-- [[Roles & Customer Sharing Spec]] (3 shared connections)
-- [[Project Readme & Layout]] (3 shared connections)
-- [[Community 56]] (2 shared connections)
+- [[Price Presentation & Product UI]] (42 shared connections)
+- [[Pricing Regression Test Suite]] (13 shared connections)
+- [[Master Codebase Architecture Reference]] (11 shared connections)
+- [[Client Products Data Store]] (10 shared connections)
+- [[Community 67]] (5 shared connections)
+- [[Community 35]] (5 shared connections)
+- [[Community 49]] (5 shared connections)
+- [[Claude Agent Instructions]] (4 shared connections)
+- [[Community 38]] (3 shared connections)
+- [[Community 29]] (3 shared connections)
+- [[Graphify Agent Rules]] (2 shared connections)
+- [[Community 99]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BpPwjHSs.js`
+- `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
 
 ## Audit Trail
 
-- EXTRACTED: 164 (100%)
+- EXTRACTED: 230 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

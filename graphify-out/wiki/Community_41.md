@@ -1,54 +1,56 @@
 # Community 41
 
-> 30 nodes · cohesion 0.14
+> 35 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **archify.mjs** (50 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandCompare()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **fail()** (15 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **usage()** (11 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **runNode()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandDemo()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **exitFrom()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandExamples()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandVisualCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportArtifactFailure()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandDoctor()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commitComparePair()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractCompareOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractMigrationOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **formatDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportArtifactArgumentFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportCompareFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportDeliveryFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportValidateFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandGuide()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **compareCommitError()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **compareReceiptPath()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **CHECK_FIXES** (1 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **[command, ...args]** (1 connections) — `.agents/skills/archify/bin/archify.mjs`
-- *... and 5 more nodes in this community*
+- **create()** (25 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **ss()** (18 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **warn()** (16 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **sc()** (13 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **nu()** (12 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **eu()** (10 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **gs()** (9 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **ns()** (9 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **oc()** (9 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **Du()** (8 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **ms()** (8 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **to()** (8 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **vo()** (8 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **ao()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **cs()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **io()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **su()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **ac()** (6 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **hs()** (5 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **ls()** (5 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **overwrite()** (5 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **read()** (5 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **wo()** (5 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **Cu()** (4 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **debug()** (4 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [[Community 60]] (41 shared connections)
-- [[Community 88]] (4 shared connections)
-- [[Claude Agent Instructions]] (2 shared connections)
-- [[Community 66]] (2 shared connections)
-- [[Community 47]] (2 shared connections)
-- [[Community 82]] (2 shared connections)
-- [[Community 40]] (2 shared connections)
+- [[Dealer Auth & Session Management]] (46 shared connections)
+- [[Product Pages Specification]] (30 shared connections)
+- [[Dependencies & Package Config]] (21 shared connections)
+- [[Community 46]] (9 shared connections)
+- [[Zoho Integration Architecture]] (8 shared connections)
+- [[Product Requirements Documentation]] (7 shared connections)
+- [[Community 43]] (5 shared connections)
+- [[Community 64]] (5 shared connections)
+- [[Community 32]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
+- `ios/App/App/public/assets/index-DxTMC5SR.js`
 
 ## Audit Trail
 
-- EXTRACTED: 167 (94%)
-- INFERRED: 10 (6%)
+- EXTRACTED: 250 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -133,25 +133,46 @@ const json = (body) => ({ method: "POST", body: JSON.stringify(body) });
 
 /* ---- Auth API ---- */
 
-export async function signup({ email, password, phone }) {
-  return applyAuthResponse(await callBackend("/api/auth/signup", json({ email, password, phone })));
+export async function signup(payload) {
+  return applyAuthResponse(await callBackend("/api/auth/signup", json(payload)));
 }
 
-export async function login({ email, password }) {
-  return applyAuthResponse(await callBackend("/api/auth/login", json({ email, password })));
+export async function login(payload) {
+  return applyAuthResponse(await callBackend("/api/auth/login", json(payload)));
 }
 
-export async function staffSignup({ email, password, invite_code }) {
-  const res = await callBackend("/api/auth/staff/signup", json({ email, password, invite_code }));
+export async function googleLogin(credential) {
+  return applyAuthResponse(await callBackend("/api/auth/google", json({ credential })));
+}
+
+export async function firebaseAuthLogin(idToken) {
+  return applyAuthResponse(await callBackend("/api/auth/firebase", json({ idToken })));
+}
+
+export async function lookupStaffCode(code) {
+  const res = await callBackend("/api/auth/staff/lookup-code", json({ code }));
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.error || "Invalid Dealer / Business Code");
+  return data;
+}
+
+export async function staffSignup({ email, password, dealer_code, invite_code, full_name, phone }) {
+  const res = await callBackend("/api/auth/staff/signup", json({
+    email, password, dealer_code, invite_code, full_name, phone,
+  }));
   const data = await res.json();
   if (!res.ok) throw new Error(data.error || "Staff signup failed");
   return data;
 }
 
 export async function requestOtp(payload) {
-  const res = await callBackend("/api/auth/otp/request", json(payload));
-  if (!res.ok) throw new Error((await res.json()).error || "Could not send OTP");
-  return true;
+  const res = await callBackend(
+    "/api/auth/otp/request",
+    json(typeof payload === "string" ? { identifier: payload } : payload)
+  );
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.error || "Could not send OTP");
+  return data;
 }
 
 export async function verifyOtp(payload) {
@@ -170,6 +191,13 @@ export async function applyAsDealer(form) {
   const res = await callBackend("/api/dealers/apply", json(form));
   const data = await res.json();
   if (!res.ok) throw new Error(data.error || "Could not submit application");
+  return data;
+}
+
+export async function updateDealerCode(code) {
+  const res = await callBackend("/api/dealers/code", json({ code }));
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.error || "Failed to update Dealer Code");
   return data;
 }
 
@@ -192,9 +220,24 @@ export async function staffApprove(userId) {
   if (!res.ok) throw new Error((await res.json()).error || "Approve failed");
 }
 
+export async function staffHold(userId) {
+  const res = await callBackend(`/api/dealers/staff/${userId}/hold`, json({}));
+  if (!res.ok) throw new Error((await res.json()).error || "Hold failed");
+}
+
+export async function staffResume(userId) {
+  const res = await callBackend(`/api/dealers/staff/${userId}/resume`, json({}));
+  if (!res.ok) throw new Error((await res.json()).error || "Resume failed");
+}
+
 export async function staffRevoke(userId) {
   const res = await callBackend(`/api/dealers/staff/${userId}/revoke`, json({}));
   if (!res.ok) throw new Error((await res.json()).error || "Revoke failed");
+}
+
+export async function staffDelete(userId) {
+  const res = await callBackend(`/api/dealers/staff/${userId}/delete`, json({}));
+  if (!res.ok) throw new Error((await res.json()).error || "Delete failed");
 }
 
 export async function logout() {
@@ -210,15 +253,17 @@ export async function logout() {
   await persistTokens();
 }
 
-/** Map a backend { user, dealer } response onto the session store shape. */
 export function sessionFromAuth(user, dealer) {
-  const isDealerSide = user.role === "dealer" || user.role === "dealer_staff";
-  const dealerStatus = dealer?.status || (isDealerSide ? "pending" : "approved");
+  const isDealerSide = user.role === "dealer" || user.role === "dealer_staff" || !!dealer;
+  const isStaffInactive = user.role === "dealer_staff" && (user.status === "pending" || user.status === "hold" || user.status === "revoked");
+  const dealerStatus = isStaffInactive
+    ? user.status
+    : dealer?.status || (isDealerSide ? (dealer ? dealer.status : "pending") : "approved");
   return {
     role: isDealerSide ? "dealer" : "customer",
-    // customer sessions have no approval gate; dealer sessions mirror CRM
     status: isDealerSide ? dealerStatus : "approved",
-    dealerId: dealer?.id || null,
+    userStatus: user.status,
+    dealerId: dealer?.id || user.dealer_id || null,
     dealer: dealer
       ? {
           id: dealer.id,
@@ -234,5 +279,6 @@ export function sessionFromAuth(user, dealer) {
     userId: user.id,
     authRole: user.role, // customer | dealer | dealer_staff — the backend's real role
     staffPending: user.role === "dealer_staff" && user.status === "pending",
+    staffHold: user.role === "dealer_staff" && user.status === "hold",
   };
 }

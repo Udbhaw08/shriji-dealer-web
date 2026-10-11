@@ -3,7 +3,8 @@ import { sql } from '../db/pool.js';
 import { jwtAuth, requireApprovedDealer } from '../middleware/auth.js';
 import { httpError } from '../middleware/errorHandler.js';
 import { applyDealer } from '../services/dealerApp.js';
-import { createInvite, approveStaff, revokeStaff } from '../services/staff.js';
+import { createInvite, approveStaff, revokeStaff, holdStaff, resumeStaff, deleteStaff } from '../services/staff.js';
+import { updateDealerCodeInCrm } from '../services/crmClient.js';
 
 export const dealersRouter = Router();
 
@@ -23,7 +24,7 @@ dealersRouter.post('/apply', async (req, res, next) => {
       gstNumber: gst_number ? String(gst_number).trim() : null,
       address: address ? String(address).trim() : null,
       personName: person_name ? String(person_name).trim() : null,
-      phone: phone ? String(phone).trim() : null,
+      phone: phone ? String(phone).trim() : (req.user.phone || null),
     });
     res.status(201).json({ ok: true, dealer_id: dealerId, status: 'pending' });
   } catch (err) { next(err); }
@@ -57,9 +58,14 @@ dealersRouter.post('/staff/invite', requireApprovedDealer, async (req, res, next
 dealersRouter.get('/staff', requireApprovedDealer, async (req, res, next) => {
   try {
     const staff = await sql`
-      select id, email, phone, status, created_at from users
+      select id, full_name, email, phone, status, created_at, zoho_contact_id from users
       where dealer_id = ${req.dealer.id} and role = 'dealer_staff'
-      order by created_at desc`;
+      order by
+        case when status = 'pending' then 1
+             when status = 'active' then 2
+             when status = 'hold' then 3
+             else 4 end asc,
+        created_at desc`;
     res.json({ staff });
   } catch (err) { next(err); }
 });
@@ -71,10 +77,68 @@ dealersRouter.post('/staff/:userId/approve', requireApprovedDealer, async (req, 
   } catch (err) { next(err); }
 });
 
+dealersRouter.post('/staff/:userId/hold', requireApprovedDealer, async (req, res, next) => {
+  try {
+    await holdStaff(req.dealer, req.params.userId);
+    res.json({ ok: true });
+  } catch (err) { next(err); }
+});
+
+dealersRouter.post('/staff/:userId/resume', requireApprovedDealer, async (req, res, next) => {
+  try {
+    await resumeStaff(req.dealer, req.params.userId);
+    res.json({ ok: true });
+  } catch (err) { next(err); }
+});
+
 dealersRouter.post('/staff/:userId/revoke', requireApprovedDealer, async (req, res, next) => {
   try {
     await revokeStaff(req.dealer, req.params.userId);
     res.json({ ok: true });
   } catch (err) { next(err); }
 });
+
+dealersRouter.post('/staff/:userId/delete', requireApprovedDealer, async (req, res, next) => {
+  try {
+    await deleteStaff(req.dealer, req.params.userId);
+    res.json({ ok: true });
+  } catch (err) { next(err); }
+});
+
+/* POST /api/dealers/code — assign or update official Dealer / Store Code and sync to Zoho CRM */
+dealersRouter.post('/code', requireApprovedDealer, async (req, res, next) => {
+  try {
+    let { code } = req.body || {};
+    if (!code) {
+      const num = Math.floor(1000 + Math.random() * 9000);
+      code = `DLR-${num}`;
+    }
+    const cleanCode = String(code).trim().toUpperCase();
+    if (cleanCode.length < 3) {
+      throw httpError(400, 'Dealer code must be at least 3 characters');
+    }
+
+    // Check uniqueness (exclude current dealer)
+    const dupe = await sql`
+      select id from dealers
+      where lower(dealer_code) = lower(${cleanCode}) and id != ${req.dealer.id}`;
+    if (dupe.length) {
+      throw httpError(409, 'This Dealer / Store Code is already in use by another dealer');
+    }
+
+    await sql`update dealers set dealer_code = ${cleanCode} where id = ${req.dealer.id}`;
+
+    let crmSynced = false;
+    if (req.dealer.zoho_account_id) {
+      crmSynced = await updateDealerCodeInCrm({
+        zohoAccountId: req.dealer.zoho_account_id,
+        dealerCode: cleanCode,
+        ownerPhone: req.user?.phone,
+      });
+    }
+
+    res.json({ ok: true, dealer_code: cleanCode, crm_synced: crmSynced });
+  } catch (err) { next(err); }
+});
+
 

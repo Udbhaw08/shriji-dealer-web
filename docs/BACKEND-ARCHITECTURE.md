@@ -79,9 +79,10 @@ authenticated, approved dealers.
 2. **Approval:** Owner flips Dealer Status in CRM → webhook fires → backend re-fetches the
    Account → updates `dealers` row + promotes owner user to `active` → notifies dealer.
    Fallback poll every 5 min guarantees convergence even if the webhook is lost.
-3. **Staff:** dealer generates an invite code → staff signs up with it (status `pending`)
-   → dealer approves in dashboard → backend activates the user and creates their Contact in CRM.
-   Revocation deactivates the user and revokes their tokens.
+3. **Staff:** staff joins by entering the shop's official **Dealer Code / Business Code**
+   (or 7-day invite code) → registered as `pending` under that dealer → dealer approves in
+   dashboard (`/dealer`) → backend activates the user and provisions their Contact in Zoho CRM
+   under the dealer's Account (`Portal_Role = 'Staff'`). Revocation deactivates the user and revokes their tokens.
 4. **Prices:** App sends its JWT → backend checks role/status → returns dealer or retail
    prices from the cache. A customer (or revoked dealer) can never receive a dealer rate.
 5. **Catalog sync:** backend refreshes products and price lists from Zoho Commerce on a
@@ -221,9 +222,9 @@ ZOHO_CRM_ORG_ID=
       poll, staff invites, role-gated price proxy, rate limits, audit log
 - [x] Tests: 18 unit + 8 integration (`TEST_DATABASE_URL=... npm test`) — 26/26 pass
       against a real Postgres (verify the whole apply → webhook → approve → price flow)
-- [x] Frontend wired: `src/data/auth.js` (token storage + auto-refresh),
+- [x] Frontend wired: `src/data/auth.js` (token storage + auto-refresh + Dealer Code lookup),
       `session.js` mirrors `/api/auth/me`, Login (password/OTP/signup/apply/staff
-      invite), `/dealer` dashboard, pending-approval polling
+      onboarding via Dealer Code), `/dealer` dashboard (Dealer Code badge & copy, team approval), pending-approval polling
 - [ ] Supabase project created; `DATABASE_URL` issued; `npm run migrate` applied
 - [ ] Backend deployed (Railway); `FRONTEND_ORIGINS` set to the live domain
 - [ ] CRM custom fields created (§1.1)

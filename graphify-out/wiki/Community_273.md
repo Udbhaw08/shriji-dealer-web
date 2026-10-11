@@ -1,11 +1,12 @@
 # Community 273
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **esm-CedIWXUo.js** (1 connections) — `ios/App/App/public/assets/esm-CedIWXUo.js`
-- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-CedIWXUo.js`
+- **sync-all.mjs** (2 connections) — `scripts/sync-all.mjs`
+- **rootDir** (1 connections) — `scripts/sync-all.mjs`
+- **run()** (1 connections) — `scripts/sync-all.mjs`
 
 ## Relationships
 
@@ -13,11 +14,11 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/esm-CedIWXUo.js`
+- `scripts/sync-all.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

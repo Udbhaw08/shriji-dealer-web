@@ -1,17 +1,19 @@
 # Community 71
 
-> 19 nodes · cohesion 0.11
+> 21 nodes · cohesion 0.10
 
 ## Key Concepts
 
 - **package.json** (9 connections) — `backend/package.json`
-- **dependencies** (5 connections) — `backend/package.json`
+- **dependencies** (7 connections) — `backend/package.json`
 - **scripts** (5 connections) — `backend/package.json`
 - **engines** (2 connections) — `backend/package.json`
 - **dotenv** (1 connections) — `backend/package.json`
 - **express** (1 connections) — `backend/package.json`
+- **google-auth-library** (1 connections) — `backend/package.json`
 - **jsonwebtoken** (1 connections) — `backend/package.json`
 - **postgres** (1 connections) — `backend/package.json`
+- **resend** (1 connections) — `backend/package.json`
 - **description** (1 connections) — `backend/package.json`
 - **node** (1 connections) — `backend/package.json`
 - **main** (1 connections) — `backend/package.json`
@@ -34,7 +36,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 36 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,35 +1,35 @@
 # Zoho Backend & Proxy Endpoints
 
-> 97 nodes · cohesion 0.06
+> 106 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **sql** (30 connections) — `backend/src/db/pool.js`
+- **sql** (35 connections) — `backend/src/db/pool.js`
+- **auth.js** (32 connections) — `backend/src/routes/auth.js`
 - **server.js** (25 connections) — `backend/src/server.js`
-- **auth.js** (22 connections) — `backend/src/routes/auth.js`
+- **crmClient.js** (21 connections) — `backend/src/services/crmClient.js`
+- **dealers.js** (20 connections) — `backend/src/routes/dealers.js`
+- **staff.js** (18 connections) — `backend/src/services/staff.js`
 - **pool.js** (17 connections) — `backend/src/db/pool.js`
-- **crmClient.js** (17 connections) — `backend/src/services/crmClient.js`
 - **catalog.js** (16 connections) — `backend/src/services/catalog.js`
-- **dealers.js** (15 connections) — `backend/src/routes/dealers.js`
-- **staff.js** (14 connections) — `backend/src/services/staff.js`
+- **audit()** (14 connections) — `backend/src/utils/audit.js`
+- **logger.js** (14 connections) — `backend/src/utils/logger.js`
+- **env.js** (13 connections) — `backend/src/config/env.js`
 - **webhooks.js** (13 connections) — `backend/src/routes/webhooks.js`
-- **logger.js** (13 connections) — `backend/src/utils/logger.js`
+- **log** (13 connections) — `backend/src/utils/logger.js`
 - **crmPoll.js** (12 connections) — `backend/src/jobs/crmPoll.js`
 - **dealerApp.js** (12 connections) — `backend/src/services/dealerApp.js`
-- **log** (12 connections) — `backend/src/utils/logger.js`
-- **env.js** (11 connections) — `backend/src/config/env.js`
+- **env** (11 connections) — `backend/src/config/env.js`
 - **index.js** (11 connections) — `backend/src/jobs/index.js`
 - **commerceClient.js** (11 connections) — `backend/src/services/commerceClient.js`
-- **audit()** (11 connections) — `backend/src/utils/audit.js`
 - **hash.js** (11 connections) — `backend/src/utils/hash.js`
-- **env** (9 connections) — `backend/src/config/env.js`
 - **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
+- **notifications.js** (9 connections) — `backend/src/services/notifications.js`
 - **auth.js** (8 connections) — `backend/src/middleware/auth.js`
 - **health.js** (8 connections) — `backend/src/routes/health.js`
+- **crmFetch()** (8 connections) — `backend/src/services/crmClient.js`
 - **errorHandler.js** (7 connections) — `backend/src/middleware/errorHandler.js`
-- **syncCatalog()** (7 connections) — `backend/src/services/catalog.js`
-- **crmFetch()** (7 connections) — `backend/src/services/crmClient.js`
-- *... and 72 more nodes in this community*
+- *... and 81 more nodes in this community*
 
 ## Relationships
 
@@ -60,7 +60,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 542 (100%)
+- EXTRACTED: 614 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

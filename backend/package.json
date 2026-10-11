@@ -17,7 +17,9 @@
   "dependencies": {
     "dotenv": "^16.4.5",
     "express": "^4.21.2",
+    "google-auth-library": "^11.2.0",
     "jsonwebtoken": "^9.0.2",
-    "postgres": "^3.4.5"
+    "postgres": "^3.4.5",
+    "resend": "^6.32.0"
   }
 }

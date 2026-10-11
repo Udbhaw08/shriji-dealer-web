@@ -32,6 +32,7 @@ export async function crmPoll() {
       });
       const contactId = await crm.createDealerContact({
         accountId, personName: d.business_name, phone: d.phone, email: d.email, portalRole: 'Owner',
+        userSource: 'Dealer Portal',
       });
       await crm.linkContactToBackendUser(contactId, d.owner_id);
       await sql`update dealers set zoho_account_id = ${accountId} where id = ${d.id}`;
