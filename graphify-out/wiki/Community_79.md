@@ -1,44 +1,38 @@
 # Community 79
 
-> 20 nodes · cohesion 0.10
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **properties** (13 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **title** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **animation** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **engineering_profile** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **locale** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **output** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **subtitle** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **views** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minLength** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **3. Exactly which keys to fetch, and from where** (9 connections) — `docs/ZOHO-INTEGRATION.md`
+- **ZOHO-INTEGRATION.md — Live Zoho Commerce & Books Backend** (7 connections) — `docs/ZOHO-INTEGRATION.md`
+- **5. API surface** (2 connections) — `docs/ZOHO-INTEGRATION.md`
+- **ZOHO-INTEGRATION.md** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **1. Active Integration Summary** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **2. The Code Seams** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.1 Organization ID — from the Commerce dashboard** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.2 Client ID + Client Secret — from the API console, not the store** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.3 Refresh Token — generated once, then permanent** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.4 Scopes** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.5 Data centre** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.6 The API call the keys unlock** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.7 Still to confirm — only the store owner can answer** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **4. Architecture — the part that cannot be skipped** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **6. Migration checklist** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **How to hand the credentials over safely** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **Sources** (1 connections) — `docs/ZOHO-INTEGRATION.md`
 
 ## Relationships
 
-- [[Community 124]] (1 shared connections)
-- [[Community 97]] (1 shared connections)
-- [[Community 214]] (1 shared connections)
-- [[Community 72]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `docs/ZOHO-INTEGRATION.md`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,52 +1,46 @@
 # Community 56
 
-> 25 nodes · cohesion 0.13
+> 23 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **architecture-delta.mjs** (65 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **validateArchitectureDeltaHtml()** (11 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **renderArchitectureDeltaHtml()** (6 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **architectureDeltaChangeRows()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **compareEntities()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **reviewTargetTags()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **expectedReviewTargetSignature()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **primaryReviewTags()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **reviewIdentity()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **reviewPrimaryStates()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **sortedObjects()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **addState()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **fieldChanges()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **normalizeComponent()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **normalizedField()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **reviewTargetSignature()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **safeJson()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **statusFor()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **total()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **BOUNDARY_FIELDS** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **codepointOrder()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **COMPONENT_FIELDS** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **CONNECTION_FIELDS** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **normalizeBoundary()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **sorted()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **properties** (8 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **layout** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **cols** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **cellH** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **cellW** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **gapX** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **gapY** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **origin** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **maximum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- [[Community 76]] (20 shared connections)
-- [[Community 92]] (18 shared connections)
-- [[Pricing & Roles Skill]] (5 shared connections)
-- [[Community 110]] (4 shared connections)
-- [[Community 120]] (2 shared connections)
-- [[Community 187]] (2 shared connections)
+- [[Community 116]] (1 shared connections)
+- [[Community 62]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 129 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 46 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

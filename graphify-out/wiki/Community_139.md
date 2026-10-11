@@ -1,32 +1,30 @@
 # Community 139
 
-> 10 nodes · cohesion 0.20
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **workflow.schema.json** (8 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$defs** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **side** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$id** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$schema** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **title** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **2. Customer vs. Dealer Price Resolution (`src/data/dealer.js`)** (4 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **PRICING-ARCHITECTURE.md — Pricing Engine & Audit Specification** (4 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **1. Source of Truth: Live Zoho Commerce Store API** (2 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **PRICING-ARCHITECTURE.md** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **2.1 Customer View** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **2.2 Dealer View** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **2.3 Share Link Invariant** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **3. Automated Pricing Regression Protection** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **Rate Priority Hierarchy** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
 
 ## Relationships
 
-- [[Community 112]] (1 shared connections)
-- [[Community 153]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `docs/PRICING-ARCHITECTURE.md`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

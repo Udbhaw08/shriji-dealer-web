@@ -1,58 +1,52 @@
 # Claude Agent Instructions
 
-> 43 nodes · cohesion 0.07
+> 43 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **reject()** (22 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **hu()** (11 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **rm()** (10 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **dh()** (9 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **zu()** (9 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **directlySetCurrentUser()** (8 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **fm()** (8 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **initializeCurrentUser()** (8 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **Lt()** (7 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **setPersistence()** (7 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **_setRedirectUser()** (7 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **signOut()** (7 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **getCurrentUser()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **getOrInitRedirectPersistenceManager()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **onAuthEvent()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **queue()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **runMiddleware()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **sendToConsumer()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **updateCurrentUser()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **Uu()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **cancel()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **_fromGetAccountInfoResponse()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **It()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **removeCurrentUser()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **rt()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **properties** (28 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **label** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelSegment** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **brand** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **channelX** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **channelY** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **classification** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **from** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **fromSide** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelAt** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelDx** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelDy** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **route** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **sublabel** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **tag** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **to** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **toSide** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **variant** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **yOffset** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
 - *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (56 shared connections)
-- [[Pricing Regression Test Suite]] (18 shared connections)
-- [[Zoho Integration Skill]] (9 shared connections)
-- [[Client Products Data Store]] (8 shared connections)
-- [[Master Codebase Architecture Reference]] (7 shared connections)
-- [[Community 35]] (5 shared connections)
-- [[Community 49]] (5 shared connections)
-- [[Community 39]] (4 shared connections)
-- [[Graphify Agent Rules]] (3 shared connections)
-- [[Community 67]] (2 shared connections)
-- [[Community 38]] (2 shared connections)
-- [[Community 99]] (2 shared connections)
+- [[Community 119]] (3 shared connections)
+- [[Community 258]] (1 shared connections)
+- [[Community 259]] (1 shared connections)
+- [[Community 260]] (1 shared connections)
+- [[Community 234]] (1 shared connections)
+- [[Community 235]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 245 (100%)
+- EXTRACTED: 92 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

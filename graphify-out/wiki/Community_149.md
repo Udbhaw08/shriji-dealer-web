@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **web-Cx4-FKDW.js** (8 connections) — `ios/App/App/public/assets/web-Cx4-FKDW.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-Cx4-FKDW.js`
-- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-Cx4-FKDW.js`
-- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-Cx4-FKDW.js`
-- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-Cx4-FKDW.js`
-- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-Cx4-FKDW.js`
-- **getState()** (1 connections) — `ios/App/App/public/assets/web-Cx4-FKDW.js`
-- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-Cx4-FKDW.js`
-- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-Cx4-FKDW.js`
+- **architecture-compare-recovery.test.mjs** (8 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **base** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **fixture()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **hash()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **head** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **inject()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-Cx4-FKDW.js`
+- `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
 
 ## Audit Trail
 

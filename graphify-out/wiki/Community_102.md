@@ -1,35 +1,36 @@
 # Community 102
 
-> 14 nodes · cohesion 0.23
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **web-CPfpXF_h.js** (13 connections) — `ios/App/App/public/assets/web-CPfpXF_h.js`
-- **applyPrefix()** (4 connections) — `ios/App/App/public/assets/web-CPfpXF_h.js`
-- **keys()** (4 connections) — `ios/App/App/public/assets/web-CPfpXF_h.js`
-- **get()** (3 connections) — `ios/App/App/public/assets/web-CPfpXF_h.js`
-- **migrate()** (3 connections) — `ios/App/App/public/assets/web-CPfpXF_h.js`
-- **rawKeys()** (3 connections) — `ios/App/App/public/assets/web-CPfpXF_h.js`
-- **clear()** (2 connections) — `ios/App/App/public/assets/web-CPfpXF_h.js`
-- **remove()** (2 connections) — `ios/App/App/public/assets/web-CPfpXF_h.js`
-- **removeOld()** (2 connections) — `ios/App/App/public/assets/web-CPfpXF_h.js`
-- **set()** (2 connections) — `ios/App/App/public/assets/web-CPfpXF_h.js`
-- **configure()** (1 connections) — `ios/App/App/public/assets/web-CPfpXF_h.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-CPfpXF_h.js`
-- **impl()** (1 connections) — `ios/App/App/public/assets/web-CPfpXF_h.js`
-- **prefix()** (1 connections) — `ios/App/App/public/assets/web-CPfpXF_h.js`
+- **architecture-delta.test.mjs** (16 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **ArchitectureDeltaError** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **baseFixture** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **checkedArtifact** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **checkedReceipt** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **headFixture** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **read()** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 50]] (4 shared connections)
+- [[Community 82]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-CPfpXF_h.js`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
+- `.agents/skills/archify/test/architecture-delta.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 30 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,53 +1,53 @@
 # Community 64
 
-> 23 nodes · cohesion 0.12
+> 21 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **addEventListener()** (21 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **constructor()** (20 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **resolve()** (18 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **cm()** (12 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **execute()** (10 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **addListener()** (8 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **_withRetries()** (6 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **go()** (5 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **_remove()** (5 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **_isAvailable()** (4 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **no()** (4 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **addWindowListener()** (3 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **attachListener()** (3 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **executeNotNull()** (3 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **oh()** (3 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **registerLifecycleListeners()** (3 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **set()** (3 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **_withPendingWrite()** (3 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **addScope()** (2 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **makeTokenCallback()** (2 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **_openDb()** (2 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **sendRetainedArgumentsForEvent()** (2 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **validateStartingState()** (2 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **workflow-compiler.mjs** (102 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **createReadableLayout()** (12 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **readableGroupBounds()** (5 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **authoredNodeWidth()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **compileWorkflowWithFeedback()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **authoredNodeHeight()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **compilerFailure()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **feedbackFailure()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **nodeWidthContributor()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **verticalIntervalsOverlap()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **workflowLabelWidth()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **createLegacyLayout()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **stableCompare()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **stableText()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **stableValueKey()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **workflowEdgeName()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **WorkflowLayoutFeedback** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **cloneWorkflow()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **LEGACY_COLUMN_CENTERS** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **READABLE_CANDIDATE_COST_PRIORITY** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (35 shared connections)
-- [[Dependencies & Package Config]] (15 shared connections)
-- [[Product Pages Specification]] (7 shared connections)
-- [[Testing & Workflow Skill]] (6 shared connections)
-- [[Product Requirements Documentation]] (5 shared connections)
-- [[Community 41]] (5 shared connections)
-- [[Community 32]] (4 shared connections)
-- [[Community 46]] (3 shared connections)
-- [[Community 70]] (2 shared connections)
-- [[Zoho Integration Architecture]] (2 shared connections)
+- [[Design System & UI Tokens]] (37 shared connections)
+- [[Community 40]] (14 shared connections)
+- [[Community 29]] (10 shared connections)
+- [[Architecture Doc Generator]] (8 shared connections)
+- [[Community 43]] (8 shared connections)
+- [[Community 94]] (4 shared connections)
+- [[Community 179]] (4 shared connections)
+- [[Graphify Knowledge Graph Skill]] (2 shared connections)
+- [[Community 88]] (2 shared connections)
+- [[Community 107]] (1 shared connections)
+- [[Community 48]] (1 shared connections)
+- [[Community 100]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DxTMC5SR.js`
+- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 144 (100%)
+- EXTRACTED: 161 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,59 +1,60 @@
 # Community 49
 
-> 31 nodes · cohesion 0.11
+> 25 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **Z()** (25 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **has()** (24 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **add()** (20 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **D()** (19 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **jc()** (15 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **mc()** (15 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **la()** (11 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **Wi()** (11 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **yo()** (9 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **ha()** (8 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **ua()** (8 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **vt()** (8 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **hm()** (7 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **mf()** (7 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **rn()** (7 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **sn()** (7 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **pf()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **Q()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **hasEventBeenHandled()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **ma()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **Ou()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **_poll()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **registerConsumer()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **saveEventToCache()** (4 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **va()** (4 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- *... and 6 more nodes in this community*
+- **.send()** (54 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **intent-trace-browser.test.mjs** (15 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **semantic-lens-browser.test.mjs** (14 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **desktop-browser.mjs** (8 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **desktopBrowser()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **desktopPointerCheck()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **afterTimer()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **hash()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (38 shared connections)
-- [[Client Products Data Store]] (27 shared connections)
-- [[Pricing Regression Test Suite]] (22 shared connections)
-- [[Master Codebase Architecture Reference]] (15 shared connections)
-- [[Zoho Integration Skill]] (11 shared connections)
-- [[Graphify Agent Rules]] (10 shared connections)
-- [[Community 67]] (7 shared connections)
-- [[Community 38]] (6 shared connections)
-- [[Community 39]] (5 shared connections)
-- [[Claude Agent Instructions]] (5 shared connections)
-- [[Community 35]] (4 shared connections)
-- [[Community 29]] (3 shared connections)
+- [[Community 69]] (8 shared connections)
+- [[Community 104]] (8 shared connections)
+- [[Community 105]] (8 shared connections)
+- [[Community 91]] (6 shared connections)
+- [[Community 108]] (5 shared connections)
+- [[Community 188]] (4 shared connections)
+- [[Community 191]] (4 shared connections)
+- [[Community 121]] (4 shared connections)
+- [[Community 157]] (4 shared connections)
+- [[Community 44]] (3 shared connections)
+- [[Community 77]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 258 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 156 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

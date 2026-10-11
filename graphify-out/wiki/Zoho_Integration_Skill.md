@@ -1,55 +1,51 @@
 # Zoho Integration Skill
 
-> 43 nodes · cohesion 0.09
+> 44 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **create()** (25 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **ss()** (18 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **warn()** (16 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **ul()** (14 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **sc()** (13 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **kc()** (11 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **eu()** (10 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **ns()** (9 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **oc()** (9 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **Du()** (8 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **ks()** (8 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **ms()** (8 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **qc()** (8 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **to()** (8 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **triggerHeartbeat()** (8 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **vo()** (8 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **ao()** (7 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **cs()** (7 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **io()** (7 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **na()** (7 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **su()** (7 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **ac()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **os()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **hs()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **ic()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- *... and 18 more nodes in this community*
+- **properties** (30 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **label** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **pad** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **row** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **brand** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **from** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **fromSide** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **kind** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **labelAt** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **labelDx** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **labelDy** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **pos** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **route** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **sublabel** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **tag** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **to** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **toSide** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **variant** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **width** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (48 shared connections)
-- [[Client Products Data Store]] (32 shared connections)
-- [[Pricing Regression Test Suite]] (17 shared connections)
-- [[Master Codebase Architecture Reference]] (14 shared connections)
-- [[Community 49]] (11 shared connections)
-- [[Claude Agent Instructions]] (9 shared connections)
-- [[Graphify Agent Rules]] (7 shared connections)
-- [[Community 35]] (7 shared connections)
-- [[Community 29]] (6 shared connections)
+- [[Community 85]] (5 shared connections)
+- [[Community 159]] (2 shared connections)
+- [[Community 254]] (1 shared connections)
+- [[Community 255]] (1 shared connections)
+- [[Community 208]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 305 (100%)
+- EXTRACTED: 96 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

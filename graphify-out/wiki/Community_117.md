@@ -1,29 +1,29 @@
 # Community 117
 
-> 12 nodes · cohesion 0.17
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **DEALER-HIERARCHY-AND-WORKFLOW.md — Business, Dealer & Staff Hierarchy Model** (6 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **3. End-to-End User Journey & Life Cycle** (3 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **4. Zoho CRM Data Structure** (3 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **1. The Three-Tier Hierarchy Model** (2 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **DEALER-HIERARCHY-AND-WORKFLOW.md** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **2. Two-Stage Approval Separation** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **5. Technical Seams to Adapt** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **Accounts Module (Business Entity)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **Contacts Module (People Hierarchy)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **Hierarchy Breakdown:** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **Phase A: Dealer Onboarding (Head Approval)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **Phase B: Staff Onboarding via Dealer Code (Dealer Approval)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **legendEntry** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **label** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **visible** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **maxLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minProperties** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 59]] (1 shared connections)
+- [[Community 118]] (1 shared connections)
 
 ## Source Files
 
-- `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 

@@ -1,41 +1,42 @@
 # Community 92
 
-> 16 nodes · cohesion 0.17
+> 14 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **compareArchitecture()** (12 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **fail()** (8 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **canonicalArchitecture()** (5 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundaryIndex()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **canonicalArchitectureJson()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **equal()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **normalizeRepository()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **canonical()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **extractArchitectureSvg()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **extractArtifactCss()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **presentationChanged()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **requireComparableShape()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **stableIndex()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundaryKey()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **sortedBy()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **summaryFor()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **resolve()** (19 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **addEventListener()** (18 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **addListener()** (8 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **mm()** (5 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **_remove()** (5 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **_isAvailable()** (4 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **addWindowListener()** (3 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **attachListener()** (3 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **registerLifecycleListeners()** (3 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **set()** (3 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **subscribe()** (3 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **_withPendingWrite()** (3 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **sendRetainedArgumentsForEvent()** (2 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **tf()** (2 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
 
 ## Relationships
 
-- [[Community 56]] (18 shared connections)
-- [[Community 187]] (4 shared connections)
-- [[Community 110]] (2 shared connections)
-- [[Community 120]] (1 shared connections)
+- [[Price Presentation & Product UI]] (23 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (7 shared connections)
+- [[Product Brand & Business Vision]] (5 shared connections)
+- [[Client Products Data Store]] (3 shared connections)
+- [[Zoho Integration Architecture]] (3 shared connections)
+- [[Graphify Agent Rules]] (2 shared connections)
+- [[Community 35]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
+- `ios/App/App/public/assets/index-h5JnEN27.js`
 
 ## Audit Trail
 
-- EXTRACTED: 61 (94%)
-- INFERRED: 4 (6%)
+- EXTRACTED: 81 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,62 +1,52 @@
 # Community 50
 
-> 31 nodes · cohesion 0.12
+> 25 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **visual-check.mjs** (50 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **runVisualCheck()** (18 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **desktop-readability.mjs** (9 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **adaptive-reader-layout.test.mjs** (9 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **desktop-reader-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
-- **DESKTOP_READABILITY_VIEWPORT** (5 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **observationDiagnostics()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **safeUnlink()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **writeAtomic()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **baseReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **cleanupCaptureSidecars()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **contactSheetHtml()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **failureDiagnostic()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **persistReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **sha256()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **sidecarPaths()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **htmlEscape()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **observation()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **screenshotKey()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **viewportSubject()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **CAPTURE_VIEWPORTS** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **EXIT** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **THEMES** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **reader** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- *... and 6 more nodes in this community*
+- **architecture-delta.mjs** (65 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **validateArchitectureDeltaHtml()** (11 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **renderArchitectureDeltaHtml()** (6 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **architectureDeltaChangeRows()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **compareEntities()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **reviewTargetTags()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **expectedReviewTargetSignature()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **primaryReviewTags()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **reviewIdentity()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **reviewPrimaryStates()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **sortedObjects()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **addState()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **fieldChanges()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **normalizeComponent()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **normalizedField()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **reviewTargetSignature()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **safeJson()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **statusFor()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **total()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **BOUNDARY_FIELDS** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **codepointOrder()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **COMPONENT_FIELDS** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **CONNECTION_FIELDS** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **normalizeBoundary()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **sorted()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Relationships
 
-- [[Community 75]] (8 shared connections)
-- [[Community 101]] (6 shared connections)
-- [[Community 53]] (5 shared connections)
-- [[Graphify Knowledge Graph Skill]] (4 shared connections)
-- [[Community 60]] (3 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (3 shared connections)
-- [[Community 109]] (2 shared connections)
-- [[Community 80]] (2 shared connections)
-- [[Community 88]] (2 shared connections)
-- [[Community 113]] (1 shared connections)
-- [[Community 114]] (1 shared connections)
-- [[Community 98]] (1 shared connections)
+- [[Community 65]] (20 shared connections)
+- [[Community 82]] (18 shared connections)
+- [[Community 40]] (5 shared connections)
+- [[Community 102]] (4 shared connections)
+- [[Community 112]] (2 shared connections)
+- [[Community 180]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 150 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 129 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **labelSegment** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **y** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- [[Vercel Deployment Routing]] (1 shared connections)
+- [[Community 63]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 

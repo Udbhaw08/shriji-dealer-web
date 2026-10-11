@@ -1,34 +1,34 @@
 # Community 118
 
-> 12 nodes · cohesion 0.26
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **additionalProperties** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **required** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **messages** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **activations** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **properties** (9 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **note** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **dot** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **maxLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- [[Community 73]] (4 shared connections)
-- [[Community 81]] (4 shared connections)
+- [[Community 143]] (3 shared connections)
+- [[Community 224]] (1 shared connections)
+- [[Community 117]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/sequence.schema.json`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 25 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

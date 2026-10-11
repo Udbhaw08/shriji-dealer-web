@@ -1,48 +1,50 @@
 # Community 51
 
-> 29 nodes · cohesion 0.09
+> 25 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **AppDelegate** (10 connections) — `ios/App/App/AppDelegate.swift`
-- **.application()** (7 connections) — `ios/App/App/AppDelegate.swift`
-- **.scene()** (7 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIApplication** (6 connections) — `ios/App/App/AppDelegate.swift`
-- **SceneDelegate** (5 connections) — `ios/App/App/SceneDelegate.swift`
-- **AppDelegate.swift** (3 connections) — `ios/App/App/AppDelegate.swift`
-- **SceneDelegate.swift** (3 connections) — `ios/App/App/SceneDelegate.swift`
-- **.applicationDidBecomeActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationDidEnterBackground()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillEnterForeground()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillResignActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillTerminate()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **Capacitor** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIWindow** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIKit** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIResponder** (2 connections)
-- **Any** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **Bool** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIScene** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UISceneSession** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIWindow** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIScene** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **UISceneSession** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **NSUserActivity** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **Set** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- *... and 4 more nodes in this community*
+- **update-contract.mjs** (16 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **update-contract.test.mjs** (10 connections) — `.agents/skills/archify/test/update-contract.test.mjs`
+- **compareSemver()** (9 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **validateStableUpdateManifest()** (8 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **normalizeState()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **isStableCoreVersion()** (7 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **parseSemver()** (7 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **validateLocalRelease()** (7 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **validateCachedCandidate()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **validateReleaseNotesUrl()** (5 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **isPlainObject()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **hasExactKeys()** (4 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **releaseChannelForVersion()** (4 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **UpdateContractError** (4 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **hasOnlyKeys()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **validateClaimOwner()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **compareNumericIdentifiers()** (3 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **comparePrerelease()** (3 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **validateCanonicalUtcTimestamp()** (3 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **emptyState()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **validateManifest()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **isPlainObject()** (2 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **localRelease()** (1 connections) — `.agents/skills/archify/test/update-contract.test.mjs`
+- **stableManifest()** (1 connections) — `.agents/skills/archify/test/update-contract.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 42]] (16 shared connections)
+- [[Community 33]] (3 shared connections)
+- [[Community 75]] (3 shared connections)
 
 ## Source Files
 
-- `ios/App/App/AppDelegate.swift`
-- `ios/App/App/SceneDelegate.swift`
+- `.agents/skills/archify/scripts/check-update.mjs`
+- `.agents/skills/archify/scripts/update-contract.mjs`
+- `.agents/skills/archify/test/update-contract.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 72 (100%)
+- EXTRACTED: 122 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

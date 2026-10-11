@@ -1,22 +1,21 @@
 # Community 111
 
-> 13 nodes · cohesion 0.15
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **Product** (12 connections) — `PRODUCT.md`
-- **PRODUCT.md** (1 connections) — `PRODUCT.md`
-- **Accessibility & Inclusion** (1 connections) — `PRODUCT.md`
-- **Brand Commitments** (1 connections) — `PRODUCT.md`
-- **Capabilities and Constraints** (1 connections) — `PRODUCT.md`
-- **Evidence on Hand** (1 connections) — `PRODUCT.md`
-- **Operating Context** (1 connections) — `PRODUCT.md`
-- **Platform** (1 connections) — `PRODUCT.md`
-- **Positioning** (1 connections) — `PRODUCT.md`
-- **Product Principles** (1 connections) — `PRODUCT.md`
-- **Product Purpose** (1 connections) — `PRODUCT.md`
-- **Stack** (1 connections) — `PRODUCT.md`
-- **Users** (1 connections) — `PRODUCT.md`
+- **generate-codebase-doc.mjs** (11 connections) — `scripts/generate-codebase-doc.mjs`
+- **allFiles** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **apiFiles** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **components** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **dataStores** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **getFiles()** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **istDateString** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **pages** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **pkg** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **rootDir** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **routes** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **scripts** (1 connections) — `scripts/generate-codebase-doc.mjs`
 
 ## Relationships
 
@@ -24,11 +23,11 @@
 
 ## Source Files
 
-- `PRODUCT.md`
+- `scripts/generate-codebase-doc.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

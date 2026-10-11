@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **Shriji Domestic Appliances — Sunshine Dealer Web** (4 connections) — `README.md`
-- **README.md** (1 connections) — `README.md`
-- **Documentation** (1 connections) — `README.md`
-- **Layout** (1 connections) — `README.md`
-- **Two things to know before you change anything** (1 connections) — `README.md`
+- **ErrorBoundary** (5 connections) — `src/main.jsx`
+- **.componentDidCatch()** (1 connections) — `src/main.jsx`
+- **.constructor()** (1 connections) — `src/main.jsx`
+- **.getDerivedStateFromError()** (1 connections) — `src/main.jsx`
+- **.render()** (1 connections) — `src/main.jsx`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Pricing & Roles Skill]] (1 shared connections)
 
 ## Source Files
 
-- `README.md`
+- `src/main.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

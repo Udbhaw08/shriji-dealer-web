@@ -1,26 +1,25 @@
 # Community 159
 
-> 9 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **chapter-delta-preview.test.mjs** (8 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
-- **delta()** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
-- **PROOF_CASES** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **wraps** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **via** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Zoho Integration Skill]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 

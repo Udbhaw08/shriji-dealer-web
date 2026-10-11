@@ -1,57 +1,47 @@
 # Community 32
 
-> 38 nodes · cohesion 0.08
+> 38 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **df()** (13 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **rf()** (12 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **Kt()** (9 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **verify()** (9 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **cf()** (8 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **ft()** (8 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **nf()** (8 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **af()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **ff()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **He()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **jf()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **lf()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **mu()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **render()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **reset()** (6 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **sf()** (6 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **Wf()** (6 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **assertNotDestroyed()** (5 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **clear()** (5 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **qe()** (5 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **td()** (5 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **ch()** (4 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **checkIfDeleted()** (4 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **getAssertedRecaptcha()** (4 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **getResponse()** (4 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **properties** (11 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **viewBox** (6 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **meta** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **entries** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **legend** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **animation** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **locale** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **mode** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **output** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **subtitle** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **views** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **properties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 - *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (44 shared connections)
-- [[Product Requirements Documentation]] (12 shared connections)
-- [[Zoho Integration Architecture]] (8 shared connections)
-- [[Dependencies & Package Config]] (8 shared connections)
-- [[Community 46]] (7 shared connections)
-- [[Product Pages Specification]] (6 shared connections)
-- [[Community 64]] (4 shared connections)
-- [[Community 43]] (4 shared connections)
-- [[Testing & Workflow Skill]] (3 shared connections)
-- [[Community 70]] (2 shared connections)
-- [[Community 41]] (1 shared connections)
+- [[Community 81]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DxTMC5SR.js`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 207 (100%)
+- EXTRACTED: 75 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

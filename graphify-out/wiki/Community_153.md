@@ -4,28 +4,27 @@
 
 ## Key Concepts
 
-- **semanticRelation** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **from** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **to** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **properties** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **relationship-permalink.test.mjs** (8 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **fixture()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **relationshipKey()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
 
 ## Relationships
 
-- [[Agent Guidelines (AGENTS.md)]] (2 shared connections)
-- [[Community 139]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `.agents/skills/archify/test/relationship-permalink.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

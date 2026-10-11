@@ -1,32 +1,33 @@
 # Community 135
 
-> 10 nodes · cohesion 0.29
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **stages** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **additionalProperties** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **required** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **site-language-continuity.test.mjs** (12 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **clickAndNavigate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **evaluate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **loadRuntime()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **navigate()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **navigationPath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **runtimePath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **startStaticServer()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
 
 ## Relationships
 
-- [[Project Readme & Layout]] (3 shared connections)
-- [[Community 93]] (3 shared connections)
+- [[Community 44]] (1 shared connections)
+- [[Community 108]] (1 shared connections)
+- [[Community 91]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `.agents/skills/archify/test/site-language-continuity.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 23 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

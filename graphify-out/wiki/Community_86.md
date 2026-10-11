@@ -1,42 +1,36 @@
 # Community 86
 
-> 18 nodes · cohesion 0.22
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **checkForUpdate()** (19 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **commitOperation()** (14 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **acknowledgeUpdate()** (13 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cancelOperation()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **resultForCandidate()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **silent()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **readState()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **resultAfterLosingOperation()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **readJsonFile()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **transitionOperation()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationOwnsActiveClaim()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **runCli()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **freshStateResult()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **versionCacheDirectory()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertBoundedRegularFile()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **digestForEventKey()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **fetchCandidate()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **waitUntilRetry()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **repository** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **properties** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **revision** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **url** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **link_mode** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **provider** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **pattern** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- [[Community 48]] (20 shared connections)
-- [[Community 44]] (18 shared connections)
-- [[Community 58]] (3 shared connections)
-- [[Community 34]] (2 shared connections)
+- [[Community 68]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-update.mjs`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 111 (100%)
+- EXTRACTED: 29 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

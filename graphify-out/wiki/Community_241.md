@@ -4,19 +4,19 @@
 
 ## Key Concepts
 
-- **meta** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **mainPath** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
+- [[Community 80]] (1 shared connections)
 - [[Community 81]] (1 shared connections)
-- [[Community 63]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/sequence.schema.json`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 

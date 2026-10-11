@@ -1,44 +1,46 @@
 # Community 69
 
-> 22 nodes · cohesion 0.09
+> 19 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **Session Work Record — Dealer Code Hierarchy & CRM Integration (2026-10-11)** (7 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **3.2 Frontend Portal & Dashboard (`src/`)** (4 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **3. Detailed Changes by File** (4 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **6. Phone-First Auth, WhatsApp & SMS OTP Services, 10k Scalability & Google OAuth** (4 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **3.1 Backend Service (`backend/`)** (3 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **3.3 Documentation (`docs/`)** (3 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **2. Multi-Tier Entity Hierarchy & Two-Stage Approval** (2 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **WORK-DONE-SESSION-2026-10-11.md** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **1. Executive Summary & Problem Statement** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **4. Testing & Verification** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **5. Verification Checklist for Production** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **6.1 Scalability Assessment (10,000+ Users)** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **6.2 Phone Number & WhatsApp OTP Delivery Services** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **6.3 Unified Authentication Features** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **[backend/src/routes/auth.js](file:///c:/Users/udbha/Desktop/Webstore/backend/src/routes/auth.js)** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **[backend/src/services/staff.js](file:///c:/Users/udbha/Desktop/Webstore/backend/src/services/staff.js)** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **[docs/BACKEND-ARCHITECTURE.md](file:///c:/Users/udbha/Desktop/Webstore/docs/BACKEND-ARCHITECTURE.md) *(Updated)*** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **[docs/DEALER-HIERARCHY-AND-WORKFLOW.md](file:///c:/Users/udbha/Desktop/Webstore/docs/DEALER-HIERARCHY-AND-WORKFLOW.md) *(New)*** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **[src/data/auth.js](file:///c:/Users/udbha/Desktop/Webstore/src/data/auth.js)** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **[src/pages/DealerDashboard.jsx](file:///c:/Users/udbha/Desktop/Webstore/src/pages/DealerDashboard.jsx)** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **[src/pages/Login.jsx](file:///c:/Users/udbha/Desktop/Webstore/src/pages/Login.jsx)** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **Two-Stage Approval Matrix:** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
+- **finder-browser.test.mjs** (12 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **route-probe-browser.test.mjs** (12 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **viewer-click.mjs** (4 connections) — `.agents/skills/archify/test/helpers/viewer-click.mjs`
+- **createViewerClick()** (4 connections) — `.agents/skills/archify/test/helpers/viewer-click.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **search()** (3 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **opened()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **hash()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **route()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **installClickObserver()** (1 connections) — `.agents/skills/archify/test/helpers/viewer-click.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 49]] (8 shared connections)
+- [[Community 44]] (2 shared connections)
+- [[Community 108]] (2 shared connections)
+- [[Community 91]] (2 shared connections)
 
 ## Source Files
 
-- `docs/WORK-DONE-SESSION-2026-10-11.md`
+- `.agents/skills/archify/test/finder-browser.test.mjs`
+- `.agents/skills/archify/test/helpers/viewer-click.mjs`
+- `.agents/skills/archify/test/route-probe-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 69 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

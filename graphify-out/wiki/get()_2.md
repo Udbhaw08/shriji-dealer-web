@@ -1,32 +1,32 @@
 # get()
 
-> God node · 49 connections · `ios/App/App/public/assets/index-DxTMC5SR.js`
+> God node · 54 connections · `ios/App/App/public/assets/index-h5JnEN27.js`
 
-**Community:** [[Dependencies & Package Config]]
+**Community:** [[Client Products Data Store]]
 
 ## Connections by Relation
 
 ### calls
-- [[rl()]] `EXTRACTED`
 - [[has()]] `EXTRACTED`
-- [[kf()]] `EXTRACTED`
+- [[n()]] `EXTRACTED`
+- [[fc()]] `EXTRACTED`
+- [[za()]] `EXTRACTED`
+- [[sl()]] `EXTRACTED`
+- [[pd()]] `EXTRACTED`
 - [[resolve()]] `EXTRACTED`
-- [[qs()]] `EXTRACTED`
-- [[xi()]] `EXTRACTED`
-- [[Ca()]] `EXTRACTED`
-- [[ju()]] `EXTRACTED`
-- [[ka()]] `EXTRACTED`
-- [[bm()]] `EXTRACTED`
-- [[Wi()]] `EXTRACTED`
-- [[zs()]] `EXTRACTED`
-- [[execute()]] `EXTRACTED`
-- [[Md()]] `EXTRACTED`
-- [[ph()]] `EXTRACTED`
-- [[tl()]] `EXTRACTED`
-- [[am()]] `EXTRACTED`
-- [[es()]] `EXTRACTED`
-- [[isInitialized()]] `EXTRACTED`
-- [[request()]] `EXTRACTED`
+- [[ur()]] `EXTRACTED`
+- [[ef()]] `EXTRACTED`
+- [[gl()]] `EXTRACTED`
+- [[tp()]] `EXTRACTED`
+- [[xc()]] `EXTRACTED`
+- [[al()]] `EXTRACTED`
+- [[vl()]] `EXTRACTED`
+- [[fa()]] `EXTRACTED`
+- [[ia()]] `EXTRACTED`
+- [[pc()]] `EXTRACTED`
+- [[hs()]] `EXTRACTED`
+- [[ip()]] `EXTRACTED`
+- [[p()]] `EXTRACTED`
 
 ### contains
 - [[_()]] `EXTRACTED`

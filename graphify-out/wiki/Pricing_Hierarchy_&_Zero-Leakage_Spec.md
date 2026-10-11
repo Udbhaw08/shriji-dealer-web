@@ -1,60 +1,56 @@
 # Pricing Hierarchy & Zero-Leakage Spec
 
-> 51 nodes · cohesion 0.06
+> 53 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **render-architecture.mjs** (122 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderLegend()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **grid.mjs** (6 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **alignFacingPorts()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **buildLayoutReport()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **layoutBoundaryTitles()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **sideAwareBridgeCandidates()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **relationshipLegendObstacles()** (5 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **resolveComponentPos()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **validateGridPlacement()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **boundaryLabelWidth()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **measureBoundaryTitle()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **resolveBoundaryTitles()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **routeClearsComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **routeClearsEndpointComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **minimumReadableSourceTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **layout-report.mjs** (4 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
-- **grid.test.mjs** (4 connections) — `.agents/skills/archify/test/grid.test.mjs`
-- **gridLayout()** (3 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **autoViewBoxFor()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **expandBoundaryForReadableTitle()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **resolvedViewBoxWidth()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **connectionPath()** (3 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
-- **connectionEndpointSide()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **legendY()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- *... and 26 more nodes in this community*
+- **zoho.js** (31 connections) — `api/zoho.js`
+- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
+- **fetchZohoProductById()** (12 connections) — `api/zoho.js`
+- **fetchZohoProducts()** (11 connections) — `api/zoho.js`
+- **fetchZohoWithRetry()** (11 connections) — `api/zoho.js`
+- **getZohoConfig()** (11 connections) — `api/zoho.js`
+- **findDealerByPhone()** (9 connections) — `api/zoho.js`
+- **vite.config.js** (9 connections) — `vite.config.js`
+- **createDealerContact()** (8 connections) — `api/zoho.js`
+- **getDealerById()** (8 connections) — `api/zoho.js`
+- **fetchZohoCategories()** (7 connections) — `api/zoho.js`
+- **getAccessToken()** (7 connections) — `api/zoho.js`
+- **zohoApiPlugin()** (7 connections) — `vite.config.js`
+- **fetchZohoPricebookItems()** (5 connections) — `api/zoho.js`
+- **normalizeProduct()** (5 connections) — `api/zoho.js`
+- **index.js** (4 connections) — `api/products/index.js`
+- **test-zoho-api.mjs** (4 connections) — `scripts/test-zoho-api.mjs`
+- **og.js** (3 connections) — `api/og.js`
+- **fetchZohoPricebooks()** (3 connections) — `api/zoho.js`
+- **loadEnv()** (3 connections) — `api/zoho.js`
+- **apply.js** (3 connections) — `api/dealer/apply.js`
+- **info.js** (3 connections) — `api/dealer/info.js`
+- **login.js** (3 connections) — `api/dealer/login.js`
+- **[id].js** (3 connections) — `api/products/[id].js`
+- **handler()** (3 connections) — `api/products/index.js`
+- *... and 28 more nodes in this community*
 
 ## Relationships
 
-- [[Design System & UI Tokens]] (35 shared connections)
-- [[Pricing & Roles Skill]] (21 shared connections)
-- [[Community 36]] (19 shared connections)
-- [[Community 40]] (14 shared connections)
-- [[Product Brand & Business Vision]] (5 shared connections)
-- [[Community 89]] (4 shared connections)
-- [[Community 50]] (3 shared connections)
-- [[Zoho API Diagnostic Script]] (1 shared connections)
-- [[Community 74]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/grid.mjs`
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- `.agents/skills/archify/renderers/shared/layout-report.mjs`
-- `.agents/skills/archify/renderers/shared/legend.mjs`
-- `.agents/skills/archify/test/grid.test.mjs`
+- `api/dealer/apply.js`
+- `api/dealer/info.js`
+- `api/dealer/login.js`
+- `api/og.js`
+- `api/products/[id].js`
+- `api/products/index.js`
+- `api/zoho.js`
+- `scripts/audit_prices.mjs`
+- `scripts/test-zoho-api.mjs`
+- `vite.config.js`
 
 ## Audit Trail
 
-- EXTRACTED: 253 (100%)
+- EXTRACTED: 226 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

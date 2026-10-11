@@ -1,62 +1,47 @@
 # Community 36
 
-> 37 nodes · cohesion 0.14
+> 35 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **render-sequence.mjs** (67 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **textUnits()** (33 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **validateArchitecture()** (22 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **validateDataflow()** (22 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **validateLifecycle()** (22 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **cleanCrossingProblems()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **rectsOverlap()** (16 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **validateSequence()** (15 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **cleanAmbiguousCorridorProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanBorderRunProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanRouteRhythmProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanLabelRouteClearanceProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **brandTopRailProblem()** (13 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **minimumNodeTextWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **text-fit.mjs** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **availableNodeTextWidth()** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **segmentLabelBox()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **collectEligibleRoutedRelations()** (6 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **qualityProfileForGate()** (6 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **flowLabelSize()** (4 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **messageGeometry()** (4 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **messageLabelBox()** (4 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **messageRouteBox()** (2 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **arrowClass** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **compositionFrames** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- *... and 12 more nodes in this community*
+- **scripts** (13 connections) — `package.json`
+- **dependencies** (11 connections) — `package.json`
+- **package.json** (7 connections) — `package.json`
+- **devDependencies** (6 connections) — `package.json`
+- **@capacitor/android** (1 connections) — `package.json`
+- **@capacitor/app** (1 connections) — `package.json`
+- **@capacitor/cli** (1 connections) — `package.json`
+- **@capacitor/core** (1 connections) — `package.json`
+- **@capacitor/ios** (1 connections) — `package.json`
+- **@capacitor/preferences** (1 connections) — `package.json`
+- **firebase** (1 connections) — `package.json`
+- **react** (1 connections) — `package.json`
+- **react-dom** (1 connections) — `package.json`
+- **react-router-dom** (1 connections) — `package.json`
+- **oxlint** (1 connections) — `package.json`
+- **@types/react** (1 connections) — `package.json`
+- **@types/react-dom** (1 connections) — `package.json`
+- **vite** (1 connections) — `package.json`
+- **@vitejs/plugin-react** (1 connections) — `package.json`
+- **name** (1 connections) — `package.json`
+- **private** (1 connections) — `package.json`
+- **build** (1 connections) — `package.json`
+- **cap:android** (1 connections) — `package.json`
+- **cap:ios** (1 connections) — `package.json`
+- **cap:sync** (1 connections) — `package.json`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [[Design System & UI Tokens]] (63 shared connections)
-- [[Pricing & Roles Skill]] (42 shared connections)
-- [[Community 40]] (27 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (19 shared connections)
-- [[Community 74]] (14 shared connections)
-- [[Product Brand & Business Vision]] (9 shared connections)
-- [[Community 89]] (5 shared connections)
-- [[Zoho API Diagnostic Script]] (3 shared connections)
-- [[Community 178]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `package.json`
 
 ## Audit Trail
 
-- EXTRACTED: 367 (100%)
+- EXTRACTED: 68 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Agent Operating Guidelines & Zero-Token Context Strategy** (3 connections) — `GEMINI.md`
-- **Shriji Domestic Appliances — Sunshine Dealer Web** (2 connections) — `GEMINI.md`
-- **GEMINI.md** (1 connections) — `GEMINI.md`
-- **Mandatory Context Rule: Knowledge Graph First** (1 connections) — `GEMINI.md`
-- **Project Hard Rules** (1 connections) — `GEMINI.md`
+- **render-examples.mjs** (4 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
+- **outputRoot** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
+- **TARGETS** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `GEMINI.md`
+- `.agents/skills/archify/scripts/render-examples.mjs`
 
 ## Audit Trail
 

@@ -1,33 +1,32 @@
 # Community 143
 
-> 10 nodes · cohesion 0.22
+> 9 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **site-language-continuity.test.mjs** (12 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **clickAndNavigate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **evaluate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **loadRuntime()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **navigate()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **navigationPath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **runtimePath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **startStaticServer()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **cards** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **additionalProperties** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **required** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- [[Community 50]] (1 shared connections)
-- [[Community 75]] (1 shared connections)
-- [[Community 101]] (1 shared connections)
+- [[Community 118]] (3 shared connections)
+- [[Community 59]] (1 shared connections)
+- [[Community 256]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
+- EXTRACTED: 27 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,27 +1,25 @@
 # Community 84
 
-> 18 nodes · cohesion 0.11
+> 16 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **DESIGN.md — the design system as actually built** (8 connections) — `docs/DESIGN.md`
-- **4. Components already built — reuse these** (7 connections) — `docs/DESIGN.md`
-- **2. Tokens** (4 connections) — `docs/DESIGN.md`
-- **DESIGN.md** (1 connections) — `docs/DESIGN.md`
-- **1. The direction in one paragraph** (1 connections) — `docs/DESIGN.md`
-- **3. Layout primitives** (1 connections) — `docs/DESIGN.md`
-- **5. Icons** (1 connections) — `docs/DESIGN.md`
-- **6. Responsive rules** (1 connections) — `docs/DESIGN.md`
-- **7. Motion and accessibility** (1 connections) — `docs/DESIGN.md`
-- **Actions** (1 connections) — `docs/DESIGN.md`
-- **Colour** (1 connections) — `docs/DESIGN.md`
-- **Content** (1 connections) — `docs/DESIGN.md`
-- **Detail** (1 connections) — `docs/DESIGN.md`
-- **Listing sidebar** (1 connections) — `docs/DESIGN.md`
-- **Navigation and filtering** (1 connections) — `docs/DESIGN.md`
-- **Product** (1 connections) — `docs/DESIGN.md`
-- **Spacing, radius, shadow, motion** (1 connections) — `docs/DESIGN.md`
-- **Type** (1 connections) — `docs/DESIGN.md`
+- **legend-contract.test.mjs** (15 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **legendKinds()** (3 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **run()** (3 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **attrValues()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **canonicalSvg()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **clone()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **render()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **validateFailure()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **withLegend()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **AUTO_KINDS** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **CATALOGS** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **FIXTURES** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
 
 ## Relationships
 
@@ -29,11 +27,11 @@
 
 ## Source Files
 
-- `docs/DESIGN.md`
+- `.agents/skills/archify/test/legend-contract.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,46 +1,42 @@
 # Community 61
 
-> 24 nodes · cohesion 0.08
+> 21 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **properties** (11 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **viewBox** (6 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **title** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **animation** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **locale** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **output** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **subtitle** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **views** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **minLength** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **items** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **ReStor Dealer Web — Auth Architecture Analysis: Firebase vs Supabase** (6 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **3. Detailed Audit of the 4 Portals / 4 Ways** (5 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **2. Codebase Inventory: Where Each Technology Lives** (3 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Portal 1: ReStor Dealer (Shop Owner)** (3 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Portal 2: ReStor Staff (Store Staff / Counter Team)** (3 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Portal 4: ReStor Customer (End Consumer / Retail Buyer)** (3 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **1. Executive Summary & Clarification** (2 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Portal 3: ReStor Brand (Sunshine Brand Managers & Field Execs)** (2 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **2.1 Where Supabase Is Used (Database Layer Only)** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **2.2 Where Firebase Is Used (Authentication & Client Telemetry)** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **4. Architectural Matrix: Supabase vs Firebase** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **5. Verification Checklist & Action Plan** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Current Authentication Flow:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Current Authentication Flow:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Current Authentication Flow:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Key Takeaways:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Target Firebase Unified Flow:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Verification & Firebase Status:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Verification & Firebase Status:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Verification & Firebase Status:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
 
 ## Relationships
 
-- [[Community 134]] (1 shared connections)
-- [[Community 93]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,56 +1,55 @@
 # Testing & Workflow Skill
 
-> 42 nodes · cohesion 0.08
+> 42 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **delete()** (31 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **b()** (18 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **.removeEventListener()** (18 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **h()** (14 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **fp()** (13 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **tm()** (9 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **close()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **.addEventListener()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **g()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **lp()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **.blur()** (6 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **.scrollIntoView()** (6 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **pm()** (6 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **removeListener()** (6 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **v()** (6 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **yc()** (6 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **Bp()** (5 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **ne()** (5 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **Rp()** (5 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **unregisterAndCleanUp()** (5 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **xp()** (5 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **detachListener()** (4 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **.getClientRects()** (4 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **.unobserveUsing()** (4 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **removeMessageHandler()** (4 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
+- **properties** (30 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **col** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **height** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **brand** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **channelX** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **channelY** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **from** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **labelDx** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **labelDy** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **lane** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **note** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **route** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **sublabel** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **tag** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **to** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **toSide** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **variant** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **yOffset** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **maximum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 - *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (50 shared connections)
-- [[Dependencies & Package Config]] (15 shared connections)
-- [[Product Requirements Documentation]] (12 shared connections)
-- [[Product Pages Specification]] (10 shared connections)
-- [[Zoho Integration Architecture]] (6 shared connections)
-- [[Community 64]] (6 shared connections)
-- [[Community 46]] (6 shared connections)
-- [[Community 70]] (5 shared connections)
-- [[Community 32]] (3 shared connections)
-- [[Community 43]] (3 shared connections)
+- [[Community 129]] (3 shared connections)
+- [[Community 261]] (1 shared connections)
+- [[Community 281]] (1 shared connections)
+- [[Community 262]] (1 shared connections)
+- [[Community 282]] (1 shared connections)
+- [[Community 263]] (1 shared connections)
+- [[Community 283]] (1 shared connections)
+- [[Community 236]] (1 shared connections)
+- [[Community 237]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DxTMC5SR.js`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 258 (100%)
+- EXTRACTED: 93 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **sync-all.mjs** (2 connections) — `scripts/sync-all.mjs`
-- **rootDir** (1 connections) — `scripts/sync-all.mjs`
-- **run()** (1 connections) — `scripts/sync-all.mjs`
+- **toolbar-polish.test.mjs** (2 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `scripts/sync-all.mjs`
+- `.agents/skills/archify/test/toolbar-polish.test.mjs`
 
 ## Audit Trail
 

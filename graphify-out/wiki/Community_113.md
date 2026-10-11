@@ -1,37 +1,32 @@
 # Community 113
 
-> 13 nodes · cohesion 0.31
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **focus-browser.test.mjs** (17 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **run()** (8 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **stable()** (6 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **click()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **point()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **key()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **move()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **select()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **focus()** (2 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **variant()** (1 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **Archify** (10 connections) — `.agents/skills/archify/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Authoring invariants** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Delivery** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Fast authoring path** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Mermaid input** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Optional viewer capabilities** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Output** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Setup and fallback** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Type router** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Update awareness** (1 connections) — `.agents/skills/archify/SKILL.md`
 
 ## Relationships
 
-- [[Community 53]] (5 shared connections)
-- [[Community 60]] (3 shared connections)
-- [[Community 50]] (1 shared connections)
-- [[Community 101]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/focus-browser.test.mjs`
+- `.agents/skills/archify/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

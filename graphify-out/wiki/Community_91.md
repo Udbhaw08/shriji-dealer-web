@@ -1,38 +1,48 @@
 # Community 91
 
-> 17 nodes · cohesion 0.12
+> 14 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **3. Exactly which keys to fetch, and from where** (9 connections) — `docs/ZOHO-INTEGRATION.md`
-- **ZOHO-INTEGRATION.md — Live Zoho Commerce & Books Backend** (7 connections) — `docs/ZOHO-INTEGRATION.md`
-- **5. API surface** (2 connections) — `docs/ZOHO-INTEGRATION.md`
-- **ZOHO-INTEGRATION.md** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **1. Active Integration Summary** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **2. The Code Seams** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.1 Organization ID — from the Commerce dashboard** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.2 Client ID + Client Secret — from the API console, not the store** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.3 Refresh Token — generated once, then permanent** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.4 Scopes** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.5 Data centre** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.6 The API call the keys unlock** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.7 Still to confirm — only the store owner can answer** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **4. Architecture — the part that cannot be skipped** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **6. Migration checklist** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **How to hand the credentials over safely** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **Sources** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **findChrome()** (22 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **export-cleanup-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **viewer-identifiers-browser.test.mjs** (7 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **evaluate()** (4 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **executable()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **findOnPath()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **run()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **exported()** (2 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 49]] (6 shared connections)
+- [[Community 44]] (5 shared connections)
+- [[Community 69]] (2 shared connections)
+- [[Community 108]] (2 shared connections)
+- [[Community 97]] (1 shared connections)
+- [[Community 188]] (1 shared connections)
+- [[Community 104]] (1 shared connections)
+- [[Community 105]] (1 shared connections)
+- [[Community 89]] (1 shared connections)
+- [[Community 191]] (1 shared connections)
+- [[Community 30]] (1 shared connections)
+- [[Community 121]] (1 shared connections)
 
 ## Source Files
 
-- `docs/ZOHO-INTEGRATION.md`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 62 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

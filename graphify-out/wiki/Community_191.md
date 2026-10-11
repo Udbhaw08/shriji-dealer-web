@@ -1,28 +1,31 @@
 # Community 191
 
-> 7 nodes · cohesion 0.29
+> 7 nodes · cohesion 0.48
 
 ## Key Concepts
 
-- **artifact-receipt-flush.test.mjs** (6 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **checker** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **denseArchitecture()** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **motion-governor-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **run()** (5 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **screenshot()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 49]] (4 shared connections)
+- [[Community 44]] (1 shared connections)
+- [[Community 108]] (1 shared connections)
+- [[Community 91]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- `.agents/skills/archify/test/motion-governor-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 27 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,36 +1,32 @@
 # Community 131
 
-> 10 nodes · cohesion 0.31
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **session.js** (31 connections) — `src/data/session.js`
-- **revalidateSession()** (9 connections) — `src/data/session.js`
-- **setSession()** (6 connections) — `src/data/session.js`
-- **signOut()** (4 connections) — `src/data/session.js`
-- **hasSession()** (3 connections) — `src/data/auth.js`
-- **sessionFromAuth()** (3 connections) — `src/data/auth.js`
-- **emit()** (2 connections) — `src/data/session.js`
-- **signOutAndReload()** (2 connections) — `src/pages/Login.jsx`
-- **GUEST** (1 connections) — `src/data/session.js`
-- **subs** (1 connections) — `src/data/session.js`
+- **workflow.schema.json** (8 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$defs** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **side** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$id** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$schema** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **title** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- [[Live Pricing Audit Tool]] (14 shared connections)
-- [[Roles & Customer Sharing Spec]] (7 shared connections)
-- [[Community 37]] (7 shared connections)
-- [[Community 52]] (6 shared connections)
+- [[Community 81]] (1 shared connections)
+- [[Community 145]] (1 shared connections)
 
 ## Source Files
 
-- `src/data/auth.js`
-- `src/data/session.js`
-- `src/pages/Login.jsx`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 62 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

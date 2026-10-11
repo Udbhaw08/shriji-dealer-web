@@ -1,37 +1,37 @@
 # Community 112
 
-> 13 nodes · cohesion 0.15
+> 12 nodes · cohesion 0.41
 
 ## Key Concepts
 
-- **properties** (12 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **lanes** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **nodes** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **cards** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **schema_version** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **repository-evidence.mjs** (15 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **verifyRepositoryEvidence()** (14 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **evidenceFailure()** (6 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **repository-location.mjs** (5 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **parseRepositoryRemote()** (5 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **gitValue()** (4 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **runGit()** (4 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **verifiedSourcePath()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **redactRepositoryRemote()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **repositorySourceHref()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **hasRepositoryEvidence()** (2 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **sourceLineCount()** (2 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
 
 ## Relationships
 
-- [[Community 104]] (5 shared connections)
-- [[Community 57]] (2 shared connections)
-- [[Community 139]] (1 shared connections)
-- [[Community 33]] (1 shared connections)
+- [[Architecture Doc Generator]] (6 shared connections)
+- [[Community 99]] (3 shared connections)
+- [[Community 50]] (2 shared connections)
+- [[Community 82]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- `.agents/skills/archify/renderers/shared/repository-location.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (100%)
+- EXTRACTED: 66 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

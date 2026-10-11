@@ -1,57 +1,55 @@
 # Zoho Integration Architecture
 
-> 62 nodes · cohesion 0.06
+> 67 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **yl()** (27 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **qd()** (17 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **Yd()** (16 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **Fd()** (15 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **Vd()** (15 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **jd()** (13 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **Ci()** (12 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **Ld()** (12 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **error()** (11 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **bl()** (10 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **xl()** (10 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **ef()** (9 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **Fu()** (9 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **iu()** (9 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **Nd()** (9 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **pa()** (9 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **Rd()** (9 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **Bd()** (8 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **pt()** (8 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **ql()** (8 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **zd()** (8 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **Gd()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **gl()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **gu()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **Hd()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- *... and 37 more nodes in this community*
+- **has()** (37 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **delete()** (36 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **pd()** (21 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **xt()** (21 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **ze()** (21 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **he()** (16 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **ld()** (15 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **de()** (13 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **getIdToken()** (13 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **zd()** (13 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **dd()** (12 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **mn()** (12 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **rd()** (12 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **nd()** (11 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **un()** (11 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **wt()** (11 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **ad()** (10 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **dn()** (10 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **od()** (10 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **fd()** (9 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **hn()** (9 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **jt()** (9 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **ke()** (9 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **kt()** (9 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **yd()** (9 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- *... and 42 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (70 shared connections)
-- [[Product Pages Specification]] (34 shared connections)
-- [[Product Requirements Documentation]] (23 shared connections)
-- [[Dependencies & Package Config]] (21 shared connections)
-- [[Community 46]] (12 shared connections)
-- [[Community 41]] (8 shared connections)
-- [[Community 32]] (8 shared connections)
-- [[Testing & Workflow Skill]] (6 shared connections)
-- [[Community 43]] (5 shared connections)
-- [[Community 64]] (2 shared connections)
-- [[Community 70]] (1 shared connections)
+- [[Price Presentation & Product UI]] (101 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (80 shared connections)
+- [[Client Products Data Store]] (22 shared connections)
+- [[Graphify Agent Rules]] (20 shared connections)
+- [[Community 35]] (14 shared connections)
+- [[Zoho API Diagnostic Script]] (13 shared connections)
+- [[Product Brand & Business Vision]] (13 shared connections)
+- [[Community 92]] (3 shared connections)
+- [[Community 232]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DxTMC5SR.js`
+- `ios/App/App/public/assets/index-h5JnEN27.js`
 
 ## Audit Trail
 
-- EXTRACTED: 410 (100%)
+- EXTRACTED: 565 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

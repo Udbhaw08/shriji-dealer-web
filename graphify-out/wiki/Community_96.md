@@ -1,37 +1,35 @@
 # Community 96
 
-> 15 nodes · cohesion 0.19
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **sources** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **required** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **boundaries** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **connections** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **generate-brand-marks.mjs** (13 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **catalog** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **catalogPath** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **domains** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **fail()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **generated** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **here** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **ids** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **lookupForms()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **lookupKeys** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **normalizedList()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **outputPath** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **root** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **simpleBySlug** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
 
 ## Relationships
 
-- [[Oxlint Linter Configuration]] (5 shared connections)
-- [[Community 72]] (3 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `.agents/skills/archify/scripts/generate-brand-marks.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

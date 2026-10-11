@@ -1,32 +1,32 @@
 # Community 129
 
-> 11 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **readme-showcase.test.mjs** (10 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **inspectGif()** (2 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **skipSubBlocks()** (2 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **assetPath** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **git()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **receiptPath** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **writeStarHistoryCharts()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **lanes** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **additionalProperties** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **required** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Testing & Workflow Skill]] (3 shared connections)
+- [[Community 83]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/readme-showcase.test.mjs`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

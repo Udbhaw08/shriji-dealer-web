@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **2. Customer vs. Dealer Price Resolution (`src/data/dealer.js`)** (4 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **PRICING-ARCHITECTURE.md — Pricing Engine & Audit Specification** (4 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **1. Source of Truth: Live Zoho Commerce Store API** (2 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **PRICING-ARCHITECTURE.md** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **2.1 Customer View** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **2.2 Dealer View** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **2.3 Share Link Invariant** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **3. Automated Pricing Regression Protection** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **Rate Priority Hierarchy** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **Shriji Pricing & Roles Skill** (5 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **User Roles & View Modes** (4 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **1. Guest View (Public)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **2. Dealer View (Authenticated)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **3. Customer Shared View (`?from=<dealer_id>`)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **Key Files** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **Schemes Logic** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **Zero-Price Handling** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `docs/PRICING-ARCHITECTURE.md`
+- `.agents/skills/shriji-pricing-and-roles/SKILL.md`
 
 ## Audit Trail
 

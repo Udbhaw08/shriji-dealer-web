@@ -1,67 +1,71 @@
 # Pricing & Roles Skill
 
-> 49 nodes · cohesion 0.11
+> 52 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **render-lifecycle.mjs** (81 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **esc()** (31 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **escapeHtml()** (26 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **animateAttr()** (16 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **focusEdgeAttrs()** (15 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **labelPoint()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **renderBrandMark()** (14 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **renderNode()** (13 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderState()** (13 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **focusNodeAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **renderSemanticSigil()** (13 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **renderComponent()** (12 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderParticipant()** (12 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **brandLabelFitWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **brandMetadataFor()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **focusNodeTitle()** (12 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **routePointsValue()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **fittedNodeFontSize()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **variantAccent()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **renderConnectionLabel()** (8 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderFlowLabel()** (8 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderTransitionLabel()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderMessage()** (8 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **brandMarkFor()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **messageLabel()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- *... and 24 more nodes in this community*
+- **ui.jsx** (38 connections) — `src/ui.jsx`
+- **main.jsx** (34 connections) — `src/main.jsx`
+- **useLanguage()** (32 connections) — `src/data/i18n.js`
+- **useSession()** (28 connections) — `src/data/session.js`
+- **Home.jsx** (24 connections) — `src/pages/Home.jsx`
+- **t()** (20 connections) — `src/data/i18n.js`
+- **site.js** (20 connections) — `src/data/site.js`
+- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
+- **Icon()** (16 connections) — `src/ui.jsx`
+- **isDealer()** (15 connections) — `src/data/dealer.js`
+- **Support.jsx** (15 connections) — `src/pages/Support.jsx`
+- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
+- **Schemes.jsx** (14 connections) — `src/pages/Schemes.jsx`
+- **COMPANY** (12 connections) — `src/data/site.js`
+- **dealerById()** (11 connections) — `src/data/dealer.js`
+- **Products()** (9 connections) — `src/pages/Products.jsx`
+- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
+- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
+- **portalGate.js** (8 connections) — `src/data/portalGate.js`
+- **Favorites()** (8 connections) — `src/pages/Favorites.jsx`
+- **Home()** (8 connections) — `src/pages/Home.jsx`
+- **HeroSlider.jsx** (7 connections) — `src/components/HeroSlider.jsx`
+- **Header()** (7 connections) — `src/ui.jsx`
+- **Login()** (6 connections) — `src/pages/Login.jsx`
+- **Schemes()** (6 connections) — `src/pages/Schemes.jsx`
+- *... and 27 more nodes in this community*
 
 ## Relationships
 
-- [[Design System & UI Tokens]] (45 shared connections)
-- [[Community 36]] (42 shared connections)
-- [[Community 40]] (35 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (21 shared connections)
-- [[Community 74]] (14 shared connections)
-- [[Community 89]] (12 shared connections)
-- [[Product Brand & Business Vision]] (11 shared connections)
-- [[Zoho API Diagnostic Script]] (7 shared connections)
-- [[Community 56]] (5 shared connections)
-- [[Community 76]] (2 shared connections)
+- [[Community 34]] (60 shared connections)
+- [[Community 46]] (19 shared connections)
+- [[Roles & Customer Sharing Spec]] (16 shared connections)
+- [[Community 115]] (9 shared connections)
+- [[Community 124]] (7 shared connections)
+- [[Community 114]] (2 shared connections)
+- [[Community 226]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/cli.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/i18n.mjs`
-- `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `src/components/HeroSlider.jsx`
+- `src/components/MobileBottomNav.jsx`
+- `src/components/NativeBackHandler.jsx`
+- `src/components/UnderMaintenance.jsx`
+- `src/data/dealer.js`
+- `src/data/i18n.js`
+- `src/data/portalGate.js`
+- `src/data/session.js`
+- `src/data/site.js`
+- `src/main.jsx`
+- `src/pages/DealerDashboard.jsx`
+- `src/pages/Favorites.jsx`
+- `src/pages/Home.jsx`
+- `src/pages/Login.jsx`
+- `src/pages/Products.jsx`
+- `src/pages/Schemes.jsx`
+- `src/pages/Support.jsx`
+- `src/ui.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 406 (90%)
-- INFERRED: 44 (10%)
+- EXTRACTED: 452 (100%)
+- INFERRED: 2 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

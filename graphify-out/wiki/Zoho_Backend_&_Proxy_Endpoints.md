@@ -1,66 +1,55 @@
 # Zoho Backend & Proxy Endpoints
 
-> 106 nodes · cohesion 0.06
+> 137 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **sql** (35 connections) — `backend/src/db/pool.js`
-- **auth.js** (32 connections) — `backend/src/routes/auth.js`
-- **server.js** (25 connections) — `backend/src/server.js`
-- **crmClient.js** (21 connections) — `backend/src/services/crmClient.js`
-- **dealers.js** (20 connections) — `backend/src/routes/dealers.js`
-- **staff.js** (18 connections) — `backend/src/services/staff.js`
-- **pool.js** (17 connections) — `backend/src/db/pool.js`
-- **catalog.js** (16 connections) — `backend/src/services/catalog.js`
-- **audit()** (14 connections) — `backend/src/utils/audit.js`
-- **logger.js** (14 connections) — `backend/src/utils/logger.js`
-- **env.js** (13 connections) — `backend/src/config/env.js`
-- **webhooks.js** (13 connections) — `backend/src/routes/webhooks.js`
-- **log** (13 connections) — `backend/src/utils/logger.js`
-- **crmPoll.js** (12 connections) — `backend/src/jobs/crmPoll.js`
-- **dealerApp.js** (12 connections) — `backend/src/services/dealerApp.js`
-- **env** (11 connections) — `backend/src/config/env.js`
-- **index.js** (11 connections) — `backend/src/jobs/index.js`
-- **commerceClient.js** (11 connections) — `backend/src/services/commerceClient.js`
-- **hash.js** (11 connections) — `backend/src/utils/hash.js`
-- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
-- **notifications.js** (9 connections) — `backend/src/services/notifications.js`
-- **auth.js** (8 connections) — `backend/src/middleware/auth.js`
-- **health.js** (8 connections) — `backend/src/routes/health.js`
-- **crmFetch()** (8 connections) — `backend/src/services/crmClient.js`
-- **errorHandler.js** (7 connections) — `backend/src/middleware/errorHandler.js`
-- *... and 81 more nodes in this community*
+- **error()** (119 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **add()** (34 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **n()** (34 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **t()** (31 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **l()** (29 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **w()** (27 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **hu()** (26 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **za()** (26 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **create()** (25 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **warn()** (25 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **r()** (23 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **i()** (19 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **a()** (18 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **ef()** (18 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **bs()** (17 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **f()** (17 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **pu()** (17 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **jh()** (16 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **o()** (16 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **ou()** (16 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **sc()** (16 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **c()** (15 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **ku()** (15 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **gs()** (14 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **ie()** (14 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- *... and 112 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (187 shared connections)
+- [[Client Products Data Store]] (82 shared connections)
+- [[Zoho Integration Architecture]] (80 shared connections)
+- [[Zoho API Diagnostic Script]] (51 shared connections)
+- [[Product Brand & Business Vision]] (36 shared connections)
+- [[Graphify Agent Rules]] (25 shared connections)
+- [[Community 35]] (23 shared connections)
+- [[Community 92]] (7 shared connections)
+- [[Community 232]] (4 shared connections)
 
 ## Source Files
 
-- `backend/src/config/env.js`
-- `backend/src/db/migrate.js`
-- `backend/src/db/pool.js`
-- `backend/src/jobs/catalogSync.js`
-- `backend/src/jobs/crmPoll.js`
-- `backend/src/jobs/index.js`
-- `backend/src/middleware/auth.js`
-- `backend/src/middleware/errorHandler.js`
-- `backend/src/middleware/rateLimit.js`
-- `backend/src/routes/auth.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/routes/health.js`
-- `backend/src/routes/prices.js`
-- `backend/src/routes/webhooks.js`
-- `backend/src/server.js`
-- `backend/src/services/catalog.js`
-- `backend/src/services/commerceClient.js`
-- `backend/src/services/crmClient.js`
-- `backend/src/services/dealerApp.js`
-- `backend/src/services/notifications.js`
+- `ios/App/App/public/assets/index-h5JnEN27.js`
 
 ## Audit Trail
 
-- EXTRACTED: 614 (100%)
+- EXTRACTED: 1437 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

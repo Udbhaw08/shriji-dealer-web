@@ -1,58 +1,53 @@
 # Master Codebase Architecture Reference
 
-> 71 nodes · cohesion 0.06
+> 86 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **n()** (30 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **Oi()** (25 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **t()** (22 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **gt()** (21 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **E()** (17 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **xi()** (16 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **ka()** (15 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **gi()** (14 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **ki()** (13 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **ji()** (12 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **O()** (12 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **oe()** (12 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **wt()** (12 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **Bi()** (11 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **Ih()** (11 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **yt()** (11 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **zt()** (11 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **da()** (10 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **ph()** (10 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **Ut()** (10 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **yh()** (10 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **dl()** (9 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **es()** (9 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **hh()** (9 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **Oa()** (9 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- *... and 46 more nodes in this community*
+- **ac()** (37 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **fc()** (32 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **bs()** (17 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **gs()** (14 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **si()** (14 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **is()** (13 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **ve()** (13 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **cs()** (12 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **ys()** (12 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **g()** (11 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **ms()** (11 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **nc()** (11 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **oc()** (11 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **pc()** (11 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **hs()** (10 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **ic()** (10 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **oi()** (10 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **ps()** (10 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **fu()** (9 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **mc()** (9 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **ni()** (9 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **os()** (9 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **xi()** (9 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **yi()** (9 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **bi()** (8 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- *... and 61 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (81 shared connections)
-- [[Client Products Data Store]] (48 shared connections)
-- [[Pricing Regression Test Suite]] (24 shared connections)
-- [[Graphify Agent Rules]] (19 shared connections)
-- [[Community 49]] (15 shared connections)
-- [[Zoho Integration Skill]] (14 shared connections)
-- [[Community 29]] (13 shared connections)
-- [[Community 38]] (12 shared connections)
-- [[Community 39]] (11 shared connections)
-- [[Community 67]] (8 shared connections)
-- [[Claude Agent Instructions]] (7 shared connections)
-- [[Community 35]] (5 shared connections)
+- [[Product Pages Specification]] (101 shared connections)
+- [[Dealer Auth & Session Management]] (95 shared connections)
+- [[Pricing Regression Test Suite]] (31 shared connections)
+- [[Product Requirements Documentation]] (21 shared connections)
+- [[Community 39]] (14 shared connections)
+- [[Vercel Deployment Routing]] (7 shared connections)
+- [[Live Pricing Audit Tool]] (6 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
 
 ## Audit Trail
 
-- EXTRACTED: 572 (100%)
+- EXTRACTED: 601 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,25 +1,25 @@
 # Community 236
 
-> 4 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **Test** (2 connections) — `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
-- **ExampleUnitTest.java** (2 connections) — `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
-- **ExampleUnitTest** (2 connections) — `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
-- **.addition_isCorrect()** (2 connections) — `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
+- **via** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Testing & Workflow Skill]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

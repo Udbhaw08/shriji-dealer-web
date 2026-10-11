@@ -1,50 +1,60 @@
 # Community 44
 
-> 34 nodes · cohesion 0.16
+> 30 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **cacheRename()** (13 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **acquireOperation()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheRm()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheTokenFor()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **captureMutationParentSnapshots()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheWriteFile()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **invalidateCacheToken()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **prepareCacheDirectory()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **promoteOperationClaim()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **reserveOperation()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **resolveCacheTarget()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stableCacheEntry()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **verifyCacheToken()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **guardedCacheMutation()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **guardedCacheRead()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertSafeDirectory()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheMkdir()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **inspectActiveClaim()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **isSameFile()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheMkdirWithToken()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **fenceLowerOperations()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **listOperations()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationName()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationWasFenced()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **prepareOperationClaim()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- *... and 9 more nodes in this community*
+- **visual-check.mjs** (50 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **runVisualCheck()** (18 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **visual-check.test.mjs** (14 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **observationDiagnostics()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **safeUnlink()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **writeAtomic()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **baseReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **chromeVisualBrowserArgs()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **cleanupCaptureSidecars()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **contactSheetHtml()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **failureDiagnostic()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **persistReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **sha256()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **sidecarPaths()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **htmlEscape()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **observation()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **screenshotKey()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **viewportSubject()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **VISUAL_CHECK_VIEWPORTS** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **CAPTURE_VIEWPORTS** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **EXIT** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **THEMES** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **artifact()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **fakeBrowser()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [[Community 48]] (39 shared connections)
-- [[Community 86]] (18 shared connections)
-- [[Community 144]] (1 shared connections)
+- [[Community 108]] (7 shared connections)
+- [[Community 91]] (5 shared connections)
+- [[Community 97]] (4 shared connections)
+- [[Community 49]] (3 shared connections)
+- [[Community 101]] (2 shared connections)
+- [[Community 69]] (2 shared connections)
+- [[Community 188]] (1 shared connections)
+- [[Community 104]] (1 shared connections)
+- [[Community 105]] (1 shared connections)
+- [[Community 89]] (1 shared connections)
+- [[Community 191]] (1 shared connections)
+- [[Community 30]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-update.mjs`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/test/visual-check.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 231 (100%)
-- INFERRED: 1 (0%)
+- EXTRACTED: 138 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

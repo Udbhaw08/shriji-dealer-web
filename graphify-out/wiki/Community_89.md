@@ -1,50 +1,42 @@
 # Community 89
 
-> 17 nodes · cohesion 0.21
+> 15 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **utils.mjs** (26 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **i18n.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **translateMessage()** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **applyTemplate()** (9 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **resolveLocale()** (7 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **componentContext()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **viewerCatalog()** (4 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **localizeTemplate()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **translateCount()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **formatMessage()** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **serializeScriptJson()** (2 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **CATALOGS** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **ESCAPE_MAP** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **MESSAGE_PAIRS** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **SIGIL_SHAPE** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **SIGIL_TONE** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **TEMPLATE_PLACEHOLDERS** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **i18n.test.mjs** (20 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **catalogKeys()** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **SUPPORTED_LOCALES** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **authoredExample()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **evaluate()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **example()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **loadArtifact()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **AUTHORED_TEXT_KEYS** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **templatePath** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
 
 ## Relationships
 
-- [[Pricing & Roles Skill]] (12 shared connections)
-- [[Community 40]] (10 shared connections)
-- [[Product Brand & Business Vision]] (7 shared connections)
-- [[Community 36]] (5 shared connections)
-- [[Community 98]] (5 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (4 shared connections)
-- [[Design System & UI Tokens]] (4 shared connections)
-- [[Community 74]] (3 shared connections)
-- [[Zoho API Diagnostic Script]] (1 shared connections)
-- [[Community 178]] (1 shared connections)
+- [[Community 88]] (4 shared connections)
+- [[Community 44]] (1 shared connections)
+- [[Community 108]] (1 shared connections)
+- [[Community 91]] (1 shared connections)
+- [[Community 40]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
 - `.agents/skills/archify/renderers/shared/i18n.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `.agents/skills/archify/test/i18n.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 107 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 40 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,17 +1,17 @@
 # Community 173
 
-> 8 nodes · cohesion 0.25
+> 8 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **relationship-lens.test.mjs** (7 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **escapeAttr()** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **svg()** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **stable-update-manifest.test.mjs** (7 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **annotatedTaggerTime()** (2 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **git()** (2 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **checker** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **runCheck()** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **writeJson()** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
 
 ## Relationships
 
@@ -19,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/relationship-lens.test.mjs`
+- `.agents/skills/archify/test/stable-update-manifest.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

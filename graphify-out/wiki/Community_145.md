@@ -1,31 +1,31 @@
 # Community 145
 
-> 10 nodes · cohesion 0.20
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Workflow Renderer** (6 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Layout contracts** (3 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Design Rules** (2 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **README.md** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Fixed v1** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Input** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Legend** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Migration and layout receipt** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Optional semantic checks** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Readable v2** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **semanticRelation** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **from** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **to** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Project Readme & Layout]] (2 shared connections)
+- [[Community 131]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/workflow/README.md`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

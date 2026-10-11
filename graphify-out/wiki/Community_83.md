@@ -1,39 +1,39 @@
 # Community 83
 
-> 18 nodes · cohesion 0.11
+> 16 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **BACKEND-ARCHITECTURE.md — Dedicated Node Backend, Supabase Postgres & Zoho Ownership Model** (11 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **1. What is done in Zoho (setup checklist)** (4 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **6. Decision record — why this stack** (3 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **5. Storage — what the backend keeps** (2 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **BACKEND-ARCHITECTURE.md** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **0. The Ownership Rule — one sentence per system** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **1.1 CRM — dealers and staff** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **1.2 CRM — API access** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **1.3 Commerce** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **2. Backend responsibilities** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **3. Integration flows** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **4. Data movement** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **5.1 Schema (Supabase Postgres)** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **7. Service layout** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **8. Phased delivery** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **9. Migration checklist** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **Database: Supabase (chosen over Postgres-elsewhere and Firebase)** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **Runtime: dedicated Node.js 20 service (chosen over extending Vercel serverless)** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **properties** (8 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **meta** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **states** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **transitions** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **cards** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **schema_version** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 129]] (3 shared connections)
+- [[Community 182]] (1 shared connections)
+- [[Community 54]] (1 shared connections)
 
 ## Source Files
 
-- `docs/BACKEND-ARCHITECTURE.md`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
+- EXTRACTED: 35 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

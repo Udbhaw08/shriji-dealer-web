@@ -1,57 +1,57 @@
 # Community 46
 
-> 33 nodes · cohesion 0.10
+> 29 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **Z()** (25 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **has()** (24 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **add()** (20 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **D()** (19 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **jc()** (15 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **mc()** (15 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **la()** (11 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **Wi()** (11 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **yo()** (9 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **ha()** (8 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **ua()** (8 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **vt()** (8 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **hm()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **mf()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **rn()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **sn()** (7 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **pf()** (6 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **Q()** (6 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **hasEventBeenHandled()** (5 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **ma()** (5 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **Ou()** (5 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **_poll()** (5 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **registerConsumer()** (5 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **saveEventToCache()** (4 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **va()** (4 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- *... and 8 more nodes in this community*
+- **Products.jsx** (25 connections) — `src/pages/Products.jsx`
+- **productsStore.js** (19 connections) — `src/data/productsStore.js`
+- **ProductSearchBar.jsx** (15 connections) — `src/components/ProductSearchBar.jsx`
+- **apiFetch()** (12 connections) — `src/data/api.js`
+- **useProducts()** (12 connections) — `src/data/productsStore.js`
+- **searchHelper.js** (11 connections) — `src/data/searchHelper.js`
+- **apiUrl()** (9 connections) — `src/data/api.js`
+- **api.js** (7 connections) — `src/data/api.js`
+- **ProductSearchBar()** (6 connections) — `src/components/ProductSearchBar.jsx`
+- **getSuggestions()** (5 connections) — `src/data/searchHelper.js`
+- **fetchLiveProducts()** (4 connections) — `src/data/productsStore.js`
+- **autocorrectQuery()** (4 connections) — `src/data/searchHelper.js`
+- **buildSearchDictionary()** (4 connections) — `src/data/searchHelper.js`
+- **products.js** (3 connections) — `src/data/products.js`
+- **CATEGORIES** (2 connections) — `src/data/products.js`
+- **emit()** (2 connections) — `src/data/productsStore.js`
+- **loadCached()** (2 connections) — `src/data/productsStore.js`
+- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
+- **useProduct()** (2 connections) — `src/data/productsStore.js`
+- **getPopularSearches()** (2 connections) — `src/data/searchHelper.js`
+- **scoreProduct()** (2 connections) — `src/data/searchHelper.js`
+- **PRODUCTS** (1 connections) — `src/data/products.js`
+- **listeners** (1 connections) — `src/data/productsStore.js`
+- **PREFERRED_ORDER** (1 connections) — `src/data/productsStore.js`
+- **storeState** (1 connections) — `src/data/productsStore.js`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (40 shared connections)
-- [[Product Pages Specification]] (33 shared connections)
-- [[Dependencies & Package Config]] (23 shared connections)
-- [[Product Requirements Documentation]] (13 shared connections)
-- [[Zoho Integration Architecture]] (12 shared connections)
-- [[Community 41]] (9 shared connections)
-- [[Community 32]] (7 shared connections)
-- [[Community 70]] (7 shared connections)
-- [[Testing & Workflow Skill]] (6 shared connections)
-- [[Community 64]] (3 shared connections)
-- [[Community 43]] (3 shared connections)
+- [[Pricing & Roles Skill]] (19 shared connections)
+- [[Community 34]] (17 shared connections)
+- [[Roles & Customer Sharing Spec]] (9 shared connections)
+- [[Community 124]] (6 shared connections)
+- [[Community 115]] (2 shared connections)
+- [[Community 114]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DxTMC5SR.js`
+- `src/components/ProductSearchBar.jsx`
+- `src/data/api.js`
+- `src/data/products.js`
+- `src/data/productsStore.js`
+- `src/data/searchHelper.js`
+- `src/pages/Products.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 264 (100%)
+- EXTRACTED: 158 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

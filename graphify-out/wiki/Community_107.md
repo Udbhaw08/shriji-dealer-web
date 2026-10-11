@@ -1,35 +1,35 @@
 # Community 107
 
-> 14 nodes · cohesion 0.14
+> 13 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **real-repository-proof.test.mjs** (15 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **automaticMcoRoot()** (2 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **artifactPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **connectionLabelGeometry()** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **evidencePayload()** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **experimentArtifactPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **experimentSourcePath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **pinnedSource** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **shareCardPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **sourcePath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **workflow-compiler-hard-contract.test.mjs** (14 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **workflow()** (4 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **oneLaneAnchors()** (3 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **oneLaneWorkflow()** (3 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **crossingAtForwardCollinearViaWorkflow()** (2 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **nestedOutsideRightCorridorWorkflow()** (2 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **assertExplicitPinConflict()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **assertOrthogonal()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **assertSupportedFixesNameChangedEdge()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **clone()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **mutate()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **routeContainsChannel()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **segmentMeetsRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
 
 ## Relationships
 
-- [[Community 120]] (3 shared connections)
+- [[Community 94]] (2 shared connections)
+- [[Community 64]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (100%)
+- EXTRACTED: 35 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

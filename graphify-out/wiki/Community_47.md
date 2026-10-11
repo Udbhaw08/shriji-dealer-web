@@ -1,53 +1,48 @@
 # Community 47
 
-> 32 nodes · cohesion 0.18
+> 26 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **archify.mjs** (50 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandDeliver()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandMigrate()** (17 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandValidate()** (13 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandRender()** (10 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandPreview()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **diagnostic()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rendererPath()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **renderValidatedArchitecture()** (8 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractQualityArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractRepoRootArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rejectCliArgument()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **assertEvidenceType()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **checkerDiagnostics()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rendererEnv()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rendererFailure()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportArtifactFailure()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **inputDiagnostic()** (4 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **engineeringProfileFromArtifact()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **migrationPathDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **migrationReport()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportArtifactArgumentFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportDeliveryFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportValidateFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **sourceEvidenceFromArtifact()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- *... and 7 more nodes in this community*
+- **layout-rules.test.mjs** (25 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **assertRelationshipsAvoidAllNodeBorders()** (5 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **workflowNodeBorderOverlap()** (3 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **assertWorkflowEdgesAvoidAllNodeBorders()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **axisOverlapLength()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **workflowEdgePoints()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **workflowNodeRect()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **ambiguousCorridorDocument()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **autoRoutePassThroughDocument()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **boundaryFrameRect()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **boundaryTitleMasks()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **hash()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **load()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **rectanglesOverlap()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **rectContainsRect()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **SHRINK_CASES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **TAG_SHRINK_CASES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **tangentViaLifecycle()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **validateCli()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [[Community 109]] (27 shared connections)
-- [[Community 187]] (11 shared connections)
-- [[Community 87]] (4 shared connections)
-- [[Community 103]] (3 shared connections)
-- [[Community 165]] (2 shared connections)
-- [[Community 59]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
+- `.agents/skills/archify/test/layout-rules.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 221 (97%)
-- INFERRED: 6 (3%)
+- EXTRACTED: 60 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

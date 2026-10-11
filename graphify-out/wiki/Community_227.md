@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Archify Diagram Generation Protocol** (4 connections) — `.agents/rules/archify.md`
-- **archify.md** (1 connections) — `.agents/rules/archify.md`
-- **Rule 1: Dedicated Subfolder Per Diagram** (1 connections) — `.agents/rules/archify.md`
-- **Rule 2: Output Artifacts (HTML & Dark Image Only)** (1 connections) — `.agents/rules/archify.md`
-- **Rule 3: Intermediate File Cleanup** (1 connections) — `.agents/rules/archify.md`
+- **base-input-compatibility.test.mjs** (4 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
+- **renderBaseFixture()** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/rules/archify.md`
+- `.agents/skills/archify/test/base-input-compatibility.test.mjs`
 
 ## Audit Trail
 

@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Delivery contract** (8 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **delivery-contract.md** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Automated browser evidence** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Handoff receipt** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Last-Good Live Preview** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Optional opening** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Perceptual delivery gate** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Recovering a failed comparison** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Validate and deliver** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **authored-reachability.test.mjs** (8 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **reachabilityFunction()** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/references/delivery-contract.md`
+- `.agents/skills/archify/test/authored-reachability.test.mjs`
 
 ## Audit Trail
 

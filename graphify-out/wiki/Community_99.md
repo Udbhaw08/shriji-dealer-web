@@ -1,44 +1,35 @@
 # Community 99
 
-> 14 nodes · cohesion 0.21
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **em()** (7 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **qf()** (7 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **_f()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **_getReauthenticationResolver()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **Xf()** (6 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **buildRequest()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **_getIdTokenResponse()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **_linkToIdToken()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **Zf()** (5 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **_buildIdpRequest()** (4 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **_forOperation()** (4 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **ho()** (4 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **_makeVerificationRequest()** (4 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
-- **Bf()** (3 connections) — `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- **real-repository-proof.test.mjs** (15 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **automaticMcoRoot()** (2 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **artifactPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **connectionLabelGeometry()** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **evidencePayload()** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **experimentArtifactPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **experimentSourcePath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **pinnedSource** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **shareCardPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **sourcePath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (17 shared connections)
-- [[Pricing Regression Test Suite]] (5 shared connections)
-- [[Community 38]] (2 shared connections)
-- [[Claude Agent Instructions]] (2 shared connections)
-- [[Community 29]] (2 shared connections)
-- [[Community 35]] (1 shared connections)
-- [[Community 49]] (1 shared connections)
-- [[Community 39]] (1 shared connections)
-- [[Client Products Data Store]] (1 shared connections)
-- [[Master Codebase Architecture Reference]] (1 shared connections)
+- [[Community 112]] (3 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DxTMC5SR.js`
+- `.agents/skills/archify/test/real-repository-proof.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 71 (100%)
+- EXTRACTED: 29 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,36 +1,41 @@
 # Community 97
 
-> 15 nodes · cohesion 0.13
+> 14 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **repository** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **properties** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **revision** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **url** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **link_mode** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **provider** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **pattern** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minLength** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **desktop-readability.mjs** (9 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **adaptive-reader-layout.test.mjs** (9 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **desktop-reader-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- **DESKTOP_READABILITY_VIEWPORT** (5 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **minimumReadableSourceTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **projectedNodeTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **reader** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **skill** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- **packagedHtmlExamples** (1 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
 
 ## Relationships
 
-- [[Community 79]] (1 shared connections)
+- [[Community 44]] (4 shared connections)
+- [[Mobile Responsive UI Skill]] (4 shared connections)
+- [[Graphify Knowledge Graph Skill]] (3 shared connections)
+- [[Community 77]] (1 shared connections)
+- [[Community 91]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (100%)
+- EXTRACTED: 47 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

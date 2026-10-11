@@ -1,52 +1,42 @@
 # Community 60
 
-> 24 nodes · cohesion 0.14
+> 21 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **intent-trace-browser.test.mjs** (15 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **semantic-lens-browser.test.mjs** (14 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **desktop-browser.mjs** (8 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
-- **run()** (6 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **run()** (6 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **desktopBrowser()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
-- **desktopPointerCheck()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **point()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **point()** (4 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **media()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **move()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **move()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **afterTimer()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **hash()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **package.json** (9 connections) — `backend/package.json`
+- **dependencies** (7 connections) — `backend/package.json`
+- **scripts** (5 connections) — `backend/package.json`
+- **engines** (2 connections) — `backend/package.json`
+- **dotenv** (1 connections) — `backend/package.json`
+- **express** (1 connections) — `backend/package.json`
+- **google-auth-library** (1 connections) — `backend/package.json`
+- **jsonwebtoken** (1 connections) — `backend/package.json`
+- **postgres** (1 connections) — `backend/package.json`
+- **resend** (1 connections) — `backend/package.json`
+- **description** (1 connections) — `backend/package.json`
+- **node** (1 connections) — `backend/package.json`
+- **main** (1 connections) — `backend/package.json`
+- **name** (1 connections) — `backend/package.json`
+- **private** (1 connections) — `backend/package.json`
+- **dev** (1 connections) — `backend/package.json`
+- **migrate** (1 connections) — `backend/package.json`
+- **start** (1 connections) — `backend/package.json`
+- **test** (1 connections) — `backend/package.json`
+- **type** (1 connections) — `backend/package.json`
+- **version** (1 connections) — `backend/package.json`
 
 ## Relationships
 
-- [[Community 53]] (11 shared connections)
-- [[Community 50]] (3 shared connections)
-- [[Community 113]] (3 shared connections)
-- [[Community 114]] (3 shared connections)
-- [[Community 101]] (2 shared connections)
-- [[Community 75]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/helpers/desktop-browser.mjs`
-- `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- `backend/package.json`
 
 ## Audit Trail
 
-- EXTRACTED: 103 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

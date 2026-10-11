@@ -1,57 +1,54 @@
 # Zoho API Diagnostic Script
 
-> 43 nodes · cohesion 0.08
+> 42 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **brand-marks.mjs** (51 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **brand-marks.test.mjs** (15 connections) — `.agents/skills/archify/test/brand-marks.test.mjs`
-- **captureRemoteBrand()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **prepareDiagramBrandMarks()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **captureBrandReference()** (6 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **findBrandMark()** (5 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **checkedFetch()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **isPrivateBrandAddress()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **resolveRequestTarget()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **asUrl()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **iconCandidates()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **imageData()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **ipv4Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **ipv6Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **lookupForms()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **readLimited()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **validateUrlShape()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **generated-brand-marks.mjs** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
-- **BRAND_MARKS** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
-- **attribute()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **beforeDeadline()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **captureTimeoutMilliseconds()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **domainMark()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **mapConcurrent()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **remoteBrand()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- *... and 18 more nodes in this community*
+- **ac()** (37 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **fc()** (32 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **ve()** (13 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **oc()** (11 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **pc()** (11 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **ic()** (10 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **oi()** (10 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **mc()** (9 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **so()** (8 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **ai()** (7 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **hi()** (7 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **be()** (6 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **ce()** (6 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **io()** (6 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **ui()** (6 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **we()** (6 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **ye()** (6 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **ao()** (5 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **fi()** (5 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **gi()** (5 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **js()** (5 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **ns()** (5 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **oo()** (5 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **ri()** (5 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **se()** (5 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [[Pricing & Roles Skill]] (7 shared connections)
-- [[Product Brand & Business Vision]] (6 shared connections)
-- [[Community 109]] (3 shared connections)
-- [[Community 36]] (3 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (1 shared connections)
-- [[Community 40]] (1 shared connections)
-- [[Community 89]] (1 shared connections)
-- [[Community 74]] (1 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (51 shared connections)
+- [[Price Presentation & Product UI]] (48 shared connections)
+- [[Zoho Integration Architecture]] (13 shared connections)
+- [[Client Products Data Store]] (10 shared connections)
+- [[Community 35]] (10 shared connections)
+- [[Product Brand & Business Vision]] (5 shared connections)
+- [[Graphify Agent Rules]] (4 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
-- `.agents/skills/archify/test/brand-marks.test.mjs`
+- `ios/App/App/public/assets/index-h5JnEN27.js`
 
 ## Audit Trail
 
-- EXTRACTED: 164 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 283 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

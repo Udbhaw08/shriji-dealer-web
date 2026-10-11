@@ -1,39 +1,34 @@
 # Community 109
 
-> 13 nodes · cohesion 0.27
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **fail()** (15 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **usage()** (11 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **runNode()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandDemo()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **exitFrom()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandBrands()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandExamples()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandVisualCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandDoctor()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractMigrationOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandGuide()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **listBrandMarks()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **DEALER-HIERARCHY-AND-WORKFLOW.md — Business, Dealer & Staff Hierarchy Model** (6 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **3. End-to-End User Journey & Life Cycle** (3 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **4. Zoho CRM Data Structure** (3 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **1. The Three-Tier Hierarchy Model** (2 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **DEALER-HIERARCHY-AND-WORKFLOW.md** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **2. Two-Stage Approval Separation** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **5. Technical Seams to Adapt** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **Accounts Module (Business Entity)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **Contacts Module (People Hierarchy)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **Hierarchy Breakdown:** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **Phase A: Dealer Onboarding (Head Approval)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **Phase B: Staff Onboarding via Dealer Code (Dealer Approval)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
 
 ## Relationships
 
-- [[Community 47]] (27 shared connections)
-- [[Zoho API Diagnostic Script]] (3 shared connections)
-- [[Community 187]] (3 shared connections)
-- [[Community 50]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
 
 ## Audit Trail
 
-- EXTRACTED: 73 (95%)
-- INFERRED: 4 (5%)
+- EXTRACTED: 22 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

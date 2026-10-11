@@ -1,54 +1,53 @@
 # Live Pricing Audit Tool
 
-> 54 nodes · cohesion 0.10
+> 60 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **Login.jsx** (51 connections) — `src/pages/Login.jsx`
-- **auth.js** (34 connections) — `src/data/auth.js`
-- **callBackend()** (21 connections) — `src/data/auth.js`
-- **json()** (21 connections) — `src/data/auth.js`
-- **DealerDashboard.jsx** (17 connections) — `src/pages/DealerDashboard.jsx`
-- **applyAuthResponse()** (8 connections) — `src/data/auth.js`
-- **requestOtp()** (8 connections) — `src/data/auth.js`
-- **firebaseAuthLogin()** (7 connections) — `src/data/auth.js`
-- **login()** (7 connections) — `src/data/auth.js`
-- **firebase.js** (7 connections) — `src/data/firebase.js`
-- **sendFirebasePhoneOtp()** (7 connections) — `src/data/firebase.js`
-- **googleLogin()** (6 connections) — `src/data/auth.js`
-- **signup()** (6 connections) — `src/data/auth.js`
-- **verifyOtp()** (6 connections) — `src/data/auth.js`
-- **OtpStep()** (6 connections) — `src/pages/Login.jsx`
-- **applyAsDealer()** (5 connections) — `src/data/auth.js`
-- **fetchMe()** (5 connections) — `src/data/auth.js`
-- **logout()** (5 connections) — `src/data/auth.js`
-- **lookupStaffCode()** (5 connections) — `src/data/auth.js`
-- **staffSignup()** (5 connections) — `src/data/auth.js`
-- **Identify()** (5 connections) — `src/pages/Login.jsx`
-- **persistTokens()** (4 connections) — `src/data/auth.js`
-- **staffApprove()** (4 connections) — `src/data/auth.js`
-- **staffDelete()** (4 connections) — `src/data/auth.js`
-- **staffHold()** (4 connections) — `src/data/auth.js`
-- *... and 29 more nodes in this community*
+- **constructor()** (20 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **getImmediate()** (16 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **cd()** (15 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **hh()** (11 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **initialize()** (11 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **Do()** (9 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **isInitialized()** (9 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **jf()** (9 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **addComponent()** (8 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **getProvider()** (8 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **_key()** (8 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **triggerHeartbeat()** (8 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **co()** (7 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **dh()** (7 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **_openPopup()** (7 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **uh()** (7 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **wo()** (7 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **_getAppCheckToken()** (6 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **getOrInitializeService()** (6 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **normalizeInstanceIdentifier()** (6 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **onExecution()** (6 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **setComponent()** (6 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **addOrOverwriteComponent()** (5 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **fo()** (5 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- **gh()** (5 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- *... and 35 more nodes in this community*
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (16 shared connections)
-- [[Community 131]] (14 shared connections)
-- [[Community 52]] (9 shared connections)
-- [[Community 37]] (2 shared connections)
-- [[Community 123]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (78 shared connections)
+- [[Product Pages Specification]] (35 shared connections)
+- [[Product Requirements Documentation]] (18 shared connections)
+- [[Pricing Regression Test Suite]] (12 shared connections)
+- [[Master Codebase Architecture Reference]] (6 shared connections)
+- [[Vercel Deployment Routing]] (5 shared connections)
+- [[Community 39]] (4 shared connections)
 
 ## Source Files
 
-- `src/data/auth.js`
-- `src/data/firebase.js`
-- `src/pages/DealerDashboard.jsx`
-- `src/pages/Login.jsx`
+- `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
 
 ## Audit Trail
 
-- EXTRACTED: 326 (100%)
+- EXTRACTED: 334 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

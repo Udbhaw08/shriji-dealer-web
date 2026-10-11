@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **Package.swift** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
-- **PackageDescription** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
+- **esm-CThVYjsQ.js** (1 connections) — `ios/App/App/public/assets/esm-CThVYjsQ.js`
+- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-CThVYjsQ.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `ios/App/CapApp-SPM/Package.swift`
+- `ios/App/App/public/assets/esm-CThVYjsQ.js`
 
 ## Audit Trail
 

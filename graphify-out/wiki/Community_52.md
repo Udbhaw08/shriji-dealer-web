@@ -1,58 +1,52 @@
 # Community 52
 
-> 29 nodes · cohesion 0.13
+> 24 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **Products.jsx** (25 connections) — `src/pages/Products.jsx`
-- **productsStore.js** (19 connections) — `src/data/productsStore.js`
-- **ProductSearchBar.jsx** (15 connections) — `src/components/ProductSearchBar.jsx`
-- **apiFetch()** (12 connections) — `src/data/api.js`
-- **useProducts()** (12 connections) — `src/data/productsStore.js`
-- **searchHelper.js** (11 connections) — `src/data/searchHelper.js`
-- **apiUrl()** (9 connections) — `src/data/api.js`
-- **api.js** (7 connections) — `src/data/api.js`
-- **ProductSearchBar()** (6 connections) — `src/components/ProductSearchBar.jsx`
-- **getSuggestions()** (5 connections) — `src/data/searchHelper.js`
-- **fetchLiveProducts()** (4 connections) — `src/data/productsStore.js`
-- **autocorrectQuery()** (4 connections) — `src/data/searchHelper.js`
-- **buildSearchDictionary()** (4 connections) — `src/data/searchHelper.js`
-- **products.js** (3 connections) — `src/data/products.js`
-- **CATEGORIES** (2 connections) — `src/data/products.js`
-- **emit()** (2 connections) — `src/data/productsStore.js`
-- **loadCached()** (2 connections) — `src/data/productsStore.js`
-- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
-- **useProduct()** (2 connections) — `src/data/productsStore.js`
-- **getPopularSearches()** (2 connections) — `src/data/searchHelper.js`
-- **scoreProduct()** (2 connections) — `src/data/searchHelper.js`
-- **PRODUCTS** (1 connections) — `src/data/products.js`
-- **listeners** (1 connections) — `src/data/productsStore.js`
-- **PREFERRED_ORDER** (1 connections) — `src/data/productsStore.js`
-- **storeState** (1 connections) — `src/data/productsStore.js`
-- *... and 4 more nodes in this community*
+- **preview.mjs** (23 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **startPreview()** (10 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **cli-output-types.test.mjs** (10 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **runPreview()** (3 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **compactMessage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **initialAuthoredOutput()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **previewPage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **redactDiagnostic()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **sha256()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **sourceDigest()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **cliPath** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **diagramTypes** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **here** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **parseReceipt()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **responseHeaders()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **safeJson()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **architecture** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **base** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **head** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **root** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **workflow** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **workspace()** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (19 shared connections)
-- [[Community 37]] (17 shared connections)
-- [[Live Pricing Audit Tool]] (9 shared connections)
-- [[Community 131]] (6 shared connections)
-- [[Community 123]] (2 shared connections)
-- [[Community 122]] (1 shared connections)
+- [[Community 158]] (3 shared connections)
+- [[Community 76]] (3 shared connections)
+- [[Community 41]] (2 shared connections)
+- [[Community 134]] (2 shared connections)
+- [[Community 194]] (2 shared connections)
+- [[Community 155]] (2 shared connections)
 
 ## Source Files
 
-- `src/components/ProductSearchBar.jsx`
-- `src/data/api.js`
-- `src/data/products.js`
-- `src/data/productsStore.js`
-- `src/data/searchHelper.js`
-- `src/pages/Products.jsx`
+- `.agents/skills/archify/bin/preview.mjs`
+- `.agents/skills/archify/test/cli-output-types.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 158 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 71 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

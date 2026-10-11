@@ -1,36 +1,34 @@
 # Community 110
 
-> 13 nodes · cohesion 0.15
+> 12 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **architecture-delta.test.mjs** (16 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **ArchitectureDeltaError** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **.constructor()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **baseFixture** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **checkedArtifact** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **checkedReceipt** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **headFixture** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **read()** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **additionalProperties** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **required** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **messages** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **activations** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- [[Community 56]] (4 shared connections)
-- [[Community 92]] (2 shared connections)
+- [[Community 63]] (4 shared connections)
+- [[Community 70]] (4 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
-- `.agents/skills/archify/test/architecture-delta.test.mjs`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

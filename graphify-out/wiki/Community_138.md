@@ -1,31 +1,30 @@
 # Community 138
 
-> 10 nodes · cohesion 0.20
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **entries** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **legend** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **properties** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **mode** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **properties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **web-FOzzSH9x.js** (8 connections) — `android/app/src/main/assets/public/assets/web-FOzzSH9x.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-FOzzSH9x.js`
+- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-FOzzSH9x.js`
+- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-FOzzSH9x.js`
+- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-FOzzSH9x.js`
+- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-FOzzSH9x.js`
+- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-FOzzSH9x.js`
+- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-FOzzSH9x.js`
+- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-FOzzSH9x.js`
 
 ## Relationships
 
-- [[Community 63]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/sequence.schema.json`
+- `android/app/src/main/assets/public/assets/web-FOzzSH9x.js`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

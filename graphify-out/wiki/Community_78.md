@@ -1,41 +1,38 @@
 # Community 78
 
-> 20 nodes · cohesion 0.10
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **Authoring contract** (12 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Mode placement** (6 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Executable geometry rules** (3 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **authoring-contract.md** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Architecture** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Dataflow** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Engineering profile default** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Hand-placed fallback** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Language consistency** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Legend contract** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Lifecycle** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Repair order** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Repository evidence** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Schema lookup** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Sequence** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Spacing and labels** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Title hierarchy** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Visual preset default** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Workflow** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Workflow layout contracts** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **pricing.test.mjs** (19 connections) — `src/data/pricing.test.mjs`
+- **crystal** (1 connections) — `src/data/pricing.test.mjs`
+- **crystalDealer** (1 connections) — `src/data/pricing.test.mjs`
+- **crystalGuest** (1 connections) — `src/data/pricing.test.mjs`
+- **genericDealer** (1 connections) — `src/data/pricing.test.mjs`
+- **genericGuest** (1 connections) — `src/data/pricing.test.mjs`
+- **genericItem** (1 connections) — `src/data/pricing.test.mjs`
+- **kettle** (1 connections) — `src/data/pricing.test.mjs`
+- **kettleDealer** (1 connections) — `src/data/pricing.test.mjs`
+- **kettleGuest** (1 connections) — `src/data/pricing.test.mjs`
+- **tcjDealer** (1 connections) — `src/data/pricing.test.mjs`
+- **tcjGuest** (1 connections) — `src/data/pricing.test.mjs`
+- **tripleCookJumbo** (1 connections) — `src/data/pricing.test.mjs`
+- **vernaGuest** (1 connections) — `src/data/pricing.test.mjs`
+- **vernaPlus** (1 connections) — `src/data/pricing.test.mjs`
+- **zeroItem** (1 connections) — `src/data/pricing.test.mjs`
+- **zeroPricedResult** (1 connections) — `src/data/pricing.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 34]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/references/authoring-contract.md`
+- `src/data/pricing.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
+- EXTRACTED: 35 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,13 +1,12 @@
 # Community 252
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **proof-aperture.test.mjs** (3 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
-- **cssRule()** (1 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
-- **landing** (1 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
+- **MainActivity.java** (2 connections) — `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
+- **MainActivity** (2 connections) — `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
+- **BridgeActivity** (2 connections)
 
 ## Relationships
 
@@ -15,7 +14,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/proof-aperture.test.mjs`
+- `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
 
 ## Audit Trail
 

@@ -1,34 +1,31 @@
 # Community 126
 
-> 11 nodes · cohesion 0.18
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **properties** (9 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **note** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **title** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **dot** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **id** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **maxLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **minLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **Viewer Runtime reference** (6 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Canonical exports** (4 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **viewer-runtime.md** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Exploration** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Guided views and story** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Motion and presentation** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Reach Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Route Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Truth boundary** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
 
 ## Relationships
 
-- [[Community 151]] (3 shared connections)
-- [[Community 229]] (1 shared connections)
-- [[Community 125]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/archify/references/viewer-runtime.md`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

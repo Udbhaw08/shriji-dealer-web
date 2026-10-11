@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **cordova.js** (0 connections) — `ios/App/App/public/cordova.js`
+- **architecture** (0 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/cordova.js`
+- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
 
 ## Audit Trail
 

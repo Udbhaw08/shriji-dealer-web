@@ -1,41 +1,41 @@
 # Community 82
 
-> 19 nodes · cohesion 0.12
+> 16 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **golden.mjs** (18 connections) — `.agents/skills/archify/test/golden.mjs`
-- **expectFailure()** (3 connections) — `.agents/skills/archify/test/golden.mjs`
-- **check()** (2 connections) — `.agents/skills/archify/test/golden.mjs`
-- **render()** (2 connections) — `.agents/skills/archify/test/golden.mjs`
-- **blocks()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **GOLDEN** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **landingPage** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **landingVersions** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **lock** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **normalizeNewlines()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **pkg** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **shieldsBadgeMessages()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **skillMd** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **webApp** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **compareArchitecture()** (12 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **fail()** (8 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **canonicalArchitecture()** (5 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryIndex()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **canonicalArchitectureJson()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **equal()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **normalizeRepository()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **canonical()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **extractArchitectureSvg()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **extractArtifactCss()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **presentationChanged()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **requireComparableShape()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **stableIndex()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryKey()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **sortedBy()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **summaryFor()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 50]] (18 shared connections)
+- [[Community 180]] (4 shared connections)
+- [[Community 102]] (2 shared connections)
+- [[Community 112]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/golden.mjs`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 61 (94%)
+- INFERRED: 4 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

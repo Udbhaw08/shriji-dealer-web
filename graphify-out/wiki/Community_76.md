@@ -1,44 +1,44 @@
 # Community 76
 
-> 20 nodes · cohesion 0.15
+> 18 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **buildDeltaSvg()** (16 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **annotateArchitectureSideSvg()** (9 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundaryElements()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **edgeSymbolMarkup()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **markerFor()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **addNodeMarker()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundaryChangeMap()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundaryMarkupByKey()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundaryMarkupParts()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundarySymbolMarkup()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **changeMap()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **elementById()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **forceElementState()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **nodeGroupRanges()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **prefixSvgIds()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **staticize()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **transformBoundaryElements()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **transformNodeGroups()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **forceBoundaryState()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **viewBoxSize()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **output-path.mjs** (22 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **resolveOutputPath()** (11 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **futurePathsAlias()** (6 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **pathsAlias()** (6 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **canonicalFuturePath()** (5 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **sameFileIdentity()** (5 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **probeDirectorySemantics()** (4 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **canonicalize()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **directoryIdentityKey()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **hasFileIdentity()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **pathIsInside()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **probeNamesAlias()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **sameDirectory()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **nearestExistingDirectory()** (2 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **OutputPathError** (2 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **splitAbsolute()** (2 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **directorySemanticsCache** (1 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
 
 ## Relationships
 
-- [[Community 56]] (20 shared connections)
-- [[Community 187]] (2 shared connections)
-- [[Pricing & Roles Skill]] (2 shared connections)
+- [[Community 41]] (4 shared connections)
+- [[Architecture Doc Generator]] (4 shared connections)
+- [[Community 52]] (3 shared connections)
+- [[Community 180]] (2 shared connections)
+- [[Community 134]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
+- `.agents/skills/archify/renderers/shared/output-path.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 82 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,30 +1,28 @@
 # Community 71
 
-> 21 nodes · cohesion 0.10
+> 19 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **package.json** (9 connections) — `backend/package.json`
-- **dependencies** (7 connections) — `backend/package.json`
-- **scripts** (5 connections) — `backend/package.json`
-- **engines** (2 connections) — `backend/package.json`
-- **dotenv** (1 connections) — `backend/package.json`
-- **express** (1 connections) — `backend/package.json`
-- **google-auth-library** (1 connections) — `backend/package.json`
-- **jsonwebtoken** (1 connections) — `backend/package.json`
-- **postgres** (1 connections) — `backend/package.json`
-- **resend** (1 connections) — `backend/package.json`
-- **description** (1 connections) — `backend/package.json`
-- **node** (1 connections) — `backend/package.json`
-- **main** (1 connections) — `backend/package.json`
-- **name** (1 connections) — `backend/package.json`
-- **private** (1 connections) — `backend/package.json`
-- **dev** (1 connections) — `backend/package.json`
-- **migrate** (1 connections) — `backend/package.json`
-- **start** (1 connections) — `backend/package.json`
-- **test** (1 connections) — `backend/package.json`
-- **type** (1 connections) — `backend/package.json`
-- **version** (1 connections) — `backend/package.json`
+- **golden.mjs** (18 connections) — `.agents/skills/archify/test/golden.mjs`
+- **expectFailure()** (3 connections) — `.agents/skills/archify/test/golden.mjs`
+- **check()** (2 connections) — `.agents/skills/archify/test/golden.mjs`
+- **render()** (2 connections) — `.agents/skills/archify/test/golden.mjs`
+- **blocks()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **GOLDEN** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **landingPage** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **landingVersions** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **lock** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **normalizeNewlines()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **pkg** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **shieldsBadgeMessages()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **skillMd** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **webApp** (1 connections) — `.agents/skills/archify/test/golden.mjs`
 
 ## Relationships
 
@@ -32,7 +30,7 @@
 
 ## Source Files
 
-- `backend/package.json`
+- `.agents/skills/archify/test/golden.mjs`
 
 ## Audit Trail
 

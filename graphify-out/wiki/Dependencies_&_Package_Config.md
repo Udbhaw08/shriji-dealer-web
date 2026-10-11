@@ -1,57 +1,66 @@
 # Dependencies & Package Config
 
-> 79 nodes · cohesion 0.05
+> 106 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **get()** (49 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **np()** (21 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **w()** (19 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **qs()** (17 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **getImmediate()** (16 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **ju()** (15 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **tf()** (15 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **bm()** (13 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **km()** (13 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **tu()** (12 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **hn()** (11 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **hu()** (11 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **zs()** (11 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **initialize()** (10 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **Md()** (10 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **rm()** (10 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **ru()** (10 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **wu()** (10 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **am()** (9 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **dh()** (9 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **isInitialized()** (9 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **om()** (9 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **zl()** (9 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **zu()** (9 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- **addComponent()** (8 connections) — `ios/App/App/public/assets/index-DxTMC5SR.js`
-- *... and 54 more nodes in this community*
+- **sql** (35 connections) — `backend/src/db/pool.js`
+- **auth.js** (32 connections) — `backend/src/routes/auth.js`
+- **server.js** (25 connections) — `backend/src/server.js`
+- **crmClient.js** (21 connections) — `backend/src/services/crmClient.js`
+- **dealers.js** (20 connections) — `backend/src/routes/dealers.js`
+- **staff.js** (18 connections) — `backend/src/services/staff.js`
+- **pool.js** (17 connections) — `backend/src/db/pool.js`
+- **catalog.js** (16 connections) — `backend/src/services/catalog.js`
+- **audit()** (14 connections) — `backend/src/utils/audit.js`
+- **logger.js** (14 connections) — `backend/src/utils/logger.js`
+- **env.js** (13 connections) — `backend/src/config/env.js`
+- **webhooks.js** (13 connections) — `backend/src/routes/webhooks.js`
+- **log** (13 connections) — `backend/src/utils/logger.js`
+- **crmPoll.js** (12 connections) — `backend/src/jobs/crmPoll.js`
+- **dealerApp.js** (12 connections) — `backend/src/services/dealerApp.js`
+- **env** (11 connections) — `backend/src/config/env.js`
+- **index.js** (11 connections) — `backend/src/jobs/index.js`
+- **commerceClient.js** (11 connections) — `backend/src/services/commerceClient.js`
+- **hash.js** (11 connections) — `backend/src/utils/hash.js`
+- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
+- **notifications.js** (9 connections) — `backend/src/services/notifications.js`
+- **auth.js** (8 connections) — `backend/src/middleware/auth.js`
+- **health.js** (8 connections) — `backend/src/routes/health.js`
+- **crmFetch()** (8 connections) — `backend/src/services/crmClient.js`
+- **errorHandler.js** (7 connections) — `backend/src/middleware/errorHandler.js`
+- *... and 81 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (106 shared connections)
-- [[Product Pages Specification]] (45 shared connections)
-- [[Product Requirements Documentation]] (24 shared connections)
-- [[Community 46]] (23 shared connections)
-- [[Zoho Integration Architecture]] (21 shared connections)
-- [[Community 41]] (21 shared connections)
-- [[Community 64]] (15 shared connections)
-- [[Testing & Workflow Skill]] (15 shared connections)
-- [[Community 70]] (11 shared connections)
-- [[Community 32]] (8 shared connections)
-- [[Community 43]] (4 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DxTMC5SR.js`
+- `backend/src/config/env.js`
+- `backend/src/db/migrate.js`
+- `backend/src/db/pool.js`
+- `backend/src/jobs/catalogSync.js`
+- `backend/src/jobs/crmPoll.js`
+- `backend/src/jobs/index.js`
+- `backend/src/middleware/auth.js`
+- `backend/src/middleware/errorHandler.js`
+- `backend/src/middleware/rateLimit.js`
+- `backend/src/routes/auth.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/routes/health.js`
+- `backend/src/routes/prices.js`
+- `backend/src/routes/webhooks.js`
+- `backend/src/server.js`
+- `backend/src/services/catalog.js`
+- `backend/src/services/commerceClient.js`
+- `backend/src/services/crmClient.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/services/notifications.js`
 
 ## Audit Trail
 
-- EXTRACTED: 591 (100%)
+- EXTRACTED: 614 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

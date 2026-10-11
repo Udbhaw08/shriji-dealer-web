@@ -1,34 +1,32 @@
 # Community 122
 
-> 11 nodes · cohesion 0.29
+> 11 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **favoritesStore.js** (18 connections) — `src/data/favoritesStore.js`
-- **persist()** (5 connections) — `src/data/favoritesStore.js`
-- **addFavorite()** (3 connections) — `src/data/favoritesStore.js`
-- **removeFavorite()** (3 connections) — `src/data/favoritesStore.js`
-- **toggleFavorite()** (3 connections) — `src/data/favoritesStore.js`
-- **clearFavorites()** (2 connections) — `src/data/favoritesStore.js`
-- **notify()** (2 connections) — `src/data/favoritesStore.js`
-- **favoritesState** (1 connections) — `src/data/favoritesStore.js`
-- **getFavorites()** (1 connections) — `src/data/favoritesStore.js`
-- **listeners** (1 connections) — `src/data/favoritesStore.js`
-- **loadFromStorage()** (1 connections) — `src/data/favoritesStore.js`
+- **readme-showcase.test.mjs** (10 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **inspectGif()** (2 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **skipSubBlocks()** (2 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **assetPath** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **git()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **receiptPath** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **writeStarHistoryCharts()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
 
 ## Relationships
 
-- [[Community 37]] (5 shared connections)
-- [[Roles & Customer Sharing Spec]] (2 shared connections)
-- [[Community 52]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/data/favoritesStore.js`
+- `.agents/skills/archify/test/readme-showcase.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

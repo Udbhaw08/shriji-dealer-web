@@ -1,40 +1,44 @@
 # Community 94
 
-> 16 nodes · cohesion 0.12
+> 14 nodes · cohesion 0.30
 
 ## Key Concepts
 
-- **properties** (8 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **meta** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **states** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **transitions** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **cards** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **schema_version** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **workflow-v2.mjs** (21 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **migrateWorkflowDocument()** (15 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **compileWorkflow()** (13 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **clone()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **legacyLayoutProbe()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **legacyRequirementProbe()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **expandableViewBox()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **requiredViewBoxFrom()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **schemaDiagnostics()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **workflow-semantic-contract.test.mjs** (3 connections) — `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
+- **diagnostic()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **result()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **serializeMigratedWorkflow()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **document()** (1 connections) — `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
 
 ## Relationships
 
-- [[Community 137]] (3 shared connections)
-- [[Community 189]] (1 shared connections)
-- [[Community 62]] (1 shared connections)
+- [[Community 179]] (8 shared connections)
+- [[Architecture Doc Generator]] (4 shared connections)
+- [[Community 64]] (4 shared connections)
+- [[Community 41]] (3 shared connections)
+- [[Community 100]] (3 shared connections)
+- [[Community 107]] (2 shared connections)
+- [[Community 48]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `.agents/skills/archify/migrations/workflow-v2.mjs`
+- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 78 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

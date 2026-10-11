@@ -1,33 +1,36 @@
 # Community 124
 
-> 11 nodes · cohesion 0.18
+> 10 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **entries** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **legend** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **mode** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **properties** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **properties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **session.js** (31 connections) — `src/data/session.js`
+- **revalidateSession()** (9 connections) — `src/data/session.js`
+- **setSession()** (6 connections) — `src/data/session.js`
+- **signOut()** (4 connections) — `src/data/session.js`
+- **hasSession()** (3 connections) — `src/data/auth.js`
+- **sessionFromAuth()** (3 connections) — `src/data/auth.js`
+- **emit()** (2 connections) — `src/data/session.js`
+- **signOutAndReload()** (2 connections) — `src/pages/Login.jsx`
+- **GUEST** (1 connections) — `src/data/session.js`
+- **subs** (1 connections) — `src/data/session.js`
 
 ## Relationships
 
-- [[Community 79]] (1 shared connections)
-- [[Community 65]] (1 shared connections)
+- [[Roles & Customer Sharing Spec]] (14 shared connections)
+- [[Pricing & Roles Skill]] (7 shared connections)
+- [[Community 34]] (7 shared connections)
+- [[Community 46]] (6 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `src/data/auth.js`
+- `src/data/session.js`
+- `src/pages/Login.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 62 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

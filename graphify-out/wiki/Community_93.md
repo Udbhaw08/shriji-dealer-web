@@ -1,39 +1,35 @@
 # Community 93
 
-> 16 nodes · cohesion 0.12
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **properties** (8 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **meta** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **nodes** (4 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **flows** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **cards** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **schema_version** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **web-CFPmARQv.js** (13 connections) — `ios/App/App/public/assets/web-CFPmARQv.js`
+- **applyPrefix()** (4 connections) — `ios/App/App/public/assets/web-CFPmARQv.js`
+- **keys()** (4 connections) — `ios/App/App/public/assets/web-CFPmARQv.js`
+- **get()** (3 connections) — `ios/App/App/public/assets/web-CFPmARQv.js`
+- **migrate()** (3 connections) — `ios/App/App/public/assets/web-CFPmARQv.js`
+- **rawKeys()** (3 connections) — `ios/App/App/public/assets/web-CFPmARQv.js`
+- **clear()** (2 connections) — `ios/App/App/public/assets/web-CFPmARQv.js`
+- **remove()** (2 connections) — `ios/App/App/public/assets/web-CFPmARQv.js`
+- **removeOld()** (2 connections) — `ios/App/App/public/assets/web-CFPmARQv.js`
+- **set()** (2 connections) — `ios/App/App/public/assets/web-CFPmARQv.js`
+- **configure()** (1 connections) — `ios/App/App/public/assets/web-CFPmARQv.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-CFPmARQv.js`
+- **impl()** (1 connections) — `ios/App/App/public/assets/web-CFPmARQv.js`
+- **prefix()** (1 connections) — `ios/App/App/public/assets/web-CFPmARQv.js`
 
 ## Relationships
 
-- [[Community 135]] (3 shared connections)
-- [[Community 188]] (1 shared connections)
-- [[Community 61]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `ios/App/App/public/assets/web-CFPmARQv.js`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

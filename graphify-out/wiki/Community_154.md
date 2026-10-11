@@ -1,18 +1,18 @@
 # Community 154
 
-> 9 nodes · cohesion 0.22
+> 9 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **generate-validators.mjs** (8 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **ajv** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **diagramTypes** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **output** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **root** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **schemaIds** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **schemasDir** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **validatorCode** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **release-identity.test.mjs** (8 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **stableUpdateManifest()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **writeFile()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **writeValidDevelopmentFixture()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **writeValidStableFixture()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **checker** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **runCheck()** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
 
 ## Relationships
 
@@ -20,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/generate-validators.mjs`
+- `.agents/skills/archify/test/release-identity.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 24 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

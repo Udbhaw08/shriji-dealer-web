@@ -1,47 +1,50 @@
 # Community 42
 
-> 35 nodes · cohesion 0.06
+> 32 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **scripts** (13 connections) — `package.json`
-- **dependencies** (11 connections) — `package.json`
-- **package.json** (7 connections) — `package.json`
-- **devDependencies** (6 connections) — `package.json`
-- **@capacitor/android** (1 connections) — `package.json`
-- **@capacitor/app** (1 connections) — `package.json`
-- **@capacitor/cli** (1 connections) — `package.json`
-- **@capacitor/core** (1 connections) — `package.json`
-- **@capacitor/ios** (1 connections) — `package.json`
-- **@capacitor/preferences** (1 connections) — `package.json`
-- **firebase** (1 connections) — `package.json`
-- **react** (1 connections) — `package.json`
-- **react-dom** (1 connections) — `package.json`
-- **react-router-dom** (1 connections) — `package.json`
-- **oxlint** (1 connections) — `package.json`
-- **@types/react** (1 connections) — `package.json`
-- **@types/react-dom** (1 connections) — `package.json`
-- **vite** (1 connections) — `package.json`
-- **@vitejs/plugin-react** (1 connections) — `package.json`
-- **name** (1 connections) — `package.json`
-- **private** (1 connections) — `package.json`
-- **build** (1 connections) — `package.json`
-- **cap:android** (1 connections) — `package.json`
-- **cap:ios** (1 connections) — `package.json`
-- **cap:sync** (1 connections) — `package.json`
-- *... and 10 more nodes in this community*
+- **check-update.mjs** (99 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **encodeRecoverableState()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **canonicalizeTrustedDirectoryPrefix()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **guardedCacheEntryRead()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **isWithinDirectory()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **notification()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **operationIsActive()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stateAfterFailedCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stateWithFailureCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertSafeCacheEntry()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cancelResponseBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **corruptClaimStatus()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **encodeBoundedState()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **eventKeyForDigest()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **metadataIsWithinLease()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **nextFailedCheck()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **readBoundedBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stateAfterAcknowledgement()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertRenameableCacheEntry()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertSafeRegularFile()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **CacheOperationRaceError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **CachePathChangedError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **defaultCacheDirectory()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **defaultReleasePath** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **FileIdentityChangedError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 37]] (39 shared connections)
+- [[Community 75]] (20 shared connections)
+- [[Community 51]] (16 shared connections)
+- [[Community 33]] (1 shared connections)
 
 ## Source Files
 
-- `package.json`
+- `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 68 (100%)
+- EXTRACTED: 158 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

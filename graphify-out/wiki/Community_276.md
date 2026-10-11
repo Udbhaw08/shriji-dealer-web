@@ -1,12 +1,11 @@
 # Community 276
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **toolbar-polish.test.mjs** (2 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
+- **Package.swift** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
+- **PackageDescription** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
 
 ## Relationships
 
@@ -14,11 +13,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/toolbar-polish.test.mjs`
+- `ios/App/CapApp-SPM/Package.swift`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

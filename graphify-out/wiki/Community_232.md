@@ -1,26 +1,27 @@
 # Community 232
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **base-input-compatibility.test.mjs** (4 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
-- **renderBaseFixture()** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
+- **da()** (5 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **oa()** (4 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **pa()** (3 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
+- **ua()** (3 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (4 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (4 shared connections)
+- [[Zoho Integration Architecture]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/base-input-compatibility.test.mjs`
+- `ios/App/App/public/assets/index-h5JnEN27.js`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 15 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
