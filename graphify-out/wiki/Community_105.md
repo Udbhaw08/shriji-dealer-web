@@ -1,36 +1,35 @@
 # Community 105
 
-> 13 nodes · cohesion 0.28
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **guided-views-browser.test.mjs** (17 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **run()** (8 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **point()** (4 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **settled()** (4 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **activate()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **hash()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **move()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **variant()** (1 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **web-Cgm5Bxs7.js** (13 connections) — `ios/App/App/public/assets/web-Cgm5Bxs7.js`
+- **applyPrefix()** (4 connections) — `ios/App/App/public/assets/web-Cgm5Bxs7.js`
+- **keys()** (4 connections) — `ios/App/App/public/assets/web-Cgm5Bxs7.js`
+- **get()** (3 connections) — `ios/App/App/public/assets/web-Cgm5Bxs7.js`
+- **migrate()** (3 connections) — `ios/App/App/public/assets/web-Cgm5Bxs7.js`
+- **rawKeys()** (3 connections) — `ios/App/App/public/assets/web-Cgm5Bxs7.js`
+- **clear()** (2 connections) — `ios/App/App/public/assets/web-Cgm5Bxs7.js`
+- **remove()** (2 connections) — `ios/App/App/public/assets/web-Cgm5Bxs7.js`
+- **removeOld()** (2 connections) — `ios/App/App/public/assets/web-Cgm5Bxs7.js`
+- **set()** (2 connections) — `ios/App/App/public/assets/web-Cgm5Bxs7.js`
+- **configure()** (1 connections) — `ios/App/App/public/assets/web-Cgm5Bxs7.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-Cgm5Bxs7.js`
+- **impl()** (1 connections) — `ios/App/App/public/assets/web-Cgm5Bxs7.js`
+- **prefix()** (1 connections) — `ios/App/App/public/assets/web-Cgm5Bxs7.js`
 
 ## Relationships
 
-- [[Community 49]] (8 shared connections)
-- [[Community 44]] (1 shared connections)
-- [[Community 91]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- `ios/App/App/public/assets/web-Cgm5Bxs7.js`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

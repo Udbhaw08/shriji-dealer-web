@@ -42,10 +42,15 @@ async function loadCatalog() {
  * Zero-price items carry price_on_request: true — a ₹0 never reaches any client.
  */
 export function priceView(viewer, products) {
+  const isStaffPriceHidden =
+    viewer?.role === 'dealer_staff' &&
+    (viewer?.can_see_dealer_price === false || viewer?.hide_staff_dealer_price === true);
+
   const dealerOk =
     viewer &&
     (viewer.role === 'dealer' || viewer.role === 'dealer_staff') &&
-    viewer.status === 'active';
+    viewer.status === 'active' &&
+    !isStaffPriceHidden;
 
   return products.map((p) => {
     const base = {

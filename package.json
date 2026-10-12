@@ -15,7 +15,9 @@
     "graphify:update": "graphify update . && python scripts/build_wiki.py",
     "cap:sync": "node scripts/generate-codebase-doc.mjs && vite build && cap sync",
     "cap:android": "cap open android",
-    "cap:ios": "cap open ios"
+    "cap:ios": "cap open ios",
+    "start:backend": "npm --prefix backend start",
+    "build:backend": "npm --prefix backend install"
   },
   "dependencies": {
     "@capacitor/android": "^8.5.2",

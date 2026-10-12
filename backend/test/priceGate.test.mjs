@@ -39,9 +39,21 @@ test('active dealer gets dealer rates, with zero → null', () => {
   assert.equal(view[2].dealer_rate, null);
 });
 
-test('active dealer_staff gets dealer rates', () => {
-  const view = priceView({ role: 'dealer_staff', status: 'active' }, CATALOG);
+test('active dealer_staff gets dealer rates when price is not hidden', () => {
+  const view = priceView({ role: 'dealer_staff', status: 'active', can_see_dealer_price: true }, CATALOG);
   assert.equal(view[0].dealer_rate, 1899);
+});
+
+test('active dealer_staff with can_see_dealer_price: false gets MRP only', () => {
+  const view = priceView({ role: 'dealer_staff', status: 'active', can_see_dealer_price: false }, CATALOG);
+  assert.equal('dealer_rate' in view[0], false);
+  assert.equal(view[0].mrp, 2499);
+});
+
+test('active dealer_staff when dealer has hide_staff_dealer_price: true gets MRP only', () => {
+  const view = priceView({ role: 'dealer_staff', status: 'active', hide_staff_dealer_price: true }, CATALOG);
+  assert.equal('dealer_rate' in view[0], false);
+  assert.equal(view[0].mrp, 2499);
 });
 
 test('zero/missing mrp is always price_on_request — never ₹0', () => {

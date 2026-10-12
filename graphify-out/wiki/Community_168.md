@@ -4,26 +4,26 @@
 
 ## Key Concepts
 
-- **route-journey.test.mjs** (7 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
+- **wraps** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **via** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Zoho API Diagnostic Script]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/route-journey.test.mjs`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

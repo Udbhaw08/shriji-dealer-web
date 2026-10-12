@@ -235,9 +235,51 @@ export async function staffRevoke(userId) {
   if (!res.ok) throw new Error((await res.json()).error || "Revoke failed");
 }
 
-export async function staffDelete(userId) {
-  const res = await callBackend(`/api/dealers/staff/${userId}/delete`, json({}));
-  if (!res.ok) throw new Error((await res.json()).error || "Delete failed");
+export async function staffDeactivate(userId) {
+  const res = await callBackend(`/api/dealers/staff/${userId}/deactivate`, json({}));
+  if (!res.ok) throw new Error((await res.json()).error || "Deactivate failed");
+  broadcastAuthChange("STAFF_UPDATED");
+}
+export const staffDelete = staffDeactivate;
+
+const AUTH_SYNC_CHANNEL = "shriji_auth_sync_channel";
+let authBroadcastChannel = null;
+
+if (typeof window !== "undefined" && typeof BroadcastChannel !== "undefined") {
+  try {
+    authBroadcastChannel = new BroadcastChannel(AUTH_SYNC_CHANNEL);
+  } catch {}
+}
+
+export function broadcastAuthChange(type = "AUTH_UPDATED") {
+  if (authBroadcastChannel) {
+    try {
+      authBroadcastChannel.postMessage({ type, timestamp: Date.now() });
+    } catch {}
+  }
+}
+
+export function onAuthBroadcast(cb) {
+  if (!authBroadcastChannel) return () => {};
+  const handler = (e) => cb(e?.data);
+  authBroadcastChannel.addEventListener("message", handler);
+  return () => authBroadcastChannel.removeEventListener("message", handler);
+}
+
+export async function staffTogglePrice(userId, canSeeDealerPrice) {
+  const res = await callBackend(`/api/dealers/staff/${userId}/toggle-price`, json({ can_see_dealer_price: canSeeDealerPrice }));
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.message || data.error || "Toggle price visibility failed");
+  broadcastAuthChange("STAFF_PRICE_TOGGLED");
+  return data;
+}
+
+export async function staffTogglePriceAll(canSeeDealerPrice) {
+  const res = await callBackend("/api/dealers/staff/toggle-price-all", json({ can_see_dealer_price: canSeeDealerPrice }));
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.message || data.error || "Toggle all staff price visibility failed");
+  broadcastAuthChange("STAFF_PRICE_TOGGLED");
+  return data;
 }
 
 export async function logout() {
@@ -251,6 +293,14 @@ export async function logout() {
   accessToken = null;
   currentRefreshToken = null;
   await persistTokens();
+  broadcastAuthChange("AUTH_UPDATED");
+}
+
+export async function syncDealerWithCrm() {
+  const res = await callBackend("/api/dealers/sync-crm", { method: "POST" });
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.message || data.error || "Sync failed");
+  return data;
 }
 
 export function sessionFromAuth(user, dealer) {
@@ -259,6 +309,11 @@ export function sessionFromAuth(user, dealer) {
   const dealerStatus = isStaffInactive
     ? user.status
     : dealer?.status || (isDealerSide ? (dealer ? dealer.status : "pending") : "approved");
+
+  const canSeeDealerPrice =
+    user.role === "dealer" ||
+    (user.role === "dealer_staff" && user.can_see_dealer_price !== false && !dealer?.hide_staff_dealer_price);
+
   return {
     role: isDealerSide ? "dealer" : "customer",
     status: isDealerSide ? dealerStatus : "approved",
@@ -273,6 +328,11 @@ export function sessionFromAuth(user, dealer) {
           city: null,
           status: dealerStatus,
           dealer_code: dealer.dealer_code,
+          price_tier: dealer.price_tier || null,
+          pricebookId: dealer.pricebook_id || dealer.pricebookId || dealer.price_tier || null,
+          gst_number: dealer.gst_number || null,
+          gst_treatment: dealer.gst_treatment || null,
+          hide_staff_dealer_price: Boolean(dealer.hide_staff_dealer_price),
         }
       : null,
     email: user.email,
@@ -280,5 +340,6 @@ export function sessionFromAuth(user, dealer) {
     authRole: user.role, // customer | dealer | dealer_staff — the backend's real role
     staffPending: user.role === "dealer_staff" && user.status === "pending",
     staffHold: user.role === "dealer_staff" && user.status === "hold",
+    canSeeDealerPrice,
   };
 }

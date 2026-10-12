@@ -1,30 +1,32 @@
 # Community 138
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **web-FOzzSH9x.js** (8 connections) — `android/app/src/main/assets/public/assets/web-FOzzSH9x.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-FOzzSH9x.js`
-- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-FOzzSH9x.js`
-- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-FOzzSH9x.js`
-- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-FOzzSH9x.js`
-- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-FOzzSH9x.js`
-- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-FOzzSH9x.js`
-- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-FOzzSH9x.js`
-- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-FOzzSH9x.js`
+- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **stages** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **additionalProperties** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **required** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Testing & Workflow Skill]] (3 shared connections)
+- [[Community 96]] (3 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/web-FOzzSH9x.js`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

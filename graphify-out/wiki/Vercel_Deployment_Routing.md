@@ -1,54 +1,60 @@
 # Vercel Deployment Routing
 
-> 41 nodes · cohesion 0.07
+> 42 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **bd()** (14 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **xd()** (14 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **em()** (12 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **le()** (12 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **nm()** (11 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **pm()** (11 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **dt()** (10 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **ne()** (9 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **sm()** (9 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **ee()** (8 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **bf()** (7 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **tm()** (7 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **ut()** (7 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **af()** (6 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **ce()** (6 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **cm()** (6 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **dp()** (6 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **lp()** (6 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **md()** (6 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **te()** (6 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **ye()** (6 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **ff()** (5 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **fm()** (5 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **rf()** (5 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **se()** (5 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- *... and 16 more nodes in this community*
+- **brand-marks.mjs** (51 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **brand-marks.test.mjs** (15 connections) — `.agents/skills/archify/test/brand-marks.test.mjs`
+- **captureRemoteBrand()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **captureBrandReference()** (6 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **commandBrands()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **findBrandMark()** (5 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **checkedFetch()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **isPrivateBrandAddress()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **resolveRequestTarget()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **asUrl()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **iconCandidates()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **imageData()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **ipv4Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **ipv6Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **lookupForms()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **readLimited()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **validateUrlShape()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **generated-brand-marks.mjs** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
+- **BRAND_MARKS** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
+- **attribute()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **beforeDeadline()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **domainMark()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **listBrandMarks()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **remoteBrand()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **requestPinned()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (51 shared connections)
-- [[Product Pages Specification]] (26 shared connections)
-- [[Pricing Regression Test Suite]] (20 shared connections)
-- [[Product Requirements Documentation]] (12 shared connections)
-- [[Community 39]] (10 shared connections)
-- [[Master Codebase Architecture Reference]] (7 shared connections)
-- [[Live Pricing Audit Tool]] (5 shared connections)
+- [[Project Readme & Layout]] (7 shared connections)
+- [[Architecture Doc Generator]] (7 shared connections)
+- [[Community 53]] (2 shared connections)
+- [[Community 35]] (1 shared connections)
+- [[Community 99]] (1 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (1 shared connections)
+- [[Community 44]] (1 shared connections)
+- [[Community 39]] (1 shared connections)
+- [[Zoho Integration Architecture]] (1 shared connections)
+- [[Community 72]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- `.agents/skills/archify/bin/archify.mjs`
+- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
+- `.agents/skills/archify/test/brand-marks.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 253 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 157 (98%)
+- INFERRED: 4 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -54,34 +54,41 @@ export default function Product() {
 
   const pid = params.get("pid");
 
+  const canSeePrice = session?.canSeeDealerPrice !== false;
+
   useEffect(() => {
     const lookupKey = pid || id;
     if (lookupKey) {
-      apiFetch(`/api/products/${encodeURIComponent(lookupKey)}`)
+      const targetPb = canSeePrice ? (session?.dealer?.pricebookId || session?.dealer?.price_tier || "") : "";
+      const pbParam = targetPb ? `?pricebook_id=${encodeURIComponent(targetPb)}` : "";
+      apiFetch(`/api/products/${encodeURIComponent(lookupKey)}${pbParam}`)
         .then((r) => r.json())
         .then((data) => {
           if (data.ok && data.product) setFetchedProduct(data.product);
         })
         .catch(() => {});
     }
-  }, [id, pid]);
+  }, [id, pid, session?.dealer?.pricebookId, session?.dealer?.price_tier, canSeePrice]);
 
   const p = useMemo(() => {
-    if (fetchedProduct) return fetchedProduct;
-    if (pid) {
-      const matchPid = PRODUCTS.find((x) => x.id === pid);
-      if (matchPid) return matchPid;
+    let base = fetchedProduct;
+    if (!base && pid) {
+      base = PRODUCTS.find((x) => x.id === pid);
     }
-    return (
-      PRODUCTS.find(
+    if (!base) {
+      base = PRODUCTS.find(
         (x) =>
           x.id === id ||
           x.slug === id ||
           slugifyProduct(x.name) === id ||
           slugifyProduct(x.model) === id
-      ) || null
-    );
-  }, [fetchedProduct, PRODUCTS, id, pid]);
+      ) || null;
+    }
+    if (base && !canSeePrice && base.dealerRate) {
+      return { ...base, dealerRate: null };
+    }
+    return base;
+  }, [fetchedProduct, PRODUCTS, id, pid, canSeePrice]);
 
   useEffect(() => {
     if (p) {
@@ -542,7 +549,13 @@ export default function Product() {
               ))}
             </div>
 
-            <PriceBlock p={p} customerView={customerView} dealer={me} sharedBy={sharedBy} />
+            <PriceBlock
+              p={p}
+              customerView={customerView}
+              dealer={me}
+              sharedBy={sharedBy}
+              canSeeDealerPrice={session?.canSeeDealerPrice !== false}
+            />
 
             {!customerView && (
               <div className="actions" style={{ display: "grid", gap: "var(--s3)", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))" }}>

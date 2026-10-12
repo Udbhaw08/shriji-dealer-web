@@ -1,54 +1,61 @@
 # Community 39
 
-> 32 nodes · cohesion 0.12
+> 33 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **sd()** (18 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **tp()** (18 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **kd()** (15 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **sp()** (12 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **td()** (12 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **ip()** (10 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **p()** (10 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **li()** (9 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **bp()** (8 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **_getIdTokenResponse()** (8 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **_getReauthenticationResolver()** (8 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **_linkToIdToken()** (8 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **mt()** (8 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **np()** (8 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **xp()** (8 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **m()** (6 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **nt()** (6 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **pt()** (6 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **buildRequest()** (5 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **_forOperation()** (5 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **gp()** (5 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **_buildIdpRequest()** (4 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **_makeVerificationRequest()** (4 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **op()** (4 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **rt()** (4 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- *... and 7 more nodes in this community*
+- **render-lifecycle.mjs** (81 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **svgAccessibleText()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **svgRootAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **renderDefinitions()** (11 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **resolveLegend()** (10 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **pathFor()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderSvg()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderTransitionLabel()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderLegend()** (6 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderBands()** (5 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **bandFor()** (3 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **bandTitles()** (3 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **lifecycleAreaBottom()** (3 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **legendY()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **measureState()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderLifecycleRail()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **routeVia()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **automaticPorts** (1 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **laneLabels** (1 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (47 shared connections)
-- [[Master Codebase Architecture Reference]] (14 shared connections)
-- [[Pricing Regression Test Suite]] (12 shared connections)
-- [[Product Requirements Documentation]] (12 shared connections)
-- [[Product Pages Specification]] (11 shared connections)
-- [[Vercel Deployment Routing]] (10 shared connections)
-- [[Live Pricing Audit Tool]] (4 shared connections)
+- [[Zoho Integration Architecture]] (34 shared connections)
+- [[Project Readme & Layout]] (29 shared connections)
+- [[Community 44]] (14 shared connections)
+- [[Community 72]] (12 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (8 shared connections)
+- [[Community 53]] (8 shared connections)
+- [[Architecture Doc Generator]] (7 shared connections)
+- [[Vercel Deployment Routing]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- `.agents/skills/archify/renderers/shared/cli.mjs`
+- `.agents/skills/archify/renderers/shared/legend.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 228 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 215 (98%)
+- INFERRED: 4 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

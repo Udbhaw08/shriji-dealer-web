@@ -250,6 +250,19 @@ export async function findDealerByPhone(rawPhone) {
     return null;
   }
 
+  // Sort contacts: prioritize active accounts, CRM-linked accounts, and latest modified records
+  contacts.sort((a, b) => {
+    const aActive = a.status === "active" ? 1 : 0;
+    const bActive = b.status === "active" ? 1 : 0;
+    if (aActive !== bActive) return bActive - aActive;
+
+    const aCrm = a.is_linked_with_zohocrm ? 1 : 0;
+    const bCrm = b.is_linked_with_zohocrm ? 1 : 0;
+    if (aCrm !== bCrm) return bCrm - aCrm;
+
+    return (b.last_modified_time || b.created_time || "").localeCompare(a.last_modified_time || a.created_time || "");
+  });
+
   // Fetch full contact record to get accurate pricebook & portal status
   return await getDealerById(contacts[0].contact_id);
 }
@@ -294,6 +307,8 @@ export async function getDealerById(contactId) {
 export async function createDealerContact({ shop, person, phone, email, city, gst }) {
   const token = await getAccessToken();
   const { dc, orgId } = getZohoConfig();
+  const env = loadEnv();
+  const defaultPricebookId = env.ZOHO_DEALER_PRICEBOOK_ID || "3334672000000547177";
 
   const cleanPhone = String(phone).replace(/\D/g, "").slice(-10);
 
@@ -304,6 +319,7 @@ export async function createDealerContact({ shop, person, phone, email, city, gs
     customer_sub_type: "business",
     contact_type: "customer",
     status: "inactive", // inactive until approved by admin in Zoho
+    pricebook_id: defaultPricebookId,
     notes: `Dealer Application from Website Portal\nShop: ${shop}\nPerson: ${person}\nCity: ${city || "N/A"}\nGST: ${gst || "N/A"}`,
     billing_address: {
       city: city || "",
@@ -369,9 +385,12 @@ export async function createDealerContact({ shop, person, phone, email, city, gs
 
 // ---------------- Live Zoho Commerce Catalog Fetcher ---------------- //
 
-let cachedProducts = null;
-let productsCacheTime = 0;
+let cachedRawProducts = null;
+let rawProductsCacheTime = 0;
+const cachedProductsByPricebook = new Map();
+const cachedPricebooks = new Map();
 let cachedCategories = null;
+let categoriesCacheTime = 0;
 
 export function slugifyProduct(nameOrProduct) {
   if (!nameOrProduct) return "";
@@ -407,8 +426,6 @@ function parseRate(val) {
   return isNaN(n) ? 0 : n;
 }
 
-let cachedPricebooks = new Map();
-let pricebooksCacheTime = 0;
 
 /**
  * Fetch all available pricebooks live from Zoho Commerce Store API:
@@ -424,18 +441,37 @@ export async function fetchZohoPricebooks({ refresh = false } = {}) {
   return data.pricebooks || [];
 }
 
+export async function resolvePricebookId(tierOrId) {
+  if (!tierOrId) return "3334672000000547177";
+  const clean = String(tierOrId).trim();
+  if (/^\d{10,}$/.test(clean)) return clean;
+  try {
+    const pbs = await fetchZohoPricebooks();
+    const match = pbs.find(
+      (p) =>
+        String(p.name || "").toLowerCase() === clean.toLowerCase() ||
+        String(p.pricebook_id) === clean
+    );
+    if (match) return String(match.pricebook_id);
+  } catch {}
+  return "3334672000000547177";
+}
+
 /**
  * Fetch all item wholesale rates live from a Zoho Commerce Pricebook:
  * GET https://commerce.zoho.in/store/api/v1/pricebooks/{pricebook_id}
  */
 export async function fetchZohoPricebookItems(pricebookId = "3334672000000547177", { refresh = false } = {}) {
+  const resolvedId = await resolvePricebookId(pricebookId);
+  const pbId = String(resolvedId || "3334672000000547177").trim();
   const now = Date.now();
-  if (!refresh && cachedPricebooks.has(pricebookId) && now - pricebooksCacheTime < 60000) {
-    return cachedPricebooks.get(pricebookId);
+  const cached = cachedPricebooks.get(pbId);
+  if (!refresh && cached && now - cached.time < 60000) {
+    return cached.rates;
   }
 
   const { dc, orgId } = getZohoConfig();
-  const url = `https://commerce.zoho.${dc}/store/api/v1/pricebooks/${pricebookId}`;
+  const url = `https://commerce.zoho.${dc}/store/api/v1/pricebooks/${pbId}`;
   const res = await fetchZohoWithRetry(url, {
     headers: { "X-com-zoho-store-organizationid": orgId },
   });
@@ -449,8 +485,7 @@ export async function fetchZohoPricebookItems(pricebookId = "3334672000000547177
     }
   }
 
-  cachedPricebooks.set(pricebookId, rateMap);
-  pricebooksCacheTime = now;
+  cachedPricebooks.set(pbId, { rates: rateMap, time: now });
   return rateMap;
 }
 
@@ -556,7 +591,7 @@ function normalizeProduct(p, livePricebookRates = {}) {
 
 export async function fetchZohoCategories({ refresh = false } = {}) {
   const now = Date.now();
-  if (!refresh && cachedCategories && now - productsCacheTime < 30000) {
+  if (!refresh && cachedCategories && now - categoriesCacheTime < 60000) {
     return cachedCategories;
   }
 
@@ -601,59 +636,71 @@ export async function fetchZohoCategories({ refresh = false } = {}) {
   });
 
   cachedCategories = categories;
+  categoriesCacheTime = now;
   return categories;
 }
 
 export async function fetchZohoProducts({ refresh = false, pricebookId = "3334672000000547177" } = {}) {
+  const resolvedId = await resolvePricebookId(pricebookId);
+  const pbId = String(resolvedId || "3334672000000547177").trim();
   const now = Date.now();
-  if (!refresh && cachedProducts && now - productsCacheTime < 30000) {
-    return cachedProducts;
+
+  const cachedEntry = cachedProductsByPricebook.get(pbId);
+  if (!refresh && cachedEntry && now - cachedEntry.time < 30000) {
+    return cachedEntry.products;
   }
 
   const { dc, orgId } = getZohoConfig();
 
-  // Fetch live products and live pricebook in parallel from Zoho Commerce API
-  const [livePricebookRates] = await Promise.all([
-    fetchZohoPricebookItems(pricebookId, { refresh }),
-  ]);
+  // 1. Fetch raw products if not cached or if refresh requested
+  let activeProducts = cachedRawProducts;
+  if (refresh || !activeProducts || now - rawProductsCacheTime >= 60000) {
+    const allProducts = [];
+    let page = 1;
+    let hasMore = true;
 
-  const allProducts = [];
-  let page = 1;
-  let hasMore = true;
+    while (hasMore) {
+      const url = `https://commerce.zoho.${dc}/store/api/v1/products?page=${page}&per_page=200`;
+      const res = await fetchZohoWithRetry(url, {
+        headers: {
+          "X-com-zoho-store-organizationid": orgId,
+        },
+      });
 
-  while (hasMore) {
-    const url = `https://commerce.zoho.${dc}/store/api/v1/products?page=${page}&per_page=200`;
-    const res = await fetchZohoWithRetry(url, {
-      headers: {
-        "X-com-zoho-store-organizationid": orgId,
-      },
-    });
+      const data = await res.json();
+      const batch = data.products || [];
+      allProducts.push(...batch);
 
-    const data = await res.json();
-    const batch = data.products || [];
-    allProducts.push(...batch);
+      hasMore = Boolean(data.page_context?.has_more_page);
+      page += 1;
+      if (page > 10) break; // safety break
+    }
 
-    hasMore = Boolean(data.page_context?.has_more_page);
-    page += 1;
-    if (page > 10) break; // safety break
+    activeProducts = allProducts.filter((p) => p.status === "active" && !p.name.toLowerCase().startsWith("scheme "));
+    cachedRawProducts = activeProducts;
+    rawProductsCacheTime = now;
   }
 
-  // Filter out inactive draft listings
-  const activeProducts = allProducts.filter((p) => p.status === "active" && !p.name.toLowerCase().startsWith("scheme "));
+  // 2. Fetch pricebook rates for THIS specific pricebookId
+  const livePricebookRates = await fetchZohoPricebookItems(pbId, { refresh });
+
+  // 3. Normalize products with this specific pricebook's wholesale rates
   const normalized = activeProducts.map((p) => normalizeProduct(p, livePricebookRates));
 
-  cachedProducts = normalized;
-  productsCacheTime = now;
+  cachedProductsByPricebook.set(pbId, { products: normalized, time: now });
   return normalized;
 }
 
 export async function fetchZohoProductById(identifier, { pricebookId = "3334672000000547177" } = {}) {
   if (!identifier) return null;
+  const resolvedId = await resolvePricebookId(pricebookId);
+  const pbId = String(resolvedId || "3334672000000547177").trim();
   const clean = String(identifier).trim();
 
-  // If product is in cached list, check by id, slug, or slugified name first
-  if (cachedProducts) {
-    const found = cachedProducts.find(
+  // If product is in cached list for this specific pricebook, check by id, slug, or slugified name first
+  const cachedEntry = cachedProductsByPricebook.get(pbId);
+  if (cachedEntry) {
+    const found = cachedEntry.products.find(
       (p) =>
         p.id === clean ||
         p.slug === clean ||
@@ -665,9 +712,9 @@ export async function fetchZohoProductById(identifier, { pricebookId = "33346720
 
   const isNumericId = /^\d+$/.test(clean);
 
-  // If it's a slug, load all products and find the matching one
+  // If it's a slug, load all products for this pricebook and find the matching one
   if (!isNumericId) {
-    const all = await fetchZohoProducts({ pricebookId });
+    const all = await fetchZohoProducts({ pricebookId: pbId });
     const match = all.find(
       (p) =>
         p.slug === clean ||
@@ -686,7 +733,7 @@ export async function fetchZohoProductById(identifier, { pricebookId = "33346720
         "X-com-zoho-store-organizationid": orgId,
       },
     }),
-    fetchZohoPricebookItems(pricebookId),
+    fetchZohoPricebookItems(pbId),
   ]);
 
   const data = await res.json();

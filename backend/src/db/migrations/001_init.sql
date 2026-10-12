@@ -5,6 +5,7 @@ create table if not exists dealers (
   owner_user_id uuid,
   business_name text not null,
   gst_number text,
+  gst_treatment text,
   address text,
   status text not null default 'pending'
     check (status in ('pending','approved','rejected','revoked')),

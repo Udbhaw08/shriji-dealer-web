@@ -18,12 +18,15 @@ export async function jwtAuth(req, res, next) {
   }
 
   const rows = await sql`
-    select id, email, phone, role, status, dealer_id, email_verified, created_at
-    from users where id = ${claims.sub}`;
+    select u.id, u.email, u.phone, u.role, u.status, u.dealer_id, u.email_verified,
+           u.can_see_dealer_price, d.hide_staff_dealer_price, u.created_at
+    from users u
+    left join dealers d on d.id = u.dealer_id
+    where u.id = ${claims.sub}`;
   const user = rows[0];
   // pending users keep access so the app can poll /me while awaiting approval;
   // rejected/revoked accounts are cut off immediately.
-  if (!user || user.status === 'rejected' || user.status === 'revoked') {
+  if (!user || user.status === 'rejected' || user.status === 'revoked' || user.status === 'inactive') {
     return res.status(401).json({ error: 'account_inactive' });
   }
   req.user = user;

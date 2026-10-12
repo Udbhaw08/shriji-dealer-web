@@ -48,3 +48,12 @@ export function generateOtp() {
   // 6-digit numeric, cryptographically random
   return String(crypto.randomBytes(4).readUInt32BE(0) % 1000000).padStart(6, '0');
 }
+
+export {
+  generateLoginCode,
+  formatLoginCode,
+  isValidLoginCode,
+  parseLoginCode,
+  generateUniqueDealerCode,
+  USER_CATEGORIES,
+} from './loginCode.js';

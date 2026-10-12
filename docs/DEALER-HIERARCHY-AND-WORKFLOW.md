@@ -113,7 +113,7 @@ This document specifies the multi-tier business hierarchy, the role of the **Dea
 - `Account_Name`: Business name (e.g., "Udbhaw")
 - `Dealer_Status`: Picklist (`Pending`, `Approved`, `Rejected`, `Revoked`)
 - `Dealer_Code`: Text, Unique (e.g., `SHR-UDB-01`)
-- `Price_Tier`: Picklist (`Tier 1`, `Tier 2`, etc.)
+- `Price_List`: Picklist (e.g. `Mumbai PL May 2026`, `MH DP May 2026` — matching Zoho Commerce Price Lists)
 - `GST_Number`: Text
 
 ### Contacts Module (People Hierarchy)

@@ -1,31 +1,38 @@
 # Community 126
 
-> 10 nodes · cohesion 0.20
+> 11 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **Viewer Runtime reference** (6 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Canonical exports** (4 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **viewer-runtime.md** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Exploration** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Guided views and story** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Motion and presentation** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Reach Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Route Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Truth boundary** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **ed()** (10 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **_getReauthenticationResolver()** (8 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **_getIdTokenResponse()** (7 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **_linkToIdToken()** (7 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **qf()** (7 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **buildRequest()** (5 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **_buildIdpRequest()** (4 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **_makeVerificationRequest()** (4 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **headers()** (2 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **_performRefresh()** (2 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **response()** (2 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (12 shared connections)
+- [[Claude Agent Instructions]] (3 shared connections)
+- [[Product Requirements Documentation]] (2 shared connections)
+- [[Client Products Data Store]] (2 shared connections)
+- [[Product Pages Specification]] (1 shared connections)
+- [[Community 92]] (1 shared connections)
+- [[Live Pricing Audit Tool]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/references/viewer-runtime.md`
+- `ios/App/App/public/assets/index-DPsXe5qz.js`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 58 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

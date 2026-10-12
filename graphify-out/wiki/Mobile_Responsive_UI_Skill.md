@@ -1,48 +1,54 @@
 # Mobile Responsive UI Skill
 
-> 49 nodes · cohesion 0.07
+> 53 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **check-render-output.mjs** (57 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **parseAttrs()** (7 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectArrows()** (6 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **numberAttr()** (6 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectCompositionFrames()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectLegendBoxes()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **lineSegments()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectDesktopReadability()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectNonFiniteAttrs()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **pathSegments()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **straightPathSegments()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **textBox()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **attrEntries()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectLegendCollisions()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectRelationshipLabelMasks()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **crossProduct()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **isCommand()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **pointsFromPath()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **properSegmentIntersection()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **segmentIntersectsBox()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **segmentsIntersect()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **stripTags()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectRelationshipCrossings()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **decodeNumericReferences()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **estimatedTextWidth()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- *... and 24 more nodes in this community*
+- **get()** (51 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
+- **has()** (24 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
+- **np()** (21 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
+- **add()** (20 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
+- **w()** (19 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
+- **Au()** (17 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
+- **ac()** (13 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
+- **bm()** (13 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
+- **jc()** (13 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
+- **jm()** (11 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
+- **hn()** (10 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
+- **mm()** (10 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
+- **om()** (10 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
+- **Q()** (10 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
+- **am()** (9 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
+- **execute()** (9 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
+- **verify()** (9 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
+- **Vm()** (8 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
+- **gu()** (7 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
+- **K()** (7 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
+- **Lt()** (7 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
+- **mf()** (7 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
+- **render()** (7 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
+- **zm()** (7 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
+- **gm()** (6 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
+- *... and 28 more nodes in this community*
 
 ## Relationships
 
-- [[Design System & UI Tokens]] (6 shared connections)
-- [[Community 97]] (4 shared connections)
+- [[Dealer Auth & Session Management]] (80 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (45 shared connections)
+- [[Dependencies & Package Config]] (39 shared connections)
+- [[Master Codebase Architecture Reference]] (28 shared connections)
+- [[Community 33]] (16 shared connections)
+- [[Roles & Customer Sharing Spec]] (15 shared connections)
+- [[Community 42]] (6 shared connections)
+- [[Oxlint Linter Configuration]] (5 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-render-output.mjs`
+- `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
 
 ## Audit Trail
 
-- EXTRACTED: 178 (100%)
+- EXTRACTED: 440 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

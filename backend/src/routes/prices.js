@@ -12,9 +12,12 @@ export const pricesRouter = Router();
 pricesRouter.get('/', jwtAuth, async (req, res, next) => {
   try {
     const products = await catalogFor(req.user);
+    const hasDealerPricing =
+      req.user.role === 'dealer' ||
+      (req.user.role === 'dealer_staff' && req.user.can_see_dealer_price !== false && !req.user.hide_staff_dealer_price);
     res.json({
       role: req.user.role,
-      price_tier: req.user.role.startsWith('dealer') ? 'dealer' : 'retail',
+      price_tier: hasDealerPricing ? 'dealer' : 'retail',
       count: products.length,
       products,
     });

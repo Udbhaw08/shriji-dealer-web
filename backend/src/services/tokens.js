@@ -45,7 +45,7 @@ export async function rotateRefreshToken(rawToken) {
     if (row.revoked) await revokeAllForUser(row.user_id);
     return null;
   }
-  if (row.status === 'rejected' || row.status === 'revoked') return null;
+  if (row.status === 'rejected' || row.status === 'revoked' || row.status === 'inactive') return null;
   await sql`update refresh_tokens set revoked = true where id = ${row.id}`;
   const fresh = await issueRefreshToken(row.user_id);
   return {

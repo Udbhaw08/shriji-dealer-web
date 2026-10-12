@@ -1,55 +1,57 @@
 # Price Presentation & Product UI
 
-> 246 nodes · cohesion 0.02
+> 179 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **_()** (716 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
-- **reject()** (23 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
-- **cc()** (14 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
-- **dm()** (10 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
-- **im()** (10 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
-- **wf()** (10 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
-- **directlySetCurrentUser()** (9 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
-- **execute()** (9 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
-- **_onStorageEvent()** (9 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
-- **verify()** (9 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
-- **initializeCurrentUser()** (8 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
-- **request()** (8 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
-- **wd()** (8 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
-- **close()** (7 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
-- **fetch()** (7 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
-- **init_()** (7 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
-- **qf()** (7 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
-- **setPersistence()** (7 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
-- **_setRedirectUser()** (7 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
-- **signOut()** (7 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
-- **validatePassword()** (7 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
-- **yf()** (7 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
-- **Ch()** (6 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
-- **checkDestroyed()** (6 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
-- **cp()** (6 connections) — `ios/App/App/public/assets/index-h5JnEN27.js`
-- *... and 221 more nodes in this community*
+- **_()** (715 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **td()** (10 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **execute()** (9 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **verify()** (9 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **_key()** (8 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **eh()** (7 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **render()** (7 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **updateCurrentUser()** (7 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **validatePassword()** (7 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **vf()** (7 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **checkDestroyed()** (6 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **init_()** (6 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **O()** (6 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **onAuthEvent()** (6 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **onExecution()** (6 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **queue()** (6 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **removeAuthTokenListener()** (6 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **reset()** (6 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **ue()** (6 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **addAuthTokenListener()** (5 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **assertAuthConfigured()** (5 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **assertNotDestroyed()** (5 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **cd()** (5 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **ch()** (5 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **clear()** (5 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- *... and 154 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (187 shared connections)
-- [[Zoho Integration Architecture]] (101 shared connections)
-- [[Client Products Data Store]] (85 shared connections)
-- [[Product Brand & Business Vision]] (73 shared connections)
-- [[Community 35]] (51 shared connections)
-- [[Zoho API Diagnostic Script]] (48 shared connections)
-- [[Graphify Agent Rules]] (47 shared connections)
+- [[Product Pages Specification]] (97 shared connections)
+- [[Product Requirements Documentation]] (87 shared connections)
+- [[Client Products Data Store]] (87 shared connections)
+- [[Pricing Regression Test Suite]] (82 shared connections)
+- [[Live Pricing Audit Tool]] (70 shared connections)
+- [[Product Brand & Business Vision]] (67 shared connections)
+- [[Claude Agent Instructions]] (50 shared connections)
+- [[Community 62]] (32 shared connections)
+- [[Community 47]] (31 shared connections)
 - [[Community 92]] (23 shared connections)
-- [[Community 232]] (4 shared connections)
+- [[Community 126]] (12 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-h5JnEN27.js`
+- `ios/App/App/public/assets/index-DPsXe5qz.js`
 
 ## Audit Trail
 
-- EXTRACTED: 1550 (100%)
+- EXTRACTED: 1239 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

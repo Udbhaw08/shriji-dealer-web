@@ -1,44 +1,51 @@
 # Community 62
 
-> 21 nodes · cohesion 0.10
+> 23 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **properties** (9 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **architecture.schema.json** (7 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **meta** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **components** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **cards** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **schema_version** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$id** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$schema** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **title** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **has()** (24 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **constructor()** (21 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **add()** (20 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **ac()** (13 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **jc()** (13 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **addComponent()** (8 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **getProvider()** (8 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **mf()** (7 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **Ka()** (6 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **mc()** (6 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **_poll()** (6 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **addOrOverwriteComponent()** (5 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **read()** (5 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **Du()** (4 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **isComponentSet()** (4 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **Ja()** (4 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **subscribe()** (3 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **addScope()** (2 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **makeTokenCallback()** (2 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **mo()** (2 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **notifyListeners()** (2 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **p()** (2 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **validateStartingState()** (2 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
 
 ## Relationships
 
-- [[Community 85]] (3 shared connections)
-- [[Community 56]] (1 shared connections)
-- [[Community 68]] (1 shared connections)
+- [[Price Presentation & Product UI]] (32 shared connections)
+- [[Product Pages Specification]] (18 shared connections)
+- [[Pricing Regression Test Suite]] (16 shared connections)
+- [[Product Requirements Documentation]] (11 shared connections)
+- [[Live Pricing Audit Tool]] (8 shared connections)
+- [[Product Brand & Business Vision]] (7 shared connections)
+- [[Client Products Data Store]] (7 shared connections)
+- [[Community 47]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `ios/App/App/public/assets/index-DPsXe5qz.js`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (100%)
+- EXTRACTED: 169 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

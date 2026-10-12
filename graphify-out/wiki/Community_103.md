@@ -1,22 +1,23 @@
 # Community 103
 
-> 13 nodes · cohesion 0.15
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **Product** (12 connections) — `PRODUCT.md`
-- **PRODUCT.md** (1 connections) — `PRODUCT.md`
-- **Accessibility & Inclusion** (1 connections) — `PRODUCT.md`
-- **Brand Commitments** (1 connections) — `PRODUCT.md`
-- **Capabilities and Constraints** (1 connections) — `PRODUCT.md`
-- **Evidence on Hand** (1 connections) — `PRODUCT.md`
-- **Operating Context** (1 connections) — `PRODUCT.md`
-- **Platform** (1 connections) — `PRODUCT.md`
-- **Positioning** (1 connections) — `PRODUCT.md`
-- **Product Principles** (1 connections) — `PRODUCT.md`
-- **Product Purpose** (1 connections) — `PRODUCT.md`
-- **Stack** (1 connections) — `PRODUCT.md`
-- **Users** (1 connections) — `PRODUCT.md`
+- **web-Cgm5Bxs7.js** (13 connections) — `android/app/src/main/assets/public/assets/web-Cgm5Bxs7.js`
+- **applyPrefix()** (4 connections) — `android/app/src/main/assets/public/assets/web-Cgm5Bxs7.js`
+- **keys()** (4 connections) — `android/app/src/main/assets/public/assets/web-Cgm5Bxs7.js`
+- **get()** (3 connections) — `android/app/src/main/assets/public/assets/web-Cgm5Bxs7.js`
+- **migrate()** (3 connections) — `android/app/src/main/assets/public/assets/web-Cgm5Bxs7.js`
+- **rawKeys()** (3 connections) — `android/app/src/main/assets/public/assets/web-Cgm5Bxs7.js`
+- **clear()** (2 connections) — `android/app/src/main/assets/public/assets/web-Cgm5Bxs7.js`
+- **remove()** (2 connections) — `android/app/src/main/assets/public/assets/web-Cgm5Bxs7.js`
+- **removeOld()** (2 connections) — `android/app/src/main/assets/public/assets/web-Cgm5Bxs7.js`
+- **set()** (2 connections) — `android/app/src/main/assets/public/assets/web-Cgm5Bxs7.js`
+- **configure()** (1 connections) — `android/app/src/main/assets/public/assets/web-Cgm5Bxs7.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-Cgm5Bxs7.js`
+- **impl()** (1 connections) — `android/app/src/main/assets/public/assets/web-Cgm5Bxs7.js`
+- **prefix()** (1 connections) — `android/app/src/main/assets/public/assets/web-Cgm5Bxs7.js`
 
 ## Relationships
 
@@ -24,11 +25,11 @@
 
 ## Source Files
 
-- `PRODUCT.md`
+- `android/app/src/main/assets/public/assets/web-Cgm5Bxs7.js`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

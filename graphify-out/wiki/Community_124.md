@@ -1,36 +1,37 @@
 # Community 124
 
-> 10 nodes · cohesion 0.31
+> 12 nodes · cohesion 0.41
 
 ## Key Concepts
 
-- **session.js** (31 connections) — `src/data/session.js`
-- **revalidateSession()** (9 connections) — `src/data/session.js`
-- **setSession()** (6 connections) — `src/data/session.js`
-- **signOut()** (4 connections) — `src/data/session.js`
-- **hasSession()** (3 connections) — `src/data/auth.js`
-- **sessionFromAuth()** (3 connections) — `src/data/auth.js`
-- **emit()** (2 connections) — `src/data/session.js`
-- **signOutAndReload()** (2 connections) — `src/pages/Login.jsx`
-- **GUEST** (1 connections) — `src/data/session.js`
-- **subs** (1 connections) — `src/data/session.js`
+- **repository-evidence.mjs** (15 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **verifyRepositoryEvidence()** (14 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **evidenceFailure()** (6 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **repository-location.mjs** (5 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **parseRepositoryRemote()** (5 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **gitValue()** (4 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **runGit()** (4 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **verifiedSourcePath()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **redactRepositoryRemote()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **repositorySourceHref()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **hasRepositoryEvidence()** (2 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **sourceLineCount()** (2 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (14 shared connections)
-- [[Pricing & Roles Skill]] (7 shared connections)
-- [[Community 34]] (7 shared connections)
-- [[Community 46]] (6 shared connections)
+- [[Architecture Doc Generator]] (6 shared connections)
+- [[Community 110]] (3 shared connections)
+- [[Community 50]] (2 shared connections)
+- [[Community 95]] (1 shared connections)
 
 ## Source Files
 
-- `src/data/auth.js`
-- `src/data/session.js`
-- `src/pages/Login.jsx`
+- `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- `.agents/skills/archify/renderers/shared/repository-location.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 62 (100%)
+- EXTRACTED: 66 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -32,12 +32,12 @@
 
 ## Relationships
 
-- [[Community 65]] (20 shared connections)
-- [[Community 82]] (18 shared connections)
-- [[Community 40]] (5 shared connections)
-- [[Community 102]] (4 shared connections)
-- [[Community 112]] (2 shared connections)
-- [[Community 180]] (2 shared connections)
+- [[Community 75]] (20 shared connections)
+- [[Community 95]] (18 shared connections)
+- [[Project Readme & Layout]] (5 shared connections)
+- [[Community 112]] (4 shared connections)
+- [[Community 124]] (2 shared connections)
+- [[Community 99]] (2 shared connections)
 
 ## Source Files
 

@@ -2,9 +2,11 @@ import { Router } from 'express';
 import { sql } from '../db/pool.js';
 import { jwtAuth, requireApprovedDealer } from '../middleware/auth.js';
 import { httpError } from '../middleware/errorHandler.js';
-import { applyDealer } from '../services/dealerApp.js';
-import { createInvite, approveStaff, revokeStaff, holdStaff, resumeStaff, deleteStaff } from '../services/staff.js';
-import { updateDealerCodeInCrm } from '../services/crmClient.js';
+import { applyDealer, applyCrmAccountState, deleteDealer } from '../services/dealerApp.js';
+import { createInvite, approveStaff, revokeStaff, holdStaff, resumeStaff, deleteStaff, toggleStaffPrice, toggleAllStaffPrice } from '../services/staff.js';
+import { updateDealerCodeInCrm, getDealerAccount } from '../services/crmClient.js';
+import { resolvePricebookId } from '../services/commerceClient.js';
+import { formatLoginCode, generateUniqueDealerCode } from '../utils/loginCode.js';
 
 export const dealersRouter = Router();
 
@@ -13,7 +15,7 @@ dealersRouter.use(jwtAuth);
 /* POST /api/dealers/apply — submit the GST + business application. */
 dealersRouter.post('/apply', async (req, res, next) => {
   try {
-    const { business_name, gst_number, address, person_name, phone } = req.body || {};
+    const { business_name, gst_number, gst_treatment, address, person_name, phone } = req.body || {};
     if (!business_name) throw httpError(400, 'business_name is required');
     const existing = await sql`select role, status from users where id = ${req.user.id}`;
     if (existing[0]?.role === 'dealer') throw httpError(409, 'dealer application already exists');
@@ -22,6 +24,7 @@ dealersRouter.post('/apply', async (req, res, next) => {
       user: req.user,
       businessName: String(business_name).trim(),
       gstNumber: gst_number ? String(gst_number).trim() : null,
+      gstTreatment: gst_treatment ? String(gst_treatment).trim() : null,
       address: address ? String(address).trim() : null,
       personName: person_name ? String(person_name).trim() : null,
       phone: phone ? String(phone).trim() : (req.user.phone || null),
@@ -36,7 +39,35 @@ dealersRouter.get('/me', async (req, res, next) => {
     const rows = await sql`select * from dealers where owner_user_id = ${req.user.id}`;
     const dealer = rows[0];
     if (!dealer) return res.json({ dealer: null });
-    res.json({ dealer: { ...dealer, gst_number: undefined } }); // gst never echoes back
+    const pricebookId = dealer.price_tier ? await resolvePricebookId(dealer.price_tier) : null;
+    res.json({
+      dealer: {
+        ...dealer,
+        pricebook_id: pricebookId,
+        hide_staff_dealer_price: Boolean(dealer.hide_staff_dealer_price),
+        gst_number: undefined,
+      },
+    }); // gst never echoes back
+  } catch (err) { next(err); }
+});
+
+/* POST /api/dealers/sync-crm — on-demand immediate sync of dealer tier/status from Zoho CRM */
+dealersRouter.post('/sync-crm', async (req, res, next) => {
+  try {
+    const rows = await sql`
+      select * from dealers
+      where id = ${req.user.dealer_id} or owner_user_id = ${req.user.id}
+      limit 1`;
+    const dealer = rows[0];
+    if (!dealer || !dealer.zoho_account_id) {
+      return res.json({ ok: false, message: 'Dealer not linked to Zoho CRM Account' });
+    }
+    const account = await getDealerAccount(dealer.zoho_account_id);
+    if (!account) return res.json({ ok: false, message: 'CRM account not found' });
+    await applyCrmAccountState(dealer, account);
+    const updated = (await sql`select * from dealers where id = ${dealer.id}`)[0];
+    const pricebookId = updated.price_tier ? await resolvePricebookId(updated.price_tier) : null;
+    res.json({ ok: true, dealer: { ...updated, pricebook_id: pricebookId } });
   } catch (err) { next(err); }
 });
 
@@ -58,7 +89,7 @@ dealersRouter.post('/staff/invite', requireApprovedDealer, async (req, res, next
 dealersRouter.get('/staff', requireApprovedDealer, async (req, res, next) => {
   try {
     const staff = await sql`
-      select id, full_name, email, phone, status, created_at, zoho_contact_id from users
+      select id, full_name, email, phone, status, created_at, zoho_contact_id, can_see_dealer_price from users
       where dealer_id = ${req.dealer.id} and role = 'dealer_staff'
       order by
         case when status = 'pending' then 1
@@ -66,7 +97,7 @@ dealersRouter.get('/staff', requireApprovedDealer, async (req, res, next) => {
              when status = 'hold' then 3
              else 4 end asc,
         created_at desc`;
-    res.json({ staff });
+    res.json({ staff, hide_staff_dealer_price: Boolean(req.dealer.hide_staff_dealer_price) });
   } catch (err) { next(err); }
 });
 
@@ -98,10 +129,26 @@ dealersRouter.post('/staff/:userId/revoke', requireApprovedDealer, async (req, r
   } catch (err) { next(err); }
 });
 
-dealersRouter.post('/staff/:userId/delete', requireApprovedDealer, async (req, res, next) => {
+dealersRouter.post('/staff/:userId/toggle-price', requireApprovedDealer, async (req, res, next) => {
+  try {
+    const { can_see_dealer_price } = req.body || {};
+    const result = await toggleStaffPrice(req.dealer, req.params.userId, can_see_dealer_price);
+    res.json({ ok: true, ...result });
+  } catch (err) { next(err); }
+});
+
+dealersRouter.post('/staff/toggle-price-all', requireApprovedDealer, async (req, res, next) => {
+  try {
+    const { can_see_dealer_price } = req.body || {};
+    const result = await toggleAllStaffPrice(req.dealer, can_see_dealer_price);
+    res.json({ ok: true, ...result });
+  } catch (err) { next(err); }
+});
+
+dealersRouter.post(['/staff/:userId/delete', '/staff/:userId/deactivate'], requireApprovedDealer, async (req, res, next) => {
   try {
     await deleteStaff(req.dealer, req.params.userId);
-    res.json({ ok: true });
+    res.json({ ok: true, message: 'Staff deactivated successfully (Zoho CRM contact set to Inactive)' });
   } catch (err) { next(err); }
 });
 
@@ -109,11 +156,12 @@ dealersRouter.post('/staff/:userId/delete', requireApprovedDealer, async (req, r
 dealersRouter.post('/code', requireApprovedDealer, async (req, res, next) => {
   try {
     let { code } = req.body || {};
-    if (!code) {
-      const num = Math.floor(1000 + Math.random() * 9000);
-      code = `DLR-${num}`;
+    let cleanCode;
+    if (!code || !String(code).trim()) {
+      cleanCode = await generateUniqueDealerCode(sql, 'DE');
+    } else {
+      cleanCode = formatLoginCode(code);
     }
-    const cleanCode = String(code).trim().toUpperCase();
     if (cleanCode.length < 3) {
       throw httpError(400, 'Dealer code must be at least 3 characters');
     }
@@ -140,5 +188,32 @@ dealersRouter.post('/code', requireApprovedDealer, async (req, res, next) => {
     res.json({ ok: true, dealer_code: cleanCode, crm_synced: crmSynced });
   } catch (err) { next(err); }
 });
+
+/* DELETE or POST /api/dealers/me — deactivate dealer account in DB and mark Revoked/Inactive in Zoho CRM (no deletion) */
+dealersRouter.all(['/me', '/me/deactivate'], async (req, res, next) => {
+  if (req.method !== 'DELETE' && req.method !== 'POST') return next();
+  try {
+    const dealerRows = await sql`
+      select id from dealers
+      where owner_user_id = ${req.user.id} or id = ${req.user.dealer_id} limit 1`;
+    if (!dealerRows[0]) throw httpError(404, 'Dealer account not found');
+    await deleteDealer(dealerRows[0].id, req.body?.reason || 'Deactivated by user');
+    res.json({ ok: true, message: 'Dealer deactivated successfully (Zoho records set to Revoked/Inactive)' });
+  } catch (err) { next(err); }
+});
+
+/* DELETE or POST /api/dealers/:dealerId — admin/owner deactivate specific dealer */
+dealersRouter.all(['/:dealerId', '/:dealerId/deactivate'], async (req, res, next) => {
+  if (req.method !== 'DELETE' && req.method !== 'POST') return next();
+  try {
+    if (req.user.role !== 'admin' && req.user.dealer_id !== req.params.dealerId) {
+      const isOwner = (await sql`select id from dealers where id = ${req.params.dealerId} and owner_user_id = ${req.user.id}`)[0];
+      if (!isOwner) throw httpError(403, 'Forbidden');
+    }
+    await deleteDealer(req.params.dealerId, req.body?.reason || 'Deactivated by user');
+    res.json({ ok: true, message: 'Dealer deactivated successfully (Zoho records set to Revoked/Inactive)' });
+  } catch (err) { next(err); }
+});
+
 
 

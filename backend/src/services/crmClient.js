@@ -7,13 +7,17 @@ import { log } from '../utils/logger.js';
 const FIELDS = {
   account: {
     gst: () => process.env.ZOHO_CRM_FIELD_GST || 'GST_Number',
+    gstTreatment: () => process.env.ZOHO_CRM_FIELD_GST_TREATMENT || 'GST_Treatment',
     dealerStatus: () => process.env.ZOHO_CRM_FIELD_DEALER_STATUS || 'Dealer_Status',
     dealerCode: () => process.env.ZOHO_CRM_FIELD_DEALER_CODE || 'Dealer_Code',
-    priceTier: () => process.env.ZOHO_CRM_FIELD_PRICE_TIER || 'Price_Tier',
+    priceList: () => process.env.ZOHO_CRM_FIELD_PRICE_LIST || 'Price_List',
+    priceTier: () => process.env.ZOHO_CRM_FIELD_PRICE_LIST || process.env.ZOHO_CRM_FIELD_PRICE_TIER || 'Price_List',
+    userSource: () => process.env.ZOHO_CRM_FIELD_USER_SOURCE || 'User_Source',
   },
   contact: {
     portalRole: () => process.env.ZOHO_CRM_FIELD_PORTAL_ROLE || 'Portal_Role',
     backendUserId: () => process.env.ZOHO_CRM_FIELD_BACKEND_USER_ID || 'Backend_User_ID',
+    userSource: () => process.env.ZOHO_CRM_FIELD_USER_SOURCE || 'User_Source',
   },
 };
 
@@ -47,7 +51,7 @@ async function getAccessToken({ forceRefresh = false } = {}) {
   return cachedToken.token;
 }
 
-async function crmFetch(path, { method = 'GET', body } = {}) {
+export async function crmFetch(path, { method = 'GET', body } = {}) {
   if (!crmConfigured()) {
     throw new Error('CRM_NOT_CONFIGURED');
   }
@@ -77,14 +81,17 @@ async function crmFetch(path, { method = 'GET', body } = {}) {
 }
 
 /** Create the dealer Account in CRM. Returns the CRM Account id. */
-export async function createDealerAccount({ businessName, gstNumber, phone, email, address }) {
+export async function createDealerAccount({ businessName, gstNumber, gstTreatment, phone, email, address, userSource = 'ReStor Dealer', dealerCode }) {
   const account = {
     Account_Name: businessName,
     Phone: phone || undefined,
     Email: email || undefined,
     Billing_Street: address || undefined,
     [FIELDS.account.gst()]: gstNumber || undefined,
+    ...(gstTreatment ? { [FIELDS.account.gstTreatment()]: String(gstTreatment).trim() } : {}),
     [FIELDS.account.dealerStatus()]: 'Pending',
+    ...(userSource ? { [FIELDS.account.userSource()]: userSource } : {}),
+    ...(dealerCode ? { [FIELDS.account.dealerCode()]: String(dealerCode).trim() } : {}),
   };
   const data = await crmFetch('/Accounts', {
     method: 'POST',
@@ -105,7 +112,7 @@ export async function createDealerContact({
   email,
   portalRole = 'Owner',
   dealerCode,
-  userSource,
+  userSource = 'ReStor Dealer',
   reportingToContactId,
 }) {
   const contact = {
@@ -116,7 +123,7 @@ export async function createDealerContact({
     Email: email || undefined,
     [FIELDS.contact.portalRole()]: portalRole,
     ...(dealerCode ? { [FIELDS.account.dealerCode()]: dealerCode } : {}),
-    ...(userSource ? { User_Source: userSource } : {}),
+    ...(userSource ? { [FIELDS.contact.userSource()]: userSource } : {}),
     ...(reportingToContactId ? { Reporting_To: { id: reportingToContactId } } : {}),
   };
   const data = await crmFetch('/Contacts', {
@@ -140,18 +147,22 @@ export async function linkContactToBackendUser(contactId, backendUserId) {
 
 /**
  * Read a dealer Account from CRM — the source of truth for approval.
- * Returns { zohoAccountId, dealerStatus, dealerCode, priceTier } or null.
+ * Returns { zohoAccountId, dealerStatus, dealerCode, priceList, priceTier } or null.
  */
 export async function getDealerAccount(zohoAccountId) {
   const data = await crmFetch(`/Accounts/${zohoAccountId}`);
   const acc = data?.data?.[0];
   if (!acc) return null;
+  const priceListVal = acc[FIELDS.account.priceList()] || acc.Price_List || acc['Price List'] || acc.Price_Tier || null;
   return {
     zohoAccountId: acc.id,
     dealerStatus: acc[FIELDS.account.dealerStatus()] || 'Pending',
     dealerCode: acc[FIELDS.account.dealerCode()] || null,
-    priceTier: acc[FIELDS.account.priceTier()] || null,
+    priceList: priceListVal,
+    priceTier: priceListVal,
     businessName: acc.Account_Name || null,
+    gstNumber: acc[FIELDS.account.gst()] || null,
+    gstTreatment: acc[FIELDS.account.gstTreatment()] || null,
   };
 }
 
@@ -203,4 +214,37 @@ export async function updateDealerCodeInCrm({ zohoAccountId, dealerCode, ownerPh
   }
 }
 
+/** Deactivate an Account in Zoho CRM by updating Dealer_Status to Revoked (no deletion). */
+export async function deactivateAccountInCrm(accountId, status = 'Revoked') {
+  if (!accountId || !crmConfigured()) return false;
+  try {
+    await crmFetch('/Accounts', {
+      method: 'PUT',
+      body: { data: [{ id: String(accountId), [FIELDS.account.dealerStatus()]: status }] },
+    });
+    log.info(`[crm] Deactivated Account ${accountId} in Zoho CRM (Dealer_Status: ${status})`);
+    return true;
+  } catch (err) {
+    log.warn(`[crm] Failed to deactivate Account ${accountId}: ${err.message}`);
+    return false;
+  }
+}
+
+/** Deactivate a Contact in Zoho CRM by updating Portal_Role to Inactive (no deletion). */
+export async function deactivateContactInCrm(contactId, role = 'Inactive') {
+  if (!contactId || !crmConfigured()) return false;
+  try {
+    await crmFetch('/Contacts', {
+      method: 'PUT',
+      body: { data: [{ id: String(contactId), [FIELDS.contact.portalRole()]: role }] },
+    });
+    log.info(`[crm] Deactivated Contact ${contactId} in Zoho CRM (Portal_Role: ${role})`);
+    return true;
+  } catch (err) {
+    log.warn(`[crm] Failed to deactivate Contact ${contactId}: ${err.message}`);
+    return false;
+  }
+}
+
 export const isCrmConfigured = () => Boolean(crmConfigured());
+

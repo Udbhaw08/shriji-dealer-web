@@ -32,7 +32,7 @@ export async function crmPoll() {
       });
       const contactId = await crm.createDealerContact({
         accountId, personName: d.business_name, phone: d.phone, email: d.email, portalRole: 'Owner',
-        userSource: 'Dealer Portal',
+        userSource: 'ReStor Dealer',
       });
       await crm.linkContactToBackendUser(contactId, d.owner_id);
       await sql`update dealers set zoho_account_id = ${accountId} where id = ${d.id}`;
@@ -43,10 +43,10 @@ export async function crmPoll() {
     }
   }
 
-  // 2. converge status for every pending dealer (webhook fallback)
-  const pending = await sql`
-    select * from dealers where status = 'pending' and zoho_account_id is not null`;
-  for (const dealer of pending) {
+  // 2. converge status and price tier for pending & approved dealers (webhook fallback)
+  const activeDealers = await sql`
+    select * from dealers where status in ('pending', 'approved') and zoho_account_id is not null`;
+  for (const dealer of activeDealers) {
     try {
       const account = await crm.getDealerAccount(dealer.zoho_account_id);
       if (!account) continue;

@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-11T21:04:56.175+05:30 (GMT+5:30)
-> Total Project Files: 958
+> Last synchronized: 2026-10-13T02:25:50.644+05:30 (GMT+5:30)
+> Total Project Files: 999
 
 ---
 
@@ -81,11 +81,11 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 ## 4. Codebase Directory Map
 
 ### 4.1 Pages (`src/pages/`)
-- **`src/pages/DealerDashboard.jsx`** (27.6 KB)
+- **`src/pages/DealerDashboard.jsx`** (35.9 KB)
 - **`src/pages/Favorites.jsx`** (6.7 KB)
 - **`src/pages/Home.jsx`** (18.5 KB)
-- **`src/pages/Login.jsx`** (53.9 KB)
-- **`src/pages/Product.jsx`** (27.0 KB)
+- **`src/pages/Login.jsx`** (54.5 KB)
+- **`src/pages/Product.jsx`** (27.5 KB)
 - **`src/pages/Products.jsx`** (24.3 KB)
 - **`src/pages/Schemes.jsx`** (7.4 KB)
 - **`src/pages/Support.jsx`** (4.7 KB)
@@ -94,7 +94,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/components/HeroSlider.jsx`** (5.8 KB)
 - **`src/components/MobileBottomNav.jsx`** (4.4 KB)
 - **`src/components/NativeBackHandler.jsx`** (3.7 KB)
-- **`src/components/PriceBlock.jsx`** (5.2 KB)
+- **`src/components/PriceBlock.jsx`** (6.4 KB)
 - **`src/components/ProductCard.jsx`** (3.1 KB)
 - **`src/components/ProductSearchBar.jsx`** (16.6 KB)
 - **`src/components/UnderMaintenance.jsx`** (2.1 KB)
@@ -102,18 +102,19 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 
 ### 4.3 State & Business Logic (`src/data/`)
 - **`src/data/api.js`** (1.7 KB)
-- **`src/data/auth.js`** (9.0 KB)
+- **`src/data/auth.js`** (11.4 KB)
 - **`src/data/dealer.js`** (8.4 KB)
 - **`src/data/dealer.test.mjs`** (4.2 KB)
 - **`src/data/favoritesStore.js`** (2.3 KB)
 - **`src/data/firebase.js`** (3.4 KB)
 - **`src/data/i18n.js`** (1.7 KB)
+- **`src/data/loginCode.js`** (3.1 KB)
 - **`src/data/portalGate.js`** (0.8 KB)
 - **`src/data/pricing.test.mjs`** (4.2 KB)
 - **`src/data/products.js`** (1.1 KB)
-- **`src/data/productsStore.js`** (3.6 KB)
+- **`src/data/productsStore.js`** (4.8 KB)
 - **`src/data/searchHelper.js`** (9.8 KB)
-- **`src/data/session.js`** (2.2 KB)
+- **`src/data/session.js`** (4.6 KB)
 - **`src/data/site.js`** (4.6 KB)
 - **`src/data/translations.js`** (32.0 KB)
 
@@ -124,10 +125,11 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`api/og.js`** (3.9 KB)
 - **`api/products/index.js`** (1.1 KB)
 - **`api/products/[id].js`** (1.1 KB)
-- **`api/zoho.js`** (22.3 KB)
+- **`api/zoho.js`** (24.3 KB)
 
 ### 4.5 Automation & Utility Scripts (`scripts/`)
 - **`scripts/audit_prices.mjs`** (3.8 KB)
+- **`scripts/export_pricebooks_for_crm.mjs`** (2.9 KB)
 - **`scripts/generate-codebase-doc.mjs`** (9.1 KB)
 - **`scripts/get-refresh-token.mjs`** (2.3 KB)
 - **`scripts/make-scheme-pdfs.mjs`** (2.2 KB)

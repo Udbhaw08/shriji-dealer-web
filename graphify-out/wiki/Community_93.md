@@ -1,35 +1,46 @@
 # Community 93
 
-> 14 nodes · cohesion 0.23
+> 17 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **web-CFPmARQv.js** (13 connections) — `ios/App/App/public/assets/web-CFPmARQv.js`
-- **applyPrefix()** (4 connections) — `ios/App/App/public/assets/web-CFPmARQv.js`
-- **keys()** (4 connections) — `ios/App/App/public/assets/web-CFPmARQv.js`
-- **get()** (3 connections) — `ios/App/App/public/assets/web-CFPmARQv.js`
-- **migrate()** (3 connections) — `ios/App/App/public/assets/web-CFPmARQv.js`
-- **rawKeys()** (3 connections) — `ios/App/App/public/assets/web-CFPmARQv.js`
-- **clear()** (2 connections) — `ios/App/App/public/assets/web-CFPmARQv.js`
-- **remove()** (2 connections) — `ios/App/App/public/assets/web-CFPmARQv.js`
-- **removeOld()** (2 connections) — `ios/App/App/public/assets/web-CFPmARQv.js`
-- **set()** (2 connections) — `ios/App/App/public/assets/web-CFPmARQv.js`
-- **configure()** (1 connections) — `ios/App/App/public/assets/web-CFPmARQv.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-CFPmARQv.js`
-- **impl()** (1 connections) — `ios/App/App/public/assets/web-CFPmARQv.js`
-- **prefix()** (1 connections) — `ios/App/App/public/assets/web-CFPmARQv.js`
+- **auth.js** (35 connections) — `backend/src/routes/auth.js`
+- **errorHandler.js** (7 connections) — `backend/src/middleware/errorHandler.js`
+- **rateLimit.js** (4 connections) — `backend/src/middleware/rateLimit.js`
+- **notify()** (4 connections) — `backend/src/services/notifications.js`
+- **httpError()** (3 connections) — `backend/src/middleware/errorHandler.js`
+- **rateLimit()** (3 connections) — `backend/src/middleware/rateLimit.js`
+- **issueSession()** (3 connections) — `backend/src/routes/auth.js`
+- **resolveUserWithDealer()** (3 connections) — `backend/src/routes/auth.js`
+- **sendOtpNotification()** (3 connections) — `backend/src/services/notifications.js`
+- **errorHandler()** (2 connections) — `backend/src/middleware/errorHandler.js`
+- **authRouter** (2 connections) — `backend/src/routes/auth.js`
+- **findUserByIdentifier()** (2 connections) — `backend/src/routes/auth.js`
+- **publicUser()** (2 connections) — `backend/src/routes/auth.js`
+- **buckets** (1 connections) — `backend/src/middleware/rateLimit.js`
+- **googleClient** (1 connections) — `backend/src/routes/auth.js`
+- **parseIdentifier()** (1 connections) — `backend/src/routes/auth.js`
+- **strictLimit** (1 connections) — `backend/src/routes/auth.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 68]] (11 shared connections)
+- [[Community 61]] (9 shared connections)
+- [[Community 90]] (6 shared connections)
+- [[Community 73]] (6 shared connections)
+- [[Community 63]] (2 shared connections)
+- [[Community 115]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-CFPmARQv.js`
+- `backend/src/middleware/errorHandler.js`
+- `backend/src/middleware/rateLimit.js`
+- `backend/src/routes/auth.js`
+- `backend/src/services/notifications.js`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 77 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

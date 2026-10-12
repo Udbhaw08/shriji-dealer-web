@@ -4,6 +4,7 @@ import { sha256 } from '../utils/hash.js';
 import { audit } from '../utils/audit.js';
 import { log } from '../utils/logger.js';
 import * as crm from './crmClient.js';
+import { generateLoginCode } from '../utils/loginCode.js';
 
 const INVITE_TTL_DAYS = 7;
 
@@ -51,7 +52,7 @@ export async function approveStaff(dealer, staffUserId) {
         phone: staff.phone,
         email: staff.email,
         portalRole: 'Staff',
-        userSource: 'User Portal',
+        userSource: 'ReStor Staff',
         reportingToContactId: ownerUser?.zoho_contact_id || undefined,
         dealerCode: dealer.dealer_code,
       });
@@ -70,8 +71,16 @@ export async function revokeStaff(dealer, staffUserId) {
   if (!rows[0]) {
     throw Object.assign(new Error('Staff user not found for this dealer'), { statusCode: 404 });
   }
+  const staff = rows[0];
   await sql`update users set status = 'revoked' where id = ${staffUserId}`;
   await sql`update refresh_tokens set revoked = true where user_id = ${staffUserId}`;
+  if (staff.zoho_contact_id) {
+    try {
+      await crm.deactivateContactInCrm(staff.zoho_contact_id, 'Inactive');
+    } catch (err) {
+      log.warn(`[staff:revoke] Zoho CRM contact status update skipped: ${err.message}`);
+    }
+  }
   await audit(dealer.owner_user_id, 'staff.revoked', 'user', staffUserId);
   log.info(`[staff] revoked user ${staffUserId} for dealer ${dealer.id}`);
 }
@@ -82,8 +91,16 @@ export async function holdStaff(dealer, staffUserId) {
   if (!rows[0]) {
     throw Object.assign(new Error('Staff user not found for this dealer'), { statusCode: 404 });
   }
+  const staff = rows[0];
   await sql`update users set status = 'hold' where id = ${staffUserId}`;
   await sql`update refresh_tokens set revoked = true where user_id = ${staffUserId}`;
+  if (staff.zoho_contact_id) {
+    try {
+      await crm.deactivateContactInCrm(staff.zoho_contact_id, 'Hold');
+    } catch (err) {
+      log.warn(`[staff:hold] Zoho CRM contact status update skipped: ${err.message}`);
+    }
+  }
   await audit(dealer.owner_user_id, 'staff.held', 'user', staffUserId);
   log.info(`[staff] placed user ${staffUserId} on hold for dealer ${dealer.id}`);
 }
@@ -94,7 +111,15 @@ export async function resumeStaff(dealer, staffUserId) {
   if (!rows[0]) {
     throw Object.assign(new Error('Staff user not found for this dealer'), { statusCode: 404 });
   }
+  const staff = rows[0];
   await sql`update users set status = 'active' where id = ${staffUserId}`;
+  if (staff.zoho_contact_id) {
+    try {
+      await crm.deactivateContactInCrm(staff.zoho_contact_id, 'Staff');
+    } catch (err) {
+      log.warn(`[staff:resume] Zoho CRM contact status update skipped: ${err.message}`);
+    }
+  }
   await audit(dealer.owner_user_id, 'staff.resumed', 'user', staffUserId);
   log.info(`[staff] resumed active status for user ${staffUserId} under dealer ${dealer.id}`);
 }
@@ -105,20 +130,52 @@ export async function deleteStaff(dealer, staffUserId) {
   if (!rows[0]) {
     throw Object.assign(new Error('Staff user not found for this dealer'), { statusCode: 404 });
   }
-  await sql`update staff_invites set used_by = null where used_by = ${staffUserId}`;
-  await sql`delete from refresh_tokens where user_id = ${staffUserId}`;
-  await sql`delete from otp_codes where user_id = ${staffUserId}`;
-  await sql`delete from users where id = ${staffUserId}`;
-  await audit(dealer.owner_user_id, 'staff.deleted', 'user', staffUserId);
-  log.info(`[staff] deleted staff member ${staffUserId} from dealer ${dealer.id}`);
+  const staff = rows[0];
+
+  // 1. Soft-deactivate user in database & revoke active sessions (No deletion)
+  await sql`update users set status = 'inactive' where id = ${staffUserId}`;
+  await sql`update refresh_tokens set revoked = true where user_id = ${staffUserId}`;
+  await sql`update staff_invites set revoked = true where used_by = ${staffUserId}`;
+
+  // 2. Mark Contact as Inactive in Zoho CRM (No deletion)
+  if (staff.zoho_contact_id) {
+    try {
+      await crm.deactivateContactInCrm(staff.zoho_contact_id, 'Inactive');
+    } catch (err) {
+      log.warn(`[staff:deactivate] Zoho CRM contact status update skipped: ${err.message}`);
+    }
+  }
+
+  await audit(dealer.owner_user_id, 'staff.deactivated', 'user', staffUserId);
+  log.info(`[staff] Deactivated staff member ${staffUserId} for dealer ${dealer.id} (status: inactive)`);
 }
 
-// Human-readable, unambiguous code — same alphabet as utils/hash.js generateCode,
-// duplicated here only to keep the service dependency-light in tests.
+// Generate official Store Staff code in standard ST-ABC-1234 format (e.g. ST-KRT-1742)
 function generateInviteCode() {
-  const alphabet = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789';
-  const bytes = crypto.randomBytes(8);
-  let out = '';
-  for (let i = 0; i < 8; i++) out += alphabet[bytes[i] % alphabet.length];
-  return out;
+  return generateLoginCode('ST');
 }
+
+export async function toggleStaffPrice(dealer, staffUserId, canSeeDealerPrice) {
+  const rows = await sql`
+    select id, full_name, phone, email, can_see_dealer_price
+    from users
+    where id = ${staffUserId} and role = 'dealer_staff' and dealer_id = ${dealer.id}`;
+  if (!rows[0]) {
+    throw Object.assign(new Error('Staff user not found for this dealer'), { statusCode: 404 });
+  }
+  const newValue = Boolean(canSeeDealerPrice);
+  await sql`update users set can_see_dealer_price = ${newValue} where id = ${staffUserId}`;
+  await audit(dealer.owner_user_id, newValue ? 'staff.price_unlocked' : 'staff.price_hidden', 'user', staffUserId);
+  log.info(`[staff] ${newValue ? 'unlocked' : 'hid'} wholesale price for staff ${staffUserId} (dealer: ${dealer.id})`);
+  return { id: staffUserId, can_see_dealer_price: newValue };
+}
+
+export async function toggleAllStaffPrice(dealer, canSeeDealerPrice) {
+  const newValue = Boolean(canSeeDealerPrice);
+  await sql`update users set can_see_dealer_price = ${newValue} where dealer_id = ${dealer.id} and role = 'dealer_staff'`;
+  await sql`update dealers set hide_staff_dealer_price = ${!newValue} where id = ${dealer.id}`;
+  await audit(dealer.owner_user_id, newValue ? 'dealer.all_staff_price_unlocked' : 'dealer.all_staff_price_hidden', 'dealer', dealer.id);
+  log.info(`[staff] ${newValue ? 'unlocked' : 'hid'} wholesale prices for all staff under dealer ${dealer.id}`);
+  return { hide_staff_dealer_price: !newValue };
+}
+

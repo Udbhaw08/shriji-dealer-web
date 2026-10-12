@@ -1,53 +1,56 @@
 # Pricing Regression Test Suite
 
-> 67 nodes · cohesion 0.07
+> 71 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **has()** (37 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **delete()** (36 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **pd()** (21 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **xt()** (21 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **ze()** (21 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **he()** (16 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **ld()** (15 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **de()** (13 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **getIdToken()** (13 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **zd()** (13 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **dd()** (12 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **mn()** (12 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **rd()** (12 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **nd()** (11 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **un()** (11 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **wt()** (11 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **ad()** (10 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **dn()** (10 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **od()** (10 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **fd()** (9 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **hn()** (9 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **jt()** (9 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **ke()** (9 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **kt()** (9 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- **yd()** (9 connections) — `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
-- *... and 42 more nodes in this community*
+- **create()** (26 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **hu()** (18 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **Au()** (17 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **getImmediate()** (16 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **warn()** (16 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **zo()** (16 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **yl()** (15 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **Ci()** (14 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **Nd()** (14 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **zu()** (14 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **oc()** (12 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **xl()** (12 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **error()** (11 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **initialize()** (11 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **mu()** (11 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **pu()** (11 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **ql()** (11 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **ru()** (11 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **eu()** (10 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **tl()** (10 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **vu()** (10 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **xi()** (10 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **Cu()** (9 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **isInitialized()** (9 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **Iu()** (9 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- *... and 46 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (104 shared connections)
-- [[Product Pages Specification]] (64 shared connections)
-- [[Master Codebase Architecture Reference]] (31 shared connections)
-- [[Product Requirements Documentation]] (24 shared connections)
-- [[Vercel Deployment Routing]] (20 shared connections)
-- [[Community 39]] (12 shared connections)
+- [[Price Presentation & Product UI]] (82 shared connections)
+- [[Product Pages Specification]] (50 shared connections)
+- [[Product Requirements Documentation]] (21 shared connections)
+- [[Product Brand & Business Vision]] (21 shared connections)
+- [[Community 62]] (16 shared connections)
+- [[Client Products Data Store]] (15 shared connections)
 - [[Live Pricing Audit Tool]] (12 shared connections)
+- [[Community 92]] (8 shared connections)
+- [[Claude Agent Instructions]] (5 shared connections)
+- [[Community 47]] (4 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-h5JnEN27.js`
+- `ios/App/App/public/assets/index-DPsXe5qz.js`
 
 ## Audit Trail
 
-- EXTRACTED: 567 (100%)
+- EXTRACTED: 560 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
