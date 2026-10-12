@@ -59,3 +59,5 @@ ios/App/.build/
 *.pbxuser
 *.perspectivev3
 .zcode/
+
+.vercel

@@ -28,6 +28,7 @@ const defaultOrigins = [
   'http://127.0.0.1:5174',
   'https://restor.in',
   'https://www.restor.in',
+  'https://test.restor.in',
 ];
 
 const envOrigins = (process.env.FRONTEND_ORIGINS || '')

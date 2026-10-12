@@ -26,7 +26,7 @@ services:
       - key: JWT_SECRET
         sync: false # Copy from backend/.env to preserve existing sessions
       - key: FRONTEND_ORIGINS
-        value: https://restor.in,https://www.restor.in,http://localhost:5173
+        value: https://restor.in,https://www.restor.in,https://test.restor.in,http://localhost:5173
       - key: ENABLE_JOBS
         value: "true"
       - key: CRM_POLL_MINUTES

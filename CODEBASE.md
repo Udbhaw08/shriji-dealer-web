@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-13T02:25:50.644+05:30 (GMT+5:30)
-> Total Project Files: 999
+> Last synchronized: 2026-10-13T02:53:37.566+05:30 (GMT+5:30)
+> Total Project Files: 1001
 
 ---
 
@@ -134,6 +134,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`scripts/get-refresh-token.mjs`** (2.3 KB)
 - **`scripts/make-scheme-pdfs.mjs`** (2.2 KB)
 - **`scripts/sync-all.mjs`** (1.2 KB)
+- **`scripts/sync-vercel-envs.mjs`** (1.6 KB)
 - **`scripts/test-zoho-api.mjs`** (1.4 KB)
 - **`scripts/watch-sync.mjs`** (1.4 KB)
 
