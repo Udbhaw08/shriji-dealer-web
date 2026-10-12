@@ -125,24 +125,24 @@ WHATSAPP_TEMPLATE_NAME=[Your WhatsApp Template Name]
 ## 5. Connecting Frontend to the Live Backend
 
 Once your Render deployment completes, Render will show your URL:
-`https://shriji-backend.onrender.com` (or your chosen service name).
+`https://shriji-dealer-web.onrender.com` (or your chosen service name).
 
 ### 1. In Vercel (or production frontend host):
 Add this Environment Variable in your Vercel Project Settings:
 ```
-VITE_AUTH_API_URL=https://shriji-backend.onrender.com
+VITE_AUTH_API_URL=https://shriji-dealer-web.onrender.com
 ```
 Then trigger a redeploy of the frontend on Vercel.
 
 ### 2. In Local `.env.local` (for testing):
 ```
-VITE_AUTH_API_URL=https://shriji-backend.onrender.com
+VITE_AUTH_API_URL=https://shriji-dealer-web.onrender.com
 ```
 
 ### 3. In Zoho CRM Workflow (Dealer Approval Webhook):
 Set the Webhook URL to:
 ```
-https://shriji-backend.onrender.com/webhooks/crm/approval
+https://shriji-dealer-web.onrender.com/webhooks/crm/approval
 ```
 With Header:
 ```
@@ -155,7 +155,7 @@ X-Webhook-Secret: <your WEBHOOK_SECRET>
 
 1. **Check Root Endpoint**:
    Open in your browser:
-   `https://shriji-backend.onrender.com/`
+   `https://shriji-dealer-web.onrender.com/`
    Expected response:
    ```json
    {
@@ -168,7 +168,7 @@ X-Webhook-Secret: <your WEBHOOK_SECRET>
 
 2. **Check Database & Jobs Health**:
    Open:
-   `https://shriji-backend.onrender.com/health`
+   `https://shriji-dealer-web.onrender.com/health`
    Expected response:
    ```json
    {
