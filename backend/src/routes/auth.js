@@ -83,16 +83,90 @@ export async function resolveUserWithDealer(u) {
   return u;
 }
 
+export async function linkUserIdentifiers(u, { email, phone }) {
+  if (!u) return u;
+  const cleanEmail = email ? String(email).trim().toLowerCase() : null;
+  const cleanPhone = phone ? String(phone).trim() : null;
+  let changed = false;
+
+  // 1. Link email if missing on user record
+  if (cleanEmail && (!u.email || u.email.trim().toLowerCase() !== cleanEmail)) {
+    const existing = await sql`select id from users where lower(email) = ${cleanEmail} and id != ${u.id} limit 1`;
+    if (!existing.length) {
+      await sql`update users set email = ${cleanEmail}, email_verified = true where id = ${u.id}`;
+      u.email = cleanEmail;
+      u.email_verified = true;
+      changed = true;
+      log.info(`[auth:link] linked email ${cleanEmail} to user ${u.id}`);
+    }
+  }
+
+  // 2. Link phone if missing on user record
+  if (cleanPhone && (!u.phone || u.phone.trim() !== cleanPhone)) {
+    const cleanDigits = cleanPhone.replace(/[^\d]/g, '').slice(-10);
+    const existing = await sql`select id from users where (phone = ${cleanPhone} or phone like ${`%${cleanDigits}`}) and id != ${u.id} limit 1`;
+    if (!existing.length) {
+      await sql`update users set phone = ${cleanPhone} where id = ${u.id}`;
+      u.phone = cleanPhone;
+      changed = true;
+      log.info(`[auth:link] linked phone ${cleanPhone} to user ${u.id}`);
+    }
+  }
+
+  // 3. Sync to Zoho CRM Contact and Account if configured
+  if (changed && crm.isCrmConfigured()) {
+    try {
+      if (u.zoho_contact_id) {
+        await crm.crmFetch('/Contacts', {
+          method: 'PUT',
+          body: {
+            data: [{
+              id: u.zoho_contact_id,
+              ...(u.email ? { Email: u.email } : {}),
+              ...(u.phone ? { Phone: u.phone, Mobile: u.phone } : {}),
+            }],
+          },
+        });
+        log.info(`[auth:link] synced updated email/phone to Zoho CRM Contact ${u.zoho_contact_id}`);
+      }
+
+      if (u.dealer_id) {
+        const [dInfo] = await sql`select zoho_account_id from dealers where id = ${u.dealer_id}`;
+        if (dInfo?.zoho_account_id) {
+          await crm.crmFetch('/Accounts', {
+            method: 'PUT',
+            body: {
+              data: [{
+                id: dInfo.zoho_account_id,
+                ...(u.email ? { Email: u.email } : {}),
+                ...(u.phone ? { Phone: u.phone } : {}),
+              }],
+            },
+          });
+          log.info(`[auth:link] synced updated email/phone to Zoho CRM Account ${dInfo.zoho_account_id}`);
+        }
+      }
+    } catch (crmErr) {
+      log.warn(`[auth:link] Zoho CRM contact sync warning: ${crmErr.message}`);
+    }
+  }
+
+  return u;
+}
+
 export async function findUserByIdentifier({ email, phone }) {
-  if (phone) {
-    const cleanDigits = String(phone).replace(/[^\d]/g, '').slice(-10);
+  const cleanEmail = email ? String(email).trim().toLowerCase() : null;
+  const rawPhone = phone ? String(phone).trim() : null;
+  const cleanDigits = rawPhone ? rawPhone.replace(/[^\d]/g, '').slice(-10) : null;
+
+  // 1. Check users table by phone
+  if (rawPhone || cleanDigits) {
     const rows = await sql`
       select u.*
       from users u
       left join dealers d on d.owner_user_id = u.id or d.id = u.dealer_id
-      where u.phone = ${phone}
-         or u.phone like ${`%${cleanDigits}`}
-         or replace(u.phone, ' ', '') like ${`%${cleanDigits}`}
+      where u.phone = ${rawPhone}
+         ${cleanDigits ? sql`or u.phone like ${`%${cleanDigits}`} or replace(u.phone, ' ', '') like ${`%${cleanDigits}`}` : sql``}
       order by
         case when u.role = 'dealer' or d.status = 'approved' then 1
              when d.status = 'pending' then 2
@@ -102,8 +176,9 @@ export async function findUserByIdentifier({ email, phone }) {
       limit 1`;
     if (rows[0]) return rows[0];
   }
-  if (email) {
-    const cleanEmail = String(email).trim().toLowerCase();
+
+  // 2. Check users table by email
+  if (cleanEmail) {
     const rows = await sql`
       select u.*
       from users u
@@ -118,14 +193,30 @@ export async function findUserByIdentifier({ email, phone }) {
       limit 1`;
     if (rows[0]) return rows[0];
   }
+
+  // 3. Check dealers table owner_user_id
+  if (rawPhone || cleanDigits || cleanEmail) {
+    const dealerRows = await sql`
+      select ou.*
+      from dealers d
+      join users ou on ou.id = d.owner_user_id
+      where (${cleanEmail ? sql`lower(ou.email) = ${cleanEmail} or ` : sql``}
+             ${cleanDigits ? sql`ou.phone like ${`%${cleanDigits}`} or replace(ou.phone, ' ', '') like ${`%${cleanDigits}`} or ` : sql``}
+             ou.phone = ${rawPhone})
+      order by case when d.status = 'approved' then 1 when d.status = 'pending' then 2 else 3 end asc
+      limit 1`;
+    if (dealerRows[0]) return dealerRows[0];
+  }
+
   return null;
 }
 
+const SESSION_TTL_SECONDS = 30 * 24 * 60 * 60; // 30 days window
 async function issueSession(rawUser) {
   const user = await resolveUserWithDealer(rawUser);
   const accessToken = signAccessToken(user);
   const refreshToken = await issueRefreshToken(user.id);
-  return { accessToken, refreshToken, expiresIn: 900, user: publicUser(user) };
+  return { accessToken, refreshToken, expiresIn: SESSION_TTL_SECONDS, user: publicUser(user) };
 }
 
 function publicUser(u) {
@@ -142,7 +233,7 @@ function publicUser(u) {
   };
 }
 
-function parseIdentifier(input) {
+export function parseIdentifier(input) {
   if (!input) return { email: null, phone: null };
   const str = String(input).trim();
   if (str.includes('@')) {
@@ -153,7 +244,8 @@ function parseIdentifier(input) {
   return { email: null, phone: clean || str };
 }
 
-/* POST /api/auth/signup — register via Email, Phone, or Both. */
+
+/* POST /api/auth/signup — register via Email, Phone, or Both (links existing account if found). */
 authRouter.post('/signup', strictLimit, async (req, res, next) => {
   try {
     const { email, phone, identifier, password, full_name } = req.body || {};
@@ -168,27 +260,40 @@ authRouter.post('/signup', strictLimit, async (req, res, next) => {
       throw httpError(400, 'A password of at least 8 characters is required');
     }
 
-    if (cleanEmail) {
-      const dupeEmail = await sql`select id from users where email = ${cleanEmail}`;
-      if (dupeEmail.length) throw httpError(409, 'Email is already registered');
-    }
-    if (cleanPhone) {
-      const dupePhone = await sql`select id from users where phone = ${cleanPhone}`;
-      if (dupePhone.length) throw httpError(409, 'Mobile number is already registered');
+    // Interconnection check: if user already exists by phone OR email
+    let user = await findUserByIdentifier({ email: cleanEmail, phone: cleanPhone });
+
+    if (user) {
+      // User exists! If password matches or user had no password yet (e.g. created via OTP):
+      const ok = user.password_hash ? await verifyPassword(String(password), user.password_hash) : true;
+      if (ok) {
+        if (!user.password_hash) {
+          await sql`update users set password_hash = ${await hashPassword(String(password))} where id = ${user.id}`;
+        }
+        if (full_name && !user.full_name) {
+          await sql`update users set full_name = ${String(full_name).trim()} where id = ${user.id}`;
+          user.full_name = String(full_name).trim();
+        }
+        user = await linkUserIdentifiers(user, { email: cleanEmail, phone: cleanPhone });
+        await audit(user.id, 'auth.signup_interconnected', 'user', user.id);
+        return res.status(200).json({ user: publicUser(user), ...(await issueSession(user)) });
+      }
+      throw httpError(409, 'An account with this Mobile number or Email already exists. Please log in with your password or use OTP.');
     }
 
-    const [user] = await sql`
+    const [newUser] = await sql`
       insert into users (email, phone, password_hash, full_name, role, status, email_verified)
       values (${cleanEmail || null}, ${cleanPhone || null}, ${await hashPassword(String(password))},
               ${full_name ? String(full_name).trim() : null}, 'customer', 'active', false)
       returning *`;
+    user = newUser;
 
     await audit(user.id, 'auth.signup', 'user', user.id);
     res.status(201).json({ user: publicUser(user), ...(await issueSession(user)) });
   } catch (err) { next(err); }
 });
 
-/* POST /api/auth/login — log in via Email or Mobile number + Password. */
+/* POST /api/auth/login — log in via Email or Mobile number + Password (auto-links missing field). */
 authRouter.post('/login', strictLimit, async (req, res, next) => {
   try {
     const { email, phone, identifier, password } = req.body || {};
@@ -199,13 +304,16 @@ authRouter.post('/login', strictLimit, async (req, res, next) => {
 
     if (!searchTarget || !password) throw httpError(400, 'Mobile/Email and password are required');
 
-    const user = await findUserByIdentifier({
+    let user = await findUserByIdentifier({
       email: targetEmail,
       phone: targetPhone || (searchTarget.includes('@') ? null : searchTarget),
     });
 
     const ok = user ? await verifyPassword(String(password), user.password_hash || '') : false;
     if (!ok) throw httpError(401, 'Invalid mobile number/email or password');
+
+    // Auto-link any provided identifier not currently saved on this user
+    user = await linkUserIdentifiers(user, { email: targetEmail, phone: targetPhone });
 
     await audit(user.id, 'auth.login', 'user', user.id);
     res.json(await issueSession(user));
@@ -236,20 +344,18 @@ authRouter.post('/google', strictLimit, async (req, res, next) => {
     const fullName = payload.name || payload.given_name || null;
 
     // Check if user exists
-    let user = await findUserByIdentifier({ email: googleEmail });
+    let user = await findUserByIdentifier({ email: googleEmail, phone: req.body?.phone });
 
     if (!user) {
       // Create new customer account with verified email
       const [newUser] = await sql`
-        insert into users (email, full_name, role, status, email_verified)
-        values (${googleEmail}, ${fullName}, 'customer', 'active', true)
+        insert into users (email, phone, full_name, role, status, email_verified)
+        values (${googleEmail}, ${req.body?.phone || null}, ${fullName}, 'customer', 'active', true)
         returning *`;
       user = newUser;
       await audit(user.id, 'auth.google_signup', 'user', user.id);
     } else {
-      if (!user.email_verified) {
-        await sql`update users set email_verified = true where id = ${user.id}`;
-      }
+      user = await linkUserIdentifiers(user, { email: googleEmail, phone: req.body?.phone });
       await audit(user.id, 'auth.google_login', 'user', user.id);
     }
 
@@ -260,7 +366,7 @@ authRouter.post('/google', strictLimit, async (req, res, next) => {
 /* POST /api/auth/firebase — Verify Firebase ID token (Phone SMS OTP or Google Sign-in). */
 authRouter.post('/firebase', strictLimit, async (req, res, next) => {
   try {
-    const { idToken } = req.body || {};
+    const { idToken, email: reqEmail, phone: reqPhone } = req.body || {};
     if (!idToken) throw httpError(400, 'Firebase idToken is required');
 
     let phone = null;
@@ -291,6 +397,9 @@ authRouter.post('/firebase', strictLimit, async (req, res, next) => {
       fullName = payload.name || null;
     }
 
+    phone = phone || reqPhone || null;
+    email = email || reqEmail || null;
+
     if (!phone && !email) throw httpError(400, 'Firebase account has neither phone nor email');
 
     // Find existing user by phone or email
@@ -304,12 +413,7 @@ authRouter.post('/firebase', strictLimit, async (req, res, next) => {
       user = newUser;
       await audit(user.id, 'auth.firebase_signup', 'user', user.id);
     } else {
-      if (phone && !user.phone) {
-        await sql`update users set phone = ${phone} where id = ${user.id}`;
-      }
-      if (email && !user.email) {
-        await sql`update users set email = ${email}, email_verified = true where id = ${user.id}`;
-      }
+      user = await linkUserIdentifiers(user, { email, phone });
       await audit(user.id, 'auth.firebase_login', 'user', user.id);
     }
 
@@ -324,7 +428,12 @@ authRouter.post('/refresh', async (req, res, next) => {
     if (!refreshToken) throw httpError(400, 'refreshToken required');
     const rotated = await rotateRefreshToken(String(refreshToken));
     if (!rotated) throw httpError(401, 'refresh token invalid');
-    res.json({ user: publicUser(rotated.user), accessToken: signAccessToken(rotated.user), refreshToken: rotated.refreshToken, expiresIn: 900 });
+    res.json({
+      user: publicUser(rotated.user),
+      accessToken: signAccessToken(rotated.user),
+      refreshToken: rotated.refreshToken,
+      expiresIn: SESSION_TTL_SECONDS,
+    });
   } catch (err) { next(err); }
 });
 
@@ -340,11 +449,23 @@ authRouter.post('/logout', async (req, res, next) => {
 /* POST /api/auth/otp/request — Request OTP via Mobile (WhatsApp/SMS) or Email. */
 authRouter.post('/otp/request', rateLimit({ windowMs: 10 * 60_000, max: 8 }), async (req, res, next) => {
   try {
-    const { email, phone, identifier } = req.body || {};
+    const { email, phone, identifier, channel } = req.body || {};
     const parsed = parseIdentifier(identifier);
     const targetEmail = email ? String(email).trim().toLowerCase() : parsed.email;
     const targetPhone = phone ? String(phone).trim() : parsed.phone;
-    const dest = targetPhone || targetEmail;
+
+    let dest;
+    let destType;
+    if (channel === 'email' && targetEmail) {
+      dest = targetEmail;
+      destType = 'email';
+    } else if (targetPhone) {
+      dest = targetPhone;
+      destType = 'phone';
+    } else {
+      dest = targetEmail;
+      destType = 'email';
+    }
 
     if (!dest) throw httpError(400, 'Mobile number or Email is required for OTP');
 
@@ -358,11 +479,15 @@ authRouter.post('/otp/request', rateLimit({ windowMs: 10 * 60_000, max: 8 }), as
               ${new Date(Date.now() + OTP_TTL_MINUTES * 60_000)})`;
 
     // Dispatch via WhatsApp/SMS or Email (with terminal log fallback)
-    await sendOtpNotification({ phone: targetPhone, email: targetEmail, code });
+    await sendOtpNotification({
+      phone: destType === 'phone' ? targetPhone : null,
+      email: destType === 'email' ? targetEmail : null,
+      code,
+    });
 
     res.json({
       ok: true,
-      destination: targetPhone ? 'phone' : 'email',
+      destination: destType,
       expires_in_minutes: OTP_TTL_MINUTES,
       ...(process.env.NODE_ENV !== 'production' || isTestNumber ? { dev_code: code } : {}),
     });
@@ -390,7 +515,9 @@ authRouter.post('/otp/verify', strictLimit, async (req, res, next) => {
       select oc.id, oc.attempts, oc.code_hash, oc.user_id, oc.identifier
       from otp_codes oc
       where (oc.identifier = ${dest}
-         or oc.user_id in (select id from users where email = ${dest} or phone = ${dest}))
+         or oc.identifier = ${targetPhone || ''}
+         or oc.identifier = ${targetEmail || ''}
+         or oc.user_id in (select id from users where (email is not null and email = ${dest}) or (phone is not null and phone = ${dest})))
         and oc.expires_at > now()
         and oc.attempts < ${OTP_MAX_ATTEMPTS}
       order by oc.created_at desc limit 1`;
@@ -404,11 +531,11 @@ authRouter.post('/otp/verify', strictLimit, async (req, res, next) => {
     // Burn OTP
     if (otp) await sql`delete from otp_codes where id = ${otp.id}`;
 
-    // Find existing user or auto-create on OTP signup
+    // Find existing user by phone OR email
     let user = await findUserByIdentifier({ email: targetEmail, phone: targetPhone });
 
     if (!user) {
-      // Auto-register new user via verified Phone or Email!
+      // Auto-register new user with both email and phone!
       const [newUser] = await sql`
         insert into users (email, phone, role, status, email_verified)
         values (${targetEmail || null}, ${targetPhone || null}, 'customer', 'active', true)
@@ -416,9 +543,7 @@ authRouter.post('/otp/verify', strictLimit, async (req, res, next) => {
       user = newUser;
       await audit(user.id, 'auth.otp_signup', 'user', user.id);
     } else {
-      if (!user.email_verified) {
-        await sql`update users set email_verified = true where id = ${user.id}`;
-      }
+      user = await linkUserIdentifiers(user, { email: targetEmail, phone: targetPhone });
       await audit(user.id, 'auth.otp_verified', 'user', user.id);
     }
 

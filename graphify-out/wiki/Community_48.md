@@ -1,47 +1,57 @@
 # Community 48
 
-> 26 nodes · cohesion 0.09
+> 29 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **layout-rules.test.mjs** (25 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **assertRelationshipsAvoidAllNodeBorders()** (5 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **workflowNodeBorderOverlap()** (3 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **assertWorkflowEdgesAvoidAllNodeBorders()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **axisOverlapLength()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **workflowEdgePoints()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **workflowNodeRect()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **ambiguousCorridorDocument()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **autoRoutePassThroughDocument()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **boundaryFrameRect()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **boundaryTitleMasks()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **hash()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **load()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **rectanglesOverlap()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **rectContainsRect()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **SHRINK_CASES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **TAG_SHRINK_CASES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **tangentViaLifecycle()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **validateCli()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- *... and 1 more nodes in this community*
+- **reject()** (22 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **dc()** (17 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **_onStorageEvent()** (9 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **directlySetCurrentUser()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **initializeCurrentUser()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **setPersistence()** (7 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **_setRedirectUser()** (7 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **signOut()** (7 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **getCurrentUser()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **getOrInitRedirectPersistenceManager()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **runMiddleware()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **updateCurrentUser()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **removeCurrentUser()** (5 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **setCurrentUser()** (5 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **cancel()** (4 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **_clone()** (4 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **_copy()** (4 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **_initializeTime()** (4 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **reloadAndSetCurrentUserOrClear()** (4 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **stopPolling()** (4 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **toJSON()** (4 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **_assign()** (3 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **clearAllCookies()** (3 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **clearCookies()** (3 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **startPolling()** (3 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (35 shared connections)
+- [[Dependencies & Package Config]] (11 shared connections)
+- [[Architecture Doc Generator]] (7 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (7 shared connections)
+- [[Zoho API Diagnostic Script]] (5 shared connections)
+- [[Oxlint Linter Configuration]] (5 shared connections)
+- [[Claude Agent Instructions]] (3 shared connections)
+- [[Master Codebase Architecture Reference]] (3 shared connections)
+- [[Community 76]] (2 shared connections)
+- [[Design System & UI Tokens]] (1 shared connections)
+- [[Community 39]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/layout-rules.test.mjs`
+- `ios/App/App/public/assets/index-BlyMIx9J.js`
 
 ## Audit Trail
 
-- EXTRACTED: 60 (100%)
+- EXTRACTED: 168 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

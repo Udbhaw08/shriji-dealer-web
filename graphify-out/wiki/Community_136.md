@@ -1,31 +1,35 @@
 # Community 136
 
-> 10 nodes · cohesion 0.20
+> 11 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Viewer Runtime reference** (6 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Canonical exports** (4 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **viewer-runtime.md** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Exploration** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Guided views and story** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Motion and presentation** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Reach Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Route Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Truth boundary** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **reader-layout-browser.test.mjs** (13 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **load()** (6 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **evaluate()** (5 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **stable()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **viewport()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **inactive()** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **variant()** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 52]] (4 shared connections)
+- [[Community 40]] (1 shared connections)
+- [[Community 123]] (1 shared connections)
+- [[Community 105]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/references/viewer-runtime.md`
+- `.agents/skills/archify/test/reader-layout-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 39 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

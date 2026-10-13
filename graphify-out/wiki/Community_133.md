@@ -4,29 +4,31 @@
 
 ## Key Concepts
 
-- **release-package-gates.test.mjs** (10 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **canonicalZipTest()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **centralDirectoryModes()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **currentNodeMajor** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **spawnBuildZip()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **stagedFixture()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **workflowJob()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **workflowStep()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **writeArchive()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **properties** (9 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **note** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **dot** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **maxLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 157]] (3 shared connections)
+- [[Community 235]] (1 shared connections)
+- [[Community 132]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/release-package-gates.test.mjs`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 25 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

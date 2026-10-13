@@ -1,55 +1,57 @@
 # Claude Agent Instructions
 
-> 48 nodes · cohesion 0.08
+> 45 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **zr()** (23 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **Hr()** (20 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **kf()** (19 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **lc()** (16 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **Gr()** (15 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **vo()** (12 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **Kr()** (11 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **ji()** (10 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **ki()** (10 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **Oi()** (9 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **request()** (9 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **Vr()** (8 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **ec()** (7 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **fetch()** (7 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **ii()** (7 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **Ni()** (7 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **xr()** (7 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **zd()** (7 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **Mr()** (6 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **nc()** (6 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **wr()** (6 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **ai()** (5 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **jn()** (5 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **Mi()** (5 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **ne()** (5 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- *... and 23 more nodes in this community*
+- **Vr()** (23 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **uc()** (21 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **Pd()** (18 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **lc()** (16 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **Gr()** (14 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **mc()** (14 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **cc()** (10 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **jd()** (10 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **Kr()** (10 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **yu()** (10 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **Oi()** (9 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **bo()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **dh()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **Md()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **yo()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **zr()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **bu()** (7 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **ki()** (7 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **Ur()** (7 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **fc()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **ga()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **Mr()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **Ni()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **sc()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **vo()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (50 shared connections)
-- [[Product Pages Specification]] (22 shared connections)
-- [[Product Brand & Business Vision]] (16 shared connections)
-- [[Client Products Data Store]] (12 shared connections)
-- [[Live Pricing Audit Tool]] (8 shared connections)
-- [[Product Requirements Documentation]] (6 shared connections)
-- [[Community 47]] (5 shared connections)
-- [[Pricing Regression Test Suite]] (5 shared connections)
-- [[Community 126]] (3 shared connections)
+- [[Price Presentation & Product UI]] (52 shared connections)
+- [[Master Codebase Architecture Reference]] (24 shared connections)
+- [[Dependencies & Package Config]] (21 shared connections)
+- [[Zoho API Diagnostic Script]] (18 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (13 shared connections)
+- [[Oxlint Linter Configuration]] (12 shared connections)
+- [[Community 39]] (12 shared connections)
+- [[Design System & UI Tokens]] (7 shared connections)
+- [[Community 48]] (3 shared connections)
+- [[Community 76]] (2 shared connections)
+- [[Architecture Doc Generator]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DPsXe5qz.js`
+- `ios/App/App/public/assets/index-BlyMIx9J.js`
 
 ## Audit Trail
 
-- EXTRACTED: 315 (100%)
+- EXTRACTED: 320 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

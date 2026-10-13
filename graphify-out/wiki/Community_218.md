@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **authoring-safety-contract.test.mjs** (5 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
-- **authoringContract** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
-- **schemaReadme** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
-- **skill** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- **.oxlintrc.json** (3 connections) — `.oxlintrc.json`
+- **rules** (3 connections) — `.oxlintrc.json`
+- **plugins** (1 connections) — `.oxlintrc.json`
+- **react/only-export-components** (1 connections) — `.oxlintrc.json`
+- **react/rules-of-hooks** (1 connections) — `.oxlintrc.json`
+- **$schema** (1 connections) — `.oxlintrc.json`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- `.oxlintrc.json`
 
 ## Audit Trail
 

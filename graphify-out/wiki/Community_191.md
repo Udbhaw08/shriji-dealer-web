@@ -1,16 +1,17 @@
 # Community 191
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Sequence Renderer** (5 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **Layout budget** (2 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **README.md** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **Column fit** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **Input** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **Legend** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **story-shelf.test.mjs** (7 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
 
 ## Relationships
 
@@ -18,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/sequence/README.md`
+- `.agents/skills/archify/test/story-shelf.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

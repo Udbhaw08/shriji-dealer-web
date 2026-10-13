@@ -1,54 +1,57 @@
 # Oxlint Linter Configuration
 
-> 52 nodes · cohesion 0.08
+> 48 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **zr()** (23 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
-- **Hr()** (20 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
-- **kf()** (19 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
-- **vo()** (12 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
-- **Kr()** (11 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
-- **ed()** (10 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
-- **ji()** (10 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
-- **ki()** (10 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
-- **Oi()** (9 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
-- **request()** (9 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
-- **_getReauthenticationResolver()** (8 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
-- **Vr()** (8 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
-- **fetch()** (7 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
-- **_getIdTokenResponse()** (7 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
-- **ii()** (7 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
-- **_linkToIdToken()** (7 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
-- **Ni()** (7 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
-- **qf()** (7 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
-- **xr()** (7 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
-- **zd()** (7 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
-- **Mr()** (6 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
-- **wr()** (6 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
-- **ai()** (5 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
-- **buildRequest()** (5 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
-- **jn()** (5 connections) — `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
-- *... and 27 more nodes in this community*
+- **yl()** (32 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **Z()** (26 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **create()** (24 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **bl()** (19 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **hu()** (14 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **xl()** (14 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **Ci()** (13 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **U()** (13 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **da()** (11 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **vu()** (11 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **ma()** (10 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **wu()** (10 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **xi()** (10 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **iu()** (9 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **Nd()** (9 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **zl()** (9 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **gu()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **ru()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **wl()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **fa()** (7 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **Fu()** (7 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **je()** (7 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **mu()** (7 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **ql()** (7 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **_fromGetAccountInfoResponse()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- *... and 23 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (57 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (20 shared connections)
-- [[Master Codebase Architecture Reference]] (15 shared connections)
-- [[Dependencies & Package Config]] (8 shared connections)
-- [[Roles & Customer Sharing Spec]] (5 shared connections)
-- [[Mobile Responsive UI Skill]] (5 shared connections)
-- [[Community 42]] (5 shared connections)
-- [[Community 33]] (3 shared connections)
+- [[Price Presentation & Product UI]] (53 shared connections)
+- [[Master Codebase Architecture Reference]] (48 shared connections)
+- [[Dependencies & Package Config]] (33 shared connections)
+- [[Architecture Doc Generator]] (14 shared connections)
+- [[Claude Agent Instructions]] (12 shared connections)
+- [[Zoho API Diagnostic Script]] (11 shared connections)
+- [[Design System & UI Tokens]] (11 shared connections)
+- [[Community 48]] (5 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (5 shared connections)
+- [[Community 39]] (3 shared connections)
+- [[Community 76]] (3 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DPsXe5qz.js`
+- `ios/App/App/public/assets/index-BlyMIx9J.js`
 
 ## Audit Trail
 
-- EXTRACTED: 318 (100%)
+- EXTRACTED: 378 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

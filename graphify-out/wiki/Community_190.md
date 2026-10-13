@@ -1,28 +1,29 @@
 # Community 190
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **lifecycle.schema.json** (7 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$id** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$schema** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **title** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **story-moment-link.test.mjs** (7 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
 
 ## Relationships
 
-- [[Community 97]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `.agents/skills/archify/test/story-moment-link.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

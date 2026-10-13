@@ -1,57 +1,45 @@
 # Community 61
 
-> 23 nodes · cohesion 0.24
+> 23 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **sql** (41 connections) — `backend/src/db/pool.js`
-- **dealers.js** (30 connections) — `backend/src/routes/dealers.js`
-- **staff.js** (23 connections) — `backend/src/services/staff.js`
-- **audit()** (17 connections) — `backend/src/utils/audit.js`
-- **auth.js** (8 connections) — `backend/src/middleware/auth.js`
-- **generateUniqueDealerCode()** (8 connections) — `backend/src/utils/loginCode.js`
-- **applyDealer()** (6 connections) — `backend/src/services/dealerApp.js`
-- **createInvite()** (6 connections) — `backend/src/services/staff.js`
-- **jwtAuth()** (5 connections) — `backend/src/middleware/auth.js`
-- **deactivateDealer()** (4 connections) — `backend/src/services/dealerApp.js`
-- **approveStaff()** (4 connections) — `backend/src/services/staff.js`
-- **deleteStaff()** (4 connections) — `backend/src/services/staff.js`
-- **holdStaff()** (4 connections) — `backend/src/services/staff.js`
-- **resumeStaff()** (4 connections) — `backend/src/services/staff.js`
-- **revokeStaff()** (4 connections) — `backend/src/services/staff.js`
-- **toggleAllStaffPrice()** (4 connections) — `backend/src/services/staff.js`
-- **toggleStaffPrice()** (4 connections) — `backend/src/services/staff.js`
-- **requireApprovedDealer()** (3 connections) — `backend/src/middleware/auth.js`
-- **consumeInvite()** (3 connections) — `backend/src/services/staff.js`
-- **generateInviteCode()** (3 connections) — `backend/src/services/staff.js`
-- **check()** (2 connections) — `backend/scripts/check-readiness.js`
-- **requireRole()** (1 connections) — `backend/src/middleware/auth.js`
-- **check-readiness.js** (1 connections) — `backend/scripts/check-readiness.js`
+- **package.json** (9 connections) — `backend/package.json`
+- **dependencies** (7 connections) — `backend/package.json`
+- **scripts** (7 connections) — `backend/package.json`
+- **engines** (2 connections) — `backend/package.json`
+- **dotenv** (1 connections) — `backend/package.json`
+- **express** (1 connections) — `backend/package.json`
+- **google-auth-library** (1 connections) — `backend/package.json`
+- **jsonwebtoken** (1 connections) — `backend/package.json`
+- **postgres** (1 connections) — `backend/package.json`
+- **resend** (1 connections) — `backend/package.json`
+- **description** (1 connections) — `backend/package.json`
+- **node** (1 connections) — `backend/package.json`
+- **main** (1 connections) — `backend/package.json`
+- **name** (1 connections) — `backend/package.json`
+- **private** (1 connections) — `backend/package.json`
+- **build** (1 connections) — `backend/package.json`
+- **check:ready** (1 connections) — `backend/package.json`
+- **dev** (1 connections) — `backend/package.json`
+- **migrate** (1 connections) — `backend/package.json`
+- **start** (1 connections) — `backend/package.json`
+- **test** (1 connections) — `backend/package.json`
+- **type** (1 connections) — `backend/package.json`
+- **version** (1 connections) — `backend/package.json`
 
 ## Relationships
 
-- [[Community 68]] (27 shared connections)
-- [[Community 73]] (12 shared connections)
-- [[Community 93]] (9 shared connections)
-- [[Community 63]] (9 shared connections)
-- [[Community 90]] (6 shared connections)
-- [[Community 115]] (4 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `backend/scripts/check-readiness.js`
-- `backend/src/db/pool.js`
-- `backend/src/middleware/auth.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/services/dealerApp.js`
-- `backend/src/services/staff.js`
-- `backend/src/utils/audit.js`
-- `backend/src/utils/loginCode.js`
+- `backend/package.json`
 
 ## Audit Trail
 
-- EXTRACTED: 185 (98%)
-- INFERRED: 4 (2%)
+- EXTRACTED: 44 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,14 +1,15 @@
 # Community 228
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **Archify Diagram Generation Protocol** (4 connections) — `.agents/rules/archify.md`
-- **archify.md** (1 connections) — `.agents/rules/archify.md`
-- **Rule 1: Dedicated Subfolder Per Diagram** (1 connections) — `.agents/rules/archify.md`
-- **Rule 2: Output Artifacts (HTML & Dark Image Only)** (1 connections) — `.agents/rules/archify.md`
-- **Rule 3: Intermediate File Cleanup** (1 connections) — `.agents/rules/archify.md`
+- **skill-metadata.test.mjs** (5 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
+- **authoringContract** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
+- **frontmatter** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
+- **skill** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
 
 ## Relationships
 
@@ -16,11 +17,11 @@
 
 ## Source Files
 
-- `.agents/rules/archify.md`
+- `.agents/skills/archify/test/skill-metadata.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

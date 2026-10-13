@@ -1,56 +1,57 @@
 # Design System & UI Tokens
 
-> 83 nodes · cohesion 0.07
+> 75 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **Login.jsx** (55 connections) — `src/pages/Login.jsx`
-- **auth.js** (40 connections) — `src/data/auth.js`
-- **session.js** (38 connections) — `src/data/session.js`
-- **callBackend()** (25 connections) — `src/data/auth.js`
-- **json()** (25 connections) — `src/data/auth.js`
-- **DealerDashboard.jsx** (23 connections) — `src/pages/DealerDashboard.jsx`
-- **apiFetch()** (12 connections) — `src/data/api.js`
-- **apiUrl()** (9 connections) — `src/data/api.js`
-- **revalidateSession()** (9 connections) — `src/data/session.js`
-- **applyAuthResponse()** (8 connections) — `src/data/auth.js`
-- **requestOtp()** (8 connections) — `src/data/auth.js`
-- **loginCode.js** (8 connections) — `src/data/loginCode.js`
-- **api.js** (7 connections) — `src/data/api.js`
-- **broadcastAuthChange()** (7 connections) — `src/data/auth.js`
-- **firebaseAuthLogin()** (7 connections) — `src/data/auth.js`
-- **login()** (7 connections) — `src/data/auth.js`
-- **firebase.js** (7 connections) — `src/data/firebase.js`
-- **sendFirebasePhoneOtp()** (7 connections) — `src/data/firebase.js`
-- **setSession()** (7 connections) — `src/data/session.js`
-- **googleLogin()** (6 connections) — `src/data/auth.js`
-- **logout()** (6 connections) — `src/data/auth.js`
-- **signup()** (6 connections) — `src/data/auth.js`
-- **verifyOtp()** (6 connections) — `src/data/auth.js`
-- **OtpStep()** (6 connections) — `src/pages/Login.jsx`
-- **applyAsDealer()** (5 connections) — `src/data/auth.js`
-- *... and 58 more nodes in this community*
+- **D()** (18 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **E()** (18 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **kn()** (13 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **ln()** (13 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **rf()** (13 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **df()** (12 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **pf()** (12 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **tf()** (12 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **wt()** (12 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **oe()** (11 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **Cn()** (10 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **hn()** (10 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **ip()** (10 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **tp()** (10 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **Ut()** (10 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **af()** (9 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **ff()** (9 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **Kt()** (9 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **nf()** (9 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **ae()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **ah()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **bn()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **bt()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **dn()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **ft()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- *... and 50 more nodes in this community*
 
 ## Relationships
 
-- [[Pricing & Roles Skill]] (23 shared connections)
-- [[Community 36]] (12 shared connections)
-- [[Community 45]] (9 shared connections)
-- [[Community 134]] (1 shared connections)
+- [[Price Presentation & Product UI]] (79 shared connections)
+- [[Master Codebase Architecture Reference]] (34 shared connections)
+- [[Dependencies & Package Config]] (24 shared connections)
+- [[Zoho API Diagnostic Script]] (19 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (16 shared connections)
+- [[Community 39]] (12 shared connections)
+- [[Architecture Doc Generator]] (11 shared connections)
+- [[Oxlint Linter Configuration]] (11 shared connections)
+- [[Claude Agent Instructions]] (7 shared connections)
+- [[Community 76]] (6 shared connections)
+- [[Community 48]] (1 shared connections)
 
 ## Source Files
 
-- `src/data/api.js`
-- `src/data/auth.js`
-- `src/data/firebase.js`
-- `src/data/loginCode.js`
-- `src/data/session.js`
-- `src/pages/DealerDashboard.jsx`
-- `src/pages/Login.jsx`
+- `ios/App/App/public/assets/index-BlyMIx9J.js`
 
 ## Audit Trail
 
-- EXTRACTED: 503 (100%)
+- EXTRACTED: 504 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

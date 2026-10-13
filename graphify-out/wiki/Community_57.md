@@ -4,44 +4,43 @@
 
 ## Key Concepts
 
-- **properties** (12 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **viewBox** (6 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **column_fit** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **animation** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **locale** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **output** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **subtitle** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **views** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **description** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **items** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **properties** (11 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **viewBox** (6 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **animation** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **locale** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **output** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **subtitle** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **views** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **items** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- [[Community 141]] (1 shared connections)
-- [[Community 271]] (1 shared connections)
-- [[Community 244]] (1 shared connections)
+- [[Community 143]] (1 shared connections)
+- [[Community 102]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/sequence.schema.json`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (100%)
+- EXTRACTED: 48 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

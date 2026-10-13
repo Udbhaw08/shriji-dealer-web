@@ -22,8 +22,8 @@
 
 ## Relationships
 
-- [[Zoho API Diagnostic Script]] (5 shared connections)
-- [[Community 70]] (3 shared connections)
+- [[Testing & Workflow Skill]] (5 shared connections)
+- [[Community 71]] (3 shared connections)
 
 ## Source Files
 

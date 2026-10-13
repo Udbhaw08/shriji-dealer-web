@@ -1,30 +1,30 @@
 # Community 165
 
-> 9 nodes · cohesion 0.33
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **release-identity.test.mjs** (8 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **stableUpdateManifest()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **writeFile()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **writeValidDevelopmentFixture()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **writeValidStableFixture()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **checker** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **runCheck()** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **cli-output-types.test.mjs** (10 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **architecture** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **base** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **head** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **root** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **workflow** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **workspace()** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 62]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/release-identity.test.mjs`
+- `.agents/skills/archify/test/cli-output-types.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

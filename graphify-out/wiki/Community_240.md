@@ -1,25 +1,26 @@
 # Community 240
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **via** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **integration.test.mjs** (4 connections) — `backend/test/integration.test.mjs`
+- **api()** (1 connections) — `backend/test/integration.test.mjs`
+- **COMMERCE_FIXTURE** (1 connections) — `backend/test/integration.test.mjs`
+- **crmMock** (1 connections) — `backend/test/integration.test.mjs`
+- **uniq()** (1 connections) — `backend/test/integration.test.mjs`
 
 ## Relationships
 
-- [[Testing & Workflow Skill]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `backend/test/integration.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

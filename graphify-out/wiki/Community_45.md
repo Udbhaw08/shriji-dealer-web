@@ -1,56 +1,60 @@
 # Community 45
 
-> 28 nodes · cohesion 0.13
+> 30 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **Products.jsx** (25 connections) — `src/pages/Products.jsx`
-- **productsStore.js** (22 connections) — `src/data/productsStore.js`
-- **ProductSearchBar.jsx** (15 connections) — `src/components/ProductSearchBar.jsx`
-- **useProducts()** (12 connections) — `src/data/productsStore.js`
-- **searchHelper.js** (11 connections) — `src/data/searchHelper.js`
-- **ProductSearchBar()** (6 connections) — `src/components/ProductSearchBar.jsx`
-- **syncPricebookWithSession()** (6 connections) — `src/data/productsStore.js`
-- **fetchLiveProducts()** (5 connections) — `src/data/productsStore.js`
-- **getSuggestions()** (5 connections) — `src/data/searchHelper.js`
-- **loadCached()** (4 connections) — `src/data/productsStore.js`
-- **autocorrectQuery()** (4 connections) — `src/data/searchHelper.js`
-- **buildSearchDictionary()** (4 connections) — `src/data/searchHelper.js`
-- **products.js** (3 connections) — `src/data/products.js`
-- **emit()** (3 connections) — `src/data/productsStore.js`
-- **CATEGORIES** (2 connections) — `src/data/products.js`
-- **getCacheKey()** (2 connections) — `src/data/productsStore.js`
-- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
-- **useProduct()** (2 connections) — `src/data/productsStore.js`
-- **getPopularSearches()** (2 connections) — `src/data/searchHelper.js`
-- **scoreProduct()** (2 connections) — `src/data/searchHelper.js`
-- **PRODUCTS** (1 connections) — `src/data/products.js`
-- **listeners** (1 connections) — `src/data/productsStore.js`
-- **PREFERRED_ORDER** (1 connections) — `src/data/productsStore.js`
-- **storeState** (1 connections) — `src/data/productsStore.js`
-- **COLLOQUIAL_SYNONYMS** (1 connections) — `src/data/searchHelper.js`
-- *... and 3 more nodes in this community*
+- **render-lifecycle.mjs** (81 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **svgAccessibleText()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **svgRootAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **renderDefinitions()** (11 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **resolveLegend()** (10 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **renderSvg()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderLegend()** (6 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderBands()** (5 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **bandFor()** (3 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **bandTitles()** (3 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **lifecycleAreaBottom()** (3 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **legendY()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **measureState()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderLifecycleRail()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **automaticPorts** (1 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **laneLabels** (1 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **layout** (1 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **LEGEND_CATALOG** (1 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **pathCache** (1 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [[Pricing & Roles Skill]] (22 shared connections)
-- [[Community 36]] (11 shared connections)
-- [[Design System & UI Tokens]] (9 shared connections)
-- [[Community 134]] (2 shared connections)
-- [[Community 120]] (1 shared connections)
+- [[Pricing Regression Test Suite]] (34 shared connections)
+- [[Mobile Responsive UI Skill]] (27 shared connections)
+- [[Product Pages Specification]] (17 shared connections)
+- [[Community 44]] (15 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (6 shared connections)
+- [[Community 73]] (4 shared connections)
+- [[Zoho Integration Skill]] (2 shared connections)
 
 ## Source Files
 
-- `src/components/ProductSearchBar.jsx`
-- `src/data/products.js`
-- `src/data/productsStore.js`
-- `src/data/searchHelper.js`
-- `src/pages/Products.jsx`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- `.agents/skills/archify/renderers/shared/cli.mjs`
+- `.agents/skills/archify/renderers/shared/legend.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 145 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 198 (99%)
+- INFERRED: 3 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,26 +4,26 @@
 
 ## Key Concepts
 
-- **preset-tryon.test.mjs** (7 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **presetRuntime()** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **svgBlock()** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
+- **wraps** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **via** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Testing & Workflow Skill]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/preset-tryon.test.mjs`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

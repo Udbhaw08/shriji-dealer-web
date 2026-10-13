@@ -1,50 +1,60 @@
 # Zoho Integration Skill
 
-> 50 nodes · cohesion 0.07
+> 46 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **check-render-output.mjs** (57 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **parseAttrs()** (7 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectArrows()** (6 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **numberAttr()** (6 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectCompositionFrames()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectLegendBoxes()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **lineSegments()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectDesktopReadability()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectNonFiniteAttrs()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **pathSegments()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **straightPathSegments()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **textBox()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **projectedNodeTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **attrEntries()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectLegendCollisions()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectRelationshipLabelMasks()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **crossProduct()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **isCommand()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **pointsFromPath()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **properSegmentIntersection()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **segmentIntersectsBox()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **segmentsIntersect()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **stripTags()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectRelationshipCrossings()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **decodeNumericReferences()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- *... and 25 more nodes in this community*
+- **brand-marks.mjs** (51 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **brand-marks.test.mjs** (15 connections) — `.agents/skills/archify/test/brand-marks.test.mjs`
+- **loadDiagramWithBrandMarks()** (8 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **captureRemoteBrand()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **prepareDiagramBrandMarks()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **captureBrandReference()** (6 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **commandBrands()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **findBrandMark()** (5 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **checkedFetch()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **isPrivateBrandAddress()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **resolveRequestTarget()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **asUrl()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **iconCandidates()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **imageData()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **ipv4Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **ipv6Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **lookupForms()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **readLimited()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **validateUrlShape()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **generated-brand-marks.mjs** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
+- **BRAND_MARKS** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
+- **attribute()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **beforeDeadline()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **captureTimeoutMilliseconds()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **domainMark()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Integration Architecture]] (6 shared connections)
-- [[Community 41]] (4 shared connections)
+- [[Product Pages Specification]] (9 shared connections)
+- [[Mobile Responsive UI Skill]] (8 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (2 shared connections)
+- [[Community 44]] (2 shared connections)
+- [[Community 45]] (2 shared connections)
+- [[Pricing Regression Test Suite]] (2 shared connections)
+- [[Community 37]] (1 shared connections)
+- [[Community 98]] (1 shared connections)
+- [[Community 73]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- `.agents/skills/archify/scripts/check-render-output.mjs`
+- `.agents/skills/archify/bin/archify.mjs`
+- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- `.agents/skills/archify/renderers/shared/cli.mjs`
+- `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
+- `.agents/skills/archify/test/brand-marks.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 182 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 176 (98%)
+- INFERRED: 4 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,48 +1,55 @@
 # Community 43
 
-> 29 nodes · cohesion 0.09
+> 33 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **AppDelegate** (10 connections) — `ios/App/App/AppDelegate.swift`
-- **.application()** (7 connections) — `ios/App/App/AppDelegate.swift`
-- **.scene()** (7 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIApplication** (6 connections) — `ios/App/App/AppDelegate.swift`
-- **SceneDelegate** (5 connections) — `ios/App/App/SceneDelegate.swift`
-- **AppDelegate.swift** (3 connections) — `ios/App/App/AppDelegate.swift`
-- **SceneDelegate.swift** (3 connections) — `ios/App/App/SceneDelegate.swift`
-- **.applicationDidBecomeActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationDidEnterBackground()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillEnterForeground()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillResignActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillTerminate()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **Capacitor** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIWindow** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIKit** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIResponder** (2 connections)
-- **Any** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **Bool** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIScene** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UISceneSession** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIWindow** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIScene** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **UISceneSession** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **NSUserActivity** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **Set** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- *... and 4 more nodes in this community*
+- **session.js** (40 connections) — `src/data/session.js`
+- **productsStore.js** (22 connections) — `src/data/productsStore.js`
+- **apiFetch()** (12 connections) — `src/data/api.js`
+- **apiUrl()** (9 connections) — `src/data/api.js`
+- **revalidateSession()** (9 connections) — `src/data/session.js`
+- **api.js** (7 connections) — `src/data/api.js`
+- **syncPricebookWithSession()** (7 connections) — `src/data/productsStore.js`
+- **setSession()** (7 connections) — `src/data/session.js`
+- **fetchLiveProducts()** (5 connections) — `src/data/productsStore.js`
+- **signOut()** (5 connections) — `src/data/session.js`
+- **hasSession()** (4 connections) — `src/data/auth.js`
+- **loadCached()** (4 connections) — `src/data/productsStore.js`
+- **sessionFromAuth()** (3 connections) — `src/data/auth.js`
+- **products.js** (3 connections) — `src/data/products.js`
+- **emit()** (3 connections) — `src/data/productsStore.js`
+- **loadCachedSession()** (3 connections) — `src/data/session.js`
+- **onAuthBroadcast()** (2 connections) — `src/data/auth.js`
+- **CATEGORIES** (2 connections) — `src/data/products.js`
+- **getCacheKey()** (2 connections) — `src/data/productsStore.js`
+- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
+- **useProduct()** (2 connections) — `src/data/productsStore.js`
+- **emit()** (2 connections) — `src/data/session.js`
+- **signOutAndReload()** (2 connections) — `src/pages/Login.jsx`
+- **PRODUCTS** (1 connections) — `src/data/products.js`
+- **listeners** (1 connections) — `src/data/productsStore.js`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Zoho Integration Architecture]] (27 shared connections)
+- [[Community 38]] (11 shared connections)
+- [[Graphify Knowledge Graph Skill]] (10 shared connections)
+- [[Community 106]] (5 shared connections)
 
 ## Source Files
 
-- `ios/App/App/AppDelegate.swift`
-- `ios/App/App/SceneDelegate.swift`
+- `src/data/api.js`
+- `src/data/auth.js`
+- `src/data/products.js`
+- `src/data/productsStore.js`
+- `src/data/session.js`
+- `src/pages/Login.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 72 (100%)
+- EXTRACTED: 167 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

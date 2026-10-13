@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **label** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **minLength** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **relationshipWidth** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- [[Graphify Agent Rules]] (1 shared connections)
+- [[Community 65]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 

@@ -1,61 +1,57 @@
 # Community 39
 
-> 33 nodes · cohesion 0.10
+> 35 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **render-lifecycle.mjs** (81 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **svgAccessibleText()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **svgRootAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **renderDefinitions()** (11 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **resolveLegend()** (10 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **pathFor()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderSvg()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderTransitionLabel()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderLegend()** (6 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderBands()** (5 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **bandFor()** (3 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **bandTitles()** (3 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **lifecycleAreaBottom()** (3 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **legendY()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **measureState()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderLifecycleRail()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **routeVia()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **automaticPorts** (1 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **laneLabels** (1 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- *... and 8 more nodes in this community*
+- **addEventListener()** (22 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **ji()** (13 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **tc()** (11 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **zt()** (11 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **fh()** (10 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **yh()** (10 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **hh()** (9 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **rc()** (9 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **addListener()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **cm()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **vh()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **vt()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **gf()** (7 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **mh()** (7 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **Ih()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **ph()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **th()** (5 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **bh()** (4 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **lh()** (4 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **nc()** (4 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **nh()** (4 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **addWindowListener()** (3 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **attachListener()** (3 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **dt()** (3 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **Et()** (3 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Integration Architecture]] (34 shared connections)
-- [[Project Readme & Layout]] (29 shared connections)
-- [[Community 44]] (14 shared connections)
-- [[Community 72]] (12 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (8 shared connections)
-- [[Community 53]] (8 shared connections)
-- [[Architecture Doc Generator]] (7 shared connections)
-- [[Vercel Deployment Routing]] (1 shared connections)
+- [[Price Presentation & Product UI]] (38 shared connections)
+- [[Dependencies & Package Config]] (14 shared connections)
+- [[Master Codebase Architecture Reference]] (13 shared connections)
+- [[Design System & UI Tokens]] (12 shared connections)
+- [[Claude Agent Instructions]] (12 shared connections)
+- [[Zoho API Diagnostic Script]] (11 shared connections)
+- [[Architecture Doc Generator]] (9 shared connections)
+- [[Oxlint Linter Configuration]] (3 shared connections)
+- [[Community 48]] (1 shared connections)
+- [[Community 76]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/cli.mjs`
-- `.agents/skills/archify/renderers/shared/legend.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `ios/App/App/public/assets/index-BlyMIx9J.js`
 
 ## Audit Trail
 
-- EXTRACTED: 215 (98%)
-- INFERRED: 4 (2%)
+- EXTRACTED: 212 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

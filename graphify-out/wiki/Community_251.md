@@ -4,22 +4,22 @@
 
 ## Key Concepts
 
-- **community-proof-intake.test.mjs** (3 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
-- **read()** (1 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
+- **fromCol** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **maximum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 34]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/community-proof-intake.test.mjs`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

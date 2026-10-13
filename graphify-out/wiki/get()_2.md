@@ -1,32 +1,32 @@
 # get()
 
-> God node · 51 connections · `ios/App/App/public/assets/index-DPsXe5qz.js`
+> God node · 52 connections · `ios/App/App/public/assets/index-BlyMIx9J.js`
 
-**Community:** [[Product Pages Specification]]
+**Community:** [[Dependencies & Package Config]]
 
 ## Connections by Relation
 
 ### calls
-- [[qd()]] `EXTRACTED`
 - [[has()]] `EXTRACTED`
-- [[ua()]] `EXTRACTED`
-- [[resolve()]] `EXTRACTED`
+- [[bl()]] `EXTRACTED`
 - [[kf()]] `EXTRACTED`
-- [[Au()]] `EXTRACTED`
-- [[l()]] `EXTRACTED`
-- [[bc()]] `EXTRACTED`
-- [[bm()]] `EXTRACTED`
-- [[dc()]] `EXTRACTED`
-- [[fc()]] `EXTRACTED`
-- [[xl()]] `EXTRACTED`
-- [[hl()]] `EXTRACTED`
-- [[jm()]] `EXTRACTED`
-- [[mh()]] `EXTRACTED`
-- [[ms()]] `EXTRACTED`
-- [[ki()]] `EXTRACTED`
-- [[mm()]] `EXTRACTED`
+- [[Ca()]] `EXTRACTED`
+- [[resolve()]] `EXTRACTED`
+- [[qa()]] `EXTRACTED`
+- [[wc()]] `EXTRACTED`
 - [[am()]] `EXTRACTED`
+- [[bm()]] `EXTRACTED`
+- [[ju()]] `EXTRACTED`
+- [[U()]] `EXTRACTED`
+- [[gs()]] `EXTRACTED`
+- [[zm()]] `EXTRACTED`
+- [[fh()]] `EXTRACTED`
+- [[mm()]] `EXTRACTED`
 - [[execute()]] `EXTRACTED`
+- [[isInitialized()]] `EXTRACTED`
+- [[request()]] `EXTRACTED`
+- [[Kt()]] `EXTRACTED`
+- [[zl()]] `EXTRACTED`
 
 ### contains
 - [[_()]] `EXTRACTED`

@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **esm-BRjThtFA.js** (1 connections) — `ios/App/App/public/assets/esm-BRjThtFA.js`
-- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-BRjThtFA.js`
+- **esm-7GVxpqiE.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-7GVxpqiE.js`
+- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-7GVxpqiE.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/esm-BRjThtFA.js`
+- `android/app/src/main/assets/public/assets/esm-7GVxpqiE.js`
 
 ## Audit Trail
 

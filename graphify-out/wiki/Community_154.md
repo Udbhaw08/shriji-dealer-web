@@ -1,32 +1,30 @@
 # Community 154
 
-> 9 nodes · cohesion 0.31
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **cards** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **additionalProperties** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **required** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **Primary Commands** (5 connections) — `.agents/skills/graphify/SKILL.md`
+- **Graphify Knowledge Graph Skill** (4 connections) — `.agents/skills/graphify/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **1. Query the Graph (Context-Efficient)** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **2. Trace Relationships (Shortest Path)** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **3. Explain a Node or Symbol** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **4. Update the Graph (AST Re-Extraction)** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **Key Output Artifacts in `graphify-out/`** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **Why Use Graphify** (1 connections) — `.agents/skills/graphify/SKILL.md`
 
 ## Relationships
 
-- [[Community 129]] (3 shared connections)
-- [[Community 67]] (1 shared connections)
-- [[Community 262]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/graphify/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

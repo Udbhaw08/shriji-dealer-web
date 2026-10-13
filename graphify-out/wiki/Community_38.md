@@ -1,47 +1,58 @@
 # Community 38
 
-> 33 nodes · cohesion 0.06
+> 35 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **scripts** (15 connections) — `.agents/skills/archify/package.json`
-- **package.json** (11 connections) — `.agents/skills/archify/package.json`
-- **devDependencies** (5 connections) — `.agents/skills/archify/package.json`
-- **bin** (2 connections) — `.agents/skills/archify/package.json`
-- **engines** (2 connections) — `.agents/skills/archify/package.json`
-- **overrides** (2 connections) — `.agents/skills/archify/package.json`
-- **archify** (1 connections) — `.agents/skills/archify/package.json`
-- **description** (1 connections) — `.agents/skills/archify/package.json`
-- **ajv** (1 connections) — `.agents/skills/archify/package.json`
-- **parse5** (1 connections) — `.agents/skills/archify/package.json`
-- **saxes** (1 connections) — `.agents/skills/archify/package.json`
-- **simple-icons** (1 connections) — `.agents/skills/archify/package.json`
-- **node** (1 connections) — `.agents/skills/archify/package.json`
-- **license** (1 connections) — `.agents/skills/archify/package.json`
-- **name** (1 connections) — `.agents/skills/archify/package.json`
-- **fast-uri** (1 connections) — `.agents/skills/archify/package.json`
-- **private** (1 connections) — `.agents/skills/archify/package.json`
-- **build:gallery** (1 connections) — `.agents/skills/archify/package.json`
-- **build:guide** (1 connections) — `.agents/skills/archify/package.json`
-- **build:readme-showcase** (1 connections) — `.agents/skills/archify/package.json`
-- **build:start** (1 connections) — `.agents/skills/archify/package.json`
-- **check:brand-marks** (1 connections) — `.agents/skills/archify/package.json`
-- **check:release-identity** (1 connections) — `.agents/skills/archify/package.json`
-- **check:validators** (1 connections) — `.agents/skills/archify/package.json`
-- **check:viewer** (1 connections) — `.agents/skills/archify/package.json`
-- *... and 8 more nodes in this community*
+- **Product.jsx** (36 connections) — `src/pages/Product.jsx`
+- **dealer.js** (29 connections) — `src/data/dealer.js`
+- **ProductCard.jsx** (19 connections) — `src/components/ProductCard.jsx`
+- **dealer.test.mjs** (18 connections) — `src/data/dealer.test.mjs`
+- **Product()** (16 connections) — `src/pages/Product.jsx`
+- **PriceBlock.jsx** (15 connections) — `src/components/PriceBlock.jsx`
+- **ProductCard()** (15 connections) — `src/components/ProductCard.jsx`
+- **priceFor()** (14 connections) — `src/data/dealer.js`
+- **inr()** (11 connections) — `src/data/dealer.js`
+- **viewerFor()** (8 connections) — `src/data/dealer.js`
+- **CustomerPrice()** (7 connections) — `src/components/PriceBlock.jsx`
+- **productSlug()** (7 connections) — `src/data/dealer.js`
+- **shareLink()** (7 connections) — `src/data/dealer.js`
+- **registerDealer()** (6 connections) — `src/data/dealer.js`
+- **tagFor()** (6 connections) — `src/data/dealer.js`
+- **DealerPrice()** (5 connections) — `src/components/PriceBlock.jsx`
+- **formatWhatsAppPhone()** (4 connections) — `src/data/dealer.js`
+- **slugifyProduct()** (4 connections) — `src/data/dealer.js`
+- **tierOf()** (4 connections) — `src/data/dealer.js`
+- **DEALERS** (3 connections) — `src/data/dealer.js`
+- **isFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **featureBoxes()** (3 connections) — `src/pages/Product.jsx`
+- **PriceBlock()** (2 connections) — `src/components/PriceBlock.jsx`
+- **price99()** (2 connections) — `src/data/dealer.js`
+- **BAND** (1 connections) — `src/data/dealer.js`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Graphify Knowledge Graph Skill]] (54 shared connections)
+- [[Community 43]] (11 shared connections)
+- [[Community 106]] (10 shared connections)
+- [[Community 130]] (4 shared connections)
+- [[Community 129]] (3 shared connections)
+- [[Community 91]] (3 shared connections)
+- [[Zoho Integration Architecture]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/package.json`
+- `src/components/PriceBlock.jsx`
+- `src/components/ProductCard.jsx`
+- `src/data/dealer.js`
+- `src/data/dealer.test.mjs`
+- `src/data/favoritesStore.js`
+- `src/pages/Product.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (100%)
+- EXTRACTED: 255 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

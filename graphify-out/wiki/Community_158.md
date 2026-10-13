@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Critical Mobile Responsiveness Safeguards** (6 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **Shriji Responsive UI Skill** (3 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **1. Viewport Zoom-Out Prevention** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **2. CSS Grid Child Shrinking** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **3. Product Card Rows on Mobile (`<= 719px`)** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **4. Horizontal Scrollable Tabs (`.utabs`, `.tabs`)** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **5. Hero Banner on Small Screens (`<= 640px`)** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **Design System Tokens** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **Archify JSON IR Schemas** (7 connections) — `.agents/skills/archify/schemas/README.md`
+- **Files** (2 connections) — `.agents/skills/archify/schemas/README.md`
+- **README.md** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Error format** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Legend presentation contract** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Runtime validation** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **schema_version policy** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Shared definitions (common.schema.json)** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Visual quality and engineering truth** (1 connections) — `.agents/skills/archify/schemas/README.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/shriji-responsive-ui/SKILL.md`
+- `.agents/skills/archify/schemas/README.md`
 
 ## Audit Trail
 

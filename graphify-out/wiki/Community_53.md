@@ -1,60 +1,52 @@
 # Community 53
 
-> 25 nodes · cohesion 0.15
+> 25 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **workflow-compiler.mjs** (102 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **textUnits()** (33 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **minimumNodeTextWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **createReadableLayout()** (12 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **text-fit.mjs** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **readableGroupBounds()** (5 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **authoredNodeWidth()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **compileWorkflowWithFeedback()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **authoredNodeHeight()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **compilerFailure()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **feedbackFailure()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **nodeWidthContributor()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **verticalIntervalsOverlap()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **workflowLabelWidth()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **createLegacyLayout()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **stableCompare()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **stableText()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **stableValueKey()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **workflowEdgeName()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **WorkflowLayoutFeedback** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **nodeTextFit** (1 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **cloneWorkflow()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **LEGACY_COLUMN_CENTERS** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **READABLE_CANDIDATE_COST_PRIORITY** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **.constructor()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **architecture-delta.mjs** (65 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **validateArchitectureDeltaHtml()** (11 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **renderArchitectureDeltaHtml()** (6 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **architectureDeltaChangeRows()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **compareEntities()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **reviewTargetTags()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **expectedReviewTargetSignature()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **primaryReviewTags()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **reviewIdentity()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **reviewPrimaryStates()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **sortedObjects()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **addState()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **fieldChanges()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **normalizeComponent()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **normalizedField()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **reviewTargetSignature()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **safeJson()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **statusFor()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **total()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **BOUNDARY_FIELDS** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **codepointOrder()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **COMPONENT_FIELDS** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **CONNECTION_FIELDS** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **normalizeBoundary()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **sorted()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Relationships
 
-- [[Zoho Integration Architecture]] (48 shared connections)
-- [[Project Readme & Layout]] (20 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (11 shared connections)
-- [[Community 72]] (11 shared connections)
-- [[Community 44]] (10 shared connections)
-- [[Community 39]] (8 shared connections)
-- [[Architecture Doc Generator]] (8 shared connections)
-- [[Community 106]] (4 shared connections)
-- [[Community 188]] (4 shared connections)
-- [[Vercel Deployment Routing]] (2 shared connections)
-- [[Community 180]] (1 shared connections)
-- [[Community 119]] (1 shared connections)
+- [[Community 74]] (20 shared connections)
+- [[Community 95]] (18 shared connections)
+- [[Mobile Responsive UI Skill]] (5 shared connections)
+- [[Community 115]] (4 shared connections)
+- [[Community 127]] (2 shared connections)
+- [[Community 98]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
-- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 218 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 129 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

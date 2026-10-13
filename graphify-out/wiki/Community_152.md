@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **web-DyQhGb8D.js** (8 connections) — `ios/App/App/public/assets/web-DyQhGb8D.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-DyQhGb8D.js`
-- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-DyQhGb8D.js`
-- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-DyQhGb8D.js`
-- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-DyQhGb8D.js`
-- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-DyQhGb8D.js`
-- **getState()** (1 connections) — `ios/App/App/public/assets/web-DyQhGb8D.js`
-- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-DyQhGb8D.js`
-- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-DyQhGb8D.js`
+- **web-BvPTzfRW.js** (8 connections) — `android/app/src/main/assets/public/assets/web-BvPTzfRW.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-BvPTzfRW.js`
+- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-BvPTzfRW.js`
+- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-BvPTzfRW.js`
+- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-BvPTzfRW.js`
+- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-BvPTzfRW.js`
+- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-BvPTzfRW.js`
+- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-BvPTzfRW.js`
+- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-BvPTzfRW.js`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-DyQhGb8D.js`
+- `android/app/src/main/assets/public/assets/web-BvPTzfRW.js`
 
 ## Audit Trail
 

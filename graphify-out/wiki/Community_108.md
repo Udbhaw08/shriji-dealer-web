@@ -1,23 +1,23 @@
 # Community 108
 
-> 14 nodes · cohesion 0.14
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **generate-brand-marks.mjs** (13 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **catalog** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **catalogPath** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **domains** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **fail()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **generated** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **here** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **ids** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **lookupForms()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **lookupKeys** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **normalizedList()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **outputPath** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **root** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **simpleBySlug** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **web-Cg8-_1Jy.js** (13 connections) — `ios/App/App/public/assets/web-Cg8-_1Jy.js`
+- **applyPrefix()** (4 connections) — `ios/App/App/public/assets/web-Cg8-_1Jy.js`
+- **keys()** (4 connections) — `ios/App/App/public/assets/web-Cg8-_1Jy.js`
+- **get()** (3 connections) — `ios/App/App/public/assets/web-Cg8-_1Jy.js`
+- **migrate()** (3 connections) — `ios/App/App/public/assets/web-Cg8-_1Jy.js`
+- **rawKeys()** (3 connections) — `ios/App/App/public/assets/web-Cg8-_1Jy.js`
+- **clear()** (2 connections) — `ios/App/App/public/assets/web-Cg8-_1Jy.js`
+- **remove()** (2 connections) — `ios/App/App/public/assets/web-Cg8-_1Jy.js`
+- **removeOld()** (2 connections) — `ios/App/App/public/assets/web-Cg8-_1Jy.js`
+- **set()** (2 connections) — `ios/App/App/public/assets/web-Cg8-_1Jy.js`
+- **configure()** (1 connections) — `ios/App/App/public/assets/web-Cg8-_1Jy.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-Cg8-_1Jy.js`
+- **impl()** (1 connections) — `ios/App/App/public/assets/web-Cg8-_1Jy.js`
+- **prefix()** (1 connections) — `ios/App/App/public/assets/web-Cg8-_1Jy.js`
 
 ## Relationships
 
@@ -25,11 +25,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- `ios/App/App/public/assets/web-Cg8-_1Jy.js`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

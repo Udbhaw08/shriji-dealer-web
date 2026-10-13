@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Shriji Zoho Integration Skill** (5 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
-- **API Endpoints Reference** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
-- **Key Files & Architecture** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
-- **Pricing & Rate Priority** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
-- **Validation & Audit Commands** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
+- **Lifecycle Renderer** (5 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **README.md** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Input** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Layout budget** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Legend** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/shriji-zoho-integration/SKILL.md`
+- `.agents/skills/archify/renderers/lifecycle/README.md`
 
 ## Audit Trail
 

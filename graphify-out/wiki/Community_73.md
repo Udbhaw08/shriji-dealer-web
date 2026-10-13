@@ -1,47 +1,53 @@
 # Community 73
 
-> 21 nodes · cohesion 0.20
+> 21 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **hash.js** (18 connections) — `backend/src/utils/hash.js`
-- **loginCode.js** (15 connections) — `backend/src/utils/loginCode.js`
-- **generateLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
-- **hash.test.mjs** (7 connections) — `backend/test/hash.test.mjs`
-- **loginCode.test.mjs** (7 connections) — `backend/test/loginCode.test.mjs`
-- **formatLoginCode()** (7 connections) — `backend/src/utils/loginCode.js`
-- **sha256()** (6 connections) — `backend/src/utils/hash.js`
-- **hashPassword()** (4 connections) — `backend/src/utils/hash.js`
-- **verifyPassword()** (4 connections) — `backend/src/utils/hash.js`
-- **isValidLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
-- **parseLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
-- **generateOtp()** (3 connections) — `backend/src/utils/hash.js`
-- **scryptKey()** (3 connections) — `backend/src/utils/hash.js`
-- **USER_CATEGORIES** (3 connections) — `backend/src/utils/loginCode.js`
-- **generateCode()** (2 connections) — `backend/src/utils/hash.js`
-- **randomToken()** (2 connections) — `backend/src/utils/hash.js`
-- **generateRandomDigits()** (2 connections) — `backend/src/utils/loginCode.js`
-- **generateRandomLetters()** (2 connections) — `backend/src/utils/loginCode.js`
-- **GST_TREATMENT_OPTIONS** (2 connections) — `backend/src/utils/loginCode.js`
-- **SCRYPT** (1 connections) — `backend/src/utils/hash.js`
-- **PREFIX_MAP** (1 connections) — `backend/src/utils/loginCode.js`
+- **workflow-compiler.mjs** (102 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **createReadableLayout()** (12 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **readableGroupBounds()** (5 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **authoredNodeWidth()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **compileWorkflowWithFeedback()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **authoredNodeHeight()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **compilerFailure()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **feedbackFailure()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **nodeWidthContributor()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **verticalIntervalsOverlap()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **workflowLabelWidth()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **createLegacyLayout()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **stableCompare()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **stableText()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **stableValueKey()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **workflowEdgeName()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **WorkflowLayoutFeedback** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **cloneWorkflow()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **LEGACY_COLUMN_CENTERS** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **READABLE_CANDIDATE_COST_PRIORITY** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
 
 ## Relationships
 
-- [[Community 61]] (12 shared connections)
-- [[Community 93]] (6 shared connections)
-- [[Community 68]] (1 shared connections)
+- [[Pricing Regression Test Suite]] (39 shared connections)
+- [[Product Pages Specification]] (14 shared connections)
+- [[Mobile Responsive UI Skill]] (14 shared connections)
+- [[Community 44]] (7 shared connections)
+- [[Community 109]] (4 shared connections)
+- [[Community 45]] (4 shared connections)
+- [[Community 192]] (4 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (3 shared connections)
+- [[Community 122]] (1 shared connections)
+- [[Community 51]] (1 shared connections)
+- [[Community 114]] (1 shared connections)
+- [[Zoho Integration Skill]] (1 shared connections)
 
 ## Source Files
 
-- `backend/src/utils/hash.js`
-- `backend/src/utils/loginCode.js`
-- `backend/test/hash.test.mjs`
-- `backend/test/loginCode.test.mjs`
+- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 105 (100%)
+- EXTRACTED: 161 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

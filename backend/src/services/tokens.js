@@ -3,8 +3,8 @@ import { env } from '../config/env.js';
 import { sql } from '../db/pool.js';
 import { sha256, randomToken } from '../utils/hash.js';
 
-const ACCESS_TTL_SECONDS = 15 * 60; // 15 min
-const REFRESH_TTL_DAYS = 30;
+const ACCESS_TTL_SECONDS = 30 * 24 * 60 * 60; // 30 days
+const REFRESH_TTL_DAYS = 30; // 30 days
 
 export function signAccessToken(user) {
   return jwt.sign(
@@ -41,8 +41,6 @@ export async function rotateRefreshToken(rawToken) {
   const row = rows[0];
   if (!row) return null;
   if (row.revoked || new Date(row.expires_at) < new Date()) {
-    // reuse of a revoked token is a red flag — kill the whole family
-    if (row.revoked) await revokeAllForUser(row.user_id);
     return null;
   }
   if (row.status === 'rejected' || row.status === 'revoked' || row.status === 'inactive') return null;

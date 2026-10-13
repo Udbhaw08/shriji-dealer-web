@@ -1,33 +1,44 @@
 # Community 123
 
-> 12 nodes · cohesion 0.17
+> 12 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **generate-codebase-doc.mjs** (11 connections) — `scripts/generate-codebase-doc.mjs`
-- **allFiles** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **apiFiles** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **components** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **dataStores** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **getFiles()** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **istDateString** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **pages** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **pkg** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **rootDir** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **routes** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **scripts** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **ChromeVisualBrowser** (21 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **PipeCdp** (7 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.inspect()** (5 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.attach()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.close()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.constructor()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **evaluate()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.failAll()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.consume()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.waitFor()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.failure()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 40]] (7 shared connections)
+- [[Community 52]] (6 shared connections)
+- [[Community 105]] (2 shared connections)
+- [[Community 79]] (2 shared connections)
+- [[Community 107]] (1 shared connections)
+- [[Community 103]] (1 shared connections)
+- [[Community 32]] (1 shared connections)
+- [[Community 136]] (1 shared connections)
+- [[Community 169]] (1 shared connections)
+- [[Community 121]] (1 shared connections)
+- [[Community 149]] (1 shared connections)
+- [[Community 171]] (1 shared connections)
 
 ## Source Files
 
-- `scripts/generate-codebase-doc.mjs`
+- `.agents/skills/archify/bin/visual-check.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 54 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

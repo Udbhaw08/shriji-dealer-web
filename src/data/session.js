@@ -2,7 +2,7 @@ import { useSyncExternalStore } from "react";
 import { isDealer, tierOf, registerDealer } from "./dealer";
 import {
   initTokens, hasSession, fetchMe, logout as authLogout, sessionFromAuth,
-  broadcastAuthChange, onAuthBroadcast,
+  broadcastAuthChange, onAuthBroadcast, SESSION_PROFILE_KEY,
 } from "./auth";
 import { syncPricebookWithSession } from "./productsStore";
 
@@ -22,7 +22,28 @@ export { isDealer, tierOf, broadcastAuthChange };
 
 export const GUEST = { role: "guest" };
 
-let state = GUEST;
+function loadCachedSession() {
+  if (typeof window === "undefined") return GUEST;
+  try {
+    const rawTokens = localStorage.getItem("shriji.auth.tokens") || sessionStorage.getItem("shriji.auth.tokens");
+    if (!rawTokens) return GUEST;
+    const tokens = JSON.parse(rawTokens);
+    if (!tokens || (!tokens.accessToken && !tokens.refreshToken)) return GUEST;
+    if (tokens.expiresAt && Date.now() > tokens.expiresAt) return GUEST;
+
+    const rawProfile = localStorage.getItem(SESSION_PROFILE_KEY) || sessionStorage.getItem(SESSION_PROFILE_KEY);
+    if (!rawProfile) return GUEST;
+    const profile = JSON.parse(rawProfile);
+    if (profile && profile.role && profile.role !== "guest") {
+      if (profile.dealer) registerDealer(profile.dealer);
+      syncPricebookWithSession(profile);
+      return profile;
+    }
+  } catch {}
+  return GUEST;
+}
+
+let state = loadCachedSession();
 const subs = new Set();
 
 function emit() {
@@ -52,11 +73,27 @@ export function setSession(next) {
   if (next?.dealer) registerDealer(next.dealer);
   state = next;
   syncPricebookWithSession(next);
+  if (typeof window !== "undefined") {
+    try {
+      if (!next || next.role === "guest") {
+        localStorage.removeItem(SESSION_PROFILE_KEY);
+        sessionStorage.removeItem(SESSION_PROFILE_KEY);
+      } else {
+        localStorage.setItem(SESSION_PROFILE_KEY, JSON.stringify(next));
+      }
+    } catch {}
+  }
   emit();
 }
 
 export async function signOut() {
   await authLogout().catch(() => {});
+  if (typeof window !== "undefined") {
+    try {
+      localStorage.removeItem(SESSION_PROFILE_KEY);
+      sessionStorage.removeItem(SESSION_PROFILE_KEY);
+    } catch {}
+  }
   setSession(GUEST);
   broadcastAuthChange("AUTH_UPDATED");
 }
@@ -86,6 +123,10 @@ export async function revalidateSession() {
       const next = sessionFromAuth(data.user, data.dealer);
       if (!isSessionEqual(state, next)) {
         setSession(next);
+      } else if (typeof window !== "undefined") {
+        try {
+          localStorage.setItem(SESSION_PROFILE_KEY, JSON.stringify(next));
+        } catch {}
       }
       return next;
     } catch {
@@ -156,8 +197,12 @@ if (typeof window !== "undefined") {
 
   // Cross-tab fallback via storage events
   window.addEventListener("storage", (e) => {
-    if (e.key === "shriji_auth_token" || e.key === "shriji.auth.tokens") {
-      revalidateSession();
+    if (e.key === "shriji_auth_token" || e.key === "shriji.auth.tokens" || e.key === SESSION_PROFILE_KEY) {
+      if (!hasSession()) {
+        setSession(GUEST);
+      } else {
+        revalidateSession();
+      }
     }
   });
 }

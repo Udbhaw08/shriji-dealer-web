@@ -1,38 +1,33 @@
 # Community 126
 
-> 11 nodes · cohesion 0.33
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **ed()** (10 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **_getReauthenticationResolver()** (8 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **_getIdTokenResponse()** (7 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **_linkToIdToken()** (7 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **qf()** (7 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **buildRequest()** (5 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **_buildIdpRequest()** (4 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **_makeVerificationRequest()** (4 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **headers()** (2 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **_performRefresh()** (2 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **response()** (2 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **generate-codebase-doc.mjs** (11 connections) — `scripts/generate-codebase-doc.mjs`
+- **allFiles** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **apiFiles** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **components** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **dataStores** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **getFiles()** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **istDateString** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **pages** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **pkg** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **rootDir** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **routes** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **scripts** (1 connections) — `scripts/generate-codebase-doc.mjs`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (12 shared connections)
-- [[Claude Agent Instructions]] (3 shared connections)
-- [[Product Requirements Documentation]] (2 shared connections)
-- [[Client Products Data Store]] (2 shared connections)
-- [[Product Pages Specification]] (1 shared connections)
-- [[Community 92]] (1 shared connections)
-- [[Live Pricing Audit Tool]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DPsXe5qz.js`
+- `scripts/generate-codebase-doc.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,39 +1,50 @@
 # Community 84
 
-> 18 nodes · cohesion 0.11
+> 18 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **DESIGN.md — the design system as actually built** (8 connections) — `docs/DESIGN.md`
-- **4. Components already built — reuse these** (7 connections) — `docs/DESIGN.md`
-- **2. Tokens** (4 connections) — `docs/DESIGN.md`
-- **DESIGN.md** (1 connections) — `docs/DESIGN.md`
-- **1. The direction in one paragraph** (1 connections) — `docs/DESIGN.md`
-- **3. Layout primitives** (1 connections) — `docs/DESIGN.md`
-- **5. Icons** (1 connections) — `docs/DESIGN.md`
-- **6. Responsive rules** (1 connections) — `docs/DESIGN.md`
-- **7. Motion and accessibility** (1 connections) — `docs/DESIGN.md`
-- **Actions** (1 connections) — `docs/DESIGN.md`
-- **Colour** (1 connections) — `docs/DESIGN.md`
-- **Content** (1 connections) — `docs/DESIGN.md`
-- **Detail** (1 connections) — `docs/DESIGN.md`
-- **Listing sidebar** (1 connections) — `docs/DESIGN.md`
-- **Navigation and filtering** (1 connections) — `docs/DESIGN.md`
-- **Product** (1 connections) — `docs/DESIGN.md`
-- **Spacing, radius, shadow, motion** (1 connections) — `docs/DESIGN.md`
-- **Type** (1 connections) — `docs/DESIGN.md`
+- **pool.js** (18 connections) — `backend/src/db/pool.js`
+- **logger.js** (14 connections) — `backend/src/utils/logger.js`
+- **env.js** (13 connections) — `backend/src/config/env.js`
+- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
+- **webhooks.js** (13 connections) — `backend/src/routes/webhooks.js`
+- **log** (13 connections) — `backend/src/utils/logger.js`
+- **env** (11 connections) — `backend/src/config/env.js`
+- **index.js** (11 connections) — `backend/src/jobs/index.js`
+- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
+- **notifications.js** (9 connections) — `backend/src/services/notifications.js`
+- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
+- **catalogSync()** (3 connections) — `backend/src/jobs/catalogSync.js`
+- **tokenCleanup()** (3 connections) — `backend/src/jobs/catalogSync.js`
+- **markPollRun()** (3 connections) — `backend/src/jobs/crmPoll.js`
+- **bool()** (1 connections) — `backend/src/config/env.js`
+- **num()** (1 connections) — `backend/src/config/env.js`
+- **tx()** (1 connections) — `backend/src/db/pool.js`
+- **ts()** (1 connections) — `backend/src/utils/logger.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 49]] (24 shared connections)
+- [[Community 63]] (11 shared connections)
+- [[Community 69]] (11 shared connections)
+- [[Community 99]] (10 shared connections)
+- [[Community 118]] (6 shared connections)
 
 ## Source Files
 
-- `docs/DESIGN.md`
+- `backend/src/config/env.js`
+- `backend/src/db/pool.js`
+- `backend/src/jobs/catalogSync.js`
+- `backend/src/jobs/crmPoll.js`
+- `backend/src/jobs/index.js`
+- `backend/src/routes/webhooks.js`
+- `backend/src/services/notifications.js`
+- `backend/src/utils/logger.js`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
+- EXTRACTED: 142 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,35 +1,37 @@
 # Community 120
 
-> 12 nodes · cohesion 0.26
+> 13 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **favoritesStore.js** (18 connections) — `src/data/favoritesStore.js`
-- **persist()** (5 connections) — `src/data/favoritesStore.js`
-- **addFavorite()** (3 connections) — `src/data/favoritesStore.js`
-- **isFavorite()** (3 connections) — `src/data/favoritesStore.js`
-- **removeFavorite()** (3 connections) — `src/data/favoritesStore.js`
-- **toggleFavorite()** (3 connections) — `src/data/favoritesStore.js`
-- **clearFavorites()** (2 connections) — `src/data/favoritesStore.js`
-- **notify()** (2 connections) — `src/data/favoritesStore.js`
-- **favoritesState** (1 connections) — `src/data/favoritesStore.js`
-- **getFavorites()** (1 connections) — `src/data/favoritesStore.js`
-- **listeners** (1 connections) — `src/data/favoritesStore.js`
-- **loadFromStorage()** (1 connections) — `src/data/favoritesStore.js`
+- **guided-views-browser.test.mjs** (17 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **run()** (8 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **settled()** (4 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **activate()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **hash()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **variant()** (1 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
 
 ## Relationships
 
-- [[Pricing & Roles Skill]] (5 shared connections)
-- [[Community 36]] (3 shared connections)
-- [[Community 45]] (1 shared connections)
+- [[Community 52]] (5 shared connections)
+- [[Community 107]] (3 shared connections)
+- [[Community 40]] (1 shared connections)
+- [[Community 105]] (1 shared connections)
 
 ## Source Files
 
-- `src/data/favoritesStore.js`
+- `.agents/skills/archify/test/guided-views-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (100%)
+- EXTRACTED: 54 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

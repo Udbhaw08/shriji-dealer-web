@@ -1,52 +1,50 @@
 # Community 35
 
-> 35 nodes · cohesion 0.16
+> 38 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **archify.mjs** (50 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandDeliver()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandMigrate()** (17 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandValidate()** (13 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandRender()** (10 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandPreview()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **diagnostic()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rendererPath()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **renderValidatedArchitecture()** (8 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractQualityArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractRepoRootArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rejectCliArgument()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **assertEvidenceType()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **checkerDiagnostics()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rendererEnv()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rendererFailure()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportArtifactFailure()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **inputDiagnostic()** (4 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **engineeringProfileFromArtifact()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractMigrationOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **formatDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **migrationPathDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **migrationReport()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportArtifactArgumentFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportDeliveryFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- *... and 10 more nodes in this community*
+- **update-notifier.test.mjs** (43 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **operationPath()** (5 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **stateDirectory()** (4 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **fixture()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **remoteReleaseForVersion()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **runCheckInChild()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **statePath()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **writeCompactCommittedState()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **assertUnsafeCacheStateIsIgnored()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **committedStateFiles()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **compactStateSource()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **localRelease()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **pauseOpenOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **pauseRenameMatchingOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **pauseRenameOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **pauseWriteOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **remoteRelease()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **writeJson()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **writePendingOperation()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **baseTime** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **cachedStateWithHistory()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **cachedUpdateState()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **cancel()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **candidateStateForDigest()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **checkerPath** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [[Community 99]] (35 shared connections)
-- [[Community 60]] (4 shared connections)
-- [[Community 87]] (4 shared connections)
-- [[Community 106]] (3 shared connections)
-- [[Vercel Deployment Routing]] (1 shared connections)
+- [[Community 55]] (3 shared connections)
+- [[Community 94]] (2 shared connections)
+- [[Community 46]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
+- `.agents/skills/archify/test/update-notifier.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 229 (97%)
-- INFERRED: 6 (3%)
+- EXTRACTED: 108 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

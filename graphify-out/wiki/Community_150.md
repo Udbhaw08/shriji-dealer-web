@@ -1,31 +1,33 @@
 # Community 150
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **2. Customer vs. Dealer Price Resolution (`src/data/dealer.js`)** (4 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **PRICING-ARCHITECTURE.md — Pricing Engine & Audit Specification** (4 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **1. Source of Truth: Live Zoho Commerce Store API** (2 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **PRICING-ARCHITECTURE.md** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **2.1 Customer View** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **2.2 Dealer View** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **2.3 Share Link Invariant** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **3. Automated Pricing Regression Protection** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **Rate Priority Hierarchy** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **v1-compatibility.test.mjs** (9 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **validate()** (3 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **check()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **legacyDataflowDocument()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **narrowExplicitViewBoxDocuments()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **OFFICIAL_V1_EXAMPLES** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 82]] (1 shared connections)
+- [[Product Pages Specification]] (1 shared connections)
 
 ## Source Files
 
-- `docs/PRICING-ARCHITECTURE.md`
+- `.agents/skills/archify/test/v1-compatibility.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 18 (90%)
+- INFERRED: 2 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

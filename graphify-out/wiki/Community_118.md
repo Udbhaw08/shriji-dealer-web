@@ -1,36 +1,37 @@
 # Community 118
 
-> 13 nodes · cohesion 0.21
+> 13 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **semantic-radar.test.mjs** (15 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **evaluate()** (5 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **dragMouse()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **loadArtifact()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **observe()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **radarRects()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **overlaps()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **crmClient.js** (23 connections) — `backend/src/services/crmClient.js`
+- **crmFetch()** (10 connections) — `backend/src/services/crmClient.js`
+- **crmConfigured()** (6 connections) — `backend/src/services/crmClient.js`
+- **updateDealerCodeInCrm()** (4 connections) — `backend/src/services/crmClient.js`
+- **deactivateAccountInCrm()** (3 connections) — `backend/src/services/crmClient.js`
+- **deactivateContactInCrm()** (3 connections) — `backend/src/services/crmClient.js`
+- **getDealerAccount()** (3 connections) — `backend/src/services/crmClient.js`
+- **isCrmConfigured()** (3 connections) — `backend/src/services/crmClient.js`
+- **createDealerAccount()** (2 connections) — `backend/src/services/crmClient.js`
+- **createDealerContact()** (2 connections) — `backend/src/services/crmClient.js`
+- **getAccessToken()** (2 connections) — `backend/src/services/crmClient.js`
+- **linkContactToBackendUser()** (2 connections) — `backend/src/services/crmClient.js`
+- **FIELDS** (1 connections) — `backend/src/services/crmClient.js`
 
 ## Relationships
 
-- [[Community 41]] (1 shared connections)
-- [[Community 74]] (1 shared connections)
-- [[Community 104]] (1 shared connections)
+- [[Community 84]] (6 shared connections)
+- [[Community 49]] (5 shared connections)
+- [[Community 69]] (2 shared connections)
+- [[Community 99]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/semantic-radar.test.mjs`
+- `backend/src/services/crmClient.js`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 64 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

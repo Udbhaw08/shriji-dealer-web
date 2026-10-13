@@ -1,36 +1,41 @@
 # Community 107
 
-> 14 nodes · cohesion 0.23
+> 14 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **additionalProperties** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **required** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **edges** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **groups** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **phases** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **intent-trace-browser.test.mjs** (15 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **desktop-browser.mjs** (8 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **desktopBrowser()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **desktopPointerCheck()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **afterTimer()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
 
 ## Relationships
 
-- [[Graphify Workflow]] (5 shared connections)
-- [[Community 94]] (5 shared connections)
+- [[Community 52]] (9 shared connections)
+- [[Community 119]] (3 shared connections)
+- [[Community 120]] (3 shared connections)
+- [[Community 40]] (2 shared connections)
+- [[Community 123]] (1 shared connections)
+- [[Community 105]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- `.agents/skills/archify/test/intent-trace-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (100%)
+- EXTRACTED: 63 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,6 +1,6 @@
 # Community 44
 
-> 28 nodes · cohesion 0.12
+> 30 nodes · cohesion 0.11
 
 ## Key Concepts
 
@@ -11,36 +11,35 @@
 - **defaultFromSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
 - **defaultToSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
 - **pathFor()** (8 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderFlowLabel()** (8 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **pathFor()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **polylinePath()** (8 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **roundedPath()** (7 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
 - **connectionSides()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
 - **flowSides()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderFlowPath()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
 - **stageX()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
 - **transitionSides()** (5 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **flowLabelSize()** (4 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderStage()** (4 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
 - **componentText** (4 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
 - **connectionEndpointSide()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
 - **measureNode()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
 - **routeVia()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
 - **stageFrame()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **routeVia()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
 - **automaticPorts** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
 - **compositionFrames** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
 - **__dirname** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
 - **layout** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **LEGEND_CATALOG** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **nodes** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- *... and 3 more nodes in this community*
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Integration Architecture]] (39 shared connections)
-- [[Project Readme & Layout]] (21 shared connections)
-- [[Community 39]] (14 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (12 shared connections)
-- [[Community 53]] (10 shared connections)
-- [[Architecture Doc Generator]] (5 shared connections)
-- [[Community 72]] (5 shared connections)
-- [[Vercel Deployment Routing]] (1 shared connections)
+- [[Pricing Regression Test Suite]] (46 shared connections)
+- [[Mobile Responsive UI Skill]] (24 shared connections)
+- [[Community 45]] (15 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (13 shared connections)
+- [[Product Pages Specification]] (8 shared connections)
+- [[Community 73]] (7 shared connections)
+- [[Zoho Integration Skill]] (2 shared connections)
 
 ## Source Files
 
@@ -51,8 +50,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 197 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 213 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

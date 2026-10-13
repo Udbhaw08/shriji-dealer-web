@@ -1,55 +1,56 @@
 # Graphify Workflow
 
-> 42 nodes · cohesion 0.05
+> 42 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **properties** (33 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **height** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **labelSegment** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **variant** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **brand** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **channelX** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **channelY** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **fromSide** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **id** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **labelAt** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **labelDx** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **labelDy** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **lane** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **role** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **route** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **sublabel** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **tag** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **toSide** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **yOffset** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **i()** (67 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **t()** (25 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **ss()** (18 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **s()** (16 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **r()** (15 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **Mp()** (13 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **gs()** (12 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **vf()** (10 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **ms()** (8 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **vs()** (8 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **xs()** (8 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **zs()** (8 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **ne()** (7 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **ws()** (7 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **ys()** (7 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **ao()** (6 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **cs()** (6 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **fm()** (6 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **ns()** (6 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **os()** (6 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **ps()** (6 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **to()** (6 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **hs()** (5 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **It()** (5 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **ks()** (5 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
 - *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [[Community 107]] (5 shared connections)
-- [[Community 81]] (2 shared connections)
-- [[Community 245]] (1 shared connections)
-- [[Community 246]] (1 shared connections)
-- [[Community 247]] (1 shared connections)
-- [[Community 273]] (1 shared connections)
-- [[Community 248]] (1 shared connections)
-- [[Community 51]] (1 shared connections)
-- [[Community 274]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (55 shared connections)
+- [[Product Brand & Business Vision]] (31 shared connections)
+- [[Product Requirements Documentation]] (25 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (18 shared connections)
+- [[Pricing & Roles Skill]] (14 shared connections)
+- [[Community 41]] (12 shared connections)
+- [[Client Products Data Store]] (10 shared connections)
+- [[Community 68]] (7 shared connections)
+- [[Vercel Deployment Routing]] (6 shared connections)
+- [[Community 30]] (5 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
 
 ## Audit Trail
 
-- EXTRACTED: 96 (100%)
+- EXTRACTED: 345 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

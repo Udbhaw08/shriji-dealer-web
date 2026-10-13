@@ -1,10 +1,11 @@
 # Community 295
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **build.gradle** (0 connections) — `android/build.gradle`
+- **checkout-line-endings.test.mjs** (1 connections) — `.agents/skills/archify/test/checkout-line-endings.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/checkout-line-endings.test.mjs`
 
 ## Relationships
 
@@ -12,11 +13,11 @@
 
 ## Source Files
 
-- `android/build.gradle`
+- `.agents/skills/archify/test/checkout-line-endings.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

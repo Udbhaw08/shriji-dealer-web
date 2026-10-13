@@ -1,14 +1,15 @@
 # Community 226
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **Agent Operating Guidelines & Zero-Token Context Strategy** (3 connections) — `GEMINI.md`
-- **Shriji Domestic Appliances — Sunshine Dealer Web** (2 connections) — `GEMINI.md`
-- **GEMINI.md** (1 connections) — `GEMINI.md`
-- **Mandatory Context Rule: Knowledge Graph First** (1 connections) — `GEMINI.md`
-- **Project Hard Rules** (1 connections) — `GEMINI.md`
+- **render-output-checks.test.mjs** (5 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **checker** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **checkHtml()** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
 
 ## Relationships
 
@@ -16,11 +17,11 @@
 
 ## Source Files
 
-- `GEMINI.md`
+- `.agents/skills/archify/test/render-output-checks.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

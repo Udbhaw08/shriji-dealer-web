@@ -1,37 +1,34 @@
 # Community 116
 
-> 13 nodes · cohesion 0.31
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **focus-browser.test.mjs** (17 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **run()** (8 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **stable()** (6 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **click()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **point()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **key()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **move()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **select()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **focus()** (2 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **variant()** (1 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **Shriji Dealer Backend — Render Deployment Runbook** (7 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **5. Connecting Frontend to the Live Backend** (4 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **2. Choosing Your Deployment Method** (3 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **RENDER-DEPLOYMENT-RUNBOOK.md** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **1. In Vercel (or production frontend host):** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **1. Summary of Changes Made to Prepare the Codebase** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **2. In Local `.env.local` (for testing):** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **3. Environment Variables Reference** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **3. In Zoho CRM Workflow (Dealer Approval Webhook):** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **4. Free vs. Starter Plan Note** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **6. How to Verify After Deployment** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **Method A: One-Click Render Blueprint (Recommended)** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **Method B: Manual Web Service Setup (Step-by-Step)** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
 
 ## Relationships
 
-- [[Community 46]] (5 shared connections)
-- [[Community 54]] (3 shared connections)
-- [[Community 41]] (1 shared connections)
-- [[Community 104]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/focus-browser.test.mjs`
+- `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (100%)
+- EXTRACTED: 24 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

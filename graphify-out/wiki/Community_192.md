@@ -1,29 +1,34 @@
 # Community 192
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **artifact-receipt-flush.test.mjs** (6 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **checker** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **denseArchitecture()** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **workflow-migration-geometry.mjs** (10 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **createMappedWorkflowCandidate()** (9 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **intrinsicWorkflow()** (8 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **planningWorkflow()** (7 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **createHorizontalRankMapper()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **clone()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **mapExplicitCoordinates()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **mappedNumber()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 109]] (8 shared connections)
+- [[Community 114]] (5 shared connections)
+- [[Community 73]] (4 shared connections)
+- [[Pricing Regression Test Suite]] (3 shared connections)
+- [[Community 52]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 44 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

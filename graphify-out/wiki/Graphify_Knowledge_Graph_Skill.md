@@ -1,57 +1,72 @@
 # Graphify Knowledge Graph Skill
 
-> 55 nodes · cohesion 0.08
+> 54 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **zoho.js** (33 connections) — `api/zoho.js`
-- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
-- **fetchZohoProductById()** (13 connections) — `api/zoho.js`
-- **fetchZohoProducts()** (12 connections) — `api/zoho.js`
-- **fetchZohoWithRetry()** (11 connections) — `api/zoho.js`
-- **getZohoConfig()** (11 connections) — `api/zoho.js`
-- **createDealerContact()** (9 connections) — `api/zoho.js`
-- **findDealerByPhone()** (9 connections) — `api/zoho.js`
-- **vite.config.js** (9 connections) — `vite.config.js`
-- **getDealerById()** (8 connections) — `api/zoho.js`
-- **fetchZohoCategories()** (7 connections) — `api/zoho.js`
-- **getAccessToken()** (7 connections) — `api/zoho.js`
-- **zohoApiPlugin()** (7 connections) — `vite.config.js`
-- **fetchZohoPricebookItems()** (6 connections) — `api/zoho.js`
-- **normalizeProduct()** (5 connections) — `api/zoho.js`
-- **resolvePricebookId()** (5 connections) — `api/zoho.js`
-- **fetchZohoPricebooks()** (4 connections) — `api/zoho.js`
-- **loadEnv()** (4 connections) — `api/zoho.js`
-- **index.js** (4 connections) — `api/products/index.js`
-- **test-zoho-api.mjs** (4 connections) — `scripts/test-zoho-api.mjs`
-- **og.js** (3 connections) — `api/og.js`
-- **apply.js** (3 connections) — `api/dealer/apply.js`
-- **info.js** (3 connections) — `api/dealer/info.js`
-- **login.js** (3 connections) — `api/dealer/login.js`
-- **[id].js** (3 connections) — `api/products/[id].js`
-- *... and 30 more nodes in this community*
+- **ui.jsx** (38 connections) — `src/ui.jsx`
+- **main.jsx** (34 connections) — `src/main.jsx`
+- **useLanguage()** (32 connections) — `src/data/i18n.js`
+- **useSession()** (28 connections) — `src/data/session.js`
+- **Home.jsx** (24 connections) — `src/pages/Home.jsx`
+- **t()** (20 connections) — `src/data/i18n.js`
+- **site.js** (20 connections) — `src/data/site.js`
+- **Favorites.jsx** (20 connections) — `src/pages/Favorites.jsx`
+- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
+- **Icon()** (16 connections) — `src/ui.jsx`
+- **isDealer()** (15 connections) — `src/data/dealer.js`
+- **Support.jsx** (15 connections) — `src/pages/Support.jsx`
+- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
+- **Schemes.jsx** (14 connections) — `src/pages/Schemes.jsx`
+- **useFavorites()** (13 connections) — `src/data/favoritesStore.js`
+- **COMPANY** (12 connections) — `src/data/site.js`
+- **dealerById()** (11 connections) — `src/data/dealer.js`
+- **Products()** (9 connections) — `src/pages/Products.jsx`
+- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
+- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
+- **portalGate.js** (8 connections) — `src/data/portalGate.js`
+- **Favorites()** (8 connections) — `src/pages/Favorites.jsx`
+- **Home()** (8 connections) — `src/pages/Home.jsx`
+- **HeroSlider.jsx** (7 connections) — `src/components/HeroSlider.jsx`
+- **Header()** (7 connections) — `src/ui.jsx`
+- *... and 29 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 38]] (54 shared connections)
+- [[Community 106]] (20 shared connections)
+- [[Zoho Integration Architecture]] (16 shared connections)
+- [[Community 130]] (10 shared connections)
+- [[Community 43]] (10 shared connections)
+- [[Community 129]] (4 shared connections)
+- [[Community 238]] (1 shared connections)
 
 ## Source Files
 
-- `api/dealer/apply.js`
-- `api/dealer/info.js`
-- `api/dealer/login.js`
-- `api/og.js`
-- `api/products/[id].js`
-- `api/products/index.js`
-- `api/zoho.js`
-- `scripts/audit_prices.mjs`
-- `scripts/test-zoho-api.mjs`
-- `vite.config.js`
+- `src/components/HeroSlider.jsx`
+- `src/components/MobileBottomNav.jsx`
+- `src/components/NativeBackHandler.jsx`
+- `src/components/UnderMaintenance.jsx`
+- `src/data/dealer.js`
+- `src/data/favoritesStore.js`
+- `src/data/i18n.js`
+- `src/data/portalGate.js`
+- `src/data/session.js`
+- `src/data/site.js`
+- `src/main.jsx`
+- `src/pages/DealerDashboard.jsx`
+- `src/pages/Favorites.jsx`
+- `src/pages/Home.jsx`
+- `src/pages/Login.jsx`
+- `src/pages/Products.jsx`
+- `src/pages/Schemes.jsx`
+- `src/pages/Support.jsx`
+- `src/ui.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 240 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 485 (100%)
+- INFERRED: 2 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

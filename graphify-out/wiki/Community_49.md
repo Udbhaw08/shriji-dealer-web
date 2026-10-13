@@ -1,49 +1,60 @@
 # Community 49
 
-> 26 nodes · cohesion 0.11
+> 26 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **workflow-compiler.test.mjs** (27 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **assertReadableAdjacentResult()** (6 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **attribute()** (4 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **numericRect()** (4 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **edgeLabelRect()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **edgePoints()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **nodeRect()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **svgViewBox()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **asciiGroupLabelTextRect()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **assertRectInsideViewBox()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **compileSuccessfully()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **groupFrameRect()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **adjacentWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **asciiLaneHeaderTextRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **assertRectInsideRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **attributeOrUndefined()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **clone()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **legendGeometry()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **orthogonalSegmentIntersectsRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **readJson()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **rectsOverlap()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **sql** (42 connections) — `backend/src/db/pool.js`
+- **dealers.js** (30 connections) — `backend/src/routes/dealers.js`
+- **staff.js** (23 connections) — `backend/src/services/staff.js`
+- **dealerApp.js** (17 connections) — `backend/src/services/dealerApp.js`
+- **audit()** (17 connections) — `backend/src/utils/audit.js`
+- **applyCrmAccountState()** (9 connections) — `backend/src/services/dealerApp.js`
+- **auth.js** (8 connections) — `backend/src/middleware/auth.js`
+- **generateUniqueDealerCode()** (8 connections) — `backend/src/utils/loginCode.js`
+- **audit.js** (7 connections) — `backend/src/utils/audit.js`
+- **applyDealer()** (6 connections) — `backend/src/services/dealerApp.js`
+- **createInvite()** (6 connections) — `backend/src/services/staff.js`
+- **jwtAuth()** (5 connections) — `backend/src/middleware/auth.js`
+- **deactivateDealer()** (4 connections) — `backend/src/services/dealerApp.js`
+- **approveStaff()** (4 connections) — `backend/src/services/staff.js`
+- **deleteStaff()** (4 connections) — `backend/src/services/staff.js`
+- **holdStaff()** (4 connections) — `backend/src/services/staff.js`
+- **resumeStaff()** (4 connections) — `backend/src/services/staff.js`
+- **revokeStaff()** (4 connections) — `backend/src/services/staff.js`
+- **toggleAllStaffPrice()** (4 connections) — `backend/src/services/staff.js`
+- **toggleStaffPrice()** (4 connections) — `backend/src/services/staff.js`
+- **requireApprovedDealer()** (3 connections) — `backend/src/middleware/auth.js`
+- **consumeInvite()** (3 connections) — `backend/src/services/staff.js`
+- **generateInviteCode()** (3 connections) — `backend/src/services/staff.js`
+- **check()** (2 connections) — `backend/scripts/check-readiness.js`
+- **requireRole()** (1 connections) — `backend/src/middleware/auth.js`
 - *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [[Community 106]] (2 shared connections)
-- [[Community 53]] (1 shared connections)
+- [[Community 84]] (24 shared connections)
+- [[Community 72]] (13 shared connections)
+- [[Community 63]] (12 shared connections)
+- [[Community 99]] (11 shared connections)
+- [[Community 69]] (6 shared connections)
+- [[Community 118]] (5 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- `backend/scripts/check-readiness.js`
+- `backend/src/db/pool.js`
+- `backend/src/middleware/auth.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/services/staff.js`
+- `backend/src/utils/audit.js`
+- `backend/src/utils/loginCode.js`
 
 ## Audit Trail
 
-- EXTRACTED: 75 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 219 (98%)
+- INFERRED: 4 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

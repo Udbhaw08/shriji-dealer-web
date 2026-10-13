@@ -1,14 +1,15 @@
 # Community 229
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **Automatic Codebase Context & Knowledge Graph Protocol** (4 connections) — `.agents/rules/graphify.md`
-- **graphify.md** (1 connections) — `.agents/rules/graphify.md`
-- **Rule 1: Mandatory Knowledge Graph Lookup (Never Blindly Read Files)** (1 connections) — `.agents/rules/graphify.md`
-- **Rule 2: Precision File Viewing** (1 connections) — `.agents/rules/graphify.md`
-- **Rule 3: Keep Graph Fresh After Modifying Code** (1 connections) — `.agents/rules/graphify.md`
+- **story-trail.test.mjs** (5 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
 
 ## Relationships
 
@@ -16,11 +17,11 @@
 
 ## Source Files
 
-- `.agents/rules/graphify.md`
+- `.agents/skills/archify/test/story-trail.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

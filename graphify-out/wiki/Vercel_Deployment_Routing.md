@@ -1,60 +1,57 @@
 # Vercel Deployment Routing
 
-> 42 nodes · cohesion 0.08
+> 43 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **brand-marks.mjs** (51 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **brand-marks.test.mjs** (15 connections) — `.agents/skills/archify/test/brand-marks.test.mjs`
-- **captureRemoteBrand()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **captureBrandReference()** (6 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **commandBrands()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **findBrandMark()** (5 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **checkedFetch()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **isPrivateBrandAddress()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **resolveRequestTarget()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **asUrl()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **iconCandidates()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **imageData()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **ipv4Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **ipv6Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **lookupForms()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **readLimited()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **validateUrlShape()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **generated-brand-marks.mjs** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
-- **BRAND_MARKS** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
-- **attribute()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **beforeDeadline()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **domainMark()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **listBrandMarks()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **remoteBrand()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **requestPinned()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- *... and 17 more nodes in this community*
+- **Z()** (26 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **create()** (24 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **warn()** (16 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **hu()** (14 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **Ci()** (13 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **U()** (13 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **error()** (11 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **vu()** (11 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **ku()** (10 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **wu()** (10 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **xi()** (10 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **iu()** (9 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **kl()** (9 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **Nd()** (9 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **zl()** (9 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **au()** (8 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **getHeartbeatsHeader()** (8 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **gu()** (8 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **ru()** (8 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **wl()** (8 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **bu()** (7 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **Fu()** (7 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **mu()** (7 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **ql()** (7 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **triggerHeartbeat()** (7 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [[Project Readme & Layout]] (7 shared connections)
-- [[Architecture Doc Generator]] (7 shared connections)
-- [[Community 53]] (2 shared connections)
-- [[Community 35]] (1 shared connections)
-- [[Community 99]] (1 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (1 shared connections)
-- [[Community 44]] (1 shared connections)
-- [[Community 39]] (1 shared connections)
-- [[Zoho Integration Architecture]] (1 shared connections)
-- [[Community 72]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (50 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (38 shared connections)
+- [[Product Brand & Business Vision]] (23 shared connections)
+- [[Product Requirements Documentation]] (18 shared connections)
+- [[Community 41]] (15 shared connections)
+- [[Community 30]] (7 shared connections)
+- [[Client Products Data Store]] (7 shared connections)
+- [[Graphify Workflow]] (6 shared connections)
+- [[Pricing & Roles Skill]] (6 shared connections)
+- [[Community 68]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
-- `.agents/skills/archify/test/brand-marks.test.mjs`
+- `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
 
 ## Audit Trail
 
-- EXTRACTED: 157 (98%)
-- INFERRED: 4 (2%)
+- EXTRACTED: 332 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,24 +4,24 @@
 
 ## Key Concepts
 
-- **render-output-checks.test.mjs** (5 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
-- **checker** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
-- **checkHtml()** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **point** (6 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 65]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/render-output-checks.test.mjs`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

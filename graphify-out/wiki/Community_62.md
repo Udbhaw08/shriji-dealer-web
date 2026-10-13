@@ -4,49 +4,49 @@
 
 ## Key Concepts
 
-- **has()** (24 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **constructor()** (21 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **add()** (20 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **ac()** (13 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **jc()** (13 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **addComponent()** (8 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **getProvider()** (8 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **mf()** (7 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **Ka()** (6 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **mc()** (6 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **_poll()** (6 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **addOrOverwriteComponent()** (5 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **read()** (5 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **Du()** (4 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **isComponentSet()** (4 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **Ja()** (4 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **subscribe()** (3 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **addScope()** (2 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **makeTokenCallback()** (2 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **mo()** (2 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **notifyListeners()** (2 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **p()** (2 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
-- **validateStartingState()** (2 connections) — `ios/App/App/public/assets/index-DPsXe5qz.js`
+- **preview.mjs** (23 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **startPreview()** (10 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **open-artifact.mjs** (7 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
+- **openLoopbackUrl()** (5 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
+- **open-artifact.test.mjs** (5 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
+- **launchTarget()** (4 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
+- **openArtifact()** (4 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
+- **runPreview()** (3 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **compactMessage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **initialAuthoredOutput()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **previewPage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **redactDiagnostic()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **sha256()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **sourceDigest()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **spawn()** (2 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
+- **OPENERS** (1 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
+- **cliPath** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **diagramTypes** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **here** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **parseReceipt()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **responseHeaders()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **safeJson()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **target** (1 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (32 shared connections)
-- [[Product Pages Specification]] (18 shared connections)
-- [[Pricing Regression Test Suite]] (16 shared connections)
-- [[Product Requirements Documentation]] (11 shared connections)
-- [[Live Pricing Audit Tool]] (8 shared connections)
-- [[Product Brand & Business Vision]] (7 shared connections)
-- [[Client Products Data Store]] (7 shared connections)
-- [[Community 47]] (2 shared connections)
+- [[Community 37]] (4 shared connections)
+- [[Community 89]] (3 shared connections)
+- [[Community 165]] (2 shared connections)
+- [[Community 148]] (2 shared connections)
+- [[Community 205]] (2 shared connections)
+- [[Community 169]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DPsXe5qz.js`
+- `.agents/skills/archify/bin/open-artifact.mjs`
+- `.agents/skills/archify/bin/preview.mjs`
+- `.agents/skills/archify/test/open-artifact.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 169 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 79 (95%)
+- INFERRED: 4 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

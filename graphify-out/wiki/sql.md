@@ -1,8 +1,8 @@
 # sql
 
-> God node · 41 connections · `backend/src/db/pool.js`
+> God node · 42 connections · `backend/src/db/pool.js`
 
-**Community:** [[Community 61]]
+**Community:** [[Community 49]]
 
 ## Connections by Relation
 

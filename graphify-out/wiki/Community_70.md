@@ -4,41 +4,39 @@
 
 ## Key Concepts
 
-- **properties** (9 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **architecture.schema.json** (7 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **meta** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **components** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **cards** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **schema_version** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$id** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$schema** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **title** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **ReStor Dealer Web — Auth Architecture Analysis: Firebase vs Supabase** (6 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **3. Detailed Audit of the 4 Portals / 4 Ways** (5 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **2. Codebase Inventory: Where Each Technology Lives** (3 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Portal 1: ReStor Dealer (Shop Owner)** (3 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Portal 2: ReStor Staff (Store Staff / Counter Team)** (3 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Portal 4: ReStor Customer (End Consumer / Retail Buyer)** (3 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **1. Executive Summary & Clarification** (2 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Portal 3: ReStor Brand (Sunshine Brand Managers & Field Execs)** (2 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **2.1 Where Supabase Is Used (Database Layer Only)** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **2.2 Where Firebase Is Used (Authentication & Client Telemetry)** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **4. Architectural Matrix: Supabase vs Firebase** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **5. Verification Checklist & Action Plan** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Current Authentication Flow:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Current Authentication Flow:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Current Authentication Flow:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Key Takeaways:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Target Firebase Unified Flow:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Verification & Firebase Status:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Verification & Firebase Status:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Verification & Firebase Status:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
 
 ## Relationships
 
-- [[Community 100]] (3 shared connections)
-- [[Community 64]] (1 shared connections)
-- [[Community 78]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

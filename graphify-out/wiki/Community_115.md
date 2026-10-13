@@ -1,37 +1,36 @@
 # Community 115
 
-> 13 nodes · cohesion 0.32
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **crmClient.js** (23 connections) — `backend/src/services/crmClient.js`
-- **crmFetch()** (10 connections) — `backend/src/services/crmClient.js`
-- **crmConfigured()** (6 connections) — `backend/src/services/crmClient.js`
-- **updateDealerCodeInCrm()** (4 connections) — `backend/src/services/crmClient.js`
-- **deactivateAccountInCrm()** (3 connections) — `backend/src/services/crmClient.js`
-- **deactivateContactInCrm()** (3 connections) — `backend/src/services/crmClient.js`
-- **getDealerAccount()** (3 connections) — `backend/src/services/crmClient.js`
-- **isCrmConfigured()** (3 connections) — `backend/src/services/crmClient.js`
-- **createDealerAccount()** (2 connections) — `backend/src/services/crmClient.js`
-- **createDealerContact()** (2 connections) — `backend/src/services/crmClient.js`
-- **getAccessToken()** (2 connections) — `backend/src/services/crmClient.js`
-- **linkContactToBackendUser()** (2 connections) — `backend/src/services/crmClient.js`
-- **FIELDS** (1 connections) — `backend/src/services/crmClient.js`
+- **architecture-delta.test.mjs** (16 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **ArchitectureDeltaError** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **baseFixture** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **checkedArtifact** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **checkedReceipt** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **headFixture** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **read()** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
 
 ## Relationships
 
-- [[Community 68]] (7 shared connections)
-- [[Community 61]] (4 shared connections)
-- [[Community 90]] (2 shared connections)
-- [[Community 93]] (1 shared connections)
+- [[Community 53]] (4 shared connections)
+- [[Community 95]] (2 shared connections)
 
 ## Source Files
 
-- `backend/src/services/crmClient.js`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
+- `.agents/skills/archify/test/architecture-delta.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (100%)
+- EXTRACTED: 30 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

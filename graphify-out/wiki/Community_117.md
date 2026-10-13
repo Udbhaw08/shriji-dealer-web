@@ -1,37 +1,34 @@
 # Community 117
 
-> 13 nodes · cohesion 0.28
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **guided-views-browser.test.mjs** (17 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **run()** (8 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **point()** (4 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **settled()** (4 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **activate()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **hash()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **move()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **variant()** (1 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **Product** (12 connections) — `PRODUCT.md`
+- **PRODUCT.md** (1 connections) — `PRODUCT.md`
+- **Accessibility & Inclusion** (1 connections) — `PRODUCT.md`
+- **Brand Commitments** (1 connections) — `PRODUCT.md`
+- **Capabilities and Constraints** (1 connections) — `PRODUCT.md`
+- **Evidence on Hand** (1 connections) — `PRODUCT.md`
+- **Operating Context** (1 connections) — `PRODUCT.md`
+- **Platform** (1 connections) — `PRODUCT.md`
+- **Positioning** (1 connections) — `PRODUCT.md`
+- **Product Principles** (1 connections) — `PRODUCT.md`
+- **Product Purpose** (1 connections) — `PRODUCT.md`
+- **Stack** (1 connections) — `PRODUCT.md`
+- **Users** (1 connections) — `PRODUCT.md`
 
 ## Relationships
 
-- [[Community 46]] (5 shared connections)
-- [[Community 54]] (3 shared connections)
-- [[Community 41]] (1 shared connections)
-- [[Community 104]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- `PRODUCT.md`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (100%)
+- EXTRACTED: 24 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

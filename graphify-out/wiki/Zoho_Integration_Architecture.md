@@ -1,65 +1,54 @@
 # Zoho Integration Architecture
 
-> 68 nodes · cohesion 0.10
+> 66 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **geometry.mjs** (75 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **compileWorkflowInternal()** (67 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **asArray()** (43 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **geometry.test.mjs** (34 connections) — `.agents/skills/archify/test/geometry.test.mjs`
-- **validateArchitecture()** (22 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **validateDataflow()** (22 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **validateLifecycle()** (22 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **cleanCrossingProblems()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **isFinitePoint()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanFlowProblems()** (17 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **rectsOverlap()** (16 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **validateSequence()** (15 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **cleanAmbiguousCorridorProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanBorderRunProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanRouteRhythmProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **labelPoint()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanEndpointSideProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanLabelRouteClearanceProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **brandTopRailProblem()** (13 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **collectLabelRouteClearance()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **segmentIntersectsRect()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **suggestLabelObstacleFix()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **availableNodeTextWidth()** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **collectBorderRuns()** (10 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **normalizeRoutePoints()** (10 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- *... and 43 more nodes in this community*
+- **Login.jsx** (55 connections) — `src/pages/Login.jsx`
+- **auth.js** (40 connections) — `src/data/auth.js`
+- **callBackend()** (25 connections) — `src/data/auth.js`
+- **json()** (25 connections) — `src/data/auth.js`
+- **DealerDashboard.jsx** (23 connections) — `src/pages/DealerDashboard.jsx`
+- **applyAuthResponse()** (8 connections) — `src/data/auth.js`
+- **requestOtp()** (8 connections) — `src/data/auth.js`
+- **loginCode.js** (8 connections) — `src/data/loginCode.js`
+- **broadcastAuthChange()** (7 connections) — `src/data/auth.js`
+- **firebaseAuthLogin()** (7 connections) — `src/data/auth.js`
+- **login()** (7 connections) — `src/data/auth.js`
+- **firebase.js** (7 connections) — `src/data/firebase.js`
+- **sendFirebasePhoneOtp()** (7 connections) — `src/data/firebase.js`
+- **googleLogin()** (6 connections) — `src/data/auth.js`
+- **logout()** (6 connections) — `src/data/auth.js`
+- **signup()** (6 connections) — `src/data/auth.js`
+- **verifyOtp()** (6 connections) — `src/data/auth.js`
+- **OtpStep()** (6 connections) — `src/pages/Login.jsx`
+- **applyAsDealer()** (5 connections) — `src/data/auth.js`
+- **fetchMe()** (5 connections) — `src/data/auth.js`
+- **lookupStaffCode()** (5 connections) — `src/data/auth.js`
+- **staffSignup()** (5 connections) — `src/data/auth.js`
+- **staffTogglePrice()** (5 connections) — `src/data/auth.js`
+- **staffTogglePriceAll()** (5 connections) — `src/data/auth.js`
+- **formatLoginCode()** (5 connections) — `src/data/loginCode.js`
+- *... and 41 more nodes in this community*
 
 ## Relationships
 
-- [[Community 53]] (48 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (44 shared connections)
-- [[Community 44]] (39 shared connections)
-- [[Community 39]] (34 shared connections)
-- [[Project Readme & Layout]] (33 shared connections)
-- [[Architecture Doc Generator]] (12 shared connections)
-- [[Community 72]] (9 shared connections)
-- [[Zoho Integration Skill]] (6 shared connections)
-- [[Community 188]] (3 shared connections)
-- [[Vercel Deployment Routing]] (1 shared connections)
+- [[Community 43]] (27 shared connections)
+- [[Graphify Knowledge Graph Skill]] (16 shared connections)
+- [[Community 38]] (2 shared connections)
+- [[Community 130]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- `.agents/skills/archify/test/geometry.test.mjs`
+- `src/data/auth.js`
+- `src/data/firebase.js`
+- `src/data/loginCode.js`
+- `src/pages/DealerDashboard.jsx`
+- `src/pages/Login.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 705 (100%)
+- EXTRACTED: 398 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

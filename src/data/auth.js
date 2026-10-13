@@ -1,24 +1,43 @@
 import { Capacitor } from "@capacitor/core";
-import { apiFetch, apiUrl } from "./api";
+import { apiFetch, apiUrl } from "./api.js";
 
 /* Real authentication client for the backend service (docs/BACKEND-ARCHITECTURE.md).
  *
- * Token rules (non-negotiable):
- *  - Access token: memory only, 15-minute life, re-obtained via refresh.
- *  - Refresh token: Capacitor Preferences on native, sessionStorage on web —
- *    never plain localStorage, so it does not survive long in an XSS-reachable jar.
- *  - Every 401 triggers exactly one refresh attempt, then the request retries.
+ * Token rules:
+ *  - Persistent storage: localStorage on web, Capacitor Preferences on native,
+ *    with seamless migration from legacy sessionStorage.
+ *  - 30-Day Window: Session is preserved across browser restarts and tab revisits
+ *    with a 30-day sliding window (renewed on activity), staying logged in till signout.
+ *  - 401 triggers token refresh attempt, maintaining valid sessions seamlessly.
  */
 
 const AUTH_BASE =
-  import.meta.env.VITE_AUTH_API_URL ||
-  (import.meta.env.DEV && !Capacitor.isNativePlatform() ? "http://localhost:8080" : apiUrl(""));
+  import.meta.env?.VITE_AUTH_API_URL ||
+  (import.meta.env?.DEV && !Capacitor.isNativePlatform() ? "http://localhost:8080" : apiUrl(""));
 
-const PREFS_KEY = "shriji.auth.tokens";
+export const PREFS_KEY = "shriji.auth.tokens";
+export const SESSION_PROFILE_KEY = "shriji.auth.session_profile";
+export const SESSION_TTL_DAYS = 30;
+export const SESSION_TTL_MS = SESSION_TTL_DAYS * 24 * 60 * 60 * 1000; // 30 days in ms
 
 let accessToken = null;
 let currentRefreshToken = null;
 let refreshPromise = null;
+
+// Synchronous pre-hydration in browser: eliminates flicker so hasSession() is immediately true
+if (typeof window !== "undefined") {
+  try {
+    const raw = localStorage.getItem(PREFS_KEY) || sessionStorage.getItem(PREFS_KEY);
+    if (raw) {
+      const saved = JSON.parse(raw);
+      const now = Date.now();
+      if (!saved.expiresAt || now <= saved.expiresAt) {
+        accessToken = saved.accessToken || null;
+        currentRefreshToken = saved.refreshToken || null;
+      }
+    }
+  } catch {}
+}
 
 function prefsStore() {
   return {
@@ -32,26 +51,51 @@ function prefsStore() {
         }
       }
       try {
-        return sessionStorage.getItem(PREFS_KEY);
-      } catch {
+        const val = localStorage.getItem(PREFS_KEY);
+        if (val) return val;
+        // Migration: check legacy sessionStorage
+        const sessionVal = sessionStorage.getItem(PREFS_KEY);
+        if (sessionVal) {
+          try {
+            localStorage.setItem(PREFS_KEY, sessionVal);
+            sessionStorage.removeItem(PREFS_KEY);
+          } catch {}
+          return sessionVal;
+        }
         return null;
+      } catch {
+        try {
+          return sessionStorage.getItem(PREFS_KEY);
+        } catch {
+          return null;
+        }
       }
     },
     async set(value) {
       if (Capacitor.isNativePlatform()) {
         try {
           const { Preferences } = await import("@capacitor/preferences");
-          await Preferences.set({ key: PREFS_KEY, value });
-        } catch {
-          /* storage unavailable — session is memory-only */
-        }
+          if (value === null) {
+            await Preferences.remove({ key: PREFS_KEY });
+          } else {
+            await Preferences.set({ key: PREFS_KEY, value });
+          }
+        } catch {}
         return;
       }
       try {
-        if (value === null) sessionStorage.removeItem(PREFS_KEY);
-        else sessionStorage.setItem(PREFS_KEY, value);
+        if (value === null) {
+          localStorage.removeItem(PREFS_KEY);
+          sessionStorage.removeItem(PREFS_KEY);
+        } else {
+          localStorage.setItem(PREFS_KEY, value);
+          sessionStorage.removeItem(PREFS_KEY);
+        }
       } catch {
-        /* ignore */
+        try {
+          if (value === null) sessionStorage.removeItem(PREFS_KEY);
+          else sessionStorage.setItem(PREFS_KEY, value);
+        } catch {}
       }
     },
   };
@@ -62,17 +106,50 @@ export async function initTokens() {
   if (!raw) return;
   try {
     const saved = JSON.parse(raw);
+    const now = Date.now();
+    // 30-day window check: expired if inactivity exceeds 30 days
+    if (saved.expiresAt && now > saved.expiresAt) {
+      accessToken = null;
+      currentRefreshToken = null;
+      await prefsStore().set(null);
+      if (typeof window !== "undefined") {
+        try {
+          localStorage.removeItem(SESSION_PROFILE_KEY);
+          sessionStorage.removeItem(SESSION_PROFILE_KEY);
+        } catch {}
+      }
+      return;
+    }
     accessToken = saved.accessToken || null;
     currentRefreshToken = saved.refreshToken || null;
+
+    // Slide 30-day window forward on active revisit (kept logged in till signout)
+    if (currentRefreshToken) {
+      const refreshedPayload = {
+        accessToken,
+        refreshToken: currentRefreshToken,
+        savedAt: now,
+        expiresAt: now + SESSION_TTL_MS,
+      };
+      await prefsStore().set(JSON.stringify(refreshedPayload));
+    }
   } catch {
     /* corrupt — ignore */
   }
 }
 
 function persistTokens() {
-  return prefsStore().set(
-    currentRefreshToken ? JSON.stringify({ accessToken, refreshToken: currentRefreshToken }) : null,
-  );
+  if (!currentRefreshToken) {
+    return prefsStore().set(null);
+  }
+  const now = Date.now();
+  const payload = {
+    accessToken,
+    refreshToken: currentRefreshToken,
+    savedAt: now,
+    expiresAt: now + SESSION_TTL_MS,
+  };
+  return prefsStore().set(JSON.stringify(payload));
 }
 
 export function hasSession() {
@@ -141,12 +218,12 @@ export async function login(payload) {
   return applyAuthResponse(await callBackend("/api/auth/login", json(payload)));
 }
 
-export async function googleLogin(credential) {
-  return applyAuthResponse(await callBackend("/api/auth/google", json({ credential })));
+export async function googleLogin(credential, phone) {
+  return applyAuthResponse(await callBackend("/api/auth/google", json({ credential, phone: phone || undefined })));
 }
 
-export async function firebaseAuthLogin(idToken) {
-  return applyAuthResponse(await callBackend("/api/auth/firebase", json({ idToken })));
+export async function firebaseAuthLogin(idToken, email, phone) {
+  return applyAuthResponse(await callBackend("/api/auth/firebase", json({ idToken, email: email || undefined, phone: phone || undefined })));
 }
 
 export async function lookupStaffCode(code) {
@@ -248,6 +325,9 @@ let authBroadcastChannel = null;
 if (typeof window !== "undefined" && typeof BroadcastChannel !== "undefined") {
   try {
     authBroadcastChannel = new BroadcastChannel(AUTH_SYNC_CHANNEL);
+    if (typeof authBroadcastChannel.unref === "function") {
+      authBroadcastChannel.unref();
+    }
   } catch {}
 }
 
@@ -293,6 +373,12 @@ export async function logout() {
   accessToken = null;
   currentRefreshToken = null;
   await persistTokens();
+  if (typeof window !== "undefined") {
+    try {
+      localStorage.removeItem(SESSION_PROFILE_KEY);
+      sessionStorage.removeItem(SESSION_PROFILE_KEY);
+    } catch {}
+  }
   broadcastAuthChange("AUTH_UPDATED");
 }
 
