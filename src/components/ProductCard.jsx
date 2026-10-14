@@ -15,8 +15,8 @@ export default function ProductCard({ p }) {
   const { mrp, isPriceOnRequest } = priceFor(p);
 
   const subtitle =
-    p.name && p.model && p.name.trim().toLowerCase() !== p.model.trim().toLowerCase()
-      ? p.name
+    p.zohoTitle && p.name && p.zohoTitle.trim().toLowerCase() !== p.name.trim().toLowerCase()
+      ? p.zohoTitle
       : [p.features?.[0] || p.finish, p.catLabel].filter(Boolean).join(" ");
 
   const badges = [];
@@ -60,7 +60,7 @@ export default function ProductCard({ p }) {
         </span>
 
         <span className="prod-foot">
-          <b className="prod-title">{p.model && p.model.toLowerCase() !== "test" ? p.model : p.name}</b>
+          <b className="prod-title">{p.name || p.model}</b>
           {subtitle && <span className="prod-subtitle">{subtitle}</span>}
 
           {badges.length > 0 && (

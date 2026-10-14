@@ -1,60 +1,60 @@
 # Community 49
 
-> 26 nodes · cohesion 0.23
+> 30 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **sql** (42 connections) — `backend/src/db/pool.js`
-- **dealers.js** (30 connections) — `backend/src/routes/dealers.js`
-- **staff.js** (23 connections) — `backend/src/services/staff.js`
-- **dealerApp.js** (17 connections) — `backend/src/services/dealerApp.js`
-- **audit()** (17 connections) — `backend/src/utils/audit.js`
-- **applyCrmAccountState()** (9 connections) — `backend/src/services/dealerApp.js`
-- **auth.js** (8 connections) — `backend/src/middleware/auth.js`
-- **generateUniqueDealerCode()** (8 connections) — `backend/src/utils/loginCode.js`
-- **audit.js** (7 connections) — `backend/src/utils/audit.js`
-- **applyDealer()** (6 connections) — `backend/src/services/dealerApp.js`
-- **createInvite()** (6 connections) — `backend/src/services/staff.js`
-- **jwtAuth()** (5 connections) — `backend/src/middleware/auth.js`
-- **deactivateDealer()** (4 connections) — `backend/src/services/dealerApp.js`
-- **approveStaff()** (4 connections) — `backend/src/services/staff.js`
-- **deleteStaff()** (4 connections) — `backend/src/services/staff.js`
-- **holdStaff()** (4 connections) — `backend/src/services/staff.js`
-- **resumeStaff()** (4 connections) — `backend/src/services/staff.js`
-- **revokeStaff()** (4 connections) — `backend/src/services/staff.js`
-- **toggleAllStaffPrice()** (4 connections) — `backend/src/services/staff.js`
-- **toggleStaffPrice()** (4 connections) — `backend/src/services/staff.js`
-- **requireApprovedDealer()** (3 connections) — `backend/src/middleware/auth.js`
-- **consumeInvite()** (3 connections) — `backend/src/services/staff.js`
-- **generateInviteCode()** (3 connections) — `backend/src/services/staff.js`
-- **check()** (2 connections) — `backend/scripts/check-readiness.js`
-- **requireRole()** (1 connections) — `backend/src/middleware/auth.js`
-- *... and 1 more nodes in this community*
+- **auth.js** (48 connections) — `backend/src/routes/auth.js`
+- **validators.js** (14 connections) — `backend/src/utils/validators.js`
+- **normalizePhone()** (13 connections) — `backend/src/utils/phone.js`
+- **normalizeEmail()** (9 connections) — `backend/src/utils/validators.js`
+- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
+- **cleanName()** (7 connections) — `backend/src/utils/validators.js`
+- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
+- **phone.js** (6 connections) — `backend/src/utils/phone.js`
+- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
+- **applyCrmContactState()** (5 connections) — `backend/src/services/dealerApp.js`
+- **isValidPhone()** (5 connections) — `backend/src/utils/validators.js`
+- **rateLimit.js** (4 connections) — `backend/src/middleware/rateLimit.js`
+- **notify()** (4 connections) — `backend/src/services/notifications.js`
+- **isValidEmail()** (4 connections) — `backend/src/utils/validators.js`
+- **isValidName()** (4 connections) — `backend/src/utils/validators.js`
+- **rateLimit()** (3 connections) — `backend/src/middleware/rateLimit.js`
+- **issueSession()** (3 connections) — `backend/src/routes/auth.js`
+- **linkUserIdentifiers()** (3 connections) — `backend/src/routes/auth.js`
+- **resolveUserWithDealer()** (3 connections) — `backend/src/routes/auth.js`
+- **sendOtpNotification()** (3 connections) — `backend/src/services/notifications.js`
+- **isValidGstin()** (3 connections) — `backend/src/utils/validators.js`
+- **authRouter** (2 connections) — `backend/src/routes/auth.js`
+- **findUserByIdentifier()** (2 connections) — `backend/src/routes/auth.js`
+- **parseIdentifier()** (2 connections) — `backend/src/routes/auth.js`
+- **publicUser()** (2 connections) — `backend/src/routes/auth.js`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [[Community 84]] (24 shared connections)
-- [[Community 72]] (13 shared connections)
-- [[Community 63]] (12 shared connections)
-- [[Community 99]] (11 shared connections)
-- [[Community 69]] (6 shared connections)
-- [[Community 118]] (5 shared connections)
+- [[Community 51]] (23 shared connections)
+- [[Claude Agent Instructions]] (15 shared connections)
+- [[Community 101]] (14 shared connections)
+- [[Community 72]] (6 shared connections)
+- [[Community 95]] (2 shared connections)
 
 ## Source Files
 
-- `backend/scripts/check-readiness.js`
-- `backend/src/db/pool.js`
-- `backend/src/middleware/auth.js`
-- `backend/src/routes/dealers.js`
+- `backend/src/middleware/rateLimit.js`
+- `backend/src/routes/auth.js`
+- `backend/src/services/crmClient.js`
 - `backend/src/services/dealerApp.js`
-- `backend/src/services/staff.js`
-- `backend/src/utils/audit.js`
-- `backend/src/utils/loginCode.js`
+- `backend/src/services/notifications.js`
+- `backend/src/utils/phone.js`
+- `backend/src/utils/validators.js`
+- `backend/test/interconnection.test.mjs`
+- `backend/test/validators.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 219 (98%)
-- INFERRED: 4 (2%)
+- EXTRACTED: 174 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

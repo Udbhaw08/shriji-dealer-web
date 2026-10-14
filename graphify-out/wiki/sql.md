@@ -1,8 +1,8 @@
 # sql
 
-> God node · 42 connections · `backend/src/db/pool.js`
+> God node · 43 connections · `backend/src/db/pool.js`
 
-**Community:** [[Community 49]]
+**Community:** [[Community 51]]
 
 ## Connections by Relation
 
@@ -15,6 +15,7 @@
 - [[createInvite()]] `EXTRACTED`
 - [[crmPoll()]] `EXTRACTED`
 - [[jwtAuth()]] `EXTRACTED`
+- [[applyCrmContactState()]] `EXTRACTED`
 - [[loadCatalog()]] `EXTRACTED`
 - [[deactivateDealer()]] `EXTRACTED`
 - [[notify()]] `EXTRACTED`
@@ -26,20 +27,19 @@
 - [[toggleAllStaffPrice()]] `EXTRACTED`
 - [[toggleStaffPrice()]] `EXTRACTED`
 - [[applied()]] `EXTRACTED`
-- [[tokenCleanup()]] `EXTRACTED`
 
 ### contains
 - [[pool.js]] `EXTRACTED`
 
 ### imports
 - [[auth.js]] `EXTRACTED`
-- [[server.js]] `EXTRACTED`
 - [[dealers.js]] `EXTRACTED`
-- [[staff.js]] `EXTRACTED`
+- [[server.js]] `EXTRACTED`
 - [[dealerApp.js]] `EXTRACTED`
+- [[staff.js]] `EXTRACTED`
 - [[catalog.js]] `EXTRACTED`
-- [[crmPoll.js]] `EXTRACTED`
 - [[webhooks.js]] `EXTRACTED`
+- [[crmPoll.js]] `EXTRACTED`
 - [[catalogSync.js]] `EXTRACTED`
 - [[notifications.js]] `EXTRACTED`
 - [[auth.js]] `EXTRACTED`

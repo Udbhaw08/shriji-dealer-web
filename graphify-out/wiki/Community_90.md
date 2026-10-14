@@ -25,10 +25,9 @@
 
 ## Relationships
 
-- [[Community 40]] (1 shared connections)
-- [[Community 123]] (1 shared connections)
-- [[Community 105]] (1 shared connections)
-- [[Live Pricing Audit Tool]] (1 shared connections)
+- [[Community 47]] (2 shared connections)
+- [[Community 74]] (1 shared connections)
+- [[Community 104]] (1 shared connections)
 - [[Community 52]] (1 shared connections)
 
 ## Source Files

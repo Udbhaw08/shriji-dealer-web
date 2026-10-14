@@ -1,50 +1,42 @@
 # Community 68
 
-> 21 nodes · cohesion 0.17
+> 21 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **kn()** (13 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **ln()** (13 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **Cn()** (10 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **hn()** (10 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **ip()** (10 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **tp()** (10 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **bn()** (8 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **dn()** (8 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **on()** (8 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **mn()** (7 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **nn()** (7 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **rn()** (7 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **sn()** (7 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **pn()** (5 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **yn()** (5 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **gn()** (4 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **rm()** (4 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **an()** (3 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **en()** (3 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **tn()** (3 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **xn()** (3 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- **ReStor Dealer Web — Auth Architecture Analysis: Firebase vs Supabase** (6 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **3. Detailed Audit of the 4 Portals / 4 Ways** (5 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **2. Codebase Inventory: Where Each Technology Lives** (3 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Portal 1: ReStor Dealer (Shop Owner)** (3 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Portal 2: ReStor Staff (Store Staff / Counter Team)** (3 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Portal 4: ReStor Customer (End Consumer / Retail Buyer)** (3 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **1. Executive Summary & Clarification** (2 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Portal 3: ReStor Brand (Sunshine Brand Managers & Field Execs)** (2 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **2.1 Where Supabase Is Used (Database Layer Only)** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **2.2 Where Firebase Is Used (Authentication & Client Telemetry)** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **4. Architectural Matrix: Supabase vs Firebase** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **5. Verification Checklist & Action Plan** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Current Authentication Flow:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Current Authentication Flow:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Current Authentication Flow:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Key Takeaways:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Target Firebase Unified Flow:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Verification & Firebase Status:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Verification & Firebase Status:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Verification & Firebase Status:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (23 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (15 shared connections)
-- [[Product Brand & Business Vision]] (9 shared connections)
-- [[Pricing & Roles Skill]] (8 shared connections)
-- [[Client Products Data Store]] (7 shared connections)
-- [[Graphify Workflow]] (7 shared connections)
-- [[Community 41]] (3 shared connections)
-- [[Vercel Deployment Routing]] (2 shared connections)
-- [[Product Requirements Documentation]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
 
 ## Audit Trail
 
-- EXTRACTED: 148 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

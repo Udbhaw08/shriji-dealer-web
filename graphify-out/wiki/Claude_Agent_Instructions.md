@@ -1,57 +1,64 @@
 # Claude Agent Instructions
 
-> 45 nodes · cohesion 0.08
+> 45 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **Vr()** (23 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **uc()** (21 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **Pd()** (18 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **lc()** (16 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **Gr()** (14 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **mc()** (14 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **cc()** (10 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **jd()** (10 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **Kr()** (10 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **yu()** (10 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **Oi()** (9 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **bo()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **dh()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **Md()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **yo()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **zr()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **bu()** (7 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **ki()** (7 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **Ur()** (7 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **fc()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **ga()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **Mr()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **Ni()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **sc()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **vo()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **server.js** (31 connections) — `backend/src/server.js`
+- **pool.js** (18 connections) — `backend/src/db/pool.js`
+- **catalog.js** (16 connections) — `backend/src/services/catalog.js`
+- **webhooks.js** (14 connections) — `backend/src/routes/webhooks.js`
+- **logger.js** (14 connections) — `backend/src/utils/logger.js`
+- **env.js** (13 connections) — `backend/src/config/env.js`
+- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
+- **log** (13 connections) — `backend/src/utils/logger.js`
+- **env** (11 connections) — `backend/src/config/env.js`
+- **index.js** (11 connections) — `backend/src/jobs/index.js`
+- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
+- **notifications.js** (9 connections) — `backend/src/services/notifications.js`
+- **errorHandler.js** (7 connections) — `backend/src/middleware/errorHandler.js`
+- **syncCatalog()** (7 connections) — `backend/src/services/catalog.js`
+- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
+- **prices.js** (6 connections) — `backend/src/routes/prices.js`
+- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
+- **migrate()** (4 connections) — `backend/src/db/migrate.js`
+- **catalogFor()** (4 connections) — `backend/src/services/catalog.js`
+- **loadCatalog()** (4 connections) — `backend/src/services/catalog.js`
+- **applied()** (3 connections) — `backend/src/db/migrate.js`
+- **catalogSync()** (3 connections) — `backend/src/jobs/catalogSync.js`
+- **tokenCleanup()** (3 connections) — `backend/src/jobs/catalogSync.js`
+- **markPollRun()** (3 connections) — `backend/src/jobs/crmPoll.js`
+- **startJobs()** (3 connections) — `backend/src/jobs/index.js`
 - *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (52 shared connections)
-- [[Master Codebase Architecture Reference]] (24 shared connections)
-- [[Dependencies & Package Config]] (21 shared connections)
-- [[Zoho API Diagnostic Script]] (18 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (13 shared connections)
-- [[Oxlint Linter Configuration]] (12 shared connections)
-- [[Community 39]] (12 shared connections)
-- [[Design System & UI Tokens]] (7 shared connections)
-- [[Community 48]] (3 shared connections)
-- [[Community 76]] (2 shared connections)
-- [[Architecture Doc Generator]] (2 shared connections)
+- [[Community 51]] (36 shared connections)
+- [[Community 49]] (15 shared connections)
+- [[Community 95]] (11 shared connections)
+- [[Community 101]] (6 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BlyMIx9J.js`
+- `backend/src/config/env.js`
+- `backend/src/db/migrate.js`
+- `backend/src/db/pool.js`
+- `backend/src/jobs/catalogSync.js`
+- `backend/src/jobs/crmPoll.js`
+- `backend/src/jobs/index.js`
+- `backend/src/middleware/errorHandler.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/routes/prices.js`
+- `backend/src/routes/webhooks.js`
+- `backend/src/server.js`
+- `backend/src/services/catalog.js`
+- `backend/src/services/notifications.js`
+- `backend/src/utils/logger.js`
+- `backend/test/priceGate.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 320 (100%)
+- EXTRACTED: 262 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

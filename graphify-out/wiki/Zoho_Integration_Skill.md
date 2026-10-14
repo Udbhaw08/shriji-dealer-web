@@ -1,60 +1,56 @@
 # Zoho Integration Skill
 
-> 46 nodes · cohesion 0.07
+> 45 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **brand-marks.mjs** (51 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **brand-marks.test.mjs** (15 connections) — `.agents/skills/archify/test/brand-marks.test.mjs`
-- **loadDiagramWithBrandMarks()** (8 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **captureRemoteBrand()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **prepareDiagramBrandMarks()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **captureBrandReference()** (6 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **commandBrands()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **findBrandMark()** (5 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **checkedFetch()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **isPrivateBrandAddress()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **resolveRequestTarget()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **asUrl()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **iconCandidates()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **imageData()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **ipv4Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **ipv6Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **lookupForms()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **readLimited()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **validateUrlShape()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **generated-brand-marks.mjs** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
-- **BRAND_MARKS** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
-- **attribute()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **beforeDeadline()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **captureTimeoutMilliseconds()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **domainMark()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- *... and 21 more nodes in this community*
+- **create()** (27 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **Z()** (25 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **Mu()** (19 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **wl()** (18 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **warn()** (16 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **Si()** (13 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **_u()** (12 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **Uu()** (12 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **bi()** (11 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **tu()** (10 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **kl()** (9 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **Nd()** (9 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **nu()** (9 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **Sp()** (9 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **su()** (9 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **eu()** (8 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **hu()** (8 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **iu()** (8 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **ou()** (8 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **Du()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **em()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **oc()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **wu()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **Xc()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **zu()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [[Product Pages Specification]] (9 shared connections)
-- [[Mobile Responsive UI Skill]] (8 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (2 shared connections)
-- [[Community 44]] (2 shared connections)
-- [[Community 45]] (2 shared connections)
-- [[Pricing Regression Test Suite]] (2 shared connections)
-- [[Community 37]] (1 shared connections)
-- [[Community 98]] (1 shared connections)
-- [[Community 73]] (1 shared connections)
+- [[Price Presentation & Product UI]] (54 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (47 shared connections)
+- [[Zoho Integration Architecture]] (20 shared connections)
+- [[Community 62]] (12 shared connections)
+- [[Design System & UI Tokens]] (10 shared connections)
+- [[Graphify Workflow]] (7 shared connections)
+- [[Product Pages Specification]] (7 shared connections)
+- [[Community 38]] (6 shared connections)
+- [[Community 31]] (6 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/cli.mjs`
-- `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
-- `.agents/skills/archify/test/brand-marks.test.mjs`
+- `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
 
 ## Audit Trail
 
-- EXTRACTED: 176 (98%)
-- INFERRED: 4 (2%)
+- EXTRACTED: 365 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

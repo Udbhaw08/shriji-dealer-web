@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-14T01:35:12.723+05:30 (GMT+5:30)
-> Total Project Files: 1009
+ zoho> Last synchronized: 2026-10-15T04:20:29.042+05:30 (GMT+5:30)
+> Total Project Files: 1027
 
 ---
 
@@ -85,12 +85,13 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/pages/Favorites.jsx`** (6.7 KB)
 - **`src/pages/Home.jsx`** (18.5 KB)
 - **`src/pages/Login.jsx`** (65.1 KB)
-- **`src/pages/Product.jsx`** (27.5 KB)
+- **`src/pages/Product.jsx`** (30.4 KB)
 - **`src/pages/Products.jsx`** (24.3 KB)
 - **`src/pages/Schemes.jsx`** (7.4 KB)
 - **`src/pages/Support.jsx`** (4.7 KB)
 
 ### 4.2 Reusable Components (`src/components/` & `src/ui.jsx`)
+- **`src/components/EmailVerificationPrompt.jsx`** (9.5 KB)
 - **`src/components/HeroSlider.jsx`** (5.8 KB)
 - **`src/components/MobileBottomNav.jsx`** (4.4 KB)
 - **`src/components/NativeBackHandler.jsx`** (3.7 KB)
@@ -103,7 +104,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 ### 4.3 State & Business Logic (`src/data/`)
 - **`src/data/api.js`** (1.7 KB)
 - **`src/data/auth-session.test.mjs`** (3.1 KB)
-- **`src/data/auth.js`** (14.2 KB)
+- **`src/data/auth.js`** (14.9 KB)
 - **`src/data/dealer.js`** (8.4 KB)
 - **`src/data/dealer.test.mjs`** (4.2 KB)
 - **`src/data/favoritesStore.js`** (2.3 KB)
@@ -115,9 +116,10 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/data/products.js`** (1.1 KB)
 - **`src/data/productsStore.js`** (4.8 KB)
 - **`src/data/searchHelper.js`** (9.8 KB)
-- **`src/data/session.js`** (6.2 KB)
+- **`src/data/session.js`** (6.5 KB)
 - **`src/data/site.js`** (4.6 KB)
 - **`src/data/translations.js`** (32.0 KB)
+- **`src/data/validators.js`** (1.6 KB)
 
 ### 4.4 Zoho API & Serverless Handlers (`api/`)
 - **`api/dealer/apply.js`** (1.0 KB)
@@ -126,7 +128,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`api/og.js`** (3.9 KB)
 - **`api/products/index.js`** (1.1 KB)
 - **`api/products/[id].js`** (1.1 KB)
-- **`api/zoho.js`** (24.3 KB)
+- **`api/zoho.js`** (27.3 KB)
 
 ### 4.5 Automation & Utility Scripts (`scripts/`)
 - **`scripts/audit_prices.mjs`** (3.8 KB)

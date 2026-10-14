@@ -1,52 +1,52 @@
 # Product Requirements Documentation
 
-> 74 nodes · cohesion 0.05
+> 76 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **Vr()** (23 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **uc()** (21 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **Pd()** (18 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **lc()** (16 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **Gr()** (14 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **mc()** (14 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **ji()** (13 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **tc()** (11 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **zt()** (11 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **cc()** (10 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **fh()** (10 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **jd()** (10 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **Kr()** (10 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **yh()** (10 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **yu()** (10 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **hh()** (9 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **rc()** (9 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **bo()** (8 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **cm()** (8 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **dh()** (8 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **Md()** (8 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **vh()** (8 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **yo()** (8 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **zr()** (8 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **ki()** (7 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- *... and 49 more nodes in this community*
+- **Login.jsx** (62 connections) — `src/pages/Login.jsx`
+- **auth.js** (43 connections) — `src/data/auth.js`
+- **callBackend()** (27 connections) — `src/data/auth.js`
+- **json()** (27 connections) — `src/data/auth.js`
+- **DealerDashboard.jsx** (23 connections) — `src/pages/DealerDashboard.jsx`
+- **EmailVerificationPrompt.jsx** (10 connections) — `src/components/EmailVerificationPrompt.jsx`
+- **applyAuthResponse()** (8 connections) — `src/data/auth.js`
+- **broadcastAuthChange()** (8 connections) — `src/data/auth.js`
+- **requestOtp()** (8 connections) — `src/data/auth.js`
+- **loginCode.js** (8 connections) — `src/data/loginCode.js`
+- **Identify()** (8 connections) — `src/pages/Login.jsx`
+- **firebaseAuthLogin()** (7 connections) — `src/data/auth.js`
+- **login()** (7 connections) — `src/data/auth.js`
+- **firebase.js** (7 connections) — `src/data/firebase.js`
+- **sendFirebasePhoneOtp()** (7 connections) — `src/data/firebase.js`
+- **validators.js** (7 connections) — `src/data/validators.js`
+- **StaffDetails()** (7 connections) — `src/pages/Login.jsx`
+- **googleLogin()** (6 connections) — `src/data/auth.js`
+- **logout()** (6 connections) — `src/data/auth.js`
+- **signup()** (6 connections) — `src/data/auth.js`
+- **verifyOtp()** (6 connections) — `src/data/auth.js`
+- **isValidEmail()** (6 connections) — `src/data/validators.js`
+- **OtpStep()** (6 connections) — `src/pages/Login.jsx`
+- **StaffLogin()** (6 connections) — `src/pages/Login.jsx`
+- **applyAsDealer()** (5 connections) — `src/data/auth.js`
+- *... and 51 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (87 shared connections)
-- [[Product Brand & Business Vision]] (32 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (26 shared connections)
-- [[Graphify Workflow]] (25 shared connections)
-- [[Vercel Deployment Routing]] (18 shared connections)
-- [[Pricing & Roles Skill]] (14 shared connections)
-- [[Community 41]] (11 shared connections)
-- [[Client Products Data Store]] (10 shared connections)
-- [[Community 30]] (2 shared connections)
-- [[Community 68]] (2 shared connections)
+- [[Community 44]] (29 shared connections)
+- [[Live Pricing Audit Tool]] (19 shared connections)
+- [[Community 40]] (2 shared connections)
+- [[Community 64]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- `src/components/EmailVerificationPrompt.jsx`
+- `src/data/auth.js`
+- `src/data/firebase.js`
+- `src/data/loginCode.js`
+- `src/data/validators.js`
+- `src/pages/DealerDashboard.jsx`
+- `src/pages/Login.jsx`
 
 ## Audit Trail
 

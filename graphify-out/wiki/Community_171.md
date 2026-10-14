@@ -1,33 +1,29 @@
 # Community 171
 
-> 9 nodes · cohesion 0.33
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **viewer-camera-browser.test.mjs** (11 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **run()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **stable()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **viewport()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **screenshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **reach-share-card.test.mjs** (7 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
 
 ## Relationships
 
-- [[Community 52]] (4 shared connections)
-- [[Community 40]] (1 shared connections)
-- [[Community 123]] (1 shared connections)
-- [[Community 105]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- `.agents/skills/archify/test/reach-share-card.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

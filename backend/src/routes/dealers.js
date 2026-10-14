@@ -4,9 +4,11 @@ import { jwtAuth, requireApprovedDealer } from '../middleware/auth.js';
 import { httpError } from '../middleware/errorHandler.js';
 import { applyDealer, applyCrmAccountState, deleteDealer } from '../services/dealerApp.js';
 import { createInvite, approveStaff, revokeStaff, holdStaff, resumeStaff, deleteStaff, toggleStaffPrice, toggleAllStaffPrice } from '../services/staff.js';
-import { updateDealerCodeInCrm, getDealerAccount } from '../services/crmClient.js';
+import * as crm from '../services/crmClient.js';
+const { updateDealerCodeInCrm, getDealerAccount } = crm;
 import { resolvePricebookId } from '../services/commerceClient.js';
 import { formatLoginCode, generateUniqueDealerCode } from '../utils/loginCode.js';
+import { isValidName, cleanName, isValidGstin, isValidPhone } from '../utils/validators.js';
 
 export const dealersRouter = Router();
 
@@ -15,39 +17,80 @@ dealersRouter.use(jwtAuth);
 /* POST /api/dealers/apply — submit the GST + business application. */
 dealersRouter.post('/apply', async (req, res, next) => {
   try {
-    const { business_name, gst_number, gst_treatment, address, person_name, phone } = req.body || {};
-    if (!business_name) throw httpError(400, 'business_name is required');
+    const { business_name, gst_number, gst_treatment, address, person_name, first_name, last_name, phone } = req.body || {};
+    if (!business_name || String(business_name).trim().length < 2) {
+      throw httpError(400, 'Business / Shop name is required (min 2 characters)');
+    }
+    if (first_name && !isValidName(first_name)) {
+      throw httpError(400, 'First name should contain letters only (min 2 characters)');
+    }
+    if (last_name && !isValidName(last_name)) {
+      throw httpError(400, 'Last name should contain letters only (min 2 characters)');
+    }
+    if (gst_treatment?.includes('Registered') && (!gst_number || !isValidGstin(gst_number))) {
+      throw httpError(400, 'Please enter a valid 15-character GSTIN (e.g. 27AABCR1234D1Z5)');
+    }
+    const cleanPhone = phone ? String(phone).trim() : (req.user.phone || null);
+    if (cleanPhone && !isValidPhone(cleanPhone)) {
+      throw httpError(400, 'Please enter a valid 10-digit mobile number');
+    }
+
     const existing = await sql`select role, status from users where id = ${req.user.id}`;
     if (existing[0]?.role === 'dealer') throw httpError(409, 'dealer application already exists');
 
+    const cleanFirst = first_name ? cleanName(first_name) : null;
+    const cleanLast = last_name ? cleanName(last_name) : null;
+    const cleanPerson = person_name ? cleanName(person_name) : ([cleanFirst, cleanLast].filter(Boolean).join(' ') || null);
+
     const dealerId = await applyDealer({
       user: req.user,
-      businessName: String(business_name).trim(),
-      gstNumber: gst_number ? String(gst_number).trim() : null,
+      businessName: cleanName(business_name),
+      gstNumber: gst_number ? String(gst_number).trim().toUpperCase() : null,
       gstTreatment: gst_treatment ? String(gst_treatment).trim() : null,
       address: address ? String(address).trim() : null,
-      personName: person_name ? String(person_name).trim() : null,
-      phone: phone ? String(phone).trim() : (req.user.phone || null),
+      personName: cleanPerson,
+      firstName: cleanFirst,
+      lastName: cleanLast,
+      phone: cleanPhone,
     });
     res.status(201).json({ ok: true, dealer_id: dealerId, status: 'pending' });
   } catch (err) { next(err); }
 });
 
+const lastCrmSyncByDealerId = new Map();
+
 /* GET /api/dealers/me — the application's live status (pairs with /api/auth/me). */
 dealersRouter.get('/me', async (req, res, next) => {
   try {
     const rows = await sql`select * from dealers where owner_user_id = ${req.user.id}`;
-    const dealer = rows[0];
+    let dealer = rows[0];
     if (!dealer) return res.json({ dealer: null });
+
+    // 2-way sync: Refresh from CRM if linked and not checked in the last 30 seconds
+    if (dealer.zoho_account_id && crm.isCrmConfigured()) {
+      const lastSync = lastCrmSyncByDealerId.get(dealer.id) || 0;
+      if (Date.now() - lastSync > 30_000) {
+        lastCrmSyncByDealerId.set(dealer.id, Date.now());
+        try {
+          const account = await crm.getDealerAccount(dealer.zoho_account_id);
+          if (account) {
+            await applyCrmAccountState(dealer, account);
+            dealer = (await sql`select * from dealers where id = ${dealer.id}`)[0];
+          }
+        } catch (crmErr) {
+          // Non-fatal
+        }
+      }
+    }
+
     const pricebookId = dealer.price_tier ? await resolvePricebookId(dealer.price_tier) : null;
     res.json({
       dealer: {
         ...dealer,
         pricebook_id: pricebookId,
         hide_staff_dealer_price: Boolean(dealer.hide_staff_dealer_price),
-        gst_number: undefined,
       },
-    }); // gst never echoes back
+    });
   } catch (err) { next(err); }
 });
 
@@ -90,7 +133,12 @@ dealersRouter.get('/staff', requireApprovedDealer, async (req, res, next) => {
   try {
     const staff = await sql`
       select id, full_name, email, phone, status, created_at, zoho_contact_id, can_see_dealer_price from users
-      where dealer_id = ${req.dealer.id} and role = 'dealer_staff'
+      where dealer_id = ${req.dealer.id}
+        and role = 'dealer_staff'
+        and (
+          status in ('active', 'hold', 'revoked')
+          or exists (select 1 from refresh_tokens rt where rt.user_id = users.id)
+        )
       order by
         case when status = 'pending' then 1
              when status = 'active' then 2

@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **esm-7GVxpqiE.js** (1 connections) — `ios/App/App/public/assets/esm-7GVxpqiE.js`
-- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-7GVxpqiE.js`
+- **make-scheme-pdfs.mjs** (1 connections) — `scripts/make-scheme-pdfs.mjs`
+- **createPdfWithJpg()** (1 connections) — `scripts/make-scheme-pdfs.mjs`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/esm-7GVxpqiE.js`
+- `scripts/make-scheme-pdfs.mjs`
 
 ## Audit Trail
 

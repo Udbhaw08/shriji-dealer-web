@@ -33,8 +33,8 @@
 ## Relationships
 
 - [[Community 46]] (16 shared connections)
-- [[Community 35]] (3 shared connections)
-- [[Community 94]] (3 shared connections)
+- [[Community 34]] (3 shared connections)
+- [[Community 88]] (3 shared connections)
 
 ## Source Files
 

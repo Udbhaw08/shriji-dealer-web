@@ -159,19 +159,15 @@ export default function Product() {
     [p, PRODUCTS],
   );
 
-  // Gallery shots: use product images from Zoho, clean duplicates, or fallback
+  // Gallery shots: use product images from Zoho, clean duplicates, or fallback to main product image only
   const shots = useMemo(() => {
     if (!p) return [];
     if (p.images && p.images.length > 0) {
       const clean = p.images.filter(Boolean);
       return Array.from(new Set(clean));
     }
-    const others = PRODUCTS.filter((x) => x.cat === p.cat && x.img && x.img !== p.img)
-      .map((x) => x.img)
-      .filter((v, i, a) => a.indexOf(v) === i)
-      .slice(0, 3);
-    return [p.img, ...others].filter(Boolean);
-  }, [p, PRODUCTS]);
+    return [p.img].filter(Boolean);
+  }, [p]);
 
   const prevShot = useCallback(() => {
     if (shots.length <= 1) return;
@@ -320,22 +316,33 @@ export default function Product() {
 
   const tag = tagFor(p);
 
-  const displayTitle = p?.model && p.model.toLowerCase() !== "test" ? p.model : (p?.name || "");
+  const displayTitle = p?.name || p?.model || "";
 
-  const specs = [
+  const baseSpecs = [
     [t("spec_model"), displayTitle],
-    [t("spec_full_name"), p.name],
+    p.zohoTitle && p.zohoTitle !== displayTitle && [t("spec_full_name"), p.zohoTitle],
     [t("spec_category"), tCat(p.cat, p.catLabel)],
     p.size && [t("spec_size"), p.size],
-    [t("spec_finish"), p.finish],
-    [t("spec_brand"), p.brand],
-    p.features.length && [t("spec_features"), p.features.join(", ")],
-    [t("spec_code"), `${p.code}-${p.id.slice(-6)}`],
+    p.finish && [t("spec_finish"), p.finish],
+    p.brand && [t("spec_brand"), p.brand],
+    p.features?.length && [t("spec_features"), p.features.join(", ")],
+    p.customFields?.warranty && ["Warranty", p.customFields.warranty],
+    p.code && [t("spec_code"), `${p.code}-${p.id.slice(-6)}`],
   ].filter(Boolean);
 
-  const overview = `The Sunshine ${displayTitle} combines ${p.finish.toLowerCase()} construction with ${
-    p.features.length ? p.features.join(" and ").toLowerCase() : "everyday reliability"
-  }, making it a dependable choice for the modern Indian kitchen.`;
+  const zohoSpecs = (p.specifications || []).map((s) => [
+    s.group && s.group !== "General" ? `${s.group} - ${s.name}` : s.name,
+    s.value,
+  ]);
+
+  const specs = [...baseSpecs, ...zohoSpecs];
+
+  const overview =
+    p.customFields?.overview ||
+    p.description ||
+    `The Sunshine ${displayTitle} combines ${p.finish?.toLowerCase() || "quality"} construction with ${
+      p.features?.length ? p.features.join(" and ").toLowerCase() : "everyday reliability"
+    }, making it a dependable choice for the modern Indian kitchen.`;
 
   const share = () => {
     const url = shareLink(p, me || sharedBy);
@@ -541,12 +548,29 @@ export default function Product() {
             </p>
 
             <div className="feats">
-              {featureBoxes(p, t).map((f) => (
-                <div className="feat" key={f.label}>
-                  <Icon name={f.icon} size={20} />
-                  <span style={{ whiteSpace: "pre-line" }}>{f.label}</span>
-                </div>
-              ))}
+              {p.tileIcons && p.tileIcons.length > 0 ? (
+                p.tileIcons.map((f, idx) => (
+                  <div className="feat" key={idx}>
+                    {f.image ? (
+                      <img
+                        src={f.image}
+                        alt={f.text || f.label}
+                        style={{ width: "22px", height: "22px", objectFit: "contain", marginBottom: "4px" }}
+                      />
+                    ) : (
+                      <Icon name="bolt" size={20} />
+                    )}
+                    <span style={{ whiteSpace: "pre-line" }}>{f.text || f.label}</span>
+                  </div>
+                ))
+              ) : (
+                featureBoxes(p, t).map((f) => (
+                  <div className="feat" key={f.label}>
+                    <Icon name={f.icon} size={20} />
+                    <span style={{ whiteSpace: "pre-line" }}>{f.label}</span>
+                  </div>
+                ))
+              )}
             </div>
 
             <PriceBlock
@@ -622,9 +646,25 @@ export default function Product() {
               {tab === "Overview" && (
                 <>
                   <h3>{t("overview_engineered_title")}</h3>
-                  <p className="muted" style={{ fontSize: "0.93rem" }}>
+                  <p className="muted" style={{ fontSize: "0.93rem", whiteSpace: "pre-line" }}>
                     {overview}
                   </p>
+                  {p.customFields?.keyFeatures && (
+                    <div style={{ marginTop: "var(--s4)" }}>
+                      <h4 style={{ fontSize: "1rem", marginBottom: "var(--s2)", fontWeight: 600 }}>Key Features</h4>
+                      <p className="muted" style={{ fontSize: "0.93rem", whiteSpace: "pre-line" }}>
+                        {p.customFields.keyFeatures}
+                      </p>
+                    </div>
+                  )}
+                  {p.customFields?.warranty && (
+                    <div style={{ marginTop: "var(--s4)" }}>
+                      <h4 style={{ fontSize: "1rem", marginBottom: "var(--s2)", fontWeight: 600 }}>Warranty</h4>
+                      <p className="muted" style={{ fontSize: "0.93rem" }}>
+                        {p.customFields.warranty}
+                      </p>
+                    </div>
+                  )}
                 </>
               )}
 
@@ -650,9 +690,25 @@ export default function Product() {
               {tab === "Videos" && (
                 <>
                   <h3>{t("tab_videos")}</h3>
-                  <p className="muted" style={{ fontSize: "0.93rem" }}>
-                    {t("no_videos_uploaded", { model: p.model })}
-                  </p>
+                  {p.videos && p.videos.length > 0 ? (
+                    <div style={{ display: "grid", gap: "var(--s4)", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", marginTop: "var(--s3)" }}>
+                      {p.videos.map((vid, idx) => (
+                        <div key={idx} style={{ position: "relative", paddingBottom: "56.25%", height: 0, overflow: "hidden", borderRadius: "8px", background: "#000" }}>
+                          <iframe
+                            src={vid}
+                            title={`${displayTitle} Video ${idx + 1}`}
+                            style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: 0 }}
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                          />
+                        </div>
+                      ))}
+                    </div>
+                  ) : (
+                    <p className="muted" style={{ fontSize: "0.93rem" }}>
+                      {t("no_videos_uploaded", { model: displayTitle })}
+                    </p>
+                  )}
                 </>
               )}
             </div>

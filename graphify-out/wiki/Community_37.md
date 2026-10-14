@@ -1,52 +1,56 @@
 # Community 37
 
-> 35 nodes · cohesion 0.16
+> 36 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **archify.mjs** (50 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandDeliver()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandMigrate()** (17 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandValidate()** (13 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandRender()** (10 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandPreview()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **diagnostic()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rendererPath()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **renderValidatedArchitecture()** (8 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractQualityArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractRepoRootArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rejectCliArgument()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **assertEvidenceType()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **checkerDiagnostics()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rendererEnv()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rendererFailure()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportArtifactFailure()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **inputDiagnostic()** (4 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **engineeringProfileFromArtifact()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractMigrationOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **formatDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **migrationPathDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **migrationReport()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportArtifactArgumentFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportDeliveryFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- *... and 10 more nodes in this community*
+- **dc()** (19 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **Yd()** (17 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **Pd()** (15 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **fc()** (14 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **l()** (14 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **Vd()** (13 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **qd()** (12 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **yo()** (12 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **Gi()** (11 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **jd()** (10 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **Mi()** (9 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **Bd()** (8 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **ec()** (8 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **ki()** (7 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **bo()** (6 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **cc()** (6 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **dh()** (6 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **Di()** (6 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **ic()** (6 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **Oi()** (6 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **vo()** (6 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **Hd()** (5 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **ji()** (5 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **os()** (4 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **pf()** (4 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [[Community 98]] (35 shared connections)
-- [[Community 62]] (4 shared connections)
-- [[Community 89]] (4 shared connections)
-- [[Community 109]] (3 shared connections)
-- [[Zoho Integration Skill]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (40 shared connections)
+- [[Dependencies & Package Config]] (31 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (15 shared connections)
+- [[Master Codebase Architecture Reference]] (15 shared connections)
+- [[Client Products Data Store]] (14 shared connections)
+- [[Product Brand & Business Vision]] (11 shared connections)
+- [[Vercel Deployment Routing]] (3 shared connections)
+- [[Community 41]] (3 shared connections)
+- [[Community 29]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
+- `ios/App/App/public/assets/index-BW8OD3MU.js`
 
 ## Audit Trail
 
-- EXTRACTED: 229 (97%)
-- INFERRED: 6 (3%)
+- EXTRACTED: 261 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

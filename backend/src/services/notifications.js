@@ -2,6 +2,7 @@ import { sql } from '../db/pool.js';
 import { log } from '../utils/logger.js';
 import { env } from '../config/env.js';
 import { Resend } from 'resend';
+import dotenv from 'dotenv';
 
 const resend = env.resendApiKey ? new Resend(env.resendApiKey) : null;
 
@@ -20,20 +21,27 @@ export async function sendOtpNotification({ phone, email, code }) {
   if (cleanPhone) {
     let sent = false;
 
+    // Dynamically pick up latest .env variables (e.g. freshly generated Meta token)
+    dotenv.config({ override: true });
+    const waToken = process.env.WHATSAPP_TOKEN || env.whatsapp.token;
+    const waPhoneId = process.env.WHATSAPP_PHONE_ID || env.whatsapp.phoneId;
+    const waTemplate = process.env.WHATSAPP_TEMPLATE_NAME || env.whatsapp.templateName;
+    const waLang = process.env.WHATSAPP_TEMPLATE_LANG || env.whatsapp.templateLang || 'en_US';
+
     // A. WhatsApp Cloud API (Meta Official — 1,000 free conversations/month)
-    if (env.whatsapp.token && env.whatsapp.phoneId) {
+    if (waToken && waPhoneId) {
       try {
         let formattedPhone = cleanPhone.replace(/\D/g, ''); // strip non-digits
         if (formattedPhone.length === 10) formattedPhone = `91${formattedPhone}`; // auto-prefix India code if 10-digit
 
-        const body = env.whatsapp.templateName
+        const body = waTemplate
           ? {
               messaging_product: 'whatsapp',
               to: formattedPhone,
               type: 'template',
               template: {
-                name: env.whatsapp.templateName,
-                language: { code: env.whatsapp.templateLang || 'en_US' },
+                name: waTemplate,
+                language: { code: waLang },
                 components: [
                   {
                     type: 'body',
@@ -49,10 +57,10 @@ export async function sendOtpNotification({ phone, email, code }) {
               text: { body: `Your Shriji Dealer Portal verification code is: ${code}. Valid for 10 minutes.` },
             };
 
-        const res = await fetch(`https://graph.facebook.com/v21.0/${env.whatsapp.phoneId}/messages`, {
+        const res = await fetch(`https://graph.facebook.com/v21.0/${waPhoneId}/messages`, {
           method: 'POST',
           headers: {
-            Authorization: `Bearer ${env.whatsapp.token}`,
+            Authorization: `Bearer ${waToken}`,
             'Content-Type': 'application/json',
           },
           body: JSON.stringify(body),

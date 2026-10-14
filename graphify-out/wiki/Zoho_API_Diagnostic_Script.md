@@ -1,57 +1,52 @@
 # Zoho API Diagnostic Script
 
-> 44 nodes · cohesion 0.09
+> 43 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **i()** (67 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **t()** (25 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **ss()** (18 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **s()** (16 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **r()** (15 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **Mp()** (13 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **gs()** (12 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **vf()** (10 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **bs()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **ms()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **vs()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **xs()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **zs()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **ne()** (7 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **ws()** (7 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **ys()** (7 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **ao()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **cs()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **fm()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **ns()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **os()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **ps()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **to()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **vl()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **hs()** (5 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- *... and 19 more nodes in this community*
+- **properties** (28 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **label** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelSegment** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **brand** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **channelX** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **channelY** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **classification** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **from** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **fromSide** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelAt** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelDx** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelDy** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **route** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **sublabel** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **tag** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **to** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **toSide** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **variant** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **yOffset** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (49 shared connections)
-- [[Master Codebase Architecture Reference]] (36 shared connections)
-- [[Dependencies & Package Config]] (19 shared connections)
-- [[Design System & UI Tokens]] (19 shared connections)
-- [[Claude Agent Instructions]] (18 shared connections)
-- [[Community 39]] (11 shared connections)
-- [[Oxlint Linter Configuration]] (11 shared connections)
-- [[Architecture Doc Generator]] (10 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (10 shared connections)
-- [[Community 48]] (5 shared connections)
-- [[Community 76]] (1 shared connections)
+- [[Community 136]] (3 shared connections)
+- [[Community 264]] (1 shared connections)
+- [[Community 265]] (1 shared connections)
+- [[Community 266]] (1 shared connections)
+- [[Community 240]] (1 shared connections)
+- [[Community 241]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BlyMIx9J.js`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 359 (100%)
+- EXTRACTED: 92 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

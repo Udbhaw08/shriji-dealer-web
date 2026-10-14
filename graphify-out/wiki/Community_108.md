@@ -1,23 +1,23 @@
 # Community 108
 
-> 14 nodes · cohesion 0.23
+> 14 nodes · cohesion 0.30
 
 ## Key Concepts
 
-- **web-Cg8-_1Jy.js** (13 connections) — `ios/App/App/public/assets/web-Cg8-_1Jy.js`
-- **applyPrefix()** (4 connections) — `ios/App/App/public/assets/web-Cg8-_1Jy.js`
-- **keys()** (4 connections) — `ios/App/App/public/assets/web-Cg8-_1Jy.js`
-- **get()** (3 connections) — `ios/App/App/public/assets/web-Cg8-_1Jy.js`
-- **migrate()** (3 connections) — `ios/App/App/public/assets/web-Cg8-_1Jy.js`
-- **rawKeys()** (3 connections) — `ios/App/App/public/assets/web-Cg8-_1Jy.js`
-- **clear()** (2 connections) — `ios/App/App/public/assets/web-Cg8-_1Jy.js`
-- **remove()** (2 connections) — `ios/App/App/public/assets/web-Cg8-_1Jy.js`
-- **removeOld()** (2 connections) — `ios/App/App/public/assets/web-Cg8-_1Jy.js`
-- **set()** (2 connections) — `ios/App/App/public/assets/web-Cg8-_1Jy.js`
-- **configure()** (1 connections) — `ios/App/App/public/assets/web-Cg8-_1Jy.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-Cg8-_1Jy.js`
-- **impl()** (1 connections) — `ios/App/App/public/assets/web-Cg8-_1Jy.js`
-- **prefix()** (1 connections) — `ios/App/App/public/assets/web-Cg8-_1Jy.js`
+- **architecture-delta-markers.test.mjs** (13 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **assertPreserved()** (6 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **descendants()** (6 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **assertResolved()** (4 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **attr()** (4 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **markerMap()** (4 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **compare()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **edgePaths()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **markerId()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **svgIn()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **markerShape()** (2 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **variantFixture()** (1 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **variants** (1 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
 
 ## Relationships
 
@@ -25,11 +25,11 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-Cg8-_1Jy.js`
+- `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 54 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -60,11 +60,18 @@ function isSessionEqual(a, b) {
     a.userId === b.userId &&
     a.authRole === b.authRole &&
     Boolean(a.canSeeDealerPrice) === Boolean(b.canSeeDealerPrice) &&
+    a.email === b.email &&
+    Boolean(a.email_verified) === Boolean(b.email_verified) &&
+    a.fullName === b.fullName &&
+    a.phone === b.phone &&
     a.dealerId === b.dealerId &&
+    a.dealer?.name === b.dealer?.name &&
     a.dealer?.status === b.dealer?.status &&
     a.dealer?.price_tier === b.dealer?.price_tier &&
     a.dealer?.pricebookId === b.dealer?.pricebookId &&
     a.dealer?.dealer_code === b.dealer?.dealer_code &&
+    a.dealer?.gst_number === b.dealer?.gst_number &&
+    a.dealer?.gst_treatment === b.dealer?.gst_treatment &&
     Boolean(a.dealer?.hide_staff_dealer_price) === Boolean(b.dealer?.hide_staff_dealer_price)
   );
 }

@@ -489,6 +489,8 @@ export async function fetchZohoPricebookItems(pricebookId = "3334672000000547177
   return rateMap;
 }
 
+const cachedProductDetails = new Map();
+
 function normalizeProduct(p, livePricebookRates = {}) {
   const variant = p.variants?.[0] || {};
   const docs = p.documents?.length ? p.documents : (variant.documents || []);
@@ -550,22 +552,95 @@ function normalizeProduct(p, livePricebookRates = {}) {
   const mrp = labelRate > 0 ? labelRate : (sellingRate > 0 ? sellingRate : (minRate > 0 ? minRate : 0));
   const sellingPrice = sellingRate > 0 ? sellingRate : (labelRate > 0 ? labelRate : (minRate > 0 ? minRate : 0));
 
-  // Sanitize model name: avoid using placeholder 'Test' descriptions from Zoho
-  const rawModel = (p.product_short_description || "").trim();
-  const isJunkModel = !rawModel || rawModel.toLowerCase() === "test" || rawModel.toLowerCase() === "null";
-  const model = isJunkModel ? p.name : rawModel;
+  // Product Name: Short description is the user's primary name as requested
+  const rawShortDesc = (p.product_short_description || "").trim();
+  const isJunkShortDesc = !rawShortDesc || rawShortDesc.toLowerCase() === "test" || rawShortDesc.toLowerCase() === "null";
+  const name = isJunkShortDesc ? p.name : rawShortDesc;
+  const model = name;
+  const zohoTitle = p.name || "";
 
-  const rawDesc = (p.description || p.product_description || "").trim();
-  const description = rawDesc.toLowerCase() === "test" ? "" : rawDesc;
+  // Extract custom fields (from variant.custom_fields or p.custom_fields)
+  const rawCustomFields = Array.isArray(variant.custom_fields)
+    ? variant.custom_fields
+    : (Array.isArray(p.custom_fields) ? p.custom_fields : []);
+
+  // 1. Tile Icons (Dynamic: 1..8, only includes non-empty image/text)
+  const tileIcons = [];
+  for (let i = 1; i <= 8; i++) {
+    const imgField = rawCustomFields.find(
+      (c) => c.api_name === `cf_tile_icon_image_${i}` || c.label?.toLowerCase() === `tile icon image ${i}`
+    );
+    const textField = rawCustomFields.find(
+      (c) => c.api_name === `cf_tile_icon_text_${i}` || c.label?.toLowerCase() === `tile icon text ${i}`
+    );
+
+    if (imgField || textField) {
+      const imgFileName = (imgField?.value_formatted || "").trim();
+      const imgDocId = (imgField?.value || "").trim();
+      const imgUrl = (imgFileName && imgDocId)
+        ? buildDocUrl({ file_name: imgFileName, document_id: imgDocId })
+        : "";
+      const text = (textField?.value || textField?.value_formatted || "").trim();
+
+      // Only include tile if image or text exists (omit empty fields)
+      if (imgUrl || text) {
+        tileIcons.push({
+          index: i,
+          image: imgUrl,
+          text,
+          label: textField?.label || `Feature ${i}`,
+        });
+      }
+    }
+  }
+
+  // 2. Named custom fields
+  const getCfValue = (fieldKey) => {
+    const f = rawCustomFields.find(
+      (c) => c.api_name === fieldKey || c.label?.toLowerCase() === fieldKey.toLowerCase()
+    );
+    return (f?.value_formatted || f?.value || "").trim();
+  };
+
+  const warranty = getCfValue("cf_warranty") || getCfValue("warranty");
+  const keyFeatures = getCfValue("cf_key_features") || getCfValue("key features");
+  const overview = getCfValue("cf_overview") || getCfValue("overview");
+
+  // 3. Specifications (grouped by specification_group_name)
+  const rawSpecs = Array.isArray(p.specifications) ? p.specifications : [];
+  const specifications = rawSpecs
+    .filter((s) => s && (s.name || s.specification_value))
+    .map((s) => ({
+      group: s.specification_group_name || "General",
+      name: s.name || "",
+      value: s.specification_value || s.value || "",
+    }))
+    .filter((s) => s.name && s.value);
+
+  // 4. Description & Embedded Videos
+  const rawDesc = (p.description || "").trim();
+  const productDesc = (p.product_description || "").trim();
+  const description = rawDesc || productDesc;
+
+  const videos = [];
+  const iframeRegex = /src=["']([^"']*(?:youtube\.com|youtu\.be)[^"']*)["']/gi;
+  let vMatch;
+  while ((vMatch = iframeRegex.exec(productDesc)) !== null) {
+    let vUrl = vMatch[1];
+    if (vUrl.startsWith("//")) vUrl = "https:" + vUrl;
+    if (!videos.includes(vUrl)) videos.push(vUrl);
+  }
 
   // Live dealer rate directly from Zoho Commerce Pricebook API
   const dealerRate = livePricebookRates[p.product_id] ?? null;
 
   return {
     id: p.product_id,
-    slug: slugifyProduct(p.name),
-    name: p.name,
+    slug: slugifyProduct(name) || slugifyProduct(p.name),
+    name,
     model,
+    zohoTitle,
+    shortDescription: rawShortDesc,
     size,
     burners,
     finish,
@@ -584,6 +659,15 @@ function normalizeProduct(p, livePricebookRates = {}) {
     img,
     images: images.length ? images : (img ? [img] : []),
     description,
+    productDescriptionHtml: productDesc,
+    tileIcons,
+    customFields: {
+      warranty,
+      keyFeatures,
+      overview,
+    },
+    specifications,
+    videos,
     status: p.status || "active",
     showInStore: p.show_in_storefront ?? true,
   };
@@ -696,39 +780,37 @@ export async function fetchZohoProductById(identifier, { pricebookId = "33346720
   const resolvedId = await resolvePricebookId(pricebookId);
   const pbId = String(resolvedId || "3334672000000547177").trim();
   const clean = String(identifier).trim();
+  const now = Date.now();
 
-  // If product is in cached list for this specific pricebook, check by id, slug, or slugified name first
-  const cachedEntry = cachedProductsByPricebook.get(pbId);
-  if (cachedEntry) {
-    const found = cachedEntry.products.find(
-      (p) =>
-        p.id === clean ||
-        p.slug === clean ||
-        slugifyProduct(p.name) === clean ||
-        slugifyProduct(p.model) === clean
-    );
-    if (found && found.images?.length > 1) return found;
-  }
-
+  let targetId = clean;
   const isNumericId = /^\d+$/.test(clean);
 
-  // If it's a slug, load all products for this pricebook and find the matching one
+  // If it's a slug or name, find the numeric product_id from the catalogue
   if (!isNumericId) {
     const all = await fetchZohoProducts({ pricebookId: pbId });
     const match = all.find(
       (p) =>
+        p.id === clean ||
         p.slug === clean ||
         slugifyProduct(p.name) === clean ||
-        slugifyProduct(p.model) === clean
+        slugifyProduct(p.model) === clean ||
+        slugifyProduct(p.zohoTitle) === clean
     );
-    if (match) return match;
-    return null;
+    if (!match) return null;
+    targetId = match.id;
+  }
+
+  // Check detailed product cache (detail cache contains specifications & custom fields)
+  const detailCacheKey = `${targetId}:${pbId}`;
+  const cachedDetail = cachedProductDetails.get(detailCacheKey);
+  if (cachedDetail && now - cachedDetail.time < 60000) {
+    return cachedDetail.product;
   }
 
   const { dc, orgId } = getZohoConfig();
 
   const [res, livePricebookRates] = await Promise.all([
-    fetchZohoWithRetry(`https://commerce.zoho.${dc}/store/api/v1/products/${clean}`, {
+    fetchZohoWithRetry(`https://commerce.zoho.${dc}/store/api/v1/products/${targetId}`, {
       headers: {
         "X-com-zoho-store-organizationid": orgId,
       },
@@ -739,5 +821,7 @@ export async function fetchZohoProductById(identifier, { pricebookId = "33346720
   const data = await res.json();
   if (!data.product) return null;
 
-  return normalizeProduct(data.product, livePricebookRates);
+  const product = normalizeProduct(data.product, livePricebookRates);
+  cachedProductDetails.set(detailCacheKey, { product, time: now });
+  return product;
 }

@@ -1,54 +1,55 @@
 # Zoho Integration Architecture
 
-> 66 nodes · cohesion 0.08
+> 65 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **Login.jsx** (55 connections) — `src/pages/Login.jsx`
-- **auth.js** (40 connections) — `src/data/auth.js`
-- **callBackend()** (25 connections) — `src/data/auth.js`
-- **json()** (25 connections) — `src/data/auth.js`
-- **DealerDashboard.jsx** (23 connections) — `src/pages/DealerDashboard.jsx`
-- **applyAuthResponse()** (8 connections) — `src/data/auth.js`
-- **requestOtp()** (8 connections) — `src/data/auth.js`
-- **loginCode.js** (8 connections) — `src/data/loginCode.js`
-- **broadcastAuthChange()** (7 connections) — `src/data/auth.js`
-- **firebaseAuthLogin()** (7 connections) — `src/data/auth.js`
-- **login()** (7 connections) — `src/data/auth.js`
-- **firebase.js** (7 connections) — `src/data/firebase.js`
-- **sendFirebasePhoneOtp()** (7 connections) — `src/data/firebase.js`
-- **googleLogin()** (6 connections) — `src/data/auth.js`
-- **logout()** (6 connections) — `src/data/auth.js`
-- **signup()** (6 connections) — `src/data/auth.js`
-- **verifyOtp()** (6 connections) — `src/data/auth.js`
-- **OtpStep()** (6 connections) — `src/pages/Login.jsx`
-- **applyAsDealer()** (5 connections) — `src/data/auth.js`
-- **fetchMe()** (5 connections) — `src/data/auth.js`
-- **lookupStaffCode()** (5 connections) — `src/data/auth.js`
-- **staffSignup()** (5 connections) — `src/data/auth.js`
-- **staffTogglePrice()** (5 connections) — `src/data/auth.js`
-- **staffTogglePriceAll()** (5 connections) — `src/data/auth.js`
-- **formatLoginCode()** (5 connections) — `src/data/loginCode.js`
-- *... and 41 more nodes in this community*
+- **get()** (49 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **has()** (24 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **add()** (19 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **resolve()** (17 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **nc()** (16 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **constructor()** (15 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **getImmediate()** (15 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **Kd()** (12 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **pc()** (12 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **sf()** (12 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **gm()** (11 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **gu()** (11 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **initialize()** (11 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **nm()** (11 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **ku()** (10 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **od()** (10 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **isInitialized()** (9 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **addComponent()** (8 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **getProvider()** (8 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **_key()** (8 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **xs()** (8 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **bs()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **mf()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **onExecution()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **_openPopup()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- *... and 40 more nodes in this community*
 
 ## Relationships
 
-- [[Community 43]] (27 shared connections)
-- [[Graphify Knowledge Graph Skill]] (16 shared connections)
-- [[Community 38]] (2 shared connections)
-- [[Community 130]] (1 shared connections)
+- [[Price Presentation & Product UI]] (83 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (38 shared connections)
+- [[Zoho Integration Skill]] (20 shared connections)
+- [[Community 38]] (18 shared connections)
+- [[Product Pages Specification]] (16 shared connections)
+- [[Design System & UI Tokens]] (16 shared connections)
+- [[Community 62]] (12 shared connections)
+- [[Community 31]] (9 shared connections)
+- [[Graphify Workflow]] (5 shared connections)
 
 ## Source Files
 
-- `src/data/auth.js`
-- `src/data/firebase.js`
-- `src/data/loginCode.js`
-- `src/pages/DealerDashboard.jsx`
-- `src/pages/Login.jsx`
+- `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
 
 ## Audit Trail
 
-- EXTRACTED: 398 (100%)
+- EXTRACTED: 485 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

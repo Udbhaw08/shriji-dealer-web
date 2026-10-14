@@ -25,11 +25,11 @@
 
 ## Relationships
 
-- [[Community 37]] (4 shared connections)
-- [[Product Pages Specification]] (4 shared connections)
-- [[Community 62]] (3 shared connections)
-- [[Community 98]] (2 shared connections)
-- [[Community 148]] (2 shared connections)
+- [[Community 45]] (4 shared connections)
+- [[Roles & Customer Sharing Spec]] (4 shared connections)
+- [[Community 56]] (3 shared connections)
+- [[Community 187]] (2 shared connections)
+- [[Community 143]] (2 shared connections)
 
 ## Source Files
 

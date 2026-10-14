@@ -1,56 +1,49 @@
 # Pricing & Roles Skill
 
-> 52 nodes · cohesion 0.07
+> 50 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **D()** (18 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **E()** (18 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **Fd()** (15 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **rf()** (13 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **df()** (12 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **pf()** (12 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **tf()** (12 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **wt()** (12 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **oe()** (11 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **Ut()** (10 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **af()** (9 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **ff()** (9 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **Kt()** (9 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **nf()** (9 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **ah()** (8 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **bt()** (8 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **ft()** (8 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **He()** (8 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **lf()** (8 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **pt()** (8 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **uf()** (8 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **un()** (8 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **vt()** (8 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **cf()** (7 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **gf()** (7 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- *... and 27 more nodes in this community*
+- **check-render-output.mjs** (57 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **parseAttrs()** (7 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectArrows()** (6 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **numberAttr()** (6 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectCompositionFrames()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectLegendBoxes()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **lineSegments()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectDesktopReadability()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectNonFiniteAttrs()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **pathSegments()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **straightPathSegments()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **textBox()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **projectedNodeTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **attrEntries()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectLegendCollisions()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectRelationshipLabelMasks()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **crossProduct()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **isCommand()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **pointsFromPath()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **properSegmentIntersection()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **segmentIntersectsBox()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **segmentsIntersect()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **stripTags()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectRelationshipCrossings()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **decodeNumericReferences()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (68 shared connections)
-- [[Product Brand & Business Vision]] (18 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (17 shared connections)
-- [[Graphify Workflow]] (14 shared connections)
-- [[Product Requirements Documentation]] (14 shared connections)
-- [[Community 68]] (8 shared connections)
-- [[Community 41]] (7 shared connections)
-- [[Vercel Deployment Routing]] (6 shared connections)
-- [[Client Products Data Store]] (6 shared connections)
-- [[Community 30]] (3 shared connections)
+- [[Pricing Regression Test Suite]] (6 shared connections)
+- [[Community 47]] (4 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- `.agents/skills/archify/scripts/check-render-output.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 357 (100%)
+- EXTRACTED: 182 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

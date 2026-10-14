@@ -1,11 +1,11 @@
-# Graph Report - .  (2026-10-14)
+# Graph Report - .  (2026-10-15)
 
 ## Corpus Check
 - 62 files · ~56,751 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 5145 nodes · 11499 edges · 317 communities (287 shown, 30 thin omitted)
+- 5119 nodes · 11406 edges · 312 communities (282 shown, 30 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 51 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
@@ -157,13 +157,13 @@
 - [[_COMMUNITY_Community 144|Community 144]]
 - [[_COMMUNITY_Community 145|Community 145]]
 - [[_COMMUNITY_Community 146|Community 146]]
-- [[_COMMUNITY_Community 147|Community 147]]
 - [[_COMMUNITY_Community 148|Community 148]]
 - [[_COMMUNITY_Community 149|Community 149]]
-- [[_COMMUNITY_Community 150|Community 150]]
 - [[_COMMUNITY_Community 151|Community 151]]
+- [[_COMMUNITY_Community 152|Community 152]]
 - [[_COMMUNITY_Community 153|Community 153]]
 - [[_COMMUNITY_Community 154|Community 154]]
+- [[_COMMUNITY_Community 155|Community 155]]
 - [[_COMMUNITY_Community 156|Community 156]]
 - [[_COMMUNITY_Community 157|Community 157]]
 - [[_COMMUNITY_Community 158|Community 158]]
@@ -284,11 +284,10 @@
 - [[_COMMUNITY_Community 273|Community 273]]
 - [[_COMMUNITY_Community 274|Community 274]]
 - [[_COMMUNITY_Community 275|Community 275]]
-- [[_COMMUNITY_Community 276|Community 276]]
 - [[_COMMUNITY_Community 277|Community 277]]
 - [[_COMMUNITY_Community 278|Community 278]]
-- [[_COMMUNITY_Community 279|Community 279]]
 - [[_COMMUNITY_Community 280|Community 280]]
+- [[_COMMUNITY_Community 281|Community 281]]
 - [[_COMMUNITY_Community 282|Community 282]]
 - [[_COMMUNITY_Community 283|Community 283]]
 - [[_COMMUNITY_Community 285|Community 285]]
@@ -298,26 +297,22 @@
 - [[_COMMUNITY_Community 290|Community 290]]
 - [[_COMMUNITY_Community 291|Community 291]]
 - [[_COMMUNITY_Community 292|Community 292]]
-- [[_COMMUNITY_Community 293|Community 293]]
-- [[_COMMUNITY_Community 295|Community 295]]
-- [[_COMMUNITY_Community 296|Community 296]]
-- [[_COMMUNITY_Community 297|Community 297]]
-- [[_COMMUNITY_Community 312|Community 312]]
-- [[_COMMUNITY_Community 313|Community 313]]
-- [[_COMMUNITY_Community 314|Community 314]]
-- [[_COMMUNITY_Community 315|Community 315]]
+- [[_COMMUNITY_Community 307|Community 307]]
+- [[_COMMUNITY_Community 308|Community 308]]
+- [[_COMMUNITY_Community 309|Community 309]]
+- [[_COMMUNITY_Community 310|Community 310]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `_()` - 711 edges
-2. `_()` - 711 edges
+1. `_()` - 683 edges
+2. `_()` - 683 edges
 3. `compileWorkflowInternal()` - 67 edges
-4. `i()` - 67 edges
-5. `i()` - 67 edges
-6. `get()` - 52 edges
-7. `get()` - 52 edges
+4. `i()` - 66 edges
+5. `i()` - 66 edges
+6. `get()` - 49 edges
+7. `get()` - 49 edges
 8. `asArray()` - 43 edges
-9. `sql` - 42 edges
-10. `pl()` - 39 edges
+9. `sql` - 43 edges
+10. `ml()` - 41 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `commandMigrate()` --calls--> `serializeMigratedWorkflow()`  [INFERRED]
@@ -334,135 +329,135 @@
 ## Import Cycles
 - None detected.
 
-## Communities (317 total, 30 thin omitted)
+## Communities (312 total, 30 thin omitted)
 
 ### Community 0 - "Dealer Auth & Session Management"
 Cohesion: 0.02
-Nodes (137): _(), addAuthTokenListener(), ae(), ap(), assertAuthConfigured(), _assign(), automaticDataCollectionEnabled(), Bd() (+129 more)
+Nodes (127): _(), ad(), addAuthTokenListener(), ah(), an(), ao(), ap(), assertAuthConfigured() (+119 more)
 
 ### Community 1 - "Price Presentation & Product UI"
 Cohesion: 0.02
-Nodes (103): _(), addAuthTokenListener(), assertAuthConfigured(), assertNotDestroyed(), automaticDataCollectionEnabled(), Bf(), Bi(), Br() (+95 more)
+Nodes (123): _(), ad(), addAuthTokenListener(), ah(), ao(), ap(), assertAuthConfigured(), _assign() (+115 more)
 
 ### Community 2 - "Zoho Backend & Proxy Endpoints"
-Cohesion: 0.04
-Nodes (102): ad(), add(), addComponent(), addEventListener(), addListener(), addOrOverwriteComponent(), addScope(), addWindowListener() (+94 more)
+Cohesion: 0.05
+Nodes (103): a(), aa(), abort(), ar(), as(), ba(), bc(), bt() (+95 more)
 
 ### Community 3 - "Dependencies & Package Config"
-Cohesion: 0.05
-Nodes (92): ad(), add(), addComponent(), addOrOverwriteComponent(), addScope(), am(), au(), bm() (+84 more)
+Cohesion: 0.06
+Nodes (92): a(), aa(), abort(), ar(), as(), ba(), bc(), bt() (+84 more)
 
 ### Community 4 - "Product Pages Specification"
-Cohesion: 0.04
-Nodes (62): componentContext(), loadDiagram(), outputPathGuards, RELATIONSHIP_COLLECTIONS, SEMANTIC_COLLECTIONS, START_TYPES, validateGuidedViews(), validateRelationshipIds() (+54 more)
+Cohesion: 0.05
+Nodes (90): ae(), af(), an(), At(), be(), bh(), c(), ce() (+82 more)
 
 ### Community 5 - "Master Codebase Architecture Reference"
-Cohesion: 0.07
-Nodes (77): abort(), ag(), al(), ba(), Bc(), c(), Ca(), cl() (+69 more)
+Cohesion: 0.05
+Nodes (86): ae(), af(), Ai(), At(), be(), bh(), c(), ce() (+78 more)
 
 ### Community 6 - "Design System & UI Tokens"
 Cohesion: 0.05
-Nodes (75): ae(), af(), ah(), an(), bn(), bt(), ce(), cf() (+67 more)
+Nodes (77): Bd(), _buildIdpRequest(), buildRequest(), cancel(), cleanUp(), clearAllCookies(), clearCookies(), clearInstance() (+69 more)
 
 ### Community 7 - "Product Requirements Documentation"
-Cohesion: 0.05
-Nodes (73): ac(), ai(), Be(), bh(), bo(), cc(), cm(), Ct() (+65 more)
+Cohesion: 0.07
+Nodes (61): applyAsDealer(), applyAuthResponse(), broadcastAuthChange(), callBackend(), fetchMe(), firebaseAuthLogin(), googleLogin(), initTokens() (+53 more)
 
 ### Community 8 - "Pricing Regression Test Suite"
-Cohesion: 0.10
-Nodes (65): buildLayoutReport(), validateArchitecture(), flowLabelSize(), validateDataflow(), validateLifecycle(), segmentLabelBox(), validateSequence(), brandTopRailProblem() (+57 more)
+Cohesion: 0.08
+Nodes (63): boundaryRect(), connectionSides(), pathFor(), routeVia(), flowSides(), pathFor(), bandTitles(), pathFor() (+55 more)
 
 ### Community 9 - "Zoho Integration Architecture"
-Cohesion: 0.08
-Nodes (54): applyAsDealer(), applyAuthResponse(), broadcastAuthChange(), callBackend(), fetchMe(), firebaseAuthLogin(), googleLogin(), initTokens() (+46 more)
+Cohesion: 0.06
+Nodes (65): add(), addComponent(), addOrOverwriteComponent(), addScope(), bs(), constructor(), execute(), executeNotNull() (+57 more)
 
 ### Community 10 - "Client Products Data Store"
-Cohesion: 0.05
-Nodes (56): ar(), b(), beforeAuthStateChanged(), Bp(), _buildIdpRequest(), buildRequest(), clearInstance(), clearRefreshToken() (+48 more)
+Cohesion: 0.06
+Nodes (65): add(), addComponent(), addOrOverwriteComponent(), addScope(), bs(), constructor(), execute(), executeNotNull() (+57 more)
 
 ### Community 11 - "Product Brand & Business Vision"
-Cohesion: 0.08
-Nodes (62): a(), abort(), ag(), al(), ba(), Ca(), cl(), dl() (+54 more)
+Cohesion: 0.06
+Nodes (62): _assign(), _buildIdpRequest(), buildRequest(), cancel(), cf(), clearAllCookies(), clearCookies(), _clone() (+54 more)
 
 ### Community 12 - "Live Pricing Audit Tool"
-Cohesion: 0.06
-Nodes (47): attrEntries(), checks, collectArrows(), collectCompositionFrames(), collectDesktopReadability(), collectLegendBoxes(), collectLegendCollisions(), collectNonFiniteAttrs() (+39 more)
+Cohesion: 0.12
+Nodes (42): EmailVerificationPrompt(), HeroSlider(), STORE_BANNERS, MobileBottomNav(), NativeBackHandler(), ProductSearchBar(), UnderMaintenance(), dealerById() (+34 more)
 
 ### Community 13 - "Architecture Doc Generator"
-Cohesion: 0.06
-Nodes (50): b(), beforeAuthStateChanged(), Bp(), cleanUp(), clearInstance(), clearRefreshToken(), close(), delete() (+42 more)
+Cohesion: 0.08
+Nodes (43): handler(), cachedPricebooks, cachedProductDetails, cachedProductsByPricebook, clearDiskCache(), createDealerContact(), fetchZohoCategories(), fetchZohoPricebookItems() (+35 more)
 
 ### Community 14 - "Roles & Customer Sharing Spec"
-Cohesion: 0.08
-Nodes (42): handler(), cachedPricebooks, cachedProductsByPricebook, clearDiskCache(), createDealerContact(), fetchZohoCategories(), fetchZohoPricebookItems(), fetchZohoPricebooks() (+34 more)
+Cohesion: 0.06
+Nodes (44): loadDiagram(), loadDiagramWithBrandMarks(), outputPathGuards, RELATIONSHIP_COLLECTIONS, SEMANTIC_COLLECTIONS, START_TYPES, validateGuidedViews(), validateRelationshipIds() (+36 more)
 
 ### Community 15 - "Pricing Hierarchy & Zero-Leakage Spec"
-Cohesion: 0.06
-Nodes (48): DEFAULT_GRID, gridLayout(), resolveComponentPos(), validateGridPlacement(), alignFacingPorts(), architectureLegendEntries, automaticPorts, autoViewBoxFor() (+40 more)
+Cohesion: 0.09
+Nodes (55): al(), au(), bi(), bl(), Cp(), create(), debug(), deleteThrottleMetadata() (+47 more)
 
 ### Community 16 - "Graphify Knowledge Graph Skill"
-Cohesion: 0.13
-Nodes (39): HeroSlider(), STORE_BANNERS, MobileBottomNav(), NativeBackHandler(), UnderMaintenance(), dealerById(), isDealer(), useFavorites() (+31 more)
+Cohesion: 0.06
+Nodes (45): DEFAULT_GRID, gridLayout(), resolveComponentPos(), validateGridPlacement(), alignFacingPorts(), architectureLegendEntries, automaticPorts, autoViewBoxFor() (+37 more)
 
 ### Community 17 - "Pricing & Roles Skill"
 Cohesion: 0.07
-Nodes (52): af(), ah(), as(), bt(), ce(), cf(), ch(), D() (+44 more)
+Nodes (40): attrEntries(), checks, collectArrows(), collectCompositionFrames(), collectDesktopReadability(), collectLegendBoxes(), collectLegendCollisions(), collectNonFiniteAttrs() (+32 more)
 
 ### Community 18 - "Mobile Responsive UI Skill"
-Cohesion: 0.10
-Nodes (43): renderBoundaryFrame(), renderBoundaryLabel(), renderComponent(), renderConnectionLabel(), renderConnectionPath(), renderFlowLabel(), renderNode(), renderStage() (+35 more)
+Cohesion: 0.11
+Nodes (48): renderBoundaryFrame(), renderBoundaryLabel(), renderComponent(), renderConnectionLabel(), renderConnectionPath(), renderFlowLabel(), renderFlowPath(), renderNode() (+40 more)
 
 ### Community 19 - "Oxlint Linter Configuration"
-Cohesion: 0.08
-Nodes (48): aa(), bl(), Ci(), Cp(), create(), da(), ep(), eu() (+40 more)
+Cohesion: 0.04
+Nodes (46): $ref, type, type, $ref, minimum, type, $ref, properties (+38 more)
 
 ### Community 20 - "Zoho Integration Skill"
-Cohesion: 0.07
-Nodes (37): commandBrands(), asUrl(), attribute(), beforeDeadline(), captureBrandReference(), captureRemoteBrand(), captureTimeoutMilliseconds(), checkedFetch() (+29 more)
+Cohesion: 0.10
+Nodes (45): al(), au(), bi(), bl(), Cp(), create(), debug(), deleteThrottleMetadata() (+37 more)
 
 ### Community 21 - "Claude Agent Instructions"
-Cohesion: 0.08
-Nodes (45): ac(), ai(), Be(), bo(), bu(), cc(), dd(), debug() (+37 more)
+Cohesion: 0.10
+Nodes (25): env, applied(), dir, migrate(), catalogSync(), tokenCleanup(), crmPoll(), markPollRun() (+17 more)
 
 ### Community 22 - "Project Readme & Layout"
 Cohesion: 0.06
 Nodes (42): func3(), pattern17, pattern18, pattern20, pattern4, pattern57, schema112, schema116 (+34 more)
 
 ### Community 23 - "Agent Guidelines (AGENTS.md)"
-Cohesion: 0.07
-Nodes (44): a(), ap(), as(), Bd(), clearNetworkTimeout(), dp(), eh(), Fd() (+36 more)
-
-### Community 24 - "Zoho API Diagnostic Script"
-Cohesion: 0.09
-Nodes (44): ao(), bs(), co(), cs(), ds(), fm(), fs(), _getRecaptchaConfig() (+36 more)
-
-### Community 25 - "Testing & Workflow Skill"
 Cohesion: 0.05
 Nodes (44): $ref, $ref, $ref, $ref, properties, enum, minLength, type (+36 more)
 
-### Community 26 - "Vercel Deployment Routing"
-Cohesion: 0.09
-Nodes (43): au(), bu(), Ci(), Cp(), create(), Cu(), Du(), error() (+35 more)
-
-### Community 27 - "Graphify Agent Rules"
+### Community 24 - "Zoho API Diagnostic Script"
 Cohesion: 0.05
 Nodes (43): $ref, type, type, type, $ref, $ref, $ref, properties (+35 more)
 
-### Community 28 - "Graphify Workflow"
-Cohesion: 0.09
-Nodes (42): ao(), co(), cs(), ds(), fm(), fs(), _getRecaptchaConfig(), gs() (+34 more)
+### Community 25 - "Testing & Workflow Skill"
+Cohesion: 0.08
+Nodes (34): asUrl(), attribute(), beforeDeadline(), captureBrandReference(), captureRemoteBrand(), captureTimeoutMilliseconds(), checkedFetch(), COLLECTIONS (+26 more)
 
-### Community 29 - "Community 29"
+### Community 26 - "Vercel Deployment Routing"
+Cohesion: 0.09
+Nodes (34): b(), Bp(), clearInstance(), clearRefreshToken(), delete(), detachListener(), ee(), fp() (+26 more)
+
+### Community 27 - "Graphify Agent Rules"
 Cohesion: 0.05
 Nodes (42): $ref, type, type, maximum, minimum, type, $ref, minimum (+34 more)
 
-### Community 30 - "Community 30"
+### Community 28 - "Graphify Workflow"
 Cohesion: 0.08
-Nodes (41): assertNotDestroyed(), Bf(), cancel(), clearAllCookies(), clearCookies(), _clone(), componentDidCatch(), dc() (+33 more)
+Nodes (41): br(), bu(), ci(), Cr(), Dr(), Er(), fetch(), Fi() (+33 more)
+
+### Community 29 - "Community 29"
+Cohesion: 0.08
+Nodes (41): br(), bu(), ci(), Cr(), Dr(), Er(), fetch(), Fi() (+33 more)
+
+### Community 30 - "Community 30"
+Cohesion: 0.09
+Nodes (35): captureCopiedShareCard(), captureReachShareCard(), captureRouteShareCard(), captureRouteVisualMatrix(), captureShareCard(), chrome, chromeProcess, delay() (+27 more)
 
 ### Community 31 - "Community 31"
 Cohesion: 0.09
-Nodes (35): captureCopiedShareCard(), captureReachShareCard(), captureRouteShareCard(), captureRouteVisualMatrix(), captureShareCard(), chrome, chromeProcess, delay() (+27 more)
+Nodes (31): b(), Bp(), cf(), detachListener(), ee(), forAllChangedKeys(), fp(), g() (+23 more)
 
 ### Community 32 - "Community 32"
 Cohesion: 0.07
@@ -473,132 +468,132 @@ Cohesion: 0.07
 Nodes (20): detectGuideLanguage(), formatScenarioList(), listScenarioRecipes(), localized(), normalized(), publicGuideData(), RAW_RECIPES, recommendScenario() (+12 more)
 
 ### Community 34 - "Community 34"
-Cohesion: 0.05
-Nodes (39): $ref, type, type, $ref, minimum, type, $ref, properties (+31 more)
-
-### Community 35 - "Community 35"
 Cohesion: 0.07
 Nodes (23): assertUnsafeCacheStateIsIgnored(), baseTime, checkerPath, committedStateFiles(), compactStateSource(), contractPath, fixture(), here (+15 more)
+
+### Community 35 - "Community 35"
+Cohesion: 0.14
+Nodes (30): validateArchitecture(), flowLabelSize(), validateDataflow(), validateLifecycle(), arrowClass, compositionFrames, __dirname, layout (+22 more)
 
 ### Community 36 - "Community 36"
 Cohesion: 0.05
 Nodes (36): dependencies, @capacitor/android, @capacitor/app, @capacitor/cli, @capacitor/core, @capacitor/ios, @capacitor/preferences, firebase (+28 more)
 
 ### Community 37 - "Community 37"
-Cohesion: 0.16
-Nodes (34): assertEvidenceType(), CHECK_FIXES, checkerDiagnostics(), [command, ...args], commandDeliver(), commandGuide(), commandMigrate(), commandPreview() (+26 more)
+Cohesion: 0.10
+Nodes (36): ac(), Bd(), bo(), cc(), clearNetworkTimeout(), dc(), dh(), Di() (+28 more)
 
 ### Community 38 - "Community 38"
+Cohesion: 0.10
+Nodes (35): addEventListener(), addListener(), addWindowListener(), am(), attachListener(), bm(), Bn(), cm() (+27 more)
+
+### Community 39 - "Community 39"
+Cohesion: 0.09
+Nodes (33): renderSvg(), automaticPorts, compositionFrames, __dirname, layout, LEGEND_CATALOG, measureNode(), nodes (+25 more)
+
+### Community 40 - "Community 40"
 Cohesion: 0.14
 Nodes (29): CustomerPrice(), DealerPrice(), PriceBlock(), ProductCard(), BAND, DEALERS, formatWhatsAppPhone(), inr() (+21 more)
 
-### Community 39 - "Community 39"
-Cohesion: 0.08
-Nodes (35): addEventListener(), addListener(), addWindowListener(), attachListener(), bh(), cm(), dt(), Et() (+27 more)
-
-### Community 40 - "Community 40"
-Cohesion: 0.10
-Nodes (27): baseReceipt(), CAPTURE_VIEWPORTS, chromeVisualBrowserArgs(), cleanupCaptureSidecars(), contactSheetHtml(), EXIT, failureDiagnostic(), htmlEscape() (+19 more)
-
 ### Community 41 - "Community 41"
-Cohesion: 0.11
-Nodes (33): aa(), Bc(), bl(), bs(), c(), da(), ef(), el() (+25 more)
+Cohesion: 0.10
+Nodes (35): addEventListener(), addListener(), addWindowListener(), am(), attachListener(), bm(), Bn(), cm() (+27 more)
 
 ### Community 42 - "Community 42"
+Cohesion: 0.16
+Nodes (34): acquireOperation(), assertCacheTargetAbsent(), assertSafeDirectory(), cacheMkdir(), cacheMkdirWithToken(), cacheRename(), cacheRm(), cacheTokenFor() (+26 more)
+
+### Community 43 - "Community 43"
 Cohesion: 0.06
 Nodes (32): bin, archify, description, devDependencies, ajv, parse5, saxes, simple-icons (+24 more)
 
-### Community 43 - "Community 43"
+### Community 44 - "Community 44"
 Cohesion: 0.11
 Nodes (26): apiFetch(), apiUrl(), hasSession(), onAuthBroadcast(), sessionFromAuth(), CATEGORIES, PRODUCTS, emit() (+18 more)
 
-### Community 44 - "Community 44"
-Cohesion: 0.11
-Nodes (29): connectionEndpointSide(), connectionSides(), automaticPorts, compositionFrames, __dirname, flowSides(), layout, LEGEND_CATALOG (+21 more)
-
 ### Community 45 - "Community 45"
-Cohesion: 0.11
-Nodes (29): renderSvg(), renderLegend(), renderSvg(), automaticPorts, bandFor(), bandTitles(), __dirname, laneLabels (+21 more)
+Cohesion: 0.18
+Nodes (31): assertEvidenceType(), CHECK_FIXES, checkerDiagnostics(), [command, ...args], commandDeliver(), commandMigrate(), commandPreview(), commandRender() (+23 more)
 
 ### Community 46 - "Community 46"
-Cohesion: 0.09
-Nodes (23): assertSafeCacheEntry(), CacheOperationRaceError, CachePathChangedError, cancelResponseBody(), corruptClaimStatus(), defaultReleasePath, encodeBoundedState(), encodeRecoverableState() (+15 more)
+Cohesion: 0.08
+Nodes (25): assertSafeCacheEntry(), CacheOperationRaceError, CachePathChangedError, cancelResponseBody(), canonicalizeTrustedDirectoryPrefix(), corruptClaimStatus(), defaultReleasePath, encodeBoundedState() (+17 more)
 
 ### Community 47 - "Community 47"
-Cohesion: 0.09
-Nodes (20): Any, AppDelegate, SceneDelegate, Bool, Capacitor, UIScene, UISceneSession, UIWindow (+12 more)
+Cohesion: 0.12
+Nodes (27): baseReceipt(), CAPTURE_VIEWPORTS, cleanupCaptureSidecars(), contactSheetHtml(), EXIT, failureDiagnostic(), htmlEscape(), observation() (+19 more)
 
 ### Community 48 - "Community 48"
-Cohesion: 0.11
-Nodes (29): _assign(), cancel(), clearAllCookies(), clearCookies(), _clone(), _copy(), dc(), deleteCookie() (+21 more)
+Cohesion: 0.12
+Nodes (26): addState(), BOUNDARY_FIELDS, boundaryIndex(), boundaryKey(), canonical(), canonicalArchitecture(), canonicalArchitectureJson(), compareArchitecture() (+18 more)
 
 ### Community 49 - "Community 49"
-Cohesion: 0.23
-Nodes (19): sql, jwtAuth(), requireApprovedDealer(), check(), applyCrmAccountState(), applyDealer(), deactivateDealer(), approveStaff() (+11 more)
+Cohesion: 0.13
+Nodes (24): buckets, rateLimit(), authRouter, findUserByIdentifier(), googleClient, issueSession(), lastCrmSyncByDealerId, linkUserIdentifiers() (+16 more)
 
 ### Community 50 - "Community 50"
 Cohesion: 0.09
-Nodes (13): assertRelationshipsAvoidAllNodeBorders(), assertWorkflowEdgesAvoidAllNodeBorders(), axisOverlapLength(), CASES, __dirname, EXAMPLES, SHRINK_CASES, skillRoot (+5 more)
+Nodes (20): Any, AppDelegate, SceneDelegate, Bool, Capacitor, UIScene, UISceneSession, UIWindow (+12 more)
 
 ### Community 51 - "Community 51"
-Cohesion: 0.11
-Nodes (15): asciiGroupLabelTextRect(), assertReadableAdjacentResult(), assertRectInsideViewBox(), attribute(), cli, compileSuccessfully(), __dirname, edgeLabelRect() (+7 more)
+Cohesion: 0.21
+Nodes (20): sql, jwtAuth(), requireApprovedDealer(), lastCrmSyncByDealerId, check(), applyCrmAccountState(), applyDealer(), deactivateDealer() (+12 more)
 
 ### Community 52 - "Community 52"
-Cohesion: 0.16
-Nodes (21): click(), key(), load(), record(), run(), skillRoot, load(), media() (+13 more)
+Cohesion: 0.13
+Nodes (21): evaluate(), click(), key(), load(), record(), run(), skillRoot, load() (+13 more)
 
 ### Community 53 - "Community 53"
-Cohesion: 0.13
-Nodes (21): addState(), architectureDeltaChangeRows(), BOUNDARY_FIELDS, compareEntities(), COMPONENT_FIELDS, CONNECTION_FIELDS, expectedReviewTargetSignature(), fieldChanges() (+13 more)
+Cohesion: 0.09
+Nodes (13): assertRelationshipsAvoidAllNodeBorders(), assertWorkflowEdgesAvoidAllNodeBorders(), axisOverlapLength(), CASES, __dirname, EXAMPLES, SHRINK_CASES, skillRoot (+5 more)
 
 ### Community 54 - "Community 54"
-Cohesion: 0.09
-Nodes (25): items, type, items, type, $ref, items, minItems, type (+17 more)
+Cohesion: 0.11
+Nodes (15): asciiGroupLabelTextRect(), assertReadableAdjacentResult(), assertRectInsideViewBox(), attribute(), cli, compileSuccessfully(), __dirname, edgeLabelRect() (+7 more)
 
 ### Community 55 - "Community 55"
 Cohesion: 0.17
 Nodes (20): emptyState(), hasOnlyKeys(), isPlainObject(), normalizeState(), validateCachedCandidate(), validateClaimOwner(), validateManifest(), compareNumericIdentifiers() (+12 more)
 
 ### Community 56 - "Community 56"
-Cohesion: 0.08
-Nodes (24): $ref, $ref, properties, type, animation, locale, output, quality_profile (+16 more)
+Cohesion: 0.11
+Nodes (17): cliPath, compactMessage(), diagramTypes, here, initialAuthoredOutput(), previewPage(), redactDiagnostic(), runPreview() (+9 more)
 
 ### Community 57 - "Community 57"
-Cohesion: 0.08
-Nodes (24): $ref, $ref, properties, type, animation, locale, output, quality_profile (+16 more)
+Cohesion: 0.14
+Nodes (21): desktopBrowser(), desktopPointerCheck(), afterTimer(), click(), key(), load(), media(), move() (+13 more)
 
 ### Community 58 - "Community 58"
 Cohesion: 0.08
-Nodes (24): $ref, description, enum, $ref, properties, type, animation, column_fit (+16 more)
+Nodes (24): $ref, $ref, properties, type, animation, locale, output, quality_profile (+16 more)
 
 ### Community 59 - "Community 59"
 Cohesion: 0.08
-Nodes (24): $ref, $ref, type, $ref, properties, minLength, type, type (+16 more)
+Nodes (24): $ref, $ref, properties, type, animation, locale, output, quality_profile (+16 more)
 
 ### Community 60 - "Community 60"
 Cohesion: 0.08
-Nodes (24): enum, $ref, properties, type, animation, locale, output, quality_profile (+16 more)
+Nodes (24): $ref, description, enum, $ref, properties, type, animation, column_fit (+16 more)
 
 ### Community 61 - "Community 61"
+Cohesion: 0.08
+Nodes (24): enum, $ref, properties, type, animation, locale, output, quality_profile (+16 more)
+
+### Community 62 - "Community 62"
+Cohesion: 0.14
+Nodes (23): ac(), Ai(), bo(), cc(), dc(), dh(), ec(), fc() (+15 more)
+
+### Community 63 - "Community 63"
 Cohesion: 0.09
 Nodes (22): dependencies, dotenv, express, google-auth-library, jsonwebtoken, postgres, resend, description (+14 more)
 
-### Community 62 - "Community 62"
-Cohesion: 0.13
-Nodes (17): launchTarget(), openArtifact(), OPENERS, openLoopbackUrl(), cliPath, compactMessage(), diagramTypes, here (+9 more)
-
-### Community 63 - "Community 63"
-Cohesion: 0.19
-Nodes (19): pricesRouter, catalogFor(), loadCatalog(), priceView(), syncCatalog(), assignPricebookToContact(), booksFetch(), commerceConfigured() (+11 more)
-
 ### Community 64 - "Community 64"
-Cohesion: 0.09
-Nodes (23): minimum, type, minimum, type, maximum, minimum, type, minimum (+15 more)
+Cohesion: 0.14
+Nodes (14): currentLang, emit(), listeners, setLanguage(), tCat(), toggleLanguage(), autocorrectQuery(), buildSearchDictionary() (+6 more)
 
 ### Community 65 - "Community 65"
 Cohesion: 0.09
-Nodes (22): enum, oneOf, enum, $defs, animation, brandMark, componentType, legendMode (+14 more)
+Nodes (23): minimum, type, minimum, type, maximum, minimum, type, minimum (+15 more)
 
 ### Community 66 - "Community 66"
 Cohesion: 0.09
@@ -609,20 +604,20 @@ Cohesion: 0.09
 Nodes (21): 1. Executive Summary & Problem Statement, 2. Multi-Tier Entity Hierarchy & Two-Stage Approval, 3.1 Backend Service (`backend/`), 3.2 Frontend Portal & Dashboard (`src/`), 3.3 Documentation (`docs/`), 3. Detailed Changes by File, 4. Testing & Verification, 5. Verification Checklist for Production (+13 more)
 
 ### Community 68 - "Community 68"
-Cohesion: 0.17
-Nodes (21): an(), bn(), Cn(), dn(), en(), gn(), hn(), ip() (+13 more)
-
-### Community 69 - "Community 69"
-Cohesion: 0.12
-Nodes (15): applied(), dir, migrate(), startJobs(), errorHandler(), buckets, rateLimit(), dealersRouter (+7 more)
-
-### Community 70 - "Community 70"
 Cohesion: 0.10
 Nodes (20): 1. Executive Summary & Clarification, 2.1 Where Supabase Is Used (Database Layer Only), 2.2 Where Firebase Is Used (Authentication & Client Telemetry), 2. Codebase Inventory: Where Each Technology Lives, 3. Detailed Audit of the 4 Portals / 4 Ways, 4. Architectural Matrix: Supabase vs Firebase, 5. Verification Checklist & Action Plan, Current Authentication Flow: (+12 more)
 
-### Community 71 - "Community 71"
+### Community 69 - "Community 69"
 Cohesion: 0.10
 Nodes (20): additionalProperties, $ref, minItems, type, const, $id, additionalProperties, required (+12 more)
+
+### Community 70 - "Community 70"
+Cohesion: 0.10
+Nodes (21): $ref, $ref, type, $ref, properties, type, $ref, brand (+13 more)
+
+### Community 71 - "Community 71"
+Cohesion: 0.11
+Nodes (21): items, type, items, type, $ref, allowedRoots, allowedTerminals, requiredEdges (+13 more)
 
 ### Community 72 - "Community 72"
 Cohesion: 0.20
@@ -633,16 +628,16 @@ Cohesion: 0.16
 Nodes (18): authoredNodeHeight(), authoredNodeWidth(), compilerFailure(), compileWorkflowWithFeedback(), createLegacyLayout(), createReadableLayout(), feedbackFailure(), LEGACY_COLUMN_CENTERS (+10 more)
 
 ### Community 74 - "Community 74"
+Cohesion: 0.12
+Nodes (8): ChromeVisualBrowser, chromeVisualBrowserArgs(), PipeCdp, VISUAL_CHECK_VIEWPORTS, __dirname, png, skillRoot, tmp
+
+### Community 75 - "Community 75"
 Cohesion: 0.15
 Nodes (20): addNodeMarker(), annotateArchitectureSideSvg(), boundaryChangeMap(), boundaryElements(), boundaryMarkupByKey(), boundaryMarkupParts(), boundarySymbolMarkup(), buildDeltaSvg() (+12 more)
 
-### Community 75 - "Community 75"
+### Community 76 - "Community 76"
 Cohesion: 0.10
 Nodes (19): 1. Price visibility — the rule everything else follows, 2. The pricing module — `src/data/dealer.js`, 3. `<PriceBlock>` — `src/components/PriceBlock.jsx`, 4. Product listing — `/products`, `src/pages/Products.jsx`, 5. Product card — `src/components/ProductCard.jsx`, 6. Product detail — `/products/:id`, `src/pages/Product.jsx`, 7. What is deliberately not here, 8. Files touched on 2026-09-20 (+11 more)
-
-### Community 76 - "Community 76"
-Cohesion: 0.15
-Nodes (20): ar(), _buildIdpRequest(), buildRequest(), Dr(), _getIdTokenResponse(), _getReauthenticationResolver(), Gp(), ir() (+12 more)
 
 ### Community 77 - "Community 77"
 Cohesion: 0.10
@@ -658,39 +653,39 @@ Nodes (15): createViewerClick(), key(), load(), opened(), run(), search(), skill
 
 ### Community 80 - "Community 80"
 Cohesion: 0.11
-Nodes (18): additionalProperties, $ref, const, $id, minItems, type, properties, cards (+10 more)
+Nodes (19): enum, oneOf, enum, $defs, animation, brandMark, componentType, legendMode (+11 more)
 
 ### Community 81 - "Community 81"
 Cohesion: 0.11
-Nodes (18): additionalProperties, $defs, semanticRelation, side, $ref, $id, from, to (+10 more)
+Nodes (18): additionalProperties, $ref, const, $id, minItems, type, properties, cards (+10 more)
 
 ### Community 82 - "Community 82"
-Cohesion: 0.26
-Nodes (19): assertCacheTargetAbsent(), assertSafeDirectory(), cacheMkdirWithToken(), cacheRename(), cacheRm(), canonicalizeTrustedDirectoryPrefix(), captureMutationParentSnapshots(), guardedCacheMutation() (+11 more)
+Cohesion: 0.11
+Nodes (18): additionalProperties, $defs, semanticRelation, side, $ref, $id, from, to (+10 more)
 
 ### Community 83 - "Community 83"
 Cohesion: 0.12
 Nodes (15): check(), __dirname, expectFailure(), GOLDEN, landingPage, landingVersions, lock, pkg (+7 more)
 
 ### Community 84 - "Community 84"
-Cohesion: 0.26
-Nodes (6): env, catalogSync(), tokenCleanup(), crmPoll(), markPollRun(), log
-
-### Community 85 - "Community 85"
 Cohesion: 0.11
 Nodes (17): 0. The Ownership Rule — one sentence per system, 1.1 CRM — dealers and staff, 1.2 CRM — API access, 1.3 Commerce, 1. What is done in Zoho (setup checklist), 2. Backend responsibilities, 3. Integration flows, 4. Data movement (+9 more)
 
-### Community 86 - "Community 86"
+### Community 85 - "Community 85"
 Cohesion: 0.11
 Nodes (17): 1. The direction in one paragraph, 2. Tokens, 3. Layout primitives, 4. Components already built — reuse these, 5. Icons, 6. Responsive rules, 7. Motion and accessibility, Actions (+9 more)
 
-### Community 87 - "Community 87"
+### Community 86 - "Community 86"
 Cohesion: 0.11
 Nodes (17): 10. Conventions worth knowing, 1. What this is, 2. Who uses it, 3. Scope, 4. Stack, 5. The pricing model — the core business rule, 6. Data, 7. Evidence ledger — what is verified vs. what is sample (+9 more)
 
+### Community 87 - "Community 87"
+Cohesion: 0.11
+Nodes (18): $ref, const, minItems, type, items, minItems, type, additionalProperties (+10 more)
+
 ### Community 88 - "Community 88"
 Cohesion: 0.22
-Nodes (18): acquireOperation(), cacheMkdir(), cacheTokenFor(), cacheWriteFile(), discardPreparedClaim(), fenceLowerOperations(), guardedCacheRead(), hasActivePendingOperation() (+10 more)
+Nodes (18): acknowledgeUpdate(), assertBoundedRegularFile(), cancelOperation(), checkForUpdate(), commitOperation(), digestForEventKey(), fetchCandidate(), freshStateResult() (+10 more)
 
 ### Community 89 - "Community 89"
 Cohesion: 0.23
@@ -701,356 +696,356 @@ Cohesion: 0.16
 Nodes (11): CASES, __dirname, edgePaintHitsUnderDock(), evaluate(), finalGeometry(), load(), resize(), skillRoot (+3 more)
 
 ### Community 91 - "Community 91"
-Cohesion: 0.12
-Nodes (16): crystal, crystalDealer, crystalGuest, genericDealer, genericGuest, genericItem, kettle, kettleDealer (+8 more)
+Cohesion: 0.21
+Nodes (15): componentContext(), CATALOGS, ESCAPE_MAP, formatMessage(), localizeTemplate(), MESSAGE_PAIRS, resolveLocale(), translateCount() (+7 more)
 
 ### Community 92 - "Community 92"
 Cohesion: 0.12
-Nodes (16): 1. Active Integration Summary, 2. The Code Seams, 3.1 Organization ID — from the Commerce dashboard, 3.2 Client ID + Client Secret — from the API console, not the store, 3.3 Refresh Token — generated once, then permanent, 3.4 Scopes, 3.5 Data centre, 3.6 The API call the keys unlock (+8 more)
+Nodes (16): crystal, crystalDealer, crystalGuest, genericDealer, genericGuest, genericItem, kettle, kettleDealer (+8 more)
 
 ### Community 93 - "Community 93"
 Cohesion: 0.12
-Nodes (17): $ref, const, minItems, type, additionalProperties, required, type, minItems (+9 more)
+Nodes (16): 1. Active Integration Summary, 2. The Code Seams, 3.1 Organization ID — from the Commerce dashboard, 3.2 Client ID + Client Secret — from the API console, not the store, 3.3 Refresh Token — generated once, then permanent, 3.4 Scopes, 3.5 Data centre, 3.6 The API call the keys unlock (+8 more)
 
 ### Community 94 - "Community 94"
-Cohesion: 0.23
-Nodes (17): acknowledgeUpdate(), assertBoundedRegularFile(), cancelOperation(), checkForUpdate(), commitOperation(), digestForEventKey(), fetchCandidate(), freshStateResult() (+9 more)
+Cohesion: 0.18
+Nodes (17): items, type, items, type, additionalProperties, required, type, items (+9 more)
 
 ### Community 95 - "Community 95"
-Cohesion: 0.17
-Nodes (16): boundaryIndex(), boundaryKey(), canonical(), canonicalArchitecture(), canonicalArchitectureJson(), compareArchitecture(), equal(), extractArchitectureSvg() (+8 more)
+Cohesion: 0.28
+Nodes (14): healthRouter, assignPricebookToContact(), booksFetch(), commerceConfigured(), commerceFetch(), deactivateCommerceContact(), ensureContactPricebookForCrmAccount(), fetchCatalog() (+6 more)
 
 ### Community 96 - "Community 96"
 Cohesion: 0.12
 Nodes (16): $ref, const, type, additionalProperties, required, type, minItems, type (+8 more)
 
 ### Community 97 - "Community 97"
+Cohesion: 0.12
+Nodes (16): $ref, const, additionalProperties, required, type, properties, cards, diagram_type (+8 more)
+
+### Community 98 - "Community 98"
 Cohesion: 0.17
 Nodes (15): attrValues(), AUTO_KINDS, canonicalSvg(), CATALOGS, cli, clone(), __dirname, FIXTURES (+7 more)
 
-### Community 98 - "Community 98"
-Cohesion: 0.24
-Nodes (15): commandCheck(), commandCompare(), commandDemo(), commandDoctor(), commandExamples(), commandVisualCheck(), commitComparePair(), compareCommitError() (+7 more)
-
 ### Community 99 - "Community 99"
-Cohesion: 0.18
-Nodes (12): httpError(), authRouter, findUserByIdentifier(), googleClient, issueSession(), linkUserIdentifiers(), parseIdentifier(), publicUser() (+4 more)
-
-### Community 100 - "Community 100"
 Cohesion: 0.19
 Nodes (15): items, type, items, items, type, additionalProperties, required, type (+7 more)
 
-### Community 101 - "Community 101"
+### Community 100 - "Community 100"
 Cohesion: 0.13
 Nodes (15): enum, link_mode, provider, repository, revision, url, enum, additionalProperties (+7 more)
 
-### Community 102 - "Community 102"
-Cohesion: 0.13
-Nodes (15): $ref, const, maxItems, minItems, type, additionalProperties, required, type (+7 more)
+### Community 101 - "Community 101"
+Cohesion: 0.28
+Nodes (14): createDealerContact(), crmConfigured(), crmFetch(), deactivateAccountInCrm(), deactivateContactInCrm(), FIELDS, getAccessToken(), getDealerAccount() (+6 more)
 
-### Community 103 - "Community 103"
+### Community 102 - "Community 102"
 Cohesion: 0.15
 Nodes (13): catalogKeys(), SUPPORTED_LOCALES, AUTHORED_TEXT_KEYS, authoredExample(), cli, __dirname, evaluate(), example() (+5 more)
 
-### Community 104 - "Community 104"
+### Community 103 - "Community 103"
 Cohesion: 0.23
 Nodes (9): applyPrefix(), clear(), get(), keys(), migrate(), rawKeys(), remove(), removeOld() (+1 more)
 
-### Community 105 - "Community 105"
+### Community 104 - "Community 104"
 Cohesion: 0.19
 Nodes (12): executable(), findChrome(), findOnPath(), cases, evaluate(), exported(), load(), skillRoot (+4 more)
 
-### Community 106 - "Community 106"
-Cohesion: 0.29
-Nodes (9): ProductSearchBar(), useProducts(), autocorrectQuery(), buildSearchDictionary(), COLLOQUIAL_SYNONYMS, getPopularSearches(), getSuggestions(), scoreProduct() (+1 more)
-
-### Community 107 - "Community 107"
-Cohesion: 0.24
-Nodes (12): desktopBrowser(), desktopPointerCheck(), afterTimer(), click(), key(), load(), media(), move() (+4 more)
-
-### Community 108 - "Community 108"
+### Community 105 - "Community 105"
 Cohesion: 0.23
 Nodes (9): applyPrefix(), clear(), get(), keys(), migrate(), rawKeys(), remove(), removeOld() (+1 more)
 
-### Community 109 - "Community 109"
+### Community 106 - "Community 106"
 Cohesion: 0.30
 Nodes (11): clone(), diagnostic(), expandableViewBox(), legacyLayoutProbe(), legacyRequirementProbe(), migrateWorkflowDocument(), requiredViewBoxFrom(), result() (+3 more)
 
-### Community 110 - "Community 110"
-Cohesion: 0.23
-Nodes (14): items, type, items, type, additionalProperties, required, type, items (+6 more)
-
-### Community 111 - "Community 111"
+### Community 107 - "Community 107"
 Cohesion: 0.14
 Nodes (10): catalog, catalogPath, domains, generated, here, ids, lookupKeys, outputPath (+2 more)
 
-### Community 112 - "Community 112"
+### Community 108 - "Community 108"
 Cohesion: 0.30
 Nodes (12): assertPreserved(), assertResolved(), attr(), compare(), descendants(), edgePaths(), markerId(), markerMap() (+4 more)
 
-### Community 113 - "Community 113"
+### Community 109 - "Community 109"
 Cohesion: 0.14
 Nodes (11): artifactPath, automaticMcoRoot(), cli, __dirname, experimentArtifactPath, experimentSourcePath, pinnedSource, repoRoot (+3 more)
 
-### Community 114 - "Community 114"
+### Community 110 - "Community 110"
 Cohesion: 0.14
 Nodes (5): cli, __dirname, fixture, skillRoot, tmp
 
-### Community 115 - "Community 115"
+### Community 111 - "Community 111"
+Cohesion: 0.27
+Nodes (13): commandBrands(), commandCheck(), commandDemo(), commandDoctor(), commandExamples(), commandGuide(), commandVisualCheck(), exitFrom() (+5 more)
+
+### Community 112 - "Community 112"
 Cohesion: 0.15
 Nodes (9): ArchitectureDeltaError, baseFixture, checkedArtifact, checkedReceipt, cli, __dirname, headFixture, skillRoot (+1 more)
 
-### Community 116 - "Community 116"
+### Community 113 - "Community 113"
 Cohesion: 0.15
 Nodes (12): 1. In Vercel (or production frontend host):, 1. Summary of Changes Made to Prepare the Codebase, 2. Choosing Your Deployment Method, 2. In Local `.env.local` (for testing):, 3. Environment Variables Reference, 3. In Zoho CRM Workflow (Dealer Approval Webhook):, 4. Free vs. Starter Plan Note, 5. Connecting Frontend to the Live Backend (+4 more)
 
-### Community 117 - "Community 117"
+### Community 114 - "Community 114"
 Cohesion: 0.15
 Nodes (12): Accessibility & Inclusion, Brand Commitments, Capabilities and Constraints, Evidence on Hand, Operating Context, Platform, Positioning, Product (+4 more)
 
-### Community 118 - "Community 118"
-Cohesion: 0.32
-Nodes (12): createDealerAccount(), createDealerContact(), crmConfigured(), crmFetch(), deactivateAccountInCrm(), deactivateContactInCrm(), FIELDS, getAccessToken() (+4 more)
-
-### Community 119 - "Community 119"
+### Community 115 - "Community 115"
 Cohesion: 0.31
 Nodes (11): click(), focus(), key(), load(), move(), point(), run(), select() (+3 more)
 
-### Community 120 - "Community 120"
+### Community 116 - "Community 116"
 Cohesion: 0.28
 Nodes (11): activate(), click(), hash(), key(), load(), move(), point(), run() (+3 more)
 
-### Community 121 - "Community 121"
+### Community 117 - "Community 117"
 Cohesion: 0.21
 Nodes (9): CASES, __dirname, dragMouse(), evaluate(), loadArtifact(), observe(), radarRects(), skillRoot (+1 more)
 
-### Community 122 - "Community 122"
+### Community 118 - "Community 118"
 Cohesion: 0.21
 Nodes (5): crossingAtForwardCollinearViaWorkflow(), nestedOutsideRightCorridorWorkflow(), oneLaneAnchors(), oneLaneWorkflow(), workflow()
 
-### Community 123 - "Community 123"
-Cohesion: 0.21
-Nodes (3): ChromeVisualBrowser, evaluate(), PipeCdp
-
-### Community 124 - "Community 124"
+### Community 119 - "Community 119"
 Cohesion: 0.17
 Nodes (11): 1. The Three-Tier Hierarchy Model, 2. Two-Stage Approval Separation, 3. End-to-End User Journey & Life Cycle, 4. Zoho CRM Data Structure, 5. Technical Seams to Adapt, Accounts Module (Business Entity), Contacts Module (People Hierarchy), DEALER-HIERARCHY-AND-WORKFLOW.md — Business, Dealer & Staff Hierarchy Model (+3 more)
 
-### Community 125 - "Community 125"
+### Community 120 - "Community 120"
 Cohesion: 0.26
 Nodes (12): items, type, additionalProperties, required, type, items, minItems, type (+4 more)
 
-### Community 126 - "Community 126"
+### Community 121 - "Community 121"
 Cohesion: 0.17
 Nodes (10): allFiles, apiFiles, components, dataStores, istDateString, pages, pkg, rootDir (+2 more)
 
-### Community 127 - "Community 127"
+### Community 122 - "Community 122"
 Cohesion: 0.41
 Nodes (10): evidenceFailure(), gitValue(), hasRepositoryEvidence(), runGit(), sourceLineCount(), verifiedSourcePath(), verifyRepositoryEvidence(), parseRepositoryRemote() (+2 more)
 
-### Community 128 - "Community 128"
+### Community 123 - "Community 123"
 Cohesion: 0.18
 Nodes (10): Archify, Authoring invariants, Delivery, Fast authoring path, Mermaid input, Optional viewer capabilities, Output, Setup and fallback (+2 more)
 
-### Community 129 - "Community 129"
+### Community 124 - "Community 124"
 Cohesion: 0.29
 Nodes (8): addFavorite(), clearFavorites(), favoritesState, listeners, notify(), persist(), removeFavorite(), toggleFavorite()
 
-### Community 130 - "Community 130"
-Cohesion: 0.24
-Nodes (7): currentLang, emit(), listeners, setLanguage(), tCat(), toggleLanguage(), TRANSLATIONS
+### Community 125 - "Community 125"
+Cohesion: 0.22
+Nodes (11): architectureDeltaChangeRows(), expectedReviewTargetSignature(), primaryReviewTags(), renderArchitectureDeltaHtml(), reviewIdentity(), reviewPrimaryStates(), reviewTargetSignature(), reviewTargetTags() (+3 more)
 
-### Community 131 - "Community 131"
+### Community 126 - "Community 126"
 Cohesion: 0.18
 Nodes (11): additionalProperties, properties, type, additionalProperties, properties, type, enum, $ref (+3 more)
 
-### Community 132 - "Community 132"
+### Community 127 - "Community 127"
 Cohesion: 0.18
 Nodes (11): legendEntry, maxLength, minLength, type, additionalProperties, minProperties, properties, type (+3 more)
 
-### Community 133 - "Community 133"
+### Community 128 - "Community 128"
 Cohesion: 0.18
 Nodes (11): enum, $ref, properties, maxLength, type, dot, id, note (+3 more)
 
-### Community 134 - "Community 134"
-Cohesion: 0.25
-Nodes (11): additionalProperties, required, type, items, states, transitions, items, minItems (+3 more)
-
-### Community 135 - "Community 135"
+### Community 129 - "Community 129"
 Cohesion: 0.20
 Nodes (8): ARRAY_FIELDS, assertFriendlyFailure(), __dirname, EXAMPLES, installedRoot, render(), skillRoot, tmp
 
-### Community 136 - "Community 136"
+### Community 130 - "Community 130"
 Cohesion: 0.29
 Nodes (8): cases, evaluate(), load(), media(), skillRoot, snapshot(), stable(), viewport()
 
-### Community 137 - "Community 137"
+### Community 131 - "Community 131"
 Cohesion: 0.20
 Nodes (7): assetPath, __dirname, inspectGif(), receiptPath, repoRoot, skillRoot, skipSubBlocks()
 
-### Community 138 - "Community 138"
+### Community 132 - "Community 132"
 Cohesion: 0.18
 Nodes (3): currentNodeMajor, __dirname, repoRoot
 
-### Community 139 - "Community 139"
+### Community 133 - "Community 133"
 Cohesion: 0.20
 Nodes (9): 1. The four viewers, 2. The rule, in one function, 3. ⚠️ What this is not, 4. The share link, 5. What the customer sees — `CustomerPrice` in `PriceBlock.jsx`, 6. The login flow, 7. Also gated, 8. Checks (+1 more)
 
-### Community 140 - "Community 140"
+### Community 134 - "Community 134"
 Cohesion: 0.20
 Nodes (9): Canonical exports, Exploration, Guided views and story, Motion and presentation, Reach Share Card, Route Share Card, Share Card, Truth boundary (+1 more)
 
-### Community 141 - "Community 141"
+### Community 135 - "Community 135"
 Cohesion: 0.20
 Nodes (10): additionalProperties, properties, type, additionalProperties, properties, type, $ref, entries (+2 more)
 
-### Community 142 - "Community 142"
+### Community 136 - "Community 136"
 Cohesion: 0.29
 Nodes (10): items, additionalProperties, required, type, items, stages, items, maxItems (+2 more)
 
-### Community 143 - "Community 143"
+### Community 137 - "Community 137"
 Cohesion: 0.20
 Nodes (10): additionalProperties, properties, type, additionalProperties, properties, type, $ref, entries (+2 more)
 
-### Community 144 - "Community 144"
+### Community 138 - "Community 138"
+Cohesion: 0.29
+Nodes (10): additionalProperties, required, type, items, maxItems, minItems, type, lanes (+2 more)
+
+### Community 139 - "Community 139"
 Cohesion: 0.20
 Nodes (10): additionalProperties, properties, type, additionalProperties, properties, type, $ref, entries (+2 more)
 
-### Community 145 - "Community 145"
+### Community 140 - "Community 140"
 Cohesion: 0.20
 Nodes (10): additionalProperties, properties, type, additionalProperties, properties, type, $ref, entries (+2 more)
 
-### Community 146 - "Community 146"
+### Community 141 - "Community 141"
 Cohesion: 0.20
 Nodes (9): Commands, Environment (backend/.env — never committed), Frontend Integration (built), Hard Rules, Key Files (populated as built), Ownership Rule (invariant), Pending Seam — price proxy switch (do when backend is deployed), Shriji Backend Skill (+1 more)
 
-### Community 147 - "Community 147"
+### Community 142 - "Community 142"
 Cohesion: 0.20
 Nodes (5): benchmark, here, repoRoot, skillRoot, tmp
 
-### Community 148 - "Community 148"
+### Community 143 - "Community 143"
 Cohesion: 0.20
 Nodes (6): baseFixture, cli, headFixture, here, skillRoot, workflowFixture
 
-### Community 149 - "Community 149"
+### Community 144 - "Community 144"
 Cohesion: 0.22
 Nodes (6): clickAndNavigate(), __dirname, evaluate(), navigationPath, repoRoot, runtimePath
 
-### Community 150 - "Community 150"
+### Community 145 - "Community 145"
 Cohesion: 0.20
 Nodes (5): __dirname, OFFICIAL_V1_EXAMPLES, skillRoot, tmp, validate()
 
-### Community 151 - "Community 151"
+### Community 146 - "Community 146"
 Cohesion: 0.20
 Nodes (9): Design Rules, Fixed v1, Input, Layout contracts, Legend, Migration and layout receipt, Optional semantic checks, Readable v2 (+1 more)
 
-### Community 153 - "Community 153"
+### Community 148 - "Community 148"
 Cohesion: 0.22
 Nodes (8): 1. Source of Truth: Live Zoho Commerce Store API, 2.1 Customer View, 2.2 Dealer View, 2.3 Share Link Invariant, 2. Customer vs. Dealer Price Resolution (`src/data/dealer.js`), 3. Automated Pricing Regression Protection, PRICING-ARCHITECTURE.md — Pricing Engine & Audit Specification, Rate Priority Hierarchy
 
-### Community 154 - "Community 154"
+### Community 149 - "Community 149"
 Cohesion: 0.22
 Nodes (8): 1. Query the Graph (Context-Efficient), 2. Trace Relationships (Shortest Path), 3. Explain a Node or Symbol, 4. Update the Graph (AST Re-Extraction), Graphify Knowledge Graph Skill, Key Output Artifacts in `graphify-out/`, Primary Commands, Why Use Graphify
 
-### Community 156 - "Community 156"
+### Community 151 - "Community 151"
 Cohesion: 0.22
 Nodes (8): Automated browser evidence, Delivery contract, Handoff receipt, Last-Good Live Preview, Optional opening, Perceptual delivery gate, Recovering a failed comparison, Validate and deliver
 
-### Community 157 - "Community 157"
+### Community 152 - "Community 152"
 Cohesion: 0.31
 Nodes (9): items, type, cards, items, additionalProperties, items, required, type (+1 more)
 
-### Community 158 - "Community 158"
+### Community 153 - "Community 153"
 Cohesion: 0.22
 Nodes (8): Archify JSON IR Schemas, Error format, Files, Legend presentation contract, Runtime validation, schema_version policy, Shared definitions (common.schema.json), Visual quality and engineering truth
 
-### Community 159 - "Community 159"
+### Community 154 - "Community 154"
 Cohesion: 0.22
 Nodes (8): ajv, diagramTypes, __dirname, output, root, schemaIds, schemasDir, validatorCode
 
-### Community 160 - "Community 160"
+### Community 155 - "Community 155"
 Cohesion: 0.22
 Nodes (8): 1. Guest View (Public), 2. Dealer View (Authenticated), 3. Customer Shared View (`?from=<dealer_id>`), Key Files, Schemes Logic, Shriji Pricing & Roles Skill, User Roles & View Modes, Zero-Price Handling
 
-### Community 161 - "Community 161"
+### Community 156 - "Community 156"
 Cohesion: 0.22
 Nodes (8): 1. Viewport Zoom-Out Prevention, 2. CSS Grid Child Shrinking, 3. Product Card Rows on Mobile (`<= 719px`), 4. Horizontal Scrollable Tabs (`.utabs`, `.tabs`), 5. Hero Banner on Small Screens (`<= 640px`), Critical Mobile Responsiveness Safeguards, Design System Tokens, Shriji Responsive UI Skill
 
-### Community 162 - "Community 162"
+### Community 157 - "Community 157"
 Cohesion: 0.22
 Nodes (5): base, cases, cli, head, skillRoot
 
-### Community 163 - "Community 163"
+### Community 158 - "Community 158"
 Cohesion: 0.22
 Nodes (5): CASES, __dirname, skillRoot, template, tmp
 
-### Community 164 - "Community 164"
+### Community 159 - "Community 159"
 Cohesion: 0.22
 Nodes (5): CASES, __dirname, PROOF_CASES, skillRoot, tmp
 
-### Community 165 - "Community 165"
-Cohesion: 0.22
-Nodes (6): architecture, base, cli, head, root, workflow
-
-### Community 166 - "Community 166"
+### Community 160 - "Community 160"
 Cohesion: 0.22
 Nodes (8): chinese, delivery, english, here, readme, repoRoot, skill, skillRoot
 
-### Community 167 - "Community 167"
+### Community 161 - "Community 161"
 Cohesion: 0.22
 Nodes (4): CASES, __dirname, skillRoot, tmp
 
-### Community 168 - "Community 168"
+### Community 162 - "Community 162"
 Cohesion: 0.33
 Nodes (7): checker, here, repoRoot, stableUpdateManifest(), writeFile(), writeValidDevelopmentFixture(), writeValidStableFixture()
 
-### Community 169 - "Community 169"
+### Community 163 - "Community 163"
 Cohesion: 0.25
 Nodes (5): cli, fixture(), git(), here, skillRoot
 
-### Community 170 - "Community 170"
+### Community 164 - "Community 164"
 Cohesion: 0.22
 Nodes (5): bin, __dirname, REPRO, skillRoot, tmp
 
-### Community 171 - "Community 171"
-Cohesion: 0.33
-Nodes (8): cases, load(), run(), screenshot(), skillRoot, snapshot(), stable(), viewport()
+### Community 165 - "Community 165"
+Cohesion: 0.43
+Nodes (6): launchTarget(), openArtifact(), OPENERS, openLoopbackUrl(), spawn(), target
 
-### Community 172 - "Community 172"
+### Community 166 - "Community 166"
 Cohesion: 0.25
 Nodes (8): $ref, via, wraps, items, type, items, minItems, type
 
-### Community 173 - "Community 173"
+### Community 167 - "Community 167"
 Cohesion: 0.25
 Nodes (5): CASES, __dirname, NODE_COLLECTION, skillRoot, tmp
 
-### Community 174 - "Community 174"
+### Community 168 - "Community 168"
 Cohesion: 0.25
 Nodes (4): CASES, __dirname, skillRoot, tmp
 
-### Community 175 - "Community 175"
+### Community 169 - "Community 169"
 Cohesion: 0.25
 Nodes (7): __dirname, docsRoot, landing, manifest, proofs, repoRoot, skillRoot
 
-### Community 176 - "Community 176"
+### Community 170 - "Community 170"
 Cohesion: 0.25
 Nodes (4): CASES, __dirname, skillRoot, tmp
 
-### Community 177 - "Community 177"
+### Community 171 - "Community 171"
 Cohesion: 0.25
 Nodes (5): CASES, __dirname, repoRoot, skillRoot, tmp
 
-### Community 178 - "Community 178"
+### Community 172 - "Community 172"
 Cohesion: 0.25
 Nodes (5): CASES, __dirname, skillRoot, template, tmp
 
-### Community 179 - "Community 179"
+### Community 173 - "Community 173"
 Cohesion: 0.25
 Nodes (4): CASES, __dirname, skillRoot, tmp
 
-### Community 180 - "Community 180"
+### Community 174 - "Community 174"
 Cohesion: 0.25
 Nodes (4): cli, here, skillRoot, tmp
+
+### Community 175 - "Community 175"
+Cohesion: 0.25
+Nodes (5): CASES, __dirname, skillRoot, template, tmp
+
+### Community 176 - "Community 176"
+Cohesion: 0.25
+Nodes (5): CASES, __dirname, repoRoot, skillRoot, tmp
+
+### Community 177 - "Community 177"
+Cohesion: 0.25
+Nodes (4): CASES, __dirname, skillRoot, tmp
+
+### Community 178 - "Community 178"
+Cohesion: 0.32
+Nodes (6): __dirname, labelledSequence(), render(), renderOutcome(), skillRoot, wideSequence()
+
+### Community 179 - "Community 179"
+Cohesion: 0.25
+Nodes (5): CASES, here, repoRoot, skillRoot, tmp
+
+### Community 180 - "Community 180"
+Cohesion: 0.29
+Nodes (5): annotatedTaggerTime(), checker, git(), here, repoRoot
 
 ### Community 181 - "Community 181"
 Cohesion: 0.25
@@ -1058,63 +1053,63 @@ Nodes (5): CASES, __dirname, skillRoot, template, tmp
 
 ### Community 182 - "Community 182"
 Cohesion: 0.25
-Nodes (5): CASES, __dirname, repoRoot, skillRoot, tmp
+Nodes (5): CASES, __dirname, skillRoot, template, tmp
 
 ### Community 183 - "Community 183"
 Cohesion: 0.25
-Nodes (4): CASES, __dirname, skillRoot, tmp
+Nodes (5): CASES, __dirname, skillRoot, template, tmp
 
 ### Community 184 - "Community 184"
-Cohesion: 0.32
-Nodes (6): __dirname, labelledSequence(), render(), renderOutcome(), skillRoot, wideSequence()
+Cohesion: 0.25
+Nodes (5): CASES, __dirname, skillRoot, template, tmp
 
 ### Community 185 - "Community 185"
 Cohesion: 0.25
-Nodes (5): CASES, here, repoRoot, skillRoot, tmp
+Nodes (5): CASES, __dirname, skillRoot, template, tmp
 
 ### Community 186 - "Community 186"
-Cohesion: 0.29
-Nodes (5): annotatedTaggerTime(), checker, git(), here, repoRoot
-
-### Community 187 - "Community 187"
-Cohesion: 0.25
-Nodes (5): CASES, __dirname, skillRoot, template, tmp
-
-### Community 188 - "Community 188"
-Cohesion: 0.25
-Nodes (5): CASES, __dirname, skillRoot, template, tmp
-
-### Community 189 - "Community 189"
-Cohesion: 0.25
-Nodes (5): CASES, __dirname, skillRoot, template, tmp
-
-### Community 190 - "Community 190"
-Cohesion: 0.25
-Nodes (5): CASES, __dirname, skillRoot, template, tmp
-
-### Community 191 - "Community 191"
-Cohesion: 0.25
-Nodes (5): CASES, __dirname, skillRoot, template, tmp
-
-### Community 192 - "Community 192"
 Cohesion: 0.43
 Nodes (6): clone(), createHorizontalRankMapper(), createMappedWorkflowCandidate(), intrinsicWorkflow(), mapExplicitCoordinates(), planningWorkflow()
 
-### Community 194 - "Community 194"
+### Community 187 - "Community 187"
+Cohesion: 0.29
+Nodes (7): commandCompare(), commitComparePair(), compareCommitError(), compareReceiptPath(), extractCompareOptions(), formatDiagnostics(), reportCompareFailure()
+
+### Community 189 - "Community 189"
 Cohesion: 0.29
 Nodes (6): additionalProperties, $id, required, $schema, title, type
 
-### Community 195 - "Community 195"
+### Community 190 - "Community 190"
 Cohesion: 0.29
 Nodes (6): additionalProperties, $id, required, $schema, title, type
 
-### Community 196 - "Community 196"
+### Community 191 - "Community 191"
 Cohesion: 0.29
 Nodes (6): Column fit, Design Rules, Input, Layout budget, Legend, Sequence Renderer
 
-### Community 197 - "Community 197"
+### Community 192 - "Community 192"
 Cohesion: 0.29
 Nodes (4): checker, cli, skillRoot, tmp
+
+### Community 193 - "Community 193"
+Cohesion: 0.29
+Nodes (4): CASES, __dirname, skillRoot, tmp
+
+### Community 194 - "Community 194"
+Cohesion: 0.29
+Nodes (4): CASES, __dirname, skillRoot, tmp
+
+### Community 195 - "Community 195"
+Cohesion: 0.29
+Nodes (4): CASES, __dirname, skillRoot, tmp
+
+### Community 196 - "Community 196"
+Cohesion: 0.29
+Nodes (4): CASES, __dirname, skillRoot, tmp
+
+### Community 197 - "Community 197"
+Cohesion: 0.29
+Nodes (4): CASES, __dirname, skillRoot, tmp
 
 ### Community 198 - "Community 198"
 Cohesion: 0.29
@@ -1125,8 +1120,8 @@ Cohesion: 0.29
 Nodes (4): CASES, __dirname, skillRoot, tmp
 
 ### Community 200 - "Community 200"
-Cohesion: 0.29
-Nodes (4): CASES, __dirname, skillRoot, tmp
+Cohesion: 0.33
+Nodes (4): here, skillRoot, stateAt(), waitForState()
 
 ### Community 201 - "Community 201"
 Cohesion: 0.29
@@ -1145,8 +1140,8 @@ Cohesion: 0.29
 Nodes (4): CASES, __dirname, skillRoot, tmp
 
 ### Community 205 - "Community 205"
-Cohesion: 0.33
-Nodes (4): here, skillRoot, stateAt(), waitForState()
+Cohesion: 0.29
+Nodes (4): CASES, __dirname, skillRoot, tmp
 
 ### Community 206 - "Community 206"
 Cohesion: 0.29
@@ -1158,267 +1153,247 @@ Nodes (4): CASES, __dirname, skillRoot, tmp
 
 ### Community 208 - "Community 208"
 Cohesion: 0.29
-Nodes (4): CASES, __dirname, skillRoot, tmp
+Nodes (5): CASES, __dirname, skillRoot, template, tmp
 
 ### Community 209 - "Community 209"
 Cohesion: 0.29
-Nodes (4): CASES, __dirname, skillRoot, tmp
+Nodes (5): CASES, __dirname, skillRoot, template, tmp
 
 ### Community 210 - "Community 210"
-Cohesion: 0.29
-Nodes (4): CASES, __dirname, skillRoot, tmp
-
-### Community 211 - "Community 211"
-Cohesion: 0.29
-Nodes (4): CASES, __dirname, skillRoot, tmp
-
-### Community 212 - "Community 212"
-Cohesion: 0.29
-Nodes (4): CASES, __dirname, skillRoot, tmp
-
-### Community 213 - "Community 213"
-Cohesion: 0.29
-Nodes (5): CASES, __dirname, skillRoot, template, tmp
-
-### Community 214 - "Community 214"
-Cohesion: 0.29
-Nodes (5): CASES, __dirname, skillRoot, template, tmp
-
-### Community 215 - "Community 215"
 Cohesion: 0.33
 Nodes (5): JetBrains Mono, No additional rights granted, OpenAI mark, Simple Icons, Third-party notices
 
-### Community 216 - "Community 216"
+### Community 211 - "Community 211"
 Cohesion: 0.33
 Nodes (5): Data Flow Renderer, Design Rules, Input, Layout budget, Legend
 
-### Community 217 - "Community 217"
+### Community 212 - "Community 212"
 Cohesion: 0.33
 Nodes (5): Design Rules, Input, Layout budget, Legend, Lifecycle Renderer
 
-### Community 218 - "Community 218"
+### Community 213 - "Community 213"
 Cohesion: 0.33
 Nodes (5): plugins, rules, react/only-export-components, react/rules-of-hooks, $schema
 
-### Community 219 - "Community 219"
+### Community 214 - "Community 214"
 Cohesion: 0.33
 Nodes (6): size, items, maxItems, minItems, prefixItems, type
 
-### Community 220 - "Community 220"
+### Community 215 - "Community 215"
 Cohesion: 0.33
 Nodes (6): viewBox, items, maxItems, minItems, prefixItems, type
 
-### Community 221 - "Community 221"
+### Community 216 - "Community 216"
 Cohesion: 0.33
 Nodes (6): point, items, maxItems, minItems, prefixItems, type
 
-### Community 222 - "Community 222"
+### Community 217 - "Community 217"
 Cohesion: 0.33
 Nodes (5): API Endpoints Reference, Key Files & Architecture, Pricing & Rate Priority, Shriji Zoho Integration Skill, Validation & Audit Commands
 
-### Community 223 - "Community 223"
+### Community 218 - "Community 218"
 Cohesion: 0.33
 Nodes (5): authoringContract, __dirname, schemaReadme, skill, skillRoot
 
-### Community 225 - "Community 225"
+### Community 220 - "Community 220"
 Cohesion: 0.47
 Nodes (5): canonicalNotices, git(), repositoryFixture(), stagerPath, write()
 
-### Community 226 - "Community 226"
+### Community 221 - "Community 221"
 Cohesion: 0.33
 Nodes (4): checker, __dirname, skillRoot, tmp
 
-### Community 227 - "Community 227"
+### Community 222 - "Community 222"
 Cohesion: 0.33
 Nodes (3): cases, cli, skillRoot
 
-### Community 228 - "Community 228"
+### Community 223 - "Community 223"
 Cohesion: 0.33
 Nodes (5): authoringContract, frontmatter, here, skill, skillRoot
 
-### Community 229 - "Community 229"
+### Community 224 - "Community 224"
 Cohesion: 0.33
 Nodes (4): CASES, __dirname, skillRoot, tmp
 
-### Community 230 - "Community 230"
+### Community 225 - "Community 225"
 Cohesion: 0.40
 Nodes (4): CLAUDE.md — read this before touching anything, Commands, Doc map, Hard rules (these exist to stop hallucination)
 
-### Community 231 - "Community 231"
+### Community 226 - "Community 226"
 Cohesion: 0.40
 Nodes (4): Agent Operating Guidelines & Zero-Token Context Strategy, Mandatory Context Rule: Knowledge Graph First, Project Hard Rules, Shriji Domestic Appliances — Sunshine Dealer Web
 
-### Community 232 - "Community 232"
+### Community 227 - "Community 227"
 Cohesion: 0.40
 Nodes (4): Documentation, Layout, Shriji Domestic Appliances — Sunshine Dealer Web, Two things to know before you change anything
 
-### Community 233 - "Community 233"
+### Community 228 - "Community 228"
 Cohesion: 0.40
 Nodes (4): Archify Diagram Generation Protocol, Rule 1: Dedicated Subfolder Per Diagram, Rule 2: Output Artifacts (HTML & Dark Image Only), Rule 3: Intermediate File Cleanup
 
-### Community 234 - "Community 234"
+### Community 229 - "Community 229"
 Cohesion: 0.40
 Nodes (4): Automatic Codebase Context & Knowledge Graph Protocol, Rule 1: Mandatory Knowledge Graph Lookup (Never Blindly Read Files), Rule 2: Precision File Viewing, Rule 3: Keep Graph Fresh After Modifying Code
 
-### Community 235 - "Community 235"
+### Community 230 - "Community 230"
 Cohesion: 0.40
 Nodes (5): items, minItems, type, $ref, focus
 
-### Community 236 - "Community 236"
+### Community 231 - "Community 231"
 Cohesion: 0.50
 Nodes (3): env, getAccessToken(), main()
 
-### Community 237 - "Community 237"
+### Community 232 - "Community 232"
 Cohesion: 0.40
 Nodes (4): __dirname, outputRoot, skillRoot, TARGETS
 
-### Community 239 - "Community 239"
+### Community 234 - "Community 234"
 Cohesion: 0.40
 Nodes (3): here, skillRoot, tmp
 
-### Community 241 - "Community 241"
+### Community 236 - "Community 236"
 Cohesion: 0.50
 Nodes (3): Hard Rules, Shriji Dealer Web — Agent Guidelines, Specialized Skills Available
 
+### Community 239 - "Community 239"
+Cohesion: 0.50
+Nodes (3): $id, $schema, title
+
+### Community 240 - "Community 240"
+Cohesion: 0.50
+Nodes (4): $ref, via, items, type
+
+### Community 241 - "Community 241"
+Cohesion: 0.50
+Nodes (4): width, minimum, $ref, type
+
+### Community 242 - "Community 242"
+Cohesion: 0.50
+Nodes (4): $ref, via, items, type
+
+### Community 243 - "Community 243"
+Cohesion: 0.50
+Nodes (4): width, minimum, $ref, type
+
 ### Community 244 - "Community 244"
-Cohesion: 0.50
-Nodes (4): $ref, via, items, type
-
-### Community 245 - "Community 245"
-Cohesion: 0.50
-Nodes (4): width, minimum, $ref, type
-
-### Community 246 - "Community 246"
-Cohesion: 0.50
-Nodes (4): $ref, via, items, type
-
-### Community 247 - "Community 247"
-Cohesion: 0.50
-Nodes (4): width, minimum, $ref, type
-
-### Community 248 - "Community 248"
 Cohesion: 0.50
 Nodes (4): additionalProperties, required, type, meta
 
-### Community 249 - "Community 249"
+### Community 245 - "Community 245"
 Cohesion: 0.50
 Nodes (4): maximum, minimum, type, bias
 
-### Community 250 - "Community 250"
+### Community 246 - "Community 246"
 Cohesion: 0.50
 Nodes (4): maximum, minimum, type, col
 
-### Community 251 - "Community 251"
+### Community 247 - "Community 247"
 Cohesion: 0.50
 Nodes (4): maximum, minimum, type, fromCol
 
-### Community 252 - "Community 252"
-Cohesion: 0.50
-Nodes (4): toCol, maximum, minimum, type
-
-### Community 254 - "Community 254"
+### Community 249 - "Community 249"
 Cohesion: 0.50
 Nodes (3): Daily Development Commands, Hard Workflow Rules, Shriji Testing & Workflow Skill
 
-### Community 256 - "Community 256"
+### Community 251 - "Community 251"
 Cohesion: 0.50
 Nodes (3): __dirname, repoRoot, skillRoot
 
-### Community 257 - "Community 257"
+### Community 252 - "Community 252"
 Cohesion: 0.50
 Nodes (3): delivery, here, skill
 
-### Community 259 - "Community 259"
+### Community 254 - "Community 254"
 Cohesion: 0.50
 Nodes (3): __dirname, repoRoot, skillRoot
 
-### Community 261 - "Community 261"
+### Community 256 - "Community 256"
 Cohesion: 0.50
 Nodes (3): framework, headers, rewrites
 
-### Community 264 - "Community 264"
+### Community 259 - "Community 259"
 Cohesion: 0.67
 Nodes (3): minimum, type, col
 
-### Community 265 - "Community 265"
+### Community 260 - "Community 260"
 Cohesion: 0.67
 Nodes (3): minimum, type, labelSegment
 
-### Community 266 - "Community 266"
+### Community 261 - "Community 261"
 Cohesion: 0.67
 Nodes (3): guidedViews, maxItems, type
 
-### Community 267 - "Community 267"
+### Community 262 - "Community 262"
 Cohesion: 0.67
 Nodes (3): id, pattern, type
 
-### Community 268 - "Community 268"
+### Community 263 - "Community 263"
 Cohesion: 0.67
 Nodes (3): relationshipWidth, minimum, type
 
-### Community 269 - "Community 269"
+### Community 264 - "Community 264"
 Cohesion: 0.67
 Nodes (3): minimum, type, height
 
-### Community 270 - "Community 270"
+### Community 265 - "Community 265"
 Cohesion: 0.67
 Nodes (3): row, minimum, type
 
-### Community 271 - "Community 271"
+### Community 266 - "Community 266"
 Cohesion: 0.67
 Nodes (3): stage, minimum, type
 
-### Community 272 - "Community 272"
+### Community 267 - "Community 267"
 Cohesion: 0.67
 Nodes (3): minimum, type, cornerRadius
 
-### Community 273 - "Community 273"
+### Community 268 - "Community 268"
 Cohesion: 0.67
 Nodes (3): minLength, type, label
 
-### Community 274 - "Community 274"
+### Community 269 - "Community 269"
 Cohesion: 0.67
 Nodes (3): minimum, type, labelSegment
 
-### Community 275 - "Community 275"
+### Community 270 - "Community 270"
+Cohesion: 0.67
+Nodes (3): minLength, type, label
+
+### Community 271 - "Community 271"
 Cohesion: 0.67
 Nodes (3): title, minLength, type
 
-### Community 276 - "Community 276"
+### Community 272 - "Community 272"
 Cohesion: 0.67
 Nodes (3): y, minimum, type
 
-### Community 277 - "Community 277"
-Cohesion: 0.67
-Nodes (3): minLength, type, label
-
-### Community 278 - "Community 278"
+### Community 273 - "Community 273"
 Cohesion: 0.67
 Nodes (3): minimum, type, labelSegment
 
-### Community 279 - "Community 279"
+### Community 274 - "Community 274"
 Cohesion: 0.67
 Nodes (3): width, minimum, type
 
 ## Knowledge Gaps
-- **1508 isolated node(s):** `__dirname`, `skillRoot`, `TYPES`, `COMPOSITION_CHECKS`, `CHECK_FIXES` (+1503 more)
+- **1511 isolated node(s):** `__dirname`, `skillRoot`, `TYPES`, `COMPOSITION_CHECKS`, `CHECK_FIXES` (+1506 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **30 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `_()` connect `Dealer Auth & Session Management` to `Zoho Backend & Proxy Endpoints`, `Community 68`, `Product Requirements Documentation`, `Community 41`, `Client Products Data Store`, `Product Brand & Business Vision`, `Pricing & Roles Skill`, `Vercel Deployment Routing`, `Graphify Workflow`, `Community 30`?**
+- **Why does `_()` connect `Price Presentation & Product UI` to `Zoho Backend & Proxy Endpoints`, `Product Pages Specification`, `Community 38`, `Design System & UI Tokens`, `Zoho Integration Architecture`, `Zoho Integration Skill`, `Graphify Workflow`, `Community 62`, `Community 31`?**
   _High betweenness centrality (0.018) - this node is a cross-community bridge._
-- **Why does `_()` connect `Price Presentation & Product UI` to `Dependencies & Package Config`, `Master Codebase Architecture Reference`, `Design System & UI Tokens`, `Community 39`, `Community 76`, `Architecture Doc Generator`, `Community 48`, `Oxlint Linter Configuration`, `Claude Agent Instructions`, `Agent Guidelines (AGENTS.md)`, `Zoho API Diagnostic Script`?**
-  _High betweenness centrality (0.011) - this node is a cross-community bridge._
-- **Why does `validateSchema()` connect `Product Pages Specification` to `Pricing Regression Test Suite`, `Community 73`, `Community 109`, `Community 150`?**
+- **Why does `_()` connect `Dealer Auth & Session Management` to `Dependencies & Package Config`, `Master Codebase Architecture Reference`, `Community 37`, `Community 41`, `Client Products Data Store`, `Product Brand & Business Vision`, `Pricing Hierarchy & Zero-Leakage Spec`, `Vercel Deployment Routing`, `Community 29`?**
+  _High betweenness centrality (0.009) - this node is a cross-community bridge._
+- **Why does `validateSchema()` connect `Roles & Customer Sharing Spec` to `Community 73`, `Community 145`, `Community 106`, `Pricing Regression Test Suite`?**
   _High betweenness centrality (0.008) - this node is a cross-community bridge._
 - **What connects `__dirname`, `skillRoot`, `TYPES` to the rest of the system?**
-  _1508 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _1511 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Dealer Auth & Session Management` be split into smaller, more focused modules?**
-  _Cohesion score 0.01944770857814336 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.018571428571428572 - nodes in this community are weakly interconnected._
 - **Should `Price Presentation & Product UI` be split into smaller, more focused modules?**
-  _Cohesion score 0.021174625304984315 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.018835849313205495 - nodes in this community are weakly interconnected._
 - **Should `Zoho Backend & Proxy Endpoints` be split into smaller, more focused modules?**
-  _Cohesion score 0.041351193942923706 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.05406434418427565 - nodes in this community are weakly interconnected._

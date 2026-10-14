@@ -1,59 +1,59 @@
 # Community 52
 
-> 25 nodes · cohesion 0.16
+> 27 nodes · cohesion 0.13
 
 ## Key Concepts
 
 - **.send()** (54 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **semantic-lens-browser.test.mjs** (14 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **viewer-camera-browser.test.mjs** (11 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
 - **export-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
 - **motion-governor-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **run()** (6 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **.inspect()** (5 connections) — `.agents/skills/archify/bin/visual-check.mjs`
 - **run()** (5 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
 - **run()** (5 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
 - **load()** (4 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **point()** (4 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **run()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **evaluate()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
 - **click()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
 - **load()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
 - **record()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
 - **media()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
 - **screenshot()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **move()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **stable()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **viewport()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **.waitFor()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
 - **key()** (2 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
 - **snapshot()** (2 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **hash()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **screenshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
 - **skillRoot** (1 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
 - **skillRoot** (1 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [[Community 107]] (9 shared connections)
+- [[Community 57]] (11 shared connections)
 - [[Community 79]] (8 shared connections)
-- [[Community 105]] (7 shared connections)
-- [[Community 123]] (6 shared connections)
-- [[Community 119]] (5 shared connections)
-- [[Community 120]] (5 shared connections)
-- [[Community 136]] (4 shared connections)
-- [[Community 171]] (4 shared connections)
-- [[Community 40]] (3 shared connections)
+- [[Community 74]] (7 shared connections)
+- [[Community 104]] (7 shared connections)
+- [[Community 47]] (5 shared connections)
+- [[Community 115]] (5 shared connections)
+- [[Community 116]] (5 shared connections)
+- [[Community 130]] (4 shared connections)
 - [[Community 90]] (1 shared connections)
-- [[Community 192]] (1 shared connections)
+- [[Community 186]] (1 shared connections)
 
 ## Source Files
 
 - `.agents/skills/archify/bin/visual-check.mjs`
 - `.agents/skills/archify/test/export-browser.test.mjs`
 - `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 145 (99%)
+- EXTRACTED: 146 (99%)
 - INFERRED: 2 (1%)
 - AMBIGUOUS: 0 (0%)
 

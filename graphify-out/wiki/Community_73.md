@@ -28,18 +28,18 @@
 
 ## Relationships
 
-- [[Pricing Regression Test Suite]] (39 shared connections)
-- [[Product Pages Specification]] (14 shared connections)
+- [[Pricing Regression Test Suite]] (31 shared connections)
 - [[Mobile Responsive UI Skill]] (14 shared connections)
-- [[Community 44]] (7 shared connections)
-- [[Community 109]] (4 shared connections)
-- [[Community 45]] (4 shared connections)
-- [[Community 192]] (4 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (3 shared connections)
-- [[Community 122]] (1 shared connections)
-- [[Community 51]] (1 shared connections)
-- [[Community 114]] (1 shared connections)
-- [[Zoho Integration Skill]] (1 shared connections)
+- [[Community 35]] (14 shared connections)
+- [[Community 39]] (10 shared connections)
+- [[Roles & Customer Sharing Spec]] (8 shared connections)
+- [[Community 106]] (4 shared connections)
+- [[Community 186]] (4 shared connections)
+- [[Community 91]] (3 shared connections)
+- [[Community 118]] (1 shared connections)
+- [[Community 54]] (1 shared connections)
+- [[Community 110]] (1 shared connections)
+- [[Testing & Workflow Skill]] (1 shared connections)
 
 ## Source Files
 

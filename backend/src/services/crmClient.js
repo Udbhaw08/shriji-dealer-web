@@ -1,10 +1,12 @@
 import { env } from '../config/env.js';
 import { log } from '../utils/logger.js';
+import { normalizePhone } from '../utils/phone.js';
+import { normalizeEmail, cleanName } from '../utils/validators.js';
 
 // Custom-field API names in CRM. These defaults match the fields created in
 // docs/BACKEND-ARCHITECTURE.md §1.1 — override via env if Zoho assigns different
 // api_names on creation (check in CRM → Setup → Modules → Accounts/Contacts).
-const FIELDS = {
+export const FIELDS = {
   account: {
     gst: () => process.env.ZOHO_CRM_FIELD_GST || 'GST_Number',
     gstTreatment: () => process.env.ZOHO_CRM_FIELD_GST_TREATMENT || 'GST_Treatment',
@@ -18,6 +20,7 @@ const FIELDS = {
     portalRole: () => process.env.ZOHO_CRM_FIELD_PORTAL_ROLE || 'Portal_Role',
     backendUserId: () => process.env.ZOHO_CRM_FIELD_BACKEND_USER_ID || 'Backend_User_ID',
     userSource: () => process.env.ZOHO_CRM_FIELD_USER_SOURCE || 'User_Source',
+    countryCode: () => process.env.ZOHO_CRM_FIELD_COUNTRY_CODE || 'Country_Code',
   },
 };
 
@@ -82,10 +85,11 @@ export async function crmFetch(path, { method = 'GET', body } = {}) {
 
 /** Create the dealer Account in CRM. Returns the CRM Account id. */
 export async function createDealerAccount({ businessName, gstNumber, gstTreatment, phone, email, address, userSource = 'ReStor Dealer', dealerCode }) {
+  const norm = normalizePhone(phone);
   const account = {
-    Account_Name: businessName,
-    Phone: phone || undefined,
-    Email: email || undefined,
+    Account_Name: cleanName(businessName),
+    Phone: norm.nationalNumber || undefined,
+    Email: normalizeEmail(email) || undefined,
     Billing_Street: address || undefined,
     [FIELDS.account.gst()]: gstNumber || undefined,
     ...(gstTreatment ? { [FIELDS.account.gstTreatment()]: String(gstTreatment).trim() } : {}),
@@ -104,10 +108,41 @@ export async function createDealerAccount({ businessName, gstNumber, gstTreatmen
   return row.details.id;
 }
 
+/**
+ * Resolves first and last names for Zoho CRM Contact.
+ * Ensures First_Name and Last_Name are always populated and never left empty.
+ */
+export function resolveContactNames({ firstName, lastName, personName, defaultLast = 'Dealer Owner' }) {
+  let fName = firstName ? String(firstName).trim() : '';
+  let lName = lastName ? String(lastName).trim() : '';
+
+  if (!fName && !lName && personName) {
+    const parts = String(personName).trim().split(/\s+/);
+    if (parts.length > 1) {
+      fName = parts.slice(0, -1).join(' ');
+      lName = parts.slice(-1).join(' ');
+    } else {
+      fName = parts[0] || '';
+      lName = parts[0] || defaultLast;
+    }
+  }
+
+  // Ensure neither field is left empty for Zoho CRM Contact
+  if (!fName && lName) fName = lName;
+  if (!lName && fName) lName = fName;
+
+  return {
+    firstName: cleanName(fName) || defaultLast,
+    lastName: cleanName(lName) || defaultLast,
+  };
+}
+
 /** Create a Contact under the dealer Account. Returns the CRM Contact id. */
 export async function createDealerContact({
   accountId,
   personName,
+  firstName,
+  lastName,
   phone,
   email,
   portalRole = 'Owner',
@@ -115,13 +150,19 @@ export async function createDealerContact({
   userSource = 'ReStor Dealer',
   reportingToContactId,
 }) {
+  const norm = normalizePhone(phone);
+  const defaultLast = portalRole === 'Staff' ? 'Dealer Staff' : 'Dealer Owner';
+  const names = resolveContactNames({ firstName, lastName, personName, defaultLast });
+
   const contact = {
-    Last_Name: personName || (portalRole === 'Staff' ? 'Dealer Staff' : 'Dealer Owner'),
+    First_Name: names.firstName,
+    Last_Name: names.lastName,
     Account_Name: { id: accountId },
-    Phone: phone || undefined,
-    Mobile: phone || undefined,
-    Email: email || undefined,
+    Phone: norm.nationalNumber || undefined,
+    Mobile: norm.nationalNumber || undefined,
+    Email: normalizeEmail(email) || undefined,
     [FIELDS.contact.portalRole()]: portalRole,
+    ...(norm.countryCode ? { [FIELDS.contact.countryCode()]: norm.countryCode } : {}),
     ...(dealerCode ? { [FIELDS.account.dealerCode()]: dealerCode } : {}),
     ...(userSource ? { [FIELDS.contact.userSource()]: userSource } : {}),
     ...(reportingToContactId ? { Reporting_To: { id: reportingToContactId } } : {}),
@@ -146,24 +187,76 @@ export async function linkContactToBackendUser(contactId, backendUserId) {
 }
 
 /**
- * Read a dealer Account from CRM — the source of truth for approval.
- * Returns { zohoAccountId, dealerStatus, dealerCode, priceList, priceTier } or null.
+ * Read a dealer Account from CRM — the source of truth for approval & profile.
+ * Returns { zohoAccountId, dealerStatus, dealerCode, priceList, priceTier, businessName, gstNumber, gstTreatment, phone, address } or null.
  */
 export async function getDealerAccount(zohoAccountId) {
   const data = await crmFetch(`/Accounts/${zohoAccountId}`);
   const acc = data?.data?.[0];
   if (!acc) return null;
   const priceListVal = acc[FIELDS.account.priceList()] || acc.Price_List || acc['Price List'] || acc.Price_Tier || null;
+  const addressParts = [
+    acc.Billing_Street,
+    acc.Billing_City,
+    acc.Billing_State,
+    acc.Billing_Code,
+  ].filter(Boolean);
   return {
     zohoAccountId: acc.id,
-    dealerStatus: acc[FIELDS.account.dealerStatus()] || 'Pending',
-    dealerCode: acc[FIELDS.account.dealerCode()] || null,
+    dealerStatus: acc[FIELDS.account.dealerStatus()] || acc.Dealer_Status || 'Pending',
+    dealerCode: acc[FIELDS.account.dealerCode()] || acc.Dealer_Code || null,
     priceList: priceListVal,
     priceTier: priceListVal,
     businessName: acc.Account_Name || null,
-    gstNumber: acc[FIELDS.account.gst()] || null,
-    gstTreatment: acc[FIELDS.account.gstTreatment()] || null,
+    gstNumber: acc[FIELDS.account.gst()] || acc.GST_Number || acc.GSTIN || acc.GST || null,
+    gstTreatment: acc[FIELDS.account.gstTreatment()] || acc.GST_Treatment || null,
+    phone: acc.Phone || null,
+    address: addressParts.length ? addressParts.join(', ') : null,
   };
+}
+
+/**
+ * Read a Contact from CRM.
+ * Returns { zohoContactId, firstName, lastName, fullName, email, phone, portalRole, accountId } or null.
+ */
+export async function getDealerContact(zohoContactId) {
+  const data = await crmFetch(`/Contacts/${zohoContactId}`);
+  const con = data?.data?.[0];
+  if (!con) return null;
+  return {
+    zohoContactId: con.id,
+    firstName: con.First_Name || null,
+    lastName: con.Last_Name || null,
+    fullName: con.Full_Name || [con.First_Name, con.Last_Name].filter(Boolean).join(' ') || null,
+    email: con.Email || null,
+    phone: con.Phone || con.Mobile || null,
+    portalRole: con[FIELDS.contact.portalRole()] || con.Portal_Role || null,
+    dealerCode: con[FIELDS.account.dealerCode()] || null,
+    accountId: con.Account_Name?.id || null,
+  };
+}
+
+/**
+ * Search contacts under a CRM Account and return the primary owner contact.
+ */
+export async function getPrimaryContactForAccount(zohoAccountId) {
+  try {
+    const res = await crmFetch(`/Contacts/search?criteria=(Account_Name:equals:${zohoAccountId})`);
+    const contacts = res?.data || [];
+    if (!contacts.length) return null;
+    const owner = contacts.find((c) => c.Portal_Role === 'Owner' || !c.Reporting_To) || contacts[0];
+    return {
+      zohoContactId: owner.id,
+      firstName: owner.First_Name || null,
+      lastName: owner.Last_Name || null,
+      fullName: owner.Full_Name || [owner.First_Name, owner.Last_Name].filter(Boolean).join(' ') || null,
+      email: owner.Email || null,
+      phone: owner.Phone || owner.Mobile || null,
+    };
+  } catch (err) {
+    log.warn(`[crm] getPrimaryContactForAccount skipped for ${zohoAccountId}:`, err.message);
+    return null;
+  }
 }
 
 /**
@@ -173,12 +266,12 @@ export async function getDealerAccount(zohoAccountId) {
 export async function updateDealerCodeInCrm({ zohoAccountId, dealerCode, ownerPhone }) {
   if (!zohoAccountId || !crmConfigured()) return false;
   try {
-    const cleanPhone = ownerPhone ? String(ownerPhone).trim() : undefined;
+    const norm = normalizePhone(ownerPhone);
     // 1. Update the Account
     const accPayload = {
       id: String(zohoAccountId),
       ...(dealerCode ? { [FIELDS.account.dealerCode()]: String(dealerCode).trim() } : {}),
-      ...(cleanPhone ? { Phone: cleanPhone } : {}),
+      ...(norm.nationalNumber ? { Phone: norm.nationalNumber } : {}),
     };
     await crmFetch('/Accounts', {
       method: 'PUT',
@@ -195,7 +288,11 @@ export async function updateDealerCodeInCrm({ zohoAccountId, dealerCode, ownerPh
           return {
             id: c.id,
             ...(dealerCode ? { [FIELDS.account.dealerCode()]: String(dealerCode).trim() } : {}),
-            ...(isOwner && cleanPhone ? { Phone: cleanPhone, Mobile: cleanPhone } : {}),
+            ...(isOwner && norm.nationalNumber ? {
+              Phone: norm.nationalNumber,
+              Mobile: norm.nationalNumber,
+              [FIELDS.contact.countryCode()]: norm.countryCode,
+            } : {}),
           };
         });
         await crmFetch('/Contacts', {

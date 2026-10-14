@@ -7,11 +7,12 @@ import {
   hasSession,
 } from "../data/auth";
 import {
-  sendFirebasePhoneOtp, verifyFirebasePhoneOtp, signInWithGoogleFirebase,
+  signInWithGoogleFirebase,
 } from "../data/firebase";
 import { Icon } from "../ui";
 import { useLanguage } from "../data/i18n";
 import { formatLoginCode, GST_TREATMENT_OPTIONS } from "../data/loginCode";
+import { isValidEmail, isValidPhone, isValidName, isValidGstin, isValidPincode } from "../data/validators";
 
 /* Sunshine Dealer Portal — wizard auth (mockup: shop-owner + shop-staff flows).
  * Owner:  role → identify (OTP/password) → business match → details → review → approved
@@ -272,8 +273,28 @@ export default function Login() {
                   setDevOtpCode(code || "");
                   setStage("staff-otp");
                 }} onBack={() => setStage("staff-invite")} />}
-            {stage === "staff-otp" && <OtpStep target={otpTarget} devCode={devOtpCode} onVerified={afterAuth}
-                                               onEdit={() => setStage("staff-details")} onBack={() => setStage("staff-invite")} />}
+            {stage === "staff-otp" && (
+              <OtpStep
+                target={otpTarget}
+                devCode={devOtpCode}
+                onVerified={async () => {
+                  if (StaffCtx.pendingSignup) {
+                    try {
+                      const res = await apiStaffSignup(StaffCtx.pendingSignup);
+                      if (res?.accessToken) {
+                        setSession(res);
+                      }
+                    } catch (signupErr) {
+                      console.error("[staff:signup] Failed to complete signup after OTP:", signupErr);
+                    }
+                    StaffCtx.pendingSignup = null;
+                  }
+                  await afterAuth();
+                }}
+                onEdit={() => setStage("staff-details")}
+                onBack={() => setStage("staff-invite")}
+              />
+            )}
             {stage === "staff-confirm" && <StaffConfirm onOk={() => { setStage("staff-waiting"); watchApproval(); }} onBack={reset} />}
             {stage === "staff-waiting" && <Review kind="staff" onLogin={signOutAndReload} />}
             {stage === "staff-approved" && <Approved kind="staff" onEnter={() => nav("/products")} />}
@@ -297,7 +318,6 @@ export default function Login() {
           </>
         )}
             </div>
-            <div id="recaptcha-container"></div>
           </div>
         </div>
       </div>
@@ -306,7 +326,7 @@ export default function Login() {
 }
 
 // shared context for the staff Dealer/invite code across steps
-const StaffCtx = { code: "", businessName: "" };
+const StaffCtx = { code: "", businessName: "", pendingSignup: null };
 
 function WizardShell({ title, sub, step, steps, onBack, children }) {
   return (
@@ -401,17 +421,80 @@ function StaffNewOrExisting({ onNew, onExisting, onBack }) {
   );
 }
 
+/* Reusable phone input with country code dropdown (default: +91 India) and sanitized 10-digit input */
+function PhoneInputField({
+  id = "phone-input",
+  label = "Mobile Number",
+  labelSuffix = "",
+  value = "",
+  countryCode = "+91",
+  onCountryCodeChange,
+  onChange,
+  placeholder = "98765 43210",
+  autoComplete = "tel",
+  required = false,
+  error = "",
+}) {
+  const rawDigits = String(value || "").replace(/\D/g, "");
+  const national10 = rawDigits.length > 10 ? rawDigits.slice(-10) : rawDigits;
+
+  const handleInputChange = (e) => {
+    let clean = e.target.value.replace(/\D/g, "");
+    if (clean.length === 12 && clean.startsWith("91")) {
+      clean = clean.slice(2);
+    } else if (clean.length === 11 && clean.startsWith("0")) {
+      clean = clean.slice(1);
+    } else if (clean.length > 10) {
+      clean = clean.slice(-10);
+    }
+    onChange?.(clean);
+  };
+
+  return (
+    <div className="field" style={{ margin: 0 }}>
+      <label htmlFor={id}>
+        {label} {labelSuffix}
+      </label>
+      <div className="phone-field-group">
+        <select
+          id={`${id}-cc`}
+          className="phone-country-select"
+          value={countryCode}
+          onChange={(e) => onCountryCodeChange?.(e.target.value)}
+          aria-label="Country Code"
+        >
+          <option value="+91">🇮🇳 +91</option>
+        </select>
+        <input
+          id={id}
+          className="phone-number-input"
+          type="tel"
+          inputMode="numeric"
+          pattern="[0-9]*"
+          maxLength={10}
+          value={national10}
+          onChange={handleInputChange}
+          placeholder={placeholder}
+          autoComplete={autoComplete}
+          required={required}
+        />
+      </div>
+      {error && <span className="err">{error}</span>}
+    </div>
+  );
+}
+
 /* STAFF: Existing staff direct login (OTP or Password) */
 function StaffLogin({ onSent, onPasswordOk, onBack, initialPhone = "", initialEmail = "" }) {
   const [mode, setMode] = useState("otp");
   const [phone, setPhone] = useState(initialPhone);
   const [email, setEmail] = useState(initialEmail);
-  const [otpChannel, setOtpChannel] = useState("phone");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const cleanPhone = phone.trim();
+  const digits = phone.replace(/\D/g, "").slice(-10);
+  const cleanPhone = digits ? `+91${digits}` : "";
   const cleanEmail = email.trim().toLowerCase();
 
   const run = async (fn) => {
@@ -424,40 +507,19 @@ function StaffLogin({ onSent, onPasswordOk, onBack, initialPhone = "", initialEm
   const sendOtp = (e) => {
     e.preventDefault();
     if (loading) return;
-    if (!cleanPhone && !cleanEmail) {
-      setError("Please enter your mobile number or email address.");
+    if (!cleanPhone || !isValidPhone(cleanPhone)) {
+      setError("Please enter a valid 10-digit mobile number.");
       return;
     }
-    const activeChannel = otpChannel === "email" ? (cleanEmail ? "email" : "phone") : (cleanPhone ? "phone" : "email");
     const isTestPhone = cleanPhone && cleanPhone.replace(/\D/g, '').endsWith("7738369376");
 
     run(async () => {
-      if (activeChannel === "phone") {
-        if (!cleanPhone) {
-          setError("Please enter a mobile number to receive OTP via WhatsApp / SMS.");
-          return;
-        }
-        try {
-          await sendFirebasePhoneOtp(cleanPhone, "recaptcha-container");
-          onSent({ phone: cleanPhone, email: cleanEmail, channel: "phone", target: cleanPhone }, isTestPhone ? "882686" : null);
-          return;
-        } catch (fbErr) {
-          console.warn("[firebase:staff-phone] Firebase failed, falling back to backend OTP:", fbErr.message || fbErr.code);
-        }
-      } else {
-        if (!cleanEmail) {
-          setError("Please enter an email address to receive OTP.");
-          return;
-        }
-      }
-
+      // Send OTP via backend → WhatsApp Cloud API (Meta)
       const res = await requestOtp({
-        phone: cleanPhone || undefined,
-        email: cleanEmail || undefined,
-        channel: activeChannel,
+        phone: cleanPhone,
+        channel: "phone",
       });
-      const targetVal = activeChannel === "email" ? cleanEmail : cleanPhone;
-      onSent({ phone: cleanPhone, email: cleanEmail, channel: activeChannel, target: targetVal }, res.dev_code || (isTestPhone ? "882686" : null));
+      onSent({ phone: cleanPhone, email: cleanEmail || null, channel: "phone", target: cleanPhone }, res.dev_code || (isTestPhone ? "882686" : null));
     });
   };
 
@@ -466,6 +528,14 @@ function StaffLogin({ onSent, onPasswordOk, onBack, initialPhone = "", initialEm
     if (loading) return;
     if (!cleanPhone && !cleanEmail) {
       setError("Please enter your mobile number or email.");
+      return;
+    }
+    if (cleanEmail && !isValidEmail(cleanEmail)) {
+      setError("Please enter a valid email address (e.g. name@domain.com).");
+      return;
+    }
+    if (cleanPhone && !isValidPhone(cleanPhone)) {
+      setError("Please enter a valid 10-digit mobile number.");
       return;
     }
     if (!password) {
@@ -484,11 +554,11 @@ function StaffLogin({ onSent, onPasswordOk, onBack, initialPhone = "", initialEm
 
   return (
     <WizardShell step={2} steps={5} onBack={onBack} title="Staff Log In"
-                 sub="Sign in using your mobile number and email.">
+                 sub="Sign in using your mobile number with OTP.">
       <div className="auth-tabs" role="tablist">
         <button type="button" role="tab" className={`auth-tab-btn ${mode === "otp" ? "active" : ""}`}
                 onClick={() => { setMode("otp"); setError(""); }}>
-          📱 OTP Login
+          📱 Mobile OTP
         </button>
         <button type="button" role="tab" className={`auth-tab-btn ${mode === "password" ? "active" : ""}`}
                 onClick={() => { setMode("password"); setError(""); }}>
@@ -497,63 +567,41 @@ function StaffLogin({ onSent, onPasswordOk, onBack, initialPhone = "", initialEm
       </div>
 
       <div className="auth-linked-hint" style={{ marginBottom: 10 }}>
-        <span>🔗</span>
+        <span>📱</span>
         <div>
-          <strong>Interconnected Account:</strong> Providing both mobile number & email ensures your account stays linked across devices and synced to Zoho CRM.
+          <strong>Mobile Verification:</strong> Quick & secure login via WhatsApp or SMS OTP.
         </div>
       </div>
 
       {mode === "otp" ? (
         <form onSubmit={sendOtp} style={{ display: "grid", gap: 10 }}>
-          <p className="field" style={{ margin: 0 }}>
-            <label htmlFor="sl-phone">Mobile Number {cleanEmail ? "(optional if using email)" : "*"}</label>
-            <input id="sl-phone" type="tel" value={phone} onChange={(e) => setPhone(e.target.value)}
-                   placeholder="+91 98765 43210" autoComplete="tel" />
-          </p>
-          <p className="field" style={{ margin: 0 }}>
-            <label htmlFor="sl-email">Email Address {cleanPhone ? "(optional if using mobile)" : "*"}</label>
-            <input id="sl-email" type="email" value={email} onChange={(e) => setEmail(e.target.value)}
-                   placeholder="staff@company.com" autoComplete="email" />
-          </p>
-
-          {(cleanPhone && cleanEmail) && (
-            <div>
-              <label style={{ fontSize: "0.82rem", fontWeight: 600, color: "var(--tx-2)", marginBottom: 4, display: "block" }}>
-                Send OTP to:
-              </label>
-              <div className="auth-channel-selector" role="radiogroup">
-                <button type="button" role="radio" aria-checked={otpChannel === "phone"}
-                        className={`auth-channel-option ${otpChannel === "phone" ? "active" : ""}`}
-                        onClick={() => setOtpChannel("phone")}>
-                  📱 WhatsApp / SMS
-                </button>
-                <button type="button" role="radio" aria-checked={otpChannel === "email"}
-                        className={`auth-channel-option ${otpChannel === "email" ? "active" : ""}`}
-                        onClick={() => setOtpChannel("email")}>
-                  ✉️ Email
-                </button>
-              </div>
-            </div>
-          )}
+          <PhoneInputField
+            id="sl-phone"
+            label="Mobile Number"
+            labelSuffix="*"
+            value={phone}
+            onChange={setPhone}
+          />
 
           <div className="auth-channels-note">
             <span className="auth-channel-badge">💬 WhatsApp</span>
             <span className="auth-channel-badge">📱 SMS</span>
-            <span className="auth-channel-badge">✉️ Email</span>
           </div>
           {error && <FormError error={error} />}
-          <button className="btn btn-navy btn-block" disabled={loading || (!cleanPhone && !cleanEmail)} style={{ padding: 12, fontSize: "1rem" }}>
-            {loading ? "Sending OTP…" : "Send OTP"}
+          <button className="btn btn-navy btn-block" disabled={loading || !cleanPhone} style={{ padding: 12, fontSize: "1rem" }}>
+            {loading ? "Sending OTP…" : "Send 6-digit OTP"}
           </button>
           <p className="note" style={{ textAlign: "center", margin: 0 }}>Not registered yet? <button type="button" className="link-btn" onClick={onBack}>Go back and sign up</button></p>
         </form>
       ) : (
         <form onSubmit={loginPassword} style={{ display: "grid", gap: 10 }}>
-          <p className="field" style={{ margin: 0 }}>
-            <label htmlFor="sl-phone-p">Mobile Number {cleanEmail ? "(optional if using email)" : "*"}</label>
-            <input id="sl-phone-p" type="tel" value={phone} onChange={(e) => setPhone(e.target.value)}
-                   placeholder="+91 98765 43210" autoComplete="tel" />
-          </p>
+          <PhoneInputField
+            id="sl-phone-p"
+            label="Mobile Number"
+            labelSuffix={cleanEmail ? "(optional if using email)" : "*"}
+            value={phone}
+            onChange={setPhone}
+          />
           <p className="field" style={{ margin: 0 }}>
             <label htmlFor="sl-email-p">Email Address {cleanPhone ? "(optional if using mobile)" : "*"}</label>
             <input id="sl-email-p" type="email" value={email} onChange={(e) => setEmail(e.target.value)}
@@ -685,13 +733,14 @@ function Identify({ onSent, onPasswordOk, onBack, initialPhone = "", initialEmai
   const [mode, setMode] = useState("otp"); // otp | password | signup
   const [phone, setPhone] = useState(initialPhone);
   const [email, setEmail] = useState(initialEmail);
-  const [otpChannel, setOtpChannel] = useState("phone"); // "phone" | "email"
   const [password, setPassword] = useState("");
-  const [name, setName] = useState("");
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const cleanPhone = phone.trim();
+  const digits = phone.replace(/\D/g, "").slice(-10);
+  const cleanPhone = digits ? `+91${digits}` : "";
   const cleanEmail = email.trim().toLowerCase();
 
   const run = async (fn) => {
@@ -704,40 +753,19 @@ function Identify({ onSent, onPasswordOk, onBack, initialPhone = "", initialEmai
   const sendOtp = (e) => {
     e.preventDefault();
     if (loading) return;
-    if (!cleanPhone && !cleanEmail) {
-      setError("Please provide your mobile number or email address.");
+    if (!cleanPhone || !isValidPhone(cleanPhone)) {
+      setError("Please enter a valid 10-digit mobile number.");
       return;
     }
-    const activeChannel = otpChannel === "email" ? (cleanEmail ? "email" : "phone") : (cleanPhone ? "phone" : "email");
     const isTestPhone = cleanPhone && cleanPhone.replace(/\D/g, '').endsWith("7738369376");
 
     run(async () => {
-      if (activeChannel === "phone") {
-        if (!cleanPhone) {
-          setError("Please enter a mobile number to receive OTP via WhatsApp / SMS.");
-          return;
-        }
-        try {
-          await sendFirebasePhoneOtp(cleanPhone, "recaptcha-container");
-          onSent({ phone: cleanPhone, email: cleanEmail, channel: "phone", target: cleanPhone }, isTestPhone ? "882686" : null);
-          return;
-        } catch (fbErr) {
-          console.warn("[firebase:phone] Firebase Phone Auth failed, attempting backend OTP fallback:", fbErr.message || fbErr.code);
-        }
-      } else {
-        if (!cleanEmail) {
-          setError("Please enter an email address to receive OTP.");
-          return;
-        }
-      }
-
+      // Send OTP via backend → WhatsApp Cloud API (Meta)
       const res = await requestOtp({
-        phone: cleanPhone || undefined,
-        email: cleanEmail || undefined,
-        channel: activeChannel,
+        phone: cleanPhone,
+        channel: "phone",
       });
-      const targetVal = activeChannel === "email" ? cleanEmail : cleanPhone;
-      onSent({ phone: cleanPhone, email: cleanEmail, channel: activeChannel, target: targetVal }, res.dev_code || (isTestPhone ? "882686" : null));
+      onSent({ phone: cleanPhone, email: cleanEmail || null, channel: "phone", target: cleanPhone }, res.dev_code || (isTestPhone ? "882686" : null));
     });
   };
 
@@ -746,6 +774,14 @@ function Identify({ onSent, onPasswordOk, onBack, initialPhone = "", initialEmai
     if (loading) return;
     if (!cleanPhone && !cleanEmail) {
       setError("Please provide your mobile number or email address.");
+      return;
+    }
+    if (cleanEmail && !isValidEmail(cleanEmail)) {
+      setError("Please enter a valid email address (e.g. name@domain.com).");
+      return;
+    }
+    if (cleanPhone && !isValidPhone(cleanPhone)) {
+      setError("Please enter a valid 10-digit mobile number.");
       return;
     }
     if (!password) {
@@ -765,20 +801,34 @@ function Identify({ onSent, onPasswordOk, onBack, initialPhone = "", initialEmai
   const signupPassword = (e) => {
     e.preventDefault();
     if (loading) return;
-    if (!cleanPhone && !cleanEmail) {
-      setError("Please provide your mobile number or email address.");
+    if (!isValidName(firstName)) {
+      setError("Please enter a valid first name (letters only, min 2 characters).");
       return;
     }
-    if (!password) {
+    if (!isValidName(lastName)) {
+      setError("Please enter a valid last name (letters only, min 2 characters).");
+      return;
+    }
+    if (!cleanPhone || !isValidPhone(cleanPhone)) {
+      setError("Please enter a valid 10-digit mobile number.");
+      return;
+    }
+    if (cleanEmail && !isValidEmail(cleanEmail)) {
+      setError("Please enter a valid email address (e.g. name@domain.com).");
+      return;
+    }
+    if (!password || password.length < 8) {
       setError("Please set a password of at least 8 characters.");
       return;
     }
     run(async () => {
       await apiSignup({
+        first_name: firstName.trim(),
+        last_name: lastName.trim(),
+        full_name: `${firstName.trim()} ${lastName.trim()}`.trim(),
         email: cleanEmail || undefined,
         phone: cleanPhone || undefined,
         password,
-        full_name: name.trim() || undefined,
       });
       await onPasswordOk();
     });
@@ -787,12 +837,12 @@ function Identify({ onSent, onPasswordOk, onBack, initialPhone = "", initialEmai
   return (
     <WizardShell step={1} steps={5} onBack={onBack}
                  title={mode === "signup" ? "Create an account" : "Welcome to Sunshine"}
-                 sub={mode === "signup" ? "Sign up as a new dealer with phone and email." : "Log in to access your wholesale dealer rates."}>
+                 sub={mode === "signup" ? "Sign up as a new dealer with phone and name." : "Log in to access your wholesale dealer rates."}>
 
       <div className="auth-tabs" role="tablist">
         <button type="button" role="tab" className={`auth-tab-btn ${mode === "otp" ? "active" : ""}`}
                 onClick={() => { setMode("otp"); setError(""); }}>
-          📱 WhatsApp / SMS OTP
+          📱 Mobile OTP
         </button>
         <button type="button" role="tab" className={`auth-tab-btn ${mode === "password" ? "active" : ""}`}
                 onClick={() => { setMode("password"); setError(""); }}>
@@ -807,58 +857,33 @@ function Identify({ onSent, onPasswordOk, onBack, initialPhone = "", initialEmai
       {mode === "otp" ? (
         <form onSubmit={sendOtp} style={{ display: "grid", gap: 10 }}>
           <div className="auth-linked-hint">
-            <span>🔗</span>
+            <span>📱</span>
             <div>
-              <strong>Interconnected Account:</strong> Enter your mobile number and email. Both are linked to your profile and synced to Zoho CRM.
+              <strong>Instant Mobile Sign-in:</strong> Enter your mobile number. We dispatch a 6-digit OTP code directly via WhatsApp or SMS.
             </div>
           </div>
 
-          <p className="field" style={{ margin: 0 }}>
-            <label htmlFor="id-phone">Mobile Number {cleanEmail ? "(optional if using email)" : "*"}</label>
-            <input id="id-phone" type="tel" value={phone} onChange={(e) => setPhone(e.target.value)}
-                   placeholder="+91 98765 43210" autoComplete="tel" />
-          </p>
-
-          <p className="field" style={{ margin: 0 }}>
-            <label htmlFor="id-email">Email Address {cleanPhone ? "(optional if using mobile)" : "*"}</label>
-            <input id="id-email" type="email" value={email} onChange={(e) => setEmail(e.target.value)}
-                   placeholder="dealer@company.com" autoComplete="email" />
-          </p>
-
-          {(cleanPhone && cleanEmail) && (
-            <div>
-              <label style={{ fontSize: "0.82rem", fontWeight: 600, color: "var(--tx-2)", marginBottom: 4, display: "block" }}>
-                Send OTP to:
-              </label>
-              <div className="auth-channel-selector" role="radiogroup">
-                <button type="button" role="radio" aria-checked={otpChannel === "phone"}
-                        className={`auth-channel-option ${otpChannel === "phone" ? "active" : ""}`}
-                        onClick={() => setOtpChannel("phone")}>
-                  📱 WhatsApp / SMS
-                </button>
-                <button type="button" role="radio" aria-checked={otpChannel === "email"}
-                        className={`auth-channel-option ${otpChannel === "email" ? "active" : ""}`}
-                        onClick={() => setOtpChannel("email")}>
-                  ✉️ Email
-                </button>
-              </div>
-            </div>
-          )}
+          <PhoneInputField
+            id="id-phone"
+            label="Mobile Number"
+            labelSuffix="*"
+            value={phone}
+            onChange={setPhone}
+          />
 
           <div className="auth-channels-note">
             <span className="auth-channel-badge">💬 WhatsApp</span>
             <span className="auth-channel-badge">📱 SMS</span>
-            <span className="auth-channel-badge">✉️ Email</span>
           </div>
           {error && <FormError error={error} />}
-          <button className="btn btn-navy btn-block" disabled={loading || (!cleanPhone && !cleanEmail)} style={{ padding: 12, fontSize: "1rem" }}>
+          <button className="btn btn-navy btn-block" disabled={loading || !cleanPhone} style={{ padding: 12, fontSize: "1rem" }}>
             {loading ? "Sending OTP…" : "Send 6-digit OTP"}
           </button>
           <div className="auth-divider">or</div>
-          <GoogleAuthButton onSuccess={onPasswordOk} onError={setError} disabled={loading} label="Continue with Google" phone={phone} email={email} />
+          <GoogleAuthButton onSuccess={onPasswordOk} onError={setError} disabled={loading} label="Continue with Google" phone={cleanPhone} email={email} />
           <div className="secure-note" style={{ marginTop: 6 }}>
             <b>Fast & Passwordless</b>
-            We dispatch an OTP directly to WhatsApp, SMS, or Email to sign you in securely.
+            We dispatch an OTP directly to WhatsApp or SMS to sign you in securely.
           </div>
         </form>
       ) : mode === "password" ? (
@@ -866,15 +891,17 @@ function Identify({ onSent, onPasswordOk, onBack, initialPhone = "", initialEmai
           <div className="auth-linked-hint">
             <span>🔗</span>
             <div>
-              <strong>Interconnected Account:</strong> Enter your mobile number and email. If you previously registered via either one, your existing account will open seamlessly.
+              <strong>Interconnected Account:</strong> Enter your mobile number or email and password to log in.
             </div>
           </div>
 
-          <p className="field" style={{ margin: 0 }}>
-            <label htmlFor="id-phone-p">Mobile Number {cleanEmail ? "(optional if using email)" : "*"}</label>
-            <input id="id-phone-p" type="tel" value={phone} onChange={(e) => setPhone(e.target.value)}
-                   placeholder="+91 98765 43210" autoComplete="tel" />
-          </p>
+          <PhoneInputField
+            id="id-phone-p"
+            label="Mobile Number"
+            labelSuffix={cleanEmail ? "(optional if using email)" : "*"}
+            value={phone}
+            onChange={setPhone}
+          />
 
           <p className="field" style={{ margin: 0 }}>
             <label htmlFor="id-email-p">Email Address {cleanPhone ? "(optional if using mobile)" : "*"}</label>
@@ -892,7 +919,7 @@ function Identify({ onSent, onPasswordOk, onBack, initialPhone = "", initialEmai
             {loading ? "Signing in…" : "Log in"}
           </button>
           <div className="auth-divider">or</div>
-          <GoogleAuthButton onSuccess={onPasswordOk} onError={setError} disabled={loading} label="Continue with Google" phone={phone} email={email} />
+          <GoogleAuthButton onSuccess={onPasswordOk} onError={setError} disabled={loading} label="Continue with Google" phone={cleanPhone} email={email} />
           <p className="note" style={{ textAlign: "center", margin: 0 }}>
             <button type="button" className="link-btn" onClick={() => { setMode("otp"); setError(""); }}>
               Sign in with OTP instead (no password needed)
@@ -902,23 +929,32 @@ function Identify({ onSent, onPasswordOk, onBack, initialPhone = "", initialEmai
       ) : (
         <form onSubmit={signupPassword} style={{ display: "grid", gap: 10 }}>
           <div className="auth-linked-hint">
-            <span>🔗</span>
+            <span>✨</span>
             <div>
-              <strong>Unified Identity:</strong> If you previously registered via phone or email, this will link and open your existing account rather than creating a duplicate.
+              <strong>Create Your Account:</strong> Fill in your details below. You can verify your email post-login for invoices and receipts.
             </div>
           </div>
 
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>
+            <p className="field" style={{ margin: 0 }}>
+              <label htmlFor="su-fname">First name *</label>
+              <input id="su-fname" required value={firstName} onChange={(e) => setFirstName(e.target.value)} placeholder="Rajesh" autoComplete="given-name" />
+            </p>
+            <p className="field" style={{ margin: 0 }}>
+              <label htmlFor="su-lname">Last name *</label>
+              <input id="su-lname" required value={lastName} onChange={(e) => setLastName(e.target.value)} placeholder="Sharma" autoComplete="family-name" />
+            </p>
+          </div>
+
+          <PhoneInputField
+            id="su-phone"
+            label="Mobile Number"
+            labelSuffix="*"
+            value={phone}
+            onChange={setPhone}
+          />
           <p className="field" style={{ margin: 0 }}>
-            <label htmlFor="su-name">Full name</label>
-            <input id="su-name" value={name} onChange={(e) => setName(e.target.value)} placeholder="Rajesh Sharma" />
-          </p>
-          <p className="field" style={{ margin: 0 }}>
-            <label htmlFor="su-phone">Mobile Number {cleanEmail ? "(optional if using email)" : "*"}</label>
-            <input id="su-phone" type="tel" value={phone} onChange={(e) => setPhone(e.target.value)}
-                   placeholder="+91 98765 43210" autoComplete="tel" />
-          </p>
-          <p className="field" style={{ margin: 0 }}>
-            <label htmlFor="su-email">Email Address {cleanPhone ? "(optional if using mobile)" : "*"}</label>
+            <label htmlFor="su-email">Email Address <span style={{ fontWeight: 400, color: "var(--tx-3, #94a3b8)" }}>(optional — verify after login)</span></label>
             <input id="su-email" type="email" value={email} onChange={(e) => setEmail(e.target.value)}
                    placeholder="rajesh@company.com" autoComplete="email" />
           </p>
@@ -928,11 +964,11 @@ function Identify({ onSent, onPasswordOk, onBack, initialPhone = "", initialEmai
                    onChange={(e) => setPassword(e.target.value)} placeholder="•••••••• (min 8 characters)" />
           </p>
           {error && <FormError error={error} />}
-          <button className="btn btn-navy btn-block" disabled={loading || (!cleanPhone && !cleanEmail) || !password} style={{ padding: 12, fontSize: "1rem" }}>
+          <button className="btn btn-navy btn-block" disabled={loading || !cleanPhone || !password || !firstName.trim() || !lastName.trim()} style={{ padding: 12, fontSize: "1rem" }}>
             {loading ? "Creating account…" : "Create account"}
           </button>
           <div className="auth-divider">or</div>
-          <GoogleAuthButton onSuccess={onPasswordOk} onError={setError} disabled={loading} label="Sign up with Google (1-Click)" phone={phone} email={email} />
+          <GoogleAuthButton onSuccess={onPasswordOk} onError={setError} disabled={loading} label="Sign up with Google (1-Click)" phone={cleanPhone} email={email} />
           <p className="note" style={{ textAlign: "center", margin: 0 }}>
             Prefer passwordless? <button type="button" className="link-btn" onClick={() => { setMode("otp"); setError(""); }}>Sign up with Mobile OTP</button>
           </p>
@@ -979,23 +1015,7 @@ function OtpStep({ target, devCode, onVerified, onEdit, onBack }) {
     if (loading || code.length !== 6) return;
     setError(""); setLoading(true);
     try {
-      if (!isEmail && window.confirmationResult) {
-        try {
-          const { idToken } = await verifyFirebasePhoneOtp(code);
-          await firebaseAuthLogin(idToken, targetObj.email || undefined, targetObj.phone || undefined);
-          await onVerified();
-          return;
-        } catch (fbErr) {
-          console.error("[firebase:otp] confirmationResult error:", fbErr);
-          if (fbErr.code === "auth/invalid-verification-code") {
-            throw new Error("Invalid 6-digit verification code. Please check and try again.");
-          }
-          if (fbErr.code === "auth/code-expired") {
-            throw new Error("Verification code expired. Please request a new code.");
-          }
-          throw fbErr;
-        }
-      }
+      // Verify OTP via backend (WhatsApp Cloud API / Meta)
       await verifyOtp({
         phone: targetObj.phone || (!isEmail ? sendTarget : undefined),
         email: targetObj.email || (isEmail ? sendTarget : undefined),
@@ -1012,14 +1032,7 @@ function OtpStep({ target, devCode, onVerified, onEdit, onBack }) {
   const resend = async () => {
     setSecs(25); setError("");
     try {
-      if (!isEmail) {
-        try {
-          await sendFirebasePhoneOtp(sendTarget, "recaptcha-container");
-          return;
-        } catch (fbErr) {
-          console.warn("[firebase:otp] Resend via Firebase failed, falling back to backend:", fbErr.message || fbErr.code);
-        }
-      }
+      // Resend OTP via backend (WhatsApp Cloud API / Meta)
       await requestOtp({
         phone: targetObj.phone || (!isEmail ? sendTarget : undefined),
         email: targetObj.email || (isEmail ? sendTarget : undefined),
@@ -1114,7 +1127,8 @@ const signOutAndReload = async () => { await signOut(); window.location.href = "
 /* OWNER: business details (KYC for dealer approval) */
 function BusinessDetails({ onDone, onBack }) {
   const [form, setForm] = useState({
-    person_name: "",
+    first_name: "",
+    last_name: "",
     business_name: "",
     gst_treatment: "Registered Business - Regular",
     gst_number: "",
@@ -1126,12 +1140,34 @@ function BusinessDetails({ onDone, onBack }) {
 
   const submit = async (e) => {
     e.preventDefault();
-    if (loading || !form.business_name.trim()) return;
+    if (loading) return;
+    if (!form.business_name.trim() || form.business_name.trim().length < 2) {
+      setError("Please enter your business or shop name.");
+      return;
+    }
+    if (!isValidName(form.first_name)) {
+      setError("Please provide a valid first name (letters only, min 2 characters).");
+      return;
+    }
+    if (!isValidName(form.last_name)) {
+      setError("Please provide a valid last name (letters only, min 2 characters).");
+      return;
+    }
+    if (form.gst_treatment.includes("Registered") && (!form.gst_number || !isValidGstin(form.gst_number))) {
+      setError("Please enter a valid 15-character GSTIN (e.g. 27AABCR1234D1Z5).");
+      return;
+    }
+    if (form.pin && !isValidPincode(form.pin)) {
+      setError("Please enter a valid 6-digit PIN code.");
+      return;
+    }
     setError(""); setLoading(true);
     try {
       await applyAsDealer({
         business_name: form.business_name.trim(),
-        person_name: form.person_name.trim() || undefined,
+        first_name: form.first_name.trim() || undefined,
+        last_name: form.last_name.trim() || undefined,
+        person_name: `${form.first_name.trim()} ${form.last_name.trim()}`.trim() || undefined,
         gst_number: form.gst_number.trim() || undefined,
         gst_treatment: form.gst_treatment || undefined,
         address: [form.city.trim(), form.pin.trim()].filter(Boolean).join(" - ") || undefined,
@@ -1146,10 +1182,16 @@ function BusinessDetails({ onDone, onBack }) {
     <WizardShell step={4} steps={5} onBack={onBack} title="Business details"
                  sub="Used for KYC and dealer approval. Automatically synced to Zoho CRM.">
       <form onSubmit={submit} style={{ display: "grid", gap: 10 }}>
-        <p className="field" style={{ margin: 0 }}>
-          <label htmlFor="bd-owner">Owner name</label>
-          <input id="bd-owner" value={form.person_name} onChange={(e) => setForm({ ...form, person_name: e.target.value })} placeholder="Rajesh Sharma" />
-        </p>
+        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>
+          <p className="field" style={{ margin: 0 }}>
+            <label htmlFor="bd-fname">First name *</label>
+            <input id="bd-fname" required value={form.first_name} onChange={(e) => setForm({ ...form, first_name: e.target.value })} placeholder="Rajesh" autoComplete="given-name" />
+          </p>
+          <p className="field" style={{ margin: 0 }}>
+            <label htmlFor="bd-lname">Last name *</label>
+            <input id="bd-lname" required value={form.last_name} onChange={(e) => setForm({ ...form, last_name: e.target.value })} placeholder="Sharma" autoComplete="family-name" />
+          </p>
+        </div>
         <p className="field" style={{ margin: 0 }}>
           <label htmlFor="bd-shop">Business / shop name *</label>
           <input id="bd-shop" required value={form.business_name} onChange={(e) => setForm({ ...form, business_name: e.target.value })} placeholder="Rajesh Appliances" />
@@ -1325,7 +1367,7 @@ function StaffInvite({ onNext, onBack }) {
 
 /* STAFF: details */
 function StaffDetails({ inviteCode, onSent, onBack }) {
-  const [form, setForm] = useState({ full_name: "", phone: "", email: "", password: "" });
+  const [form, setForm] = useState({ first_name: "", last_name: "", phone: "", email: "", password: "" });
   const [show, setShow] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -1333,32 +1375,47 @@ function StaffDetails({ inviteCode, onSent, onBack }) {
   const submit = async (e) => {
     e.preventDefault();
     if (loading) return;
+    if (!form.first_name.trim() || !form.last_name.trim()) {
+      setError("Please provide both first name and last name.");
+      return;
+    }
+    if (!isValidName(form.first_name)) {
+      setError("First name should only contain letters (2-60 characters).");
+      return;
+    }
+    if (!isValidName(form.last_name)) {
+      setError("Last name should only contain letters (2-60 characters).");
+      return;
+    }
+    const digits = form.phone.replace(/\D/g, '').slice(-10);
+    const cleanPhone = digits ? `+91${digits}` : '';
     const cleanEmail = form.email.trim();
-    const cleanPhone = form.phone.trim();
     if (!cleanEmail && !cleanPhone) {
       setError("Please provide either a mobile number or an email.");
       return;
     }
+    if (cleanEmail && !isValidEmail(cleanEmail)) {
+      setError("Please enter a valid email address (e.g. name@domain.com).");
+      return;
+    }
+    if (digits && !isValidPhone(digits)) {
+      setError("Please enter a valid 10-digit Indian mobile number.");
+      return;
+    }
     setError(""); setLoading(true);
     try {
-      await apiStaffSignup({
+      StaffCtx.pendingSignup = {
         email: cleanEmail || undefined,
         phone: cleanPhone || undefined,
         password: form.password,
-        dealer_code: inviteCode, invite_code: inviteCode,
-        full_name: form.full_name.trim() || undefined,
-      });
-      const targetPhone = Boolean(cleanPhone);
+        dealer_code: inviteCode,
+        invite_code: inviteCode,
+        first_name: form.first_name.trim() || undefined,
+        last_name: form.last_name.trim() || undefined,
+        full_name: `${form.first_name.trim()} ${form.last_name.trim()}`.trim() || undefined,
+      };
       const isTestPhone = cleanPhone && cleanPhone.replace(/\D/g, '').endsWith("7738369376");
-      if (targetPhone) {
-        try {
-          await sendFirebasePhoneOtp(cleanPhone, "recaptcha-container");
-          onSent({ phone: cleanPhone, email: cleanEmail, channel: "phone", target: cleanPhone }, isTestPhone ? "882686" : null);
-          return;
-        } catch (fbErr) {
-          console.warn("[firebase:staff-phone] Firebase Phone Auth Error, falling back to backend:", fbErr.message || fbErr.code);
-        }
-      }
+      // Send OTP via backend → WhatsApp Cloud API (Meta)
       const res = await requestOtp({
         phone: cleanPhone || undefined,
         email: cleanEmail || undefined,
@@ -1379,14 +1436,23 @@ function StaffDetails({ inviteCode, onSent, onBack }) {
     <WizardShell step={2} steps={5} onBack={onBack} title="Your details"
                  sub={StaffCtx.businessName ? `Join ${StaffCtx.businessName} team` : "Create your staff account."}>
       <form onSubmit={submit} style={{ display: "grid", gap: 10 }}>
-        <p className="field" style={{ margin: 0 }}>
-          <label htmlFor="sd-name">Full name</label>
-          <input id="sd-name" value={form.full_name} onChange={(e) => setForm({ ...form, full_name: e.target.value })} placeholder="Amit Sharma" />
-        </p>
-        <p className="field" style={{ margin: 0 }}>
-          <label htmlFor="sd-phone">Mobile number</label>
-          <input id="sd-phone" type="tel" value={form.phone} onChange={(e) => setForm({ ...form, phone: e.target.value })} placeholder="+91 98765 43210" />
-        </p>
+        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>
+          <p className="field" style={{ margin: 0 }}>
+            <label htmlFor="sd-fname">First name *</label>
+            <input id="sd-fname" required value={form.first_name} onChange={(e) => setForm({ ...form, first_name: e.target.value })} placeholder="Amit" autoComplete="given-name" />
+          </p>
+          <p className="field" style={{ margin: 0 }}>
+            <label htmlFor="sd-lname">Last name *</label>
+            <input id="sd-lname" required value={form.last_name} onChange={(e) => setForm({ ...form, last_name: e.target.value })} placeholder="Sharma" autoComplete="family-name" />
+          </p>
+        </div>
+        <PhoneInputField
+          id="sd-phone"
+          label="Mobile number"
+          labelSuffix={form.email.trim() ? "(optional)" : "*"}
+          value={form.phone}
+          onChange={(val) => setForm({ ...form, phone: val })}
+        />
         <p className="field" style={{ margin: 0 }}>
           <label htmlFor="sd-email">Email {form.phone.trim() ? "(optional)" : "*"}</label>
           <input id="sd-email" type="email" required={!form.phone.trim()} value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} placeholder="amit@company.com" />

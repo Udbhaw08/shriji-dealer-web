@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **route-journey.test.mjs** (7 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
+- **story-carrier.test.mjs** (7 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/route-journey.test.mjs`
+- `.agents/skills/archify/test/story-carrier.test.mjs`
 
 ## Audit Trail
 

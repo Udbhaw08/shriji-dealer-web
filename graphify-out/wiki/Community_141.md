@@ -4,28 +4,28 @@
 
 ## Key Concepts
 
-- **entries** (4 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **legend** (4 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **properties** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **mode** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **properties** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **Shriji Backend Skill** (9 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Commands** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Environment (backend/.env — never committed)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Frontend Integration (built)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Hard Rules** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Key Files (populated as built)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Ownership Rule (invariant)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Pending Seam — price proxy switch (do when backend is deployed)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Stack Record — what was chosen, do not substitute** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
 
 ## Relationships
 
-- [[Community 56]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `.agents/skills/shriji-backend/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

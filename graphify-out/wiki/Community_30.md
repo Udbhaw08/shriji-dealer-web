@@ -1,55 +1,47 @@
 # Community 30
 
-> 41 nodes · cohesion 0.08
+> 40 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **reject()** (22 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **dc()** (17 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **verify()** (9 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **directlySetCurrentUser()** (8 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **initializeCurrentUser()** (8 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **render()** (7 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **setPersistence()** (7 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **_setRedirectUser()** (7 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **signOut()** (7 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **_fromGetAccountInfoResponse()** (6 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **getCurrentUser()** (6 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **getOrInitRedirectPersistenceManager()** (6 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **onAuthEvent()** (6 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **queue()** (6 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **reset()** (6 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **runMiddleware()** (6 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **updateCurrentUser()** (6 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **assertNotDestroyed()** (5 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **removeCurrentUser()** (5 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **setCurrentUser()** (5 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **cancel()** (4 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **_clone()** (4 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **componentDidCatch()** (4 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **getAssertedRecaptcha()** (4 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- **initializeCurrentUserFromIdToken()** (4 connections) — `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
-- *... and 16 more nodes in this community*
+- **webm-artifact.smoke.mjs** (39 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **navigateReady()** (12 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **evaluate()** (11 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **delay()** (7 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **withTimeout()** (7 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **verifyArchitectureDeltaNavigator()** (5 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **captureCopiedShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **captureReachShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **captureRouteShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **captureRouteVisualMatrix()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **captureShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **verifyDynamicReducedMotionRoute()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **verifyResolvedLegendContract()** (3 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **verifySemanticPassportDismissal()** (3 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **devtoolsEndpoint()** (2 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **removeTempTree()** (2 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **waitForExit()** (2 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **chrome** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **chromeProcess** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **connectCdp()** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **executable()** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **ffmpeg** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **freePort()** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **input** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (55 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (18 shared connections)
-- [[Vercel Deployment Routing]] (7 shared connections)
-- [[Client Products Data Store]] (7 shared connections)
-- [[Graphify Workflow]] (5 shared connections)
-- [[Product Brand & Business Vision]] (5 shared connections)
-- [[Pricing & Roles Skill]] (3 shared connections)
-- [[Product Requirements Documentation]] (2 shared connections)
-- [[Community 41]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BlyMIx9J.js`
+- `.agents/skills/archify/test/webm-artifact.smoke.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 227 (100%)
+- EXTRACTED: 140 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

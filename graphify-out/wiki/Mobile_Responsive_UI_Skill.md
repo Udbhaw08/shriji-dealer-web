@@ -1,14 +1,15 @@
 # Mobile Responsive UI Skill
 
-> 49 nodes · cohesion 0.10
+> 49 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **render-sequence.mjs** (67 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **render-lifecycle.mjs** (81 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
 - **esc()** (31 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
 - **escapeHtml()** (26 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
 - **animateAttr()** (16 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
 - **focusEdgeAttrs()** (15 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **labelPoint()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
 - **renderBrandMark()** (14 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 - **renderNode()** (13 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
 - **renderState()** (13 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
@@ -28,20 +29,21 @@
 - **renderMessage()** (8 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
 - **brandMarkFor()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 - **messageLabel()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **arrowClassMap** (6 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
 - *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [[Pricing Regression Test Suite]] (49 shared connections)
-- [[Community 45]] (27 shared connections)
-- [[Product Pages Specification]] (25 shared connections)
-- [[Community 44]] (24 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (21 shared connections)
+- [[Pricing Regression Test Suite]] (45 shared connections)
+- [[Community 35]] (42 shared connections)
+- [[Community 39]] (35 shared connections)
+- [[Graphify Knowledge Graph Skill]] (21 shared connections)
 - [[Community 73]] (14 shared connections)
-- [[Zoho Integration Skill]] (8 shared connections)
-- [[Community 53]] (5 shared connections)
-- [[Community 74]] (2 shared connections)
+- [[Community 91]] (12 shared connections)
+- [[Roles & Customer Sharing Spec]] (11 shared connections)
+- [[Testing & Workflow Skill]] (7 shared connections)
+- [[Community 125]] (3 shared connections)
+- [[Community 48]] (2 shared connections)
+- [[Community 75]] (2 shared connections)
 
 ## Source Files
 
@@ -59,8 +61,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 378 (90%)
-- INFERRED: 43 (10%)
+- EXTRACTED: 406 (90%)
+- INFERRED: 44 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

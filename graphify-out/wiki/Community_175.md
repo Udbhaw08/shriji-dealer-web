@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **landing.test.mjs** (7 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **docsRoot** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **landing** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **manifest** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **proofs** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
+- **route-journey.test.mjs** (7 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/landing.test.mjs`
+- `.agents/skills/archify/test/route-journey.test.mjs`
 
 ## Audit Trail
 

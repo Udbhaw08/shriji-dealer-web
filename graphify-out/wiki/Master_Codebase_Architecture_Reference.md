@@ -1,57 +1,55 @@
 # Master Codebase Architecture Reference
 
-> 77 nodes · cohesion 0.07
+> 87 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **pl()** (39 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **n()** (28 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **c()** (23 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **gt()** (21 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **M()** (20 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **rl()** (19 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **Ca()** (18 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **qa()** (18 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **cl()** (17 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **jc()** (17 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **warn()** (16 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **ra()** (15 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **Ui()** (15 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **ia()** (13 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **ul()** (13 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **O()** (12 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **qc()** (12 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **yt()** (12 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **el()** (11 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **wa()** (11 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **ba()** (10 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **fl()** (10 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **ku()** (10 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **l()** (10 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **pa()** (10 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- *... and 52 more nodes in this community*
+- **D()** (24 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **ht()** (22 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **ip()** (14 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **on()** (14 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **Ct()** (13 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **vt()** (13 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **ae()** (12 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **O()** (12 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **rf()** (12 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **tp()** (12 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **zd()** (12 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **Ai()** (11 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **lf()** (11 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **vn()** (11 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **df()** (10 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **te()** (10 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **tn()** (10 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **xt()** (10 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **yh()** (10 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **ff()** (9 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **hh()** (9 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **k()** (9 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **ke()** (9 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **ln()** (9 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **mt()** (9 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- *... and 62 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (84 shared connections)
-- [[Oxlint Linter Configuration]] (48 shared connections)
-- [[Zoho API Diagnostic Script]] (36 shared connections)
-- [[Design System & UI Tokens]] (34 shared connections)
-- [[Dependencies & Package Config]] (32 shared connections)
-- [[Claude Agent Instructions]] (24 shared connections)
-- [[Architecture Doc Generator]] (13 shared connections)
-- [[Community 39]] (13 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (12 shared connections)
-- [[Community 48]] (3 shared connections)
-- [[Community 76]] (2 shared connections)
+- [[Dealer Auth & Session Management]] (101 shared connections)
+- [[Dependencies & Package Config]] (46 shared connections)
+- [[Community 41]] (17 shared connections)
+- [[Product Brand & Business Vision]] (16 shared connections)
+- [[Community 37]] (15 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (13 shared connections)
+- [[Client Products Data Store]] (12 shared connections)
+- [[Vercel Deployment Routing]] (10 shared connections)
+- [[Community 29]] (10 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BlyMIx9J.js`
+- `ios/App/App/public/assets/index-BW8OD3MU.js`
 
 ## Audit Trail
 
-- EXTRACTED: 689 (100%)
+- EXTRACTED: 614 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

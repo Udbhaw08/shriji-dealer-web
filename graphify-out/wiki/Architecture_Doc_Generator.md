@@ -1,57 +1,56 @@
 # Architecture Doc Generator
 
-> 58 nodes · cohesion 0.06
+> 56 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **delete()** (31 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **.removeEventListener()** (18 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **resolve()** (18 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **b()** (17 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **h()** (15 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **fp()** (13 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **em()** (9 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **request()** (9 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **tm()** (9 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **close()** (7 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **.addEventListener()** (7 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **lp()** (7 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **v()** (7 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **fetch()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **.blur()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **.scrollIntoView()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **g()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **ol()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **pm()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **put()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **removeListener()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **Rp()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **te()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **_withRetries()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **Yp()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- *... and 33 more nodes in this community*
+- **zoho.js** (34 connections) — `api/zoho.js`
+- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
+- **fetchZohoProductById()** (13 connections) — `api/zoho.js`
+- **fetchZohoProducts()** (12 connections) — `api/zoho.js`
+- **fetchZohoWithRetry()** (11 connections) — `api/zoho.js`
+- **getZohoConfig()** (11 connections) — `api/zoho.js`
+- **createDealerContact()** (9 connections) — `api/zoho.js`
+- **findDealerByPhone()** (9 connections) — `api/zoho.js`
+- **vite.config.js** (9 connections) — `vite.config.js`
+- **getDealerById()** (8 connections) — `api/zoho.js`
+- **fetchZohoCategories()** (7 connections) — `api/zoho.js`
+- **getAccessToken()** (7 connections) — `api/zoho.js`
+- **zohoApiPlugin()** (7 connections) — `vite.config.js`
+- **fetchZohoPricebookItems()** (6 connections) — `api/zoho.js`
+- **normalizeProduct()** (5 connections) — `api/zoho.js`
+- **resolvePricebookId()** (5 connections) — `api/zoho.js`
+- **fetchZohoPricebooks()** (4 connections) — `api/zoho.js`
+- **loadEnv()** (4 connections) — `api/zoho.js`
+- **index.js** (4 connections) — `api/products/index.js`
+- **test-zoho-api.mjs** (4 connections) — `scripts/test-zoho-api.mjs`
+- **og.js** (3 connections) — `api/og.js`
+- **apply.js** (3 connections) — `api/dealer/apply.js`
+- **info.js** (3 connections) — `api/dealer/info.js`
+- **login.js** (3 connections) — `api/dealer/login.js`
+- **[id].js** (3 connections) — `api/products/[id].js`
+- *... and 31 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (62 shared connections)
-- [[Dependencies & Package Config]] (21 shared connections)
-- [[Oxlint Linter Configuration]] (14 shared connections)
-- [[Master Codebase Architecture Reference]] (13 shared connections)
-- [[Design System & UI Tokens]] (11 shared connections)
-- [[Zoho API Diagnostic Script]] (10 shared connections)
-- [[Community 39]] (9 shared connections)
-- [[Community 48]] (7 shared connections)
-- [[Community 76]] (5 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (3 shared connections)
-- [[Claude Agent Instructions]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BlyMIx9J.js`
+- `api/dealer/apply.js`
+- `api/dealer/info.js`
+- `api/dealer/login.js`
+- `api/og.js`
+- `api/products/[id].js`
+- `api/products/index.js`
+- `api/zoho.js`
+- `scripts/audit_prices.mjs`
+- `scripts/test-zoho-api.mjs`
+- `vite.config.js`
 
 ## Audit Trail
 
-- EXTRACTED: 349 (100%)
+- EXTRACTED: 242 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

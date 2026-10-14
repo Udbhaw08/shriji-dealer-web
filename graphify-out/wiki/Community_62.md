@@ -1,52 +1,53 @@
 # Community 62
 
-> 23 nodes · cohesion 0.13
+> 23 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **preview.mjs** (23 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **startPreview()** (10 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **open-artifact.mjs** (7 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **openLoopbackUrl()** (5 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **open-artifact.test.mjs** (5 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
-- **launchTarget()** (4 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **openArtifact()** (4 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **runPreview()** (3 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **compactMessage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **initialAuthoredOutput()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **previewPage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **redactDiagnostic()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **sha256()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **sourceDigest()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **spawn()** (2 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
-- **OPENERS** (1 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **cliPath** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **diagramTypes** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **here** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **parseReceipt()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **responseHeaders()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **safeJson()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **target** (1 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
+- **dc()** (19 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **fc()** (14 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **l()** (14 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **yo()** (12 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **Ai()** (11 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **Gi()** (11 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **jd()** (10 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **Mi()** (9 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **ec()** (8 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **ki()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **bo()** (6 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **cc()** (6 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **dh()** (6 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **ic()** (6 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **Oi()** (6 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **vo()** (6 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **ji()** (5 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **uh()** (5 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **pf()** (4 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **uc()** (4 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **ac()** (3 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **Ym()** (3 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **ze()** (3 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
 
 ## Relationships
 
-- [[Community 37]] (4 shared connections)
-- [[Community 89]] (3 shared connections)
-- [[Community 165]] (2 shared connections)
-- [[Community 148]] (2 shared connections)
-- [[Community 205]] (2 shared connections)
-- [[Community 169]] (2 shared connections)
+- [[Price Presentation & Product UI]] (27 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (25 shared connections)
+- [[Zoho Integration Architecture]] (12 shared connections)
+- [[Zoho Integration Skill]] (12 shared connections)
+- [[Product Pages Specification]] (11 shared connections)
+- [[Design System & UI Tokens]] (9 shared connections)
+- [[Graphify Workflow]] (4 shared connections)
+- [[Community 38]] (4 shared connections)
+- [[Community 31]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/open-artifact.mjs`
-- `.agents/skills/archify/bin/preview.mjs`
-- `.agents/skills/archify/test/open-artifact.test.mjs`
+- `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
 
 ## Audit Trail
 
-- EXTRACTED: 79 (95%)
-- INFERRED: 4 (5%)
+- EXTRACTED: 178 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

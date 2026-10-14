@@ -256,6 +256,21 @@ export async function verifyOtp(payload) {
   return applyAuthResponse(await callBackend("/api/auth/otp/verify", json(payload)));
 }
 
+export async function requestEmailOtp(email) {
+  const res = await callBackend("/api/auth/email/request-otp", json({ email }));
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.error || "Could not send verification OTP to email");
+  return data;
+}
+
+export async function verifyEmailOtp(email, code) {
+  const res = await callBackend("/api/auth/email/verify-otp", json({ email, code }));
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.error || "Could not verify email OTP");
+  broadcastAuthChange("EMAIL_VERIFIED");
+  return data;
+}
+
 export async function fetchMe() {
   const res = await callBackend("/api/auth/me");
   if (res.status === 401) return null;
@@ -421,7 +436,10 @@ export function sessionFromAuth(user, dealer) {
           hide_staff_dealer_price: Boolean(dealer.hide_staff_dealer_price),
         }
       : null,
-    email: user.email,
+    email: user.email || null,
+    email_verified: Boolean(user.email_verified),
+    phone: user.phone || null,
+    fullName: user.full_name || null,
     userId: user.id,
     authRole: user.role, // customer | dealer | dealer_staff — the backend's real role
     staffPending: user.role === "dealer_staff" && user.status === "pending",

@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **web-BvPTzfRW.js** (8 connections) — `ios/App/App/public/assets/web-BvPTzfRW.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-BvPTzfRW.js`
-- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-BvPTzfRW.js`
-- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-BvPTzfRW.js`
-- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-BvPTzfRW.js`
-- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-BvPTzfRW.js`
-- **getState()** (1 connections) — `ios/App/App/public/assets/web-BvPTzfRW.js`
-- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-BvPTzfRW.js`
-- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-BvPTzfRW.js`
+- **Shriji Pricing & Roles Skill** (5 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **User Roles & View Modes** (4 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **1. Guest View (Public)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **2. Dealer View (Authenticated)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **3. Customer Shared View (`?from=<dealer_id>`)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **Key Files** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **Schemes Logic** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **Zero-Price Handling** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-BvPTzfRW.js`
+- `.agents/skills/shriji-pricing-and-roles/SKILL.md`
 
 ## Audit Trail
 

@@ -1,51 +1,41 @@
 # Community 76
 
-> 20 nodes · cohesion 0.15
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **kf()** (19 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **_getIdTokenResponse()** (7 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **_getReauthenticationResolver()** (7 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **Gp()** (7 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **pp()** (7 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **_linkToIdToken()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **Xf()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **of()** (5 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **xr()** (5 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **ar()** (4 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **_buildIdpRequest()** (4 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **buildRequest()** (4 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **_makeVerificationRequest()** (4 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **qf()** (4 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **Sr()** (4 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **Tr()** (3 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **wr()** (3 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **Dr()** (2 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **ir()** (2 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **zn()** (2 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
+- **PRODUCT-PAGES.md — listing, detail, and dealer pricing** (9 connections) — `docs/PRODUCT-PAGES.md`
+- **4. Product listing — `/products`, `src/pages/Products.jsx`** (6 connections) — `docs/PRODUCT-PAGES.md`
+- **6. Product detail — `/products/:id`, `src/pages/Product.jsx`** (6 connections) — `docs/PRODUCT-PAGES.md`
+- **PRODUCT-PAGES.md** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **1. Price visibility — the rule everything else follows** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **2. The pricing module — `src/data/dealer.js`** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **3. `<PriceBlock>` — `src/components/PriceBlock.jsx`** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **5. Product card — `src/components/ProductCard.jsx`** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **7. What is deliberately not here** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **8. Files touched on 2026-09-20** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Below the whole grid** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Filters and facets** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Left column** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Pagination** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Responsive behaviour** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Right column** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Share with Customer** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Sort** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Structure** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Tabs** (1 connections) — `docs/PRODUCT-PAGES.md`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (20 shared connections)
-- [[Design System & UI Tokens]] (6 shared connections)
-- [[Architecture Doc Generator]] (5 shared connections)
-- [[Oxlint Linter Configuration]] (3 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (3 shared connections)
-- [[Master Codebase Architecture Reference]] (2 shared connections)
-- [[Dependencies & Package Config]] (2 shared connections)
-- [[Community 48]] (2 shared connections)
-- [[Claude Agent Instructions]] (2 shared connections)
-- [[Community 39]] (1 shared connections)
-- [[Zoho API Diagnostic Script]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BlyMIx9J.js`
+- `docs/PRODUCT-PAGES.md`
 
 ## Audit Trail
 
-- EXTRACTED: 105 (100%)
+- EXTRACTED: 38 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

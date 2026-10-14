@@ -1,57 +1,55 @@
 # Design System & UI Tokens
 
-> 75 nodes · cohesion 0.05
+> 77 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **D()** (18 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **E()** (18 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **kn()** (13 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **ln()** (13 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **rf()** (13 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **df()** (12 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **pf()** (12 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **tf()** (12 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **wt()** (12 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **oe()** (11 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **Cn()** (10 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **hn()** (10 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **ip()** (10 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **tp()** (10 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **Ut()** (10 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **af()** (9 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **ff()** (9 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **Kt()** (9 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **nf()** (9 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **ae()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **ah()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **bn()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **bt()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **dn()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **ft()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- *... and 50 more nodes in this community*
+- **delete()** (29 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **reject()** (20 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **mc()** (17 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **Yd()** (17 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **Id()** (15 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **Mp()** (14 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **getIdToken()** (13 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **Vd()** (13 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **Fd()** (12 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **qd()** (12 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **Q()** (11 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **hf()** (10 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **uf()** (10 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **Wf()** (9 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **Bd()** (8 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **directlySetCurrentUser()** (8 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **ft()** (8 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **initializeCurrentUser()** (8 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **getCurrentUser()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **Ld()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **setPersistence()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **_setRedirectUser()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **signOut()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **Di()** (6 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **_fromGetAccountInfoResponse()** (6 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- *... and 52 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (79 shared connections)
-- [[Master Codebase Architecture Reference]] (34 shared connections)
-- [[Dependencies & Package Config]] (24 shared connections)
-- [[Zoho API Diagnostic Script]] (19 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (16 shared connections)
-- [[Community 39]] (12 shared connections)
-- [[Architecture Doc Generator]] (11 shared connections)
-- [[Oxlint Linter Configuration]] (11 shared connections)
-- [[Claude Agent Instructions]] (7 shared connections)
-- [[Community 76]] (6 shared connections)
-- [[Community 48]] (1 shared connections)
+- [[Price Presentation & Product UI]] (97 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (28 shared connections)
+- [[Product Pages Specification]] (25 shared connections)
+- [[Zoho Integration Architecture]] (16 shared connections)
+- [[Community 31]] (14 shared connections)
+- [[Zoho Integration Skill]] (10 shared connections)
+- [[Community 62]] (9 shared connections)
+- [[Community 38]] (4 shared connections)
+- [[Graphify Workflow]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BlyMIx9J.js`
+- `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
 
 ## Audit Trail
 
-- EXTRACTED: 504 (100%)
+- EXTRACTED: 477 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

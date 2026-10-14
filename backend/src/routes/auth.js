@@ -12,8 +12,13 @@ import { env } from '../config/env.js';
 import { log } from '../utils/logger.js';
 import * as crm from '../services/crmClient.js';
 import { resolvePricebookId } from '../services/commerceClient.js';
+import { normalizePhone } from '../utils/phone.js';
+import { isValidEmail, normalizeEmail, isValidPhone, isValidName, cleanName } from '../utils/validators.js';
+import { applyCrmAccountState } from '../services/dealerApp.js';
 
 export const authRouter = Router();
+
+const lastCrmSyncByDealerId = new Map();
 
 const OTP_TTL_MINUTES = 10;
 const OTP_MAX_ATTEMPTS = 5;
@@ -83,7 +88,7 @@ export async function resolveUserWithDealer(u) {
   return u;
 }
 
-export async function linkUserIdentifiers(u, { email, phone }) {
+export async function linkUserIdentifiers(u, { email, phone, syncCrm = false }) {
   if (!u) return u;
   const cleanEmail = email ? String(email).trim().toLowerCase() : null;
   const cleanPhone = phone ? String(phone).trim() : null;
@@ -113,17 +118,22 @@ export async function linkUserIdentifiers(u, { email, phone }) {
     }
   }
 
-  // 3. Sync to Zoho CRM Contact and Account if configured
-  if (changed && crm.isCrmConfigured()) {
+  // 3. Sync to Zoho CRM Contact and Account ONLY if explicitly requested (e.g. signup/application, never on login)
+  if (syncCrm && changed && crm.isCrmConfigured()) {
     try {
       if (u.zoho_contact_id) {
+        const norm = normalizePhone(u.phone);
         await crm.crmFetch('/Contacts', {
           method: 'PUT',
           body: {
             data: [{
               id: u.zoho_contact_id,
               ...(u.email ? { Email: u.email } : {}),
-              ...(u.phone ? { Phone: u.phone, Mobile: u.phone } : {}),
+              ...(norm.nationalNumber ? {
+                Phone: norm.nationalNumber,
+                Mobile: norm.nationalNumber,
+                [crm.FIELDS.contact.countryCode()]: norm.countryCode,
+              } : {}),
             }],
           },
         });
@@ -133,13 +143,14 @@ export async function linkUserIdentifiers(u, { email, phone }) {
       if (u.dealer_id) {
         const [dInfo] = await sql`select zoho_account_id from dealers where id = ${u.dealer_id}`;
         if (dInfo?.zoho_account_id) {
+          const norm = normalizePhone(u.phone);
           await crm.crmFetch('/Accounts', {
             method: 'PUT',
             body: {
               data: [{
                 id: dInfo.zoho_account_id,
                 ...(u.email ? { Email: u.email } : {}),
-                ...(u.phone ? { Phone: u.phone } : {}),
+                ...(norm.nationalNumber ? { Phone: norm.nationalNumber } : {}),
               }],
             },
           });
@@ -248,17 +259,35 @@ export function parseIdentifier(input) {
 /* POST /api/auth/signup — register via Email, Phone, or Both (links existing account if found). */
 authRouter.post('/signup', strictLimit, async (req, res, next) => {
   try {
-    const { email, phone, identifier, password, full_name } = req.body || {};
+    const { email, phone, identifier, password, full_name, first_name, last_name } = req.body || {};
     const parsed = parseIdentifier(identifier);
-    const cleanEmail = email ? String(email).trim().toLowerCase() : parsed.email;
-    const cleanPhone = phone ? String(phone).trim() : parsed.phone;
+    const rawEmail = (email ? String(email).trim().toLowerCase() : parsed.email) || null;
+    const rawPhone = (phone ? String(phone).trim() : parsed.phone) || null;
 
-    if (!cleanEmail && !cleanPhone) {
+    if (!rawEmail && !rawPhone) {
       throw httpError(400, 'Mobile number or Email is required');
+    }
+    if (rawEmail && !isValidEmail(rawEmail)) {
+      throw httpError(400, 'Please enter a valid email address (e.g. name@domain.com)');
+    }
+    if (rawPhone && !isValidPhone(rawPhone)) {
+      throw httpError(400, 'Please enter a valid 10-digit mobile number');
+    }
+    if (first_name && !isValidName(first_name)) {
+      throw httpError(400, 'First name should contain letters only (min 2 characters)');
+    }
+    if (last_name && !isValidName(last_name)) {
+      throw httpError(400, 'Last name should contain letters only (min 2 characters)');
     }
     if (!password || String(password).length < 8) {
       throw httpError(400, 'A password of at least 8 characters is required');
     }
+
+    const cleanEmail = rawEmail ? normalizeEmail(rawEmail) : null;
+    const cleanPhone = rawPhone;
+    const cleanFirst = first_name ? cleanName(first_name) : null;
+    const cleanLast = last_name ? cleanName(last_name) : null;
+    const finalFullName = full_name ? cleanName(full_name) : ([cleanFirst, cleanLast].filter(Boolean).join(' ') || null);
 
     // Interconnection check: if user already exists by phone OR email
     let user = await findUserByIdentifier({ email: cleanEmail, phone: cleanPhone });
@@ -270,11 +299,11 @@ authRouter.post('/signup', strictLimit, async (req, res, next) => {
         if (!user.password_hash) {
           await sql`update users set password_hash = ${await hashPassword(String(password))} where id = ${user.id}`;
         }
-        if (full_name && !user.full_name) {
-          await sql`update users set full_name = ${String(full_name).trim()} where id = ${user.id}`;
-          user.full_name = String(full_name).trim();
+        if (finalFullName && !user.full_name) {
+          await sql`update users set full_name = ${finalFullName} where id = ${user.id}`;
+          user.full_name = finalFullName;
         }
-        user = await linkUserIdentifiers(user, { email: cleanEmail, phone: cleanPhone });
+        user = await linkUserIdentifiers(user, { email: cleanEmail, phone: cleanPhone, syncCrm: false });
         await audit(user.id, 'auth.signup_interconnected', 'user', user.id);
         return res.status(200).json({ user: publicUser(user), ...(await issueSession(user)) });
       }
@@ -284,7 +313,7 @@ authRouter.post('/signup', strictLimit, async (req, res, next) => {
     const [newUser] = await sql`
       insert into users (email, phone, password_hash, full_name, role, status, email_verified)
       values (${cleanEmail || null}, ${cleanPhone || null}, ${await hashPassword(String(password))},
-              ${full_name ? String(full_name).trim() : null}, 'customer', 'active', false)
+              ${finalFullName || null}, 'customer', 'active', false)
       returning *`;
     user = newUser;
 
@@ -293,7 +322,7 @@ authRouter.post('/signup', strictLimit, async (req, res, next) => {
   } catch (err) { next(err); }
 });
 
-/* POST /api/auth/login — log in via Email or Mobile number + Password (auto-links missing field). */
+/* POST /api/auth/login — log in via Email or Mobile number + Password (auto-links missing field, NO CRM creation/sync on login). */
 authRouter.post('/login', strictLimit, async (req, res, next) => {
   try {
     const { email, phone, identifier, password } = req.body || {};
@@ -312,8 +341,8 @@ authRouter.post('/login', strictLimit, async (req, res, next) => {
     const ok = user ? await verifyPassword(String(password), user.password_hash || '') : false;
     if (!ok) throw httpError(401, 'Invalid mobile number/email or password');
 
-    // Auto-link any provided identifier not currently saved on this user
-    user = await linkUserIdentifiers(user, { email: targetEmail, phone: targetPhone });
+    // Auto-link any provided identifier not currently saved on this user (NO CRM sync on login)
+    user = await linkUserIdentifiers(user, { email: targetEmail, phone: targetPhone, syncCrm: false });
 
     await audit(user.id, 'auth.login', 'user', user.id);
     res.json(await issueSession(user));
@@ -535,15 +564,16 @@ authRouter.post('/otp/verify', strictLimit, async (req, res, next) => {
     let user = await findUserByIdentifier({ email: targetEmail, phone: targetPhone });
 
     if (!user) {
-      // Auto-register new user with both email and phone!
+      // Auto-register new user with verified identifier
       const [newUser] = await sql`
         insert into users (email, phone, role, status, email_verified)
-        values (${targetEmail || null}, ${targetPhone || null}, 'customer', 'active', true)
+        values (${targetEmail || null}, ${targetPhone || null}, 'customer', 'active', ${Boolean(targetEmail)})
         returning *`;
       user = newUser;
       await audit(user.id, 'auth.otp_signup', 'user', user.id);
     } else {
-      user = await linkUserIdentifiers(user, { email: targetEmail, phone: targetPhone });
+      // Login: auto-link missing identifier locally, NEVER call CRM on login
+      user = await linkUserIdentifiers(user, { email: targetEmail, phone: targetPhone, syncCrm: false });
       await audit(user.id, 'auth.otp_verified', 'user', user.id);
     }
 
@@ -598,20 +628,33 @@ authRouter.post('/staff/lookup-code', strictLimit, async (req, res, next) => {
 /* POST /api/auth/staff/signup — staff register via Dealer Code or invite code. */
 authRouter.post('/staff/signup', strictLimit, async (req, res, next) => {
   try {
-    const { email, password, invite_code, dealer_code, code, full_name, phone } = req.body || {};
+    const { email, password, invite_code, dealer_code, code, full_name, first_name, last_name, phone } = req.body || {};
     const inputCode = String(dealer_code || code || invite_code || '').trim();
     const formattedCode = formatLoginCode(inputCode);
     const cleanEmail = email ? String(email).trim().toLowerCase() : null;
     const cleanPhone = phone ? String(phone).trim() : null;
+    const finalFullName = full_name || [first_name, last_name].filter(Boolean).join(' ') || null;
 
     if ((!cleanEmail && !cleanPhone) || !password || String(password).length < 8 || !inputCode) {
       throw httpError(400, 'Mobile number or Email, password (8+ chars) and Dealer Code are required');
+    }
+    if (cleanEmail && !isValidEmail(cleanEmail)) {
+      throw httpError(400, 'Please enter a valid email address (e.g. name@domain.com)');
+    }
+    if (cleanPhone && !isValidPhone(cleanPhone)) {
+      throw httpError(400, 'Please enter a valid 10-digit mobile number');
+    }
+    if (first_name && !isValidName(first_name)) {
+      throw httpError(400, 'First name should contain letters only (min 2 characters)');
+    }
+    if (last_name && !isValidName(last_name)) {
+      throw httpError(400, 'Last name should contain letters only (min 2 characters)');
     }
     let existingPendingUser = null;
     if (cleanEmail) {
       const dupe = await sql`select id, role, status from users where email = ${cleanEmail}`;
       if (dupe[0]) {
-        if (dupe[0].role === 'dealer_staff' && dupe[0].status === 'pending') {
+        if ((dupe[0].role === 'dealer_staff' && dupe[0].status === 'pending') || dupe[0].role === 'customer') {
           existingPendingUser = dupe[0];
         } else {
           throw httpError(409, 'Email already registered');
@@ -621,7 +664,7 @@ authRouter.post('/staff/signup', strictLimit, async (req, res, next) => {
     if (cleanPhone) {
       const dupe = await sql`select id, role, status from users where phone = ${cleanPhone}`;
       if (dupe[0]) {
-        if (dupe[0].role === 'dealer_staff' && dupe[0].status === 'pending') {
+        if ((dupe[0].role === 'dealer_staff' && dupe[0].status === 'pending') || dupe[0].role === 'customer') {
           existingPendingUser = dupe[0];
         } else {
           throw httpError(409, 'Mobile number already registered');
@@ -668,10 +711,12 @@ authRouter.post('/staff/signup', strictLimit, async (req, res, next) => {
       const [updated] = await sql`
         update users
         set password_hash = ${await hashPassword(String(password))},
-            full_name = ${full_name ? String(full_name).trim() : null},
+            full_name = ${finalFullName ? String(finalFullName).trim() : null},
+            role = 'dealer_staff',
+            status = 'pending',
             dealer_id = ${targetDealerId},
-            email = ${cleanEmail || null},
-            phone = ${cleanPhone || null}
+            email = coalesce(${cleanEmail || null}, email),
+            phone = coalesce(${cleanPhone || null}, phone)
         where id = ${existingPendingUser.id}
         returning *`;
       user = updated;
@@ -680,7 +725,7 @@ authRouter.post('/staff/signup', strictLimit, async (req, res, next) => {
         insert into users (email, phone, password_hash, full_name, role, status, dealer_id)
         values (${cleanEmail || null}, ${cleanPhone || null},
                 ${await hashPassword(String(password))},
-                ${full_name ? String(full_name).trim() : null},
+                ${finalFullName ? String(finalFullName).trim() : null},
                 'dealer_staff', 'pending', ${targetDealerId})
         returning *`;
       user = inserted;
@@ -691,41 +736,15 @@ authRouter.post('/staff/signup', strictLimit, async (req, res, next) => {
     }
     await audit(user.id, 'staff.signed_up', 'dealer', targetDealerId);
 
-    // Auto-create Contact under Dealer Account in Zoho CRM
-    try {
-      const [dInfo] = await sql`
-        select d.id, d.zoho_account_id, d.dealer_code, d.owner_user_id, ou.zoho_contact_id as owner_contact_id
-        from dealers d
-        left join users ou on ou.id = d.owner_user_id
-        where d.id = ${targetDealerId}`;
-      if (dInfo?.zoho_account_id && !user.zoho_contact_id && crm.isCrmConfigured()) {
-        const cId = await crm.createDealerContact({
-          accountId: dInfo.zoho_account_id,
-          personName: user.full_name || (cleanEmail ? cleanEmail.split('@')[0] : 'Staff Member'),
-          phone: user.phone,
-          email: user.email,
-          portalRole: 'Staff',
-          userSource: 'ReStor Staff',
-          reportingToContactId: dInfo.owner_contact_id || undefined,
-          dealerCode: dInfo.dealer_code,
-        });
-        await crm.linkContactToBackendUser(cId, user.id);
-        await sql`update users set zoho_contact_id = ${cId} where id = ${user.id}`;
-        user.zoho_contact_id = cId;
-        log.info(`[staff:signup] auto-created CRM contact ${cId} under Account ${dInfo.zoho_account_id}`);
-      }
-    } catch (crmErr) {
-      log.warn(`[staff:signup] CRM contact auto-create skipped: ${crmErr.message}`);
-    }
-
     // Notify the dealer owner
     const ownerRows = await sql`select owner_user_id from dealers where id = ${targetDealerId}`;
     if (ownerRows[0]) {
       await notify(ownerRows[0].owner_user_id, 'email', 'staff_pending_approval', { staffEmail: user.email || user.phone });
     }
 
-    // No session until the dealer approves — the staff user stays pending
-    res.status(201).json({ ok: true, status: 'pending' });
+    // Issue session with pending status — staff user is authenticated and logged in
+    const session = await issueSession(user);
+    res.status(201).json({ ok: true, status: 'pending', user: publicUser(user), ...session });
   } catch (err) { next(err); }
 });
 
@@ -734,12 +753,33 @@ authRouter.get('/me', jwtAuth, async (req, res, next) => {
   try {
     const user = await resolveUserWithDealer(req.user);
     const dealerRows = await sql`
-      select id, business_name, status, reject_reason, dealer_code, price_tier, gst_number, gst_treatment, hide_staff_dealer_price
+      select id, business_name, status, reject_reason, dealer_code, price_tier, gst_number, gst_treatment, hide_staff_dealer_price, zoho_account_id
       from dealers
       where id = ${user.dealer_id} or owner_user_id = ${user.id}
       order by case when status = 'approved' then 1 when status = 'pending' then 2 else 3 end asc
       limit 1`;
     let dealer = dealerRows[0] || null;
+
+    // 2-way sync: If dealer is linked to Zoho CRM, check for live CRM updates (throttled to 30s)
+    if (dealer?.zoho_account_id && crm.isCrmConfigured()) {
+      const lastSync = lastCrmSyncByDealerId.get(dealer.id) || 0;
+      if (Date.now() - lastSync > 30_000) {
+        lastCrmSyncByDealerId.set(dealer.id, Date.now());
+        try {
+          const account = await crm.getDealerAccount(dealer.zoho_account_id);
+          if (account) {
+            await applyCrmAccountState(dealer, account);
+            const fresh = await sql`
+              select id, business_name, status, reject_reason, dealer_code, price_tier, gst_number, gst_treatment, hide_staff_dealer_price, zoho_account_id
+              from dealers where id = ${dealer.id}`;
+            if (fresh[0]) dealer = fresh[0];
+          }
+        } catch (crmErr) {
+          log.warn(`[auth/me] on-demand CRM sync skipped: ${crmErr.message}`);
+        }
+      }
+    }
+
     if (dealer) {
       const pricebookId = await resolvePricebookId(dealer.price_tier);
       dealer = {
@@ -749,5 +789,98 @@ authRouter.get('/me', jwtAuth, async (req, res, next) => {
       };
     }
     res.json({ user: publicUser(user), dealer });
+  } catch (err) { next(err); }
+});
+
+/* POST /api/auth/email/request-otp — Request verification OTP for adding/verifying email post-login */
+authRouter.post('/email/request-otp', jwtAuth, rateLimit({ windowMs: 10 * 60_000, max: 6 }), async (req, res, next) => {
+  try {
+    const rawEmail = String(req.body?.email || req.user.email || '').trim().toLowerCase();
+    if (!rawEmail || !isValidEmail(rawEmail)) {
+      throw httpError(400, 'A valid email address is required (e.g. name@domain.com)');
+    }
+
+    // Check if another account is already using this email
+    const existing = await sql`select id from users where lower(email) = ${rawEmail} and id != ${req.user.id} limit 1`;
+    if (existing.length) {
+      throw httpError(409, 'This email address is already registered to another account');
+    }
+
+    const code = generateOtp();
+    await sql`
+      insert into otp_codes (user_id, identifier, code_hash, expires_at)
+      values (${req.user.id}, ${rawEmail}, ${sha256(code)},
+              ${new Date(Date.now() + OTP_TTL_MINUTES * 60_000)})`;
+
+    await sendOtpNotification({
+      email: rawEmail,
+      code,
+    });
+
+    res.json({
+      ok: true,
+      email: rawEmail,
+      expires_in_minutes: OTP_TTL_MINUTES,
+      ...(process.env.NODE_ENV !== 'production' ? { dev_code: code } : {}),
+    });
+  } catch (err) { next(err); }
+});
+
+/* POST /api/auth/email/verify-otp — Verify OTP and set user email & email_verified = true */
+authRouter.post('/email/verify-otp', jwtAuth, strictLimit, async (req, res, next) => {
+  try {
+    const rawEmail = String(req.body?.email || '').trim().toLowerCase();
+    const code = String(req.body?.code || '').trim();
+    if (!rawEmail || !isValidEmail(rawEmail) || !code) {
+      throw httpError(400, 'Valid email and 6-digit verification code are required');
+    }
+
+    const hashedInput = sha256(code);
+    const otpRows = await sql`
+      select oc.id, oc.attempts, oc.code_hash, oc.user_id, oc.identifier
+      from otp_codes oc
+      where (oc.identifier = ${rawEmail} or oc.user_id = ${req.user.id})
+        and oc.expires_at > now()
+        and oc.attempts < ${OTP_MAX_ATTEMPTS}
+      order by oc.created_at desc limit 1`;
+    const otp = otpRows[0];
+
+    if (!otp || otp.code_hash !== hashedInput) {
+      if (otp) await sql`update otp_codes set attempts = attempts + 1 where id = ${otp.id}`;
+      throw httpError(401, 'Invalid or expired verification code');
+    }
+
+    // Burn OTP
+    await sql`delete from otp_codes where id = ${otp.id}`;
+
+    // Update user record
+    await sql`update users set email = ${rawEmail}, email_verified = true where id = ${req.user.id}`;
+    const [updatedUser] = await sql`select * from users where id = ${req.user.id}`;
+
+    // Sync verified email to Zoho CRM Contact if contact exists
+    if (updatedUser?.zoho_contact_id && crm.isCrmConfigured()) {
+      try {
+        await crm.crmFetch('/Contacts', {
+          method: 'PUT',
+          body: {
+            data: [{
+              id: updatedUser.zoho_contact_id,
+              Email: rawEmail,
+            }],
+          },
+        });
+        log.info(`[auth:email] synced verified email ${rawEmail} to Zoho CRM Contact ${updatedUser.zoho_contact_id}`);
+      } catch (crmErr) {
+        log.warn(`[auth:email] Zoho CRM contact email sync skipped: ${crmErr.message}`);
+      }
+    }
+
+    await audit(req.user.id, 'auth.email_verified', 'user', req.user.id);
+    res.json({
+      ok: true,
+      email: rawEmail,
+      email_verified: true,
+      user: publicUser(updatedUser),
+    });
   } catch (err) { next(err); }
 });

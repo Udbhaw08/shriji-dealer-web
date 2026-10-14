@@ -1,58 +1,53 @@
 # Community 48
 
-> 29 nodes · cohesion 0.11
+> 30 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **reject()** (22 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **dc()** (17 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **_onStorageEvent()** (9 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **directlySetCurrentUser()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **initializeCurrentUser()** (8 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **setPersistence()** (7 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **_setRedirectUser()** (7 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **signOut()** (7 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **getCurrentUser()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **getOrInitRedirectPersistenceManager()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **runMiddleware()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **updateCurrentUser()** (6 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **removeCurrentUser()** (5 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **setCurrentUser()** (5 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **cancel()** (4 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **_clone()** (4 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **_copy()** (4 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **_initializeTime()** (4 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **reloadAndSetCurrentUserOrClear()** (4 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **stopPolling()** (4 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **toJSON()** (4 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **_assign()** (3 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **clearAllCookies()** (3 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **clearCookies()** (3 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- **startPolling()** (3 connections) — `ios/App/App/public/assets/index-BlyMIx9J.js`
-- *... and 4 more nodes in this community*
+- **architecture-delta.mjs** (65 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **compareArchitecture()** (12 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **fail()** (8 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **canonicalArchitecture()** (5 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryIndex()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **canonicalArchitectureJson()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **compareEntities()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **equal()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **normalizeRepository()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **canonical()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **extractArchitectureSvg()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **extractArtifactCss()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **presentationChanged()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **requireComparableShape()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **sortedObjects()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **stableIndex()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **addState()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryKey()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **fieldChanges()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **normalizeComponent()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **normalizedField()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **sortedBy()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **statusFor()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **summaryFor()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **BOUNDARY_FIELDS** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (35 shared connections)
-- [[Dependencies & Package Config]] (11 shared connections)
-- [[Architecture Doc Generator]] (7 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (7 shared connections)
-- [[Zoho API Diagnostic Script]] (5 shared connections)
-- [[Oxlint Linter Configuration]] (5 shared connections)
-- [[Claude Agent Instructions]] (3 shared connections)
-- [[Master Codebase Architecture Reference]] (3 shared connections)
-- [[Community 76]] (2 shared connections)
-- [[Design System & UI Tokens]] (1 shared connections)
-- [[Community 39]] (1 shared connections)
+- [[Community 75]] (20 shared connections)
+- [[Community 125]] (12 shared connections)
+- [[Community 112]] (4 shared connections)
+- [[Community 187]] (4 shared connections)
+- [[Community 122]] (3 shared connections)
+- [[Mobile Responsive UI Skill]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BlyMIx9J.js`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 168 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 149 (97%)
+- INFERRED: 4 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---
