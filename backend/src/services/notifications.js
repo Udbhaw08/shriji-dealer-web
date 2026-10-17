@@ -34,43 +34,77 @@ export async function sendOtpNotification({ phone, email, code }) {
         let formattedPhone = cleanPhone.replace(/\D/g, ''); // strip non-digits
         if (formattedPhone.length === 10) formattedPhone = `91${formattedPhone}`; // auto-prefix India code if 10-digit
 
-        const body = waTemplate
-          ? {
-              messaging_product: 'whatsapp',
-              to: formattedPhone,
-              type: 'template',
-              template: {
-                name: waTemplate,
-                language: { code: waLang },
-                components: [
-                  {
-                    type: 'body',
-                    parameters: [{ type: 'text', text: String(code) }],
-                  },
-                ],
-              },
-            }
-          : {
-              messaging_product: 'whatsapp',
-              to: formattedPhone,
-              type: 'text',
-              text: { body: `Your Shriji Dealer Portal verification code is: ${code}. Valid for 10 minutes.` },
-            };
+        const sendWaMessage = async (components) => {
+          const payload = waTemplate
+            ? {
+                messaging_product: 'whatsapp',
+                to: formattedPhone,
+                type: 'template',
+                template: {
+                  name: waTemplate,
+                  language: { code: waLang },
+                  ...(components ? { components } : {}),
+                },
+              }
+            : {
+                messaging_product: 'whatsapp',
+                to: formattedPhone,
+                type: 'text',
+                text: { body: `Your Shriji Dealer Portal verification code is: ${code}. Valid for 10 minutes.` },
+              };
 
-        const res = await fetch(`https://graph.facebook.com/v21.0/${waPhoneId}/messages`, {
-          method: 'POST',
-          headers: {
-            Authorization: `Bearer ${waToken}`,
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(body),
-        });
+          return fetch(`https://graph.facebook.com/v21.0/${waPhoneId}/messages`, {
+            method: 'POST',
+            headers: {
+              Authorization: `Bearer ${waToken}`,
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(payload),
+          });
+        };
+
+        let initialComponents;
+        if (waTemplate === 'hello_world') {
+          initialComponents = undefined;
+        } else if (waTemplate) {
+          initialComponents = [
+            {
+              type: 'body',
+              parameters: [{ type: 'text', text: String(code) }],
+            },
+          ];
+        }
+
+        let res = await sendWaMessage(initialComponents);
+        if (!res.ok && waTemplate) {
+          const errText = await res.text();
+          // If template requires button parameters (Meta Authentication Template with Copy Code button)
+          if (errText.includes('button')) {
+            log.info('[notify:whatsapp] Retrying with Authentication button payload format...');
+            const authComponents = [
+              {
+                type: 'body',
+                parameters: [{ type: 'text', text: String(code) }],
+              },
+              {
+                type: 'button',
+                sub_type: 'url',
+                index: '0',
+                parameters: [{ type: 'text', text: String(code) }],
+              },
+            ];
+            res = await sendWaMessage(authComponents);
+          } else {
+            log.warn(`[notify:whatsapp] WhatsApp send failed (${res.status}): ${errText}`);
+          }
+        }
+
         if (res.ok) {
           log.info(`[notify:whatsapp] OTP sent successfully to ${cleanPhone}`);
           sent = true;
-        } else {
-          const err = await res.text();
-          log.warn(`[notify:whatsapp] WhatsApp send failed (${res.status}): ${err}`);
+        } else if (!sent) {
+          const err = await res.text().catch(() => '');
+          log.warn(`[notify:whatsapp] WhatsApp final send failed (${res.status}): ${err}`);
         }
       } catch (err) {
         log.warn(`[notify:whatsapp] error sending via WhatsApp: ${err.message}`);
