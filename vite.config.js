@@ -7,13 +7,126 @@ import {
   fetchZohoProducts,
   fetchZohoProductById,
   fetchZohoCategories,
+  fetchZohoBanners,
+  fetchZohoSchemes,
+  DEFAULT_STORE_BANNERS,
+  DEFAULT_SCHEMES,
 } from './api/zoho.js'
+import downloadHandler from './api/download.js'
+import {
+  getSupabaseBanners,
+  getSupabaseSchemes,
+  getSupabaseBranding,
+} from './backend/src/services/content.js'
 
 function zohoApiPlugin() {
   return {
     name: 'zoho-api-middleware',
     configureServer(server) {
       server.middlewares.use(async (req, res, next) => {
+        // Download handler: /api/download
+        if (req.url.startsWith('/api/download')) {
+          try {
+            const urlObj = new URL(req.url, 'http://localhost');
+            const query = Object.fromEntries(urlObj.searchParams.entries());
+            const fakeReq = { query };
+            const fakeRes = {
+              statusCode: 200,
+              headers: {},
+              setHeader(name, val) {
+                this.headers[name] = val;
+                res.setHeader(name, val);
+              },
+              status(code) {
+                this.statusCode = code;
+                res.statusCode = code;
+                return this;
+              },
+              send(buf) {
+                res.statusCode = this.statusCode;
+                return res.end(buf);
+              },
+              json(obj) {
+                res.statusCode = this.statusCode;
+                res.setHeader('Content-Type', 'application/json');
+                return res.end(JSON.stringify(obj));
+              },
+            };
+            return await downloadHandler(fakeReq, fakeRes);
+          } catch (err) {
+            res.statusCode = 500;
+            res.setHeader('Content-Type', 'application/json');
+            return res.end(JSON.stringify({ error: err.message }));
+          }
+        }
+        // Hero Banners route: /api/banners (Supabase with automatic Zoho Commerce fallback)
+        if (req.url === '/api/banners' || req.url.startsWith('/api/banners?')) {
+          try {
+            const urlObj = new URL(req.url, 'http://localhost');
+            const refresh = urlObj.searchParams.get('refresh') === 'true';
+            const supabaseBanners = await getSupabaseBanners();
+            let finalBanners;
+            if (Array.isArray(supabaseBanners) && supabaseBanners.length > 0) {
+              finalBanners = supabaseBanners;
+            } else {
+              // Safety Fallback: Automatically shift to Zoho Commerce active/inactive rules
+              finalBanners = await fetchZohoBanners({ refresh });
+            }
+
+            res.statusCode = 200;
+            res.setHeader('Content-Type', 'application/json');
+            return res.end(JSON.stringify({ ok: true, count: finalBanners.length, banners: finalBanners }));
+          } catch (err) {
+            console.warn('[vite] Supabase banner error, shifting to Zoho fallback:', err.message);
+            const fallback = await fetchZohoBanners().catch(() => DEFAULT_STORE_BANNERS);
+            res.statusCode = 200;
+            res.setHeader('Content-Type', 'application/json');
+            return res.end(JSON.stringify({ ok: true, count: fallback.length, banners: fallback }));
+          }
+        }
+
+        // Schemes route: /api/schemes (Supabase with automatic Zoho Commerce fallback)
+        if (req.url === '/api/schemes' || req.url.startsWith('/api/schemes?')) {
+          try {
+            const urlObj = new URL(req.url, 'http://localhost');
+            const refresh = urlObj.searchParams.get('refresh') === 'true';
+            const supabaseSchemes = await getSupabaseSchemes();
+            const hasActiveSupabase = supabaseSchemes && Array.isArray(supabaseSchemes.active) && supabaseSchemes.active.length > 0;
+
+            let finalSchemes;
+            if (hasActiveSupabase) {
+              finalSchemes = supabaseSchemes;
+            } else {
+              // Safety Fallback: Automatically shift to Zoho Commerce active/inactive rules
+              finalSchemes = await fetchZohoSchemes({ refresh });
+            }
+
+            res.statusCode = 200;
+            res.setHeader('Content-Type', 'application/json');
+            return res.end(JSON.stringify({ ok: true, schemes: finalSchemes }));
+          } catch (err) {
+            console.warn('[vite] Supabase scheme error, shifting to Zoho fallback:', err.message);
+            const fallback = await fetchZohoSchemes().catch(() => DEFAULT_SCHEMES);
+            res.statusCode = 200;
+            res.setHeader('Content-Type', 'application/json');
+            return res.end(JSON.stringify({ ok: true, schemes: fallback }));
+          }
+        }
+
+        // Branding / Logos route: /api/branding (Supabase)
+        if (req.url === '/api/branding' || req.url.startsWith('/api/branding?')) {
+          try {
+            const branding = await getSupabaseBranding();
+            res.statusCode = 200;
+            res.setHeader('Content-Type', 'application/json');
+            return res.end(JSON.stringify({ ok: true, branding }));
+          } catch (err) {
+            res.statusCode = 500;
+            res.setHeader('Content-Type', 'application/json');
+            return res.end(JSON.stringify({ error: err.message }));
+          }
+        }
+
         // Products catalogue route
         if (req.url === '/api/products' || req.url.startsWith('/api/products?')) {
           try {

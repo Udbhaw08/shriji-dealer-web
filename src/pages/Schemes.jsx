@@ -1,25 +1,85 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useLanguage } from "../data/i18n";
-import { SCHEMES } from "../data/site";
+import { COMPANY, SCHEMES } from "../data/site";
+import { apiFetch } from "../data/api";
 import { Icon } from "../ui";
 
 export default function Schemes() {
   const { t } = useLanguage();
+  const [schemesData, setSchemesData] = useState(SCHEMES);
   const [activeTab, setActiveTab] = useState("active"); // "active" | "upcoming" | "past"
   const [activeFlyer, setActiveFlyer] = useState(null); // scheme object for modal
+  const [activeVideo, setActiveVideo] = useState(null); // scheme object for video player modal
   const [toastMsg, setToastMsg] = useState("");
 
-  const handleDownload = (scheme) => {
-    setToastMsg(`📥 Downloading ${scheme.pdfName}...`);
-    setTimeout(() => setToastMsg(""), 3500);
+  // Fetch dynamic schemes from Zoho via /api/schemes
+  useEffect(() => {
+    let active = true;
+    apiFetch("/api/schemes")
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (active && data?.schemes) {
+          setSchemesData(data.schemes);
+        }
+      })
+      .catch((err) => console.warn("Failed to load live schemes:", err));
 
-    // Trigger mock/real file download
-    const link = document.createElement("a");
-    link.href = scheme.pdfUrl || scheme.flyer;
-    link.download = scheme.pdfName;
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    return () => {
+      active = false;
+    };
+  }, []);
+
+  const activeSchemes = schemesData.active || [];
+  const upcomingSchemes = schemesData.upcoming || [];
+  const pastSchemes = schemesData.past || [];
+
+  const handleDownload = async (scheme) => {
+    const rawUrl = scheme.pdfUrl || scheme.flyer;
+    if (!rawUrl) return;
+
+    let targetFilename = scheme.pdfName || `${scheme.title || "scheme"}.pdf`;
+    if (!targetFilename.toLowerCase().endsWith(".pdf")) {
+      targetFilename += ".pdf";
+    }
+
+    setToastMsg(`📥 Downloading ${targetFilename}...`);
+
+    try {
+      // Use the download endpoint which forces Content-Disposition: attachment
+      // and converts any flyer JPG into an authentic A4 PDF on the fly!
+      const downloadEndpoint = `/api/download?url=${encodeURIComponent(rawUrl)}&filename=${encodeURIComponent(targetFilename)}`;
+      const res = await fetch(downloadEndpoint);
+      if (!res.ok) throw new Error(`Download status ${res.status}`);
+
+      const blob = await res.blob();
+      const blobUrl = window.URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = blobUrl;
+      link.download = targetFilename;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      setTimeout(() => window.URL.revokeObjectURL(blobUrl), 10000);
+
+      setToastMsg(`✅ Download completed: ${targetFilename}`);
+      setTimeout(() => setToastMsg(""), 3500);
+    } catch (err) {
+      console.warn("Direct blob download failed, triggering native browser attachment download:", err);
+      const downloadEndpoint = `/api/download?url=${encodeURIComponent(rawUrl)}&filename=${encodeURIComponent(targetFilename)}`;
+      // Direct navigation to attachment endpoint forces browser download without tab preview
+      const iframe = document.createElement("iframe");
+      iframe.style.display = "none";
+      iframe.src = downloadEndpoint;
+      document.body.appendChild(iframe);
+      setTimeout(() => {
+        try { document.body.removeChild(iframe); } catch {}
+      }, 20000);
+    }
+  };
+
+  const getWhatsAppLink = (scheme) => {
+    const text = `Hi Shriji Team, I am interested in the "${scheme.title}" scheme (${scheme.badge || "Dealer Scheme"}). Please share booking details and eligible models.`;
+    return `https://wa.me/${COMPANY.phoneRaw}?text=${encodeURIComponent(text)}`;
   };
 
   return (
@@ -48,7 +108,7 @@ export default function Schemes() {
               aria-selected={activeTab === "active"}
               onClick={() => setActiveTab("active")}
             >
-              {t("scheme_tab_active")} ({SCHEMES.active.length})
+              {t("scheme_tab_active")} ({activeSchemes.length})
             </button>
             <button
               className="tab"
@@ -56,7 +116,7 @@ export default function Schemes() {
               aria-selected={activeTab === "upcoming"}
               onClick={() => setActiveTab("upcoming")}
             >
-              {t("scheme_tab_upcoming")} (0)
+              {t("scheme_tab_upcoming")} ({upcomingSchemes.length})
             </button>
             <button
               className="tab"
@@ -64,7 +124,7 @@ export default function Schemes() {
               aria-selected={activeTab === "past"}
               onClick={() => setActiveTab("past")}
             >
-              {t("scheme_tab_past")} (0)
+              {t("scheme_tab_past")} ({pastSchemes.length})
             </button>
           </div>
         </div>
@@ -73,10 +133,10 @@ export default function Schemes() {
       {/* Schemes Grid */}
       <section className="sec" style={{ paddingTop: "var(--s4)" }}>
         <div className="wrap">
-          {activeTab === "active" ? (
+          {activeTab === "active" && activeSchemes.length > 0 ? (
             <div className="schemes-grid">
-              {SCHEMES.active.map((s) => {
-                const isDiwali = s.id.includes("diwali");
+              {activeSchemes.map((s) => {
+                const isDiwali = s.id && String(s.id).toLowerCase().includes("diwali");
                 return (
                   <article key={s.id} className="scheme-card">
                     {/* Header Banner - Title per image */}
@@ -104,7 +164,7 @@ export default function Schemes() {
                       </div>
                     </div>
 
-                    {/* Actions: Download Scheme PDF as mock */}
+                    {/* Actions: Download Scheme PDF + WhatsApp enquiry */}
                     <div className="scheme-card-actions">
                       <button
                         type="button"
@@ -113,6 +173,25 @@ export default function Schemes() {
                       >
                         <Icon name="download" size={17} /> {t("scheme_download_pdf")}
                       </button>
+                      <a
+                        href={getWhatsAppLink(s)}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn btn-primary btn-block"
+                        style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", gap: "8px" }}
+                      >
+                        <Icon name="chat" size={16} /> Enquire on WhatsApp
+                      </a>
+                      {s.videoUrl && (
+                        <button
+                          type="button"
+                          className="btn btn-ghost btn-block btn-sm"
+                          style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", gap: "6px" }}
+                          onClick={() => setActiveVideo(s)}
+                        >
+                          <Icon name="play" size={15} /> Watch Scheme Video
+                        </button>
+                      )}
                       <button
                         type="button"
                         className="btn btn-ghost btn-block btn-sm"
@@ -130,18 +209,28 @@ export default function Schemes() {
               <span className="tile tile-lg" style={{ margin: "0 auto var(--s3)" }}>
                 <Icon name="badge" size={26} />
               </span>
-              <h3>{activeTab === "upcoming" ? "No Upcoming Schemes Announced Yet" : "No Archived Past Schemes"}</h3>
+              <h3>
+                {activeTab === "upcoming"
+                  ? "No Upcoming Schemes Announced Yet"
+                  : activeTab === "past"
+                  ? "No Archived Past Schemes"
+                  : "No Active Schemes Right Now"}
+              </h3>
               <p className="sub" style={{ marginTop: "var(--s2)", maxWidth: "45ch", marginInline: "auto" }}>
-                All live dealer schemes are currently active. Please switch to the Active tab to view and download available scheme PDFs.
+                {activeTab === "active"
+                  ? "New festive and seasonal offers are updated directly from Zoho Commerce. Please check back soon!"
+                  : "All live dealer schemes are currently active. Please switch to the Active tab to view and download available scheme PDFs."}
               </p>
-              <button
-                type="button"
-                className="btn btn-navy"
-                style={{ marginTop: "var(--s4)" }}
-                onClick={() => setActiveTab("active")}
-              >
-                View Active Schemes (2)
-              </button>
+              {activeTab !== "active" && (
+                <button
+                  type="button"
+                  className="btn btn-navy"
+                  style={{ marginTop: "var(--s4)" }}
+                  onClick={() => setActiveTab("active")}
+                >
+                  View Active Schemes ({activeSchemes.length})
+                </button>
+              )}
             </div>
           )}
         </div>
@@ -192,6 +281,73 @@ export default function Schemes() {
                 onClick={() => handleDownload(activeFlyer)}
               >
                 <Icon name="download" size={16} /> Download Scheme PDF
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Interactive Video Modal (Google Drive / YouTube / MP4) */}
+      {activeVideo && (
+        <div
+          className="flyer-modal-backdrop"
+          onClick={() => setActiveVideo(null)}
+          role="dialog"
+          aria-modal="true"
+          aria-label={`${activeVideo.title} video`}
+        >
+          <div className="flyer-modal-box" style={{ maxWidth: "760px", width: "95%" }} onClick={(e) => e.stopPropagation()}>
+            <div className="flyer-modal-head">
+              <div>
+                <h3 style={{ fontSize: "1.1rem", margin: 0 }}>{activeVideo.title}</h3>
+                <span style={{ fontSize: "0.8rem", color: "var(--tx-3)" }}>
+                  {activeVideo.driveVideo?.isDrive ? "Google Drive Video Presentation" : "Official Promotional Video"}
+                </span>
+              </div>
+              <button
+                type="button"
+                className="icon-btn"
+                onClick={() => setActiveVideo(null)}
+                aria-label="Close video"
+              >
+                <Icon name="close" size={18} />
+              </button>
+            </div>
+
+            <div style={{ position: "relative", width: "100%", paddingBottom: "56.25%", background: "#000", borderRadius: "var(--r2)", overflow: "hidden" }}>
+              {activeVideo.driveVideo?.isDrive || activeVideo.videoUrl?.includes("drive.google.com") || activeVideo.videoUrl?.includes("youtube") || activeVideo.videoUrl?.includes("youtu.be") || activeVideo.videoUrl?.includes("vimeo") ? (
+                <iframe
+                  src={activeVideo.driveVideo?.previewUrl || activeVideo.videoUrl}
+                  title={activeVideo.title}
+                  allow="autoplay; encrypted-media; fullscreen"
+                  allowFullScreen
+                  style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: 0 }}
+                />
+              ) : (
+                <video
+                  src={activeVideo.videoUrl}
+                  controls
+                  autoPlay
+                  style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "contain" }}
+                />
+              )}
+            </div>
+
+            <div className="flyer-modal-foot" style={{ justifyContent: "space-between" }}>
+              <a
+                href={activeVideo.driveVideo?.original || activeVideo.videoUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-ghost btn-sm"
+              >
+                <Icon name="arrow" size={15} /> Open in New Tab
+              </a>
+              <button
+                type="button"
+                className="btn btn-navy btn-sm"
+                onClick={() => setActiveVideo(null)}
+              >
+                Close
               </button>
             </div>
           </div>
