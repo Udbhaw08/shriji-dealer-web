@@ -13,6 +13,8 @@ import Schemes from "./pages/Schemes";
 import Support from "./pages/Support";
 import Login from "./pages/Login";
 import DealerDashboard from "./pages/DealerDashboard";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsOfService from "./pages/TermsOfService";
 import { useSession } from "./data/session";
 import { isPortalGated } from "./data/portalGate";
 import NativeBackHandler from "./components/NativeBackHandler";
@@ -127,6 +129,11 @@ createRoot(document.getElementById("root")).render(
               }
             />
             <Route path="/support" element={<Support />} />
+            <Route path="/privacy" element={<PrivacyPolicy />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/terms" element={<TermsOfService />} />
+            <Route path="/terms-of-service" element={<TermsOfService />} />
+            <Route path="/data-deletion" element={<PrivacyPolicy />} />
             <Route path="/login" element={<Login />} />
             <Route
               path="/dealer"

@@ -429,7 +429,13 @@ export function Footer() {
           <span>
             © {new Date().getFullYear()} {COMPANY.legal}
           </span>
-          <span>{t("ftr_auth_dist")} · Sunshine India</span>
+          <div style={{ display: "flex", gap: "var(--s3)", alignItems: "center" }}>
+            <Link to="/privacy" style={{ color: "inherit", textDecoration: "underline" }}>Privacy Policy</Link>
+            <span>·</span>
+            <Link to="/terms" style={{ color: "inherit", textDecoration: "underline" }}>Terms of Service</Link>
+            <span>·</span>
+            <span>{t("ftr_auth_dist")} · Sunshine India</span>
+          </div>
         </div>
       </div>
     </footer>
