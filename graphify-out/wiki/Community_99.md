@@ -1,43 +1,37 @@
 # Community 99
 
-> 15 nodes · cohesion 0.17
+> 16 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **auth.js** (48 connections) — `backend/src/routes/auth.js`
-- **errorHandler.js** (7 connections) — `backend/src/middleware/errorHandler.js`
-- **notify()** (4 connections) — `backend/src/services/notifications.js`
-- **httpError()** (3 connections) — `backend/src/middleware/errorHandler.js`
-- **issueSession()** (3 connections) — `backend/src/routes/auth.js`
-- **linkUserIdentifiers()** (3 connections) — `backend/src/routes/auth.js`
-- **resolveUserWithDealer()** (3 connections) — `backend/src/routes/auth.js`
-- **sendOtpNotification()** (3 connections) — `backend/src/services/notifications.js`
-- **errorHandler()** (2 connections) — `backend/src/middleware/errorHandler.js`
-- **findUserByIdentifier()** (2 connections) — `backend/src/routes/auth.js`
-- **parseIdentifier()** (2 connections) — `backend/src/routes/auth.js`
-- **publicUser()** (2 connections) — `backend/src/routes/auth.js`
-- **googleClient** (1 connections) — `backend/src/routes/auth.js`
-- **lastCrmSyncByDealerId** (1 connections) — `backend/src/routes/auth.js`
-- **strictLimit** (1 connections) — `backend/src/routes/auth.js`
+- **legend-contract.test.mjs** (15 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **legendKinds()** (3 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **run()** (3 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **attrValues()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **canonicalSvg()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **clone()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **render()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **validateFailure()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **withLegend()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **AUTO_KINDS** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **CATALOGS** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **FIXTURES** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
 
 ## Relationships
 
-- [[Community 29]] (14 shared connections)
-- [[Community 52]] (12 shared connections)
-- [[Community 49]] (10 shared connections)
-- [[Community 66]] (6 shared connections)
-- [[Community 79]] (5 shared connections)
-- [[Community 109]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `backend/src/middleware/errorHandler.js`
-- `backend/src/routes/auth.js`
-- `backend/src/services/notifications.js`
+- `.agents/skills/archify/test/legend-contract.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 85 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

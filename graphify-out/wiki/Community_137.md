@@ -1,32 +1,31 @@
 # Community 137
 
-> 10 nodes · cohesion 0.29
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **stages** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **additionalProperties** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **required** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **ROLES-AND-SHARING.md — who sees which price** (9 connections) — `docs/ROLES-AND-SHARING.md`
+- **ROLES-AND-SHARING.md** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **1. The four viewers** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **2. The rule, in one function** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **3. ⚠️ What this is not** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **4. The share link** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **5. What the customer sees — `CustomerPrice` in `PriceBlock.jsx`** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **6. The login flow** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **7. Also gated** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **8. Checks** (1 connections) — `docs/ROLES-AND-SHARING.md`
 
 ## Relationships
 
-- [[Zoho API Diagnostic Script]] (3 shared connections)
-- [[Community 95]] (3 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `docs/ROLES-AND-SHARING.md`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,55 +1,54 @@
 # Community 45
 
-> 31 nodes · cohesion 0.12
+> 32 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **session.js** (41 connections) — `src/data/session.js`
-- **productsStore.js** (22 connections) — `src/data/productsStore.js`
-- **apiFetch()** (14 connections) — `src/data/api.js`
-- **api.js** (9 connections) — `src/data/api.js`
-- **apiUrl()** (9 connections) — `src/data/api.js`
-- **revalidateSession()** (9 connections) — `src/data/session.js`
-- **setSession()** (8 connections) — `src/data/session.js`
-- **syncPricebookWithSession()** (7 connections) — `src/data/productsStore.js`
-- **products.js** (5 connections) — `src/data/products.js`
-- **fetchLiveProducts()** (5 connections) — `src/data/productsStore.js`
-- **hasSession()** (4 connections) — `src/data/auth.js`
-- **loadCached()** (4 connections) — `src/data/productsStore.js`
-- **sessionFromAuth()** (3 connections) — `src/data/auth.js`
-- **emit()** (3 connections) — `src/data/productsStore.js`
-- **loadCachedSession()** (3 connections) — `src/data/session.js`
-- **onAuthBroadcast()** (2 connections) — `src/data/auth.js`
-- **CATEGORIES** (2 connections) — `src/data/products.js`
-- **getCacheKey()** (2 connections) — `src/data/productsStore.js`
-- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
-- **useProduct()** (2 connections) — `src/data/productsStore.js`
-- **emit()** (2 connections) — `src/data/session.js`
-- **PRODUCTS** (1 connections) — `src/data/products.js`
-- **listeners** (1 connections) — `src/data/productsStore.js`
-- **PREFERRED_ORDER** (1 connections) — `src/data/productsStore.js`
-- **storeState** (1 connections) — `src/data/productsStore.js`
-- *... and 6 more nodes in this community*
+- **kf()** (22 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Ur()** (21 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **jr()** (9 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Hr()** (8 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **of()** (7 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **br()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Gr()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Kr()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **ri()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Rr()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **wr()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **xr()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **zr()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **qf()** (4 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **qr()** (4 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Xf()** (4 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **zt()** (4 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **beforeAuthStateChanged()** (3 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Cr()** (3 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **If()** (3 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Lr()** (3 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **sc()** (3 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **_shouldInitProactively()** (3 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Ui()** (3 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Vr()** (3 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [[Design System & UI Tokens]] (19 shared connections)
-- [[Graphify Workflow]] (17 shared connections)
-- [[Community 51]] (10 shared connections)
-- [[Community 33]] (9 shared connections)
-- [[Community 104]] (5 shared connections)
+- [[Dealer Auth & Session Management]] (32 shared connections)
+- [[Dependencies & Package Config]] (9 shared connections)
+- [[Product Pages Specification]] (6 shared connections)
+- [[Architecture Doc Generator]] (5 shared connections)
+- [[Client Products Data Store]] (5 shared connections)
+- [[Claude Agent Instructions]] (4 shared connections)
+- [[Mobile Responsive UI Skill]] (3 shared connections)
+- [[Community 79]] (2 shared connections)
 
 ## Source Files
 
-- `src/data/api.js`
-- `src/data/auth.js`
-- `src/data/products.js`
-- `src/data/productsStore.js`
-- `src/data/session.js`
+- `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
 
 ## Audit Trail
 
-- EXTRACTED: 168 (100%)
+- EXTRACTED: 164 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

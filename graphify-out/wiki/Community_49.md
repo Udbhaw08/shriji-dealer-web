@@ -1,63 +1,55 @@
 # Community 49
 
-> 29 nodes · cohesion 0.15
+> 31 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **pool.js** (26 connections) — `backend/src/db/pool.js`
-- **catalog.js** (16 connections) — `backend/src/services/catalog.js`
-- **webhooks.js** (14 connections) — `backend/src/routes/webhooks.js`
-- **logger.js** (14 connections) — `backend/src/utils/logger.js`
-- **env.js** (13 connections) — `backend/src/config/env.js`
-- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
-- **log** (13 connections) — `backend/src/utils/logger.js`
-- **env** (11 connections) — `backend/src/config/env.js`
-- **index.js** (11 connections) — `backend/src/jobs/index.js`
-- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
-- **notifications.js** (9 connections) — `backend/src/services/notifications.js`
-- **syncCatalog()** (7 connections) — `backend/src/services/catalog.js`
-- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
-- **catalogFor()** (4 connections) — `backend/src/services/catalog.js`
-- **loadCatalog()** (4 connections) — `backend/src/services/catalog.js`
-- **catalogSync()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **tokenCleanup()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **markPollRun()** (3 connections) — `backend/src/jobs/crmPoll.js`
-- **migrate-content.js** (3 connections) — `backend/scripts/migrate-content.js`
-- **test-storage.js** (3 connections) — `backend/scripts/test-storage.js`
-- **priceView()** (3 connections) — `backend/src/services/catalog.js`
-- **priceGate.test.mjs** (3 connections) — `backend/test/priceGate.test.mjs`
-- **bool()** (1 connections) — `backend/src/config/env.js`
-- **num()** (1 connections) — `backend/src/config/env.js`
-- **tx()** (1 connections) — `backend/src/db/pool.js`
-- *... and 4 more nodes in this community*
+- **session.js** (41 connections) — `src/data/session.js`
+- **productsStore.js** (22 connections) — `src/data/productsStore.js`
+- **apiFetch()** (14 connections) — `src/data/api.js`
+- **api.js** (9 connections) — `src/data/api.js`
+- **apiUrl()** (9 connections) — `src/data/api.js`
+- **revalidateSession()** (9 connections) — `src/data/session.js`
+- **setSession()** (8 connections) — `src/data/session.js`
+- **syncPricebookWithSession()** (7 connections) — `src/data/productsStore.js`
+- **products.js** (5 connections) — `src/data/products.js`
+- **fetchLiveProducts()** (5 connections) — `src/data/productsStore.js`
+- **hasSession()** (4 connections) — `src/data/auth.js`
+- **loadCached()** (4 connections) — `src/data/productsStore.js`
+- **sessionFromAuth()** (3 connections) — `src/data/auth.js`
+- **emit()** (3 connections) — `src/data/productsStore.js`
+- **loadCachedSession()** (3 connections) — `src/data/session.js`
+- **onAuthBroadcast()** (2 connections) — `src/data/auth.js`
+- **CATEGORIES** (2 connections) — `src/data/products.js`
+- **getCacheKey()** (2 connections) — `src/data/productsStore.js`
+- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
+- **useProduct()** (2 connections) — `src/data/productsStore.js`
+- **emit()** (2 connections) — `src/data/session.js`
+- **PRODUCTS** (1 connections) — `src/data/products.js`
+- **listeners** (1 connections) — `src/data/productsStore.js`
+- **PREFERRED_ORDER** (1 connections) — `src/data/productsStore.js`
+- **storeState** (1 connections) — `src/data/productsStore.js`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [[Community 29]] (34 shared connections)
-- [[Community 66]] (13 shared connections)
-- [[Community 99]] (10 shared connections)
-- [[Community 109]] (8 shared connections)
-- [[Community 52]] (6 shared connections)
-- [[Product Pages Specification]] (2 shared connections)
+- [[Master Codebase Architecture Reference]] (19 shared connections)
+- [[Community 30]] (17 shared connections)
+- [[Community 51]] (10 shared connections)
+- [[Community 35]] (9 shared connections)
+- [[Community 106]] (5 shared connections)
 
 ## Source Files
 
-- `backend/scripts/migrate-content.js`
-- `backend/scripts/test-storage.js`
-- `backend/src/config/env.js`
-- `backend/src/db/pool.js`
-- `backend/src/jobs/catalogSync.js`
-- `backend/src/jobs/crmPoll.js`
-- `backend/src/jobs/index.js`
-- `backend/src/routes/webhooks.js`
-- `backend/src/services/catalog.js`
-- `backend/src/services/notifications.js`
-- `backend/src/utils/logger.js`
-- `backend/test/priceGate.test.mjs`
+- `src/data/api.js`
+- `src/data/auth.js`
+- `src/data/products.js`
+- `src/data/productsStore.js`
+- `src/data/session.js`
 
 ## Audit Trail
 
-- EXTRACTED: 197 (100%)
+- EXTRACTED: 168 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

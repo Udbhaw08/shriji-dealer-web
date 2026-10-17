@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-17T23:33:02.943+05:30 (GMT+5:30)
-> Total Project Files: 1068
+> Last synchronized: 2026-10-18T03:41:42.645+05:30 (GMT+5:30)
+> Total Project Files: 1083
 
 ---
 
@@ -147,7 +147,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`scripts/generate-codebase-doc.mjs`** (9.1 KB)
 - **`scripts/get-refresh-token.mjs`** (2.3 KB)
 - **`scripts/make-scheme-pdfs.mjs`** (2.2 KB)
-- **`scripts/sync-all.mjs`** (1.2 KB)
+- **`scripts/sync-all.mjs`** (1.8 KB)
 - **`scripts/test-supabase.mjs`** (0.6 KB)
 - **`scripts/test-zoho-api.mjs`** (1.4 KB)
 - **`scripts/watch-sync.mjs`** (1.4 KB)

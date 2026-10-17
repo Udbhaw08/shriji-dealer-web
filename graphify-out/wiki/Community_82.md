@@ -26,8 +26,8 @@
 
 ## Relationships
 
-- [[Community 32]] (2 shared connections)
-- [[Community 92]] (1 shared connections)
+- [[Graphify Agent Rules]] (2 shared connections)
+- [[Community 95]] (1 shared connections)
 
 ## Source Files
 

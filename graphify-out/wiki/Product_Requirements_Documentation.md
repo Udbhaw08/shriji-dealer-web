@@ -1,55 +1,60 @@
 # Product Requirements Documentation
 
-> 75 nodes · cohesion 0.04
+> 77 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **reject()** (20 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **mc()** (17 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **Id()** (15 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **Mp()** (14 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **getIdToken()** (13 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **Q()** (11 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **hf()** (10 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **Md()** (10 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **uf()** (10 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **_onStorageEvent()** (9 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **Wf()** (9 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **cf()** (8 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **directlySetCurrentUser()** (8 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **initializeCurrentUser()** (8 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **getCurrentUser()** (7 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **Ld()** (7 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **setPersistence()** (7 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **_setRedirectUser()** (7 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **signOut()** (7 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **_fromGetAccountInfoResponse()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **getOrInitRedirectPersistenceManager()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **onAuthEvent()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **_persistUserIfCurrent()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **queue()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **runMiddleware()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- *... and 50 more nodes in this community*
+- **zoho.js** (47 connections) — `api/zoho.js`
+- **vite.config.js** (20 connections) — `vite.config.js`
+- **fetchZohoProductById()** (15 connections) — `api/zoho.js`
+- **fetchZohoProducts()** (14 connections) — `api/zoho.js`
+- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
+- **fetchZohoWithRetry()** (13 connections) — `api/zoho.js`
+- **getZohoConfig()** (13 connections) — `api/zoho.js`
+- **zohoApiPlugin()** (13 connections) — `vite.config.js`
+- **createDealerContact()** (9 connections) — `api/zoho.js`
+- **findDealerByPhone()** (9 connections) — `api/zoho.js`
+- **fetchZohoCategories()** (8 connections) — `api/zoho.js`
+- **getDealerById()** (8 connections) — `api/zoho.js`
+- **fetchZohoBanners()** (7 connections) — `api/zoho.js`
+- **fetchZohoSchemes()** (7 connections) — `api/zoho.js`
+- **getAccessToken()** (7 connections) — `api/zoho.js`
+- **getCategoryVisibilityMap()** (7 connections) — `api/zoho.js`
+- **getSupabaseBanners()** (7 connections) — `backend/src/services/content.js`
+- **getSupabaseSchemes()** (7 connections) — `backend/src/services/content.js`
+- **banners.js** (6 connections) — `api/banners.js`
+- **schemes.js** (6 connections) — `api/schemes.js`
+- **fetchAllRawZohoProducts()** (6 connections) — `api/zoho.js`
+- **fetchZohoPricebookItems()** (6 connections) — `api/zoho.js`
+- **normalizeProduct()** (5 connections) — `api/zoho.js`
+- **resolvePricebookId()** (5 connections) — `api/zoho.js`
+- **handler()** (4 connections) — `api/download.js`
+- *... and 52 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (88 shared connections)
-- [[Dependencies & Package Config]] (17 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (16 shared connections)
-- [[Community 36]] (15 shared connections)
-- [[Client Products Data Store]] (12 shared connections)
-- [[Claude Agent Instructions]] (9 shared connections)
-- [[Community 35]] (6 shared connections)
-- [[Community 94]] (4 shared connections)
-- [[Community 67]] (4 shared connections)
+- [[Community 42]] (12 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DW7U0CFW.js`
+- `api/banners.js`
+- `api/dealer/apply.js`
+- `api/dealer/info.js`
+- `api/dealer/login.js`
+- `api/download.js`
+- `api/og.js`
+- `api/products/[id].js`
+- `api/products/index.js`
+- `api/schemes.js`
+- `api/zoho.js`
+- `backend/src/services/content.js`
+- `scripts/audit_prices.mjs`
+- `scripts/test-zoho-api.mjs`
+- `vite.config.js`
 
 ## Audit Trail
 
-- EXTRACTED: 419 (100%)
+- EXTRACTED: 368 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -28,8 +28,8 @@
 ## Relationships
 
 - [[Community 55]] (20 shared connections)
-- [[Community 98]] (2 shared connections)
-- [[Zoho Integration Skill]] (2 shared connections)
+- [[Community 190]] (2 shared connections)
+- [[Pricing & Roles Skill]] (2 shared connections)
 
 ## Source Files
 

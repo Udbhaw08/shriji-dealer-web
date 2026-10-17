@@ -1,45 +1,38 @@
 # Community 94
 
-> 16 nodes · cohesion 0.16
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **addEventListener()** (21 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **add()** (19 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **addListener()** (8 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **registerConsumer()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **gt()** (4 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **oh()** (4 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **subscribe()** (4 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **addWindowListener()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **attachListener()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **ch()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **Kt()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **p()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **registerLifecycleListeners()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **saveEventToCache()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **isEventForConsumer()** (2 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **sendRetainedArgumentsForEvent()** (2 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **3. Exactly which keys to fetch, and from where** (9 connections) — `docs/ZOHO-INTEGRATION.md`
+- **ZOHO-INTEGRATION.md — Live Zoho Commerce & Books Backend** (7 connections) — `docs/ZOHO-INTEGRATION.md`
+- **5. API surface** (2 connections) — `docs/ZOHO-INTEGRATION.md`
+- **ZOHO-INTEGRATION.md** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **1. Active Integration Summary** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **2. The Code Seams** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.1 Organization ID — from the Commerce dashboard** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.2 Client ID + Client Secret — from the API console, not the store** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.3 Refresh Token — generated once, then permanent** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.4 Scopes** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.5 Data centre** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.6 The API call the keys unlock** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.7 Still to confirm — only the store owner can answer** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **4. Architecture — the part that cannot be skipped** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **6. Migration checklist** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **How to hand the credentials over safely** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **Sources** (1 connections) — `docs/ZOHO-INTEGRATION.md`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (18 shared connections)
-- [[Client Products Data Store]] (9 shared connections)
-- [[Dependencies & Package Config]] (8 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (5 shared connections)
-- [[Product Requirements Documentation]] (4 shared connections)
-- [[Community 36]] (3 shared connections)
-- [[Community 35]] (3 shared connections)
-- [[Community 67]] (1 shared connections)
-- [[Claude Agent Instructions]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DW7U0CFW.js`
+- `docs/ZOHO-INTEGRATION.md`
 
 ## Audit Trail
 
-- EXTRACTED: 90 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

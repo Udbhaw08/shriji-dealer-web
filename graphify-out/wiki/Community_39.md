@@ -1,52 +1,57 @@
 # Community 39
 
-> 35 nodes · cohesion 0.16
+> 37 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **archify.mjs** (50 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandDeliver()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandMigrate()** (17 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandValidate()** (13 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandRender()** (10 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandPreview()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **diagnostic()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rendererPath()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **renderValidatedArchitecture()** (8 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractQualityArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractRepoRootArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rejectCliArgument()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **assertEvidenceType()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **checkerDiagnostics()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rendererEnv()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rendererFailure()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportArtifactFailure()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **inputDiagnostic()** (4 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **engineeringProfileFromArtifact()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractMigrationOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **formatDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **migrationPathDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **migrationReport()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportArtifactArgumentFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportDeliveryFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- *... and 10 more nodes in this community*
+- **delete()** (29 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **b()** (18 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **.removeEventListener()** (17 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **h()** (14 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **fp()** (13 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **lp()** (13 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Vp()** (13 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Bp()** (9 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **tm()** (9 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **.addEventListener()** (7 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **.blur()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **.scrollIntoView()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **g()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **removeListener()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Rp()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **v()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Yp()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **hm()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **hp()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **toPromise()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **xp()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **detachListener()** (4 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **.getClientRects()** (4 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **.unobserveUsing()** (4 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **removeWindowListener()** (4 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [[Community 98]] (35 shared connections)
-- [[Community 65]] (4 shared connections)
-- [[Community 88]] (4 shared connections)
-- [[Community 106]] (3 shared connections)
-- [[Testing & Workflow Skill]] (1 shared connections)
+- [[Price Presentation & Product UI]] (41 shared connections)
+- [[Oxlint Linter Configuration]] (12 shared connections)
+- [[Zoho Integration Architecture]] (12 shared connections)
+- [[Design System & UI Tokens]] (11 shared connections)
+- [[Live Pricing Audit Tool]] (10 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (10 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (10 shared connections)
+- [[Graphify Workflow]] (4 shared connections)
+- [[Community 43]] (3 shared connections)
+- [[Community 64]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
+- `ios/App/App/public/assets/index-DW7U0CFW.js`
 
 ## Audit Trail
 
-- EXTRACTED: 229 (97%)
-- INFERRED: 6 (3%)
+- EXTRACTED: 251 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

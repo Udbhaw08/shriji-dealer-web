@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **sync-all.mjs** (2 connections) — `scripts/sync-all.mjs`
-- **rootDir** (1 connections) — `scripts/sync-all.mjs`
-- **run()** (1 connections) — `scripts/sync-all.mjs`
+- **check-whatsapp-status.js** (2 connections) — `backend/scripts/check-whatsapp-status.js`
+- **checkStatus()** (1 connections) — `backend/scripts/check-whatsapp-status.js`
+- **__dirname** (1 connections) — `backend/scripts/check-whatsapp-status.js`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `scripts/sync-all.mjs`
+- `backend/scripts/check-whatsapp-status.js`
 
 ## Audit Trail
 

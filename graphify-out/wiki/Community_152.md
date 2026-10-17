@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **web-DPADySG-.js** (8 connections) — `ios/App/App/public/assets/web-DPADySG-.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-DPADySG-.js`
-- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-DPADySG-.js`
-- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-DPADySG-.js`
-- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-DPADySG-.js`
-- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-DPADySG-.js`
-- **getState()** (1 connections) — `ios/App/App/public/assets/web-DPADySG-.js`
-- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-DPADySG-.js`
-- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-DPADySG-.js`
+- **Primary Commands** (5 connections) — `.agents/skills/graphify/SKILL.md`
+- **Graphify Knowledge Graph Skill** (4 connections) — `.agents/skills/graphify/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **1. Query the Graph (Context-Efficient)** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **2. Trace Relationships (Shortest Path)** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **3. Explain a Node or Symbol** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **4. Update the Graph (AST Re-Extraction)** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **Key Output Artifacts in `graphify-out/`** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **Why Use Graphify** (1 connections) — `.agents/skills/graphify/SKILL.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-DPADySG-.js`
+- `.agents/skills/graphify/SKILL.md`
 
 ## Audit Trail
 

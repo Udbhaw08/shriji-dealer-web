@@ -1,41 +1,35 @@
 # Community 104
 
-> 14 nodes · cohesion 0.29
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **Products.jsx** (25 connections) — `src/pages/Products.jsx`
-- **ProductSearchBar.jsx** (15 connections) — `src/components/ProductSearchBar.jsx`
-- **useProducts()** (12 connections) — `src/data/productsStore.js`
-- **searchHelper.js** (11 connections) — `src/data/searchHelper.js`
-- **ProductSearchBar()** (6 connections) — `src/components/ProductSearchBar.jsx`
-- **getSuggestions()** (5 connections) — `src/data/searchHelper.js`
-- **autocorrectQuery()** (4 connections) — `src/data/searchHelper.js`
-- **buildSearchDictionary()** (4 connections) — `src/data/searchHelper.js`
-- **getPopularSearches()** (2 connections) — `src/data/searchHelper.js`
-- **scoreProduct()** (2 connections) — `src/data/searchHelper.js`
-- **COLLOQUIAL_SYNONYMS** (1 connections) — `src/data/searchHelper.js`
-- **levenshteinDistance()** (1 connections) — `src/data/searchHelper.js`
-- **Group()** (1 connections) — `src/pages/Products.jsx`
-- **SORT_FNS** (1 connections) — `src/pages/Products.jsx`
+- **web-CTECFstK.js** (13 connections) — `android/app/src/main/assets/public/assets/web-CTECFstK.js`
+- **applyPrefix()** (4 connections) — `android/app/src/main/assets/public/assets/web-CTECFstK.js`
+- **keys()** (4 connections) — `android/app/src/main/assets/public/assets/web-CTECFstK.js`
+- **get()** (3 connections) — `android/app/src/main/assets/public/assets/web-CTECFstK.js`
+- **migrate()** (3 connections) — `android/app/src/main/assets/public/assets/web-CTECFstK.js`
+- **rawKeys()** (3 connections) — `android/app/src/main/assets/public/assets/web-CTECFstK.js`
+- **clear()** (2 connections) — `android/app/src/main/assets/public/assets/web-CTECFstK.js`
+- **remove()** (2 connections) — `android/app/src/main/assets/public/assets/web-CTECFstK.js`
+- **removeOld()** (2 connections) — `android/app/src/main/assets/public/assets/web-CTECFstK.js`
+- **set()** (2 connections) — `android/app/src/main/assets/public/assets/web-CTECFstK.js`
+- **configure()** (1 connections) — `android/app/src/main/assets/public/assets/web-CTECFstK.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-CTECFstK.js`
+- **impl()** (1 connections) — `android/app/src/main/assets/public/assets/web-CTECFstK.js`
+- **prefix()** (1 connections) — `android/app/src/main/assets/public/assets/web-CTECFstK.js`
 
 ## Relationships
 
-- [[Design System & UI Tokens]] (25 shared connections)
-- [[Community 51]] (7 shared connections)
-- [[Community 45]] (5 shared connections)
-- [[Community 126]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/components/ProductSearchBar.jsx`
-- `src/data/productsStore.js`
-- `src/data/searchHelper.js`
-- `src/pages/Products.jsx`
+- `android/app/src/main/assets/public/assets/web-CTECFstK.js`
 
 ## Audit Trail
 
-- EXTRACTED: 90 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

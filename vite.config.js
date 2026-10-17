@@ -13,11 +13,15 @@ import {
   DEFAULT_SCHEMES,
 } from './api/zoho.js'
 import downloadHandler from './api/download.js'
-import {
-  getSupabaseBanners,
-  getSupabaseSchemes,
-  getSupabaseBranding,
-} from './backend/src/services/content.js'
+
+async function loadContentService() {
+  try {
+    return await import('./backend/src/services/content.js');
+  } catch (err) {
+    console.warn('[vite] Backend content service not loaded:', err.message);
+    return null;
+  }
+}
 
 function zohoApiPlugin() {
   return {
@@ -64,7 +68,8 @@ function zohoApiPlugin() {
           try {
             const urlObj = new URL(req.url, 'http://localhost');
             const refresh = urlObj.searchParams.get('refresh') === 'true';
-            const supabaseBanners = await getSupabaseBanners();
+            const contentService = await loadContentService();
+            const supabaseBanners = contentService ? await contentService.getSupabaseBanners() : null;
             let finalBanners;
             if (Array.isArray(supabaseBanners) && supabaseBanners.length > 0) {
               finalBanners = supabaseBanners;
@@ -90,7 +95,8 @@ function zohoApiPlugin() {
           try {
             const urlObj = new URL(req.url, 'http://localhost');
             const refresh = urlObj.searchParams.get('refresh') === 'true';
-            const supabaseSchemes = await getSupabaseSchemes();
+            const contentService = await loadContentService();
+            const supabaseSchemes = contentService ? await contentService.getSupabaseSchemes() : null;
             const hasActiveSupabase = supabaseSchemes && Array.isArray(supabaseSchemes.active) && supabaseSchemes.active.length > 0;
 
             let finalSchemes;
@@ -116,7 +122,8 @@ function zohoApiPlugin() {
         // Branding / Logos route: /api/branding (Supabase)
         if (req.url === '/api/branding' || req.url.startsWith('/api/branding?')) {
           try {
-            const branding = await getSupabaseBranding();
+            const contentService = await loadContentService();
+            const branding = contentService ? await contentService.getSupabaseBranding() : null;
             res.statusCode = 200;
             res.setHeader('Content-Type', 'application/json');
             return res.end(JSON.stringify({ ok: true, branding }));

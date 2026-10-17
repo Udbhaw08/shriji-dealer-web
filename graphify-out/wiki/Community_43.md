@@ -1,62 +1,57 @@
 # Community 43
 
-> 32 nodes · cohesion 0.11
+> 34 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **.send()** (54 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **ChromeVisualBrowser** (21 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **export-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **motion-governor-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **PipeCdp** (7 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **viewer-identifiers-browser.test.mjs** (7 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **.inspect()** (5 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **.attach()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.close()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.constructor()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **evaluate()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.failAll()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **record()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **media()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **screenshot()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **run()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **.consume()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.waitFor()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- *... and 7 more nodes in this community*
+- **i()** (66 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **cs()** (19 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **da()** (12 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **s()** (12 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **fa()** (10 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **hs()** (7 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **ms()** (7 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **pa()** (7 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **un()** (7 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **an()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **ds()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **mn()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **ps()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **ss()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **us()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **ls()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **nt()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **to()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **zs()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **ks()** (4 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Oa()** (4 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **vs()** (4 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **ws()** (4 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **za()** (4 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **ao()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [[Community 58]] (12 shared connections)
-- [[Community 47]] (10 shared connections)
-- [[Community 80]] (10 shared connections)
-- [[Community 149]] (6 shared connections)
-- [[Community 131]] (5 shared connections)
-- [[Community 168]] (5 shared connections)
-- [[Community 117]] (5 shared connections)
-- [[Community 118]] (5 shared connections)
-- [[Community 89]] (2 shared connections)
-- [[Community 102]] (1 shared connections)
-- [[Community 30]] (1 shared connections)
-- [[Community 166]] (1 shared connections)
+- [[Price Presentation & Product UI]] (37 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (24 shared connections)
+- [[Design System & UI Tokens]] (20 shared connections)
+- [[Oxlint Linter Configuration]] (19 shared connections)
+- [[Live Pricing Audit Tool]] (14 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (9 shared connections)
+- [[Zoho Integration Architecture]] (6 shared connections)
+- [[Community 64]] (6 shared connections)
+- [[Graphify Workflow]] (4 shared connections)
+- [[Community 39]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/export-browser.test.mjs`
-- `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- `ios/App/App/public/assets/index-DW7U0CFW.js`
 
 ## Audit Trail
 
-- EXTRACTED: 174 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 248 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **skill-metadata.test.mjs** (5 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
-- **authoringContract** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
-- **frontmatter** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
-- **skill** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
+- **repository-evidence-replacement.test.mjs** (5 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **checkEvidence()** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **fixture()** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/skill-metadata.test.mjs`
+- `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
 
 ## Audit Trail
 

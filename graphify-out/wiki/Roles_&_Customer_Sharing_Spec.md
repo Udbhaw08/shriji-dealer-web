@@ -1,12 +1,13 @@
 # Roles & Customer Sharing Spec
 
-> 58 nodes · cohesion 0.05
+> 56 nodes · cohesion 0.06
 
 ## Key Concepts
 
 - **cli.mjs** (43 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
 - **diagnostics.mjs** (27 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
 - **throwDiagnosticError()** (16 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **throwDiagnosticProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
 - **writeDiagram()** (10 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
 - **engineering-profiles.mjs** (10 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
 - **validator.mjs** (10 connections) — `.agents/skills/archify/renderers/shared/validator.mjs`
@@ -16,7 +17,6 @@
 - **loadDiagram()** (9 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
 - **loadDiagramWithBrandMarks()** (8 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
 - **settled-flow.test.mjs** (8 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **prepareDiagramBrandMarks()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 - **validateEngineeringProfile()** (6 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
 - **normalizedDiagnostic()** (4 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
 - **deploymentOwnershipDiagnostics()** (4 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
@@ -25,30 +25,29 @@
 - **fallbackDiagnostic()** (3 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
 - **withDiagnosticRecordingSuppressed()** (3 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
 - **renderCards()** (3 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **captureTimeoutMilliseconds()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **mapConcurrent()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 - **installRendererDiagnosticBoundary()** (2 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
 - **plainObject()** (2 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- *... and 33 more nodes in this community*
+- **rendererFailure()** (2 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **subject()** (2 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- *... and 31 more nodes in this community*
 
 ## Relationships
 
-- [[Pricing & Roles Skill]] (16 shared connections)
-- [[Product Brand & Business Vision]] (12 shared connections)
-- [[Zoho Integration Skill]] (10 shared connections)
-- [[Testing & Workflow Skill]] (7 shared connections)
-- [[Community 63]] (7 shared connections)
-- [[Community 124]] (6 shared connections)
-- [[Graphify Knowledge Graph Skill]] (4 shared connections)
-- [[Community 42]] (4 shared connections)
-- [[Community 88]] (4 shared connections)
-- [[Community 106]] (4 shared connections)
-- [[Community 144]] (3 shared connections)
-- [[Project Readme & Layout]] (1 shared connections)
+- [[Pricing & Roles Skill]] (11 shared connections)
+- [[Community 41]] (10 shared connections)
+- [[Community 37]] (9 shared connections)
+- [[Community 73]] (8 shared connections)
+- [[Product Brand & Business Vision]] (8 shared connections)
+- [[Community 92]] (7 shared connections)
+- [[Testing & Workflow Skill]] (6 shared connections)
+- [[Community 126]] (6 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (5 shared connections)
+- [[Community 90]] (4 shared connections)
+- [[Community 108]] (4 shared connections)
+- [[Community 146]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 - `.agents/skills/archify/renderers/shared/cli.mjs`
 - `.agents/skills/archify/renderers/shared/diagnostics.mjs`
 - `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
@@ -60,7 +59,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 252 (100%)
+- EXTRACTED: 256 (100%)
 - INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 

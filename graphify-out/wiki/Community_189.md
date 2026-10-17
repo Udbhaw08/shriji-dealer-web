@@ -15,11 +15,11 @@
 
 ## Relationships
 
-- [[Community 106]] (8 shared connections)
-- [[Community 112]] (5 shared connections)
-- [[Community 63]] (4 shared connections)
+- [[Community 108]] (8 shared connections)
+- [[Community 113]] (5 shared connections)
+- [[Community 73]] (4 shared connections)
 - [[Product Brand & Business Vision]] (3 shared connections)
-- [[Community 43]] (1 shared connections)
+- [[Community 52]] (1 shared connections)
 
 ## Source Files
 

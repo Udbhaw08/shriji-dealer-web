@@ -33,11 +33,11 @@
 ## Relationships
 
 - [[Community 75]] (20 shared connections)
-- [[Community 93]] (18 shared connections)
-- [[Zoho Integration Skill]] (5 shared connections)
-- [[Community 113]] (4 shared connections)
-- [[Community 124]] (2 shared connections)
-- [[Community 98]] (2 shared connections)
+- [[Community 97]] (18 shared connections)
+- [[Pricing & Roles Skill]] (5 shared connections)
+- [[Community 115]] (4 shared connections)
+- [[Community 126]] (2 shared connections)
+- [[Community 190]] (2 shared connections)
 
 ## Source Files
 

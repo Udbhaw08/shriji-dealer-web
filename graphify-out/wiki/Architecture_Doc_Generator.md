@@ -1,6 +1,6 @@
 # Architecture Doc Generator
 
-> 59 nodes · cohesion 0.07
+> 56 nodes · cohesion 0.07
 
 ## Key Concepts
 
@@ -8,7 +8,6 @@
 - **Z()** (25 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
 - **wl()** (18 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
 - **warn()** (16 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **l()** (14 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
 - **Si()** (13 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
 - **_u()** (12 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
 - **Uu()** (12 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
@@ -29,18 +28,19 @@
 - **Du()** (7 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
 - **em()** (7 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
 - **oc()** (7 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- *... and 34 more nodes in this community*
+- **wu()** (7 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- *... and 31 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (70 shared connections)
-- [[Master Codebase Architecture Reference]] (47 shared connections)
-- [[Zoho Integration Architecture]] (31 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (17 shared connections)
-- [[Live Pricing Audit Tool]] (14 shared connections)
-- [[Pricing Regression Test Suite]] (10 shared connections)
-- [[Community 46]] (9 shared connections)
-- [[Community 38]] (6 shared connections)
+- [[Dealer Auth & Session Management]] (65 shared connections)
+- [[Product Pages Specification]] (46 shared connections)
+- [[Client Products Data Store]] (30 shared connections)
+- [[Pricing Regression Test Suite]] (12 shared connections)
+- [[Community 79]] (11 shared connections)
+- [[Claude Agent Instructions]] (9 shared connections)
+- [[Dependencies & Package Config]] (9 shared connections)
+- [[Community 45]] (5 shared connections)
 - [[Mobile Responsive UI Skill]] (5 shared connections)
 
 ## Source Files
@@ -49,7 +49,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 435 (100%)
+- EXTRACTED: 406 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

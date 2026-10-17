@@ -1,15 +1,15 @@
 # Community 222
 
-> 6 nodes · cohesion 0.47
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **clean-skill-staging.test.mjs** (5 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
-- **repositoryFixture()** (3 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
-- **git()** (2 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
-- **write()** (2 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
-- **canonicalNotices** (1 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
-- **stagerPath** (1 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
+- **automatic-port-spread.test.mjs** (5 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- **connectionPoints()** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- **fanOutArchitecture()** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
 
 ## Relationships
 
@@ -17,11 +17,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/clean-skill-staging.test.mjs`
+- `.agents/skills/archify/test/automatic-port-spread.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,30 +4,28 @@
 
 ## Key Concepts
 
-- **output-path.test.mjs** (16 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **baseFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **copyInstalledSkill()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **directoryAliasesNames()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **headFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **workflowFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **Shriji Backend Skill** (9 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Commands** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Environment (backend/.env — never committed)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Frontend Integration (built)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Hard Rules** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Key Files (populated as built)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Ownership Rule (invariant)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Pending Seam — price proxy switch (do when backend is deployed)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Stack Record — what was chosen, do not substitute** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (3 shared connections)
-- [[Community 65]] (2 shared connections)
-- [[Community 88]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/output-path.test.mjs`
+- `.agents/skills/shriji-backend/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
