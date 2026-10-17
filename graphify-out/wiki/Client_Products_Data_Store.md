@@ -1,55 +1,56 @@
 # Client Products Data Store
 
-> 65 nodes · cohesion 0.06
+> 71 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **get()** (49 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **has()** (24 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **add()** (19 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **resolve()** (17 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **nc()** (16 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **constructor()** (15 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **getImmediate()** (15 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **Kd()** (12 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **pc()** (12 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **sf()** (12 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **gm()** (11 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **gu()** (11 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **initialize()** (11 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **nm()** (11 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **ku()** (10 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **od()** (10 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **isInitialized()** (9 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **addComponent()** (8 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **getProvider()** (8 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **_key()** (8 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **xs()** (8 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **bs()** (7 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **mf()** (7 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **onExecution()** (7 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **_openPopup()** (7 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- *... and 40 more nodes in this community*
+- **get()** (49 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **has()** (24 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **np()** (23 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Mu()** (19 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **resolve()** (17 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **nc()** (16 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **constructor()** (15 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **getImmediate()** (15 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **bm()** (13 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **cn()** (12 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Kd()** (12 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **pc()** (12 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **sf()** (12 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **gm()** (11 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **gu()** (11 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **initialize()** (11 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **nm()** (11 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **ku()** (10 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **od()** (10 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **isInitialized()** (9 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **km()** (9 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **addComponent()** (8 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **getProvider()** (8 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **_key()** (8 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **om()** (8 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- *... and 46 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (82 shared connections)
-- [[Dependencies & Package Config]] (34 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (25 shared connections)
-- [[Community 41]] (18 shared connections)
-- [[Product Brand & Business Vision]] (14 shared connections)
-- [[Community 37]] (14 shared connections)
-- [[Vercel Deployment Routing]] (13 shared connections)
-- [[Master Codebase Architecture Reference]] (12 shared connections)
-- [[Community 29]] (5 shared connections)
+- [[Price Presentation & Product UI]] (90 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (43 shared connections)
+- [[Claude Agent Instructions]] (29 shared connections)
+- [[Dependencies & Package Config]] (25 shared connections)
+- [[Community 35]] (15 shared connections)
+- [[Community 36]] (14 shared connections)
+- [[Community 67]] (14 shared connections)
+- [[Product Requirements Documentation]] (12 shared connections)
+- [[Community 94]] (9 shared connections)
+- [[Community 50]] (4 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BW8OD3MU.js`
+- `ios/App/App/public/assets/index-DW7U0CFW.js`
 
 ## Audit Trail
 
-- EXTRACTED: 485 (100%)
+- EXTRACTED: 559 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

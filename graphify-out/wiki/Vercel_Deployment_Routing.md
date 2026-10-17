@@ -1,55 +1,55 @@
 # Vercel Deployment Routing
 
-> 42 nodes · cohesion 0.09
+> 42 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **delete()** (29 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **b()** (18 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **.removeEventListener()** (17 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **h()** (14 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **fp()** (13 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **lp()** (13 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **Vp()** (13 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **Bp()** (9 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **tm()** (9 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **.addEventListener()** (7 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **.blur()** (6 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **.scrollIntoView()** (6 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **g()** (6 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **removeListener()** (6 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **Rp()** (6 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **sd()** (6 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **v()** (6 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **Yp()** (6 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **ee()** (5 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **hp()** (5 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **toPromise()** (5 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **uh()** (5 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **xp()** (5 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **zp()** (5 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **detachListener()** (4 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
+- **properties** (30 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **col** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **height** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **brand** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **channelX** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **channelY** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **from** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **labelDx** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **labelDy** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **lane** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **note** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **step** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **sublabel** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **tag** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **to** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **toSide** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **variant** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **yOffset** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **maximum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 - *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (44 shared connections)
-- [[Dependencies & Package Config]] (18 shared connections)
-- [[Client Products Data Store]] (13 shared connections)
-- [[Product Brand & Business Vision]] (12 shared connections)
-- [[Community 41]] (11 shared connections)
-- [[Master Codebase Architecture Reference]] (10 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (7 shared connections)
-- [[Community 29]] (5 shared connections)
-- [[Community 37]] (3 shared connections)
+- [[Community 139]] (3 shared connections)
+- [[Community 269]] (1 shared connections)
+- [[Community 291]] (1 shared connections)
+- [[Community 270]] (1 shared connections)
+- [[Community 292]] (1 shared connections)
+- [[Community 271]] (1 shared connections)
+- [[Community 293]] (1 shared connections)
+- [[Community 244]] (1 shared connections)
+- [[Community 245]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BW8OD3MU.js`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 271 (100%)
+- EXTRACTED: 93 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

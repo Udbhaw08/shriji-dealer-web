@@ -1,8 +1,8 @@
 # sql
 
-> God node · 43 connections · `backend/src/db/pool.js`
+> God node · 56 connections · `backend/src/db/pool.js`
 
-**Community:** [[Community 51]]
+**Community:** [[Community 29]]
 
 ## Connections by Relation
 
@@ -11,6 +11,7 @@
 - [[applyCrmAccountState()]] `EXTRACTED`
 - [[generateUniqueDealerCode()]] `INFERRED`
 - [[syncCatalog()]] `EXTRACTED`
+- [[getActiveContent()]] `EXTRACTED`
 - [[applyDealer()]] `EXTRACTED`
 - [[createInvite()]] `EXTRACTED`
 - [[crmPoll()]] `EXTRACTED`
@@ -26,7 +27,6 @@
 - [[revokeStaff()]] `EXTRACTED`
 - [[toggleAllStaffPrice()]] `EXTRACTED`
 - [[toggleStaffPrice()]] `EXTRACTED`
-- [[applied()]] `EXTRACTED`
 
 ### contains
 - [[pool.js]] `EXTRACTED`
@@ -40,12 +40,18 @@
 - [[catalog.js]] `EXTRACTED`
 - [[webhooks.js]] `EXTRACTED`
 - [[crmPoll.js]] `EXTRACTED`
+- [[content.js]] `EXTRACTED`
 - [[catalogSync.js]] `EXTRACTED`
+- [[content.js]] `EXTRACTED`
 - [[notifications.js]] `EXTRACTED`
 - [[auth.js]] `EXTRACTED`
 - [[health.js]] `EXTRACTED`
 - [[audit.js]] `EXTRACTED`
 - [[migrate.js]] `EXTRACTED`
+- [[seed-content.js]] `EXTRACTED`
+- [[inspect-db.js]] `EXTRACTED`
+- [[migrate-content.js]] `EXTRACTED`
+- [[setup-buckets.js]] `EXTRACTED`
 
 ---
 

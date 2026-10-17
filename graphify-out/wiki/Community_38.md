@@ -1,55 +1,55 @@
 # Community 38
 
-> 35 nodes · cohesion 0.10
+> 35 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **np()** (23 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **addEventListener()** (21 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **E()** (19 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **lm()** (19 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **bm()** (13 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **cn()** (12 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **cm()** (11 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **am()** (9 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **km()** (9 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **addListener()** (8 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **om()** (8 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **mm()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **zm()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **jm()** (6 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **pm()** (5 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **qm()** (5 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **vl()** (5 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **zi()** (5 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **im()** (4 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **oh()** (4 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **rm()** (4 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **Um()** (4 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **addWindowListener()** (3 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **attachListener()** (3 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **Bn()** (3 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- **kf()** (22 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Ur()** (21 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Fi()** (11 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **jr()** (9 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Hr()** (8 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **br()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Gr()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **jf()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **jn()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Hi()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Kr()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **ri()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Rr()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **wr()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **xr()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **zr()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **qf()** (4 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **qr()** (4 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Xf()** (4 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **zt()** (4 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **beforeAuthStateChanged()** (3 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Cr()** (3 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **If()** (3 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Lr()** (3 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **sc()** (3 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
 - *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (38 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (25 shared connections)
-- [[Product Pages Specification]] (18 shared connections)
-- [[Zoho Integration Architecture]] (18 shared connections)
-- [[Community 31]] (12 shared connections)
-- [[Zoho Integration Skill]] (6 shared connections)
-- [[Community 62]] (4 shared connections)
-- [[Design System & UI Tokens]] (4 shared connections)
-- [[Graphify Workflow]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (35 shared connections)
+- [[Master Codebase Architecture Reference]] (8 shared connections)
+- [[Zoho Integration Architecture]] (7 shared connections)
+- [[Architecture Doc Generator]] (6 shared connections)
+- [[Community 46]] (5 shared connections)
+- [[Pricing Regression Test Suite]] (5 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (4 shared connections)
+- [[Mobile Responsive UI Skill]] (3 shared connections)
+- [[Live Pricing Audit Tool]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
 
 ## Audit Trail
 
-- EXTRACTED: 242 (100%)
+- EXTRACTED: 184 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

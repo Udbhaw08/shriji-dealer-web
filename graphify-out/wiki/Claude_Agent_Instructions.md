@@ -1,64 +1,56 @@
 # Claude Agent Instructions
 
-> 45 nodes · cohesion 0.10
+> 48 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **server.js** (31 connections) — `backend/src/server.js`
-- **pool.js** (18 connections) — `backend/src/db/pool.js`
-- **catalog.js** (16 connections) — `backend/src/services/catalog.js`
-- **webhooks.js** (14 connections) — `backend/src/routes/webhooks.js`
-- **logger.js** (14 connections) — `backend/src/utils/logger.js`
-- **env.js** (13 connections) — `backend/src/config/env.js`
-- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
-- **log** (13 connections) — `backend/src/utils/logger.js`
-- **env** (11 connections) — `backend/src/config/env.js`
-- **index.js** (11 connections) — `backend/src/jobs/index.js`
-- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
-- **notifications.js** (9 connections) — `backend/src/services/notifications.js`
-- **errorHandler.js** (7 connections) — `backend/src/middleware/errorHandler.js`
-- **syncCatalog()** (7 connections) — `backend/src/services/catalog.js`
-- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
-- **prices.js** (6 connections) — `backend/src/routes/prices.js`
-- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
-- **migrate()** (4 connections) — `backend/src/db/migrate.js`
-- **catalogFor()** (4 connections) — `backend/src/services/catalog.js`
-- **loadCatalog()** (4 connections) — `backend/src/services/catalog.js`
-- **applied()** (3 connections) — `backend/src/db/migrate.js`
-- **catalogSync()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **tokenCleanup()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **markPollRun()** (3 connections) — `backend/src/jobs/crmPoll.js`
-- **startJobs()** (3 connections) — `backend/src/jobs/index.js`
-- *... and 20 more nodes in this community*
+- **create()** (27 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Z()** (25 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **wl()** (18 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **warn()** (16 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Si()** (13 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **_u()** (12 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Uu()** (12 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **bi()** (11 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **tu()** (10 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **kl()** (9 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Nd()** (9 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **nu()** (9 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **request()** (9 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Sp()** (9 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **su()** (9 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **eu()** (8 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **hu()** (8 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **iu()** (8 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **ou()** (8 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Du()** (7 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **em()** (7 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **oc()** (7 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **wu()** (7 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Xc()** (7 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **zu()** (7 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- *... and 23 more nodes in this community*
 
 ## Relationships
 
-- [[Community 51]] (36 shared connections)
-- [[Community 49]] (15 shared connections)
-- [[Community 95]] (11 shared connections)
-- [[Community 101]] (6 shared connections)
+- [[Price Presentation & Product UI]] (57 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (45 shared connections)
+- [[Client Products Data Store]] (29 shared connections)
+- [[Community 35]] (14 shared connections)
+- [[Product Requirements Documentation]] (9 shared connections)
+- [[Community 36]] (7 shared connections)
+- [[Community 67]] (6 shared connections)
+- [[Dependencies & Package Config]] (6 shared connections)
+- [[Community 50]] (2 shared connections)
+- [[Community 94]] (1 shared connections)
 
 ## Source Files
 
-- `backend/src/config/env.js`
-- `backend/src/db/migrate.js`
-- `backend/src/db/pool.js`
-- `backend/src/jobs/catalogSync.js`
-- `backend/src/jobs/crmPoll.js`
-- `backend/src/jobs/index.js`
-- `backend/src/middleware/errorHandler.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/routes/prices.js`
-- `backend/src/routes/webhooks.js`
-- `backend/src/server.js`
-- `backend/src/services/catalog.js`
-- `backend/src/services/notifications.js`
-- `backend/src/utils/logger.js`
-- `backend/test/priceGate.test.mjs`
+- `ios/App/App/public/assets/index-DW7U0CFW.js`
 
 ## Audit Trail
 
-- EXTRACTED: 262 (100%)
+- EXTRACTED: 368 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

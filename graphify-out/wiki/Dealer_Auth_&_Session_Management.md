@@ -1,55 +1,55 @@
 # Dealer Auth & Session Management
 
-> 176 nodes · cohesion 0.02
+> 174 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **_()** (683 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **error()** (11 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **Xm()** (11 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **close()** (7 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **un()** (7 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **validatePassword()** (7 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **ad()** (6 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **an()** (6 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **checkDestroyed()** (6 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **_getAppCheckToken()** (6 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **onAuthEvent()** (6 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **op()** (6 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **removeAuthTokenListener()** (6 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **Ud()** (6 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **us()** (6 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **addAuthTokenListener()** (5 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **assertAuthConfigured()** (5 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **eh()** (5 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **forEachObserver()** (5 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **getToken()** (5 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **gl()** (5 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **Gp()** (5 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **initializeServiceWorkerMessaging()** (5 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **ls()** (5 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **no()** (5 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- *... and 151 more nodes in this community*
+- **_()** (683 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Xm()** (11 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **_onStorageEvent()** (9 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **cf()** (8 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **close()** (7 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **gf()** (7 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **validatePassword()** (7 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **ad()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **checkDestroyed()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **_getAppCheckToken()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **op()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **removeAuthTokenListener()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **removeListener()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Ud()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **_withRetries()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **wo()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **addAuthTokenListener()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **assertAuthConfigured()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **forEachObserver()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **getHeartbeatsHeader()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **getToken()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **gl()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **initializeServiceWorkerMessaging()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **no()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **_poll()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- *... and 149 more nodes in this community*
 
 ## Relationships
 
-- [[Dependencies & Package Config]] (109 shared connections)
-- [[Master Codebase Architecture Reference]] (101 shared connections)
-- [[Client Products Data Store]] (82 shared connections)
-- [[Product Brand & Business Vision]] (80 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (66 shared connections)
-- [[Vercel Deployment Routing]] (44 shared connections)
-- [[Community 29]] (42 shared connections)
-- [[Community 37]] (40 shared connections)
-- [[Community 41]] (38 shared connections)
+- [[Zoho Integration Architecture]] (93 shared connections)
+- [[Master Codebase Architecture Reference]] (91 shared connections)
+- [[Live Pricing Audit Tool]] (85 shared connections)
+- [[Pricing Regression Test Suite]] (82 shared connections)
+- [[Architecture Doc Generator]] (70 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (61 shared connections)
+- [[Mobile Responsive UI Skill]] (54 shared connections)
+- [[Community 38]] (35 shared connections)
+- [[Community 46]] (32 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BW8OD3MU.js`
+- `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
 
 ## Audit Trail
 
-- EXTRACTED: 1173 (100%)
+- EXTRACTED: 1166 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

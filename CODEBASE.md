@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
- zoho> Last synchronized: 2026-10-15T04:20:29.042+05:30 (GMT+5:30)
-> Total Project Files: 1027
+> Last synchronized: 2026-10-17T23:33:02.943+05:30 (GMT+5:30)
+> Total Project Files: 1068
 
 ---
 
@@ -73,6 +73,11 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 | `/` | `Home` | Direct application route |
 | `/products/:id` | `Product` | Direct application route |
 | `/support` | `Support` | Direct application route |
+| `/privacy` | `PrivacyPolicy` | Direct application route |
+| `/privacy-policy` | `PrivacyPolicy` | Direct application route |
+| `/terms` | `TermsOfService` | Direct application route |
+| `/terms-of-service` | `TermsOfService` | Direct application route |
+| `/data-deletion` | `PrivacyPolicy` | Direct application route |
 | `/login` | `Login` | Direct application route |
 | `*` | `Navigate` | Direct application route |
 
@@ -85,14 +90,16 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/pages/Favorites.jsx`** (6.7 KB)
 - **`src/pages/Home.jsx`** (18.5 KB)
 - **`src/pages/Login.jsx`** (65.1 KB)
+- **`src/pages/PrivacyPolicy.jsx`** (7.2 KB)
 - **`src/pages/Product.jsx`** (30.4 KB)
 - **`src/pages/Products.jsx`** (24.3 KB)
-- **`src/pages/Schemes.jsx`** (7.4 KB)
+- **`src/pages/Schemes.jsx`** (14.3 KB)
 - **`src/pages/Support.jsx`** (4.7 KB)
+- **`src/pages/TermsOfService.jsx`** (4.2 KB)
 
 ### 4.2 Reusable Components (`src/components/` & `src/ui.jsx`)
 - **`src/components/EmailVerificationPrompt.jsx`** (9.5 KB)
-- **`src/components/HeroSlider.jsx`** (5.8 KB)
+- **`src/components/HeroSlider.jsx`** (9.2 KB)
 - **`src/components/MobileBottomNav.jsx`** (4.4 KB)
 - **`src/components/NativeBackHandler.jsx`** (3.7 KB)
 - **`src/components/PriceBlock.jsx`** (6.4 KB)
@@ -122,13 +129,17 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/data/validators.js`** (1.6 KB)
 
 ### 4.4 Zoho API & Serverless Handlers (`api/`)
+- **`api/banners.js`** (1.1 KB)
+- **`api/branding.js`** (0.4 KB)
 - **`api/dealer/apply.js`** (1.0 KB)
 - **`api/dealer/info.js`** (0.9 KB)
 - **`api/dealer/login.js`** (1.1 KB)
+- **`api/download.js`** (4.4 KB)
 - **`api/og.js`** (3.9 KB)
 - **`api/products/index.js`** (1.1 KB)
 - **`api/products/[id].js`** (1.1 KB)
-- **`api/zoho.js`** (27.3 KB)
+- **`api/schemes.js`** (1.2 KB)
+- **`api/zoho.js`** (42.1 KB)
 
 ### 4.5 Automation & Utility Scripts (`scripts/`)
 - **`scripts/audit_prices.mjs`** (3.8 KB)
@@ -137,6 +148,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`scripts/get-refresh-token.mjs`** (2.3 KB)
 - **`scripts/make-scheme-pdfs.mjs`** (2.2 KB)
 - **`scripts/sync-all.mjs`** (1.2 KB)
+- **`scripts/test-supabase.mjs`** (0.6 KB)
 - **`scripts/test-zoho-api.mjs`** (1.4 KB)
 - **`scripts/watch-sync.mjs`** (1.4 KB)
 

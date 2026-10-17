@@ -1,56 +1,74 @@
 # Design System & UI Tokens
 
-> 77 nodes · cohesion 0.05
+> 78 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **delete()** (29 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **reject()** (20 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **mc()** (17 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **Yd()** (17 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **Id()** (15 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **Mp()** (14 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **getIdToken()** (13 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **Vd()** (13 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **Fd()** (12 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **qd()** (12 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **Q()** (11 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **hf()** (10 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **uf()** (10 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **Wf()** (9 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **Bd()** (8 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **directlySetCurrentUser()** (8 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **ft()** (8 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **initializeCurrentUser()** (8 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **getCurrentUser()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **Ld()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **setPersistence()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **_setRedirectUser()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **signOut()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **Di()** (6 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- **_fromGetAccountInfoResponse()** (6 connections) — `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
-- *... and 52 more nodes in this community*
+- **main.jsx** (40 connections) — `src/main.jsx`
+- **ui.jsx** (38 connections) — `src/ui.jsx`
+- **useLanguage()** (32 connections) — `src/data/i18n.js`
+- **useSession()** (30 connections) — `src/data/session.js`
+- **i18n.js** (25 connections) — `src/data/i18n.js`
+- **Home.jsx** (24 connections) — `src/pages/Home.jsx`
+- **site.js** (22 connections) — `src/data/site.js`
+- **t()** (20 connections) — `src/data/i18n.js`
+- **Favorites.jsx** (20 connections) — `src/pages/Favorites.jsx`
+- **ProductCard.jsx** (19 connections) — `src/components/ProductCard.jsx`
+- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
+- **Schemes.jsx** (16 connections) — `src/pages/Schemes.jsx`
+- **Icon()** (16 connections) — `src/ui.jsx`
+- **PriceBlock.jsx** (15 connections) — `src/components/PriceBlock.jsx`
+- **ProductCard()** (15 connections) — `src/components/ProductCard.jsx`
+- **isDealer()** (15 connections) — `src/data/dealer.js`
+- **Support.jsx** (15 connections) — `src/pages/Support.jsx`
+- **priceFor()** (14 connections) — `src/data/dealer.js`
+- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
+- **COMPANY** (14 connections) — `src/data/site.js`
+- **useFavorites()** (13 connections) — `src/data/favoritesStore.js`
+- **dealerById()** (11 connections) — `src/data/dealer.js`
+- **inr()** (11 connections) — `src/data/dealer.js`
+- **EmailVerificationPrompt.jsx** (10 connections) — `src/components/EmailVerificationPrompt.jsx`
+- **HeroSlider.jsx** (9 connections) — `src/components/HeroSlider.jsx`
+- *... and 53 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (97 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (28 shared connections)
-- [[Product Pages Specification]] (25 shared connections)
-- [[Zoho Integration Architecture]] (16 shared connections)
-- [[Community 31]] (14 shared connections)
-- [[Zoho Integration Skill]] (10 shared connections)
-- [[Community 62]] (9 shared connections)
-- [[Community 38]] (4 shared connections)
-- [[Graphify Workflow]] (2 shared connections)
+- [[Community 51]] (56 shared connections)
+- [[Community 104]] (25 shared connections)
+- [[Community 45]] (19 shared connections)
+- [[Community 33]] (14 shared connections)
+- [[Graphify Workflow]] (8 shared connections)
+- [[Community 126]] (5 shared connections)
+- [[Community 90]] (2 shared connections)
+- [[Community 235]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BW8OD3MU.js`
+- `src/components/EmailVerificationPrompt.jsx`
+- `src/components/HeroSlider.jsx`
+- `src/components/MobileBottomNav.jsx`
+- `src/components/NativeBackHandler.jsx`
+- `src/components/PriceBlock.jsx`
+- `src/components/ProductCard.jsx`
+- `src/components/UnderMaintenance.jsx`
+- `src/data/dealer.js`
+- `src/data/favoritesStore.js`
+- `src/data/i18n.js`
+- `src/data/portalGate.js`
+- `src/data/session.js`
+- `src/data/site.js`
+- `src/data/translations.js`
+- `src/main.jsx`
+- `src/pages/DealerDashboard.jsx`
+- `src/pages/Favorites.jsx`
+- `src/pages/Home.jsx`
+- `src/pages/Login.jsx`
+- `src/pages/PrivacyPolicy.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 477 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 660 (100%)
+- INFERRED: 2 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

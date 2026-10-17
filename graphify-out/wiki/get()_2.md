@@ -1,6 +1,6 @@
 # get()
 
-> God node · 49 connections · `ios/App/App/public/assets/index-BW8OD3MU.js`
+> God node · 49 connections · `ios/App/App/public/assets/index-DW7U0CFW.js`
 
 **Community:** [[Client Products Data Store]]
 

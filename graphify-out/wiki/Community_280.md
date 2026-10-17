@@ -1,11 +1,12 @@
 # Community 280
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **README.md** (1 connections) — `.agents/skills/archify/brand-marks/README.md`
-- **Built-in brand marks** (1 connections) — `.agents/skills/archify/brand-marks/README.md`
+- **test-whatsapp.js** (2 connections) — `backend/scripts/test-whatsapp.js`
+- **__dirname** (1 connections) — `backend/scripts/test-whatsapp.js`
+- **testWhatsApp()** (1 connections) — `backend/scripts/test-whatsapp.js`
 
 ## Relationships
 
@@ -13,11 +14,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/brand-marks/README.md`
+- `backend/scripts/test-whatsapp.js`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

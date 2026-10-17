@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **toolbar-polish.test.mjs** (2 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
+- **check-whatsapp-status.js** (2 connections) — `backend/scripts/check-whatsapp-status.js`
+- **checkStatus()** (1 connections) — `backend/scripts/check-whatsapp-status.js`
+- **__dirname** (1 connections) — `backend/scripts/check-whatsapp-status.js`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/toolbar-polish.test.mjs`
+- `backend/scripts/check-whatsapp-status.js`
 
 ## Audit Trail
 

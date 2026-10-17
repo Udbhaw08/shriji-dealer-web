@@ -1,62 +1,56 @@
 # Community 35
 
-> 37 nodes · cohesion 0.14
+> 37 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **render-sequence.mjs** (67 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **textUnits()** (33 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **validateArchitecture()** (22 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **validateDataflow()** (22 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **validateLifecycle()** (22 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **cleanCrossingProblems()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **rectsOverlap()** (16 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **validateSequence()** (15 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **cleanAmbiguousCorridorProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanBorderRunProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanRouteRhythmProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanLabelRouteClearanceProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **brandTopRailProblem()** (13 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **minimumNodeTextWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **text-fit.mjs** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **availableNodeTextWidth()** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **segmentLabelBox()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **collectEligibleRoutedRelations()** (6 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **qualityProfileForGate()** (6 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **flowLabelSize()** (4 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **messageGeometry()** (4 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **messageLabelBox()** (4 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **messageRouteBox()** (2 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **arrowClass** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **compositionFrames** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **dc()** (19 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Yd()** (17 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **fc()** (14 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **l()** (14 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **qd()** (12 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **yo()** (12 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Ai()** (11 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **cm()** (11 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Gi()** (11 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **jd()** (10 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Mi()** (9 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Bd()** (8 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **ec()** (8 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **ki()** (7 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **bo()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **cc()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **dh()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Di()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **ic()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Oi()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **vo()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Hd()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **ji()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **uh()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **os()** (4 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
 - *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [[Pricing Regression Test Suite]] (63 shared connections)
-- [[Mobile Responsive UI Skill]] (42 shared connections)
-- [[Community 39]] (27 shared connections)
-- [[Graphify Knowledge Graph Skill]] (19 shared connections)
-- [[Community 73]] (14 shared connections)
-- [[Roles & Customer Sharing Spec]] (9 shared connections)
-- [[Community 91]] (5 shared connections)
-- [[Testing & Workflow Skill]] (3 shared connections)
-- [[Community 178]] (1 shared connections)
+- [[Price Presentation & Product UI]] (42 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (27 shared connections)
+- [[Dependencies & Package Config]] (22 shared connections)
+- [[Client Products Data Store]] (15 shared connections)
+- [[Claude Agent Instructions]] (14 shared connections)
+- [[Community 67]] (8 shared connections)
+- [[Product Requirements Documentation]] (6 shared connections)
+- [[Community 36]] (4 shared connections)
+- [[Community 50]] (3 shared connections)
+- [[Community 94]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `ios/App/App/public/assets/index-DW7U0CFW.js`
 
 ## Audit Trail
 
-- EXTRACTED: 367 (100%)
+- EXTRACTED: 260 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

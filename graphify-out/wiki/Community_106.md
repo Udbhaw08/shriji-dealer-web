@@ -21,12 +21,12 @@
 
 ## Relationships
 
-- [[Community 186]] (8 shared connections)
+- [[Community 189]] (8 shared connections)
 - [[Roles & Customer Sharing Spec]] (4 shared connections)
-- [[Community 73]] (4 shared connections)
-- [[Community 45]] (3 shared connections)
-- [[Community 110]] (3 shared connections)
-- [[Community 118]] (2 shared connections)
+- [[Community 63]] (4 shared connections)
+- [[Community 39]] (3 shared connections)
+- [[Community 112]] (3 shared connections)
+- [[Community 120]] (2 shared connections)
 - [[Community 54]] (2 shared connections)
 
 ## Source Files

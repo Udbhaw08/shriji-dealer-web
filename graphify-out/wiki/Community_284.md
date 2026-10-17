@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **esm-DtXfE_zo.js** (1 connections) — `ios/App/App/public/assets/esm-DtXfE_zo.js`
-- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-DtXfE_zo.js`
+- **esm-Cj-rP6Qi.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-Cj-rP6Qi.js`
+- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-Cj-rP6Qi.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/esm-DtXfE_zo.js`
+- `android/app/src/main/assets/public/assets/esm-Cj-rP6Qi.js`
 
 ## Audit Trail
 

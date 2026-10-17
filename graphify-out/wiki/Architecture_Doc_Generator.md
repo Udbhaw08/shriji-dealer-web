@@ -1,56 +1,55 @@
 # Architecture Doc Generator
 
-> 56 nodes · cohesion 0.08
+> 59 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **zoho.js** (34 connections) — `api/zoho.js`
-- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
-- **fetchZohoProductById()** (13 connections) — `api/zoho.js`
-- **fetchZohoProducts()** (12 connections) — `api/zoho.js`
-- **fetchZohoWithRetry()** (11 connections) — `api/zoho.js`
-- **getZohoConfig()** (11 connections) — `api/zoho.js`
-- **createDealerContact()** (9 connections) — `api/zoho.js`
-- **findDealerByPhone()** (9 connections) — `api/zoho.js`
-- **vite.config.js** (9 connections) — `vite.config.js`
-- **getDealerById()** (8 connections) — `api/zoho.js`
-- **fetchZohoCategories()** (7 connections) — `api/zoho.js`
-- **getAccessToken()** (7 connections) — `api/zoho.js`
-- **zohoApiPlugin()** (7 connections) — `vite.config.js`
-- **fetchZohoPricebookItems()** (6 connections) — `api/zoho.js`
-- **normalizeProduct()** (5 connections) — `api/zoho.js`
-- **resolvePricebookId()** (5 connections) — `api/zoho.js`
-- **fetchZohoPricebooks()** (4 connections) — `api/zoho.js`
-- **loadEnv()** (4 connections) — `api/zoho.js`
-- **index.js** (4 connections) — `api/products/index.js`
-- **test-zoho-api.mjs** (4 connections) — `scripts/test-zoho-api.mjs`
-- **og.js** (3 connections) — `api/og.js`
-- **apply.js** (3 connections) — `api/dealer/apply.js`
-- **info.js** (3 connections) — `api/dealer/info.js`
-- **login.js** (3 connections) — `api/dealer/login.js`
-- **[id].js** (3 connections) — `api/products/[id].js`
-- *... and 31 more nodes in this community*
+- **create()** (27 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Z()** (25 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **wl()** (18 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **warn()** (16 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **l()** (14 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Si()** (13 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **_u()** (12 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Uu()** (12 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **bi()** (11 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Gi()** (11 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **tu()** (10 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **kl()** (9 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Nd()** (9 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **nu()** (9 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **request()** (9 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Sp()** (9 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **su()** (9 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **eu()** (8 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **hu()** (8 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **iu()** (8 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **or()** (8 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **ou()** (8 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Du()** (7 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **em()** (7 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **oc()** (7 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- *... and 34 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (70 shared connections)
+- [[Master Codebase Architecture Reference]] (47 shared connections)
+- [[Zoho Integration Architecture]] (31 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (17 shared connections)
+- [[Live Pricing Audit Tool]] (14 shared connections)
+- [[Pricing Regression Test Suite]] (10 shared connections)
+- [[Community 46]] (9 shared connections)
+- [[Community 38]] (6 shared connections)
+- [[Mobile Responsive UI Skill]] (5 shared connections)
 
 ## Source Files
 
-- `api/dealer/apply.js`
-- `api/dealer/info.js`
-- `api/dealer/login.js`
-- `api/og.js`
-- `api/products/[id].js`
-- `api/products/index.js`
-- `api/zoho.js`
-- `scripts/audit_prices.mjs`
-- `scripts/test-zoho-api.mjs`
-- `vite.config.js`
+- `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
 
 ## Audit Trail
 
-- EXTRACTED: 242 (100%)
+- EXTRACTED: 435 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,19 +1,17 @@
 # Community 47
 
-> 31 nodes · cohesion 0.12
+> 30 nodes · cohesion 0.12
 
 ## Key Concepts
 
 - **visual-check.mjs** (50 connections) — `.agents/skills/archify/bin/visual-check.mjs`
 - **runVisualCheck()** (18 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **desktop-readability.mjs** (9 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **adaptive-reader-layout.test.mjs** (9 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **desktop-reader-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
-- **DESKTOP_READABILITY_VIEWPORT** (5 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **visual-check.test.mjs** (14 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
 - **observationDiagnostics()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
 - **safeUnlink()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
 - **writeAtomic()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
 - **baseReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **chromeVisualBrowserArgs()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
 - **cleanupCaptureSidecars()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
 - **contactSheetHtml()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
 - **failureDiagnostic()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
@@ -24,38 +22,38 @@
 - **observation()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
 - **screenshotKey()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
 - **viewportSubject()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **VISUAL_CHECK_VIEWPORTS** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
 - **CAPTURE_VIEWPORTS** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
 - **EXIT** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
 - **THEMES** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **reader** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- *... and 6 more nodes in this community*
+- **artifact()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **fakeBrowser()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [[Community 74]] (8 shared connections)
-- [[Community 104]] (6 shared connections)
-- [[Community 52]] (5 shared connections)
-- [[Pricing & Roles Skill]] (4 shared connections)
-- [[Community 57]] (3 shared connections)
-- [[Graphify Knowledge Graph Skill]] (3 shared connections)
-- [[Community 111]] (2 shared connections)
-- [[Community 79]] (2 shared connections)
-- [[Community 90]] (2 shared connections)
-- [[Community 115]] (1 shared connections)
-- [[Community 116]] (1 shared connections)
+- [[Community 43]] (10 shared connections)
+- [[Community 149]] (4 shared connections)
+- [[Community 116]] (4 shared connections)
+- [[Community 58]] (3 shared connections)
+- [[Community 98]] (2 shared connections)
+- [[Community 80]] (2 shared connections)
+- [[Community 117]] (1 shared connections)
+- [[Community 118]] (1 shared connections)
 - [[Community 102]] (1 shared connections)
+- [[Community 30]] (1 shared connections)
+- [[Community 131]] (1 shared connections)
+- [[Community 166]] (1 shared connections)
 
 ## Source Files
 
 - `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- `.agents/skills/archify/test/visual-check.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 150 (99%)
+- EXTRACTED: 138 (99%)
 - INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 

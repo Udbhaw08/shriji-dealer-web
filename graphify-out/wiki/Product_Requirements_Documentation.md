@@ -1,56 +1,55 @@
 # Product Requirements Documentation
 
-> 76 nodes · cohesion 0.07
+> 75 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **Login.jsx** (62 connections) — `src/pages/Login.jsx`
-- **auth.js** (43 connections) — `src/data/auth.js`
-- **callBackend()** (27 connections) — `src/data/auth.js`
-- **json()** (27 connections) — `src/data/auth.js`
-- **DealerDashboard.jsx** (23 connections) — `src/pages/DealerDashboard.jsx`
-- **EmailVerificationPrompt.jsx** (10 connections) — `src/components/EmailVerificationPrompt.jsx`
-- **applyAuthResponse()** (8 connections) — `src/data/auth.js`
-- **broadcastAuthChange()** (8 connections) — `src/data/auth.js`
-- **requestOtp()** (8 connections) — `src/data/auth.js`
-- **loginCode.js** (8 connections) — `src/data/loginCode.js`
-- **Identify()** (8 connections) — `src/pages/Login.jsx`
-- **firebaseAuthLogin()** (7 connections) — `src/data/auth.js`
-- **login()** (7 connections) — `src/data/auth.js`
-- **firebase.js** (7 connections) — `src/data/firebase.js`
-- **sendFirebasePhoneOtp()** (7 connections) — `src/data/firebase.js`
-- **validators.js** (7 connections) — `src/data/validators.js`
-- **StaffDetails()** (7 connections) — `src/pages/Login.jsx`
-- **googleLogin()** (6 connections) — `src/data/auth.js`
-- **logout()** (6 connections) — `src/data/auth.js`
-- **signup()** (6 connections) — `src/data/auth.js`
-- **verifyOtp()** (6 connections) — `src/data/auth.js`
-- **isValidEmail()** (6 connections) — `src/data/validators.js`
-- **OtpStep()** (6 connections) — `src/pages/Login.jsx`
-- **StaffLogin()** (6 connections) — `src/pages/Login.jsx`
-- **applyAsDealer()** (5 connections) — `src/data/auth.js`
-- *... and 51 more nodes in this community*
+- **reject()** (20 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **mc()** (17 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Id()** (15 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Mp()** (14 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **getIdToken()** (13 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Q()** (11 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **hf()** (10 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Md()** (10 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **uf()** (10 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **_onStorageEvent()** (9 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Wf()** (9 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **cf()** (8 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **directlySetCurrentUser()** (8 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **initializeCurrentUser()** (8 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **getCurrentUser()** (7 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Ld()** (7 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **setPersistence()** (7 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **_setRedirectUser()** (7 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **signOut()** (7 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **_fromGetAccountInfoResponse()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **getOrInitRedirectPersistenceManager()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **onAuthEvent()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **_persistUserIfCurrent()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **queue()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **runMiddleware()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- *... and 50 more nodes in this community*
 
 ## Relationships
 
-- [[Community 44]] (29 shared connections)
-- [[Live Pricing Audit Tool]] (19 shared connections)
-- [[Community 40]] (2 shared connections)
-- [[Community 64]] (1 shared connections)
+- [[Price Presentation & Product UI]] (88 shared connections)
+- [[Dependencies & Package Config]] (17 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (16 shared connections)
+- [[Community 36]] (15 shared connections)
+- [[Client Products Data Store]] (12 shared connections)
+- [[Claude Agent Instructions]] (9 shared connections)
+- [[Community 35]] (6 shared connections)
+- [[Community 94]] (4 shared connections)
+- [[Community 67]] (4 shared connections)
 
 ## Source Files
 
-- `src/components/EmailVerificationPrompt.jsx`
-- `src/data/auth.js`
-- `src/data/firebase.js`
-- `src/data/loginCode.js`
-- `src/data/validators.js`
-- `src/pages/DealerDashboard.jsx`
-- `src/pages/Login.jsx`
+- `ios/App/App/public/assets/index-DW7U0CFW.js`
 
 ## Audit Trail
 
-- EXTRACTED: 473 (100%)
+- EXTRACTED: 419 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

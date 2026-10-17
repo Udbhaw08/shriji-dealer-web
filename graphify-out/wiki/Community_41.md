@@ -1,55 +1,47 @@
 # Community 41
 
-> 35 nodes · cohesion 0.10
+> 33 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **np()** (23 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **addEventListener()** (21 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **E()** (19 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **lm()** (19 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **bm()** (13 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **cn()** (12 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **cm()** (11 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **am()** (9 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **km()** (9 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **addListener()** (8 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **om()** (8 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **mm()** (7 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **zm()** (7 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **jm()** (6 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **pm()** (5 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **qm()** (5 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **vl()** (5 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **zi()** (5 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **im()** (4 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **oh()** (4 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **rm()** (4 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **Um()** (4 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **addWindowListener()** (3 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **attachListener()** (3 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- **Bn()** (3 connections) — `ios/App/App/public/assets/index-BW8OD3MU.js`
-- *... and 10 more nodes in this community*
+- **scripts** (15 connections) — `.agents/skills/archify/package.json`
+- **package.json** (11 connections) — `.agents/skills/archify/package.json`
+- **devDependencies** (5 connections) — `.agents/skills/archify/package.json`
+- **bin** (2 connections) — `.agents/skills/archify/package.json`
+- **engines** (2 connections) — `.agents/skills/archify/package.json`
+- **overrides** (2 connections) — `.agents/skills/archify/package.json`
+- **archify** (1 connections) — `.agents/skills/archify/package.json`
+- **description** (1 connections) — `.agents/skills/archify/package.json`
+- **ajv** (1 connections) — `.agents/skills/archify/package.json`
+- **parse5** (1 connections) — `.agents/skills/archify/package.json`
+- **saxes** (1 connections) — `.agents/skills/archify/package.json`
+- **simple-icons** (1 connections) — `.agents/skills/archify/package.json`
+- **node** (1 connections) — `.agents/skills/archify/package.json`
+- **license** (1 connections) — `.agents/skills/archify/package.json`
+- **name** (1 connections) — `.agents/skills/archify/package.json`
+- **fast-uri** (1 connections) — `.agents/skills/archify/package.json`
+- **private** (1 connections) — `.agents/skills/archify/package.json`
+- **build:gallery** (1 connections) — `.agents/skills/archify/package.json`
+- **build:guide** (1 connections) — `.agents/skills/archify/package.json`
+- **build:readme-showcase** (1 connections) — `.agents/skills/archify/package.json`
+- **build:start** (1 connections) — `.agents/skills/archify/package.json`
+- **check:brand-marks** (1 connections) — `.agents/skills/archify/package.json`
+- **check:release-identity** (1 connections) — `.agents/skills/archify/package.json`
+- **check:validators** (1 connections) — `.agents/skills/archify/package.json`
+- **check:viewer** (1 connections) — `.agents/skills/archify/package.json`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (38 shared connections)
-- [[Dependencies & Package Config]] (22 shared connections)
-- [[Client Products Data Store]] (18 shared connections)
-- [[Master Codebase Architecture Reference]] (17 shared connections)
-- [[Vercel Deployment Routing]] (11 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (10 shared connections)
-- [[Product Brand & Business Vision]] (6 shared connections)
-- [[Community 37]] (3 shared connections)
-- [[Community 29]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BW8OD3MU.js`
+- `.agents/skills/archify/package.json`
 
 ## Audit Trail
 
-- EXTRACTED: 242 (100%)
+- EXTRACTED: 64 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

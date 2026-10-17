@@ -1,39 +1,45 @@
 # Community 94
 
-> 17 nodes · cohesion 0.18
+> 16 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **additionalProperties** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **required** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **nodes** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **edges** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **groups** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **phases** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **addEventListener()** (21 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **add()** (19 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **addListener()** (8 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **registerConsumer()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **gt()** (4 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **oh()** (4 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **subscribe()** (4 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **addWindowListener()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **attachListener()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **ch()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Kt()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **p()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **registerLifecycleListeners()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **saveEventToCache()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **isEventForConsumer()** (2 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **sendRetainedArgumentsForEvent()** (2 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
 
 ## Relationships
 
-- [[Oxlint Linter Configuration]] (5 shared connections)
-- [[Community 87]] (5 shared connections)
+- [[Price Presentation & Product UI]] (18 shared connections)
+- [[Client Products Data Store]] (9 shared connections)
+- [[Dependencies & Package Config]] (8 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (5 shared connections)
+- [[Product Requirements Documentation]] (4 shared connections)
+- [[Community 36]] (3 shared connections)
+- [[Community 35]] (3 shared connections)
+- [[Community 67]] (1 shared connections)
+- [[Claude Agent Instructions]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `ios/App/App/public/assets/index-DW7U0CFW.js`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (100%)
+- EXTRACTED: 90 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

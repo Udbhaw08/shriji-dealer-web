@@ -1,48 +1,54 @@
 # Community 50
 
-> 29 nodes · cohesion 0.09
+> 29 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **AppDelegate** (10 connections) — `ios/App/App/AppDelegate.swift`
-- **.application()** (7 connections) — `ios/App/App/AppDelegate.swift`
-- **.scene()** (7 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIApplication** (6 connections) — `ios/App/App/AppDelegate.swift`
-- **SceneDelegate** (5 connections) — `ios/App/App/SceneDelegate.swift`
-- **AppDelegate.swift** (3 connections) — `ios/App/App/AppDelegate.swift`
-- **SceneDelegate.swift** (3 connections) — `ios/App/App/SceneDelegate.swift`
-- **.applicationDidBecomeActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationDidEnterBackground()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillEnterForeground()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillResignActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillTerminate()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **Capacitor** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIWindow** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIKit** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIResponder** (2 connections)
-- **Any** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **Bool** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIScene** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UISceneSession** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIWindow** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIScene** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **UISceneSession** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **NSUserActivity** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **Set** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **kf()** (22 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Ur()** (21 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **jr()** (9 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Hr()** (8 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **br()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Gr()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Kr()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **ri()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Rr()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **wr()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **xr()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **zr()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **qf()** (4 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **qr()** (4 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Xf()** (4 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **zt()** (4 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **beforeAuthStateChanged()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Cr()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **If()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Lr()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **sc()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Ui()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Vr()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Yr()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **ci()** (2 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
 - *... and 4 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (29 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (8 shared connections)
+- [[Dependencies & Package Config]] (8 shared connections)
+- [[Client Products Data Store]] (4 shared connections)
+- [[Community 67]] (4 shared connections)
+- [[Community 35]] (3 shared connections)
+- [[Claude Agent Instructions]] (2 shared connections)
+- [[Community 36]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/AppDelegate.swift`
-- `ios/App/App/SceneDelegate.swift`
+- `ios/App/App/public/assets/index-DW7U0CFW.js`
 
 ## Audit Trail
 
-- EXTRACTED: 72 (100%)
+- EXTRACTED: 152 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

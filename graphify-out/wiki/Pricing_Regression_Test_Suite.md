@@ -1,61 +1,55 @@
 # Pricing Regression Test Suite
 
-> 67 nodes · cohesion 0.08
+> 73 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **geometry.mjs** (75 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **compileWorkflowInternal()** (67 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **asArray()** (43 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **geometry.test.mjs** (34 connections) — `.agents/skills/archify/test/geometry.test.mjs`
-- **isFinitePoint()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanFlowProblems()** (17 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanEndpointSideProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **collectLabelRouteClearance()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **segmentIntersectsRect()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **suggestLabelObstacleFix()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **anchor()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **automaticPortSpread()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **chosenSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **defaultFromSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **defaultToSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **pathFor()** (10 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **collectBorderRuns()** (10 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **normalizeRoutePoints()** (10 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **routeHonorsEndpointSides()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **pathFor()** (8 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **pathFor()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **collectAmbiguousCorridors()** (8 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **polylinePath()** (8 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **segmentRectClearance()** (8 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **suggestLabelPairFix()** (8 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- *... and 42 more nodes in this community*
+- **D()** (24 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **ht()** (22 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **ip()** (14 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **on()** (14 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Ct()** (13 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **vt()** (13 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **ae()** (12 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **O()** (12 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **rf()** (12 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **zd()** (12 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **error()** (11 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **lf()** (11 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **vn()** (11 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **fa()** (10 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **te()** (10 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **tn()** (10 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **xt()** (10 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **ff()** (9 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **k()** (9 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **ke()** (9 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **ln()** (9 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **mt()** (9 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **wt()** (9 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **af()** (8 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **ef()** (8 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- *... and 48 more nodes in this community*
 
 ## Relationships
 
-- [[Community 35]] (63 shared connections)
-- [[Mobile Responsive UI Skill]] (45 shared connections)
-- [[Graphify Knowledge Graph Skill]] (35 shared connections)
-- [[Community 39]] (33 shared connections)
-- [[Community 73]] (31 shared connections)
-- [[Roles & Customer Sharing Spec]] (8 shared connections)
-- [[Pricing & Roles Skill]] (6 shared connections)
-- [[Community 91]] (4 shared connections)
-- [[Community 186]] (3 shared connections)
+- [[Dealer Auth & Session Management]] (82 shared connections)
+- [[Master Codebase Architecture Reference]] (33 shared connections)
+- [[Zoho Integration Architecture]] (21 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (19 shared connections)
+- [[Mobile Responsive UI Skill]] (14 shared connections)
+- [[Community 46]] (13 shared connections)
+- [[Live Pricing Audit Tool]] (13 shared connections)
+- [[Architecture Doc Generator]] (10 shared connections)
+- [[Community 38]] (5 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- `.agents/skills/archify/test/geometry.test.mjs`
+- `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
 
 ## Audit Trail
 
-- EXTRACTED: 592 (100%)
+- EXTRACTED: 514 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

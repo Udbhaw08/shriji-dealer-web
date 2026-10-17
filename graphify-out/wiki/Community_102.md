@@ -22,10 +22,10 @@
 
 ## Relationships
 
-- [[Community 91]] (5 shared connections)
+- [[Pricing & Roles Skill]] (5 shared connections)
 - [[Community 47]] (1 shared connections)
-- [[Community 74]] (1 shared connections)
-- [[Community 104]] (1 shared connections)
+- [[Community 43]] (1 shared connections)
+- [[Community 149]] (1 shared connections)
 
 ## Source Files
 
