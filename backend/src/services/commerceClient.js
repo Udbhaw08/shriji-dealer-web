@@ -77,6 +77,21 @@ export async function fetchCatalog() {
     const data = await commerceFetch(`/products?page=${page}&per_page=200`);
     const batch = data?.products || [];
     for (const p of batch) {
+      if (p.status !== 'active' || p.show_in_storefront === false) {
+        continue;
+      }
+      const name = (p.name ?? p.product_name ?? '').toLowerCase();
+      const cat = (p.category_name ?? '').toLowerCase();
+      if (
+        name.startsWith('scheme ') ||
+        name.startsWith('banner ') ||
+        name.startsWith('restor banner') ||
+        name.startsWith('restor scheme') ||
+        cat.includes('banner') ||
+        cat.includes('scheme')
+      ) {
+        continue;
+      }
       const variant = p.variants?.[0] || {};
       const mrp = parseRate(variant.label_rate) ?? parseRate(variant.rate) ?? parseRate(variant.min_rate);
       products.push({
