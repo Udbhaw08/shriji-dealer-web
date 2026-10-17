@@ -1,26 +1,27 @@
 # Community 234
 
-> 5 nodes · cohesion 0.50
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **export_pricebooks_for_crm.mjs** (4 connections) — `scripts/export_pricebooks_for_crm.mjs`
-- **getAccessToken()** (2 connections) — `scripts/export_pricebooks_for_crm.mjs`
-- **main()** (2 connections) — `scripts/export_pricebooks_for_crm.mjs`
-- **env** (1 connections) — `scripts/export_pricebooks_for_crm.mjs`
-- **getMergedEnv()** (1 connections) — `scripts/export_pricebooks_for_crm.mjs`
+- **point** (6 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 73]] (1 shared connections)
 
 ## Source Files
 
-- `scripts/export_pricebooks_for_crm.mjs`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

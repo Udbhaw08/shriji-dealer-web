@@ -2,7 +2,7 @@
 
 > God node · 43 connections · `.agents/skills/archify/renderers/shared/geometry.mjs`
 
-**Community:** [[Product Brand & Business Vision]]
+**Community:** [[Client Products Data Store]]
 
 ## Connections by Relation
 

@@ -1,23 +1,24 @@
 # Community 294
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **make-scheme-pdfs.mjs** (1 connections) — `scripts/make-scheme-pdfs.mjs`
-- **createPdfWithJpg()** (1 connections) — `scripts/make-scheme-pdfs.mjs`
+- **relationshipWidth** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 73]] (1 shared connections)
 
 ## Source Files
 
-- `scripts/make-scheme-pdfs.mjs`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

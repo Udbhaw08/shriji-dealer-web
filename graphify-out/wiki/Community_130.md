@@ -1,33 +1,37 @@
 # Community 130
 
-> 11 nodes · cohesion 0.18
+> 13 nodes · cohesion 0.36
 
 ## Key Concepts
 
-- **legendEntry** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **label** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **properties** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **visible** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **maxLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **minLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **minProperties** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **commerceClient.js** (22 connections) — `backend/src/services/commerceClient.js`
+- **ensureContactPricebookForCrmAccount()** (8 connections) — `backend/src/services/commerceClient.js`
+- **fetchCatalog()** (6 connections) — `backend/src/services/commerceClient.js`
+- **booksFetch()** (5 connections) — `backend/src/services/commerceClient.js`
+- **commerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
+- **commerceFetch()** (5 connections) — `backend/src/services/commerceClient.js`
+- **resolvePricebookId()** (5 connections) — `backend/src/services/commerceClient.js`
+- **assignPricebookToContact()** (4 connections) — `backend/src/services/commerceClient.js`
+- **deactivateCommerceContact()** (3 connections) — `backend/src/services/commerceClient.js`
+- **fetchCommercePricebooks()** (3 connections) — `backend/src/services/commerceClient.js`
+- **fetchPricebookRates()** (3 connections) — `backend/src/services/commerceClient.js`
+- **getAccessToken()** (3 connections) — `backend/src/services/commerceClient.js`
+- **parseRate()** (2 connections) — `backend/src/services/commerceClient.js`
 
 ## Relationships
 
-- [[Community 68]] (1 shared connections)
-- [[Community 131]] (1 shared connections)
+- [[Community 48]] (8 shared connections)
+- [[Community 30]] (7 shared connections)
+- [[Community 106]] (2 shared connections)
+- [[Community 70]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `backend/src/services/commerceClient.js`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 74 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

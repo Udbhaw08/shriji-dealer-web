@@ -3128,5 +3128,65 @@
     "mtime": 1792257381.2193377,
     "ast_hash": "52a6da96a4b60b4815066bd2a2dbd6b2",
     "semantic_hash": ""
+  },
+  ".agents/skills/refero-design/SKILL.md": {
+    "mtime": 1792276379.2028346,
+    "ast_hash": "7a8fbc4b02f3dca1e3b96887b103a164",
+    "semantic_hash": ""
+  },
+  ".agents/skills/refero-design/agents/openai.yaml": {
+    "mtime": 1792276379.2041602,
+    "ast_hash": "d11bf938dc863ad53f10bab6085bdc5b",
+    "semantic_hash": ""
+  },
+  ".agents/skills/refero-design/references/anti-ai-slop.md": {
+    "mtime": 1792276379.2056637,
+    "ast_hash": "d974860f7ccb1930fe6272d2bc84e9f7",
+    "semantic_hash": ""
+  },
+  ".agents/skills/refero-design/references/color.md": {
+    "mtime": 1792276379.2066712,
+    "ast_hash": "63346f7bbd36140b3ad76823ac30b25d",
+    "semantic_hash": ""
+  },
+  ".agents/skills/refero-design/references/copywriting.md": {
+    "mtime": 1792276379.2066712,
+    "ast_hash": "eabf6c1df24a48060500000e89754c41",
+    "semantic_hash": ""
+  },
+  ".agents/skills/refero-design/references/craft-details.md": {
+    "mtime": 1792276379.207981,
+    "ast_hash": "9a10fc5c66387c48d0d6493d6492bfd6",
+    "semantic_hash": ""
+  },
+  ".agents/skills/refero-design/references/example-workflow.md": {
+    "mtime": 1792276379.207981,
+    "ast_hash": "ffc39395cdca09f4fb6e621acff09a1d",
+    "semantic_hash": ""
+  },
+  ".agents/skills/refero-design/references/icons.md": {
+    "mtime": 1792276379.207981,
+    "ast_hash": "e53de2348b7b6320a550cd8e411e4b2e",
+    "semantic_hash": ""
+  },
+  ".agents/skills/refero-design/references/mcp-tools.md": {
+    "mtime": 1792276379.2089882,
+    "ast_hash": "b6a8b5ded735867c15a51f223d73d593",
+    "semantic_hash": ""
+  },
+  ".agents/skills/refero-design/references/motion.md": {
+    "mtime": 1792276379.2099884,
+    "ast_hash": "18a1b1b32493e8c5baf05544aec24b92",
+    "semantic_hash": ""
+  },
+  ".agents/skills/refero-design/references/typography.md": {
+    "mtime": 1792276379.2099884,
+    "ast_hash": "ba178c7f8ce9cf4b24f3a69c0c1e7e4f",
+    "semantic_hash": ""
+  },
+  ".agents/skills/refero-design/references/visual-workflow.md": {
+    "mtime": 1792276379.210988,
+    "ast_hash": "8828ca388f6993778608f3e2ff07db49",
+    "semantic_hash": ""
   }
 }

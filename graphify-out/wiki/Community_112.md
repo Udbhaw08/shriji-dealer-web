@@ -1,31 +1,32 @@
 # Community 112
 
-> 14 nodes · cohesion 0.14
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **real-repository-proof.test.mjs** (15 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **automaticMcoRoot()** (2 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **artifactPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **connectionLabelGeometry()** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **evidencePayload()** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **experimentArtifactPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **experimentSourcePath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **pinnedSource** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **shareCardPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **sourcePath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **repository** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **properties** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **revision** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **url** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **link_mode** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **provider** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **pattern** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- [[Community 126]] (3 shared connections)
+- [[Community 85]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 

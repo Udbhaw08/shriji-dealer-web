@@ -1,35 +1,35 @@
 # Community 134
 
-> 11 nodes · cohesion 0.29
+> 13 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **reader-layout-browser.test.mjs** (13 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **load()** (6 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **evaluate()** (5 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **media()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **stable()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **viewport()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **inactive()** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **variant()** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **workflow-compiler-hard-contract.test.mjs** (14 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **workflow()** (4 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **oneLaneAnchors()** (3 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **oneLaneWorkflow()** (3 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **crossingAtForwardCollinearViaWorkflow()** (2 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **nestedOutsideRightCorridorWorkflow()** (2 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **assertExplicitPinConflict()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **assertOrthogonal()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **assertSupportedFixesNameChangedEdge()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **clone()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **mutate()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **routeContainsChannel()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **segmentMeetsRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
 
 ## Relationships
 
-- [[Community 52]] (4 shared connections)
-- [[Community 48]] (1 shared connections)
-- [[Community 74]] (1 shared connections)
-- [[Community 105]] (1 shared connections)
+- [[Community 119]] (2 shared connections)
+- [[Community 79]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (100%)
+- EXTRACTED: 35 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

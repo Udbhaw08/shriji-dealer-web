@@ -1,57 +1,54 @@
 # Community 51
 
-> 28 nodes · cohesion 0.12
+> 28 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **Product.jsx** (36 connections) — `src/pages/Product.jsx`
-- **dealer.js** (29 connections) — `src/data/dealer.js`
-- **dealer.test.mjs** (18 connections) — `src/data/dealer.test.mjs`
-- **Product()** (16 connections) — `src/pages/Product.jsx`
-- **viewerFor()** (8 connections) — `src/data/dealer.js`
-- **productSlug()** (7 connections) — `src/data/dealer.js`
-- **shareLink()** (7 connections) — `src/data/dealer.js`
-- **registerDealer()** (6 connections) — `src/data/dealer.js`
-- **formatWhatsAppPhone()** (4 connections) — `src/data/dealer.js`
-- **slugifyProduct()** (4 connections) — `src/data/dealer.js`
-- **tierOf()** (4 connections) — `src/data/dealer.js`
-- **DEALERS** (3 connections) — `src/data/dealer.js`
-- **isFavorite()** (3 connections) — `src/data/favoritesStore.js`
-- **tCat()** (3 connections) — `src/data/i18n.js`
-- **featureBoxes()** (3 connections) — `src/pages/Product.jsx`
-- **PriceBlock()** (2 connections) — `src/components/PriceBlock.jsx`
-- **price99()** (2 connections) — `src/data/dealer.js`
-- **BAND** (1 connections) — `src/data/dealer.js`
-- **hash()** (1 connections) — `src/data/dealer.js`
-- **approved** (1 connections) — `src/data/dealer.test.mjs`
-- **customer** (1 connections) — `src/data/dealer.test.mjs`
-- **guest** (1 connections) — `src/data/dealer.test.mjs`
-- **link** (1 connections) — `src/data/dealer.test.mjs`
-- **paramsWithState** (1 connections) — `src/data/dealer.test.mjs`
-- **pending** (1 connections) — `src/data/dealer.test.mjs`
+- **crmClient.js** (32 connections) — `backend/src/services/crmClient.js`
+- **validators.js** (14 connections) — `backend/src/utils/validators.js`
+- **normalizePhone()** (13 connections) — `backend/src/utils/phone.js`
+- **crmFetch()** (12 connections) — `backend/src/services/crmClient.js`
+- **normalizeEmail()** (9 connections) — `backend/src/utils/validators.js`
+- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
+- **cleanName()** (7 connections) — `backend/src/utils/validators.js`
+- **crmConfigured()** (6 connections) — `backend/src/services/crmClient.js`
+- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
+- **phone.js** (6 connections) — `backend/src/utils/phone.js`
+- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
+- **createDealerContact()** (5 connections) — `backend/src/services/crmClient.js`
+- **updateDealerCodeInCrm()** (5 connections) — `backend/src/services/crmClient.js`
+- **isValidPhone()** (5 connections) — `backend/src/utils/validators.js`
+- **resolveContactNames()** (4 connections) — `backend/src/services/crmClient.js`
+- **isValidEmail()** (4 connections) — `backend/src/utils/validators.js`
+- **isValidName()** (4 connections) — `backend/src/utils/validators.js`
+- **deactivateAccountInCrm()** (3 connections) — `backend/src/services/crmClient.js`
+- **deactivateContactInCrm()** (3 connections) — `backend/src/services/crmClient.js`
+- **getDealerAccount()** (3 connections) — `backend/src/services/crmClient.js`
+- **isCrmConfigured()** (3 connections) — `backend/src/services/crmClient.js`
+- **isValidGstin()** (3 connections) — `backend/src/utils/validators.js`
+- **getAccessToken()** (2 connections) — `backend/src/services/crmClient.js`
+- **getDealerContact()** (2 connections) — `backend/src/services/crmClient.js`
+- **getPrimaryContactForAccount()** (2 connections) — `backend/src/services/crmClient.js`
 - *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [[Master Codebase Architecture Reference]] (56 shared connections)
-- [[Community 49]] (10 shared connections)
-- [[Community 106]] (7 shared connections)
-- [[Community 35]] (2 shared connections)
-- [[Community 128]] (2 shared connections)
-- [[Community 93]] (1 shared connections)
+- [[Community 30]] (18 shared connections)
+- [[Community 106]] (12 shared connections)
+- [[Community 48]] (5 shared connections)
+- [[Community 70]] (2 shared connections)
 
 ## Source Files
 
-- `src/components/PriceBlock.jsx`
-- `src/data/dealer.js`
-- `src/data/dealer.test.mjs`
-- `src/data/favoritesStore.js`
-- `src/data/i18n.js`
-- `src/pages/Product.jsx`
+- `backend/src/services/crmClient.js`
+- `backend/src/utils/phone.js`
+- `backend/src/utils/validators.js`
+- `backend/test/interconnection.test.mjs`
+- `backend/test/validators.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 166 (100%)
+- EXTRACTED: 171 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,25 +1,26 @@
 # Community 255
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **community-proof-intake.test.mjs** (3 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
-- **read()** (1 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
+- **ErrorBoundary** (5 connections) — `src/main.jsx`
+- **.componentDidCatch()** (1 connections) — `src/main.jsx`
+- **.constructor()** (1 connections) — `src/main.jsx`
+- **.getDerivedStateFromError()** (1 connections) — `src/main.jsx`
+- **.render()** (1 connections) — `src/main.jsx`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Design System & UI Tokens]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/community-proof-intake.test.mjs`
+- `src/main.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

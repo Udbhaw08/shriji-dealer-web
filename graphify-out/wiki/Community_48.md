@@ -1,62 +1,64 @@
 # Community 48
 
-> 31 nodes · cohesion 0.12
+> 29 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **visual-check.mjs** (50 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **runVisualCheck()** (18 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **desktop-readability.mjs** (9 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **adaptive-reader-layout.test.mjs** (9 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **desktop-reader-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
-- **DESKTOP_READABILITY_VIEWPORT** (5 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **observationDiagnostics()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **safeUnlink()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **writeAtomic()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **baseReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **cleanupCaptureSidecars()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **contactSheetHtml()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **failureDiagnostic()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **persistReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **sha256()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **sidecarPaths()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **htmlEscape()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **observation()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **screenshotKey()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **viewportSubject()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **CAPTURE_VIEWPORTS** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **EXIT** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **THEMES** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **reader** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- *... and 6 more nodes in this community*
+- **pool.js** (26 connections) — `backend/src/db/pool.js`
+- **catalog.js** (16 connections) — `backend/src/services/catalog.js`
+- **logger.js** (14 connections) — `backend/src/utils/logger.js`
+- **env.js** (13 connections) — `backend/src/config/env.js`
+- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
+- **log** (13 connections) — `backend/src/utils/logger.js`
+- **env** (11 connections) — `backend/src/config/env.js`
+- **index.js** (11 connections) — `backend/src/jobs/index.js`
+- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
+- **notifications.js** (9 connections) — `backend/src/services/notifications.js`
+- **syncCatalog()** (7 connections) — `backend/src/services/catalog.js`
+- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
+- **isCommerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
+- **catalogFor()** (4 connections) — `backend/src/services/catalog.js`
+- **loadCatalog()** (4 connections) — `backend/src/services/catalog.js`
+- **catalogSync()** (3 connections) — `backend/src/jobs/catalogSync.js`
+- **tokenCleanup()** (3 connections) — `backend/src/jobs/catalogSync.js`
+- **markPollRun()** (3 connections) — `backend/src/jobs/crmPoll.js`
+- **migrate-content.js** (3 connections) — `backend/scripts/migrate-content.js`
+- **test-storage.js** (3 connections) — `backend/scripts/test-storage.js`
+- **priceView()** (3 connections) — `backend/src/services/catalog.js`
+- **priceGate.test.mjs** (3 connections) — `backend/test/priceGate.test.mjs`
+- **bool()** (1 connections) — `backend/src/config/env.js`
+- **num()** (1 connections) — `backend/src/config/env.js`
+- **tx()** (1 connections) — `backend/src/db/pool.js`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [[Community 74]] (8 shared connections)
-- [[Community 105]] (6 shared connections)
-- [[Community 52]] (5 shared connections)
-- [[Graphify Knowledge Graph Skill]] (4 shared connections)
-- [[Community 58]] (3 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (3 shared connections)
-- [[Community 114]] (2 shared connections)
-- [[Community 80]] (2 shared connections)
-- [[Community 91]] (2 shared connections)
-- [[Community 119]] (1 shared connections)
-- [[Community 120]] (1 shared connections)
-- [[Community 103]] (1 shared connections)
+- [[Community 30]] (33 shared connections)
+- [[Community 70]] (14 shared connections)
+- [[Community 106]] (8 shared connections)
+- [[Community 130]] (8 shared connections)
+- [[Community 51]] (5 shared connections)
+- [[Master Codebase Architecture Reference]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- `backend/scripts/migrate-content.js`
+- `backend/scripts/test-storage.js`
+- `backend/src/config/env.js`
+- `backend/src/db/pool.js`
+- `backend/src/jobs/catalogSync.js`
+- `backend/src/jobs/crmPoll.js`
+- `backend/src/jobs/index.js`
+- `backend/src/services/catalog.js`
+- `backend/src/services/commerceClient.js`
+- `backend/src/services/notifications.js`
+- `backend/src/utils/logger.js`
+- `backend/test/priceGate.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 150 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 188 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

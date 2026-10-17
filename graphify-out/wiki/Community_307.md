@@ -1,10 +1,12 @@
 # Community 307
 
-> 1 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **build.gradle** (0 connections) — `android/capacitor-cordova-android-plugins/build.gradle`
+- **test-whatsapp.js** (2 connections) — `backend/scripts/test-whatsapp.js`
+- **__dirname** (1 connections) — `backend/scripts/test-whatsapp.js`
+- **testWhatsApp()** (1 connections) — `backend/scripts/test-whatsapp.js`
 
 ## Relationships
 
@@ -12,11 +14,11 @@
 
 ## Source Files
 
-- `android/capacitor-cordova-android-plugins/build.gradle`
+- `backend/scripts/test-whatsapp.js`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

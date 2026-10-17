@@ -1,30 +1,31 @@
 # Community 154
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **Delivery contract** (8 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **delivery-contract.md** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Automated browser evidence** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Handoff receipt** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Last-Good Live Preview** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Optional opening** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Perceptual delivery gate** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Recovering a failed comparison** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Validate and deliver** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **entries** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **legend** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **mode** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **properties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 67]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/references/delivery-contract.md`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

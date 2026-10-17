@@ -1,25 +1,26 @@
 # Community 246
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **width** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **10. Text Polish Details** (5 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Content Overflow** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Punctuation** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Tabular Numbers** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Text Wrapping for Headings** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- [[Vercel Deployment Routing]] (1 shared connections)
+- [[Community 167]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

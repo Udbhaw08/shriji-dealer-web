@@ -1,12 +1,13 @@
 # Community 281
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **renderer-diagnostic-boundary.test.mjs** (2 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
-- **crashingRenderer()** (1 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
-- **runCrashingRenderer()** (1 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
+- **cursor-onboarding.test.mjs** (3 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
 
 ## Relationships
 
@@ -14,11 +15,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
+- `.agents/skills/archify/test/cursor-onboarding.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

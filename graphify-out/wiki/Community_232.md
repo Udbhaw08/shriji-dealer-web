@@ -1,26 +1,27 @@
 # Community 232
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **Automatic Codebase Context & Knowledge Graph Protocol** (4 connections) — `.agents/rules/graphify.md`
-- **graphify.md** (1 connections) — `.agents/rules/graphify.md`
-- **Rule 1: Mandatory Knowledge Graph Lookup (Never Blindly Read Files)** (1 connections) — `.agents/rules/graphify.md`
-- **Rule 2: Precision File Viewing** (1 connections) — `.agents/rules/graphify.md`
-- **Rule 3: Keep Graph Fresh After Modifying Code** (1 connections) — `.agents/rules/graphify.md`
+- **size** (6 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Project Readme & Layout]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/rules/graphify.md`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

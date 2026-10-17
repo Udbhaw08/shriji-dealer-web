@@ -1,46 +1,54 @@
 # Community 80
 
-> 19 nodes · cohesion 0.16
+> 20 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **finder-browser.test.mjs** (12 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **route-probe-browser.test.mjs** (12 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
-- **run()** (6 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **run()** (6 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
-- **viewer-click.mjs** (4 connections) — `.agents/skills/archify/test/helpers/viewer-click.mjs`
-- **createViewerClick()** (4 connections) — `.agents/skills/archify/test/helpers/viewer-click.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **search()** (3 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **opened()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **hash()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
-- **route()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
-- **installClickObserver()** (1 connections) — `.agents/skills/archify/test/helpers/viewer-click.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **ChromeVisualBrowser** (21 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **visual-check.test.mjs** (14 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **PipeCdp** (7 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.attach()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.close()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.constructor()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **chromeVisualBrowserArgs()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.failAll()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.consume()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **VISUAL_CHECK_VIEWPORTS** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.failure()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **artifact()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **fakeBrowser()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **fakeChromeChild()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **png** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
 
 ## Relationships
 
-- [[Community 52]] (8 shared connections)
-- [[Community 48]] (2 shared connections)
-- [[Community 74]] (2 shared connections)
-- [[Community 105]] (2 shared connections)
+- [[Community 44]] (8 shared connections)
+- [[Community 52]] (7 shared connections)
+- [[Community 116]] (2 shared connections)
+- [[Community 87]] (2 shared connections)
+- [[Community 62]] (1 shared connections)
+- [[Community 114]] (1 shared connections)
+- [[Community 34]] (1 shared connections)
+- [[Community 146]] (1 shared connections)
+- [[Community 180]] (1 shared connections)
+- [[Community 133]] (1 shared connections)
+- [[Community 159]] (1 shared connections)
+- [[Community 98]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/finder-browser.test.mjs`
-- `.agents/skills/archify/test/helpers/viewer-click.mjs`
-- `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/test/visual-check.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 69 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 71 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,33 +1,33 @@
 # Community 148
 
-> 10 nodes · cohesion 0.20
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **v1-compatibility.test.mjs** (9 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **validate()** (3 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **check()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **legacyDataflowDocument()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **narrowExplicitViewBoxDocuments()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **OFFICIAL_V1_EXAMPLES** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **release-package-gates.test.mjs** (10 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **canonicalZipTest()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **centralDirectoryModes()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **currentNodeMajor** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **spawnBuildZip()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **stagedFixture()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **workflowJob()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **workflowStep()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **writeArchive()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
 
 ## Relationships
 
-- [[Community 83]] (1 shared connections)
-- [[Roles & Customer Sharing Spec]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- `.agents/skills/archify/test/release-package-gates.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (90%)
-- INFERRED: 2 (10%)
+- EXTRACTED: 20 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

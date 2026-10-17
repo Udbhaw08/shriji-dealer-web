@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **chapter-delta-preview.test.mjs** (8 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
-- **delta()** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
-- **PROOF_CASES** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **web-DPADySG-.js** (8 connections) — `android/app/src/main/assets/public/assets/web-DPADySG-.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-DPADySG-.js`
+- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-DPADySG-.js`
+- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-DPADySG-.js`
+- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-DPADySG-.js`
+- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-DPADySG-.js`
+- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-DPADySG-.js`
+- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-DPADySG-.js`
+- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-DPADySG-.js`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- `android/app/src/main/assets/public/assets/web-DPADySG-.js`
 
 ## Audit Trail
 

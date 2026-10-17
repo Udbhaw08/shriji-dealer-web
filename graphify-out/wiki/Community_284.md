@@ -1,11 +1,13 @@
 # Community 284
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **esm-Cj-rP6Qi.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-Cj-rP6Qi.js`
-- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-Cj-rP6Qi.js`
+- **guide-page.test.mjs** (3 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
 
 ## Relationships
 
@@ -13,11 +15,11 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/esm-Cj-rP6Qi.js`
+- `.agents/skills/archify/test/guide-page.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

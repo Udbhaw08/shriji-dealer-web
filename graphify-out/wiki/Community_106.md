@@ -1,41 +1,44 @@
 # Community 106
 
-> 14 nodes · cohesion 0.29
+> 16 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **Products.jsx** (25 connections) — `src/pages/Products.jsx`
-- **ProductSearchBar.jsx** (15 connections) — `src/components/ProductSearchBar.jsx`
-- **useProducts()** (12 connections) — `src/data/productsStore.js`
-- **searchHelper.js** (11 connections) — `src/data/searchHelper.js`
-- **ProductSearchBar()** (6 connections) — `src/components/ProductSearchBar.jsx`
-- **getSuggestions()** (5 connections) — `src/data/searchHelper.js`
-- **autocorrectQuery()** (4 connections) — `src/data/searchHelper.js`
-- **buildSearchDictionary()** (4 connections) — `src/data/searchHelper.js`
-- **getPopularSearches()** (2 connections) — `src/data/searchHelper.js`
-- **scoreProduct()** (2 connections) — `src/data/searchHelper.js`
-- **COLLOQUIAL_SYNONYMS** (1 connections) — `src/data/searchHelper.js`
-- **levenshteinDistance()** (1 connections) — `src/data/searchHelper.js`
-- **Group()** (1 connections) — `src/pages/Products.jsx`
-- **SORT_FNS** (1 connections) — `src/pages/Products.jsx`
+- **auth.js** (48 connections) — `backend/src/routes/auth.js`
+- **rateLimit.js** (4 connections) — `backend/src/middleware/rateLimit.js`
+- **notify()** (4 connections) — `backend/src/services/notifications.js`
+- **rateLimit()** (3 connections) — `backend/src/middleware/rateLimit.js`
+- **issueSession()** (3 connections) — `backend/src/routes/auth.js`
+- **linkUserIdentifiers()** (3 connections) — `backend/src/routes/auth.js`
+- **resolveUserWithDealer()** (3 connections) — `backend/src/routes/auth.js`
+- **sendOtpNotification()** (3 connections) — `backend/src/services/notifications.js`
+- **authRouter** (2 connections) — `backend/src/routes/auth.js`
+- **findUserByIdentifier()** (2 connections) — `backend/src/routes/auth.js`
+- **parseIdentifier()** (2 connections) — `backend/src/routes/auth.js`
+- **publicUser()** (2 connections) — `backend/src/routes/auth.js`
+- **buckets** (1 connections) — `backend/src/middleware/rateLimit.js`
+- **googleClient** (1 connections) — `backend/src/routes/auth.js`
+- **lastCrmSyncByDealerId** (1 connections) — `backend/src/routes/auth.js`
+- **strictLimit** (1 connections) — `backend/src/routes/auth.js`
 
 ## Relationships
 
-- [[Master Codebase Architecture Reference]] (25 shared connections)
-- [[Community 51]] (7 shared connections)
-- [[Community 49]] (5 shared connections)
-- [[Community 128]] (1 shared connections)
+- [[Community 30]] (12 shared connections)
+- [[Community 51]] (12 shared connections)
+- [[Community 48]] (8 shared connections)
+- [[Community 70]] (6 shared connections)
+- [[Community 86]] (5 shared connections)
+- [[Community 130]] (2 shared connections)
 
 ## Source Files
 
-- `src/components/ProductSearchBar.jsx`
-- `src/data/productsStore.js`
-- `src/data/searchHelper.js`
-- `src/pages/Products.jsx`
+- `backend/src/middleware/rateLimit.js`
+- `backend/src/routes/auth.js`
+- `backend/src/services/notifications.js`
 
 ## Audit Trail
 
-- EXTRACTED: 90 (100%)
+- EXTRACTED: 83 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,16 +1,17 @@
 # Community 199
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **finder.test.mjs** (6 connections) — `.agents/skills/archify/test/finder.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
-- **svg()** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
+- **story-director-strip.test.mjs** (7 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
 
 ## Relationships
 
@@ -18,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/finder.test.mjs`
+- `.agents/skills/archify/test/story-director-strip.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

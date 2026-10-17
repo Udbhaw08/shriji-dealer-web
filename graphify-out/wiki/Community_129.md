@@ -1,33 +1,34 @@
 # Community 129
 
-> 11 nodes · cohesion 0.18
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **entries** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **legend** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **mode** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **properties** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **properties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **Product** (12 connections) — `PRODUCT.md`
+- **PRODUCT.md** (1 connections) — `PRODUCT.md`
+- **Accessibility & Inclusion** (1 connections) — `PRODUCT.md`
+- **Brand Commitments** (1 connections) — `PRODUCT.md`
+- **Capabilities and Constraints** (1 connections) — `PRODUCT.md`
+- **Evidence on Hand** (1 connections) — `PRODUCT.md`
+- **Operating Context** (1 connections) — `PRODUCT.md`
+- **Platform** (1 connections) — `PRODUCT.md`
+- **Positioning** (1 connections) — `PRODUCT.md`
+- **Product Principles** (1 connections) — `PRODUCT.md`
+- **Product Purpose** (1 connections) — `PRODUCT.md`
+- **Stack** (1 connections) — `PRODUCT.md`
+- **Users** (1 connections) — `PRODUCT.md`
 
 ## Relationships
 
-- [[Community 78]] (1 shared connections)
-- [[Community 65]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `PRODUCT.md`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 24 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

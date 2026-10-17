@@ -1,14 +1,15 @@
 # Community 235
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **render-examples.mjs** (4 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
-- **outputRoot** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
-- **TARGETS** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
+- **Shriji Zoho Integration Skill** (5 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
+- **API Endpoints Reference** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
+- **Key Files & Architecture** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
+- **Pricing & Rate Priority** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
+- **Validation & Audit Commands** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
 
 ## Relationships
 
@@ -16,11 +17,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/render-examples.mjs`
+- `.agents/skills/shriji-zoho-integration/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,29 +1,32 @@
 # Community 169
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **wraps** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **via** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **cards** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **additionalProperties** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **required** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- [[Project Readme & Layout]] (2 shared connections)
+- [[Community 143]] (3 shared connections)
+- [[Community 73]] (1 shared connections)
+- [[Community 292]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 27 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

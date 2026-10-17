@@ -1,24 +1,25 @@
 # Community 270
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **stage** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **via** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- [[Zoho API Diagnostic Script]] (1 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

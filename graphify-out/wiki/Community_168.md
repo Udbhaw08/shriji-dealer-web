@@ -1,32 +1,31 @@
 # Community 168
 
-> 8 nodes · cohesion 0.43
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **open-artifact.mjs** (7 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **openLoopbackUrl()** (5 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **open-artifact.test.mjs** (5 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
-- **launchTarget()** (4 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **openArtifact()** (4 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **spawn()** (2 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
-- **OPENERS** (1 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **target** (1 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
+- **8. Letter Spacing (Tracking)** (9 connections) — `.agents/skills/refero-design/references/typography.md`
+- **ALL CAPS Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **CSS Tokens** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Pre-Implementation Checklist** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Quick Reference** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Small Text Rule — Often Forgotten** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Units** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **When to Tighten** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Why It Matters** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- [[Community 57]] (3 shared connections)
-- [[Community 46]] (2 shared connections)
+- [[Community 167]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/open-artifact.mjs`
-- `.agents/skills/archify/test/open-artifact.test.mjs`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (90%)
-- INFERRED: 3 (10%)
+- EXTRACTED: 17 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

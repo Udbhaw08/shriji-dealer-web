@@ -1,44 +1,57 @@
 # Community 70
 
-> 21 nodes · cohesion 0.10
+> 23 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **properties** (9 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **architecture.schema.json** (7 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **meta** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **components** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **cards** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **schema_version** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$id** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$schema** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **title** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **server.js** (33 connections) — `backend/src/server.js`
+- **health.js** (8 connections) — `backend/src/routes/health.js`
+- **errorHandler.js** (7 connections) — `backend/src/middleware/errorHandler.js`
+- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
+- **prices.js** (6 connections) — `backend/src/routes/prices.js`
+- **migrate()** (4 connections) — `backend/src/db/migrate.js`
+- **applied()** (3 connections) — `backend/src/db/migrate.js`
+- **startJobs()** (3 connections) — `backend/src/jobs/index.js`
+- **httpError()** (3 connections) — `backend/src/middleware/errorHandler.js`
+- **start()** (3 connections) — `backend/src/server.js`
+- **errorHandler()** (2 connections) — `backend/src/middleware/errorHandler.js`
+- **contentRouter** (2 connections) — `backend/src/routes/content.js`
+- **dealersRouter** (2 connections) — `backend/src/routes/dealers.js`
+- **healthRouter** (2 connections) — `backend/src/routes/health.js`
+- **pricesRouter** (2 connections) — `backend/src/routes/prices.js`
+- **webhooksRouter** (2 connections) — `backend/src/routes/webhooks.js`
+- **dir** (1 connections) — `backend/src/db/migrate.js`
+- **allowedOrigins** (1 connections) — `backend/src/server.js`
+- **app** (1 connections) — `backend/src/server.js`
+- **defaultOrigins** (1 connections) — `backend/src/server.js`
+- **envOrigins** (1 connections) — `backend/src/server.js`
+- **isOriginAllowed()** (1 connections) — `backend/src/server.js`
+- **shutdown()** (1 connections) — `backend/src/server.js`
 
 ## Relationships
 
-- [[Community 100]] (3 shared connections)
-- [[Community 65]] (1 shared connections)
-- [[Community 78]] (1 shared connections)
+- [[Community 48]] (14 shared connections)
+- [[Community 30]] (12 shared connections)
+- [[Community 106]] (6 shared connections)
+- [[Master Codebase Architecture Reference]] (2 shared connections)
+- [[Community 51]] (2 shared connections)
+- [[Community 130]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `backend/src/db/migrate.js`
+- `backend/src/jobs/index.js`
+- `backend/src/middleware/errorHandler.js`
+- `backend/src/routes/content.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/routes/health.js`
+- `backend/src/routes/prices.js`
+- `backend/src/routes/webhooks.js`
+- `backend/src/server.js`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (100%)
+- EXTRACTED: 95 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

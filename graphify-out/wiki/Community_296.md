@@ -1,23 +1,24 @@
 # Community 296
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **checkout-line-endings.test.mjs** (1 connections) — `.agents/skills/archify/test/checkout-line-endings.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/checkout-line-endings.test.mjs`
+- **row** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Testing & Workflow Skill]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/checkout-line-endings.test.mjs`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

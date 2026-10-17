@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **semantic-zoom.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
-- **svg()** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
+- **artifact-receipt-flush.test.mjs** (6 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **checker** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **denseArchitecture()** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/semantic-zoom.test.mjs`
+- `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
 
 ## Audit Trail
 

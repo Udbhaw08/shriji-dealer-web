@@ -1,60 +1,57 @@
 # Product Requirements Documentation
 
-> 77 nodes · cohesion 0.06
+> 70 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **zoho.js** (47 connections) — `api/zoho.js`
-- **vite.config.js** (20 connections) — `vite.config.js`
-- **fetchZohoProductById()** (15 connections) — `api/zoho.js`
-- **fetchZohoProducts()** (14 connections) — `api/zoho.js`
-- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
-- **fetchZohoWithRetry()** (13 connections) — `api/zoho.js`
-- **getZohoConfig()** (13 connections) — `api/zoho.js`
-- **zohoApiPlugin()** (13 connections) — `vite.config.js`
-- **createDealerContact()** (9 connections) — `api/zoho.js`
-- **findDealerByPhone()** (9 connections) — `api/zoho.js`
-- **fetchZohoCategories()** (8 connections) — `api/zoho.js`
-- **getDealerById()** (8 connections) — `api/zoho.js`
-- **fetchZohoBanners()** (7 connections) — `api/zoho.js`
-- **fetchZohoSchemes()** (7 connections) — `api/zoho.js`
-- **getAccessToken()** (7 connections) — `api/zoho.js`
-- **getCategoryVisibilityMap()** (7 connections) — `api/zoho.js`
-- **getSupabaseBanners()** (7 connections) — `backend/src/services/content.js`
-- **getSupabaseSchemes()** (7 connections) — `backend/src/services/content.js`
-- **banners.js** (6 connections) — `api/banners.js`
-- **schemes.js** (6 connections) — `api/schemes.js`
-- **fetchAllRawZohoProducts()** (6 connections) — `api/zoho.js`
-- **fetchZohoPricebookItems()** (6 connections) — `api/zoho.js`
-- **normalizeProduct()** (5 connections) — `api/zoho.js`
-- **resolvePricebookId()** (5 connections) — `api/zoho.js`
-- **handler()** (4 connections) — `api/download.js`
-- *... and 52 more nodes in this community*
+- **get()** (49 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **has()** (24 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **np()** (23 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Mu()** (19 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **resolve()** (17 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **constructor()** (15 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **getImmediate()** (15 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **bm()** (13 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **cn()** (12 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Kd()** (12 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **pc()** (12 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **sf()** (12 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **gm()** (11 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **gu()** (11 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **initialize()** (11 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **nm()** (11 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **df()** (10 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **ku()** (10 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **od()** (10 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **isInitialized()** (9 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **km()** (9 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **addComponent()** (8 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **getProvider()** (8 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **_key()** (8 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **om()** (8 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- *... and 45 more nodes in this community*
 
 ## Relationships
 
-- [[Community 42]] (12 shared connections)
+- [[Price Presentation & Product UI]] (89 shared connections)
+- [[Dependencies & Package Config]] (34 shared connections)
+- [[Oxlint Linter Configuration]] (27 shared connections)
+- [[Graphify Agent Rules]] (24 shared connections)
+- [[Zoho Integration Skill]] (14 shared connections)
+- [[Pricing Regression Test Suite]] (14 shared connections)
+- [[Community 63]] (12 shared connections)
+- [[Roles & Customer Sharing Spec]] (12 shared connections)
+- [[Community 58]] (10 shared connections)
+- [[Community 71]] (10 shared connections)
+- [[Community 49]] (5 shared connections)
 
 ## Source Files
 
-- `api/banners.js`
-- `api/dealer/apply.js`
-- `api/dealer/info.js`
-- `api/dealer/login.js`
-- `api/download.js`
-- `api/og.js`
-- `api/products/[id].js`
-- `api/products/index.js`
-- `api/schemes.js`
-- `api/zoho.js`
-- `backend/src/services/content.js`
-- `scripts/audit_prices.mjs`
-- `scripts/test-zoho-api.mjs`
-- `vite.config.js`
+- `ios/App/App/public/assets/index-DW7U0CFW.js`
 
 ## Audit Trail
 
-- EXTRACTED: 368 (100%)
+- EXTRACTED: 553 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

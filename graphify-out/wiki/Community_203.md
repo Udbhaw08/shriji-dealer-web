@@ -1,29 +1,34 @@
 # Community 203
 
-> 7 nodes · cohesion 0.33
+> 8 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **preview.test.mjs** (8 connections) — `.agents/skills/archify/test/preview.test.mjs`
-- **stateAt()** (2 connections) — `.agents/skills/archify/test/preview.test.mjs`
-- **waitForState()** (2 connections) — `.agents/skills/archify/test/preview.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
-- **rawRequest()** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
+- **workflow-migration-geometry.mjs** (10 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **createMappedWorkflowCandidate()** (9 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **intrinsicWorkflow()** (8 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **planningWorkflow()** (7 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **createHorizontalRankMapper()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **clone()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **mapExplicitCoordinates()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **mappedNumber()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
 
 ## Relationships
 
-- [[Community 57]] (2 shared connections)
+- [[Community 119]] (8 shared connections)
+- [[Community 125]] (5 shared connections)
+- [[Community 79]] (4 shared connections)
+- [[Client Products Data Store]] (3 shared connections)
+- [[Community 52]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/preview.test.mjs`
+- `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 44 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -2,7 +2,7 @@
 
 > God node · 49 connections · `ios/App/App/public/assets/index-DW7U0CFW.js`
 
-**Community:** [[Design System & UI Tokens]]
+**Community:** [[Product Requirements Documentation]]
 
 ## Connections by Relation
 

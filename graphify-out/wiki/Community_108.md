@@ -1,44 +1,38 @@
 # Community 108
 
-> 14 nodes · cohesion 0.30
+> 16 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **workflow-v2.mjs** (21 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **migrateWorkflowDocument()** (15 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **compileWorkflow()** (13 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **clone()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **legacyLayoutProbe()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **legacyRequirementProbe()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **expandableViewBox()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **requiredViewBoxFrom()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **schemaDiagnostics()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **workflow-semantic-contract.test.mjs** (3 connections) — `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
-- **diagnostic()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **result()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **serializeMigratedWorkflow()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **document()** (1 connections) — `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
+- **Refero MCP Tools Reference** (7 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **Screens** (5 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **Flows** (3 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **Styles** (3 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **mcp-tools.md** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **Common Mistakes** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **If Results Are Weak** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_get_flow`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_get_screen`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_get_screen_image`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_get_similar_screens`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_get_style`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_search_flows`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_search_screens`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_search_styles`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **Response Formats** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
 
 ## Relationships
 
-- [[Community 189]] (8 shared connections)
-- [[Roles & Customer Sharing Spec]] (4 shared connections)
-- [[Community 73]] (4 shared connections)
-- [[Community 46]] (3 shared connections)
-- [[Community 113]] (3 shared connections)
-- [[Community 122]] (2 shared connections)
-- [[Community 54]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/migrations/workflow-v2.mjs`
-- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
+- `.agents/skills/refero-design/references/mcp-tools.md`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 30 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

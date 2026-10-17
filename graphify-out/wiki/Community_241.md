@@ -1,13 +1,15 @@
 # Community 241
 
-> 4 nodes · cohesion 0.67
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **Test** (2 connections) — `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
-- **ExampleUnitTest.java** (2 connections) — `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
-- **ExampleUnitTest** (2 connections) — `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
-- **.addition_isCorrect()** (2 connections) — `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
+- **skill-metadata.test.mjs** (5 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
+- **authoringContract** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
+- **frontmatter** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
+- **skill** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
 
 ## Relationships
 
@@ -15,11 +17,11 @@
 
 ## Source Files
 
-- `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
+- `.agents/skills/archify/test/skill-metadata.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

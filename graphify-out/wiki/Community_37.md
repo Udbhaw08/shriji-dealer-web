@@ -1,62 +1,54 @@
 # Community 37
 
-> 37 nodes · cohesion 0.14
+> 38 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **render-sequence.mjs** (67 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **textUnits()** (33 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **validateArchitecture()** (22 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **validateDataflow()** (22 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **validateLifecycle()** (22 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **cleanCrossingProblems()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **rectsOverlap()** (16 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **validateSequence()** (15 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **cleanAmbiguousCorridorProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanBorderRunProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanRouteRhythmProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanLabelRouteClearanceProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **brandTopRailProblem()** (13 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **minimumNodeTextWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **text-fit.mjs** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **availableNodeTextWidth()** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **segmentLabelBox()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **collectEligibleRoutedRelations()** (6 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **qualityProfileForGate()** (6 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **flowLabelSize()** (4 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **messageGeometry()** (4 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **messageLabelBox()** (4 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **messageRouteBox()** (2 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **arrowClass** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **compositionFrames** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- *... and 12 more nodes in this community*
+- **Login.jsx** (62 connections) — `src/pages/Login.jsx`
+- **loginCode.js** (8 connections) — `src/data/loginCode.js`
+- **firebase.js** (7 connections) — `src/data/firebase.js`
+- **sendFirebasePhoneOtp()** (7 connections) — `src/data/firebase.js`
+- **validators.js** (7 connections) — `src/data/validators.js`
+- **StaffDetails()** (7 connections) — `src/pages/Login.jsx`
+- **isValidEmail()** (6 connections) — `src/data/validators.js`
+- **StaffLogin()** (6 connections) — `src/pages/Login.jsx`
+- **formatLoginCode()** (5 connections) — `src/data/loginCode.js`
+- **signOut()** (5 connections) — `src/data/session.js`
+- **isValidName()** (5 connections) — `src/data/validators.js`
+- **isValidPhone()** (5 connections) — `src/data/validators.js`
+- **BusinessDetails()** (5 connections) — `src/pages/Login.jsx`
+- **signInWithGoogleFirebase()** (3 connections) — `src/data/firebase.js`
+- **verifyFirebasePhoneOtp()** (3 connections) — `src/data/firebase.js`
+- **isValidGstin()** (3 connections) — `src/data/validators.js`
+- **isValidPincode()** (3 connections) — `src/data/validators.js`
+- **StaffInvite()** (3 connections) — `src/pages/Login.jsx`
+- **setupRecaptcha()** (2 connections) — `src/data/firebase.js`
+- **generateLoginCode()** (2 connections) — `src/data/loginCode.js`
+- **GST_TREATMENT_OPTIONS** (2 connections) — `src/data/loginCode.js`
+- **isValidLoginCode()** (2 connections) — `src/data/loginCode.js`
+- **BusinessMatch()** (2 connections) — `src/pages/Login.jsx`
+- **signOutAndReload()** (2 connections) — `src/pages/Login.jsx`
+- **StaffConfirm()** (2 connections) — `src/pages/Login.jsx`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [[Product Brand & Business Vision]] (63 shared connections)
-- [[Pricing & Roles Skill]] (42 shared connections)
-- [[Community 41]] (27 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (19 shared connections)
-- [[Community 73]] (14 shared connections)
-- [[Roles & Customer Sharing Spec]] (9 shared connections)
-- [[Community 92]] (5 shared connections)
-- [[Testing & Workflow Skill]] (3 shared connections)
-- [[Community 181]] (1 shared connections)
+- [[Community 33]] (30 shared connections)
+- [[Design System & UI Tokens]] (14 shared connections)
+- [[Community 45]] (9 shared connections)
+- [[Community 50]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `src/data/firebase.js`
+- `src/data/loginCode.js`
+- `src/data/session.js`
+- `src/data/validators.js`
+- `src/pages/Login.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 367 (100%)
+- EXTRACTED: 177 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

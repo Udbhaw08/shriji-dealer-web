@@ -4,25 +4,25 @@
 
 ## Key Concepts
 
-- **semantic-flow.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
+- **dataflow.schema.json** (7 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$id** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$schema** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **title** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 109]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/semantic-flow.test.mjs`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

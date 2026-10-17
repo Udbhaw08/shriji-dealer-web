@@ -1,55 +1,55 @@
 # Community 49
 
-> 31 nodes · cohesion 0.12
+> 29 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **session.js** (41 connections) — `src/data/session.js`
-- **productsStore.js** (22 connections) — `src/data/productsStore.js`
-- **apiFetch()** (14 connections) — `src/data/api.js`
-- **api.js** (9 connections) — `src/data/api.js`
-- **apiUrl()** (9 connections) — `src/data/api.js`
-- **revalidateSession()** (9 connections) — `src/data/session.js`
-- **setSession()** (8 connections) — `src/data/session.js`
-- **syncPricebookWithSession()** (7 connections) — `src/data/productsStore.js`
-- **products.js** (5 connections) — `src/data/products.js`
-- **fetchLiveProducts()** (5 connections) — `src/data/productsStore.js`
-- **hasSession()** (4 connections) — `src/data/auth.js`
-- **loadCached()** (4 connections) — `src/data/productsStore.js`
-- **sessionFromAuth()** (3 connections) — `src/data/auth.js`
-- **emit()** (3 connections) — `src/data/productsStore.js`
-- **loadCachedSession()** (3 connections) — `src/data/session.js`
-- **onAuthBroadcast()** (2 connections) — `src/data/auth.js`
-- **CATEGORIES** (2 connections) — `src/data/products.js`
-- **getCacheKey()** (2 connections) — `src/data/productsStore.js`
-- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
-- **useProduct()** (2 connections) — `src/data/productsStore.js`
-- **emit()** (2 connections) — `src/data/session.js`
-- **PRODUCTS** (1 connections) — `src/data/products.js`
-- **listeners** (1 connections) — `src/data/productsStore.js`
-- **PREFERRED_ORDER** (1 connections) — `src/data/productsStore.js`
-- **storeState** (1 connections) — `src/data/productsStore.js`
-- *... and 6 more nodes in this community*
+- **kf()** (22 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Ur()** (21 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **jr()** (9 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Hr()** (8 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **br()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Gr()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **jf()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **jn()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Kr()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **ri()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Rr()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **wr()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **xr()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **zr()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **qf()** (4 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **qr()** (4 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Xf()** (4 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **zt()** (4 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Cr()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **If()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Lr()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **sc()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Ui()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Vr()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Yr()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [[Master Codebase Architecture Reference]] (19 shared connections)
-- [[Community 30]] (17 shared connections)
-- [[Community 51]] (10 shared connections)
-- [[Community 35]] (9 shared connections)
-- [[Community 106]] (5 shared connections)
+- [[Price Presentation & Product UI]] (30 shared connections)
+- [[Dependencies & Package Config]] (8 shared connections)
+- [[Product Requirements Documentation]] (5 shared connections)
+- [[Community 63]] (5 shared connections)
+- [[Graphify Agent Rules]] (4 shared connections)
+- [[Community 58]] (3 shared connections)
+- [[Roles & Customer Sharing Spec]] (3 shared connections)
+- [[Zoho Integration Skill]] (3 shared connections)
+- [[Oxlint Linter Configuration]] (2 shared connections)
 
 ## Source Files
 
-- `src/data/api.js`
-- `src/data/auth.js`
-- `src/data/products.js`
-- `src/data/productsStore.js`
-- `src/data/session.js`
+- `ios/App/App/public/assets/index-DW7U0CFW.js`
 
 ## Audit Trail
 
-- EXTRACTED: 168 (100%)
+- EXTRACTED: 159 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

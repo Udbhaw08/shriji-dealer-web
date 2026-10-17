@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **semantic-passport.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
-- **svg()** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **Sequence Renderer** (5 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **Layout budget** (2 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **README.md** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **Column fit** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **Input** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **Legend** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/semantic-passport.test.mjs`
+- `.agents/skills/archify/renderers/sequence/README.md`
 
 ## Audit Trail
 

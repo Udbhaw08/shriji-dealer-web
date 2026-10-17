@@ -1,10 +1,12 @@
 # Community 309
 
-> 1 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **CapApp-SPM.swift** (0 connections) — `ios/App/CapApp-SPM/Sources/CapApp-SPM/CapApp-SPM.swift`
+- **repository-language-metadata.test.mjs** (2 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
+- **linguistGenerated()** (1 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
 
 ## Relationships
 
@@ -12,11 +14,11 @@
 
 ## Source Files
 
-- `ios/App/CapApp-SPM/Sources/CapApp-SPM/CapApp-SPM.swift`
+- `.agents/skills/archify/test/repository-language-metadata.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

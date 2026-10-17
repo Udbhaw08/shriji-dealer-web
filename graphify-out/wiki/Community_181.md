@@ -1,30 +1,30 @@
 # Community 181
 
-> 8 nodes · cohesion 0.32
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **sequence-column-fit.test.mjs** (9 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **labelledSequence()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **render()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **renderOutcome()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **wideSequence()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **participantBoxes()** (1 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **vertical-edge.test.mjs** (8 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **bin** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **edgePath()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **REPRO** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **segments()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
 
 ## Relationships
 
-- [[Community 92]] (1 shared connections)
-- [[Community 37]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- `.agents/skills/archify/test/vertical-edge.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

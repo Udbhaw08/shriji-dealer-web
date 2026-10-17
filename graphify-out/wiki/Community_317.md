@@ -1,10 +1,11 @@
 # Community 317
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **site-language-integration.mjs** (0 connections) — `.agents/skills/archify/test/site-language-integration.mjs`
+- **.mcp.json** (1 connections) — `.mcp.json`
+- **supabase** (1 connections) — `.mcp.json`
 
 ## Relationships
 
@@ -12,11 +13,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/site-language-integration.mjs`
+- `.mcp.json`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

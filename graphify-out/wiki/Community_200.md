@@ -1,16 +1,17 @@
 # Community 200
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **intent-trace.test.mjs** (6 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
+- **story-follow-camera.test.mjs** (7 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
 
 ## Relationships
 
@@ -18,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/intent-trace.test.mjs`
+- `.agents/skills/archify/test/story-follow-camera.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

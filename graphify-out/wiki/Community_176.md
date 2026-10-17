@@ -1,17 +1,18 @@
 # Community 176
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **relationship-lens.test.mjs** (7 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **escapeAttr()** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **svg()** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **chapter-delta-preview.test.mjs** (8 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **delta()** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **PROOF_CASES** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
 
 ## Relationships
 
@@ -19,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/relationship-lens.test.mjs`
+- `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

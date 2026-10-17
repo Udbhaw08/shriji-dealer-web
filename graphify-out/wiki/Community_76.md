@@ -1,29 +1,30 @@
 # Community 76
 
-> 20 nodes · cohesion 0.10
+> 21 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **PRODUCT-PAGES.md — listing, detail, and dealer pricing** (9 connections) — `docs/PRODUCT-PAGES.md`
-- **4. Product listing — `/products`, `src/pages/Products.jsx`** (6 connections) — `docs/PRODUCT-PAGES.md`
-- **6. Product detail — `/products/:id`, `src/pages/Product.jsx`** (6 connections) — `docs/PRODUCT-PAGES.md`
-- **PRODUCT-PAGES.md** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **1. Price visibility — the rule everything else follows** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **2. The pricing module — `src/data/dealer.js`** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **3. `<PriceBlock>` — `src/components/PriceBlock.jsx`** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **5. Product card — `src/components/ProductCard.jsx`** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **7. What is deliberately not here** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **8. Files touched on 2026-09-20** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Below the whole grid** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Filters and facets** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Left column** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Pagination** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Responsive behaviour** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Right column** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Share with Customer** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Sort** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Structure** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Tabs** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **ReStor Dealer Web — Auth Architecture Analysis: Firebase vs Supabase** (6 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **3. Detailed Audit of the 4 Portals / 4 Ways** (5 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **2. Codebase Inventory: Where Each Technology Lives** (3 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Portal 1: ReStor Dealer (Shop Owner)** (3 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Portal 2: ReStor Staff (Store Staff / Counter Team)** (3 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Portal 4: ReStor Customer (End Consumer / Retail Buyer)** (3 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **1. Executive Summary & Clarification** (2 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Portal 3: ReStor Brand (Sunshine Brand Managers & Field Execs)** (2 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **2.1 Where Supabase Is Used (Database Layer Only)** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **2.2 Where Firebase Is Used (Authentication & Client Telemetry)** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **4. Architectural Matrix: Supabase vs Firebase** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **5. Verification Checklist & Action Plan** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Current Authentication Flow:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Current Authentication Flow:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Current Authentication Flow:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Key Takeaways:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Target Firebase Unified Flow:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Verification & Firebase Status:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Verification & Firebase Status:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Verification & Firebase Status:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
 
 ## Relationships
 
@@ -31,11 +32,11 @@
 
 ## Source Files
 
-- `docs/PRODUCT-PAGES.md`
+- `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

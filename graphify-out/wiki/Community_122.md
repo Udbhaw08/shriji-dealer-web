@@ -1,35 +1,35 @@
 # Community 122
 
-> 13 nodes · cohesion 0.21
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **workflow-compiler-hard-contract.test.mjs** (14 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **workflow()** (4 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **oneLaneAnchors()** (3 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **oneLaneWorkflow()** (3 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **crossingAtForwardCollinearViaWorkflow()** (2 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **nestedOutsideRightCorridorWorkflow()** (2 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **assertExplicitPinConflict()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **assertOrthogonal()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **assertSupportedFixesNameChangedEdge()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **clone()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **mutate()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **routeContainsChannel()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **segmentMeetsRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **generate-brand-marks.mjs** (13 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **catalog** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **catalogPath** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **domains** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **fail()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **generated** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **here** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **ids** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **lookupForms()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **lookupKeys** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **normalizedList()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **outputPath** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **root** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **simpleBySlug** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
 
 ## Relationships
 
-- [[Community 108]] (2 shared connections)
-- [[Community 73]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- `.agents/skills/archify/scripts/generate-brand-marks.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

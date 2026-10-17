@@ -1,63 +1,47 @@
 # Community 42
 
-> 34 nodes · cohesion 0.08
+> 33 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **server.js** (33 connections) — `backend/src/server.js`
-- **content.js** (13 connections) — `backend/src/services/content.js`
-- **content.js** (9 connections) — `backend/src/routes/content.js`
-- **health.js** (8 connections) — `backend/src/routes/health.js`
-- **errorHandler.js** (7 connections) — `backend/src/middleware/errorHandler.js`
-- **getSupabaseBranding()** (7 connections) — `backend/src/services/content.js`
-- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
-- **prices.js** (6 connections) — `backend/src/routes/prices.js`
-- **getActiveContent()** (6 connections) — `backend/src/services/content.js`
-- **migrate()** (4 connections) — `backend/src/db/migrate.js`
-- **rateLimit.js** (4 connections) — `backend/src/middleware/rateLimit.js`
-- **branding.js** (3 connections) — `api/branding.js`
-- **applied()** (3 connections) — `backend/src/db/migrate.js`
-- **startJobs()** (3 connections) — `backend/src/jobs/index.js`
-- **httpError()** (3 connections) — `backend/src/middleware/errorHandler.js`
-- **rateLimit()** (3 connections) — `backend/src/middleware/rateLimit.js`
-- **start()** (3 connections) — `backend/src/server.js`
-- **handler()** (2 connections) — `api/branding.js`
-- **errorHandler()** (2 connections) — `backend/src/middleware/errorHandler.js`
-- **authRouter** (2 connections) — `backend/src/routes/auth.js`
-- **contentRouter** (2 connections) — `backend/src/routes/content.js`
-- **dealersRouter** (2 connections) — `backend/src/routes/dealers.js`
-- **healthRouter** (2 connections) — `backend/src/routes/health.js`
-- **pricesRouter** (2 connections) — `backend/src/routes/prices.js`
-- **webhooksRouter** (2 connections) — `backend/src/routes/webhooks.js`
-- *... and 9 more nodes in this community*
+- **scripts** (15 connections) — `.agents/skills/archify/package.json`
+- **package.json** (11 connections) — `.agents/skills/archify/package.json`
+- **devDependencies** (5 connections) — `.agents/skills/archify/package.json`
+- **bin** (2 connections) — `.agents/skills/archify/package.json`
+- **engines** (2 connections) — `.agents/skills/archify/package.json`
+- **overrides** (2 connections) — `.agents/skills/archify/package.json`
+- **archify** (1 connections) — `.agents/skills/archify/package.json`
+- **description** (1 connections) — `.agents/skills/archify/package.json`
+- **ajv** (1 connections) — `.agents/skills/archify/package.json`
+- **parse5** (1 connections) — `.agents/skills/archify/package.json`
+- **saxes** (1 connections) — `.agents/skills/archify/package.json`
+- **simple-icons** (1 connections) — `.agents/skills/archify/package.json`
+- **node** (1 connections) — `.agents/skills/archify/package.json`
+- **license** (1 connections) — `.agents/skills/archify/package.json`
+- **name** (1 connections) — `.agents/skills/archify/package.json`
+- **fast-uri** (1 connections) — `.agents/skills/archify/package.json`
+- **private** (1 connections) — `.agents/skills/archify/package.json`
+- **build:gallery** (1 connections) — `.agents/skills/archify/package.json`
+- **build:guide** (1 connections) — `.agents/skills/archify/package.json`
+- **build:readme-showcase** (1 connections) — `.agents/skills/archify/package.json`
+- **build:start** (1 connections) — `.agents/skills/archify/package.json`
+- **check:brand-marks** (1 connections) — `.agents/skills/archify/package.json`
+- **check:release-identity** (1 connections) — `.agents/skills/archify/package.json`
+- **check:validators** (1 connections) — `.agents/skills/archify/package.json`
+- **check:viewer** (1 connections) — `.agents/skills/archify/package.json`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [[Community 47]] (18 shared connections)
-- [[Community 38]] (13 shared connections)
-- [[Product Requirements Documentation]] (12 shared connections)
-- [[Community 34]] (8 shared connections)
-- [[Community 118]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `api/branding.js`
-- `backend/src/db/migrate.js`
-- `backend/src/jobs/index.js`
-- `backend/src/middleware/errorHandler.js`
-- `backend/src/middleware/rateLimit.js`
-- `backend/src/routes/auth.js`
-- `backend/src/routes/content.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/routes/health.js`
-- `backend/src/routes/prices.js`
-- `backend/src/routes/webhooks.js`
-- `backend/src/server.js`
-- `backend/src/services/content.js`
+- `.agents/skills/archify/package.json`
 
 ## Audit Trail
 
-- EXTRACTED: 146 (100%)
+- EXTRACTED: 64 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

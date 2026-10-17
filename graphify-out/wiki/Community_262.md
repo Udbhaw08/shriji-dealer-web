@@ -1,24 +1,25 @@
 # Community 262
 
-> 3 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **MainActivity.java** (2 connections) — `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
-- **MainActivity** (2 connections) — `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
-- **BridgeActivity** (2 connections)
+- **14. Hierarchy Checklist** (4 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Anti-patterns** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Hierarchy Test** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Visual Weight Stack** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 167]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

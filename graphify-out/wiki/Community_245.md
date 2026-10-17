@@ -1,25 +1,26 @@
 # Community 245
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **via** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **Shriji Domestic Appliances — Sunshine Dealer Web** (4 connections) — `README.md`
+- **README.md** (1 connections) — `README.md`
+- **Documentation** (1 connections) — `README.md`
+- **Layout** (1 connections) — `README.md`
+- **Two things to know before you change anything** (1 connections) — `README.md`
 
 ## Relationships
 
-- [[Vercel Deployment Routing]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `README.md`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,33 +1,30 @@
 # Community 166
 
-> 9 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **repository-evidence.test.mjs** (13 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **fixture()** (2 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **git()** (2 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **evidencePayload()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **waitForState()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **Delivery contract** (8 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **delivery-contract.md** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Automated browser evidence** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Handoff receipt** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Last-Good Live Preview** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Optional opening** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Perceptual delivery gate** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Recovering a failed comparison** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Validate and deliver** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
 
 ## Relationships
 
-- [[Community 57]] (2 shared connections)
-- [[Community 48]] (1 shared connections)
-- [[Community 74]] (1 shared connections)
-- [[Community 105]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/repository-evidence.test.mjs`
+- `.agents/skills/archify/references/delivery-contract.md`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

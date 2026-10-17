@@ -1,48 +1,53 @@
 # Community 79
 
-> 19 nodes · cohesion 0.19
+> 21 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **dc()** (19 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **fc()** (14 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **l()** (14 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **yo()** (12 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **Ai()** (11 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **jd()** (10 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **Mi()** (9 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **ec()** (8 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **ki()** (7 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **bo()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **cc()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **dh()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **ic()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **Oi()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **vo()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **ji()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **uh()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **uc()** (4 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **ac()** (3 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **workflow-compiler.mjs** (102 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **createReadableLayout()** (12 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **readableGroupBounds()** (5 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **authoredNodeWidth()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **compileWorkflowWithFeedback()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **authoredNodeHeight()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **compilerFailure()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **feedbackFailure()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **nodeWidthContributor()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **verticalIntervalsOverlap()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **workflowLabelWidth()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **createLegacyLayout()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **stableCompare()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **stableText()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **stableValueKey()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **workflowEdgeName()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **WorkflowLayoutFeedback** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **cloneWorkflow()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **LEGACY_COLUMN_CENTERS** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **READABLE_CANDIDATE_COST_PRIORITY** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (24 shared connections)
-- [[Product Pages Specification]] (17 shared connections)
-- [[Dependencies & Package Config]] (13 shared connections)
-- [[Client Products Data Store]] (11 shared connections)
-- [[Architecture Doc Generator]] (11 shared connections)
-- [[Claude Agent Instructions]] (7 shared connections)
-- [[Pricing Regression Test Suite]] (5 shared connections)
-- [[Mobile Responsive UI Skill]] (3 shared connections)
-- [[Community 45]] (2 shared connections)
+- [[Client Products Data Store]] (31 shared connections)
+- [[Mobile Responsive UI Skill]] (14 shared connections)
+- [[Community 39]] (14 shared connections)
+- [[Community 41]] (10 shared connections)
+- [[Live Pricing Audit Tool]] (8 shared connections)
+- [[Community 119]] (4 shared connections)
+- [[Community 203]] (4 shared connections)
+- [[Community 99]] (3 shared connections)
+- [[Community 134]] (1 shared connections)
+- [[Community 56]] (1 shared connections)
+- [[Community 125]] (1 shared connections)
+- [[Vercel Deployment Routing]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 157 (100%)
+- EXTRACTED: 161 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

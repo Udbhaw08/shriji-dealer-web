@@ -1,24 +1,25 @@
 # Community 263
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **Brand marks** (2 connections) — `.agents/skills/archify/references/brand-marks.md`
-- **brand-marks.md** (1 connections) — `.agents/skills/archify/references/brand-marks.md`
-- **Agent decision path** (1 connections) — `.agents/skills/archify/references/brand-marks.md`
+- **2. Type Scale** (4 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Common Ratios** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **CSS Tokens** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Practical Scale (Minor Third × 16px base)** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 167]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/references/brand-marks.md`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,30 +1,33 @@
 # Community 158
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **Shriji Pricing & Roles Skill** (5 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **User Roles & View Modes** (4 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **1. Guest View (Public)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **2. Dealer View (Authenticated)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **3. Customer Shared View (`?from=<dealer_id>`)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **Key Files** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **Schemes Logic** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **Zero-Price Handling** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **output-path.test.mjs** (16 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **baseFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **copyInstalledSkill()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **directoryAliasesNames()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **headFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **workflowFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Live Pricing Audit Tool]] (3 shared connections)
+- [[Community 61]] (2 shared connections)
+- [[Community 97]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- `.agents/skills/archify/test/output-path.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 25 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

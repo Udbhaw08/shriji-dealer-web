@@ -1,25 +1,25 @@
 # Community 183
 
-> 8 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **stable-update-manifest.test.mjs** (7 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **annotatedTaggerTime()** (2 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **git()** (2 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **checker** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **runCheck()** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **writeJson()** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **wraps** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **via** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Project Readme & Layout]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 

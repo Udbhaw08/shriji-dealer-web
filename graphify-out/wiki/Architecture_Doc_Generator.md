@@ -1,6 +1,6 @@
 # Architecture Doc Generator
 
-> 56 nodes · cohesion 0.07
+> 55 nodes · cohesion 0.07
 
 ## Key Concepts
 
@@ -12,13 +12,11 @@
 - **_u()** (12 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
 - **Uu()** (12 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
 - **bi()** (11 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **Gi()** (11 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
 - **tu()** (10 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
 - **kl()** (9 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
 - **Nd()** (9 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
 - **nu()** (9 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
 - **request()** (9 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **Sp()** (9 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
 - **su()** (9 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
 - **eu()** (8 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
 - **hu()** (8 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
@@ -29,19 +27,22 @@
 - **em()** (7 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
 - **oc()** (7 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
 - **wu()** (7 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- *... and 31 more nodes in this community*
+- **Xc()** (7 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **zu()** (7 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- *... and 30 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (65 shared connections)
-- [[Product Pages Specification]] (46 shared connections)
-- [[Client Products Data Store]] (30 shared connections)
-- [[Pricing Regression Test Suite]] (12 shared connections)
-- [[Community 79]] (11 shared connections)
-- [[Claude Agent Instructions]] (9 shared connections)
-- [[Dependencies & Package Config]] (9 shared connections)
-- [[Community 45]] (5 shared connections)
-- [[Mobile Responsive UI Skill]] (5 shared connections)
+- [[Dealer Auth & Session Management]] (64 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (49 shared connections)
+- [[Product Pages Specification]] (29 shared connections)
+- [[Graphify Knowledge Graph Skill]] (15 shared connections)
+- [[Product Brand & Business Vision]] (14 shared connections)
+- [[Zoho Integration Architecture]] (8 shared connections)
+- [[Community 40]] (6 shared connections)
+- [[Community 53]] (4 shared connections)
+- [[Community 92]] (3 shared connections)
+- [[Community 104]] (1 shared connections)
 
 ## Source Files
 
@@ -49,7 +50,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 406 (100%)
+- EXTRACTED: 401 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

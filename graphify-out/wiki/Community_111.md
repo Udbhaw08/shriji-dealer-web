@@ -1,35 +1,37 @@
 # Community 111
 
-> 14 nodes · cohesion 0.30
+> 15 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **architecture-delta-markers.test.mjs** (13 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **assertPreserved()** (6 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **descendants()** (6 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **assertResolved()** (4 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **attr()** (4 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **markerMap()** (4 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **compare()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **edgePaths()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **markerId()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **svgIn()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **markerShape()** (2 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **variantFixture()** (1 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **variants** (1 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **sources** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **additionalProperties** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **required** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **boundaries** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **connections** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Project Readme & Layout]] (5 shared connections)
+- [[Community 77]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (100%)
+- EXTRACTED: 48 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

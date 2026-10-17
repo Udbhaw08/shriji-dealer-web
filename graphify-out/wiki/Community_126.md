@@ -1,38 +1,39 @@
 # Community 126
 
-> 12 nodes · cohesion 0.41
+> 13 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **repository-evidence.mjs** (15 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
-- **verifyRepositoryEvidence()** (14 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
-- **evidenceFailure()** (6 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
-- **repository-location.mjs** (5 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
-- **parseRepositoryRemote()** (5 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
-- **gitValue()** (4 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
-- **runGit()** (4 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
-- **verifiedSourcePath()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
-- **redactRepositoryRemote()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
-- **repositorySourceHref()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
-- **hasRepositoryEvidence()** (2 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
-- **sourceLineCount()** (2 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **fail()** (15 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **usage()** (11 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **runNode()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandDemo()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **exitFrom()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandBrands()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandExamples()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandVisualCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandDoctor()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractMigrationOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandGuide()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **listBrandMarks()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (6 shared connections)
-- [[Community 112]] (3 shared connections)
-- [[Community 55]] (2 shared connections)
-- [[Community 97]] (1 shared connections)
+- [[Community 43]] (27 shared connections)
+- [[Vercel Deployment Routing]] (3 shared connections)
+- [[Community 204]] (3 shared connections)
+- [[Community 44]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
-- `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- `.agents/skills/archify/bin/archify.mjs`
+- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 73 (95%)
+- INFERRED: 4 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

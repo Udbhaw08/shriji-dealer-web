@@ -1,30 +1,31 @@
 # Community 153
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **web-DPADySG-.js** (8 connections) — `ios/App/App/public/assets/web-DPADySG-.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-DPADySG-.js`
-- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-DPADySG-.js`
-- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-DPADySG-.js`
-- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-DPADySG-.js`
-- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-DPADySG-.js`
-- **getState()** (1 connections) — `ios/App/App/public/assets/web-DPADySG-.js`
-- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-DPADySG-.js`
-- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-DPADySG-.js`
+- **entries** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **legend** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **mode** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **properties** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 66]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-DPADySG-.js`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

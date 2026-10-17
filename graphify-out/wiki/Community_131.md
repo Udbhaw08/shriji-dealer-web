@@ -1,34 +1,37 @@
 # Community 131
 
-> 11 nodes · cohesion 0.18
+> 13 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **properties** (9 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **note** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **title** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **dot** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **id** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **maxLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **minLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **focus-browser.test.mjs** (17 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **run()** (8 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **stable()** (6 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **click()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **key()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **select()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **focus()** (2 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **variant()** (1 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
 
 ## Relationships
 
-- [[Community 155]] (3 shared connections)
-- [[Community 233]] (1 shared connections)
-- [[Community 130]] (1 shared connections)
+- [[Community 52]] (5 shared connections)
+- [[Community 62]] (3 shared connections)
+- [[Community 44]] (1 shared connections)
+- [[Community 116]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/archify/test/focus-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
+- EXTRACTED: 58 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

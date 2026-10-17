@@ -1,38 +1,41 @@
 # Community 102
 
-> 15 nodes · cohesion 0.13
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **properties** (8 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **lanes** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **meta** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **cards** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **schema_version** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **properties** (12 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **meta** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **lanes** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **nodes** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **cards** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **schema_version** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- [[Community 132]] (3 shared connections)
-- [[Community 193]] (1 shared connections)
-- [[Community 60]] (1 shared connections)
+- [[Community 121]] (5 shared connections)
+- [[Community 59]] (2 shared connections)
+- [[Community 89]] (1 shared connections)
+- [[Community 68]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (100%)
+- EXTRACTED: 41 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

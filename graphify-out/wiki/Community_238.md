@@ -1,14 +1,15 @@
 # Community 238
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.47
 
 ## Key Concepts
 
-- **integration.test.mjs** (4 connections) — `backend/test/integration.test.mjs`
-- **api()** (1 connections) — `backend/test/integration.test.mjs`
-- **COMMERCE_FIXTURE** (1 connections) — `backend/test/integration.test.mjs`
-- **crmMock** (1 connections) — `backend/test/integration.test.mjs`
-- **uniq()** (1 connections) — `backend/test/integration.test.mjs`
+- **clean-skill-staging.test.mjs** (5 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
+- **repositoryFixture()** (3 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
+- **git()** (2 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
+- **write()** (2 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
+- **canonicalNotices** (1 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
+- **stagerPath** (1 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
 
 ## Relationships
 
@@ -16,11 +17,11 @@
 
 ## Source Files
 
-- `backend/test/integration.test.mjs`
+- `.agents/skills/archify/test/clean-skill-staging.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

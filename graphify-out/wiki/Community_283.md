@@ -1,12 +1,13 @@
 # Community 283
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **toolbar-polish.test.mjs** (2 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
+- **generate-viewer.test.mjs** (3 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
+- **fixture()** (1 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
+- **fragments** (1 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
 
 ## Relationships
 
@@ -14,11 +15,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/toolbar-polish.test.mjs`
+- `.agents/skills/archify/test/generate-viewer.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

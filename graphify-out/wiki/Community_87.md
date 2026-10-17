@@ -1,40 +1,46 @@
 # Community 87
 
-> 18 nodes · cohesion 0.11
+> 19 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **DESIGN.md — the design system as actually built** (8 connections) — `docs/DESIGN.md`
-- **4. Components already built — reuse these** (7 connections) — `docs/DESIGN.md`
-- **2. Tokens** (4 connections) — `docs/DESIGN.md`
-- **DESIGN.md** (1 connections) — `docs/DESIGN.md`
-- **1. The direction in one paragraph** (1 connections) — `docs/DESIGN.md`
-- **3. Layout primitives** (1 connections) — `docs/DESIGN.md`
-- **5. Icons** (1 connections) — `docs/DESIGN.md`
-- **6. Responsive rules** (1 connections) — `docs/DESIGN.md`
-- **7. Motion and accessibility** (1 connections) — `docs/DESIGN.md`
-- **Actions** (1 connections) — `docs/DESIGN.md`
-- **Colour** (1 connections) — `docs/DESIGN.md`
-- **Content** (1 connections) — `docs/DESIGN.md`
-- **Detail** (1 connections) — `docs/DESIGN.md`
-- **Listing sidebar** (1 connections) — `docs/DESIGN.md`
-- **Navigation and filtering** (1 connections) — `docs/DESIGN.md`
-- **Product** (1 connections) — `docs/DESIGN.md`
-- **Spacing, radius, shadow, motion** (1 connections) — `docs/DESIGN.md`
-- **Type** (1 connections) — `docs/DESIGN.md`
+- **finder-browser.test.mjs** (12 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **route-probe-browser.test.mjs** (12 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **viewer-click.mjs** (4 connections) — `.agents/skills/archify/test/helpers/viewer-click.mjs`
+- **createViewerClick()** (4 connections) — `.agents/skills/archify/test/helpers/viewer-click.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **search()** (3 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **opened()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **hash()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **route()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **installClickObserver()** (1 connections) — `.agents/skills/archify/test/helpers/viewer-click.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 52]] (8 shared connections)
+- [[Community 44]] (2 shared connections)
+- [[Community 80]] (2 shared connections)
+- [[Community 116]] (2 shared connections)
 
 ## Source Files
 
-- `docs/DESIGN.md`
+- `.agents/skills/archify/test/finder-browser.test.mjs`
+- `.agents/skills/archify/test/helpers/viewer-click.mjs`
+- `.agents/skills/archify/test/route-probe-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 69 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

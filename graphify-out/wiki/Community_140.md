@@ -1,32 +1,34 @@
 # Community 140
 
-> 10 nodes · cohesion 0.29
+> 11 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **stages** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **additionalProperties** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **required** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **favoritesStore.js** (18 connections) — `src/data/favoritesStore.js`
+- **persist()** (5 connections) — `src/data/favoritesStore.js`
+- **addFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **removeFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **toggleFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **clearFavorites()** (2 connections) — `src/data/favoritesStore.js`
+- **notify()** (2 connections) — `src/data/favoritesStore.js`
+- **favoritesState** (1 connections) — `src/data/favoritesStore.js`
+- **getFavorites()** (1 connections) — `src/data/favoritesStore.js`
+- **listeners** (1 connections) — `src/data/favoritesStore.js`
+- **loadFromStorage()** (1 connections) — `src/data/favoritesStore.js`
 
 ## Relationships
 
-- [[Zoho API Diagnostic Script]] (3 shared connections)
-- [[Community 98]] (3 shared connections)
+- [[Design System & UI Tokens]] (5 shared connections)
+- [[Community 50]] (2 shared connections)
+- [[Community 117]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `src/data/favoritesStore.js`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

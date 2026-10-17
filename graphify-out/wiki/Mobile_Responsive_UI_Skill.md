@@ -1,56 +1,67 @@
 # Mobile Responsive UI Skill
 
-> 48 nodes · cohesion 0.08
+> 49 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **addEventListener()** (21 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **add()** (19 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **b()** (18 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **.removeEventListener()** (17 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **h()** (14 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **ip()** (14 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **fp()** (13 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **lp()** (13 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **Vp()** (13 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **tp()** (12 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **Bp()** (9 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **tm()** (9 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **addListener()** (8 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **.addEventListener()** (7 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **.blur()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **.scrollIntoView()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **g()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **op()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **Rp()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **v()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **Yp()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **hm()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **hp()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **registerConsumer()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **toPromise()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- *... and 23 more nodes in this community*
+- **render-lifecycle.mjs** (81 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **esc()** (31 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **escapeHtml()** (26 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **animateAttr()** (16 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **focusEdgeAttrs()** (15 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **labelPoint()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **renderBrandMark()** (14 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **renderNode()** (13 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderState()** (13 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **focusNodeAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **renderSemanticSigil()** (13 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **renderComponent()** (12 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **renderParticipant()** (12 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **brandLabelFitWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **brandMetadataFor()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **focusNodeTitle()** (12 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **routePointsValue()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **fittedNodeFontSize()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- **variantAccent()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **renderConnectionLabel()** (8 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **renderFlowLabel()** (8 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderTransitionLabel()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderMessage()** (8 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **brandMarkFor()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **messageLabel()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (54 shared connections)
-- [[Client Products Data Store]] (23 shared connections)
-- [[Product Pages Specification]] (20 shared connections)
-- [[Pricing Regression Test Suite]] (16 shared connections)
-- [[Dependencies & Package Config]] (15 shared connections)
-- [[Claude Agent Instructions]] (12 shared connections)
-- [[Architecture Doc Generator]] (5 shared connections)
-- [[Community 79]] (3 shared connections)
-- [[Community 45]] (3 shared connections)
+- [[Client Products Data Store]] (45 shared connections)
+- [[Community 39]] (42 shared connections)
+- [[Community 41]] (35 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (21 shared connections)
+- [[Community 79]] (14 shared connections)
+- [[Community 99]] (12 shared connections)
+- [[Live Pricing Audit Tool]] (11 shared connections)
+- [[Vercel Deployment Routing]] (7 shared connections)
+- [[Community 57]] (5 shared connections)
+- [[Community 81]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- `.agents/skills/archify/renderers/shared/cli.mjs`
+- `.agents/skills/archify/renderers/shared/geometry.mjs`
+- `.agents/skills/archify/renderers/shared/i18n.mjs`
+- `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 323 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 406 (90%)
+- INFERRED: 44 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

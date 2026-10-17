@@ -1,33 +1,35 @@
 # Community 146
 
-> 10 nodes · cohesion 0.20
+> 11 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **output-path.test.mjs** (16 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **baseFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **copyInstalledSkill()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **directoryAliasesNames()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **headFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **workflowFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **reader-layout-browser.test.mjs** (13 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **load()** (6 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **evaluate()** (5 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **stable()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **viewport()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **inactive()** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **variant()** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (3 shared connections)
-- [[Community 57]] (2 shared connections)
-- [[Community 90]] (2 shared connections)
+- [[Community 52]] (4 shared connections)
+- [[Community 44]] (1 shared connections)
+- [[Community 80]] (1 shared connections)
+- [[Community 116]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/output-path.test.mjs`
+- `.agents/skills/archify/test/reader-layout-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
+- EXTRACTED: 39 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,54 +1,47 @@
 # Community 35
 
-> 38 nodes · cohesion 0.09
+> 39 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **Login.jsx** (62 connections) — `src/pages/Login.jsx`
-- **loginCode.js** (8 connections) — `src/data/loginCode.js`
-- **firebase.js** (7 connections) — `src/data/firebase.js`
-- **sendFirebasePhoneOtp()** (7 connections) — `src/data/firebase.js`
-- **validators.js** (7 connections) — `src/data/validators.js`
-- **StaffDetails()** (7 connections) — `src/pages/Login.jsx`
-- **isValidEmail()** (6 connections) — `src/data/validators.js`
-- **StaffLogin()** (6 connections) — `src/pages/Login.jsx`
-- **formatLoginCode()** (5 connections) — `src/data/loginCode.js`
-- **signOut()** (5 connections) — `src/data/session.js`
-- **isValidName()** (5 connections) — `src/data/validators.js`
-- **isValidPhone()** (5 connections) — `src/data/validators.js`
-- **BusinessDetails()** (5 connections) — `src/pages/Login.jsx`
-- **signInWithGoogleFirebase()** (3 connections) — `src/data/firebase.js`
-- **verifyFirebasePhoneOtp()** (3 connections) — `src/data/firebase.js`
-- **isValidGstin()** (3 connections) — `src/data/validators.js`
-- **isValidPincode()** (3 connections) — `src/data/validators.js`
-- **StaffInvite()** (3 connections) — `src/pages/Login.jsx`
-- **setupRecaptcha()** (2 connections) — `src/data/firebase.js`
-- **generateLoginCode()** (2 connections) — `src/data/loginCode.js`
-- **GST_TREATMENT_OPTIONS** (2 connections) — `src/data/loginCode.js`
-- **isValidLoginCode()** (2 connections) — `src/data/loginCode.js`
-- **BusinessMatch()** (2 connections) — `src/pages/Login.jsx`
-- **signOutAndReload()** (2 connections) — `src/pages/Login.jsx`
-- **StaffConfirm()** (2 connections) — `src/pages/Login.jsx`
-- *... and 13 more nodes in this community*
+- **scripts** (15 connections) — `package.json`
+- **dependencies** (13 connections) — `package.json`
+- **package.json** (7 connections) — `package.json`
+- **devDependencies** (6 connections) — `package.json`
+- **@capacitor/android** (1 connections) — `package.json`
+- **@capacitor/app** (1 connections) — `package.json`
+- **@capacitor/cli** (1 connections) — `package.json`
+- **@capacitor/core** (1 connections) — `package.json`
+- **@capacitor/ios** (1 connections) — `package.json`
+- **@capacitor/preferences** (1 connections) — `package.json`
+- **dotenv** (1 connections) — `package.json`
+- **firebase** (1 connections) — `package.json`
+- **postgres** (1 connections) — `package.json`
+- **react** (1 connections) — `package.json`
+- **react-dom** (1 connections) — `package.json`
+- **react-router-dom** (1 connections) — `package.json`
+- **oxlint** (1 connections) — `package.json`
+- **@types/react** (1 connections) — `package.json`
+- **@types/react-dom** (1 connections) — `package.json`
+- **vite** (1 connections) — `package.json`
+- **@vitejs/plugin-react** (1 connections) — `package.json`
+- **name** (1 connections) — `package.json`
+- **private** (1 connections) — `package.json`
+- **build** (1 connections) — `package.json`
+- **build:backend** (1 connections) — `package.json`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [[Community 30]] (30 shared connections)
-- [[Master Codebase Architecture Reference]] (14 shared connections)
-- [[Community 49]] (9 shared connections)
-- [[Community 51]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/data/firebase.js`
-- `src/data/loginCode.js`
-- `src/data/session.js`
-- `src/data/validators.js`
-- `src/pages/Login.jsx`
+- `package.json`
 
 ## Audit Trail
 
-- EXTRACTED: 177 (100%)
+- EXTRACTED: 76 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

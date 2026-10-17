@@ -1,23 +1,24 @@
 # Community 291
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **fromSide** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **labelSegment** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- [[Vercel Deployment Routing]] (1 shared connections)
+- [[Project Readme & Layout]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

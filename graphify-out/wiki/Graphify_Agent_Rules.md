@@ -1,55 +1,57 @@
 # Graphify Agent Rules
 
-> 42 nodes · cohesion 0.05
+> 42 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **properties** (33 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **height** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **labelSegment** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **variant** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **brand** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **channelX** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **channelY** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **fromSide** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **id** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **labelAt** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **labelDx** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **labelDy** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **lane** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **role** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **route** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **sublabel** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **tag** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **toSide** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **yOffset** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **n()** (31 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **t()** (22 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **E()** (19 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **b()** (18 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **.removeEventListener()** (17 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **h()** (14 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **fp()** (13 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **lp()** (13 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Vp()** (13 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **s()** (12 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **tp()** (12 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Bp()** (9 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **tm()** (9 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **.addEventListener()** (7 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Lt()** (7 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **bc()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **.blur()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **.scrollIntoView()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **g()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Ja()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Rp()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **v()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Yp()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **ee()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **hm()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
 - *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [[Community 109]] (5 shared connections)
-- [[Community 82]] (2 shared connections)
-- [[Community 248]] (1 shared connections)
-- [[Community 249]] (1 shared connections)
-- [[Community 250]] (1 shared connections)
-- [[Community 277]] (1 shared connections)
-- [[Community 251]] (1 shared connections)
-- [[Community 56]] (1 shared connections)
-- [[Community 278]] (1 shared connections)
+- [[Price Presentation & Product UI]] (44 shared connections)
+- [[Dependencies & Package Config]] (32 shared connections)
+- [[Product Requirements Documentation]] (24 shared connections)
+- [[Pricing Regression Test Suite]] (17 shared connections)
+- [[Roles & Customer Sharing Spec]] (15 shared connections)
+- [[Community 63]] (11 shared connections)
+- [[Zoho Integration Skill]] (11 shared connections)
+- [[Oxlint Linter Configuration]] (7 shared connections)
+- [[Community 49]] (4 shared connections)
+- [[Community 71]] (4 shared connections)
+- [[Community 58]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `ios/App/App/public/assets/index-DW7U0CFW.js`
 
 ## Audit Trail
 
-- EXTRACTED: 96 (100%)
+- EXTRACTED: 336 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,26 +1,26 @@
 # Community 247
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **meta** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **12. Performance Typography** (5 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Performance Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Requirements** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Rules** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **System Font Stack** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- [[Community 81]] (1 shared connections)
-- [[Community 61]] (1 shared connections)
+- [[Community 167]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/sequence.schema.json`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

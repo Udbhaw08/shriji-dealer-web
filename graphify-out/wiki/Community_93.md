@@ -1,39 +1,39 @@
 # Community 93
 
-> 17 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **pricing.test.mjs** (19 connections) — `src/data/pricing.test.mjs`
-- **crystal** (1 connections) — `src/data/pricing.test.mjs`
-- **crystalDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **crystalGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **genericDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **genericGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **genericItem** (1 connections) — `src/data/pricing.test.mjs`
-- **kettle** (1 connections) — `src/data/pricing.test.mjs`
-- **kettleDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **kettleGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **tcjDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **tcjGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **tripleCookJumbo** (1 connections) — `src/data/pricing.test.mjs`
-- **vernaGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **vernaPlus** (1 connections) — `src/data/pricing.test.mjs`
-- **zeroItem** (1 connections) — `src/data/pricing.test.mjs`
-- **zeroPricedResult** (1 connections) — `src/data/pricing.test.mjs`
+- **BACKEND-ARCHITECTURE.md — Dedicated Node Backend, Supabase Postgres & Zoho Ownership Model** (11 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **1. What is done in Zoho (setup checklist)** (4 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **6. Decision record — why this stack** (3 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **5. Storage — what the backend keeps** (2 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **BACKEND-ARCHITECTURE.md** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **0. The Ownership Rule — one sentence per system** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **1.1 CRM — dealers and staff** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **1.2 CRM — API access** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **1.3 Commerce** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **2. Backend responsibilities** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **3. Integration flows** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **4. Data movement** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **5.1 Schema (Supabase Postgres)** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **7. Service layout** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **8. Phased delivery** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **9. Migration checklist** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **Database: Supabase (chosen over Postgres-elsewhere and Firebase)** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **Runtime: dedicated Node.js 20 service (chosen over extending Vercel serverless)** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
 
 ## Relationships
 
-- [[Master Codebase Architecture Reference]] (2 shared connections)
-- [[Community 51]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/data/pricing.test.mjs`
+- `docs/BACKEND-ARCHITECTURE.md`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 34 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,13 +1,15 @@
 # Community 239
 
-> 4 nodes · cohesion 0.50
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **Shriji Dealer Web — Agent Guidelines** (3 connections) — `AGENTS.md`
-- **AGENTS.md** (1 connections) — `AGENTS.md`
-- **Hard Rules** (1 connections) — `AGENTS.md`
-- **Specialized Skills Available** (1 connections) — `AGENTS.md`
+- **render-output-checks.test.mjs** (5 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **checker** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **checkHtml()** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
 
 ## Relationships
 
@@ -15,11 +17,11 @@
 
 ## Source Files
 
-- `AGENTS.md`
+- `.agents/skills/archify/test/render-output-checks.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,29 +1,33 @@
 # Community 180
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **semantic-legend-gateway.test.mjs** (7 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
-- **values()** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
+- **repository-evidence.test.mjs** (13 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **fixture()** (2 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **git()** (2 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **evidencePayload()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **waitForState()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 61]] (2 shared connections)
+- [[Community 44]] (1 shared connections)
+- [[Community 80]] (1 shared connections)
+- [[Community 116]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
+- `.agents/skills/archify/test/repository-evidence.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 23 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

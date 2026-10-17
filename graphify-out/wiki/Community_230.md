@@ -1,14 +1,15 @@
 # Community 230
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **Shriji Domestic Appliances — Sunshine Dealer Web** (4 connections) — `README.md`
-- **README.md** (1 connections) — `README.md`
-- **Documentation** (1 connections) — `README.md`
-- **Layout** (1 connections) — `README.md`
-- **Two things to know before you change anything** (1 connections) — `README.md`
+- **Lifecycle Renderer** (5 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **README.md** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Input** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Layout budget** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Legend** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
 
 ## Relationships
 
@@ -16,11 +17,11 @@
 
 ## Source Files
 
-- `README.md`
+- `.agents/skills/archify/renderers/lifecycle/README.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

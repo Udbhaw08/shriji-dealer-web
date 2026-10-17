@@ -1,22 +1,24 @@
 # Community 305
 
-> 1 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **build.gradle** (0 connections) — `android/app/build.gradle`
+- **width** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Graphify Workflow]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/build.gradle`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

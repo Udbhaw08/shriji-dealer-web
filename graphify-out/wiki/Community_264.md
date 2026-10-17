@@ -1,24 +1,25 @@
 # Community 264
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **col** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **3. Font Pairing** (4 connections) — `.agents/skills/refero-design/references/typography.md`
+- **If You Must Pair** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Safe Font Choices by Product Type** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **The One-Font Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- [[Project Readme & Layout]] (1 shared connections)
+- [[Community 167]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

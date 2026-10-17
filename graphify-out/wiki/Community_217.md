@@ -1,27 +1,28 @@
 # Community 217
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **size** (6 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **presentation.test.mjs** (6 connections) — `.agents/skills/archify/test/presentation.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
+- **svg()** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
 
 ## Relationships
 
-- [[Project Readme & Layout]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `.agents/skills/archify/test/presentation.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

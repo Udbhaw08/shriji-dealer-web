@@ -1,56 +1,56 @@
 # Zoho Backend & Proxy Endpoints
 
-> 96 nodes · cohesion 0.05
+> 98 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **D()** (24 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **ht()** (22 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **Yd()** (17 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **Pd()** (15 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **ip()** (14 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **on()** (14 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **Ct()** (13 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **Vd()** (13 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **vt()** (13 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **ae()** (12 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **Fd()** (12 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **O()** (12 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **qd()** (12 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **rf()** (12 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **tp()** (12 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **zd()** (12 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **lf()** (11 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **vn()** (11 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **df()** (10 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **te()** (10 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **tn()** (10 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **xt()** (10 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **yh()** (10 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **ff()** (9 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **hh()** (9 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- *... and 71 more nodes in this community*
+- **i()** (66 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **ml()** (41 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **n()** (31 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **xl()** (29 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **dl()** (21 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **il()** (20 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **E()** (19 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **ia()** (19 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **lm()** (19 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **ya()** (18 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **el()** (17 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **sl()** (16 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Gc()** (15 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **r()** (14 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Yc()** (14 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **pl()** (13 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **we()** (13 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **cl()** (12 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **da()** (12 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **ha()** (12 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **lc()** (12 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Ca()** (11 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Ea()** (11 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **ll()** (11 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **nl()** (11 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- *... and 73 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (105 shared connections)
-- [[Oxlint Linter Configuration]] (28 shared connections)
-- [[Live Pricing Audit Tool]] (24 shared connections)
-- [[Community 43]] (24 shared connections)
-- [[Design System & UI Tokens]] (19 shared connections)
-- [[Zoho Integration Architecture]] (15 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (14 shared connections)
-- [[Community 64]] (13 shared connections)
-- [[Community 39]] (10 shared connections)
-- [[Graphify Workflow]] (9 shared connections)
+- [[Dealer Auth & Session Management]] (109 shared connections)
+- [[Product Pages Specification]] (56 shared connections)
+- [[Architecture Doc Generator]] (49 shared connections)
+- [[Graphify Knowledge Graph Skill]] (42 shared connections)
+- [[Zoho Integration Architecture]] (42 shared connections)
+- [[Community 53]] (17 shared connections)
+- [[Product Brand & Business Vision]] (16 shared connections)
+- [[Community 104]] (13 shared connections)
+- [[Community 40]] (12 shared connections)
+- [[Community 92]] (11 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DW7U0CFW.js`
+- `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
 
 ## Audit Trail
 
-- EXTRACTED: 691 (100%)
+- EXTRACTED: 899 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

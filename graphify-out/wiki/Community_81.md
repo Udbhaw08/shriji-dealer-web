@@ -1,42 +1,44 @@
 # Community 81
 
-> 19 nodes · cohesion 0.11
+> 20 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **properties** (9 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **sequence.schema.json** (7 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **participants** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **segments** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **cards** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **schema_version** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$id** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$schema** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **title** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **buildDeltaSvg()** (16 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **annotateArchitectureSideSvg()** (9 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryElements()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **edgeSymbolMarkup()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **markerFor()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **addNodeMarker()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryChangeMap()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryMarkupByKey()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryMarkupParts()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundarySymbolMarkup()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **changeMap()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **elementById()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **forceElementState()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **nodeGroupRanges()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **prefixSvgIds()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **staticize()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **transformBoundaryElements()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **transformNodeGroups()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **forceBoundaryState()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **viewBoxSize()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Relationships
 
-- [[Community 124]] (4 shared connections)
-- [[Community 247]] (1 shared connections)
+- [[Community 57]] (20 shared connections)
+- [[Community 204]] (2 shared connections)
+- [[Mobile Responsive UI Skill]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/sequence.schema.json`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 78 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

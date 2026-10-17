@@ -1,67 +1,50 @@
 # Pricing & Roles Skill
 
-> 49 nodes · cohesion 0.11
+> 50 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **render-lifecycle.mjs** (81 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **esc()** (31 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **escapeHtml()** (26 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **animateAttr()** (16 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **focusEdgeAttrs()** (15 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **labelPoint()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **renderBrandMark()** (14 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **renderNode()** (13 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderState()** (13 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **focusNodeAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **renderSemanticSigil()** (13 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **renderComponent()** (12 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderParticipant()** (12 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **brandLabelFitWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **brandMetadataFor()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **focusNodeTitle()** (12 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **routePointsValue()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **fittedNodeFontSize()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **variantAccent()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **renderConnectionLabel()** (8 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderFlowLabel()** (8 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderTransitionLabel()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderMessage()** (8 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **brandMarkFor()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **messageLabel()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- *... and 24 more nodes in this community*
+- **check-render-output.mjs** (57 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **parseAttrs()** (7 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectArrows()** (6 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **numberAttr()** (6 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectCompositionFrames()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectLegendBoxes()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **lineSegments()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectDesktopReadability()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectNonFiniteAttrs()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **pathSegments()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **straightPathSegments()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **textBox()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **projectedNodeTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **attrEntries()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectLegendCollisions()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectRelationshipLabelMasks()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **crossProduct()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **isCommand()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **pointsFromPath()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **properSegmentIntersection()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **segmentIntersectsBox()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **segmentsIntersect()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **stripTags()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectRelationshipCrossings()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **decodeNumericReferences()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [[Product Brand & Business Vision]] (45 shared connections)
-- [[Community 37]] (42 shared connections)
-- [[Community 41]] (35 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (21 shared connections)
-- [[Community 73]] (14 shared connections)
-- [[Community 92]] (12 shared connections)
-- [[Roles & Customer Sharing Spec]] (11 shared connections)
-- [[Testing & Workflow Skill]] (7 shared connections)
-- [[Community 55]] (5 shared connections)
-- [[Community 75]] (2 shared connections)
+- [[Client Products Data Store]] (6 shared connections)
+- [[Community 44]] (4 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/cli.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/i18n.mjs`
-- `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- `.agents/skills/archify/scripts/check-render-output.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 406 (90%)
-- INFERRED: 44 (10%)
+- EXTRACTED: 182 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

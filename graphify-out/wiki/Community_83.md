@@ -1,44 +1,42 @@
 # Community 83
 
-> 19 nodes · cohesion 0.26
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **cacheRename()** (13 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheRm()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **captureMutationParentSnapshots()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **invalidateCacheToken()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **prepareCacheDirectory()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **resolveCacheTarget()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stableCacheEntry()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **verifyCacheToken()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **guardedCacheMutation()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertSafeDirectory()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **isSameFile()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheMkdirWithToken()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stablePreparedDirectory()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **verifyDirectorySnapshots()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **verifyMutationContext()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **verifyMutationParentSnapshots()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertCacheTargetAbsent()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **canonicalizeTrustedDirectoryPrefix()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **isWithinDirectory()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **Authoring contract** (12 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Mode placement** (6 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Executable geometry rules** (3 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **authoring-contract.md** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Architecture** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Dataflow** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Engineering profile default** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Hand-placed fallback** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Language consistency** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Legend contract** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Lifecycle** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Repair order** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Repository evidence** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Schema lookup** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Sequence** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Spacing and labels** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Title hierarchy** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Visual preset default** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Workflow** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Workflow layout contracts** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
 
 ## Relationships
 
-- [[Community 40]] (21 shared connections)
-- [[Community 89]] (14 shared connections)
-- [[Community 96]] (7 shared connections)
-- [[Community 148]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-update.mjs`
+- `.agents/skills/archify/references/authoring-contract.md`
 
 ## Audit Trail
 
-- EXTRACTED: 130 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 38 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

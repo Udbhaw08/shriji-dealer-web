@@ -33,15 +33,15 @@
 
 ## Relationships
 
-- [[Product Brand & Business Vision]] (35 shared connections)
-- [[Pricing & Roles Skill]] (21 shared connections)
-- [[Community 37]] (19 shared connections)
+- [[Client Products Data Store]] (35 shared connections)
+- [[Mobile Responsive UI Skill]] (21 shared connections)
+- [[Community 39]] (19 shared connections)
 - [[Community 41]] (14 shared connections)
-- [[Roles & Customer Sharing Spec]] (5 shared connections)
-- [[Community 92]] (4 shared connections)
-- [[Community 48]] (3 shared connections)
-- [[Testing & Workflow Skill]] (1 shared connections)
-- [[Community 73]] (1 shared connections)
+- [[Live Pricing Audit Tool]] (5 shared connections)
+- [[Community 99]] (4 shared connections)
+- [[Community 44]] (3 shared connections)
+- [[Vercel Deployment Routing]] (1 shared connections)
+- [[Community 79]] (1 shared connections)
 
 ## Source Files
 

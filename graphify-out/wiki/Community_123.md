@@ -1,21 +1,23 @@
 # Community 123
 
-> 12 nodes · cohesion 0.17
+> 14 nodes · cohesion 0.30
 
 ## Key Concepts
 
-- **DEALER-HIERARCHY-AND-WORKFLOW.md — Business, Dealer & Staff Hierarchy Model** (6 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **3. End-to-End User Journey & Life Cycle** (3 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **4. Zoho CRM Data Structure** (3 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **1. The Three-Tier Hierarchy Model** (2 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **DEALER-HIERARCHY-AND-WORKFLOW.md** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **2. Two-Stage Approval Separation** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **5. Technical Seams to Adapt** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **Accounts Module (Business Entity)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **Contacts Module (People Hierarchy)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **Hierarchy Breakdown:** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **Phase A: Dealer Onboarding (Head Approval)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **Phase B: Staff Onboarding via Dealer Code (Dealer Approval)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **architecture-delta-markers.test.mjs** (13 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **assertPreserved()** (6 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **descendants()** (6 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **assertResolved()** (4 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **attr()** (4 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **markerMap()** (4 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **compare()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **edgePaths()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **markerId()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **svgIn()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **markerShape()** (2 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **variantFixture()** (1 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **variants** (1 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
 
 ## Relationships
 
@@ -23,11 +25,11 @@
 
 ## Source Files
 
-- `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 54 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

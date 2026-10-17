@@ -1,33 +1,37 @@
 # Community 125
 
-> 12 nodes · cohesion 0.17
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **generate-codebase-doc.mjs** (11 connections) — `scripts/generate-codebase-doc.mjs`
-- **allFiles** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **apiFiles** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **components** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **dataStores** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **getFiles()** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **istDateString** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **pages** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **pkg** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **rootDir** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **routes** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **scripts** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **workflow-migration.test.mjs** (22 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **copyFixture()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **explicitPinConflictWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **fixture** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **heightConstrainedWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **parseJsonOutput()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **profileDivergenceWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **runMigration()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **runValidation()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 203]] (5 shared connections)
+- [[Community 119]] (3 shared connections)
+- [[Community 79]] (1 shared connections)
 
 ## Source Files
 
-- `scripts/generate-codebase-doc.mjs`
+- `.agents/skills/archify/test/workflow-migration.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 35 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

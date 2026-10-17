@@ -1,32 +1,36 @@
 # Community 133
 
-> 11 nodes · cohesion 0.20
+> 13 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **degraded.test.mjs** (10 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **assertFriendlyFailure()** (2 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **render()** (2 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **ARRAY_FIELDS** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **filter()** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **installedRoot** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **mulberry32()** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **semantic-radar.test.mjs** (15 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **evaluate()** (5 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **dragMouse()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **loadArtifact()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **observe()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **radarRects()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **overlaps()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 44]] (1 shared connections)
+- [[Community 80]] (1 shared connections)
+- [[Community 116]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/degraded.test.mjs`
+- `.agents/skills/archify/test/semantic-radar.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 35 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

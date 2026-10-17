@@ -1,44 +1,53 @@
 # Community 71
 
-> 21 nodes · cohesion 0.10
+> 23 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **properties** (15 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **from** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **to** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **brand** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **id** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **note** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **participant** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **sublabel** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **variant** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **addEventListener()** (21 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **add()** (19 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **fa()** (10 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **addListener()** (8 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **pa()** (7 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **un()** (7 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **an()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **mn()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **registerConsumer()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **oh()** (4 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **subscribe()** (4 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **addWindowListener()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **attachListener()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **ep()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **nn()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **p()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **registerLifecycleListeners()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **reload()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **rn()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **saveEventToCache()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **abort()** (2 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **isEventForConsumer()** (2 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **sendRetainedArgumentsForEvent()** (2 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
 
 ## Relationships
 
-- [[Community 124]] (4 shared connections)
-- [[Community 274]] (1 shared connections)
-- [[Community 276]] (1 shared connections)
+- [[Price Presentation & Product UI]] (28 shared connections)
+- [[Product Requirements Documentation]] (10 shared connections)
+- [[Roles & Customer Sharing Spec]] (8 shared connections)
+- [[Dependencies & Package Config]] (8 shared connections)
+- [[Pricing Regression Test Suite]] (5 shared connections)
+- [[Graphify Agent Rules]] (4 shared connections)
+- [[Community 63]] (4 shared connections)
+- [[Zoho Integration Skill]] (3 shared connections)
+- [[Community 58]] (3 shared connections)
+- [[Oxlint Linter Configuration]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/sequence.schema.json`
+- `ios/App/App/public/assets/index-DW7U0CFW.js`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (100%)
+- EXTRACTED: 130 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

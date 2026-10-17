@@ -1,10 +1,11 @@
 # Community 315
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **lifecycle** (0 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **fail-migration-cleanup.mjs** (1 connections) — `.agents/skills/archify/test/fixtures/fail-migration-cleanup.mjs`
+- **originalRmSync** (1 connections) — `.agents/skills/archify/test/fixtures/fail-migration-cleanup.mjs`
 
 ## Relationships
 
@@ -12,11 +13,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- `.agents/skills/archify/test/fixtures/fail-migration-cleanup.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

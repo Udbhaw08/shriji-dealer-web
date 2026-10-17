@@ -1,32 +1,34 @@
 # Community 136
 
-> 11 nodes · cohesion 0.18
+> 12 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **release-package-gates.test.mjs** (10 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **canonicalZipTest()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **centralDirectoryModes()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **currentNodeMajor** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **spawnBuildZip()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **stagedFixture()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **workflowJob()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **workflowStep()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **writeArchive()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **additionalProperties** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **required** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **messages** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **activations** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 78]] (4 shared connections)
+- [[Community 88]] (4 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/release-package-gates.test.mjs`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,13 +1,14 @@
 # Community 254
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **Shriji Testing & Workflow Skill** (3 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
-- **Daily Development Commands** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
-- **Hard Workflow Rules** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
+- **render-examples.mjs** (4 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
+- **outputRoot** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
+- **TARGETS** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
 
 ## Relationships
 
@@ -15,11 +16,11 @@
 
 ## Source Files
 
-- `.agents/skills/shriji-testing-and-workflow/SKILL.md`
+- `.agents/skills/archify/scripts/render-examples.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

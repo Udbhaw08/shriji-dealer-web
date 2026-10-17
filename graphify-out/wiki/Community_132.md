@@ -1,33 +1,37 @@
 # Community 132
 
-> 11 nodes · cohesion 0.25
+> 13 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **states** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **additionalProperties** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **required** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **transitions** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **guided-views-browser.test.mjs** (17 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **run()** (8 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **settled()** (4 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **activate()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **hash()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **variant()** (1 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
 
 ## Relationships
 
-- [[Vercel Deployment Routing]] (3 shared connections)
-- [[Community 102]] (3 shared connections)
+- [[Community 52]] (5 shared connections)
+- [[Community 62]] (3 shared connections)
+- [[Community 44]] (1 shared connections)
+- [[Community 116]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `.agents/skills/archify/test/guided-views-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
+- EXTRACTED: 54 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

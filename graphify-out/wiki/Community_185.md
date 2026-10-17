@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **story-director-strip.test.mjs** (7 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **guided-views.test.mjs** (7 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **fixture()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **svg()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/story-director-strip.test.mjs`
+- `.agents/skills/archify/test/guided-views.test.mjs`
 
 ## Audit Trail
 

@@ -1,50 +1,48 @@
 # Community 92
 
-> 17 nodes · cohesion 0.21
+> 18 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **utils.mjs** (26 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **i18n.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **translateMessage()** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **applyTemplate()** (9 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **resolveLocale()** (7 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **componentContext()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **viewerCatalog()** (4 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **localizeTemplate()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **translateCount()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **formatMessage()** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **serializeScriptJson()** (2 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **CATALOGS** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **ESCAPE_MAP** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **MESSAGE_PAIRS** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **SIGIL_SHAPE** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **SIGIL_TONE** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **TEMPLATE_PLACEHOLDERS** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **Yd()** (17 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Vd()** (13 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **qd()** (12 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Gi()** (11 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Bd()** (8 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Di()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Hd()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **os()** (4 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **pf()** (4 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **eo()** (3 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Gd()** (3 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **io()** (3 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **revokeAccessToken()** (3 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Wd()** (3 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Ym()** (3 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **ze()** (3 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **clearNetworkTimeout()** (2 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **Xd()** (2 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
 
 ## Relationships
 
-- [[Pricing & Roles Skill]] (12 shared connections)
-- [[Community 41]] (10 shared connections)
-- [[Roles & Customer Sharing Spec]] (7 shared connections)
-- [[Community 37]] (5 shared connections)
-- [[Community 103]] (5 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (4 shared connections)
-- [[Product Brand & Business Vision]] (4 shared connections)
-- [[Community 73]] (3 shared connections)
-- [[Testing & Workflow Skill]] (1 shared connections)
-- [[Community 181]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (19 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (11 shared connections)
+- [[Zoho Integration Architecture]] (7 shared connections)
+- [[Graphify Knowledge Graph Skill]] (5 shared connections)
+- [[Product Brand & Business Vision]] (5 shared connections)
+- [[Product Pages Specification]] (3 shared connections)
+- [[Architecture Doc Generator]] (3 shared connections)
+- [[Community 40]] (1 shared connections)
+- [[Community 53]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/shared/i18n.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
 
 ## Audit Trail
 
-- EXTRACTED: 107 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 105 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

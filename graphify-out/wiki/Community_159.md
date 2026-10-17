@@ -1,30 +1,33 @@
 # Community 159
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Critical Mobile Responsiveness Safeguards** (6 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **Shriji Responsive UI Skill** (3 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **1. Viewport Zoom-Out Prevention** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **2. CSS Grid Child Shrinking** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **3. Product Card Rows on Mobile (`<= 719px`)** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **4. Horizontal Scrollable Tabs (`.utabs`, `.tabs`)** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **5. Hero Banner on Small Screens (`<= 640px`)** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **Design System Tokens** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **site-language-continuity.test.mjs** (12 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **clickAndNavigate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **evaluate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **loadRuntime()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **navigate()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **navigationPath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **runtimePath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **startStaticServer()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 44]] (1 shared connections)
+- [[Community 80]] (1 shared connections)
+- [[Community 116]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/shriji-responsive-ui/SKILL.md`
+- `.agents/skills/archify/test/site-language-continuity.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 23 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

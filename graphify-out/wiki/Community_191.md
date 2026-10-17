@@ -1,16 +1,17 @@
 # Community 191
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **MockStorage** (6 connections) — `src/data/auth-session.test.mjs`
-- **auth-session.test.mjs** (1 connections) — `src/data/auth-session.test.mjs`
-- **.clear()** (1 connections) — `src/data/auth-session.test.mjs`
-- **.constructor()** (1 connections) — `src/data/auth-session.test.mjs`
-- **.getItem()** (1 connections) — `src/data/auth-session.test.mjs`
-- **.removeItem()** (1 connections) — `src/data/auth-session.test.mjs`
-- **.setItem()** (1 connections) — `src/data/auth-session.test.mjs`
+- **repair-receipt.test.mjs** (7 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **receipt()** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **writeFixture()** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
 
 ## Relationships
 
@@ -18,11 +19,11 @@
 
 ## Source Files
 
-- `src/data/auth-session.test.mjs`
+- `.agents/skills/archify/test/repair-receipt.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

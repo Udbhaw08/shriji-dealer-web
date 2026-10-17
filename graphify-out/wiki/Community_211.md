@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **story-beat-navigator.test.mjs** (6 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
+- **chapter-handoff.test.mjs** (6 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/story-beat-navigator.test.mjs`
+- `.agents/skills/archify/test/chapter-handoff.test.mjs`
 
 ## Audit Trail
 

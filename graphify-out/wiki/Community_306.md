@@ -1,10 +1,12 @@
 # Community 306
 
-> 1 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **capacitor.build.gradle** (0 connections) — `android/app/capacitor.build.gradle`
+- **check-whatsapp-status.js** (2 connections) — `backend/scripts/check-whatsapp-status.js`
+- **checkStatus()** (1 connections) — `backend/scripts/check-whatsapp-status.js`
+- **__dirname** (1 connections) — `backend/scripts/check-whatsapp-status.js`
 
 ## Relationships
 
@@ -12,11 +14,11 @@
 
 ## Source Files
 
-- `android/app/capacitor.build.gradle`
+- `backend/scripts/check-whatsapp-status.js`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

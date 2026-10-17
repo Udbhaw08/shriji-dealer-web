@@ -1,56 +1,53 @@
 # Agent Guidelines (AGENTS.md)
 
-> 43 nodes · cohesion 0.07
+> 44 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **np()** (23 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **addEventListener()** (21 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **lm()** (19 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **cn()** (12 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **cm()** (11 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **od()** (10 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **km()** (9 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **ma()** (9 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **addListener()** (8 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **_key()** (8 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **om()** (8 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **mm()** (7 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **onExecution()** (7 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **_openPopup()** (7 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **zm()** (7 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **jm()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **execute()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **pm()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **qm()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **vl()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **zi()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **im()** (4 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **initAndGetManager()** (4 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **oh()** (4 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **rm()** (4 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- *... and 18 more nodes in this community*
+- **properties** (30 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **cornerRadius** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **brand** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **channelX** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **channelY** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **from** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **fromSide** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **labelAt** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **labelDx** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **labelDy** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **lane** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **note** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **route** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **step** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **sublabel** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **tag** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **to** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **toSide** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **variant** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **yOffset** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (47 shared connections)
-- [[Design System & UI Tokens]] (26 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (14 shared connections)
-- [[Oxlint Linter Configuration]] (13 shared connections)
-- [[Live Pricing Audit Tool]] (12 shared connections)
-- [[Community 39]] (10 shared connections)
-- [[Community 43]] (9 shared connections)
-- [[Zoho Integration Architecture]] (9 shared connections)
-- [[Community 64]] (4 shared connections)
-- [[Graphify Workflow]] (1 shared connections)
+- [[Community 144]] (3 shared connections)
+- [[Community 269]] (1 shared connections)
+- [[Community 298]] (1 shared connections)
+- [[Community 299]] (1 shared connections)
+- [[Community 300]] (1 shared connections)
+- [[Community 270]] (1 shared connections)
+- [[Community 271]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DW7U0CFW.js`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 263 (100%)
+- EXTRACTED: 95 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

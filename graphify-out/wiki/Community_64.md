@@ -1,53 +1,45 @@
 # Community 64
 
-> 23 nodes · cohesion 0.15
+> 24 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **dc()** (19 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **fc()** (14 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **l()** (14 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **yo()** (12 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **Ai()** (11 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **jd()** (10 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **Mi()** (9 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **su()** (9 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **ec()** (8 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **ki()** (7 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **bo()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **cc()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **dh()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **ic()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **Oi()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **vo()** (6 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **ji()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **uh()** (5 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **debug()** (4 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **uc()** (4 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **ac()** (3 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **deleteThrottleMetadata()** (2 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **setThrottleMetadata()** (2 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
+- **Refero Design** (13 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Tool Routing** (5 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Research Workflow** (4 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Synthesis** (4 connections) — `.agents/skills/refero-design/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **1. Research Visual Direction With Styles** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **2. Research Screens For Product Details** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **3. Research Flows For Journey Logic** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Design Craft** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Discovery** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Example** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Journey Logic** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **MCP Setup** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Non-Negotiables** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Present Findings** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Product Pattern** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Quality Gate** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Research Depth** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Use Flows For Journeys** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Use Screens For Concrete UI Patterns** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Use Styles First For Visual Work** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Use Visual Workflow For Images And QA** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Visual Direction** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Workflow Routing** (1 connections) — `.agents/skills/refero-design/SKILL.md`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (27 shared connections)
-- [[Live Pricing Audit Tool]] (18 shared connections)
-- [[Design System & UI Tokens]] (14 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (13 shared connections)
-- [[Oxlint Linter Configuration]] (8 shared connections)
-- [[Community 43]] (6 shared connections)
-- [[Graphify Workflow]] (4 shared connections)
-- [[Zoho Integration Architecture]] (4 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (4 shared connections)
-- [[Community 39]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DW7U0CFW.js`
+- `.agents/skills/refero-design/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 174 (100%)
+- EXTRACTED: 46 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

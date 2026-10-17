@@ -1,34 +1,30 @@
 # Community 190
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **commandCompare()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commitComparePair()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractCompareOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **formatDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportCompareFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **compareCommitError()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **compareReceiptPath()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **relationship-lens.test.mjs** (7 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **escapeAttr()** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **svg()** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
 
 ## Relationships
 
-- [[Community 46]] (11 shared connections)
-- [[Community 97]] (4 shared connections)
-- [[Community 114]] (3 shared connections)
-- [[Community 75]] (2 shared connections)
-- [[Community 55]] (2 shared connections)
-- [[Community 90]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
+- `.agents/skills/archify/test/relationship-lens.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (75%)
-- INFERRED: 9 (25%)
+- EXTRACTED: 14 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,24 +1,25 @@
 # Community 267
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **id** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **pattern** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **via** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Relationships
 
-- [[Community 68]] (1 shared connections)
+- [[Testing & Workflow Skill]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

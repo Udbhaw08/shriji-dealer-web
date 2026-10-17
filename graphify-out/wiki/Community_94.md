@@ -1,26 +1,27 @@
 # Community 94
 
-> 17 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **3. Exactly which keys to fetch, and from where** (9 connections) — `docs/ZOHO-INTEGRATION.md`
-- **ZOHO-INTEGRATION.md — Live Zoho Commerce & Books Backend** (7 connections) — `docs/ZOHO-INTEGRATION.md`
-- **5. API surface** (2 connections) — `docs/ZOHO-INTEGRATION.md`
-- **ZOHO-INTEGRATION.md** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **1. Active Integration Summary** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **2. The Code Seams** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.1 Organization ID — from the Commerce dashboard** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.2 Client ID + Client Secret — from the API console, not the store** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.3 Refresh Token — generated once, then permanent** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.4 Scopes** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.5 Data centre** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.6 The API call the keys unlock** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.7 Still to confirm — only the store owner can answer** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **4. Architecture — the part that cannot be skipped** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **6. Migration checklist** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **How to hand the credentials over safely** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **Sources** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **DESIGN.md — the design system as actually built** (8 connections) — `docs/DESIGN.md`
+- **4. Components already built — reuse these** (7 connections) — `docs/DESIGN.md`
+- **2. Tokens** (4 connections) — `docs/DESIGN.md`
+- **DESIGN.md** (1 connections) — `docs/DESIGN.md`
+- **1. The direction in one paragraph** (1 connections) — `docs/DESIGN.md`
+- **3. Layout primitives** (1 connections) — `docs/DESIGN.md`
+- **5. Icons** (1 connections) — `docs/DESIGN.md`
+- **6. Responsive rules** (1 connections) — `docs/DESIGN.md`
+- **7. Motion and accessibility** (1 connections) — `docs/DESIGN.md`
+- **Actions** (1 connections) — `docs/DESIGN.md`
+- **Colour** (1 connections) — `docs/DESIGN.md`
+- **Content** (1 connections) — `docs/DESIGN.md`
+- **Detail** (1 connections) — `docs/DESIGN.md`
+- **Listing sidebar** (1 connections) — `docs/DESIGN.md`
+- **Navigation and filtering** (1 connections) — `docs/DESIGN.md`
+- **Product** (1 connections) — `docs/DESIGN.md`
+- **Spacing, radius, shadow, motion** (1 connections) — `docs/DESIGN.md`
+- **Type** (1 connections) — `docs/DESIGN.md`
 
 ## Relationships
 
@@ -28,11 +29,11 @@
 
 ## Source Files
 
-- `docs/ZOHO-INTEGRATION.md`
+- `docs/DESIGN.md`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 34 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

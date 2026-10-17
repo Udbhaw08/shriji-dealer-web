@@ -1,18 +1,19 @@
 # Community 150
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **web-DPADySG-.js** (8 connections) — `android/app/src/main/assets/public/assets/web-DPADySG-.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-DPADySG-.js`
-- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-DPADySG-.js`
-- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-DPADySG-.js`
-- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-DPADySG-.js`
-- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-DPADySG-.js`
-- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-DPADySG-.js`
-- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-DPADySG-.js`
-- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-DPADySG-.js`
+- **Viewer Runtime reference** (6 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Canonical exports** (4 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **viewer-runtime.md** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Exploration** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Guided views and story** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Motion and presentation** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Reach Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Route Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Truth boundary** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
 
 ## Relationships
 
@@ -20,11 +21,11 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/web-DPADySG-.js`
+- `.agents/skills/archify/references/viewer-runtime.md`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

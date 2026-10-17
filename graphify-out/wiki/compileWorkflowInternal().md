@@ -2,7 +2,7 @@
 
 > God node · 67 connections · `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
 
-**Community:** [[Product Brand & Business Vision]]
+**Community:** [[Client Products Data Store]]
 
 ## Connections by Relation
 

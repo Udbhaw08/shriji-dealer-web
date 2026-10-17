@@ -2,7 +2,7 @@
 
 > God node · 49 connections · `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
 
-**Community:** [[Client Products Data Store]]
+**Community:** [[Product Pages Specification]]
 
 ## Connections by Relation
 

@@ -1,49 +1,41 @@
 # Community 105
 
-> 14 nodes · cohesion 0.19
+> 16 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **findChrome()** (22 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **export-cleanup-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **viewer-identifiers-browser.test.mjs** (7 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **evaluate()** (4 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **executable()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **findOnPath()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **run()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **exported()** (2 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **compareArchitecture()** (12 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **fail()** (8 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **canonicalArchitecture()** (5 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryIndex()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **canonicalArchitectureJson()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **equal()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **normalizeRepository()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **canonical()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **extractArchitectureSvg()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **extractArtifactCss()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **presentationChanged()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **requireComparableShape()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **stableIndex()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryKey()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **sortedBy()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **summaryFor()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Relationships
 
-- [[Community 52]] (7 shared connections)
-- [[Community 48]] (6 shared connections)
-- [[Community 80]] (2 shared connections)
-- [[Community 58]] (2 shared connections)
-- [[Community 74]] (2 shared connections)
-- [[Community 119]] (1 shared connections)
-- [[Community 120]] (1 shared connections)
-- [[Community 103]] (1 shared connections)
-- [[Community 31]] (1 shared connections)
-- [[Community 134]] (1 shared connections)
-- [[Community 166]] (1 shared connections)
-- [[Community 121]] (1 shared connections)
+- [[Community 57]] (18 shared connections)
+- [[Community 204]] (4 shared connections)
+- [[Community 127]] (2 shared connections)
+- [[Community 138]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 62 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 61 (94%)
+- INFERRED: 4 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

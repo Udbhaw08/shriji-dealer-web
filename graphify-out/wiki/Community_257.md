@@ -1,13 +1,14 @@
 # Community 257
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **delivery-contract.test.mjs** (3 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
-- **delivery** (1 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
-- **skill** (1 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
+- **integration.test.mjs** (4 connections) — `backend/test/integration.test.mjs`
+- **api()** (1 connections) — `backend/test/integration.test.mjs`
+- **COMMERCE_FIXTURE** (1 connections) — `backend/test/integration.test.mjs`
+- **crmMock** (1 connections) — `backend/test/integration.test.mjs`
+- **uniq()** (1 connections) — `backend/test/integration.test.mjs`
 
 ## Relationships
 
@@ -15,11 +16,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/delivery-contract.test.mjs`
+- `backend/test/integration.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,23 +1,24 @@
 # Community 289
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **esm-Cj-rP6Qi.js** (1 connections) — `ios/App/App/public/assets/esm-Cj-rP6Qi.js`
-- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-Cj-rP6Qi.js`
+- **9. Line Length (Measure)** (3 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Guidelines** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Implementation** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 167]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/esm-Cj-rP6Qi.js`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

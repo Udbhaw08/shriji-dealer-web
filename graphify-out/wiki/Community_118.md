@@ -1,37 +1,35 @@
 # Community 118
 
-> 13 nodes · cohesion 0.36
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **commerceClient.js** (22 connections) — `backend/src/services/commerceClient.js`
-- **ensureContactPricebookForCrmAccount()** (8 connections) — `backend/src/services/commerceClient.js`
-- **fetchCatalog()** (6 connections) — `backend/src/services/commerceClient.js`
-- **booksFetch()** (5 connections) — `backend/src/services/commerceClient.js`
-- **commerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
-- **commerceFetch()** (5 connections) — `backend/src/services/commerceClient.js`
-- **resolvePricebookId()** (5 connections) — `backend/src/services/commerceClient.js`
-- **assignPricebookToContact()** (4 connections) — `backend/src/services/commerceClient.js`
-- **deactivateCommerceContact()** (3 connections) — `backend/src/services/commerceClient.js`
-- **fetchCommercePricebooks()** (3 connections) — `backend/src/services/commerceClient.js`
-- **fetchPricebookRates()** (3 connections) — `backend/src/services/commerceClient.js`
-- **getAccessToken()** (3 connections) — `backend/src/services/commerceClient.js`
-- **parseRate()** (2 connections) — `backend/src/services/commerceClient.js`
+- **web-CTECFstK.js** (13 connections) — `ios/App/App/public/assets/web-CTECFstK.js`
+- **applyPrefix()** (4 connections) — `ios/App/App/public/assets/web-CTECFstK.js`
+- **keys()** (4 connections) — `ios/App/App/public/assets/web-CTECFstK.js`
+- **get()** (3 connections) — `ios/App/App/public/assets/web-CTECFstK.js`
+- **migrate()** (3 connections) — `ios/App/App/public/assets/web-CTECFstK.js`
+- **rawKeys()** (3 connections) — `ios/App/App/public/assets/web-CTECFstK.js`
+- **clear()** (2 connections) — `ios/App/App/public/assets/web-CTECFstK.js`
+- **remove()** (2 connections) — `ios/App/App/public/assets/web-CTECFstK.js`
+- **removeOld()** (2 connections) — `ios/App/App/public/assets/web-CTECFstK.js`
+- **set()** (2 connections) — `ios/App/App/public/assets/web-CTECFstK.js`
+- **configure()** (1 connections) — `ios/App/App/public/assets/web-CTECFstK.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-CTECFstK.js`
+- **impl()** (1 connections) — `ios/App/App/public/assets/web-CTECFstK.js`
+- **prefix()** (1 connections) — `ios/App/App/public/assets/web-CTECFstK.js`
 
 ## Relationships
 
-- [[Community 47]] (8 shared connections)
-- [[Community 38]] (7 shared connections)
-- [[Community 34]] (2 shared connections)
-- [[Community 42]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `backend/src/services/commerceClient.js`
+- `ios/App/App/public/assets/web-CTECFstK.js`
 
 ## Audit Trail
 
-- EXTRACTED: 74 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

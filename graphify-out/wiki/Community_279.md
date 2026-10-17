@@ -1,12 +1,13 @@
 # Community 279
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **check-whatsapp-status.js** (2 connections) — `backend/scripts/check-whatsapp-status.js`
-- **checkStatus()** (1 connections) — `backend/scripts/check-whatsapp-status.js`
-- **__dirname** (1 connections) — `backend/scripts/check-whatsapp-status.js`
+- **Shriji Testing & Workflow Skill** (3 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
+- **Daily Development Commands** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
+- **Hard Workflow Rules** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
 
 ## Relationships
 
@@ -14,11 +15,11 @@
 
 ## Source Files
 
-- `backend/scripts/check-whatsapp-status.js`
+- `.agents/skills/shriji-testing-and-workflow/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

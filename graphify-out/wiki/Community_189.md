@@ -1,34 +1,30 @@
 # Community 189
 
-> 8 nodes · cohesion 0.43
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **workflow-migration-geometry.mjs** (10 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **createMappedWorkflowCandidate()** (9 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **intrinsicWorkflow()** (8 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **planningWorkflow()** (7 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **createHorizontalRankMapper()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **clone()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **mapExplicitCoordinates()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **mappedNumber()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **relationship-direct-explorer.test.mjs** (7 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
 
 ## Relationships
 
-- [[Community 108]] (8 shared connections)
-- [[Community 113]] (5 shared connections)
-- [[Community 73]] (4 shared connections)
-- [[Product Brand & Business Vision]] (3 shared connections)
-- [[Community 52]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 14 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

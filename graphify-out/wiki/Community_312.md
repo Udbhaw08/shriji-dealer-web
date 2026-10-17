@@ -1,10 +1,11 @@
 # Community 312
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **build_wiki.py** (0 connections) — `scripts/build_wiki.py`
+- **README.md** (1 connections) — `.agents/skills/archify/brand-marks/README.md`
+- **Built-in brand marks** (1 connections) — `.agents/skills/archify/brand-marks/README.md`
 
 ## Relationships
 
@@ -12,11 +13,11 @@
 
 ## Source Files
 
-- `scripts/build_wiki.py`
+- `.agents/skills/archify/brand-marks/README.md`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

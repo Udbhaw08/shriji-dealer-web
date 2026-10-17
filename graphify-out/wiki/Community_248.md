@@ -1,25 +1,26 @@
 # Community 248
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **bias** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **maximum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **4. Text Color System** (5 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Anti-pattern** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Dark Mode Inversion** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Rules That Actually Work** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **The System** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- [[Graphify Agent Rules]] (1 shared connections)
+- [[Community 167]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

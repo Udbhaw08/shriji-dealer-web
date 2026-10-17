@@ -1,25 +1,25 @@
 # Community 266
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **guidedViews** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **6. Line Height** (4 connections) — `.agents/skills/refero-design/references/typography.md`
+- **CSS Tokens** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Principles** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Quick Reference** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- [[Community 68]] (1 shared connections)
-- [[Community 155]] (1 shared connections)
+- [[Community 167]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

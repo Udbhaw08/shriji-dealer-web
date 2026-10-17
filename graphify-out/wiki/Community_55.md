@@ -1,52 +1,48 @@
 # Community 55
 
-> 25 nodes · cohesion 0.13
+> 26 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **architecture-delta.mjs** (65 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **validateArchitectureDeltaHtml()** (11 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **renderArchitectureDeltaHtml()** (6 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **architectureDeltaChangeRows()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **compareEntities()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **reviewTargetTags()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **expectedReviewTargetSignature()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **primaryReviewTags()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **reviewIdentity()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **reviewPrimaryStates()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **sortedObjects()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **addState()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **fieldChanges()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **normalizeComponent()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **normalizedField()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **reviewTargetSignature()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **safeJson()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **statusFor()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **total()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **BOUNDARY_FIELDS** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **codepointOrder()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **COMPONENT_FIELDS** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **CONNECTION_FIELDS** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **normalizeBoundary()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **sorted()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **layout-rules.test.mjs** (25 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **assertRelationshipsAvoidAllNodeBorders()** (5 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **workflowNodeBorderOverlap()** (3 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **assertWorkflowEdgesAvoidAllNodeBorders()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **axisOverlapLength()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **workflowEdgePoints()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **workflowNodeRect()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **ambiguousCorridorDocument()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **autoRoutePassThroughDocument()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **boundaryFrameRect()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **boundaryTitleMasks()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **hash()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **load()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **rectanglesOverlap()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **rectContainsRect()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **SHRINK_CASES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **TAG_SHRINK_CASES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **tangentViaLifecycle()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **validateCli()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [[Community 75]] (20 shared connections)
-- [[Community 97]] (18 shared connections)
-- [[Pricing & Roles Skill]] (5 shared connections)
-- [[Community 115]] (4 shared connections)
-- [[Community 126]] (2 shared connections)
-- [[Community 190]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
+- `.agents/skills/archify/test/layout-rules.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 129 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 60 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

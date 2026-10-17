@@ -2,7 +2,7 @@
 
 > God node · 66 connections · `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
 
-**Community:** [[Claude Agent Instructions]]
+**Community:** [[Zoho Backend & Proxy Endpoints]]
 
 ## Connections by Relation
 

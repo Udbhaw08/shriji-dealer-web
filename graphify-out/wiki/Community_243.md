@@ -1,25 +1,26 @@
 # Community 243
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **via** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **CLAUDE.md — read this before touching anything** (4 connections) — `CLAUDE.md`
+- **CLAUDE.md** (1 connections) — `CLAUDE.md`
+- **Commands** (1 connections) — `CLAUDE.md`
+- **Doc map** (1 connections) — `CLAUDE.md`
+- **Hard rules (these exist to stop hallucination)** (1 connections) — `CLAUDE.md`
 
 ## Relationships
 
-- [[Zoho API Diagnostic Script]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `CLAUDE.md`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

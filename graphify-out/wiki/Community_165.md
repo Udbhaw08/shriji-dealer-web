@@ -1,18 +1,18 @@
 # Community 165
 
-> 9 nodes · cohesion 0.33
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **release-identity.test.mjs** (8 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **stableUpdateManifest()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **writeFile()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **writeValidDevelopmentFixture()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **writeValidStableFixture()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **checker** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **runCheck()** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **web-DPADySG-.js** (8 connections) — `ios/App/App/public/assets/web-DPADySG-.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-DPADySG-.js`
+- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-DPADySG-.js`
+- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-DPADySG-.js`
+- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-DPADySG-.js`
+- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-DPADySG-.js`
+- **getState()** (1 connections) — `ios/App/App/public/assets/web-DPADySG-.js`
+- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-DPADySG-.js`
+- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-DPADySG-.js`
 
 ## Relationships
 
@@ -20,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/release-identity.test.mjs`
+- `ios/App/App/public/assets/web-DPADySG-.js`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

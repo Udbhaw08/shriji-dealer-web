@@ -1,25 +1,26 @@
 # Community 249
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **col** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **maximum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **7. Vertical Rhythm** (5 connections) — `.agents/skills/refero-design/references/typography.md`
+- **CSS Implementation** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Example** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Golden Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **The Simple Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- [[Graphify Agent Rules]] (1 shared connections)
+- [[Community 167]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

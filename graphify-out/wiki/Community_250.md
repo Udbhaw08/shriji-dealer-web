@@ -1,25 +1,26 @@
 # Community 250
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **fromCol** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **maximum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **Archify Diagram Generation Protocol** (4 connections) — `.agents/rules/archify.md`
+- **archify.md** (1 connections) — `.agents/rules/archify.md`
+- **Rule 1: Dedicated Subfolder Per Diagram** (1 connections) — `.agents/rules/archify.md`
+- **Rule 2: Output Artifacts (HTML & Dark Image Only)** (1 connections) — `.agents/rules/archify.md`
+- **Rule 3: Intermediate File Cleanup** (1 connections) — `.agents/rules/archify.md`
 
 ## Relationships
 
-- [[Graphify Agent Rules]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `.agents/rules/archify.md`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

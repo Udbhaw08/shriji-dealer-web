@@ -1,32 +1,31 @@
 # Community 155
 
-> 9 nodes · cohesion 0.31
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **cards** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **additionalProperties** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **required** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **entries** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **legend** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **mode** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **properties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- [[Community 131]] (3 shared connections)
 - [[Community 68]] (1 shared connections)
-- [[Community 266]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

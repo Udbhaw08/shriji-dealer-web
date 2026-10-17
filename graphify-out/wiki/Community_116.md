@@ -1,34 +1,48 @@
 # Community 116
 
-> 13 nodes · cohesion 0.15
+> 14 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **Shriji Dealer Backend — Render Deployment Runbook** (7 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **5. Connecting Frontend to the Live Backend** (4 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **2. Choosing Your Deployment Method** (3 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **RENDER-DEPLOYMENT-RUNBOOK.md** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **1. In Vercel (or production frontend host):** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **1. Summary of Changes Made to Prepare the Codebase** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **2. In Local `.env.local` (for testing):** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **3. Environment Variables Reference** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **3. In Zoho CRM Workflow (Dealer Approval Webhook):** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **4. Free vs. Starter Plan Note** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **6. How to Verify After Deployment** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **Method A: One-Click Render Blueprint (Recommended)** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **Method B: Manual Web Service Setup (Step-by-Step)** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **findChrome()** (22 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **export-cleanup-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **viewer-identifiers-browser.test.mjs** (7 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **evaluate()** (4 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **executable()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **findOnPath()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **run()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **exported()** (2 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 52]] (7 shared connections)
+- [[Community 44]] (6 shared connections)
+- [[Community 87]] (2 shared connections)
+- [[Community 62]] (2 shared connections)
+- [[Community 80]] (2 shared connections)
+- [[Community 131]] (1 shared connections)
+- [[Community 132]] (1 shared connections)
+- [[Community 114]] (1 shared connections)
+- [[Community 34]] (1 shared connections)
+- [[Community 146]] (1 shared connections)
+- [[Community 180]] (1 shared connections)
+- [[Community 133]] (1 shared connections)
 
 ## Source Files
 
-- `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
+- EXTRACTED: 62 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

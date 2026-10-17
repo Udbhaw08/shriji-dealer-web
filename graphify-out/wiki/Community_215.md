@@ -1,15 +1,16 @@
 # Community 215
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Lifecycle Renderer** (5 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
-- **README.md** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
-- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
-- **Input** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
-- **Layout budget** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
-- **Legend** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **intent-trace.test.mjs** (6 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
 
 ## Relationships
 
@@ -17,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/lifecycle/README.md`
+- `.agents/skills/archify/test/intent-trace.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

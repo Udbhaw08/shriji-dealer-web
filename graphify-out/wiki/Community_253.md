@@ -1,13 +1,14 @@
 # Community 253
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **watch-sync.mjs** (3 connections) — `scripts/watch-sync.mjs`
-- **rootDir** (1 connections) — `scripts/watch-sync.mjs`
-- **srcDir** (1 connections) — `scripts/watch-sync.mjs`
-- **triggerSync()** (1 connections) — `scripts/watch-sync.mjs`
+- **export_pricebooks_for_crm.mjs** (4 connections) — `scripts/export_pricebooks_for_crm.mjs`
+- **getAccessToken()** (2 connections) — `scripts/export_pricebooks_for_crm.mjs`
+- **main()** (2 connections) — `scripts/export_pricebooks_for_crm.mjs`
+- **env** (1 connections) — `scripts/export_pricebooks_for_crm.mjs`
+- **getMergedEnv()** (1 connections) — `scripts/export_pricebooks_for_crm.mjs`
 
 ## Relationships
 
@@ -15,11 +16,11 @@
 
 ## Source Files
 
-- `scripts/watch-sync.mjs`
+- `scripts/export_pricebooks_for_crm.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

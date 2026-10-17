@@ -1,16 +1,17 @@
 # Community 201
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **motion-governor.test.mjs** (6 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
-- **svgBlock()** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
+- **story-moment-link.test.mjs** (7 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
 
 ## Relationships
 
@@ -18,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/motion-governor.test.mjs`
+- `.agents/skills/archify/test/story-moment-link.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

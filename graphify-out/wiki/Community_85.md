@@ -1,40 +1,44 @@
 # Community 85
 
-> 19 nodes · cohesion 0.12
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **golden.mjs** (18 connections) — `.agents/skills/archify/test/golden.mjs`
-- **expectFailure()** (3 connections) — `.agents/skills/archify/test/golden.mjs`
-- **check()** (2 connections) — `.agents/skills/archify/test/golden.mjs`
-- **render()** (2 connections) — `.agents/skills/archify/test/golden.mjs`
-- **blocks()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **GOLDEN** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **landingPage** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **landingVersions** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **lock** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **normalizeNewlines()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **pkg** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **shieldsBadgeMessages()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **skillMd** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **webApp** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **properties** (13 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **animation** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **engineering_profile** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **locale** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **output** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **subtitle** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **views** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 141]] (1 shared connections)
+- [[Community 112]] (1 shared connections)
+- [[Community 233]] (1 shared connections)
+- [[Community 77]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/golden.mjs`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

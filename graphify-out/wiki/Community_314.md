@@ -1,10 +1,11 @@
 # Community 314
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **dataflow** (0 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **README.md** (1 connections) — `ios/App/CapApp-SPM/README.md`
+- **CapApp-SPM** (1 connections) — `ios/App/CapApp-SPM/README.md`
 
 ## Relationships
 
@@ -12,11 +13,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- `ios/App/CapApp-SPM/README.md`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

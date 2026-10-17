@@ -1,13 +1,15 @@
 # Community 240
 
-> 4 nodes · cohesion 0.67
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **Test** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
-- **ExampleInstrumentedTest.java** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
-- **ExampleInstrumentedTest** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
-- **.useAppContext()** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
+- **repository-evidence-replacement.test.mjs** (5 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **checkEvidence()** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **fixture()** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
 
 ## Relationships
 
@@ -15,11 +17,11 @@
 
 ## Source Files
 
-- `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
+- `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

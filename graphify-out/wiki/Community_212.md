@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **story-horizon.test.mjs** (6 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **chapter-rail.test.mjs** (6 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/story-horizon.test.mjs`
+- `.agents/skills/archify/test/chapter-rail.test.mjs`
 
 ## Audit Trail
 

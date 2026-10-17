@@ -1,23 +1,24 @@
 # Community 293
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **route** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **id** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **pattern** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- [[Vercel Deployment Routing]] (1 shared connections)
+- [[Community 73]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
