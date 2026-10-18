@@ -122,11 +122,35 @@ export async function sendOtpNotification({ phone, email, code }) {
         }
 
         if (res.ok) {
-          log.info(`[notify:whatsapp] OTP sent successfully to ${cleanPhone}`);
+          log.info(`[notify:whatsapp] OTP template sent successfully to ${cleanPhone}`);
           sent = true;
         } else if (!sent) {
           const err = await res.text().catch(() => '');
           log.warn(`[notify:whatsapp] WhatsApp final send failed (${res.status}): ${err}`);
+        }
+
+        // While Meta display name review is in progress, also send direct text message
+        // which delivers immediately for any user who interacted within 24h
+        try {
+          const textRes = await fetch(`https://graph.facebook.com/v21.0/${waPhoneId}/messages`, {
+            method: 'POST',
+            headers: {
+              Authorization: `Bearer ${waToken}`,
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              messaging_product: 'whatsapp',
+              to: formattedPhone,
+              type: 'text',
+              text: { body: `🔐 Your Shriji Dealer Portal verification code is: ${code}. Valid for 10 minutes.` },
+            }),
+          });
+          if (textRes.ok) {
+            log.info(`[notify:whatsapp] Direct text OTP delivered to ${formattedPhone}`);
+            sent = true;
+          }
+        } catch (textErr) {
+          log.warn(`[notify:whatsapp] direct text fallback error: ${textErr.message}`);
         }
       } catch (err) {
         log.warn(`[notify:whatsapp] error sending via WhatsApp: ${err.message}`);
