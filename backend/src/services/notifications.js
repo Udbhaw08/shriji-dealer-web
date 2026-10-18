@@ -66,6 +66,19 @@ export async function sendOtpNotification({ phone, email, code }) {
         let initialComponents;
         if (waTemplate === 'hello_world') {
           initialComponents = undefined;
+        } else if (waTemplate === 'otp') {
+          initialComponents = [
+            {
+              type: 'body',
+              parameters: [{ type: 'text', text: String(code) }],
+            },
+            {
+              type: 'button',
+              sub_type: 'url',
+              index: '0',
+              parameters: [{ type: 'text', text: String(code) }],
+            },
+          ];
         } else if (waTemplate) {
           initialComponents = [
             {
@@ -94,6 +107,15 @@ export async function sendOtpNotification({ phone, email, code }) {
               },
             ];
             res = await sendWaMessage(authComponents);
+          } else if (errText.includes('does not accept') || errText.includes('parameter')) {
+            log.info('[notify:whatsapp] Retrying with Body-only payload format...');
+            const bodyOnly = [
+              {
+                type: 'body',
+                parameters: [{ type: 'text', text: String(code) }],
+              },
+            ];
+            res = await sendWaMessage(bodyOnly);
           } else {
             log.warn(`[notify:whatsapp] WhatsApp send failed (${res.status}): ${errText}`);
           }

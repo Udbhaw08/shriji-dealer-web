@@ -98,6 +98,19 @@ async function testWhatsApp() {
       let initialComponents;
       if (templateName === 'hello_world') {
         initialComponents = undefined;
+      } else if (templateName === 'otp') {
+        initialComponents = [
+          {
+            type: 'body',
+            parameters: [{ type: 'text', text: testCode }],
+          },
+          {
+            type: 'button',
+            sub_type: 'url',
+            index: '0',
+            parameters: [{ type: 'text', text: testCode }],
+          },
+        ];
       } else if (templateName) {
         initialComponents = [
           {
@@ -126,6 +139,16 @@ async function testWhatsApp() {
           },
         ];
         sendRes = await sendPayload(authComponents);
+        sendData = await sendRes.json();
+      } else if (!sendRes.ok && (sendData.error?.message?.includes('does not accept') || sendData.error?.message?.includes('parameter')) && templateName) {
+        console.log('  [Notice] Retrying with Body-only payload...');
+        const bodyOnly = [
+          {
+            type: 'body',
+            parameters: [{ type: 'text', text: testCode }],
+          },
+        ];
+        sendRes = await sendPayload(bodyOnly);
         sendData = await sendRes.json();
       }
 
