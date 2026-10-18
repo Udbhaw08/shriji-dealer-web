@@ -1,4 +1,10 @@
-import 'dotenv/config';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import dotenv from 'dotenv';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+dotenv.config({ path: path.resolve(__dirname, '../../.env') });
+dotenv.config(); // fallback to cwd .env if any
 
 const num = (v, d) => (v != null && v !== '' ? Number(v) : d);
 const bool = (v, d) => (v != null && v !== '' ? v === 'true' : d);
