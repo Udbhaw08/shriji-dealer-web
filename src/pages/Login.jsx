@@ -36,7 +36,7 @@ export default function Login() {
   const [flow, setFlow] = useState(null); // null | 'owner' | 'staff'
   const [stage, setStage] = useState("role");
   const [otpTarget, setOtpTarget] = useState(null); // { phone, email, channel, target } or string
-  const [devOtpCode, setDevOtpCode] = useState(""); // dev OTP code when returned in local development
+  const [otpProvider, setOtpProvider] = useState(null);
   const [savedPhone, setSavedPhone] = useState("");
   const [savedEmail, setSavedEmail] = useState("");
 
@@ -204,8 +204,9 @@ export default function Login() {
           <>
             {stage === "owner-identify" && (
               <Identify initialPhone={savedPhone} initialEmail={savedEmail}
-                        onSent={(target, code) => {
+                        onSent={(target, provider) => {
                           setOtpTarget(target);
+                          setOtpProvider(provider || null);
                           if (typeof target === "object" && target !== null) {
                             if (target.phone) setSavedPhone(target.phone);
                             if (target.email) setSavedEmail(target.email);
@@ -213,13 +214,12 @@ export default function Login() {
                             if (target.includes("@")) setSavedEmail(target);
                             else setSavedPhone(target);
                           }
-                          setDevOtpCode(code || "");
                           setStage("owner-otp");
                         }}
                         onPasswordOk={afterAuth} onBack={reset} />
             )}
             {stage === "owner-otp" && (
-              <OtpStep target={otpTarget} devCode={devOtpCode} onVerified={afterAuth}
+              <OtpStep target={otpTarget} provider={otpProvider} onVerified={afterAuth}
                        onEdit={() => setStage("owner-identify")} onBack={reset} />
             )}
             {stage === "owner-match" && <BusinessMatch onYes={() => { setStage("owner-review"); watchApproval(); }}
@@ -241,8 +241,9 @@ export default function Login() {
             {/* Existing staff login path */}
             {stage === "staff-login" && (
               <StaffLogin initialPhone={savedPhone} initialEmail={savedEmail}
-                onSent={(target, code) => {
+                onSent={(target, provider) => {
                   setOtpTarget(target);
+                  setOtpProvider(provider || null);
                   if (typeof target === "object" && target !== null) {
                     if (target.phone) setSavedPhone(target.phone);
                     if (target.email) setSavedEmail(target.email);
@@ -250,7 +251,6 @@ export default function Login() {
                     if (target.includes("@")) setSavedEmail(target);
                     else setSavedPhone(target);
                   }
-                  setDevOtpCode(code || "");
                   setStage("staff-login-otp");
                 }}
                 onPasswordOk={afterAuth}
@@ -258,25 +258,25 @@ export default function Login() {
               />
             )}
             {stage === "staff-login-otp" && (
-              <OtpStep target={otpTarget} devCode={devOtpCode} onVerified={afterAuth}
+              <OtpStep target={otpTarget} provider={otpProvider} onVerified={afterAuth}
                        onEdit={() => setStage("staff-login")} onBack={() => setStage("staff-login")} />
             )}
             {/* New staff signup path */}
             {stage === "staff-invite" && <StaffInvite onNext={(code) => { StaffCtx.code = code; setStage("staff-details"); }} onBack={() => setStage("staff-newexist")} />}
             {stage === "staff-details" && <StaffDetails inviteCode={StaffCtx.code}
-                onSent={(target, code) => {
+                onSent={(target, provider) => {
                   setOtpTarget(target);
+                  setOtpProvider(provider || null);
                   if (typeof target === "object" && target !== null) {
                     if (target.phone) setSavedPhone(target.phone);
                     if (target.email) setSavedEmail(target.email);
                   }
-                  setDevOtpCode(code || "");
                   setStage("staff-otp");
                 }} onBack={() => setStage("staff-invite")} />}
             {stage === "staff-otp" && (
               <OtpStep
                 target={otpTarget}
-                devCode={devOtpCode}
+                provider={otpProvider}
                 onVerified={async () => {
                   if (StaffCtx.pendingSignup) {
                     try {
@@ -511,15 +511,14 @@ function StaffLogin({ onSent, onPasswordOk, onBack, initialPhone = "", initialEm
       setError("Please enter a valid 10-digit mobile number.");
       return;
     }
-    const isTestPhone = cleanPhone && cleanPhone.replace(/\D/g, '').endsWith("7738369376");
 
     run(async () => {
       // Send OTP via backend → WhatsApp Cloud API (Meta)
-      const res = await requestOtp({
+      const result = await requestOtp({
         phone: cleanPhone,
         channel: "phone",
       });
-      onSent({ phone: cleanPhone, email: cleanEmail || null, channel: "phone", target: cleanPhone }, (import.meta.env.VITE_ENABLE_DEV_OTP === 'true' && res.dev_code) || null);
+      onSent({ phone: cleanPhone, email: cleanEmail || null, channel: "phone", target: cleanPhone }, result.provider);
     });
   };
 
@@ -772,25 +771,14 @@ function Identify({ onSent, onPasswordOk, onBack, initialPhone = "", initialEmai
     }
 
     await run(async () => {
-      console.log("[OTP] Sending request");
-
       const res = await requestOtp({
         phone: cleanPhone,
         channel: "phone",
       });
 
-      console.log("[OTP] Backend response:", {
-        ok: res?.ok,
-        destination: res?.destination,
-        expires_in_minutes: res?.expires_in_minutes,
-      });
-
       if (!res?.ok) {
         throw new Error("The server did not confirm the OTP request.");
       }
-
-      console.log("[OTP] Moving to verification screen");
-
       onSent(
         {
           phone: cleanPhone,
@@ -798,9 +786,7 @@ function Identify({ onSent, onPasswordOk, onBack, initialPhone = "", initialEmai
           channel: "phone",
           target: cleanPhone,
         },
-        import.meta.env.VITE_ENABLE_DEV_OTP === "true"
-          ? res.dev_code || null
-          : null
+        res.provider
       );
     });
   };
@@ -1015,7 +1001,7 @@ function Identify({ onSent, onPasswordOk, onBack, initialPhone = "", initialEmai
 }
 
 /* OTP step — 6 boxes, resend timer, dev code auto-fill */
-function OtpStep({ target, devCode, onVerified, onEdit, onBack }) {
+function OtpStep({ target, provider, onVerified, onEdit, onBack }) {
   const [digits, setDigits] = useState(["", "", "", "", "", ""]);
   const [secs, setSecs] = useState(25);
   const [loading, setLoading] = useState(false);
@@ -1084,7 +1070,7 @@ function OtpStep({ target, devCode, onVerified, onEdit, onBack }) {
 
   return (
     <WizardShell step={2} steps={5} onBack={onBack} title={isEmail ? "Verify your email" : "Verify your number"}
-                 sub={<>We sent a 6-digit OTP via <b>{isEmail ? "Email" : "WhatsApp & SMS"}</b> to <b>{masked}</b></>}>
+                 sub={<>We requested a 6-digit OTP via <b>{isEmail ? "Email" : provider === "whatsapp" ? "WhatsApp" : provider === "fast2sms" || provider === "twilio" ? "SMS" : "your phone"}</b> for <b>{masked}</b>.</>}>
       {linkedCounterpart && (
         <div className="auth-channels-note" style={{ marginBottom: 10 }}>
           <span className="auth-channel-badge">
@@ -1100,18 +1086,6 @@ function OtpStep({ target, devCode, onVerified, onEdit, onBack }) {
                  onKeyDown={(e) => { if (e.key === "Backspace" && !digits[i] && i > 0) refs.current[i - 1]?.focus(); }} />
         ))}
       </div>
-
-      {import.meta.env.VITE_ENABLE_DEV_OTP === 'true' && devCode && (
-        <div style={{ textAlign: "center", margin: "4px 0" }}>
-          <button type="button" className="otp-dev-pill" onClick={() => {
-            const arr = devCode.split("");
-            setDigits(arr);
-            submit(devCode);
-          }}>
-            <span>🔑</span> Test OTP: <b>{devCode}</b> (Click to auto-verify)
-          </button>
-        </div>
-      )}
 
       <p className="timer-note">
         {secs > 0 ? <>Resend OTP in 00:{String(secs).padStart(2, "0")}</>
@@ -1450,9 +1424,8 @@ function StaffDetails({ inviteCode, onSent, onBack }) {
         last_name: form.last_name.trim() || undefined,
         full_name: `${form.first_name.trim()} ${form.last_name.trim()}`.trim() || undefined,
       };
-      const isTestPhone = cleanPhone && cleanPhone.replace(/\D/g, '').endsWith("7738369376");
       // Send OTP via backend → WhatsApp Cloud API (Meta)
-      const res = await requestOtp({
+      const result = await requestOtp({
         phone: cleanPhone || undefined,
         email: cleanEmail || undefined,
         channel: cleanPhone ? "phone" : "email",
@@ -1462,7 +1435,7 @@ function StaffDetails({ inviteCode, onSent, onBack }) {
         email: cleanEmail,
         channel: cleanPhone ? "phone" : "email",
         target: cleanPhone || cleanEmail,
-      }, (import.meta.env.VITE_ENABLE_DEV_OTP === 'true' && res.dev_code) || null);
+      }, result.provider);
     } catch (err) {
       setError(err.message === "Failed to fetch" ? "Unable to reach the server." : err.message);
     } finally { setLoading(false); }

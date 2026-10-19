@@ -500,26 +500,39 @@ authRouter.post('/otp/request', rateLimit({ windowMs: 10 * 60_000, max: 8 }), as
 
     const user = await findUserByIdentifier({ email: targetEmail, phone: targetPhone });
 
-    const isTestNumber = targetPhone && String(targetPhone).replace(/\D/g, '').endsWith('7738369376');
-    const code = isTestNumber ? '882686' : generateOtp();
-    await sql`
+    if (destType === 'phone' && !isValidPhone(dest)) {
+      throw httpError(400, 'Please enter a valid 10-digit mobile number');
+    }
+    const code = generateOtp();
+    const [otpRecord] = await sql`
       insert into otp_codes (user_id, identifier, code_hash, expires_at)
       values (${user?.id || null}, ${dest}, ${sha256(code)},
-              ${new Date(Date.now() + OTP_TTL_MINUTES * 60_000)})`;
+              ${new Date(Date.now() + OTP_TTL_MINUTES * 60_000)})
+      returning id`;
 
-    // Dispatch via WhatsApp/SMS or Email (with terminal log fallback)
-    await sendOtpNotification({
-      phone: destType === 'phone' ? targetPhone : null,
-      email: destType === 'email' ? targetEmail : null,
-      code,
-    });
+    let notificationResult;
+    try {
+      notificationResult = await sendOtpNotification({
+        phone: destType === 'phone' ? dest : null,
+        email: destType === 'email' ? dest : null,
+        code,
+      });
+    } catch (notificationError) {
+      await sql`delete from otp_codes where id = ${otpRecord.id}`.catch(() => {});
+      log.warn(`[auth:otp] Delivery provider failed for ${destType}: ${notificationError.message}`);
+      throw httpError(
+        502,
+        destType === 'phone'
+          ? 'Could not send your OTP. Check WhatsApp/SMS provider configuration and try again.'
+          : 'Could not send your email OTP. Check the email provider configuration and try again.'
+      );
+    }
 
-    const exposeDevCode = process.env.ENABLE_DEV_OTP === 'true';
     res.json({
       ok: true,
       destination: destType,
+      provider: notificationResult?.providers?.[0] || null,
       expires_in_minutes: OTP_TTL_MINUTES,
-      ...(exposeDevCode ? { dev_code: code } : {}),
     });
   } catch (err) { next(err); }
 });
@@ -537,7 +550,6 @@ authRouter.post('/otp/verify', strictLimit, async (req, res, next) => {
     if (!dest) throw httpError(400, 'Mobile number or Email is required');
 
     const cleanCode = String(code).trim();
-    const isTestMatch = (targetPhone && String(targetPhone).replace(/\D/g, '').endsWith('7738369376') && cleanCode === '882686');
     const hashedInput = sha256(cleanCode);
 
     // Find active unexpired OTP code by identifier or user_id
@@ -553,7 +565,7 @@ authRouter.post('/otp/verify', strictLimit, async (req, res, next) => {
       order by oc.created_at desc limit 1`;
     const otp = otpRows[0];
 
-    if (!isTestMatch && (!otp || otp.code_hash !== hashedInput)) {
+    if (!otp || otp.code_hash !== hashedInput) {
       if (otp) await sql`update otp_codes set attempts = attempts + 1 where id = ${otp.id}`;
       throw httpError(401, 'Invalid or expired verification code');
     }
@@ -808,22 +820,29 @@ authRouter.post('/email/request-otp', jwtAuth, rateLimit({ windowMs: 10 * 60_000
     }
 
     const code = generateOtp();
-    await sql`
+    const [otpRecord] = await sql`
       insert into otp_codes (user_id, identifier, code_hash, expires_at)
       values (${req.user.id}, ${rawEmail}, ${sha256(code)},
-              ${new Date(Date.now() + OTP_TTL_MINUTES * 60_000)})`;
+              ${new Date(Date.now() + OTP_TTL_MINUTES * 60_000)})
+      returning id`;
 
-    await sendOtpNotification({
-      email: rawEmail,
-      code,
-    });
+    let notificationResult;
+    try {
+      notificationResult = await sendOtpNotification({
+        email: rawEmail,
+        code,
+      });
+    } catch (notificationError) {
+      await sql`delete from otp_codes where id = ${otpRecord.id}`.catch(() => {});
+      log.warn(`[auth:email-otp] Delivery provider failed: ${notificationError.message}`);
+      throw httpError(502, 'Could not send your email OTP. Check the email provider configuration and try again.');
+    }
 
-    const exposeDevCode = process.env.ENABLE_DEV_OTP === 'true';
     res.json({
       ok: true,
       email: rawEmail,
+      provider: notificationResult?.providers?.[0] || null,
       expires_in_minutes: OTP_TTL_MINUTES,
-      ...(exposeDevCode ? { dev_code: code } : {}),
     });
   } catch (err) { next(err); }
 });
