@@ -1,14 +1,17 @@
 # Community 246
 
-> 5 nodes · cohesion 0.40
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Performance** (4 connections) — `.agents/skills/swiftui-pro/references/performance.md`
-- **performance.md** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
-- **Collections and row updates** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
-- **Frequent changes** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
-- **Remote images** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
+- **Gauges** (6 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **gauges.md** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
 
 ## Relationships
 
@@ -16,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/performance.md`
+- `.agents/skills/apple-design/references/hig/gauges.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

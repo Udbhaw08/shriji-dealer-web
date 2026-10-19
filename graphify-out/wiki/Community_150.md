@@ -1,31 +1,33 @@
 # Community 150
 
-> 10 nodes · cohesion 0.20
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **entries** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **legend** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **properties** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **mode** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **properties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **Designing for iPhone Duo** (7 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Dynamic layouts** (4 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Anatomy** (2 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **designing-for-iphone-duo.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Arrangement views** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Device poses** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Reserved regions** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Split views** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Vertical controls** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
 
 ## Relationships
 
-- [[Community 67]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/sequence.schema.json`
+- `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,32 +1,33 @@
 # Community 147
 
-> 10 nodes · cohesion 0.29
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **stages** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **additionalProperties** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **required** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **DEALER-HIERARCHY-AND-WORKFLOW.md — Business, Dealer & Staff Hierarchy Model** (6 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **3. End-to-End User Journey & Life Cycle** (3 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **4. Zoho CRM Data Structure** (3 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **1. The Three-Tier Hierarchy Model** (2 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **DEALER-HIERARCHY-AND-WORKFLOW.md** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **2. Two-Stage Approval Separation** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **5. Technical Seams to Adapt** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **Accounts Module (Business Entity)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **Contacts Module (People Hierarchy)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **Hierarchy Breakdown:** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **Phase A: Dealer Onboarding (Head Approval)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **Phase B: Staff Onboarding via Dealer Code (Dealer Approval)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
 
 ## Relationships
 
-- [[Project Readme & Layout]] (3 shared connections)
-- [[Community 105]] (3 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

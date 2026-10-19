@@ -1,16 +1,17 @@
 ---
 trigger: always_on
-description: Mandatory dual-skill consultation (refero-design + swiftui-pro) for website and mobile app redesigns.
+description: Mandatory tri-skill consultation (refero-design + apple-design + swiftui-pro) for website and mobile app redesigns.
 ---
 
-# Dual-Skill Redesign & Cross-Platform UI Protocol
+# Multi-Skill Redesign & Cross-Platform UI Protocol
 
 Whenever designing, redesigning, styling, or updating any webpage, mobile screen, or UI component:
 
-## Rule 1: Mandatory Dual-Skill Consultation
-Always visit and synthesize both skills before implementing UI changes:
+## Rule 1: Mandatory Multi-Skill Consultation
+Always visit and synthesize the design triad before implementing UI changes:
 1. **`refero-design`** (`.agents/skills/refero-design/`): Primary visual authority — color harmony, type hierarchy, surface elevations, micro-animations, and anti-AI-slop.
-2. **`swiftui-pro`** (`.agents/skills/swiftui-pro/`): Mobile app UX & ergonomics authority — Apple HIG standards, touch target sizing (≥44pt/48px), safe areas, fluid resizing, and gesture ergonomics.
+2. **`apple-design`** (`.agents/skills/apple-design/`): Cross-platform Human Interface Guidelines authority — 123 HIG pages, materials (liquid glass), modality, sheets, gestures, and dark mode.
+3. **`swiftui-pro`** (`.agents/skills/swiftui-pro/`): Mobile app UX & ergonomics authority — touch target sizing (≥44pt/48px), safe areas, fluid resizing, and native performance.
 
 ## Rule 2: Adaptive Multi-Device Responsiveness
 Desktop and mobile applications must provide tailored ergonomics rather than awkward scaling:

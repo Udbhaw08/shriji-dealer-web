@@ -1,24 +1,28 @@
 # Community 301
 
-> 3 nodes · cohesion 0.67
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **height** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **Snippets** (6 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **snippets.md** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
 
 ## Relationships
 
-- [[Project Readme & Layout]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `.agents/skills/apple-design/references/hig/snippets.md`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

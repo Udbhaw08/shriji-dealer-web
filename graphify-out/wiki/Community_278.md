@@ -1,25 +1,30 @@
 # Community 278
 
-> 4 nodes · cohesion 0.50
+> 8 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **col** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **maximum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **sequence-column-fit.test.mjs** (9 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **labelledSequence()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **render()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **renderOutcome()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **wideSequence()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **participantBoxes()** (1 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
 
 ## Relationships
 
-- [[Community 35]] (1 shared connections)
+- [[Community 46]] (1 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `.agents/skills/archify/test/sequence-column-fit.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,16 +1,18 @@
 # Community 217
 
-> 7 nodes · cohesion 0.29
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **relationship-pulse.test.mjs** (6 connections) — `.agents/skills/archify/test/relationship-pulse.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/relationship-pulse.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/relationship-pulse.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/relationship-pulse.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/relationship-pulse.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/relationship-pulse.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/relationship-pulse.test.mjs`
+- **Scroll views** (6 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
+- **scroll-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
+- **Scroll edge effects** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
 
 ## Relationships
 
@@ -18,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/relationship-pulse.test.mjs`
+- `.agents/skills/apple-design/references/hig/scroll-views.md`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

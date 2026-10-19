@@ -1,49 +1,55 @@
 # Graphify Knowledge Graph Skill
 
-> 50 nodes · cohesion 0.07
+> 56 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **check-render-output.mjs** (57 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **parseAttrs()** (7 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectArrows()** (6 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **numberAttr()** (6 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectCompositionFrames()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectLegendBoxes()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **lineSegments()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectDesktopReadability()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectNonFiniteAttrs()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **pathSegments()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **straightPathSegments()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **textBox()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **projectedNodeTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **attrEntries()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectLegendCollisions()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectRelationshipLabelMasks()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **crossProduct()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **isCommand()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **pointsFromPath()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **properSegmentIntersection()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **segmentIntersectsBox()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **segmentsIntersect()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **stripTags()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectRelationshipCrossings()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **decodeNumericReferences()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- *... and 25 more nodes in this community*
+- **pf()** (32 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **create()** (24 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **Au()** (17 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **warn()** (16 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **hu()** (15 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **dl()** (13 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **vu()** (12 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **ec()** (11 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **ju()** (11 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **wu()** (11 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **xi()** (11 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **zl()** (11 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **cm()** (9 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **l()** (9 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **Lu()** (9 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **pu()** (9 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **yi()** (9 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **Bu()** (8 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **Md()** (8 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **Uu()** (8 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **Cu()** (7 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **iu()** (7 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **kl()** (7 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **mu()** (7 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **ql()** (7 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- *... and 31 more nodes in this community*
 
 ## Relationships
 
-- [[Pricing Regression Test Suite]] (6 shared connections)
-- [[Community 48]] (4 shared connections)
+- [[Price Presentation & Product UI]] (70 shared connections)
+- [[Dependencies & Package Config]] (52 shared connections)
+- [[Product Requirements Documentation]] (19 shared connections)
+- [[Roles & Customer Sharing Spec]] (13 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (13 shared connections)
+- [[Pricing Regression Test Suite]] (11 shared connections)
+- [[Graphify Agent Rules]] (7 shared connections)
+- [[Zoho API Diagnostic Script]] (5 shared connections)
+- [[Community 85]] (4 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- `.agents/skills/archify/scripts/check-render-output.mjs`
+- `ios/App/App/public/assets/index-NKRFalKI.js`
 
 ## Audit Trail
 
-- EXTRACTED: 182 (100%)
+- EXTRACTED: 418 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

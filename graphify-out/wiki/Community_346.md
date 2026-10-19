@@ -1,22 +1,27 @@
 # Community 346
 
-> 1 nodes · cohesion 1.00
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **cordova.variables.gradle** (0 connections) — `android/capacitor-cordova-android-plugins/cordova.variables.gradle`
+- **viewBox** (6 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **items** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 103]] (1 shared connections)
 
 ## Source Files
 
-- `android/capacitor-cordova-android-plugins/cordova.variables.gradle`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

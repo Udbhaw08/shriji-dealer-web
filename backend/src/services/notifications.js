@@ -2,217 +2,123 @@ import { sql } from '../db/pool.js';
 import { log } from '../utils/logger.js';
 import { env } from '../config/env.js';
 import { Resend } from 'resend';
-import dotenv from 'dotenv';
 
 const resend = env.resendApiKey ? new Resend(env.resendApiKey) : null;
 
 /**
- * Dispatch an OTP code via Phone (WhatsApp / SMS) or Email.
- * In development or when external keys are not set, prints prominently to console.
+ * Dispatch an OTP code via Phone (SMS-only by default, optionally WhatsApp then
+ * SMS) or Email. OTP values are never written to logs.
  */
 export async function sendOtpNotification({ phone, email, code }) {
   const cleanPhone = phone ? String(phone).trim() : null;
   const cleanEmail = email ? String(email).trim().toLowerCase() : null;
 
-  // 1. Always log prominent OTP in development / server logs for testing
-  log.info(`\n============================================================\n🔑 [OTP DISPATCH] Destination: ${cleanPhone || cleanEmail}\n👉 VERIFICATION CODE: ${code}\n⏰ Valid for 10 minutes\n============================================================\n`);
-
-  // 2. Deliver via Phone (WhatsApp Cloud API / Fast2SMS / Twilio)
+  // SMS-only is the safe default while WhatsApp sender verification is pending.
   if (cleanPhone) {
-    let sent = false;
-
-    // Dynamically pick up latest .env variables (e.g. freshly generated Meta token)
-    dotenv.config({ override: true });
     const waToken = process.env.WHATSAPP_TOKEN || env.whatsapp.token;
     const waPhoneId = process.env.WHATSAPP_PHONE_ID || env.whatsapp.phoneId;
     const waTemplate = process.env.WHATSAPP_TEMPLATE_NAME || env.whatsapp.templateName;
     const waLang = process.env.WHATSAPP_TEMPLATE_LANG || env.whatsapp.templateLang || 'en_US';
+    const smsApiKey = process.env.FAST2SMS_API_KEY || env.fast2smsApiKey;
+    const providerErrors = [];
+    const whatsappEnabled = env.otpDeliveryMode === 'whatsapp_then_sms';
 
-    // A. WhatsApp Cloud API (Meta Official — 1,000 free conversations/month)
-    if (waToken && waPhoneId) {
-      try {
-        let formattedPhone = cleanPhone.replace(/\D/g, ''); // strip non-digits
-        if (formattedPhone.length === 10) formattedPhone = `91${formattedPhone}`; // auto-prefix India code if 10-digit
-
-        const sendWaMessage = async (components) => {
-          const payload = waTemplate
-            ? {
-                messaging_product: 'whatsapp',
-                to: formattedPhone,
-                type: 'template',
-                template: {
-                  name: waTemplate,
-                  language: { code: waLang },
-                  ...(components ? { components } : {}),
-                },
-              }
-            : {
-                messaging_product: 'whatsapp',
-                to: formattedPhone,
-                type: 'text',
-                text: { body: `Your Shriji Dealer Portal verification code is: ${code}. Valid for 10 minutes.` },
-              };
-
-          return fetch(`https://graph.facebook.com/v21.0/${waPhoneId}/messages`, {
-            method: 'POST',
-            headers: {
-              Authorization: `Bearer ${waToken}`,
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(payload),
-          });
-        };
-
-        let initialComponents;
-        if (waTemplate === 'hello_world') {
-          initialComponents = undefined;
-        } else if (waTemplate === 'otp') {
-          initialComponents = [
-            {
-              type: 'body',
-              parameters: [{ type: 'text', text: String(code) }],
-            },
+    if (whatsappEnabled && waToken && waPhoneId && waTemplate) {
+      const formattedPhone = cleanPhone.replace(/\D/g, '').length === 10
+        ? `91${cleanPhone.replace(/\D/g, '')}`
+        : cleanPhone.replace(/\D/g, '');
+      const payload = {
+        messaging_product: 'whatsapp',
+        to: formattedPhone,
+        type: 'template',
+        template: {
+          name: waTemplate,
+          language: { code: waLang },
+          components: [
+            { type: 'body', parameters: [{ type: 'text', text: String(code) }] },
             {
               type: 'button',
               sub_type: 'url',
-              index: 0,
+              index: '0',
               parameters: [{ type: 'text', text: String(code) }],
             },
-          ];
-        } else if (waTemplate) {
-          initialComponents = [
-            {
-              type: 'body',
-              parameters: [{ type: 'text', text: String(code) }],
-            },
-          ];
-        }
+          ],
+        },
+      };
 
-        let res = await sendWaMessage(initialComponents);
-        if (!res.ok && waTemplate) {
-          const errText = await res.text();
-          // If template requires button parameters (Meta Authentication Template with Copy Code button)
-          if (errText.includes('button')) {
-            log.info('[notify:whatsapp] Retrying with Authentication button payload format...');
-            const authComponents = [
-              {
-                type: 'body',
-                parameters: [{ type: 'text', text: String(code) }],
-              },
-              {
-                type: 'button',
-                sub_type: 'url',
-                index: 0,
-                parameters: [{ type: 'text', text: String(code) }],
-              },
-            ];
-            res = await sendWaMessage(authComponents);
-          } else if (errText.includes('does not accept') || errText.includes('parameter')) {
-            log.info('[notify:whatsapp] Retrying with Body-only payload format...');
-            const bodyOnly = [
-              {
-                type: 'body',
-                parameters: [{ type: 'text', text: String(code) }],
-              },
-            ];
-            res = await sendWaMessage(bodyOnly);
-          } else {
-            log.warn(`[notify:whatsapp] WhatsApp send failed (${res.status}): ${errText}`);
-          }
-        }
-
-        if (res.ok) {
-          const respData = await res.json().catch(() => null);
-          const msgId = respData?.messages?.[0]?.id || 'unknown';
-          log.info(`[notify:whatsapp] OTP template accepted by Meta gateway (id: ${msgId}) for ${cleanPhone}`);
-          sent = true;
-        } else if (!sent) {
-          const err = await res.text().catch(() => '');
-          log.warn(`[notify:whatsapp] WhatsApp final send failed (${res.status}): ${err}`);
-        }
-
-        // Fallback: If template failed and user interacted within 24h, send direct text message
-        if (!sent) {
-          try {
-            const textRes = await fetch(`https://graph.facebook.com/v21.0/${waPhoneId}/messages`, {
-              method: 'POST',
-              headers: {
-                Authorization: `Bearer ${waToken}`,
-                'Content-Type': 'application/json',
-              },
-              body: JSON.stringify({
-                messaging_product: 'whatsapp',
-                to: formattedPhone,
-                type: 'text',
-                text: { body: `🔐 Your Shriji Dealer Portal verification code is: ${code}. Valid for 10 minutes.` },
-              }),
-            });
-            if (textRes.ok) {
-              log.info(`[notify:whatsapp] Direct text OTP delivered to ${formattedPhone}`);
-              sent = true;
-            }
-          } catch (textErr) {
-            log.warn(`[notify:whatsapp] direct text fallback error: ${textErr.message}`);
-          }
-        }
-      } catch (err) {
-        log.warn(`[notify:whatsapp] error sending via WhatsApp: ${err.message}`);
-      }
-    }
-
-    // B. Fast2SMS (Indian SMS Gateway)
-    if (!sent && env.fast2smsApiKey) {
       try {
-        const numbers = cleanPhone.replace(/\D/g, '').slice(-10); // 10-digit Indian number
-        const res = await fetch(
-          `https://www.fast2sms.com/dev/bulkV2?authorization=${encodeURIComponent(env.fast2smsApiKey)}&variables_values=${encodeURIComponent(code)}&route=otp&numbers=${encodeURIComponent(numbers)}`
-        );
-        const data = await res.json();
-        if (data.return) {
-          log.info(`[notify:sms] OTP sent via Fast2SMS to ${numbers}`);
-          sent = true;
+        const res = await fetch(`https://graph.facebook.com/v21.0/${waPhoneId}/messages`, {
+          method: 'POST',
+          headers: { Authorization: `Bearer ${waToken}`, 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+          signal: AbortSignal.timeout(10_000),
+        });
+        const response = await res.json().catch(() => ({}));
+        if (!res.ok) {
+          const metaError = response.error;
+          const reason = `Meta HTTP ${res.status}, code ${metaError?.code || 'unknown'}: ${metaError?.message || 'unknown error'}`;
+          providerErrors.push(reason);
+          log.warn(`[notify:whatsapp] Meta rejected OTP request (${reason})`);
         } else {
-          log.warn(`[notify:sms] Fast2SMS error:`, data.message);
+          const messageId = response.messages?.[0]?.id;
+          if (messageId) {
+            log.info(`[notify:whatsapp] Meta accepted OTP message ${messageId}; delivery receipt pending.`);
+            return { provider: 'whatsapp', accepted: true, messageId };
+          }
+          providerErrors.push('Meta did not confirm a WhatsApp message ID.');
         }
       } catch (err) {
-        log.warn(`[notify:sms] Fast2SMS network error: ${err.message}`);
+        const reason = err.name === 'TimeoutError' ? 'Meta request timed out.' : 'Could not reach Meta WhatsApp API.';
+        providerErrors.push(reason);
+        log.warn(`[notify:whatsapp] ${reason}`);
       }
+    } else if (whatsappEnabled) {
+      providerErrors.push('WhatsApp is not fully configured (token, phone ID, and template are required).');
     }
 
-    // C. Twilio (Fallback)
-    if (!sent && env.twilio.accountSid && env.twilio.authToken && env.twilio.from) {
-      try {
-        const auth = Buffer.from(`${env.twilio.accountSid}:${env.twilio.authToken}`).toString('base64');
-        const res = await fetch(
-          `https://api.twilio.com/2010-04-01/Accounts/${env.twilio.accountSid}/Messages.json`,
-          {
+    if (smsApiKey) {
+      const digits = cleanPhone.replace(/\D/g, '');
+      const localNumber = digits.length > 10 ? digits.slice(-10) : digits;
+      if (localNumber.length !== 10) {
+        providerErrors.push('Fast2SMS supports Indian 10-digit mobile numbers only.');
+      } else {
+        try {
+          const res = await fetch('https://www.fast2sms.com/dev/bulkV2', {
             method: 'POST',
             headers: {
-              Authorization: `Basic ${auth}`,
-              'Content-Type': 'application/x-www-form-urlencoded',
+              Authorization: smsApiKey,
+              Accept: 'application/json',
+              'Content-Type': 'application/json',
             },
-            body: new URLSearchParams({
-              To: cleanPhone,
-              From: env.twilio.from,
-              Body: `Your Shriji verification code is: ${code}`,
+            body: JSON.stringify({
+              route: 'otp',
+              variables_values: String(code),
+              numbers: localNumber,
             }),
+            signal: AbortSignal.timeout(10_000),
+          });
+          const response = await res.json().catch(() => ({}));
+          if (res.ok && response.return === true) {
+            log.info(`[notify:fast2sms] OTP accepted for ${localNumber}; delivery receipt pending.`);
+            return { provider: 'sms', accepted: true, requestId: response.request_id || null };
           }
-        );
-        if (res.ok) {
-          log.info(`[notify:twilio] OTP sent via Twilio to ${cleanPhone}`);
-          sent = true;
+          const reason = response.message || response.msg || `HTTP ${res.status}`;
+          providerErrors.push(`Fast2SMS rejected OTP request: ${reason}`);
+          log.warn(`[notify:fast2sms] OTP rejected (HTTP ${res.status}): ${reason}`);
+        } catch (err) {
+          const reason = err.name === 'TimeoutError' ? 'Fast2SMS request timed out.' : 'Could not reach Fast2SMS API.';
+          providerErrors.push(reason);
+          log.warn(`[notify:fast2sms] ${reason}`);
         }
-      } catch (err) {
-        log.warn(`[notify:twilio] Twilio error: ${err.message}`);
       }
+    } else {
+      providerErrors.push('Fast2SMS is not configured (set FAST2SMS_API_KEY).');
     }
 
-    if (!sent) {
-      log.info(`[notify:phone] No live SMS/WhatsApp provider configured or active — check console OTP above for ${cleanPhone}`);
-    }
+    throw new Error(`OTP delivery failed. ${providerErrors.join(' ')}`);
   }
 
-  // 3. Deliver via Email (Resend)
+  // Deliver email verification codes via Resend.
   if (cleanEmail && resend) {
     try {
       await resend.emails.send({
@@ -222,10 +128,16 @@ export async function sendOtpNotification({ phone, email, code }) {
         html: `<p>Your verification code is: <strong>${code}</strong></p><p>This code is valid for 10 minutes.</p>`,
       });
       log.info(`[notify:email] Email OTP sent successfully to ${cleanEmail}`);
+      return { provider: 'email', accepted: true };
     } catch (err) {
-      log.warn(`[notify:email] Resend delivery notice for ${cleanEmail}: ${err.message} (see terminal OTP above)`);
+      log.warn(`[notify:email] Resend delivery failed for ${cleanEmail}: ${err.message}`);
+      throw new Error('Could not send the email verification code. Please retry.');
     }
   }
+
+  throw new Error(cleanEmail
+    ? 'Email OTP is not configured. Set RESEND_API_KEY.'
+    : 'A phone number or email address is required.');
 }
 
 /**

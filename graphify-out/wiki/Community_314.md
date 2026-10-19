@@ -1,12 +1,16 @@
 # Community 314
 
-> 3 nodes · cohesion 0.67
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **test-whatsapp.js** (2 connections) — `backend/scripts/test-whatsapp.js`
-- **__dirname** (1 connections) — `backend/scripts/test-whatsapp.js`
-- **testWhatsApp()** (1 connections) — `backend/scripts/test-whatsapp.js`
+- **finder.test.mjs** (6 connections) — `.agents/skills/archify/test/finder.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
+- **svg()** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
 
 ## Relationships
 
@@ -14,11 +18,11 @@
 
 ## Source Files
 
-- `backend/scripts/test-whatsapp.js`
+- `.agents/skills/archify/test/finder.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

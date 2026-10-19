@@ -1,24 +1,28 @@
 # Community 295
 
-> 3 nodes · cohesion 0.67
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **9. Line Length (Measure)** (3 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Guidelines** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Implementation** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Managing accounts** (6 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- **managing-accounts.md** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- **Deleting accounts** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- **TV provider accounts** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
 
 ## Relationships
 
-- [[Community 164]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/apple-design/references/hig/managing-accounts.md`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

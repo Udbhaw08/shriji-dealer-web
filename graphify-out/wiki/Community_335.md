@@ -1,11 +1,15 @@
 # Community 335
 
-> 2 nodes · cohesion 1.00
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **ci-scope.test.mjs** (1 connections) — `.agents/skills/archify/test/ci-scope.test.mjs`
-- **script** (1 connections) — `.agents/skills/archify/test/ci-scope.test.mjs`
+- **Color wells** (4 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **color-wells.md** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
 
 ## Relationships
 
@@ -13,11 +17,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/ci-scope.test.mjs`
+- `.agents/skills/apple-design/references/hig/color-wells.md`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

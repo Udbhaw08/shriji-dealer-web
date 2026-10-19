@@ -1,25 +1,28 @@
 # Community 298
 
-> 3 nodes · cohesion 0.67
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **guidedViews** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **Popovers** (4 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
+- **popovers.md** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
 
 ## Relationships
 
-- [[Community 87]] (1 shared connections)
-- [[Community 166]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/apple-design/references/hig/popovers.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

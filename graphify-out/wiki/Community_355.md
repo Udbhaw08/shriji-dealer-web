@@ -1,10 +1,15 @@
 # Community 355
 
-> 1 nodes · cohesion 1.00
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **site-language-integration.mjs** (0 connections) — `.agents/skills/archify/test/site-language-integration.mjs`
+- **skill-metadata.test.mjs** (5 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
+- **authoringContract** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
+- **frontmatter** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
+- **skill** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
 
 ## Relationships
 
@@ -12,11 +17,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/site-language-integration.mjs`
+- `.agents/skills/archify/test/skill-metadata.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

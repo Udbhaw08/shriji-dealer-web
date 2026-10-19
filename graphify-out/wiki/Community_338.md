@@ -1,10 +1,15 @@
 # Community 338
 
-> 1 nodes · cohesion 1.00
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **cordova_plugins.js** (0 connections) — `android/app/src/main/assets/public/cordova_plugins.js`
+- **Printing** (4 connections) — `.agents/skills/apple-design/references/hig/printing.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/printing.md`
+- **printing.md** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
 
 ## Relationships
 
@@ -12,11 +17,11 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/cordova_plugins.js`
+- `.agents/skills/apple-design/references/hig/printing.md`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

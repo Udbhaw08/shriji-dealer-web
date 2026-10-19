@@ -1,25 +1,29 @@
 # Community 269
 
-> 4 nodes · cohesion 0.50
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **6. Line Height** (4 connections) — `.agents/skills/refero-design/references/typography.md`
-- **CSS Tokens** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Principles** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Quick Reference** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **landing.test.mjs** (7 connections) — `.agents/skills/archify/test/landing.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
+- **docsRoot** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
+- **landing** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
+- **manifest** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
+- **proofs** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
 
 ## Relationships
 
-- [[Community 164]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/archify/test/landing.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

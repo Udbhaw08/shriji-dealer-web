@@ -1,15 +1,18 @@
 # Community 228
 
-> 6 nodes · cohesion 0.33
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Lifecycle Renderer** (5 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
-- **README.md** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
-- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
-- **Input** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
-- **Layout budget** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
-- **Legend** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Archify JSON IR Schemas** (7 connections) — `.agents/skills/archify/schemas/README.md`
+- **Files** (2 connections) — `.agents/skills/archify/schemas/README.md`
+- **README.md** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Error format** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Legend presentation contract** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Runtime validation** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **schema_version policy** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Shared definitions (common.schema.json)** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Visual quality and engineering truth** (1 connections) — `.agents/skills/archify/schemas/README.md`
 
 ## Relationships
 
@@ -17,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/lifecycle/README.md`
+- `.agents/skills/archify/schemas/README.md`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

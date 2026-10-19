@@ -32,12 +32,12 @@
 
 ## Relationships
 
-- [[Community 79]] (20 shared connections)
-- [[Community 101]] (18 shared connections)
-- [[Pricing & Roles Skill]] (5 shared connections)
-- [[Community 123]] (4 shared connections)
-- [[Community 133]] (2 shared connections)
-- [[Community 108]] (2 shared connections)
+- [[Community 82]] (20 shared connections)
+- [[Community 113]] (18 shared connections)
+- [[Product Brand & Business Vision]] (5 shared connections)
+- [[Community 138]] (4 shared connections)
+- [[Community 161]] (2 shared connections)
+- [[Community 286]] (2 shared connections)
 
 ## Source Files
 

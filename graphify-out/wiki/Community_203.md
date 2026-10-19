@@ -1,29 +1,33 @@
 # Community 203
 
-> 7 nodes · cohesion 0.29
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **MockStorage** (6 connections) — `src/data/auth-session.test.mjs`
-- **auth-session.test.mjs** (1 connections) — `src/data/auth-session.test.mjs`
-- **.clear()** (1 connections) — `src/data/auth-session.test.mjs`
-- **.constructor()** (1 connections) — `src/data/auth-session.test.mjs`
-- **.getItem()** (1 connections) — `src/data/auth-session.test.mjs`
-- **.removeItem()** (1 connections) — `src/data/auth-session.test.mjs`
-- **.setItem()** (1 connections) — `src/data/auth-session.test.mjs`
+- **v1-compatibility.test.mjs** (9 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **validate()** (3 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **check()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **legacyDataflowDocument()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **narrowExplicitViewBoxDocuments()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **OFFICIAL_V1_EXAMPLES** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 96]] (1 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (1 shared connections)
 
 ## Source Files
 
-- `src/data/auth-session.test.mjs`
+- `.agents/skills/archify/test/v1-compatibility.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 18 (90%)
+- INFERRED: 2 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

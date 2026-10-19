@@ -1,15 +1,18 @@
 # Community 236
 
-> 6 nodes · cohesion 0.33
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **authoring-safety-contract.test.mjs** (5 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
-- **authoringContract** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
-- **schemaReadme** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
-- **skill** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- **preview-contract.test.mjs** (8 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **chinese** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **delivery** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **english** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **readme** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **skill** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
 
 ## Relationships
 
@@ -17,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- `.agents/skills/archify/test/preview-contract.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

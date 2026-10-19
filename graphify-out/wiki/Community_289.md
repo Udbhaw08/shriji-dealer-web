@@ -1,13 +1,16 @@
 # Community 289
 
-> 4 nodes · cohesion 0.50
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **proof-aperture.test.mjs** (3 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
-- **cssRule()** (1 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
-- **landing** (1 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
+- **Entering data** (5 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **entering-data.md** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
 
 ## Relationships
 
@@ -15,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/proof-aperture.test.mjs`
+- `.agents/skills/apple-design/references/hig/entering-data.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,10 +1,15 @@
 # Community 340
 
-> 1 nodes · cohesion 1.00
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **capacitor.settings.gradle** (0 connections) — `android/capacitor.settings.gradle`
+- **Steppers** (4 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
+- **steppers.md** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
 
 ## Relationships
 
@@ -12,11 +17,11 @@
 
 ## Source Files
 
-- `android/capacitor.settings.gradle`
+- `.agents/skills/apple-design/references/hig/steppers.md`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

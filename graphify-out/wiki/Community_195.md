@@ -1,29 +1,31 @@
 # Community 195
 
-> 8 nodes · cohesion 0.25
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **share-card-export.test.mjs** (7 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
-- **svgBlock()** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **entries** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **legend** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **mode** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **properties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 67]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/share-card-export.test.mjs`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

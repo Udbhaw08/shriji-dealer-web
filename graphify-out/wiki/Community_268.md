@@ -1,25 +1,29 @@
 # Community 268
 
-> 4 nodes · cohesion 0.50
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **5. Font Weight** (4 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Rules** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Standard Weights** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Weight + Size Relationship** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **guided-views.test.mjs** (7 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **fixture()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **svg()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
 
 ## Relationships
 
-- [[Community 164]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/archify/test/guided-views.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

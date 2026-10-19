@@ -1,14 +1,17 @@
 # Community 243
 
-> 5 nodes · cohesion 0.40
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **CLAUDE.md — read this before touching anything** (4 connections) — `CLAUDE.md`
-- **CLAUDE.md** (1 connections) — `CLAUDE.md`
-- **Commands** (1 connections) — `CLAUDE.md`
-- **Doc map** (1 connections) — `CLAUDE.md`
-- **Hard rules (these exist to stop hallucination)** (1 connections) — `CLAUDE.md`
+- **Controls** (7 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Camera experiences on a locked device** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
 
 ## Relationships
 
@@ -16,11 +19,11 @@
 
 ## Source Files
 
-- `CLAUDE.md`
+- `.agents/skills/apple-design/references/hig/controls.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

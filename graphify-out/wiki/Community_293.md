@@ -1,12 +1,16 @@
 # Community 293
 
-> 3 nodes · cohesion 0.67
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Navigation and presentation** (2 connections) — `.agents/skills/swiftui-pro/references/navigation.md`
-- **navigation.md** (1 connections) — `.agents/skills/swiftui-pro/references/navigation.md`
-- **Alerts, confirmation dialogs, and sheets** (1 connections) — `.agents/skills/swiftui-pro/references/navigation.md`
+- **Live-viewing apps** (6 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- **live-viewing-apps.md** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- **Cloud DVR** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- **EPG experience** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
 
 ## Relationships
 
@@ -14,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/navigation.md`
+- `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

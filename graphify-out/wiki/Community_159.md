@@ -1,18 +1,21 @@
 # Community 159
 
-> 9 nodes · cohesion 0.22
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **2. Customer vs. Dealer Price Resolution (`src/data/dealer.js`)** (4 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **PRICING-ARCHITECTURE.md — Pricing Engine & Audit Specification** (4 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **1. Source of Truth: Live Zoho Commerce Store API** (2 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **PRICING-ARCHITECTURE.md** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **2.1 Customer View** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **2.2 Dealer View** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **2.3 Share Link Invariant** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **3. Automated Pricing Regression Protection** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **Rate Priority Hierarchy** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **generate-codebase-doc.mjs** (11 connections) — `scripts/generate-codebase-doc.mjs`
+- **allFiles** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **apiFiles** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **components** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **dataStores** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **getFiles()** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **istDateString** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **pages** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **pkg** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **rootDir** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **routes** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **scripts** (1 connections) — `scripts/generate-codebase-doc.mjs`
 
 ## Relationships
 
@@ -20,11 +23,11 @@
 
 ## Source Files
 
-- `docs/PRICING-ARCHITECTURE.md`
+- `scripts/generate-codebase-doc.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,66 +1,56 @@
 # Pricing & Roles Skill
 
-> 46 nodes · cohesion 0.12
+> 53 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **render-dataflow.mjs** (78 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **esc()** (31 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **escapeHtml()** (26 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **animateAttr()** (16 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **focusEdgeAttrs()** (15 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **labelPoint()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **renderBrandMark()** (14 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **renderNode()** (13 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderState()** (13 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **focusNodeAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **renderSemanticSigil()** (13 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **renderComponent()** (12 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderParticipant()** (12 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **brandLabelFitWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **brandMetadataFor()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **focusNodeTitle()** (12 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **routePointsValue()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **fittedNodeFontSize()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **variantAccent()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **renderConnectionLabel()** (8 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderFlowLabel()** (8 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderTransitionLabel()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderMessage()** (8 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **brandMarkFor()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **messageLabel()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- *... and 21 more nodes in this community*
+- **Z()** (32 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **zd()** (18 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **getIdToken()** (16 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **Pd()** (15 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **Fd()** (13 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **dp()** (12 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **td()** (11 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **directlySetCurrentUser()** (9 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **initializeCurrentUser()** (9 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **hp()** (8 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **setPersistence()** (8 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **signOut()** (8 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **updateCurrentUser()** (8 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **_fromGetAccountInfoResponse()** (7 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **getOrInitRedirectPersistenceManager()** (7 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **mf()** (7 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **_setRedirectUser()** (7 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **assertAuthConfigured()** (6 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **ed()** (6 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **getCurrentUser()** (6 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **getToken()** (6 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **_persistUserIfCurrent()** (6 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **queue()** (6 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **runMiddleware()** (6 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **updateFromServerResponse()** (6 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- *... and 28 more nodes in this community*
 
 ## Relationships
 
-- [[Pricing Regression Test Suite]] (45 shared connections)
-- [[Roles & Customer Sharing Spec]] (42 shared connections)
-- [[Community 45]] (32 shared connections)
-- [[Client Products Data Store]] (24 shared connections)
-- [[Community 61]] (23 shared connections)
-- [[Zoho Integration Architecture]] (11 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (7 shared connections)
-- [[Community 58]] (5 shared connections)
-- [[Community 79]] (2 shared connections)
+- [[Dealer Auth & Session Management]] (71 shared connections)
+- [[Zoho Integration Architecture]] (21 shared connections)
+- [[Product Pages Specification]] (20 shared connections)
+- [[Master Codebase Architecture Reference]] (13 shared connections)
+- [[Community 49]] (13 shared connections)
+- [[Community 30]] (10 shared connections)
+- [[Live Pricing Audit Tool]] (10 shared connections)
+- [[Client Products Data Store]] (7 shared connections)
+- [[Community 69]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/cli.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/i18n.mjs`
-- `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
 
 ## Audit Trail
 
-- EXTRACTED: 396 (90%)
-- INFERRED: 43 (10%)
+- EXTRACTED: 350 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

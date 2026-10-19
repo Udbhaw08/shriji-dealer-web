@@ -1,17 +1,19 @@
 # Community 188
 
-> 8 nodes · cohesion 0.25
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **relationship-direct-explorer.test.mjs** (7 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- **Settings** (8 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **settings.md** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **General settings** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **System settings** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Task-specific options** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
 
 ## Relationships
 
@@ -19,11 +21,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- `.agents/skills/apple-design/references/hig/settings.md`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

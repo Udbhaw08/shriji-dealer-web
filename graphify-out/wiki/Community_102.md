@@ -1,25 +1,27 @@
 # Community 102
 
-> 16 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **Anti-AI-Slop Guide** (15 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **anti-ai-slop.md** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **Litmus Tests** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **Safe vs. Intentional** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #1 TELL: INDIGO/VIOLET** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #2 TELL: CARDS EVERYWHERE** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #3 TELL: DARK MODE BY DEFAULT** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #4 TELL: CALM EDITORIAL SERIF ON AUTOPILOT** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #5 TELL: EMOJI AS ICONS** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #6 TELL: LEFT ACCENT STRIPE** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #7 TELL: REFERENCE AVERAGING** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #8 TELL: TOKEN ROLE DRIFT** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #9 TELL: FAKE GRAPHICS OR TEXT-ONLY COLLAPSE** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **The AI Slop Detector Checklist** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **The Antidote: Intentional Design** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **What Makes Design Look Generic** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
+- **PRD — Shriji Domestic Appliances Dealer Web** (11 connections) — `PRD.md`
+- **3. Scope** (3 connections) — `PRD.md`
+- **6. Data** (3 connections) — `PRD.md`
+- **7. Evidence ledger — what is verified vs. what is sample** (3 connections) — `PRD.md`
+- **PRD.md** (1 connections) — `PRD.md`
+- **10. Conventions worth knowing** (1 connections) — `PRD.md`
+- **1. What this is** (1 connections) — `PRD.md`
+- **2. Who uses it** (1 connections) — `PRD.md`
+- **4. Stack** (1 connections) — `PRD.md`
+- **5. The pricing model — the core business rule** (1 connections) — `PRD.md`
+- **8. Roadmap** (1 connections) — `PRD.md`
+- **9. Decision log** (1 connections) — `PRD.md`
+- **Built and working** (1 connections) — `PRD.md`
+- **⚠️ Known discrepancy** (1 connections) — `PRD.md`
+- **Not built yet (and deliberately so)** (1 connections) — `PRD.md`
+- **Product record shape** (1 connections) — `PRD.md`
+- **Sample / invented for the draft — must stay labelled as such** (1 connections) — `PRD.md`
+- **Verified (scraped from shrijidomestic.com, 2026-09-18)** (1 connections) — `PRD.md`
 
 ## Relationships
 
@@ -27,11 +29,11 @@
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/anti-ai-slop.md`
+- `PRD.md`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
+- EXTRACTED: 34 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,30 +1,32 @@
 # Community 194
 
-> 8 nodes · cohesion 0.32
+> 10 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **sequence-column-fit.test.mjs** (9 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **labelledSequence()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **render()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **renderOutcome()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **wideSequence()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **participantBoxes()** (1 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **lanes** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **additionalProperties** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **required** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (1 shared connections)
-- [[Community 61]] (1 shared connections)
+- [[Community 31]] (3 shared connections)
+- [[Community 118]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

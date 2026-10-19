@@ -1,26 +1,29 @@
 # Community 249
 
-> 5 nodes · cohesion 0.40
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **4. Text Color System** (5 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Anti-pattern** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Dark Mode Inversion** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Rules That Actually Work** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **The System** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Keyboards** (7 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **keyboards.md** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Custom keyboard shortcuts** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Standard keyboard shortcuts** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
 
 ## Relationships
 
-- [[Community 164]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/apple-design/references/hig/keyboards.md`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

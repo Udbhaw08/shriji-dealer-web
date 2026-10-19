@@ -1,26 +1,29 @@
 # Community 254
 
-> 5 nodes · cohesion 0.40
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **focus** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **Page controls** (6 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **page-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **Customizing indicators** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
 
 ## Relationships
 
-- [[Community 138]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/apple-design/references/hig/page-controls.md`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

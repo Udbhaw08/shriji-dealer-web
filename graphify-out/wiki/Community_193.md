@@ -1,29 +1,31 @@
 # Community 193
 
-> 8 nodes · cohesion 0.25
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **semantic-legend-gateway.test.mjs** (7 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
-- **values()** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
+- **entries** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **legend** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **mode** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **properties** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 103]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

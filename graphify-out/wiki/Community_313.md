@@ -1,12 +1,16 @@
 # Community 313
 
-> 3 nodes · cohesion 0.67
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **check-whatsapp-status.js** (2 connections) — `backend/scripts/check-whatsapp-status.js`
-- **checkStatus()** (1 connections) — `backend/scripts/check-whatsapp-status.js`
-- **__dirname** (1 connections) — `backend/scripts/check-whatsapp-status.js`
+- **diagram-guide.test.mjs** (6 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
 
 ## Relationships
 
@@ -14,11 +18,11 @@
 
 ## Source Files
 
-- `backend/scripts/check-whatsapp-status.js`
+- `.agents/skills/archify/test/diagram-guide.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

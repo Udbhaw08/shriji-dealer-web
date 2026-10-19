@@ -1,15 +1,18 @@
 # Community 235
 
-> 6 nodes · cohesion 0.33
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **SKILL.md** (3 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **Output Format** (3 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **ContentView.swift** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **Core Instructions** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **References** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **Summary** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **chapter-delta-preview.test.mjs** (8 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **delta()** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **PROOF_CASES** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
 
 ## Relationships
 
@@ -17,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/SKILL.md`
+- `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

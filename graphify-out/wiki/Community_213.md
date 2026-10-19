@@ -1,16 +1,18 @@
 # Community 213
 
-> 7 nodes · cohesion 0.29
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **intent-trace.test.mjs** (6 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
+- **Multitasking** (5 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Platform considerations** (4 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **multitasking.md** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
 
 ## Relationships
 
@@ -18,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/intent-trace.test.mjs`
+- `.agents/skills/apple-design/references/hig/multitasking.md`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

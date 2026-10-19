@@ -1,16 +1,18 @@
 # Community 220
 
-> 7 nodes · cohesion 0.29
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **semantic-flow.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
+- **Siri** (7 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Getting your app to work with Siri** (2 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **siri.md** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Customizing your app’s experience with Siri** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Editorial guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Sharing contextual information** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
 
 ## Relationships
 
@@ -18,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/semantic-flow.test.mjs`
+- `.agents/skills/apple-design/references/hig/siri.md`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

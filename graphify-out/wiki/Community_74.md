@@ -1,42 +1,54 @@
 # Community 74
 
-> 21 nodes · cohesion 0.10
+> 22 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **ReStor Dealer Web — Auth Architecture Analysis: Firebase vs Supabase** (6 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
-- **3. Detailed Audit of the 4 Portals / 4 Ways** (5 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
-- **2. Codebase Inventory: Where Each Technology Lives** (3 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
-- **Portal 1: ReStor Dealer (Shop Owner)** (3 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
-- **Portal 2: ReStor Staff (Store Staff / Counter Team)** (3 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
-- **Portal 4: ReStor Customer (End Consumer / Retail Buyer)** (3 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
-- **1. Executive Summary & Clarification** (2 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
-- **Portal 3: ReStor Brand (Sunshine Brand Managers & Field Execs)** (2 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
-- **AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
-- **2.1 Where Supabase Is Used (Database Layer Only)** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
-- **2.2 Where Firebase Is Used (Authentication & Client Telemetry)** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
-- **4. Architectural Matrix: Supabase vs Firebase** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
-- **5. Verification Checklist & Action Plan** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
-- **Current Authentication Flow:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
-- **Current Authentication Flow:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
-- **Current Authentication Flow:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
-- **Key Takeaways:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
-- **Target Firebase Unified Flow:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
-- **Verification & Firebase Status:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
-- **Verification & Firebase Status:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
-- **Verification & Firebase Status:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **catalog.js** (16 connections) — `backend/src/services/catalog.js`
+- **env.js** (15 connections) — `backend/src/config/env.js`
+- **logger.js** (14 connections) — `backend/src/utils/logger.js`
+- **log** (13 connections) — `backend/src/utils/logger.js`
+- **env** (11 connections) — `backend/src/config/env.js`
+- **index.js** (11 connections) — `backend/src/jobs/index.js`
+- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
+- **notifications.js** (9 connections) — `backend/src/services/notifications.js`
+- **syncCatalog()** (7 connections) — `backend/src/services/catalog.js`
+- **isCommerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
+- **catalogFor()** (4 connections) — `backend/src/services/catalog.js`
+- **loadCatalog()** (4 connections) — `backend/src/services/catalog.js`
+- **catalogSync()** (3 connections) — `backend/src/jobs/catalogSync.js`
+- **tokenCleanup()** (3 connections) — `backend/src/jobs/catalogSync.js`
+- **priceView()** (3 connections) — `backend/src/services/catalog.js`
+- **priceGate.test.mjs** (3 connections) — `backend/test/priceGate.test.mjs`
+- **bool()** (1 connections) — `backend/src/config/env.js`
+- **__dirname** (1 connections) — `backend/src/config/env.js`
+- **num()** (1 connections) — `backend/src/config/env.js`
+- **requestedOtpDeliveryMode** (1 connections) — `backend/src/config/env.js`
+- **CATALOG** (1 connections) — `backend/test/priceGate.test.mjs`
+- **ts()** (1 connections) — `backend/src/utils/logger.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Project Readme & Layout]] (25 shared connections)
+- [[Community 77]] (11 shared connections)
+- [[Community 109]] (7 shared connections)
+- [[Community 142]] (7 shared connections)
+- [[Community 53]] (4 shared connections)
 
 ## Source Files
 
-- `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- `backend/src/config/env.js`
+- `backend/src/jobs/catalogSync.js`
+- `backend/src/jobs/index.js`
+- `backend/src/services/catalog.js`
+- `backend/src/services/commerceClient.js`
+- `backend/src/services/notifications.js`
+- `backend/src/utils/logger.js`
+- `backend/test/priceGate.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
+- EXTRACTED: 136 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

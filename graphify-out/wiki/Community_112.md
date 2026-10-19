@@ -1,35 +1,42 @@
 # Community 112
 
-> 14 nodes · cohesion 0.23
+> 17 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **web-CjJVHNoU.js** (13 connections) — `android/app/src/main/assets/public/assets/web-CjJVHNoU.js`
-- **applyPrefix()** (4 connections) — `android/app/src/main/assets/public/assets/web-CjJVHNoU.js`
-- **keys()** (4 connections) — `android/app/src/main/assets/public/assets/web-CjJVHNoU.js`
-- **get()** (3 connections) — `android/app/src/main/assets/public/assets/web-CjJVHNoU.js`
-- **migrate()** (3 connections) — `android/app/src/main/assets/public/assets/web-CjJVHNoU.js`
-- **rawKeys()** (3 connections) — `android/app/src/main/assets/public/assets/web-CjJVHNoU.js`
-- **clear()** (2 connections) — `android/app/src/main/assets/public/assets/web-CjJVHNoU.js`
-- **remove()** (2 connections) — `android/app/src/main/assets/public/assets/web-CjJVHNoU.js`
-- **removeOld()** (2 connections) — `android/app/src/main/assets/public/assets/web-CjJVHNoU.js`
-- **set()** (2 connections) — `android/app/src/main/assets/public/assets/web-CjJVHNoU.js`
-- **configure()** (1 connections) — `android/app/src/main/assets/public/assets/web-CjJVHNoU.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-CjJVHNoU.js`
-- **impl()** (1 connections) — `android/app/src/main/assets/public/assets/web-CjJVHNoU.js`
-- **prefix()** (1 connections) — `android/app/src/main/assets/public/assets/web-CjJVHNoU.js`
+- **checkForUpdate()** (19 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **commitOperation()** (14 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **acknowledgeUpdate()** (13 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cancelOperation()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **resultForCandidate()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **silent()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **resultAfterLosingOperation()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **readJsonFile()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **transitionOperation()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **operationOwnsActiveClaim()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **runCli()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **freshStateResult()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **versionCacheDirectory()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertBoundedRegularFile()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **digestForEventKey()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **fetchCandidate()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **waitUntilRetry()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 42]] (19 shared connections)
+- [[Community 104]] (12 shared connections)
+- [[Community 96]] (7 shared connections)
+- [[Community 97]] (3 shared connections)
+- [[Community 40]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/web-CjJVHNoU.js`
+- `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 105 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

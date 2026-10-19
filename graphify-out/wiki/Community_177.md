@@ -1,30 +1,35 @@
 # Community 177
 
-> 9 nodes · cohesion 0.33
+> 11 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **release-identity.test.mjs** (8 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **stableUpdateManifest()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **writeFile()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **writeValidDevelopmentFixture()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **writeValidStableFixture()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **checker** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **runCheck()** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **reader-layout-browser.test.mjs** (13 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **load()** (6 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **evaluate()** (5 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **stable()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **viewport()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **inactive()** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **variant()** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 62]] (4 shared connections)
+- [[Community 50]] (1 shared connections)
+- [[Community 146]] (1 shared connections)
+- [[Community 126]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/release-identity.test.mjs`
+- `.agents/skills/archify/test/reader-layout-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
+- EXTRACTED: 39 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

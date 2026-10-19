@@ -1,47 +1,49 @@
 # Claude Agent Instructions
 
-> 43 nodes · cohesion 0.05
+> 50 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **Craft Details Guide** (11 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **2. Forms** (10 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **6. Accessibility Quick Wins** (6 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **4. Touch & Mobile** (5 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **5. Performance Patterns** (5 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **1. Focus States** (4 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **3. Images** (4 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **7. Navigation & State** (4 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **craft-details.md** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **8. Content Copy Rules** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **9. Anti-Patterns Checklist** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Always Set Dimensions** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Async Updates Need Announcements** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Autocomplete Matters** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **AutoFocus Rules** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Avoid Layout Reads in Render** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Compound Controls: `:focus-within`** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Destructive Actions Need Confirmation** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Disable Spellcheck Where Appropriate** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Error Handling** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Heading Hierarchy** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **In React/Next.js** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Input Types and Attributes** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Keyboard Handlers** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Labels and Hit Targets** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- *... and 18 more nodes in this community*
+- **check-render-output.mjs** (57 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **parseAttrs()** (7 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectArrows()** (6 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **numberAttr()** (6 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectCompositionFrames()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectLegendBoxes()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **lineSegments()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectDesktopReadability()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectNonFiniteAttrs()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **pathSegments()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **straightPathSegments()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **textBox()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **projectedNodeTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **attrEntries()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectLegendCollisions()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectRelationshipLabelMasks()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **crossProduct()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **isCommand()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **pointsFromPath()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **properSegmentIntersection()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **segmentIntersectsBox()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **segmentsIntersect()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **stripTags()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectRelationshipCrossings()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **decodeNumericReferences()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Zoho Backend & Proxy Endpoints]] (6 shared connections)
+- [[Community 160]] (4 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/craft-details.md`
+- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- `.agents/skills/archify/scripts/check-render-output.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 84 (100%)
+- EXTRACTED: 182 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

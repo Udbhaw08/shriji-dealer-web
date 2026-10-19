@@ -1,30 +1,39 @@
 # Community 160
 
-> 9 nodes · cohesion 0.22
+> 12 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **Primary Commands** (5 connections) — `.agents/skills/graphify/SKILL.md`
-- **Graphify Knowledge Graph Skill** (4 connections) — `.agents/skills/graphify/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/graphify/SKILL.md`
-- **1. Query the Graph (Context-Efficient)** (1 connections) — `.agents/skills/graphify/SKILL.md`
-- **2. Trace Relationships (Shortest Path)** (1 connections) — `.agents/skills/graphify/SKILL.md`
-- **3. Explain a Node or Symbol** (1 connections) — `.agents/skills/graphify/SKILL.md`
-- **4. Update the Graph (AST Re-Extraction)** (1 connections) — `.agents/skills/graphify/SKILL.md`
-- **Key Output Artifacts in `graphify-out/`** (1 connections) — `.agents/skills/graphify/SKILL.md`
-- **Why Use Graphify** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **desktop-readability.mjs** (9 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **adaptive-reader-layout.test.mjs** (9 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **desktop-reader-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- **DESKTOP_READABILITY_VIEWPORT** (5 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **reader** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **skill** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- **packagedHtmlExamples** (1 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 50]] (4 shared connections)
+- [[Claude Agent Instructions]] (4 shared connections)
+- [[Mobile Responsive UI Skill]] (3 shared connections)
+- [[Community 106]] (1 shared connections)
+- [[Community 126]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/graphify/SKILL.md`
+- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 39 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

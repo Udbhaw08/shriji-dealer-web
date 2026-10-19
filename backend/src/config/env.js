@@ -8,6 +8,14 @@ dotenv.config(); // fallback to cwd .env if any
 
 const num = (v, d) => (v != null && v !== '' ? Number(v) : d);
 const bool = (v, d) => (v != null && v !== '' ? v === 'true' : d);
+const requestedOtpDeliveryMode = (process.env.OTP_DELIVERY_MODE || 'sms').trim().toLowerCase();
+const otpDeliveryMode = ['sms', 'whatsapp_then_sms'].includes(requestedOtpDeliveryMode)
+  ? requestedOtpDeliveryMode
+  : 'sms';
+
+if (requestedOtpDeliveryMode !== otpDeliveryMode) {
+  console.warn(`[config] Unsupported OTP_DELIVERY_MODE "${requestedOtpDeliveryMode}"; defaulting to SMS-only.`);
+}
 
 export const env = {
   port: num(process.env.PORT, 8080),
@@ -19,6 +27,7 @@ export const env = {
   googleClientId: process.env.GOOGLE_CLIENT_ID || '',
   firebaseApiKey: process.env.FIREBASE_API_KEY || '',
   firebaseProjectId: process.env.FIREBASE_PROJECT_ID || '',
+  otpDeliveryMode,
 
   whatsapp: {
     token: process.env.WHATSAPP_TOKEN || '',

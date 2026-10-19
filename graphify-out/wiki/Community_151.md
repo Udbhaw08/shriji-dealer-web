@@ -1,31 +1,33 @@
 # Community 151
 
-> 10 nodes · cohesion 0.20
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **entries** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **legend** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **properties** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **mode** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **properties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **Generative AI** (11 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **generative-ai.md** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Continuous improvement** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Inputs** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Models and datasets** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Outputs** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Privacy** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Transparency** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
 
 ## Relationships
 
-- [[Community 68]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `.agents/skills/apple-design/references/hig/generative-ai.md`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,59 +1,56 @@
 # Agent Guidelines (AGENTS.md)
 
-> 42 nodes · cohesion 0.08
+> 49 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **brand-marks.mjs** (51 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **brand-marks.test.mjs** (15 connections) — `.agents/skills/archify/test/brand-marks.test.mjs`
-- **captureRemoteBrand()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **captureBrandReference()** (6 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **commandBrands()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **findBrandMark()** (5 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **checkedFetch()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **isPrivateBrandAddress()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **resolveRequestTarget()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **asUrl()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **iconCandidates()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **imageData()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **ipv4Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **ipv6Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **lookupForms()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **readLimited()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **validateUrlShape()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **generated-brand-marks.mjs** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
-- **BRAND_MARKS** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
-- **attribute()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **beforeDeadline()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **domainMark()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **listBrandMarks()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **remoteBrand()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **requestPinned()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- *... and 17 more nodes in this community*
+- **constructor()** (18 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **ff()** (18 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **getImmediate()** (16 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **Um()** (14 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **nf()** (13 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **ef()** (12 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **lf()** (11 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **initialize()** (10 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **uf()** (10 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **isInitialized()** (9 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **of()** (9 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **yf()** (9 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **addComponent()** (8 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **cf()** (8 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **getProvider()** (8 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **hp()** (8 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **_key()** (8 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **triggerHeartbeat()** (8 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **oh()** (7 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **tf()** (7 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **_getAppCheckToken()** (6 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **getOrInitializeService()** (6 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **normalizeInstanceIdentifier()** (6 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **onExecution()** (6 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **_openPopup()** (6 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [[Pricing & Roles Skill]] (7 shared connections)
-- [[Zoho Integration Architecture]] (7 shared connections)
-- [[Roles & Customer Sharing Spec]] (2 shared connections)
-- [[Community 61]] (2 shared connections)
-- [[Community 42]] (1 shared connections)
-- [[Community 108]] (1 shared connections)
-- [[Client Products Data Store]] (1 shared connections)
-- [[Community 45]] (1 shared connections)
-- [[Pricing Regression Test Suite]] (1 shared connections)
+- [[Price Presentation & Product UI]] (65 shared connections)
+- [[Dependencies & Package Config]] (28 shared connections)
+- [[Pricing Regression Test Suite]] (17 shared connections)
+- [[Product Requirements Documentation]] (14 shared connections)
+- [[Graphify Knowledge Graph Skill]] (13 shared connections)
+- [[Roles & Customer Sharing Spec]] (13 shared connections)
+- [[Graphify Agent Rules]] (4 shared connections)
+- [[Zoho API Diagnostic Script]] (3 shared connections)
+- [[Community 85]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
-- `.agents/skills/archify/test/brand-marks.test.mjs`
+- `ios/App/App/public/assets/index-NKRFalKI.js`
 
 ## Audit Trail
 
-- EXTRACTED: 157 (98%)
-- INFERRED: 4 (2%)
+- EXTRACTED: 332 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

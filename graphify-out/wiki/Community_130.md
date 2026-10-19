@@ -1,21 +1,23 @@
 # Community 130
 
-> 12 nodes · cohesion 0.17
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **DEALER-HIERARCHY-AND-WORKFLOW.md — Business, Dealer & Staff Hierarchy Model** (6 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **3. End-to-End User Journey & Life Cycle** (3 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **4. Zoho CRM Data Structure** (3 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **1. The Three-Tier Hierarchy Model** (2 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **DEALER-HIERARCHY-AND-WORKFLOW.md** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **2. Two-Stage Approval Separation** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **5. Technical Seams to Adapt** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **Accounts Module (Business Entity)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **Contacts Module (People Hierarchy)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **Hierarchy Breakdown:** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **Phase A: Dealer Onboarding (Head Approval)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **Phase B: Staff Onboarding via Dealer Code (Dealer Approval)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **Tablet (iPadOS)** (6 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Pointing devices** (5 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **pointing-devices.md** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Customizing pointers** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Pointer accessories** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Pointer magnetism** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Pointer shape and content effects** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Pointers** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Standard pointers and effects** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
 
 ## Relationships
 
@@ -23,11 +25,11 @@
 
 ## Source Files
 
-- `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- `.agents/skills/apple-design/references/hig/pointing-devices.md`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

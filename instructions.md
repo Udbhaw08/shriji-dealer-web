@@ -14,35 +14,35 @@ When a UI element designed for desktop does not fit or feels suboptimal on mobil
 
 ---
 
-## 2. Dual-Skill Synthesis Engine
+## 2. Tri-Skill Synthesis Engine
 
-For any redesign task, combine the strengths of both skills:
+For any redesign task, combine the complementary strengths of these three skills:
 
 ```
-┌───────────────────────────────────────────────┐
-│              REDESIGN REQUEST                 │
-└───────────────────────┬───────────────────────┘
-                        │
-         ┌──────────────┴──────────────┐
-         ▼                             ▼
-┌─────────────────────────┐   ┌─────────────────────────┐
-│      refero-design      │   │       swiftui-pro       │
-├─────────────────────────┤   ├─────────────────────────┤
-│ • Visual hierarchy      │   │ • Mobile HIG ergonomics │
-│ • Typography scale      │   │ • Touch targets (≥44pt) │
-│ • Curated color palette │   │ • Safe areas & insets   │
-│ • Surfaces & elevation  │   │ • Resizability & layout │
-│ • Micro-interactions    │   │ • Navigation hierarchy  │
-│ • Anti-AI-slop quality  │   │ • Fluid gesture flows   │
-└────────────┬────────────┘   └────────────┬────────────┘
-             │                             │
-             └──────────────┬──────────────┘
-                            ▼
-              ┌───────────────────────────┐
-              │    SYNTHESIZED UI / UX    │
-              │  Adaptive across all view-│
-              │  ports, platforms & apps  │
-              └───────────────────────────┘
+┌─────────────────────────────────────────────────────────────┐
+│                      REDESIGN REQUEST                       │
+└──────────────────────────────┬──────────────────────────────┘
+                               │
+         ┌─────────────────────┼─────────────────────┐
+         ▼                     ▼                     ▼
+┌─────────────────┐   ┌─────────────────┐   ┌─────────────────┐
+│  refero-design  │   │  apple-design   │   │   swiftui-pro   │
+├─────────────────┤   ├─────────────────┤   ├─────────────────┤
+│• Visual hierarchy│  │• 123 HIG pages  │   │• Mobile ergono- │
+│• Typography scale│  │• Materials/Glass│   │  mics & layout  │
+│• Curated palette│   │• Modality/Sheets│   │• Touch targets  │
+│• Elevation/depth│   │• Navigation &   │   │  (≥44pt/48px)   │
+│• Anti-AI-slop   │   │  haptics/motion │   │• Safe insets    │
+│• Copy & CTAs    │   │• Design audits  │   │• Swift/React UX │
+└────────┬────────┘   └────────┬────────┘   └────────┬────────┘
+         │                     │                     │
+         └─────────────────────┼─────────────────────┘
+                               ▼
+               ┌─────────────────────────────┐
+               │     SYNTHESIZED UI / UX     │
+               │   Adaptive across desktop   │
+               │   web, iOS & Android apps   │
+               └─────────────────────────────┘
 ```
 
 ### Skill 1: `refero-design` (Website & Aesthetic Authority)
@@ -53,7 +53,15 @@ Consult `.agents/skills/refero-design/SKILL.md` and its reference files:
 - **`references/anti-ai-slop.md`**: Prevent generic cookie-cutter layouts, avoid plain centered boxes, and ensure distinctive character.
 - **`references/copywriting.md`**: Concise, scannable labels, strong CTAs, and clear hierarchy.
 
-### Skill 2: `swiftui-pro` (Mobile App Ergonomics & UX Authority)
+### Skill 2: `apple-design` (HIG Standards & Design Audit Authority)
+Consult `.agents/skills/apple-design/SKILL.md` and its reference files:
+- **`references/hig-lookup.md`**: Master routing table across 123 official Apple HIG topics.
+- **`references/hig/materials.md`** & **`liquid-glass.md`**: Translucent materials, blur effects, surface layers, and depth.
+- **`references/hig/modality.md`** & **`sheets.md`**: Bottom sheets, modal presentation, dismiss gestures, and clear actions.
+- **`references/hig/layout.md`**: Safe areas, margin guides, device orientations, and responsive layouts.
+- **`references/cross-platform.md`**: Translating HIG principles seamlessly to web, Capacitor, React, and mobile wrappers.
+
+### Skill 3: `swiftui-pro` (Mobile App Ergonomics & View Performance Authority)
 Consult `.agents/skills/swiftui-pro/SKILL.md` and its reference files:
 - **`references/design.md`**: Touch targets (minimum 44×44pt / 48×48px), finger reachability, clean grouping, and contrast.
 - **`references/resizability.md`**: Adaptive layout across varying screen widths, split views, and folding devices.
@@ -122,9 +130,10 @@ Every redesign must preserve these core business requirements:
 
 When the user asks to redesign a screen, component, or flow:
 
-1. **Examine Both Skills First**:
+1. **Examine the Design Triad First**:
    - Check `refero-design` for styling, palette, font hierarchy, and polish.
-   - Check `swiftui-pro` for mobile ergonomics, touch targets, and layout responsiveness.
+   - Check `apple-design` for 123 HIG pages, materials (liquid glass), modality, and cross-platform UX.
+   - Check `swiftui-pro` for mobile ergonomics, touch target sizing, and responsive view performance.
 2. **Identify Desktop vs. Mobile Divergence**:
    - Design the responsive layout for both desktop and mobile viewports before coding.
    - Determine which components need adaptive mobile variants (e.g., table → cards, popover → sheet).

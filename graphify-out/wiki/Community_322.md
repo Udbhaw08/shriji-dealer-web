@@ -1,11 +1,16 @@
 # Community 322
 
-> 2 nodes · cohesion 1.00
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **fail-migration-cleanup.mjs** (1 connections) — `.agents/skills/archify/test/fixtures/fail-migration-cleanup.mjs`
-- **originalRmSync** (1 connections) — `.agents/skills/archify/test/fixtures/fail-migration-cleanup.mjs`
+- **semantic-flow.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
 
 ## Relationships
 
@@ -13,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/fixtures/fail-migration-cleanup.mjs`
+- `.agents/skills/archify/test/semantic-flow.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,37 +1,46 @@
 # Community 109
 
-> 15 nodes · cohesion 0.19
+> 17 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **sources** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **required** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **boundaries** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **connections** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **auth.js** (48 connections) — `backend/src/routes/auth.js`
+- **rateLimit.js** (4 connections) — `backend/src/middleware/rateLimit.js`
+- **notify()** (4 connections) — `backend/src/services/notifications.js`
+- **httpError()** (3 connections) — `backend/src/middleware/errorHandler.js`
+- **rateLimit()** (3 connections) — `backend/src/middleware/rateLimit.js`
+- **issueSession()** (3 connections) — `backend/src/routes/auth.js`
+- **linkUserIdentifiers()** (3 connections) — `backend/src/routes/auth.js`
+- **resolveUserWithDealer()** (3 connections) — `backend/src/routes/auth.js`
+- **sendOtpNotification()** (3 connections) — `backend/src/services/notifications.js`
+- **authRouter** (2 connections) — `backend/src/routes/auth.js`
+- **findUserByIdentifier()** (2 connections) — `backend/src/routes/auth.js`
+- **parseIdentifier()** (2 connections) — `backend/src/routes/auth.js`
+- **publicUser()** (2 connections) — `backend/src/routes/auth.js`
+- **buckets** (1 connections) — `backend/src/middleware/rateLimit.js`
+- **googleClient** (1 connections) — `backend/src/routes/auth.js`
+- **lastCrmSyncByDealerId** (1 connections) — `backend/src/routes/auth.js`
+- **strictLimit** (1 connections) — `backend/src/routes/auth.js`
 
 ## Relationships
 
-- [[Oxlint Linter Configuration]] (5 shared connections)
-- [[Community 75]] (3 shared connections)
+- [[Project Readme & Layout]] (14 shared connections)
+- [[Community 53]] (12 shared connections)
+- [[Community 74]] (7 shared connections)
+- [[Community 77]] (6 shared connections)
+- [[Community 88]] (5 shared connections)
+- [[Community 142]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `backend/src/middleware/errorHandler.js`
+- `backend/src/middleware/rateLimit.js`
+- `backend/src/routes/auth.js`
+- `backend/src/services/notifications.js`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (100%)
+- EXTRACTED: 86 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

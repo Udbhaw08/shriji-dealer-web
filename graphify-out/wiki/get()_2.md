@@ -1,32 +1,32 @@
 # get()
 
-> God node · 52 connections · `ios/App/App/public/assets/index-CWBKLC4l.js`
+> God node · 48 connections · `ios/App/App/public/assets/index-NKRFalKI.js`
 
-**Community:** [[Community 38]]
+**Community:** [[Dependencies & Package Config]]
 
 ## Connections by Relation
 
 ### calls
 - [[has()]] `EXTRACTED`
-- [[t()]] `EXTRACTED`
-- [[sl()]] `EXTRACTED`
-- [[ao()]] `EXTRACTED`
-- [[md()]] `EXTRACTED`
-- [[tp()]] `EXTRACTED`
-- [[a()]] `EXTRACTED`
+- [[kf()]] `EXTRACTED`
+- [[bl()]] `EXTRACTED`
+- [[Au()]] `EXTRACTED`
+- [[Ga()]] `EXTRACTED`
 - [[resolve()]] `EXTRACTED`
-- [[ru()]] `EXTRACTED`
-- [[fr()]] `EXTRACTED`
-- [[nc()]] `EXTRACTED`
-- [[al()]] `EXTRACTED`
-- [[jr()]] `EXTRACTED`
-- [[p()]] `EXTRACTED`
-- [[hf()]] `EXTRACTED`
-- [[kp()]] `EXTRACTED`
-- [[hp()]] `EXTRACTED`
-- [[ip()]] `EXTRACTED`
-- [[nm()]] `EXTRACTED`
-- [[qc()]] `EXTRACTED`
+- [[sl()]] `EXTRACTED`
+- [[am()]] `EXTRACTED`
+- [[mm()]] `EXTRACTED`
+- [[Gc()]] `EXTRACTED`
+- [[bm()]] `EXTRACTED`
+- [[jm()]] `EXTRACTED`
+- [[Sa()]] `EXTRACTED`
+- [[ba()]] `EXTRACTED`
+- [[Yd()]] `EXTRACTED`
+- [[c()]] `EXTRACTED`
+- [[dt()]] `EXTRACTED`
+- [[ys()]] `EXTRACTED`
+- [[zl()]] `EXTRACTED`
+- [[s()]] `EXTRACTED`
 
 ### contains
 - [[_()]] `EXTRACTED`

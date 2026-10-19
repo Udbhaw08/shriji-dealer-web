@@ -1,52 +1,47 @@
 # Community 84
 
-> 19 nodes · cohesion 0.11
+> 20 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **pool.js** (26 connections) — `backend/src/db/pool.js`
-- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
-- **migrate()** (4 connections) — `backend/src/db/migrate.js`
-- **seed-content.js** (4 connections) — `backend/scripts/seed-content.js`
-- **applied()** (3 connections) — `backend/src/db/migrate.js`
-- **inspect-db.js** (3 connections) — `backend/scripts/inspect-db.js`
-- **migrate-content.js** (3 connections) — `backend/scripts/migrate-content.js`
-- **setup-buckets.js** (3 connections) — `backend/scripts/setup-buckets.js`
-- **setup-policies.js** (3 connections) — `backend/scripts/setup-policies.js`
-- **test-storage.js** (3 connections) — `backend/scripts/test-storage.js`
-- **main()** (2 connections) — `backend/scripts/inspect-db.js`
-- **main()** (2 connections) — `backend/scripts/seed-content.js`
-- **main()** (2 connections) — `backend/scripts/setup-buckets.js`
-- **main()** (2 connections) — `backend/scripts/setup-policies.js`
-- **dir** (1 connections) — `backend/src/db/migrate.js`
-- **tx()** (1 connections) — `backend/src/db/pool.js`
-- **main()** (1 connections) — `backend/scripts/migrate-content.js`
-- **PROJECT_ROOT** (1 connections) — `backend/scripts/seed-content.js`
-- **main()** (1 connections) — `backend/scripts/test-storage.js`
+- **offline-font-browser.test.mjs** (13 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
+- **offline-self-containment.test.mjs** (9 connections) — `.agents/skills/archify/test/offline-self-containment.test.mjs`
+- **offline-fonts.mjs** (7 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **inspectDocuments()** (5 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **assertFontCss()** (4 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **assertOfflineArtifact()** (4 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **evaluate()** (2 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
+- **exported()** (2 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
+- **EXPECTED_FACES** (1 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **FONT_LICENSE** (1 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **actualFonts()** (1 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
+- **options** (1 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
+- **prepare()** (1 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/offline-self-containment.test.mjs`
+- **DIAGRAMS** (1 connections) — `.agents/skills/archify/test/offline-self-containment.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/offline-self-containment.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/offline-self-containment.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/offline-self-containment.test.mjs`
 
 ## Relationships
 
-- [[Community 46]] (19 shared connections)
-- [[Community 41]] (9 shared connections)
-- [[Community 93]] (2 shared connections)
-- [[Product Pages Specification]] (2 shared connections)
-- [[Community 104]] (1 shared connections)
+- [[Community 91]] (1 shared connections)
+- [[Community 50]] (1 shared connections)
+- [[Community 146]] (1 shared connections)
+- [[Community 126]] (1 shared connections)
 
 ## Source Files
 
-- `backend/scripts/inspect-db.js`
-- `backend/scripts/migrate-content.js`
-- `backend/scripts/seed-content.js`
-- `backend/scripts/setup-buckets.js`
-- `backend/scripts/setup-policies.js`
-- `backend/scripts/test-storage.js`
-- `backend/src/db/migrate.js`
-- `backend/src/db/pool.js`
+- `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- `.agents/skills/archify/test/offline-font-browser.test.mjs`
+- `.agents/skills/archify/test/offline-self-containment.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 71 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 57 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

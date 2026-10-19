@@ -1,53 +1,47 @@
 # Community 57
 
-> 25 nodes · cohesion 0.10
+> 26 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **add()** (33 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **addEventListener()** (19 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **addListener()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **gt()** (6 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **na()** (6 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **ua()** (6 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **ga()** (5 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **registerConsumer()** (5 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **wc()** (5 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **ep()** (4 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **onInit()** (4 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **saveEventToCache()** (4 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **ts()** (4 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **addWindowListener()** (3 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **attachListener()** (3 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **ea()** (3 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **ht()** (3 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **ir()** (3 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **mm()** (3 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **registerLifecycleListeners()** (3 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **subscribe()** (3 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **tf()** (3 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **za()** (3 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **isEventForConsumer()** (2 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **sendRetainedArgumentsForEvent()** (2 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **layout-rules.test.mjs** (25 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **assertRelationshipsAvoidAllNodeBorders()** (5 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **workflowNodeBorderOverlap()** (3 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **assertWorkflowEdgesAvoidAllNodeBorders()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **axisOverlapLength()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **workflowEdgePoints()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **workflowNodeRect()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **ambiguousCorridorDocument()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **autoRoutePassThroughDocument()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **boundaryFrameRect()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **boundaryTitleMasks()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **hash()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **load()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **rectanglesOverlap()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **rectContainsRect()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **SHRINK_CASES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **TAG_SHRINK_CASES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **tangentViaLifecycle()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **validateCli()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (33 shared connections)
-- [[Dependencies & Package Config]] (18 shared connections)
-- [[Product Requirements Documentation]] (10 shared connections)
-- [[Graphify Agent Rules]] (8 shared connections)
-- [[Zoho Integration Skill]] (6 shared connections)
-- [[Architecture Doc Generator]] (5 shared connections)
-- [[Community 36]] (3 shared connections)
-- [[Live Pricing Audit Tool]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- `.agents/skills/archify/test/layout-rules.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 143 (100%)
+- EXTRACTED: 60 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

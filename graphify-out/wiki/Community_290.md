@@ -1,13 +1,16 @@
 # Community 290
 
-> 4 nodes · cohesion 0.50
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **vercel.json** (3 connections) — `vercel.json`
-- **framework** (1 connections) — `vercel.json`
-- **headers** (1 connections) — `vercel.json`
-- **rewrites** (1 connections) — `vercel.json`
+- **Focus and selection** (5 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
+- **focus-and-selection.md** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
 
 ## Relationships
 
@@ -15,11 +18,11 @@
 
 ## Source Files
 
-- `vercel.json`
+- `.agents/skills/apple-design/references/hig/focus-and-selection.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

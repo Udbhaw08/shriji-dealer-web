@@ -1,60 +1,52 @@
 # Community 61
 
-> 25 nodes · cohesion 0.15
+> 24 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **workflow-compiler.mjs** (102 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **textUnits()** (33 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **minimumNodeTextWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **createReadableLayout()** (12 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **text-fit.mjs** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **readableGroupBounds()** (5 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **authoredNodeWidth()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **compileWorkflowWithFeedback()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **authoredNodeHeight()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **compilerFailure()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **feedbackFailure()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **nodeWidthContributor()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **verticalIntervalsOverlap()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **workflowLabelWidth()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **createLegacyLayout()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **stableCompare()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **stableText()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **stableValueKey()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **workflowEdgeName()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **WorkflowLayoutFeedback** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **nodeTextFit** (1 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **cloneWorkflow()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **LEGACY_COLUMN_CENTERS** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **READABLE_CANDIDATE_COST_PRIORITY** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **.constructor()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **preview.mjs** (23 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **startPreview()** (10 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **cli-output-types.test.mjs** (10 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **runPreview()** (3 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **compactMessage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **initialAuthoredOutput()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **previewPage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **redactDiagnostic()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **sha256()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **sourceDigest()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **cliPath** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **diagramTypes** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **here** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **parseReceipt()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **responseHeaders()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **safeJson()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **architecture** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **base** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **head** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **root** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **workflow** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **workspace()** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
 
 ## Relationships
 
-- [[Pricing Regression Test Suite]] (47 shared connections)
-- [[Pricing & Roles Skill]] (23 shared connections)
-- [[Roles & Customer Sharing Spec]] (21 shared connections)
-- [[Client Products Data Store]] (9 shared connections)
-- [[Community 45]] (8 shared connections)
-- [[Zoho Integration Architecture]] (8 shared connections)
-- [[Community 116]] (4 shared connections)
-- [[Community 202]] (4 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (2 shared connections)
-- [[Community 194]] (1 shared connections)
-- [[Community 129]] (1 shared connections)
-- [[Community 56]] (1 shared connections)
+- [[Community 241]] (3 shared connections)
+- [[Community 105]] (3 shared connections)
+- [[Community 47]] (2 shared connections)
+- [[Community 201]] (2 shared connections)
+- [[Community 318]] (2 shared connections)
+- [[Community 239]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
-- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- `.agents/skills/archify/bin/preview.mjs`
+- `.agents/skills/archify/test/cli-output-types.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 218 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 71 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,17 +1,19 @@
 # Community 190
 
-> 8 nodes · cohesion 0.25
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **repair-receipt.test.mjs** (7 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
-- **receipt()** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
-- **writeFixture()** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **Viewer Runtime reference** (6 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Canonical exports** (4 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **viewer-runtime.md** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Exploration** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Guided views and story** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Motion and presentation** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Reach Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Route Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Truth boundary** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
 
 ## Relationships
 
@@ -19,11 +21,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/repair-receipt.test.mjs`
+- `.agents/skills/archify/references/viewer-runtime.md`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

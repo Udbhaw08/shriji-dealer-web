@@ -2,13 +2,13 @@ import { initializeApp, getApps, getApp } from "firebase/app";
 import { getAnalytics, isSupported } from "firebase/analytics";
 import {
   getAuth,
-  RecaptchaVerifier,
-  signInWithPhoneNumber,
+  createUserWithEmailAndPassword,
+  signInWithEmailAndPassword,
   GoogleAuthProvider,
   signInWithPopup,
 } from "firebase/auth";
 
-/* Firebase Client SDK setup for Phone SMS Authentication & Google Sign-In */
+/* Firebase Client SDK setup for Firebase-backed identity and Google Sign-In */
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "AIzaSyDlTfMTfh89kjKp_LIzBRYyUGyOPogtmDo",
   authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "authentication-511306.firebaseapp.com",
@@ -33,56 +33,6 @@ if (typeof window !== "undefined") {
 }
 
 /**
- * Initialize invisible reCAPTCHA verifier for phone SMS OTP.
- */
-export function setupRecaptcha(containerId = "recaptcha-container") {
-  let el = null;
-  if (typeof document !== "undefined") {
-    el = document.getElementById(containerId);
-    if (!el) {
-      el = document.createElement("div");
-      el.id = containerId;
-      document.body.appendChild(el);
-    }
-  }
-  if (window.recaptchaVerifier) {
-    try { window.recaptchaVerifier.clear(); } catch { /* ignore */ }
-    window.recaptchaVerifier = null;
-  }
-  window.recaptchaVerifier = new RecaptchaVerifier(auth, el || containerId, {
-    size: "invisible",
-    callback: () => {},
-    "expired-callback": () => {},
-  });
-  return window.recaptchaVerifier;
-}
-
-/**
- * Send real SMS OTP to Indian/international phone number via Google Firebase (10,000 free/month).
- */
-export async function sendFirebasePhoneOtp(rawPhone, containerId = "recaptcha-container") {
-  let clean = String(rawPhone || "").trim().replace(/[^\d+]/g, "");
-  if (!clean.startsWith("+")) {
-    if (clean.length === 10) clean = `+91${clean}`;
-    else clean = `+${clean}`;
-  }
-  const verifier = setupRecaptcha(containerId);
-  const confirmationResult = await signInWithPhoneNumber(auth, clean, verifier);
-  window.confirmationResult = confirmationResult;
-  return confirmationResult;
-}
-
-/**
- * Verify 6-digit code received on mobile phone via SMS.
- */
-export async function verifyFirebasePhoneOtp(code, confirmationResult = window.confirmationResult) {
-  if (!confirmationResult) throw new Error("No active OTP request found. Please request OTP again.");
-  const userCredential = await confirmationResult.confirm(code);
-  const idToken = await userCredential.user.getIdToken();
-  return { user: userCredential.user, idToken };
-}
-
-/**
  * 1-Click Google Sign In with Firebase popup.
  */
 export async function signInWithGoogleFirebase() {
@@ -91,4 +41,14 @@ export async function signInWithGoogleFirebase() {
   const result = await signInWithPopup(auth, provider);
   const idToken = await result.user.getIdToken();
   return { user: result.user, idToken };
+}
+
+export async function signInWithEmailPassword(email, password) {
+  const result = await signInWithEmailAndPassword(auth, email, password);
+  return { user: result.user, idToken: await result.user.getIdToken() };
+}
+
+export async function createEmailPasswordAccount(email, password) {
+  const result = await createUserWithEmailAndPassword(auth, email, password);
+  return { user: result.user, idToken: await result.user.getIdToken() };
 }

@@ -1,24 +1,28 @@
 # Community 305
 
-> 3 nodes · cohesion 0.67
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **label** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **minLength** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **Writing** (6 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **writing.md** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **Getting started** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
 
 ## Relationships
 
-- [[Testing & Workflow Skill]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `.agents/skills/apple-design/references/hig/writing.md`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

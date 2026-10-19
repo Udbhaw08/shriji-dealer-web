@@ -1,30 +1,34 @@
 # Community 163
 
-> 9 nodes · cohesion 0.22
+> 11 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Delivery contract** (8 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **delivery-contract.md** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Automated browser evidence** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Handoff receipt** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Last-Good Live Preview** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Optional opening** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Perceptual delivery gate** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Recovering a failed comparison** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Validate and deliver** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **favoritesStore.js** (18 connections) — `src/data/favoritesStore.js`
+- **persist()** (5 connections) — `src/data/favoritesStore.js`
+- **addFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **removeFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **toggleFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **clearFavorites()** (2 connections) — `src/data/favoritesStore.js`
+- **notify()** (2 connections) — `src/data/favoritesStore.js`
+- **favoritesState** (1 connections) — `src/data/favoritesStore.js`
+- **getFavorites()** (1 connections) — `src/data/favoritesStore.js`
+- **listeners** (1 connections) — `src/data/favoritesStore.js`
+- **loadFromStorage()** (1 connections) — `src/data/favoritesStore.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Architecture Doc Generator]] (4 shared connections)
+- [[Community 43]] (3 shared connections)
+- [[Community 127]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/references/delivery-contract.md`
+- `src/data/favoritesStore.js`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

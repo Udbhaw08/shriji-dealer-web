@@ -1,25 +1,29 @@
 # Community 265
 
-> 4 nodes · cohesion 0.50
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **14. Hierarchy Checklist** (4 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Anti-patterns** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Hierarchy Test** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Visual Weight Stack** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **wraps** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **via** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- [[Community 164]] (1 shared connections)
+- [[Vercel Deployment Routing]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

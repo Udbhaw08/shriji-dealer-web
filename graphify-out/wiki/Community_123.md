@@ -1,36 +1,37 @@
 # Community 123
 
-> 13 nodes · cohesion 0.15
+> 15 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **architecture-delta.test.mjs** (16 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **ArchitectureDeltaError** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **.constructor()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **baseFixture** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **checkedArtifact** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **checkedReceipt** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **headFixture** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **read()** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **sources** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **additionalProperties** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **required** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **boundaries** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **connections** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- [[Community 58]] (4 shared connections)
-- [[Community 101]] (2 shared connections)
+- [[Vercel Deployment Routing]] (5 shared connections)
+- [[Community 80]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
-- `.agents/skills/archify/test/architecture-delta.test.mjs`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
+- EXTRACTED: 48 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,37 +1,41 @@
 # Community 103
 
-> 16 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **Refero MCP Tools Reference** (7 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **Screens** (5 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **Flows** (3 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **Styles** (3 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **mcp-tools.md** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **Common Mistakes** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **If Results Are Weak** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_get_flow`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_get_screen`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_get_screen_image`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_get_similar_screens`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_get_style`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_search_flows`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_search_screens`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_search_styles`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **Response Formats** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **properties** (11 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **animation** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **locale** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **output** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **subtitle** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **views** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 193]] (1 shared connections)
+- [[Community 346]] (1 shared connections)
+- [[Community 118]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/mcp-tools.md`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
+- EXTRACTED: 37 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

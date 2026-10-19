@@ -1,54 +1,58 @@
 # Community 62
 
-> 24 nodes · cohesion 0.13
+> 24 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **Product.jsx** (36 connections) — `src/pages/Product.jsx`
-- **dealer.js** (29 connections) — `src/data/dealer.js`
-- **dealer.test.mjs** (18 connections) — `src/data/dealer.test.mjs`
-- **viewerFor()** (8 connections) — `src/data/dealer.js`
-- **productSlug()** (7 connections) — `src/data/dealer.js`
-- **shareLink()** (7 connections) — `src/data/dealer.js`
-- **registerDealer()** (6 connections) — `src/data/dealer.js`
-- **formatWhatsAppPhone()** (4 connections) — `src/data/dealer.js`
-- **slugifyProduct()** (4 connections) — `src/data/dealer.js`
-- **tierOf()** (4 connections) — `src/data/dealer.js`
-- **DEALERS** (3 connections) — `src/data/dealer.js`
-- **PriceBlock()** (2 connections) — `src/components/PriceBlock.jsx`
-- **price99()** (2 connections) — `src/data/dealer.js`
-- **BAND** (1 connections) — `src/data/dealer.js`
-- **hash()** (1 connections) — `src/data/dealer.js`
-- **approved** (1 connections) — `src/data/dealer.test.mjs`
-- **customer** (1 connections) — `src/data/dealer.test.mjs`
-- **guest** (1 connections) — `src/data/dealer.test.mjs`
-- **link** (1 connections) — `src/data/dealer.test.mjs`
-- **paramsWithState** (1 connections) — `src/data/dealer.test.mjs`
-- **pending** (1 connections) — `src/data/dealer.test.mjs`
-- **TEST_PRODUCTS** (1 connections) — `src/data/dealer.test.mjs`
-- **viewWithState** (1 connections) — `src/data/dealer.test.mjs`
-- **TAB_ITEMS** (1 connections) — `src/pages/Product.jsx`
+- **.send()** (54 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **viewer-camera-browser.test.mjs** (11 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **export-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **motion-governor-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **run()** (5 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **run()** (5 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **run()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **record()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **screenshot()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **stable()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **viewport()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **screenshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
 
 ## Relationships
 
-- [[Design System & UI Tokens]] (47 shared connections)
-- [[Community 49]] (10 shared connections)
-- [[Community 114]] (6 shared connections)
-- [[Community 37]] (2 shared connections)
-- [[Community 98]] (1 shared connections)
-- [[Community 135]] (1 shared connections)
+- [[Community 63]] (11 shared connections)
+- [[Community 90]] (8 shared connections)
+- [[Community 146]] (7 shared connections)
+- [[Community 126]] (7 shared connections)
+- [[Community 143]] (5 shared connections)
+- [[Community 144]] (5 shared connections)
+- [[Community 177]] (4 shared connections)
+- [[Community 50]] (3 shared connections)
+- [[Community 106]] (1 shared connections)
+- [[Zoho Integration Skill]] (1 shared connections)
 
 ## Source Files
 
-- `src/components/PriceBlock.jsx`
-- `src/data/dealer.js`
-- `src/data/dealer.test.mjs`
-- `src/pages/Product.jsx`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/test/export-browser.test.mjs`
+- `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 141 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 136 (99%)
+- INFERRED: 2 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

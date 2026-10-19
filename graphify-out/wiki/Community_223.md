@@ -1,16 +1,18 @@
 # Community 223
 
-> 7 nodes · cohesion 0.29
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **semantic-zoom.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
-- **svg()** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
+- **web-CIvIqO5g.js** (8 connections) — `ios/App/App/public/assets/web-CIvIqO5g.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-CIvIqO5g.js`
+- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-CIvIqO5g.js`
+- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-CIvIqO5g.js`
+- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-CIvIqO5g.js`
+- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-CIvIqO5g.js`
+- **getState()** (1 connections) — `ios/App/App/public/assets/web-CIvIqO5g.js`
+- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-CIvIqO5g.js`
+- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-CIvIqO5g.js`
 
 ## Relationships
 
@@ -18,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/semantic-zoom.test.mjs`
+- `ios/App/App/public/assets/web-CIvIqO5g.js`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

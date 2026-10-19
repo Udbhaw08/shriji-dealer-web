@@ -1,22 +1,27 @@
 # Community 345
 
-> 1 nodes · cohesion 1.00
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **build.gradle** (0 connections) — `android/capacitor-cordova-android-plugins/build.gradle`
+- **point** (6 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 76]] (1 shared connections)
 
 ## Source Files
 
-- `android/capacitor-cordova-android-plugins/build.gradle`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

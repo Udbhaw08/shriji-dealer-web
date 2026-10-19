@@ -1,14 +1,17 @@
 # Community 251
 
-> 5 nodes · cohesion 0.40
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Archify Diagram Generation Protocol** (4 connections) — `.agents/rules/archify.md`
-- **archify.md** (1 connections) — `.agents/rules/archify.md`
-- **Rule 1: Dedicated Subfolder Per Diagram** (1 connections) — `.agents/rules/archify.md`
-- **Rule 2: Output Artifacts (HTML & Dark Image Only)** (1 connections) — `.agents/rules/archify.md`
-- **Rule 3: Intermediate File Cleanup** (1 connections) — `.agents/rules/archify.md`
+- **Motion** (7 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **motion.md** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **Leveraging platform capabilities** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **Providing feedback** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
 
 ## Relationships
 
@@ -16,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/rules/archify.md`
+- `.agents/skills/apple-design/references/hig/motion.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

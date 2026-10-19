@@ -1,13 +1,17 @@
 # Community 263
 
-> 4 nodes · cohesion 0.50
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Using modern SwiftUI API** (3 connections) — `.agents/skills/swiftui-pro/references/api.md`
-- **api.md** (1 connections) — `.agents/skills/swiftui-pro/references/api.md`
-- **Toolbars** (1 connections) — `.agents/skills/swiftui-pro/references/api.md`
-- **Using ObservableObject** (1 connections) — `.agents/skills/swiftui-pro/references/api.md`
+- **Data flow, shared state, and property wrappers** (7 connections) — `.agents/skills/swiftui-pro/references/data.md`
+- **data.md** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
+- **Bindings** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
+- **If the project uses SwiftData with CloudKit** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
+- **Local state** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
+- **Shared state** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
+- **SwiftData** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
+- **Working with data** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
 
 ## Relationships
 
@@ -15,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/api.md`
+- `.agents/skills/swiftui-pro/references/data.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

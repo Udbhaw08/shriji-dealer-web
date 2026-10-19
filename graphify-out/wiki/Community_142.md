@@ -1,32 +1,37 @@
 # Community 142
 
-> 11 nodes · cohesion 0.18
+> 13 nodes · cohesion 0.36
 
 ## Key Concepts
 
-- **release-package-gates.test.mjs** (10 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **canonicalZipTest()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **centralDirectoryModes()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **currentNodeMajor** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **spawnBuildZip()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **stagedFixture()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **workflowJob()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **workflowStep()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **writeArchive()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **commerceClient.js** (22 connections) — `backend/src/services/commerceClient.js`
+- **ensureContactPricebookForCrmAccount()** (8 connections) — `backend/src/services/commerceClient.js`
+- **fetchCatalog()** (6 connections) — `backend/src/services/commerceClient.js`
+- **booksFetch()** (5 connections) — `backend/src/services/commerceClient.js`
+- **commerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
+- **commerceFetch()** (5 connections) — `backend/src/services/commerceClient.js`
+- **resolvePricebookId()** (5 connections) — `backend/src/services/commerceClient.js`
+- **assignPricebookToContact()** (4 connections) — `backend/src/services/commerceClient.js`
+- **deactivateCommerceContact()** (3 connections) — `backend/src/services/commerceClient.js`
+- **fetchCommercePricebooks()** (3 connections) — `backend/src/services/commerceClient.js`
+- **fetchPricebookRates()** (3 connections) — `backend/src/services/commerceClient.js`
+- **getAccessToken()** (3 connections) — `backend/src/services/commerceClient.js`
+- **parseRate()** (2 connections) — `backend/src/services/commerceClient.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Project Readme & Layout]] (8 shared connections)
+- [[Community 74]] (7 shared connections)
+- [[Community 109]] (2 shared connections)
+- [[Community 77]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/release-package-gates.test.mjs`
+- `backend/src/services/commerceClient.js`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 74 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,35 +1,34 @@
 # Community 140
 
-> 11 nodes · cohesion 0.29
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **reader-layout-browser.test.mjs** (13 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **load()** (6 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **evaluate()** (5 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **media()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **stable()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **viewport()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **inactive()** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **variant()** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **Toolbars** (9 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Platform considerations** (4 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **toolbars.md** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Actions** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Item groupings** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Navigation** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Titles** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
 
 ## Relationships
 
-- [[Community 52]] (4 shared connections)
-- [[Community 48]] (1 shared connections)
-- [[Community 78]] (1 shared connections)
-- [[Community 113]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- `.agents/skills/apple-design/references/hig/toolbars.md`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (100%)
+- EXTRACTED: 24 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

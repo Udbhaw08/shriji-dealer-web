@@ -1,16 +1,18 @@
 # Community 221
 
-> 7 nodes · cohesion 0.29
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **semantic-lens.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **Split views** (5 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **Platform considerations** (4 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **split-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
 
 ## Relationships
 
@@ -18,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/semantic-lens.test.mjs`
+- `.agents/skills/apple-design/references/hig/split-views.md`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

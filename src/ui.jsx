@@ -183,6 +183,25 @@ const PATHS = {
       <path d="M4 6h12M7 6V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2m2 0v11a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6" />
     </>
   ),
+  bell: (
+    <>
+      <path d="M15 13.5v-4a5 5 0 0 0-10 0v4l-1.5 2h13L15 13.5Z" />
+      <path d="M8.5 17.5a1.8 1.8 0 0 0 3 0" />
+    </>
+  ),
+  user: (
+    <>
+      <circle cx="10" cy="6" r="3.5" />
+      <path d="M4 17a6 6 0 0 1 12 0" />
+    </>
+  ),
+  layers: (
+    <>
+      <path d="m10 3 7 3.5-7 3.5-7-3.5L10 3Z" />
+      <path d="m3 10.5 7 3.5 7-3.5" />
+      <path d="m3 14.5 7 3.5 7-3.5" />
+    </>
+  ),
 };
 
 export function Icon({ name, size = 18, ...rest }) {
@@ -195,14 +214,9 @@ export function Icon({ name, size = 18, ...rest }) {
 
 export function Mark() {
   return (
-    <Link to="/" className="mark" aria-label="ReSTOR — Shriji Domestic Appliances">
-      <img
-        src="/img/logo.png"
-        alt="ReSTOR"
-        className="mark-logo"
-        width="145"
-        height="38"
-      />
+    <Link to="/" className="mark mark-restor-wrap" aria-label="ReSTOR B2B — Shriji Domestic Appliances">
+      <span className="mark-restor-text">ReSTOR</span>
+      <span className="mark-b2b-badge">B2B</span>
     </Link>
   );
 }
@@ -321,6 +335,16 @@ export function Header() {
           <AccountLink />
         </div>
 
+        <div className="hdr-mobile-right">
+          <Link to="/support" className="hdr-notif-btn" aria-label="Notifications" title="Notifications">
+            <Icon name="bell" size={20} />
+            <span className="hdr-notif-badge-dot" />
+          </Link>
+          <Link to="/login" className="hdr-profile-avatar-btn" aria-label="Verified Account" title="Dealer Account">
+            <Icon name="user" size={17} />
+            <span className="hdr-verified-badge">✓</span>
+          </Link>
+        </div>
 
         <button
           className="icon-btn burger"

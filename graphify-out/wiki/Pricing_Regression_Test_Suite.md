@@ -1,64 +1,55 @@
 # Pricing Regression Test Suite
 
-> 67 nodes · cohesion 0.10
+> 78 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **geometry.mjs** (75 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **compileWorkflowInternal()** (67 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **asArray()** (43 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **geometry.test.mjs** (34 connections) — `.agents/skills/archify/test/geometry.test.mjs`
-- **validateArchitecture()** (22 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **validateDataflow()** (22 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **validateLifecycle()** (22 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **cleanCrossingProblems()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **isFinitePoint()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanFlowProblems()** (17 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **rectsOverlap()** (16 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **validateSequence()** (15 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **cleanAmbiguousCorridorProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanBorderRunProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanRouteRhythmProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanEndpointSideProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanLabelRouteClearanceProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **brandTopRailProblem()** (13 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **collectLabelRouteClearance()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **segmentIntersectsRect()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **suggestLabelObstacleFix()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **availableNodeTextWidth()** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **collectBorderRuns()** (10 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **normalizeRoutePoints()** (10 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **collectAmbiguousCorridors()** (8 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- *... and 42 more nodes in this community*
+- **Z()** (32 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **jd()** (19 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **Nd()** (19 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **zd()** (18 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **getIdToken()** (16 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **Bd()** (15 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **Pd()** (15 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **Fd()** (13 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **dp()** (12 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **dt()** (11 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **Kd()** (11 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **td()** (11 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **ut()** (11 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **df()** (9 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **directlySetCurrentUser()** (9 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **initializeCurrentUser()** (9 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **Ld()** (9 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **_onStorageEvent()** (9 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **setPersistence()** (8 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **signOut()** (8 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **updateCurrentUser()** (8 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **af()** (7 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **_fromGetAccountInfoResponse()** (7 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **getOrInitRedirectPersistenceManager()** (7 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **ho()** (7 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- *... and 53 more nodes in this community*
 
 ## Relationships
 
-- [[Community 61]] (47 shared connections)
-- [[Pricing & Roles Skill]] (45 shared connections)
-- [[Community 45]] (39 shared connections)
-- [[Client Products Data Store]] (38 shared connections)
-- [[Roles & Customer Sharing Spec]] (35 shared connections)
-- [[Zoho Integration Architecture]] (12 shared connections)
-- [[Graphify Knowledge Graph Skill]] (6 shared connections)
-- [[Community 202]] (3 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (1 shared connections)
+- [[Price Presentation & Product UI]] (111 shared connections)
+- [[Dependencies & Package Config]] (28 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (17 shared connections)
+- [[Zoho API Diagnostic Script]] (16 shared connections)
+- [[Product Requirements Documentation]] (16 shared connections)
+- [[Graphify Agent Rules]] (14 shared connections)
+- [[Roles & Customer Sharing Spec]] (13 shared connections)
+- [[Graphify Knowledge Graph Skill]] (11 shared connections)
+- [[Community 85]] (5 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- `.agents/skills/archify/test/geometry.test.mjs`
+- `ios/App/App/public/assets/index-NKRFalKI.js`
 
 ## Audit Trail
 
-- EXTRACTED: 690 (100%)
+- EXTRACTED: 533 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

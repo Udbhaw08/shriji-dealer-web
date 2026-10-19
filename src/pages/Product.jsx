@@ -13,19 +13,6 @@ import { useFavorites } from "../data/favoritesStore";
 import { isPortalGated } from "../data/portalGate";
 import { apiFetch } from "../data/api";
 
-/* Feature boxes mirror the mockup: icon over a two-line label. */
-function featureBoxes(p, t) {
-  const out = [];
-  if (p.burners) out.push({ icon: "flame", label: `${p.burners} ${t("feat_brass_burners")}` });
-  if (p.features.includes("Auto Ignition")) out.push({ icon: "bolt", label: t("feat_auto_ignition") });
-  if (p.fkey === "glass") out.push({ icon: "glass", label: t("feat_toughened_glass") });
-  if (p.fkey === "steel" || p.fkey === "alloy") out.push({ icon: "steel", label: t("feat_ss_body") });
-  if (p.features.includes("BLDC Motor")) out.push({ icon: "bolt", label: t("feat_bldc_motor") });
-  if (p.features.includes("Spill Proof")) out.push({ icon: "shield", label: t("feat_spill_proof") });
-  if (p.features.includes("Flame Failure Device")) out.push({ icon: "shield", label: t("feat_flame_failure") });
-  out.push({ icon: "shield", label: t("feat_sunshine_warranty") });
-  return out.slice(0, 4);
-}
 
 const TAB_ITEMS = [
   { key: "Overview", labelKey: "tab_overview" },
@@ -379,24 +366,16 @@ export default function Product() {
             aria-label={t("back") || "Back"}
           >
             <Icon name="chevleft" size={18} />
-            <span>{t("back") || "Back"}</span>
+            <span style={{ fontWeight: 700, fontSize: "1.05rem" }}>Product Detail</span>
           </button>
-          <span className="app-mobile-title">{displayTitle}</span>
-          {p && (
-            <button
-              type="button"
-              onClick={() => toggleFavorite(p.id)}
-              className="app-mobile-icon-btn"
-              style={isFavorite(p.id) ? { color: "#d64545" } : undefined}
-              aria-label={isFavorite(p.id) ? "Remove from favorites" : "Save to favorites"}
-              title={isFavorite(p.id) ? "Remove from favorites" : "Save to favorites"}
-            >
-              <Icon name="heart" size={17} style={isFavorite(p.id) ? { fill: "#d64545" } : undefined} />
+          <div style={{ marginLeft: "auto", display: "flex", alignItems: "center", gap: "10px" }}>
+            <button type="button" onClick={share} className="app-mobile-icon-btn" aria-label="Share product">
+              <Icon name="share" size={17} />
             </button>
-          )}
-          <button type="button" onClick={share} className="app-mobile-icon-btn" aria-label="Share product">
-            <Icon name="share" size={17} />
-          </button>
+            <Link to="/login" className="hdr-profile-avatar-btn" style={{ width: 32, height: 32 }} aria-label="Account">
+              <Icon name="user" size={16} />
+            </Link>
+          </div>
         </div>
 
         <div className="product-top-bar desktop-only">
@@ -431,7 +410,7 @@ export default function Product() {
               </button>
             </div>
           )}
-      </div>
+        </div>
 
         <div className="detail">
           {/* ---- gallery ---- */}
@@ -447,6 +426,7 @@ export default function Product() {
               onMouseDown={handleMouseDown}
               onMouseUp={handleMouseUp}
               onMouseLeave={handleMouseLeave}
+              style={{ position: "relative" }}
             >
               {shots.length && !shotError ? (
                 <img
@@ -467,7 +447,7 @@ export default function Product() {
                 <>
                   <button
                     type="button"
-                    className="gallery-nav gallery-nav-prev"
+                    className="gallery-nav-arrow-btn prev"
                     aria-label="Previous image"
                     onClick={(e) => {
                       e.stopPropagation();
@@ -479,7 +459,7 @@ export default function Product() {
 
                   <button
                     type="button"
-                    className="gallery-nav gallery-nav-next"
+                    className="gallery-nav-arrow-btn next"
                     aria-label="Next image"
                     onClick={(e) => {
                       e.stopPropagation();
@@ -489,7 +469,7 @@ export default function Product() {
                     <Icon name="chev" size={18} />
                   </button>
 
-                  <div className="gallery-counter">
+                  <div className="gallery-counter-badge">
                     {shot + 1} / {shots.length}
                   </div>
                 </>
@@ -542,35 +522,65 @@ export default function Product() {
 
           {/* ---- info ---- */}
           <div>
-            <h1 className="d2">{displayTitle}</h1>
-            <p className="muted" style={{ marginTop: 6, fontWeight: 600 }}>
-              {[p.size, p.features[0], p.catLabel].filter(Boolean).join(" · ")}
-            </p>
+            {/* Metadata Row matching Frame 2 */}
+            <div className="detail-meta-row">
+              <span className="detail-cat-pill">
+                {tCat(p.cat, p.catLabel) || "Small Appliances"}
+              </span>
+              <span className="detail-sku-text">
+                SKU: {p.model || p.sku || p.id}
+              </span>
+              <span className="detail-stock-status">
+                <span className="detail-stock-dot" />
+                In Wholesale Stock
+              </span>
+            </div>
 
-            <div className="feats">
-              {p.tileIcons && p.tileIcons.length > 0 ? (
-                p.tileIcons.map((f, idx) => (
-                  <div className="feat" key={idx}>
-                    {f.image ? (
-                      <img
-                        src={f.image}
-                        alt={f.text || f.label}
-                        style={{ width: "22px", height: "22px", objectFit: "contain", marginBottom: "4px" }}
-                      />
-                    ) : (
-                      <Icon name="bolt" size={20} />
-                    )}
-                    <span style={{ whiteSpace: "pre-line" }}>{f.text || f.label}</span>
-                  </div>
-                ))
-              ) : (
-                featureBoxes(p, t).map((f) => (
-                  <div className="feat" key={f.label}>
-                    <Icon name={f.icon} size={20} />
-                    <span style={{ whiteSpace: "pre-line" }}>{f.label}</span>
-                  </div>
-                ))
-              )}
+            <h1 className="d2" style={{ fontSize: "1.75rem", fontWeight: 800, letterSpacing: "-0.02em" }}>
+              {displayTitle}
+            </h1>
+
+            {/* 2x2 Feature Tiles (Frame 2) */}
+            <div className="detail-feature-tiles-grid">
+              <div className="detail-feature-tile-card">
+                <div className="detail-feature-tile-icon-wrap">
+                  <Icon name="layers" size={20} />
+                </div>
+                <span className="detail-feature-tile-sub">Body Quality</span>
+                <span className="detail-feature-tile-val">
+                  {p.finish || (p.fkey === "glass" ? "Matte Toughened Glass" : p.fkey === "steel" ? "Stainless Steel" : p.features?.find((f) => f.toLowerCase().includes("steel") || f.toLowerCase().includes("glass")) || "Stainless Steel")}
+                </span>
+              </div>
+
+              <div className="detail-feature-tile-card">
+                <div className="detail-feature-tile-icon-wrap">
+                  <Icon name="shield" size={20} />
+                </div>
+                <span className="detail-feature-tile-sub">Coverage</span>
+                <span className="detail-feature-tile-val">
+                  {p.warranty || "Sunshine 2-Yr Warranty"}
+                </span>
+              </div>
+
+              <div className="detail-feature-tile-card">
+                <div className="detail-feature-tile-icon-wrap">
+                  <Icon name="bolt" size={20} />
+                </div>
+                <span className="detail-feature-tile-sub">Ignition / Operation</span>
+                <span className="detail-feature-tile-val">
+                  {p.features?.find((f) => f.includes("Ignition") || f.includes("Auto") || f.includes("Cut-Off") || f.includes("BLDC")) || (p.cat === "small_appliances" ? "Auto Cut-Off" : "Auto Ignition")}
+                </span>
+              </div>
+
+              <div className="detail-feature-tile-card">
+                <div className="detail-feature-tile-icon-wrap">
+                  <Icon name={p.cat === "chimneys" ? "chimney" : p.cat === "small_appliances" ? "blender" : "stove"} size={20} />
+                </div>
+                <span className="detail-feature-tile-sub">Configuration</span>
+                <span className="detail-feature-tile-val">
+                  {p.burners ? `${p.burners} Brass Burners` : p.features?.find((f) => f.includes("Base") || f.includes("Swivel") || f.includes("Speed")) || "360° Swivel Base"}
+                </span>
+              </div>
             </div>
 
             <PriceBlock

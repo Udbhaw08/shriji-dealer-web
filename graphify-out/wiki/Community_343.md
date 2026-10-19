@@ -1,10 +1,15 @@
 # Community 343
 
-> 1 nodes · cohesion 1.00
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **build.gradle** (0 connections) — `android/app/build.gradle`
+- **Design** (5 connections) — `.agents/skills/swiftui-pro/references/design.md`
+- **design.md** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
+- **Creating a uniform design in this app** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
+- **Ensuring designs work for everyone** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
+- **Requirements for flexible, accessible design** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
+- **Standard system styling** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
 
 ## Relationships
 
@@ -12,11 +17,11 @@
 
 ## Source Files
 
-- `android/app/build.gradle`
+- `.agents/skills/swiftui-pro/references/design.md`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

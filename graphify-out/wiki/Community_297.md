@@ -1,24 +1,28 @@
 # Community 297
 
-> 3 nodes · cohesion 0.67
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **labelSegment** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **Pop-up buttons** (5 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
+- **pop-up-buttons.md** (1 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
 
 ## Relationships
 
-- [[Oxlint Linter Configuration]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

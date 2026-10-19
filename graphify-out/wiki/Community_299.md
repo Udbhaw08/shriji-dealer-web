@@ -1,24 +1,28 @@
 # Community 299
 
-> 3 nodes · cohesion 0.67
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **id** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **pattern** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **Pull-down buttons** (5 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
+- **pull-down-buttons.md** (1 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
 
 ## Relationships
 
-- [[Community 87]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

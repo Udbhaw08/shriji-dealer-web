@@ -2,12 +2,12 @@ import { useEffect, useRef, useState } from "react";
 import { Link, useNavigate, useSearchParams } from "react-router-dom";
 import { setSession, signOut, useSession, revalidateSession } from "../data/session";
 import {
-  login as apiLogin, signup as apiSignup, staffSignup as apiStaffSignup,
+  login as apiLogin, staffSignup as apiStaffSignup,
   requestOtp, verifyOtp, applyAsDealer, lookupStaffCode, googleLogin, firebaseAuthLogin,
   hasSession,
 } from "../data/auth";
 import {
-  signInWithGoogleFirebase,
+  signInWithGoogleFirebase, signInWithEmailPassword, createEmailPasswordAccount,
 } from "../data/firebase";
 import { Icon } from "../ui";
 import { useLanguage } from "../data/i18n";
@@ -511,15 +511,13 @@ function StaffLogin({ onSent, onPasswordOk, onBack, initialPhone = "", initialEm
       setError("Please enter a valid 10-digit mobile number.");
       return;
     }
-    const isTestPhone = cleanPhone && cleanPhone.replace(/\D/g, '').endsWith("7738369376");
-
     run(async () => {
       // Send OTP via backend → WhatsApp Cloud API (Meta)
       const res = await requestOtp({
         phone: cleanPhone,
         channel: "phone",
       });
-      onSent({ phone: cleanPhone, email: cleanEmail || null, channel: "phone", target: cleanPhone }, (import.meta.env.VITE_ENABLE_DEV_OTP === 'true' && res.dev_code) || null);
+      onSent({ phone: cleanPhone, email: cleanEmail || null, channel: "phone", target: cleanPhone, delivery: res.delivery }, null);
     });
   };
 
@@ -543,11 +541,7 @@ function StaffLogin({ onSent, onPasswordOk, onBack, initialPhone = "", initialEm
       return;
     }
     run(async () => {
-      await apiLogin({
-        phone: cleanPhone || undefined,
-        email: cleanEmail || undefined,
-        password,
-      });
+      await apiLogin({ phone: cleanPhone || undefined, email: cleanEmail || undefined, password });
       await onPasswordOk();
     });
   };
@@ -770,7 +764,6 @@ function Identify({ onSent, onPasswordOk, onBack, initialPhone = "", initialEmai
       setError("Please enter a valid 10-digit mobile number.");
       return;
     }
-
     await run(async () => {
       console.log("[OTP] Sending request");
 
@@ -797,10 +790,9 @@ function Identify({ onSent, onPasswordOk, onBack, initialPhone = "", initialEmai
           email: cleanEmail || null,
           channel: "phone",
           target: cleanPhone,
+          delivery: res.delivery,
         },
-        import.meta.env.VITE_ENABLE_DEV_OTP === "true"
-          ? res.dev_code || null
-          : null
+        null
       );
     });
   };
@@ -825,11 +817,21 @@ function Identify({ onSent, onPasswordOk, onBack, initialPhone = "", initialEmai
       return;
     }
     run(async () => {
-      await apiLogin({
-        phone: cleanPhone || undefined,
-        email: cleanEmail || undefined,
-        password,
-      });
+      if (cleanEmail) {
+        let idToken;
+        try {
+          ({ idToken } = await signInWithEmailPassword(cleanEmail, password));
+        } catch (err) {
+          // Existing portal accounts predate Firebase email/password. Migrate them
+          // once, after the legacy backend credentials have been verified.
+          if (err.code !== "auth/user-not-found") throw err;
+          await apiLogin({ email: cleanEmail, password });
+          ({ idToken } = await createEmailPasswordAccount(cleanEmail, password));
+        }
+        await firebaseAuthLogin(idToken, cleanEmail);
+      } else {
+        await apiLogin({ phone: cleanPhone, password });
+      }
       await onPasswordOk();
     });
   };
@@ -849,6 +851,10 @@ function Identify({ onSent, onPasswordOk, onBack, initialPhone = "", initialEmai
       setError("Please enter a valid 10-digit mobile number.");
       return;
     }
+    if (!cleanEmail || !isValidEmail(cleanEmail)) {
+      setError("Enter a valid email address to create your Firebase account.");
+      return;
+    }
     if (cleanEmail && !isValidEmail(cleanEmail)) {
       setError("Please enter a valid email address (e.g. name@domain.com).");
       return;
@@ -858,14 +864,8 @@ function Identify({ onSent, onPasswordOk, onBack, initialPhone = "", initialEmai
       return;
     }
     run(async () => {
-      await apiSignup({
-        first_name: firstName.trim(),
-        last_name: lastName.trim(),
-        full_name: `${firstName.trim()} ${lastName.trim()}`.trim(),
-        email: cleanEmail || undefined,
-        phone: cleanPhone || undefined,
-        password,
-      });
+      const { idToken } = await createEmailPasswordAccount(cleanEmail, password);
+      await firebaseAuthLogin(idToken, cleanEmail, cleanPhone);
       await onPasswordOk();
     });
   };
@@ -1030,6 +1030,7 @@ function OtpStep({ target, devCode, onVerified, onEdit, onBack }) {
   };
   const sendTarget = targetObj.target || (targetObj.channel === "email" ? targetObj.email : targetObj.phone) || "";
   const isEmail = targetObj.channel === "email" || sendTarget.includes("@");
+  const [delivery, setDelivery] = useState(targetObj.delivery || null);
 
   useEffect(() => { refs.current[0]?.focus(); }, []);
   useEffect(() => {
@@ -1069,11 +1070,12 @@ function OtpStep({ target, devCode, onVerified, onEdit, onBack }) {
     setSecs(25); setError("");
     try {
       // Resend OTP via backend (WhatsApp Cloud API / Meta)
-      await requestOtp({
+      const res = await requestOtp({
         phone: targetObj.phone || (!isEmail ? sendTarget : undefined),
         email: targetObj.email || (isEmail ? sendTarget : undefined),
         channel: isEmail ? "email" : "phone",
       });
+      setDelivery(res.delivery || null);
     } catch (err) {
       setError(err.message || "Failed to resend code");
     }
@@ -1081,10 +1083,11 @@ function OtpStep({ target, devCode, onVerified, onEdit, onBack }) {
 
   const masked = sendTarget && (isEmail ? sendTarget : sendTarget.replace(/\d(?=\d{4})/g, "•"));
   const linkedCounterpart = isEmail ? targetObj.phone : targetObj.email;
+  const deliveryLabel = isEmail ? "Email" : delivery === "sms" ? "SMS" : delivery === "whatsapp" ? "WhatsApp" : "WhatsApp/SMS";
 
   return (
     <WizardShell step={2} steps={5} onBack={onBack} title={isEmail ? "Verify your email" : "Verify your number"}
-                 sub={<>We sent a 6-digit OTP via <b>{isEmail ? "Email" : "WhatsApp & SMS"}</b> to <b>{masked}</b></>}>
+                 sub={<>Your 6-digit code was accepted for delivery via <b>{deliveryLabel}</b> to <b>{masked}</b></>}>
       {linkedCounterpart && (
         <div className="auth-channels-note" style={{ marginBottom: 10 }}>
           <span className="auth-channel-badge">
@@ -1450,7 +1453,6 @@ function StaffDetails({ inviteCode, onSent, onBack }) {
         last_name: form.last_name.trim() || undefined,
         full_name: `${form.first_name.trim()} ${form.last_name.trim()}`.trim() || undefined,
       };
-      const isTestPhone = cleanPhone && cleanPhone.replace(/\D/g, '').endsWith("7738369376");
       // Send OTP via backend → WhatsApp Cloud API (Meta)
       const res = await requestOtp({
         phone: cleanPhone || undefined,
@@ -1462,7 +1464,8 @@ function StaffDetails({ inviteCode, onSent, onBack }) {
         email: cleanEmail,
         channel: cleanPhone ? "phone" : "email",
         target: cleanPhone || cleanEmail,
-      }, (import.meta.env.VITE_ENABLE_DEV_OTP === 'true' && res.dev_code) || null);
+        delivery: res.delivery,
+      }, null);
     } catch (err) {
       setError(err.message === "Failed to fetch" ? "Unable to reach the server." : err.message);
     } finally { setLoading(false); }

@@ -1,24 +1,28 @@
 # Community 308
 
-> 3 nodes · cohesion 0.67
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **title** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **minLength** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **lifecycle.schema.json** (7 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$id** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$schema** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **title** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- [[Community 67]] (1 shared connections)
+- [[Community 118]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/sequence.schema.json`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

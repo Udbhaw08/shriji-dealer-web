@@ -1,35 +1,39 @@
 # Community 117
 
-> 14 nodes · cohesion 0.14
+> 16 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **Icons & Glyphs Guide** (10 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Libraries** (4 connections) — `.agents/skills/refero-design/references/icons.md`
-- **icons.md** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Accessibility** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Color** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **For Product UI (SVG-based)** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Icon Sizing** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Icon + Text Pairing** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Optical Corrections** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Style Consistency** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Two Contexts** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Variable Glyph Systems** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **When to Use What** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **properties** (8 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **meta** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **nodes** (4 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **flows** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **cards** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **schema_version** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 192]] (3 shared connections)
+- [[Community 307]] (1 shared connections)
+- [[Community 66]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/icons.md`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 35 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

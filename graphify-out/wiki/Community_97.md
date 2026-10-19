@@ -1,42 +1,44 @@
 # Community 97
 
-> 18 nodes · cohesion 0.16
+> 19 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **viewer-chrome-layout.test.mjs** (21 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
-- **evaluate()** (5 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
-- **waitForLayout()** (4 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
-- **finalGeometry()** (3 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
-- **resize()** (3 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
-- **edgePaintHitsUnderDock()** (2 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
-- **state()** (2 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
-- **clearStage()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
-- **renderWithoutLegend()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
-- **variant()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
-- **zero()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **update-contract.mjs** (16 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **update-contract.test.mjs** (10 connections) — `.agents/skills/archify/test/update-contract.test.mjs`
+- **compareSemver()** (9 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **validateStableUpdateManifest()** (8 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **isStableCoreVersion()** (7 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **parseSemver()** (7 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **validateLocalRelease()** (7 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **validateReleaseNotesUrl()** (5 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **hasExactKeys()** (4 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **releaseChannelForVersion()** (4 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **UpdateContractError** (4 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **compareNumericIdentifiers()** (3 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **comparePrerelease()** (3 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **validateCanonicalUtcTimestamp()** (3 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **validateManifest()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **isPlainObject()** (2 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **localRelease()** (1 connections) — `.agents/skills/archify/test/update-contract.test.mjs`
+- **stableManifest()** (1 connections) — `.agents/skills/archify/test/update-contract.test.mjs`
 
 ## Relationships
 
-- [[Community 48]] (2 shared connections)
-- [[Community 78]] (1 shared connections)
-- [[Community 113]] (1 shared connections)
-- [[Community 52]] (1 shared connections)
+- [[Community 42]] (13 shared connections)
+- [[Community 40]] (3 shared connections)
+- [[Community 112]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- `.agents/skills/archify/scripts/check-update.mjs`
+- `.agents/skills/archify/scripts/update-contract.mjs`
+- `.agents/skills/archify/test/update-contract.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 53 (100%)
+- EXTRACTED: 97 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

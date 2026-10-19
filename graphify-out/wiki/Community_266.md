@@ -1,25 +1,31 @@
 # Community 266
 
-> 4 nodes · cohesion 0.50
+> 8 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **2. Type Scale** (4 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Common Ratios** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **CSS Tokens** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Practical Scale (Minor Third × 16px base)** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **isDroppedPlatformText()** (5 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **headingLine()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **relabelHeading()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **isDroppedBoilerplate()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **platformsMentioned()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **reduceHeading()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **isDroppedPlatformLabel()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **platformGroupLabel()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- [[Community 164]] (1 shared connections)
+- [[Community 72]] (8 shared connections)
+- [[Community 198]] (1 shared connections)
+- [[Community 197]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

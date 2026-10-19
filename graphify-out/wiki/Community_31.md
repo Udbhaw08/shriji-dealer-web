@@ -1,51 +1,55 @@
 # Community 31
 
-> 39 nodes · cohesion 0.16
+> 42 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **auth.js** (43 connections) — `src/data/auth.js`
-- **callBackend()** (27 connections) — `src/data/auth.js`
-- **json()** (27 connections) — `src/data/auth.js`
-- **DealerDashboard.jsx** (23 connections) — `src/pages/DealerDashboard.jsx`
-- **applyAuthResponse()** (8 connections) — `src/data/auth.js`
-- **broadcastAuthChange()** (8 connections) — `src/data/auth.js`
-- **requestOtp()** (8 connections) — `src/data/auth.js`
-- **Identify()** (8 connections) — `src/pages/Login.jsx`
-- **firebaseAuthLogin()** (7 connections) — `src/data/auth.js`
-- **login()** (7 connections) — `src/data/auth.js`
-- **googleLogin()** (6 connections) — `src/data/auth.js`
-- **logout()** (6 connections) — `src/data/auth.js`
-- **signup()** (6 connections) — `src/data/auth.js`
-- **verifyOtp()** (6 connections) — `src/data/auth.js`
-- **OtpStep()** (6 connections) — `src/pages/Login.jsx`
-- **applyAsDealer()** (5 connections) — `src/data/auth.js`
-- **fetchMe()** (5 connections) — `src/data/auth.js`
-- **lookupStaffCode()** (5 connections) — `src/data/auth.js`
-- **staffSignup()** (5 connections) — `src/data/auth.js`
-- **staffTogglePrice()** (5 connections) — `src/data/auth.js`
-- **staffTogglePriceAll()** (5 connections) — `src/data/auth.js`
-- **verifyEmailOtp()** (5 connections) — `src/data/auth.js`
-- **persistTokens()** (4 connections) — `src/data/auth.js`
-- **requestEmailOtp()** (4 connections) — `src/data/auth.js`
-- **staffApprove()** (4 connections) — `src/data/auth.js`
-- *... and 14 more nodes in this community*
+- **properties** (30 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **col** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **height** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **brand** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **channelX** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **channelY** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **from** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **labelDx** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **labelDy** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **lane** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **route** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **step** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **sublabel** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **tag** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **to** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **toSide** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **variant** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **yOffset** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **maximum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [[Community 37]] (30 shared connections)
-- [[Community 49]] (17 shared connections)
-- [[Design System & UI Tokens]] (8 shared connections)
+- [[Community 194]] (3 shared connections)
+- [[Community 435]] (1 shared connections)
+- [[Community 460]] (1 shared connections)
+- [[Community 436]] (1 shared connections)
+- [[Community 461]] (1 shared connections)
+- [[Community 437]] (1 shared connections)
+- [[Community 462]] (1 shared connections)
+- [[Community 403]] (1 shared connections)
+- [[Community 404]] (1 shared connections)
 
 ## Source Files
 
-- `src/data/auth.js`
-- `src/pages/DealerDashboard.jsx`
-- `src/pages/Login.jsx`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 293 (100%)
+- EXTRACTED: 93 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

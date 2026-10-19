@@ -1,24 +1,28 @@
 # Community 303
 
-> 3 nodes · cohesion 0.67
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **stage** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **Undo and redo** (4 connections) — `.agents/skills/apple-design/references/hig/undo-and-redo.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/undo-and-redo.md`
+- **undo-and-redo.md** (1 connections) — `.agents/skills/apple-design/references/hig/undo-and-redo.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/undo-and-redo.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/undo-and-redo.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/undo-and-redo.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/undo-and-redo.md`
 
 ## Relationships
 
-- [[Project Readme & Layout]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `.agents/skills/apple-design/references/hig/undo-and-redo.md`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,26 +1,29 @@
 # Community 257
 
-> 5 nodes · cohesion 0.40
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **ErrorBoundary** (5 connections) — `src/main.jsx`
-- **.componentDidCatch()** (1 connections) — `src/main.jsx`
-- **.constructor()** (1 connections) — `src/main.jsx`
-- **.getDerivedStateFromError()** (1 connections) — `src/main.jsx`
-- **.render()** (1 connections) — `src/main.jsx`
+- **Sidebars** (5 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
+- **sidebars.md** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
 
 ## Relationships
 
-- [[Design System & UI Tokens]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/main.jsx`
+- `.agents/skills/apple-design/references/hig/sidebars.md`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

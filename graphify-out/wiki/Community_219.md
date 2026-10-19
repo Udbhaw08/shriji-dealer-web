@@ -1,16 +1,18 @@
 # Community 219
 
-> 7 nodes · cohesion 0.29
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **semantic-camera.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
-- **svg()** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
+- **Sheets** (6 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **sheets.md** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
 
 ## Relationships
 
@@ -18,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/semantic-camera.test.mjs`
+- `.agents/skills/apple-design/references/hig/sheets.md`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

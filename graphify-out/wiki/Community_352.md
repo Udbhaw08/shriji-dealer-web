@@ -1,10 +1,15 @@
 # Community 352
 
-> 1 nodes · cohesion 1.00
+> 6 nodes · cohesion 0.47
 
 ## Key Concepts
 
-- **dataflow** (0 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **clean-skill-staging.test.mjs** (5 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
+- **repositoryFixture()** (3 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
+- **git()** (2 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
+- **write()** (2 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
+- **canonicalNotices** (1 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
+- **stagerPath** (1 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
 
 ## Relationships
 
@@ -12,11 +17,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- `.agents/skills/archify/test/clean-skill-staging.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,37 +1,42 @@
 # Community 127
 
-> 13 nodes · cohesion 0.28
+> 14 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **guided-views-browser.test.mjs** (17 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **run()** (8 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **point()** (4 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **settled()** (4 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **activate()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **hash()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **move()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **variant()** (1 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **Products.jsx** (25 connections) — `src/pages/Products.jsx`
+- **ProductSearchBar.jsx** (15 connections) — `src/components/ProductSearchBar.jsx`
+- **useProducts()** (12 connections) — `src/data/productsStore.js`
+- **searchHelper.js** (11 connections) — `src/data/searchHelper.js`
+- **ProductSearchBar()** (6 connections) — `src/components/ProductSearchBar.jsx`
+- **getSuggestions()** (5 connections) — `src/data/searchHelper.js`
+- **autocorrectQuery()** (4 connections) — `src/data/searchHelper.js`
+- **buildSearchDictionary()** (4 connections) — `src/data/searchHelper.js`
+- **getPopularSearches()** (2 connections) — `src/data/searchHelper.js`
+- **scoreProduct()** (2 connections) — `src/data/searchHelper.js`
+- **COLLOQUIAL_SYNONYMS** (1 connections) — `src/data/searchHelper.js`
+- **levenshteinDistance()** (1 connections) — `src/data/searchHelper.js`
+- **Group()** (1 connections) — `src/pages/Products.jsx`
+- **SORT_FNS** (1 connections) — `src/pages/Products.jsx`
 
 ## Relationships
 
-- [[Community 52]] (5 shared connections)
-- [[Community 63]] (3 shared connections)
-- [[Community 48]] (1 shared connections)
-- [[Community 113]] (1 shared connections)
+- [[Architecture Doc Generator]] (19 shared connections)
+- [[Community 43]] (11 shared connections)
+- [[Community 48]] (5 shared connections)
+- [[Community 164]] (2 shared connections)
+- [[Community 163]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- `src/components/ProductSearchBar.jsx`
+- `src/data/productsStore.js`
+- `src/data/searchHelper.js`
+- `src/pages/Products.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (100%)
+- EXTRACTED: 90 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,15 +1,17 @@
 # Community 242
 
-> 6 nodes · cohesion 0.33
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **story-trail.test.mjs** (5 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
+- **Boxes** (5 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **boxes.md** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
 
 ## Relationships
 
@@ -17,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/story-trail.test.mjs`
+- `.agents/skills/apple-design/references/hig/boxes.md`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

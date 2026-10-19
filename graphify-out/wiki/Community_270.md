@@ -1,13 +1,17 @@
 # Community 270
 
-> 4 nodes · cohesion 0.50
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **SwiftUI Views** (3 connections) — `.agents/skills/swiftui-pro/references/views.md`
-- **views.md** (1 connections) — `.agents/skills/swiftui-pro/references/views.md`
-- **Animating views** (1 connections) — `.agents/skills/swiftui-pro/references/views.md`
-- **Reordering and swipe actions** (1 connections) — `.agents/skills/swiftui-pro/references/views.md`
+- **preset-tryon.test.mjs** (7 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
+- **presetRuntime()** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
+- **svgBlock()** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
 
 ## Relationships
 
@@ -15,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/views.md`
+- `.agents/skills/archify/test/preset-tryon.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

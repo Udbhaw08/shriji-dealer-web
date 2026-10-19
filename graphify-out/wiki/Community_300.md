@@ -1,24 +1,28 @@
 # Community 300
 
-> 3 nodes · cohesion 0.67
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **relationshipWidth** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **Searching** (6 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **searching.md** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **Systemwide search** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
 
 ## Relationships
 
-- [[Community 87]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/apple-design/references/hig/searching.md`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

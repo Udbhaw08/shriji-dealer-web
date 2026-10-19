@@ -1,14 +1,17 @@
 # Community 244
 
-> 5 nodes · cohesion 0.40
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Agent Operating Guidelines & Zero-Token Context Strategy** (3 connections) — `GEMINI.md`
-- **Shriji Domestic Appliances — Sunshine Dealer Web** (2 connections) — `GEMINI.md`
-- **GEMINI.md** (1 connections) — `GEMINI.md`
-- **Mandatory Context Rule: Knowledge Graph First** (1 connections) — `GEMINI.md`
-- **Project Hard Rules** (1 connections) — `GEMINI.md`
+- **Disclosure controls** (6 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **disclosure-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **Disclosure buttons** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **Disclosure triangles** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **Mobile (iOS, iPadOS, visionOS)** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
 
 ## Relationships
 
@@ -16,11 +19,11 @@
 
 ## Source Files
 
-- `GEMINI.md`
+- `.agents/skills/apple-design/references/hig/disclosure-controls.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

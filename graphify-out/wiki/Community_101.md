@@ -1,41 +1,40 @@
 # Community 101
 
-> 16 nodes · cohesion 0.17
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **compareArchitecture()** (12 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **fail()** (8 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **canonicalArchitecture()** (5 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundaryIndex()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **canonicalArchitectureJson()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **equal()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **normalizeRepository()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **canonical()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **extractArchitectureSvg()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **extractArtifactCss()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **presentationChanged()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **requireComparableShape()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **stableIndex()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundaryKey()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **sortedBy()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **summaryFor()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **Standard icons** (10 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Icons** (6 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **icons.md** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Document icons** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Editing** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Layer ordering** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Other** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Ratings** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Search** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Selection** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Sharing and exporting** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Text formatting** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Users and accounts** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
 
 ## Relationships
 
-- [[Community 58]] (18 shared connections)
-- [[Community 108]] (4 shared connections)
-- [[Community 123]] (2 shared connections)
-- [[Community 133]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
+- `.agents/skills/apple-design/references/hig/icons.md`
 
 ## Audit Trail
 
-- EXTRACTED: 61 (94%)
-- INFERRED: 4 (6%)
+- EXTRACTED: 34 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

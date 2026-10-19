@@ -1,25 +1,29 @@
 # Community 272
 
-> 4 nodes · cohesion 0.50
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **via** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **relationship-direct-explorer.test.mjs** (7 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
 
 ## Relationships
 
-- [[Project Readme & Layout]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

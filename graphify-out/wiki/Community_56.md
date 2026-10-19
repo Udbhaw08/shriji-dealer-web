@@ -1,48 +1,49 @@
 # Community 56
 
-> 26 nodes · cohesion 0.11
+> 26 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **workflow-compiler.test.mjs** (27 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **assertReadableAdjacentResult()** (6 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **attribute()** (4 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **numericRect()** (4 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **edgeLabelRect()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **edgePoints()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **nodeRect()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **svgViewBox()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **asciiGroupLabelTextRect()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **assertRectInsideViewBox()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **compileSuccessfully()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **groupFrameRect()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **adjacentWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **asciiLaneHeaderTextRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **assertRectInsideRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **attributeOrUndefined()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **clone()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **legendGeometry()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **orthogonalSegmentIntersectsRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **readJson()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **rectsOverlap()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **properties** (13 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **viewBox** (6 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **animation** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **engineering_profile** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **locale** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **output** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **subtitle** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **views** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 - *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [[Community 116]] (2 shared connections)
-- [[Community 61]] (1 shared connections)
+- [[Community 173]] (1 shared connections)
+- [[Community 124]] (1 shared connections)
+- [[Community 80]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 75 (100%)
+- EXTRACTED: 53 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

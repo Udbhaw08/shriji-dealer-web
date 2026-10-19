@@ -1,27 +1,32 @@
 # Community 227
 
-> 6 nodes · cohesion 0.33
+> 9 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **Data Flow Renderer** (5 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
-- **README.md** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
-- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
-- **Input** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
-- **Layout budget** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
-- **Legend** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
+- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **cards** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **additionalProperties** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **required** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 175]] (3 shared connections)
+- [[Community 76]] (1 shared connections)
+- [[Community 430]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/dataflow/README.md`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 27 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

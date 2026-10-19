@@ -1,11 +1,16 @@
 # Community 326
 
-> 2 nodes · cohesion 1.00
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **hygiene.md** (1 connections) — `.agents/skills/swiftui-pro/references/hygiene.md`
-- **Hygiene** (1 connections) — `.agents/skills/swiftui-pro/references/hygiene.md`
+- **story-beat-navigator.test.mjs** (6 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
 
 ## Relationships
 
@@ -13,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/hygiene.md`
+- `.agents/skills/archify/test/story-beat-navigator.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

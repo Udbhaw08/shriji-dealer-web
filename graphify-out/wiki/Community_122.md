@@ -1,37 +1,36 @@
 # Community 122
 
-> 14 nodes · cohesion 0.14
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **workflow-migration.test.mjs** (22 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **copyFixture()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **explicitPinConflictWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **fixture** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **heightConstrainedWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **parseJsonOutput()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **profileDivergenceWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **runMigration()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **runValidation()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **Sign in with Apple** (6 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Using the system-provided buttons** (5 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Creating a custom Sign in with Apple button** (3 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Displaying buttons** (3 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **sign-in-with-apple.md** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Black** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Button size and corner radius** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Collecting data** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Custom buttons with a logo and text** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Custom logo-only buttons** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Offering Sign in with Apple** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **White** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **White with outline** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
 
 ## Relationships
 
-- [[Community 202]] (5 shared connections)
-- [[Community 116]] (3 shared connections)
-- [[Community 61]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/workflow-migration.test.mjs`
+- `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

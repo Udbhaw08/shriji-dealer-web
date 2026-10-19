@@ -1,32 +1,33 @@
 # Community 149
 
-> 10 nodes · cohesion 0.29
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **lanes** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **additionalProperties** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **required** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **Charts** (11 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **charts.md** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Axes** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Color** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Descriptive content** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Enhancing the accessibility of a chart** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Marks** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
 
 ## Relationships
 
-- [[Testing & Workflow Skill]] (3 shared connections)
-- [[Community 106]] (3 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `.agents/skills/apple-design/references/hig/charts.md`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

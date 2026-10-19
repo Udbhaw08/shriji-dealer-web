@@ -1,11 +1,16 @@
 # Community 323
 
-> 2 nodes · cohesion 1.00
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **esm-DvaWRfu4.js** (1 connections) — `ios/App/App/public/assets/esm-DvaWRfu4.js`
-- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-DvaWRfu4.js`
+- **semantic-lens.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
 
 ## Relationships
 
@@ -13,11 +18,11 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/esm-DvaWRfu4.js`
+- `.agents/skills/archify/test/semantic-lens.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

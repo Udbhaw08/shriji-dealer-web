@@ -1,55 +1,55 @@
 # Live Pricing Audit Tool
 
-> 51 nodes · cohesion 0.07
+> 59 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **bt()** (19 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **md()** (18 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **ad()** (14 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **pn()** (13 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **un()** (12 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **yd()** (11 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **ln()** (10 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **yt()** (10 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **tn()** (9 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **hn()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **je()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **nn()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **ot()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **wn()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **wt()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **hd()** (7 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **ld()** (7 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **lt()** (7 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **mn()** (7 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **qt()** (7 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **en()** (6 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **fe()** (6 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **gd()** (6 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **it()** (6 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **rn()** (6 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- *... and 26 more nodes in this community*
+- **pf()** (32 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **create()** (24 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **Au()** (17 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **warn()** (16 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **hu()** (15 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **dl()** (13 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **vu()** (12 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **ec()** (11 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **error()** (11 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **ju()** (11 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **wu()** (11 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **xi()** (11 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **zl()** (11 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **cm()** (9 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **l()** (9 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **Lu()** (9 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **pu()** (9 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **yi()** (9 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **Bu()** (8 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **Md()** (8 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **Uu()** (8 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **Cu()** (7 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **iu()** (7 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **kl()** (7 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **mu()** (7 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- *... and 34 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (56 shared connections)
-- [[Dependencies & Package Config]] (29 shared connections)
-- [[Product Requirements Documentation]] (22 shared connections)
-- [[Graphify Agent Rules]] (16 shared connections)
-- [[Architecture Doc Generator]] (10 shared connections)
-- [[Community 36]] (5 shared connections)
-- [[Community 40]] (3 shared connections)
-- [[Zoho Integration Skill]] (3 shared connections)
-- [[Community 57]] (2 shared connections)
+- [[Dealer Auth & Session Management]] (71 shared connections)
+- [[Master Codebase Architecture Reference]] (44 shared connections)
+- [[Zoho Integration Architecture]] (25 shared connections)
+- [[Product Pages Specification]] (25 shared connections)
+- [[Pricing & Roles Skill]] (10 shared connections)
+- [[Community 30]] (9 shared connections)
+- [[Community 49]] (7 shared connections)
+- [[Community 69]] (7 shared connections)
+- [[Client Products Data Store]] (6 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
 
 ## Audit Trail
 
-- EXTRACTED: 322 (100%)
+- EXTRACTED: 438 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

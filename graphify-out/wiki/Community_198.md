@@ -1,29 +1,33 @@
 # Community 198
 
-> 8 nodes · cohesion 0.25
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **story-director-strip.test.mjs** (7 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **renderBlock()** (11 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderAside()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderBlocks()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderTable()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderList()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderRow()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderTabs()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderTermList()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **resolveSpans()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **trimBlankEdges()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 72]] (10 shared connections)
+- [[Community 197]] (2 shared connections)
+- [[Community 266]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/story-director-strip.test.mjs`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 33 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

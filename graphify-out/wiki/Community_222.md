@@ -1,16 +1,18 @@
 # Community 222
 
-> 7 nodes · cohesion 0.29
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **semantic-passport.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
-- **svg()** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **Virtual keyboards** (7 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **virtual-keyboards.md** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Custom input views** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Custom keyboards** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
 
 ## Relationships
 
@@ -18,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/semantic-passport.test.mjs`
+- `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,33 +1,32 @@
 # Community 178
 
-> 9 nodes · cohesion 0.25
+> 11 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **repository-evidence.test.mjs** (13 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **fixture()** (2 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **git()** (2 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **evidencePayload()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **waitForState()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **readme-showcase.test.mjs** (10 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **inspectGif()** (2 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **skipSubBlocks()** (2 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **assetPath** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **git()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **receiptPath** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **writeStarHistoryCharts()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
 
 ## Relationships
 
-- [[Community 70]] (2 shared connections)
-- [[Community 48]] (1 shared connections)
-- [[Community 78]] (1 shared connections)
-- [[Community 113]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/repository-evidence.test.mjs`
+- `.agents/skills/archify/test/readme-showcase.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

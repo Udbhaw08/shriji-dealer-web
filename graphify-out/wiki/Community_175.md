@@ -1,30 +1,34 @@
 # Community 175
 
-> 9 nodes · cohesion 0.22
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **preview-contract.test.mjs** (8 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **chinese** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **delivery** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **english** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **readme** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **skill** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **properties** (9 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **note** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **dot** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **maxLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 227]] (3 shared connections)
+- [[Community 380]] (1 shared connections)
+- [[Community 174]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/preview-contract.test.mjs`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 25 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,34 +1,35 @@
 # Community 135
 
-> 11 nodes · cohesion 0.29
+> 14 nodes · cohesion 0.30
 
 ## Key Concepts
 
-- **favoritesStore.js** (18 connections) — `src/data/favoritesStore.js`
-- **persist()** (5 connections) — `src/data/favoritesStore.js`
-- **addFavorite()** (3 connections) — `src/data/favoritesStore.js`
-- **removeFavorite()** (3 connections) — `src/data/favoritesStore.js`
-- **toggleFavorite()** (3 connections) — `src/data/favoritesStore.js`
-- **clearFavorites()** (2 connections) — `src/data/favoritesStore.js`
-- **notify()** (2 connections) — `src/data/favoritesStore.js`
-- **favoritesState** (1 connections) — `src/data/favoritesStore.js`
-- **getFavorites()** (1 connections) — `src/data/favoritesStore.js`
-- **listeners** (1 connections) — `src/data/favoritesStore.js`
-- **loadFromStorage()** (1 connections) — `src/data/favoritesStore.js`
+- **architecture-delta-markers.test.mjs** (13 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **assertPreserved()** (6 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **descendants()** (6 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **assertResolved()** (4 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **attr()** (4 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **markerMap()** (4 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **compare()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **edgePaths()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **markerId()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **svgIn()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **markerShape()** (2 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **variantFixture()** (1 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **variants** (1 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
 
 ## Relationships
 
-- [[Design System & UI Tokens]] (6 shared connections)
-- [[Community 62]] (1 shared connections)
-- [[Community 114]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/data/favoritesStore.js`
+- `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
+- EXTRACTED: 54 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

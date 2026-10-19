@@ -1,10 +1,15 @@
 # Community 341
 
-> 1 nodes · cohesion 1.00
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **settings.gradle** (0 connections) — `android/settings.gradle`
+- **Lifecycle Renderer** (5 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **README.md** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Input** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Layout budget** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Legend** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
 
 ## Relationships
 
@@ -12,11 +17,11 @@
 
 ## Source Files
 
-- `android/settings.gradle`
+- `.agents/skills/archify/renderers/lifecycle/README.md`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

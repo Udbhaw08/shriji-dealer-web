@@ -1,14 +1,17 @@
 # Community 245
 
-> 5 nodes · cohesion 0.40
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Shriji Domestic Appliances — Sunshine Dealer Web** (4 connections) — `README.md`
-- **README.md** (1 connections) — `README.md`
-- **Documentation** (1 connections) — `README.md`
-- **Layout** (1 connections) — `README.md`
-- **Two things to know before you change anything** (1 connections) — `README.md`
+- **Game controls** (7 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **game-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Keyboards** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Physical controllers** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Touch controls** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
 
 ## Relationships
 
@@ -16,11 +19,11 @@
 
 ## Source Files
 
-- `README.md`
+- `.agents/skills/apple-design/references/hig/game-controls.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -88,7 +88,7 @@ export async function resolveUserWithDealer(u) {
   return u;
 }
 
-export async function linkUserIdentifiers(u, { email, phone, syncCrm = false }) {
+export async function linkUserIdentifiers(u, { email, phone, emailVerified = true, syncCrm = false }) {
   if (!u) return u;
   const cleanEmail = email ? String(email).trim().toLowerCase() : null;
   const cleanPhone = phone ? String(phone).trim() : null;
@@ -98,9 +98,9 @@ export async function linkUserIdentifiers(u, { email, phone, syncCrm = false }) 
   if (cleanEmail && (!u.email || u.email.trim().toLowerCase() !== cleanEmail)) {
     const existing = await sql`select id from users where lower(email) = ${cleanEmail} and id != ${u.id} limit 1`;
     if (!existing.length) {
-      await sql`update users set email = ${cleanEmail}, email_verified = true where id = ${u.id}`;
+      await sql`update users set email = ${cleanEmail}, email_verified = ${emailVerified} where id = ${u.id}`;
       u.email = cleanEmail;
-      u.email_verified = true;
+      u.email_verified = emailVerified;
       changed = true;
       log.info(`[auth:link] linked email ${cleanEmail} to user ${u.id}`);
     }
@@ -395,39 +395,30 @@ authRouter.post('/google', strictLimit, async (req, res, next) => {
 /* POST /api/auth/firebase — Verify Firebase ID token (Phone SMS OTP or Google Sign-in). */
 authRouter.post('/firebase', strictLimit, async (req, res, next) => {
   try {
-    const { idToken, email: reqEmail, phone: reqPhone } = req.body || {};
+    const { idToken } = req.body || {};
     if (!idToken) throw httpError(400, 'Firebase idToken is required');
+    if (!env.firebaseApiKey) throw httpError(503, 'Firebase token verification is not configured on this server.');
 
     let phone = null;
     let email = null;
     let fullName = null;
+    let emailVerified = false;
 
-    if (env.firebaseApiKey) {
-      const lookupRes = await fetch(`https://identitytoolkit.googleapis.com/v1/accounts:lookup?key=${env.firebaseApiKey}`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ idToken }),
-      });
-      const lookupData = await lookupRes.json();
-      const fbUser = lookupData?.users?.[0];
-      if (!fbUser) {
-        log.warn('[auth:firebase] verify failed:', lookupData?.error?.message || 'User not found');
-        throw httpError(401, 'Invalid or expired Firebase token');
-      }
-      phone = fbUser.phoneNumber ? String(fbUser.phoneNumber).trim() : null;
-      email = fbUser.email ? String(fbUser.email).trim().toLowerCase() : null;
-      fullName = fbUser.displayName || null;
-    } else {
-      const parts = idToken.split('.');
-      if (parts.length < 2) throw httpError(401, 'Malformed token');
-      const payload = JSON.parse(Buffer.from(parts[1], 'base64').toString('utf8'));
-      phone = payload.phone_number || null;
-      email = payload.email ? String(payload.email).trim().toLowerCase() : null;
-      fullName = payload.name || null;
+    const lookupRes = await fetch(`https://identitytoolkit.googleapis.com/v1/accounts:lookup?key=${env.firebaseApiKey}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ idToken }),
+    });
+    const lookupData = await lookupRes.json();
+    const fbUser = lookupData?.users?.[0];
+    if (!lookupRes.ok || !fbUser) {
+      log.warn('[auth:firebase] verify failed:', lookupData?.error?.message || 'User not found');
+      throw httpError(401, 'Invalid or expired Firebase token');
     }
-
-    phone = phone || reqPhone || null;
-    email = email || reqEmail || null;
+    phone = fbUser.phoneNumber ? String(fbUser.phoneNumber).trim() : null;
+    email = fbUser.email ? String(fbUser.email).trim().toLowerCase() : null;
+    fullName = fbUser.displayName || null;
+    emailVerified = Boolean(fbUser.emailVerified);
 
     if (!phone && !email) throw httpError(400, 'Firebase account has neither phone nor email');
 
@@ -437,12 +428,12 @@ authRouter.post('/firebase', strictLimit, async (req, res, next) => {
     if (!user) {
       const [newUser] = await sql`
         insert into users (email, phone, full_name, role, status, email_verified)
-        values (${email || null}, ${phone || null}, ${fullName}, 'customer', 'active', true)
+        values (${email || null}, ${phone || null}, ${fullName}, 'customer', 'active', ${email ? emailVerified : true})
         returning *`;
       user = newUser;
       await audit(user.id, 'auth.firebase_signup', 'user', user.id);
     } else {
-      user = await linkUserIdentifiers(user, { email, phone });
+      user = await linkUserIdentifiers(user, { email, phone, emailVerified });
       await audit(user.id, 'auth.firebase_login', 'user', user.id);
     }
 
@@ -500,26 +491,27 @@ authRouter.post('/otp/request', rateLimit({ windowMs: 10 * 60_000, max: 8 }), as
 
     const user = await findUserByIdentifier({ email: targetEmail, phone: targetPhone });
 
-    const isTestNumber = targetPhone && String(targetPhone).replace(/\D/g, '').endsWith('7738369376');
-    const code = isTestNumber ? '882686' : generateOtp();
+    const code = generateOtp();
+    let delivery;
+    try {
+      delivery = await sendOtpNotification({
+        phone: destType === 'phone' ? targetPhone : null,
+        email: destType === 'email' ? targetEmail : null,
+        code,
+      });
+    } catch (err) {
+      throw httpError(502, err.message || 'OTP provider could not accept the request.');
+    }
     await sql`
       insert into otp_codes (user_id, identifier, code_hash, expires_at)
       values (${user?.id || null}, ${dest}, ${sha256(code)},
               ${new Date(Date.now() + OTP_TTL_MINUTES * 60_000)})`;
 
-    // Dispatch via WhatsApp/SMS or Email (with terminal log fallback)
-    await sendOtpNotification({
-      phone: destType === 'phone' ? targetPhone : null,
-      email: destType === 'email' ? targetEmail : null,
-      code,
-    });
-
-    const exposeDevCode = process.env.ENABLE_DEV_OTP === 'true';
     res.json({
       ok: true,
       destination: destType,
+      delivery: delivery.provider,
       expires_in_minutes: OTP_TTL_MINUTES,
-      ...(exposeDevCode ? { dev_code: code } : {}),
     });
   } catch (err) { next(err); }
 });
@@ -537,7 +529,6 @@ authRouter.post('/otp/verify', strictLimit, async (req, res, next) => {
     if (!dest) throw httpError(400, 'Mobile number or Email is required');
 
     const cleanCode = String(code).trim();
-    const isTestMatch = (targetPhone && String(targetPhone).replace(/\D/g, '').endsWith('7738369376') && cleanCode === '882686');
     const hashedInput = sha256(cleanCode);
 
     // Find active unexpired OTP code by identifier or user_id
@@ -553,7 +544,7 @@ authRouter.post('/otp/verify', strictLimit, async (req, res, next) => {
       order by oc.created_at desc limit 1`;
     const otp = otpRows[0];
 
-    if (!isTestMatch && (!otp || otp.code_hash !== hashedInput)) {
+    if (!otp || otp.code_hash !== hashedInput) {
       if (otp) await sql`update otp_codes set attempts = attempts + 1 where id = ${otp.id}`;
       throw httpError(401, 'Invalid or expired verification code');
     }

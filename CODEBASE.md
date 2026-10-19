@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-19T20:06:43.017+05:30 (GMT+5:30)
-> Total Project Files: 1190
+> Last synchronized: 2026-10-20T04:02:56.891+05:30 (GMT+5:30)
+> Total Project Files: 1335
 
 ---
 
@@ -89,10 +89,10 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/pages/DealerDashboard.jsx`** (35.9 KB)
 - **`src/pages/Favorites.jsx`** (6.7 KB)
 - **`src/pages/Home.jsx`** (18.5 KB)
-- **`src/pages/Login.jsx`** (65.2 KB)
+- **`src/pages/Login.jsx`** (67.7 KB)
 - **`src/pages/PrivacyPolicy.jsx`** (7.2 KB)
-- **`src/pages/Product.jsx`** (30.4 KB)
-- **`src/pages/Products.jsx`** (24.3 KB)
+- **`src/pages/Product.jsx`** (31.1 KB)
+- **`src/pages/Products.jsx`** (34.6 KB)
 - **`src/pages/Schemes.jsx`** (14.3 KB)
 - **`src/pages/Support.jsx`** (4.7 KB)
 - **`src/pages/TermsOfService.jsx`** (4.2 KB)
@@ -103,7 +103,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/components/MobileBottomNav.jsx`** (4.4 KB)
 - **`src/components/NativeBackHandler.jsx`** (3.7 KB)
 - **`src/components/PriceBlock.jsx`** (6.4 KB)
-- **`src/components/ProductCard.jsx`** (3.1 KB)
+- **`src/components/ProductCard.jsx`** (3.6 KB)
 - **`src/components/ProductSearchBar.jsx`** (16.6 KB)
 - **`src/components/UnderMaintenance.jsx`** (2.1 KB)
 - **`src/ui.jsx`**: Core UI components (Header, Footer, Icon, Search, CategoryCarousel).
@@ -115,7 +115,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/data/dealer.js`** (8.4 KB)
 - **`src/data/dealer.test.mjs`** (4.2 KB)
 - **`src/data/favoritesStore.js`** (2.3 KB)
-- **`src/data/firebase.js`** (3.4 KB)
+- **`src/data/firebase.js`** (2.1 KB)
 - **`src/data/i18n.js`** (1.7 KB)
 - **`src/data/loginCode.js`** (3.1 KB)
 - **`src/data/portalGate.js`** (0.8 KB)

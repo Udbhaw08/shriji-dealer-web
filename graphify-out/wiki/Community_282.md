@@ -1,13 +1,17 @@
 # Community 282
 
-> 4 nodes · cohesion 0.50
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **watch-sync.mjs** (3 connections) — `scripts/watch-sync.mjs`
-- **rootDir** (1 connections) — `scripts/watch-sync.mjs`
-- **srcDir** (1 connections) — `scripts/watch-sync.mjs`
-- **triggerSync()** (1 connections) — `scripts/watch-sync.mjs`
+- **story-director-strip.test.mjs** (7 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
 
 ## Relationships
 
@@ -15,11 +19,11 @@
 
 ## Source Files
 
-- `scripts/watch-sync.mjs`
+- `.agents/skills/archify/test/story-director-strip.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

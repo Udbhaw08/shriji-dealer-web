@@ -1,56 +1,74 @@
 # Architecture Doc Generator
 
-> 51 nodes · cohesion 0.07
+> 58 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **get()** (52 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **tp()** (18 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **kd()** (15 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **jr()** (12 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **p()** (12 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **em()** (11 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **gp()** (11 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **hf()** (11 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **pm()** (11 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **cm()** (10 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **ip()** (10 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **nm()** (10 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **rl()** (10 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **fm()** (9 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **fp()** (9 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **request()** (9 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **ut()** (9 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **pt()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **qo()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **so()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **el()** (7 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **il()** (7 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **kt()** (7 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **wp()** (7 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **execute()** (6 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- *... and 26 more nodes in this community*
+- **main.jsx** (40 connections) — `src/main.jsx`
+- **ui.jsx** (38 connections) — `src/ui.jsx`
+- **useLanguage()** (32 connections) — `src/data/i18n.js`
+- **useSession()** (30 connections) — `src/data/session.js`
+- **Home.jsx** (24 connections) — `src/pages/Home.jsx`
+- **site.js** (22 connections) — `src/data/site.js`
+- **Favorites.jsx** (20 connections) — `src/pages/Favorites.jsx`
+- **t()** (19 connections) — `src/data/i18n.js`
+- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
+- **Schemes.jsx** (16 connections) — `src/pages/Schemes.jsx`
+- **Icon()** (16 connections) — `src/ui.jsx`
+- **Support.jsx** (15 connections) — `src/pages/Support.jsx`
+- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
+- **COMPANY** (14 connections) — `src/data/site.js`
+- **useFavorites()** (13 connections) — `src/data/favoritesStore.js`
+- **dealerById()** (11 connections) — `src/data/dealer.js`
+- **HeroSlider.jsx** (9 connections) — `src/components/HeroSlider.jsx`
+- **Products()** (9 connections) — `src/pages/Products.jsx`
+- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
+- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
+- **portalGate.js** (8 connections) — `src/data/portalGate.js`
+- **Favorites()** (8 connections) — `src/pages/Favorites.jsx`
+- **Home()** (8 connections) — `src/pages/Home.jsx`
+- **Header()** (7 connections) — `src/ui.jsx`
+- **Login()** (6 connections) — `src/pages/Login.jsx`
+- *... and 33 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (76 shared connections)
-- [[Dependencies & Package Config]] (30 shared connections)
-- [[Product Requirements Documentation]] (25 shared connections)
-- [[Zoho Integration Skill]] (18 shared connections)
-- [[Community 36]] (15 shared connections)
-- [[Graphify Agent Rules]] (12 shared connections)
-- [[Live Pricing Audit Tool]] (10 shared connections)
-- [[Community 57]] (5 shared connections)
-- [[Community 40]] (4 shared connections)
+- [[Community 43]] (54 shared connections)
+- [[Community 127]] (19 shared connections)
+- [[Community 48]] (18 shared connections)
+- [[Community 41]] (11 shared connections)
+- [[Community 164]] (10 shared connections)
+- [[Community 36]] (5 shared connections)
+- [[Community 163]] (4 shared connections)
+- [[Community 383]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- `src/components/EmailVerificationPrompt.jsx`
+- `src/components/HeroSlider.jsx`
+- `src/components/MobileBottomNav.jsx`
+- `src/components/NativeBackHandler.jsx`
+- `src/components/UnderMaintenance.jsx`
+- `src/data/dealer.js`
+- `src/data/favoritesStore.js`
+- `src/data/i18n.js`
+- `src/data/portalGate.js`
+- `src/data/session.js`
+- `src/data/site.js`
+- `src/main.jsx`
+- `src/pages/DealerDashboard.jsx`
+- `src/pages/Favorites.jsx`
+- `src/pages/Home.jsx`
+- `src/pages/Login.jsx`
+- `src/pages/PrivacyPolicy.jsx`
+- `src/pages/Products.jsx`
+- `src/pages/Schemes.jsx`
+- `src/pages/Support.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 381 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 502 (100%)
+- INFERRED: 2 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

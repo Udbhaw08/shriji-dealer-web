@@ -1,17 +1,19 @@
 # Community 189
 
-> 8 nodes · cohesion 0.25
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **relationship-lens.test.mjs** (7 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **escapeAttr()** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **svg()** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **Windows** (5 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **Desktop (macOS)** (3 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **windows.md** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **macOS window anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **macOS window states** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
 
 ## Relationships
 
@@ -19,11 +21,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/relationship-lens.test.mjs`
+- `.agents/skills/apple-design/references/hig/windows.md`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

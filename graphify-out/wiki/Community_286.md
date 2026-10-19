@@ -1,26 +1,34 @@
 # Community 286
 
-> 4 nodes · cohesion 0.50
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **delivery-contract.test.mjs** (3 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
-- **delivery** (1 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
-- **skill** (1 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
+- **commandCompare()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commitComparePair()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractCompareOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **formatDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportCompareFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **compareCommitError()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **compareReceiptPath()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 47]] (11 shared connections)
+- [[Community 113]] (4 shared connections)
+- [[Community 137]] (3 shared connections)
+- [[Community 82]] (2 shared connections)
+- [[Community 58]] (2 shared connections)
+- [[Community 105]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/delivery-contract.test.mjs`
+- `.agents/skills/archify/bin/archify.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 27 (75%)
+- INFERRED: 9 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,16 +1,18 @@
 # Community 214
 
-> 7 nodes · cohesion 0.29
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **motion-governor.test.mjs** (6 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
-- **svgBlock()** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
+- **Playing audio** (6 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **playing-audio.md** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Handling interruptions** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
 
 ## Relationships
 
@@ -18,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/motion-governor.test.mjs`
+- `.agents/skills/apple-design/references/hig/playing-audio.md`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

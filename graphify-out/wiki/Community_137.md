@@ -1,34 +1,39 @@
 # Community 137
 
-> 11 nodes · cohesion 0.18
+> 13 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **legendEntry** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **label** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **properties** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **visible** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **maxLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **minLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **minProperties** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **fail()** (15 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **usage()** (11 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **runNode()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandDemo()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **exitFrom()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandBrands()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandExamples()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandVisualCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandDoctor()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractMigrationOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandGuide()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **listBrandMarks()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 
 ## Relationships
 
-- [[Community 87]] (1 shared connections)
-- [[Community 138]] (1 shared connections)
+- [[Community 47]] (27 shared connections)
+- [[Community 34]] (3 shared connections)
+- [[Community 286]] (3 shared connections)
+- [[Community 50]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/archify/bin/archify.mjs`
+- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 73 (95%)
+- INFERRED: 4 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

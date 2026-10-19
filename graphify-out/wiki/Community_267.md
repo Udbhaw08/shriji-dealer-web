@@ -1,25 +1,29 @@
 # Community 267
 
-> 4 nodes · cohesion 0.50
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **3. Font Pairing** (4 connections) — `.agents/skills/refero-design/references/typography.md`
-- **If You Must Pair** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Safe Font Choices by Product Type** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **The One-Font Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **animation.test.mjs** (7 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **NODE_COLLECTION** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **svgBlock()** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
 
 ## Relationships
 
-- [[Community 164]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/archify/test/animation.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

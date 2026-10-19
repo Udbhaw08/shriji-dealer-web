@@ -1,23 +1,30 @@
 # Community 347
 
-> 1 nodes · cohesion 1.00
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **CapApp-SPM.swift** (0 connections) — `ios/App/CapApp-SPM/Sources/CapApp-SPM/CapApp-SPM.swift`
+- **main()** (7 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **pruneStaleFiles()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **uniqueBySlug()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **generatedFiles()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **mapWithConcurrency()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **parseArgs()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 72]] (6 shared connections)
+- [[Community 230]] (2 shared connections)
+- [[Community 238]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/CapApp-SPM/Sources/CapApp-SPM/CapApp-SPM.swift`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 18 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

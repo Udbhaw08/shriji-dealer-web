@@ -1,18 +1,20 @@
 # Community 170
 
-> 9 nodes · cohesion 0.22
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **Critical Mobile Responsiveness Safeguards** (6 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **Shriji Responsive UI Skill** (3 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **1. Viewport Zoom-Out Prevention** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **2. CSS Grid Child Shrinking** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **3. Product Card Rows on Mobile (`<= 719px`)** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **4. Horizontal Scrollable Tabs (`.utabs`, `.tabs`)** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **5. Hero Banner on Small Screens (`<= 640px`)** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **Design System Tokens** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **Gestures** (7 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Specifications** (2 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **gestures.md** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Custom gestures** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Standard gestures** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
 
 ## Relationships
 
@@ -20,11 +22,11 @@
 
 ## Source Files
 
-- `.agents/skills/shriji-responsive-ui/SKILL.md`
+- `.agents/skills/apple-design/references/hig/gestures.md`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

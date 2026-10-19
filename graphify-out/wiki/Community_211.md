@@ -1,16 +1,18 @@
 # Community 211
 
-> 7 nodes · cohesion 0.29
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **diagram-guide.test.mjs** (6 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
+- **Edit menus** (6 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
+- **edit-menus.md** (1 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
 
 ## Relationships
 
@@ -18,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/diagram-guide.test.mjs`
+- `.agents/skills/apple-design/references/hig/edit-menus.md`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

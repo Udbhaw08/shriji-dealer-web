@@ -1,16 +1,18 @@
 # Community 218
 
-> 7 nodes · cohesion 0.29
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **route-probe.test.mjs** (6 connections) — `.agents/skills/archify/test/route-probe.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/route-probe.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/route-probe.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/route-probe.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/route-probe.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/route-probe.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/route-probe.test.mjs`
+- **Segmented controls** (6 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **segmented-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
 
 ## Relationships
 
@@ -18,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/route-probe.test.mjs`
+- `.agents/skills/apple-design/references/hig/segmented-controls.md`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

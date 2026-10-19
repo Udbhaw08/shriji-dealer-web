@@ -1,16 +1,18 @@
 # Community 212
 
-> 7 nodes · cohesion 0.29
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **finder.test.mjs** (6 connections) — `.agents/skills/archify/test/finder.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
-- **svg()** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
+- **Materials** (6 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **materials.md** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Liquid Glass** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Standard materials** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
 
 ## Relationships
 
@@ -18,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/finder.test.mjs`
+- `.agents/skills/apple-design/references/hig/materials.md`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

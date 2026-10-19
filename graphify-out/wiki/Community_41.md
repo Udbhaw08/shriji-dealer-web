@@ -1,63 +1,55 @@
 # Community 41
 
-> 36 nodes · cohesion 0.11
+> 37 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **server.js** (33 connections) — `backend/src/server.js`
-- **catalog.js** (16 connections) — `backend/src/services/catalog.js`
-- **env.js** (14 connections) — `backend/src/config/env.js`
-- **webhooks.js** (14 connections) — `backend/src/routes/webhooks.js`
-- **logger.js** (14 connections) — `backend/src/utils/logger.js`
-- **log** (13 connections) — `backend/src/utils/logger.js`
-- **env** (11 connections) — `backend/src/config/env.js`
-- **index.js** (11 connections) — `backend/src/jobs/index.js`
-- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
-- **errorHandler.js** (7 connections) — `backend/src/middleware/errorHandler.js`
-- **syncCatalog()** (7 connections) — `backend/src/services/catalog.js`
-- **prices.js** (6 connections) — `backend/src/routes/prices.js`
-- **catalogFor()** (4 connections) — `backend/src/services/catalog.js`
-- **loadCatalog()** (4 connections) — `backend/src/services/catalog.js`
-- **catalogSync()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **tokenCleanup()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **startJobs()** (3 connections) — `backend/src/jobs/index.js`
-- **priceView()** (3 connections) — `backend/src/services/catalog.js`
-- **start()** (3 connections) — `backend/src/server.js`
-- **priceGate.test.mjs** (3 connections) — `backend/test/priceGate.test.mjs`
-- **errorHandler()** (2 connections) — `backend/src/middleware/errorHandler.js`
-- **contentRouter** (2 connections) — `backend/src/routes/content.js`
-- **dealersRouter** (2 connections) — `backend/src/routes/dealers.js`
-- **pricesRouter** (2 connections) — `backend/src/routes/prices.js`
-- **webhooksRouter** (2 connections) — `backend/src/routes/webhooks.js`
-- *... and 11 more nodes in this community*
+- **Login.jsx** (62 connections) — `src/pages/Login.jsx`
+- **loginCode.js** (8 connections) — `src/data/loginCode.js`
+- **validators.js** (7 connections) — `src/data/validators.js`
+- **firebase.js** (6 connections) — `src/data/firebase.js`
+- **isValidEmail()** (6 connections) — `src/data/validators.js`
+- **StaffDetails()** (6 connections) — `src/pages/Login.jsx`
+- **formatLoginCode()** (5 connections) — `src/data/loginCode.js`
+- **signOut()** (5 connections) — `src/data/session.js`
+- **isValidName()** (5 connections) — `src/data/validators.js`
+- **isValidPhone()** (5 connections) — `src/data/validators.js`
+- **BusinessDetails()** (5 connections) — `src/pages/Login.jsx`
+- **StaffLogin()** (5 connections) — `src/pages/Login.jsx`
+- **createEmailPasswordAccount()** (3 connections) — `src/data/firebase.js`
+- **signInWithEmailPassword()** (3 connections) — `src/data/firebase.js`
+- **signInWithGoogleFirebase()** (3 connections) — `src/data/firebase.js`
+- **isValidGstin()** (3 connections) — `src/data/validators.js`
+- **isValidPincode()** (3 connections) — `src/data/validators.js`
+- **StaffInvite()** (3 connections) — `src/pages/Login.jsx`
+- **generateLoginCode()** (2 connections) — `src/data/loginCode.js`
+- **GST_TREATMENT_OPTIONS** (2 connections) — `src/data/loginCode.js`
+- **isValidLoginCode()** (2 connections) — `src/data/loginCode.js`
+- **BusinessMatch()** (2 connections) — `src/pages/Login.jsx`
+- **signOutAndReload()** (2 connections) — `src/pages/Login.jsx`
+- **StaffConfirm()** (2 connections) — `src/pages/Login.jsx`
+- **auth** (1 connections) — `src/data/firebase.js`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [[Community 46]] (27 shared connections)
-- [[Community 93]] (14 shared connections)
-- [[Community 84]] (9 shared connections)
-- [[Community 104]] (9 shared connections)
-- [[Community 51]] (5 shared connections)
-- [[Product Pages Specification]] (2 shared connections)
+- [[Community 36]] (29 shared connections)
+- [[Community 48]] (11 shared connections)
+- [[Architecture Doc Generator]] (11 shared connections)
+- [[Community 43]] (2 shared connections)
+- [[Community 164]] (1 shared connections)
 
 ## Source Files
 
-- `backend/src/config/env.js`
-- `backend/src/jobs/catalogSync.js`
-- `backend/src/jobs/index.js`
-- `backend/src/middleware/errorHandler.js`
-- `backend/src/routes/content.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/routes/prices.js`
-- `backend/src/routes/webhooks.js`
-- `backend/src/server.js`
-- `backend/src/services/catalog.js`
-- `backend/src/utils/logger.js`
-- `backend/test/priceGate.test.mjs`
+- `src/data/firebase.js`
+- `src/data/loginCode.js`
+- `src/data/session.js`
+- `src/data/validators.js`
+- `src/pages/Login.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 202 (100%)
+- EXTRACTED: 168 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

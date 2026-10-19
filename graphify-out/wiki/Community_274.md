@@ -1,25 +1,29 @@
 # Community 274
 
-> 4 nodes · cohesion 0.50
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **via** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **repair-receipt.test.mjs** (7 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **receipt()** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **writeFixture()** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
 
 ## Relationships
 
-- [[Testing & Workflow Skill]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `.agents/skills/archify/test/repair-receipt.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

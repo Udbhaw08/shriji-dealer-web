@@ -1,11 +1,15 @@
 # Community 334
 
-> 2 nodes · cohesion 1.00
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **checkout-line-endings.test.mjs** (1 connections) — `.agents/skills/archify/test/checkout-line-endings.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/checkout-line-endings.test.mjs`
+- **Collections** (4 connections) — `.agents/skills/apple-design/references/hig/collections.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/collections.md`
+- **collections.md** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
 
 ## Relationships
 
@@ -13,11 +17,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/checkout-line-endings.test.mjs`
+- `.agents/skills/apple-design/references/hig/collections.md`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

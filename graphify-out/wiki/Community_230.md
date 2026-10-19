@@ -1,27 +1,32 @@
 # Community 230
 
-> 6 nodes · cohesion 0.33
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Design** (5 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **design.md** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **Creating a uniform design in this app** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **Ensuring designs work for everyone** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **Requirements for flexible, accessible design** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **Standard system styling** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
+- **renderPage()** (7 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderLookup()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **collapseBlankLines()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **coveredPlatformsLine()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **prettyPlatforms()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **groupBySection()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **lastChangeLine()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **omissionReason()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderBody()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 72]] (9 shared connections)
+- [[Community 347]] (2 shared connections)
+- [[Community 197]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/design.md`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

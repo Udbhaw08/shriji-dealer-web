@@ -1,30 +1,33 @@
 # Community 173
 
-> 9 nodes · cohesion 0.22
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **chapter-delta-preview.test.mjs** (8 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
-- **delta()** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
-- **PROOF_CASES** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **entries** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **legend** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **mode** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **properties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 56]] (1 shared connections)
+- [[Community 71]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,17 +1,19 @@
 # Community 184
 
-> 8 nodes · cohesion 0.25
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **guided-views.test.mjs** (7 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **fixture()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **svg()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **Layout** (7 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Adaptability** (2 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **layout.md** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Guides and safe areas** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Size classes** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Visual hierarchy** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
 
 ## Relationships
 
@@ -19,11 +21,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/guided-views.test.mjs`
+- `.agents/skills/apple-design/references/hig/layout.md`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

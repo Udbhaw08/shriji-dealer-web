@@ -1,11 +1,16 @@
 # Community 325
 
-> 2 nodes · cohesion 1.00
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **accessibility.md** (1 connections) — `.agents/skills/swiftui-pro/references/accessibility.md`
-- **Accessibility** (1 connections) — `.agents/skills/swiftui-pro/references/accessibility.md`
+- **semantic-zoom.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
+- **svg()** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
 
 ## Relationships
 
@@ -13,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/accessibility.md`
+- `.agents/skills/archify/test/semantic-zoom.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

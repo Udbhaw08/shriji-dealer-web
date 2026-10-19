@@ -1,14 +1,17 @@
 # Community 253
 
-> 5 nodes · cohesion 0.40
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Dual-Skill Redesign & Cross-Platform UI Protocol** (4 connections) — `.agents/rules/redesign_instructions.md`
-- **redesign_instructions.md** (1 connections) — `.agents/rules/redesign_instructions.md`
-- **Rule 1: Mandatory Dual-Skill Consultation** (1 connections) — `.agents/rules/redesign_instructions.md`
-- **Rule 2: Adaptive Multi-Device Responsiveness** (1 connections) — `.agents/rules/redesign_instructions.md`
-- **Rule 3: Merge for Better Results** (1 connections) — `.agents/rules/redesign_instructions.md`
+- **Onboarding** (7 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **onboarding.md** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Additional content** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Additional requests** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
 
 ## Relationships
 
@@ -16,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/rules/redesign_instructions.md`
+- `.agents/skills/apple-design/references/hig/onboarding.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,24 +1,28 @@
 # Community 309
 
-> 3 nodes · cohesion 0.67
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **y** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **Sequence Renderer** (5 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **Layout budget** (2 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **README.md** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **Column fit** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **Input** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **Legend** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
 
 ## Relationships
 
-- [[Community 76]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/sequence.schema.json`
+- `.agents/skills/archify/renderers/sequence/README.md`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

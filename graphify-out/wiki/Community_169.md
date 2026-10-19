@@ -1,18 +1,20 @@
 # Community 169
 
-> 9 nodes · cohesion 0.22
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **Shriji Pricing & Roles Skill** (5 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **User Roles & View Modes** (4 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **1. Guest View (Public)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **2. Dealer View (Authenticated)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **3. Customer Shared View (`?from=<dealer_id>`)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **Key Files** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **Schemes Logic** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **Zero-Price Handling** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **Design principles** (10 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **design-principles.md** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Agency** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Craft** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Delight** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Familiarity** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Flexibility** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Purpose** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Responsibility** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Simplicity** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
 
 ## Relationships
 
@@ -20,11 +22,11 @@
 
 ## Source Files
 
-- `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- `.agents/skills/apple-design/references/hig/design-principles.md`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,39 +1,41 @@
 # Community 94
 
-> 18 nodes · cohesion 0.11
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **PRD — Shriji Domestic Appliances Dealer Web** (11 connections) — `PRD.md`
-- **3. Scope** (3 connections) — `PRD.md`
-- **6. Data** (3 connections) — `PRD.md`
-- **7. Evidence ledger — what is verified vs. what is sample** (3 connections) — `PRD.md`
-- **PRD.md** (1 connections) — `PRD.md`
-- **10. Conventions worth knowing** (1 connections) — `PRD.md`
-- **1. What this is** (1 connections) — `PRD.md`
-- **2. Who uses it** (1 connections) — `PRD.md`
-- **4. Stack** (1 connections) — `PRD.md`
-- **5. The pricing model — the core business rule** (1 connections) — `PRD.md`
-- **8. Roadmap** (1 connections) — `PRD.md`
-- **9. Decision log** (1 connections) — `PRD.md`
-- **Built and working** (1 connections) — `PRD.md`
-- **⚠️ Known discrepancy** (1 connections) — `PRD.md`
-- **Not built yet (and deliberately so)** (1 connections) — `PRD.md`
-- **Product record shape** (1 connections) — `PRD.md`
-- **Sample / invented for the draft — must stay labelled as such** (1 connections) — `PRD.md`
-- **Verified (scraped from shrijidomestic.com, 2026-09-18)** (1 connections) — `PRD.md`
+- **properties** (9 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **sequence.schema.json** (7 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **participants** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **segments** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **cards** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **schema_version** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$id** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$schema** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **title** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 158]] (4 shared connections)
+- [[Community 405]] (1 shared connections)
 
 ## Source Files
 
-- `PRD.md`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
+- EXTRACTED: 41 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

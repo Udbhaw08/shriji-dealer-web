@@ -1,29 +1,31 @@
 # Community 196
 
-> 8 nodes · cohesion 0.29
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **stable-update-manifest.test.mjs** (7 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **annotatedTaggerTime()** (2 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **git()** (2 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **checker** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **runCheck()** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **writeJson()** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **entries** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **legend** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **mode** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **properties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 68]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,30 +1,33 @@
 # Community 174
 
-> 9 nodes · cohesion 0.22
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **cli-output-types.test.mjs** (10 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **architecture** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **base** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **head** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **root** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **workflow** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **workspace()** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **legendEntry** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **label** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **visible** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **maxLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minProperties** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- [[Community 70]] (2 shared connections)
+- [[Community 76]] (1 shared connections)
+- [[Community 175]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/cli-output-types.test.mjs`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

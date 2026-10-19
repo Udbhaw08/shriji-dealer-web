@@ -1,14 +1,17 @@
 # Community 255
 
-> 5 nodes · cohesion 0.50
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **export_pricebooks_for_crm.mjs** (4 connections) — `scripts/export_pricebooks_for_crm.mjs`
-- **getAccessToken()** (2 connections) — `scripts/export_pricebooks_for_crm.mjs`
-- **main()** (2 connections) — `scripts/export_pricebooks_for_crm.mjs`
-- **env** (1 connections) — `scripts/export_pricebooks_for_crm.mjs`
-- **getMergedEnv()** (1 connections) — `scripts/export_pricebooks_for_crm.mjs`
+- **Pickers** (5 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **pickers.md** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
 
 ## Relationships
 
@@ -16,11 +19,11 @@
 
 ## Source Files
 
-- `scripts/export_pricebooks_for_crm.mjs`
+- `.agents/skills/apple-design/references/hig/pickers.md`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,26 +1,29 @@
 # Community 250
 
-> 5 nodes · cohesion 0.40
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **7. Vertical Rhythm** (5 connections) — `.agents/skills/refero-design/references/typography.md`
-- **CSS Implementation** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Example** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Golden Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **The Simple Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Launching** (6 connections) — `.agents/skills/apple-design/references/hig/launching.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/launching.md`
+- **launching.md** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
+- **Launch screens** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
 
 ## Relationships
 
-- [[Community 164]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/apple-design/references/hig/launching.md`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

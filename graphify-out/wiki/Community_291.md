@@ -1,12 +1,16 @@
 # Community 291
 
-> 3 nodes · cohesion 1.00
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **MainActivity.java** (2 connections) — `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
-- **MainActivity** (2 connections) — `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
-- **BridgeActivity** (2 connections)
+- **Images** (6 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **images.md** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Formats** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Resolution** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
 
 ## Relationships
 
@@ -14,11 +18,11 @@
 
 ## Source Files
 
-- `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
+- `.agents/skills/apple-design/references/hig/images.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

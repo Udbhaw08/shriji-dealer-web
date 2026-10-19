@@ -1,10 +1,15 @@
 # Community 350
 
-> 1 nodes · cohesion 1.00
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **build_wiki.py** (0 connections) — `scripts/build_wiki.py`
+- **authoring-safety-contract.test.mjs** (5 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- **authoringContract** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- **schemaReadme** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- **skill** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
 
 ## Relationships
 
@@ -12,11 +17,11 @@
 
 ## Source Files
 
-- `scripts/build_wiki.py`
+- `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,10 +1,15 @@
 # Community 354
 
-> 1 nodes · cohesion 1.00
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **sequence** (0 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **repository-evidence-replacement.test.mjs** (5 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **checkEvidence()** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **fixture()** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
 
 ## Relationships
 
@@ -12,11 +17,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

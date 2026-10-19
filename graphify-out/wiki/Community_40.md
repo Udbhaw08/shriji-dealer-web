@@ -1,54 +1,49 @@
 # Community 40
 
-> 36 nodes · cohesion 0.10
+> 38 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **create()** (24 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **hu()** (18 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **pu()** (15 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **ou()** (14 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **iu()** (9 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **su()** (9 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **cu()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **directlySetCurrentUser()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **lu()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **bu()** (7 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **initializeCurrentUser()** (7 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **setPersistence()** (7 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **_setRedirectUser()** (7 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **_fromGetAccountInfoResponse()** (6 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **getCurrentUser()** (6 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **getOrInitRedirectPersistenceManager()** (6 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **pi()** (6 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **zl()** (6 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **removeCurrentUser()** (5 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **setCurrentUser()** (5 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **xs()** (5 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **xu()** (5 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **initializeCurrentUserFromIdToken()** (4 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **mu()** (4 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **reloadAndSetCurrentUserOrClear()** (4 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- *... and 11 more nodes in this community*
+- **update-notifier.test.mjs** (43 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **operationPath()** (5 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **stateDirectory()** (4 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **fixture()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **remoteReleaseForVersion()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **runCheckInChild()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **statePath()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **writeCompactCommittedState()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **assertUnsafeCacheStateIsIgnored()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **committedStateFiles()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **compactStateSource()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **localRelease()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **pauseOpenOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **pauseRenameMatchingOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **pauseRenameOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **pauseWriteOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **remoteRelease()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **writeJson()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **writePendingOperation()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **baseTime** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **cachedStateWithHistory()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **cachedUpdateState()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **cancel()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **candidateStateForDigest()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **checkerPath** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (45 shared connections)
-- [[Dependencies & Package Config]] (25 shared connections)
-- [[Product Requirements Documentation]] (14 shared connections)
-- [[Zoho Integration Skill]] (9 shared connections)
-- [[Graphify Agent Rules]] (9 shared connections)
-- [[Architecture Doc Generator]] (4 shared connections)
-- [[Live Pricing Audit Tool]] (3 shared connections)
-- [[Community 36]] (2 shared connections)
+- [[Community 97]] (3 shared connections)
+- [[Community 112]] (2 shared connections)
+- [[Community 42]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- `.agents/skills/archify/test/update-notifier.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 235 (100%)
+- EXTRACTED: 108 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

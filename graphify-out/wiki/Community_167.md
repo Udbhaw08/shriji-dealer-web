@@ -1,18 +1,20 @@
 # Community 167
 
-> 9 nodes · cohesion 0.22
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **Archify JSON IR Schemas** (7 connections) — `.agents/skills/archify/schemas/README.md`
-- **Files** (2 connections) — `.agents/skills/archify/schemas/README.md`
-- **README.md** (1 connections) — `.agents/skills/archify/schemas/README.md`
-- **Error format** (1 connections) — `.agents/skills/archify/schemas/README.md`
-- **Legend presentation contract** (1 connections) — `.agents/skills/archify/schemas/README.md`
-- **Runtime validation** (1 connections) — `.agents/skills/archify/schemas/README.md`
-- **schema_version policy** (1 connections) — `.agents/skills/archify/schemas/README.md`
-- **Shared definitions (common.schema.json)** (1 connections) — `.agents/skills/archify/schemas/README.md`
-- **Visual quality and engineering truth** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Apple In-App Purchase** (5 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Auto-renewable subscriptions** (4 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Best practices** (3 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **apple-in-app-purchase.md** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Helping people manage their subscriptions** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Making signup effortless** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Providing help** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Supporting Family Sharing** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Supporting offer codes** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
 
 ## Relationships
 
@@ -20,11 +22,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/README.md`
+- `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

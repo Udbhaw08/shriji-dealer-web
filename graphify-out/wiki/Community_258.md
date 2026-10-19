@@ -1,14 +1,17 @@
 # Community 258
 
-> 5 nodes · cohesion 0.40
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **base-input-compatibility.test.mjs** (4 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
-- **renderBaseFixture()** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
+- **Sliders** (5 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **sliders.md** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
 
 ## Relationships
 
@@ -16,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/base-input-compatibility.test.mjs`
+- `.agents/skills/apple-design/references/hig/sliders.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

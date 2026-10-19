@@ -1,31 +1,37 @@
 # Community 143
 
-> 10 nodes · cohesion 0.20
+> 13 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **ROLES-AND-SHARING.md — who sees which price** (9 connections) — `docs/ROLES-AND-SHARING.md`
-- **ROLES-AND-SHARING.md** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **1. The four viewers** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **2. The rule, in one function** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **3. ⚠️ What this is not** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **4. The share link** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **5. What the customer sees — `CustomerPrice` in `PriceBlock.jsx`** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **6. The login flow** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **7. Also gated** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **8. Checks** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **focus-browser.test.mjs** (17 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **run()** (8 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **stable()** (6 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **click()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **key()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **select()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **focus()** (2 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **variant()** (1 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 62]] (5 shared connections)
+- [[Community 63]] (3 shared connections)
+- [[Community 50]] (1 shared connections)
+- [[Community 126]] (1 shared connections)
 
 ## Source Files
 
-- `docs/ROLES-AND-SHARING.md`
+- `.agents/skills/archify/test/focus-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 58 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

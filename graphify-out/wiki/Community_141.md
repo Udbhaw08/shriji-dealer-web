@@ -1,20 +1,22 @@
 # Community 141
 
-> 11 nodes · cohesion 0.20
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **readme-showcase.test.mjs** (10 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **inspectGif()** (2 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **skipSubBlocks()** (2 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **assetPath** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **git()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **receiptPath** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **writeStarHistoryCharts()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **Product** (12 connections) — `PRODUCT.md`
+- **PRODUCT.md** (1 connections) — `PRODUCT.md`
+- **Accessibility & Inclusion** (1 connections) — `PRODUCT.md`
+- **Brand Commitments** (1 connections) — `PRODUCT.md`
+- **Capabilities and Constraints** (1 connections) — `PRODUCT.md`
+- **Evidence on Hand** (1 connections) — `PRODUCT.md`
+- **Operating Context** (1 connections) — `PRODUCT.md`
+- **Platform** (1 connections) — `PRODUCT.md`
+- **Positioning** (1 connections) — `PRODUCT.md`
+- **Product Principles** (1 connections) — `PRODUCT.md`
+- **Product Purpose** (1 connections) — `PRODUCT.md`
+- **Stack** (1 connections) — `PRODUCT.md`
+- **Users** (1 connections) — `PRODUCT.md`
 
 ## Relationships
 
@@ -22,11 +24,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/readme-showcase.test.mjs`
+- `PRODUCT.md`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 24 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

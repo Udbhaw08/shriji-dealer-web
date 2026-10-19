@@ -1,33 +1,33 @@
 # Community 154
 
-> 10 nodes · cohesion 0.20
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **output-path.test.mjs** (16 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **baseFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **copyInstalledSkill()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **directoryAliasesNames()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **headFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **workflowFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **Playing haptics** (6 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Phone (iOS)** (4 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **playing-haptics.md** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Custom haptics** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Impact** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Notification** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Selection** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
 
 ## Relationships
 
-- [[Zoho Integration Architecture]] (3 shared connections)
-- [[Community 70]] (2 shared connections)
-- [[Community 96]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/output-path.test.mjs`
+- `.agents/skills/apple-design/references/hig/playing-haptics.md`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

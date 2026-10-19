@@ -1,18 +1,20 @@
 # Community 168
 
-> 9 nodes · cohesion 0.22
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **generate-validators.mjs** (8 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **ajv** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **diagramTypes** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **output** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **root** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **schemaIds** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **schemasDir** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **validatorCode** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **Dark Mode** (6 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Dark Mode colors** (3 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **dark-mode.md** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Icons and images** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Text** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
 
 ## Relationships
 
@@ -20,11 +22,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/generate-validators.mjs`
+- `.agents/skills/apple-design/references/hig/dark-mode.md`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

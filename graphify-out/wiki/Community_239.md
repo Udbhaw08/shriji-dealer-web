@@ -1,27 +1,33 @@
 # Community 239
 
-> 6 nodes · cohesion 0.33
+> 9 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **render-output-checks.test.mjs** (5 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
-- **checker** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
-- **checkHtml()** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **repository-evidence.test.mjs** (13 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **fixture()** (2 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **git()** (2 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **evidencePayload()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **waitForState()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 61]] (2 shared connections)
+- [[Community 50]] (1 shared connections)
+- [[Community 146]] (1 shared connections)
+- [[Community 126]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/render-output-checks.test.mjs`
+- `.agents/skills/archify/test/repository-evidence.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 23 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

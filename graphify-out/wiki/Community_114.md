@@ -1,41 +1,37 @@
 # Community 114
 
-> 14 nodes · cohesion 0.29
+> 16 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **Products.jsx** (25 connections) — `src/pages/Products.jsx`
-- **ProductSearchBar.jsx** (15 connections) — `src/components/ProductSearchBar.jsx`
-- **useProducts()** (12 connections) — `src/data/productsStore.js`
-- **searchHelper.js** (11 connections) — `src/data/searchHelper.js`
-- **ProductSearchBar()** (6 connections) — `src/components/ProductSearchBar.jsx`
-- **getSuggestions()** (5 connections) — `src/data/searchHelper.js`
-- **autocorrectQuery()** (4 connections) — `src/data/searchHelper.js`
-- **buildSearchDictionary()** (4 connections) — `src/data/searchHelper.js`
-- **getPopularSearches()** (2 connections) — `src/data/searchHelper.js`
-- **scoreProduct()** (2 connections) — `src/data/searchHelper.js`
-- **COLLOQUIAL_SYNONYMS** (1 connections) — `src/data/searchHelper.js`
-- **levenshteinDistance()** (1 connections) — `src/data/searchHelper.js`
-- **Group()** (1 connections) — `src/pages/Products.jsx`
-- **SORT_FNS** (1 connections) — `src/pages/Products.jsx`
+- **Color** (10 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Specifications** (3 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **color.md** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **App accent colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Color management** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Inclusive color** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **iOS, iPadOS system gray colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Liquid Glass color** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **System colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **System colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
 
 ## Relationships
 
-- [[Design System & UI Tokens]] (26 shared connections)
-- [[Community 62]] (6 shared connections)
-- [[Community 49]] (5 shared connections)
-- [[Community 135]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/components/ProductSearchBar.jsx`
-- `src/data/productsStore.js`
-- `src/data/searchHelper.js`
-- `src/pages/Products.jsx`
+- `.agents/skills/apple-design/references/hig/color.md`
 
 ## Audit Trail
 
-- EXTRACTED: 90 (100%)
+- EXTRACTED: 30 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

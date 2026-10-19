@@ -1,53 +1,71 @@
 # Project Readme & Layout
 
-> 43 nodes · cohesion 0.05
+> 49 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **properties** (28 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **label** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **labelSegment** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **brand** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **channelX** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **channelY** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **classification** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **from** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **fromSide** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **id** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **labelAt** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **labelDx** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **labelDy** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **route** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **sublabel** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **tag** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **to** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **toSide** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **variant** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **yOffset** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- *... and 18 more nodes in this community*
+- **sql** (56 connections) — `backend/src/db/pool.js`
+- **dealers.js** (36 connections) — `backend/src/routes/dealers.js`
+- **pool.js** (26 connections) — `backend/src/db/pool.js`
+- **dealerApp.js** (24 connections) — `backend/src/services/dealerApp.js`
+- **staff.js** (23 connections) — `backend/src/services/staff.js`
+- **audit()** (17 connections) — `backend/src/utils/audit.js`
+- **webhooks.js** (14 connections) — `backend/src/routes/webhooks.js`
+- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
+- **applyCrmAccountState()** (12 connections) — `backend/src/services/dealerApp.js`
+- **auth.js** (8 connections) — `backend/src/middleware/auth.js`
+- **generateUniqueDealerCode()** (8 connections) — `backend/src/utils/loginCode.js`
+- **audit.js** (7 connections) — `backend/src/utils/audit.js`
+- **applyDealer()** (6 connections) — `backend/src/services/dealerApp.js`
+- **createInvite()** (6 connections) — `backend/src/services/staff.js`
+- **sha256()** (6 connections) — `backend/src/utils/hash.js`
+- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
+- **jwtAuth()** (5 connections) — `backend/src/middleware/auth.js`
+- **applyCrmContactState()** (5 connections) — `backend/src/services/dealerApp.js`
+- **seed-content.js** (4 connections) — `backend/scripts/seed-content.js`
+- **deactivateDealer()** (4 connections) — `backend/src/services/dealerApp.js`
+- **approveStaff()** (4 connections) — `backend/src/services/staff.js`
+- **deleteStaff()** (4 connections) — `backend/src/services/staff.js`
+- **holdStaff()** (4 connections) — `backend/src/services/staff.js`
+- **resumeStaff()** (4 connections) — `backend/src/services/staff.js`
+- **revokeStaff()** (4 connections) — `backend/src/services/staff.js`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [[Community 147]] (3 shared connections)
-- [[Community 301]] (1 shared connections)
-- [[Community 302]] (1 shared connections)
-- [[Community 303]] (1 shared connections)
-- [[Community 272]] (1 shared connections)
-- [[Community 273]] (1 shared connections)
+- [[Community 74]] (25 shared connections)
+- [[Community 53]] (19 shared connections)
+- [[Community 77]] (14 shared connections)
+- [[Community 109]] (14 shared connections)
+- [[Community 88]] (12 shared connections)
+- [[Community 142]] (8 shared connections)
+- [[Design System & UI Tokens]] (5 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `backend/scripts/check-readiness.js`
+- `backend/scripts/inspect-db.js`
+- `backend/scripts/migrate-content.js`
+- `backend/scripts/seed-content.js`
+- `backend/scripts/setup-buckets.js`
+- `backend/scripts/setup-policies.js`
+- `backend/scripts/test-storage.js`
+- `backend/src/db/pool.js`
+- `backend/src/jobs/crmPoll.js`
+- `backend/src/middleware/auth.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/routes/webhooks.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/services/staff.js`
+- `backend/src/utils/audit.js`
+- `backend/src/utils/hash.js`
+- `backend/src/utils/loginCode.js`
+- `backend/test/crmSync.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 92 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 355 (99%)
+- INFERRED: 4 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

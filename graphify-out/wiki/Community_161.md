@@ -1,36 +1,37 @@
 # Community 161
 
-> 9 nodes · cohesion 0.33
+> 12 nodes · cohesion 0.41
 
 ## Key Concepts
 
-- **cs()** (9 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **os()** (9 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **ki()** (8 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **ls()** (8 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **fs()** (7 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **us()** (7 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **ss()** (5 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **ds()** (3 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **getComponent()** (2 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **repository-evidence.mjs** (15 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **verifyRepositoryEvidence()** (14 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **evidenceFailure()** (6 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **repository-location.mjs** (5 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **parseRepositoryRemote()** (5 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **gitValue()** (4 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **runGit()** (4 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **verifiedSourcePath()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **redactRepositoryRemote()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **repositorySourceHref()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **hasRepositoryEvidence()** (2 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **sourceLineCount()** (2 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (11 shared connections)
-- [[Price Presentation & Product UI]] (9 shared connections)
-- [[Master Codebase Architecture Reference]] (7 shared connections)
-- [[Community 38]] (3 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (2 shared connections)
-- [[Graphify Workflow]] (1 shared connections)
-- [[Zoho API Diagnostic Script]] (1 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (6 shared connections)
+- [[Community 136]] (3 shared connections)
+- [[Community 58]] (2 shared connections)
+- [[Community 113]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CWBKLC4l.js`
+- `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- `.agents/skills/archify/renderers/shared/repository-location.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (100%)
+- EXTRACTED: 66 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,56 +1,47 @@
 # Graphify Workflow
 
-> 40 nodes · cohesion 0.07
+> 43 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **em()** (11 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **hf()** (11 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **pm()** (11 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **cm()** (10 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **nm()** (10 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **pp()** (10 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **fm()** (9 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **fp()** (9 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **ut()** (9 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **dp()** (8 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **mp()** (8 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **qo()** (8 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **lt()** (7 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **execute()** (6 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **lf()** (6 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **lp()** (6 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **buildRequest()** (5 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **_forOperation()** (5 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **_fromIdTokenResponse()** (5 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **_buildIdpRequest()** (4 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **dm()** (4 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **_getIdTokenResponse()** (4 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **_getReauthenticationResolver()** (4 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **_linkToIdToken()** (4 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **om()** (4 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- *... and 15 more nodes in this community*
+- **Craft Details Guide** (11 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **2. Forms** (10 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **6. Accessibility Quick Wins** (6 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **4. Touch & Mobile** (5 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **5. Performance Patterns** (5 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **1. Focus States** (4 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **3. Images** (4 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **7. Navigation & State** (4 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **craft-details.md** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **8. Content Copy Rules** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **9. Anti-Patterns Checklist** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Always Set Dimensions** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Async Updates Need Announcements** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Autocomplete Matters** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **AutoFocus Rules** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Avoid Layout Reads in Render** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Compound Controls: `:focus-within`** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Destructive Actions Need Confirmation** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Disable Spellcheck Where Appropriate** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Error Handling** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Heading Hierarchy** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **In React/Next.js** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Input Types and Attributes** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Keyboard Handlers** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Labels and Hit Targets** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (56 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (11 shared connections)
-- [[Master Codebase Architecture Reference]] (11 shared connections)
-- [[Zoho API Diagnostic Script]] (10 shared connections)
-- [[Community 38]] (8 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (7 shared connections)
-- [[Community 53]] (4 shared connections)
-- [[Product Brand & Business Vision]] (4 shared connections)
-- [[Community 86]] (1 shared connections)
-- [[Community 161]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CWBKLC4l.js`
+- `.agents/skills/refero-design/references/craft-details.md`
 
 ## Audit Trail
 
-- EXTRACTED: 225 (100%)
+- EXTRACTED: 84 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

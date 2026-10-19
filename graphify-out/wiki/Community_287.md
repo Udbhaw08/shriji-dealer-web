@@ -1,13 +1,16 @@
 # Community 287
 
-> 4 nodes · cohesion 0.50
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **generate-viewer.test.mjs** (3 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
-- **fixture()** (1 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
-- **fragments** (1 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
+- **MockStorage** (6 connections) — `src/data/auth-session.test.mjs`
+- **auth-session.test.mjs** (1 connections) — `src/data/auth-session.test.mjs`
+- **.clear()** (1 connections) — `src/data/auth-session.test.mjs`
+- **.constructor()** (1 connections) — `src/data/auth-session.test.mjs`
+- **.getItem()** (1 connections) — `src/data/auth-session.test.mjs`
+- **.removeItem()** (1 connections) — `src/data/auth-session.test.mjs`
+- **.setItem()** (1 connections) — `src/data/auth-session.test.mjs`
 
 ## Relationships
 
@@ -15,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/generate-viewer.test.mjs`
+- `src/data/auth-session.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

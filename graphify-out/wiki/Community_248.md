@@ -1,26 +1,29 @@
 # Community 248
 
-> 5 nodes · cohesion 0.40
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **12. Performance Typography** (5 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Performance Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Requirements** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Rules** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **System Font Stack** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Image views** (6 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **image-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
 
 ## Relationships
 
-- [[Community 164]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/apple-design/references/hig/image-views.md`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

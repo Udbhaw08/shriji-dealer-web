@@ -1,56 +1,55 @@
 # Zoho API Diagnostic Script
 
-> 42 nodes · cohesion 0.07
+> 47 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **addEventListener()** (19 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **tp()** (18 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **kd()** (15 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **ce()** (13 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **jr()** (12 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **p()** (12 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **gp()** (11 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **ip()** (10 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **addListener()** (8 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **pt()** (8 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **so()** (8 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **kt()** (7 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **bf()** (6 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **jf()** (6 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **xf()** (6 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **xp()** (6 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **yp()** (6 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **sp()** (5 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **toPromise()** (5 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **wf()** (5 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **zf()** (5 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **bp()** (4 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **ep()** (4 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **ff()** (4 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- **up()** (4 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
-- *... and 17 more nodes in this community*
+- **D()** (23 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **mt()** (18 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **h()** (17 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **O()** (17 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **St()** (14 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **re()** (13 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **vt()** (12 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **bt()** (11 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **ie()** (10 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **yh()** (10 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **Oe()** (9 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **pt()** (9 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **Bn()** (8 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **gt()** (8 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **te()** (8 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **ft()** (7 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **gf()** (7 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **Sh()** (7 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **Le()** (6 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **be()** (5 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **bh()** (5 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **ce()** (5 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **Ih()** (5 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **k()** (5 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **lt()** (5 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (49 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (21 shared connections)
-- [[Master Codebase Architecture Reference]] (13 shared connections)
-- [[Product Brand & Business Vision]] (12 shared connections)
-- [[Graphify Workflow]] (10 shared connections)
-- [[Community 38]] (9 shared connections)
-- [[Community 53]] (6 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (5 shared connections)
-- [[Community 161]] (1 shared connections)
-- [[Community 86]] (1 shared connections)
+- [[Price Presentation & Product UI]] (47 shared connections)
+- [[Dependencies & Package Config]] (31 shared connections)
+- [[Roles & Customer Sharing Spec]] (20 shared connections)
+- [[Pricing Regression Test Suite]] (16 shared connections)
+- [[Product Requirements Documentation]] (14 shared connections)
+- [[Graphify Agent Rules]] (11 shared connections)
+- [[Community 85]] (7 shared connections)
+- [[Graphify Knowledge Graph Skill]] (5 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (3 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CWBKLC4l.js`
+- `ios/App/App/public/assets/index-NKRFalKI.js`
 
 ## Audit Trail
 
-- EXTRACTED: 251 (100%)
+- EXTRACTED: 322 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

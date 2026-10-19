@@ -1,55 +1,51 @@
 # Community 36
 
-> 38 nodes · cohesion 0.09
+> 39 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **getImmediate()** (16 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **resolve()** (16 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **xd()** (13 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **cd()** (11 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **initialize()** (10 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **isInitialized()** (9 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **addComponent()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **getProvider()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **_key()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **rh()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **sd()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **triggerHeartbeat()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **getOrInitializeService()** (7 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **gf()** (7 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **setComponent()** (7 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **normalizeInstanceIdentifier()** (6 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **onAuthEvent()** (6 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **addOrOverwriteComponent()** (5 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **dc()** (5 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **onExecution()** (5 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **_originValidation()** (5 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **_remove()** (5 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **getOptions()** (4 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **invokeOnInitCallbacks()** (4 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **isComponentSet()** (4 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- *... and 13 more nodes in this community*
+- **auth.js** (43 connections) — `src/data/auth.js`
+- **callBackend()** (27 connections) — `src/data/auth.js`
+- **json()** (27 connections) — `src/data/auth.js`
+- **DealerDashboard.jsx** (23 connections) — `src/pages/DealerDashboard.jsx`
+- **Identify()** (10 connections) — `src/pages/Login.jsx`
+- **applyAuthResponse()** (8 connections) — `src/data/auth.js`
+- **broadcastAuthChange()** (8 connections) — `src/data/auth.js`
+- **firebaseAuthLogin()** (8 connections) — `src/data/auth.js`
+- **requestOtp()** (8 connections) — `src/data/auth.js`
+- **login()** (7 connections) — `src/data/auth.js`
+- **googleLogin()** (6 connections) — `src/data/auth.js`
+- **logout()** (6 connections) — `src/data/auth.js`
+- **signup()** (6 connections) — `src/data/auth.js`
+- **verifyOtp()** (6 connections) — `src/data/auth.js`
+- **applyAsDealer()** (5 connections) — `src/data/auth.js`
+- **fetchMe()** (5 connections) — `src/data/auth.js`
+- **lookupStaffCode()** (5 connections) — `src/data/auth.js`
+- **staffSignup()** (5 connections) — `src/data/auth.js`
+- **staffTogglePrice()** (5 connections) — `src/data/auth.js`
+- **staffTogglePriceAll()** (5 connections) — `src/data/auth.js`
+- **verifyEmailOtp()** (5 connections) — `src/data/auth.js`
+- **persistTokens()** (4 connections) — `src/data/auth.js`
+- **requestEmailOtp()** (4 connections) — `src/data/auth.js`
+- **staffApprove()** (4 connections) — `src/data/auth.js`
+- **staffDeactivate()** (4 connections) — `src/data/auth.js`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (57 shared connections)
-- [[Architecture Doc Generator]] (15 shared connections)
-- [[Graphify Agent Rules]] (10 shared connections)
-- [[Dependencies & Package Config]] (8 shared connections)
-- [[Product Requirements Documentation]] (6 shared connections)
-- [[Live Pricing Audit Tool]] (5 shared connections)
-- [[Zoho Integration Skill]] (3 shared connections)
-- [[Community 57]] (3 shared connections)
-- [[Community 40]] (2 shared connections)
+- [[Community 41]] (29 shared connections)
+- [[Community 48]] (20 shared connections)
+- [[Architecture Doc Generator]] (5 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- `src/data/auth.js`
+- `src/pages/DealerDashboard.jsx`
+- `src/pages/Login.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 235 (100%)
+- EXTRACTED: 294 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

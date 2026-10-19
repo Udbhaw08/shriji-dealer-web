@@ -1,40 +1,43 @@
 # Community 91
 
-> 18 nodes · cohesion 0.11
+> 19 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **BACKEND-ARCHITECTURE.md — Dedicated Node Backend, Supabase Postgres & Zoho Ownership Model** (11 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **1. What is done in Zoho (setup checklist)** (4 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **6. Decision record — why this stack** (3 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **5. Storage — what the backend keeps** (2 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **BACKEND-ARCHITECTURE.md** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **0. The Ownership Rule — one sentence per system** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **1.1 CRM — dealers and staff** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **1.2 CRM — API access** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **1.3 Commerce** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **2. Backend responsibilities** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **3. Integration flows** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **4. Data movement** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **5.1 Schema (Supabase Postgres)** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **7. Service layout** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **8. Phased delivery** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **9. Migration checklist** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **Database: Supabase (chosen over Postgres-elsewhere and Firebase)** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **Runtime: dedicated Node.js 20 service (chosen over extending Vercel serverless)** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **cli.test.mjs** (11 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **generated-artifact-xml.test.mjs** (8 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
+- **xml.mjs** (5 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
+- **extractSvgs()** (4 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
+- **parseXml()** (3 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
+- **visit()** (3 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **copyInstalledSkill()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **makeFakeOpeners()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **artifactRoots** (1 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
+- **trackedHtmlArtifacts()** (1 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 84]] (1 shared connections)
 
 ## Source Files
 
-- `docs/BACKEND-ARCHITECTURE.md`
+- `.agents/skills/archify/test/cli.test.mjs`
+- `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
+- `.agents/skills/archify/test/helpers/xml.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 46 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

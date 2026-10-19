@@ -1,26 +1,29 @@
 # Community 247
 
-> 5 nodes · cohesion 0.40
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **10. Text Polish Details** (5 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Content Overflow** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Punctuation** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Tabular Numbers** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Text Wrapping for Headings** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Going full screen** (5 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **going-full-screen.md** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
 
 ## Relationships
 
-- [[Community 164]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/apple-design/references/hig/going-full-screen.md`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

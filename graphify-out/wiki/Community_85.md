@@ -1,46 +1,50 @@
 # Community 85
 
-> 19 nodes · cohesion 0.16
+> 20 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **finder-browser.test.mjs** (12 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **route-probe-browser.test.mjs** (12 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
-- **run()** (6 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **run()** (6 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
-- **viewer-click.mjs** (4 connections) — `.agents/skills/archify/test/helpers/viewer-click.mjs`
-- **createViewerClick()** (4 connections) — `.agents/skills/archify/test/helpers/viewer-click.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **search()** (3 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **opened()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **hash()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
-- **route()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
-- **installClickObserver()** (1 connections) — `.agents/skills/archify/test/helpers/viewer-click.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **n()** (31 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **t()** (21 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **os()** (13 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **ys()** (11 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **s()** (10 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **ms()** (9 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **ps()** (9 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **xs()** (9 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **vs()** (8 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **hs()** (7 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **ss()** (7 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **bs()** (5 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **fs()** (5 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **gs()** (5 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **wt()** (4 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **eo()** (3 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **gn()** (3 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **tt()** (3 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **js()** (2 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **us()** (2 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
 
 ## Relationships
 
-- [[Community 52]] (8 shared connections)
-- [[Community 48]] (2 shared connections)
-- [[Community 78]] (2 shared connections)
-- [[Community 113]] (2 shared connections)
+- [[Price Presentation & Product UI]] (28 shared connections)
+- [[Dependencies & Package Config]] (25 shared connections)
+- [[Product Requirements Documentation]] (13 shared connections)
+- [[Zoho API Diagnostic Script]] (7 shared connections)
+- [[Roles & Customer Sharing Spec]] (6 shared connections)
+- [[Pricing Regression Test Suite]] (5 shared connections)
+- [[Graphify Knowledge Graph Skill]] (4 shared connections)
+- [[Graphify Agent Rules]] (2 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/finder-browser.test.mjs`
-- `.agents/skills/archify/test/helpers/viewer-click.mjs`
-- `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- `ios/App/App/public/assets/index-NKRFalKI.js`
 
 ## Audit Trail
 
-- EXTRACTED: 69 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 167 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

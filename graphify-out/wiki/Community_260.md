@@ -1,13 +1,17 @@
 # Community 260
 
-> 4 nodes · cohesion 0.50
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Shriji Dealer Web — Agent Guidelines** (3 connections) — `AGENTS.md`
-- **AGENTS.md** (1 connections) — `AGENTS.md`
-- **Hard Rules** (1 connections) — `AGENTS.md`
-- **Specialized Skills Available** (1 connections) — `AGENTS.md`
+- **Tab views** (6 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **tab-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
 
 ## Relationships
 
@@ -15,11 +19,11 @@
 
 ## Source Files
 
-- `AGENTS.md`
+- `.agents/skills/apple-design/references/hig/tab-views.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

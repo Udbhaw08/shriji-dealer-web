@@ -1,12 +1,16 @@
 # Community 316
 
-> 3 nodes · cohesion 0.67
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **repository-language-metadata.test.mjs** (2 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
-- **linguistGenerated()** (1 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
+- **motion-governor.test.mjs** (6 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
+- **svgBlock()** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
 
 ## Relationships
 
@@ -14,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/repository-language-metadata.test.mjs`
+- `.agents/skills/archify/test/motion-governor.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

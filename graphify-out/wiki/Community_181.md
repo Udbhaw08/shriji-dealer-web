@@ -1,17 +1,19 @@
 # Community 181
 
-> 8 nodes · cohesion 0.25
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **Resizable windows and adaptive layouts** (7 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
-- **resizability.md** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
-- **Checking changes** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
-- **Choosing layouts** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
-- **Fold and camera geometry** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
-- **Presentations** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
-- **Safe areas** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
-- **Tab bars and toolbars** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
+- **Accessibility** (9 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **accessibility.md** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Cognitive** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Hearing** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Mobility** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Speech** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Vision** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
 
 ## Relationships
 
@@ -19,11 +21,11 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/resizability.md`
+- `.agents/skills/apple-design/references/hig/accessibility.md`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

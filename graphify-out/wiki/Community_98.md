@@ -1,39 +1,40 @@
 # Community 98
 
-> 17 nodes · cohesion 0.12
+> 19 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **pricing.test.mjs** (19 connections) — `src/data/pricing.test.mjs`
-- **crystal** (1 connections) — `src/data/pricing.test.mjs`
-- **crystalDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **crystalGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **genericDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **genericGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **genericItem** (1 connections) — `src/data/pricing.test.mjs`
-- **kettle** (1 connections) — `src/data/pricing.test.mjs`
-- **kettleDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **kettleGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **tcjDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **tcjGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **tripleCookJumbo** (1 connections) — `src/data/pricing.test.mjs`
-- **vernaGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **vernaPlus** (1 connections) — `src/data/pricing.test.mjs`
-- **zeroItem** (1 connections) — `src/data/pricing.test.mjs`
-- **zeroPricedResult** (1 connections) — `src/data/pricing.test.mjs`
+- **golden.mjs** (18 connections) — `.agents/skills/archify/test/golden.mjs`
+- **expectFailure()** (3 connections) — `.agents/skills/archify/test/golden.mjs`
+- **check()** (2 connections) — `.agents/skills/archify/test/golden.mjs`
+- **render()** (2 connections) — `.agents/skills/archify/test/golden.mjs`
+- **blocks()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **GOLDEN** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **landingPage** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **landingVersions** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **lock** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **normalizeNewlines()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **pkg** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **shieldsBadgeMessages()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **skillMd** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **webApp** (1 connections) — `.agents/skills/archify/test/golden.mjs`
 
 ## Relationships
 
-- [[Design System & UI Tokens]] (2 shared connections)
-- [[Community 62]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/data/pricing.test.mjs`
+- `.agents/skills/archify/test/golden.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,17 +1,19 @@
 # Community 185
 
-> 8 nodes · cohesion 0.25
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **landing.test.mjs** (7 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **docsRoot** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **landing** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **manifest** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **proofs** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
+- **Lists and tables** (7 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
+- **lists-and-tables.md** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
+- **Mobile (iOS, iPadOS, visionOS)** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
+- **Style** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
 
 ## Relationships
 
@@ -19,11 +21,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/landing.test.mjs`
+- `.agents/skills/apple-design/references/hig/lists-and-tables.md`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

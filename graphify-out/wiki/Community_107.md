@@ -1,37 +1,38 @@
 # Community 107
 
-> 16 nodes · cohesion 0.17
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **legend-contract.test.mjs** (15 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **legendKinds()** (3 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **run()** (3 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **attrValues()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **canonicalSvg()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **clone()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **render()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **validateFailure()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **withLegend()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **AUTO_KINDS** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **CATALOGS** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **FIXTURES** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **pricing.test.mjs** (19 connections) — `src/data/pricing.test.mjs`
+- **crystal** (1 connections) — `src/data/pricing.test.mjs`
+- **crystalDealer** (1 connections) — `src/data/pricing.test.mjs`
+- **crystalGuest** (1 connections) — `src/data/pricing.test.mjs`
+- **genericDealer** (1 connections) — `src/data/pricing.test.mjs`
+- **genericGuest** (1 connections) — `src/data/pricing.test.mjs`
+- **genericItem** (1 connections) — `src/data/pricing.test.mjs`
+- **kettle** (1 connections) — `src/data/pricing.test.mjs`
+- **kettleDealer** (1 connections) — `src/data/pricing.test.mjs`
+- **kettleGuest** (1 connections) — `src/data/pricing.test.mjs`
+- **tcjDealer** (1 connections) — `src/data/pricing.test.mjs`
+- **tcjGuest** (1 connections) — `src/data/pricing.test.mjs`
+- **tripleCookJumbo** (1 connections) — `src/data/pricing.test.mjs`
+- **vernaGuest** (1 connections) — `src/data/pricing.test.mjs`
+- **vernaPlus** (1 connections) — `src/data/pricing.test.mjs`
+- **zeroItem** (1 connections) — `src/data/pricing.test.mjs`
+- **zeroPricedResult** (1 connections) — `src/data/pricing.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 43]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/legend-contract.test.mjs`
+- `src/data/pricing.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
+- EXTRACTED: 35 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

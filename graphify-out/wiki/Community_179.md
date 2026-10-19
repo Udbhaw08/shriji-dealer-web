@@ -1,18 +1,20 @@
 # Community 179
 
-> 9 nodes · cohesion 0.22
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **vertical-edge.test.mjs** (8 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **bin** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **edgePath()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **REPRO** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **segments()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **release-package-gates.test.mjs** (10 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **canonicalZipTest()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **centralDirectoryModes()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **currentNodeMajor** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **spawnBuildZip()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **stagedFixture()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **workflowJob()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **workflowStep()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **writeArchive()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
 
 ## Relationships
 
@@ -20,11 +22,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/vertical-edge.test.mjs`
+- `.agents/skills/archify/test/release-package-gates.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

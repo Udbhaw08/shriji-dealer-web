@@ -1,25 +1,29 @@
 # Community 273
 
-> 4 nodes · cohesion 0.50
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **width** (4 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **relationship-lens.test.mjs** (7 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **escapeAttr()** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **svg()** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
 
 ## Relationships
 
-- [[Project Readme & Layout]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `.agents/skills/archify/test/relationship-lens.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

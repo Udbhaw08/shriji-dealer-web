@@ -1,24 +1,28 @@
 # Community 296
 
-> 3 nodes · cohesion 0.67
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **col** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **Managing notifications** (6 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **managing-notifications.md** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **Integrating with Focus** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **Sending marketing notifications** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
 
 ## Relationships
 
-- [[Oxlint Linter Configuration]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `.agents/skills/apple-design/references/hig/managing-notifications.md`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

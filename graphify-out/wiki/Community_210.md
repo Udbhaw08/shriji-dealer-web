@@ -1,16 +1,18 @@
 # Community 210
 
-> 7 nodes · cohesion 0.29
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **chapter-rail.test.mjs** (6 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
+- **Drag and drop** (6 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **drag-and-drop.md** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Accepting drops** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Providing feedback** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
 
 ## Relationships
 
@@ -18,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/chapter-rail.test.mjs`
+- `.agents/skills/apple-design/references/hig/drag-and-drop.md`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

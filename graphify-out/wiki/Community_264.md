@@ -1,25 +1,29 @@
 # Community 264
 
-> 4 nodes · cohesion 0.50
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **11. Responsive Typography** (4 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Breakpoint Adjustments** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Fluid Type (Clamp)** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **What Changes** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Resizable windows and adaptive layouts** (7 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
+- **resizability.md** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
+- **Checking changes** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
+- **Choosing layouts** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
+- **Fold and camera geometry** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
+- **Presentations** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
+- **Safe areas** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
+- **Tab bars and toolbars** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
 
 ## Relationships
 
-- [[Community 164]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/swiftui-pro/references/resizability.md`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,33 +1,33 @@
 # Community 155
 
-> 10 nodes · cohesion 0.22
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **site-language-continuity.test.mjs** (12 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **clickAndNavigate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **evaluate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **loadRuntime()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **navigate()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **navigationPath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **runtimePath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **startStaticServer()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **Privacy** (8 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Requesting permission** (3 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **privacy.md** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Location button** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Pre-alert screens, windows, or views** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Protecting data** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Tracking requests** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
 
 ## Relationships
 
-- [[Community 48]] (1 shared connections)
-- [[Community 78]] (1 shared connections)
-- [[Community 113]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- `.agents/skills/apple-design/references/hig/privacy.md`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

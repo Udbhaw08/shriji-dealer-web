@@ -1,56 +1,58 @@
 # Zoho Integration Skill
 
-> 43 nodes · cohesion 0.12
+> 50 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **sl()** (24 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **ul()** (20 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **gl()** (19 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **lr()** (16 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **af()** (15 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **ql()** (15 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **hc()** (14 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **of()** (14 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **fl()** (13 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **ll()** (13 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **al()** (12 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **br()** (12 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **zi()** (11 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **hp()** (10 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **ji()** (10 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **pr()** (10 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **vc()** (10 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **bl()** (9 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **gr()** (9 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **xc()** (9 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **bc()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **getHeartbeatsHeader()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **kl()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **ol()** (7 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- **dl()** (6 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
-- *... and 18 more nodes in this community*
+- **workflow-migration.test.mjs** (22 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **workflow-v2.mjs** (21 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **migrateWorkflowDocument()** (15 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **workflow-compiler-hard-contract.test.mjs** (14 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **compileWorkflow()** (13 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **workflow-migration-geometry.mjs** (10 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **createMappedWorkflowCandidate()** (9 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **intrinsicWorkflow()** (8 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **planningWorkflow()** (7 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **clone()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **legacyLayoutProbe()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **legacyRequirementProbe()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **workflow()** (4 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **createHorizontalRankMapper()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **expandableViewBox()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **requiredViewBoxFrom()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **schemaDiagnostics()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **oneLaneAnchors()** (3 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **oneLaneWorkflow()** (3 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **workflow-semantic-contract.test.mjs** (3 connections) — `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
+- **clone()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **mapExplicitCoordinates()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **diagnostic()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **result()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **serializeMigratedWorkflow()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (60 shared connections)
-- [[Dependencies & Package Config]] (31 shared connections)
-- [[Product Requirements Documentation]] (24 shared connections)
-- [[Architecture Doc Generator]] (18 shared connections)
-- [[Graphify Agent Rules]] (10 shared connections)
-- [[Community 40]] (9 shared connections)
-- [[Community 57]] (6 shared connections)
-- [[Live Pricing Audit Tool]] (3 shared connections)
-- [[Community 36]] (3 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (13 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (4 shared connections)
+- [[Community 47]] (3 shared connections)
+- [[Community 60]] (2 shared connections)
+- [[Community 62]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- `.agents/skills/archify/migrations/workflow-v2.mjs`
+- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- `.agents/skills/archify/test/workflow-migration.test.mjs`
+- `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 386 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 194 (98%)
+- INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,42 +1,44 @@
 # Community 82
 
-> 20 nodes · cohesion 0.10
+> 20 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **Example Workflow: SaaS Pricing Page** (7 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 1: Styles Research** (4 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 5: Implementation Blueprint** (4 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 2: Screen Research** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 3: Flow Research** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 4: Synthesis** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **example-workflow.md** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Design Decision Ledger** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Flow Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Flow Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Page Structure** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 0: Discovery** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Quality Gate** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Research Summary** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Screen Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Screen Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Style Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Style Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Tokens** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Visual Direction Synthesis** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **buildDeltaSvg()** (16 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **annotateArchitectureSideSvg()** (9 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryElements()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **edgeSymbolMarkup()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **markerFor()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **addNodeMarker()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryChangeMap()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryMarkupByKey()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryMarkupParts()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundarySymbolMarkup()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **changeMap()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **elementById()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **forceElementState()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **nodeGroupRanges()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **prefixSvgIds()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **staticize()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **transformBoundaryElements()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **transformNodeGroups()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **forceBoundaryState()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **viewBoxSize()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 58]] (20 shared connections)
+- [[Community 286]] (2 shared connections)
+- [[Product Brand & Business Vision]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/example-workflow.md`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 78 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

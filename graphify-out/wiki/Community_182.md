@@ -1,29 +1,31 @@
 # Community 182
 
-> 8 nodes · cohesion 0.25
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **wraps** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **via** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **AirPlay** (6 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Using AirPlay icons** (4 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **airplay.md** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Black AirPlay icon** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Custom color AirPlay icon** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Referring to AirPlay** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **White AirPlay icon** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
 
 ## Relationships
 
-- [[Oxlint Linter Configuration]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `.agents/skills/apple-design/references/hig/airplay.md`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

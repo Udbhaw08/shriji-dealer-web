@@ -1,28 +1,30 @@
 # Community 205
 
-> 7 nodes · cohesion 0.29
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **dataflow.schema.json** (7 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$id** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$schema** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **title** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **web-CIvIqO5g.js** (8 connections) — `android/app/src/main/assets/public/assets/web-CIvIqO5g.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-CIvIqO5g.js`
+- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-CIvIqO5g.js`
+- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-CIvIqO5g.js`
+- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-CIvIqO5g.js`
+- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-CIvIqO5g.js`
+- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-CIvIqO5g.js`
+- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-CIvIqO5g.js`
+- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-CIvIqO5g.js`
 
 ## Relationships
 
-- [[Community 105]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `android/app/src/main/assets/public/assets/web-CIvIqO5g.js`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

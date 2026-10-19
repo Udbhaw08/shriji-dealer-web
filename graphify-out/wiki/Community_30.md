@@ -1,47 +1,55 @@
 # Community 30
 
-> 40 nodes · cohesion 0.09
+> 42 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **webm-artifact.smoke.mjs** (39 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **navigateReady()** (12 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **evaluate()** (11 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **delay()** (7 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **withTimeout()** (7 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **verifyArchitectureDeltaNavigator()** (5 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **captureCopiedShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **captureReachShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **captureRouteShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **captureRouteVisualMatrix()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **captureShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **verifyDynamicReducedMotionRoute()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **verifyResolvedLegendContract()** (3 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **verifySemanticPassportDismissal()** (3 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **devtoolsEndpoint()** (2 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **removeTempTree()** (2 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **waitForExit()** (2 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **chrome** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **chromeProcess** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **connectCdp()** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **executable()** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **ffmpeg** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **freePort()** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **input** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- *... and 15 more nodes in this community*
+- **delete()** (29 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **addEventListener()** (21 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **.removeEventListener()** (16 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **tm()** (11 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **_onStorageEvent()** (9 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **addListener()** (8 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **em()** (8 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **uh()** (8 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **.addEventListener()** (7 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **gf()** (7 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **ho()** (7 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **vo()** (7 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **al()** (6 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **dh()** (6 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **go()** (6 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **oc()** (6 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **removeListener()** (6 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **vf()** (6 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **Fi()** (5 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **ol()** (5 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **Rp()** (5 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **Bp()** (4 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **detachListener()** (4 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **removeWindowListener()** (4 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **stopPolling()** (4 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (54 shared connections)
+- [[Master Codebase Architecture Reference]] (17 shared connections)
+- [[Zoho Integration Architecture]] (10 shared connections)
+- [[Client Products Data Store]] (10 shared connections)
+- [[Pricing & Roles Skill]] (10 shared connections)
+- [[Live Pricing Audit Tool]] (9 shared connections)
+- [[Community 49]] (9 shared connections)
+- [[Product Pages Specification]] (9 shared connections)
+- [[Community 69]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
 
 ## Audit Trail
 
-- EXTRACTED: 140 (100%)
+- EXTRACTED: 247 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

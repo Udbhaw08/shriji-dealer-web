@@ -1,13 +1,17 @@
 # Community 284
 
-> 4 nodes · cohesion 0.50
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **community-proof-intake.test.mjs** (3 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
-- **read()** (1 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
+- **story-moment-link.test.mjs** (7 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
 
 ## Relationships
 
@@ -15,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/community-proof-intake.test.mjs`
+- `.agents/skills/archify/test/story-moment-link.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,14 +1,17 @@
 # Community 259
 
-> 5 nodes · cohesion 0.40
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **integration.test.mjs** (4 connections) — `backend/test/integration.test.mjs`
-- **api()** (1 connections) — `backend/test/integration.test.mjs`
-- **COMMERCE_FIXTURE** (1 connections) — `backend/test/integration.test.mjs`
-- **crmMock** (1 connections) — `backend/test/integration.test.mjs`
-- **uniq()** (1 connections) — `backend/test/integration.test.mjs`
+- **Tab bars** (5 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
+- **tab-bars.md** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
+- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
 
 ## Relationships
 
@@ -16,11 +19,11 @@
 
 ## Source Files
 
-- `backend/test/integration.test.mjs`
+- `.agents/skills/apple-design/references/hig/tab-bars.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,24 +1,28 @@
 # Community 311
 
-> 3 nodes · cohesion 0.67
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **labelSegment** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **chapter-handoff.test.mjs** (6 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
 
 ## Relationships
 
-- [[Community 35]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `.agents/skills/archify/test/chapter-handoff.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

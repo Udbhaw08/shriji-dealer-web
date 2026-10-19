@@ -1,12 +1,16 @@
 # Community 292
 
-> 3 nodes · cohesion 0.67
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Brand marks** (2 connections) — `.agents/skills/archify/references/brand-marks.md`
-- **brand-marks.md** (1 connections) — `.agents/skills/archify/references/brand-marks.md`
-- **Agent decision path** (1 connections) — `.agents/skills/archify/references/brand-marks.md`
+- **Labels** (5 connections) — `.agents/skills/apple-design/references/hig/labels.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/labels.md`
+- **labels.md** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
 
 ## Relationships
 
@@ -14,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/references/brand-marks.md`
+- `.agents/skills/apple-design/references/hig/labels.md`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

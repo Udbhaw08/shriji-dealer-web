@@ -1,16 +1,18 @@
 # Community 215
 
-> 7 nodes · cohesion 0.29
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **presentation.test.mjs** (6 connections) — `.agents/skills/archify/test/presentation.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
-- **svg()** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
+- **Playing video** (6 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Integrating with the TV app** (3 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **playing-video.md** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Exiting playback** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Loading content** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
 
 ## Relationships
 
@@ -18,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/presentation.test.mjs`
+- `.agents/skills/apple-design/references/hig/playing-video.md`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

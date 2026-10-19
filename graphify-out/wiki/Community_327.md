@@ -1,11 +1,16 @@
 # Community 327
 
-> 2 nodes · cohesion 1.00
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **localization.md** (1 connections) — `.agents/skills/swiftui-pro/references/localization.md`
-- **Localization** (1 connections) — `.agents/skills/swiftui-pro/references/localization.md`
+- **story-horizon.test.mjs** (6 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
 
 ## Relationships
 
@@ -13,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/localization.md`
+- `.agents/skills/archify/test/story-horizon.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

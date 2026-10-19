@@ -1,25 +1,29 @@
 # Community 280
 
-> 4 nodes · cohesion 0.50
+> 8 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **toCol** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **maximum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **stable-update-manifest.test.mjs** (7 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **annotatedTaggerTime()** (2 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **git()** (2 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **checker** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **runCheck()** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **writeJson()** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
 
 ## Relationships
 
-- [[Community 35]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `.agents/skills/archify/test/stable-update-manifest.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

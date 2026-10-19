@@ -1,67 +1,56 @@
 # Zoho Integration Architecture
 
-> 59 nodes · cohesion 0.05
+> 70 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **cli.mjs** (43 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **diagnostics.mjs** (27 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **throwDiagnosticError()** (16 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **throwDiagnosticProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **writeDiagram()** (10 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **engineering-profiles.mjs** (10 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- **validator.mjs** (10 connections) — `.agents/skills/archify/renderers/shared/validator.mjs`
-- **validateSchema()** (10 connections) — `.agents/skills/archify/renderers/shared/validator.mjs`
-- **engineering-profile.test.mjs** (10 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
-- **render-workflow.mjs** (10 connections) — `.agents/skills/archify/renderers/workflow/render-workflow.mjs`
-- **loadDiagram()** (9 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **loadDiagramWithBrandMarks()** (8 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **settled-flow.test.mjs** (8 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **prepareDiagramBrandMarks()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **validateEngineeringProfile()** (6 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- **normalizedDiagnostic()** (4 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **deploymentOwnershipDiagnostics()** (4 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- **validateGuidedViews()** (3 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **validateRelationshipIds()** (3 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **fallbackDiagnostic()** (3 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **withDiagnosticRecordingSuppressed()** (3 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **renderCards()** (3 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **captureTimeoutMilliseconds()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **mapConcurrent()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **installRendererDiagnosticBoundary()** (2 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- *... and 34 more nodes in this community*
+- **get()** (48 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **np()** (22 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **E()** (19 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **ff()** (18 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **am()** (16 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **getImmediate()** (16 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **mm()** (16 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **bm()** (14 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **jm()** (14 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **Um()** (14 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **nf()** (13 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **ef()** (12 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **lm()** (12 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **Yd()** (12 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **lf()** (11 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **initialize()** (10 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **uf()** (10 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **isInitialized()** (9 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **of()** (9 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **yf()** (9 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **cf()** (8 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **fm()** (8 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **_key()** (8 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **nm()** (8 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **om()** (8 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- *... and 45 more nodes in this community*
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (17 shared connections)
-- [[Pricing Regression Test Suite]] (12 shared connections)
-- [[Pricing & Roles Skill]] (11 shared connections)
-- [[Community 61]] (8 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (7 shared connections)
-- [[Community 133]] (6 shared connections)
-- [[Client Products Data Store]] (5 shared connections)
-- [[Community 45]] (5 shared connections)
-- [[Community 96]] (4 shared connections)
-- [[Community 116]] (4 shared connections)
-- [[Community 154]] (3 shared connections)
-- [[Mobile Responsive UI Skill]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (97 shared connections)
+- [[Master Codebase Architecture Reference]] (37 shared connections)
+- [[Live Pricing Audit Tool]] (25 shared connections)
+- [[Client Products Data Store]] (23 shared connections)
+- [[Product Pages Specification]] (21 shared connections)
+- [[Pricing & Roles Skill]] (21 shared connections)
+- [[Community 49]] (12 shared connections)
+- [[Community 30]] (10 shared connections)
+- [[Community 69]] (9 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/cli.mjs`
-- `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
-- `.agents/skills/archify/renderers/shared/validator.mjs`
-- `.agents/skills/archify/renderers/workflow/render-workflow.mjs`
-- `.agents/skills/archify/test/engineering-profile.test.mjs`
-- `.agents/skills/archify/test/settled-flow.test.mjs`
+- `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
 
 ## Audit Trail
 
-- EXTRACTED: 267 (100%)
-- INFERRED: 1 (0%)
+- EXTRACTED: 547 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

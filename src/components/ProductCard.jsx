@@ -57,6 +57,10 @@ export default function ProductCard({ p }) {
               <Icon name={p.cat === "chimneys" ? "chimney" : p.cat === "small_appliances" ? "blender" : "stove"} size={28} />
             </span>
           )}
+          {/* Category Chip in lower-left of image area */}
+          <span className="prod-cat-badge">
+            {p.brand?.toUpperCase() || (p.cat === "small_appliances" ? "KUCHENBAU" : (p.catLabel || "APPLIANCE").toUpperCase())}
+          </span>
         </span>
 
         <span className="prod-foot">
@@ -80,9 +84,15 @@ export default function ProductCard({ p }) {
                 {isPriceOnRequest || mrp <= 0 ? t("price_on_request") : inr(mrp)}
               </b>
             </span>
-            {mrp > 0 && !isPriceOnRequest && (
-              <small className="prod-tax-sub">{t("price_incl_taxes") || "Incl. of all taxes"}</small>
-            )}
+
+            {/* Dealer Wholesale Action Button Pill matching Stitch Frame 1 */}
+            <span className="prod-dealer-action" aria-label="View Dealer Price">
+              <span className="prod-dealer-action-left">
+                <Icon name="lock" size={13} />
+                <span>{t("price_dealer_view") || "Dealer Price"}</span>
+              </span>
+              <Icon name="chev" size={12} />
+            </span>
           </span>
         </span>
       </Link>
