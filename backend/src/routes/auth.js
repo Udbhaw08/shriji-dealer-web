@@ -504,17 +504,28 @@ authRouter.post('/otp/request', rateLimit({ windowMs: 10 * 60_000, max: 8 }), as
       throw httpError(400, 'Please enter a valid 10-digit mobile number');
     }
     const code = generateOtp();
-    await sql`
+    const [otpRecord] = await sql`
       insert into otp_codes (user_id, identifier, code_hash, expires_at)
       values (${user?.id || null}, ${dest}, ${sha256(code)},
-              ${new Date(Date.now() + OTP_TTL_MINUTES * 60_000)})`;
+              ${new Date(Date.now() + OTP_TTL_MINUTES * 60_000)})
+      returning id`;
 
-    // Dispatch via WhatsApp/SMS or Email (with terminal log fallback)
-    await sendOtpNotification({
-      phone: destType === 'phone' ? targetPhone : null,
-      email: destType === 'email' ? targetEmail : null,
-      code,
-    });
+    try {
+      await sendOtpNotification({
+        phone: destType === 'phone' ? dest : null,
+        email: destType === 'email' ? dest : null,
+        code,
+      });
+    } catch (notificationError) {
+      await sql`delete from otp_codes where id = ${otpRecord.id}`.catch(() => {});
+      log.warn(`[auth:otp] Delivery provider failed for ${destType}: ${notificationError.message}`);
+      throw httpError(
+        502,
+        destType === 'phone'
+          ? 'Could not send your OTP. Check WhatsApp/SMS provider configuration and try again.'
+          : 'Could not send your email OTP. Check the email provider configuration and try again.'
+      );
+    }
 
     res.json({
       ok: true,
