@@ -1,41 +1,51 @@
 # Community 84
 
-> 20 nodes · cohesion 0.10
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **PRODUCT-PAGES.md — listing, detail, and dealer pricing** (9 connections) — `docs/PRODUCT-PAGES.md`
-- **4. Product listing — `/products`, `src/pages/Products.jsx`** (6 connections) — `docs/PRODUCT-PAGES.md`
-- **6. Product detail — `/products/:id`, `src/pages/Product.jsx`** (6 connections) — `docs/PRODUCT-PAGES.md`
-- **PRODUCT-PAGES.md** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **1. Price visibility — the rule everything else follows** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **2. The pricing module — `src/data/dealer.js`** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **3. `<PriceBlock>` — `src/components/PriceBlock.jsx`** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **5. Product card — `src/components/ProductCard.jsx`** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **7. What is deliberately not here** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **8. Files touched on 2026-09-20** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Below the whole grid** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Filters and facets** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Left column** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Pagination** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Responsive behaviour** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Right column** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Share with Customer** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Sort** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Structure** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Tabs** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **pool.js** (26 connections) — `backend/src/db/pool.js`
+- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
+- **migrate()** (4 connections) — `backend/src/db/migrate.js`
+- **seed-content.js** (4 connections) — `backend/scripts/seed-content.js`
+- **applied()** (3 connections) — `backend/src/db/migrate.js`
+- **inspect-db.js** (3 connections) — `backend/scripts/inspect-db.js`
+- **migrate-content.js** (3 connections) — `backend/scripts/migrate-content.js`
+- **setup-buckets.js** (3 connections) — `backend/scripts/setup-buckets.js`
+- **setup-policies.js** (3 connections) — `backend/scripts/setup-policies.js`
+- **test-storage.js** (3 connections) — `backend/scripts/test-storage.js`
+- **main()** (2 connections) — `backend/scripts/inspect-db.js`
+- **main()** (2 connections) — `backend/scripts/seed-content.js`
+- **main()** (2 connections) — `backend/scripts/setup-buckets.js`
+- **main()** (2 connections) — `backend/scripts/setup-policies.js`
+- **dir** (1 connections) — `backend/src/db/migrate.js`
+- **tx()** (1 connections) — `backend/src/db/pool.js`
+- **main()** (1 connections) — `backend/scripts/migrate-content.js`
+- **PROJECT_ROOT** (1 connections) — `backend/scripts/seed-content.js`
+- **main()** (1 connections) — `backend/scripts/test-storage.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 46]] (19 shared connections)
+- [[Community 41]] (9 shared connections)
+- [[Community 93]] (2 shared connections)
+- [[Product Pages Specification]] (2 shared connections)
+- [[Community 104]] (1 shared connections)
 
 ## Source Files
 
-- `docs/PRODUCT-PAGES.md`
+- `backend/scripts/inspect-db.js`
+- `backend/scripts/migrate-content.js`
+- `backend/scripts/seed-content.js`
+- `backend/scripts/setup-buckets.js`
+- `backend/scripts/setup-policies.js`
+- `backend/scripts/test-storage.js`
+- `backend/src/db/migrate.js`
+- `backend/src/db/pool.js`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
+- EXTRACTED: 71 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

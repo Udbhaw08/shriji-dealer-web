@@ -1,31 +1,32 @@
 # Community 147
 
-> 10 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Website & App Redesign Instructions** (7 connections) — `instructions.md`
-- **2. Dual-Skill Synthesis Engine** (3 connections) — `instructions.md`
-- **instructions.md** (1 connections) — `instructions.md`
-- **1. Core Purpose & Architectural Goals** (1 connections) — `instructions.md`
-- **3. Adaptive Platform UX Strategies** (1 connections) — `instructions.md`
-- **4. Mobile Responsiveness & Layout Hard Rules** (1 connections) — `instructions.md`
-- **5. Domain Rules for Shriji Dealer Web** (1 connections) — `instructions.md`
-- **6. Execution Flow for Redesign Tasks** (1 connections) — `instructions.md`
-- **Skill 1: `refero-design` (Website & Aesthetic Authority)** (1 connections) — `instructions.md`
-- **Skill 2: `swiftui-pro` (Mobile App Ergonomics & UX Authority)** (1 connections) — `instructions.md`
+- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **stages** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **additionalProperties** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **required** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Project Readme & Layout]] (3 shared connections)
+- [[Community 105]] (3 shared connections)
 
 ## Source Files
 
-- `instructions.md`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

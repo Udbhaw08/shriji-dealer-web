@@ -1,52 +1,55 @@
 # Live Pricing Audit Tool
 
-> 58 nodes · cohesion 0.06
+> 51 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **check-render-output.mjs** (57 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **desktop-readability.mjs** (9 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **adaptive-reader-layout.test.mjs** (9 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **parseAttrs()** (7 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectArrows()** (6 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **numberAttr()** (6 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectCompositionFrames()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectLegendBoxes()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **lineSegments()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **DESKTOP_READABILITY_VIEWPORT** (5 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **collectDesktopReadability()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectNonFiniteAttrs()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **pathSegments()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **straightPathSegments()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **textBox()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **projectedNodeTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **attrEntries()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectLegendCollisions()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectRelationshipLabelMasks()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **crossProduct()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **isCommand()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **pointsFromPath()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **properSegmentIntersection()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **segmentIntersectsBox()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **segmentsIntersect()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- *... and 33 more nodes in this community*
+- **bt()** (19 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **md()** (18 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **ad()** (14 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **pn()** (13 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **un()** (12 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **yd()** (11 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **ln()** (10 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **yt()** (10 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **tn()** (9 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **hn()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **je()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **nn()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **ot()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **wn()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **wt()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **hd()** (7 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **ld()** (7 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **lt()** (7 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **mn()** (7 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **qt()** (7 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **en()** (6 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **fe()** (6 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **gd()** (6 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **it()** (6 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **rn()** (6 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [[Pricing Regression Test Suite]] (6 shared connections)
-- [[Community 44]] (4 shared connections)
-- [[Mobile Responsive UI Skill]] (3 shared connections)
-- [[Community 99]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (56 shared connections)
+- [[Dependencies & Package Config]] (29 shared connections)
+- [[Product Requirements Documentation]] (22 shared connections)
+- [[Graphify Agent Rules]] (16 shared connections)
+- [[Architecture Doc Generator]] (10 shared connections)
+- [[Community 36]] (5 shared connections)
+- [[Community 40]] (3 shared connections)
+- [[Zoho Integration Skill]] (3 shared connections)
+- [[Community 57]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- `.agents/skills/archify/scripts/check-render-output.mjs`
-- `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
 
 ## Audit Trail
 
-- EXTRACTED: 210 (100%)
+- EXTRACTED: 322 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

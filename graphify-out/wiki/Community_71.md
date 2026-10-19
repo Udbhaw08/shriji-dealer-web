@@ -1,53 +1,45 @@
 # Community 71
 
-> 23 nodes · cohesion 0.15
+> 23 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **i()** (66 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **cs()** (19 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **s()** (12 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **hs()** (7 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **ms()** (7 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **ds()** (6 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **ps()** (6 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **ss()** (6 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **us()** (6 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **ls()** (5 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **nt()** (5 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **to()** (5 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **zs()** (5 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **ks()** (4 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **vs()** (4 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **ws()** (4 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **za()** (4 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **ao()** (3 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **rs()** (3 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **fs()** (2 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **getComponent()** (2 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **Qo()** (2 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **uo()** (2 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **properties** (8 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **layout** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **cols** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **cellH** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **cellW** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **gapX** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **gapY** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **origin** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **maximum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (29 shared connections)
-- [[Dealer Auth & Session Management]] (25 shared connections)
-- [[Design System & UI Tokens]] (13 shared connections)
-- [[Graphify Knowledge Graph Skill]] (9 shared connections)
-- [[Architecture Doc Generator]] (8 shared connections)
-- [[Zoho Integration Architecture]] (7 shared connections)
-- [[Pricing & Roles Skill]] (7 shared connections)
-- [[Community 49]] (5 shared connections)
-- [[Product Brand & Business Vision]] (5 shared connections)
-- [[Community 75]] (3 shared connections)
+- [[Community 136]] (1 shared connections)
+- [[Community 75]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 185 (100%)
+- EXTRACTED: 46 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

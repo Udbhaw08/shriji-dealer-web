@@ -1,57 +1,55 @@
 # Community 53
 
-> 28 nodes · cohesion 0.12
+> 26 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **i()** (66 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **cs()** (19 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **da()** (12 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **ma()** (9 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **hs()** (7 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **ms()** (7 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **pa()** (7 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **ds()** (6 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **ps()** (6 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **ss()** (6 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **us()** (6 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **ls()** (5 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **nt()** (5 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **to()** (5 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **zs()** (5 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **ks()** (4 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **Oa()** (4 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **vs()** (4 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **ws()** (4 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **ao()** (3 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **dm()** (3 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **pp()** (3 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **rs()** (3 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **abort()** (2 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **fs()** (2 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- *... and 3 more nodes in this community*
+- **delete()** (36 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **dd()** (15 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **rs()** (15 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **wd()** (14 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **od()** (12 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **ud()** (11 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **zd()** (11 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **bd()** (10 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **gn()** (7 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **pd()** (7 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **fd()** (6 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **vt()** (6 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **qd()** (5 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **rd()** (5 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **dn()** (4 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **id()** (4 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **xn()** (4 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **xt()** (4 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **nf()** (3 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **reload()** (3 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **xo()** (3 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **clearInstance()** (2 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **clearRefreshToken()** (2 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **_getPersistence()** (2 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **_getPersistenceType()** (2 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (29 shared connections)
-- [[Dependencies & Package Config]] (29 shared connections)
-- [[Product Requirements Documentation]] (13 shared connections)
-- [[Zoho Integration Skill]] (12 shared connections)
-- [[Client Products Data Store]] (10 shared connections)
-- [[Roles & Customer Sharing Spec]] (8 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (6 shared connections)
-- [[Community 51]] (5 shared connections)
-- [[Community 38]] (4 shared connections)
-- [[Community 73]] (3 shared connections)
-- [[Graphify Workflow]] (2 shared connections)
+- [[Price Presentation & Product UI]] (39 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (25 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (11 shared connections)
+- [[Product Brand & Business Vision]] (9 shared connections)
+- [[Community 38]] (8 shared connections)
+- [[Zoho API Diagnostic Script]] (6 shared connections)
+- [[Master Codebase Architecture Reference]] (5 shared connections)
+- [[Graphify Workflow]] (4 shared connections)
+- [[Community 86]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DXfsqET_.js`
+- `ios/App/App/public/assets/index-CWBKLC4l.js`
 
 ## Audit Trail
 
-- EXTRACTED: 209 (100%)
+- EXTRACTED: 195 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -744,28 +744,64 @@ function Identify({ onSent, onPasswordOk, onBack, initialPhone = "", initialEmai
   const cleanEmail = email.trim().toLowerCase();
 
   const run = async (fn) => {
-    setError(""); setLoading(true);
-    try { await fn(); }
-    catch (err) { setError(err.message === "Failed to fetch" ? "Unable to reach the server." : err.message); }
-    finally { setLoading(false); }
+    setError("");
+    setLoading(true);
+
+    try {
+      await fn();
+    } catch (err) {
+      console.error("[OTP] Request failed:", err);
+      setError(
+        err.message === "Failed to fetch"
+          ? "Unable to reach the server."
+          : err.message || "Could not request OTP."
+      );
+    } finally {
+      setLoading(false);
+    }
   };
 
-  const sendOtp = (e) => {
+  const sendOtp = async (e) => {
     e.preventDefault();
+
     if (loading) return;
+
     if (!cleanPhone || !isValidPhone(cleanPhone)) {
       setError("Please enter a valid 10-digit mobile number.");
       return;
     }
-    const isTestPhone = cleanPhone && cleanPhone.replace(/\D/g, '').endsWith("7738369376");
 
-    run(async () => {
-      // Send OTP via backend → WhatsApp Cloud API (Meta)
+    await run(async () => {
+      console.log("[OTP] Sending request");
+
       const res = await requestOtp({
         phone: cleanPhone,
         channel: "phone",
       });
-      onSent({ phone: cleanPhone, email: cleanEmail || null, channel: "phone", target: cleanPhone }, (import.meta.env.VITE_ENABLE_DEV_OTP === 'true' && res.dev_code) || null);
+
+      console.log("[OTP] Backend response:", {
+        ok: res?.ok,
+        destination: res?.destination,
+        expires_in_minutes: res?.expires_in_minutes,
+      });
+
+      if (!res?.ok) {
+        throw new Error("The server did not confirm the OTP request.");
+      }
+
+      console.log("[OTP] Moving to verification screen");
+
+      onSent(
+        {
+          phone: cleanPhone,
+          email: cleanEmail || null,
+          channel: "phone",
+          target: cleanPhone,
+        },
+        import.meta.env.VITE_ENABLE_DEV_OTP === "true"
+          ? res.dev_code || null
+          : null
+      );
     });
   };
 

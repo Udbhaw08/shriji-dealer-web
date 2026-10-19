@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **README.md** (1 connections) — `ios/App/CapApp-SPM/README.md`
-- **CapApp-SPM** (1 connections) — `ios/App/CapApp-SPM/README.md`
+- **esm-DvaWRfu4.js** (1 connections) — `ios/App/App/public/assets/esm-DvaWRfu4.js`
+- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-DvaWRfu4.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `ios/App/CapApp-SPM/README.md`
+- `ios/App/App/public/assets/esm-DvaWRfu4.js`
 
 ## Audit Trail
 

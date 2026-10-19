@@ -1,33 +1,29 @@
 # Community 181
 
-> 9 nodes · cohesion 0.33
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **viewer-camera-browser.test.mjs** (11 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **run()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **stable()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **viewport()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **screenshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **Resizable windows and adaptive layouts** (7 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
+- **resizability.md** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
+- **Checking changes** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
+- **Choosing layouts** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
+- **Fold and camera geometry** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
+- **Presentations** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
+- **Safe areas** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
+- **Tab bars and toolbars** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
 
 ## Relationships
 
-- [[Community 60]] (4 shared connections)
-- [[Community 44]] (1 shared connections)
-- [[Community 132]] (1 shared connections)
-- [[Community 114]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- `.agents/skills/swiftui-pro/references/resizability.md`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

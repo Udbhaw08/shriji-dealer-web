@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **check-whatsapp-status.js** (2 connections) — `backend/scripts/check-whatsapp-status.js`
-- **checkStatus()** (1 connections) — `backend/scripts/check-whatsapp-status.js`
-- **__dirname** (1 connections) — `backend/scripts/check-whatsapp-status.js`
+- **renderer-diagnostic-boundary.test.mjs** (2 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
+- **crashingRenderer()** (1 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
+- **runCrashingRenderer()** (1 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `backend/scripts/check-whatsapp-status.js`
+- `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
 
 ## Audit Trail
 

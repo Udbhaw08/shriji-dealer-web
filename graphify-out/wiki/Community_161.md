@@ -1,30 +1,36 @@
 # Community 161
 
-> 9 nodes · cohesion 0.22
+> 9 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **web-DzsWC0i3.js** (8 connections) — `android/app/src/main/assets/public/assets/web-DzsWC0i3.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-DzsWC0i3.js`
-- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-DzsWC0i3.js`
-- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-DzsWC0i3.js`
-- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-DzsWC0i3.js`
-- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-DzsWC0i3.js`
-- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-DzsWC0i3.js`
-- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-DzsWC0i3.js`
-- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-DzsWC0i3.js`
+- **cs()** (9 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **os()** (9 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **ki()** (8 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **ls()** (8 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **fs()** (7 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **us()** (7 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **ss()** (5 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **ds()** (3 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **getComponent()** (2 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Zoho Backend & Proxy Endpoints]] (11 shared connections)
+- [[Price Presentation & Product UI]] (9 shared connections)
+- [[Master Codebase Architecture Reference]] (7 shared connections)
+- [[Community 38]] (3 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (2 shared connections)
+- [[Graphify Workflow]] (1 shared connections)
+- [[Zoho API Diagnostic Script]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/web-DzsWC0i3.js`
+- `ios/App/App/public/assets/index-CWBKLC4l.js`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 58 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

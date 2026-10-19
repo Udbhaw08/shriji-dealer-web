@@ -1,40 +1,35 @@
 # Community 112
 
-> 15 nodes · cohesion 0.15
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **i18n.test.mjs** (20 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **catalogKeys()** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **SUPPORTED_LOCALES** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **authoredExample()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **evaluate()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **example()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **loadArtifact()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **AUTHORED_TEXT_KEYS** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **templatePath** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **web-CjJVHNoU.js** (13 connections) — `android/app/src/main/assets/public/assets/web-CjJVHNoU.js`
+- **applyPrefix()** (4 connections) — `android/app/src/main/assets/public/assets/web-CjJVHNoU.js`
+- **keys()** (4 connections) — `android/app/src/main/assets/public/assets/web-CjJVHNoU.js`
+- **get()** (3 connections) — `android/app/src/main/assets/public/assets/web-CjJVHNoU.js`
+- **migrate()** (3 connections) — `android/app/src/main/assets/public/assets/web-CjJVHNoU.js`
+- **rawKeys()** (3 connections) — `android/app/src/main/assets/public/assets/web-CjJVHNoU.js`
+- **clear()** (2 connections) — `android/app/src/main/assets/public/assets/web-CjJVHNoU.js`
+- **remove()** (2 connections) — `android/app/src/main/assets/public/assets/web-CjJVHNoU.js`
+- **removeOld()** (2 connections) — `android/app/src/main/assets/public/assets/web-CjJVHNoU.js`
+- **set()** (2 connections) — `android/app/src/main/assets/public/assets/web-CjJVHNoU.js`
+- **configure()** (1 connections) — `android/app/src/main/assets/public/assets/web-CjJVHNoU.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-CjJVHNoU.js`
+- **impl()** (1 connections) — `android/app/src/main/assets/public/assets/web-CjJVHNoU.js`
+- **prefix()** (1 connections) — `android/app/src/main/assets/public/assets/web-CjJVHNoU.js`
 
 ## Relationships
 
-- [[Community 100]] (5 shared connections)
-- [[Community 44]] (1 shared connections)
-- [[Community 132]] (1 shared connections)
-- [[Community 114]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/i18n.mjs`
-- `.agents/skills/archify/test/i18n.test.mjs`
+- `android/app/src/main/assets/public/assets/web-CjJVHNoU.js`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

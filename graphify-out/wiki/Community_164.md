@@ -4,27 +4,38 @@
 
 ## Key Concepts
 
-- **web-DzsWC0i3.js** (8 connections) — `ios/App/App/public/assets/web-DzsWC0i3.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-DzsWC0i3.js`
-- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-DzsWC0i3.js`
-- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-DzsWC0i3.js`
-- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-DzsWC0i3.js`
-- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-DzsWC0i3.js`
-- **getState()** (1 connections) — `ios/App/App/public/assets/web-DzsWC0i3.js`
-- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-DzsWC0i3.js`
-- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-DzsWC0i3.js`
+- **Typography Guide** (18 connections) — `.agents/skills/refero-design/references/typography.md`
+- **13. AI-Slop Anti-Patterns** (3 connections) — `.agents/skills/refero-design/references/typography.md`
+- **typography.md** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **15. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **1. The Safe SaaS Preset** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Instant Red Flags** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Quick Test** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 247]] (1 shared connections)
+- [[Community 264]] (1 shared connections)
+- [[Community 248]] (1 shared connections)
+- [[Community 265]] (1 shared connections)
+- [[Community 266]] (1 shared connections)
+- [[Community 267]] (1 shared connections)
+- [[Community 249]] (1 shared connections)
+- [[Community 268]] (1 shared connections)
+- [[Community 269]] (1 shared connections)
+- [[Community 250]] (1 shared connections)
+- [[Community 165]] (1 shared connections)
+- [[Community 295]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-DzsWC0i3.js`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

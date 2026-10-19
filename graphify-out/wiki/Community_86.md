@@ -1,41 +1,48 @@
 # Community 86
 
-> 20 nodes · cohesion 0.10
+> 19 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **Example Workflow: SaaS Pricing Page** (7 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 1: Styles Research** (4 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 5: Implementation Blueprint** (4 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 2: Screen Research** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 3: Flow Research** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 4: Synthesis** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **example-workflow.md** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Design Decision Ledger** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Flow Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Flow Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Page Structure** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 0: Discovery** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Quality Gate** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Research Summary** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Screen Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Screen Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Style Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Style Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Tokens** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Visual Direction Synthesis** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **create()** (24 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **hu()** (18 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **pu()** (15 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **ou()** (14 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **iu()** (9 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **su()** (9 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **cu()** (8 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **bu()** (7 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **pi()** (6 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **zl()** (6 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **xs()** (5 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **xu()** (5 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **mu()** (4 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **cc()** (3 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **qe()** (3 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **uu()** (3 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **vu()** (3 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **gu()** (2 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **ta()** (2 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Zoho Backend & Proxy Endpoints]] (28 shared connections)
+- [[Price Presentation & Product UI]] (26 shared connections)
+- [[Master Codebase Architecture Reference]] (12 shared connections)
+- [[Product Brand & Business Vision]] (7 shared connections)
+- [[Community 38]] (2 shared connections)
+- [[Community 53]] (2 shared connections)
+- [[Zoho API Diagnostic Script]] (1 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (1 shared connections)
+- [[Graphify Workflow]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/example-workflow.md`
+- `ios/App/App/public/assets/index-CWBKLC4l.js`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
+- EXTRACTED: 146 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

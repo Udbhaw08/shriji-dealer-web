@@ -2,7 +2,7 @@
 
 > God node · 56 connections · `backend/src/db/pool.js`
 
-**Community:** [[Community 43]]
+**Community:** [[Community 46]]
 
 ## Connections by Relation
 

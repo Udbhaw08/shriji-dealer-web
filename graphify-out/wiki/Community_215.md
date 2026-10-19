@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **diagram-guide.test.mjs** (6 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
+- **presentation.test.mjs** (6 connections) — `.agents/skills/archify/test/presentation.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
+- **svg()** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/diagram-guide.test.mjs`
+- `.agents/skills/archify/test/presentation.test.mjs`
 
 ## Audit Trail
 

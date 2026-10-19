@@ -1,18 +1,17 @@
 # Community 180
 
-> 9 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **vertical-edge.test.mjs** (8 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **bin** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **edgePath()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **REPRO** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **segments()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **Data flow, shared state, and property wrappers** (7 connections) — `.agents/skills/swiftui-pro/references/data.md`
+- **data.md** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
+- **Bindings** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
+- **If the project uses SwiftData with CloudKit** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
+- **Local state** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
+- **Shared state** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
+- **SwiftData** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
+- **Working with data** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
 
 ## Relationships
 
@@ -20,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/vertical-edge.test.mjs`
+- `.agents/skills/swiftui-pro/references/data.md`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

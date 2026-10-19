@@ -1,6 +1,6 @@
 # Product Pages Specification
 
-> 85 nodes · cohesion 0.06
+> 84 nodes · cohesion 0.06
 
 ## Key Concepts
 
@@ -29,12 +29,13 @@
 - **schemes.js** (6 connections) — `api/schemes.js`
 - **fetchAllRawZohoProducts()** (6 connections) — `api/zoho.js`
 - **fetchZohoPricebookItems()** (6 connections) — `api/zoho.js`
-- *... and 60 more nodes in this community*
+- *... and 59 more nodes in this community*
 
 ## Relationships
 
-- [[Community 41]] (4 shared connections)
-- [[Community 43]] (3 shared connections)
+- [[Community 46]] (3 shared connections)
+- [[Community 84]] (2 shared connections)
+- [[Community 41]] (2 shared connections)
 
 ## Source Files
 
@@ -57,7 +58,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 411 (100%)
+- EXTRACTED: 409 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

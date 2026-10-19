@@ -120,7 +120,28 @@ webhooksRouter.get('/whatsapp', (req, res) => {
 });
 
 webhooksRouter.post('/whatsapp', (req, res) => {
-  log.info('[webhook:whatsapp] Event received from Meta');
+  try {
+    const entry = req.body?.entry?.[0];
+    const changes = entry?.changes?.[0]?.value;
+    if (changes?.statuses?.length) {
+      for (const st of changes.statuses) {
+        if (st.status === 'failed') {
+          log.warn(`[webhook:whatsapp] Message ${st.id} FAILED to ${st.recipient_id}:`, JSON.stringify(st.errors || st));
+        } else {
+          log.info(`[webhook:whatsapp] Message ${st.id} status to ${st.recipient_id}: ${st.status}`);
+        }
+      }
+    } else if (changes?.messages?.length) {
+      for (const msg of changes.messages) {
+        log.info(`[webhook:whatsapp] Inbound user message from ${msg.from}:`, msg.text?.body || msg.type);
+      }
+    } else {
+      log.info('[webhook:whatsapp] Event received from Meta');
+    }
+  } catch (err) {
+    log.warn('[webhook:whatsapp] Error parsing Meta event:', err.message);
+  }
   res.status(200).send('EVENT_RECEIVED');
 });
+
 

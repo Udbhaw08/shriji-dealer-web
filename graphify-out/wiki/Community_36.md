@@ -1,50 +1,55 @@
 # Community 36
 
-> 39 nodes · cohesion 0.07
+> 38 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **scenarios.mjs** (15 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **FakeElement** (12 connections) — `.agents/skills/archify/test/start-page.test.mjs`
-- **gallery.test.mjs** (9 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **start-page.test.mjs** (8 connections) — `.agents/skills/archify/test/start-page.test.mjs`
-- **guide.test.mjs** (6 connections) — `.agents/skills/archify/test/guide.test.mjs`
-- **recommendScenario()** (4 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **SCENARIO_RECIPES** (4 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **detectGuideLanguage()** (3 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **listScenarioRecipes()** (3 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **formatScenarioList()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **localized()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **normalized()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **publicGuideData()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **scoreRecipe()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **startPromptsFor()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **formatScenarioRecommendation()** (1 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **RAW_RECIPES** (1 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **generatedRoot** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **normalize()** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/start-page.test.mjs`
-- *... and 14 more nodes in this community*
+- **getImmediate()** (16 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **resolve()** (16 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **xd()** (13 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **cd()** (11 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **initialize()** (10 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **isInitialized()** (9 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **addComponent()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **getProvider()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **_key()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **rh()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **sd()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **triggerHeartbeat()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **getOrInitializeService()** (7 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **gf()** (7 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **setComponent()** (7 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **normalizeInstanceIdentifier()** (6 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **onAuthEvent()** (6 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **addOrOverwriteComponent()** (5 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **dc()** (5 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **onExecution()** (5 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **_originValidation()** (5 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **_remove()** (5 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **getOptions()** (4 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **invokeOnInitCallbacks()** (4 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **isComponentSet()** (4 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (57 shared connections)
+- [[Architecture Doc Generator]] (15 shared connections)
+- [[Graphify Agent Rules]] (10 shared connections)
+- [[Dependencies & Package Config]] (8 shared connections)
+- [[Product Requirements Documentation]] (6 shared connections)
+- [[Live Pricing Audit Tool]] (5 shared connections)
+- [[Zoho Integration Skill]] (3 shared connections)
+- [[Community 57]] (3 shared connections)
+- [[Community 40]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/recipes/scenarios.mjs`
-- `.agents/skills/archify/test/gallery.test.mjs`
-- `.agents/skills/archify/test/guide.test.mjs`
-- `.agents/skills/archify/test/start-page.test.mjs`
+- `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
 
 ## Audit Trail
 
-- EXTRACTED: 100 (100%)
+- EXTRACTED: 235 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

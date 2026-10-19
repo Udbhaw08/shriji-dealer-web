@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **height** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **width** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 - **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 - **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- [[Project Readme & Layout]] (1 shared connections)
+- [[Community 35]] (1 shared connections)
 
 ## Source Files
 

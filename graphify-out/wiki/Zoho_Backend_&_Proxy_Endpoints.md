@@ -1,56 +1,56 @@
 # Zoho Backend & Proxy Endpoints
 
-> 97 nodes · cohesion 0.05
+> 121 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **ml()** (41 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **n()** (31 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **xl()** (29 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **t()** (22 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **dl()** (21 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **il()** (20 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **E()** (19 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **ia()** (19 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **lm()** (19 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **ya()** (18 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **el()** (17 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **sl()** (16 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **Gc()** (15 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **r()** (14 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **Yc()** (14 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **pl()** (13 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **we()** (13 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **cl()** (12 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **da()** (12 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **ha()** (12 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **lc()** (12 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **Ca()** (11 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **Ea()** (11 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **Fi()** (11 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **ll()** (11 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- *... and 72 more nodes in this community*
+- **error()** (124 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **has()** (37 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **ac()** (35 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **add()** (33 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **fc()** (29 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **qr()** (21 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **bs()** (17 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **me()** (16 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **ys()** (15 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **ru()** (14 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **ve()** (14 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **_e()** (13 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **hr()** (13 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **nc()** (13 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **bi()** (12 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **is()** (12 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **ju()** (12 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **ai()** (11 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **ci()** (11 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **g()** (11 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **gs()** (11 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **kp()** (11 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **as()** (10 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **es()** (10 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- **ic()** (10 connections) — `ios/App/App/public/assets/index-CWBKLC4l.js`
+- *... and 96 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (104 shared connections)
-- [[Pricing & Roles Skill]] (51 shared connections)
-- [[Design System & UI Tokens]] (44 shared connections)
-- [[Graphify Knowledge Graph Skill]] (34 shared connections)
-- [[Architecture Doc Generator]] (31 shared connections)
-- [[Community 71]] (29 shared connections)
-- [[Zoho Integration Architecture]] (26 shared connections)
-- [[Product Brand & Business Vision]] (11 shared connections)
-- [[Community 75]] (6 shared connections)
-- [[Community 49]] (6 shared connections)
+- [[Price Presentation & Product UI]] (130 shared connections)
+- [[Master Codebase Architecture Reference]] (96 shared connections)
+- [[Product Brand & Business Vision]] (38 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (34 shared connections)
+- [[Community 86]] (28 shared connections)
+- [[Community 53]] (25 shared connections)
+- [[Community 38]] (23 shared connections)
+- [[Zoho API Diagnostic Script]] (21 shared connections)
+- [[Graphify Workflow]] (11 shared connections)
+- [[Community 161]] (11 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- `ios/App/App/public/assets/index-CWBKLC4l.js`
 
 ## Audit Trail
 
-- EXTRACTED: 854 (100%)
+- EXTRACTED: 1043 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

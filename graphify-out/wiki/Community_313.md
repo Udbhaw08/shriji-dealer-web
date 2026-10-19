@@ -4,21 +4,21 @@
 
 ## Key Concepts
 
-- **labelSegment** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **check-whatsapp-status.js** (2 connections) — `backend/scripts/check-whatsapp-status.js`
+- **checkStatus()** (1 connections) — `backend/scripts/check-whatsapp-status.js`
+- **__dirname** (1 connections) — `backend/scripts/check-whatsapp-status.js`
 
 ## Relationships
 
-- [[Project Readme & Layout]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `backend/scripts/check-whatsapp-status.js`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

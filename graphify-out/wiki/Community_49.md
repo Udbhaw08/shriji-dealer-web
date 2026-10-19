@@ -1,56 +1,55 @@
 # Community 49
 
-> 29 nodes · cohesion 0.12
+> 31 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **kf()** (22 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **Ur()** (21 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **jr()** (9 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **Hr()** (8 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **br()** (6 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **Gr()** (6 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **jf()** (6 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **jn()** (6 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **Kr()** (5 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **ri()** (5 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **Rr()** (5 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **wr()** (5 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **xr()** (5 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **zr()** (5 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **qf()** (4 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **qr()** (4 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **Xf()** (4 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **zt()** (4 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **Cr()** (3 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **If()** (3 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **Lr()** (3 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **sc()** (3 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **Ui()** (3 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **Vr()** (3 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **Yr()** (3 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- *... and 4 more nodes in this community*
+- **session.js** (41 connections) — `src/data/session.js`
+- **productsStore.js** (22 connections) — `src/data/productsStore.js`
+- **apiFetch()** (14 connections) — `src/data/api.js`
+- **api.js** (9 connections) — `src/data/api.js`
+- **apiUrl()** (9 connections) — `src/data/api.js`
+- **revalidateSession()** (9 connections) — `src/data/session.js`
+- **setSession()** (8 connections) — `src/data/session.js`
+- **syncPricebookWithSession()** (7 connections) — `src/data/productsStore.js`
+- **products.js** (5 connections) — `src/data/products.js`
+- **fetchLiveProducts()** (5 connections) — `src/data/productsStore.js`
+- **hasSession()** (4 connections) — `src/data/auth.js`
+- **loadCached()** (4 connections) — `src/data/productsStore.js`
+- **sessionFromAuth()** (3 connections) — `src/data/auth.js`
+- **emit()** (3 connections) — `src/data/productsStore.js`
+- **loadCachedSession()** (3 connections) — `src/data/session.js`
+- **onAuthBroadcast()** (2 connections) — `src/data/auth.js`
+- **CATEGORIES** (2 connections) — `src/data/products.js`
+- **getCacheKey()** (2 connections) — `src/data/productsStore.js`
+- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
+- **useProduct()** (2 connections) — `src/data/productsStore.js`
+- **emit()** (2 connections) — `src/data/session.js`
+- **PRODUCTS** (1 connections) — `src/data/products.js`
+- **listeners** (1 connections) — `src/data/productsStore.js`
+- **PREFERRED_ORDER** (1 connections) — `src/data/productsStore.js`
+- **storeState** (1 connections) — `src/data/productsStore.js`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (30 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (6 shared connections)
-- [[Pricing & Roles Skill]] (5 shared connections)
-- [[Design System & UI Tokens]] (5 shared connections)
-- [[Community 71]] (5 shared connections)
-- [[Architecture Doc Generator]] (4 shared connections)
-- [[Graphify Knowledge Graph Skill]] (3 shared connections)
-- [[Community 75]] (2 shared connections)
-- [[Zoho Integration Architecture]] (2 shared connections)
-- [[Product Brand & Business Vision]] (1 shared connections)
+- [[Design System & UI Tokens]] (19 shared connections)
+- [[Community 31]] (17 shared connections)
+- [[Community 62]] (10 shared connections)
+- [[Community 37]] (9 shared connections)
+- [[Community 114]] (5 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- `src/data/api.js`
+- `src/data/auth.js`
+- `src/data/products.js`
+- `src/data/productsStore.js`
+- `src/data/session.js`
 
 ## Audit Trail
 
-- EXTRACTED: 159 (100%)
+- EXTRACTED: 168 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

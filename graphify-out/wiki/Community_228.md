@@ -1,16 +1,15 @@
 # Community 228
 
-> 7 nodes · cohesion 0.29
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **story-beat-navigator.test.mjs** (6 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
+- **Lifecycle Renderer** (5 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **README.md** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Input** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Layout budget** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Legend** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
 
 ## Relationships
 
@@ -18,11 +17,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/story-beat-navigator.test.mjs`
+- `.agents/skills/archify/renderers/lifecycle/README.md`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

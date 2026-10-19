@@ -1,17 +1,16 @@
 # Community 203
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **story-moment-link.test.mjs** (7 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **MockStorage** (6 connections) — `src/data/auth-session.test.mjs`
+- **auth-session.test.mjs** (1 connections) — `src/data/auth-session.test.mjs`
+- **.clear()** (1 connections) — `src/data/auth-session.test.mjs`
+- **.constructor()** (1 connections) — `src/data/auth-session.test.mjs`
+- **.getItem()** (1 connections) — `src/data/auth-session.test.mjs`
+- **.removeItem()** (1 connections) — `src/data/auth-session.test.mjs`
+- **.setItem()** (1 connections) — `src/data/auth-session.test.mjs`
 
 ## Relationships
 
@@ -19,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/story-moment-link.test.mjs`
+- `src/data/auth-session.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

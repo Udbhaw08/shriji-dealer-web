@@ -1,55 +1,54 @@
 # Community 51
 
-> 29 nodes · cohesion 0.12
+> 28 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **kf()** (22 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **Ur()** (21 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **jr()** (9 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **Hr()** (8 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **br()** (6 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **Gr()** (6 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **jf()** (6 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **jn()** (6 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **Kr()** (5 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **ri()** (5 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **Rr()** (5 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **wr()** (5 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **xr()** (5 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **zr()** (5 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **qf()** (4 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **qr()** (4 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **Xf()** (4 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **zt()** (4 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **Cr()** (3 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **If()** (3 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **Lr()** (3 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **sc()** (3 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **Ui()** (3 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **Vr()** (3 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **Yr()** (3 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- *... and 4 more nodes in this community*
+- **crmClient.js** (32 connections) — `backend/src/services/crmClient.js`
+- **validators.js** (14 connections) — `backend/src/utils/validators.js`
+- **normalizePhone()** (13 connections) — `backend/src/utils/phone.js`
+- **crmFetch()** (12 connections) — `backend/src/services/crmClient.js`
+- **normalizeEmail()** (9 connections) — `backend/src/utils/validators.js`
+- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
+- **cleanName()** (7 connections) — `backend/src/utils/validators.js`
+- **crmConfigured()** (6 connections) — `backend/src/services/crmClient.js`
+- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
+- **phone.js** (6 connections) — `backend/src/utils/phone.js`
+- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
+- **createDealerContact()** (5 connections) — `backend/src/services/crmClient.js`
+- **updateDealerCodeInCrm()** (5 connections) — `backend/src/services/crmClient.js`
+- **isValidPhone()** (5 connections) — `backend/src/utils/validators.js`
+- **resolveContactNames()** (4 connections) — `backend/src/services/crmClient.js`
+- **isValidEmail()** (4 connections) — `backend/src/utils/validators.js`
+- **isValidName()** (4 connections) — `backend/src/utils/validators.js`
+- **deactivateAccountInCrm()** (3 connections) — `backend/src/services/crmClient.js`
+- **deactivateContactInCrm()** (3 connections) — `backend/src/services/crmClient.js`
+- **getDealerAccount()** (3 connections) — `backend/src/services/crmClient.js`
+- **isCrmConfigured()** (3 connections) — `backend/src/services/crmClient.js`
+- **isValidGstin()** (3 connections) — `backend/src/utils/validators.js`
+- **getAccessToken()** (2 connections) — `backend/src/services/crmClient.js`
+- **getDealerContact()** (2 connections) — `backend/src/services/crmClient.js`
+- **getPrimaryContactForAccount()** (2 connections) — `backend/src/services/crmClient.js`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (30 shared connections)
-- [[Dependencies & Package Config]] (8 shared connections)
-- [[Product Requirements Documentation]] (6 shared connections)
-- [[Community 53]] (5 shared connections)
-- [[Roles & Customer Sharing Spec]] (3 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (3 shared connections)
-- [[Client Products Data Store]] (3 shared connections)
-- [[Zoho Integration Skill]] (3 shared connections)
-- [[Community 38]] (2 shared connections)
+- [[Community 46]] (18 shared connections)
+- [[Community 93]] (12 shared connections)
+- [[Community 41]] (5 shared connections)
+- [[Community 104]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DXfsqET_.js`
+- `backend/src/services/crmClient.js`
+- `backend/src/utils/phone.js`
+- `backend/src/utils/validators.js`
+- `backend/test/interconnection.test.mjs`
+- `backend/test/validators.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 159 (100%)
+- EXTRACTED: 171 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

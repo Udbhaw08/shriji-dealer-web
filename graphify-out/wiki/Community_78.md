@@ -1,52 +1,53 @@
 # Community 78
 
-> 22 nodes · cohesion 0.12
+> 20 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **auth.js** (48 connections) — `backend/src/routes/auth.js`
-- **auth.js** (8 connections) — `backend/src/middleware/auth.js`
-- **prices.js** (6 connections) — `backend/src/routes/prices.js`
-- **jwtAuth()** (5 connections) — `backend/src/middleware/auth.js`
-- **rateLimit.js** (4 connections) — `backend/src/middleware/rateLimit.js`
-- **notify()** (4 connections) — `backend/src/services/notifications.js`
-- **httpError()** (3 connections) — `backend/src/middleware/errorHandler.js`
-- **rateLimit()** (3 connections) — `backend/src/middleware/rateLimit.js`
-- **issueSession()** (3 connections) — `backend/src/routes/auth.js`
-- **linkUserIdentifiers()** (3 connections) — `backend/src/routes/auth.js`
-- **resolveUserWithDealer()** (3 connections) — `backend/src/routes/auth.js`
-- **sendOtpNotification()** (3 connections) — `backend/src/services/notifications.js`
-- **authRouter** (2 connections) — `backend/src/routes/auth.js`
-- **findUserByIdentifier()** (2 connections) — `backend/src/routes/auth.js`
-- **parseIdentifier()** (2 connections) — `backend/src/routes/auth.js`
-- **publicUser()** (2 connections) — `backend/src/routes/auth.js`
-- **pricesRouter** (2 connections) — `backend/src/routes/prices.js`
-- **requireRole()** (1 connections) — `backend/src/middleware/auth.js`
-- **buckets** (1 connections) — `backend/src/middleware/rateLimit.js`
-- **googleClient** (1 connections) — `backend/src/routes/auth.js`
-- **lastCrmSyncByDealerId** (1 connections) — `backend/src/routes/auth.js`
-- **strictLimit** (1 connections) — `backend/src/routes/auth.js`
+- **ChromeVisualBrowser** (21 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **visual-check.test.mjs** (14 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **PipeCdp** (7 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.attach()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.close()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.constructor()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **chromeVisualBrowserArgs()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.failAll()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.consume()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **VISUAL_CHECK_VIEWPORTS** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.failure()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **artifact()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **fakeBrowser()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **fakeChromeChild()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **png** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
 
 ## Relationships
 
-- [[Community 41]] (17 shared connections)
-- [[Community 43]] (15 shared connections)
-- [[Community 54]] (12 shared connections)
-- [[Community 81]] (6 shared connections)
-- [[Community 55]] (4 shared connections)
+- [[Community 48]] (8 shared connections)
+- [[Community 52]] (7 shared connections)
+- [[Community 113]] (2 shared connections)
+- [[Community 85]] (2 shared connections)
+- [[Community 63]] (1 shared connections)
+- [[Community 111]] (1 shared connections)
+- [[Community 32]] (1 shared connections)
+- [[Community 140]] (1 shared connections)
+- [[Community 178]] (1 shared connections)
+- [[Community 128]] (1 shared connections)
+- [[Community 155]] (1 shared connections)
+- [[Community 97]] (1 shared connections)
 
 ## Source Files
 
-- `backend/src/middleware/auth.js`
-- `backend/src/middleware/errorHandler.js`
-- `backend/src/middleware/rateLimit.js`
-- `backend/src/routes/auth.js`
-- `backend/src/routes/prices.js`
-- `backend/src/services/notifications.js`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/test/visual-check.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 108 (100%)
+- EXTRACTED: 71 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

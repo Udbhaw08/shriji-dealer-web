@@ -1,35 +1,48 @@
 # Community 113
 
-> 14 nodes · cohesion 0.23
+> 14 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **web-K3WBvWWr.js** (13 connections) — `android/app/src/main/assets/public/assets/web-K3WBvWWr.js`
-- **applyPrefix()** (4 connections) — `android/app/src/main/assets/public/assets/web-K3WBvWWr.js`
-- **keys()** (4 connections) — `android/app/src/main/assets/public/assets/web-K3WBvWWr.js`
-- **get()** (3 connections) — `android/app/src/main/assets/public/assets/web-K3WBvWWr.js`
-- **migrate()** (3 connections) — `android/app/src/main/assets/public/assets/web-K3WBvWWr.js`
-- **rawKeys()** (3 connections) — `android/app/src/main/assets/public/assets/web-K3WBvWWr.js`
-- **clear()** (2 connections) — `android/app/src/main/assets/public/assets/web-K3WBvWWr.js`
-- **remove()** (2 connections) — `android/app/src/main/assets/public/assets/web-K3WBvWWr.js`
-- **removeOld()** (2 connections) — `android/app/src/main/assets/public/assets/web-K3WBvWWr.js`
-- **set()** (2 connections) — `android/app/src/main/assets/public/assets/web-K3WBvWWr.js`
-- **configure()** (1 connections) — `android/app/src/main/assets/public/assets/web-K3WBvWWr.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-K3WBvWWr.js`
-- **impl()** (1 connections) — `android/app/src/main/assets/public/assets/web-K3WBvWWr.js`
-- **prefix()** (1 connections) — `android/app/src/main/assets/public/assets/web-K3WBvWWr.js`
+- **findChrome()** (22 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **export-cleanup-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **viewer-identifiers-browser.test.mjs** (7 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **evaluate()** (4 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **executable()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **findOnPath()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **run()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **exported()** (2 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 52]] (7 shared connections)
+- [[Community 48]] (6 shared connections)
+- [[Community 85]] (2 shared connections)
+- [[Community 63]] (2 shared connections)
+- [[Community 78]] (2 shared connections)
+- [[Community 126]] (1 shared connections)
+- [[Community 127]] (1 shared connections)
+- [[Community 111]] (1 shared connections)
+- [[Community 32]] (1 shared connections)
+- [[Community 140]] (1 shared connections)
+- [[Community 178]] (1 shared connections)
+- [[Community 128]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/web-K3WBvWWr.js`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 62 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

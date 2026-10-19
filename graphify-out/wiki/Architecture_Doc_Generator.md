@@ -1,56 +1,55 @@
 # Architecture Doc Generator
 
-> 57 nodes · cohesion 0.07
+> 51 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **D()** (24 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **ht()** (22 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **Ct()** (13 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **vt()** (13 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **ae()** (12 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **O()** (12 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **rf()** (12 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **zd()** (12 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **error()** (11 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **lf()** (11 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **vn()** (11 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **te()** (10 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **xt()** (10 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **ff()** (9 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **k()** (9 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **ke()** (9 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **mt()** (9 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **wt()** (9 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **af()** (8 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **ef()** (8 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **ft()** (8 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **hn()** (8 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **nf()** (8 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **pt()** (8 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **dt()** (7 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- *... and 32 more nodes in this community*
+- **get()** (52 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **tp()** (18 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **kd()** (15 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **jr()** (12 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **p()** (12 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **em()** (11 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **gp()** (11 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **hf()** (11 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **pm()** (11 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **cm()** (10 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **ip()** (10 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **nm()** (10 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **rl()** (10 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **fm()** (9 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **fp()** (9 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **request()** (9 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **ut()** (9 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **pt()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **qo()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **so()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **el()** (7 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **il()** (7 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **kt()** (7 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **wp()** (7 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **execute()** (6 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (63 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (31 shared connections)
-- [[Graphify Knowledge Graph Skill]] (17 shared connections)
-- [[Design System & UI Tokens]] (13 shared connections)
-- [[Community 75]] (11 shared connections)
-- [[Product Brand & Business Vision]] (11 shared connections)
-- [[Zoho Integration Architecture]] (9 shared connections)
-- [[Pricing & Roles Skill]] (9 shared connections)
-- [[Community 71]] (8 shared connections)
-- [[Community 49]] (4 shared connections)
+- [[Dealer Auth & Session Management]] (76 shared connections)
+- [[Dependencies & Package Config]] (30 shared connections)
+- [[Product Requirements Documentation]] (25 shared connections)
+- [[Zoho Integration Skill]] (18 shared connections)
+- [[Community 36]] (15 shared connections)
+- [[Graphify Agent Rules]] (12 shared connections)
+- [[Live Pricing Audit Tool]] (10 shared connections)
+- [[Community 57]] (5 shared connections)
+- [[Community 40]] (4 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
 
 ## Audit Trail
 
-- EXTRACTED: 398 (100%)
+- EXTRACTED: 381 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

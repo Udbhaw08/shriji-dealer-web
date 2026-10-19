@@ -1,58 +1,64 @@
 # Roles & Customer Sharing Spec
 
-> 56 nodes · cohesion 0.07
+> 51 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **create()** (27 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **Z()** (25 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **wl()** (18 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **warn()** (16 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **Si()** (13 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **_u()** (12 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **Uu()** (12 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **bi()** (11 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **Gi()** (11 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **tu()** (10 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **Nd()** (9 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **nu()** (9 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **request()** (9 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **Sp()** (9 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **su()** (9 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **eu()** (8 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **hu()** (8 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **iu()** (8 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **ou()** (8 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **Du()** (7 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **em()** (7 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **oc()** (7 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **wu()** (7 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **Xc()** (7 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- **zu()** (7 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
-- *... and 31 more nodes in this community*
+- **render-sequence.mjs** (67 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **utils.mjs** (26 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **i18n.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **translateMessage()** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **legend.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **renderLegend()** (14 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **svgAccessibleText()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **svgRootAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **renderDefinitions()** (11 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **resolveLegend()** (10 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **applyTemplate()** (9 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **renderSvg()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **resolveLocale()** (7 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **arrowClassMap** (6 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **legendFootprint()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **measureLegend()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **componentFill** (5 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **messageGeometry()** (4 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **messageLabelBox()** (4 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **viewerCatalog()** (4 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (64 shared connections)
-- [[Dependencies & Package Config]] (49 shared connections)
-- [[Product Requirements Documentation]] (28 shared connections)
-- [[Zoho Integration Skill]] (16 shared connections)
-- [[Community 53]] (8 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (8 shared connections)
-- [[Community 38]] (8 shared connections)
-- [[Graphify Workflow]] (7 shared connections)
-- [[Client Products Data Store]] (6 shared connections)
-- [[Community 51]] (3 shared connections)
-- [[Community 73]] (2 shared connections)
+- [[Pricing & Roles Skill]] (42 shared connections)
+- [[Pricing Regression Test Suite]] (35 shared connections)
+- [[Community 61]] (21 shared connections)
+- [[Client Products Data Store]] (18 shared connections)
+- [[Zoho Integration Architecture]] (17 shared connections)
+- [[Community 45]] (16 shared connections)
+- [[Community 111]] (5 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (2 shared connections)
+- [[Community 194]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DXfsqET_.js`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- `.agents/skills/archify/renderers/shared/cli.mjs`
+- `.agents/skills/archify/renderers/shared/geometry.mjs`
+- `.agents/skills/archify/renderers/shared/i18n.mjs`
+- `.agents/skills/archify/renderers/shared/legend.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 407 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 335 (99%)
+- INFERRED: 4 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

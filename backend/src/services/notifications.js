@@ -122,7 +122,9 @@ export async function sendOtpNotification({ phone, email, code }) {
         }
 
         if (res.ok) {
-          log.info(`[notify:whatsapp] OTP template sent successfully to ${cleanPhone}`);
+          const respData = await res.json().catch(() => null);
+          const msgId = respData?.messages?.[0]?.id || 'unknown';
+          log.info(`[notify:whatsapp] OTP template accepted by Meta gateway (id: ${msgId}) for ${cleanPhone}`);
           sent = true;
         } else if (!sent) {
           const err = await res.text().catch(() => '');

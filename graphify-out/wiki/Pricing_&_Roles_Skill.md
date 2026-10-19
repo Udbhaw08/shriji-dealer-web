@@ -1,56 +1,66 @@
 # Pricing & Roles Skill
 
-> 54 nodes · cohesion 0.07
+> 46 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **create()** (27 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **Z()** (25 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **wl()** (18 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **warn()** (16 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **l()** (14 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **Si()** (13 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **_u()** (12 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **Uu()** (12 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **bi()** (11 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **Gi()** (11 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **tu()** (10 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **kl()** (9 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **Nd()** (9 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **nu()** (9 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **request()** (9 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **Sp()** (9 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **su()** (9 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **eu()** (8 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **hu()** (8 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **iu()** (8 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **or()** (8 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **ou()** (8 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **Du()** (7 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **em()** (7 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- **oc()** (7 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
-- *... and 29 more nodes in this community*
+- **render-dataflow.mjs** (78 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **esc()** (31 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **escapeHtml()** (26 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **animateAttr()** (16 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **focusEdgeAttrs()** (15 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **labelPoint()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **renderBrandMark()** (14 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **renderNode()** (13 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderState()** (13 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **focusNodeAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **renderSemanticSigil()** (13 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **renderComponent()** (12 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **renderParticipant()** (12 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **brandLabelFitWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **brandMetadataFor()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **focusNodeTitle()** (12 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **routePointsValue()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **fittedNodeFontSize()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- **variantAccent()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **renderConnectionLabel()** (8 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **renderFlowLabel()** (8 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderTransitionLabel()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderMessage()** (8 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **brandMarkFor()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **messageLabel()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (63 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (51 shared connections)
-- [[Design System & UI Tokens]] (31 shared connections)
-- [[Graphify Knowledge Graph Skill]] (15 shared connections)
-- [[Zoho Integration Architecture]] (10 shared connections)
-- [[Architecture Doc Generator]] (9 shared connections)
-- [[Product Brand & Business Vision]] (8 shared connections)
-- [[Community 71]] (7 shared connections)
-- [[Community 49]] (5 shared connections)
+- [[Pricing Regression Test Suite]] (45 shared connections)
+- [[Roles & Customer Sharing Spec]] (42 shared connections)
+- [[Community 45]] (32 shared connections)
+- [[Client Products Data Store]] (24 shared connections)
+- [[Community 61]] (23 shared connections)
+- [[Zoho Integration Architecture]] (11 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (7 shared connections)
+- [[Community 58]] (5 shared connections)
+- [[Community 79]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- `.agents/skills/archify/renderers/shared/cli.mjs`
+- `.agents/skills/archify/renderers/shared/geometry.mjs`
+- `.agents/skills/archify/renderers/shared/i18n.mjs`
+- `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 411 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 396 (90%)
+- INFERRED: 43 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

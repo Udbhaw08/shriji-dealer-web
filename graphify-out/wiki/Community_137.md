@@ -4,29 +4,30 @@
 
 ## Key Concepts
 
-- **Archify** (10 connections) — `.agents/skills/archify/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Authoring invariants** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Delivery** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Fast authoring path** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Mermaid input** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Optional viewer capabilities** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Output** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Setup and fallback** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Type router** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Update awareness** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **legendEntry** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **label** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **visible** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **maxLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minProperties** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 87]] (1 shared connections)
+- [[Community 138]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/SKILL.md`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,62 +1,54 @@
 # Community 40
 
-> 37 nodes · cohesion 0.14
+> 36 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **render-sequence.mjs** (67 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **textUnits()** (33 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **validateArchitecture()** (22 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **validateDataflow()** (22 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **validateLifecycle()** (22 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **cleanCrossingProblems()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **rectsOverlap()** (16 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **validateSequence()** (15 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **cleanAmbiguousCorridorProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanBorderRunProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanRouteRhythmProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanLabelRouteClearanceProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **brandTopRailProblem()** (13 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **minimumNodeTextWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **text-fit.mjs** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **availableNodeTextWidth()** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **segmentLabelBox()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **collectEligibleRoutedRelations()** (6 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **qualityProfileForGate()** (6 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **flowLabelSize()** (4 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **messageGeometry()** (4 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **messageLabelBox()** (4 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **messageRouteBox()** (2 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **arrowClass** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **compositionFrames** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- *... and 12 more nodes in this community*
+- **create()** (24 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **hu()** (18 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **pu()** (15 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **ou()** (14 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **iu()** (9 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **su()** (9 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **cu()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **directlySetCurrentUser()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **lu()** (8 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **bu()** (7 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **initializeCurrentUser()** (7 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **setPersistence()** (7 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **_setRedirectUser()** (7 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **_fromGetAccountInfoResponse()** (6 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **getCurrentUser()** (6 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **getOrInitRedirectPersistenceManager()** (6 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **pi()** (6 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **zl()** (6 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **removeCurrentUser()** (5 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **setCurrentUser()** (5 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **xs()** (5 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **xu()** (5 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **initializeCurrentUserFromIdToken()** (4 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **mu()** (4 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- **reloadAndSetCurrentUserOrClear()** (4 connections) — `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [[Pricing Regression Test Suite]] (63 shared connections)
-- [[Oxlint Linter Configuration]] (42 shared connections)
-- [[Community 42]] (27 shared connections)
-- [[Mobile Responsive UI Skill]] (19 shared connections)
-- [[Community 82]] (14 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (9 shared connections)
-- [[Community 100]] (5 shared connections)
-- [[Graphify Agent Rules]] (3 shared connections)
-- [[Community 197]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (45 shared connections)
+- [[Dependencies & Package Config]] (25 shared connections)
+- [[Product Requirements Documentation]] (14 shared connections)
+- [[Zoho Integration Skill]] (9 shared connections)
+- [[Graphify Agent Rules]] (9 shared connections)
+- [[Architecture Doc Generator]] (4 shared connections)
+- [[Live Pricing Audit Tool]] (3 shared connections)
+- [[Community 36]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `android/app/src/main/assets/public/assets/index-CWBKLC4l.js`
 
 ## Audit Trail
 
-- EXTRACTED: 367 (100%)
+- EXTRACTED: 235 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

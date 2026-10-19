@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **CLAUDE.md — read this before touching anything** (4 connections) — `CLAUDE.md`
-- **CLAUDE.md** (1 connections) — `CLAUDE.md`
-- **Commands** (1 connections) — `CLAUDE.md`
-- **Doc map** (1 connections) — `CLAUDE.md`
-- **Hard rules (these exist to stop hallucination)** (1 connections) — `CLAUDE.md`
+- **Performance** (4 connections) — `.agents/skills/swiftui-pro/references/performance.md`
+- **performance.md** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
+- **Collections and row updates** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
+- **Frequent changes** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
+- **Remote images** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `CLAUDE.md`
+- `.agents/skills/swiftui-pro/references/performance.md`
 
 ## Audit Trail
 
