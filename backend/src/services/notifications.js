@@ -12,10 +12,13 @@ const resend = env.resendApiKey ? new Resend(env.resendApiKey) : null;
 export async function sendOtpNotification({ phone, email, code }) {
   const cleanPhone = phone ? String(phone).trim() : null;
   const cleanEmail = email ? String(email).trim().toLowerCase() : null;
+  const providers = [];
 
   // 2. Deliver via Phone (WhatsApp Cloud API / Fast2SMS / Twilio)
   if (cleanPhone) {
     let sent = false;
+    let phoneProvider = null;
+    let acceptedProvider = null;
 
     // Dynamically pick up latest .env variables (e.g. freshly generated Meta token)
     const waToken = env.whatsapp.token;
@@ -51,78 +54,31 @@ export async function sendOtpNotification({ phone, email, code }) {
           });
         };
 
-        let initialComponents;
-        if (waTemplate === 'hello_world') {
-          initialComponents = undefined;
-        } else if (waTemplate === 'otp') {
-          initialComponents = [
-            {
-              type: 'body',
-              parameters: [{ type: 'text', text: String(code) }],
-            },
-            {
-              type: 'button',
-              sub_type: 'url',
-              index: 0,
-              parameters: [{ type: 'text', text: String(code) }],
-            },
-          ];
-        } else if (waTemplate) {
-          initialComponents = [
-            {
-              type: 'body',
-              parameters: [{ type: 'text', text: String(code) }],
-            },
-          ];
-        }
-
-        let res = await sendWaMessage(initialComponents);
-        if (!res.ok && waTemplate) {
-          const errText = await res.text();
-          // If template requires button parameters (Meta Authentication Template with Copy Code button)
-          if (errText.includes('button')) {
-            log.info('[notify:whatsapp] Retrying with Authentication button payload format...');
-            const authComponents = [
-              {
-                type: 'body',
-                parameters: [{ type: 'text', text: String(code) }],
-              },
-              {
-                type: 'button',
-                sub_type: 'url',
-                index: 0,
-                parameters: [{ type: 'text', text: String(code) }],
-              },
-            ];
-            res = await sendWaMessage(authComponents);
-          } else if (errText.includes('does not accept') || errText.includes('parameter')) {
-            log.info('[notify:whatsapp] Retrying with Body-only payload format...');
-            const bodyOnly = [
-              {
-                type: 'body',
-                parameters: [{ type: 'text', text: String(code) }],
-              },
-            ];
-            res = await sendWaMessage(bodyOnly);
-          } else {
-            log.warn(`[notify:whatsapp] WhatsApp send failed (${res.status}): ${errText}`);
-          }
-        }
-
-        if (res.ok) {
-          const respData = await res.json().catch(() => null);
-          const msgId = respData?.messages?.[0]?.id;
-          if (msgId) {
-            log.info(`[notify:whatsapp] Meta accepted OTP message (id: ${msgId})`);
-            sent = true;
-          } else {
-            log.warn('[notify:whatsapp] Meta response did not include a message ID');
-          }
+        // Meta authentication templates require the OTP in the body and OTP button parameters.
+        // Use the configured approved Authentication template; never downgrade to free-form text.
+        const components = [
+          {
+            type: 'body',
+            parameters: [{ type: 'text', text: String(code) }],
+          },
+          {
+            type: 'button',
+            sub_type: 'url',
+            index: '0',
+            parameters: [{ type: 'text', text: String(code) }],
+          },
+        ];
+        const response = await sendWaMessage(components);
+        const responseData = await response.json().catch(() => null);
+        if (response.ok && responseData?.messages?.[0]?.id) {
+          const messageId = responseData.messages[0].id;
+          log.info(`[notify:whatsapp] Meta accepted OTP message (id: ${messageId})`);
+          sent = true;
+          phoneProvider = 'whatsapp';
         } else {
-          const err = await res.text().catch(() => '');
-          log.warn(`[notify:whatsapp] WhatsApp template failed (HTTP ${res.status}): ${err}`);
+          const providerMessage = responseData?.error?.message || 'No message ID returned';
+          log.warn(`[notify:whatsapp] OTP template request rejected (HTTP ${response.status}): ${providerMessage}`);
         }
-
       } catch (err) {
         log.warn(`[notify:whatsapp] error sending via WhatsApp: ${err.message}`);
       }
@@ -139,6 +95,7 @@ export async function sendOtpNotification({ phone, email, code }) {
         if (data.return) {
           log.info(`[notify:sms] OTP sent via Fast2SMS to ${numbers}`);
           sent = true;
+          phoneProvider = 'fast2sms';
         } else {
           log.warn(`[notify:sms] Fast2SMS error:`, data.message);
         }
@@ -169,6 +126,7 @@ export async function sendOtpNotification({ phone, email, code }) {
         if (res.ok) {
           log.info(`[notify:twilio] OTP sent via Twilio to ${cleanPhone}`);
           sent = true;
+          phoneProvider = 'twilio';
         }
       } catch (err) {
         log.warn(`[notify:twilio] Twilio error: ${err.message}`);
@@ -176,8 +134,10 @@ export async function sendOtpNotification({ phone, email, code }) {
     }
 
     if (!sent) {
+      log.warn('[notify:phone] No configured SMS or WhatsApp provider accepted the OTP request');
       throw new Error('No configured SMS or WhatsApp provider accepted the OTP request');
     }
+    providers.push(phoneProvider);
   }
 
   // 3. Deliver via Email (Resend)
@@ -192,11 +152,13 @@ export async function sendOtpNotification({ phone, email, code }) {
       });
       if (result?.error) throw new Error(result.error.message || 'Resend rejected the email');
       log.info(`[notify:email] Resend accepted OTP email for ${cleanEmail}`);
+      providers.push('resend');
     } catch (err) {
       log.warn(`[notify:email] OTP provider failed for ${cleanEmail}: ${err.message}`);
       throw new Error('Email provider rejected the OTP request');
     }
   }
+  return { providers };
 }
 
 /**
