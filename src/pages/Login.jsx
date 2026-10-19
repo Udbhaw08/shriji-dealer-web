@@ -36,6 +36,7 @@ export default function Login() {
   const [flow, setFlow] = useState(null); // null | 'owner' | 'staff'
   const [stage, setStage] = useState("role");
   const [otpTarget, setOtpTarget] = useState(null); // { phone, email, channel, target } or string
+  const [otpProvider, setOtpProvider] = useState(null);
   const [savedPhone, setSavedPhone] = useState("");
   const [savedEmail, setSavedEmail] = useState("");
 
@@ -203,8 +204,9 @@ export default function Login() {
           <>
             {stage === "owner-identify" && (
               <Identify initialPhone={savedPhone} initialEmail={savedEmail}
-                        onSent={(target) => {
+                        onSent={(target, provider) => {
                           setOtpTarget(target);
+                          setOtpProvider(provider || null);
                           if (typeof target === "object" && target !== null) {
                             if (target.phone) setSavedPhone(target.phone);
                             if (target.email) setSavedEmail(target.email);
@@ -217,7 +219,7 @@ export default function Login() {
                         onPasswordOk={afterAuth} onBack={reset} />
             )}
             {stage === "owner-otp" && (
-              <OtpStep target={otpTarget} onVerified={afterAuth}
+              <OtpStep target={otpTarget} provider={otpProvider} onVerified={afterAuth}
                        onEdit={() => setStage("owner-identify")} onBack={reset} />
             )}
             {stage === "owner-match" && <BusinessMatch onYes={() => { setStage("owner-review"); watchApproval(); }}
@@ -239,8 +241,9 @@ export default function Login() {
             {/* Existing staff login path */}
             {stage === "staff-login" && (
               <StaffLogin initialPhone={savedPhone} initialEmail={savedEmail}
-                onSent={(target) => {
+                onSent={(target, provider) => {
                   setOtpTarget(target);
+                  setOtpProvider(provider || null);
                   if (typeof target === "object" && target !== null) {
                     if (target.phone) setSavedPhone(target.phone);
                     if (target.email) setSavedEmail(target.email);
@@ -255,14 +258,15 @@ export default function Login() {
               />
             )}
             {stage === "staff-login-otp" && (
-              <OtpStep target={otpTarget} onVerified={afterAuth}
+              <OtpStep target={otpTarget} provider={otpProvider} onVerified={afterAuth}
                        onEdit={() => setStage("staff-login")} onBack={() => setStage("staff-login")} />
             )}
             {/* New staff signup path */}
             {stage === "staff-invite" && <StaffInvite onNext={(code) => { StaffCtx.code = code; setStage("staff-details"); }} onBack={() => setStage("staff-newexist")} />}
             {stage === "staff-details" && <StaffDetails inviteCode={StaffCtx.code}
-                onSent={(target) => {
+                onSent={(target, provider) => {
                   setOtpTarget(target);
+                  setOtpProvider(provider || null);
                   if (typeof target === "object" && target !== null) {
                     if (target.phone) setSavedPhone(target.phone);
                     if (target.email) setSavedEmail(target.email);
@@ -272,6 +276,7 @@ export default function Login() {
             {stage === "staff-otp" && (
               <OtpStep
                 target={otpTarget}
+                provider={otpProvider}
                 onVerified={async () => {
                   if (StaffCtx.pendingSignup) {
                     try {
@@ -509,11 +514,11 @@ function StaffLogin({ onSent, onPasswordOk, onBack, initialPhone = "", initialEm
 
     run(async () => {
       // Send OTP via backend → WhatsApp Cloud API (Meta)
-      await requestOtp({
+      const result = await requestOtp({
         phone: cleanPhone,
         channel: "phone",
       });
-      onSent({ phone: cleanPhone, email: cleanEmail || null, channel: "phone", target: cleanPhone });
+      onSent({ phone: cleanPhone, email: cleanEmail || null, channel: "phone", target: cleanPhone }, result.provider);
     });
   };
 
@@ -780,7 +785,8 @@ function Identify({ onSent, onPasswordOk, onBack, initialPhone = "", initialEmai
           email: cleanEmail || null,
           channel: "phone",
           target: cleanPhone,
-        }
+        },
+        res.provider
       );
     });
   };
@@ -995,7 +1001,7 @@ function Identify({ onSent, onPasswordOk, onBack, initialPhone = "", initialEmai
 }
 
 /* OTP step — 6 boxes, resend timer, dev code auto-fill */
-function OtpStep({ target, onVerified, onEdit, onBack }) {
+function OtpStep({ target, provider, onVerified, onEdit, onBack }) {
   const [digits, setDigits] = useState(["", "", "", "", "", ""]);
   const [secs, setSecs] = useState(25);
   const [loading, setLoading] = useState(false);
@@ -1064,7 +1070,7 @@ function OtpStep({ target, onVerified, onEdit, onBack }) {
 
   return (
     <WizardShell step={2} steps={5} onBack={onBack} title={isEmail ? "Verify your email" : "Verify your number"}
-                 sub={<>We sent a 6-digit OTP via <b>{isEmail ? "Email" : "WhatsApp & SMS"}</b> to <b>{masked}</b></>}>
+                 sub={<>We requested a 6-digit OTP via <b>{isEmail ? "Email" : provider === "whatsapp" ? "WhatsApp" : provider === "fast2sms" || provider === "twilio" ? "SMS" : "your phone"}</b> for <b>{masked}</b>.</>}>
       {linkedCounterpart && (
         <div className="auth-channels-note" style={{ marginBottom: 10 }}>
           <span className="auth-channel-badge">
@@ -1419,7 +1425,7 @@ function StaffDetails({ inviteCode, onSent, onBack }) {
         full_name: `${form.first_name.trim()} ${form.last_name.trim()}`.trim() || undefined,
       };
       // Send OTP via backend → WhatsApp Cloud API (Meta)
-      await requestOtp({
+      const result = await requestOtp({
         phone: cleanPhone || undefined,
         email: cleanEmail || undefined,
         channel: cleanPhone ? "phone" : "email",
@@ -1429,7 +1435,7 @@ function StaffDetails({ inviteCode, onSent, onBack }) {
         email: cleanEmail,
         channel: cleanPhone ? "phone" : "email",
         target: cleanPhone || cleanEmail,
-      });
+      }, result.provider);
     } catch (err) {
       setError(err.message === "Failed to fetch" ? "Unable to reach the server." : err.message);
     } finally { setLoading(false); }
