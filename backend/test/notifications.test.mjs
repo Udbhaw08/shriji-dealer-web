@@ -132,3 +132,29 @@ test('WhatsApp rejection falls back to configured SMS and reports SMS as provide
   assert.match(requests[1].url, /fast2sms\.com/);
   assert.equal(logEntries.some((entry) => entry.join(' ').includes('654321')), false);
 });
+
+test('WhatsApp rejection does not fall back to a free-form WhatsApp text message', async () => {
+  resetConfig();
+  testEnv.whatsapp.token = 'test-token';
+  testEnv.whatsapp.phoneId = 'test-phone-id';
+  testEnv.whatsapp.templateName = 'verification_code';
+
+  const requests = [];
+  globalThis.fetch = async (url, options) => {
+    requests.push({ url: String(url), body: JSON.parse(options.body) });
+    return new Response(JSON.stringify({ error: { message: 'template rejected for test' } }), {
+      status: 400,
+      headers: { 'Content-Type': 'application/json' },
+    });
+  };
+
+  await assert.rejects(
+    sendOtpNotification({ phone: '+918743874632', code: '112233' }),
+    /No configured SMS or WhatsApp provider accepted/
+  );
+
+  assert.equal(requests.length, 1);
+  assert.equal(requests[0].body.type, 'template');
+  assert.equal(requests[0].body.text, undefined);
+  assert.equal(logEntries.some((entry) => entry.join(' ').includes('112233')), false);
+});
