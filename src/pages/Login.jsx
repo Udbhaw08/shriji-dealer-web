@@ -509,7 +509,7 @@ function StaffLogin({ onSent, onPasswordOk, onBack, initialPhone = "", initialEm
 
     run(async () => {
       // Send OTP via backend → WhatsApp Cloud API (Meta)
-      const res = await requestOtp({
+      await requestOtp({
         phone: cleanPhone,
         channel: "phone",
       });
