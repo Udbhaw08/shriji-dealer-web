@@ -500,8 +500,10 @@ authRouter.post('/otp/request', rateLimit({ windowMs: 10 * 60_000, max: 8 }), as
 
     const user = await findUserByIdentifier({ email: targetEmail, phone: targetPhone });
 
-    const isTestNumber = targetPhone && String(targetPhone).replace(/\D/g, '').endsWith('7738369376');
-    const code = isTestNumber ? '882686' : generateOtp();
+    if (destType === 'phone' && !isValidPhone(dest)) {
+      throw httpError(400, 'Please enter a valid 10-digit mobile number');
+    }
+    const code = generateOtp();
     await sql`
       insert into otp_codes (user_id, identifier, code_hash, expires_at)
       values (${user?.id || null}, ${dest}, ${sha256(code)},
@@ -514,12 +516,10 @@ authRouter.post('/otp/request', rateLimit({ windowMs: 10 * 60_000, max: 8 }), as
       code,
     });
 
-    const exposeDevCode = process.env.ENABLE_DEV_OTP === 'true';
     res.json({
       ok: true,
       destination: destType,
       expires_in_minutes: OTP_TTL_MINUTES,
-      ...(exposeDevCode ? { dev_code: code } : {}),
     });
   } catch (err) { next(err); }
 });
@@ -537,7 +537,6 @@ authRouter.post('/otp/verify', strictLimit, async (req, res, next) => {
     if (!dest) throw httpError(400, 'Mobile number or Email is required');
 
     const cleanCode = String(code).trim();
-    const isTestMatch = (targetPhone && String(targetPhone).replace(/\D/g, '').endsWith('7738369376') && cleanCode === '882686');
     const hashedInput = sha256(cleanCode);
 
     // Find active unexpired OTP code by identifier or user_id
@@ -553,7 +552,7 @@ authRouter.post('/otp/verify', strictLimit, async (req, res, next) => {
       order by oc.created_at desc limit 1`;
     const otp = otpRows[0];
 
-    if (!isTestMatch && (!otp || otp.code_hash !== hashedInput)) {
+    if (!otp || otp.code_hash !== hashedInput) {
       if (otp) await sql`update otp_codes set attempts = attempts + 1 where id = ${otp.id}`;
       throw httpError(401, 'Invalid or expired verification code');
     }
@@ -818,12 +817,10 @@ authRouter.post('/email/request-otp', jwtAuth, rateLimit({ windowMs: 10 * 60_000
       code,
     });
 
-    const exposeDevCode = process.env.ENABLE_DEV_OTP === 'true';
     res.json({
       ok: true,
       email: rawEmail,
       expires_in_minutes: OTP_TTL_MINUTES,
-      ...(exposeDevCode ? { dev_code: code } : {}),
     });
   } catch (err) { next(err); }
 });
