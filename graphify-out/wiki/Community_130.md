@@ -1,37 +1,36 @@
 # Community 130
 
-> 13 nodes · cohesion 0.36
+> 13 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **commerceClient.js** (22 connections) — `backend/src/services/commerceClient.js`
-- **ensureContactPricebookForCrmAccount()** (8 connections) — `backend/src/services/commerceClient.js`
-- **fetchCatalog()** (6 connections) — `backend/src/services/commerceClient.js`
-- **booksFetch()** (5 connections) — `backend/src/services/commerceClient.js`
-- **commerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
-- **commerceFetch()** (5 connections) — `backend/src/services/commerceClient.js`
-- **resolvePricebookId()** (5 connections) — `backend/src/services/commerceClient.js`
-- **assignPricebookToContact()** (4 connections) — `backend/src/services/commerceClient.js`
-- **deactivateCommerceContact()** (3 connections) — `backend/src/services/commerceClient.js`
-- **fetchCommercePricebooks()** (3 connections) — `backend/src/services/commerceClient.js`
-- **fetchPricebookRates()** (3 connections) — `backend/src/services/commerceClient.js`
-- **getAccessToken()** (3 connections) — `backend/src/services/commerceClient.js`
-- **parseRate()** (2 connections) — `backend/src/services/commerceClient.js`
+- **semantic-radar.test.mjs** (15 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **evaluate()** (5 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **dragMouse()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **loadArtifact()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **observe()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **radarRects()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **overlaps()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
 
 ## Relationships
 
-- [[Community 48]] (8 shared connections)
-- [[Community 30]] (7 shared connections)
-- [[Community 106]] (2 shared connections)
-- [[Community 70]] (1 shared connections)
+- [[Community 44]] (1 shared connections)
+- [[Community 132]] (1 shared connections)
+- [[Community 114]] (1 shared connections)
 
 ## Source Files
 
-- `backend/src/services/commerceClient.js`
+- `.agents/skills/archify/test/semantic-radar.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 74 (100%)
+- EXTRACTED: 35 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,53 +1,42 @@
 # Community 79
 
-> 21 nodes · cohesion 0.16
+> 21 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **workflow-compiler.mjs** (102 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **createReadableLayout()** (12 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **readableGroupBounds()** (5 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **authoredNodeWidth()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **compileWorkflowWithFeedback()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **authoredNodeHeight()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **compilerFailure()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **feedbackFailure()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **nodeWidthContributor()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **verticalIntervalsOverlap()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **workflowLabelWidth()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **createLegacyLayout()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **stableCompare()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **stableText()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **stableValueKey()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **workflowEdgeName()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **WorkflowLayoutFeedback** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **cloneWorkflow()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **LEGACY_COLUMN_CENTERS** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **READABLE_CANDIDATE_COST_PRIORITY** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **.constructor()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **ReStor Dealer Web — Auth Architecture Analysis: Firebase vs Supabase** (6 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **3. Detailed Audit of the 4 Portals / 4 Ways** (5 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **2. Codebase Inventory: Where Each Technology Lives** (3 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Portal 1: ReStor Dealer (Shop Owner)** (3 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Portal 2: ReStor Staff (Store Staff / Counter Team)** (3 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Portal 4: ReStor Customer (End Consumer / Retail Buyer)** (3 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **1. Executive Summary & Clarification** (2 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Portal 3: ReStor Brand (Sunshine Brand Managers & Field Execs)** (2 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **2.1 Where Supabase Is Used (Database Layer Only)** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **2.2 Where Firebase Is Used (Authentication & Client Telemetry)** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **4. Architectural Matrix: Supabase vs Firebase** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **5. Verification Checklist & Action Plan** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Current Authentication Flow:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Current Authentication Flow:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Current Authentication Flow:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Key Takeaways:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Target Firebase Unified Flow:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Verification & Firebase Status:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Verification & Firebase Status:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
+- **Verification & Firebase Status:** (1 connections) — `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
 
 ## Relationships
 
-- [[Client Products Data Store]] (31 shared connections)
-- [[Mobile Responsive UI Skill]] (14 shared connections)
-- [[Community 39]] (14 shared connections)
-- [[Community 41]] (10 shared connections)
-- [[Live Pricing Audit Tool]] (8 shared connections)
-- [[Community 119]] (4 shared connections)
-- [[Community 203]] (4 shared connections)
-- [[Community 99]] (3 shared connections)
-- [[Community 134]] (1 shared connections)
-- [[Community 56]] (1 shared connections)
-- [[Community 125]] (1 shared connections)
-- [[Vercel Deployment Routing]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- `docs/AUTH-FIREBASE-VS-SUPABASE-ANALYSIS.md`
 
 ## Audit Trail
 
-- EXTRACTED: 161 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

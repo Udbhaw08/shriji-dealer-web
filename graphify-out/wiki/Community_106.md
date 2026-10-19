@@ -1,44 +1,37 @@
 # Community 106
 
-> 16 nodes · cohesion 0.16
+> 16 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **auth.js** (48 connections) — `backend/src/routes/auth.js`
-- **rateLimit.js** (4 connections) — `backend/src/middleware/rateLimit.js`
-- **notify()** (4 connections) — `backend/src/services/notifications.js`
-- **rateLimit()** (3 connections) — `backend/src/middleware/rateLimit.js`
-- **issueSession()** (3 connections) — `backend/src/routes/auth.js`
-- **linkUserIdentifiers()** (3 connections) — `backend/src/routes/auth.js`
-- **resolveUserWithDealer()** (3 connections) — `backend/src/routes/auth.js`
-- **sendOtpNotification()** (3 connections) — `backend/src/services/notifications.js`
-- **authRouter** (2 connections) — `backend/src/routes/auth.js`
-- **findUserByIdentifier()** (2 connections) — `backend/src/routes/auth.js`
-- **parseIdentifier()** (2 connections) — `backend/src/routes/auth.js`
-- **publicUser()** (2 connections) — `backend/src/routes/auth.js`
-- **buckets** (1 connections) — `backend/src/middleware/rateLimit.js`
-- **googleClient** (1 connections) — `backend/src/routes/auth.js`
-- **lastCrmSyncByDealerId** (1 connections) — `backend/src/routes/auth.js`
-- **strictLimit** (1 connections) — `backend/src/routes/auth.js`
+- **Anti-AI-Slop Guide** (15 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
+- **anti-ai-slop.md** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
+- **Litmus Tests** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
+- **Safe vs. Intentional** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
+- **🚨 THE #1 TELL: INDIGO/VIOLET** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
+- **🚨 THE #2 TELL: CARDS EVERYWHERE** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
+- **🚨 THE #3 TELL: DARK MODE BY DEFAULT** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
+- **🚨 THE #4 TELL: CALM EDITORIAL SERIF ON AUTOPILOT** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
+- **🚨 THE #5 TELL: EMOJI AS ICONS** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
+- **🚨 THE #6 TELL: LEFT ACCENT STRIPE** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
+- **🚨 THE #7 TELL: REFERENCE AVERAGING** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
+- **🚨 THE #8 TELL: TOKEN ROLE DRIFT** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
+- **🚨 THE #9 TELL: FAKE GRAPHICS OR TEXT-ONLY COLLAPSE** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
+- **The AI Slop Detector Checklist** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
+- **The Antidote: Intentional Design** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
+- **What Makes Design Look Generic** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
 
 ## Relationships
 
-- [[Community 30]] (12 shared connections)
-- [[Community 51]] (12 shared connections)
-- [[Community 48]] (8 shared connections)
-- [[Community 70]] (6 shared connections)
-- [[Community 86]] (5 shared connections)
-- [[Community 130]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `backend/src/middleware/rateLimit.js`
-- `backend/src/routes/auth.js`
-- `backend/src/services/notifications.js`
+- `.agents/skills/refero-design/references/anti-ai-slop.md`
 
 ## Audit Trail
 
-- EXTRACTED: 83 (100%)
+- EXTRACTED: 30 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

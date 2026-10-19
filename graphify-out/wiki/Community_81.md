@@ -1,44 +1,47 @@
 # Community 81
 
-> 20 nodes · cohesion 0.15
+> 21 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **buildDeltaSvg()** (16 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **annotateArchitectureSideSvg()** (9 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundaryElements()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **edgeSymbolMarkup()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **markerFor()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **addNodeMarker()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundaryChangeMap()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundaryMarkupByKey()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundaryMarkupParts()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundarySymbolMarkup()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **changeMap()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **elementById()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **forceElementState()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **nodeGroupRanges()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **prefixSvgIds()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **staticize()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **transformBoundaryElements()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **transformNodeGroups()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **forceBoundaryState()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **viewBoxSize()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **hash.js** (18 connections) — `backend/src/utils/hash.js`
+- **loginCode.js** (15 connections) — `backend/src/utils/loginCode.js`
+- **generateLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
+- **hash.test.mjs** (7 connections) — `backend/test/hash.test.mjs`
+- **loginCode.test.mjs** (7 connections) — `backend/test/loginCode.test.mjs`
+- **formatLoginCode()** (7 connections) — `backend/src/utils/loginCode.js`
+- **sha256()** (6 connections) — `backend/src/utils/hash.js`
+- **hashPassword()** (4 connections) — `backend/src/utils/hash.js`
+- **verifyPassword()** (4 connections) — `backend/src/utils/hash.js`
+- **isValidLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
+- **parseLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
+- **generateOtp()** (3 connections) — `backend/src/utils/hash.js`
+- **scryptKey()** (3 connections) — `backend/src/utils/hash.js`
+- **USER_CATEGORIES** (3 connections) — `backend/src/utils/loginCode.js`
+- **generateCode()** (2 connections) — `backend/src/utils/hash.js`
+- **randomToken()** (2 connections) — `backend/src/utils/hash.js`
+- **generateRandomDigits()** (2 connections) — `backend/src/utils/loginCode.js`
+- **generateRandomLetters()** (2 connections) — `backend/src/utils/loginCode.js`
+- **GST_TREATMENT_OPTIONS** (2 connections) — `backend/src/utils/loginCode.js`
+- **SCRYPT** (1 connections) — `backend/src/utils/hash.js`
+- **PREFIX_MAP** (1 connections) — `backend/src/utils/loginCode.js`
 
 ## Relationships
 
-- [[Community 57]] (20 shared connections)
-- [[Community 204]] (2 shared connections)
-- [[Mobile Responsive UI Skill]] (2 shared connections)
+- [[Community 43]] (13 shared connections)
+- [[Community 78]] (6 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
+- `backend/src/utils/hash.js`
+- `backend/src/utils/loginCode.js`
+- `backend/test/hash.test.mjs`
+- `backend/test/loginCode.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 105 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

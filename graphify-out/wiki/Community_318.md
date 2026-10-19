@@ -1,11 +1,12 @@
 # Community 318
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **make-scheme-pdfs.mjs** (1 connections) — `scripts/make-scheme-pdfs.mjs`
-- **createPdfWithJpg()** (1 connections) — `scripts/make-scheme-pdfs.mjs`
+- **repository-language-metadata.test.mjs** (2 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
+- **linguistGenerated()** (1 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
 
 ## Relationships
 
@@ -13,11 +14,11 @@
 
 ## Source Files
 
-- `scripts/make-scheme-pdfs.mjs`
+- `.agents/skills/archify/test/repository-language-metadata.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

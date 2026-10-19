@@ -1,63 +1,51 @@
 # Community 48
 
-> 29 nodes · cohesion 0.15
+> 30 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **pool.js** (26 connections) — `backend/src/db/pool.js`
-- **catalog.js** (16 connections) — `backend/src/services/catalog.js`
-- **logger.js** (14 connections) — `backend/src/utils/logger.js`
-- **env.js** (13 connections) — `backend/src/config/env.js`
-- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
-- **log** (13 connections) — `backend/src/utils/logger.js`
-- **env** (11 connections) — `backend/src/config/env.js`
-- **index.js** (11 connections) — `backend/src/jobs/index.js`
-- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
-- **notifications.js** (9 connections) — `backend/src/services/notifications.js`
-- **syncCatalog()** (7 connections) — `backend/src/services/catalog.js`
-- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
-- **isCommerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
-- **catalogFor()** (4 connections) — `backend/src/services/catalog.js`
-- **loadCatalog()** (4 connections) — `backend/src/services/catalog.js`
-- **catalogSync()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **tokenCleanup()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **markPollRun()** (3 connections) — `backend/src/jobs/crmPoll.js`
-- **migrate-content.js** (3 connections) — `backend/scripts/migrate-content.js`
-- **test-storage.js** (3 connections) — `backend/scripts/test-storage.js`
-- **priceView()** (3 connections) — `backend/src/services/catalog.js`
-- **priceGate.test.mjs** (3 connections) — `backend/test/priceGate.test.mjs`
-- **bool()** (1 connections) — `backend/src/config/env.js`
-- **num()** (1 connections) — `backend/src/config/env.js`
-- **tx()** (1 connections) — `backend/src/db/pool.js`
-- *... and 4 more nodes in this community*
+- **check-update.mjs** (99 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **encodeRecoverableState()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **guardedCacheEntryRead()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **notification()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **operationIsActive()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stateAfterFailedCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stateWithFailureCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertSafeCacheEntry()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cancelResponseBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **corruptClaimStatus()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **encodeBoundedState()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **eventKeyForDigest()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **metadataIsWithinLease()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **nextFailedCheck()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **readBoundedBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stateAfterAcknowledgement()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertRenameableCacheEntry()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertSafeRegularFile()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **CacheOperationRaceError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **CachePathChangedError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **defaultCacheDirectory()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **defaultReleasePath** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **FileIdentityChangedError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **isMainModule()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **MAX_CACHE_HORIZON_MS** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [[Community 30]] (33 shared connections)
-- [[Community 70]] (14 shared connections)
-- [[Community 106]] (8 shared connections)
-- [[Community 130]] (8 shared connections)
-- [[Community 51]] (5 shared connections)
-- [[Master Codebase Architecture Reference]] (2 shared connections)
+- [[Community 91]] (21 shared connections)
+- [[Community 104]] (19 shared connections)
+- [[Community 97]] (19 shared connections)
+- [[Community 63]] (16 shared connections)
+- [[Community 39]] (1 shared connections)
 
 ## Source Files
 
-- `backend/scripts/migrate-content.js`
-- `backend/scripts/test-storage.js`
-- `backend/src/config/env.js`
-- `backend/src/db/pool.js`
-- `backend/src/jobs/catalogSync.js`
-- `backend/src/jobs/crmPoll.js`
-- `backend/src/jobs/index.js`
-- `backend/src/services/catalog.js`
-- `backend/src/services/commerceClient.js`
-- `backend/src/services/notifications.js`
-- `backend/src/utils/logger.js`
-- `backend/test/priceGate.test.mjs`
+- `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 188 (100%)
+- EXTRACTED: 152 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

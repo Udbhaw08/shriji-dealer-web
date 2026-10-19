@@ -110,8 +110,8 @@
     "semantic_hash": ""
   },
   "src/pages/Login.jsx": {
-    "mtime": 1791927347.4619205,
-    "ast_hash": "47d77fa05d9f2b6e9abbc6b68836548d",
+    "mtime": 1792356496.2851596,
+    "ast_hash": "32fc02450471baf381a9e834b89424dd",
     "semantic_hash": ""
   },
   "src/pages/Product.jsx": {
@@ -180,8 +180,8 @@
     "semantic_hash": ""
   },
   "AGENTS.md": {
-    "mtime": 1791154449.018458,
-    "ast_hash": "9488438aeb97db05607cf25793d4ad15",
+    "mtime": 1792277067.7657726,
+    "ast_hash": "5bccaf900d89ba7f38c2b28a491e5be1",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
@@ -190,8 +190,8 @@
     "semantic_hash": ""
   },
   "CODEBASE.md": {
-    "mtime": 1792275102.6467712,
-    "ast_hash": "788ef4f21fb064b1fdf78bb8a5472b38",
+    "mtime": 1792356562.5771637,
+    "ast_hash": "36821bd68529da9d68a55cea4ec9c731",
     "semantic_hash": ""
   },
   "PRD.md": {
@@ -315,8 +315,8 @@
     "semantic_hash": ""
   },
   "GEMINI.md": {
-    "mtime": 1790542811.1390476,
-    "ast_hash": "6ce19ffe76168895f2d54bfff9f143be",
+    "mtime": 1792277080.2981362,
+    "ast_hash": "6551be2af2a484f90165e82a63682ca6",
     "semantic_hash": ""
   },
   "src/components/UnderMaintenance.jsx": {
@@ -600,7 +600,7 @@
     "semantic_hash": ""
   },
   "android/app/capacitor.build.gradle": {
-    "mtime": 1792275107.0863783,
+    "mtime": 1792356565.2910047,
     "ast_hash": "6f95eb3e9a08ae902e6ebee49fae0e87",
     "semantic_hash": ""
   },
@@ -610,22 +610,22 @@
     "semantic_hash": ""
   },
   "android/app/src/main/assets/capacitor.config.json": {
-    "mtime": 1792275107.0171492,
+    "mtime": 1792356565.2482998,
     "ast_hash": "c3b7521daf5e0ffb05c899566a409603",
     "semantic_hash": ""
   },
   "android/app/src/main/assets/capacitor.plugins.json": {
-    "mtime": 1792275107.0632787,
+    "mtime": 1792356565.2734265,
     "ast_hash": "5b7f24f78381c296e8f45d2e08b3387d",
     "semantic_hash": ""
   },
   "android/app/src/main/assets/public/cordova.js": {
-    "mtime": 1792275107.0823767,
+    "mtime": 1792356565.2880015,
     "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
   "android/app/src/main/assets/public/cordova_plugins.js": {
-    "mtime": 1792275107.0833778,
+    "mtime": 1792356565.2880015,
     "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
@@ -645,17 +645,17 @@
     "semantic_hash": ""
   },
   "android/capacitor-cordova-android-plugins/build.gradle": {
-    "mtime": 1792275107.0883791,
+    "mtime": 1792356565.2930079,
     "ast_hash": "2af61653d70c95d20802c8b5c433ba90",
     "semantic_hash": ""
   },
   "android/capacitor-cordova-android-plugins/cordova.variables.gradle": {
-    "mtime": 1792275107.0893788,
+    "mtime": 1792356565.294006,
     "ast_hash": "d2372a0ae9aa60abb8d03e7f06bf9194",
     "semantic_hash": ""
   },
   "android/capacitor.settings.gradle": {
-    "mtime": 1792275107.0853777,
+    "mtime": 1792356565.2910047,
     "ast_hash": "33ed8a9bcb1cb579ff402e4441ceba0e",
     "semantic_hash": ""
   },
@@ -705,22 +705,22 @@
     "semantic_hash": ""
   },
   "ios/App/App/capacitor.config.json": {
-    "mtime": 1792275107.225006,
+    "mtime": 1792356565.3946939,
     "ast_hash": "153d51185cd9c15b71dd6730350bbb1e",
     "semantic_hash": ""
   },
   "ios/App/App/public/cordova.js": {
-    "mtime": 1792275107.1997552,
+    "mtime": 1792356565.3790028,
     "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
   "ios/App/App/public/cordova_plugins.js": {
-    "mtime": 1792275107.1997552,
+    "mtime": 1792356565.3790028,
     "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
   "ios/App/CapApp-SPM/Package.swift": {
-    "mtime": 1792275107.2065792,
+    "mtime": 1792356565.3842285,
     "ast_hash": "d382a118912be7b151ceff8ace266e42",
     "semantic_hash": ""
   },
@@ -740,13 +740,13 @@
     "semantic_hash": ""
   },
   "android/app/src/main/assets/public/index.html": {
-    "mtime": 1792275104.7412052,
-    "ast_hash": "0acbb5a15171abe0f342bbd356330612",
+    "mtime": 1792356564.0458565,
+    "ast_hash": "113648c72f40a487644f48a57bda6a64",
     "semantic_hash": ""
   },
   "ios/App/App/public/index.html": {
-    "mtime": 1792275104.7412052,
-    "ast_hash": "0acbb5a15171abe0f342bbd356330612",
+    "mtime": 1792356564.0458565,
+    "ast_hash": "113648c72f40a487644f48a57bda6a64",
     "semantic_hash": ""
   },
   "ios/App/CapApp-SPM/README.md": {
@@ -2610,8 +2610,8 @@
     "semantic_hash": ""
   },
   "backend/src/config/env.js": {
-    "mtime": 1791704344.5843265,
-    "ast_hash": "b1e8ca4d7148d4290a885a5c3a1e09dc",
+    "mtime": 1792354391.2569551,
+    "ast_hash": "aeaac8e0ac9ad4d20405547dee4ab0f0",
     "semantic_hash": ""
   },
   "backend/src/db/migrate.js": {
@@ -2660,8 +2660,8 @@
     "semantic_hash": ""
   },
   "backend/src/routes/auth.js": {
-    "mtime": 1791926007.0139875,
-    "ast_hash": "3fbfd55b653839f3d71c5e0076e9af24",
+    "mtime": 1792356524.866357,
+    "ast_hash": "9a6e9f0b2d862d2a0f6260616519f175",
     "semantic_hash": ""
   },
   "backend/src/routes/dealers.js": {
@@ -2710,8 +2710,8 @@
     "semantic_hash": ""
   },
   "backend/src/services/notifications.js": {
-    "mtime": 1792254607.6655638,
-    "ast_hash": "502431bfcd35d80c9b5145175173ca63",
+    "mtime": 1792356201.53192,
+    "ast_hash": "7cf639b1757edad25276be1f8b93abf4",
     "semantic_hash": ""
   },
   "backend/src/services/staff.js": {
@@ -2875,8 +2875,8 @@
     "semantic_hash": ""
   },
   "src/components/EmailVerificationPrompt.jsx": {
-    "mtime": 1791924963.341118,
-    "ast_hash": "230e7c30a0f9a38debd8701b428689bd",
+    "mtime": 1792356503.1655855,
+    "ast_hash": "b4dbd2665b6023ac60094086701fb271",
     "semantic_hash": ""
   },
   "backend/src/utils/validators.js": {
@@ -2910,8 +2910,8 @@
     "semantic_hash": ""
   },
   "backend/scripts/test-whatsapp.js": {
-    "mtime": 1792254591.7445061,
-    "ast_hash": "b4aeb2c7db905f5ef8a354059c8568a6",
+    "mtime": 1792356210.509681,
+    "ast_hash": "adaf7d7f429c1d1d611059cbf0e0eb75",
     "semantic_hash": ""
   },
   "api/download.js": {
@@ -3022,46 +3022,6 @@
   "src/pages/TermsOfService.jsx": {
     "mtime": 1792257213.8824916,
     "ast_hash": "0522494397df2a13b3879636a5b6631c",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/assets/esm-Cj-rP6Qi.js": {
-    "mtime": 1792275104.738205,
-    "ast_hash": "052fb69f4feeddc54c1763b9ec8ab9aa",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/assets/index-DW7U0CFW.js": {
-    "mtime": 1792275104.738205,
-    "ast_hash": "06bd23d6a316dd109a560e430b14ec07",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/assets/web-CTECFstK.js": {
-    "mtime": 1792275104.7392082,
-    "ast_hash": "d1cd836c951e9868efe04b2a598e82e5",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/assets/web-DPADySG-.js": {
-    "mtime": 1792275104.7392082,
-    "ast_hash": "83e1ec04682df7de6659ddf4b585247e",
-    "semantic_hash": ""
-  },
-  "ios/App/App/public/assets/esm-Cj-rP6Qi.js": {
-    "mtime": 1792275104.738205,
-    "ast_hash": "052fb69f4feeddc54c1763b9ec8ab9aa",
-    "semantic_hash": ""
-  },
-  "ios/App/App/public/assets/index-DW7U0CFW.js": {
-    "mtime": 1792275104.738205,
-    "ast_hash": "06bd23d6a316dd109a560e430b14ec07",
-    "semantic_hash": ""
-  },
-  "ios/App/App/public/assets/web-CTECFstK.js": {
-    "mtime": 1792275104.7392082,
-    "ast_hash": "d1cd836c951e9868efe04b2a598e82e5",
-    "semantic_hash": ""
-  },
-  "ios/App/App/public/assets/web-DPADySG-.js": {
-    "mtime": 1792275104.7392082,
-    "ast_hash": "83e1ec04682df7de6659ddf4b585247e",
     "semantic_hash": ""
   },
   "backend/scripts/check-whatsapp-status.js": {
@@ -3187,6 +3147,136 @@
   ".agents/skills/refero-design/references/visual-workflow.md": {
     "mtime": 1792276379.210988,
     "ast_hash": "8828ca388f6993778608f3e2ff07db49",
+    "semantic_hash": ""
+  },
+  ".agents/rules/redesign_instructions.md": {
+    "mtime": 1792277055.0611882,
+    "ast_hash": "fb1e153408316c039d8d95fa52b09562",
+    "semantic_hash": ""
+  },
+  ".agents/skills/swiftui-pro/SKILL.md": {
+    "mtime": 1792276803.5847657,
+    "ast_hash": "3b9c47dcf9883db2663f0f730d10b4a9",
+    "semantic_hash": ""
+  },
+  ".agents/skills/swiftui-pro/agents/openai.yaml": {
+    "mtime": 1792276803.5857656,
+    "ast_hash": "75b07446dfc2337e0ff9c2eccc5e2051",
+    "semantic_hash": ""
+  },
+  ".agents/skills/swiftui-pro/references/accessibility.md": {
+    "mtime": 1792276803.5887651,
+    "ast_hash": "cef76212b0c610d10a278ce7cbe0fd91",
+    "semantic_hash": ""
+  },
+  ".agents/skills/swiftui-pro/references/api.md": {
+    "mtime": 1792276803.5887651,
+    "ast_hash": "9e00cf56f85aa49f4ee0d5a2e18cc139",
+    "semantic_hash": ""
+  },
+  ".agents/skills/swiftui-pro/references/data.md": {
+    "mtime": 1792276803.589766,
+    "ast_hash": "91618763ebfaeafd348c94da6d8c1a97",
+    "semantic_hash": ""
+  },
+  ".agents/skills/swiftui-pro/references/design.md": {
+    "mtime": 1792276803.589766,
+    "ast_hash": "32aa5d014847a17957505be7073a8f78",
+    "semantic_hash": ""
+  },
+  ".agents/skills/swiftui-pro/references/hygiene.md": {
+    "mtime": 1792276803.5907671,
+    "ast_hash": "6d4d3c7afc32d2d5dac6b26e54f16ed1",
+    "semantic_hash": ""
+  },
+  ".agents/skills/swiftui-pro/references/localization.md": {
+    "mtime": 1792276803.5907671,
+    "ast_hash": "69a3cd4bc4896d2ecb404ed831d86618",
+    "semantic_hash": ""
+  },
+  ".agents/skills/swiftui-pro/references/navigation.md": {
+    "mtime": 1792276803.5917664,
+    "ast_hash": "fe4d68bb35181c80c2329fe0f122ef02",
+    "semantic_hash": ""
+  },
+  ".agents/skills/swiftui-pro/references/performance-plus.md": {
+    "mtime": 1792276803.5917664,
+    "ast_hash": "56497506e4c2e6cf3e739148ba466b78",
+    "semantic_hash": ""
+  },
+  ".agents/skills/swiftui-pro/references/performance.md": {
+    "mtime": 1792276803.5927684,
+    "ast_hash": "ac1e307967d604910a12f82e8189d34f",
+    "semantic_hash": ""
+  },
+  ".agents/skills/swiftui-pro/references/resizability.md": {
+    "mtime": 1792276803.5937755,
+    "ast_hash": "9488f01bb6bb933f16dca076bb623187",
+    "semantic_hash": ""
+  },
+  ".agents/skills/swiftui-pro/references/swift.md": {
+    "mtime": 1792276803.5937755,
+    "ast_hash": "4998cc5cad802b401764514838c55a73",
+    "semantic_hash": ""
+  },
+  ".agents/skills/swiftui-pro/references/views.md": {
+    "mtime": 1792276803.594766,
+    "ast_hash": "9457d591a2fb25a2b674ad7d8f33f47a",
+    "semantic_hash": ""
+  },
+  "instructions.md": {
+    "mtime": 1792277037.256835,
+    "ast_hash": "937f04b59a48aa5277668f96d8f630e0",
+    "semantic_hash": ""
+  },
+  ".agents/skills/swiftui-pro/assets/swiftui-pro-icon.png": {
+    "mtime": 1792276803.5867653,
+    "ast_hash": "9240af6f350bad0673b351c6bade5710",
+    "semantic_hash": ""
+  },
+  ".agents/skills/swiftui-pro/assets/swiftui-pro-icon.svg": {
+    "mtime": 1792276803.5867653,
+    "ast_hash": "7ce21d29e3111962f54c08157b61a01e",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/assets/esm-B9ir2KuO.js": {
+    "mtime": 1792356564.0438566,
+    "ast_hash": "97b1bb565f6f77f8a250a8874e6f1436",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/assets/index-DXfsqET_.js": {
+    "mtime": 1792356564.0438566,
+    "ast_hash": "698728074a59c92d4258ace9eccf0c73",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/assets/web-DzsWC0i3.js": {
+    "mtime": 1792356564.0448554,
+    "ast_hash": "20d3edb98139821a2faf1b540191c9be",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/assets/web-K3WBvWWr.js": {
+    "mtime": 1792356564.0448554,
+    "ast_hash": "552fd2bf845e5157035d2d66f7005e8c",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/assets/esm-B9ir2KuO.js": {
+    "mtime": 1792356564.0438566,
+    "ast_hash": "97b1bb565f6f77f8a250a8874e6f1436",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/assets/index-DXfsqET_.js": {
+    "mtime": 1792356564.0438566,
+    "ast_hash": "698728074a59c92d4258ace9eccf0c73",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/assets/web-DzsWC0i3.js": {
+    "mtime": 1792356564.0448554,
+    "ast_hash": "20d3edb98139821a2faf1b540191c9be",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/assets/web-K3WBvWWr.js": {
+    "mtime": 1792356564.0448554,
+    "ast_hash": "552fd2bf845e5157035d2d66f7005e8c",
     "semantic_hash": ""
   }
 }

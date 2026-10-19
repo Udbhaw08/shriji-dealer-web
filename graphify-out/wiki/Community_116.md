@@ -1,48 +1,41 @@
 # Community 116
 
-> 14 nodes · cohesion 0.19
+> 14 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **findChrome()** (22 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **export-cleanup-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **viewer-identifiers-browser.test.mjs** (7 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **evaluate()** (4 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **executable()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **findOnPath()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **run()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **exported()** (2 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **intent-trace-browser.test.mjs** (15 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **desktop-browser.mjs** (8 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **desktopBrowser()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **desktopPointerCheck()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **afterTimer()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
 
 ## Relationships
 
-- [[Community 52]] (7 shared connections)
-- [[Community 44]] (6 shared connections)
-- [[Community 87]] (2 shared connections)
-- [[Community 62]] (2 shared connections)
-- [[Community 80]] (2 shared connections)
-- [[Community 131]] (1 shared connections)
+- [[Community 60]] (9 shared connections)
+- [[Community 128]] (3 shared connections)
+- [[Community 129]] (3 shared connections)
+- [[Community 44]] (2 shared connections)
 - [[Community 132]] (1 shared connections)
 - [[Community 114]] (1 shared connections)
-- [[Community 34]] (1 shared connections)
-- [[Community 146]] (1 shared connections)
-- [[Community 180]] (1 shared connections)
-- [[Community 133]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- `.agents/skills/archify/test/intent-trace-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 62 (100%)
+- EXTRACTED: 63 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

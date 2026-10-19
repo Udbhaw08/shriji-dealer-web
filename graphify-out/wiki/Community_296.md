@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **row** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **9. Line Length (Measure)** (3 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Guidelines** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Implementation** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- [[Testing & Workflow Skill]] (1 shared connections)
+- [[Community 166]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 

@@ -1,52 +1,53 @@
 # Community 46
 
-> 30 nodes · cohesion 0.09
+> 32 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **check-update.mjs** (99 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **encodeRecoverableState()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **guardedCacheEntryRead()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **notification()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationIsActive()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stateAfterFailedCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stateWithFailureCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertSafeCacheEntry()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cancelResponseBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **corruptClaimStatus()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **encodeBoundedState()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **eventKeyForDigest()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **metadataIsWithinLease()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **nextFailedCheck()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **readBoundedBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stateAfterAcknowledgement()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertRenameableCacheEntry()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertSafeRegularFile()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **CacheOperationRaceError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **CachePathChangedError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **defaultCacheDirectory()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **defaultReleasePath** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **FileIdentityChangedError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **isMainModule()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **MAX_CACHE_HORIZON_MS** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- *... and 5 more nodes in this community*
+- **archify.mjs** (50 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandDeliver()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandMigrate()** (17 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandValidate()** (13 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandRender()** (10 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandPreview()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **diagnostic()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **rendererPath()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **renderValidatedArchitecture()** (8 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractQualityArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractRepoRootArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **rejectCliArgument()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **assertEvidenceType()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **checkerDiagnostics()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **rendererEnv()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **rendererFailure()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportArtifactFailure()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **inputDiagnostic()** (4 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **engineeringProfileFromArtifact()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **migrationPathDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **migrationReport()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportArtifactArgumentFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportDeliveryFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportValidateFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **sourceEvidenceFromArtifact()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [[Community 90]] (21 shared connections)
-- [[Community 103]] (19 shared connections)
-- [[Community 96]] (19 shared connections)
-- [[Community 60]] (16 shared connections)
-- [[Community 38]] (1 shared connections)
+- [[Community 124]] (27 shared connections)
+- [[Community 206]] (11 shared connections)
+- [[Community 98]] (4 shared connections)
+- [[Community 118]] (3 shared connections)
+- [[Community 182]] (2 shared connections)
+- [[Community 64]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-update.mjs`
+- `.agents/skills/archify/bin/archify.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 152 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 221 (97%)
+- INFERRED: 6 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

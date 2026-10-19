@@ -1,56 +1,56 @@
 # Zoho Integration Architecture
 
-> 69 nodes · cohesion 0.06
+> 60 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **D()** (24 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **ht()** (22 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **ip()** (14 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **on()** (14 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **Ct()** (13 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **vt()** (13 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **ae()** (12 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **O()** (12 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **rf()** (12 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **tp()** (12 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **zd()** (12 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **error()** (11 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **lf()** (11 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **vn()** (11 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **te()** (10 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **tn()** (10 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **xt()** (10 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **ff()** (9 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **k()** (9 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **ke()** (9 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **ln()** (9 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **mt()** (9 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **wt()** (9 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **af()** (8 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **ef()** (8 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- *... and 44 more nodes in this community*
+- **delete()** (29 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **addEventListener()** (21 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **b()** (18 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **.removeEventListener()** (17 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **h()** (14 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **fp()** (13 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **lp()** (13 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **Vp()** (13 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **tp()** (12 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **Bp()** (9 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **_onStorageEvent()** (9 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **tm()** (9 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **addListener()** (8 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **cf()** (8 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **.addEventListener()** (7 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **gf()** (7 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **.blur()** (6 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **.scrollIntoView()** (6 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **g()** (6 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **removeListener()** (6 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **Rp()** (6 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **v()** (6 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **wo()** (6 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **Yp()** (6 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **hm()** (5 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- *... and 35 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (76 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (42 shared connections)
-- [[Product Pages Specification]] (27 shared connections)
-- [[Graphify Knowledge Graph Skill]] (16 shared connections)
-- [[Product Brand & Business Vision]] (13 shared connections)
-- [[Architecture Doc Generator]] (8 shared connections)
-- [[Community 92]] (7 shared connections)
-- [[Community 53]] (5 shared connections)
-- [[Community 40]] (5 shared connections)
-- [[Community 104]] (2 shared connections)
+- [[Dealer Auth & Session Management]] (65 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (26 shared connections)
+- [[Design System & UI Tokens]] (25 shared connections)
+- [[Product Brand & Business Vision]] (16 shared connections)
+- [[Graphify Knowledge Graph Skill]] (12 shared connections)
+- [[Pricing & Roles Skill]] (10 shared connections)
+- [[Architecture Doc Generator]] (9 shared connections)
+- [[Community 71]] (7 shared connections)
+- [[Community 75]] (4 shared connections)
+- [[Community 49]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
 
 ## Audit Trail
 
-- EXTRACTED: 493 (100%)
+- EXTRACTED: 372 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

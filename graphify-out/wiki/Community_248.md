@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **4. Text Color System** (5 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Anti-pattern** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Dark Mode Inversion** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Rules That Actually Work** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **The System** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Shriji Domestic Appliances — Sunshine Dealer Web** (4 connections) — `README.md`
+- **README.md** (1 connections) — `README.md`
+- **Documentation** (1 connections) — `README.md`
+- **Layout** (1 connections) — `README.md`
+- **Two things to know before you change anything** (1 connections) — `README.md`
 
 ## Relationships
 
-- [[Community 167]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `README.md`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

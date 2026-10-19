@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **site-language-integration.mjs** (0 connections) — `.agents/skills/archify/test/site-language-integration.mjs`
+- **build.gradle** (0 connections) — `android/build.gradle`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/site-language-integration.mjs`
+- `android/build.gradle`
 
 ## Audit Trail
 

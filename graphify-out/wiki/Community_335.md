@@ -1,10 +1,11 @@
 # Community 335
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **cordova_plugins.js** (0 connections) — `ios/App/App/public/cordova_plugins.js`
+- **test-supabase.mjs** (1 connections) — `scripts/test-supabase.mjs`
+- **test()** (1 connections) — `scripts/test-supabase.mjs`
 
 ## Relationships
 
@@ -12,11 +13,11 @@
 
 ## Source Files
 
-- `ios/App/App/public/cordova_plugins.js`
+- `scripts/test-supabase.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

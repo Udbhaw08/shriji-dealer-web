@@ -1,8 +1,8 @@
 # i()
 
-> God node · 66 connections · `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+> God node · 66 connections · `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
 
-**Community:** [[Zoho Backend & Proxy Endpoints]]
+**Community:** [[Community 71]]
 
 ## Connections by Relation
 

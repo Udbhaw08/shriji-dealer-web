@@ -4,22 +4,22 @@
 
 ## Key Concepts
 
-- **sync-all.mjs** (3 connections) — `scripts/sync-all.mjs`
-- **isVercel** (1 connections) — `scripts/sync-all.mjs`
-- **rootDir** (1 connections) — `scripts/sync-all.mjs`
-- **run()** (1 connections) — `scripts/sync-all.mjs`
+- **via** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 29]] (1 shared connections)
 
 ## Source Files
 
-- `scripts/sync-all.mjs`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

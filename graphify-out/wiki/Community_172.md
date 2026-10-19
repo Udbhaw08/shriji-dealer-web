@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Shriji Pricing & Roles Skill** (5 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **User Roles & View Modes** (4 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **1. Guest View (Public)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **2. Dealer View (Authenticated)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **3. Customer Shared View (`?from=<dealer_id>`)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **Key Files** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **Schemes Logic** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **Zero-Price Handling** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **Critical Mobile Responsiveness Safeguards** (6 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **Shriji Responsive UI Skill** (3 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **1. Viewport Zoom-Out Prevention** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **2. CSS Grid Child Shrinking** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **3. Product Card Rows on Mobile (`<= 719px`)** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **4. Horizontal Scrollable Tabs (`.utabs`, `.tabs`)** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **5. Hero Banner on Small Screens (`<= 640px`)** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **Design System Tokens** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- `.agents/skills/shriji-responsive-ui/SKILL.md`
 
 ## Audit Trail
 

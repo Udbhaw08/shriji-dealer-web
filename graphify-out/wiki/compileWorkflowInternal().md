@@ -2,7 +2,7 @@
 
 > God node · 67 connections · `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
 
-**Community:** [[Client Products Data Store]]
+**Community:** [[Pricing Regression Test Suite]]
 
 ## Connections by Relation
 

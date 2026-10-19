@@ -4,26 +4,31 @@
 
 ## Key Concepts
 
-- **Visual Workflow** (6 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **visual-workflow.md** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Generated Assets** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Image Generation Capability** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Three Visual Directions** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Visual QA** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Visual Target Gate** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **commandCompare()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commitComparePair()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractCompareOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **formatDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportCompareFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **compareCommitError()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **compareReceiptPath()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 46]] (11 shared connections)
+- [[Community 105]] (4 shared connections)
+- [[Community 124]] (3 shared connections)
+- [[Community 83]] (2 shared connections)
+- [[Community 61]] (2 shared connections)
+- [[Community 98]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/visual-workflow.md`
+- `.agents/skills/archify/bin/archify.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 27 (75%)
+- INFERRED: 9 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

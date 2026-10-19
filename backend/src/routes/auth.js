@@ -514,11 +514,12 @@ authRouter.post('/otp/request', rateLimit({ windowMs: 10 * 60_000, max: 8 }), as
       code,
     });
 
+    const exposeDevCode = process.env.ENABLE_DEV_OTP === 'true';
     res.json({
       ok: true,
       destination: destType,
       expires_in_minutes: OTP_TTL_MINUTES,
-      ...(process.env.NODE_ENV !== 'production' || isTestNumber ? { dev_code: code } : {}),
+      ...(exposeDevCode ? { dev_code: code } : {}),
     });
   } catch (err) { next(err); }
 });
@@ -817,11 +818,12 @@ authRouter.post('/email/request-otp', jwtAuth, rateLimit({ windowMs: 10 * 60_000
       code,
     });
 
+    const exposeDevCode = process.env.ENABLE_DEV_OTP === 'true';
     res.json({
       ok: true,
       email: rawEmail,
       expires_in_minutes: OTP_TTL_MINUTES,
-      ...(process.env.NODE_ENV !== 'production' ? { dev_code: code } : {}),
+      ...(exposeDevCode ? { dev_code: code } : {}),
     });
   } catch (err) { next(err); }
 });

@@ -1,20 +1,19 @@
 # Community 148
 
-> 11 nodes · cohesion 0.18
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **release-package-gates.test.mjs** (10 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **canonicalZipTest()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **centralDirectoryModes()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **currentNodeMajor** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **spawnBuildZip()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **stagedFixture()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **workflowJob()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **workflowStep()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **writeArchive()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **Viewer Runtime reference** (6 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Canonical exports** (4 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **viewer-runtime.md** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Exploration** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Guided views and story** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Motion and presentation** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Reach Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Route Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Truth boundary** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
 
 ## Relationships
 
@@ -22,11 +21,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/release-package-gates.test.mjs`
+- `.agents/skills/archify/references/viewer-runtime.md`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

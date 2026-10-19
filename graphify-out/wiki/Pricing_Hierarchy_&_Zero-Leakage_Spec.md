@@ -1,61 +1,66 @@
 # Pricing Hierarchy & Zero-Leakage Spec
 
-> 51 nodes · cohesion 0.06
+> 56 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **render-architecture.mjs** (122 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderLegend()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **grid.mjs** (6 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **alignFacingPorts()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **buildLayoutReport()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **layoutBoundaryTitles()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **sideAwareBridgeCandidates()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **relationshipLegendObstacles()** (5 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **resolveComponentPos()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **validateGridPlacement()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **boundaryLabelWidth()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **measureBoundaryTitle()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **resolveBoundaryTitles()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **routeClearsComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **routeClearsEndpointComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **minimumReadableSourceTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **layout-report.mjs** (4 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
-- **grid.test.mjs** (4 connections) — `.agents/skills/archify/test/grid.test.mjs`
-- **gridLayout()** (3 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **autoViewBoxFor()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **expandBoundaryForReadableTitle()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **resolvedViewBoxWidth()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **connectionPath()** (3 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
-- **connectionEndpointSide()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **legendY()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- *... and 26 more nodes in this community*
+- **cli.mjs** (43 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **diagnostics.mjs** (27 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **throwDiagnosticError()** (16 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **throwDiagnosticProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **writeDiagram()** (10 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **engineering-profiles.mjs** (10 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **validator.mjs** (10 connections) — `.agents/skills/archify/renderers/shared/validator.mjs`
+- **validateSchema()** (10 connections) — `.agents/skills/archify/renderers/shared/validator.mjs`
+- **engineering-profile.test.mjs** (10 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **render-workflow.mjs** (10 connections) — `.agents/skills/archify/renderers/workflow/render-workflow.mjs`
+- **loadDiagram()** (9 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **loadDiagramWithBrandMarks()** (8 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **settled-flow.test.mjs** (8 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **validateEngineeringProfile()** (6 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **normalizedDiagnostic()** (4 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **deploymentOwnershipDiagnostics()** (4 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **validateGuidedViews()** (3 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **validateRelationshipIds()** (3 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **fallbackDiagnostic()** (3 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **withDiagnosticRecordingSuppressed()** (3 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **renderCards()** (3 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **installRendererDiagnosticBoundary()** (2 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **plainObject()** (2 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **rendererFailure()** (2 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **subject()** (2 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- *... and 31 more nodes in this community*
 
 ## Relationships
 
-- [[Client Products Data Store]] (35 shared connections)
-- [[Mobile Responsive UI Skill]] (21 shared connections)
-- [[Community 39]] (19 shared connections)
-- [[Community 41]] (14 shared connections)
-- [[Live Pricing Audit Tool]] (5 shared connections)
-- [[Community 99]] (4 shared connections)
-- [[Community 44]] (3 shared connections)
-- [[Vercel Deployment Routing]] (1 shared connections)
-- [[Community 79]] (1 shared connections)
+- [[Oxlint Linter Configuration]] (11 shared connections)
+- [[Community 42]] (10 shared connections)
+- [[Community 40]] (9 shared connections)
+- [[Community 82]] (8 shared connections)
+- [[Pricing Regression Test Suite]] (8 shared connections)
+- [[Community 100]] (7 shared connections)
+- [[Graphify Agent Rules]] (6 shared connections)
+- [[Community 136]] (6 shared connections)
+- [[Mobile Responsive UI Skill]] (5 shared connections)
+- [[Community 98]] (4 shared connections)
+- [[Community 118]] (4 shared connections)
+- [[Community 157]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/grid.mjs`
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- `.agents/skills/archify/renderers/shared/layout-report.mjs`
-- `.agents/skills/archify/renderers/shared/legend.mjs`
-- `.agents/skills/archify/test/grid.test.mjs`
+- `.agents/skills/archify/renderers/shared/cli.mjs`
+- `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `.agents/skills/archify/renderers/shared/validator.mjs`
+- `.agents/skills/archify/renderers/workflow/render-workflow.mjs`
+- `.agents/skills/archify/test/engineering-profile.test.mjs`
+- `.agents/skills/archify/test/settled-flow.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 253 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 256 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

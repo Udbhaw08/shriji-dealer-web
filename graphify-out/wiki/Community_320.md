@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **checkout-line-endings.test.mjs** (1 connections) — `.agents/skills/archify/test/checkout-line-endings.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/checkout-line-endings.test.mjs`
+- **esm-B9ir2KuO.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-B9ir2KuO.js`
+- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-B9ir2KuO.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/checkout-line-endings.test.mjs`
+- `android/app/src/main/assets/public/assets/esm-B9ir2KuO.js`
 
 ## Audit Trail
 

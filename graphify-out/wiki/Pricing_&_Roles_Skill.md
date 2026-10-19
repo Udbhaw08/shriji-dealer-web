@@ -1,49 +1,55 @@
 # Pricing & Roles Skill
 
-> 50 nodes · cohesion 0.07
+> 54 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **check-render-output.mjs** (57 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **parseAttrs()** (7 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectArrows()** (6 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **numberAttr()** (6 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectCompositionFrames()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectLegendBoxes()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **lineSegments()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectDesktopReadability()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectNonFiniteAttrs()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **pathSegments()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **straightPathSegments()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **textBox()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **projectedNodeTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **attrEntries()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectLegendCollisions()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectRelationshipLabelMasks()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **crossProduct()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **isCommand()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **pointsFromPath()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **properSegmentIntersection()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **segmentIntersectsBox()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **segmentsIntersect()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **stripTags()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectRelationshipCrossings()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **decodeNumericReferences()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- *... and 25 more nodes in this community*
+- **create()** (27 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **Z()** (25 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **wl()** (18 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **warn()** (16 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **l()** (14 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **Si()** (13 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **_u()** (12 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **Uu()** (12 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **bi()** (11 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **Gi()** (11 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **tu()** (10 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **kl()** (9 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **Nd()** (9 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **nu()** (9 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **request()** (9 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **Sp()** (9 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **su()** (9 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **eu()** (8 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **hu()** (8 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **iu()** (8 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **or()** (8 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **ou()** (8 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **Du()** (7 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **em()** (7 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- **oc()** (7 connections) — `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
+- *... and 29 more nodes in this community*
 
 ## Relationships
 
-- [[Client Products Data Store]] (6 shared connections)
-- [[Community 44]] (4 shared connections)
+- [[Dealer Auth & Session Management]] (63 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (51 shared connections)
+- [[Design System & UI Tokens]] (31 shared connections)
+- [[Graphify Knowledge Graph Skill]] (15 shared connections)
+- [[Zoho Integration Architecture]] (10 shared connections)
+- [[Architecture Doc Generator]] (9 shared connections)
+- [[Product Brand & Business Vision]] (8 shared connections)
+- [[Community 71]] (7 shared connections)
+- [[Community 49]] (5 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- `.agents/skills/archify/scripts/check-render-output.mjs`
+- `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
 
 ## Audit Trail
 
-- EXTRACTED: 182 (100%)
+- EXTRACTED: 411 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

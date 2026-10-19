@@ -1,8 +1,8 @@
 # get()
 
-> God node · 49 connections · `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+> God node · 49 connections · `android/app/src/main/assets/public/assets/index-DXfsqET_.js`
 
-**Community:** [[Product Pages Specification]]
+**Community:** [[Design System & UI Tokens]]
 
 ## Connections by Relation
 

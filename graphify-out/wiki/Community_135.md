@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **DEALER-HIERARCHY-AND-WORKFLOW.md — Business, Dealer & Staff Hierarchy Model** (6 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **3. End-to-End User Journey & Life Cycle** (3 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **4. Zoho CRM Data Structure** (3 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **1. The Three-Tier Hierarchy Model** (2 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **DEALER-HIERARCHY-AND-WORKFLOW.md** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **2. Two-Stage Approval Separation** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **5. Technical Seams to Adapt** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **Accounts Module (Business Entity)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **Contacts Module (People Hierarchy)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **Hierarchy Breakdown:** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **Phase A: Dealer Onboarding (Head Approval)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **Phase B: Staff Onboarding via Dealer Code (Dealer Approval)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **generate-codebase-doc.mjs** (11 connections) — `scripts/generate-codebase-doc.mjs`
+- **allFiles** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **apiFiles** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **components** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **dataStores** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **getFiles()** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **istDateString** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **pages** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **pkg** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **rootDir** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **routes** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **scripts** (1 connections) — `scripts/generate-codebase-doc.mjs`
 
 ## Relationships
 
@@ -23,7 +23,7 @@
 
 ## Source Files
 
-- `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- `scripts/generate-codebase-doc.mjs`
 
 ## Audit Trail
 

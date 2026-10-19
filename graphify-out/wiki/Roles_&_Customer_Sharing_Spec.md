@@ -1,57 +1,57 @@
 # Roles & Customer Sharing Spec
 
-> 54 nodes · cohesion 0.08
+> 56 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **D()** (24 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **ht()** (22 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **ip()** (14 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **on()** (14 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **Ct()** (13 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **vt()** (13 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **ae()** (12 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **O()** (12 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **vn()** (11 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **te()** (10 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **tn()** (10 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **xt()** (10 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **ff()** (9 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **k()** (9 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **ke()** (9 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **ln()** (9 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **mt()** (9 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **wt()** (9 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **af()** (8 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **hn()** (8 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **pt()** (8 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **Sn()** (8 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **yn()** (8 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **le()** (7 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- **Rd()** (7 connections) — `ios/App/App/public/assets/index-DW7U0CFW.js`
-- *... and 29 more nodes in this community*
+- **create()** (27 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **Z()** (25 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **wl()** (18 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **warn()** (16 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **Si()** (13 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **_u()** (12 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **Uu()** (12 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **bi()** (11 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **Gi()** (11 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **tu()** (10 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **Nd()** (9 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **nu()** (9 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **request()** (9 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **Sp()** (9 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **su()** (9 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **eu()** (8 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **hu()** (8 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **iu()** (8 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **ou()** (8 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **Du()** (7 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **em()** (7 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **oc()** (7 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **wu()** (7 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **Xc()** (7 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **zu()** (7 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- *... and 31 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (60 shared connections)
-- [[Dependencies & Package Config]] (20 shared connections)
-- [[Graphify Agent Rules]] (15 shared connections)
-- [[Zoho Integration Skill]] (13 shared connections)
-- [[Product Requirements Documentation]] (12 shared connections)
-- [[Community 58]] (12 shared connections)
-- [[Community 63]] (8 shared connections)
-- [[Community 71]] (8 shared connections)
-- [[Pricing Regression Test Suite]] (5 shared connections)
-- [[Oxlint Linter Configuration]] (4 shared connections)
-- [[Community 49]] (3 shared connections)
+- [[Price Presentation & Product UI]] (64 shared connections)
+- [[Dependencies & Package Config]] (49 shared connections)
+- [[Product Requirements Documentation]] (28 shared connections)
+- [[Zoho Integration Skill]] (16 shared connections)
+- [[Community 53]] (8 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (8 shared connections)
+- [[Community 38]] (8 shared connections)
+- [[Graphify Workflow]] (7 shared connections)
+- [[Client Products Data Store]] (6 shared connections)
+- [[Community 51]] (3 shared connections)
+- [[Community 73]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DW7U0CFW.js`
+- `ios/App/App/public/assets/index-DXfsqET_.js`
 
 ## Audit Trail
 
-- EXTRACTED: 388 (100%)
+- EXTRACTED: 407 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

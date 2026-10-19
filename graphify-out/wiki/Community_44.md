@@ -1,19 +1,18 @@
 # Community 44
 
-> 31 nodes · cohesion 0.12
+> 34 nodes · cohesion 0.10
 
 ## Key Concepts
 
 - **visual-check.mjs** (50 connections) — `.agents/skills/archify/bin/visual-check.mjs`
 - **runVisualCheck()** (18 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **desktop-readability.mjs** (9 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **adaptive-reader-layout.test.mjs** (9 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **visual-check.test.mjs** (14 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
 - **desktop-reader-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
-- **DESKTOP_READABILITY_VIEWPORT** (5 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
 - **observationDiagnostics()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
 - **safeUnlink()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
 - **writeAtomic()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
 - **baseReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **chromeVisualBrowserArgs()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
 - **cleanupCaptureSidecars()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
 - **contactSheetHtml()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
 - **failureDiagnostic()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
@@ -24,38 +23,38 @@
 - **observation()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
 - **screenshotKey()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
 - **viewportSubject()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **VISUAL_CHECK_VIEWPORTS** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
 - **CAPTURE_VIEWPORTS** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
 - **EXIT** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
 - **THEMES** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **reader** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- *... and 6 more nodes in this community*
+- **__dirname** (1 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- **packagedHtmlExamples** (1 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [[Community 80]] (8 shared connections)
-- [[Community 116]] (6 shared connections)
-- [[Community 52]] (5 shared connections)
-- [[Pricing & Roles Skill]] (4 shared connections)
-- [[Community 62]] (3 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (3 shared connections)
-- [[Community 126]] (2 shared connections)
+- [[Community 132]] (7 shared connections)
+- [[Community 114]] (6 shared connections)
+- [[Live Pricing Audit Tool]] (4 shared connections)
+- [[Community 60]] (3 shared connections)
+- [[Community 124]] (2 shared connections)
+- [[Community 116]] (2 shared connections)
 - [[Community 87]] (2 shared connections)
-- [[Community 98]] (2 shared connections)
-- [[Community 131]] (1 shared connections)
-- [[Community 132]] (1 shared connections)
-- [[Community 114]] (1 shared connections)
+- [[Community 128]] (1 shared connections)
+- [[Community 129]] (1 shared connections)
+- [[Community 112]] (1 shared connections)
+- [[Community 34]] (1 shared connections)
+- [[Community 143]] (1 shared connections)
 
 ## Source Files
 
 - `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
 - `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- `.agents/skills/archify/test/visual-check.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 150 (99%)
+- EXTRACTED: 149 (99%)
 - INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 

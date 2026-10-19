@@ -1,6 +1,6 @@
 # get()
 
-> God node · 49 connections · `ios/App/App/public/assets/index-DW7U0CFW.js`
+> God node · 49 connections · `ios/App/App/public/assets/index-DXfsqET_.js`
 
 **Community:** [[Product Requirements Documentation]]
 

@@ -519,7 +519,7 @@ function StaffLogin({ onSent, onPasswordOk, onBack, initialPhone = "", initialEm
         phone: cleanPhone,
         channel: "phone",
       });
-      onSent({ phone: cleanPhone, email: cleanEmail || null, channel: "phone", target: cleanPhone }, res.dev_code || (isTestPhone ? "882686" : null));
+      onSent({ phone: cleanPhone, email: cleanEmail || null, channel: "phone", target: cleanPhone }, (import.meta.env.VITE_ENABLE_DEV_OTP === 'true' && res.dev_code) || null);
     });
   };
 
@@ -765,7 +765,7 @@ function Identify({ onSent, onPasswordOk, onBack, initialPhone = "", initialEmai
         phone: cleanPhone,
         channel: "phone",
       });
-      onSent({ phone: cleanPhone, email: cleanEmail || null, channel: "phone", target: cleanPhone }, res.dev_code || (isTestPhone ? "882686" : null));
+      onSent({ phone: cleanPhone, email: cleanEmail || null, channel: "phone", target: cleanPhone }, (import.meta.env.VITE_ENABLE_DEV_OTP === 'true' && res.dev_code) || null);
     });
   };
 
@@ -1065,7 +1065,7 @@ function OtpStep({ target, devCode, onVerified, onEdit, onBack }) {
         ))}
       </div>
 
-      {devCode && (
+      {import.meta.env.VITE_ENABLE_DEV_OTP === 'true' && devCode && (
         <div style={{ textAlign: "center", margin: "4px 0" }}>
           <button type="button" className="otp-dev-pill" onClick={() => {
             const arr = devCode.split("");
@@ -1426,7 +1426,7 @@ function StaffDetails({ inviteCode, onSent, onBack }) {
         email: cleanEmail,
         channel: cleanPhone ? "phone" : "email",
         target: cleanPhone || cleanEmail,
-      }, res.dev_code || (isTestPhone ? "882686" : null));
+      }, (import.meta.env.VITE_ENABLE_DEV_OTP === 'true' && res.dev_code) || null);
     } catch (err) {
       setError(err.message === "Failed to fetch" ? "Unable to reach the server." : err.message);
     } finally { setLoading(false); }

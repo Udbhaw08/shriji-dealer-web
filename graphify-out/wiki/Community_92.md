@@ -1,47 +1,40 @@
 # Community 92
 
-> 18 nodes · cohesion 0.16
+> 19 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **Yd()** (17 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **Vd()** (13 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **qd()** (12 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **Gi()** (11 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **Bd()** (8 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **Di()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **Hd()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **os()** (4 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **pf()** (4 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **eo()** (3 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **Gd()** (3 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **io()** (3 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **revokeAccessToken()** (3 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **Wd()** (3 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **Ym()** (3 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **ze()** (3 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **clearNetworkTimeout()** (2 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **Xd()** (2 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **golden.mjs** (18 connections) — `.agents/skills/archify/test/golden.mjs`
+- **expectFailure()** (3 connections) — `.agents/skills/archify/test/golden.mjs`
+- **check()** (2 connections) — `.agents/skills/archify/test/golden.mjs`
+- **render()** (2 connections) — `.agents/skills/archify/test/golden.mjs`
+- **blocks()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **GOLDEN** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **landingPage** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **landingVersions** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **lock** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **normalizeNewlines()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **pkg** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **shieldsBadgeMessages()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **skillMd** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **webApp** (1 connections) — `.agents/skills/archify/test/golden.mjs`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (19 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (11 shared connections)
-- [[Zoho Integration Architecture]] (7 shared connections)
-- [[Graphify Knowledge Graph Skill]] (5 shared connections)
-- [[Product Brand & Business Vision]] (5 shared connections)
-- [[Product Pages Specification]] (3 shared connections)
-- [[Architecture Doc Generator]] (3 shared connections)
-- [[Community 40]] (1 shared connections)
-- [[Community 53]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- `.agents/skills/archify/test/golden.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 105 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

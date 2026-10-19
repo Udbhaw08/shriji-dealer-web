@@ -201,7 +201,7 @@ export default function EmailVerificationPrompt() {
                       autoFocus
                     />
                   </div>
-                  {devCode && (
+                  {import.meta.env.VITE_ENABLE_DEV_OTP === 'true' && devCode && (
                     <div style={{ background: "var(--bg-2, #f1f5f9)", padding: "8px 12px", borderRadius: 6, fontSize: "0.8rem", color: "var(--tx-2)" }}>
                       🛠️ Dev OTP Code: <strong>{devCode}</strong>
                     </div>

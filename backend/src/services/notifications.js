@@ -75,7 +75,7 @@ export async function sendOtpNotification({ phone, email, code }) {
             {
               type: 'button',
               sub_type: 'url',
-              index: '0',
+              index: 0,
               parameters: [{ type: 'text', text: String(code) }],
             },
           ];
@@ -102,7 +102,7 @@ export async function sendOtpNotification({ phone, email, code }) {
               {
                 type: 'button',
                 sub_type: 'url',
-                index: '0',
+                index: 0,
                 parameters: [{ type: 'text', text: String(code) }],
               },
             ];
@@ -129,28 +129,29 @@ export async function sendOtpNotification({ phone, email, code }) {
           log.warn(`[notify:whatsapp] WhatsApp final send failed (${res.status}): ${err}`);
         }
 
-        // While Meta display name review is in progress, also send direct text message
-        // which delivers immediately for any user who interacted within 24h
-        try {
-          const textRes = await fetch(`https://graph.facebook.com/v21.0/${waPhoneId}/messages`, {
-            method: 'POST',
-            headers: {
-              Authorization: `Bearer ${waToken}`,
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({
-              messaging_product: 'whatsapp',
-              to: formattedPhone,
-              type: 'text',
-              text: { body: `🔐 Your Shriji Dealer Portal verification code is: ${code}. Valid for 10 minutes.` },
-            }),
-          });
-          if (textRes.ok) {
-            log.info(`[notify:whatsapp] Direct text OTP delivered to ${formattedPhone}`);
-            sent = true;
+        // Fallback: If template failed and user interacted within 24h, send direct text message
+        if (!sent) {
+          try {
+            const textRes = await fetch(`https://graph.facebook.com/v21.0/${waPhoneId}/messages`, {
+              method: 'POST',
+              headers: {
+                Authorization: `Bearer ${waToken}`,
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify({
+                messaging_product: 'whatsapp',
+                to: formattedPhone,
+                type: 'text',
+                text: { body: `🔐 Your Shriji Dealer Portal verification code is: ${code}. Valid for 10 minutes.` },
+              }),
+            });
+            if (textRes.ok) {
+              log.info(`[notify:whatsapp] Direct text OTP delivered to ${formattedPhone}`);
+              sent = true;
+            }
+          } catch (textErr) {
+            log.warn(`[notify:whatsapp] direct text fallback error: ${textErr.message}`);
           }
-        } catch (textErr) {
-          log.warn(`[notify:whatsapp] direct text fallback error: ${textErr.message}`);
         }
       } catch (err) {
         log.warn(`[notify:whatsapp] error sending via WhatsApp: ${err.message}`);

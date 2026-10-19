@@ -1,57 +1,48 @@
 # Community 50
 
-> 28 nodes · cohesion 0.12
+> 29 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **Product.jsx** (36 connections) — `src/pages/Product.jsx`
-- **dealer.js** (29 connections) — `src/data/dealer.js`
-- **dealer.test.mjs** (18 connections) — `src/data/dealer.test.mjs`
-- **Product()** (16 connections) — `src/pages/Product.jsx`
-- **viewerFor()** (8 connections) — `src/data/dealer.js`
-- **productSlug()** (7 connections) — `src/data/dealer.js`
-- **shareLink()** (7 connections) — `src/data/dealer.js`
-- **registerDealer()** (6 connections) — `src/data/dealer.js`
-- **formatWhatsAppPhone()** (4 connections) — `src/data/dealer.js`
-- **slugifyProduct()** (4 connections) — `src/data/dealer.js`
-- **tierOf()** (4 connections) — `src/data/dealer.js`
-- **DEALERS** (3 connections) — `src/data/dealer.js`
-- **isFavorite()** (3 connections) — `src/data/favoritesStore.js`
-- **tCat()** (3 connections) — `src/data/i18n.js`
-- **featureBoxes()** (3 connections) — `src/pages/Product.jsx`
-- **PriceBlock()** (2 connections) — `src/components/PriceBlock.jsx`
-- **price99()** (2 connections) — `src/data/dealer.js`
-- **BAND** (1 connections) — `src/data/dealer.js`
-- **hash()** (1 connections) — `src/data/dealer.js`
-- **approved** (1 connections) — `src/data/dealer.test.mjs`
-- **customer** (1 connections) — `src/data/dealer.test.mjs`
-- **guest** (1 connections) — `src/data/dealer.test.mjs`
-- **link** (1 connections) — `src/data/dealer.test.mjs`
-- **paramsWithState** (1 connections) — `src/data/dealer.test.mjs`
-- **pending** (1 connections) — `src/data/dealer.test.mjs`
-- *... and 3 more nodes in this community*
+- **AppDelegate** (10 connections) — `ios/App/App/AppDelegate.swift`
+- **.application()** (7 connections) — `ios/App/App/AppDelegate.swift`
+- **.scene()** (7 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIApplication** (6 connections) — `ios/App/App/AppDelegate.swift`
+- **SceneDelegate** (5 connections) — `ios/App/App/SceneDelegate.swift`
+- **AppDelegate.swift** (3 connections) — `ios/App/App/AppDelegate.swift`
+- **SceneDelegate.swift** (3 connections) — `ios/App/App/SceneDelegate.swift`
+- **.applicationDidBecomeActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationDidEnterBackground()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillEnterForeground()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillResignActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillTerminate()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **Capacitor** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIWindow** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIKit** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIResponder** (2 connections)
+- **Any** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **Bool** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIScene** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UISceneSession** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIWindow** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIScene** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **UISceneSession** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **NSUserActivity** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **Set** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [[Design System & UI Tokens]] (56 shared connections)
-- [[Community 45]] (10 shared connections)
-- [[Community 117]] (7 shared connections)
-- [[Community 37]] (2 shared connections)
-- [[Community 140]] (2 shared connections)
-- [[Community 100]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/components/PriceBlock.jsx`
-- `src/data/dealer.js`
-- `src/data/dealer.test.mjs`
-- `src/data/favoritesStore.js`
-- `src/data/i18n.js`
-- `src/pages/Product.jsx`
+- `ios/App/App/AppDelegate.swift`
+- `ios/App/App/SceneDelegate.swift`
 
 ## Audit Trail
 
-- EXTRACTED: 166 (100%)
+- EXTRACTED: 72 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

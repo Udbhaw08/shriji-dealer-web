@@ -34,9 +34,9 @@
 ## Relationships
 
 - [[Community 33]] (30 shared connections)
-- [[Design System & UI Tokens]] (14 shared connections)
-- [[Community 45]] (9 shared connections)
-- [[Community 50]] (2 shared connections)
+- [[Master Codebase Architecture Reference]] (14 shared connections)
+- [[Community 47]] (9 shared connections)
+- [[Community 52]] (2 shared connections)
 
 ## Source Files
 

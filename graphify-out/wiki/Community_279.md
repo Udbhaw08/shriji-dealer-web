@@ -4,22 +4,23 @@
 
 ## Key Concepts
 
-- **Shriji Testing & Workflow Skill** (3 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
-- **Daily Development Commands** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
-- **Hard Workflow Rules** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
+- **meta** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 89]] (1 shared connections)
+- [[Community 68]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/shriji-testing-and-workflow/SKILL.md`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

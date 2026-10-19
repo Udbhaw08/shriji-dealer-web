@@ -1,62 +1,64 @@
 # Community 41
 
-> 35 nodes · cohesion 0.09
+> 37 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **render-dataflow.mjs** (78 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **legend.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **renderLegend()** (14 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **svgAccessibleText()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **svgRootAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **renderDefinitions()** (11 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **resolveLegend()** (10 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **renderSvg()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderLegend()** (6 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **legendFootprint()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **measureLegend()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **stageX()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **componentFill** (5 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **componentText** (4 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **lifecycleAreaBottom()** (3 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **measureNode()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **routeVia()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **stageFrame()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **legendY()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderLifecycleRail()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- *... and 10 more nodes in this community*
+- **server.js** (33 connections) — `backend/src/server.js`
+- **pool.js** (26 connections) — `backend/src/db/pool.js`
+- **env.js** (14 connections) — `backend/src/config/env.js`
+- **webhooks.js** (14 connections) — `backend/src/routes/webhooks.js`
+- **logger.js** (14 connections) — `backend/src/utils/logger.js`
+- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
+- **log** (13 connections) — `backend/src/utils/logger.js`
+- **env** (11 connections) — `backend/src/config/env.js`
+- **index.js** (11 connections) — `backend/src/jobs/index.js`
+- **notifications.js** (9 connections) — `backend/src/services/notifications.js`
+- **errorHandler.js** (7 connections) — `backend/src/middleware/errorHandler.js`
+- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
+- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
+- **migrate()** (4 connections) — `backend/src/db/migrate.js`
+- **applied()** (3 connections) — `backend/src/db/migrate.js`
+- **markPollRun()** (3 connections) — `backend/src/jobs/crmPoll.js`
+- **startJobs()** (3 connections) — `backend/src/jobs/index.js`
+- **migrate-content.js** (3 connections) — `backend/scripts/migrate-content.js`
+- **test-storage.js** (3 connections) — `backend/scripts/test-storage.js`
+- **start()** (3 connections) — `backend/src/server.js`
+- **errorHandler()** (2 connections) — `backend/src/middleware/errorHandler.js`
+- **dealersRouter** (2 connections) — `backend/src/routes/dealers.js`
+- **webhooksRouter** (2 connections) — `backend/src/routes/webhooks.js`
+- **bool()** (1 connections) — `backend/src/config/env.js`
+- **__dirname** (1 connections) — `backend/src/config/env.js`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [[Mobile Responsive UI Skill]] (35 shared connections)
-- [[Client Products Data Store]] (33 shared connections)
-- [[Community 39]] (27 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (14 shared connections)
-- [[Live Pricing Audit Tool]] (10 shared connections)
-- [[Community 99]] (10 shared connections)
-- [[Community 79]] (10 shared connections)
-- [[Vercel Deployment Routing]] (1 shared connections)
+- [[Community 43]] (34 shared connections)
+- [[Community 78]] (17 shared connections)
+- [[Community 55]] (17 shared connections)
+- [[Community 54]] (6 shared connections)
+- [[Product Pages Specification]] (4 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/cli.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/legend.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `backend/scripts/migrate-content.js`
+- `backend/scripts/test-storage.js`
+- `backend/src/config/env.js`
+- `backend/src/db/migrate.js`
+- `backend/src/db/pool.js`
+- `backend/src/jobs/crmPoll.js`
+- `backend/src/jobs/index.js`
+- `backend/src/middleware/errorHandler.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/routes/webhooks.js`
+- `backend/src/server.js`
+- `backend/src/services/notifications.js`
+- `backend/src/utils/logger.js`
 
 ## Audit Trail
 
-- EXTRACTED: 249 (99%)
-- INFERRED: 3 (1%)
+- EXTRACTED: 218 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

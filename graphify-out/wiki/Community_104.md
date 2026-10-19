@@ -1,43 +1,42 @@
 # Community 104
 
-> 16 nodes · cohesion 0.19
+> 17 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **cs()** (19 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **hs()** (7 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **ms()** (7 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **ds()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **ps()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **ss()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **us()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **ls()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **nt()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **zs()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **ks()** (4 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **vs()** (4 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **ws()** (4 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **rs()** (3 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **fs()** (2 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **getComponent()** (2 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- **checkForUpdate()** (19 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **commitOperation()** (14 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **acknowledgeUpdate()** (13 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cancelOperation()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **resultForCandidate()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **silent()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **resultAfterLosingOperation()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **readJsonFile()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **transitionOperation()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **operationOwnsActiveClaim()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **runCli()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **freshStateResult()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **versionCacheDirectory()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertBoundedRegularFile()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **digestForEventKey()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **fetchCandidate()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **waitUntilRetry()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (16 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (13 shared connections)
-- [[Product Pages Specification]] (7 shared connections)
-- [[Graphify Knowledge Graph Skill]] (5 shared connections)
-- [[Zoho Integration Architecture]] (2 shared connections)
-- [[Architecture Doc Generator]] (1 shared connections)
-- [[Community 40]] (1 shared connections)
+- [[Community 48]] (19 shared connections)
+- [[Community 97]] (12 shared connections)
+- [[Community 91]] (7 shared connections)
+- [[Community 63]] (3 shared connections)
+- [[Community 39]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 91 (100%)
+- EXTRACTED: 105 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **12. Performance Typography** (5 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Performance Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Requirements** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Rules** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **System Font Stack** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Agent Operating Guidelines & Zero-Token Context Strategy** (3 connections) — `GEMINI.md`
+- **Shriji Domestic Appliances — Sunshine Dealer Web** (2 connections) — `GEMINI.md`
+- **GEMINI.md** (1 connections) — `GEMINI.md`
+- **Mandatory Context Rule: Knowledge Graph First** (1 connections) — `GEMINI.md`
+- **Project Hard Rules** (1 connections) — `GEMINI.md`
 
 ## Relationships
 
-- [[Community 167]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `GEMINI.md`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

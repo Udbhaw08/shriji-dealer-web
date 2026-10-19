@@ -1,12 +1,13 @@
 # Community 287
 
-> 3 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **MainActivity.java** (2 connections) — `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
-- **MainActivity** (2 connections) — `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
-- **BridgeActivity** (2 connections)
+- **delivery-contract.test.mjs** (3 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
+- **delivery** (1 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
+- **skill** (1 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
 
 ## Relationships
 
@@ -14,7 +15,7 @@
 
 ## Source Files
 
-- `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
+- `.agents/skills/archify/test/delivery-contract.test.mjs`
 
 ## Audit Trail
 

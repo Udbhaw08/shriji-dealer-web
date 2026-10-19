@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **generate-validators.mjs** (8 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **ajv** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **diagramTypes** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **output** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **root** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **schemaIds** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **schemasDir** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **validatorCode** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **Shriji Pricing & Roles Skill** (5 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **User Roles & View Modes** (4 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **1. Guest View (Public)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **2. Dealer View (Authenticated)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **3. Customer Shared View (`?from=<dealer_id>`)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **Key Files** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **Schemes Logic** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **Zero-Price Handling** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/generate-validators.mjs`
+- `.agents/skills/shriji-pricing-and-roles/SKILL.md`
 
 ## Audit Trail
 

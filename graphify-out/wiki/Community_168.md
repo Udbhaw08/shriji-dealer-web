@@ -1,30 +1,32 @@
 # Community 168
 
-> 9 nodes · cohesion 0.22
+> 9 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **8. Letter Spacing (Tracking)** (9 connections) — `.agents/skills/refero-design/references/typography.md`
-- **ALL CAPS Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **CSS Tokens** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Pre-Implementation Checklist** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Quick Reference** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Small Text Rule — Often Forgotten** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Units** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **When to Tighten** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Why It Matters** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **cards** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **additionalProperties** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **required** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- [[Community 167]] (1 shared connections)
+- [[Community 141]] (3 shared connections)
+- [[Community 88]] (1 shared connections)
+- [[Community 301]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
+- EXTRACTED: 27 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,11 +1,12 @@
 # Community 315
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **fail-migration-cleanup.mjs** (1 connections) — `.agents/skills/archify/test/fixtures/fail-migration-cleanup.mjs`
-- **originalRmSync** (1 connections) — `.agents/skills/archify/test/fixtures/fail-migration-cleanup.mjs`
+- **check-whatsapp-status.js** (2 connections) — `backend/scripts/check-whatsapp-status.js`
+- **checkStatus()** (1 connections) — `backend/scripts/check-whatsapp-status.js`
+- **__dirname** (1 connections) — `backend/scripts/check-whatsapp-status.js`
 
 ## Relationships
 
@@ -13,11 +14,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/fixtures/fail-migration-cleanup.mjs`
+- `backend/scripts/check-whatsapp-status.js`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

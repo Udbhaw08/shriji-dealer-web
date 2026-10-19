@@ -1,45 +1,41 @@
 # Community 86
 
-> 20 nodes · cohesion 0.22
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **hash.js** (18 connections) — `backend/src/utils/hash.js`
-- **loginCode.js** (15 connections) — `backend/src/utils/loginCode.js`
-- **generateLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
-- **hash.test.mjs** (7 connections) — `backend/test/hash.test.mjs`
-- **loginCode.test.mjs** (7 connections) — `backend/test/loginCode.test.mjs`
-- **formatLoginCode()** (7 connections) — `backend/src/utils/loginCode.js`
-- **hashPassword()** (4 connections) — `backend/src/utils/hash.js`
-- **verifyPassword()** (4 connections) — `backend/src/utils/hash.js`
-- **isValidLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
-- **parseLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
-- **generateOtp()** (3 connections) — `backend/src/utils/hash.js`
-- **scryptKey()** (3 connections) — `backend/src/utils/hash.js`
-- **USER_CATEGORIES** (3 connections) — `backend/src/utils/loginCode.js`
-- **generateCode()** (2 connections) — `backend/src/utils/hash.js`
-- **randomToken()** (2 connections) — `backend/src/utils/hash.js`
-- **generateRandomDigits()** (2 connections) — `backend/src/utils/loginCode.js`
-- **generateRandomLetters()** (2 connections) — `backend/src/utils/loginCode.js`
-- **GST_TREATMENT_OPTIONS** (2 connections) — `backend/src/utils/loginCode.js`
-- **SCRYPT** (1 connections) — `backend/src/utils/hash.js`
-- **PREFIX_MAP** (1 connections) — `backend/src/utils/loginCode.js`
+- **Example Workflow: SaaS Pricing Page** (7 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Phase 1: Styles Research** (4 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Phase 5: Implementation Blueprint** (4 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Phase 2: Screen Research** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Phase 3: Flow Research** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Phase 4: Synthesis** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **example-workflow.md** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Design Decision Ledger** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Flow Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Flow Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Page Structure** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Phase 0: Discovery** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Quality Gate** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Research Summary** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Screen Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Screen Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Style Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Style Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Tokens** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Visual Direction Synthesis** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
 
 ## Relationships
 
-- [[Community 30]] (12 shared connections)
-- [[Community 106]] (5 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `backend/src/utils/hash.js`
-- `backend/src/utils/loginCode.js`
-- `backend/test/hash.test.mjs`
-- `backend/test/loginCode.test.mjs`
+- `.agents/skills/refero-design/references/example-workflow.md`
 
 ## Audit Trail
 
-- EXTRACTED: 99 (100%)
+- EXTRACTED: 38 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

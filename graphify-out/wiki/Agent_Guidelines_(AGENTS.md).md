@@ -1,53 +1,57 @@
 # Agent Guidelines (AGENTS.md)
 
-> 44 nodes · cohesion 0.05
+> 46 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **properties** (30 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **cornerRadius** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **brand** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **channelX** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **channelY** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **from** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **fromSide** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **id** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **labelAt** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **labelDx** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **labelDy** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **lane** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **note** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **route** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **step** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **sublabel** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **tag** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **to** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **toSide** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **variant** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **yOffset** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- *... and 19 more nodes in this community*
+- **Yd()** (17 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **Id()** (15 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **getIdToken()** (13 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **Vd()** (13 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **Fd()** (12 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **qd()** (12 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **rf()** (12 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **zd()** (12 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **lf()** (11 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **hf()** (10 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **Md()** (10 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **uf()** (10 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **ff()** (9 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **Wf()** (9 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **Bd()** (8 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **ef()** (8 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **nf()** (8 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **Ld()** (7 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **of()** (7 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **Rd()** (7 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **Di()** (6 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **_updateTokensIfNecessary()** (6 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **Hd()** (5 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **_notifyListenersIfCurrent()** (5 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **tf()** (5 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [[Community 144]] (3 shared connections)
-- [[Community 269]] (1 shared connections)
-- [[Community 298]] (1 shared connections)
-- [[Community 299]] (1 shared connections)
-- [[Community 300]] (1 shared connections)
-- [[Community 270]] (1 shared connections)
-- [[Community 271]] (1 shared connections)
+- [[Price Presentation & Product UI]] (52 shared connections)
+- [[Client Products Data Store]] (18 shared connections)
+- [[Dependencies & Package Config]] (13 shared connections)
+- [[Product Requirements Documentation]] (13 shared connections)
+- [[Zoho Integration Skill]] (12 shared connections)
+- [[Graphify Workflow]] (12 shared connections)
+- [[Roles & Customer Sharing Spec]] (8 shared connections)
+- [[Community 53]] (6 shared connections)
+- [[Community 38]] (5 shared connections)
+- [[Community 73]] (4 shared connections)
+- [[Community 51]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `ios/App/App/public/assets/index-DXfsqET_.js`
 
 ## Audit Trail
 
-- EXTRACTED: 95 (100%)
+- EXTRACTED: 300 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

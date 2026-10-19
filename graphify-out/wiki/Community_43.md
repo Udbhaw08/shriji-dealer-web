@@ -1,53 +1,65 @@
 # Community 43
 
-> 32 nodes · cohesion 0.18
+> 35 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **archify.mjs** (50 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandDeliver()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandMigrate()** (17 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandValidate()** (13 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandRender()** (10 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandPreview()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **diagnostic()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rendererPath()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **renderValidatedArchitecture()** (8 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractQualityArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractRepoRootArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rejectCliArgument()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **assertEvidenceType()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **checkerDiagnostics()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rendererEnv()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rendererFailure()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportArtifactFailure()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **inputDiagnostic()** (4 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **engineeringProfileFromArtifact()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **migrationPathDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **migrationReport()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportArtifactArgumentFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportDeliveryFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportValidateFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **sourceEvidenceFromArtifact()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- *... and 7 more nodes in this community*
+- **sql** (56 connections) — `backend/src/db/pool.js`
+- **dealers.js** (36 connections) — `backend/src/routes/dealers.js`
+- **dealerApp.js** (24 connections) — `backend/src/services/dealerApp.js`
+- **staff.js** (23 connections) — `backend/src/services/staff.js`
+- **audit()** (17 connections) — `backend/src/utils/audit.js`
+- **applyCrmAccountState()** (12 connections) — `backend/src/services/dealerApp.js`
+- **generateUniqueDealerCode()** (8 connections) — `backend/src/utils/loginCode.js`
+- **audit.js** (7 connections) — `backend/src/utils/audit.js`
+- **applyDealer()** (6 connections) — `backend/src/services/dealerApp.js`
+- **createInvite()** (6 connections) — `backend/src/services/staff.js`
+- **applyCrmContactState()** (5 connections) — `backend/src/services/dealerApp.js`
+- **seed-content.js** (4 connections) — `backend/scripts/seed-content.js`
+- **deactivateDealer()** (4 connections) — `backend/src/services/dealerApp.js`
+- **approveStaff()** (4 connections) — `backend/src/services/staff.js`
+- **deleteStaff()** (4 connections) — `backend/src/services/staff.js`
+- **holdStaff()** (4 connections) — `backend/src/services/staff.js`
+- **resumeStaff()** (4 connections) — `backend/src/services/staff.js`
+- **revokeStaff()** (4 connections) — `backend/src/services/staff.js`
+- **toggleAllStaffPrice()** (4 connections) — `backend/src/services/staff.js`
+- **toggleStaffPrice()** (4 connections) — `backend/src/services/staff.js`
+- **requireApprovedDealer()** (3 connections) — `backend/src/middleware/auth.js`
+- **inspect-db.js** (3 connections) — `backend/scripts/inspect-db.js`
+- **setup-buckets.js** (3 connections) — `backend/scripts/setup-buckets.js`
+- **setup-policies.js** (3 connections) — `backend/scripts/setup-policies.js`
+- **consumeInvite()** (3 connections) — `backend/src/services/staff.js`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [[Community 126]] (27 shared connections)
-- [[Community 204]] (11 shared connections)
-- [[Community 97]] (4 shared connections)
-- [[Community 119]] (3 shared connections)
-- [[Community 182]] (2 shared connections)
-- [[Community 61]] (2 shared connections)
+- [[Community 41]] (34 shared connections)
+- [[Community 54]] (17 shared connections)
+- [[Community 78]] (15 shared connections)
+- [[Community 55]] (13 shared connections)
+- [[Community 81]] (13 shared connections)
+- [[Product Pages Specification]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
+- `backend/scripts/check-readiness.js`
+- `backend/scripts/inspect-db.js`
+- `backend/scripts/seed-content.js`
+- `backend/scripts/setup-buckets.js`
+- `backend/scripts/setup-policies.js`
+- `backend/src/db/pool.js`
+- `backend/src/middleware/auth.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/services/staff.js`
+- `backend/src/utils/audit.js`
+- `backend/src/utils/loginCode.js`
+- `backend/test/crmSync.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 221 (97%)
-- INFERRED: 6 (3%)
+- EXTRACTED: 265 (99%)
+- INFERRED: 4 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

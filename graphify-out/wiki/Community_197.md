@@ -1,29 +1,30 @@
 # Community 197
 
-> 8 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **stable-update-manifest.test.mjs** (7 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **annotatedTaggerTime()** (2 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **git()** (2 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **checker** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **runCheck()** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **writeJson()** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **sequence-column-fit.test.mjs** (9 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **labelledSequence()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **render()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **renderOutcome()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **wideSequence()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **participantBoxes()** (1 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 100]] (1 shared connections)
+- [[Community 40]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- `.agents/skills/archify/test/sequence-column-fit.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

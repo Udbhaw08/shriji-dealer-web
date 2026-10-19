@@ -1,24 +1,25 @@
 # Community 289
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **9. Line Length (Measure)** (3 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Guidelines** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Implementation** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **guide-page.test.mjs** (3 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
 
 ## Relationships
 
-- [[Community 167]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/archify/test/guide-page.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

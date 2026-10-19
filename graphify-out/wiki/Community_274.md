@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **col** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **maximum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **common.schema.json** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **$id** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **$schema** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **title** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- [[Graphify Workflow]] (1 shared connections)
+- [[Community 88]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 

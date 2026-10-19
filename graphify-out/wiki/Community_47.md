@@ -1,48 +1,55 @@
 # Community 47
 
-> 29 nodes · cohesion 0.09
+> 31 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **AppDelegate** (10 connections) — `ios/App/App/AppDelegate.swift`
-- **.application()** (7 connections) — `ios/App/App/AppDelegate.swift`
-- **.scene()** (7 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIApplication** (6 connections) — `ios/App/App/AppDelegate.swift`
-- **SceneDelegate** (5 connections) — `ios/App/App/SceneDelegate.swift`
-- **AppDelegate.swift** (3 connections) — `ios/App/App/AppDelegate.swift`
-- **SceneDelegate.swift** (3 connections) — `ios/App/App/SceneDelegate.swift`
-- **.applicationDidBecomeActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationDidEnterBackground()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillEnterForeground()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillResignActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillTerminate()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **Capacitor** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIWindow** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIKit** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIResponder** (2 connections)
-- **Any** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **Bool** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIScene** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UISceneSession** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIWindow** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIScene** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **UISceneSession** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **NSUserActivity** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **Set** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- *... and 4 more nodes in this community*
+- **session.js** (41 connections) — `src/data/session.js`
+- **productsStore.js** (22 connections) — `src/data/productsStore.js`
+- **apiFetch()** (14 connections) — `src/data/api.js`
+- **api.js** (9 connections) — `src/data/api.js`
+- **apiUrl()** (9 connections) — `src/data/api.js`
+- **revalidateSession()** (9 connections) — `src/data/session.js`
+- **setSession()** (8 connections) — `src/data/session.js`
+- **syncPricebookWithSession()** (7 connections) — `src/data/productsStore.js`
+- **products.js** (5 connections) — `src/data/products.js`
+- **fetchLiveProducts()** (5 connections) — `src/data/productsStore.js`
+- **hasSession()** (4 connections) — `src/data/auth.js`
+- **loadCached()** (4 connections) — `src/data/productsStore.js`
+- **sessionFromAuth()** (3 connections) — `src/data/auth.js`
+- **emit()** (3 connections) — `src/data/productsStore.js`
+- **loadCachedSession()** (3 connections) — `src/data/session.js`
+- **onAuthBroadcast()** (2 connections) — `src/data/auth.js`
+- **CATEGORIES** (2 connections) — `src/data/products.js`
+- **getCacheKey()** (2 connections) — `src/data/productsStore.js`
+- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
+- **useProduct()** (2 connections) — `src/data/productsStore.js`
+- **emit()** (2 connections) — `src/data/session.js`
+- **PRODUCTS** (1 connections) — `src/data/products.js`
+- **listeners** (1 connections) — `src/data/productsStore.js`
+- **PREFERRED_ORDER** (1 connections) — `src/data/productsStore.js`
+- **storeState** (1 connections) — `src/data/productsStore.js`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Master Codebase Architecture Reference]] (19 shared connections)
+- [[Community 33]] (17 shared connections)
+- [[Community 52]] (10 shared connections)
+- [[Community 37]] (9 shared connections)
+- [[Community 115]] (5 shared connections)
 
 ## Source Files
 
-- `ios/App/App/AppDelegate.swift`
-- `ios/App/App/SceneDelegate.swift`
+- `src/data/api.js`
+- `src/data/auth.js`
+- `src/data/products.js`
+- `src/data/productsStore.js`
+- `src/data/session.js`
 
 ## Audit Trail
 
-- EXTRACTED: 72 (100%)
+- EXTRACTED: 168 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

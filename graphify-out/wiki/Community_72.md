@@ -4,42 +4,41 @@
 
 ## Key Concepts
 
-- **properties** (8 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **layout** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **cols** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **cellH** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **cellW** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **gapX** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **gapY** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **origin** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **maximum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **package.json** (9 connections) — `backend/package.json`
+- **dependencies** (7 connections) — `backend/package.json`
+- **scripts** (7 connections) — `backend/package.json`
+- **engines** (2 connections) — `backend/package.json`
+- **dotenv** (1 connections) — `backend/package.json`
+- **express** (1 connections) — `backend/package.json`
+- **google-auth-library** (1 connections) — `backend/package.json`
+- **jsonwebtoken** (1 connections) — `backend/package.json`
+- **postgres** (1 connections) — `backend/package.json`
+- **resend** (1 connections) — `backend/package.json`
+- **description** (1 connections) — `backend/package.json`
+- **node** (1 connections) — `backend/package.json`
+- **main** (1 connections) — `backend/package.json`
+- **name** (1 connections) — `backend/package.json`
+- **private** (1 connections) — `backend/package.json`
+- **build** (1 connections) — `backend/package.json`
+- **check:ready** (1 connections) — `backend/package.json`
+- **dev** (1 connections) — `backend/package.json`
+- **migrate** (1 connections) — `backend/package.json`
+- **start** (1 connections) — `backend/package.json`
+- **test** (1 connections) — `backend/package.json`
+- **type** (1 connections) — `backend/package.json`
+- **version** (1 connections) — `backend/package.json`
 
 ## Relationships
 
-- [[Community 141]] (1 shared connections)
-- [[Community 77]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `backend/package.json`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (100%)
+- EXTRACTED: 44 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

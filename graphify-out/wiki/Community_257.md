@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **integration.test.mjs** (4 connections) — `backend/test/integration.test.mjs`
-- **api()** (1 connections) — `backend/test/integration.test.mjs`
-- **COMMERCE_FIXTURE** (1 connections) — `backend/test/integration.test.mjs`
-- **crmMock** (1 connections) — `backend/test/integration.test.mjs`
-- **uniq()** (1 connections) — `backend/test/integration.test.mjs`
+- **focus** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 141]] (1 shared connections)
 
 ## Source Files
 
-- `backend/test/integration.test.mjs`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

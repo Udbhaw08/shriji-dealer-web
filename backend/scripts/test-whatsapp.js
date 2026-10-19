@@ -107,7 +107,7 @@ async function testWhatsApp() {
           {
             type: 'button',
             sub_type: 'url',
-            index: '0',
+            index: 0,
             parameters: [{ type: 'text', text: testCode }],
           },
         ];
@@ -134,7 +134,7 @@ async function testWhatsApp() {
           {
             type: 'button',
             sub_type: 'url',
-            index: '0',
+            index: 0,
             parameters: [{ type: 'text', text: testCode }],
           },
         ];

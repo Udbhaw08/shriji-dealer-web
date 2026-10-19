@@ -1,10 +1,11 @@
 # Community 325
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **build.gradle** (0 connections) — `android/build.gradle`
+- **esm-B9ir2KuO.js** (1 connections) — `ios/App/App/public/assets/esm-B9ir2KuO.js`
+- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-B9ir2KuO.js`
 
 ## Relationships
 
@@ -12,11 +13,11 @@
 
 ## Source Files
 
-- `android/build.gradle`
+- `ios/App/App/public/assets/esm-B9ir2KuO.js`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

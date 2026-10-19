@@ -1,55 +1,57 @@
 # Community 53
 
-> 26 nodes · cohesion 0.15
+> 28 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **b()** (18 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **.removeEventListener()** (17 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **h()** (14 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **fp()** (13 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **lp()** (13 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **Vp()** (13 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **Bp()** (9 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **tm()** (9 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **.addEventListener()** (7 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **.blur()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **.scrollIntoView()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **g()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **Rp()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **v()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **Yp()** (6 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **hm()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **hp()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **toPromise()** (5 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **.getClientRects()** (4 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **.unobserveUsing()** (4 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **up()** (4 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **.focusLast()** (3 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **.observeUsing()** (3 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **wp()** (3 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- **handleEvent()** (2 connections) — `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
-- *... and 1 more nodes in this community*
+- **i()** (66 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **cs()** (19 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **da()** (12 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **ma()** (9 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **hs()** (7 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **ms()** (7 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **pa()** (7 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **ds()** (6 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **ps()** (6 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **ss()** (6 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **us()** (6 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **ls()** (5 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **nt()** (5 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **to()** (5 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **zs()** (5 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **ks()** (4 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **Oa()** (4 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **vs()** (4 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **ws()** (4 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **ao()** (3 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **dm()** (3 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **pp()** (3 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **rs()** (3 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **abort()** (2 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- **fs()** (2 connections) — `ios/App/App/public/assets/index-DXfsqET_.js`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (28 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (17 shared connections)
-- [[Product Pages Specification]] (15 shared connections)
-- [[Product Brand & Business Vision]] (11 shared connections)
-- [[Graphify Knowledge Graph Skill]] (6 shared connections)
-- [[Zoho Integration Architecture]] (5 shared connections)
-- [[Architecture Doc Generator]] (4 shared connections)
-- [[Community 40]] (2 shared connections)
-- [[Community 92]] (1 shared connections)
+- [[Price Presentation & Product UI]] (29 shared connections)
+- [[Dependencies & Package Config]] (29 shared connections)
+- [[Product Requirements Documentation]] (13 shared connections)
+- [[Zoho Integration Skill]] (12 shared connections)
+- [[Client Products Data Store]] (10 shared connections)
+- [[Roles & Customer Sharing Spec]] (8 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (6 shared connections)
+- [[Community 51]] (5 shared connections)
+- [[Community 38]] (4 shared connections)
+- [[Community 73]] (3 shared connections)
+- [[Graphify Workflow]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DW7U0CFW.js`
+- `ios/App/App/public/assets/index-DXfsqET_.js`
 
 ## Audit Trail
 
-- EXTRACTED: 189 (100%)
+- EXTRACTED: 209 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

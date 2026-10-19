@@ -1,10 +1,11 @@
 # Community 328
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **variables.gradle** (0 connections) — `android/variables.gradle`
+- **hygiene.md** (1 connections) — `.agents/skills/swiftui-pro/references/hygiene.md`
+- **Hygiene** (1 connections) — `.agents/skills/swiftui-pro/references/hygiene.md`
 
 ## Relationships
 
@@ -12,11 +13,11 @@
 
 ## Source Files
 
-- `android/variables.gradle`
+- `.agents/skills/swiftui-pro/references/hygiene.md`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **col** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **maximum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **2. Type Scale** (4 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Common Ratios** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **CSS Tokens** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Practical Scale (Minor Third × 16px base)** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- [[Agent Guidelines (AGENTS.md)]] (1 shared connections)
+- [[Community 166]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 

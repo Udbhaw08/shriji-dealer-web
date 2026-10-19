@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **render-output-checks.test.mjs** (5 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
-- **checker** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
-- **checkHtml()** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **authoring-safety-contract.test.mjs** (5 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- **authoringContract** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- **schemaReadme** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- **skill** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/render-output-checks.test.mjs`
+- `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
 
 ## Audit Trail
 

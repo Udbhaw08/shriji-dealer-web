@@ -1,33 +1,40 @@
 # Community 132
 
-> 13 nodes · cohesion 0.28
+> 12 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **guided-views-browser.test.mjs** (17 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **run()** (8 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **point()** (4 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **settled()** (4 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **activate()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **hash()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **move()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **variant()** (1 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **ChromeVisualBrowser** (21 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **PipeCdp** (7 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.inspect()** (5 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.attach()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.close()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.constructor()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **evaluate()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.failAll()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.consume()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.waitFor()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.failure()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
 
 ## Relationships
 
-- [[Community 52]] (5 shared connections)
-- [[Community 62]] (3 shared connections)
-- [[Community 44]] (1 shared connections)
+- [[Community 44]] (7 shared connections)
+- [[Community 60]] (6 shared connections)
+- [[Community 114]] (2 shared connections)
+- [[Community 87]] (2 shared connections)
 - [[Community 116]] (1 shared connections)
+- [[Community 112]] (1 shared connections)
+- [[Community 34]] (1 shared connections)
+- [[Community 143]] (1 shared connections)
+- [[Community 179]] (1 shared connections)
+- [[Community 130]] (1 shared connections)
+- [[Community 158]] (1 shared connections)
+- [[Community 181]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- `.agents/skills/archify/bin/visual-check.mjs`
 
 ## Audit Trail
 

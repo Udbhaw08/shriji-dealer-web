@@ -1,38 +1,35 @@
 # Community 113
 
-> 15 nodes · cohesion 0.13
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **properties** (8 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **lanes** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **meta** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **cards** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **schema_version** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **web-K3WBvWWr.js** (13 connections) — `android/app/src/main/assets/public/assets/web-K3WBvWWr.js`
+- **applyPrefix()** (4 connections) — `android/app/src/main/assets/public/assets/web-K3WBvWWr.js`
+- **keys()** (4 connections) — `android/app/src/main/assets/public/assets/web-K3WBvWWr.js`
+- **get()** (3 connections) — `android/app/src/main/assets/public/assets/web-K3WBvWWr.js`
+- **migrate()** (3 connections) — `android/app/src/main/assets/public/assets/web-K3WBvWWr.js`
+- **rawKeys()** (3 connections) — `android/app/src/main/assets/public/assets/web-K3WBvWWr.js`
+- **clear()** (2 connections) — `android/app/src/main/assets/public/assets/web-K3WBvWWr.js`
+- **remove()** (2 connections) — `android/app/src/main/assets/public/assets/web-K3WBvWWr.js`
+- **removeOld()** (2 connections) — `android/app/src/main/assets/public/assets/web-K3WBvWWr.js`
+- **set()** (2 connections) — `android/app/src/main/assets/public/assets/web-K3WBvWWr.js`
+- **configure()** (1 connections) — `android/app/src/main/assets/public/assets/web-K3WBvWWr.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-K3WBvWWr.js`
+- **impl()** (1 connections) — `android/app/src/main/assets/public/assets/web-K3WBvWWr.js`
+- **prefix()** (1 connections) — `android/app/src/main/assets/public/assets/web-K3WBvWWr.js`
 
 ## Relationships
 
-- [[Community 144]] (3 shared connections)
-- [[Community 208]] (1 shared connections)
-- [[Community 66]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `android/app/src/main/assets/public/assets/web-K3WBvWWr.js`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
