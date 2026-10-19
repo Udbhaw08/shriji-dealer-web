@@ -1,0 +1,51 @@
+name: OTP Auth CI
+
+on:
+  push:
+    branches:
+      - fix/whatsapp-otp-hardening
+  pull_request:
+    paths:
+      - backend/**
+      - src/pages/Login.jsx
+      - src/data/auth.js
+      - package.json
+      - package-lock.json
+      - .github/workflows/otp-auth-ci.yml
+
+jobs:
+  checks:
+    name: Auth, frontend, and backend checks
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install frontend dependencies
+        run: npm ci
+
+      - name: Run frontend tests
+        run: npm test
+
+      - name: Lint frontend
+        run: npm run lint
+
+      - name: Build frontend
+        run: npx vite build
+
+      - name: Check backend JavaScript syntax
+        run: |
+          node --check backend/src/routes/auth.js
+          node --check backend/src/services/notifications.js
+
+      - name: Install backend dependencies
+        run: npm --prefix backend install
+
+      - name: Run backend tests
+        run: npm --prefix backend test
