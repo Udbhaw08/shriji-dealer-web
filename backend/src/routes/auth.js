@@ -510,8 +510,9 @@ authRouter.post('/otp/request', rateLimit({ windowMs: 10 * 60_000, max: 8 }), as
               ${new Date(Date.now() + OTP_TTL_MINUTES * 60_000)})
       returning id`;
 
+    let notificationResult;
     try {
-      await sendOtpNotification({
+      notificationResult = await sendOtpNotification({
         phone: destType === 'phone' ? dest : null,
         email: destType === 'email' ? dest : null,
         code,
@@ -530,6 +531,7 @@ authRouter.post('/otp/request', rateLimit({ windowMs: 10 * 60_000, max: 8 }), as
     res.json({
       ok: true,
       destination: destType,
+      provider: notificationResult?.providers?.[0] || null,
       expires_in_minutes: OTP_TTL_MINUTES,
     });
   } catch (err) { next(err); }
@@ -824,8 +826,9 @@ authRouter.post('/email/request-otp', jwtAuth, rateLimit({ windowMs: 10 * 60_000
               ${new Date(Date.now() + OTP_TTL_MINUTES * 60_000)})
       returning id`;
 
+    let notificationResult;
     try {
-      await sendOtpNotification({
+      notificationResult = await sendOtpNotification({
         email: rawEmail,
         code,
       });
@@ -838,6 +841,7 @@ authRouter.post('/email/request-otp', jwtAuth, rateLimit({ windowMs: 10 * 60_000
     res.json({
       ok: true,
       email: rawEmail,
+      provider: notificationResult?.providers?.[0] || null,
       expires_in_minutes: OTP_TTL_MINUTES,
     });
   } catch (err) { next(err); }
