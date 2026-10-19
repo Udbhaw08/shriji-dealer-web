@@ -110,8 +110,8 @@ test('WhatsApp rejection falls back to configured SMS and reports SMS as provide
   testEnv.fast2smsApiKey = 'test-fast2sms-key';
 
   const requests = [];
-  globalThis.fetch = async (url, options) => {
-    requests.push({ url: String(url), body: JSON.parse(options.body) });
+  globalThis.fetch = async (url, options = {}) => {
+    requests.push({ url: String(url), body: options.body ? JSON.parse(options.body) : null });
     if (String(url).includes('graph.facebook.com')) {
       return new Response(JSON.stringify({ error: { message: 'template rejected for test' } }), {
         status: 400,
