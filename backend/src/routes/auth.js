@@ -818,15 +818,22 @@ authRouter.post('/email/request-otp', jwtAuth, rateLimit({ windowMs: 10 * 60_000
     }
 
     const code = generateOtp();
-    await sql`
+    const [otpRecord] = await sql`
       insert into otp_codes (user_id, identifier, code_hash, expires_at)
       values (${req.user.id}, ${rawEmail}, ${sha256(code)},
-              ${new Date(Date.now() + OTP_TTL_MINUTES * 60_000)})`;
+              ${new Date(Date.now() + OTP_TTL_MINUTES * 60_000)})
+      returning id`;
 
-    await sendOtpNotification({
-      email: rawEmail,
-      code,
-    });
+    try {
+      await sendOtpNotification({
+        email: rawEmail,
+        code,
+      });
+    } catch (notificationError) {
+      await sql`delete from otp_codes where id = ${otpRecord.id}`.catch(() => {});
+      log.warn(`[auth:email-otp] Delivery provider failed: ${notificationError.message}`);
+      throw httpError(502, 'Could not send your email OTP. Check the email provider configuration and try again.');
+    }
 
     res.json({
       ok: true,
