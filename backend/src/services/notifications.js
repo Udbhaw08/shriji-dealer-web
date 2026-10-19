@@ -18,9 +18,8 @@ export async function sendOtpNotification({ phone, email, code }) {
   if (cleanPhone) {
     let sent = false;
     let phoneProvider = null;
-    let acceptedProvider = null;
 
-    // Dynamically pick up latest .env variables (e.g. freshly generated Meta token)
+    // Provider configuration is loaded once by backend/src/config/env.js.
     const waToken = env.whatsapp.token;
     const waPhoneId = env.whatsapp.phoneId;
     const waTemplate = env.whatsapp.templateName;
