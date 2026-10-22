@@ -536,17 +536,10 @@ export default function Product() {
 
           {/* ---- info ---- */}
           <div>
-            {/* Metadata Row matching Frame 2 */}
+            {/* Category Pill */}
             <div className="detail-meta-row">
               <span className="detail-cat-pill">
                 {tCat(p.cat, p.catLabel) || "Small Appliances"}
-              </span>
-              <span className="detail-sku-text">
-                SKU: {p.model || p.sku || p.id}
-              </span>
-              <span className="detail-stock-status">
-                <span className="detail-stock-dot" />
-                In Wholesale Stock
               </span>
             </div>
 
