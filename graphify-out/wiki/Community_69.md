@@ -1,33 +1,32 @@
 # Community 69
 
-> 24 nodes · cohesion 0.08
+> 23 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **Apple Pay** (11 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Using Apple Pay buttons** (5 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Button styles** (4 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Button types** (3 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Handling problems** (3 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Streamlining checkout** (2 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **apple-pay.md** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Apple Pay button** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Apple Pay mark** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Black** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Button size and position** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Customizing the payment sheet** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Data validation errors** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Displaying a website icon** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Offering Apple Pay** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Payment processing problems** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Referring to Apple Pay** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Set Up Apple Pay button** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Supporting donations** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Supporting subscriptions** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **White** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **White with outline** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **package.json** (9 connections) — `backend/package.json`
+- **dependencies** (7 connections) — `backend/package.json`
+- **scripts** (7 connections) — `backend/package.json`
+- **engines** (2 connections) — `backend/package.json`
+- **dotenv** (1 connections) — `backend/package.json`
+- **express** (1 connections) — `backend/package.json`
+- **google-auth-library** (1 connections) — `backend/package.json`
+- **jsonwebtoken** (1 connections) — `backend/package.json`
+- **postgres** (1 connections) — `backend/package.json`
+- **resend** (1 connections) — `backend/package.json`
+- **description** (1 connections) — `backend/package.json`
+- **node** (1 connections) — `backend/package.json`
+- **main** (1 connections) — `backend/package.json`
+- **name** (1 connections) — `backend/package.json`
+- **private** (1 connections) — `backend/package.json`
+- **build** (1 connections) — `backend/package.json`
+- **check:ready** (1 connections) — `backend/package.json`
+- **dev** (1 connections) — `backend/package.json`
+- **migrate** (1 connections) — `backend/package.json`
+- **start** (1 connections) — `backend/package.json`
+- **test** (1 connections) — `backend/package.json`
+- **type** (1 connections) — `backend/package.json`
+- **version** (1 connections) — `backend/package.json`
 
 ## Relationships
 
@@ -35,11 +34,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/apple-pay.md`
+- `backend/package.json`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (100%)
+- EXTRACTED: 44 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

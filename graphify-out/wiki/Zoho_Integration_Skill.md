@@ -1,6 +1,6 @@
 # Zoho Integration Skill
 
-> 40 nodes · cohesion 0.08
+> 42 nodes · cohesion 0.08
 
 ## Key Concepts
 
@@ -8,6 +8,7 @@
 - **brand-marks.test.mjs** (15 connections) — `.agents/skills/archify/test/brand-marks.test.mjs`
 - **captureRemoteBrand()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 - **captureBrandReference()** (6 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **commandBrands()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
 - **findBrandMark()** (5 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 - **checkedFetch()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 - **isPrivateBrandAddress()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
@@ -25,33 +26,34 @@
 - **attribute()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 - **beforeDeadline()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 - **domainMark()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **listBrandMarks()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 - **remoteBrand()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 - **requestPinned()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **suggestions()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **COLLECTIONS** (1 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- *... and 15 more nodes in this community*
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [[Dependencies & Package Config]] (8 shared connections)
-- [[Product Requirements Documentation]] (7 shared connections)
-- [[Community 164]] (3 shared connections)
-- [[Design System & UI Tokens]] (2 shared connections)
+- [[Client Products Data Store]] (7 shared connections)
+- [[Design System & UI Tokens]] (6 shared connections)
+- [[Community 29]] (3 shared connections)
+- [[Zoho Integration Architecture]] (2 shared connections)
+- [[Community 36]] (1 shared connections)
+- [[Community 121]] (1 shared connections)
 - [[Pricing Regression Test Suite]] (1 shared connections)
-- [[Community 57]] (1 shared connections)
-- [[Community 128]] (1 shared connections)
-- [[Community 31]] (1 shared connections)
+- [[Community 41]] (1 shared connections)
+- [[Community 55]] (1 shared connections)
 
 ## Source Files
 
+- `.agents/skills/archify/bin/archify.mjs`
 - `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 - `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
 - `.agents/skills/archify/test/brand-marks.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 153 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 157 (98%)
+- INFERRED: 4 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

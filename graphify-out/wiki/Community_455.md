@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **.mcp.json** (1 connections) — `.mcp.json`
-- **supabase** (1 connections) — `.mcp.json`
+- **esm-6RMIkgXF.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-6RMIkgXF.js`
+- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-6RMIkgXF.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.mcp.json`
+- `android/app/src/main/assets/public/assets/esm-6RMIkgXF.js`
 
 ## Audit Trail
 

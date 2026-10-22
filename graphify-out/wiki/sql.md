@@ -2,7 +2,7 @@
 
 > God node · 65 connections · `backend/src/db/pool.js`
 
-**Community:** [[Community 30]]
+**Community:** [[Community 40]]
 
 ## Connections by Relation
 
@@ -12,10 +12,12 @@
 - [[generateUniqueDealerCode()]] `INFERRED`
 - [[syncCatalog()]] `EXTRACTED`
 - [[getActiveContent()]] `EXTRACTED`
+- [[getHeroSliderSettings()]] `EXTRACTED`
 - [[applyDealer()]] `EXTRACTED`
 - [[createInvite()]] `EXTRACTED`
 - [[crmPoll()]] `EXTRACTED`
 - [[jwtAuth()]] `EXTRACTED`
+- [[saveHeroSliderSettings()]] `EXTRACTED`
 - [[applyCrmContactState()]] `EXTRACTED`
 - [[resolveUserWithDealer()]] `EXTRACTED`
 - [[loadCatalog()]] `EXTRACTED`
@@ -25,8 +27,6 @@
 - [[upsertStoreContent()]] `EXTRACTED`
 - [[deactivateDealer()]] `EXTRACTED`
 - [[approveStaff()]] `EXTRACTED`
-- [[deleteStaff()]] `EXTRACTED`
-- [[holdStaff()]] `EXTRACTED`
 
 ### contains
 - [[pool.js]] `EXTRACTED`
@@ -41,17 +41,17 @@
 - [[catalog.js]] `EXTRACTED`
 - [[webhooks.js]] `EXTRACTED`
 - [[crmPoll.js]] `EXTRACTED`
-- [[catalogSync.js]] `EXTRACTED`
 - [[content.js]] `EXTRACTED`
+- [[catalogSync.js]] `EXTRACTED`
 - [[notifications.js]] `EXTRACTED`
 - [[auth.js]] `EXTRACTED`
 - [[health.js]] `EXTRACTED`
 - [[audit.js]] `EXTRACTED`
 - [[migrate.js]] `EXTRACTED`
 - [[upload.js]] `EXTRACTED`
-- [[uploads.js]] `EXTRACTED`
 - [[upload.js]] `EXTRACTED`
 - [[uploads.js]] `EXTRACTED`
+- [[seed-content.js]] `EXTRACTED`
 
 ---
 

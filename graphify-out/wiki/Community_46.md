@@ -1,56 +1,51 @@
 # Community 46
 
-> 32 nodes · cohesion 0.13
+> 29 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **D()** (28 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
-- **np()** (21 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
-- **bm()** (13 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
-- **tn()** (13 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
-- **lm()** (12 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
-- **an()** (11 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
-- **ip()** (10 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
-- **am()** (9 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
-- **gn()** (8 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
-- **mm()** (8 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
-- **om()** (8 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
-- **U()** (8 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
-- **sn()** (7 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
-- **yn()** (7 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
-- **zm()** (7 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
-- **dn()** (6 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
-- **jm()** (6 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
-- **on()** (6 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
-- **km()** (5 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
-- **ln()** (5 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
-- **im()** (4 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
-- **Q()** (4 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
-- **rm()** (4 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
-- **Um()** (4 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
-- **un()** (4 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
-- *... and 7 more nodes in this community*
+- **check-render-output.mjs** (57 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectNonFiniteAttrs()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **attrEntries()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectLegendCollisions()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **segmentIntersectsBox()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **segmentsIntersect()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **decodeNumericReferences()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **isNumericAttr()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **onSegment()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **orientation()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **padBox()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **pointInsideBox()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **addCheck()** (1 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **checks** (1 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **composition** (1 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **diagonalStraightSegments()** (1 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **ELEMENT_NUMERIC_ATTRS** (1 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **formatPoint()** (1 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **frameName()** (1 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **frameRecord()** (1 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **HTML_VOID_ELEMENTS** (1 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **htmlPath** (1 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **NUMERIC_ATTRS** (1 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **relationshipName()** (1 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **relationshipRecord()** (1 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (33 shared connections)
-- [[Master Codebase Architecture Reference]] (22 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (16 shared connections)
-- [[Community 38]] (13 shared connections)
-- [[Community 32]] (10 shared connections)
-- [[Community 33]] (8 shared connections)
-- [[Community 64]] (5 shared connections)
-- [[Community 43]] (4 shared connections)
-- [[Community 37]] (1 shared connections)
-- [[Community 53]] (1 shared connections)
+- [[Community 127]] (16 shared connections)
+- [[Community 354]] (6 shared connections)
+- [[Pricing & Roles Skill]] (5 shared connections)
+- [[Community 165]] (2 shared connections)
+- [[Zoho Integration Architecture]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CLIvw0gk.js`
+- `.agents/skills/archify/scripts/check-render-output.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 239 (100%)
+- EXTRACTED: 102 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

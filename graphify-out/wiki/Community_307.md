@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Visual Workflow** (6 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **visual-workflow.md** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Generated Assets** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Image Generation Capability** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Three Visual Directions** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Visual QA** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Visual Target Gate** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Text views** (5 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
+- **text-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/visual-workflow.md`
+- `.agents/skills/apple-design/references/hig/text-views.md`
 
 ## Audit Trail
 

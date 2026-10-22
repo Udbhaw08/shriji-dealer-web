@@ -1,40 +1,46 @@
 # Community 101
 
-> 19 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **golden.mjs** (18 connections) — `.agents/skills/archify/test/golden.mjs`
-- **expectFailure()** (3 connections) — `.agents/skills/archify/test/golden.mjs`
-- **check()** (2 connections) — `.agents/skills/archify/test/golden.mjs`
-- **render()** (2 connections) — `.agents/skills/archify/test/golden.mjs`
-- **blocks()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **GOLDEN** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **landingPage** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **landingVersions** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **lock** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **normalizeNewlines()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **pkg** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **shieldsBadgeMessages()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **skillMd** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **webApp** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **qd()** (14 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **Yd()** (13 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **Fd()** (12 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **Vd()** (12 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **ct()** (7 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **Bd()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **Ci()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **Hd()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **ns()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **pl()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **fl()** (4 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **Gd()** (3 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **hf()** (3 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **Pi()** (3 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **Ud()** (3 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **Wd()** (3 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **Ym()** (3 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **Ld()** (2 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Zoho Backend & Proxy Endpoints]] (20 shared connections)
+- [[Product Pages Specification]] (9 shared connections)
+- [[Vercel Deployment Routing]] (6 shared connections)
+- [[Community 53]] (5 shared connections)
+- [[Live Pricing Audit Tool]] (4 shared connections)
+- [[Community 50]] (3 shared connections)
+- [[Testing & Workflow Skill]] (2 shared connections)
+- [[Zoho API Diagnostic Script]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/golden.mjs`
+- `ios/App/App/public/assets/index-BAUTLLuP.js`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
+- EXTRACTED: 109 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

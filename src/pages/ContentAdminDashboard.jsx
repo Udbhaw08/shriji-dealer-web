@@ -2,6 +2,7 @@ import { useEffect, useState, useMemo } from "react";
 import { Link } from "react-router-dom";
 import { Icon } from "../ui";
 import FileOrUrlInput from "../components/FileOrUrlInput";
+import { parseVideoUrl } from "../utils/video";
 
 const DEFAULT_BANNER_FORM = {
   id: "",
@@ -15,6 +16,7 @@ const DEFAULT_BANNER_FORM = {
   link_url: "/products",
   bg_color: "#0110a7",
   display_order: 1,
+  duration_seconds: 5,
   is_active: true,
   metadata: {},
 };
@@ -76,9 +78,49 @@ export default function ContentAdminDashboard() {
   const [brandingForm, setBrandingForm] = useState(DEFAULT_BRANDING_FORM);
   const [editingId, setEditingId] = useState(null);
 
+  // Global Slider Settings
+  const [globalInterval, setGlobalInterval] = useState(5);
+  const [globalAutoplay, setGlobalAutoplay] = useState(true);
+  const [settingsSaving, setSettingsSaving] = useState(false);
+
   const notify = (msg) => {
     setSuccessMsg(msg);
     setTimeout(() => setSuccessMsg(""), 4500);
+  };
+
+  const fetchSliderSettings = async () => {
+    try {
+      const res = await fetch("/api/content?scope=slider_settings");
+      const data = await res.json();
+      if (data?.ok && data.settings) {
+        setGlobalInterval(Number(data.settings.autoplay_interval) || 5);
+        setGlobalAutoplay(data.settings.autoplay_enabled !== false);
+      }
+    } catch {}
+  };
+
+  const handleSaveGlobalSettings = async () => {
+    try {
+      setSettingsSaving(true);
+      const res = await fetch("/api/content?scope=slider_settings", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          autoplay_interval: globalInterval,
+          autoplay_enabled: globalAutoplay,
+          pause_on_hover: true,
+        }),
+      });
+      const data = await res.json();
+      if (data.ok) {
+        await refreshLiveCache();
+        notify(`✓ Carousel rotation speed updated to ${globalInterval}s per slide!`);
+      }
+    } catch (err) {
+      setError(err.message || "Failed to update carousel settings");
+    } finally {
+      setSettingsSaving(false);
+    }
   };
 
   const fetchContent = async () => {
@@ -101,6 +143,7 @@ export default function ContentAdminDashboard() {
 
   useEffect(() => {
     fetchContent();
+    fetchSliderSettings();
   }, []);
 
   const heroBanners = useMemo(
@@ -211,6 +254,7 @@ export default function ContentAdminDashboard() {
       link_url: item.link_url || "/products",
       bg_color: item.bg_color || "#0110a7",
       display_order: item.display_order || 1,
+      duration_seconds: Number(item.metadata?.duration_seconds) || 5,
       is_active: item.is_active !== false,
       metadata: item.metadata || {},
     });
@@ -272,6 +316,10 @@ export default function ContentAdminDashboard() {
       id: (bannerForm.id || `hero-${Date.now()}`).trim().toLowerCase().replace(/\s+/g, "-"),
       type: "hero_banner",
       display_order: Number(bannerForm.display_order) || 1,
+      metadata: {
+        ...(bannerForm.metadata || {}),
+        duration_seconds: Math.max(2, Math.min(120, Number(bannerForm.duration_seconds) || 5)),
+      },
     };
 
     if (!payload.title.trim()) {
@@ -562,6 +610,73 @@ export default function ContentAdminDashboard() {
                 </div>
 
                 <div className="field-group">
+                  <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "6px" }}>
+                    <label htmlFor="b-duration" style={{ fontWeight: 600, fontSize: "0.9rem" }}>
+                      Slide Rotation Duration (Seconds) *
+                    </label>
+                    <span style={{ fontSize: "0.82rem", color: "var(--c-brand)", fontWeight: 700 }}>
+                      ⏱️ {bannerForm.duration_seconds || 5}s on screen
+                    </span>
+                  </div>
+                  <input
+                    id="b-duration"
+                    type="number"
+                    min="2"
+                    max="120"
+                    step="1"
+                    value={bannerForm.duration_seconds || 5}
+                    onChange={(e) =>
+                      setBannerForm({
+                        ...bannerForm,
+                        duration_seconds: Math.max(2, Math.min(120, Number(e.target.value) || 5)),
+                      })
+                    }
+                  />
+                  <div style={{ display: "flex", gap: "6px", marginTop: "8px", flexWrap: "wrap" }}>
+                    {[
+                      { label: "3s (Fast)", sec: 3 },
+                      { label: "5s (Default)", sec: 5 },
+                      { label: "8s (Image)", sec: 8 },
+                      { label: "12s", sec: 12 },
+                      { label: "15s (Video)", sec: 15 },
+                      { label: "20s (Long Video)", sec: 20 },
+                      { label: "30s", sec: 30 },
+                    ].map((preset) => (
+                      <button
+                        key={preset.sec}
+                        type="button"
+                        className="chip-btn"
+                        style={{
+                          fontSize: "0.75rem",
+                          padding: "4px 10px",
+                          borderRadius: "999px",
+                          border:
+                            (bannerForm.duration_seconds || 5) === preset.sec
+                              ? "1.5px solid var(--c-brand)"
+                              : "1px solid var(--line, #cbd5e1)",
+                          background:
+                            (bannerForm.duration_seconds || 5) === preset.sec
+                              ? "rgba(1, 16, 167, 0.12)"
+                              : "var(--bg-sub, #f8fafc)",
+                          color:
+                            (bannerForm.duration_seconds || 5) === preset.sec
+                              ? "var(--c-brand)"
+                              : "var(--c-text)",
+                          fontWeight: (bannerForm.duration_seconds || 5) === preset.sec ? 700 : 500,
+                          cursor: "pointer",
+                        }}
+                        onClick={() => setBannerForm({ ...bannerForm, duration_seconds: preset.sec })}
+                      >
+                        {preset.label}
+                      </button>
+                    ))}
+                  </div>
+                  <small className="field-hint">
+                    How many seconds this slide remains visible before rotating to the next. Video slides typically need 12s–20s.
+                  </small>
+                </div>
+
+                <div className="field-group">
                   <FileOrUrlInput
                     id="b-img"
                     label="Banner Image"
@@ -570,7 +685,7 @@ export default function ContentAdminDashboard() {
                     accept="image/png,image/jpeg,image/webp,image/svg+xml"
                     folder="hero-banners"
                     fileTypeLabel="Banner Image"
-                    required
+                    required={!bannerForm.video_url}
                     presets={[
                       { label: "01_Hero_Banner_Image.jpg", url: "/img/01_Hero_Banner_Image.jpg" },
                       { label: "1st.jpeg", url: "/img/1st.jpeg" },
@@ -646,16 +761,61 @@ export default function ContentAdminDashboard() {
                 <div className="field-group">
                   <FileOrUrlInput
                     id="b-video"
-                    label="Video Asset or Google Drive Link (Optional)"
+                    label="Video Asset (YouTube, Vimeo, Google Drive, or MP4 Upload)"
                     value={bannerForm.video_url || ""}
                     onChange={(url) => setBannerForm({ ...bannerForm, video_url: url })}
                     accept="video/mp4,video/webm"
                     folder="hero-banners"
                     fileTypeLabel="Video Asset"
                     previewType="video"
-                    helperText="Direct MP4 plays on loop; Google Drive link renders an interactive Play preview."
+                    helperText="Paste any YouTube URL (e.g. youtube.com/watch?v=...), Vimeo, Google Drive link, or upload an MP4/WebM video file."
                   />
                 </div>
+
+                {/* Video Live Preview Stage */}
+                {bannerForm.video_url && (() => {
+                  const parsed = parseVideoUrl(bannerForm.video_url);
+                  if (!parsed) return null;
+                  return (
+                    <div className="preview-stage-wrap" style={{ marginTop: "10px" }}>
+                      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "8px" }}>
+                        <span className="preview-stage-lbl" style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}>
+                          <span style={{ color: "#10b981", fontSize: "1.1rem" }}>●</span> Video Live Preview ({parsed.provider})
+                        </span>
+                        <span style={{ fontSize: "0.75rem", color: "var(--c-sub)", background: "rgba(0,0,0,0.06)", padding: "2px 8px", borderRadius: "999px", fontWeight: 600 }}>
+                          {parsed.type.toUpperCase()}
+                        </span>
+                      </div>
+                      <div
+                        className="banner-preview-box"
+                        style={{
+                          background: "#000",
+                          height: 220,
+                          position: "relative",
+                          overflow: "hidden",
+                          borderRadius: "10px",
+                          border: "1px solid rgba(0,0,0,0.15)",
+                        }}
+                      >
+                        {parsed.type === "youtube" || parsed.type === "vimeo" || parsed.type === "drive" ? (
+                          <iframe
+                            src={parsed.embedUrl}
+                            title="Admin Video Preview"
+                            style={{ width: "100%", height: "100%", border: "none" }}
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                          />
+                        ) : (
+                          <video
+                            src={parsed.src}
+                            controls
+                            style={{ width: "100%", height: "100%", objectFit: "contain" }}
+                          />
+                        )}
+                      </div>
+                    </div>
+                  );
+                })()}
 
                 <div className="toggle-checkbox-row">
                   <label className="toggle-label">
@@ -693,6 +853,91 @@ export default function ContentAdminDashboard() {
                 </Link>
               </div>
 
+              {/* Global Carousel Speed & Autoplay Controls */}
+              <div
+                style={{
+                  background: "var(--surface, #ffffff)",
+                  border: "1px solid var(--line, #e2e8f0)",
+                  borderRadius: "12px",
+                  padding: "14px 16px",
+                  marginBottom: "16px",
+                  boxShadow: "0 1px 4px rgba(0,0,0,0.03)",
+                }}
+              >
+                <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "10px", flexWrap: "wrap", gap: "8px" }}>
+                  <div>
+                    <span style={{ fontSize: "0.68rem", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.08em", color: "var(--c-sub)" }}>
+                      GLOBAL ROTATION SPEED
+                    </span>
+                    <h4 style={{ margin: "1px 0 0", fontSize: "0.95rem", fontWeight: 700, color: "var(--c-text)" }}>
+                      Carousel Autoplay & Timing
+                    </h4>
+                  </div>
+                  <button
+                    type="button"
+                    className="btn btn-navy"
+                    disabled={busy || settingsSaving}
+                    onClick={handleSaveGlobalSettings}
+                    style={{ padding: "5px 12px", fontSize: "0.78rem", minHeight: 32 }}
+                  >
+                    <Icon name="check" size={13} />
+                    <span>{settingsSaving ? "Saving…" : "Save Speed Settings"}</span>
+                  </button>
+                </div>
+
+                <div style={{ display: "flex", gap: "16px", flexWrap: "wrap", alignItems: "center" }}>
+                  <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+                    <label style={{ fontSize: "0.82rem", fontWeight: 600, color: "var(--c-text)" }}>
+                      Default Slide Duration:
+                    </label>
+                    <input
+                      type="number"
+                      min="2"
+                      max="60"
+                      value={globalInterval}
+                      onChange={(e) => setGlobalInterval(Math.max(2, Math.min(60, Number(e.target.value) || 5)))}
+                      style={{ width: "65px", padding: "4px 8px", borderRadius: "6px", border: "1px solid var(--line)", textAlign: "center", fontWeight: 700 }}
+                    />
+                    <span style={{ fontSize: "0.8rem", color: "var(--c-sub)" }}>sec</span>
+                  </div>
+
+                  <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
+                    <button
+                      type="button"
+                      onClick={() => setGlobalAutoplay(true)}
+                      style={{
+                        padding: "4px 10px",
+                        borderRadius: "6px",
+                        border: globalAutoplay ? "1.5px solid var(--c-brand)" : "1px solid var(--line)",
+                        background: globalAutoplay ? "rgba(1, 16, 167, 0.08)" : "#f8fafc",
+                        color: globalAutoplay ? "var(--c-brand)" : "var(--c-sub)",
+                        fontSize: "0.78rem",
+                        fontWeight: 600,
+                        cursor: "pointer",
+                      }}
+                    >
+                      ▶ Auto-Slide Loop
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setGlobalAutoplay(false)}
+                      style={{
+                        padding: "4px 10px",
+                        borderRadius: "6px",
+                        border: !globalAutoplay ? "1.5px solid var(--c-brand)" : "1px solid var(--line)",
+                        background: !globalAutoplay ? "rgba(1, 16, 167, 0.08)" : "#f8fafc",
+                        color: !globalAutoplay ? "var(--c-brand)" : "var(--c-sub)",
+                        fontSize: "0.78rem",
+                        fontWeight: 600,
+                        cursor: "pointer",
+                      }}
+                    >
+                      ⏸ Manual Swipes Only
+                    </button>
+                  </div>
+                </div>
+              </div>
+
               {heroBanners.length === 0 ? (
                 <div className="empty-content-state">
                   <Icon name="image" size={36} />
@@ -700,42 +945,53 @@ export default function ContentAdminDashboard() {
                 </div>
               ) : (
                 <div className="admin-items-list">
-                  {heroBanners.map((item, idx) => (
-                    <div
-                      key={item.id}
-                      className={`admin-item-card ${editingId === item.id ? "is-editing" : ""} ${!item.is_active ? "is-inactive" : ""}`}
-                    >
-                      <div className="admin-item-thumb-box" style={{ background: item.bg_color || "#0110a7" }}>
-                        {item.image_url ? (
-                          <img
-                            src={item.image_url}
-                            alt=""
-                            onError={(e) => {
-                              e.currentTarget.style.display = "none";
-                            }}
-                          />
-                        ) : (
-                          <Icon name="image" size={24} style={{ color: "rgba(255,255,255,0.7)" }} />
-                        )}
-                        <span className="order-sequence-pill">#{item.display_order || idx + 1}</span>
-                      </div>
+                  {heroBanners.map((item, idx) => {
+                    const parsedVid = item.video_url ? parseVideoUrl(item.video_url) : null;
+                    const thumb = item.image_url || parsedVid?.thumbnail;
 
-                      <div className="admin-item-body">
-                        <div className="admin-item-meta-top">
-                          <span className={`status-pill ${item.is_active ? "active" : "inactive"}`}>
-                            <span className="status-dot" />
-                            {item.is_active ? "Live on Store" : "Inactive / Draft"}
-                          </span>
-                          <span className="admin-item-id-tag">ID: {item.id}</span>
+                    return (
+                      <div
+                        key={item.id}
+                        className={`admin-item-card ${editingId === item.id ? "is-editing" : ""} ${!item.is_active ? "is-inactive" : ""}`}
+                      >
+                        <div className="admin-item-thumb-box" style={{ background: item.bg_color || "#0110a7" }}>
+                          {thumb ? (
+                            <img
+                              src={thumb}
+                              alt=""
+                              onError={(e) => {
+                                e.currentTarget.style.display = "none";
+                              }}
+                            />
+                          ) : (
+                            <Icon name={parsedVid ? "play" : "image"} size={24} style={{ color: "rgba(255,255,255,0.7)" }} />
+                          )}
+                          <span className="order-sequence-pill">#{item.display_order || idx + 1}</span>
                         </div>
 
-                        <h3 className="admin-item-title">{item.title}</h3>
-                        {item.subtitle && <p className="admin-item-subtitle">{item.subtitle}</p>}
+                        <div className="admin-item-body">
+                          <div className="admin-item-meta-top">
+                            <span className={`status-pill ${item.is_active ? "active" : "inactive"}`}>
+                              <span className="status-dot" />
+                              {item.is_active ? "Live on Store" : "Inactive / Draft"}
+                            </span>
+                            <span className="admin-item-id-tag">ID: {item.id}</span>
+                          </div>
 
-                        <div className="admin-item-details-row">
-                          <span className="detail-tag">Link: {item.link_url || "/products"}</span>
-                          {item.video_url && <span className="detail-tag video-tag">📹 Video Linked</span>}
-                        </div>
+                          <h3 className="admin-item-title">{item.title}</h3>
+                          {item.subtitle && <p className="admin-item-subtitle">{item.subtitle}</p>}
+
+                          <div className="admin-item-details-row">
+                            <span className="detail-tag">Link: {item.link_url || "/products"}</span>
+                            <span className="detail-tag" style={{ background: "rgba(1, 16, 167, 0.08)", color: "#0110a7", fontWeight: 600 }}>
+                              ⏱️ {item.metadata?.duration_seconds || 5}s slide
+                            </span>
+                            {item.video_url && (
+                              <span className="detail-tag video-tag" style={{ background: "rgba(220, 38, 38, 0.08)", color: "#dc2626", fontWeight: 600 }}>
+                                🎬 {parsedVid?.provider || "Video"}
+                              </span>
+                            )}
+                          </div>
 
                         <div className="admin-item-actions-row">
                           <button
@@ -771,8 +1027,9 @@ export default function ContentAdminDashboard() {
                         </div>
                       </div>
                     </div>
-                  ))}
-                </div>
+                  );
+                })}
+              </div>
               )}
             </div>
           </div>

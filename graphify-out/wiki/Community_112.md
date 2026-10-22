@@ -1,41 +1,45 @@
 # Community 112
 
-> 17 nodes · cohesion 0.12
+> 16 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **properties** (12 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **meta** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **lanes** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **nodes** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **cards** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **schema_version** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **rn()** (13 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **wn()** (12 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **ip()** (10 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **cn()** (8 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **hn()** (8 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **U()** (8 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **vn()** (7 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **Zt()** (7 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **an()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **un()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **en()** (5 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **ml()** (5 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **on()** (5 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **ep()** (3 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **gn()** (3 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **sn()** (3 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
 
 ## Relationships
 
-- [[Community 137]] (5 shared connections)
-- [[Community 65]] (2 shared connections)
-- [[Community 99]] (1 shared connections)
-- [[Community 74]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (20 shared connections)
+- [[Product Brand & Business Vision]] (12 shared connections)
+- [[Roles & Customer Sharing Spec]] (9 shared connections)
+- [[Community 48]] (4 shared connections)
+- [[Community 35]] (3 shared connections)
+- [[Master Codebase Architecture Reference]] (3 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (2 shared connections)
+- [[Community 49]] (1 shared connections)
+- [[Architecture Doc Generator]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (100%)
+- EXTRACTED: 109 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

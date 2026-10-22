@@ -63,9 +63,10 @@ function zohoApiPlugin() {
           try {
             const contentService = await loadContentService();
             const banners = contentService ? await contentService.getSupabaseBanners() : [];
+            const settings = contentService ? await contentService.getHeroSliderSettings() : null;
             res.statusCode = 200;
             res.setHeader('Content-Type', 'application/json');
-            return res.end(JSON.stringify({ ok: true, count: banners.length, banners }));
+            return res.end(JSON.stringify({ ok: true, count: banners.length, banners, settings }));
           } catch (err) {
             console.error('[vite] Supabase banner error:', err.message);
             res.statusCode = 500;
@@ -151,7 +152,7 @@ function zohoApiPlugin() {
         // Uploaded Assets Serving: /uploads/... or /api/uploads
         if (req.url.startsWith('/uploads/') || req.url.startsWith('/api/uploads')) {
           try {
-            const uploadsHandler = (await import('./api/uploads.js')).default;
+            const uploadsHandler = (await import('./api/upload.js')).default;
             const urlObj = new URL(req.url, 'http://localhost');
             let targetPath = urlObj.searchParams.get('path') || urlObj.searchParams.get('file');
             if (!targetPath && req.url.startsWith('/uploads/')) {

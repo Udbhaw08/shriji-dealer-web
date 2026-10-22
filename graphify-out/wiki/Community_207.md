@@ -1,30 +1,33 @@
 # Community 207
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **web-BIgxrVWQ.js** (8 connections) — `android/app/src/main/assets/public/assets/web-BIgxrVWQ.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-BIgxrVWQ.js`
-- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-BIgxrVWQ.js`
-- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-BIgxrVWQ.js`
-- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-BIgxrVWQ.js`
-- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-BIgxrVWQ.js`
-- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-BIgxrVWQ.js`
-- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-BIgxrVWQ.js`
-- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-BIgxrVWQ.js`
+- **site-language-continuity.test.mjs** (12 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **clickAndNavigate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **evaluate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **loadRuntime()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **navigate()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **navigationPath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **runtimePath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **startStaticServer()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 42]] (1 shared connections)
+- [[Community 151]] (1 shared connections)
+- [[Community 129]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/web-BIgxrVWQ.js`
+- `.agents/skills/archify/test/site-language-continuity.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 23 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,59 +1,53 @@
 # Community 76
 
-> 23 nodes · cohesion 0.18
+> 22 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **pool.js** (30 connections) — `backend/src/db/pool.js`
-- **env.js** (14 connections) — `backend/src/config/env.js`
-- **webhooks.js** (14 connections) — `backend/src/routes/webhooks.js`
-- **logger.js** (14 connections) — `backend/src/utils/logger.js`
-- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
-- **log** (13 connections) — `backend/src/utils/logger.js`
-- **env** (11 connections) — `backend/src/config/env.js`
-- **index.js** (11 connections) — `backend/src/jobs/index.js`
-- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
-- **notifications.js** (9 connections) — `backend/src/services/notifications.js`
-- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
-- **catalogSync()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **tokenCleanup()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **markPollRun()** (3 connections) — `backend/src/jobs/crmPoll.js`
-- **migrate-content.js** (3 connections) — `backend/scripts/migrate-content.js`
-- **test-storage.js** (3 connections) — `backend/scripts/test-storage.js`
-- **bool()** (1 connections) — `backend/src/config/env.js`
-- **__dirname** (1 connections) — `backend/src/config/env.js`
-- **num()** (1 connections) — `backend/src/config/env.js`
-- **tx()** (1 connections) — `backend/src/db/pool.js`
-- **main()** (1 connections) — `backend/scripts/migrate-content.js`
-- **main()** (1 connections) — `backend/scripts/test-storage.js`
-- **ts()** (1 connections) — `backend/src/utils/logger.js`
+- **Fr()** (18 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **r()** (15 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **Lr()** (13 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **sf()** (7 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **Dr()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **Kr()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **qr()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **Vr()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **br()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **ei()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **gr()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **Hr()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **jr()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **tn()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **Wr()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **Rr()** (4 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **Ir()** (3 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **Mr()** (3 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **Nr()** (3 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **Ur()** (3 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **zr()** (3 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **tc()** (2 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
 
 ## Relationships
 
-- [[Community 30]] (23 shared connections)
-- [[Community 60]] (17 shared connections)
-- [[Community 48]] (15 shared connections)
-- [[Community 86]] (11 shared connections)
-- [[Community 114]] (6 shared connections)
-- [[Price Presentation & Product UI]] (2 shared connections)
-- [[Community 372]] (1 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (26 shared connections)
+- [[Community 50]] (5 shared connections)
+- [[Product Pages Specification]] (5 shared connections)
+- [[Live Pricing Audit Tool]] (4 shared connections)
+- [[Community 133]] (3 shared connections)
+- [[Testing & Workflow Skill]] (3 shared connections)
+- [[Vercel Deployment Routing]] (3 shared connections)
+- [[Zoho API Diagnostic Script]] (1 shared connections)
+- [[Community 311]] (1 shared connections)
+- [[Community 53]] (1 shared connections)
+- [[Community 115]] (1 shared connections)
 
 ## Source Files
 
-- `backend/scripts/migrate-content.js`
-- `backend/scripts/test-storage.js`
-- `backend/src/config/env.js`
-- `backend/src/db/pool.js`
-- `backend/src/jobs/catalogSync.js`
-- `backend/src/jobs/crmPoll.js`
-- `backend/src/jobs/index.js`
-- `backend/src/routes/webhooks.js`
-- `backend/src/services/notifications.js`
-- `backend/src/utils/logger.js`
+- `ios/App/App/public/assets/index-BAUTLLuP.js`
 
 ## Audit Trail
 
-- EXTRACTED: 165 (100%)
+- EXTRACTED: 133 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

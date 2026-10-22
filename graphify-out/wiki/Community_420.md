@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **vercel.json** (3 connections) — `vercel.json`
-- **framework** (1 connections) — `vercel.json`
-- **headers** (1 connections) — `vercel.json`
-- **rewrites** (1 connections) — `vercel.json`
+- **community-proof-intake.test.mjs** (3 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
+- **read()** (1 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `vercel.json`
+- `.agents/skills/archify/test/community-proof-intake.test.mjs`
 
 ## Audit Trail
 

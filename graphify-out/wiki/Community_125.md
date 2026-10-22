@@ -22,8 +22,8 @@
 
 ## Relationships
 
-- [[Live Pricing Audit Tool]] (5 shared connections)
-- [[Community 84]] (3 shared connections)
+- [[Graphify Knowledge Graph Skill]] (5 shared connections)
+- [[Community 79]] (3 shared connections)
 
 ## Source Files
 

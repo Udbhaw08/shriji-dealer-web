@@ -1,55 +1,55 @@
 # Community 35
 
-> 35 nodes · cohesion 0.11
+> 36 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **i()** (67 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **n()** (26 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **t()** (18 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **is()** (12 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **r()** (11 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **as()** (9 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **c()** (8 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **os()** (8 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **Mp()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **xo()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **ds()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **ps()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **us()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **bs()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **hm()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **Qo()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **qs()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **ss()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **tl()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **ua()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **ys()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **fs()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **ms()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **Qa()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **rs()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- *... and 10 more nodes in this community*
+- **i()** (66 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **n()** (26 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **t()** (20 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **is()** (12 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **ya()** (10 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **as()** (9 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **os()** (8 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **ec()** (7 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **xo()** (7 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **ba()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **ds()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **ps()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **qs()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **us()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **ys()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **A()** (5 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **bs()** (5 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **Qo()** (5 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **x()** (5 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **Zo()** (5 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **fs()** (4 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **ms()** (4 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **Qa()** (4 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **rs()** (4 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **va()** (4 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (46 shared connections)
-- [[Product Pages Specification]] (33 shared connections)
-- [[Community 45]] (13 shared connections)
-- [[Community 40]] (12 shared connections)
-- [[Architecture Doc Generator]] (11 shared connections)
-- [[Community 29]] (10 shared connections)
-- [[Graphify Workflow]] (9 shared connections)
-- [[Community 82]] (7 shared connections)
-- [[Client Products Data Store]] (6 shared connections)
+- [[Dealer Auth & Session Management]] (49 shared connections)
+- [[Master Codebase Architecture Reference]] (31 shared connections)
+- [[Product Brand & Business Vision]] (19 shared connections)
+- [[Architecture Doc Generator]] (10 shared connections)
+- [[Roles & Customer Sharing Spec]] (10 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (9 shared connections)
+- [[Community 49]] (7 shared connections)
+- [[Community 48]] (5 shared connections)
+- [[Community 112]] (3 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
 
 ## Audit Trail
 
-- EXTRACTED: 273 (100%)
+- EXTRACTED: 275 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

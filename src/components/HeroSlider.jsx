@@ -2,8 +2,9 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { apiFetch } from "../data/api";
 import { Icon } from "../ui";
+import { parseVideoUrl } from "../utils/video";
 
-const BANNER_CACHE_KEY = "shriji_supabase_banners_v2";
+const BANNER_CACHE_KEY = "shriji_supabase_banners_v3";
 
 const getCachedBanners = () => {
   try {
@@ -11,7 +12,6 @@ const getCachedBanners = () => {
     if (raw) {
       const parsed = JSON.parse(raw);
       if (Array.isArray(parsed) && parsed.length > 0) {
-        // Discard any legacy Zoho banner IDs
         const hasLegacy = parsed.some((b) => b.id === "1st" || b.id === "2nd" || b.id === "3rd");
         if (!hasLegacy) return parsed;
       }
@@ -20,31 +20,39 @@ const getCachedBanners = () => {
   return [];
 };
 
-const AUTO_INTERVAL = 4000; // 4 seconds continuous loop
-
 export default function HeroSlider({ isGated = true }) {
   const [banners, setBanners] = useState(() => getCachedBanners());
+  const [sliderSettings, setSliderSettings] = useState({
+    autoplay_interval: 5,
+    autoplay_enabled: true,
+    pause_on_hover: true,
+  });
   const [loading, setLoading] = useState(() => banners.length === 0);
   const [activeIdx, setActiveIdx] = useState(0);
+  const [isHovered, setIsHovered] = useState(false);
+  const [activeModalVideo, setActiveModalVideo] = useState(null); // { embedUrl, title, type }
 
   const touchStartXRef = useRef(0);
   const touchStartYRef = useRef(0);
   const isSwipingRef = useRef(false);
-  const timerRef = useRef(null);
 
-  // Fetch dynamic banners from Supabase via /api/banners
+  // Fetch dynamic banners and slider settings from Supabase
   useEffect(() => {
     let active = true;
     apiFetch("/api/banners")
       .then((res) => (res.ok ? res.json() : null))
       .then((data) => {
-        if (active && data?.banners && Array.isArray(data.banners) && data.banners.length > 0) {
+        if (!active) return;
+        if (data?.banners && Array.isArray(data.banners) && data.banners.length > 0) {
           setBanners(data.banners);
+          if (data.settings) {
+            setSliderSettings(data.settings);
+          }
           setLoading(false);
           try {
             sessionStorage.setItem(BANNER_CACHE_KEY, JSON.stringify(data.banners));
           } catch {}
-        } else if (active) {
+        } else {
           setBanners([]);
           setLoading(false);
         }
@@ -62,39 +70,45 @@ export default function HeroSlider({ isGated = true }) {
   const totalBanners = banners.length;
   const isSingle = totalBanners <= 1;
 
-  const resetTimer = useCallback(() => {
-    if (timerRef.current) clearInterval(timerRef.current);
-    if (isSingle) return;
-    timerRef.current = setInterval(() => {
-      setActiveIdx((curr) => (curr + 1) % totalBanners);
-    }, AUTO_INTERVAL);
-  }, [isSingle, totalBanners]);
+  const currentBanner = banners[activeIdx] || null;
+
+  // Slide duration for the currently active banner
+  const currentSlideDurationSec = Math.max(
+    2,
+    Number(currentBanner?.duration_seconds) ||
+      Number(currentBanner?.duration) ||
+      Number(currentBanner?.metadata?.duration_seconds) ||
+      Number(sliderSettings?.autoplay_interval) ||
+      5
+  );
 
   const goToSlide = useCallback((index) => {
     if (isSingle) return;
     setActiveIdx((index + totalBanners) % totalBanners);
-    resetTimer();
-  }, [isSingle, totalBanners, resetTimer]);
+  }, [isSingle, totalBanners]);
 
   const nextSlide = useCallback(() => {
     if (isSingle) return;
     setActiveIdx((curr) => (curr + 1) % totalBanners);
-    resetTimer();
-  }, [isSingle, totalBanners, resetTimer]);
+  }, [isSingle, totalBanners]);
 
   const prevSlide = useCallback(() => {
     if (isSingle) return;
     setActiveIdx((curr) => (curr - 1 + totalBanners) % totalBanners);
-    resetTimer();
-  }, [isSingle, totalBanners, resetTimer]);
+  }, [isSingle, totalBanners]);
 
-  // Continuous auto-slide loop (paused if only 1 banner)
+  // Dynamic Autoplay Loop using each slide's individual duration
   useEffect(() => {
-    resetTimer();
-    return () => {
-      if (timerRef.current) clearInterval(timerRef.current);
-    };
-  }, [resetTimer]);
+    if (isSingle) return;
+    if (sliderSettings?.autoplay_enabled === false) return;
+    if (isHovered && sliderSettings?.pause_on_hover !== false) return;
+
+    const timer = setTimeout(() => {
+      setActiveIdx((curr) => (curr + 1) % totalBanners);
+    }, currentSlideDurationSec * 1000);
+
+    return () => clearTimeout(timer);
+  }, [activeIdx, totalBanners, isSingle, isHovered, currentSlideDurationSec, sliderSettings]);
 
   // Keyboard navigation
   const handleKeyDown = (e) => {
@@ -132,20 +146,142 @@ export default function HeroSlider({ isGated = true }) {
   };
 
   const renderSlideContent = (slide, idx) => {
-    const isMp4 = slide.videoUrl && (slide.videoUrl.endsWith(".mp4") || slide.videoUrl.endsWith(".webm") || slide.videoUrl.includes(".mp4?") || slide.videoUrl.includes(".webm?"));
+    const rawVideo = slide.videoUrl || slide.video_url || null;
+    const videoInfo = rawVideo ? parseVideoUrl(rawVideo) : null;
+    const isCurrentActive = idx === activeIdx;
 
-    const mediaEl = isMp4 ? (
-      <video
-        src={slide.videoUrl}
-        poster={slide.src}
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="store-banner-img"
-        style={{ objectFit: "cover", width: "100%", height: "100%" }}
-      />
-    ) : slide.src ? (
+    // Check if title is substantial (not just "video" placeholder)
+    const rawTitle = (slide.title || "").trim();
+    const hasMeaningfulTitle = rawTitle && rawTitle.toLowerCase() !== "video";
+    const hasMeaningfulSubtitle = Boolean((slide.subtitle || "").trim());
+
+    // 1. Render Video Media if video exists
+    if (videoInfo) {
+      const isEmbed = videoInfo.type === "youtube" || videoInfo.type === "vimeo" || videoInfo.type === "drive";
+
+      return (
+        <div className="store-banner-video-wrap">
+          {/* Backdrop poster/thumbnail while iframe loads or for background filler */}
+          {(slide.src || videoInfo.thumbnail) && (
+            <img
+              src={slide.src || videoInfo.thumbnail}
+              alt=""
+              aria-hidden="true"
+              className="store-banner-img"
+              style={{
+                position: "absolute",
+                inset: 0,
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+                filter: "brightness(0.7)",
+                zIndex: 0,
+              }}
+            />
+          )}
+
+          {/* Embedded Player (YouTube, Vimeo, Google Drive) */}
+          {isEmbed && isCurrentActive && (
+            <iframe
+              src={videoInfo.embedUrl}
+              title={slide.title || "Hero Video"}
+              className="store-banner-iframe"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+              loading={idx === 0 ? "eager" : "lazy"}
+              style={{ zIndex: 1 }}
+            />
+          )}
+
+          {/* Direct HTML5 Video (MP4 / WebM / Uploaded file) */}
+          {!isEmbed && (
+            <video
+              src={videoInfo.src}
+              poster={slide.src || undefined}
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="store-banner-img"
+              style={{
+                position: "absolute",
+                inset: 0,
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+                zIndex: 1,
+              }}
+            />
+          )}
+
+          {/* Sound & Fullscreen Action Button */}
+          <button
+            type="button"
+            className="store-banner-sound-btn"
+            onClick={(e) => {
+              e.preventDefault();
+              e.stopPropagation();
+              setActiveModalVideo({
+                title: slide.title || "Watch Video",
+                embedUrl: videoInfo.soundEmbedUrl || videoInfo.embedUrl || videoInfo.src,
+                type: videoInfo.type,
+                src: videoInfo.src,
+              });
+            }}
+            title="Play with audio / full screen"
+          >
+            <Icon name="play" size={13} />
+            <span>Watch with Sound</span>
+          </button>
+
+          {/* Caption Overlay (if meaningful title or subtitle is provided) */}
+          {(hasMeaningfulTitle || hasMeaningfulSubtitle) && (
+            <div className="store-banner-video-caption">
+              <span className="stitch-hero-eyebrow" style={{ fontSize: "0.68rem", marginBottom: "3px", display: "block" }}>
+                ReSTOR Spotlight
+              </span>
+              {hasMeaningfulTitle && <h2 className="store-banner-video-title">{slide.title}</h2>}
+              {hasMeaningfulSubtitle && <p className="store-banner-video-sub">{slide.subtitle}</p>}
+            </div>
+          )}
+
+          {/* Dedicated CTA button if slide has a target link */}
+          {slide.link && slide.link !== "#" && (
+            <div
+              style={{
+                position: "absolute",
+                bottom: "16px",
+                right: "16px",
+                zIndex: 4,
+              }}
+            >
+              {slide.link.startsWith("http") ? (
+                <a
+                  href={slide.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="stitch-cta-primary"
+                  style={{ padding: "6px 14px", fontSize: "0.82rem", borderRadius: "8px" }}
+                >
+                  <span>Explore</span> <Icon name="arrow" size={13} />
+                </a>
+              ) : (
+                <Link
+                  to={slide.link}
+                  className="stitch-cta-primary"
+                  style={{ padding: "6px 14px", fontSize: "0.82rem", borderRadius: "8px" }}
+                >
+                  <span>Explore</span> <Icon name="arrow" size={13} />
+                </Link>
+              )}
+            </div>
+          )}
+        </div>
+      );
+    }
+
+    // 2. Render Static Image Banner
+    const imageEl = slide.src ? (
       <img
         src={slide.src}
         alt={slide.alt || slide.title || "Banner"}
@@ -178,35 +314,6 @@ export default function HeroSlider({ isGated = true }) {
       </div>
     );
 
-    const slideContent = (
-      <div style={{ position: "relative", width: "100%", height: "100%" }}>
-        {mediaEl}
-        {slide.videoUrl && !isMp4 && (
-          <span
-            style={{
-              position: "absolute",
-              bottom: "14px",
-              right: "14px",
-              zIndex: 3,
-              display: "inline-flex",
-              alignItems: "center",
-              gap: "6px",
-              backdropFilter: "blur(8px)",
-              background: "rgba(1, 16, 167, 0.85)",
-              color: "#fff",
-              padding: "5px 12px",
-              borderRadius: "999px",
-              fontSize: "0.78rem",
-              fontWeight: 600,
-              boxShadow: "0 2px 8px rgba(0,0,0,0.3)",
-            }}
-          >
-            <Icon name="play" size={13} /> {slide.driveVideo?.isDrive ? "Drive Video" : "Watch Video"}
-          </span>
-        )}
-      </div>
-    );
-
     if (slide.link) {
       const isExternal = slide.link.startsWith("http://") || slide.link.startsWith("https://");
       return isExternal ? (
@@ -216,16 +323,16 @@ export default function HeroSlider({ isGated = true }) {
           rel="noopener noreferrer"
           style={{ display: "block", width: "100%", height: "100%" }}
         >
-          {slideContent}
+          {imageEl}
         </a>
       ) : (
         <Link to={slide.link} style={{ display: "block", width: "100%", height: "100%" }}>
-          {slideContent}
+          {imageEl}
         </Link>
       );
     }
 
-    return slideContent;
+    return imageEl;
   };
 
   if (banners.length === 0) {
@@ -260,9 +367,10 @@ export default function HeroSlider({ isGated = true }) {
       onKeyDown={handleKeyDown}
       tabIndex={0}
       aria-label="Store Promotional Banners"
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
     >
       <div className="wrap">
-        {/* Amazon / Flipkart Style Sliding Banner Carousel or Static Hero */}
         <div
           className="store-banner-viewport"
           onTouchStart={handleTouchStart}
@@ -313,7 +421,7 @@ export default function HeroSlider({ isGated = true }) {
           )}
         </div>
 
-        {/* Minimalist Pagination Dots below banner */}
+        {/* Minimalist Pagination Dots */}
         {!isSingle && (
           <div className="store-banner-dots-row" role="tablist" aria-label="Banner indicators">
             {banners.map((slide, idx) => (
@@ -330,7 +438,7 @@ export default function HeroSlider({ isGated = true }) {
           </div>
         )}
 
-        {/* Clean Dealer Portal Actions below banner (Matches Stitch Frame 1) */}
+        {/* Clean Dealer Portal Actions below banner */}
         <div className="store-banner-actions">
           {isGated ? (
             <>
@@ -357,6 +465,47 @@ export default function HeroSlider({ isGated = true }) {
           )}
         </div>
       </div>
+
+      {/* Fullscreen Video Modal (High-Fidelity Audio & Controls) */}
+      {activeModalVideo && (
+        <div
+          className="video-lightbox-backdrop"
+          onClick={() => setActiveModalVideo(null)}
+          role="dialog"
+          aria-modal="true"
+        >
+          <div
+            className="video-lightbox-dialog"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              type="button"
+              className="video-lightbox-close"
+              onClick={() => setActiveModalVideo(null)}
+              aria-label="Close video"
+            >
+              ×
+            </button>
+            {activeModalVideo.type === "direct" ? (
+              <video
+                src={activeModalVideo.src}
+                controls
+                autoPlay
+                playsInline
+                style={{ width: "100%", height: "100%", objectFit: "contain" }}
+              />
+            ) : (
+              <iframe
+                src={activeModalVideo.embedUrl}
+                title={activeModalVideo.title}
+                style={{ width: "100%", height: "100%", border: "none" }}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              />
+            )}
+          </div>
+        </div>
+      )}
     </section>
   );
 }

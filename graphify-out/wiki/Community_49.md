@@ -1,51 +1,55 @@
 # Community 49
 
-> 30 nodes · cohesion 0.09
+> 27 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **check-update.mjs** (99 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **encodeRecoverableState()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **guardedCacheEntryRead()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **notification()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationIsActive()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stateAfterFailedCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stateWithFailureCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertSafeCacheEntry()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cancelResponseBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **corruptClaimStatus()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **encodeBoundedState()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **eventKeyForDigest()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **metadataIsWithinLease()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **nextFailedCheck()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **readBoundedBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stateAfterAcknowledgement()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertRenameableCacheEntry()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertSafeRegularFile()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **CacheOperationRaceError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **CachePathChangedError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **defaultCacheDirectory()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **defaultReleasePath** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **FileIdentityChangedError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **isMainModule()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **MAX_CACHE_HORIZON_MS** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- *... and 5 more nodes in this community*
+- **qd()** (14 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **Yd()** (13 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **Fd()** (12 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **Vd()** (12 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **rf()** (11 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **df()** (10 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **ff()** (8 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **ct()** (7 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **Bd()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **Ci()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **nf()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **Hd()** (5 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **Id()** (5 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **lf()** (5 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **ns()** (5 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **pl()** (5 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **fl()** (4 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **uf()** (4 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **Gd()** (3 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **hf()** (3 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **Pi()** (3 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **Ud()** (3 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **Wd()** (3 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **Ym()** (3 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [[Community 100]] (21 shared connections)
-- [[Community 113]] (19 shared connections)
-- [[Community 106]] (19 shared connections)
-- [[Community 66]] (16 shared connections)
-- [[Graphify Agent Rules]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (32 shared connections)
+- [[Roles & Customer Sharing Spec]] (10 shared connections)
+- [[Master Codebase Architecture Reference]] (8 shared connections)
+- [[Community 35]] (7 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (6 shared connections)
+- [[Community 48]] (5 shared connections)
+- [[Architecture Doc Generator]] (5 shared connections)
+- [[Product Brand & Business Vision]] (4 shared connections)
+- [[Community 112]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-update.mjs`
+- `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
 
 ## Audit Trail
 
-- EXTRACTED: 152 (100%)
+- EXTRACTED: 164 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

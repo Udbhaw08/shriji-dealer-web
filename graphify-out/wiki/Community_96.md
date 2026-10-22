@@ -1,28 +1,28 @@
 # Community 96
 
-> 19 nodes · cohesion 0.11
+> 19 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **App Clips** (9 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **App Clip Codes** (5 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **Designing your App Clip** (5 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **Printing guidelines** (2 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **app-clips.md** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **Creating App Clips for businesses** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **Creating content for an App Clip card** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **Customizing your App Clip Code** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **Displaying App Clip Codes** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **Interacting with App Clip Codes** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **Legal requirements** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **Limiting notifications** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **Preserving privacy** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **Showcasing your app** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **Using clear messaging** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **Verifying your printer’s calibration** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **golden.mjs** (18 connections) — `.agents/skills/archify/test/golden.mjs`
+- **expectFailure()** (3 connections) — `.agents/skills/archify/test/golden.mjs`
+- **check()** (2 connections) — `.agents/skills/archify/test/golden.mjs`
+- **render()** (2 connections) — `.agents/skills/archify/test/golden.mjs`
+- **blocks()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **GOLDEN** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **landingPage** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **landingVersions** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **lock** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **normalizeNewlines()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **pkg** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **shieldsBadgeMessages()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **skillMd** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **webApp** (1 connections) — `.agents/skills/archify/test/golden.mjs`
 
 ## Relationships
 
@@ -30,11 +30,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/app-clips.md`
+- `.agents/skills/archify/test/golden.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

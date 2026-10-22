@@ -1,5 +1,12 @@
 import { Router } from 'express';
-import { getSupabaseBanners, getSupabaseSchemes, getSupabaseBranding, getActiveContent } from '../services/content.js';
+import {
+  getSupabaseBanners,
+  getSupabaseSchemes,
+  getSupabaseBranding,
+  getActiveContent,
+  getHeroSliderSettings,
+  saveHeroSliderSettings,
+} from '../services/content.js';
 import { sql } from '../db/pool.js';
 
 export const contentRouter = Router();
@@ -7,9 +14,32 @@ export const contentRouter = Router();
 // GET /api/content/banners
 contentRouter.get('/banners', async (req, res, next) => {
   try {
-    const banners = await getSupabaseBanners();
+    const [banners, settings] = await Promise.all([
+      getSupabaseBanners(),
+      getHeroSliderSettings(),
+    ]);
     res.setHeader('Cache-Control', 'public, max-age=15');
-    return res.json({ ok: true, count: banners.length, banners });
+    return res.json({ ok: true, count: banners.length, banners, settings });
+  } catch (err) {
+    next(err);
+  }
+});
+
+// GET /api/content/settings/hero
+contentRouter.get('/settings/hero', async (req, res, next) => {
+  try {
+    const settings = await getHeroSliderSettings();
+    return res.json({ ok: true, settings });
+  } catch (err) {
+    next(err);
+  }
+});
+
+// POST /api/content/settings/hero
+contentRouter.post('/settings/hero', async (req, res, next) => {
+  try {
+    const saved = await saveHeroSliderSettings(req.body);
+    return res.json({ ok: true, settings: saved });
   } catch (err) {
     next(err);
   }

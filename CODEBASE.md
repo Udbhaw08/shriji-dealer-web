@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-22T21:54:21.596+05:30 (GMT+5:30)
-> Total Project Files: 1610
+> Last synchronized: 2026-10-22T22:50:24.300+05:30 (GMT+5:30)
+> Total Project Files: 1707
 
 ---
 
@@ -88,7 +88,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 ## 4. Codebase Directory Map
 
 ### 4.1 Pages (`src/pages/`)
-- **`src/pages/ContentAdminDashboard.jsx`** (51.8 KB)
+- **`src/pages/ContentAdminDashboard.jsx`** (64.0 KB)
 - **`src/pages/DealerDashboard.jsx`** (35.9 KB)
 - **`src/pages/Favorites.jsx`** (6.7 KB)
 - **`src/pages/Home.jsx`** (20.6 KB)
@@ -105,7 +105,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 ### 4.2 Reusable Components (`src/components/` & `src/ui.jsx`)
 - **`src/components/EmailVerificationPrompt.jsx`** (9.6 KB)
 - **`src/components/FileOrUrlInput.jsx`** (14.4 KB)
-- **`src/components/HeroSlider.jsx`** (11.4 KB)
+- **`src/components/HeroSlider.jsx`** (16.8 KB)
 - **`src/components/MobileBottomNav.jsx`** (4.8 KB)
 - **`src/components/NativeBackHandler.jsx`** (3.7 KB)
 - **`src/components/PriceBlock.jsx`** (6.4 KB)
@@ -132,20 +132,17 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/data/site.js`** (3.6 KB)
 - **`src/data/translations.js`** (32.0 KB)
 - **`src/data/validators.js`** (1.6 KB)
+- **`src/data/video-banner.test.mjs`** (2.3 KB)
 
 ### 4.4 Zoho API & Serverless Handlers (`api/`)
-- **`api/banners.js`** (0.5 KB)
-- **`api/branding.js`** (0.4 KB)
-- **`api/content.js`** (2.2 KB)
+- **`api/content.js`** (4.1 KB)
 - **`api/dealer/apply.js`** (1.0 KB)
 - **`api/dealer/info.js`** (0.9 KB)
 - **`api/download.js`** (4.4 KB)
 - **`api/og.js`** (3.9 KB)
 - **`api/products/index.js`** (1.1 KB)
 - **`api/products/[id].js`** (1.1 KB)
-- **`api/schemes.js`** (0.5 KB)
-- **`api/upload.js`** (3.2 KB)
-- **`api/uploads.js`** (4.0 KB)
+- **`api/upload.js`** (7.5 KB)
 - **`api/zoho.js`** (27.9 KB)
 
 ### 4.5 Automation & Utility Scripts (`scripts/`)

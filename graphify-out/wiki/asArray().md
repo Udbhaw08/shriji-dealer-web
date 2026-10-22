@@ -2,7 +2,7 @@
 
 > God node · 43 connections · `.agents/skills/archify/renderers/shared/geometry.mjs`
 
-**Community:** [[Design System & UI Tokens]]
+**Community:** [[Pricing & Roles Skill]]
 
 ## Connections by Relation
 

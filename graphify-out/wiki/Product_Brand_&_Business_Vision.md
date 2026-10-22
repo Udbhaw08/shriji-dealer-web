@@ -1,48 +1,55 @@
 # Product Brand & Business Vision
 
-> 45 nodes · cohesion 0.06
+> 50 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **generated-validators.mjs** (41 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **func3()** (11 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **generate-validators.test.mjs** (5 connections) — `.agents/skills/archify/test/generate-validators.test.mjs`
-- **validate20()** (4 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate22()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate27()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate28()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate30()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate31()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate33()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate34()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate36()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate37()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate24()** (2 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **pattern17** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **pattern18** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **pattern20** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **pattern4** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **pattern57** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema112** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema116** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema118** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema149** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema31** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema33** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- *... and 20 more nodes in this community*
+- **D()** (28 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **np()** (21 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **.addEventListener()** (19 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **b()** (18 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **h()** (14 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **bm()** (13 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **fp()** (13 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **.removeEventListener()** (12 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **delete()** (11 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **tp()** (11 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **am()** (10 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **mm()** (9 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **cm()** (7 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **E()** (7 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **jm()** (7 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **lp()** (7 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **tm()** (7 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **zm()** (7 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **ef()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **em()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **.blur()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **.scrollIntoView()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **nm()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **v()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **g()** (5 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [[Product Requirements Documentation]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (53 shared connections)
+- [[Master Codebase Architecture Reference]] (21 shared connections)
+- [[Roles & Customer Sharing Spec]] (19 shared connections)
+- [[Community 35]] (19 shared connections)
+- [[Community 112]] (12 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (12 shared connections)
+- [[Community 48]] (9 shared connections)
+- [[Architecture Doc Generator]] (5 shared connections)
+- [[Community 49]] (4 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- `.agents/skills/archify/test/generate-validators.test.mjs`
+- `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
 
 ## Audit Trail
 
-- EXTRACTED: 121 (100%)
+- EXTRACTED: 352 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

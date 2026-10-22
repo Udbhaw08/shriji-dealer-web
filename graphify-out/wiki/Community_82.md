@@ -1,50 +1,44 @@
 # Community 82
 
-> 21 nodes · cohesion 0.17
+> 20 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **Pd()** (15 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **ic()** (9 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **sc()** (9 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **xs()** (9 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **jd()** (8 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **mo()** (8 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **ec()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **ho()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **ac()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **dh()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **ki()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **cc()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **lc()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **No()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **oc()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **Oi()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **dc()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **pf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **go()** (3 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **ai()** (2 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
-- **componentDidCatch()** (2 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **buildDeltaSvg()** (16 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **annotateArchitectureSideSvg()** (9 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryElements()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **edgeSymbolMarkup()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **markerFor()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **addNodeMarker()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryChangeMap()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryMarkupByKey()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryMarkupParts()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundarySymbolMarkup()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **changeMap()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **elementById()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **forceElementState()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **nodeGroupRanges()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **prefixSvgIds()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **staticize()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **transformBoundaryElements()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **transformNodeGroups()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **forceBoundaryState()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **viewBoxSize()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (28 shared connections)
-- [[Product Pages Specification]] (10 shared connections)
-- [[Community 35]] (7 shared connections)
-- [[Graphify Workflow]] (4 shared connections)
-- [[Architecture Doc Generator]] (4 shared connections)
-- [[Community 40]] (2 shared connections)
-- [[Community 29]] (2 shared connections)
-- [[Client Products Data Store]] (1 shared connections)
+- [[Community 58]] (20 shared connections)
+- [[Community 121]] (2 shared connections)
+- [[Client Products Data Store]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 130 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 78 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

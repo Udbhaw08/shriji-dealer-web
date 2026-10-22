@@ -1,56 +1,58 @@
 # Testing & Workflow Skill
 
-> 39 nodes · cohesion 0.05
+> 40 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **properties** (33 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **height** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **variant** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **brand** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **channelX** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **channelY** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **fromSide** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **id** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **labelAt** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **labelDx** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **labelDy** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **lane** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **role** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **route** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **sublabel** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **tag** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **toSide** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **yOffset** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- *... and 14 more nodes in this community*
+- **Z()** (23 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **ku()** (17 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **xl()** (14 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **mu()** (13 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **gi()** (12 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **Iu()** (10 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **vi()** (10 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **Bu()** (9 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **pu()** (9 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **Sp()** (9 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **bc()** (8 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **fu()** (8 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **jl()** (8 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **Su()** (8 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **bl()** (7 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **wl()** (7 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **Aa()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **Au()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **dn()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **gu()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **Nd()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **nu()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **Du()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **hu()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **ju()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [[Community 137]] (5 shared connections)
-- [[Community 99]] (2 shared connections)
-- [[Community 407]] (1 shared connections)
-- [[Community 408]] (1 shared connections)
-- [[Community 409]] (1 shared connections)
-- [[Community 443]] (1 shared connections)
-- [[Community 444]] (1 shared connections)
-- [[Community 410]] (1 shared connections)
-- [[Community 65]] (1 shared connections)
-- [[Community 445]] (1 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (42 shared connections)
+- [[Product Pages Specification]] (18 shared connections)
+- [[Live Pricing Audit Tool]] (12 shared connections)
+- [[Community 133]] (5 shared connections)
+- [[Vercel Deployment Routing]] (4 shared connections)
+- [[Community 53]] (4 shared connections)
+- [[Community 50]] (4 shared connections)
+- [[Community 76]] (3 shared connections)
+- [[Community 311]] (3 shared connections)
+- [[Zoho API Diagnostic Script]] (2 shared connections)
+- [[Community 115]] (2 shared connections)
+- [[Community 101]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `ios/App/App/public/assets/index-BAUTLLuP.js`
 
 ## Audit Trail
 
-- EXTRACTED: 91 (100%)
+- EXTRACTED: 277 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

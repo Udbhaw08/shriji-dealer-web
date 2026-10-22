@@ -1,60 +1,58 @@
 # Community 55
 
-> 27 nodes · cohesion 0.13
+> 26 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **.send()** (54 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **viewer-camera-browser.test.mjs** (11 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **export-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **motion-governor-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **.inspect()** (5 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **run()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **evaluate()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **record()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **media()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **screenshot()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **stable()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **viewport()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **.waitFor()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **screenshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- *... and 2 more nodes in this community*
+- **diagnostics.mjs** (27 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **engineering-profiles.mjs** (10 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **engineering-profile.test.mjs** (10 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **validateEngineeringProfile()** (6 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **normalizedDiagnostic()** (4 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **deploymentOwnershipDiagnostics()** (4 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **fallbackDiagnostic()** (3 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **installRendererDiagnosticBoundary()** (2 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **plainObject()** (2 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **rendererFailure()** (2 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **subject()** (2 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **boundaryKey** (1 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **readerSignal** (1 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **recorded** (1 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **recordedMessages** (1 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **waitForReader()** (1 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **DEPLOYMENT_BOUNDARY_KINDS** (1 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **membership()** (1 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **PRIVATE_STATE_TYPES** (1 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **clone()** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **example** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **examplePath** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [[Community 68]] (11 shared connections)
-- [[Community 95]] (8 shared connections)
-- [[Community 88]] (7 shared connections)
-- [[Community 131]] (7 shared connections)
-- [[Community 47]] (5 shared connections)
-- [[Community 145]] (5 shared connections)
-- [[Community 146]] (5 shared connections)
-- [[Community 180]] (4 shared connections)
-- [[Community 108]] (1 shared connections)
-- [[Community 39]] (1 shared connections)
+- [[Zoho Integration Architecture]] (7 shared connections)
+- [[Design System & UI Tokens]] (6 shared connections)
+- [[Pricing & Roles Skill]] (3 shared connections)
+- [[Community 29]] (2 shared connections)
+- [[Pricing Regression Test Suite]] (1 shared connections)
+- [[Community 41]] (1 shared connections)
+- [[Client Products Data Store]] (1 shared connections)
+- [[Zoho Integration Skill]] (1 shared connections)
+- [[Community 166]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/export-browser.test.mjs`
-- `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- `.agents/skills/archify/test/engineering-profile.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 146 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 87 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

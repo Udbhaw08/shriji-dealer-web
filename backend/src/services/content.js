@@ -46,10 +46,61 @@ export async function getActiveContent(type = null) {
   }
 }
 
+export async function getHeroSliderSettings() {
+  try {
+    const rows = await sql`
+      SELECT metadata FROM public.store_content
+      WHERE type = 'setting' AND id = 'hero_slider_settings'
+      LIMIT 1;
+    `;
+    const meta = rows[0]?.metadata || {};
+    return {
+      autoplay_interval: Number(meta.autoplay_interval) || 5,
+      autoplay_enabled: meta.autoplay_enabled !== false,
+      pause_on_hover: meta.pause_on_hover !== false,
+    };
+  } catch (err) {
+    console.warn('[Supabase Content] Could not fetch slider settings:', err.message);
+    return {
+      autoplay_interval: 5,
+      autoplay_enabled: true,
+      pause_on_hover: true,
+    };
+  }
+}
+
+export async function saveHeroSliderSettings(settings = {}) {
+  const meta = {
+    autoplay_interval: Math.max(2, Math.min(120, Number(settings.autoplay_interval) || 5)),
+    autoplay_enabled: settings.autoplay_enabled !== false,
+    pause_on_hover: settings.pause_on_hover !== false,
+    updated_at: new Date().toISOString(),
+  };
+
+  const rows = await sql`
+    INSERT INTO public.store_content (
+      id, type, title, subtitle, badge, image_url, file_url, video_url, link_url, bg_color, display_order, is_active, metadata, updated_at
+    ) VALUES (
+      'hero_slider_settings', 'setting', 'Hero Carousel Settings', 'Slider Autoplay Configuration', '', null, null, null, null, '#000000', 999, true, ${meta}, NOW()
+    )
+    ON CONFLICT (id) DO UPDATE SET
+      metadata = EXCLUDED.metadata,
+      updated_at = NOW()
+    RETURNING *;
+  `;
+  return rows[0]?.metadata || meta;
+}
+
 export async function getSupabaseBanners() {
   const rows = await getActiveContent('hero_banner');
+  const sliderSettings = await getHeroSliderSettings();
+  const defaultInterval = sliderSettings.autoplay_interval || 5;
+
   return rows.map((r) => {
     const driveInfo = r.video_url ? formatGoogleDriveUrl(r.video_url) : null;
+    const meta = r.metadata || {};
+    const durationSeconds = Number(meta.duration_seconds) || defaultInterval;
+
     return {
       id: r.id,
       src: r.image_url,
@@ -59,10 +110,13 @@ export async function getSupabaseBanners() {
       bgColor: r.bg_color || '#0110a7',
       link: r.link_url || '/products',
       videoUrl: r.video_url || null,
+      video_url: r.video_url || null,
       driveVideo: driveInfo?.isDrive ? driveInfo : null,
       order: r.display_order || 1,
+      duration_seconds: durationSeconds,
+      duration: durationSeconds,
       source: 'supabase',
-      metadata: r.metadata || {},
+      metadata: meta,
     };
   });
 }

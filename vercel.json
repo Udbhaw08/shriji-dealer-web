@@ -20,12 +20,28 @@
   ],
   "rewrites": [
     {
-      "source": "/api/(.*)",
-      "destination": "/api/$1"
+      "source": "/api/banners",
+      "destination": "/api/content?scope=banners"
+    },
+    {
+      "source": "/api/schemes",
+      "destination": "/api/content?scope=schemes"
+    },
+    {
+      "source": "/api/branding",
+      "destination": "/api/content?scope=branding"
     },
     {
       "source": "/uploads/(.*)",
-      "destination": "/api/uploads?path=$1"
+      "destination": "/api/upload?path=$1"
+    },
+    {
+      "source": "/api/uploads",
+      "destination": "/api/upload"
+    },
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/$1"
     },
     {
       "source": "/products/(.+)",

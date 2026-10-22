@@ -21,8 +21,8 @@
 
 ## Relationships
 
-- [[Testing & Workflow Skill]] (5 shared connections)
-- [[Community 112]] (5 shared connections)
+- [[Community 31]] (5 shared connections)
+- [[Community 110]] (5 shared connections)
 
 ## Source Files
 
