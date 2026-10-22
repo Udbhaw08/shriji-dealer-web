@@ -1,17 +1,16 @@
 # Community 264
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Tab bars** (5 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
-- **tab-bars.md** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
-- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
-- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
+- **MockStorage** (6 connections) — `src/data/auth-session.test.mjs`
+- **auth-session.test.mjs** (1 connections) — `src/data/auth-session.test.mjs`
+- **.clear()** (1 connections) — `src/data/auth-session.test.mjs`
+- **.constructor()** (1 connections) — `src/data/auth-session.test.mjs`
+- **.getItem()** (1 connections) — `src/data/auth-session.test.mjs`
+- **.removeItem()** (1 connections) — `src/data/auth-session.test.mjs`
+- **.setItem()** (1 connections) — `src/data/auth-session.test.mjs`
 
 ## Relationships
 
@@ -19,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/tab-bars.md`
+- `src/data/auth-session.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

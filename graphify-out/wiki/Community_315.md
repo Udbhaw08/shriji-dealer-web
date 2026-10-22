@@ -1,16 +1,15 @@
 # Community 315
 
-> 7 nodes · cohesion 0.29
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **Sequence Renderer** (5 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **Layout budget** (2 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **README.md** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **Column fit** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **Input** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **Legend** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **Panels** (5 connections) — `.agents/skills/apple-design/references/hig/panels.md`
+- **panels.md** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
+- **HUD-style panels** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
 
 ## Relationships
 
@@ -18,11 +17,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/sequence/README.md`
+- `.agents/skills/apple-design/references/hig/panels.md`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

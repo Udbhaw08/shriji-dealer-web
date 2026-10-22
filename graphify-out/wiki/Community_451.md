@@ -1,12 +1,10 @@
 # Community 451
 
-> 3 nodes · cohesion 0.67
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **test-whatsapp.js** (2 connections) — `backend/scripts/test-whatsapp.js`
-- **__dirname** (1 connections) — `backend/scripts/test-whatsapp.js`
-- **testWhatsApp()** (1 connections) — `backend/scripts/test-whatsapp.js`
+- **cordova.variables.gradle** (0 connections) — `android/capacitor-cordova-android-plugins/cordova.variables.gradle`
 
 ## Relationships
 
@@ -14,11 +12,11 @@
 
 ## Source Files
 
-- `backend/scripts/test-whatsapp.js`
+- `android/capacitor-cordova-android-plugins/cordova.variables.gradle`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,15 +1,14 @@
 # Community 343
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **Panels** (5 connections) — `.agents/skills/apple-design/references/hig/panels.md`
-- **panels.md** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
-- **HUD-style panels** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
+- **iCloud** (4 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
+- **icloud.md** (1 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
 
 ## Relationships
 
@@ -17,11 +16,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/panels.md`
+- `.agents/skills/apple-design/references/hig/icloud.md`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

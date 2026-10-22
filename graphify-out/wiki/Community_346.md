@@ -1,15 +1,14 @@
 # Community 346
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **Steppers** (4 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
-- **steppers.md** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
+- **Outline views** (4 connections) — `.agents/skills/apple-design/references/hig/outline-views.md`
+- **outline-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/outline-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/outline-views.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/outline-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/outline-views.md`
 
 ## Relationships
 
@@ -17,11 +16,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/steppers.md`
+- `.agents/skills/apple-design/references/hig/outline-views.md`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

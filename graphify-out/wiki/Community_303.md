@@ -4,25 +4,26 @@
 
 ## Key Concepts
 
-- **Pop-up buttons** (5 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
-- **pop-up-buttons.md** (1 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
-- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
+- **settled-flow.test.mjs** (8 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Zoho Backend & Proxy Endpoints]] (1 shared connections)
+- [[Product Requirements Documentation]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
+- `.agents/skills/archify/test/settled-flow.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

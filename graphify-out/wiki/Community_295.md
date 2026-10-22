@@ -1,28 +1,28 @@
 # Community 295
 
-> 7 nodes · cohesion 0.29
+> 7 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **Entering data** (5 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **entering-data.md** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **preview.test.mjs** (8 connections) — `.agents/skills/archify/test/preview.test.mjs`
+- **stateAt()** (2 connections) — `.agents/skills/archify/test/preview.test.mjs`
+- **waitForState()** (2 connections) — `.agents/skills/archify/test/preview.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
+- **rawRequest()** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 45]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/entering-data.md`
+- `.agents/skills/archify/test/preview.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

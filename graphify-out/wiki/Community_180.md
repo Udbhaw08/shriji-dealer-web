@@ -1,20 +1,19 @@
 # Community 180
 
-> 11 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **degraded.test.mjs** (10 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **assertFriendlyFailure()** (2 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **render()** (2 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **ARRAY_FIELDS** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **filter()** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **installedRoot** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **mulberry32()** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **Workflow Renderer** (6 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **Layout contracts** (3 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **Design Rules** (2 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **README.md** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **Fixed v1** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **Input** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **Legend** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **Migration and layout receipt** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **Optional semantic checks** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **Readable v2** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
 
 ## Relationships
 
@@ -22,11 +21,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/degraded.test.mjs`
+- `.agents/skills/archify/renderers/workflow/README.md`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

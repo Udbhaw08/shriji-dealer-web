@@ -1,26 +1,25 @@
 # Community 372
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **Image wells** (4 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
-- **image-wells.md** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
+- **14. Hierarchy Checklist** (4 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Anti-patterns** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Hierarchy Test** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Visual Weight Stack** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 200]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/image-wells.md`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

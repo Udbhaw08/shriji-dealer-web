@@ -1,17 +1,16 @@
 # Community 282
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **semantic-legend-gateway.test.mjs** (7 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
-- **values()** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
+- **Writing** (6 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **writing.md** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **Getting started** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
 
 ## Relationships
 
@@ -19,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
+- `.agents/skills/apple-design/references/hig/writing.md`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,42 +1,33 @@
 # Community 132
 
-> 14 nodes · cohesion 0.24
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **Td()** (9 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **qf()** (8 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **ep()** (7 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **_getIdTokenResponse()** (7 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **_getReauthenticationResolver()** (6 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **jf()** (6 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **kn()** (6 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **buildRequest()** (5 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **_linkToIdToken()** (5 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **Xf()** (5 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **_buildIdpRequest()** (4 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **Gp()** (4 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **Zf()** (3 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **info()** (2 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **Privacy** (8 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Requesting permission** (3 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **privacy.md** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Location button** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Pre-alert screens, windows, or views** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Protecting data** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Tracking requests** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (14 shared connections)
-- [[Product Requirements Documentation]] (4 shared connections)
-- [[Dependencies & Package Config]] (4 shared connections)
-- [[Design System & UI Tokens]] (3 shared connections)
-- [[Community 42]] (3 shared connections)
-- [[Claude Agent Instructions]] (2 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (2 shared connections)
-- [[Community 55]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- `.agents/skills/apple-design/references/hig/privacy.md`
 
 ## Audit Trail
 
-- EXTRACTED: 77 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

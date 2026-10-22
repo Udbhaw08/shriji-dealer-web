@@ -1,12 +1,10 @@
 # Community 450
 
-> 3 nodes · cohesion 0.67
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **check-whatsapp-status.js** (2 connections) — `backend/scripts/check-whatsapp-status.js`
-- **checkStatus()** (1 connections) — `backend/scripts/check-whatsapp-status.js`
-- **__dirname** (1 connections) — `backend/scripts/check-whatsapp-status.js`
+- **build.gradle** (0 connections) — `android/capacitor-cordova-android-plugins/build.gradle`
 
 ## Relationships
 
@@ -14,11 +12,11 @@
 
 ## Source Files
 
-- `backend/scripts/check-whatsapp-status.js`
+- `android/capacitor-cordova-android-plugins/build.gradle`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

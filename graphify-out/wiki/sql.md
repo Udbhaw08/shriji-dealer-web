@@ -1,8 +1,8 @@
 # sql
 
-> God node · 60 connections · `backend/src/db/pool.js`
+> God node · 59 connections · `backend/src/db/pool.js`
 
-**Community:** [[Community 34]]
+**Community:** [[Project Readme & Layout]]
 
 ## Connections by Relation
 
@@ -17,13 +17,13 @@
 - [[crmPoll()]] `EXTRACTED`
 - [[jwtAuth()]] `EXTRACTED`
 - [[applyCrmContactState()]] `EXTRACTED`
+- [[resolveUserWithDealer()]] `EXTRACTED`
 - [[loadCatalog()]] `EXTRACTED`
 - [[deleteStoreContent()]] `EXTRACTED`
 - [[getAllStoreContent()]] `EXTRACTED`
 - [[toggleStoreContentActive()]] `EXTRACTED`
 - [[upsertStoreContent()]] `EXTRACTED`
 - [[deactivateDealer()]] `EXTRACTED`
-- [[notify()]] `EXTRACTED`
 - [[approveStaff()]] `EXTRACTED`
 - [[deleteStaff()]] `EXTRACTED`
 - [[holdStaff()]] `EXTRACTED`

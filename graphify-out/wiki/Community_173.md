@@ -1,32 +1,34 @@
 # Community 173
 
-> 11 nodes · cohesion 0.18
+> 10 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **Design principles** (10 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **design-principles.md** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Agency** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Craft** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Delight** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Familiarity** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Flexibility** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Purpose** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Responsibility** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Simplicity** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **renderInline()** (6 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderInlineNode()** (6 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderHigLink()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderLink()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderParagraph()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderImage()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderReference()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **imageLabel()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **resolveAnchor()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **wrapInline()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 55]] (10 shared connections)
+- [[Community 174]] (2 shared connections)
+- [[Community 206]] (1 shared connections)
+- [[Community 242]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/design-principles.md`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 36 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,31 +4,26 @@
 
 ## Key Concepts
 
-- **commandCompare()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commitComparePair()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractCompareOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **formatDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportCompareFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **compareCommitError()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **compareReceiptPath()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **intent-trace.test.mjs** (6 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
 
 ## Relationships
 
-- [[Community 46]] (11 shared connections)
-- [[Community 113]] (4 shared connections)
-- [[Community 141]] (3 shared connections)
-- [[Community 83]] (2 shared connections)
-- [[Community 60]] (2 shared connections)
-- [[Community 106]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
+- `.agents/skills/archify/test/intent-trace.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (75%)
-- INFERRED: 9 (25%)
+- EXTRACTED: 12 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

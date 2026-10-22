@@ -1,32 +1,32 @@
 # Community 170
 
-> 11 nodes · cohesion 0.18
+> 10 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **App icons** (10 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **app-icons.md** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Appearances** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Design** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Icon shape** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Layer design** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Specifications** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Visual effects** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **lanes** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **additionalProperties** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **required** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Architecture Doc Generator]] (3 shared connections)
+- [[Community 96]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/app-icons.md`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

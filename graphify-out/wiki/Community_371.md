@@ -1,26 +1,25 @@
 # Community 371
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **iCloud** (4 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
-- **icloud.md** (1 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
+- **11. Responsive Typography** (4 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Breakpoint Adjustments** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Fluid Type (Clamp)** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **What Changes** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 200]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/icloud.md`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

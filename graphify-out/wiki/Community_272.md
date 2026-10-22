@@ -1,17 +1,16 @@
 # Community 272
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **animation.test.mjs** (7 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **NODE_COLLECTION** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **svgBlock()** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **Managing accounts** (6 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- **managing-accounts.md** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- **Deleting accounts** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- **TV provider accounts** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
 
 ## Relationships
 
@@ -19,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/animation.test.mjs`
+- `.agents/skills/apple-design/references/hig/managing-accounts.md`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,60 +1,48 @@
 # Community 39
 
-> 36 nodes · cohesion 0.10
+> 26 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **render-lifecycle.mjs** (81 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **legend.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **renderLegend()** (14 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **svgAccessibleText()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **svgRootAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **renderDefinitions()** (11 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **resolveLegend()** (10 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **renderSvg()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderLegend()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderLegend()** (6 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **legendFootprint()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **measureLegend()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **relationshipLegendObstacles()** (5 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **bandFor()** (3 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **lifecycleAreaBottom()** (3 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **legendY()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **legendY()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **measureState()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderLifecycleRail()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **measuredEntryWidth()** (2 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- *... and 11 more nodes in this community*
+- **Copywriting Guide** (15 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Banned Words** (5 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Microcopy** (4 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Product UI Copy** (4 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **copywriting.md** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **AI Slop Markers** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Avoid on Operational Surfaces** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Buttons** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Core Belief** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Corporate Zombie** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Empty States** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Errors** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Filler** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Headings: Descriptive, Not Aspirational** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Hype** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Info-Style Thinking** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Living Words vs Dead Words** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Marketing Hero Section** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Pre-Publish Checklist** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Proof Beats Hype** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Rhythm** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **The Order of Great Copy** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **The Sticky Line Test** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Universal Copy Structure** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **When Marketing Tone IS Appropriate in Product** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Integration Architecture]] (45 shared connections)
-- [[Roles & Customer Sharing Spec]] (31 shared connections)
-- [[Client Products Data Store]] (18 shared connections)
-- [[Community 50]] (17 shared connections)
-- [[Mobile Responsive UI Skill]] (12 shared connections)
-- [[Community 82]] (9 shared connections)
-- [[Vercel Deployment Routing]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/cli.mjs`
-- `.agents/skills/archify/renderers/shared/legend.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `.agents/skills/refero-design/references/copywriting.md`
 
 ## Audit Trail
 
-- EXTRACTED: 253 (99%)
-- INFERRED: 3 (1%)
+- EXTRACTED: 50 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,36 +1,32 @@
 # Community 142
 
-> 13 nodes · cohesion 0.15
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **architecture-delta.test.mjs** (16 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **ArchitectureDeltaError** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **.constructor()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **baseFixture** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **checkedArtifact** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **checkedReceipt** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **headFixture** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **read()** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **App icons** (10 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **app-icons.md** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Appearances** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Design** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Icon shape** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Layer design** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Specifications** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Visual effects** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
 
 ## Relationships
 
-- [[Community 60]] (4 shared connections)
-- [[Community 113]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
-- `.agents/skills/archify/test/architecture-delta.test.mjs`
+- `.agents/skills/apple-design/references/hig/app-icons.md`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,30 +1,28 @@
 # Community 283
 
-> 8 nodes · cohesion 0.32
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **sequence-column-fit.test.mjs** (9 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **labelledSequence()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **render()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **renderOutcome()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **wideSequence()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **participantBoxes()** (1 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **Visual Workflow** (6 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **visual-workflow.md** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Generated Assets** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Image Generation Capability** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Three Visual Directions** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Visual QA** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Visual Target Gate** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
 
 ## Relationships
 
-- [[Client Products Data Store]] (1 shared connections)
-- [[Zoho Integration Architecture]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- `.agents/skills/refero-design/references/visual-workflow.md`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

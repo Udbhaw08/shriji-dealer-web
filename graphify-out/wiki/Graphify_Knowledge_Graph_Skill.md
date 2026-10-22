@@ -1,57 +1,57 @@
 # Graphify Knowledge Graph Skill
 
-> 50 nodes · cohesion 0.09
+> 40 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **fl()** (40 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **Z()** (27 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **qc()** (23 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **nl()** (20 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **lc()** (15 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **sl()** (15 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **ll()** (14 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **el()** (12 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **ta()** (12 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **Gc()** (11 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **rl()** (11 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **Sa()** (11 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **kc()** (10 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **fc()** (9 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **xa()** (9 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **zo()** (9 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **lh()** (8 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **ea()** (7 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **getHeartbeatsHeader()** (7 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **ha()** (7 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **pl()** (7 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **cl()** (6 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **fetch()** (6 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **ol()** (6 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **Qn()** (6 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- *... and 25 more nodes in this community*
+- **brand-marks.mjs** (51 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **brand-marks.test.mjs** (15 connections) — `.agents/skills/archify/test/brand-marks.test.mjs`
+- **captureRemoteBrand()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **captureBrandReference()** (6 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **findBrandMark()** (5 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **checkedFetch()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **isPrivateBrandAddress()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **resolveRequestTarget()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **asUrl()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **iconCandidates()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **imageData()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **ipv4Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **ipv6Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **lookupForms()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **readLimited()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **validateUrlShape()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **generated-brand-marks.mjs** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
+- **BRAND_MARKS** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
+- **attribute()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **beforeDeadline()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **domainMark()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **remoteBrand()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **requestPinned()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **suggestions()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **COLLECTIONS** (1 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (53 shared connections)
-- [[Product Requirements Documentation]] (48 shared connections)
-- [[Claude Agent Instructions]] (26 shared connections)
-- [[Dependencies & Package Config]] (20 shared connections)
-- [[Design System & UI Tokens]] (17 shared connections)
-- [[Community 42]] (13 shared connections)
-- [[Community 41]] (10 shared connections)
-- [[Community 55]] (9 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (4 shared connections)
-- [[Community 161]] (1 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (8 shared connections)
+- [[Product Requirements Documentation]] (7 shared connections)
+- [[Community 115]] (3 shared connections)
+- [[Graphify Agent Rules]] (2 shared connections)
+- [[Master Codebase Architecture Reference]] (1 shared connections)
+- [[Community 29]] (1 shared connections)
+- [[Community 31]] (1 shared connections)
+- [[Dependencies & Package Config]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
+- `.agents/skills/archify/test/brand-marks.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 411 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 153 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

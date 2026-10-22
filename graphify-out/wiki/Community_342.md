@@ -1,15 +1,14 @@
 # Community 342
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **Modality** (5 connections) — `.agents/skills/apple-design/references/hig/modality.md`
-- **modality.md** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **Home Screen quick actions** (4 connections) — `.agents/skills/apple-design/references/hig/home-screen-quick-actions.md`
+- **home-screen-quick-actions.md** (1 connections) — `.agents/skills/apple-design/references/hig/home-screen-quick-actions.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/home-screen-quick-actions.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/home-screen-quick-actions.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/home-screen-quick-actions.md`
 
 ## Relationships
 
@@ -17,11 +16,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/modality.md`
+- `.agents/skills/apple-design/references/hig/home-screen-quick-actions.md`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

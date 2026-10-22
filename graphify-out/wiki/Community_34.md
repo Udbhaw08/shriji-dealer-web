@@ -1,66 +1,58 @@
 # Community 34
 
-> 39 nodes · cohesion 0.11
+> 29 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **sql** (60 connections) — `backend/src/db/pool.js`
-- **dealers.js** (36 connections) — `backend/src/routes/dealers.js`
-- **staff.js** (23 connections) — `backend/src/services/staff.js`
-- **audit()** (17 connections) — `backend/src/utils/audit.js`
-- **auth.js** (8 connections) — `backend/src/middleware/auth.js`
-- **audit.js** (7 connections) — `backend/src/utils/audit.js`
-- **applyDealer()** (6 connections) — `backend/src/services/dealerApp.js`
-- **createInvite()** (6 connections) — `backend/src/services/staff.js`
-- **sha256()** (6 connections) — `backend/src/utils/hash.js`
-- **jwtAuth()** (5 connections) — `backend/src/middleware/auth.js`
-- **seed-content.js** (4 connections) — `backend/scripts/seed-content.js`
-- **deactivateDealer()** (4 connections) — `backend/src/services/dealerApp.js`
-- **approveStaff()** (4 connections) — `backend/src/services/staff.js`
-- **deleteStaff()** (4 connections) — `backend/src/services/staff.js`
-- **holdStaff()** (4 connections) — `backend/src/services/staff.js`
-- **resumeStaff()** (4 connections) — `backend/src/services/staff.js`
-- **revokeStaff()** (4 connections) — `backend/src/services/staff.js`
-- **toggleAllStaffPrice()** (4 connections) — `backend/src/services/staff.js`
-- **toggleStaffPrice()** (4 connections) — `backend/src/services/staff.js`
-- **requireApprovedDealer()** (3 connections) — `backend/src/middleware/auth.js`
-- **inspect-db.js** (3 connections) — `backend/scripts/inspect-db.js`
-- **migrate-content.js** (3 connections) — `backend/scripts/migrate-content.js`
-- **setup-buckets.js** (3 connections) — `backend/scripts/setup-buckets.js`
-- **setup-policies.js** (3 connections) — `backend/scripts/setup-policies.js`
-- **test-storage.js** (3 connections) — `backend/scripts/test-storage.js`
-- *... and 14 more nodes in this community*
+- **Products.jsx** (25 connections) — `src/pages/Products.jsx`
+- **productsStore.js** (22 connections) — `src/data/productsStore.js`
+- **ProductSearchBar.jsx** (15 connections) — `src/components/ProductSearchBar.jsx`
+- **useProducts()** (12 connections) — `src/data/productsStore.js`
+- **searchHelper.js** (11 connections) — `src/data/searchHelper.js`
+- **syncPricebookWithSession()** (7 connections) — `src/data/productsStore.js`
+- **ProductSearchBar()** (6 connections) — `src/components/ProductSearchBar.jsx`
+- **products.js** (5 connections) — `src/data/products.js`
+- **fetchLiveProducts()** (5 connections) — `src/data/productsStore.js`
+- **getSuggestions()** (5 connections) — `src/data/searchHelper.js`
+- **loadCached()** (4 connections) — `src/data/productsStore.js`
+- **autocorrectQuery()** (4 connections) — `src/data/searchHelper.js`
+- **buildSearchDictionary()** (4 connections) — `src/data/searchHelper.js`
+- **emit()** (3 connections) — `src/data/productsStore.js`
+- **loadCachedSession()** (3 connections) — `src/data/session.js`
+- **CATEGORIES** (2 connections) — `src/data/products.js`
+- **getCacheKey()** (2 connections) — `src/data/productsStore.js`
+- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
+- **useProduct()** (2 connections) — `src/data/productsStore.js`
+- **getPopularSearches()** (2 connections) — `src/data/searchHelper.js`
+- **scoreProduct()** (2 connections) — `src/data/searchHelper.js`
+- **PRODUCTS** (1 connections) — `src/data/products.js`
+- **listeners** (1 connections) — `src/data/productsStore.js`
+- **PREFERRED_ORDER** (1 connections) — `src/data/productsStore.js`
+- **storeState** (1 connections) — `src/data/productsStore.js`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Integration Skill]] (32 shared connections)
-- [[Community 47]] (23 shared connections)
-- [[Community 86]] (11 shared connections)
-- [[Community 90]] (8 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (7 shared connections)
-- [[Community 117]] (5 shared connections)
+- [[Product Pages Specification]] (20 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (14 shared connections)
+- [[Price Presentation & Product UI]] (10 shared connections)
+- [[Community 140]] (2 shared connections)
+- [[Community 181]] (2 shared connections)
+- [[Community 139]] (1 shared connections)
 
 ## Source Files
 
-- `backend/scripts/check-readiness.js`
-- `backend/scripts/inspect-db.js`
-- `backend/scripts/migrate-content.js`
-- `backend/scripts/seed-content.js`
-- `backend/scripts/setup-buckets.js`
-- `backend/scripts/setup-policies.js`
-- `backend/scripts/test-storage.js`
-- `backend/src/db/pool.js`
-- `backend/src/middleware/auth.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/services/dealerApp.js`
-- `backend/src/services/staff.js`
-- `backend/src/utils/audit.js`
-- `backend/src/utils/hash.js`
+- `src/components/ProductSearchBar.jsx`
+- `src/data/products.js`
+- `src/data/productsStore.js`
+- `src/data/searchHelper.js`
+- `src/data/session.js`
+- `src/pages/Products.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 249 (99%)
-- INFERRED: 3 (1%)
+- EXTRACTED: 151 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

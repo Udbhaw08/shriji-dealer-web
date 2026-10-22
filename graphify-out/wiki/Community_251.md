@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Gauges** (6 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **gauges.md** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **route-journey.test.mjs** (7 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/gauges.md`
+- `.agents/skills/archify/test/route-journey.test.mjs`
 
 ## Audit Trail
 

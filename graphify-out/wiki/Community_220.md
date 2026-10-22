@@ -1,18 +1,17 @@
 # Community 220
 
-> 9 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Right to left** (8 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **right-to-left.md** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Controls** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Images** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Interface icons** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Numbers and characters** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Text alignment** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
+- **Disclosure controls** (6 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **disclosure-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **Disclosure buttons** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **Disclosure triangles** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **Mobile (iOS, iPadOS, visionOS)** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
 
 ## Relationships
 
@@ -20,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/right-to-left.md`
+- `.agents/skills/apple-design/references/hig/disclosure-controls.md`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,49 +1,47 @@
 # Community 38
 
-> 38 nodes · cohesion 0.07
+> 26 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **update-notifier.test.mjs** (43 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **operationPath()** (5 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **stateDirectory()** (4 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **fixture()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **remoteReleaseForVersion()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **runCheckInChild()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **statePath()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **writeCompactCommittedState()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **assertUnsafeCacheStateIsIgnored()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **committedStateFiles()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **compactStateSource()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **localRelease()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **pauseOpenOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **pauseRenameMatchingOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **pauseRenameOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **pauseWriteOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **remoteRelease()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **writeJson()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **writePendingOperation()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **baseTime** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **cachedStateWithHistory()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **cachedUpdateState()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **cancel()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **candidateStateForDigest()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **checkerPath** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- *... and 13 more nodes in this community*
+- **Widgets** (9 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Best practices** (6 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Anatomy** (4 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Rendering modes** (4 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Mobile (iOS, iPadOS)** (3 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Specifications** (3 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **widgets.md** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Accented** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Accessory widgets** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Adding interactivity** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Appearances** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Apple HomeView** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Choosing margins and padding** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Displaying text in widgets** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Full-color** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **iOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **iPadOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Previews and placeholders** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **StandBy and CarPlay** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **System family widgets** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Updating widget content** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Using color** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [[Community 62]] (3 shared connections)
-- [[Community 112]] (2 shared connections)
-- [[Community 48]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/update-notifier.test.mjs`
+- `.agents/skills/apple-design/references/hig/widgets.md`
 
 ## Audit Trail
 
-- EXTRACTED: 108 (100%)
+- EXTRACTED: 50 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

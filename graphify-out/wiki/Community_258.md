@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Onboarding** (7 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
-- **onboarding.md** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
-- **Additional content** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
-- **Additional requests** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **story-director-strip.test.mjs** (7 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/onboarding.md`
+- `.agents/skills/archify/test/story-director-strip.test.mjs`
 
 ## Audit Trail
 

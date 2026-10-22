@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Popovers** (4 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **popovers.md** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
+- **story-beat-navigator.test.mjs** (6 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/popovers.md`
+- `.agents/skills/archify/test/story-beat-navigator.test.mjs`
 
 ## Audit Trail
 

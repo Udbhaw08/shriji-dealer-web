@@ -1,16 +1,15 @@
 # Community 310
 
-> 7 nodes · cohesion 0.29
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **VoiceOver** (6 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **voiceover.md** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **Descriptions** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **Navigation** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
+- **Branding** (5 connections) — `.agents/skills/apple-design/references/hig/branding.md`
+- **branding.md** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
 
 ## Relationships
 
@@ -18,11 +17,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/voiceover.md`
+- `.agents/skills/apple-design/references/hig/branding.md`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

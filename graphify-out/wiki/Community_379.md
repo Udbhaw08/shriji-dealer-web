@@ -1,26 +1,25 @@
 # Community 379
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **10. Text Polish Details** (5 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Content Overflow** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Punctuation** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Tabular Numbers** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Text Wrapping for Headings** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **via** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Relationships
 
-- [[Community 229]] (1 shared connections)
+- [[Product Brand & Business Vision]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

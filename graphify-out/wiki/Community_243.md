@@ -1,32 +1,29 @@
 # Community 243
 
-> 9 nodes · cohesion 0.25
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **repository-evidence.test.mjs** (13 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **fixture()** (2 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **git()** (2 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **evidencePayload()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **waitForState()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **animation.test.mjs** (7 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **NODE_COLLECTION** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **svgBlock()** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
 
 ## Relationships
 
-- [[Community 63]] (2 shared connections)
-- [[Community 29]] (2 shared connections)
-- [[Community 128]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/repository-evidence.test.mjs`
+- `.agents/skills/archify/test/animation.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

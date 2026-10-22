@@ -1,55 +1,59 @@
 # Agent Guidelines (AGENTS.md)
 
-> 45 nodes · cohesion 0.07
+> 35 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **addEventListener()** (21 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **h()** (18 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **.removeEventListener()** (16 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **fp()** (15 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **Rp()** (11 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **tm()** (10 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **addListener()** (8 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **Bp()** (7 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **.addEventListener()** (7 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **lp()** (7 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **validatePassword()** (7 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **xp()** (7 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **.blur()** (6 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **.scrollIntoView()** (6 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **removeListener()** (6 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **v()** (6 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **dh()** (5 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **E()** (5 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **g()** (5 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **uh()** (5 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **detachListener()** (4 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **.getClientRects()** (4 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **.unobserveUsing()** (4 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **ho()** (4 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **removeWindowListener()** (4 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- *... and 20 more nodes in this community*
+- **Product.jsx** (35 connections) — `src/pages/Product.jsx`
+- **dealer.js** (29 connections) — `src/data/dealer.js`
+- **Favorites.jsx** (20 connections) — `src/pages/Favorites.jsx`
+- **ProductCard.jsx** (19 connections) — `src/components/ProductCard.jsx`
+- **dealer.test.mjs** (18 connections) — `src/data/dealer.test.mjs`
+- **PriceBlock.jsx** (15 connections) — `src/components/PriceBlock.jsx`
+- **ProductCard()** (15 connections) — `src/components/ProductCard.jsx`
+- **Product()** (15 connections) — `src/pages/Product.jsx`
+- **priceFor()** (14 connections) — `src/data/dealer.js`
+- **useFavorites()** (13 connections) — `src/data/favoritesStore.js`
+- **inr()** (11 connections) — `src/data/dealer.js`
+- **viewerFor()** (8 connections) — `src/data/dealer.js`
+- **CustomerPrice()** (7 connections) — `src/components/PriceBlock.jsx`
+- **productSlug()** (7 connections) — `src/data/dealer.js`
+- **shareLink()** (7 connections) — `src/data/dealer.js`
+- **tagFor()** (6 connections) — `src/data/dealer.js`
+- **DealerPrice()** (5 connections) — `src/components/PriceBlock.jsx`
+- **formatWhatsAppPhone()** (4 connections) — `src/data/dealer.js`
+- **slugifyProduct()** (4 connections) — `src/data/dealer.js`
+- **tierOf()** (4 connections) — `src/data/dealer.js`
+- **DEALERS** (3 connections) — `src/data/dealer.js`
+- **isFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **PriceBlock()** (2 connections) — `src/components/PriceBlock.jsx`
+- **price99()** (2 connections) — `src/data/dealer.js`
+- **BAND** (1 connections) — `src/data/dealer.js`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (46 shared connections)
-- [[Product Requirements Documentation]] (27 shared connections)
-- [[Dependencies & Package Config]] (18 shared connections)
-- [[Design System & UI Tokens]] (7 shared connections)
-- [[Claude Agent Instructions]] (6 shared connections)
-- [[Community 55]] (4 shared connections)
-- [[Graphify Knowledge Graph Skill]] (4 shared connections)
-- [[Community 42]] (3 shared connections)
-- [[Community 132]] (2 shared connections)
+- [[Product Pages Specification]] (56 shared connections)
+- [[Community 34]] (14 shared connections)
+- [[Price Presentation & Product UI]] (12 shared connections)
+- [[Community 140]] (5 shared connections)
+- [[Community 139]] (5 shared connections)
+- [[Community 181]] (4 shared connections)
+- [[Community 86]] (3 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- `src/components/PriceBlock.jsx`
+- `src/components/ProductCard.jsx`
+- `src/data/dealer.js`
+- `src/data/dealer.test.mjs`
+- `src/data/favoritesStore.js`
+- `src/pages/Favorites.jsx`
+- `src/pages/Product.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 255 (100%)
+- EXTRACTED: 277 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

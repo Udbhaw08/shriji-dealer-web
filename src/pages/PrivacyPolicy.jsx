@@ -40,14 +40,13 @@ export default function PrivacyPolicy() {
         </section>
 
         <section>
-          <h2 style={{ fontSize: "1.25rem", color: "var(--c-text)", marginBottom: "var(--s2)" }}>3. WhatsApp Authentication & Communications</h2>
+          <h2 style={{ fontSize: "1.25rem", color: "var(--c-text)", marginBottom: "var(--s2)" }}>3. Communications</h2>
           <p>
-            We utilize the official <strong>Meta WhatsApp Cloud API</strong> (operated by Meta Platforms, Inc.) to deliver secure one-time password (OTP) verification codes and critical account alerts to your registered mobile number:
+            We may use email and customer-requested support channels for account and service communications:
           </p>
           <ul style={{ paddingLeft: "var(--s4)", marginTop: "var(--s2)", display: "flex", flexDirection: "column", gap: "var(--s1)" }}>
             <li>We do <strong>not</strong> send spam, unsolicited promotional messages, or share your phone number with external marketing aggregators.</li>
-            <li>WhatsApp messages are strictly limited to requested security verification codes (OTPs), order status confirmations, and essential dealer account notifications.</li>
-            <li>By requesting an OTP on our login portal, you consent to receive a verification code via WhatsApp.</li>
+            <li>Email verification codes are sent only when you request email verification.</li>
           </ul>
         </section>
 
@@ -57,7 +56,7 @@ export default function PrivacyPolicy() {
             Your information is used solely for dealer verification, pricing authorization, catalog access, and order processing. We do not sell or rent your personal data to any third parties. Data is shared exclusively with:
           </p>
           <ul style={{ paddingLeft: "var(--s4)", marginTop: "var(--s2)", display: "flex", flexDirection: "column", gap: "var(--s1)" }}>
-            <li><strong>Meta Platforms, Inc. (WhatsApp Cloud API):</strong> For secure dispatch of verification codes.</li>
+            <li><strong>Resend:</strong> For transactional email delivery.</li>
             <li><strong>Zoho Corporation:</strong> For authorized catalog synchronization and verified dealer pricebooks.</li>
             <li><strong>Government Authorities:</strong> Strictly when required by Indian law or statutory GST compliance.</li>
           </ul>

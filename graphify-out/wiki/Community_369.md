@@ -1,14 +1,13 @@
 # Community 369
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **Gyroscope and accelerometer** (4 connections) — `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
-- **gyro-and-accelerometer.md** (1 connections) — `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
+- **Using modern SwiftUI API** (3 connections) — `.agents/skills/swiftui-pro/references/api.md`
+- **api.md** (1 connections) — `.agents/skills/swiftui-pro/references/api.md`
+- **Toolbars** (1 connections) — `.agents/skills/swiftui-pro/references/api.md`
+- **Using ObservableObject** (1 connections) — `.agents/skills/swiftui-pro/references/api.md`
 
 ## Relationships
 
@@ -16,11 +15,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
+- `.agents/skills/swiftui-pro/references/api.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

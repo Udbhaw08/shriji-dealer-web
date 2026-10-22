@@ -1,30 +1,34 @@
 # Community 263
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Sliders** (5 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **sliders.md** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **commandCompare()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commitComparePair()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractCompareOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **formatDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportCompareFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **compareCommitError()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **compareReceiptPath()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Graphify Workflow]] (11 shared connections)
+- [[Community 91]] (4 shared connections)
+- [[Community 115]] (3 shared connections)
+- [[Community 66]] (2 shared connections)
+- [[Community 42]] (2 shared connections)
+- [[Community 84]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/sliders.md`
+- `.agents/skills/archify/bin/archify.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 27 (75%)
+- INFERRED: 9 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,56 +1,65 @@
 # Dealer Auth & Session Management
 
-> 193 nodes · cohesion 0.02
+> 88 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **_()** (703 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **add()** (19 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **th()** (12 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **error()** (11 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **Ou()** (11 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **dd()** (9 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **_key()** (8 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **close()** (7 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **Kd()** (7 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **checkDestroyed()** (6 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **Du()** (6 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **onAuthEvent()** (6 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **removeAuthTokenListener()** (6 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **sd()** (6 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **sn()** (6 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **ac()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **addAuthTokenListener()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **assertAuthConfigured()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **bf()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **cancel()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **credential()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **eh()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **forEachObserver()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **getToken()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **initializeServiceWorkerMessaging()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- *... and 168 more nodes in this community*
+- **zoho.js** (46 connections) — `api/zoho.js`
+- **content.js** (20 connections) — `backend/src/services/content.js`
+- **vite.config.js** (19 connections) — `vite.config.js`
+- **fetchZohoProductById()** (15 connections) — `api/zoho.js`
+- **fetchZohoProducts()** (14 connections) — `api/zoho.js`
+- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
+- **fetchZohoWithRetry()** (12 connections) — `api/zoho.js`
+- **getZohoConfig()** (12 connections) — `api/zoho.js`
+- **zohoApiPlugin()** (12 connections) — `vite.config.js`
+- **createDealerContact()** (9 connections) — `api/zoho.js`
+- **fetchZohoBanners()** (9 connections) — `api/zoho.js`
+- **fetchZohoSchemes()** (9 connections) — `api/zoho.js`
+- **content.js** (9 connections) — `backend/src/routes/content.js`
+- **fetchZohoCategories()** (8 connections) — `api/zoho.js`
+- **getSupabaseBanners()** (8 connections) — `backend/src/services/content.js`
+- **getSupabaseSchemes()** (8 connections) — `backend/src/services/content.js`
+- **getCategoryVisibilityMap()** (7 connections) — `api/zoho.js`
+- **getDealerById()** (7 connections) — `api/zoho.js`
+- **getSupabaseBranding()** (7 connections) — `backend/src/services/content.js`
+- **banners.js** (6 connections) — `api/banners.js`
+- **content.js** (6 connections) — `api/content.js`
+- **schemes.js** (6 connections) — `api/schemes.js`
+- **fetchAllRawZohoProducts()** (6 connections) — `api/zoho.js`
+- **fetchZohoPricebookItems()** (6 connections) — `api/zoho.js`
+- **getAccessToken()** (6 connections) — `api/zoho.js`
+- *... and 63 more nodes in this community*
 
 ## Relationships
 
-- [[Product Pages Specification]] (120 shared connections)
-- [[Master Codebase Architecture Reference]] (113 shared connections)
-- [[Pricing Regression Test Suite]] (87 shared connections)
-- [[Architecture Doc Generator]] (72 shared connections)
-- [[Product Brand & Business Vision]] (69 shared connections)
-- [[Live Pricing Audit Tool]] (62 shared connections)
-- [[Oxlint Linter Configuration]] (47 shared connections)
-- [[Community 53]] (31 shared connections)
-- [[Community 91]] (19 shared connections)
+- [[Project Readme & Layout]] (7 shared connections)
+- [[Community 46]] (2 shared connections)
+- [[Community 36]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- `api/banners.js`
+- `api/branding.js`
+- `api/content.js`
+- `api/dealer/apply.js`
+- `api/dealer/info.js`
+- `api/download.js`
+- `api/og.js`
+- `api/products/[id].js`
+- `api/products/index.js`
+- `api/schemes.js`
+- `api/zoho.js`
+- `backend/src/routes/content.js`
+- `backend/src/services/content.js`
+- `scripts/audit_prices.mjs`
+- `scripts/test-zoho-api.mjs`
+- `vite.config.js`
 
 ## Audit Trail
 
-- EXTRACTED: 1257 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 425 (99%)
+- INFERRED: 4 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

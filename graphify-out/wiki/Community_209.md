@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **web-DCQP1GMl.js** (8 connections) — `android/app/src/main/assets/public/assets/web-DCQP1GMl.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-DCQP1GMl.js`
-- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-DCQP1GMl.js`
-- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-DCQP1GMl.js`
-- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-DCQP1GMl.js`
-- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-DCQP1GMl.js`
-- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-DCQP1GMl.js`
-- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-DCQP1GMl.js`
-- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-DCQP1GMl.js`
+- **architecture-compare-recovery.test.mjs** (8 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **base** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **fixture()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **hash()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **head** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **inject()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/web-DCQP1GMl.js`
+- `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
 
 ## Audit Trail
 

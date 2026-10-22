@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-22T18:21:47.926+05:30 (GMT+5:30)
-> Total Project Files: 1616
+> Last synchronized: 2026-10-22T18:42:50.064+05:30 (GMT+5:30)
+> Total Project Files: 1612
 
 ---
 
@@ -92,8 +92,8 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/pages/DealerDashboard.jsx`** (35.9 KB)
 - **`src/pages/Favorites.jsx`** (6.7 KB)
 - **`src/pages/Home.jsx`** (20.6 KB)
-- **`src/pages/Login.jsx`** (77.4 KB)
-- **`src/pages/PrivacyPolicy.jsx`** (7.2 KB)
+- **`src/pages/Login.jsx`** (5.3 KB)
+- **`src/pages/PrivacyPolicy.jsx`** (6.9 KB)
 - **`src/pages/Product.jsx`** (31.5 KB)
 - **`src/pages/Products.jsx`** (34.6 KB)
 - **`src/pages/Schemes.jsx`** (17.2 KB)
@@ -115,11 +115,10 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 ### 4.3 State & Business Logic (`src/data/`)
 - **`src/data/api.js`** (1.7 KB)
 - **`src/data/auth-session.test.mjs`** (3.1 KB)
-- **`src/data/auth.js`** (14.9 KB)
+- **`src/data/auth.js`** (14.1 KB)
 - **`src/data/dealer.js`** (8.9 KB)
 - **`src/data/dealer.test.mjs`** (4.3 KB)
 - **`src/data/favoritesStore.js`** (2.3 KB)
-- **`src/data/firebase.js`** (2.1 KB)
 - **`src/data/i18n.js`** (1.7 KB)
 - **`src/data/loginCode.js`** (3.1 KB)
 - **`src/data/portalGate.js`** (0.8 KB)
@@ -138,14 +137,13 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`api/content.js`** (2.2 KB)
 - **`api/dealer/apply.js`** (1.0 KB)
 - **`api/dealer/info.js`** (0.9 KB)
-- **`api/dealer/login.js`** (1.1 KB)
 - **`api/download.js`** (4.4 KB)
 - **`api/og.js`** (3.9 KB)
 - **`api/products/index.js`** (1.1 KB)
 - **`api/products/[id].js`** (1.1 KB)
 - **`api/schemes.js`** (0.5 KB)
 - **`api/upload.js`** (2.1 KB)
-- **`api/zoho.js`** (31.8 KB)
+- **`api/zoho.js`** (27.9 KB)
 
 ### 4.5 Automation & Utility Scripts (`scripts/`)
 - **`scripts/audit_prices.mjs`** (3.8 KB)

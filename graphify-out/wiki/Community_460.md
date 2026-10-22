@@ -1,11 +1,10 @@
 # Community 460
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **esm-B1GfU8uT.js** (1 connections) — `ios/App/App/public/assets/esm-B1GfU8uT.js`
-- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-B1GfU8uT.js`
+- **sequence** (0 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
 
 ## Relationships
 
@@ -13,11 +12,11 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/esm-B1GfU8uT.js`
+- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

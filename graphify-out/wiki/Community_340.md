@@ -1,15 +1,14 @@
 # Community 340
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **Collections** (4 connections) — `.agents/skills/apple-design/references/hig/collections.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/collections.md`
-- **collections.md** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
+- **Feedback** (4 connections) — `.agents/skills/apple-design/references/hig/feedback.md`
+- **feedback.md** (1 connections) — `.agents/skills/apple-design/references/hig/feedback.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/feedback.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/feedback.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/feedback.md`
 
 ## Relationships
 
@@ -17,11 +16,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/collections.md`
+- `.agents/skills/apple-design/references/hig/feedback.md`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

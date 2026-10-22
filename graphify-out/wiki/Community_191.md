@@ -1,19 +1,18 @@
 # Community 191
 
-> 10 nodes · cohesion 0.20
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Notifications** (9 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **notifications.md** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Badging** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Notification actions** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Playing video** (6 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Integrating with the TV app** (3 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **playing-video.md** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Exiting playback** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Loading content** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
 
 ## Relationships
 
@@ -21,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/notifications.md`
+- `.agents/skills/apple-design/references/hig/playing-video.md`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

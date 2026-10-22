@@ -1,33 +1,32 @@
 # Community 202
 
-> 10 nodes · cohesion 0.22
+> 9 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **renderBlock()** (11 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderAside()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderBlocks()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderTable()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderList()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderRow()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderTabs()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderTermList()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **resolveSpans()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **trimBlankEdges()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **cards** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **additionalProperties** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **required** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- [[Community 76]] (10 shared connections)
-- [[Community 201]] (2 shared connections)
-- [[Community 271]] (1 shared connections)
+- [[Community 151]] (3 shared connections)
+- [[Community 59]] (1 shared connections)
+- [[Community 408]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (100%)
+- EXTRACTED: 27 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,21 +1,19 @@
 # Community 159
 
-> 12 nodes · cohesion 0.17
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **Search fields** (6 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Phone (iOS)** (4 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **search-fields.md** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Scope bars and tokens** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Search as a tab** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Search as an inline field** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Search in a toolbar** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Tablet and desktop (iPadOS, macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **App Shortcuts** (6 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Best practices** (2 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **app-shortcuts.md** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Editorial guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Responding to App Shortcuts** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
 
 ## Relationships
 
@@ -23,11 +21,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/search-fields.md`
+- `.agents/skills/apple-design/references/hig/app-shortcuts.md`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

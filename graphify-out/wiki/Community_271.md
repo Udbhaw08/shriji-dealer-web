@@ -1,31 +1,28 @@
 # Community 271
 
-> 8 nodes · cohesion 0.29
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **isDroppedPlatformText()** (5 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **headingLine()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **relabelHeading()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **isDroppedBoilerplate()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **platformsMentioned()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **reduceHeading()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **isDroppedPlatformLabel()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **platformGroupLabel()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **Loading** (6 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **loading.md** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **Showing progress** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
 
 ## Relationships
 
-- [[Community 76]] (8 shared connections)
-- [[Community 202]] (1 shared connections)
-- [[Community 201]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- `.agents/skills/apple-design/references/hig/loading.md`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

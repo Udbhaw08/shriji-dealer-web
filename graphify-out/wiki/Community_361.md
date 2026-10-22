@@ -1,27 +1,26 @@
 # Community 361
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **skill-metadata.test.mjs** (5 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
-- **authoringContract** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
-- **frontmatter** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
-- **skill** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
+- **ErrorBoundary** (5 connections) — `src/main.jsx`
+- **.componentDidCatch()** (1 connections) — `src/main.jsx`
+- **.constructor()** (1 connections) — `src/main.jsx`
+- **.getDerivedStateFromError()** (1 connections) — `src/main.jsx`
+- **.render()** (1 connections) — `src/main.jsx`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Product Pages Specification]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/skill-metadata.test.mjs`
+- `src/main.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

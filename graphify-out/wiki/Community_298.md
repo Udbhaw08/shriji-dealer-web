@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Labels** (5 connections) — `.agents/skills/apple-design/references/hig/labels.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/labels.md`
-- **labels.md** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
+- **semantic-camera.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
+- **svg()** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/labels.md`
+- `.agents/skills/archify/test/semantic-camera.test.mjs`
 
 ## Audit Trail
 

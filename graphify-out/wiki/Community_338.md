@@ -1,15 +1,14 @@
 # Community 338
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **Branding** (5 connections) — `.agents/skills/apple-design/references/hig/branding.md`
-- **branding.md** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
+- **Combo boxes** (4 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
+- **combo-boxes.md** (1 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
 
 ## Relationships
 
@@ -17,11 +16,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/branding.md`
+- `.agents/skills/apple-design/references/hig/combo-boxes.md`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

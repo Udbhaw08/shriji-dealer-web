@@ -1,40 +1,39 @@
 # Community 96
 
-> 19 nodes · cohesion 0.11
+> 16 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **The menu bar** (15 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **the-menu-bar.md** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **App menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **App-specific menus** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Dynamic menu items** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Edit menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **File menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Format menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Help menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Menu bar extras** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **View menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Window menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **properties** (8 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **meta** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **states** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **transitions** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **cards** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **schema_version** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 170]] (3 shared connections)
+- [[Community 285]] (1 shared connections)
+- [[Community 51]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (100%)
+- EXTRACTED: 35 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

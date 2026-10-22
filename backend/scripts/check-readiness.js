@@ -22,10 +22,6 @@ async function check() {
     'WEBHOOK_SECRET',
     'GOOGLE_CLIENT_ID',
     'GOOGLE_CLIENT_SECRET',
-    'FIREBASE_PROJECT_ID',
-    'FIREBASE_API_KEY',
-    'WHATSAPP_TOKEN',
-    'WHATSAPP_PHONE_ID',
   ];
 
   let missingReq = 0;

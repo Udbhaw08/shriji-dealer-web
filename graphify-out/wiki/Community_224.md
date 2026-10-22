@@ -1,18 +1,17 @@
 # Community 224
 
-> 9 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Siri** (7 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Getting your app to work with Siri** (2 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **siri.md** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Customizing your app’s experience with Siri** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Editorial guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Sharing contextual information** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Image views** (6 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **image-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
 
 ## Relationships
 
@@ -20,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/siri.md`
+- `.agents/skills/apple-design/references/hig/image-views.md`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,58 +1,50 @@
 # Community 55
 
-> 28 nodes · cohesion 0.12
+> 23 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **n()** (29 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **t()** (25 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **Hr()** (15 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **os()** (13 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **ps()** (10 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **dd()** (9 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **ms()** (9 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **ee()** (7 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **hs()** (7 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **ys()** (7 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **A()** (6 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **sd()** (6 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **ss()** (6 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **x()** (6 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **fs()** (5 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **gs()** (5 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **Md()** (5 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **vs()** (5 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **ie()** (4 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **te()** (4 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **Qt()** (3 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **us()** (3 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **zs()** (3 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **clearNetworkTimeout()** (2 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- **ds()** (2 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
-- *... and 3 more nodes in this community*
+- **pull-hig.mjs** (65 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **crawlSection()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **fetchPageJson()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **abstractOf()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **anchorEntries()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **anchorMapFor()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **listedPages()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **plainText()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **ALL_PLATFORMS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **cellText()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **collectReferences()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **CURATED_FILES** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **DESIGNING_FOR_COVERAGE** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **DROPPED_PLATFORMS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **githubSlug()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **IMAGE_GLYPHS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **KEPT_PLATFORMS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **OMITTED_PAGES** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **PLATFORM_LIST_RE** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **PLATFORM_NAMES** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **platformsOf()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **REPO_ROOT** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **SECTIONS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (33 shared connections)
-- [[Product Requirements Documentation]] (27 shared connections)
-- [[Design System & UI Tokens]] (14 shared connections)
-- [[Graphify Knowledge Graph Skill]] (9 shared connections)
-- [[Dependencies & Package Config]] (7 shared connections)
-- [[Community 42]] (6 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (4 shared connections)
-- [[Claude Agent Instructions]] (4 shared connections)
-- [[Community 41]] (2 shared connections)
-- [[Community 132]] (1 shared connections)
-- [[Community 161]] (1 shared connections)
+- [[Community 173]] (10 shared connections)
+- [[Community 174]] (10 shared connections)
+- [[Community 206]] (9 shared connections)
+- [[Community 242]] (8 shared connections)
+- [[Community 325]] (6 shared connections)
+- [[Community 214]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 202 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 95 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

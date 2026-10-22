@@ -100,48 +100,4 @@ webhooksRouter.all(['/crm/approval', '/crm/sync', '/crm/update', '/crm/webhook']
   } catch (err) { next(err); }
 });
 
-/**
- * WhatsApp Cloud API Webhook (Verification challenge & Inbound Events)
- * Endpoints: GET /webhooks/whatsapp (Meta challenge handshake)
- *            POST /webhooks/whatsapp (Inbound event delivery / receipts)
- */
-webhooksRouter.get('/whatsapp', (req, res) => {
-  const mode = req.query['hub.mode'];
-  const token = req.query['hub.verify_token'];
-  const challenge = req.query['hub.challenge'];
-  const expectedToken = process.env.WHATSAPP_VERIFY_TOKEN || 'shriji_wa_verify_2026';
-
-  if (mode === 'subscribe' && token === expectedToken) {
-    log.info('[webhook:whatsapp] Meta webhook verification challenge passed');
-    return res.status(200).send(challenge);
-  }
-  log.warn('[webhook:whatsapp] Verification challenge failed — invalid token or mode');
-  return res.sendStatus(403);
-});
-
-webhooksRouter.post('/whatsapp', (req, res) => {
-  try {
-    const entry = req.body?.entry?.[0];
-    const changes = entry?.changes?.[0]?.value;
-    if (changes?.statuses?.length) {
-      for (const st of changes.statuses) {
-        if (st.status === 'failed') {
-          log.warn(`[webhook:whatsapp] Message ${st.id} FAILED to ${st.recipient_id}:`, JSON.stringify(st.errors || st));
-        } else {
-          log.info(`[webhook:whatsapp] Message ${st.id} status to ${st.recipient_id}: ${st.status}`);
-        }
-      }
-    } else if (changes?.messages?.length) {
-      for (const msg of changes.messages) {
-        log.info(`[webhook:whatsapp] Inbound user message from ${msg.from}:`, msg.text?.body || msg.type);
-      }
-    } else {
-      log.info('[webhook:whatsapp] Event received from Meta');
-    }
-  } catch (err) {
-    log.warn('[webhook:whatsapp] Error parsing Meta event:', err.message);
-  }
-  res.status(200).send('EVENT_RECEIVED');
-});
-
 

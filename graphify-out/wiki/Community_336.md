@@ -1,15 +1,14 @@
 # Community 336
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **Action sheets** (4 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
-- **action-sheets.md** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
+- **Agent Operating Guidelines & Zero-Token Context Strategy** (3 connections) — `GEMINI.md`
+- **Shriji Domestic Appliances — Sunshine Dealer Web** (2 connections) — `GEMINI.md`
+- **GEMINI.md** (1 connections) — `GEMINI.md`
+- **Mandatory Context Rule: Knowledge Graph First** (1 connections) — `GEMINI.md`
+- **Project Hard Rules** (1 connections) — `GEMINI.md`
 
 ## Relationships
 
@@ -17,11 +16,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/action-sheets.md`
+- `GEMINI.md`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

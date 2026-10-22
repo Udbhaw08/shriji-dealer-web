@@ -2,7 +2,7 @@
 
 > God node · 67 connections · `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
 
-**Community:** [[Zoho Integration Architecture]]
+**Community:** [[Dependencies & Package Config]]
 
 ## Connections by Relation
 

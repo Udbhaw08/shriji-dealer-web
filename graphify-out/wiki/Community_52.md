@@ -1,47 +1,47 @@
 # Community 52
 
-> 29 nodes · cohesion 0.07
+> 24 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **Live Activities** (8 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Anatomy** (6 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Best practices** (6 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Presentation** (6 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Specifications** (5 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **live-activities.md** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Adding transitions and animating content updates** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **CarPlay** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **CarPlay dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Choosing colors** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Compact** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Compact presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Creating Live Activity layouts** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Expanded** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Expanded presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **iOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **iPadOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Lock Screen** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Lock Screen presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **macOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Minimal** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Minimal presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- *... and 4 more nodes in this community*
+- **properties** (12 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **viewBox** (6 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **column_fit** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **animation** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **locale** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **output** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **subtitle** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **views** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **description** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **items** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 171]] (1 shared connections)
+- [[Community 417]] (1 shared connections)
+- [[Community 383]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/live-activities.md`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 56 (100%)
+- EXTRACTED: 49 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

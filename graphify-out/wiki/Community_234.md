@@ -1,32 +1,29 @@
 # Community 234
 
-> 9 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **renderPage()** (7 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderLookup()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **collapseBlankLines()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **coveredPlatformsLine()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **prettyPlatforms()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **groupBySection()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **lastChangeLine()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **omissionReason()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderBody()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **Sliders** (5 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **sliders.md** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
 
 ## Relationships
 
-- [[Community 76]] (9 shared connections)
-- [[Community 353]] (2 shared connections)
-- [[Community 201]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- `.agents/skills/apple-design/references/hig/sliders.md`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

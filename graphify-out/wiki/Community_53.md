@@ -1,55 +1,44 @@
 # Community 53
 
-> 28 nodes · cohesion 0.12
+> 23 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **lf()** (12 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **df()** (11 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **ff()** (10 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **yf()** (10 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **gf()** (9 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **mf()** (9 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **Td()** (9 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **uf()** (9 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **qf()** (8 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **ep()** (7 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **_getIdTokenResponse()** (7 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **hf()** (7 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **pf()** (7 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **_getReauthenticationResolver()** (6 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **jf()** (6 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **kn()** (6 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **buildRequest()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **_linkToIdToken()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **Wf()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **Xf()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **_buildIdpRequest()** (4 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **Gp()** (4 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **_initializeWithPersistence()** (4 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **_shouldInitProactively()** (4 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **Zf()** (3 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- *... and 3 more nodes in this community*
+- **package.json** (9 connections) — `backend/package.json`
+- **dependencies** (7 connections) — `backend/package.json`
+- **scripts** (7 connections) — `backend/package.json`
+- **engines** (2 connections) — `backend/package.json`
+- **dotenv** (1 connections) — `backend/package.json`
+- **express** (1 connections) — `backend/package.json`
+- **google-auth-library** (1 connections) — `backend/package.json`
+- **jsonwebtoken** (1 connections) — `backend/package.json`
+- **postgres** (1 connections) — `backend/package.json`
+- **resend** (1 connections) — `backend/package.json`
+- **description** (1 connections) — `backend/package.json`
+- **node** (1 connections) — `backend/package.json`
+- **main** (1 connections) — `backend/package.json`
+- **name** (1 connections) — `backend/package.json`
+- **private** (1 connections) — `backend/package.json`
+- **build** (1 connections) — `backend/package.json`
+- **check:ready** (1 connections) — `backend/package.json`
+- **dev** (1 connections) — `backend/package.json`
+- **migrate** (1 connections) — `backend/package.json`
+- **start** (1 connections) — `backend/package.json`
+- **test** (1 connections) — `backend/package.json`
+- **type** (1 connections) — `backend/package.json`
+- **version** (1 connections) — `backend/package.json`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (31 shared connections)
-- [[Master Codebase Architecture Reference]] (16 shared connections)
-- [[Pricing Regression Test Suite]] (11 shared connections)
-- [[Product Pages Specification]] (10 shared connections)
-- [[Product Brand & Business Vision]] (6 shared connections)
-- [[Live Pricing Audit Tool]] (6 shared connections)
-- [[Architecture Doc Generator]] (4 shared connections)
-- [[Oxlint Linter Configuration]] (3 shared connections)
-- [[Community 91]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- `backend/package.json`
 
 ## Audit Trail
 
-- EXTRACTED: 178 (100%)
+- EXTRACTED: 44 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

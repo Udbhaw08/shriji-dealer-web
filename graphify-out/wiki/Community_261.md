@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Progress indicators** (4 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
-- **Mobile (iOS, iPadOS)** (2 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
-- **progress-indicators.md** (1 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
-- **Refresh content controls** (1 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
+- **story-shelf.test.mjs** (7 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/progress-indicators.md`
+- `.agents/skills/archify/test/story-shelf.test.mjs`
 
 ## Audit Trail
 

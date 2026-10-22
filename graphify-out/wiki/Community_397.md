@@ -1,13 +1,12 @@
 # Community 397
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **Using modern SwiftUI API** (3 connections) — `.agents/skills/swiftui-pro/references/api.md`
-- **api.md** (1 connections) — `.agents/skills/swiftui-pro/references/api.md`
-- **Toolbars** (1 connections) — `.agents/skills/swiftui-pro/references/api.md`
-- **Using ObservableObject** (1 connections) — `.agents/skills/swiftui-pro/references/api.md`
+- **upload.js** (2 connections) — `api/upload.js`
+- **ALLOWED_FOLDERS** (1 connections) — `api/upload.js`
+- **handler()** (1 connections) — `api/upload.js`
 
 ## Relationships
 
@@ -15,11 +14,11 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/api.md`
+- `api/upload.js`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

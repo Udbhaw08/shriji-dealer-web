@@ -1,17 +1,16 @@
 # Community 266
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Text fields** (5 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
-- **text-fields.md** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Entering data** (5 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **entering-data.md** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
 
 ## Relationships
 
@@ -19,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/text-fields.md`
+- `.agents/skills/apple-design/references/hig/entering-data.md`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

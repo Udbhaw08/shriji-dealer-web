@@ -1,39 +1,31 @@
 # Community 164
 
-> 12 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **desktop-readability.mjs** (9 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **adaptive-reader-layout.test.mjs** (9 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **desktop-reader-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
-- **DESKTOP_READABILITY_VIEWPORT** (5 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **reader** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **skill** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
-- **packagedHtmlExamples** (1 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- **Settings** (8 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **settings.md** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **General settings** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **System settings** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Task-specific options** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
 
 ## Relationships
 
-- [[Community 29]] (4 shared connections)
-- [[Pricing & Roles Skill]] (4 shared connections)
-- [[Mobile Responsive UI Skill]] (3 shared connections)
-- [[Community 107]] (1 shared connections)
-- [[Community 128]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- `.agents/skills/apple-design/references/hig/settings.md`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

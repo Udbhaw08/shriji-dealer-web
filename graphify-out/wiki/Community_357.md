@@ -1,15 +1,14 @@
 # Community 357
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **automatic-port-spread.test.mjs** (5 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
-- **connectionPoints()** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
-- **fanOutArchitecture()** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- **Multi-Skill Redesign & Cross-Platform UI Protocol** (4 connections) — `.agents/rules/redesign_instructions.md`
+- **redesign_instructions.md** (1 connections) — `.agents/rules/redesign_instructions.md`
+- **Rule 1: Mandatory Multi-Skill Consultation** (1 connections) — `.agents/rules/redesign_instructions.md`
+- **Rule 2: Adaptive Multi-Device Responsiveness** (1 connections) — `.agents/rules/redesign_instructions.md`
+- **Rule 3: Merge for Better Results** (1 connections) — `.agents/rules/redesign_instructions.md`
 
 ## Relationships
 
@@ -17,11 +16,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- `.agents/rules/redesign_instructions.md`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

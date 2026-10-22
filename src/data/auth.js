@@ -218,12 +218,8 @@ export async function login(payload) {
   return applyAuthResponse(await callBackend("/api/auth/login", json(payload)));
 }
 
-export async function googleLogin(credential, phone) {
-  return applyAuthResponse(await callBackend("/api/auth/google", json({ credential, phone: phone || undefined })));
-}
-
-export async function firebaseAuthLogin(idToken, email, phone) {
-  return applyAuthResponse(await callBackend("/api/auth/firebase", json({ idToken, email: email || undefined, phone: phone || undefined })));
+export async function googleLogin(credential) {
+  return applyAuthResponse(await callBackend("/api/auth/google", json({ credential })));
 }
 
 export async function lookupStaffCode(code) {
@@ -233,27 +229,13 @@ export async function lookupStaffCode(code) {
   return data;
 }
 
-export async function staffSignup({ email, password, dealer_code, invite_code, full_name, phone }) {
+export async function staffSignup({ email, password, dealer_code, invite_code, full_name }) {
   const res = await callBackend("/api/auth/staff/signup", json({
-    email, password, dealer_code, invite_code, full_name, phone,
+    email, password, dealer_code, invite_code, full_name,
   }));
   const data = await res.json();
   if (!res.ok) throw new Error(data.error || "Staff signup failed");
   return data;
-}
-
-export async function requestOtp(payload) {
-  const res = await callBackend(
-    "/api/auth/otp/request",
-    json(typeof payload === "string" ? { identifier: payload } : payload)
-  );
-  const data = await res.json();
-  if (!res.ok) throw new Error(data.error || "Could not send OTP");
-  return data;
-}
-
-export async function verifyOtp(payload) {
-  return applyAuthResponse(await callBackend("/api/auth/otp/verify", json(payload)));
 }
 
 export async function requestEmailOtp(email) {
@@ -425,7 +407,6 @@ export function sessionFromAuth(user, dealer) {
           id: dealer.id,
           name: dealer.business_name,
           person: null,
-          phone: user.phone,
           city: null,
           status: dealerStatus,
           dealer_code: dealer.dealer_code,
@@ -438,7 +419,6 @@ export function sessionFromAuth(user, dealer) {
       : null,
     email: user.email || null,
     email_verified: Boolean(user.email_verified),
-    phone: user.phone || null,
     fullName: user.full_name || null,
     userId: user.id,
     authRole: user.role, // customer | dealer | dealer_staff — the backend's real role

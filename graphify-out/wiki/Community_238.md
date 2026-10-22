@@ -1,18 +1,17 @@
 # Community 238
 
-> 9 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **authored-reachability.test.mjs** (8 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **reachabilityFunction()** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **Code audit** (5 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **Apple Pay and payment marks** (3 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **code-audit.md** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **How to run it** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **iPhone Duo readiness in code** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **Liquid Glass in code** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **What replaces it** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **What to search for** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
 
 ## Relationships
 
@@ -20,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/authored-reachability.test.mjs`
+- `.agents/skills/apple-design/references/code-audit.md`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

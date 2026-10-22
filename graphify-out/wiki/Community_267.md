@@ -1,17 +1,16 @@
 # Community 267
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Code audit** (5 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **Apple Pay and payment marks** (3 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **code-audit.md** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **How to run it** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **iPhone Duo readiness in code** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **Liquid Glass in code** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **What replaces it** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **What to search for** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **Focus and selection** (5 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
+- **focus-and-selection.md** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
 
 ## Relationships
 
@@ -19,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/code-audit.md`
+- `.agents/skills/apple-design/references/hig/focus-and-selection.md`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

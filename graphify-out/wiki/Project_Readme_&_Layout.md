@@ -1,55 +1,67 @@
 # Project Readme & Layout
 
-> 45 nodes · cohesion 0.13
+> 37 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **auth.js** (43 connections) — `src/data/auth.js`
-- **callBackend()** (27 connections) — `src/data/auth.js`
-- **json()** (27 connections) — `src/data/auth.js`
-- **DealerDashboard.jsx** (23 connections) — `src/pages/DealerDashboard.jsx`
-- **broadcastAuthChange()** (10 connections) — `src/data/auth.js`
-- **applyAuthResponse()** (8 connections) — `src/data/auth.js`
-- **firebaseAuthLogin()** (8 connections) — `src/data/auth.js`
-- **loginCode.js** (8 connections) — `src/data/loginCode.js`
-- **login()** (7 connections) — `src/data/auth.js`
-- **googleLogin()** (6 connections) — `src/data/auth.js`
-- **logout()** (6 connections) — `src/data/auth.js`
-- **signup()** (6 connections) — `src/data/auth.js`
-- **verifyOtp()** (6 connections) — `src/data/auth.js`
-- **applyAsDealer()** (5 connections) — `src/data/auth.js`
-- **fetchMe()** (5 connections) — `src/data/auth.js`
-- **lookupStaffCode()** (5 connections) — `src/data/auth.js`
-- **staffSignup()** (5 connections) — `src/data/auth.js`
-- **staffTogglePrice()** (5 connections) — `src/data/auth.js`
-- **staffTogglePriceAll()** (5 connections) — `src/data/auth.js`
-- **verifyEmailOtp()** (5 connections) — `src/data/auth.js`
-- **formatLoginCode()** (5 connections) — `src/data/loginCode.js`
-- **persistTokens()** (4 connections) — `src/data/auth.js`
-- **requestEmailOtp()** (4 connections) — `src/data/auth.js`
-- **staffApprove()** (4 connections) — `src/data/auth.js`
-- **staffDeactivate()** (4 connections) — `src/data/auth.js`
-- *... and 20 more nodes in this community*
+- **sql** (59 connections) — `backend/src/db/pool.js`
+- **dealers.js** (36 connections) — `backend/src/routes/dealers.js`
+- **staff.js** (23 connections) — `backend/src/services/staff.js`
+- **audit()** (17 connections) — `backend/src/utils/audit.js`
+- **auth.js** (8 connections) — `backend/src/middleware/auth.js`
+- **generateUniqueDealerCode()** (8 connections) — `backend/src/utils/loginCode.js`
+- **audit.js** (7 connections) — `backend/src/utils/audit.js`
+- **prices.js** (6 connections) — `backend/src/routes/prices.js`
+- **applyDealer()** (6 connections) — `backend/src/services/dealerApp.js`
+- **createInvite()** (6 connections) — `backend/src/services/staff.js`
+- **sha256()** (6 connections) — `backend/src/utils/hash.js`
+- **jwtAuth()** (5 connections) — `backend/src/middleware/auth.js`
+- **seed-content.js** (4 connections) — `backend/scripts/seed-content.js`
+- **deactivateDealer()** (4 connections) — `backend/src/services/dealerApp.js`
+- **approveStaff()** (4 connections) — `backend/src/services/staff.js`
+- **deleteStaff()** (4 connections) — `backend/src/services/staff.js`
+- **holdStaff()** (4 connections) — `backend/src/services/staff.js`
+- **resumeStaff()** (4 connections) — `backend/src/services/staff.js`
+- **revokeStaff()** (4 connections) — `backend/src/services/staff.js`
+- **toggleAllStaffPrice()** (4 connections) — `backend/src/services/staff.js`
+- **toggleStaffPrice()** (4 connections) — `backend/src/services/staff.js`
+- **requireApprovedDealer()** (3 connections) — `backend/src/middleware/auth.js`
+- **inspect-db.js** (3 connections) — `backend/scripts/inspect-db.js`
+- **setup-buckets.js** (3 connections) — `backend/scripts/setup-buckets.js`
+- **setup-policies.js** (3 connections) — `backend/scripts/setup-policies.js`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [[Community 51]] (26 shared connections)
-- [[Community 40]] (14 shared connections)
-- [[Community 45]] (7 shared connections)
-- [[Community 54]] (6 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (1 shared connections)
+- [[Community 43]] (27 shared connections)
+- [[Community 46]] (20 shared connections)
+- [[Community 71]] (11 shared connections)
+- [[Community 36]] (10 shared connections)
+- [[Community 64]] (9 shared connections)
+- [[Dealer Auth & Session Management]] (7 shared connections)
+- [[Community 90]] (5 shared connections)
 
 ## Source Files
 
-- `src/data/auth.js`
-- `src/data/loginCode.js`
-- `src/pages/DealerDashboard.jsx`
-- `src/pages/Login.jsx`
+- `backend/scripts/check-readiness.js`
+- `backend/scripts/inspect-db.js`
+- `backend/scripts/seed-content.js`
+- `backend/scripts/setup-buckets.js`
+- `backend/scripts/setup-policies.js`
+- `backend/src/db/pool.js`
+- `backend/src/middleware/auth.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/routes/prices.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/services/staff.js`
+- `backend/src/utils/audit.js`
+- `backend/src/utils/hash.js`
+- `backend/src/utils/loginCode.js`
 
 ## Audit Trail
 
-- EXTRACTED: 302 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 253 (98%)
+- INFERRED: 4 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

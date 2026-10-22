@@ -1,14 +1,13 @@
 # Community 367
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **Dock menus** (4 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
-- **dock-menus.md** (1 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
+- **Status bars** (3 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
+- **status-bars.md** (1 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
 
 ## Relationships
 
@@ -16,11 +15,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/dock-menus.md`
+- `.agents/skills/apple-design/references/hig/status-bars.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

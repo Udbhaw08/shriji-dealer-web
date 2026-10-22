@@ -1,55 +1,52 @@
 # Product Brand & Business Vision
 
-> 63 nodes · cohesion 0.08
+> 43 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **fl()** (40 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **yl()** (28 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **Z()** (27 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **qc()** (23 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **nl()** (20 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **dl()** (17 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **kl()** (15 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **lc()** (15 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **sl()** (15 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **ll()** (14 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **xl()** (13 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **el()** (12 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **ta()** (12 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **bl()** (11 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **Gc()** (11 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **rl()** (11 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **Sa()** (11 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **kc()** (10 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **fa()** (9 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **fc()** (9 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **ml()** (9 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **xa()** (9 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **zo()** (9 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **hm()** (8 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- **Lo()** (8 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
-- *... and 38 more nodes in this community*
+- **properties** (28 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **label** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelSegment** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **brand** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **channelX** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **channelY** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **classification** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **from** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **fromSide** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelAt** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelDx** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelDy** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **route** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **sublabel** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **tag** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **to** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **toSide** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **variant** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **yOffset** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (69 shared connections)
-- [[Master Codebase Architecture Reference]] (66 shared connections)
-- [[Product Pages Specification]] (27 shared connections)
-- [[Pricing Regression Test Suite]] (25 shared connections)
-- [[Live Pricing Audit Tool]] (25 shared connections)
-- [[Architecture Doc Generator]] (17 shared connections)
-- [[Community 91]] (12 shared connections)
-- [[Oxlint Linter Configuration]] (8 shared connections)
-- [[Community 53]] (6 shared connections)
+- [[Community 168]] (3 shared connections)
+- [[Community 410]] (1 shared connections)
+- [[Community 411]] (1 shared connections)
+- [[Community 412]] (1 shared connections)
+- [[Community 379]] (1 shared connections)
+- [[Community 380]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 555 (100%)
+- EXTRACTED: 92 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

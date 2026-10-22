@@ -1,15 +1,14 @@
 # Community 341
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **Color wells** (4 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
-- **color-wells.md** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **Gyroscope and accelerometer** (4 connections) — `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
+- **gyro-and-accelerometer.md** (1 connections) — `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
 
 ## Relationships
 
@@ -17,11 +16,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/color-wells.md`
+- `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

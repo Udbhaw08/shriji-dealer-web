@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Loading** (6 connections) — `.agents/skills/apple-design/references/hig/loading.md`
-- **loading.md** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
-- **Showing progress** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **semantic-lens.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/loading.md`
+- `.agents/skills/archify/test/semantic-lens.test.mjs`
 
 ## Audit Trail
 

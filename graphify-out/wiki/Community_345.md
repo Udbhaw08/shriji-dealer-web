@@ -1,15 +1,14 @@
 # Community 345
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **Rating indicators** (5 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
-- **rating-indicators.md** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
+- **NFC** (4 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
+- **nfc.md** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
+- **Background tag reading** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
+- **In-app tag reading** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
 
 ## Relationships
 
@@ -17,11 +16,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/rating-indicators.md`
+- `.agents/skills/apple-design/references/hig/nfc.md`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

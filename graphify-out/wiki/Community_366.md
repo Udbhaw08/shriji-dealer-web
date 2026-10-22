@@ -1,14 +1,13 @@
 # Community 366
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **Combo boxes** (4 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
-- **combo-boxes.md** (1 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
+- **Test** (2 connections) — `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
+- **ExampleUnitTest.java** (2 connections) — `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
+- **ExampleUnitTest** (2 connections) — `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
+- **.addition_isCorrect()** (2 connections) — `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
 
 ## Relationships
 
@@ -16,7 +15,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/combo-boxes.md`
+- `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
 
 ## Audit Trail
 

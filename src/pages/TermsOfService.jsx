@@ -44,7 +44,7 @@ export default function TermsOfService() {
         <section>
           <h2 style={{ fontSize: "1.25rem", color: "var(--c-text)", marginBottom: "var(--s2)" }}>3. Electronic & WhatsApp Communications</h2>
           <p>
-            By providing your mobile number to receive verification codes or order updates, you authorize Restor and Shriji Domestic Appliances to send automated transactional messages via WhatsApp Cloud API. You may opt out of non-essential communications by contacting our support team.
+            By providing your email address, you authorize Restor and Shriji Domestic Appliances to send requested account-verification and transactional messages. You may opt out of non-essential communications by contacting our support team.
           </p>
         </section>
 

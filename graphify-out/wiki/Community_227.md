@@ -1,18 +1,17 @@
 # Community 227
 
-> 9 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **web-DCQP1GMl.js** (8 connections) — `ios/App/App/public/assets/web-DCQP1GMl.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-DCQP1GMl.js`
-- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-DCQP1GMl.js`
-- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-DCQP1GMl.js`
-- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-DCQP1GMl.js`
-- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-DCQP1GMl.js`
-- **getState()** (1 connections) — `ios/App/App/public/assets/web-DCQP1GMl.js`
-- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-DCQP1GMl.js`
-- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-DCQP1GMl.js`
+- **Motion** (7 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **motion.md** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **Leveraging platform capabilities** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **Providing feedback** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
 
 ## Relationships
 
@@ -20,11 +19,11 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-DCQP1GMl.js`
+- `.agents/skills/apple-design/references/hig/motion.md`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

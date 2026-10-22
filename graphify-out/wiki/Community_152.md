@@ -1,21 +1,20 @@
 # Community 152
 
-> 12 nodes · cohesion 0.17
+> 11 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **Charts** (11 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **charts.md** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Axes** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Color** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Descriptive content** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Enhancing the accessibility of a chart** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Marks** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **degraded.test.mjs** (10 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **assertFriendlyFailure()** (2 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **render()** (2 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **ARRAY_FIELDS** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **filter()** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **installedRoot** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **mulberry32()** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
 
 ## Relationships
 
@@ -23,7 +22,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/charts.md`
+- `.agents/skills/archify/test/degraded.test.mjs`
 
 ## Audit Trail
 

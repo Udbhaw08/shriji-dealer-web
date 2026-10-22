@@ -1,17 +1,16 @@
 # Community 277
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **relationship-direct-explorer.test.mjs** (7 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- **Searching** (6 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **searching.md** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **Systemwide search** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
 
 ## Relationships
 
@@ -19,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- `.agents/skills/apple-design/references/hig/searching.md`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,23 +1,21 @@
 # Community 127
 
-> 14 nodes · cohesion 0.23
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **web-lFMsnxvf.js** (13 connections) — `android/app/src/main/assets/public/assets/web-lFMsnxvf.js`
-- **applyPrefix()** (4 connections) — `android/app/src/main/assets/public/assets/web-lFMsnxvf.js`
-- **keys()** (4 connections) — `android/app/src/main/assets/public/assets/web-lFMsnxvf.js`
-- **get()** (3 connections) — `android/app/src/main/assets/public/assets/web-lFMsnxvf.js`
-- **migrate()** (3 connections) — `android/app/src/main/assets/public/assets/web-lFMsnxvf.js`
-- **rawKeys()** (3 connections) — `android/app/src/main/assets/public/assets/web-lFMsnxvf.js`
-- **clear()** (2 connections) — `android/app/src/main/assets/public/assets/web-lFMsnxvf.js`
-- **remove()** (2 connections) — `android/app/src/main/assets/public/assets/web-lFMsnxvf.js`
-- **removeOld()** (2 connections) — `android/app/src/main/assets/public/assets/web-lFMsnxvf.js`
-- **set()** (2 connections) — `android/app/src/main/assets/public/assets/web-lFMsnxvf.js`
-- **configure()** (1 connections) — `android/app/src/main/assets/public/assets/web-lFMsnxvf.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-lFMsnxvf.js`
-- **impl()** (1 connections) — `android/app/src/main/assets/public/assets/web-lFMsnxvf.js`
-- **prefix()** (1 connections) — `android/app/src/main/assets/public/assets/web-lFMsnxvf.js`
+- **Designing for iPhone Duo** (7 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Dynamic layouts** (4 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Anatomy** (2 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **designing-for-iphone-duo.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Arrangement views** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Device poses** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Reserved regions** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Split views** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Vertical controls** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
 
 ## Relationships
 
@@ -25,11 +23,11 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/web-lFMsnxvf.js`
+- `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

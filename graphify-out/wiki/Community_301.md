@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Managing accounts** (6 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **managing-accounts.md** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **Deleting accounts** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **TV provider accounts** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- **semantic-passport.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **svg()** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- `.agents/skills/archify/test/semantic-passport.test.mjs`
 
 ## Audit Trail
 

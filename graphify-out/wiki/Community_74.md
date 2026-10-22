@@ -1,45 +1,40 @@
 # Community 74
 
-> 23 nodes · cohesion 0.09
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **properties** (8 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **layout** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **cols** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **cellH** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **cellW** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **gapX** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **gapY** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **origin** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **maximum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **App Clips** (9 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **App Clip Codes** (5 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Designing your App Clip** (5 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Printing guidelines** (2 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **app-clips.md** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Creating App Clips for businesses** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Creating content for an App Clip card** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Customizing your App Clip Code** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Displaying App Clip Codes** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Interacting with App Clip Codes** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Legal requirements** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Limiting notifications** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Preserving privacy** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Showcasing your app** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Using clear messaging** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Verifying your printer’s calibration** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
 
 ## Relationships
 
-- [[Community 177]] (1 shared connections)
-- [[Community 81]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `.agents/skills/apple-design/references/hig/app-clips.md`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (100%)
+- EXTRACTED: 36 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

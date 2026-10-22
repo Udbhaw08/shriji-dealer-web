@@ -1,39 +1,33 @@
 # Community 141
 
-> 13 nodes · cohesion 0.27
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **fail()** (15 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **usage()** (11 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **runNode()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandDemo()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **exitFrom()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandBrands()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandExamples()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandVisualCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandDoctor()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractMigrationOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandGuide()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **listBrandMarks()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **Alerts** (8 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **alerts.md** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Buttons** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
 
 ## Relationships
 
-- [[Community 46]] (27 shared connections)
-- [[Vercel Deployment Routing]] (3 shared connections)
-- [[Community 292]] (3 shared connections)
-- [[Community 29]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- `.agents/skills/apple-design/references/hig/alerts.md`
 
 ## Audit Trail
 
-- EXTRACTED: 73 (95%)
-- INFERRED: 4 (5%)
+- EXTRACTED: 20 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

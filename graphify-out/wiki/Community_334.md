@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Third-party notices** (5 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **THIRD_PARTY_NOTICES.md** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **JetBrains Mono** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **No additional rights granted** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **OpenAI mark** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **Simple Icons** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
+- **story-trail.test.mjs** (5 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
+- `.agents/skills/archify/test/story-trail.test.mjs`
 
 ## Audit Trail
 

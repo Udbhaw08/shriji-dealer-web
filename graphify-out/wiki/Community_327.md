@@ -1,16 +1,15 @@
 # Community 327
 
-> 7 nodes · cohesion 0.29
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **semantic-camera.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
-- **svg()** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
+- **SKILL.md** (3 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **Output Format** (3 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **ContentView.swift** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **Core Instructions** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **References** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **Summary** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
 
 ## Relationships
 
@@ -18,11 +17,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/semantic-camera.test.mjs`
+- `.agents/skills/swiftui-pro/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

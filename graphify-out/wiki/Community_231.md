@@ -1,32 +1,29 @@
 # Community 231
 
-> 9 nodes · cohesion 0.31
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **cards** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **additionalProperties** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **required** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **Pickers** (5 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **pickers.md** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
 
 ## Relationships
 
-- [[Community 179]] (3 shared connections)
-- [[Community 75]] (1 shared connections)
-- [[Community 436]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/apple-design/references/hig/pickers.md`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

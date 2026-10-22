@@ -1,31 +1,31 @@
 # Community 204
 
-> 10 nodes · cohesion 0.20
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **ordinary-model-floor.test.mjs** (9 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **benchmark** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **mutate()** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **renameCandidateIds()** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **writeJson()** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
+- **semanticRelation** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **from** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **to** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Live Pricing Audit Tool]] (2 shared connections)
+- [[Community 172]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

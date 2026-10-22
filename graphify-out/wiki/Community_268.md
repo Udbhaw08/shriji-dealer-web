@@ -1,17 +1,16 @@
 # Community 268
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Data flow, shared state, and property wrappers** (7 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **data.md** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **Bindings** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **If the project uses SwiftData with CloudKit** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **Local state** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **Shared state** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **SwiftData** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **Working with data** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
+- **Images** (6 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **images.md** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Formats** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Resolution** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
 
 ## Relationships
 
@@ -19,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/data.md`
+- `.agents/skills/apple-design/references/hig/images.md`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
