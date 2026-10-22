@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **Menus** (10 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **menus.md** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Icons** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **In-game menus** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Labels** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Organization** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Submenus** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Toggled items** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **SF Symbols** (11 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **sf-symbols.md** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Animations** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Custom symbols** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Design variants** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Gradients** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Rendering modes** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Variable color** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Weights and scales** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
 
 ## Relationships
 
@@ -23,7 +23,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/menus.md`
+- `.agents/skills/apple-design/references/hig/sf-symbols.md`
 
 ## Audit Trail
 

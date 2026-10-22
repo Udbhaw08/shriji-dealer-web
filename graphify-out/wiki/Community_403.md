@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **2. Type Scale** (4 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Common Ratios** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **CSS Tokens** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Practical Scale (Minor Third × 16px base)** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **width** (4 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Relationships
 
-- [[Community 230]] (1 shared connections)
+- [[Project Readme & Layout]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 

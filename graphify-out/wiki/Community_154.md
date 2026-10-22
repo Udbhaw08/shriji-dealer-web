@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **Charts** (11 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **charts.md** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Axes** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Color** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Descriptive content** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Enhancing the accessibility of a chart** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Marks** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Menus** (10 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **menus.md** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Icons** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **In-game menus** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Labels** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Organization** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Submenus** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Toggled items** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
 
 ## Relationships
 
@@ -23,7 +23,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/charts.md`
+- `.agents/skills/apple-design/references/hig/menus.md`
 
 ## Audit Trail
 

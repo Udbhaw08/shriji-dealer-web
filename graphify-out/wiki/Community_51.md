@@ -1,62 +1,55 @@
 # Community 51
 
-> 26 nodes · cohesion 0.10
+> 27 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **server.js** (37 connections) — `backend/src/server.js`
-- **health.js** (8 connections) — `backend/src/routes/health.js`
-- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
-- **upload.js** (5 connections) — `backend/src/routes/upload.js`
-- **uploads.js** (5 connections) — `backend/src/routes/uploads.js`
-- **migrate()** (4 connections) — `backend/src/db/migrate.js`
-- **rateLimit.js** (4 connections) — `backend/src/middleware/rateLimit.js`
-- **applied()** (3 connections) — `backend/src/db/migrate.js`
-- **startJobs()** (3 connections) — `backend/src/jobs/index.js`
-- **rateLimit()** (3 connections) — `backend/src/middleware/rateLimit.js`
-- **start()** (3 connections) — `backend/src/server.js`
-- **dealersRouter** (2 connections) — `backend/src/routes/dealers.js`
-- **healthRouter** (2 connections) — `backend/src/routes/health.js`
-- **uploadRouter** (2 connections) — `backend/src/routes/upload.js`
-- **uploadsRouter** (2 connections) — `backend/src/routes/uploads.js`
-- **webhooksRouter** (2 connections) — `backend/src/routes/webhooks.js`
-- **dir** (1 connections) — `backend/src/db/migrate.js`
-- **buckets** (1 connections) — `backend/src/middleware/rateLimit.js`
-- **ALLOWED_FOLDERS** (1 connections) — `backend/src/routes/upload.js`
-- **MIME_TYPES** (1 connections) — `backend/src/routes/uploads.js`
-- **allowedOrigins** (1 connections) — `backend/src/server.js`
-- **app** (1 connections) — `backend/src/server.js`
-- **defaultOrigins** (1 connections) — `backend/src/server.js`
-- **envOrigins** (1 connections) — `backend/src/server.js`
-- **isOriginAllowed()** (1 connections) — `backend/src/server.js`
-- *... and 1 more nodes in this community*
+- **archify.mjs** (50 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandCompare()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandMigrate()** (17 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **diagnostic()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportArtifactFailure()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **inputDiagnostic()** (4 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commitComparePair()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractCompareOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractMigrationOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **formatDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **migrationPathDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **migrationReport()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportArtifactArgumentFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportCompareFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportDeliveryFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportValidateFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandGuide()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **compareCommitError()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **compareReceiptPath()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **serializeMigratedWorkflow()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **CHECK_FIXES** (1 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **[command, ...args]** (1 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **COMPOSITION_CHECKS** (1 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **COMPOSITION_FIXES** (1 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/bin/archify.mjs`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [[Community 40]] (8 shared connections)
-- [[Community 77]] (8 shared connections)
-- [[Community 97]] (7 shared connections)
-- [[Community 33]] (6 shared connections)
-- [[Community 139]] (2 shared connections)
-- [[Community 350]] (2 shared connections)
-- [[Price Presentation & Product UI]] (2 shared connections)
+- [[Community 119]] (28 shared connections)
+- [[Community 163]] (17 shared connections)
+- [[Community 111]] (4 shared connections)
+- [[Community 103]] (4 shared connections)
+- [[Community 39]] (3 shared connections)
+- [[Community 82]] (2 shared connections)
+- [[Community 60]] (2 shared connections)
 
 ## Source Files
 
-- `backend/src/db/migrate.js`
-- `backend/src/jobs/index.js`
-- `backend/src/middleware/rateLimit.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/routes/health.js`
-- `backend/src/routes/upload.js`
-- `backend/src/routes/uploads.js`
-- `backend/src/routes/webhooks.js`
-- `backend/src/server.js`
+- `.agents/skills/archify/bin/archify.mjs`
+- `.agents/skills/archify/migrations/workflow-v2.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 101 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 137 (91%)
+- INFERRED: 13 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

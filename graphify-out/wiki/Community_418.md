@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **watch-sync.mjs** (3 connections) — `scripts/watch-sync.mjs`
-- **rootDir** (1 connections) — `scripts/watch-sync.mjs`
-- **srcDir** (1 connections) — `scripts/watch-sync.mjs`
-- **triggerSync()** (1 connections) — `scripts/watch-sync.mjs`
+- **vercel.json** (3 connections) — `vercel.json`
+- **framework** (1 connections) — `vercel.json`
+- **headers** (1 connections) — `vercel.json`
+- **rewrites** (1 connections) — `vercel.json`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `scripts/watch-sync.mjs`
+- `vercel.json`
 
 ## Audit Trail
 

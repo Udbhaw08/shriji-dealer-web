@@ -1,40 +1,36 @@
 # Community 165
 
-> 12 nodes · cohesion 0.20
+> 11 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **desktop-readability.mjs** (9 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **adaptive-reader-layout.test.mjs** (9 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **desktop-reader-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
-- **DESKTOP_READABILITY_VIEWPORT** (5 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **reader** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **skill** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
-- **packagedHtmlExamples** (1 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- **i18n.js** (25 connections) — `src/data/i18n.js`
+- **setLanguage()** (3 connections) — `src/data/i18n.js`
+- **tCat()** (3 connections) — `src/data/i18n.js`
+- **emit()** (2 connections) — `src/data/i18n.js`
+- **toggleLanguage()** (2 connections) — `src/data/i18n.js`
+- **translations.js** (2 connections) — `src/data/translations.js`
+- **TRANSLATIONS** (2 connections) — `src/data/translations.js`
+- **currentLang** (1 connections) — `src/data/i18n.js`
+- **getInitialLang()** (1 connections) — `src/data/i18n.js`
+- **getLanguage()** (1 connections) — `src/data/i18n.js`
+- **listeners** (1 connections) — `src/data/i18n.js`
 
 ## Relationships
 
-- [[Community 42]] (4 shared connections)
-- [[Pricing Regression Test Suite]] (3 shared connections)
-- [[Community 46]] (2 shared connections)
-- [[Community 127]] (2 shared connections)
-- [[Community 105]] (1 shared connections)
-- [[Community 129]] (1 shared connections)
+- [[Zoho Integration Architecture]] (9 shared connections)
+- [[Community 38]] (5 shared connections)
+- [[Community 48]] (2 shared connections)
+- [[Product Pages Specification]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- `src/data/i18n.js`
+- `src/data/translations.js`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (100%)
+- EXTRACTED: 43 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

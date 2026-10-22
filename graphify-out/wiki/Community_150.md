@@ -1,35 +1,33 @@
 # Community 150
 
-> 13 nodes · cohesion 0.21
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **workflow-compiler-hard-contract.test.mjs** (14 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **workflow()** (4 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **oneLaneAnchors()** (3 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **oneLaneWorkflow()** (3 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **crossingAtForwardCollinearViaWorkflow()** (2 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **nestedOutsideRightCorridorWorkflow()** (2 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **assertExplicitPinConflict()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **assertOrthogonal()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **assertSupportedFixesNameChangedEdge()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **clone()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **mutate()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **routeContainsChannel()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **segmentMeetsRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **Charts** (11 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **charts.md** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Axes** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Color** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Descriptive content** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Enhancing the accessibility of a chart** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Marks** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
 
 ## Relationships
 
-- [[Community 135]] (2 shared connections)
-- [[Zoho Integration Architecture]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- `.agents/skills/apple-design/references/hig/charts.md`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **chapter-handoff.test.mjs** (6 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
+- **presentation.test.mjs** (6 connections) — `.agents/skills/archify/test/presentation.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
+- **svg()** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/chapter-handoff.test.mjs`
+- `.agents/skills/archify/test/presentation.test.mjs`
 
 ## Audit Trail
 

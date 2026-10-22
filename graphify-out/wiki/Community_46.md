@@ -4,48 +4,45 @@
 
 ## Key Concepts
 
-- **check-render-output.mjs** (57 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectNonFiniteAttrs()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **attrEntries()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectLegendCollisions()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **segmentIntersectsBox()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **segmentsIntersect()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **decodeNumericReferences()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **isNumericAttr()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **onSegment()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **orientation()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **padBox()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **pointInsideBox()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **addCheck()** (1 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **checks** (1 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **composition** (1 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **diagonalStraightSegments()** (1 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **ELEMENT_NUMERIC_ATTRS** (1 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **formatPoint()** (1 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **frameName()** (1 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **frameRecord()** (1 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **HTML_VOID_ELEMENTS** (1 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **htmlPath** (1 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **NUMERIC_ATTRS** (1 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **relationshipName()** (1 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **relationshipRecord()** (1 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **AppDelegate** (10 connections) — `ios/App/App/AppDelegate.swift`
+- **.application()** (7 connections) — `ios/App/App/AppDelegate.swift`
+- **.scene()** (7 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIApplication** (6 connections) — `ios/App/App/AppDelegate.swift`
+- **SceneDelegate** (5 connections) — `ios/App/App/SceneDelegate.swift`
+- **AppDelegate.swift** (3 connections) — `ios/App/App/AppDelegate.swift`
+- **SceneDelegate.swift** (3 connections) — `ios/App/App/SceneDelegate.swift`
+- **.applicationDidBecomeActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationDidEnterBackground()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillEnterForeground()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillResignActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillTerminate()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **Capacitor** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIWindow** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIKit** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIResponder** (2 connections)
+- **Any** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **Bool** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIScene** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UISceneSession** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIWindow** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIScene** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **UISceneSession** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **NSUserActivity** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **Set** (1 connections) — `ios/App/App/SceneDelegate.swift`
 - *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [[Community 127]] (16 shared connections)
-- [[Community 354]] (6 shared connections)
-- [[Pricing & Roles Skill]] (5 shared connections)
-- [[Community 165]] (2 shared connections)
-- [[Zoho Integration Architecture]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-render-output.mjs`
+- `ios/App/App/AppDelegate.swift`
+- `ios/App/App/SceneDelegate.swift`
 
 ## Audit Trail
 
-- EXTRACTED: 102 (100%)
+- EXTRACTED: 72 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,73 +1,56 @@
 # Product Requirements Documentation
 
-> 55 nodes · cohesion 0.12
+> 59 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **main.jsx** (44 connections) — `src/main.jsx`
-- **ui.jsx** (42 connections) — `src/ui.jsx`
-- **useLanguage()** (32 connections) — `src/data/i18n.js`
-- **useSession()** (28 connections) — `src/data/session.js`
-- **Home.jsx** (26 connections) — `src/pages/Home.jsx`
-- **site.js** (24 connections) — `src/data/site.js`
-- **t()** (19 connections) — `src/data/i18n.js`
-- **isDealer()** (18 connections) — `src/data/dealer.js`
-- **Schemes.jsx** (17 connections) — `src/pages/Schemes.jsx`
-- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
-- **COMPANY** (16 connections) — `src/data/site.js`
-- **Support.jsx** (15 connections) — `src/pages/Support.jsx`
-- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
-- **dealerById()** (12 connections) — `src/data/dealer.js`
-- **Products()** (9 connections) — `src/pages/Products.jsx`
-- **Header()** (9 connections) — `src/ui.jsx`
-- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
-- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
-- **portalGate.js** (8 connections) — `src/data/portalGate.js`
-- **Favorites()** (8 connections) — `src/pages/Favorites.jsx`
-- **Home()** (8 connections) — `src/pages/Home.jsx`
-- **Login()** (7 connections) — `src/pages/Login.jsx`
-- **Schemes()** (6 connections) — `src/pages/Schemes.jsx`
-- **AccountLink()** (6 connections) — `src/ui.jsx`
-- **Footer()** (6 connections) — `src/ui.jsx`
-- *... and 30 more nodes in this community*
+- **ul()** (37 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **gc()** (16 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **el()** (15 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **vc()** (15 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **sl()** (13 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **lm()** (12 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **oa()** (12 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **wc()** (12 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **ca()** (11 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **ll()** (11 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **Mc()** (10 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **xc()** (10 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **al()** (9 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **kc()** (9 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **Ni()** (8 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **om()** (8 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **Pc()** (8 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **uc()** (8 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **cl()** (7 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **nc()** (7 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **xa()** (7 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **da()** (6 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **Fc()** (6 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **ol()** (6 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **Ro()** (6 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- *... and 34 more nodes in this community*
 
 ## Relationships
 
-- [[Community 37]] (55 shared connections)
-- [[Dependencies & Package Config]] (29 shared connections)
-- [[Community 47]] (19 shared connections)
-- [[Community 106]] (18 shared connections)
-- [[Community 169]] (9 shared connections)
-- [[Community 168]] (2 shared connections)
-- [[Community 391]] (1 shared connections)
+- [[Price Presentation & Product UI]] (70 shared connections)
+- [[Community 42]] (30 shared connections)
+- [[Live Pricing Audit Tool]] (19 shared connections)
+- [[Vercel Deployment Routing]] (13 shared connections)
+- [[Community 37]] (12 shared connections)
+- [[Community 53]] (8 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (8 shared connections)
+- [[Mobile Responsive UI Skill]] (7 shared connections)
+- [[Community 113]] (3 shared connections)
 
 ## Source Files
 
-- `src/components/EmailVerificationPrompt.jsx`
-- `src/components/MobileBottomNav.jsx`
-- `src/components/NativeBackHandler.jsx`
-- `src/components/UnderMaintenance.jsx`
-- `src/data/dealer.js`
-- `src/data/i18n.js`
-- `src/data/portalGate.js`
-- `src/data/session.js`
-- `src/data/site.js`
-- `src/main.jsx`
-- `src/pages/DealerDashboard.jsx`
-- `src/pages/Favorites.jsx`
-- `src/pages/Home.jsx`
-- `src/pages/LegalPrivacy.jsx`
-- `src/pages/LegalTerms.jsx`
-- `src/pages/Login.jsx`
-- `src/pages/PrivacyPolicy.jsx`
-- `src/pages/Products.jsx`
-- `src/pages/Schemes.jsx`
-- `src/pages/Support.jsx`
+- `ios/App/App/public/assets/index-FPrq849U.js`
 
 ## Audit Trail
 
-- EXTRACTED: 484 (100%)
-- INFERRED: 1 (0%)
+- EXTRACTED: 400 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,32 +1,30 @@
 # Community 244
 
-> 9 nodes · cohesion 0.33
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **release-identity.test.mjs** (8 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **writeFile()** (5 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **stableUpdateManifest()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **writeValidDevelopmentFixture()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **writeValidStableFixture()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **checker** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **runCheck()** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **Controls** (7 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Camera experiences on a locked device** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
 
 ## Relationships
 
-- [[Community 73]] (1 shared connections)
-- [[Community 355]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/release-identity.test.mjs`
+- `.agents/skills/apple-design/references/hig/controls.md`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (92%)
-- INFERRED: 2 (8%)
+- EXTRACTED: 14 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

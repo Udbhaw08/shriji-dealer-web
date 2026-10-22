@@ -1,35 +1,31 @@
 # Community 182
 
-> 11 nodes · cohesion 0.29
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **reader-layout-browser.test.mjs** (13 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **load()** (6 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **evaluate()** (5 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **media()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **stable()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **viewport()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **inactive()** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **variant()** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **Accessibility** (9 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **accessibility.md** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Cognitive** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Hearing** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Mobility** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Speech** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Vision** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
 
 ## Relationships
 
-- [[Community 61]] (4 shared connections)
-- [[Community 42]] (1 shared connections)
-- [[Community 151]] (1 shared connections)
-- [[Community 129]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- `.agents/skills/apple-design/references/hig/accessibility.md`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

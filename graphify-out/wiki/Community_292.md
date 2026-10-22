@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **MockStorage** (6 connections) — `src/data/auth-session.test.mjs`
-- **auth-session.test.mjs** (1 connections) — `src/data/auth-session.test.mjs`
-- **.clear()** (1 connections) — `src/data/auth-session.test.mjs`
-- **.constructor()** (1 connections) — `src/data/auth-session.test.mjs`
-- **.getItem()** (1 connections) — `src/data/auth-session.test.mjs`
-- **.removeItem()** (1 connections) — `src/data/auth-session.test.mjs`
-- **.setItem()** (1 connections) — `src/data/auth-session.test.mjs`
+- **Labels** (5 connections) — `.agents/skills/apple-design/references/hig/labels.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/labels.md`
+- **labels.md** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `src/data/auth-session.test.mjs`
+- `.agents/skills/apple-design/references/hig/labels.md`
 
 ## Audit Trail
 

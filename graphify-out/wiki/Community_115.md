@@ -1,46 +1,37 @@
 # Community 115
 
-> 16 nodes · cohesion 0.23
+> 16 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **rn()** (13 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **wn()** (12 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **ip()** (10 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **cn()** (8 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **hn()** (8 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **U()** (8 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **vn()** (7 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **Zt()** (7 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **an()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **un()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **en()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **ml()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **on()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **ep()** (3 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **gn()** (3 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **sn()** (3 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **Refero MCP Tools Reference** (7 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **Screens** (5 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **Flows** (3 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **Styles** (3 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **mcp-tools.md** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **Common Mistakes** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **If Results Are Weak** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_get_flow`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_get_screen`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_get_screen_image`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_get_similar_screens`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_get_style`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_search_flows`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_search_screens`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_search_styles`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **Response Formats** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (20 shared connections)
-- [[Live Pricing Audit Tool]] (12 shared connections)
-- [[Vercel Deployment Routing]] (9 shared connections)
-- [[Product Pages Specification]] (5 shared connections)
-- [[Community 53]] (3 shared connections)
-- [[Testing & Workflow Skill]] (2 shared connections)
-- [[Zoho API Diagnostic Script]] (1 shared connections)
-- [[Community 311]] (1 shared connections)
-- [[Community 133]] (1 shared connections)
-- [[Community 76]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BAUTLLuP.js`
+- `.agents/skills/refero-design/references/mcp-tools.md`
 
 ## Audit Trail
 
-- EXTRACTED: 109 (100%)
+- EXTRACTED: 30 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

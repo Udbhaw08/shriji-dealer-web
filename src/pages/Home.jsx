@@ -213,7 +213,7 @@ export default function Home() {
                   onTouchStart={catScroll.onTouchStart}
                   onTouchEnd={catScroll.onTouchEnd}
                 >
-                  {CATEGORIES.filter((c) => c.key !== "all_products" && c.key !== "all").slice(0, 5).map((c) => (
+                  {CATEGORIES.filter((c) => c.key !== "all_products" && c.key !== "all").map((c) => (
                     <Link className="cat" key={c.key} to={`/products?cat=${c.key}`}>
                       <span className="cat-img">
                         <img

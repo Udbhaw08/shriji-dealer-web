@@ -4,24 +4,24 @@
 
 ## Key Concepts
 
-- **viewBox** (6 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **automatic-port-spread.test.mjs** (5 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- **connectionPoints()** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- **fanOutArchitecture()** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
 
 ## Relationships
 
-- [[Community 87]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `.agents/skills/archify/test/automatic-port-spread.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

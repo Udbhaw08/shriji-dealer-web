@@ -1,18 +1,17 @@
 # Community 246
 
-> 9 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **vertical-edge.test.mjs** (8 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **bin** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **edgePath()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **REPRO** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **segments()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **Game controls** (7 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **game-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Keyboards** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Physical controllers** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Touch controls** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
 
 ## Relationships
 
@@ -20,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/vertical-edge.test.mjs`
+- `.agents/skills/apple-design/references/hig/game-controls.md`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

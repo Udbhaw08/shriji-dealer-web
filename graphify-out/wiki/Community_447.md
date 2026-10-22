@@ -1,24 +1,23 @@
 # Community 447
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **title** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **minLength** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **README.md** (1 connections) — `.agents/skills/archify/brand-marks/README.md`
+- **Built-in brand marks** (1 connections) — `.agents/skills/archify/brand-marks/README.md`
 
 ## Relationships
 
-- [[Community 67]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/sequence.schema.json`
+- `.agents/skills/archify/brand-marks/README.md`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

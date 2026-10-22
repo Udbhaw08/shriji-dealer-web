@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **settings.gradle** (0 connections) — `android/settings.gradle`
+- **cordova_plugins.js** (0 connections) — `ios/App/App/public/cordova_plugins.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `android/settings.gradle`
+- `ios/App/App/public/cordova_plugins.js`
 
 ## Audit Trail
 

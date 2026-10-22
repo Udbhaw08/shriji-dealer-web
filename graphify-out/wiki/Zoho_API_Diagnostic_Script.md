@@ -1,58 +1,47 @@
 # Zoho API Diagnostic Script
 
-> 40 nodes · cohesion 0.08
+> 41 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **n()** (26 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **t()** (20 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **is()** (12 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **as()** (9 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **c()** (8 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **hh()** (8 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **os()** (8 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **yh()** (8 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **ec()** (7 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **Mp()** (7 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **ds()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **fh()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **mh()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **ph()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **ps()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **qs()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **s()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **Sh()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **us()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **ys()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **zd()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **A()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **bh()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **bs()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **Ih()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- *... and 15 more nodes in this community*
+- **Motion & Micro-interactions Guide** (13 connections) — `.agents/skills/refero-design/references/motion.md`
+- **8. Anti-Patterns** (7 connections) — `.agents/skills/refero-design/references/motion.md`
+- **1. The Motion Pyramid** (5 connections) — `.agents/skills/refero-design/references/motion.md`
+- **4. Micro-interactions That Work** (5 connections) — `.agents/skills/refero-design/references/motion.md`
+- **2. Timing That Actually Works** (4 connections) — `.agents/skills/refero-design/references/motion.md`
+- **3. Easing: Native Feel Without Cringe** (4 connections) — `.agents/skills/refero-design/references/motion.md`
+- **6. Reduced Motion: Not Optional** (4 connections) — `.agents/skills/refero-design/references/motion.md`
+- **5. Motion Tokens for Design Systems** (3 connections) — `.agents/skills/refero-design/references/motion.md`
+- **7. Libraries and Tools** (3 connections) — `.agents/skills/refero-design/references/motion.md`
+- **motion.md** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **9. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Animations Must Be Interruptible** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Basic Principle** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Buttons and Controls** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Component Mapping** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Critical: Never Use `transition: all`** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **CSS Shortcut** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **CSS Tokens** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Duration Reference** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **For Complex Scenarios** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **For Web/SaaS (React/Next)** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Implementation** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Inputs** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (48 shared connections)
-- [[Product Pages Specification]] (25 shared connections)
-- [[Live Pricing Audit Tool]] (13 shared connections)
-- [[Community 50]] (9 shared connections)
-- [[Vercel Deployment Routing]] (8 shared connections)
-- [[Community 133]] (5 shared connections)
-- [[Community 53]] (3 shared connections)
-- [[Community 101]] (2 shared connections)
-- [[Testing & Workflow Skill]] (2 shared connections)
-- [[Community 76]] (1 shared connections)
-- [[Community 311]] (1 shared connections)
-- [[Community 115]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BAUTLLuP.js`
+- `.agents/skills/refero-design/references/motion.md`
 
 ## Audit Trail
 
-- EXTRACTED: 250 (100%)
+- EXTRACTED: 80 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

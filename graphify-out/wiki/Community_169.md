@@ -1,36 +1,32 @@
 # Community 169
 
-> 11 nodes · cohesion 0.24
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **i18n.js** (25 connections) — `src/data/i18n.js`
-- **setLanguage()** (3 connections) — `src/data/i18n.js`
-- **tCat()** (3 connections) — `src/data/i18n.js`
-- **emit()** (2 connections) — `src/data/i18n.js`
-- **toggleLanguage()** (2 connections) — `src/data/i18n.js`
-- **translations.js** (2 connections) — `src/data/translations.js`
-- **TRANSLATIONS** (2 connections) — `src/data/translations.js`
-- **currentLang** (1 connections) — `src/data/i18n.js`
-- **getInitialLang()** (1 connections) — `src/data/i18n.js`
-- **getLanguage()** (1 connections) — `src/data/i18n.js`
-- **listeners** (1 connections) — `src/data/i18n.js`
+- **Dark Mode** (6 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Dark Mode colors** (3 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **dark-mode.md** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Icons and images** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Text** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
 
 ## Relationships
 
-- [[Product Requirements Documentation]] (9 shared connections)
-- [[Community 37]] (5 shared connections)
-- [[Community 47]] (2 shared connections)
-- [[Dependencies & Package Config]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/data/i18n.js`
-- `src/data/translations.js`
+- `.agents/skills/apple-design/references/hig/dark-mode.md`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

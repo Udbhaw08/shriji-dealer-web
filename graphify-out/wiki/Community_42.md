@@ -1,60 +1,56 @@
 # Community 42
 
-> 30 nodes · cohesion 0.12
+> 34 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **visual-check.mjs** (50 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **runVisualCheck()** (18 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **visual-check.test.mjs** (14 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **observationDiagnostics()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **safeUnlink()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **writeAtomic()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **baseReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **chromeVisualBrowserArgs()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **cleanupCaptureSidecars()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **contactSheetHtml()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **failureDiagnostic()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **persistReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **sha256()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **sidecarPaths()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **htmlEscape()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **observation()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **screenshotKey()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **viewportSubject()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **VISUAL_CHECK_VIEWPORTS** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **CAPTURE_VIEWPORTS** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **EXIT** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **THEMES** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **artifact()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **fakeBrowser()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- *... and 5 more nodes in this community*
+- **i()** (66 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **n()** (26 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **t()** (20 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **is()** (12 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **ya()** (10 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **as()** (9 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **os()** (8 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **ec()** (7 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **xo()** (7 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **ba()** (6 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **ds()** (6 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **ps()** (6 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **qs()** (6 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **us()** (6 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **ys()** (6 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **bs()** (5 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **Qo()** (5 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **Zo()** (5 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **fs()** (4 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **ms()** (4 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **Qa()** (4 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **rs()** (4 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **va()** (4 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **eo()** (3 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **Qe()** (3 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [[Community 151]] (7 shared connections)
-- [[Community 129]] (5 shared connections)
-- [[Community 165]] (4 shared connections)
-- [[Community 62]] (3 shared connections)
-- [[Community 61]] (3 shared connections)
-- [[Community 121]] (2 shared connections)
-- [[Community 89]] (2 shared connections)
-- [[Community 147]] (1 shared connections)
-- [[Community 148]] (1 shared connections)
-- [[Design System & UI Tokens]] (1 shared connections)
-- [[Community 84]] (1 shared connections)
-- [[Community 182]] (1 shared connections)
+- [[Price Presentation & Product UI]] (50 shared connections)
+- [[Product Requirements Documentation]] (30 shared connections)
+- [[Live Pricing Audit Tool]] (18 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (10 shared connections)
+- [[Community 53]] (9 shared connections)
+- [[Vercel Deployment Routing]] (9 shared connections)
+- [[Community 37]] (7 shared connections)
+- [[Mobile Responsive UI Skill]] (3 shared connections)
+- [[Community 113]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/visual-check.test.mjs`
+- `ios/App/App/public/assets/index-FPrq849U.js`
 
 ## Audit Trail
 
-- EXTRACTED: 138 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 265 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,11 +1,10 @@
 # Community 470
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **test-supabase.mjs** (1 connections) — `scripts/test-supabase.mjs`
-- **test()** (1 connections) — `scripts/test-supabase.mjs`
+- **variables.gradle** (0 connections) — `android/variables.gradle`
 
 ## Relationships
 
@@ -13,11 +12,11 @@
 
 ## Source Files
 
-- `scripts/test-supabase.mjs`
+- `android/variables.gradle`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

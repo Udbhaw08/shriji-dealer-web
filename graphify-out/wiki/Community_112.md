@@ -1,45 +1,37 @@
 # Community 112
 
-> 16 nodes · cohesion 0.23
+> 16 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **rn()** (13 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **wn()** (12 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **ip()** (10 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **cn()** (8 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **hn()** (8 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **U()** (8 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **vn()** (7 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **Zt()** (7 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **an()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **un()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **en()** (5 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **ml()** (5 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **on()** (5 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **ep()** (3 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **gn()** (3 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **sn()** (3 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- **Color** (10 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Specifications** (3 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **color.md** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **App accent colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Color management** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Inclusive color** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **iOS, iPadOS system gray colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Liquid Glass color** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **System colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **System colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (20 shared connections)
-- [[Product Brand & Business Vision]] (12 shared connections)
-- [[Roles & Customer Sharing Spec]] (9 shared connections)
-- [[Community 48]] (4 shared connections)
-- [[Community 35]] (3 shared connections)
-- [[Master Codebase Architecture Reference]] (3 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (2 shared connections)
-- [[Community 49]] (1 shared connections)
-- [[Architecture Doc Generator]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- `.agents/skills/apple-design/references/hig/color.md`
 
 ## Audit Trail
 
-- EXTRACTED: 109 (100%)
+- EXTRACTED: 30 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

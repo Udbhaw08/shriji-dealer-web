@@ -1,69 +1,73 @@
 # Zoho Integration Architecture
 
-> 52 nodes · cohesion 0.08
+> 55 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **workflow-compiler.mjs** (102 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **compileWorkflowInternal()** (67 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **legend.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **throwDiagnosticError()** (16 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **renderLegend()** (14 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **svgAccessibleText()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **svgRootAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **createReadableLayout()** (12 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **renderDefinitions()** (11 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **resolveLegend()** (10 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **validator.mjs** (10 connections) — `.agents/skills/archify/renderers/shared/validator.mjs`
-- **validateSchema()** (10 connections) — `.agents/skills/archify/renderers/shared/validator.mjs`
-- **renderSvg()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **collectAmbiguousCorridors()** (8 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **polylinePath()** (8 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **renderLegend()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **legendFootprint()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **measureLegend()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **relationshipLegendObstacles()** (5 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **readableGroupBounds()** (5 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- *... and 27 more nodes in this community*
+- **main.jsx** (44 connections) — `src/main.jsx`
+- **ui.jsx** (42 connections) — `src/ui.jsx`
+- **useLanguage()** (32 connections) — `src/data/i18n.js`
+- **useSession()** (28 connections) — `src/data/session.js`
+- **Home.jsx** (26 connections) — `src/pages/Home.jsx`
+- **site.js** (24 connections) — `src/data/site.js`
+- **t()** (19 connections) — `src/data/i18n.js`
+- **isDealer()** (18 connections) — `src/data/dealer.js`
+- **Schemes.jsx** (17 connections) — `src/pages/Schemes.jsx`
+- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
+- **COMPANY** (16 connections) — `src/data/site.js`
+- **Support.jsx** (15 connections) — `src/pages/Support.jsx`
+- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
+- **dealerById()** (12 connections) — `src/data/dealer.js`
+- **Products()** (9 connections) — `src/pages/Products.jsx`
+- **Header()** (9 connections) — `src/ui.jsx`
+- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
+- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
+- **portalGate.js** (8 connections) — `src/data/portalGate.js`
+- **Favorites()** (8 connections) — `src/pages/Favorites.jsx`
+- **Home()** (8 connections) — `src/pages/Home.jsx`
+- **Login()** (7 connections) — `src/pages/Login.jsx`
+- **Schemes()** (6 connections) — `src/pages/Schemes.jsx`
+- **AccountLink()** (6 connections) — `src/ui.jsx`
+- **Footer()** (6 connections) — `src/ui.jsx`
+- *... and 30 more nodes in this community*
 
 ## Relationships
 
-- [[Community 29]] (46 shared connections)
-- [[Client Products Data Store]] (42 shared connections)
-- [[Pricing & Roles Skill]] (39 shared connections)
-- [[Community 41]] (23 shared connections)
-- [[Design System & UI Tokens]] (20 shared connections)
-- [[Pricing Regression Test Suite]] (18 shared connections)
-- [[Community 55]] (7 shared connections)
-- [[Community 135]] (7 shared connections)
-- [[Community 291]] (7 shared connections)
-- [[Zoho Integration Skill]] (2 shared connections)
-- [[Community 166]] (2 shared connections)
-- [[Community 46]] (1 shared connections)
+- [[Community 38]] (55 shared connections)
+- [[Product Pages Specification]] (29 shared connections)
+- [[Community 48]] (19 shared connections)
+- [[Community 105]] (18 shared connections)
+- [[Community 165]] (9 shared connections)
+- [[Community 164]] (2 shared connections)
+- [[Community 384]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/cli.mjs`
-- `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/legend.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
-- `.agents/skills/archify/renderers/shared/validator.mjs`
-- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- `src/components/EmailVerificationPrompt.jsx`
+- `src/components/MobileBottomNav.jsx`
+- `src/components/NativeBackHandler.jsx`
+- `src/components/UnderMaintenance.jsx`
+- `src/data/dealer.js`
+- `src/data/i18n.js`
+- `src/data/portalGate.js`
+- `src/data/session.js`
+- `src/data/site.js`
+- `src/main.jsx`
+- `src/pages/DealerDashboard.jsx`
+- `src/pages/Favorites.jsx`
+- `src/pages/Home.jsx`
+- `src/pages/LegalPrivacy.jsx`
+- `src/pages/LegalTerms.jsx`
+- `src/pages/Login.jsx`
+- `src/pages/PrivacyPolicy.jsx`
+- `src/pages/Products.jsx`
+- `src/pages/Schemes.jsx`
+- `src/pages/Support.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 439 (99%)
-- INFERRED: 4 (1%)
+- EXTRACTED: 484 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

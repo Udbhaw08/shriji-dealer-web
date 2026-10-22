@@ -1,40 +1,41 @@
 # Community 119
 
-> 16 nodes · cohesion 0.12
+> 15 nodes · cohesion 0.35
 
 ## Key Concepts
 
-- **properties** (8 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **meta** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **states** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **transitions** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **cards** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **schema_version** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **commandDeliver()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandValidate()** (13 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandRender()** (10 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandPreview()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **rendererPath()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **renderValidatedArchitecture()** (8 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractQualityArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractRepoRootArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **rejectCliArgument()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **assertEvidenceType()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **checkerDiagnostics()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **rendererEnv()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **rendererFailure()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **engineeringProfileFromArtifact()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **sourceEvidenceFromArtifact()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
 
 ## Relationships
 
-- [[Community 199]] (3 shared connections)
-- [[Community 314]] (1 shared connections)
-- [[Community 66]] (1 shared connections)
+- [[Community 51]] (28 shared connections)
+- [[Community 163]] (12 shared connections)
+- [[Community 242]] (2 shared connections)
+- [[Community 103]] (2 shared connections)
+- [[Community 62]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `.agents/skills/archify/bin/archify.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 117 (98%)
+- INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

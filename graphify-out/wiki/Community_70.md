@@ -1,52 +1,57 @@
 # Community 70
 
-> 23 nodes · cohesion 0.13
+> 23 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **preview.mjs** (23 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **startPreview()** (10 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **open-artifact.mjs** (7 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **openLoopbackUrl()** (5 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **open-artifact.test.mjs** (5 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
-- **launchTarget()** (4 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **openArtifact()** (4 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **runPreview()** (3 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **compactMessage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **initialAuthoredOutput()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **previewPage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **redactDiagnostic()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **sha256()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **sourceDigest()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **spawn()** (2 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
-- **OPENERS** (1 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **cliPath** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **diagramTypes** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **here** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **parseReceipt()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **responseHeaders()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **safeJson()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **target** (1 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
+- **pool.js** (30 connections) — `backend/src/db/pool.js`
+- **env.js** (14 connections) — `backend/src/config/env.js`
+- **env** (11 connections) — `backend/src/config/env.js`
+- **notifications.js** (9 connections) — `backend/src/services/notifications.js`
+- **sync-supabase-content.js** (6 connections) — `backend/scripts/sync-supabase-content.js`
+- **upload.js** (5 connections) — `api/upload.js`
+- **migrate-content.js** (3 connections) — `backend/scripts/migrate-content.js`
+- **test-storage.js** (3 connections) — `backend/scripts/test-storage.js`
+- **notify()** (3 connections) — `backend/src/services/notifications.js`
+- **handler()** (2 connections) — `api/upload.js`
+- **syncAll()** (2 connections) — `backend/scripts/sync-supabase-content.js`
+- **sendEmailOtp()** (2 connections) — `backend/src/services/notifications.js`
+- **ALLOWED_FOLDERS** (1 connections) — `api/upload.js`
+- **MIME_TYPES** (1 connections) — `api/upload.js`
+- **bool()** (1 connections) — `backend/src/config/env.js`
+- **__dirname** (1 connections) — `backend/src/config/env.js`
+- **num()** (1 connections) — `backend/src/config/env.js`
+- **tx()** (1 connections) — `backend/src/db/pool.js`
+- **main()** (1 connections) — `backend/scripts/migrate-content.js`
+- **__dirname** (1 connections) — `backend/scripts/sync-supabase-content.js`
+- **IMAGES** (1 connections) — `backend/scripts/sync-supabase-content.js`
+- **PROJECT_ROOT** (1 connections) — `backend/scripts/sync-supabase-content.js`
+- **main()** (1 connections) — `backend/scripts/test-storage.js`
 
 ## Relationships
 
-- [[Community 36]] (4 shared connections)
-- [[Community 104]] (3 shared connections)
-- [[Community 241]] (2 shared connections)
-- [[Community 206]] (2 shared connections)
-- [[Community 324]] (2 shared connections)
-- [[Community 245]] (2 shared connections)
+- [[Community 36]] (17 shared connections)
+- [[Community 84]] (11 shared connections)
+- [[Community 54]] (10 shared connections)
+- [[Community 49]] (7 shared connections)
+- [[Community 137]] (2 shared connections)
+- [[Community 125]] (2 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/open-artifact.mjs`
-- `.agents/skills/archify/bin/preview.mjs`
-- `.agents/skills/archify/test/open-artifact.test.mjs`
+- `api/upload.js`
+- `backend/scripts/migrate-content.js`
+- `backend/scripts/sync-supabase-content.js`
+- `backend/scripts/test-storage.js`
+- `backend/src/config/env.js`
+- `backend/src/db/pool.js`
+- `backend/src/services/notifications.js`
 
 ## Audit Trail
 
-- EXTRACTED: 79 (95%)
-- INFERRED: 4 (5%)
+- EXTRACTED: 101 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

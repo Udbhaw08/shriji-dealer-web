@@ -1,36 +1,27 @@
 # Community 350
 
-> 6 nodes · cohesion 0.60
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **dealerApp.js** (24 connections) — `backend/src/services/dealerApp.js`
-- **webhooks.js** (14 connections) — `backend/src/routes/webhooks.js`
-- **applyCrmAccountState()** (12 connections) — `backend/src/services/dealerApp.js`
-- **audit.js** (7 connections) — `backend/src/utils/audit.js`
-- **applyCrmContactState()** (5 connections) — `backend/src/services/dealerApp.js`
-- **crmSync.test.mjs** (2 connections) — `backend/test/crmSync.test.mjs`
+- **SKILL.md** (3 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **Output Format** (3 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **ContentView.swift** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **Core Instructions** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **References** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **Summary** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
 
 ## Relationships
 
-- [[Community 40]] (14 shared connections)
-- [[Community 33]] (12 shared connections)
-- [[Community 77]] (7 shared connections)
-- [[Community 97]] (5 shared connections)
-- [[Community 139]] (3 shared connections)
-- [[Community 81]] (3 shared connections)
-- [[Community 51]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `backend/src/routes/webhooks.js`
-- `backend/src/services/dealerApp.js`
-- `backend/src/utils/audit.js`
-- `backend/test/crmSync.test.mjs`
+- `.agents/skills/swiftui-pro/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,47 +1,53 @@
 # Community 84
 
-> 20 nodes · cohesion 0.14
+> 20 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **offline-font-browser.test.mjs** (13 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
-- **offline-self-containment.test.mjs** (9 connections) — `.agents/skills/archify/test/offline-self-containment.test.mjs`
-- **offline-fonts.mjs** (7 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **inspectDocuments()** (5 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **assertFontCss()** (4 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **assertOfflineArtifact()** (4 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **evaluate()** (2 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
-- **exported()** (2 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
-- **EXPECTED_FACES** (1 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **FONT_LICENSE** (1 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **actualFonts()** (1 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
-- **options** (1 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
-- **prepare()** (1 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/offline-self-containment.test.mjs`
-- **DIAGRAMS** (1 connections) — `.agents/skills/archify/test/offline-self-containment.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/offline-self-containment.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/offline-self-containment.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/offline-self-containment.test.mjs`
+- **catalog.js** (16 connections) — `backend/src/services/catalog.js`
+- **logger.js** (14 connections) — `backend/src/utils/logger.js`
+- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
+- **log** (13 connections) — `backend/src/utils/logger.js`
+- **index.js** (11 connections) — `backend/src/jobs/index.js`
+- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
+- **errorHandler.js** (7 connections) — `backend/src/middleware/errorHandler.js`
+- **syncCatalog()** (7 connections) — `backend/src/services/catalog.js`
+- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
+- **catalogFor()** (4 connections) — `backend/src/services/catalog.js`
+- **loadCatalog()** (4 connections) — `backend/src/services/catalog.js`
+- **catalogSync()** (3 connections) — `backend/src/jobs/catalogSync.js`
+- **tokenCleanup()** (3 connections) — `backend/src/jobs/catalogSync.js`
+- **markPollRun()** (3 connections) — `backend/src/jobs/crmPoll.js`
+- **httpError()** (3 connections) — `backend/src/middleware/errorHandler.js`
+- **priceView()** (3 connections) — `backend/src/services/catalog.js`
+- **priceGate.test.mjs** (3 connections) — `backend/test/priceGate.test.mjs`
+- **errorHandler()** (2 connections) — `backend/src/middleware/errorHandler.js`
+- **CATALOG** (1 connections) — `backend/test/priceGate.test.mjs`
+- **ts()** (1 connections) — `backend/src/utils/logger.js`
 
 ## Relationships
 
-- [[Community 90]] (1 shared connections)
-- [[Community 42]] (1 shared connections)
-- [[Community 151]] (1 shared connections)
-- [[Community 129]] (1 shared connections)
+- [[Community 36]] (14 shared connections)
+- [[Community 70]] (11 shared connections)
+- [[Community 54]] (11 shared connections)
+- [[Community 137]] (6 shared connections)
+- [[Community 49]] (6 shared connections)
+- [[Community 125]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- `.agents/skills/archify/test/offline-font-browser.test.mjs`
-- `.agents/skills/archify/test/offline-self-containment.test.mjs`
+- `backend/src/jobs/catalogSync.js`
+- `backend/src/jobs/crmPoll.js`
+- `backend/src/jobs/index.js`
+- `backend/src/middleware/errorHandler.js`
+- `backend/src/services/catalog.js`
+- `backend/src/utils/logger.js`
+- `backend/test/priceGate.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 57 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 125 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

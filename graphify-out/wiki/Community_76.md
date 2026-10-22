@@ -1,53 +1,48 @@
 # Community 76
 
-> 22 nodes · cohesion 0.17
+> 22 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **Fr()** (18 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **r()** (15 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **Lr()** (13 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **sf()** (7 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **Dr()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **Kr()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **qr()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **Vr()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **br()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **ei()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **gr()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **Hr()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **jr()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **tn()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **Wr()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **Rr()** (4 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **Ir()** (3 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **Mr()** (3 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **Nr()** (3 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **Ur()** (3 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **zr()** (3 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **tc()** (2 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **$defs** (16 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **relationshipWidth** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **animation** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **brandMark** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **componentType** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **legendMode** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **locale** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **qualityProfile** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **side** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **variant** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **visualPreset** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **oneOf** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (26 shared connections)
-- [[Community 50]] (5 shared connections)
-- [[Product Pages Specification]] (5 shared connections)
-- [[Live Pricing Audit Tool]] (4 shared connections)
-- [[Community 133]] (3 shared connections)
-- [[Testing & Workflow Skill]] (3 shared connections)
-- [[Vercel Deployment Routing]] (3 shared connections)
-- [[Zoho API Diagnostic Script]] (1 shared connections)
-- [[Community 311]] (1 shared connections)
-- [[Community 53]] (1 shared connections)
-- [[Community 115]] (1 shared connections)
+- [[Community 401]] (1 shared connections)
+- [[Community 228]] (1 shared connections)
+- [[Community 429]] (1 shared connections)
+- [[Community 430]] (1 shared connections)
+- [[Community 175]] (1 shared connections)
+- [[Community 346]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BAUTLLuP.js`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 133 (100%)
+- EXTRACTED: 48 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

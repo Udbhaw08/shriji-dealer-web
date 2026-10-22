@@ -1,55 +1,66 @@
 # Master Codebase Architecture Reference
 
-> 68 nodes · cohesion 0.06
+> 71 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **ul()** (37 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **gc()** (16 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **el()** (15 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **vc()** (15 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **sl()** (13 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **lm()** (12 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **oa()** (12 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **wc()** (12 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **ca()** (11 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **ji()** (11 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **ll()** (11 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **Mc()** (10 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **xc()** (10 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **al()** (9 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **kc()** (9 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **Ni()** (8 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **om()** (8 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **Pc()** (8 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **uc()** (8 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **cl()** (7 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **nc()** (7 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **xa()** (7 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **da()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **Fc()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **lh()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- *... and 43 more nodes in this community*
+- **geometry.mjs** (75 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **compileWorkflowInternal()** (67 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **asArray()** (43 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **geometry.test.mjs** (34 connections) — `.agents/skills/archify/test/geometry.test.mjs`
+- **textUnits()** (33 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **validateArchitecture()** (22 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **validateDataflow()** (22 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **validateLifecycle()** (22 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **cleanCrossingProblems()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **isFinitePoint()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanFlowProblems()** (17 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **rectsOverlap()** (16 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **validateSequence()** (15 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **throwDiagnosticProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **cleanAmbiguousCorridorProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanBorderRunProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanRouteRhythmProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **labelPoint()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanEndpointSideProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanLabelRouteClearanceProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **brandTopRailProblem()** (13 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **collectLabelRouteClearance()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **suggestLabelObstacleFix()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **minimumNodeTextWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- **text-fit.mjs** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- *... and 46 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (73 shared connections)
-- [[Community 35]] (31 shared connections)
-- [[Product Brand & Business Vision]] (21 shared connections)
-- [[Architecture Doc Generator]] (14 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (13 shared connections)
-- [[Roles & Customer Sharing Spec]] (9 shared connections)
-- [[Community 48]] (8 shared connections)
-- [[Community 49]] (8 shared connections)
-- [[Community 112]] (3 shared connections)
+- [[Dependencies & Package Config]] (78 shared connections)
+- [[Community 35]] (57 shared connections)
+- [[Client Products Data Store]] (51 shared connections)
+- [[Community 55]] (40 shared connections)
+- [[Pricing Regression Test Suite]] (12 shared connections)
+- [[Architecture Doc Generator]] (6 shared connections)
+- [[Community 126]] (4 shared connections)
+- [[Community 39]] (3 shared connections)
+- [[Graphify Workflow]] (2 shared connections)
+- [[Community 279]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- `.agents/skills/archify/renderers/shared/geometry.mjs`
+- `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- `.agents/skills/archify/test/geometry.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 440 (100%)
+- EXTRACTED: 758 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,37 +1,40 @@
 # Community 125
 
-> 15 nodes · cohesion 0.19
+> 15 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **sources** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **required** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **boundaries** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **connections** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **crmClient.js** (32 connections) — `backend/src/services/crmClient.js`
+- **crmFetch()** (12 connections) — `backend/src/services/crmClient.js`
+- **crmConfigured()** (6 connections) — `backend/src/services/crmClient.js`
+- **createDealerContact()** (5 connections) — `backend/src/services/crmClient.js`
+- **updateDealerCodeInCrm()** (5 connections) — `backend/src/services/crmClient.js`
+- **resolveContactNames()** (4 connections) — `backend/src/services/crmClient.js`
+- **deactivateAccountInCrm()** (3 connections) — `backend/src/services/crmClient.js`
+- **deactivateContactInCrm()** (3 connections) — `backend/src/services/crmClient.js`
+- **getDealerAccount()** (3 connections) — `backend/src/services/crmClient.js`
+- **isCrmConfigured()** (3 connections) — `backend/src/services/crmClient.js`
+- **getAccessToken()** (2 connections) — `backend/src/services/crmClient.js`
+- **getDealerContact()** (2 connections) — `backend/src/services/crmClient.js`
+- **getPrimaryContactForAccount()** (2 connections) — `backend/src/services/crmClient.js`
+- **linkContactToBackendUser()** (2 connections) — `backend/src/services/crmClient.js`
+- **FIELDS** (1 connections) — `backend/src/services/crmClient.js`
 
 ## Relationships
 
-- [[Graphify Knowledge Graph Skill]] (5 shared connections)
-- [[Community 79]] (3 shared connections)
+- [[Community 54]] (16 shared connections)
+- [[Community 36]] (4 shared connections)
+- [[Community 84]] (3 shared connections)
+- [[Community 49]] (2 shared connections)
+- [[Community 70]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `backend/src/services/crmClient.js`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (100%)
+- EXTRACTED: 85 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

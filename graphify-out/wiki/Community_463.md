@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **hygiene.md** (1 connections) — `.agents/skills/swiftui-pro/references/hygiene.md`
-- **Hygiene** (1 connections) — `.agents/skills/swiftui-pro/references/hygiene.md`
+- **ci-scope.test.mjs** (1 connections) — `.agents/skills/archify/test/ci-scope.test.mjs`
+- **script** (1 connections) — `.agents/skills/archify/test/ci-scope.test.mjs`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/hygiene.md`
+- `.agents/skills/archify/test/ci-scope.test.mjs`
 
 ## Audit Trail
 

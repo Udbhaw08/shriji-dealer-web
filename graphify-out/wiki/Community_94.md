@@ -26,8 +26,8 @@
 
 ## Relationships
 
-- [[Community 31]] (2 shared connections)
-- [[Community 110]] (1 shared connections)
+- [[Zoho Integration Skill]] (2 shared connections)
+- [[Community 80]] (1 shared connections)
 
 ## Source Files
 

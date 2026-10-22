@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **relationshipWidth** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **height** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- [[Community 72]] (1 shared connections)
+- [[Zoho Integration Skill]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 

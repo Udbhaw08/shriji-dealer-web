@@ -1,55 +1,55 @@
 # Agent Guidelines (AGENTS.md)
 
-> 40 nodes · cohesion 0.11
+> 42 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **Z()** (23 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **ku()** (17 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **xl()** (14 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **mu()** (13 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **gi()** (12 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **Iu()** (10 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **vi()** (10 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **Bu()** (9 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **pu()** (9 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **Sp()** (9 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **bc()** (8 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **fu()** (8 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **jl()** (8 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **Su()** (8 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **bl()** (7 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **wl()** (7 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **Aa()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **Au()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **dn()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **gu()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **Nd()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **nu()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **Du()** (5 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **hu()** (5 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **ju()** (5 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- *... and 15 more nodes in this community*
+- **properties** (30 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **col** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **height** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **brand** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **channelX** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **channelY** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **from** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **labelDx** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **labelDy** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **lane** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **route** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **step** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **sublabel** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **tag** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **to** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **toSide** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **variant** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **yOffset** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **maximum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (45 shared connections)
-- [[Master Codebase Architecture Reference]] (13 shared connections)
-- [[Product Brand & Business Vision]] (12 shared connections)
-- [[Community 35]] (9 shared connections)
-- [[Community 49]] (6 shared connections)
-- [[Architecture Doc Generator]] (5 shared connections)
-- [[Roles & Customer Sharing Spec]] (5 shared connections)
-- [[Community 48]] (4 shared connections)
-- [[Community 112]] (2 shared connections)
+- [[Community 195]] (3 shared connections)
+- [[Community 434]] (1 shared connections)
+- [[Community 457]] (1 shared connections)
+- [[Community 435]] (1 shared connections)
+- [[Community 458]] (1 shared connections)
+- [[Community 436]] (1 shared connections)
+- [[Community 459]] (1 shared connections)
+- [[Community 404]] (1 shared connections)
+- [[Community 405]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 277 (100%)
+- EXTRACTED: 93 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

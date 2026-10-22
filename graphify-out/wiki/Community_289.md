@@ -1,17 +1,16 @@
 # Community 289
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **story-moment-link.test.mjs** (7 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **Entering data** (5 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **entering-data.md** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
 
 ## Relationships
 
@@ -19,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/story-moment-link.test.mjs`
+- `.agents/skills/apple-design/references/hig/entering-data.md`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

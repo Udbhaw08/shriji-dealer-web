@@ -1,59 +1,62 @@
 # Zoho Backend & Proxy Endpoints
 
-> 85 nodes · cohesion 0.04
+> 84 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **_()** (448 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **kf()** (18 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **Cr()** (7 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **E()** (7 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **request()** (7 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **xn()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **eh()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **jf()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **Pr()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **th()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **unavailable()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **wt()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **He()** (4 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **ke()** (4 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **qf()** (4 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **removeWindowListener()** (4 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **ve()** (4 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **xp()** (4 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **ze()** (4 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **addListener()** (3 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **addWindowListener()** (3 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **ah()** (3 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **ch()** (3 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **cs()** (3 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **ft()** (3 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- *... and 60 more nodes in this community*
+- **zoho.js** (44 connections) — `api/zoho.js`
+- **content.js** (19 connections) — `backend/src/services/content.js`
+- **vite.config.js** (19 connections) — `vite.config.js`
+- **fetchZohoProductById()** (15 connections) — `api/zoho.js`
+- **fetchZohoProducts()** (14 connections) — `api/zoho.js`
+- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
+- **fetchZohoWithRetry()** (12 connections) — `api/zoho.js`
+- **getZohoConfig()** (12 connections) — `api/zoho.js`
+- **zohoApiPlugin()** (12 connections) — `vite.config.js`
+- **content.js** (11 connections) — `api/content.js`
+- **content.js** (11 connections) — `backend/src/routes/content.js`
+- **handler()** (10 connections) — `api/content.js`
+- **createDealerContact()** (9 connections) — `api/zoho.js`
+- **getSupabaseBanners()** (9 connections) — `backend/src/services/content.js`
+- **fetchZohoCategories()** (8 connections) — `api/zoho.js`
+- **getSupabaseSchemes()** (8 connections) — `backend/src/services/content.js`
+- **fetchZohoBanners()** (7 connections) — `api/zoho.js`
+- **fetchZohoSchemes()** (7 connections) — `api/zoho.js`
+- **getCategoryVisibilityMap()** (7 connections) — `api/zoho.js`
+- **getDealerById()** (7 connections) — `api/zoho.js`
+- **getSupabaseBranding()** (7 connections) — `backend/src/services/content.js`
+- **fetchAllRawZohoProducts()** (6 connections) — `api/zoho.js`
+- **fetchZohoPricebookItems()** (6 connections) — `api/zoho.js`
+- **getAccessToken()** (6 connections) — `api/zoho.js`
+- **getActiveContent()** (6 connections) — `backend/src/services/content.js`
+- *... and 59 more nodes in this community*
 
 ## Relationships
 
-- [[Product Pages Specification]] (73 shared connections)
-- [[Live Pricing Audit Tool]] (49 shared connections)
-- [[Zoho API Diagnostic Script]] (48 shared connections)
-- [[Vercel Deployment Routing]] (47 shared connections)
-- [[Testing & Workflow Skill]] (42 shared connections)
-- [[Community 53]] (28 shared connections)
-- [[Community 50]] (27 shared connections)
-- [[Community 76]] (26 shared connections)
-- [[Community 115]] (20 shared connections)
-- [[Community 101]] (20 shared connections)
-- [[Community 133]] (18 shared connections)
-- [[Community 311]] (7 shared connections)
+- [[Community 36]] (9 shared connections)
+- [[Community 70]] (2 shared connections)
+- [[Community 49]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BAUTLLuP.js`
+- `api/content.js`
+- `api/dealer/apply.js`
+- `api/dealer/info.js`
+- `api/download.js`
+- `api/og.js`
+- `api/products/[id].js`
+- `api/products/index.js`
+- `api/zoho.js`
+- `backend/src/routes/content.js`
+- `backend/src/services/content.js`
+- `scripts/audit_prices.mjs`
+- `scripts/test-zoho-api.mjs`
+- `vite.config.js`
 
 ## Audit Trail
 
-- EXTRACTED: 674 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 417 (99%)
+- INFERRED: 4 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

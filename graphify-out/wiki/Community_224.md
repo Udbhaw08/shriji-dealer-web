@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Sheets** (6 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **sheets.md** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **web-DxwUOOfO.js** (8 connections) — `ios/App/App/public/assets/web-DxwUOOfO.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-DxwUOOfO.js`
+- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-DxwUOOfO.js`
+- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-DxwUOOfO.js`
+- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-DxwUOOfO.js`
+- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-DxwUOOfO.js`
+- **getState()** (1 connections) — `ios/App/App/public/assets/web-DxwUOOfO.js`
+- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-DxwUOOfO.js`
+- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-DxwUOOfO.js`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/sheets.md`
+- `ios/App/App/public/assets/web-DxwUOOfO.js`
 
 ## Audit Trail
 

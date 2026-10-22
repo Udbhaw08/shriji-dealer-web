@@ -1,66 +1,56 @@
 # Community 40
 
-> 33 nodes · cohesion 0.14
+> 34 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **sql** (65 connections) — `backend/src/db/pool.js`
-- **dealers.js** (36 connections) — `backend/src/routes/dealers.js`
-- **staff.js** (23 connections) — `backend/src/services/staff.js`
-- **audit()** (17 connections) — `backend/src/utils/audit.js`
-- **auth.js** (8 connections) — `backend/src/middleware/auth.js`
-- **applyDealer()** (6 connections) — `backend/src/services/dealerApp.js`
-- **createInvite()** (6 connections) — `backend/src/services/staff.js`
-- **sha256()** (6 connections) — `backend/src/utils/hash.js`
-- **jwtAuth()** (5 connections) — `backend/src/middleware/auth.js`
-- **seed-content.js** (4 connections) — `backend/scripts/seed-content.js`
-- **deactivateDealer()** (4 connections) — `backend/src/services/dealerApp.js`
-- **approveStaff()** (4 connections) — `backend/src/services/staff.js`
-- **deleteStaff()** (4 connections) — `backend/src/services/staff.js`
-- **holdStaff()** (4 connections) — `backend/src/services/staff.js`
-- **resumeStaff()** (4 connections) — `backend/src/services/staff.js`
-- **revokeStaff()** (4 connections) — `backend/src/services/staff.js`
-- **toggleAllStaffPrice()** (4 connections) — `backend/src/services/staff.js`
-- **toggleStaffPrice()** (4 connections) — `backend/src/services/staff.js`
-- **requireApprovedDealer()** (3 connections) — `backend/src/middleware/auth.js`
-- **inspect-db.js** (3 connections) — `backend/scripts/inspect-db.js`
-- **setup-buckets.js** (3 connections) — `backend/scripts/setup-buckets.js`
-- **setup-policies.js** (3 connections) — `backend/scripts/setup-policies.js`
-- **consumeInvite()** (3 connections) — `backend/src/services/staff.js`
-- **generateInviteCode()** (3 connections) — `backend/src/services/staff.js`
-- **check()** (2 connections) — `backend/scripts/check-readiness.js`
-- *... and 8 more nodes in this community*
+- **i()** (66 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **n()** (26 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **t()** (20 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **is()** (12 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **ya()** (10 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **as()** (9 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **os()** (8 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **ec()** (7 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **xo()** (7 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **ba()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **ds()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **ps()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **qs()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **us()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **ys()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **bs()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **Qo()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **Zo()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **fs()** (4 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **ms()** (4 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **Qa()** (4 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **rs()** (4 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **va()** (4 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **eo()** (3 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **Qe()** (3 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [[Community 33]] (16 shared connections)
-- [[Community 97]] (14 shared connections)
-- [[Community 77]] (14 shared connections)
-- [[Community 350]] (14 shared connections)
-- [[Community 81]] (11 shared connections)
-- [[Price Presentation & Product UI]] (9 shared connections)
-- [[Community 51]] (8 shared connections)
-- [[Community 139]] (4 shared connections)
+- [[Dealer Auth & Session Management]] (50 shared connections)
+- [[Design System & UI Tokens]] (30 shared connections)
+- [[Product Brand & Business Vision]] (18 shared connections)
+- [[Roles & Customer Sharing Spec]] (10 shared connections)
+- [[Community 50]] (9 shared connections)
+- [[Testing & Workflow Skill]] (9 shared connections)
+- [[Community 34]] (7 shared connections)
+- [[Pricing & Roles Skill]] (3 shared connections)
+- [[Community 110]] (3 shared connections)
 
 ## Source Files
 
-- `backend/scripts/check-readiness.js`
-- `backend/scripts/inspect-db.js`
-- `backend/scripts/seed-content.js`
-- `backend/scripts/setup-buckets.js`
-- `backend/scripts/setup-policies.js`
-- `backend/src/db/pool.js`
-- `backend/src/middleware/auth.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/services/dealerApp.js`
-- `backend/src/services/staff.js`
-- `backend/src/utils/audit.js`
-- `backend/src/utils/hash.js`
+- `android/app/src/main/assets/public/assets/index-FPrq849U.js`
 
 ## Audit Trail
 
-- EXTRACTED: 237 (99%)
-- INFERRED: 3 (1%)
+- EXTRACTED: 265 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

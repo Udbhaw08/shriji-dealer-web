@@ -1,13 +1,12 @@
 # Community 425
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **proof-aperture.test.mjs** (3 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
-- **cssRule()** (1 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
-- **landing** (1 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
+- **Swift** (2 connections) — `.agents/skills/swiftui-pro/references/swift.md`
+- **swift.md** (1 connections) — `.agents/skills/swiftui-pro/references/swift.md`
+- **Swift Concurrency** (1 connections) — `.agents/skills/swiftui-pro/references/swift.md`
 
 ## Relationships
 
@@ -15,11 +14,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/proof-aperture.test.mjs`
+- `.agents/skills/swiftui-pro/references/swift.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

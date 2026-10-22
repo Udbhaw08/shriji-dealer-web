@@ -1,58 +1,55 @@
 # Vercel Deployment Routing
 
-> 40 nodes · cohesion 0.10
+> 40 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **O()** (20 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **dt()** (19 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **yt()** (14 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **M()** (12 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **k()** (11 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **ln()** (11 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **rf()** (11 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **df()** (10 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **mt()** (10 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **Rt()** (10 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **ff()** (8 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **ut()** (8 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **bt()** (7 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **ht()** (7 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **It()** (7 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **lt()** (7 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **mn()** (7 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **Rd()** (7 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **st()** (7 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **af()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **Jt()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **nf()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **Id()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **ie()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **lf()** (5 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
+- **Z()** (23 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **ku()** (17 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **xl()** (14 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **mu()** (13 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **gi()** (12 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **Iu()** (10 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **vi()** (10 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **Bu()** (9 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **pu()** (9 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **Sp()** (9 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **bc()** (8 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **fu()** (8 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **jl()** (8 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **Su()** (8 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **bl()** (7 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **wl()** (7 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **Aa()** (6 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **Au()** (6 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **dn()** (6 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **gu()** (6 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **Nd()** (6 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **nu()** (6 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **Du()** (5 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **hu()** (5 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **ju()** (5 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
 - *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (47 shared connections)
-- [[Community 53]] (12 shared connections)
-- [[Product Pages Specification]] (12 shared connections)
-- [[Live Pricing Audit Tool]] (11 shared connections)
-- [[Community 115]] (9 shared connections)
-- [[Zoho API Diagnostic Script]] (8 shared connections)
-- [[Community 133]] (7 shared connections)
-- [[Community 101]] (6 shared connections)
-- [[Community 50]] (4 shared connections)
-- [[Testing & Workflow Skill]] (4 shared connections)
-- [[Community 76]] (3 shared connections)
-- [[Community 311]] (1 shared connections)
+- [[Price Presentation & Product UI]] (43 shared connections)
+- [[Product Requirements Documentation]] (13 shared connections)
+- [[Live Pricing Audit Tool]] (12 shared connections)
+- [[Community 42]] (9 shared connections)
+- [[Mobile Responsive UI Skill]] (8 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (5 shared connections)
+- [[Community 37]] (5 shared connections)
+- [[Community 53]] (4 shared connections)
+- [[Community 113]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BAUTLLuP.js`
+- `ios/App/App/public/assets/index-FPrq849U.js`
 
 ## Audit Trail
 
-- EXTRACTED: 276 (100%)
+- EXTRACTED: 277 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

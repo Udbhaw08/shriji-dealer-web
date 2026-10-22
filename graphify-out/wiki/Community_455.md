@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **esm-6RMIkgXF.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-6RMIkgXF.js`
-- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-6RMIkgXF.js`
+- **localization.md** (1 connections) — `.agents/skills/swiftui-pro/references/localization.md`
+- **Localization** (1 connections) — `.agents/skills/swiftui-pro/references/localization.md`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/esm-6RMIkgXF.js`
+- `.agents/skills/swiftui-pro/references/localization.md`
 
 ## Audit Trail
 

@@ -1,8 +1,8 @@
 # sql
 
-> God node · 65 connections · `backend/src/db/pool.js`
+> God node · 67 connections · `backend/src/db/pool.js`
 
-**Community:** [[Community 40]]
+**Community:** [[Community 36]]
 
 ## Connections by Relation
 
@@ -48,10 +48,10 @@
 - [[health.js]] `EXTRACTED`
 - [[audit.js]] `EXTRACTED`
 - [[migrate.js]] `EXTRACTED`
+- [[sync-supabase-content.js]] `EXTRACTED`
 - [[upload.js]] `EXTRACTED`
 - [[upload.js]] `EXTRACTED`
 - [[uploads.js]] `EXTRACTED`
-- [[seed-content.js]] `EXTRACTED`
 
 ---
 

@@ -4,19 +4,19 @@
 
 ## Key Concepts
 
-- **7. Vertical Rhythm** (5 connections) — `.agents/skills/refero-design/references/typography.md`
-- **CSS Implementation** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Example** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Golden Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **The Simple Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **ErrorBoundary** (5 connections) — `src/main.jsx`
+- **.componentDidCatch()** (1 connections) — `src/main.jsx`
+- **.constructor()** (1 connections) — `src/main.jsx`
+- **.getDerivedStateFromError()** (1 connections) — `src/main.jsx`
+- **.render()** (1 connections) — `src/main.jsx`
 
 ## Relationships
 
-- [[Community 230]] (1 shared connections)
+- [[Zoho Integration Architecture]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `src/main.jsx`
 
 ## Audit Trail
 

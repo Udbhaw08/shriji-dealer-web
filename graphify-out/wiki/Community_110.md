@@ -1,41 +1,44 @@
 # Community 110
 
-> 17 nodes · cohesion 0.12
+> 16 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **properties** (12 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **meta** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **lanes** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **nodes** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **cards** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **schema_version** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **rn()** (13 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **wn()** (12 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **ip()** (10 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **cn()** (8 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **hn()** (8 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **U()** (8 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **vn()** (7 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **Zt()** (7 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **an()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **un()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **en()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **ml()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **on()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **ep()** (3 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **gn()** (3 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **sn()** (3 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
 
 ## Relationships
 
-- [[Community 137]] (5 shared connections)
-- [[Community 59]] (2 shared connections)
-- [[Community 94]] (1 shared connections)
-- [[Community 68]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (17 shared connections)
+- [[Product Brand & Business Vision]] (12 shared connections)
+- [[Roles & Customer Sharing Spec]] (9 shared connections)
+- [[Pricing & Roles Skill]] (5 shared connections)
+- [[Community 34]] (4 shared connections)
+- [[Community 40]] (3 shared connections)
+- [[Design System & UI Tokens]] (3 shared connections)
+- [[Testing & Workflow Skill]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `android/app/src/main/assets/public/assets/index-FPrq849U.js`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (100%)
+- EXTRACTED: 109 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

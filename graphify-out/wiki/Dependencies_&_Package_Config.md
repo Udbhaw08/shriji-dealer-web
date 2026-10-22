@@ -1,60 +1,67 @@
 # Dependencies & Package Config
 
-> 73 nodes · cohesion 0.08
+> 75 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **session.js** (46 connections) — `src/data/session.js`
-- **auth.js** (40 connections) — `src/data/auth.js`
-- **Login.jsx** (40 connections) — `src/pages/Login.jsx`
-- **callBackend()** (24 connections) — `src/data/auth.js`
-- **json()** (24 connections) — `src/data/auth.js`
-- **DealerDashboard.jsx** (23 connections) — `src/pages/DealerDashboard.jsx`
-- **apiFetch()** (16 connections) — `src/data/api.js`
-- **api.js** (11 connections) — `src/data/api.js`
-- **EmailVerificationPrompt.jsx** (10 connections) — `src/components/EmailVerificationPrompt.jsx`
-- **broadcastAuthChange()** (10 connections) — `src/data/auth.js`
-- **setSession()** (10 connections) — `src/data/session.js`
-- **apiUrl()** (9 connections) — `src/data/api.js`
-- **revalidateSession()** (9 connections) — `src/data/session.js`
-- **loginCode.js** (8 connections) — `src/data/loginCode.js`
-- **registerDealer()** (7 connections) — `src/data/dealer.js`
-- **validators.js** (7 connections) — `src/data/validators.js`
-- **applyAuthResponse()** (6 connections) — `src/data/auth.js`
-- **logout()** (6 connections) — `src/data/auth.js`
-- **fetchMe()** (5 connections) — `src/data/auth.js`
-- **googleLogin()** (5 connections) — `src/data/auth.js`
-- **login()** (5 connections) — `src/data/auth.js`
-- **signup()** (5 connections) — `src/data/auth.js`
-- **staffTogglePrice()** (5 connections) — `src/data/auth.js`
-- **staffTogglePriceAll()** (5 connections) — `src/data/auth.js`
-- **verifyEmailOtp()** (5 connections) — `src/data/auth.js`
-- *... and 48 more nodes in this community*
+- **render-lifecycle.mjs** (81 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **render-sequence.mjs** (67 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **esc()** (31 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **escapeHtml()** (26 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **translateMessage()** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **animateAttr()** (16 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **focusEdgeAttrs()** (15 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **renderBrandMark()** (14 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **renderNode()** (13 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderState()** (13 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **focusNodeAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **svgAccessibleText()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **renderSemanticSigil()** (13 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **renderComponent()** (12 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **renderParticipant()** (12 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **brandLabelFitWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **brandMetadataFor()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **focusNodeTitle()** (12 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **routePointsValue()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **fittedNodeFontSize()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- **variantAccent()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **renderConnectionLabel()** (8 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **renderFlowLabel()** (8 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **pathFor()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderSvg()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- *... and 50 more nodes in this community*
 
 ## Relationships
 
-- [[Product Requirements Documentation]] (29 shared connections)
-- [[Community 37]] (13 shared connections)
-- [[Community 47]] (10 shared connections)
-- [[Community 106]] (4 shared connections)
-- [[Community 169]] (1 shared connections)
+- [[Master Codebase Architecture Reference]] (78 shared connections)
+- [[Community 35]] (40 shared connections)
+- [[Community 55]] (31 shared connections)
+- [[Client Products Data Store]] (26 shared connections)
+- [[Pricing Regression Test Suite]] (16 shared connections)
+- [[Community 126]] (13 shared connections)
+- [[Graphify Workflow]] (8 shared connections)
+- [[Community 60]] (5 shared connections)
+- [[Community 82]] (2 shared connections)
+- [[Community 127]] (1 shared connections)
 
 ## Source Files
 
-- `src/components/EmailVerificationPrompt.jsx`
-- `src/data/api.js`
-- `src/data/auth.js`
-- `src/data/dealer.js`
-- `src/data/loginCode.js`
-- `src/data/session.js`
-- `src/data/validators.js`
-- `src/pages/DealerDashboard.jsx`
-- `src/pages/Login.jsx`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- `.agents/skills/archify/renderers/shared/cli.mjs`
+- `.agents/skills/archify/renderers/shared/geometry.mjs`
+- `.agents/skills/archify/renderers/shared/i18n.mjs`
+- `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 471 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 552 (93%)
+- INFERRED: 44 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

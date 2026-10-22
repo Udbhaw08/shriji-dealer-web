@@ -1,43 +1,41 @@
 # Community 111
 
-> 17 nodes · cohesion 0.23
+> 16 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **checkForUpdate()** (19 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **commitOperation()** (14 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **acknowledgeUpdate()** (13 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cancelOperation()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **resultForCandidate()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **silent()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **resultAfterLosingOperation()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **readJsonFile()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **transitionOperation()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationOwnsActiveClaim()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **runCli()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **freshStateResult()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **versionCacheDirectory()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertBoundedRegularFile()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **digestForEventKey()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **fetchCandidate()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **waitUntilRetry()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **compareArchitecture()** (12 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **fail()** (8 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **canonicalArchitecture()** (5 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryIndex()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **canonicalArchitectureJson()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **equal()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **normalizeRepository()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **canonical()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **extractArchitectureSvg()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **extractArtifactCss()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **presentationChanged()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **requireComparableShape()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **stableIndex()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryKey()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **sortedBy()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **summaryFor()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Relationships
 
-- [[Community 43]] (19 shared connections)
-- [[Community 103]] (12 shared connections)
-- [[Community 95]] (7 shared connections)
-- [[Community 60]] (3 shared connections)
-- [[Community 34]] (2 shared connections)
+- [[Community 60]] (18 shared connections)
+- [[Community 51]] (4 shared connections)
+- [[Community 140]] (2 shared connections)
+- [[Community 161]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-update.mjs`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 105 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 61 (94%)
+- INFERRED: 4 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

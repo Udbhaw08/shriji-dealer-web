@@ -1,55 +1,55 @@
 # Product Brand & Business Vision
 
-> 50 nodes · cohesion 0.08
+> 53 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **D()** (28 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **np()** (21 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **.addEventListener()** (19 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **b()** (18 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **h()** (14 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **bm()** (13 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **fp()** (13 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **.removeEventListener()** (12 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **delete()** (11 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **tp()** (11 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **am()** (10 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **mm()** (9 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **cm()** (7 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **E()** (7 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **jm()** (7 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **lp()** (7 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **tm()** (7 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **zm()** (7 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **ef()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **em()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **.blur()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **.scrollIntoView()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **nm()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **v()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **g()** (5 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- *... and 25 more nodes in this community*
+- **D()** (28 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **np()** (21 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **.addEventListener()** (19 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **b()** (18 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **h()** (14 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **bm()** (13 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **fp()** (13 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **.removeEventListener()** (12 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **delete()** (11 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **tp()** (11 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **am()** (10 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **mm()** (9 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **cm()** (7 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **E()** (7 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **jm()** (7 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **lp()** (7 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **tm()** (7 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **zm()** (7 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **ef()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **em()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **.blur()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **.scrollIntoView()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **gf()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **nm()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **v()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- *... and 28 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (53 shared connections)
-- [[Master Codebase Architecture Reference]] (21 shared connections)
-- [[Roles & Customer Sharing Spec]] (19 shared connections)
-- [[Community 35]] (19 shared connections)
-- [[Community 112]] (12 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (12 shared connections)
-- [[Community 48]] (9 shared connections)
-- [[Architecture Doc Generator]] (5 shared connections)
-- [[Community 49]] (4 shared connections)
+- [[Dealer Auth & Session Management]] (58 shared connections)
+- [[Roles & Customer Sharing Spec]] (20 shared connections)
+- [[Design System & UI Tokens]] (19 shared connections)
+- [[Community 40]] (18 shared connections)
+- [[Community 110]] (12 shared connections)
+- [[Testing & Workflow Skill]] (12 shared connections)
+- [[Community 34]] (11 shared connections)
+- [[Pricing & Roles Skill]] (6 shared connections)
+- [[Community 50]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- `android/app/src/main/assets/public/assets/index-FPrq849U.js`
 
 ## Audit Trail
 
-- EXTRACTED: 352 (100%)
+- EXTRACTED: 364 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

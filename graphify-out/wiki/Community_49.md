@@ -1,55 +1,63 @@
 # Community 49
 
-> 27 nodes · cohesion 0.12
+> 28 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **qd()** (14 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **Yd()** (13 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **Fd()** (12 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **Vd()** (12 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **rf()** (11 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **df()** (10 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **ff()** (8 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **ct()** (7 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **Bd()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **Ci()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **nf()** (6 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **Hd()** (5 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **Id()** (5 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **lf()** (5 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **ns()** (5 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **pl()** (5 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **fl()** (4 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **uf()** (4 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **Gd()** (3 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **hf()** (3 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **Pi()** (3 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **Ud()** (3 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **Wd()** (3 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- **Ym()** (3 connections) — `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
-- *... and 2 more nodes in this community*
+- **server.js** (37 connections) — `backend/src/server.js`
+- **health.js** (8 connections) — `backend/src/routes/health.js`
+- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
+- **upload.js** (5 connections) — `backend/src/routes/upload.js`
+- **uploads.js** (5 connections) — `backend/src/routes/uploads.js`
+- **migrate()** (4 connections) — `backend/src/db/migrate.js`
+- **rateLimit.js** (4 connections) — `backend/src/middleware/rateLimit.js`
+- **applied()** (3 connections) — `backend/src/db/migrate.js`
+- **startJobs()** (3 connections) — `backend/src/jobs/index.js`
+- **rateLimit()** (3 connections) — `backend/src/middleware/rateLimit.js`
+- **start()** (3 connections) — `backend/src/server.js`
+- **authRouter** (2 connections) — `backend/src/routes/auth.js`
+- **contentRouter** (2 connections) — `backend/src/routes/content.js`
+- **dealersRouter** (2 connections) — `backend/src/routes/dealers.js`
+- **healthRouter** (2 connections) — `backend/src/routes/health.js`
+- **uploadRouter** (2 connections) — `backend/src/routes/upload.js`
+- **uploadsRouter** (2 connections) — `backend/src/routes/uploads.js`
+- **webhooksRouter** (2 connections) — `backend/src/routes/webhooks.js`
+- **dir** (1 connections) — `backend/src/db/migrate.js`
+- **buckets** (1 connections) — `backend/src/middleware/rateLimit.js`
+- **ALLOWED_FOLDERS** (1 connections) — `backend/src/routes/upload.js`
+- **MIME_TYPES** (1 connections) — `backend/src/routes/uploads.js`
+- **allowedOrigins** (1 connections) — `backend/src/server.js`
+- **app** (1 connections) — `backend/src/server.js`
+- **defaultOrigins** (1 connections) — `backend/src/server.js`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (32 shared connections)
-- [[Roles & Customer Sharing Spec]] (10 shared connections)
-- [[Master Codebase Architecture Reference]] (8 shared connections)
-- [[Community 35]] (7 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (6 shared connections)
-- [[Community 48]] (5 shared connections)
-- [[Architecture Doc Generator]] (5 shared connections)
-- [[Product Brand & Business Vision]] (4 shared connections)
-- [[Community 112]] (1 shared connections)
+- [[Community 36]] (10 shared connections)
+- [[Community 70]] (7 shared connections)
+- [[Community 84]] (6 shared connections)
+- [[Community 54]] (6 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (2 shared connections)
+- [[Community 137]] (2 shared connections)
+- [[Community 125]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BAUTLLuP.js`
+- `backend/src/db/migrate.js`
+- `backend/src/jobs/index.js`
+- `backend/src/middleware/rateLimit.js`
+- `backend/src/routes/auth.js`
+- `backend/src/routes/content.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/routes/health.js`
+- `backend/src/routes/upload.js`
+- `backend/src/routes/uploads.js`
+- `backend/src/routes/webhooks.js`
+- `backend/src/server.js`
 
 ## Audit Trail
 
-- EXTRACTED: 164 (100%)
+- EXTRACTED: 105 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

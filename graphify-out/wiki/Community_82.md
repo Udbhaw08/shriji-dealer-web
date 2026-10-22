@@ -27,9 +27,9 @@
 
 ## Relationships
 
-- [[Community 58]] (20 shared connections)
-- [[Community 121]] (2 shared connections)
-- [[Client Products Data Store]] (2 shared connections)
+- [[Community 60]] (20 shared connections)
+- [[Community 51]] (2 shared connections)
+- [[Dependencies & Package Config]] (2 shared connections)
 
 ## Source Files
 

@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Column views** (4 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
-- **column-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
+- **Image wells** (4 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
+- **image-wells.md** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/column-views.md`
+- `.agents/skills/apple-design/references/hig/image-wells.md`
 
 ## Audit Trail
 

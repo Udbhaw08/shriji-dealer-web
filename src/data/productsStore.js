@@ -2,7 +2,7 @@ import { useSyncExternalStore } from "react";
 import { CATEGORIES as INITIAL_CATEGORIES } from "./products";
 import { apiFetch, apiUrl } from "./api";
 
-const CACHE_KEY_PREFIX = "shriji.zoho.products.v4";
+const CACHE_KEY_PREFIX = "shriji.zoho.products.v5";
 
 function getCacheKey(pbId) {
   return pbId ? `${CACHE_KEY_PREFIX}:${pbId}` : `${CACHE_KEY_PREFIX}:default`;

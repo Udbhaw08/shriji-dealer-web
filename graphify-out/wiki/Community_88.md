@@ -1,40 +1,45 @@
 # Community 88
 
-> 19 nodes · cohesion 0.11
+> 20 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Apple Design Skill** (7 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Step 3: Audit through five lenses, in this order** (6 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Review process** (5 connections) — `.agents/skills/apple-design/SKILL.md`
-- **The references** (3 connections) — `.agents/skills/apple-design/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Always load** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Apple's design principles** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Design improvement mode** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 1: Accessibility (failures are Critical)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 2: Platform conventions (failures are usually High)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 3: Visual design and craft (findings are High or Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 4: Interaction (findings are usually Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 5: Content and writing (findings are usually Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Load by what is on screen** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Specialized review modes** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Step 1: Establish context** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Step 2: Load references** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Step 4: Write the report** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Working rules** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **hash.js** (18 connections) — `backend/src/utils/hash.js`
+- **loginCode.js** (15 connections) — `backend/src/utils/loginCode.js`
+- **generateLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
+- **hash.test.mjs** (7 connections) — `backend/test/hash.test.mjs`
+- **loginCode.test.mjs** (7 connections) — `backend/test/loginCode.test.mjs`
+- **formatLoginCode()** (7 connections) — `backend/src/utils/loginCode.js`
+- **hashPassword()** (4 connections) — `backend/src/utils/hash.js`
+- **verifyPassword()** (4 connections) — `backend/src/utils/hash.js`
+- **isValidLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
+- **parseLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
+- **generateOtp()** (3 connections) — `backend/src/utils/hash.js`
+- **scryptKey()** (3 connections) — `backend/src/utils/hash.js`
+- **USER_CATEGORIES** (3 connections) — `backend/src/utils/loginCode.js`
+- **generateCode()** (2 connections) — `backend/src/utils/hash.js`
+- **randomToken()** (2 connections) — `backend/src/utils/hash.js`
+- **generateRandomDigits()** (2 connections) — `backend/src/utils/loginCode.js`
+- **generateRandomLetters()** (2 connections) — `backend/src/utils/loginCode.js`
+- **GST_TREATMENT_OPTIONS** (2 connections) — `backend/src/utils/loginCode.js`
+- **SCRYPT** (1 connections) — `backend/src/utils/hash.js`
+- **PREFIX_MAP** (1 connections) — `backend/src/utils/loginCode.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 36]] (11 shared connections)
+- [[Community 54]] (6 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/SKILL.md`
+- `backend/src/utils/hash.js`
+- `backend/src/utils/loginCode.js`
+- `backend/test/hash.test.mjs`
+- `backend/test/loginCode.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (100%)
+- EXTRACTED: 99 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

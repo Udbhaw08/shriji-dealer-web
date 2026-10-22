@@ -1,49 +1,55 @@
 # Community 34
 
-> 38 nodes · cohesion 0.07
+> 37 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **update-notifier.test.mjs** (43 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **operationPath()** (5 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **stateDirectory()** (4 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **fixture()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **remoteReleaseForVersion()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **runCheckInChild()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **statePath()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **writeCompactCommittedState()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **assertUnsafeCacheStateIsIgnored()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **committedStateFiles()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **compactStateSource()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **localRelease()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **pauseOpenOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **pauseRenameMatchingOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **pauseRenameOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **pauseWriteOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **remoteRelease()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **writeJson()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **writePendingOperation()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **baseTime** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **cachedStateWithHistory()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **cachedUpdateState()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **cancel()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **candidateStateForDigest()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **checkerPath** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- *... and 13 more nodes in this community*
+- **l()** (30 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **qd()** (14 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **be()** (13 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **Yd()** (13 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **yl()** (13 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **Fd()** (12 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **Vd()** (12 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **Oe()** (11 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **vl()** (10 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **ct()** (7 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **Bd()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **Ci()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **ga()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **Do()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **ea()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **Hd()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **Lo()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **ns()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **pl()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **ae()** (4 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **fl()** (4 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **ge()** (4 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **ke()** (4 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **ua()** (4 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **ve()** (4 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [[Community 60]] (3 shared connections)
-- [[Community 111]] (2 shared connections)
-- [[Community 43]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (40 shared connections)
+- [[Roles & Customer Sharing Spec]] (16 shared connections)
+- [[Design System & UI Tokens]] (12 shared connections)
+- [[Product Brand & Business Vision]] (11 shared connections)
+- [[Community 40]] (7 shared connections)
+- [[Testing & Workflow Skill]] (5 shared connections)
+- [[Community 50]] (4 shared connections)
+- [[Pricing & Roles Skill]] (4 shared connections)
+- [[Community 110]] (4 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/update-notifier.test.mjs`
+- `android/app/src/main/assets/public/assets/index-FPrq849U.js`
 
 ## Audit Trail
 
-- EXTRACTED: 108 (100%)
+- EXTRACTED: 239 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

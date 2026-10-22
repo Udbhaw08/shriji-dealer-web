@@ -1,36 +1,33 @@
 # Community 149
 
-> 13 nodes · cohesion 0.21
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **semantic-radar.test.mjs** (15 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **evaluate()** (5 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **dragMouse()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **loadArtifact()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **observe()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **radarRects()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **overlaps()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **Apple Pencil and Scribble** (11 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **apple-pencil-and-scribble.md** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Barrel roll** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Custom drawing** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Double tap** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Hover** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Scribble** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Squeeze** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
 
 ## Relationships
 
-- [[Community 42]] (1 shared connections)
-- [[Community 151]] (1 shared connections)
-- [[Community 129]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/semantic-radar.test.mjs`
+- `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

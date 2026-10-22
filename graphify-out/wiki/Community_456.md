@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **README.md** (1 connections) — `.agents/skills/archify/brand-marks/README.md`
-- **Built-in brand marks** (1 connections) — `.agents/skills/archify/brand-marks/README.md`
+- **performance-plus.md** (1 connections) — `.agents/skills/swiftui-pro/references/performance-plus.md`
+- **Deeper performance work** (1 connections) — `.agents/skills/swiftui-pro/references/performance-plus.md`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/brand-marks/README.md`
+- `.agents/skills/swiftui-pro/references/performance-plus.md`
 
 ## Audit Trail
 

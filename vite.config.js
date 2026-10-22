@@ -242,7 +242,7 @@ function zohoApiPlugin() {
             const pricebookId = urlObj.searchParams.get('pricebook_id') || '3334672000000547177';
             const [products, categories] = await Promise.all([
               fetchZohoProducts({ refresh, pricebookId }),
-              fetchZohoCategories(),
+              fetchZohoCategories({ refresh }),
             ]);
             res.statusCode = 200;
             res.setHeader('Content-Type', 'application/json');

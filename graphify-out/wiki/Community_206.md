@@ -1,33 +1,30 @@
 # Community 206
 
-> 10 nodes · cohesion 0.20
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **output-path.test.mjs** (16 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **baseFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **copyInstalledSkill()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **directoryAliasesNames()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **headFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **workflowFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **web-DxwUOOfO.js** (8 connections) — `android/app/src/main/assets/public/assets/web-DxwUOOfO.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-DxwUOOfO.js`
+- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-DxwUOOfO.js`
+- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-DxwUOOfO.js`
+- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-DxwUOOfO.js`
+- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-DxwUOOfO.js`
+- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-DxwUOOfO.js`
+- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-DxwUOOfO.js`
+- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-DxwUOOfO.js`
 
 ## Relationships
 
-- [[Design System & UI Tokens]] (3 shared connections)
-- [[Community 70]] (2 shared connections)
-- [[Community 104]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/output-path.test.mjs`
+- `android/app/src/main/assets/public/assets/web-DxwUOOfO.js`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

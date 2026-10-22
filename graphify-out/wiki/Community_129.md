@@ -21,18 +21,18 @@
 
 ## Relationships
 
-- [[Community 61]] (7 shared connections)
-- [[Community 42]] (5 shared connections)
-- [[Community 89]] (2 shared connections)
-- [[Community 62]] (2 shared connections)
-- [[Community 151]] (2 shared connections)
-- [[Community 165]] (1 shared connections)
-- [[Community 147]] (1 shared connections)
-- [[Community 148]] (1 shared connections)
-- [[Design System & UI Tokens]] (1 shared connections)
-- [[Community 84]] (1 shared connections)
-- [[Community 182]] (1 shared connections)
-- [[Community 245]] (1 shared connections)
+- [[Community 52]] (7 shared connections)
+- [[Community 44]] (6 shared connections)
+- [[Community 90]] (2 shared connections)
+- [[Community 63]] (2 shared connections)
+- [[Community 81]] (2 shared connections)
+- [[Community 144]] (1 shared connections)
+- [[Community 145]] (1 shared connections)
+- [[Community 127]] (1 shared connections)
+- [[Community 30]] (1 shared connections)
+- [[Community 178]] (1 shared connections)
+- [[Community 240]] (1 shared connections)
+- [[Community 146]] (1 shared connections)
 
 ## Source Files
 

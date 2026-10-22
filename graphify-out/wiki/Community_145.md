@@ -1,34 +1,37 @@
 # Community 145
 
-> 13 nodes · cohesion 0.15
+> 13 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **Toolbars** (9 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Platform considerations** (4 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **toolbars.md** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Actions** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Item groupings** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Navigation** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Titles** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **guided-views-browser.test.mjs** (17 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **run()** (8 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **settled()** (4 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **activate()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **hash()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **variant()** (1 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 52]] (5 shared connections)
+- [[Community 63]] (3 shared connections)
+- [[Community 44]] (1 shared connections)
+- [[Community 129]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/toolbars.md`
+- `.agents/skills/archify/test/guided-views-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
+- EXTRACTED: 54 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

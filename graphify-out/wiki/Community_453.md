@@ -1,12 +1,11 @@
 # Community 453
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **repository-language-metadata.test.mjs** (2 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
-- **linguistGenerated()** (1 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
+- **accessibility.md** (1 connections) — `.agents/skills/swiftui-pro/references/accessibility.md`
+- **Accessibility** (1 connections) — `.agents/skills/swiftui-pro/references/accessibility.md`
 
 ## Relationships
 
@@ -14,11 +13,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/repository-language-metadata.test.mjs`
+- `.agents/skills/swiftui-pro/references/accessibility.md`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

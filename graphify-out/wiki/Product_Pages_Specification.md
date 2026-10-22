@@ -1,58 +1,59 @@
 # Product Pages Specification
 
-> 71 nodes · cohesion 0.06
+> 73 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **i()** (66 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **ul()** (37 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **gc()** (16 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **el()** (15 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **vc()** (15 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **sl()** (13 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **lm()** (12 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **oa()** (12 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **wc()** (12 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **ca()** (11 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **ji()** (11 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **ll()** (11 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **Mc()** (10 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **xc()** (10 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **ya()** (10 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **kc()** (9 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **Ni()** (8 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **Pc()** (8 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **uc()** (8 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **cl()** (7 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **nc()** (7 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **xa()** (7 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **xo()** (7 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **ba()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- **da()** (6 connections) — `ios/App/App/public/assets/index-BAUTLLuP.js`
-- *... and 46 more nodes in this community*
+- **session.js** (46 connections) — `src/data/session.js`
+- **auth.js** (40 connections) — `src/data/auth.js`
+- **Login.jsx** (40 connections) — `src/pages/Login.jsx`
+- **callBackend()** (24 connections) — `src/data/auth.js`
+- **json()** (24 connections) — `src/data/auth.js`
+- **DealerDashboard.jsx** (23 connections) — `src/pages/DealerDashboard.jsx`
+- **apiFetch()** (16 connections) — `src/data/api.js`
+- **api.js** (11 connections) — `src/data/api.js`
+- **EmailVerificationPrompt.jsx** (10 connections) — `src/components/EmailVerificationPrompt.jsx`
+- **broadcastAuthChange()** (10 connections) — `src/data/auth.js`
+- **setSession()** (10 connections) — `src/data/session.js`
+- **apiUrl()** (9 connections) — `src/data/api.js`
+- **revalidateSession()** (9 connections) — `src/data/session.js`
+- **loginCode.js** (8 connections) — `src/data/loginCode.js`
+- **registerDealer()** (7 connections) — `src/data/dealer.js`
+- **validators.js** (7 connections) — `src/data/validators.js`
+- **applyAuthResponse()** (6 connections) — `src/data/auth.js`
+- **logout()** (6 connections) — `src/data/auth.js`
+- **fetchMe()** (5 connections) — `src/data/auth.js`
+- **googleLogin()** (5 connections) — `src/data/auth.js`
+- **login()** (5 connections) — `src/data/auth.js`
+- **signup()** (5 connections) — `src/data/auth.js`
+- **staffTogglePrice()** (5 connections) — `src/data/auth.js`
+- **staffTogglePriceAll()** (5 connections) — `src/data/auth.js`
+- **verifyEmailOtp()** (5 connections) — `src/data/auth.js`
+- *... and 48 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (73 shared connections)
-- [[Live Pricing Audit Tool]] (28 shared connections)
-- [[Zoho API Diagnostic Script]] (25 shared connections)
-- [[Testing & Workflow Skill]] (18 shared connections)
-- [[Community 50]] (13 shared connections)
-- [[Vercel Deployment Routing]] (12 shared connections)
-- [[Community 101]] (9 shared connections)
-- [[Community 53]] (8 shared connections)
-- [[Community 311]] (5 shared connections)
-- [[Community 76]] (5 shared connections)
-- [[Community 115]] (5 shared connections)
-- [[Community 133]] (4 shared connections)
+- [[Zoho Integration Architecture]] (29 shared connections)
+- [[Community 38]] (13 shared connections)
+- [[Community 48]] (10 shared connections)
+- [[Community 105]] (4 shared connections)
+- [[Community 165]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BAUTLLuP.js`
+- `src/components/EmailVerificationPrompt.jsx`
+- `src/data/api.js`
+- `src/data/auth.js`
+- `src/data/dealer.js`
+- `src/data/loginCode.js`
+- `src/data/session.js`
+- `src/data/validators.js`
+- `src/pages/DealerDashboard.jsx`
+- `src/pages/Login.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 509 (100%)
+- EXTRACTED: 471 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

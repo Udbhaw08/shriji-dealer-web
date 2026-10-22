@@ -1,33 +1,29 @@
 # Community 291
 
-> 8 nodes · cohesion 0.43
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **workflow-migration-geometry.mjs** (10 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **createMappedWorkflowCandidate()** (9 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **intrinsicWorkflow()** (8 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **planningWorkflow()** (7 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **createHorizontalRankMapper()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **clone()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **mapExplicitCoordinates()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **mappedNumber()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **Images** (6 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **images.md** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Formats** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Resolution** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
 
 ## Relationships
 
-- [[Community 135]] (8 shared connections)
-- [[Zoho Integration Architecture]] (7 shared connections)
-- [[Community 142]] (5 shared connections)
-- [[Community 61]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- `.agents/skills/apple-design/references/hig/images.md`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 12 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

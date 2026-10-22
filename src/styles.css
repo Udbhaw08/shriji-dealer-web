@@ -1333,7 +1333,7 @@ h4 {
 @media (min-width: 1024px) {
   .cat-track {
     display: grid !important;
-    grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)) !important;
     gap: clamp(12px, 2vw, 24px) !important;
     overflow-x: visible !important;
   }

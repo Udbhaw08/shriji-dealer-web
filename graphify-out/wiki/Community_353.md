@@ -1,27 +1,27 @@
 # Community 353
 
-> 6 nodes · cohesion 0.33
+> 6 nodes · cohesion 0.47
 
 ## Key Concepts
 
-- **point** (6 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **clean-skill-staging.test.mjs** (5 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
+- **repositoryFixture()** (3 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
+- **git()** (2 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
+- **write()** (2 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
+- **canonicalNotices** (1 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
+- **stagerPath** (1 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
 
 ## Relationships
 
-- [[Community 72]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/archify/test/clean-skill-staging.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

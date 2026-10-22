@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **9. Line Length (Measure)** (3 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Guidelines** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Implementation** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **cornerRadius** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- [[Community 230]] (1 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 

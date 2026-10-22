@@ -1,20 +1,19 @@
 # Community 184
 
-> 11 nodes · cohesion 0.18
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **release-package-gates.test.mjs** (10 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **canonicalZipTest()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **centralDirectoryModes()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **currentNodeMajor** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **spawnBuildZip()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **stagedFixture()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **workflowJob()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **workflowStep()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **writeArchive()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **App Shortcuts** (6 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Best practices** (2 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **app-shortcuts.md** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Editorial guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Responding to App Shortcuts** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
 
 ## Relationships
 
@@ -22,11 +21,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/release-package-gates.test.mjs`
+- `.agents/skills/apple-design/references/hig/app-shortcuts.md`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

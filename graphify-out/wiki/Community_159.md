@@ -1,33 +1,34 @@
 # Community 159
 
-> 12 nodes · cohesion 0.17
+> 12 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **Playing haptics** (6 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Phone (iOS)** (4 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **playing-haptics.md** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Custom haptics** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Impact** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Notification** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Selection** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **additionalProperties** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **required** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **messages** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **activations** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 68]] (4 shared connections)
+- [[Community 93]] (4 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

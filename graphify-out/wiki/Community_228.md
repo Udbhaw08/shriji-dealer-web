@@ -1,30 +1,32 @@
 # Community 228
 
-> 9 nodes · cohesion 0.22
+> 9 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **web-BR9p5Cna.js** (8 connections) — `ios/App/App/public/assets/web-BR9p5Cna.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-BR9p5Cna.js`
-- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-BR9p5Cna.js`
-- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-BR9p5Cna.js`
-- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-BR9p5Cna.js`
-- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-BR9p5Cna.js`
-- **getState()** (1 connections) — `ios/App/App/public/assets/web-BR9p5Cna.js`
-- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-BR9p5Cna.js`
-- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-BR9p5Cna.js`
+- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **cards** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **additionalProperties** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **required** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 176]] (3 shared connections)
+- [[Community 76]] (1 shared connections)
+- [[Community 429]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-BR9p5Cna.js`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 27 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,58 +1,55 @@
 # Pricing & Roles Skill
 
-> 43 nodes · cohesion 0.11
+> 44 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **geometry.mjs** (75 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **asArray()** (43 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **geometry.test.mjs** (34 connections) — `.agents/skills/archify/test/geometry.test.mjs`
-- **cleanCrossingProblems()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **isFinitePoint()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanEndpointSideProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **collectLabelRouteClearance()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **collectBorderRuns()** (10 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **normalizeRoutePoints()** (10 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **segmentRectClearance()** (8 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **recordDiagnostic()** (7 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **collectRouteRhythmIssues()** (7 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **routeBudgetMetrics()** (6 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **automaticPortRhythmBridge()** (5 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **forwardCollinearAnalysisSegments()** (5 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **sourceSegmentIndexAtPoint()** (5 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **componentContext()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **crossProduct()** (4 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **endpointSideIssue()** (4 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **relationshipSubject()** (4 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **segmentRectIntersectionLength()** (4 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **segmentsIntersect()** (4 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **bandTitles()** (3 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **collinearAxisOverlap()** (3 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **collinearForward()** (3 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- *... and 18 more nodes in this community*
+- **Fr()** (18 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **kf()** (18 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **r()** (15 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **Lr()** (13 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **rf()** (11 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **df()** (10 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **ff()** (8 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **Cr()** (7 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **sf()** (7 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **Dr()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **Kr()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **nf()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **qr()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **Vr()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **xn()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **br()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **ei()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **gr()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **Hr()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **Id()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **jf()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **jr()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **lf()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **Pr()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- **tn()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [[Community 29]] (52 shared connections)
-- [[Zoho Integration Architecture]] (39 shared connections)
-- [[Pricing Regression Test Suite]] (20 shared connections)
-- [[Community 41]] (18 shared connections)
-- [[Client Products Data Store]] (15 shared connections)
-- [[Community 46]] (5 shared connections)
-- [[Design System & UI Tokens]] (3 shared connections)
-- [[Community 55]] (3 shared connections)
+- [[Dealer Auth & Session Management]] (50 shared connections)
+- [[Roles & Customer Sharing Spec]] (12 shared connections)
+- [[Testing & Workflow Skill]] (8 shared connections)
+- [[Design System & UI Tokens]] (7 shared connections)
+- [[Product Brand & Business Vision]] (6 shared connections)
+- [[Community 50]] (5 shared connections)
+- [[Community 110]] (5 shared connections)
+- [[Community 34]] (4 shared connections)
+- [[Community 40]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/test/geometry.test.mjs`
+- `android/app/src/main/assets/public/assets/index-FPrq849U.js`
 
 ## Audit Trail
 
-- EXTRACTED: 345 (100%)
+- EXTRACTED: 250 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

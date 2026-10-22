@@ -632,6 +632,11 @@ export function isItemOnline(item, categoryMap = null, categoryByName = null) {
 }
 
 export async function fetchZohoCategories({ refresh = false } = {}) {
+  const now = Date.now();
+  if (!refresh && cachedCategories && now - categoriesCacheTime < 15000) {
+    return cachedCategories;
+  }
+
   const { rawCategories } = await getCategoryVisibilityMap({ refresh });
 
   const categories = rawCategories
@@ -648,13 +653,26 @@ export async function fetchZohoCategories({ refresh = false } = {}) {
         c.status !== "inactive" &&
         c.has_active_items !== false
     )
-    .map((c) => ({
-      id: c.category_id,
-      key: slugifyCategory(c.name),
-      label: c.name,
-      code: slugifyCategory(c.name).substring(0, 2).toUpperCase(),
-      img: `/img/cat-${slugifyCategory(c.name)}.webp`,
-    }));
+    .map((c) => {
+      const slug = slugifyCategory(c.name);
+      const doc = Array.isArray(c.documents) && c.documents.length > 0 ? c.documents[0] : null;
+      let img = null;
+      if (doc?.file_name && doc?.document_id) {
+        img = `https://cdn2.zohoecommerce.com/product-images/${encodeURIComponent(doc.file_name)}/${doc.document_id}/600x600?storefront_domain=www.shrijidomestic.com`;
+      } else {
+        img = slug === "gas_geysers" ? "/img/cat-gas_stoves.webp" : `/img/cat-${slug}.webp`;
+      }
+
+      return {
+        id: c.category_id,
+        key: slug,
+        label: c.name,
+        code: slug.substring(0, 2).toUpperCase(),
+        img,
+        document_id: doc?.document_id || null,
+        file_name: doc?.file_name || null,
+      };
+    });
 
   const PREFERRED_ORDER = ["hob_tops", "gas_stoves", "hobs", "chimneys", "small_appliances"];
   categories.sort((a, b) => {
@@ -667,7 +685,7 @@ export async function fetchZohoCategories({ refresh = false } = {}) {
   });
 
   cachedCategories = categories;
-  categoriesCacheTime = Date.now();
+  categoriesCacheTime = now;
   return categories;
 }
 
