@@ -181,7 +181,7 @@ authRouter.get('/me', jwtAuth, async (req, res, next) => {
   try {
     const user = await resolveUserWithDealer(req.user);
     const userDealerId = user?.dealer_id || null;
-    let dealer = (await sql`select id, business_name, status, reject_reason, dealer_code, price_tier, gst_number, gst_treatment, hide_staff_dealer_price, zoho_account_id from dealers where id = ${userDealerId} or owner_user_id = ${user.id} order by case when status = 'approved' then 1 when status = 'pending' then 2 else 3 end asc limit 1`)[0] || null;
+    let dealer = (await sql`select * from dealers where id = ${userDealerId} or owner_user_id = ${user.id} order by case when status = 'approved' then 1 when status = 'pending' then 2 else 3 end asc limit 1`)[0] || null;
     if (dealer?.zoho_account_id && crm.isCrmConfigured()) {
       const last = lastCrmSyncByDealerId.get(dealer.id) || 0;
       if (Date.now() - last > 30_000) {

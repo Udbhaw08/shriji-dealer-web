@@ -82,6 +82,16 @@ export async function applyDealer({ user, businessName, gstNumber, gstTreatment,
  * Returns true when the dealer row changed.
  */
 export async function applyCrmAccountState(dealer, account) {
+  if (!dealer || !dealer.id) return false;
+
+  // Ensure dealer has full record if missing fields like owner_user_id
+  if (!dealer.owner_user_id) {
+    const full = (await sql`select * from dealers where id = ${dealer.id}`)[0];
+    if (full) {
+      dealer = { ...full, ...dealer };
+    }
+  }
+
   const statusMap = { Approved: 'approved', Rejected: 'rejected', Revoked: 'revoked', Pending: 'pending' };
   const newStatus = statusMap[account.dealerStatus] || (account.dealerStatus ? String(account.dealerStatus).toLowerCase() : 'pending');
 
@@ -97,13 +107,13 @@ export async function applyCrmAccountState(dealer, account) {
   const cleanGstTreatment = account.gstTreatment ? String(account.gstTreatment).trim() : null;
   const cleanAddress = account.address ? String(account.address).trim() : null;
 
-  const hasNameChange = Boolean(cleanBusinessName && cleanBusinessName !== dealer.business_name);
-  const hasGstChange = Boolean(cleanGst && cleanGst !== dealer.gst_number);
-  const hasTreatmentChange = Boolean(cleanGstTreatment && cleanGstTreatment !== dealer.gst_treatment);
-  const hasAddressChange = Boolean(cleanAddress && cleanAddress !== dealer.address);
+  const hasNameChange = Boolean(cleanBusinessName && cleanBusinessName !== (dealer.business_name ?? null));
+  const hasGstChange = Boolean(cleanGst && cleanGst !== (dealer.gst_number ?? null));
+  const hasTreatmentChange = Boolean(cleanGstTreatment && cleanGstTreatment !== (dealer.gst_treatment ?? null));
+  const hasAddressChange = Boolean(cleanAddress && cleanAddress !== (dealer.address ?? null));
   const hasStatusChange = newStatus !== dealer.status;
-  const hasCodeChange = Boolean(account.dealerCode && account.dealerCode !== dealer.dealer_code);
-  const hasTierChange = Boolean(targetPriceList && targetPriceList !== dealer.price_tier);
+  const hasCodeChange = Boolean(account.dealerCode && account.dealerCode !== (dealer.dealer_code ?? null));
+  const hasTierChange = Boolean(targetPriceList && targetPriceList !== (dealer.price_tier ?? null));
 
   if (
     !hasNameChange &&
@@ -117,10 +127,15 @@ export async function applyCrmAccountState(dealer, account) {
     return false; // already converged
   }
 
-  let effectiveCode = account.dealerCode || dealer.dealer_code;
+  let effectiveCode = account.dealerCode || dealer.dealer_code || null;
   if (!effectiveCode && newStatus === 'approved') {
     effectiveCode = await generateUniqueDealerCode(sql, 'DE');
   }
+
+  const ownerUserId = dealer.owner_user_id || null;
+  const approvedAtVal = newStatus === 'approved' ? (dealer.approved_at || new Date().toISOString()) : null;
+  const rejectReasonVal = newStatus === 'rejected' ? (account.rejectReason || 'Rejected by owner in CRM') : null;
+  const zohoAccountIdVal = account.zohoAccountId || dealer.zoho_account_id || null;
 
   await sql`
     update dealers set
@@ -131,44 +146,50 @@ export async function applyCrmAccountState(dealer, account) {
       status = ${newStatus},
       dealer_code = coalesce(${effectiveCode}, dealer_code),
       price_tier = coalesce(${targetPriceList}, price_tier),
-      zoho_account_id = coalesce(${account.zohoAccountId}, zoho_account_id),
-      reject_reason = ${newStatus === 'rejected' ? account.rejectReason || 'Rejected by owner in CRM' : null},
-      approved_at = ${newStatus === 'approved' ? (dealer.approved_at || new Date().toISOString()) : null}
+      zoho_account_id = coalesce(${zohoAccountIdVal}, zoho_account_id),
+      reject_reason = ${rejectReasonVal},
+      approved_at = ${approvedAtVal}
     where id = ${dealer.id}`;
 
   // Mirror the decision onto the owner user + kill their sessions on bad news
-  if (newStatus === 'approved') {
-    await sql`update users set status = 'active' where id = ${dealer.owner_user_id}`;
-  } else if (newStatus === 'rejected' || newStatus === 'revoked') {
-    await sql`update users set status = ${newStatus} where id = ${dealer.owner_user_id}`;
-    await sql`update refresh_tokens set revoked = true where user_id = ${dealer.owner_user_id}`;
+  if (ownerUserId) {
+    if (newStatus === 'approved') {
+      await sql`update users set status = 'active' where id = ${ownerUserId}`;
+    } else if (newStatus === 'rejected' || newStatus === 'revoked') {
+      await sql`update users set status = ${newStatus} where id = ${ownerUserId}`;
+      await sql`update refresh_tokens set revoked = true where user_id = ${ownerUserId}`;
+    }
   }
 
   // Also sync primary contact info (name, phone, email) if available
-  try {
-    const ownerContact = await crm.getPrimaryContactForAccount(account.zohoAccountId || dealer.zoho_account_id);
-    if (ownerContact) {
-      const conName = ownerContact.fullName || [ownerContact.firstName, ownerContact.lastName].filter(Boolean).join(' ') || null;
-      if (conName) {
-        await sql`update users set full_name = ${conName} where id = ${dealer.owner_user_id}`;
-      }
-      if (ownerContact.email) {
-        await sql`update users set email = coalesce(${ownerContact.email}, email) where id = ${dealer.owner_user_id}`;
-      }
-      if (ownerContact.phone) {
-        const norm = normalizePhone(ownerContact.phone);
-        if (norm.nationalNumber) {
-          await sql`update users set phone = ${'+91' + norm.nationalNumber} where id = ${dealer.owner_user_id}`;
+  if (ownerUserId) {
+    try {
+      const ownerContact = await crm.getPrimaryContactForAccount(zohoAccountIdVal);
+      if (ownerContact) {
+        const conName = ownerContact.fullName || [ownerContact.firstName, ownerContact.lastName].filter(Boolean).join(' ') || null;
+        if (conName) {
+          await sql`update users set full_name = ${conName} where id = ${ownerUserId}`;
+        }
+        if (ownerContact.email) {
+          await sql`update users set email = coalesce(${ownerContact.email || null}, email) where id = ${ownerUserId}`;
+        }
+        if (ownerContact.phone) {
+          const norm = normalizePhone(ownerContact.phone);
+          if (norm.nationalNumber) {
+            await sql`update users set phone = ${'+91' + norm.nationalNumber} where id = ${ownerUserId}`;
+          }
         }
       }
+    } catch (cErr) {
+      log.warn(`[dealerApp:applyCrmAccountState] primary contact sync skipped: ${cErr.message}`);
     }
-  } catch (cErr) {
-    log.warn(`[dealerApp:applyCrmAccountState] primary contact sync skipped: ${cErr.message}`);
   }
 
-  await audit(dealer.owner_user_id, `dealer.${newStatus}`, 'dealer', dealer.id, {
-    via: 'crm', zohoAccountId: account.zohoAccountId, businessName: cleanBusinessName, gstNumber: cleanGst,
-  });
+  if (ownerUserId) {
+    await audit(ownerUserId, `dealer.${newStatus}`, 'dealer', dealer.id, {
+      via: 'crm', zohoAccountId: zohoAccountIdVal, businessName: cleanBusinessName, gstNumber: cleanGst,
+    });
+  }
   return true;
 }
 
