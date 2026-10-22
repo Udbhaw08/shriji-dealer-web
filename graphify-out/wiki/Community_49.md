@@ -1,56 +1,53 @@
 # Community 49
 
-> 31 nodes · cohesion 0.10
+> 32 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **reject()** (22 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **fp()** (19 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **b()** (18 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **lp()** (10 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **up()** (10 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **Gp()** (9 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **tp()** (9 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **g()** (7 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **_getIdTokenResponse()** (7 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **qf()** (7 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **.blur()** (6 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **.scrollIntoView()** (6 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **_getReauthenticationResolver()** (6 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **pm()** (6 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **v()** (6 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **buildRequest()** (5 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **credential()** (5 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **_linkToIdToken()** (5 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **toPromise()** (5 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **Vp()** (5 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **_buildIdpRequest()** (4 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **.getClientRects()** (4 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **Xf()** (4 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **clearAllCookies()** (3 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **clearCookies()** (3 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- *... and 6 more nodes in this community*
+- **archify.mjs** (50 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandDeliver()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandMigrate()** (17 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandValidate()** (13 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandRender()** (10 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandPreview()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **diagnostic()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **rendererPath()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **renderValidatedArchitecture()** (8 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractQualityArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractRepoRootArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **rejectCliArgument()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **assertEvidenceType()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **checkerDiagnostics()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **rendererEnv()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **rendererFailure()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportArtifactFailure()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **inputDiagnostic()** (4 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **engineeringProfileFromArtifact()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **migrationPathDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **migrationReport()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportArtifactArgumentFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportDeliveryFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportValidateFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **sourceEvidenceFromArtifact()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (37 shared connections)
-- [[Pricing & Roles Skill]] (13 shared connections)
-- [[Master Codebase Architecture Reference]] (12 shared connections)
-- [[Zoho Integration Architecture]] (12 shared connections)
-- [[Client Products Data Store]] (10 shared connections)
-- [[Community 30]] (9 shared connections)
-- [[Live Pricing Audit Tool]] (7 shared connections)
-- [[Product Pages Specification]] (5 shared connections)
-- [[Community 69]] (4 shared connections)
+- [[Community 142]] (27 shared connections)
+- [[Community 292]] (11 shared connections)
+- [[Community 108]] (4 shared connections)
+- [[Community 134]] (3 shared connections)
+- [[Community 246]] (2 shared connections)
+- [[Community 63]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- `.agents/skills/archify/bin/archify.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 205 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 221 (97%)
+- INFERRED: 6 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

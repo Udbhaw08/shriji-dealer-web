@@ -1,56 +1,71 @@
 # Zoho API Diagnostic Script
 
-> 47 nodes · cohesion 0.08
+> 49 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **D()** (23 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **mt()** (18 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **h()** (17 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **O()** (17 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **St()** (14 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **re()** (13 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **vt()** (12 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **bt()** (11 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **ie()** (10 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **yh()** (10 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **Oe()** (9 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **pt()** (9 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **Bn()** (8 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **gt()** (8 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **te()** (8 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **ft()** (7 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **gf()** (7 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **Sh()** (7 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **Le()** (6 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **be()** (5 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **bh()** (5 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **ce()** (5 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **Ih()** (5 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **k()** (5 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **lt()** (5 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- *... and 22 more nodes in this community*
+- **sql** (60 connections) — `backend/src/db/pool.js`
+- **dealers.js** (36 connections) — `backend/src/routes/dealers.js`
+- **pool.js** (26 connections) — `backend/src/db/pool.js`
+- **dealerApp.js** (24 connections) — `backend/src/services/dealerApp.js`
+- **staff.js** (23 connections) — `backend/src/services/staff.js`
+- **audit()** (17 connections) — `backend/src/utils/audit.js`
+- **webhooks.js** (14 connections) — `backend/src/routes/webhooks.js`
+- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
+- **applyCrmAccountState()** (12 connections) — `backend/src/services/dealerApp.js`
+- **auth.js** (8 connections) — `backend/src/middleware/auth.js`
+- **generateUniqueDealerCode()** (8 connections) — `backend/src/utils/loginCode.js`
+- **audit.js** (7 connections) — `backend/src/utils/audit.js`
+- **applyDealer()** (6 connections) — `backend/src/services/dealerApp.js`
+- **createInvite()** (6 connections) — `backend/src/services/staff.js`
+- **sha256()** (6 connections) — `backend/src/utils/hash.js`
+- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
+- **jwtAuth()** (5 connections) — `backend/src/middleware/auth.js`
+- **applyCrmContactState()** (5 connections) — `backend/src/services/dealerApp.js`
+- **seed-content.js** (4 connections) — `backend/scripts/seed-content.js`
+- **deactivateDealer()** (4 connections) — `backend/src/services/dealerApp.js`
+- **approveStaff()** (4 connections) — `backend/src/services/staff.js`
+- **deleteStaff()** (4 connections) — `backend/src/services/staff.js`
+- **holdStaff()** (4 connections) — `backend/src/services/staff.js`
+- **resumeStaff()** (4 connections) — `backend/src/services/staff.js`
+- **revokeStaff()** (4 connections) — `backend/src/services/staff.js`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (47 shared connections)
-- [[Dependencies & Package Config]] (31 shared connections)
-- [[Roles & Customer Sharing Spec]] (20 shared connections)
-- [[Pricing Regression Test Suite]] (16 shared connections)
-- [[Product Requirements Documentation]] (14 shared connections)
-- [[Graphify Agent Rules]] (11 shared connections)
-- [[Community 85]] (7 shared connections)
-- [[Graphify Knowledge Graph Skill]] (5 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (3 shared connections)
+- [[Community 76]] (25 shared connections)
+- [[Community 56]] (19 shared connections)
+- [[Community 79]] (14 shared connections)
+- [[Community 112]] (14 shared connections)
+- [[Community 91]] (12 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (9 shared connections)
+- [[Community 147]] (8 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-NKRFalKI.js`
+- `backend/scripts/check-readiness.js`
+- `backend/scripts/inspect-db.js`
+- `backend/scripts/migrate-content.js`
+- `backend/scripts/seed-content.js`
+- `backend/scripts/setup-buckets.js`
+- `backend/scripts/setup-policies.js`
+- `backend/scripts/test-storage.js`
+- `backend/src/db/pool.js`
+- `backend/src/jobs/crmPoll.js`
+- `backend/src/middleware/auth.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/routes/webhooks.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/services/staff.js`
+- `backend/src/utils/audit.js`
+- `backend/src/utils/hash.js`
+- `backend/src/utils/loginCode.js`
+- `backend/test/crmSync.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 322 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 359 (99%)
+- INFERRED: 4 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,36 +1,46 @@
 # Community 120
 
-> 15 nodes · cohesion 0.13
+> 15 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **Buttons** (8 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Desktop (macOS)** (5 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **buttons.md** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Help buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Image buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Push buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Role** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Square buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Style** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **warn()** (16 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **error()** (11 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **nc()** (10 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **ec()** (8 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **Xu()** (8 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **vu()** (7 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **yu()** (7 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **_u()** (6 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **ac()** (5 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **bu()** (4 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **componentDidCatch()** (4 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **Ao()** (3 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **If()** (3 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **tc()** (3 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **nu()** (2 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (19 shared connections)
+- [[Dependencies & Package Config]] (10 shared connections)
+- [[Design System & UI Tokens]] (7 shared connections)
+- [[Live Pricing Audit Tool]] (5 shared connections)
+- [[Community 48]] (5 shared connections)
+- [[Mobile Responsive UI Skill]] (4 shared connections)
+- [[Roles & Customer Sharing Spec]] (2 shared connections)
+- [[Architecture Doc Generator]] (2 shared connections)
+- [[Graphify Knowledge Graph Skill]] (1 shared connections)
+- [[Community 62]] (1 shared connections)
+- [[Community 54]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/buttons.md`
+- `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 97 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

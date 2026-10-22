@@ -1,32 +1,32 @@
 # fl()
 
-> God node · 37 connections · `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+> God node · 41 connections · `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
 
-**Community:** [[Master Codebase Architecture Reference]]
+**Community:** [[Mobile Responsive UI Skill]]
 
 ## Connections by Relation
 
 ### calls
 - [[i()]] `EXTRACTED`
+- [[qd()]] `EXTRACTED`
 - [[qc()]] `EXTRACTED`
-- [[na()]] `EXTRACTED`
-- [[fp()]] `EXTRACTED`
-- [[zd()]] `EXTRACTED`
-- [[Ga()]] `EXTRACTED`
-- [[sl()]] `EXTRACTED`
-- [[ll()]] `EXTRACTED`
-- [[r()]] `EXTRACTED`
-- [[Gc()]] `EXTRACTED`
-- [[ba()]] `EXTRACTED`
 - [[dl()]] `EXTRACTED`
-- [[lm()]] `EXTRACTED`
-- [[Ca()]] `EXTRACTED`
+- [[kl()]] `EXTRACTED`
+- [[r()]] `EXTRACTED`
+- [[fp()]] `EXTRACTED`
+- [[ll()]] `EXTRACTED`
+- [[sl()]] `EXTRACTED`
 - [[la()]] `EXTRACTED`
-- [[Wi()]] `EXTRACTED`
-- [[Oe()]] `EXTRACTED`
-- [[ma()]] `EXTRACTED`
+- [[lm()]] `EXTRACTED`
 - [[Sp()]] `EXTRACTED`
-- [[ho()]] `EXTRACTED`
+- [[zd()]] `EXTRACTED`
+- [[Gc()]] `EXTRACTED`
+- [[na()]] `EXTRACTED`
+- [[Ca()]] `EXTRACTED`
+- [[Oe()]] `EXTRACTED`
+- [[Wi()]] `EXTRACTED`
+- [[Ga()]] `EXTRACTED`
+- [[pa()]] `EXTRACTED`
 
 ### contains
 - [[_()]] `EXTRACTED`

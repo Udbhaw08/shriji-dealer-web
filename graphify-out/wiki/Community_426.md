@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Swift** (2 connections) — `.agents/skills/swiftui-pro/references/swift.md`
-- **swift.md** (1 connections) — `.agents/skills/swiftui-pro/references/swift.md`
-- **Swift Concurrency** (1 connections) — `.agents/skills/swiftui-pro/references/swift.md`
+- **Designing for iOS** (2 connections) — `.agents/skills/apple-design/references/hig/designing-for-ios.md`
+- **designing-for-ios.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-ios.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-ios.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/swift.md`
+- `.agents/skills/apple-design/references/hig/designing-for-ios.md`
 
 ## Audit Trail
 

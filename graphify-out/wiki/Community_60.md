@@ -1,6 +1,6 @@
 # Community 60
 
-> 25 nodes · cohesion 0.12
+> 26 nodes · cohesion 0.11
 
 ## Key Concepts
 
@@ -14,6 +14,7 @@
 - **svgViewBox()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
 - **asciiGroupLabelTextRect()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
 - **assertRectInsideViewBox()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **compileSuccessfully()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
 - **groupFrameRect()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
 - **adjacentWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
 - **asciiLaneHeaderTextRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
@@ -28,12 +29,12 @@
 - **rectsOverlap()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
 - **sha256()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
 - **skillRoot** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Integration Skill]] (2 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (1 shared connections)
+- [[Community 134]] (2 shared connections)
+- [[Community 84]] (1 shared connections)
 
 ## Source Files
 
@@ -41,7 +42,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 73 (100%)
+- EXTRACTED: 75 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

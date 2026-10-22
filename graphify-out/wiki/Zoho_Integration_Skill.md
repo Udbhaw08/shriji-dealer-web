@@ -1,58 +1,58 @@
 # Zoho Integration Skill
 
-> 50 nodes · cohesion 0.07
+> 51 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **workflow-migration.test.mjs** (22 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **workflow-v2.mjs** (21 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **migrateWorkflowDocument()** (15 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **workflow-compiler-hard-contract.test.mjs** (14 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **compileWorkflow()** (13 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **workflow-migration-geometry.mjs** (10 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **createMappedWorkflowCandidate()** (9 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **intrinsicWorkflow()** (8 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **planningWorkflow()** (7 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **clone()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **legacyLayoutProbe()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **legacyRequirementProbe()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **workflow()** (4 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **createHorizontalRankMapper()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **expandableViewBox()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **requiredViewBoxFrom()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **schemaDiagnostics()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **oneLaneAnchors()** (3 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **oneLaneWorkflow()** (3 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **workflow-semantic-contract.test.mjs** (3 connections) — `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
-- **clone()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **mapExplicitCoordinates()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **diagnostic()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **result()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **serializeMigratedWorkflow()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- *... and 25 more nodes in this community*
+- **fl()** (41 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **yl()** (29 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **dl()** (15 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **jc()** (15 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **kl()** (15 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **xl()** (15 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **ll()** (14 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **bl()** (13 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **la()** (13 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **lm()** (12 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **Gc()** (11 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **fa()** (10 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **kc()** (10 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **na()** (10 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **Ca()** (9 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **da()** (9 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **fc()** (9 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **Io()** (9 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **ml()** (9 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **Wi()** (9 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **je()** (8 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **ke()** (8 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **pa()** (8 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **ua()** (8 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **cl()** (7 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (13 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (4 shared connections)
-- [[Community 47]] (3 shared connections)
-- [[Community 60]] (2 shared connections)
-- [[Community 62]] (1 shared connections)
+- [[Price Presentation & Product UI]] (53 shared connections)
+- [[Product Requirements Documentation]] (32 shared connections)
+- [[Community 50]] (22 shared connections)
+- [[Master Codebase Architecture Reference]] (19 shared connections)
+- [[Product Brand & Business Vision]] (18 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (17 shared connections)
+- [[Zoho Integration Architecture]] (16 shared connections)
+- [[Community 44]] (11 shared connections)
+- [[Pricing & Roles Skill]] (9 shared connections)
+- [[Community 55]] (6 shared connections)
+- [[Community 124]] (4 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/migrations/workflow-v2.mjs`
-- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- `.agents/skills/archify/test/workflow-migration.test.mjs`
-- `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
+- `ios/App/App/public/assets/index-DjBJvkFA.js`
 
 ## Audit Trail
 
-- EXTRACTED: 194 (98%)
-- INFERRED: 3 (2%)
+- EXTRACTED: 441 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,46 +1,42 @@
 # Community 109
 
-> 17 nodes · cohesion 0.15
+> 18 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **auth.js** (48 connections) — `backend/src/routes/auth.js`
-- **rateLimit.js** (4 connections) — `backend/src/middleware/rateLimit.js`
-- **notify()** (4 connections) — `backend/src/services/notifications.js`
-- **httpError()** (3 connections) — `backend/src/middleware/errorHandler.js`
-- **rateLimit()** (3 connections) — `backend/src/middleware/rateLimit.js`
-- **issueSession()** (3 connections) — `backend/src/routes/auth.js`
-- **linkUserIdentifiers()** (3 connections) — `backend/src/routes/auth.js`
-- **resolveUserWithDealer()** (3 connections) — `backend/src/routes/auth.js`
-- **sendOtpNotification()** (3 connections) — `backend/src/services/notifications.js`
-- **authRouter** (2 connections) — `backend/src/routes/auth.js`
-- **findUserByIdentifier()** (2 connections) — `backend/src/routes/auth.js`
-- **parseIdentifier()** (2 connections) — `backend/src/routes/auth.js`
-- **publicUser()** (2 connections) — `backend/src/routes/auth.js`
-- **buckets** (1 connections) — `backend/src/middleware/rateLimit.js`
-- **googleClient** (1 connections) — `backend/src/routes/auth.js`
-- **lastCrmSyncByDealerId** (1 connections) — `backend/src/routes/auth.js`
-- **strictLimit** (1 connections) — `backend/src/routes/auth.js`
+- **viewer-chrome-layout.test.mjs** (21 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **evaluate()** (5 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **waitForLayout()** (4 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **finalGeometry()** (3 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **resize()** (3 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **edgePaintHitsUnderDock()** (2 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **state()** (2 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **clearStage()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **renderWithoutLegend()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **variant()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **zero()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
 
 ## Relationships
 
-- [[Project Readme & Layout]] (14 shared connections)
-- [[Community 53]] (12 shared connections)
-- [[Community 74]] (7 shared connections)
-- [[Community 77]] (6 shared connections)
-- [[Community 88]] (5 shared connections)
-- [[Community 142]] (2 shared connections)
+- [[Community 31]] (2 shared connections)
+- [[Community 129]] (1 shared connections)
+- [[Community 165]] (1 shared connections)
+- [[Community 64]] (1 shared connections)
 
 ## Source Files
 
-- `backend/src/middleware/errorHandler.js`
-- `backend/src/middleware/rateLimit.js`
-- `backend/src/routes/auth.js`
-- `backend/src/services/notifications.js`
+- `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 86 (100%)
+- EXTRACTED: 53 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

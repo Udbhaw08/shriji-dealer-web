@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **architecture-compare-recovery.test.mjs** (8 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **base** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **fixture()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **hash()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **head** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **inject()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **Archify JSON IR Schemas** (7 connections) — `.agents/skills/archify/schemas/README.md`
+- **Files** (2 connections) — `.agents/skills/archify/schemas/README.md`
+- **README.md** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Error format** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Legend presentation contract** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Runtime validation** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **schema_version policy** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Shared definitions (common.schema.json)** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Visual quality and engineering truth** (1 connections) — `.agents/skills/archify/schemas/README.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- `.agents/skills/archify/schemas/README.md`
 
 ## Audit Trail
 

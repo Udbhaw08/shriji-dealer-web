@@ -1,42 +1,43 @@
 # Community 94
 
-> 19 nodes · cohesion 0.11
+> 19 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **properties** (9 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **sequence.schema.json** (7 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **participants** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **segments** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **cards** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **schema_version** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$id** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$schema** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **title** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **cli.test.mjs** (11 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **generated-artifact-xml.test.mjs** (8 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
+- **xml.mjs** (5 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
+- **extractSvgs()** (4 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
+- **parseXml()** (3 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
+- **visit()** (3 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **copyInstalledSkill()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **makeFakeOpeners()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **artifactRoots** (1 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
+- **trackedHtmlArtifacts()** (1 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
 
 ## Relationships
 
-- [[Community 158]] (4 shared connections)
-- [[Community 405]] (1 shared connections)
+- [[Community 87]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/sequence.schema.json`
+- `.agents/skills/archify/test/cli.test.mjs`
+- `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
+- `.agents/skills/archify/test/helpers/xml.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 46 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

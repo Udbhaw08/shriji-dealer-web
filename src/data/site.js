@@ -42,30 +42,7 @@ export const QUICK_ACCESS = [
 ];
 
 export const SCHEMES = {
-  active: [
-    {
-      id: "annual-business-scheme-2026-27",
-      title: "Annual Business Scheme FY 2026-27",
-      when: "Valid for FY 2026-27",
-      blurb: "Achieve More, Earn Exciting Rewards! Tour tickets and FOC product rewards.",
-      badge: "FY 2026-27",
-      tagline: "Stronger Together, Growing Together",
-      flyer: "/img/scheme-annual-business-2026.jpg",
-      pdfUrl: "/downloads/Sunshine-Annual-Business-Scheme-FY26-27.pdf",
-      pdfName: "Sunshine-Annual-Business-Scheme-FY26-27.pdf",
-    },
-    {
-      id: "diwali-scheme-2026",
-      title: "Diwali Scheme 2026",
-      when: "01 Sep 2026 to 31 Dec 2026",
-      blurb: "Celebrate More. Earn More. Exclusive dealer gift slabs on Sunshine appliances.",
-      badge: "01 Sep – 31 Dec 2026",
-      tagline: "Celebrate More. Earn More.",
-      flyer: "/img/scheme-diwali-2026.jpg",
-      pdfUrl: "/downloads/Sunshine-Diwali-Scheme-2026.pdf",
-      pdfName: "Sunshine-Diwali-Scheme-2026.pdf",
-    },
-  ],
+  active: [],
   upcoming: [],
   past: [],
 };

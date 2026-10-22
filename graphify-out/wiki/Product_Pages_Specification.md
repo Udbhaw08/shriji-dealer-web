@@ -1,55 +1,66 @@
 # Product Pages Specification
 
-> 92 nodes · cohesion 0.05
+> 76 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **uc()** (26 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **zr()** (24 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **kf()** (23 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **Hr()** (21 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **jd()** (19 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **lc()** (19 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **Nd()** (19 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **Hi()** (18 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **r()** (16 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **Bd()** (15 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **Ur()** (15 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **dc()** (13 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **ki()** (12 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **Pi()** (12 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **c()** (11 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **Kd()** (11 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **ri()** (11 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **Ad()** (10 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **fh()** (10 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **hh()** (10 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **Ii()** (10 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **yh()** (10 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **Ai()** (9 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **cs()** (9 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **ic()** (9 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- *... and 67 more nodes in this community*
+- **geometry.mjs** (75 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **compileWorkflowInternal()** (67 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **asArray()** (43 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **geometry.test.mjs** (34 connections) — `.agents/skills/archify/test/geometry.test.mjs`
+- **textUnits()** (33 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **validateArchitecture()** (22 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **validateDataflow()** (22 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **validateLifecycle()** (22 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **cleanCrossingProblems()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **isFinitePoint()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanFlowProblems()** (17 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **rectsOverlap()** (16 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **validateSequence()** (15 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **throwDiagnosticProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **cleanAmbiguousCorridorProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanBorderRunProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanRouteRhythmProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **labelPoint()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanEndpointSideProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanLabelRouteClearanceProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **brandTopRailProblem()** (13 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **collectLabelRouteClearance()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **segmentIntersectsRect()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **suggestLabelObstacleFix()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **minimumNodeTextWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- *... and 51 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (104 shared connections)
-- [[Master Codebase Architecture Reference]] (65 shared connections)
-- [[Live Pricing Audit Tool]] (25 shared connections)
-- [[Zoho Integration Architecture]] (21 shared connections)
-- [[Client Products Data Store]] (20 shared connections)
-- [[Pricing & Roles Skill]] (20 shared connections)
-- [[Community 69]] (18 shared connections)
-- [[Community 30]] (9 shared connections)
-- [[Community 49]] (5 shared connections)
+- [[Oxlint Linter Configuration]] (51 shared connections)
+- [[Community 52]] (46 shared connections)
+- [[Community 42]] (45 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (43 shared connections)
+- [[Community 84]] (40 shared connections)
+- [[Pricing Regression Test Suite]] (18 shared connections)
+- [[Project Readme & Layout]] (6 shared connections)
+- [[Community 291]] (3 shared connections)
+- [[Graphify Workflow]] (2 shared connections)
+- [[Community 283]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- `.agents/skills/archify/renderers/shared/geometry.mjs`
+- `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- `.agents/skills/archify/test/geometry.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 673 (100%)
+- EXTRACTED: 781 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,56 +1,67 @@
 # Pricing Regression Test Suite
 
-> 78 nodes · cohesion 0.05
+> 70 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **Z()** (32 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **jd()** (19 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **Nd()** (19 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **zd()** (18 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **getIdToken()** (16 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **Bd()** (15 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **Pd()** (15 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **Fd()** (13 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **dp()** (12 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **dt()** (11 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **Kd()** (11 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **td()** (11 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **ut()** (11 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **df()** (9 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **directlySetCurrentUser()** (9 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **initializeCurrentUser()** (9 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **Ld()** (9 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **_onStorageEvent()** (9 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **setPersistence()** (8 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **signOut()** (8 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **updateCurrentUser()** (8 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **af()** (7 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **_fromGetAccountInfoResponse()** (7 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **getOrInitRedirectPersistenceManager()** (7 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **ho()** (7 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- *... and 53 more nodes in this community*
+- **cli.mjs** (43 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **diagnostics.mjs** (27 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **utils.mjs** (26 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **i18n.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **translateMessage()** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **throwDiagnosticError()** (16 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **writeDiagram()** (10 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **engineering-profiles.mjs** (10 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **validator.mjs** (10 connections) — `.agents/skills/archify/renderers/shared/validator.mjs`
+- **validateSchema()** (10 connections) — `.agents/skills/archify/renderers/shared/validator.mjs`
+- **engineering-profile.test.mjs** (10 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **render-workflow.mjs** (10 connections) — `.agents/skills/archify/renderers/workflow/render-workflow.mjs`
+- **loadDiagram()** (9 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **applyTemplate()** (9 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **settled-flow.test.mjs** (8 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **resolveLocale()** (7 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **validateEngineeringProfile()** (6 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **normalizedDiagnostic()** (4 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **deploymentOwnershipDiagnostics()** (4 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **viewerCatalog()** (4 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **validateGuidedViews()** (3 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **validateRelationshipIds()** (3 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **fallbackDiagnostic()** (3 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **withDiagnosticRecordingSuppressed()** (3 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **localizeTemplate()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- *... and 45 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (111 shared connections)
-- [[Dependencies & Package Config]] (28 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (17 shared connections)
-- [[Zoho API Diagnostic Script]] (16 shared connections)
-- [[Product Requirements Documentation]] (16 shared connections)
-- [[Graphify Agent Rules]] (14 shared connections)
-- [[Roles & Customer Sharing Spec]] (13 shared connections)
-- [[Graphify Knowledge Graph Skill]] (11 shared connections)
-- [[Community 85]] (5 shared connections)
+- [[Oxlint Linter Configuration]] (20 shared connections)
+- [[Community 42]] (18 shared connections)
+- [[Product Pages Specification]] (18 shared connections)
+- [[Community 84]] (10 shared connections)
+- [[Graphify Workflow]] (9 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (6 shared connections)
+- [[Community 52]] (6 shared connections)
+- [[Community 166]] (6 shared connections)
+- [[Community 127]] (5 shared connections)
+- [[Community 108]] (4 shared connections)
+- [[Community 134]] (4 shared connections)
+- [[Community 206]] (3 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-NKRFalKI.js`
+- `.agents/skills/archify/renderers/shared/cli.mjs`
+- `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- `.agents/skills/archify/renderers/shared/i18n.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `.agents/skills/archify/renderers/shared/validator.mjs`
+- `.agents/skills/archify/renderers/workflow/render-workflow.mjs`
+- `.agents/skills/archify/test/engineering-profile.test.mjs`
+- `.agents/skills/archify/test/settled-flow.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 533 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 336 (99%)
+- INFERRED: 2 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

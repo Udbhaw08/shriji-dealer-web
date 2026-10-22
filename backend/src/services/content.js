@@ -112,3 +112,84 @@ export async function getSupabaseBranding() {
     source: 'supabase',
   }));
 }
+
+export async function getAllStoreContent(type = null) {
+  try {
+    const rows = type
+      ? await sql`
+          SELECT * FROM public.store_content
+          WHERE type = ${type}
+          ORDER BY display_order ASC, created_at DESC;
+        `
+      : await sql`
+          SELECT * FROM public.store_content
+          ORDER BY type ASC, display_order ASC, created_at DESC;
+        `;
+    return rows;
+  } catch (err) {
+    console.warn(`[Supabase Content] Could not fetch all content:`, err.message);
+    return [];
+  }
+}
+
+export async function upsertStoreContent(item) {
+  const {
+    id,
+    type,
+    title,
+    subtitle = '',
+    badge = '',
+    image_url = null,
+    file_url = null,
+    video_url = null,
+    link_url = null,
+    bg_color = '#0110a7',
+    display_order = 1,
+    is_active = true,
+    metadata = {},
+  } = item;
+
+  const rows = await sql`
+    INSERT INTO public.store_content (
+      id, type, title, subtitle, badge, image_url, file_url, video_url, link_url, bg_color, display_order, is_active, metadata, updated_at
+    ) VALUES (
+      ${id}, ${type}, ${title}, ${subtitle}, ${badge}, ${image_url}, ${file_url}, ${video_url}, ${link_url}, ${bg_color}, ${display_order}, ${is_active}, ${metadata}, NOW()
+    )
+    ON CONFLICT (id) DO UPDATE SET
+      type = EXCLUDED.type,
+      title = EXCLUDED.title,
+      subtitle = EXCLUDED.subtitle,
+      badge = EXCLUDED.badge,
+      image_url = EXCLUDED.image_url,
+      file_url = EXCLUDED.file_url,
+      video_url = EXCLUDED.video_url,
+      link_url = EXCLUDED.link_url,
+      bg_color = EXCLUDED.bg_color,
+      display_order = EXCLUDED.display_order,
+      is_active = EXCLUDED.is_active,
+      metadata = EXCLUDED.metadata,
+      updated_at = NOW()
+    RETURNING *;
+  `;
+  return rows[0];
+}
+
+export async function deleteStoreContent(id) {
+  const rows = await sql`
+    DELETE FROM public.store_content
+    WHERE id = ${id}
+    RETURNING *;
+  `;
+  return rows[0] || null;
+}
+
+export async function toggleStoreContentActive(id) {
+  const rows = await sql`
+    UPDATE public.store_content
+    SET is_active = NOT is_active, updated_at = NOW()
+    WHERE id = ${id}
+    RETURNING *;
+  `;
+  return rows[0] || null;
+}
+

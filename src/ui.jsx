@@ -6,6 +6,7 @@ import { dealerById } from "./data/dealer";
 import { useLanguage } from "./data/i18n";
 import { isPortalGated } from "./data/portalGate";
 import { useFavorites } from "./data/favoritesStore";
+import { apiFetch } from "./data/api";
 
 /* Line icons, one 1.6 stroke family — matches the mockup's icon set. */
 const base = {
@@ -213,9 +214,61 @@ export function Icon({ name, size = 18, ...rest }) {
 }
 
 export function Mark() {
+  const [brandLogo, setBrandLogo] = useState(() => {
+    try {
+      const raw = sessionStorage.getItem("shriji_supabase_branding_v2");
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        if (parsed && parsed.imageUrl) return parsed;
+      }
+    } catch {}
+    return null;
+  });
+
+  useEffect(() => {
+    let active = true;
+    apiFetch("/api/branding")
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (active && data?.branding) {
+          const primary = Array.isArray(data.branding)
+            ? data.branding.find((b) => b.id === "logo-primary" || b.id.includes("logo")) || data.branding[0]
+            : data.branding;
+          if (primary && primary.imageUrl) {
+            setBrandLogo(primary);
+            try {
+              sessionStorage.setItem("shriji_supabase_branding_v2", JSON.stringify(primary));
+            } catch {}
+          }
+        }
+      })
+      .catch(() => {});
+    return () => {
+      active = false;
+    };
+  }, []);
+
+  if (brandLogo?.imageUrl) {
+    return (
+      <Link to="/" className="mark mark-restor-wrap mark-custom-logo" aria-label={brandLogo.title || "ReSTOR B2B — Shriji Domestic Appliances"}>
+        <img
+          src={brandLogo.imageUrl}
+          alt={brandLogo.title || "ReSTOR"}
+          className="mark-logo-img"
+          style={{ maxHeight: 34, maxWidth: 140, objectFit: "contain", display: "block" }}
+          onError={() => setBrandLogo(null)}
+        />
+        <span className="mark-b2b-badge">B2B</span>
+      </Link>
+    );
+  }
+
   return (
     <Link to="/" className="mark mark-restor-wrap" aria-label="ReSTOR B2B — Shriji Domestic Appliances">
-      <span className="mark-restor-text">ReSTOR</span>
+      <span className="mark-restor-text">
+        <span className="mark-restor-re">Re</span>
+        <span className="mark-restor-stor">STOR</span>
+      </span>
       <span className="mark-b2b-badge">B2B</span>
     </Link>
   );
@@ -241,26 +294,31 @@ export function LangToggle({ className = "" }) {
 /* One control, rendered twice (inside the mobile nav and beside it on desktop). */
 function AccountLink({ className = "" }) {
   const s = useSession();
-  const { t } = useLanguage();
-  const dealer = isDealer(s) ? dealerById(s.dealerId) : null;
+  const dealer = isDealer(s) ? (dealerById(s.dealerId) || s.dealer) : null;
 
   if (dealer) {
     return (
-      <Link className={`acct ${className}`.trim()} to="/login">
+      <Link className={`acct ${className}`.trim()} to="/login" title="Active Dealer: ownershop (8826) · Click to switch">
         <span className="acct-dot" aria-hidden="true">
-          {dealer.name.slice(0, 1)}
+          {dealer.name.slice(0, 1).toUpperCase()}
         </span>
         <span>
           <b>{dealer.name}</b>
-          <span>{dealer.tier}</span>
+          <span style={{ color: "#16a34a", fontWeight: 700 }}>● Dealer (8826)</span>
         </span>
       </Link>
     );
   }
 
   return (
-    <Link className={`btn btn-navy btn-sm ${className}`.trim()} to="/login">
-      {s.role === "dealer" ? t("approval_pending") : "Verified Dealer Login"}
+    <Link className={`acct ${className}`.trim()} to="/login" title="Customer View · Click to switch to Dealer">
+      <span className="acct-dot" style={{ background: "var(--tx-3, #64748b)" }} aria-hidden="true">
+        C
+      </span>
+      <span>
+        <b>Customer View</b>
+        <span style={{ color: "var(--tx-2, #475569)" }}>MRP · Switch</span>
+      </span>
     </Link>
   );
 }
@@ -272,6 +330,7 @@ export function Header() {
   const { pathname, hash } = useLocation();
   const isGated = isPortalGated(s);
   const { count: favCount } = useFavorites();
+  const dealer = isDealer(s) ? (dealerById(s.dealerId) || s.dealer) : null;
 
   useEffect(() => {
     setOpen(false);
@@ -336,25 +395,30 @@ export function Header() {
         </div>
 
         <div className="hdr-mobile-right">
-          <Link to="/support" className="hdr-notif-btn" aria-label="Notifications" title="Notifications">
-            <Icon name="bell" size={20} />
-            <span className="hdr-notif-badge-dot" />
+          <Link
+            to="/login"
+            className="hdr-profile-avatar-btn"
+            aria-label={dealer ? `Dealer ${dealer.name}` : "Account"}
+            title={dealer ? `Dealer: ${dealer.name}` : "Account Login"}
+          >
+            {dealer ? (
+              <span className="hdr-avatar-letter">{dealer.name.slice(0, 1).toUpperCase()}</span>
+            ) : (
+              <Icon name="user" size={18} />
+            )}
+            {dealer && <span className="hdr-verified-badge">✓</span>}
           </Link>
-          <Link to="/login" className="hdr-profile-avatar-btn" aria-label="Verified Account" title="Dealer Account">
-            <Icon name="user" size={17} />
-            <span className="hdr-verified-badge">✓</span>
-          </Link>
-        </div>
 
-        <button
-          className="icon-btn burger"
-          aria-expanded={open}
-          aria-controls="nav"
-          aria-label={open ? "Close menu" : "Open menu"}
-          onClick={() => setOpen((v) => !v)}
-        >
-          <Icon name={open ? "close" : "menu"} size={19} />
-        </button>
+          <button
+            className="icon-btn burger"
+            aria-expanded={open}
+            aria-controls="nav"
+            aria-label={open ? "Close menu" : "Open menu"}
+            onClick={() => setOpen((v) => !v)}
+          >
+            <Icon name={open ? "close" : "menu"} size={22} />
+          </button>
+        </div>
       </div>
     </header>
   );
@@ -453,10 +517,12 @@ export function Footer() {
           <span>
             © {new Date().getFullYear()} {COMPANY.legal}
           </span>
-          <div style={{ display: "flex", gap: "var(--s3)", alignItems: "center" }}>
+          <div style={{ display: "flex", gap: "var(--s3)", alignItems: "center", flexWrap: "wrap" }}>
             <Link to="/privacy" style={{ color: "inherit", textDecoration: "underline" }}>Privacy Policy</Link>
             <span>·</span>
             <Link to="/terms" style={{ color: "inherit", textDecoration: "underline" }}>Terms of Service</Link>
+            <span>·</span>
+            <Link to="/admin" style={{ color: "inherit", textDecoration: "underline" }}>Content CMS</Link>
             <span>·</span>
             <span>{t("ftr_auth_dist")} · Sunshine India</span>
           </div>

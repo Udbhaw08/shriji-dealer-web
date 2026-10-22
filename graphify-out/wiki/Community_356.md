@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **story-trail.test.mjs** (5 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
+- **SKILL.md** (3 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **Output Format** (3 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **ContentView.swift** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **Core Instructions** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **References** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **Summary** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/story-trail.test.mjs`
+- `.agents/skills/swiftui-pro/SKILL.md`
 
 ## Audit Trail
 

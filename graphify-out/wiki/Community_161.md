@@ -1,37 +1,33 @@
 # Community 161
 
-> 12 nodes · cohesion 0.41
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **repository-evidence.mjs** (15 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
-- **verifyRepositoryEvidence()** (14 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
-- **evidenceFailure()** (6 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
-- **repository-location.mjs** (5 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
-- **parseRepositoryRemote()** (5 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
-- **gitValue()** (4 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
-- **runGit()** (4 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
-- **verifiedSourcePath()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
-- **redactRepositoryRemote()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
-- **repositorySourceHref()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
-- **hasRepositoryEvidence()** (2 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
-- **sourceLineCount()** (2 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **Search fields** (6 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Phone (iOS)** (4 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **search-fields.md** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Scope bars and tokens** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Search as a tab** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Search as an inline field** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Search in a toolbar** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Tablet and desktop (iPadOS, macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
 
 ## Relationships
 
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (6 shared connections)
-- [[Community 136]] (3 shared connections)
-- [[Community 58]] (2 shared connections)
-- [[Community 113]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
-- `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- `.agents/skills/apple-design/references/hig/search-fields.md`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

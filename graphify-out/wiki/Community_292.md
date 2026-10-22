@@ -4,26 +4,31 @@
 
 ## Key Concepts
 
-- **Labels** (5 connections) — `.agents/skills/apple-design/references/hig/labels.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/labels.md`
-- **labels.md** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
+- **commandCompare()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commitComparePair()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractCompareOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **formatDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportCompareFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **compareCommitError()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **compareReceiptPath()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 49]] (11 shared connections)
+- [[Community 114]] (4 shared connections)
+- [[Community 142]] (3 shared connections)
+- [[Community 85]] (2 shared connections)
+- [[Community 61]] (2 shared connections)
+- [[Community 108]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/labels.md`
+- `.agents/skills/archify/bin/archify.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 27 (75%)
+- INFERRED: 9 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

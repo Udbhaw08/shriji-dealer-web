@@ -1,13 +1,14 @@
 # Community 389
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **Status bars** (3 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
-- **status-bars.md** (1 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
+- **render-examples.mjs** (4 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
+- **outputRoot** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
+- **TARGETS** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
 
 ## Relationships
 
@@ -15,11 +16,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/status-bars.md`
+- `.agents/skills/archify/scripts/render-examples.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

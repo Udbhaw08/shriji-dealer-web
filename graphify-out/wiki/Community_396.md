@@ -4,22 +4,22 @@
 
 ## Key Concepts
 
-- **3. Font Pairing** (4 connections) — `.agents/skills/refero-design/references/typography.md`
-- **If You Must Pair** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Safe Font Choices by Product Type** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **The One-Font Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Status bars** (3 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
+- **status-bars.md** (1 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
 
 ## Relationships
 
-- [[Community 225]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/apple-design/references/hig/status-bars.md`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

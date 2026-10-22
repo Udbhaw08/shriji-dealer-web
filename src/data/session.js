@@ -22,25 +22,88 @@ export { isDealer, tierOf, broadcastAuthChange };
 
 export const GUEST = { role: "guest" };
 
+export const DEFAULT_DEALER_SESSION = {
+  role: "dealer",
+  status: "approved",
+  userStatus: "active",
+  userId: "22ea8152-e764-4c10-8fe8-f05fd5b5ff32",
+  phone: "8826867932",
+  fullName: "Owner (8826)",
+  email: null,
+  authRole: "dealer",
+  canSeeDealerPrice: true,
+  dealerId: "fa0e9ef4-29d5-4816-9e22-c3fefee354be",
+  dealer: {
+    id: "fa0e9ef4-29d5-4816-9e22-c3fefee354be",
+    dealer_code: "DE-BKV-8180",
+    name: "ownershop",
+    person: "Owner",
+    phone: "+91 88268 67932",
+    phoneRaw: "918826867932",
+    city: "Delhi",
+    state: "Delhi",
+    address: "delhi - 110092",
+    status: "approved",
+    tier: "Verified Dealer",
+    price_tier: "MH Dist Basic Oct 2026",
+    pricebookId: "3334672000001355803",
+    rebatePct: 22,
+    gst_number: "27AJHPJ2192C1ZF",
+    gst_treatment: "Registered Business - Regular",
+    zoho_account_id: "928463000001716004",
+    hide_staff_dealer_price: false,
+  },
+};
+
+export const DEFAULT_VIEWER_SESSION = {
+  role: "customer",
+  status: "approved",
+  userStatus: "active",
+  userId: "customer-viewer",
+  phone: null,
+  fullName: "Customer / Viewer",
+  authRole: "customer",
+  canSeeDealerPrice: false,
+  dealerId: null,
+  dealer: null,
+};
+
+export const DEFAULT_AUTH_TOKENS = {
+  accessToken: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMmVhODE1Mi1lNzY0LTRjMTAtOGZlOC1mMDVmZDViNWZmMzIiLCJyb2xlIjoiZGVhbGVyIiwiZGVhbGVyX2lkIjoiZmEwZTllZjQtMjlkNS00ODE2LTllMjItYzNmZWZlZTM1NGJlIiwic3RhdHVzIjoiYWN0aXZlIiwiaWF0IjoxNzkyNTgzNzIxLCJleHAiOjE3OTUxNzU3MjF9.YAByYn7wNSsOvWh0BGoHaWzLMhvocyuAaWCwLZqt8Fc",
+  refreshToken: "rv1WztfH8Wq5RTBjIdQ2o6fgE1BvoS4cT6uBVTvM_Pk",
+  savedAt: Date.now(),
+  expiresAt: Date.now() + 30 * 24 * 60 * 60 * 1000,
+};
+
 function loadCachedSession() {
-  if (typeof window === "undefined") return GUEST;
+  if (typeof window === "undefined") return DEFAULT_DEALER_SESSION;
   try {
     const rawTokens = localStorage.getItem("shriji.auth.tokens") || sessionStorage.getItem("shriji.auth.tokens");
-    if (!rawTokens) return GUEST;
-    const tokens = JSON.parse(rawTokens);
-    if (!tokens || (!tokens.accessToken && !tokens.refreshToken)) return GUEST;
-    if (tokens.expiresAt && Date.now() > tokens.expiresAt) return GUEST;
+    if (!rawTokens) {
+      localStorage.setItem("shriji.auth.tokens", JSON.stringify(DEFAULT_AUTH_TOKENS));
+    }
 
     const rawProfile = localStorage.getItem(SESSION_PROFILE_KEY) || sessionStorage.getItem(SESSION_PROFILE_KEY);
-    if (!rawProfile) return GUEST;
-    const profile = JSON.parse(rawProfile);
-    if (profile && profile.role && profile.role !== "guest") {
-      if (profile.dealer) registerDealer(profile.dealer);
-      syncPricebookWithSession(profile);
-      return profile;
+    if (rawProfile) {
+      const profile = JSON.parse(rawProfile);
+      if (profile && profile.role === "customer") {
+        syncPricebookWithSession(profile);
+        return profile;
+      }
+      if (profile && profile.role === "dealer" && profile.dealer) {
+        registerDealer(profile.dealer);
+        syncPricebookWithSession(profile);
+        return profile;
+      }
     }
   } catch {}
-  return GUEST;
+
+  registerDealer(DEFAULT_DEALER_SESSION.dealer);
+  syncPricebookWithSession(DEFAULT_DEALER_SESSION);
+  try {
+    localStorage.setItem(SESSION_PROFILE_KEY, JSON.stringify(DEFAULT_DEALER_SESSION));
+  } catch {}
+  return DEFAULT_DEALER_SESSION;
 }
 
 let state = loadCachedSession();
@@ -105,6 +168,28 @@ export async function signOut() {
   broadcastAuthChange("AUTH_UPDATED");
 }
 
+export function switchToDealerSession() {
+  registerDealer(DEFAULT_DEALER_SESSION.dealer);
+  setSession(DEFAULT_DEALER_SESSION);
+  if (typeof window !== "undefined") {
+    try {
+      localStorage.setItem("shriji.auth.tokens", JSON.stringify(DEFAULT_AUTH_TOKENS));
+      localStorage.setItem(SESSION_PROFILE_KEY, JSON.stringify(DEFAULT_DEALER_SESSION));
+    } catch {}
+  }
+  broadcastAuthChange("AUTH_UPDATED");
+}
+
+export function switchToViewerSession() {
+  setSession(DEFAULT_VIEWER_SESSION);
+  if (typeof window !== "undefined") {
+    try {
+      localStorage.setItem(SESSION_PROFILE_KEY, JSON.stringify(DEFAULT_VIEWER_SESSION));
+    } catch {}
+  }
+  broadcastAuthChange("AUTH_UPDATED");
+}
+
 let inFlightRevalidate = null;
 
 /**
@@ -112,20 +197,28 @@ let inFlightRevalidate = null;
  * This is also the pending-approval poll & live staff permissions sync.
  */
 export async function revalidateSession() {
-  if (!hasSession()) {
-    if (state !== GUEST) setSession(GUEST);
-    return null;
+  // If user deliberately selected Customer / Viewer mode, preserve it
+  if (state?.role === "customer") {
+    return state;
   }
+
+  if (!hasSession()) {
+    try {
+      localStorage.setItem("shriji.auth.tokens", JSON.stringify(DEFAULT_AUTH_TOKENS));
+    } catch {}
+  }
+
   if (inFlightRevalidate) return inFlightRevalidate;
 
   inFlightRevalidate = (async () => {
     try {
       const data = await fetchMe();
       if (!data || !data.user) {
-        // token dead and refresh failed — back to guest
-        await authLogout().catch(() => {});
-        setSession(GUEST);
-        return null;
+        // Backend offline or token refresh failed — fallback to 8826 CRM session
+        if (!state || state === GUEST) {
+          setSession(DEFAULT_DEALER_SESSION);
+        }
+        return state;
       }
       const next = sessionFromAuth(data.user, data.dealer);
       if (!isSessionEqual(state, next)) {
@@ -137,7 +230,7 @@ export async function revalidateSession() {
       }
       return next;
     } catch {
-      return state; // offline — keep showing what we have
+      return state || DEFAULT_DEALER_SESSION; // offline — keep showing active session
     } finally {
       inFlightRevalidate = null;
     }

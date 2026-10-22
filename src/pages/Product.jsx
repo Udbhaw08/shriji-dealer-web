@@ -366,15 +366,28 @@ export default function Product() {
             aria-label={t("back") || "Back"}
           >
             <Icon name="chevleft" size={18} />
-            <span style={{ fontWeight: 700, fontSize: "1.05rem" }}>Product Detail</span>
+            <span>{t("back") || "Back"}</span>
           </button>
-          <div style={{ marginLeft: "auto", display: "flex", alignItems: "center", gap: "10px" }}>
-            <button type="button" onClick={share} className="app-mobile-icon-btn" aria-label="Share product">
+          <div style={{ marginLeft: "auto", display: "flex", alignItems: "center", gap: "8px" }}>
+            <button
+              type="button"
+              onClick={() => toggleFavorite(p.id)}
+              className="app-mobile-icon-btn"
+              aria-label={isFavorite(p.id) ? "Remove from Favorites" : "Save to Favorites"}
+              style={isFavorite(p.id) ? { color: "#dc4545", borderColor: "#fecaca", background: "#fef2f2" } : undefined}
+              title={isFavorite(p.id) ? "Saved in Favorites" : "Save to Favorites"}
+            >
+              <Icon name="heart" size={17} style={isFavorite(p.id) ? { fill: "#dc4545" } : undefined} />
+            </button>
+            <button
+              type="button"
+              onClick={share}
+              className="app-mobile-icon-btn"
+              aria-label="Share product"
+              title="Share product link"
+            >
               <Icon name="share" size={17} />
             </button>
-            <Link to="/login" className="hdr-profile-avatar-btn" style={{ width: 32, height: 32 }} aria-label="Account">
-              <Icon name="user" size={16} />
-            </Link>
           </div>
         </div>
 

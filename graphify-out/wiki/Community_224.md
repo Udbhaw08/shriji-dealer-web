@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Delivery contract** (8 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **delivery-contract.md** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Automated browser evidence** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Handoff receipt** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Last-Good Live Preview** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Optional opening** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Perceptual delivery gate** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Recovering a failed comparison** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Validate and deliver** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Sheets** (6 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **sheets.md** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/references/delivery-contract.md`
+- `.agents/skills/apple-design/references/hig/sheets.md`
 
 ## Audit Trail
 

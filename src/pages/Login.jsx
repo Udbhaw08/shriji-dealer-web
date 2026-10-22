@@ -1,6 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, useNavigate, useSearchParams } from "react-router-dom";
-import { setSession, signOut, useSession, revalidateSession } from "../data/session";
+import {
+  setSession, signOut, useSession, revalidateSession,
+  switchToDealerSession, switchToViewerSession,
+} from "../data/session";
+import { isDealer } from "../data/dealer";
 import {
   login as apiLogin, staffSignup as apiStaffSignup,
   requestOtp, verifyOtp, applyAsDealer, lookupStaffCode, googleLogin, firebaseAuthLogin,
@@ -32,6 +36,228 @@ export default function Login() {
   const s = useSession();
   const nav = useNavigate();
   const [params] = useSearchParams();
+  const [showLegacyWizard, setShowLegacyWizard] = useState(false);
+
+  const isCurrentDealer = isDealer(s);
+  const isCurrentViewer = !isCurrentDealer && s.role === "customer";
+
+  if (!showLegacyWizard) {
+    return (
+      <section className="sec" style={{ paddingTop: "var(--s6)", minHeight: "80vh" }}>
+        <div className="wrap" style={{ maxWidth: 780, margin: "0 auto" }}>
+          {/* Header / Intro */}
+          <div style={{ textAlign: "center", marginBottom: "var(--s5)" }}>
+            <div style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: 6,
+              padding: "5px 14px",
+              borderRadius: 999,
+              background: "rgba(37, 99, 235, 0.08)",
+              color: "var(--blue-700, #1d4ed8)",
+              fontSize: "0.82rem",
+              fontWeight: 700,
+              marginBottom: 12,
+              border: "1px solid rgba(37, 99, 235, 0.15)",
+            }}>
+              <Icon name="check" size={14} /> Direct Mode Active · Login Page Bypassed
+            </div>
+            <h1 style={{ fontSize: "1.9rem", fontWeight: 800, margin: "0 0 8px", color: "var(--tx-1)" }}>
+              Select Workspace Account
+            </h1>
+            <p style={{ margin: 0, color: "var(--tx-2)", fontSize: "0.95rem" }}>
+              Directly test as your CRM-linked Dealer account (8826) or Customer Viewer without OTPs.
+            </p>
+          </div>
+
+          {/* 2 Big Account Cards */}
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: 16, marginBottom: 24 }}>
+            {/* DEALER ACCOUNT CARD */}
+            <div style={{
+              background: "var(--card, #fff)",
+              border: isCurrentDealer ? "2px solid var(--blue-600, #2563eb)" : "1.5px solid var(--line, #e2e8f0)",
+              borderRadius: "var(--r-lg, 14px)",
+              padding: 22,
+              boxShadow: isCurrentDealer ? "0 4px 20px -2px rgba(37, 99, 235, 0.15)" : "var(--sh-sm)",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "space-between",
+            }}>
+              <div>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 12 }}>
+                  <div>
+                    <span style={{
+                      fontSize: "0.72rem",
+                      fontWeight: 800,
+                      textTransform: "uppercase",
+                      letterSpacing: "0.06em",
+                      color: "var(--blue-600, #2563eb)",
+                    }}>
+                      Primary Dealer Account
+                    </span>
+                    <h2 style={{ fontSize: "1.3rem", fontWeight: 800, margin: "2px 0 0" }}>
+                      ownershop
+                    </h2>
+                  </div>
+                  {isCurrentDealer ? (
+                    <span className="badge badge-ok" style={{ fontSize: "0.75rem" }}>Active Now</span>
+                  ) : (
+                    <span className="badge" style={{ fontSize: "0.75rem", background: "var(--card-2)" }}>Dealer</span>
+                  )}
+                </div>
+
+                <div style={{ fontSize: "0.85rem", color: "var(--tx-2)", display: "grid", gap: 6, marginBottom: 16 }}>
+                  <div><strong>Dealer Code:</strong> DE-BKV-8180</div>
+                  <div><strong>Registered Phone:</strong> +91 88268 67932</div>
+                  <div><strong>Zoho CRM Link:</strong> #928463000001716004 (Approved)</div>
+                  <div><strong>Pricebook:</strong> MH Dist Basic Oct 2026</div>
+                  <div><strong>GSTIN:</strong> 27AJHPJ2192C1ZF</div>
+                </div>
+
+                <ul style={{ fontSize: "0.82rem", color: "var(--tx-2)", paddingLeft: 18, margin: "0 0 16px", display: "grid", gap: 4 }}>
+                  <li>Live wholesale dealer rates</li>
+                  <li>Dealer margin & profit calculator</li>
+                  <li>Exclusive Sunshine schemes</li>
+                  <li>Customer WhatsApp sharing with ?from= link</li>
+                </ul>
+              </div>
+
+              {isCurrentDealer ? (
+                <button
+                  className="btn btn-navy btn-block"
+                  onClick={() => nav("/products")}
+                  style={{ justifyContent: "center" }}
+                >
+                  <Icon name="stove" size={16} /> Continue as Dealer (Products)
+                </button>
+              ) : (
+                <button
+                  className="btn btn-navy btn-block"
+                  onClick={() => {
+                    switchToDealerSession();
+                    nav("/products");
+                  }}
+                  style={{ justifyContent: "center" }}
+                >
+                  Switch to Dealer (8826)
+                </button>
+              )}
+            </div>
+
+            {/* CUSTOMER VIEWER CARD */}
+            <div style={{
+              background: "var(--card, #fff)",
+              border: isCurrentViewer ? "2px solid var(--blue-600, #2563eb)" : "1.5px solid var(--line, #e2e8f0)",
+              borderRadius: "var(--r-lg, 14px)",
+              padding: 22,
+              boxShadow: isCurrentViewer ? "0 4px 20px -2px rgba(37, 99, 235, 0.15)" : "var(--sh-sm)",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "space-between",
+            }}>
+              <div>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 12 }}>
+                  <div>
+                    <span style={{
+                      fontSize: "0.72rem",
+                      fontWeight: 800,
+                      textTransform: "uppercase",
+                      letterSpacing: "0.06em",
+                      color: "var(--tx-3, #64748b)",
+                    }}>
+                      Linked Customer View
+                    </span>
+                    <h2 style={{ fontSize: "1.3rem", fontWeight: 800, margin: "2px 0 0" }}>
+                      Customer / Viewer
+                    </h2>
+                  </div>
+                  {isCurrentViewer ? (
+                    <span className="badge badge-ok" style={{ fontSize: "0.75rem" }}>Active Now</span>
+                  ) : (
+                    <span className="badge" style={{ fontSize: "0.75rem", background: "var(--card-2)" }}>Customer</span>
+                  )}
+                </div>
+
+                <div style={{ fontSize: "0.85rem", color: "var(--tx-2)", display: "grid", gap: 6, marginBottom: 16 }}>
+                  <div><strong>Role:</strong> Retail End-User</div>
+                  <div><strong>Pricing:</strong> Standard MRP Only</div>
+                  <div><strong>Trade Leakage:</strong> Wholesale Rates Masked</div>
+                  <div><strong>Inquiry Contact:</strong> ownershop (+91 88268 67932)</div>
+                </div>
+
+                <ul style={{ fontSize: "0.82rem", color: "var(--tx-2)", paddingLeft: 18, margin: "0 0 16px", display: "grid", gap: 4 }}>
+                  <li>Retail catalog view for customer UI testing</li>
+                  <li>WhatsApp & Call inquiries route to ownershop</li>
+                  <li>Zero-price items report "Price on Request"</li>
+                  <li>Simulates customer opening shared dealer link</li>
+                </ul>
+              </div>
+
+              {isCurrentViewer ? (
+                <button
+                  className="btn btn-navy btn-block"
+                  onClick={() => nav("/products")}
+                  style={{ justifyContent: "center" }}
+                >
+                  <Icon name="grid" size={16} /> Continue as Customer (Products)
+                </button>
+              ) : (
+                <button
+                  className="btn btn-ghost btn-block"
+                  onClick={() => {
+                    switchToViewerSession();
+                    nav("/products");
+                  }}
+                  style={{ justifyContent: "center" }}
+                >
+                  Switch to Customer View
+                </button>
+              )}
+            </div>
+          </div>
+
+          {/* Quick Nav Bar */}
+          <div style={{
+            display: "flex",
+            justifyContent: "center",
+            flexWrap: "wrap",
+            gap: 12,
+            padding: "16px 20px",
+            background: "var(--card-2, #f8fafc)",
+            borderRadius: "var(--r-md, 10px)",
+            border: "1px solid var(--line, #e2e8f0)",
+            marginBottom: 32,
+          }}>
+            <Link to="/products" className="btn btn-sm btn-navy">
+              <Icon name="grid" size={14} /> Catalog (/products)
+            </Link>
+            <Link to="/schemes" className="btn btn-sm btn-ghost">
+              <Icon name="badge" size={14} /> Schemes (/schemes)
+            </Link>
+            <Link to="/dealer" className="btn btn-sm btn-ghost">
+              <Icon name="user" size={14} /> Team Dashboard (/dealer)
+            </Link>
+            <Link to="/" className="btn btn-sm btn-ghost">
+              <Icon name="home" size={14} /> Home Page
+            </Link>
+          </div>
+
+          {/* Optional Collapsed Legacy Wizard Trigger */}
+          <div style={{ textAlign: "center" }}>
+            <button
+              type="button"
+              className="btn btn-ghost btn-sm"
+              onClick={() => setShowLegacyWizard(true)}
+              style={{ color: "var(--tx-3)", fontSize: "0.8rem" }}
+            >
+              Need full phone / email OTP login wizard? Click to expand
+            </button>
+          </div>
+        </div>
+      </section>
+    );
+  }
+
   const needAuth = params.get("needAuth") === "true";
   const [flow, setFlow] = useState(null); // null | 'owner' | 'staff'
   const [stage, setStage] = useState("role");

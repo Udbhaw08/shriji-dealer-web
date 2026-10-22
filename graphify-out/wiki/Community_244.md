@@ -1,29 +1,32 @@
 # Community 244
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Disclosure controls** (6 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
-- **disclosure-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
-- **Disclosure buttons** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
-- **Disclosure triangles** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
-- **Mobile (iOS, iPadOS, visionOS)** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **repository-evidence.test.mjs** (13 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **fixture()** (2 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **git()** (2 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **evidencePayload()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **waitForState()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 63]] (2 shared connections)
+- [[Community 31]] (2 shared connections)
+- [[Community 129]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- `.agents/skills/archify/test/repository-evidence.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 23 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

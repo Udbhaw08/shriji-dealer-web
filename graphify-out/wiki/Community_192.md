@@ -1,32 +1,31 @@
 # Community 192
 
-> 10 nodes · cohesion 0.29
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **stages** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **additionalProperties** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **required** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **Maps** (7 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Place cards** (3 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **maps.md** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Adding place cards outside of a map** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Custom information** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Displaying place cards in a map** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Indoor maps** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
 
 ## Relationships
 
-- [[Community 29]] (3 shared connections)
-- [[Community 117]] (3 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `.agents/skills/apple-design/references/hig/maps.md`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

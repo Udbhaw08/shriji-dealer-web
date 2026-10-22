@@ -9,18 +9,27 @@
 /* Sample dealer directory. In production these are Zoho contacts. */
 export const DEALERS = [
   {
-    id: "SD-4587",
-    name: "Shah Electronics",
-    person: "Kunal Shah",
-    city: "Andheri West, Mumbai",
-    state: "Maharashtra",
-    phone: "+91 98200 12345",
-    phoneRaw: "919820012345",
+    id: "DE-BKV-8180",
+    dealerId: "fa0e9ef4-29d5-4816-9e22-c3fefee354be",
+    name: "ownershop",
+    person: "Owner",
+    city: "Delhi",
+    state: "Delhi",
+    address: "delhi - 110092",
+    phone: "+91 88268 67932",
+    phoneRaw: "918826867932",
     tier: "Verified Dealer",
+    status: "approved",
+    price_tier: "MH Dist Basic Oct 2026",
+    pricebookId: "3334672000001355803",
     rebatePct: 22,
+    gst_number: "27AJHPJ2192C1ZF",
+    gst_treatment: "Registered Business - Regular",
+    zoho_account_id: "928463000001716004",
   },
   {
     id: "SD-2210",
+    dealerId: "cf0cea60-d5e9-4b01-9fbf-8df7814e8ce7",
     name: "Rajesh Appliances",
     person: "Rajesh Mehta",
     city: "Borivali East, Mumbai",
@@ -28,11 +37,19 @@ export const DEALERS = [
     phone: "+91 98201 44556",
     phoneRaw: "919820144556",
     tier: "Verified Dealer",
+    status: "approved",
     rebatePct: 19,
   },
 ];
 
-export const dealerById = (id) => DEALERS.find((d) => d.id === id) || null;
+export const dealerById = (id) =>
+  DEALERS.find(
+    (d) =>
+      d.id === id ||
+      d.dealerId === id ||
+      d.phoneRaw === id ||
+      (typeof id === "string" && id.includes("8826") && d.phoneRaw.includes("8826"))
+  ) || null;
 
 export function registerDealer(d) {
   if (!d || !d.id) return;

@@ -4,15 +4,18 @@ import { Icon } from "../ui";
 import { inr, priceFor, tagFor, productSlug } from "../data/dealer";
 import { useLanguage } from "../data/i18n";
 import { useFavorites } from "../data/favoritesStore";
+import { useSession, isDealer } from "../data/session";
 
 export default function ProductCard({ p }) {
   const { isFavorite, toggleFavorite } = useFavorites();
   const saved = isFavorite(p.id);
   const [imgErr, setImgErr] = useState(false);
   const { t } = useLanguage();
+  const session = useSession();
+  const isDealerUser = isDealer(session) && session?.canSeeDealerPrice !== false;
 
   const tag = tagFor(p);
-  const { mrp, isPriceOnRequest } = priceFor(p);
+  const { mrp, dealer, isPriceOnRequest } = priceFor(p);
 
   const subtitle =
     p.zohoTitle && p.name && p.zohoTitle.trim().toLowerCase() !== p.name.trim().toLowerCase()
@@ -25,8 +28,11 @@ export default function ProductCard({ p }) {
     badges.push({ label: "New", kind: "blue" });
   }
 
+  const categoryChip = p.brand?.toUpperCase() || (p.cat === "small_appliances" ? "KUCHENBAU" : (p.catLabel || "APPLIANCE").toUpperCase());
+
   return (
     <article className="prod">
+      {/* Elevated Floating Heart Button (Top-Right) */}
       <button
         type="button"
         className="heart"
@@ -39,7 +45,7 @@ export default function ProductCard({ p }) {
           toggleFavorite(p.id);
         }}
       >
-        <Icon name="heart" size={16} />
+        <Icon name="heart" size={17} />
       </button>
 
       <Link to={`/products/${p.slug || productSlug(p) || p.id}`} className="prod-link">
@@ -54,12 +60,12 @@ export default function ProductCard({ p }) {
             />
           ) : (
             <span className="prod-fallback">
-              <Icon name={p.cat === "chimneys" ? "chimney" : p.cat === "small_appliances" ? "blender" : "stove"} size={28} />
+              <Icon name={p.cat === "chimneys" ? "chimney" : p.cat === "small_appliances" ? "blender" : "stove"} size={32} />
             </span>
           )}
           {/* Category Chip in lower-left of image area */}
           <span className="prod-cat-badge">
-            {p.brand?.toUpperCase() || (p.cat === "small_appliances" ? "KUCHENBAU" : (p.catLabel || "APPLIANCE").toUpperCase())}
+            {categoryChip}
           </span>
         </span>
 
@@ -79,20 +85,37 @@ export default function ProductCard({ p }) {
 
           <span className="prod-price-block">
             <span className="prod-price-row">
-              <span className="prod-price-lbl mrp-lbl">{t("price_mrp_label") || "MRP"}</span>
-              <b className="prod-price-val">
-                {isPriceOnRequest || mrp <= 0 ? t("price_on_request") : inr(mrp)}
-              </b>
+              <span className="prod-price-lbl mrp-lbl">{t("price_mrp_label") || "Retail MRP"}</span>
+              <div className="prod-mrp-group">
+                <b className="prod-price-val">
+                  {isPriceOnRequest || mrp <= 0 ? t("price_on_request") || "Price on Request" : inr(mrp)}
+                </b>
+                {!isPriceOnRequest && mrp > 0 && (
+                  <span className="prod-tax-note">(Incl. taxes)</span>
+                )}
+              </div>
             </span>
 
-            {/* Dealer Wholesale Action Button Pill matching Stitch Frame 1 */}
-            <span className="prod-dealer-action" aria-label="View Dealer Price">
-              <span className="prod-dealer-action-left">
-                <Icon name="lock" size={13} />
-                <span>{t("price_dealer_view") || "Dealer Price"}</span>
+            {/* Dealer Wholesale Action Button Pill */}
+            {isDealerUser && dealer > 0 && !isPriceOnRequest ? (
+              <span className="prod-dealer-action unlocked" aria-label="Dealer Wholesale Rate">
+                <span className="prod-dealer-action-left">
+                  <span className="dealer-verified-dot" />
+                  <span className="dealer-rate-text">
+                    Wholesale: <b>{inr(dealer)}</b> <small>+GST</small>
+                  </span>
+                </span>
+                <Icon name="chev" size={12} />
               </span>
-              <Icon name="chev" size={12} />
-            </span>
+            ) : (
+              <span className="prod-dealer-action" aria-label="View Dealer Price">
+                <span className="prod-dealer-action-left">
+                  <Icon name="lock" size={13} />
+                  <span>{t("price_dealer_view") || "View Dealer Price"}</span>
+                </span>
+                <Icon name="chev" size={12} />
+              </span>
+            )}
           </span>
         </span>
       </Link>

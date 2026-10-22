@@ -751,7 +751,7 @@ export async function fetchZohoCategories({ refresh = false } = {}) {
         c.name !== "Adjustments" &&
         c.name?.trim().toLowerCase() !== "all products" &&
         c.url !== "all-products" &&
-        !/banner|hero|scheme/i.test(c.name || "") &&
+        !/banner|hero|scheme|schema|logo|branding/i.test(c.name || "") &&
         c.visibility !== false && // Exclude offline categories
         c.status !== "inactive" &&
         c.has_active_items !== false
@@ -786,9 +786,9 @@ export function isBannerItem(item) {
   return (
     cat.includes("banner") ||
     cat.includes("hero") ||
-    name.startsWith("banner") ||
-    name.startsWith("restor banner") ||
-    name.startsWith("hero banner")
+    name.includes("banner") ||
+    name.includes("hero slide") ||
+    name.startsWith("banner")
   );
 }
 
@@ -798,63 +798,28 @@ export function isSchemeItem(item) {
   const cat = (item.category_name || item.category?.category_name || "").toLowerCase().trim();
   return (
     cat.includes("scheme") ||
-    name.startsWith("scheme") ||
-    name.startsWith("restor scheme")
+    cat.includes("schema") ||
+    name.includes("scheme") ||
+    name.includes("schema")
   );
 }
 
-export const DEFAULT_STORE_BANNERS = [
-  {
-    id: "1st",
-    src: "/img/1st.jpeg",
-    alt: "ReSTOR — Reimagine, Rebuild, Restart",
-    title: "ReSTOR — Reimagine, Rebuild, Restart",
-    bgColor: "#0110a7",
-    link: "/products",
-  },
-  {
-    id: "2nd",
-    src: "/img/2nd.jpeg",
-    alt: "Sunshine Defender Series — Matte Finish Toughened Glass",
-    title: "Sunshine Defender Series — Matte Finish Toughened Glass",
-    bgColor: "#95a5b5",
-    link: "/products?search=Defender",
-  },
-  {
-    id: "3rd",
-    src: "/img/3rd.jpeg",
-    alt: "Sunshine Shine Platinum — Matte Toughened Glass Cooktop",
-    title: "Sunshine Shine Platinum — Matte Toughened Glass Cooktop",
-    bgColor: "#ffffff",
-    link: "/products?search=Platinum",
-  },
-];
+export function isLogoItem(item) {
+  if (!item) return false;
+  const name = (item.name || "").toLowerCase().trim();
+  const cat = (item.category_name || item.category?.category_name || "").toLowerCase().trim();
+  return (
+    cat.includes("logo") ||
+    cat.includes("branding") ||
+    name.includes("logo") ||
+    name.includes("brand asset")
+  );
+}
+
+export const DEFAULT_STORE_BANNERS = [];
 
 export const DEFAULT_SCHEMES = {
-  active: [
-    {
-      id: "annual-business-scheme-2026-27",
-      title: "Annual Business Scheme FY 2026-27",
-      when: "Valid for FY 2026-27",
-      blurb: "Achieve More, Earn Exciting Rewards! Tour tickets and FOC product rewards.",
-      badge: "FY 2026-27",
-      tagline: "Stronger Together, Growing Together",
-      flyer: "/img/scheme-annual-business-2026.jpg",
-      pdfUrl: "/downloads/Sunshine-Annual-Business-Scheme-FY26-27.pdf",
-      pdfName: "Sunshine-Annual-Business-Scheme-FY26-27.pdf",
-    },
-    {
-      id: "diwali-scheme-2026",
-      title: "Diwali Scheme 2026",
-      when: "01 Sep 2026 to 31 Dec 2026",
-      blurb: "Celebrate More. Earn More. Exclusive dealer gift slabs on Sunshine appliances.",
-      badge: "01 Sep – 31 Dec 2026",
-      tagline: "Celebrate More. Earn More.",
-      flyer: "/img/scheme-diwali-2026.jpg",
-      pdfUrl: "/downloads/Sunshine-Diwali-Scheme-2026.pdf",
-      pdfName: "Sunshine-Diwali-Scheme-2026.pdf",
-    },
-  ],
+  active: [],
   upcoming: [],
   past: [],
 };
@@ -864,7 +829,7 @@ let allRawProductsCacheTime = 0;
 
 export async function fetchAllRawZohoProducts({ refresh = false } = {}) {
   const now = Date.now();
-  if (!refresh && cachedAllRawProducts && now - allRawProductsCacheTime < 15000) {
+  if (!refresh && cachedAllRawProducts && now - cachedAllRawProductsCacheTime < 15000) {
     return cachedAllRawProducts;
   }
 
@@ -895,256 +860,30 @@ export async function fetchAllRawZohoProducts({ refresh = false } = {}) {
   return allProducts;
 }
 
-export async function fetchZohoBanners({ refresh = false } = {}) {
+/**
+ * Promotional Banners: Served directly from Supabase Store Content Manager.
+ * No hardcoded or Zoho banners are served, ensuring zero millisecond flicker.
+ */
+export async function fetchZohoBanners() {
   try {
-    const [{ map: categoryMap, categoryByName }, allRaw] = await Promise.all([
-      getCategoryVisibilityMap({ refresh }),
-      fetchAllRawZohoProducts({ refresh }),
-    ]);
-
-    // Check if the ReStor Banners category itself is offline
-    const bannerCategory = categoryByName.get("restor banners") || categoryByName.get("banners");
-    const isBannerCategoryOffline = bannerCategory && (bannerCategory.visibility === false || bannerCategory.status === "inactive");
-
-    if (isBannerCategoryOffline) {
-      console.log("ℹ️ Category 'ReStor Banners' is offline in Zoho. Custom banners hidden, showing default brand banners.");
-      return DEFAULT_STORE_BANNERS;
-    }
-
-    // Filter banner items: must be a banner item, status active, show_in_storefront !== false, and category online
-    const bannerItems = allRaw.filter((p) =>
-      isBannerItem(p) && isItemOnline(p, categoryMap, categoryByName)
-    );
-
-    if (bannerItems.length === 0) {
-      return DEFAULT_STORE_BANNERS;
-    }
-
-    const cdnBase = "https://cdn2.zohoecommerce.com/product-images/";
-    const domainParam = "?storefront_domain=www.shrijidomestic.com";
-
-    const liveBanners = bannerItems
-      .map((p) => {
-        const variant = p.variants?.[0] || {};
-        const docs = p.documents?.length ? p.documents : (variant.documents || []);
-        const primaryDoc = docs[0] || (p.document_id && p.document_name ? { file_name: p.document_name, document_id: p.document_id } : null);
-
-        if (!primaryDoc || !primaryDoc.file_name) return null;
-
-        const src = primaryDoc.document_id
-          ? `${cdnBase}${encodeURIComponent(primaryDoc.file_name)}/${primaryDoc.document_id}/1920x800${domainParam}`
-          : `${cdnBase}${encodeURIComponent(primaryDoc.file_name)}${domainParam}`;
-
-        const cleanTitle = p.name
-          .replace(/^(restor\s+)?banner\s*[:-]?\s*(\d+\s*[:-]?\s*)?/i, "")
-          .trim() || p.name;
-
-        const descText = (p.short_description || p.description || "").trim();
-        let link = "";
-        const urlMatch = descText.match(/(https?:\/\/[^\s<"']+|\/[a-zA-Z0-9_\-\/?=&]+)/);
-        if (urlMatch) {
-          link = urlMatch[1];
-        }
-
-        let videoUrl = null;
-        const videoMatch = descText.match(/(https?:\/\/[^\s<"']+\.(?:mp4|webm)|https?:\/\/(?:www\.)?(?:youtube\.com\/watch\?v=|youtu\.be\/|vimeo\.com\/)[^\s<"']+)/i);
-        if (videoMatch) {
-          videoUrl = videoMatch[1];
-        }
-
-        const orderMatch = p.name.match(/(?:banner\s*[:-]?\s*|^)(\d{1,2})/i);
-        const order = orderMatch ? parseInt(orderMatch[1], 10) : 99;
-
-        return {
-          id: p.product_id || p.id,
-          src,
-          alt: p.name,
-          title: cleanTitle,
-          bgColor: "#0110a7",
-          link: link || null,
-          videoUrl: videoUrl || null,
-          description: descText,
-          order,
-        };
-      })
-      .filter(Boolean);
-
-    if (liveBanners.length > 0) {
-      liveBanners.sort((a, b) => a.order - b.order);
-      return liveBanners;
-    }
-  } catch (err) {
-    console.warn("⚠️ Failed to fetch live Zoho banners, falling back to defaults:", err.message);
+    const { getSupabaseBanners } = await import("../backend/src/services/content.js");
+    return await getSupabaseBanners();
+  } catch {
+    return [];
   }
-
-  return DEFAULT_STORE_BANNERS;
 }
 
-export async function fetchZohoSchemes({ refresh = false } = {}) {
+/**
+ * Promotional Schemes: Served directly from Supabase Store Content Manager.
+ * No hardcoded or Zoho schemes are served, ensuring zero millisecond flicker.
+ */
+export async function fetchZohoSchemes() {
   try {
-    const [{ map: categoryMap, categoryByName }, allRaw] = await Promise.all([
-      getCategoryVisibilityMap({ refresh }),
-      fetchAllRawZohoProducts({ refresh }),
-    ]);
-
-    // Check if the ReStor Schemes category itself is offline
-    const schemeCategory = categoryByName.get("restor schemes") || categoryByName.get("schemes");
-    const isSchemeCategoryOffline = schemeCategory && (schemeCategory.visibility === false || schemeCategory.status === "inactive");
-
-    if (isSchemeCategoryOffline) {
-      console.log("ℹ️ Category 'ReStor Schemes' is offline in Zoho. All schemes hidden.");
-      return {
-        active: [],
-        upcoming: [],
-        past: [],
-      };
-    }
-
-    // Filter scheme items: must be a scheme item, status active, show_in_storefront !== false, and category online
-    const schemeItems = allRaw.filter((p) =>
-      isSchemeItem(p) && isItemOnline(p, categoryMap, categoryByName)
-    );
-
-    // If ReStor Schemes category exists in Zoho, Zoho is the live source of truth for schemes
-    if (schemeCategory) {
-      const cdnBase = "https://cdn2.zohoecommerce.com/product-images/";
-      const domainParam = "?storefront_domain=www.shrijidomestic.com";
-
-      const liveActiveSchemes = schemeItems.map((p) => {
-        const variant = p.variants?.[0] || {};
-        const docs = p.documents?.length ? p.documents : (variant.documents || []);
-        const imgDoc = docs.find((d) => d.file_name && !d.file_name.toLowerCase().endsWith(".pdf")) || docs[0];
-        const pdfDoc = docs.find((d) => d.file_name && d.file_name.toLowerCase().endsWith(".pdf"));
-
-        let flyer = "/img/scheme-annual-business-2026.jpg";
-        if (imgDoc && imgDoc.file_name) {
-          flyer = imgDoc.document_id
-            ? `${cdnBase}${encodeURIComponent(imgDoc.file_name)}/${imgDoc.document_id}/800x800${domainParam}`
-            : `${cdnBase}${encodeURIComponent(imgDoc.file_name)}${domainParam}`;
-        } else if (p.name.toLowerCase().includes("diwali")) {
-          flyer = "/img/scheme-diwali-2026.jpg";
-        }
-
-        let pdfUrl = flyer;
-        let pdfName = `${p.name.replace(/[^a-zA-Z0-9_-]/g, "_")}.pdf`;
-        if (pdfDoc && pdfDoc.file_name) {
-          pdfUrl = `${cdnBase}${encodeURIComponent(pdfDoc.file_name)}/${pdfDoc.document_id}${domainParam}`;
-          pdfName = pdfDoc.file_name;
-        }
-
-        let badge = "Dealer Exclusive";
-        if (/diwali/i.test(p.name)) badge = "Diwali Special";
-        else if (/2025/i.test(p.name)) badge = "2025 Offer";
-        else if (/kashmir/i.test(p.name)) badge = "Regional Scheme";
-        else if (/spot/i.test(p.name)) badge = "Spot Offer";
-        else if (/annual/i.test(p.name)) badge = "Annual Scheme";
-
-        const schemeDesc = (p.short_description || p.description || "").trim();
-        const pdfLinkMatch = schemeDesc.match(/(https?:\/\/[^\s<"']+\.pdf[^\s<"']*)/i);
-        if (pdfLinkMatch) {
-          pdfUrl = pdfLinkMatch[1];
-        }
-
-        let videoUrl = null;
-        const videoMatch = schemeDesc.match(/(https?:\/\/[^\s<"']+\.(?:mp4|webm)|https?:\/\/(?:www\.)?(?:youtube\.com\/watch\?v=|youtu\.be\/|vimeo\.com\/)[^\s<"']+)/i);
-        if (videoMatch) {
-          videoUrl = videoMatch[1];
-        }
-
-        return {
-          id: p.product_id || p.id,
-          title: p.name,
-          badge,
-          when: "Active Dealer Scheme",
-          blurb: schemeDesc || "Exclusive promotional scheme on selected Sunshine models. Contact your sales representative or book directly.",
-          tagline: "Celebrate More. Earn More.",
-          flyer,
-          pdfUrl,
-          pdfName,
-          videoUrl: videoUrl || null,
-          status: "active",
-        };
-      });
-
-      return {
-        active: liveActiveSchemes,
-        upcoming: [],
-        past: [],
-      };
-    }
-
-    // Default fallback when Zoho category is not configured
-    const cdnBase = "https://cdn2.zohoecommerce.com/product-images/";
-    const domainParam = "?storefront_domain=www.shrijidomestic.com";
-
-    const liveActiveSchemes = schemeItems.map((p) => {
-      const variant = p.variants?.[0] || {};
-      const docs = p.documents?.length ? p.documents : (variant.documents || []);
-      const imgDoc = docs.find((d) => d.file_name && !d.file_name.toLowerCase().endsWith(".pdf")) || docs[0];
-      const pdfDoc = docs.find((d) => d.file_name && d.file_name.toLowerCase().endsWith(".pdf"));
-
-      let flyer = "/img/scheme-annual-business-2026.jpg";
-      if (imgDoc && imgDoc.file_name) {
-        flyer = imgDoc.document_id
-          ? `${cdnBase}${encodeURIComponent(imgDoc.file_name)}/${imgDoc.document_id}/800x800${domainParam}`
-          : `${cdnBase}${encodeURIComponent(imgDoc.file_name)}${domainParam}`;
-      } else if (p.name.toLowerCase().includes("diwali")) {
-        flyer = "/img/scheme-diwali-2026.jpg";
-      }
-
-      let pdfUrl = flyer;
-      let pdfName = `${p.name.replace(/[^a-zA-Z0-9_-]/g, "_")}.pdf`;
-      if (pdfDoc && pdfDoc.file_name) {
-        pdfUrl = `${cdnBase}${encodeURIComponent(pdfDoc.file_name)}/${pdfDoc.document_id}${domainParam}`;
-        pdfName = pdfDoc.file_name;
-      }
-
-      let badge = "Dealer Exclusive";
-      if (/diwali/i.test(p.name)) badge = "Diwali Special";
-      else if (/2025/i.test(p.name)) badge = "2025 Offer";
-      else if (/kashmir/i.test(p.name)) badge = "Regional Scheme";
-      else if (/spot/i.test(p.name)) badge = "Spot Offer";
-      else if (/annual/i.test(p.name)) badge = "Annual Scheme";
-
-      const schemeDesc = (p.short_description || p.description || "").trim();
-      const pdfLinkMatch = schemeDesc.match(/(https?:\/\/[^\s<"']+\.pdf[^\s<"']*)/i);
-      if (pdfLinkMatch) {
-        pdfUrl = pdfLinkMatch[1];
-      }
-
-      let videoUrl = null;
-      const videoMatch = schemeDesc.match(/(https?:\/\/[^\s<"']+\.(?:mp4|webm)|https?:\/\/(?:www\.)?(?:youtube\.com\/watch\?v=|youtu\.be\/|vimeo\.com\/)[^\s<"']+)/i);
-      if (videoMatch) {
-        videoUrl = videoMatch[1];
-      }
-
-      return {
-        id: p.product_id || p.id,
-        title: p.name,
-        badge,
-        when: "Active Dealer Scheme",
-        blurb: schemeDesc || "Exclusive promotional scheme on selected Sunshine models. Contact your sales representative or book directly.",
-        tagline: "Celebrate More. Earn More.",
-        flyer,
-        pdfUrl,
-        pdfName,
-        videoUrl: videoUrl || null,
-        status: "active",
-      };
-    });
-
-    if (liveActiveSchemes.length > 0) {
-      return {
-        active: liveActiveSchemes,
-        upcoming: DEFAULT_SCHEMES.upcoming || [],
-        past: DEFAULT_SCHEMES.past || [],
-      };
-    }
-  } catch (err) {
-    console.warn("⚠️ Failed to fetch live Zoho schemes, falling back to defaults:", err.message);
+    const { getSupabaseSchemes } = await import("../backend/src/services/content.js");
+    return await getSupabaseSchemes();
+  } catch {
+    return { active: [], upcoming: [], past: [] };
   }
-
-  return DEFAULT_SCHEMES;
 }
 
 export async function fetchZohoProducts({ refresh = false, pricebookId = "3334672000000547177" } = {}) {
@@ -1164,9 +903,9 @@ export async function fetchZohoProducts({ refresh = false, pricebookId = "333467
     fetchZohoPricebookItems(pbId, { refresh }),
   ]);
 
-  // 2. Filter active, visible products belonging to online categories (excluding banners & schemes)
+  // 2. Filter active, visible products belonging to online categories (strictly excluding banners, schemes & logos)
   const activeProducts = allProducts.filter(
-    (p) => !isBannerItem(p) && !isSchemeItem(p) && isItemOnline(p, categoryMap, categoryByName)
+    (p) => !isBannerItem(p) && !isSchemeItem(p) && !isLogoItem(p) && isItemOnline(p, categoryMap, categoryByName)
   );
 
   // 3. Normalize products with this specific pricebook's wholesale rates

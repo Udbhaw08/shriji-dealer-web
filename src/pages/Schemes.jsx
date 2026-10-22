@@ -1,18 +1,37 @@
 import { useEffect, useState } from "react";
 import { useLanguage } from "../data/i18n";
-import { COMPANY, SCHEMES } from "../data/site";
+import { COMPANY } from "../data/site";
 import { apiFetch } from "../data/api";
 import { Icon } from "../ui";
 
+const SCHEMES_CACHE_KEY = "shriji_supabase_schemes_v2";
+
+const getCachedSchemes = () => {
+  try {
+    const raw = sessionStorage.getItem(SCHEMES_CACHE_KEY);
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      if (parsed && Array.isArray(parsed.active) && parsed.active.length > 0) {
+        const hasLegacy = parsed.active.some(
+          (s) => s.id === "annual-business-scheme-2026-27" || s.id === "diwali-scheme-2026"
+        );
+        if (!hasLegacy) return parsed;
+      }
+    }
+  } catch {}
+  return { active: [], upcoming: [], past: [] };
+};
+
 export default function Schemes() {
   const { t } = useLanguage();
-  const [schemesData, setSchemesData] = useState(SCHEMES);
+  const [schemesData, setSchemesData] = useState(getCachedSchemes);
+  const [loading, setLoading] = useState(() => !schemesData.active?.length);
   const [activeTab, setActiveTab] = useState("active"); // "active" | "upcoming" | "past"
   const [activeFlyer, setActiveFlyer] = useState(null); // scheme object for modal
   const [activeVideo, setActiveVideo] = useState(null); // scheme object for video player modal
   const [toastMsg, setToastMsg] = useState("");
 
-  // Fetch dynamic schemes from Zoho via /api/schemes
+  // Fetch dynamic schemes from Supabase via /api/schemes
   useEffect(() => {
     let active = true;
     apiFetch("/api/schemes")
@@ -20,9 +39,16 @@ export default function Schemes() {
       .then((data) => {
         if (active && data?.schemes) {
           setSchemesData(data.schemes);
+          try {
+            sessionStorage.setItem(SCHEMES_CACHE_KEY, JSON.stringify(data.schemes));
+          } catch {}
+          setLoading(false);
         }
       })
-      .catch((err) => console.warn("Failed to load live schemes:", err));
+      .catch((err) => {
+        console.warn("Failed to load live schemes:", err);
+        if (active) setLoading(false);
+      });
 
     return () => {
       active = false;
@@ -100,10 +126,10 @@ export default function Schemes() {
             {t("schemes_sub")}
           </p>
 
-          {/* Segmented Pill Tabs */}
-          <div className="tabs" role="tablist" style={{ marginTop: "var(--s4)", display: "inline-flex" }}>
+          {/* Segmented Pill Tabs matching Stitch Frame 4 */}
+          <div className="scheme-segmented-tabs" role="tablist">
             <button
-              className="tab"
+              className={`scheme-seg-tab ${activeTab === "active" ? "active" : ""}`}
               role="tab"
               aria-selected={activeTab === "active"}
               onClick={() => setActiveTab("active")}
@@ -111,7 +137,7 @@ export default function Schemes() {
               {t("scheme_tab_active")} ({activeSchemes.length})
             </button>
             <button
-              className="tab"
+              className={`scheme-seg-tab ${activeTab === "upcoming" ? "active" : ""}`}
               role="tab"
               aria-selected={activeTab === "upcoming"}
               onClick={() => setActiveTab("upcoming")}
@@ -119,7 +145,7 @@ export default function Schemes() {
               {t("scheme_tab_upcoming")} ({upcomingSchemes.length})
             </button>
             <button
-              className="tab"
+              className={`scheme-seg-tab ${activeTab === "past" ? "active" : ""}`}
               role="tab"
               aria-selected={activeTab === "past"}
               onClick={() => setActiveTab("past")}
@@ -141,7 +167,14 @@ export default function Schemes() {
                   <article key={s.id} className="scheme-card">
                     {/* Header Banner - Title per image */}
                     <div className={`scheme-card-header ${isDiwali ? "diwali" : "annual"}`}>
-                      <span className="badge badge-blue">{s.badge}</span>
+                      <div className="scheme-card-badge-row">
+                        <span className="badge badge-blue">{s.badge}</span>
+                        {s.daysLeft && (
+                          <span className="scheme-countdown-pill">
+                            <Icon name="clock" size={13} /> {s.daysLeft}
+                          </span>
+                        )}
+                      </div>
                       <h2 className="scheme-card-title">{s.title}</h2>
                       <span className="scheme-card-when">{s.when}</span>
                       <p className="scheme-card-tagline">{s.tagline}</p>
@@ -149,18 +182,33 @@ export default function Schemes() {
 
                     {/* Body: Poster thumbnail + brief summary without details */}
                     <div className="scheme-card-body">
-                      <img
-                        src={s.flyer}
-                        alt={`${s.title} official flyer`}
-                        className="scheme-poster-thumb"
-                        onClick={() => setActiveFlyer(s)}
-                        title="Click to view full scheme flyer"
-                      />
+                      <div className="scheme-flyer-thumb-wrap">
+                        <img
+                          src={s.flyer}
+                          alt={`${s.title} official flyer`}
+                          className="scheme-poster-thumb"
+                          onClick={() => setActiveFlyer(s)}
+                          title="Click to view full scheme flyer"
+                        />
+                        <div className="scheme-flyer-pdf-badge" onClick={() => setActiveFlyer(s)}>
+                          <Icon name="search" size={12} />
+                          <span>PDF</span>
+                        </div>
+                      </div>
+
                       <div className="scheme-card-meta">
-                        <p>{s.blurb}</p>
-                        <p style={{ marginTop: "6px", fontSize: "0.8rem", color: "var(--tx-3)" }}>
-                          Official flyer available in high-resolution PDF format.
-                        </p>
+                        <p className="scheme-card-blurb">{s.blurb}</p>
+                        <div className="scheme-badges-bar">
+                          <span className="scheme-verified-pill">
+                            <span className="scheme-verified-dot" />
+                            Verified Dealer Scheme
+                          </span>
+                          {isDiwali ? (
+                            <span className="scheme-slab-pill">Up to 8.5% Rebate</span>
+                          ) : (
+                            <span className="scheme-slab-pill">Volume Target Slabs</span>
+                          )}
+                        </div>
                       </div>
                     </div>
 
@@ -235,6 +283,31 @@ export default function Schemes() {
           )}
         </div>
       </section>
+
+      {/* Persistent Scheme Desk Direct Contact Bar (Matches Stitch Frame 4) */}
+      <aside className="scheme-desk-dock">
+        <div className="wrap">
+          <a
+            className="scheme-desk-card"
+            href={`tel:${COMPANY.phone.replace(/[^0-9+]/g, "")}`}
+            aria-label="Call Scheme Desk Direct"
+          >
+            <div className="scheme-desk-left">
+              <span className="scheme-desk-icon-wrap">
+                <Icon name="phone" size={18} />
+              </span>
+              <div className="scheme-desk-info">
+                <span className="scheme-desk-label">Scheme Desk Direct</span>
+                <span className="scheme-desk-number">{COMPANY.phone}</span>
+              </div>
+            </div>
+            <div className="scheme-desk-action-pill">
+              <span>Call for Details</span>
+              <Icon name="chev" size={14} />
+            </div>
+          </a>
+        </div>
+      </aside>
 
       {/* Lightbox Modal for Scheme Flyer */}
       {activeFlyer && (

@@ -1,14 +1,15 @@
 # Community 361
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **Dock menus** (4 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
-- **dock-menus.md** (1 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
+- **repository-evidence-replacement.test.mjs** (5 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **checkEvidence()** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **fixture()** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
 
 ## Relationships
 
@@ -16,11 +17,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/dock-menus.md`
+- `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

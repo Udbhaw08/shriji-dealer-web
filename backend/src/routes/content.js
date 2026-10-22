@@ -102,3 +102,35 @@ contentRouter.post('/', async (req, res, next) => {
     next(err);
   }
 });
+
+// DELETE /api/content/:id
+contentRouter.delete('/:id', async (req, res, next) => {
+  try {
+    const { id } = req.params;
+    const deleted = await sql`
+      DELETE FROM public.store_content
+      WHERE id = ${id}
+      RETURNING *;
+    `;
+    return res.json({ ok: true, deleted: deleted[0] || null });
+  } catch (err) {
+    next(err);
+  }
+});
+
+// PATCH /api/content/:id/toggle
+contentRouter.patch('/:id/toggle', async (req, res, next) => {
+  try {
+    const { id } = req.params;
+    const updated = await sql`
+      UPDATE public.store_content
+      SET is_active = NOT is_active, updated_at = NOW()
+      WHERE id = ${id}
+      RETURNING *;
+    `;
+    return res.json({ ok: true, item: updated[0] || null });
+  } catch (err) {
+    next(err);
+  }
+});
+

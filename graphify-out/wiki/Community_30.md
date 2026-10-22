@@ -1,55 +1,52 @@
 # Community 30
 
-> 42 nodes · cohesion 0.07
+> 43 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **delete()** (29 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **addEventListener()** (21 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **.removeEventListener()** (16 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **tm()** (11 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **_onStorageEvent()** (9 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **addListener()** (8 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **em()** (8 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **uh()** (8 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **.addEventListener()** (7 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **gf()** (7 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **ho()** (7 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **vo()** (7 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **al()** (6 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **dh()** (6 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **go()** (6 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **oc()** (6 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **removeListener()** (6 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **vf()** (6 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **Fi()** (5 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **ol()** (5 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **Rp()** (5 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **Bp()** (4 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **detachListener()** (4 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **removeWindowListener()** (4 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **stopPolling()** (4 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- *... and 17 more nodes in this community*
+- **properties** (28 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **label** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelSegment** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **brand** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **channelX** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **channelY** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **classification** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **from** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **fromSide** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelAt** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelDx** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelDy** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **route** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **sublabel** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **tag** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **to** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **toSide** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **variant** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **yOffset** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (54 shared connections)
-- [[Master Codebase Architecture Reference]] (17 shared connections)
-- [[Zoho Integration Architecture]] (10 shared connections)
-- [[Client Products Data Store]] (10 shared connections)
-- [[Pricing & Roles Skill]] (10 shared connections)
-- [[Live Pricing Audit Tool]] (9 shared connections)
-- [[Community 49]] (9 shared connections)
-- [[Product Pages Specification]] (9 shared connections)
-- [[Community 69]] (3 shared connections)
+- [[Community 198]] (3 shared connections)
+- [[Community 438]] (1 shared connections)
+- [[Community 439]] (1 shared connections)
+- [[Community 440]] (1 shared connections)
+- [[Community 408]] (1 shared connections)
+- [[Community 409]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 247 (100%)
+- EXTRACTED: 92 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

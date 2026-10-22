@@ -1,55 +1,57 @@
 # Product Requirements Documentation
 
-> 79 nodes · cohesion 0.05
+> 70 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **uc()** (26 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **zr()** (24 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **kf()** (23 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **Hr()** (21 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **lc()** (19 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **Hi()** (18 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **r()** (16 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **Ur()** (15 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **dc()** (13 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **ki()** (12 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **Pi()** (12 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **ri()** (11 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **Ad()** (10 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **fh()** (10 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **hh()** (10 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **Ii()** (10 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **Ai()** (9 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **cs()** (9 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **ic()** (9 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **request()** (9 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **Ar()** (8 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **Dr()** (8 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **Ei()** (8 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **Lr()** (8 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **ni()** (8 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- *... and 54 more nodes in this community*
+- **i()** (64 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **n()** (30 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **np()** (22 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **t()** (21 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **xa()** (20 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **E()** (19 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **b()** (18 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **bm()** (15 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **r()** (15 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **rf()** (15 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **am()** (14 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **ju()** (14 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **os()** (13 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **Ur()** (13 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **c()** (11 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **hu()** (11 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **tp()** (11 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **ps()** (10 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **sf()** (10 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **vf()** (10 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **cs()** (9 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **dd()** (9 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **ms()** (9 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **_onStorageEvent()** (9 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **jm()** (8 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- *... and 45 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (84 shared connections)
-- [[Dependencies & Package Config]] (59 shared connections)
-- [[Graphify Knowledge Graph Skill]] (19 shared connections)
-- [[Pricing Regression Test Suite]] (16 shared connections)
-- [[Zoho API Diagnostic Script]] (14 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (14 shared connections)
-- [[Roles & Customer Sharing Spec]] (13 shared connections)
-- [[Community 85]] (13 shared connections)
-- [[Graphify Agent Rules]] (7 shared connections)
+- [[Price Presentation & Product UI]] (81 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (40 shared connections)
+- [[Zoho Integration Skill]] (32 shared connections)
+- [[Product Brand & Business Vision]] (31 shared connections)
+- [[Pricing & Roles Skill]] (26 shared connections)
+- [[Master Codebase Architecture Reference]] (26 shared connections)
+- [[Zoho Integration Architecture]] (25 shared connections)
+- [[Community 50]] (20 shared connections)
+- [[Community 44]] (18 shared connections)
+- [[Community 55]] (10 shared connections)
+- [[Community 124]] (7 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-NKRFalKI.js`
+- `ios/App/App/public/assets/index-DjBJvkFA.js`
 
 ## Audit Trail
 
-- EXTRACTED: 557 (100%)
+- EXTRACTED: 632 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

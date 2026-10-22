@@ -4,52 +4,56 @@
 
 ## Key Concepts
 
-- **constructor()** (18 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **ff()** (18 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **getImmediate()** (16 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **Um()** (14 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **nf()** (13 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **ef()** (12 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **lf()** (11 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **initialize()** (10 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **uf()** (10 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **isInitialized()** (9 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **of()** (9 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **yf()** (9 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **addComponent()** (8 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **cf()** (8 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **getProvider()** (8 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **hp()** (8 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **_key()** (8 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **triggerHeartbeat()** (8 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **oh()** (7 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **tf()** (7 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **_getAppCheckToken()** (6 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **getOrInitializeService()** (6 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **normalizeInstanceIdentifier()** (6 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **onExecution()** (6 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
-- **_openPopup()** (6 connections) — `ios/App/App/public/assets/index-NKRFalKI.js`
+- **render-architecture.mjs** (122 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **pathFor()** (10 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **routeHonorsEndpointSides()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **routeVia()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **grid.mjs** (6 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
+- **alignFacingPorts()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **layoutBoundaryTitles()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **sideAwareBridgeCandidates()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **resolveComponentPos()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
+- **validateGridPlacement()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
+- **boundaryLabelWidth()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **measureBoundaryTitle()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **resolveBoundaryTitles()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **routeClearsComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **routeClearsEndpointComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **minimumReadableSourceTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **layout-report.mjs** (4 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
+- **grid.test.mjs** (4 connections) — `.agents/skills/archify/test/grid.test.mjs`
+- **gridLayout()** (3 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
+- **autoViewBoxFor()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **expandBoundaryForReadableTitle()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **resolvedViewBoxWidth()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **connectionPath()** (3 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
+- **measureComponent()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **outwardStub()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
 - *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (65 shared connections)
-- [[Dependencies & Package Config]] (28 shared connections)
-- [[Pricing Regression Test Suite]] (17 shared connections)
-- [[Product Requirements Documentation]] (14 shared connections)
-- [[Graphify Knowledge Graph Skill]] (13 shared connections)
-- [[Roles & Customer Sharing Spec]] (13 shared connections)
-- [[Graphify Agent Rules]] (4 shared connections)
-- [[Zoho API Diagnostic Script]] (3 shared connections)
-- [[Community 85]] (1 shared connections)
+- [[Product Pages Specification]] (43 shared connections)
+- [[Oxlint Linter Configuration]] (21 shared connections)
+- [[Community 52]] (13 shared connections)
+- [[Community 42]] (12 shared connections)
+- [[Pricing Regression Test Suite]] (6 shared connections)
+- [[Community 165]] (3 shared connections)
+- [[Graphify Workflow]] (2 shared connections)
+- [[Community 84]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-NKRFalKI.js`
+- `.agents/skills/archify/renderers/architecture/grid.mjs`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- `.agents/skills/archify/renderers/shared/geometry.mjs`
+- `.agents/skills/archify/renderers/shared/layout-report.mjs`
+- `.agents/skills/archify/test/grid.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 332 (100%)
+- EXTRACTED: 257 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

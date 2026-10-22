@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **12. Performance Typography** (5 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Performance Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Requirements** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Rules** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **System Font Stack** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **NFC** (4 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
+- **nfc.md** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
+- **Background tag reading** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
+- **In-app tag reading** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
 
 ## Relationships
 
-- [[Community 225]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/apple-design/references/hig/nfc.md`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

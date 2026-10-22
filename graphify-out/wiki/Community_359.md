@@ -1,14 +1,15 @@
 # Community 359
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.47
 
 ## Key Concepts
 
-- **Column views** (4 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
-- **column-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
+- **clean-skill-staging.test.mjs** (5 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
+- **repositoryFixture()** (3 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
+- **git()** (2 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
+- **write()** (2 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
+- **canonicalNotices** (1 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
+- **stagerPath** (1 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
 
 ## Relationships
 
@@ -16,11 +17,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/column-views.md`
+- `.agents/skills/archify/test/clean-skill-staging.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

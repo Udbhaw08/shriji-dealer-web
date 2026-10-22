@@ -1,47 +1,57 @@
 # Community 44
 
-> 34 nodes · cohesion 0.06
+> 34 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **Typography** (10 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **iOS, iPadOS Dynamic Type sizes** (8 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **iOS, iPadOS larger accessibility type sizes** (6 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Specifications** (5 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **iOS, iPadOS, visionOS tracking values** (4 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Tracking values** (3 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **typography.md** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX1** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX2** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX3** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX4** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX5** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Conveying hierarchy** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Ensuring legibility** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Large (default)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **macOS built-in text styles** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **macOS tracking values** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Medium** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **New York** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **SF Pro** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **uc()** (18 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **lc()** (16 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **ki()** (15 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **Pd()** (14 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **Oi()** (11 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **hh()** (9 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **s()** (8 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **sc()** (8 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **fh()** (7 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **It()** (7 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **Kd()** (7 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **Sh()** (7 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **bs()** (6 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **Ct()** (6 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **dc()** (6 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **Di()** (6 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **ja()** (6 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **oc()** (6 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **qs()** (6 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **bh()** (5 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **dh()** (5 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **ji()** (5 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **uh()** (5 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **vo()** (5 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **go()** (4 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
 - *... and 9 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (35 shared connections)
+- [[Product Requirements Documentation]] (18 shared connections)
+- [[Master Codebase Architecture Reference]] (15 shared connections)
+- [[Zoho Integration Skill]] (11 shared connections)
+- [[Zoho Integration Architecture]] (11 shared connections)
+- [[Product Brand & Business Vision]] (9 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (8 shared connections)
+- [[Community 50]] (6 shared connections)
+- [[Pricing & Roles Skill]] (5 shared connections)
+- [[Community 124]] (2 shared connections)
+- [[Community 55]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/typography.md`
+- `ios/App/App/public/assets/index-DjBJvkFA.js`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (100%)
+- EXTRACTED: 224 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

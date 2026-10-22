@@ -7,10 +7,6 @@ import {
   fetchZohoProducts,
   fetchZohoProductById,
   fetchZohoCategories,
-  fetchZohoBanners,
-  fetchZohoSchemes,
-  DEFAULT_STORE_BANNERS,
-  DEFAULT_SCHEMES,
 } from './api/zoho.js'
 import downloadHandler from './api/download.js'
 
@@ -63,59 +59,35 @@ function zohoApiPlugin() {
             return res.end(JSON.stringify({ error: err.message }));
           }
         }
-        // Hero Banners route: /api/banners (Supabase with automatic Zoho Commerce fallback)
+        // Hero Banners route: /api/banners (Supabase direct)
         if (req.url === '/api/banners' || req.url.startsWith('/api/banners?')) {
           try {
-            const urlObj = new URL(req.url, 'http://localhost');
-            const refresh = urlObj.searchParams.get('refresh') === 'true';
             const contentService = await loadContentService();
-            const supabaseBanners = contentService ? await contentService.getSupabaseBanners() : null;
-            let finalBanners;
-            if (Array.isArray(supabaseBanners) && supabaseBanners.length > 0) {
-              finalBanners = supabaseBanners;
-            } else {
-              // Safety Fallback: Automatically shift to Zoho Commerce active/inactive rules
-              finalBanners = await fetchZohoBanners({ refresh });
-            }
-
+            const banners = contentService ? await contentService.getSupabaseBanners() : [];
             res.statusCode = 200;
             res.setHeader('Content-Type', 'application/json');
-            return res.end(JSON.stringify({ ok: true, count: finalBanners.length, banners: finalBanners }));
+            return res.end(JSON.stringify({ ok: true, count: banners.length, banners }));
           } catch (err) {
-            console.warn('[vite] Supabase banner error, shifting to Zoho fallback:', err.message);
-            const fallback = await fetchZohoBanners().catch(() => DEFAULT_STORE_BANNERS);
-            res.statusCode = 200;
+            console.error('[vite] Supabase banner error:', err.message);
+            res.statusCode = 500;
             res.setHeader('Content-Type', 'application/json');
-            return res.end(JSON.stringify({ ok: true, count: fallback.length, banners: fallback }));
+            return res.end(JSON.stringify({ ok: false, error: err.message, banners: [] }));
           }
         }
 
-        // Schemes route: /api/schemes (Supabase with automatic Zoho Commerce fallback)
+        // Schemes route: /api/schemes (Supabase direct)
         if (req.url === '/api/schemes' || req.url.startsWith('/api/schemes?')) {
           try {
-            const urlObj = new URL(req.url, 'http://localhost');
-            const refresh = urlObj.searchParams.get('refresh') === 'true';
             const contentService = await loadContentService();
-            const supabaseSchemes = contentService ? await contentService.getSupabaseSchemes() : null;
-            const hasActiveSupabase = supabaseSchemes && Array.isArray(supabaseSchemes.active) && supabaseSchemes.active.length > 0;
-
-            let finalSchemes;
-            if (hasActiveSupabase) {
-              finalSchemes = supabaseSchemes;
-            } else {
-              // Safety Fallback: Automatically shift to Zoho Commerce active/inactive rules
-              finalSchemes = await fetchZohoSchemes({ refresh });
-            }
-
+            const schemes = contentService ? await contentService.getSupabaseSchemes() : { active: [], upcoming: [], past: [] };
             res.statusCode = 200;
             res.setHeader('Content-Type', 'application/json');
-            return res.end(JSON.stringify({ ok: true, schemes: finalSchemes }));
+            return res.end(JSON.stringify({ ok: true, schemes }));
           } catch (err) {
-            console.warn('[vite] Supabase scheme error, shifting to Zoho fallback:', err.message);
-            const fallback = await fetchZohoSchemes().catch(() => DEFAULT_SCHEMES);
-            res.statusCode = 200;
+            console.error('[vite] Supabase scheme error:', err.message);
+            res.statusCode = 500;
             res.setHeader('Content-Type', 'application/json');
-            return res.end(JSON.stringify({ ok: true, schemes: fallback }));
+            return res.end(JSON.stringify({ ok: false, error: err.message, schemes: { active: [], upcoming: [], past: [] } }));
           }
         }
 
@@ -131,6 +103,49 @@ function zohoApiPlugin() {
             res.statusCode = 500;
             res.setHeader('Content-Type', 'application/json');
             return res.end(JSON.stringify({ error: err.message }));
+          }
+        }
+
+        // Content CMS CRUD route: /api/content (Supabase Content Manager)
+        if (req.url === '/api/content' || req.url.startsWith('/api/content?') || req.url.startsWith('/api/content/')) {
+          try {
+            const contentHandler = (await import('./api/content.js')).default;
+            let body = '';
+            req.on('data', (chunk) => { body += chunk; });
+            req.on('end', async () => {
+              try {
+                const fakeReq = {
+                  method: req.method,
+                  url: req.url,
+                  headers: req.headers,
+                  body: body ? JSON.parse(body) : {},
+                };
+                const fakeRes = {
+                  statusCode: 200,
+                  setHeader(name, val) { res.setHeader(name, val); },
+                  status(code) {
+                    this.statusCode = code;
+                    res.statusCode = code;
+                    return this;
+                  },
+                  json(obj) {
+                    res.statusCode = this.statusCode;
+                    res.setHeader('Content-Type', 'application/json');
+                    return res.end(JSON.stringify(obj));
+                  },
+                };
+                await contentHandler(fakeReq, fakeRes);
+              } catch (parseErr) {
+                res.statusCode = 500;
+                res.setHeader('Content-Type', 'application/json');
+                return res.end(JSON.stringify({ ok: false, error: parseErr.message }));
+              }
+            });
+            return;
+          } catch (err) {
+            res.statusCode = 500;
+            res.setHeader('Content-Type', 'application/json');
+            return res.end(JSON.stringify({ ok: false, error: err.message }));
           }
         }
 

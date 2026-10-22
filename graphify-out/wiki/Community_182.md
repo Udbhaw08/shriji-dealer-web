@@ -1,19 +1,20 @@
 # Community 182
 
-> 10 nodes · cohesion 0.20
+> 11 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **AirPlay** (6 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Using AirPlay icons** (4 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **airplay.md** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Black AirPlay icon** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Custom color AirPlay icon** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Referring to AirPlay** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **White AirPlay icon** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **degraded.test.mjs** (10 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **assertFriendlyFailure()** (2 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **render()** (2 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **ARRAY_FIELDS** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **filter()** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **installedRoot** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **mulberry32()** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
 
 ## Relationships
 
@@ -21,11 +22,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/airplay.md`
+- `.agents/skills/archify/test/degraded.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

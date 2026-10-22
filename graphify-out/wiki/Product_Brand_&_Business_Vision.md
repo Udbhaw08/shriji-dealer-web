@@ -1,65 +1,58 @@
 # Product Brand & Business Vision
 
-> 64 nodes · cohesion 0.08
+> 62 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **render-dataflow.mjs** (78 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **render-sequence.mjs** (67 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **esc()** (31 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **escapeHtml()** (26 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **animateAttr()** (16 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **focusEdgeAttrs()** (15 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **renderBrandMark()** (14 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **renderNode()** (13 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderState()** (13 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **focusNodeAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **renderSemanticSigil()** (13 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **renderComponent()** (12 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderParticipant()** (12 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **brandLabelFitWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **brandMetadataFor()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **focusNodeTitle()** (12 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **routePointsValue()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **fittedNodeFontSize()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **variantAccent()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **renderConnectionLabel()** (8 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderFlowLabel()** (8 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderTransitionLabel()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderMessage()** (8 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **brandMarkFor()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **messageLabel()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- *... and 39 more nodes in this community*
+- **D()** (26 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **mt()** (18 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **O()** (17 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **St()** (14 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **dn()** (13 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **re()** (13 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **vt()** (12 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **bt()** (11 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **sn()** (11 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **ut()** (11 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **vn()** (11 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **ie()** (10 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **ip()** (10 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **an()** (9 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **en()** (9 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **Oe()** (9 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **pt()** (9 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **Rd()** (9 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **Bn()** (8 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **te()** (8 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **af()** (7 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **ft()** (7 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **ln()** (7 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **xn()** (7 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **cn()** (6 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- *... and 37 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (89 shared connections)
-- [[Oxlint Linter Configuration]] (51 shared connections)
-- [[Mobile Responsive UI Skill]] (22 shared connections)
-- [[Community 46]] (15 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (14 shared connections)
-- [[Community 34]] (8 shared connections)
-- [[Community 58]] (5 shared connections)
-- [[Community 82]] (2 shared connections)
+- [[Price Presentation & Product UI]] (64 shared connections)
+- [[Product Requirements Documentation]] (31 shared connections)
+- [[Zoho Integration Skill]] (18 shared connections)
+- [[Master Codebase Architecture Reference]] (10 shared connections)
+- [[Zoho Integration Architecture]] (9 shared connections)
+- [[Community 44]] (9 shared connections)
+- [[Community 55]] (8 shared connections)
+- [[Pricing & Roles Skill]] (7 shared connections)
+- [[Community 50]] (2 shared connections)
+- [[Community 124]] (2 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/cli.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/i18n.mjs`
-- `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `ios/App/App/public/assets/index-DjBJvkFA.js`
 
 ## Audit Trail
 
-- EXTRACTED: 483 (92%)
-- INFERRED: 43 (8%)
+- EXTRACTED: 409 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

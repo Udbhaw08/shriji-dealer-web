@@ -1,19 +1,20 @@
 # Community 185
 
-> 10 nodes · cohesion 0.20
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **Lists and tables** (7 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
-- **lists-and-tables.md** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
-- **Mobile (iOS, iPadOS, visionOS)** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
-- **Style** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
+- **release-package-gates.test.mjs** (10 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **canonicalZipTest()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **centralDirectoryModes()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **currentNodeMajor** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **spawnBuildZip()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **stagedFixture()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **workflowJob()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **workflowStep()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **writeArchive()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
 
 ## Relationships
 
@@ -21,11 +22,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/lists-and-tables.md`
+- `.agents/skills/archify/test/release-package-gates.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

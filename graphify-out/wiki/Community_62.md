@@ -1,58 +1,56 @@
 # Community 62
 
-> 24 nodes · cohesion 0.16
+> 24 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **.send()** (54 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **viewer-camera-browser.test.mjs** (11 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **export-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **motion-governor-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **run()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **record()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **media()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **screenshot()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **stable()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **viewport()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **screenshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **uc()** (18 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **lc()** (16 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **ki()** (15 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **Pd()** (14 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **Oi()** (11 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **hh()** (9 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **sc()** (8 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **Kd()** (7 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **dc()** (6 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **Di()** (6 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **ja()** (6 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **oc()** (6 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **qs()** (6 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **dh()** (5 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **ji()** (5 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **uh()** (5 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **vo()** (5 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **go()** (4 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **Hc()** (4 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **pc()** (4 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **yt()** (4 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **_getPersistence()** (2 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **_getPersistenceType()** (2 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- **zh()** (2 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
 
 ## Relationships
 
-- [[Community 63]] (11 shared connections)
-- [[Community 90]] (8 shared connections)
-- [[Community 146]] (7 shared connections)
-- [[Community 126]] (7 shared connections)
-- [[Community 143]] (5 shared connections)
-- [[Community 144]] (5 shared connections)
-- [[Community 177]] (4 shared connections)
-- [[Community 50]] (3 shared connections)
-- [[Community 106]] (1 shared connections)
-- [[Zoho Integration Skill]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (26 shared connections)
+- [[Design System & UI Tokens]] (12 shared connections)
+- [[Dependencies & Package Config]] (12 shared connections)
+- [[Mobile Responsive UI Skill]] (10 shared connections)
+- [[Architecture Doc Generator]] (9 shared connections)
+- [[Live Pricing Audit Tool]] (8 shared connections)
+- [[Roles & Customer Sharing Spec]] (6 shared connections)
+- [[Community 48]] (6 shared connections)
+- [[Graphify Knowledge Graph Skill]] (4 shared connections)
+- [[Community 54]] (2 shared connections)
+- [[Community 120]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/export-browser.test.mjs`
-- `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
 
 ## Audit Trail
 
-- EXTRACTED: 136 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 170 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

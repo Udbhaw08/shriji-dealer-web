@@ -4,25 +4,34 @@
 
 ## Key Concepts
 
-- **renderPage()** (7 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderLookup()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **collapseBlankLines()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **coveredPlatformsLine()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **prettyPlatforms()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **groupBySection()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **lastChangeLine()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **omissionReason()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderBody()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **Typography Guide** (18 connections) — `.agents/skills/refero-design/references/typography.md`
+- **13. AI-Slop Anti-Patterns** (3 connections) — `.agents/skills/refero-design/references/typography.md`
+- **typography.md** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **15. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **1. The Safe SaaS Preset** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Instant Red Flags** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Quick Test** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- [[Community 72]] (9 shared connections)
-- [[Community 347]] (2 shared connections)
-- [[Community 197]] (1 shared connections)
+- [[Community 380]] (1 shared connections)
+- [[Community 400]] (1 shared connections)
+- [[Community 381]] (1 shared connections)
+- [[Community 401]] (1 shared connections)
+- [[Community 402]] (1 shared connections)
+- [[Community 403]] (1 shared connections)
+- [[Community 382]] (1 shared connections)
+- [[Community 404]] (1 shared connections)
+- [[Community 405]] (1 shared connections)
+- [[Community 383]] (1 shared connections)
+- [[Community 231]] (1 shared connections)
+- [[Community 432]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 

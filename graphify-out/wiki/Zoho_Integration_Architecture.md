@@ -1,55 +1,57 @@
 # Zoho Integration Architecture
 
-> 70 nodes · cohesion 0.06
+> 64 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **get()** (48 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **np()** (22 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **E()** (19 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **ff()** (18 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **am()** (16 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **getImmediate()** (16 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **mm()** (16 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **bm()** (14 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **jm()** (14 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **Um()** (14 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **nf()** (13 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **ef()** (12 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **lm()** (12 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **Yd()** (12 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **lf()** (11 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **initialize()** (10 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **uf()** (10 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **isInitialized()** (9 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **of()** (9 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **yf()** (9 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **cf()** (8 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **fm()** (8 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **_key()** (8 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **nm()** (8 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **om()** (8 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- *... and 45 more nodes in this community*
+- **qc()** (24 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **kf()** (23 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **Vr()** (21 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **Pi()** (12 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **Er()** (10 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **Ai()** (9 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **lh()** (9 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **Ga()** (8 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **Ii()** (8 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **In()** (8 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **request()** (8 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **ui()** (8 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **Ar()** (7 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **bc()** (7 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **Fi()** (7 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **ic()** (7 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **ri()** (7 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **fetch()** (6 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **Fo()** (6 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **Lr()** (6 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **ni()** (6 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **rc()** (6 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **Vi()** (6 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **Wr()** (6 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **mi()** (5 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- *... and 39 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (97 shared connections)
-- [[Master Codebase Architecture Reference]] (37 shared connections)
-- [[Live Pricing Audit Tool]] (25 shared connections)
-- [[Client Products Data Store]] (23 shared connections)
-- [[Product Pages Specification]] (21 shared connections)
-- [[Pricing & Roles Skill]] (21 shared connections)
-- [[Community 49]] (12 shared connections)
-- [[Community 30]] (10 shared connections)
-- [[Community 69]] (9 shared connections)
+- [[Price Presentation & Product UI]] (66 shared connections)
+- [[Product Requirements Documentation]] (25 shared connections)
+- [[Zoho Integration Skill]] (16 shared connections)
+- [[Community 44]] (11 shared connections)
+- [[Community 50]] (11 shared connections)
+- [[Product Brand & Business Vision]] (9 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (7 shared connections)
+- [[Master Codebase Architecture Reference]] (6 shared connections)
+- [[Pricing & Roles Skill]] (4 shared connections)
+- [[Community 124]] (2 shared connections)
+- [[Community 55]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- `ios/App/App/public/assets/index-DjBJvkFA.js`
 
 ## Audit Trail
 
-- EXTRACTED: 547 (100%)
+- EXTRACTED: 363 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

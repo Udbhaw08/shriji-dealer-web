@@ -1,7 +1,8 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { useProducts } from "../data/productsStore";
-import { COMPANY, QUICK_ACCESS, SCHEMES } from "../data/site";
+import { COMPANY, QUICK_ACCESS } from "../data/site";
+import { apiFetch } from "../data/api";
 import { Icon, EnquiryButtons } from "../ui";
 import { useLanguage } from "../data/i18n";
 import ProductCard from "../components/ProductCard";
@@ -104,8 +105,42 @@ export default function Home() {
     [PRODUCTS, CATEGORIES],
   );
 
+  const [liveSchemes, setLiveSchemes] = useState(() => {
+    try {
+      const raw = sessionStorage.getItem("shriji_supabase_schemes_v2");
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        if (parsed && Array.isArray(parsed.active) && parsed.active.length > 0) {
+          const hasLegacy = parsed.active.some(
+            (s) => s.id === "annual-business-scheme-2026-27" || s.id === "diwali-scheme-2026"
+          );
+          if (!hasLegacy) return parsed.active;
+        }
+      }
+    } catch {}
+    return [];
+  });
+
+  useEffect(() => {
+    let active = true;
+    apiFetch("/api/schemes")
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (active && data?.schemes?.active) {
+          setLiveSchemes(data.schemes.active);
+          try {
+            sessionStorage.setItem("shriji_supabase_schemes_v2", JSON.stringify(data.schemes));
+          } catch {}
+        }
+      })
+      .catch(() => {});
+    return () => {
+      active = false;
+    };
+  }, []);
+
   const [schemeIdx, setSchemeIdx] = useState(0);
-  const scheme = SCHEMES.active[schemeIdx] || SCHEMES.active[0];
+  const scheme = liveSchemes[schemeIdx] || liveSchemes[0] || null;
   const session = useSession();
   const isGated = isPortalGated(session);
 
@@ -309,58 +344,62 @@ export default function Home() {
                   })}
                 </div>
 
-                <div className="scheme" style={{ position: "relative" }}>
-                  <div className="scheme-txt">
-                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 8 }}>
-                      <span className="badge">{t("scheme_live_now")}</span>
-                      {SCHEMES.active.length > 1 && (
-                        <div style={{ display: "inline-flex", gap: 4 }}>
-                          {SCHEMES.active.map((s, idx) => (
-                            <button
-                              key={s.id}
-                              type="button"
-                              onClick={() => setSchemeIdx(idx)}
-                              style={{
-                                width: 22,
-                                height: 22,
-                                borderRadius: "50%",
-                                border: "none",
-                                background: schemeIdx === idx ? "var(--navy)" : "rgba(14,36,56,0.15)",
-                                color: schemeIdx === idx ? "#fff" : "var(--navy)",
-                                fontSize: "0.72rem",
-                                fontWeight: 700,
-                                cursor: "pointer",
-                                display: "grid",
-                                placeItems: "center",
-                              }}
-                              aria-label={`Show ${s.title}`}
-                            >
-                              {idx + 1}
-                            </button>
-                          ))}
-                        </div>
-                      )}
+                {scheme && (
+                  <div className="scheme" style={{ position: "relative" }}>
+                    <div className="scheme-txt">
+                      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 8 }}>
+                        <span className="badge">{t("scheme_live_now")}</span>
+                        {liveSchemes.length > 1 && (
+                          <div style={{ display: "inline-flex", gap: 4 }}>
+                            {liveSchemes.map((s, idx) => (
+                              <button
+                                key={s.id}
+                                type="button"
+                                onClick={() => setSchemeIdx(idx)}
+                                style={{
+                                  width: 22,
+                                  height: 22,
+                                  borderRadius: "50%",
+                                  border: "none",
+                                  background: schemeIdx === idx ? "var(--navy)" : "rgba(14,36,56,0.15)",
+                                  color: schemeIdx === idx ? "#fff" : "var(--navy)",
+                                  fontSize: "0.72rem",
+                                  fontWeight: 700,
+                                  cursor: "pointer",
+                                  display: "grid",
+                                  placeItems: "center",
+                                }}
+                                aria-label={`Show ${s.title}`}
+                              >
+                                {idx + 1}
+                              </button>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                      <h3 style={{ marginTop: "var(--s3)" }}>{scheme.title}</h3>
+                      <p className="when">{scheme.when || scheme.subtitle}</p>
+                      <p>{scheme.blurb}</p>
+                      <div style={{ display: "flex", gap: "var(--s3)", marginTop: "var(--s4)", alignItems: "center" }}>
+                        <Link className="btn btn-navy btn-sm" to="/schemes">
+                          {t("sec_schemes_title")}
+                        </Link>
+                        {(scheme.pdfUrl || scheme.flyer) && (
+                          <a
+                            className="btn btn-ghost btn-sm"
+                            href={scheme.pdfUrl || scheme.flyer}
+                            download={scheme.pdfName || "scheme.pdf"}
+                          >
+                            <Icon name="download" size={15} /> PDF
+                          </a>
+                        )}
+                      </div>
                     </div>
-                    <h3 style={{ marginTop: "var(--s3)" }}>{scheme.title}</h3>
-                    <p className="when">{scheme.when}</p>
-                    <p>{scheme.blurb}</p>
-                    <div style={{ display: "flex", gap: "var(--s3)", marginTop: "var(--s4)", alignItems: "center" }}>
-                      <Link className="btn btn-navy btn-sm" to="/schemes">
-                        {t("sec_schemes_title")}
-                      </Link>
-                      <a
-                        className="btn btn-ghost btn-sm"
-                        href={scheme.pdfUrl || scheme.flyer}
-                        download={scheme.pdfName}
-                      >
-                        <Icon name="download" size={15} /> PDF
-                      </a>
-                    </div>
+                    <Link className="fab" to="/schemes" aria-label="Open schemes">
+                      <Icon name="arrowsm" size={17} />
+                    </Link>
                   </div>
-                  <Link className="fab" to="/schemes" aria-label="Open schemes">
-                    <Icon name="arrowsm" size={17} />
-                  </Link>
-                </div>
+                )}
               </div>
             </div>
           </section>
@@ -427,15 +466,32 @@ export default function Home() {
         </section>
       )}
 
-      {/* ---------- Trust ---------- */}
-      <section className="sec" style={{ paddingTop: 0 }}>
-        <div className="wrap stack" style={{ gap: "var(--s5)" }}>
-          <div className="card pad" style={{ display: "grid", gap: "var(--s4)" }}>
-            <h2 className="d2" style={{ maxWidth: "20ch" }}>
+      {/* ---------- Trust / About Sunshine B2B (Matches Stitch Frame 1) ---------- */}
+      <section className="sec home-trust-banner-sec" style={{ paddingTop: 0 }}>
+        <div className="wrap">
+          <div className="home-stitch-trust-card">
+            <h3 className="home-stitch-trust-title">
               Stocking Sunshine, or thinking about it?
-            </h2>
-            <p className="sub">{COMPANY.about}</p>
-            <EnquiryButtons />
+            </h3>
+            <p className="home-stitch-trust-desc">
+              Since 1999, Shriji Domestic has been a leading distributor of domestic kitchen appliances, delivering trusted service and authentic products across regions.
+            </p>
+            <div className="home-stitch-trust-actions">
+              <a
+                className="home-stitch-btn-ghost"
+                href={`https://wa.me/${COMPANY.phoneRaw}?text=${encodeURIComponent("Hello Shriji Domestic, I would like details on stocking the Sunshine range.")}`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span>💬</span> Enquire Now
+              </a>
+              <a
+                className="home-stitch-btn-primary"
+                href={`tel:${COMPANY.phone.replace(/\s/g, "")}`}
+              >
+                <span>📞</span> Call
+              </a>
+            </div>
           </div>
         </div>
       </section>

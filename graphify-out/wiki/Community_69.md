@@ -1,52 +1,47 @@
 # Community 69
 
-> 23 nodes · cohesion 0.17
+> 24 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **n()** (31 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **has()** (24 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **t()** (21 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **os()** (13 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **ys()** (11 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **s()** (10 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **ms()** (9 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **ps()** (9 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **xs()** (9 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **vs()** (8 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **hs()** (7 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **ss()** (7 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **bs()** (5 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **fs()** (5 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **gs()** (5 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **.unobserveUsing()** (4 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **Wf()** (4 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **wt()** (4 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **eo()** (3 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **gn()** (3 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **tt()** (3 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **js()** (2 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
-- **us()** (2 connections) — `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- **properties** (12 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **viewBox** (6 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **column_fit** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **animation** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **locale** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **output** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **subtitle** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **views** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **description** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **items** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (34 shared connections)
-- [[Master Codebase Architecture Reference]] (26 shared connections)
-- [[Product Pages Specification]] (18 shared connections)
-- [[Client Products Data Store]] (9 shared connections)
-- [[Zoho Integration Architecture]] (9 shared connections)
-- [[Live Pricing Audit Tool]] (7 shared connections)
-- [[Community 49]] (4 shared connections)
-- [[Community 30]] (3 shared connections)
-- [[Pricing & Roles Skill]] (3 shared connections)
+- [[Community 200]] (1 shared connections)
+- [[Community 444]] (1 shared connections)
+- [[Community 412]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-NKRFalKI.js`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 199 (100%)
+- EXTRACTED: 49 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,21 +4,21 @@
 
 ## Key Concepts
 
-- **test-whatsapp.js** (2 connections) — `backend/scripts/test-whatsapp.js`
-- **__dirname** (1 connections) — `backend/scripts/test-whatsapp.js`
-- **testWhatsApp()** (1 connections) — `backend/scripts/test-whatsapp.js`
+- **y** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 70]] (1 shared connections)
 
 ## Source Files
 
-- `backend/scripts/test-whatsapp.js`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

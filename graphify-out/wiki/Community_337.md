@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Panels** (5 connections) — `.agents/skills/apple-design/references/hig/panels.md`
-- **panels.md** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
-- **HUD-style panels** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
+- **Activity views** (5 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **activity-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **Share and action extensions** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/panels.md`
+- `.agents/skills/apple-design/references/hig/activity-views.md`
 
 ## Audit Trail
 

@@ -1,69 +1,65 @@
 # Zoho Backend & Proxy Endpoints
 
-> 95 nodes · cohesion 0.08
+> 92 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **workflow-compiler.mjs** (102 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **geometry.mjs** (75 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **compileWorkflowInternal()** (67 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **asArray()** (43 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **geometry.test.mjs** (34 connections) — `.agents/skills/archify/test/geometry.test.mjs`
-- **textUnits()** (33 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **validateArchitecture()** (22 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **validateDataflow()** (22 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **validateLifecycle()** (22 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **cleanCrossingProblems()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **isFinitePoint()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanFlowProblems()** (17 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **rectsOverlap()** (16 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **validateSequence()** (15 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **throwDiagnosticProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **cleanAmbiguousCorridorProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanBorderRunProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanRouteRhythmProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **labelPoint()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanEndpointSideProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanLabelRouteClearanceProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **brandTopRailProblem()** (13 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **collectLabelRouteClearance()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **segmentIntersectsRect()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **suggestLabelObstacleFix()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- *... and 70 more nodes in this community*
+- **zoho.js** (48 connections) — `api/zoho.js`
+- **content.js** (20 connections) — `backend/src/services/content.js`
+- **vite.config.js** (20 connections) — `vite.config.js`
+- **fetchZohoProductById()** (15 connections) — `api/zoho.js`
+- **fetchZohoProducts()** (14 connections) — `api/zoho.js`
+- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
+- **fetchZohoWithRetry()** (13 connections) — `api/zoho.js`
+- **getZohoConfig()** (13 connections) — `api/zoho.js`
+- **zohoApiPlugin()** (13 connections) — `vite.config.js`
+- **createDealerContact()** (9 connections) — `api/zoho.js`
+- **fetchZohoBanners()** (9 connections) — `api/zoho.js`
+- **fetchZohoSchemes()** (9 connections) — `api/zoho.js`
+- **findDealerByPhone()** (9 connections) — `api/zoho.js`
+- **content.js** (9 connections) — `backend/src/routes/content.js`
+- **fetchZohoCategories()** (8 connections) — `api/zoho.js`
+- **getDealerById()** (8 connections) — `api/zoho.js`
+- **getSupabaseBanners()** (8 connections) — `backend/src/services/content.js`
+- **getSupabaseSchemes()** (8 connections) — `backend/src/services/content.js`
+- **getAccessToken()** (7 connections) — `api/zoho.js`
+- **getCategoryVisibilityMap()** (7 connections) — `api/zoho.js`
+- **getSupabaseBranding()** (7 connections) — `backend/src/services/content.js`
+- **banners.js** (6 connections) — `api/banners.js`
+- **content.js** (6 connections) — `api/content.js`
+- **schemes.js** (6 connections) — `api/schemes.js`
+- **fetchAllRawZohoProducts()** (6 connections) — `api/zoho.js`
+- *... and 67 more nodes in this community*
 
 ## Relationships
 
-- [[Product Brand & Business Vision]] (89 shared connections)
-- [[Oxlint Linter Configuration]] (79 shared connections)
-- [[Mobile Responsive UI Skill]] (47 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (18 shared connections)
-- [[Zoho Integration Skill]] (13 shared connections)
-- [[Community 46]] (9 shared connections)
-- [[Claude Agent Instructions]] (6 shared connections)
-- [[Community 34]] (3 shared connections)
-- [[Community 278]] (1 shared connections)
-- [[Community 60]] (1 shared connections)
-- [[Community 467]] (1 shared connections)
+- [[Zoho API Diagnostic Script]] (9 shared connections)
+- [[Community 79]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/legend.mjs`
-- `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
-- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- `.agents/skills/archify/test/geometry.test.mjs`
+- `api/banners.js`
+- `api/branding.js`
+- `api/content.js`
+- `api/dealer/apply.js`
+- `api/dealer/info.js`
+- `api/dealer/login.js`
+- `api/download.js`
+- `api/og.js`
+- `api/products/[id].js`
+- `api/products/index.js`
+- `api/schemes.js`
+- `api/zoho.js`
+- `backend/src/routes/content.js`
+- `backend/src/services/content.js`
+- `scripts/audit_prices.mjs`
+- `scripts/test-zoho-api.mjs`
+- `vite.config.js`
 
 ## Audit Trail
 
-- EXTRACTED: 947 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 449 (99%)
+- INFERRED: 4 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

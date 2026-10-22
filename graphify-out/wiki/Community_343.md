@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Design** (5 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **design.md** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **Creating a uniform design in this app** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **Ensuring designs work for everyone** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **Requirements for flexible, accessible design** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **Standard system styling** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
+- **Panels** (5 connections) — `.agents/skills/apple-design/references/hig/panels.md`
+- **panels.md** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
+- **HUD-style panels** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/design.md`
+- `.agents/skills/apple-design/references/hig/panels.md`
 
 ## Audit Trail
 

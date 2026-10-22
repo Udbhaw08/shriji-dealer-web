@@ -1,47 +1,56 @@
 # Community 32
 
-> 41 nodes · cohesion 0.05
+> 42 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **Motion & Micro-interactions Guide** (13 connections) — `.agents/skills/refero-design/references/motion.md`
-- **8. Anti-Patterns** (7 connections) — `.agents/skills/refero-design/references/motion.md`
-- **1. The Motion Pyramid** (5 connections) — `.agents/skills/refero-design/references/motion.md`
-- **4. Micro-interactions That Work** (5 connections) — `.agents/skills/refero-design/references/motion.md`
-- **2. Timing That Actually Works** (4 connections) — `.agents/skills/refero-design/references/motion.md`
-- **3. Easing: Native Feel Without Cringe** (4 connections) — `.agents/skills/refero-design/references/motion.md`
-- **6. Reduced Motion: Not Optional** (4 connections) — `.agents/skills/refero-design/references/motion.md`
-- **5. Motion Tokens for Design Systems** (3 connections) — `.agents/skills/refero-design/references/motion.md`
-- **7. Libraries and Tools** (3 connections) — `.agents/skills/refero-design/references/motion.md`
-- **motion.md** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **9. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Animations Must Be Interruptible** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Basic Principle** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Buttons and Controls** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Component Mapping** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Critical: Never Use `transition: all`** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **CSS Shortcut** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **CSS Tokens** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Duration Reference** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **For Complex Scenarios** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **For Web/SaaS (React/Next)** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Implementation** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Inputs** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- *... and 16 more nodes in this community*
+- **Login.jsx** (65 connections) — `src/pages/Login.jsx`
+- **setSession()** (10 connections) — `src/data/session.js`
+- **Identify()** (10 connections) — `src/pages/Login.jsx`
+- **requestOtp()** (8 connections) — `src/data/auth.js`
+- **loginCode.js** (8 connections) — `src/data/loginCode.js`
+- **validators.js** (7 connections) — `src/data/validators.js`
+- **firebase.js** (6 connections) — `src/data/firebase.js`
+- **isValidEmail()** (6 connections) — `src/data/validators.js`
+- **StaffDetails()** (6 connections) — `src/pages/Login.jsx`
+- **formatLoginCode()** (5 connections) — `src/data/loginCode.js`
+- **signOut()** (5 connections) — `src/data/session.js`
+- **switchToDealerSession()** (5 connections) — `src/data/session.js`
+- **isValidName()** (5 connections) — `src/data/validators.js`
+- **isValidPhone()** (5 connections) — `src/data/validators.js`
+- **BusinessDetails()** (5 connections) — `src/pages/Login.jsx`
+- **StaffLogin()** (5 connections) — `src/pages/Login.jsx`
+- **switchToViewerSession()** (4 connections) — `src/data/session.js`
+- **createEmailPasswordAccount()** (3 connections) — `src/data/firebase.js`
+- **signInWithEmailPassword()** (3 connections) — `src/data/firebase.js`
+- **signInWithGoogleFirebase()** (3 connections) — `src/data/firebase.js`
+- **isValidGstin()** (3 connections) — `src/data/validators.js`
+- **isValidPincode()** (3 connections) — `src/data/validators.js`
+- **StaffInvite()** (3 connections) — `src/pages/Login.jsx`
+- **generateLoginCode()** (2 connections) — `src/data/loginCode.js`
+- **GST_TREATMENT_OPTIONS** (2 connections) — `src/data/loginCode.js`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 39]] (32 shared connections)
+- [[Community 47]] (13 shared connections)
+- [[Client Products Data Store]] (12 shared connections)
+- [[Claude Agent Instructions]] (4 shared connections)
+- [[Community 169]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/motion.md`
+- `src/data/auth.js`
+- `src/data/firebase.js`
+- `src/data/loginCode.js`
+- `src/data/session.js`
+- `src/data/validators.js`
+- `src/pages/Login.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 80 (100%)
+- EXTRACTED: 208 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

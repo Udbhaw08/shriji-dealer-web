@@ -1,55 +1,49 @@
 # Community 41
 
-> 37 nodes · cohesion 0.09
+> 38 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **Login.jsx** (62 connections) — `src/pages/Login.jsx`
-- **loginCode.js** (8 connections) — `src/data/loginCode.js`
-- **validators.js** (7 connections) — `src/data/validators.js`
-- **firebase.js** (6 connections) — `src/data/firebase.js`
-- **isValidEmail()** (6 connections) — `src/data/validators.js`
-- **StaffDetails()** (6 connections) — `src/pages/Login.jsx`
-- **formatLoginCode()** (5 connections) — `src/data/loginCode.js`
-- **signOut()** (5 connections) — `src/data/session.js`
-- **isValidName()** (5 connections) — `src/data/validators.js`
-- **isValidPhone()** (5 connections) — `src/data/validators.js`
-- **BusinessDetails()** (5 connections) — `src/pages/Login.jsx`
-- **StaffLogin()** (5 connections) — `src/pages/Login.jsx`
-- **createEmailPasswordAccount()** (3 connections) — `src/data/firebase.js`
-- **signInWithEmailPassword()** (3 connections) — `src/data/firebase.js`
-- **signInWithGoogleFirebase()** (3 connections) — `src/data/firebase.js`
-- **isValidGstin()** (3 connections) — `src/data/validators.js`
-- **isValidPincode()** (3 connections) — `src/data/validators.js`
-- **StaffInvite()** (3 connections) — `src/pages/Login.jsx`
-- **generateLoginCode()** (2 connections) — `src/data/loginCode.js`
-- **GST_TREATMENT_OPTIONS** (2 connections) — `src/data/loginCode.js`
-- **isValidLoginCode()** (2 connections) — `src/data/loginCode.js`
-- **BusinessMatch()** (2 connections) — `src/pages/Login.jsx`
-- **signOutAndReload()** (2 connections) — `src/pages/Login.jsx`
-- **StaffConfirm()** (2 connections) — `src/pages/Login.jsx`
-- **auth** (1 connections) — `src/data/firebase.js`
-- *... and 12 more nodes in this community*
+- **update-notifier.test.mjs** (43 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **operationPath()** (5 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **stateDirectory()** (4 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **fixture()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **remoteReleaseForVersion()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **runCheckInChild()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **statePath()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **writeCompactCommittedState()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **assertUnsafeCacheStateIsIgnored()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **committedStateFiles()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **compactStateSource()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **localRelease()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **pauseOpenOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **pauseRenameMatchingOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **pauseRenameOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **pauseWriteOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **remoteRelease()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **writeJson()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **writePendingOperation()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **baseTime** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **cachedStateWithHistory()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **cachedUpdateState()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **cancel()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **candidateStateForDigest()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **checkerPath** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [[Community 36]] (29 shared connections)
-- [[Community 48]] (11 shared connections)
-- [[Architecture Doc Generator]] (11 shared connections)
-- [[Community 43]] (2 shared connections)
-- [[Community 164]] (1 shared connections)
+- [[Community 100]] (3 shared connections)
+- [[Community 107]] (2 shared connections)
+- [[Community 40]] (1 shared connections)
 
 ## Source Files
 
-- `src/data/firebase.js`
-- `src/data/loginCode.js`
-- `src/data/session.js`
-- `src/data/validators.js`
-- `src/pages/Login.jsx`
+- `.agents/skills/archify/test/update-notifier.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 168 (100%)
+- EXTRACTED: 108 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

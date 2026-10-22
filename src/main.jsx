@@ -13,6 +13,7 @@ import Schemes from "./pages/Schemes";
 import Support from "./pages/Support";
 import Login from "./pages/Login";
 import DealerDashboard from "./pages/DealerDashboard";
+import ContentAdminDashboard from "./pages/ContentAdminDashboard";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfService from "./pages/TermsOfService";
 import { useSession } from "./data/session";
@@ -143,6 +144,8 @@ createRoot(document.getElementById("root")).render(
                 </RequireVerifiedDealer>
               }
             />
+            <Route path="/admin" element={<ContentAdminDashboard />} />
+            <Route path="/admin/content" element={<ContentAdminDashboard />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </main>

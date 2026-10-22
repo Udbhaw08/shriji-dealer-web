@@ -1,8 +1,8 @@
 # sql
 
-> God node · 56 connections · `backend/src/db/pool.js`
+> God node · 60 connections · `backend/src/db/pool.js`
 
-**Community:** [[Project Readme & Layout]]
+**Community:** [[Zoho API Diagnostic Script]]
 
 ## Connections by Relation
 
@@ -18,15 +18,15 @@
 - [[jwtAuth()]] `EXTRACTED`
 - [[applyCrmContactState()]] `EXTRACTED`
 - [[loadCatalog()]] `EXTRACTED`
+- [[deleteStoreContent()]] `EXTRACTED`
+- [[getAllStoreContent()]] `EXTRACTED`
+- [[toggleStoreContentActive()]] `EXTRACTED`
+- [[upsertStoreContent()]] `EXTRACTED`
 - [[deactivateDealer()]] `EXTRACTED`
 - [[notify()]] `EXTRACTED`
 - [[approveStaff()]] `EXTRACTED`
 - [[deleteStaff()]] `EXTRACTED`
 - [[holdStaff()]] `EXTRACTED`
-- [[resumeStaff()]] `EXTRACTED`
-- [[revokeStaff()]] `EXTRACTED`
-- [[toggleAllStaffPrice()]] `EXTRACTED`
-- [[toggleStaffPrice()]] `EXTRACTED`
 
 ### contains
 - [[pool.js]] `EXTRACTED`
@@ -37,10 +37,10 @@
 - [[server.js]] `EXTRACTED`
 - [[dealerApp.js]] `EXTRACTED`
 - [[staff.js]] `EXTRACTED`
+- [[content.js]] `EXTRACTED`
 - [[catalog.js]] `EXTRACTED`
 - [[webhooks.js]] `EXTRACTED`
 - [[crmPoll.js]] `EXTRACTED`
-- [[content.js]] `EXTRACTED`
 - [[catalogSync.js]] `EXTRACTED`
 - [[content.js]] `EXTRACTED`
 - [[notifications.js]] `EXTRACTED`

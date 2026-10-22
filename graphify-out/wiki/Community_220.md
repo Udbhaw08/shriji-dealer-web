@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Siri** (7 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Getting your app to work with Siri** (2 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **siri.md** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Customizing your app’s experience with Siri** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Editorial guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Sharing contextual information** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Playing video** (6 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Integrating with the TV app** (3 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **playing-video.md** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Exiting playback** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Loading content** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/siri.md`
+- `.agents/skills/apple-design/references/hig/playing-video.md`
 
 ## Audit Trail
 

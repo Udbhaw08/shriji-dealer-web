@@ -3,37 +3,28 @@ import { Link } from "react-router-dom";
 import { apiFetch } from "../data/api";
 import { Icon } from "../ui";
 
-export const STORE_BANNERS = [
-  {
-    id: "1st",
-    src: "/img/1st.jpeg",
-    alt: "ReSTOR — Reimagine, Rebuild, Restart",
-    title: "ReSTOR — Reimagine, Rebuild, Restart",
-    bgColor: "#0110a7",
-    link: "/products",
-  },
-  {
-    id: "2nd",
-    src: "/img/2nd.jpeg",
-    alt: "Sunshine Defender Series — Matte Finish Toughened Glass",
-    title: "Sunshine Defender Series — Matte Finish Toughened Glass",
-    bgColor: "#95a5b5",
-    link: "/products?search=Defender",
-  },
-  {
-    id: "3rd",
-    src: "/img/3rd.jpeg",
-    alt: "Sunshine Shine Platinum — Matte Toughened Glass Cooktop",
-    title: "Sunshine Shine Platinum — Matte Toughened Glass Cooktop",
-    bgColor: "#ffffff",
-    link: "/products?search=Platinum",
-  },
-];
+const BANNER_CACHE_KEY = "shriji_supabase_banners_v2";
+
+const getCachedBanners = () => {
+  try {
+    const raw = sessionStorage.getItem(BANNER_CACHE_KEY);
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      if (Array.isArray(parsed) && parsed.length > 0) {
+        // Discard any legacy Zoho banner IDs
+        const hasLegacy = parsed.some((b) => b.id === "1st" || b.id === "2nd" || b.id === "3rd");
+        if (!hasLegacy) return parsed;
+      }
+    }
+  } catch {}
+  return [];
+};
 
 const AUTO_INTERVAL = 4000; // 4 seconds continuous loop
 
 export default function HeroSlider({ isGated = true }) {
-  const [banners, setBanners] = useState(STORE_BANNERS);
+  const [banners, setBanners] = useState(() => getCachedBanners());
+  const [loading, setLoading] = useState(() => banners.length === 0);
   const [activeIdx, setActiveIdx] = useState(0);
 
   const touchStartXRef = useRef(0);
@@ -41,7 +32,7 @@ export default function HeroSlider({ isGated = true }) {
   const isSwipingRef = useRef(false);
   const timerRef = useRef(null);
 
-  // Fetch dynamic banners from Zoho via /api/banners
+  // Fetch dynamic banners from Supabase via /api/banners
   useEffect(() => {
     let active = true;
     apiFetch("/api/banners")
@@ -49,10 +40,19 @@ export default function HeroSlider({ isGated = true }) {
       .then((data) => {
         if (active && data?.banners && Array.isArray(data.banners) && data.banners.length > 0) {
           setBanners(data.banners);
-          setActiveIdx(0);
+          setLoading(false);
+          try {
+            sessionStorage.setItem(BANNER_CACHE_KEY, JSON.stringify(data.banners));
+          } catch {}
+        } else if (active) {
+          setBanners([]);
+          setLoading(false);
         }
       })
-      .catch((err) => console.warn("Failed to load live banners:", err));
+      .catch((err) => {
+        console.warn("Failed to load live banners:", err);
+        if (active) setLoading(false);
+      });
 
     return () => {
       active = false;
@@ -133,6 +133,7 @@ export default function HeroSlider({ isGated = true }) {
 
   const renderSlideContent = (slide, idx) => {
     const isMp4 = slide.videoUrl && (slide.videoUrl.endsWith(".mp4") || slide.videoUrl.endsWith(".webm") || slide.videoUrl.includes(".mp4?") || slide.videoUrl.includes(".webm?"));
+
     const mediaEl = isMp4 ? (
       <video
         src={slide.videoUrl}
@@ -144,7 +145,7 @@ export default function HeroSlider({ isGated = true }) {
         className="store-banner-img"
         style={{ objectFit: "cover", width: "100%", height: "100%" }}
       />
-    ) : (
+    ) : slide.src ? (
       <img
         src={slide.src}
         alt={slide.alt || slide.title || "Banner"}
@@ -152,6 +153,29 @@ export default function HeroSlider({ isGated = true }) {
         loading={idx === 0 ? "eager" : "lazy"}
         draggable={false}
       />
+    ) : (
+      <div className="stitch-hero-card">
+        <div className="stitch-hero-glow-1" aria-hidden="true" />
+        <div className="stitch-hero-glow-2" aria-hidden="true" />
+        <div className="stitch-hero-inner">
+          <span className="stitch-hero-eyebrow">ReSTOR Portal</span>
+          <div className="stitch-hero-stack">
+            <h1 className="stitch-hero-h1">{slide.title || "ReSTOR"}</h1>
+            {slide.subtitle ? (
+              <p className="stitch-hero-sub1">{slide.subtitle}</p>
+            ) : (
+              <>
+                <p className="stitch-hero-sub1">Reimagine</p>
+                <p className="stitch-hero-sub2">Rebuild</p>
+                <p className="stitch-hero-sub3">Restart</p>
+              </>
+            )}
+          </div>
+          <p className="stitch-hero-desc">
+            Official B2B distributor portal for Sunshine kitchen appliances.
+          </p>
+        </div>
+      </div>
     );
 
     const slideContent = (
@@ -203,6 +227,32 @@ export default function HeroSlider({ isGated = true }) {
 
     return slideContent;
   };
+
+  if (banners.length === 0) {
+    if (loading) {
+      return (
+        <section className="store-banner-section" aria-label="Loading Store Banners">
+          <div className="wrap">
+            <div
+              className="store-banner-viewport"
+              style={{
+                background: "linear-gradient(135deg, #0e2438 0%, #173752 100%)",
+                borderRadius: "var(--r3, 14px)",
+                minHeight: 280,
+                display: "grid",
+                placeItems: "center",
+              }}
+            >
+              <div style={{ display: "inline-flex", alignItems: "center", gap: 10, color: "rgba(255,255,255,0.7)", fontSize: "0.9rem" }}>
+                <span className="live-db-dot" /> Loading live showcase…
+              </div>
+            </div>
+          </div>
+        </section>
+      );
+    }
+    return null;
+  }
 
   return (
     <section
@@ -261,43 +311,47 @@ export default function HeroSlider({ isGated = true }) {
               </button>
             </>
           )}
-
-          {/* Pagination Dots (only when multiple banners exist) */}
-          {!isSingle && (
-            <div className="store-carousel-dots" role="tablist" aria-label="Banner indicators">
-              {banners.map((slide, idx) => (
-                <button
-                  key={slide.id || idx}
-                  type="button"
-                  role="tab"
-                  aria-selected={idx === activeIdx}
-                  aria-label={`Slide ${idx + 1}`}
-                  className={`store-carousel-dot ${idx === activeIdx ? "active" : ""}`}
-                  onClick={() => goToSlide(idx)}
-                />
-              ))}
-            </div>
-          )}
         </div>
 
-        {/* Clean Dealer Portal Actions below banner */}
+        {/* Minimalist Pagination Dots below banner */}
+        {!isSingle && (
+          <div className="store-banner-dots-row" role="tablist" aria-label="Banner indicators">
+            {banners.map((slide, idx) => (
+              <button
+                key={slide.id || idx}
+                type="button"
+                role="tab"
+                aria-selected={idx === activeIdx}
+                aria-label={`Slide ${idx + 1}`}
+                className={`store-dot-pill ${idx === activeIdx ? "active" : ""}`}
+                onClick={() => goToSlide(idx)}
+              />
+            ))}
+          </div>
+        )}
+
+        {/* Clean Dealer Portal Actions below banner (Matches Stitch Frame 1) */}
         <div className="store-banner-actions">
           {isGated ? (
             <>
-              <Link className="btn btn-navy" to="/login">
-                Verified Dealer Login <Icon name="arrow" size={17} />
+              <Link className="stitch-cta-primary" to="/login">
+                <span>Verified Dealer Login</span>
+                <span className="stitch-cta-arrow"><Icon name="arrow" size={17} /></span>
               </Link>
-              <Link className="btn btn-ghost" to="/login?tab=apply">
-                Apply for Dealership
+              <Link className="stitch-cta-white" to="/login?tab=apply">
+                <span>Apply for Dealership</span>
+                <span className="stitch-cta-arrow-circle"><Icon name="arrow" size={15} /></span>
               </Link>
             </>
           ) : (
             <>
-              <Link className="btn btn-primary" to="/products">
-                Browse Wholesale Catalog <Icon name="arrow" size={17} />
+              <Link className="stitch-cta-white" to="/products">
+                <span>Browse Wholesale Catalog</span>
+                <span className="stitch-cta-arrow-circle"><Icon name="arrow" size={15} /></span>
               </Link>
-              <Link className="btn btn-ghost" to="/schemes">
-                View Active Schemes
+              <Link className="stitch-cta-primary" to="/schemes">
+                <span>View Active Schemes</span>
+                <span className="stitch-cta-arrow"><Icon name="arrow" size={17} /></span>
               </Link>
             </>
           )}

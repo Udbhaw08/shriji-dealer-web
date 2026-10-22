@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Drag and drop** (6 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
-- **drag-and-drop.md** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
-- **Accepting drops** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
-- **Providing feedback** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **web-CJInFtJd.js** (8 connections) — `android/app/src/main/assets/public/assets/web-CJInFtJd.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-CJInFtJd.js`
+- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-CJInFtJd.js`
+- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-CJInFtJd.js`
+- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-CJInFtJd.js`
+- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-CJInFtJd.js`
+- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-CJInFtJd.js`
+- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-CJInFtJd.js`
+- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-CJInFtJd.js`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- `android/app/src/main/assets/public/assets/web-CJInFtJd.js`
 
 ## Audit Trail
 
