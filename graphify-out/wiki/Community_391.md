@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **ErrorBoundary** (5 connections) — `src/main.jsx`
-- **.componentDidCatch()** (1 connections) — `src/main.jsx`
-- **.constructor()** (1 connections) — `src/main.jsx`
-- **.getDerivedStateFromError()** (1 connections) — `src/main.jsx`
-- **.render()** (1 connections) — `src/main.jsx`
+- **integration.test.mjs** (4 connections) — `backend/test/integration.test.mjs`
+- **api()** (1 connections) — `backend/test/integration.test.mjs`
+- **COMMERCE_FIXTURE** (1 connections) — `backend/test/integration.test.mjs`
+- **crmMock** (1 connections) — `backend/test/integration.test.mjs`
+- **uniq()** (1 connections) — `backend/test/integration.test.mjs`
 
 ## Relationships
 
-- [[Zoho Integration Architecture]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/main.jsx`
+- `backend/test/integration.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

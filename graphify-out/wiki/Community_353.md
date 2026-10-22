@@ -4,25 +4,27 @@
 
 ## Key Concepts
 
-- **point** (6 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **main()** (7 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **pruneStaleFiles()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **uniqueBySlug()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **generatedFiles()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **mapWithConcurrency()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **parseArgs()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- [[Community 95]] (1 shared connections)
+- [[Community 77]] (6 shared connections)
+- [[Community 235]] (2 shared connections)
+- [[Community 243]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 18 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

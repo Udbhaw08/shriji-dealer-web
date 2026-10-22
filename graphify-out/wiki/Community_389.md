@@ -1,26 +1,26 @@
 # Community 389
 
-> 5 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **export_pricebooks_for_crm.mjs** (4 connections) — `scripts/export_pricebooks_for_crm.mjs`
-- **getAccessToken()** (2 connections) — `scripts/export_pricebooks_for_crm.mjs`
-- **main()** (2 connections) — `scripts/export_pricebooks_for_crm.mjs`
-- **env** (1 connections) — `scripts/export_pricebooks_for_crm.mjs`
-- **getMergedEnv()** (1 connections) — `scripts/export_pricebooks_for_crm.mjs`
+- **ErrorBoundary** (5 connections) — `src/main.jsx`
+- **.componentDidCatch()** (1 connections) — `src/main.jsx`
+- **.constructor()** (1 connections) — `src/main.jsx`
+- **.getDerivedStateFromError()** (1 connections) — `src/main.jsx`
+- **.render()** (1 connections) — `src/main.jsx`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Zoho Integration Architecture]] (1 shared connections)
 
 ## Source Files
 
-- `scripts/export_pricebooks_for_crm.mjs`
+- `src/main.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

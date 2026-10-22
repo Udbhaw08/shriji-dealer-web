@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **esm-BtEVX9fQ.js** (1 connections) — `ios/App/App/public/assets/esm-BtEVX9fQ.js`
-- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-BtEVX9fQ.js`
+- **hygiene.md** (1 connections) — `.agents/skills/swiftui-pro/references/hygiene.md`
+- **Hygiene** (1 connections) — `.agents/skills/swiftui-pro/references/hygiene.md`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/esm-BtEVX9fQ.js`
+- `.agents/skills/swiftui-pro/references/hygiene.md`
 
 ## Audit Trail
 

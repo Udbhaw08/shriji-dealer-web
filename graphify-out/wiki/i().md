@@ -1,8 +1,8 @@
 # i()
 
-> God node · 66 connections · `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+> God node · 66 connections · `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
 
-**Community:** [[Community 49]]
+**Community:** [[Community 50]]
 
 ## Connections by Relation
 

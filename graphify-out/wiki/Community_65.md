@@ -1,53 +1,52 @@
 # Community 65
 
-> 24 nodes · cohesion 0.14
+> 24 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **intent-trace-browser.test.mjs** (15 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **semantic-lens-browser.test.mjs** (14 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **desktop-browser.mjs** (8 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
-- **run()** (6 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **run()** (6 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **desktopBrowser()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
-- **desktopPointerCheck()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **point()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **point()** (4 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **media()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **move()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **move()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **afterTimer()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **hash()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **preview.mjs** (23 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **startPreview()** (10 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **cli-output-types.test.mjs** (10 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **runPreview()** (3 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **compactMessage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **initialAuthoredOutput()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **previewPage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **redactDiagnostic()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **sha256()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **sourceDigest()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **cliPath** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **diagramTypes** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **here** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **parseReceipt()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **responseHeaders()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **safeJson()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **architecture** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **base** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **head** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **root** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **workflow** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **workspace()** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
 
 ## Relationships
 
-- [[Community 51]] (11 shared connections)
-- [[Community 39]] (3 shared connections)
-- [[Community 150]] (3 shared connections)
-- [[Community 151]] (3 shared connections)
-- [[Community 132]] (2 shared connections)
-- [[Community 82]] (1 shared connections)
+- [[Community 246]] (3 shared connections)
+- [[Community 106]] (3 shared connections)
+- [[Community 39]] (2 shared connections)
+- [[Community 206]] (2 shared connections)
+- [[Community 324]] (2 shared connections)
+- [[Community 244]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/helpers/desktop-browser.mjs`
-- `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- `.agents/skills/archify/bin/preview.mjs`
+- `.agents/skills/archify/test/cli-output-types.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 103 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 71 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

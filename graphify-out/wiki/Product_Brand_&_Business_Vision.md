@@ -39,9 +39,9 @@
 - [[Community 34]] (14 shared connections)
 - [[Product Requirements Documentation]] (5 shared connections)
 - [[Community 109]] (4 shared connections)
-- [[Community 39]] (3 shared connections)
+- [[Community 41]] (3 shared connections)
 - [[Zoho Integration Skill]] (1 shared connections)
-- [[Community 80]] (1 shared connections)
+- [[Community 83]] (1 shared connections)
 
 ## Source Files
 

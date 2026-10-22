@@ -1,39 +1,35 @@
 # Community 141
 
-> 14 nodes · cohesion 0.33
+> 14 nodes · cohesion 0.30
 
 ## Key Concepts
 
-- **commerceClient.js** (22 connections) — `backend/src/services/commerceClient.js`
-- **ensureContactPricebookForCrmAccount()** (8 connections) — `backend/src/services/commerceClient.js`
-- **fetchCatalog()** (6 connections) — `backend/src/services/commerceClient.js`
-- **booksFetch()** (5 connections) — `backend/src/services/commerceClient.js`
-- **commerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
-- **commerceFetch()** (5 connections) — `backend/src/services/commerceClient.js`
-- **isCommerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
-- **resolvePricebookId()** (5 connections) — `backend/src/services/commerceClient.js`
-- **assignPricebookToContact()** (4 connections) — `backend/src/services/commerceClient.js`
-- **deactivateCommerceContact()** (3 connections) — `backend/src/services/commerceClient.js`
-- **fetchCommercePricebooks()** (3 connections) — `backend/src/services/commerceClient.js`
-- **fetchPricebookRates()** (3 connections) — `backend/src/services/commerceClient.js`
-- **getAccessToken()** (3 connections) — `backend/src/services/commerceClient.js`
-- **parseRate()** (2 connections) — `backend/src/services/commerceClient.js`
+- **architecture-delta-markers.test.mjs** (13 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **assertPreserved()** (6 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **descendants()** (6 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **assertResolved()** (4 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **attr()** (4 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **markerMap()** (4 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **compare()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **edgePaths()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **markerId()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **svgIn()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **markerShape()** (2 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **variantFixture()** (1 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **variants** (1 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
 
 ## Relationships
 
-- [[Community 86]] (6 shared connections)
-- [[Community 54]] (5 shared connections)
-- [[Community 31]] (4 shared connections)
-- [[Community 48]] (2 shared connections)
-- [[Community 72]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `backend/src/services/commerceClient.js`
+- `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 79 (100%)
+- EXTRACTED: 54 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

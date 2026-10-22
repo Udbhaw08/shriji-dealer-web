@@ -4,25 +4,25 @@
 
 ## Key Concepts
 
-- **The menu bar** (15 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **the-menu-bar.md** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **App menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **App-specific menus** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Dynamic menu items** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Edit menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **File menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Format menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Help menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Menu bar extras** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **View menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Window menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Apple Design Skill** (7 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Step 3: Audit through five lenses, in this order** (6 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Review process** (5 connections) — `.agents/skills/apple-design/SKILL.md`
+- **The references** (3 connections) — `.agents/skills/apple-design/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Always load** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Apple's design principles** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Design improvement mode** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Lens 1: Accessibility (failures are Critical)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Lens 2: Platform conventions (failures are usually High)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Lens 3: Visual design and craft (findings are High or Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Lens 4: Interaction (findings are usually Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Lens 5: Content and writing (findings are usually Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Load by what is on screen** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Specialized review modes** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Step 1: Establish context** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Step 2: Load references** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Step 4: Write the report** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Working rules** (1 connections) — `.agents/skills/apple-design/SKILL.md`
 
 ## Relationships
 
@@ -30,7 +30,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- `.agents/skills/apple-design/SKILL.md`
 
 ## Audit Trail
 

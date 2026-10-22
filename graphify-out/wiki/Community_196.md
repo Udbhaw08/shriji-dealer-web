@@ -4,28 +4,28 @@
 
 ## Key Concepts
 
-- **Viewer Runtime reference** (6 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Canonical exports** (4 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **viewer-runtime.md** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Exploration** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Guided views and story** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Motion and presentation** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Reach Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Route Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Truth boundary** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **entries** (4 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **legend** (4 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **mode** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **properties** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 69]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/references/viewer-runtime.md`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

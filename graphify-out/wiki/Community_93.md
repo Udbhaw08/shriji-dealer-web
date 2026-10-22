@@ -1,40 +1,45 @@
 # Community 93
 
-> 19 nodes · cohesion 0.11
+> 20 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **App Clips** (9 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **App Clip Codes** (5 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **Designing your App Clip** (5 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **Printing guidelines** (2 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **app-clips.md** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **Creating App Clips for businesses** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **Creating content for an App Clip card** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **Customizing your App Clip Code** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **Displaying App Clip Codes** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **Interacting with App Clip Codes** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **Legal requirements** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **Limiting notifications** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **Preserving privacy** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **Showcasing your app** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **Using clear messaging** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
-- **Verifying your printer’s calibration** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **hash.js** (18 connections) — `backend/src/utils/hash.js`
+- **loginCode.js** (15 connections) — `backend/src/utils/loginCode.js`
+- **generateLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
+- **hash.test.mjs** (7 connections) — `backend/test/hash.test.mjs`
+- **loginCode.test.mjs** (7 connections) — `backend/test/loginCode.test.mjs`
+- **formatLoginCode()** (7 connections) — `backend/src/utils/loginCode.js`
+- **hashPassword()** (4 connections) — `backend/src/utils/hash.js`
+- **verifyPassword()** (4 connections) — `backend/src/utils/hash.js`
+- **isValidLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
+- **parseLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
+- **generateOtp()** (3 connections) — `backend/src/utils/hash.js`
+- **scryptKey()** (3 connections) — `backend/src/utils/hash.js`
+- **USER_CATEGORIES** (3 connections) — `backend/src/utils/loginCode.js`
+- **generateCode()** (2 connections) — `backend/src/utils/hash.js`
+- **randomToken()** (2 connections) — `backend/src/utils/hash.js`
+- **generateRandomDigits()** (2 connections) — `backend/src/utils/loginCode.js`
+- **generateRandomLetters()** (2 connections) — `backend/src/utils/loginCode.js`
+- **GST_TREATMENT_OPTIONS** (2 connections) — `backend/src/utils/loginCode.js`
+- **SCRYPT** (1 connections) — `backend/src/utils/hash.js`
+- **PREFIX_MAP** (1 connections) — `backend/src/utils/loginCode.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 31]] (11 shared connections)
+- [[Community 55]] (6 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/app-clips.md`
+- `backend/src/utils/hash.js`
+- `backend/src/utils/loginCode.js`
+- `backend/test/hash.test.mjs`
+- `backend/test/loginCode.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (100%)
+- EXTRACTED: 99 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

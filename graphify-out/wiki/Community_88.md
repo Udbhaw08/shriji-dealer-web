@@ -1,41 +1,49 @@
 # Community 88
 
-> 20 nodes · cohesion 0.10
+> 20 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **Example Workflow: SaaS Pricing Page** (7 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 1: Styles Research** (4 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 5: Implementation Blueprint** (4 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 2: Screen Research** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 3: Flow Research** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 4: Synthesis** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **example-workflow.md** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Design Decision Ledger** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Flow Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Flow Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Page Structure** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 0: Discovery** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Quality Gate** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Research Summary** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Screen Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Screen Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Style Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Style Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Tokens** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Visual Direction Synthesis** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **l()** (31 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **be()** (13 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **yl()** (13 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Oe()** (11 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **vl()** (10 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **ga()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **la()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Lo()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Do()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **ea()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **ie()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **pl()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **ae()** (4 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **fl()** (4 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **ge()** (4 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Ud()** (3 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Ym()** (3 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **gl()** (2 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **hl()** (2 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Wf()** (2 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (26 shared connections)
+- [[Design System & UI Tokens]] (12 shared connections)
+- [[Client Products Data Store]] (6 shared connections)
+- [[Graphify Knowledge Graph Skill]] (6 shared connections)
+- [[Community 47]] (6 shared connections)
+- [[Community 113]] (4 shared connections)
+- [[Community 33]] (4 shared connections)
+- [[Community 53]] (3 shared connections)
+- [[Community 43]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/example-workflow.md`
+- `ios/App/App/public/assets/index-CpwYb6dU.js`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
+- EXTRACTED: 140 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,29 +1,31 @@
 # Community 271
 
-> 8 nodes · cohesion 0.25
+> 8 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **wraps** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **via** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **isDroppedPlatformText()** (5 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **headingLine()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **relabelHeading()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **isDroppedBoilerplate()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **platformsMentioned()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **reduceHeading()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **isDroppedPlatformLabel()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **platformGroupLabel()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- [[Pricing & Roles Skill]] (2 shared connections)
+- [[Community 77]] (8 shared connections)
+- [[Community 203]] (1 shared connections)
+- [[Community 202]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

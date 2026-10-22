@@ -37,11 +37,11 @@
 - [[Architecture Doc Generator]] (42 shared connections)
 - [[Community 34]] (27 shared connections)
 - [[Product Brand & Business Vision]] (19 shared connections)
-- [[Community 80]] (14 shared connections)
+- [[Community 83]] (14 shared connections)
 - [[Product Requirements Documentation]] (9 shared connections)
 - [[Community 109]] (5 shared connections)
 - [[Zoho Integration Skill]] (3 shared connections)
-- [[Community 284]] (1 shared connections)
+- [[Community 283]] (1 shared connections)
 
 ## Source Files
 

@@ -1,48 +1,50 @@
 # Community 37
 
-> 33 nodes · cohesion 0.06
+> 34 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **scripts** (15 connections) — `.agents/skills/archify/package.json`
-- **package.json** (11 connections) — `.agents/skills/archify/package.json`
-- **devDependencies** (5 connections) — `.agents/skills/archify/package.json`
-- **bin** (2 connections) — `.agents/skills/archify/package.json`
-- **engines** (2 connections) — `.agents/skills/archify/package.json`
-- **overrides** (2 connections) — `.agents/skills/archify/package.json`
-- **archify** (1 connections) — `.agents/skills/archify/package.json`
-- **description** (1 connections) — `.agents/skills/archify/package.json`
-- **ajv** (1 connections) — `.agents/skills/archify/package.json`
-- **parse5** (1 connections) — `.agents/skills/archify/package.json`
-- **saxes** (1 connections) — `.agents/skills/archify/package.json`
-- **simple-icons** (1 connections) — `.agents/skills/archify/package.json`
-- **node** (1 connections) — `.agents/skills/archify/package.json`
-- **license** (1 connections) — `.agents/skills/archify/package.json`
-- **name** (1 connections) — `.agents/skills/archify/package.json`
-- **fast-uri** (1 connections) — `.agents/skills/archify/package.json`
-- **private** (1 connections) — `.agents/skills/archify/package.json`
-- **build:gallery** (1 connections) — `.agents/skills/archify/package.json`
-- **build:guide** (1 connections) — `.agents/skills/archify/package.json`
-- **build:readme-showcase** (1 connections) — `.agents/skills/archify/package.json`
-- **build:start** (1 connections) — `.agents/skills/archify/package.json`
-- **check:brand-marks** (1 connections) — `.agents/skills/archify/package.json`
-- **check:release-identity** (1 connections) — `.agents/skills/archify/package.json`
-- **check:validators** (1 connections) — `.agents/skills/archify/package.json`
-- **check:viewer** (1 connections) — `.agents/skills/archify/package.json`
-- *... and 8 more nodes in this community*
+- **cacheRename()** (13 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **acquireOperation()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cacheRm()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cacheTokenFor()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **captureMutationParentSnapshots()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cacheWriteFile()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **invalidateCacheToken()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **prepareCacheDirectory()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **promoteOperationClaim()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **reserveOperation()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **resolveCacheTarget()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stableCacheEntry()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **verifyCacheToken()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **guardedCacheMutation()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **guardedCacheRead()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertSafeDirectory()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cacheMkdir()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **inspectActiveClaim()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **isSameFile()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cacheMkdirWithToken()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **fenceLowerOperations()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **listOperations()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **operationName()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **operationWasFenced()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **prepareOperationClaim()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 40]] (39 shared connections)
+- [[Community 105]] (18 shared connections)
+- [[Community 208]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/package.json`
+- `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 231 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

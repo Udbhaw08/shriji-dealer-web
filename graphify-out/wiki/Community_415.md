@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **col** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **toCol** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 - **maximum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 - **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 - **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`

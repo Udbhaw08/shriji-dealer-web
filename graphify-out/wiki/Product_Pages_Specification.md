@@ -37,11 +37,11 @@
 - [[Architecture Doc Generator]] (45 shared connections)
 - [[Product Brand & Business Vision]] (35 shared connections)
 - [[Community 34]] (33 shared connections)
-- [[Community 80]] (31 shared connections)
+- [[Community 83]] (31 shared connections)
 - [[Product Requirements Documentation]] (8 shared connections)
 - [[Live Pricing Audit Tool]] (6 shared connections)
 - [[Community 109]] (4 shared connections)
-- [[Community 292]] (3 shared connections)
+- [[Community 291]] (3 shared connections)
 
 ## Source Files
 

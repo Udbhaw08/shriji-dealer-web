@@ -28,12 +28,12 @@
 - [[Community 34]] (10 shared connections)
 - [[Product Requirements Documentation]] (7 shared connections)
 - [[Community 30]] (5 shared connections)
-- [[Community 130]] (5 shared connections)
+- [[Community 129]] (5 shared connections)
 - [[Product Brand & Business Vision]] (4 shared connections)
 - [[Product Pages Specification]] (4 shared connections)
-- [[Community 80]] (3 shared connections)
+- [[Community 83]] (3 shared connections)
 - [[Zoho Integration Skill]] (1 shared connections)
-- [[Community 284]] (1 shared connections)
+- [[Community 283]] (1 shared connections)
 
 ## Source Files
 

@@ -4,57 +4,54 @@
 
 ## Key Concepts
 
-- **.send()** (54 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **viewer-camera-browser.test.mjs** (11 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **export-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **motion-governor-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **.inspect()** (5 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **run()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **evaluate()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **record()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **media()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **screenshot()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **stable()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **viewport()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **.waitFor()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **screenshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **kf()** (18 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Mr()** (15 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **r()** (15 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Pr()** (14 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **br()** (8 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Dr()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **gr()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Hr()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **jf()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **tn()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Wr()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Fr()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Ir()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **qf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Rr()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Ur()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Cr()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Lr()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Nr()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Xf()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **yr()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **zr()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **hp()** (2 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **If()** (2 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **of()** (2 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
 - *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [[Community 65]] (11 shared connections)
-- [[Community 92]] (8 shared connections)
-- [[Community 82]] (7 shared connections)
-- [[Community 132]] (7 shared connections)
-- [[Community 39]] (5 shared connections)
-- [[Community 150]] (5 shared connections)
-- [[Community 151]] (5 shared connections)
-- [[Community 183]] (4 shared connections)
-- [[Community 107]] (1 shared connections)
-- [[Community 292]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (30 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (6 shared connections)
+- [[Master Codebase Architecture Reference]] (6 shared connections)
+- [[Pricing Regression Test Suite]] (5 shared connections)
+- [[Community 108]] (4 shared connections)
+- [[Community 44]] (4 shared connections)
+- [[Community 32]] (3 shared connections)
+- [[Community 60]] (1 shared connections)
+- [[Community 50]] (1 shared connections)
+- [[Community 42]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/export-browser.test.mjs`
-- `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
 
 ## Audit Trail
 
-- EXTRACTED: 146 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 149 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

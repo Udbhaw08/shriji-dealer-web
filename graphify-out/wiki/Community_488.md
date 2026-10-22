@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **architecture** (0 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **sequence** (0 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
 
 ## Relationships
 

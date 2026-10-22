@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Siri** (7 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Getting your app to work with Siri** (2 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **siri.md** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Customizing your app’s experience with Siri** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Editorial guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Sharing contextual information** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Split views** (5 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **Platform considerations** (4 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **split-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/siri.md`
+- `.agents/skills/apple-design/references/hig/split-views.md`
 
 ## Audit Trail
 

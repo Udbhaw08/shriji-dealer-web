@@ -35,9 +35,9 @@
 
 - [[Zoho Integration Architecture]] (29 shared connections)
 - [[Community 35]] (13 shared connections)
-- [[Community 47]] (10 shared connections)
+- [[Community 48]] (10 shared connections)
 - [[Community 110]] (4 shared connections)
-- [[Community 170]] (1 shared connections)
+- [[Community 169]] (1 shared connections)
 
 ## Source Files
 

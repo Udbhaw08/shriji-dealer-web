@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **labelSegment** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **label** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- [[Claude Agent Instructions]] (1 shared connections)
+- [[Project Readme & Layout]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 

@@ -27,7 +27,7 @@
 - [[Zoho Integration Architecture]] (18 shared connections)
 - [[Dependencies & Package Config]] (4 shared connections)
 - [[Community 35]] (4 shared connections)
-- [[Community 47]] (2 shared connections)
+- [[Community 48]] (2 shared connections)
 
 ## Source Files
 

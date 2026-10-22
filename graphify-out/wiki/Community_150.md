@@ -1,37 +1,37 @@
 # Community 150
 
-> 13 nodes · cohesion 0.31
+> 13 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **focus-browser.test.mjs** (17 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **run()** (8 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **stable()** (6 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **click()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **point()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **key()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **move()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **select()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **focus()** (2 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **variant()** (1 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **guided-views-browser.test.mjs** (17 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **run()** (8 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **settled()** (4 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **activate()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **hash()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **variant()** (1 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
 
 ## Relationships
 
-- [[Community 51]] (5 shared connections)
-- [[Community 65]] (3 shared connections)
-- [[Community 39]] (1 shared connections)
-- [[Community 132]] (1 shared connections)
+- [[Community 52]] (5 shared connections)
+- [[Community 66]] (3 shared connections)
+- [[Community 41]] (1 shared connections)
+- [[Community 131]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/focus-browser.test.mjs`
+- `.agents/skills/archify/test/guided-views-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (100%)
+- EXTRACTED: 54 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

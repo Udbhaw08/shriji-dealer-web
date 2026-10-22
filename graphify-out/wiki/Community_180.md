@@ -4,22 +4,23 @@
 
 ## Key Concepts
 
-- **legendEntry** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **label** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **properties** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **visible** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **properties** (9 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **note** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **dot** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 - **maxLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 - **minLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **minProperties** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 - **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- [[Community 95]] (1 shared connections)
-- [[Community 181]] (1 shared connections)
+- [[Community 232]] (3 shared connections)
+- [[Community 386]] (1 shared connections)
+- [[Community 179]] (1 shared connections)
 
 ## Source Files
 
@@ -27,7 +28,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 25 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

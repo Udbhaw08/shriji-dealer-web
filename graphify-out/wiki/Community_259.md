@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Onboarding** (7 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
-- **onboarding.md** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
-- **Additional content** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
-- **Additional requests** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Page controls** (6 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **page-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **Customizing indicators** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/onboarding.md`
+- `.agents/skills/apple-design/references/hig/page-controls.md`
 
 ## Audit Trail
 

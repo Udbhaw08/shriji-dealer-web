@@ -250,7 +250,7 @@ export function Mark() {
 
   if (brandLogo?.imageUrl) {
     return (
-      <Link to="/" className="mark mark-restor-wrap mark-custom-logo" aria-label={brandLogo.title || "ReSTOR B2B — Shriji Domestic Appliances"}>
+      <Link to="/" className="mark mark-restor-wrap mark-custom-logo" aria-label={brandLogo.title || "ReSTOR — Shriji Domestic Appliances"}>
         <img
           src={brandLogo.imageUrl}
           alt={brandLogo.title || "ReSTOR"}
@@ -258,18 +258,16 @@ export function Mark() {
           style={{ maxHeight: 34, maxWidth: 140, objectFit: "contain", display: "block" }}
           onError={() => setBrandLogo(null)}
         />
-        <span className="mark-b2b-badge">B2B</span>
       </Link>
     );
   }
 
   return (
-    <Link to="/" className="mark mark-restor-wrap" aria-label="ReSTOR B2B — Shriji Domestic Appliances">
+    <Link to="/" className="mark mark-restor-wrap" aria-label="ReSTOR — Shriji Domestic Appliances">
       <span className="mark-restor-text">
         <span className="mark-restor-re">Re</span>
         <span className="mark-restor-stor">STOR</span>
       </span>
-      <span className="mark-b2b-badge">B2B</span>
     </Link>
   );
 }

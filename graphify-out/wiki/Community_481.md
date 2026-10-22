@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **build.gradle** (0 connections) — `android/capacitor-cordova-android-plugins/build.gradle`
+- **context.md** (0 connections) — `design/context.md`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `android/capacitor-cordova-android-plugins/build.gradle`
+- `design/context.md`
 
 ## Audit Trail
 

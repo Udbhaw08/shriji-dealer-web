@@ -1,50 +1,45 @@
 # Community 75
 
-> 23 nodes · cohesion 0.10
+> 23 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **pull-hig.mjs** (65 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **crawlSection()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **fetchPageJson()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **abstractOf()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **anchorEntries()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **anchorMapFor()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **listedPages()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **plainText()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **ALL_PLATFORMS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **cellText()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **collectReferences()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **CURATED_FILES** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **DESIGNING_FOR_COVERAGE** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **DROPPED_PLATFORMS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **githubSlug()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **IMAGE_GLYPHS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **KEPT_PLATFORMS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **OMITTED_PAGES** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **PLATFORM_LIST_RE** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **PLATFORM_NAMES** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **platformsOf()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **REPO_ROOT** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **SECTIONS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **package.json** (9 connections) — `backend/package.json`
+- **dependencies** (7 connections) — `backend/package.json`
+- **scripts** (7 connections) — `backend/package.json`
+- **engines** (2 connections) — `backend/package.json`
+- **dotenv** (1 connections) — `backend/package.json`
+- **express** (1 connections) — `backend/package.json`
+- **google-auth-library** (1 connections) — `backend/package.json`
+- **jsonwebtoken** (1 connections) — `backend/package.json`
+- **postgres** (1 connections) — `backend/package.json`
+- **resend** (1 connections) — `backend/package.json`
+- **description** (1 connections) — `backend/package.json`
+- **node** (1 connections) — `backend/package.json`
+- **main** (1 connections) — `backend/package.json`
+- **name** (1 connections) — `backend/package.json`
+- **private** (1 connections) — `backend/package.json`
+- **build** (1 connections) — `backend/package.json`
+- **check:ready** (1 connections) — `backend/package.json`
+- **dev** (1 connections) — `backend/package.json`
+- **migrate** (1 connections) — `backend/package.json`
+- **start** (1 connections) — `backend/package.json`
+- **test** (1 connections) — `backend/package.json`
+- **type** (1 connections) — `backend/package.json`
+- **version** (1 connections) — `backend/package.json`
 
 ## Relationships
 
-- [[Community 203]] (10 shared connections)
-- [[Community 204]] (10 shared connections)
-- [[Community 236]] (9 shared connections)
-- [[Community 272]] (8 shared connections)
-- [[Community 355]] (6 shared connections)
-- [[Community 244]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- `backend/package.json`
 
 ## Audit Trail
 
-- EXTRACTED: 95 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 44 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

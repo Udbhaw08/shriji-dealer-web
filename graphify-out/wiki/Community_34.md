@@ -39,7 +39,7 @@
 - [[Product Brand & Business Vision]] (14 shared connections)
 - [[Product Requirements Documentation]] (10 shared connections)
 - [[Community 109]] (10 shared connections)
-- [[Community 80]] (10 shared connections)
+- [[Community 83]] (10 shared connections)
 - [[Zoho Integration Skill]] (1 shared connections)
 
 ## Source Files

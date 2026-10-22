@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **Generative AI** (11 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **generative-ai.md** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Continuous improvement** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Inputs** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Models and datasets** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Outputs** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Privacy** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Transparency** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Inclusion** (11 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **inclusion.md** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Accessibility** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Avoiding stereotypes** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Being approachable** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Gender identity** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Inclusive by design** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Languages** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **People and settings** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Welcoming language** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
 
 ## Relationships
 
@@ -23,7 +23,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/generative-ai.md`
+- `.agents/skills/apple-design/references/hig/inclusion.md`
 
 ## Audit Trail
 

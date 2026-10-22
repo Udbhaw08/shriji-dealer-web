@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **render-examples.mjs** (4 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
-- **outputRoot** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
-- **TARGETS** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
+- **base-input-compatibility.test.mjs** (4 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
+- **renderBaseFixture()** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/render-examples.mjs`
+- `.agents/skills/archify/test/base-input-compatibility.test.mjs`
 
 ## Audit Trail
 

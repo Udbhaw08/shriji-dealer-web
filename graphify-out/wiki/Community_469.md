@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **test-supabase.mjs** (1 connections) — `scripts/test-supabase.mjs`
-- **test()** (1 connections) — `scripts/test-supabase.mjs`
+- **graphify.md** (1 connections) — `.agents/workflows/graphify.md`
+- **Workflow: graphify** (1 connections) — `.agents/workflows/graphify.md`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `scripts/test-supabase.mjs`
+- `.agents/workflows/graphify.md`
 
 ## Audit Trail
 

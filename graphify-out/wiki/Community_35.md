@@ -34,10 +34,10 @@
 ## Relationships
 
 - [[Zoho Integration Architecture]] (55 shared connections)
-- [[Community 47]] (14 shared connections)
+- [[Community 48]] (14 shared connections)
 - [[Dependencies & Package Config]] (13 shared connections)
-- [[Community 170]] (5 shared connections)
 - [[Community 169]] (5 shared connections)
+- [[Community 168]] (5 shared connections)
 - [[Community 110]] (4 shared connections)
 - [[Community 111]] (3 shared connections)
 

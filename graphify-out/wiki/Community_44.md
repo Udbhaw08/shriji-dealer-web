@@ -1,48 +1,57 @@
 # Community 44
 
-> 29 nodes · cohesion 0.09
+> 29 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **AppDelegate** (10 connections) — `ios/App/App/AppDelegate.swift`
-- **.application()** (7 connections) — `ios/App/App/AppDelegate.swift`
-- **.scene()** (7 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIApplication** (6 connections) — `ios/App/App/AppDelegate.swift`
-- **SceneDelegate** (5 connections) — `ios/App/App/SceneDelegate.swift`
-- **AppDelegate.swift** (3 connections) — `ios/App/App/AppDelegate.swift`
-- **SceneDelegate.swift** (3 connections) — `ios/App/App/SceneDelegate.swift`
-- **.applicationDidBecomeActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationDidEnterBackground()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillEnterForeground()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillResignActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillTerminate()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **Capacitor** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIWindow** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIKit** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIResponder** (2 connections)
-- **Any** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **Bool** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIScene** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UISceneSession** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIWindow** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIScene** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **UISceneSession** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **NSUserActivity** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **Set** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **D()** (28 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **qd()** (14 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Yd()** (13 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Fd()** (12 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Vd()** (12 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **rf()** (11 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **df()** (10 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **kc()** (9 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **ff()** (8 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **ct()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Rd()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Bd()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Ci()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **ef()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **nf()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Hd()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Id()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Kd()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **lf()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **mf()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **ns()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **tf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Gd()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **uf()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
 - *... and 4 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (31 shared connections)
+- [[Master Codebase Architecture Reference]] (16 shared connections)
+- [[Pricing Regression Test Suite]] (15 shared connections)
+- [[Community 50]] (10 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (8 shared connections)
+- [[Community 84]] (6 shared connections)
+- [[Community 42]] (4 shared connections)
+- [[Community 32]] (4 shared connections)
+- [[Community 51]] (4 shared connections)
+- [[Community 108]] (3 shared connections)
+- [[Community 60]] (3 shared connections)
 
 ## Source Files
 
-- `ios/App/App/AppDelegate.swift`
-- `ios/App/App/SceneDelegate.swift`
+- `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
 
 ## Audit Trail
 
-- EXTRACTED: 72 (100%)
+- EXTRACTED: 208 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

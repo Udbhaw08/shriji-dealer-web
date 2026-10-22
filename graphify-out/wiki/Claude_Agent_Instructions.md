@@ -15,8 +15,8 @@
 - **labelDx** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 - **labelDy** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 - **lane** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **note** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 - **route** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **step** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 - **sublabel** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 - **tag** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 - **to** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
@@ -33,15 +33,15 @@
 
 ## Relationships
 
-- [[Community 200]] (3 shared connections)
-- [[Community 444]] (1 shared connections)
-- [[Community 465]] (1 shared connections)
-- [[Community 445]] (1 shared connections)
-- [[Community 466]] (1 shared connections)
-- [[Community 446]] (1 shared connections)
-- [[Community 467]] (1 shared connections)
-- [[Community 411]] (1 shared connections)
-- [[Community 412]] (1 shared connections)
+- [[Community 199]] (3 shared connections)
+- [[Community 441]] (1 shared connections)
+- [[Community 462]] (1 shared connections)
+- [[Community 442]] (1 shared connections)
+- [[Community 463]] (1 shared connections)
+- [[Community 443]] (1 shared connections)
+- [[Community 464]] (1 shared connections)
+- [[Community 409]] (1 shared connections)
+- [[Community 410]] (1 shared connections)
 
 ## Source Files
 

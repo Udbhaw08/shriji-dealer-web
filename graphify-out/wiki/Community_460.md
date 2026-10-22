@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **.mcp.json** (1 connections) — `.mcp.json`
-- **supabase** (1 connections) — `.mcp.json`
+- **localization.md** (1 connections) — `.agents/skills/swiftui-pro/references/localization.md`
+- **Localization** (1 connections) — `.agents/skills/swiftui-pro/references/localization.md`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.mcp.json`
+- `.agents/skills/swiftui-pro/references/localization.md`
 
 ## Audit Trail
 

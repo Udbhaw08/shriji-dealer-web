@@ -1,53 +1,44 @@
 # Community 86
 
-> 20 nodes · cohesion 0.19
+> 20 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **catalog.js** (16 connections) — `backend/src/services/catalog.js`
-- **logger.js** (14 connections) — `backend/src/utils/logger.js`
-- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
-- **log** (13 connections) — `backend/src/utils/logger.js`
-- **index.js** (11 connections) — `backend/src/jobs/index.js`
-- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
-- **errorHandler.js** (7 connections) — `backend/src/middleware/errorHandler.js`
-- **syncCatalog()** (7 connections) — `backend/src/services/catalog.js`
-- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
-- **catalogFor()** (4 connections) — `backend/src/services/catalog.js`
-- **loadCatalog()** (4 connections) — `backend/src/services/catalog.js`
-- **catalogSync()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **tokenCleanup()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **markPollRun()** (3 connections) — `backend/src/jobs/crmPoll.js`
-- **httpError()** (3 connections) — `backend/src/middleware/errorHandler.js`
-- **priceView()** (3 connections) — `backend/src/services/catalog.js`
-- **priceGate.test.mjs** (3 connections) — `backend/test/priceGate.test.mjs`
-- **errorHandler()** (2 connections) — `backend/src/middleware/errorHandler.js`
-- **CATALOG** (1 connections) — `backend/test/priceGate.test.mjs`
-- **ts()** (1 connections) — `backend/src/utils/logger.js`
+- **buildDeltaSvg()** (16 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **annotateArchitectureSideSvg()** (9 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryElements()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **edgeSymbolMarkup()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **markerFor()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **addNodeMarker()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryChangeMap()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryMarkupByKey()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryMarkupParts()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundarySymbolMarkup()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **changeMap()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **elementById()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **forceElementState()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **nodeGroupRanges()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **prefixSvgIds()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **staticize()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **transformBoundaryElements()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **transformNodeGroups()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **forceBoundaryState()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **viewBoxSize()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Relationships
 
-- [[Community 31]] (14 shared connections)
-- [[Community 72]] (11 shared connections)
-- [[Community 54]] (11 shared connections)
-- [[Community 141]] (6 shared connections)
-- [[Community 48]] (6 shared connections)
-- [[Community 129]] (3 shared connections)
+- [[Community 61]] (20 shared connections)
+- [[Community 292]] (2 shared connections)
+- [[Architecture Doc Generator]] (2 shared connections)
 
 ## Source Files
 
-- `backend/src/jobs/catalogSync.js`
-- `backend/src/jobs/crmPoll.js`
-- `backend/src/jobs/index.js`
-- `backend/src/middleware/errorHandler.js`
-- `backend/src/services/catalog.js`
-- `backend/src/utils/logger.js`
-- `backend/test/priceGate.test.mjs`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 125 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 78 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---
