@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Sidebars** (5 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
-- **sidebars.md** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
+- **Resizable windows and adaptive layouts** (7 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
+- **resizability.md** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
+- **Checking changes** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
+- **Choosing layouts** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
+- **Fold and camera geometry** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
+- **Presentations** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
+- **Safe areas** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
+- **Tab bars and toolbars** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/sidebars.md`
+- `.agents/skills/swiftui-pro/references/resizability.md`
 
 ## Audit Trail
 

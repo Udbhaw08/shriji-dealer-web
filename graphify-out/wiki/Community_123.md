@@ -1,37 +1,35 @@
 # Community 123
 
-> 15 nodes · cohesion 0.19
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **sources** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **required** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **boundaries** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **connections** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **web-Cz6Pj2Zx.js** (13 connections) — `android/app/src/main/assets/public/assets/web-Cz6Pj2Zx.js`
+- **applyPrefix()** (4 connections) — `android/app/src/main/assets/public/assets/web-Cz6Pj2Zx.js`
+- **keys()** (4 connections) — `android/app/src/main/assets/public/assets/web-Cz6Pj2Zx.js`
+- **get()** (3 connections) — `android/app/src/main/assets/public/assets/web-Cz6Pj2Zx.js`
+- **migrate()** (3 connections) — `android/app/src/main/assets/public/assets/web-Cz6Pj2Zx.js`
+- **rawKeys()** (3 connections) — `android/app/src/main/assets/public/assets/web-Cz6Pj2Zx.js`
+- **clear()** (2 connections) — `android/app/src/main/assets/public/assets/web-Cz6Pj2Zx.js`
+- **remove()** (2 connections) — `android/app/src/main/assets/public/assets/web-Cz6Pj2Zx.js`
+- **removeOld()** (2 connections) — `android/app/src/main/assets/public/assets/web-Cz6Pj2Zx.js`
+- **set()** (2 connections) — `android/app/src/main/assets/public/assets/web-Cz6Pj2Zx.js`
+- **configure()** (1 connections) — `android/app/src/main/assets/public/assets/web-Cz6Pj2Zx.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-Cz6Pj2Zx.js`
+- **impl()** (1 connections) — `android/app/src/main/assets/public/assets/web-Cz6Pj2Zx.js`
+- **prefix()** (1 connections) — `android/app/src/main/assets/public/assets/web-Cz6Pj2Zx.js`
 
 ## Relationships
 
-- [[Oxlint Linter Configuration]] (5 shared connections)
-- [[Community 78]] (3 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `android/app/src/main/assets/public/assets/web-Cz6Pj2Zx.js`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

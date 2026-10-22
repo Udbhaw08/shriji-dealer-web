@@ -1,36 +1,37 @@
 # Community 135
 
-> 14 nodes · cohesion 0.23
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **additionalProperties** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **required** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **edges** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **groups** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **phases** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **workflow-migration.test.mjs** (22 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **copyFixture()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **explicitPinConflictWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **fixture** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **heightConstrainedWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **parseJsonOutput()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **profileDivergenceWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **runMigration()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **runValidation()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
 
 ## Relationships
 
-- [[Zoho Integration Skill]] (5 shared connections)
-- [[Community 80]] (5 shared connections)
+- [[Community 280]] (5 shared connections)
+- [[Community 130]] (3 shared connections)
+- [[Community 44]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `.agents/skills/archify/test/workflow-migration.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (100%)
+- EXTRACTED: 35 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

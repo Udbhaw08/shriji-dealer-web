@@ -1,13 +1,12 @@
 # Community 415
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **generate-viewer.test.mjs** (3 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
-- **fixture()** (1 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
-- **fragments** (1 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
+- **Designing for macOS** (2 connections) — `.agents/skills/apple-design/references/hig/designing-for-macos.md`
+- **designing-for-macos.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-macos.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-macos.md`
 
 ## Relationships
 
@@ -15,11 +14,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/generate-viewer.test.mjs`
+- `.agents/skills/apple-design/references/hig/designing-for-macos.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-23T02:36:44.918+05:30 (GMT+5:30)
-> Total Project Files: 1724
+> Last synchronized: 2026-10-23T02:51:13.075+05:30 (GMT+5:30)
+> Total Project Files: 1710
 
 ---
 
@@ -96,7 +96,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/pages/LegalTerms.jsx`** (4.2 KB)
 - **`src/pages/Login.jsx`** (5.3 KB)
 - **`src/pages/PrivacyPolicy.jsx`** (0.0 KB)
-- **`src/pages/Product.jsx`** (31.5 KB)
+- **`src/pages/Product.jsx`** (31.6 KB)
 - **`src/pages/Products.jsx`** (34.6 KB)
 - **`src/pages/Schemes.jsx`** (18.6 KB)
 - **`src/pages/Support.jsx`** (4.7 KB)
@@ -109,7 +109,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/components/MobileBottomNav.jsx`** (4.8 KB)
 - **`src/components/NativeBackHandler.jsx`** (3.7 KB)
 - **`src/components/PriceBlock.jsx`** (6.4 KB)
-- **`src/components/ProductCard.jsx`** (4.7 KB)
+- **`src/components/ProductCard.jsx`** (3.2 KB)
 - **`src/components/ProductSearchBar.jsx`** (16.6 KB)
 - **`src/components/UnderMaintenance.jsx`** (2.1 KB)
 - **`src/ui.jsx`**: Core UI components (Header, Footer, Icon, Search, CategoryCarousel).
@@ -118,7 +118,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/data/api.js`** (1.7 KB)
 - **`src/data/auth-session.test.mjs`** (3.1 KB)
 - **`src/data/auth.js`** (14.1 KB)
-- **`src/data/dealer.js`** (8.9 KB)
+- **`src/data/dealer.js`** (9.0 KB)
 - **`src/data/dealer.test.mjs`** (4.3 KB)
 - **`src/data/favoritesStore.js`** (2.3 KB)
 - **`src/data/i18n.js`** (1.7 KB)
@@ -143,7 +143,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`api/products/index.js`** (1.1 KB)
 - **`api/products/[id].js`** (1.1 KB)
 - **`api/upload.js`** (7.5 KB)
-- **`api/zoho.js`** (28.5 KB)
+- **`api/zoho.js`** (28.8 KB)
 
 ### 4.5 Automation & Utility Scripts (`scripts/`)
 - **`scripts/audit_prices.mjs`** (3.8 KB)

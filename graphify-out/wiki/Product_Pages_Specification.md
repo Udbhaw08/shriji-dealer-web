@@ -1,59 +1,65 @@
 # Product Pages Specification
 
-> 73 nodes · cohesion 0.08
+> 68 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **session.js** (46 connections) — `src/data/session.js`
-- **auth.js** (40 connections) — `src/data/auth.js`
-- **Login.jsx** (40 connections) — `src/pages/Login.jsx`
-- **callBackend()** (24 connections) — `src/data/auth.js`
-- **json()** (24 connections) — `src/data/auth.js`
-- **DealerDashboard.jsx** (23 connections) — `src/pages/DealerDashboard.jsx`
-- **apiFetch()** (16 connections) — `src/data/api.js`
-- **api.js** (11 connections) — `src/data/api.js`
-- **EmailVerificationPrompt.jsx** (10 connections) — `src/components/EmailVerificationPrompt.jsx`
-- **broadcastAuthChange()** (10 connections) — `src/data/auth.js`
-- **setSession()** (10 connections) — `src/data/session.js`
-- **apiUrl()** (9 connections) — `src/data/api.js`
-- **revalidateSession()** (9 connections) — `src/data/session.js`
-- **loginCode.js** (8 connections) — `src/data/loginCode.js`
-- **registerDealer()** (7 connections) — `src/data/dealer.js`
-- **validators.js** (7 connections) — `src/data/validators.js`
-- **applyAuthResponse()** (6 connections) — `src/data/auth.js`
-- **logout()** (6 connections) — `src/data/auth.js`
-- **fetchMe()** (5 connections) — `src/data/auth.js`
-- **googleLogin()** (5 connections) — `src/data/auth.js`
-- **login()** (5 connections) — `src/data/auth.js`
-- **signup()** (5 connections) — `src/data/auth.js`
-- **staffTogglePrice()** (5 connections) — `src/data/auth.js`
-- **staffTogglePriceAll()** (5 connections) — `src/data/auth.js`
-- **verifyEmailOtp()** (5 connections) — `src/data/auth.js`
-- *... and 48 more nodes in this community*
+- **geometry.mjs** (75 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **compileWorkflowInternal()** (67 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **asArray()** (43 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **geometry.test.mjs** (34 connections) — `.agents/skills/archify/test/geometry.test.mjs`
+- **validateArchitecture()** (22 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **validateDataflow()** (22 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **validateLifecycle()** (22 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **cleanCrossingProblems()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **isFinitePoint()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanFlowProblems()** (17 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **rectsOverlap()** (16 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **validateSequence()** (15 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **cleanAmbiguousCorridorProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanBorderRunProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanRouteRhythmProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **labelPoint()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanEndpointSideProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanLabelRouteClearanceProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **brandTopRailProblem()** (13 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **collectLabelRouteClearance()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **segmentIntersectsRect()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **suggestLabelObstacleFix()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **availableNodeTextWidth()** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- **collectBorderRuns()** (10 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **normalizeRoutePoints()** (10 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- *... and 43 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Integration Architecture]] (29 shared connections)
-- [[Community 38]] (13 shared connections)
-- [[Community 48]] (10 shared connections)
-- [[Community 105]] (4 shared connections)
-- [[Community 165]] (1 shared connections)
+- [[Community 44]] (56 shared connections)
+- [[Community 35]] (49 shared connections)
+- [[Roles & Customer Sharing Spec]] (38 shared connections)
+- [[Community 48]] (31 shared connections)
+- [[Community 29]] (29 shared connections)
+- [[Zoho Integration Architecture]] (12 shared connections)
+- [[Graphify Knowledge Graph Skill]] (6 shared connections)
+- [[Community 104]] (4 shared connections)
+- [[Community 280]] (3 shared connections)
+- [[Vercel Deployment Routing]] (1 shared connections)
 
 ## Source Files
 
-- `src/components/EmailVerificationPrompt.jsx`
-- `src/data/api.js`
-- `src/data/auth.js`
-- `src/data/dealer.js`
-- `src/data/loginCode.js`
-- `src/data/session.js`
-- `src/data/validators.js`
-- `src/pages/DealerDashboard.jsx`
-- `src/pages/Login.jsx`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- `.agents/skills/archify/renderers/shared/geometry.mjs`
+- `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- `.agents/skills/archify/test/geometry.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 471 (100%)
+- EXTRACTED: 705 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

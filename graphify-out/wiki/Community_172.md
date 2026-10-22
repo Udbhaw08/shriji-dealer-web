@@ -1,20 +1,20 @@
 # Community 172
 
-> 11 nodes · cohesion 0.18
+> 11 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **Toggles** (5 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Desktop (macOS)** (4 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **toggles.md** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Checkboxes** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Radio buttons** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Switches** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **degraded.test.mjs** (10 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **assertFriendlyFailure()** (2 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **render()** (2 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **ARRAY_FIELDS** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **filter()** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **installedRoot** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **mulberry32()** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
 
 ## Relationships
 
@@ -22,11 +22,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/toggles.md`
+- `.agents/skills/archify/test/degraded.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

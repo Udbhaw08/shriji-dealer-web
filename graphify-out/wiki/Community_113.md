@@ -1,44 +1,39 @@
 # Community 113
 
-> 16 nodes · cohesion 0.23
+> 16 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **rn()** (13 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **wn()** (12 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **ip()** (10 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **cn()** (8 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **hn()** (8 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **U()** (8 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **vn()** (7 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **Zt()** (7 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **an()** (6 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **un()** (6 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **en()** (5 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **ml()** (5 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **on()** (5 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **ep()** (3 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **gn()** (3 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **sn()** (3 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **properties** (8 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **meta** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **nodes** (4 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **flows** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **cards** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **schema_version** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (17 shared connections)
-- [[Live Pricing Audit Tool]] (12 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (9 shared connections)
-- [[Mobile Responsive UI Skill]] (5 shared connections)
-- [[Community 37]] (4 shared connections)
-- [[Community 42]] (3 shared connections)
-- [[Product Requirements Documentation]] (3 shared connections)
-- [[Vercel Deployment Routing]] (2 shared connections)
+- [[Community 188]] (3 shared connections)
+- [[Community 302]] (1 shared connections)
+- [[Community 65]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-FPrq849U.js`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 109 (100%)
+- EXTRACTED: 35 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

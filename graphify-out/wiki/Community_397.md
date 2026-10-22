@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **3. Font Pairing** (4 connections) — `.agents/skills/refero-design/references/typography.md`
-- **If You Must Pair** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Safe Font Choices by Product Type** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **The One-Font Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **width** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- [[Community 226]] (1 shared connections)
+- [[Graphify Agent Rules]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 

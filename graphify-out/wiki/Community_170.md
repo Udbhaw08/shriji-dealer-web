@@ -4,29 +4,30 @@
 
 ## Key Concepts
 
-- **Design principles** (10 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **design-principles.md** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Agency** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Craft** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Delight** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Familiarity** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Flexibility** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Purpose** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Responsibility** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Simplicity** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **legendEntry** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **label** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **visible** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **maxLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minProperties** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 72]] (1 shared connections)
+- [[Community 171]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/design-principles.md`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

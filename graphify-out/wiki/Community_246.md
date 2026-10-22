@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Game controls** (7 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **game-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **Keyboards** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **Physical controllers** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **Touch controls** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Offering help** (6 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **offering-help.md** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Creating tips** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Desktop (macOS, visionOS)** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/game-controls.md`
+- `.agents/skills/apple-design/references/hig/offering-help.md`
 
 ## Audit Trail
 

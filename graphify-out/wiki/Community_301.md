@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Snippets** (6 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
-- **snippets.md** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **Visual Workflow** (6 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **visual-workflow.md** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Generated Assets** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Image Generation Capability** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Three Visual Directions** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Visual QA** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Visual Target Gate** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/snippets.md`
+- `.agents/skills/refero-design/references/visual-workflow.md`
 
 ## Audit Trail
 

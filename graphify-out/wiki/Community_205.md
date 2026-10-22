@@ -1,19 +1,18 @@
 # Community 205
 
-> 10 nodes · cohesion 0.20
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Workflow Renderer** (6 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Layout contracts** (3 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Design Rules** (2 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **README.md** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Fixed v1** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Input** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Legend** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Migration and layout receipt** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Optional semantic checks** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Readable v2** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **Designing for games** (8 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **designing-for-games.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Adopt Apple technologies** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Enable intuitive interactions** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Jump into gameplay** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Look stunning on every display** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Welcome everyone** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
 
 ## Relationships
 
@@ -21,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/workflow/README.md`
+- `.agents/skills/apple-design/references/hig/designing-for-games.md`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

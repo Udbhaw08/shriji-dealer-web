@@ -1,56 +1,50 @@
 # Community 42
 
-> 34 nodes · cohesion 0.11
+> 34 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **i()** (66 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **n()** (26 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **t()** (20 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **is()** (12 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **ya()** (10 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **as()** (9 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **os()** (8 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **ec()** (7 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **xo()** (7 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **ba()** (6 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **ds()** (6 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **ps()** (6 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **qs()** (6 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **us()** (6 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **ys()** (6 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **bs()** (5 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **Qo()** (5 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **Zo()** (5 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **fs()** (4 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **ms()** (4 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **Qa()** (4 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **rs()** (4 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **va()** (4 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **eo()** (3 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **Qe()** (3 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
+- **cacheRename()** (13 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **acquireOperation()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cacheRm()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cacheTokenFor()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **captureMutationParentSnapshots()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cacheWriteFile()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **invalidateCacheToken()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **prepareCacheDirectory()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **promoteOperationClaim()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **reserveOperation()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **resolveCacheTarget()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stableCacheEntry()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **verifyCacheToken()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **guardedCacheMutation()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **guardedCacheRead()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertSafeDirectory()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cacheMkdir()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **inspectActiveClaim()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **isSameFile()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cacheMkdirWithToken()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **fenceLowerOperations()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **listOperations()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **operationName()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **operationWasFenced()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **prepareOperationClaim()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
 - *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (50 shared connections)
-- [[Product Requirements Documentation]] (30 shared connections)
-- [[Live Pricing Audit Tool]] (18 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (10 shared connections)
-- [[Community 53]] (9 shared connections)
-- [[Vercel Deployment Routing]] (9 shared connections)
-- [[Community 37]] (7 shared connections)
-- [[Mobile Responsive UI Skill]] (3 shared connections)
-- [[Community 113]] (3 shared connections)
+- [[Community 46]] (39 shared connections)
+- [[Community 100]] (18 shared connections)
+- [[Community 199]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-FPrq849U.js`
+- `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 265 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 231 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

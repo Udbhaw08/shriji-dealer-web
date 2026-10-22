@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **Generative AI** (11 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **generative-ai.md** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Continuous improvement** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Inputs** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Models and datasets** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Outputs** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Privacy** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Transparency** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Privacy** (8 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Requesting permission** (3 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **privacy.md** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Location button** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Pre-alert screens, windows, or views** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Protecting data** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Tracking requests** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
 
 ## Relationships
 
@@ -23,7 +23,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/generative-ai.md`
+- `.agents/skills/apple-design/references/hig/privacy.md`
 
 ## Audit Trail
 

@@ -1,58 +1,55 @@
 # Community 39
 
-> 35 nodes · cohesion 0.11
+> 36 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **workflow-migration.test.mjs** (22 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **workflow-v2.mjs** (21 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **migrateWorkflowDocument()** (15 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **compileWorkflow()** (13 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **workflow-migration-geometry.mjs** (10 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **createMappedWorkflowCandidate()** (9 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **intrinsicWorkflow()** (8 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **planningWorkflow()** (7 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **clone()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **legacyLayoutProbe()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **legacyRequirementProbe()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **createHorizontalRankMapper()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **expandableViewBox()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **requiredViewBoxFrom()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **schemaDiagnostics()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **workflow-semantic-contract.test.mjs** (3 connections) — `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
-- **clone()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **mapExplicitCoordinates()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **diagnostic()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **result()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **copyFixture()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **explicitPinConflictWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **fixture** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- *... and 10 more nodes in this community*
+- **i()** (66 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **n()** (25 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **as()** (13 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **r()** (12 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **c()** (11 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **s()** (11 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **ss()** (9 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **lc()** (8 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **fs()** (7 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **Mp()** (7 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **ms()** (7 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **tc()** (7 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **zs()** (7 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **cs()** (6 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **js()** (6 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **uc()** (6 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **vs()** (6 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **el()** (5 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **os()** (5 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **Qa()** (5 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **ds()** (4 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **ec()** (4 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **ps()** (4 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **ws()** (4 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **Do()** (3 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [[Community 35]] (9 shared connections)
-- [[Pricing Regression Test Suite]] (4 shared connections)
-- [[Community 51]] (3 shared connections)
-- [[Master Codebase Architecture Reference]] (3 shared connections)
-- [[Community 147]] (2 shared connections)
-- [[Community 59]] (2 shared connections)
-- [[Community 52]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (50 shared connections)
+- [[Design System & UI Tokens]] (22 shared connections)
+- [[Client Products Data Store]] (18 shared connections)
+- [[Community 49]] (17 shared connections)
+- [[Architecture Doc Generator]] (13 shared connections)
+- [[Zoho Integration Skill]] (9 shared connections)
+- [[Community 103]] (7 shared connections)
+- [[Oxlint Linter Configuration]] (5 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/migrations/workflow-v2.mjs`
-- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- `.agents/skills/archify/test/workflow-migration.test.mjs`
-- `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
+- `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
 
 ## Audit Trail
 
-- EXTRACTED: 156 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 275 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

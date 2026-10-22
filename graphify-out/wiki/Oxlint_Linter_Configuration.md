@@ -1,51 +1,54 @@
 # Oxlint Linter Configuration
 
-> 44 nodes · cohesion 0.05
+> 44 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **properties** (30 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **label** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **pad** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **row** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **brand** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **from** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **fromSide** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **id** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **kind** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **labelAt** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **labelDx** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **labelDy** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **pos** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **route** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **sublabel** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **tag** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **to** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **toSide** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **variant** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **width** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **kf()** (19 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **Fr()** (13 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **rf()** (11 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **df()** (10 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **Pi()** (8 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **ct()** (7 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **ff()** (7 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **Or()** (7 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **sf()** (7 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **xr()** (7 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **ei()** (6 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **Id()** (6 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **nf()** (6 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **br()** (5 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **Hr()** (5 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **jf()** (5 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **Jr()** (5 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **lf()** (5 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **qr()** (5 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **It()** (4 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **kr()** (4 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **qf()** (4 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **st()** (4 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **Tt()** (4 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
 - *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [[Community 123]] (5 shared connections)
-- [[Community 266]] (2 shared connections)
-- [[Community 427]] (1 shared connections)
-- [[Community 428]] (1 shared connections)
-- [[Community 344]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (51 shared connections)
+- [[Architecture Doc Generator]] (10 shared connections)
+- [[Community 49]] (7 shared connections)
+- [[Zoho Integration Skill]] (7 shared connections)
+- [[Community 39]] (5 shared connections)
+- [[Design System & UI Tokens]] (5 shared connections)
+- [[Community 103]] (4 shared connections)
+- [[Client Products Data Store]] (4 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
 
 ## Audit Trail
 
-- EXTRACTED: 96 (100%)
+- EXTRACTED: 221 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Link, useParams, useSearchParams, useNavigate } from "react-router-dom";
 import { useProducts } from "../data/productsStore";
 import { COMPANY } from "../data/site";
-import { registerDealer, shareLink, tagFor, viewerFor, inr, priceFor, slugifyProduct } from "../data/dealer";
+import { registerDealer, shareLink, viewerFor, inr, priceFor, slugifyProduct } from "../data/dealer";
 import { useSession } from "../data/session";
 import { Icon } from "../ui";
 import { useLanguage } from "../data/i18n";
@@ -301,7 +301,8 @@ export default function Product() {
     );
   }
 
-  const tag = tagFor(p);
+  const rawTag = Array.isArray(p?.tags) && p.tags.length > 0 ? p.tags[0] : (p?.tag || null);
+  const tag = typeof rawTag === "string" ? rawTag : (rawTag?.tag_name || rawTag?.name || null);
 
   const displayTitle = p?.name || p?.model || "";
 
@@ -454,7 +455,7 @@ export default function Product() {
               ) : (
                 <Icon name={p.cat === "chimneys" ? "chimney" : p.cat === "small_appliances" ? "blender" : "stove"} size={90} style={{ color: "var(--tx-3)" }} />
               )}
-              {tag && <span className={`badge badge-${tag.kind === "blue" ? "blue" : ""} prod-tag`}>{tag.label}</span>}
+              {tag && <span className="badge badge-blue prod-tag">{tag}</span>}
 
               {shots.length > 1 && (
                 <>

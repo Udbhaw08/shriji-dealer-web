@@ -4,32 +4,37 @@
 
 ## Key Concepts
 
-- **web-Cky5-zsK.js** (13 connections) — `android/app/src/main/assets/public/assets/web-Cky5-zsK.js`
-- **applyPrefix()** (4 connections) — `android/app/src/main/assets/public/assets/web-Cky5-zsK.js`
-- **keys()** (4 connections) — `android/app/src/main/assets/public/assets/web-Cky5-zsK.js`
-- **get()** (3 connections) — `android/app/src/main/assets/public/assets/web-Cky5-zsK.js`
-- **migrate()** (3 connections) — `android/app/src/main/assets/public/assets/web-Cky5-zsK.js`
-- **rawKeys()** (3 connections) — `android/app/src/main/assets/public/assets/web-Cky5-zsK.js`
-- **clear()** (2 connections) — `android/app/src/main/assets/public/assets/web-Cky5-zsK.js`
-- **remove()** (2 connections) — `android/app/src/main/assets/public/assets/web-Cky5-zsK.js`
-- **removeOld()** (2 connections) — `android/app/src/main/assets/public/assets/web-Cky5-zsK.js`
-- **set()** (2 connections) — `android/app/src/main/assets/public/assets/web-Cky5-zsK.js`
-- **configure()** (1 connections) — `android/app/src/main/assets/public/assets/web-Cky5-zsK.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-Cky5-zsK.js`
-- **impl()** (1 connections) — `android/app/src/main/assets/public/assets/web-Cky5-zsK.js`
-- **prefix()** (1 connections) — `android/app/src/main/assets/public/assets/web-Cky5-zsK.js`
+- **qd()** (15 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **Yd()** (13 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **Fd()** (12 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **Vd()** (12 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **Bd()** (6 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **Hd()** (4 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **rs()** (4 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **Fi()** (3 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **Gd()** (3 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **hf()** (3 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **to()** (3 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **Wd()** (3 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **Ld()** (2 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **Xd()** (2 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (17 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (10 shared connections)
+- [[Master Codebase Architecture Reference]] (6 shared connections)
+- [[Community 45]] (4 shared connections)
+- [[Live Pricing Audit Tool]] (4 shared connections)
+- [[Community 82]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/web-Cky5-zsK.js`
+- `ios/App/App/public/assets/index-DVQX9sn1.js`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 85 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

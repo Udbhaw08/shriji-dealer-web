@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Image views** (6 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **image-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Pickers** (5 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **pickers.md** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/image-views.md`
+- `.agents/skills/apple-design/references/hig/pickers.md`
 
 ## Audit Trail
 

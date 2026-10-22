@@ -1,32 +1,35 @@
 # Community 173
 
-> 11 nodes · cohesion 0.18
+> 11 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Website & App Redesign Instructions** (7 connections) — `instructions.md`
-- **2. Tri-Skill Synthesis Engine** (4 connections) — `instructions.md`
-- **instructions.md** (1 connections) — `instructions.md`
-- **1. Core Purpose & Architectural Goals** (1 connections) — `instructions.md`
-- **3. Adaptive Platform UX Strategies** (1 connections) — `instructions.md`
-- **4. Mobile Responsiveness & Layout Hard Rules** (1 connections) — `instructions.md`
-- **5. Domain Rules for Shriji Dealer Web** (1 connections) — `instructions.md`
-- **6. Execution Flow for Redesign Tasks** (1 connections) — `instructions.md`
-- **Skill 1: `refero-design` (Website & Aesthetic Authority)** (1 connections) — `instructions.md`
-- **Skill 2: `apple-design` (HIG Standards & Design Audit Authority)** (1 connections) — `instructions.md`
-- **Skill 3: `swiftui-pro` (Mobile App Ergonomics & View Performance Authority)** (1 connections) — `instructions.md`
+- **reader-layout-browser.test.mjs** (13 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **load()** (6 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **evaluate()** (5 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **stable()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **viewport()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **inactive()** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **variant()** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 54]] (4 shared connections)
+- [[Community 47]] (1 shared connections)
+- [[Community 80]] (1 shared connections)
+- [[Community 124]] (1 shared connections)
 
 ## Source Files
 
-- `instructions.md`
+- `.agents/skills/archify/test/reader-layout-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 39 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

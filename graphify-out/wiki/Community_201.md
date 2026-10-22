@@ -1,19 +1,18 @@
 # Community 201
 
-> 10 nodes · cohesion 0.20
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **ordinary-model-floor.test.mjs** (9 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **benchmark** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **mutate()** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **renameCandidateIds()** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **writeJson()** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
+- **web-PZ5HVDTb.js** (8 connections) — `android/app/src/main/assets/public/assets/web-PZ5HVDTb.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-PZ5HVDTb.js`
+- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-PZ5HVDTb.js`
+- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-PZ5HVDTb.js`
+- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-PZ5HVDTb.js`
+- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-PZ5HVDTb.js`
+- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-PZ5HVDTb.js`
+- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-PZ5HVDTb.js`
+- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-PZ5HVDTb.js`
 
 ## Relationships
 
@@ -21,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
+- `android/app/src/main/assets/public/assets/web-PZ5HVDTb.js`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

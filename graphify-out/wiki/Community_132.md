@@ -4,20 +4,20 @@
 
 ## Key Concepts
 
-- **Tablet (iPadOS)** (6 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Pointing devices** (5 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **pointing-devices.md** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Customizing pointers** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Pointer accessories** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Pointer magnetism** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Pointer shape and content effects** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Pointers** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Standard pointers and effects** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **generate-brand-marks.mjs** (13 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **catalog** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **catalogPath** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **domains** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **fail()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **generated** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **here** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **ids** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **lookupForms()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **lookupKeys** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **normalizedList()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **outputPath** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **root** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **simpleBySlug** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
 
 ## Relationships
 
@@ -25,7 +25,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- `.agents/skills/archify/scripts/generate-brand-marks.mjs`
 
 ## Audit Trail
 

@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **accessibility.md** (1 connections) — `.agents/skills/swiftui-pro/references/accessibility.md`
-- **Accessibility** (1 connections) — `.agents/skills/swiftui-pro/references/accessibility.md`
+- **make-scheme-pdfs.mjs** (1 connections) — `scripts/make-scheme-pdfs.mjs`
+- **createPdfWithJpg()** (1 connections) — `scripts/make-scheme-pdfs.mjs`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/accessibility.md`
+- `scripts/make-scheme-pdfs.mjs`
 
 ## Audit Trail
 

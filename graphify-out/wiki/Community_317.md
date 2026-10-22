@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **presentation.test.mjs** (6 connections) — `.agents/skills/archify/test/presentation.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
-- **svg()** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
+- **semantic-lens.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/presentation.test.mjs`
+- `.agents/skills/archify/test/semantic-lens.test.mjs`
 
 ## Audit Trail
 

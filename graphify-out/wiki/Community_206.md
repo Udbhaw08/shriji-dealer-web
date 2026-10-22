@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **web-DxwUOOfO.js** (8 connections) — `android/app/src/main/assets/public/assets/web-DxwUOOfO.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-DxwUOOfO.js`
-- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-DxwUOOfO.js`
-- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-DxwUOOfO.js`
-- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-DxwUOOfO.js`
-- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-DxwUOOfO.js`
-- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-DxwUOOfO.js`
-- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-DxwUOOfO.js`
-- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-DxwUOOfO.js`
+- **Drag and drop** (6 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **drag-and-drop.md** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Accepting drops** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Providing feedback** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/web-DxwUOOfO.js`
+- `.agents/skills/apple-design/references/hig/drag-and-drop.md`
 
 ## Audit Trail
 

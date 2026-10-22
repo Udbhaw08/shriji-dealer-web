@@ -24,10 +24,10 @@
 
 ## Relationships
 
-- [[Zoho Integration Architecture]] (18 shared connections)
-- [[Product Pages Specification]] (4 shared connections)
-- [[Community 38]] (4 shared connections)
-- [[Community 48]] (2 shared connections)
+- [[Product Brand & Business Vision]] (18 shared connections)
+- [[Dependencies & Package Config]] (4 shared connections)
+- [[Community 40]] (4 shared connections)
+- [[Community 52]] (2 shared connections)
 
 ## Source Files
 

@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Shriji Zoho Integration Skill** (5 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
-- **API Endpoints Reference** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
-- **Key Files & Architecture** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
-- **Pricing & Rate Priority** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
-- **Validation & Audit Commands** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
+- **skill-metadata.test.mjs** (5 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
+- **authoringContract** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
+- **frontmatter** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
+- **skill** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/shriji-zoho-integration/SKILL.md`
+- `.agents/skills/archify/test/skill-metadata.test.mjs`
 
 ## Audit Trail
 

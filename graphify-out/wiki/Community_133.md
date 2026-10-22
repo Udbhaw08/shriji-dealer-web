@@ -1,35 +1,39 @@
 # Community 133
 
-> 14 nodes · cohesion 0.23
+> 14 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **web-Cky5-zsK.js** (13 connections) — `ios/App/App/public/assets/web-Cky5-zsK.js`
-- **applyPrefix()** (4 connections) — `ios/App/App/public/assets/web-Cky5-zsK.js`
-- **keys()** (4 connections) — `ios/App/App/public/assets/web-Cky5-zsK.js`
-- **get()** (3 connections) — `ios/App/App/public/assets/web-Cky5-zsK.js`
-- **migrate()** (3 connections) — `ios/App/App/public/assets/web-Cky5-zsK.js`
-- **rawKeys()** (3 connections) — `ios/App/App/public/assets/web-Cky5-zsK.js`
-- **clear()** (2 connections) — `ios/App/App/public/assets/web-Cky5-zsK.js`
-- **remove()** (2 connections) — `ios/App/App/public/assets/web-Cky5-zsK.js`
-- **removeOld()** (2 connections) — `ios/App/App/public/assets/web-Cky5-zsK.js`
-- **set()** (2 connections) — `ios/App/App/public/assets/web-Cky5-zsK.js`
-- **configure()** (1 connections) — `ios/App/App/public/assets/web-Cky5-zsK.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-Cky5-zsK.js`
-- **impl()** (1 connections) — `ios/App/App/public/assets/web-Cky5-zsK.js`
-- **prefix()** (1 connections) — `ios/App/App/public/assets/web-Cky5-zsK.js`
+- **commerceClient.js** (22 connections) — `backend/src/services/commerceClient.js`
+- **ensureContactPricebookForCrmAccount()** (8 connections) — `backend/src/services/commerceClient.js`
+- **fetchCatalog()** (6 connections) — `backend/src/services/commerceClient.js`
+- **booksFetch()** (5 connections) — `backend/src/services/commerceClient.js`
+- **commerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
+- **commerceFetch()** (5 connections) — `backend/src/services/commerceClient.js`
+- **isCommerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
+- **resolvePricebookId()** (5 connections) — `backend/src/services/commerceClient.js`
+- **assignPricebookToContact()** (4 connections) — `backend/src/services/commerceClient.js`
+- **deactivateCommerceContact()** (3 connections) — `backend/src/services/commerceClient.js`
+- **fetchCommercePricebooks()** (3 connections) — `backend/src/services/commerceClient.js`
+- **fetchPricebookRates()** (3 connections) — `backend/src/services/commerceClient.js`
+- **getAccessToken()** (3 connections) — `backend/src/services/commerceClient.js`
+- **parseRate()** (2 connections) — `backend/src/services/commerceClient.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 83]] (6 shared connections)
+- [[Community 55]] (5 shared connections)
+- [[Community 38]] (4 shared connections)
+- [[Community 53]] (2 shared connections)
+- [[Community 69]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-Cky5-zsK.js`
+- `backend/src/services/commerceClient.js`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 79 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

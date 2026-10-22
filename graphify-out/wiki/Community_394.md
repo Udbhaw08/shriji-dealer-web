@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **11. Responsive Typography** (4 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Breakpoint Adjustments** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Fluid Type (Clamp)** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **What Changes** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **via** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Relationships
 
-- [[Community 226]] (1 shared connections)
+- [[Zoho API Diagnostic Script]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 

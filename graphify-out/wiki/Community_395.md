@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **14. Hierarchy Checklist** (4 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Anti-patterns** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Hierarchy Test** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Visual Weight Stack** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **width** (4 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Relationships
 
-- [[Community 226]] (1 shared connections)
+- [[Zoho API Diagnostic Script]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 

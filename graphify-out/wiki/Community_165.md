@@ -1,36 +1,32 @@
 # Community 165
 
-> 11 nodes · cohesion 0.24
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **i18n.js** (25 connections) — `src/data/i18n.js`
-- **setLanguage()** (3 connections) — `src/data/i18n.js`
-- **tCat()** (3 connections) — `src/data/i18n.js`
-- **emit()** (2 connections) — `src/data/i18n.js`
-- **toggleLanguage()** (2 connections) — `src/data/i18n.js`
-- **translations.js** (2 connections) — `src/data/translations.js`
-- **TRANSLATIONS** (2 connections) — `src/data/translations.js`
-- **currentLang** (1 connections) — `src/data/i18n.js`
-- **getInitialLang()** (1 connections) — `src/data/i18n.js`
-- **getLanguage()** (1 connections) — `src/data/i18n.js`
-- **listeners** (1 connections) — `src/data/i18n.js`
+- **Design principles** (10 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **design-principles.md** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Agency** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Craft** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Delight** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Familiarity** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Flexibility** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Purpose** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Responsibility** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Simplicity** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
 
 ## Relationships
 
-- [[Zoho Integration Architecture]] (9 shared connections)
-- [[Community 38]] (5 shared connections)
-- [[Community 48]] (2 shared connections)
-- [[Product Pages Specification]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/data/i18n.js`
-- `src/data/translations.js`
+- `.agents/skills/apple-design/references/hig/design-principles.md`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

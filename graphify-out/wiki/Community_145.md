@@ -1,37 +1,33 @@
 # Community 145
 
-> 13 nodes · cohesion 0.28
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **guided-views-browser.test.mjs** (17 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **run()** (8 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **point()** (4 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **settled()** (4 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **activate()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **hash()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **move()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **variant()** (1 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **Apple Pencil and Scribble** (11 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **apple-pencil-and-scribble.md** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Barrel roll** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Custom drawing** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Double tap** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Hover** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Scribble** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Squeeze** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
 
 ## Relationships
 
-- [[Community 52]] (5 shared connections)
-- [[Community 63]] (3 shared connections)
-- [[Community 44]] (1 shared connections)
-- [[Community 129]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

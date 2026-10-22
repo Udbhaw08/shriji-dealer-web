@@ -1,36 +1,40 @@
 # Community 121
 
-> 15 nodes · cohesion 0.13
+> 15 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **Liquid Glass** (6 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Apple's rules** (5 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Cross-platform translation** (5 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **liquid-glass.md** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Color on glass** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Flutter** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **React Native** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Review checklist** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Standard materials beneath the glass** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **SwiftUI, UIKit, and AppKit** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Tauri and Electron** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **The two layers** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Where the material belongs** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Which variant** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **crmClient.js** (32 connections) — `backend/src/services/crmClient.js`
+- **crmFetch()** (12 connections) — `backend/src/services/crmClient.js`
+- **crmConfigured()** (6 connections) — `backend/src/services/crmClient.js`
+- **createDealerContact()** (5 connections) — `backend/src/services/crmClient.js`
+- **updateDealerCodeInCrm()** (5 connections) — `backend/src/services/crmClient.js`
+- **resolveContactNames()** (4 connections) — `backend/src/services/crmClient.js`
+- **deactivateAccountInCrm()** (3 connections) — `backend/src/services/crmClient.js`
+- **deactivateContactInCrm()** (3 connections) — `backend/src/services/crmClient.js`
+- **getDealerAccount()** (3 connections) — `backend/src/services/crmClient.js`
+- **isCrmConfigured()** (3 connections) — `backend/src/services/crmClient.js`
+- **getAccessToken()** (2 connections) — `backend/src/services/crmClient.js`
+- **getDealerContact()** (2 connections) — `backend/src/services/crmClient.js`
+- **getPrimaryContactForAccount()** (2 connections) — `backend/src/services/crmClient.js`
+- **linkContactToBackendUser()** (2 connections) — `backend/src/services/crmClient.js`
+- **FIELDS** (1 connections) — `backend/src/services/crmClient.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 55]] (16 shared connections)
+- [[Community 38]] (4 shared connections)
+- [[Community 83]] (3 shared connections)
+- [[Community 53]] (2 shared connections)
+- [[Community 69]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- `backend/src/services/crmClient.js`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 85 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

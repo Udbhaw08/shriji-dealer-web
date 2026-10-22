@@ -1,34 +1,33 @@
 # Community 198
 
-> 10 nodes · cohesion 0.24
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **renderInline()** (6 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderInlineNode()** (6 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderHigLink()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderLink()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderParagraph()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderImage()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderReference()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **imageLabel()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **resolveAnchor()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **wrapInline()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **site-language-continuity.test.mjs** (12 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **clickAndNavigate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **evaluate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **loadRuntime()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **navigate()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **navigationPath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **runtimePath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **startStaticServer()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
 
 ## Relationships
 
-- [[Community 73]] (10 shared connections)
-- [[Community 199]] (2 shared connections)
-- [[Community 231]] (1 shared connections)
-- [[Community 267]] (1 shared connections)
+- [[Community 47]] (1 shared connections)
+- [[Community 80]] (1 shared connections)
+- [[Community 124]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- `.agents/skills/archify/test/site-language-continuity.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (100%)
+- EXTRACTED: 23 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

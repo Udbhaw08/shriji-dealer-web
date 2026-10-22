@@ -1,55 +1,60 @@
 # Roles & Customer Sharing Spec
 
-> 47 nodes · cohesion 0.08
+> 51 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **get()** (23 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **O()** (20 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **dt()** (19 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **la()** (15 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **yt()** (14 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **M()** (12 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **k()** (11 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **ln()** (11 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **Nn()** (11 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **mt()** (10 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **Rt()** (10 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **ut()** (8 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **bt()** (7 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **ht()** (7 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **It()** (7 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **lt()** (7 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **mn()** (7 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **Rd()** (7 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **st()** (7 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **af()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **Jt()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **ma()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **qn()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **fa()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **ie()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- *... and 22 more nodes in this community*
+- **render-architecture.mjs** (122 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **pathFor()** (10 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **routeHonorsEndpointSides()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **routeVia()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **grid.mjs** (6 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
+- **alignFacingPorts()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **buildLayoutReport()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **layoutBoundaryTitles()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **sideAwareBridgeCandidates()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **resolveComponentPos()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
+- **validateGridPlacement()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
+- **boundaryLabelWidth()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **measureBoundaryTitle()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **resolveBoundaryTitles()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **routeClearsComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **routeClearsEndpointComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **minimumReadableSourceTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **layout-report.mjs** (4 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
+- **grid.test.mjs** (4 connections) — `.agents/skills/archify/test/grid.test.mjs`
+- **gridLayout()** (3 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
+- **autoViewBoxFor()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **expandBoundaryForReadableTitle()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **resolvedViewBoxWidth()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **connectionPath()** (3 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
+- **boundaryRect()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (58 shared connections)
-- [[Product Brand & Business Vision]] (20 shared connections)
-- [[Community 34]] (16 shared connections)
-- [[Pricing & Roles Skill]] (12 shared connections)
-- [[Community 40]] (10 shared connections)
-- [[Community 110]] (9 shared connections)
-- [[Design System & UI Tokens]] (8 shared connections)
-- [[Community 50]] (5 shared connections)
-- [[Testing & Workflow Skill]] (5 shared connections)
+- [[Product Pages Specification]] (38 shared connections)
+- [[Community 35]] (17 shared connections)
+- [[Community 44]] (14 shared connections)
+- [[Community 29]] (14 shared connections)
+- [[Community 48]] (5 shared connections)
+- [[Zoho Integration Architecture]] (5 shared connections)
+- [[Community 104]] (4 shared connections)
+- [[Community 47]] (3 shared connections)
+- [[Vercel Deployment Routing]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- `.agents/skills/archify/renderers/architecture/grid.mjs`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- `.agents/skills/archify/renderers/shared/geometry.mjs`
+- `.agents/skills/archify/renderers/shared/layout-report.mjs`
+- `.agents/skills/archify/test/grid.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 323 (100%)
+- EXTRACTED: 265 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

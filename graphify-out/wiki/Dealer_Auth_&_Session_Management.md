@@ -1,55 +1,54 @@
 # Dealer Auth & Session Management
 
-> 99 nodes · cohesion 0.03
+> 115 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **_()** (448 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **ji()** (11 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **ee()** (9 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **c()** (8 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **hh()** (8 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **yh()** (8 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **Mp()** (7 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **request()** (7 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **te()** (7 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **fh()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **lh()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **mh()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **ph()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **s()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **Sh()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **zd()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **A()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **bh()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **De()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **eh()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **Fi()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **Ih()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **ss()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **th()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **unavailable()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- *... and 74 more nodes in this community*
+- **_()** (447 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **Pd()** (15 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **delete()** (11 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **Mi()** (11 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **Di()** (9 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **hh()** (9 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **yh()** (9 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **jd()** (8 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **gf()** (7 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **go()** (7 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **mh()** (7 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **oc()** (7 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **request()** (7 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **ki()** (6 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **lh()** (6 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **ph()** (6 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **se()** (6 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **Sh()** (6 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **ys()** (6 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **zd()** (6 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **zi()** (6 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **dh()** (5 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **eh()** (5 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **fh()** (5 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- **ho()** (5 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- *... and 90 more nodes in this community*
 
 ## Relationships
 
-- [[Design System & UI Tokens]] (70 shared connections)
-- [[Roles & Customer Sharing Spec]] (58 shared connections)
-- [[Product Brand & Business Vision]] (58 shared connections)
-- [[Community 40]] (50 shared connections)
-- [[Pricing & Roles Skill]] (50 shared connections)
-- [[Testing & Workflow Skill]] (43 shared connections)
-- [[Community 34]] (40 shared connections)
-- [[Community 50]] (32 shared connections)
-- [[Community 110]] (17 shared connections)
+- [[Architecture Doc Generator]] (71 shared connections)
+- [[Client Products Data Store]] (63 shared connections)
+- [[Design System & UI Tokens]] (63 shared connections)
+- [[Oxlint Linter Configuration]] (51 shared connections)
+- [[Community 39]] (50 shared connections)
+- [[Zoho Integration Skill]] (49 shared connections)
+- [[Community 49]] (44 shared connections)
+- [[Community 103]] (23 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
 
 ## Audit Trail
 
-- EXTRACTED: 755 (100%)
+- EXTRACTED: 829 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

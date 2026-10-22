@@ -4,23 +4,22 @@
 
 ## Key Concepts
 
-- **meta** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **cursor-onboarding.test.mjs** (3 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
 
 ## Relationships
 
-- [[Community 93]] (1 shared connections)
-- [[Community 67]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/sequence.schema.json`
+- `.agents/skills/archify/test/cursor-onboarding.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

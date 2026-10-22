@@ -121,12 +121,12 @@ export function priceFor(p, dealer) {
   };
 }
 
-/** Bestseller / New / Premium ribbon, as on the mockup. Sample data. */
+/** Extracts authentic Zoho Commerce product tag if present (e.g. 'HOT SELLING', 'NEW') */
 export function tagFor(p) {
-  const h = hash(p.id);
-  if (h % 11 === 0) return { label: "New", kind: "ok" };
-  if (h % 7 === 0) return { label: "Bestseller", kind: "ok" };
-  if (priceFor(p).mrp > (BAND[p.cat] || [0, 1])[1] * 0.72) return { label: "Premium", kind: "blue" };
+  if (!p) return null;
+  const rawTag = Array.isArray(p.tags) && p.tags.length > 0 ? p.tags[0] : (p.tag || null);
+  const tagName = typeof rawTag === "string" ? rawTag : (rawTag?.tag_name || rawTag?.name || null);
+  if (tagName) return { label: tagName, kind: "ok" };
   return null;
 }
 

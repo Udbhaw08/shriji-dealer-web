@@ -1,55 +1,54 @@
 # Pricing Hierarchy & Zero-Leakage Spec
 
-> 47 nodes · cohesion 0.08
+> 50 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **get()** (23 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **O()** (20 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **dt()** (19 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **la()** (15 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **yt()** (14 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **M()** (12 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **k()** (11 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **ln()** (11 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **Nn()** (11 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **mt()** (10 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **Rt()** (10 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **ut()** (8 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **bt()** (7 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **ht()** (7 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **It()** (7 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **lt()** (7 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **mn()** (7 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **Rd()** (7 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **st()** (7 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **af()** (6 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **Jt()** (6 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **ma()** (6 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **qn()** (6 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **fa()** (5 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **ie()** (5 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- *... and 22 more nodes in this community*
+- **D()** (25 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **ft()** (21 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **t()** (18 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **O()** (13 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **vt()** (13 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **xe()** (13 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **yl()** (13 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **bt()** (12 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **Rn()** (12 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **ht()** (11 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **j()** (11 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **M()** (11 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **bl()** (9 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **De()** (9 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **dt()** (9 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **ke()** (9 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **zt()** (9 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **Fo()** (8 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **lt()** (8 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **mt()** (8 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **nn()** (8 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **Pn()** (8 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **ef()** (7 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **gt()** (7 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **Rd()** (7 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (58 shared connections)
-- [[Live Pricing Audit Tool]] (20 shared connections)
-- [[Community 37]] (16 shared connections)
-- [[Mobile Responsive UI Skill]] (12 shared connections)
-- [[Community 42]] (10 shared connections)
-- [[Community 113]] (9 shared connections)
-- [[Product Requirements Documentation]] (8 shared connections)
-- [[Community 53]] (5 shared connections)
-- [[Vercel Deployment Routing]] (5 shared connections)
+- [[Price Presentation & Product UI]] (70 shared connections)
+- [[Product Requirements Documentation]] (17 shared connections)
+- [[Master Codebase Architecture Reference]] (14 shared connections)
+- [[Live Pricing Audit Tool]] (13 shared connections)
+- [[Community 45]] (12 shared connections)
+- [[Community 128]] (10 shared connections)
+- [[Community 82]] (10 shared connections)
+- [[Claude Agent Instructions]] (6 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-FPrq849U.js`
+- `ios/App/App/public/assets/index-DVQX9sn1.js`
 
 ## Audit Trail
 
-- EXTRACTED: 323 (100%)
+- EXTRACTED: 388 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

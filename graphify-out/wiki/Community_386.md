@@ -1,14 +1,13 @@
 # Community 386
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **integration.test.mjs** (4 connections) — `backend/test/integration.test.mjs`
-- **api()** (1 connections) — `backend/test/integration.test.mjs`
-- **COMMERCE_FIXTURE** (1 connections) — `backend/test/integration.test.mjs`
-- **crmMock** (1 connections) — `backend/test/integration.test.mjs`
-- **uniq()** (1 connections) — `backend/test/integration.test.mjs`
+- **Cross-platform translation** (3 connections) — `.agents/skills/apple-design/references/cross-platform.md`
+- **cross-platform.md** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
+- **Conventions to check** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
+- **Vocabulary** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
 
 ## Relationships
 
@@ -16,11 +15,11 @@
 
 ## Source Files
 
-- `backend/test/integration.test.mjs`
+- `.agents/skills/apple-design/references/cross-platform.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,27 +4,25 @@
 
 ## Key Concepts
 
-- **main()** (7 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **pruneStaleFiles()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **uniqueBySlug()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **generatedFiles()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **mapWithConcurrency()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **parseArgs()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **repository-evidence-replacement.test.mjs** (5 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **checkEvidence()** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **fixture()** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
 
 ## Relationships
 
-- [[Community 73]] (6 shared connections)
-- [[Community 231]] (2 shared connections)
-- [[Community 239]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 10 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

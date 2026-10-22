@@ -1,33 +1,34 @@
 # Community 155
 
-> 12 nodes · cohesion 0.17
+> 12 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **Playing haptics** (6 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Phone (iOS)** (4 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **playing-haptics.md** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Custom haptics** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Impact** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Notification** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Selection** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **guidedViews** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **cards** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **additionalProperties** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **required** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 171]] (3 shared connections)
+- [[Community 72]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 33 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

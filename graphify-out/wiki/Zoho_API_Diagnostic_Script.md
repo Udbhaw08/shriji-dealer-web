@@ -1,47 +1,52 @@
 # Zoho API Diagnostic Script
 
-> 41 nodes · cohesion 0.05
+> 43 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **Motion & Micro-interactions Guide** (13 connections) — `.agents/skills/refero-design/references/motion.md`
-- **8. Anti-Patterns** (7 connections) — `.agents/skills/refero-design/references/motion.md`
-- **1. The Motion Pyramid** (5 connections) — `.agents/skills/refero-design/references/motion.md`
-- **4. Micro-interactions That Work** (5 connections) — `.agents/skills/refero-design/references/motion.md`
-- **2. Timing That Actually Works** (4 connections) — `.agents/skills/refero-design/references/motion.md`
-- **3. Easing: Native Feel Without Cringe** (4 connections) — `.agents/skills/refero-design/references/motion.md`
-- **6. Reduced Motion: Not Optional** (4 connections) — `.agents/skills/refero-design/references/motion.md`
-- **5. Motion Tokens for Design Systems** (3 connections) — `.agents/skills/refero-design/references/motion.md`
-- **7. Libraries and Tools** (3 connections) — `.agents/skills/refero-design/references/motion.md`
-- **motion.md** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **9. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Animations Must Be Interruptible** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Basic Principle** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Buttons and Controls** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Component Mapping** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Critical: Never Use `transition: all`** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **CSS Shortcut** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **CSS Tokens** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Duration Reference** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **For Complex Scenarios** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **For Web/SaaS (React/Next)** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Implementation** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Inputs** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- *... and 16 more nodes in this community*
+- **properties** (28 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **label** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelSegment** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **brand** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **channelX** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **channelY** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **classification** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **from** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **fromSide** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelAt** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelDx** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelDy** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **route** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **sublabel** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **tag** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **to** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **toSide** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **variant** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **yOffset** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 188]] (3 shared connections)
+- [[Community 424]] (1 shared connections)
+- [[Community 425]] (1 shared connections)
+- [[Community 426]] (1 shared connections)
+- [[Community 394]] (1 shared connections)
+- [[Community 395]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/motion.md`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 80 (100%)
+- EXTRACTED: 92 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

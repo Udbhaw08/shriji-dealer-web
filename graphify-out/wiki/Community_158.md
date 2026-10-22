@@ -1,21 +1,20 @@
 # Community 158
 
-> 12 nodes · cohesion 0.17
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **SF Symbols** (11 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **sf-symbols.md** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Animations** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Custom symbols** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Design variants** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Gradients** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Rendering modes** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Variable color** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Weights and scales** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Archify** (10 connections) — `.agents/skills/archify/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Authoring invariants** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Delivery** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Fast authoring path** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Mermaid input** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Optional viewer capabilities** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Output** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Setup and fallback** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Type router** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Update awareness** (1 connections) — `.agents/skills/archify/SKILL.md`
 
 ## Relationships
 
@@ -23,11 +22,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- `.agents/skills/archify/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,29 +1,31 @@
 # Community 260
 
-> 8 nodes · cohesion 0.25
+> 8 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Tab bars** (5 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
-- **tab-bars.md** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
-- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
-- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
+- **isDroppedPlatformText()** (5 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **headingLine()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **relabelHeading()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **isDroppedBoilerplate()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **platformsMentioned()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **reduceHeading()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **isDroppedPlatformLabel()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **platformGroupLabel()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 73]] (8 shared connections)
+- [[Community 194]] (1 shared connections)
+- [[Community 193]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/tab-bars.md`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

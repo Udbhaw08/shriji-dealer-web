@@ -1,56 +1,73 @@
 # Product Brand & Business Vision
 
-> 53 nodes · cohesion 0.07
+> 55 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **D()** (28 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **np()** (21 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **.addEventListener()** (19 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **b()** (18 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **h()** (14 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **bm()** (13 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **fp()** (13 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **.removeEventListener()** (12 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **delete()** (11 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **tp()** (11 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **am()** (10 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **mm()** (9 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **cm()** (7 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **E()** (7 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **jm()** (7 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **lp()** (7 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **tm()** (7 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **zm()** (7 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **ef()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **em()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **.blur()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **.scrollIntoView()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **gf()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **nm()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **v()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- *... and 28 more nodes in this community*
+- **main.jsx** (44 connections) — `src/main.jsx`
+- **ui.jsx** (42 connections) — `src/ui.jsx`
+- **useLanguage()** (32 connections) — `src/data/i18n.js`
+- **useSession()** (28 connections) — `src/data/session.js`
+- **Home.jsx** (26 connections) — `src/pages/Home.jsx`
+- **site.js** (24 connections) — `src/data/site.js`
+- **t()** (19 connections) — `src/data/i18n.js`
+- **isDealer()** (18 connections) — `src/data/dealer.js`
+- **Schemes.jsx** (17 connections) — `src/pages/Schemes.jsx`
+- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
+- **COMPANY** (16 connections) — `src/data/site.js`
+- **Support.jsx** (15 connections) — `src/pages/Support.jsx`
+- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
+- **dealerById()** (12 connections) — `src/data/dealer.js`
+- **Products()** (9 connections) — `src/pages/Products.jsx`
+- **Header()** (9 connections) — `src/ui.jsx`
+- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
+- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
+- **portalGate.js** (8 connections) — `src/data/portalGate.js`
+- **Favorites()** (8 connections) — `src/pages/Favorites.jsx`
+- **Home()** (8 connections) — `src/pages/Home.jsx`
+- **Login()** (7 connections) — `src/pages/Login.jsx`
+- **Schemes()** (6 connections) — `src/pages/Schemes.jsx`
+- **AccountLink()** (6 connections) — `src/ui.jsx`
+- **Footer()** (6 connections) — `src/ui.jsx`
+- *... and 30 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (58 shared connections)
-- [[Roles & Customer Sharing Spec]] (20 shared connections)
-- [[Design System & UI Tokens]] (19 shared connections)
-- [[Community 40]] (18 shared connections)
-- [[Community 110]] (12 shared connections)
-- [[Testing & Workflow Skill]] (12 shared connections)
-- [[Community 34]] (11 shared connections)
-- [[Pricing & Roles Skill]] (6 shared connections)
-- [[Community 50]] (2 shared connections)
+- [[Community 40]] (55 shared connections)
+- [[Dependencies & Package Config]] (29 shared connections)
+- [[Community 52]] (19 shared connections)
+- [[Community 105]] (18 shared connections)
+- [[Community 160]] (9 shared connections)
+- [[Community 159]] (2 shared connections)
+- [[Community 377]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- `src/components/EmailVerificationPrompt.jsx`
+- `src/components/MobileBottomNav.jsx`
+- `src/components/NativeBackHandler.jsx`
+- `src/components/UnderMaintenance.jsx`
+- `src/data/dealer.js`
+- `src/data/i18n.js`
+- `src/data/portalGate.js`
+- `src/data/session.js`
+- `src/data/site.js`
+- `src/main.jsx`
+- `src/pages/DealerDashboard.jsx`
+- `src/pages/Favorites.jsx`
+- `src/pages/Home.jsx`
+- `src/pages/LegalPrivacy.jsx`
+- `src/pages/LegalTerms.jsx`
+- `src/pages/Login.jsx`
+- `src/pages/PrivacyPolicy.jsx`
+- `src/pages/Products.jsx`
+- `src/pages/Schemes.jsx`
+- `src/pages/Support.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 364 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 484 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

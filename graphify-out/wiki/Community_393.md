@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **Cross-platform translation** (3 connections) — `.agents/skills/apple-design/references/cross-platform.md`
-- **cross-platform.md** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
-- **Conventions to check** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
-- **Vocabulary** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
+- **SwiftUI Views** (3 connections) — `.agents/skills/swiftui-pro/references/views.md`
+- **views.md** (1 connections) — `.agents/skills/swiftui-pro/references/views.md`
+- **Animating views** (1 connections) — `.agents/skills/swiftui-pro/references/views.md`
+- **Reordering and swipe actions** (1 connections) — `.agents/skills/swiftui-pro/references/views.md`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/cross-platform.md`
+- `.agents/skills/swiftui-pro/references/views.md`
 
 ## Audit Trail
 

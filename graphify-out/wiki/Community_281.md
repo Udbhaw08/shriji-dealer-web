@@ -1,30 +1,32 @@
 # Community 281
 
-> 8 nodes · cohesion 0.29
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **stable-update-manifest.test.mjs** (7 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **annotatedTaggerTime()** (2 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **git()** (2 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **checker** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **runCheck()** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **writeJson()** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **commandCompare()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commitComparePair()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractCompareOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractArchitectureSvg()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **extractArtifactCss()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **compareCommitError()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **compareReceiptPath()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Pricing & Roles Skill]] (12 shared connections)
+- [[Pricing Regression Test Suite]] (10 shared connections)
+- [[Community 101]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- `.agents/skills/archify/bin/archify.mjs`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 25 (69%)
+- INFERRED: 11 (31%)
 - AMBIGUOUS: 0 (0%)
 
 ---

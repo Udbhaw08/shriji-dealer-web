@@ -4,26 +4,26 @@
 
 ## Key Concepts
 
-- **Authoring contract** (12 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Mode placement** (6 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Executable geometry rules** (3 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **authoring-contract.md** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Architecture** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Dataflow** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Engineering profile default** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Hand-placed fallback** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Language consistency** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Legend contract** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Lifecycle** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Repair order** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Repository evidence** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Schema lookup** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Sequence** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Spacing and labels** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Title hierarchy** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Visual preset default** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Workflow** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Workflow layout contracts** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **Example Workflow: SaaS Pricing Page** (7 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Phase 1: Styles Research** (4 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Phase 5: Implementation Blueprint** (4 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Phase 2: Screen Research** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Phase 3: Flow Research** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Phase 4: Synthesis** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **example-workflow.md** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Design Decision Ledger** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Flow Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Flow Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Page Structure** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Phase 0: Discovery** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Quality Gate** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Research Summary** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Screen Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Screen Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Style Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Style Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Tokens** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Visual Direction Synthesis** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
 
 ## Relationships
 
@@ -31,7 +31,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/references/authoring-contract.md`
+- `.agents/skills/refero-design/references/example-workflow.md`
 
 ## Audit Trail
 

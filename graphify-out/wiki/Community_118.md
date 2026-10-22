@@ -1,25 +1,24 @@
 # Community 118
 
-> 16 nodes · cohesion 0.17
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **legend-contract.test.mjs** (15 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **legendKinds()** (3 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **run()** (3 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **attrValues()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **canonicalSvg()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **clone()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **render()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **validateFailure()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **withLegend()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **AUTO_KINDS** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **CATALOGS** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **FIXTURES** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **Sign in with Apple** (6 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Using the system-provided buttons** (5 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Creating a custom Sign in with Apple button** (3 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Displaying buttons** (3 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **sign-in-with-apple.md** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Black** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Button size and corner radius** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Collecting data** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Custom buttons with a logo and text** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Custom logo-only buttons** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Offering Sign in with Apple** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **White** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **White with outline** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
 
 ## Relationships
 
@@ -27,11 +26,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/legend-contract.test.mjs`
+- `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

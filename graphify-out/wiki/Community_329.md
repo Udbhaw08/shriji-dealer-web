@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Data Flow Renderer** (5 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
-- **README.md** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
-- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
-- **Input** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
-- **Layout budget** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
-- **Legend** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
+- **Color wells** (4 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **color-wells.md** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/dataflow/README.md`
+- `.agents/skills/apple-design/references/hig/color-wells.md`
 
 ## Audit Trail
 

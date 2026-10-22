@@ -1,54 +1,63 @@
 # Community 53
 
-> 27 nodes · cohesion 0.13
+> 28 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **Pd()** (15 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **sc()** (11 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **ic()** (9 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **Ti()** (9 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **xs()** (9 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **ho()** (8 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **jd()** (8 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **ac()** (7 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **Di()** (7 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **mo()** (7 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **cc()** (6 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **dh()** (6 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **Oi()** (6 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **pt()** (6 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **dc()** (5 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **lc()** (5 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **oc()** (5 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **wi()** (5 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **go()** (4 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **gt()** (4 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **ka()** (4 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **pf()** (4 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **vs()** (4 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **gs()** (3 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- **componentDidCatch()** (2 connections) — `ios/App/App/public/assets/index-FPrq849U.js`
-- *... and 2 more nodes in this community*
+- **server.js** (37 connections) — `backend/src/server.js`
+- **health.js** (8 connections) — `backend/src/routes/health.js`
+- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
+- **upload.js** (5 connections) — `backend/src/routes/upload.js`
+- **uploads.js** (5 connections) — `backend/src/routes/uploads.js`
+- **migrate()** (4 connections) — `backend/src/db/migrate.js`
+- **rateLimit.js** (4 connections) — `backend/src/middleware/rateLimit.js`
+- **applied()** (3 connections) — `backend/src/db/migrate.js`
+- **startJobs()** (3 connections) — `backend/src/jobs/index.js`
+- **rateLimit()** (3 connections) — `backend/src/middleware/rateLimit.js`
+- **start()** (3 connections) — `backend/src/server.js`
+- **authRouter** (2 connections) — `backend/src/routes/auth.js`
+- **contentRouter** (2 connections) — `backend/src/routes/content.js`
+- **dealersRouter** (2 connections) — `backend/src/routes/dealers.js`
+- **healthRouter** (2 connections) — `backend/src/routes/health.js`
+- **uploadRouter** (2 connections) — `backend/src/routes/upload.js`
+- **uploadsRouter** (2 connections) — `backend/src/routes/uploads.js`
+- **webhooksRouter** (2 connections) — `backend/src/routes/webhooks.js`
+- **dir** (1 connections) — `backend/src/db/migrate.js`
+- **buckets** (1 connections) — `backend/src/middleware/rateLimit.js`
+- **ALLOWED_FOLDERS** (1 connections) — `backend/src/routes/upload.js`
+- **MIME_TYPES** (1 connections) — `backend/src/routes/uploads.js`
+- **allowedOrigins** (1 connections) — `backend/src/server.js`
+- **app** (1 connections) — `backend/src/server.js`
+- **defaultOrigins** (1 connections) — `backend/src/server.js`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (32 shared connections)
-- [[Community 42]] (9 shared connections)
-- [[Product Requirements Documentation]] (8 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (5 shared connections)
-- [[Mobile Responsive UI Skill]] (5 shared connections)
-- [[Community 37]] (4 shared connections)
-- [[Vercel Deployment Routing]] (4 shared connections)
-- [[Live Pricing Audit Tool]] (2 shared connections)
+- [[Community 38]] (10 shared connections)
+- [[Community 69]] (7 shared connections)
+- [[Community 83]] (6 shared connections)
+- [[Community 55]] (6 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (2 shared connections)
+- [[Community 133]] (2 shared connections)
+- [[Community 121]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-FPrq849U.js`
+- `backend/src/db/migrate.js`
+- `backend/src/jobs/index.js`
+- `backend/src/middleware/rateLimit.js`
+- `backend/src/routes/auth.js`
+- `backend/src/routes/content.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/routes/health.js`
+- `backend/src/routes/upload.js`
+- `backend/src/routes/uploads.js`
+- `backend/src/routes/webhooks.js`
+- `backend/src/server.js`
 
 ## Audit Trail
 
-- EXTRACTED: 163 (100%)
+- EXTRACTED: 105 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

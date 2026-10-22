@@ -1,34 +1,26 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Icon } from "../ui";
-import { inr, priceFor, tagFor, productSlug } from "../data/dealer";
+import { inr, priceFor, productSlug } from "../data/dealer";
 import { useLanguage } from "../data/i18n";
 import { useFavorites } from "../data/favoritesStore";
-import { useSession, isDealer } from "../data/session";
 
 export default function ProductCard({ p }) {
   const { isFavorite, toggleFavorite } = useFavorites();
   const saved = isFavorite(p.id);
   const [imgErr, setImgErr] = useState(false);
   const { t } = useLanguage();
-  const session = useSession();
-  const isDealerUser = isDealer(session) && session?.canSeeDealerPrice !== false;
 
-  const tag = tagFor(p);
-  const { mrp, dealer, isPriceOnRequest } = priceFor(p);
+  const { mrp, isPriceOnRequest } = priceFor(p);
 
   const subtitle =
     p.zohoTitle && p.name && p.zohoTitle.trim().toLowerCase() !== p.name.trim().toLowerCase()
       ? p.zohoTitle
       : [p.features?.[0] || p.finish, p.catLabel].filter(Boolean).join(" ");
 
-  const badges = [];
-  if (tag) badges.push(tag);
-  if (p.isNew && (!tag || tag.label !== "New")) {
-    badges.push({ label: "New", kind: "blue" });
-  }
-
-  const categoryChip = p.brand?.toUpperCase() || (p.cat === "small_appliances" ? "KUCHENBAU" : (p.catLabel || "APPLIANCE").toUpperCase());
+  // Tag badge on image from live Zoho Commerce "tags" field (e.g. 'HOT SELLING', 'NEW', 'BESTSELLER')
+  const rawTag = Array.isArray(p.tags) && p.tags.length > 0 ? p.tags[0] : (p.tag || null);
+  const tagBadge = typeof rawTag === "string" ? rawTag : (rawTag?.tag_name || rawTag?.name || null);
 
   return (
     <article className="prod">
@@ -63,25 +55,17 @@ export default function ProductCard({ p }) {
               <Icon name={p.cat === "chimneys" ? "chimney" : p.cat === "small_appliances" ? "blender" : "stove"} size={32} />
             </span>
           )}
-          {/* Category Chip in lower-left of image area */}
-          <span className="prod-cat-badge">
-            {categoryChip}
-          </span>
+          {/* Tag badge from Zoho Commerce in lower-left of image area */}
+          {tagBadge && (
+            <span className="prod-cat-badge">
+              {tagBadge}
+            </span>
+          )}
         </span>
 
         <span className="prod-foot">
           <b className="prod-title">{p.name || p.model}</b>
           {subtitle && <span className="prod-subtitle">{subtitle}</span>}
-
-          {badges.length > 0 && (
-            <span className="prod-badges-row">
-              {badges.map((b, idx) => (
-                <span key={idx} className={`badge badge-${b.kind === "blue" ? "blue" : b.kind === "ok" ? "ok" : "blue"}`}>
-                  {b.label}
-                </span>
-              ))}
-            </span>
-          )}
 
           <span className="prod-price-block">
             <span className="prod-price-row">
@@ -95,27 +79,6 @@ export default function ProductCard({ p }) {
                 )}
               </div>
             </span>
-
-            {/* Dealer Wholesale Action Button Pill */}
-            {isDealerUser && dealer > 0 && !isPriceOnRequest ? (
-              <span className="prod-dealer-action unlocked" aria-label="Dealer Wholesale Rate">
-                <span className="prod-dealer-action-left">
-                  <span className="dealer-verified-dot" />
-                  <span className="dealer-rate-text">
-                    Wholesale: <b>{inr(dealer)}</b> <small>+GST</small>
-                  </span>
-                </span>
-                <Icon name="chev" size={12} />
-              </span>
-            ) : (
-              <span className="prod-dealer-action" aria-label="View Dealer Price">
-                <span className="prod-dealer-action-left">
-                  <Icon name="lock" size={13} />
-                  <span>{t("price_dealer_view") || "View Dealer Price"}</span>
-                </span>
-                <Icon name="chev" size={12} />
-              </span>
-            )}
           </span>
         </span>
       </Link>

@@ -28,8 +28,8 @@
 
 ## Relationships
 
-- [[Community 80]] (2 shared connections)
-- [[Zoho Integration Skill]] (1 shared connections)
+- [[Community 99]] (2 shared connections)
+- [[Testing & Workflow Skill]] (1 shared connections)
 
 ## Source Files
 

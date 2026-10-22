@@ -4,38 +4,27 @@
 
 ## Key Concepts
 
-- **Typography Guide** (18 connections) — `.agents/skills/refero-design/references/typography.md`
-- **13. AI-Slop Anti-Patterns** (3 connections) — `.agents/skills/refero-design/references/typography.md`
-- **typography.md** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **15. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **1. The Safe SaaS Preset** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Instant Red Flags** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Quick Test** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Shriji Pricing & Roles Skill** (5 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **User Roles & View Modes** (4 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **1. Guest View (Public)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **2. Dealer View (Authenticated)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **3. Customer Shared View (`?from=<dealer_id>`)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **Key Files** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **Schemes Logic** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **Zero-Price Handling** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
 
 ## Relationships
 
-- [[Community 374]] (1 shared connections)
-- [[Community 394]] (1 shared connections)
-- [[Community 375]] (1 shared connections)
-- [[Community 395]] (1 shared connections)
-- [[Community 396]] (1 shared connections)
-- [[Community 397]] (1 shared connections)
-- [[Community 376]] (1 shared connections)
-- [[Community 398]] (1 shared connections)
-- [[Community 399]] (1 shared connections)
-- [[Community 377]] (1 shared connections)
-- [[Community 227]] (1 shared connections)
-- [[Community 426]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/shriji-pricing-and-roles/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

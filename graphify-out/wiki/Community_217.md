@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Right to left** (8 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **right-to-left.md** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Controls** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Images** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Interface icons** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Numbers and characters** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Text alignment** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
+- **Split views** (5 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **Platform considerations** (4 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **split-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/right-to-left.md`
+- `.agents/skills/apple-design/references/hig/split-views.md`
 
 ## Audit Trail
 

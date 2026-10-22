@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Gauges** (6 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **gauges.md** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Onboarding** (7 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **onboarding.md** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Additional content** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Additional requests** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/gauges.md`
+- `.agents/skills/apple-design/references/hig/onboarding.md`
 
 ## Audit Trail
 

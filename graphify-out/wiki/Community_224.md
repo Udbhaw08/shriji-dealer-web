@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **web-DxwUOOfO.js** (8 connections) — `ios/App/App/public/assets/web-DxwUOOfO.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-DxwUOOfO.js`
-- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-DxwUOOfO.js`
-- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-DxwUOOfO.js`
-- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-DxwUOOfO.js`
-- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-DxwUOOfO.js`
-- **getState()** (1 connections) — `ios/App/App/public/assets/web-DxwUOOfO.js`
-- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-DxwUOOfO.js`
-- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-DxwUOOfO.js`
+- **generate-validators.mjs** (8 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **ajv** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **diagramTypes** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **output** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **root** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **schemaIds** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **schemasDir** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **validatorCode** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-DxwUOOfO.js`
+- `.agents/skills/archify/scripts/generate-validators.mjs`
 
 ## Audit Trail
 

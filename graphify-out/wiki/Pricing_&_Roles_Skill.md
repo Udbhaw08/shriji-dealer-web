@@ -1,56 +1,54 @@
 # Pricing & Roles Skill
 
-> 44 nodes · cohesion 0.08
+> 46 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **Fr()** (18 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **kf()** (18 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **r()** (15 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **Lr()** (13 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **rf()** (11 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **df()** (10 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **ff()** (8 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **Cr()** (7 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **sf()** (7 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **Dr()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **Kr()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **nf()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **qr()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **Vr()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **xn()** (6 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **br()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **ei()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **gr()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **Hr()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **Id()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **jf()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **jr()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **lf()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **Pr()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- **tn()** (5 connections) — `android/app/src/main/assets/public/assets/index-FPrq849U.js`
-- *... and 19 more nodes in this community*
+- **archify.mjs** (50 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandDeliver()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandMigrate()** (17 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **fail()** (15 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandValidate()** (13 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **usage()** (11 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandRender()** (10 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandPreview()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **diagnostic()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **rendererPath()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **runNode()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **renderValidatedArchitecture()** (8 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractQualityArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractRepoRootArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **rejectCliArgument()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **assertEvidenceType()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **checkerDiagnostics()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandDemo()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **exitFrom()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **rendererEnv()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **rendererFailure()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandExamples()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandVisualCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportArtifactFailure()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (50 shared connections)
-- [[Roles & Customer Sharing Spec]] (12 shared connections)
-- [[Testing & Workflow Skill]] (8 shared connections)
-- [[Design System & UI Tokens]] (7 shared connections)
-- [[Product Brand & Business Vision]] (6 shared connections)
-- [[Community 50]] (5 shared connections)
-- [[Community 110]] (5 shared connections)
-- [[Community 34]] (4 shared connections)
-- [[Community 40]] (3 shared connections)
+- [[Community 281]] (12 shared connections)
+- [[Community 32]] (4 shared connections)
+- [[Community 101]] (4 shared connections)
+- [[Community 130]] (3 shared connections)
+- [[Vercel Deployment Routing]] (2 shared connections)
+- [[Community 47]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-FPrq849U.js`
+- `.agents/skills/archify/bin/archify.mjs`
+- `.agents/skills/archify/migrations/workflow-v2.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 250 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 297 (97%)
+- INFERRED: 8 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

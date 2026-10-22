@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **Designing for iPhone Duo** (7 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
-- **Dynamic layouts** (4 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
-- **Anatomy** (2 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
-- **designing-for-iphone-duo.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
-- **Arrangement views** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
-- **Device poses** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
-- **Reserved regions** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
-- **Split views** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
-- **Vertical controls** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Playing haptics** (6 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Phone (iOS)** (4 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **playing-haptics.md** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Custom haptics** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Impact** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Notification** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Selection** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
 
 ## Relationships
 
@@ -23,7 +23,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- `.agents/skills/apple-design/references/hig/playing-haptics.md`
 
 ## Audit Trail
 

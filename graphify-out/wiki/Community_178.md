@@ -1,35 +1,31 @@
 # Community 178
 
-> 11 nodes · cohesion 0.29
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **reader-layout-browser.test.mjs** (13 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **load()** (6 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **evaluate()** (5 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **media()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **stable()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **viewport()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **inactive()** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **variant()** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **AirPlay** (6 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Using AirPlay icons** (4 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **airplay.md** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Black AirPlay icon** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Custom color AirPlay icon** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Referring to AirPlay** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **White AirPlay icon** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
 
 ## Relationships
 
-- [[Community 52]] (4 shared connections)
-- [[Community 44]] (1 shared connections)
-- [[Community 81]] (1 shared connections)
-- [[Community 129]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- `.agents/skills/apple-design/references/hig/airplay.md`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

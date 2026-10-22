@@ -539,6 +539,13 @@ function normalizeProduct(p, livePricebookRates = {}) {
     fkey,
     features,
     brand: p.brand || "Sunshine",
+    tags: Array.isArray(p.tags) && p.tags.length > 0
+      ? p.tags
+      : (Array.isArray(p.product_tags) && p.product_tags.length > 0
+        ? p.product_tags
+        : (Array.isArray(p.entity_tags) && p.entity_tags.length > 0
+          ? p.entity_tags
+          : (p.tag ? [p.tag] : []))),
     cat: catKey,
     catLabel: catName,
     code: catKey.substring(0, 2).toUpperCase(),

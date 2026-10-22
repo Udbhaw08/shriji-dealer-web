@@ -4,27 +4,38 @@
 
 ## Key Concepts
 
-- **Siri** (7 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Getting your app to work with Siri** (2 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **siri.md** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Customizing your app’s experience with Siri** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Editorial guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Sharing contextual information** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Typography Guide** (18 connections) — `.agents/skills/refero-design/references/typography.md`
+- **13. AI-Slop Anti-Patterns** (3 connections) — `.agents/skills/refero-design/references/typography.md`
+- **typography.md** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **15. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **1. The Safe SaaS Preset** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Instant Red Flags** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Quick Test** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 367]] (1 shared connections)
+- [[Community 387]] (1 shared connections)
+- [[Community 368]] (1 shared connections)
+- [[Community 388]] (1 shared connections)
+- [[Community 389]] (1 shared connections)
+- [[Community 390]] (1 shared connections)
+- [[Community 369]] (1 shared connections)
+- [[Community 391]] (1 shared connections)
+- [[Community 392]] (1 shared connections)
+- [[Community 370]] (1 shared connections)
+- [[Community 222]] (1 shared connections)
+- [[Community 419]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/siri.md`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

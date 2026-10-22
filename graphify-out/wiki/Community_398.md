@@ -4,22 +4,23 @@
 
 ## Key Concepts
 
-- **5. Font Weight** (4 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Rules** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Standard Weights** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Weight + Size Relationship** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **meta** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- [[Community 226]] (1 shared connections)
+- [[Community 92]] (1 shared connections)
+- [[Community 67]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
