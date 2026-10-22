@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Pull-down buttons** (5 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
-- **pull-down-buttons.md** (1 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
+- **Snippets** (6 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **snippets.md** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
+- `.agents/skills/apple-design/references/hig/snippets.md`
 
 ## Audit Trail
 

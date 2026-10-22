@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **preset-tryon.test.mjs** (7 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **presetRuntime()** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **svgBlock()** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
+- **relationship-direct-explorer.test.mjs** (7 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/preset-tryon.test.mjs`
+- `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
 
 ## Audit Trail
 

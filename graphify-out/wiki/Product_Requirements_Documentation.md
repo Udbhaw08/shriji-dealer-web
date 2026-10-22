@@ -34,17 +34,17 @@
 ## Relationships
 
 - [[Dependencies & Package Config]] (16 shared connections)
-- [[Product Pages Specification]] (12 shared connections)
-- [[Community 30]] (11 shared connections)
-- [[Claude Agent Instructions]] (7 shared connections)
+- [[Design System & UI Tokens]] (12 shared connections)
+- [[Community 31]] (11 shared connections)
+- [[Zoho Integration Skill]] (7 shared connections)
 - [[Community 128]] (6 shared connections)
-- [[Community 163]] (6 shared connections)
-- [[Client Products Data Store]] (4 shared connections)
-- [[Community 54]] (4 shared connections)
+- [[Community 162]] (6 shared connections)
+- [[Pricing Regression Test Suite]] (4 shared connections)
+- [[Community 57]] (4 shared connections)
 - [[Community 107]] (4 shared connections)
-- [[Community 38]] (4 shared connections)
-- [[Community 205]] (3 shared connections)
-- [[Roles & Customer Sharing Spec]] (1 shared connections)
+- [[Community 39]] (4 shared connections)
+- [[Community 203]] (3 shared connections)
+- [[Product Brand & Business Vision]] (1 shared connections)
 
 ## Source Files
 

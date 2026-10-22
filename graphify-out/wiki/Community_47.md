@@ -1,57 +1,62 @@
 # Community 47
 
-> 30 nodes · cohesion 0.14
+> 31 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **l()** (31 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **get()** (23 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **Ni()** (17 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **la()** (16 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **yl()** (14 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **oa()** (13 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **xe()** (13 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **vl()** (11 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **De()** (9 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **ke()** (9 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **ma()** (8 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **ga()** (7 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **vi()** (7 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **nr()** (6 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **Do()** (5 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **ea()** (5 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **Lo()** (5 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **pa()** (5 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **fa()** (4 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **Ra()** (4 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **tr()** (4 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **er()** (3 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **hi()** (3 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **oh()** (3 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **Qn()** (3 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- *... and 5 more nodes in this community*
+- **visual-check.mjs** (50 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **runVisualCheck()** (18 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **desktop-readability.mjs** (9 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **adaptive-reader-layout.test.mjs** (9 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **desktop-reader-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- **DESKTOP_READABILITY_VIEWPORT** (5 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **observationDiagnostics()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **safeUnlink()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **writeAtomic()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **baseReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **cleanupCaptureSidecars()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **contactSheetHtml()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **failureDiagnostic()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **persistReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **sha256()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **sidecarPaths()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **htmlEscape()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **observation()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **screenshotKey()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **viewportSubject()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **CAPTURE_VIEWPORTS** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **EXIT** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **THEMES** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **reader** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (36 shared connections)
-- [[Design System & UI Tokens]] (20 shared connections)
-- [[Community 31]] (17 shared connections)
-- [[Community 37]] (12 shared connections)
-- [[Community 46]] (9 shared connections)
-- [[Community 35]] (9 shared connections)
-- [[Community 41]] (5 shared connections)
-- [[Zoho API Diagnostic Script]] (5 shared connections)
-- [[Community 36]] (4 shared connections)
-- [[Community 51]] (3 shared connections)
+- [[Community 88]] (8 shared connections)
+- [[Community 131]] (6 shared connections)
+- [[Community 55]] (5 shared connections)
+- [[Zoho Integration Architecture]] (4 shared connections)
+- [[Community 68]] (3 shared connections)
+- [[Pricing Regression Test Suite]] (3 shared connections)
+- [[Community 164]] (2 shared connections)
+- [[Community 95]] (2 shared connections)
+- [[Community 108]] (2 shared connections)
+- [[Community 145]] (1 shared connections)
+- [[Community 146]] (1 shared connections)
+- [[Community 129]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CFF7Tu1W.js`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 238 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 150 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

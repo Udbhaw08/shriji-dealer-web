@@ -33,14 +33,14 @@
 
 ## Relationships
 
-- [[Product Pages Specification]] (78 shared connections)
-- [[Community 30]] (40 shared connections)
-- [[Community 54]] (31 shared connections)
-- [[Client Products Data Store]] (26 shared connections)
+- [[Design System & UI Tokens]] (78 shared connections)
+- [[Community 31]] (40 shared connections)
+- [[Community 57]] (31 shared connections)
+- [[Pricing Regression Test Suite]] (26 shared connections)
 - [[Product Requirements Documentation]] (16 shared connections)
 - [[Community 128]] (13 shared connections)
-- [[Claude Agent Instructions]] (8 shared connections)
-- [[Community 61]] (5 shared connections)
+- [[Zoho Integration Skill]] (8 shared connections)
+- [[Community 63]] (5 shared connections)
 - [[Community 89]] (2 shared connections)
 - [[Community 129]] (1 shared connections)
 

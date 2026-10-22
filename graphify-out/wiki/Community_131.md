@@ -21,17 +21,17 @@
 
 ## Relationships
 
-- [[Community 53]] (7 shared connections)
-- [[Community 44]] (6 shared connections)
+- [[Community 55]] (7 shared connections)
+- [[Community 47]] (6 shared connections)
 - [[Community 95]] (2 shared connections)
-- [[Community 64]] (2 shared connections)
+- [[Community 68]] (2 shared connections)
 - [[Community 88]] (2 shared connections)
 - [[Community 145]] (1 shared connections)
 - [[Community 146]] (1 shared connections)
 - [[Community 129]] (1 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (1 shared connections)
-- [[Community 183]] (1 shared connections)
-- [[Community 242]] (1 shared connections)
+- [[Project Readme & Layout]] (1 shared connections)
+- [[Community 180]] (1 shared connections)
+- [[Community 241]] (1 shared connections)
 - [[Community 147]] (1 shared connections)
 
 ## Source Files

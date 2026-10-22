@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-22T19:01:18.660+05:30 (GMT+5:30)
-> Total Project Files: 1583
+> Last synchronized: 2026-10-22T21:54:21.596+05:30 (GMT+5:30)
+> Total Project Files: 1610
 
 ---
 
@@ -73,11 +73,11 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 | `/` | `Home` | Direct application route |
 | `/products/:id` | `Product` | Direct application route |
 | `/support` | `Support` | Direct application route |
-| `/privacy` | `PrivacyPolicy` | Direct application route |
-| `/privacy-policy` | `PrivacyPolicy` | Direct application route |
-| `/terms` | `TermsOfService` | Direct application route |
-| `/terms-of-service` | `TermsOfService` | Direct application route |
-| `/data-deletion` | `PrivacyPolicy` | Direct application route |
+| `/privacy` | `LegalPrivacy` | Direct application route |
+| `/privacy-policy` | `LegalPrivacy` | Direct application route |
+| `/terms` | `LegalTerms` | Direct application route |
+| `/terms-of-service` | `LegalTerms` | Direct application route |
+| `/data-deletion` | `LegalPrivacy` | Direct application route |
 | `/login` | `Login` | Direct application route |
 | `/admin` | `ContentAdminDashboard` | Direct application route |
 | `/admin/content` | `ContentAdminDashboard` | Direct application route |
@@ -92,13 +92,15 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/pages/DealerDashboard.jsx`** (35.9 KB)
 - **`src/pages/Favorites.jsx`** (6.7 KB)
 - **`src/pages/Home.jsx`** (20.6 KB)
+- **`src/pages/LegalPrivacy.jsx`** (5.7 KB)
+- **`src/pages/LegalTerms.jsx`** (4.2 KB)
 - **`src/pages/Login.jsx`** (5.3 KB)
-- **`src/pages/PrivacyPolicy.jsx`** (6.9 KB)
+- **`src/pages/PrivacyPolicy.jsx`** (0.0 KB)
 - **`src/pages/Product.jsx`** (31.5 KB)
 - **`src/pages/Products.jsx`** (34.6 KB)
 - **`src/pages/Schemes.jsx`** (17.2 KB)
 - **`src/pages/Support.jsx`** (4.7 KB)
-- **`src/pages/TermsOfService.jsx`** (4.2 KB)
+- **`src/pages/TermsOfService.jsx`** (0.0 KB)
 
 ### 4.2 Reusable Components (`src/components/` & `src/ui.jsx`)
 - **`src/components/EmailVerificationPrompt.jsx`** (9.6 KB)

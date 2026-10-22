@@ -21,8 +21,8 @@
 
 ## Relationships
 
-- [[Architecture Doc Generator]] (5 shared connections)
-- [[Community 84]] (5 shared connections)
+- [[Testing & Workflow Skill]] (5 shared connections)
+- [[Community 112]] (5 shared connections)
 
 ## Source Files
 

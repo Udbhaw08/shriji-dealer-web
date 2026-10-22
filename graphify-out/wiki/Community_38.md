@@ -4,55 +4,54 @@
 
 ## Key Concepts
 
-- **workflow-migration.test.mjs** (22 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **workflow-v2.mjs** (21 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **migrateWorkflowDocument()** (15 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **compileWorkflow()** (13 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **workflow-migration-geometry.mjs** (10 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **createMappedWorkflowCandidate()** (9 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **intrinsicWorkflow()** (8 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **planningWorkflow()** (7 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **clone()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **legacyLayoutProbe()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **legacyRequirementProbe()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **createHorizontalRankMapper()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **expandableViewBox()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **requiredViewBoxFrom()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **schemaDiagnostics()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **workflow-semantic-contract.test.mjs** (3 connections) — `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
-- **clone()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **mapExplicitCoordinates()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **diagnostic()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **result()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **copyFixture()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **explicitPinConflictWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **fixture** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **i()** (67 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
+- **n()** (26 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
+- **t()** (18 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
+- **is()** (12 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
+- **r()** (11 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
+- **as()** (9 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
+- **c()** (8 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
+- **os()** (8 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
+- **Mp()** (7 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
+- **xo()** (7 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
+- **ds()** (6 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
+- **ps()** (6 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
+- **us()** (6 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
+- **bs()** (5 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
+- **hm()** (5 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
+- **Qo()** (5 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
+- **qs()** (5 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
+- **ss()** (5 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
+- **tl()** (5 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
+- **ua()** (5 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
+- **ys()** (5 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
+- **fs()** (4 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
+- **ms()** (4 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
+- **Qa()** (4 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
+- **rs()** (4 connections) — `ios/App/App/public/assets/index-CLIvw0gk.js`
 - *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [[Community 30]] (9 shared connections)
-- [[Product Requirements Documentation]] (4 shared connections)
-- [[Community 52]] (3 shared connections)
-- [[Product Pages Specification]] (3 shared connections)
-- [[Community 148]] (2 shared connections)
-- [[Community 59]] (2 shared connections)
-- [[Community 53]] (1 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (41 shared connections)
+- [[Master Codebase Architecture Reference]] (33 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (13 shared connections)
+- [[Community 46]] (13 shared connections)
+- [[Community 37]] (11 shared connections)
+- [[Community 33]] (10 shared connections)
+- [[Community 43]] (9 shared connections)
+- [[Community 32]] (9 shared connections)
+- [[Community 64]] (6 shared connections)
+- [[Community 53]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/migrations/workflow-v2.mjs`
-- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- `.agents/skills/archify/test/workflow-migration.test.mjs`
-- `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
+- `ios/App/App/public/assets/index-CLIvw0gk.js`
 
 ## Audit Trail
 
-- EXTRACTED: 156 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 273 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

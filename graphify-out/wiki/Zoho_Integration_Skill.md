@@ -1,48 +1,57 @@
 # Zoho Integration Skill
 
-> 40 nodes · cohesion 0.05
+> 40 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **Color Guide** (13 connections) — `.agents/skills/refero-design/references/color.md`
-- **2. Palette Structure** (5 connections) — `.agents/skills/refero-design/references/color.md`
-- **5. Light and Dark Themes** (5 connections) — `.agents/skills/refero-design/references/color.md`
-- **7. Building a Palette from Scratch** (5 connections) — `.agents/skills/refero-design/references/color.md`
-- **4. Contrast and Readability** (4 connections) — `.agents/skills/refero-design/references/color.md`
-- **6. Naming Tokens** (4 connections) — `.agents/skills/refero-design/references/color.md`
-- **9. Anti-Patterns** (4 connections) — `.agents/skills/refero-design/references/color.md`
-- **1. Color Space** (3 connections) — `.agents/skills/refero-design/references/color.md`
-- **3. The 60/30/10 Rule** (3 connections) — `.agents/skills/refero-design/references/color.md`
-- **8. Gradients** (2 connections) — `.agents/skills/refero-design/references/color.md`
-- **color.md** (1 connections) — `.agents/skills/refero-design/references/color.md`
-- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/color.md`
-- **10. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/color.md`
-- **2.1 Neutrals (Most Important)** (1 connections) — `.agents/skills/refero-design/references/color.md`
-- **2.2 Primary Accent** (1 connections) — `.agents/skills/refero-design/references/color.md`
-- **2.3 Semantic Colors** (1 connections) — `.agents/skills/refero-design/references/color.md`
-- **2.4 Effects (Only If Needed)** (1 connections) — `.agents/skills/refero-design/references/color.md`
-- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/color.md`
-- **Bad** (1 connections) — `.agents/skills/refero-design/references/color.md`
-- **Common Failures** (1 connections) — `.agents/skills/refero-design/references/color.md`
-- **Component Color Limit** (1 connections) — `.agents/skills/refero-design/references/color.md`
-- **Dark Mode: Technical Implementation** (1 connections) — `.agents/skills/refero-design/references/color.md`
-- **Dark Theme Elevation** (1 connections) — `.agents/skills/refero-design/references/color.md`
-- **Good** (1 connections) — `.agents/skills/refero-design/references/color.md`
-- **Minimum Requirements** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **brand-marks.mjs** (51 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **brand-marks.test.mjs** (15 connections) — `.agents/skills/archify/test/brand-marks.test.mjs`
+- **captureRemoteBrand()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **captureBrandReference()** (6 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **findBrandMark()** (5 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **checkedFetch()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **isPrivateBrandAddress()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **resolveRequestTarget()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **asUrl()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **iconCandidates()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **imageData()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **ipv4Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **ipv6Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **lookupForms()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **readLimited()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **validateUrlShape()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **generated-brand-marks.mjs** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
+- **BRAND_MARKS** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
+- **attribute()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **beforeDeadline()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **domainMark()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **remoteBrand()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **requestPinned()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **suggestions()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **COLLECTIONS** (1 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 - *... and 15 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dependencies & Package Config]] (8 shared connections)
+- [[Product Requirements Documentation]] (7 shared connections)
+- [[Community 164]] (3 shared connections)
+- [[Design System & UI Tokens]] (2 shared connections)
+- [[Pricing Regression Test Suite]] (1 shared connections)
+- [[Community 57]] (1 shared connections)
+- [[Community 128]] (1 shared connections)
+- [[Community 31]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/color.md`
+- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
+- `.agents/skills/archify/test/brand-marks.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 153 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,8 +1,8 @@
 # i()
 
-> God node · 67 connections · `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+> God node · 67 connections · `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
 
-**Community:** [[Master Codebase Architecture Reference]]
+**Community:** [[Community 35]]
 
 ## Connections by Relation
 

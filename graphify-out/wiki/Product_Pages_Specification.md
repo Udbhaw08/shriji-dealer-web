@@ -1,66 +1,55 @@
 # Product Pages Specification
 
-> 71 nodes · cohesion 0.10
+> 74 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **geometry.mjs** (75 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **compileWorkflowInternal()** (67 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **asArray()** (43 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **geometry.test.mjs** (34 connections) — `.agents/skills/archify/test/geometry.test.mjs`
-- **textUnits()** (33 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **validateArchitecture()** (22 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **validateDataflow()** (22 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **validateLifecycle()** (22 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **cleanCrossingProblems()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **isFinitePoint()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanFlowProblems()** (17 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **rectsOverlap()** (16 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **validateSequence()** (15 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **throwDiagnosticProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **cleanAmbiguousCorridorProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanBorderRunProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanRouteRhythmProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **labelPoint()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanEndpointSideProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanLabelRouteClearanceProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **brandTopRailProblem()** (13 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **collectLabelRouteClearance()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **suggestLabelObstacleFix()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **minimumNodeTextWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **text-fit.mjs** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- *... and 46 more nodes in this community*
+- **ul()** (37 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **get()** (23 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **el()** (18 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **Ni()** (17 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **vc()** (17 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **gc()** (16 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **la()** (16 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **oa()** (13 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **sl()** (13 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **wc()** (12 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **ca()** (11 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **Mi()** (11 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **xc()** (11 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **ll()** (10 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **Mc()** (10 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **ya()** (10 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **kc()** (9 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **Pc()** (9 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **ba()** (8 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **bc()** (8 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **ma()** (8 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **uc()** (8 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **xa()** (8 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **cl()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **da()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- *... and 49 more nodes in this community*
 
 ## Relationships
 
-- [[Dependencies & Package Config]] (78 shared connections)
-- [[Community 30]] (57 shared connections)
-- [[Client Products Data Store]] (51 shared connections)
-- [[Community 54]] (40 shared connections)
-- [[Product Requirements Documentation]] (12 shared connections)
-- [[Product Brand & Business Vision]] (6 shared connections)
-- [[Community 128]] (4 shared connections)
-- [[Community 38]] (3 shared connections)
-- [[Claude Agent Instructions]] (2 shared connections)
-- [[Community 282]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (84 shared connections)
+- [[Community 35]] (33 shared connections)
+- [[Community 45]] (22 shared connections)
+- [[Architecture Doc Generator]] (21 shared connections)
+- [[Graphify Workflow]] (12 shared connections)
+- [[Community 29]] (11 shared connections)
+- [[Community 82]] (10 shared connections)
+- [[Client Products Data Store]] (10 shared connections)
+- [[Community 40]] (8 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
-- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- `.agents/skills/archify/test/geometry.test.mjs`
+- `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
 
 ## Audit Trail
 
-- EXTRACTED: 758 (100%)
+- EXTRACTED: 525 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

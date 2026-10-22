@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **esm-CUvh_PxA.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-CUvh_PxA.js`
-- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-CUvh_PxA.js`
+- **esm-onpqNtps.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-onpqNtps.js`
+- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-onpqNtps.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/esm-CUvh_PxA.js`
+- `android/app/src/main/assets/public/assets/esm-onpqNtps.js`
 
 ## Audit Trail
 

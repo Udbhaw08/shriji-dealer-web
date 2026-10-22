@@ -1,64 +1,54 @@
 # Community 45
 
-> 31 nodes · cohesion 0.08
+> 32 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **server.js** (37 connections) — `backend/src/server.js`
-- **health.js** (8 connections) — `backend/src/routes/health.js`
-- **errorHandler.js** (7 connections) — `backend/src/middleware/errorHandler.js`
-- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
-- **upload.js** (5 connections) — `backend/src/routes/upload.js`
-- **uploads.js** (5 connections) — `backend/src/routes/uploads.js`
-- **migrate()** (4 connections) — `backend/src/db/migrate.js`
-- **rateLimit.js** (4 connections) — `backend/src/middleware/rateLimit.js`
-- **applied()** (3 connections) — `backend/src/db/migrate.js`
-- **startJobs()** (3 connections) — `backend/src/jobs/index.js`
-- **httpError()** (3 connections) — `backend/src/middleware/errorHandler.js`
-- **rateLimit()** (3 connections) — `backend/src/middleware/rateLimit.js`
-- **start()** (3 connections) — `backend/src/server.js`
-- **errorHandler()** (2 connections) — `backend/src/middleware/errorHandler.js`
-- **authRouter** (2 connections) — `backend/src/routes/auth.js`
-- **contentRouter** (2 connections) — `backend/src/routes/content.js`
-- **dealersRouter** (2 connections) — `backend/src/routes/dealers.js`
-- **healthRouter** (2 connections) — `backend/src/routes/health.js`
-- **uploadRouter** (2 connections) — `backend/src/routes/upload.js`
-- **uploadsRouter** (2 connections) — `backend/src/routes/uploads.js`
-- **webhooksRouter** (2 connections) — `backend/src/routes/webhooks.js`
-- **dir** (1 connections) — `backend/src/db/migrate.js`
-- **buckets** (1 connections) — `backend/src/middleware/rateLimit.js`
-- **ALLOWED_FOLDERS** (1 connections) — `backend/src/routes/upload.js`
-- **MIME_TYPES** (1 connections) — `backend/src/routes/uploads.js`
-- *... and 6 more nodes in this community*
+- **D()** (28 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **np()** (21 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **bm()** (13 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **tn()** (13 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **lm()** (12 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **an()** (11 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **ip()** (10 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **am()** (9 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **gn()** (8 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **mm()** (8 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **om()** (8 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **U()** (8 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **sn()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **yn()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **zm()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **dn()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **jm()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **on()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **km()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **ln()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **im()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **Q()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **rm()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **Um()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **un()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [[Community 72]] (15 shared connections)
-- [[Community 29]] (10 shared connections)
-- [[Community 57]] (6 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (2 shared connections)
-- [[Community 85]] (2 shared connections)
-- [[Community 113]] (2 shared connections)
-- [[Community 374]] (2 shared connections)
+- [[Dealer Auth & Session Management]] (34 shared connections)
+- [[Product Pages Specification]] (22 shared connections)
+- [[Community 40]] (15 shared connections)
+- [[Community 35]] (13 shared connections)
+- [[Graphify Workflow]] (10 shared connections)
+- [[Community 29]] (8 shared connections)
+- [[Architecture Doc Generator]] (8 shared connections)
+- [[Client Products Data Store]] (3 shared connections)
 
 ## Source Files
 
-- `backend/src/db/migrate.js`
-- `backend/src/jobs/index.js`
-- `backend/src/middleware/errorHandler.js`
-- `backend/src/middleware/rateLimit.js`
-- `backend/src/routes/auth.js`
-- `backend/src/routes/content.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/routes/health.js`
-- `backend/src/routes/upload.js`
-- `backend/src/routes/uploads.js`
-- `backend/src/routes/webhooks.js`
-- `backend/src/server.js`
+- `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
 
 ## Audit Trail
 
-- EXTRACTED: 117 (100%)
+- EXTRACTED: 239 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

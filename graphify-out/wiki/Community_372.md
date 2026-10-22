@@ -1,26 +1,31 @@
 # Community 372
 
-> 5 nodes · cohesion 0.40
+> 5 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **Path controls** (4 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
-- **path-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
+- **auth.js** (8 connections) — `backend/src/middleware/auth.js`
+- **prices.js** (6 connections) — `backend/src/routes/prices.js`
+- **jwtAuth()** (5 connections) — `backend/src/middleware/auth.js`
+- **pricesRouter** (2 connections) — `backend/src/routes/prices.js`
+- **requireRole()** (1 connections) — `backend/src/middleware/auth.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 30]] (5 shared connections)
+- [[Community 60]] (2 shared connections)
+- [[Community 86]] (2 shared connections)
+- [[Community 48]] (2 shared connections)
+- [[Community 76]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/path-controls.md`
+- `backend/src/middleware/auth.js`
+- `backend/src/routes/prices.js`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

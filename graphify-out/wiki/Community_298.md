@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Managing accounts** (6 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **managing-accounts.md** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **Deleting accounts** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **TV provider accounts** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- **Pop-up buttons** (5 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
+- **pop-up-buttons.md** (1 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
 
 ## Audit Trail
 

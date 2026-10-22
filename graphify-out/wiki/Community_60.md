@@ -1,55 +1,60 @@
 # Community 60
 
-> 25 nodes · cohesion 0.14
+> 26 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **Products.jsx** (25 connections) — `src/pages/Products.jsx`
-- **productsStore.js** (22 connections) — `src/data/productsStore.js`
-- **ProductSearchBar.jsx** (15 connections) — `src/components/ProductSearchBar.jsx`
-- **useProducts()** (12 connections) — `src/data/productsStore.js`
-- **searchHelper.js** (11 connections) — `src/data/searchHelper.js`
-- **ProductSearchBar()** (6 connections) — `src/components/ProductSearchBar.jsx`
-- **products.js** (5 connections) — `src/data/products.js`
-- **getSuggestions()** (5 connections) — `src/data/searchHelper.js`
-- **loadCached()** (4 connections) — `src/data/productsStore.js`
-- **autocorrectQuery()** (4 connections) — `src/data/searchHelper.js`
-- **buildSearchDictionary()** (4 connections) — `src/data/searchHelper.js`
-- **CATEGORIES** (2 connections) — `src/data/products.js`
-- **getCacheKey()** (2 connections) — `src/data/productsStore.js`
-- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
-- **useProduct()** (2 connections) — `src/data/productsStore.js`
-- **getPopularSearches()** (2 connections) — `src/data/searchHelper.js`
-- **scoreProduct()** (2 connections) — `src/data/searchHelper.js`
-- **PRODUCTS** (1 connections) — `src/data/products.js`
-- **listeners** (1 connections) — `src/data/productsStore.js`
-- **PREFERRED_ORDER** (1 connections) — `src/data/productsStore.js`
-- **storeState** (1 connections) — `src/data/productsStore.js`
-- **COLLOQUIAL_SYNONYMS** (1 connections) — `src/data/searchHelper.js`
-- **levenshteinDistance()** (1 connections) — `src/data/searchHelper.js`
-- **Group()** (1 connections) — `src/pages/Products.jsx`
-- **SORT_FNS** (1 connections) — `src/pages/Products.jsx`
+- **auth.js** (47 connections) — `backend/src/routes/auth.js`
+- **dealerApp.js** (24 connections) — `backend/src/services/dealerApp.js`
+- **validators.js** (14 connections) — `backend/src/utils/validators.js`
+- **applyCrmAccountState()** (12 connections) — `backend/src/services/dealerApp.js`
+- **normalizePhone()** (12 connections) — `backend/src/utils/phone.js`
+- **normalizeEmail()** (12 connections) — `backend/src/utils/validators.js`
+- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
+- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
+- **phone.js** (6 connections) — `backend/src/utils/phone.js`
+- **applyCrmContactState()** (5 connections) — `backend/src/services/dealerApp.js`
+- **isValidPhone()** (5 connections) — `backend/src/utils/validators.js`
+- **resolveUserWithDealer()** (4 connections) — `backend/src/routes/auth.js`
+- **isValidEmail()** (4 connections) — `backend/src/utils/validators.js`
+- **isValidName()** (4 connections) — `backend/src/utils/validators.js`
+- **emailOnlyIdentifier()** (3 connections) — `backend/src/routes/auth.js`
+- **findUserByEmail()** (3 connections) — `backend/src/routes/auth.js`
+- **issueSession()** (3 connections) — `backend/src/routes/auth.js`
+- **notify()** (3 connections) — `backend/src/services/notifications.js`
+- **isValidGstin()** (3 connections) — `backend/src/utils/validators.js`
+- **publicUser()** (2 connections) — `backend/src/routes/auth.js`
+- **sendEmailOtp()** (2 connections) — `backend/src/services/notifications.js`
+- **crmSync.test.mjs** (2 connections) — `backend/test/crmSync.test.mjs`
+- **isValidPincode()** (2 connections) — `backend/src/utils/validators.js`
+- **googleClient** (1 connections) — `backend/src/routes/auth.js`
+- **lastCrmSyncByDealerId** (1 connections) — `backend/src/routes/auth.js`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [[Pricing Regression Test Suite]] (20 shared connections)
-- [[Community 34]] (15 shared connections)
-- [[Community 79]] (6 shared connections)
-- [[Zoho Integration Architecture]] (3 shared connections)
-- [[Community 168]] (2 shared connections)
-- [[Community 167]] (1 shared connections)
+- [[Community 30]] (21 shared connections)
+- [[Community 76]] (17 shared connections)
+- [[Community 114]] (16 shared connections)
+- [[Community 87]] (8 shared connections)
+- [[Community 48]] (6 shared connections)
+- [[Community 86]] (5 shared connections)
+- [[Community 372]] (2 shared connections)
 
 ## Source Files
 
-- `src/components/ProductSearchBar.jsx`
-- `src/data/products.js`
-- `src/data/productsStore.js`
-- `src/data/searchHelper.js`
-- `src/pages/Products.jsx`
+- `backend/src/routes/auth.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/services/notifications.js`
+- `backend/src/utils/phone.js`
+- `backend/src/utils/validators.js`
+- `backend/test/crmSync.test.mjs`
+- `backend/test/interconnection.test.mjs`
+- `backend/test/validators.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 133 (100%)
+- EXTRACTED: 189 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

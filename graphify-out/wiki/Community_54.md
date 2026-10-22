@@ -1,57 +1,55 @@
 # Community 54
 
-> 26 nodes · cohesion 0.13
+> 27 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **render-dataflow.mjs** (78 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **anchor()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **automaticPortSpread()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **chosenSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **defaultFromSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **defaultToSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **pathFor()** (8 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **connectionSides()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **flowSides()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **stageX()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **transitionSides()** (5 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderStage()** (4 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **componentText** (4 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **connectionEndpointSide()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **measureNode()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **routeVia()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **stageFrame()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **automaticPorts** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **compositionFrames** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **layout** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **LEGEND_CATALOG** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **nodes** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **nodeSteps** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **nodeTextFit** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- *... and 1 more nodes in this community*
+- **archify.mjs** (50 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandCompare()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandMigrate()** (17 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **diagnostic()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportArtifactFailure()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **inputDiagnostic()** (4 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commitComparePair()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractCompareOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractMigrationOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **formatDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **migrationPathDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **migrationReport()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportArtifactArgumentFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportCompareFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportDeliveryFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportValidateFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandGuide()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **compareCommitError()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **compareReceiptPath()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **serializeMigratedWorkflow()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **CHECK_FIXES** (1 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **[command, ...args]** (1 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **COMPOSITION_CHECKS** (1 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **COMPOSITION_FIXES** (1 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/bin/archify.mjs`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [[Product Pages Specification]] (40 shared connections)
-- [[Dependencies & Package Config]] (31 shared connections)
-- [[Community 30]] (13 shared connections)
-- [[Client Products Data Store]] (12 shared connections)
-- [[Product Requirements Documentation]] (4 shared connections)
-- [[Community 128]] (2 shared connections)
-- [[Claude Agent Instructions]] (1 shared connections)
+- [[Community 121]] (28 shared connections)
+- [[Community 164]] (17 shared connections)
+- [[Community 115]] (4 shared connections)
+- [[Community 107]] (4 shared connections)
+- [[Community 39]] (3 shared connections)
+- [[Community 89]] (2 shared connections)
+- [[Community 63]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
+- `.agents/skills/archify/bin/archify.mjs`
+- `.agents/skills/archify/migrations/workflow-v2.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 186 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 137 (91%)
+- INFERRED: 13 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

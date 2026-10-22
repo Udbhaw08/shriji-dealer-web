@@ -1,47 +1,55 @@
 # Community 40
 
-> 34 nodes · cohesion 0.06
+> 34 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **Typography** (10 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **iOS, iPadOS Dynamic Type sizes** (8 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **iOS, iPadOS larger accessibility type sizes** (6 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Specifications** (5 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **iOS, iPadOS, visionOS tracking values** (4 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Tracking values** (3 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **typography.md** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX1** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX2** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX3** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX4** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX5** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Conveying hierarchy** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Ensuring legibility** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Large (default)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **macOS built-in text styles** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **macOS tracking values** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Medium** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **New York** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **SF Pro** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **.addEventListener()** (19 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **b()** (18 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **h()** (14 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **fp()** (13 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **.removeEventListener()** (12 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **delete()** (11 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **tp()** (10 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **cm()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **gf()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **lp()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **tm()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **em()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **.blur()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **.scrollIntoView()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **v()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **g()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **pm()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **Rp()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **uh()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **Bp()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **.getClientRects()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **up()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **vf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **Vp()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
+- **.focusLast()** (3 connections) — `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
 - *... and 9 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (33 shared connections)
+- [[Community 45]] (15 shared connections)
+- [[Community 35]] (12 shared connections)
+- [[Product Pages Specification]] (8 shared connections)
+- [[Community 29]] (6 shared connections)
+- [[Graphify Workflow]] (6 shared connections)
+- [[Client Products Data Store]] (4 shared connections)
+- [[Architecture Doc Generator]] (3 shared connections)
+- [[Community 82]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/typography.md`
+- `android/app/src/main/assets/public/assets/index-CLIvw0gk.js`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (100%)
+- EXTRACTED: 213 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

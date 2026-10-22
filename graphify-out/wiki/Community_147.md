@@ -20,7 +20,7 @@
 
 ## Relationships
 
-- [[Community 44]] (1 shared connections)
+- [[Community 47]] (1 shared connections)
 - [[Community 88]] (1 shared connections)
 - [[Community 131]] (1 shared connections)
 

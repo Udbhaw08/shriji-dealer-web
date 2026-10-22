@@ -1,61 +1,52 @@
 # Community 34
 
-> 35 nodes · cohesion 0.15
+> 36 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **Product.jsx** (35 connections) — `src/pages/Product.jsx`
-- **dealer.js** (29 connections) — `src/data/dealer.js`
-- **Favorites.jsx** (20 connections) — `src/pages/Favorites.jsx`
-- **ProductCard.jsx** (19 connections) — `src/components/ProductCard.jsx`
-- **dealer.test.mjs** (18 connections) — `src/data/dealer.test.mjs`
-- **Icon()** (18 connections) — `src/ui.jsx`
-- **PriceBlock.jsx** (15 connections) — `src/components/PriceBlock.jsx`
-- **ProductCard()** (15 connections) — `src/components/ProductCard.jsx`
-- **Product()** (15 connections) — `src/pages/Product.jsx`
-- **priceFor()** (14 connections) — `src/data/dealer.js`
-- **inr()** (11 connections) — `src/data/dealer.js`
-- **viewerFor()** (8 connections) — `src/data/dealer.js`
-- **CustomerPrice()** (7 connections) — `src/components/PriceBlock.jsx`
-- **productSlug()** (7 connections) — `src/data/dealer.js`
-- **shareLink()** (7 connections) — `src/data/dealer.js`
-- **tagFor()** (6 connections) — `src/data/dealer.js`
-- **DealerPrice()** (5 connections) — `src/components/PriceBlock.jsx`
-- **formatWhatsAppPhone()** (4 connections) — `src/data/dealer.js`
-- **slugifyProduct()** (4 connections) — `src/data/dealer.js`
-- **tierOf()** (4 connections) — `src/data/dealer.js`
-- **DEALERS** (3 connections) — `src/data/dealer.js`
-- **isFavorite()** (3 connections) — `src/data/favoritesStore.js`
-- **PriceBlock()** (2 connections) — `src/components/PriceBlock.jsx`
-- **price99()** (2 connections) — `src/data/dealer.js`
-- **BAND** (1 connections) — `src/data/dealer.js`
-- *... and 10 more nodes in this community*
+- **auth.js** (40 connections) — `src/data/auth.js`
+- **callBackend()** (24 connections) — `src/data/auth.js`
+- **json()** (24 connections) — `src/data/auth.js`
+- **DealerDashboard.jsx** (23 connections) — `src/pages/DealerDashboard.jsx`
+- **broadcastAuthChange()** (10 connections) — `src/data/auth.js`
+- **revalidateSession()** (9 connections) — `src/data/session.js`
+- **applyAuthResponse()** (6 connections) — `src/data/auth.js`
+- **logout()** (6 connections) — `src/data/auth.js`
+- **fetchMe()** (5 connections) — `src/data/auth.js`
+- **googleLogin()** (5 connections) — `src/data/auth.js`
+- **login()** (5 connections) — `src/data/auth.js`
+- **signup()** (5 connections) — `src/data/auth.js`
+- **staffTogglePrice()** (5 connections) — `src/data/auth.js`
+- **staffTogglePriceAll()** (5 connections) — `src/data/auth.js`
+- **verifyEmailOtp()** (5 connections) — `src/data/auth.js`
+- **applyAsDealer()** (4 connections) — `src/data/auth.js`
+- **hasSession()** (4 connections) — `src/data/auth.js`
+- **lookupStaffCode()** (4 connections) — `src/data/auth.js`
+- **persistTokens()** (4 connections) — `src/data/auth.js`
+- **requestEmailOtp()** (4 connections) — `src/data/auth.js`
+- **staffApprove()** (4 connections) — `src/data/auth.js`
+- **staffDeactivate()** (4 connections) — `src/data/auth.js`
+- **staffDelete** (4 connections) — `src/data/auth.js`
+- **staffHold()** (4 connections) — `src/data/auth.js`
+- **staffInvite()** (4 connections) — `src/data/auth.js`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [[Pricing Regression Test Suite]] (62 shared connections)
-- [[Community 60]] (15 shared connections)
-- [[Community 79]] (8 shared connections)
-- [[Zoho Integration Architecture]] (7 shared connections)
-- [[Community 168]] (5 shared connections)
-- [[Community 167]] (4 shared connections)
-- [[Community 109]] (3 shared connections)
-- [[Community 245]] (2 shared connections)
+- [[Community 41]] (29 shared connections)
+- [[Roles & Customer Sharing Spec]] (8 shared connections)
+- [[Community 56]] (3 shared connections)
+- [[Community 51]] (2 shared connections)
 
 ## Source Files
 
-- `src/components/PriceBlock.jsx`
-- `src/components/ProductCard.jsx`
-- `src/data/dealer.js`
-- `src/data/dealer.test.mjs`
-- `src/data/favoritesStore.js`
-- `src/pages/Favorites.jsx`
-- `src/pages/Product.jsx`
-- `src/ui.jsx`
+- `src/data/auth.js`
+- `src/data/session.js`
+- `src/pages/DealerDashboard.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 282 (100%)
+- EXTRACTED: 254 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

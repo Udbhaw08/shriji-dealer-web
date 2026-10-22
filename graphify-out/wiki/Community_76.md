@@ -1,43 +1,59 @@
 # Community 76
 
-> 22 nodes · cohesion 0.09
+> 23 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **CODEBASE.md — Project Architecture & Feature Guide** (8 connections) — `CODEBASE.md`
-- **2. Core Pricing & Identity Architecture** (6 connections) — `CODEBASE.md`
-- **4. Codebase Directory Map** (6 connections) — `CODEBASE.md`
-- **5. Zoho API Endpoints** (4 connections) — `CODEBASE.md`
-- **CODEBASE.md** (1 connections) — `CODEBASE.md`
-- **1. System Overview** (1 connections) — `CODEBASE.md`
-- **2.1 The Two Audiences (Zero Leakage Rule)** (1 connections) — `CODEBASE.md`
-- **2.2 Pricing Resolution Engine (`api/zoho.js` & `src/data/dealer.js`)** (1 connections) — `CODEBASE.md`
-- **2.3 Guest Access Control & Portal Gating (`src/data/portalGate.js`)** (1 connections) — `CODEBASE.md`
-- **2.4 Shareable Product Link & Zero-Leakage Experience (`src/pages/Product.jsx`)** (1 connections) — `CODEBASE.md`
-- **2.5 Navigation & Bottom Bar Dynamic Filtering** (1 connections) — `CODEBASE.md`
-- **3. Application Routes & Navigation** (1 connections) — `CODEBASE.md`
-- **4.1 Pages (`src/pages/`)** (1 connections) — `CODEBASE.md`
-- **4.2 Reusable Components (`src/components/` & `src/ui.jsx`)** (1 connections) — `CODEBASE.md`
-- **4.3 State & Business Logic (`src/data/`)** (1 connections) — `CODEBASE.md`
-- **4.4 Zoho API & Serverless Handlers (`api/`)** (1 connections) — `CODEBASE.md`
-- **4.5 Automation & Utility Scripts (`scripts/`)** (1 connections) — `CODEBASE.md`
-- **5.1 Zoho Commerce Storefront API** (1 connections) — `CODEBASE.md`
-- **5.2 Zoho Books Contacts & Pricebooks API** (1 connections) — `CODEBASE.md`
-- **5.3 Auto-Recovery Token Architecture** (1 connections) — `CODEBASE.md`
-- **6. How to Run & Verify** (1 connections) — `CODEBASE.md`
-- **7. Development & Git Workflow Guidelines** (1 connections) — `CODEBASE.md`
+- **pool.js** (30 connections) — `backend/src/db/pool.js`
+- **env.js** (14 connections) — `backend/src/config/env.js`
+- **webhooks.js** (14 connections) — `backend/src/routes/webhooks.js`
+- **logger.js** (14 connections) — `backend/src/utils/logger.js`
+- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
+- **log** (13 connections) — `backend/src/utils/logger.js`
+- **env** (11 connections) — `backend/src/config/env.js`
+- **index.js** (11 connections) — `backend/src/jobs/index.js`
+- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
+- **notifications.js** (9 connections) — `backend/src/services/notifications.js`
+- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
+- **catalogSync()** (3 connections) — `backend/src/jobs/catalogSync.js`
+- **tokenCleanup()** (3 connections) — `backend/src/jobs/catalogSync.js`
+- **markPollRun()** (3 connections) — `backend/src/jobs/crmPoll.js`
+- **migrate-content.js** (3 connections) — `backend/scripts/migrate-content.js`
+- **test-storage.js** (3 connections) — `backend/scripts/test-storage.js`
+- **bool()** (1 connections) — `backend/src/config/env.js`
+- **__dirname** (1 connections) — `backend/src/config/env.js`
+- **num()** (1 connections) — `backend/src/config/env.js`
+- **tx()** (1 connections) — `backend/src/db/pool.js`
+- **main()** (1 connections) — `backend/scripts/migrate-content.js`
+- **main()** (1 connections) — `backend/scripts/test-storage.js`
+- **ts()** (1 connections) — `backend/src/utils/logger.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 30]] (23 shared connections)
+- [[Community 60]] (17 shared connections)
+- [[Community 48]] (15 shared connections)
+- [[Community 86]] (11 shared connections)
+- [[Community 114]] (6 shared connections)
+- [[Price Presentation & Product UI]] (2 shared connections)
+- [[Community 372]] (1 shared connections)
 
 ## Source Files
 
-- `CODEBASE.md`
+- `backend/scripts/migrate-content.js`
+- `backend/scripts/test-storage.js`
+- `backend/src/config/env.js`
+- `backend/src/db/pool.js`
+- `backend/src/jobs/catalogSync.js`
+- `backend/src/jobs/crmPoll.js`
+- `backend/src/jobs/index.js`
+- `backend/src/routes/webhooks.js`
+- `backend/src/services/notifications.js`
+- `backend/src/utils/logger.js`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 165 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

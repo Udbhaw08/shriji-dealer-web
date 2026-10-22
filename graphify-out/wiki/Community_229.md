@@ -1,41 +1,32 @@
 # Community 229
 
-> 9 nodes · cohesion 0.22
+> 9 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **Typography Guide** (18 connections) — `.agents/skills/refero-design/references/typography.md`
-- **13. AI-Slop Anti-Patterns** (3 connections) — `.agents/skills/refero-design/references/typography.md`
-- **typography.md** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **15. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **1. The Safe SaaS Preset** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Instant Red Flags** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Quick Test** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **cards** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **additionalProperties** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **required** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- [[Community 377]] (1 shared connections)
-- [[Community 397]] (1 shared connections)
-- [[Community 378]] (1 shared connections)
-- [[Community 398]] (1 shared connections)
-- [[Community 399]] (1 shared connections)
-- [[Community 400]] (1 shared connections)
-- [[Community 379]] (1 shared connections)
-- [[Community 401]] (1 shared connections)
-- [[Community 402]] (1 shared connections)
-- [[Community 380]] (1 shared connections)
-- [[Community 230]] (1 shared connections)
-- [[Community 429]] (1 shared connections)
+- [[Community 177]] (3 shared connections)
+- [[Community 78]] (1 shared connections)
+- [[Community 431]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 27 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

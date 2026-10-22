@@ -1,46 +1,39 @@
 # Community 119
 
-> 15 nodes · cohesion 0.19
+> 16 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **get()** (23 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
-- **Ni()** (17 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
-- **la()** (16 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
-- **ma()** (8 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
-- **nr()** (6 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
-- **pa()** (5 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
-- **fa()** (4 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
-- **tr()** (4 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
-- **er()** (3 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
-- **hi()** (3 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
-- **Mr()** (3 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
-- **oh()** (3 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
-- **Pr()** (3 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
-- **Qn()** (3 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
-- **uo()** (2 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **properties** (8 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **meta** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **nodes** (4 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **flows** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **cards** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **schema_version** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (19 shared connections)
-- [[Master Codebase Architecture Reference]] (14 shared connections)
-- [[Community 33]] (6 shared connections)
-- [[Community 32]] (5 shared connections)
-- [[Community 43]] (4 shared connections)
-- [[Graphify Workflow]] (4 shared connections)
-- [[Live Pricing Audit Tool]] (4 shared connections)
-- [[Community 87]] (3 shared connections)
-- [[Community 39]] (2 shared connections)
-- [[Community 78]] (1 shared connections)
-- [[Community 164]] (1 shared connections)
+- [[Community 195]] (3 shared connections)
+- [[Community 308]] (1 shared connections)
+- [[Community 71]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 103 (100%)
+- EXTRACTED: 35 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

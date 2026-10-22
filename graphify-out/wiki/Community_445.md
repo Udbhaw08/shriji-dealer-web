@@ -10,7 +10,7 @@
 
 ## Relationships
 
-- [[Architecture Doc Generator]] (1 shared connections)
+- [[Testing & Workflow Skill]] (1 shared connections)
 
 ## Source Files
 

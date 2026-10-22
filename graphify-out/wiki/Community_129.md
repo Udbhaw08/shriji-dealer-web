@@ -23,7 +23,7 @@
 ## Relationships
 
 - [[Community 128]] (4 shared connections)
-- [[Community 44]] (1 shared connections)
+- [[Community 47]] (1 shared connections)
 - [[Community 88]] (1 shared connections)
 - [[Community 131]] (1 shared connections)
 - [[Dependencies & Package Config]] (1 shared connections)

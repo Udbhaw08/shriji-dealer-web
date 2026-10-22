@@ -4,53 +4,55 @@
 
 ## Key Concepts
 
-- **qd()** (14 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **Yd()** (13 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **Fd()** (12 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **Vd()** (12 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **rf()** (11 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **df()** (10 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **ff()** (8 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **lt()** (8 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **ct()** (7 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **wi()** (7 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **Bd()** (6 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **ef()** (6 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **nf()** (6 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **Hd()** (5 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **Id()** (5 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **jf()** (5 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **lf()** (5 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **ns()** (5 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **cf()** (4 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **Na()** (4 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **qf()** (4 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **st()** (4 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **ta()** (4 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **tf()** (4 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
-- **uf()** (4 connections) — `ios/App/App/public/assets/index-CFF7Tu1W.js`
+- **session.js** (46 connections) — `src/data/session.js`
+- **Login.jsx** (40 connections) — `src/pages/Login.jsx`
+- **EmailVerificationPrompt.jsx** (10 connections) — `src/components/EmailVerificationPrompt.jsx`
+- **setSession()** (10 connections) — `src/data/session.js`
+- **loginCode.js** (8 connections) — `src/data/loginCode.js`
+- **registerDealer()** (7 connections) — `src/data/dealer.js`
+- **validators.js** (7 connections) — `src/data/validators.js`
+- **switchToDealerSession()** (5 connections) — `src/data/session.js`
+- **formatLoginCode()** (4 connections) — `src/data/loginCode.js`
+- **signOut()** (4 connections) — `src/data/session.js`
+- **switchToViewerSession()** (4 connections) — `src/data/session.js`
+- **loadCachedSession()** (3 connections) — `src/data/session.js`
+- **isValidEmail()** (3 connections) — `src/data/validators.js`
+- **onAuthBroadcast()** (2 connections) — `src/data/auth.js`
+- **generateLoginCode()** (2 connections) — `src/data/loginCode.js`
+- **GST_TREATMENT_OPTIONS** (2 connections) — `src/data/loginCode.js`
+- **isValidLoginCode()** (2 connections) — `src/data/loginCode.js`
+- **emit()** (2 connections) — `src/data/session.js`
+- **isValidGstin()** (2 connections) — `src/data/validators.js`
+- **isValidName()** (2 connections) — `src/data/validators.js`
+- **isValidPhone()** (2 connections) — `src/data/validators.js`
+- **isValidPincode()** (2 connections) — `src/data/validators.js`
+- **PREFIX_MAP** (1 connections) — `src/data/loginCode.js`
+- **USER_CATEGORIES** (1 connections) — `src/data/loginCode.js`
+- **DEFAULT_AUTH_TOKENS** (1 connections) — `src/data/session.js`
 - *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (37 shared connections)
-- [[Community 31]] (9 shared connections)
-- [[Design System & UI Tokens]] (9 shared connections)
-- [[Community 37]] (9 shared connections)
-- [[Community 51]] (6 shared connections)
-- [[Community 47]] (5 shared connections)
-- [[Community 36]] (5 shared connections)
-- [[Community 46]] (4 shared connections)
-- [[Community 35]] (3 shared connections)
-- [[Zoho API Diagnostic Script]] (1 shared connections)
+- [[Community 34]] (29 shared connections)
+- [[Community 56]] (13 shared connections)
+- [[Roles & Customer Sharing Spec]] (11 shared connections)
+- [[Community 36]] (10 shared connections)
+- [[Community 51]] (7 shared connections)
+- [[Community 166]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CFF7Tu1W.js`
+- `src/components/EmailVerificationPrompt.jsx`
+- `src/data/auth.js`
+- `src/data/dealer.js`
+- `src/data/loginCode.js`
+- `src/data/session.js`
+- `src/data/validators.js`
+- `src/pages/Login.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 196 (100%)
+- EXTRACTED: 181 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

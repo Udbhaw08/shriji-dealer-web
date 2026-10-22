@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **height** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **cornerRadius** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 - **minimum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 - **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- [[Graphify Knowledge Graph Skill]] (1 shared connections)
+- [[Pricing & Roles Skill]] (1 shared connections)
 
 ## Source Files
 

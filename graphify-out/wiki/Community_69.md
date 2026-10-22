@@ -4,44 +4,42 @@
 
 ## Key Concepts
 
-- **properties** (12 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **viewBox** (6 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **column_fit** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **animation** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **locale** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **output** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **subtitle** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **views** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **description** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **items** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **Apple Pay** (11 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Using Apple Pay buttons** (5 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Button styles** (4 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Button types** (3 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Handling problems** (3 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Streamlining checkout** (2 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **apple-pay.md** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Apple Pay button** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Apple Pay mark** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Black** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Button size and position** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Customizing the payment sheet** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Data validation errors** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Displaying a website icon** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Offering Apple Pay** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Payment processing problems** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Referring to Apple Pay** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Set Up Apple Pay button** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Supporting donations** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Supporting subscriptions** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **White** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **White with outline** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
 
 ## Relationships
 
-- [[Community 199]] (1 shared connections)
-- [[Community 441]] (1 shared connections)
-- [[Community 409]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/sequence.schema.json`
+- `.agents/skills/apple-design/references/hig/apple-pay.md`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (100%)
+- EXTRACTED: 46 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
