@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-23T03:52:05.741+05:30 (GMT+5:30)
-> Total Project Files: 1727
+> Last synchronized: 2026-10-23T03:54:44.295+05:30 (GMT+5:30)
+> Total Project Files: 1725
 
 ---
 
@@ -96,7 +96,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/pages/LegalTerms.jsx`** (4.2 KB)
 - **`src/pages/Login.jsx`** (5.3 KB)
 - **`src/pages/PrivacyPolicy.jsx`** (0.0 KB)
-- **`src/pages/Product.jsx`** (33.1 KB)
+- **`src/pages/Product.jsx`** (32.8 KB)
 - **`src/pages/Products.jsx`** (33.5 KB)
 - **`src/pages/Schemes.jsx`** (18.6 KB)
 - **`src/pages/Support.jsx`** (4.7 KB)
