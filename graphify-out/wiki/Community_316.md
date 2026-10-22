@@ -1,16 +1,15 @@
 # Community 316
 
-> 7 nodes · cohesion 0.29
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **motion-governor.test.mjs** (6 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
-- **svgBlock()** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
+- **Modality** (5 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **modality.md** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
 
 ## Relationships
 
@@ -18,11 +17,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/motion-governor.test.mjs`
+- `.agents/skills/apple-design/references/hig/modality.md`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

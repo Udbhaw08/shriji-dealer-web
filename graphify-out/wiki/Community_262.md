@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Data flow, shared state, and property wrappers** (7 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **data.md** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **Bindings** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **If the project uses SwiftData with CloudKit** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **Local state** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **Shared state** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **SwiftData** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **Working with data** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
+- **story-follow-camera.test.mjs** (7 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/data.md`
+- `.agents/skills/archify/test/story-follow-camera.test.mjs`
 
 ## Audit Trail
 

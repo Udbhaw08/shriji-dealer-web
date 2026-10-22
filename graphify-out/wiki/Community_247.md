@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Image views** (6 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **image-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **guided-views.test.mjs** (7 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **fixture()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **svg()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/image-views.md`
+- `.agents/skills/archify/test/guided-views.test.mjs`
 
 ## Audit Trail
 

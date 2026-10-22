@@ -1,23 +1,21 @@
 # Community 128
 
-> 14 nodes · cohesion 0.23
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **web-DSE8grgf.js** (13 connections) — `ios/App/App/public/assets/web-DSE8grgf.js`
-- **applyPrefix()** (4 connections) — `ios/App/App/public/assets/web-DSE8grgf.js`
-- **keys()** (4 connections) — `ios/App/App/public/assets/web-DSE8grgf.js`
-- **get()** (3 connections) — `ios/App/App/public/assets/web-DSE8grgf.js`
-- **migrate()** (3 connections) — `ios/App/App/public/assets/web-DSE8grgf.js`
-- **rawKeys()** (3 connections) — `ios/App/App/public/assets/web-DSE8grgf.js`
-- **clear()** (2 connections) — `ios/App/App/public/assets/web-DSE8grgf.js`
-- **remove()** (2 connections) — `ios/App/App/public/assets/web-DSE8grgf.js`
-- **removeOld()** (2 connections) — `ios/App/App/public/assets/web-DSE8grgf.js`
-- **set()** (2 connections) — `ios/App/App/public/assets/web-DSE8grgf.js`
-- **configure()** (1 connections) — `ios/App/App/public/assets/web-DSE8grgf.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-DSE8grgf.js`
-- **impl()** (1 connections) — `ios/App/App/public/assets/web-DSE8grgf.js`
-- **prefix()** (1 connections) — `ios/App/App/public/assets/web-DSE8grgf.js`
+- **DEALER-HIERARCHY-AND-WORKFLOW.md — Business, Dealer & Staff Hierarchy Model** (6 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **3. End-to-End User Journey & Life Cycle** (3 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **4. Zoho CRM Data Structure** (3 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **1. The Three-Tier Hierarchy Model** (2 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **DEALER-HIERARCHY-AND-WORKFLOW.md** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **2. Two-Stage Approval Separation** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **5. Technical Seams to Adapt** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **Accounts Module (Business Entity)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **Contacts Module (People Hierarchy)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **Hierarchy Breakdown:** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **Phase A: Dealer Onboarding (Head Approval)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **Phase B: Staff Onboarding via Dealer Code (Dealer Approval)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
 
 ## Relationships
 
@@ -25,11 +23,11 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-DSE8grgf.js`
+- `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

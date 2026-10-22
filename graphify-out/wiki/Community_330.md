@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Action sheets** (4 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
-- **action-sheets.md** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
+- **SKILL.md** (3 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **Output Format** (3 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **ContentView.swift** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **Core Instructions** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **References** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **Summary** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/action-sheets.md`
+- `.agents/skills/swiftui-pro/SKILL.md`
 
 ## Audit Trail
 

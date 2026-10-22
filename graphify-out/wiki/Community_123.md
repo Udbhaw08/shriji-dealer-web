@@ -1,35 +1,37 @@
 # Community 123
 
-> 14 nodes · cohesion 0.23
+> 13 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **web-DSE8grgf.js** (13 connections) — `android/app/src/main/assets/public/assets/web-DSE8grgf.js`
-- **applyPrefix()** (4 connections) — `android/app/src/main/assets/public/assets/web-DSE8grgf.js`
-- **keys()** (4 connections) — `android/app/src/main/assets/public/assets/web-DSE8grgf.js`
-- **get()** (3 connections) — `android/app/src/main/assets/public/assets/web-DSE8grgf.js`
-- **migrate()** (3 connections) — `android/app/src/main/assets/public/assets/web-DSE8grgf.js`
-- **rawKeys()** (3 connections) — `android/app/src/main/assets/public/assets/web-DSE8grgf.js`
-- **clear()** (2 connections) — `android/app/src/main/assets/public/assets/web-DSE8grgf.js`
-- **remove()** (2 connections) — `android/app/src/main/assets/public/assets/web-DSE8grgf.js`
-- **removeOld()** (2 connections) — `android/app/src/main/assets/public/assets/web-DSE8grgf.js`
-- **set()** (2 connections) — `android/app/src/main/assets/public/assets/web-DSE8grgf.js`
-- **configure()** (1 connections) — `android/app/src/main/assets/public/assets/web-DSE8grgf.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-DSE8grgf.js`
-- **impl()** (1 connections) — `android/app/src/main/assets/public/assets/web-DSE8grgf.js`
-- **prefix()** (1 connections) — `android/app/src/main/assets/public/assets/web-DSE8grgf.js`
+- **focus-browser.test.mjs** (17 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **run()** (8 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **stable()** (6 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **click()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **key()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **select()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **focus()** (2 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **variant()** (1 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 37]] (5 shared connections)
+- [[Community 45]] (3 shared connections)
+- [[Community 31]] (1 shared connections)
+- [[Community 104]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/web-DSE8grgf.js`
+- `.agents/skills/archify/test/focus-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 58 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

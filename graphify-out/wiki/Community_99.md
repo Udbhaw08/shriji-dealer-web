@@ -1,27 +1,24 @@
 # Community 99
 
-> 18 nodes · cohesion 0.11
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **Standard icons** (10 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Icons** (6 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **icons.md** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Document icons** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Editing** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Layer ordering** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Other** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Ratings** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Search** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Selection** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Sharing and exporting** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Text formatting** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Users and accounts** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Liquid Glass** (6 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Apple's rules** (5 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Cross-platform translation** (5 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **liquid-glass.md** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Color on glass** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Flutter** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **React Native** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Review checklist** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Standard materials beneath the glass** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **SwiftUI, UIKit, and AppKit** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Tauri and Electron** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **The two layers** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Where the material belongs** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Which variant** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
 
 ## Relationships
 
@@ -29,11 +26,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/icons.md`
+- `.agents/skills/apple-design/references/hig/liquid-glass.md`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

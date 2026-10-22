@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Focus and selection** (5 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **focus-and-selection.md** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
+- **chapter-handoff.test.mjs** (6 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/focus-and-selection.md`
+- `.agents/skills/archify/test/chapter-handoff.test.mjs`
 
 ## Audit Trail
 

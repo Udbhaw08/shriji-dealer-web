@@ -1,18 +1,17 @@
 # Community 233
 
-> 9 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **authored-reachability.test.mjs** (8 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **reachabilityFunction()** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **Page controls** (6 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **page-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **Customizing indicators** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
 
 ## Relationships
 
@@ -20,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/authored-reachability.test.mjs`
+- `.agents/skills/apple-design/references/hig/page-controls.md`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

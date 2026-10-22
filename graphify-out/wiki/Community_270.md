@@ -1,17 +1,16 @@
 # Community 270
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **reach-share-card.test.mjs** (7 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
+- **Images** (6 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **images.md** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Formats** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Resolution** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
 
 ## Relationships
 
@@ -19,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/reach-share-card.test.mjs`
+- `.agents/skills/apple-design/references/hig/images.md`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

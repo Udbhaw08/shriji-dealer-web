@@ -1,54 +1,49 @@
 # Product Pages Specification
 
-> 75 nodes · cohesion 0.05
+> 50 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **dl()** (35 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **tl()** (19 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **Hc()** (15 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **kc()** (15 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **la()** (14 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **cl()** (13 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **zc()** (13 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **lm()** (12 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **Mi()** (11 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **ol()** (11 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **fa()** (10 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **ji()** (10 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **oa()** (10 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **ba()** (9 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **fc()** (9 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **Sp()** (9 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **ul()** (9 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **ea()** (8 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **ya()** (8 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **zo()** (8 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **Gc()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **Ii()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **Pi()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **ua()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **xc()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- *... and 50 more nodes in this community*
+- **check-render-output.mjs** (57 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **parseAttrs()** (7 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectArrows()** (6 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **numberAttr()** (6 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectCompositionFrames()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectLegendBoxes()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **lineSegments()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectDesktopReadability()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectNonFiniteAttrs()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **pathSegments()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **straightPathSegments()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **textBox()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **projectedNodeTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **attrEntries()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectLegendCollisions()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectRelationshipLabelMasks()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **crossProduct()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **isCommand()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **pointsFromPath()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **properSegmentIntersection()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **segmentIntersectsBox()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **segmentsIntersect()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **stripTags()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectRelationshipCrossings()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **decodeNumericReferences()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (82 shared connections)
-- [[Community 38]] (28 shared connections)
-- [[Client Products Data Store]] (22 shared connections)
-- [[Community 37]] (17 shared connections)
-- [[Community 40]] (17 shared connections)
-- [[Community 45]] (13 shared connections)
-- [[Community 32]] (8 shared connections)
-- [[Community 33]] (8 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (6 shared connections)
+- [[Community 31]] (4 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
+- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- `.agents/skills/archify/scripts/check-render-output.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 489 (100%)
+- EXTRACTED: 182 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

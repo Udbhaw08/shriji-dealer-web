@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Branding** (5 connections) — `.agents/skills/apple-design/references/hig/branding.md`
-- **branding.md** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
+- **automatic-port-spread.test.mjs** (5 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- **connectionPoints()** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- **fanOutArchitecture()** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/branding.md`
+- `.agents/skills/archify/test/automatic-port-spread.test.mjs`
 
 ## Audit Trail
 

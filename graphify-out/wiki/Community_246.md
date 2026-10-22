@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Going full screen** (5 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
-- **going-full-screen.md** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **animation.test.mjs** (7 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **NODE_COLLECTION** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **svgBlock()** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- `.agents/skills/archify/test/animation.test.mjs`
 
 ## Audit Trail
 

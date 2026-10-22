@@ -1,17 +1,16 @@
 # Community 280
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **story-carrier.test.mjs** (7 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
+- **Snippets** (6 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **snippets.md** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
 
 ## Relationships
 
@@ -19,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/story-carrier.test.mjs`
+- `.agents/skills/apple-design/references/hig/snippets.md`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

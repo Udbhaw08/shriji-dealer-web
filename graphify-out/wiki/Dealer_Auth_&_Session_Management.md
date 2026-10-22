@@ -1,55 +1,62 @@
 # Dealer Auth & Session Management
 
-> 116 nodes · cohesion 0.03
+> 91 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **_()** (446 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **kf()** (19 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **Fr()** (13 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **rf()** (11 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **df()** (10 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **ei()** (8 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **ff()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **Or()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **request()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **sf()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **xr()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **Id()** (6 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **nf()** (6 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **oe()** (6 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **se()** (6 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **br()** (5 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **eh()** (5 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **hi()** (5 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **Hr()** (5 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **ic()** (5 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **jf()** (5 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **Jr()** (5 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **lf()** (5 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **mf()** (5 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **qr()** (5 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- *... and 91 more nodes in this community*
+- **zoho.js** (51 connections) — `api/zoho.js`
+- **vite.config.js** (20 connections) — `vite.config.js`
+- **content.js** (19 connections) — `backend/src/services/content.js`
+- **fetchZohoProductById()** (16 connections) — `api/zoho.js`
+- **fetchZohoProducts()** (14 connections) — `api/zoho.js`
+- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
+- **zohoApiPlugin()** (13 connections) — `vite.config.js`
+- **fetchZohoWithRetry()** (12 connections) — `api/zoho.js`
+- **getZohoConfig()** (12 connections) — `api/zoho.js`
+- **content.js** (11 connections) — `api/content.js`
+- **content.js** (11 connections) — `backend/src/routes/content.js`
+- **handler()** (10 connections) — `api/content.js`
+- **createDealerContact()** (9 connections) — `api/zoho.js`
+- **getSupabaseBanners()** (9 connections) — `backend/src/services/content.js`
+- **fetchZohoCategories()** (8 connections) — `api/zoho.js`
+- **getSupabaseSchemes()** (8 connections) — `backend/src/services/content.js`
+- **fetchAllRawZohoProducts()** (7 connections) — `api/zoho.js`
+- **fetchZohoBanners()** (7 connections) — `api/zoho.js`
+- **fetchZohoSchemes()** (7 connections) — `api/zoho.js`
+- **getCategoryVisibilityMap()** (7 connections) — `api/zoho.js`
+- **getDealerById()** (7 connections) — `api/zoho.js`
+- **getSupabaseBranding()** (7 connections) — `backend/src/services/content.js`
+- **fetchZohoPricebookItems()** (6 connections) — `api/zoho.js`
+- **getAccessToken()** (6 connections) — `api/zoho.js`
+- **normalizeProduct()** (6 connections) — `api/zoho.js`
+- *... and 66 more nodes in this community*
 
 ## Relationships
 
-- [[Product Pages Specification]] (82 shared connections)
-- [[Client Products Data Store]] (64 shared connections)
-- [[Community 32]] (56 shared connections)
-- [[Community 38]] (42 shared connections)
-- [[Community 37]] (41 shared connections)
-- [[Community 40]] (40 shared connections)
-- [[Community 33]] (38 shared connections)
-- [[Community 45]] (33 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (9 shared connections)
+- [[Community 50]] (2 shared connections)
+- [[Community 36]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
+- `api/content.js`
+- `api/dealer/apply.js`
+- `api/dealer/info.js`
+- `api/download.js`
+- `api/og.js`
+- `api/products/[id].js`
+- `api/products/index.js`
+- `api/zoho.js`
+- `backend/src/routes/content.js`
+- `backend/src/services/content.js`
+- `scripts/audit_prices.mjs`
+- `scripts/test-zoho-api.mjs`
+- `vite.config.js`
 
 ## Audit Trail
 
-- EXTRACTED: 825 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 449 (99%)
+- INFERRED: 4 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

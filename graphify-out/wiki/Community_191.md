@@ -1,32 +1,30 @@
 # Community 191
 
-> 10 nodes · cohesion 0.29
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **stages** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **additionalProperties** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **required** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **Materials** (6 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **materials.md** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Liquid Glass** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Standard materials** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
 
 ## Relationships
 
-- [[Claude Agent Instructions]] (3 shared connections)
-- [[Community 113]] (3 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `.agents/skills/apple-design/references/hig/materials.md`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

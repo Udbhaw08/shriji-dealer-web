@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Activity views** (5 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
-- **activity-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
-- **Share and action extensions** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **authoring-safety-contract.test.mjs** (5 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- **authoringContract** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- **schemaReadme** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- **skill** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/activity-views.md`
+- `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
 
 ## Audit Trail
 

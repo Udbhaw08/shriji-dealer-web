@@ -1,26 +1,25 @@
 # Community 380
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **focus** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **SwiftUI Views** (3 connections) — `.agents/skills/swiftui-pro/references/views.md`
+- **views.md** (1 connections) — `.agents/skills/swiftui-pro/references/views.md`
+- **Animating views** (1 connections) — `.agents/skills/swiftui-pro/references/views.md`
+- **Reordering and swipe actions** (1 connections) — `.agents/skills/swiftui-pro/references/views.md`
 
 ## Relationships
 
-- [[Community 173]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/swiftui-pro/references/views.md`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

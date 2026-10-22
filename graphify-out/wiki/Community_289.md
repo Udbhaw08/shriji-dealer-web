@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Entering data** (5 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **entering-data.md** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **artifact-receipt-flush.test.mjs** (6 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **checker** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **denseArchitecture()** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/entering-data.md`
+- `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
 
 ## Audit Trail
 

@@ -1,31 +1,30 @@
 # Community 190
 
-> 10 nodes · cohesion 0.20
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **entries** (4 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **legend** (4 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **properties** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **mode** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **properties** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **Edit menus** (6 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
+- **edit-menus.md** (1 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
 
 ## Relationships
 
-- [[Community 66]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `.agents/skills/apple-design/references/hig/edit-menus.md`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

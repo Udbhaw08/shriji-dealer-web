@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Multitasking** (5 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Platform considerations** (4 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **multitasking.md** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **authored-reachability.test.mjs** (8 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **reachabilityFunction()** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/multitasking.md`
+- `.agents/skills/archify/test/authored-reachability.test.mjs`
 
 ## Audit Trail
 

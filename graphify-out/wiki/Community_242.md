@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Controls** (7 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Camera experiences on a locked device** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Data flow, shared state, and property wrappers** (7 connections) — `.agents/skills/swiftui-pro/references/data.md`
+- **data.md** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
+- **Bindings** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
+- **If the project uses SwiftData with CloudKit** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
+- **Local state** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
+- **Shared state** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
+- **SwiftData** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
+- **Working with data** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/controls.md`
+- `.agents/skills/swiftui-pro/references/data.md`
 
 ## Audit Trail
 

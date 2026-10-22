@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Image wells** (4 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
-- **image-wells.md** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
+- **integration.test.mjs** (4 connections) — `backend/test/integration.test.mjs`
+- **api()** (1 connections) — `backend/test/integration.test.mjs`
+- **COMMERCE_FIXTURE** (1 connections) — `backend/test/integration.test.mjs`
+- **crmMock** (1 connections) — `backend/test/integration.test.mjs`
+- **uniq()** (1 connections) — `backend/test/integration.test.mjs`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/image-wells.md`
+- `backend/test/integration.test.mjs`
 
 ## Audit Trail
 

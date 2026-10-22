@@ -1,14 +1,13 @@
 # Community 367
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **NFC** (4 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
-- **nfc.md** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
-- **Background tag reading** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
-- **In-app tag reading** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
+- **Shriji Dealer Web — Agent Guidelines** (3 connections) — `AGENTS.md`
+- **AGENTS.md** (1 connections) — `AGENTS.md`
+- **Hard Rules** (1 connections) — `AGENTS.md`
+- **Specialized Skills Available** (1 connections) — `AGENTS.md`
 
 ## Relationships
 
@@ -16,11 +15,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/nfc.md`
+- `AGENTS.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,55 +1,62 @@
 # Community 33
 
-> 38 nodes · cohesion 0.10
+> 31 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **.addEventListener()** (19 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **b()** (18 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **h()** (14 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **fp()** (13 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **.removeEventListener()** (12 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **delete()** (11 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **ip()** (10 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **tp()** (10 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **ee()** (8 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **cm()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **gf()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **lp()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **tm()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **em()** (6 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **.blur()** (6 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **.scrollIntoView()** (6 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **v()** (6 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **g()** (5 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **hn()** (5 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **pm()** (5 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **Rp()** (5 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **uh()** (5 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **Bp()** (4 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **.getClientRects()** (4 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **un()** (4 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- *... and 13 more nodes in this community*
+- **cli.mjs** (43 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **utils.mjs** (26 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **i18n.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **translateMessage()** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **writeDiagram()** (10 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **render-workflow.mjs** (10 connections) — `.agents/skills/archify/renderers/workflow/render-workflow.mjs`
+- **loadDiagram()** (9 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **applyTemplate()** (9 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **loadDiagramWithBrandMarks()** (8 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **resolveLocale()** (7 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **viewerCatalog()** (4 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **validateGuidedViews()** (3 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **validateRelationshipIds()** (3 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **localizeTemplate()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **translateCount()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **renderCards()** (3 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **formatMessage()** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **serializeScriptJson()** (2 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **outputPathGuards** (1 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **RELATIONSHIP_COLLECTIONS** (1 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **SEMANTIC_COLLECTIONS** (1 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **START_TYPES** (1 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **CATALOGS** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **ESCAPE_MAP** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **MESSAGE_PAIRS** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (38 shared connections)
-- [[Community 45]] (15 shared connections)
-- [[Community 38]] (14 shared connections)
-- [[Client Products Data Store]] (9 shared connections)
-- [[Community 32]] (8 shared connections)
-- [[Product Pages Specification]] (8 shared connections)
-- [[Community 37]] (4 shared connections)
-- [[Community 40]] (3 shared connections)
+- [[Master Codebase Architecture Reference]] (19 shared connections)
+- [[Roles & Customer Sharing Spec]] (13 shared connections)
+- [[Vercel Deployment Routing]] (12 shared connections)
+- [[Pricing & Roles Skill]] (11 shared connections)
+- [[Dependencies & Package Config]] (6 shared connections)
+- [[Community 39]] (6 shared connections)
+- [[Community 103]] (5 shared connections)
+- [[Product Requirements Documentation]] (4 shared connections)
+- [[Community 83]] (4 shared connections)
+- [[Community 141]] (3 shared connections)
+- [[Community 181]] (3 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (3 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
+- `.agents/skills/archify/renderers/shared/cli.mjs`
+- `.agents/skills/archify/renderers/shared/i18n.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `.agents/skills/archify/renderers/workflow/render-workflow.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 241 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 199 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

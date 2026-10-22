@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Labels** (5 connections) — `.agents/skills/apple-design/references/hig/labels.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/labels.md`
-- **labels.md** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
+- **diagram-guide.test.mjs** (6 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/labels.md`
+- `.agents/skills/archify/test/diagram-guide.test.mjs`
 
 ## Audit Trail
 

@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **Dock menus** (4 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
-- **dock-menus.md** (1 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
+- **focus** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 155]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/dock-menus.md`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

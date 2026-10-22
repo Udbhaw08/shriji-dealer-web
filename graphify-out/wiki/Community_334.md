@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Collections** (4 connections) — `.agents/skills/apple-design/references/hig/collections.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/collections.md`
-- **collections.md** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
+- **render-output-checks.test.mjs** (5 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **checker** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **checkHtml()** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/collections.md`
+- `.agents/skills/archify/test/render-output-checks.test.mjs`
 
 ## Audit Trail
 

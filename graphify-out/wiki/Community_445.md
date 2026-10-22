@@ -4,20 +4,20 @@
 
 ## Key Concepts
 
-- **esm-BMTsCUl6.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-BMTsCUl6.js`
-- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-BMTsCUl6.js`
+- **type** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 32]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/esm-BMTsCUl6.js`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

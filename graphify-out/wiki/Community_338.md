@@ -1,15 +1,14 @@
 # Community 338
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **Printing** (4 connections) — `.agents/skills/apple-design/references/hig/printing.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/printing.md`
-- **printing.md** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
+- **CLAUDE.md — read this before touching anything** (4 connections) — `CLAUDE.md`
+- **CLAUDE.md** (1 connections) — `CLAUDE.md`
+- **Commands** (1 connections) — `CLAUDE.md`
+- **Doc map** (1 connections) — `CLAUDE.md`
+- **Hard rules (these exist to stop hallucination)** (1 connections) — `CLAUDE.md`
 
 ## Relationships
 
@@ -17,11 +16,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/printing.md`
+- `CLAUDE.md`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

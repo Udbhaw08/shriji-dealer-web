@@ -1,26 +1,25 @@
 # Community 373
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **10. Text Polish Details** (5 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Content Overflow** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Punctuation** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Tabular Numbers** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Text Wrapping for Headings** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Cross-platform translation** (3 connections) — `.agents/skills/apple-design/references/cross-platform.md`
+- **cross-platform.md** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
+- **Conventions to check** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
+- **Vocabulary** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
 
 ## Relationships
 
-- [[Community 225]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/apple-design/references/cross-platform.md`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

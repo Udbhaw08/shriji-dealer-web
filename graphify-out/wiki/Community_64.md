@@ -1,45 +1,52 @@
 # Community 64
 
-> 24 nodes · cohesion 0.08
+> 20 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **Apple Pay** (11 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Using Apple Pay buttons** (5 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Button styles** (4 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Button types** (3 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Handling problems** (3 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Streamlining checkout** (2 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **apple-pay.md** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Apple Pay button** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Apple Pay mark** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Black** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Button size and position** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Customizing the payment sheet** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Data validation errors** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Displaying a website icon** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Offering Apple Pay** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Payment processing problems** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Referring to Apple Pay** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Set Up Apple Pay button** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Supporting donations** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Supporting subscriptions** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **White** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **White with outline** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **catalog.js** (16 connections) — `backend/src/services/catalog.js`
+- **logger.js** (14 connections) — `backend/src/utils/logger.js`
+- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
+- **log** (13 connections) — `backend/src/utils/logger.js`
+- **index.js** (11 connections) — `backend/src/jobs/index.js`
+- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
+- **errorHandler.js** (7 connections) — `backend/src/middleware/errorHandler.js`
+- **syncCatalog()** (7 connections) — `backend/src/services/catalog.js`
+- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
+- **catalogFor()** (4 connections) — `backend/src/services/catalog.js`
+- **loadCatalog()** (4 connections) — `backend/src/services/catalog.js`
+- **catalogSync()** (3 connections) — `backend/src/jobs/catalogSync.js`
+- **tokenCleanup()** (3 connections) — `backend/src/jobs/catalogSync.js`
+- **markPollRun()** (3 connections) — `backend/src/jobs/crmPoll.js`
+- **httpError()** (3 connections) — `backend/src/middleware/errorHandler.js`
+- **priceView()** (3 connections) — `backend/src/services/catalog.js`
+- **priceGate.test.mjs** (3 connections) — `backend/test/priceGate.test.mjs`
+- **errorHandler()** (2 connections) — `backend/src/middleware/errorHandler.js`
+- **CATALOG** (1 connections) — `backend/test/priceGate.test.mjs`
+- **ts()** (1 connections) — `backend/src/utils/logger.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Agent Guidelines (AGENTS.md)]] (14 shared connections)
+- [[Community 50]] (11 shared connections)
+- [[Community 38]] (11 shared connections)
+- [[Community 114]] (6 shared connections)
+- [[Community 36]] (6 shared connections)
+- [[Community 102]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/apple-pay.md`
+- `backend/src/jobs/catalogSync.js`
+- `backend/src/jobs/crmPoll.js`
+- `backend/src/jobs/index.js`
+- `backend/src/middleware/errorHandler.js`
+- `backend/src/services/catalog.js`
+- `backend/src/utils/logger.js`
+- `backend/test/priceGate.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (100%)
+- EXTRACTED: 125 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

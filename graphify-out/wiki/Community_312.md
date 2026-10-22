@@ -1,16 +1,15 @@
 # Community 312
 
-> 7 nodes · cohesion 0.29
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **chapter-rail.test.mjs** (6 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
+- **Branding** (5 connections) — `.agents/skills/apple-design/references/hig/branding.md`
+- **branding.md** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
 
 ## Relationships
 
@@ -18,11 +17,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/chapter-rail.test.mjs`
+- `.agents/skills/apple-design/references/hig/branding.md`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Images** (6 connections) — `.agents/skills/apple-design/references/hig/images.md`
-- **images.md** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
-- **Formats** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
-- **Resolution** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **chapter-rail.test.mjs** (6 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/images.md`
+- `.agents/skills/archify/test/chapter-rail.test.mjs`
 
 ## Audit Trail
 

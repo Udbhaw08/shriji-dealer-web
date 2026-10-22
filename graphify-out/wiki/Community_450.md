@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **esm-BMTsCUl6.js** (1 connections) — `ios/App/App/public/assets/esm-BMTsCUl6.js`
-- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-BMTsCUl6.js`
+- **make-scheme-pdfs.mjs** (1 connections) — `scripts/make-scheme-pdfs.mjs`
+- **createPdfWithJpg()** (1 connections) — `scripts/make-scheme-pdfs.mjs`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/esm-BMTsCUl6.js`
+- `scripts/make-scheme-pdfs.mjs`
 
 ## Audit Trail
 

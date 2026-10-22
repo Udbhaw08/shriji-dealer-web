@@ -1,53 +1,57 @@
 # Community 39
 
-> 35 nodes · cohesion 0.11
+> 27 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **vl()** (28 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **qd()** (15 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **xe()** (13 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **Yd()** (13 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **yl()** (13 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **Fd()** (12 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **Vd()** (12 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **bl()** (9 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **De()** (9 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **ke()** (9 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **lt()** (8 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **ef()** (7 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **Fo()** (7 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **lp()** (7 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **wi()** (7 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **Bd()** (6 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **ta()** (6 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **hm()** (5 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **ml()** (5 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **Ro()** (5 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **Hd()** (4 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **pl()** (4 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **rs()** (4 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **tf()** (4 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **Fi()** (3 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- *... and 10 more nodes in this community*
+- **diagnostics.mjs** (27 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **engineering-profiles.mjs** (10 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **engineering-profile.test.mjs** (10 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **validateEngineeringProfile()** (6 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **normalizedDiagnostic()** (4 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **deploymentOwnershipDiagnostics()** (4 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **fallbackDiagnostic()** (3 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **withDiagnosticRecordingSuppressed()** (3 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **installRendererDiagnosticBoundary()** (2 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **plainObject()** (2 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **rendererFailure()** (2 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **subject()** (2 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **boundaryKey** (1 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **readerSignal** (1 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **recorded** (1 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **recordedMessages** (1 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **waitForReader()** (1 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **DEPLOYMENT_BOUNDARY_KINDS** (1 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **membership()** (1 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **PRIVATE_STATE_TYPES** (1 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **clone()** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **example** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **examplePath** (1 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (42 shared connections)
-- [[Community 34]] (19 shared connections)
-- [[Dependencies & Package Config]] (17 shared connections)
-- [[Zoho API Diagnostic Script]] (9 shared connections)
-- [[Master Codebase Architecture Reference]] (9 shared connections)
-- [[Zoho Integration Architecture]] (5 shared connections)
-- [[Community 56]] (3 shared connections)
+- [[Roles & Customer Sharing Spec]] (7 shared connections)
+- [[Community 33]] (6 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (4 shared connections)
+- [[Pricing & Roles Skill]] (2 shared connections)
+- [[Dependencies & Package Config]] (1 shared connections)
+- [[Master Codebase Architecture Reference]] (1 shared connections)
+- [[Vercel Deployment Routing]] (1 shared connections)
+- [[Product Requirements Documentation]] (1 shared connections)
+- [[Community 141]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BW_SDrEP.js`
+- `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- `.agents/skills/archify/test/engineering-profile.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 240 (100%)
+- EXTRACTED: 90 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

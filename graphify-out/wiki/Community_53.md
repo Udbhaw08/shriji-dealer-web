@@ -1,62 +1,50 @@
 # Community 53
 
-> 26 nodes · cohesion 0.10
+> 23 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **pool.js** (30 connections) — `backend/src/db/pool.js`
-- **env.js** (14 connections) — `backend/src/config/env.js`
-- **webhooks.js** (14 connections) — `backend/src/routes/webhooks.js`
-- **env** (11 connections) — `backend/src/config/env.js`
-- **notifications.js** (9 connections) — `backend/src/services/notifications.js`
-- **audit.js** (7 connections) — `backend/src/utils/audit.js`
-- **sync-supabase-content.js** (6 connections) — `backend/scripts/sync-supabase-content.js`
-- **upload.js** (5 connections) — `api/upload.js`
-- **migrate-content.js** (3 connections) — `backend/scripts/migrate-content.js`
-- **test-storage.js** (3 connections) — `backend/scripts/test-storage.js`
-- **notify()** (3 connections) — `backend/src/services/notifications.js`
-- **handler()** (2 connections) — `api/upload.js`
-- **webhooksRouter** (2 connections) — `backend/src/routes/webhooks.js`
-- **syncAll()** (2 connections) — `backend/scripts/sync-supabase-content.js`
-- **sendEmailOtp()** (2 connections) — `backend/src/services/notifications.js`
-- **ALLOWED_FOLDERS** (1 connections) — `api/upload.js`
-- **MIME_TYPES** (1 connections) — `api/upload.js`
-- **bool()** (1 connections) — `backend/src/config/env.js`
-- **__dirname** (1 connections) — `backend/src/config/env.js`
-- **num()** (1 connections) — `backend/src/config/env.js`
-- **tx()** (1 connections) — `backend/src/db/pool.js`
-- **main()** (1 connections) — `backend/scripts/migrate-content.js`
-- **__dirname** (1 connections) — `backend/scripts/sync-supabase-content.js`
-- **IMAGES** (1 connections) — `backend/scripts/sync-supabase-content.js`
-- **PROJECT_ROOT** (1 connections) — `backend/scripts/sync-supabase-content.js`
-- *... and 1 more nodes in this community*
+- **pull-hig.mjs** (65 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **crawlSection()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **fetchPageJson()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **abstractOf()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **anchorEntries()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **anchorMapFor()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **listedPages()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **plainText()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **ALL_PLATFORMS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **cellText()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **collectReferences()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **CURATED_FILES** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **DESIGNING_FOR_COVERAGE** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **DROPPED_PLATFORMS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **githubSlug()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **IMAGE_GLYPHS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **KEPT_PLATFORMS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **OMITTED_PAGES** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **PLATFORM_LIST_RE** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **PLATFORM_NAMES** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **platformsOf()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **REPO_ROOT** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **SECTIONS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- [[Community 43]] (21 shared connections)
-- [[Community 106]] (13 shared connections)
-- [[Community 52]] (12 shared connections)
-- [[Community 47]] (9 shared connections)
-- [[Community 121]] (3 shared connections)
-- [[Community 133]] (2 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (2 shared connections)
+- [[Community 177]] (10 shared connections)
+- [[Community 178]] (10 shared connections)
+- [[Community 209]] (9 shared connections)
+- [[Community 245]] (8 shared connections)
+- [[Community 328]] (6 shared connections)
+- [[Community 218]] (1 shared connections)
 
 ## Source Files
 
-- `api/upload.js`
-- `backend/scripts/migrate-content.js`
-- `backend/scripts/sync-supabase-content.js`
-- `backend/scripts/test-storage.js`
-- `backend/src/config/env.js`
-- `backend/src/db/pool.js`
-- `backend/src/routes/webhooks.js`
-- `backend/src/services/notifications.js`
-- `backend/src/utils/audit.js`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 124 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 95 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,53 +1,48 @@
 # Community 34
 
-> 38 nodes · cohesion 0.12
+> 29 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **D()** (25 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **ft()** (21 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **t()** (18 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **O()** (13 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **vt()** (13 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **bt()** (12 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **Rn()** (12 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **ht()** (11 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **j()** (11 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **M()** (11 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **dt()** (9 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **zt()** (9 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **mt()** (8 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **nn()** (8 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **Pn()** (8 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **ct()** (7 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **gt()** (7 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **Rd()** (7 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **te()** (7 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **ut()** (7 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **af()** (6 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **Ie()** (6 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **yt()** (6 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **A()** (5 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **Jt()** (5 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- *... and 13 more nodes in this community*
+- **AppDelegate** (10 connections) — `ios/App/App/AppDelegate.swift`
+- **.application()** (7 connections) — `ios/App/App/AppDelegate.swift`
+- **.scene()** (7 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIApplication** (6 connections) — `ios/App/App/AppDelegate.swift`
+- **SceneDelegate** (5 connections) — `ios/App/App/SceneDelegate.swift`
+- **AppDelegate.swift** (3 connections) — `ios/App/App/AppDelegate.swift`
+- **SceneDelegate.swift** (3 connections) — `ios/App/App/SceneDelegate.swift`
+- **.applicationDidBecomeActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationDidEnterBackground()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillEnterForeground()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillResignActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillTerminate()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **Capacitor** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIWindow** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIKit** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIResponder** (2 connections)
+- **Any** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **Bool** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIScene** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UISceneSession** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIWindow** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIScene** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **UISceneSession** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **NSUserActivity** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **Set** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (57 shared connections)
-- [[Community 39]] (19 shared connections)
-- [[Master Codebase Architecture Reference]] (17 shared connections)
-- [[Zoho API Diagnostic Script]] (9 shared connections)
-- [[Zoho Integration Architecture]] (9 shared connections)
-- [[Dependencies & Package Config]] (8 shared connections)
-- [[Community 56]] (8 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BW_SDrEP.js`
+- `ios/App/App/AppDelegate.swift`
+- `ios/App/App/SceneDelegate.swift`
 
 ## Audit Trail
 
-- EXTRACTED: 301 (100%)
+- EXTRACTED: 72 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

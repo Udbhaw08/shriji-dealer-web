@@ -4,25 +4,26 @@
 
 ## Key Concepts
 
-- **Writing** (6 connections) — `.agents/skills/apple-design/references/hig/writing.md`
-- **writing.md** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
-- **Getting started** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **settled-flow.test.mjs** (8 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 33]] (1 shared connections)
+- [[Master Codebase Architecture Reference]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/writing.md`
+- `.agents/skills/archify/test/settled-flow.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

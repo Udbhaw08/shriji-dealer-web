@@ -1,54 +1,74 @@
 # Price Presentation & Product UI
 
-> 114 nodes · cohesion 0.03
+> 60 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **_()** (446 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **kf()** (19 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **Fr()** (13 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **rf()** (11 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **df()** (10 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **ei()** (8 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **ff()** (7 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **go()** (7 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **Or()** (7 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **request()** (7 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **sf()** (7 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **xr()** (7 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **Id()** (6 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **nf()** (6 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **oe()** (6 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **se()** (6 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **br()** (5 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **dh()** (5 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **eh()** (5 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **hi()** (5 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **jf()** (5 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **Jr()** (5 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **ki()** (5 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **lf()** (5 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **mf()** (5 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- *... and 89 more nodes in this community*
+- **main.jsx** (44 connections) — `src/main.jsx`
+- **ui.jsx** (42 connections) — `src/ui.jsx`
+- **useLanguage()** (32 connections) — `src/data/i18n.js`
+- **useSession()** (28 connections) — `src/data/session.js`
+- **Home.jsx** (26 connections) — `src/pages/Home.jsx`
+- **site.js** (24 connections) — `src/data/site.js`
+- **t()** (19 connections) — `src/data/i18n.js`
+- **isDealer()** (18 connections) — `src/data/dealer.js`
+- **Icon()** (18 connections) — `src/ui.jsx`
+- **Schemes.jsx** (17 connections) — `src/pages/Schemes.jsx`
+- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
+- **COMPANY** (16 connections) — `src/data/site.js`
+- **Support.jsx** (15 connections) — `src/pages/Support.jsx`
+- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
+- **dealerById()** (12 connections) — `src/data/dealer.js`
+- **HeroSlider.jsx** (11 connections) — `src/components/HeroSlider.jsx`
+- **Products()** (9 connections) — `src/pages/Products.jsx`
+- **Header()** (9 connections) — `src/ui.jsx`
+- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
+- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
+- **portalGate.js** (8 connections) — `src/data/portalGate.js`
+- **Favorites()** (8 connections) — `src/pages/Favorites.jsx`
+- **Home()** (8 connections) — `src/pages/Home.jsx`
+- **Login()** (7 connections) — `src/pages/Login.jsx`
+- **Schemes()** (6 connections) — `src/pages/Schemes.jsx`
+- *... and 35 more nodes in this community*
 
 ## Relationships
 
-- [[Dependencies & Package Config]] (89 shared connections)
-- [[Master Codebase Architecture Reference]] (67 shared connections)
-- [[Zoho Integration Architecture]] (67 shared connections)
-- [[Community 34]] (57 shared connections)
-- [[Zoho API Diagnostic Script]] (50 shared connections)
-- [[Community 39]] (42 shared connections)
-- [[Community 56]] (30 shared connections)
+- [[Zoho API Diagnostic Script]] (59 shared connections)
+- [[Design System & UI Tokens]] (31 shared connections)
+- [[Community 105]] (18 shared connections)
+- [[Community 144]] (9 shared connections)
+- [[Community 127]] (8 shared connections)
+- [[Mobile Responsive UI Skill]] (5 shared connections)
+- [[Community 143]] (2 shared connections)
+- [[Community 364]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BW_SDrEP.js`
+- `src/components/EmailVerificationPrompt.jsx`
+- `src/components/HeroSlider.jsx`
+- `src/components/MobileBottomNav.jsx`
+- `src/components/NativeBackHandler.jsx`
+- `src/components/UnderMaintenance.jsx`
+- `src/data/dealer.js`
+- `src/data/i18n.js`
+- `src/data/portalGate.js`
+- `src/data/session.js`
+- `src/data/site.js`
+- `src/main.jsx`
+- `src/pages/DealerDashboard.jsx`
+- `src/pages/Favorites.jsx`
+- `src/pages/Home.jsx`
+- `src/pages/LegalPrivacy.jsx`
+- `src/pages/LegalTerms.jsx`
+- `src/pages/Login.jsx`
+- `src/pages/PrivacyPolicy.jsx`
+- `src/pages/Products.jsx`
+- `src/pages/Schemes.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 823 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 519 (100%)
+- INFERRED: 2 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

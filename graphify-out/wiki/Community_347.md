@@ -1,30 +1,27 @@
 # Community 347
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **main()** (7 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **pruneStaleFiles()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **uniqueBySlug()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **generatedFiles()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **mapWithConcurrency()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **parseArgs()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **Image wells** (4 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
+- **image-wells.md** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
 
 ## Relationships
 
-- [[Community 73]] (6 shared connections)
-- [[Community 229]] (2 shared connections)
-- [[Community 237]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- `.agents/skills/apple-design/references/hig/image-wells.md`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 8 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,27 +1,26 @@
 # Community 354
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **repository-evidence-replacement.test.mjs** (5 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
-- **checkEvidence()** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
-- **fixture()** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **10. Text Polish Details** (5 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Content Overflow** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Punctuation** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Tabular Numbers** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Text Wrapping for Headings** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 203]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

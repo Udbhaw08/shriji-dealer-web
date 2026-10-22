@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Color wells** (4 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
-- **color-wells.md** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **repository-evidence-replacement.test.mjs** (5 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **checkEvidence()** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **fixture()** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/color-wells.md`
+- `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
 
 ## Audit Trail
 

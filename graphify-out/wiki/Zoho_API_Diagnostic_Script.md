@@ -1,53 +1,58 @@
 # Zoho API Diagnostic Script
 
-> 41 nodes · cohesion 0.09
+> 36 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **i()** (66 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **n()** (25 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **as()** (13 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **r()** (12 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **c()** (11 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **s()** (11 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **cc()** (9 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **ss()** (9 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **jd()** (8 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **fs()** (7 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **Mp()** (7 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **ms()** (7 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **oc()** (7 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **tc()** (7 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **zs()** (7 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **cs()** (6 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **js()** (6 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **uc()** (6 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **vs()** (6 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **el()** (5 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **ho()** (5 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **os()** (5 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **Qa()** (5 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **dc()** (4 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- **ds()** (4 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
-- *... and 16 more nodes in this community*
+- **Product.jsx** (35 connections) — `src/pages/Product.jsx`
+- **dealer.js** (29 connections) — `src/data/dealer.js`
+- **Favorites.jsx** (20 connections) — `src/pages/Favorites.jsx`
+- **ProductCard.jsx** (19 connections) — `src/components/ProductCard.jsx`
+- **dealer.test.mjs** (18 connections) — `src/data/dealer.test.mjs`
+- **PriceBlock.jsx** (15 connections) — `src/components/PriceBlock.jsx`
+- **ProductCard()** (15 connections) — `src/components/ProductCard.jsx`
+- **Product()** (15 connections) — `src/pages/Product.jsx`
+- **priceFor()** (14 connections) — `src/data/dealer.js`
+- **useFavorites()** (13 connections) — `src/data/favoritesStore.js`
+- **inr()** (11 connections) — `src/data/dealer.js`
+- **viewerFor()** (8 connections) — `src/data/dealer.js`
+- **CustomerPrice()** (7 connections) — `src/components/PriceBlock.jsx`
+- **productSlug()** (7 connections) — `src/data/dealer.js`
+- **registerDealer()** (7 connections) — `src/data/dealer.js`
+- **shareLink()** (7 connections) — `src/data/dealer.js`
+- **tagFor()** (6 connections) — `src/data/dealer.js`
+- **DealerPrice()** (5 connections) — `src/components/PriceBlock.jsx`
+- **formatWhatsAppPhone()** (4 connections) — `src/data/dealer.js`
+- **slugifyProduct()** (4 connections) — `src/data/dealer.js`
+- **tierOf()** (4 connections) — `src/data/dealer.js`
+- **DEALERS** (3 connections) — `src/data/dealer.js`
+- **isFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **PriceBlock()** (2 connections) — `src/components/PriceBlock.jsx`
+- **price99()** (2 connections) — `src/data/dealer.js`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (50 shared connections)
-- [[Dependencies & Package Config]] (35 shared connections)
-- [[Master Codebase Architecture Reference]] (22 shared connections)
-- [[Zoho Integration Architecture]] (13 shared connections)
-- [[Community 56]] (11 shared connections)
-- [[Community 34]] (9 shared connections)
-- [[Community 39]] (9 shared connections)
+- [[Price Presentation & Product UI]] (59 shared connections)
+- [[Design System & UI Tokens]] (16 shared connections)
+- [[Community 105]] (12 shared connections)
+- [[Community 144]] (5 shared connections)
+- [[Community 143]] (5 shared connections)
+- [[Community 85]] (3 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BW_SDrEP.js`
+- `src/components/PriceBlock.jsx`
+- `src/components/ProductCard.jsx`
+- `src/data/dealer.js`
+- `src/data/dealer.test.mjs`
+- `src/data/favoritesStore.js`
+- `src/pages/Favorites.jsx`
+- `src/pages/Product.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 303 (100%)
+- EXTRACTED: 284 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

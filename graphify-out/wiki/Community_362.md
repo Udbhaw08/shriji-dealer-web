@@ -1,14 +1,14 @@
 # Community 362
 
-> 5 nodes · cohesion 0.40
+> 5 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **Feedback** (4 connections) — `.agents/skills/apple-design/references/hig/feedback.md`
-- **feedback.md** (1 connections) — `.agents/skills/apple-design/references/hig/feedback.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/feedback.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/feedback.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/feedback.md`
+- **export_pricebooks_for_crm.mjs** (4 connections) — `scripts/export_pricebooks_for_crm.mjs`
+- **getAccessToken()** (2 connections) — `scripts/export_pricebooks_for_crm.mjs`
+- **main()** (2 connections) — `scripts/export_pricebooks_for_crm.mjs`
+- **env** (1 connections) — `scripts/export_pricebooks_for_crm.mjs`
+- **getMergedEnv()** (1 connections) — `scripts/export_pricebooks_for_crm.mjs`
 
 ## Relationships
 
@@ -16,11 +16,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/feedback.md`
+- `scripts/export_pricebooks_for_crm.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

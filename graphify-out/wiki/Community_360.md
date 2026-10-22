@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Combo boxes** (4 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
-- **combo-boxes.md** (1 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
+- **Multi-Skill Redesign & Cross-Platform UI Protocol** (4 connections) — `.agents/rules/redesign_instructions.md`
+- **redesign_instructions.md** (1 connections) — `.agents/rules/redesign_instructions.md`
+- **Rule 1: Mandatory Multi-Skill Consultation** (1 connections) — `.agents/rules/redesign_instructions.md`
+- **Rule 2: Adaptive Multi-Device Responsiveness** (1 connections) — `.agents/rules/redesign_instructions.md`
+- **Rule 3: Merge for Better Results** (1 connections) — `.agents/rules/redesign_instructions.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/combo-boxes.md`
+- `.agents/rules/redesign_instructions.md`
 
 ## Audit Trail
 

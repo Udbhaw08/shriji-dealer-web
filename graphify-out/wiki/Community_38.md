@@ -1,54 +1,61 @@
 # Community 38
 
-> 35 nodes · cohesion 0.11
+> 27 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **i()** (66 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **n()** (25 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **as()** (13 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **r()** (12 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **c()** (11 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **s()** (11 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **ss()** (9 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **fs()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **Mp()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **ms()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **tc()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **zs()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **cs()** (6 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **js()** (6 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **vs()** (6 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **el()** (5 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **hm()** (5 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **os()** (5 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **Qa()** (5 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **ds()** (4 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **ec()** (4 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **ps()** (4 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **ws()** (4 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **gs()** (3 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **hs()** (3 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- *... and 10 more nodes in this community*
+- **auth.js** (47 connections) — `backend/src/routes/auth.js`
+- **dealerApp.js** (24 connections) — `backend/src/services/dealerApp.js`
+- **webhooks.js** (14 connections) — `backend/src/routes/webhooks.js`
+- **validators.js** (14 connections) — `backend/src/utils/validators.js`
+- **applyCrmAccountState()** (12 connections) — `backend/src/services/dealerApp.js`
+- **normalizePhone()** (12 connections) — `backend/src/utils/phone.js`
+- **normalizeEmail()** (12 connections) — `backend/src/utils/validators.js`
+- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
+- **cleanName()** (7 connections) — `backend/src/utils/validators.js`
+- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
+- **phone.js** (6 connections) — `backend/src/utils/phone.js`
+- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
+- **applyCrmContactState()** (5 connections) — `backend/src/services/dealerApp.js`
+- **isValidPhone()** (5 connections) — `backend/src/utils/validators.js`
+- **resolveUserWithDealer()** (4 connections) — `backend/src/routes/auth.js`
+- **isValidEmail()** (4 connections) — `backend/src/utils/validators.js`
+- **isValidName()** (4 connections) — `backend/src/utils/validators.js`
+- **emailOnlyIdentifier()** (3 connections) — `backend/src/routes/auth.js`
+- **findUserByEmail()** (3 connections) — `backend/src/routes/auth.js`
+- **issueSession()** (3 connections) — `backend/src/routes/auth.js`
+- **isValidGstin()** (3 connections) — `backend/src/utils/validators.js`
+- **publicUser()** (2 connections) — `backend/src/routes/auth.js`
+- **crmSync.test.mjs** (2 connections) — `backend/test/crmSync.test.mjs`
+- **isValidPincode()** (2 connections) — `backend/src/utils/validators.js`
+- **googleClient** (1 connections) — `backend/src/routes/auth.js`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (42 shared connections)
-- [[Product Pages Specification]] (28 shared connections)
-- [[Community 37]] (17 shared connections)
-- [[Community 33]] (14 shared connections)
-- [[Client Products Data Store]] (12 shared connections)
-- [[Community 45]] (10 shared connections)
-- [[Community 32]] (9 shared connections)
-- [[Community 40]] (8 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (28 shared connections)
+- [[Community 102]] (16 shared connections)
+- [[Community 64]] (11 shared connections)
+- [[Community 50]] (10 shared connections)
+- [[Community 36]] (6 shared connections)
+- [[Community 68]] (6 shared connections)
+- [[Community 114]] (5 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
+- `backend/src/routes/auth.js`
+- `backend/src/routes/webhooks.js`
+- `backend/src/services/crmClient.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/utils/phone.js`
+- `backend/src/utils/validators.js`
+- `backend/test/crmSync.test.mjs`
+- `backend/test/interconnection.test.mjs`
+- `backend/test/validators.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 266 (100%)
+- EXTRACTED: 210 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

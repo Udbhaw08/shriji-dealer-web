@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Text views** (5 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
-- **text-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
+- **semantic-lens.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/text-views.md`
+- `.agents/skills/archify/test/semantic-lens.test.mjs`
 
 ## Audit Trail
 

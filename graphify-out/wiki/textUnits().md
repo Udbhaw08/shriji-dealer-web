@@ -2,7 +2,7 @@
 
 > God node · 33 connections · `.agents/skills/archify/renderers/shared/utils.mjs`
 
-**Community:** [[Oxlint Linter Configuration]]
+**Community:** [[Pricing & Roles Skill]]
 
 ## Connections by Relation
 

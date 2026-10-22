@@ -1,17 +1,16 @@
 # Community 273
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **repair-receipt.test.mjs** (7 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
-- **receipt()** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
-- **writeFixture()** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **Loading** (6 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **loading.md** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **Showing progress** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
 
 ## Relationships
 
@@ -19,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/repair-receipt.test.mjs`
+- `.agents/skills/apple-design/references/hig/loading.md`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

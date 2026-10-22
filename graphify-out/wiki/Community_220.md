@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Siri** (7 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Getting your app to work with Siri** (2 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **siri.md** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Customizing your app’s experience with Siri** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Editorial guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
-- **Sharing contextual information** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **vertical-edge.test.mjs** (8 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **bin** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **edgePath()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **REPRO** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **segments()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/siri.md`
+- `.agents/skills/archify/test/vertical-edge.test.mjs`
 
 ## Audit Trail
 

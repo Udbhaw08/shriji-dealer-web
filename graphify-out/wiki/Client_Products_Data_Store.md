@@ -1,54 +1,52 @@
 # Client Products Data Store
 
-> 50 nodes · cohesion 0.08
+> 43 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **Z()** (24 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **get()** (23 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **Au()** (17 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **Ia()** (13 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **hu()** (11 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **vu()** (11 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **xl()** (11 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **yi()** (11 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **ja()** (10 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **ql()** (10 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **Cu()** (9 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **pu()** (9 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **l()** (8 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **jl()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **ju()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **mu()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **Zl()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **Lu()** (6 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **Nd()** (6 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **nm()** (6 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **Nt()** (6 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **zu()** (6 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **gm()** (5 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **Iu()** (5 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- **kl()** (5 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
-- *... and 25 more nodes in this community*
+- **properties** (28 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **label** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelSegment** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **brand** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **channelX** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **channelY** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **classification** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **from** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **fromSide** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelAt** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelDx** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelDy** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **route** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **sublabel** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **tag** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **to** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **toSide** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **variant** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **yOffset** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (64 shared connections)
-- [[Product Pages Specification]] (22 shared connections)
-- [[Community 38]] (12 shared connections)
-- [[Community 45]] (10 shared connections)
-- [[Community 33]] (9 shared connections)
-- [[Community 32]] (8 shared connections)
-- [[Community 40]] (4 shared connections)
-- [[Community 37]] (3 shared connections)
+- [[Community 172]] (3 shared connections)
+- [[Community 418]] (1 shared connections)
+- [[Community 419]] (1 shared connections)
+- [[Community 420]] (1 shared connections)
+- [[Community 382]] (1 shared connections)
+- [[Community 383]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 330 (100%)
+- EXTRACTED: 92 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

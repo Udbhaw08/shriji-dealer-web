@@ -1,20 +1,19 @@
 # Community 170
 
-> 11 nodes · cohesion 0.18
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **Website & App Redesign Instructions** (7 connections) — `instructions.md`
-- **2. Tri-Skill Synthesis Engine** (4 connections) — `instructions.md`
-- **instructions.md** (1 connections) — `instructions.md`
-- **1. Core Purpose & Architectural Goals** (1 connections) — `instructions.md`
-- **3. Adaptive Platform UX Strategies** (1 connections) — `instructions.md`
-- **4. Mobile Responsiveness & Layout Hard Rules** (1 connections) — `instructions.md`
-- **5. Domain Rules for Shriji Dealer Web** (1 connections) — `instructions.md`
-- **6. Execution Flow for Redesign Tasks** (1 connections) — `instructions.md`
-- **Skill 1: `refero-design` (Website & Aesthetic Authority)** (1 connections) — `instructions.md`
-- **Skill 2: `apple-design` (HIG Standards & Design Audit Authority)** (1 connections) — `instructions.md`
-- **Skill 3: `swiftui-pro` (Mobile App Ergonomics & View Performance Authority)** (1 connections) — `instructions.md`
+- **Viewer Runtime reference** (6 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Canonical exports** (4 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **viewer-runtime.md** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Exploration** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Guided views and story** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Motion and presentation** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Reach Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Route Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Truth boundary** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
 
 ## Relationships
 
@@ -22,11 +21,11 @@
 
 ## Source Files
 
-- `instructions.md`
+- `.agents/skills/archify/references/viewer-runtime.md`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

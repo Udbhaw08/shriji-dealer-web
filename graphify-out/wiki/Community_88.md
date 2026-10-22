@@ -1,11 +1,10 @@
 # Community 88
 
-> 20 nodes · cohesion 0.10
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
 - **properties** (13 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **title** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 - **animation** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 - **engineering_profile** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 - **locale** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
@@ -20,17 +19,16 @@
 - **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 - **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 - **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minLength** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 - **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 - **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- [[Community 171]] (1 shared connections)
-- [[Community 120]] (1 shared connections)
-- [[Community 345]] (1 shared connections)
-- [[Community 77]] (1 shared connections)
+- [[Community 153]] (1 shared connections)
+- [[Community 101]] (1 shared connections)
+- [[Community 415]] (1 shared connections)
+- [[Community 325]] (1 shared connections)
+- [[Community 67]] (1 shared connections)
 
 ## Source Files
 
@@ -38,7 +36,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 37 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

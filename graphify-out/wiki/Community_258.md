@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Tab bars** (5 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
-- **tab-bars.md** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
-- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
-- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
+- **share-card-export.test.mjs** (7 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **svgBlock()** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/tab-bars.md`
+- `.agents/skills/archify/test/share-card-export.test.mjs`
 
 ## Audit Trail
 

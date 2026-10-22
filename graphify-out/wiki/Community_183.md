@@ -4,29 +4,30 @@
 
 ## Key Concepts
 
-- **Layout** (7 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **Adaptability** (2 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **layout.md** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **Guides and safe areas** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **Size classes** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **Visual hierarchy** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **v1-compatibility.test.mjs** (9 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **validate()** (3 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **check()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **legacyDataflowDocument()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **narrowExplicitViewBoxDocuments()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **OFFICIAL_V1_EXAMPLES** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 74]] (1 shared connections)
+- [[Roles & Customer Sharing Spec]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/layout.md`
+- `.agents/skills/archify/test/v1-compatibility.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 18 (90%)
+- INFERRED: 2 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

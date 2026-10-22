@@ -1,17 +1,16 @@
 # Community 284
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **story-shelf.test.mjs** (7 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **Writing** (6 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **writing.md** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **Getting started** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
 
 ## Relationships
 
@@ -19,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/story-shelf.test.mjs`
+- `.agents/skills/apple-design/references/hig/writing.md`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
