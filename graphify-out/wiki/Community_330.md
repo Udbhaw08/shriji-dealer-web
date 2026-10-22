@@ -1,15 +1,16 @@
 # Community 330
 
-> 6 nodes · cohesion 0.47
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **clean-skill-staging.test.mjs** (5 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
-- **repositoryFixture()** (3 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
-- **git()** (2 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
-- **write()** (2 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
-- **canonicalNotices** (1 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
-- **stagerPath** (1 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
+- **story-horizon.test.mjs** (6 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
 
 ## Relationships
 
@@ -17,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/clean-skill-staging.test.mjs`
+- `.agents/skills/archify/test/story-horizon.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,16 +1,17 @@
 # Community 266
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Entering data** (5 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **entering-data.md** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **Code audit** (5 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **Apple Pay and payment marks** (3 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **code-audit.md** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **How to run it** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **iPhone Duo readiness in code** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **Liquid Glass in code** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **What replaces it** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **What to search for** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
 
 ## Relationships
 
@@ -18,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/entering-data.md`
+- `.agents/skills/apple-design/references/code-audit.md`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

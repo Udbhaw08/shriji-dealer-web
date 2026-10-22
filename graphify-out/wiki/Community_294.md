@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **presentation.test.mjs** (6 connections) — `.agents/skills/archify/test/presentation.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
-- **svg()** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
+- **Images** (6 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **images.md** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Formats** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Resolution** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/presentation.test.mjs`
+- `.agents/skills/apple-design/references/hig/images.md`
 
 ## Audit Trail
 

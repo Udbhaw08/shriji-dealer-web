@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **story-follow-camera.test.mjs** (7 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
+- **Pickers** (5 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **pickers.md** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/story-follow-camera.test.mjs`
+- `.agents/skills/apple-design/references/hig/pickers.md`
 
 ## Audit Trail
 

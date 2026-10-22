@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **route-share-card.test.mjs** (7 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
+- **Image views** (6 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **image-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/route-share-card.test.mjs`
+- `.agents/skills/apple-design/references/hig/image-views.md`
 
 ## Audit Trail
 

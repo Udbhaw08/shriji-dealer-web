@@ -1,10 +1,11 @@
 # Community 454
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **cordova.js** (0 connections) — `ios/App/App/public/cordova.js`
+- **esm-CUvh_PxA.js** (1 connections) — `ios/App/App/public/assets/esm-CUvh_PxA.js`
+- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-CUvh_PxA.js`
 
 ## Relationships
 
@@ -12,11 +13,11 @@
 
 ## Source Files
 
-- `ios/App/App/public/cordova.js`
+- `ios/App/App/public/assets/esm-CUvh_PxA.js`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

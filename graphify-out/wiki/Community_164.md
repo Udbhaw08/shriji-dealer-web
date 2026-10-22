@@ -1,31 +1,41 @@
 # Community 164
 
-> 10 nodes · cohesion 0.20
+> 11 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Settings** (8 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **settings.md** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **General settings** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **System settings** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Task-specific options** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **r()** (11 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **al()** (9 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **Sp()** (9 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **Ro()** (6 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **Du()** (5 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **tl()** (5 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **ua()** (5 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **nl()** (4 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **il()** (3 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **rl()** (2 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **tc()** (2 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (12 shared connections)
+- [[Master Codebase Architecture Reference]] (9 shared connections)
+- [[Graphify Workflow]] (4 shared connections)
+- [[Community 32]] (4 shared connections)
+- [[Community 39]] (2 shared connections)
+- [[Community 43]] (2 shared connections)
+- [[Community 78]] (1 shared connections)
+- [[Community 87]] (1 shared connections)
+- [[Community 33]] (1 shared connections)
+- [[Community 119]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/settings.md`
+- `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 61 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

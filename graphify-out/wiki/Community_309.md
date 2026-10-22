@@ -1,15 +1,16 @@
 # Community 309
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Activity views** (5 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
-- **activity-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
-- **Share and action extensions** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **Visual Workflow** (6 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **visual-workflow.md** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Generated Assets** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Image Generation Capability** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Three Visual Directions** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Visual QA** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Visual Target Gate** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
 
 ## Relationships
 
@@ -17,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/activity-views.md`
+- `.agents/skills/refero-design/references/visual-workflow.md`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

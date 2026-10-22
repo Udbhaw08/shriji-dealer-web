@@ -1,10 +1,11 @@
 # Community 449
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **capacitor.build.gradle** (0 connections) — `android/app/capacitor.build.gradle`
+- **esm-CUvh_PxA.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-CUvh_PxA.js`
+- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-CUvh_PxA.js`
 
 ## Relationships
 
@@ -12,11 +13,11 @@
 
 ## Source Files
 
-- `android/app/capacitor.build.gradle`
+- `android/app/src/main/assets/public/assets/esm-CUvh_PxA.js`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

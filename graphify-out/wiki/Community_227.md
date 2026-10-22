@@ -1,17 +1,18 @@
 # Community 227
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Motion** (7 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **motion.md** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **Leveraging platform capabilities** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **Providing feedback** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **web-Msm2Kdzq.js** (8 connections) — `ios/App/App/public/assets/web-Msm2Kdzq.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-Msm2Kdzq.js`
+- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-Msm2Kdzq.js`
+- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-Msm2Kdzq.js`
+- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-Msm2Kdzq.js`
+- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-Msm2Kdzq.js`
+- **getState()** (1 connections) — `ios/App/App/public/assets/web-Msm2Kdzq.js`
+- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-Msm2Kdzq.js`
+- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-Msm2Kdzq.js`
 
 ## Relationships
 
@@ -19,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/motion.md`
+- `ios/App/App/public/assets/web-Msm2Kdzq.js`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

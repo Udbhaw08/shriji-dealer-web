@@ -1,16 +1,17 @@
 # Community 264
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **MockStorage** (6 connections) — `src/data/auth-session.test.mjs`
-- **auth-session.test.mjs** (1 connections) — `src/data/auth-session.test.mjs`
-- **.clear()** (1 connections) — `src/data/auth-session.test.mjs`
-- **.constructor()** (1 connections) — `src/data/auth-session.test.mjs`
-- **.getItem()** (1 connections) — `src/data/auth-session.test.mjs`
-- **.removeItem()** (1 connections) — `src/data/auth-session.test.mjs`
-- **.setItem()** (1 connections) — `src/data/auth-session.test.mjs`
+- **Tab views** (6 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **tab-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
 
 ## Relationships
 
@@ -18,11 +19,11 @@
 
 ## Source Files
 
-- `src/data/auth-session.test.mjs`
+- `.agents/skills/apple-design/references/hig/tab-views.md`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

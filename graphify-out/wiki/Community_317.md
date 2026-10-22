@@ -1,15 +1,16 @@
 # Community 317
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Rating indicators** (5 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
-- **rating-indicators.md** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
+- **finder.test.mjs** (6 connections) — `.agents/skills/archify/test/finder.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
+- **svg()** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
 
 ## Relationships
 
@@ -17,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/rating-indicators.md`
+- `.agents/skills/archify/test/finder.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

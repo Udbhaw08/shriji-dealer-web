@@ -1,17 +1,18 @@
 # Community 236
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Tab views** (6 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
-- **tab-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **architecture-compare-recovery.test.mjs** (8 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **base** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **fixture()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **hash()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **head** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **inject()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
 
 ## Relationships
 
@@ -19,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/tab-views.md`
+- `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

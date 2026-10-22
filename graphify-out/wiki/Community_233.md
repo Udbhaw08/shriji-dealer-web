@@ -1,29 +1,32 @@
 # Community 233
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Sidebars** (5 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
-- **sidebars.md** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
+- **renderPage()** (7 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderLookup()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **collapseBlankLines()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **coveredPlatformsLine()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **prettyPlatforms()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **groupBySection()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **lastChangeLine()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **omissionReason()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderBody()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 75]] (9 shared connections)
+- [[Community 350]] (2 shared connections)
+- [[Community 201]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/sidebars.md`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,33 +1,30 @@
 # Community 215
 
-> 9 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **repository-evidence.test.mjs** (13 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **fixture()** (2 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **git()** (2 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **evidencePayload()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **waitForState()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **Edit menus** (6 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
+- **edit-menus.md** (1 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
 
 ## Relationships
 
-- [[Community 45]] (2 shared connections)
-- [[Community 30]] (1 shared connections)
-- [[Community 65]] (1 shared connections)
-- [[Community 103]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/repository-evidence.test.mjs`
+- `.agents/skills/apple-design/references/hig/edit-menus.md`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

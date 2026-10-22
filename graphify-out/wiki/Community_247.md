@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **reach-share-card.test.mjs** (7 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
+- **Controls** (7 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Camera experiences on a locked device** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/reach-share-card.test.mjs`
+- `.agents/skills/apple-design/references/hig/controls.md`
 
 ## Audit Trail
 

@@ -1,17 +1,18 @@
 # Community 238
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Code audit** (5 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **Apple Pay and payment marks** (3 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **code-audit.md** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **How to run it** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **iPhone Duo readiness in code** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **Liquid Glass in code** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **What replaces it** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **What to search for** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **chapter-delta-preview.test.mjs** (8 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **delta()** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **PROOF_CASES** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
 
 ## Relationships
 
@@ -19,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/code-audit.md`
+- `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

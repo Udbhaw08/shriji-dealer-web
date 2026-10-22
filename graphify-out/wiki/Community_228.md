@@ -1,17 +1,18 @@
 # Community 228
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Offering help** (6 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
-- **offering-help.md** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
-- **Creating tips** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
-- **Desktop (macOS, visionOS)** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Delivery contract** (8 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **delivery-contract.md** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Automated browser evidence** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Handoff receipt** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Last-Good Live Preview** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Optional opening** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Perceptual delivery gate** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Recovering a failed comparison** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Validate and deliver** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
 
 ## Relationships
 
@@ -19,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/offering-help.md`
+- `.agents/skills/archify/references/delivery-contract.md`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

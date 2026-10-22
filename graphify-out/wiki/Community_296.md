@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **relationship-pulse.test.mjs** (6 connections) — `.agents/skills/archify/test/relationship-pulse.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/relationship-pulse.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/relationship-pulse.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/relationship-pulse.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/relationship-pulse.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/relationship-pulse.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/relationship-pulse.test.mjs`
+- **Live-viewing apps** (6 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- **live-viewing-apps.md** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- **Cloud DVR** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- **EPG experience** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/relationship-pulse.test.mjs`
+- `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
 
 ## Audit Trail
 

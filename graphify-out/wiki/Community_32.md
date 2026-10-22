@@ -1,51 +1,57 @@
 # Community 32
 
-> 30 nodes · cohesion 0.09
+> 36 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **check-update.mjs** (99 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **encodeRecoverableState()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **guardedCacheEntryRead()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **notification()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationIsActive()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stateAfterFailedCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stateWithFailureCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertSafeCacheEntry()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cancelResponseBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **corruptClaimStatus()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **encodeBoundedState()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **eventKeyForDigest()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **metadataIsWithinLease()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **nextFailedCheck()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **readBoundedBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stateAfterAcknowledgement()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertRenameableCacheEntry()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertSafeRegularFile()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **CacheOperationRaceError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **CachePathChangedError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **defaultCacheDirectory()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **defaultReleasePath** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **FileIdentityChangedError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **isMainModule()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **MAX_CACHE_HORIZON_MS** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- *... and 5 more nodes in this community*
+- **l()** (31 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **qd()** (14 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **yl()** (14 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **xe()** (13 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **Yd()** (13 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **Fd()** (12 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **Vd()** (12 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **vl()** (11 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **De()** (9 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **ke()** (9 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **lt()** (8 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **ga()** (7 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **wi()** (7 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **Bd()** (6 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **ef()** (6 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **Do()** (5 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **ea()** (5 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **Hd()** (5 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **Lo()** (5 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **ns()** (5 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **pl()** (5 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **fl()** (4 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **tf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **Fi()** (3 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- **Gd()** (3 connections) — `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [[Community 77]] (21 shared connections)
-- [[Community 89]] (19 shared connections)
-- [[Community 83]] (19 shared connections)
-- [[Community 44]] (16 shared connections)
-- [[Claude Agent Instructions]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (38 shared connections)
+- [[Master Codebase Architecture Reference]] (16 shared connections)
+- [[Community 33]] (14 shared connections)
+- [[Community 43]] (7 shared connections)
+- [[Live Pricing Audit Tool]] (5 shared connections)
+- [[Community 119]] (5 shared connections)
+- [[Community 164]] (4 shared connections)
+- [[Graphify Workflow]] (4 shared connections)
+- [[Community 78]] (4 shared connections)
+- [[Community 39]] (3 shared connections)
+- [[Community 87]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-update.mjs`
+- `android/app/src/main/assets/public/assets/index-CFF7Tu1W.js`
 
 ## Audit Trail
 
-- EXTRACTED: 152 (100%)
+- EXTRACTED: 242 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

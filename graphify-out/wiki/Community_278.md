@@ -1,16 +1,17 @@
 # Community 278
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Snippets** (6 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
-- **snippets.md** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **repair-receipt.test.mjs** (7 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **receipt()** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **writeFixture()** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
 
 ## Relationships
 
@@ -18,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/snippets.md`
+- `.agents/skills/archify/test/repair-receipt.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

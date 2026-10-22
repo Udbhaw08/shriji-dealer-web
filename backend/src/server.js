@@ -10,6 +10,7 @@ import { webhooksRouter } from './routes/webhooks.js';
 import { healthRouter } from './routes/health.js';
 import { contentRouter } from './routes/content.js';
 import { uploadRouter } from './routes/upload.js';
+import { uploadsRouter } from './routes/uploads.js';
 import { startJobs } from './jobs/index.js';
 import { migrate } from './db/migrate.js';
 
@@ -97,6 +98,8 @@ app.use('/api/dealers', rateLimit({ windowMs: 60_000, max: 60 }), dealersRouter)
 app.use('/api/prices', pricesRouter);
 app.use('/api/content', contentRouter);
 app.use('/api/upload', uploadRouter);
+app.use('/api/uploads', uploadsRouter);
+app.use('/uploads', uploadsRouter);
 
 app.use((_req, res) => res.status(404).json({ error: 'not_found' }));
 app.use(errorHandler);

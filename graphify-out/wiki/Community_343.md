@@ -1,14 +1,15 @@
 # Community 343
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **iCloud** (4 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
-- **icloud.md** (1 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
+- **Steppers** (4 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
+- **steppers.md** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
 
 ## Relationships
 
@@ -16,11 +17,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/icloud.md`
+- `.agents/skills/apple-design/references/hig/steppers.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

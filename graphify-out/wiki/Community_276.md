@@ -1,16 +1,17 @@
 # Community 276
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Pull-down buttons** (5 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
-- **pull-down-buttons.md** (1 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
+- **relationship-direct-explorer.test.mjs** (7 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
 
 ## Relationships
 
@@ -18,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
+- `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,25 +1,31 @@
 # Community 374
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **3. Font Pairing** (4 connections) — `.agents/skills/refero-design/references/typography.md`
-- **If You Must Pair** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Safe Font Choices by Product Type** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **The One-Font Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **auth.js** (8 connections) — `backend/src/middleware/auth.js`
+- **prices.js** (6 connections) — `backend/src/routes/prices.js`
+- **jwtAuth()** (5 connections) — `backend/src/middleware/auth.js`
+- **pricesRouter** (2 connections) — `backend/src/routes/prices.js`
+- **requireRole()** (1 connections) — `backend/src/middleware/auth.js`
 
 ## Relationships
 
-- [[Community 200]] (1 shared connections)
+- [[Community 29]] (5 shared connections)
+- [[Community 57]] (2 shared connections)
+- [[Community 85]] (2 shared connections)
+- [[Community 45]] (2 shared connections)
+- [[Community 72]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `backend/src/middleware/auth.js`
+- `backend/src/routes/prices.js`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

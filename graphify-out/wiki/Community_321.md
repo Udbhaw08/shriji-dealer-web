@@ -1,27 +1,28 @@
 # Community 321
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **Design** (5 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **design.md** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **Creating a uniform design in this app** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **Ensuring designs work for everyone** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **Requirements for flexible, accessible design** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **Standard system styling** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
+- **preview.test.mjs** (8 connections) — `.agents/skills/archify/test/preview.test.mjs`
+- **stateAt()** (2 connections) — `.agents/skills/archify/test/preview.test.mjs`
+- **waitForState()** (2 connections) — `.agents/skills/archify/test/preview.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
+- **rawRequest()** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 63]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/design.md`
+- `.agents/skills/archify/test/preview.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

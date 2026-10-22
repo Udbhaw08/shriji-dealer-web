@@ -1,8 +1,8 @@
 # sql
 
-> God node · 59 connections · `backend/src/db/pool.js`
+> God node · 65 connections · `backend/src/db/pool.js`
 
-**Community:** [[Project Readme & Layout]]
+**Community:** [[Community 29]]
 
 ## Connections by Relation
 
@@ -33,8 +33,8 @@
 
 ### imports
 - [[auth.js]] `EXTRACTED`
-- [[dealers.js]] `EXTRACTED`
 - [[server.js]] `EXTRACTED`
+- [[dealers.js]] `EXTRACTED`
 - [[dealerApp.js]] `EXTRACTED`
 - [[staff.js]] `EXTRACTED`
 - [[content.js]] `EXTRACTED`
@@ -48,10 +48,10 @@
 - [[health.js]] `EXTRACTED`
 - [[audit.js]] `EXTRACTED`
 - [[migrate.js]] `EXTRACTED`
-- [[seed-content.js]] `EXTRACTED`
-- [[inspect-db.js]] `EXTRACTED`
-- [[migrate-content.js]] `EXTRACTED`
-- [[setup-buckets.js]] `EXTRACTED`
+- [[upload.js]] `EXTRACTED`
+- [[uploads.js]] `EXTRACTED`
+- [[upload.js]] `EXTRACTED`
+- [[uploads.js]] `EXTRACTED`
 
 ---
 
