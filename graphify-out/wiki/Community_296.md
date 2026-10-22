@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Focus and selection** (5 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **focus-and-selection.md** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
+- **Images** (6 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **images.md** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Formats** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Resolution** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/focus-and-selection.md`
+- `.agents/skills/apple-design/references/hig/images.md`
 
 ## Audit Trail
 

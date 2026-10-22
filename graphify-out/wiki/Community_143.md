@@ -21,8 +21,8 @@
 ## Relationships
 
 - [[Community 41]] (27 shared connections)
-- [[Mobile Responsive UI Skill]] (3 shared connections)
-- [[Community 292]] (3 shared connections)
+- [[Claude Agent Instructions]] (3 shared connections)
+- [[Community 291]] (3 shared connections)
 - [[Community 43]] (2 shared connections)
 
 ## Source Files

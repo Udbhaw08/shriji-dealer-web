@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **col** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **labelSegment** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 - **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 - **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (1 shared connections)
+- [[Mobile Responsive UI Skill]] (1 shared connections)
 
 ## Source Files
 

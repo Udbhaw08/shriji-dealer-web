@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **.mcp.json** (1 connections) — `.mcp.json`
-- **supabase** (1 connections) — `.mcp.json`
+- **hygiene.md** (1 connections) — `.agents/skills/swiftui-pro/references/hygiene.md`
+- **Hygiene** (1 connections) — `.agents/skills/swiftui-pro/references/hygiene.md`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.mcp.json`
+- `.agents/skills/swiftui-pro/references/hygiene.md`
 
 ## Audit Trail
 

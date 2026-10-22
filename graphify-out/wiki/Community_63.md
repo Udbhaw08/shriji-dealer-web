@@ -1,47 +1,52 @@
 # Community 63
 
-> 25 nodes · cohesion 0.09
+> 24 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **$ref** (6 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **semanticChecks** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **properties** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **mainPath** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **allowedRoots** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **allowedTerminals** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **requiredEdges** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **requiredPaths** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **via** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **intent-trace-browser.test.mjs** (15 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **semantic-lens-browser.test.mjs** (14 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **desktop-browser.mjs** (8 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **desktopBrowser()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **desktopPointerCheck()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **afterTimer()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **hash()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
 
 ## Relationships
 
-- [[Community 114]] (2 shared connections)
-- [[Zoho Integration Skill]] (1 shared connections)
+- [[Community 52]] (11 shared connections)
+- [[Community 43]] (3 shared connections)
+- [[Community 148]] (3 shared connections)
+- [[Community 149]] (3 shared connections)
+- [[Community 131]] (2 shared connections)
+- [[Community 84]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 57 (100%)
+- EXTRACTED: 103 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

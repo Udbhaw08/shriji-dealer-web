@@ -1,52 +1,57 @@
 # Pricing & Roles Skill
 
-> 43 nodes · cohesion 0.05
+> 44 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **properties** (28 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **label** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **labelSegment** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **brand** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **channelX** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **channelY** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **classification** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **from** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **fromSide** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **id** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **labelAt** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **labelDx** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **labelDy** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **route** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **sublabel** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **tag** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **to** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **toSide** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **variant** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **yOffset** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- *... and 18 more nodes in this community*
+- **get()** (23 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **Z()** (23 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **ku()** (17 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **xl()** (14 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **bm()** (13 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **mu()** (13 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **Iu()** (10 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **vi()** (10 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **pu()** (9 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **Sp()** (9 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **bc()** (8 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **Bu()** (8 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **fu()** (8 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **gi()** (8 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **jl()** (8 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **Su()** (8 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **bl()** (7 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **sf()** (7 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **wl()** (7 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **Au()** (6 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **dn()** (6 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **gu()** (6 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **Kr()** (6 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **Nd()** (6 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **nm()** (6 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [[Community 181]] (3 shared connections)
-- [[Community 437]] (1 shared connections)
-- [[Community 438]] (1 shared connections)
-- [[Community 439]] (1 shared connections)
-- [[Community 406]] (1 shared connections)
-- [[Community 407]] (1 shared connections)
+- [[Price Presentation & Product UI]] (49 shared connections)
+- [[Pricing Regression Test Suite]] (14 shared connections)
+- [[Community 53]] (11 shared connections)
+- [[Client Products Data Store]] (11 shared connections)
+- [[Community 38]] (8 shared connections)
+- [[Community 34]] (7 shared connections)
+- [[Community 65]] (6 shared connections)
+- [[Community 87]] (6 shared connections)
+- [[Community 112]] (5 shared connections)
+- [[Community 45]] (3 shared connections)
+- [[Community 60]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `ios/App/App/public/assets/index-CBwWGiKG.js`
 
 ## Audit Trail
 
-- EXTRACTED: 92 (100%)
+- EXTRACTED: 322 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

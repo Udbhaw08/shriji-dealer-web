@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **MockStorage** (6 connections) — `src/data/auth-session.test.mjs`
-- **auth-session.test.mjs** (1 connections) — `src/data/auth-session.test.mjs`
-- **.clear()** (1 connections) — `src/data/auth-session.test.mjs`
-- **.constructor()** (1 connections) — `src/data/auth-session.test.mjs`
-- **.getItem()** (1 connections) — `src/data/auth-session.test.mjs`
-- **.removeItem()** (1 connections) — `src/data/auth-session.test.mjs`
-- **.setItem()** (1 connections) — `src/data/auth-session.test.mjs`
+- **Charting data** (6 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
+- **charting-data.md** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
+- **Designing effective charts** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `src/data/auth-session.test.mjs`
+- `.agents/skills/apple-design/references/hig/charting-data.md`
 
 ## Audit Trail
 

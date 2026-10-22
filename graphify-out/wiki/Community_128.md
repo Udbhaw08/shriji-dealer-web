@@ -1,40 +1,40 @@
 # Community 128
 
-> 15 nodes · cohesion 0.15
+> 15 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **i18n.test.mjs** (20 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **catalogKeys()** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **SUPPORTED_LOCALES** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **authoredExample()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **evaluate()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **example()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **loadArtifact()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **AUTHORED_TEXT_KEYS** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **templatePath** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **crmClient.js** (32 connections) — `backend/src/services/crmClient.js`
+- **crmFetch()** (12 connections) — `backend/src/services/crmClient.js`
+- **crmConfigured()** (6 connections) — `backend/src/services/crmClient.js`
+- **createDealerContact()** (5 connections) — `backend/src/services/crmClient.js`
+- **updateDealerCodeInCrm()** (5 connections) — `backend/src/services/crmClient.js`
+- **resolveContactNames()** (4 connections) — `backend/src/services/crmClient.js`
+- **deactivateAccountInCrm()** (3 connections) — `backend/src/services/crmClient.js`
+- **deactivateContactInCrm()** (3 connections) — `backend/src/services/crmClient.js`
+- **getDealerAccount()** (3 connections) — `backend/src/services/crmClient.js`
+- **isCrmConfigured()** (3 connections) — `backend/src/services/crmClient.js`
+- **getAccessToken()** (2 connections) — `backend/src/services/crmClient.js`
+- **getDealerContact()** (2 connections) — `backend/src/services/crmClient.js`
+- **getPrimaryContactForAccount()** (2 connections) — `backend/src/services/crmClient.js`
+- **linkContactToBackendUser()** (2 connections) — `backend/src/services/crmClient.js`
+- **FIELDS** (1 connections) — `backend/src/services/crmClient.js`
 
 ## Relationships
 
-- [[Community 109]] (5 shared connections)
-- [[Community 43]] (1 shared connections)
-- [[Community 88]] (1 shared connections)
-- [[Community 130]] (1 shared connections)
+- [[Community 54]] (16 shared connections)
+- [[Community 33]] (4 shared connections)
+- [[Community 88]] (3 shared connections)
+- [[Community 50]] (2 shared connections)
+- [[Community 73]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/i18n.mjs`
-- `.agents/skills/archify/test/i18n.test.mjs`
+- `backend/src/services/crmClient.js`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
+- EXTRACTED: 85 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

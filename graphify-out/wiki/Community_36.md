@@ -34,12 +34,12 @@
 ## Relationships
 
 - [[Product Requirements Documentation]] (55 shared connections)
-- [[Community 52]] (14 shared connections)
+- [[Community 49]] (14 shared connections)
 - [[Dependencies & Package Config]] (13 shared connections)
 - [[Community 168]] (5 shared connections)
 - [[Community 167]] (5 shared connections)
-- [[Community 110]] (4 shared connections)
-- [[Community 111]] (3 shared connections)
+- [[Community 109]] (4 shared connections)
+- [[Community 110]] (3 shared connections)
 
 ## Source Files
 

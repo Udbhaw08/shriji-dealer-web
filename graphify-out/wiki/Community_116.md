@@ -1,46 +1,41 @@
 # Community 116
 
-> 16 nodes · cohesion 0.23
+> 16 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **Mr()** (15 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **r()** (15 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **Pr()** (14 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **Dr()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **Hr()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **tn()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **Wr()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **Fr()** (4 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **Ir()** (4 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **Rr()** (4 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **Ur()** (4 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **Cr()** (3 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **Lr()** (3 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **Nr()** (3 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **zr()** (3 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **tc()** (2 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **compareArchitecture()** (12 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **fail()** (8 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **canonicalArchitecture()** (5 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryIndex()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **canonicalArchitectureJson()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **equal()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **normalizeRepository()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **canonical()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **extractArchitectureSvg()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **extractArtifactCss()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **presentationChanged()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **requireComparableShape()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **stableIndex()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryKey()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **sortedBy()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **summaryFor()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (20 shared connections)
-- [[Roles & Customer Sharing Spec]] (5 shared connections)
-- [[Master Codebase Architecture Reference]] (5 shared connections)
-- [[Pricing Regression Test Suite]] (3 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (3 shared connections)
-- [[Graphify Workflow]] (2 shared connections)
-- [[Community 49]] (1 shared connections)
-- [[Community 55]] (1 shared connections)
-- [[Community 46]] (1 shared connections)
+- [[Community 59]] (18 shared connections)
+- [[Community 291]] (4 shared connections)
+- [[Community 144]] (2 shared connections)
+- [[Community 165]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CpwYb6dU.js`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 95 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 61 (94%)
+- INFERRED: 4 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

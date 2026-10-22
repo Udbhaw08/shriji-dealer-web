@@ -554,47 +554,75 @@ export default function Product() {
               {displayTitle}
             </h1>
 
-            {/* 2x2 Feature Tiles (Frame 2) */}
+            {/* 2x2 Feature Tiles: Dynamic from Zoho Commerce Tile Icons (1..8) with fallback */}
             <div className="detail-feature-tiles-grid">
-              <div className="detail-feature-tile-card">
-                <div className="detail-feature-tile-icon-wrap">
-                  <Icon name="layers" size={20} />
-                </div>
-                <span className="detail-feature-tile-sub">Body Quality</span>
-                <span className="detail-feature-tile-val">
-                  {p.finish || (p.fkey === "glass" ? "Matte Toughened Glass" : p.fkey === "steel" ? "Stainless Steel" : p.features?.find((f) => f.toLowerCase().includes("steel") || f.toLowerCase().includes("glass")) || "Stainless Steel")}
-                </span>
-              </div>
+              {Array.isArray(p.tileIcons) && p.tileIcons.length > 0 ? (
+                p.tileIcons.slice(0, 4).map((tile, idx) => (
+                  <div key={tile.index || idx} className="detail-feature-tile-card">
+                    <div className="detail-feature-tile-icon-wrap">
+                      {tile.image ? (
+                        <img
+                          src={tile.image}
+                          alt={tile.text || `Feature ${tile.index || idx + 1}`}
+                          style={{ width: 22, height: 22, objectFit: "contain", display: "block" }}
+                          onError={(e) => {
+                            e.currentTarget.style.display = "none";
+                          }}
+                        />
+                      ) : (
+                        <Icon
+                          name={idx === 0 ? "bolt" : idx === 1 ? "flame" : idx === 2 ? "layers" : "shield"}
+                          size={20}
+                        />
+                      )}
+                    </div>
+                    <span className="detail-feature-tile-sub">Feature {tile.index || idx + 1}</span>
+                    <span className="detail-feature-tile-val">{tile.text}</span>
+                  </div>
+                ))
+              ) : (
+                <>
+                  <div className="detail-feature-tile-card">
+                    <div className="detail-feature-tile-icon-wrap">
+                      <Icon name="layers" size={20} />
+                    </div>
+                    <span className="detail-feature-tile-sub">Body Quality</span>
+                    <span className="detail-feature-tile-val">
+                      {p.finish || (p.fkey === "glass" ? "Matte Toughened Glass" : p.fkey === "steel" ? "Stainless Steel" : p.features?.find((f) => f.toLowerCase().includes("steel") || f.toLowerCase().includes("glass")) || "Stainless Steel")}
+                    </span>
+                  </div>
 
-              <div className="detail-feature-tile-card">
-                <div className="detail-feature-tile-icon-wrap">
-                  <Icon name="shield" size={20} />
-                </div>
-                <span className="detail-feature-tile-sub">Coverage</span>
-                <span className="detail-feature-tile-val">
-                  {p.warranty || "Sunshine 2-Yr Warranty"}
-                </span>
-              </div>
+                  <div className="detail-feature-tile-card">
+                    <div className="detail-feature-tile-icon-wrap">
+                      <Icon name="shield" size={20} />
+                    </div>
+                    <span className="detail-feature-tile-sub">Coverage</span>
+                    <span className="detail-feature-tile-val">
+                      {p.warranty || "Sunshine 2-Yr Warranty"}
+                    </span>
+                  </div>
 
-              <div className="detail-feature-tile-card">
-                <div className="detail-feature-tile-icon-wrap">
-                  <Icon name="bolt" size={20} />
-                </div>
-                <span className="detail-feature-tile-sub">Ignition / Operation</span>
-                <span className="detail-feature-tile-val">
-                  {p.features?.find((f) => f.includes("Ignition") || f.includes("Auto") || f.includes("Cut-Off") || f.includes("BLDC")) || (p.cat === "small_appliances" ? "Auto Cut-Off" : "Auto Ignition")}
-                </span>
-              </div>
+                  <div className="detail-feature-tile-card">
+                    <div className="detail-feature-tile-icon-wrap">
+                      <Icon name="bolt" size={20} />
+                    </div>
+                    <span className="detail-feature-tile-sub">Ignition / Operation</span>
+                    <span className="detail-feature-tile-val">
+                      {p.features?.find((f) => f.includes("Ignition") || f.includes("Auto") || f.includes("Cut-Off") || f.includes("BLDC")) || (p.cat === "small_appliances" ? "Auto Cut-Off" : "Auto Ignition")}
+                    </span>
+                  </div>
 
-              <div className="detail-feature-tile-card">
-                <div className="detail-feature-tile-icon-wrap">
-                  <Icon name={p.cat === "chimneys" ? "chimney" : p.cat === "small_appliances" ? "blender" : "stove"} size={20} />
-                </div>
-                <span className="detail-feature-tile-sub">Configuration</span>
-                <span className="detail-feature-tile-val">
-                  {p.burners ? `${p.burners} Brass Burners` : p.features?.find((f) => f.includes("Base") || f.includes("Swivel") || f.includes("Speed")) || "360° Swivel Base"}
-                </span>
-              </div>
+                  <div className="detail-feature-tile-card">
+                    <div className="detail-feature-tile-icon-wrap">
+                      <Icon name={p.cat === "chimneys" ? "chimney" : p.cat === "small_appliances" ? "blender" : "stove"} size={20} />
+                    </div>
+                    <span className="detail-feature-tile-sub">Configuration</span>
+                    <span className="detail-feature-tile-val">
+                      {p.burners ? `${p.burners} Brass Burners` : p.features?.find((f) => f.includes("Base") || f.includes("Swivel") || f.includes("Speed")) || "360° Swivel Base"}
+                    </span>
+                  </div>
+                </>
+              )}
             </div>
 
             <PriceBlock

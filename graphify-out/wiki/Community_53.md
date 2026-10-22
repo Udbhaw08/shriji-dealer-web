@@ -1,63 +1,57 @@
 # Community 53
 
-> 28 nodes · cohesion 0.09
+> 27 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **server.js** (37 connections) — `backend/src/server.js`
-- **health.js** (8 connections) — `backend/src/routes/health.js`
-- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
-- **upload.js** (5 connections) — `backend/src/routes/upload.js`
-- **uploads.js** (5 connections) — `backend/src/routes/uploads.js`
-- **migrate()** (4 connections) — `backend/src/db/migrate.js`
-- **rateLimit.js** (4 connections) — `backend/src/middleware/rateLimit.js`
-- **applied()** (3 connections) — `backend/src/db/migrate.js`
-- **startJobs()** (3 connections) — `backend/src/jobs/index.js`
-- **rateLimit()** (3 connections) — `backend/src/middleware/rateLimit.js`
-- **start()** (3 connections) — `backend/src/server.js`
-- **authRouter** (2 connections) — `backend/src/routes/auth.js`
-- **contentRouter** (2 connections) — `backend/src/routes/content.js`
-- **dealersRouter** (2 connections) — `backend/src/routes/dealers.js`
-- **healthRouter** (2 connections) — `backend/src/routes/health.js`
-- **uploadRouter** (2 connections) — `backend/src/routes/upload.js`
-- **uploadsRouter** (2 connections) — `backend/src/routes/uploads.js`
-- **webhooksRouter** (2 connections) — `backend/src/routes/webhooks.js`
-- **dir** (1 connections) — `backend/src/db/migrate.js`
-- **buckets** (1 connections) — `backend/src/middleware/rateLimit.js`
-- **ALLOWED_FOLDERS** (1 connections) — `backend/src/routes/upload.js`
-- **MIME_TYPES** (1 connections) — `backend/src/routes/uploads.js`
-- **allowedOrigins** (1 connections) — `backend/src/server.js`
-- **app** (1 connections) — `backend/src/server.js`
-- **defaultOrigins** (1 connections) — `backend/src/server.js`
-- *... and 3 more nodes in this community*
+- **i()** (66 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **n()** (26 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **is()** (12 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **as()** (9 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **os()** (8 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **xo()** (7 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **ds()** (6 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **ps()** (6 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **qs()** (6 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **us()** (6 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **ys()** (6 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **bs()** (5 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **Qo()** (5 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **ss()** (5 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **fs()** (4 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **ms()** (4 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **rs()** (4 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **so()** (4 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **eo()** (3 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **Qe()** (3 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **to()** (3 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **tu()** (3 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **za()** (3 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **zs()** (3 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **ks()** (2 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [[Community 34]] (10 shared connections)
-- [[Community 74]] (7 shared connections)
-- [[Community 91]] (6 shared connections)
-- [[Community 56]] (6 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (2 shared connections)
-- [[Community 139]] (2 shared connections)
-- [[Community 127]] (2 shared connections)
+- [[Price Presentation & Product UI]] (35 shared connections)
+- [[Pricing Regression Test Suite]] (22 shared connections)
+- [[Pricing & Roles Skill]] (11 shared connections)
+- [[Community 38]] (10 shared connections)
+- [[Client Products Data Store]] (8 shared connections)
+- [[Community 34]] (7 shared connections)
+- [[Community 45]] (7 shared connections)
+- [[Community 60]] (7 shared connections)
+- [[Community 112]] (4 shared connections)
+- [[Community 87]] (3 shared connections)
+- [[Community 65]] (1 shared connections)
 
 ## Source Files
 
-- `backend/src/db/migrate.js`
-- `backend/src/jobs/index.js`
-- `backend/src/middleware/rateLimit.js`
-- `backend/src/routes/auth.js`
-- `backend/src/routes/content.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/routes/health.js`
-- `backend/src/routes/upload.js`
-- `backend/src/routes/uploads.js`
-- `backend/src/routes/webhooks.js`
-- `backend/src/server.js`
+- `ios/App/App/public/assets/index-CBwWGiKG.js`
 
 ## Audit Trail
 
-- EXTRACTED: 105 (100%)
+- EXTRACTED: 213 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

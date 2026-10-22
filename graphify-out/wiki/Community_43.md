@@ -33,18 +33,18 @@
 
 ## Relationships
 
-- [[Community 88]] (8 shared connections)
-- [[Community 130]] (6 shared connections)
-- [[Community 54]] (5 shared connections)
-- [[Client Products Data Store]] (4 shared connections)
-- [[Community 67]] (3 shared connections)
-- [[Zoho Integration Architecture]] (3 shared connections)
+- [[Community 84]] (8 shared connections)
+- [[Community 131]] (6 shared connections)
+- [[Community 52]] (5 shared connections)
+- [[Live Pricing Audit Tool]] (4 shared connections)
+- [[Community 63]] (3 shared connections)
+- [[Product Brand & Business Vision]] (3 shared connections)
 - [[Community 143]] (2 shared connections)
-- [[Community 96]] (2 shared connections)
-- [[Community 108]] (2 shared connections)
+- [[Community 94]] (2 shared connections)
+- [[Community 107]] (2 shared connections)
 - [[Community 148]] (1 shared connections)
 - [[Community 149]] (1 shared connections)
-- [[Community 128]] (1 shared connections)
+- [[Community 129]] (1 shared connections)
 
 ## Source Files
 

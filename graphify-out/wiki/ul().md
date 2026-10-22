@@ -1,8 +1,8 @@
 # ul()
 
-> God node · 37 connections · `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+> God node · 37 connections · `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
 
-**Community:** [[Community 40]]
+**Community:** [[Master Codebase Architecture Reference]]
 
 ## Connections by Relation
 

@@ -4,24 +4,24 @@
 
 ## Key Concepts
 
-- **Design** (5 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **design.md** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **Creating a uniform design in this app** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **Ensuring designs work for everyone** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **Requirements for flexible, accessible design** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **Standard system styling** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
+- **size** (6 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Mobile Responsive UI Skill]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/design.md`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

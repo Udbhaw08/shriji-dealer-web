@@ -1,47 +1,52 @@
 # Community 72
 
-> 24 nodes · cohesion 0.08
+> 23 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **properties** (12 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **viewBox** (6 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **column_fit** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **animation** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **locale** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **output** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **subtitle** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **views** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **description** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **items** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **l()** (31 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **be()** (13 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **yl()** (13 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **Oe()** (11 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **vl()** (10 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **ga()** (6 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **la()** (6 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **Lo()** (6 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **Do()** (5 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **ea()** (5 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **ie()** (5 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **pl()** (5 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **ae()** (4 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **fl()** (4 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **ge()** (4 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **ke()** (4 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **ve()** (4 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **se()** (3 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **Ud()** (3 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **Ym()** (3 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **gl()** (2 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **hl()** (2 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **Wf()** (2 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
 
 ## Relationships
 
-- [[Community 200]] (1 shared connections)
-- [[Community 444]] (1 shared connections)
-- [[Community 410]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (26 shared connections)
+- [[Zoho Integration Architecture]] (13 shared connections)
+- [[Master Codebase Architecture Reference]] (7 shared connections)
+- [[Graphify Knowledge Graph Skill]] (6 shared connections)
+- [[Community 46]] (6 shared connections)
+- [[Graphify Agent Rules]] (5 shared connections)
+- [[Zoho API Diagnostic Script]] (4 shared connections)
+- [[Community 51]] (3 shared connections)
+- [[Community 44]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/sequence.schema.json`
+- `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (100%)
+- EXTRACTED: 151 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

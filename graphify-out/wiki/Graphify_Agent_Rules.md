@@ -1,55 +1,57 @@
 # Graphify Agent Rules
 
-> 39 nodes · cohesion 0.07
+> 39 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **offline-font-browser.test.mjs** (13 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
-- **cli.test.mjs** (11 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **offline-self-containment.test.mjs** (9 connections) — `.agents/skills/archify/test/offline-self-containment.test.mjs`
-- **generated-artifact-xml.test.mjs** (8 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
-- **offline-fonts.mjs** (7 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **inspectDocuments()** (5 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **xml.mjs** (5 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
-- **assertFontCss()** (4 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **assertOfflineArtifact()** (4 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **extractSvgs()** (4 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
-- **parseXml()** (3 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
-- **visit()** (3 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
-- **evaluate()** (2 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
-- **exported()** (2 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
-- **EXPECTED_FACES** (1 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **FONT_LICENSE** (1 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **copyInstalledSkill()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **makeFakeOpeners()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **artifactRoots** (1 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
+- **.addEventListener()** (19 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **b()** (18 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **h()** (14 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **fp()** (13 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **.removeEventListener()** (12 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **delete()** (11 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **cm()** (7 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **E()** (7 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **lp()** (7 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **tm()** (7 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **em()** (6 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **.blur()** (6 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **.scrollIntoView()** (6 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **ol()** (6 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **v()** (6 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **g()** (5 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **hm()** (5 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **pm()** (5 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **Rp()** (5 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **uh()** (5 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **x()** (5 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **Bp()** (4 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **dl()** (4 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **.getClientRects()** (4 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **kl()** (4 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
 - *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [[Community 43]] (1 shared connections)
-- [[Community 88]] (1 shared connections)
-- [[Community 130]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (39 shared connections)
+- [[Zoho Integration Architecture]] (14 shared connections)
+- [[Community 51]] (8 shared connections)
+- [[Master Codebase Architecture Reference]] (8 shared connections)
+- [[Zoho API Diagnostic Script]] (7 shared connections)
+- [[Graphify Knowledge Graph Skill]] (7 shared connections)
+- [[Community 46]] (5 shared connections)
+- [[Community 72]] (5 shared connections)
+- [[Community 44]] (4 shared connections)
+- [[Community 115]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/cli.test.mjs`
-- `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
-- `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- `.agents/skills/archify/test/helpers/xml.mjs`
-- `.agents/skills/archify/test/offline-font-browser.test.mjs`
-- `.agents/skills/archify/test/offline-self-containment.test.mjs`
+- `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
 
 ## Audit Trail
 
-- EXTRACTED: 103 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 229 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

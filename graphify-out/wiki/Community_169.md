@@ -1,36 +1,33 @@
 # Community 169
 
-> 11 nodes · cohesion 0.22
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **validateArchitectureDeltaHtml()** (11 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **renderArchitectureDeltaHtml()** (6 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **architectureDeltaChangeRows()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **reviewTargetTags()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **expectedReviewTargetSignature()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **primaryReviewTags()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **reviewIdentity()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **reviewPrimaryStates()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **reviewTargetSignature()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **safeJson()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **total()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **Alerts** (8 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **alerts.md** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Buttons** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
 
 ## Relationships
 
-- [[Community 45]] (12 shared connections)
-- [[Product Brand & Business Vision]] (3 shared connections)
-- [[Community 144]] (2 shared connections)
-- [[Community 292]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
+- `.agents/skills/apple-design/references/hig/alerts.md`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 20 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

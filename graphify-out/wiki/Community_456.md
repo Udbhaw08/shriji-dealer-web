@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **esm-Bpz4a6DG.js** (1 connections) — `ios/App/App/public/assets/esm-Bpz4a6DG.js`
-- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-Bpz4a6DG.js`
+- **accessibility.md** (1 connections) — `.agents/skills/swiftui-pro/references/accessibility.md`
+- **Accessibility** (1 connections) — `.agents/skills/swiftui-pro/references/accessibility.md`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/esm-Bpz4a6DG.js`
+- `.agents/skills/swiftui-pro/references/accessibility.md`
 
 ## Audit Trail
 

@@ -20,7 +20,7 @@
 
 - [[Product Requirements Documentation]] (9 shared connections)
 - [[Community 36]] (5 shared connections)
-- [[Community 52]] (2 shared connections)
+- [[Community 49]] (2 shared connections)
 - [[Dependencies & Package Config]] (1 shared connections)
 
 ## Source Files

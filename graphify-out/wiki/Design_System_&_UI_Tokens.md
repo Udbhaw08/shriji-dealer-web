@@ -33,18 +33,18 @@
 
 ## Relationships
 
-- [[Product Brand & Business Vision]] (11 shared connections)
+- [[Architecture Doc Generator]] (11 shared connections)
 - [[Community 35]] (10 shared connections)
-- [[Community 33]] (9 shared connections)
-- [[Community 86]] (8 shared connections)
+- [[Community 32]] (9 shared connections)
+- [[Community 83]] (8 shared connections)
 - [[Product Pages Specification]] (8 shared connections)
-- [[Community 109]] (7 shared connections)
-- [[Mobile Responsive UI Skill]] (6 shared connections)
+- [[Community 108]] (7 shared connections)
+- [[Claude Agent Instructions]] (6 shared connections)
 - [[Community 165]] (6 shared connections)
-- [[Zoho Integration Architecture]] (5 shared connections)
-- [[Community 107]] (4 shared connections)
-- [[Community 135]] (4 shared connections)
-- [[Community 206]] (3 shared connections)
+- [[Product Brand & Business Vision]] (5 shared connections)
+- [[Community 106]] (4 shared connections)
+- [[Community 136]] (4 shared connections)
+- [[Community 205]] (3 shared connections)
 
 ## Source Files
 

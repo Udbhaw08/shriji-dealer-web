@@ -1,58 +1,47 @@
 # Vercel Deployment Routing
 
-> 39 nodes · cohesion 0.11
+> 40 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **O()** (20 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **dt()** (19 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **yt()** (14 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **rn()** (13 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **M()** (12 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **wn()** (12 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **k()** (11 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ln()** (11 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ip()** (10 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Rt()** (10 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **cn()** (8 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **hn()** (8 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ut()** (8 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **bt()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ht()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **lt()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **mn()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **st()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **vn()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Zt()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **af()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **an()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Jt()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **xn()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ml()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- *... and 14 more nodes in this community*
+- **webm-artifact.smoke.mjs** (39 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **navigateReady()** (12 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **evaluate()** (11 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **delay()** (7 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **withTimeout()** (7 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **verifyArchitectureDeltaNavigator()** (5 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **captureCopiedShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **captureReachShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **captureRouteShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **captureRouteVisualMatrix()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **captureShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **verifyDynamicReducedMotionRoute()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **verifyResolvedLegendContract()** (3 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **verifySemanticPassportDismissal()** (3 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **devtoolsEndpoint()** (2 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **removeTempTree()** (2 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **waitForExit()** (2 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **chrome** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **chromeProcess** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **connectCdp()** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **executable()** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **ffmpeg** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **freePort()** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **input** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (46 shared connections)
-- [[Community 82]] (13 shared connections)
-- [[Community 65]] (11 shared connections)
-- [[Community 50]] (11 shared connections)
-- [[Project Readme & Layout]] (10 shared connections)
-- [[Community 51]] (7 shared connections)
-- [[Community 62]] (6 shared connections)
-- [[Community 32]] (6 shared connections)
-- [[Community 44]] (3 shared connections)
-- [[Community 87]] (3 shared connections)
-- [[Architecture Doc Generator]] (1 shared connections)
-- [[Community 40]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- `.agents/skills/archify/test/webm-artifact.smoke.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 276 (100%)
+- EXTRACTED: 140 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

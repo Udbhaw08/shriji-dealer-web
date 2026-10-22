@@ -35,8 +35,8 @@
 
 - [[Community 36]] (55 shared connections)
 - [[Dependencies & Package Config]] (29 shared connections)
-- [[Community 52]] (19 shared connections)
-- [[Community 110]] (18 shared connections)
+- [[Community 49]] (19 shared connections)
+- [[Community 109]] (18 shared connections)
 - [[Community 168]] (9 shared connections)
 - [[Community 167]] (2 shared connections)
 - [[Community 388]] (1 shared connections)

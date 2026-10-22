@@ -1,58 +1,63 @@
 # Community 50
 
-> 28 nodes · cohesion 0.12
+> 28 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **n()** (26 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ki()** (12 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Pa()** (12 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ta()** (12 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Nn()** (11 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **mt()** (10 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **A()** (9 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ka()** (9 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **sa()** (9 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ha()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ua()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **xo()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **mi()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **qs()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ys()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **fa()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **qn()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Qo()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **x()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **so()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Zn()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **io()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Md()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Qe()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **qt()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **server.js** (37 connections) — `backend/src/server.js`
+- **health.js** (8 connections) — `backend/src/routes/health.js`
+- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
+- **upload.js** (5 connections) — `backend/src/routes/upload.js`
+- **uploads.js** (5 connections) — `backend/src/routes/uploads.js`
+- **migrate()** (4 connections) — `backend/src/db/migrate.js`
+- **rateLimit.js** (4 connections) — `backend/src/middleware/rateLimit.js`
+- **applied()** (3 connections) — `backend/src/db/migrate.js`
+- **startJobs()** (3 connections) — `backend/src/jobs/index.js`
+- **rateLimit()** (3 connections) — `backend/src/middleware/rateLimit.js`
+- **start()** (3 connections) — `backend/src/server.js`
+- **authRouter** (2 connections) — `backend/src/routes/auth.js`
+- **contentRouter** (2 connections) — `backend/src/routes/content.js`
+- **dealersRouter** (2 connections) — `backend/src/routes/dealers.js`
+- **healthRouter** (2 connections) — `backend/src/routes/health.js`
+- **uploadRouter** (2 connections) — `backend/src/routes/upload.js`
+- **uploadsRouter** (2 connections) — `backend/src/routes/uploads.js`
+- **webhooksRouter** (2 connections) — `backend/src/routes/webhooks.js`
+- **dir** (1 connections) — `backend/src/db/migrate.js`
+- **buckets** (1 connections) — `backend/src/middleware/rateLimit.js`
+- **ALLOWED_FOLDERS** (1 connections) — `backend/src/routes/upload.js`
+- **MIME_TYPES** (1 connections) — `backend/src/routes/uploads.js`
+- **allowedOrigins** (1 connections) — `backend/src/server.js`
+- **app** (1 connections) — `backend/src/server.js`
+- **defaultOrigins** (1 connections) — `backend/src/server.js`
 - *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (33 shared connections)
-- [[Community 32]] (15 shared connections)
-- [[Community 40]] (11 shared connections)
-- [[Vercel Deployment Routing]] (11 shared connections)
-- [[Community 82]] (8 shared connections)
-- [[Community 62]] (6 shared connections)
-- [[Project Readme & Layout]] (6 shared connections)
-- [[Community 65]] (5 shared connections)
-- [[Community 44]] (4 shared connections)
-- [[Architecture Doc Generator]] (4 shared connections)
-- [[Community 51]] (3 shared connections)
-- [[Community 87]] (2 shared connections)
+- [[Community 33]] (10 shared connections)
+- [[Community 73]] (7 shared connections)
+- [[Community 88]] (6 shared connections)
+- [[Community 54]] (6 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (2 shared connections)
+- [[Community 139]] (2 shared connections)
+- [[Community 128]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- `backend/src/db/migrate.js`
+- `backend/src/jobs/index.js`
+- `backend/src/middleware/rateLimit.js`
+- `backend/src/routes/auth.js`
+- `backend/src/routes/content.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/routes/health.js`
+- `backend/src/routes/upload.js`
+- `backend/src/routes/uploads.js`
+- `backend/src/routes/webhooks.js`
+- `backend/src/server.js`
 
 ## Audit Trail
 
-- EXTRACTED: 196 (100%)
+- EXTRACTED: 105 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

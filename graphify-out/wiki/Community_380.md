@@ -12,7 +12,7 @@
 
 ## Relationships
 
-- [[Community 230]] (1 shared connections)
+- [[Community 229]] (1 shared connections)
 
 ## Source Files
 

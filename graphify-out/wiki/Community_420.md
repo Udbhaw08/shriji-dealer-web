@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **delivery-contract.test.mjs** (3 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
-- **delivery** (1 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
-- **skill** (1 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
+- **generate-viewer.test.mjs** (3 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
+- **fixture()** (1 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
+- **fragments** (1 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/delivery-contract.test.mjs`
+- `.agents/skills/archify/test/generate-viewer.test.mjs`
 
 ## Audit Trail
 

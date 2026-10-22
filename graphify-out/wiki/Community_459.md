@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **hygiene.md** (1 connections) — `.agents/skills/swiftui-pro/references/hygiene.md`
-- **Hygiene** (1 connections) — `.agents/skills/swiftui-pro/references/hygiene.md`
+- **performance-plus.md** (1 connections) — `.agents/skills/swiftui-pro/references/performance-plus.md`
+- **Deeper performance work** (1 connections) — `.agents/skills/swiftui-pro/references/performance-plus.md`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/hygiene.md`
+- `.agents/skills/swiftui-pro/references/performance-plus.md`
 
 ## Audit Trail
 
