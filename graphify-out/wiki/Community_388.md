@@ -1,25 +1,26 @@
 # Community 388
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **14. Hierarchy Checklist** (4 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Anti-patterns** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Hierarchy Test** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Visual Weight Stack** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **focus** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- [[Community 221]] (1 shared connections)
+- [[Community 181]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

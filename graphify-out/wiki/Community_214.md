@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Segmented controls** (6 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
-- **segmented-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Context menus** (6 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **context-menus.md** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- `.agents/skills/apple-design/references/hig/context-menus.md`
 
 ## Audit Trail
 

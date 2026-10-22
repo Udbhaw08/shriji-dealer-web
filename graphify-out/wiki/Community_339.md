@@ -4,24 +4,24 @@
 
 ## Key Concepts
 
-- **viewBox** (6 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **Branding** (5 connections) — `.agents/skills/apple-design/references/hig/branding.md`
+- **branding.md** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
 
 ## Relationships
 
-- [[Community 86]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `.agents/skills/apple-design/references/hig/branding.md`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,17 +1,18 @@
 # Community 239
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Game controls** (7 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **game-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **Keyboards** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **Physical controllers** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **Touch controls** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **architecture-compare-recovery.test.mjs** (8 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **base** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **fixture()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **hash()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **head** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **inject()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
 
 ## Relationships
 
@@ -19,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/game-controls.md`
+- `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

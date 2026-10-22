@@ -1,23 +1,24 @@
 # Community 125
 
-> 14 nodes · cohesion 0.14
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **Augmented reality** (13 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **augmented-reality.md** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Communicating with people** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Designing object interactions** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Handling interruptions** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Helping people place objects** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Icons and badges** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Offering a multiuser experience** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Providing coaching** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Reacting to real-world objects** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Suggesting problem resolutions** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Liquid Glass** (6 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Apple's rules** (5 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Cross-platform translation** (5 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **liquid-glass.md** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Color on glass** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Flutter** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **React Native** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Review checklist** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Standard materials beneath the glass** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **SwiftUI, UIKit, and AppKit** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Tauri and Electron** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **The two layers** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Where the material belongs** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Which variant** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
 
 ## Relationships
 
@@ -25,11 +26,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- `.agents/skills/apple-design/references/hig/liquid-glass.md`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

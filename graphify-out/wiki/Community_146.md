@@ -1,33 +1,36 @@
 # Community 146
 
-> 12 nodes · cohesion 0.17
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **Charts** (11 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **charts.md** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Axes** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Color** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Descriptive content** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Enhancing the accessibility of a chart** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Marks** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **architecture-delta.test.mjs** (16 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **ArchitectureDeltaError** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **baseFixture** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **checkedArtifact** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **checkedReceipt** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **headFixture** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **read()** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 60]] (4 shared connections)
+- [[Community 117]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/charts.md`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
+- `.agents/skills/archify/test/architecture-delta.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 30 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

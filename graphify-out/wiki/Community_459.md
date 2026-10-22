@@ -1,10 +1,11 @@
 # Community 459
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **cordova_plugins.js** (0 connections) — `android/app/src/main/assets/public/cordova_plugins.js`
+- **esm-BtEVX9fQ.js** (1 connections) — `ios/App/App/public/assets/esm-BtEVX9fQ.js`
+- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-BtEVX9fQ.js`
 
 ## Relationships
 
@@ -12,11 +13,11 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/cordova_plugins.js`
+- `ios/App/App/public/assets/esm-BtEVX9fQ.js`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

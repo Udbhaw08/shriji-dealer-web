@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **ErrorBoundary** (5 connections) — `src/main.jsx`
-- **.componentDidCatch()** (1 connections) — `src/main.jsx`
-- **.constructor()** (1 connections) — `src/main.jsx`
-- **.getDerivedStateFromError()** (1 connections) — `src/main.jsx`
-- **.render()** (1 connections) — `src/main.jsx`
+- **Path controls** (4 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
+- **path-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
 
 ## Relationships
 
-- [[Product Brand & Business Vision]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/main.jsx`
+- `.agents/skills/apple-design/references/hig/path-controls.md`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

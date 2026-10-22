@@ -1,32 +1,30 @@
 # Community 281
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **commandCompare()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commitComparePair()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractCompareOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractArchitectureSvg()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **extractArtifactCss()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **compareCommitError()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **compareReceiptPath()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **route-journey.test.mjs** (7 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/route-journey.test.mjs`
 
 ## Relationships
 
-- [[Pricing & Roles Skill]] (12 shared connections)
-- [[Pricing Regression Test Suite]] (10 shared connections)
-- [[Community 101]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
-- `.agents/skills/archify/delta/architecture-delta.mjs`
+- `.agents/skills/archify/test/route-journey.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (69%)
-- INFERRED: 11 (31%)
+- EXTRACTED: 14 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,30 +1,33 @@
 # Community 208
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Materials** (6 connections) — `.agents/skills/apple-design/references/hig/materials.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/materials.md`
-- **materials.md** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
-- **Liquid Glass** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
-- **Standard materials** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **site-language-continuity.test.mjs** (12 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **clickAndNavigate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **evaluate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **loadRuntime()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **navigate()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **navigationPath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **runtimePath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **startStaticServer()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 39]] (1 shared connections)
+- [[Community 82]] (1 shared connections)
+- [[Community 132]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/materials.md`
+- `.agents/skills/archify/test/site-language-continuity.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 23 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

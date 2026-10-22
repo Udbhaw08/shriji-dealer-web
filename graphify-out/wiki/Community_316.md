@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **semantic-flow.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
+- **Sequence Renderer** (5 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **Layout budget** (2 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **README.md** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **Column fit** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **Input** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **Legend** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/semantic-flow.test.mjs`
+- `.agents/skills/archify/renderers/sequence/README.md`
 
 ## Audit Trail
 

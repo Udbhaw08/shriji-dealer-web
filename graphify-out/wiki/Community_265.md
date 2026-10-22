@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **reach-share-card.test.mjs** (7 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/reach-share-card.test.mjs`
+- **Tab bars** (5 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
+- **tab-bars.md** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
+- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/reach-share-card.test.mjs`
+- `.agents/skills/apple-design/references/hig/tab-bars.md`
 
 ## Audit Trail
 

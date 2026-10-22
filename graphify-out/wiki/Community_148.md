@@ -1,21 +1,22 @@
 # Community 148
 
-> 12 nodes · cohesion 0.17
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **Generative AI** (11 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **generative-ai.md** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Continuous improvement** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Inputs** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Models and datasets** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Outputs** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Privacy** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Transparency** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Toolbars** (9 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Platform considerations** (4 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **toolbars.md** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Actions** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Item groupings** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Navigation** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Titles** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
 
 ## Relationships
 
@@ -23,11 +24,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/generative-ai.md`
+- `.agents/skills/apple-design/references/hig/toolbars.md`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 24 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

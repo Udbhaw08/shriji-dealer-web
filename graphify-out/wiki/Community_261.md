@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **animation.test.mjs** (7 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **NODE_COLLECTION** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **svgBlock()** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **Pickers** (5 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **pickers.md** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/animation.test.mjs`
+- `.agents/skills/apple-design/references/hig/pickers.md`
 
 ## Audit Trail
 

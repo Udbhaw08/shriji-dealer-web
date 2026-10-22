@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Shriji Zoho Integration Skill** (5 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
-- **API Endpoints Reference** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
-- **Key Files & Architecture** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
-- **Pricing & Rate Priority** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
-- **Validation & Audit Commands** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
+- **Color wells** (4 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **color-wells.md** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/shriji-zoho-integration/SKILL.md`
+- `.agents/skills/apple-design/references/hig/color-wells.md`
 
 ## Audit Trail
 

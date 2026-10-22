@@ -1,16 +1,17 @@
 # Community 283
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Charting data** (6 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
-- **charting-data.md** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
-- **Designing effective charts** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
+- **semantic-legend-gateway.test.mjs** (7 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
+- **values()** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
 
 ## Relationships
 
@@ -18,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/charting-data.md`
+- `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

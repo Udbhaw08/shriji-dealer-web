@@ -1,26 +1,27 @@
 # Community 353
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **Column views** (4 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
-- **column-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
+- **point** (6 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 95]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/column-views.md`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

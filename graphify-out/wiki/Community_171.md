@@ -4,31 +4,29 @@
 
 ## Key Concepts
 
-- **properties** (9 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **note** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **title** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **dot** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **id** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **maxLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **minLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **Alerts** (8 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **alerts.md** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Buttons** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
 
 ## Relationships
 
-- [[Community 155]] (3 shared connections)
-- [[Community 374]] (1 shared connections)
-- [[Community 170]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/apple-design/references/hig/alerts.md`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,32 +1,31 @@
 # Community 190
 
-> 10 nodes · cohesion 0.29
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **lanes** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **additionalProperties** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **required** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **Layout** (7 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Adaptability** (2 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **layout.md** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Guides and safe areas** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Size classes** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Visual hierarchy** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
 
 ## Relationships
 
-- [[Graphify Agent Rules]] (3 shared connections)
-- [[Community 114]] (3 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `.agents/skills/apple-design/references/hig/layout.md`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

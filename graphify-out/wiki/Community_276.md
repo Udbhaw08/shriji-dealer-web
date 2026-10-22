@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **story-director-strip.test.mjs** (7 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **preset-tryon.test.mjs** (7 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
+- **presetRuntime()** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
+- **svgBlock()** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/story-director-strip.test.mjs`
+- `.agents/skills/archify/test/preset-tryon.test.mjs`
 
 ## Audit Trail
 

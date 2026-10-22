@@ -1,34 +1,31 @@
 # Community 193
 
-> 10 nodes · cohesion 0.24
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **renderInline()** (6 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderInlineNode()** (6 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderHigLink()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderLink()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderParagraph()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderImage()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderReference()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **imageLabel()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **resolveAnchor()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **wrapInline()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **Notifications** (9 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **notifications.md** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Badging** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Notification actions** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
 
 ## Relationships
 
-- [[Community 73]] (10 shared connections)
-- [[Community 194]] (2 shared connections)
-- [[Community 225]] (1 shared connections)
-- [[Community 260]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- `.agents/skills/apple-design/references/hig/notifications.md`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

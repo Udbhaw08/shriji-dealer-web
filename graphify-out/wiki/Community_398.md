@@ -4,23 +4,22 @@
 
 ## Key Concepts
 
-- **meta** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **Web views** (3 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
+- **web-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
 
 ## Relationships
 
-- [[Community 92]] (1 shared connections)
-- [[Community 67]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/sequence.schema.json`
+- `.agents/skills/apple-design/references/hig/web-views.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

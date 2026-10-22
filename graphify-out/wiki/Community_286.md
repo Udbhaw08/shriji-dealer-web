@@ -1,16 +1,17 @@
 # Community 286
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Images** (6 connections) — `.agents/skills/apple-design/references/hig/images.md`
-- **images.md** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
-- **Formats** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
-- **Resolution** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **stable-update-manifest.test.mjs** (7 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **annotatedTaggerTime()** (2 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **git()** (2 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **checker** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **runCheck()** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **writeJson()** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
 
 ## Relationships
 
@@ -18,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/images.md`
+- `.agents/skills/archify/test/stable-update-manifest.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

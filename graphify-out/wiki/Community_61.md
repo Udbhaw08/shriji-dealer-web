@@ -4,44 +4,52 @@
 
 ## Key Concepts
 
-- **workflow-compiler.test.mjs** (27 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **assertReadableAdjacentResult()** (6 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **attribute()** (4 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **numericRect()** (4 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **edgeLabelRect()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **edgePoints()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **nodeRect()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **svgViewBox()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **asciiGroupLabelTextRect()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **assertRectInsideViewBox()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **groupFrameRect()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **adjacentWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **asciiLaneHeaderTextRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **assertRectInsideRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **attributeOrUndefined()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **clone()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **legendGeometry()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **orthogonalSegmentIntersectsRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **readJson()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **rectsOverlap()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **t()** (20 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **c()** (8 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **hh()** (8 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **yh()** (8 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **Mp()** (7 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **fh()** (6 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **mh()** (6 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **ph()** (6 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **s()** (6 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **Sh()** (6 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **zd()** (6 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **bh()** (5 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **eh()** (5 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **Ih()** (5 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **th()** (5 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **Qa()** (4 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **vt()** (4 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **ah()** (3 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **nh()** (3 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **rh()** (3 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **vh()** (3 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **Xm()** (3 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **xt()** (3 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **ls()** (2 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **zh()** (2 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
 
 ## Relationships
 
-- [[Community 130]] (2 shared connections)
-- [[Community 44]] (1 shared connections)
+- [[Price Presentation & Product UI]] (27 shared connections)
+- [[Design System & UI Tokens]] (8 shared connections)
+- [[Community 52]] (7 shared connections)
+- [[Client Products Data Store]] (5 shared connections)
+- [[Community 113]] (4 shared connections)
+- [[Community 41]] (4 shared connections)
+- [[Community 33]] (4 shared connections)
+- [[Community 46]] (3 shared connections)
+- [[Graphify Knowledge Graph Skill]] (2 shared connections)
+- [[Community 53]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- `ios/App/App/public/assets/index-lH5ZvEi4.js`
 
 ## Audit Trail
 
-- EXTRACTED: 73 (100%)
+- EXTRACTED: 137 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **render-output-checks.test.mjs** (5 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
-- **checker** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
-- **checkHtml()** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **Steppers** (4 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
+- **steppers.md** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/render-output-checks.test.mjs`
+- `.agents/skills/apple-design/references/hig/steppers.md`
 
 ## Audit Trail
 

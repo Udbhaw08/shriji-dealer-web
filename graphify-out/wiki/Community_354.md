@@ -1,26 +1,27 @@
 # Community 354
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **Combo boxes** (4 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
-- **combo-boxes.md** (1 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
+- **viewBox** (6 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **items** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 104]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/combo-boxes.md`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

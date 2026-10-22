@@ -1,19 +1,20 @@
 # Community 178
 
-> 10 nodes · cohesion 0.20
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **AirPlay** (6 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Using AirPlay icons** (4 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **airplay.md** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Black AirPlay icon** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Custom color AirPlay icon** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Referring to AirPlay** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **White AirPlay icon** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Website & App Redesign Instructions** (7 connections) — `instructions.md`
+- **2. Tri-Skill Synthesis Engine** (4 connections) — `instructions.md`
+- **instructions.md** (1 connections) — `instructions.md`
+- **1. Core Purpose & Architectural Goals** (1 connections) — `instructions.md`
+- **3. Adaptive Platform UX Strategies** (1 connections) — `instructions.md`
+- **4. Mobile Responsiveness & Layout Hard Rules** (1 connections) — `instructions.md`
+- **5. Domain Rules for Shriji Dealer Web** (1 connections) — `instructions.md`
+- **6. Execution Flow for Redesign Tasks** (1 connections) — `instructions.md`
+- **Skill 1: `refero-design` (Website & Aesthetic Authority)** (1 connections) — `instructions.md`
+- **Skill 2: `apple-design` (HIG Standards & Design Audit Authority)** (1 connections) — `instructions.md`
+- **Skill 3: `swiftui-pro` (Mobile App Ergonomics & View Performance Authority)** (1 connections) — `instructions.md`
 
 ## Relationships
 
@@ -21,11 +22,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/airplay.md`
+- `instructions.md`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,17 +1,18 @@
 # Community 240
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Gauges** (6 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **gauges.md** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **authored-reachability.test.mjs** (8 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **reachabilityFunction()** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
 
 ## Relationships
 
@@ -19,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/gauges.md`
+- `.agents/skills/archify/test/authored-reachability.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

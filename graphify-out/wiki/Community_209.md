@@ -1,31 +1,33 @@
 # Community 209
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **Multitasking** (5 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Platform considerations** (4 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **multitasking.md** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **v1-compatibility.test.mjs** (9 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **validate()** (3 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **check()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **legacyDataflowDocument()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **narrowExplicitViewBoxDocuments()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **OFFICIAL_V1_EXAMPLES** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 98]] (1 shared connections)
+- [[Product Requirements Documentation]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/multitasking.md`
+- `.agents/skills/archify/test/v1-compatibility.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 18 (90%)
+- INFERRED: 2 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Design** (5 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **design.md** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **Creating a uniform design in this app** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **Ensuring designs work for everyone** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **Requirements for flexible, accessible design** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **Standard system styling** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
+- **Action sheets** (4 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
+- **action-sheets.md** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/design.md`
+- `.agents/skills/apple-design/references/hig/action-sheets.md`
 
 ## Audit Trail
 

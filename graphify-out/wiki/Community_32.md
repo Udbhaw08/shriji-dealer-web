@@ -1,55 +1,58 @@
 # Community 32
 
-> 39 nodes · cohesion 0.07
+> 36 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **preview.mjs** (23 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **startPreview()** (10 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **cli-output-types.test.mjs** (10 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **preview.test.mjs** (8 connections) — `.agents/skills/archify/test/preview.test.mjs`
-- **open-artifact.mjs** (7 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **openLoopbackUrl()** (5 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **open-artifact.test.mjs** (5 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
-- **launchTarget()** (4 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **openArtifact()** (4 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **runPreview()** (3 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **compactMessage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **initialAuthoredOutput()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **previewPage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **redactDiagnostic()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **sha256()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **sourceDigest()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **spawn()** (2 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
-- **stateAt()** (2 connections) — `.agents/skills/archify/test/preview.test.mjs`
-- **waitForState()** (2 connections) — `.agents/skills/archify/test/preview.test.mjs`
-- **OPENERS** (1 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **cliPath** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **diagramTypes** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **here** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **parseReceipt()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **responseHeaders()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- *... and 14 more nodes in this community*
+- **.addEventListener()** (19 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **b()** (18 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **h()** (14 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **fp()** (13 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **.removeEventListener()** (12 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **delete()** (11 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **cm()** (7 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **lp()** (7 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **tm()** (7 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **em()** (6 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **.blur()** (6 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **.scrollIntoView()** (6 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **ol()** (6 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **v()** (6 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **g()** (5 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **hm()** (5 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **pm()** (5 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **Rp()** (5 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **uh()** (5 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **x()** (5 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **Bp()** (4 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **dl()** (4 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **.getClientRects()** (4 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **kl()** (4 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **Vp()** (4 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [[Pricing & Roles Skill]] (4 shared connections)
-- [[Community 101]] (3 shared connections)
-- [[Community 197]] (2 shared connections)
-- [[Community 234]] (2 shared connections)
+- [[Dealer Auth & Session Management]] (36 shared connections)
+- [[Master Codebase Architecture Reference]] (13 shared connections)
+- [[Pricing Regression Test Suite]] (8 shared connections)
+- [[Community 49]] (7 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (7 shared connections)
+- [[Community 59]] (4 shared connections)
+- [[Community 43]] (4 shared connections)
+- [[Community 40]] (4 shared connections)
+- [[Community 81]] (4 shared connections)
+- [[Community 50]] (3 shared connections)
+- [[Community 108]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/open-artifact.mjs`
-- `.agents/skills/archify/bin/preview.mjs`
-- `.agents/skills/archify/test/cli-output-types.test.mjs`
-- `.agents/skills/archify/test/open-artifact.test.mjs`
-- `.agents/skills/archify/test/preview.test.mjs`
+- `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
 
 ## Audit Trail
 
-- EXTRACTED: 113 (97%)
-- INFERRED: 4 (3%)
+- EXTRACTED: 215 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

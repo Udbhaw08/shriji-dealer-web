@@ -1,17 +1,17 @@
 # Community 274
 
-> 8 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **stable-update-manifest.test.mjs** (7 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **annotatedTaggerTime()** (2 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **git()** (2 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **checker** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **runCheck()** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **writeJson()** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **guided-views.test.mjs** (7 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **fixture()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **svg()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
 
 ## Relationships
 
@@ -19,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- `.agents/skills/archify/test/guided-views.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

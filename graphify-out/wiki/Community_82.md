@@ -1,48 +1,53 @@
 # Community 82
 
-> 20 nodes · cohesion 0.17
+> 20 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **get()** (23 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
-- **fa()** (18 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
-- **ac()** (13 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
-- **na()** (10 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
-- **Aa()** (9 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
-- **hi()** (8 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
-- **l()** (8 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
-- **ca()** (7 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
-- **da()** (7 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
-- **Gi()** (7 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
-- **va()** (6 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
-- **mf()** (5 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
-- **nl()** (5 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
-- **ya()** (5 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
-- **Ia()** (4 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
-- **Kn()** (4 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
-- **oh()** (3 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
-- **Qn()** (3 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
-- **Ma()** (2 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
-- **vo()** (2 connections) — `ios/App/App/public/assets/index-DVQX9sn1.js`
+- **ChromeVisualBrowser** (21 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **visual-check.test.mjs** (14 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **PipeCdp** (7 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.attach()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.close()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.constructor()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **chromeVisualBrowserArgs()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.failAll()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.consume()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **VISUAL_CHECK_VIEWPORTS** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.failure()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **artifact()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **fakeBrowser()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **fakeChromeChild()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **png** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (25 shared connections)
-- [[Master Codebase Architecture Reference]] (12 shared connections)
-- [[Live Pricing Audit Tool]] (11 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (10 shared connections)
-- [[Community 45]] (10 shared connections)
-- [[Product Requirements Documentation]] (8 shared connections)
-- [[Claude Agent Instructions]] (7 shared connections)
-- [[Community 128]] (2 shared connections)
+- [[Community 39]] (8 shared connections)
+- [[Community 51]] (7 shared connections)
+- [[Community 132]] (2 shared connections)
+- [[Community 92]] (2 shared connections)
+- [[Community 65]] (1 shared connections)
+- [[Community 130]] (1 shared connections)
+- [[Vercel Deployment Routing]] (1 shared connections)
+- [[Community 183]] (1 shared connections)
+- [[Community 245]] (1 shared connections)
+- [[Community 152]] (1 shared connections)
+- [[Community 208]] (1 shared connections)
+- [[Community 107]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DVQX9sn1.js`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/test/visual-check.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 149 (100%)
+- EXTRACTED: 71 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

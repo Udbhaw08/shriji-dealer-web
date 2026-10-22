@@ -1,33 +1,31 @@
 # Community 194
 
-> 10 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **renderBlock()** (11 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderAside()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderBlocks()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderTable()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderList()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderRow()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderTabs()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderTermList()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **resolveSpans()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **trimBlankEdges()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **Settings** (8 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **settings.md** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **General settings** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **System settings** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Task-specific options** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
 
 ## Relationships
 
-- [[Community 73]] (10 shared connections)
-- [[Community 193]] (2 shared connections)
-- [[Community 260]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- `.agents/skills/apple-design/references/hig/settings.md`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,25 +1,26 @@
 # Community 384
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **Web views** (3 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
-- **web-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
+- **7. Vertical Rhythm** (5 connections) — `.agents/skills/refero-design/references/typography.md`
+- **CSS Implementation** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Example** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Golden Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **The Simple Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 231]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/web-views.md`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

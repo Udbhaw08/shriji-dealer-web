@@ -1,13 +1,14 @@
 # Community 393
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **SwiftUI Views** (3 connections) — `.agents/skills/swiftui-pro/references/views.md`
-- **views.md** (1 connections) — `.agents/skills/swiftui-pro/references/views.md`
-- **Animating views** (1 connections) — `.agents/skills/swiftui-pro/references/views.md`
-- **Reordering and swipe actions** (1 connections) — `.agents/skills/swiftui-pro/references/views.md`
+- **integration.test.mjs** (4 connections) — `backend/test/integration.test.mjs`
+- **api()** (1 connections) — `backend/test/integration.test.mjs`
+- **COMMERCE_FIXTURE** (1 connections) — `backend/test/integration.test.mjs`
+- **crmMock** (1 connections) — `backend/test/integration.test.mjs`
+- **uniq()** (1 connections) — `backend/test/integration.test.mjs`
 
 ## Relationships
 
@@ -15,11 +16,11 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/views.md`
+- `backend/test/integration.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

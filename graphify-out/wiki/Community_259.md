@@ -4,26 +4,26 @@
 
 ## Key Concepts
 
-- **wraps** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **via** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **Onboarding** (7 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **onboarding.md** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Additional content** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Additional requests** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
 
 ## Relationships
 
-- [[Project Readme & Layout]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `.agents/skills/apple-design/references/hig/onboarding.md`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,38 +4,27 @@
 
 ## Key Concepts
 
-- **Typography Guide** (18 connections) — `.agents/skills/refero-design/references/typography.md`
-- **13. AI-Slop Anti-Patterns** (3 connections) — `.agents/skills/refero-design/references/typography.md`
-- **typography.md** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **15. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **1. The Safe SaaS Preset** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Instant Red Flags** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Quick Test** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Playing video** (6 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Integrating with the TV app** (3 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **playing-video.md** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Exiting playback** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Loading content** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
 
 ## Relationships
 
-- [[Community 367]] (1 shared connections)
-- [[Community 387]] (1 shared connections)
-- [[Community 368]] (1 shared connections)
-- [[Community 388]] (1 shared connections)
-- [[Community 389]] (1 shared connections)
-- [[Community 390]] (1 shared connections)
-- [[Community 369]] (1 shared connections)
-- [[Community 391]] (1 shared connections)
-- [[Community 392]] (1 shared connections)
-- [[Community 370]] (1 shared connections)
-- [[Community 222]] (1 shared connections)
-- [[Community 419]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/apple-design/references/hig/playing-video.md`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

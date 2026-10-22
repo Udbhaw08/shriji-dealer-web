@@ -1,21 +1,22 @@
 # Community 149
 
-> 12 nodes · cohesion 0.17
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **Inclusion** (11 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **inclusion.md** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Accessibility** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Avoiding stereotypes** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Being approachable** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Gender identity** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Inclusive by design** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Languages** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **People and settings** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Welcoming language** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Product** (12 connections) — `PRODUCT.md`
+- **PRODUCT.md** (1 connections) — `PRODUCT.md`
+- **Accessibility & Inclusion** (1 connections) — `PRODUCT.md`
+- **Brand Commitments** (1 connections) — `PRODUCT.md`
+- **Capabilities and Constraints** (1 connections) — `PRODUCT.md`
+- **Evidence on Hand** (1 connections) — `PRODUCT.md`
+- **Operating Context** (1 connections) — `PRODUCT.md`
+- **Platform** (1 connections) — `PRODUCT.md`
+- **Positioning** (1 connections) — `PRODUCT.md`
+- **Product Principles** (1 connections) — `PRODUCT.md`
+- **Product Purpose** (1 connections) — `PRODUCT.md`
+- **Stack** (1 connections) — `PRODUCT.md`
+- **Users** (1 connections) — `PRODUCT.md`
 
 ## Relationships
 
@@ -23,11 +24,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/inclusion.md`
+- `PRODUCT.md`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 24 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

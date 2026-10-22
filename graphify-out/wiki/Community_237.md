@@ -1,17 +1,18 @@
 # Community 237
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Controls** (7 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Camera experiences on a locked device** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Shriji Pricing & Roles Skill** (5 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **User Roles & View Modes** (4 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **1. Guest View (Public)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **2. Dealer View (Authenticated)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **3. Customer Shared View (`?from=<dealer_id>`)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **Key Files** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **Schemes Logic** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **Zero-Price Handling** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
 
 ## Relationships
 
@@ -19,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/controls.md`
+- `.agents/skills/shriji-pricing-and-roles/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

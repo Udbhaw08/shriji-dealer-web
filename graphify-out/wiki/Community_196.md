@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **ordinary-model-floor.test.mjs** (9 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **benchmark** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **mutate()** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **renameCandidateIds()** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
-- **writeJson()** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
+- **Viewer Runtime reference** (6 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Canonical exports** (4 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **viewer-runtime.md** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Exploration** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Guided views and story** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Motion and presentation** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Reach Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Route Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Truth boundary** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
 
 ## Relationships
 
@@ -21,7 +21,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
+- `.agents/skills/archify/references/viewer-runtime.md`
 
 ## Audit Trail
 

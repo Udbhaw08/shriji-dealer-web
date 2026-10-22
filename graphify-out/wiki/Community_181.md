@@ -1,31 +1,34 @@
 # Community 181
 
-> 10 nodes · cohesion 0.20
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **Lists and tables** (7 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
-- **lists-and-tables.md** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
-- **Mobile (iOS, iPadOS, visionOS)** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
-- **Style** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
+- **properties** (9 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **note** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **dot** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **maxLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 233]] (3 shared connections)
+- [[Community 388]] (1 shared connections)
+- [[Community 180]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/lists-and-tables.md`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 25 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

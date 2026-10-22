@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Playing video** (6 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Integrating with the TV app** (3 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **playing-video.md** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Exiting playback** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Loading content** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **web-BKr7pa9a.js** (8 connections) — `android/app/src/main/assets/public/assets/web-BKr7pa9a.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-BKr7pa9a.js`
+- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-BKr7pa9a.js`
+- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-BKr7pa9a.js`
+- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-BKr7pa9a.js`
+- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-BKr7pa9a.js`
+- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-BKr7pa9a.js`
+- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-BKr7pa9a.js`
+- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-BKr7pa9a.js`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/playing-video.md`
+- `android/app/src/main/assets/public/assets/web-BKr7pa9a.js`
 
 ## Audit Trail
 

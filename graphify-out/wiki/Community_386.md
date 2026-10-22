@@ -1,13 +1,14 @@
 # Community 386
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **Cross-platform translation** (3 connections) — `.agents/skills/apple-design/references/cross-platform.md`
-- **cross-platform.md** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
-- **Conventions to check** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
-- **Vocabulary** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
+- **Automatic Codebase Context & Knowledge Graph Protocol** (4 connections) — `.agents/rules/graphify.md`
+- **graphify.md** (1 connections) — `.agents/rules/graphify.md`
+- **Rule 1: Mandatory Knowledge Graph Lookup (Never Blindly Read Files)** (1 connections) — `.agents/rules/graphify.md`
+- **Rule 2: Precision File Viewing** (1 connections) — `.agents/rules/graphify.md`
+- **Rule 3: Keep Graph Fresh After Modifying Code** (1 connections) — `.agents/rules/graphify.md`
 
 ## Relationships
 
@@ -15,11 +16,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/cross-platform.md`
+- `.agents/rules/graphify.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

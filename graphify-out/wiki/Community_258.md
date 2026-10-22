@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Resizable windows and adaptive layouts** (7 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
-- **resizability.md** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
-- **Checking changes** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
-- **Choosing layouts** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
-- **Fold and camera geometry** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
-- **Presentations** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
-- **Safe areas** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
-- **Tab bars and toolbars** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
+- **Offering help** (6 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **offering-help.md** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Creating tips** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Desktop (macOS, visionOS)** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/resizability.md`
+- `.agents/skills/apple-design/references/hig/offering-help.md`
 
 ## Audit Trail
 

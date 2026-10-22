@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **delivery-contract.test.mjs** (3 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
-- **delivery** (1 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
-- **skill** (1 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
+- **SwiftUI Views** (3 connections) — `.agents/skills/swiftui-pro/references/views.md`
+- **views.md** (1 connections) — `.agents/skills/swiftui-pro/references/views.md`
+- **Animating views** (1 connections) — `.agents/skills/swiftui-pro/references/views.md`
+- **Reordering and swipe actions** (1 connections) — `.agents/skills/swiftui-pro/references/views.md`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/delivery-contract.test.mjs`
+- `.agents/skills/swiftui-pro/references/views.md`
 
 ## Audit Trail
 

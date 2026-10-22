@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Delivery contract** (8 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **delivery-contract.md** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Automated browser evidence** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Handoff receipt** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Last-Good Live Preview** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Optional opening** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Perceptual delivery gate** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Recovering a failed comparison** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Validate and deliver** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Playing audio** (6 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **playing-audio.md** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Handling interruptions** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/references/delivery-contract.md`
+- `.agents/skills/apple-design/references/hig/playing-audio.md`
 
 ## Audit Trail
 

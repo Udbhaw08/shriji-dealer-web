@@ -1,16 +1,17 @@
 # Community 290
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Managing accounts** (6 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **managing-accounts.md** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **Deleting accounts** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **TV provider accounts** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- **story-moment-link.test.mjs** (7 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
 
 ## Relationships
 
@@ -18,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- `.agents/skills/archify/test/story-moment-link.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

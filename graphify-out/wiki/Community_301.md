@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Visual Workflow** (6 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **visual-workflow.md** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Generated Assets** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Image Generation Capability** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Three Visual Directions** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Visual QA** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Visual Target Gate** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Loading** (6 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **loading.md** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **Showing progress** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/visual-workflow.md`
+- `.agents/skills/apple-design/references/hig/loading.md`
 
 ## Audit Trail
 

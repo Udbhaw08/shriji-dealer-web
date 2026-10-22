@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **12. Performance Typography** (5 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Performance Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Requirements** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Rules** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **System Font Stack** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Combo boxes** (4 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
+- **combo-boxes.md** (1 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
 
 ## Relationships
 
-- [[Community 221]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/apple-design/references/hig/combo-boxes.md`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

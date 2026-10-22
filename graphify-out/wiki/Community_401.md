@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **fromCol** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **maximum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **11. Responsive Typography** (4 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Breakpoint Adjustments** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Fluid Type (Clamp)** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **What Changes** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- [[Testing & Workflow Skill]] (1 shared connections)
+- [[Community 231]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 

@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **Shriji Backend Skill** (9 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Commands** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Environment (backend/.env — never committed)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Frontend Integration (built)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Hard Rules** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Key Files (populated as built)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Ownership Rule (invariant)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Pending Seam — price proxy switch (do when backend is deployed)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Stack Record — what was chosen, do not substitute** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Windows** (5 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **Desktop (macOS)** (3 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **windows.md** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **macOS window anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **macOS window states** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
 
 ## Relationships
 
@@ -21,7 +21,7 @@
 
 ## Source Files
 
-- `.agents/skills/shriji-backend/SKILL.md`
+- `.agents/skills/apple-design/references/hig/windows.md`
 
 ## Audit Trail
 

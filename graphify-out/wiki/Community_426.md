@@ -1,24 +1,25 @@
 # Community 426
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **stage** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **proof-aperture.test.mjs** (3 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
+- **cssRule()** (1 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
+- **landing** (1 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
 
 ## Relationships
 
-- [[Zoho API Diagnostic Script]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `.agents/skills/archify/test/proof-aperture.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

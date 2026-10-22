@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Code audit** (5 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **Apple Pay and payment marks** (3 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **code-audit.md** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **How to run it** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **iPhone Duo readiness in code** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **Liquid Glass in code** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **What replaces it** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **What to search for** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **Launching** (6 connections) — `.agents/skills/apple-design/references/hig/launching.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/launching.md`
+- **launching.md** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
+- **Launch screens** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/code-audit.md`
+- `.agents/skills/apple-design/references/hig/launching.md`
 
 ## Audit Trail
 

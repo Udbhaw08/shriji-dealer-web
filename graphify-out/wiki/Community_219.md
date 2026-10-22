@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **web-PZ5HVDTb.js** (8 connections) — `ios/App/App/public/assets/web-PZ5HVDTb.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-PZ5HVDTb.js`
-- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-PZ5HVDTb.js`
-- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-PZ5HVDTb.js`
-- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-PZ5HVDTb.js`
-- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-PZ5HVDTb.js`
-- **getState()** (1 connections) — `ios/App/App/public/assets/web-PZ5HVDTb.js`
-- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-PZ5HVDTb.js`
-- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-PZ5HVDTb.js`
+- **Multitasking** (5 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Platform considerations** (4 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **multitasking.md** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-PZ5HVDTb.js`
+- `.agents/skills/apple-design/references/hig/multitasking.md`
 
 ## Audit Trail
 

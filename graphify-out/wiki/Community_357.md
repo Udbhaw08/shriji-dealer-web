@@ -1,14 +1,15 @@
 # Community 357
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **Gyroscope and accelerometer** (4 connections) — `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
-- **gyro-and-accelerometer.md** (1 connections) — `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
+- **SKILL.md** (3 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **Output Format** (3 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **ContentView.swift** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **Core Instructions** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **References** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **Summary** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
 
 ## Relationships
 
@@ -16,11 +17,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
+- `.agents/skills/swiftui-pro/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

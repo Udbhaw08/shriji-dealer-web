@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **chapter-rail.test.mjs** (6 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
+- **Searching** (6 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **searching.md** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **Systemwide search** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/chapter-rail.test.mjs`
+- `.agents/skills/apple-design/references/hig/searching.md`
 
 ## Audit Trail
 

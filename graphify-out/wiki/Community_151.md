@@ -1,33 +1,37 @@
 # Community 151
 
-> 12 nodes · cohesion 0.17
+> 13 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **Playing haptics** (6 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Phone (iOS)** (4 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **playing-haptics.md** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Custom haptics** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Impact** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Notification** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Selection** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **guided-views-browser.test.mjs** (17 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **run()** (8 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **settled()** (4 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **activate()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **hash()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **variant()** (1 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 51]] (5 shared connections)
+- [[Community 65]] (3 shared connections)
+- [[Community 39]] (1 shared connections)
+- [[Community 132]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- `.agents/skills/archify/test/guided-views-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 54 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

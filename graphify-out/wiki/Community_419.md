@@ -1,24 +1,25 @@
 # Community 419
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **9. Line Length (Measure)** (3 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Guidelines** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Implementation** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **watch-sync.mjs** (3 connections) — `scripts/watch-sync.mjs`
+- **rootDir** (1 connections) — `scripts/watch-sync.mjs`
+- **srcDir** (1 connections) — `scripts/watch-sync.mjs`
+- **triggerSync()** (1 connections) — `scripts/watch-sync.mjs`
 
 ## Relationships
 
-- [[Community 221]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `scripts/watch-sync.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,27 +4,25 @@
 
 ## Key Concepts
 
-- **main()** (7 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **pruneStaleFiles()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **uniqueBySlug()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **generatedFiles()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **mapWithConcurrency()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **parseArgs()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **Collections** (4 connections) — `.agents/skills/apple-design/references/hig/collections.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/collections.md`
+- **collections.md** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
 
 ## Relationships
 
-- [[Community 73]] (6 shared connections)
-- [[Community 225]] (2 shared connections)
-- [[Community 233]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- `.agents/skills/apple-design/references/hig/collections.md`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 10 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

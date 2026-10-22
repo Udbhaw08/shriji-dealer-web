@@ -4,22 +4,22 @@
 
 ## Key Concepts
 
-- **width** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **Status bars** (3 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
+- **status-bars.md** (1 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
 
 ## Relationships
 
-- [[Graphify Agent Rules]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `.agents/skills/apple-design/references/hig/status-bars.md`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

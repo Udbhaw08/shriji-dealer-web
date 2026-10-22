@@ -1,14 +1,15 @@
 # Community 361
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **NFC** (4 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
-- **nfc.md** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
-- **Background tag reading** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
-- **In-app tag reading** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
+- **render-output-checks.test.mjs** (5 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **checker** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **checkHtml()** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
 
 ## Relationships
 
@@ -16,11 +17,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/nfc.md`
+- `.agents/skills/archify/test/render-output-checks.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

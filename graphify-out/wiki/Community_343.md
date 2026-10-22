@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **SKILL.md** (3 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **Output Format** (3 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **ContentView.swift** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **Core Instructions** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **References** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **Summary** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **Modality** (5 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **modality.md** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/SKILL.md`
+- `.agents/skills/apple-design/references/hig/modality.md`
 
 ## Audit Trail
 

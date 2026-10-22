@@ -1,32 +1,37 @@
 # Community 167
 
-> 11 nodes · cohesion 0.18
+> 12 nodes · cohesion 0.41
 
 ## Key Concepts
 
-- **Toggles** (5 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Desktop (macOS)** (4 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **toggles.md** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Checkboxes** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Radio buttons** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Switches** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **repository-evidence.mjs** (15 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **verifyRepositoryEvidence()** (14 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **evidenceFailure()** (6 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **repository-location.mjs** (5 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **parseRepositoryRemote()** (5 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **gitValue()** (4 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **runGit()** (4 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **verifiedSourcePath()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **redactRepositoryRemote()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **repositorySourceHref()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **hasRepositoryEvidence()** (2 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **sourceLineCount()** (2 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Product Requirements Documentation]] (6 shared connections)
+- [[Community 143]] (3 shared connections)
+- [[Community 60]] (2 shared connections)
+- [[Community 117]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/toggles.md`
+- `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- `.agents/skills/archify/renderers/shared/repository-location.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 66 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

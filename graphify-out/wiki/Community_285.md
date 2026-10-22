@@ -1,16 +1,17 @@
 # Community 285
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Focus and selection** (5 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **focus-and-selection.md** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
+- **share-card-export.test.mjs** (7 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **svgBlock()** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
 
 ## Relationships
 
@@ -18,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/focus-and-selection.md`
+- `.agents/skills/archify/test/share-card-export.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

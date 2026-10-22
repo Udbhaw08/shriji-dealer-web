@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Pickers** (5 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **pickers.md** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Controls** (7 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Camera experiences on a locked device** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/pickers.md`
+- `.agents/skills/apple-design/references/hig/controls.md`
 
 ## Audit Trail
 

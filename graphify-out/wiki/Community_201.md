@@ -1,30 +1,31 @@
 # Community 201
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **web-PZ5HVDTb.js** (8 connections) — `android/app/src/main/assets/public/assets/web-PZ5HVDTb.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-PZ5HVDTb.js`
-- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-PZ5HVDTb.js`
-- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-PZ5HVDTb.js`
-- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-PZ5HVDTb.js`
-- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-PZ5HVDTb.js`
-- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-PZ5HVDTb.js`
-- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-PZ5HVDTb.js`
-- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-PZ5HVDTb.js`
+- **entries** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **legend** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **mode** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **properties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 69]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/web-PZ5HVDTb.js`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

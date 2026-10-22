@@ -1,47 +1,57 @@
 # Community 43
 
-> 33 nodes · cohesion 0.06
+> 29 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **scripts** (15 connections) — `.agents/skills/archify/package.json`
-- **package.json** (11 connections) — `.agents/skills/archify/package.json`
-- **devDependencies** (5 connections) — `.agents/skills/archify/package.json`
-- **bin** (2 connections) — `.agents/skills/archify/package.json`
-- **engines** (2 connections) — `.agents/skills/archify/package.json`
-- **overrides** (2 connections) — `.agents/skills/archify/package.json`
-- **archify** (1 connections) — `.agents/skills/archify/package.json`
-- **description** (1 connections) — `.agents/skills/archify/package.json`
-- **ajv** (1 connections) — `.agents/skills/archify/package.json`
-- **parse5** (1 connections) — `.agents/skills/archify/package.json`
-- **saxes** (1 connections) — `.agents/skills/archify/package.json`
-- **simple-icons** (1 connections) — `.agents/skills/archify/package.json`
-- **node** (1 connections) — `.agents/skills/archify/package.json`
-- **license** (1 connections) — `.agents/skills/archify/package.json`
-- **name** (1 connections) — `.agents/skills/archify/package.json`
-- **fast-uri** (1 connections) — `.agents/skills/archify/package.json`
-- **private** (1 connections) — `.agents/skills/archify/package.json`
-- **build:gallery** (1 connections) — `.agents/skills/archify/package.json`
-- **build:guide** (1 connections) — `.agents/skills/archify/package.json`
-- **build:readme-showcase** (1 connections) — `.agents/skills/archify/package.json`
-- **build:start** (1 connections) — `.agents/skills/archify/package.json`
-- **check:brand-marks** (1 connections) — `.agents/skills/archify/package.json`
-- **check:release-identity** (1 connections) — `.agents/skills/archify/package.json`
-- **check:validators** (1 connections) — `.agents/skills/archify/package.json`
-- **check:viewer** (1 connections) — `.agents/skills/archify/package.json`
-- *... and 8 more nodes in this community*
+- **D()** (28 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **qd()** (14 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **Yd()** (13 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **Fd()** (12 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **Vd()** (12 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **rf()** (11 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **df()** (10 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **kc()** (9 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **ff()** (8 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **ct()** (7 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **Rd()** (7 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **Bd()** (6 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **Ci()** (6 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **ef()** (6 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **nf()** (6 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **Hd()** (5 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **Id()** (5 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **Kd()** (5 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **lf()** (5 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **mf()** (5 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **ns()** (5 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **tf()** (4 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **Gd()** (3 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **uf()** (3 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (31 shared connections)
+- [[Master Codebase Architecture Reference]] (16 shared connections)
+- [[Pricing Regression Test Suite]] (15 shared connections)
+- [[Community 49]] (10 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (8 shared connections)
+- [[Community 81]] (6 shared connections)
+- [[Community 40]] (4 shared connections)
+- [[Community 32]] (4 shared connections)
+- [[Community 50]] (4 shared connections)
+- [[Community 108]] (3 shared connections)
+- [[Community 59]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/package.json`
+- `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (100%)
+- EXTRACTED: 208 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,35 +1,35 @@
 # Community 136
 
-> 13 nodes · cohesion 0.15
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **architecture-delta.test.mjs** (16 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **ArchitectureDeltaError** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **.constructor()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **baseFixture** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **checkedArtifact** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **checkedReceipt** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **headFixture** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **read()** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **web-CANet0Bw.js** (13 connections) — `ios/App/App/public/assets/web-CANet0Bw.js`
+- **applyPrefix()** (4 connections) — `ios/App/App/public/assets/web-CANet0Bw.js`
+- **keys()** (4 connections) — `ios/App/App/public/assets/web-CANet0Bw.js`
+- **get()** (3 connections) — `ios/App/App/public/assets/web-CANet0Bw.js`
+- **migrate()** (3 connections) — `ios/App/App/public/assets/web-CANet0Bw.js`
+- **rawKeys()** (3 connections) — `ios/App/App/public/assets/web-CANet0Bw.js`
+- **clear()** (2 connections) — `ios/App/App/public/assets/web-CANet0Bw.js`
+- **remove()** (2 connections) — `ios/App/App/public/assets/web-CANet0Bw.js`
+- **removeOld()** (2 connections) — `ios/App/App/public/assets/web-CANet0Bw.js`
+- **set()** (2 connections) — `ios/App/App/public/assets/web-CANet0Bw.js`
+- **configure()** (1 connections) — `ios/App/App/public/assets/web-CANet0Bw.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-CANet0Bw.js`
+- **impl()** (1 connections) — `ios/App/App/public/assets/web-CANet0Bw.js`
+- **prefix()** (1 connections) — `ios/App/App/public/assets/web-CANet0Bw.js`
 
 ## Relationships
 
-- [[Pricing Regression Test Suite]] (6 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
-- `.agents/skills/archify/test/architecture-delta.test.mjs`
+- `ios/App/App/public/assets/web-CANet0Bw.js`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,23 +1,24 @@
 # Community 444
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **esm-8e4Qx24T.js** (1 connections) — `ios/App/App/public/assets/esm-8e4Qx24T.js`
-- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-8e4Qx24T.js`
+- **cornerRadius** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Claude Agent Instructions]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/esm-8e4Qx24T.js`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

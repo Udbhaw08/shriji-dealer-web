@@ -1,20 +1,21 @@
 # Community 158
 
-> 11 nodes · cohesion 0.18
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **Archify** (10 connections) — `.agents/skills/archify/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Authoring invariants** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Delivery** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Fast authoring path** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Mermaid input** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Optional viewer capabilities** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Output** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Setup and fallback** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Type router** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Update awareness** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Generative AI** (11 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **generative-ai.md** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Continuous improvement** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Inputs** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Models and datasets** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Outputs** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Privacy** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Transparency** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
 
 ## Relationships
 
@@ -22,11 +23,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/SKILL.md`
+- `.agents/skills/apple-design/references/hig/generative-ai.md`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

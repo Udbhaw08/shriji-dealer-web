@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Sliders** (5 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **sliders.md** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **Gauges** (6 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **gauges.md** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/sliders.md`
+- `.agents/skills/apple-design/references/hig/gauges.md`
 
 ## Audit Trail
 

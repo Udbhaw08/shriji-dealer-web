@@ -1,20 +1,21 @@
 # Community 166
 
-> 11 nodes · cohesion 0.18
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **Gestures** (7 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Specifications** (2 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **gestures.md** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Custom gestures** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Standard gestures** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **generate-codebase-doc.mjs** (11 connections) — `scripts/generate-codebase-doc.mjs`
+- **allFiles** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **apiFiles** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **components** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **dataStores** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **getFiles()** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **istDateString** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **pages** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **pkg** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **rootDir** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **routes** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **scripts** (1 connections) — `scripts/generate-codebase-doc.mjs`
 
 ## Relationships
 
@@ -22,11 +23,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/gestures.md`
+- `scripts/generate-codebase-doc.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

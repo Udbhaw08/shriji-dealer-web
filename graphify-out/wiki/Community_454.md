@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **test-supabase.mjs** (1 connections) — `scripts/test-supabase.mjs`
-- **test()** (1 connections) — `scripts/test-supabase.mjs`
+- **esm-BtEVX9fQ.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-BtEVX9fQ.js`
+- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-BtEVX9fQ.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `scripts/test-supabase.mjs`
+- `android/app/src/main/assets/public/assets/esm-BtEVX9fQ.js`
 
 ## Audit Trail
 

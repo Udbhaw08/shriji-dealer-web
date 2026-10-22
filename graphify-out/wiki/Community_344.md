@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **authoring-safety-contract.test.mjs** (5 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
-- **authoringContract** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
-- **schemaReadme** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
-- **skill** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- **Panels** (5 connections) — `.agents/skills/apple-design/references/hig/panels.md`
+- **panels.md** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
+- **HUD-style panels** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- `.agents/skills/apple-design/references/hig/panels.md`
 
 ## Audit Trail
 

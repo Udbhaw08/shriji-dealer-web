@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **landing.test.mjs** (7 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **docsRoot** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **landing** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **manifest** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **proofs** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
+- **Sidebars** (5 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
+- **sidebars.md** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/landing.test.mjs`
+- `.agents/skills/apple-design/references/hig/sidebars.md`
 
 ## Audit Trail
 

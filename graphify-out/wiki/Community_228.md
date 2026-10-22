@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **architecture-compare-recovery.test.mjs** (8 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **base** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **fixture()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **hash()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **head** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **inject()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **Virtual keyboards** (7 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **virtual-keyboards.md** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Custom input views** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Custom keyboards** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
 
 ## Audit Trail
 

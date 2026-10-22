@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **release-package-gates.test.mjs** (10 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **canonicalZipTest()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **centralDirectoryModes()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **currentNodeMajor** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **spawnBuildZip()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **stagedFixture()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **workflowJob()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **workflowStep()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **writeArchive()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **Design principles** (10 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **design-principles.md** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Agency** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Craft** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Delight** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Familiarity** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Flexibility** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Purpose** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Responsibility** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Simplicity** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
 
 ## Relationships
 
@@ -22,7 +22,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/release-package-gates.test.mjs`
+- `.agents/skills/apple-design/references/hig/design-principles.md`
 
 ## Audit Trail
 

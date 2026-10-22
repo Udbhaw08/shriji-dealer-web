@@ -1,59 +1,57 @@
 # Community 40
 
-> 35 nodes · cohesion 0.15
+> 30 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **Product.jsx** (35 connections) — `src/pages/Product.jsx`
-- **dealer.js** (29 connections) — `src/data/dealer.js`
-- **Favorites.jsx** (20 connections) — `src/pages/Favorites.jsx`
-- **ProductCard.jsx** (19 connections) — `src/components/ProductCard.jsx`
-- **dealer.test.mjs** (18 connections) — `src/data/dealer.test.mjs`
-- **PriceBlock.jsx** (15 connections) — `src/components/PriceBlock.jsx`
-- **ProductCard()** (15 connections) — `src/components/ProductCard.jsx`
-- **Product()** (15 connections) — `src/pages/Product.jsx`
-- **priceFor()** (14 connections) — `src/data/dealer.js`
-- **useFavorites()** (13 connections) — `src/data/favoritesStore.js`
-- **inr()** (11 connections) — `src/data/dealer.js`
-- **viewerFor()** (8 connections) — `src/data/dealer.js`
-- **CustomerPrice()** (7 connections) — `src/components/PriceBlock.jsx`
-- **productSlug()** (7 connections) — `src/data/dealer.js`
-- **shareLink()** (7 connections) — `src/data/dealer.js`
-- **tagFor()** (6 connections) — `src/data/dealer.js`
-- **DealerPrice()** (5 connections) — `src/components/PriceBlock.jsx`
-- **formatWhatsAppPhone()** (4 connections) — `src/data/dealer.js`
-- **slugifyProduct()** (4 connections) — `src/data/dealer.js`
-- **tierOf()** (4 connections) — `src/data/dealer.js`
-- **DEALERS** (3 connections) — `src/data/dealer.js`
-- **isFavorite()** (3 connections) — `src/data/favoritesStore.js`
-- **PriceBlock()** (2 connections) — `src/components/PriceBlock.jsx`
-- **price99()** (2 connections) — `src/data/dealer.js`
-- **BAND** (1 connections) — `src/data/dealer.js`
-- *... and 10 more nodes in this community*
+- **Pd()** (15 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **sc()** (11 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **ic()** (9 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **xs()** (9 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **ho()** (8 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **jd()** (8 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **ac()** (7 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **cc()** (7 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **ec()** (7 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **dh()** (6 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **gf()** (6 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **mo()** (6 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **Oi()** (6 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **pt()** (6 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **Ti()** (6 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **dc()** (5 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **lc()** (5 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **No()** (5 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **oc()** (5 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **vf()** (5 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **wi()** (5 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **go()** (4 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **gt()** (4 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **pf()** (4 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- **yi()** (4 connections) — `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [[Product Brand & Business Vision]] (55 shared connections)
-- [[Community 52]] (14 shared connections)
-- [[Dependencies & Package Config]] (13 shared connections)
-- [[Community 160]] (5 shared connections)
-- [[Community 159]] (5 shared connections)
-- [[Community 105]] (4 shared connections)
-- [[Community 106]] (3 shared connections)
+- [[Dealer Auth & Session Management]] (31 shared connections)
+- [[Pricing Regression Test Suite]] (9 shared connections)
+- [[Community 49]] (7 shared connections)
+- [[Community 32]] (4 shared connections)
+- [[Community 43]] (4 shared connections)
+- [[Community 59]] (4 shared connections)
+- [[Master Codebase Architecture Reference]] (3 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (3 shared connections)
+- [[Community 108]] (2 shared connections)
+- [[Community 81]] (1 shared connections)
+- [[Community 50]] (1 shared connections)
 
 ## Source Files
 
-- `src/components/PriceBlock.jsx`
-- `src/components/ProductCard.jsx`
-- `src/data/dealer.js`
-- `src/data/dealer.test.mjs`
-- `src/data/favoritesStore.js`
-- `src/pages/Favorites.jsx`
-- `src/pages/Product.jsx`
+- `android/app/src/main/assets/public/assets/index-lH5ZvEi4.js`
 
 ## Audit Trail
 
-- EXTRACTED: 277 (100%)
+- EXTRACTED: 175 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **guided-views.test.mjs** (7 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **fixture()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **svg()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **Progress indicators** (4 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
+- **Mobile (iOS, iPadOS)** (2 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
+- **progress-indicators.md** (1 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
+- **Refresh content controls** (1 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/guided-views.test.mjs`
+- `.agents/skills/apple-design/references/hig/progress-indicators.md`
 
 ## Audit Trail
 

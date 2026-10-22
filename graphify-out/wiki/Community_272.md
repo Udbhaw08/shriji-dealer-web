@@ -1,30 +1,31 @@
 # Community 272
 
-> 8 nodes · cohesion 0.32
+> 8 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **sequence-column-fit.test.mjs** (9 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **labelledSequence()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **render()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **renderOutcome()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **wideSequence()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **participantBoxes()** (1 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **isDroppedPlatformText()** (5 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **headingLine()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **relabelHeading()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **isDroppedBoilerplate()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **platformsMentioned()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **reduceHeading()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **isDroppedPlatformLabel()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **platformGroupLabel()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- [[Community 104]] (1 shared connections)
-- [[Community 44]] (1 shared connections)
+- [[Community 75]] (8 shared connections)
+- [[Community 204]] (1 shared connections)
+- [[Community 203]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

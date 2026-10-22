@@ -4,22 +4,22 @@
 
 ## Key Concepts
 
-- **col** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **maximum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **Cross-platform translation** (3 connections) — `.agents/skills/apple-design/references/cross-platform.md`
+- **cross-platform.md** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
+- **Conventions to check** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
+- **Vocabulary** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
 
 ## Relationships
 
-- [[Testing & Workflow Skill]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `.agents/skills/apple-design/references/cross-platform.md`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

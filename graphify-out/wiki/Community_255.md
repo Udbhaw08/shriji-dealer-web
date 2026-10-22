@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Text fields** (5 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
-- **text-fields.md** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Keyboards** (7 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **keyboards.md** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Custom keyboard shortcuts** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Standard keyboard shortcuts** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/text-fields.md`
+- `.agents/skills/apple-design/references/hig/keyboards.md`
 
 ## Audit Trail
 

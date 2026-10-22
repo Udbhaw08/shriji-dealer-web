@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Snippets** (6 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
-- **snippets.md** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **Entering data** (5 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **entering-data.md** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/snippets.md`
+- `.agents/skills/apple-design/references/hig/entering-data.md`
 
 ## Audit Trail
 

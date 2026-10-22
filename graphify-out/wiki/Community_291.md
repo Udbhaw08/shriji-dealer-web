@@ -1,16 +1,17 @@
 # Community 291
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Managing notifications** (6 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
-- **managing-notifications.md** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
-- **Integrating with Focus** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
-- **Sending marketing notifications** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **story-shelf.test.mjs** (7 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
 
 ## Relationships
 
@@ -18,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- `.agents/skills/archify/test/story-shelf.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

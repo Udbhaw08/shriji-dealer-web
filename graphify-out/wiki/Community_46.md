@@ -1,50 +1,57 @@
 # Community 46
 
-> 32 nodes · cohesion 0.08
+> 29 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **check-update.mjs** (99 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **encodeRecoverableState()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **canonicalizeTrustedDirectoryPrefix()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **guardedCacheEntryRead()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **isWithinDirectory()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **notification()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationIsActive()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stateAfterFailedCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stateWithFailureCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertSafeCacheEntry()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cancelResponseBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **corruptClaimStatus()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **encodeBoundedState()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **eventKeyForDigest()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **metadataIsWithinLease()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **nextFailedCheck()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **readBoundedBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stateAfterAcknowledgement()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertRenameableCacheEntry()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertSafeRegularFile()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **CacheOperationRaceError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **CachePathChangedError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **defaultCacheDirectory()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **defaultReleasePath** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **FileIdentityChangedError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- *... and 7 more nodes in this community*
+- **D()** (28 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **qd()** (14 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **Yd()** (13 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **Fd()** (12 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **Vd()** (12 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **rf()** (11 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **df()** (10 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **kc()** (9 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **ff()** (8 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **ct()** (7 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **Rd()** (7 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **Bd()** (6 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **Ci()** (6 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **ef()** (6 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **nf()** (6 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **Hd()** (5 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **Id()** (5 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **Kd()** (5 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **lf()** (5 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **mf()** (5 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **ns()** (5 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **cf()** (4 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **tf()** (4 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **Gd()** (3 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- **uf()** (3 connections) — `ios/App/App/public/assets/index-lH5ZvEi4.js`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [[Community 42]] (39 shared connections)
-- [[Community 100]] (20 shared connections)
-- [[Community 60]] (16 shared connections)
-- [[Community 37]] (1 shared connections)
+- [[Price Presentation & Product UI]] (31 shared connections)
+- [[Design System & UI Tokens]] (16 shared connections)
+- [[Client Products Data Store]] (15 shared connections)
+- [[Community 52]] (10 shared connections)
+- [[Graphify Knowledge Graph Skill]] (8 shared connections)
+- [[Community 85]] (6 shared connections)
+- [[Community 41]] (4 shared connections)
+- [[Community 33]] (4 shared connections)
+- [[Community 53]] (4 shared connections)
+- [[Community 113]] (3 shared connections)
+- [[Community 61]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-update.mjs`
+- `ios/App/App/public/assets/index-lH5ZvEi4.js`
 
 ## Audit Trail
 
-- EXTRACTED: 158 (100%)
+- EXTRACTED: 208 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

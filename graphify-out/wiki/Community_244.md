@@ -1,30 +1,32 @@
 # Community 244
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **Launching** (6 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **launching.md** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **Launch screens** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
+- **release-identity.test.mjs** (8 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **writeFile()** (5 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **stableUpdateManifest()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **writeValidDevelopmentFixture()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **writeValidStableFixture()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **checker** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **runCheck()** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 75]] (1 shared connections)
+- [[Community 355]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/launching.md`
+- `.agents/skills/archify/test/release-identity.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 24 (92%)
+- INFERRED: 2 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

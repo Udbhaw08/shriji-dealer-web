@@ -1,60 +1,62 @@
 # Community 54
 
-> 27 nodes · cohesion 0.13
+> 27 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **.send()** (54 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **viewer-camera-browser.test.mjs** (11 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **export-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **motion-governor-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **.inspect()** (5 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **run()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **evaluate()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **record()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **media()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **screenshot()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **stable()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **viewport()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **.waitFor()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **screenshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **auth.js** (47 connections) — `backend/src/routes/auth.js`
+- **dealerApp.js** (24 connections) — `backend/src/services/dealerApp.js`
+- **webhooks.js** (14 connections) — `backend/src/routes/webhooks.js`
+- **validators.js** (14 connections) — `backend/src/utils/validators.js`
+- **applyCrmAccountState()** (12 connections) — `backend/src/services/dealerApp.js`
+- **normalizePhone()** (12 connections) — `backend/src/utils/phone.js`
+- **normalizeEmail()** (12 connections) — `backend/src/utils/validators.js`
+- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
+- **cleanName()** (7 connections) — `backend/src/utils/validators.js`
+- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
+- **phone.js** (6 connections) — `backend/src/utils/phone.js`
+- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
+- **applyCrmContactState()** (5 connections) — `backend/src/services/dealerApp.js`
+- **isValidPhone()** (5 connections) — `backend/src/utils/validators.js`
+- **resolveUserWithDealer()** (4 connections) — `backend/src/routes/auth.js`
+- **isValidEmail()** (4 connections) — `backend/src/utils/validators.js`
+- **isValidName()** (4 connections) — `backend/src/utils/validators.js`
+- **emailOnlyIdentifier()** (3 connections) — `backend/src/routes/auth.js`
+- **findUserByEmail()** (3 connections) — `backend/src/routes/auth.js`
+- **issueSession()** (3 connections) — `backend/src/routes/auth.js`
+- **isValidGstin()** (3 connections) — `backend/src/utils/validators.js`
+- **publicUser()** (2 connections) — `backend/src/routes/auth.js`
+- **crmSync.test.mjs** (2 connections) — `backend/test/crmSync.test.mjs`
+- **isValidPincode()** (2 connections) — `backend/src/utils/validators.js`
+- **googleClient** (1 connections) — `backend/src/routes/auth.js`
 - *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [[Community 62]] (11 shared connections)
-- [[Community 89]] (8 shared connections)
-- [[Community 80]] (7 shared connections)
-- [[Community 124]] (7 shared connections)
-- [[Community 47]] (5 shared connections)
-- [[Community 140]] (5 shared connections)
+- [[Community 31]] (28 shared connections)
+- [[Community 129]] (16 shared connections)
+- [[Community 86]] (11 shared connections)
+- [[Community 72]] (10 shared connections)
+- [[Community 48]] (6 shared connections)
+- [[Community 90]] (6 shared connections)
 - [[Community 141]] (5 shared connections)
-- [[Community 173]] (4 shared connections)
-- [[Community 102]] (1 shared connections)
-- [[Community 280]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/export-browser.test.mjs`
-- `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- `backend/src/routes/auth.js`
+- `backend/src/routes/webhooks.js`
+- `backend/src/services/crmClient.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/utils/phone.js`
+- `backend/src/utils/validators.js`
+- `backend/test/crmSync.test.mjs`
+- `backend/test/interconnection.test.mjs`
+- `backend/test/validators.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 146 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 210 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

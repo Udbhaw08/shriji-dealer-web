@@ -1,19 +1,20 @@
 # Community 184
 
-> 10 nodes · cohesion 0.20
+> 11 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **Settings** (8 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **settings.md** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **General settings** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **System settings** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Task-specific options** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **readme-showcase.test.mjs** (10 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **inspectGif()** (2 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **skipSubBlocks()** (2 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **assetPath** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **git()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **receiptPath** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **writeStarHistoryCharts()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
 
 ## Relationships
 
@@ -21,11 +22,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/settings.md`
+- `.agents/skills/archify/test/readme-showcase.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

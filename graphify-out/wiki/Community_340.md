@@ -4,24 +4,24 @@
 
 ## Key Concepts
 
-- **point** (6 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **Collaboration and sharing** (5 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
+- **collaboration-and-sharing.md** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
 
 ## Relationships
 
-- [[Community 72]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,19 +1,20 @@
 # Community 177
 
-> 10 nodes · cohesion 0.20
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **Accessibility** (9 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **accessibility.md** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **Cognitive** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **Hearing** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **Mobility** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **Speech** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **Vision** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Toggles** (5 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Desktop (macOS)** (4 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **toggles.md** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Checkboxes** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Radio buttons** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Switches** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
 
 ## Relationships
 
@@ -21,11 +22,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/accessibility.md`
+- `.agents/skills/apple-design/references/hig/toggles.md`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,15 +1,16 @@
 # Community 332
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Printing** (4 connections) — `.agents/skills/apple-design/references/hig/printing.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/printing.md`
-- **printing.md** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
+- **semantic-zoom.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
+- **svg()** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
 
 ## Relationships
 
@@ -17,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/printing.md`
+- `.agents/skills/archify/test/semantic-zoom.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

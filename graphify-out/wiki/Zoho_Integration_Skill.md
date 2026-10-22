@@ -1,54 +1,57 @@
 # Zoho Integration Skill
 
-> 44 nodes · cohesion 0.09
+> 43 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **Z()** (24 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
-- **Au()** (17 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
-- **hu()** (11 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
-- **vu()** (11 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
-- **xl()** (11 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
-- **yi()** (11 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
-- **ql()** (10 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
-- **Cu()** (9 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
-- **pu()** (9 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
-- **jl()** (7 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
-- **ju()** (7 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
-- **mu()** (7 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
-- **xc()** (7 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
-- **Zl()** (7 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
-- **Lu()** (6 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
-- **Nd()** (6 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
-- **nm()** (6 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
-- **Nt()** (6 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
-- **zu()** (6 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
-- **gm()** (5 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
-- **Iu()** (5 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
-- **ja()** (5 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
-- **kl()** (5 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
-- **Ou()** (5 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
-- **ru()** (5 connections) — `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
-- *... and 19 more nodes in this community*
+- **brand-marks.mjs** (51 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **brand-marks.test.mjs** (15 connections) — `.agents/skills/archify/test/brand-marks.test.mjs`
+- **captureRemoteBrand()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **prepareDiagramBrandMarks()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **captureBrandReference()** (6 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **findBrandMark()** (5 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **checkedFetch()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **isPrivateBrandAddress()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **resolveRequestTarget()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **asUrl()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **iconCandidates()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **imageData()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **ipv4Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **ipv6Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **lookupForms()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **readLimited()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **validateUrlShape()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **generated-brand-marks.mjs** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
+- **BRAND_MARKS** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
+- **attribute()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **beforeDeadline()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **captureTimeoutMilliseconds()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **domainMark()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **mapConcurrent()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **remoteBrand()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (49 shared connections)
-- [[Design System & UI Tokens]] (12 shared connections)
-- [[Client Products Data Store]] (10 shared connections)
-- [[Community 39]] (9 shared connections)
-- [[Community 49]] (8 shared connections)
-- [[Oxlint Linter Configuration]] (7 shared connections)
-- [[Architecture Doc Generator]] (6 shared connections)
+- [[Architecture Doc Generator]] (7 shared connections)
+- [[Product Requirements Documentation]] (6 shared connections)
+- [[Community 145]] (3 shared connections)
+- [[Community 30]] (3 shared connections)
+- [[Product Brand & Business Vision]] (1 shared connections)
+- [[Community 34]] (1 shared connections)
+- [[Community 109]] (1 shared connections)
+- [[Community 80]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DVQX9sn1.js`
+- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
+- `.agents/skills/archify/test/brand-marks.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 273 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 164 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

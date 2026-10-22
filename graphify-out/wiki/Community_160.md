@@ -1,36 +1,33 @@
 # Community 160
 
-> 11 nodes · cohesion 0.24
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **i18n.js** (25 connections) — `src/data/i18n.js`
-- **setLanguage()** (3 connections) — `src/data/i18n.js`
-- **tCat()** (3 connections) — `src/data/i18n.js`
-- **emit()** (2 connections) — `src/data/i18n.js`
-- **toggleLanguage()** (2 connections) — `src/data/i18n.js`
-- **translations.js** (2 connections) — `src/data/translations.js`
-- **TRANSLATIONS** (2 connections) — `src/data/translations.js`
-- **currentLang** (1 connections) — `src/data/i18n.js`
-- **getInitialLang()** (1 connections) — `src/data/i18n.js`
-- **getLanguage()** (1 connections) — `src/data/i18n.js`
-- **listeners** (1 connections) — `src/data/i18n.js`
+- **Menus** (10 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **menus.md** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Icons** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **In-game menus** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Labels** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Organization** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Submenus** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Toggled items** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
 
 ## Relationships
 
-- [[Product Brand & Business Vision]] (9 shared connections)
-- [[Community 40]] (5 shared connections)
-- [[Community 52]] (2 shared connections)
-- [[Dependencies & Package Config]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/data/i18n.js`
-- `src/data/translations.js`
+- `.agents/skills/apple-design/references/hig/menus.md`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

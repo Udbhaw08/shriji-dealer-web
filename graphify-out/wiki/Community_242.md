@@ -1,17 +1,18 @@
 # Community 242
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Image views** (6 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **image-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **preview-contract.test.mjs** (8 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **chinese** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **delivery** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **english** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **readme** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **skill** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
 
 ## Relationships
 
@@ -19,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/image-views.md`
+- `.agents/skills/archify/test/preview-contract.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

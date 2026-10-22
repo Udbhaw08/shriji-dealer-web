@@ -1,25 +1,26 @@
 # Community 383
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **Status bars** (3 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
-- **status-bars.md** (1 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
+- **4. Text Color System** (5 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Anti-pattern** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Dark Mode Inversion** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Rules That Actually Work** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **The System** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 231]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/status-bars.md`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

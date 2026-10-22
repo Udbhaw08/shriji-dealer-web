@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **generate-validators.mjs** (8 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **ajv** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **diagramTypes** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **output** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **root** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **schemaIds** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **schemasDir** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **validatorCode** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **Segmented controls** (6 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **segmented-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/generate-validators.mjs`
+- `.agents/skills/apple-design/references/hig/segmented-controls.md`
 
 ## Audit Trail
 

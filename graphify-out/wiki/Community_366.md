@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Performance** (4 connections) — `.agents/skills/swiftui-pro/references/performance.md`
-- **performance.md** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
-- **Collections and row updates** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
-- **Frequent changes** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
-- **Remote images** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
+- **Agent Operating Guidelines & Zero-Token Context Strategy** (3 connections) — `GEMINI.md`
+- **Shriji Domestic Appliances — Sunshine Dealer Web** (2 connections) — `GEMINI.md`
+- **GEMINI.md** (1 connections) — `GEMINI.md`
+- **Mandatory Context Rule: Knowledge Graph First** (1 connections) — `GEMINI.md`
+- **Project Hard Rules** (1 connections) — `GEMINI.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/performance.md`
+- `GEMINI.md`
 
 ## Audit Trail
 

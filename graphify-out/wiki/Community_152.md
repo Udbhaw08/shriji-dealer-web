@@ -1,33 +1,36 @@
 # Community 152
 
-> 12 nodes · cohesion 0.17
+> 13 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **Privacy** (8 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Requesting permission** (3 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **privacy.md** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Location button** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Pre-alert screens, windows, or views** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Protecting data** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Tracking requests** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **semantic-radar.test.mjs** (15 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **evaluate()** (5 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **dragMouse()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **loadArtifact()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **observe()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **radarRects()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **overlaps()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 39]] (1 shared connections)
+- [[Community 82]] (1 shared connections)
+- [[Community 132]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/privacy.md`
+- `.agents/skills/archify/test/semantic-radar.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 35 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

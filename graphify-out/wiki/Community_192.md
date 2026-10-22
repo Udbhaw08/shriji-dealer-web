@@ -4,28 +4,28 @@
 
 ## Key Concepts
 
-- **entries** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **legend** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **properties** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **mode** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **properties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **Maps** (7 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Place cards** (3 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **maps.md** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Adding place cards outside of a map** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Custom information** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Displaying place cards in a map** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Indoor maps** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
 
 ## Relationships
 
-- [[Community 68]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `.agents/skills/apple-design/references/hig/maps.md`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

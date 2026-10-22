@@ -4,27 +4,38 @@
 
 ## Key Concepts
 
-- **preview-contract.test.mjs** (8 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **chinese** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **delivery** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **english** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **readme** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **skill** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **Typography Guide** (18 connections) — `.agents/skills/refero-design/references/typography.md`
+- **13. AI-Slop Anti-Patterns** (3 connections) — `.agents/skills/refero-design/references/typography.md`
+- **typography.md** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **15. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **1. The Safe SaaS Preset** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Instant Red Flags** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Quick Test** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 381]] (1 shared connections)
+- [[Community 401]] (1 shared connections)
+- [[Community 382]] (1 shared connections)
+- [[Community 402]] (1 shared connections)
+- [[Community 403]] (1 shared connections)
+- [[Community 404]] (1 shared connections)
+- [[Community 383]] (1 shared connections)
+- [[Community 405]] (1 shared connections)
+- [[Community 406]] (1 shared connections)
+- [[Community 384]] (1 shared connections)
+- [[Community 232]] (1 shared connections)
+- [[Community 435]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/preview-contract.test.mjs`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

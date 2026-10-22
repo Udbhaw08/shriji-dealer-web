@@ -1,18 +1,19 @@
 # Community 205
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **Designing for games** (8 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
-- **designing-for-games.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
-- **Adopt Apple technologies** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
-- **Enable intuitive interactions** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
-- **Jump into gameplay** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
-- **Look stunning on every display** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
-- **Welcome everyone** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Shriji Backend Skill** (9 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Commands** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Environment (backend/.env — never committed)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Frontend Integration (built)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Hard Rules** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Key Files (populated as built)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Ownership Rule (invariant)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Pending Seam — price proxy switch (do when backend is deployed)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Stack Record — what was chosen, do not substitute** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
 
 ## Relationships
 
@@ -20,11 +21,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- `.agents/skills/shriji-backend/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

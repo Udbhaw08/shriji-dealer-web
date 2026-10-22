@@ -268,13 +268,11 @@ export default function Products() {
 
   return (
     <>
-      {/* Catalogue Header Eyebrow & Title Row (Frame 1) */}
+      {/* Catalogue Header */}
       <section className="catalog-header-section">
         <div className="wrap">
-          <span className="catalog-eyebrow">B2B REQUISITION • LIVE STOCK</span>
           <div className="catalog-title-row">
             <h1 className="catalog-main-title">{t("catalog_title") || "Catalogue"}</h1>
-            <span className="catalog-count-pill">• {PRODUCTS.length} Models</span>
           </div>
         </div>
       </section>
@@ -410,35 +408,6 @@ export default function Products() {
                 </button>
               );
             })}
-          </div>
-        </div>
-      </div>
-
-      {/* Sub-bar: Sort by & Bulk Slab Active (Frame 1) */}
-      <div className="wrap">
-        <div className="catalog-sub-bar">
-          <div className="catalog-sort-select-wrap">
-            <span>Sort by:&nbsp;</span>
-            <select
-              className="catalog-sort-select"
-              value={sort}
-              onChange={(e) => {
-                setSort(e.target.value);
-                reset();
-              }}
-            >
-              {sortOptions.map((s) => (
-                <option key={s.key} value={s.key}>
-                  {s.label}
-                </option>
-              ))}
-            </select>
-            <Icon name="chev" size={12} style={{ transform: "rotate(90deg)", marginLeft: 2 }} />
-          </div>
-
-          <div className="bulk-slab-badge">
-            <Icon name="lock" size={13} />
-            <span>Bulk Slab Active</span>
           </div>
         </div>
       </div>

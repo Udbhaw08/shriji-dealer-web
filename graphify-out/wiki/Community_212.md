@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Right to left** (8 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **right-to-left.md** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Controls** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Images** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Interface icons** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Numbers and characters** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Text alignment** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
+- **2. Customer vs. Dealer Price Resolution (`src/data/dealer.js`)** (4 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **PRICING-ARCHITECTURE.md — Pricing Engine & Audit Specification** (4 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **1. Source of Truth: Live Zoho Commerce Store API** (2 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **PRICING-ARCHITECTURE.md** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **2.1 Customer View** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **2.2 Dealer View** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **2.3 Share Link Invariant** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **3. Automated Pricing Regression Protection** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **Rate Priority Hierarchy** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/right-to-left.md`
+- `docs/PRICING-ARCHITECTURE.md`
 
 ## Audit Trail
 

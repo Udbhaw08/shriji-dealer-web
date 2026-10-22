@@ -1,25 +1,26 @@
 # Community 389
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **2. Type Scale** (4 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Common Ratios** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **CSS Tokens** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Practical Scale (Minor Third × 16px base)** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **export_pricebooks_for_crm.mjs** (4 connections) — `scripts/export_pricebooks_for_crm.mjs`
+- **getAccessToken()** (2 connections) — `scripts/export_pricebooks_for_crm.mjs`
+- **main()** (2 connections) — `scripts/export_pricebooks_for_crm.mjs`
+- **env** (1 connections) — `scripts/export_pricebooks_for_crm.mjs`
+- **getMergedEnv()** (1 connections) — `scripts/export_pricebooks_for_crm.mjs`
 
 ## Relationships
 
-- [[Community 221]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `scripts/export_pricebooks_for_crm.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

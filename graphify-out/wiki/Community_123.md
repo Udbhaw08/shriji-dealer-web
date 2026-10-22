@@ -1,23 +1,25 @@
 # Community 123
 
-> 14 nodes · cohesion 0.23
+> 16 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **web-Cz6Pj2Zx.js** (13 connections) — `android/app/src/main/assets/public/assets/web-Cz6Pj2Zx.js`
-- **applyPrefix()** (4 connections) — `android/app/src/main/assets/public/assets/web-Cz6Pj2Zx.js`
-- **keys()** (4 connections) — `android/app/src/main/assets/public/assets/web-Cz6Pj2Zx.js`
-- **get()** (3 connections) — `android/app/src/main/assets/public/assets/web-Cz6Pj2Zx.js`
-- **migrate()** (3 connections) — `android/app/src/main/assets/public/assets/web-Cz6Pj2Zx.js`
-- **rawKeys()** (3 connections) — `android/app/src/main/assets/public/assets/web-Cz6Pj2Zx.js`
-- **clear()** (2 connections) — `android/app/src/main/assets/public/assets/web-Cz6Pj2Zx.js`
-- **remove()** (2 connections) — `android/app/src/main/assets/public/assets/web-Cz6Pj2Zx.js`
-- **removeOld()** (2 connections) — `android/app/src/main/assets/public/assets/web-Cz6Pj2Zx.js`
-- **set()** (2 connections) — `android/app/src/main/assets/public/assets/web-Cz6Pj2Zx.js`
-- **configure()** (1 connections) — `android/app/src/main/assets/public/assets/web-Cz6Pj2Zx.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-Cz6Pj2Zx.js`
-- **impl()** (1 connections) — `android/app/src/main/assets/public/assets/web-Cz6Pj2Zx.js`
-- **prefix()** (1 connections) — `android/app/src/main/assets/public/assets/web-Cz6Pj2Zx.js`
+- **legend-contract.test.mjs** (15 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **legendKinds()** (3 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **run()** (3 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **attrValues()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **canonicalSvg()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **clone()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **render()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **validateFailure()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **withLegend()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **AUTO_KINDS** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **CATALOGS** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **FIXTURES** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
 
 ## Relationships
 
@@ -25,11 +27,11 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/web-Cz6Pj2Zx.js`
+- `.agents/skills/archify/test/legend-contract.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

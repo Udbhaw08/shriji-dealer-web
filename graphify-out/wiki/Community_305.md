@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **artifact-receipt-flush.test.mjs** (6 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **checker** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **denseArchitecture()** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **Popovers** (4 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
+- **popovers.md** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- `.agents/skills/apple-design/references/hig/popovers.md`
 
 ## Audit Trail
 

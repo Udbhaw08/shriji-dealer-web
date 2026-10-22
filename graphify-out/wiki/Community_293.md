@@ -4,26 +4,31 @@
 
 ## Key Concepts
 
-- **Popovers** (4 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **popovers.md** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
+- **commandCompare()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commitComparePair()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractCompareOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **formatDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportCompareFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **compareCommitError()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **compareReceiptPath()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 38]] (11 shared connections)
+- [[Community 117]] (4 shared connections)
+- [[Community 145]] (3 shared connections)
+- [[Community 83]] (2 shared connections)
+- [[Community 60]] (2 shared connections)
+- [[Community 106]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/popovers.md`
+- `.agents/skills/archify/bin/archify.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 27 (75%)
+- INFERRED: 9 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

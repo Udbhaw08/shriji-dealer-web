@@ -1,15 +1,16 @@
 # Community 329
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Color wells** (4 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
-- **color-wells.md** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **semantic-flow.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
 
 ## Relationships
 
@@ -17,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/color-wells.md`
+- `.agents/skills/archify/test/semantic-flow.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **automatic-port-spread.test.mjs** (5 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
-- **connectionPoints()** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
-- **fanOutArchitecture()** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- **Printing** (4 connections) — `.agents/skills/apple-design/references/hig/printing.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/printing.md`
+- **printing.md** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- `.agents/skills/apple-design/references/hig/printing.md`
 
 ## Audit Trail
 

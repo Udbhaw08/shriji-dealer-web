@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **VoiceOver** (6 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **voiceover.md** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **Descriptions** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **Navigation** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
+- **Labels** (5 connections) — `.agents/skills/apple-design/references/hig/labels.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/labels.md`
+- **labels.md** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/voiceover.md`
+- `.agents/skills/apple-design/references/hig/labels.md`
 
 ## Audit Trail
 
