@@ -1,38 +1,46 @@
 # Community 111
 
-> 17 nodes · cohesion 0.12
+> 17 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **3. Exactly which keys to fetch, and from where** (9 connections) — `docs/ZOHO-INTEGRATION.md`
-- **ZOHO-INTEGRATION.md — Live Zoho Commerce & Books Backend** (7 connections) — `docs/ZOHO-INTEGRATION.md`
-- **5. API surface** (2 connections) — `docs/ZOHO-INTEGRATION.md`
-- **ZOHO-INTEGRATION.md** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **1. Active Integration Summary** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **2. The Code Seams** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.1 Organization ID — from the Commerce dashboard** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.2 Client ID + Client Secret — from the API console, not the store** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.3 Refresh Token — generated once, then permanent** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.4 Scopes** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.5 Data centre** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.6 The API call the keys unlock** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.7 Still to confirm — only the store owner can answer** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **4. Architecture — the part that cannot be skipped** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **6. Migration checklist** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **How to hand the credentials over safely** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **Sources** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **auth.js** (48 connections) — `backend/src/routes/auth.js`
+- **rateLimit.js** (4 connections) — `backend/src/middleware/rateLimit.js`
+- **notify()** (4 connections) — `backend/src/services/notifications.js`
+- **httpError()** (3 connections) — `backend/src/middleware/errorHandler.js`
+- **rateLimit()** (3 connections) — `backend/src/middleware/rateLimit.js`
+- **issueSession()** (3 connections) — `backend/src/routes/auth.js`
+- **linkUserIdentifiers()** (3 connections) — `backend/src/routes/auth.js`
+- **resolveUserWithDealer()** (3 connections) — `backend/src/routes/auth.js`
+- **sendOtpNotification()** (3 connections) — `backend/src/services/notifications.js`
+- **authRouter** (2 connections) — `backend/src/routes/auth.js`
+- **findUserByIdentifier()** (2 connections) — `backend/src/routes/auth.js`
+- **parseIdentifier()** (2 connections) — `backend/src/routes/auth.js`
+- **publicUser()** (2 connections) — `backend/src/routes/auth.js`
+- **buckets** (1 connections) — `backend/src/middleware/rateLimit.js`
+- **googleClient** (1 connections) — `backend/src/routes/auth.js`
+- **lastCrmSyncByDealerId** (1 connections) — `backend/src/routes/auth.js`
+- **strictLimit** (1 connections) — `backend/src/routes/auth.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Project Readme & Layout]] (14 shared connections)
+- [[Community 57]] (12 shared connections)
+- [[Community 79]] (7 shared connections)
+- [[Community 82]] (6 shared connections)
+- [[Community 93]] (5 shared connections)
+- [[Community 145]] (2 shared connections)
 
 ## Source Files
 
-- `docs/ZOHO-INTEGRATION.md`
+- `backend/src/middleware/errorHandler.js`
+- `backend/src/middleware/rateLimit.js`
+- `backend/src/routes/auth.js`
+- `backend/src/services/notifications.js`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 86 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

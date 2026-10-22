@@ -2,7 +2,7 @@
 
 > God node · 60 connections · `backend/src/db/pool.js`
 
-**Community:** [[Zoho API Diagnostic Script]]
+**Community:** [[Project Readme & Layout]]
 
 ## Connections by Relation
 

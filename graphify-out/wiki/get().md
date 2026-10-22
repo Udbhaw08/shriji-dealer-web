@@ -1,8 +1,8 @@
 # get()
 
-> God node · 49 connections · `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+> God node · 49 connections · `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
 
-**Community:** [[Live Pricing Audit Tool]]
+**Community:** [[Zoho Integration Architecture]]
 
 ## Connections by Relation
 

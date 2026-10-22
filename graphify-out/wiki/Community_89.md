@@ -1,42 +1,47 @@
 # Community 89
 
-> 20 nodes · cohesion 0.10
+> 20 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **Example Workflow: SaaS Pricing Page** (7 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 1: Styles Research** (4 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 5: Implementation Blueprint** (4 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 2: Screen Research** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 3: Flow Research** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 4: Synthesis** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **example-workflow.md** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Design Decision Ledger** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Flow Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Flow Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Page Structure** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 0: Discovery** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Quality Gate** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Research Summary** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Screen Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Screen Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Style Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Style Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Tokens** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Visual Direction Synthesis** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **offline-font-browser.test.mjs** (13 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
+- **offline-self-containment.test.mjs** (9 connections) — `.agents/skills/archify/test/offline-self-containment.test.mjs`
+- **offline-fonts.mjs** (7 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **inspectDocuments()** (5 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **assertFontCss()** (4 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **assertOfflineArtifact()** (4 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **evaluate()** (2 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
+- **exported()** (2 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
+- **EXPECTED_FACES** (1 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **FONT_LICENSE** (1 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **actualFonts()** (1 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
+- **options** (1 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
+- **prepare()** (1 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/offline-self-containment.test.mjs`
+- **DIAGRAMS** (1 connections) — `.agents/skills/archify/test/offline-self-containment.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/offline-self-containment.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/offline-self-containment.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/offline-self-containment.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 96]] (1 shared connections)
+- [[Community 51]] (1 shared connections)
+- [[Community 150]] (1 shared connections)
+- [[Community 128]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/example-workflow.md`
+- `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- `.agents/skills/archify/test/offline-font-browser.test.mjs`
+- `.agents/skills/archify/test/offline-self-containment.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 57 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

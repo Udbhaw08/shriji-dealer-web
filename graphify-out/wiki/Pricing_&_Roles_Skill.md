@@ -4,50 +4,49 @@
 
 ## Key Concepts
 
-- **delete()** (29 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **addEventListener()** (21 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **add()** (19 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **h()** (17 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **.removeEventListener()** (16 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **fp()** (14 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **Rp()** (11 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **em()** (9 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **tm()** (9 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **addListener()** (8 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **xp()** (8 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **Bp()** (7 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **.addEventListener()** (7 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **lp()** (7 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **validatePassword()** (7 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **.blur()** (6 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **.scrollIntoView()** (6 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **g()** (6 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **removeListener()** (6 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **v()** (6 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **pm()** (5 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **Qp()** (5 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **registerConsumer()** (5 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **toPromise()** (5 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **up()** (5 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
+- **delete()** (29 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **addEventListener()** (21 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **add()** (19 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **h()** (17 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **.removeEventListener()** (16 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **fp()** (14 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **Rp()** (11 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **em()** (9 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **tm()** (9 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **addListener()** (8 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **xp()** (8 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **Bp()** (7 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **.addEventListener()** (7 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **lp()** (7 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **validatePassword()** (7 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **.blur()** (6 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **.scrollIntoView()** (6 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **g()** (6 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **removeListener()** (6 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **v()** (6 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **pm()** (5 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **Qp()** (5 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **registerConsumer()** (5 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **toPromise()** (5 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **up()** (5 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
 - *... and 30 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (57 shared connections)
-- [[Product Requirements Documentation]] (26 shared connections)
-- [[Master Codebase Architecture Reference]] (19 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (12 shared connections)
-- [[Zoho Integration Skill]] (9 shared connections)
-- [[Community 50]] (8 shared connections)
-- [[Product Brand & Business Vision]] (7 shared connections)
-- [[Community 55]] (6 shared connections)
-- [[Community 44]] (5 shared connections)
-- [[Zoho Integration Architecture]] (4 shared connections)
-- [[Community 124]] (1 shared connections)
+- [[Price Presentation & Product UI]] (58 shared connections)
+- [[Master Codebase Architecture Reference]] (26 shared connections)
+- [[Dependencies & Package Config]] (20 shared connections)
+- [[Architecture Doc Generator]] (13 shared connections)
+- [[Zoho Integration Architecture]] (12 shared connections)
+- [[Product Requirements Documentation]] (8 shared connections)
+- [[Live Pricing Audit Tool]] (7 shared connections)
+- [[Community 54]] (6 shared connections)
+- [[Community 34]] (3 shared connections)
+- [[Community 120]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DjBJvkFA.js`
+- `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
 
 ## Audit Trail
 

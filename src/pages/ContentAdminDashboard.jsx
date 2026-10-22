@@ -1043,14 +1043,36 @@ export default function ContentAdminDashboard() {
 
               <div className="admin-items-list">
                 {brandingItems.map((item) => (
-                  <div key={item.id} className="admin-item-card">
+                  <div
+                    key={item.id}
+                    className={`admin-item-card ${!item.is_active ? "is-inactive" : ""}`}
+                  >
                     <div className="admin-item-thumb-box" style={{ background: "#ffffff" }}>
                       <img src={item.image_url} alt={item.title} />
                     </div>
                     <div className="admin-item-body">
+                      <div className="admin-item-meta-top">
+                        <span className={`status-pill ${item.is_active ? "active" : "inactive"}`}>
+                          <span className="status-dot" />
+                          {item.is_active ? "Active Brand Logo" : "Paused / Inactive"}
+                        </span>
+                      </div>
                       <h3 className="admin-item-title">{item.title}</h3>
                       <p className="admin-item-subtitle">{item.subtitle || "Primary Brand Asset"}</p>
                       <span className="admin-item-id-tag">ID: {item.id}</span>
+
+                      <div className="admin-item-actions-row" style={{ marginTop: "var(--s3)" }}>
+                        <button
+                          type="button"
+                          className="item-action-btn toggle-btn"
+                          onClick={() => handleToggle(item)}
+                          disabled={busy}
+                          title={item.is_active ? "Pause brand logo" : "Activate brand logo"}
+                        >
+                          <span className="item-action-icon">{item.is_active ? "⏸" : "▶"}</span>
+                          <span>{item.is_active ? "Pause" : "Activate"}</span>
+                        </button>
+                      </div>
                     </div>
                   </div>
                 ))}

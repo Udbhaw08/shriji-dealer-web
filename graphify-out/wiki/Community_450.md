@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **test-whatsapp.js** (2 connections) — `backend/scripts/test-whatsapp.js`
-- **__dirname** (1 connections) — `backend/scripts/test-whatsapp.js`
-- **testWhatsApp()** (1 connections) — `backend/scripts/test-whatsapp.js`
+- **renderer-diagnostic-boundary.test.mjs** (2 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
+- **crashingRenderer()** (1 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
+- **runCrashingRenderer()** (1 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `backend/scripts/test-whatsapp.js`
+- `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
 
 ## Audit Trail
 

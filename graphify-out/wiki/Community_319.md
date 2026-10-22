@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **diagram-guide.test.mjs** (6 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
+- **intent-trace.test.mjs** (6 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/diagram-guide.test.mjs`
+- `.agents/skills/archify/test/intent-trace.test.mjs`
 
 ## Audit Trail
 

@@ -1,8 +1,8 @@
 # get()
 
-> God node · 49 connections · `ios/App/App/public/assets/index-DjBJvkFA.js`
+> God node · 49 connections · `ios/App/App/public/assets/index-C9N_FwZx.js`
 
-**Community:** [[Pricing Hierarchy & Zero-Leakage Spec]]
+**Community:** [[Roles & Customer Sharing Spec]]
 
 ## Connections by Relation
 

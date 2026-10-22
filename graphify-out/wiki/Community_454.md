@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **esm-C0fG0yT4.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-C0fG0yT4.js`
-- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-C0fG0yT4.js`
+- **README.md** (1 connections) — `.agents/skills/archify/brand-marks/README.md`
+- **Built-in brand marks** (1 connections) — `.agents/skills/archify/brand-marks/README.md`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/esm-C0fG0yT4.js`
+- `.agents/skills/archify/brand-marks/README.md`
 
 ## Audit Trail
 

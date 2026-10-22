@@ -1,45 +1,52 @@
 # Community 67
 
-> 24 nodes · cohesion 0.08
+> 24 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **Refero Design** (13 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Tool Routing** (5 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Research Workflow** (4 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Synthesis** (4 connections) — `.agents/skills/refero-design/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **1. Research Visual Direction With Styles** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **2. Research Screens For Product Details** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **3. Research Flows For Journey Logic** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Design Craft** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Discovery** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Example** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Journey Logic** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **MCP Setup** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Non-Negotiables** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Present Findings** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Product Pattern** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Quality Gate** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Research Depth** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Use Flows For Journeys** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Use Screens For Concrete UI Patterns** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Use Styles First For Visual Work** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Use Visual Workflow For Images And QA** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Visual Direction** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Workflow Routing** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **intent-trace-browser.test.mjs** (15 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **semantic-lens-browser.test.mjs** (14 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **desktop-browser.mjs** (8 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **desktopBrowser()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **desktopPointerCheck()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **afterTimer()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **hash()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 66]] (11 shared connections)
+- [[Community 51]] (3 shared connections)
+- [[Community 146]] (3 shared connections)
+- [[Community 147]] (3 shared connections)
+- [[Community 128]] (2 shared connections)
+- [[Community 150]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/SKILL.md`
+- `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (100%)
+- EXTRACTED: 103 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

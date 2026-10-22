@@ -1,57 +1,56 @@
 # Architecture Doc Generator
 
-> 60 nodes · cohesion 0.05
+> 58 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **qc()** (24 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **kf()** (23 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **Vr()** (21 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **Pi()** (12 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **Er()** (10 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **Ai()** (9 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **Ga()** (8 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **Ii()** (8 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **In()** (8 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **request()** (8 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **ui()** (8 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **Ar()** (7 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **bc()** (7 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **Fi()** (7 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **ic()** (7 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **ri()** (7 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **fetch()** (6 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **Fo()** (6 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **Lr()** (6 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **ni()** (6 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **rc()** (6 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **Vi()** (6 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **Wr()** (6 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **mi()** (5 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **Po()** (5 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- *... and 35 more nodes in this community*
+- **yl()** (29 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **Z()** (26 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **nl()** (21 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **dl()** (15 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **kl()** (15 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **xl()** (15 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **sl()** (14 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **bl()** (13 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **el()** (13 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **xi()** (12 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **l()** (11 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **rl()** (11 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **ru()** (11 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **yi()** (10 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **zl()** (10 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **Fu()** (9 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **gu()** (9 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **Io()** (9 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **ml()** (9 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **Bo()** (8 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **je()** (8 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **ke()** (8 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **pa()** (8 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **cl()** (7 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **getHeartbeatsHeader()** (7 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- *... and 33 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (63 shared connections)
-- [[Design System & UI Tokens]] (25 shared connections)
-- [[Mobile Responsive UI Skill]] (15 shared connections)
-- [[Community 48]] (11 shared connections)
-- [[Community 62]] (9 shared connections)
-- [[Roles & Customer Sharing Spec]] (8 shared connections)
-- [[Dependencies & Package Config]] (7 shared connections)
-- [[Live Pricing Audit Tool]] (7 shared connections)
-- [[Graphify Knowledge Graph Skill]] (3 shared connections)
-- [[Community 120]] (2 shared connections)
-- [[Community 54]] (2 shared connections)
+- [[Price Presentation & Product UI]] (60 shared connections)
+- [[Product Requirements Documentation]] (35 shared connections)
+- [[Master Codebase Architecture Reference]] (30 shared connections)
+- [[Dependencies & Package Config]] (20 shared connections)
+- [[Zoho Integration Architecture]] (19 shared connections)
+- [[Live Pricing Audit Tool]] (14 shared connections)
+- [[Pricing & Roles Skill]] (13 shared connections)
+- [[Community 54]] (8 shared connections)
+- [[Community 120]] (7 shared connections)
+- [[Community 34]] (6 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
 
 ## Audit Trail
 
-- EXTRACTED: 346 (100%)
+- EXTRACTED: 478 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

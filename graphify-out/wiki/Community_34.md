@@ -1,47 +1,56 @@
 # Community 34
 
-> 41 nodes · cohesion 0.05
+> 40 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **Motion & Micro-interactions Guide** (13 connections) — `.agents/skills/refero-design/references/motion.md`
-- **8. Anti-Patterns** (7 connections) — `.agents/skills/refero-design/references/motion.md`
-- **1. The Motion Pyramid** (5 connections) — `.agents/skills/refero-design/references/motion.md`
-- **4. Micro-interactions That Work** (5 connections) — `.agents/skills/refero-design/references/motion.md`
-- **2. Timing That Actually Works** (4 connections) — `.agents/skills/refero-design/references/motion.md`
-- **3. Easing: Native Feel Without Cringe** (4 connections) — `.agents/skills/refero-design/references/motion.md`
-- **6. Reduced Motion: Not Optional** (4 connections) — `.agents/skills/refero-design/references/motion.md`
-- **5. Motion Tokens for Design Systems** (3 connections) — `.agents/skills/refero-design/references/motion.md`
-- **7. Libraries and Tools** (3 connections) — `.agents/skills/refero-design/references/motion.md`
-- **motion.md** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **9. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Animations Must Be Interruptible** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Basic Principle** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Buttons and Controls** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Component Mapping** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Critical: Never Use `transition: all`** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **CSS Shortcut** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **CSS Tokens** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Duration Reference** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **For Complex Scenarios** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **For Web/SaaS (React/Next)** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Implementation** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Inputs** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- *... and 16 more nodes in this community*
+- **kf()** (23 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **Vr()** (21 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **Pi()** (12 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **Er()** (10 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **In()** (8 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **request()** (8 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **ui()** (8 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **Ar()** (7 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **Fi()** (7 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **ri()** (7 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **fetch()** (6 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **Lr()** (6 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **ni()** (6 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **Vi()** (6 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **mi()** (5 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **qm()** (5 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **rr()** (5 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **xo()** (5 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **yr()** (5 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **zi()** (5 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **bi()** (4 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **br()** (4 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **Cr()** (4 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **Gr()** (4 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **kn()** (4 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (41 shared connections)
+- [[Product Requirements Documentation]] (18 shared connections)
+- [[Master Codebase Architecture Reference]] (15 shared connections)
+- [[Live Pricing Audit Tool]] (6 shared connections)
+- [[Architecture Doc Generator]] (6 shared connections)
+- [[Zoho Integration Architecture]] (5 shared connections)
+- [[Dependencies & Package Config]] (3 shared connections)
+- [[Pricing & Roles Skill]] (3 shared connections)
+- [[Community 120]] (2 shared connections)
+- [[Community 54]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/motion.md`
+- `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
 
 ## Audit Trail
 
-- EXTRACTED: 80 (100%)
+- EXTRACTED: 223 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,57 +1,62 @@
 # Zoho Integration Skill
 
-> 51 nodes · cohesion 0.09
+> 50 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **fl()** (41 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **yl()** (29 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **dl()** (15 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **jc()** (15 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **kl()** (15 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **xl()** (15 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **ll()** (14 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **bl()** (13 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **la()** (13 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **lm()** (12 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **Gc()** (11 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **fa()** (10 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **kc()** (10 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **na()** (10 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **Ca()** (9 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **da()** (9 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **fc()** (9 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **Io()** (9 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **ml()** (9 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **Wi()** (9 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **je()** (8 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **ke()** (8 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **pa()** (8 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **ua()** (8 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- **cl()** (7 connections) — `ios/App/App/public/assets/index-DjBJvkFA.js`
-- *... and 26 more nodes in this community*
+- **Product.jsx** (35 connections) — `src/pages/Product.jsx`
+- **dealer.js** (29 connections) — `src/data/dealer.js`
+- **Products.jsx** (25 connections) — `src/pages/Products.jsx`
+- **Favorites.jsx** (20 connections) — `src/pages/Favorites.jsx`
+- **ProductCard.jsx** (19 connections) — `src/components/ProductCard.jsx`
+- **dealer.test.mjs** (18 connections) — `src/data/dealer.test.mjs`
+- **PriceBlock.jsx** (15 connections) — `src/components/PriceBlock.jsx`
+- **ProductCard()** (15 connections) — `src/components/ProductCard.jsx`
+- **ProductSearchBar.jsx** (15 connections) — `src/components/ProductSearchBar.jsx`
+- **Product()** (15 connections) — `src/pages/Product.jsx`
+- **priceFor()** (14 connections) — `src/data/dealer.js`
+- **useFavorites()** (13 connections) — `src/data/favoritesStore.js`
+- **useProducts()** (12 connections) — `src/data/productsStore.js`
+- **inr()** (11 connections) — `src/data/dealer.js`
+- **searchHelper.js** (11 connections) — `src/data/searchHelper.js`
+- **viewerFor()** (8 connections) — `src/data/dealer.js`
+- **CustomerPrice()** (7 connections) — `src/components/PriceBlock.jsx`
+- **productSlug()** (7 connections) — `src/data/dealer.js`
+- **registerDealer()** (7 connections) — `src/data/dealer.js`
+- **shareLink()** (7 connections) — `src/data/dealer.js`
+- **ProductSearchBar()** (6 connections) — `src/components/ProductSearchBar.jsx`
+- **tagFor()** (6 connections) — `src/data/dealer.js`
+- **DealerPrice()** (5 connections) — `src/components/PriceBlock.jsx`
+- **getSuggestions()** (5 connections) — `src/data/searchHelper.js`
+- **formatWhatsAppPhone()** (4 connections) — `src/data/dealer.js`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (53 shared connections)
-- [[Product Requirements Documentation]] (32 shared connections)
-- [[Community 50]] (22 shared connections)
-- [[Master Codebase Architecture Reference]] (19 shared connections)
-- [[Product Brand & Business Vision]] (18 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (17 shared connections)
-- [[Zoho Integration Architecture]] (16 shared connections)
-- [[Community 44]] (11 shared connections)
-- [[Pricing & Roles Skill]] (9 shared connections)
-- [[Community 55]] (6 shared connections)
-- [[Community 124]] (4 shared connections)
+- [[Pricing Regression Test Suite]] (77 shared connections)
+- [[Community 48]] (17 shared connections)
+- [[Community 168]] (7 shared connections)
+- [[Community 167]] (6 shared connections)
+- [[Community 32]] (4 shared connections)
+- [[Community 109]] (3 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DjBJvkFA.js`
+- `src/components/PriceBlock.jsx`
+- `src/components/ProductCard.jsx`
+- `src/components/ProductSearchBar.jsx`
+- `src/data/dealer.js`
+- `src/data/dealer.test.mjs`
+- `src/data/favoritesStore.js`
+- `src/data/productsStore.js`
+- `src/data/searchHelper.js`
+- `src/pages/Favorites.jsx`
+- `src/pages/Product.jsx`
+- `src/pages/Products.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 441 (100%)
+- EXTRACTED: 374 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

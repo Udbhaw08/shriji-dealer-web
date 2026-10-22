@@ -1,46 +1,38 @@
 # Community 112
 
-> 17 nodes · cohesion 0.15
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **auth.js** (48 connections) — `backend/src/routes/auth.js`
-- **rateLimit.js** (4 connections) — `backend/src/middleware/rateLimit.js`
-- **notify()** (4 connections) — `backend/src/services/notifications.js`
-- **httpError()** (3 connections) — `backend/src/middleware/errorHandler.js`
-- **rateLimit()** (3 connections) — `backend/src/middleware/rateLimit.js`
-- **issueSession()** (3 connections) — `backend/src/routes/auth.js`
-- **linkUserIdentifiers()** (3 connections) — `backend/src/routes/auth.js`
-- **resolveUserWithDealer()** (3 connections) — `backend/src/routes/auth.js`
-- **sendOtpNotification()** (3 connections) — `backend/src/services/notifications.js`
-- **authRouter** (2 connections) — `backend/src/routes/auth.js`
-- **findUserByIdentifier()** (2 connections) — `backend/src/routes/auth.js`
-- **parseIdentifier()** (2 connections) — `backend/src/routes/auth.js`
-- **publicUser()** (2 connections) — `backend/src/routes/auth.js`
-- **buckets** (1 connections) — `backend/src/middleware/rateLimit.js`
-- **googleClient** (1 connections) — `backend/src/routes/auth.js`
-- **lastCrmSyncByDealerId** (1 connections) — `backend/src/routes/auth.js`
-- **strictLimit** (1 connections) — `backend/src/routes/auth.js`
+- **HIG reference lookup** (16 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **hig-lookup.md** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Components › Content** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Components › Layout and organization** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Components › Menus and actions** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Components › Navigation and search** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Components › Presentation** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Components › Selection and input** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Components › Status** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Components › System experiences** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Curated guides** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Foundations** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Getting started** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Inputs** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Pages Apple publishes that are not included** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Patterns** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Technologies** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
 
 ## Relationships
 
-- [[Zoho API Diagnostic Script]] (14 shared connections)
-- [[Community 56]] (12 shared connections)
-- [[Community 76]] (7 shared connections)
-- [[Community 79]] (6 shared connections)
-- [[Community 91]] (5 shared connections)
-- [[Community 147]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `backend/src/middleware/errorHandler.js`
-- `backend/src/middleware/rateLimit.js`
-- `backend/src/routes/auth.js`
-- `backend/src/services/notifications.js`
+- `.agents/skills/apple-design/references/hig-lookup.md`
 
 ## Audit Trail
 
-- EXTRACTED: 86 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

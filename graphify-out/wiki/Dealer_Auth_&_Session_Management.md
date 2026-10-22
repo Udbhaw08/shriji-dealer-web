@@ -1,57 +1,56 @@
 # Dealer Auth & Session Management
 
-> 175 nodes · cohesion 0.02
+> 198 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **_()** (702 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **th()** (12 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **lh()** (9 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **_key()** (8 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **close()** (7 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **_getAppCheckToken()** (7 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **Id()** (7 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **checkDestroyed()** (6 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **_poll()** (6 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **removeAuthTokenListener()** (6 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **_withRetries()** (6 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **wp()** (6 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **addAuthTokenListener()** (5 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **assertAuthConfigured()** (5 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **credential()** (5 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **eh()** (5 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **forEachObserver()** (5 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **getToken()** (5 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **Ih()** (5 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **initializeServiceWorkerMessaging()** (5 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **ir()** (5 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **onExecution()** (5 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **_openPopup()** (5 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **unavailable()** (5 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **unregisterAndCleanUp()** (5 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- *... and 150 more nodes in this community*
+- **_()** (702 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **th()** (12 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **error()** (11 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **lh()** (9 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **_key()** (8 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **xp()** (8 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **close()** (7 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **_getAppCheckToken()** (7 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **Id()** (7 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **It()** (7 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **Sh()** (7 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **validatePassword()** (7 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **vu()** (7 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **checkDestroyed()** (6 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **Ct()** (6 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **Le()** (6 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **onAuthEvent()** (6 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **_poll()** (6 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **removeAuthTokenListener()** (6 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **_u()** (6 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **wc()** (6 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **_withRetries()** (6 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **wp()** (6 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **ac()** (5 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **addAuthTokenListener()** (5 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- *... and 173 more nodes in this community*
 
 ## Relationships
 
-- [[Dependencies & Package Config]] (98 shared connections)
-- [[Live Pricing Audit Tool]] (82 shared connections)
-- [[Design System & UI Tokens]] (81 shared connections)
-- [[Roles & Customer Sharing Spec]] (63 shared connections)
-- [[Architecture Doc Generator]] (63 shared connections)
-- [[Graphify Knowledge Graph Skill]] (58 shared connections)
-- [[Mobile Responsive UI Skill]] (54 shared connections)
-- [[Community 48]] (33 shared connections)
-- [[Community 54]] (28 shared connections)
-- [[Community 62]] (26 shared connections)
-- [[Community 120]] (19 shared connections)
+- [[Product Pages Specification]] (110 shared connections)
+- [[Design System & UI Tokens]] (88 shared connections)
+- [[Roles & Customer Sharing Spec]] (81 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (64 shared connections)
+- [[Product Brand & Business Vision]] (64 shared connections)
+- [[Oxlint Linter Configuration]] (55 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (50 shared connections)
+- [[Community 42]] (43 shared connections)
+- [[Community 56]] (30 shared connections)
+- [[Community 55]] (28 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- `ios/App/App/public/assets/index-C9N_FwZx.js`
 
 ## Audit Trail
 
-- EXTRACTED: 1164 (100%)
+- EXTRACTED: 1276 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

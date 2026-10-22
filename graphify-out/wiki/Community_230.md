@@ -4,30 +4,19 @@
 
 ## Key Concepts
 
-- **Typography Guide** (18 connections) — `.agents/skills/refero-design/references/typography.md`
-- **13. AI-Slop Anti-Patterns** (3 connections) — `.agents/skills/refero-design/references/typography.md`
-- **typography.md** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **15. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **1. The Safe SaaS Preset** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Instant Red Flags** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Quick Test** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **8. Letter Spacing (Tracking)** (9 connections) — `.agents/skills/refero-design/references/typography.md`
+- **ALL CAPS Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **CSS Tokens** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Pre-Implementation Checklist** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Quick Reference** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Small Text Rule — Often Forgotten** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Units** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **When to Tighten** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Why It Matters** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- [[Community 380]] (1 shared connections)
-- [[Community 400]] (1 shared connections)
-- [[Community 381]] (1 shared connections)
-- [[Community 401]] (1 shared connections)
-- [[Community 402]] (1 shared connections)
-- [[Community 403]] (1 shared connections)
-- [[Community 382]] (1 shared connections)
-- [[Community 404]] (1 shared connections)
-- [[Community 405]] (1 shared connections)
-- [[Community 383]] (1 shared connections)
-- [[Community 231]] (1 shared connections)
-- [[Community 432]] (1 shared connections)
+- [[Community 229]] (1 shared connections)
 
 ## Source Files
 
@@ -35,7 +24,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 17 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

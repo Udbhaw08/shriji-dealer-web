@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **fail-migration-cleanup.mjs** (1 connections) — `.agents/skills/archify/test/fixtures/fail-migration-cleanup.mjs`
-- **originalRmSync** (1 connections) — `.agents/skills/archify/test/fixtures/fail-migration-cleanup.mjs`
+- **esm-BssdbzS-.js** (1 connections) — `ios/App/App/public/assets/esm-BssdbzS-.js`
+- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-BssdbzS-.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/fixtures/fail-migration-cleanup.mjs`
+- `ios/App/App/public/assets/esm-BssdbzS-.js`
 
 ## Audit Trail
 

@@ -1,43 +1,41 @@
 # Community 94
 
-> 19 nodes · cohesion 0.13
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **cli.test.mjs** (11 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **generated-artifact-xml.test.mjs** (8 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
-- **xml.mjs** (5 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
-- **extractSvgs()** (4 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
-- **parseXml()** (3 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
-- **visit()** (3 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **copyInstalledSkill()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **makeFakeOpeners()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **artifactRoots** (1 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
-- **trackedHtmlArtifacts()** (1 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
+- **Apple Design Skill** (7 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Step 3: Audit through five lenses, in this order** (6 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Review process** (5 connections) — `.agents/skills/apple-design/SKILL.md`
+- **The references** (3 connections) — `.agents/skills/apple-design/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Always load** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Apple's design principles** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Design improvement mode** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Lens 1: Accessibility (failures are Critical)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Lens 2: Platform conventions (failures are usually High)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Lens 3: Visual design and craft (findings are High or Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Lens 4: Interaction (findings are usually Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Lens 5: Content and writing (findings are usually Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Load by what is on screen** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Specialized review modes** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Step 1: Establish context** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Step 2: Load references** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Step 4: Write the report** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Working rules** (1 connections) — `.agents/skills/apple-design/SKILL.md`
 
 ## Relationships
 
-- [[Community 87]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/cli.test.mjs`
-- `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
-- `.agents/skills/archify/test/helpers/xml.mjs`
+- `.agents/skills/apple-design/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 36 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

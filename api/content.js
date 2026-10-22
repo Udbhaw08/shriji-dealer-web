@@ -20,6 +20,26 @@ export default async function handler(req, res) {
       return res.status(200).json({ ok: true, count: items.length, items });
     }
 
+    // Toggle active status: POST/PATCH /api/content?action=toggle&id=...
+    if (query.action === "toggle" || method === "PATCH" || req.body?.action === "toggle") {
+      const id = query.id || req.body?.id;
+      if (!id) {
+        return res.status(400).json({ ok: false, error: "Item id is required to toggle status." });
+      }
+      const toggled = await toggleStoreContentActive(id);
+      return res.status(200).json({ ok: true, item: toggled });
+    }
+
+    // DELETE /api/content?id=...
+    if (method === "DELETE") {
+      const id = query.id || req.body?.id;
+      if (!id) {
+        return res.status(400).json({ ok: false, error: "Item id is required for deletion." });
+      }
+      const deleted = await deleteStoreContent(id);
+      return res.status(200).json({ ok: true, deleted });
+    }
+
     // POST /api/content - Upsert content
     if (method === "POST") {
       let body = req.body;
@@ -38,26 +58,6 @@ export default async function handler(req, res) {
 
       const item = await upsertStoreContent(body);
       return res.status(200).json({ ok: true, item });
-    }
-
-    // DELETE /api/content?id=...
-    if (method === "DELETE") {
-      const id = query.id || req.body?.id;
-      if (!id) {
-        return res.status(400).json({ ok: false, error: "Item id is required for deletion." });
-      }
-      const deleted = await deleteStoreContent(id);
-      return res.status(200).json({ ok: true, deleted });
-    }
-
-    // PATCH /api/content?action=toggle&id=...
-    if (method === "PATCH" || (method === "POST" && query.action === "toggle")) {
-      const id = query.id || req.body?.id;
-      if (!id) {
-        return res.status(400).json({ ok: false, error: "Item id is required to toggle status." });
-      }
-      const toggled = await toggleStoreContentActive(id);
-      return res.status(200).json({ ok: true, item: toggled });
     }
 
     return res.status(405).json({ ok: false, error: `Method ${method} not allowed` });

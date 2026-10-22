@@ -33,8 +33,8 @@
 
 ## Relationships
 
-- [[Zoho API Diagnostic Script]] (9 shared connections)
-- [[Community 79]] (2 shared connections)
+- [[Project Readme & Layout]] (9 shared connections)
+- [[Community 82]] (2 shared connections)
 
 ## Source Files
 

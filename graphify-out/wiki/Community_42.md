@@ -1,60 +1,57 @@
 # Community 42
 
-> 36 nodes · cohesion 0.10
+> 38 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **render-lifecycle.mjs** (81 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **legend.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **renderLegend()** (14 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **svgAccessibleText()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **svgRootAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **renderDefinitions()** (11 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **resolveLegend()** (10 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **renderSvg()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderLegend()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderLegend()** (6 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **legendFootprint()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **measureLegend()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **relationshipLegendObstacles()** (5 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **bandFor()** (3 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **lifecycleAreaBottom()** (3 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **legendY()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **legendY()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **measureState()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderLifecycleRail()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **measuredEntryWidth()** (2 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- *... and 11 more nodes in this community*
+- **Z()** (26 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **nl()** (21 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **warn()** (16 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **sl()** (14 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **el()** (13 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **xi()** (12 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **l()** (11 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **rl()** (11 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **ru()** (11 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **nc()** (10 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **yi()** (10 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **zl()** (10 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **Fu()** (9 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **gu()** (9 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **Bo()** (8 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **ec()** (8 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **Xu()** (8 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **getHeartbeatsHeader()** (7 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **iu()** (7 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **Nd()** (7 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **ql()** (7 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **yu()** (7 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **ol()** (6 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **tl()** (6 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **eu()** (5 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [[Product Pages Specification]] (45 shared connections)
-- [[Oxlint Linter Configuration]] (31 shared connections)
-- [[Pricing Regression Test Suite]] (18 shared connections)
-- [[Community 52]] (17 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (12 shared connections)
-- [[Community 84]] (9 shared connections)
-- [[Graphify Workflow]] (2 shared connections)
+- [[Dealer Auth & Session Management]] (43 shared connections)
+- [[Design System & UI Tokens]] (22 shared connections)
+- [[Oxlint Linter Configuration]] (22 shared connections)
+- [[Product Pages Specification]] (19 shared connections)
+- [[Roles & Customer Sharing Spec]] (16 shared connections)
+- [[Product Brand & Business Vision]] (13 shared connections)
+- [[Community 56]] (7 shared connections)
+- [[Community 55]] (6 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (5 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/cli.mjs`
-- `.agents/skills/archify/renderers/shared/legend.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `ios/App/App/public/assets/index-C9N_FwZx.js`
 
 ## Audit Trail
 
-- EXTRACTED: 253 (99%)
-- INFERRED: 3 (1%)
+- EXTRACTED: 312 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

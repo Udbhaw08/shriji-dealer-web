@@ -1,33 +1,34 @@
 # Community 162
 
-> 12 nodes · cohesion 0.17
+> 12 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **SF Symbols** (11 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **sf-symbols.md** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Animations** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Custom symbols** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Design variants** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Gradients** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Rendering modes** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Variable color** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Weights and scales** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **additionalProperties** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **required** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **messages** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **activations** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 73]] (4 shared connections)
+- [[Community 99]] (4 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

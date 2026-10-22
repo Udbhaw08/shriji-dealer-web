@@ -1,53 +1,42 @@
 # Community 84
 
-> 21 nodes · cohesion 0.16
+> 21 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **workflow-compiler.mjs** (102 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **createReadableLayout()** (12 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **readableGroupBounds()** (5 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **authoredNodeWidth()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **compileWorkflowWithFeedback()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **authoredNodeHeight()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **compilerFailure()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **feedbackFailure()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **nodeWidthContributor()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **verticalIntervalsOverlap()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **workflowLabelWidth()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **createLegacyLayout()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **stableCompare()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **stableText()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **stableValueKey()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **workflowEdgeName()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **WorkflowLayoutFeedback** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **cloneWorkflow()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **LEGACY_COLUMN_CENTERS** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **READABLE_CANDIDATE_COST_PRIORITY** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **.constructor()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **Machine learning** (15 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **The role of machine learning in your app** (6 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **machine-learning.md** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Attribution** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Calibration** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Confidence** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Corrections** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Critical or complementary** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Dynamic or static** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Explicit feedback** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Implicit feedback** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Limitations** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Mistakes** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Multiple options** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Planning your design** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Private or public** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Proactive or reactive** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Visible or invisible** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
 
 ## Relationships
 
-- [[Product Pages Specification]] (40 shared connections)
-- [[Oxlint Linter Configuration]] (14 shared connections)
-- [[Pricing Regression Test Suite]] (10 shared connections)
-- [[Community 42]] (9 shared connections)
-- [[Community 52]] (7 shared connections)
-- [[Community 134]] (4 shared connections)
-- [[Community 291]] (4 shared connections)
-- [[Community 151]] (1 shared connections)
-- [[Community 60]] (1 shared connections)
-- [[Community 141]] (1 shared connections)
-- [[Graphify Workflow]] (1 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- `.agents/skills/apple-design/references/hig/machine-learning.md`
 
 ## Audit Trail
 
-- EXTRACTED: 161 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

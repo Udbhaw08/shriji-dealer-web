@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Searching** (6 connections) — `.agents/skills/apple-design/references/hig/searching.md`
-- **searching.md** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
-- **Systemwide search** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **Text views** (5 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
+- **text-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/searching.md`
+- `.agents/skills/apple-design/references/hig/text-views.md`
 
 ## Audit Trail
 

@@ -1,58 +1,66 @@
 # Graphify Knowledge Graph Skill
 
-> 55 nodes · cohesion 0.06
+> 56 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **delete()** (29 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **addEventListener()** (21 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **add()** (19 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **h()** (17 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **.removeEventListener()** (16 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **fp()** (14 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **Rp()** (11 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **em()** (9 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **tm()** (9 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **addListener()** (8 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **xp()** (8 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **Bp()** (7 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **.addEventListener()** (7 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **lp()** (7 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **validatePassword()** (7 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **.blur()** (6 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **.scrollIntoView()** (6 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **g()** (6 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **removeListener()** (6 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **v()** (6 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **pm()** (5 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **Qp()** (5 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **registerConsumer()** (5 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **toPromise()** (5 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- **up()** (5 connections) — `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
-- *... and 30 more nodes in this community*
+- **cli.mjs** (43 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **diagnostics.mjs** (27 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **throwDiagnosticError()** (16 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **throwDiagnosticProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **writeDiagram()** (10 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **engineering-profiles.mjs** (10 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **validator.mjs** (10 connections) — `.agents/skills/archify/renderers/shared/validator.mjs`
+- **validateSchema()** (10 connections) — `.agents/skills/archify/renderers/shared/validator.mjs`
+- **engineering-profile.test.mjs** (10 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **render-workflow.mjs** (10 connections) — `.agents/skills/archify/renderers/workflow/render-workflow.mjs`
+- **loadDiagram()** (9 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **loadDiagramWithBrandMarks()** (8 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **settled-flow.test.mjs** (8 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **validateEngineeringProfile()** (6 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **normalizedDiagnostic()** (4 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **deploymentOwnershipDiagnostics()** (4 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **validateGuidedViews()** (3 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **validateRelationshipIds()** (3 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **fallbackDiagnostic()** (3 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **withDiagnosticRecordingSuppressed()** (3 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **renderCards()** (3 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **installRendererDiagnosticBoundary()** (2 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **plainObject()** (2 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **rendererFailure()** (2 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **subject()** (2 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- *... and 31 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (58 shared connections)
-- [[Design System & UI Tokens]] (26 shared connections)
-- [[Dependencies & Package Config]] (20 shared connections)
-- [[Live Pricing Audit Tool]] (12 shared connections)
-- [[Mobile Responsive UI Skill]] (9 shared connections)
-- [[Community 48]] (8 shared connections)
-- [[Roles & Customer Sharing Spec]] (7 shared connections)
-- [[Community 54]] (6 shared connections)
-- [[Community 62]] (4 shared connections)
-- [[Architecture Doc Generator]] (3 shared connections)
-- [[Community 120]] (1 shared connections)
+- [[Graphify Workflow]] (11 shared connections)
+- [[Zoho API Diagnostic Script]] (10 shared connections)
+- [[Community 35]] (10 shared connections)
+- [[Community 86]] (8 shared connections)
+- [[Client Products Data Store]] (8 shared connections)
+- [[Community 31]] (6 shared connections)
+- [[Community 43]] (6 shared connections)
+- [[Community 165]] (6 shared connections)
+- [[Mobile Responsive UI Skill]] (5 shared connections)
+- [[Community 107]] (4 shared connections)
+- [[Community 133]] (4 shared connections)
+- [[Community 205]] (3 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+- `.agents/skills/archify/renderers/shared/cli.mjs`
+- `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `.agents/skills/archify/renderers/shared/validator.mjs`
+- `.agents/skills/archify/renderers/workflow/render-workflow.mjs`
+- `.agents/skills/archify/test/engineering-profile.test.mjs`
+- `.agents/skills/archify/test/settled-flow.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 334 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 256 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

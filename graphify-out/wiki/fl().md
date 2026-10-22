@@ -1,8 +1,8 @@
 # fl()
 
-> God node · 41 connections · `android/app/src/main/assets/public/assets/index-DjBJvkFA.js`
+> God node · 41 connections · `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
 
-**Community:** [[Mobile Responsive UI Skill]]
+**Community:** [[Product Requirements Documentation]]
 
 ## Connections by Relation
 

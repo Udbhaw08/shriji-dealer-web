@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **check-whatsapp-status.js** (2 connections) — `backend/scripts/check-whatsapp-status.js`
-- **checkStatus()** (1 connections) — `backend/scripts/check-whatsapp-status.js`
-- **__dirname** (1 connections) — `backend/scripts/check-whatsapp-status.js`
+- **test-whatsapp.js** (2 connections) — `backend/scripts/test-whatsapp.js`
+- **__dirname** (1 connections) — `backend/scripts/test-whatsapp.js`
+- **testWhatsApp()** (1 connections) — `backend/scripts/test-whatsapp.js`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `backend/scripts/check-whatsapp-status.js`
+- `backend/scripts/test-whatsapp.js`
 
 ## Audit Trail
 

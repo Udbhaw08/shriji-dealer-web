@@ -1,67 +1,73 @@
 # Pricing Regression Test Suite
 
-> 70 nodes · cohesion 0.05
+> 63 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **cli.mjs** (43 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **diagnostics.mjs** (27 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **utils.mjs** (26 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **i18n.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **translateMessage()** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **throwDiagnosticError()** (16 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **writeDiagram()** (10 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **engineering-profiles.mjs** (10 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- **validator.mjs** (10 connections) — `.agents/skills/archify/renderers/shared/validator.mjs`
-- **validateSchema()** (10 connections) — `.agents/skills/archify/renderers/shared/validator.mjs`
-- **engineering-profile.test.mjs** (10 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
-- **render-workflow.mjs** (10 connections) — `.agents/skills/archify/renderers/workflow/render-workflow.mjs`
-- **loadDiagram()** (9 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **applyTemplate()** (9 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **settled-flow.test.mjs** (8 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **resolveLocale()** (7 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **validateEngineeringProfile()** (6 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- **normalizedDiagnostic()** (4 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **deploymentOwnershipDiagnostics()** (4 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- **viewerCatalog()** (4 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **validateGuidedViews()** (3 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **validateRelationshipIds()** (3 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **fallbackDiagnostic()** (3 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **withDiagnosticRecordingSuppressed()** (3 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **localizeTemplate()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- *... and 45 more nodes in this community*
+- **main.jsx** (42 connections) — `src/main.jsx`
+- **ui.jsx** (41 connections) — `src/ui.jsx`
+- **useLanguage()** (32 connections) — `src/data/i18n.js`
+- **useSession()** (30 connections) — `src/data/session.js`
+- **Home.jsx** (26 connections) — `src/pages/Home.jsx`
+- **site.js** (22 connections) — `src/data/site.js`
+- **t()** (19 connections) — `src/data/i18n.js`
+- **isDealer()** (18 connections) — `src/data/dealer.js`
+- **Schemes.jsx** (17 connections) — `src/pages/Schemes.jsx`
+- **Icon()** (17 connections) — `src/ui.jsx`
+- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
+- **Support.jsx** (15 connections) — `src/pages/Support.jsx`
+- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
+- **COMPANY** (14 connections) — `src/data/site.js`
+- **dealerById()** (12 connections) — `src/data/dealer.js`
+- **HeroSlider.jsx** (9 connections) — `src/components/HeroSlider.jsx`
+- **Products()** (9 connections) — `src/pages/Products.jsx`
+- **Header()** (9 connections) — `src/ui.jsx`
+- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
+- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
+- **portalGate.js** (8 connections) — `src/data/portalGate.js`
+- **Favorites()** (8 connections) — `src/pages/Favorites.jsx`
+- **Home()** (8 connections) — `src/pages/Home.jsx`
+- **ContentAdminDashboard.jsx** (7 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **Login()** (7 connections) — `src/pages/Login.jsx`
+- *... and 38 more nodes in this community*
 
 ## Relationships
 
-- [[Oxlint Linter Configuration]] (20 shared connections)
-- [[Community 42]] (18 shared connections)
-- [[Product Pages Specification]] (18 shared connections)
-- [[Community 84]] (10 shared connections)
-- [[Graphify Workflow]] (9 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (6 shared connections)
-- [[Community 52]] (6 shared connections)
-- [[Community 166]] (6 shared connections)
-- [[Community 127]] (5 shared connections)
-- [[Community 108]] (4 shared connections)
-- [[Community 134]] (4 shared connections)
-- [[Community 206]] (3 shared connections)
+- [[Zoho Integration Skill]] (77 shared connections)
+- [[Community 48]] (18 shared connections)
+- [[Community 32]] (12 shared connections)
+- [[Community 168]] (9 shared connections)
+- [[Community 41]] (8 shared connections)
+- [[Community 167]] (2 shared connections)
+- [[Community 387]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/cli.mjs`
-- `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- `.agents/skills/archify/renderers/shared/i18n.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
-- `.agents/skills/archify/renderers/shared/validator.mjs`
-- `.agents/skills/archify/renderers/workflow/render-workflow.mjs`
-- `.agents/skills/archify/test/engineering-profile.test.mjs`
-- `.agents/skills/archify/test/settled-flow.test.mjs`
+- `src/components/EmailVerificationPrompt.jsx`
+- `src/components/HeroSlider.jsx`
+- `src/components/MobileBottomNav.jsx`
+- `src/components/NativeBackHandler.jsx`
+- `src/components/UnderMaintenance.jsx`
+- `src/data/dealer.js`
+- `src/data/i18n.js`
+- `src/data/portalGate.js`
+- `src/data/session.js`
+- `src/data/site.js`
+- `src/main.jsx`
+- `src/pages/ContentAdminDashboard.jsx`
+- `src/pages/DealerDashboard.jsx`
+- `src/pages/Favorites.jsx`
+- `src/pages/Home.jsx`
+- `src/pages/Login.jsx`
+- `src/pages/PrivacyPolicy.jsx`
+- `src/pages/Products.jsx`
+- `src/pages/Schemes.jsx`
+- `src/pages/Support.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 336 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 513 (100%)
+- INFERRED: 2 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

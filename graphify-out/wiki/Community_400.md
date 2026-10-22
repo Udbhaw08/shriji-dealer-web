@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **11. Responsive Typography** (4 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Breakpoint Adjustments** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Fluid Type (Clamp)** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **What Changes** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **3. Font Pairing** (4 connections) — `.agents/skills/refero-design/references/typography.md`
+- **If You Must Pair** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Safe Font Choices by Product Type** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **The One-Font Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- [[Community 230]] (1 shared connections)
+- [[Community 229]] (1 shared connections)
 
 ## Source Files
 

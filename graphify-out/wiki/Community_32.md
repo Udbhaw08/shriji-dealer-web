@@ -33,11 +33,11 @@
 
 ## Relationships
 
-- [[Community 39]] (32 shared connections)
-- [[Community 47]] (13 shared connections)
-- [[Client Products Data Store]] (12 shared connections)
-- [[Claude Agent Instructions]] (4 shared connections)
-- [[Community 169]] (1 shared connections)
+- [[Community 41]] (32 shared connections)
+- [[Community 48]] (13 shared connections)
+- [[Pricing Regression Test Suite]] (12 shared connections)
+- [[Zoho Integration Skill]] (4 shared connections)
+- [[Community 168]] (1 shared connections)
 
 ## Source Files
 

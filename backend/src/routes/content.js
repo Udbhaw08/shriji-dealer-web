@@ -51,9 +51,21 @@ contentRouter.get('/all', async (req, res, next) => {
   }
 });
 
-// POST /api/content (Upsert item in Supabase)
+// POST /api/content (Upsert item in Supabase OR toggle active)
 contentRouter.post('/', async (req, res, next) => {
   try {
+    if (req.query.action === 'toggle' || req.body?.action === 'toggle') {
+      const id = req.query.id || req.body?.id;
+      if (!id) return res.status(400).json({ error: 'Item id is required to toggle status.' });
+      const updated = await sql`
+        UPDATE public.store_content
+        SET is_active = NOT is_active, updated_at = NOW()
+        WHERE id = ${id}
+        RETURNING *;
+      `;
+      return res.json({ ok: true, item: updated[0] || null });
+    }
+
     const {
       id,
       type,
