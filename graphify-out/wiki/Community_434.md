@@ -10,7 +10,7 @@
 
 ## Relationships
 
-- [[Pricing & Roles Skill]] (1 shared connections)
+- [[Mobile Responsive UI Skill]] (1 shared connections)
 
 ## Source Files
 

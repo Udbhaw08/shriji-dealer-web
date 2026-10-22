@@ -34,14 +34,14 @@
 ## Relationships
 
 - [[Product Pages Specification]] (45 shared connections)
-- [[Community 32]] (42 shared connections)
-- [[Community 35]] (35 shared connections)
+- [[Community 30]] (42 shared connections)
+- [[Community 34]] (35 shared connections)
 - [[Product Brand & Business Vision]] (21 shared connections)
-- [[Community 83]] (14 shared connections)
-- [[Community 107]] (12 shared connections)
-- [[Product Requirements Documentation]] (11 shared connections)
-- [[Zoho Integration Skill]] (7 shared connections)
-- [[Community 60]] (5 shared connections)
+- [[Community 82]] (14 shared connections)
+- [[Community 110]] (12 shared connections)
+- [[Design System & UI Tokens]] (11 shared connections)
+- [[Claude Agent Instructions]] (7 shared connections)
+- [[Community 59]] (5 shared connections)
 - [[Community 85]] (2 shared connections)
 
 ## Source Files

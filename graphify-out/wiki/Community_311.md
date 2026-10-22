@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Visual Workflow** (6 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **visual-workflow.md** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Generated Assets** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Image Generation Capability** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Three Visual Directions** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Visual QA** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Visual Target Gate** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **VoiceOver** (6 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
+- **voiceover.md** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
+- **Descriptions** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
+- **Navigation** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/visual-workflow.md`
+- `.agents/skills/apple-design/references/hig/voiceover.md`
 
 ## Audit Trail
 

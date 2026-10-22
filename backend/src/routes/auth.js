@@ -31,7 +31,7 @@ export async function resolveUserWithDealer(user) {
   const email = normalizeEmail(user.email);
   const rows = await sql`
     select d.id, d.status from dealers d join users owner on owner.id = d.owner_user_id
-    where d.id = ${user.dealer_id} ${email ? sql`or lower(owner.email) = ${email}` : sql``}
+    where d.id = ${user.dealer_id || null} ${email ? sql`or lower(owner.email) = ${email}` : sql``}
     order by case when d.status = 'approved' then 1 when d.status = 'pending' then 2 else 3 end asc
     limit 1`;
   const dealer = rows[0];

@@ -33,17 +33,17 @@
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (64 shared connections)
-- [[Community 53]] (22 shared connections)
-- [[Community 48]] (15 shared connections)
-- [[Graphify Knowledge Graph Skill]] (14 shared connections)
-- [[Community 111]] (10 shared connections)
-- [[Community 44]] (9 shared connections)
-- [[Design System & UI Tokens]] (8 shared connections)
-- [[Community 34]] (8 shared connections)
+- [[Dealer Auth & Session Management]] (64 shared connections)
+- [[Community 52]] (22 shared connections)
+- [[Community 37]] (15 shared connections)
+- [[Pricing & Roles Skill]] (14 shared connections)
+- [[Community 114]] (10 shared connections)
+- [[Community 42]] (9 shared connections)
+- [[Client Products Data Store]] (8 shared connections)
+- [[Community 33]] (8 shared connections)
 - [[Community 87]] (6 shared connections)
-- [[Community 61]] (5 shared connections)
-- [[Community 54]] (5 shared connections)
+- [[Community 60]] (5 shared connections)
+- [[Community 65]] (5 shared connections)
 
 ## Source Files
 

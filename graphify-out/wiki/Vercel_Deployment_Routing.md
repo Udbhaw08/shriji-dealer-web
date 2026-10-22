@@ -1,57 +1,55 @@
 # Vercel Deployment Routing
 
-> 39 nodes · cohesion 0.09
+> 39 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **.addEventListener()** (19 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **b()** (18 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **h()** (14 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **fp()** (13 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **.removeEventListener()** (12 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **delete()** (11 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **cm()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **E()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **lp()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **tm()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **em()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **.blur()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **.scrollIntoView()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ol()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **v()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **g()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **hm()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **pm()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Rp()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **uh()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **x()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Bp()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **dl()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **.getClientRects()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **kl()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **offline-font-browser.test.mjs** (13 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
+- **cli.test.mjs** (11 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **offline-self-containment.test.mjs** (9 connections) — `.agents/skills/archify/test/offline-self-containment.test.mjs`
+- **generated-artifact-xml.test.mjs** (8 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
+- **offline-fonts.mjs** (7 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **inspectDocuments()** (5 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **xml.mjs** (5 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
+- **assertFontCss()** (4 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **assertOfflineArtifact()** (4 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **extractSvgs()** (4 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
+- **parseXml()** (3 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
+- **visit()** (3 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
+- **evaluate()** (2 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
+- **exported()** (2 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
+- **EXPECTED_FACES** (1 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **FONT_LICENSE** (1 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **copyInstalledSkill()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **makeFakeOpeners()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **artifactRoots** (1 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
 - *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (39 shared connections)
-- [[Client Products Data Store]] (14 shared connections)
-- [[Community 51]] (8 shared connections)
-- [[Master Codebase Architecture Reference]] (8 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (7 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (7 shared connections)
-- [[Community 45]] (5 shared connections)
-- [[Community 73]] (5 shared connections)
-- [[Community 43]] (4 shared connections)
-- [[Community 114]] (2 shared connections)
+- [[Community 40]] (1 shared connections)
+- [[Community 84]] (1 shared connections)
+- [[Community 132]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- `.agents/skills/archify/test/cli.test.mjs`
+- `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
+- `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- `.agents/skills/archify/test/helpers/xml.mjs`
+- `.agents/skills/archify/test/offline-font-browser.test.mjs`
+- `.agents/skills/archify/test/offline-self-containment.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 229 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 103 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

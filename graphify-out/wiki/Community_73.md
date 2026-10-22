@@ -1,52 +1,45 @@
 # Community 73
 
-> 23 nodes · cohesion 0.16
+> 23 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **l()** (31 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **be()** (13 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **yl()** (13 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Oe()** (11 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **vl()** (10 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ga()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **la()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Lo()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Do()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ea()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ie()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **pl()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ae()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **fl()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ge()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ke()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ve()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **se()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Ud()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Ym()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **gl()** (2 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **hl()** (2 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Wf()** (2 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **properties** (8 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **layout** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **cols** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **cellH** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **cellW** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **gapX** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **gapY** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **origin** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **maximum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (26 shared connections)
-- [[Client Products Data Store]] (13 shared connections)
-- [[Master Codebase Architecture Reference]] (7 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (6 shared connections)
-- [[Community 45]] (6 shared connections)
-- [[Vercel Deployment Routing]] (5 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (4 shared connections)
-- [[Community 51]] (3 shared connections)
-- [[Community 43]] (1 shared connections)
+- [[Community 179]] (1 shared connections)
+- [[Community 77]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 151 (100%)
+- EXTRACTED: 46 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

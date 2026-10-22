@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **width** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **labelSegment** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 - **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 - **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- [[Community 29]] (1 shared connections)
+- [[Roles & Customer Sharing Spec]] (1 shared connections)
 
 ## Source Files
 

@@ -33,13 +33,13 @@
 
 ## Relationships
 
-- [[Community 36]] (55 shared connections)
+- [[Community 35]] (55 shared connections)
 - [[Dependencies & Package Config]] (29 shared connections)
-- [[Community 49]] (19 shared connections)
-- [[Community 108]] (18 shared connections)
-- [[Community 168]] (9 shared connections)
-- [[Community 167]] (2 shared connections)
-- [[Community 388]] (1 shared connections)
+- [[Community 47]] (19 shared connections)
+- [[Community 111]] (18 shared connections)
+- [[Community 170]] (9 shared connections)
+- [[Community 169]] (2 shared connections)
+- [[Community 390]] (1 shared connections)
 
 ## Source Files
 

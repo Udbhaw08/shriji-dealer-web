@@ -4,54 +4,47 @@
 
 ## Key Concepts
 
-- **pool.js** (30 connections) — `backend/src/db/pool.js`
-- **env.js** (14 connections) — `backend/src/config/env.js`
-- **env** (11 connections) — `backend/src/config/env.js`
-- **notifications.js** (9 connections) — `backend/src/services/notifications.js`
-- **sync-supabase-content.js** (6 connections) — `backend/scripts/sync-supabase-content.js`
-- **upload.js** (5 connections) — `api/upload.js`
-- **migrate-content.js** (3 connections) — `backend/scripts/migrate-content.js`
-- **test-storage.js** (3 connections) — `backend/scripts/test-storage.js`
-- **notify()** (3 connections) — `backend/src/services/notifications.js`
-- **handler()** (2 connections) — `api/upload.js`
-- **syncAll()** (2 connections) — `backend/scripts/sync-supabase-content.js`
-- **sendEmailOtp()** (2 connections) — `backend/src/services/notifications.js`
-- **ALLOWED_FOLDERS** (1 connections) — `api/upload.js`
-- **MIME_TYPES** (1 connections) — `api/upload.js`
-- **bool()** (1 connections) — `backend/src/config/env.js`
-- **__dirname** (1 connections) — `backend/src/config/env.js`
-- **num()** (1 connections) — `backend/src/config/env.js`
-- **tx()** (1 connections) — `backend/src/db/pool.js`
-- **main()** (1 connections) — `backend/scripts/migrate-content.js`
-- **__dirname** (1 connections) — `backend/scripts/sync-supabase-content.js`
-- **IMAGES** (1 connections) — `backend/scripts/sync-supabase-content.js`
-- **PROJECT_ROOT** (1 connections) — `backend/scripts/sync-supabase-content.js`
-- **main()** (1 connections) — `backend/scripts/test-storage.js`
+- **pull-hig.mjs** (65 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **crawlSection()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **fetchPageJson()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **abstractOf()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **anchorEntries()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **anchorMapFor()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **listedPages()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **plainText()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **ALL_PLATFORMS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **cellText()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **collectReferences()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **CURATED_FILES** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **DESIGNING_FOR_COVERAGE** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **DROPPED_PLATFORMS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **githubSlug()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **IMAGE_GLYPHS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **KEPT_PLATFORMS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **OMITTED_PAGES** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **PLATFORM_LIST_RE** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **PLATFORM_NAMES** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **platformsOf()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **REPO_ROOT** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **SECTIONS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- [[Community 33]] (17 shared connections)
-- [[Community 88]] (11 shared connections)
-- [[Community 55]] (10 shared connections)
-- [[Community 50]] (7 shared connections)
-- [[Community 139]] (2 shared connections)
-- [[Community 127]] (2 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (2 shared connections)
+- [[Community 203]] (10 shared connections)
+- [[Community 204]] (10 shared connections)
+- [[Community 236]] (9 shared connections)
+- [[Community 272]] (8 shared connections)
+- [[Community 354]] (6 shared connections)
+- [[Community 244]] (1 shared connections)
 
 ## Source Files
 
-- `api/upload.js`
-- `backend/scripts/migrate-content.js`
-- `backend/scripts/sync-supabase-content.js`
-- `backend/scripts/test-storage.js`
-- `backend/src/config/env.js`
-- `backend/src/db/pool.js`
-- `backend/src/services/notifications.js`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 101 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 95 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

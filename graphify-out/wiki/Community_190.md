@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **Maps** (7 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Place cards** (3 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **maps.md** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Adding place cards outside of a map** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Custom information** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Displaying place cards in a map** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Indoor maps** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **App Shortcuts** (6 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Best practices** (2 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **app-shortcuts.md** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Editorial guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Responding to App Shortcuts** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
 
 ## Relationships
 
@@ -21,7 +21,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/maps.md`
+- `.agents/skills/apple-design/references/hig/app-shortcuts.md`
 
 ## Audit Trail
 

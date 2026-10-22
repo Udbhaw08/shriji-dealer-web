@@ -2,7 +2,7 @@
 
 > God node · 37 connections · `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
 
-**Community:** [[Master Codebase Architecture Reference]]
+**Community:** [[Product Requirements Documentation]]
 
 ## Connections by Relation
 

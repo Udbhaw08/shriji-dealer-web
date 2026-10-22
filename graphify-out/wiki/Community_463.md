@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **labelAt** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **fromSide** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 - **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- [[Claude Agent Instructions]] (1 shared connections)
+- [[Project Readme & Layout]] (1 shared connections)
 
 ## Source Files
 

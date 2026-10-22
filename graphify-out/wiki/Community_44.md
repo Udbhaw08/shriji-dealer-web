@@ -1,57 +1,57 @@
 # Community 44
 
-> 30 nodes · cohesion 0.12
+> 29 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **Pd()** (15 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **sc()** (11 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **ic()** (9 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **xs()** (9 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **ho()** (8 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **jd()** (8 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **ac()** (7 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **cc()** (7 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **ec()** (7 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **dh()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **gf()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **mo()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **Oi()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **pt()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **Ti()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **dc()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **lc()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **No()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **oc()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **vf()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **wi()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **go()** (4 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **gt()** (4 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **pf()** (4 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **yi()** (4 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- *... and 5 more nodes in this community*
+- **D()** (28 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **qd()** (14 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Yd()** (13 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Fd()** (12 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Vd()** (12 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **rf()** (11 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **df()** (10 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **kc()** (9 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **ff()** (8 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **ct()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Rd()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Bd()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Ci()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **ef()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **nf()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Hd()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Id()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Kd()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **lf()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **mf()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **ns()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **tf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Gd()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **uf()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
 - [[Price Presentation & Product UI]] (31 shared connections)
-- [[Zoho Integration Architecture]] (9 shared connections)
-- [[Community 53]] (7 shared connections)
-- [[Community 34]] (4 shared connections)
-- [[Community 48]] (4 shared connections)
-- [[Community 61]] (4 shared connections)
-- [[Design System & UI Tokens]] (3 shared connections)
-- [[Graphify Knowledge Graph Skill]] (3 shared connections)
-- [[Community 111]] (2 shared connections)
-- [[Community 87]] (1 shared connections)
-- [[Community 54]] (1 shared connections)
+- [[Master Codebase Architecture Reference]] (16 shared connections)
+- [[Product Requirements Documentation]] (15 shared connections)
+- [[Community 49]] (10 shared connections)
+- [[Graphify Knowledge Graph Skill]] (8 shared connections)
+- [[Community 83]] (6 shared connections)
+- [[Community 41]] (4 shared connections)
+- [[Community 32]] (4 shared connections)
+- [[Community 50]] (4 shared connections)
+- [[Community 109]] (3 shared connections)
+- [[Community 58]] (3 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CpwYb6dU.js`
+- `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
 
 ## Audit Trail
 
-- EXTRACTED: 175 (100%)
+- EXTRACTED: 208 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

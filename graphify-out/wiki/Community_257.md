@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Onboarding** (7 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
-- **onboarding.md** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
-- **Additional content** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
-- **Additional requests** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Motion** (7 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **motion.md** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **Leveraging platform capabilities** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **Providing feedback** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/onboarding.md`
+- `.agents/skills/apple-design/references/hig/motion.md`
 
 ## Audit Trail
 

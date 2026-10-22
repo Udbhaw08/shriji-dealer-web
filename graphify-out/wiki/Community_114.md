@@ -1,45 +1,48 @@
 # Community 114
 
-> 16 nodes · cohesion 0.23
+> 17 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **Mr()** (15 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **r()** (15 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Pr()** (14 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Dr()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Hr()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **tn()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Wr()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Fr()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Ir()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Rr()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Ur()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Cr()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Lr()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Nr()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **zr()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **tc()** (2 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **ki()** (12 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Pa()** (12 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **ta()** (12 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Nn()** (11 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **mt()** (10 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **A()** (9 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **ka()** (9 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **sa()** (9 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **ha()** (7 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **ua()** (7 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **mi()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **fa()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **qn()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Zn()** (4 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **io()** (3 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **qt()** (3 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **uo()** (3 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (20 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (5 shared connections)
-- [[Master Codebase Architecture Reference]] (5 shared connections)
-- [[Client Products Data Store]] (3 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (3 shared connections)
-- [[Vercel Deployment Routing]] (2 shared connections)
-- [[Community 45]] (1 shared connections)
-- [[Community 51]] (1 shared connections)
-- [[Community 43]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (18 shared connections)
+- [[Client Products Data Store]] (12 shared connections)
+- [[Zoho Integration Architecture]] (10 shared connections)
+- [[Pricing & Roles Skill]] (5 shared connections)
+- [[Community 87]] (4 shared connections)
+- [[Community 52]] (4 shared connections)
+- [[Community 60]] (4 shared connections)
+- [[Community 65]] (4 shared connections)
+- [[Community 37]] (3 shared connections)
+- [[Community 33]] (3 shared connections)
+- [[Community 42]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- `ios/App/App/public/assets/index-CpwYb6dU.js`
 
 ## Audit Trail
 
-- EXTRACTED: 95 (100%)
+- EXTRACTED: 127 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -33,15 +33,15 @@
 
 ## Relationships
 
-- [[Community 32]] (63 shared connections)
+- [[Community 30]] (63 shared connections)
 - [[Architecture Doc Generator]] (45 shared connections)
 - [[Product Brand & Business Vision]] (35 shared connections)
-- [[Community 35]] (33 shared connections)
-- [[Community 83]] (31 shared connections)
-- [[Product Requirements Documentation]] (8 shared connections)
+- [[Community 34]] (33 shared connections)
+- [[Community 82]] (31 shared connections)
+- [[Design System & UI Tokens]] (8 shared connections)
 - [[Live Pricing Audit Tool]] (6 shared connections)
-- [[Community 107]] (4 shared connections)
-- [[Community 290]] (3 shared connections)
+- [[Community 110]] (4 shared connections)
+- [[Community 292]] (3 shared connections)
 
 ## Source Files
 

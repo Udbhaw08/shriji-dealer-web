@@ -1,57 +1,61 @@
 # Community 53
 
-> 27 nodes · cohesion 0.14
+> 27 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **i()** (66 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **n()** (26 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **is()** (12 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **as()** (9 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **os()** (8 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **xo()** (7 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **ds()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **ps()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **qs()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **us()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **ys()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **bs()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **Qo()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **ss()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **fs()** (4 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **ms()** (4 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **rs()** (4 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **so()** (4 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **eo()** (3 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **Qe()** (3 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **to()** (3 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **tu()** (3 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **za()** (3 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **zs()** (3 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **ks()** (2 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **auth.js** (47 connections) — `backend/src/routes/auth.js`
+- **dealerApp.js** (24 connections) — `backend/src/services/dealerApp.js`
+- **webhooks.js** (14 connections) — `backend/src/routes/webhooks.js`
+- **validators.js** (14 connections) — `backend/src/utils/validators.js`
+- **applyCrmAccountState()** (12 connections) — `backend/src/services/dealerApp.js`
+- **normalizePhone()** (12 connections) — `backend/src/utils/phone.js`
+- **normalizeEmail()** (12 connections) — `backend/src/utils/validators.js`
+- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
+- **cleanName()** (7 connections) — `backend/src/utils/validators.js`
+- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
+- **phone.js** (6 connections) — `backend/src/utils/phone.js`
+- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
+- **applyCrmContactState()** (5 connections) — `backend/src/services/dealerApp.js`
+- **isValidPhone()** (5 connections) — `backend/src/utils/validators.js`
+- **resolveUserWithDealer()** (4 connections) — `backend/src/routes/auth.js`
+- **isValidEmail()** (4 connections) — `backend/src/utils/validators.js`
+- **isValidName()** (4 connections) — `backend/src/utils/validators.js`
+- **emailOnlyIdentifier()** (3 connections) — `backend/src/routes/auth.js`
+- **findUserByEmail()** (3 connections) — `backend/src/routes/auth.js`
+- **issueSession()** (3 connections) — `backend/src/routes/auth.js`
+- **isValidGstin()** (3 connections) — `backend/src/utils/validators.js`
+- **publicUser()** (2 connections) — `backend/src/routes/auth.js`
+- **crmSync.test.mjs** (2 connections) — `backend/test/crmSync.test.mjs`
+- **isValidPincode()** (2 connections) — `backend/src/utils/validators.js`
+- **googleClient** (1 connections) — `backend/src/routes/auth.js`
 - *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (34 shared connections)
-- [[Zoho Integration Architecture]] (22 shared connections)
-- [[Graphify Knowledge Graph Skill]] (11 shared connections)
-- [[Community 48]] (10 shared connections)
-- [[Design System & UI Tokens]] (9 shared connections)
-- [[Community 34]] (7 shared connections)
-- [[Community 44]] (7 shared connections)
-- [[Community 61]] (7 shared connections)
-- [[Community 111]] (4 shared connections)
-- [[Community 87]] (3 shared connections)
-- [[Community 54]] (1 shared connections)
+- [[Community 31]] (28 shared connections)
+- [[Community 129]] (16 shared connections)
+- [[Community 88]] (11 shared connections)
+- [[Community 71]] (10 shared connections)
+- [[Community 48]] (6 shared connections)
+- [[Community 92]] (6 shared connections)
+- [[Community 141]] (5 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CpwYb6dU.js`
+- `backend/src/routes/auth.js`
+- `backend/src/routes/webhooks.js`
+- `backend/src/services/crmClient.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/utils/phone.js`
+- `backend/src/utils/validators.js`
+- `backend/test/crmSync.test.mjs`
+- `backend/test/interconnection.test.mjs`
+- `backend/test/validators.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 213 (100%)
+- EXTRACTED: 210 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

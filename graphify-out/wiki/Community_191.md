@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **Notifications** (9 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **notifications.md** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Badging** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Notification actions** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Layout** (7 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Adaptability** (2 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **layout.md** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Guides and safe areas** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Size classes** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Visual hierarchy** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
 
 ## Relationships
 
@@ -21,7 +21,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/notifications.md`
+- `.agents/skills/apple-design/references/hig/layout.md`
 
 ## Audit Trail
 

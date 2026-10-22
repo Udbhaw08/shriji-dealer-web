@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Motion** (7 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **motion.md** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **Leveraging platform capabilities** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **Providing feedback** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **Keyboards** (7 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **keyboards.md** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Custom keyboard shortcuts** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Standard keyboard shortcuts** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/motion.md`
+- `.agents/skills/apple-design/references/hig/keyboards.md`
 
 ## Audit Trail
 

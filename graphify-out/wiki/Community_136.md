@@ -1,23 +1,23 @@
 # Community 136
 
-> 14 nodes · cohesion 0.14
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **Icons & Glyphs Guide** (10 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Libraries** (4 connections) — `.agents/skills/refero-design/references/icons.md`
-- **icons.md** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Accessibility** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Color** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **For Product UI (SVG-based)** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Icon Sizing** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Icon + Text Pairing** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Optical Corrections** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Style Consistency** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Two Contexts** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Variable Glyph Systems** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **When to Use What** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **web-DYm2hFZ2.js** (13 connections) — `ios/App/App/public/assets/web-DYm2hFZ2.js`
+- **applyPrefix()** (4 connections) — `ios/App/App/public/assets/web-DYm2hFZ2.js`
+- **keys()** (4 connections) — `ios/App/App/public/assets/web-DYm2hFZ2.js`
+- **get()** (3 connections) — `ios/App/App/public/assets/web-DYm2hFZ2.js`
+- **migrate()** (3 connections) — `ios/App/App/public/assets/web-DYm2hFZ2.js`
+- **rawKeys()** (3 connections) — `ios/App/App/public/assets/web-DYm2hFZ2.js`
+- **clear()** (2 connections) — `ios/App/App/public/assets/web-DYm2hFZ2.js`
+- **remove()** (2 connections) — `ios/App/App/public/assets/web-DYm2hFZ2.js`
+- **removeOld()** (2 connections) — `ios/App/App/public/assets/web-DYm2hFZ2.js`
+- **set()** (2 connections) — `ios/App/App/public/assets/web-DYm2hFZ2.js`
+- **configure()** (1 connections) — `ios/App/App/public/assets/web-DYm2hFZ2.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-DYm2hFZ2.js`
+- **impl()** (1 connections) — `ios/App/App/public/assets/web-DYm2hFZ2.js`
+- **prefix()** (1 connections) — `ios/App/App/public/assets/web-DYm2hFZ2.js`
 
 ## Relationships
 
@@ -25,11 +25,11 @@
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/icons.md`
+- `ios/App/App/public/assets/web-DYm2hFZ2.js`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

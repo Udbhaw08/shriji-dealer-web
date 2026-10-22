@@ -1,31 +1,33 @@
 # Community 209
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **web-LahCMPHe.js** (8 connections) — `android/app/src/main/assets/public/assets/web-LahCMPHe.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-LahCMPHe.js`
-- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-LahCMPHe.js`
-- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-LahCMPHe.js`
-- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-LahCMPHe.js`
-- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-LahCMPHe.js`
-- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-LahCMPHe.js`
-- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-LahCMPHe.js`
-- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-LahCMPHe.js`
+- **v1-compatibility.test.mjs** (9 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **validate()** (3 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **check()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **legacyDataflowDocument()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **narrowExplicitViewBoxDocuments()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **OFFICIAL_V1_EXAMPLES** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 99]] (1 shared connections)
+- [[Design System & UI Tokens]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/web-LahCMPHe.js`
+- `.agents/skills/archify/test/v1-compatibility.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 18 (90%)
+- INFERRED: 2 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

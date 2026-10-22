@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Data flow, shared state, and property wrappers** (7 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **data.md** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **Bindings** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **If the project uses SwiftData with CloudKit** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **Local state** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **Shared state** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **SwiftData** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **Working with data** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
+- **Text fields** (5 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **text-fields.md** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/data.md`
+- `.agents/skills/apple-design/references/hig/text-fields.md`
 
 ## Audit Trail
 

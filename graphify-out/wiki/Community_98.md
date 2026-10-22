@@ -26,8 +26,8 @@
 
 ## Relationships
 
-- [[Community 29]] (2 shared connections)
-- [[Community 113]] (1 shared connections)
+- [[Roles & Customer Sharing Spec]] (2 shared connections)
+- [[Community 105]] (1 shared connections)
 
 ## Source Files
 

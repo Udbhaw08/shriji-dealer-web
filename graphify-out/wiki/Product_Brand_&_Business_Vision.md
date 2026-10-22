@@ -35,13 +35,13 @@
 
 - [[Product Pages Specification]] (35 shared connections)
 - [[Architecture Doc Generator]] (21 shared connections)
-- [[Community 32]] (19 shared connections)
-- [[Community 35]] (14 shared connections)
-- [[Product Requirements Documentation]] (5 shared connections)
-- [[Community 107]] (4 shared connections)
-- [[Community 42]] (3 shared connections)
-- [[Zoho Integration Skill]] (1 shared connections)
-- [[Community 83]] (1 shared connections)
+- [[Community 30]] (19 shared connections)
+- [[Community 34]] (14 shared connections)
+- [[Design System & UI Tokens]] (5 shared connections)
+- [[Community 110]] (4 shared connections)
+- [[Community 40]] (3 shared connections)
+- [[Claude Agent Instructions]] (1 shared connections)
+- [[Community 82]] (1 shared connections)
 
 ## Source Files
 

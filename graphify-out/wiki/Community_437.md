@@ -10,7 +10,7 @@
 
 ## Relationships
 
-- [[Oxlint Linter Configuration]] (1 shared connections)
+- [[Zoho Integration Skill]] (1 shared connections)
 
 ## Source Files
 
