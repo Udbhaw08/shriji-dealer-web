@@ -1,55 +1,47 @@
 # Community 60
 
-> 25 nodes · cohesion 0.12
+> 26 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **t()** (20 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **c()** (8 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **hh()** (8 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **yh()** (8 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **Mp()** (7 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **fh()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **mh()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **ph()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **s()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **Sh()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **zd()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **bh()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **eh()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **Ih()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **th()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **Qa()** (4 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **vt()** (4 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **ah()** (3 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **nh()** (3 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **rh()** (3 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **vh()** (3 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **Xm()** (3 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **xt()** (3 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **ls()** (2 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **zh()** (2 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **layout-rules.test.mjs** (25 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **assertRelationshipsAvoidAllNodeBorders()** (5 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **workflowNodeBorderOverlap()** (3 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **assertWorkflowEdgesAvoidAllNodeBorders()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **axisOverlapLength()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **workflowEdgePoints()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **workflowNodeRect()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **ambiguousCorridorDocument()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **autoRoutePassThroughDocument()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **boundaryFrameRect()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **boundaryTitleMasks()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **hash()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **load()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **rectanglesOverlap()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **rectContainsRect()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **SHRINK_CASES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **TAG_SHRINK_CASES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **tangentViaLifecycle()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **validateCli()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (27 shared connections)
-- [[Client Products Data Store]] (7 shared connections)
-- [[Community 52]] (7 shared connections)
-- [[Zoho Integration Architecture]] (5 shared connections)
-- [[Community 114]] (4 shared connections)
-- [[Community 37]] (4 shared connections)
-- [[Community 42]] (4 shared connections)
-- [[Community 33]] (4 shared connections)
-- [[Pricing & Roles Skill]] (2 shared connections)
-- [[Community 65]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CpwYb6dU.js`
+- `.agents/skills/archify/test/layout-rules.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 137 (100%)
+- EXTRACTED: 60 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

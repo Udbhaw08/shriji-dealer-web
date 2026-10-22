@@ -1,49 +1,47 @@
 # Community 110
 
-> 17 nodes · cohesion 0.21
+> 17 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **utils.mjs** (26 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **i18n.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **translateMessage()** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **applyTemplate()** (9 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **resolveLocale()** (7 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **componentContext()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **viewerCatalog()** (4 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **localizeTemplate()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **translateCount()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **formatMessage()** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **serializeScriptJson()** (2 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **CATALOGS** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **ESCAPE_MAP** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **MESSAGE_PAIRS** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **SIGIL_SHAPE** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **SIGIL_TONE** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **TEMPLATE_PLACEHOLDERS** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **Icon()** (18 connections) — `src/ui.jsx`
+- **ContentAdminDashboard.jsx** (12 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **HeroSlider.jsx** (11 connections) — `src/components/HeroSlider.jsx`
+- **video.js** (5 connections) — `src/utils/video.js`
+- **FileOrUrlInput.jsx** (4 connections) — `src/components/FileOrUrlInput.jsx`
+- **parseVideoUrl()** (4 connections) — `src/utils/video.js`
+- **HeroSlider()** (3 connections) — `src/components/HeroSlider.jsx`
+- **STATS** (3 connections) — `src/data/site.js`
+- **video-banner.test.mjs** (3 connections) — `src/data/video-banner.test.mjs`
+- **FileOrUrlInput()** (2 connections) — `src/components/FileOrUrlInput.jsx`
+- **ContentAdminDashboard()** (2 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **getVideoBadgeLabel()** (2 connections) — `src/utils/video.js`
+- **getCachedBanners()** (1 connections) — `src/components/HeroSlider.jsx`
+- **DEFAULT_BANNER_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **DEFAULT_BRANDING_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **DEFAULT_SCHEME_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **QUICK_COLORS** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
 
 ## Relationships
 
-- [[Architecture Doc Generator]] (12 shared connections)
-- [[Community 34]] (10 shared connections)
-- [[Design System & UI Tokens]] (7 shared connections)
-- [[Community 30]] (5 shared connections)
-- [[Community 130]] (5 shared connections)
-- [[Product Brand & Business Vision]] (4 shared connections)
-- [[Product Pages Specification]] (4 shared connections)
-- [[Community 82]] (3 shared connections)
-- [[Claude Agent Instructions]] (1 shared connections)
-- [[Community 284]] (1 shared connections)
+- [[Product Requirements Documentation]] (18 shared connections)
+- [[Dependencies & Package Config]] (4 shared connections)
+- [[Community 36]] (4 shared connections)
+- [[Community 52]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/shared/i18n.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `src/components/FileOrUrlInput.jsx`
+- `src/components/HeroSlider.jsx`
+- `src/data/site.js`
+- `src/data/video-banner.test.mjs`
+- `src/pages/ContentAdminDashboard.jsx`
+- `src/ui.jsx`
+- `src/utils/video.js`
 
 ## Audit Trail
 
-- EXTRACTED: 107 (99%)
+- EXTRACTED: 73 (99%)
 - INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 

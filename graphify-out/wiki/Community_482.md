@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **context.md** (0 connections) — `design/context.md`
+- **cordova.js** (0 connections) — `ios/App/App/public/cordova.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `design/context.md`
+- `ios/App/App/public/cordova.js`
 
 ## Audit Trail
 

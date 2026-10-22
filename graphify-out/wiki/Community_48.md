@@ -1,63 +1,47 @@
 # Community 48
 
-> 28 nodes · cohesion 0.09
+> 29 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **server.js** (37 connections) — `backend/src/server.js`
-- **health.js** (8 connections) — `backend/src/routes/health.js`
-- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
-- **upload.js** (5 connections) — `backend/src/routes/upload.js`
-- **uploads.js** (5 connections) — `backend/src/routes/uploads.js`
-- **migrate()** (4 connections) — `backend/src/db/migrate.js`
-- **rateLimit.js** (4 connections) — `backend/src/middleware/rateLimit.js`
-- **applied()** (3 connections) — `backend/src/db/migrate.js`
-- **startJobs()** (3 connections) — `backend/src/jobs/index.js`
-- **rateLimit()** (3 connections) — `backend/src/middleware/rateLimit.js`
-- **start()** (3 connections) — `backend/src/server.js`
-- **authRouter** (2 connections) — `backend/src/routes/auth.js`
-- **contentRouter** (2 connections) — `backend/src/routes/content.js`
-- **dealersRouter** (2 connections) — `backend/src/routes/dealers.js`
-- **healthRouter** (2 connections) — `backend/src/routes/health.js`
-- **uploadRouter** (2 connections) — `backend/src/routes/upload.js`
-- **uploadsRouter** (2 connections) — `backend/src/routes/uploads.js`
-- **webhooksRouter** (2 connections) — `backend/src/routes/webhooks.js`
-- **dir** (1 connections) — `backend/src/db/migrate.js`
-- **buckets** (1 connections) — `backend/src/middleware/rateLimit.js`
-- **ALLOWED_FOLDERS** (1 connections) — `backend/src/routes/upload.js`
-- **MIME_TYPES** (1 connections) — `backend/src/routes/uploads.js`
-- **allowedOrigins** (1 connections) — `backend/src/server.js`
-- **app** (1 connections) — `backend/src/server.js`
-- **defaultOrigins** (1 connections) — `backend/src/server.js`
-- *... and 3 more nodes in this community*
+- **Live Activities** (8 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Anatomy** (6 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Best practices** (6 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Presentation** (6 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Specifications** (5 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **live-activities.md** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Adding transitions and animating content updates** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **CarPlay** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **CarPlay dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Choosing colors** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Compact** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Compact presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Creating Live Activity layouts** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Expanded** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Expanded presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **iOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **iPadOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Lock Screen** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Lock Screen presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **macOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Minimal** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Minimal presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [[Community 31]] (10 shared connections)
-- [[Community 71]] (7 shared connections)
-- [[Community 88]] (6 shared connections)
-- [[Community 53]] (6 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (2 shared connections)
-- [[Community 141]] (2 shared connections)
-- [[Community 129]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `backend/src/db/migrate.js`
-- `backend/src/jobs/index.js`
-- `backend/src/middleware/rateLimit.js`
-- `backend/src/routes/auth.js`
-- `backend/src/routes/content.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/routes/health.js`
-- `backend/src/routes/upload.js`
-- `backend/src/routes/uploads.js`
-- `backend/src/routes/webhooks.js`
-- `backend/src/server.js`
+- `.agents/skills/apple-design/references/hig/live-activities.md`
 
 ## Audit Trail
 
-- EXTRACTED: 105 (100%)
+- EXTRACTED: 56 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

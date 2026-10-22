@@ -1,34 +1,33 @@
 # Community 181
 
-> 11 nodes · cohesion 0.18
+> 11 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **properties** (9 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **note** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **title** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **dot** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **id** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **maxLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **minLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **nodes** (4 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **additionalProperties** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **required** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **flows** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Relationships
 
-- [[Community 233]] (3 shared connections)
-- [[Community 387]] (1 shared connections)
-- [[Community 180]] (1 shared connections)
+- [[Pricing & Roles Skill]] (3 shared connections)
+- [[Community 125]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
+- EXTRACTED: 34 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -18,10 +18,10 @@
 
 ## Relationships
 
-- [[Community 51]] (4 shared connections)
-- [[Community 40]] (1 shared connections)
-- [[Community 84]] (1 shared connections)
-- [[Community 132]] (1 shared connections)
+- [[Community 54]] (4 shared connections)
+- [[Community 43]] (1 shared connections)
+- [[Community 88]] (1 shared connections)
+- [[Community 130]] (1 shared connections)
 
 ## Source Files
 

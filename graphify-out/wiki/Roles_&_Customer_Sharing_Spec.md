@@ -1,54 +1,56 @@
 # Roles & Customer Sharing Spec
 
-> 47 nodes · cohesion 0.04
+> 44 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **properties** (33 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **fromCol** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **toCol** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **label** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **variant** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **brand** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **channelX** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **channelY** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **fromSide** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **id** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **labelAt** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **labelDx** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **labelDy** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **lane** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **role** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **route** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **sublabel** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **tag** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **toSide** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **yOffset** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **maximum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- *... and 22 more nodes in this community*
+- **get()** (23 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Z()** (23 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **ku()** (17 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **xl()** (14 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **bm()** (13 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **mu()** (13 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Iu()** (10 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **vi()** (10 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **pu()** (9 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Sp()** (9 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **bc()** (8 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Bu()** (8 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **fu()** (8 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **gi()** (8 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **jl()** (8 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Su()** (8 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **bl()** (7 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **sf()** (7 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **wl()** (7 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Au()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **dn()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **gu()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Kr()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Nd()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **nm()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- *... and 19 more nodes in this community*
 
 ## Relationships
 
+- [[Dealer Auth & Session Management]] (50 shared connections)
+- [[Master Codebase Architecture Reference]] (14 shared connections)
+- [[Community 55]] (11 shared connections)
+- [[Pricing Regression Test Suite]] (11 shared connections)
+- [[Community 49]] (8 shared connections)
+- [[Graphify Workflow]] (7 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (7 shared connections)
+- [[Community 76]] (6 shared connections)
 - [[Community 116]] (5 shared connections)
-- [[Community 98]] (2 shared connections)
-- [[Community 413]] (1 shared connections)
-- [[Community 414]] (1 shared connections)
-- [[Community 446]] (1 shared connections)
-- [[Community 447]] (1 shared connections)
-- [[Community 81]] (1 shared connections)
-- [[Community 448]] (1 shared connections)
+- [[Community 46]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `ios/App/App/public/assets/index-CpwYb6dU.js`
 
 ## Audit Trail
 
-- EXTRACTED: 105 (100%)
+- EXTRACTED: 322 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

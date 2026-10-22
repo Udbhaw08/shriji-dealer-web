@@ -1,47 +1,55 @@
 # Oxlint Linter Configuration
 
-> 43 nodes · cohesion 0.05
+> 42 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **Craft Details Guide** (11 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **2. Forms** (10 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **6. Accessibility Quick Wins** (6 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **4. Touch & Mobile** (5 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **5. Performance Patterns** (5 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **1. Focus States** (4 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **3. Images** (4 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **7. Navigation & State** (4 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **craft-details.md** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **8. Content Copy Rules** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **9. Anti-Patterns Checklist** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Always Set Dimensions** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Async Updates Need Announcements** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Autocomplete Matters** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **AutoFocus Rules** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Avoid Layout Reads in Render** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Compound Controls: `:focus-within`** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Destructive Actions Need Confirmation** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Disable Spellcheck Where Appropriate** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Error Handling** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Heading Hierarchy** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **In React/Next.js** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Input Types and Attributes** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Keyboard Handlers** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Labels and Hit Targets** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- *... and 18 more nodes in this community*
+- **properties** (30 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **col** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **height** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **brand** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **channelX** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **channelY** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **from** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **labelDx** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **labelDy** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **lane** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **note** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **route** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **sublabel** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **tag** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **to** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **toSide** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **variant** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **yOffset** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **maximum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 182]] (3 shared connections)
+- [[Community 440]] (1 shared connections)
+- [[Community 462]] (1 shared connections)
+- [[Community 441]] (1 shared connections)
+- [[Community 463]] (1 shared connections)
+- [[Community 442]] (1 shared connections)
+- [[Community 464]] (1 shared connections)
+- [[Community 408]] (1 shared connections)
+- [[Community 409]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/craft-details.md`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 84 (100%)
+- EXTRACTED: 93 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

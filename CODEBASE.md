@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-23T03:10:08.836+05:30 (GMT+5:30)
-> Total Project Files: 1725
+> Last synchronized: 2026-10-23T03:27:59.300+05:30 (GMT+5:30)
+> Total Project Files: 1727
 
 ---
 
@@ -143,7 +143,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`api/products/index.js`** (1.1 KB)
 - **`api/products/[id].js`** (1.1 KB)
 - **`api/upload.js`** (7.5 KB)
-- **`api/zoho.js`** (28.8 KB)
+- **`api/zoho.js`** (28.9 KB)
 
 ### 4.5 Automation & Utility Scripts (`scripts/`)
 - **`scripts/audit_prices.mjs`** (3.8 KB)

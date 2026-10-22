@@ -1,73 +1,57 @@
 # Pricing Regression Test Suite
 
-> 55 nodes · cohesion 0.12
+> 54 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **main.jsx** (44 connections) — `src/main.jsx`
-- **ui.jsx** (42 connections) — `src/ui.jsx`
-- **useLanguage()** (32 connections) — `src/data/i18n.js`
-- **useSession()** (28 connections) — `src/data/session.js`
-- **Home.jsx** (26 connections) — `src/pages/Home.jsx`
-- **site.js** (24 connections) — `src/data/site.js`
-- **t()** (19 connections) — `src/data/i18n.js`
-- **isDealer()** (18 connections) — `src/data/dealer.js`
-- **Schemes.jsx** (17 connections) — `src/pages/Schemes.jsx`
-- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
-- **COMPANY** (16 connections) — `src/data/site.js`
-- **Support.jsx** (15 connections) — `src/pages/Support.jsx`
-- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
-- **dealerById()** (12 connections) — `src/data/dealer.js`
-- **Products()** (9 connections) — `src/pages/Products.jsx`
-- **Header()** (9 connections) — `src/ui.jsx`
-- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
-- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
-- **portalGate.js** (8 connections) — `src/data/portalGate.js`
-- **Favorites()** (8 connections) — `src/pages/Favorites.jsx`
-- **Home()** (8 connections) — `src/pages/Home.jsx`
-- **Login()** (7 connections) — `src/pages/Login.jsx`
-- **Schemes()** (6 connections) — `src/pages/Schemes.jsx`
-- **AccountLink()** (6 connections) — `src/ui.jsx`
-- **Footer()** (6 connections) — `src/ui.jsx`
-- *... and 30 more nodes in this community*
+- **np()** (21 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **O()** (20 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **dt()** (19 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **yt()** (14 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **rn()** (13 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **M()** (12 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **wn()** (12 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **k()** (11 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **ln()** (11 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **tp()** (11 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **ip()** (10 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Rt()** (10 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **ee()** (9 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **mm()** (9 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **oa()** (9 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **cn()** (8 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **hn()** (8 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **om()** (8 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **ut()** (8 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **bt()** (7 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **ht()** (7 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **It()** (7 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **jm()** (7 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **lt()** (7 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **mn()** (7 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- *... and 29 more nodes in this community*
 
 ## Relationships
 
-- [[Community 35]] (55 shared connections)
-- [[Dependencies & Package Config]] (29 shared connections)
-- [[Community 47]] (19 shared connections)
-- [[Community 111]] (18 shared connections)
-- [[Community 170]] (9 shared connections)
-- [[Community 169]] (2 shared connections)
-- [[Community 390]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (64 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (19 shared connections)
+- [[Graphify Workflow]] (14 shared connections)
+- [[Community 49]] (13 shared connections)
+- [[Community 76]] (13 shared connections)
+- [[Roles & Customer Sharing Spec]] (11 shared connections)
+- [[Community 55]] (8 shared connections)
+- [[Master Codebase Architecture Reference]] (8 shared connections)
+- [[Community 46]] (3 shared connections)
+- [[Community 116]] (3 shared connections)
 
 ## Source Files
 
-- `src/components/EmailVerificationPrompt.jsx`
-- `src/components/MobileBottomNav.jsx`
-- `src/components/NativeBackHandler.jsx`
-- `src/components/UnderMaintenance.jsx`
-- `src/data/dealer.js`
-- `src/data/i18n.js`
-- `src/data/portalGate.js`
-- `src/data/session.js`
-- `src/data/site.js`
-- `src/main.jsx`
-- `src/pages/DealerDashboard.jsx`
-- `src/pages/Favorites.jsx`
-- `src/pages/Home.jsx`
-- `src/pages/LegalPrivacy.jsx`
-- `src/pages/LegalTerms.jsx`
-- `src/pages/Login.jsx`
-- `src/pages/PrivacyPolicy.jsx`
-- `src/pages/Products.jsx`
-- `src/pages/Schemes.jsx`
-- `src/pages/Support.jsx`
+- `ios/App/App/public/assets/index-CpwYb6dU.js`
 
 ## Audit Trail
 
-- EXTRACTED: 484 (100%)
-- INFERRED: 1 (0%)
+- EXTRACTED: 388 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

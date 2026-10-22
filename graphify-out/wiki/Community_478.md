@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **capacitor.build.gradle** (0 connections) — `android/app/capacitor.build.gradle`
+- **build.gradle** (0 connections) — `android/capacitor-cordova-android-plugins/build.gradle`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `android/app/capacitor.build.gradle`
+- `android/capacitor-cordova-android-plugins/build.gradle`
 
 ## Audit Trail
 

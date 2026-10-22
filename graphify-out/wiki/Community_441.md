@@ -10,7 +10,7 @@
 
 ## Relationships
 
-- [[Project Readme & Layout]] (1 shared connections)
+- [[Oxlint Linter Configuration]] (1 shared connections)
 
 ## Source Files
 

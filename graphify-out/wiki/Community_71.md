@@ -1,56 +1,46 @@
 # Community 71
 
-> 23 nodes · cohesion 0.10
+> 24 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **pool.js** (30 connections) — `backend/src/db/pool.js`
-- **env.js** (14 connections) — `backend/src/config/env.js`
-- **env** (11 connections) — `backend/src/config/env.js`
-- **notifications.js** (9 connections) — `backend/src/services/notifications.js`
-- **sync-supabase-content.js** (6 connections) — `backend/scripts/sync-supabase-content.js`
-- **upload.js** (5 connections) — `api/upload.js`
-- **migrate-content.js** (3 connections) — `backend/scripts/migrate-content.js`
-- **test-storage.js** (3 connections) — `backend/scripts/test-storage.js`
-- **notify()** (3 connections) — `backend/src/services/notifications.js`
-- **handler()** (2 connections) — `api/upload.js`
-- **syncAll()** (2 connections) — `backend/scripts/sync-supabase-content.js`
-- **sendEmailOtp()** (2 connections) — `backend/src/services/notifications.js`
-- **ALLOWED_FOLDERS** (1 connections) — `api/upload.js`
-- **MIME_TYPES** (1 connections) — `api/upload.js`
-- **bool()** (1 connections) — `backend/src/config/env.js`
-- **__dirname** (1 connections) — `backend/src/config/env.js`
-- **num()** (1 connections) — `backend/src/config/env.js`
-- **tx()** (1 connections) — `backend/src/db/pool.js`
-- **main()** (1 connections) — `backend/scripts/migrate-content.js`
-- **__dirname** (1 connections) — `backend/scripts/sync-supabase-content.js`
-- **IMAGES** (1 connections) — `backend/scripts/sync-supabase-content.js`
-- **PROJECT_ROOT** (1 connections) — `backend/scripts/sync-supabase-content.js`
-- **main()** (1 connections) — `backend/scripts/test-storage.js`
+- **properties** (11 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **viewBox** (6 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **animation** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **locale** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **output** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **subtitle** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **views** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **items** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- [[Community 31]] (17 shared connections)
-- [[Community 88]] (11 shared connections)
-- [[Community 53]] (10 shared connections)
-- [[Community 48]] (7 shared connections)
-- [[Community 141]] (2 shared connections)
-- [[Community 129]] (2 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (2 shared connections)
+- [[Community 199]] (1 shared connections)
+- [[Community 126]] (1 shared connections)
 
 ## Source Files
 
-- `api/upload.js`
-- `backend/scripts/migrate-content.js`
-- `backend/scripts/sync-supabase-content.js`
-- `backend/scripts/test-storage.js`
-- `backend/src/config/env.js`
-- `backend/src/db/pool.js`
-- `backend/src/services/notifications.js`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 101 (100%)
+- EXTRACTED: 48 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

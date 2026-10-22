@@ -4,46 +4,47 @@
 
 ## Key Concepts
 
-- **ki()** (12 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Pa()** (12 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ta()** (12 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Nn()** (11 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **mt()** (10 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **A()** (9 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ka()** (9 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **sa()** (9 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ha()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ua()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **mi()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **fa()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **qn()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Zn()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **io()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **qt()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **uo()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **utils.mjs** (26 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **i18n.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **translateMessage()** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **applyTemplate()** (9 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **resolveLocale()** (7 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **componentContext()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **viewerCatalog()** (4 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **localizeTemplate()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **translateCount()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **formatMessage()** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **serializeScriptJson()** (2 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **CATALOGS** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **ESCAPE_MAP** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **MESSAGE_PAIRS** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **SIGIL_SHAPE** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **SIGIL_TONE** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **TEMPLATE_PLACEHOLDERS** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (18 shared connections)
-- [[Master Codebase Architecture Reference]] (12 shared connections)
-- [[Product Requirements Documentation]] (10 shared connections)
-- [[Graphify Knowledge Graph Skill]] (5 shared connections)
-- [[Community 83]] (4 shared connections)
-- [[Community 49]] (4 shared connections)
-- [[Community 58]] (4 shared connections)
-- [[Community 50]] (4 shared connections)
-- [[Community 44]] (3 shared connections)
-- [[Community 32]] (3 shared connections)
-- [[Community 41]] (2 shared connections)
+- [[Product Brand & Business Vision]] (12 shared connections)
+- [[Community 35]] (10 shared connections)
+- [[Design System & UI Tokens]] (7 shared connections)
+- [[Community 33]] (5 shared connections)
+- [[Community 128]] (5 shared connections)
+- [[Zoho Integration Architecture]] (4 shared connections)
+- [[Product Pages Specification]] (4 shared connections)
+- [[Community 86]] (3 shared connections)
+- [[Mobile Responsive UI Skill]] (1 shared connections)
+- [[Community 283]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/shared/i18n.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 127 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 107 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

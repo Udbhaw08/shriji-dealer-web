@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **renderer-diagnostic-boundary.test.mjs** (2 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
-- **crashingRenderer()** (1 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
-- **runCrashingRenderer()** (1 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
+- **repository-language-metadata.test.mjs** (2 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
+- **linguistGenerated()** (1 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
+- `.agents/skills/archify/test/repository-language-metadata.test.mjs`
 
 ## Audit Trail
 

@@ -1,48 +1,47 @@
 # Community 57
 
-> 26 nodes · cohesion 0.11
+> 26 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **workflow-compiler.test.mjs** (27 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **assertReadableAdjacentResult()** (6 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **attribute()** (4 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **numericRect()** (4 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **edgeLabelRect()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **edgePoints()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **nodeRect()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **svgViewBox()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **asciiGroupLabelTextRect()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **assertRectInsideViewBox()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **compileSuccessfully()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **groupFrameRect()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **adjacentWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **asciiLaneHeaderTextRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **assertRectInsideRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **attributeOrUndefined()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **clone()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **legendGeometry()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **orthogonalSegmentIntersectsRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **readJson()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **rectsOverlap()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **Widgets** (9 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Best practices** (6 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Anatomy** (4 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Rendering modes** (4 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Mobile (iOS, iPadOS)** (3 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Specifications** (3 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **widgets.md** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Accented** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Accessory widgets** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Adding interactivity** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Appearances** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Apple HomeView** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Choosing margins and padding** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Displaying text in widgets** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Full-color** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **iOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **iPadOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Previews and placeholders** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **StandBy and CarPlay** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **System family widgets** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Updating widget content** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Using color** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
 - *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [[Community 137]] (2 shared connections)
-- [[Community 82]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- `.agents/skills/apple-design/references/hig/widgets.md`
 
 ## Audit Trail
 
-- EXTRACTED: 75 (100%)
+- EXTRACTED: 50 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

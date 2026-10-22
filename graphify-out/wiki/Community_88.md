@@ -1,52 +1,53 @@
 # Community 88
 
-> 20 nodes · cohesion 0.19
+> 20 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **catalog.js** (16 connections) — `backend/src/services/catalog.js`
-- **logger.js** (14 connections) — `backend/src/utils/logger.js`
-- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
-- **log** (13 connections) — `backend/src/utils/logger.js`
-- **index.js** (11 connections) — `backend/src/jobs/index.js`
-- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
-- **errorHandler.js** (7 connections) — `backend/src/middleware/errorHandler.js`
-- **syncCatalog()** (7 connections) — `backend/src/services/catalog.js`
-- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
-- **catalogFor()** (4 connections) — `backend/src/services/catalog.js`
-- **loadCatalog()** (4 connections) — `backend/src/services/catalog.js`
-- **catalogSync()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **tokenCleanup()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **markPollRun()** (3 connections) — `backend/src/jobs/crmPoll.js`
-- **httpError()** (3 connections) — `backend/src/middleware/errorHandler.js`
-- **priceView()** (3 connections) — `backend/src/services/catalog.js`
-- **priceGate.test.mjs** (3 connections) — `backend/test/priceGate.test.mjs`
-- **errorHandler()** (2 connections) — `backend/src/middleware/errorHandler.js`
-- **CATALOG** (1 connections) — `backend/test/priceGate.test.mjs`
-- **ts()** (1 connections) — `backend/src/utils/logger.js`
+- **ChromeVisualBrowser** (21 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **visual-check.test.mjs** (14 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **PipeCdp** (7 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.attach()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.close()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.constructor()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **chromeVisualBrowserArgs()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.failAll()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.consume()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **VISUAL_CHECK_VIEWPORTS** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.failure()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **artifact()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **fakeBrowser()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **fakeChromeChild()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **png** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
 
 ## Relationships
 
-- [[Community 31]] (14 shared connections)
-- [[Community 71]] (11 shared connections)
-- [[Community 53]] (11 shared connections)
-- [[Community 141]] (6 shared connections)
-- [[Community 48]] (6 shared connections)
-- [[Community 129]] (3 shared connections)
+- [[Community 43]] (8 shared connections)
+- [[Community 54]] (7 shared connections)
+- [[Community 130]] (2 shared connections)
+- [[Community 96]] (2 shared connections)
+- [[Community 67]] (1 shared connections)
+- [[Community 128]] (1 shared connections)
+- [[Graphify Agent Rules]] (1 shared connections)
+- [[Community 184]] (1 shared connections)
+- [[Community 244]] (1 shared connections)
+- [[Community 150]] (1 shared connections)
+- [[Community 207]] (1 shared connections)
+- [[Community 108]] (1 shared connections)
 
 ## Source Files
 
-- `backend/src/jobs/catalogSync.js`
-- `backend/src/jobs/crmPoll.js`
-- `backend/src/jobs/index.js`
-- `backend/src/middleware/errorHandler.js`
-- `backend/src/services/catalog.js`
-- `backend/src/utils/logger.js`
-- `backend/test/priceGate.test.mjs`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/test/visual-check.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 125 (100%)
+- EXTRACTED: 71 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

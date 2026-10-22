@@ -1,61 +1,63 @@
 # Community 53
 
-> 27 nodes · cohesion 0.18
+> 28 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **auth.js** (47 connections) — `backend/src/routes/auth.js`
-- **dealerApp.js** (24 connections) — `backend/src/services/dealerApp.js`
-- **webhooks.js** (14 connections) — `backend/src/routes/webhooks.js`
-- **validators.js** (14 connections) — `backend/src/utils/validators.js`
-- **applyCrmAccountState()** (12 connections) — `backend/src/services/dealerApp.js`
-- **normalizePhone()** (12 connections) — `backend/src/utils/phone.js`
-- **normalizeEmail()** (12 connections) — `backend/src/utils/validators.js`
-- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
-- **cleanName()** (7 connections) — `backend/src/utils/validators.js`
-- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
-- **phone.js** (6 connections) — `backend/src/utils/phone.js`
-- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
-- **applyCrmContactState()** (5 connections) — `backend/src/services/dealerApp.js`
-- **isValidPhone()** (5 connections) — `backend/src/utils/validators.js`
-- **resolveUserWithDealer()** (4 connections) — `backend/src/routes/auth.js`
-- **isValidEmail()** (4 connections) — `backend/src/utils/validators.js`
-- **isValidName()** (4 connections) — `backend/src/utils/validators.js`
-- **emailOnlyIdentifier()** (3 connections) — `backend/src/routes/auth.js`
-- **findUserByEmail()** (3 connections) — `backend/src/routes/auth.js`
-- **issueSession()** (3 connections) — `backend/src/routes/auth.js`
-- **isValidGstin()** (3 connections) — `backend/src/utils/validators.js`
-- **publicUser()** (2 connections) — `backend/src/routes/auth.js`
-- **crmSync.test.mjs** (2 connections) — `backend/test/crmSync.test.mjs`
-- **isValidPincode()** (2 connections) — `backend/src/utils/validators.js`
-- **googleClient** (1 connections) — `backend/src/routes/auth.js`
-- *... and 2 more nodes in this community*
+- **server.js** (37 connections) — `backend/src/server.js`
+- **health.js** (8 connections) — `backend/src/routes/health.js`
+- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
+- **upload.js** (5 connections) — `backend/src/routes/upload.js`
+- **uploads.js** (5 connections) — `backend/src/routes/uploads.js`
+- **migrate()** (4 connections) — `backend/src/db/migrate.js`
+- **rateLimit.js** (4 connections) — `backend/src/middleware/rateLimit.js`
+- **applied()** (3 connections) — `backend/src/db/migrate.js`
+- **startJobs()** (3 connections) — `backend/src/jobs/index.js`
+- **rateLimit()** (3 connections) — `backend/src/middleware/rateLimit.js`
+- **start()** (3 connections) — `backend/src/server.js`
+- **authRouter** (2 connections) — `backend/src/routes/auth.js`
+- **contentRouter** (2 connections) — `backend/src/routes/content.js`
+- **dealersRouter** (2 connections) — `backend/src/routes/dealers.js`
+- **healthRouter** (2 connections) — `backend/src/routes/health.js`
+- **uploadRouter** (2 connections) — `backend/src/routes/upload.js`
+- **uploadsRouter** (2 connections) — `backend/src/routes/uploads.js`
+- **webhooksRouter** (2 connections) — `backend/src/routes/webhooks.js`
+- **dir** (1 connections) — `backend/src/db/migrate.js`
+- **buckets** (1 connections) — `backend/src/middleware/rateLimit.js`
+- **ALLOWED_FOLDERS** (1 connections) — `backend/src/routes/upload.js`
+- **MIME_TYPES** (1 connections) — `backend/src/routes/uploads.js`
+- **allowedOrigins** (1 connections) — `backend/src/server.js`
+- **app** (1 connections) — `backend/src/server.js`
+- **defaultOrigins** (1 connections) — `backend/src/server.js`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [[Community 31]] (28 shared connections)
-- [[Community 129]] (16 shared connections)
-- [[Community 88]] (11 shared connections)
-- [[Community 71]] (10 shared connections)
-- [[Community 48]] (6 shared connections)
-- [[Community 92]] (6 shared connections)
-- [[Community 141]] (5 shared connections)
+- [[Community 34]] (10 shared connections)
+- [[Community 74]] (7 shared connections)
+- [[Community 91]] (6 shared connections)
+- [[Community 56]] (6 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (2 shared connections)
+- [[Community 139]] (2 shared connections)
+- [[Community 127]] (2 shared connections)
 
 ## Source Files
 
+- `backend/src/db/migrate.js`
+- `backend/src/jobs/index.js`
+- `backend/src/middleware/rateLimit.js`
 - `backend/src/routes/auth.js`
+- `backend/src/routes/content.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/routes/health.js`
+- `backend/src/routes/upload.js`
+- `backend/src/routes/uploads.js`
 - `backend/src/routes/webhooks.js`
-- `backend/src/services/crmClient.js`
-- `backend/src/services/dealerApp.js`
-- `backend/src/utils/phone.js`
-- `backend/src/utils/validators.js`
-- `backend/test/crmSync.test.mjs`
-- `backend/test/interconnection.test.mjs`
-- `backend/test/validators.test.mjs`
+- `backend/src/server.js`
 
 ## Audit Trail
 
-- EXTRACTED: 210 (100%)
+- EXTRACTED: 105 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

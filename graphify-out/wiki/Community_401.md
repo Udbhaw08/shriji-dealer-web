@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **14. Hierarchy Checklist** (4 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Anti-patterns** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Hierarchy Test** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Visual Weight Stack** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **3. Font Pairing** (4 connections) — `.agents/skills/refero-design/references/typography.md`
+- **If You Must Pair** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Safe Font Choices by Product Type** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **The One-Font Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- [[Community 231]] (1 shared connections)
+- [[Community 230]] (1 shared connections)
 
 ## Source Files
 

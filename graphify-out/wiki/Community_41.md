@@ -1,58 +1,53 @@
 # Community 41
 
-> 30 nodes · cohesion 0.12
+> 32 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **Pd()** (15 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **sc()** (11 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ic()** (9 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **xs()** (9 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ho()** (8 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **jd()** (8 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ac()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **cc()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ec()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **dh()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **gf()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **mo()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Oi()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **pt()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Ti()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **dc()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **lc()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **No()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **oc()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **vf()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **wi()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **go()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **gt()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **pf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **yi()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- *... and 5 more nodes in this community*
+- **archify.mjs** (50 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandDeliver()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandMigrate()** (17 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandValidate()** (13 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandRender()** (10 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandPreview()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **diagnostic()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **rendererPath()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **renderValidatedArchitecture()** (8 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractQualityArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractRepoRootArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **rejectCliArgument()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **assertEvidenceType()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **checkerDiagnostics()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **rendererEnv()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **rendererFailure()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportArtifactFailure()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **inputDiagnostic()** (4 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **engineeringProfileFromArtifact()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **migrationPathDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **migrationReport()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportArtifactArgumentFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportDeliveryFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportValidateFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **sourceEvidenceFromArtifact()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (31 shared connections)
-- [[Product Requirements Documentation]] (9 shared connections)
-- [[Community 49]] (7 shared connections)
-- [[Community 32]] (4 shared connections)
-- [[Community 44]] (4 shared connections)
-- [[Community 58]] (4 shared connections)
-- [[Master Codebase Architecture Reference]] (3 shared connections)
-- [[Graphify Knowledge Graph Skill]] (3 shared connections)
-- [[Community 109]] (2 shared connections)
-- [[Community 83]] (1 shared connections)
-- [[Community 50]] (1 shared connections)
+- [[Community 143]] (27 shared connections)
+- [[Community 292]] (11 shared connections)
+- [[Community 107]] (4 shared connections)
+- [[Community 135]] (3 shared connections)
+- [[Community 246]] (2 shared connections)
+- [[Community 66]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- `.agents/skills/archify/bin/archify.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 175 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 221 (97%)
+- INFERRED: 6 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

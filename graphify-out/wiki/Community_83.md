@@ -1,49 +1,42 @@
 # Community 83
 
-> 20 nodes · cohesion 0.19
+> 21 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **l()** (31 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **be()** (13 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **yl()** (13 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Oe()** (11 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **vl()** (10 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ga()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **la()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Lo()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Do()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ea()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ie()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **pl()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ae()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **fl()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ge()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Ud()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Ym()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **gl()** (2 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **hl()** (2 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Wf()** (2 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Machine learning** (15 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **The role of machine learning in your app** (6 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **machine-learning.md** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Attribution** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Calibration** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Confidence** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Corrections** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Critical or complementary** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Dynamic or static** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Explicit feedback** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Implicit feedback** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Limitations** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Mistakes** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Multiple options** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Planning your design** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Private or public** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Proactive or reactive** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Visible or invisible** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (26 shared connections)
-- [[Master Codebase Architecture Reference]] (12 shared connections)
-- [[Product Requirements Documentation]] (6 shared connections)
-- [[Graphify Knowledge Graph Skill]] (6 shared connections)
-- [[Community 44]] (6 shared connections)
-- [[Community 109]] (4 shared connections)
-- [[Community 32]] (4 shared connections)
-- [[Community 49]] (3 shared connections)
-- [[Community 41]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- `.agents/skills/apple-design/references/hig/machine-learning.md`
 
 ## Audit Trail
 
-- EXTRACTED: 140 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

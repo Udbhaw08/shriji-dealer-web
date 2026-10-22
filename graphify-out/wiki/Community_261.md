@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Pickers** (5 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **pickers.md** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Progress indicators** (4 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
+- **Mobile (iOS, iPadOS)** (2 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
+- **progress-indicators.md** (1 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
+- **Refresh content controls** (1 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/pickers.md`
+- `.agents/skills/apple-design/references/hig/progress-indicators.md`
 
 ## Audit Trail
 

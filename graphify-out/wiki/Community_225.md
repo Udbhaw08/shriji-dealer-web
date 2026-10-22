@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Sheets** (6 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **sheets.md** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **Siri** (7 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Getting your app to work with Siri** (2 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **siri.md** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Customizing your app’s experience with Siri** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Editorial guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Sharing contextual information** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/sheets.md`
+- `.agents/skills/apple-design/references/hig/siri.md`
 
 ## Audit Trail
 

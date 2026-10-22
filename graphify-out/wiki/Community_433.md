@@ -10,7 +10,7 @@
 
 ## Relationships
 
-- [[Mobile Responsive UI Skill]] (1 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (1 shared connections)
 
 ## Source Files
 

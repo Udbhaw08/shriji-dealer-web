@@ -1,43 +1,52 @@
 # Community 76
 
-> 22 nodes · cohesion 0.09
+> 23 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **Session Work Record — Dealer Code Hierarchy & CRM Integration (2026-10-11)** (7 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **3.2 Frontend Portal & Dashboard (`src/`)** (4 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **3. Detailed Changes by File** (4 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **6. Phone-First Auth, WhatsApp & SMS OTP Services, 10k Scalability & Google OAuth** (4 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **3.1 Backend Service (`backend/`)** (3 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **3.3 Documentation (`docs/`)** (3 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **2. Multi-Tier Entity Hierarchy & Two-Stage Approval** (2 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **WORK-DONE-SESSION-2026-10-11.md** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **1. Executive Summary & Problem Statement** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **4. Testing & Verification** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **5. Verification Checklist for Production** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **6.1 Scalability Assessment (10,000+ Users)** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **6.2 Phone Number & WhatsApp OTP Delivery Services** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **6.3 Unified Authentication Features** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **[backend/src/routes/auth.js](file:///c:/Users/udbha/Desktop/Webstore/backend/src/routes/auth.js)** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **[backend/src/services/staff.js](file:///c:/Users/udbha/Desktop/Webstore/backend/src/services/staff.js)** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **[docs/BACKEND-ARCHITECTURE.md](file:///c:/Users/udbha/Desktop/Webstore/docs/BACKEND-ARCHITECTURE.md) *(Updated)*** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **[docs/DEALER-HIERARCHY-AND-WORKFLOW.md](file:///c:/Users/udbha/Desktop/Webstore/docs/DEALER-HIERARCHY-AND-WORKFLOW.md) *(New)*** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **[src/data/auth.js](file:///c:/Users/udbha/Desktop/Webstore/src/data/auth.js)** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **[src/pages/DealerDashboard.jsx](file:///c:/Users/udbha/Desktop/Webstore/src/pages/DealerDashboard.jsx)** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **[src/pages/Login.jsx](file:///c:/Users/udbha/Desktop/Webstore/src/pages/Login.jsx)** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **Two-Stage Approval Matrix:** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
+- **l()** (31 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **be()** (13 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **yl()** (13 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Oe()** (11 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **vl()** (10 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **ga()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **la()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Lo()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Do()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **ea()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **ie()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **pl()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **ae()** (4 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **fl()** (4 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **ge()** (4 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **ke()** (4 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **ve()** (4 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **se()** (3 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Ud()** (3 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Ym()** (3 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **gl()** (2 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **hl()** (2 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Wf()** (2 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (26 shared connections)
+- [[Pricing Regression Test Suite]] (13 shared connections)
+- [[Master Codebase Architecture Reference]] (7 shared connections)
+- [[Roles & Customer Sharing Spec]] (6 shared connections)
+- [[Community 49]] (6 shared connections)
+- [[Graphify Workflow]] (5 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (4 shared connections)
+- [[Community 55]] (3 shared connections)
+- [[Community 46]] (1 shared connections)
 
 ## Source Files
 
-- `docs/WORK-DONE-SESSION-2026-10-11.md`
+- `ios/App/App/public/assets/index-CpwYb6dU.js`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 151 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

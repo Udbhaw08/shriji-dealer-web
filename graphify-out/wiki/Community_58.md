@@ -1,55 +1,47 @@
 # Community 58
 
-> 25 nodes · cohesion 0.12
+> 26 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **t()** (20 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **c()** (8 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **hh()** (8 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **yh()** (8 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Mp()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **fh()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **mh()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ph()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **s()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Sh()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **zd()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **bh()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **eh()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Ih()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **th()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Qa()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **vt()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ah()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **nh()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **rh()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **vh()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Xm()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **xt()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ls()** (2 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **zh()** (2 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Copywriting Guide** (15 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Banned Words** (5 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Microcopy** (4 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Product UI Copy** (4 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **copywriting.md** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **AI Slop Markers** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Avoid on Operational Surfaces** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Buttons** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Core Belief** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Corporate Zombie** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Empty States** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Errors** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Filler** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Headings: Descriptive, Not Aspirational** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Hype** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Info-Style Thinking** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Living Words vs Dead Words** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Marketing Hero Section** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Pre-Publish Checklist** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Proof Beats Hype** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Rhythm** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **The Order of Great Copy** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **The Sticky Line Test** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Universal Copy Structure** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **When Marketing Tone IS Appropriate in Product** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (27 shared connections)
-- [[Master Codebase Architecture Reference]] (8 shared connections)
-- [[Community 49]] (7 shared connections)
-- [[Product Requirements Documentation]] (5 shared connections)
-- [[Community 109]] (4 shared connections)
-- [[Community 41]] (4 shared connections)
-- [[Community 32]] (4 shared connections)
-- [[Community 44]] (3 shared connections)
-- [[Graphify Knowledge Graph Skill]] (2 shared connections)
-- [[Community 50]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- `.agents/skills/refero-design/references/copywriting.md`
 
 ## Audit Trail
 
-- EXTRACTED: 137 (100%)
+- EXTRACTED: 50 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

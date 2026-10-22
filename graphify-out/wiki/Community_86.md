@@ -1,41 +1,53 @@
 # Community 86
 
-> 20 nodes · cohesion 0.10
+> 21 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **PRODUCT-PAGES.md — listing, detail, and dealer pricing** (9 connections) — `docs/PRODUCT-PAGES.md`
-- **4. Product listing — `/products`, `src/pages/Products.jsx`** (6 connections) — `docs/PRODUCT-PAGES.md`
-- **6. Product detail — `/products/:id`, `src/pages/Product.jsx`** (6 connections) — `docs/PRODUCT-PAGES.md`
-- **PRODUCT-PAGES.md** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **1. Price visibility — the rule everything else follows** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **2. The pricing module — `src/data/dealer.js`** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **3. `<PriceBlock>` — `src/components/PriceBlock.jsx`** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **5. Product card — `src/components/ProductCard.jsx`** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **7. What is deliberately not here** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **8. Files touched on 2026-09-20** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Below the whole grid** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Filters and facets** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Left column** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Pagination** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Responsive behaviour** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Right column** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Share with Customer** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Sort** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Structure** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Tabs** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **workflow-compiler.mjs** (102 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **createReadableLayout()** (12 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **readableGroupBounds()** (5 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **authoredNodeWidth()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **compileWorkflowWithFeedback()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **authoredNodeHeight()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **compilerFailure()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **feedbackFailure()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **nodeWidthContributor()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **verticalIntervalsOverlap()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **workflowLabelWidth()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **createLegacyLayout()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **stableCompare()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **stableText()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **stableValueKey()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **workflowEdgeName()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **WorkflowLayoutFeedback** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **cloneWorkflow()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **LEGACY_COLUMN_CENTERS** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **READABLE_CANDIDATE_COST_PRIORITY** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Product Pages Specification]] (31 shared connections)
+- [[Product Brand & Business Vision]] (14 shared connections)
+- [[Community 33]] (14 shared connections)
+- [[Community 35]] (10 shared connections)
+- [[Design System & UI Tokens]] (8 shared connections)
+- [[Community 135]] (4 shared connections)
+- [[Community 291]] (4 shared connections)
+- [[Community 109]] (3 shared connections)
+- [[Community 151]] (1 shared connections)
+- [[Community 61]] (1 shared connections)
+- [[Community 142]] (1 shared connections)
+- [[Mobile Responsive UI Skill]] (1 shared connections)
 
 ## Source Files
 
-- `docs/PRODUCT-PAGES.md`
+- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
+- EXTRACTED: 161 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

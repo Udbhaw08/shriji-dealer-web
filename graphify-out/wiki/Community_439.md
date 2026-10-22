@@ -10,7 +10,7 @@
 
 ## Relationships
 
-- [[Zoho Integration Skill]] (1 shared connections)
+- [[Pricing & Roles Skill]] (1 shared connections)
 
 ## Source Files
 

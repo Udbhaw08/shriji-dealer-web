@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **fromSide** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **labelAt** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 - **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- [[Project Readme & Layout]] (1 shared connections)
+- [[Oxlint Linter Configuration]] (1 shared connections)
 
 ## Source Files
 

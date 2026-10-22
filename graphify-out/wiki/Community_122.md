@@ -1,39 +1,36 @@
 # Community 122
 
-> 16 nodes · cohesion 0.12
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **properties** (8 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **meta** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **nodes** (4 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **flows** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **cards** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **schema_version** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **Sign in with Apple** (6 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Using the system-provided buttons** (5 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Creating a custom Sign in with Apple button** (3 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Displaying buttons** (3 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **sign-in-with-apple.md** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Black** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Button size and corner radius** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Collecting data** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Custom buttons with a logo and text** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Custom logo-only buttons** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Offering Sign in with Apple** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **White** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **White with outline** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
 
 ## Relationships
 
-- [[Community 199]] (3 shared connections)
-- [[Community 314]] (1 shared connections)
-- [[Community 67]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

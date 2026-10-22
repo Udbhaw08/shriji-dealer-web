@@ -1,57 +1,47 @@
 # Graphify Knowledge Graph Skill
 
-> 44 nodes · cohesion 0.11
+> 43 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **get()** (23 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Z()** (23 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ku()** (17 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **xl()** (14 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **bm()** (13 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **mu()** (13 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Iu()** (10 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **vi()** (10 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **pu()** (9 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Sp()** (9 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **bc()** (8 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Bu()** (8 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **fu()** (8 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **gi()** (8 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **jl()** (8 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Su()** (8 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **bl()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **sf()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **wl()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Au()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **dn()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **gu()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Kr()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Nd()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **nm()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- *... and 19 more nodes in this community*
+- **Craft Details Guide** (11 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **2. Forms** (10 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **6. Accessibility Quick Wins** (6 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **4. Touch & Mobile** (5 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **5. Performance Patterns** (5 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **1. Focus States** (4 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **3. Images** (4 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **7. Navigation & State** (4 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **craft-details.md** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **8. Content Copy Rules** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **9. Anti-Patterns Checklist** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Always Set Dimensions** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Async Updates Need Announcements** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Autocomplete Matters** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **AutoFocus Rules** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Avoid Layout Reads in Render** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Compound Controls: `:focus-within`** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Destructive Actions Need Confirmation** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Disable Spellcheck Where Appropriate** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Error Handling** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Heading Hierarchy** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **In React/Next.js** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Input Types and Attributes** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Keyboard Handlers** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Labels and Hit Targets** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (48 shared connections)
-- [[Product Requirements Documentation]] (14 shared connections)
-- [[Master Codebase Architecture Reference]] (12 shared connections)
-- [[Community 49]] (11 shared connections)
-- [[Community 44]] (8 shared connections)
-- [[Community 32]] (7 shared connections)
-- [[Community 50]] (6 shared connections)
-- [[Community 83]] (6 shared connections)
-- [[Community 109]] (5 shared connections)
-- [[Community 41]] (3 shared connections)
-- [[Community 58]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- `.agents/skills/refero-design/references/craft-details.md`
 
 ## Audit Trail
 
-- EXTRACTED: 322 (100%)
+- EXTRACTED: 84 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,46 +4,48 @@
 
 ## Key Concepts
 
-- **l()** (31 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **be()** (13 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **yl()** (13 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **Oe()** (11 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **vl()** (10 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **ga()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **la()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **Lo()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **Do()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **ea()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **ie()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **pl()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **ae()** (4 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **fl()** (4 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **ge()** (4 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **Ud()** (3 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **Ym()** (3 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **gl()** (2 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **hl()** (2 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **Wf()** (2 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Mr()** (15 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **r()** (15 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Pr()** (14 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **sf()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Dr()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Kr()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **qr()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Vr()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Hr()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **tn()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Wr()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Fr()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Ir()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Rr()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Ur()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Cr()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Lr()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Nr()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **zr()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **tc()** (2 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (26 shared connections)
-- [[Client Products Data Store]] (12 shared connections)
-- [[Zoho Integration Architecture]] (6 shared connections)
-- [[Pricing & Roles Skill]] (6 shared connections)
-- [[Community 37]] (6 shared connections)
-- [[Community 114]] (4 shared connections)
-- [[Community 33]] (4 shared connections)
-- [[Community 52]] (3 shared connections)
-- [[Community 42]] (1 shared connections)
+- [[Price Presentation & Product UI]] (25 shared connections)
+- [[Architecture Doc Generator]] (4 shared connections)
+- [[Vercel Deployment Routing]] (3 shared connections)
+- [[Community 82]] (2 shared connections)
+- [[Project Readme & Layout]] (2 shared connections)
+- [[Community 32]] (2 shared connections)
+- [[Community 50]] (2 shared connections)
+- [[Community 40]] (2 shared connections)
+- [[Community 51]] (2 shared connections)
+- [[Community 62]] (1 shared connections)
+- [[Community 44]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CpwYb6dU.js`
+- `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
 
 ## Audit Trail
 
-- EXTRACTED: 140 (100%)
+- EXTRACTED: 120 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

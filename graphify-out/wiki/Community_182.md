@@ -18,8 +18,8 @@
 
 ## Relationships
 
-- [[Project Readme & Layout]] (3 shared connections)
-- [[Community 128]] (3 shared connections)
+- [[Oxlint Linter Configuration]] (3 shared connections)
+- [[Community 126]] (3 shared connections)
 
 ## Source Files
 

@@ -1,47 +1,56 @@
 # Graphify Workflow
 
-> 38 nodes · cohesion 0.05
+> 39 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **scripts** (15 connections) — `package.json`
-- **dependencies** (12 connections) — `package.json`
-- **package.json** (7 connections) — `package.json`
-- **devDependencies** (6 connections) — `package.json`
-- **@capacitor/android** (1 connections) — `package.json`
-- **@capacitor/app** (1 connections) — `package.json`
-- **@capacitor/cli** (1 connections) — `package.json`
-- **@capacitor/core** (1 connections) — `package.json`
-- **@capacitor/ios** (1 connections) — `package.json`
-- **@capacitor/preferences** (1 connections) — `package.json`
-- **dotenv** (1 connections) — `package.json`
-- **postgres** (1 connections) — `package.json`
-- **react** (1 connections) — `package.json`
-- **react-dom** (1 connections) — `package.json`
-- **react-router-dom** (1 connections) — `package.json`
-- **oxlint** (1 connections) — `package.json`
-- **@types/react** (1 connections) — `package.json`
-- **@types/react-dom** (1 connections) — `package.json`
-- **vite** (1 connections) — `package.json`
-- **@vitejs/plugin-react** (1 connections) — `package.json`
-- **name** (1 connections) — `package.json`
-- **private** (1 connections) — `package.json`
-- **build** (1 connections) — `package.json`
-- **build:backend** (1 connections) — `package.json`
-- **cap:android** (1 connections) — `package.json`
-- *... and 13 more nodes in this community*
+- **.addEventListener()** (19 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **b()** (18 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **h()** (14 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **fp()** (13 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **.removeEventListener()** (12 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **delete()** (11 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **cm()** (7 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **E()** (7 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **lp()** (7 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **tm()** (7 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **em()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **.blur()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **.scrollIntoView()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **ol()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **v()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **g()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **hm()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **pm()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Rp()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **uh()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **x()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Bp()** (4 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **dl()** (4 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **.getClientRects()** (4 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **kl()** (4 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (39 shared connections)
+- [[Pricing Regression Test Suite]] (14 shared connections)
+- [[Community 55]] (8 shared connections)
+- [[Master Codebase Architecture Reference]] (8 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (7 shared connections)
+- [[Roles & Customer Sharing Spec]] (7 shared connections)
+- [[Community 49]] (5 shared connections)
+- [[Community 76]] (5 shared connections)
+- [[Community 46]] (4 shared connections)
+- [[Community 116]] (2 shared connections)
 
 ## Source Files
 
-- `package.json`
+- `ios/App/App/public/assets/index-CpwYb6dU.js`
 
 ## Audit Trail
 
-- EXTRACTED: 74 (100%)
+- EXTRACTED: 229 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

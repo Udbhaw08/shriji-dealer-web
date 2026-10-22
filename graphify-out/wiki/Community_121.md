@@ -1,25 +1,24 @@
 # Community 121
 
-> 16 nodes · cohesion 0.12
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **Refero MCP Tools Reference** (7 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **Screens** (5 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **Flows** (3 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **Styles** (3 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **mcp-tools.md** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **Common Mistakes** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **If Results Are Weak** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_get_flow`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_get_screen`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_get_screen_image`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_get_similar_screens`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_get_style`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_search_flows`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_search_screens`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_search_styles`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **Response Formats** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **Liquid Glass** (6 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Apple's rules** (5 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Cross-platform translation** (5 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **liquid-glass.md** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Color on glass** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Flutter** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **React Native** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Review checklist** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Standard materials beneath the glass** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **SwiftUI, UIKit, and AppKit** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Tauri and Electron** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **The two layers** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Where the material belongs** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Which variant** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
 
 ## Relationships
 
@@ -27,11 +26,11 @@
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/mcp-tools.md`
+- `.agents/skills/apple-design/references/hig/liquid-glass.md`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

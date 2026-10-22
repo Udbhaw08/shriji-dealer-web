@@ -1,40 +1,35 @@
 # Community 129
 
-> 15 nodes · cohesion 0.28
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **crmClient.js** (32 connections) — `backend/src/services/crmClient.js`
-- **crmFetch()** (12 connections) — `backend/src/services/crmClient.js`
-- **crmConfigured()** (6 connections) — `backend/src/services/crmClient.js`
-- **createDealerContact()** (5 connections) — `backend/src/services/crmClient.js`
-- **updateDealerCodeInCrm()** (5 connections) — `backend/src/services/crmClient.js`
-- **resolveContactNames()** (4 connections) — `backend/src/services/crmClient.js`
-- **deactivateAccountInCrm()** (3 connections) — `backend/src/services/crmClient.js`
-- **deactivateContactInCrm()** (3 connections) — `backend/src/services/crmClient.js`
-- **getDealerAccount()** (3 connections) — `backend/src/services/crmClient.js`
-- **isCrmConfigured()** (3 connections) — `backend/src/services/crmClient.js`
-- **getAccessToken()** (2 connections) — `backend/src/services/crmClient.js`
-- **getDealerContact()** (2 connections) — `backend/src/services/crmClient.js`
-- **getPrimaryContactForAccount()** (2 connections) — `backend/src/services/crmClient.js`
-- **linkContactToBackendUser()** (2 connections) — `backend/src/services/crmClient.js`
-- **FIELDS** (1 connections) — `backend/src/services/crmClient.js`
+- **web-DYm2hFZ2.js** (13 connections) — `android/app/src/main/assets/public/assets/web-DYm2hFZ2.js`
+- **applyPrefix()** (4 connections) — `android/app/src/main/assets/public/assets/web-DYm2hFZ2.js`
+- **keys()** (4 connections) — `android/app/src/main/assets/public/assets/web-DYm2hFZ2.js`
+- **get()** (3 connections) — `android/app/src/main/assets/public/assets/web-DYm2hFZ2.js`
+- **migrate()** (3 connections) — `android/app/src/main/assets/public/assets/web-DYm2hFZ2.js`
+- **rawKeys()** (3 connections) — `android/app/src/main/assets/public/assets/web-DYm2hFZ2.js`
+- **clear()** (2 connections) — `android/app/src/main/assets/public/assets/web-DYm2hFZ2.js`
+- **remove()** (2 connections) — `android/app/src/main/assets/public/assets/web-DYm2hFZ2.js`
+- **removeOld()** (2 connections) — `android/app/src/main/assets/public/assets/web-DYm2hFZ2.js`
+- **set()** (2 connections) — `android/app/src/main/assets/public/assets/web-DYm2hFZ2.js`
+- **configure()** (1 connections) — `android/app/src/main/assets/public/assets/web-DYm2hFZ2.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-DYm2hFZ2.js`
+- **impl()** (1 connections) — `android/app/src/main/assets/public/assets/web-DYm2hFZ2.js`
+- **prefix()** (1 connections) — `android/app/src/main/assets/public/assets/web-DYm2hFZ2.js`
 
 ## Relationships
 
-- [[Community 53]] (16 shared connections)
-- [[Community 31]] (4 shared connections)
-- [[Community 88]] (3 shared connections)
-- [[Community 48]] (2 shared connections)
-- [[Community 71]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `backend/src/services/crmClient.js`
+- `android/app/src/main/assets/public/assets/web-DYm2hFZ2.js`
 
 ## Audit Trail
 
-- EXTRACTED: 85 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

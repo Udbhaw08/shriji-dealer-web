@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **height** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **label** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 - **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (1 shared connections)
+- [[Zoho Integration Skill]] (1 shared connections)
 
 ## Source Files
 

@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **make-scheme-pdfs.mjs** (1 connections) — `scripts/make-scheme-pdfs.mjs`
-- **createPdfWithJpg()** (1 connections) — `scripts/make-scheme-pdfs.mjs`
+- **test-supabase.mjs** (1 connections) — `scripts/test-supabase.mjs`
+- **test()** (1 connections) — `scripts/test-supabase.mjs`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `scripts/make-scheme-pdfs.mjs`
+- `scripts/test-supabase.mjs`
 
 ## Audit Trail
 

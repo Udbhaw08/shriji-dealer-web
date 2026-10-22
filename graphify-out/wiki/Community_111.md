@@ -1,48 +1,39 @@
 # Community 111
 
-> 17 nodes · cohesion 0.17
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **Icon()** (18 connections) — `src/ui.jsx`
-- **ContentAdminDashboard.jsx** (12 connections) — `src/pages/ContentAdminDashboard.jsx`
-- **HeroSlider.jsx** (11 connections) — `src/components/HeroSlider.jsx`
-- **video.js** (5 connections) — `src/utils/video.js`
-- **FileOrUrlInput.jsx** (4 connections) — `src/components/FileOrUrlInput.jsx`
-- **parseVideoUrl()** (4 connections) — `src/utils/video.js`
-- **HeroSlider()** (3 connections) — `src/components/HeroSlider.jsx`
-- **STATS** (3 connections) — `src/data/site.js`
-- **video-banner.test.mjs** (3 connections) — `src/data/video-banner.test.mjs`
-- **FileOrUrlInput()** (2 connections) — `src/components/FileOrUrlInput.jsx`
-- **ContentAdminDashboard()** (2 connections) — `src/pages/ContentAdminDashboard.jsx`
-- **getVideoBadgeLabel()** (2 connections) — `src/utils/video.js`
-- **getCachedBanners()** (1 connections) — `src/components/HeroSlider.jsx`
-- **DEFAULT_BANNER_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
-- **DEFAULT_BRANDING_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
-- **DEFAULT_SCHEME_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
-- **QUICK_COLORS** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **pricing.test.mjs** (19 connections) — `src/data/pricing.test.mjs`
+- **crystal** (1 connections) — `src/data/pricing.test.mjs`
+- **crystalDealer** (1 connections) — `src/data/pricing.test.mjs`
+- **crystalGuest** (1 connections) — `src/data/pricing.test.mjs`
+- **genericDealer** (1 connections) — `src/data/pricing.test.mjs`
+- **genericGuest** (1 connections) — `src/data/pricing.test.mjs`
+- **genericItem** (1 connections) — `src/data/pricing.test.mjs`
+- **kettle** (1 connections) — `src/data/pricing.test.mjs`
+- **kettleDealer** (1 connections) — `src/data/pricing.test.mjs`
+- **kettleGuest** (1 connections) — `src/data/pricing.test.mjs`
+- **tcjDealer** (1 connections) — `src/data/pricing.test.mjs`
+- **tcjGuest** (1 connections) — `src/data/pricing.test.mjs`
+- **tripleCookJumbo** (1 connections) — `src/data/pricing.test.mjs`
+- **vernaGuest** (1 connections) — `src/data/pricing.test.mjs`
+- **vernaPlus** (1 connections) — `src/data/pricing.test.mjs`
+- **zeroItem** (1 connections) — `src/data/pricing.test.mjs`
+- **zeroPricedResult** (1 connections) — `src/data/pricing.test.mjs`
 
 ## Relationships
 
-- [[Pricing Regression Test Suite]] (18 shared connections)
-- [[Dependencies & Package Config]] (4 shared connections)
-- [[Community 35]] (4 shared connections)
-- [[Community 47]] (2 shared connections)
+- [[Community 36]] (3 shared connections)
 
 ## Source Files
 
-- `src/components/FileOrUrlInput.jsx`
-- `src/components/HeroSlider.jsx`
-- `src/data/site.js`
-- `src/data/video-banner.test.mjs`
-- `src/pages/ContentAdminDashboard.jsx`
-- `src/ui.jsx`
-- `src/utils/video.js`
+- `src/data/pricing.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 73 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 35 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

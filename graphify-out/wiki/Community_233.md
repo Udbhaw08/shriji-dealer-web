@@ -1,32 +1,30 @@
 # Community 233
 
-> 9 nodes · cohesion 0.31
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **cards** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **additionalProperties** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **required** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **Archify JSON IR Schemas** (7 connections) — `.agents/skills/archify/schemas/README.md`
+- **Files** (2 connections) — `.agents/skills/archify/schemas/README.md`
+- **README.md** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Error format** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Legend presentation contract** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Runtime validation** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **schema_version policy** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Shared definitions (common.schema.json)** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Visual quality and engineering truth** (1 connections) — `.agents/skills/archify/schemas/README.md`
 
 ## Relationships
 
-- [[Community 181]] (3 shared connections)
-- [[Community 78]] (1 shared connections)
-- [[Community 435]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/archify/schemas/README.md`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

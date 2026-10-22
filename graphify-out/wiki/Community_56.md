@@ -1,47 +1,61 @@
 # Community 56
 
-> 26 nodes · cohesion 0.09
+> 27 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **layout-rules.test.mjs** (25 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **assertRelationshipsAvoidAllNodeBorders()** (5 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **workflowNodeBorderOverlap()** (3 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **assertWorkflowEdgesAvoidAllNodeBorders()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **axisOverlapLength()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **workflowEdgePoints()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **workflowNodeRect()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **ambiguousCorridorDocument()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **autoRoutePassThroughDocument()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **boundaryFrameRect()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **boundaryTitleMasks()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **hash()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **load()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **rectanglesOverlap()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **rectContainsRect()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **SHRINK_CASES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **TAG_SHRINK_CASES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **tangentViaLifecycle()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **validateCli()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- *... and 1 more nodes in this community*
+- **auth.js** (47 connections) — `backend/src/routes/auth.js`
+- **dealerApp.js** (24 connections) — `backend/src/services/dealerApp.js`
+- **webhooks.js** (14 connections) — `backend/src/routes/webhooks.js`
+- **validators.js** (14 connections) — `backend/src/utils/validators.js`
+- **applyCrmAccountState()** (12 connections) — `backend/src/services/dealerApp.js`
+- **normalizePhone()** (12 connections) — `backend/src/utils/phone.js`
+- **normalizeEmail()** (12 connections) — `backend/src/utils/validators.js`
+- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
+- **cleanName()** (7 connections) — `backend/src/utils/validators.js`
+- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
+- **phone.js** (6 connections) — `backend/src/utils/phone.js`
+- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
+- **applyCrmContactState()** (5 connections) — `backend/src/services/dealerApp.js`
+- **isValidPhone()** (5 connections) — `backend/src/utils/validators.js`
+- **resolveUserWithDealer()** (4 connections) — `backend/src/routes/auth.js`
+- **isValidEmail()** (4 connections) — `backend/src/utils/validators.js`
+- **isValidName()** (4 connections) — `backend/src/utils/validators.js`
+- **emailOnlyIdentifier()** (3 connections) — `backend/src/routes/auth.js`
+- **findUserByEmail()** (3 connections) — `backend/src/routes/auth.js`
+- **issueSession()** (3 connections) — `backend/src/routes/auth.js`
+- **isValidGstin()** (3 connections) — `backend/src/utils/validators.js`
+- **publicUser()** (2 connections) — `backend/src/routes/auth.js`
+- **crmSync.test.mjs** (2 connections) — `backend/test/crmSync.test.mjs`
+- **isValidPincode()** (2 connections) — `backend/src/utils/validators.js`
+- **googleClient** (1 connections) — `backend/src/routes/auth.js`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 34]] (28 shared connections)
+- [[Community 127]] (16 shared connections)
+- [[Community 91]] (11 shared connections)
+- [[Community 74]] (10 shared connections)
+- [[Community 53]] (6 shared connections)
+- [[Community 94]] (6 shared connections)
+- [[Community 139]] (5 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/layout-rules.test.mjs`
+- `backend/src/routes/auth.js`
+- `backend/src/routes/webhooks.js`
+- `backend/src/services/crmClient.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/utils/phone.js`
+- `backend/src/utils/validators.js`
+- `backend/test/crmSync.test.mjs`
+- `backend/test/interconnection.test.mjs`
+- `backend/test/validators.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 60 (100%)
+- EXTRACTED: 210 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

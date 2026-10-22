@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **cordova.variables.gradle** (0 connections) — `android/capacitor-cordova-android-plugins/cordova.variables.gradle`
+- **CapApp-SPM.swift** (0 connections) — `ios/App/CapApp-SPM/Sources/CapApp-SPM/CapApp-SPM.swift`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `android/capacitor-cordova-android-plugins/cordova.variables.gradle`
+- `ios/App/CapApp-SPM/Sources/CapApp-SPM/CapApp-SPM.swift`
 
 ## Audit Trail
 

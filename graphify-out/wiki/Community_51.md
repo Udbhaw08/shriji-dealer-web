@@ -1,60 +1,59 @@
 # Community 51
 
-> 27 nodes · cohesion 0.13
+> 28 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **.send()** (54 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **viewer-camera-browser.test.mjs** (11 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **export-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **motion-governor-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **.inspect()** (5 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **run()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **evaluate()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **record()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **media()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **screenshot()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **stable()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **viewport()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **.waitFor()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **screenshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- *... and 2 more nodes in this community*
+- **qd()** (14 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Yd()** (13 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Fd()** (12 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Vd()** (12 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **rf()** (11 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **df()** (10 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **ff()** (8 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **ct()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Bd()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Ci()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **ef()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **nf()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Hd()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Id()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **lf()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **ns()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **pl()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **fl()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **tf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Gd()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Ud()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **uf()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Wd()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Ym()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [[Community 63]] (11 shared connections)
-- [[Community 94]] (8 shared connections)
-- [[Community 84]] (7 shared connections)
-- [[Community 132]] (7 shared connections)
-- [[Community 40]] (5 shared connections)
-- [[Community 150]] (5 shared connections)
-- [[Community 151]] (5 shared connections)
-- [[Community 184]] (4 shared connections)
-- [[Community 108]] (1 shared connections)
-- [[Community 292]] (1 shared connections)
+- [[Price Presentation & Product UI]] (33 shared connections)
+- [[Community 32]] (10 shared connections)
+- [[Vercel Deployment Routing]] (7 shared connections)
+- [[Community 65]] (5 shared connections)
+- [[Architecture Doc Generator]] (5 shared connections)
+- [[Community 40]] (4 shared connections)
+- [[Community 44]] (3 shared connections)
+- [[Community 82]] (3 shared connections)
+- [[Community 62]] (3 shared connections)
+- [[Community 50]] (3 shared connections)
+- [[Community 87]] (2 shared connections)
+- [[Project Readme & Layout]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/export-browser.test.mjs`
-- `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
 
 ## Audit Trail
 
-- EXTRACTED: 146 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 169 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **4. Text Color System** (5 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Anti-pattern** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Dark Mode Inversion** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Rules That Actually Work** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **The System** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Archify Diagram Generation Protocol** (4 connections) — `.agents/rules/archify.md`
+- **archify.md** (1 connections) — `.agents/rules/archify.md`
+- **Rule 1: Dedicated Subfolder Per Diagram** (1 connections) — `.agents/rules/archify.md`
+- **Rule 2: Output Artifacts (HTML & Dark Image Only)** (1 connections) — `.agents/rules/archify.md`
+- **Rule 3: Intermediate File Cleanup** (1 connections) — `.agents/rules/archify.md`
 
 ## Relationships
 
-- [[Community 231]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/rules/archify.md`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

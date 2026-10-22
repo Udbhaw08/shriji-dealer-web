@@ -4,33 +4,33 @@
 
 ## Key Concepts
 
-- **Buttons** (8 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Desktop (macOS)** (5 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **buttons.md** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Help buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Image buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Push buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Role** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Square buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Style** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **repository** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **properties** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **revision** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **url** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **link_mode** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **provider** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **pattern** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 59]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/buttons.md`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 29 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
