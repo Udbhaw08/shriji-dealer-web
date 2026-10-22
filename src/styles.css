@@ -699,7 +699,7 @@ h4 {
 /* ---------- Real Amazon / Flipkart Style Store Banner Carousel ---------- */
 
 .store-banner-section {
-  padding-block: clamp(0.75rem, 2vw, 1.5rem);
+  padding-block: clamp(0.5rem, 1.2vw, 0.9rem);
   background: var(--bg);
   overflow-x: clip;
 }
@@ -709,8 +709,8 @@ h4 {
   width: 100%;
   max-width: 100%;
   margin: 0 auto;
-  aspect-ratio: 16 / 6.5;
-  max-height: 480px;
+  aspect-ratio: 16 / 5.2;
+  max-height: 330px;
   border-radius: var(--r-xl);
   overflow: hidden;
   box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
@@ -961,29 +961,30 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: var(--s3);
-  margin-top: clamp(1rem, 2vw, 1.5rem);
+  gap: var(--s3, 12px);
+  margin-top: 10px;
   flex-wrap: wrap;
 }
 
-.store-banner-actions .btn {
-  padding: 10px 22px;
-  font-size: 0.93rem;
-  font-weight: 600;
+.store-banner-actions .stitch-cta-white,
+.store-banner-actions .stitch-cta-primary {
+  width: auto;
+  flex: 0 1 270px;
+  min-height: 44px;
 }
 
 /* Mobile & Tablet Responsiveness */
 @media (max-width: 900px) {
   .store-banner-viewport {
-    aspect-ratio: 1 / 1;
-    max-height: none;
-    border-radius: var(--r-md);
+    aspect-ratio: 16 / 8.5;
+    max-height: 250px;
+    border-radius: var(--r-lg, 12px);
   }
   .store-carousel-nav {
     display: none;
   }
   .store-carousel-dots {
-    bottom: 10px;
+    bottom: 8px;
     padding: 3px 8px;
     gap: 6px;
   }
@@ -994,27 +995,58 @@ h4 {
   .store-carousel-dot.active {
     width: 18px;
   }
+  .store-banner-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .store-banner-actions .stitch-cta-white,
+  .store-banner-actions .stitch-cta-primary {
+    width: 100%;
+    flex: 1 1 0;
+    min-height: 42px;
+    padding: 0 10px;
+    font-size: 0.82rem;
+    border-radius: 10px;
+  }
+  .store-banner-actions .stitch-cta-arrow-circle {
+    width: 24px;
+    height: 24px;
+  }
 }
 
 @media (max-width: 600px) {
   .store-banner-section {
-    padding-block: 0.4rem 1rem;
+    padding-block: 0.35rem 0.65rem;
   }
   .store-banner-section > .wrap {
-    padding-inline: 0;
+    padding-inline: var(--s3, 12px);
   }
   .store-banner-viewport {
-    border-radius: 0;
-    aspect-ratio: 1 / 1;
-    max-height: none;
-    box-shadow: none;
+    border-radius: var(--r-md, 10px);
+    aspect-ratio: 16 / 8.5;
+    max-height: 200px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
   }
   .store-banner-actions {
-    padding-inline: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-top: 8px;
+    padding-inline: 0;
   }
-  .store-banner-actions .btn {
-    flex: 1 1 160px;
-    justify-content: center;
+  .store-banner-actions .stitch-cta-white,
+  .store-banner-actions .stitch-cta-primary {
+    min-height: 40px;
+    padding: 0 8px;
+    font-size: 0.78rem;
+    border-radius: 9px;
+  }
+  .store-banner-actions .stitch-cta-arrow-circle {
+    width: 22px;
+    height: 22px;
   }
 }
 
@@ -6396,9 +6428,13 @@ h4 {
 }
 
 /* Home Brand Statement & Amber Accent Bar */
+.home-trust-sec {
+  padding-block: clamp(0.4rem, 1vw, 0.85rem);
+}
+
 .home-tagline-block {
   text-align: center;
-  padding: 18px 0 6px 0;
+  padding: 6px 0 2px 0;
 }
 
 .home-tagline-title {
