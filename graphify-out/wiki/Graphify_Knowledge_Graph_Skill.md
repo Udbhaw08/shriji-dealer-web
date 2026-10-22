@@ -34,16 +34,16 @@
 ## Relationships
 
 - [[Price Presentation & Product UI]] (48 shared connections)
-- [[Client Products Data Store]] (14 shared connections)
+- [[Zoho Integration Architecture]] (14 shared connections)
 - [[Design System & UI Tokens]] (12 shared connections)
 - [[Community 53]] (11 shared connections)
-- [[Community 47]] (8 shared connections)
-- [[Community 33]] (7 shared connections)
+- [[Community 48]] (8 shared connections)
+- [[Community 34]] (7 shared connections)
 - [[Community 54]] (6 shared connections)
-- [[Community 88]] (6 shared connections)
-- [[Community 113]] (5 shared connections)
-- [[Community 43]] (3 shared connections)
-- [[Community 62]] (2 shared connections)
+- [[Community 87]] (6 shared connections)
+- [[Community 111]] (5 shared connections)
+- [[Community 44]] (3 shared connections)
+- [[Community 61]] (2 shared connections)
 
 ## Source Files
 

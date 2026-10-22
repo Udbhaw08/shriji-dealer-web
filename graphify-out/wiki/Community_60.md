@@ -1,56 +1,52 @@
 # Community 60
 
-> 25 nodes · cohesion 0.12
+> 25 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **t()** (20 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **c()** (8 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **hh()** (8 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **yh()** (8 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Mp()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **fh()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **mh()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ph()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **s()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Sh()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **zd()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **bh()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **eh()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Ih()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **th()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Qa()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **vt()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ah()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **nh()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **rh()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **vh()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Xm()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **xt()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ls()** (2 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **zh()** (2 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **architecture-delta.mjs** (65 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **validateArchitectureDeltaHtml()** (11 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **renderArchitectureDeltaHtml()** (6 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **architectureDeltaChangeRows()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **compareEntities()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **reviewTargetTags()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **expectedReviewTargetSignature()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **primaryReviewTags()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **reviewIdentity()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **reviewPrimaryStates()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **sortedObjects()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **addState()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **fieldChanges()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **normalizeComponent()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **normalizedField()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **reviewTargetSignature()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **safeJson()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **statusFor()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **total()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **BOUNDARY_FIELDS** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **codepointOrder()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **COMPONENT_FIELDS** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **CONNECTION_FIELDS** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **normalizeBoundary()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **sorted()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (27 shared connections)
-- [[Master Codebase Architecture Reference]] (8 shared connections)
-- [[Community 50]] (7 shared connections)
-- [[Pricing Regression Test Suite]] (5 shared connections)
-- [[Community 108]] (4 shared connections)
-- [[Community 42]] (4 shared connections)
-- [[Community 32]] (4 shared connections)
-- [[Community 44]] (3 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (2 shared connections)
-- [[Community 51]] (1 shared connections)
+- [[Community 85]] (20 shared connections)
+- [[Community 115]] (18 shared connections)
+- [[Architecture Doc Generator]] (5 shared connections)
+- [[Community 144]] (4 shared connections)
+- [[Community 165]] (2 shared connections)
+- [[Community 291]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 137 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 129 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -2,7 +2,7 @@
 
 > God node · 37 connections · `ios/App/App/public/assets/index-CpwYb6dU.js`
 
-**Community:** [[Client Products Data Store]]
+**Community:** [[Zoho Integration Architecture]]
 
 ## Connections by Relation
 

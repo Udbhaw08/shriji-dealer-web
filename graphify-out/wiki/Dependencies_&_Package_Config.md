@@ -33,11 +33,11 @@
 
 ## Relationships
 
-- [[Zoho Integration Architecture]] (29 shared connections)
-- [[Community 35]] (13 shared connections)
-- [[Community 48]] (10 shared connections)
-- [[Community 110]] (4 shared connections)
-- [[Community 169]] (1 shared connections)
+- [[Pricing Regression Test Suite]] (29 shared connections)
+- [[Community 36]] (13 shared connections)
+- [[Community 49]] (10 shared connections)
+- [[Community 108]] (4 shared connections)
+- [[Community 168]] (1 shared connections)
 
 ## Source Files
 

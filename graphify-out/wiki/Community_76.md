@@ -30,7 +30,7 @@
 
 ## Relationships
 
-- [[Community 178]] (1 shared connections)
+- [[Community 177]] (1 shared connections)
 - [[Community 82]] (1 shared connections)
 
 ## Source Files

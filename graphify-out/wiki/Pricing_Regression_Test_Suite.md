@@ -1,58 +1,73 @@
 # Pricing Regression Test Suite
 
-> 55 nodes · cohesion 0.07
+> 55 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **ul()** (37 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **gc()** (16 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **el()** (15 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **vc()** (15 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **sl()** (13 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ca()** (12 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **lm()** (12 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **wc()** (12 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ll()** (11 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **xc()** (11 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **aa()** (10 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **am()** (10 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Mc()** (10 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ya()** (10 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **al()** (9 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Pc()** (8 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **uc()** (8 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **xa()** (8 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **cl()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **da()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **nc()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Ni()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Fc()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **lh()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Ro()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **main.jsx** (44 connections) — `src/main.jsx`
+- **ui.jsx** (42 connections) — `src/ui.jsx`
+- **useLanguage()** (32 connections) — `src/data/i18n.js`
+- **useSession()** (28 connections) — `src/data/session.js`
+- **Home.jsx** (26 connections) — `src/pages/Home.jsx`
+- **site.js** (24 connections) — `src/data/site.js`
+- **t()** (19 connections) — `src/data/i18n.js`
+- **isDealer()** (18 connections) — `src/data/dealer.js`
+- **Schemes.jsx** (17 connections) — `src/pages/Schemes.jsx`
+- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
+- **COMPANY** (16 connections) — `src/data/site.js`
+- **Support.jsx** (15 connections) — `src/pages/Support.jsx`
+- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
+- **dealerById()** (12 connections) — `src/data/dealer.js`
+- **Products()** (9 connections) — `src/pages/Products.jsx`
+- **Header()** (9 connections) — `src/ui.jsx`
+- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
+- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
+- **portalGate.js** (8 connections) — `src/data/portalGate.js`
+- **Favorites()** (8 connections) — `src/pages/Favorites.jsx`
+- **Home()** (8 connections) — `src/pages/Home.jsx`
+- **Login()** (7 connections) — `src/pages/Login.jsx`
+- **Schemes()** (6 connections) — `src/pages/Schemes.jsx`
+- **AccountLink()** (6 connections) — `src/ui.jsx`
+- **Footer()** (6 connections) — `src/ui.jsx`
 - *... and 30 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (64 shared connections)
-- [[Community 50]] (22 shared connections)
-- [[Community 44]] (15 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (14 shared connections)
-- [[Community 108]] (10 shared connections)
-- [[Community 42]] (9 shared connections)
-- [[Master Codebase Architecture Reference]] (8 shared connections)
-- [[Community 32]] (8 shared connections)
-- [[Community 84]] (6 shared connections)
-- [[Community 60]] (5 shared connections)
-- [[Community 51]] (5 shared connections)
+- [[Community 36]] (55 shared connections)
+- [[Dependencies & Package Config]] (29 shared connections)
+- [[Community 49]] (19 shared connections)
+- [[Community 108]] (18 shared connections)
+- [[Community 168]] (9 shared connections)
+- [[Community 167]] (2 shared connections)
+- [[Community 388]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- `src/components/EmailVerificationPrompt.jsx`
+- `src/components/MobileBottomNav.jsx`
+- `src/components/NativeBackHandler.jsx`
+- `src/components/UnderMaintenance.jsx`
+- `src/data/dealer.js`
+- `src/data/i18n.js`
+- `src/data/portalGate.js`
+- `src/data/session.js`
+- `src/data/site.js`
+- `src/main.jsx`
+- `src/pages/DealerDashboard.jsx`
+- `src/pages/Favorites.jsx`
+- `src/pages/Home.jsx`
+- `src/pages/LegalPrivacy.jsx`
+- `src/pages/LegalTerms.jsx`
+- `src/pages/Login.jsx`
+- `src/pages/PrivacyPolicy.jsx`
+- `src/pages/Products.jsx`
+- `src/pages/Schemes.jsx`
+- `src/pages/Support.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 388 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 484 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

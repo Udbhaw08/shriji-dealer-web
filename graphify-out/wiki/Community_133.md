@@ -4,20 +4,20 @@
 
 ## Key Concepts
 
-- **File management** (7 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Desktop (macOS)** (3 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Mobile (iOS, iPadOS)** (3 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **file-management.md** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Creating and opening files** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Custom file management** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Document launcher** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **File provider app extension** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Finder Sync extensions** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Quick Look previews** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Saving work** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Tablet (iPadOS)** (6 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Pointing devices** (5 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **pointing-devices.md** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Customizing pointers** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Pointer accessories** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Pointer magnetism** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Pointer shape and content effects** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Pointers** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Standard pointers and effects** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
 
 ## Relationships
 
@@ -25,7 +25,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/file-management.md`
+- `.agents/skills/apple-design/references/hig/pointing-devices.md`
 
 ## Audit Trail
 

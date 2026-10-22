@@ -1,49 +1,53 @@
 # Community 84
 
-> 20 nodes · cohesion 0.19
+> 20 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **l()** (31 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **be()** (13 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **yl()** (13 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Oe()** (11 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **vl()** (10 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ga()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **la()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Lo()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Do()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ea()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ie()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **pl()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ae()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **fl()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ge()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Ud()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Ym()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **gl()** (2 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **hl()** (2 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Wf()** (2 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **ChromeVisualBrowser** (21 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **visual-check.test.mjs** (14 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **PipeCdp** (7 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.attach()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.close()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.constructor()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **chromeVisualBrowserArgs()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.failAll()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.consume()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **VISUAL_CHECK_VIEWPORTS** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.failure()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **artifact()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **fakeBrowser()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **fakeChromeChild()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **png** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (26 shared connections)
-- [[Master Codebase Architecture Reference]] (12 shared connections)
-- [[Pricing Regression Test Suite]] (6 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (6 shared connections)
-- [[Community 44]] (6 shared connections)
-- [[Community 108]] (4 shared connections)
-- [[Community 32]] (4 shared connections)
-- [[Community 50]] (3 shared connections)
-- [[Community 42]] (1 shared connections)
+- [[Community 42]] (8 shared connections)
+- [[Community 52]] (7 shared connections)
+- [[Community 130]] (2 shared connections)
+- [[Community 94]] (2 shared connections)
+- [[Community 65]] (1 shared connections)
+- [[Community 128]] (1 shared connections)
+- [[Graphify Agent Rules]] (1 shared connections)
+- [[Community 181]] (1 shared connections)
+- [[Community 243]] (1 shared connections)
+- [[Community 150]] (1 shared connections)
+- [[Community 206]] (1 shared connections)
+- [[Community 106]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/test/visual-check.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 140 (100%)
+- EXTRACTED: 71 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

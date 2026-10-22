@@ -33,17 +33,16 @@
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (48 shared connections)
-- [[Pricing Regression Test Suite]] (14 shared connections)
-- [[Master Codebase Architecture Reference]] (12 shared connections)
-- [[Community 50]] (11 shared connections)
-- [[Community 44]] (8 shared connections)
-- [[Community 32]] (7 shared connections)
-- [[Community 51]] (6 shared connections)
-- [[Community 84]] (6 shared connections)
-- [[Community 108]] (5 shared connections)
-- [[Community 42]] (3 shared connections)
-- [[Community 60]] (2 shared connections)
+- [[Dealer Auth & Session Management]] (50 shared connections)
+- [[Master Codebase Architecture Reference]] (14 shared connections)
+- [[Community 51]] (11 shared connections)
+- [[Client Products Data Store]] (11 shared connections)
+- [[Community 45]] (8 shared connections)
+- [[Vercel Deployment Routing]] (7 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (7 shared connections)
+- [[Community 73]] (6 shared connections)
+- [[Community 114]] (5 shared connections)
+- [[Community 43]] (3 shared connections)
 
 ## Source Files
 

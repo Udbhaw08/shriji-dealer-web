@@ -1,49 +1,48 @@
 # Community 108
 
-> 17 nodes · cohesion 0.21
+> 17 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **ki()** (12 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Pa()** (12 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ta()** (12 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Nn()** (11 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **mt()** (10 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **A()** (9 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ka()** (9 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **sa()** (9 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ha()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **ua()** (7 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **mi()** (6 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **fa()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **qn()** (5 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **Zn()** (4 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **io()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **qt()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
-- **uo()** (3 connections) — `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- **Icon()** (18 connections) — `src/ui.jsx`
+- **ContentAdminDashboard.jsx** (12 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **HeroSlider.jsx** (11 connections) — `src/components/HeroSlider.jsx`
+- **video.js** (5 connections) — `src/utils/video.js`
+- **FileOrUrlInput.jsx** (4 connections) — `src/components/FileOrUrlInput.jsx`
+- **parseVideoUrl()** (4 connections) — `src/utils/video.js`
+- **HeroSlider()** (3 connections) — `src/components/HeroSlider.jsx`
+- **STATS** (3 connections) — `src/data/site.js`
+- **video-banner.test.mjs** (3 connections) — `src/data/video-banner.test.mjs`
+- **FileOrUrlInput()** (2 connections) — `src/components/FileOrUrlInput.jsx`
+- **ContentAdminDashboard()** (2 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **getVideoBadgeLabel()** (2 connections) — `src/utils/video.js`
+- **getCachedBanners()** (1 connections) — `src/components/HeroSlider.jsx`
+- **DEFAULT_BANNER_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **DEFAULT_BRANDING_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **DEFAULT_SCHEME_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **QUICK_COLORS** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (18 shared connections)
-- [[Master Codebase Architecture Reference]] (12 shared connections)
-- [[Pricing Regression Test Suite]] (10 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (5 shared connections)
-- [[Community 84]] (4 shared connections)
-- [[Community 50]] (4 shared connections)
-- [[Community 60]] (4 shared connections)
-- [[Community 51]] (4 shared connections)
-- [[Community 44]] (3 shared connections)
-- [[Community 32]] (3 shared connections)
-- [[Community 42]] (2 shared connections)
+- [[Pricing Regression Test Suite]] (18 shared connections)
+- [[Dependencies & Package Config]] (4 shared connections)
+- [[Community 36]] (4 shared connections)
+- [[Community 49]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CpwYb6dU.js`
+- `src/components/FileOrUrlInput.jsx`
+- `src/components/HeroSlider.jsx`
+- `src/data/site.js`
+- `src/data/video-banner.test.mjs`
+- `src/pages/ContentAdminDashboard.jsx`
+- `src/ui.jsx`
+- `src/utils/video.js`
 
 ## Audit Trail
 
-- EXTRACTED: 127 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 73 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

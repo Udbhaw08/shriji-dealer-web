@@ -5,7 +5,7 @@
 ## Key Concepts
 
 - **$defs** (16 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **relationshipWidth** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **id** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
 - **animation** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
 - **brandMark** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
 - **componentType** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
@@ -18,23 +18,23 @@
 - **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 - **oneOf** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 - **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **pattern** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 - **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 - **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 - **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 - **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- [[Community 406]] (1 shared connections)
-- [[Community 232]] (1 shared connections)
+- [[Community 405]] (1 shared connections)
+- [[Community 231]] (1 shared connections)
+- [[Community 435]] (1 shared connections)
+- [[Community 178]] (1 shared connections)
+- [[Community 351]] (1 shared connections)
 - [[Community 436]] (1 shared connections)
-- [[Community 437]] (1 shared connections)
-- [[Community 179]] (1 shared connections)
-- [[Community 352]] (1 shared connections)
 
 ## Source Files
 

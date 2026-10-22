@@ -1,48 +1,41 @@
 # Community 113
 
-> 17 nodes · cohesion 0.21
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **ki()** (12 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **Pa()** (12 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **ta()** (12 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **Nn()** (11 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **mt()** (10 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **A()** (9 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **ka()** (9 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **sa()** (9 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **ha()** (7 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **ua()** (7 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **mi()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **fa()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **qn()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **Zn()** (4 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **io()** (3 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **qt()** (3 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
-- **uo()** (3 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **properties** (12 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **meta** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **lanes** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **nodes** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **cards** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **schema_version** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (18 shared connections)
-- [[Design System & UI Tokens]] (12 shared connections)
-- [[Client Products Data Store]] (10 shared connections)
-- [[Graphify Knowledge Graph Skill]] (5 shared connections)
-- [[Community 88]] (4 shared connections)
-- [[Community 53]] (4 shared connections)
-- [[Community 62]] (4 shared connections)
-- [[Community 54]] (4 shared connections)
-- [[Community 47]] (3 shared connections)
-- [[Community 33]] (3 shared connections)
-- [[Community 43]] (2 shared connections)
+- [[Community 137]] (5 shared connections)
+- [[Community 62]] (2 shared connections)
+- [[Community 98]] (1 shared connections)
+- [[Community 72]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CpwYb6dU.js`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 127 (100%)
+- EXTRACTED: 41 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

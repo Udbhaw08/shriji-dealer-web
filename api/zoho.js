@@ -746,7 +746,7 @@ let allRawProductsCacheTime = 0;
 
 export async function fetchAllRawZohoProducts({ refresh = false } = {}) {
   const now = Date.now();
-  if (!refresh && cachedAllRawProducts && now - cachedAllRawProductsCacheTime < 15000) {
+  if (!refresh && cachedAllRawProducts && now - allRawProductsCacheTime < 15000) {
     return cachedAllRawProducts;
   }
 

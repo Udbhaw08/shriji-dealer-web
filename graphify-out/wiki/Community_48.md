@@ -1,56 +1,57 @@
 # Community 48
 
-> 28 nodes · cohesion 0.13
+> 29 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **Products.jsx** (25 connections) — `src/pages/Products.jsx`
-- **productsStore.js** (22 connections) — `src/data/productsStore.js`
-- **ProductSearchBar.jsx** (15 connections) — `src/components/ProductSearchBar.jsx`
-- **useProducts()** (12 connections) — `src/data/productsStore.js`
-- **searchHelper.js** (11 connections) — `src/data/searchHelper.js`
-- **syncPricebookWithSession()** (7 connections) — `src/data/productsStore.js`
-- **ProductSearchBar()** (6 connections) — `src/components/ProductSearchBar.jsx`
-- **products.js** (5 connections) — `src/data/products.js`
-- **fetchLiveProducts()** (5 connections) — `src/data/productsStore.js`
-- **getSuggestions()** (5 connections) — `src/data/searchHelper.js`
-- **loadCached()** (4 connections) — `src/data/productsStore.js`
-- **autocorrectQuery()** (4 connections) — `src/data/searchHelper.js`
-- **buildSearchDictionary()** (4 connections) — `src/data/searchHelper.js`
-- **emit()** (3 connections) — `src/data/productsStore.js`
-- **CATEGORIES** (2 connections) — `src/data/products.js`
-- **getCacheKey()** (2 connections) — `src/data/productsStore.js`
-- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
-- **useProduct()** (2 connections) — `src/data/productsStore.js`
-- **getPopularSearches()** (2 connections) — `src/data/searchHelper.js`
-- **scoreProduct()** (2 connections) — `src/data/searchHelper.js`
-- **PRODUCTS** (1 connections) — `src/data/products.js`
-- **listeners** (1 connections) — `src/data/productsStore.js`
-- **PREFERRED_ORDER** (1 connections) — `src/data/productsStore.js`
-- **storeState** (1 connections) — `src/data/productsStore.js`
-- **COLLOQUIAL_SYNONYMS** (1 connections) — `src/data/searchHelper.js`
-- *... and 3 more nodes in this community*
+- **D()** (28 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **qd()** (14 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Yd()** (13 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Fd()** (12 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Vd()** (12 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **rf()** (11 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **df()** (10 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **kc()** (9 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **ff()** (8 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **ct()** (7 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Rd()** (7 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Bd()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Ci()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **ef()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **nf()** (6 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Hd()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Id()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Kd()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **lf()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **mf()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **ns()** (5 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **cf()** (4 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **tf()** (4 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **Gd()** (3 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- **uf()** (3 connections) — `ios/App/App/public/assets/index-CpwYb6dU.js`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Integration Architecture]] (19 shared connections)
-- [[Community 35]] (14 shared connections)
-- [[Dependencies & Package Config]] (10 shared connections)
-- [[Community 169]] (2 shared connections)
-- [[Community 110]] (2 shared connections)
-- [[Community 168]] (1 shared connections)
+- [[Price Presentation & Product UI]] (31 shared connections)
+- [[Design System & UI Tokens]] (16 shared connections)
+- [[Zoho Integration Architecture]] (15 shared connections)
+- [[Community 53]] (10 shared connections)
+- [[Graphify Knowledge Graph Skill]] (8 shared connections)
+- [[Community 87]] (6 shared connections)
+- [[Community 44]] (4 shared connections)
+- [[Community 34]] (4 shared connections)
+- [[Community 54]] (4 shared connections)
+- [[Community 111]] (3 shared connections)
+- [[Community 61]] (3 shared connections)
 
 ## Source Files
 
-- `src/components/ProductSearchBar.jsx`
-- `src/data/products.js`
-- `src/data/productsStore.js`
-- `src/data/searchHelper.js`
-- `src/pages/Products.jsx`
+- `ios/App/App/public/assets/index-CpwYb6dU.js`
 
 ## Audit Trail
 
-- EXTRACTED: 148 (100%)
+- EXTRACTED: 208 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

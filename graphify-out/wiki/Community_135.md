@@ -1,36 +1,44 @@
 # Community 135
 
-> 14 nodes · cohesion 0.23
+> 14 nodes · cohesion 0.30
 
 ## Key Concepts
 
-- **web-DYm2hFZ2.js** (13 connections) — `ios/App/App/public/assets/web-DYm2hFZ2.js`
-- **applyPrefix()** (4 connections) — `ios/App/App/public/assets/web-DYm2hFZ2.js`
-- **keys()** (4 connections) — `ios/App/App/public/assets/web-DYm2hFZ2.js`
-- **get()** (3 connections) — `ios/App/App/public/assets/web-DYm2hFZ2.js`
-- **migrate()** (3 connections) — `ios/App/App/public/assets/web-DYm2hFZ2.js`
-- **rawKeys()** (3 connections) — `ios/App/App/public/assets/web-DYm2hFZ2.js`
-- **clear()** (2 connections) — `ios/App/App/public/assets/web-DYm2hFZ2.js`
-- **remove()** (2 connections) — `ios/App/App/public/assets/web-DYm2hFZ2.js`
-- **removeOld()** (2 connections) — `ios/App/App/public/assets/web-DYm2hFZ2.js`
-- **set()** (2 connections) — `ios/App/App/public/assets/web-DYm2hFZ2.js`
-- **configure()** (1 connections) — `ios/App/App/public/assets/web-DYm2hFZ2.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-DYm2hFZ2.js`
-- **impl()** (1 connections) — `ios/App/App/public/assets/web-DYm2hFZ2.js`
-- **prefix()** (1 connections) — `ios/App/App/public/assets/web-DYm2hFZ2.js`
+- **workflow-v2.mjs** (21 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **migrateWorkflowDocument()** (15 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **compileWorkflow()** (13 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **clone()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **legacyLayoutProbe()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **legacyRequirementProbe()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **expandableViewBox()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **requiredViewBoxFrom()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **schemaDiagnostics()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **workflow-semantic-contract.test.mjs** (3 connections) — `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
+- **diagnostic()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **result()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **serializeMigratedWorkflow()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **document()** (1 connections) — `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 290]] (8 shared connections)
+- [[Product Requirements Documentation]] (4 shared connections)
+- [[Community 83]] (4 shared connections)
+- [[Community 40]] (3 shared connections)
+- [[Community 142]] (3 shared connections)
+- [[Community 151]] (2 shared connections)
+- [[Community 59]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-DYm2hFZ2.js`
+- `.agents/skills/archify/migrations/workflow-v2.mjs`
+- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 78 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

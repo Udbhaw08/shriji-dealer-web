@@ -35,11 +35,11 @@
 
 - [[Architecture Doc Generator]] (7 shared connections)
 - [[Product Requirements Documentation]] (6 shared connections)
-- [[Community 144]] (3 shared connections)
-- [[Community 30]] (3 shared connections)
+- [[Community 143]] (3 shared connections)
+- [[Community 32]] (3 shared connections)
 - [[Product Brand & Business Vision]] (1 shared connections)
-- [[Community 34]] (1 shared connections)
-- [[Community 109]] (1 shared connections)
+- [[Community 35]] (1 shared connections)
+- [[Community 107]] (1 shared connections)
 - [[Community 83]] (1 shared connections)
 
 ## Source Files
