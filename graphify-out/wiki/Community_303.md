@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **semantic-passport.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
-- **svg()** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **Text views** (5 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
+- **text-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/semantic-passport.test.mjs`
+- `.agents/skills/apple-design/references/hig/text-views.md`
 
 ## Audit Trail
 

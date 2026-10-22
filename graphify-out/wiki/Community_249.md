@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **preset-tryon.test.mjs** (7 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **presetRuntime()** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **svgBlock()** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
+- **Keyboards** (7 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **keyboards.md** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Custom keyboard shortcuts** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Standard keyboard shortcuts** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/preset-tryon.test.mjs`
+- `.agents/skills/apple-design/references/hig/keyboards.md`
 
 ## Audit Trail
 

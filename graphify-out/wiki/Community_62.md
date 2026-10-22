@@ -1,44 +1,46 @@
 # Community 62
 
-> 20 nodes · cohesion 0.15
+> 24 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **buildDeltaSvg()** (16 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **annotateArchitectureSideSvg()** (9 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundaryElements()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **edgeSymbolMarkup()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **markerFor()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **addNodeMarker()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundaryChangeMap()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundaryMarkupByKey()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundaryMarkupParts()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundarySymbolMarkup()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **changeMap()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **elementById()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **forceElementState()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **nodeGroupRanges()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **prefixSvgIds()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **staticize()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **transformBoundaryElements()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **transformNodeGroups()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **forceBoundaryState()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **viewBoxSize()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **Apple Pay** (11 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Using Apple Pay buttons** (5 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Button styles** (4 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Button types** (3 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Handling problems** (3 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Streamlining checkout** (2 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **apple-pay.md** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Apple Pay button** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Apple Pay mark** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Black** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Button size and position** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Customizing the payment sheet** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Data validation errors** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Displaying a website icon** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Offering Apple Pay** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Payment processing problems** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Referring to Apple Pay** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Set Up Apple Pay button** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Supporting donations** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Supporting subscriptions** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **White** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **White with outline** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
 
 ## Relationships
 
-- [[Community 44]] (20 shared connections)
-- [[Community 97]] (2 shared connections)
-- [[Master Codebase Architecture Reference]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
+- `.agents/skills/apple-design/references/hig/apple-pay.md`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 46 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

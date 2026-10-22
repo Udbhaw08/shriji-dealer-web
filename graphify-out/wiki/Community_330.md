@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **SKILL.md** (3 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **Output Format** (3 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **ContentView.swift** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **Core Instructions** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **References** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **Summary** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **Data Flow Renderer** (5 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
+- **README.md** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
+- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
+- **Input** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
+- **Layout budget** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
+- **Legend** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/SKILL.md`
+- `.agents/skills/archify/renderers/dataflow/README.md`
 
 ## Audit Trail
 

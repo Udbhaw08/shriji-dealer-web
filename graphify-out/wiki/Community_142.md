@@ -1,20 +1,22 @@
 # Community 142
 
-> 11 nodes · cohesion 0.18
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **Archify** (10 connections) — `.agents/skills/archify/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Authoring invariants** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Delivery** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Fast authoring path** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Mermaid input** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Optional viewer capabilities** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Output** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Setup and fallback** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Type router** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Update awareness** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Product** (12 connections) — `PRODUCT.md`
+- **PRODUCT.md** (1 connections) — `PRODUCT.md`
+- **Accessibility & Inclusion** (1 connections) — `PRODUCT.md`
+- **Brand Commitments** (1 connections) — `PRODUCT.md`
+- **Capabilities and Constraints** (1 connections) — `PRODUCT.md`
+- **Evidence on Hand** (1 connections) — `PRODUCT.md`
+- **Operating Context** (1 connections) — `PRODUCT.md`
+- **Platform** (1 connections) — `PRODUCT.md`
+- **Positioning** (1 connections) — `PRODUCT.md`
+- **Product Principles** (1 connections) — `PRODUCT.md`
+- **Product Purpose** (1 connections) — `PRODUCT.md`
+- **Stack** (1 connections) — `PRODUCT.md`
+- **Users** (1 connections) — `PRODUCT.md`
 
 ## Relationships
 
@@ -22,11 +24,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/SKILL.md`
+- `PRODUCT.md`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 24 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

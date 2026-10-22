@@ -1,32 +1,31 @@
 # Community 218
 
-> 9 nodes · cohesion 0.33
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **release-identity.test.mjs** (8 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **writeFile()** (5 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **stableUpdateManifest()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **writeValidDevelopmentFixture()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **writeValidStableFixture()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **checker** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **runCheck()** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **Segmented controls** (6 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **segmented-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
 
 ## Relationships
 
-- [[Community 53]] (1 shared connections)
-- [[Community 328]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/release-identity.test.mjs`
+- `.agents/skills/apple-design/references/hig/segmented-controls.md`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (92%)
-- INFERRED: 2 (8%)
+- EXTRACTED: 16 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

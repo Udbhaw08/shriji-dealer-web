@@ -1,30 +1,32 @@
 # Community 241
 
-> 8 nodes · cohesion 0.25
+> 8 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **Code audit** (5 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **Apple Pay and payment marks** (3 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **code-audit.md** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **How to run it** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **iPhone Duo readiness in code** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **Liquid Glass in code** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **What replaces it** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **What to search for** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **open-artifact.mjs** (7 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
+- **openLoopbackUrl()** (5 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
+- **open-artifact.test.mjs** (5 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
+- **launchTarget()** (4 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
+- **openArtifact()** (4 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
+- **spawn()** (2 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
+- **OPENERS** (1 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
+- **target** (1 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 60]] (3 shared connections)
+- [[Community 43]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/code-audit.md`
+- `.agents/skills/archify/bin/open-artifact.mjs`
+- `.agents/skills/archify/test/open-artifact.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 26 (90%)
+- INFERRED: 3 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

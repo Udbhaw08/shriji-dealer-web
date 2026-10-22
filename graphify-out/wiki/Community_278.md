@@ -1,28 +1,30 @@
 # Community 278
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **Pull-down buttons** (5 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
-- **pull-down-buttons.md** (1 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
+- **sequence-column-fit.test.mjs** (9 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **labelledSequence()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **render()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **renderOutcome()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **wideSequence()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **participantBoxes()** (1 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 30]] (1 shared connections)
+- [[Zoho Integration Skill]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
+- `.agents/skills/archify/test/sequence-column-fit.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

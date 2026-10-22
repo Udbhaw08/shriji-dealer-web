@@ -1,24 +1,26 @@
 # Community 406
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **Swift** (2 connections) — `.agents/skills/swiftui-pro/references/swift.md`
-- **swift.md** (1 connections) — `.agents/skills/swiftui-pro/references/swift.md`
-- **Swift Concurrency** (1 connections) — `.agents/skills/swiftui-pro/references/swift.md`
+- **meta** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 92]] (1 shared connections)
+- [[Community 66]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/swift.md`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

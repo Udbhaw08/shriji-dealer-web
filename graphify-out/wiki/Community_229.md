@@ -1,17 +1,18 @@
 # Community 229
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Launching** (6 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **launching.md** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **Launch screens** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
+- **generate-validators.mjs** (8 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **ajv** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **diagramTypes** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **output** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **root** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **schemaIds** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **schemasDir** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **validatorCode** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
 
 ## Relationships
 
@@ -19,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/launching.md`
+- `.agents/skills/archify/scripts/generate-validators.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

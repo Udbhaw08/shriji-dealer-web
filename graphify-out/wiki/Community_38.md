@@ -1,61 +1,53 @@
 # Community 38
 
-> 27 nodes · cohesion 0.18
+> 36 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **auth.js** (47 connections) — `backend/src/routes/auth.js`
-- **dealerApp.js** (24 connections) — `backend/src/services/dealerApp.js`
-- **webhooks.js** (14 connections) — `backend/src/routes/webhooks.js`
-- **validators.js** (14 connections) — `backend/src/utils/validators.js`
-- **applyCrmAccountState()** (12 connections) — `backend/src/services/dealerApp.js`
-- **normalizePhone()** (12 connections) — `backend/src/utils/phone.js`
-- **normalizeEmail()** (12 connections) — `backend/src/utils/validators.js`
-- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
-- **cleanName()** (7 connections) — `backend/src/utils/validators.js`
-- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
-- **phone.js** (6 connections) — `backend/src/utils/phone.js`
-- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
-- **applyCrmContactState()** (5 connections) — `backend/src/services/dealerApp.js`
-- **isValidPhone()** (5 connections) — `backend/src/utils/validators.js`
-- **resolveUserWithDealer()** (4 connections) — `backend/src/routes/auth.js`
-- **isValidEmail()** (4 connections) — `backend/src/utils/validators.js`
-- **isValidName()** (4 connections) — `backend/src/utils/validators.js`
-- **emailOnlyIdentifier()** (3 connections) — `backend/src/routes/auth.js`
-- **findUserByEmail()** (3 connections) — `backend/src/routes/auth.js`
-- **issueSession()** (3 connections) — `backend/src/routes/auth.js`
-- **isValidGstin()** (3 connections) — `backend/src/utils/validators.js`
-- **publicUser()** (2 connections) — `backend/src/routes/auth.js`
-- **crmSync.test.mjs** (2 connections) — `backend/test/crmSync.test.mjs`
-- **isValidPincode()** (2 connections) — `backend/src/utils/validators.js`
-- **googleClient** (1 connections) — `backend/src/routes/auth.js`
-- *... and 2 more nodes in this community*
+- **Z()** (24 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **mu()** (13 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **xl()** (13 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **Iu()** (10 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **bc()** (8 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **Bu()** (8 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **ft()** (8 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **hi()** (8 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **pu()** (8 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **Su()** (8 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **bl()** (7 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **cl()** (7 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **fu()** (7 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **jl()** (7 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **wl()** (7 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **gu()** (6 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **Nd()** (6 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **vu()** (6 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **gm()** (5 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **hu()** (5 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **ju()** (5 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **nu()** (5 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **pf()** (5 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **Cu()** (4 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **Lu()** (4 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [[Agent Guidelines (AGENTS.md)]] (28 shared connections)
-- [[Community 102]] (16 shared connections)
-- [[Community 64]] (11 shared connections)
-- [[Community 50]] (10 shared connections)
-- [[Community 36]] (6 shared connections)
-- [[Community 68]] (6 shared connections)
-- [[Community 114]] (5 shared connections)
+- [[Dealer Auth & Session Management]] (42 shared connections)
+- [[Dependencies & Package Config]] (23 shared connections)
+- [[Master Codebase Architecture Reference]] (10 shared connections)
+- [[Community 37]] (5 shared connections)
+- [[Community 48]] (3 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (3 shared connections)
+- [[Testing & Workflow Skill]] (3 shared connections)
 
 ## Source Files
 
-- `backend/src/routes/auth.js`
-- `backend/src/routes/webhooks.js`
-- `backend/src/services/crmClient.js`
-- `backend/src/services/dealerApp.js`
-- `backend/src/utils/phone.js`
-- `backend/src/utils/validators.js`
-- `backend/test/crmSync.test.mjs`
-- `backend/test/interconnection.test.mjs`
-- `backend/test/validators.test.mjs`
+- `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
 
 ## Audit Trail
 
-- EXTRACTED: 210 (100%)
+- EXTRACTED: 227 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

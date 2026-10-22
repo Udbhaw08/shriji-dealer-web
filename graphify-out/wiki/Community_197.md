@@ -1,30 +1,33 @@
 # Community 197
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Segmented controls** (6 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
-- **segmented-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **renderBlock()** (11 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderAside()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderBlocks()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderTable()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderList()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderRow()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderTabs()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderTermList()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **resolveSpans()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **trimBlankEdges()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 72]] (10 shared connections)
+- [[Community 196]] (2 shared connections)
+- [[Community 266]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 33 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

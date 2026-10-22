@@ -4,21 +4,21 @@
 
 ## Key Concepts
 
-- **title** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **minLength** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **Swift** (2 connections) — `.agents/skills/swiftui-pro/references/swift.md`
+- **swift.md** (1 connections) — `.agents/skills/swiftui-pro/references/swift.md`
+- **Swift Concurrency** (1 connections) — `.agents/skills/swiftui-pro/references/swift.md`
 
 ## Relationships
 
-- [[Community 49]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/sequence.schema.json`
+- `.agents/skills/swiftui-pro/references/swift.md`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

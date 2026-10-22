@@ -1,28 +1,28 @@
 # Community 297
 
-> 7 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **preview.test.mjs** (8 connections) — `.agents/skills/archify/test/preview.test.mjs`
-- **stateAt()** (2 connections) — `.agents/skills/archify/test/preview.test.mjs`
-- **waitForState()** (2 connections) — `.agents/skills/archify/test/preview.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
-- **rawRequest()** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
+- **Managing notifications** (6 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **managing-notifications.md** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **Integrating with Focus** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **Sending marketing notifications** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
 
 ## Relationships
 
-- [[Community 52]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/preview.test.mjs`
+- `.agents/skills/apple-design/references/hig/managing-notifications.md`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

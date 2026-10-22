@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **animation.test.mjs** (7 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **NODE_COLLECTION** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **svgBlock()** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **Gauges** (6 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **gauges.md** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/animation.test.mjs`
+- `.agents/skills/apple-design/references/hig/gauges.md`
 
 ## Audit Trail
 

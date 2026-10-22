@@ -1,29 +1,32 @@
 # Community 227
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **Image views** (6 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **image-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **cards** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **additionalProperties** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **required** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 173]] (3 shared connections)
+- [[Community 75]] (1 shared connections)
+- [[Community 429]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/image-views.md`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 27 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

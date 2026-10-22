@@ -1,24 +1,27 @@
 # Community 98
 
-> 15 nodes · cohesion 0.13
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **Buttons** (8 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Desktop (macOS)** (5 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **buttons.md** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Help buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Image buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Push buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Role** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Square buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Style** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Standard icons** (10 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Icons** (6 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **icons.md** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Document icons** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Editing** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Layer ordering** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Other** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Ratings** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Search** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Selection** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Sharing and exporting** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Text formatting** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Users and accounts** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
 
 ## Relationships
 
@@ -26,11 +29,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/buttons.md`
+- `.agents/skills/apple-design/references/hig/icons.md`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 34 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

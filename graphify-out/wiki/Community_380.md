@@ -1,13 +1,14 @@
 # Community 380
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **SwiftUI Views** (3 connections) — `.agents/skills/swiftui-pro/references/views.md`
-- **views.md** (1 connections) — `.agents/skills/swiftui-pro/references/views.md`
-- **Animating views** (1 connections) — `.agents/skills/swiftui-pro/references/views.md`
-- **Reordering and swipe actions** (1 connections) — `.agents/skills/swiftui-pro/references/views.md`
+- **Multi-Skill Redesign & Cross-Platform UI Protocol** (4 connections) — `.agents/rules/redesign_instructions.md`
+- **redesign_instructions.md** (1 connections) — `.agents/rules/redesign_instructions.md`
+- **Rule 1: Mandatory Multi-Skill Consultation** (1 connections) — `.agents/rules/redesign_instructions.md`
+- **Rule 2: Adaptive Multi-Device Responsiveness** (1 connections) — `.agents/rules/redesign_instructions.md`
+- **Rule 3: Merge for Better Results** (1 connections) — `.agents/rules/redesign_instructions.md`
 
 ## Relationships
 
@@ -15,11 +16,11 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/views.md`
+- `.agents/rules/redesign_instructions.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

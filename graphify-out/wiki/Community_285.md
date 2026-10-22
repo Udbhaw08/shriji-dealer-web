@@ -1,16 +1,17 @@
 # Community 285
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Visual Workflow** (6 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **visual-workflow.md** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Generated Assets** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Image Generation Capability** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Three Visual Directions** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Visual QA** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Visual Target Gate** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **story-shelf.test.mjs** (7 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
 
 ## Relationships
 
@@ -18,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/visual-workflow.md`
+- `.agents/skills/archify/test/story-shelf.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

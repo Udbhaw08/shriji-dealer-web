@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **skill-metadata.test.mjs** (5 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
-- **authoringContract** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
-- **frontmatter** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
-- **skill** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
+- **Color wells** (4 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **color-wells.md** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/skill-metadata.test.mjs`
+- `.agents/skills/apple-design/references/hig/color-wells.md`
 
 ## Audit Trail
 

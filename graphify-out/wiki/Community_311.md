@@ -1,15 +1,16 @@
 # Community 311
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Activity views** (5 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
-- **activity-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
-- **Share and action extensions** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **artifact-receipt-flush.test.mjs** (6 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **checker** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **denseArchitecture()** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
 
 ## Relationships
 
@@ -17,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/activity-views.md`
+- `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

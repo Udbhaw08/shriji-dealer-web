@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **community-proof-intake.test.mjs** (3 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
-- **read()** (1 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
+- **Cross-platform translation** (3 connections) — `.agents/skills/apple-design/references/cross-platform.md`
+- **cross-platform.md** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
+- **Conventions to check** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
+- **Vocabulary** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/community-proof-intake.test.mjs`
+- `.agents/skills/apple-design/references/cross-platform.md`
 
 ## Audit Trail
 

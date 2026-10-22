@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **story-horizon.test.mjs** (6 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **Visual Workflow** (6 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **visual-workflow.md** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Generated Assets** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Image Generation Capability** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Three Visual Directions** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Visual QA** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Visual Target Gate** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/story-horizon.test.mjs`
+- `.agents/skills/refero-design/references/visual-workflow.md`
 
 ## Audit Trail
 

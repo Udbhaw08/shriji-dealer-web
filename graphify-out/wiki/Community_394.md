@@ -4,22 +4,22 @@
 
 ## Key Concepts
 
-- **cursor-onboarding.test.mjs** (3 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
+- **11. Responsive Typography** (4 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Breakpoint Adjustments** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Fluid Type (Clamp)** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **What Changes** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 225]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/cursor-onboarding.test.mjs`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

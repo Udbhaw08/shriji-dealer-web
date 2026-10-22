@@ -1,36 +1,35 @@
 # Community 125
 
-> 13 nodes · cohesion 0.21
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **semantic-radar.test.mjs** (15 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **evaluate()** (5 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **dragMouse()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **loadArtifact()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **observe()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **radarRects()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **overlaps()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **web-dUBQIJWc.js** (13 connections) — `android/app/src/main/assets/public/assets/web-dUBQIJWc.js`
+- **applyPrefix()** (4 connections) — `android/app/src/main/assets/public/assets/web-dUBQIJWc.js`
+- **keys()** (4 connections) — `android/app/src/main/assets/public/assets/web-dUBQIJWc.js`
+- **get()** (3 connections) — `android/app/src/main/assets/public/assets/web-dUBQIJWc.js`
+- **migrate()** (3 connections) — `android/app/src/main/assets/public/assets/web-dUBQIJWc.js`
+- **rawKeys()** (3 connections) — `android/app/src/main/assets/public/assets/web-dUBQIJWc.js`
+- **clear()** (2 connections) — `android/app/src/main/assets/public/assets/web-dUBQIJWc.js`
+- **remove()** (2 connections) — `android/app/src/main/assets/public/assets/web-dUBQIJWc.js`
+- **removeOld()** (2 connections) — `android/app/src/main/assets/public/assets/web-dUBQIJWc.js`
+- **set()** (2 connections) — `android/app/src/main/assets/public/assets/web-dUBQIJWc.js`
+- **configure()** (1 connections) — `android/app/src/main/assets/public/assets/web-dUBQIJWc.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-dUBQIJWc.js`
+- **impl()** (1 connections) — `android/app/src/main/assets/public/assets/web-dUBQIJWc.js`
+- **prefix()** (1 connections) — `android/app/src/main/assets/public/assets/web-dUBQIJWc.js`
 
 ## Relationships
 
-- [[Community 31]] (1 shared connections)
-- [[Community 61]] (1 shared connections)
-- [[Community 104]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/semantic-radar.test.mjs`
+- `android/app/src/main/assets/public/assets/web-dUBQIJWc.js`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

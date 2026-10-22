@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **story-trail.test.mjs** (5 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
+- **Modality** (5 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **modality.md** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/story-trail.test.mjs`
+- `.agents/skills/apple-design/references/hig/modality.md`
 
 ## Audit Trail
 

@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **repository-evidence-replacement.test.mjs** (5 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
-- **checkEvidence()** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
-- **fixture()** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **Collections** (4 connections) — `.agents/skills/apple-design/references/hig/collections.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/collections.md`
+- **collections.md** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- `.agents/skills/apple-design/references/hig/collections.md`
 
 ## Audit Trail
 

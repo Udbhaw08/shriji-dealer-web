@@ -1,23 +1,26 @@
 # Community 106
 
-> 14 nodes · cohesion 0.14
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **Augmented reality** (13 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **augmented-reality.md** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Communicating with people** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Designing object interactions** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Handling interruptions** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Helping people place objects** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Icons and badges** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Offering a multiuser experience** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Providing coaching** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Reacting to real-world objects** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Suggesting problem resolutions** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **HIG reference lookup** (16 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **hig-lookup.md** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Components › Content** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Components › Layout and organization** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Components › Menus and actions** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Components › Navigation and search** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Components › Presentation** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Components › Selection and input** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Components › Status** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Components › System experiences** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Curated guides** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Foundations** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Getting started** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Inputs** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Pages Apple publishes that are not included** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Patterns** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Technologies** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
 
 ## Relationships
 
@@ -25,11 +28,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- `.agents/skills/apple-design/references/hig-lookup.md`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

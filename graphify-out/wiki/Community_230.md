@@ -1,29 +1,32 @@
 # Community 230
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Motion** (7 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **motion.md** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **Leveraging platform capabilities** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **Providing feedback** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **renderPage()** (7 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderLookup()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **collapseBlankLines()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **coveredPlatformsLine()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **prettyPlatforms()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **groupBySection()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **lastChangeLine()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **omissionReason()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderBody()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 72]] (9 shared connections)
+- [[Community 348]] (2 shared connections)
+- [[Community 196]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/motion.md`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

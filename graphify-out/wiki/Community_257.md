@@ -1,30 +1,29 @@
 # Community 257
 
-> 8 nodes · cohesion 0.32
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **sequence-column-fit.test.mjs** (9 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **labelledSequence()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **render()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **renderOutcome()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **wideSequence()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **participantBoxes()** (1 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **Sidebars** (5 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
+- **sidebars.md** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
 
 ## Relationships
 
-- [[Community 33]] (1 shared connections)
-- [[Pricing & Roles Skill]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- `.agents/skills/apple-design/references/hig/sidebars.md`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

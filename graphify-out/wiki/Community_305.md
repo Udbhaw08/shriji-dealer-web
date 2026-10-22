@@ -4,26 +4,25 @@
 
 ## Key Concepts
 
-- **settled-flow.test.mjs** (8 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **VoiceOver** (6 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
+- **voiceover.md** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
+- **Descriptions** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
+- **Navigation** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
 
 ## Relationships
 
-- [[Community 33]] (1 shared connections)
-- [[Master Codebase Architecture Reference]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/settled-flow.test.mjs`
+- `.agents/skills/apple-design/references/hig/voiceover.md`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

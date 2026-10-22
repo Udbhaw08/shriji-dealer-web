@@ -1,13 +1,14 @@
 # Community 371
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **Web views** (3 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
-- **web-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
+- **Ratings and reviews** (4 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
+- **ratings-and-reviews.md** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
 
 ## Relationships
 
@@ -15,11 +16,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/web-views.md`
+- `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

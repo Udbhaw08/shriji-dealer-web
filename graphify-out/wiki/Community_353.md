@@ -1,14 +1,15 @@
 # Community 353
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.47
 
 ## Key Concepts
 
-- **Performance** (4 connections) — `.agents/skills/swiftui-pro/references/performance.md`
-- **performance.md** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
-- **Collections and row updates** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
-- **Frequent changes** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
-- **Remote images** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
+- **clean-skill-staging.test.mjs** (5 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
+- **repositoryFixture()** (3 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
+- **git()** (2 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
+- **write()** (2 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
+- **canonicalNotices** (1 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
+- **stagerPath** (1 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
 
 ## Relationships
 
@@ -16,11 +17,11 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/performance.md`
+- `.agents/skills/archify/test/clean-skill-staging.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

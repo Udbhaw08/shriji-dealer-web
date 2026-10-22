@@ -1,26 +1,27 @@
 # Community 354
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **10. Text Polish Details** (5 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Content Overflow** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Punctuation** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Tabular Numbers** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Text Wrapping for Headings** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **render-output-checks.test.mjs** (5 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **checker** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **checkHtml()** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
 
 ## Relationships
 
-- [[Community 203]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/archify/test/render-output-checks.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

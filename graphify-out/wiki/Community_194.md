@@ -1,30 +1,31 @@
 # Community 194
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **Playing video** (6 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Integrating with the TV app** (3 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **playing-video.md** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Exiting playback** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Loading content** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **entries** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **legend** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **mode** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **properties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 66]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/playing-video.md`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

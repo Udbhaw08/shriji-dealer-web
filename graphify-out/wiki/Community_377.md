@@ -1,17 +1,18 @@
 # Community 377
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **3. Font Pairing** (4 connections) — `.agents/skills/refero-design/references/typography.md`
-- **If You Must Pair** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Safe Font Choices by Product Type** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **The One-Font Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **7. Vertical Rhythm** (5 connections) — `.agents/skills/refero-design/references/typography.md`
+- **CSS Implementation** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Example** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Golden Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **The Simple Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- [[Community 203]] (1 shared connections)
+- [[Community 225]] (1 shared connections)
 
 ## Source Files
 
@@ -19,7 +20,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

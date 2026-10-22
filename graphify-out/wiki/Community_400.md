@@ -1,12 +1,13 @@
 # Community 400
 
-> 3 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **MainActivity.java** (2 connections) — `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
-- **MainActivity** (2 connections) — `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
-- **BridgeActivity** (2 connections)
+- **SwiftUI Views** (3 connections) — `.agents/skills/swiftui-pro/references/views.md`
+- **views.md** (1 connections) — `.agents/skills/swiftui-pro/references/views.md`
+- **Animating views** (1 connections) — `.agents/skills/swiftui-pro/references/views.md`
+- **Reordering and swipe actions** (1 connections) — `.agents/skills/swiftui-pro/references/views.md`
 
 ## Relationships
 
@@ -14,7 +15,7 @@
 
 ## Source Files
 
-- `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
+- `.agents/skills/swiftui-pro/references/views.md`
 
 ## Audit Trail
 

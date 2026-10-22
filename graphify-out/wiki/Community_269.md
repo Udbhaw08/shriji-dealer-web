@@ -1,16 +1,17 @@
 # Community 269
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Focus and selection** (5 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **focus-and-selection.md** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
+- **landing.test.mjs** (7 connections) — `.agents/skills/archify/test/landing.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
+- **docsRoot** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
+- **landing** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
+- **manifest** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
+- **proofs** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
 
 ## Relationships
 
@@ -18,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/focus-and-selection.md`
+- `.agents/skills/archify/test/landing.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

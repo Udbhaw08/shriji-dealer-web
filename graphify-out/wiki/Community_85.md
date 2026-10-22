@@ -1,38 +1,41 @@
 # Community 85
 
-> 17 nodes · cohesion 0.12
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **pricing.test.mjs** (19 connections) — `src/data/pricing.test.mjs`
-- **crystal** (1 connections) — `src/data/pricing.test.mjs`
-- **crystalDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **crystalGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **genericDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **genericGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **genericItem** (1 connections) — `src/data/pricing.test.mjs`
-- **kettle** (1 connections) — `src/data/pricing.test.mjs`
-- **kettleDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **kettleGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **tcjDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **tcjGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **tripleCookJumbo** (1 connections) — `src/data/pricing.test.mjs`
-- **vernaGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **vernaPlus** (1 connections) — `src/data/pricing.test.mjs`
-- **zeroItem** (1 connections) — `src/data/pricing.test.mjs`
-- **zeroPricedResult** (1 connections) — `src/data/pricing.test.mjs`
+- **Example Workflow: SaaS Pricing Page** (7 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Phase 1: Styles Research** (4 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Phase 5: Implementation Blueprint** (4 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Phase 2: Screen Research** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Phase 3: Flow Research** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Phase 4: Synthesis** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **example-workflow.md** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Design Decision Ledger** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Flow Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Flow Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Page Structure** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Phase 0: Discovery** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Quality Gate** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Research Summary** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Screen Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Screen Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Style Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Style Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Tokens** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Visual Direction Synthesis** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
 
 ## Relationships
 
-- [[Zoho API Diagnostic Script]] (3 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/data/pricing.test.mjs`
+- `.agents/skills/refero-design/references/example-workflow.md`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 38 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

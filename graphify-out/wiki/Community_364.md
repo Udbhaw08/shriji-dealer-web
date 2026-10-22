@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **ErrorBoundary** (5 connections) — `src/main.jsx`
-- **.componentDidCatch()** (1 connections) — `src/main.jsx`
-- **.constructor()** (1 connections) — `src/main.jsx`
-- **.getDerivedStateFromError()** (1 connections) — `src/main.jsx`
-- **.render()** (1 connections) — `src/main.jsx`
+- **Gyroscope and accelerometer** (4 connections) — `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
+- **gyro-and-accelerometer.md** (1 connections) — `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/main.jsx`
+- `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

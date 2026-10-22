@@ -1,26 +1,27 @@
 # Community 356
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **4. Text Color System** (5 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Anti-pattern** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Dark Mode Inversion** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Rules That Actually Work** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **The System** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **skill-metadata.test.mjs** (5 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
+- **authoringContract** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
+- **frontmatter** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
+- **skill** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/skill-metadata.test.mjs`
 
 ## Relationships
 
-- [[Community 203]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/archify/test/skill-metadata.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,23 +1,25 @@
 # Community 115
 
-> 14 nodes · cohesion 0.30
+> 16 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **architecture-delta-markers.test.mjs** (13 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **assertPreserved()** (6 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **descendants()** (6 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **assertResolved()** (4 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **attr()** (4 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **markerMap()** (4 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **compare()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **edgePaths()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **markerId()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **svgIn()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **markerShape()** (2 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **variantFixture()** (1 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **variants** (1 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **legend-contract.test.mjs** (15 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **legendKinds()** (3 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **run()** (3 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **attrValues()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **canonicalSvg()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **clone()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **render()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **validateFailure()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **withLegend()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **AUTO_KINDS** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **CATALOGS** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **FIXTURES** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
 
 ## Relationships
 
@@ -25,11 +27,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- `.agents/skills/archify/test/legend-contract.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

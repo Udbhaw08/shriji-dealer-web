@@ -1,31 +1,33 @@
 # Community 162
 
-> 10 nodes · cohesion 0.20
+> 11 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **AirPlay** (6 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Using AirPlay icons** (4 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **airplay.md** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Black AirPlay icon** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Custom color AirPlay icon** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Referring to AirPlay** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **White AirPlay icon** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **favoritesStore.js** (18 connections) — `src/data/favoritesStore.js`
+- **persist()** (5 connections) — `src/data/favoritesStore.js`
+- **addFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **removeFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **toggleFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **clearFavorites()** (2 connections) — `src/data/favoritesStore.js`
+- **notify()** (2 connections) — `src/data/favoritesStore.js`
+- **favoritesState** (1 connections) — `src/data/favoritesStore.js`
+- **getFavorites()** (1 connections) — `src/data/favoritesStore.js`
+- **listeners** (1 connections) — `src/data/favoritesStore.js`
+- **loadFromStorage()** (1 connections) — `src/data/favoritesStore.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Product Requirements Documentation]] (7 shared connections)
+- [[Client Products Data Store]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/airplay.md`
+- `src/data/favoritesStore.js`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

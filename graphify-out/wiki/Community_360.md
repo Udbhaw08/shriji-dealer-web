@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Multi-Skill Redesign & Cross-Platform UI Protocol** (4 connections) — `.agents/rules/redesign_instructions.md`
-- **redesign_instructions.md** (1 connections) — `.agents/rules/redesign_instructions.md`
-- **Rule 1: Mandatory Multi-Skill Consultation** (1 connections) — `.agents/rules/redesign_instructions.md`
-- **Rule 2: Adaptive Multi-Device Responsiveness** (1 connections) — `.agents/rules/redesign_instructions.md`
-- **Rule 3: Merge for Better Results** (1 connections) — `.agents/rules/redesign_instructions.md`
+- **Column views** (4 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
+- **column-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/rules/redesign_instructions.md`
+- `.agents/skills/apple-design/references/hig/column-views.md`
 
 ## Audit Trail
 

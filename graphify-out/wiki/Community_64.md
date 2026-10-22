@@ -1,52 +1,46 @@
 # Community 64
 
-> 20 nodes · cohesion 0.19
+> 24 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **catalog.js** (16 connections) — `backend/src/services/catalog.js`
-- **logger.js** (14 connections) — `backend/src/utils/logger.js`
-- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
-- **log** (13 connections) — `backend/src/utils/logger.js`
-- **index.js** (11 connections) — `backend/src/jobs/index.js`
-- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
-- **errorHandler.js** (7 connections) — `backend/src/middleware/errorHandler.js`
-- **syncCatalog()** (7 connections) — `backend/src/services/catalog.js`
-- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
-- **catalogFor()** (4 connections) — `backend/src/services/catalog.js`
-- **loadCatalog()** (4 connections) — `backend/src/services/catalog.js`
-- **catalogSync()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **tokenCleanup()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **markPollRun()** (3 connections) — `backend/src/jobs/crmPoll.js`
-- **httpError()** (3 connections) — `backend/src/middleware/errorHandler.js`
-- **priceView()** (3 connections) — `backend/src/services/catalog.js`
-- **priceGate.test.mjs** (3 connections) — `backend/test/priceGate.test.mjs`
-- **errorHandler()** (2 connections) — `backend/src/middleware/errorHandler.js`
-- **CATALOG** (1 connections) — `backend/test/priceGate.test.mjs`
-- **ts()** (1 connections) — `backend/src/utils/logger.js`
+- **properties** (11 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **viewBox** (6 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **animation** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **locale** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **output** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **subtitle** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **views** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **items** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Relationships
 
-- [[Agent Guidelines (AGENTS.md)]] (14 shared connections)
-- [[Community 50]] (11 shared connections)
-- [[Community 38]] (11 shared connections)
-- [[Community 114]] (6 shared connections)
-- [[Community 36]] (6 shared connections)
-- [[Community 102]] (3 shared connections)
+- [[Community 190]] (1 shared connections)
+- [[Community 113]] (1 shared connections)
 
 ## Source Files
 
-- `backend/src/jobs/catalogSync.js`
-- `backend/src/jobs/crmPoll.js`
-- `backend/src/jobs/index.js`
-- `backend/src/middleware/errorHandler.js`
-- `backend/src/services/catalog.js`
-- `backend/src/utils/logger.js`
-- `backend/test/priceGate.test.mjs`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 125 (100%)
+- EXTRACTED: 48 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

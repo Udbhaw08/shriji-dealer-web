@@ -1,47 +1,59 @@
 # Architecture Doc Generator
 
-> 41 nodes · cohesion 0.05
+> 49 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **Motion & Micro-interactions Guide** (13 connections) — `.agents/skills/refero-design/references/motion.md`
-- **8. Anti-Patterns** (7 connections) — `.agents/skills/refero-design/references/motion.md`
-- **1. The Motion Pyramid** (5 connections) — `.agents/skills/refero-design/references/motion.md`
-- **4. Micro-interactions That Work** (5 connections) — `.agents/skills/refero-design/references/motion.md`
-- **2. Timing That Actually Works** (4 connections) — `.agents/skills/refero-design/references/motion.md`
-- **3. Easing: Native Feel Without Cringe** (4 connections) — `.agents/skills/refero-design/references/motion.md`
-- **6. Reduced Motion: Not Optional** (4 connections) — `.agents/skills/refero-design/references/motion.md`
-- **5. Motion Tokens for Design Systems** (3 connections) — `.agents/skills/refero-design/references/motion.md`
-- **7. Libraries and Tools** (3 connections) — `.agents/skills/refero-design/references/motion.md`
-- **motion.md** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **9. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Animations Must Be Interruptible** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Basic Principle** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Buttons and Controls** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Component Mapping** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Critical: Never Use `transition: all`** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **CSS Shortcut** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **CSS Tokens** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Duration Reference** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **For Complex Scenarios** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **For Web/SaaS (React/Next)** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Implementation** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Inputs** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- *... and 16 more nodes in this community*
+- **session.js** (46 connections) — `src/data/session.js`
+- **Login.jsx** (40 connections) — `src/pages/Login.jsx`
+- **productsStore.js** (23 connections) — `src/data/productsStore.js`
+- **apiFetch()** (17 connections) — `src/data/api.js`
+- **api.js** (11 connections) — `src/data/api.js`
+- **EmailVerificationPrompt.jsx** (10 connections) — `src/components/EmailVerificationPrompt.jsx`
+- **setSession()** (10 connections) — `src/data/session.js`
+- **apiUrl()** (9 connections) — `src/data/api.js`
+- **revalidateSession()** (9 connections) — `src/data/session.js`
+- **registerDealer()** (7 connections) — `src/data/dealer.js`
+- **syncPricebookWithSession()** (7 connections) — `src/data/productsStore.js`
+- **validators.js** (7 connections) — `src/data/validators.js`
+- **fetchLiveProducts()** (6 connections) — `src/data/productsStore.js`
+- **products.js** (5 connections) — `src/data/products.js`
+- **switchToDealerSession()** (5 connections) — `src/data/session.js`
+- **hasSession()** (4 connections) — `src/data/auth.js`
+- **loadCached()** (4 connections) — `src/data/productsStore.js`
+- **signOut()** (4 connections) — `src/data/session.js`
+- **switchToViewerSession()** (4 connections) — `src/data/session.js`
+- **EmailVerificationPrompt()** (3 connections) — `src/components/EmailVerificationPrompt.jsx`
+- **sessionFromAuth()** (3 connections) — `src/data/auth.js`
+- **emit()** (3 connections) — `src/data/productsStore.js`
+- **syncTagsLive()** (3 connections) — `src/data/productsStore.js`
+- **loadCachedSession()** (3 connections) — `src/data/session.js`
+- **isValidEmail()** (3 connections) — `src/data/validators.js`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 31]] (33 shared connections)
+- [[Product Requirements Documentation]] (29 shared connections)
+- [[Client Products Data Store]] (22 shared connections)
+- [[Community 205]] (1 shared connections)
+- [[Community 178]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/motion.md`
+- `src/components/EmailVerificationPrompt.jsx`
+- `src/data/api.js`
+- `src/data/auth.js`
+- `src/data/dealer.js`
+- `src/data/products.js`
+- `src/data/productsStore.js`
+- `src/data/session.js`
+- `src/data/validators.js`
+- `src/pages/Login.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 80 (100%)
+- EXTRACTED: 280 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

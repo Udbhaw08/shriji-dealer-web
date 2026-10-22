@@ -1,33 +1,37 @@
 # Community 137
 
-> 12 nodes · cohesion 0.17
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **Search fields** (6 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Phone (iOS)** (4 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **search-fields.md** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Scope bars and tokens** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Search as a tab** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Search as an inline field** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Search in a toolbar** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Tablet and desktop (iPadOS, macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **workflow-migration.test.mjs** (22 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **copyFixture()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **explicitPinConflictWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **fixture** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **heightConstrainedWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **parseJsonOutput()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **profileDivergenceWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **runMigration()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **runValidation()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 286]] (5 shared connections)
+- [[Community 131]] (3 shared connections)
+- [[Community 79]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/search-fields.md`
+- `.agents/skills/archify/test/workflow-migration.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 35 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

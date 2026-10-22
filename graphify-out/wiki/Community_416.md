@@ -1,21 +1,21 @@
 # Community 416
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **guidedViews** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **guide-page.test.mjs** (3 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
 
 ## Relationships
 
-- [[Community 56]] (1 shared connections)
-- [[Community 205]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/archify/test/guide-page.test.mjs`
 
 ## Audit Trail
 

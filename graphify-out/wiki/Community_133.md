@@ -1,21 +1,23 @@
 # Community 133
 
-> 12 nodes · cohesion 0.17
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **Inclusion** (11 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **inclusion.md** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Accessibility** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Avoiding stereotypes** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Being approachable** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Gender identity** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Inclusive by design** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Languages** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **People and settings** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Welcoming language** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **generate-brand-marks.mjs** (13 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **catalog** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **catalogPath** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **domains** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **fail()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **generated** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **here** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **ids** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **lookupForms()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **lookupKeys** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **normalizedList()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **outputPath** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **root** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **simpleBySlug** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
 
 ## Relationships
 
@@ -23,11 +25,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/inclusion.md`
+- `.agents/skills/archify/scripts/generate-brand-marks.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

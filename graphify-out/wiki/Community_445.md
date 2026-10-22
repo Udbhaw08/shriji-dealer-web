@@ -4,20 +4,20 @@
 
 ## Key Concepts
 
-- **type** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **esm-DK5g3tfx.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-DK5g3tfx.js`
+- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-DK5g3tfx.js`
 
 ## Relationships
 
-- [[Community 32]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `android/app/src/main/assets/public/assets/esm-DK5g3tfx.js`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

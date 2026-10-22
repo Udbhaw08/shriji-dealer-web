@@ -1,33 +1,35 @@
 # Community 46
 
-> 24 nodes · cohesion 0.08
+> 29 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **Apple Pay** (11 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Using Apple Pay buttons** (5 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Button styles** (4 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Button types** (3 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Handling problems** (3 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Streamlining checkout** (2 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **apple-pay.md** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Apple Pay button** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Apple Pay mark** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Black** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Button size and position** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Customizing the payment sheet** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Data validation errors** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Displaying a website icon** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Offering Apple Pay** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Payment processing problems** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Referring to Apple Pay** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Set Up Apple Pay button** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Supporting donations** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **Supporting subscriptions** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **White** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
-- **White with outline** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **AppDelegate** (10 connections) — `ios/App/App/AppDelegate.swift`
+- **.application()** (7 connections) — `ios/App/App/AppDelegate.swift`
+- **.scene()** (7 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIApplication** (6 connections) — `ios/App/App/AppDelegate.swift`
+- **SceneDelegate** (5 connections) — `ios/App/App/SceneDelegate.swift`
+- **AppDelegate.swift** (3 connections) — `ios/App/App/AppDelegate.swift`
+- **SceneDelegate.swift** (3 connections) — `ios/App/App/SceneDelegate.swift`
+- **.applicationDidBecomeActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationDidEnterBackground()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillEnterForeground()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillResignActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillTerminate()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **Capacitor** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIWindow** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIKit** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIResponder** (2 connections)
+- **Any** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **Bool** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIScene** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UISceneSession** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIWindow** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIScene** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **UISceneSession** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **NSUserActivity** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **Set** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
@@ -35,11 +37,12 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/apple-pay.md`
+- `ios/App/App/AppDelegate.swift`
+- `ios/App/App/SceneDelegate.swift`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (100%)
+- EXTRACTED: 72 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

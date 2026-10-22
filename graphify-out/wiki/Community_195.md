@@ -1,30 +1,31 @@
 # Community 195
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **Right to left** (8 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **right-to-left.md** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Controls** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Images** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Interface icons** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Numbers and characters** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Text alignment** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
+- **entries** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **legend** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **mode** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **properties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 68]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/right-to-left.md`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

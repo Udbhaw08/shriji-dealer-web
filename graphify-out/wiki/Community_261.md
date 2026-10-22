@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **story-director-strip.test.mjs** (7 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **Text fields** (5 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **text-fields.md** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/story-director-strip.test.mjs`
+- `.agents/skills/apple-design/references/hig/text-fields.md`
 
 ## Audit Trail
 

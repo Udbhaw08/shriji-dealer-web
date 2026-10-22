@@ -1,30 +1,33 @@
 # Community 200
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **Split views** (5 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
-- **Platform considerations** (4 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
-- **split-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
-- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
-- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **output-path.test.mjs** (16 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **baseFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **copyInstalledSkill()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **directoryAliasesNames()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **headFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **workflowFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Pricing Regression Test Suite]] (3 shared connections)
+- [[Community 60]] (2 shared connections)
+- [[Community 102]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/split-views.md`
+- `.agents/skills/archify/test/output-path.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 25 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

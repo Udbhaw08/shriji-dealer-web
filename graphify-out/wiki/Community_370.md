@@ -1,13 +1,14 @@
 # Community 370
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **Status bars** (3 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
-- **status-bars.md** (1 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
+- **Path controls** (4 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
+- **path-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
 
 ## Relationships
 
@@ -15,11 +16,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/status-bars.md`
+- `.agents/skills/apple-design/references/hig/path-controls.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

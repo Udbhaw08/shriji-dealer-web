@@ -1,27 +1,28 @@
 # Community 327
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **viewBox** (6 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **items** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **story-beat-navigator.test.mjs** (6 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
 
 ## Relationships
 
-- [[Community 81]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `.agents/skills/archify/test/story-beat-navigator.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

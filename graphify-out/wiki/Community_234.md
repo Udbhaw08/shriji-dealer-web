@@ -1,17 +1,18 @@
 # Community 234
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Pickers** (5 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **pickers.md** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **authored-reachability.test.mjs** (8 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **reachabilityFunction()** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
 
 ## Relationships
 
@@ -19,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/pickers.md`
+- `.agents/skills/archify/test/authored-reachability.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

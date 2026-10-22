@@ -1,19 +1,20 @@
 # Community 161
 
-> 10 nodes · cohesion 0.20
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **Accessibility** (9 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **accessibility.md** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **Cognitive** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **Hearing** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **Mobility** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **Speech** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **Vision** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Archify** (10 connections) — `.agents/skills/archify/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Authoring invariants** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Delivery** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Fast authoring path** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Mermaid input** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Optional viewer capabilities** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Output** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Setup and fallback** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Type router** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Update awareness** (1 connections) — `.agents/skills/archify/SKILL.md`
 
 ## Relationships
 
@@ -21,11 +22,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/accessibility.md`
+- `.agents/skills/archify/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

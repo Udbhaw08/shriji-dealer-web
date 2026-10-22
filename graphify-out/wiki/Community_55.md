@@ -1,31 +1,35 @@
 # Community 55
 
-> 22 nodes · cohesion 0.09
+> 26 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **Session Work Record — Dealer Code Hierarchy & CRM Integration (2026-10-11)** (7 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **3.2 Frontend Portal & Dashboard (`src/`)** (4 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **3. Detailed Changes by File** (4 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **6. Phone-First Auth, WhatsApp & SMS OTP Services, 10k Scalability & Google OAuth** (4 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **3.1 Backend Service (`backend/`)** (3 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **3.3 Documentation (`docs/`)** (3 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **2. Multi-Tier Entity Hierarchy & Two-Stage Approval** (2 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **WORK-DONE-SESSION-2026-10-11.md** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **1. Executive Summary & Problem Statement** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **4. Testing & Verification** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **5. Verification Checklist for Production** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **6.1 Scalability Assessment (10,000+ Users)** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **6.2 Phone Number & WhatsApp OTP Delivery Services** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **6.3 Unified Authentication Features** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **[backend/src/routes/auth.js](file:///c:/Users/udbha/Desktop/Webstore/backend/src/routes/auth.js)** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **[backend/src/services/staff.js](file:///c:/Users/udbha/Desktop/Webstore/backend/src/services/staff.js)** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **[docs/BACKEND-ARCHITECTURE.md](file:///c:/Users/udbha/Desktop/Webstore/docs/BACKEND-ARCHITECTURE.md) *(Updated)*** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **[docs/DEALER-HIERARCHY-AND-WORKFLOW.md](file:///c:/Users/udbha/Desktop/Webstore/docs/DEALER-HIERARCHY-AND-WORKFLOW.md) *(New)*** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **[src/data/auth.js](file:///c:/Users/udbha/Desktop/Webstore/src/data/auth.js)** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **[src/pages/DealerDashboard.jsx](file:///c:/Users/udbha/Desktop/Webstore/src/pages/DealerDashboard.jsx)** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **[src/pages/Login.jsx](file:///c:/Users/udbha/Desktop/Webstore/src/pages/Login.jsx)** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **Two-Stage Approval Matrix:** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
+- **Copywriting Guide** (15 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Banned Words** (5 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Microcopy** (4 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Product UI Copy** (4 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **copywriting.md** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **AI Slop Markers** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Avoid on Operational Surfaces** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Buttons** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Core Belief** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Corporate Zombie** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Empty States** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Errors** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Filler** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Headings: Descriptive, Not Aspirational** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Hype** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Info-Style Thinking** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Living Words vs Dead Words** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Marketing Hero Section** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Pre-Publish Checklist** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Proof Beats Hype** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Rhythm** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **The Order of Great Copy** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **The Sticky Line Test** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Universal Copy Structure** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **When Marketing Tone IS Appropriate in Product** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
@@ -33,11 +37,11 @@
 
 ## Source Files
 
-- `docs/WORK-DONE-SESSION-2026-10-11.md`
+- `.agents/skills/refero-design/references/copywriting.md`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 50 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

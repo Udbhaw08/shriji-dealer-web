@@ -1,18 +1,19 @@
 # Community 198
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **Sheets** (6 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **sheets.md** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **Shriji Backend Skill** (9 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Commands** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Environment (backend/.env — never committed)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Frontend Integration (built)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Hard Rules** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Key Files (populated as built)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Ownership Rule (invariant)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Pending Seam — price proxy switch (do when backend is deployed)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Stack Record — what was chosen, do not substitute** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
 
 ## Relationships
 
@@ -20,11 +21,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/sheets.md`
+- `.agents/skills/shriji-backend/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

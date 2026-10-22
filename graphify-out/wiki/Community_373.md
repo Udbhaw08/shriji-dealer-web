@@ -1,13 +1,14 @@
 # Community 373
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **Cross-platform translation** (3 connections) — `.agents/skills/apple-design/references/cross-platform.md`
-- **cross-platform.md** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
-- **Conventions to check** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
-- **Vocabulary** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
+- **Performance** (4 connections) — `.agents/skills/swiftui-pro/references/performance.md`
+- **performance.md** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
+- **Collections and row updates** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
+- **Frequent changes** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
+- **Remote images** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
 
 ## Relationships
 
@@ -15,11 +16,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/cross-platform.md`
+- `.agents/skills/swiftui-pro/references/performance.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

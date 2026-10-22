@@ -4,30 +4,28 @@
 
 ## Key Concepts
 
-- **output-path.test.mjs** (16 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **baseFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **copyInstalledSkill()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **directoryAliasesNames()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **headFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **workflowFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **AirPlay** (6 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Using AirPlay icons** (4 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **airplay.md** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Black AirPlay icon** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Custom color AirPlay icon** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Referring to AirPlay** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **White AirPlay icon** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
 
 ## Relationships
 
-- [[Community 33]] (3 shared connections)
-- [[Community 52]] (2 shared connections)
-- [[Community 83]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/output-path.test.mjs`
+- `.agents/skills/apple-design/references/hig/airplay.md`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

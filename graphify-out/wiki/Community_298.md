@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **relationship-pulse.test.mjs** (6 connections) — `.agents/skills/archify/test/relationship-pulse.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/relationship-pulse.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/relationship-pulse.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/relationship-pulse.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/relationship-pulse.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/relationship-pulse.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/relationship-pulse.test.mjs`
+- **Pop-up buttons** (5 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
+- **pop-up-buttons.md** (1 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/relationship-pulse.test.mjs`
+- `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
 
 ## Audit Trail
 

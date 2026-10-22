@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **render-examples.mjs** (4 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
-- **outputRoot** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
-- **TARGETS** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
+- **Feedback** (4 connections) — `.agents/skills/apple-design/references/hig/feedback.md`
+- **feedback.md** (1 connections) — `.agents/skills/apple-design/references/hig/feedback.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/feedback.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/feedback.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/feedback.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/render-examples.mjs`
+- `.agents/skills/apple-design/references/hig/feedback.md`
 
 ## Audit Trail
 

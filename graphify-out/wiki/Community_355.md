@@ -1,26 +1,27 @@
 # Community 355
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **12. Performance Typography** (5 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Performance Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Requirements** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Rules** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **System Font Stack** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **repository-evidence-replacement.test.mjs** (5 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **checkEvidence()** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **fixture()** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
 
 ## Relationships
 
-- [[Community 203]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

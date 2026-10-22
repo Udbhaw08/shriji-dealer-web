@@ -1,17 +1,18 @@
 # Community 376
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **2. Type Scale** (4 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Common Ratios** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **CSS Tokens** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Practical Scale (Minor Third × 16px base)** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **4. Text Color System** (5 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Anti-pattern** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Dark Mode Inversion** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Rules That Actually Work** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **The System** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- [[Community 203]] (1 shared connections)
+- [[Community 225]] (1 shared connections)
 
 ## Source Files
 
@@ -19,7 +20,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

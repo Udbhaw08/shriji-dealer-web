@@ -1,35 +1,35 @@
 # Graphify Workflow
 
-> 34 nodes · cohesion 0.06
+> 40 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **Typography** (10 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **iOS, iPadOS Dynamic Type sizes** (8 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **iOS, iPadOS larger accessibility type sizes** (6 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Specifications** (5 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **iOS, iPadOS, visionOS tracking values** (4 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Tracking values** (3 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **typography.md** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX1** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX2** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX3** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX4** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX5** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Conveying hierarchy** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Ensuring legibility** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Large (default)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **macOS built-in text styles** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **macOS tracking values** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Medium** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **New York** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **SF Pro** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- *... and 9 more nodes in this community*
+- **Color Guide** (13 connections) — `.agents/skills/refero-design/references/color.md`
+- **2. Palette Structure** (5 connections) — `.agents/skills/refero-design/references/color.md`
+- **5. Light and Dark Themes** (5 connections) — `.agents/skills/refero-design/references/color.md`
+- **7. Building a Palette from Scratch** (5 connections) — `.agents/skills/refero-design/references/color.md`
+- **4. Contrast and Readability** (4 connections) — `.agents/skills/refero-design/references/color.md`
+- **6. Naming Tokens** (4 connections) — `.agents/skills/refero-design/references/color.md`
+- **9. Anti-Patterns** (4 connections) — `.agents/skills/refero-design/references/color.md`
+- **1. Color Space** (3 connections) — `.agents/skills/refero-design/references/color.md`
+- **3. The 60/30/10 Rule** (3 connections) — `.agents/skills/refero-design/references/color.md`
+- **8. Gradients** (2 connections) — `.agents/skills/refero-design/references/color.md`
+- **color.md** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **10. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **2.1 Neutrals (Most Important)** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **2.2 Primary Accent** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **2.3 Semantic Colors** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **2.4 Effects (Only If Needed)** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Bad** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Common Failures** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Component Color Limit** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Dark Mode: Technical Implementation** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Dark Theme Elevation** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Good** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Minimum Requirements** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
@@ -37,11 +37,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/typography.md`
+- `.agents/skills/refero-design/references/color.md`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (100%)
+- EXTRACTED: 78 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

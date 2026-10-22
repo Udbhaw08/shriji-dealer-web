@@ -1,17 +1,18 @@
 # Community 374
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **11. Responsive Typography** (4 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Breakpoint Adjustments** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Fluid Type (Clamp)** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **What Changes** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **10. Text Polish Details** (5 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Content Overflow** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Punctuation** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Tabular Numbers** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Text Wrapping for Headings** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- [[Community 203]] (1 shared connections)
+- [[Community 225]] (1 shared connections)
 
 ## Source Files
 
@@ -19,7 +20,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

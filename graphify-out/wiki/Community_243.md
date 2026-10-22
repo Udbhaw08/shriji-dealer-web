@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Resizable windows and adaptive layouts** (7 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
-- **resizability.md** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
-- **Checking changes** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
-- **Choosing layouts** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
-- **Fold and camera geometry** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
-- **Presentations** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
-- **Safe areas** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
-- **Tab bars and toolbars** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
+- **Controls** (7 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Camera experiences on a locked device** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/resizability.md`
+- `.agents/skills/apple-design/references/hig/controls.md`
 
 ## Audit Trail
 

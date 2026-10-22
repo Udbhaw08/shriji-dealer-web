@@ -1,16 +1,17 @@
 # Community 277
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Popovers** (4 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **popovers.md** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
+- **semantic-legend-gateway.test.mjs** (7 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
+- **values()** (1 connections) — `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
 
 ## Relationships
 
@@ -18,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/popovers.md`
+- `.agents/skills/archify/test/semantic-legend-gateway.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

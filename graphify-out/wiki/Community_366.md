@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **integration.test.mjs** (4 connections) — `backend/test/integration.test.mjs`
-- **api()** (1 connections) — `backend/test/integration.test.mjs`
-- **COMMERCE_FIXTURE** (1 connections) — `backend/test/integration.test.mjs`
-- **crmMock** (1 connections) — `backend/test/integration.test.mjs`
-- **uniq()** (1 connections) — `backend/test/integration.test.mjs`
+- **iCloud** (4 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
+- **icloud.md** (1 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `backend/test/integration.test.mjs`
+- `.agents/skills/apple-design/references/hig/icloud.md`
 
 ## Audit Trail
 

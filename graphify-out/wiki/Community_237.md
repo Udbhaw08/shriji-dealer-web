@@ -1,17 +1,18 @@
 # Community 237
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Sliders** (5 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **sliders.md** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **relationship-permalink.test.mjs** (8 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **fixture()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **relationshipKey()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
 
 ## Relationships
 
@@ -19,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/sliders.md`
+- `.agents/skills/archify/test/relationship-permalink.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

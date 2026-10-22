@@ -1,13 +1,14 @@
 # Community 369
 
-> 4 nodes · cohesion 0.67
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **Test** (2 connections) — `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
-- **ExampleUnitTest.java** (2 connections) — `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
-- **ExampleUnitTest** (2 connections) — `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
-- **.addition_isCorrect()** (2 connections) — `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
+- **Outline views** (4 connections) — `.agents/skills/apple-design/references/hig/outline-views.md`
+- **outline-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/outline-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/outline-views.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/outline-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/outline-views.md`
 
 ## Relationships
 
@@ -15,7 +16,7 @@
 
 ## Source Files
 
-- `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
+- `.agents/skills/apple-design/references/hig/outline-views.md`
 
 ## Audit Trail
 

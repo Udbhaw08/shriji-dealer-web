@@ -1,13 +1,14 @@
 # Community 368
 
-> 4 nodes · cohesion 0.67
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **Test** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
-- **ExampleInstrumentedTest.java** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
-- **ExampleInstrumentedTest** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
-- **.useAppContext()** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
+- **NFC** (4 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
+- **nfc.md** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
+- **Background tag reading** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
+- **In-app tag reading** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
 
 ## Relationships
 
@@ -15,7 +16,7 @@
 
 ## Source Files
 
-- `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
+- `.agents/skills/apple-design/references/hig/nfc.md`
 
 ## Audit Trail
 

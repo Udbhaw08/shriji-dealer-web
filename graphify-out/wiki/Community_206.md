@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Archify JSON IR Schemas** (7 connections) — `.agents/skills/archify/schemas/README.md`
-- **Files** (2 connections) — `.agents/skills/archify/schemas/README.md`
-- **README.md** (1 connections) — `.agents/skills/archify/schemas/README.md`
-- **Error format** (1 connections) — `.agents/skills/archify/schemas/README.md`
-- **Legend presentation contract** (1 connections) — `.agents/skills/archify/schemas/README.md`
-- **Runtime validation** (1 connections) — `.agents/skills/archify/schemas/README.md`
-- **schema_version policy** (1 connections) — `.agents/skills/archify/schemas/README.md`
-- **Shared definitions (common.schema.json)** (1 connections) — `.agents/skills/archify/schemas/README.md`
-- **Visual quality and engineering truth** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **2. Customer vs. Dealer Price Resolution (`src/data/dealer.js`)** (4 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **PRICING-ARCHITECTURE.md — Pricing Engine & Audit Specification** (4 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **1. Source of Truth: Live Zoho Commerce Store API** (2 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **PRICING-ARCHITECTURE.md** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **2.1 Customer View** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **2.2 Dealer View** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **2.3 Share Link Invariant** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **3. Automated Pricing Regression Protection** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **Rate Priority Hierarchy** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/README.md`
+- `docs/PRICING-ARCHITECTURE.md`
 
 ## Audit Trail
 

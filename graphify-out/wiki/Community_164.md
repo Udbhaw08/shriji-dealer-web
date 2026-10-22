@@ -1,19 +1,20 @@
 # Community 164
 
-> 10 nodes · cohesion 0.20
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **Layout** (7 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **Adaptability** (2 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **layout.md** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **Guides and safe areas** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **Size classes** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **Visual hierarchy** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **App icons** (10 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **app-icons.md** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Appearances** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Design** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Icon shape** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Layer design** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Specifications** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Visual effects** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
 
 ## Relationships
 
@@ -21,11 +22,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/layout.md`
+- `.agents/skills/apple-design/references/hig/app-icons.md`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

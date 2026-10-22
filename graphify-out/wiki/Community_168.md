@@ -1,19 +1,20 @@
 # Community 168
 
-> 10 nodes · cohesion 0.20
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **Settings** (8 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **settings.md** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **General settings** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **System settings** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Task-specific options** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Gestures** (7 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Specifications** (2 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **gestures.md** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Custom gestures** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Standard gestures** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
 
 ## Relationships
 
@@ -21,11 +22,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/settings.md`
+- `.agents/skills/apple-design/references/hig/gestures.md`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

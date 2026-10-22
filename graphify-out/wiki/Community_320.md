@@ -1,15 +1,16 @@
 # Community 320
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Steppers** (4 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
-- **steppers.md** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
+- **relationship-pulse.test.mjs** (6 connections) — `.agents/skills/archify/test/relationship-pulse.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/relationship-pulse.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/relationship-pulse.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/relationship-pulse.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/relationship-pulse.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/relationship-pulse.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/relationship-pulse.test.mjs`
 
 ## Relationships
 
@@ -17,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/steppers.md`
+- `.agents/skills/archify/test/relationship-pulse.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

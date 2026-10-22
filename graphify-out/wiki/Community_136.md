@@ -1,33 +1,35 @@
 # Community 136
 
-> 12 nodes · cohesion 0.17
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **Privacy** (8 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Requesting permission** (3 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **privacy.md** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Location button** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Pre-alert screens, windows, or views** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Protecting data** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Tracking requests** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **real-repository-proof.test.mjs** (15 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **automaticMcoRoot()** (2 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **artifactPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **connectionLabelGeometry()** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **evidencePayload()** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **experimentArtifactPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **experimentSourcePath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **pinnedSource** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **shareCardPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **sourcePath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 160]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/privacy.md`
+- `.agents/skills/archify/test/real-repository-proof.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 29 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

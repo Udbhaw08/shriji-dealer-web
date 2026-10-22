@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **share-card-export.test.mjs** (7 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
-- **svgBlock()** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **Sliders** (5 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **sliders.md** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/share-card-export.test.mjs`
+- `.agents/skills/apple-design/references/hig/sliders.md`
 
 ## Audit Trail
 

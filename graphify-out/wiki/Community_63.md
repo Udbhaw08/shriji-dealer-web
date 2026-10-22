@@ -1,29 +1,33 @@
 # Community 63
 
-> 20 nodes · cohesion 0.10
+> 24 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **PRODUCT-PAGES.md — listing, detail, and dealer pricing** (9 connections) — `docs/PRODUCT-PAGES.md`
-- **4. Product listing — `/products`, `src/pages/Products.jsx`** (6 connections) — `docs/PRODUCT-PAGES.md`
-- **6. Product detail — `/products/:id`, `src/pages/Product.jsx`** (6 connections) — `docs/PRODUCT-PAGES.md`
-- **PRODUCT-PAGES.md** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **1. Price visibility — the rule everything else follows** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **2. The pricing module — `src/data/dealer.js`** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **3. `<PriceBlock>` — `src/components/PriceBlock.jsx`** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **5. Product card — `src/components/ProductCard.jsx`** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **7. What is deliberately not here** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **8. Files touched on 2026-09-20** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Below the whole grid** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Filters and facets** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Left column** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Pagination** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Responsive behaviour** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Right column** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Share with Customer** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Sort** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Structure** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Tabs** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Refero Design** (13 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Tool Routing** (5 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Research Workflow** (4 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Synthesis** (4 connections) — `.agents/skills/refero-design/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **1. Research Visual Direction With Styles** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **2. Research Screens For Product Details** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **3. Research Flows For Journey Logic** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Design Craft** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Discovery** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Example** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Journey Logic** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **MCP Setup** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Non-Negotiables** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Present Findings** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Product Pattern** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Quality Gate** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Research Depth** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Use Flows For Journeys** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Use Screens For Concrete UI Patterns** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Use Styles First For Visual Work** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Use Visual Workflow For Images And QA** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Visual Direction** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Workflow Routing** (1 connections) — `.agents/skills/refero-design/SKILL.md`
 
 ## Relationships
 
@@ -31,11 +35,11 @@
 
 ## Source Files
 
-- `docs/PRODUCT-PAGES.md`
+- `.agents/skills/refero-design/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
+- EXTRACTED: 46 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -2,7 +2,7 @@
 
 > God node · 33 connections · `.agents/skills/archify/renderers/shared/utils.mjs`
 
-**Community:** [[Pricing & Roles Skill]]
+**Community:** [[Zoho Integration Skill]]
 
 ## Connections by Relation
 

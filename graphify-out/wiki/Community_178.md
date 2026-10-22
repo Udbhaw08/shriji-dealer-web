@@ -1,33 +1,35 @@
 # Community 178
 
-> 10 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **renderBlock()** (11 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderAside()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderBlocks()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderTable()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderList()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderRow()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderTabs()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderTermList()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **resolveSpans()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **trimBlankEdges()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **i18n.js** (25 connections) — `src/data/i18n.js`
+- **setLanguage()** (3 connections) — `src/data/i18n.js`
+- **emit()** (2 connections) — `src/data/i18n.js`
+- **toggleLanguage()** (2 connections) — `src/data/i18n.js`
+- **translations.js** (2 connections) — `src/data/translations.js`
+- **TRANSLATIONS** (2 connections) — `src/data/translations.js`
+- **currentLang** (1 connections) — `src/data/i18n.js`
+- **getInitialLang()** (1 connections) — `src/data/i18n.js`
+- **getLanguage()** (1 connections) — `src/data/i18n.js`
+- **listeners** (1 connections) — `src/data/i18n.js`
 
 ## Relationships
 
-- [[Community 53]] (10 shared connections)
-- [[Community 177]] (2 shared connections)
-- [[Community 245]] (1 shared connections)
+- [[Product Requirements Documentation]] (9 shared connections)
+- [[Client Products Data Store]] (5 shared connections)
+- [[Community 205]] (1 shared connections)
+- [[Architecture Doc Generator]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- `src/data/i18n.js`
+- `src/data/translations.js`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

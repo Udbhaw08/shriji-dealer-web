@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **artifact-receipt-flush.test.mjs** (6 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **checker** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **denseArchitecture()** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **Charting data** (6 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
+- **charting-data.md** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
+- **Designing effective charts** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- `.agents/skills/apple-design/references/hig/charting-data.md`
 
 ## Audit Trail
 

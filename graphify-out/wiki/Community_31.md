@@ -1,62 +1,52 @@
 # Community 31
 
-> 31 nodes · cohesion 0.12
+> 39 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **visual-check.mjs** (50 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **runVisualCheck()** (18 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **desktop-readability.mjs** (9 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **adaptive-reader-layout.test.mjs** (9 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **desktop-reader-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
-- **DESKTOP_READABILITY_VIEWPORT** (5 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **observationDiagnostics()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **safeUnlink()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **writeAtomic()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **baseReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **cleanupCaptureSidecars()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **contactSheetHtml()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **failureDiagnostic()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **persistReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **sha256()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **sidecarPaths()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **htmlEscape()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **observation()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **screenshotKey()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **viewportSubject()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **CAPTURE_VIEWPORTS** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **EXIT** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **THEMES** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **reader** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- *... and 6 more nodes in this community*
+- **auth.js** (40 connections) — `src/data/auth.js`
+- **callBackend()** (24 connections) — `src/data/auth.js`
+- **json()** (24 connections) — `src/data/auth.js`
+- **DealerDashboard.jsx** (22 connections) — `src/pages/DealerDashboard.jsx`
+- **broadcastAuthChange()** (10 connections) — `src/data/auth.js`
+- **loginCode.js** (8 connections) — `src/data/loginCode.js`
+- **applyAuthResponse()** (6 connections) — `src/data/auth.js`
+- **logout()** (6 connections) — `src/data/auth.js`
+- **fetchMe()** (5 connections) — `src/data/auth.js`
+- **googleLogin()** (5 connections) — `src/data/auth.js`
+- **login()** (5 connections) — `src/data/auth.js`
+- **signup()** (5 connections) — `src/data/auth.js`
+- **staffTogglePrice()** (5 connections) — `src/data/auth.js`
+- **staffTogglePriceAll()** (5 connections) — `src/data/auth.js`
+- **verifyEmailOtp()** (5 connections) — `src/data/auth.js`
+- **applyAsDealer()** (4 connections) — `src/data/auth.js`
+- **lookupStaffCode()** (4 connections) — `src/data/auth.js`
+- **persistTokens()** (4 connections) — `src/data/auth.js`
+- **requestEmailOtp()** (4 connections) — `src/data/auth.js`
+- **staffApprove()** (4 connections) — `src/data/auth.js`
+- **staffDeactivate()** (4 connections) — `src/data/auth.js`
+- **staffDelete** (4 connections) — `src/data/auth.js`
+- **staffHold()** (4 connections) — `src/data/auth.js`
+- **staffInvite()** (4 connections) — `src/data/auth.js`
+- **staffList()** (4 connections) — `src/data/auth.js`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [[Community 61]] (8 shared connections)
-- [[Community 104]] (6 shared connections)
-- [[Community 37]] (5 shared connections)
-- [[Product Pages Specification]] (4 shared connections)
-- [[Community 45]] (3 shared connections)
-- [[Dependencies & Package Config]] (3 shared connections)
-- [[Community 97]] (2 shared connections)
-- [[Community 70]] (2 shared connections)
-- [[Community 84]] (2 shared connections)
-- [[Community 123]] (1 shared connections)
-- [[Community 124]] (1 shared connections)
-- [[Community 103]] (1 shared connections)
+- [[Architecture Doc Generator]] (33 shared connections)
+- [[Client Products Data Store]] (4 shared connections)
+- [[Product Requirements Documentation]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- `src/data/auth.js`
+- `src/data/loginCode.js`
+- `src/pages/DealerDashboard.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 150 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 256 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

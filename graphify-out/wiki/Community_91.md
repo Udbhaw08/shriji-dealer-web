@@ -1,25 +1,28 @@
 # Community 91
 
-> 16 nodes · cohesion 0.12
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **Color** (10 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Specifications** (3 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **color.md** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **App accent colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Color management** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Inclusive color** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **iOS, iPadOS system gray colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Liquid Glass color** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **System colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **System colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **The menu bar** (15 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **the-menu-bar.md** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **App menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **App-specific menus** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Dynamic menu items** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Edit menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **File menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Format menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Help menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Menu bar extras** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **View menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Window menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
 
 ## Relationships
 
@@ -27,11 +30,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/color.md`
+- `.agents/skills/apple-design/references/hig/the-menu-bar.md`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
+- EXTRACTED: 36 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

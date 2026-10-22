@@ -1,14 +1,15 @@
 # Community 339
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **Agent Operating Guidelines & Zero-Token Context Strategy** (3 connections) — `GEMINI.md`
-- **Shriji Domestic Appliances — Sunshine Dealer Web** (2 connections) — `GEMINI.md`
-- **GEMINI.md** (1 connections) — `GEMINI.md`
-- **Mandatory Context Rule: Knowledge Graph First** (1 connections) — `GEMINI.md`
-- **Project Hard Rules** (1 connections) — `GEMINI.md`
+- **Printing** (4 connections) — `.agents/skills/apple-design/references/hig/printing.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/printing.md`
+- **printing.md** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
 
 ## Relationships
 
@@ -16,11 +17,11 @@
 
 ## Source Files
 
-- `GEMINI.md`
+- `.agents/skills/apple-design/references/hig/printing.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

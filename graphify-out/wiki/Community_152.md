@@ -1,20 +1,21 @@
 # Community 152
 
-> 11 nodes · cohesion 0.18
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **Website & App Redesign Instructions** (7 connections) — `instructions.md`
-- **2. Tri-Skill Synthesis Engine** (4 connections) — `instructions.md`
-- **instructions.md** (1 connections) — `instructions.md`
-- **1. Core Purpose & Architectural Goals** (1 connections) — `instructions.md`
-- **3. Adaptive Platform UX Strategies** (1 connections) — `instructions.md`
-- **4. Mobile Responsiveness & Layout Hard Rules** (1 connections) — `instructions.md`
-- **5. Domain Rules for Shriji Dealer Web** (1 connections) — `instructions.md`
-- **6. Execution Flow for Redesign Tasks** (1 connections) — `instructions.md`
-- **Skill 1: `refero-design` (Website & Aesthetic Authority)** (1 connections) — `instructions.md`
-- **Skill 2: `apple-design` (HIG Standards & Design Audit Authority)** (1 connections) — `instructions.md`
-- **Skill 3: `swiftui-pro` (Mobile App Ergonomics & View Performance Authority)** (1 connections) — `instructions.md`
+- **Inclusion** (11 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **inclusion.md** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Accessibility** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Avoiding stereotypes** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Being approachable** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Gender identity** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Inclusive by design** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Languages** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **People and settings** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Welcoming language** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
 
 ## Relationships
 
@@ -22,11 +23,11 @@
 
 ## Source Files
 
-- `instructions.md`
+- `.agents/skills/apple-design/references/hig/inclusion.md`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

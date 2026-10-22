@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **Shriji Testing & Workflow Skill** (3 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
-- **Daily Development Commands** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
-- **Hard Workflow Rules** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
+- **Using modern SwiftUI API** (3 connections) — `.agents/skills/swiftui-pro/references/api.md`
+- **api.md** (1 connections) — `.agents/skills/swiftui-pro/references/api.md`
+- **Toolbars** (1 connections) — `.agents/skills/swiftui-pro/references/api.md`
+- **Using ObservableObject** (1 connections) — `.agents/skills/swiftui-pro/references/api.md`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `.agents/skills/shriji-testing-and-workflow/SKILL.md`
+- `.agents/skills/swiftui-pro/references/api.md`
 
 ## Audit Trail
 

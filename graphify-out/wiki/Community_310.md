@@ -1,15 +1,16 @@
 # Community 310
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Action sheets** (4 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
-- **action-sheets.md** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
+- **Sequence Renderer** (5 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **Layout budget** (2 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **README.md** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **Column fit** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **Input** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **Legend** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
 
 ## Relationships
 
@@ -17,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/action-sheets.md`
+- `.agents/skills/archify/renderers/sequence/README.md`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

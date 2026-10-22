@@ -1,32 +1,36 @@
 # Community 145
 
-> 11 nodes · cohesion 0.18
+> 13 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **Alerts** (8 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **alerts.md** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Buttons** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **semantic-radar.test.mjs** (15 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **evaluate()** (5 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **dragMouse()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **loadArtifact()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **observe()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **radarRects()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **overlaps()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 44]] (1 shared connections)
+- [[Community 80]] (1 shared connections)
+- [[Community 126]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/alerts.md`
+- `.agents/skills/archify/test/semantic-radar.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 35 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

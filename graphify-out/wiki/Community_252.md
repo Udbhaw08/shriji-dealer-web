@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **relationship-lens.test.mjs** (7 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **escapeAttr()** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **svg()** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **Offering help** (6 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **offering-help.md** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Creating tips** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Desktop (macOS, visionOS)** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/relationship-lens.test.mjs`
+- `.agents/skills/apple-design/references/hig/offering-help.md`
 
 ## Audit Trail
 

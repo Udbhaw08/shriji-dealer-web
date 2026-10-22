@@ -1,38 +1,45 @@
 # Community 87
 
-> 17 nodes · cohesion 0.12
+> 20 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **HIG reference lookup** (16 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **hig-lookup.md** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Content** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Layout and organization** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Menus and actions** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Navigation and search** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Presentation** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Selection and input** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Status** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › System experiences** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Curated guides** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Foundations** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Getting started** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Inputs** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Pages Apple publishes that are not included** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Patterns** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Technologies** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **hash.js** (18 connections) — `backend/src/utils/hash.js`
+- **loginCode.js** (15 connections) — `backend/src/utils/loginCode.js`
+- **generateLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
+- **hash.test.mjs** (7 connections) — `backend/test/hash.test.mjs`
+- **loginCode.test.mjs** (7 connections) — `backend/test/loginCode.test.mjs`
+- **formatLoginCode()** (7 connections) — `backend/src/utils/loginCode.js`
+- **hashPassword()** (4 connections) — `backend/src/utils/hash.js`
+- **verifyPassword()** (4 connections) — `backend/src/utils/hash.js`
+- **isValidLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
+- **parseLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
+- **generateOtp()** (3 connections) — `backend/src/utils/hash.js`
+- **scryptKey()** (3 connections) — `backend/src/utils/hash.js`
+- **USER_CATEGORIES** (3 connections) — `backend/src/utils/loginCode.js`
+- **generateCode()** (2 connections) — `backend/src/utils/hash.js`
+- **randomToken()** (2 connections) — `backend/src/utils/hash.js`
+- **generateRandomDigits()** (2 connections) — `backend/src/utils/loginCode.js`
+- **generateRandomLetters()** (2 connections) — `backend/src/utils/loginCode.js`
+- **GST_TREATMENT_OPTIONS** (2 connections) — `backend/src/utils/loginCode.js`
+- **SCRYPT** (1 connections) — `backend/src/utils/hash.js`
+- **PREFIX_MAP** (1 connections) — `backend/src/utils/loginCode.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 36]] (11 shared connections)
+- [[Community 52]] (6 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig-lookup.md`
+- `backend/src/utils/hash.js`
+- `backend/src/utils/loginCode.js`
+- `backend/test/hash.test.mjs`
+- `backend/test/loginCode.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 99 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

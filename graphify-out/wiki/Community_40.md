@@ -1,47 +1,53 @@
 # Community 40
 
-> 26 nodes · cohesion 0.08
+> 36 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **Widgets** (9 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Best practices** (6 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Anatomy** (4 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Rendering modes** (4 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Mobile (iOS, iPadOS)** (3 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Specifications** (3 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **widgets.md** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Accented** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Accessory widgets** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Adding interactivity** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Appearances** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Apple HomeView** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Choosing margins and padding** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Displaying text in widgets** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Full-color** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **iOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **iPadOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Previews and placeholders** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **StandBy and CarPlay** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **System family widgets** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Updating widget content** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Using color** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- *... and 1 more nodes in this community*
+- **Z()** (24 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
+- **mu()** (13 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
+- **xl()** (13 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
+- **Iu()** (10 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
+- **bc()** (8 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
+- **Bu()** (8 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
+- **ft()** (8 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
+- **hi()** (8 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
+- **pu()** (8 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
+- **Su()** (8 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
+- **bl()** (7 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
+- **cl()** (7 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
+- **fu()** (7 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
+- **jl()** (7 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
+- **wl()** (7 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
+- **gu()** (6 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
+- **Nd()** (6 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
+- **vu()** (6 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
+- **gm()** (5 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
+- **hu()** (5 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
+- **ju()** (5 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
+- **nu()** (5 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
+- **pf()** (5 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
+- **Cu()** (4 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
+- **Lu()** (4 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (42 shared connections)
+- [[Product Pages Specification]] (23 shared connections)
+- [[Design System & UI Tokens]] (10 shared connections)
+- [[Community 39]] (5 shared connections)
+- [[Community 50]] (3 shared connections)
+- [[Pricing & Roles Skill]] (3 shared connections)
+- [[Vercel Deployment Routing]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/widgets.md`
+- `ios/App/App/public/assets/index-DY4Y1egs.js`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (100%)
+- EXTRACTED: 227 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

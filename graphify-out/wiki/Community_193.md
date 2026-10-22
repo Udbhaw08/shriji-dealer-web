@@ -1,30 +1,32 @@
 # Community 193
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Playing audio** (6 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **playing-audio.md** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Handling interruptions** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **lanes** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **additionalProperties** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **required** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Zoho API Diagnostic Script]] (3 shared connections)
+- [[Community 114]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/playing-audio.md`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

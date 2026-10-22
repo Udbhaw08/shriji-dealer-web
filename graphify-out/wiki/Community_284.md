@@ -1,16 +1,17 @@
 # Community 284
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Writing** (6 connections) — `.agents/skills/apple-design/references/hig/writing.md`
-- **writing.md** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
-- **Getting started** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **story-moment-link.test.mjs** (7 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
 
 ## Relationships
 
@@ -18,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/writing.md`
+- `.agents/skills/archify/test/story-moment-link.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

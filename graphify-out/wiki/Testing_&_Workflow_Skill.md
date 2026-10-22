@@ -1,51 +1,54 @@
 # Testing & Workflow Skill
 
-> 36 nodes · cohesion 0.08
+> 41 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **check-update.mjs** (99 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **normalizeState()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **encodeRecoverableState()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **validateCachedCandidate()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **isPlainObject()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **guardedCacheEntryRead()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **hasOnlyKeys()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **notification()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationIsActive()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stateAfterFailedCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stateWithFailureCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **validateClaimOwner()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertSafeCacheEntry()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cancelResponseBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **corruptClaimStatus()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **emptyState()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **encodeBoundedState()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **eventKeyForDigest()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **metadataIsWithinLease()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **nextFailedCheck()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **readBoundedBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stateAfterAcknowledgement()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertRenameableCacheEntry()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertSafeRegularFile()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **CacheOperationRaceError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- *... and 11 more nodes in this community*
+- **l()** (29 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **qd()** (14 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **Yd()** (13 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **ye()** (13 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **Fd()** (12 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **Vd()** (12 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **yl()** (10 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **al()** (9 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **Sp()** (9 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **vl()** (8 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **Si()** (7 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **st()** (7 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **Bd()** (6 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **ef()** (6 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **Hd()** (6 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **Lo()** (6 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **Ro()** (6 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **zd()** (6 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **Do()** (5 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **ga()** (5 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **ns()** (5 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **pl()** (5 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **dl()** (4 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **fl()** (4 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- **kl()** (4 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [[Community 74]] (21 shared connections)
-- [[Community 89]] (19 shared connections)
-- [[Community 82]] (19 shared connections)
-- [[Community 75]] (13 shared connections)
-- [[Project Readme & Layout]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (44 shared connections)
+- [[Dependencies & Package Config]] (21 shared connections)
+- [[Master Codebase Architecture Reference]] (18 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (11 shared connections)
+- [[Community 37]] (8 shared connections)
+- [[Community 48]] (4 shared connections)
+- [[Community 116]] (4 shared connections)
+- [[Community 38]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-update.mjs`
+- `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
 
 ## Audit Trail
 
-- EXTRACTED: 177 (100%)
+- EXTRACTED: 255 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,47 +1,49 @@
 # Community 35
 
-> 29 nodes · cohesion 0.07
+> 38 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **Live Activities** (8 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Anatomy** (6 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Best practices** (6 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Presentation** (6 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Specifications** (5 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **live-activities.md** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Adding transitions and animating content updates** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **CarPlay** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **CarPlay dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Choosing colors** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Compact** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Compact presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Creating Live Activity layouts** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Expanded** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Expanded presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **iOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **iPadOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Lock Screen** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Lock Screen presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **macOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Minimal** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Minimal presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- *... and 4 more nodes in this community*
+- **update-notifier.test.mjs** (43 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **operationPath()** (5 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **stateDirectory()** (4 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **fixture()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **remoteReleaseForVersion()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **runCheckInChild()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **statePath()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **writeCompactCommittedState()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **assertUnsafeCacheStateIsIgnored()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **committedStateFiles()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **compactStateSource()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **localRelease()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **pauseOpenOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **pauseRenameMatchingOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **pauseRenameOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **pauseWriteOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **remoteRelease()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **writeJson()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **writePendingOperation()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **baseTime** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **cachedStateWithHistory()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **cachedUpdateState()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **cancel()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **candidateStateForDigest()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **checkerPath** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 59]] (3 shared connections)
+- [[Community 108]] (2 shared connections)
+- [[Community 45]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/live-activities.md`
+- `.agents/skills/archify/test/update-notifier.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 56 (100%)
+- EXTRACTED: 108 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

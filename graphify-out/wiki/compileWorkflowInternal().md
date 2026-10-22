@@ -2,7 +2,7 @@
 
 > God node · 67 connections · `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
 
-**Community:** [[Zoho Backend & Proxy Endpoints]]
+**Community:** [[Live Pricing Audit Tool]]
 
 ## Connections by Relation
 

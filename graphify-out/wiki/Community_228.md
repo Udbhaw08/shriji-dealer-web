@@ -1,17 +1,18 @@
 # Community 228
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Keyboards** (7 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
-- **keyboards.md** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
-- **Custom keyboard shortcuts** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
-- **Standard keyboard shortcuts** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Archify JSON IR Schemas** (7 connections) — `.agents/skills/archify/schemas/README.md`
+- **Files** (2 connections) — `.agents/skills/archify/schemas/README.md`
+- **README.md** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Error format** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Legend presentation contract** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Runtime validation** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **schema_version policy** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Shared definitions (common.schema.json)** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Visual quality and engineering truth** (1 connections) — `.agents/skills/archify/schemas/README.md`
 
 ## Relationships
 
@@ -19,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/keyboards.md`
+- `.agents/skills/archify/schemas/README.md`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

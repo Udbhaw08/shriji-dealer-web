@@ -1,27 +1,30 @@
 # Community 348
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **NFC** (4 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
-- **nfc.md** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
-- **Background tag reading** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
-- **In-app tag reading** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
+- **main()** (7 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **pruneStaleFiles()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **uniqueBySlug()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **generatedFiles()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **mapWithConcurrency()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **parseArgs()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 72]] (6 shared connections)
+- [[Community 230]] (2 shared connections)
+- [[Community 238]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/nfc.md`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 18 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

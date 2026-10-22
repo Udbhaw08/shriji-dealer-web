@@ -1,20 +1,21 @@
 # Community 150
 
-> 11 nodes · cohesion 0.18
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **Gestures** (7 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Specifications** (2 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **gestures.md** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Custom gestures** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Standard gestures** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Designing for iPhone Duo** (7 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Dynamic layouts** (4 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Anatomy** (2 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **designing-for-iphone-duo.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Arrangement views** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Device poses** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Reserved regions** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Split views** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Vertical controls** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
 
 ## Relationships
 
@@ -22,11 +23,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/gestures.md`
+- `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

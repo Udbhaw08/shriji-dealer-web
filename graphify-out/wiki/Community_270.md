@@ -1,16 +1,17 @@
 # Community 270
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Images** (6 connections) — `.agents/skills/apple-design/references/hig/images.md`
-- **images.md** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
-- **Formats** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
-- **Resolution** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **preset-tryon.test.mjs** (7 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
+- **presetRuntime()** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
+- **svgBlock()** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
 
 ## Relationships
 
@@ -18,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/images.md`
+- `.agents/skills/archify/test/preset-tryon.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
