@@ -4,7 +4,7 @@ import { apiFetch } from "../data/api";
 import { Icon } from "../ui";
 import { parseVideoUrl } from "../utils/video";
 
-const BANNER_CACHE_KEY = "shriji_supabase_banners_v3";
+const BANNER_CACHE_KEY = "shriji_supabase_banners_v4";
 
 const getCachedBanners = () => {
   try {

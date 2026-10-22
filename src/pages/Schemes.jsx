@@ -4,7 +4,7 @@ import { COMPANY } from "../data/site";
 import { apiFetch } from "../data/api";
 import { Icon } from "../ui";
 
-const SCHEMES_CACHE_KEY = "shriji_supabase_schemes_v2";
+const SCHEMES_CACHE_KEY = "shriji_supabase_schemes_v3";
 
 const getCachedSchemes = () => {
   try {
@@ -104,7 +104,10 @@ export default function Schemes() {
   };
 
   const getWhatsAppLink = (scheme) => {
-    const text = `Hi Shriji Team, I am interested in the "${scheme.title}" scheme (${scheme.badge || "Dealer Scheme"}). Please share booking details and eligible models.`;
+    const text =
+      scheme.whatsappBooking ||
+      scheme.metadata?.whatsapp_booking ||
+      `Hi Shriji Team, I am interested in the "${scheme.title}" scheme (${scheme.badge || "Dealer Scheme"}). Please share booking details and eligible models.`;
     return `https://wa.me/${COMPANY.phoneRaw}?text=${encodeURIComponent(text)}`;
   };
 
@@ -203,12 +206,36 @@ export default function Schemes() {
                             <span className="scheme-verified-dot" />
                             Verified Dealer Scheme
                           </span>
-                          {isDiwali ? (
-                            <span className="scheme-slab-pill">Up to 8.5% Rebate</span>
+                          {s.badge ? (
+                            <span className="scheme-slab-pill">{s.badge}</span>
                           ) : (
                             <span className="scheme-slab-pill">Volume Target Slabs</span>
                           )}
                         </div>
+                        {Array.isArray(s.slabs) && s.slabs.length > 0 && (
+                          <div className="scheme-slabs-container" style={{ marginTop: "10px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                            {s.slabs.map((slab, sIdx) => (
+                              <div
+                                key={sIdx}
+                                style={{
+                                  fontSize: "0.80rem",
+                                  lineHeight: 1.35,
+                                  color: "var(--tx-1)",
+                                  background: "var(--bg-2)",
+                                  border: "1px solid var(--line-2)",
+                                  borderRadius: "6px",
+                                  padding: "6px 8px",
+                                  display: "flex",
+                                  alignItems: "flex-start",
+                                  gap: "6px",
+                                }}
+                              >
+                                <span style={{ color: "#d97706", flexShrink: 0, fontWeight: 700 }}>•</span>
+                                <span>{slab}</span>
+                              </div>
+                            ))}
+                          </div>
+                        )}
                       </div>
                     </div>
 

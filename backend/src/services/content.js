@@ -145,6 +145,11 @@ export async function getSupabaseSchemes() {
       link: r.link_url || null,
       status: 'active',
       source: 'supabase',
+      daysLeft: meta.daysLeft || null,
+      slabs: meta.slabs || [],
+      terms: meta.terms || [],
+      whatsappBooking: meta.whatsapp_booking || null,
+      metadata: meta,
     };
   });
 
