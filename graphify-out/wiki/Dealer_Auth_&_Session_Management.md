@@ -1,62 +1,55 @@
 # Dealer Auth & Session Management
 
-> 92 nodes · cohesion 0.05
+> 104 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **zoho.js** (51 connections) — `api/zoho.js`
-- **vite.config.js** (20 connections) — `vite.config.js`
-- **content.js** (19 connections) — `backend/src/services/content.js`
-- **fetchZohoProductById()** (16 connections) — `api/zoho.js`
-- **fetchZohoProducts()** (14 connections) — `api/zoho.js`
-- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
-- **zohoApiPlugin()** (13 connections) — `vite.config.js`
-- **fetchZohoWithRetry()** (12 connections) — `api/zoho.js`
-- **getZohoConfig()** (12 connections) — `api/zoho.js`
-- **content.js** (11 connections) — `api/content.js`
-- **content.js** (11 connections) — `backend/src/routes/content.js`
-- **handler()** (10 connections) — `api/content.js`
-- **createDealerContact()** (9 connections) — `api/zoho.js`
-- **getSupabaseBanners()** (9 connections) — `backend/src/services/content.js`
-- **fetchZohoCategories()** (8 connections) — `api/zoho.js`
-- **getSupabaseSchemes()** (8 connections) — `backend/src/services/content.js`
-- **fetchAllRawZohoProducts()** (7 connections) — `api/zoho.js`
-- **fetchZohoBanners()** (7 connections) — `api/zoho.js`
-- **fetchZohoSchemes()** (7 connections) — `api/zoho.js`
-- **getCategoryVisibilityMap()** (7 connections) — `api/zoho.js`
-- **getDealerById()** (7 connections) — `api/zoho.js`
-- **getSupabaseBranding()** (7 connections) — `backend/src/services/content.js`
-- **fetchZohoPricebookItems()** (6 connections) — `api/zoho.js`
-- **getAccessToken()** (6 connections) — `api/zoho.js`
-- **normalizeProduct()** (6 connections) — `api/zoho.js`
-- *... and 67 more nodes in this community*
+- **_()** (448 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **oc()** (19 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **Nd()** (15 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **Ti()** (11 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **la()** (9 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **Nt()** (9 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **s()** (9 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **Ad()** (8 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **hh()** (8 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **po()** (8 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **cm()** (7 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **ic()** (7 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **mh()** (7 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **Mp()** (7 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **rc()** (7 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **request()** (7 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **Ci()** (6 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **Dc()** (6 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **dh()** (6 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **fh()** (6 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **fo()** (6 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **Ih()** (6 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **ph()** (6 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **Sh()** (6 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **te()** (6 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- *... and 79 more nodes in this community*
 
 ## Relationships
 
-- [[Vercel Deployment Routing]] (9 shared connections)
-- [[Community 57]] (2 shared connections)
-- [[Community 44]] (2 shared connections)
+- [[Master Codebase Architecture Reference]] (94 shared connections)
+- [[Dependencies & Package Config]] (86 shared connections)
+- [[Zoho Integration Skill]] (58 shared connections)
+- [[Community 37]] (57 shared connections)
+- [[Community 38]] (45 shared connections)
+- [[Community 42]] (40 shared connections)
+- [[Community 60]] (31 shared connections)
+- [[Community 71]] (27 shared connections)
 
 ## Source Files
 
-- `api/content.js`
-- `api/dealer/apply.js`
-- `api/dealer/info.js`
-- `api/download.js`
-- `api/og.js`
-- `api/products/[id].js`
-- `api/products/index.js`
-- `api/zoho.js`
-- `backend/src/routes/content.js`
-- `backend/src/services/content.js`
-- `scripts/audit_prices.mjs`
-- `scripts/test-zoho-api.mjs`
-- `vite.config.js`
+- `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
 
 ## Audit Trail
 
-- EXTRACTED: 451 (99%)
-- INFERRED: 4 (1%)
+- EXTRACTED: 831 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

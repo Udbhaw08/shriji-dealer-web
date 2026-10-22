@@ -1,57 +1,54 @@
 # Community 37
 
-> 39 nodes · cohesion 0.13
+> 38 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **auth.js** (47 connections) — `backend/src/routes/auth.js`
-- **crmClient.js** (32 connections) — `backend/src/services/crmClient.js`
-- **validators.js** (14 connections) — `backend/src/utils/validators.js`
-- **crmFetch()** (12 connections) — `backend/src/services/crmClient.js`
-- **normalizePhone()** (12 connections) — `backend/src/utils/phone.js`
-- **normalizeEmail()** (12 connections) — `backend/src/utils/validators.js`
-- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
-- **cleanName()** (7 connections) — `backend/src/utils/validators.js`
-- **crmConfigured()** (6 connections) — `backend/src/services/crmClient.js`
-- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
-- **phone.js** (6 connections) — `backend/src/utils/phone.js`
-- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
-- **createDealerContact()** (5 connections) — `backend/src/services/crmClient.js`
-- **updateDealerCodeInCrm()** (5 connections) — `backend/src/services/crmClient.js`
-- **isValidPhone()** (5 connections) — `backend/src/utils/validators.js`
-- **resolveUserWithDealer()** (4 connections) — `backend/src/routes/auth.js`
-- **resolveContactNames()** (4 connections) — `backend/src/services/crmClient.js`
-- **isValidEmail()** (4 connections) — `backend/src/utils/validators.js`
-- **isValidName()** (4 connections) — `backend/src/utils/validators.js`
-- **emailOnlyIdentifier()** (3 connections) — `backend/src/routes/auth.js`
-- **findUserByEmail()** (3 connections) — `backend/src/routes/auth.js`
-- **issueSession()** (3 connections) — `backend/src/routes/auth.js`
-- **deactivateAccountInCrm()** (3 connections) — `backend/src/services/crmClient.js`
-- **deactivateContactInCrm()** (3 connections) — `backend/src/services/crmClient.js`
-- **getDealerAccount()** (3 connections) — `backend/src/services/crmClient.js`
-- *... and 14 more nodes in this community*
+- **i()** (66 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **n()** (26 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **t()** (20 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **rs()** (14 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **A()** (8 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **ga()** (8 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **ks()** (8 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **ys()** (8 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **ds()** (7 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **fs()** (7 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **us()** (7 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **yo()** (7 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **bs()** (6 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **cc()** (6 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **gs()** (6 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **os()** (6 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **sc()** (6 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **xs()** (6 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **is()** (5 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **ns()** (5 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **vs()** (5 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **x()** (5 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **Zo()** (5 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **as()** (4 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **hs()** (4 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [[Vercel Deployment Routing]] (26 shared connections)
-- [[Community 57]] (14 shared connections)
-- [[Community 44]] (10 shared connections)
-- [[Community 78]] (5 shared connections)
-- [[Community 132]] (2 shared connections)
+- [[Dealer Auth & Session Management]] (57 shared connections)
+- [[Master Codebase Architecture Reference]] (27 shared connections)
+- [[Dependencies & Package Config]] (23 shared connections)
+- [[Community 38]] (8 shared connections)
+- [[Zoho Integration Skill]] (8 shared connections)
+- [[Community 42]] (7 shared connections)
+- [[Community 71]] (6 shared connections)
+- [[Community 60]] (6 shared connections)
 
 ## Source Files
 
-- `backend/src/routes/auth.js`
-- `backend/src/services/crmClient.js`
-- `backend/src/services/notifications.js`
-- `backend/src/utils/phone.js`
-- `backend/src/utils/validators.js`
-- `backend/test/interconnection.test.mjs`
-- `backend/test/validators.test.mjs`
+- `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
 
 ## Audit Trail
 
-- EXTRACTED: 243 (100%)
+- EXTRACTED: 294 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

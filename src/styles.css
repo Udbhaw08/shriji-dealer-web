@@ -9490,6 +9490,191 @@ h4 {
   flex-wrap: wrap;
 }
 
+/* Modern Maintenance & Asset Refresh Card */
+.support-maint-card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, #f8fafc 100%);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  padding: clamp(2rem, 4vw, 3.25rem) clamp(1.5rem, 3.5vw, 2.75rem);
+  box-shadow: 0 10px 30px rgba(16, 38, 58, 0.05);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.support-maint-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #3b82f6 0%, #6366f1 50%, #8b5cf6 100%);
+}
+
+.support-maint-icon-halo {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(99, 102, 241, 0.15) 0%, rgba(238, 242, 255, 0.4) 70%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+  animation: maintPulse 3s ease-in-out infinite;
+}
+
+@keyframes maintPulse {
+  0%, 100% { transform: scale(1); opacity: 0.95; }
+  50% { transform: scale(1.06); opacity: 1; }
+}
+
+.support-maint-icon-inner {
+  width: 52px;
+  height: 52px;
+  border-radius: 16px;
+  background: #ffffff;
+  border: 1.5px solid #c7d2fe;
+  color: #4f46e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 14px rgba(79, 70, 229, 0.15);
+}
+
+.support-maint-status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: #eef2ff;
+  color: #4338ca;
+  border: 1px solid #c7d2fe;
+  margin-bottom: 0.85rem;
+}
+
+.support-maint-status-pill::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #6366f1;
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.3);
+  animation: pulseDot 2s infinite;
+}
+
+.support-maint-title {
+  font-size: clamp(1.4rem, 2.6vw, 1.95rem);
+  font-weight: 800;
+  color: var(--navy);
+  margin: 0 0 8px 0;
+  line-height: 1.25;
+}
+
+.support-maint-desc {
+  font-size: 0.96rem;
+  line-height: 1.6;
+  color: var(--tx-2);
+  max-width: 58ch;
+  margin: 0 auto 1.75rem auto;
+}
+
+/* Upcoming Media Chips */
+.support-maint-chips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 12px;
+  width: 100%;
+  max-width: 960px;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.support-maint-chip {
+  background: #ffffff;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 12px 14px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  box-shadow: 0 1px 3px rgba(16, 38, 58, 0.02);
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.support-maint-chip:hover {
+  transform: translateY(-2px);
+  border-color: #cbd5e1;
+}
+
+.support-maint-chip-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: #f1f5f9;
+  color: var(--navy);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.support-maint-chip-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.support-maint-chip-title {
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: var(--navy);
+  line-height: 1.25;
+}
+
+.support-maint-chip-sub {
+  font-size: 0.74rem;
+  color: var(--tx-3);
+  font-weight: 500;
+}
+
+.support-maint-action-box {
+  background: #ffffff;
+  border: 1px dashed #cbd5e1;
+  border-radius: 16px;
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+  width: 100%;
+  max-width: 760px;
+  flex-wrap: wrap;
+}
+
+.support-maint-action-text {
+  text-align: left;
+}
+
+.support-maint-action-text b {
+  display: block;
+  font-size: 0.92rem;
+  color: var(--navy);
+}
+
+.support-maint-action-text span {
+  font-size: 0.82rem;
+  color: var(--tx-2);
+}
+
 /* Marketing Assets Hub */
 .support-assets-sec {
   margin-top: 3.5rem;

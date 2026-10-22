@@ -1,61 +1,54 @@
 # Product Pages Specification
 
-> 67 nodes · cohesion 0.08
+> 74 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **geometry.mjs** (75 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **compileWorkflowInternal()** (67 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **asArray()** (43 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **geometry.test.mjs** (34 connections) — `.agents/skills/archify/test/geometry.test.mjs`
-- **isFinitePoint()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanFlowProblems()** (17 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanEndpointSideProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **collectLabelRouteClearance()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **segmentIntersectsRect()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **suggestLabelObstacleFix()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **anchor()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **automaticPortSpread()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **chosenSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **defaultFromSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **defaultToSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **pathFor()** (10 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **collectBorderRuns()** (10 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **normalizeRoutePoints()** (10 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **routeHonorsEndpointSides()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **pathFor()** (8 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **pathFor()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **collectAmbiguousCorridors()** (8 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **polylinePath()** (8 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **segmentRectClearance()** (8 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **suggestLabelPairFix()** (8 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- *... and 42 more nodes in this community*
+- **D()** (25 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **get()** (23 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **np()** (21 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **.addEventListener()** (19 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **Ou()** (19 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **b()** (18 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **bm()** (14 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **cn()** (14 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **fp()** (14 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **h()** (14 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **It()** (13 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **lm()** (13 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **.removeEventListener()** (12 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **delete()** (11 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **mn()** (11 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **nn()** (11 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **tp()** (11 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **am()** (10 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **ip()** (10 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **mm()** (9 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **g()** (8 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **om()** (8 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **tm()** (8 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **jl()** (7 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **jm()** (7 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- *... and 49 more nodes in this community*
 
 ## Relationships
 
-- [[Community 41]] (63 shared connections)
-- [[Architecture Doc Generator]] (45 shared connections)
-- [[Product Brand & Business Vision]] (35 shared connections)
-- [[Community 43]] (33 shared connections)
-- [[Community 80]] (31 shared connections)
-- [[Product Requirements Documentation]] (8 shared connections)
-- [[Live Pricing Audit Tool]] (6 shared connections)
-- [[Community 102]] (4 shared connections)
-- [[Community 79]] (3 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (78 shared connections)
+- [[Product Requirements Documentation]] (24 shared connections)
+- [[Community 39]] (22 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (20 shared connections)
+- [[Community 44]] (19 shared connections)
+- [[Live Pricing Audit Tool]] (12 shared connections)
+- [[Community 73]] (10 shared connections)
+- [[Community 48]] (7 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- `.agents/skills/archify/test/geometry.test.mjs`
+- `ios/App/App/public/assets/index-C0m88tWG.js`
 
 ## Audit Trail
 
-- EXTRACTED: 592 (100%)
+- EXTRACTED: 526 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

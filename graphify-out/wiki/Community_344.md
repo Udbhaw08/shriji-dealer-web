@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Design** (5 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **design.md** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **Creating a uniform design in this app** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **Ensuring designs work for everyone** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **Requirements for flexible, accessible design** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **Standard system styling** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
+- **automatic-port-spread.test.mjs** (5 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- **connectionPoints()** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- **fanOutArchitecture()** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/design.md`
+- `.agents/skills/archify/test/automatic-port-spread.test.mjs`
 
 ## Audit Trail
 

@@ -4,23 +4,24 @@
 
 ## Key Concepts
 
-- **7. Vertical Rhythm** (5 connections) — `.agents/skills/refero-design/references/typography.md`
-- **CSS Implementation** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Example** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Golden Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **The Simple Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **sync-supabase-content.js** (6 connections) — `backend/scripts/sync-supabase-content.js`
+- **syncAll()** (2 connections) — `backend/scripts/sync-supabase-content.js`
+- **__dirname** (1 connections) — `backend/scripts/sync-supabase-content.js`
+- **IMAGES** (1 connections) — `backend/scripts/sync-supabase-content.js`
+- **PROJECT_ROOT** (1 connections) — `backend/scripts/sync-supabase-content.js`
 
 ## Relationships
 
-- [[Community 224]] (1 shared connections)
+- [[Vercel Deployment Routing]] (2 shared connections)
+- [[Community 54]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `backend/scripts/sync-supabase-content.js`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

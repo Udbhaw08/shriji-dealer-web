@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Automatic Codebase Context & Knowledge Graph Protocol** (4 connections) — `.agents/rules/graphify.md`
-- **graphify.md** (1 connections) — `.agents/rules/graphify.md`
-- **Rule 1: Mandatory Knowledge Graph Lookup (Never Blindly Read Files)** (1 connections) — `.agents/rules/graphify.md`
-- **Rule 2: Precision File Viewing** (1 connections) — `.agents/rules/graphify.md`
-- **Rule 3: Keep Graph Fresh After Modifying Code** (1 connections) — `.agents/rules/graphify.md`
+- **base-input-compatibility.test.mjs** (4 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
+- **renderBaseFixture()** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/rules/graphify.md`
+- `.agents/skills/archify/test/base-input-compatibility.test.mjs`
 
 ## Audit Trail
 

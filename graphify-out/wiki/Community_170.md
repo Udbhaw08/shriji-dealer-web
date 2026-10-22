@@ -4,29 +4,31 @@
 
 ## Key Concepts
 
-- **Toggles** (5 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Desktop (macOS)** (4 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **toggles.md** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Checkboxes** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Radio buttons** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Switches** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **properties** (9 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **note** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **dot** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **maxLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 222]] (3 shared connections)
+- [[Community 373]] (1 shared connections)
+- [[Community 169]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/toggles.md`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 25 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

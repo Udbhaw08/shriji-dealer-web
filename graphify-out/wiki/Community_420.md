@@ -1,13 +1,12 @@
 # Community 420
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **vercel.json** (3 connections) — `vercel.json`
-- **framework** (1 connections) — `vercel.json`
-- **headers** (1 connections) — `vercel.json`
-- **rewrites** (1 connections) — `vercel.json`
+- **Swift** (2 connections) — `.agents/skills/swiftui-pro/references/swift.md`
+- **swift.md** (1 connections) — `.agents/skills/swiftui-pro/references/swift.md`
+- **Swift Concurrency** (1 connections) — `.agents/skills/swiftui-pro/references/swift.md`
 
 ## Relationships
 
@@ -15,11 +14,11 @@
 
 ## Source Files
 
-- `vercel.json`
+- `.agents/skills/swiftui-pro/references/swift.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **VoiceOver** (6 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **voiceover.md** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **Descriptions** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **Navigation** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
+- **chapter-handoff.test.mjs** (6 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/voiceover.md`
+- `.agents/skills/archify/test/chapter-handoff.test.mjs`
 
 ## Audit Trail
 

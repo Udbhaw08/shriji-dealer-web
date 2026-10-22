@@ -1,49 +1,54 @@
 # Live Pricing Audit Tool
 
-> 50 nodes · cohesion 0.07
+> 50 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **check-render-output.mjs** (57 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **parseAttrs()** (7 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectArrows()** (6 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **numberAttr()** (6 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectCompositionFrames()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectLegendBoxes()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **lineSegments()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectDesktopReadability()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectNonFiniteAttrs()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **pathSegments()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **straightPathSegments()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **textBox()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **projectedNodeTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **attrEntries()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectLegendCollisions()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectRelationshipLabelMasks()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **crossProduct()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **isCommand()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **pointsFromPath()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **properSegmentIntersection()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **segmentIntersectsBox()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **segmentsIntersect()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **stripTags()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectRelationshipCrossings()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **decodeNumericReferences()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **Nd()** (15 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **Ti()** (11 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **yh()** (10 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **Nt()** (9 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **s()** (9 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **Ad()** (8 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **ft()** (8 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **hh()** (8 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **po()** (8 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **cm()** (7 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **gf()** (7 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **ic()** (7 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **mh()** (7 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **Mp()** (7 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **rc()** (7 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **Ci()** (6 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **dh()** (6 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **fh()** (6 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **fo()** (6 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **Ih()** (6 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **ph()** (6 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **Sh()** (6 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **wi()** (6 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **bh()** (5 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
+- **bn()** (5 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
 - *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [[Product Pages Specification]] (6 shared connections)
-- [[Community 50]] (4 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (52 shared connections)
+- [[Product Requirements Documentation]] (16 shared connections)
+- [[Community 39]] (12 shared connections)
+- [[Product Pages Specification]] (12 shared connections)
+- [[Community 48]] (11 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (8 shared connections)
+- [[Community 44]] (5 shared connections)
+- [[Community 73]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- `.agents/skills/archify/scripts/check-render-output.mjs`
+- `ios/App/App/public/assets/index-C0m88tWG.js`
 
 ## Audit Trail
 
-- EXTRACTED: 182 (100%)
+- EXTRACTED: 275 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

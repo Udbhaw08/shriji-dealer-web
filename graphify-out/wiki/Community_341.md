@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Steppers** (4 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
-- **steppers.md** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
+- **Shriji Zoho Integration Skill** (5 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
+- **API Endpoints Reference** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
+- **Key Files & Architecture** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
+- **Pricing & Rate Priority** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
+- **Validation & Audit Commands** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/steppers.md`
+- `.agents/skills/shriji-zoho-integration/SKILL.md`
 
 ## Audit Trail
 

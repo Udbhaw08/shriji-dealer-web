@@ -1,56 +1,58 @@
 # Community 53
 
-> 30 nodes · cohesion 0.12
+> 28 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **n()** (28 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **t()** (20 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **zr()** (15 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **fa()** (12 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **is()** (12 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **as()** (9 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **c()** (8 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **os()** (8 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **ds()** (7 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **Mp()** (7 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **ps()** (7 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **s()** (7 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **ys()** (7 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **fh()** (6 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **qs()** (6 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **ss()** (6 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **us()** (6 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **bs()** (5 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **fs()** (5 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **ms()** (4 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **rs()** (4 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **bt()** (3 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **Ld()** (3 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **Qn()** (3 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **Xm()** (3 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- *... and 5 more nodes in this community*
+- **render-dataflow.mjs** (78 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **anchor()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **automaticPortSpread()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **chosenSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **defaultFromSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **defaultToSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **pathFor()** (8 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderFlowLabel()** (8 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **connectionSides()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **flowSides()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **stageX()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **transitionSides()** (5 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **flowLabelSize()** (4 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderStage()** (4 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **componentText** (4 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **connectionEndpointSide()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **measureNode()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **routeVia()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **stageFrame()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **automaticPorts** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **compositionFrames** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **layout** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **LEGEND_CATALOG** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **nodes** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (34 shared connections)
-- [[Master Codebase Architecture Reference]] (24 shared connections)
-- [[Zoho Integration Architecture]] (13 shared connections)
-- [[Client Products Data Store]] (11 shared connections)
-- [[Community 34]] (11 shared connections)
-- [[Community 48]] (5 shared connections)
-- [[Graphify Knowledge Graph Skill]] (4 shared connections)
-- [[Community 35]] (2 shared connections)
-- [[Community 90]] (2 shared connections)
+- [[Design System & UI Tokens]] (39 shared connections)
+- [[Pricing & Roles Skill]] (21 shared connections)
+- [[Community 47]] (14 shared connections)
+- [[Client Products Data Store]] (12 shared connections)
+- [[Community 63]] (10 shared connections)
+- [[Zoho Integration Architecture]] (5 shared connections)
+- [[Community 82]] (5 shared connections)
+- [[Zoho API Diagnostic Script]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-Dm8fH5PF.js`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- `.agents/skills/archify/renderers/shared/geometry.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 214 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 197 (99%)
+- INFERRED: 2 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

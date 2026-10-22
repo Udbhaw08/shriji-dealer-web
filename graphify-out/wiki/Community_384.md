@@ -1,26 +1,25 @@
 # Community 384
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **ErrorBoundary** (5 connections) — `src/main.jsx`
-- **.componentDidCatch()** (1 connections) — `src/main.jsx`
-- **.constructor()** (1 connections) — `src/main.jsx`
-- **.getDerivedStateFromError()** (1 connections) — `src/main.jsx`
-- **.render()** (1 connections) — `src/main.jsx`
+- **Web views** (3 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
+- **web-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
 
 ## Relationships
 
-- [[Design System & UI Tokens]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/main.jsx`
+- `.agents/skills/apple-design/references/hig/web-views.md`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

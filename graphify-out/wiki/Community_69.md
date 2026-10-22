@@ -31,9 +31,9 @@
 
 ## Relationships
 
-- [[Community 194]] (1 shared connections)
-- [[Community 440]] (1 shared connections)
-- [[Community 406]] (1 shared connections)
+- [[Community 190]] (1 shared connections)
+- [[Community 433]] (1 shared connections)
+- [[Community 399]] (1 shared connections)
 
 ## Source Files
 

@@ -1,28 +1,29 @@
 # Community 86
 
-> 19 nodes · cohesion 0.11
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **Apple Design Skill** (7 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Step 3: Audit through five lenses, in this order** (6 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Review process** (5 connections) — `.agents/skills/apple-design/SKILL.md`
-- **The references** (3 connections) — `.agents/skills/apple-design/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Always load** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Apple's design principles** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Design improvement mode** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 1: Accessibility (failures are Critical)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 2: Platform conventions (failures are usually High)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 3: Visual design and craft (findings are High or Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 4: Interaction (findings are usually Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 5: Content and writing (findings are usually Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Load by what is on screen** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Specialized review modes** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Step 1: Establish context** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Step 2: Load references** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Step 4: Write the report** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Working rules** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Example Workflow: SaaS Pricing Page** (7 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Phase 1: Styles Research** (4 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Phase 5: Implementation Blueprint** (4 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Phase 2: Screen Research** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Phase 3: Flow Research** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Phase 4: Synthesis** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **example-workflow.md** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Design Decision Ledger** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Flow Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Flow Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Page Structure** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Phase 0: Discovery** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Quality Gate** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Research Summary** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Screen Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Screen Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Style Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Style Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Tokens** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Visual Direction Synthesis** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
 
 ## Relationships
 
@@ -30,11 +31,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/SKILL.md`
+- `.agents/skills/refero-design/references/example-workflow.md`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (100%)
+- EXTRACTED: 38 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

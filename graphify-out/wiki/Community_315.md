@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **finder.test.mjs** (6 connections) — `.agents/skills/archify/test/finder.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
-- **svg()** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
+- **semantic-flow.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/finder.test.mjs`
+- `.agents/skills/archify/test/semantic-flow.test.mjs`
 
 ## Audit Trail
 

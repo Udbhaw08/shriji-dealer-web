@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Images** (6 connections) — `.agents/skills/apple-design/references/hig/images.md`
-- **images.md** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
-- **Formats** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
-- **Resolution** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Popovers** (4 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
+- **popovers.md** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/images.md`
+- `.agents/skills/apple-design/references/hig/popovers.md`
 
 ## Audit Trail
 

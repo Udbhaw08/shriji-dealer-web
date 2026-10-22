@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Text views** (5 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
-- **text-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
+- **Sequence Renderer** (5 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **Layout budget** (2 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **README.md** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **Column fit** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **Input** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **Legend** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/text-views.md`
+- `.agents/skills/archify/renderers/sequence/README.md`
 
 ## Audit Trail
 

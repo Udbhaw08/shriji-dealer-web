@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Third-party notices** (5 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **THIRD_PARTY_NOTICES.md** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **JetBrains Mono** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **No additional rights granted** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **OpenAI mark** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **Simple Icons** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
+- **Modality** (5 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **modality.md** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
+- `.agents/skills/apple-design/references/hig/modality.md`
 
 ## Audit Trail
 

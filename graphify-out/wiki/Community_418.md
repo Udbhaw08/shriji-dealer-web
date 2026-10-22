@@ -1,13 +1,12 @@
 # Community 418
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **guide-page.test.mjs** (3 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
+- **Brand marks** (2 connections) — `.agents/skills/archify/references/brand-marks.md`
+- **brand-marks.md** (1 connections) — `.agents/skills/archify/references/brand-marks.md`
+- **Agent decision path** (1 connections) — `.agents/skills/archify/references/brand-marks.md`
 
 ## Relationships
 
@@ -15,11 +14,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/guide-page.test.mjs`
+- `.agents/skills/archify/references/brand-marks.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

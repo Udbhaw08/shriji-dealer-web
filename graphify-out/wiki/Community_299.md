@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Popovers** (4 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **popovers.md** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
+- **Writing** (6 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **writing.md** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **Getting started** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/popovers.md`
+- `.agents/skills/apple-design/references/hig/writing.md`
 
 ## Audit Trail
 

@@ -4,25 +4,25 @@
 
 ## Key Concepts
 
-- **Searching** (6 connections) — `.agents/skills/apple-design/references/hig/searching.md`
-- **searching.md** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
-- **Systemwide search** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **dataflow.schema.json** (7 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$id** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$schema** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **title** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 112]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/searching.md`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Managing notifications** (6 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
-- **managing-notifications.md** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
-- **Integrating with Focus** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
-- **Sending marketing notifications** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **Undo and redo** (4 connections) — `.agents/skills/apple-design/references/hig/undo-and-redo.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/undo-and-redo.md`
+- **undo-and-redo.md** (1 connections) — `.agents/skills/apple-design/references/hig/undo-and-redo.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/undo-and-redo.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/undo-and-redo.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/undo-and-redo.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/undo-and-redo.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- `.agents/skills/apple-design/references/hig/undo-and-redo.md`
 
 ## Audit Trail
 

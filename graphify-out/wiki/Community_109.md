@@ -1,43 +1,37 @@
 # Community 109
 
-> 16 nodes · cohesion 0.20
+> 16 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **el()** (18 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
-- **xc()** (12 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
-- **Ai()** (11 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
-- **pi()** (6 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
-- **Fi()** (5 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
-- **Li()** (5 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
-- **Qc()** (5 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
-- **sm()** (5 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
-- **Jc()** (4 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
-- **ko()** (4 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
-- **zc()** (4 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
-- **oi()** (3 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
-- **oo()** (3 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
-- **Wa()** (3 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
-- **Ii()** (2 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
-- **ri()** (2 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
+- **Color** (10 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Specifications** (3 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **color.md** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **App accent colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Color management** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Inclusive color** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **iOS, iPadOS system gray colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Liquid Glass color** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **System colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **System colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
 
 ## Relationships
 
-- [[Dependencies & Package Config]] (17 shared connections)
-- [[Price Presentation & Product UI]] (10 shared connections)
-- [[Graphify Workflow]] (7 shared connections)
-- [[Pricing Regression Test Suite]] (4 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (4 shared connections)
-- [[Zoho API Diagnostic Script]] (1 shared connections)
-- [[Community 31]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
+- `.agents/skills/apple-design/references/hig/color.md`
 
 ## Audit Trail
 
-- EXTRACTED: 92 (100%)
+- EXTRACTED: 30 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

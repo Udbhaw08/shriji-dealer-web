@@ -1,48 +1,40 @@
 # Community 90
 
-> 19 nodes · cohesion 0.16
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **el()** (18 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **ji()** (15 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **xc()** (12 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **Ai()** (11 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **pi()** (6 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **da()** (5 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **Fi()** (5 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **Li()** (5 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **Qc()** (5 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **sm()** (5 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **Jc()** (4 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **ko()** (4 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **zc()** (4 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **oi()** (3 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **oo()** (3 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **Wa()** (3 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **Ii()** (2 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **qa()** (2 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **ri()** (2 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
+- **App Clips** (9 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **App Clip Codes** (5 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Designing your App Clip** (5 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Printing guidelines** (2 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **app-clips.md** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Creating App Clips for businesses** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Creating content for an App Clip card** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Customizing your App Clip Code** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Displaying App Clip Codes** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Interacting with App Clip Codes** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Legal requirements** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Limiting notifications** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Preserving privacy** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Showcasing your app** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Using clear messaging** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Verifying your printer’s calibration** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (20 shared connections)
-- [[Master Codebase Architecture Reference]] (17 shared connections)
-- [[Community 34]] (7 shared connections)
-- [[Zoho Integration Architecture]] (4 shared connections)
-- [[Client Products Data Store]] (3 shared connections)
-- [[Graphify Knowledge Graph Skill]] (3 shared connections)
-- [[Community 53]] (2 shared connections)
-- [[Community 48]] (1 shared connections)
-- [[Community 35]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-Dm8fH5PF.js`
+- `.agents/skills/apple-design/references/hig/app-clips.md`
 
 ## Audit Trail
 
-- EXTRACTED: 114 (100%)
+- EXTRACTED: 36 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

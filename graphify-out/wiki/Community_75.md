@@ -1,44 +1,50 @@
 # Community 75
 
-> 22 nodes · cohesion 0.09
+> 23 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **Session Work Record — Dealer Code Hierarchy & CRM Integration (2026-10-11)** (7 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **3.2 Frontend Portal & Dashboard (`src/`)** (4 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **3. Detailed Changes by File** (4 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **6. Phone-First Auth, WhatsApp & SMS OTP Services, 10k Scalability & Google OAuth** (4 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **3.1 Backend Service (`backend/`)** (3 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **3.3 Documentation (`docs/`)** (3 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **2. Multi-Tier Entity Hierarchy & Two-Stage Approval** (2 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **WORK-DONE-SESSION-2026-10-11.md** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **1. Executive Summary & Problem Statement** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **4. Testing & Verification** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **5. Verification Checklist for Production** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **6.1 Scalability Assessment (10,000+ Users)** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **6.2 Phone Number & WhatsApp OTP Delivery Services** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **6.3 Unified Authentication Features** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **[backend/src/routes/auth.js](file:///c:/Users/udbha/Desktop/Webstore/backend/src/routes/auth.js)** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **[backend/src/services/staff.js](file:///c:/Users/udbha/Desktop/Webstore/backend/src/services/staff.js)** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **[docs/BACKEND-ARCHITECTURE.md](file:///c:/Users/udbha/Desktop/Webstore/docs/BACKEND-ARCHITECTURE.md) *(Updated)*** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **[docs/DEALER-HIERARCHY-AND-WORKFLOW.md](file:///c:/Users/udbha/Desktop/Webstore/docs/DEALER-HIERARCHY-AND-WORKFLOW.md) *(New)*** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **[src/data/auth.js](file:///c:/Users/udbha/Desktop/Webstore/src/data/auth.js)** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **[src/pages/DealerDashboard.jsx](file:///c:/Users/udbha/Desktop/Webstore/src/pages/DealerDashboard.jsx)** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **[src/pages/Login.jsx](file:///c:/Users/udbha/Desktop/Webstore/src/pages/Login.jsx)** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
-- **Two-Stage Approval Matrix:** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
+- **pull-hig.mjs** (65 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **crawlSection()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **fetchPageJson()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **abstractOf()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **anchorEntries()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **anchorMapFor()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **listedPages()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **plainText()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **ALL_PLATFORMS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **cellText()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **collectReferences()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **CURATED_FILES** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **DESIGNING_FOR_COVERAGE** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **DROPPED_PLATFORMS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **githubSlug()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **IMAGE_GLYPHS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **KEPT_PLATFORMS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **OMITTED_PAGES** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **PLATFORM_LIST_RE** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **PLATFORM_NAMES** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **platformsOf()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **REPO_ROOT** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **SECTIONS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 192]] (10 shared connections)
+- [[Community 193]] (10 shared connections)
+- [[Community 225]] (9 shared connections)
+- [[Community 260]] (8 shared connections)
+- [[Community 340]] (6 shared connections)
+- [[Community 233]] (1 shared connections)
 
 ## Source Files
 
-- `docs/WORK-DONE-SESSION-2026-10-11.md`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 95 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

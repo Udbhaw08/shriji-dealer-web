@@ -1,44 +1,50 @@
 # Community 71
 
-> 23 nodes · cohesion 0.09
+> 23 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **package.json** (9 connections) — `backend/package.json`
-- **dependencies** (7 connections) — `backend/package.json`
-- **scripts** (7 connections) — `backend/package.json`
-- **engines** (2 connections) — `backend/package.json`
-- **dotenv** (1 connections) — `backend/package.json`
-- **express** (1 connections) — `backend/package.json`
-- **google-auth-library** (1 connections) — `backend/package.json`
-- **jsonwebtoken** (1 connections) — `backend/package.json`
-- **postgres** (1 connections) — `backend/package.json`
-- **resend** (1 connections) — `backend/package.json`
-- **description** (1 connections) — `backend/package.json`
-- **node** (1 connections) — `backend/package.json`
-- **main** (1 connections) — `backend/package.json`
-- **name** (1 connections) — `backend/package.json`
-- **private** (1 connections) — `backend/package.json`
-- **build** (1 connections) — `backend/package.json`
-- **check:ready** (1 connections) — `backend/package.json`
-- **dev** (1 connections) — `backend/package.json`
-- **migrate** (1 connections) — `backend/package.json`
-- **start** (1 connections) — `backend/package.json`
-- **test** (1 connections) — `backend/package.json`
-- **type** (1 connections) — `backend/package.json`
-- **version** (1 connections) — `backend/package.json`
+- **gl()** (23 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **oa()** (14 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **ye()** (13 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **l()** (11 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **Sp()** (9 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **To()** (7 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **dl()** (5 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **fl()** (5 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **hm()** (5 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **kl()** (5 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **ma()** (5 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **vl()** (5 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **pl()** (4 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **dm()** (3 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **Hd()** (3 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **ml()** (3 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **nl()** (3 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **pp()** (3 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **Ym()** (3 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **de()** (2 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **hl()** (2 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **ul()** (2 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **Wf()** (2 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (27 shared connections)
+- [[Dependencies & Package Config]] (12 shared connections)
+- [[Master Codebase Architecture Reference]] (12 shared connections)
+- [[Community 37]] (6 shared connections)
+- [[Zoho Integration Skill]] (6 shared connections)
+- [[Community 42]] (5 shared connections)
+- [[Community 60]] (3 shared connections)
 
 ## Source Files
 
-- `backend/package.json`
+- `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (100%)
+- EXTRACTED: 137 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

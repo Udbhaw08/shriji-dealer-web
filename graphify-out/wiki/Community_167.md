@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **Dark Mode** (6 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Dark Mode colors** (3 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **dark-mode.md** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Icons and images** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Text** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Website & App Redesign Instructions** (7 connections) — `instructions.md`
+- **2. Tri-Skill Synthesis Engine** (4 connections) — `instructions.md`
+- **instructions.md** (1 connections) — `instructions.md`
+- **1. Core Purpose & Architectural Goals** (1 connections) — `instructions.md`
+- **3. Adaptive Platform UX Strategies** (1 connections) — `instructions.md`
+- **4. Mobile Responsiveness & Layout Hard Rules** (1 connections) — `instructions.md`
+- **5. Domain Rules for Shriji Dealer Web** (1 connections) — `instructions.md`
+- **6. Execution Flow for Redesign Tasks** (1 connections) — `instructions.md`
+- **Skill 1: `refero-design` (Website & Aesthetic Authority)** (1 connections) — `instructions.md`
+- **Skill 2: `apple-design` (HIG Standards & Design Audit Authority)** (1 connections) — `instructions.md`
+- **Skill 3: `swiftui-pro` (Mobile App Ergonomics & View Performance Authority)** (1 connections) — `instructions.md`
 
 ## Relationships
 
@@ -22,7 +22,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/dark-mode.md`
+- `instructions.md`
 
 ## Audit Trail
 

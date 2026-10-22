@@ -4,26 +4,26 @@
 
 ## Key Concepts
 
-- **Sliders** (5 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **sliders.md** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **wraps** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **via** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Claude Agent Instructions]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/sliders.md`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,22 +4,22 @@
 
 ## Key Concepts
 
-- **Shriji Dealer Web — Agent Guidelines** (3 connections) — `AGENTS.md`
-- **AGENTS.md** (1 connections) — `AGENTS.md`
-- **Hard Rules** (1 connections) — `AGENTS.md`
-- **Specialized Skills Available** (1 connections) — `AGENTS.md`
+- **11. Responsive Typography** (4 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Breakpoint Adjustments** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Fluid Type (Clamp)** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **What Changes** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 220]] (1 shared connections)
 
 ## Source Files
 
-- `AGENTS.md`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

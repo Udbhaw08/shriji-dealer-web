@@ -1,8 +1,8 @@
-import { useState, useMemo } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Icon } from "../ui";
 import { useLanguage } from "../data/i18n";
-import { COMPANY, MATERIALS, ISSUE_TYPES } from "../data/site";
+import { COMPANY, ISSUE_TYPES } from "../data/site";
 import { useSession } from "../data/session";
 
 const FAQS = [
@@ -46,7 +46,6 @@ export default function Support() {
 
   const [toastMsg, setToastMsg] = useState("");
   const [ticketSent, setTicketSent] = useState(false);
-  const [assetTab, setAssetTab] = useState("all");
   const [openFaq, setOpenFaq] = useState(0);
 
   const handleFieldChange = (key) => (e) => {
@@ -104,52 +103,6 @@ ${form.details.trim()}
     setToastMsg("✅ Email client opened with your ticket!");
     setTimeout(() => setToastMsg(""), 4500);
   };
-
-  const handleDownloadAsset = async (item) => {
-    const rawUrl = item.downloadUrl || item.img || "/downloads/catalogue.pdf";
-    const filename = item.filename || `${item.title.replace(/[^a-zA-Z0-9]/g, "-")}.pdf`;
-
-    setToastMsg(`📥 Downloading ${filename}...`);
-
-    try {
-      const endpoint = `/api/download?url=${encodeURIComponent(rawUrl)}&filename=${encodeURIComponent(filename)}`;
-      const res = await fetch(endpoint);
-      if (!res.ok) throw new Error(`Download status ${res.status}`);
-
-      const blob = await res.blob();
-      const blobUrl = window.URL.createObjectURL(blob);
-      const link = document.createElement("a");
-      link.href = blobUrl;
-      link.download = filename;
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-      setTimeout(() => window.URL.revokeObjectURL(blobUrl), 10000);
-
-      setToastMsg(`✅ Download completed: ${filename}`);
-      setTimeout(() => setToastMsg(""), 3500);
-    } catch {
-      // Fallback direct download link
-      const link = document.createElement("a");
-      link.href = rawUrl;
-      link.download = filename;
-      link.target = "_blank";
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-      setToastMsg(`✅ Downloading ${filename}`);
-      setTimeout(() => setToastMsg(""), 3500);
-    }
-  };
-
-  // Filtered Marketing Materials
-  const filteredAssets = useMemo(() => {
-    if (assetTab === "all") return MATERIALS;
-    if (assetTab === "brochures") return MATERIALS.filter((m) => m.tab === "Brochures" || m.filename?.endsWith(".pdf"));
-    if (assetTab === "images") return MATERIALS.filter((m) => m.tab === "Images");
-    if (assetTab === "flyers") return MATERIALS.filter((m) => m.tab === "Flyers");
-    return MATERIALS;
-  }, [assetTab]);
 
   return (
     <div className="support-page">
@@ -422,89 +375,100 @@ ${form.details.trim()}
         </div>
       </section>
 
-      {/* Marketing Material & Digital Brand Assets Hub */}
+      {/* Marketing Material & Digital Brand Assets Hub (Modern Maintenance / Upgrade Representation) */}
       <section className="sec support-assets-sec" id="marketing" style={{ scrollMarginTop: "90px" }}>
         <div className="wrap">
-          <div className="sec-head" style={{ marginBottom: "1.25rem" }}>
-            <div>
-              <span className="badge badge-blue">Official Brand Assets</span>
-              <h2 className="d2" style={{ marginTop: "6px" }}>
-                Marketing Materials &amp; Media Kit
-              </h2>
-              <p className="sub" style={{ marginTop: "4px" }}>
-                High-resolution product imagery, print-ready showroom standees, 2026 catalogues, and social media
-                campaign banners.
-              </p>
+          <div className="support-maint-card">
+            {/* Glowing Icon Halo */}
+            <div className="support-maint-icon-halo">
+              <div className="support-maint-icon-inner">
+                <Icon name="image" size={26} />
+              </div>
             </div>
-          </div>
 
-          {/* Segmented Filter Pills */}
-          <div className="support-assets-tabs" role="tablist">
-            <button
-              className={`support-asset-tab ${assetTab === "all" ? "active" : ""}`}
-              onClick={() => setAssetTab("all")}
-              type="button"
-            >
-              All Assets ({MATERIALS.length})
-            </button>
-            <button
-              className={`support-asset-tab ${assetTab === "brochures" ? "active" : ""}`}
-              onClick={() => setAssetTab("brochures")}
-              type="button"
-            >
-              Brochures &amp; Catalogues
-            </button>
-            <button
-              className={`support-asset-tab ${assetTab === "images" ? "active" : ""}`}
-              onClick={() => setAssetTab("images")}
-              type="button"
-            >
-              High-Res Image Packs
-            </button>
-            <button
-              className={`support-asset-tab ${assetTab === "flyers" ? "active" : ""}`}
-              onClick={() => setAssetTab("flyers")}
-              type="button"
-            >
-              Scheme Posters &amp; Flyers
-            </button>
-          </div>
+            {/* Pulsing Status Pill */}
+            <span className="support-maint-status-pill">
+              Asset Library Upgrade In Progress · FY 2026–27
+            </span>
 
-          {/* Assets Grid */}
-          <div className="support-assets-grid">
-            {filteredAssets.map((asset) => {
-              const isPdf = asset.filename?.toLowerCase().endsWith(".pdf") || asset.tab === "Brochures";
-              return (
-                <article key={asset.id} className="support-asset-card">
-                  <div className="support-asset-preview">
-                    {asset.img ? (
-                      <img src={asset.img} alt={asset.title} loading="lazy" />
-                    ) : (
-                      <div className="support-asset-preview-fallback">
-                        <Icon name={isPdf ? "doc" : "image"} size={26} />
-                      </div>
-                    )}
-                    <span className="support-asset-type-badge">{isPdf ? "PDF" : "ZIP PACK"}</span>
-                  </div>
+            {/* Heading & Subtitle */}
+            <h2 className="support-maint-title">
+              Official Brand Assets &amp; Marketing Media Kit
+            </h2>
+            <p className="support-maint-desc">
+              Our official digital collateral repository is currently undergoing scheduled maintenance &amp; studio
+              refresh. High-resolution 4K product cutouts, retail showroom standee prints, and updated 2026–27 catalog
+              PDFs are being packaged and will be available here shortly.
+            </p>
 
-                  <div className="support-asset-info">
-                    <h3 className="support-asset-title">{asset.title}</h3>
-                    <div className="support-asset-meta">
-                      <span>{asset.count || "Verified Asset"}</span>
-                      {asset.fileSize && <b>{asset.fileSize}</b>}
-                    </div>
-                    <button
-                      type="button"
-                      className="btn btn-navy btn-sm"
-                      style={{ marginTop: 8, width: "100%", justifyContent: "center" }}
-                      onClick={() => handleDownloadAsset(asset)}
-                    >
-                      <Icon name="download" size={15} /> Download Asset
-                    </button>
-                  </div>
-                </article>
-              );
-            })}
+            {/* Modern Upcoming Media Chips */}
+            <div className="support-maint-chips-grid">
+              <div className="support-maint-chip">
+                <div className="support-maint-chip-icon">
+                  <Icon name="image" size={16} />
+                </div>
+                <div className="support-maint-chip-info">
+                  <span className="support-maint-chip-title">4K Master Product Renders</span>
+                  <span className="support-maint-chip-sub">White-bg &amp; lifestyle cutouts for store ads</span>
+                </div>
+              </div>
+
+              <div className="support-maint-chip">
+                <div className="support-maint-chip-icon">
+                  <Icon name="doc" size={16} />
+                </div>
+                <div className="support-maint-chip-info">
+                  <span className="support-maint-chip-title">Master Product Catalogue 2026</span>
+                  <span className="support-maint-chip-sub">Full technical specifications &amp; range PDF</span>
+                </div>
+              </div>
+
+              <div className="support-maint-chip">
+                <div className="support-maint-chip-icon">
+                  <Icon name="badge" size={16} />
+                </div>
+                <div className="support-maint-chip-info">
+                  <span className="support-maint-chip-title">Vector Brand Identity &amp; Logos</span>
+                  <span className="support-maint-chip-sub">Sunshine &amp; ReSTOR official vector files</span>
+                </div>
+              </div>
+
+              <div className="support-maint-chip">
+                <div className="support-maint-chip-icon">
+                  <Icon name="sparkle" size={16} />
+                </div>
+                <div className="support-maint-chip-info">
+                  <span className="support-maint-chip-title">Showroom Standee Creatives</span>
+                  <span className="support-maint-chip-sub">6×3 &amp; 5×2 ft flex &amp; vinyl designs</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Instant Fallback / Priority Request Bar */}
+            <div className="support-maint-action-box">
+              <div className="support-maint-action-text">
+                <b>Need immediate high-res logos or product photographs?</b>
+                <span>Our creative desk can dispatch customized asset packs directly to your store on WhatsApp.</span>
+              </div>
+              <div style={{ display: "flex", gap: "8px", flexWrap: "wrap" }}>
+                <a
+                  href={`https://wa.me/${COMPANY.phoneRaw}?text=${encodeURIComponent("Hi Sunshine / Shriji Team, I need immediate high-res brand logos or product photos for our store display.")}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-wa btn-sm"
+                  style={{ gap: "6px" }}
+                >
+                  <Icon name="wa" size={15} /> Request on WhatsApp
+                </a>
+                <a
+                  href={`mailto:${COMPANY.email}?subject=${encodeURIComponent("Urgent Brand Asset Requisition")}&body=${encodeURIComponent("Hi Shriji Team,\n\nPlease share the high-resolution logo and product image pack for our retail showroom.\n\nStore Name:\nCity:\nContact:")}`}
+                  className="btn btn-ghost btn-sm"
+                  style={{ gap: "6px" }}
+                >
+                  <Icon name="mail" size={15} /> Email Media Desk
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>

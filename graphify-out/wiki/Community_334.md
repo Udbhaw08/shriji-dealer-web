@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Collaboration and sharing** (5 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
-- **collaboration-and-sharing.md** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
+- **Lifecycle Renderer** (5 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **README.md** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Input** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Layout budget** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Legend** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
+- `.agents/skills/archify/renderers/lifecycle/README.md`
 
 ## Audit Trail
 

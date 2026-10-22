@@ -1,16 +1,15 @@
 # Community 321
 
-> 7 nodes · cohesion 0.29
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **route-probe.test.mjs** (6 connections) — `.agents/skills/archify/test/route-probe.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/route-probe.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/route-probe.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/route-probe.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/route-probe.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/route-probe.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/route-probe.test.mjs`
+- **Third-party notices** (5 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
+- **THIRD_PARTY_NOTICES.md** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
+- **JetBrains Mono** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
+- **No additional rights granted** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
+- **OpenAI mark** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
+- **Simple Icons** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
 
 ## Relationships
 
@@ -18,11 +17,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/route-probe.test.mjs`
+- `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -11,7 +11,11 @@ const bool = (v, d) => (v != null && v !== '' ? v === 'true' : d);
 
 export const env = {
   port: num(process.env.PORT, 8080),
-  databaseUrl: process.env.DATABASE_URL || '',
+  databaseUrl:
+    process.env.DATABASE_URL ||
+    process.env.SUPABASE_DATABASE_URL ||
+    process.env.POSTGRES_URL ||
+    '',
   jwtSecret: process.env.JWT_SECRET || '',
   enableJobs: bool(process.env.ENABLE_JOBS, true),
   webhookSecret: process.env.WEBHOOK_SECRET || '',

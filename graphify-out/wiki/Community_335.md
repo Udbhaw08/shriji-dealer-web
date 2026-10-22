@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Collections** (4 connections) — `.agents/skills/apple-design/references/hig/collections.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/collections.md`
-- **collections.md** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
+- **.oxlintrc.json** (3 connections) — `.oxlintrc.json`
+- **rules** (3 connections) — `.oxlintrc.json`
+- **plugins** (1 connections) — `.oxlintrc.json`
+- **react/only-export-components** (1 connections) — `.oxlintrc.json`
+- **react/rules-of-hooks** (1 connections) — `.oxlintrc.json`
+- **$schema** (1 connections) — `.oxlintrc.json`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/collections.md`
+- `.oxlintrc.json`
 
 ## Audit Trail
 

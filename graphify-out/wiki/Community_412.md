@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **watch-sync.mjs** (3 connections) — `scripts/watch-sync.mjs`
-- **rootDir** (1 connections) — `scripts/watch-sync.mjs`
-- **srcDir** (1 connections) — `scripts/watch-sync.mjs`
-- **triggerSync()** (1 connections) — `scripts/watch-sync.mjs`
+- **proof-aperture.test.mjs** (3 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
+- **cssRule()** (1 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
+- **landing** (1 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `scripts/watch-sync.mjs`
+- `.agents/skills/archify/test/proof-aperture.test.mjs`
 
 ## Audit Trail
 

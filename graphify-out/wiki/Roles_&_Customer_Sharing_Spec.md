@@ -33,10 +33,10 @@
 
 ## Relationships
 
-- [[Design System & UI Tokens]] (78 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (20 shared connections)
-- [[Community 162]] (7 shared connections)
-- [[Community 161]] (6 shared connections)
+- [[Pricing Regression Test Suite]] (78 shared connections)
+- [[Graphify Knowledge Graph Skill]] (20 shared connections)
+- [[Community 159]] (7 shared connections)
+- [[Community 158]] (6 shared connections)
 - [[Community 103]] (3 shared connections)
 
 ## Source Files

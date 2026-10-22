@@ -1,55 +1,57 @@
 # Community 35
 
-> 39 nodes · cohesion 0.10
+> 39 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **Z()** (24 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **mu()** (14 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **xl()** (13 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **hi()** (11 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **Iu()** (10 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **bc()** (9 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **Bu()** (9 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **pu()** (8 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **Su()** (8 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **bl()** (7 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **fu()** (7 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **jl()** (7 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **jt()** (7 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **wl()** (7 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **gu()** (6 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **ka()** (6 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **Nd()** (6 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **vu()** (6 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **gm()** (5 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **hu()** (5 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **ju()** (5 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **Lu()** (5 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **nu()** (5 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **Ru()** (5 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
-- **xu()** (5 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
+- **auth.js** (47 connections) — `backend/src/routes/auth.js`
+- **crmClient.js** (32 connections) — `backend/src/services/crmClient.js`
+- **validators.js** (14 connections) — `backend/src/utils/validators.js`
+- **crmFetch()** (12 connections) — `backend/src/services/crmClient.js`
+- **normalizePhone()** (12 connections) — `backend/src/utils/phone.js`
+- **normalizeEmail()** (12 connections) — `backend/src/utils/validators.js`
+- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
+- **cleanName()** (7 connections) — `backend/src/utils/validators.js`
+- **crmConfigured()** (6 connections) — `backend/src/services/crmClient.js`
+- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
+- **phone.js** (6 connections) — `backend/src/utils/phone.js`
+- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
+- **createDealerContact()** (5 connections) — `backend/src/services/crmClient.js`
+- **updateDealerCodeInCrm()** (5 connections) — `backend/src/services/crmClient.js`
+- **isValidPhone()** (5 connections) — `backend/src/utils/validators.js`
+- **resolveUserWithDealer()** (4 connections) — `backend/src/routes/auth.js`
+- **resolveContactNames()** (4 connections) — `backend/src/services/crmClient.js`
+- **isValidEmail()** (4 connections) — `backend/src/utils/validators.js`
+- **isValidName()** (4 connections) — `backend/src/utils/validators.js`
+- **emailOnlyIdentifier()** (3 connections) — `backend/src/routes/auth.js`
+- **findUserByEmail()** (3 connections) — `backend/src/routes/auth.js`
+- **issueSession()** (3 connections) — `backend/src/routes/auth.js`
+- **deactivateAccountInCrm()** (3 connections) — `backend/src/services/crmClient.js`
+- **deactivateContactInCrm()** (3 connections) — `backend/src/services/crmClient.js`
+- **getDealerAccount()** (3 connections) — `backend/src/services/crmClient.js`
 - *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (40 shared connections)
-- [[Master Codebase Architecture Reference]] (23 shared connections)
-- [[Community 34]] (9 shared connections)
-- [[Zoho Integration Architecture]] (6 shared connections)
-- [[Graphify Knowledge Graph Skill]] (5 shared connections)
-- [[Community 48]] (5 shared connections)
-- [[Client Products Data Store]] (3 shared connections)
-- [[Community 53]] (2 shared connections)
-- [[Community 90]] (1 shared connections)
+- [[Vercel Deployment Routing]] (26 shared connections)
+- [[Community 54]] (14 shared connections)
+- [[Community 43]] (10 shared connections)
+- [[Community 83]] (5 shared connections)
+- [[Community 130]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-Dm8fH5PF.js`
+- `backend/src/routes/auth.js`
+- `backend/src/services/crmClient.js`
+- `backend/src/services/notifications.js`
+- `backend/src/utils/phone.js`
+- `backend/src/utils/validators.js`
+- `backend/test/interconnection.test.mjs`
+- `backend/test/validators.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 242 (100%)
+- EXTRACTED: 243 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

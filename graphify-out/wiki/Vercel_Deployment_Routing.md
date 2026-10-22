@@ -33,13 +33,13 @@
 
 ## Relationships
 
-- [[Community 57]] (34 shared connections)
-- [[Community 37]] (26 shared connections)
-- [[Community 44]] (15 shared connections)
-- [[Community 78]] (14 shared connections)
-- [[Dealer Auth & Session Management]] (9 shared connections)
-- [[Community 132]] (7 shared connections)
-- [[Community 383]] (2 shared connections)
+- [[Community 54]] (34 shared connections)
+- [[Community 35]] (26 shared connections)
+- [[Community 43]] (15 shared connections)
+- [[Community 83]] (14 shared connections)
+- [[Price Presentation & Product UI]] (9 shared connections)
+- [[Community 130]] (7 shared connections)
+- [[Community 376]] (2 shared connections)
 
 ## Source Files
 

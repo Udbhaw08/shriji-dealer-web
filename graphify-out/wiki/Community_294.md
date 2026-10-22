@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Live-viewing apps** (6 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
-- **live-viewing-apps.md** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
-- **Cloud DVR** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
-- **EPG experience** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- **Searching** (6 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **searching.md** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **Systemwide search** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- `.agents/skills/apple-design/references/hig/searching.md`
 
 ## Audit Trail
 

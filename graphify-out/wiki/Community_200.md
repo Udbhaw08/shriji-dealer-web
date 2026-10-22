@@ -1,33 +1,30 @@
 # Community 200
 
-> 10 nodes · cohesion 0.20
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **output-path.test.mjs** (16 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **baseFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **copyInstalledSkill()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **directoryAliasesNames()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **headFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **workflowFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **web-xzEm-58Y.js** (8 connections) — `android/app/src/main/assets/public/assets/web-xzEm-58Y.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-xzEm-58Y.js`
+- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-xzEm-58Y.js`
+- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-xzEm-58Y.js`
+- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-xzEm-58Y.js`
+- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-xzEm-58Y.js`
+- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-xzEm-58Y.js`
+- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-xzEm-58Y.js`
+- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-xzEm-58Y.js`
 
 ## Relationships
 
-- [[Product Requirements Documentation]] (3 shared connections)
-- [[Community 64]] (2 shared connections)
-- [[Community 100]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/output-path.test.mjs`
+- `android/app/src/main/assets/public/assets/web-xzEm-58Y.js`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

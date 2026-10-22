@@ -1,20 +1,19 @@
 # Community 179
 
-> 11 nodes · cohesion 0.18
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **release-package-gates.test.mjs** (10 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **canonicalZipTest()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **centralDirectoryModes()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **currentNodeMajor** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **spawnBuildZip()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **stagedFixture()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **workflowJob()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **workflowStep()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **writeArchive()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **Layout** (7 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Adaptability** (2 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **layout.md** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Guides and safe areas** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Size classes** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Visual hierarchy** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
 
 ## Relationships
 
@@ -22,11 +21,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/release-package-gates.test.mjs`
+- `.agents/skills/apple-design/references/hig/layout.md`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

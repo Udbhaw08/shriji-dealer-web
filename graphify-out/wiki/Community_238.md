@@ -1,32 +1,30 @@
 # Community 238
 
-> 9 nodes · cohesion 0.33
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **release-identity.test.mjs** (8 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **writeFile()** (5 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **stableUpdateManifest()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **writeValidDevelopmentFixture()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **writeValidStableFixture()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **checker** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **runCheck()** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **Disclosure controls** (6 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **disclosure-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **Disclosure buttons** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **Disclosure triangles** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **Mobile (iOS, iPadOS, visionOS)** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
 
 ## Relationships
 
-- [[Community 73]] (1 shared connections)
-- [[Community 347]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/release-identity.test.mjs`
+- `.agents/skills/apple-design/references/hig/disclosure-controls.md`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (92%)
-- INFERRED: 2 (8%)
+- EXTRACTED: 14 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

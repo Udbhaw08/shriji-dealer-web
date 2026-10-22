@@ -24,21 +24,21 @@ export default async function handler(req, res) {
         getSupabaseBanners(),
         getHeroSliderSettings(),
       ]);
-      res.setHeader("Cache-Control", "s-maxage=15, stale-while-revalidate=60");
+      res.setHeader("Cache-Control", query.refresh === "true" ? "no-store, no-cache, must-revalidate" : "public, s-maxage=5, stale-while-revalidate=30");
       return res.status(200).json({ ok: true, count: banners.length, banners, settings });
     }
 
     // 2. Schemes scope: GET /api/content?scope=schemes or /api/schemes
     if (query.scope === "schemes") {
       const schemes = await getSupabaseSchemes();
-      res.setHeader("Cache-Control", "s-maxage=15, stale-while-revalidate=60");
+      res.setHeader("Cache-Control", query.refresh === "true" ? "no-store, no-cache, must-revalidate" : "public, s-maxage=5, stale-while-revalidate=30");
       return res.status(200).json({ ok: true, schemes });
     }
 
     // 3. Branding scope: GET /api/content?scope=branding or /api/branding
     if (query.scope === "branding") {
       const branding = await getSupabaseBranding();
-      res.setHeader("Cache-Control", "s-maxage=60, stale-while-revalidate=120");
+      res.setHeader("Cache-Control", query.refresh === "true" ? "no-store, no-cache, must-revalidate" : "public, s-maxage=5, stale-while-revalidate=30");
       return res.status(200).json({ ok: true, branding });
     }
 

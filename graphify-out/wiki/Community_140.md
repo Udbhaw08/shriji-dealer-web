@@ -1,34 +1,35 @@
 # Community 140
 
-> 13 nodes · cohesion 0.15
+> 13 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **Product** (12 connections) — `PRODUCT.md`
-- **PRODUCT.md** (1 connections) — `PRODUCT.md`
-- **Accessibility & Inclusion** (1 connections) — `PRODUCT.md`
-- **Brand Commitments** (1 connections) — `PRODUCT.md`
-- **Capabilities and Constraints** (1 connections) — `PRODUCT.md`
-- **Evidence on Hand** (1 connections) — `PRODUCT.md`
-- **Operating Context** (1 connections) — `PRODUCT.md`
-- **Platform** (1 connections) — `PRODUCT.md`
-- **Positioning** (1 connections) — `PRODUCT.md`
-- **Product Principles** (1 connections) — `PRODUCT.md`
-- **Product Purpose** (1 connections) — `PRODUCT.md`
-- **Stack** (1 connections) — `PRODUCT.md`
-- **Users** (1 connections) — `PRODUCT.md`
+- **workflow-compiler-hard-contract.test.mjs** (14 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **workflow()** (4 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **oneLaneAnchors()** (3 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **oneLaneWorkflow()** (3 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **crossingAtForwardCollinearViaWorkflow()** (2 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **nestedOutsideRightCorridorWorkflow()** (2 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **assertExplicitPinConflict()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **assertOrthogonal()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **assertSupportedFixesNameChangedEdge()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **clone()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **mutate()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **routeContainsChannel()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **segmentMeetsRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 126]] (2 shared connections)
+- [[Community 63]] (1 shared connections)
 
 ## Source Files
 
-- `PRODUCT.md`
+- `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
+- EXTRACTED: 35 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

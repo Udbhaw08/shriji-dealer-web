@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **11. Responsive Typography** (4 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Breakpoint Adjustments** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Fluid Type (Clamp)** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **What Changes** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **common.schema.json** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **$id** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **$schema** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **title** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- [[Community 224]] (1 shared connections)
+- [[Community 78]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 

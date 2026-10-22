@@ -4,24 +4,24 @@
 
 ## Key Concepts
 
-- **Printing** (4 connections) — `.agents/skills/apple-design/references/hig/printing.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/printing.md`
-- **printing.md** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
+- **point** (6 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 78]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/printing.md`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

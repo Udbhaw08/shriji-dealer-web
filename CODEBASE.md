@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-23T04:55:56.793+05:30 (GMT+5:30)
-> Total Project Files: 1736
+> Last synchronized: 2026-10-23T05:15:12.231+05:30 (GMT+5:30)
+> Total Project Files: 1729
 
 ---
 
@@ -99,7 +99,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/pages/Product.jsx`** (32.8 KB)
 - **`src/pages/Products.jsx`** (33.5 KB)
 - **`src/pages/Schemes.jsx`** (19.3 KB)
-- **`src/pages/Support.jsx`** (24.5 KB)
+- **`src/pages/Support.jsx`** (23.8 KB)
 - **`src/pages/TermsOfService.jsx`** (0.0 KB)
 
 ### 4.2 Reusable Components (`src/components/` & `src/ui.jsx`)
@@ -135,7 +135,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/data/video-banner.test.mjs`** (2.3 KB)
 
 ### 4.4 Zoho API & Serverless Handlers (`api/`)
-- **`api/content.js`** (4.1 KB)
+- **`api/content.js`** (4.3 KB)
 - **`api/dealer/apply.js`** (1.0 KB)
 - **`api/dealer/info.js`** (0.9 KB)
 - **`api/download.js`** (4.4 KB)
