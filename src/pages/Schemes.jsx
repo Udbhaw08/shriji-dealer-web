@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { useLanguage } from "../data/i18n";
 import { COMPANY } from "../data/site";
 import { apiFetch } from "../data/api";
@@ -25,7 +26,7 @@ const getCachedSchemes = () => {
 export default function Schemes() {
   const { t } = useLanguage();
   const [schemesData, setSchemesData] = useState(getCachedSchemes);
-  const [loading, setLoading] = useState(() => !schemesData.active?.length);
+  const [, setLoading] = useState(() => !schemesData.active?.length);
   const [activeTab, setActiveTab] = useState("active"); // "active" | "upcoming" | "past"
   const [activeFlyer, setActiveFlyer] = useState(null); // scheme object for modal
   const [activeVideo, setActiveVideo] = useState(null); // scheme object for video player modal
@@ -71,8 +72,6 @@ export default function Schemes() {
     setToastMsg(`📥 Downloading ${targetFilename}...`);
 
     try {
-      // Use the download endpoint which forces Content-Disposition: attachment
-      // and converts any flyer JPG into an authentic A4 PDF on the fly!
       const downloadEndpoint = `/api/download?url=${encodeURIComponent(rawUrl)}&filename=${encodeURIComponent(targetFilename)}`;
       const res = await fetch(downloadEndpoint);
       if (!res.ok) throw new Error(`Download status ${res.status}`);
@@ -92,7 +91,6 @@ export default function Schemes() {
     } catch (err) {
       console.warn("Direct blob download failed, triggering native browser attachment download:", err);
       const downloadEndpoint = `/api/download?url=${encodeURIComponent(rawUrl)}&filename=${encodeURIComponent(targetFilename)}`;
-      // Direct navigation to attachment endpoint forces browser download without tab preview
       const iframe = document.createElement("iframe");
       iframe.style.display = "none";
       iframe.src = downloadEndpoint;
@@ -112,7 +110,7 @@ export default function Schemes() {
   };
 
   return (
-    <>
+    <div className="schemes-page">
       {/* Toast Notification */}
       {toastMsg && (
         <div className="download-toast" role="status">
@@ -121,40 +119,64 @@ export default function Schemes() {
         </div>
       )}
 
-      {/* Page Header */}
-      <section style={{ paddingTop: "var(--s6)" }}>
+      {/* Hero & Breadcrumbs Section */}
+      <section className="schemes-hero">
         <div className="wrap">
-          <h1 className="d2">{t("schemes_title")}</h1>
-          <p className="sub" style={{ marginTop: "var(--s2)" }}>
-            {t("schemes_sub")}
-          </p>
+          <div className="schemes-hero-inner">
+            <nav className="schemes-crumbs" aria-label="Breadcrumb">
+              <Link to="/">{t("nav_home") || "Home"}</Link>
+              <Icon name="chev" size={12} />
+              <Link to="/products">{t("nav_products") || "Products"}</Link>
+              <Icon name="chev" size={12} />
+              <span className="schemes-crumbs-current">{t("schemes_title") || "Dealer Schemes & Incentives"}</span>
+            </nav>
 
-          {/* Segmented Pill Tabs matching Stitch Frame 4 */}
-          <div className="scheme-segmented-tabs" role="tablist">
-            <button
-              className={`scheme-seg-tab ${activeTab === "active" ? "active" : ""}`}
-              role="tab"
-              aria-selected={activeTab === "active"}
-              onClick={() => setActiveTab("active")}
-            >
-              {t("scheme_tab_active")} ({activeSchemes.length})
-            </button>
-            <button
-              className={`scheme-seg-tab ${activeTab === "upcoming" ? "active" : ""}`}
-              role="tab"
-              aria-selected={activeTab === "upcoming"}
-              onClick={() => setActiveTab("upcoming")}
-            >
-              {t("scheme_tab_upcoming")} ({upcomingSchemes.length})
-            </button>
-            <button
-              className={`scheme-seg-tab ${activeTab === "past" ? "active" : ""}`}
-              role="tab"
-              aria-selected={activeTab === "past"}
-              onClick={() => setActiveTab("past")}
-            >
-              {t("scheme_tab_past")} ({pastSchemes.length})
-            </button>
+            <div className="support-hero-main">
+              <div className="support-title-group">
+                <div className="schemes-icon-badge" aria-hidden="true">
+                  <Icon name="badge" size={28} />
+                </div>
+                <div>
+                  <span className="schemes-eyebrow-pill">
+                    <Icon name="sparkle" size={13} />
+                    Official Dealer Benefits · FY 2026–27
+                  </span>
+                  <h1 className="support-title">{t("schemes_title") || "Trade Schemes & Incentives"}</h1>
+                  <p className="support-sub">
+                    {t("schemes_sub") ||
+                      "Exclusive volume slab incentives, festive bonuses, and special turnover benefits directly connected with Zoho Commerce."}
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Segmented Pill Tabs */}
+            <div className="scheme-segmented-tabs" role="tablist" style={{ marginTop: "1rem" }}>
+              <button
+                className={`scheme-seg-tab ${activeTab === "active" ? "active" : ""}`}
+                role="tab"
+                aria-selected={activeTab === "active"}
+                onClick={() => setActiveTab("active")}
+              >
+                {t("scheme_tab_active") || "Active Offers"} ({activeSchemes.length})
+              </button>
+              <button
+                className={`scheme-seg-tab ${activeTab === "upcoming" ? "active" : ""}`}
+                role="tab"
+                aria-selected={activeTab === "upcoming"}
+                onClick={() => setActiveTab("upcoming")}
+              >
+                {t("scheme_tab_upcoming") || "Upcoming"} ({upcomingSchemes.length})
+              </button>
+              <button
+                className={`scheme-seg-tab ${activeTab === "past" ? "active" : ""}`}
+                role="tab"
+                aria-selected={activeTab === "past"}
+                onClick={() => setActiveTab("past")}
+              >
+                {t("scheme_tab_past") || "Archived"} ({pastSchemes.length})
+              </button>
+            </div>
           </div>
         </div>
       </section>
@@ -168,7 +190,7 @@ export default function Schemes() {
                 const isDiwali = s.id && String(s.id).toLowerCase().includes("diwali");
                 return (
                   <article key={s.id} className="scheme-card">
-                    {/* Header Banner - Title per image */}
+                    {/* Header Banner */}
                     <div className={`scheme-card-header ${isDiwali ? "diwali" : "annual"}`}>
                       <div className="scheme-card-badge-row">
                         <span className="badge badge-blue">{s.badge}</span>
@@ -183,17 +205,16 @@ export default function Schemes() {
                       <p className="scheme-card-tagline">{s.tagline}</p>
                     </div>
 
-                    {/* Body: Poster thumbnail + brief summary without details */}
+                    {/* Body: Poster thumbnail + details */}
                     <div className="scheme-card-body">
-                      <div className="scheme-flyer-thumb-wrap">
+                      <div className="scheme-flyer-thumb-wrap" onClick={() => setActiveFlyer(s)}>
                         <img
                           src={s.flyer}
                           alt={`${s.title} official flyer`}
                           className="scheme-poster-thumb"
-                          onClick={() => setActiveFlyer(s)}
                           title="Click to view full scheme flyer"
                         />
-                        <div className="scheme-flyer-pdf-badge" onClick={() => setActiveFlyer(s)}>
+                        <div className="scheme-flyer-pdf-badge">
                           <Icon name="search" size={12} />
                           <span>PDF</span>
                         </div>
@@ -212,25 +233,21 @@ export default function Schemes() {
                             <span className="scheme-slab-pill">Volume Target Slabs</span>
                           )}
                         </div>
+
+                        {/* Structured Slabs */}
                         {Array.isArray(s.slabs) && s.slabs.length > 0 && (
-                          <div className="scheme-slabs-container" style={{ marginTop: "10px", display: "flex", flexDirection: "column", gap: "6px" }}>
+                          <div
+                            className="scheme-slabs-container"
+                            style={{
+                              marginTop: "12px",
+                              display: "flex",
+                              flexDirection: "column",
+                              gap: "6px",
+                            }}
+                          >
                             {s.slabs.map((slab, sIdx) => (
-                              <div
-                                key={sIdx}
-                                style={{
-                                  fontSize: "0.80rem",
-                                  lineHeight: 1.35,
-                                  color: "var(--tx-1)",
-                                  background: "var(--bg-2)",
-                                  border: "1px solid var(--line-2)",
-                                  borderRadius: "6px",
-                                  padding: "6px 8px",
-                                  display: "flex",
-                                  alignItems: "flex-start",
-                                  gap: "6px",
-                                }}
-                              >
-                                <span style={{ color: "#d97706", flexShrink: 0, fontWeight: 700 }}>•</span>
+                              <div key={sIdx} className="scheme-slab-item">
+                                <span className="scheme-slab-icon">🎯</span>
                                 <span>{slab}</span>
                               </div>
                             ))}
@@ -252,7 +269,7 @@ export default function Schemes() {
                         href={getWhatsAppLink(s)}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="btn btn-primary btn-block"
+                        className="btn btn-wa btn-block"
                         style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", gap: "8px" }}
                       >
                         <Icon name="chat" size={16} /> Enquire on WhatsApp
@@ -280,11 +297,11 @@ export default function Schemes() {
               })}
             </div>
           ) : (
-            <div className="card pad" style={{ textAlign: "center", padding: "var(--s6) var(--s4)" }}>
-              <span className="tile tile-lg" style={{ margin: "0 auto var(--s3)" }}>
+            <div className="card pad" style={{ textAlign: "center", padding: "var(--s6) var(--s4)", borderRadius: 20 }}>
+              <span className="tile tile-lg" style={{ margin: "0 auto var(--s3)", width: 54, height: 54, borderRadius: 16 }}>
                 <Icon name="badge" size={26} />
               </span>
-              <h3>
+              <h3 style={{ fontSize: "1.25rem", color: "var(--navy)" }}>
                 {activeTab === "upcoming"
                   ? "No Upcoming Schemes Announced Yet"
                   : activeTab === "past"
@@ -311,7 +328,7 @@ export default function Schemes() {
         </div>
       </section>
 
-      {/* Persistent Scheme Desk Direct Contact Bar (Matches Stitch Frame 4) */}
+      {/* Persistent Scheme Desk Direct Contact Bar */}
       <aside className="scheme-desk-dock">
         <div className="wrap">
           <a
@@ -348,7 +365,7 @@ export default function Schemes() {
           <div className="flyer-modal-box" onClick={(e) => e.stopPropagation()}>
             <div className="flyer-modal-head">
               <div>
-                <h3 style={{ fontSize: "1.1rem", margin: 0 }}>{activeFlyer.title}</h3>
+                <h3 style={{ fontSize: "1.1rem", margin: 0, color: "var(--navy)" }}>{activeFlyer.title}</h3>
                 <span style={{ fontSize: "0.8rem", color: "var(--tx-3)" }}>{activeFlyer.when}</span>
               </div>
               <button
@@ -387,7 +404,7 @@ export default function Schemes() {
         </div>
       )}
 
-      {/* Interactive Video Modal (Google Drive / YouTube / MP4) */}
+      {/* Interactive Video Modal */}
       {activeVideo && (
         <div
           className="flyer-modal-backdrop"
@@ -399,7 +416,7 @@ export default function Schemes() {
           <div className="flyer-modal-box" style={{ maxWidth: "760px", width: "95%" }} onClick={(e) => e.stopPropagation()}>
             <div className="flyer-modal-head">
               <div>
-                <h3 style={{ fontSize: "1.1rem", margin: 0 }}>{activeVideo.title}</h3>
+                <h3 style={{ fontSize: "1.1rem", margin: 0, color: "var(--navy)" }}>{activeVideo.title}</h3>
                 <span style={{ fontSize: "0.8rem", color: "var(--tx-3)" }}>
                   {activeVideo.driveVideo?.isDrive ? "Google Drive Video Presentation" : "Official Promotional Video"}
                 </span>
@@ -453,6 +470,6 @@ export default function Schemes() {
           </div>
         </div>
       )}
-    </>
+    </div>
   );
 }

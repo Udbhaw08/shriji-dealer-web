@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Page controls** (6 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
-- **page-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
-- **Customizing indicators** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **Offering help** (6 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **offering-help.md** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Creating tips** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Desktop (macOS, visionOS)** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/page-controls.md`
+- `.agents/skills/apple-design/references/hig/offering-help.md`
 
 ## Audit Trail
 

@@ -1,51 +1,55 @@
 # Community 31
 
-> 39 nodes · cohesion 0.15
+> 39 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **auth.js** (40 connections) — `src/data/auth.js`
-- **callBackend()** (24 connections) — `src/data/auth.js`
-- **json()** (24 connections) — `src/data/auth.js`
-- **DealerDashboard.jsx** (22 connections) — `src/pages/DealerDashboard.jsx`
-- **broadcastAuthChange()** (10 connections) — `src/data/auth.js`
-- **loginCode.js** (8 connections) — `src/data/loginCode.js`
-- **applyAuthResponse()** (6 connections) — `src/data/auth.js`
-- **logout()** (6 connections) — `src/data/auth.js`
-- **fetchMe()** (5 connections) — `src/data/auth.js`
-- **googleLogin()** (5 connections) — `src/data/auth.js`
-- **login()** (5 connections) — `src/data/auth.js`
-- **signup()** (5 connections) — `src/data/auth.js`
-- **staffTogglePrice()** (5 connections) — `src/data/auth.js`
-- **staffTogglePriceAll()** (5 connections) — `src/data/auth.js`
-- **verifyEmailOtp()** (5 connections) — `src/data/auth.js`
-- **applyAsDealer()** (4 connections) — `src/data/auth.js`
-- **lookupStaffCode()** (4 connections) — `src/data/auth.js`
-- **persistTokens()** (4 connections) — `src/data/auth.js`
-- **requestEmailOtp()** (4 connections) — `src/data/auth.js`
-- **staffApprove()** (4 connections) — `src/data/auth.js`
-- **staffDeactivate()** (4 connections) — `src/data/auth.js`
-- **staffDelete** (4 connections) — `src/data/auth.js`
-- **staffHold()** (4 connections) — `src/data/auth.js`
-- **staffInvite()** (4 connections) — `src/data/auth.js`
-- **staffList()** (4 connections) — `src/data/auth.js`
+- **Z()** (24 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **mu()** (14 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **xl()** (13 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **hi()** (11 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **Iu()** (10 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **bc()** (9 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **Bu()** (9 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **pu()** (8 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **Su()** (8 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **bl()** (7 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **fu()** (7 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **jl()** (7 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **jt()** (7 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **wl()** (7 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **gu()** (6 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **ka()** (6 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **Nd()** (6 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **vu()** (6 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **gm()** (5 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **hu()** (5 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **ju()** (5 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **Lu()** (5 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **nu()** (5 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **Ru()** (5 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **xu()** (5 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
 - *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [[Architecture Doc Generator]] (33 shared connections)
-- [[Client Products Data Store]] (4 shared connections)
-- [[Product Requirements Documentation]] (1 shared connections)
+- [[Dependencies & Package Config]] (40 shared connections)
+- [[Master Codebase Architecture Reference]] (23 shared connections)
+- [[Community 30]] (9 shared connections)
+- [[Zoho Integration Architecture]] (6 shared connections)
+- [[Oxlint Linter Configuration]] (5 shared connections)
+- [[Community 42]] (5 shared connections)
+- [[Client Products Data Store]] (3 shared connections)
+- [[Community 48]] (2 shared connections)
+- [[Community 85]] (1 shared connections)
 
 ## Source Files
 
-- `src/data/auth.js`
-- `src/data/loginCode.js`
-- `src/pages/DealerDashboard.jsx`
+- `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
 
 ## Audit Trail
 
-- EXTRACTED: 256 (100%)
+- EXTRACTED: 242 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

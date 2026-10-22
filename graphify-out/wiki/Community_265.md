@@ -4,26 +4,26 @@
 
 ## Key Concepts
 
-- **wraps** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **via** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **Data flow, shared state, and property wrappers** (7 connections) — `.agents/skills/swiftui-pro/references/data.md`
+- **data.md** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
+- **Bindings** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
+- **If the project uses SwiftData with CloudKit** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
+- **Local state** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
+- **Shared state** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
+- **SwiftData** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
+- **Working with data** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
 
 ## Relationships
 
-- [[Oxlint Linter Configuration]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `.agents/skills/swiftui-pro/references/data.md`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

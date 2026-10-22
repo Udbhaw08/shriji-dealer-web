@@ -1,41 +1,48 @@
 # Community 85
 
-> 20 nodes · cohesion 0.10
+> 19 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **Example Workflow: SaaS Pricing Page** (7 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 1: Styles Research** (4 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 5: Implementation Blueprint** (4 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 2: Screen Research** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 3: Flow Research** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 4: Synthesis** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **example-workflow.md** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Design Decision Ledger** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Flow Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Flow Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Page Structure** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 0: Discovery** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Quality Gate** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Research Summary** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Screen Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Screen Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Style Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Style Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Tokens** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Visual Direction Synthesis** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **el()** (18 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **ji()** (15 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **xc()** (12 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **Ai()** (11 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **pi()** (6 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **da()** (5 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **Fi()** (5 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **Li()** (5 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **Qc()** (5 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **sm()** (5 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **Jc()** (4 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **ko()** (4 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **zc()** (4 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **oi()** (3 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **oo()** (3 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **Wa()** (3 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **Ii()** (2 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **qa()** (2 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **ri()** (2 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dependencies & Package Config]] (20 shared connections)
+- [[Master Codebase Architecture Reference]] (17 shared connections)
+- [[Community 30]] (7 shared connections)
+- [[Zoho Integration Architecture]] (4 shared connections)
+- [[Client Products Data Store]] (3 shared connections)
+- [[Oxlint Linter Configuration]] (3 shared connections)
+- [[Community 48]] (2 shared connections)
+- [[Community 42]] (1 shared connections)
+- [[Community 31]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/example-workflow.md`
+- `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
+- EXTRACTED: 114 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

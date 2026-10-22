@@ -1,42 +1,37 @@
 # Community 120
 
-> 15 nodes · cohesion 0.18
+> 15 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **ca()** (15 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **ki()** (12 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **fa()** (11 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **da()** (10 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **ta()** (7 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **Na()** (5 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **sa()** (5 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **Ia()** (4 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **wa()** (4 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **xn()** (4 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **pp()** (3 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **qn()** (3 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **uo()** (3 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **Zn()** (3 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **ja()** (2 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
+- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **sources** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **additionalProperties** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **required** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **boundaries** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **connections** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (16 shared connections)
-- [[Product Pages Specification]] (13 shared connections)
-- [[Design System & UI Tokens]] (9 shared connections)
-- [[Pricing & Roles Skill]] (6 shared connections)
-- [[Community 50]] (4 shared connections)
-- [[Vercel Deployment Routing]] (4 shared connections)
-- [[Community 39]] (1 shared connections)
+- [[Claude Agent Instructions]] (5 shared connections)
+- [[Community 74]] (3 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DY4Y1egs.js`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 91 (100%)
+- EXTRACTED: 48 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

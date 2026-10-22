@@ -1,55 +1,62 @@
 # Dealer Auth & Session Management
 
-> 108 nodes · cohesion 0.04
+> 92 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **_()** (447 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **kf()** (20 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **jr()** (16 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **Nr()** (15 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **rf()** (11 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **df()** (10 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **Nt()** (9 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **yr()** (8 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **ff()** (7 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **request()** (7 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **sf()** (7 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **Ih()** (6 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **nf()** (6 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **Sh()** (6 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **vr()** (6 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **bh()** (5 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **bn()** (5 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **eh()** (5 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **hr()** (5 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **Id()** (5 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **jf()** (5 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **Kr()** (5 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **lf()** (5 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **Qr()** (5 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **th()** (5 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- *... and 83 more nodes in this community*
+- **zoho.js** (51 connections) — `api/zoho.js`
+- **vite.config.js** (20 connections) — `vite.config.js`
+- **content.js** (19 connections) — `backend/src/services/content.js`
+- **fetchZohoProductById()** (16 connections) — `api/zoho.js`
+- **fetchZohoProducts()** (14 connections) — `api/zoho.js`
+- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
+- **zohoApiPlugin()** (13 connections) — `vite.config.js`
+- **fetchZohoWithRetry()** (12 connections) — `api/zoho.js`
+- **getZohoConfig()** (12 connections) — `api/zoho.js`
+- **content.js** (11 connections) — `api/content.js`
+- **content.js** (11 connections) — `backend/src/routes/content.js`
+- **handler()** (10 connections) — `api/content.js`
+- **createDealerContact()** (9 connections) — `api/zoho.js`
+- **getSupabaseBanners()** (9 connections) — `backend/src/services/content.js`
+- **fetchZohoCategories()** (8 connections) — `api/zoho.js`
+- **getSupabaseSchemes()** (8 connections) — `backend/src/services/content.js`
+- **fetchAllRawZohoProducts()** (7 connections) — `api/zoho.js`
+- **fetchZohoBanners()** (7 connections) — `api/zoho.js`
+- **fetchZohoSchemes()** (7 connections) — `api/zoho.js`
+- **getCategoryVisibilityMap()** (7 connections) — `api/zoho.js`
+- **getDealerById()** (7 connections) — `api/zoho.js`
+- **getSupabaseBranding()** (7 connections) — `backend/src/services/content.js`
+- **fetchZohoPricebookItems()** (6 connections) — `api/zoho.js`
+- **getAccessToken()** (6 connections) — `api/zoho.js`
+- **normalizeProduct()** (6 connections) — `api/zoho.js`
+- *... and 67 more nodes in this community*
 
 ## Relationships
 
-- [[Dependencies & Package Config]] (90 shared connections)
-- [[Master Codebase Architecture Reference]] (70 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (57 shared connections)
-- [[Testing & Workflow Skill]] (44 shared connections)
-- [[Community 37]] (43 shared connections)
-- [[Community 38]] (42 shared connections)
-- [[Community 48]] (35 shared connections)
-- [[Community 116]] (16 shared connections)
+- [[Community 44]] (9 shared connections)
+- [[Community 55]] (2 shared connections)
+- [[Community 50]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- `api/content.js`
+- `api/dealer/apply.js`
+- `api/dealer/info.js`
+- `api/download.js`
+- `api/og.js`
+- `api/products/[id].js`
+- `api/products/index.js`
+- `api/zoho.js`
+- `backend/src/routes/content.js`
+- `backend/src/services/content.js`
+- `scripts/audit_prices.mjs`
+- `scripts/test-zoho-api.mjs`
+- `vite.config.js`
 
 ## Audit Trail
 
-- EXTRACTED: 816 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 451 (99%)
+- INFERRED: 4 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

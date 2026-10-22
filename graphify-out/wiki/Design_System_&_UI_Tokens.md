@@ -1,55 +1,73 @@
 # Design System & UI Tokens
 
-> 64 nodes · cohesion 0.06
+> 59 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **ul()** (40 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **el()** (18 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **vc()** (17 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **gc()** (16 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **sl()** (13 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **wc()** (13 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **ll()** (11 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **xc()** (11 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **ya()** (11 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **Ai()** (10 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **kc()** (10 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **Mc()** (10 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **pi()** (9 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **uc()** (9 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **we()** (9 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **nc()** (8 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **Pc()** (8 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **Qi()** (8 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **xa()** (8 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **Br()** (7 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **Fi()** (7 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **la()** (7 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **Mi()** (7 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **xo()** (7 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **ea()** (6 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- *... and 39 more nodes in this community*
+- **main.jsx** (44 connections) — `src/main.jsx`
+- **ui.jsx** (42 connections) — `src/ui.jsx`
+- **useLanguage()** (31 connections) — `src/data/i18n.js`
+- **useSession()** (30 connections) — `src/data/session.js`
+- **Home.jsx** (26 connections) — `src/pages/Home.jsx`
+- **site.js** (24 connections) — `src/data/site.js`
+- **isDealer()** (18 connections) — `src/data/dealer.js`
+- **t()** (18 connections) — `src/data/i18n.js`
+- **Icon()** (18 connections) — `src/ui.jsx`
+- **Schemes.jsx** (17 connections) — `src/pages/Schemes.jsx`
+- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
+- **COMPANY** (16 connections) — `src/data/site.js`
+- **Support.jsx** (16 connections) — `src/pages/Support.jsx`
+- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
+- **dealerById()** (12 connections) — `src/data/dealer.js`
+- **HeroSlider.jsx** (11 connections) — `src/components/HeroSlider.jsx`
+- **Favorites()** (9 connections) — `src/pages/Favorites.jsx`
+- **Products()** (9 connections) — `src/pages/Products.jsx`
+- **Header()** (9 connections) — `src/ui.jsx`
+- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
+- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
+- **portalGate.js** (8 connections) — `src/data/portalGate.js`
+- **Home()** (8 connections) — `src/pages/Home.jsx`
+- **Login()** (7 connections) — `src/pages/Login.jsx`
+- **Schemes()** (6 connections) — `src/pages/Schemes.jsx`
+- *... and 34 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (70 shared connections)
-- [[Product Pages Specification]] (41 shared connections)
-- [[Vercel Deployment Routing]] (18 shared connections)
-- [[Community 50]] (13 shared connections)
-- [[Community 39]] (13 shared connections)
-- [[Community 40]] (10 shared connections)
-- [[Pricing & Roles Skill]] (10 shared connections)
-- [[Community 120]] (9 shared connections)
+- [[Roles & Customer Sharing Spec]] (78 shared connections)
+- [[Graphify Knowledge Graph Skill]] (32 shared connections)
+- [[Community 164]] (9 shared connections)
+- [[Community 147]] (8 shared connections)
+- [[Community 32]] (5 shared connections)
+- [[Community 163]] (2 shared connections)
+- [[Community 385]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DY4Y1egs.js`
+- `src/components/EmailVerificationPrompt.jsx`
+- `src/components/HeroSlider.jsx`
+- `src/components/MobileBottomNav.jsx`
+- `src/components/NativeBackHandler.jsx`
+- `src/components/UnderMaintenance.jsx`
+- `src/data/dealer.js`
+- `src/data/i18n.js`
+- `src/data/portalGate.js`
+- `src/data/session.js`
+- `src/data/site.js`
+- `src/main.jsx`
+- `src/pages/DealerDashboard.jsx`
+- `src/pages/Favorites.jsx`
+- `src/pages/Home.jsx`
+- `src/pages/LegalPrivacy.jsx`
+- `src/pages/LegalTerms.jsx`
+- `src/pages/Login.jsx`
+- `src/pages/PrivacyPolicy.jsx`
+- `src/pages/Products.jsx`
+- `src/pages/Schemes.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 438 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 519 (100%)
+- INFERRED: 2 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **Cross-platform translation** (3 connections) — `.agents/skills/apple-design/references/cross-platform.md`
-- **cross-platform.md** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
-- **Conventions to check** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
-- **Vocabulary** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
+- **Using modern SwiftUI API** (3 connections) — `.agents/skills/swiftui-pro/references/api.md`
+- **api.md** (1 connections) — `.agents/skills/swiftui-pro/references/api.md`
+- **Toolbars** (1 connections) — `.agents/skills/swiftui-pro/references/api.md`
+- **Using ObservableObject** (1 connections) — `.agents/skills/swiftui-pro/references/api.md`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/cross-platform.md`
+- `.agents/skills/swiftui-pro/references/api.md`
 
 ## Audit Trail
 

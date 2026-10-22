@@ -2,7 +2,7 @@
 
 > God node · 67 connections · `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
 
-**Community:** [[Live Pricing Audit Tool]]
+**Community:** [[Product Pages Specification]]
 
 ## Connections by Relation
 

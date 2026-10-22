@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Collaboration and sharing** (5 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
-- **collaboration-and-sharing.md** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
+- **Branding** (5 connections) — `.agents/skills/apple-design/references/hig/branding.md`
+- **branding.md** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
+- `.agents/skills/apple-design/references/hig/branding.md`
 
 ## Audit Trail
 

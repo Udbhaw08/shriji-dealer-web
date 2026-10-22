@@ -1,48 +1,53 @@
 # Community 46
 
-> 29 nodes · cohesion 0.09
+> 32 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **AppDelegate** (10 connections) — `ios/App/App/AppDelegate.swift`
-- **.application()** (7 connections) — `ios/App/App/AppDelegate.swift`
-- **.scene()** (7 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIApplication** (6 connections) — `ios/App/App/AppDelegate.swift`
-- **SceneDelegate** (5 connections) — `ios/App/App/SceneDelegate.swift`
-- **AppDelegate.swift** (3 connections) — `ios/App/App/AppDelegate.swift`
-- **SceneDelegate.swift** (3 connections) — `ios/App/App/SceneDelegate.swift`
-- **.applicationDidBecomeActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationDidEnterBackground()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillEnterForeground()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillResignActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillTerminate()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **Capacitor** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIWindow** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIKit** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIResponder** (2 connections)
-- **Any** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **Bool** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIScene** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UISceneSession** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIWindow** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIScene** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **UISceneSession** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **NSUserActivity** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **Set** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- *... and 4 more nodes in this community*
+- **n()** (28 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **t()** (20 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **zr()** (15 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **fa()** (12 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **is()** (12 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **as()** (9 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **c()** (8 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **os()** (8 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **A()** (7 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **ds()** (7 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **Mp()** (7 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **ps()** (7 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **s()** (7 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **ys()** (7 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **fh()** (6 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **qs()** (6 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **ss()** (6 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **tl()** (6 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **us()** (6 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **bs()** (5 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **fs()** (5 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **ms()** (4 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **rs()** (4 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **bt()** (3 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **ga()** (3 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (41 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (27 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (14 shared connections)
+- [[Product Requirements Documentation]] (13 shared connections)
+- [[Pricing & Roles Skill]] (10 shared connections)
+- [[Mobile Responsive UI Skill]] (5 shared connections)
+- [[Community 35]] (3 shared connections)
 
 ## Source Files
 
-- `ios/App/App/AppDelegate.swift`
-- `ios/App/App/SceneDelegate.swift`
+- `ios/App/App/public/assets/index-Ee8tX29H.js`
 
 ## Audit Trail
 
-- EXTRACTED: 72 (100%)
+- EXTRACTED: 227 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,54 +1,62 @@
 # Community 50
 
-> 28 nodes · cohesion 0.12
+> 30 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **n()** (27 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **zr()** (14 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **is()** (12 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **r()** (11 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **as()** (9 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **c()** (8 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **os()** (8 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **ds()** (7 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **Mp()** (7 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **ps()** (7 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **s()** (7 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **ys()** (7 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **fh()** (6 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **qs()** (6 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **us()** (6 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **bs()** (5 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **fs()** (5 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **ss()** (5 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **tl()** (5 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **ms()** (4 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **rs()** (4 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **bt()** (3 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **Ld()** (3 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **Xm()** (3 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **Ze()** (3 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- *... and 3 more nodes in this community*
+- **server.js** (37 connections) — `backend/src/server.js`
+- **health.js** (8 connections) — `backend/src/routes/health.js`
+- **errorHandler.js** (7 connections) — `backend/src/middleware/errorHandler.js`
+- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
+- **prices.js** (6 connections) — `backend/src/routes/prices.js`
+- **upload.js** (5 connections) — `backend/src/routes/upload.js`
+- **uploads.js** (5 connections) — `backend/src/routes/uploads.js`
+- **migrate()** (4 connections) — `backend/src/db/migrate.js`
+- **rateLimit.js** (4 connections) — `backend/src/middleware/rateLimit.js`
+- **applied()** (3 connections) — `backend/src/db/migrate.js`
+- **startJobs()** (3 connections) — `backend/src/jobs/index.js`
+- **httpError()** (3 connections) — `backend/src/middleware/errorHandler.js`
+- **rateLimit()** (3 connections) — `backend/src/middleware/rateLimit.js`
+- **start()** (3 connections) — `backend/src/server.js`
+- **errorHandler()** (2 connections) — `backend/src/middleware/errorHandler.js`
+- **dealersRouter** (2 connections) — `backend/src/routes/dealers.js`
+- **healthRouter** (2 connections) — `backend/src/routes/health.js`
+- **pricesRouter** (2 connections) — `backend/src/routes/prices.js`
+- **uploadRouter** (2 connections) — `backend/src/routes/upload.js`
+- **uploadsRouter** (2 connections) — `backend/src/routes/uploads.js`
+- **dir** (1 connections) — `backend/src/db/migrate.js`
+- **buckets** (1 connections) — `backend/src/middleware/rateLimit.js`
+- **ALLOWED_FOLDERS** (1 connections) — `backend/src/routes/upload.js`
+- **MIME_TYPES** (1 connections) — `backend/src/routes/uploads.js`
+- **allowedOrigins** (1 connections) — `backend/src/server.js`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (35 shared connections)
-- [[Product Pages Specification]] (20 shared connections)
-- [[Design System & UI Tokens]] (13 shared connections)
-- [[Pricing & Roles Skill]] (9 shared connections)
-- [[Community 39]] (7 shared connections)
-- [[Vercel Deployment Routing]] (4 shared connections)
-- [[Community 120]] (4 shared connections)
-- [[Community 40]] (3 shared connections)
+- [[Community 44]] (12 shared connections)
+- [[Community 55]] (9 shared connections)
+- [[Community 104]] (8 shared connections)
+- [[Community 54]] (6 shared connections)
+- [[Community 134]] (2 shared connections)
+- [[Community 122]] (2 shared connections)
+- [[Dealer Auth & Session Management]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DY4Y1egs.js`
+- `backend/src/db/migrate.js`
+- `backend/src/jobs/index.js`
+- `backend/src/middleware/errorHandler.js`
+- `backend/src/middleware/rateLimit.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/routes/health.js`
+- `backend/src/routes/prices.js`
+- `backend/src/routes/upload.js`
+- `backend/src/routes/uploads.js`
+- `backend/src/server.js`
 
 ## Audit Trail
 
-- EXTRACTED: 189 (100%)
+- EXTRACTED: 119 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

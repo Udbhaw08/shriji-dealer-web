@@ -1,53 +1,49 @@
 # Community 38
 
-> 36 nodes · cohesion 0.11
+> 38 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **Z()** (24 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **mu()** (13 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **xl()** (13 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **Iu()** (10 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **bc()** (8 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **Bu()** (8 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **ft()** (8 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **hi()** (8 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **pu()** (8 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **Su()** (8 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **bl()** (7 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **cl()** (7 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **fu()** (7 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **jl()** (7 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **wl()** (7 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **gu()** (6 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **Nd()** (6 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **vu()** (6 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **gm()** (5 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **hu()** (5 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **ju()** (5 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **nu()** (5 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **pf()** (5 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **Cu()** (4 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **Lu()** (4 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- *... and 11 more nodes in this community*
+- **update-notifier.test.mjs** (43 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **operationPath()** (5 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **stateDirectory()** (4 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **fixture()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **remoteReleaseForVersion()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **runCheckInChild()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **statePath()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **writeCompactCommittedState()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **assertUnsafeCacheStateIsIgnored()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **committedStateFiles()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **compactStateSource()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **localRelease()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **pauseOpenOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **pauseRenameMatchingOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **pauseRenameOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **pauseWriteOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **remoteRelease()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **writeJson()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **writePendingOperation()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **baseTime** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **cachedStateWithHistory()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **cachedUpdateState()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **cancel()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **candidateStateForDigest()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **checkerPath** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (42 shared connections)
-- [[Dependencies & Package Config]] (23 shared connections)
-- [[Master Codebase Architecture Reference]] (10 shared connections)
-- [[Community 37]] (5 shared connections)
-- [[Community 48]] (3 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (3 shared connections)
-- [[Testing & Workflow Skill]] (3 shared connections)
+- [[Community 61]] (3 shared connections)
+- [[Community 108]] (2 shared connections)
+- [[Community 51]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- `.agents/skills/archify/test/update-notifier.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 227 (100%)
+- EXTRACTED: 108 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

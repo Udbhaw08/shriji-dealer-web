@@ -33,18 +33,18 @@
 
 ## Relationships
 
-- [[Live Pricing Audit Tool]] (15 shared connections)
-- [[Community 30]] (12 shared connections)
-- [[Zoho Integration Skill]] (9 shared connections)
-- [[Community 79]] (8 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (6 shared connections)
-- [[Community 160]] (6 shared connections)
-- [[Graphify Knowledge Graph Skill]] (5 shared connections)
-- [[Community 53]] (5 shared connections)
-- [[Community 102]] (4 shared connections)
-- [[Zoho Integration Architecture]] (4 shared connections)
-- [[Community 131]] (4 shared connections)
-- [[Community 200]] (3 shared connections)
+- [[Architecture Doc Generator]] (11 shared connections)
+- [[Community 40]] (10 shared connections)
+- [[Community 39]] (9 shared connections)
+- [[Community 78]] (8 shared connections)
+- [[Product Pages Specification]] (8 shared connections)
+- [[Community 101]] (7 shared connections)
+- [[Testing & Workflow Skill]] (6 shared connections)
+- [[Community 161]] (6 shared connections)
+- [[Product Brand & Business Vision]] (5 shared connections)
+- [[Community 99]] (4 shared connections)
+- [[Community 130]] (4 shared connections)
+- [[Community 201]] (3 shared connections)
 
 ## Source Files
 

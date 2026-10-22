@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **esm-DK5g3tfx.js** (1 connections) — `ios/App/App/public/assets/esm-DK5g3tfx.js`
-- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-DK5g3tfx.js`
+- **esm-Atytk4hc.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-Atytk4hc.js`
+- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-Atytk4hc.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/esm-DK5g3tfx.js`
+- `android/app/src/main/assets/public/assets/esm-Atytk4hc.js`
 
 ## Audit Trail
 

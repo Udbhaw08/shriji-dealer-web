@@ -1,58 +1,58 @@
 # Graphify Knowledge Graph Skill
 
-> 45 nodes · cohesion 0.07
+> 48 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **render-architecture.mjs** (122 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **pathFor()** (10 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **routeVia()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **grid.mjs** (6 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **alignFacingPorts()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **buildLayoutReport()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **sideAwareBridgeCandidates()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **resolveComponentPos()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **validateGridPlacement()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **resolveBoundaryTitles()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **routeClearsComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **routeClearsEndpointComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **minimumReadableSourceTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **layout-report.mjs** (4 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
-- **grid.test.mjs** (4 connections) — `.agents/skills/archify/test/grid.test.mjs`
-- **gridLayout()** (3 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **autoViewBoxFor()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **resolvedViewBoxWidth()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **connectionPath()** (3 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
-- **measureComponent()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **outwardStub()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **portHasCornerClearance()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **rectContains()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **boundaryBox()** (2 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
-- **componentBox()** (2 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
-- *... and 20 more nodes in this community*
+- **session.js** (47 connections) — `src/data/session.js`
+- **Login.jsx** (40 connections) — `src/pages/Login.jsx`
+- **productsStore.js** (23 connections) — `src/data/productsStore.js`
+- **apiFetch()** (17 connections) — `src/data/api.js`
+- **api.js** (11 connections) — `src/data/api.js`
+- **EmailVerificationPrompt.jsx** (10 connections) — `src/components/EmailVerificationPrompt.jsx`
+- **setSession()** (10 connections) — `src/data/session.js`
+- **apiUrl()** (9 connections) — `src/data/api.js`
+- **revalidateSession()** (9 connections) — `src/data/session.js`
+- **registerDealer()** (7 connections) — `src/data/dealer.js`
+- **syncPricebookWithSession()** (7 connections) — `src/data/productsStore.js`
+- **validators.js** (7 connections) — `src/data/validators.js`
+- **fetchLiveProducts()** (6 connections) — `src/data/productsStore.js`
+- **products.js** (5 connections) — `src/data/products.js`
+- **switchToDealerSession()** (5 connections) — `src/data/session.js`
+- **hasSession()** (4 connections) — `src/data/auth.js`
+- **loadCached()** (4 connections) — `src/data/productsStore.js`
+- **signOut()** (4 connections) — `src/data/session.js`
+- **switchToViewerSession()** (4 connections) — `src/data/session.js`
+- **sessionFromAuth()** (3 connections) — `src/data/auth.js`
+- **emit()** (3 connections) — `src/data/productsStore.js`
+- **syncTagsLive()** (3 connections) — `src/data/productsStore.js`
+- **loadCachedSession()** (3 connections) — `src/data/session.js`
+- **isValidEmail()** (3 connections) — `src/data/validators.js`
+- **onAuthBroadcast()** (2 connections) — `src/data/auth.js`
+- *... and 23 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Integration Architecture]] (23 shared connections)
-- [[Live Pricing Audit Tool]] (22 shared connections)
-- [[Zoho Integration Skill]] (21 shared connections)
-- [[Community 30]] (16 shared connections)
-- [[Community 53]] (11 shared connections)
-- [[Pricing Regression Test Suite]] (5 shared connections)
-- [[Community 44]] (3 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (1 shared connections)
+- [[Community 32]] (33 shared connections)
+- [[Design System & UI Tokens]] (32 shared connections)
+- [[Roles & Customer Sharing Spec]] (20 shared connections)
+- [[Community 164]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/grid.mjs`
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- `.agents/skills/archify/renderers/shared/layout-report.mjs`
-- `.agents/skills/archify/test/grid.test.mjs`
+- `src/components/EmailVerificationPrompt.jsx`
+- `src/data/api.js`
+- `src/data/auth.js`
+- `src/data/dealer.js`
+- `src/data/products.js`
+- `src/data/productsStore.js`
+- `src/data/session.js`
+- `src/data/validators.js`
+- `src/pages/Login.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 238 (100%)
+- EXTRACTED: 278 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

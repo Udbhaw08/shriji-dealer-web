@@ -1,8 +1,8 @@
 # i()
 
-> God node · 68 connections · `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+> God node · 66 connections · `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
 
-**Community:** [[Dependencies & Package Config]]
+**Community:** [[Master Codebase Architecture Reference]]
 
 ## Connections by Relation
 
@@ -16,17 +16,17 @@
 - [[el()]] `EXTRACTED`
 - [[ku()]] `EXTRACTED`
 - [[vc()]] `EXTRACTED`
-- [[ca()]] `EXTRACTED`
 - [[bm()]] `EXTRACTED`
 - [[cn()]] `EXTRACTED`
-- [[aa()]] `EXTRACTED`
 - [[sl()]] `EXTRACTED`
+- [[aa()]] `EXTRACTED`
+- [[r()]] `EXTRACTED`
+- [[va()]] `EXTRACTED`
 - [[Yd()]] `EXTRACTED`
 - [[Fd()]] `EXTRACTED`
 - [[is()]] `EXTRACTED`
 - [[pt()]] `EXTRACTED`
-- [[r()]] `EXTRACTED`
-- [[tp()]] `EXTRACTED`
+- [[kc()]] `EXTRACTED`
 
 ### contains
 - [[_()]] `EXTRACTED`

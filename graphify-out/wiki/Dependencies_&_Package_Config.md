@@ -1,54 +1,55 @@
 # Dependencies & Package Config
 
-> 82 nodes · cohesion 0.06
+> 75 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **i()** (68 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **D()** (29 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **get()** (23 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **np()** (21 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **.addEventListener()** (19 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **b()** (18 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **ku()** (17 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **bm()** (14 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **cn()** (14 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **fp()** (14 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **h()** (14 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **aa()** (13 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **It()** (13 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **lm()** (13 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **.removeEventListener()** (12 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **mn()** (11 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **nn()** (11 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **tp()** (11 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **am()** (10 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **ip()** (10 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **Bi()** (9 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **mm()** (9 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **cm()** (8 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **ln()** (8 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **om()** (8 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- *... and 57 more nodes in this community*
+- **_()** (447 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **request()** (7 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **an()** (6 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **eh()** (5 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **unavailable()** (5 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **xr()** (5 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **ae()** (4 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **Bp()** (4 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **ge()** (4 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **ne()** (4 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **p()** (4 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **removeWindowListener()** (4 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **addListener()** (3 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **addWindowListener()** (3 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **ah()** (3 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **cs()** (3 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **he()** (3 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **Md()** (3 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **Mr()** (3 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **op()** (3 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **Pr()** (3 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **ve()** (3 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **yt()** (3 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **zu()** (3 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **ao()** (2 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- *... and 50 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (90 shared connections)
-- [[Master Codebase Architecture Reference]] (41 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (27 shared connections)
-- [[Community 38]] (23 shared connections)
-- [[Testing & Workflow Skill]] (21 shared connections)
-- [[Community 48]] (20 shared connections)
-- [[Community 116]] (13 shared connections)
-- [[Community 37]] (13 shared connections)
+- [[Master Codebase Architecture Reference]] (72 shared connections)
+- [[Client Products Data Store]] (58 shared connections)
+- [[Zoho Integration Architecture]] (57 shared connections)
+- [[Oxlint Linter Configuration]] (48 shared connections)
+- [[Community 30]] (40 shared connections)
+- [[Community 31]] (40 shared connections)
+- [[Community 42]] (36 shared connections)
+- [[Community 48]] (34 shared connections)
+- [[Community 85]] (20 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
 
 ## Audit Trail
 
-- EXTRACTED: 646 (100%)
+- EXTRACTED: 614 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

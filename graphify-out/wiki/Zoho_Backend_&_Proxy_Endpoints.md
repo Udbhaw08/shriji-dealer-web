@@ -1,62 +1,55 @@
 # Zoho Backend & Proxy Endpoints
 
-> 91 nodes · cohesion 0.05
+> 78 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **zoho.js** (51 connections) — `api/zoho.js`
-- **vite.config.js** (20 connections) — `vite.config.js`
-- **content.js** (19 connections) — `backend/src/services/content.js`
-- **fetchZohoProductById()** (16 connections) — `api/zoho.js`
-- **fetchZohoProducts()** (14 connections) — `api/zoho.js`
-- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
-- **zohoApiPlugin()** (13 connections) — `vite.config.js`
-- **fetchZohoWithRetry()** (12 connections) — `api/zoho.js`
-- **getZohoConfig()** (12 connections) — `api/zoho.js`
-- **content.js** (11 connections) — `api/content.js`
-- **content.js** (11 connections) — `backend/src/routes/content.js`
-- **handler()** (10 connections) — `api/content.js`
-- **createDealerContact()** (9 connections) — `api/zoho.js`
-- **getSupabaseBanners()** (9 connections) — `backend/src/services/content.js`
-- **fetchZohoCategories()** (8 connections) — `api/zoho.js`
-- **getSupabaseSchemes()** (8 connections) — `backend/src/services/content.js`
-- **fetchAllRawZohoProducts()** (7 connections) — `api/zoho.js`
-- **fetchZohoBanners()** (7 connections) — `api/zoho.js`
-- **fetchZohoSchemes()** (7 connections) — `api/zoho.js`
-- **getCategoryVisibilityMap()** (7 connections) — `api/zoho.js`
-- **getDealerById()** (7 connections) — `api/zoho.js`
-- **getSupabaseBranding()** (7 connections) — `backend/src/services/content.js`
-- **fetchZohoPricebookItems()** (6 connections) — `api/zoho.js`
-- **getAccessToken()** (6 connections) — `api/zoho.js`
-- **normalizeProduct()** (6 connections) — `api/zoho.js`
-- *... and 66 more nodes in this community*
+- **i()** (66 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **D()** (29 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **get()** (23 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **np()** (21 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **.addEventListener()** (19 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **b()** (18 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **ku()** (17 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **vc()** (16 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **bm()** (14 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **cn()** (14 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **fp()** (14 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **h()** (14 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **aa()** (13 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **It()** (13 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **lm()** (13 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **va()** (13 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **.removeEventListener()** (12 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **mn()** (11 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **nn()** (11 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **tp()** (11 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **am()** (10 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **ip()** (10 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **mm()** (9 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **ln()** (8 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **om()** (8 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- *... and 53 more nodes in this community*
 
 ## Relationships
 
-- [[Community 36]] (9 shared connections)
-- [[Community 69]] (2 shared connections)
-- [[Community 49]] (2 shared connections)
+- [[Price Presentation & Product UI]] (86 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (35 shared connections)
+- [[Mobile Responsive UI Skill]] (27 shared connections)
+- [[Community 46]] (27 shared connections)
+- [[Pricing & Roles Skill]] (24 shared connections)
+- [[Community 35]] (21 shared connections)
+- [[Product Requirements Documentation]] (20 shared connections)
+- [[Community 119]] (11 shared connections)
 
 ## Source Files
 
-- `api/content.js`
-- `api/dealer/apply.js`
-- `api/dealer/info.js`
-- `api/download.js`
-- `api/og.js`
-- `api/products/[id].js`
-- `api/products/index.js`
-- `api/zoho.js`
-- `backend/src/routes/content.js`
-- `backend/src/services/content.js`
-- `scripts/audit_prices.mjs`
-- `scripts/test-zoho-api.mjs`
-- `vite.config.js`
+- `ios/App/App/public/assets/index-Ee8tX29H.js`
 
 ## Audit Trail
 
-- EXTRACTED: 449 (99%)
-- INFERRED: 4 (1%)
+- EXTRACTED: 641 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

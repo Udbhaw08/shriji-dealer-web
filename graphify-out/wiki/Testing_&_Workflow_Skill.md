@@ -1,55 +1,57 @@
 # Testing & Workflow Skill
 
-> 41 nodes · cohesion 0.09
+> 43 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **l()** (29 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **qd()** (14 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **Yd()** (13 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **ye()** (13 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **Fd()** (12 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **Vd()** (12 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **yl()** (10 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **al()** (9 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **Sp()** (9 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **vl()** (8 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **Si()** (7 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **st()** (7 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **Bd()** (6 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **ef()** (6 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **Hd()** (6 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **Lo()** (6 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **Ro()** (6 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **zd()** (6 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **Do()** (5 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **ga()** (5 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **ns()** (5 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **pl()** (5 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **dl()** (4 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **fl()** (4 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- **kl()** (4 connections) — `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
-- *... and 16 more nodes in this community*
+- **brand-marks.mjs** (51 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **brand-marks.test.mjs** (15 connections) — `.agents/skills/archify/test/brand-marks.test.mjs`
+- **captureRemoteBrand()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **prepareDiagramBrandMarks()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **captureBrandReference()** (6 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **findBrandMark()** (5 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **checkedFetch()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **isPrivateBrandAddress()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **resolveRequestTarget()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **asUrl()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **iconCandidates()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **imageData()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **ipv4Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **ipv6Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **lookupForms()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **readLimited()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **validateUrlShape()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **generated-brand-marks.mjs** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
+- **BRAND_MARKS** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
+- **attribute()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **beforeDeadline()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **captureTimeoutMilliseconds()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **domainMark()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **mapConcurrent()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **remoteBrand()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (44 shared connections)
-- [[Dependencies & Package Config]] (21 shared connections)
-- [[Master Codebase Architecture Reference]] (18 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (11 shared connections)
-- [[Community 37]] (8 shared connections)
-- [[Community 48]] (4 shared connections)
-- [[Community 116]] (4 shared connections)
-- [[Community 38]] (3 shared connections)
+- [[Architecture Doc Generator]] (7 shared connections)
+- [[Pricing Regression Test Suite]] (6 shared connections)
+- [[Community 137]] (3 shared connections)
+- [[Community 39]] (3 shared connections)
+- [[Product Brand & Business Vision]] (1 shared connections)
+- [[Community 40]] (1 shared connections)
+- [[Community 101]] (1 shared connections)
+- [[Community 78]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DY4Y1egs.js`
+- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
+- `.agents/skills/archify/test/brand-marks.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 255 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 164 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

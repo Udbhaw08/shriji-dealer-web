@@ -1,54 +1,62 @@
 # Community 40
 
-> 36 nodes · cohesion 0.11
+> 35 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **Z()** (24 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **mu()** (13 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **xl()** (13 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **Iu()** (10 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **bc()** (8 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **Bu()** (8 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **ft()** (8 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **hi()** (8 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **pu()** (8 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **Su()** (8 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **bl()** (7 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **cl()** (7 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **fu()** (7 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **jl()** (7 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **wl()** (7 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **gu()** (6 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **Nd()** (6 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **vu()** (6 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **gm()** (5 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **hu()** (5 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **ju()** (5 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **nu()** (5 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **pf()** (5 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **Cu()** (4 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- **Lu()** (4 connections) — `ios/App/App/public/assets/index-DY4Y1egs.js`
-- *... and 11 more nodes in this community*
+- **render-dataflow.mjs** (78 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **legend.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **renderLegend()** (14 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **svgAccessibleText()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **svgRootAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **renderDefinitions()** (11 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **resolveLegend()** (10 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **renderSvg()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderLegend()** (6 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **legendFootprint()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **measureLegend()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **stageX()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **componentFill** (5 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **componentText** (4 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **lifecycleAreaBottom()** (3 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **measureNode()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **routeVia()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **stageFrame()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **legendY()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderLifecycleRail()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (42 shared connections)
-- [[Product Pages Specification]] (23 shared connections)
-- [[Design System & UI Tokens]] (10 shared connections)
-- [[Community 39]] (5 shared connections)
-- [[Community 50]] (3 shared connections)
-- [[Pricing & Roles Skill]] (3 shared connections)
-- [[Vercel Deployment Routing]] (3 shared connections)
+- [[Architecture Doc Generator]] (35 shared connections)
+- [[Product Pages Specification]] (33 shared connections)
+- [[Community 39]] (27 shared connections)
+- [[Product Brand & Business Vision]] (14 shared connections)
+- [[Pricing Regression Test Suite]] (10 shared connections)
+- [[Community 101]] (10 shared connections)
+- [[Community 78]] (10 shared connections)
+- [[Testing & Workflow Skill]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DY4Y1egs.js`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- `.agents/skills/archify/renderers/shared/cli.mjs`
+- `.agents/skills/archify/renderers/shared/geometry.mjs`
+- `.agents/skills/archify/renderers/shared/legend.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 227 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 249 (99%)
+- INFERRED: 3 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

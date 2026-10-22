@@ -23,10 +23,10 @@
 
 ## Relationships
 
-- [[Community 58]] (18 shared connections)
-- [[Community 287]] (4 shared connections)
-- [[Community 139]] (2 shared connections)
-- [[Community 160]] (1 shared connections)
+- [[Community 60]] (18 shared connections)
+- [[Community 288]] (4 shared connections)
+- [[Community 138]] (2 shared connections)
+- [[Community 161]] (1 shared connections)
 
 ## Source Files
 

@@ -203,6 +203,41 @@ const PATHS = {
       <path d="m3 14.5 7 3.5 7-3.5" />
     </>
   ),
+  clock: (
+    <>
+      <circle cx="10" cy="10" r="6.8" />
+      <path d="M10 6.2v3.8l2.6 1.8" />
+    </>
+  ),
+  chat: (
+    <>
+      <path d="M4 4.5h12a1.5 1.5 0 0 1 1.5 1.5v6.5a1.5 1.5 0 0 1-1.5 1.5H7.5L4 16.5V6A1.5 1.5 0 0 1 4 4.5Z" />
+      <path d="M7 8.5h6M7 11h3.5" />
+    </>
+  ),
+  play: (
+    <polygon points="7,5 15,10 7,15" fill="currentColor" stroke="none" />
+  ),
+  help: (
+    <>
+      <circle cx="10" cy="10" r="7" />
+      <path d="M8.5 8a1.8 1.8 0 0 1 3.2.9c0 1.2-1.7 1.6-1.7 2.6" />
+      <circle cx="10" cy="14" r="0.6" fill="currentColor" />
+    </>
+  ),
+  refresh: (
+    <>
+      <path d="M16 10A6 6 0 1 1 14.2 5.8L16 4" />
+      <path d="M16 8V4h-4" />
+    </>
+  ),
+  external: (
+    <>
+      <path d="M9 4.5H5.2A1.7 1.7 0 0 0 3.5 6.2v8.6a1.7 1.7 0 0 0 1.7 1.7h8.6a1.7 1.7 0 0 0 1.7-1.7V11" />
+      <path d="M11.5 3.5h5v5" />
+      <path d="m9.5 10.5 7-7" />
+    </>
+  ),
 };
 
 export function Icon({ name, size = 18, ...rest }) {

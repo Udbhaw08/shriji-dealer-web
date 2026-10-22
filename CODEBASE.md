@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-23T04:43:19.307+05:30 (GMT+5:30)
-> Total Project Files: 1718
+> Last synchronized: 2026-10-23T04:54:15.525+05:30 (GMT+5:30)
+> Total Project Files: 1729
 
 ---
 
@@ -98,8 +98,8 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/pages/PrivacyPolicy.jsx`** (0.0 KB)
 - **`src/pages/Product.jsx`** (32.8 KB)
 - **`src/pages/Products.jsx`** (33.5 KB)
-- **`src/pages/Schemes.jsx`** (18.6 KB)
-- **`src/pages/Support.jsx`** (4.7 KB)
+- **`src/pages/Schemes.jsx`** (19.3 KB)
+- **`src/pages/Support.jsx`** (24.5 KB)
 - **`src/pages/TermsOfService.jsx`** (0.0 KB)
 
 ### 4.2 Reusable Components (`src/components/` & `src/ui.jsx`)

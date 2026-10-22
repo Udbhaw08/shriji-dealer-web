@@ -1,29 +1,33 @@
 # Community 242
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **Boxes** (5 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
-- **boxes.md** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **viewer-camera-browser.test.mjs** (11 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **run()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **stable()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **viewport()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **screenshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 49]] (4 shared connections)
+- [[Community 47]] (1 shared connections)
+- [[Community 79]] (1 shared connections)
+- [[Community 125]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/boxes.md`
+- `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 31 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

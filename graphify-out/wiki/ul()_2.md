@@ -1,32 +1,32 @@
 # ul()
 
-> God node · 40 connections · `ios/App/App/public/assets/index-DY4Y1egs.js`
+> God node · 39 connections · `ios/App/App/public/assets/index-Ee8tX29H.js`
 
-**Community:** [[Design System & UI Tokens]]
+**Community:** [[Pricing Hierarchy & Zero-Leakage Spec]]
 
 ## Connections by Relation
 
 ### calls
 - [[i()]] `EXTRACTED`
+- [[ji()]] `EXTRACTED`
 - [[qd()]] `EXTRACTED`
 - [[fp()]] `EXTRACTED`
+- [[sl()]] `EXTRACTED`
 - [[aa()]] `EXTRACTED`
 - [[lm()]] `EXTRACTED`
-- [[sl()]] `EXTRACTED`
-- [[ll()]] `EXTRACTED`
 - [[r()]] `EXTRACTED`
-- [[da()]] `EXTRACTED`
+- [[ll()]] `EXTRACTED`
 - [[Mc()]] `EXTRACTED`
-- [[al()]] `EXTRACTED`
 - [[Bi()]] `EXTRACTED`
+- [[Qi()]] `EXTRACTED`
+- [[al()]] `EXTRACTED`
+- [[bc()]] `EXTRACTED`
 - [[Sp()]] `EXTRACTED`
 - [[we()]] `EXTRACTED`
-- [[bc()]] `EXTRACTED`
+- [[ca()]] `EXTRACTED`
 - [[Pc()]] `EXTRACTED`
-- [[Qi()]] `EXTRACTED`
 - [[xa()]] `EXTRACTED`
-- [[cl()]] `EXTRACTED`
-- [[la()]] `EXTRACTED`
+- [[ba()]] `EXTRACTED`
 
 ### contains
 - [[_()]] `EXTRACTED`

@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **web-rRHFk-nf.js** (8 connections) — `ios/App/App/public/assets/web-rRHFk-nf.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-rRHFk-nf.js`
-- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-rRHFk-nf.js`
-- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-rRHFk-nf.js`
-- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-rRHFk-nf.js`
-- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-rRHFk-nf.js`
-- **getState()** (1 connections) — `ios/App/App/public/assets/web-rRHFk-nf.js`
-- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-rRHFk-nf.js`
-- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-rRHFk-nf.js`
+- **web-DzyC6Rns.js** (8 connections) — `ios/App/App/public/assets/web-DzyC6Rns.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-DzyC6Rns.js`
+- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-DzyC6Rns.js`
+- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-DzyC6Rns.js`
+- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-DzyC6Rns.js`
+- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-DzyC6Rns.js`
+- **getState()** (1 connections) — `ios/App/App/public/assets/web-DzyC6Rns.js`
+- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-DzyC6Rns.js`
+- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-DzyC6Rns.js`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-rRHFk-nf.js`
+- `ios/App/App/public/assets/web-DzyC6Rns.js`
 
 ## Audit Trail
 

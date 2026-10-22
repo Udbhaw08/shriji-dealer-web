@@ -4,30 +4,30 @@
 
 ## Key Concepts
 
-- **Refero Design** (13 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Tool Routing** (5 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Research Workflow** (4 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Synthesis** (4 connections) — `.agents/skills/refero-design/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **1. Research Visual Direction With Styles** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **2. Research Screens For Product Details** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **3. Research Flows For Journey Logic** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Design Craft** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Discovery** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Example** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Journey Logic** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **MCP Setup** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Non-Negotiables** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Present Findings** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Product Pattern** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Quality Gate** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Research Depth** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Use Flows For Journeys** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Use Screens For Concrete UI Patterns** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Use Styles First For Visual Work** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Use Visual Workflow For Images And QA** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Visual Direction** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Workflow Routing** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Apple Pay** (11 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Using Apple Pay buttons** (5 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Button styles** (4 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Button types** (3 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Handling problems** (3 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Streamlining checkout** (2 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **apple-pay.md** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Apple Pay button** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Apple Pay mark** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Black** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Button size and position** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Customizing the payment sheet** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Data validation errors** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Displaying a website icon** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Offering Apple Pay** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Payment processing problems** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Referring to Apple Pay** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Set Up Apple Pay button** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Supporting donations** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Supporting subscriptions** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **White** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **White with outline** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
 
 ## Relationships
 
@@ -35,7 +35,7 @@
 
 ## Source Files
 
-- `.agents/skills/refero-design/SKILL.md`
+- `.agents/skills/apple-design/references/hig/apple-pay.md`
 
 ## Audit Trail
 
