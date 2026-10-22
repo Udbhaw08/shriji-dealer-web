@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Combo boxes** (4 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
-- **combo-boxes.md** (1 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
+- **iCloud** (4 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
+- **icloud.md** (1 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/combo-boxes.md`
+- `.agents/skills/apple-design/references/hig/icloud.md`
 
 ## Audit Trail
 

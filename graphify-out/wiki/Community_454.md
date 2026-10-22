@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **esm-CxPm_8e5.js** (1 connections) — `ios/App/App/public/assets/esm-CxPm_8e5.js`
-- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-CxPm_8e5.js`
+- **localization.md** (1 connections) — `.agents/skills/swiftui-pro/references/localization.md`
+- **Localization** (1 connections) — `.agents/skills/swiftui-pro/references/localization.md`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/esm-CxPm_8e5.js`
+- `.agents/skills/swiftui-pro/references/localization.md`
 
 ## Audit Trail
 

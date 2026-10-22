@@ -1,13 +1,12 @@
 # Community 418
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **cursor-onboarding.test.mjs** (3 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
+- **Designing for iOS** (2 connections) — `.agents/skills/apple-design/references/hig/designing-for-ios.md`
+- **designing-for-ios.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-ios.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-ios.md`
 
 ## Relationships
 
@@ -15,11 +14,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/cursor-onboarding.test.mjs`
+- `.agents/skills/apple-design/references/hig/designing-for-ios.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

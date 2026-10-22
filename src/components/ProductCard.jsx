@@ -55,9 +55,9 @@ export default function ProductCard({ p }) {
               <Icon name={p.cat === "chimneys" ? "chimney" : p.cat === "small_appliances" ? "blender" : "stove"} size={32} />
             </span>
           )}
-          {/* Tag badge from Zoho Commerce in lower-left of image area */}
+          {/* Tag badge from Zoho Commerce in top-left of image area */}
           {tagBadge && (
-            <span className="prod-cat-badge">
+            <span className="badge badge-blue prod-tag">
               {tagBadge}
             </span>
           )}

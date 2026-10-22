@@ -1,57 +1,53 @@
 # Price Presentation & Product UI
 
-> 95 nodes · cohesion 0.03
+> 114 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **_()** (453 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **ji()** (10 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **E()** (7 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **Fi()** (7 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **request()** (7 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **te()** (7 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **De()** (5 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **Pi()** (5 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **qm()** (5 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **Ri()** (5 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **unavailable()** (5 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **wt()** (5 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **zi()** (5 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **He()** (4 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **je()** (4 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **ke()** (4 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **ne()** (4 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **Pe()** (4 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **Qi()** (4 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **removeWindowListener()** (4 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **up()** (4 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **ve()** (4 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **vs()** (4 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **xe()** (4 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **Xi()** (4 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- *... and 70 more nodes in this community*
+- **_()** (446 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **kf()** (19 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **Fr()** (13 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **rf()** (11 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **df()** (10 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **ei()** (8 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **ff()** (7 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **go()** (7 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **Or()** (7 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **request()** (7 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **sf()** (7 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **xr()** (7 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **Id()** (6 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **nf()** (6 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **oe()** (6 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **se()** (6 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **br()** (5 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **dh()** (5 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **eh()** (5 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **hi()** (5 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **jf()** (5 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **Jr()** (5 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **ki()** (5 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **lf()** (5 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **mf()** (5 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- *... and 89 more nodes in this community*
 
 ## Relationships
 
-- [[Pricing Regression Test Suite]] (64 shared connections)
-- [[Client Products Data Store]] (62 shared connections)
-- [[Pricing & Roles Skill]] (49 shared connections)
-- [[Community 38]] (38 shared connections)
-- [[Community 34]] (36 shared connections)
-- [[Community 53]] (35 shared connections)
-- [[Community 45]] (31 shared connections)
-- [[Community 60]] (27 shared connections)
-- [[Community 65]] (27 shared connections)
-- [[Community 87]] (26 shared connections)
-- [[Community 112]] (18 shared connections)
+- [[Dependencies & Package Config]] (89 shared connections)
+- [[Master Codebase Architecture Reference]] (67 shared connections)
+- [[Zoho Integration Architecture]] (67 shared connections)
+- [[Community 34]] (57 shared connections)
+- [[Zoho API Diagnostic Script]] (50 shared connections)
+- [[Community 39]] (42 shared connections)
+- [[Community 56]] (30 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CBwWGiKG.js`
+- `ios/App/App/public/assets/index-BW_SDrEP.js`
 
 ## Audit Trail
 
-- EXTRACTED: 708 (100%)
+- EXTRACTED: 823 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

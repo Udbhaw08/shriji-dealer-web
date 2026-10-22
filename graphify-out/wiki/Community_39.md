@@ -1,50 +1,54 @@
 # Community 39
 
-> 34 nodes · cohesion 0.16
+> 35 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **cacheRename()** (13 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **acquireOperation()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheRm()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheTokenFor()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **captureMutationParentSnapshots()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheWriteFile()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **invalidateCacheToken()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **prepareCacheDirectory()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **promoteOperationClaim()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **reserveOperation()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **resolveCacheTarget()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stableCacheEntry()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **verifyCacheToken()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **guardedCacheMutation()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **guardedCacheRead()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertSafeDirectory()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheMkdir()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **inspectActiveClaim()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **isSameFile()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheMkdirWithToken()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **fenceLowerOperations()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **listOperations()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationName()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationWasFenced()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **prepareOperationClaim()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- *... and 9 more nodes in this community*
+- **vl()** (28 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **qd()** (15 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **xe()** (13 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **Yd()** (13 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **yl()** (13 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **Fd()** (12 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **Vd()** (12 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **bl()** (9 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **De()** (9 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **ke()** (9 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **lt()** (8 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **ef()** (7 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **Fo()** (7 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **lp()** (7 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **wi()** (7 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **Bd()** (6 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **ta()** (6 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **hm()** (5 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **ml()** (5 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **Ro()** (5 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **Hd()** (4 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **pl()** (4 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **rs()** (4 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **tf()** (4 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **Fi()** (3 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [[Community 42]] (39 shared connections)
-- [[Community 105]] (18 shared connections)
-- [[Community 207]] (1 shared connections)
+- [[Price Presentation & Product UI]] (42 shared connections)
+- [[Community 34]] (19 shared connections)
+- [[Dependencies & Package Config]] (17 shared connections)
+- [[Zoho API Diagnostic Script]] (9 shared connections)
+- [[Master Codebase Architecture Reference]] (9 shared connections)
+- [[Zoho Integration Architecture]] (5 shared connections)
+- [[Community 56]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-update.mjs`
+- `ios/App/App/public/assets/index-BW_SDrEP.js`
 
 ## Audit Trail
 
-- EXTRACTED: 231 (100%)
-- INFERRED: 1 (0%)
+- EXTRACTED: 240 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

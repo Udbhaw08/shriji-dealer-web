@@ -1,36 +1,39 @@
 # Community 137
 
-> 14 nodes · cohesion 0.14
+> 13 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **Icons & Glyphs Guide** (10 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Libraries** (4 connections) — `.agents/skills/refero-design/references/icons.md`
-- **icons.md** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Accessibility** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Color** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **For Product UI (SVG-based)** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Icon Sizing** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Icon + Text Pairing** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Optical Corrections** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Style Consistency** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Two Contexts** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Variable Glyph Systems** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **When to Use What** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **fail()** (15 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **usage()** (11 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **runNode()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandDemo()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **exitFrom()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandBrands()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandExamples()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandVisualCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandDoctor()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractMigrationOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandGuide()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **listBrandMarks()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 44]] (27 shared connections)
+- [[Project Readme & Layout]] (3 shared connections)
+- [[Community 286]] (3 shared connections)
+- [[Community 46]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/icons.md`
+- `.agents/skills/archify/bin/archify.mjs`
+- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 73 (95%)
+- INFERRED: 4 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

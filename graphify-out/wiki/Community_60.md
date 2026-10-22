@@ -1,56 +1,52 @@
 # Community 60
 
-> 25 nodes · cohesion 0.12
+> 25 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **t()** (20 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **c()** (8 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **hh()** (8 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **yh()** (8 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **Mp()** (7 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **fh()** (6 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **mh()** (6 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **ph()** (6 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **s()** (6 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **Sh()** (6 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **zd()** (6 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **bh()** (5 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **eh()** (5 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **Ih()** (5 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **th()** (5 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **Qa()** (4 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **vt()** (4 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **ah()** (3 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **nh()** (3 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **rh()** (3 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **vh()** (3 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **Xm()** (3 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **xt()** (3 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **ls()** (2 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **zh()** (2 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **architecture-delta.mjs** (65 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **validateArchitectureDeltaHtml()** (11 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **renderArchitectureDeltaHtml()** (6 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **architectureDeltaChangeRows()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **compareEntities()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **reviewTargetTags()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **expectedReviewTargetSignature()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **primaryReviewTags()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **reviewIdentity()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **reviewPrimaryStates()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **sortedObjects()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **addState()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **fieldChanges()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **normalizeComponent()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **normalizedField()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **reviewTargetSignature()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **safeJson()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **statusFor()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **total()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **BOUNDARY_FIELDS** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **codepointOrder()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **COMPONENT_FIELDS** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **CONNECTION_FIELDS** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **normalizeBoundary()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **sorted()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (27 shared connections)
-- [[Client Products Data Store]] (7 shared connections)
-- [[Community 53]] (7 shared connections)
-- [[Pricing Regression Test Suite]] (5 shared connections)
-- [[Community 112]] (4 shared connections)
-- [[Community 38]] (4 shared connections)
-- [[Community 45]] (4 shared connections)
-- [[Community 34]] (4 shared connections)
-- [[Pricing & Roles Skill]] (2 shared connections)
-- [[Community 65]] (1 shared connections)
+- [[Community 84]] (20 shared connections)
+- [[Community 109]] (18 shared connections)
+- [[Live Pricing Audit Tool]] (5 shared connections)
+- [[Community 138]] (4 shared connections)
+- [[Community 160]] (2 shared connections)
+- [[Community 286]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CBwWGiKG.js`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 137 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 129 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

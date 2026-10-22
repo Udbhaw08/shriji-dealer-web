@@ -23,6 +23,7 @@ function loadEnv() {
 let cachedAccessToken = null;
 let tokenExpiryTime = 0;
 let refreshPromise = null;
+let zohoThrottleUntil = 0;
 
 const localCacheFile = path.resolve(process.cwd(), ".token_cache.json");
 const tmpCacheFile = path.resolve(os.tmpdir(), "webstore_zoho_token.json");
@@ -56,6 +57,161 @@ function clearDiskCache() {
   }
 }
 
+// ---------------- Product Tag Cache & Sync Registry ---------------- //
+
+const localTagCacheFile = path.resolve(process.cwd(), ".tag_cache.json");
+const tmpTagCacheFile = path.resolve(os.tmpdir(), "webstore_zoho_tags.json");
+
+let memoryTagCache = null;
+let lastTagSyncTime = 0;
+let tagSyncInProgress = null;
+
+export function readTagCache() {
+  if (memoryTagCache) return memoryTagCache;
+  for (const file of [localTagCacheFile, tmpTagCacheFile]) {
+    try {
+      if (fs.existsSync(file)) {
+        const data = JSON.parse(fs.readFileSync(file, "utf-8"));
+        if (data && typeof data === "object") {
+          memoryTagCache = data;
+          return memoryTagCache;
+        }
+      }
+    } catch {}
+  }
+  memoryTagCache = {};
+  return memoryTagCache;
+}
+
+export function writeTagCache(cache) {
+  memoryTagCache = cache;
+  const payload = JSON.stringify(cache, null, 2);
+  for (const file of [localTagCacheFile, tmpTagCacheFile]) {
+    try {
+      fs.writeFileSync(file, payload, "utf-8");
+    } catch {}
+  }
+}
+
+export function getCachedProductTags(productId) {
+  if (!productId) return [];
+  const cache = readTagCache();
+  const entry = cache[String(productId)];
+  if (!entry) return [];
+  if (Array.isArray(entry.tags)) return entry.tags;
+  if (Array.isArray(entry)) return entry;
+  return [];
+}
+
+export function updateCachedProductTags(productId, tags, lastModified = null, name = "") {
+  if (!productId) return;
+  const cache = readTagCache();
+  const cleanTags = (Array.isArray(tags) ? tags : [tags])
+    .map((t) => (typeof t === "string" ? t : (t?.tag_name || t?.name || "")).trim())
+    .filter(Boolean);
+
+  cache[String(productId)] = {
+    tags: cleanTags,
+    lastModified: lastModified || cache[String(productId)]?.lastModified || Date.now(),
+    name: name || cache[String(productId)]?.name || "",
+    updatedAt: Date.now(),
+  };
+  writeTagCache(cache);
+}
+
+/**
+ * Sync tags for recently modified products in Zoho Commerce.
+ * Inspects items ordered by last_modified_time desc, fetches detailed single-item tags
+ * for any updated/new items, and persists into .tag_cache.json.
+ */
+export async function syncRecentProductTags({ limit = 5, force = false } = {}) {
+  const now = Date.now();
+  if (!force && tagSyncInProgress) return tagSyncInProgress;
+  if (!force && now - lastTagSyncTime < 60000) {
+    return readTagCache();
+  }
+
+  tagSyncInProgress = (async () => {
+    try {
+      const { dc, orgId } = getZohoConfig();
+      const res = await fetchZohoWithRetry(
+        `https://commerce.zoho.${dc}/store/api/v1/products?sort_column=last_modified_time&sort_order=D&per_page=${limit}`,
+        {
+          headers: { "X-com-zoho-store-organizationid": orgId },
+        }
+      );
+
+      if (!res.ok) {
+        return readTagCache();
+      }
+
+      const data = await res.json();
+      const recentItems = data.products || [];
+      const cache = readTagCache();
+      let changed = false;
+
+      // Only check the top few items that are new or whose modified time changed
+      for (const item of recentItems.slice(0, 5)) {
+        const id = String(item.product_id);
+        const existing = cache[id];
+        const itemModified = item.last_modified_time;
+
+        if (force || !existing || existing.lastModified !== itemModified) {
+          try {
+            // Polite spacing between single-item Zoho requests
+            await new Promise((r) => setTimeout(r, 400));
+
+            const detailRes = await fetchZohoWithRetry(
+              `https://commerce.zoho.${dc}/store/api/v1/products/${id}`,
+              {
+                headers: { "X-com-zoho-store-organizationid": orgId },
+              }
+            );
+
+            if (detailRes.status === 429) {
+              console.warn("[tagSync] Zoho rate limit encountered (429). Pausing sync.");
+              break;
+            }
+
+            if (!detailRes.ok) continue;
+
+            const d = await detailRes.json();
+            if (!d?.product) continue;
+
+            const rawTags = d.product.tags || d.product.entity_tags || [];
+            const tags = rawTags
+              .map((t) => (typeof t === "string" ? t : (t?.tag_name || t?.name || "")).trim())
+              .filter(Boolean);
+
+            cache[id] = {
+              tags,
+              lastModified: itemModified,
+              name: item.name || d.product.name || "",
+              updatedAt: Date.now(),
+            };
+            changed = true;
+          } catch (err) {
+            console.warn(`[tagSync] failed fetching detail for ${id}:`, err.message);
+          }
+        }
+      }
+
+      if (changed) {
+        writeTagCache(cache);
+      }
+      lastTagSyncTime = Date.now();
+      return cache;
+    } catch (err) {
+      console.warn("[tagSync] failed to sync recent tags:", err.message);
+      return readTagCache();
+    } finally {
+      tagSyncInProgress = null;
+    }
+  })();
+
+  return tagSyncInProgress;
+}
+
 export async function getAccessToken({ forceRefresh = false } = {}) {
   const env = loadEnv();
   const now = Date.now();
@@ -72,6 +228,17 @@ export async function getAccessToken({ forceRefresh = false } = {}) {
       tokenExpiryTime = diskData.expires_at;
       return cachedAccessToken;
     }
+  }
+
+  // If currently within a Zoho OAuth lockout period, fall back to cached token
+  if (now < zohoThrottleUntil) {
+    const diskData = readDiskCache();
+    if (diskData && diskData.access_token) {
+      cachedAccessToken = diskData.access_token;
+      tokenExpiryTime = diskData.expires_at;
+      return cachedAccessToken;
+    }
+    if (cachedAccessToken) return cachedAccessToken;
   }
 
   // Deduplicate concurrent token refresh requests (singleflight)
@@ -103,16 +270,19 @@ export async function getAccessToken({ forceRefresh = false } = {}) {
 
       const data = await res.json();
       if (!data.access_token) {
-        // If throttled by Zoho (10 requests/10 min), reuse disk cache if available
+        const desc = String(data.error_description || data.error || "");
+        if (desc.includes("too many requests") || desc.includes("Access Denied")) {
+          // Lock out for 5 minutes so we don't hammer Zoho
+          zohoThrottleUntil = Date.now() + 5 * 60 * 1000;
+        }
         const diskData = readDiskCache();
         if (diskData && diskData.access_token) {
-          console.warn("⚠️ Zoho refresh rate limited. Falling back to active token cache.", data.error_description || data.error);
+          console.warn("⚠️ Zoho refresh rate limited. Falling back to active token cache.", desc);
           cachedAccessToken = diskData.access_token;
           tokenExpiryTime = diskData.expires_at;
           return cachedAccessToken;
         }
-        const desc = data.error_description ? ` (${data.error_description})` : "";
-        throw new Error(`Failed to refresh Zoho token: ${data.error || JSON.stringify(data)}${desc}`);
+        throw new Error(`Failed to refresh Zoho token: ${data.error || JSON.stringify(data)}${desc ? ` (${desc})` : ""}`);
       }
 
       cachedAccessToken = data.access_token;
@@ -129,7 +299,7 @@ export async function getAccessToken({ forceRefresh = false } = {}) {
 }
 
 /**
- * Fetch wrapper that automatically catches 401 Unauthorized, purges cached token,
+ * Fetch wrapper that automatically catches 401 Unauthorized,
  * requests a fresh OAuth access token, and retries the request once.
  */
 export async function fetchZohoWithRetry(url, options = {}) {
@@ -140,13 +310,14 @@ export async function fetchZohoWithRetry(url, options = {}) {
   };
 
   let res = await fetch(url, { ...options, headers });
-  if (res.status === 401) {
-    clearDiskCache();
-    cachedAccessToken = null;
-    tokenExpiryTime = 0;
-    token = await getAccessToken({ forceRefresh: true });
-    headers.Authorization = `Zoho-oauthtoken ${token}`;
-    res = await fetch(url, { ...options, headers });
+  if (res.status === 401 && !options._retried) {
+    try {
+      token = await getAccessToken({ forceRefresh: true });
+      headers.Authorization = `Zoho-oauthtoken ${token}`;
+      res = await fetch(url, { ...options, _retried: true, headers });
+    } catch (err) {
+      console.warn("Zoho retry failed:", err.message);
+    }
   }
   return res;
 }
@@ -545,7 +716,7 @@ function normalizeProduct(p, livePricebookRates = {}) {
         ? p.entity_tags
         : (Array.isArray(p.product_tags) && p.product_tags.length > 0
           ? p.product_tags
-          : (p.tag ? [p.tag] : []))))
+          : (p.tag ? [p.tag] : (getCachedProductTags(p.product_id) || [])))))
       .map((t) => (typeof t === "string" ? t : (t?.tag_name || t?.name || "")).trim())
       .filter(Boolean),
     cat: catKey,
@@ -776,6 +947,10 @@ export async function fetchAllRawZohoProducts({ refresh = false } = {}) {
 
   cachedAllRawProducts = allProducts;
   allRawProductsCacheTime = now;
+
+  // Background sync tags for recently modified products so catalogue cards have fresh Zoho tags
+  syncRecentProductTags({ force: refresh }).catch(() => {});
+
   return allProducts;
 }
 
@@ -887,6 +1062,9 @@ export async function fetchZohoProductById(identifier, { pricebookId = "33346720
   }
 
   const product = normalizeProduct(data.product, livePricebookRates);
+  if (product.tags?.length) {
+    updateCachedProductTags(targetId, product.tags, data.product.last_modified_time, product.name);
+  }
   cachedProductDetails.set(detailCacheKey, { product, time: now });
   return product;
 }

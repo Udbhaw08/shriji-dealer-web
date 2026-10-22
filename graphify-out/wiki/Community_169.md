@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **Alerts** (8 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **alerts.md** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Buttons** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Toggles** (5 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Desktop (macOS)** (4 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **toggles.md** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Checkboxes** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Radio buttons** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Switches** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
 
 ## Relationships
 
@@ -22,7 +22,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/alerts.md`
+- `.agents/skills/apple-design/references/hig/toggles.md`
 
 ## Audit Trail
 

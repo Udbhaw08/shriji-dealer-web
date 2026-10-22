@@ -1,57 +1,62 @@
 # Community 46
 
-> 29 nodes · cohesion 0.13
+> 31 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **D()** (28 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **qd()** (14 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **Yd()** (13 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **Fd()** (12 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **Vd()** (12 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **rf()** (11 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **df()** (10 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **kc()** (9 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **ff()** (8 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **ct()** (7 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **Rd()** (7 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **Bd()** (6 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **Ci()** (6 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **ef()** (6 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **nf()** (6 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **Hd()** (5 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **Id()** (5 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **Kd()** (5 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **lf()** (5 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **mf()** (5 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **ns()** (5 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **tf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **Gd()** (3 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **uf()** (3 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- *... and 4 more nodes in this community*
+- **visual-check.mjs** (50 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **runVisualCheck()** (18 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **desktop-readability.mjs** (9 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **adaptive-reader-layout.test.mjs** (9 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **desktop-reader-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- **DESKTOP_READABILITY_VIEWPORT** (5 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **observationDiagnostics()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **safeUnlink()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **writeAtomic()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **baseReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **cleanupCaptureSidecars()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **contactSheetHtml()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **failureDiagnostic()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **persistReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **sha256()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **sidecarPaths()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **htmlEscape()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **observation()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **screenshotKey()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **viewportSubject()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **CAPTURE_VIEWPORTS** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **EXIT** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **THEMES** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **reader** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (37 shared connections)
-- [[Master Codebase Architecture Reference]] (15 shared connections)
-- [[Zoho Integration Architecture]] (13 shared connections)
-- [[Community 51]] (10 shared connections)
-- [[Graphify Knowledge Graph Skill]] (8 shared connections)
-- [[Community 72]] (6 shared connections)
-- [[Zoho API Diagnostic Script]] (5 shared connections)
-- [[Graphify Agent Rules]] (5 shared connections)
-- [[Community 44]] (4 shared connections)
-- [[Community 115]] (1 shared connections)
+- [[Community 83]] (8 shared connections)
+- [[Community 124]] (6 shared connections)
+- [[Community 51]] (5 shared connections)
+- [[Product Brand & Business Vision]] (4 shared connections)
+- [[Community 63]] (3 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (3 shared connections)
+- [[Community 137]] (2 shared connections)
+- [[Community 90]] (2 shared connections)
+- [[Community 103]] (2 shared connections)
+- [[Community 142]] (1 shared connections)
+- [[Community 143]] (1 shared connections)
+- [[Community 122]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 208 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 150 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

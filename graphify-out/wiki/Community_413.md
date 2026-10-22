@@ -4,22 +4,22 @@
 
 ## Key Concepts
 
-- **fromCol** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **maximum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **generate-viewer.test.mjs** (3 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
+- **fixture()** (1 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
+- **fragments** (1 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `.agents/skills/archify/test/generate-viewer.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

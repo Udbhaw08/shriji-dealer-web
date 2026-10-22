@@ -1,32 +1,34 @@
 # Community 196
 
-> 10 nodes · cohesion 0.29
+> 10 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **stages** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **additionalProperties** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **required** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **renderInline()** (6 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderInlineNode()** (6 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderHigLink()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderLink()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderParagraph()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderImage()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderReference()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **imageLabel()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **resolveAnchor()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **wrapInline()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- [[Zoho Integration Skill]] (3 shared connections)
-- [[Community 120]] (3 shared connections)
+- [[Community 73]] (10 shared connections)
+- [[Community 197]] (2 shared connections)
+- [[Community 229]] (1 shared connections)
+- [[Community 265]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 36 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

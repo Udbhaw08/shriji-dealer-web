@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Feedback** (4 connections) — `.agents/skills/apple-design/references/hig/feedback.md`
-- **feedback.md** (1 connections) — `.agents/skills/apple-design/references/hig/feedback.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/feedback.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/feedback.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/feedback.md`
+- **NFC** (4 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
+- **nfc.md** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
+- **Background tag reading** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
+- **In-app tag reading** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/feedback.md`
+- `.agents/skills/apple-design/references/hig/nfc.md`
 
 ## Audit Trail
 

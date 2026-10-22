@@ -1,59 +1,53 @@
 # Dependencies & Package Config
 
-> 73 nodes · cohesion 0.08
+> 83 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **session.js** (46 connections) — `src/data/session.js`
-- **auth.js** (40 connections) — `src/data/auth.js`
-- **Login.jsx** (40 connections) — `src/pages/Login.jsx`
-- **callBackend()** (24 connections) — `src/data/auth.js`
-- **json()** (24 connections) — `src/data/auth.js`
-- **DealerDashboard.jsx** (23 connections) — `src/pages/DealerDashboard.jsx`
-- **apiFetch()** (16 connections) — `src/data/api.js`
-- **api.js** (11 connections) — `src/data/api.js`
-- **EmailVerificationPrompt.jsx** (10 connections) — `src/components/EmailVerificationPrompt.jsx`
-- **broadcastAuthChange()** (10 connections) — `src/data/auth.js`
-- **setSession()** (10 connections) — `src/data/session.js`
-- **apiUrl()** (9 connections) — `src/data/api.js`
-- **revalidateSession()** (9 connections) — `src/data/session.js`
-- **loginCode.js** (8 connections) — `src/data/loginCode.js`
-- **registerDealer()** (7 connections) — `src/data/dealer.js`
-- **validators.js** (7 connections) — `src/data/validators.js`
-- **applyAuthResponse()** (6 connections) — `src/data/auth.js`
-- **logout()** (6 connections) — `src/data/auth.js`
-- **fetchMe()** (5 connections) — `src/data/auth.js`
-- **googleLogin()** (5 connections) — `src/data/auth.js`
-- **login()** (5 connections) — `src/data/auth.js`
-- **signup()** (5 connections) — `src/data/auth.js`
-- **staffTogglePrice()** (5 connections) — `src/data/auth.js`
-- **staffTogglePriceAll()** (5 connections) — `src/data/auth.js`
-- **verifyEmailOtp()** (5 connections) — `src/data/auth.js`
-- *... and 48 more nodes in this community*
+- **dl()** (35 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **tl()** (19 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **Hc()** (15 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **kc()** (15 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **la()** (14 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **ac()** (13 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **cl()** (13 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **zc()** (13 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **lm()** (12 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **Mi()** (11 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **ol()** (11 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **fa()** (10 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **ji()** (10 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **oa()** (10 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **ba()** (9 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **fc()** (9 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **Sp()** (9 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **ul()** (9 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **ea()** (8 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **lc()** (8 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **ya()** (8 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **zo()** (8 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **Gc()** (7 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **Ii()** (7 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- **Pi()** (7 connections) — `ios/App/App/public/assets/index-BW_SDrEP.js`
+- *... and 58 more nodes in this community*
 
 ## Relationships
 
-- [[Product Requirements Documentation]] (29 shared connections)
-- [[Community 36]] (13 shared connections)
-- [[Community 49]] (10 shared connections)
-- [[Community 109]] (4 shared connections)
-- [[Community 168]] (1 shared connections)
+- [[Price Presentation & Product UI]] (89 shared connections)
+- [[Zoho API Diagnostic Script]] (35 shared connections)
+- [[Zoho Integration Architecture]] (23 shared connections)
+- [[Master Codebase Architecture Reference]] (20 shared connections)
+- [[Community 39]] (17 shared connections)
+- [[Community 56]] (12 shared connections)
+- [[Community 34]] (8 shared connections)
 
 ## Source Files
 
-- `src/components/EmailVerificationPrompt.jsx`
-- `src/data/api.js`
-- `src/data/auth.js`
-- `src/data/dealer.js`
-- `src/data/loginCode.js`
-- `src/data/session.js`
-- `src/data/validators.js`
-- `src/pages/DealerDashboard.jsx`
-- `src/pages/Login.jsx`
+- `ios/App/App/public/assets/index-BW_SDrEP.js`
 
 ## Audit Trail
 
-- EXTRACTED: 471 (100%)
+- EXTRACTED: 524 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

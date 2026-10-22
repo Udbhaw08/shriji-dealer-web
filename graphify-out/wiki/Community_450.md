@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **README.md** (1 connections) — `.agents/skills/archify/brand-marks/README.md`
-- **Built-in brand marks** (1 connections) — `.agents/skills/archify/brand-marks/README.md`
+- **esm-BMTsCUl6.js** (1 connections) — `ios/App/App/public/assets/esm-BMTsCUl6.js`
+- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-BMTsCUl6.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/brand-marks/README.md`
+- `ios/App/App/public/assets/esm-BMTsCUl6.js`
 
 ## Audit Trail
 

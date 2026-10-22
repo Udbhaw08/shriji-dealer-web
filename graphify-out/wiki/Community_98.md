@@ -1,41 +1,39 @@
 # Community 98
 
-> 19 nodes · cohesion 0.11
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **workflow.schema.json** (8 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **semanticRelation** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$defs** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **from** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **to** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **properties** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **side** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$id** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$schema** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **title** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **DESIGN.md — the design system as actually built** (8 connections) — `docs/DESIGN.md`
+- **4. Components already built — reuse these** (7 connections) — `docs/DESIGN.md`
+- **2. Tokens** (4 connections) — `docs/DESIGN.md`
+- **DESIGN.md** (1 connections) — `docs/DESIGN.md`
+- **1. The direction in one paragraph** (1 connections) — `docs/DESIGN.md`
+- **3. Layout primitives** (1 connections) — `docs/DESIGN.md`
+- **5. Icons** (1 connections) — `docs/DESIGN.md`
+- **6. Responsive rules** (1 connections) — `docs/DESIGN.md`
+- **7. Motion and accessibility** (1 connections) — `docs/DESIGN.md`
+- **Actions** (1 connections) — `docs/DESIGN.md`
+- **Colour** (1 connections) — `docs/DESIGN.md`
+- **Content** (1 connections) — `docs/DESIGN.md`
+- **Detail** (1 connections) — `docs/DESIGN.md`
+- **Listing sidebar** (1 connections) — `docs/DESIGN.md`
+- **Navigation and filtering** (1 connections) — `docs/DESIGN.md`
+- **Product** (1 connections) — `docs/DESIGN.md`
+- **Spacing, radius, shadow, motion** (1 connections) — `docs/DESIGN.md`
+- **Type** (1 connections) — `docs/DESIGN.md`
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (2 shared connections)
-- [[Community 104]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `docs/DESIGN.md`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (100%)
+- EXTRACTED: 34 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

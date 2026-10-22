@@ -1,57 +1,60 @@
 # Community 51
 
-> 27 nodes · cohesion 0.14
+> 27 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **i()** (66 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **n()** (26 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **is()** (12 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **as()** (9 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **os()** (8 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **xo()** (7 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **ds()** (6 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **ps()** (6 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **qs()** (6 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **us()** (6 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **ys()** (6 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **bs()** (5 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **Qo()** (5 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **ss()** (5 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **fs()** (4 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **ms()** (4 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **rs()** (4 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **so()** (4 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **eo()** (3 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **Qe()** (3 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **to()** (3 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **tu()** (3 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **za()** (3 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **zs()** (3 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **ks()** (2 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **.send()** (54 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **viewer-camera-browser.test.mjs** (11 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **export-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **motion-governor-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **.inspect()** (5 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **run()** (5 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **run()** (5 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **run()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **evaluate()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **record()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **screenshot()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **stable()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **viewport()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **.waitFor()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **screenshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
 - *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (32 shared connections)
-- [[Master Codebase Architecture Reference]] (24 shared connections)
-- [[Graphify Knowledge Graph Skill]] (11 shared connections)
-- [[Zoho API Diagnostic Script]] (11 shared connections)
-- [[Community 46]] (10 shared connections)
-- [[Graphify Agent Rules]] (8 shared connections)
-- [[Zoho Integration Architecture]] (8 shared connections)
-- [[Community 44]] (7 shared connections)
-- [[Community 72]] (3 shared connections)
-- [[Community 115]] (1 shared connections)
+- [[Community 63]] (11 shared connections)
+- [[Community 90]] (8 shared connections)
+- [[Community 83]] (7 shared connections)
+- [[Community 124]] (7 shared connections)
+- [[Community 46]] (5 shared connections)
+- [[Community 142]] (5 shared connections)
+- [[Community 143]] (5 shared connections)
+- [[Community 175]] (4 shared connections)
+- [[Community 103]] (1 shared connections)
+- [[Community 285]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/test/export-browser.test.mjs`
+- `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 213 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 146 (99%)
+- INFERRED: 2 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

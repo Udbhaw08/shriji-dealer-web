@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Pickers** (5 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **pickers.md** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Tab views** (6 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **tab-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/pickers.md`
+- `.agents/skills/apple-design/references/hig/tab-views.md`
 
 ## Audit Trail
 

@@ -1,57 +1,54 @@
 # Community 38
 
-> 34 nodes · cohesion 0.11
+> 35 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **D()** (28 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **qd()** (14 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **Yd()** (13 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **Fd()** (12 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **Vd()** (12 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **rf()** (11 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **df()** (10 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **kc()** (9 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **ff()** (8 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **ct()** (7 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **Rd()** (7 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **st()** (7 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **Bd()** (6 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **Ci()** (6 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **ef()** (6 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **nf()** (6 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **Hd()** (5 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **Id()** (5 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **jf()** (5 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **Kd()** (5 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **lf()** (5 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **mf()** (5 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **ns()** (5 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **cf()** (4 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **ot()** (4 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- *... and 9 more nodes in this community*
+- **i()** (66 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
+- **n()** (25 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
+- **as()** (13 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
+- **r()** (12 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
+- **c()** (11 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
+- **s()** (11 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
+- **ss()** (9 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
+- **fs()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
+- **Mp()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
+- **ms()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
+- **tc()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
+- **zs()** (7 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
+- **cs()** (6 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
+- **js()** (6 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
+- **vs()** (6 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
+- **el()** (5 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
+- **hm()** (5 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
+- **os()** (5 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
+- **Qa()** (5 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
+- **ds()** (4 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
+- **ec()** (4 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
+- **ps()** (4 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
+- **ws()** (4 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
+- **gs()** (3 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
+- **hs()** (3 connections) — `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (38 shared connections)
-- [[Client Products Data Store]] (15 shared connections)
-- [[Pricing Regression Test Suite]] (15 shared connections)
-- [[Community 53]] (10 shared connections)
-- [[Pricing & Roles Skill]] (8 shared connections)
-- [[Community 87]] (6 shared connections)
-- [[Community 45]] (4 shared connections)
-- [[Community 34]] (4 shared connections)
-- [[Community 65]] (4 shared connections)
-- [[Community 60]] (4 shared connections)
-- [[Community 112]] (3 shared connections)
+- [[Dealer Auth & Session Management]] (42 shared connections)
+- [[Product Pages Specification]] (28 shared connections)
+- [[Community 37]] (17 shared connections)
+- [[Community 33]] (14 shared connections)
+- [[Client Products Data Store]] (12 shared connections)
+- [[Community 45]] (10 shared connections)
+- [[Community 32]] (9 shared connections)
+- [[Community 40]] (8 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CBwWGiKG.js`
+- `android/app/src/main/assets/public/assets/index-BW_SDrEP.js`
 
 ## Audit Trail
 
-- EXTRACTED: 231 (100%)
+- EXTRACTED: 266 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,48 +1,41 @@
 # Community 109
 
-> 17 nodes · cohesion 0.17
+> 16 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **Icon()** (18 connections) — `src/ui.jsx`
-- **ContentAdminDashboard.jsx** (12 connections) — `src/pages/ContentAdminDashboard.jsx`
-- **HeroSlider.jsx** (11 connections) — `src/components/HeroSlider.jsx`
-- **video.js** (5 connections) — `src/utils/video.js`
-- **FileOrUrlInput.jsx** (4 connections) — `src/components/FileOrUrlInput.jsx`
-- **parseVideoUrl()** (4 connections) — `src/utils/video.js`
-- **HeroSlider()** (3 connections) — `src/components/HeroSlider.jsx`
-- **STATS** (3 connections) — `src/data/site.js`
-- **video-banner.test.mjs** (3 connections) — `src/data/video-banner.test.mjs`
-- **FileOrUrlInput()** (2 connections) — `src/components/FileOrUrlInput.jsx`
-- **ContentAdminDashboard()** (2 connections) — `src/pages/ContentAdminDashboard.jsx`
-- **getVideoBadgeLabel()** (2 connections) — `src/utils/video.js`
-- **getCachedBanners()** (1 connections) — `src/components/HeroSlider.jsx`
-- **DEFAULT_BANNER_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
-- **DEFAULT_BRANDING_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
-- **DEFAULT_SCHEME_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
-- **QUICK_COLORS** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **compareArchitecture()** (12 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **fail()** (8 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **canonicalArchitecture()** (5 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryIndex()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **canonicalArchitectureJson()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **equal()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **normalizeRepository()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **canonical()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **extractArchitectureSvg()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **extractArtifactCss()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **presentationChanged()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **requireComparableShape()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **stableIndex()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryKey()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **sortedBy()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **summaryFor()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Relationships
 
-- [[Product Requirements Documentation]] (18 shared connections)
-- [[Dependencies & Package Config]] (4 shared connections)
-- [[Community 36]] (4 shared connections)
-- [[Community 49]] (2 shared connections)
+- [[Community 60]] (18 shared connections)
+- [[Community 286]] (4 shared connections)
+- [[Community 138]] (2 shared connections)
+- [[Community 160]] (1 shared connections)
 
 ## Source Files
 
-- `src/components/FileOrUrlInput.jsx`
-- `src/components/HeroSlider.jsx`
-- `src/data/site.js`
-- `src/data/video-banner.test.mjs`
-- `src/pages/ContentAdminDashboard.jsx`
-- `src/ui.jsx`
-- `src/utils/video.js`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 73 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 61 (94%)
+- INFERRED: 4 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

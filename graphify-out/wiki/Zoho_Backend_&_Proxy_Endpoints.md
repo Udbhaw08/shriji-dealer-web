@@ -1,18 +1,18 @@
 # Zoho Backend & Proxy Endpoints
 
-> 84 nodes · cohesion 0.06
+> 92 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **zoho.js** (44 connections) — `api/zoho.js`
+- **zoho.js** (51 connections) — `api/zoho.js`
+- **vite.config.js** (20 connections) — `vite.config.js`
 - **content.js** (19 connections) — `backend/src/services/content.js`
-- **vite.config.js** (19 connections) — `vite.config.js`
-- **fetchZohoProductById()** (15 connections) — `api/zoho.js`
+- **fetchZohoProductById()** (16 connections) — `api/zoho.js`
 - **fetchZohoProducts()** (14 connections) — `api/zoho.js`
 - **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
+- **zohoApiPlugin()** (13 connections) — `vite.config.js`
 - **fetchZohoWithRetry()** (12 connections) — `api/zoho.js`
 - **getZohoConfig()** (12 connections) — `api/zoho.js`
-- **zohoApiPlugin()** (12 connections) — `vite.config.js`
 - **content.js** (11 connections) — `api/content.js`
 - **content.js** (11 connections) — `backend/src/routes/content.js`
 - **handler()** (10 connections) — `api/content.js`
@@ -20,22 +20,22 @@
 - **getSupabaseBanners()** (9 connections) — `backend/src/services/content.js`
 - **fetchZohoCategories()** (8 connections) — `api/zoho.js`
 - **getSupabaseSchemes()** (8 connections) — `backend/src/services/content.js`
+- **fetchAllRawZohoProducts()** (7 connections) — `api/zoho.js`
 - **fetchZohoBanners()** (7 connections) — `api/zoho.js`
 - **fetchZohoSchemes()** (7 connections) — `api/zoho.js`
 - **getCategoryVisibilityMap()** (7 connections) — `api/zoho.js`
 - **getDealerById()** (7 connections) — `api/zoho.js`
 - **getSupabaseBranding()** (7 connections) — `backend/src/services/content.js`
-- **fetchAllRawZohoProducts()** (6 connections) — `api/zoho.js`
 - **fetchZohoPricebookItems()** (6 connections) — `api/zoho.js`
 - **getAccessToken()** (6 connections) — `api/zoho.js`
-- **getActiveContent()** (6 connections) — `backend/src/services/content.js`
-- *... and 59 more nodes in this community*
+- **normalizeProduct()** (6 connections) — `api/zoho.js`
+- *... and 67 more nodes in this community*
 
 ## Relationships
 
-- [[Community 33]] (9 shared connections)
-- [[Community 73]] (2 shared connections)
-- [[Community 50]] (2 shared connections)
+- [[Community 43]] (9 shared connections)
+- [[Community 53]] (2 shared connections)
+- [[Community 47]] (2 shared connections)
 
 ## Source Files
 
@@ -55,7 +55,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 417 (99%)
+- EXTRACTED: 451 (99%)
 - INFERRED: 4 (1%)
 - AMBIGUOUS: 0 (0%)
 

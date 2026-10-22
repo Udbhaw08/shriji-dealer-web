@@ -4,39 +4,42 @@
 
 ## Key Concepts
 
-- **Machine learning** (15 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **The role of machine learning in your app** (6 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **machine-learning.md** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Attribution** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Calibration** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Confidence** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Corrections** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Critical or complementary** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Dynamic or static** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Explicit feedback** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Implicit feedback** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Limitations** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Mistakes** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Multiple options** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Planning your design** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Private or public** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Proactive or reactive** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Visible or invisible** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **properties** (12 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **meta** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **lanes** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **mainPath** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **nodes** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **cards** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **schema_version** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 131]] (5 shared connections)
+- [[Community 79]] (2 shared connections)
+- [[Community 94]] (1 shared connections)
+- [[Community 69]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/machine-learning.md`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
+- EXTRACTED: 49 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -184,7 +184,7 @@ authRouter.get('/me', jwtAuth, async (req, res, next) => {
     let dealer = (await sql`select * from dealers where id = ${userDealerId} or owner_user_id = ${user.id} order by case when status = 'approved' then 1 when status = 'pending' then 2 else 3 end asc limit 1`)[0] || null;
     if (dealer?.zoho_account_id && crm.isCrmConfigured()) {
       const last = lastCrmSyncByDealerId.get(dealer.id) || 0;
-      if (Date.now() - last > 30_000) {
+      if (Date.now() - last > 15 * 60_000) {
         lastCrmSyncByDealerId.set(dealer.id, Date.now());
         try { const account = await crm.getDealerAccount(dealer.zoho_account_id); if (account) await applyCrmAccountState(dealer, account); } catch (error) { log.warn('[auth/me] CRM sync skipped:', error.message); }
       }

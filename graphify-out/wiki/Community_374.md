@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **Path controls** (4 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
-- **path-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
+- **12. Performance Typography** (5 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Performance Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Requirements** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Rules** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **System Font Stack** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 225]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/path-controls.md`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

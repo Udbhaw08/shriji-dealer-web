@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Boxes** (5 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
-- **boxes.md** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **Going full screen** (5 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **going-full-screen.md** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/boxes.md`
+- `.agents/skills/apple-design/references/hig/going-full-screen.md`
 
 ## Audit Trail
 

@@ -1,35 +1,39 @@
 # Community 133
 
-> 14 nodes · cohesion 0.14
+> 14 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **File management** (7 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Desktop (macOS)** (3 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Mobile (iOS, iPadOS)** (3 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **file-management.md** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Creating and opening files** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Custom file management** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Document launcher** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **File provider app extension** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Finder Sync extensions** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Quick Look previews** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Saving work** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **commerceClient.js** (22 connections) — `backend/src/services/commerceClient.js`
+- **ensureContactPricebookForCrmAccount()** (8 connections) — `backend/src/services/commerceClient.js`
+- **fetchCatalog()** (6 connections) — `backend/src/services/commerceClient.js`
+- **booksFetch()** (5 connections) — `backend/src/services/commerceClient.js`
+- **commerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
+- **commerceFetch()** (5 connections) — `backend/src/services/commerceClient.js`
+- **isCommerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
+- **resolvePricebookId()** (5 connections) — `backend/src/services/commerceClient.js`
+- **assignPricebookToContact()** (4 connections) — `backend/src/services/commerceClient.js`
+- **deactivateCommerceContact()** (3 connections) — `backend/src/services/commerceClient.js`
+- **fetchCommercePricebooks()** (3 connections) — `backend/src/services/commerceClient.js`
+- **fetchPricebookRates()** (3 connections) — `backend/src/services/commerceClient.js`
+- **getAccessToken()** (3 connections) — `backend/src/services/commerceClient.js`
+- **parseRate()** (2 connections) — `backend/src/services/commerceClient.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 106]] (6 shared connections)
+- [[Community 52]] (5 shared connections)
+- [[Community 43]] (4 shared connections)
+- [[Community 47]] (2 shared connections)
+- [[Community 53]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/file-management.md`
+- `backend/src/services/commerceClient.js`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 79 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

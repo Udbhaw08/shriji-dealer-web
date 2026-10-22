@@ -1,57 +1,59 @@
 # Pricing Regression Test Suite
 
-> 55 nodes · cohesion 0.07
+> 54 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **ul()** (37 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **gc()** (16 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **el()** (15 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **vc()** (15 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **sl()** (13 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **ca()** (12 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **lm()** (12 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **wc()** (12 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **ll()** (11 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **xc()** (11 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **aa()** (10 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **am()** (10 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **Mc()** (10 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **ya()** (10 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **al()** (9 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **Pc()** (8 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **uc()** (8 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **xa()** (8 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **cl()** (7 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **da()** (7 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **nc()** (7 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **Ni()** (7 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **Fc()** (6 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **lh()** (6 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **Ro()** (6 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- *... and 30 more nodes in this community*
+- **geometry.mjs** (75 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **asArray()** (43 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **geometry.test.mjs** (34 connections) — `.agents/skills/archify/test/geometry.test.mjs`
+- **isFinitePoint()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanFlowProblems()** (17 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanEndpointSideProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **collectLabelRouteClearance()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **segmentIntersectsRect()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **suggestLabelObstacleFix()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **collectBorderRuns()** (10 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **normalizeRoutePoints()** (10 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **routeHonorsEndpointSides()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **collectAmbiguousCorridors()** (8 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **polylinePath()** (8 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **segmentRectClearance()** (8 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **suggestLabelPairFix()** (8 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **recordDiagnostic()** (7 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **collectRouteRhythmIssues()** (7 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **roundedPath()** (7 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **routeBudgetMetrics()** (6 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **automaticPortRhythmBridge()** (5 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **forwardCollinearAnalysisSegments()** (5 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **sourceSegmentIndexAtPoint()** (5 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **suggestComponentSeparation()** (5 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **crossProduct()** (4 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- *... and 29 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (64 shared connections)
-- [[Community 53]] (22 shared connections)
-- [[Community 38]] (15 shared connections)
-- [[Pricing & Roles Skill]] (14 shared connections)
-- [[Community 112]] (10 shared connections)
-- [[Community 45]] (9 shared connections)
-- [[Client Products Data Store]] (8 shared connections)
-- [[Community 34]] (8 shared connections)
-- [[Community 87]] (6 shared connections)
-- [[Community 60]] (5 shared connections)
-- [[Community 65]] (5 shared connections)
+- [[Oxlint Linter Configuration]] (50 shared connections)
+- [[Live Pricing Audit Tool]] (37 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (23 shared connections)
+- [[Community 54]] (21 shared connections)
+- [[Community 82]] (21 shared connections)
+- [[Community 29]] (11 shared connections)
+- [[Product Brand & Business Vision]] (6 shared connections)
+- [[Product Requirements Documentation]] (4 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CBwWGiKG.js`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- `.agents/skills/archify/renderers/shared/geometry.mjs`
+- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- `.agents/skills/archify/test/geometry.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 388 (100%)
+- EXTRACTED: 421 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

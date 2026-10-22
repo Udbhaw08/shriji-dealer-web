@@ -1,35 +1,35 @@
 # Community 135
 
-> 14 nodes · cohesion 0.23
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **web-BLPMNbL_.js** (13 connections) — `ios/App/App/public/assets/web-BLPMNbL_.js`
-- **applyPrefix()** (4 connections) — `ios/App/App/public/assets/web-BLPMNbL_.js`
-- **keys()** (4 connections) — `ios/App/App/public/assets/web-BLPMNbL_.js`
-- **get()** (3 connections) — `ios/App/App/public/assets/web-BLPMNbL_.js`
-- **migrate()** (3 connections) — `ios/App/App/public/assets/web-BLPMNbL_.js`
-- **rawKeys()** (3 connections) — `ios/App/App/public/assets/web-BLPMNbL_.js`
-- **clear()** (2 connections) — `ios/App/App/public/assets/web-BLPMNbL_.js`
-- **remove()** (2 connections) — `ios/App/App/public/assets/web-BLPMNbL_.js`
-- **removeOld()** (2 connections) — `ios/App/App/public/assets/web-BLPMNbL_.js`
-- **set()** (2 connections) — `ios/App/App/public/assets/web-BLPMNbL_.js`
-- **configure()** (1 connections) — `ios/App/App/public/assets/web-BLPMNbL_.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-BLPMNbL_.js`
-- **impl()** (1 connections) — `ios/App/App/public/assets/web-BLPMNbL_.js`
-- **prefix()** (1 connections) — `ios/App/App/public/assets/web-BLPMNbL_.js`
+- **real-repository-proof.test.mjs** (15 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **automaticMcoRoot()** (2 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **artifactPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **connectionLabelGeometry()** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **evidencePayload()** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **experimentArtifactPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **experimentSourcePath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **pinnedSource** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **shareCardPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **sourcePath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 160]] (3 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-BLPMNbL_.js`
+- `.agents/skills/archify/test/real-repository-proof.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 29 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

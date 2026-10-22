@@ -1,33 +1,33 @@
 # Community 162
 
-> 12 nodes · cohesion 0.17
+> 11 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **SF Symbols** (11 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **sf-symbols.md** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Animations** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Custom symbols** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Design variants** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Gradients** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Rendering modes** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Variable color** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Weights and scales** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **favoritesStore.js** (18 connections) — `src/data/favoritesStore.js`
+- **persist()** (5 connections) — `src/data/favoritesStore.js`
+- **addFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **removeFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **toggleFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **clearFavorites()** (2 connections) — `src/data/favoritesStore.js`
+- **notify()** (2 connections) — `src/data/favoritesStore.js`
+- **favoritesState** (1 connections) — `src/data/favoritesStore.js`
+- **getFavorites()** (1 connections) — `src/data/favoritesStore.js`
+- **listeners** (1 connections) — `src/data/favoritesStore.js`
+- **loadFromStorage()** (1 connections) — `src/data/favoritesStore.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Architecture Doc Generator]] (6 shared connections)
+- [[Design System & UI Tokens]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- `src/data/favoritesStore.js`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

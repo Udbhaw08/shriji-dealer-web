@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **AirPlay** (6 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Using AirPlay icons** (4 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **airplay.md** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Black AirPlay icon** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Custom color AirPlay icon** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Referring to AirPlay** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **White AirPlay icon** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Notifications** (9 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **notifications.md** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Badging** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Notification actions** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
 
 ## Relationships
 
@@ -21,7 +21,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/airplay.md`
+- `.agents/skills/apple-design/references/hig/notifications.md`
 
 ## Audit Trail
 

@@ -30,6 +30,8 @@ function sanitizeCategories(cats) {
   });
 }
 
+const CACHE_TTL_MS = 3 * 60 * 1000; // 3 minutes fresh cache
+
 let activePricebookId = null;
 
 function loadCached(pbId = activePricebookId) {
@@ -37,13 +39,16 @@ function loadCached(pbId = activePricebookId) {
     const raw = localStorage.getItem(getCacheKey(pbId));
     if (raw) {
       const data = JSON.parse(raw);
+      const isStale = !data.time || (Date.now() - data.time > CACHE_TTL_MS);
+      const hasAnyTags = Array.isArray(data.products) && data.products.some((p) => p.tags && p.tags.length > 0);
       if (Array.isArray(data.products) && data.products.length > 0) {
         return {
           products: data.products,
           categories: sanitizeCategories(data.categories),
           loaded: true,
-          syncing: false,
+          syncing: isStale || !hasAnyTags,
           pricebookId: pbId,
+          needsRefresh: isStale || !hasAnyTags,
         };
       }
     }
@@ -54,6 +59,7 @@ function loadCached(pbId = activePricebookId) {
     loaded: false,
     syncing: true,
     pricebookId: pbId,
+    needsRefresh: true,
   };
 }
 
@@ -144,7 +150,20 @@ export function syncPricebookWithSession(session) {
 
 // Automatically fetch latest live Zoho catalog whenever store is loaded
 if (typeof window !== "undefined") {
-  fetchLiveProducts();
+  fetchLiveProducts(Boolean(storeState.needsRefresh));
+}
+
+export async function syncTagsLive() {
+  try {
+    const res = await apiFetch("/api/products/sync-tags");
+    const data = await res.json();
+    if (data.ok) {
+      await fetchLiveProducts(true, activePricebookId);
+      return data;
+    }
+  } catch (err) {
+    console.warn("Failed to sync tags:", err);
+  }
 }
 
 export function useProducts() {

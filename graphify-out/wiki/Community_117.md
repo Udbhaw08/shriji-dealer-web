@@ -1,25 +1,24 @@
 # Community 117
 
-> 16 nodes · cohesion 0.12
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **Color** (10 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Specifications** (3 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **color.md** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **App accent colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Color management** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Inclusive color** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **iOS, iPadOS system gray colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Liquid Glass color** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **System colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **System colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Liquid Glass** (6 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Apple's rules** (5 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Cross-platform translation** (5 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **liquid-glass.md** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Color on glass** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Flutter** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **React Native** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Review checklist** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Standard materials beneath the glass** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **SwiftUI, UIKit, and AppKit** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Tauri and Electron** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **The two layers** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Where the material belongs** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Which variant** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
 
 ## Relationships
 
@@ -27,11 +26,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/color.md`
+- `.agents/skills/apple-design/references/hig/liquid-glass.md`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

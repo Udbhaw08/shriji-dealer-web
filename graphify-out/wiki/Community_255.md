@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Motion** (7 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **motion.md** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **Leveraging platform capabilities** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **Providing feedback** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **Progress indicators** (4 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
+- **Mobile (iOS, iPadOS)** (2 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
+- **progress-indicators.md** (1 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
+- **Refresh content controls** (1 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/motion.md`
+- `.agents/skills/apple-design/references/hig/progress-indicators.md`
 
 ## Audit Trail
 

@@ -1,33 +1,34 @@
 # Community 157
 
-> 12 nodes · cohesion 0.17
+> 12 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **Inclusion** (11 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **inclusion.md** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Accessibility** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Avoiding stereotypes** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Being approachable** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Gender identity** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Inclusive by design** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Languages** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **People and settings** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Welcoming language** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **guidedViews** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **cards** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **additionalProperties** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **required** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 173]] (3 shared connections)
+- [[Community 72]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/inclusion.md`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 33 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

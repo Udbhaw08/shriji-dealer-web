@@ -1,35 +1,33 @@
 # Community 151
 
-> 13 nodes · cohesion 0.21
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **workflow-compiler-hard-contract.test.mjs** (14 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **workflow()** (4 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **oneLaneAnchors()** (3 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **oneLaneWorkflow()** (3 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **crossingAtForwardCollinearViaWorkflow()** (2 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **nestedOutsideRightCorridorWorkflow()** (2 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **assertExplicitPinConflict()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **assertOrthogonal()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **assertSupportedFixesNameChangedEdge()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **clone()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **mutate()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **routeContainsChannel()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **segmentMeetsRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **Inclusion** (11 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **inclusion.md** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Accessibility** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Avoiding stereotypes** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Being approachable** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Gender identity** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Inclusive by design** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Languages** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **People and settings** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Welcoming language** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
 
 ## Relationships
 
-- [[Community 136]] (2 shared connections)
-- [[Community 83]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- `.agents/skills/apple-design/references/hig/inclusion.md`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

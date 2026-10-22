@@ -1,56 +1,47 @@
 # Graphify Agent Rules
 
-> 39 nodes · cohesion 0.09
+> 40 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **.addEventListener()** (19 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **b()** (18 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **h()** (14 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **fp()** (13 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **.removeEventListener()** (12 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **delete()** (11 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **cm()** (7 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **E()** (7 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **lp()** (7 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **tm()** (7 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **em()** (6 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **.blur()** (6 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **.scrollIntoView()** (6 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **ol()** (6 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **v()** (6 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **g()** (5 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **hm()** (5 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **pm()** (5 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **Rp()** (5 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **uh()** (5 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **x()** (5 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **Bp()** (4 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **dl()** (4 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **.getClientRects()** (4 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **kl()** (4 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- *... and 14 more nodes in this community*
+- **Color Guide** (13 connections) — `.agents/skills/refero-design/references/color.md`
+- **2. Palette Structure** (5 connections) — `.agents/skills/refero-design/references/color.md`
+- **5. Light and Dark Themes** (5 connections) — `.agents/skills/refero-design/references/color.md`
+- **7. Building a Palette from Scratch** (5 connections) — `.agents/skills/refero-design/references/color.md`
+- **4. Contrast and Readability** (4 connections) — `.agents/skills/refero-design/references/color.md`
+- **6. Naming Tokens** (4 connections) — `.agents/skills/refero-design/references/color.md`
+- **9. Anti-Patterns** (4 connections) — `.agents/skills/refero-design/references/color.md`
+- **1. Color Space** (3 connections) — `.agents/skills/refero-design/references/color.md`
+- **3. The 60/30/10 Rule** (3 connections) — `.agents/skills/refero-design/references/color.md`
+- **8. Gradients** (2 connections) — `.agents/skills/refero-design/references/color.md`
+- **color.md** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **10. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **2.1 Neutrals (Most Important)** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **2.2 Primary Accent** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **2.3 Semantic Colors** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **2.4 Effects (Only If Needed)** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Bad** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Common Failures** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Component Color Limit** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Dark Mode: Technical Implementation** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Dark Theme Elevation** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Good** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Minimum Requirements** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (39 shared connections)
-- [[Zoho Integration Architecture]] (14 shared connections)
-- [[Community 51]] (8 shared connections)
-- [[Master Codebase Architecture Reference]] (8 shared connections)
-- [[Zoho API Diagnostic Script]] (7 shared connections)
-- [[Graphify Knowledge Graph Skill]] (7 shared connections)
-- [[Community 46]] (5 shared connections)
-- [[Community 72]] (5 shared connections)
-- [[Community 44]] (4 shared connections)
-- [[Community 115]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- `.agents/skills/refero-design/references/color.md`
 
 ## Audit Trail
 
-- EXTRACTED: 229 (100%)
+- EXTRACTED: 78 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -6,6 +6,7 @@ import {
   fetchZohoProducts,
   fetchZohoProductById,
   fetchZohoCategories,
+  syncRecentProductTags,
 } from './api/zoho.js'
 import downloadHandler from './api/download.js'
 
@@ -234,12 +235,29 @@ function zohoApiPlugin() {
           }
         }
 
+        // Products tag sync route
+        if (req.url === '/api/products/sync-tags' || req.url.startsWith('/api/products/sync-tags?')) {
+          try {
+            const cache = await syncRecentProductTags({ force: true, limit: 50 });
+            res.statusCode = 200;
+            res.setHeader('Content-Type', 'application/json');
+            return res.end(JSON.stringify({ ok: true, count: Object.keys(cache).length, tags: cache }));
+          } catch (err) {
+            res.statusCode = 500;
+            res.setHeader('Content-Type', 'application/json');
+            return res.end(JSON.stringify({ ok: false, error: err.message }));
+          }
+        }
+
         // Products catalogue route
         if (req.url === '/api/products' || req.url.startsWith('/api/products?')) {
           try {
             const urlObj = new URL(req.url, 'http://localhost');
             const refresh = urlObj.searchParams.get('refresh') === 'true';
             const pricebookId = urlObj.searchParams.get('pricebook_id') || '3334672000000547177';
+            if (refresh) {
+              await syncRecentProductTags({ force: true, limit: 40 });
+            }
             const [products, categories] = await Promise.all([
               fetchZohoProducts({ refresh, pricebookId }),
               fetchZohoCategories({ refresh }),

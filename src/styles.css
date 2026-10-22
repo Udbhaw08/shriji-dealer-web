@@ -3286,9 +3286,15 @@ h4 {
 }
 .prod-tag {
   position: absolute;
-  top: var(--s3);
-  left: var(--s3);
+  top: 10px;
+  left: 10px;
   z-index: 2;
+  font-size: 0.7rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-weight: 700;
+  box-shadow: 0 2px 8px rgba(12, 92, 214, 0.22);
+  pointer-events: none;
 }
 
 /* Product cards maintain image on top, name at bottom across all viewports */

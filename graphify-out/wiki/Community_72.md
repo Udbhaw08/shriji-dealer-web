@@ -1,52 +1,48 @@
 # Community 72
 
-> 23 nodes · cohesion 0.16
+> 23 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **l()** (31 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **be()** (13 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **yl()** (13 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **Oe()** (11 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **vl()** (10 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **ga()** (6 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **la()** (6 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **Lo()** (6 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **Do()** (5 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **ea()** (5 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **ie()** (5 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **pl()** (5 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **ae()** (4 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **fl()** (4 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **ge()** (4 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **ke()** (4 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **ve()** (4 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **se()** (3 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **Ud()** (3 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **Ym()** (3 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **gl()** (2 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **hl()** (2 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
-- **Wf()** (2 connections) — `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- **$defs** (16 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **common.schema.json** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **animation** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **brandMark** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **componentType** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **legendMode** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **locale** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **qualityProfile** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **side** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **variant** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **visualPreset** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **oneOf** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **$id** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **$schema** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **title** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (26 shared connections)
-- [[Zoho Integration Architecture]] (13 shared connections)
-- [[Master Codebase Architecture Reference]] (7 shared connections)
-- [[Graphify Knowledge Graph Skill]] (6 shared connections)
-- [[Community 46]] (6 shared connections)
-- [[Graphify Agent Rules]] (5 shared connections)
-- [[Zoho API Diagnostic Script]] (4 shared connections)
-- [[Community 51]] (3 shared connections)
-- [[Community 44]] (1 shared connections)
+- [[Community 157]] (2 shared connections)
+- [[Community 427]] (1 shared connections)
+- [[Community 172]] (1 shared connections)
+- [[Community 346]] (1 shared connections)
+- [[Community 428]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CBwWGiKG.js`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 151 (100%)
+- EXTRACTED: 50 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Activity views** (5 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
-- **activity-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
-- **Share and action extensions** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **Modality** (5 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **modality.md** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/activity-views.md`
+- `.agents/skills/apple-design/references/hig/modality.md`
 
 ## Audit Trail
 

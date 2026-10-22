@@ -1,45 +1,40 @@
 # Community 92
 
-> 20 nodes · cohesion 0.22
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **hash.js** (18 connections) — `backend/src/utils/hash.js`
-- **loginCode.js** (15 connections) — `backend/src/utils/loginCode.js`
-- **generateLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
-- **hash.test.mjs** (7 connections) — `backend/test/hash.test.mjs`
-- **loginCode.test.mjs** (7 connections) — `backend/test/loginCode.test.mjs`
-- **formatLoginCode()** (7 connections) — `backend/src/utils/loginCode.js`
-- **hashPassword()** (4 connections) — `backend/src/utils/hash.js`
-- **verifyPassword()** (4 connections) — `backend/src/utils/hash.js`
-- **isValidLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
-- **parseLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
-- **generateOtp()** (3 connections) — `backend/src/utils/hash.js`
-- **scryptKey()** (3 connections) — `backend/src/utils/hash.js`
-- **USER_CATEGORIES** (3 connections) — `backend/src/utils/loginCode.js`
-- **generateCode()** (2 connections) — `backend/src/utils/hash.js`
-- **randomToken()** (2 connections) — `backend/src/utils/hash.js`
-- **generateRandomDigits()** (2 connections) — `backend/src/utils/loginCode.js`
-- **generateRandomLetters()** (2 connections) — `backend/src/utils/loginCode.js`
-- **GST_TREATMENT_OPTIONS** (2 connections) — `backend/src/utils/loginCode.js`
-- **SCRYPT** (1 connections) — `backend/src/utils/hash.js`
-- **PREFIX_MAP** (1 connections) — `backend/src/utils/loginCode.js`
+- **The menu bar** (15 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **the-menu-bar.md** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **App menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **App-specific menus** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Dynamic menu items** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Edit menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **File menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Format menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Help menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Menu bar extras** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **View menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Window menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
 
 ## Relationships
 
-- [[Community 33]] (11 shared connections)
-- [[Community 54]] (6 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `backend/src/utils/hash.js`
-- `backend/src/utils/loginCode.js`
-- `backend/test/hash.test.mjs`
-- `backend/test/loginCode.test.mjs`
+- `.agents/skills/apple-design/references/hig/the-menu-bar.md`
 
 ## Audit Trail
 
-- EXTRACTED: 99 (100%)
+- EXTRACTED: 36 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

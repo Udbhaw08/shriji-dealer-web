@@ -1,61 +1,57 @@
 # Community 54
 
-> 27 nodes · cohesion 0.18
+> 26 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **auth.js** (47 connections) — `backend/src/routes/auth.js`
-- **dealerApp.js** (24 connections) — `backend/src/services/dealerApp.js`
-- **webhooks.js** (14 connections) — `backend/src/routes/webhooks.js`
-- **validators.js** (14 connections) — `backend/src/utils/validators.js`
-- **applyCrmAccountState()** (12 connections) — `backend/src/services/dealerApp.js`
-- **normalizePhone()** (12 connections) — `backend/src/utils/phone.js`
-- **normalizeEmail()** (12 connections) — `backend/src/utils/validators.js`
-- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
-- **cleanName()** (7 connections) — `backend/src/utils/validators.js`
-- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
-- **phone.js** (6 connections) — `backend/src/utils/phone.js`
-- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
-- **applyCrmContactState()** (5 connections) — `backend/src/services/dealerApp.js`
-- **isValidPhone()** (5 connections) — `backend/src/utils/validators.js`
-- **resolveUserWithDealer()** (4 connections) — `backend/src/routes/auth.js`
-- **isValidEmail()** (4 connections) — `backend/src/utils/validators.js`
-- **isValidName()** (4 connections) — `backend/src/utils/validators.js`
-- **emailOnlyIdentifier()** (3 connections) — `backend/src/routes/auth.js`
-- **findUserByEmail()** (3 connections) — `backend/src/routes/auth.js`
-- **issueSession()** (3 connections) — `backend/src/routes/auth.js`
-- **isValidGstin()** (3 connections) — `backend/src/utils/validators.js`
-- **publicUser()** (2 connections) — `backend/src/routes/auth.js`
-- **crmSync.test.mjs** (2 connections) — `backend/test/crmSync.test.mjs`
-- **isValidPincode()** (2 connections) — `backend/src/utils/validators.js`
-- **googleClient** (1 connections) — `backend/src/routes/auth.js`
-- *... and 2 more nodes in this community*
+- **render-dataflow.mjs** (78 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **anchor()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **automaticPortSpread()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **chosenSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **defaultFromSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **defaultToSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **pathFor()** (8 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **connectionSides()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **flowSides()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **stageX()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **transitionSides()** (5 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **componentFill** (5 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **componentText** (4 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **connectionEndpointSide()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **measureNode()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **routeVia()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **stageFrame()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **automaticPorts** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **compositionFrames** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **layout** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **LEGEND_CATALOG** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **nodes** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **nodeSteps** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **nodeTextFit** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [[Community 33]] (28 shared connections)
-- [[Community 128]] (16 shared connections)
-- [[Community 88]] (11 shared connections)
-- [[Community 73]] (10 shared connections)
-- [[Community 50]] (6 shared connections)
-- [[Community 92]] (6 shared connections)
-- [[Community 139]] (5 shared connections)
+- [[Live Pricing Audit Tool]] (34 shared connections)
+- [[Pricing Regression Test Suite]] (21 shared connections)
+- [[Oxlint Linter Configuration]] (16 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (11 shared connections)
+- [[Community 29]] (11 shared connections)
+- [[Community 82]] (7 shared connections)
+- [[Product Requirements Documentation]] (5 shared connections)
+- [[Project Readme & Layout]] (1 shared connections)
 
 ## Source Files
 
-- `backend/src/routes/auth.js`
-- `backend/src/routes/webhooks.js`
-- `backend/src/services/crmClient.js`
-- `backend/src/services/dealerApp.js`
-- `backend/src/utils/phone.js`
-- `backend/src/utils/validators.js`
-- `backend/test/crmSync.test.mjs`
-- `backend/test/interconnection.test.mjs`
-- `backend/test/validators.test.mjs`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- `.agents/skills/archify/renderers/shared/geometry.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 210 (100%)
+- EXTRACTED: 188 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

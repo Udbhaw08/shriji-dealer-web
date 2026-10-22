@@ -1,33 +1,37 @@
 # Community 160
 
-> 12 nodes · cohesion 0.17
+> 12 nodes · cohesion 0.41
 
 ## Key Concepts
 
-- **Privacy** (8 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Requesting permission** (3 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **privacy.md** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Location button** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Pre-alert screens, windows, or views** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Protecting data** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Tracking requests** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **repository-evidence.mjs** (15 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **verifyRepositoryEvidence()** (14 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **evidenceFailure()** (6 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **repository-location.mjs** (5 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **parseRepositoryRemote()** (5 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **gitValue()** (4 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **runGit()** (4 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **verifiedSourcePath()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **redactRepositoryRemote()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **repositorySourceHref()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **hasRepositoryEvidence()** (2 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **sourceLineCount()** (2 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Product Requirements Documentation]] (6 shared connections)
+- [[Community 135]] (3 shared connections)
+- [[Community 60]] (2 shared connections)
+- [[Community 109]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/privacy.md`
+- `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- `.agents/skills/archify/renderers/shared/repository-location.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 66 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

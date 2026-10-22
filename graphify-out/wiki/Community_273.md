@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **landing.test.mjs** (7 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **docsRoot** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **landing** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **manifest** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **proofs** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
+- **repair-receipt.test.mjs** (7 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **receipt()** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
+- **writeFixture()** (1 connections) — `.agents/skills/archify/test/repair-receipt.test.mjs`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/landing.test.mjs`
+- `.agents/skills/archify/test/repair-receipt.test.mjs`
 
 ## Audit Trail
 

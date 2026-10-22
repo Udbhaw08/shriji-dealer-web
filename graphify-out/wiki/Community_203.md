@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **Shriji Backend Skill** (9 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Commands** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Environment (backend/.env — never committed)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Frontend Integration (built)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Hard Rules** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Key Files (populated as built)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Ownership Rule (invariant)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Pending Seam — price proxy switch (do when backend is deployed)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Stack Record — what was chosen, do not substitute** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Workflow Renderer** (6 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **Layout contracts** (3 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **Design Rules** (2 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **README.md** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **Fixed v1** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **Input** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **Legend** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **Migration and layout receipt** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **Optional semantic checks** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **Readable v2** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
 
 ## Relationships
 
@@ -21,7 +21,7 @@
 
 ## Source Files
 
-- `.agents/skills/shriji-backend/SKILL.md`
+- `.agents/skills/archify/renderers/workflow/README.md`
 
 ## Audit Trail
 

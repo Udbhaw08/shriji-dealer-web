@@ -4,22 +4,22 @@
 
 ## Key Concepts
 
-- **Status bars** (3 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
-- **status-bars.md** (1 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
+- **14. Hierarchy Checklist** (4 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Anti-patterns** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Hierarchy Test** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Visual Weight Stack** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 225]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/status-bars.md`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

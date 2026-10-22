@@ -1,21 +1,20 @@
 # Community 161
 
-> 12 nodes · cohesion 0.17
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **Search fields** (6 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Phone (iOS)** (4 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **search-fields.md** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Scope bars and tokens** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Search as a tab** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Search as an inline field** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Search in a toolbar** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Tablet and desktop (iPadOS, macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Archify** (10 connections) — `.agents/skills/archify/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Authoring invariants** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Delivery** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Fast authoring path** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Mermaid input** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Optional viewer capabilities** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Output** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Setup and fallback** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Type router** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Update awareness** (1 connections) — `.agents/skills/archify/SKILL.md`
 
 ## Relationships
 
@@ -23,11 +22,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/search-fields.md`
+- `.agents/skills/archify/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

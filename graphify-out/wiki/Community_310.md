@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Writing** (6 connections) — `.agents/skills/apple-design/references/hig/writing.md`
-- **writing.md** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
-- **Getting started** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **artifact-receipt-flush.test.mjs** (6 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **checker** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **denseArchitecture()** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/writing.md`
+- `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
 
 ## Audit Trail
 

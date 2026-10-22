@@ -1,24 +1,23 @@
 # Community 123
 
-> 15 nodes · cohesion 0.13
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **Buttons** (8 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Desktop (macOS)** (5 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **buttons.md** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Help buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Image buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Push buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Role** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Square buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Style** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **web-DSE8grgf.js** (13 connections) — `android/app/src/main/assets/public/assets/web-DSE8grgf.js`
+- **applyPrefix()** (4 connections) — `android/app/src/main/assets/public/assets/web-DSE8grgf.js`
+- **keys()** (4 connections) — `android/app/src/main/assets/public/assets/web-DSE8grgf.js`
+- **get()** (3 connections) — `android/app/src/main/assets/public/assets/web-DSE8grgf.js`
+- **migrate()** (3 connections) — `android/app/src/main/assets/public/assets/web-DSE8grgf.js`
+- **rawKeys()** (3 connections) — `android/app/src/main/assets/public/assets/web-DSE8grgf.js`
+- **clear()** (2 connections) — `android/app/src/main/assets/public/assets/web-DSE8grgf.js`
+- **remove()** (2 connections) — `android/app/src/main/assets/public/assets/web-DSE8grgf.js`
+- **removeOld()** (2 connections) — `android/app/src/main/assets/public/assets/web-DSE8grgf.js`
+- **set()** (2 connections) — `android/app/src/main/assets/public/assets/web-DSE8grgf.js`
+- **configure()** (1 connections) — `android/app/src/main/assets/public/assets/web-DSE8grgf.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-DSE8grgf.js`
+- **impl()** (1 connections) — `android/app/src/main/assets/public/assets/web-DSE8grgf.js`
+- **prefix()** (1 connections) — `android/app/src/main/assets/public/assets/web-DSE8grgf.js`
 
 ## Relationships
 
@@ -26,11 +25,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/buttons.md`
+- `android/app/src/main/assets/public/assets/web-DSE8grgf.js`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

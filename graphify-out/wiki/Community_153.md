@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **Apple Pencil and Scribble** (11 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
-- **apple-pencil-and-scribble.md** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
-- **Barrel roll** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
-- **Custom drawing** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
-- **Double tap** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
-- **Hover** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
-- **Scribble** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
-- **Squeeze** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Playing haptics** (6 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Phone (iOS)** (4 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **playing-haptics.md** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Custom haptics** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Impact** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Notification** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Selection** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
 
 ## Relationships
 
@@ -23,7 +23,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- `.agents/skills/apple-design/references/hig/playing-haptics.md`
 
 ## Audit Trail
 

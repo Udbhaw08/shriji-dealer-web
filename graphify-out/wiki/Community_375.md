@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **Ratings and reviews** (4 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
-- **ratings-and-reviews.md** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
+- **4. Text Color System** (5 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Anti-pattern** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Dark Mode Inversion** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Rules That Actually Work** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **The System** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 225]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

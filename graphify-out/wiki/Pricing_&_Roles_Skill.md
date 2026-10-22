@@ -1,57 +1,51 @@
 # Pricing & Roles Skill
 
-> 44 nodes · cohesion 0.11
+> 44 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **get()** (23 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **Z()** (23 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **ku()** (17 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **xl()** (14 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **bm()** (13 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **mu()** (13 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **Iu()** (10 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **vi()** (10 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **pu()** (9 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **Sp()** (9 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **bc()** (8 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **Bu()** (8 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **fu()** (8 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **gi()** (8 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **jl()** (8 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **Su()** (8 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **bl()** (7 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **sf()** (7 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **wl()** (7 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **Au()** (6 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **dn()** (6 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **gu()** (6 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **Kr()** (6 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **Nd()** (6 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
-- **nm()** (6 connections) — `ios/App/App/public/assets/index-CBwWGiKG.js`
+- **properties** (30 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **label** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **pad** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **row** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **brand** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **from** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **fromSide** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **kind** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **labelAt** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **labelDx** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **labelDy** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **pos** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **route** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **sublabel** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **tag** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **to** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **toSide** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **variant** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **width** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 - *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (49 shared connections)
-- [[Pricing Regression Test Suite]] (14 shared connections)
-- [[Community 53]] (11 shared connections)
-- [[Client Products Data Store]] (11 shared connections)
-- [[Community 38]] (8 shared connections)
-- [[Community 34]] (7 shared connections)
-- [[Community 65]] (6 shared connections)
-- [[Community 87]] (6 shared connections)
-- [[Community 112]] (5 shared connections)
-- [[Community 45]] (3 shared connections)
-- [[Community 60]] (2 shared connections)
+- [[Community 119]] (5 shared connections)
+- [[Community 264]] (2 shared connections)
+- [[Community 425]] (1 shared connections)
+- [[Community 426]] (1 shared connections)
+- [[Community 344]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CBwWGiKG.js`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 322 (100%)
+- EXTRACTED: 96 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
