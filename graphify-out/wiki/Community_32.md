@@ -1,56 +1,47 @@
 # Community 32
 
-> 42 nodes · cohesion 0.08
+> 40 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **Login.jsx** (65 connections) — `src/pages/Login.jsx`
-- **setSession()** (10 connections) — `src/data/session.js`
-- **Identify()** (10 connections) — `src/pages/Login.jsx`
-- **requestOtp()** (8 connections) — `src/data/auth.js`
-- **loginCode.js** (8 connections) — `src/data/loginCode.js`
-- **validators.js** (7 connections) — `src/data/validators.js`
-- **firebase.js** (6 connections) — `src/data/firebase.js`
-- **isValidEmail()** (6 connections) — `src/data/validators.js`
-- **StaffDetails()** (6 connections) — `src/pages/Login.jsx`
-- **formatLoginCode()** (5 connections) — `src/data/loginCode.js`
-- **signOut()** (5 connections) — `src/data/session.js`
-- **switchToDealerSession()** (5 connections) — `src/data/session.js`
-- **isValidName()** (5 connections) — `src/data/validators.js`
-- **isValidPhone()** (5 connections) — `src/data/validators.js`
-- **BusinessDetails()** (5 connections) — `src/pages/Login.jsx`
-- **StaffLogin()** (5 connections) — `src/pages/Login.jsx`
-- **switchToViewerSession()** (4 connections) — `src/data/session.js`
-- **createEmailPasswordAccount()** (3 connections) — `src/data/firebase.js`
-- **signInWithEmailPassword()** (3 connections) — `src/data/firebase.js`
-- **signInWithGoogleFirebase()** (3 connections) — `src/data/firebase.js`
-- **isValidGstin()** (3 connections) — `src/data/validators.js`
-- **isValidPincode()** (3 connections) — `src/data/validators.js`
-- **StaffInvite()** (3 connections) — `src/pages/Login.jsx`
-- **generateLoginCode()** (2 connections) — `src/data/loginCode.js`
-- **GST_TREATMENT_OPTIONS** (2 connections) — `src/data/loginCode.js`
-- *... and 17 more nodes in this community*
+- **Color Guide** (13 connections) — `.agents/skills/refero-design/references/color.md`
+- **2. Palette Structure** (5 connections) — `.agents/skills/refero-design/references/color.md`
+- **5. Light and Dark Themes** (5 connections) — `.agents/skills/refero-design/references/color.md`
+- **7. Building a Palette from Scratch** (5 connections) — `.agents/skills/refero-design/references/color.md`
+- **4. Contrast and Readability** (4 connections) — `.agents/skills/refero-design/references/color.md`
+- **6. Naming Tokens** (4 connections) — `.agents/skills/refero-design/references/color.md`
+- **9. Anti-Patterns** (4 connections) — `.agents/skills/refero-design/references/color.md`
+- **1. Color Space** (3 connections) — `.agents/skills/refero-design/references/color.md`
+- **3. The 60/30/10 Rule** (3 connections) — `.agents/skills/refero-design/references/color.md`
+- **8. Gradients** (2 connections) — `.agents/skills/refero-design/references/color.md`
+- **color.md** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **10. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **2.1 Neutrals (Most Important)** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **2.2 Primary Accent** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **2.3 Semantic Colors** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **2.4 Effects (Only If Needed)** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Bad** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Common Failures** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Component Color Limit** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Dark Mode: Technical Implementation** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Dark Theme Elevation** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Good** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Minimum Requirements** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [[Community 41]] (32 shared connections)
-- [[Community 48]] (13 shared connections)
-- [[Pricing Regression Test Suite]] (12 shared connections)
-- [[Zoho Integration Skill]] (4 shared connections)
-- [[Community 168]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/data/auth.js`
-- `src/data/firebase.js`
-- `src/data/loginCode.js`
-- `src/data/session.js`
-- `src/data/validators.js`
-- `src/pages/Login.jsx`
+- `.agents/skills/refero-design/references/color.md`
 
 ## Audit Trail
 
-- EXTRACTED: 208 (100%)
+- EXTRACTED: 78 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,52 +1,54 @@
 # Community 41
 
-> 38 nodes · cohesion 0.16
+> 35 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **auth.js** (43 connections) — `src/data/auth.js`
-- **callBackend()** (27 connections) — `src/data/auth.js`
-- **json()** (27 connections) — `src/data/auth.js`
-- **DealerDashboard.jsx** (23 connections) — `src/pages/DealerDashboard.jsx`
-- **EmailVerificationPrompt.jsx** (10 connections) — `src/components/EmailVerificationPrompt.jsx`
-- **broadcastAuthChange()** (10 connections) — `src/data/auth.js`
-- **applyAuthResponse()** (8 connections) — `src/data/auth.js`
-- **firebaseAuthLogin()** (8 connections) — `src/data/auth.js`
-- **login()** (7 connections) — `src/data/auth.js`
-- **googleLogin()** (6 connections) — `src/data/auth.js`
-- **logout()** (6 connections) — `src/data/auth.js`
-- **signup()** (6 connections) — `src/data/auth.js`
-- **verifyOtp()** (6 connections) — `src/data/auth.js`
-- **applyAsDealer()** (5 connections) — `src/data/auth.js`
-- **fetchMe()** (5 connections) — `src/data/auth.js`
-- **lookupStaffCode()** (5 connections) — `src/data/auth.js`
-- **staffSignup()** (5 connections) — `src/data/auth.js`
-- **staffTogglePrice()** (5 connections) — `src/data/auth.js`
-- **staffTogglePriceAll()** (5 connections) — `src/data/auth.js`
-- **verifyEmailOtp()** (5 connections) — `src/data/auth.js`
-- **persistTokens()** (4 connections) — `src/data/auth.js`
-- **requestEmailOtp()** (4 connections) — `src/data/auth.js`
-- **staffApprove()** (4 connections) — `src/data/auth.js`
-- **staffDeactivate()** (4 connections) — `src/data/auth.js`
-- **staffDelete** (4 connections) — `src/data/auth.js`
-- *... and 13 more nodes in this community*
+- **constructor()** (16 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **getImmediate()** (16 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **Q()** (13 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **qu()** (13 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **hu()** (12 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **vc()** (12 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **zu()** (12 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **ph()** (11 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **Fo()** (10 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **initialize()** (10 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **isInitialized()** (9 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **addComponent()** (8 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **getProvider()** (8 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **ja()** (8 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **triggerHeartbeat()** (8 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **wu()** (8 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **getOrInitializeService()** (7 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **setComponent()** (7 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **normalizeInstanceIdentifier()** (6 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **addOrOverwriteComponent()** (5 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **cancel()** (5 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **gm()** (5 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **read()** (5 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **getOptions()** (4 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **Hc()** (4 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [[Community 32]] (32 shared connections)
-- [[Community 48]] (18 shared connections)
-- [[Pricing Regression Test Suite]] (8 shared connections)
+- [[Price Presentation & Product UI]] (49 shared connections)
+- [[Product Requirements Documentation]] (35 shared connections)
+- [[Dependencies & Package Config]] (12 shared connections)
+- [[Graphify Knowledge Graph Skill]] (10 shared connections)
+- [[Claude Agent Instructions]] (7 shared connections)
+- [[Design System & UI Tokens]] (4 shared connections)
+- [[Community 161]] (3 shared connections)
+- [[Community 55]] (2 shared connections)
 
 ## Source Files
 
-- `src/components/EmailVerificationPrompt.jsx`
-- `src/data/auth.js`
-- `src/pages/DealerDashboard.jsx`
-- `src/pages/Login.jsx`
+- `ios/App/App/public/assets/index-Cuy2sO6a.js`
 
 ## Audit Trail
 
-- EXTRACTED: 288 (100%)
+- EXTRACTED: 252 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

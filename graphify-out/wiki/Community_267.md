@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Data flow, shared state, and property wrappers** (7 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **data.md** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **Bindings** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **If the project uses SwiftData with CloudKit** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **Local state** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **Shared state** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **SwiftData** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **Working with data** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
+- **Code audit** (5 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **Apple Pay and payment marks** (3 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **code-audit.md** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **How to run it** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **iPhone Duo readiness in code** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **Liquid Glass in code** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **What replaces it** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **What to search for** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/data.md`
+- `.agents/skills/apple-design/references/code-audit.md`
 
 ## Audit Trail
 

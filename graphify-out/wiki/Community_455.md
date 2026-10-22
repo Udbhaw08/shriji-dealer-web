@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **Package.swift** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
-- **PackageDescription** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
+- **esm-B1GfU8uT.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-B1GfU8uT.js`
+- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-B1GfU8uT.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `ios/App/CapApp-SPM/Package.swift`
+- `android/app/src/main/assets/public/assets/esm-B1GfU8uT.js`
 
 ## Audit Trail
 

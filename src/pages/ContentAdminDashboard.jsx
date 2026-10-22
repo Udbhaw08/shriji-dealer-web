@@ -1,6 +1,7 @@
 import { useEffect, useState, useMemo } from "react";
 import { Link } from "react-router-dom";
 import { Icon } from "../ui";
+import FileOrUrlInput from "../components/FileOrUrlInput";
 
 const DEFAULT_BANNER_FORM = {
   id: "",
@@ -38,6 +39,21 @@ const DEFAULT_SCHEME_FORM = {
   },
 };
 
+const DEFAULT_BRANDING_FORM = {
+  id: "logo-primary",
+  type: "branding",
+  title: "Sunshine ReSTOR Official Logo",
+  subtitle: "Primary Brand Asset",
+  image_url: "/img/logo.webp",
+  file_url: "",
+  video_url: "",
+  link_url: "/",
+  bg_color: "#ffffff",
+  display_order: 1,
+  is_active: true,
+  metadata: {},
+};
+
 const QUICK_COLORS = [
   { label: "Classic ReSTOR Blue", hex: "#0110a7" },
   { label: "Nordic Deep Navy", hex: "#10263a" },
@@ -57,6 +73,7 @@ export default function ContentAdminDashboard() {
   // Forms
   const [bannerForm, setBannerForm] = useState(DEFAULT_BANNER_FORM);
   const [schemeForm, setSchemeForm] = useState(DEFAULT_SCHEME_FORM);
+  const [brandingForm, setBrandingForm] = useState(DEFAULT_BRANDING_FORM);
   const [editingId, setEditingId] = useState(null);
 
   const notify = (msg) => {
@@ -165,6 +182,7 @@ export default function ContentAdminDashboard() {
           setEditingId(null);
           setBannerForm(DEFAULT_BANNER_FORM);
           setSchemeForm(DEFAULT_SCHEME_FORM);
+          setBrandingForm(DEFAULT_BRANDING_FORM);
         }
         await refreshLiveCache();
         notify(`✓ "${item.title}" deleted from Supabase.`);
@@ -220,6 +238,25 @@ export default function ContentAdminDashboard() {
         tagline: meta.tagline || "Celebrate More. Earn More.",
         pdf_filename: meta.pdf_filename || "Sunshine_Dealer_Scheme_Circular.pdf",
       },
+    });
+    window.scrollTo({ top: 400, behavior: "smooth" });
+  };
+
+  const startEditBranding = (item) => {
+    setEditingId(item.id);
+    setBrandingForm({
+      id: item.id,
+      type: "branding",
+      title: item.title || "",
+      subtitle: item.subtitle || "Primary Brand Asset",
+      image_url: item.image_url || "",
+      file_url: item.file_url || "",
+      video_url: item.video_url || "",
+      link_url: item.link_url || "/",
+      bg_color: item.bg_color || "#ffffff",
+      display_order: item.display_order || 1,
+      is_active: item.is_active !== false,
+      metadata: item.metadata || {},
     });
     window.scrollTo({ top: 400, behavior: "smooth" });
   };
@@ -298,6 +335,52 @@ export default function ContentAdminDashboard() {
         notify(`✓ Scheme "${payload.title}" saved & live in Supabase!`);
       } else {
         throw new Error(data.error || "Failed to save scheme");
+      }
+    } catch (err) {
+      setError(err.message);
+    } finally {
+      setBusy(false);
+    }
+  };
+
+  // Submit Branding Form
+  const saveBranding = async (e) => {
+    e.preventDefault();
+    setBusy(true);
+    setError("");
+
+    const payload = {
+      ...brandingForm,
+      id: (brandingForm.id || "logo-primary").trim().toLowerCase().replace(/\s+/g, "-"),
+      type: "branding",
+      display_order: Number(brandingForm.display_order) || 1,
+    };
+
+    if (!payload.title.trim()) {
+      setError("Brand Asset Title is required.");
+      setBusy(false);
+      return;
+    }
+
+    if (!payload.image_url) {
+      setError("Brand Logo Image is required.");
+      setBusy(false);
+      return;
+    }
+
+    try {
+      const res = await fetch("/api/content", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      const data = await res.json();
+      if (data.ok) {
+        setEditingId(null);
+        await refreshLiveCache();
+        notify(`✓ Brand Logo "${payload.title}" saved & updated across the storefront!`);
+      } else {
+        throw new Error(data.error || "Failed to save brand asset");
       }
     } catch (err) {
       setError(err.message);
@@ -479,38 +562,23 @@ export default function ContentAdminDashboard() {
                 </div>
 
                 <div className="field-group">
-                  <label htmlFor="b-img">Banner Image URL</label>
-                  <input
+                  <FileOrUrlInput
                     id="b-img"
-                    type="text"
-                    placeholder="e.g. https://...supabase.co/.../banner.jpg or /img/1st.jpeg"
+                    label="Banner Image"
                     value={bannerForm.image_url || ""}
-                    onChange={(e) => setBannerForm({ ...bannerForm, image_url: e.target.value })}
+                    onChange={(url) => setBannerForm({ ...bannerForm, image_url: url })}
+                    accept="image/png,image/jpeg,image/webp,image/svg+xml"
+                    folder="hero-banners"
+                    fileTypeLabel="Banner Image"
+                    required
+                    presets={[
+                      { label: "01_Hero_Banner_Image.jpg", url: "/img/01_Hero_Banner_Image.jpg" },
+                      { label: "1st.jpeg", url: "/img/1st.jpeg" },
+                      { label: "2nd.jpeg", url: "/img/2nd.jpeg" },
+                      { label: "3rd.jpeg", url: "/img/3rd.jpeg" },
+                    ]}
+                    helperText="Upload from your device via drag & drop, browse folders, or paste an online URL."
                   />
-                  <div className="quick-suggestions-row">
-                    <span className="suggestions-lbl">Presets:</span>
-                    <button
-                      type="button"
-                      className="suggestion-chip"
-                      onClick={() => setBannerForm({ ...bannerForm, image_url: "/img/1st.jpeg" })}
-                    >
-                      /img/1st.jpeg
-                    </button>
-                    <button
-                      type="button"
-                      className="suggestion-chip"
-                      onClick={() => setBannerForm({ ...bannerForm, image_url: "/img/2nd.jpeg" })}
-                    >
-                      /img/2nd.jpeg
-                    </button>
-                    <button
-                      type="button"
-                      className="suggestion-chip"
-                      onClick={() => setBannerForm({ ...bannerForm, image_url: "/img/3rd.jpeg" })}
-                    >
-                      /img/3rd.jpeg
-                    </button>
-                  </div>
                 </div>
 
                 {/* Image Live Preview Stage */}
@@ -576,15 +644,17 @@ export default function ContentAdminDashboard() {
                 </div>
 
                 <div className="field-group">
-                  <label htmlFor="b-video">Video Link (Optional MP4 or Google Drive Link)</label>
-                  <input
+                  <FileOrUrlInput
                     id="b-video"
-                    type="text"
-                    placeholder="e.g. https://.../video.mp4 or https://drive.google.com/file/d/.../preview"
+                    label="Video Asset or Google Drive Link (Optional)"
                     value={bannerForm.video_url || ""}
-                    onChange={(e) => setBannerForm({ ...bannerForm, video_url: e.target.value })}
+                    onChange={(url) => setBannerForm({ ...bannerForm, video_url: url })}
+                    accept="video/mp4,video/webm"
+                    folder="hero-banners"
+                    fileTypeLabel="Video Asset"
+                    previewType="video"
+                    helperText="Direct MP4 plays on loop; Google Drive link renders an interactive Play preview."
                   />
-                  <small className="field-hint">Direct MP4 will play in loop; Google Drive link creates a Play badge.</small>
                 </div>
 
                 <div className="toggle-checkbox-row">
@@ -822,31 +892,21 @@ export default function ContentAdminDashboard() {
                 </div>
 
                 <div className="field-group">
-                  <label htmlFor="s-img">Flyer Image URL</label>
-                  <input
+                  <FileOrUrlInput
                     id="s-img"
-                    type="text"
-                    placeholder="e.g. https://...supabase.co/.../flyer.jpg or /img/02_Scheme_Flyer_Image.jpg"
+                    label="Scheme Flyer Image"
                     value={schemeForm.image_url || ""}
-                    onChange={(e) => setSchemeForm({ ...schemeForm, image_url: e.target.value })}
+                    onChange={(url) => setSchemeForm({ ...schemeForm, image_url: url })}
+                    accept="image/png,image/jpeg,image/webp"
+                    folder="schemes"
+                    fileTypeLabel="Flyer Image"
+                    required
+                    presets={[
+                      { label: "02_Scheme_Flyer_Image.jpg", url: "/img/02_Scheme_Flyer_Image.jpg" },
+                      { label: "scheme-annual-business-2026.jpg", url: "/img/scheme-annual-business-2026.jpg" },
+                    ]}
+                    helperText="Upload promotional scheme flyer from your device via drag & drop or browse."
                   />
-                  <div className="quick-suggestions-row">
-                    <span className="suggestions-lbl">Flyer Presets:</span>
-                    <button
-                      type="button"
-                      className="suggestion-chip"
-                      onClick={() => setSchemeForm({ ...schemeForm, image_url: "/img/02_Scheme_Flyer_Image.jpg" })}
-                    >
-                      /img/02_Scheme_Flyer_Image.jpg
-                    </button>
-                    <button
-                      type="button"
-                      className="suggestion-chip"
-                      onClick={() => setSchemeForm({ ...schemeForm, image_url: "/img/scheme-annual-business-2026.jpg" })}
-                    >
-                      /img/scheme-annual-business-2026.jpg
-                    </button>
-                  </div>
                 </div>
 
                 {schemeForm.image_url && (
@@ -864,33 +924,48 @@ export default function ContentAdminDashboard() {
                   </div>
                 )}
 
-                <div className="form-two-cols">
-                  <div className="field-group">
-                    <label htmlFor="s-pdf">Official Circular PDF Link</label>
-                    <input
-                      id="s-pdf"
-                      type="text"
-                      placeholder="e.g. /downloads/03_Scheme_Official_Circular.pdf"
-                      value={schemeForm.file_url || ""}
-                      onChange={(e) => setSchemeForm({ ...schemeForm, file_url: e.target.value })}
-                    />
-                  </div>
-
-                  <div className="field-group">
-                    <label htmlFor="s-pdfname">PDF Filename on Download</label>
-                    <input
-                      id="s-pdfname"
-                      type="text"
-                      placeholder="e.g. Sunshine_Festive_5_1_Circular.pdf"
-                      value={schemeForm.metadata?.pdf_filename || ""}
-                      onChange={(e) =>
-                        setSchemeForm({
-                          ...schemeForm,
-                          metadata: { ...schemeForm.metadata, pdf_filename: e.target.value },
-                        })
+                <div className="field-group">
+                  <FileOrUrlInput
+                    id="s-pdf"
+                    label="Official Circular Document (PDF)"
+                    value={schemeForm.file_url || ""}
+                    onChange={(url, meta) => {
+                      const newMeta = { ...schemeForm.metadata };
+                      if (meta?.originalName) {
+                        newMeta.pdf_filename = meta.originalName;
                       }
-                    />
-                  </div>
+                      setSchemeForm({
+                        ...schemeForm,
+                        file_url: url,
+                        metadata: newMeta,
+                      });
+                    }}
+                    accept=".pdf,application/pdf"
+                    folder="circulars"
+                    fileTypeLabel="PDF Document"
+                    previewType="pdf"
+                    presets={[
+                      { label: "03_Scheme_Official_Circular.pdf", url: "/downloads/03_Scheme_Official_Circular.pdf" },
+                    ]}
+                    helperText="Drag & drop PDF from your computer or browse. Auto-fills the download filename below."
+                  />
+                </div>
+
+                <div className="field-group">
+                  <label htmlFor="s-pdfname">PDF Filename on Download</label>
+                  <input
+                    id="s-pdfname"
+                    type="text"
+                    placeholder="e.g. Sunshine_Festive_5_1_Circular.pdf"
+                    value={schemeForm.metadata?.pdf_filename || ""}
+                    onChange={(e) =>
+                      setSchemeForm({
+                        ...schemeForm,
+                        metadata: { ...schemeForm.metadata, pdf_filename: e.target.value },
+                      })
+                    }
+                  />
+                  <small className="field-hint">The filename dealers see when downloading the circular.</small>
                 </div>
 
                 <div className="field-group">
@@ -1033,50 +1108,216 @@ export default function ContentAdminDashboard() {
             ============================================================ */}
         {activeTab === "branding" && (
           <div className="content-tab-content-grid">
-            <div className="content-card list-card" style={{ gridColumn: "1 / -1" }}>
+            {/* Left Column: Branding Form Editor */}
+            <div className="content-card form-card">
+              <div className="content-card-head">
+                <div className="card-head-title-wrap">
+                  <span className="card-eyebrow">
+                    {editingId ? "EDITING BRAND ASSET" : "BRAND LOGO & GRAPHICS"}
+                  </span>
+                  <h2 className="card-main-heading">
+                    {editingId ? "Update Brand Asset" : "Brand Logo Configuration"}
+                  </h2>
+                </div>
+                {editingId && (
+                  <button
+                    type="button"
+                    className="btn btn-sm btn-ghost"
+                    onClick={() => {
+                      setEditingId(null);
+                      setBrandingForm(DEFAULT_BRANDING_FORM);
+                    }}
+                  >
+                    Cancel Edit
+                  </button>
+                )}
+              </div>
+
+              <form onSubmit={saveBranding} className="content-admin-form">
+                <div className="field-group">
+                  <label htmlFor="br-title">Asset Title / Name *</label>
+                  <input
+                    id="br-title"
+                    type="text"
+                    required
+                    placeholder="e.g. Sunshine ReSTOR Official Logo"
+                    value={brandingForm.title}
+                    onChange={(e) => setBrandingForm({ ...brandingForm, title: e.target.value })}
+                  />
+                </div>
+
+                <div className="form-two-cols">
+                  <div className="field-group">
+                    <label htmlFor="br-id">Asset Identifier (ID)</label>
+                    <input
+                      id="br-id"
+                      type="text"
+                      placeholder="e.g. logo-primary"
+                      value={brandingForm.id}
+                      onChange={(e) => setBrandingForm({ ...brandingForm, id: e.target.value })}
+                    />
+                    <small className="field-hint">Use "logo-primary" for main header logo.</small>
+                  </div>
+
+                  <div className="field-group">
+                    <label htmlFor="br-sub">Asset Note / Subtitle</label>
+                    <input
+                      id="br-sub"
+                      type="text"
+                      placeholder="e.g. Primary Brand Asset"
+                      value={brandingForm.subtitle}
+                      onChange={(e) => setBrandingForm({ ...brandingForm, subtitle: e.target.value })}
+                    />
+                  </div>
+                </div>
+
+                <div className="field-group">
+                  <FileOrUrlInput
+                    id="br-img"
+                    label="Brand Logo Asset"
+                    value={brandingForm.image_url || ""}
+                    onChange={(url) => setBrandingForm({ ...brandingForm, image_url: url })}
+                    accept="image/png,image/jpeg,image/webp,image/svg+xml"
+                    folder="branding"
+                    fileTypeLabel="Brand Logo"
+                    required
+                    presets={[
+                      { label: "logo.webp", url: "/img/logo.webp" },
+                      { label: "logo.png", url: "/img/logo.png" },
+                    ]}
+                    helperText="Upload transparent PNG, WebP or SVG from device via drag & drop, or paste an online URL."
+                  />
+                </div>
+
+                {brandingForm.image_url && (
+                  <div className="preview-stage-wrap">
+                    <span className="preview-stage-lbl">Logo Live Preview</span>
+                    <div className="banner-preview-box" style={{ background: "#ffffff", height: 100, border: "1px solid var(--line)" }}>
+                      <img
+                        src={brandingForm.image_url}
+                        alt="Logo Preview"
+                        style={{ maxHeight: 60 }}
+                        onError={(e) => {
+                          e.currentTarget.style.display = "none";
+                        }}
+                      />
+                    </div>
+                  </div>
+                )}
+
+                <div className="field-group">
+                  <label htmlFor="br-link">Click Navigation URL</label>
+                  <input
+                    id="br-link"
+                    type="text"
+                    placeholder="e.g. /"
+                    value={brandingForm.link_url || "/"}
+                    onChange={(e) => setBrandingForm({ ...brandingForm, link_url: e.target.value })}
+                  />
+                </div>
+
+                <div className="toggle-checkbox-row">
+                  <label className="toggle-label">
+                    <input
+                      type="checkbox"
+                      checked={brandingForm.is_active}
+                      onChange={(e) => setBrandingForm({ ...brandingForm, is_active: e.target.checked })}
+                    />
+                    <span className="toggle-custom-box" />
+                    <span className="toggle-text-wrap">
+                      <b>Active & Visible on Storefront Navigation</b>
+                      <small>When enabled, this logo replaces the default logo across all pages.</small>
+                    </span>
+                  </label>
+                </div>
+
+                <div className="form-action-bar">
+                  <button type="submit" className="btn btn-navy" disabled={busy} style={{ width: "100%", minHeight: 48 }}>
+                    <Icon name="check" size={17} />
+                    <span>{editingId ? "Update Brand Asset in Supabase" : "Save Brand Asset to Supabase"}</span>
+                  </button>
+                </div>
+              </form>
+            </div>
+
+            {/* Right Column: Existing Branding Assets List */}
+            <div className="content-card list-card">
               <div className="content-card-head">
                 <div>
                   <span className="card-eyebrow">GLOBAL BRAND ASSETS</span>
-                  <h2 className="card-main-heading">Branding Records ({brandingItems.length})</h2>
+                  <h2 className="card-main-heading">Current Brand Assets ({brandingItems.length})</h2>
                 </div>
               </div>
 
-              <div className="admin-items-list">
-                {brandingItems.map((item) => (
-                  <div
-                    key={item.id}
-                    className={`admin-item-card ${!item.is_active ? "is-inactive" : ""}`}
-                  >
-                    <div className="admin-item-thumb-box" style={{ background: "#ffffff" }}>
-                      <img src={item.image_url} alt={item.title} />
-                    </div>
-                    <div className="admin-item-body">
-                      <div className="admin-item-meta-top">
-                        <span className={`status-pill ${item.is_active ? "active" : "inactive"}`}>
-                          <span className="status-dot" />
-                          {item.is_active ? "Active Brand Logo" : "Paused / Inactive"}
-                        </span>
+              {brandingItems.length === 0 ? (
+                <div className="empty-content-state">
+                  <Icon name="sparkle" size={36} />
+                  <p>No brand assets found in Supabase. Configure your logo using the form!</p>
+                </div>
+              ) : (
+                <div className="admin-items-list">
+                  {brandingItems.map((item) => (
+                    <div
+                      key={item.id}
+                      className={`admin-item-card ${editingId === item.id ? "is-editing" : ""} ${!item.is_active ? "is-inactive" : ""}`}
+                    >
+                      <div className="admin-item-thumb-box" style={{ background: "#ffffff" }}>
+                        <img
+                          src={item.image_url}
+                          alt={item.title}
+                          onError={(e) => {
+                            e.currentTarget.style.display = "none";
+                          }}
+                        />
                       </div>
-                      <h3 className="admin-item-title">{item.title}</h3>
-                      <p className="admin-item-subtitle">{item.subtitle || "Primary Brand Asset"}</p>
-                      <span className="admin-item-id-tag">ID: {item.id}</span>
+                      <div className="admin-item-body">
+                        <div className="admin-item-meta-top">
+                          <span className={`status-pill ${item.is_active ? "active" : "inactive"}`}>
+                            <span className="status-dot" />
+                            {item.is_active ? "Active Brand Logo" : "Paused / Inactive"}
+                          </span>
+                          <span className="admin-item-id-tag">ID: {item.id}</span>
+                        </div>
+                        <h3 className="admin-item-title">{item.title}</h3>
+                        <p className="admin-item-subtitle">{item.subtitle || "Primary Brand Asset"}</p>
 
-                      <div className="admin-item-actions-row" style={{ marginTop: "var(--s3)" }}>
-                        <button
-                          type="button"
-                          className="item-action-btn toggle-btn"
-                          onClick={() => handleToggle(item)}
-                          disabled={busy}
-                          title={item.is_active ? "Pause brand logo" : "Activate brand logo"}
-                        >
-                          <span className="item-action-icon">{item.is_active ? "⏸" : "▶"}</span>
-                          <span>{item.is_active ? "Pause" : "Activate"}</span>
-                        </button>
+                        <div className="admin-item-actions-row" style={{ marginTop: "var(--s3)" }}>
+                          <button
+                            type="button"
+                            className="item-action-btn toggle-btn"
+                            onClick={() => handleToggle(item)}
+                            disabled={busy}
+                            title={item.is_active ? "Pause brand logo" : "Activate brand logo"}
+                          >
+                            <span className="item-action-icon">{item.is_active ? "⏸" : "▶"}</span>
+                            <span>{item.is_active ? "Pause" : "Activate"}</span>
+                          </button>
+
+                          <button
+                            type="button"
+                            className="item-action-btn edit-btn"
+                            onClick={() => startEditBranding(item)}
+                            disabled={busy}
+                          >
+                            <span className="item-action-icon">✏️</span>
+                            <span>Edit</span>
+                          </button>
+
+                          <button
+                            type="button"
+                            className="item-action-btn delete-btn"
+                            onClick={() => handleDelete(item)}
+                            disabled={busy}
+                          >
+                            <span className="item-action-icon">🗑️</span>
+                            <span>Delete</span>
+                          </button>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                ))}
-              </div>
+                  ))}
+                </div>
+              )}
             </div>
           </div>
         )}

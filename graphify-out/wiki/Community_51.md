@@ -1,60 +1,56 @@
 # Community 51
 
-> 30 nodes · cohesion 0.12
+> 29 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **visual-check.mjs** (50 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **runVisualCheck()** (18 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **visual-check.test.mjs** (14 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **observationDiagnostics()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **safeUnlink()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **writeAtomic()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **baseReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **chromeVisualBrowserArgs()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **cleanupCaptureSidecars()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **contactSheetHtml()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **failureDiagnostic()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **persistReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **sha256()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **sidecarPaths()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **htmlEscape()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **observation()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **screenshotKey()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **viewportSubject()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **VISUAL_CHECK_VIEWPORTS** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **CAPTURE_VIEWPORTS** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **EXIT** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **THEMES** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **artifact()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **fakeBrowser()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- *... and 5 more nodes in this community*
+- **Login.jsx** (65 connections) — `src/pages/Login.jsx`
+- **Identify()** (10 connections) — `src/pages/Login.jsx`
+- **requestOtp()** (8 connections) — `src/data/auth.js`
+- **validators.js** (7 connections) — `src/data/validators.js`
+- **firebase.js** (6 connections) — `src/data/firebase.js`
+- **isValidEmail()** (6 connections) — `src/data/validators.js`
+- **StaffDetails()** (6 connections) — `src/pages/Login.jsx`
+- **isValidName()** (5 connections) — `src/data/validators.js`
+- **isValidPhone()** (5 connections) — `src/data/validators.js`
+- **BusinessDetails()** (5 connections) — `src/pages/Login.jsx`
+- **StaffLogin()** (5 connections) — `src/pages/Login.jsx`
+- **createEmailPasswordAccount()** (3 connections) — `src/data/firebase.js`
+- **signInWithEmailPassword()** (3 connections) — `src/data/firebase.js`
+- **signInWithGoogleFirebase()** (3 connections) — `src/data/firebase.js`
+- **isValidGstin()** (3 connections) — `src/data/validators.js`
+- **isValidPincode()** (3 connections) — `src/data/validators.js`
+- **BusinessMatch()** (2 connections) — `src/pages/Login.jsx`
+- **StaffConfirm()** (2 connections) — `src/pages/Login.jsx`
+- **auth** (1 connections) — `src/data/firebase.js`
+- **firebaseConfig** (1 connections) — `src/data/firebase.js`
+- **Approved()** (1 connections) — `src/pages/Login.jsx`
+- **FormError()** (1 connections) — `src/pages/Login.jsx`
+- **PhoneInputField()** (1 connections) — `src/pages/Login.jsx`
+- **Review()** (1 connections) — `src/pages/Login.jsx`
+- **ROLES** (1 connections) — `src/pages/Login.jsx`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [[Community 150]] (7 shared connections)
-- [[Community 128]] (5 shared connections)
-- [[Community 164]] (4 shared connections)
-- [[Community 67]] (3 shared connections)
-- [[Community 66]] (3 shared connections)
-- [[Community 140]] (2 shared connections)
-- [[Community 95]] (2 shared connections)
-- [[Community 146]] (1 shared connections)
-- [[Community 147]] (1 shared connections)
-- [[Community 43]] (1 shared connections)
-- [[Community 89]] (1 shared connections)
-- [[Community 182]] (1 shared connections)
+- [[Project Readme & Layout]] (26 shared connections)
+- [[Community 54]] (10 shared connections)
+- [[Community 40]] (8 shared connections)
+- [[Community 45]] (6 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (3 shared connections)
+- [[Community 168]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/visual-check.test.mjs`
+- `src/data/auth.js`
+- `src/data/firebase.js`
+- `src/data/validators.js`
+- `src/pages/Login.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 138 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 158 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

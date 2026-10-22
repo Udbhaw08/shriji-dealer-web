@@ -15,8 +15,8 @@
 
 ## Relationships
 
-- [[Community 65]] (3 shared connections)
-- [[Community 49]] (2 shared connections)
+- [[Community 63]] (3 shared connections)
+- [[Community 46]] (2 shared connections)
 
 ## Source Files
 

@@ -1,33 +1,40 @@
 # Community 161
 
-> 12 nodes · cohesion 0.17
+> 12 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **SF Symbols** (11 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **sf-symbols.md** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Animations** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Custom symbols** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Design variants** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Gradients** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Rendering modes** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Variable color** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Weights and scales** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **error()** (11 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **Xu()** (8 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **yu()** (8 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **_u()** (7 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **vu()** (7 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **bu()** (5 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **St()** (4 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **wo()** (4 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **ko()** (3 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **Gh()** (2 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **.unstable_scheduleHydration()** (2 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **nu()** (2 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (15 shared connections)
+- [[Dependencies & Package Config]] (4 shared connections)
+- [[Community 41]] (3 shared connections)
+- [[Design System & UI Tokens]] (3 shared connections)
+- [[Product Requirements Documentation]] (3 shared connections)
+- [[Claude Agent Instructions]] (3 shared connections)
+- [[Community 55]] (1 shared connections)
+- [[Graphify Knowledge Graph Skill]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- `ios/App/App/public/assets/index-Cuy2sO6a.js`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 63 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

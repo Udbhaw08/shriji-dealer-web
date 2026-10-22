@@ -1,66 +1,57 @@
 # Graphify Knowledge Graph Skill
 
-> 56 nodes · cohesion 0.06
+> 50 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **cli.mjs** (43 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **diagnostics.mjs** (27 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **throwDiagnosticError()** (16 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **throwDiagnosticProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **writeDiagram()** (10 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **engineering-profiles.mjs** (10 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- **validator.mjs** (10 connections) — `.agents/skills/archify/renderers/shared/validator.mjs`
-- **validateSchema()** (10 connections) — `.agents/skills/archify/renderers/shared/validator.mjs`
-- **engineering-profile.test.mjs** (10 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
-- **render-workflow.mjs** (10 connections) — `.agents/skills/archify/renderers/workflow/render-workflow.mjs`
-- **loadDiagram()** (9 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **loadDiagramWithBrandMarks()** (8 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **settled-flow.test.mjs** (8 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **validateEngineeringProfile()** (6 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- **normalizedDiagnostic()** (4 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **deploymentOwnershipDiagnostics()** (4 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- **validateGuidedViews()** (3 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **validateRelationshipIds()** (3 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **fallbackDiagnostic()** (3 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **withDiagnosticRecordingSuppressed()** (3 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **renderCards()** (3 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **installRendererDiagnosticBoundary()** (2 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **plainObject()** (2 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **rendererFailure()** (2 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **subject()** (2 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- *... and 31 more nodes in this community*
+- **fl()** (40 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **Z()** (27 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **qc()** (23 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **nl()** (20 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **lc()** (15 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **sl()** (15 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **ll()** (14 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **el()** (12 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **ta()** (12 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **Gc()** (11 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **rl()** (11 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **Sa()** (11 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **kc()** (10 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **fc()** (9 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **xa()** (9 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **zo()** (9 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **lh()** (8 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **ea()** (7 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **getHeartbeatsHeader()** (7 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **ha()** (7 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **pl()** (7 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **cl()** (6 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **fetch()** (6 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **ol()** (6 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **Qn()** (6 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [[Graphify Workflow]] (11 shared connections)
-- [[Zoho API Diagnostic Script]] (10 shared connections)
-- [[Community 35]] (10 shared connections)
-- [[Community 86]] (8 shared connections)
-- [[Client Products Data Store]] (8 shared connections)
-- [[Community 31]] (6 shared connections)
-- [[Community 43]] (6 shared connections)
-- [[Community 165]] (6 shared connections)
-- [[Mobile Responsive UI Skill]] (5 shared connections)
-- [[Community 107]] (4 shared connections)
-- [[Community 133]] (4 shared connections)
-- [[Community 205]] (3 shared connections)
+- [[Price Presentation & Product UI]] (53 shared connections)
+- [[Product Requirements Documentation]] (48 shared connections)
+- [[Claude Agent Instructions]] (26 shared connections)
+- [[Dependencies & Package Config]] (20 shared connections)
+- [[Design System & UI Tokens]] (17 shared connections)
+- [[Community 42]] (13 shared connections)
+- [[Community 41]] (10 shared connections)
+- [[Community 55]] (9 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (4 shared connections)
+- [[Community 161]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/cli.mjs`
-- `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
-- `.agents/skills/archify/renderers/shared/validator.mjs`
-- `.agents/skills/archify/renderers/workflow/render-workflow.mjs`
-- `.agents/skills/archify/test/engineering-profile.test.mjs`
-- `.agents/skills/archify/test/settled-flow.test.mjs`
+- `ios/App/App/public/assets/index-Cuy2sO6a.js`
 
 ## Audit Trail
 
-- EXTRACTED: 256 (100%)
-- INFERRED: 1 (0%)
+- EXTRACTED: 411 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

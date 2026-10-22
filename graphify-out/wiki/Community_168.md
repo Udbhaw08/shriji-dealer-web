@@ -18,9 +18,10 @@
 
 ## Relationships
 
-- [[Pricing Regression Test Suite]] (9 shared connections)
-- [[Zoho Integration Skill]] (7 shared connections)
-- [[Community 32]] (1 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (7 shared connections)
+- [[Community 45]] (5 shared connections)
+- [[Community 54]] (4 shared connections)
+- [[Community 51]] (1 shared connections)
 
 ## Source Files
 

@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **web-tPlTImvV.js** (8 connections) — `ios/App/App/public/assets/web-tPlTImvV.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-tPlTImvV.js`
-- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-tPlTImvV.js`
-- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-tPlTImvV.js`
-- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-tPlTImvV.js`
-- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-tPlTImvV.js`
-- **getState()** (1 connections) — `ios/App/App/public/assets/web-tPlTImvV.js`
-- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-tPlTImvV.js`
-- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-tPlTImvV.js`
+- **web-DCQP1GMl.js** (8 connections) — `ios/App/App/public/assets/web-DCQP1GMl.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-DCQP1GMl.js`
+- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-DCQP1GMl.js`
+- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-DCQP1GMl.js`
+- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-DCQP1GMl.js`
+- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-DCQP1GMl.js`
+- **getState()** (1 connections) — `ios/App/App/public/assets/web-DCQP1GMl.js`
+- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-DCQP1GMl.js`
+- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-DCQP1GMl.js`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-tPlTImvV.js`
+- `ios/App/App/public/assets/web-DCQP1GMl.js`
 
 ## Audit Trail
 

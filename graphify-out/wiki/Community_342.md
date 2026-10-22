@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Printing** (4 connections) — `.agents/skills/apple-design/references/hig/printing.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/printing.md`
-- **printing.md** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
+- **Modality** (5 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **modality.md** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/printing.md`
+- `.agents/skills/apple-design/references/hig/modality.md`
 
 ## Audit Trail
 

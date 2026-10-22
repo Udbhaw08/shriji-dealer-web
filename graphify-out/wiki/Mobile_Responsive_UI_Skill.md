@@ -1,18 +1,17 @@
 # Mobile Responsive UI Skill
 
-> 53 nodes · cohesion 0.06
+> 49 nodes · cohesion 0.07
 
 ## Key Concepts
 
 - **render-architecture.mjs** (122 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **pathFor()** (10 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
 - **routeHonorsEndpointSides()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **renderLegend()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
 - **routeVia()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
 - **grid.mjs** (6 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
 - **alignFacingPorts()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
 - **layoutBoundaryTitles()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
 - **sideAwareBridgeCandidates()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **relationshipLegendObstacles()** (5 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
 - **resolveComponentPos()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
 - **validateGridPlacement()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
 - **boundaryLabelWidth()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
@@ -28,20 +27,20 @@
 - **expandBoundaryForReadableTitle()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
 - **resolvedViewBoxWidth()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
 - **connectionPath()** (3 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
-- **boundaryRect()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- *... and 28 more nodes in this community*
+- **measureComponent()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **outwardStub()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [[Client Products Data Store]] (30 shared connections)
-- [[Zoho API Diagnostic Script]] (28 shared connections)
-- [[Graphify Workflow]] (16 shared connections)
-- [[Community 35]] (14 shared connections)
-- [[Graphify Knowledge Graph Skill]] (5 shared connections)
+- [[Zoho Integration Architecture]] (43 shared connections)
+- [[Roles & Customer Sharing Spec]] (21 shared connections)
+- [[Community 50]] (13 shared connections)
+- [[Community 39]] (12 shared connections)
+- [[Client Products Data Store]] (6 shared connections)
 - [[Community 164]] (3 shared connections)
-- [[Community 43]] (2 shared connections)
-- [[Community 86]] (2 shared connections)
-- [[Community 31]] (1 shared connections)
+- [[Vercel Deployment Routing]] (2 shared connections)
+- [[Community 82]] (1 shared connections)
 
 ## Source Files
 
@@ -50,12 +49,11 @@
 - `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
 - `.agents/skills/archify/renderers/shared/geometry.mjs`
 - `.agents/skills/archify/renderers/shared/layout-report.mjs`
-- `.agents/skills/archify/renderers/shared/legend.mjs`
 - `.agents/skills/archify/test/grid.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 265 (100%)
+- EXTRACTED: 257 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

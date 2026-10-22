@@ -22,8 +22,8 @@
 
 ## Relationships
 
-- [[Vercel Deployment Routing]] (5 shared connections)
-- [[Community 85]] (3 shared connections)
+- [[Testing & Workflow Skill]] (5 shared connections)
+- [[Community 81]] (3 shared connections)
 
 ## Source Files
 

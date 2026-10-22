@@ -1,56 +1,66 @@
 # Zoho Integration Architecture
 
-> 61 nodes · cohesion 0.06
+> 76 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **get()** (49 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **has()** (24 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **resolve()** (17 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **constructor()** (16 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **getImmediate()** (16 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **Q()** (13 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **ph()** (12 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **qu()** (12 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **vc()** (12 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **zu()** (12 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **Ou()** (11 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **es()** (10 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **initialize()** (10 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **isInitialized()** (9 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **mh()** (9 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **addComponent()** (8 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **execute()** (8 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **getProvider()** (8 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **s()** (8 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **triggerHeartbeat()** (8 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **wu()** (8 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **fh()** (7 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **getOrInitializeService()** (7 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **hm()** (7 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **ku()** (7 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- *... and 36 more nodes in this community*
+- **geometry.mjs** (75 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **compileWorkflowInternal()** (67 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **asArray()** (43 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **geometry.test.mjs** (34 connections) — `.agents/skills/archify/test/geometry.test.mjs`
+- **textUnits()** (33 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **validateArchitecture()** (22 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **validateDataflow()** (22 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **validateLifecycle()** (22 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **cleanCrossingProblems()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **isFinitePoint()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanFlowProblems()** (17 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **rectsOverlap()** (16 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **validateSequence()** (15 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **throwDiagnosticProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **cleanAmbiguousCorridorProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanBorderRunProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanRouteRhythmProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **labelPoint()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanEndpointSideProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanLabelRouteClearanceProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **brandTopRailProblem()** (13 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **collectLabelRouteClearance()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **segmentIntersectsRect()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **suggestLabelObstacleFix()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **minimumNodeTextWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- *... and 51 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (82 shared connections)
-- [[Master Codebase Architecture Reference]] (45 shared connections)
-- [[Dependencies & Package Config]] (21 shared connections)
-- [[Product Requirements Documentation]] (20 shared connections)
-- [[Architecture Doc Generator]] (19 shared connections)
-- [[Pricing & Roles Skill]] (12 shared connections)
-- [[Community 54]] (5 shared connections)
-- [[Community 34]] (5 shared connections)
-- [[Community 120]] (5 shared connections)
-- [[Live Pricing Audit Tool]] (2 shared connections)
+- [[Roles & Customer Sharing Spec]] (51 shared connections)
+- [[Community 50]] (46 shared connections)
+- [[Community 39]] (45 shared connections)
+- [[Mobile Responsive UI Skill]] (43 shared connections)
+- [[Community 82]] (40 shared connections)
+- [[Client Products Data Store]] (18 shared connections)
+- [[Pricing & Roles Skill]] (6 shared connections)
+- [[Community 291]] (3 shared connections)
+- [[Vercel Deployment Routing]] (2 shared connections)
+- [[Community 283]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- `.agents/skills/archify/renderers/shared/geometry.mjs`
+- `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- `.agents/skills/archify/test/geometry.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 448 (100%)
+- EXTRACTED: 781 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

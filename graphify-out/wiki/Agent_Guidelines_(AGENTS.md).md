@@ -1,56 +1,55 @@
 # Agent Guidelines (AGENTS.md)
 
-> 49 nodes · cohesion 0.06
+> 45 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **addEventListener()** (21 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **add()** (19 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **h()** (17 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **.removeEventListener()** (16 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **fp()** (14 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **Rp()** (11 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **tm()** (9 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **addListener()** (8 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **Bp()** (7 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **.addEventListener()** (7 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **hm()** (7 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **lp()** (7 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **al()** (6 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **.blur()** (6 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **.scrollIntoView()** (6 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **g()** (6 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **removeListener()** (6 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **v()** (6 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **jl()** (5 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **pm()** (5 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **registerConsumer()** (5 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **up()** (5 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **bf()** (4 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **detachListener()** (4 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **.getClientRects()** (4 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- *... and 24 more nodes in this community*
+- **addEventListener()** (21 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **h()** (18 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **.removeEventListener()** (16 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **fp()** (15 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **Rp()** (11 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **tm()** (10 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **addListener()** (8 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **Bp()** (7 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **.addEventListener()** (7 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **lp()** (7 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **validatePassword()** (7 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **xp()** (7 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **.blur()** (6 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **.scrollIntoView()** (6 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **removeListener()** (6 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **v()** (6 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **dh()** (5 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **E()** (5 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **g()** (5 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **uh()** (5 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **detachListener()** (4 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **.getClientRects()** (4 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **.unobserveUsing()** (4 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **ho()** (4 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **removeWindowListener()** (4 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (50 shared connections)
-- [[Design System & UI Tokens]] (25 shared connections)
-- [[Product Pages Specification]] (14 shared connections)
-- [[Oxlint Linter Configuration]] (11 shared connections)
-- [[Roles & Customer Sharing Spec]] (10 shared connections)
-- [[Community 55]] (6 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (5 shared connections)
-- [[Community 42]] (5 shared connections)
-- [[Community 56]] (4 shared connections)
-- [[Product Brand & Business Vision]] (2 shared connections)
+- [[Price Presentation & Product UI]] (46 shared connections)
+- [[Product Requirements Documentation]] (27 shared connections)
+- [[Dependencies & Package Config]] (18 shared connections)
+- [[Design System & UI Tokens]] (7 shared connections)
+- [[Claude Agent Instructions]] (6 shared connections)
+- [[Community 55]] (4 shared connections)
+- [[Graphify Knowledge Graph Skill]] (4 shared connections)
+- [[Community 42]] (3 shared connections)
+- [[Community 132]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-C9N_FwZx.js`
+- `ios/App/App/public/assets/index-Cuy2sO6a.js`
 
 ## Audit Trail
 
-- EXTRACTED: 284 (100%)
+- EXTRACTED: 255 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

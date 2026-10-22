@@ -4,53 +4,54 @@
 
 ## Key Concepts
 
-- **df()** (11 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **lf()** (11 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **ff()** (10 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **gf()** (10 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **mf()** (9 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **Td()** (9 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **yf()** (9 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **gt()** (8 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **qf()** (8 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **ep()** (7 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **_getIdTokenResponse()** (7 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **hf()** (7 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **uf()** (7 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **_getReauthenticationResolver()** (6 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **pf()** (6 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **jf()** (5 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **_linkToIdToken()** (5 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **Wf()** (5 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **_buildIdpRequest()** (4 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **buildRequest()** (4 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **Gp()** (4 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **_initializeWithPersistence()** (4 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **_shouldInitProactively()** (4 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **Xf()** (4 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
-- **_f()** (3 connections) — `ios/App/App/public/assets/index-C9N_FwZx.js`
+- **n()** (29 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **t()** (25 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **Hr()** (15 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **os()** (13 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **ps()** (10 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **dd()** (9 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **ms()** (9 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **ee()** (7 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **hs()** (7 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **ys()** (7 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **A()** (6 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **sd()** (6 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **ss()** (6 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **x()** (6 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **fs()** (5 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **gs()** (5 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **Md()** (5 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **vs()** (5 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **ie()** (4 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **te()** (4 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **Qt()** (3 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **us()** (3 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **zs()** (3 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **clearNetworkTimeout()** (2 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
+- **ds()** (2 connections) — `ios/App/App/public/assets/index-Cuy2sO6a.js`
 - *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (28 shared connections)
-- [[Product Pages Specification]] (12 shared connections)
-- [[Design System & UI Tokens]] (10 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (8 shared connections)
+- [[Price Presentation & Product UI]] (33 shared connections)
+- [[Product Requirements Documentation]] (27 shared connections)
+- [[Design System & UI Tokens]] (14 shared connections)
+- [[Graphify Knowledge Graph Skill]] (9 shared connections)
+- [[Dependencies & Package Config]] (7 shared connections)
 - [[Community 42]] (6 shared connections)
-- [[Oxlint Linter Configuration]] (6 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (6 shared connections)
-- [[Roles & Customer Sharing Spec]] (4 shared connections)
-- [[Community 56]] (2 shared connections)
-- [[Product Brand & Business Vision]] (2 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (4 shared connections)
+- [[Claude Agent Instructions]] (4 shared connections)
+- [[Community 41]] (2 shared connections)
+- [[Community 132]] (1 shared connections)
+- [[Community 161]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-C9N_FwZx.js`
+- `ios/App/App/public/assets/index-Cuy2sO6a.js`
 
 ## Audit Trail
 
-- EXTRACTED: 174 (100%)
+- EXTRACTED: 202 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

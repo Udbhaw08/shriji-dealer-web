@@ -19,10 +19,10 @@
 
 ## Relationships
 
-- [[Community 51]] (4 shared connections)
-- [[Claude Agent Instructions]] (4 shared connections)
+- [[Community 29]] (4 shared connections)
+- [[Pricing & Roles Skill]] (4 shared connections)
 - [[Mobile Responsive UI Skill]] (3 shared connections)
-- [[Community 108]] (1 shared connections)
+- [[Community 107]] (1 shared connections)
 - [[Community 128]] (1 shared connections)
 
 ## Source Files

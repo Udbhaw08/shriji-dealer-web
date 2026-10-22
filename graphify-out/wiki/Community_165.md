@@ -19,10 +19,10 @@
 
 ## Relationships
 
-- [[Graphify Knowledge Graph Skill]] (6 shared connections)
-- [[Community 138]] (3 shared connections)
-- [[Community 62]] (2 shared connections)
-- [[Community 114]] (1 shared connections)
+- [[Client Products Data Store]] (6 shared connections)
+- [[Community 139]] (3 shared connections)
+- [[Community 60]] (2 shared connections)
+- [[Community 113]] (1 shared connections)
 
 ## Source Files
 

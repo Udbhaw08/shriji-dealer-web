@@ -106,6 +106,49 @@ function zohoApiPlugin() {
           }
         }
 
+        // File Upload route: /api/upload (Device drag & drop and local uploads)
+        if (req.url === '/api/upload' || req.url.startsWith('/api/upload?') || req.url.startsWith('/api/upload/')) {
+          try {
+            const uploadHandler = (await import('./api/upload.js')).default;
+            let body = '';
+            req.on('data', (chunk) => { body += chunk; });
+            req.on('end', async () => {
+              try {
+                const fakeReq = {
+                  method: req.method,
+                  url: req.url,
+                  headers: req.headers,
+                  body: body ? JSON.parse(body) : {},
+                };
+                const fakeRes = {
+                  statusCode: 200,
+                  setHeader(name, val) { res.setHeader(name, val); },
+                  status(code) {
+                    this.statusCode = code;
+                    res.statusCode = code;
+                    return this;
+                  },
+                  json(obj) {
+                    res.statusCode = this.statusCode;
+                    res.setHeader('Content-Type', 'application/json');
+                    return res.end(JSON.stringify(obj));
+                  },
+                };
+                await uploadHandler(fakeReq, fakeRes);
+              } catch (parseErr) {
+                res.statusCode = 500;
+                res.setHeader('Content-Type', 'application/json');
+                return res.end(JSON.stringify({ ok: false, error: parseErr.message }));
+              }
+            });
+            return;
+          } catch (err) {
+            res.statusCode = 500;
+            res.setHeader('Content-Type', 'application/json');
+            return res.end(JSON.stringify({ ok: false, error: err.message }));
+          }
+        }
+
         // Content CMS CRUD route: /api/content (Supabase Content Manager)
         if (req.url === '/api/content' || req.url.startsWith('/api/content?') || req.url.startsWith('/api/content/')) {
           try {

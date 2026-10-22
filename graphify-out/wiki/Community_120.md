@@ -1,45 +1,37 @@
 # Community 120
 
-> 15 nodes · cohesion 0.19
+> 16 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **warn()** (16 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **error()** (11 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **nc()** (10 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **ec()** (8 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **Xu()** (8 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **vu()** (7 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **yu()** (7 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **_u()** (6 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **ac()** (5 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **bu()** (4 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **componentDidCatch()** (4 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **Ao()** (3 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **If()** (3 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **tc()** (3 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **nu()** (2 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- **legend-contract.test.mjs** (15 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **legendKinds()** (3 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **run()** (3 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **attrValues()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **canonicalSvg()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **clone()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **render()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **validateFailure()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **withLegend()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **AUTO_KINDS** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **CATALOGS** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **FIXTURES** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (19 shared connections)
-- [[Dependencies & Package Config]] (10 shared connections)
-- [[Master Codebase Architecture Reference]] (7 shared connections)
-- [[Architecture Doc Generator]] (7 shared connections)
-- [[Zoho Integration Architecture]] (5 shared connections)
-- [[Product Requirements Documentation]] (3 shared connections)
-- [[Live Pricing Audit Tool]] (2 shared connections)
-- [[Community 34]] (2 shared connections)
-- [[Pricing & Roles Skill]] (1 shared connections)
-- [[Community 54]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- `.agents/skills/archify/test/legend-contract.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 97 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

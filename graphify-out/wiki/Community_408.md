@@ -11,7 +11,7 @@
 
 ## Relationships
 
-- [[Graphify Agent Rules]] (1 shared connections)
+- [[Community 30]] (1 shared connections)
 
 ## Source Files
 

@@ -1,32 +1,32 @@
 # get()
 
-> God node · 49 connections · `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+> God node · 49 connections · `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
 
-**Community:** [[Zoho Integration Architecture]]
+**Community:** [[Master Codebase Architecture Reference]]
 
 ## Connections by Relation
 
 ### calls
 - [[has()]] `EXTRACTED`
 - [[kf()]] `EXTRACTED`
-- [[xa()]] `EXTRACTED`
+- [[dl()]] `EXTRACTED`
 - [[resolve()]] `EXTRACTED`
 - [[bm()]] `EXTRACTED`
-- [[dl()]] `EXTRACTED`
-- [[kl()]] `EXTRACTED`
 - [[rf()]] `EXTRACTED`
+- [[ya()]] `EXTRACTED`
 - [[am()]] `EXTRACTED`
 - [[ju()]] `EXTRACTED`
-- [[ph()]] `EXTRACTED`
-- [[dt()]] `EXTRACTED`
+- [[kl()]] `EXTRACTED`
+- [[ta()]] `EXTRACTED`
 - [[l()]] `EXTRACTED`
+- [[ph()]] `EXTRACTED`
+- [[Ui()]] `EXTRACTED`
 - [[es()]] `EXTRACTED`
 - [[zl()]] `EXTRACTED`
 - [[isInitialized()]] `EXTRACTED`
+- [[jm()]] `EXTRACTED`
 - [[mf()]] `EXTRACTED`
 - [[mh()]] `EXTRACTED`
-- [[ms()]] `EXTRACTED`
-- [[p()]] `EXTRACTED`
 
 ### contains
 - [[_()]] `EXTRACTED`

@@ -1,41 +1,48 @@
 # Community 91
 
-> 20 nodes · cohesion 0.10
+> 19 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **Example Workflow: SaaS Pricing Page** (7 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 1: Styles Research** (4 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 5: Implementation Blueprint** (4 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 2: Screen Research** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 3: Flow Research** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 4: Synthesis** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **example-workflow.md** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Design Decision Ledger** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Flow Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Flow Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Page Structure** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 0: Discovery** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Quality Gate** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Research Summary** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Screen Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Screen Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Style Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Style Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Tokens** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Visual Direction Synthesis** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **bi()** (13 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **ru()** (11 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **vi()** (11 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **zl()** (10 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **Fu()** (9 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **gu()** (8 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **cm()** (7 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **iu()** (7 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **Nd()** (7 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **ql()** (7 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **Pu()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **zi()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **Si()** (4 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **wl()** (4 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **of()** (3 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **ed()** (2 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **hi()** (2 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **yi()** (2 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (19 shared connections)
+- [[Product Brand & Business Vision]] (12 shared connections)
+- [[Master Codebase Architecture Reference]] (9 shared connections)
+- [[Architecture Doc Generator]] (6 shared connections)
+- [[Live Pricing Audit Tool]] (4 shared connections)
+- [[Product Pages Specification]] (4 shared connections)
+- [[Oxlint Linter Configuration]] (2 shared connections)
+- [[Pricing Regression Test Suite]] (2 shared connections)
+- [[Community 53]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/example-workflow.md`
+- `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
+- EXTRACTED: 121 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

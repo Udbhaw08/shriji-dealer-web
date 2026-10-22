@@ -1,62 +1,64 @@
 # Zoho Integration Skill
 
-> 50 nodes · cohesion 0.11
+> 46 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **Product.jsx** (35 connections) — `src/pages/Product.jsx`
-- **dealer.js** (29 connections) — `src/data/dealer.js`
-- **Products.jsx** (25 connections) — `src/pages/Products.jsx`
-- **Favorites.jsx** (20 connections) — `src/pages/Favorites.jsx`
-- **ProductCard.jsx** (19 connections) — `src/components/ProductCard.jsx`
-- **dealer.test.mjs** (18 connections) — `src/data/dealer.test.mjs`
-- **PriceBlock.jsx** (15 connections) — `src/components/PriceBlock.jsx`
-- **ProductCard()** (15 connections) — `src/components/ProductCard.jsx`
-- **ProductSearchBar.jsx** (15 connections) — `src/components/ProductSearchBar.jsx`
-- **Product()** (15 connections) — `src/pages/Product.jsx`
-- **priceFor()** (14 connections) — `src/data/dealer.js`
-- **useFavorites()** (13 connections) — `src/data/favoritesStore.js`
-- **useProducts()** (12 connections) — `src/data/productsStore.js`
-- **inr()** (11 connections) — `src/data/dealer.js`
-- **searchHelper.js** (11 connections) — `src/data/searchHelper.js`
-- **viewerFor()** (8 connections) — `src/data/dealer.js`
-- **CustomerPrice()** (7 connections) — `src/components/PriceBlock.jsx`
-- **productSlug()** (7 connections) — `src/data/dealer.js`
-- **registerDealer()** (7 connections) — `src/data/dealer.js`
-- **shareLink()** (7 connections) — `src/data/dealer.js`
-- **ProductSearchBar()** (6 connections) — `src/components/ProductSearchBar.jsx`
-- **tagFor()** (6 connections) — `src/data/dealer.js`
-- **DealerPrice()** (5 connections) — `src/components/PriceBlock.jsx`
-- **getSuggestions()** (5 connections) — `src/data/searchHelper.js`
-- **formatWhatsAppPhone()** (4 connections) — `src/data/dealer.js`
-- *... and 25 more nodes in this community*
+- **server.js** (35 connections) — `backend/src/server.js`
+- **pool.js** (26 connections) — `backend/src/db/pool.js`
+- **catalog.js** (16 connections) — `backend/src/services/catalog.js`
+- **env.js** (15 connections) — `backend/src/config/env.js`
+- **webhooks.js** (14 connections) — `backend/src/routes/webhooks.js`
+- **logger.js** (14 connections) — `backend/src/utils/logger.js`
+- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
+- **log** (13 connections) — `backend/src/utils/logger.js`
+- **env** (11 connections) — `backend/src/config/env.js`
+- **index.js** (11 connections) — `backend/src/jobs/index.js`
+- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
+- **notifications.js** (9 connections) — `backend/src/services/notifications.js`
+- **syncCatalog()** (7 connections) — `backend/src/services/catalog.js`
+- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
+- **prices.js** (6 connections) — `backend/src/routes/prices.js`
+- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
+- **migrate()** (4 connections) — `backend/src/db/migrate.js`
+- **catalogFor()** (4 connections) — `backend/src/services/catalog.js`
+- **loadCatalog()** (4 connections) — `backend/src/services/catalog.js`
+- **applied()** (3 connections) — `backend/src/db/migrate.js`
+- **catalogSync()** (3 connections) — `backend/src/jobs/catalogSync.js`
+- **tokenCleanup()** (3 connections) — `backend/src/jobs/catalogSync.js`
+- **markPollRun()** (3 connections) — `backend/src/jobs/crmPoll.js`
+- **startJobs()** (3 connections) — `backend/src/jobs/index.js`
+- **upload.js** (3 connections) — `backend/src/routes/upload.js`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [[Pricing Regression Test Suite]] (77 shared connections)
-- [[Community 48]] (17 shared connections)
-- [[Community 168]] (7 shared connections)
-- [[Community 167]] (6 shared connections)
-- [[Community 32]] (4 shared connections)
-- [[Community 109]] (3 shared connections)
+- [[Community 34]] (32 shared connections)
+- [[Community 86]] (16 shared connections)
+- [[Community 47]] (15 shared connections)
+- [[Community 117]] (11 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (4 shared connections)
 
 ## Source Files
 
-- `src/components/PriceBlock.jsx`
-- `src/components/ProductCard.jsx`
-- `src/components/ProductSearchBar.jsx`
-- `src/data/dealer.js`
-- `src/data/dealer.test.mjs`
-- `src/data/favoritesStore.js`
-- `src/data/productsStore.js`
-- `src/data/searchHelper.js`
-- `src/pages/Favorites.jsx`
-- `src/pages/Product.jsx`
-- `src/pages/Products.jsx`
+- `backend/src/config/env.js`
+- `backend/src/db/migrate.js`
+- `backend/src/db/pool.js`
+- `backend/src/jobs/catalogSync.js`
+- `backend/src/jobs/crmPoll.js`
+- `backend/src/jobs/index.js`
+- `backend/src/routes/prices.js`
+- `backend/src/routes/upload.js`
+- `backend/src/routes/webhooks.js`
+- `backend/src/server.js`
+- `backend/src/services/catalog.js`
+- `backend/src/services/notifications.js`
+- `backend/src/utils/logger.js`
+- `backend/test/priceGate.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 374 (100%)
+- EXTRACTED: 270 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

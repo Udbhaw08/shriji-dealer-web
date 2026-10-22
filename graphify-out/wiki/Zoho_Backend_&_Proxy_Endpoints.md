@@ -33,8 +33,8 @@
 
 ## Relationships
 
-- [[Project Readme & Layout]] (9 shared connections)
-- [[Community 82]] (2 shared connections)
+- [[Community 34]] (7 shared connections)
+- [[Zoho Integration Skill]] (4 shared connections)
 
 ## Source Files
 

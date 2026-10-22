@@ -1,57 +1,66 @@
 # Community 34
 
-> 40 nodes · cohesion 0.08
+> 39 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **kf()** (23 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **Vr()** (21 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **Pi()** (12 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **Er()** (10 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **In()** (8 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **request()** (8 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **ui()** (8 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **Ar()** (7 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **Fi()** (7 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **ri()** (7 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **fetch()** (6 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **Lr()** (6 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **ni()** (6 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **Vi()** (6 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **mi()** (5 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **qm()** (5 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **rr()** (5 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **xo()** (5 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **yr()** (5 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **zi()** (5 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **bi()** (4 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **br()** (4 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **Cr()** (4 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **Gr()** (4 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **kn()** (4 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- *... and 15 more nodes in this community*
+- **sql** (60 connections) — `backend/src/db/pool.js`
+- **dealers.js** (36 connections) — `backend/src/routes/dealers.js`
+- **staff.js** (23 connections) — `backend/src/services/staff.js`
+- **audit()** (17 connections) — `backend/src/utils/audit.js`
+- **auth.js** (8 connections) — `backend/src/middleware/auth.js`
+- **audit.js** (7 connections) — `backend/src/utils/audit.js`
+- **applyDealer()** (6 connections) — `backend/src/services/dealerApp.js`
+- **createInvite()** (6 connections) — `backend/src/services/staff.js`
+- **sha256()** (6 connections) — `backend/src/utils/hash.js`
+- **jwtAuth()** (5 connections) — `backend/src/middleware/auth.js`
+- **seed-content.js** (4 connections) — `backend/scripts/seed-content.js`
+- **deactivateDealer()** (4 connections) — `backend/src/services/dealerApp.js`
+- **approveStaff()** (4 connections) — `backend/src/services/staff.js`
+- **deleteStaff()** (4 connections) — `backend/src/services/staff.js`
+- **holdStaff()** (4 connections) — `backend/src/services/staff.js`
+- **resumeStaff()** (4 connections) — `backend/src/services/staff.js`
+- **revokeStaff()** (4 connections) — `backend/src/services/staff.js`
+- **toggleAllStaffPrice()** (4 connections) — `backend/src/services/staff.js`
+- **toggleStaffPrice()** (4 connections) — `backend/src/services/staff.js`
+- **requireApprovedDealer()** (3 connections) — `backend/src/middleware/auth.js`
+- **inspect-db.js** (3 connections) — `backend/scripts/inspect-db.js`
+- **migrate-content.js** (3 connections) — `backend/scripts/migrate-content.js`
+- **setup-buckets.js** (3 connections) — `backend/scripts/setup-buckets.js`
+- **setup-policies.js** (3 connections) — `backend/scripts/setup-policies.js`
+- **test-storage.js** (3 connections) — `backend/scripts/test-storage.js`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (41 shared connections)
-- [[Product Requirements Documentation]] (18 shared connections)
-- [[Master Codebase Architecture Reference]] (15 shared connections)
-- [[Live Pricing Audit Tool]] (6 shared connections)
-- [[Architecture Doc Generator]] (6 shared connections)
-- [[Zoho Integration Architecture]] (5 shared connections)
-- [[Dependencies & Package Config]] (3 shared connections)
-- [[Pricing & Roles Skill]] (3 shared connections)
-- [[Community 120]] (2 shared connections)
-- [[Community 54]] (2 shared connections)
+- [[Zoho Integration Skill]] (32 shared connections)
+- [[Community 47]] (23 shared connections)
+- [[Community 86]] (11 shared connections)
+- [[Community 90]] (8 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (7 shared connections)
+- [[Community 117]] (5 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- `backend/scripts/check-readiness.js`
+- `backend/scripts/inspect-db.js`
+- `backend/scripts/migrate-content.js`
+- `backend/scripts/seed-content.js`
+- `backend/scripts/setup-buckets.js`
+- `backend/scripts/setup-policies.js`
+- `backend/scripts/test-storage.js`
+- `backend/src/db/pool.js`
+- `backend/src/middleware/auth.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/services/staff.js`
+- `backend/src/utils/audit.js`
+- `backend/src/utils/hash.js`
 
 ## Audit Trail
 
-- EXTRACTED: 223 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 249 (99%)
+- INFERRED: 3 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

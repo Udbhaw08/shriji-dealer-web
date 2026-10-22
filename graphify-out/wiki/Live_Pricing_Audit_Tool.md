@@ -1,56 +1,55 @@
 # Live Pricing Audit Tool
 
-> 59 nodes · cohesion 0.07
+> 58 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **D()** (26 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **mt()** (18 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **O()** (17 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **St()** (14 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **dn()** (13 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **re()** (13 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **vt()** (12 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **bt()** (11 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **sn()** (11 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **ut()** (11 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **vn()** (11 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **ie()** (10 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **ip()** (10 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **an()** (9 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **en()** (9 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **Oe()** (9 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **pt()** (9 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **Rd()** (9 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **Bn()** (8 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **te()** (8 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **af()** (7 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **ft()** (7 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **ln()** (7 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **xn()** (7 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- **cn()** (6 connections) — `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
-- *... and 34 more nodes in this community*
+- **n()** (29 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **Lr()** (24 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **Br()** (20 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **kf()** (19 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **Hr()** (15 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **os()** (13 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **Tr()** (11 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **Di()** (10 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **nc()** (10 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **ps()** (10 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **sf()** (10 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **ms()** (9 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **zr()** (9 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **ec()** (8 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **Fi()** (8 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **go()** (8 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **ic()** (8 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **kr()** (8 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **request()** (8 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **Ur()** (8 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **Ai()** (7 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **hs()** (7 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **Li()** (7 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **Pi()** (7 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- **ys()** (7 connections) — `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
+- *... and 33 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (63 shared connections)
-- [[Master Codebase Architecture Reference]] (31 shared connections)
-- [[Architecture Doc Generator]] (14 shared connections)
-- [[Product Requirements Documentation]] (14 shared connections)
-- [[Dependencies & Package Config]] (11 shared connections)
-- [[Community 54]] (8 shared connections)
-- [[Pricing & Roles Skill]] (7 shared connections)
-- [[Community 34]] (6 shared connections)
-- [[Zoho Integration Architecture]] (2 shared connections)
-- [[Community 120]] (2 shared connections)
+- [[Dealer Auth & Session Management]] (62 shared connections)
+- [[Master Codebase Architecture Reference]] (40 shared connections)
+- [[Product Brand & Business Vision]] (25 shared connections)
+- [[Product Pages Specification]] (14 shared connections)
+- [[Pricing Regression Test Suite]] (8 shared connections)
+- [[Oxlint Linter Configuration]] (6 shared connections)
+- [[Community 53]] (6 shared connections)
+- [[Architecture Doc Generator]] (5 shared connections)
+- [[Community 91]] (4 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-C9N_FwZx.js`
+- `android/app/src/main/assets/public/assets/index-Cuy2sO6a.js`
 
 ## Audit Trail
 
-- EXTRACTED: 398 (100%)
+- EXTRACTED: 410 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

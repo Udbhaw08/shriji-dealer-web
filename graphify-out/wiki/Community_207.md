@@ -17,8 +17,8 @@
 
 ## Relationships
 
-- [[Community 46]] (1 shared connections)
-- [[Graphify Knowledge Graph Skill]] (1 shared connections)
+- [[Community 99]] (1 shared connections)
+- [[Client Products Data Store]] (1 shared connections)
 
 ## Source Files
 

@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-22T17:52:44.557+05:30 (GMT+5:30)
-> Total Project Files: 1610
+> Last synchronized: 2026-10-22T18:21:47.926+05:30 (GMT+5:30)
+> Total Project Files: 1616
 
 ---
 
@@ -88,7 +88,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 ## 4. Codebase Directory Map
 
 ### 4.1 Pages (`src/pages/`)
-- **`src/pages/ContentAdminDashboard.jsx`** (42.6 KB)
+- **`src/pages/ContentAdminDashboard.jsx`** (51.8 KB)
 - **`src/pages/DealerDashboard.jsx`** (35.9 KB)
 - **`src/pages/Favorites.jsx`** (6.7 KB)
 - **`src/pages/Home.jsx`** (20.6 KB)
@@ -102,6 +102,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 
 ### 4.2 Reusable Components (`src/components/` & `src/ui.jsx`)
 - **`src/components/EmailVerificationPrompt.jsx`** (9.6 KB)
+- **`src/components/FileOrUrlInput.jsx`** (14.4 KB)
 - **`src/components/HeroSlider.jsx`** (11.4 KB)
 - **`src/components/MobileBottomNav.jsx`** (4.8 KB)
 - **`src/components/NativeBackHandler.jsx`** (3.7 KB)
@@ -143,6 +144,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`api/products/index.js`** (1.1 KB)
 - **`api/products/[id].js`** (1.1 KB)
 - **`api/schemes.js`** (0.5 KB)
+- **`api/upload.js`** (2.1 KB)
 - **`api/zoho.js`** (31.8 KB)
 
 ### 4.5 Automation & Utility Scripts (`scripts/`)

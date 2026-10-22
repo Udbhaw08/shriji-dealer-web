@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **repository-language-metadata.test.mjs** (2 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
-- **linguistGenerated()** (1 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
+- **test-whatsapp.js** (2 connections) — `backend/scripts/test-whatsapp.js`
+- **__dirname** (1 connections) — `backend/scripts/test-whatsapp.js`
+- **testWhatsApp()** (1 connections) — `backend/scripts/test-whatsapp.js`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/repository-language-metadata.test.mjs`
+- `backend/scripts/test-whatsapp.js`
 
 ## Audit Trail
 
