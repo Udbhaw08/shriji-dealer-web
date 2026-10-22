@@ -1,62 +1,47 @@
 # Community 39
 
-> 37 nodes · cohesion 0.14
+> 38 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **render-sequence.mjs** (67 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **textUnits()** (33 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **validateArchitecture()** (22 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **validateDataflow()** (22 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **validateLifecycle()** (22 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **cleanCrossingProblems()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **rectsOverlap()** (16 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **validateSequence()** (15 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **cleanAmbiguousCorridorProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanBorderRunProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanRouteRhythmProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanLabelRouteClearanceProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **brandTopRailProblem()** (13 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **minimumNodeTextWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **text-fit.mjs** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **availableNodeTextWidth()** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **segmentLabelBox()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **collectEligibleRoutedRelations()** (6 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **qualityProfileForGate()** (6 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **flowLabelSize()** (4 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **messageGeometry()** (4 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **messageLabelBox()** (4 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **messageRouteBox()** (2 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **arrowClass** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **compositionFrames** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- *... and 12 more nodes in this community*
+- **properties** (11 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **viewBox** (6 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **meta** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **entries** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **legend** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **animation** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **locale** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **mode** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **output** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **subtitle** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **views** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **properties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [[Product Pages Specification]] (63 shared connections)
-- [[Architecture Doc Generator]] (42 shared connections)
-- [[Community 40]] (27 shared connections)
-- [[Product Brand & Business Vision]] (19 shared connections)
-- [[Community 78]] (14 shared connections)
-- [[Pricing Regression Test Suite]] (9 shared connections)
-- [[Community 101]] (5 shared connections)
-- [[Testing & Workflow Skill]] (3 shared connections)
-- [[Community 280]] (1 shared connections)
+- [[Community 107]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 367 (100%)
+- EXTRACTED: 75 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

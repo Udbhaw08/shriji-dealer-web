@@ -33,7 +33,7 @@
 
 ## Relationships
 
-- [[Graphify Knowledge Graph Skill]] (33 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (33 shared connections)
 - [[Design System & UI Tokens]] (5 shared connections)
 
 ## Source Files

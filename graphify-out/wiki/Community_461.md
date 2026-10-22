@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **fromSide** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **route** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- [[Vercel Deployment Routing]] (1 shared connections)
+- [[Testing & Workflow Skill]] (1 shared connections)
 
 ## Source Files
 

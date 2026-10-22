@@ -1,47 +1,57 @@
 # Community 37
 
-> 38 nodes · cohesion 0.05
+> 39 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **properties** (11 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **viewBox** (6 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **meta** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **entries** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **legend** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **properties** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **title** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **animation** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **locale** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **mode** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **output** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **subtitle** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **views** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **properties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- *... and 13 more nodes in this community*
+- **auth.js** (47 connections) — `backend/src/routes/auth.js`
+- **crmClient.js** (32 connections) — `backend/src/services/crmClient.js`
+- **validators.js** (14 connections) — `backend/src/utils/validators.js`
+- **crmFetch()** (12 connections) — `backend/src/services/crmClient.js`
+- **normalizePhone()** (12 connections) — `backend/src/utils/phone.js`
+- **normalizeEmail()** (12 connections) — `backend/src/utils/validators.js`
+- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
+- **cleanName()** (7 connections) — `backend/src/utils/validators.js`
+- **crmConfigured()** (6 connections) — `backend/src/services/crmClient.js`
+- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
+- **phone.js** (6 connections) — `backend/src/utils/phone.js`
+- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
+- **createDealerContact()** (5 connections) — `backend/src/services/crmClient.js`
+- **updateDealerCodeInCrm()** (5 connections) — `backend/src/services/crmClient.js`
+- **isValidPhone()** (5 connections) — `backend/src/utils/validators.js`
+- **resolveUserWithDealer()** (4 connections) — `backend/src/routes/auth.js`
+- **resolveContactNames()** (4 connections) — `backend/src/services/crmClient.js`
+- **isValidEmail()** (4 connections) — `backend/src/utils/validators.js`
+- **isValidName()** (4 connections) — `backend/src/utils/validators.js`
+- **emailOnlyIdentifier()** (3 connections) — `backend/src/routes/auth.js`
+- **findUserByEmail()** (3 connections) — `backend/src/routes/auth.js`
+- **issueSession()** (3 connections) — `backend/src/routes/auth.js`
+- **deactivateAccountInCrm()** (3 connections) — `backend/src/services/crmClient.js`
+- **deactivateContactInCrm()** (3 connections) — `backend/src/services/crmClient.js`
+- **getDealerAccount()** (3 connections) — `backend/src/services/crmClient.js`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [[Community 107]] (1 shared connections)
+- [[Vercel Deployment Routing]] (26 shared connections)
+- [[Community 57]] (14 shared connections)
+- [[Community 44]] (10 shared connections)
+- [[Community 78]] (5 shared connections)
+- [[Community 132]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `backend/src/routes/auth.js`
+- `backend/src/services/crmClient.js`
+- `backend/src/services/notifications.js`
+- `backend/src/utils/phone.js`
+- `backend/src/utils/validators.js`
+- `backend/test/interconnection.test.mjs`
+- `backend/test/validators.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 75 (100%)
+- EXTRACTED: 243 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

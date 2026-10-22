@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Modality** (5 connections) — `.agents/skills/apple-design/references/hig/modality.md`
-- **modality.md** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **Panels** (5 connections) — `.agents/skills/apple-design/references/hig/panels.md`
+- **panels.md** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
+- **HUD-style panels** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/modality.md`
+- `.agents/skills/apple-design/references/hig/panels.md`
 
 ## Audit Trail
 

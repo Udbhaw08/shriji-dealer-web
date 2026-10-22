@@ -1,60 +1,51 @@
 # Community 54
 
-> 27 nodes · cohesion 0.18
+> 30 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **auth.js** (47 connections) — `backend/src/routes/auth.js`
-- **dealerApp.js** (24 connections) — `backend/src/services/dealerApp.js`
-- **validators.js** (14 connections) — `backend/src/utils/validators.js`
-- **applyCrmAccountState()** (12 connections) — `backend/src/services/dealerApp.js`
-- **normalizePhone()** (12 connections) — `backend/src/utils/phone.js`
-- **normalizeEmail()** (12 connections) — `backend/src/utils/validators.js`
-- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
-- **cleanName()** (7 connections) — `backend/src/utils/validators.js`
-- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
-- **phone.js** (6 connections) — `backend/src/utils/phone.js`
-- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
-- **applyCrmContactState()** (5 connections) — `backend/src/services/dealerApp.js`
-- **isValidPhone()** (5 connections) — `backend/src/utils/validators.js`
-- **resolveUserWithDealer()** (4 connections) — `backend/src/routes/auth.js`
-- **isValidEmail()** (4 connections) — `backend/src/utils/validators.js`
-- **isValidName()** (4 connections) — `backend/src/utils/validators.js`
-- **emailOnlyIdentifier()** (3 connections) — `backend/src/routes/auth.js`
-- **findUserByEmail()** (3 connections) — `backend/src/routes/auth.js`
-- **issueSession()** (3 connections) — `backend/src/routes/auth.js`
-- **isValidGstin()** (3 connections) — `backend/src/utils/validators.js`
-- **authRouter** (2 connections) — `backend/src/routes/auth.js`
-- **publicUser()** (2 connections) — `backend/src/routes/auth.js`
-- **crmSync.test.mjs** (2 connections) — `backend/test/crmSync.test.mjs`
-- **isValidPincode()** (2 connections) — `backend/src/utils/validators.js`
-- **googleClient** (1 connections) — `backend/src/routes/auth.js`
-- *... and 2 more nodes in this community*
+- **check-update.mjs** (99 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **encodeRecoverableState()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **guardedCacheEntryRead()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **notification()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **operationIsActive()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stateAfterFailedCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stateWithFailureCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertSafeCacheEntry()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cancelResponseBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **corruptClaimStatus()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **encodeBoundedState()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **eventKeyForDigest()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **metadataIsWithinLease()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **nextFailedCheck()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **readBoundedBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stateAfterAcknowledgement()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertRenameableCacheEntry()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertSafeRegularFile()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **CacheOperationRaceError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **CachePathChangedError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **defaultCacheDirectory()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **defaultReleasePath** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **FileIdentityChangedError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **isMainModule()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **MAX_CACHE_HORIZON_MS** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [[Community 44]] (21 shared connections)
-- [[Community 122]] (15 shared connections)
-- [[Community 55]] (12 shared connections)
-- [[Community 76]] (8 shared connections)
-- [[Community 104]] (7 shared connections)
-- [[Community 50]] (6 shared connections)
-- [[Community 134]] (5 shared connections)
+- [[Community 93]] (21 shared connections)
+- [[Community 108]] (19 shared connections)
+- [[Community 99]] (19 shared connections)
+- [[Community 63]] (16 shared connections)
+- [[Community 40]] (1 shared connections)
 
 ## Source Files
 
-- `backend/src/routes/auth.js`
-- `backend/src/services/crmClient.js`
-- `backend/src/services/dealerApp.js`
-- `backend/src/utils/phone.js`
-- `backend/src/utils/validators.js`
-- `backend/test/crmSync.test.mjs`
-- `backend/test/interconnection.test.mjs`
-- `backend/test/validators.test.mjs`
+- `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 198 (100%)
+- EXTRACTED: 152 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

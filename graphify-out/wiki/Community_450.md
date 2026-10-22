@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **esm-Atytk4hc.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-Atytk4hc.js`
-- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-Atytk4hc.js`
+- **Package.swift** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
+- **PackageDescription** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/esm-Atytk4hc.js`
+- `ios/App/CapApp-SPM/Package.swift`
 
 ## Audit Trail
 

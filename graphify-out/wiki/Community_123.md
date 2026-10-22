@@ -1,40 +1,35 @@
 # Community 123
 
-> 15 nodes · cohesion 0.15
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **i18n.test.mjs** (20 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **catalogKeys()** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **SUPPORTED_LOCALES** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **authoredExample()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **evaluate()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **example()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **loadArtifact()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **AUTHORED_TEXT_KEYS** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **templatePath** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **Augmented reality** (13 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **augmented-reality.md** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Communicating with people** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Designing object interactions** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Handling interruptions** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Helping people place objects** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Icons and badges** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Offering a multiuser experience** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Providing coaching** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Reacting to real-world objects** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Suggesting problem resolutions** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
 
 ## Relationships
 
-- [[Community 101]] (5 shared connections)
-- [[Community 47]] (1 shared connections)
-- [[Community 79]] (1 shared connections)
-- [[Community 125]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/i18n.mjs`
-- `.agents/skills/archify/test/i18n.test.mjs`
+- `.agents/skills/apple-design/references/hig/augmented-reality.md`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

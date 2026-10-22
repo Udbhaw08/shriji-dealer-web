@@ -4,27 +4,28 @@
 
 ## Key Concepts
 
-- **Archify JSON IR Schemas** (7 connections) — `.agents/skills/archify/schemas/README.md`
-- **Files** (2 connections) — `.agents/skills/archify/schemas/README.md`
-- **README.md** (1 connections) — `.agents/skills/archify/schemas/README.md`
-- **Error format** (1 connections) — `.agents/skills/archify/schemas/README.md`
-- **Legend presentation contract** (1 connections) — `.agents/skills/archify/schemas/README.md`
-- **Runtime validation** (1 connections) — `.agents/skills/archify/schemas/README.md`
-- **schema_version policy** (1 connections) — `.agents/skills/archify/schemas/README.md`
-- **Shared definitions (common.schema.json)** (1 connections) — `.agents/skills/archify/schemas/README.md`
-- **Visual quality and engineering truth** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **semanticRelation** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **from** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **to** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Claude Agent Instructions]] (2 shared connections)
+- [[Community 195]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/README.md`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

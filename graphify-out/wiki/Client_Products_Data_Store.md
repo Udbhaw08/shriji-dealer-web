@@ -4,48 +4,48 @@
 
 ## Key Concepts
 
-- **O()** (21 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **ut()** (18 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **cn()** (14 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **M()** (13 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **lt()** (12 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **pt()** (12 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **k()** (11 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **mn()** (11 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **nn()** (11 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **vt()** (11 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **ip()** (10 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **gt()** (9 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **mt()** (9 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **ot()** (9 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **ct()** (8 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **ee()** (8 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **en()** (8 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **A()** (7 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **In()** (7 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **sn()** (7 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **af()** (6 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **ie()** (6 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **te()** (6 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **tl()** (6 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **Tn()** (6 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- **O()** (21 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
+- **ut()** (18 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
+- **cn()** (14 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
+- **M()** (13 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
+- **lt()** (12 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
+- **pt()** (12 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
+- **k()** (11 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
+- **mn()** (11 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
+- **nn()** (11 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
+- **vt()** (11 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
+- **ip()** (10 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
+- **gt()** (9 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
+- **mt()** (9 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
+- **ot()** (9 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
+- **ct()** (8 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
+- **ee()** (8 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
+- **en()** (8 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
+- **A()** (7 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
+- **In()** (7 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
+- **sn()** (7 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
+- **af()** (6 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
+- **ie()** (6 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
+- **te()** (6 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
+- **tl()** (6 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
+- **Tn()** (6 connections) — `ios/App/App/public/assets/index-Dm8fH5PF.js`
 - *... and 28 more nodes in this community*
 
 ## Relationships
 
-- [[Dependencies & Package Config]] (58 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (58 shared connections)
 - [[Master Codebase Architecture Reference]] (31 shared connections)
-- [[Oxlint Linter Configuration]] (12 shared connections)
-- [[Community 48]] (11 shared connections)
-- [[Community 42]] (10 shared connections)
+- [[Graphify Knowledge Graph Skill]] (12 shared connections)
+- [[Community 53]] (11 shared connections)
+- [[Community 48]] (10 shared connections)
 - [[Zoho Integration Architecture]] (9 shared connections)
-- [[Community 30]] (9 shared connections)
-- [[Community 85]] (3 shared connections)
-- [[Community 31]] (3 shared connections)
+- [[Community 34]] (9 shared connections)
+- [[Community 90]] (3 shared connections)
+- [[Community 35]] (3 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- `ios/App/App/public/assets/index-Dm8fH5PF.js`
 
 ## Audit Trail
 

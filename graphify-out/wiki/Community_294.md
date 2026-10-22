@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Labels** (5 connections) — `.agents/skills/apple-design/references/hig/labels.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/labels.md`
-- **labels.md** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
+- **Live-viewing apps** (6 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- **live-viewing-apps.md** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- **Cloud DVR** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- **EPG experience** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/labels.md`
+- `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
 
 ## Audit Trail
 

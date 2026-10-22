@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **esm-Atytk4hc.js** (1 connections) — `ios/App/App/public/assets/esm-Atytk4hc.js`
-- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-Atytk4hc.js`
+- **accessibility.md** (1 connections) — `.agents/skills/swiftui-pro/references/accessibility.md`
+- **Accessibility** (1 connections) — `.agents/skills/swiftui-pro/references/accessibility.md`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/esm-Atytk4hc.js`
+- `.agents/skills/swiftui-pro/references/accessibility.md`
 
 ## Audit Trail
 

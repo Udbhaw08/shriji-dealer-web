@@ -34,7 +34,7 @@
 ## Relationships
 
 - [[Product Pages Specification]] (6 shared connections)
-- [[Community 47]] (4 shared connections)
+- [[Community 50]] (4 shared connections)
 
 ## Source Files
 

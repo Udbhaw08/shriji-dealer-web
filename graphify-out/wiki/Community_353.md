@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **automatic-port-spread.test.mjs** (5 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
-- **connectionPoints()** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
-- **fanOutArchitecture()** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- **render-output-checks.test.mjs** (5 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **checker** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **checkHtml()** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- `.agents/skills/archify/test/render-output-checks.test.mjs`
 
 ## Audit Trail
 

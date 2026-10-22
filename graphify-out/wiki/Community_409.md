@@ -4,14 +4,15 @@
 
 ## Key Concepts
 
-- **col** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **maximum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **mainPath** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 - **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- [[Zoho API Diagnostic Script]] (1 shared connections)
+- [[Community 106]] (1 shared connections)
+- [[Community 107]] (1 shared connections)
 
 ## Source Files
 
@@ -19,7 +20,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

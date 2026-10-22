@@ -4,20 +4,20 @@
 
 ## Key Concepts
 
-- **Tablet (iPadOS)** (6 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Pointing devices** (5 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **pointing-devices.md** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Customizing pointers** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Pointer accessories** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Pointer magnetism** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Pointer shape and content effects** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Pointers** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Standard pointers and effects** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Icons & Glyphs Guide** (10 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Libraries** (4 connections) — `.agents/skills/refero-design/references/icons.md`
+- **icons.md** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Accessibility** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Color** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **For Product UI (SVG-based)** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Icon Sizing** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Icon + Text Pairing** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Optical Corrections** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Style Consistency** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Two Contexts** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Variable Glyph Systems** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **When to Use What** (1 connections) — `.agents/skills/refero-design/references/icons.md`
 
 ## Relationships
 
@@ -25,7 +25,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- `.agents/skills/refero-design/references/icons.md`
 
 ## Audit Trail
 

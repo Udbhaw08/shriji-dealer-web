@@ -1,47 +1,46 @@
 # Community 76
 
-> 21 nodes · cohesion 0.21
+> 22 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **hash.js** (18 connections) — `backend/src/utils/hash.js`
-- **loginCode.js** (15 connections) — `backend/src/utils/loginCode.js`
-- **generateLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
-- **generateUniqueDealerCode()** (8 connections) — `backend/src/utils/loginCode.js`
-- **hash.test.mjs** (7 connections) — `backend/test/hash.test.mjs`
-- **loginCode.test.mjs** (7 connections) — `backend/test/loginCode.test.mjs`
-- **formatLoginCode()** (7 connections) — `backend/src/utils/loginCode.js`
-- **hashPassword()** (4 connections) — `backend/src/utils/hash.js`
-- **verifyPassword()** (4 connections) — `backend/src/utils/hash.js`
-- **isValidLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
-- **parseLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
-- **generateOtp()** (3 connections) — `backend/src/utils/hash.js`
-- **scryptKey()** (3 connections) — `backend/src/utils/hash.js`
-- **USER_CATEGORIES** (3 connections) — `backend/src/utils/loginCode.js`
-- **generateCode()** (2 connections) — `backend/src/utils/hash.js`
-- **randomToken()** (2 connections) — `backend/src/utils/hash.js`
-- **generateRandomDigits()** (2 connections) — `backend/src/utils/loginCode.js`
-- **generateRandomLetters()** (2 connections) — `backend/src/utils/loginCode.js`
-- **GST_TREATMENT_OPTIONS** (2 connections) — `backend/src/utils/loginCode.js`
-- **SCRYPT** (1 connections) — `backend/src/utils/hash.js`
-- **PREFIX_MAP** (1 connections) — `backend/src/utils/loginCode.js`
+- **properties** (9 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **architecture.schema.json** (7 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **meta** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **boundaries** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **connections** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **cards** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **schema_version** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$id** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$schema** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **title** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- [[Community 44]] (11 shared connections)
-- [[Community 54]] (8 shared connections)
+- [[Community 129]] (3 shared connections)
+- [[Community 72]] (1 shared connections)
+- [[Community 60]] (1 shared connections)
 
 ## Source Files
 
-- `backend/src/utils/hash.js`
-- `backend/src/utils/loginCode.js`
-- `backend/test/hash.test.mjs`
-- `backend/test/loginCode.test.mjs`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 106 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 47 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

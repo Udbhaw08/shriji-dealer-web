@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **CapApp-SPM.swift** (0 connections) — `ios/App/CapApp-SPM/Sources/CapApp-SPM/CapApp-SPM.swift`
+- **cordova.js** (0 connections) — `ios/App/App/public/cordova.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `ios/App/CapApp-SPM/Sources/CapApp-SPM/CapApp-SPM.swift`
+- `ios/App/App/public/cordova.js`
 
 ## Audit Trail
 

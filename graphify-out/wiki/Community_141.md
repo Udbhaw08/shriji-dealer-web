@@ -1,34 +1,37 @@
 # Community 141
 
-> 13 nodes · cohesion 0.15
+> 13 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **Toolbars** (9 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Platform considerations** (4 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **toolbars.md** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Actions** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Item groupings** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Navigation** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Titles** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **focus-browser.test.mjs** (17 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **run()** (8 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **stable()** (6 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **click()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **key()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **select()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **focus()** (2 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **variant()** (1 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 51]] (5 shared connections)
+- [[Community 138]] (3 shared connections)
+- [[Community 50]] (1 shared connections)
+- [[Community 122]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/toolbars.md`
+- `.agents/skills/archify/test/focus-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
+- EXTRACTED: 58 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

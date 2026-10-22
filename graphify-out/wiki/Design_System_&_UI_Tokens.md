@@ -34,12 +34,12 @@
 ## Relationships
 
 - [[Roles & Customer Sharing Spec]] (78 shared connections)
-- [[Graphify Knowledge Graph Skill]] (32 shared connections)
-- [[Community 164]] (9 shared connections)
-- [[Community 147]] (8 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (32 shared connections)
+- [[Community 162]] (9 shared connections)
+- [[Community 145]] (8 shared connections)
 - [[Community 32]] (5 shared connections)
-- [[Community 163]] (2 shared connections)
-- [[Community 385]] (1 shared connections)
+- [[Community 161]] (2 shared connections)
+- [[Community 384]] (1 shared connections)
 
 ## Source Files
 

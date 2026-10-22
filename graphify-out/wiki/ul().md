@@ -1,8 +1,8 @@
 # ul()
 
-> God node · 39 connections · `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+> God node · 39 connections · `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
 
-**Community:** [[Community 30]]
+**Community:** [[Graphify Workflow]]
 
 ## Connections by Relation
 

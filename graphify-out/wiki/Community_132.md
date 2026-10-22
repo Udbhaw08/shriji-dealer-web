@@ -1,36 +1,38 @@
 # Community 132
 
-> 14 nodes · cohesion 0.23
+> 14 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **additionalProperties** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **required** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **edges** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **groups** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **phases** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **commerceClient.js** (22 connections) — `backend/src/services/commerceClient.js`
+- **ensureContactPricebookForCrmAccount()** (8 connections) — `backend/src/services/commerceClient.js`
+- **fetchCatalog()** (6 connections) — `backend/src/services/commerceClient.js`
+- **booksFetch()** (5 connections) — `backend/src/services/commerceClient.js`
+- **commerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
+- **commerceFetch()** (5 connections) — `backend/src/services/commerceClient.js`
+- **isCommerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
+- **resolvePricebookId()** (5 connections) — `backend/src/services/commerceClient.js`
+- **assignPricebookToContact()** (4 connections) — `backend/src/services/commerceClient.js`
+- **deactivateCommerceContact()** (3 connections) — `backend/src/services/commerceClient.js`
+- **fetchCommercePricebooks()** (3 connections) — `backend/src/services/commerceClient.js`
+- **fetchPricebookRates()** (3 connections) — `backend/src/services/commerceClient.js`
+- **getAccessToken()** (3 connections) — `backend/src/services/commerceClient.js`
+- **parseRate()** (2 connections) — `backend/src/services/commerceClient.js`
 
 ## Relationships
 
-- [[Zoho API Diagnostic Script]] (5 shared connections)
-- [[Community 107]] (5 shared connections)
+- [[Community 57]] (8 shared connections)
+- [[Vercel Deployment Routing]] (7 shared connections)
+- [[Community 37]] (2 shared connections)
+- [[Community 44]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `backend/src/services/commerceClient.js`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (100%)
+- EXTRACTED: 79 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

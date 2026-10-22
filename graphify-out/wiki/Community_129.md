@@ -1,35 +1,36 @@
 # Community 129
 
-> 14 nodes · cohesion 0.23
+> 14 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **web-CnDqeK1z.js** (13 connections) — `ios/App/App/public/assets/web-CnDqeK1z.js`
-- **applyPrefix()** (4 connections) — `ios/App/App/public/assets/web-CnDqeK1z.js`
-- **keys()** (4 connections) — `ios/App/App/public/assets/web-CnDqeK1z.js`
-- **get()** (3 connections) — `ios/App/App/public/assets/web-CnDqeK1z.js`
-- **migrate()** (3 connections) — `ios/App/App/public/assets/web-CnDqeK1z.js`
-- **rawKeys()** (3 connections) — `ios/App/App/public/assets/web-CnDqeK1z.js`
-- **clear()** (2 connections) — `ios/App/App/public/assets/web-CnDqeK1z.js`
-- **remove()** (2 connections) — `ios/App/App/public/assets/web-CnDqeK1z.js`
-- **removeOld()** (2 connections) — `ios/App/App/public/assets/web-CnDqeK1z.js`
-- **set()** (2 connections) — `ios/App/App/public/assets/web-CnDqeK1z.js`
-- **configure()** (1 connections) — `ios/App/App/public/assets/web-CnDqeK1z.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-CnDqeK1z.js`
-- **impl()** (1 connections) — `ios/App/App/public/assets/web-CnDqeK1z.js`
-- **prefix()** (1 connections) — `ios/App/App/public/assets/web-CnDqeK1z.js`
+- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **sources** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **additionalProperties** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **required** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **components** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Mobile Responsive UI Skill]] (5 shared connections)
+- [[Community 76]] (3 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-CnDqeK1z.js`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 46 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

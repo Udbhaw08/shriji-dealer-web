@@ -1,53 +1,46 @@
 # Community 79
 
-> 20 nodes · cohesion 0.12
+> 21 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **ChromeVisualBrowser** (21 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **visual-check.test.mjs** (14 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **PipeCdp** (7 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.attach()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.close()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.constructor()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **chromeVisualBrowserArgs()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.failAll()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.consume()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **VISUAL_CHECK_VIEWPORTS** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.constructor()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.failure()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **artifact()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **fakeBrowser()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **fakeChromeChild()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **png** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **workflow-migration.test.mjs** (22 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **workflow-migration-geometry.mjs** (10 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **createMappedWorkflowCandidate()** (9 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **intrinsicWorkflow()** (8 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **planningWorkflow()** (7 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **createHorizontalRankMapper()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **clone()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **copyFixture()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **explicitPinConflictWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **fixture** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **heightConstrainedWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **parseJsonOutput()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **profileDivergenceWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **runMigration()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **runValidation()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **mappedNumber()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
 
 ## Relationships
 
-- [[Community 47]] (8 shared connections)
-- [[Community 49]] (6 shared connections)
-- [[Community 125]] (2 shared connections)
-- [[Community 87]] (2 shared connections)
-- [[Community 140]] (1 shared connections)
-- [[Community 123]] (1 shared connections)
-- [[Community 33]] (1 shared connections)
-- [[Community 177]] (1 shared connections)
-- [[Community 240]] (1 shared connections)
-- [[Community 145]] (1 shared connections)
-- [[Community 202]] (1 shared connections)
-- [[Community 242]] (1 shared connections)
+- [[Community 127]] (11 shared connections)
+- [[Community 80]] (5 shared connections)
+- [[Product Pages Specification]] (3 shared connections)
+- [[Community 51]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/visual-check.test.mjs`
+- `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- `.agents/skills/archify/test/workflow-migration.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 71 (100%)
+- EXTRACTED: 77 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

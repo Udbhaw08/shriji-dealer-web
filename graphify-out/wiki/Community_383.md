@@ -1,26 +1,27 @@
 # Community 383
 
-> 5 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **export_pricebooks_for_crm.mjs** (4 connections) — `scripts/export_pricebooks_for_crm.mjs`
-- **getAccessToken()** (2 connections) — `scripts/export_pricebooks_for_crm.mjs`
-- **main()** (2 connections) — `scripts/export_pricebooks_for_crm.mjs`
-- **env** (1 connections) — `scripts/export_pricebooks_for_crm.mjs`
-- **getMergedEnv()** (1 connections) — `scripts/export_pricebooks_for_crm.mjs`
+- **sync-supabase-content.js** (6 connections) — `backend/scripts/sync-supabase-content.js`
+- **syncAll()** (2 connections) — `backend/scripts/sync-supabase-content.js`
+- **__dirname** (1 connections) — `backend/scripts/sync-supabase-content.js`
+- **IMAGES** (1 connections) — `backend/scripts/sync-supabase-content.js`
+- **PROJECT_ROOT** (1 connections) — `backend/scripts/sync-supabase-content.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Vercel Deployment Routing]] (2 shared connections)
+- [[Community 57]] (1 shared connections)
 
 ## Source Files
 
-- `scripts/export_pricebooks_for_crm.mjs`
+- `backend/scripts/sync-supabase-content.js`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

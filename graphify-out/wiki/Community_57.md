@@ -1,47 +1,63 @@
 # Community 57
 
-> 26 nodes · cohesion 0.08
+> 28 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **Copywriting Guide** (15 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Banned Words** (5 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Microcopy** (4 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Product UI Copy** (4 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **copywriting.md** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **AI Slop Markers** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Avoid on Operational Surfaces** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Buttons** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Core Belief** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Corporate Zombie** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Empty States** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Errors** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Filler** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Headings: Descriptive, Not Aspirational** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Hype** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Info-Style Thinking** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Living Words vs Dead Words** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Marketing Hero Section** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Pre-Publish Checklist** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Proof Beats Hype** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Rhythm** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **The Order of Great Copy** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **The Sticky Line Test** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Universal Copy Structure** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **When Marketing Tone IS Appropriate in Product** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- *... and 1 more nodes in this community*
+- **pool.js** (30 connections) — `backend/src/db/pool.js`
+- **catalog.js** (16 connections) — `backend/src/services/catalog.js`
+- **env.js** (14 connections) — `backend/src/config/env.js`
+- **webhooks.js** (14 connections) — `backend/src/routes/webhooks.js`
+- **logger.js** (14 connections) — `backend/src/utils/logger.js`
+- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
+- **log** (13 connections) — `backend/src/utils/logger.js`
+- **env** (11 connections) — `backend/src/config/env.js`
+- **index.js** (11 connections) — `backend/src/jobs/index.js`
+- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
+- **notifications.js** (9 connections) — `backend/src/services/notifications.js`
+- **syncCatalog()** (7 connections) — `backend/src/services/catalog.js`
+- **catalogFor()** (4 connections) — `backend/src/services/catalog.js`
+- **loadCatalog()** (4 connections) — `backend/src/services/catalog.js`
+- **catalogSync()** (3 connections) — `backend/src/jobs/catalogSync.js`
+- **tokenCleanup()** (3 connections) — `backend/src/jobs/catalogSync.js`
+- **migrate-content.js** (3 connections) — `backend/scripts/migrate-content.js`
+- **test-storage.js** (3 connections) — `backend/scripts/test-storage.js`
+- **priceView()** (3 connections) — `backend/src/services/catalog.js`
+- **priceGate.test.mjs** (3 connections) — `backend/test/priceGate.test.mjs`
+- **bool()** (1 connections) — `backend/src/config/env.js`
+- **__dirname** (1 connections) — `backend/src/config/env.js`
+- **num()** (1 connections) — `backend/src/config/env.js`
+- **tx()** (1 connections) — `backend/src/db/pool.js`
+- **main()** (1 connections) — `backend/scripts/migrate-content.js`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Vercel Deployment Routing]] (34 shared connections)
+- [[Community 44]] (18 shared connections)
+- [[Community 37]] (14 shared connections)
+- [[Community 132]] (8 shared connections)
+- [[Dealer Auth & Session Management]] (2 shared connections)
+- [[Community 383]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/copywriting.md`
+- `backend/scripts/migrate-content.js`
+- `backend/scripts/test-storage.js`
+- `backend/src/config/env.js`
+- `backend/src/db/pool.js`
+- `backend/src/jobs/catalogSync.js`
+- `backend/src/jobs/crmPoll.js`
+- `backend/src/jobs/index.js`
+- `backend/src/routes/webhooks.js`
+- `backend/src/services/catalog.js`
+- `backend/src/services/notifications.js`
+- `backend/src/utils/logger.js`
+- `backend/test/priceGate.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (100%)
+- EXTRACTED: 195 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

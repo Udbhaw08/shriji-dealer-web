@@ -33,15 +33,15 @@
 
 ## Relationships
 
-- [[Community 39]] (63 shared connections)
+- [[Community 41]] (63 shared connections)
 - [[Architecture Doc Generator]] (45 shared connections)
 - [[Product Brand & Business Vision]] (35 shared connections)
-- [[Community 40]] (33 shared connections)
-- [[Community 78]] (31 shared connections)
-- [[Pricing Regression Test Suite]] (8 shared connections)
+- [[Community 43]] (33 shared connections)
+- [[Community 80]] (31 shared connections)
+- [[Product Requirements Documentation]] (8 shared connections)
 - [[Live Pricing Audit Tool]] (6 shared connections)
-- [[Community 101]] (4 shared connections)
-- [[Community 77]] (3 shared connections)
+- [[Community 102]] (4 shared connections)
+- [[Community 79]] (3 shared connections)
 
 ## Source Files
 

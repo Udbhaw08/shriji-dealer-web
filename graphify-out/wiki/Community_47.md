@@ -1,62 +1,48 @@
 # Community 47
 
-> 31 nodes · cohesion 0.12
+> 33 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **visual-check.mjs** (50 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **runVisualCheck()** (18 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **desktop-readability.mjs** (9 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **adaptive-reader-layout.test.mjs** (9 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **desktop-reader-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
-- **DESKTOP_READABILITY_VIEWPORT** (5 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **observationDiagnostics()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **safeUnlink()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **writeAtomic()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **baseReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **cleanupCaptureSidecars()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **contactSheetHtml()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **failureDiagnostic()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **persistReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **sha256()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **sidecarPaths()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **htmlEscape()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **observation()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **screenshotKey()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **viewportSubject()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **CAPTURE_VIEWPORTS** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **EXIT** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **THEMES** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **reader** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- *... and 6 more nodes in this community*
+- **scripts** (15 connections) — `.agents/skills/archify/package.json`
+- **package.json** (11 connections) — `.agents/skills/archify/package.json`
+- **devDependencies** (5 connections) — `.agents/skills/archify/package.json`
+- **bin** (2 connections) — `.agents/skills/archify/package.json`
+- **engines** (2 connections) — `.agents/skills/archify/package.json`
+- **overrides** (2 connections) — `.agents/skills/archify/package.json`
+- **archify** (1 connections) — `.agents/skills/archify/package.json`
+- **description** (1 connections) — `.agents/skills/archify/package.json`
+- **ajv** (1 connections) — `.agents/skills/archify/package.json`
+- **parse5** (1 connections) — `.agents/skills/archify/package.json`
+- **saxes** (1 connections) — `.agents/skills/archify/package.json`
+- **simple-icons** (1 connections) — `.agents/skills/archify/package.json`
+- **node** (1 connections) — `.agents/skills/archify/package.json`
+- **license** (1 connections) — `.agents/skills/archify/package.json`
+- **name** (1 connections) — `.agents/skills/archify/package.json`
+- **fast-uri** (1 connections) — `.agents/skills/archify/package.json`
+- **private** (1 connections) — `.agents/skills/archify/package.json`
+- **build:gallery** (1 connections) — `.agents/skills/archify/package.json`
+- **build:guide** (1 connections) — `.agents/skills/archify/package.json`
+- **build:readme-showcase** (1 connections) — `.agents/skills/archify/package.json`
+- **build:start** (1 connections) — `.agents/skills/archify/package.json`
+- **check:brand-marks** (1 connections) — `.agents/skills/archify/package.json`
+- **check:release-identity** (1 connections) — `.agents/skills/archify/package.json`
+- **check:validators** (1 connections) — `.agents/skills/archify/package.json`
+- **check:viewer** (1 connections) — `.agents/skills/archify/package.json`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [[Community 79]] (8 shared connections)
-- [[Community 125]] (6 shared connections)
-- [[Community 49]] (5 shared connections)
-- [[Live Pricing Audit Tool]] (4 shared connections)
-- [[Product Brand & Business Vision]] (3 shared connections)
-- [[Community 137]] (2 shared connections)
-- [[Community 140]] (2 shared connections)
-- [[Community 87]] (2 shared connections)
-- [[Community 100]] (2 shared connections)
-- [[Community 143]] (1 shared connections)
-- [[Community 144]] (1 shared connections)
-- [[Community 123]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- `.agents/skills/archify/package.json`
 
 ## Audit Trail
 
-- EXTRACTED: 150 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 64 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

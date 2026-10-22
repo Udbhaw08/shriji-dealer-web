@@ -1,48 +1,38 @@
 # Community 104
 
-> 17 nodes · cohesion 0.24
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **catalog.js** (16 connections) — `backend/src/services/catalog.js`
-- **logger.js** (14 connections) — `backend/src/utils/logger.js`
-- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
-- **log** (13 connections) — `backend/src/utils/logger.js`
-- **index.js** (11 connections) — `backend/src/jobs/index.js`
-- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
-- **syncCatalog()** (7 connections) — `backend/src/services/catalog.js`
-- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
-- **catalogFor()** (4 connections) — `backend/src/services/catalog.js`
-- **loadCatalog()** (4 connections) — `backend/src/services/catalog.js`
-- **catalogSync()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **tokenCleanup()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **markPollRun()** (3 connections) — `backend/src/jobs/crmPoll.js`
-- **priceView()** (3 connections) — `backend/src/services/catalog.js`
-- **priceGate.test.mjs** (3 connections) — `backend/test/priceGate.test.mjs`
-- **CATALOG** (1 connections) — `backend/test/priceGate.test.mjs`
-- **ts()** (1 connections) — `backend/src/utils/logger.js`
+- **3. Exactly which keys to fetch, and from where** (9 connections) — `docs/ZOHO-INTEGRATION.md`
+- **ZOHO-INTEGRATION.md — Live Zoho Commerce & Books Backend** (7 connections) — `docs/ZOHO-INTEGRATION.md`
+- **5. API surface** (2 connections) — `docs/ZOHO-INTEGRATION.md`
+- **ZOHO-INTEGRATION.md** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **1. Active Integration Summary** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **2. The Code Seams** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.1 Organization ID — from the Commerce dashboard** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.2 Client ID + Client Secret — from the API console, not the store** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.3 Refresh Token — generated once, then permanent** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.4 Scopes** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.5 Data centre** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.6 The API call the keys unlock** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.7 Still to confirm — only the store owner can answer** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **4. Architecture — the part that cannot be skipped** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **6. Migration checklist** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **How to hand the credentials over safely** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **Sources** (1 connections) — `docs/ZOHO-INTEGRATION.md`
 
 ## Relationships
 
-- [[Community 55]] (13 shared connections)
-- [[Community 44]] (10 shared connections)
-- [[Community 50]] (8 shared connections)
-- [[Community 54]] (7 shared connections)
-- [[Community 134]] (6 shared connections)
-- [[Community 122]] (3 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `backend/src/jobs/catalogSync.js`
-- `backend/src/jobs/crmPoll.js`
-- `backend/src/jobs/index.js`
-- `backend/src/services/catalog.js`
-- `backend/src/utils/logger.js`
-- `backend/test/priceGate.test.mjs`
+- `docs/ZOHO-INTEGRATION.md`
 
 ## Audit Trail
 
-- EXTRACTED: 113 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

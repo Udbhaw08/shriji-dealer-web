@@ -1,41 +1,38 @@
 # Community 119
 
-> 15 nodes · cohesion 0.22
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **el()** (18 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **xc()** (12 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **Ai()** (11 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **pi()** (6 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **Fi()** (5 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **Li()** (5 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **Qc()** (5 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **sm()** (5 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **Jc()** (4 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **ko()** (4 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **zc()** (4 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **oi()** (3 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **Wa()** (3 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **Ii()** (2 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **ri()** (2 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
+- **properties** (8 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **lanes** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **meta** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **cards** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **schema_version** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (16 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (11 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (8 shared connections)
-- [[Product Requirements Documentation]] (4 shared connections)
-- [[Pricing & Roles Skill]] (3 shared connections)
-- [[Community 35]] (1 shared connections)
+- [[Community 175]] (3 shared connections)
+- [[Community 309]] (1 shared connections)
+- [[Community 68]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-Ee8tX29H.js`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 89 (100%)
+- EXTRACTED: 33 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

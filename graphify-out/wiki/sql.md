@@ -2,7 +2,7 @@
 
 > God node · 67 connections · `backend/src/db/pool.js`
 
-**Community:** [[Community 44]]
+**Community:** [[Vercel Deployment Routing]]
 
 ## Connections by Relation
 

@@ -1,39 +1,35 @@
 # Community 134
 
-> 14 nodes · cohesion 0.33
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **commerceClient.js** (22 connections) — `backend/src/services/commerceClient.js`
-- **ensureContactPricebookForCrmAccount()** (8 connections) — `backend/src/services/commerceClient.js`
-- **fetchCatalog()** (6 connections) — `backend/src/services/commerceClient.js`
-- **booksFetch()** (5 connections) — `backend/src/services/commerceClient.js`
-- **commerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
-- **commerceFetch()** (5 connections) — `backend/src/services/commerceClient.js`
-- **isCommerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
-- **resolvePricebookId()** (5 connections) — `backend/src/services/commerceClient.js`
-- **assignPricebookToContact()** (4 connections) — `backend/src/services/commerceClient.js`
-- **deactivateCommerceContact()** (3 connections) — `backend/src/services/commerceClient.js`
-- **fetchCommercePricebooks()** (3 connections) — `backend/src/services/commerceClient.js`
-- **fetchPricebookRates()** (3 connections) — `backend/src/services/commerceClient.js`
-- **getAccessToken()** (3 connections) — `backend/src/services/commerceClient.js`
-- **parseRate()** (2 connections) — `backend/src/services/commerceClient.js`
+- **real-repository-proof.test.mjs** (15 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **automaticMcoRoot()** (2 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **artifactPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **connectionLabelGeometry()** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **evidencePayload()** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **experimentArtifactPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **experimentSourcePath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **pinnedSource** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **shareCardPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **sourcePath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
 
 ## Relationships
 
-- [[Community 104]] (6 shared connections)
-- [[Community 54]] (5 shared connections)
-- [[Community 44]] (4 shared connections)
-- [[Community 50]] (2 shared connections)
-- [[Community 55]] (2 shared connections)
+- [[Community 159]] (3 shared connections)
 
 ## Source Files
 
-- `backend/src/services/commerceClient.js`
+- `.agents/skills/archify/test/real-repository-proof.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 79 (100%)
+- EXTRACTED: 29 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

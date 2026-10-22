@@ -24,11 +24,11 @@
 
 ## Relationships
 
-- [[Community 51]] (19 shared connections)
-- [[Community 98]] (12 shared connections)
-- [[Community 92]] (7 shared connections)
-- [[Community 61]] (3 shared connections)
-- [[Community 38]] (2 shared connections)
+- [[Community 54]] (19 shared connections)
+- [[Community 99]] (12 shared connections)
+- [[Community 93]] (7 shared connections)
+- [[Community 63]] (3 shared connections)
+- [[Community 40]] (2 shared connections)
 
 ## Source Files
 

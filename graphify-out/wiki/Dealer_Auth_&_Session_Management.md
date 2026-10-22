@@ -33,9 +33,9 @@
 
 ## Relationships
 
-- [[Community 44]] (9 shared connections)
-- [[Community 55]] (2 shared connections)
-- [[Community 50]] (2 shared connections)
+- [[Vercel Deployment Routing]] (9 shared connections)
+- [[Community 57]] (2 shared connections)
+- [[Community 44]] (2 shared connections)
 
 ## Source Files
 

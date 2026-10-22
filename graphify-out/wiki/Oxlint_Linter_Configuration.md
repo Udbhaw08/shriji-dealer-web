@@ -1,55 +1,47 @@
 # Oxlint Linter Configuration
 
-> 46 nodes · cohesion 0.07
+> 43 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **l()** (27 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **qd()** (14 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **Yd()** (13 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **ye()** (13 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **Fd()** (12 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **Vd()** (12 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **sa()** (10 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **al()** (9 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **Sp()** (9 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **yl()** (9 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **Lo()** (8 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **ha()** (7 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **Rd()** (7 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **st()** (7 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **vl()** (7 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **Bd()** (6 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **ef()** (6 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **No()** (6 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **Si()** (6 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **Hd()** (5 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **hm()** (5 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **Id()** (5 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **ns()** (5 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **pl()** (5 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- **dl()** (4 connections) — `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
-- *... and 21 more nodes in this community*
+- **Craft Details Guide** (11 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **2. Forms** (10 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **6. Accessibility Quick Wins** (6 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **4. Touch & Mobile** (5 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **5. Performance Patterns** (5 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **1. Focus States** (4 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **3. Images** (4 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **7. Navigation & State** (4 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **craft-details.md** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **8. Content Copy Rules** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **9. Anti-Patterns Checklist** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Always Set Dimensions** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Async Updates Need Announcements** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Autocomplete Matters** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **AutoFocus Rules** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Avoid Layout Reads in Render** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Compound Controls: `:focus-within`** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Destructive Actions Need Confirmation** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Disable Spellcheck Where Appropriate** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Error Handling** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Heading Hierarchy** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **In React/Next.js** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Input Types and Attributes** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Keyboard Handlers** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Labels and Hit Targets** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [[Dependencies & Package Config]] (48 shared connections)
-- [[Master Codebase Architecture Reference]] (26 shared connections)
-- [[Community 30]] (16 shared connections)
-- [[Client Products Data Store]] (12 shared connections)
-- [[Zoho Integration Architecture]] (7 shared connections)
-- [[Community 31]] (5 shared connections)
-- [[Community 48]] (4 shared connections)
-- [[Community 42]] (4 shared connections)
-- [[Community 85]] (3 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-Ee8tX29H.js`
+- `.agents/skills/refero-design/references/craft-details.md`
 
 ## Audit Trail
 
-- EXTRACTED: 277 (100%)
+- EXTRACTED: 84 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

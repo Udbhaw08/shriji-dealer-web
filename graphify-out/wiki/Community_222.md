@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Virtual keyboards** (7 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
-- **virtual-keyboards.md** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
-- **Custom input views** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
-- **Custom keyboards** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **web-e-Xtx2bd.js** (8 connections) — `ios/App/App/public/assets/web-e-Xtx2bd.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-e-Xtx2bd.js`
+- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-e-Xtx2bd.js`
+- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-e-Xtx2bd.js`
+- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-e-Xtx2bd.js`
+- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-e-Xtx2bd.js`
+- **getState()** (1 connections) — `ios/App/App/public/assets/web-e-Xtx2bd.js`
+- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-e-Xtx2bd.js`
+- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-e-Xtx2bd.js`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- `ios/App/App/public/assets/web-e-Xtx2bd.js`
 
 ## Audit Trail
 

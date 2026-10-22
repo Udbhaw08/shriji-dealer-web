@@ -1,54 +1,55 @@
 # Price Presentation & Product UI
 
-> 90 nodes · cohesion 0.04
+> 80 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **_()** (447 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **kf()** (20 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **Nr()** (20 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **r()** (13 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **Fr()** (12 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **Br()** (7 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **request()** (7 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **sf()** (7 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **Kr()** (6 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **Qr()** (6 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **eh()** (5 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **gr()** (5 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **hr()** (5 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **jf()** (5 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **la()** (5 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **unavailable()** (5 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **xr()** (5 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **ae()** (4 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **ge()** (4 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **ne()** (4 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **p()** (4 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **qf()** (4 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **removeWindowListener()** (4 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **Ur()** (4 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **vr()** (4 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- *... and 65 more nodes in this community*
+- **i()** (66 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
+- **D()** (29 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
+- **get()** (23 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
+- **np()** (21 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
+- **.addEventListener()** (19 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
+- **b()** (18 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
+- **ku()** (17 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
+- **vc()** (16 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
+- **bm()** (14 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
+- **cn()** (14 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
+- **fp()** (14 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
+- **h()** (14 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
+- **aa()** (13 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
+- **It()** (13 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
+- **lm()** (13 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
+- **.removeEventListener()** (12 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
+- **mn()** (11 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
+- **nn()** (11 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
+- **tp()** (11 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
+- **am()** (10 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
+- **Bi()** (10 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
+- **ip()** (10 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
+- **mm()** (9 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
+- **ln()** (8 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
+- **om()** (8 connections) — `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
+- *... and 55 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (86 shared connections)
-- [[Product Requirements Documentation]] (63 shared connections)
-- [[Pricing & Roles Skill]] (60 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (54 shared connections)
-- [[Mobile Responsive UI Skill]] (50 shared connections)
-- [[Community 46]] (41 shared connections)
-- [[Community 35]] (40 shared connections)
-- [[Community 119]] (16 shared connections)
+- [[Dependencies & Package Config]] (80 shared connections)
+- [[Graphify Workflow]] (32 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (25 shared connections)
+- [[Community 46]] (24 shared connections)
+- [[Zoho API Diagnostic Script]] (23 shared connections)
+- [[Community 31]] (23 shared connections)
+- [[Pricing Regression Test Suite]] (20 shared connections)
+- [[Community 42]] (13 shared connections)
+- [[Community 109]] (10 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-Ee8tX29H.js`
+- `android/app/src/main/assets/public/assets/index-Dm8fH5PF.js`
 
 ## Audit Trail
 
-- EXTRACTED: 737 (100%)
+- EXTRACTED: 646 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

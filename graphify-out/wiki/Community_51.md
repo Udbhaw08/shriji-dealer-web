@@ -1,52 +1,62 @@
 # Community 51
 
-> 30 nodes · cohesion 0.09
+> 30 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **check-update.mjs** (99 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **encodeRecoverableState()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **guardedCacheEntryRead()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **notification()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationIsActive()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stateAfterFailedCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stateWithFailureCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertSafeCacheEntry()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cancelResponseBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **corruptClaimStatus()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **encodeBoundedState()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **eventKeyForDigest()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **metadataIsWithinLease()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **nextFailedCheck()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **readBoundedBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stateAfterAcknowledgement()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertRenameableCacheEntry()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertSafeRegularFile()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **CacheOperationRaceError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **CachePathChangedError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **defaultCacheDirectory()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **defaultReleasePath** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **FileIdentityChangedError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **isMainModule()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **MAX_CACHE_HORIZON_MS** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **.send()** (54 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **intent-trace-browser.test.mjs** (15 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **export-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **motion-governor-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **.inspect()** (5 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **run()** (5 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **run()** (5 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **evaluate()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **record()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **screenshot()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **mapExplicitCoordinates()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **.waitFor()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **afterTimer()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
 - *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [[Community 92]] (21 shared connections)
-- [[Community 108]] (19 shared connections)
-- [[Community 98]] (19 shared connections)
-- [[Community 61]] (16 shared connections)
-- [[Community 38]] (1 shared connections)
+- [[Community 87]] (8 shared connections)
+- [[Community 138]] (8 shared connections)
+- [[Community 122]] (7 shared connections)
+- [[Community 81]] (6 shared connections)
+- [[Community 50]] (5 shared connections)
+- [[Community 141]] (5 shared connections)
+- [[Community 142]] (5 shared connections)
+- [[Community 177]] (4 shared connections)
+- [[Community 241]] (4 shared connections)
+- [[Community 79]] (2 shared connections)
+- [[Community 101]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-update.mjs`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- `.agents/skills/archify/test/export-browser.test.mjs`
+- `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- `.agents/skills/archify/test/motion-governor-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 152 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 162 (98%)
+- INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

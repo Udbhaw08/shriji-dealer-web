@@ -24,8 +24,8 @@
 
 ## Relationships
 
-- [[Community 410]] (1 shared connections)
-- [[Zoho API Diagnostic Script]] (1 shared connections)
+- [[Community 409]] (1 shared connections)
+- [[Claude Agent Instructions]] (1 shared connections)
 - [[Community 107]] (1 shared connections)
 
 ## Source Files

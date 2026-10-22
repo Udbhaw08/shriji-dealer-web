@@ -1,39 +1,50 @@
 # Community 102
 
-> 17 nodes · cohesion 0.12
+> 17 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **pricing.test.mjs** (19 connections) — `src/data/pricing.test.mjs`
-- **crystal** (1 connections) — `src/data/pricing.test.mjs`
-- **crystalDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **crystalGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **genericDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **genericGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **genericItem** (1 connections) — `src/data/pricing.test.mjs`
-- **kettle** (1 connections) — `src/data/pricing.test.mjs`
-- **kettleDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **kettleGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **tcjDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **tcjGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **tripleCookJumbo** (1 connections) — `src/data/pricing.test.mjs`
-- **vernaGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **vernaPlus** (1 connections) — `src/data/pricing.test.mjs`
-- **zeroItem** (1 connections) — `src/data/pricing.test.mjs`
-- **zeroPricedResult** (1 connections) — `src/data/pricing.test.mjs`
+- **utils.mjs** (26 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **i18n.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **translateMessage()** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **applyTemplate()** (9 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **resolveLocale()** (7 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **componentContext()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **viewerCatalog()** (4 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **localizeTemplate()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **translateCount()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **formatMessage()** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **serializeScriptJson()** (2 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **CATALOGS** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **ESCAPE_MAP** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **MESSAGE_PAIRS** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **SIGIL_SHAPE** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **SIGIL_TONE** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **TEMPLATE_PLACEHOLDERS** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (3 shared connections)
+- [[Architecture Doc Generator]] (12 shared connections)
+- [[Community 43]] (10 shared connections)
+- [[Product Requirements Documentation]] (7 shared connections)
+- [[Community 41]] (5 shared connections)
+- [[Community 120]] (5 shared connections)
+- [[Product Brand & Business Vision]] (4 shared connections)
+- [[Product Pages Specification]] (4 shared connections)
+- [[Community 80]] (3 shared connections)
+- [[Project Readme & Layout]] (1 shared connections)
+- [[Community 279]] (1 shared connections)
 
 ## Source Files
 
-- `src/data/pricing.test.mjs`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/shared/i18n.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 107 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

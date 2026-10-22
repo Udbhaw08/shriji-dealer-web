@@ -1,40 +1,48 @@
 # Community 122
 
-> 15 nodes · cohesion 0.28
+> 14 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **crmClient.js** (32 connections) — `backend/src/services/crmClient.js`
-- **crmFetch()** (12 connections) — `backend/src/services/crmClient.js`
-- **crmConfigured()** (6 connections) — `backend/src/services/crmClient.js`
-- **createDealerContact()** (5 connections) — `backend/src/services/crmClient.js`
-- **updateDealerCodeInCrm()** (5 connections) — `backend/src/services/crmClient.js`
-- **resolveContactNames()** (4 connections) — `backend/src/services/crmClient.js`
-- **deactivateAccountInCrm()** (3 connections) — `backend/src/services/crmClient.js`
-- **deactivateContactInCrm()** (3 connections) — `backend/src/services/crmClient.js`
-- **getDealerAccount()** (3 connections) — `backend/src/services/crmClient.js`
-- **isCrmConfigured()** (3 connections) — `backend/src/services/crmClient.js`
-- **getAccessToken()** (2 connections) — `backend/src/services/crmClient.js`
-- **getDealerContact()** (2 connections) — `backend/src/services/crmClient.js`
-- **getPrimaryContactForAccount()** (2 connections) — `backend/src/services/crmClient.js`
-- **linkContactToBackendUser()** (2 connections) — `backend/src/services/crmClient.js`
-- **FIELDS** (1 connections) — `backend/src/services/crmClient.js`
+- **findChrome()** (22 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **export-cleanup-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **viewer-identifiers-browser.test.mjs** (7 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **evaluate()** (4 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **executable()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **findOnPath()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **run()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **exported()** (2 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
 
 ## Relationships
 
-- [[Community 54]] (15 shared connections)
-- [[Community 44]] (4 shared connections)
-- [[Community 104]] (3 shared connections)
-- [[Community 55]] (3 shared connections)
-- [[Community 50]] (2 shared connections)
+- [[Community 51]] (7 shared connections)
+- [[Community 50]] (6 shared connections)
+- [[Community 87]] (2 shared connections)
+- [[Community 81]] (2 shared connections)
+- [[Community 141]] (1 shared connections)
+- [[Community 142]] (1 shared connections)
+- [[Community 120]] (1 shared connections)
+- [[Community 33]] (1 shared connections)
+- [[Community 177]] (1 shared connections)
+- [[Community 239]] (1 shared connections)
+- [[Community 138]] (1 shared connections)
+- [[Community 143]] (1 shared connections)
 
 ## Source Files
 
-- `backend/src/services/crmClient.js`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 85 (100%)
+- EXTRACTED: 62 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

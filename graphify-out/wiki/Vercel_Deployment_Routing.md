@@ -1,56 +1,68 @@
 # Vercel Deployment Routing
 
-> 42 nodes · cohesion 0.05
+> 41 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **properties** (30 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **col** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **height** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **brand** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **channelX** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **channelY** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **from** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **id** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **labelDx** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **labelDy** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **lane** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **note** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **route** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **sublabel** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **tag** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **to** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **toSide** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **variant** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **yOffset** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **maximum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- *... and 17 more nodes in this community*
+- **sql** (67 connections) — `backend/src/db/pool.js`
+- **dealers.js** (36 connections) — `backend/src/routes/dealers.js`
+- **dealerApp.js** (24 connections) — `backend/src/services/dealerApp.js`
+- **staff.js** (23 connections) — `backend/src/services/staff.js`
+- **audit()** (17 connections) — `backend/src/utils/audit.js`
+- **applyCrmAccountState()** (12 connections) — `backend/src/services/dealerApp.js`
+- **audit.js** (7 connections) — `backend/src/utils/audit.js`
+- **applyDealer()** (6 connections) — `backend/src/services/dealerApp.js`
+- **createInvite()** (6 connections) — `backend/src/services/staff.js`
+- **sha256()** (6 connections) — `backend/src/utils/hash.js`
+- **upload.js** (5 connections) — `api/upload.js`
+- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
+- **applyCrmContactState()** (5 connections) — `backend/src/services/dealerApp.js`
+- **seed-content.js** (4 connections) — `backend/scripts/seed-content.js`
+- **deactivateDealer()** (4 connections) — `backend/src/services/dealerApp.js`
+- **approveStaff()** (4 connections) — `backend/src/services/staff.js`
+- **deleteStaff()** (4 connections) — `backend/src/services/staff.js`
+- **holdStaff()** (4 connections) — `backend/src/services/staff.js`
+- **resumeStaff()** (4 connections) — `backend/src/services/staff.js`
+- **revokeStaff()** (4 connections) — `backend/src/services/staff.js`
+- **toggleAllStaffPrice()** (4 connections) — `backend/src/services/staff.js`
+- **toggleStaffPrice()** (4 connections) — `backend/src/services/staff.js`
+- **markPollRun()** (3 connections) — `backend/src/jobs/crmPoll.js`
+- **requireApprovedDealer()** (3 connections) — `backend/src/middleware/auth.js`
+- **inspect-db.js** (3 connections) — `backend/scripts/inspect-db.js`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [[Community 194]] (3 shared connections)
-- [[Community 438]] (1 shared connections)
-- [[Community 461]] (1 shared connections)
-- [[Community 439]] (1 shared connections)
-- [[Community 462]] (1 shared connections)
-- [[Community 440]] (1 shared connections)
-- [[Community 463]] (1 shared connections)
-- [[Community 405]] (1 shared connections)
-- [[Community 406]] (1 shared connections)
+- [[Community 57]] (34 shared connections)
+- [[Community 37]] (26 shared connections)
+- [[Community 44]] (15 shared connections)
+- [[Community 78]] (14 shared connections)
+- [[Dealer Auth & Session Management]] (9 shared connections)
+- [[Community 132]] (7 shared connections)
+- [[Community 383]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `api/upload.js`
+- `backend/scripts/check-readiness.js`
+- `backend/scripts/inspect-db.js`
+- `backend/scripts/seed-content.js`
+- `backend/scripts/setup-buckets.js`
+- `backend/scripts/setup-policies.js`
+- `backend/src/db/pool.js`
+- `backend/src/jobs/crmPoll.js`
+- `backend/src/middleware/auth.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/services/staff.js`
+- `backend/src/utils/audit.js`
+- `backend/src/utils/hash.js`
+- `backend/test/crmSync.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 93 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 292 (99%)
+- INFERRED: 3 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

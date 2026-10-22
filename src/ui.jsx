@@ -555,8 +555,6 @@ export function Footer() {
             <span>·</span>
             <Link to="/terms" style={{ color: "inherit", textDecoration: "underline" }}>Terms of Service</Link>
             <span>·</span>
-            <Link to="/admin" style={{ color: "inherit", textDecoration: "underline" }}>Content CMS</Link>
-            <span>·</span>
             <span>{t("ftr_auth_dist")} · Sunshine India</span>
           </div>
         </div>

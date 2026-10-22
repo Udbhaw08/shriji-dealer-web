@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Sliders** (5 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **sliders.md** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **Tab bars** (5 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
+- **tab-bars.md** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
+- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/sliders.md`
+- `.agents/skills/apple-design/references/hig/tab-bars.md`
 
 ## Audit Trail
 

@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **DEALER-HIERARCHY-AND-WORKFLOW.md — Business, Dealer & Staff Hierarchy Model** (6 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **3. End-to-End User Journey & Life Cycle** (3 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **4. Zoho CRM Data Structure** (3 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **1. The Three-Tier Hierarchy Model** (2 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **DEALER-HIERARCHY-AND-WORKFLOW.md** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **2. Two-Stage Approval Separation** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **5. Technical Seams to Adapt** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **Accounts Module (Business Entity)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **Contacts Module (People Hierarchy)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **Hierarchy Breakdown:** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **Phase A: Dealer Onboarding (Head Approval)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **Phase B: Staff Onboarding via Dealer Code (Dealer Approval)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **Charts** (11 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **charts.md** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Axes** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Color** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Descriptive content** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Enhancing the accessibility of a chart** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Marks** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
 
 ## Relationships
 
@@ -23,7 +23,7 @@
 
 ## Source Files
 
-- `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- `.agents/skills/apple-design/references/hig/charts.md`
 
 ## Audit Trail
 

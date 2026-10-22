@@ -1,30 +1,33 @@
 # Community 241
 
-> 9 nodes · cohesion 0.22
+> 9 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **vertical-edge.test.mjs** (8 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **bin** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **edgePath()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **REPRO** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **segments()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **viewer-camera-browser.test.mjs** (11 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **run()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **stable()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **viewport()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **screenshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 51]] (4 shared connections)
+- [[Community 50]] (1 shared connections)
+- [[Community 81]] (1 shared connections)
+- [[Community 122]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/vertical-edge.test.mjs`
+- `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 31 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,48 +1,52 @@
 # Zoho Integration Skill
 
-> 45 nodes · cohesion 0.06
+> 43 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **generated-validators.mjs** (41 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **func3()** (11 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **generate-validators.test.mjs** (5 connections) — `.agents/skills/archify/test/generate-validators.test.mjs`
-- **validate20()** (4 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate22()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate27()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate28()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate30()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate31()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate33()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate34()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate36()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate37()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate24()** (2 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **pattern17** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **pattern18** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **pattern20** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **pattern4** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **pattern57** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema112** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema116** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema118** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema149** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema31** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema33** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- *... and 20 more nodes in this community*
+- **properties** (28 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **label** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelSegment** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **brand** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **channelX** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **channelY** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **classification** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **from** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **fromSide** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelAt** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelDx** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelDy** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **route** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **sublabel** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **tag** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **to** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **toSide** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **variant** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **yOffset** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [[Pricing Regression Test Suite]] (1 shared connections)
+- [[Community 192]] (3 shared connections)
+- [[Community 434]] (1 shared connections)
+- [[Community 435]] (1 shared connections)
+- [[Community 436]] (1 shared connections)
+- [[Community 402]] (1 shared connections)
+- [[Community 403]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- `.agents/skills/archify/test/generate-validators.test.mjs`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 121 (100%)
+- EXTRACTED: 92 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

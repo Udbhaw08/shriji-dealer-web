@@ -1,54 +1,58 @@
 # Pricing Hierarchy & Zero-Leakage Spec
 
-> 49 nodes · cohesion 0.08
+> 48 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **ul()** (39 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **gc()** (17 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **ji()** (15 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **sl()** (14 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **wc()** (13 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **kc()** (11 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **ll()** (11 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **Mc()** (11 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **Qi()** (10 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **al()** (9 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **uc()** (9 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **we()** (9 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **ca()** (8 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **ea()** (8 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **Lo()** (8 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **Mi()** (8 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **nc()** (8 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **Pc()** (8 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **xa()** (8 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **ba()** (7 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **cl()** (7 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **xo()** (7 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **Fc()** (6 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **ol()** (6 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- **ua()** (6 connections) — `ios/App/App/public/assets/index-Ee8tX29H.js`
-- *... and 24 more nodes in this community*
+- **session.js** (47 connections) — `src/data/session.js`
+- **Login.jsx** (40 connections) — `src/pages/Login.jsx`
+- **productsStore.js** (23 connections) — `src/data/productsStore.js`
+- **apiFetch()** (17 connections) — `src/data/api.js`
+- **api.js** (11 connections) — `src/data/api.js`
+- **EmailVerificationPrompt.jsx** (10 connections) — `src/components/EmailVerificationPrompt.jsx`
+- **setSession()** (10 connections) — `src/data/session.js`
+- **apiUrl()** (9 connections) — `src/data/api.js`
+- **revalidateSession()** (9 connections) — `src/data/session.js`
+- **registerDealer()** (7 connections) — `src/data/dealer.js`
+- **syncPricebookWithSession()** (7 connections) — `src/data/productsStore.js`
+- **validators.js** (7 connections) — `src/data/validators.js`
+- **fetchLiveProducts()** (6 connections) — `src/data/productsStore.js`
+- **products.js** (5 connections) — `src/data/products.js`
+- **switchToDealerSession()** (5 connections) — `src/data/session.js`
+- **hasSession()** (4 connections) — `src/data/auth.js`
+- **loadCached()** (4 connections) — `src/data/productsStore.js`
+- **signOut()** (4 connections) — `src/data/session.js`
+- **switchToViewerSession()** (4 connections) — `src/data/session.js`
+- **sessionFromAuth()** (3 connections) — `src/data/auth.js`
+- **emit()** (3 connections) — `src/data/productsStore.js`
+- **syncTagsLive()** (3 connections) — `src/data/productsStore.js`
+- **loadCachedSession()** (3 connections) — `src/data/session.js`
+- **isValidEmail()** (3 connections) — `src/data/validators.js`
+- **onAuthBroadcast()** (2 connections) — `src/data/auth.js`
+- *... and 23 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (54 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (35 shared connections)
-- [[Mobile Responsive UI Skill]] (20 shared connections)
-- [[Community 46]] (14 shared connections)
-- [[Pricing & Roles Skill]] (11 shared connections)
-- [[Community 35]] (9 shared connections)
-- [[Community 119]] (8 shared connections)
-- [[Product Requirements Documentation]] (6 shared connections)
+- [[Community 32]] (33 shared connections)
+- [[Design System & UI Tokens]] (32 shared connections)
+- [[Roles & Customer Sharing Spec]] (20 shared connections)
+- [[Community 162]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-Ee8tX29H.js`
+- `src/components/EmailVerificationPrompt.jsx`
+- `src/data/api.js`
+- `src/data/auth.js`
+- `src/data/dealer.js`
+- `src/data/products.js`
+- `src/data/productsStore.js`
+- `src/data/session.js`
+- `src/data/validators.js`
+- `src/pages/Login.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 347 (100%)
+- EXTRACTED: 278 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

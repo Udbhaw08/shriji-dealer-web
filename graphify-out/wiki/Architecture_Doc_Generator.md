@@ -34,15 +34,16 @@
 ## Relationships
 
 - [[Product Pages Specification]] (45 shared connections)
-- [[Community 39]] (42 shared connections)
-- [[Community 40]] (35 shared connections)
+- [[Community 41]] (42 shared connections)
+- [[Community 43]] (35 shared connections)
 - [[Product Brand & Business Vision]] (21 shared connections)
-- [[Community 78]] (14 shared connections)
-- [[Community 101]] (12 shared connections)
-- [[Pricing Regression Test Suite]] (11 shared connections)
-- [[Testing & Workflow Skill]] (7 shared connections)
-- [[Community 60]] (5 shared connections)
-- [[Community 80]] (2 shared connections)
+- [[Community 80]] (14 shared connections)
+- [[Community 102]] (12 shared connections)
+- [[Product Requirements Documentation]] (11 shared connections)
+- [[Project Readme & Layout]] (7 shared connections)
+- [[Community 163]] (3 shared connections)
+- [[Community 52]] (2 shared connections)
+- [[Community 82]] (2 shared connections)
 
 ## Source Files
 

@@ -1,50 +1,43 @@
 # Community 101
 
-> 17 nodes · cohesion 0.21
+> 18 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **utils.mjs** (26 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **i18n.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **translateMessage()** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **applyTemplate()** (9 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **resolveLocale()** (7 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **componentContext()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **viewerCatalog()** (4 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **localizeTemplate()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **translateCount()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **formatMessage()** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **serializeScriptJson()** (2 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **CATALOGS** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **ESCAPE_MAP** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **MESSAGE_PAIRS** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **SIGIL_SHAPE** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **SIGIL_TONE** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **TEMPLATE_PLACEHOLDERS** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **viewer-chrome-layout.test.mjs** (21 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **evaluate()** (5 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **waitForLayout()** (4 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **finalGeometry()** (3 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **resize()** (3 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **edgePaintHitsUnderDock()** (2 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **state()** (2 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **clearStage()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **renderWithoutLegend()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **variant()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **zero()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
 
 ## Relationships
 
-- [[Architecture Doc Generator]] (12 shared connections)
-- [[Community 40]] (10 shared connections)
-- [[Pricing Regression Test Suite]] (7 shared connections)
-- [[Community 39]] (5 shared connections)
-- [[Community 123]] (5 shared connections)
-- [[Product Brand & Business Vision]] (4 shared connections)
-- [[Product Pages Specification]] (4 shared connections)
-- [[Community 78]] (3 shared connections)
-- [[Testing & Workflow Skill]] (1 shared connections)
-- [[Community 280]] (1 shared connections)
+- [[Community 50]] (2 shared connections)
+- [[Community 81]] (1 shared connections)
+- [[Community 122]] (1 shared connections)
+- [[Community 51]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/shared/i18n.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 107 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 53 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

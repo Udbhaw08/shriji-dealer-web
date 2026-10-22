@@ -35,13 +35,13 @@
 
 - [[Product Pages Specification]] (35 shared connections)
 - [[Architecture Doc Generator]] (21 shared connections)
-- [[Community 39]] (19 shared connections)
-- [[Community 40]] (14 shared connections)
-- [[Pricing Regression Test Suite]] (5 shared connections)
-- [[Community 101]] (4 shared connections)
-- [[Community 47]] (3 shared connections)
-- [[Testing & Workflow Skill]] (1 shared connections)
-- [[Community 78]] (1 shared connections)
+- [[Community 41]] (19 shared connections)
+- [[Community 43]] (14 shared connections)
+- [[Product Requirements Documentation]] (5 shared connections)
+- [[Community 102]] (4 shared connections)
+- [[Community 50]] (3 shared connections)
+- [[Project Readme & Layout]] (1 shared connections)
+- [[Community 80]] (1 shared connections)
 
 ## Source Files
 

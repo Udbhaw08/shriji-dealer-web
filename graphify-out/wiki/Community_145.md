@@ -1,36 +1,36 @@
 # Community 145
 
-> 13 nodes · cohesion 0.21
+> 12 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **semantic-radar.test.mjs** (15 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **evaluate()** (5 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **dragMouse()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **loadArtifact()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **observe()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **radarRects()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **overlaps()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **ContentAdminDashboard.jsx** (12 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **video.js** (5 connections) — `src/utils/video.js`
+- **FileOrUrlInput.jsx** (4 connections) — `src/components/FileOrUrlInput.jsx`
+- **parseVideoUrl()** (4 connections) — `src/utils/video.js`
+- **video-banner.test.mjs** (3 connections) — `src/data/video-banner.test.mjs`
+- **FileOrUrlInput()** (2 connections) — `src/components/FileOrUrlInput.jsx`
+- **ContentAdminDashboard()** (2 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **getVideoBadgeLabel()** (2 connections) — `src/utils/video.js`
+- **DEFAULT_BANNER_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **DEFAULT_BRANDING_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **DEFAULT_SCHEME_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **QUICK_COLORS** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
 
 ## Relationships
 
-- [[Community 47]] (1 shared connections)
-- [[Community 79]] (1 shared connections)
-- [[Community 125]] (1 shared connections)
+- [[Design System & UI Tokens]] (8 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/semantic-radar.test.mjs`
+- `src/components/FileOrUrlInput.jsx`
+- `src/data/video-banner.test.mjs`
+- `src/pages/ContentAdminDashboard.jsx`
+- `src/utils/video.js`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 38 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

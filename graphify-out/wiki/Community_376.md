@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **12. Performance Typography** (5 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Performance Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Requirements** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Rules** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **System Font Stack** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **7. Vertical Rhythm** (5 connections) — `.agents/skills/refero-design/references/typography.md`
+- **CSS Implementation** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Example** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Golden Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **The Simple Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- [[Community 225]] (1 shared connections)
+- [[Community 224]] (1 shared connections)
 
 ## Source Files
 

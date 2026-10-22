@@ -17,7 +17,7 @@
 
 ## Relationships
 
-- [[Agent Guidelines (AGENTS.md)]] (3 shared connections)
+- [[Zoho Integration Skill]] (3 shared connections)
 - [[Community 113]] (3 shared connections)
 
 ## Source Files

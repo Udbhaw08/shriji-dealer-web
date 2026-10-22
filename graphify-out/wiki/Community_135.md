@@ -1,36 +1,39 @@
 # Community 135
 
-> 14 nodes · cohesion 0.30
+> 13 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **architecture-delta-markers.test.mjs** (13 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **assertPreserved()** (6 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **descendants()** (6 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **assertResolved()** (4 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **attr()** (4 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **markerMap()** (4 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **compare()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **edgePaths()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **markerId()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **svgIn()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **markerShape()** (2 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **variantFixture()** (1 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
-- **variants** (1 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **fail()** (15 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **usage()** (11 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **runNode()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandDemo()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **exitFrom()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandBrands()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandExamples()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandVisualCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandDoctor()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractMigrationOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandGuide()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **listBrandMarks()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 49]] (27 shared connections)
+- [[Project Readme & Layout]] (3 shared connections)
+- [[Community 287]] (3 shared connections)
+- [[Community 50]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- `.agents/skills/archify/bin/archify.mjs`
+- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 73 (95%)
+- INFERRED: 4 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

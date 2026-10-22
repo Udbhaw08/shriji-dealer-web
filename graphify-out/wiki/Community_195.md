@@ -4,28 +4,29 @@
 
 ## Key Concepts
 
-- **entries** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **legend** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **properties** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **mode** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **properties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **workflow.schema.json** (8 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$defs** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **side** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$id** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$schema** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **title** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- [[Community 67]] (1 shared connections)
+- [[Community 107]] (1 shared connections)
+- [[Community 228]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/sequence.schema.json`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
