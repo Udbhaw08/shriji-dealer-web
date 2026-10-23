@@ -331,9 +331,6 @@ export default function Product() {
     p.code && [t("spec_code"), `${p.code}-${p.id.slice(-6)}`],
   ].filter(Boolean);
 
-  // Specifications tab only shows if there are actual specifications or extra custom fields from Zoho
-  const hasSpecs = zohoSpecs.length > 0 || extraCfSpecs.length > 0;
-
   const allSpecsList = [...zohoSpecs, ...extraCfSpecs, ...attrSpecs].filter(
     ([k, v]) => Boolean(k) && Boolean(v) && String(v).trim().toLowerCase() !== "test" && String(v).trim().toLowerCase() !== "null"
   );
@@ -348,19 +345,22 @@ export default function Product() {
     }
   }
 
+  // Specifications tab shows all unified attributes and Zoho specs
+  const hasSpecs = specs.length > 0;
+
   // Clean overview: strip empty HTML tags to prevent literal <br/> artifacts
   const cleanOverviewText = (p.customFields?.overview || "").trim();
   const rawDescText = (p.description || "").replace(/<[^>]*>/g, "").replace(/&nbsp;/gi, " ").trim();
   const cleanDesc = rawDescText ? p.description : "";
-
-  const overview = cleanOverviewText || cleanDesc || "";
+  const defaultOverview = `Engineered for superior reliability, high efficiency, and everyday convenience. The ${displayTitle} by ${p.brand || "Sunshine"} features durable construction, advanced safety standards, and optimal performance for Indian kitchens.`;
+  const overview = cleanOverviewText || cleanDesc || defaultOverview;
   const hasKeyFeatures = Boolean(p.customFields?.keyFeatures?.trim());
   const hasWarranty = Boolean(p.customFields?.warranty?.trim());
   const hasOverview = Boolean(overview || hasKeyFeatures || hasWarranty);
   const hasVideos = Array.isArray(p.videos) && p.videos.length > 0;
 
   const availableTabs = [
-    hasOverview && { key: "Overview", labelKey: "tab_overview" },
+    { key: "Overview", labelKey: "tab_overview" },
     hasSpecs && { key: "Specifications", labelKey: "tab_specs" },
     hasVideos && { key: "Videos", labelKey: "tab_videos" },
   ].filter(Boolean);
