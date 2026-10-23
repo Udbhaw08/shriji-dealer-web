@@ -1,27 +1,28 @@
 # Community 321
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **Third-party notices** (5 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **THIRD_PARTY_NOTICES.md** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **JetBrains Mono** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **No additional rights granted** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **OpenAI mark** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **Simple Icons** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
+- **preview.test.mjs** (8 connections) — `.agents/skills/archify/test/preview.test.mjs`
+- **stateAt()** (2 connections) — `.agents/skills/archify/test/preview.test.mjs`
+- **waitForState()** (2 connections) — `.agents/skills/archify/test/preview.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
+- **rawRequest()** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 59]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
+- `.agents/skills/archify/test/preview.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

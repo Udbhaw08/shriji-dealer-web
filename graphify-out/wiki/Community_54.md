@@ -1,63 +1,47 @@
 # Community 54
 
-> 28 nodes · cohesion 0.16
+> 26 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **pool.js** (30 connections) — `backend/src/db/pool.js`
-- **catalog.js** (16 connections) — `backend/src/services/catalog.js`
-- **env.js** (14 connections) — `backend/src/config/env.js`
-- **webhooks.js** (14 connections) — `backend/src/routes/webhooks.js`
-- **logger.js** (14 connections) — `backend/src/utils/logger.js`
-- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
-- **log** (13 connections) — `backend/src/utils/logger.js`
-- **env** (11 connections) — `backend/src/config/env.js`
-- **index.js** (11 connections) — `backend/src/jobs/index.js`
-- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
-- **notifications.js** (9 connections) — `backend/src/services/notifications.js`
-- **syncCatalog()** (7 connections) — `backend/src/services/catalog.js`
-- **catalogFor()** (4 connections) — `backend/src/services/catalog.js`
-- **loadCatalog()** (4 connections) — `backend/src/services/catalog.js`
-- **catalogSync()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **tokenCleanup()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **migrate-content.js** (3 connections) — `backend/scripts/migrate-content.js`
-- **test-storage.js** (3 connections) — `backend/scripts/test-storage.js`
-- **priceView()** (3 connections) — `backend/src/services/catalog.js`
-- **priceGate.test.mjs** (3 connections) — `backend/test/priceGate.test.mjs`
-- **bool()** (1 connections) — `backend/src/config/env.js`
-- **__dirname** (1 connections) — `backend/src/config/env.js`
-- **num()** (1 connections) — `backend/src/config/env.js`
-- **tx()** (1 connections) — `backend/src/db/pool.js`
-- **main()** (1 connections) — `backend/scripts/migrate-content.js`
-- *... and 3 more nodes in this community*
+- **layout-rules.test.mjs** (25 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **assertRelationshipsAvoidAllNodeBorders()** (5 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **workflowNodeBorderOverlap()** (3 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **assertWorkflowEdgesAvoidAllNodeBorders()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **axisOverlapLength()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **workflowEdgePoints()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **workflowNodeRect()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **ambiguousCorridorDocument()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **autoRoutePassThroughDocument()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **boundaryFrameRect()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **boundaryTitleMasks()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **hash()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **load()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **rectanglesOverlap()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **rectContainsRect()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **SHRINK_CASES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **TAG_SHRINK_CASES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **tangentViaLifecycle()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **validateCli()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [[Vercel Deployment Routing]] (34 shared connections)
-- [[Community 43]] (18 shared connections)
-- [[Community 35]] (14 shared connections)
-- [[Community 130]] (8 shared connections)
-- [[Price Presentation & Product UI]] (2 shared connections)
-- [[Community 376]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `backend/scripts/migrate-content.js`
-- `backend/scripts/test-storage.js`
-- `backend/src/config/env.js`
-- `backend/src/db/pool.js`
-- `backend/src/jobs/catalogSync.js`
-- `backend/src/jobs/crmPoll.js`
-- `backend/src/jobs/index.js`
-- `backend/src/routes/webhooks.js`
-- `backend/src/services/catalog.js`
-- `backend/src/services/notifications.js`
-- `backend/src/utils/logger.js`
-- `backend/test/priceGate.test.mjs`
+- `.agents/skills/archify/test/layout-rules.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 195 (100%)
+- EXTRACTED: 60 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

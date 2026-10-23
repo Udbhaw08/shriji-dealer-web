@@ -1,54 +1,59 @@
 # Community 39
 
-> 38 nodes · cohesion 0.11
+> 34 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **i()** (66 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
-- **n()** (26 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
-- **t()** (20 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
-- **rs()** (14 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
-- **A()** (8 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
-- **ga()** (8 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
-- **ks()** (8 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
-- **ys()** (8 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
-- **ds()** (7 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
-- **fs()** (7 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
-- **us()** (7 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
-- **yo()** (7 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
-- **bs()** (6 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
-- **cc()** (6 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
-- **gs()** (6 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
-- **os()** (6 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
-- **sc()** (6 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
-- **xs()** (6 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
-- **is()** (5 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
-- **ns()** (5 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
-- **vs()** (5 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
-- **x()** (5 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
-- **Zo()** (5 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
-- **as()** (4 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
-- **hs()** (4 connections) — `ios/App/App/public/assets/index-C0m88tWG.js`
-- *... and 13 more nodes in this community*
+- **Product.jsx** (34 connections) — `src/pages/Product.jsx`
+- **dealer.js** (29 connections) — `src/data/dealer.js`
+- **Favorites.jsx** (20 connections) — `src/pages/Favorites.jsx`
+- **ProductCard.jsx** (19 connections) — `src/components/ProductCard.jsx`
+- **dealer.test.mjs** (18 connections) — `src/data/dealer.test.mjs`
+- **PriceBlock.jsx** (15 connections) — `src/components/PriceBlock.jsx`
+- **ProductCard()** (15 connections) — `src/components/ProductCard.jsx`
+- **Product()** (15 connections) — `src/pages/Product.jsx`
+- **priceFor()** (14 connections) — `src/data/dealer.js`
+- **useFavorites()** (13 connections) — `src/data/favoritesStore.js`
+- **inr()** (12 connections) — `src/data/dealer.js`
+- **viewerFor()** (8 connections) — `src/data/dealer.js`
+- **CustomerPrice()** (7 connections) — `src/components/PriceBlock.jsx`
+- **productSlug()** (7 connections) — `src/data/dealer.js`
+- **shareLink()** (7 connections) — `src/data/dealer.js`
+- **tagFor()** (6 connections) — `src/data/dealer.js`
+- **DealerPrice()** (5 connections) — `src/components/PriceBlock.jsx`
+- **formatWhatsAppPhone()** (4 connections) — `src/data/dealer.js`
+- **slugifyProduct()** (4 connections) — `src/data/dealer.js`
+- **tierOf()** (4 connections) — `src/data/dealer.js`
+- **DEALERS** (3 connections) — `src/data/dealer.js`
+- **isFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **PriceBlock()** (2 connections) — `src/components/PriceBlock.jsx`
+- **price99()** (2 connections) — `src/data/dealer.js`
+- **BAND** (1 connections) — `src/data/dealer.js`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (46 shared connections)
-- [[Product Requirements Documentation]] (27 shared connections)
-- [[Product Pages Specification]] (22 shared connections)
-- [[Live Pricing Audit Tool]] (12 shared connections)
-- [[Community 48]] (12 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (10 shared connections)
-- [[Community 44]] (7 shared connections)
-- [[Community 73]] (6 shared connections)
+- [[Community 51]] (42 shared connections)
+- [[Pricing & Roles Skill]] (18 shared connections)
+- [[Graphify Knowledge Graph Skill]] (15 shared connections)
+- [[Community 126]] (12 shared connections)
+- [[Community 164]] (5 shared connections)
+- [[Community 163]] (5 shared connections)
+- [[Community 106]] (3 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-C0m88tWG.js`
+- `src/components/PriceBlock.jsx`
+- `src/components/ProductCard.jsx`
+- `src/data/dealer.js`
+- `src/data/dealer.test.mjs`
+- `src/data/favoritesStore.js`
+- `src/pages/Favorites.jsx`
+- `src/pages/Product.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 294 (100%)
+- EXTRACTED: 276 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

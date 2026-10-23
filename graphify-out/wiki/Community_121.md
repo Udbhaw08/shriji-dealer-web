@@ -1,35 +1,37 @@
 # Community 121
 
-> 14 nodes · cohesion 0.23
+> 15 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **web-Cahj-3mK.js** (13 connections) — `android/app/src/main/assets/public/assets/web-Cahj-3mK.js`
-- **applyPrefix()** (4 connections) — `android/app/src/main/assets/public/assets/web-Cahj-3mK.js`
-- **keys()** (4 connections) — `android/app/src/main/assets/public/assets/web-Cahj-3mK.js`
-- **get()** (3 connections) — `android/app/src/main/assets/public/assets/web-Cahj-3mK.js`
-- **migrate()** (3 connections) — `android/app/src/main/assets/public/assets/web-Cahj-3mK.js`
-- **rawKeys()** (3 connections) — `android/app/src/main/assets/public/assets/web-Cahj-3mK.js`
-- **clear()** (2 connections) — `android/app/src/main/assets/public/assets/web-Cahj-3mK.js`
-- **remove()** (2 connections) — `android/app/src/main/assets/public/assets/web-Cahj-3mK.js`
-- **removeOld()** (2 connections) — `android/app/src/main/assets/public/assets/web-Cahj-3mK.js`
-- **set()** (2 connections) — `android/app/src/main/assets/public/assets/web-Cahj-3mK.js`
-- **configure()** (1 connections) — `android/app/src/main/assets/public/assets/web-Cahj-3mK.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-Cahj-3mK.js`
-- **impl()** (1 connections) — `android/app/src/main/assets/public/assets/web-Cahj-3mK.js`
-- **prefix()** (1 connections) — `android/app/src/main/assets/public/assets/web-Cahj-3mK.js`
+- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **sources** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **additionalProperties** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **required** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **boundaries** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **connections** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Oxlint Linter Configuration]] (5 shared connections)
+- [[Community 78]] (3 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/web-Cahj-3mK.js`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 48 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

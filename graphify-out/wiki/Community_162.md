@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **Apple In-App Purchase** (5 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
-- **Auto-renewable subscriptions** (4 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
-- **Best practices** (3 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
-- **apple-in-app-purchase.md** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
-- **Helping people manage their subscriptions** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
-- **Making signup effortless** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
-- **Providing help** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
-- **Supporting Family Sharing** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
-- **Supporting offer codes** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Archify** (10 connections) — `.agents/skills/archify/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Authoring invariants** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Delivery** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Fast authoring path** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Mermaid input** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Optional viewer capabilities** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Output** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Setup and fallback** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Type router** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Update awareness** (1 connections) — `.agents/skills/archify/SKILL.md`
 
 ## Relationships
 
@@ -22,7 +22,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- `.agents/skills/archify/SKILL.md`
 
 ## Audit Trail
 

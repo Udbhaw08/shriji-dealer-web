@@ -1,61 +1,52 @@
 # Community 47
 
-> 33 nodes · cohesion 0.10
+> 30 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **render-lifecycle.mjs** (81 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **svgAccessibleText()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **svgRootAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **renderDefinitions()** (11 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **resolveLegend()** (10 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **pathFor()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderSvg()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderTransitionLabel()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderLegend()** (6 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderBands()** (5 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **bandFor()** (3 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **bandTitles()** (3 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **lifecycleAreaBottom()** (3 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **legendY()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **measureState()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderLifecycleRail()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **routeVia()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **automaticPorts** (1 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **laneLabels** (1 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- *... and 8 more nodes in this community*
+- **check-update.mjs** (99 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **encodeRecoverableState()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **guardedCacheEntryRead()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **notification()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **operationIsActive()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stateAfterFailedCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stateWithFailureCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertSafeCacheEntry()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cancelResponseBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **corruptClaimStatus()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **encodeBoundedState()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **eventKeyForDigest()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **metadataIsWithinLease()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **nextFailedCheck()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **readBoundedBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stateAfterAcknowledgement()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertRenameableCacheEntry()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertSafeRegularFile()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **CacheOperationRaceError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **CachePathChangedError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **defaultCacheDirectory()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **defaultReleasePath** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **FileIdentityChangedError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **isMainModule()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **MAX_CACHE_HORIZON_MS** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [[Design System & UI Tokens]] (34 shared connections)
-- [[Pricing & Roles Skill]] (29 shared connections)
-- [[Community 53]] (14 shared connections)
-- [[Community 82]] (12 shared connections)
-- [[Client Products Data Store]] (8 shared connections)
-- [[Community 63]] (8 shared connections)
-- [[Zoho Integration Architecture]] (7 shared connections)
-- [[Zoho API Diagnostic Script]] (1 shared connections)
+- [[Community 96]] (21 shared connections)
+- [[Community 109]] (19 shared connections)
+- [[Community 102]] (19 shared connections)
+- [[Community 58]] (16 shared connections)
+- [[Community 34]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/cli.mjs`
-- `.agents/skills/archify/renderers/shared/legend.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 215 (98%)
-- INFERRED: 4 (2%)
+- EXTRACTED: 152 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

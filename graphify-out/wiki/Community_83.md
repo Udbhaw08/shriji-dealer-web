@@ -1,47 +1,54 @@
 # Community 83
 
-> 21 nodes · cohesion 0.21
+> 20 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **hash.js** (18 connections) — `backend/src/utils/hash.js`
-- **loginCode.js** (15 connections) — `backend/src/utils/loginCode.js`
-- **generateLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
-- **generateUniqueDealerCode()** (8 connections) — `backend/src/utils/loginCode.js`
-- **hash.test.mjs** (7 connections) — `backend/test/hash.test.mjs`
-- **loginCode.test.mjs** (7 connections) — `backend/test/loginCode.test.mjs`
-- **formatLoginCode()** (7 connections) — `backend/src/utils/loginCode.js`
-- **hashPassword()** (4 connections) — `backend/src/utils/hash.js`
-- **verifyPassword()** (4 connections) — `backend/src/utils/hash.js`
-- **isValidLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
-- **parseLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
-- **generateOtp()** (3 connections) — `backend/src/utils/hash.js`
-- **scryptKey()** (3 connections) — `backend/src/utils/hash.js`
-- **USER_CATEGORIES** (3 connections) — `backend/src/utils/loginCode.js`
-- **generateCode()** (2 connections) — `backend/src/utils/hash.js`
-- **randomToken()** (2 connections) — `backend/src/utils/hash.js`
-- **generateRandomDigits()** (2 connections) — `backend/src/utils/loginCode.js`
-- **generateRandomLetters()** (2 connections) — `backend/src/utils/loginCode.js`
-- **GST_TREATMENT_OPTIONS** (2 connections) — `backend/src/utils/loginCode.js`
-- **SCRYPT** (1 connections) — `backend/src/utils/hash.js`
-- **PREFIX_MAP** (1 connections) — `backend/src/utils/loginCode.js`
+- **ChromeVisualBrowser** (21 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **visual-check.test.mjs** (14 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **PipeCdp** (7 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.attach()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.close()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.constructor()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **chromeVisualBrowserArgs()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.failAll()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.consume()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **VISUAL_CHECK_VIEWPORTS** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.failure()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **artifact()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **fakeBrowser()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **fakeChromeChild()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **png** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
 
 ## Relationships
 
-- [[Vercel Deployment Routing]] (14 shared connections)
-- [[Community 35]] (5 shared connections)
+- [[Community 44]] (8 shared connections)
+- [[Community 50]] (7 shared connections)
+- [[Community 125]] (2 shared connections)
+- [[Community 91]] (2 shared connections)
+- [[Community 60]] (1 shared connections)
+- [[Community 123]] (1 shared connections)
+- [[Graphify Workflow]] (1 shared connections)
+- [[Community 177]] (1 shared connections)
+- [[Community 240]] (1 shared connections)
+- [[Community 146]] (1 shared connections)
+- [[Community 202]] (1 shared connections)
+- [[Community 104]] (1 shared connections)
 
 ## Source Files
 
-- `backend/src/utils/hash.js`
-- `backend/src/utils/loginCode.js`
-- `backend/test/hash.test.mjs`
-- `backend/test/loginCode.test.mjs`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/test/visual-check.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 106 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 71 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

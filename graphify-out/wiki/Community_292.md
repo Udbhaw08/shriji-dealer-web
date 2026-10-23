@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Popovers** (4 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **popovers.md** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
+- **Entering data** (5 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **entering-data.md** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/popovers.md`
+- `.agents/skills/apple-design/references/hig/entering-data.md`
 
 ## Audit Trail
 

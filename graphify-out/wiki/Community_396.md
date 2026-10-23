@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **width** (4 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **11. Responsive Typography** (4 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Breakpoint Adjustments** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Fluid Type (Clamp)** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **What Changes** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- [[Agent Guidelines (AGENTS.md)]] (1 shared connections)
+- [[Community 226]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 

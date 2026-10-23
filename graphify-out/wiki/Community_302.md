@@ -4,25 +4,25 @@
 
 ## Key Concepts
 
-- **lifecycle.schema.json** (7 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$id** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$schema** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **title** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **Pull-down buttons** (5 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
+- **pull-down-buttons.md** (1 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
 
 ## Relationships
 
-- [[Community 113]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

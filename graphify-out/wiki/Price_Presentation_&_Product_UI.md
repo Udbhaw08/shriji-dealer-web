@@ -1,10 +1,10 @@
 # Price Presentation & Product UI
 
-> 92 nodes · cohesion 0.05
+> 93 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **zoho.js** (51 connections) — `api/zoho.js`
+- **zoho.js** (52 connections) — `api/zoho.js`
 - **vite.config.js** (20 connections) — `vite.config.js`
 - **content.js** (19 connections) — `backend/src/services/content.js`
 - **fetchZohoProductById()** (16 connections) — `api/zoho.js`
@@ -25,17 +25,16 @@
 - **fetchZohoSchemes()** (7 connections) — `api/zoho.js`
 - **getCategoryVisibilityMap()** (7 connections) — `api/zoho.js`
 - **getDealerById()** (7 connections) — `api/zoho.js`
+- **syncRecentProductTags()** (7 connections) — `api/zoho.js`
 - **getSupabaseBranding()** (7 connections) — `backend/src/services/content.js`
 - **fetchZohoPricebookItems()** (6 connections) — `api/zoho.js`
 - **getAccessToken()** (6 connections) — `api/zoho.js`
-- **normalizeProduct()** (6 connections) — `api/zoho.js`
-- *... and 67 more nodes in this community*
+- *... and 68 more nodes in this community*
 
 ## Relationships
 
-- [[Vercel Deployment Routing]] (9 shared connections)
-- [[Community 54]] (2 shared connections)
-- [[Community 43]] (2 shared connections)
+- [[Client Products Data Store]] (11 shared connections)
+- [[Community 45]] (2 shared connections)
 
 ## Source Files
 
@@ -46,6 +45,7 @@
 - `api/og.js`
 - `api/products/[id].js`
 - `api/products/index.js`
+- `api/products/sync-tags.js`
 - `api/zoho.js`
 - `backend/src/routes/content.js`
 - `backend/src/services/content.js`
@@ -55,7 +55,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 451 (99%)
+- EXTRACTED: 461 (99%)
 - INFERRED: 4 (1%)
 - AMBIGUOUS: 0 (0%)
 

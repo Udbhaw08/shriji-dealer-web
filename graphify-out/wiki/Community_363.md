@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Ratings and reviews** (4 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
-- **ratings-and-reviews.md** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
+- **Combo boxes** (4 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
+- **combo-boxes.md** (1 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
+- `.agents/skills/apple-design/references/hig/combo-boxes.md`
 
 ## Audit Trail
 

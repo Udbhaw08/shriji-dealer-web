@@ -1,33 +1,36 @@
 # Community 146
 
-> 12 nodes · cohesion 0.17
+> 13 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **Designing for iPhone Duo** (7 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
-- **Dynamic layouts** (4 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
-- **Anatomy** (2 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
-- **designing-for-iphone-duo.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
-- **Arrangement views** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
-- **Device poses** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
-- **Reserved regions** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
-- **Split views** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
-- **Vertical controls** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **semantic-radar.test.mjs** (15 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **evaluate()** (5 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **dragMouse()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **loadArtifact()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **observe()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **radarRects()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **overlaps()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 44]] (1 shared connections)
+- [[Community 83]] (1 shared connections)
+- [[Community 125]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- `.agents/skills/archify/test/semantic-radar.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 35 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

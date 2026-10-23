@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Managing accounts** (6 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **managing-accounts.md** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **Deleting accounts** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **TV provider accounts** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- **MockStorage** (6 connections) — `src/data/auth-session.test.mjs`
+- **auth-session.test.mjs** (1 connections) — `src/data/auth-session.test.mjs`
+- **.clear()** (1 connections) — `src/data/auth-session.test.mjs`
+- **.constructor()** (1 connections) — `src/data/auth-session.test.mjs`
+- **.getItem()** (1 connections) — `src/data/auth-session.test.mjs`
+- **.removeItem()** (1 connections) — `src/data/auth-session.test.mjs`
+- **.setItem()** (1 connections) — `src/data/auth-session.test.mjs`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- `src/data/auth-session.test.mjs`
 
 ## Audit Trail
 

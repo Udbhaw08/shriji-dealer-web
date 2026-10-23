@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **finder.test.mjs** (6 connections) — `.agents/skills/archify/test/finder.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
-- **svg()** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
+- **Writing** (6 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **writing.md** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **Getting started** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/finder.test.mjs`
+- `.agents/skills/apple-design/references/hig/writing.md`
 
 ## Audit Trail
 

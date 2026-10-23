@@ -1,29 +1,34 @@
 # Community 287
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **Live-viewing apps** (6 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
-- **live-viewing-apps.md** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
-- **Cloud DVR** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
-- **EPG experience** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- **workflow-migration-geometry.mjs** (10 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **createMappedWorkflowCandidate()** (9 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **intrinsicWorkflow()** (8 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **planningWorkflow()** (7 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **createHorizontalRankMapper()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **clone()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **mapExplicitCoordinates()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **mappedNumber()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 131]] (8 shared connections)
+- [[Community 138]] (5 shared connections)
+- [[Community 82]] (4 shared connections)
+- [[Design System & UI Tokens]] (3 shared connections)
+- [[Community 50]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 44 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,35 +1,34 @@
 # Community 159
 
-> 11 nodes · cohesion 0.24
+> 12 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **i18n.js** (25 connections) — `src/data/i18n.js`
-- **setLanguage()** (3 connections) — `src/data/i18n.js`
-- **tCat()** (3 connections) — `src/data/i18n.js`
-- **emit()** (2 connections) — `src/data/i18n.js`
-- **toggleLanguage()** (2 connections) — `src/data/i18n.js`
-- **translations.js** (2 connections) — `src/data/translations.js`
-- **TRANSLATIONS** (2 connections) — `src/data/translations.js`
-- **currentLang** (1 connections) — `src/data/i18n.js`
-- **getInitialLang()** (1 connections) — `src/data/i18n.js`
-- **getLanguage()** (1 connections) — `src/data/i18n.js`
-- **listeners** (1 connections) — `src/data/i18n.js`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **additionalProperties** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **required** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **messages** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **activations** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- [[Pricing Regression Test Suite]] (9 shared connections)
-- [[Roles & Customer Sharing Spec]] (7 shared connections)
-- [[Graphify Knowledge Graph Skill]] (1 shared connections)
+- [[Community 67]] (4 shared connections)
+- [[Community 94]] (4 shared connections)
 
 ## Source Files
 
-- `src/data/i18n.js`
-- `src/data/translations.js`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

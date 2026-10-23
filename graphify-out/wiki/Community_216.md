@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Split views** (5 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
-- **Platform considerations** (4 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
-- **split-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
-- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
-- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **Playing video** (6 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Integrating with the TV app** (3 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **playing-video.md** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Exiting playback** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Loading content** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/split-views.md`
+- `.agents/skills/apple-design/references/hig/playing-video.md`
 
 ## Audit Trail
 

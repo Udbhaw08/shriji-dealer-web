@@ -1,57 +1,62 @@
 # Community 35
 
-> 39 nodes · cohesion 0.13
+> 37 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **auth.js** (47 connections) — `backend/src/routes/auth.js`
-- **crmClient.js** (32 connections) — `backend/src/services/crmClient.js`
-- **validators.js** (14 connections) — `backend/src/utils/validators.js`
-- **crmFetch()** (12 connections) — `backend/src/services/crmClient.js`
-- **normalizePhone()** (12 connections) — `backend/src/utils/phone.js`
-- **normalizeEmail()** (12 connections) — `backend/src/utils/validators.js`
-- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
-- **cleanName()** (7 connections) — `backend/src/utils/validators.js`
-- **crmConfigured()** (6 connections) — `backend/src/services/crmClient.js`
-- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
-- **phone.js** (6 connections) — `backend/src/utils/phone.js`
-- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
-- **createDealerContact()** (5 connections) — `backend/src/services/crmClient.js`
-- **updateDealerCodeInCrm()** (5 connections) — `backend/src/services/crmClient.js`
-- **isValidPhone()** (5 connections) — `backend/src/utils/validators.js`
-- **resolveUserWithDealer()** (4 connections) — `backend/src/routes/auth.js`
-- **resolveContactNames()** (4 connections) — `backend/src/services/crmClient.js`
-- **isValidEmail()** (4 connections) — `backend/src/utils/validators.js`
-- **isValidName()** (4 connections) — `backend/src/utils/validators.js`
-- **emailOnlyIdentifier()** (3 connections) — `backend/src/routes/auth.js`
-- **findUserByEmail()** (3 connections) — `backend/src/routes/auth.js`
-- **issueSession()** (3 connections) — `backend/src/routes/auth.js`
-- **deactivateAccountInCrm()** (3 connections) — `backend/src/services/crmClient.js`
-- **deactivateContactInCrm()** (3 connections) — `backend/src/services/crmClient.js`
-- **getDealerAccount()** (3 connections) — `backend/src/services/crmClient.js`
-- *... and 14 more nodes in this community*
+- **render-sequence.mjs** (67 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **textUnits()** (33 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **validateArchitecture()** (22 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **validateDataflow()** (22 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **validateLifecycle()** (22 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **cleanCrossingProblems()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **rectsOverlap()** (16 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **validateSequence()** (15 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **cleanAmbiguousCorridorProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanBorderRunProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanRouteRhythmProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanLabelRouteClearanceProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **brandTopRailProblem()** (13 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **minimumNodeTextWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- **text-fit.mjs** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- **availableNodeTextWidth()** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- **segmentLabelBox()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **collectEligibleRoutedRelations()** (6 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **qualityProfileForGate()** (6 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **flowLabelSize()** (4 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **messageGeometry()** (4 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **messageLabelBox()** (4 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **messageRouteBox()** (2 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **arrowClass** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **compositionFrames** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [[Vercel Deployment Routing]] (26 shared connections)
-- [[Community 54]] (14 shared connections)
-- [[Community 43]] (10 shared connections)
-- [[Community 83]] (5 shared connections)
-- [[Community 130]] (2 shared connections)
+- [[Design System & UI Tokens]] (63 shared connections)
+- [[Roles & Customer Sharing Spec]] (42 shared connections)
+- [[Community 37]] (27 shared connections)
+- [[Product Brand & Business Vision]] (19 shared connections)
+- [[Community 82]] (14 shared connections)
+- [[Zoho Integration Architecture]] (9 shared connections)
+- [[Community 105]] (5 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (3 shared connections)
+- [[Community 279]] (1 shared connections)
 
 ## Source Files
 
-- `backend/src/routes/auth.js`
-- `backend/src/services/crmClient.js`
-- `backend/src/services/notifications.js`
-- `backend/src/utils/phone.js`
-- `backend/src/utils/validators.js`
-- `backend/test/interconnection.test.mjs`
-- `backend/test/validators.test.mjs`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- `.agents/skills/archify/renderers/shared/geometry.mjs`
+- `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 243 (100%)
+- EXTRACTED: 367 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

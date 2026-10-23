@@ -1,59 +1,45 @@
 # Community 63
 
-> 25 nodes · cohesion 0.15
+> 24 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **workflow-compiler.mjs** (102 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **textUnits()** (33 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **minimumNodeTextWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **createReadableLayout()** (12 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **text-fit.mjs** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **readableGroupBounds()** (5 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **authoredNodeWidth()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **compileWorkflowWithFeedback()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **authoredNodeHeight()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **compilerFailure()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **feedbackFailure()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **nodeWidthContributor()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **verticalIntervalsOverlap()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **workflowLabelWidth()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **createLegacyLayout()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **stableCompare()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **stableText()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **stableValueKey()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **workflowEdgeName()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **WorkflowLayoutFeedback** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **nodeTextFit** (1 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **cloneWorkflow()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **LEGACY_COLUMN_CENTERS** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **READABLE_CANDIDATE_COST_PRIORITY** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **.constructor()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **Refero Design** (13 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Tool Routing** (5 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Research Workflow** (4 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Synthesis** (4 connections) — `.agents/skills/refero-design/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **1. Research Visual Direction With Styles** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **2. Research Screens For Product Details** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **3. Research Flows For Journey Logic** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Design Craft** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Discovery** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Example** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Journey Logic** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **MCP Setup** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Non-Negotiables** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Present Findings** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Product Pattern** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Quality Gate** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Research Depth** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Use Flows For Journeys** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Use Screens For Concrete UI Patterns** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Use Styles First For Visual Work** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Use Visual Workflow For Images And QA** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Visual Direction** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Workflow Routing** (1 connections) — `.agents/skills/refero-design/SKILL.md`
 
 ## Relationships
 
-- [[Design System & UI Tokens]] (48 shared connections)
-- [[Pricing & Roles Skill]] (20 shared connections)
-- [[Client Products Data Store]] (11 shared connections)
-- [[Community 82]] (11 shared connections)
-- [[Community 53]] (10 shared connections)
-- [[Community 47]] (8 shared connections)
-- [[Zoho Integration Architecture]] (8 shared connections)
-- [[Community 126]] (4 shared connections)
-- [[Community 280]] (4 shared connections)
-- [[Zoho API Diagnostic Script]] (2 shared connections)
-- [[Community 272]] (1 shared connections)
-- [[Community 140]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
-- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- `.agents/skills/refero-design/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 218 (100%)
+- EXTRACTED: 46 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

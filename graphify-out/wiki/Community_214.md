@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Sheets** (6 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **sheets.md** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **Multitasking** (5 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Platform considerations** (4 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **multitasking.md** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/sheets.md`
+- `.agents/skills/apple-design/references/hig/multitasking.md`
 
 ## Audit Trail
 

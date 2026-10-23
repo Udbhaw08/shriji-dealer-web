@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Rating indicators** (5 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
-- **rating-indicators.md** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
+- **Data Flow Renderer** (5 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
+- **README.md** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
+- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
+- **Input** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
+- **Layout budget** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
+- **Legend** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/rating-indicators.md`
+- `.agents/skills/archify/renderers/dataflow/README.md`
 
 ## Audit Trail
 

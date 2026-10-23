@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Undo and redo** (4 connections) — `.agents/skills/apple-design/references/hig/undo-and-redo.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/undo-and-redo.md`
-- **undo-and-redo.md** (1 connections) — `.agents/skills/apple-design/references/hig/undo-and-redo.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/undo-and-redo.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/undo-and-redo.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/undo-and-redo.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/undo-and-redo.md`
+- **Loading** (6 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **loading.md** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **Showing progress** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/undo-and-redo.md`
+- `.agents/skills/apple-design/references/hig/loading.md`
 
 ## Audit Trail
 

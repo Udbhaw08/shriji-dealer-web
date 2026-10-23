@@ -1,66 +1,68 @@
 # Pricing & Roles Skill
 
-> 45 nodes · cohesion 0.11
+> 45 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **render-sequence.mjs** (67 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **esc()** (31 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **escapeHtml()** (26 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **animateAttr()** (16 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **focusEdgeAttrs()** (15 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **renderBrandMark()** (14 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **renderNode()** (13 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderState()** (13 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **focusNodeAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **renderSemanticSigil()** (13 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **renderComponent()** (12 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderParticipant()** (12 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **brandLabelFitWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **brandMetadataFor()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **focusNodeTitle()** (12 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **routePointsValue()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **fittedNodeFontSize()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **renderMessage()** (8 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **brandMarkFor()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **messageLabel()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **arrowClassMap** (6 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **renderConnectionPath()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderFlowPath()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderTransitionPath()** (5 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **componentFill** (5 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **ui.jsx** (42 connections) — `src/ui.jsx`
+- **Home.jsx** (26 connections) — `src/pages/Home.jsx`
+- **site.js** (24 connections) — `src/data/site.js`
+- **Icon()** (18 connections) — `src/ui.jsx`
+- **Schemes.jsx** (17 connections) — `src/pages/Schemes.jsx`
+- **COMPANY** (16 connections) — `src/data/site.js`
+- **Support.jsx** (16 connections) — `src/pages/Support.jsx`
+- **ContentAdminDashboard.jsx** (12 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **HeroSlider.jsx** (11 connections) — `src/components/HeroSlider.jsx`
+- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
+- **UnderMaintenance()** (5 connections) — `src/components/UnderMaintenance.jsx`
+- **LegalPrivacy.jsx** (5 connections) — `src/pages/LegalPrivacy.jsx`
+- **LegalTerms.jsx** (5 connections) — `src/pages/LegalTerms.jsx`
+- **PrivacyPolicy.jsx** (5 connections) — `src/pages/PrivacyPolicy.jsx`
+- **TermsOfService.jsx** (5 connections) — `src/pages/TermsOfService.jsx`
+- **video.js** (5 connections) — `src/utils/video.js`
+- **FileOrUrlInput.jsx** (4 connections) — `src/components/FileOrUrlInput.jsx`
+- **EnquiryButtons()** (4 connections) — `src/ui.jsx`
+- **parseVideoUrl()** (4 connections) — `src/utils/video.js`
+- **HeroSlider()** (3 connections) — `src/components/HeroSlider.jsx`
+- **SCHEMES** (3 connections) — `src/data/site.js`
+- **STATS** (3 connections) — `src/data/site.js`
+- **video-banner.test.mjs** (3 connections) — `src/data/video-banner.test.mjs`
+- **FileOrUrlInput()** (2 connections) — `src/components/FileOrUrlInput.jsx`
+- **ISSUE_TYPES** (2 connections) — `src/data/site.js`
 - *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [[Design System & UI Tokens]] (33 shared connections)
-- [[Community 47]] (29 shared connections)
-- [[Client Products Data Store]] (22 shared connections)
-- [[Community 53]] (21 shared connections)
-- [[Community 63]] (20 shared connections)
-- [[Community 82]] (15 shared connections)
-- [[Zoho Integration Architecture]] (11 shared connections)
-- [[Product Brand & Business Vision]] (7 shared connections)
-- [[Zoho API Diagnostic Script]] (7 shared connections)
+- [[Community 51]] (46 shared connections)
+- [[Graphify Knowledge Graph Skill]] (19 shared connections)
+- [[Community 39]] (18 shared connections)
+- [[Community 126]] (7 shared connections)
+- [[Community 164]] (5 shared connections)
+- [[Community 40]] (2 shared connections)
+- [[Community 163]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/cli.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/i18n.mjs`
-- `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `src/components/FileOrUrlInput.jsx`
+- `src/components/HeroSlider.jsx`
+- `src/components/UnderMaintenance.jsx`
+- `src/data/site.js`
+- `src/data/video-banner.test.mjs`
+- `src/pages/ContentAdminDashboard.jsx`
+- `src/pages/Home.jsx`
+- `src/pages/LegalPrivacy.jsx`
+- `src/pages/LegalTerms.jsx`
+- `src/pages/PrivacyPolicy.jsx`
+- `src/pages/Schemes.jsx`
+- `src/pages/Support.jsx`
+- `src/pages/TermsOfService.jsx`
+- `src/ui.jsx`
+- `src/utils/video.js`
 
 ## Audit Trail
 
-- EXTRACTED: 350 (90%)
-- INFERRED: 39 (10%)
+- EXTRACTED: 277 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

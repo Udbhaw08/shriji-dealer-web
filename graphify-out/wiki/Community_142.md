@@ -1,36 +1,34 @@
 # Community 142
 
-> 12 nodes · cohesion 0.23
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **ContentAdminDashboard.jsx** (12 connections) — `src/pages/ContentAdminDashboard.jsx`
-- **video.js** (5 connections) — `src/utils/video.js`
-- **FileOrUrlInput.jsx** (4 connections) — `src/components/FileOrUrlInput.jsx`
-- **parseVideoUrl()** (4 connections) — `src/utils/video.js`
-- **video-banner.test.mjs** (3 connections) — `src/data/video-banner.test.mjs`
-- **FileOrUrlInput()** (2 connections) — `src/components/FileOrUrlInput.jsx`
-- **ContentAdminDashboard()** (2 connections) — `src/pages/ContentAdminDashboard.jsx`
-- **getVideoBadgeLabel()** (2 connections) — `src/utils/video.js`
-- **DEFAULT_BANNER_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
-- **DEFAULT_BRANDING_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
-- **DEFAULT_SCHEME_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
-- **QUICK_COLORS** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **Toolbars** (9 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Platform considerations** (4 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **toolbars.md** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Actions** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Item groupings** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Navigation** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Titles** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
 
 ## Relationships
 
-- [[Pricing Regression Test Suite]] (8 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/components/FileOrUrlInput.jsx`
-- `src/data/video-banner.test.mjs`
-- `src/pages/ContentAdminDashboard.jsx`
-- `src/utils/video.js`
+- `.agents/skills/apple-design/references/hig/toolbars.md`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
+- EXTRACTED: 24 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

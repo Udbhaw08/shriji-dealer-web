@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **Lists and tables** (7 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
-- **lists-and-tables.md** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
-- **Mobile (iOS, iPadOS, visionOS)** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
-- **Style** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
+- **ROLES-AND-SHARING.md — who sees which price** (9 connections) — `docs/ROLES-AND-SHARING.md`
+- **ROLES-AND-SHARING.md** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **1. The four viewers** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **2. The rule, in one function** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **3. ⚠️ What this is not** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **4. The share link** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **5. What the customer sees — `CustomerPrice` in `PriceBlock.jsx`** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **6. The login flow** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **7. Also gated** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **8. Checks** (1 connections) — `docs/ROLES-AND-SHARING.md`
 
 ## Relationships
 
@@ -21,7 +21,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/lists-and-tables.md`
+- `docs/ROLES-AND-SHARING.md`
 
 ## Audit Trail
 

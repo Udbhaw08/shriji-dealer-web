@@ -1,33 +1,34 @@
 # Community 198
 
-> 10 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **v1-compatibility.test.mjs** (9 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **validate()** (3 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **check()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **legacyDataflowDocument()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **narrowExplicitViewBoxDocuments()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **OFFICIAL_V1_EXAMPLES** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **renderBlock()** (11 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderAside()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderBlocks()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderTable()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderList()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderRow()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderTabs()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderTermList()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **resolveSpans()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **trimBlankEdges()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- [[Community 94]] (1 shared connections)
-- [[Zoho Integration Architecture]] (1 shared connections)
+- [[Community 71]] (10 shared connections)
+- [[Community 197]] (2 shared connections)
+- [[Community 267]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (90%)
-- INFERRED: 2 (10%)
+- EXTRACTED: 33 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

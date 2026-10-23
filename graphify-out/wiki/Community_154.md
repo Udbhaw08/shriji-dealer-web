@@ -1,34 +1,33 @@
 # Community 154
 
-> 12 nodes · cohesion 0.26
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **additionalProperties** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **required** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **messages** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **activations** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **Menus** (10 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **menus.md** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Icons** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **In-game menus** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Labels** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Organization** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Submenus** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Toggled items** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
 
 ## Relationships
 
-- [[Community 81]] (4 shared connections)
-- [[Community 92]] (4 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/sequence.schema.json`
+- `.agents/skills/apple-design/references/hig/menus.md`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

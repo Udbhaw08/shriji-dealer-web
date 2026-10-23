@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **site-language-integration.mjs** (0 connections) — `.agents/skills/archify/test/site-language-integration.mjs`
+- **cordova.js** (0 connections) — `ios/App/App/public/cordova.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/site-language-integration.mjs`
+- `ios/App/App/public/cordova.js`
 
 ## Audit Trail
 

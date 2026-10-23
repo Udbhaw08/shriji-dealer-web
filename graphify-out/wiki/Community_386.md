@@ -1,25 +1,26 @@
 # Community 386
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **Cross-platform translation** (3 connections) — `.agents/skills/apple-design/references/cross-platform.md`
-- **cross-platform.md** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
-- **Conventions to check** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
-- **Vocabulary** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
+- **ErrorBoundary** (5 connections) — `src/main.jsx`
+- **.componentDidCatch()** (1 connections) — `src/main.jsx`
+- **.constructor()** (1 connections) — `src/main.jsx`
+- **.getDerivedStateFromError()** (1 connections) — `src/main.jsx`
+- **.render()** (1 connections) — `src/main.jsx`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 51]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/cross-platform.md`
+- `src/main.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

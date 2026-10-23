@@ -15,7 +15,17 @@ export default async function handler(req, res) {
   }
 
   try {
-    const { id, pricebook_id } = req.query || {};
+    let { id, pricebook_id } = req.query || {};
+
+    if (!id && req.url) {
+      const pathname = req.url.split("?")[0];
+      const segments = pathname.split("/").filter(Boolean);
+      const last = segments[segments.length - 1];
+      if (last && last !== "[id]" && last !== "products") {
+        id = decodeURIComponent(last);
+      }
+    }
+
     if (!id) {
       return res.status(400).json({ error: "Missing product id" });
     }

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **context.md** (0 connections) — `design/context.md`
+- **settings.gradle** (0 connections) — `android/settings.gradle`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `design/context.md`
+- `android/settings.gradle`
 
 ## Audit Trail
 

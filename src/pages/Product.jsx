@@ -14,11 +14,7 @@ import { isPortalGated } from "../data/portalGate";
 import { apiFetch } from "../data/api";
 
 
-const TAB_ITEMS = [
-  { key: "Overview", labelKey: "tab_overview" },
-  { key: "Specifications", labelKey: "tab_specs" },
-  { key: "Videos", labelKey: "tab_videos" },
-];
+
 
 export default function Product() {
   const { id } = useParams();
@@ -100,7 +96,7 @@ export default function Product() {
 
   const [shot, setShot] = useState(0);
   const [shotError, setShotError] = useState(false);
-  const [tab, setTab] = useState(TAB_ITEMS[0].key);
+  const [tab, setTab] = useState("Overview");
   const [copied, setCopied] = useState(false);
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [lightboxIdx, setLightboxIdx] = useState(0);
@@ -301,36 +297,76 @@ export default function Product() {
     );
   }
 
-  const rawTag = Array.isArray(p?.tags) && p.tags.length > 0 ? p.tags[0] : (p?.tag || null);
-  const tag = typeof rawTag === "string" ? rawTag : (rawTag?.tag_name || rawTag?.name || null);
+  const productTags = (Array.isArray(p?.tags) && p.tags.length > 0
+    ? p.tags
+    : (p?.tag ? [p.tag] : []))
+    .map((t) => (typeof t === "string" ? t : (t?.tag_name || t?.name || "")).trim())
+    .filter(Boolean);
 
   const displayTitle = p?.name || p?.model || "";
 
-  const baseSpecs = [
+  // 1. Zoho Specifications from Zoho API
+  const zohoSpecs = (p.specifications || [])
+    .filter((s) => s && (s.name || s.value))
+    .map((s) => [
+      s.group && s.group !== "General" ? `${s.group} - ${s.name}` : s.name,
+      s.value,
+    ]);
+
+  // 2. Extra custom fields from Zoho
+  const extraCfSpecs = (p.extraFields || []).map((f) => [f.label, f.value]);
+
+  // 3. Known product attributes that actually have non-empty values
+  const attrSpecs = [
     [t("spec_model"), displayTitle],
     p.zohoTitle && p.zohoTitle !== displayTitle && [t("spec_full_name"), p.zohoTitle],
-    [t("spec_category"), tCat(p.cat, p.catLabel)],
+    p.cat && [t("spec_category"), tCat(p.cat, p.catLabel)],
     p.size && [t("spec_size"), p.size],
-    p.finish && [t("spec_finish"), p.finish],
+    p.finish && p.finish !== "Standard" && [t("spec_finish"), p.finish],
+    p.burners && ["Burners", `${p.burners} Brass Burners`],
     p.brand && [t("spec_brand"), p.brand],
-    p.features?.length && [t("spec_features"), p.features.join(", ")],
+    p.features?.length > 0 && [t("spec_features"), p.features.join(", ")],
     p.customFields?.warranty && ["Warranty", p.customFields.warranty],
     p.code && [t("spec_code"), `${p.code}-${p.id.slice(-6)}`],
   ].filter(Boolean);
 
-  const zohoSpecs = (p.specifications || []).map((s) => [
-    s.group && s.group !== "General" ? `${s.group} - ${s.name}` : s.name,
-    s.value,
-  ]);
+  // Specifications tab only shows if there are actual specifications or extra custom fields from Zoho
+  const hasSpecs = zohoSpecs.length > 0 || extraCfSpecs.length > 0;
 
-  const specs = [...baseSpecs, ...zohoSpecs];
+  const allSpecsList = [...zohoSpecs, ...extraCfSpecs, ...attrSpecs].filter(
+    ([k, v]) => Boolean(k) && Boolean(v) && String(v).trim().toLowerCase() !== "test" && String(v).trim().toLowerCase() !== "null"
+  );
 
-  const overview =
-    p.customFields?.overview ||
-    p.description ||
-    `The Sunshine ${displayTitle} combines ${p.finish?.toLowerCase() || "quality"} construction with ${
-      p.features?.length ? p.features.join(" and ").toLowerCase() : "everyday reliability"
-    }, making it a dependable choice for the modern Indian kitchen.`;
+  const seenSpecNames = new Set();
+  const specs = [];
+  for (const [k, v] of allSpecsList) {
+    const normK = k.toLowerCase().trim();
+    if (!seenSpecNames.has(normK)) {
+      seenSpecNames.add(normK);
+      specs.push([k, v]);
+    }
+  }
+
+  // Clean overview: strip empty HTML tags to prevent literal <br/> artifacts
+  const cleanOverviewText = (p.customFields?.overview || "").trim();
+  const rawDescText = (p.description || "").replace(/<[^>]*>/g, "").replace(/&nbsp;/gi, " ").trim();
+  const cleanDesc = rawDescText ? p.description : "";
+
+  const overview = cleanOverviewText || cleanDesc || "";
+  const hasKeyFeatures = Boolean(p.customFields?.keyFeatures?.trim());
+  const hasWarranty = Boolean(p.customFields?.warranty?.trim());
+  const hasOverview = Boolean(overview || hasKeyFeatures || hasWarranty);
+  const hasVideos = Array.isArray(p.videos) && p.videos.length > 0;
+
+  const availableTabs = [
+    hasOverview && { key: "Overview", labelKey: "tab_overview" },
+    hasSpecs && { key: "Specifications", labelKey: "tab_specs" },
+    hasVideos && { key: "Videos", labelKey: "tab_videos" },
+  ].filter(Boolean);
+
+  const activeTabKey = availableTabs.some((tItem) => tItem.key === tab)
+    ? tab
+    : (availableTabs[0]?.key || "");
 
   const share = () => {
     const url = shareLink(p, me || sharedBy);
@@ -536,21 +572,30 @@ export default function Product() {
 
           {/* ---- info ---- */}
           <div>
-            {/* Category Pill */}
-            <div className="detail-meta-row">
+            {/* Category Pill and Multiple Tags */}
+            <div className="detail-meta-row" style={{ display: "flex", flexWrap: "wrap", gap: "8px", alignItems: "center" }}>
               <span className="detail-cat-pill">
                 {tCat(p.cat, p.catLabel) || "Small Appliances"}
               </span>
+              {productTags.map((tagText, idx) => (
+                <span
+                  key={idx}
+                  className="badge badge-blue detail-tag-pill"
+                  style={{ textTransform: "uppercase", fontSize: "0.75rem", letterSpacing: "0.04em", padding: "4px 8px", borderRadius: "4px", fontWeight: 700 }}
+                >
+                  {tagText}
+                </span>
+              ))}
             </div>
 
             <h1 className="d2" style={{ fontSize: "1.75rem", fontWeight: 800, letterSpacing: "-0.02em" }}>
               {displayTitle}
             </h1>
 
-            {/* 2x2 Feature Tiles: Dynamic from Zoho Commerce Tile Icons (1..8) with fallback */}
-            <div className="detail-feature-tiles-grid">
-              {Array.isArray(p.tileIcons) && p.tileIcons.length > 0 ? (
-                p.tileIcons.slice(0, 4).map((tile, idx) => (
+            {/* Feature Tiles: Dynamic from Zoho Commerce Tile Icons (1..8) or product attributes */}
+            {Array.isArray(p.tileIcons) && p.tileIcons.length > 0 ? (
+              <div className="detail-feature-tiles-grid">
+                {p.tileIcons.slice(0, 4).map((tile, idx) => (
                   <div key={tile.index || idx} className="detail-feature-tile-card">
                     <div className="detail-feature-tile-icon-wrap">
                       {tile.image ? (
@@ -569,54 +614,58 @@ export default function Product() {
                         />
                       )}
                     </div>
-                    <span className="detail-feature-tile-sub">Feature {tile.index || idx + 1}</span>
+                    <span className="detail-feature-tile-sub">{tile.label || `Feature ${tile.index || idx + 1}`}</span>
                     <span className="detail-feature-tile-val">{tile.text}</span>
                   </div>
-                ))
-              ) : (
-                <>
-                  <div className="detail-feature-tile-card">
-                    <div className="detail-feature-tile-icon-wrap">
-                      <Icon name="layers" size={20} />
-                    </div>
-                    <span className="detail-feature-tile-sub">Body Quality</span>
-                    <span className="detail-feature-tile-val">
-                      {p.finish || (p.fkey === "glass" ? "Matte Toughened Glass" : p.fkey === "steel" ? "Stainless Steel" : p.features?.find((f) => f.toLowerCase().includes("steel") || f.toLowerCase().includes("glass")) || "Stainless Steel")}
-                    </span>
-                  </div>
+                ))}
+              </div>
+            ) : (
+              (() => {
+                const activeAttrTiles = [
+                  (p.finish && p.finish !== "Standard" ? p.finish : (p.fkey === "glass" ? "Matte Toughened Glass" : (p.fkey === "steel" ? "Stainless Steel" : null))) && {
+                    icon: "layers",
+                    sub: "Body Quality",
+                    val: p.finish || (p.fkey === "glass" ? "Matte Toughened Glass" : "Stainless Steel")
+                  },
+                  p.customFields?.warranty && {
+                    icon: "shield",
+                    sub: "Coverage",
+                    val: p.customFields.warranty
+                  },
+                  p.burners && {
+                    icon: "stove",
+                    sub: "Burners",
+                    val: `${p.burners} Brass Burners`
+                  },
+                  p.size && {
+                    icon: "layers",
+                    sub: "Dimensions",
+                    val: p.size
+                  },
+                  p.features?.length > 0 && {
+                    icon: "bolt",
+                    sub: "Key Tech",
+                    val: p.features[0]
+                  }
+                ].filter(Boolean);
 
-                  <div className="detail-feature-tile-card">
-                    <div className="detail-feature-tile-icon-wrap">
-                      <Icon name="shield" size={20} />
-                    </div>
-                    <span className="detail-feature-tile-sub">Coverage</span>
-                    <span className="detail-feature-tile-val">
-                      {p.warranty || "Sunshine 2-Yr Warranty"}
-                    </span>
-                  </div>
+                if (activeAttrTiles.length === 0) return null;
 
-                  <div className="detail-feature-tile-card">
-                    <div className="detail-feature-tile-icon-wrap">
-                      <Icon name="bolt" size={20} />
-                    </div>
-                    <span className="detail-feature-tile-sub">Ignition / Operation</span>
-                    <span className="detail-feature-tile-val">
-                      {p.features?.find((f) => f.includes("Ignition") || f.includes("Auto") || f.includes("Cut-Off") || f.includes("BLDC")) || (p.cat === "small_appliances" ? "Auto Cut-Off" : "Auto Ignition")}
-                    </span>
+                return (
+                  <div className="detail-feature-tiles-grid">
+                    {activeAttrTiles.slice(0, 4).map((tile, idx) => (
+                      <div key={idx} className="detail-feature-tile-card">
+                        <div className="detail-feature-tile-icon-wrap">
+                          <Icon name={tile.icon} size={20} />
+                        </div>
+                        <span className="detail-feature-tile-sub">{tile.sub}</span>
+                        <span className="detail-feature-tile-val">{tile.val}</span>
+                      </div>
+                    ))}
                   </div>
-
-                  <div className="detail-feature-tile-card">
-                    <div className="detail-feature-tile-icon-wrap">
-                      <Icon name={p.cat === "chimneys" ? "chimney" : p.cat === "small_appliances" ? "blender" : "stove"} size={20} />
-                    </div>
-                    <span className="detail-feature-tile-sub">Configuration</span>
-                    <span className="detail-feature-tile-val">
-                      {p.burners ? `${p.burners} Brass Burners` : p.features?.find((f) => f.includes("Base") || f.includes("Swivel") || f.includes("Speed")) || "360° Swivel Base"}
-                    </span>
-                  </div>
-                </>
-              )}
-            </div>
+                );
+              })()
+            )}
 
             <PriceBlock
               p={p}
@@ -679,63 +728,81 @@ export default function Product() {
               </p>
             )}
 
-            <div className="utabs" role="tablist">
-              {TAB_ITEMS.map((tItem) => (
-                <button key={tItem.key} className="utab" role="tab" aria-selected={tab === tItem.key} onClick={() => setTab(tItem.key)}>
-                  {t(tItem.labelKey)}
-                </button>
-              ))}
-            </div>
+            {availableTabs.length > 1 && (
+              <div className="utabs" role="tablist">
+                {availableTabs.map((tItem) => (
+                  <button
+                    key={tItem.key}
+                    className="utab"
+                    role="tab"
+                    aria-selected={activeTabKey === tItem.key}
+                    onClick={() => setTab(tItem.key)}
+                  >
+                    {t(tItem.labelKey)}
+                  </button>
+                ))}
+              </div>
+            )}
 
-            <div className="overview" role="tabpanel">
-              {tab === "Overview" && (
-                <>
-                  <h3>{t("overview_engineered_title")}</h3>
-                  <p className="muted" style={{ fontSize: "0.93rem", whiteSpace: "pre-line" }}>
-                    {overview}
-                  </p>
-                  {p.customFields?.keyFeatures && (
-                    <div style={{ marginTop: "var(--s4)" }}>
-                      <h4 style={{ fontSize: "1rem", marginBottom: "var(--s2)", fontWeight: 600 }}>Key Features</h4>
-                      <p className="muted" style={{ fontSize: "0.93rem", whiteSpace: "pre-line" }}>
-                        {p.customFields.keyFeatures}
-                      </p>
-                    </div>
-                  )}
-                  {p.customFields?.warranty && (
-                    <div style={{ marginTop: "var(--s4)" }}>
-                      <h4 style={{ fontSize: "1rem", marginBottom: "var(--s2)", fontWeight: 600 }}>Warranty</h4>
-                      <p className="muted" style={{ fontSize: "0.93rem" }}>
-                        {p.customFields.warranty}
-                      </p>
-                    </div>
-                  )}
-                </>
-              )}
+            {availableTabs.length > 0 && (
+              <div className="overview" role="tabpanel">
+                {activeTabKey === "Overview" && hasOverview && (
+                  <>
+                    <h3>{t("overview_engineered_title")}</h3>
+                    {overview && (
+                      /<[a-z][\s\S]*>/i.test(overview) ? (
+                        <div
+                          className="muted overview-html"
+                          style={{ fontSize: "0.93rem", lineHeight: 1.6 }}
+                          dangerouslySetInnerHTML={{ __html: overview }}
+                        />
+                      ) : (
+                        <p className="muted" style={{ fontSize: "0.93rem", whiteSpace: "pre-line", lineHeight: 1.6 }}>
+                          {overview}
+                        </p>
+                      )
+                    )}
+                    {p.customFields?.keyFeatures && (
+                      <div style={{ marginTop: "var(--s4)" }}>
+                        <h4 style={{ fontSize: "1rem", marginBottom: "var(--s2)", fontWeight: 600 }}>Key Features</h4>
+                        <p className="muted" style={{ fontSize: "0.93rem", whiteSpace: "pre-line" }}>
+                          {p.customFields.keyFeatures}
+                        </p>
+                      </div>
+                    )}
+                    {p.customFields?.warranty && (
+                      <div style={{ marginTop: "var(--s4)" }}>
+                        <h4 style={{ fontSize: "1rem", marginBottom: "var(--s2)", fontWeight: 600 }}>Warranty</h4>
+                        <p className="muted" style={{ fontSize: "0.93rem" }}>
+                          {p.customFields.warranty}
+                        </p>
+                      </div>
+                    )}
+                  </>
+                )}
 
-              {tab === "Specifications" && (
-                <>
-                  <h3>{t("tab_specs")}</h3>
-                  <table className="spec">
-                    <tbody>
-                      {specs.map(([k, v]) => (
-                        <tr key={k}>
-                          <th scope="row">{k}</th>
-                          <td>{v}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                  <p className="note" style={{ marginTop: "var(--s4)" }}>
-                    {t("spec_live_note")}
-                  </p>
-                </>
-              )}
+                {activeTabKey === "Specifications" && hasSpecs && (
+                  <>
+                    <h3>{t("tab_specs")}</h3>
+                    <table className="spec">
+                      <tbody>
+                        {specs.map(([k, v]) => (
+                          <tr key={k}>
+                            <th scope="row">{k}</th>
+                            <td>{v}</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                    <p className="note" style={{ marginTop: "var(--s4)" }}>
+                      {t("spec_live_note")}
+                    </p>
+                  </>
+                )}
 
-              {tab === "Videos" && (
-                <>
-                  <h3>{t("tab_videos")}</h3>
-                  {p.videos && p.videos.length > 0 ? (
+                {activeTabKey === "Videos" && hasVideos && (
+                  <>
+                    <h3>{t("tab_videos")}</h3>
                     <div style={{ display: "grid", gap: "var(--s4)", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", marginTop: "var(--s3)" }}>
                       {p.videos.map((vid, idx) => (
                         <div key={idx} style={{ position: "relative", paddingBottom: "56.25%", height: 0, overflow: "hidden", borderRadius: "8px", background: "#000" }}>
@@ -749,14 +816,10 @@ export default function Product() {
                         </div>
                       ))}
                     </div>
-                  ) : (
-                    <p className="muted" style={{ fontSize: "0.93rem" }}>
-                      {t("no_videos_uploaded", { model: displayTitle })}
-                    </p>
-                  )}
-                </>
-              )}
-            </div>
+                  </>
+                )}
+              </div>
+            )}
           </div>
         </div>
 

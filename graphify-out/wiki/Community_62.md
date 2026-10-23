@@ -1,50 +1,52 @@
 # Community 62
 
-> 25 nodes · cohesion 0.17
+> 24 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **update-contract.mjs** (16 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **update-contract.test.mjs** (10 connections) — `.agents/skills/archify/test/update-contract.test.mjs`
-- **compareSemver()** (9 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **validateStableUpdateManifest()** (8 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **normalizeState()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **isStableCoreVersion()** (7 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **parseSemver()** (7 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **validateLocalRelease()** (7 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **validateCachedCandidate()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **validateReleaseNotesUrl()** (5 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **isPlainObject()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **hasExactKeys()** (4 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **releaseChannelForVersion()** (4 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **UpdateContractError** (4 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **hasOnlyKeys()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **validateClaimOwner()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **compareNumericIdentifiers()** (3 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **comparePrerelease()** (3 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **validateCanonicalUtcTimestamp()** (3 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **emptyState()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **validateManifest()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **isPlainObject()** (2 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **.constructor()** (1 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **localRelease()** (1 connections) — `.agents/skills/archify/test/update-contract.test.mjs`
-- **stableManifest()** (1 connections) — `.agents/skills/archify/test/update-contract.test.mjs`
+- **jd()** (13 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **Bd()** (12 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **Pd()** (11 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **Bi()** (10 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **Kd()** (9 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **ot()** (9 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **zd()** (9 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **kf()** (7 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **st()** (7 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **ef()** (6 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **js()** (6 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **qd()** (6 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **af()** (5 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **ff()** (5 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **Vd()** (5 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **jf()** (4 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **Xd()** (4 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **Id()** (3 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **Qa()** (3 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **qs()** (3 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **ts()** (3 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **Ud()** (3 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **Wd()** (3 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **Yd()** (3 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
 
 ## Relationships
 
-- [[Community 49]] (16 shared connections)
-- [[Community 41]] (3 shared connections)
-- [[Community 107]] (3 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (31 shared connections)
+- [[Master Codebase Architecture Reference]] (11 shared connections)
+- [[Community 32]] (7 shared connections)
+- [[Dependencies & Package Config]] (7 shared connections)
+- [[Community 36]] (6 shared connections)
+- [[Community 29]] (3 shared connections)
+- [[Live Pricing Audit Tool]] (1 shared connections)
+- [[Community 77]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-update.mjs`
-- `.agents/skills/archify/scripts/update-contract.mjs`
-- `.agents/skills/archify/test/update-contract.test.mjs`
+- `ios/App/App/public/assets/index-2OxP_Ib6.js`
 
 ## Audit Trail
 
-- EXTRACTED: 122 (100%)
+- EXTRACTED: 149 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

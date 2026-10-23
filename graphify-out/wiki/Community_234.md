@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **vertical-edge.test.mjs** (8 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **bin** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **edgePath()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **REPRO** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **segments()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **architecture-compare-recovery.test.mjs** (8 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **base** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **fixture()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **hash()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **head** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **inject()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/vertical-edge.test.mjs`
+- `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
 
 ## Audit Trail
 

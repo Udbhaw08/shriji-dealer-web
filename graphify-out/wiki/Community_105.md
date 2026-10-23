@@ -1,39 +1,50 @@
 # Community 105
 
-> 17 nodes · cohesion 0.12
+> 17 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **HIG reference lookup** (16 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **hig-lookup.md** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Content** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Layout and organization** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Menus and actions** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Navigation and search** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Presentation** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Selection and input** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Status** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › System experiences** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Curated guides** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Foundations** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Getting started** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Inputs** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Pages Apple publishes that are not included** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Patterns** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Technologies** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **utils.mjs** (26 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **i18n.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **translateMessage()** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **applyTemplate()** (9 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **resolveLocale()** (7 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **componentContext()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **viewerCatalog()** (4 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **localizeTemplate()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **translateCount()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **formatMessage()** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **serializeScriptJson()** (2 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **CATALOGS** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **ESCAPE_MAP** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **MESSAGE_PAIRS** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **SIGIL_SHAPE** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **SIGIL_TONE** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **TEMPLATE_PLACEHOLDERS** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Roles & Customer Sharing Spec]] (12 shared connections)
+- [[Community 37]] (10 shared connections)
+- [[Zoho Integration Architecture]] (7 shared connections)
+- [[Community 35]] (5 shared connections)
+- [[Community 123]] (5 shared connections)
+- [[Product Brand & Business Vision]] (4 shared connections)
+- [[Design System & UI Tokens]] (4 shared connections)
+- [[Community 82]] (3 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (1 shared connections)
+- [[Community 279]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig-lookup.md`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/shared/i18n.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 107 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

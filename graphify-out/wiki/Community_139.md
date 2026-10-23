@@ -1,37 +1,39 @@
 # Community 139
 
-> 13 nodes · cohesion 0.21
+> 13 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **semantic-radar.test.mjs** (15 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **evaluate()** (5 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **dragMouse()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **loadArtifact()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **observe()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **radarRects()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **overlaps()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **fail()** (15 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **usage()** (11 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **runNode()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandDemo()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **exitFrom()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandBrands()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandExamples()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandVisualCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandDoctor()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractMigrationOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandGuide()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **listBrandMarks()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 
 ## Relationships
 
-- [[Community 51]] (1 shared connections)
-- [[Community 31]] (1 shared connections)
-- [[Community 141]] (1 shared connections)
+- [[Community 43]] (27 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (3 shared connections)
+- [[Community 288]] (3 shared connections)
+- [[Community 44]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/semantic-radar.test.mjs`
+- `.agents/skills/archify/bin/archify.mjs`
+- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 73 (95%)
+- INFERRED: 4 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

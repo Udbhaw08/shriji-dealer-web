@@ -1,28 +1,29 @@
 # Community 290
 
-> 7 nodes · cohesion 0.29
+> 7 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **Managing notifications** (6 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
-- **managing-notifications.md** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
-- **Integrating with Focus** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
-- **Sending marketing notifications** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **loginCode.js** (8 connections) — `src/data/loginCode.js`
+- **formatLoginCode()** (4 connections) — `src/data/loginCode.js`
+- **generateLoginCode()** (2 connections) — `src/data/loginCode.js`
+- **GST_TREATMENT_OPTIONS** (2 connections) — `src/data/loginCode.js`
+- **isValidLoginCode()** (2 connections) — `src/data/loginCode.js`
+- **PREFIX_MAP** (1 connections) — `src/data/loginCode.js`
+- **USER_CATEGORIES** (1 connections) — `src/data/loginCode.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 40]] (3 shared connections)
+- [[Graphify Knowledge Graph Skill]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- `src/data/loginCode.js`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

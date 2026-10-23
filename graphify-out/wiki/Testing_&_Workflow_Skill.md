@@ -1,55 +1,47 @@
 # Testing & Workflow Skill
 
-> 42 nodes · cohesion 0.05
+> 41 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **properties** (30 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **col** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **height** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **brand** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **channelX** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **channelY** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **from** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **id** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **labelDx** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **labelDy** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **lane** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **note** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **route** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **sublabel** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **tag** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **to** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **toSide** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **variant** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **yOffset** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **maximum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- *... and 17 more nodes in this community*
+- **Motion & Micro-interactions Guide** (13 connections) — `.agents/skills/refero-design/references/motion.md`
+- **8. Anti-Patterns** (7 connections) — `.agents/skills/refero-design/references/motion.md`
+- **1. The Motion Pyramid** (5 connections) — `.agents/skills/refero-design/references/motion.md`
+- **4. Micro-interactions That Work** (5 connections) — `.agents/skills/refero-design/references/motion.md`
+- **2. Timing That Actually Works** (4 connections) — `.agents/skills/refero-design/references/motion.md`
+- **3. Easing: Native Feel Without Cringe** (4 connections) — `.agents/skills/refero-design/references/motion.md`
+- **6. Reduced Motion: Not Optional** (4 connections) — `.agents/skills/refero-design/references/motion.md`
+- **5. Motion Tokens for Design Systems** (3 connections) — `.agents/skills/refero-design/references/motion.md`
+- **7. Libraries and Tools** (3 connections) — `.agents/skills/refero-design/references/motion.md`
+- **motion.md** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **9. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Animations Must Be Interruptible** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Basic Principle** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Buttons and Controls** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Component Mapping** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Critical: Never Use `transition: all`** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **CSS Shortcut** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **CSS Tokens** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Duration Reference** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **For Complex Scenarios** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **For Web/SaaS (React/Next)** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Implementation** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Inputs** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [[Community 189]] (3 shared connections)
-- [[Community 429]] (1 shared connections)
-- [[Community 452]] (1 shared connections)
-- [[Community 430]] (1 shared connections)
-- [[Community 453]] (1 shared connections)
-- [[Community 431]] (1 shared connections)
-- [[Community 454]] (1 shared connections)
-- [[Community 397]] (1 shared connections)
-- [[Community 398]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `.agents/skills/refero-design/references/motion.md`
 
 ## Audit Trail
 
-- EXTRACTED: 93 (100%)
+- EXTRACTED: 80 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

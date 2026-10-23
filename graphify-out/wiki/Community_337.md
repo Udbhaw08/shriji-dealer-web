@@ -4,24 +4,24 @@
 
 ## Key Concepts
 
-- **size** (6 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **Collections** (4 connections) — `.agents/skills/apple-design/references/hig/collections.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/collections.md`
+- **collections.md** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
 
 ## Relationships
 
-- [[Claude Agent Instructions]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `.agents/skills/apple-design/references/hig/collections.md`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

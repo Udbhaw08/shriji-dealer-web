@@ -1,32 +1,37 @@
 # Community 164
 
-> 11 nodes · cohesion 0.18
+> 11 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **Design principles** (10 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **design-principles.md** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Agency** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Craft** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Delight** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Familiarity** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Flexibility** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Purpose** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Responsibility** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Simplicity** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **i18n.js** (25 connections) — `src/data/i18n.js`
+- **setLanguage()** (3 connections) — `src/data/i18n.js`
+- **tCat()** (3 connections) — `src/data/i18n.js`
+- **emit()** (2 connections) — `src/data/i18n.js`
+- **toggleLanguage()** (2 connections) — `src/data/i18n.js`
+- **translations.js** (2 connections) — `src/data/translations.js`
+- **TRANSLATIONS** (2 connections) — `src/data/translations.js`
+- **currentLang** (1 connections) — `src/data/i18n.js`
+- **getInitialLang()** (1 connections) — `src/data/i18n.js`
+- **getLanguage()** (1 connections) — `src/data/i18n.js`
+- **listeners** (1 connections) — `src/data/i18n.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 39]] (5 shared connections)
+- [[Pricing & Roles Skill]] (5 shared connections)
+- [[Community 51]] (4 shared connections)
+- [[Community 126]] (2 shared connections)
+- [[Graphify Knowledge Graph Skill]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/design-principles.md`
+- `src/data/i18n.js`
+- `src/data/translations.js`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 43 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

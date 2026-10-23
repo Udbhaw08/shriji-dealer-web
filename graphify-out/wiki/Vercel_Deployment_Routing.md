@@ -1,68 +1,48 @@
 # Vercel Deployment Routing
 
-> 41 nodes · cohesion 0.11
+> 40 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **sql** (67 connections) — `backend/src/db/pool.js`
-- **dealers.js** (36 connections) — `backend/src/routes/dealers.js`
-- **dealerApp.js** (24 connections) — `backend/src/services/dealerApp.js`
-- **staff.js** (23 connections) — `backend/src/services/staff.js`
-- **audit()** (17 connections) — `backend/src/utils/audit.js`
-- **applyCrmAccountState()** (12 connections) — `backend/src/services/dealerApp.js`
-- **audit.js** (7 connections) — `backend/src/utils/audit.js`
-- **applyDealer()** (6 connections) — `backend/src/services/dealerApp.js`
-- **createInvite()** (6 connections) — `backend/src/services/staff.js`
-- **sha256()** (6 connections) — `backend/src/utils/hash.js`
-- **upload.js** (5 connections) — `api/upload.js`
-- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
-- **applyCrmContactState()** (5 connections) — `backend/src/services/dealerApp.js`
-- **seed-content.js** (4 connections) — `backend/scripts/seed-content.js`
-- **deactivateDealer()** (4 connections) — `backend/src/services/dealerApp.js`
-- **approveStaff()** (4 connections) — `backend/src/services/staff.js`
-- **deleteStaff()** (4 connections) — `backend/src/services/staff.js`
-- **holdStaff()** (4 connections) — `backend/src/services/staff.js`
-- **resumeStaff()** (4 connections) — `backend/src/services/staff.js`
-- **revokeStaff()** (4 connections) — `backend/src/services/staff.js`
-- **toggleAllStaffPrice()** (4 connections) — `backend/src/services/staff.js`
-- **toggleStaffPrice()** (4 connections) — `backend/src/services/staff.js`
-- **markPollRun()** (3 connections) — `backend/src/jobs/crmPoll.js`
-- **requireApprovedDealer()** (3 connections) — `backend/src/middleware/auth.js`
-- **inspect-db.js** (3 connections) — `backend/scripts/inspect-db.js`
-- *... and 16 more nodes in this community*
+- **Color Guide** (13 connections) — `.agents/skills/refero-design/references/color.md`
+- **2. Palette Structure** (5 connections) — `.agents/skills/refero-design/references/color.md`
+- **5. Light and Dark Themes** (5 connections) — `.agents/skills/refero-design/references/color.md`
+- **7. Building a Palette from Scratch** (5 connections) — `.agents/skills/refero-design/references/color.md`
+- **4. Contrast and Readability** (4 connections) — `.agents/skills/refero-design/references/color.md`
+- **6. Naming Tokens** (4 connections) — `.agents/skills/refero-design/references/color.md`
+- **9. Anti-Patterns** (4 connections) — `.agents/skills/refero-design/references/color.md`
+- **1. Color Space** (3 connections) — `.agents/skills/refero-design/references/color.md`
+- **3. The 60/30/10 Rule** (3 connections) — `.agents/skills/refero-design/references/color.md`
+- **8. Gradients** (2 connections) — `.agents/skills/refero-design/references/color.md`
+- **color.md** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **10. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **2.1 Neutrals (Most Important)** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **2.2 Primary Accent** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **2.3 Semantic Colors** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **2.4 Effects (Only If Needed)** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Bad** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Common Failures** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Component Color Limit** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Dark Mode: Technical Implementation** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Dark Theme Elevation** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Good** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Minimum Requirements** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [[Community 54]] (34 shared connections)
-- [[Community 35]] (26 shared connections)
-- [[Community 43]] (15 shared connections)
-- [[Community 83]] (14 shared connections)
-- [[Price Presentation & Product UI]] (9 shared connections)
-- [[Community 130]] (7 shared connections)
-- [[Community 376]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `api/upload.js`
-- `backend/scripts/check-readiness.js`
-- `backend/scripts/inspect-db.js`
-- `backend/scripts/seed-content.js`
-- `backend/scripts/setup-buckets.js`
-- `backend/scripts/setup-policies.js`
-- `backend/src/db/pool.js`
-- `backend/src/jobs/crmPoll.js`
-- `backend/src/middleware/auth.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/services/dealerApp.js`
-- `backend/src/services/staff.js`
-- `backend/src/utils/audit.js`
-- `backend/src/utils/hash.js`
-- `backend/test/crmSync.test.mjs`
+- `.agents/skills/refero-design/references/color.md`
 
 ## Audit Trail
 
-- EXTRACTED: 292 (99%)
-- INFERRED: 3 (1%)
+- EXTRACTED: 78 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

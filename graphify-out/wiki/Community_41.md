@@ -1,49 +1,47 @@
 # Community 41
 
-> 38 nodes · cohesion 0.07
+> 34 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **update-notifier.test.mjs** (43 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **operationPath()** (5 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **stateDirectory()** (4 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **fixture()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **remoteReleaseForVersion()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **runCheckInChild()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **statePath()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **writeCompactCommittedState()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **assertUnsafeCacheStateIsIgnored()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **committedStateFiles()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **compactStateSource()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **localRelease()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **pauseOpenOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **pauseRenameMatchingOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **pauseRenameOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **pauseWriteOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **remoteRelease()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **writeJson()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **writePendingOperation()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **baseTime** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **cachedStateWithHistory()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **cachedUpdateState()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **cancel()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **candidateStateForDigest()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **checkerPath** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- *... and 13 more nodes in this community*
+- **Typography** (10 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **iOS, iPadOS Dynamic Type sizes** (8 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **iOS, iPadOS larger accessibility type sizes** (6 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Specifications** (5 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **iOS, iPadOS, visionOS tracking values** (4 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Tracking values** (3 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **typography.md** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **AX1** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **AX2** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **AX3** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **AX4** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **AX5** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Conveying hierarchy** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Ensuring legibility** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Large (default)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **macOS built-in text styles** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **macOS tracking values** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Medium** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **New York** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **SF Pro** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [[Community 62]] (3 shared connections)
-- [[Community 107]] (2 shared connections)
-- [[Community 49]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/update-notifier.test.mjs`
+- `.agents/skills/apple-design/references/hig/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 108 (100%)
+- EXTRACTED: 66 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

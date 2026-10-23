@@ -1,19 +1,20 @@
 # Community 178
 
-> 10 nodes · cohesion 0.20
+> 11 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **App Shortcuts** (6 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
-- **Best practices** (2 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
-- **app-shortcuts.md** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
-- **Editorial guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
-- **Responding to App Shortcuts** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **readme-showcase.test.mjs** (10 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **inspectGif()** (2 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **skipSubBlocks()** (2 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **assetPath** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **git()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **receiptPath** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **writeStarHistoryCharts()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
 
 ## Relationships
 
@@ -21,11 +22,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- `.agents/skills/archify/test/readme-showcase.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

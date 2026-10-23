@@ -4,20 +4,20 @@
 
 ## Key Concepts
 
-- **Icons & Glyphs Guide** (10 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Libraries** (4 connections) — `.agents/skills/refero-design/references/icons.md`
-- **icons.md** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Accessibility** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Color** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **For Product UI (SVG-based)** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Icon Sizing** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Icon + Text Pairing** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Optical Corrections** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Style Consistency** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Two Contexts** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Variable Glyph Systems** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **When to Use What** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Augmented reality** (13 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **augmented-reality.md** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Communicating with people** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Designing object interactions** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Handling interruptions** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Helping people place objects** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Icons and badges** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Offering a multiuser experience** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Providing coaching** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Reacting to real-world objects** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Suggesting problem resolutions** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
 
 ## Relationships
 
@@ -25,7 +25,7 @@
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/icons.md`
+- `.agents/skills/apple-design/references/hig/augmented-reality.md`
 
 ## Audit Trail
 

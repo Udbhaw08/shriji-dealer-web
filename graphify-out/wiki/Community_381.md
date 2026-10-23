@@ -1,13 +1,14 @@
 # Community 381
 
-> 4 nodes · cohesion 0.67
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **Test** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
-- **ExampleInstrumentedTest.java** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
-- **ExampleInstrumentedTest** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
-- **.useAppContext()** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
+- **Automatic Codebase Context & Knowledge Graph Protocol** (4 connections) — `.agents/rules/graphify.md`
+- **graphify.md** (1 connections) — `.agents/rules/graphify.md`
+- **Rule 1: Mandatory Knowledge Graph Lookup (Never Blindly Read Files)** (1 connections) — `.agents/rules/graphify.md`
+- **Rule 2: Precision File Viewing** (1 connections) — `.agents/rules/graphify.md`
+- **Rule 3: Keep Graph Fresh After Modifying Code** (1 connections) — `.agents/rules/graphify.md`
 
 ## Relationships
 
@@ -15,7 +16,7 @@
 
 ## Source Files
 
-- `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
+- `.agents/rules/graphify.md`
 
 ## Audit Trail
 

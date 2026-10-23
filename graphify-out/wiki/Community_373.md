@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **focus** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **Ratings and reviews** (4 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
+- **ratings-and-reviews.md** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
 
 ## Relationships
 
-- [[Community 170]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

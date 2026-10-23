@@ -22,6 +22,15 @@ export const env = {
   resendApiKey: process.env.RESEND_API_KEY || '',
   googleClientId: process.env.GOOGLE_CLIENT_ID || '',
 
+  whatsapp: {
+    token: process.env.WHATSAPP_TOKEN || '',
+    phoneId: process.env.WHATSAPP_PHONE_ID || '',
+    templateName: process.env.WHATSAPP_TEMPLATE_NAME || 'otp',
+    templateLang: process.env.WHATSAPP_TEMPLATE_LANG || 'en_US',
+    graphApiVersion: process.env.WHATSAPP_GRAPH_API_VERSION || 'v21.0',
+    templateHasButton: process.env.WHATSAPP_TEMPLATE_HAS_BUTTON !== 'false',
+  },
+
   zoho: {
     dc: process.env.ZOHO_DC || 'in',
     crm: {

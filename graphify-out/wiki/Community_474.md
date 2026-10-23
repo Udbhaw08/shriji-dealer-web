@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **build_wiki.py** (0 connections) — `scripts/build_wiki.py`
+- **capacitor.build.gradle** (0 connections) — `android/app/capacitor.build.gradle`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `scripts/build_wiki.py`
+- `android/app/capacitor.build.gradle`
 
 ## Audit Trail
 

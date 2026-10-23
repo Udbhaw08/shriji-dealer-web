@@ -1,23 +1,24 @@
 # Community 443
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **Package.swift** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
-- **PackageDescription** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
+- **variant** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Zoho Integration Skill]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/CapApp-SPM/Package.swift`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

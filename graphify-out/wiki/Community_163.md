@@ -1,32 +1,35 @@
 # Community 163
 
-> 11 nodes · cohesion 0.18
+> 11 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Dark Mode** (6 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Dark Mode colors** (3 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **dark-mode.md** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Icons and images** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Text** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **favoritesStore.js** (18 connections) — `src/data/favoritesStore.js`
+- **persist()** (5 connections) — `src/data/favoritesStore.js`
+- **addFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **removeFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **toggleFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **clearFavorites()** (2 connections) — `src/data/favoritesStore.js`
+- **notify()** (2 connections) — `src/data/favoritesStore.js`
+- **favoritesState** (1 connections) — `src/data/favoritesStore.js`
+- **getFavorites()** (1 connections) — `src/data/favoritesStore.js`
+- **listeners** (1 connections) — `src/data/favoritesStore.js`
+- **loadFromStorage()** (1 connections) — `src/data/favoritesStore.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 39]] (5 shared connections)
+- [[Community 51]] (1 shared connections)
+- [[Community 126]] (1 shared connections)
+- [[Pricing & Roles Skill]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/dark-mode.md`
+- `src/data/favoritesStore.js`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

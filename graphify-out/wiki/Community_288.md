@@ -4,26 +4,31 @@
 
 ## Key Concepts
 
-- **Loading** (6 connections) — `.agents/skills/apple-design/references/hig/loading.md`
-- **loading.md** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
-- **Showing progress** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **commandCompare()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commitComparePair()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractCompareOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **formatDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportCompareFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **compareCommitError()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **compareReceiptPath()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 43]] (11 shared connections)
+- [[Community 111]] (4 shared connections)
+- [[Community 139]] (3 shared connections)
+- [[Community 84]] (2 shared connections)
+- [[Community 57]] (2 shared connections)
+- [[Community 103]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/loading.md`
+- `.agents/skills/archify/bin/archify.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 27 (75%)
+- INFERRED: 9 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

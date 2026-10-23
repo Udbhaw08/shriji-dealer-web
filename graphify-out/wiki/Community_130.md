@@ -1,38 +1,35 @@
 # Community 130
 
-> 14 nodes · cohesion 0.33
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **commerceClient.js** (22 connections) — `backend/src/services/commerceClient.js`
-- **ensureContactPricebookForCrmAccount()** (8 connections) — `backend/src/services/commerceClient.js`
-- **fetchCatalog()** (6 connections) — `backend/src/services/commerceClient.js`
-- **booksFetch()** (5 connections) — `backend/src/services/commerceClient.js`
-- **commerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
-- **commerceFetch()** (5 connections) — `backend/src/services/commerceClient.js`
-- **isCommerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
-- **resolvePricebookId()** (5 connections) — `backend/src/services/commerceClient.js`
-- **assignPricebookToContact()** (4 connections) — `backend/src/services/commerceClient.js`
-- **deactivateCommerceContact()** (3 connections) — `backend/src/services/commerceClient.js`
-- **fetchCommercePricebooks()** (3 connections) — `backend/src/services/commerceClient.js`
-- **fetchPricebookRates()** (3 connections) — `backend/src/services/commerceClient.js`
-- **getAccessToken()** (3 connections) — `backend/src/services/commerceClient.js`
-- **parseRate()** (2 connections) — `backend/src/services/commerceClient.js`
+- **web-Twzo1-h-.js** (13 connections) — `ios/App/App/public/assets/web-Twzo1-h-.js`
+- **applyPrefix()** (4 connections) — `ios/App/App/public/assets/web-Twzo1-h-.js`
+- **keys()** (4 connections) — `ios/App/App/public/assets/web-Twzo1-h-.js`
+- **get()** (3 connections) — `ios/App/App/public/assets/web-Twzo1-h-.js`
+- **migrate()** (3 connections) — `ios/App/App/public/assets/web-Twzo1-h-.js`
+- **rawKeys()** (3 connections) — `ios/App/App/public/assets/web-Twzo1-h-.js`
+- **clear()** (2 connections) — `ios/App/App/public/assets/web-Twzo1-h-.js`
+- **remove()** (2 connections) — `ios/App/App/public/assets/web-Twzo1-h-.js`
+- **removeOld()** (2 connections) — `ios/App/App/public/assets/web-Twzo1-h-.js`
+- **set()** (2 connections) — `ios/App/App/public/assets/web-Twzo1-h-.js`
+- **configure()** (1 connections) — `ios/App/App/public/assets/web-Twzo1-h-.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-Twzo1-h-.js`
+- **impl()** (1 connections) — `ios/App/App/public/assets/web-Twzo1-h-.js`
+- **prefix()** (1 connections) — `ios/App/App/public/assets/web-Twzo1-h-.js`
 
 ## Relationships
 
-- [[Community 54]] (8 shared connections)
-- [[Vercel Deployment Routing]] (7 shared connections)
-- [[Community 35]] (2 shared connections)
-- [[Community 43]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `backend/src/services/commerceClient.js`
+- `ios/App/App/public/assets/web-Twzo1-h-.js`
 
 ## Audit Trail
 
-- EXTRACTED: 79 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

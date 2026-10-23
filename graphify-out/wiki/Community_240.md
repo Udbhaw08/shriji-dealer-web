@@ -1,29 +1,33 @@
 # Community 240
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Gauges** (6 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **gauges.md** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **repository-evidence.test.mjs** (13 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **fixture()** (2 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **git()** (2 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **evidencePayload()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **waitForState()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 59]] (2 shared connections)
+- [[Community 44]] (1 shared connections)
+- [[Community 83]] (1 shared connections)
+- [[Community 125]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/gauges.md`
+- `.agents/skills/archify/test/repository-evidence.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 23 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

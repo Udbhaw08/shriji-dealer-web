@@ -1,12 +1,13 @@
 # Community 419
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **Navigation and presentation** (2 connections) — `.agents/skills/swiftui-pro/references/navigation.md`
-- **navigation.md** (1 connections) — `.agents/skills/swiftui-pro/references/navigation.md`
-- **Alerts, confirmation dialogs, and sheets** (1 connections) — `.agents/skills/swiftui-pro/references/navigation.md`
+- **proof-aperture.test.mjs** (3 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
+- **cssRule()** (1 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
+- **landing** (1 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
 
 ## Relationships
 
@@ -14,11 +15,11 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/navigation.md`
+- `.agents/skills/archify/test/proof-aperture.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

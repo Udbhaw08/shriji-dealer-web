@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Visual Workflow** (6 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **visual-workflow.md** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Generated Assets** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Image Generation Capability** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Three Visual Directions** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Visual QA** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Visual Target Gate** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Pop-up buttons** (5 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
+- **pop-up-buttons.md** (1 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/visual-workflow.md`
+- `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
 
 ## Audit Trail
 

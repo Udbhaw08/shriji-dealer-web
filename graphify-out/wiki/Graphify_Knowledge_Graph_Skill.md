@@ -1,11 +1,11 @@
 # Graphify Knowledge Graph Skill
 
-> 48 nodes · cohesion 0.09
+> 47 nodes · cohesion 0.09
 
 ## Key Concepts
 
 - **session.js** (47 connections) — `src/data/session.js`
-- **Login.jsx** (40 connections) — `src/pages/Login.jsx`
+- **Login.jsx** (41 connections) — `src/pages/Login.jsx`
 - **productsStore.js** (23 connections) — `src/data/productsStore.js`
 - **apiFetch()** (17 connections) — `src/data/api.js`
 - **api.js** (11 connections) — `src/data/api.js`
@@ -29,14 +29,17 @@
 - **loadCachedSession()** (3 connections) — `src/data/session.js`
 - **isValidEmail()** (3 connections) — `src/data/validators.js`
 - **onAuthBroadcast()** (2 connections) — `src/data/auth.js`
-- *... and 23 more nodes in this community*
+- *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [[Community 32]] (33 shared connections)
-- [[Pricing Regression Test Suite]] (32 shared connections)
-- [[Roles & Customer Sharing Spec]] (20 shared connections)
-- [[Community 159]] (1 shared connections)
+- [[Community 40]] (32 shared connections)
+- [[Pricing & Roles Skill]] (19 shared connections)
+- [[Community 39]] (15 shared connections)
+- [[Community 51]] (13 shared connections)
+- [[Community 126]] (5 shared connections)
+- [[Community 290]] (3 shared connections)
+- [[Community 164]] (1 shared connections)
 
 ## Source Files
 

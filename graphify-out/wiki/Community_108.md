@@ -1,42 +1,39 @@
 # Community 108
 
-> 16 nodes · cohesion 0.17
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **commandCompare()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **compareArchitecture()** (12 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **fail()** (8 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundaryIndex()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **equal()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **commitComparePair()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractCompareOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractArchitectureSvg()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **extractArtifactCss()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **presentationChanged()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **requireComparableShape()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **stableIndex()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **compareCommitError()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **compareReceiptPath()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **boundaryKey()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **summaryFor()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **HIG reference lookup** (16 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **hig-lookup.md** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Components › Content** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Components › Layout and organization** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Components › Menus and actions** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Components › Navigation and search** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Components › Presentation** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Components › Selection and input** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Components › Status** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Components › System experiences** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Curated guides** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Foundations** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Getting started** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Inputs** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Pages Apple publishes that are not included** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Patterns** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Technologies** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
 
 ## Relationships
 
-- [[Product Brand & Business Vision]] (20 shared connections)
-- [[Mobile Responsive UI Skill]] (12 shared connections)
-- [[Community 101]] (2 shared connections)
-- [[Community 133]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
-- `.agents/skills/archify/delta/architecture-delta.mjs`
+- `.agents/skills/apple-design/references/hig-lookup.md`
 
 ## Audit Trail
 
-- EXTRACTED: 65 (84%)
-- INFERRED: 12 (16%)
+- EXTRACTED: 32 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

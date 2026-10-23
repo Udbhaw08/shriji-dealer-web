@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Archify Diagram Generation Protocol** (4 connections) — `.agents/rules/archify.md`
-- **archify.md** (1 connections) — `.agents/rules/archify.md`
-- **Rule 1: Dedicated Subfolder Per Diagram** (1 connections) — `.agents/rules/archify.md`
-- **Rule 2: Output Artifacts (HTML & Dark Image Only)** (1 connections) — `.agents/rules/archify.md`
-- **Rule 3: Intermediate File Cleanup** (1 connections) — `.agents/rules/archify.md`
+- **NFC** (4 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
+- **nfc.md** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
+- **Background tag reading** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
+- **In-app tag reading** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/rules/archify.md`
+- `.agents/skills/apple-design/references/hig/nfc.md`
 
 ## Audit Trail
 

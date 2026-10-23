@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **hygiene.md** (1 connections) — `.agents/skills/swiftui-pro/references/hygiene.md`
-- **Hygiene** (1 connections) — `.agents/skills/swiftui-pro/references/hygiene.md`
+- **README.md** (1 connections) — `.agents/skills/archify/brand-marks/README.md`
+- **Built-in brand marks** (1 connections) — `.agents/skills/archify/brand-marks/README.md`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/hygiene.md`
+- `.agents/skills/archify/brand-marks/README.md`
 
 ## Audit Trail
 

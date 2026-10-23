@@ -1,62 +1,70 @@
 # Client Products Data Store
 
-> 57 nodes · cohesion 0.06
+> 51 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **render-architecture.mjs** (122 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **pathFor()** (10 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **routeHonorsEndpointSides()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **variantAccent()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **renderConnectionLabel()** (8 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderLegend()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **routeVia()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **grid.mjs** (6 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **alignFacingPorts()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **buildLayoutReport()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **layoutBoundaryTitles()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **sideAwareBridgeCandidates()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **relationshipLegendObstacles()** (5 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **resolveComponentPos()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **validateGridPlacement()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **boundaryLabelWidth()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **componentContext()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **measureBoundaryTitle()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **resolveBoundaryTitles()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **routeClearsComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **routeClearsEndpointComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **minimumReadableSourceTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **layout-report.mjs** (4 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
-- **grid.test.mjs** (4 connections) — `.agents/skills/archify/test/grid.test.mjs`
-- **gridLayout()** (3 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- *... and 32 more nodes in this community*
+- **sql** (67 connections) — `backend/src/db/pool.js`
+- **dealers.js** (36 connections) — `backend/src/routes/dealers.js`
+- **pool.js** (30 connections) — `backend/src/db/pool.js`
+- **staff.js** (23 connections) — `backend/src/services/staff.js`
+- **audit()** (17 connections) — `backend/src/utils/audit.js`
+- **auth.js** (8 connections) — `backend/src/middleware/auth.js`
+- **audit.js** (7 connections) — `backend/src/utils/audit.js`
+- **prices.js** (6 connections) — `backend/src/routes/prices.js`
+- **sync-supabase-content.js** (6 connections) — `backend/scripts/sync-supabase-content.js`
+- **applyDealer()** (6 connections) — `backend/src/services/dealerApp.js`
+- **createInvite()** (6 connections) — `backend/src/services/staff.js`
+- **sha256()** (6 connections) — `backend/src/utils/hash.js`
+- **upload.js** (5 connections) — `api/upload.js`
+- **jwtAuth()** (5 connections) — `backend/src/middleware/auth.js`
+- **seed-content.js** (4 connections) — `backend/scripts/seed-content.js`
+- **deactivateDealer()** (4 connections) — `backend/src/services/dealerApp.js`
+- **approveStaff()** (4 connections) — `backend/src/services/staff.js`
+- **deleteStaff()** (4 connections) — `backend/src/services/staff.js`
+- **holdStaff()** (4 connections) — `backend/src/services/staff.js`
+- **resumeStaff()** (4 connections) — `backend/src/services/staff.js`
+- **revokeStaff()** (4 connections) — `backend/src/services/staff.js`
+- **toggleAllStaffPrice()** (4 connections) — `backend/src/services/staff.js`
+- **toggleStaffPrice()** (4 connections) — `backend/src/services/staff.js`
+- **requireApprovedDealer()** (3 connections) — `backend/src/middleware/auth.js`
+- **inspect-db.js** (3 connections) — `backend/scripts/inspect-db.js`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [[Design System & UI Tokens]] (44 shared connections)
-- [[Pricing & Roles Skill]] (22 shared connections)
-- [[Community 53]] (12 shared connections)
-- [[Community 63]] (11 shared connections)
-- [[Community 82]] (10 shared connections)
-- [[Community 47]] (8 shared connections)
-- [[Zoho Integration Architecture]] (5 shared connections)
-- [[Community 156]] (3 shared connections)
-- [[Zoho API Diagnostic Script]] (1 shared connections)
+- [[Community 46]] (31 shared connections)
+- [[Community 45]] (17 shared connections)
+- [[Community 73]] (17 shared connections)
+- [[Price Presentation & Product UI]] (11 shared connections)
+- [[Community 81]] (11 shared connections)
+- [[Community 110]] (5 shared connections)
+- [[Community 135]] (4 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/grid.mjs`
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/layout-report.mjs`
-- `.agents/skills/archify/renderers/shared/legend.mjs`
-- `.agents/skills/archify/test/grid.test.mjs`
+- `api/upload.js`
+- `backend/scripts/check-readiness.js`
+- `backend/scripts/inspect-db.js`
+- `backend/scripts/migrate-content.js`
+- `backend/scripts/seed-content.js`
+- `backend/scripts/setup-buckets.js`
+- `backend/scripts/setup-policies.js`
+- `backend/scripts/sync-supabase-content.js`
+- `backend/scripts/test-storage.js`
+- `backend/src/db/pool.js`
+- `backend/src/middleware/auth.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/routes/prices.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/services/staff.js`
+- `backend/src/utils/audit.js`
+- `backend/src/utils/hash.js`
 
 ## Audit Trail
 
-- EXTRACTED: 299 (100%)
-- INFERRED: 1 (0%)
+- EXTRACTED: 313 (99%)
+- INFERRED: 3 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -645,8 +645,9 @@ function normalizeProduct(p, livePricebookRates = {}) {
         : "";
       const text = (textField?.value || textField?.value_formatted || "").trim();
 
-      // Only include tile if image or text exists (omit empty fields)
-      if (imgUrl || text) {
+      // Only include tile if image or text exists and not a placeholder
+      const lowerText = text.toLowerCase();
+      if ((imgUrl || text) && lowerText !== "test" && lowerText !== "null") {
         tileIcons.push({
           index: i,
           image: imgUrl,
@@ -657,7 +658,7 @@ function normalizeProduct(p, livePricebookRates = {}) {
     }
   }
 
-  // 2. Named custom fields
+  // 2. Named & dynamic custom fields
   const getCfValue = (fieldKey) => {
     const f = rawCustomFields.find(
       (c) => c.api_name === fieldKey || c.label?.toLowerCase() === fieldKey.toLowerCase()
@@ -668,6 +669,28 @@ function normalizeProduct(p, livePricebookRates = {}) {
   const warranty = getCfValue("cf_warranty") || getCfValue("warranty");
   const keyFeatures = getCfValue("cf_key_features") || getCfValue("key features");
   const overview = getCfValue("cf_overview") || getCfValue("overview");
+
+  // Dynamic extra custom fields from Zoho
+  const extraFields = [];
+  for (const cf of rawCustomFields) {
+    const apiName = (cf.api_name || "").toLowerCase();
+    const label = (cf.label || cf.api_name || "").trim();
+    const lowerLabel = label.toLowerCase();
+    if (
+      apiName.startsWith("cf_tile_icon_") ||
+      lowerLabel.startsWith("tile icon ") ||
+      apiName === "cf_warranty" || lowerLabel === "warranty" ||
+      apiName === "cf_key_features" || lowerLabel === "key features" ||
+      apiName === "cf_overview" || lowerLabel === "overview"
+    ) {
+      continue;
+    }
+    const val = (cf.value_formatted || cf.value || "").trim();
+    const lowerVal = val.toLowerCase();
+    if (val && lowerVal !== "null" && lowerVal !== "undefined" && lowerVal !== "test") {
+      extraFields.push({ label, value: val, key: cf.api_name || label });
+    }
+  }
 
   // 3. Specifications (grouped by specification_group_name)
   const rawSpecs = Array.isArray(p.specifications) ? p.specifications : [];
@@ -681,17 +704,31 @@ function normalizeProduct(p, livePricebookRates = {}) {
     .filter((s) => s.name && s.value);
 
   // 4. Description & Embedded Videos
+  const stripHtmlToText = (html) => {
+    if (!html || typeof html !== "string") return "";
+    return html.replace(/<[^>]*>/g, "").replace(/&nbsp;/gi, " ").trim();
+  };
+
   const rawDesc = (p.description || "").trim();
   const productDesc = (p.product_description || "").trim();
-  const description = rawDesc || productDesc;
+  const cleanRawDesc = stripHtmlToText(rawDesc) ? rawDesc : "";
+  const cleanProductDesc = stripHtmlToText(productDesc) ? productDesc : "";
+  const description = cleanRawDesc || cleanProductDesc || "";
 
   const videos = [];
-  const iframeRegex = /src=["']([^"']*(?:youtube\.com|youtu\.be)[^"']*)["']/gi;
+  const iframeRegex = /(?:src=["']|href=["']|\b)(https?:\/\/(?:www\.)?(?:youtube\.com\/(?:watch\?v=|embed\/)|youtu\.be\/)[a-zA-Z0-9_-]+)/gi;
+  const combinedContent = `${productDesc} ${rawDesc}`;
   let vMatch;
-  while ((vMatch = iframeRegex.exec(productDesc)) !== null) {
+  while ((vMatch = iframeRegex.exec(combinedContent)) !== null) {
     let vUrl = vMatch[1];
-    if (vUrl.startsWith("//")) vUrl = "https:" + vUrl;
-    if (!videos.includes(vUrl)) videos.push(vUrl);
+    if (vUrl.includes("watch?v=")) {
+      const vId = vUrl.split("watch?v=")[1]?.split("&")[0];
+      if (vId) vUrl = `https://www.youtube.com/embed/${vId}`;
+    } else if (vUrl.includes("youtu.be/")) {
+      const vId = vUrl.split("youtu.be/")[1]?.split("?")[0];
+      if (vId) vUrl = `https://www.youtube.com/embed/${vId}`;
+    }
+    if (vUrl && !videos.includes(vUrl)) videos.push(vUrl);
   }
 
   // Live dealer rate directly from Zoho Commerce Pricebook API
@@ -731,13 +768,14 @@ function normalizeProduct(p, livePricebookRates = {}) {
     img,
     images: images.length ? images : (img ? [img] : []),
     description,
-    productDescriptionHtml: productDesc,
+    productDescriptionHtml: cleanProductDesc,
     tileIcons,
     customFields: {
       warranty,
       keyFeatures,
       overview,
     },
+    extraFields,
     specifications,
     videos,
     status: p.status || "active",

@@ -1,24 +1,24 @@
 # Community 421
 
-> 3 nodes · cohesion 0.67
+> 3 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **9. Line Length (Measure)** (3 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Guidelines** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Implementation** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **MainActivity.java** (2 connections) — `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
+- **MainActivity** (2 connections) — `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
+- **BridgeActivity** (2 connections)
 
 ## Relationships
 
-- [[Community 220]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

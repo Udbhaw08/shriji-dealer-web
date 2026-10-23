@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Sequence Renderer** (5 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **Layout budget** (2 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **README.md** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **Column fit** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **Input** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **Legend** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **Searching** (6 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **searching.md** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **Systemwide search** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/sequence/README.md`
+- `.agents/skills/apple-design/references/hig/searching.md`
 
 ## Audit Trail
 

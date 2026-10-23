@@ -1,51 +1,50 @@
 # Community 71
 
-> 23 nodes · cohesion 0.13
+> 23 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **gl()** (23 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **oa()** (14 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **ye()** (13 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **l()** (11 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **Sp()** (9 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **To()** (7 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **dl()** (5 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **fl()** (5 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **hm()** (5 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **kl()** (5 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **ma()** (5 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **vl()** (5 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **pl()** (4 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **dm()** (3 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **Hd()** (3 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **ml()** (3 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **nl()** (3 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **pp()** (3 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **Ym()** (3 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **de()** (2 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **hl()** (2 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **ul()** (2 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **Wf()** (2 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **pull-hig.mjs** (65 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **crawlSection()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **fetchPageJson()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **abstractOf()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **anchorEntries()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **anchorMapFor()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **listedPages()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **plainText()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **ALL_PLATFORMS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **cellText()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **collectReferences()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **CURATED_FILES** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **DESIGNING_FOR_COVERAGE** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **DROPPED_PLATFORMS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **githubSlug()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **IMAGE_GLYPHS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **KEPT_PLATFORMS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **OMITTED_PAGES** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **PLATFORM_LIST_RE** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **PLATFORM_NAMES** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **platformsOf()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **REPO_ROOT** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **SECTIONS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (27 shared connections)
-- [[Dependencies & Package Config]] (12 shared connections)
-- [[Master Codebase Architecture Reference]] (12 shared connections)
-- [[Community 37]] (6 shared connections)
-- [[Zoho Integration Skill]] (6 shared connections)
-- [[Community 42]] (5 shared connections)
-- [[Community 60]] (3 shared connections)
+- [[Community 197]] (10 shared connections)
+- [[Community 198]] (10 shared connections)
+- [[Community 231]] (9 shared connections)
+- [[Community 267]] (8 shared connections)
+- [[Community 350]] (6 shared connections)
+- [[Community 239]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 137 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 95 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

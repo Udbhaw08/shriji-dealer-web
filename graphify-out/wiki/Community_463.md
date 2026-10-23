@@ -1,10 +1,11 @@
 # Community 463
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **capacitor.settings.gradle** (0 connections) — `android/capacitor.settings.gradle`
+- **test-supabase.mjs** (1 connections) — `scripts/test-supabase.mjs`
+- **test()** (1 connections) — `scripts/test-supabase.mjs`
 
 ## Relationships
 
@@ -12,11 +13,11 @@
 
 ## Source Files
 
-- `android/capacitor.settings.gradle`
+- `scripts/test-supabase.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

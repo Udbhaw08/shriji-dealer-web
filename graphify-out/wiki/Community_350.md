@@ -1,27 +1,30 @@
 # Community 350
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **CLAUDE.md — read this before touching anything** (4 connections) — `CLAUDE.md`
-- **CLAUDE.md** (1 connections) — `CLAUDE.md`
-- **Commands** (1 connections) — `CLAUDE.md`
-- **Doc map** (1 connections) — `CLAUDE.md`
-- **Hard rules (these exist to stop hallucination)** (1 connections) — `CLAUDE.md`
+- **main()** (7 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **pruneStaleFiles()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **uniqueBySlug()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **generatedFiles()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **mapWithConcurrency()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **parseArgs()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 71]] (6 shared connections)
+- [[Community 231]] (2 shared connections)
+- [[Community 239]] (1 shared connections)
 
 ## Source Files
 
-- `CLAUDE.md`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 18 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

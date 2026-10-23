@@ -1,30 +1,32 @@
 # Community 239
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **Game controls** (7 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **game-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **Keyboards** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **Physical controllers** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **Touch controls** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **release-identity.test.mjs** (8 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **writeFile()** (5 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **stableUpdateManifest()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **writeValidDevelopmentFixture()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **writeValidStableFixture()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **checker** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **runCheck()** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 71]] (1 shared connections)
+- [[Community 350]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/game-controls.md`
+- `.agents/skills/archify/test/release-identity.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 24 (92%)
+- INFERRED: 2 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

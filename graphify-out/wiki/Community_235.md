@@ -1,32 +1,30 @@
 # Community 235
 
-> 9 nodes · cohesion 0.33
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **viewer-camera-browser.test.mjs** (11 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **run()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **stable()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **viewport()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **screenshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **authored-reachability.test.mjs** (8 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **reachabilityFunction()** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
 
 ## Relationships
 
-- [[Community 31]] (5 shared connections)
-- [[Community 51]] (1 shared connections)
-- [[Community 141]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- `.agents/skills/archify/test/authored-reachability.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

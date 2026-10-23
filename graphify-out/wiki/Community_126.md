@@ -1,44 +1,44 @@
 # Community 126
 
-> 14 nodes · cohesion 0.30
+> 14 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **workflow-v2.mjs** (21 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **migrateWorkflowDocument()** (15 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **compileWorkflow()** (13 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **clone()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **legacyLayoutProbe()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **legacyRequirementProbe()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **expandableViewBox()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **requiredViewBoxFrom()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **schemaDiagnostics()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **workflow-semantic-contract.test.mjs** (3 connections) — `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
-- **diagnostic()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **result()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **serializeMigratedWorkflow()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **document()** (1 connections) — `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
+- **Products.jsx** (25 connections) — `src/pages/Products.jsx`
+- **ProductSearchBar.jsx** (15 connections) — `src/components/ProductSearchBar.jsx`
+- **useProducts()** (12 connections) — `src/data/productsStore.js`
+- **searchHelper.js** (11 connections) — `src/data/searchHelper.js`
+- **ProductSearchBar()** (6 connections) — `src/components/ProductSearchBar.jsx`
+- **getSuggestions()** (5 connections) — `src/data/searchHelper.js`
+- **autocorrectQuery()** (4 connections) — `src/data/searchHelper.js`
+- **buildSearchDictionary()** (4 connections) — `src/data/searchHelper.js`
+- **getPopularSearches()** (2 connections) — `src/data/searchHelper.js`
+- **scoreProduct()** (2 connections) — `src/data/searchHelper.js`
+- **COLLOQUIAL_SYNONYMS** (1 connections) — `src/data/searchHelper.js`
+- **levenshteinDistance()** (1 connections) — `src/data/searchHelper.js`
+- **Group()** (1 connections) — `src/pages/Products.jsx`
+- **SORT_FNS** (1 connections) — `src/pages/Products.jsx`
 
 ## Relationships
 
-- [[Community 280]] (8 shared connections)
-- [[Zoho Integration Architecture]] (4 shared connections)
-- [[Community 63]] (4 shared connections)
-- [[Mobile Responsive UI Skill]] (3 shared connections)
-- [[Community 132]] (3 shared connections)
-- [[Community 140]] (2 shared connections)
-- [[Community 59]] (2 shared connections)
+- [[Community 39]] (12 shared connections)
+- [[Community 51]] (11 shared connections)
+- [[Pricing & Roles Skill]] (7 shared connections)
+- [[Graphify Knowledge Graph Skill]] (5 shared connections)
+- [[Community 164]] (2 shared connections)
+- [[Community 163]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/migrations/workflow-v2.mjs`
-- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
+- `src/components/ProductSearchBar.jsx`
+- `src/data/productsStore.js`
+- `src/data/searchHelper.js`
+- `src/pages/Products.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 90 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **render-examples.mjs** (4 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
-- **outputRoot** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
-- **TARGETS** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
+- **Performance** (4 connections) — `.agents/skills/swiftui-pro/references/performance.md`
+- **performance.md** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
+- **Collections and row updates** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
+- **Frequent changes** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
+- **Remote images** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/render-examples.mjs`
+- `.agents/skills/swiftui-pro/references/performance.md`
 
 ## Audit Trail
 

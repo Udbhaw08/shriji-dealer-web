@@ -4,27 +4,27 @@
 
 ## Key Concepts
 
-- **8. Letter Spacing (Tracking)** (9 connections) — `.agents/skills/refero-design/references/typography.md`
-- **ALL CAPS Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **CSS Tokens** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Pre-Implementation Checklist** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Quick Reference** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Small Text Rule — Often Forgotten** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Units** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **When to Tighten** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Why It Matters** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Siri** (7 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Getting your app to work with Siri** (2 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **siri.md** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Customizing your app’s experience with Siri** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Editorial guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Sharing contextual information** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
 
 ## Relationships
 
-- [[Community 220]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/apple-design/references/hig/siri.md`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

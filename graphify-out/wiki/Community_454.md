@@ -4,20 +4,20 @@
 
 ## Key Concepts
 
-- **step** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **.mcp.json** (1 connections) — `.mcp.json`
+- **supabase** (1 connections) — `.mcp.json`
 
 ## Relationships
 
-- [[Testing & Workflow Skill]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `.mcp.json`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

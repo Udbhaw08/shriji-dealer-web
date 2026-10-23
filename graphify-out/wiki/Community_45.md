@@ -1,47 +1,63 @@
 # Community 45
 
-> 34 nodes · cohesion 0.06
+> 31 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **Typography** (10 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **iOS, iPadOS Dynamic Type sizes** (8 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **iOS, iPadOS larger accessibility type sizes** (6 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Specifications** (5 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **iOS, iPadOS, visionOS tracking values** (4 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Tracking values** (3 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **typography.md** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX1** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX2** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX3** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX4** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX5** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Conveying hierarchy** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Ensuring legibility** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Large (default)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **macOS built-in text styles** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **macOS tracking values** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Medium** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **New York** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **SF Pro** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- *... and 9 more nodes in this community*
+- **server.js** (37 connections) — `backend/src/server.js`
+- **health.js** (8 connections) — `backend/src/routes/health.js`
+- **errorHandler.js** (7 connections) — `backend/src/middleware/errorHandler.js`
+- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
+- **upload.js** (5 connections) — `backend/src/routes/upload.js`
+- **uploads.js** (5 connections) — `backend/src/routes/uploads.js`
+- **migrate()** (4 connections) — `backend/src/db/migrate.js`
+- **rateLimit.js** (4 connections) — `backend/src/middleware/rateLimit.js`
+- **applied()** (3 connections) — `backend/src/db/migrate.js`
+- **startJobs()** (3 connections) — `backend/src/jobs/index.js`
+- **httpError()** (3 connections) — `backend/src/middleware/errorHandler.js`
+- **rateLimit()** (3 connections) — `backend/src/middleware/rateLimit.js`
+- **start()** (3 connections) — `backend/src/server.js`
+- **errorHandler()** (2 connections) — `backend/src/middleware/errorHandler.js`
+- **authRouter** (2 connections) — `backend/src/routes/auth.js`
+- **contentRouter** (2 connections) — `backend/src/routes/content.js`
+- **dealersRouter** (2 connections) — `backend/src/routes/dealers.js`
+- **healthRouter** (2 connections) — `backend/src/routes/health.js`
+- **uploadRouter** (2 connections) — `backend/src/routes/upload.js`
+- **uploadsRouter** (2 connections) — `backend/src/routes/uploads.js`
+- **webhooksRouter** (2 connections) — `backend/src/routes/webhooks.js`
+- **dir** (1 connections) — `backend/src/db/migrate.js`
+- **buckets** (1 connections) — `backend/src/middleware/rateLimit.js`
+- **ALLOWED_FOLDERS** (1 connections) — `backend/src/routes/upload.js`
+- **MIME_TYPES** (1 connections) — `backend/src/routes/uploads.js`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Client Products Data Store]] (17 shared connections)
+- [[Community 73]] (8 shared connections)
+- [[Community 46]] (8 shared connections)
+- [[Price Presentation & Product UI]] (2 shared connections)
+- [[Community 135]] (2 shared connections)
+- [[Community 110]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/typography.md`
+- `backend/src/db/migrate.js`
+- `backend/src/jobs/index.js`
+- `backend/src/middleware/errorHandler.js`
+- `backend/src/middleware/rateLimit.js`
+- `backend/src/routes/auth.js`
+- `backend/src/routes/content.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/routes/health.js`
+- `backend/src/routes/upload.js`
+- `backend/src/routes/uploads.js`
+- `backend/src/routes/webhooks.js`
+- `backend/src/server.js`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (100%)
+- EXTRACTED: 117 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

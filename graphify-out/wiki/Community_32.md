@@ -1,50 +1,54 @@
 # Community 32
 
-> 39 nodes · cohesion 0.15
+> 38 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **auth.js** (40 connections) — `src/data/auth.js`
-- **callBackend()** (24 connections) — `src/data/auth.js`
-- **json()** (24 connections) — `src/data/auth.js`
-- **DealerDashboard.jsx** (22 connections) — `src/pages/DealerDashboard.jsx`
-- **broadcastAuthChange()** (10 connections) — `src/data/auth.js`
-- **loginCode.js** (8 connections) — `src/data/loginCode.js`
-- **applyAuthResponse()** (6 connections) — `src/data/auth.js`
-- **logout()** (6 connections) — `src/data/auth.js`
-- **fetchMe()** (5 connections) — `src/data/auth.js`
-- **googleLogin()** (5 connections) — `src/data/auth.js`
-- **login()** (5 connections) — `src/data/auth.js`
-- **signup()** (5 connections) — `src/data/auth.js`
-- **staffTogglePrice()** (5 connections) — `src/data/auth.js`
-- **staffTogglePriceAll()** (5 connections) — `src/data/auth.js`
-- **verifyEmailOtp()** (5 connections) — `src/data/auth.js`
-- **applyAsDealer()** (4 connections) — `src/data/auth.js`
-- **lookupStaffCode()** (4 connections) — `src/data/auth.js`
-- **persistTokens()** (4 connections) — `src/data/auth.js`
-- **requestEmailOtp()** (4 connections) — `src/data/auth.js`
-- **staffApprove()** (4 connections) — `src/data/auth.js`
-- **staffDeactivate()** (4 connections) — `src/data/auth.js`
-- **staffDelete** (4 connections) — `src/data/auth.js`
-- **staffHold()** (4 connections) — `src/data/auth.js`
-- **staffInvite()** (4 connections) — `src/data/auth.js`
-- **staffList()** (4 connections) — `src/data/auth.js`
-- *... and 14 more nodes in this community*
+- **O()** (20 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **ut()** (19 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **M()** (13 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **lt()** (12 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **pt()** (12 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **k()** (11 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **vt()** (11 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **ba()** (10 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **gt()** (9 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **mt()** (9 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **we()** (9 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **ct()** (8 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **ee()** (8 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **en()** (8 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **ft()** (8 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **ln()** (8 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **In()** (7 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **Ld()** (7 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **an()** (6 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **hf()** (6 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **ie()** (6 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **te()** (6 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **Zt()** (6 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **ae()** (4 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- **ge()** (4 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [[Graphify Knowledge Graph Skill]] (33 shared connections)
-- [[Pricing Regression Test Suite]] (5 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (48 shared connections)
+- [[Dependencies & Package Config]] (20 shared connections)
+- [[Live Pricing Audit Tool]] (14 shared connections)
+- [[Master Codebase Architecture Reference]] (11 shared connections)
+- [[Community 36]] (10 shared connections)
+- [[Community 62]] (7 shared connections)
+- [[Community 29]] (3 shared connections)
+- [[Community 77]] (3 shared connections)
 
 ## Source Files
 
-- `src/data/auth.js`
-- `src/data/loginCode.js`
-- `src/pages/DealerDashboard.jsx`
+- `ios/App/App/public/assets/index-2OxP_Ib6.js`
 
 ## Audit Trail
 
-- EXTRACTED: 256 (100%)
+- EXTRACTED: 264 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

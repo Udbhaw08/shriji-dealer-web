@@ -1,9 +1,133 @@
 import { sql } from '../db/pool.js';
 import { log } from '../utils/logger.js';
 import { env } from '../config/env.js';
+import { normalizePhone } from '../utils/phone.js';
+import { isValidPhone } from '../utils/validators.js';
 import { Resend } from 'resend';
 
 const resend = env.resendApiKey ? new Resend(env.resendApiKey) : null;
+
+/**
+ * Dispatch an OTP via Meta WhatsApp Cloud API using an approved Authentication template.
+ *
+ * Requirements:
+ * - Does not downgrade to free-form text or hello_world.
+ * - Does not guess template components on failure.
+ * - Returns success ONLY after Meta accepts the message and returns a message ID.
+ * - Redacts OTPs, tokens, and recipient digits in logs.
+ */
+export async function sendWhatsAppOtp({ phone, code }) {
+  const cleanPhone = phone ? String(phone).trim() : '';
+  const norm = normalizePhone(cleanPhone);
+  if (!isValidPhone(cleanPhone) || !norm.nationalNumber) {
+    throw Object.assign(new Error('Please enter a valid 10-digit Indian mobile number'), { statusCode: 400 });
+  }
+
+  const { token, phoneId, templateName, templateLang, graphApiVersion, templateHasButton } = env.whatsapp || {};
+
+  if (!token || !phoneId) {
+    log.error('[notify:whatsapp] WhatsApp Cloud API credentials missing (WHATSAPP_TOKEN, WHATSAPP_PHONE_ID)');
+    throw Object.assign(new Error('WhatsApp messaging service is not configured. Please contact support.'), { statusCode: 503 });
+  }
+
+  // Meta recipient phone format: country code without leading '+' e.g. 919876543210
+  const recipientPhone = `91${norm.nationalNumber}`;
+  const tName = templateName || 'otp';
+  const tLang = templateLang || 'en_US';
+  const version = graphApiVersion || 'v21.0';
+
+  const components = [
+    {
+      type: 'body',
+      parameters: [{ type: 'text', text: String(code) }],
+    },
+  ];
+
+  if (templateHasButton !== false) {
+    components.push({
+      type: 'button',
+      sub_type: 'url',
+      index: '0',
+      parameters: [{ type: 'text', text: String(code) }],
+    });
+  }
+
+  const payload = {
+    messaging_product: 'whatsapp',
+    to: recipientPhone,
+    type: 'template',
+    template: {
+      name: tName,
+      language: { code: tLang },
+      components,
+    },
+  };
+
+  const endpoint = `https://graph.facebook.com/${version}/${phoneId}/messages`;
+
+  let response;
+  try {
+    response = await fetch(endpoint, {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${token}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(payload),
+    });
+  } catch (netErr) {
+    log.error('[notify:whatsapp] Network error communicating with Meta Graph API:', netErr.message);
+    throw Object.assign(new Error('Unable to reach WhatsApp messaging server. Please try again.'), { statusCode: 502 });
+  }
+
+  const data = await response.json().catch(() => null);
+
+  if (!response.ok || !data?.messages?.[0]?.id) {
+    const status = response.status;
+    const errorCode = data?.error?.code;
+    const errorSubcode = data?.error?.error_subcode;
+    const errorMessage = data?.error?.message || 'Unknown error';
+
+    log.warn(`[notify:whatsapp] Meta API rejected message (HTTP ${status}, code: ${errorCode || 'none'}, subcode: ${errorSubcode || 'none'}): ${errorMessage}`);
+
+    let userMsg = 'Could not deliver WhatsApp verification code. Please check your number or try again later.';
+    if (errorCode === 131030) {
+      userMsg = 'This phone number is not permitted in sandbox testing or not registered on WhatsApp.';
+    } else if (errorCode === 132001) {
+      userMsg = 'WhatsApp message template is unavailable or undergoing review.';
+    } else if (errorCode === 190) {
+      userMsg = 'WhatsApp service authorization is invalid or expired. Please contact support.';
+    }
+
+    throw Object.assign(new Error(userMsg), {
+      statusCode: 502,
+      metaCode: errorCode,
+      publicMessage: userMsg,
+    });
+  }
+
+  const messageId = data.messages[0].id;
+  log.info(`[notify:whatsapp] Meta accepted OTP message for destination 91******${norm.nationalNumber.slice(-4)} (wamid: ${messageId})`);
+
+  return {
+    provider: 'whatsapp',
+    accepted: true,
+    messageId,
+  };
+}
+
+/**
+ * Universal OTP notification dispatcher.
+ */
+export async function sendOtpNotification({ phone, email, code }) {
+  if (phone) {
+    return sendWhatsAppOtp({ phone, code });
+  }
+  if (email) {
+    return sendEmailOtp({ email, code });
+  }
+  throw Object.assign(new Error('Either phone or email destination is required for OTP delivery'), { statusCode: 400 });
+}
 
 export async function sendEmailOtp({ email, code }) {
   if (!resend) throw new Error('Email OTP is not configured. Set RESEND_API_KEY.');
@@ -21,6 +145,7 @@ export async function sendEmailOtp({ email, code }) {
     throw new Error('Could not send the email verification code. Please retry.');
   }
 }
+
 
 export async function notify(userId, channel, template, data = {}) {
   const rows = await sql`select email from users where id = ${userId}`;

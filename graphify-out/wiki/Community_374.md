@@ -1,14 +1,14 @@
 # Community 374
 
-> 5 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **export_pricebooks_for_crm.mjs** (4 connections) — `scripts/export_pricebooks_for_crm.mjs`
-- **getAccessToken()** (2 connections) — `scripts/export_pricebooks_for_crm.mjs`
-- **main()** (2 connections) — `scripts/export_pricebooks_for_crm.mjs`
-- **env** (1 connections) — `scripts/export_pricebooks_for_crm.mjs`
-- **getMergedEnv()** (1 connections) — `scripts/export_pricebooks_for_crm.mjs`
+- **Shriji Domestic Appliances — Sunshine Dealer Web** (4 connections) — `README.md`
+- **README.md** (1 connections) — `README.md`
+- **Documentation** (1 connections) — `README.md`
+- **Layout** (1 connections) — `README.md`
+- **Two things to know before you change anything** (1 connections) — `README.md`
 
 ## Relationships
 
@@ -16,11 +16,11 @@
 
 ## Source Files
 
-- `scripts/export_pricebooks_for_crm.mjs`
+- `README.md`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

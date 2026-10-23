@@ -1,54 +1,55 @@
 # Zoho Integration Skill
 
-> 44 nodes · cohesion 0.08
+> 44 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **O()** (20 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **ut()** (18 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **M()** (13 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **lt()** (12 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **pt()** (12 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **k()** (11 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **yh()** (10 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **gt()** (9 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **mt()** (9 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **ot()** (9 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **we()** (9 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **ct()** (8 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **ee()** (8 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **en()** (8 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **ft()** (8 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **gf()** (7 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **In()** (7 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **Tn()** (7 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **ie()** (6 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **Zt()** (6 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **ff()** (5 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **Kt()** (5 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **ae()** (4 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **at()** (4 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **dt()** (4 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- **properties** (33 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **fromCol** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **toCol** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **label** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **brand** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **channelX** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **channelY** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **fromSide** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **labelAt** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **labelDx** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **labelDy** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **lane** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **role** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **route** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **sublabel** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **tag** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **toSide** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **yOffset** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **maximum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 - *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (58 shared connections)
-- [[Dependencies & Package Config]] (21 shared connections)
-- [[Master Codebase Architecture Reference]] (13 shared connections)
-- [[Community 38]] (11 shared connections)
-- [[Community 37]] (8 shared connections)
-- [[Community 71]] (6 shared connections)
-- [[Community 60]] (5 shared connections)
-- [[Community 42]] (3 shared connections)
+- [[Community 133]] (5 shared connections)
+- [[Community 95]] (2 shared connections)
+- [[Community 409]] (1 shared connections)
+- [[Community 410]] (1 shared connections)
+- [[Community 441]] (1 shared connections)
+- [[Community 442]] (1 shared connections)
+- [[Community 443]] (1 shared connections)
+- [[Community 79]] (1 shared connections)
+- [[Community 444]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 275 (100%)
+- EXTRACTED: 100 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

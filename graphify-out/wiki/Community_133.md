@@ -1,36 +1,36 @@
 # Community 133
 
-> 13 nodes · cohesion 0.15
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **architecture-delta.test.mjs** (16 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **ArchitectureDeltaError** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **.constructor()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **baseFixture** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **checkedArtifact** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **checkedReceipt** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **headFixture** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **read()** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **required** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **edges** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **groups** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **phases** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- [[Product Brand & Business Vision]] (5 shared connections)
-- [[Community 108]] (1 shared connections)
+- [[Zoho Integration Skill]] (5 shared connections)
+- [[Community 80]] (5 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
-- `.agents/skills/archify/test/architecture-delta.test.mjs`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
+- EXTRACTED: 52 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

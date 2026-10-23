@@ -1,53 +1,49 @@
 # Mobile Responsive UI Skill
 
-> 45 nodes · cohesion 0.14
+> 45 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **archify.mjs** (50 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandDeliver()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandMigrate()** (17 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **fail()** (15 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandValidate()** (13 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **usage()** (11 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandRender()** (10 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandPreview()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **diagnostic()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rendererPath()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **runNode()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **renderValidatedArchitecture()** (8 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractQualityArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractRepoRootArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rejectCliArgument()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **assertEvidenceType()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **checkerDiagnostics()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandDemo()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **exitFrom()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rendererEnv()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rendererFailure()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandExamples()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandVisualCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportArtifactFailure()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **generated-validators.mjs** (41 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **func3()** (11 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **generate-validators.test.mjs** (5 connections) — `.agents/skills/archify/test/generate-validators.test.mjs`
+- **validate20()** (4 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate22()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate27()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate28()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate30()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate31()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate33()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate34()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate36()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate37()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate24()** (2 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern17** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern18** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern20** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern4** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern57** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema112** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema116** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema118** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema149** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema31** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema33** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
 - *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [[Community 108]] (12 shared connections)
-- [[Community 30]] (4 shared connections)
-- [[Community 101]] (4 shared connections)
-- [[Community 126]] (3 shared connections)
-- [[Zoho API Diagnostic Script]] (2 shared connections)
-- [[Community 51]] (2 shared connections)
+- [[Zoho Integration Architecture]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
+- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- `.agents/skills/archify/test/generate-validators.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 296 (98%)
-- INFERRED: 7 (2%)
+- EXTRACTED: 121 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,23 +4,22 @@
 
 ## Key Concepts
 
-- **meta** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **3. Font Pairing** (4 connections) — `.agents/skills/refero-design/references/typography.md`
+- **If You Must Pair** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Safe Font Choices by Product Type** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **The One-Font Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- [[Community 92]] (1 shared connections)
-- [[Community 69]] (1 shared connections)
+- [[Community 226]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/sequence.schema.json`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

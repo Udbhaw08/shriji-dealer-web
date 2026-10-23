@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Writing** (6 connections) — `.agents/skills/apple-design/references/hig/writing.md`
-- **writing.md** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
-- **Getting started** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **Managing notifications** (6 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **managing-notifications.md** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **Integrating with Focus** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **Sending marketing notifications** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/writing.md`
+- `.agents/skills/apple-design/references/hig/managing-notifications.md`
 
 ## Audit Trail
 

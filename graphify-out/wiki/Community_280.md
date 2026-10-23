@@ -1,34 +1,30 @@
 # Community 280
 
-> 8 nodes · cohesion 0.43
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **workflow-migration-geometry.mjs** (10 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **createMappedWorkflowCandidate()** (9 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **intrinsicWorkflow()** (8 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **planningWorkflow()** (7 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **createHorizontalRankMapper()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **clone()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **mapExplicitCoordinates()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **mappedNumber()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **share-card-export.test.mjs** (7 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **svgBlock()** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
 
 ## Relationships
 
-- [[Community 126]] (8 shared connections)
-- [[Community 132]] (5 shared connections)
-- [[Community 63]] (4 shared connections)
-- [[Design System & UI Tokens]] (3 shared connections)
-- [[Community 31]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- `.agents/skills/archify/test/share-card-export.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 14 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

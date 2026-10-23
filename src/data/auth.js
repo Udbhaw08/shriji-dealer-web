@@ -210,6 +210,17 @@ const json = (body) => ({ method: "POST", body: JSON.stringify(body) });
 
 /* ---- Auth API ---- */
 
+export async function requestOtp(phone) {
+  const res = await callBackend("/api/auth/otp/request", json({ phone }));
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.error || "Could not send verification code");
+  return data;
+}
+
+export async function verifyOtp(phone, code) {
+  return applyAuthResponse(await callBackend("/api/auth/otp/verify", json({ phone, code })));
+}
+
 export async function signup(payload) {
   return applyAuthResponse(await callBackend("/api/auth/signup", json(payload)));
 }

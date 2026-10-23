@@ -1,33 +1,33 @@
 # Community 158
 
-> 11 nodes · cohesion 0.29
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **favoritesStore.js** (18 connections) — `src/data/favoritesStore.js`
-- **persist()** (5 connections) — `src/data/favoritesStore.js`
-- **addFavorite()** (3 connections) — `src/data/favoritesStore.js`
-- **removeFavorite()** (3 connections) — `src/data/favoritesStore.js`
-- **toggleFavorite()** (3 connections) — `src/data/favoritesStore.js`
-- **clearFavorites()** (2 connections) — `src/data/favoritesStore.js`
-- **notify()** (2 connections) — `src/data/favoritesStore.js`
-- **favoritesState** (1 connections) — `src/data/favoritesStore.js`
-- **getFavorites()** (1 connections) — `src/data/favoritesStore.js`
-- **listeners** (1 connections) — `src/data/favoritesStore.js`
-- **loadFromStorage()** (1 connections) — `src/data/favoritesStore.js`
+- **SF Symbols** (11 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **sf-symbols.md** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Animations** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Custom symbols** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Design variants** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Gradients** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Rendering modes** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Variable color** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Weights and scales** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (6 shared connections)
-- [[Pricing Regression Test Suite]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/data/favoritesStore.js`
+- `.agents/skills/apple-design/references/hig/sf-symbols.md`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

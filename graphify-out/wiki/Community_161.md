@@ -1,32 +1,37 @@
 # Community 161
 
-> 11 nodes · cohesion 0.18
+> 12 nodes · cohesion 0.41
 
 ## Key Concepts
 
-- **App icons** (10 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **app-icons.md** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Appearances** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Design** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Icon shape** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Layer design** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Specifications** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Visual effects** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **repository-evidence.mjs** (15 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **verifyRepositoryEvidence()** (14 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **evidenceFailure()** (6 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **repository-location.mjs** (5 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **parseRepositoryRemote()** (5 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **gitValue()** (4 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **runGit()** (4 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **verifiedSourcePath()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **redactRepositoryRemote()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **repositorySourceHref()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **hasRepositoryEvidence()** (2 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **sourceLineCount()** (2 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Zoho Integration Architecture]] (6 shared connections)
+- [[Community 137]] (3 shared connections)
+- [[Community 57]] (2 shared connections)
+- [[Community 111]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/app-icons.md`
+- `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- `.agents/skills/archify/renderers/shared/repository-location.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 66 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

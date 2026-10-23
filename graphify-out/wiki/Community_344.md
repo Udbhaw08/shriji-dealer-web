@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **automatic-port-spread.test.mjs** (5 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
-- **connectionPoints()** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
-- **fanOutArchitecture()** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- **Lifecycle Renderer** (5 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **README.md** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Input** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Layout budget** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Legend** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- `.agents/skills/archify/renderers/lifecycle/README.md`
 
 ## Audit Trail
 

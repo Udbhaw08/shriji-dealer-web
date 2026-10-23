@@ -1,38 +1,41 @@
 # Community 111
 
-> 16 nodes · cohesion 0.12
+> 16 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **Refero MCP Tools Reference** (7 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **Screens** (5 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **Flows** (3 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **Styles** (3 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **mcp-tools.md** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **Common Mistakes** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **If Results Are Weak** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_get_flow`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_get_screen`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_get_screen_image`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_get_similar_screens`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_get_style`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_search_flows`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_search_screens`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_search_styles`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **Response Formats** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **compareArchitecture()** (12 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **fail()** (8 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **canonicalArchitecture()** (5 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryIndex()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **canonicalArchitectureJson()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **equal()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **normalizeRepository()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **canonical()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **extractArchitectureSvg()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **extractArtifactCss()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **presentationChanged()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **requireComparableShape()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **stableIndex()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryKey()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **sortedBy()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **summaryFor()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 57]] (18 shared connections)
+- [[Community 288]] (4 shared connections)
+- [[Community 140]] (2 shared connections)
+- [[Community 161]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/mcp-tools.md`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 61 (94%)
+- INFERRED: 4 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

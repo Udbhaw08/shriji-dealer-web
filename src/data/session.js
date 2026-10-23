@@ -76,34 +76,28 @@ export const DEFAULT_AUTH_TOKENS = {
 };
 
 function loadCachedSession() {
-  if (typeof window === "undefined") return DEFAULT_DEALER_SESSION;
+  if (typeof window === "undefined") return GUEST;
   try {
     const rawTokens = localStorage.getItem("shriji.auth.tokens") || sessionStorage.getItem("shriji.auth.tokens");
-    if (!rawTokens) {
-      localStorage.setItem("shriji.auth.tokens", JSON.stringify(DEFAULT_AUTH_TOKENS));
-    }
-
     const rawProfile = localStorage.getItem(SESSION_PROFILE_KEY) || sessionStorage.getItem(SESSION_PROFILE_KEY);
-    if (rawProfile) {
+    if (rawTokens && rawProfile) {
       const profile = JSON.parse(rawProfile);
       if (profile && profile.role === "customer") {
         syncPricebookWithSession(profile);
         return profile;
       }
-      if (profile && profile.role === "dealer" && profile.dealer) {
+      if (profile && (profile.role === "dealer" || profile.role === "dealer_staff") && profile.dealer) {
         registerDealer(profile.dealer);
         syncPricebookWithSession(profile);
+        return profile;
+      }
+      if (profile && profile.role) {
         return profile;
       }
     }
   } catch {}
 
-  registerDealer(DEFAULT_DEALER_SESSION.dealer);
-  syncPricebookWithSession(DEFAULT_DEALER_SESSION);
-  try {
-    localStorage.setItem(SESSION_PROFILE_KEY, JSON.stringify(DEFAULT_DEALER_SESSION));
-  } catch {}
-  return DEFAULT_DEALER_SESSION;
+  return GUEST;
 }
 
 let state = loadCachedSession();
@@ -198,14 +192,12 @@ let inFlightRevalidate = null;
  */
 export async function revalidateSession() {
   // If user deliberately selected Customer / Viewer mode, preserve it
-  if (state?.role === "customer") {
+  if (state?.role === "customer" && state?.userId === "customer-viewer") {
     return state;
   }
 
   if (!hasSession()) {
-    try {
-      localStorage.setItem("shriji.auth.tokens", JSON.stringify(DEFAULT_AUTH_TOKENS));
-    } catch {}
+    return state || GUEST;
   }
 
   if (inFlightRevalidate) return inFlightRevalidate;
@@ -214,11 +206,7 @@ export async function revalidateSession() {
     try {
       const data = await fetchMe();
       if (!data || !data.user) {
-        // Backend offline or token refresh failed — fallback to 8826 CRM session
-        if (!state || state === GUEST) {
-          setSession(DEFAULT_DEALER_SESSION);
-        }
-        return state;
+        return state || GUEST;
       }
       const next = sessionFromAuth(data.user, data.dealer);
       if (!isSessionEqual(state, next)) {
@@ -230,7 +218,7 @@ export async function revalidateSession() {
       }
       return next;
     } catch {
-      return state || DEFAULT_DEALER_SESSION; // offline — keep showing active session
+      return state || GUEST;
     } finally {
       inFlightRevalidate = null;
     }

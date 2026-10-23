@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **vercel.json** (3 connections) — `vercel.json`
-- **framework** (1 connections) — `vercel.json`
-- **headers** (1 connections) — `vercel.json`
-- **rewrites** (1 connections) — `vercel.json`
+- **Shriji Testing & Workflow Skill** (3 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
+- **Daily Development Commands** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
+- **Hard Workflow Rules** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `vercel.json`
+- `.agents/skills/shriji-testing-and-workflow/SKILL.md`
 
 ## Audit Trail
 

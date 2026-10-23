@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **ci-scope.test.mjs** (1 connections) — `.agents/skills/archify/test/ci-scope.test.mjs`
-- **script** (1 connections) — `.agents/skills/archify/test/ci-scope.test.mjs`
+- **performance-plus.md** (1 connections) — `.agents/skills/swiftui-pro/references/performance-plus.md`
+- **Deeper performance work** (1 connections) — `.agents/skills/swiftui-pro/references/performance-plus.md`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/ci-scope.test.mjs`
+- `.agents/skills/swiftui-pro/references/performance-plus.md`
 
 ## Audit Trail
 

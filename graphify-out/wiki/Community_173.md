@@ -1,28 +1,29 @@
 # Community 173
 
-> 11 nodes · cohesion 0.20
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **readme-showcase.test.mjs** (10 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **inspectGif()** (2 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **skipSubBlocks()** (2 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **assetPath** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **git()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **receiptPath** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **writeStarHistoryCharts()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **entries** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **legend** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **mode** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **properties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 88]] (1 shared connections)
+- [[Community 70]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/readme-showcase.test.mjs`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 

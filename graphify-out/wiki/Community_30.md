@@ -4,52 +4,48 @@
 
 ## Key Concepts
 
-- **preview.mjs** (23 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **startPreview()** (10 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **cli-output-types.test.mjs** (10 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **preview.test.mjs** (8 connections) — `.agents/skills/archify/test/preview.test.mjs`
-- **open-artifact.mjs** (7 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **openLoopbackUrl()** (5 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **open-artifact.test.mjs** (5 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
-- **launchTarget()** (4 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **openArtifact()** (4 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **runPreview()** (3 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **compactMessage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **initialAuthoredOutput()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **previewPage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **redactDiagnostic()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **sha256()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **sourceDigest()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **spawn()** (2 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
-- **stateAt()** (2 connections) — `.agents/skills/archify/test/preview.test.mjs`
-- **waitForState()** (2 connections) — `.agents/skills/archify/test/preview.test.mjs`
-- **OPENERS** (1 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **cliPath** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **diagramTypes** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **here** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **parseReceipt()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **responseHeaders()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **scenarios.mjs** (15 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **FakeElement** (12 connections) — `.agents/skills/archify/test/start-page.test.mjs`
+- **gallery.test.mjs** (9 connections) — `.agents/skills/archify/test/gallery.test.mjs`
+- **start-page.test.mjs** (8 connections) — `.agents/skills/archify/test/start-page.test.mjs`
+- **guide.test.mjs** (6 connections) — `.agents/skills/archify/test/guide.test.mjs`
+- **recommendScenario()** (4 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **SCENARIO_RECIPES** (4 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **detectGuideLanguage()** (3 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **listScenarioRecipes()** (3 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **formatScenarioList()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **localized()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **normalized()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **publicGuideData()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **scoreRecipe()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **startPromptsFor()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **formatScenarioRecommendation()** (1 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **RAW_RECIPES** (1 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
+- **generatedRoot** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
+- **normalize()** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/start-page.test.mjs`
 - *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [[Mobile Responsive UI Skill]] (4 shared connections)
-- [[Community 101]] (3 shared connections)
-- [[Community 196]] (2 shared connections)
-- [[Community 141]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/bin/open-artifact.mjs`
-- `.agents/skills/archify/bin/preview.mjs`
-- `.agents/skills/archify/test/cli-output-types.test.mjs`
-- `.agents/skills/archify/test/open-artifact.test.mjs`
-- `.agents/skills/archify/test/preview.test.mjs`
+- `.agents/skills/archify/recipes/scenarios.mjs`
+- `.agents/skills/archify/test/gallery.test.mjs`
+- `.agents/skills/archify/test/guide.test.mjs`
+- `.agents/skills/archify/test/start-page.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 113 (97%)
-- INFERRED: 4 (3%)
+- EXTRACTED: 100 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

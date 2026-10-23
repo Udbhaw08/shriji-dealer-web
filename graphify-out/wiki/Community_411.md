@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **guide-page.test.mjs** (3 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
+- **sync-all.mjs** (3 connections) — `scripts/sync-all.mjs`
+- **isVercel** (1 connections) — `scripts/sync-all.mjs`
+- **rootDir** (1 connections) — `scripts/sync-all.mjs`
+- **run()** (1 connections) — `scripts/sync-all.mjs`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/guide-page.test.mjs`
+- `scripts/sync-all.mjs`
 
 ## Audit Trail
 

@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Design** (5 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **design.md** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **Creating a uniform design in this app** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **Ensuring designs work for everyone** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **Requirements for flexible, accessible design** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
-- **Standard system styling** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
+- **Collaboration and sharing** (5 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
+- **collaboration-and-sharing.md** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/design.md`
+- `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
 
 ## Audit Trail
 

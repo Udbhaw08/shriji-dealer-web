@@ -1,25 +1,25 @@
 # Community 114
 
-> 16 nodes · cohesion 0.17
+> 16 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **legend-contract.test.mjs** (15 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **legendKinds()** (3 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **run()** (3 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **attrValues()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **canonicalSvg()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **clone()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **render()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **validateFailure()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **withLegend()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **AUTO_KINDS** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **CATALOGS** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **FIXTURES** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **Refero MCP Tools Reference** (7 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **Screens** (5 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **Flows** (3 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **Styles** (3 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **mcp-tools.md** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **Common Mistakes** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **If Results Are Weak** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_get_flow`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_get_screen`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_get_screen_image`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_get_similar_screens`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_get_style`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_search_flows`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_search_screens`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_search_styles`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **Response Formats** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
 
 ## Relationships
 
@@ -27,11 +27,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/legend-contract.test.mjs`
+- `.agents/skills/refero-design/references/mcp-tools.md`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
+- EXTRACTED: 30 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

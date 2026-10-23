@@ -1,37 +1,42 @@
 # Community 110
 
-> 16 nodes · cohesion 0.12
+> 17 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Anti-AI-Slop Guide** (15 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **anti-ai-slop.md** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **Litmus Tests** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **Safe vs. Intentional** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #1 TELL: INDIGO/VIOLET** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #2 TELL: CARDS EVERYWHERE** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #3 TELL: DARK MODE BY DEFAULT** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #4 TELL: CALM EDITORIAL SERIF ON AUTOPILOT** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #5 TELL: EMOJI AS ICONS** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #6 TELL: LEFT ACCENT STRIPE** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #7 TELL: REFERENCE AVERAGING** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #8 TELL: TOKEN ROLE DRIFT** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #9 TELL: FAKE GRAPHICS OR TEXT-ONLY COLLAPSE** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **The AI Slop Detector Checklist** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **The Antidote: Intentional Design** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **What Makes Design Look Generic** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
+- **crmClient.js** (32 connections) — `backend/src/services/crmClient.js`
+- **crmFetch()** (12 connections) — `backend/src/services/crmClient.js`
+- **cleanName()** (7 connections) — `backend/src/utils/validators.js`
+- **crmConfigured()** (6 connections) — `backend/src/services/crmClient.js`
+- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
+- **createDealerContact()** (5 connections) — `backend/src/services/crmClient.js`
+- **updateDealerCodeInCrm()** (5 connections) — `backend/src/services/crmClient.js`
+- **resolveContactNames()** (4 connections) — `backend/src/services/crmClient.js`
+- **deactivateAccountInCrm()** (3 connections) — `backend/src/services/crmClient.js`
+- **deactivateContactInCrm()** (3 connections) — `backend/src/services/crmClient.js`
+- **getDealerAccount()** (3 connections) — `backend/src/services/crmClient.js`
+- **isCrmConfigured()** (3 connections) — `backend/src/services/crmClient.js`
+- **getAccessToken()** (2 connections) — `backend/src/services/crmClient.js`
+- **getDealerContact()** (2 connections) — `backend/src/services/crmClient.js`
+- **getPrimaryContactForAccount()** (2 connections) — `backend/src/services/crmClient.js`
+- **linkContactToBackendUser()** (2 connections) — `backend/src/services/crmClient.js`
+- **FIELDS** (1 connections) — `backend/src/services/crmClient.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 46]] (17 shared connections)
+- [[Community 73]] (5 shared connections)
+- [[Client Products Data Store]] (5 shared connections)
+- [[Community 45]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/anti-ai-slop.md`
+- `backend/src/services/crmClient.js`
+- `backend/src/utils/validators.js`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
+- EXTRACTED: 97 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Lifecycle Renderer** (5 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
-- **README.md** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
-- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
-- **Input** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
-- **Layout budget** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
-- **Legend** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Activity views** (5 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **activity-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **Share and action extensions** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/lifecycle/README.md`
+- `.agents/skills/apple-design/references/hig/activity-views.md`
 
 ## Audit Trail
 

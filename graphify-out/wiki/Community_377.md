@@ -4,19 +4,19 @@
 
 ## Key Concepts
 
-- **ErrorBoundary** (5 connections) — `src/main.jsx`
-- **.componentDidCatch()** (1 connections) — `src/main.jsx`
-- **.constructor()** (1 connections) — `src/main.jsx`
-- **.getDerivedStateFromError()** (1 connections) — `src/main.jsx`
-- **.render()** (1 connections) — `src/main.jsx`
+- **12. Performance Typography** (5 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Performance Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Requirements** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Rules** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **System Font Stack** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- [[Pricing Regression Test Suite]] (1 shared connections)
+- [[Community 226]] (1 shared connections)
 
 ## Source Files
 
-- `src/main.jsx`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 

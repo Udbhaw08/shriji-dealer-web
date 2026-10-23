@@ -1,8 +1,8 @@
 # ll()
 
-> God node · 40 connections · `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+> God node · 40 connections · `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
 
-**Community:** [[Master Codebase Architecture Reference]]
+**Community:** [[Product Pages Specification]]
 
 ## Connections by Relation
 
@@ -16,15 +16,15 @@
 - [[jc()]] `EXTRACTED`
 - [[ol()]] `EXTRACTED`
 - [[sa()]] `EXTRACTED`
+- [[ba()]] `EXTRACTED`
 - [[Bi()]] `EXTRACTED`
 - [[il()]] `EXTRACTED`
-- [[ba()]] `EXTRACTED`
+- [[ga()]] `EXTRACTED`
 - [[la()]] `EXTRACTED`
 - [[Sp()]] `EXTRACTED`
 - [[we()]] `EXTRACTED`
 - [[ya()]] `EXTRACTED`
 - [[zd()]] `EXTRACTED`
-- [[ga()]] `EXTRACTED`
 - [[Qi()]] `EXTRACTED`
 - [[Fc()]] `EXTRACTED`
 

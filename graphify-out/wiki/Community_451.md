@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **performance-plus.md** (1 connections) — `.agents/skills/swiftui-pro/references/performance-plus.md`
-- **Deeper performance work** (1 connections) — `.agents/skills/swiftui-pro/references/performance-plus.md`
+- **README.md** (1 connections) — `ios/App/CapApp-SPM/README.md`
+- **CapApp-SPM** (1 connections) — `ios/App/CapApp-SPM/README.md`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/performance-plus.md`
+- `ios/App/CapApp-SPM/README.md`
 
 ## Audit Trail
 

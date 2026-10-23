@@ -1,6 +1,6 @@
 # Zoho Integration Architecture
 
-> 59 nodes · cohesion 0.05
+> 56 nodes · cohesion 0.06
 
 ## Key Concepts
 
@@ -17,7 +17,6 @@
 - **loadDiagram()** (9 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
 - **loadDiagramWithBrandMarks()** (8 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
 - **settled-flow.test.mjs** (8 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **prepareDiagramBrandMarks()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 - **validateEngineeringProfile()** (6 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
 - **normalizedDiagnostic()** (4 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
 - **deploymentOwnershipDiagnostics()** (4 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
@@ -26,29 +25,29 @@
 - **fallbackDiagnostic()** (3 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
 - **withDiagnosticRecordingSuppressed()** (3 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
 - **renderCards()** (3 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **captureTimeoutMilliseconds()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **mapConcurrent()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 - **installRendererDiagnosticBoundary()** (2 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- *... and 34 more nodes in this community*
+- **plainObject()** (2 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **rendererFailure()** (2 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **subject()** (2 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- *... and 31 more nodes in this community*
 
 ## Relationships
 
-- [[Design System & UI Tokens]] (12 shared connections)
-- [[Pricing & Roles Skill]] (11 shared connections)
-- [[Community 82]] (10 shared connections)
-- [[Community 63]] (8 shared connections)
-- [[Zoho API Diagnostic Script]] (7 shared connections)
-- [[Community 47]] (7 shared connections)
-- [[Community 57]] (6 shared connections)
-- [[Client Products Data Store]] (5 shared connections)
-- [[Community 53]] (5 shared connections)
-- [[Community 101]] (4 shared connections)
-- [[Community 126]] (4 shared connections)
-- [[Community 196]] (3 shared connections)
+- [[Roles & Customer Sharing Spec]] (11 shared connections)
+- [[Community 37]] (10 shared connections)
+- [[Community 35]] (9 shared connections)
+- [[Community 82]] (8 shared connections)
+- [[Design System & UI Tokens]] (8 shared connections)
+- [[Community 105]] (7 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (6 shared connections)
+- [[Community 161]] (6 shared connections)
+- [[Product Brand & Business Vision]] (5 shared connections)
+- [[Community 103]] (4 shared connections)
+- [[Community 131]] (4 shared connections)
+- [[Community 201]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 - `.agents/skills/archify/renderers/shared/cli.mjs`
 - `.agents/skills/archify/renderers/shared/diagnostics.mjs`
 - `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
@@ -60,7 +59,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 267 (100%)
+- EXTRACTED: 256 (100%)
 - INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 

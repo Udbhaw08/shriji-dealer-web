@@ -40,6 +40,14 @@
       "destination": "/api/upload"
     },
     {
+      "source": "/api/products/sync-tags",
+      "destination": "/api/products/sync-tags"
+    },
+    {
+      "source": "/api/products/:id",
+      "destination": "/api/products/[id]?id=:id"
+    },
+    {
       "source": "/api/(.*)",
       "destination": "/api/$1"
     },

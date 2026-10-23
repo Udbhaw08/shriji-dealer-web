@@ -1,54 +1,47 @@
 # Community 42
 
-> 35 nodes · cohesion 0.12
+> 33 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **pf()** (24 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **hi()** (14 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **pu()** (14 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **fu()** (13 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **yl()** (11 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **bl()** (9 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **xu()** (9 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **zu()** (9 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **ku()** (8 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **mu()** (8 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **eu()** (7 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **jt()** (7 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **Md()** (7 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **wl()** (7 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **bu()** (6 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **tu()** (6 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **xl()** (6 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **gm()** (5 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **hu()** (5 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **ju()** (5 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **Vu()** (5 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **Yu()** (5 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **bo()** (4 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **Cu()** (4 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- **Iu()** (4 connections) — `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
-- *... and 10 more nodes in this community*
+- **scripts** (15 connections) — `.agents/skills/archify/package.json`
+- **package.json** (11 connections) — `.agents/skills/archify/package.json`
+- **devDependencies** (5 connections) — `.agents/skills/archify/package.json`
+- **bin** (2 connections) — `.agents/skills/archify/package.json`
+- **engines** (2 connections) — `.agents/skills/archify/package.json`
+- **overrides** (2 connections) — `.agents/skills/archify/package.json`
+- **archify** (1 connections) — `.agents/skills/archify/package.json`
+- **description** (1 connections) — `.agents/skills/archify/package.json`
+- **ajv** (1 connections) — `.agents/skills/archify/package.json`
+- **parse5** (1 connections) — `.agents/skills/archify/package.json`
+- **saxes** (1 connections) — `.agents/skills/archify/package.json`
+- **simple-icons** (1 connections) — `.agents/skills/archify/package.json`
+- **node** (1 connections) — `.agents/skills/archify/package.json`
+- **license** (1 connections) — `.agents/skills/archify/package.json`
+- **name** (1 connections) — `.agents/skills/archify/package.json`
+- **fast-uri** (1 connections) — `.agents/skills/archify/package.json`
+- **private** (1 connections) — `.agents/skills/archify/package.json`
+- **build:gallery** (1 connections) — `.agents/skills/archify/package.json`
+- **build:guide** (1 connections) — `.agents/skills/archify/package.json`
+- **build:readme-showcase** (1 connections) — `.agents/skills/archify/package.json`
+- **build:start** (1 connections) — `.agents/skills/archify/package.json`
+- **check:brand-marks** (1 connections) — `.agents/skills/archify/package.json`
+- **check:release-identity** (1 connections) — `.agents/skills/archify/package.json`
+- **check:validators** (1 connections) — `.agents/skills/archify/package.json`
+- **check:viewer** (1 connections) — `.agents/skills/archify/package.json`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (40 shared connections)
-- [[Dependencies & Package Config]] (19 shared connections)
-- [[Master Codebase Architecture Reference]] (11 shared connections)
-- [[Community 37]] (7 shared connections)
-- [[Community 71]] (5 shared connections)
-- [[Community 38]] (4 shared connections)
-- [[Zoho Integration Skill]] (3 shared connections)
-- [[Community 60]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-C0m88tWG.js`
+- `.agents/skills/archify/package.json`
 
 ## Audit Trail
 
-- EXTRACTED: 232 (100%)
+- EXTRACTED: 64 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -6,13 +6,14 @@ import { signAccessToken, issueRefreshToken, rotateRefreshToken, revokeRefreshTo
 import { jwtAuth } from '../middleware/auth.js';
 import { rateLimit } from '../middleware/rateLimit.js';
 import { httpError } from '../middleware/errorHandler.js';
-import { sendEmailOtp, notify } from '../services/notifications.js';
+import { sendEmailOtp, sendWhatsAppOtp, notify } from '../services/notifications.js';
 import { audit } from '../utils/audit.js';
 import { env } from '../config/env.js';
 import { log } from '../utils/logger.js';
 import * as crm from '../services/crmClient.js';
 import { resolvePricebookId } from '../services/commerceClient.js';
-import { normalizeEmail, isValidName, cleanName } from '../utils/validators.js';
+import { normalizeEmail, isValidName, cleanName, isValidPhone } from '../utils/validators.js';
+import { normalizePhone } from '../utils/phone.js';
 import { applyCrmAccountState } from '../services/dealerApp.js';
 
 export const authRouter = Router();
@@ -30,8 +31,11 @@ export async function resolveUserWithDealer(user) {
   if (!user) return null;
   const email = normalizeEmail(user.email);
   const rows = await sql`
-    select d.id, d.status from dealers d join users owner on owner.id = d.owner_user_id
-    where d.id = ${user.dealer_id || null} ${email ? sql`or lower(owner.email) = ${email}` : sql``}
+    select d.id, d.status from dealers d
+    left join users owner on owner.id = d.owner_user_id
+    where d.id = ${user.dealer_id || null}
+       or d.owner_user_id = ${user.id}
+       ${email ? sql`or lower(owner.email) = ${email}` : sql``}
     order by case when d.status = 'approved' then 1 when d.status = 'pending' then 2 else 3 end asc
     limit 1`;
   const dealer = rows[0];
@@ -58,13 +62,149 @@ export async function findUserByEmail(email) {
 }
 
 function publicUser(user) {
-  return { id: user.id, email: user.email, full_name: user.full_name, role: user.role, status: user.status, dealer_id: user.dealer_id, email_verified: user.email_verified, can_see_dealer_price: user.can_see_dealer_price !== false };
+  return {
+    id: user.id,
+    email: user.email || null,
+    phone: user.phone || null,
+    full_name: user.full_name,
+    role: user.role,
+    status: user.status,
+    dealer_id: user.dealer_id,
+    email_verified: Boolean(user.email_verified),
+    can_see_dealer_price: user.can_see_dealer_price !== false,
+  };
 }
 
 async function issueSession(rawUser) {
   const user = await resolveUserWithDealer(rawUser);
   return { accessToken: signAccessToken(user), refreshToken: await issueRefreshToken(user.id), expiresIn: 30 * 24 * 60 * 60, user: publicUser(user) };
 }
+
+/* POST /api/auth/otp/request — generate and send WhatsApp OTP */
+authRouter.post('/otp/request', rateLimit({ windowMs: 10 * 60_000, max: 6 }), async (req, res, next) => {
+  try {
+    const rawPhone = req.body?.phone;
+    if (!rawPhone) throw httpError(400, 'Mobile phone number is required');
+    const norm = normalizePhone(rawPhone);
+    if (!isValidPhone(rawPhone) || !norm.nationalNumber) {
+      throw httpError(400, 'Please enter a valid 10-digit Indian mobile number');
+    }
+
+    const code = generateOtp();
+    const expiresAt = new Date(Date.now() + OTP_TTL_MINUTES * 60_000);
+
+    // Invalidate previous active OTPs for this phone number and insert the new one atomically
+    await sql.begin(async (tx) => {
+      await tx`delete from otp_codes where identifier = ${norm.nationalNumber} or identifier = ${norm.e164}`;
+      await tx`insert into otp_codes (identifier, code_hash, expires_at)
+               values (${norm.nationalNumber}, ${sha256(code)}, ${expiresAt})`;
+    });
+
+    try {
+      await sendWhatsAppOtp({ phone: norm.nationalNumber, code });
+      res.json({
+        ok: true,
+        destination: 'phone',
+        expires_in_minutes: OTP_TTL_MINUTES,
+      });
+    } catch (sendError) {
+      // If delivery failed, immediately purge the un-delivered OTP so no ghost code remains active
+      await sql`delete from otp_codes where identifier = ${norm.nationalNumber} and code_hash = ${sha256(code)}`.catch(() => {});
+      throw sendError;
+    }
+  } catch (error) { next(error); }
+});
+
+/* POST /api/auth/otp/verify — verify WhatsApp OTP and issue session */
+authRouter.post('/otp/verify', strictLimit, async (req, res, next) => {
+  try {
+    const rawPhone = req.body?.phone;
+    const rawCode = req.body?.code;
+    if (!rawPhone) throw httpError(400, 'Mobile phone number is required');
+    const norm = normalizePhone(rawPhone);
+    if (!isValidPhone(rawPhone) || !norm.nationalNumber) {
+      throw httpError(400, 'Please enter a valid 10-digit Indian mobile number');
+    }
+
+    const cleanCode = String(rawCode || '').trim();
+    if (!cleanCode || !/^\d{6}$/.test(cleanCode)) {
+      throw httpError(400, 'A valid 6-digit verification code is required');
+    }
+
+    const hashedInput = sha256(cleanCode);
+    let verifiedUser;
+
+    await sql.begin(async (tx) => {
+      // Find latest unexpired OTP for this phone with row-level lock
+      const otpRows = await tx`
+        select id, attempts, code_hash, user_id, identifier, expires_at
+        from otp_codes
+        where (identifier = ${norm.nationalNumber} or identifier = ${norm.e164})
+          and expires_at > now()
+        order by created_at desc
+        limit 1
+        for update`;
+
+      const otp = otpRows[0];
+      if (!otp) {
+        throw httpError(401, 'Invalid or expired verification code');
+      }
+
+      if (otp.attempts >= OTP_MAX_ATTEMPTS) {
+        await tx`delete from otp_codes where id = ${otp.id}`;
+        throw httpError(429, 'Too many failed verification attempts. Please request a new code.');
+      }
+
+      if (otp.code_hash !== hashedInput) {
+        const nextAttempts = otp.attempts + 1;
+        if (nextAttempts >= OTP_MAX_ATTEMPTS) {
+          await tx`delete from otp_codes where id = ${otp.id}`;
+          throw httpError(429, 'Too many failed verification attempts. Please request a new code.');
+        }
+        await tx`update otp_codes set attempts = ${nextAttempts} where id = ${otp.id}`;
+        const remaining = OTP_MAX_ATTEMPTS - nextAttempts;
+        throw httpError(401, `Invalid verification code. ${remaining} attempt${remaining === 1 ? '' : 's'} remaining.`);
+      }
+
+      // Atomically consume / delete the successful OTP so it cannot be reused
+      await tx`delete from otp_codes where id = ${otp.id}`;
+
+      // Find user by phone number
+      let userRows = await tx`
+        select * from users
+        where phone = ${norm.nationalNumber}
+           or phone = ${norm.e164}
+           or phone like ${`%${norm.nationalNumber}`}
+        order by case when role = 'dealer' then 1
+                      when role = 'dealer_staff' then 2
+                      else 3 end asc,
+                 created_at desc
+        limit 1`;
+
+      let user = userRows[0];
+      if (!user) {
+        // Auto-register new customer account
+        const [newUser] = await tx`
+          insert into users (phone, role, status, email_verified)
+          values (${norm.nationalNumber}, 'customer', 'active', false)
+          returning *`;
+        user = newUser;
+        await audit(user.id, 'auth.otp_signup', 'user', user.id);
+      } else {
+        if (!user.phone || user.phone !== norm.nationalNumber) {
+          await tx`update users set phone = ${norm.nationalNumber} where id = ${user.id}`;
+          user.phone = norm.nationalNumber;
+        }
+        await audit(user.id, 'auth.otp_verified', 'user', user.id);
+      }
+
+      verifiedUser = user;
+    });
+
+    const session = await issueSession(verifiedUser);
+    res.json(session);
+  } catch (error) { next(error); }
+});
 
 authRouter.post('/signup', strictLimit, async (req, res, next) => {
   try {

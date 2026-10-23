@@ -1,45 +1,48 @@
 # Community 89
 
-> 19 nodes · cohesion 0.16
+> 19 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **finder-browser.test.mjs** (12 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **route-probe-browser.test.mjs** (12 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
-- **run()** (6 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **run()** (6 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
-- **viewer-click.mjs** (4 connections) — `.agents/skills/archify/test/helpers/viewer-click.mjs`
-- **createViewerClick()** (4 connections) — `.agents/skills/archify/test/helpers/viewer-click.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **search()** (3 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **opened()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **hash()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
-- **route()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
-- **installClickObserver()** (1 connections) — `.agents/skills/archify/test/helpers/viewer-click.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **gl()** (21 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **ma()** (14 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **ye()** (13 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **sa()** (11 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **l()** (10 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **Sp()** (9 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **dl()** (5 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **fl()** (5 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **qn()** (5 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **To()** (5 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **vl()** (5 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **pl()** (4 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **Zn()** (4 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **Hd()** (3 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **ml()** (3 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **Ym()** (3 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **de()** (2 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **hl()** (2 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **ul()** (2 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
 
 ## Relationships
 
-- [[Community 31]] (10 shared connections)
-- [[Community 51]] (2 shared connections)
-- [[Community 141]] (2 shared connections)
+- [[Dealer Auth & Session Management]] (21 shared connections)
+- [[Product Pages Specification]] (17 shared connections)
+- [[Pricing Regression Test Suite]] (9 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (9 shared connections)
+- [[Community 31]] (4 shared connections)
+- [[Community 38]] (3 shared connections)
+- [[Product Requirements Documentation]] (3 shared connections)
+- [[Community 56]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/finder-browser.test.mjs`
-- `.agents/skills/archify/test/helpers/viewer-click.mjs`
-- `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
 
 ## Audit Trail
 
-- EXTRACTED: 69 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 126 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

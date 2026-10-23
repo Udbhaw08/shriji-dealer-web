@@ -4,25 +4,25 @@
 
 ## Key Concepts
 
-- **motion-governor.test.mjs** (6 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
-- **svgBlock()** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
+- **dataflow.schema.json** (7 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$id** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$schema** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **title** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 115]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/motion-governor.test.mjs`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

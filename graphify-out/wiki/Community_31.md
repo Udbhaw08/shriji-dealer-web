@@ -1,63 +1,55 @@
 # Community 31
 
-> 39 nodes · cohesion 0.09
+> 38 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **.send()** (54 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **ChromeVisualBrowser** (21 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **export-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **motion-governor-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **export-cleanup-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **PipeCdp** (7 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **viewer-identifiers-browser.test.mjs** (7 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **.inspect()** (5 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **evaluate()** (4 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **.attach()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.close()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.constructor()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **chromeVisualBrowserArgs()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **evaluate()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.failAll()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **record()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **media()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **screenshot()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- *... and 14 more nodes in this community*
+- **i()** (68 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **n()** (26 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **t()** (20 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **rs()** (14 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **ga()** (9 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **A()** (8 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **ks()** (8 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **ds()** (7 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **fs()** (7 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **us()** (7 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **yo()** (7 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **bs()** (6 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **gs()** (6 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **os()** (6 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **xs()** (6 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **el()** (5 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **is()** (5 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **kl()** (5 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **ns()** (5 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **vs()** (5 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **x()** (5 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **Xo()** (5 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **Zo()** (5 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **as()** (4 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **_f()** (4 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [[Community 51]] (12 shared connections)
-- [[Community 64]] (12 shared connections)
-- [[Community 89]] (10 shared connections)
-- [[Community 172]] (5 shared connections)
-- [[Community 141]] (5 shared connections)
-- [[Community 235]] (5 shared connections)
-- [[Community 137]] (5 shared connections)
-- [[Community 138]] (5 shared connections)
-- [[Community 102]] (2 shared connections)
-- [[Community 120]] (1 shared connections)
-- [[Community 33]] (1 shared connections)
-- [[Community 139]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (48 shared connections)
+- [[Product Pages Specification]] (26 shared connections)
+- [[Pricing Regression Test Suite]] (21 shared connections)
+- [[Community 38]] (15 shared connections)
+- [[Product Requirements Documentation]] (13 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (13 shared connections)
+- [[Community 56]] (6 shared connections)
+- [[Community 89]] (4 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/export-browser.test.mjs`
-- `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
 
 ## Audit Trail
 
-- EXTRACTED: 196 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 294 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

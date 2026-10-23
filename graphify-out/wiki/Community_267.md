@@ -1,29 +1,31 @@
 # Community 267
 
-> 8 nodes · cohesion 0.25
+> 8 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **relationship-lens.test.mjs** (7 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **escapeAttr()** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **svg()** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **isDroppedPlatformText()** (5 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **headingLine()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **relabelHeading()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **isDroppedBoilerplate()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **platformsMentioned()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **reduceHeading()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **isDroppedPlatformLabel()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **platformGroupLabel()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 71]] (8 shared connections)
+- [[Community 198]] (1 shared connections)
+- [[Community 197]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/relationship-lens.test.mjs`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

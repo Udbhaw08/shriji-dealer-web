@@ -1,31 +1,32 @@
 # Community 194
 
-> 10 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Shriji Backend Skill** (9 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Commands** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Environment (backend/.env — never committed)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Frontend Integration (built)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Hard Rules** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Key Files (populated as built)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Ownership Rule (invariant)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Pending Seam — price proxy switch (do when backend is deployed)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Stack Record — what was chosen, do not substitute** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **lanes** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **additionalProperties** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **required** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Zoho API Diagnostic Script]] (3 shared connections)
+- [[Community 116]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/shriji-backend/SKILL.md`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

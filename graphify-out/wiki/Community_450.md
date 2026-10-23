@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **localization.md** (1 connections) — `.agents/skills/swiftui-pro/references/localization.md`
-- **Localization** (1 connections) — `.agents/skills/swiftui-pro/references/localization.md`
+- **Package.swift** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
+- **PackageDescription** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/localization.md`
+- `ios/App/CapApp-SPM/Package.swift`
 
 ## Audit Trail
 

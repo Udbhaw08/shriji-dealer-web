@@ -4,29 +4,27 @@
 
 ## Key Concepts
 
-- **renderPage()** (7 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderLookup()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **collapseBlankLines()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **coveredPlatformsLine()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **prettyPlatforms()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **groupBySection()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **lastChangeLine()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **omissionReason()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderBody()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **Delivery contract** (8 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **delivery-contract.md** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Automated browser evidence** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Handoff receipt** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Last-Good Live Preview** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Optional opening** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Perceptual delivery gate** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Recovering a failed comparison** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Validate and deliver** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
 
 ## Relationships
 
-- [[Community 75]] (9 shared connections)
-- [[Community 340]] (2 shared connections)
-- [[Community 192]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- `.agents/skills/archify/references/delivery-contract.md`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

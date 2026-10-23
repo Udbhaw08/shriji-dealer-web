@@ -1,47 +1,53 @@
 # Community 56
 
-> 26 nodes · cohesion 0.08
+> 25 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **Copywriting Guide** (15 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Banned Words** (5 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Microcopy** (4 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Product UI Copy** (4 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **copywriting.md** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **AI Slop Markers** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Avoid on Operational Surfaces** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Buttons** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Core Belief** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Corporate Zombie** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Empty States** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Errors** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Filler** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Headings: Descriptive, Not Aspirational** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Hype** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Info-Style Thinking** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Living Words vs Dead Words** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Marketing Hero Section** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Pre-Publish Checklist** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Proof Beats Hype** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Rhythm** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **The Order of Great Copy** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **The Sticky Line Test** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Universal Copy Structure** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **When Marketing Tone IS Appropriate in Product** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- *... and 1 more nodes in this community*
+- **jd()** (13 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **Bd()** (12 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **Pd()** (11 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **Bi()** (10 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **Kd()** (9 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **ot()** (9 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **zd()** (9 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **kf()** (7 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **st()** (7 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **ef()** (6 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **js()** (6 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **qd()** (6 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **af()** (5 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **ff()** (5 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **Vd()** (5 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **jf()** (4 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **Xd()** (4 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **Id()** (3 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **mf()** (3 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **Qa()** (3 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **qs()** (3 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **ts()** (3 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **Ud()** (3 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **Wd()** (3 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- **Yd()** (3 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (31 shared connections)
+- [[Product Requirements Documentation]] (11 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (7 shared connections)
+- [[Community 31]] (6 shared connections)
+- [[Product Pages Specification]] (5 shared connections)
+- [[Pricing Regression Test Suite]] (5 shared connections)
+- [[Community 89]] (2 shared connections)
+- [[Community 38]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/copywriting.md`
+- `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (100%)
+- EXTRACTED: 152 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

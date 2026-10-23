@@ -19,8 +19,11 @@ export default function ProductCard({ p }) {
       : [p.features?.[0] || p.finish, p.catLabel].filter(Boolean).join(" ");
 
   // Tag badge on image from live Zoho Commerce "tags" field (e.g. 'HOT SELLING', 'NEW', 'BESTSELLER')
-  const rawTag = Array.isArray(p.tags) && p.tags.length > 0 ? p.tags[0] : (p.tag || null);
-  const tagBadge = typeof rawTag === "string" ? rawTag : (rawTag?.tag_name || rawTag?.name || null);
+  const productTags = (Array.isArray(p.tags) && p.tags.length > 0
+    ? p.tags
+    : (p.tag ? [p.tag] : []))
+    .map((t) => (typeof t === "string" ? t : (t?.tag_name || t?.name || "")).trim())
+    .filter(Boolean);
 
   return (
     <article className="prod">
@@ -55,11 +58,20 @@ export default function ProductCard({ p }) {
               <Icon name={p.cat === "chimneys" ? "chimney" : p.cat === "small_appliances" ? "blender" : "stove"} size={32} />
             </span>
           )}
-          {/* Tag badge from Zoho Commerce in top-left of image area */}
-          {tagBadge && (
-            <span className="badge badge-blue prod-tag">
-              {tagBadge}
-            </span>
+          {/* Tag badge(s) from Zoho Commerce in top-left of image area */}
+          {productTags.length > 0 && (
+            <div className="prod-tags-group" style={{ position: "absolute", top: "10px", left: "10px", display: "flex", flexWrap: "wrap", gap: "4px", maxWidth: "80%", zIndex: 1 }}>
+              {productTags.slice(0, 2).map((tVal, idx) => (
+                <span key={idx} className="badge badge-blue prod-tag">
+                  {tVal}
+                </span>
+              ))}
+              {productTags.length > 2 && (
+                <span className="badge badge-blue prod-tag" style={{ opacity: 0.9 }}>
+                  +{productTags.length - 2}
+                </span>
+              )}
+            </div>
           )}
         </span>
 

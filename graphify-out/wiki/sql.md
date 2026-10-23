@@ -2,7 +2,7 @@
 
 > God node · 67 connections · `backend/src/db/pool.js`
 
-**Community:** [[Vercel Deployment Routing]]
+**Community:** [[Client Products Data Store]]
 
 ## Connections by Relation
 
@@ -39,11 +39,11 @@
 - [[staff.js]] `EXTRACTED`
 - [[content.js]] `EXTRACTED`
 - [[catalog.js]] `EXTRACTED`
+- [[notifications.js]] `EXTRACTED`
 - [[webhooks.js]] `EXTRACTED`
 - [[crmPoll.js]] `EXTRACTED`
 - [[content.js]] `EXTRACTED`
 - [[catalogSync.js]] `EXTRACTED`
-- [[notifications.js]] `EXTRACTED`
 - [[auth.js]] `EXTRACTED`
 - [[health.js]] `EXTRACTED`
 - [[audit.js]] `EXTRACTED`

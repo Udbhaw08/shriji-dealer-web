@@ -1,40 +1,36 @@
 # Community 120
 
-> 15 nodes · cohesion 0.15
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **i18n.test.mjs** (20 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **catalogKeys()** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **SUPPORTED_LOCALES** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **authoredExample()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **evaluate()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **example()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **loadArtifact()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **AUTHORED_TEXT_KEYS** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **templatePath** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **Sign in with Apple** (6 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Using the system-provided buttons** (5 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Creating a custom Sign in with Apple button** (3 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Displaying buttons** (3 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **sign-in-with-apple.md** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Black** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Button size and corner radius** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Collecting data** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Custom buttons with a logo and text** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Custom logo-only buttons** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Offering Sign in with Apple** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **White** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **White with outline** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
 
 ## Relationships
 
-- [[Community 82]] (5 shared connections)
-- [[Community 51]] (1 shared connections)
-- [[Community 31]] (1 shared connections)
-- [[Community 141]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/i18n.mjs`
-- `.agents/skills/archify/test/i18n.test.mjs`
+- `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

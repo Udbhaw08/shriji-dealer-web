@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **VoiceOver** (6 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **voiceover.md** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **Descriptions** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **Navigation** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
+- **Managing accounts** (6 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- **managing-accounts.md** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- **Deleting accounts** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- **TV provider accounts** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/voiceover.md`
+- `.agents/skills/apple-design/references/hig/managing-accounts.md`
 
 ## Audit Trail
 

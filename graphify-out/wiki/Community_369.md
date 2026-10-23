@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **7. Vertical Rhythm** (5 connections) — `.agents/skills/refero-design/references/typography.md`
-- **CSS Implementation** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Example** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Golden Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **The Simple Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Image wells** (4 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
+- **image-wells.md** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
 
 ## Relationships
 
-- [[Community 220]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/apple-design/references/hig/image-wells.md`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

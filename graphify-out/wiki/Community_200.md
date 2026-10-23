@@ -1,18 +1,19 @@
 # Community 200
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **web-xzEm-58Y.js** (8 connections) — `android/app/src/main/assets/public/assets/web-xzEm-58Y.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-xzEm-58Y.js`
-- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-xzEm-58Y.js`
-- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-xzEm-58Y.js`
-- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-xzEm-58Y.js`
-- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-xzEm-58Y.js`
-- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-xzEm-58Y.js`
-- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-xzEm-58Y.js`
-- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-xzEm-58Y.js`
+- **ordinary-model-floor.test.mjs** (9 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
+- **benchmark** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
+- **mutate()** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
+- **renameCandidateIds()** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
+- **writeJson()** (1 connections) — `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
 
 ## Relationships
 
@@ -20,11 +21,11 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/web-xzEm-58Y.js`
+- `.agents/skills/archify/test/ordinary-model-floor.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

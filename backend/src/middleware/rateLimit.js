@@ -5,11 +5,11 @@
 const buckets = new Map(); // key → [timestamps]
 
 export function rateLimit({ windowMs = 60_000, max = 30, keyFn = (req) => req.ip } = {}) {
-  if (process.env.NODE_ENV === 'test') {
-    return (_req, _res, next) => next();
-  }
-  const effectiveMax = process.env.NODE_ENV !== 'production' ? Math.max(max, 500) : max;
   return (req, res, next) => {
+    if (process.env.NODE_ENV === 'test' && process.env.TEST_RATE_LIMIT !== 'true') {
+      return next();
+    }
+    const effectiveMax = process.env.TEST_RATE_LIMIT === 'true' ? max : (process.env.NODE_ENV !== 'production' && process.env.NODE_ENV !== 'test' ? Math.max(max, 500) : max);
     const key = keyFn(req);
     const now = Date.now();
     const arr = (buckets.get(key) || []).filter((t) => now - t < windowMs);

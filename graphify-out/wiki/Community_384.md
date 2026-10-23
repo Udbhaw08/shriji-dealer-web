@@ -1,13 +1,14 @@
 # Community 384
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **Web views** (3 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
-- **web-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
+- **export_pricebooks_for_crm.mjs** (4 connections) — `scripts/export_pricebooks_for_crm.mjs`
+- **getAccessToken()** (2 connections) — `scripts/export_pricebooks_for_crm.mjs`
+- **main()** (2 connections) — `scripts/export_pricebooks_for_crm.mjs`
+- **env** (1 connections) — `scripts/export_pricebooks_for_crm.mjs`
+- **getMergedEnv()** (1 connections) — `scripts/export_pricebooks_for_crm.mjs`
 
 ## Relationships
 
@@ -15,11 +16,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/web-views.md`
+- `scripts/export_pricebooks_for_crm.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

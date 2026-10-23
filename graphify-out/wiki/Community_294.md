@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Searching** (6 connections) — `.agents/skills/apple-design/references/hig/searching.md`
-- **searching.md** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
-- **Systemwide search** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **Images** (6 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **images.md** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Formats** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Resolution** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/searching.md`
+- `.agents/skills/apple-design/references/hig/images.md`
 
 ## Audit Trail
 

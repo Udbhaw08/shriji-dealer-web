@@ -1,19 +1,20 @@
 # Community 176
 
-> 10 nodes · cohesion 0.20
+> 11 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **Accessibility** (9 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **accessibility.md** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **Cognitive** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **Hearing** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **Mobility** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **Speech** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **Vision** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **degraded.test.mjs** (10 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **assertFriendlyFailure()** (2 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **render()** (2 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **ARRAY_FIELDS** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **filter()** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **installedRoot** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **mulberry32()** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
 
 ## Relationships
 
@@ -21,11 +22,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/accessibility.md`
+- `.agents/skills/archify/test/degraded.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

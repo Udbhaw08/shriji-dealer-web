@@ -4,22 +4,21 @@
 
 ## Key Concepts
 
-- **guidedViews** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **Designing for macOS** (2 connections) — `.agents/skills/apple-design/references/hig/designing-for-macos.md`
+- **designing-for-macos.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-macos.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-macos.md`
 
 ## Relationships
 
-- [[Community 78]] (1 shared connections)
-- [[Community 222]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/apple-design/references/hig/designing-for-macos.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

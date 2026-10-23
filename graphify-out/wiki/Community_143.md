@@ -1,21 +1,22 @@
 # Community 143
 
-> 12 nodes · cohesion 0.17
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **DEALER-HIERARCHY-AND-WORKFLOW.md — Business, Dealer & Staff Hierarchy Model** (6 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **3. End-to-End User Journey & Life Cycle** (3 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **4. Zoho CRM Data Structure** (3 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **1. The Three-Tier Hierarchy Model** (2 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **DEALER-HIERARCHY-AND-WORKFLOW.md** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **2. Two-Stage Approval Separation** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **5. Technical Seams to Adapt** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **Accounts Module (Business Entity)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **Contacts Module (People Hierarchy)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **Hierarchy Breakdown:** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **Phase A: Dealer Onboarding (Head Approval)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
-- **Phase B: Staff Onboarding via Dealer Code (Dealer Approval)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **Product** (12 connections) — `PRODUCT.md`
+- **PRODUCT.md** (1 connections) — `PRODUCT.md`
+- **Accessibility & Inclusion** (1 connections) — `PRODUCT.md`
+- **Brand Commitments** (1 connections) — `PRODUCT.md`
+- **Capabilities and Constraints** (1 connections) — `PRODUCT.md`
+- **Evidence on Hand** (1 connections) — `PRODUCT.md`
+- **Operating Context** (1 connections) — `PRODUCT.md`
+- **Platform** (1 connections) — `PRODUCT.md`
+- **Positioning** (1 connections) — `PRODUCT.md`
+- **Product Principles** (1 connections) — `PRODUCT.md`
+- **Product Purpose** (1 connections) — `PRODUCT.md`
+- **Stack** (1 connections) — `PRODUCT.md`
+- **Users** (1 connections) — `PRODUCT.md`
 
 ## Relationships
 
@@ -23,11 +24,11 @@
 
 ## Source Files
 
-- `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- `PRODUCT.md`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 24 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
