@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **VoiceOver** (6 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **voiceover.md** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **Descriptions** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **Navigation** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
+- **Snippets** (6 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **snippets.md** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/voiceover.md`
+- `.agents/skills/apple-design/references/hig/snippets.md`
 
 ## Audit Trail
 

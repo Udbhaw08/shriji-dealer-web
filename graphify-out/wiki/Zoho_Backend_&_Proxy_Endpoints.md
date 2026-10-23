@@ -1,54 +1,55 @@
 # Zoho Backend & Proxy Endpoints
 
-> 93 nodes · cohesion 0.04
+> 82 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **_()** (449 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
-- **nf()** (11 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
-- **of()** (9 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
-- **df()** (8 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
-- **uf()** (8 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
-- **request()** (7 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
-- **Tn()** (7 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
-- **fo()** (6 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
-- **cf()** (5 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
-- **dl()** (5 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
-- **du()** (5 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
-- **eh()** (5 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
-- **Fd()** (5 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
-- **fl()** (5 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
-- **Gn()** (5 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
-- **kl()** (5 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
-- **Kt()** (5 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
-- **tf()** (5 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
-- **th()** (5 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
-- **unavailable()** (5 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
-- **aa()** (4 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
-- **dt()** (4 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
-- **Et()** (4 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
-- **ja()** (4 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
-- **ne()** (4 connections) — `ios/App/App/public/assets/index-2OxP_Ib6.js`
-- *... and 68 more nodes in this community*
+- **i()** (66 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **D()** (25 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **get()** (23 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **np()** (21 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **.addEventListener()** (19 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **b()** (18 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **bm()** (13 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **fp()** (13 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **h()** (13 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **tn()** (13 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **.removeEventListener()** (12 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **lm()** (12 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **r()** (12 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **delete()** (11 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **ep()** (11 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **fn()** (11 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **g()** (11 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **ip()** (11 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **sn()** (11 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **tp()** (10 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **am()** (9 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **pn()** (9 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **gn()** (8 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **mm()** (8 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **lp()** (7 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- *... and 57 more nodes in this community*
 
 ## Relationships
 
-- [[Dependencies & Package Config]] (95 shared connections)
-- [[Master Codebase Architecture Reference]] (84 shared connections)
-- [[Live Pricing Audit Tool]] (54 shared connections)
-- [[Community 32]] (48 shared connections)
-- [[Community 29]] (48 shared connections)
-- [[Community 36]] (44 shared connections)
-- [[Community 62]] (31 shared connections)
-- [[Community 77]] (15 shared connections)
+- [[Product Pages Specification]] (85 shared connections)
+- [[Design System & UI Tokens]] (30 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (26 shared connections)
+- [[Graphify Agent Rules]] (25 shared connections)
+- [[Roles & Customer Sharing Spec]] (24 shared connections)
+- [[Community 88]] (12 shared connections)
+- [[Community 38]] (11 shared connections)
+- [[Community 42]] (10 shared connections)
+- [[Community 80]] (10 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-2OxP_Ib6.js`
+- `ios/App/App/public/assets/index-jHj_87_x.js`
 
 ## Audit Trail
 
-- EXTRACTED: 724 (100%)
+- EXTRACTED: 621 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

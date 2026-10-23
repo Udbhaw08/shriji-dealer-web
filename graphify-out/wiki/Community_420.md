@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **vercel.json** (3 connections) — `vercel.json`
-- **framework** (1 connections) — `vercel.json`
-- **headers** (1 connections) — `vercel.json`
-- **rewrites** (1 connections) — `vercel.json`
+- **delivery-contract.test.mjs** (3 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
+- **delivery** (1 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
+- **skill** (1 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `vercel.json`
+- `.agents/skills/archify/test/delivery-contract.test.mjs`
 
 ## Audit Trail
 

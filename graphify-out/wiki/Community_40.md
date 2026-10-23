@@ -33,10 +33,10 @@
 
 ## Relationships
 
-- [[Graphify Knowledge Graph Skill]] (32 shared connections)
-- [[Community 290]] (3 shared connections)
-- [[Community 51]] (3 shared connections)
-- [[Pricing & Roles Skill]] (2 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (29 shared connections)
+- [[Product Brand & Business Vision]] (7 shared connections)
+- [[Community 293]] (3 shared connections)
+- [[Community 108]] (1 shared connections)
 
 ## Source Files
 

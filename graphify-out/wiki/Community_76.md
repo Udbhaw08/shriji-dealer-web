@@ -1,42 +1,51 @@
 # Community 76
 
-> 21 nodes · cohesion 0.10
+> 22 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **Machine learning** (15 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **The role of machine learning in your app** (6 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **machine-learning.md** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Attribution** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Calibration** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Confidence** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Corrections** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Critical or complementary** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Dynamic or static** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Explicit feedback** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Implicit feedback** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Limitations** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Mistakes** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Multiple options** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Planning your design** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Private or public** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Proactive or reactive** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Visible or invisible** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **i18n.js** (25 connections) — `src/data/i18n.js`
+- **Products.jsx** (25 connections) — `src/pages/Products.jsx`
+- **ProductSearchBar.jsx** (15 connections) — `src/components/ProductSearchBar.jsx`
+- **searchHelper.js** (11 connections) — `src/data/searchHelper.js`
+- **getSuggestions()** (5 connections) — `src/data/searchHelper.js`
+- **autocorrectQuery()** (4 connections) — `src/data/searchHelper.js`
+- **buildSearchDictionary()** (4 connections) — `src/data/searchHelper.js`
+- **setLanguage()** (3 connections) — `src/data/i18n.js`
+- **emit()** (2 connections) — `src/data/i18n.js`
+- **toggleLanguage()** (2 connections) — `src/data/i18n.js`
+- **getPopularSearches()** (2 connections) — `src/data/searchHelper.js`
+- **scoreProduct()** (2 connections) — `src/data/searchHelper.js`
+- **translations.js** (2 connections) — `src/data/translations.js`
+- **TRANSLATIONS** (2 connections) — `src/data/translations.js`
+- **currentLang** (1 connections) — `src/data/i18n.js`
+- **getInitialLang()** (1 connections) — `src/data/i18n.js`
+- **getLanguage()** (1 connections) — `src/data/i18n.js`
+- **listeners** (1 connections) — `src/data/i18n.js`
+- **COLLOQUIAL_SYNONYMS** (1 connections) — `src/data/searchHelper.js`
+- **levenshteinDistance()** (1 connections) — `src/data/searchHelper.js`
+- **Group()** (1 connections) — `src/pages/Products.jsx`
+- **SORT_FNS** (1 connections) — `src/pages/Products.jsx`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Project Readme & Layout]] (22 shared connections)
+- [[Product Brand & Business Vision]] (13 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (4 shared connections)
+- [[Community 108]] (2 shared connections)
+- [[Community 167]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/machine-learning.md`
+- `src/components/ProductSearchBar.jsx`
+- `src/data/i18n.js`
+- `src/data/searchHelper.js`
+- `src/data/translations.js`
+- `src/pages/Products.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
+- EXTRACTED: 112 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

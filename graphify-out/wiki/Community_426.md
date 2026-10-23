@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Navigation and presentation** (2 connections) — `.agents/skills/swiftui-pro/references/navigation.md`
-- **navigation.md** (1 connections) — `.agents/skills/swiftui-pro/references/navigation.md`
-- **Alerts, confirmation dialogs, and sheets** (1 connections) — `.agents/skills/swiftui-pro/references/navigation.md`
+- **Designing for iOS** (2 connections) — `.agents/skills/apple-design/references/hig/designing-for-ios.md`
+- **designing-for-ios.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-ios.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-ios.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/navigation.md`
+- `.agents/skills/apple-design/references/hig/designing-for-ios.md`
 
 ## Audit Trail
 

@@ -1,61 +1,48 @@
 # Graphify Knowledge Graph Skill
 
-> 47 nodes · cohesion 0.09
+> 45 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **session.js** (47 connections) — `src/data/session.js`
-- **Login.jsx** (41 connections) — `src/pages/Login.jsx`
-- **productsStore.js** (23 connections) — `src/data/productsStore.js`
-- **apiFetch()** (17 connections) — `src/data/api.js`
-- **api.js** (11 connections) — `src/data/api.js`
-- **EmailVerificationPrompt.jsx** (10 connections) — `src/components/EmailVerificationPrompt.jsx`
-- **setSession()** (10 connections) — `src/data/session.js`
-- **apiUrl()** (9 connections) — `src/data/api.js`
-- **revalidateSession()** (9 connections) — `src/data/session.js`
-- **registerDealer()** (7 connections) — `src/data/dealer.js`
-- **syncPricebookWithSession()** (7 connections) — `src/data/productsStore.js`
-- **validators.js** (7 connections) — `src/data/validators.js`
-- **fetchLiveProducts()** (6 connections) — `src/data/productsStore.js`
-- **products.js** (5 connections) — `src/data/products.js`
-- **switchToDealerSession()** (5 connections) — `src/data/session.js`
-- **hasSession()** (4 connections) — `src/data/auth.js`
-- **loadCached()** (4 connections) — `src/data/productsStore.js`
-- **signOut()** (4 connections) — `src/data/session.js`
-- **switchToViewerSession()** (4 connections) — `src/data/session.js`
-- **sessionFromAuth()** (3 connections) — `src/data/auth.js`
-- **emit()** (3 connections) — `src/data/productsStore.js`
-- **syncTagsLive()** (3 connections) — `src/data/productsStore.js`
-- **loadCachedSession()** (3 connections) — `src/data/session.js`
-- **isValidEmail()** (3 connections) — `src/data/validators.js`
-- **onAuthBroadcast()** (2 connections) — `src/data/auth.js`
-- *... and 22 more nodes in this community*
+- **generated-validators.mjs** (41 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **func3()** (11 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **generate-validators.test.mjs** (5 connections) — `.agents/skills/archify/test/generate-validators.test.mjs`
+- **validate20()** (4 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate22()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate27()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate28()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate30()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate31()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate33()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate34()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate36()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate37()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate24()** (2 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern17** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern18** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern20** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern4** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern57** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema112** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema116** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema118** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema149** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema31** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema33** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [[Community 40]] (32 shared connections)
-- [[Pricing & Roles Skill]] (19 shared connections)
-- [[Community 39]] (15 shared connections)
-- [[Community 51]] (13 shared connections)
-- [[Community 126]] (5 shared connections)
-- [[Community 290]] (3 shared connections)
-- [[Community 164]] (1 shared connections)
+- [[Product Requirements Documentation]] (1 shared connections)
 
 ## Source Files
 
-- `src/components/EmailVerificationPrompt.jsx`
-- `src/data/api.js`
-- `src/data/auth.js`
-- `src/data/dealer.js`
-- `src/data/products.js`
-- `src/data/productsStore.js`
-- `src/data/session.js`
-- `src/data/validators.js`
-- `src/pages/Login.jsx`
+- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- `.agents/skills/archify/test/generate-validators.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 278 (100%)
+- EXTRACTED: 121 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

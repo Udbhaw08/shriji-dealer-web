@@ -1,50 +1,44 @@
 # Community 105
 
-> 17 nodes · cohesion 0.21
+> 18 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **utils.mjs** (26 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **i18n.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **translateMessage()** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **applyTemplate()** (9 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **resolveLocale()** (7 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **componentContext()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **viewerCatalog()** (4 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **localizeTemplate()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **translateCount()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **formatMessage()** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **serializeScriptJson()** (2 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **CATALOGS** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **ESCAPE_MAP** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **MESSAGE_PAIRS** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **SIGIL_SHAPE** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **SIGIL_TONE** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **TEMPLATE_PLACEHOLDERS** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **output-path.mjs** (22 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **resolveOutputPath()** (11 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **futurePathsAlias()** (6 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **pathsAlias()** (6 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **canonicalFuturePath()** (5 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **sameFileIdentity()** (5 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **probeDirectorySemantics()** (4 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **canonicalize()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **directoryIdentityKey()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **hasFileIdentity()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **pathIsInside()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **probeNamesAlias()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **sameDirectory()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **nearestExistingDirectory()** (2 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **OutputPathError** (2 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **splitAbsolute()** (2 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **directorySemanticsCache** (1 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (12 shared connections)
-- [[Community 37]] (10 shared connections)
-- [[Zoho Integration Architecture]] (7 shared connections)
-- [[Community 35]] (5 shared connections)
-- [[Community 123]] (5 shared connections)
-- [[Product Brand & Business Vision]] (4 shared connections)
-- [[Design System & UI Tokens]] (4 shared connections)
-- [[Community 82]] (3 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (1 shared connections)
-- [[Community 279]] (1 shared connections)
+- [[Community 44]] (4 shared connections)
+- [[Product Requirements Documentation]] (4 shared connections)
+- [[Community 62]] (3 shared connections)
+- [[Community 291]] (2 shared connections)
+- [[Community 205]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/shared/i18n.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `.agents/skills/archify/renderers/shared/output-path.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 107 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 82 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

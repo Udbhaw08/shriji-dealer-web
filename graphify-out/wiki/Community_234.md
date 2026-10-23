@@ -4,27 +4,29 @@
 
 ## Key Concepts
 
-- **architecture-compare-recovery.test.mjs** (8 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **base** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **fixture()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **hash()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **head** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **inject()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **renderPage()** (7 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderLookup()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **collapseBlankLines()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **coveredPlatformsLine()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **prettyPlatforms()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **groupBySection()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **lastChangeLine()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **omissionReason()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderBody()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 74]] (9 shared connections)
+- [[Community 353]] (2 shared connections)
+- [[Community 201]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

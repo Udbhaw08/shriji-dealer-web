@@ -1,18 +1,19 @@
 # Community 208
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Primary Commands** (5 connections) — `.agents/skills/graphify/SKILL.md`
-- **Graphify Knowledge Graph Skill** (4 connections) — `.agents/skills/graphify/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/graphify/SKILL.md`
-- **1. Query the Graph (Context-Efficient)** (1 connections) — `.agents/skills/graphify/SKILL.md`
-- **2. Trace Relationships (Shortest Path)** (1 connections) — `.agents/skills/graphify/SKILL.md`
-- **3. Explain a Node or Symbol** (1 connections) — `.agents/skills/graphify/SKILL.md`
-- **4. Update the Graph (AST Re-Extraction)** (1 connections) — `.agents/skills/graphify/SKILL.md`
-- **Key Output Artifacts in `graphify-out/`** (1 connections) — `.agents/skills/graphify/SKILL.md`
-- **Why Use Graphify** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **whatsappOtp.test.mjs** (9 connections) — `backend/test/whatsappOtp.test.mjs`
+- **resetConfig()** (2 connections) — `backend/test/whatsappOtp.test.mjs`
+- **resetDb()** (2 connections) — `backend/test/whatsappOtp.test.mjs`
+- **app** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **db** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **logEntries** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **mockSql()** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **startServer()** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **stopServer()** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **testEnv** (1 connections) — `backend/test/whatsappOtp.test.mjs`
 
 ## Relationships
 
@@ -20,11 +21,11 @@
 
 ## Source Files
 
-- `.agents/skills/graphify/SKILL.md`
+- `backend/test/whatsappOtp.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

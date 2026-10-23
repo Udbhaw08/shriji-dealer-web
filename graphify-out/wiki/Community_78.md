@@ -1,44 +1,50 @@
 # Community 78
 
-> 21 nodes · cohesion 0.10
+> 21 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **properties** (9 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **architecture.schema.json** (7 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **meta** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **components** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **cards** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **schema_version** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$id** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$schema** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **title** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **oc()** (19 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **zi()** (11 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **po()** (9 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **Ci()** (8 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **ys()** (8 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **Dc()** (6 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **Ei()** (6 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **sc()** (6 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **ff()** (5 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **la()** (5 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **Oi()** (5 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **Si()** (5 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **bi()** (4 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **Hn()** (4 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **Ti()** (4 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **w()** (4 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **Yi()** (4 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **ac()** (3 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **componentDidCatch()** (2 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **ho()** (2 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **Ra()** (2 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
 
 ## Relationships
 
-- [[Community 121]] (3 shared connections)
-- [[Community 70]] (1 shared connections)
-- [[Community 88]] (1 shared connections)
+- [[Dependencies & Package Config]] (22 shared connections)
+- [[Master Codebase Architecture Reference]] (13 shared connections)
+- [[Price Presentation & Product UI]] (10 shared connections)
+- [[Architecture Doc Generator]] (6 shared connections)
+- [[Vercel Deployment Routing]] (5 shared connections)
+- [[Community 39]] (4 shared connections)
+- [[Claude Agent Instructions]] (3 shared connections)
+- [[Community 37]] (3 shared connections)
+- [[Community 84]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (100%)
+- EXTRACTED: 122 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

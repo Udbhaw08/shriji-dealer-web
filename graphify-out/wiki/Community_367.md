@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Home Screen quick actions** (4 connections) — `.agents/skills/apple-design/references/hig/home-screen-quick-actions.md`
-- **home-screen-quick-actions.md** (1 connections) — `.agents/skills/apple-design/references/hig/home-screen-quick-actions.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/home-screen-quick-actions.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/home-screen-quick-actions.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/home-screen-quick-actions.md`
+- **Dock menus** (4 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
+- **dock-menus.md** (1 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/home-screen-quick-actions.md`
+- `.agents/skills/apple-design/references/hig/dock-menus.md`
 
 ## Audit Trail
 

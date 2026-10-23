@@ -1,54 +1,59 @@
 # Pricing Hierarchy & Zero-Leakage Spec
 
-> 47 nodes · cohesion 0.09
+> 46 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **O()** (20 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **ut()** (19 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **cn()** (14 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **M()** (13 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **lt()** (12 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **pt()** (12 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **ip()** (11 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **k()** (11 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **mn()** (11 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **vt()** (11 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **ba()** (10 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **gt()** (9 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **mt()** (9 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **Nt()** (9 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **we()** (9 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **ct()** (8 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **ee()** (8 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **en()** (8 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **ft()** (8 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **ln()** (8 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **In()** (7 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **Ld()** (7 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **sn()** (7 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **an()** (6 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **hf()** (6 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- *... and 22 more nodes in this community*
+- **session.js** (47 connections) — `src/data/session.js`
+- **Login.jsx** (41 connections) — `src/pages/Login.jsx`
+- **productsStore.js** (23 connections) — `src/data/productsStore.js`
+- **apiFetch()** (17 connections) — `src/data/api.js`
+- **api.js** (11 connections) — `src/data/api.js`
+- **setSession()** (10 connections) — `src/data/session.js`
+- **apiUrl()** (9 connections) — `src/data/api.js`
+- **revalidateSession()** (9 connections) — `src/data/session.js`
+- **registerDealer()** (7 connections) — `src/data/dealer.js`
+- **syncPricebookWithSession()** (7 connections) — `src/data/productsStore.js`
+- **validators.js** (7 connections) — `src/data/validators.js`
+- **fetchLiveProducts()** (6 connections) — `src/data/productsStore.js`
+- **products.js** (5 connections) — `src/data/products.js`
+- **switchToDealerSession()** (5 connections) — `src/data/session.js`
+- **hasSession()** (4 connections) — `src/data/auth.js`
+- **loadCached()** (4 connections) — `src/data/productsStore.js`
+- **signOut()** (4 connections) — `src/data/session.js`
+- **switchToViewerSession()** (4 connections) — `src/data/session.js`
+- **sessionFromAuth()** (3 connections) — `src/data/auth.js`
+- **emit()** (3 connections) — `src/data/productsStore.js`
+- **syncTagsLive()** (3 connections) — `src/data/productsStore.js`
+- **loadCachedSession()** (3 connections) — `src/data/session.js`
+- **isValidEmail()** (3 connections) — `src/data/validators.js`
+- **onAuthBroadcast()** (2 connections) — `src/data/auth.js`
+- **CATEGORIES** (2 connections) — `src/data/products.js`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (59 shared connections)
-- [[Pricing Regression Test Suite]] (18 shared connections)
-- [[Product Pages Specification]] (13 shared connections)
-- [[Community 31]] (13 shared connections)
-- [[Community 89]] (9 shared connections)
-- [[Product Requirements Documentation]] (9 shared connections)
-- [[Community 56]] (7 shared connections)
-- [[Community 38]] (7 shared connections)
+- [[Community 40]] (29 shared connections)
+- [[Product Brand & Business Vision]] (29 shared connections)
+- [[Project Readme & Layout]] (18 shared connections)
+- [[Community 76]] (4 shared connections)
+- [[Community 108]] (3 shared connections)
+- [[Community 293]] (3 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- `src/data/api.js`
+- `src/data/auth.js`
+- `src/data/dealer.js`
+- `src/data/products.js`
+- `src/data/productsStore.js`
+- `src/data/session.js`
+- `src/data/validators.js`
+- `src/pages/Login.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 331 (100%)
+- EXTRACTED: 268 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

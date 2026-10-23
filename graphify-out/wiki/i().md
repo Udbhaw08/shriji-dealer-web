@@ -1,32 +1,32 @@
 # i()
 
-> God node · 68 connections · `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+> God node · 66 connections · `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
 
-**Community:** [[Community 31]]
+**Community:** [[Price Presentation & Product UI]]
 
 ## Connections by Relation
 
 ### calls
 - [[ll()]] `EXTRACTED`
 - [[D()]] `EXTRACTED`
-- [[c()]] `EXTRACTED`
-- [[gl()]] `EXTRACTED`
-- [[np()]] `EXTRACTED`
 - [[t()]] `EXTRACTED`
+- [[gl()]] `EXTRACTED`
+- [[c()]] `EXTRACTED`
+- [[np()]] `EXTRACTED`
 - [[oc()]] `EXTRACTED`
 - [[Ou()]] `EXTRACTED`
 - [[b()]] `EXTRACTED`
-- [[bc()]] `EXTRACTED`
-- [[bm()]] `EXTRACTED`
-- [[cn()]] `EXTRACTED`
-- [[oa()]] `EXTRACTED`
-- [[rs()]] `EXTRACTED`
 - [[fu()]] `EXTRACTED`
 - [[jd()]] `EXTRACTED`
-- [[pt()]] `EXTRACTED`
+- [[rs()]] `EXTRACTED`
+- [[A()]] `EXTRACTED`
+- [[bm()]] `EXTRACTED`
+- [[l()]] `EXTRACTED`
+- [[tn()]] `EXTRACTED`
+- [[bc()]] `EXTRACTED`
+- [[Pd()]] `EXTRACTED`
 - [[r()]] `EXTRACTED`
-- [[hi()]] `EXTRACTED`
-- [[ip()]] `EXTRACTED`
+- [[ep()]] `EXTRACTED`
 
 ### contains
 - [[_()]] `EXTRACTED`

@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **delivery-contract.test.mjs** (3 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
-- **delivery** (1 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
-- **skill** (1 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
+- **watch-sync.mjs** (3 connections) — `scripts/watch-sync.mjs`
+- **rootDir** (1 connections) — `scripts/watch-sync.mjs`
+- **srcDir** (1 connections) — `scripts/watch-sync.mjs`
+- **triggerSync()** (1 connections) — `scripts/watch-sync.mjs`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/delivery-contract.test.mjs`
+- `scripts/watch-sync.mjs`
 
 ## Audit Trail
 

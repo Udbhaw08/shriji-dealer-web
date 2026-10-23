@@ -1,13 +1,14 @@
 # Community 390
 
-> 4 nodes · cohesion 0.67
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **Test** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
-- **ExampleInstrumentedTest.java** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
-- **ExampleInstrumentedTest** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
-- **.useAppContext()** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
+- **base-input-compatibility.test.mjs** (4 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
+- **renderBaseFixture()** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
 
 ## Relationships
 
@@ -15,7 +16,7 @@
 
 ## Source Files
 
-- `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
+- `.agents/skills/archify/test/base-input-compatibility.test.mjs`
 
 ## Audit Trail
 

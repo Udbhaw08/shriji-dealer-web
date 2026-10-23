@@ -1,28 +1,29 @@
 # Community 293
 
-> 7 nodes · cohesion 0.29
+> 7 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **Focus and selection** (5 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **focus-and-selection.md** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
+- **loginCode.js** (8 connections) — `src/data/loginCode.js`
+- **formatLoginCode()** (4 connections) — `src/data/loginCode.js`
+- **generateLoginCode()** (2 connections) — `src/data/loginCode.js`
+- **GST_TREATMENT_OPTIONS** (2 connections) — `src/data/loginCode.js`
+- **isValidLoginCode()** (2 connections) — `src/data/loginCode.js`
+- **PREFIX_MAP** (1 connections) — `src/data/loginCode.js`
+- **USER_CATEGORIES** (1 connections) — `src/data/loginCode.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 40]] (3 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/focus-and-selection.md`
+- `src/data/loginCode.js`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

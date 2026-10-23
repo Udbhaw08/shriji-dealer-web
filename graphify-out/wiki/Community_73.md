@@ -1,53 +1,48 @@
 # Community 73
 
-> 22 nodes · cohesion 0.19
+> 23 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **catalog.js** (16 connections) — `backend/src/services/catalog.js`
-- **env.js** (14 connections) — `backend/src/config/env.js`
-- **logger.js** (14 connections) — `backend/src/utils/logger.js`
-- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
-- **log** (13 connections) — `backend/src/utils/logger.js`
-- **env** (11 connections) — `backend/src/config/env.js`
-- **index.js** (11 connections) — `backend/src/jobs/index.js`
-- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
-- **syncCatalog()** (7 connections) — `backend/src/services/catalog.js`
-- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
-- **catalogFor()** (4 connections) — `backend/src/services/catalog.js`
-- **loadCatalog()** (4 connections) — `backend/src/services/catalog.js`
-- **catalogSync()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **tokenCleanup()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **markPollRun()** (3 connections) — `backend/src/jobs/crmPoll.js`
-- **priceView()** (3 connections) — `backend/src/services/catalog.js`
-- **priceGate.test.mjs** (3 connections) — `backend/test/priceGate.test.mjs`
-- **bool()** (1 connections) — `backend/src/config/env.js`
-- **__dirname** (1 connections) — `backend/src/config/env.js`
-- **num()** (1 connections) — `backend/src/config/env.js`
-- **CATALOG** (1 connections) — `backend/test/priceGate.test.mjs`
-- **ts()** (1 connections) — `backend/src/utils/logger.js`
+- **$defs** (16 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **common.schema.json** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **animation** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **brandMark** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **componentType** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **legendMode** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **locale** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **qualityProfile** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **side** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **variant** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **visualPreset** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **oneOf** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **$id** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **$schema** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **title** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- [[Client Products Data Store]] (17 shared connections)
-- [[Community 46]] (17 shared connections)
-- [[Community 135]] (8 shared connections)
-- [[Community 45]] (8 shared connections)
-- [[Community 110]] (5 shared connections)
+- [[Community 162]] (2 shared connections)
+- [[Community 435]] (1 shared connections)
+- [[Community 177]] (1 shared connections)
+- [[Community 352]] (1 shared connections)
+- [[Community 436]] (1 shared connections)
 
 ## Source Files
 
-- `backend/src/config/env.js`
-- `backend/src/jobs/catalogSync.js`
-- `backend/src/jobs/crmPoll.js`
-- `backend/src/jobs/index.js`
-- `backend/src/services/catalog.js`
-- `backend/src/utils/logger.js`
-- `backend/test/priceGate.test.mjs`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 141 (100%)
+- EXTRACTED: 50 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

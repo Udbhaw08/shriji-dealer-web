@@ -1,23 +1,24 @@
 # Community 124
 
-> 14 nodes · cohesion 0.23
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **web-Twzo1-h-.js** (13 connections) — `android/app/src/main/assets/public/assets/web-Twzo1-h-.js`
-- **applyPrefix()** (4 connections) — `android/app/src/main/assets/public/assets/web-Twzo1-h-.js`
-- **keys()** (4 connections) — `android/app/src/main/assets/public/assets/web-Twzo1-h-.js`
-- **get()** (3 connections) — `android/app/src/main/assets/public/assets/web-Twzo1-h-.js`
-- **migrate()** (3 connections) — `android/app/src/main/assets/public/assets/web-Twzo1-h-.js`
-- **rawKeys()** (3 connections) — `android/app/src/main/assets/public/assets/web-Twzo1-h-.js`
-- **clear()** (2 connections) — `android/app/src/main/assets/public/assets/web-Twzo1-h-.js`
-- **remove()** (2 connections) — `android/app/src/main/assets/public/assets/web-Twzo1-h-.js`
-- **removeOld()** (2 connections) — `android/app/src/main/assets/public/assets/web-Twzo1-h-.js`
-- **set()** (2 connections) — `android/app/src/main/assets/public/assets/web-Twzo1-h-.js`
-- **configure()** (1 connections) — `android/app/src/main/assets/public/assets/web-Twzo1-h-.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-Twzo1-h-.js`
-- **impl()** (1 connections) — `android/app/src/main/assets/public/assets/web-Twzo1-h-.js`
-- **prefix()** (1 connections) — `android/app/src/main/assets/public/assets/web-Twzo1-h-.js`
+- **Sign in with Apple** (6 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Using the system-provided buttons** (5 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Creating a custom Sign in with Apple button** (3 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Displaying buttons** (3 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **sign-in-with-apple.md** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Black** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Button size and corner radius** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Collecting data** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Custom buttons with a logo and text** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Custom logo-only buttons** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Offering Sign in with Apple** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **White** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **White with outline** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
 
 ## Relationships
 
@@ -25,11 +26,11 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/web-Twzo1-h-.js`
+- `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

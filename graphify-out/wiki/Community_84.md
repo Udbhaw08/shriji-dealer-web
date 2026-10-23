@@ -1,44 +1,49 @@
 # Community 84
 
-> 20 nodes · cohesion 0.15
+> 20 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **buildDeltaSvg()** (16 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **annotateArchitectureSideSvg()** (9 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundaryElements()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **edgeSymbolMarkup()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **markerFor()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **addNodeMarker()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundaryChangeMap()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundaryMarkupByKey()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundaryMarkupParts()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundarySymbolMarkup()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **changeMap()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **elementById()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **forceElementState()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **nodeGroupRanges()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **prefixSvgIds()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **staticize()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **transformBoundaryElements()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **transformNodeGroups()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **forceBoundaryState()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **viewBoxSize()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **gl()** (23 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **l()** (13 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **ve()** (13 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **Sp()** (9 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **we()** (9 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **vl()** (7 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **dl()** (5 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **fl()** (5 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **hm()** (5 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **ma()** (5 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **Qi()** (5 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **To()** (5 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **pl()** (4 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **Hd()** (3 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **ml()** (3 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **nl()** (3 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **Ym()** (3 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **ca()** (2 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **hl()** (2 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- **ul()** (2 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
 
 ## Relationships
 
-- [[Community 57]] (20 shared connections)
-- [[Community 288]] (2 shared connections)
-- [[Roles & Customer Sharing Spec]] (2 shared connections)
+- [[Dependencies & Package Config]] (21 shared connections)
+- [[Price Presentation & Product UI]] (12 shared connections)
+- [[Master Codebase Architecture Reference]] (8 shared connections)
+- [[Architecture Doc Generator]] (6 shared connections)
+- [[Vercel Deployment Routing]] (4 shared connections)
+- [[Community 39]] (4 shared connections)
+- [[Claude Agent Instructions]] (3 shared connections)
+- [[Community 78]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
+- `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 126 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

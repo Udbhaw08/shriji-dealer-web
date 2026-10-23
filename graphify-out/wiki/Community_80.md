@@ -1,45 +1,50 @@
 # Community 80
 
-> 21 nodes · cohesion 0.10
+> 21 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **properties** (12 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **meta** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **lanes** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **mainPath** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **nodes** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **cards** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **schema_version** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **oc()** (19 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **zi()** (11 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **po()** (9 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **Ci()** (8 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **ys()** (8 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **Dc()** (6 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **Ei()** (6 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **sc()** (6 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **ff()** (5 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **la()** (5 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **Oi()** (5 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **Si()** (5 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **bi()** (4 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **Hn()** (4 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **Ti()** (4 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **w()** (4 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **Yi()** (4 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **ac()** (3 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **componentDidCatch()** (2 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **ho()** (2 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **Ra()** (2 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
 
 ## Relationships
 
-- [[Community 133]] (5 shared connections)
-- [[Community 79]] (2 shared connections)
-- [[Community 95]] (1 shared connections)
-- [[Community 68]] (1 shared connections)
+- [[Product Pages Specification]] (22 shared connections)
+- [[Design System & UI Tokens]] (13 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (10 shared connections)
+- [[Roles & Customer Sharing Spec]] (6 shared connections)
+- [[Graphify Agent Rules]] (5 shared connections)
+- [[Community 42]] (4 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (3 shared connections)
+- [[Community 38]] (3 shared connections)
+- [[Community 88]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `ios/App/App/public/assets/index-jHj_87_x.js`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (100%)
+- EXTRACTED: 122 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

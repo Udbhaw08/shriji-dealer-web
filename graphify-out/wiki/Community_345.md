@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **.oxlintrc.json** (3 connections) — `.oxlintrc.json`
-- **rules** (3 connections) — `.oxlintrc.json`
-- **plugins** (1 connections) — `.oxlintrc.json`
-- **react/only-export-components** (1 connections) — `.oxlintrc.json`
-- **react/rules-of-hooks** (1 connections) — `.oxlintrc.json`
-- **$schema** (1 connections) — `.oxlintrc.json`
+- **Rating indicators** (5 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
+- **rating-indicators.md** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.oxlintrc.json`
+- `.agents/skills/apple-design/references/hig/rating-indicators.md`
 
 ## Audit Trail
 

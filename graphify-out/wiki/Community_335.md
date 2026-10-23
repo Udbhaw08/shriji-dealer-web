@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Branding** (5 connections) — `.agents/skills/apple-design/references/hig/branding.md`
-- **branding.md** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
+- **Data Flow Renderer** (5 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
+- **README.md** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
+- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
+- **Input** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
+- **Layout budget** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
+- **Legend** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/branding.md`
+- `.agents/skills/archify/renderers/dataflow/README.md`
 
 ## Audit Trail
 

@@ -1,44 +1,36 @@
 # Community 131
 
-> 14 nodes · cohesion 0.30
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **workflow-v2.mjs** (21 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **migrateWorkflowDocument()** (15 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **compileWorkflow()** (13 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **clone()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **legacyLayoutProbe()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **legacyRequirementProbe()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **expandableViewBox()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **requiredViewBoxFrom()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **schemaDiagnostics()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **workflow-semantic-contract.test.mjs** (3 connections) — `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
-- **diagnostic()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **result()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **serializeMigratedWorkflow()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **document()** (1 connections) — `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
+- **File management** (7 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Desktop (macOS)** (3 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Mobile (iOS, iPadOS)** (3 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **file-management.md** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Creating and opening files** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Custom file management** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Document launcher** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **File provider app extension** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Finder Sync extensions** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Quick Look previews** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Saving work** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
 
 ## Relationships
 
-- [[Community 287]] (8 shared connections)
-- [[Zoho Integration Architecture]] (4 shared connections)
-- [[Community 82]] (4 shared connections)
-- [[Community 43]] (3 shared connections)
-- [[Community 138]] (3 shared connections)
-- [[Community 147]] (2 shared connections)
-- [[Community 55]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/migrations/workflow-v2.mjs`
-- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
+- `.agents/skills/apple-design/references/hig/file-management.md`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 26 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

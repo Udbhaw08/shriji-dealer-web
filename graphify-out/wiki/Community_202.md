@@ -4,30 +4,30 @@
 
 ## Key Concepts
 
-- **site-language-continuity.test.mjs** (12 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **clickAndNavigate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **evaluate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **loadRuntime()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **navigate()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **navigationPath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **runtimePath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **startStaticServer()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **renderBlock()** (11 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderAside()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderBlocks()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderTable()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderList()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderRow()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderTabs()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderTermList()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **resolveSpans()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **trimBlankEdges()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- [[Community 44]] (1 shared connections)
-- [[Community 83]] (1 shared connections)
-- [[Community 125]] (1 shared connections)
+- [[Community 74]] (10 shared connections)
+- [[Community 201]] (2 shared connections)
+- [[Community 270]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
+- EXTRACTED: 33 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

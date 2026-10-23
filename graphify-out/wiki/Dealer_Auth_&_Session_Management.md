@@ -1,55 +1,62 @@
 # Dealer Auth & Session Management
 
-> 105 nodes · cohesion 0.03
+> 93 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **_()** (449 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **nf()** (11 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **of()** (9 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **zu()** (9 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **df()** (8 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **uf()** (8 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **mh()** (7 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **Mp()** (7 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **request()** (7 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **Tn()** (7 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **bu()** (6 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **Dc()** (6 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **fo()** (6 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **Ih()** (6 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **cf()** (5 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **du()** (5 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **eh()** (5 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **Fd()** (5 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **Gn()** (5 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **hu()** (5 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **Kt()** (5 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **sm()** (5 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **tf()** (5 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **th()** (5 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **unavailable()** (5 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- *... and 80 more nodes in this community*
+- **zoho.js** (52 connections) — `api/zoho.js`
+- **vite.config.js** (20 connections) — `vite.config.js`
+- **content.js** (19 connections) — `backend/src/services/content.js`
+- **fetchZohoProductById()** (16 connections) — `api/zoho.js`
+- **fetchZohoProducts()** (14 connections) — `api/zoho.js`
+- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
+- **zohoApiPlugin()** (13 connections) — `vite.config.js`
+- **fetchZohoWithRetry()** (12 connections) — `api/zoho.js`
+- **getZohoConfig()** (12 connections) — `api/zoho.js`
+- **content.js** (11 connections) — `api/content.js`
+- **content.js** (11 connections) — `backend/src/routes/content.js`
+- **handler()** (10 connections) — `api/content.js`
+- **createDealerContact()** (9 connections) — `api/zoho.js`
+- **getSupabaseBanners()** (9 connections) — `backend/src/services/content.js`
+- **fetchZohoCategories()** (8 connections) — `api/zoho.js`
+- **getSupabaseSchemes()** (8 connections) — `backend/src/services/content.js`
+- **fetchAllRawZohoProducts()** (7 connections) — `api/zoho.js`
+- **fetchZohoBanners()** (7 connections) — `api/zoho.js`
+- **fetchZohoSchemes()** (7 connections) — `api/zoho.js`
+- **getCategoryVisibilityMap()** (7 connections) — `api/zoho.js`
+- **getDealerById()** (7 connections) — `api/zoho.js`
+- **syncRecentProductTags()** (7 connections) — `api/zoho.js`
+- **getSupabaseBranding()** (7 connections) — `backend/src/services/content.js`
+- **fetchZohoPricebookItems()** (6 connections) — `api/zoho.js`
+- **getAccessToken()** (6 connections) — `api/zoho.js`
+- *... and 68 more nodes in this community*
 
 ## Relationships
 
-- [[Product Pages Specification]] (80 shared connections)
-- [[Product Requirements Documentation]] (78 shared connections)
-- [[Pricing Regression Test Suite]] (74 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (59 shared connections)
-- [[Community 31]] (48 shared connections)
-- [[Community 56]] (31 shared connections)
-- [[Community 38]] (31 shared connections)
-- [[Community 89]] (21 shared connections)
+- [[Pricing Regression Test Suite]] (11 shared connections)
+- [[Community 48]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- `api/content.js`
+- `api/dealer/apply.js`
+- `api/dealer/info.js`
+- `api/download.js`
+- `api/og.js`
+- `api/products/[id].js`
+- `api/products/index.js`
+- `api/products/sync-tags.js`
+- `api/zoho.js`
+- `backend/src/routes/content.js`
+- `backend/src/services/content.js`
+- `scripts/audit_prices.mjs`
+- `scripts/test-zoho-api.mjs`
+- `vite.config.js`
 
 ## Audit Trail
 
-- EXTRACTED: 783 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 461 (99%)
+- INFERRED: 4 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

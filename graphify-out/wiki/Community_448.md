@@ -1,11 +1,12 @@
 # Community 448
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **esm-CQ6kcUwp.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-CQ6kcUwp.js`
-- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-CQ6kcUwp.js`
+- **renderer-diagnostic-boundary.test.mjs** (2 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
+- **crashingRenderer()** (1 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
+- **runCrashingRenderer()** (1 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
 
 ## Relationships
 
@@ -13,11 +14,11 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/esm-CQ6kcUwp.js`
+- `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

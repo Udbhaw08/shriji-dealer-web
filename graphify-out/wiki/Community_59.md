@@ -1,52 +1,57 @@
 # Community 59
 
-> 24 nodes · cohesion 0.11
+> 25 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **preview.mjs** (23 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **startPreview()** (10 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **cli-output-types.test.mjs** (10 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **runPreview()** (3 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **compactMessage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **initialAuthoredOutput()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **previewPage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **redactDiagnostic()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **sha256()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **sourceDigest()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **cliPath** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **diagramTypes** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **here** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **parseReceipt()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **responseHeaders()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **safeJson()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **architecture** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **base** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **head** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **root** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **workflow** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **workspace()** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **auth.js** (48 connections) — `backend/src/routes/auth.js`
+- **notifications.js** (15 connections) — `backend/src/services/notifications.js`
+- **validators.js** (15 connections) — `backend/src/utils/validators.js`
+- **normalizePhone()** (14 connections) — `backend/src/utils/phone.js`
+- **normalizeEmail()** (12 connections) — `backend/src/utils/validators.js`
+- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
+- **phone.js** (7 connections) — `backend/src/utils/phone.js`
+- **isValidPhone()** (7 connections) — `backend/src/utils/validators.js`
+- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
+- **sendWhatsAppOtp()** (5 connections) — `backend/src/services/notifications.js`
+- **resolveUserWithDealer()** (4 connections) — `backend/src/routes/auth.js`
+- **isValidEmail()** (4 connections) — `backend/src/utils/validators.js`
+- **isValidName()** (4 connections) — `backend/src/utils/validators.js`
+- **emailOnlyIdentifier()** (3 connections) — `backend/src/routes/auth.js`
+- **findUserByEmail()** (3 connections) — `backend/src/routes/auth.js`
+- **issueSession()** (3 connections) — `backend/src/routes/auth.js`
+- **notify()** (3 connections) — `backend/src/services/notifications.js`
+- **sendEmailOtp()** (3 connections) — `backend/src/services/notifications.js`
+- **sendOtpNotification()** (3 connections) — `backend/src/services/notifications.js`
+- **isValidGstin()** (3 connections) — `backend/src/utils/validators.js`
+- **publicUser()** (2 connections) — `backend/src/routes/auth.js`
+- **isValidPincode()** (2 connections) — `backend/src/utils/validators.js`
+- **googleClient** (1 connections) — `backend/src/routes/auth.js`
+- **lastCrmSyncByDealerId** (1 connections) — `backend/src/routes/auth.js`
+- **strictLimit** (1 connections) — `backend/src/routes/auth.js`
 
 ## Relationships
 
-- [[Community 242]] (3 shared connections)
-- [[Community 103]] (3 shared connections)
-- [[Community 43]] (2 shared connections)
-- [[Community 201]] (2 shared connections)
-- [[Community 321]] (2 shared connections)
-- [[Community 240]] (2 shared connections)
+- [[Community 52]] (17 shared connections)
+- [[Pricing Regression Test Suite]] (16 shared connections)
+- [[Community 114]] (15 shared connections)
+- [[Community 48]] (6 shared connections)
+- [[Community 82]] (5 shared connections)
+- [[Community 138]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/preview.mjs`
-- `.agents/skills/archify/test/cli-output-types.test.mjs`
+- `backend/src/routes/auth.js`
+- `backend/src/services/notifications.js`
+- `backend/src/utils/phone.js`
+- `backend/src/utils/validators.js`
+- `backend/test/interconnection.test.mjs`
+- `backend/test/validators.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 71 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 177 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

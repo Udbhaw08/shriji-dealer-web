@@ -1,35 +1,37 @@
 # Community 147
 
-> 13 nodes · cohesion 0.21
+> 13 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **workflow-compiler-hard-contract.test.mjs** (14 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **workflow()** (4 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **oneLaneAnchors()** (3 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **oneLaneWorkflow()** (3 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **crossingAtForwardCollinearViaWorkflow()** (2 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **nestedOutsideRightCorridorWorkflow()** (2 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **assertExplicitPinConflict()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **assertOrthogonal()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **assertSupportedFixesNameChangedEdge()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **clone()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **mutate()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **routeContainsChannel()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **segmentMeetsRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **focus-browser.test.mjs** (17 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **run()** (8 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **stable()** (6 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **click()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **key()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **select()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **focus()** (2 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **variant()** (1 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
 
 ## Relationships
 
-- [[Community 131]] (2 shared connections)
-- [[Community 82]] (1 shared connections)
+- [[Community 53]] (5 shared connections)
+- [[Community 63]] (3 shared connections)
+- [[Community 47]] (1 shared connections)
+- [[Community 129]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- `.agents/skills/archify/test/focus-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 58 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

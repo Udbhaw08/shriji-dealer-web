@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Sequence Renderer** (5 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **Layout budget** (2 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **README.md** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **Column fit** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **Input** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **Legend** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **Visual Workflow** (6 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **visual-workflow.md** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Generated Assets** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Image Generation Capability** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Three Visual Directions** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Visual QA** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Visual Target Gate** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/sequence/README.md`
+- `.agents/skills/refero-design/references/visual-workflow.md`
 
 ## Audit Trail
 

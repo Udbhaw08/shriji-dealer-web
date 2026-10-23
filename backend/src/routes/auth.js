@@ -249,7 +249,13 @@ authRouter.post('/google', strictLimit, async (req, res, next) => {
     if (!user) {
       [user] = await sql`insert into users (email, full_name, role, status, email_verified) values (${email}, ${payload.name || payload.given_name || null}, 'customer', 'active', true) returning *`;
       await audit(user.id, 'auth.google_signup', 'user', user.id);
-    } else await audit(user.id, 'auth.google_login', 'user', user.id);
+    } else {
+      if (!user.email_verified) {
+        await sql`update users set email_verified = true where id = ${user.id}`;
+        user.email_verified = true;
+      }
+      await audit(user.id, 'auth.google_login', 'user', user.id);
+    }
     res.json(await issueSession(user));
   } catch (error) { next(error); }
 });

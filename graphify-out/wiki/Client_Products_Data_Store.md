@@ -1,70 +1,60 @@
 # Client Products Data Store
 
-> 51 nodes · cohesion 0.09
+> 50 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **sql** (67 connections) — `backend/src/db/pool.js`
-- **dealers.js** (36 connections) — `backend/src/routes/dealers.js`
-- **pool.js** (30 connections) — `backend/src/db/pool.js`
-- **staff.js** (23 connections) — `backend/src/services/staff.js`
-- **audit()** (17 connections) — `backend/src/utils/audit.js`
-- **auth.js** (8 connections) — `backend/src/middleware/auth.js`
-- **audit.js** (7 connections) — `backend/src/utils/audit.js`
-- **prices.js** (6 connections) — `backend/src/routes/prices.js`
-- **sync-supabase-content.js** (6 connections) — `backend/scripts/sync-supabase-content.js`
-- **applyDealer()** (6 connections) — `backend/src/services/dealerApp.js`
-- **createInvite()** (6 connections) — `backend/src/services/staff.js`
-- **sha256()** (6 connections) — `backend/src/utils/hash.js`
-- **upload.js** (5 connections) — `api/upload.js`
-- **jwtAuth()** (5 connections) — `backend/src/middleware/auth.js`
-- **seed-content.js** (4 connections) — `backend/scripts/seed-content.js`
-- **deactivateDealer()** (4 connections) — `backend/src/services/dealerApp.js`
-- **approveStaff()** (4 connections) — `backend/src/services/staff.js`
-- **deleteStaff()** (4 connections) — `backend/src/services/staff.js`
-- **holdStaff()** (4 connections) — `backend/src/services/staff.js`
-- **resumeStaff()** (4 connections) — `backend/src/services/staff.js`
-- **revokeStaff()** (4 connections) — `backend/src/services/staff.js`
-- **toggleAllStaffPrice()** (4 connections) — `backend/src/services/staff.js`
-- **toggleStaffPrice()** (4 connections) — `backend/src/services/staff.js`
-- **requireApprovedDealer()** (3 connections) — `backend/src/middleware/auth.js`
-- **inspect-db.js** (3 connections) — `backend/scripts/inspect-db.js`
-- *... and 26 more nodes in this community*
+- **geometry.mjs** (75 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **asArray()** (43 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **geometry.test.mjs** (34 connections) — `.agents/skills/archify/test/geometry.test.mjs`
+- **isFinitePoint()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanFlowProblems()** (17 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanEndpointSideProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **collectLabelRouteClearance()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **segmentIntersectsRect()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **suggestLabelObstacleFix()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **collectBorderRuns()** (10 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **normalizeRoutePoints()** (10 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **collectAmbiguousCorridors()** (8 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **segmentRectClearance()** (8 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **suggestLabelPairFix()** (8 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **recordDiagnostic()** (7 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **collectRouteRhythmIssues()** (7 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **routeBudgetMetrics()** (6 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **automaticPortRhythmBridge()** (5 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **forwardCollinearAnalysisSegments()** (5 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **sourceSegmentIndexAtPoint()** (5 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **suggestComponentSeparation()** (5 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **crossProduct()** (4 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **endpointSideIssue()** (4 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **formatRect()** (4 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **relationshipSubject()** (4 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [[Community 46]] (31 shared connections)
-- [[Community 45]] (17 shared connections)
-- [[Community 73]] (17 shared connections)
-- [[Price Presentation & Product UI]] (11 shared connections)
-- [[Community 81]] (11 shared connections)
-- [[Community 110]] (5 shared connections)
-- [[Community 135]] (4 shared connections)
+- [[Community 30]] (50 shared connections)
+- [[Community 45]] (24 shared connections)
+- [[Community 46]] (23 shared connections)
+- [[Zoho Integration Architecture]] (19 shared connections)
+- [[Community 83]] (19 shared connections)
+- [[Community 34]] (16 shared connections)
+- [[Live Pricing Audit Tool]] (6 shared connections)
+- [[Product Requirements Documentation]] (4 shared connections)
+- [[Community 107]] (3 shared connections)
 
 ## Source Files
 
-- `api/upload.js`
-- `backend/scripts/check-readiness.js`
-- `backend/scripts/inspect-db.js`
-- `backend/scripts/migrate-content.js`
-- `backend/scripts/seed-content.js`
-- `backend/scripts/setup-buckets.js`
-- `backend/scripts/setup-policies.js`
-- `backend/scripts/sync-supabase-content.js`
-- `backend/scripts/test-storage.js`
-- `backend/src/db/pool.js`
-- `backend/src/middleware/auth.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/routes/prices.js`
-- `backend/src/services/dealerApp.js`
-- `backend/src/services/staff.js`
-- `backend/src/utils/audit.js`
-- `backend/src/utils/hash.js`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- `.agents/skills/archify/renderers/shared/geometry.mjs`
+- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- `.agents/skills/archify/test/geometry.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 313 (99%)
-- INFERRED: 3 (1%)
+- EXTRACTED: 394 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

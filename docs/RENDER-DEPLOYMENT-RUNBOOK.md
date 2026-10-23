@@ -104,9 +104,13 @@ GOOGLE_CLIENT_ID=[Your Google Client ID]
 GOOGLE_CLIENT_SECRET=[Your Google Client Secret]
 FIREBASE_PROJECT_ID=[Your Firebase Project ID]
 FIREBASE_API_KEY=[Your Firebase API Key]
-WHATSAPP_TOKEN=[Your WhatsApp Token]
-WHATSAPP_PHONE_ID=[Your WhatsApp Phone ID]
-WHATSAPP_TEMPLATE_NAME=[Your WhatsApp Template Name]
+# Meta WhatsApp Cloud API OTP
+WHATSAPP_TOKEN=[Your Permanent Meta System User Token from backend/.env]
+WHATSAPP_PHONE_ID=1454730707713736
+WHATSAPP_TEMPLATE_NAME=otp_template
+WHATSAPP_TEMPLATE_LANG=en
+WHATSAPP_GRAPH_API_VERSION=v21.0
+WHATSAPP_TEMPLATE_HAS_BUTTON=true
 ```
 
 > **Note on PORT**: Do NOT manually set `PORT=8080` in Render. Render automatically assigns `$PORT` (typically `10000`), which `src/config/env.js` reads dynamically.

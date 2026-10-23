@@ -1,37 +1,42 @@
 # Community 114
 
-> 16 nodes · cohesion 0.12
+> 17 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Refero MCP Tools Reference** (7 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **Screens** (5 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **Flows** (3 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **Styles** (3 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **mcp-tools.md** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **Common Mistakes** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **If Results Are Weak** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_get_flow`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_get_screen`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_get_screen_image`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_get_similar_screens`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_get_style`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_search_flows`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_search_screens`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_search_styles`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **Response Formats** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **crmClient.js** (32 connections) — `backend/src/services/crmClient.js`
+- **crmFetch()** (12 connections) — `backend/src/services/crmClient.js`
+- **cleanName()** (7 connections) — `backend/src/utils/validators.js`
+- **crmConfigured()** (6 connections) — `backend/src/services/crmClient.js`
+- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
+- **createDealerContact()** (5 connections) — `backend/src/services/crmClient.js`
+- **updateDealerCodeInCrm()** (5 connections) — `backend/src/services/crmClient.js`
+- **resolveContactNames()** (4 connections) — `backend/src/services/crmClient.js`
+- **deactivateAccountInCrm()** (3 connections) — `backend/src/services/crmClient.js`
+- **deactivateContactInCrm()** (3 connections) — `backend/src/services/crmClient.js`
+- **getDealerAccount()** (3 connections) — `backend/src/services/crmClient.js`
+- **isCrmConfigured()** (3 connections) — `backend/src/services/crmClient.js`
+- **getAccessToken()** (2 connections) — `backend/src/services/crmClient.js`
+- **getDealerContact()** (2 connections) — `backend/src/services/crmClient.js`
+- **getPrimaryContactForAccount()** (2 connections) — `backend/src/services/crmClient.js`
+- **linkContactToBackendUser()** (2 connections) — `backend/src/services/crmClient.js`
+- **FIELDS** (1 connections) — `backend/src/services/crmClient.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 59]] (15 shared connections)
+- [[Community 52]] (7 shared connections)
+- [[Pricing Regression Test Suite]] (5 shared connections)
+- [[Community 48]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/mcp-tools.md`
+- `backend/src/services/crmClient.js`
+- `backend/src/utils/validators.js`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
+- EXTRACTED: 97 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

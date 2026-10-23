@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **performance-plus.md** (1 connections) — `.agents/skills/swiftui-pro/references/performance-plus.md`
-- **Deeper performance work** (1 connections) — `.agents/skills/swiftui-pro/references/performance-plus.md`
+- **accessibility.md** (1 connections) — `.agents/skills/swiftui-pro/references/accessibility.md`
+- **Accessibility** (1 connections) — `.agents/skills/swiftui-pro/references/accessibility.md`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/performance-plus.md`
+- `.agents/skills/swiftui-pro/references/accessibility.md`
 
 ## Audit Trail
 

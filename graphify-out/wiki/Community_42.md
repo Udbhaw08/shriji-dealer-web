@@ -1,47 +1,55 @@
 # Community 42
 
-> 33 nodes · cohesion 0.06
+> 34 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **scripts** (15 connections) — `.agents/skills/archify/package.json`
-- **package.json** (11 connections) — `.agents/skills/archify/package.json`
-- **devDependencies** (5 connections) — `.agents/skills/archify/package.json`
-- **bin** (2 connections) — `.agents/skills/archify/package.json`
-- **engines** (2 connections) — `.agents/skills/archify/package.json`
-- **overrides** (2 connections) — `.agents/skills/archify/package.json`
-- **archify** (1 connections) — `.agents/skills/archify/package.json`
-- **description** (1 connections) — `.agents/skills/archify/package.json`
-- **ajv** (1 connections) — `.agents/skills/archify/package.json`
-- **parse5** (1 connections) — `.agents/skills/archify/package.json`
-- **saxes** (1 connections) — `.agents/skills/archify/package.json`
-- **simple-icons** (1 connections) — `.agents/skills/archify/package.json`
-- **node** (1 connections) — `.agents/skills/archify/package.json`
-- **license** (1 connections) — `.agents/skills/archify/package.json`
-- **name** (1 connections) — `.agents/skills/archify/package.json`
-- **fast-uri** (1 connections) — `.agents/skills/archify/package.json`
-- **private** (1 connections) — `.agents/skills/archify/package.json`
-- **build:gallery** (1 connections) — `.agents/skills/archify/package.json`
-- **build:guide** (1 connections) — `.agents/skills/archify/package.json`
-- **build:readme-showcase** (1 connections) — `.agents/skills/archify/package.json`
-- **build:start** (1 connections) — `.agents/skills/archify/package.json`
-- **check:brand-marks** (1 connections) — `.agents/skills/archify/package.json`
-- **check:release-identity** (1 connections) — `.agents/skills/archify/package.json`
-- **check:validators** (1 connections) — `.agents/skills/archify/package.json`
-- **check:viewer** (1 connections) — `.agents/skills/archify/package.json`
-- *... and 8 more nodes in this community*
+- **jd()** (14 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **Bd()** (12 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **Pd()** (12 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **nf()** (11 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **xi()** (11 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **ze()** (11 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **Kd()** (9 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **of()** (9 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **ot()** (9 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **uf()** (8 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **zd()** (8 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **at()** (7 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **df()** (7 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **af()** (6 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **ef()** (6 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **Fd()** (6 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **ja()** (6 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **kf()** (6 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **qd()** (6 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **tf()** (5 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **Vd()** (5 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **cf()** (4 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **jf()** (4 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **mf()** (4 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- **sf()** (4 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Product Pages Specification]] (39 shared connections)
+- [[Design System & UI Tokens]] (15 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (10 shared connections)
+- [[Roles & Customer Sharing Spec]] (5 shared connections)
+- [[Graphify Agent Rules]] (5 shared connections)
+- [[Community 88]] (4 shared connections)
+- [[Community 80]] (4 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (3 shared connections)
+- [[Community 38]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/package.json`
+- `ios/App/App/public/assets/index-jHj_87_x.js`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (100%)
+- EXTRACTED: 218 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

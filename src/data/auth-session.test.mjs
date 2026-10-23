@@ -24,7 +24,8 @@ globalThis.window = globalThis;
 globalThis.localStorage = new MockStorage();
 globalThis.sessionStorage = new MockStorage();
 
-const { initTokens, hasSession, PREFS_KEY, SESSION_PROFILE_KEY, SESSION_TTL_MS } = await import("./auth.js");
+const { initTokens, hasSession, sessionFromAuth, PREFS_KEY, SESSION_PROFILE_KEY, SESSION_TTL_MS } = await import("./auth.js");
+const { isValidEmail, isValidName, isValidPhone } = await import("./validators.js");
 
 test("session tokens are preserved in localStorage with 30-day sliding window", async () => {
   globalThis.localStorage.clear();
@@ -87,4 +88,72 @@ test("session expires if inactivity exceeds 30 days", async () => {
   assert.equal(hasSession(), false, "Expired session should not be loaded");
   assert.equal(globalThis.localStorage.getItem(PREFS_KEY), null, "Expired tokens should be purged from localStorage");
   assert.equal(globalThis.localStorage.getItem(SESSION_PROFILE_KEY), null, "Expired profile should be purged");
+});
+
+test("sessionFromAuth constructs pure customer session for email and Google signups", () => {
+  const customerUser = {
+    id: "usr-google-999",
+    email: "customer@gmail.com",
+    role: "customer",
+    status: "active",
+    email_verified: true,
+    full_name: "Google Customer",
+    dealer_id: null,
+  };
+
+  const session = sessionFromAuth(customerUser, null);
+  assert.equal(session.role, "customer", "Must be customer role");
+  assert.equal(session.dealerId, null, "Must have no dealer ID");
+  assert.equal(session.dealer, null, "Must have no dealer object");
+  assert.equal(session.email_verified, true, "Email verified must reflect user record");
+});
+
+test("sessionFromAuth preserves verified dealer credentials across login sessions", () => {
+  const dealerUser = {
+    id: "usr-dealer-888",
+    email: "owner@dealership.com",
+    role: "dealer",
+    status: "active",
+    email_verified: true,
+    full_name: "Dealer Principal",
+    dealer_id: "dlr-1234",
+  };
+
+  const dealerRecord = {
+    id: "dlr-1234",
+    business_name: "Sunshine Hub Delhi",
+    dealer_code: "DE-DL-001",
+    status: "approved",
+    price_tier: "MH Dist Basic Oct 2026",
+    pricebook_id: "pb-3334",
+  };
+
+  const session = sessionFromAuth(dealerUser, dealerRecord);
+  assert.equal(session.role, "dealer", "Must be dealer role");
+  assert.equal(session.dealerId, "dlr-1234");
+  assert.equal(session.dealer?.name, "Sunshine Hub Delhi");
+  assert.equal(session.dealer?.dealer_code, "DE-DL-001");
+  assert.equal(session.canSeeDealerPrice, true);
+});
+
+test("Client-side validation rules for login and signup", () => {
+  // Valid email
+  assert.equal(isValidEmail("user@example.com"), true);
+  assert.equal(isValidEmail("john.doe@company.co.in"), true);
+  assert.equal(isValidEmail("plainaddress"), false);
+  assert.equal(isValidEmail("@missingusername.com"), false);
+  assert.equal(isValidEmail("user@domain"), false);
+
+  // Valid full name
+  assert.equal(isValidName("Rajesh Sharma"), true);
+  assert.equal(isValidName("O'Connor"), true);
+  assert.equal(isValidName("A"), false, "Too short");
+  assert.equal(isValidName(""), false);
+  assert.equal(isValidName("John123"), false, "Numbers rejected");
+
+  // Valid WhatsApp phone
+  assert.equal(isValidPhone("9876543210"), true);
+  assert.equal(isValidPhone("8826867932"), true);
+  assert.equal(isValidPhone("1234567890"), false, "Must start with 6-9");
+  assert.equal(isValidPhone("98765"), false, "Too short");
 });

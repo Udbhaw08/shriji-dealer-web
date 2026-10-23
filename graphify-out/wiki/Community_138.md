@@ -1,37 +1,38 @@
 # Community 138
 
-> 14 nodes · cohesion 0.14
+> 14 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **workflow-migration.test.mjs** (22 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **copyFixture()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **explicitPinConflictWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **fixture** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **heightConstrainedWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **parseJsonOutput()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **profileDivergenceWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **runMigration()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **runValidation()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **commerceClient.js** (22 connections) — `backend/src/services/commerceClient.js`
+- **ensureContactPricebookForCrmAccount()** (8 connections) — `backend/src/services/commerceClient.js`
+- **fetchCatalog()** (6 connections) — `backend/src/services/commerceClient.js`
+- **booksFetch()** (5 connections) — `backend/src/services/commerceClient.js`
+- **commerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
+- **commerceFetch()** (5 connections) — `backend/src/services/commerceClient.js`
+- **isCommerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
+- **resolvePricebookId()** (5 connections) — `backend/src/services/commerceClient.js`
+- **assignPricebookToContact()** (4 connections) — `backend/src/services/commerceClient.js`
+- **deactivateCommerceContact()** (3 connections) — `backend/src/services/commerceClient.js`
+- **fetchCommercePricebooks()** (3 connections) — `backend/src/services/commerceClient.js`
+- **fetchPricebookRates()** (3 connections) — `backend/src/services/commerceClient.js`
+- **getAccessToken()** (3 connections) — `backend/src/services/commerceClient.js`
+- **parseRate()** (2 connections) — `backend/src/services/commerceClient.js`
 
 ## Relationships
 
-- [[Community 287]] (5 shared connections)
-- [[Community 131]] (3 shared connections)
-- [[Community 82]] (1 shared connections)
+- [[Community 52]] (11 shared connections)
+- [[Pricing Regression Test Suite]] (4 shared connections)
+- [[Community 59]] (2 shared connections)
+- [[Community 48]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/workflow-migration.test.mjs`
+- `backend/src/services/commerceClient.js`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 79 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

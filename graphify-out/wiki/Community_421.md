@@ -1,12 +1,13 @@
 # Community 421
 
-> 3 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **MainActivity.java** (2 connections) — `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
-- **MainActivity** (2 connections) — `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
-- **BridgeActivity** (2 connections)
+- **generate-viewer.test.mjs** (3 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
+- **fixture()** (1 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
+- **fragments** (1 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
 
 ## Relationships
 
@@ -14,7 +15,7 @@
 
 ## Source Files
 
-- `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
+- `.agents/skills/archify/test/generate-viewer.test.mjs`
 
 ## Audit Trail
 

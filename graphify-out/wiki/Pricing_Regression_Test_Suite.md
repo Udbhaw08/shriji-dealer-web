@@ -1,55 +1,70 @@
 # Pricing Regression Test Suite
 
-> 56 nodes · cohesion 0.09
+> 51 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **D()** (25 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **get()** (24 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **Q()** (24 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **np()** (21 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **Ou()** (19 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **bm()** (14 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **pu()** (14 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **fu()** (13 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **It()** (13 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **delete()** (11 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **hi()** (11 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **nn()** (11 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **yl()** (11 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **am()** (10 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **bl()** (9 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **ep()** (9 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **mm()** (9 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **xu()** (9 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **ku()** (8 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **mu()** (8 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **om()** (8 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **tm()** (8 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **eu()** (7 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **jl()** (7 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- **jm()** (7 connections) — `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
-- *... and 31 more nodes in this community*
+- **sql** (67 connections) — `backend/src/db/pool.js`
+- **dealers.js** (36 connections) — `backend/src/routes/dealers.js`
+- **pool.js** (30 connections) — `backend/src/db/pool.js`
+- **staff.js** (23 connections) — `backend/src/services/staff.js`
+- **audit()** (17 connections) — `backend/src/utils/audit.js`
+- **auth.js** (8 connections) — `backend/src/middleware/auth.js`
+- **audit.js** (7 connections) — `backend/src/utils/audit.js`
+- **prices.js** (6 connections) — `backend/src/routes/prices.js`
+- **sync-supabase-content.js** (6 connections) — `backend/scripts/sync-supabase-content.js`
+- **applyDealer()** (6 connections) — `backend/src/services/dealerApp.js`
+- **createInvite()** (6 connections) — `backend/src/services/staff.js`
+- **sha256()** (6 connections) — `backend/src/utils/hash.js`
+- **upload.js** (5 connections) — `api/upload.js`
+- **jwtAuth()** (5 connections) — `backend/src/middleware/auth.js`
+- **seed-content.js** (4 connections) — `backend/scripts/seed-content.js`
+- **deactivateDealer()** (4 connections) — `backend/src/services/dealerApp.js`
+- **approveStaff()** (4 connections) — `backend/src/services/staff.js`
+- **deleteStaff()** (4 connections) — `backend/src/services/staff.js`
+- **holdStaff()** (4 connections) — `backend/src/services/staff.js`
+- **resumeStaff()** (4 connections) — `backend/src/services/staff.js`
+- **revokeStaff()** (4 connections) — `backend/src/services/staff.js`
+- **toggleAllStaffPrice()** (4 connections) — `backend/src/services/staff.js`
+- **toggleStaffPrice()** (4 connections) — `backend/src/services/staff.js`
+- **requireApprovedDealer()** (3 connections) — `backend/src/middleware/auth.js`
+- **inspect-db.js** (3 connections) — `backend/scripts/inspect-db.js`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (74 shared connections)
-- [[Community 38]] (23 shared connections)
-- [[Product Pages Specification]] (22 shared connections)
-- [[Community 31]] (21 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (18 shared connections)
-- [[Community 89]] (9 shared connections)
-- [[Product Requirements Documentation]] (6 shared connections)
-- [[Community 56]] (5 shared connections)
+- [[Community 52]] (32 shared connections)
+- [[Community 48]] (17 shared connections)
+- [[Community 59]] (16 shared connections)
+- [[Dealer Auth & Session Management]] (11 shared connections)
+- [[Community 82]] (11 shared connections)
+- [[Community 114]] (5 shared connections)
+- [[Community 138]] (4 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+- `api/upload.js`
+- `backend/scripts/check-readiness.js`
+- `backend/scripts/inspect-db.js`
+- `backend/scripts/migrate-content.js`
+- `backend/scripts/seed-content.js`
+- `backend/scripts/setup-buckets.js`
+- `backend/scripts/setup-policies.js`
+- `backend/scripts/sync-supabase-content.js`
+- `backend/scripts/test-storage.js`
+- `backend/src/db/pool.js`
+- `backend/src/middleware/auth.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/routes/prices.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/services/staff.js`
+- `backend/src/utils/audit.js`
+- `backend/src/utils/hash.js`
 
 ## Audit Trail
 
-- EXTRACTED: 450 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 313 (99%)
+- INFERRED: 3 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

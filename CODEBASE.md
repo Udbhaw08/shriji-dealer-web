@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-23T22:22:09.440+05:30 (GMT+5:30)
-> Total Project Files: 1748
+> Last synchronized: 2026-10-23T23:31:13.777+05:30 (GMT+5:30)
+> Total Project Files: 1759
 
 ---
 
@@ -94,9 +94,9 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/pages/Home.jsx`** (20.6 KB)
 - **`src/pages/LegalPrivacy.jsx`** (5.7 KB)
 - **`src/pages/LegalTerms.jsx`** (4.2 KB)
-- **`src/pages/Login.jsx`** (23.1 KB)
+- **`src/pages/Login.jsx`** (44.5 KB)
 - **`src/pages/PrivacyPolicy.jsx`** (0.0 KB)
-- **`src/pages/Product.jsx`** (35.0 KB)
+- **`src/pages/Product.jsx`** (35.2 KB)
 - **`src/pages/Products.jsx`** (33.5 KB)
 - **`src/pages/Schemes.jsx`** (19.3 KB)
 - **`src/pages/Support.jsx`** (23.8 KB)
@@ -116,7 +116,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 
 ### 4.3 State & Business Logic (`src/data/`)
 - **`src/data/api.js`** (1.7 KB)
-- **`src/data/auth-session.test.mjs`** (3.1 KB)
+- **`src/data/auth-session.test.mjs`** (5.6 KB)
 - **`src/data/auth.js`** (14.5 KB)
 - **`src/data/dealer.js`** (9.0 KB)
 - **`src/data/dealer.test.mjs`** (4.3 KB)
@@ -144,7 +144,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`api/products/sync-tags.js`** (0.8 KB)
 - **`api/products/[id].js`** (1.3 KB)
 - **`api/upload.js`** (7.5 KB)
-- **`api/zoho.js`** (36.2 KB)
+- **`api/zoho.js`** (42.5 KB)
 
 ### 4.5 Automation & Utility Scripts (`scripts/`)
 - **`scripts/audit_prices.mjs`** (3.8 KB)

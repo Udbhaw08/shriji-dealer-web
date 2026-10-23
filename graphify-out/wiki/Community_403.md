@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **common.schema.json** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **$id** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **$schema** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **title** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **5. Font Weight** (4 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Rules** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Standard Weights** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Weight + Size Relationship** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- [[Community 75]] (1 shared connections)
+- [[Community 230]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 

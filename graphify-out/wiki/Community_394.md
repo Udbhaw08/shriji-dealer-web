@@ -1,13 +1,13 @@
 # Community 394
 
-> 4 nodes · cohesion 0.50
+> 4 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **Using modern SwiftUI API** (3 connections) — `.agents/skills/swiftui-pro/references/api.md`
-- **api.md** (1 connections) — `.agents/skills/swiftui-pro/references/api.md`
-- **Toolbars** (1 connections) — `.agents/skills/swiftui-pro/references/api.md`
-- **Using ObservableObject** (1 connections) — `.agents/skills/swiftui-pro/references/api.md`
+- **Test** (2 connections) — `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
+- **ExampleUnitTest.java** (2 connections) — `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
+- **ExampleUnitTest** (2 connections) — `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
+- **.addition_isCorrect()** (2 connections) — `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
 
 ## Relationships
 
@@ -15,11 +15,11 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/api.md`
+- `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

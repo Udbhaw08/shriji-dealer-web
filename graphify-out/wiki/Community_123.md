@@ -1,40 +1,36 @@
 # Community 123
 
-> 15 nodes · cohesion 0.15
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **i18n.test.mjs** (20 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **catalogKeys()** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **SUPPORTED_LOCALES** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **authoredExample()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **evaluate()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **example()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **loadArtifact()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **AUTHORED_TEXT_KEYS** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **templatePath** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **Liquid Glass** (6 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Apple's rules** (5 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Cross-platform translation** (5 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **liquid-glass.md** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Color on glass** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Flutter** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **React Native** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Review checklist** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Standard materials beneath the glass** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **SwiftUI, UIKit, and AppKit** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Tauri and Electron** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **The two layers** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Where the material belongs** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Which variant** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
 
 ## Relationships
 
-- [[Community 105]] (5 shared connections)
-- [[Community 44]] (1 shared connections)
-- [[Community 83]] (1 shared connections)
-- [[Community 125]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/i18n.mjs`
-- `.agents/skills/archify/test/i18n.test.mjs`
+- `.agents/skills/apple-design/references/hig/liquid-glass.md`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

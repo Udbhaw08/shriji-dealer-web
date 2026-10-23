@@ -65,3 +65,17 @@ services:
         sync: false
       - key: GOOGLE_CLIENT_SECRET
         sync: false
+
+      # WhatsApp Cloud API OTP Integration
+      - key: WHATSAPP_TOKEN
+        sync: false
+      - key: WHATSAPP_PHONE_ID
+        value: "1454730707713736"
+      - key: WHATSAPP_TEMPLATE_NAME
+        value: "otp_template"
+      - key: WHATSAPP_TEMPLATE_LANG
+        value: "en"
+      - key: WHATSAPP_GRAPH_API_VERSION
+        value: "v21.0"
+      - key: WHATSAPP_TEMPLATE_HAS_BUTTON
+        value: "true"

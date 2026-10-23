@@ -1,42 +1,38 @@
 # Community 110
 
-> 17 nodes · cohesion 0.25
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **crmClient.js** (32 connections) — `backend/src/services/crmClient.js`
-- **crmFetch()** (12 connections) — `backend/src/services/crmClient.js`
-- **cleanName()** (7 connections) — `backend/src/utils/validators.js`
-- **crmConfigured()** (6 connections) — `backend/src/services/crmClient.js`
-- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
-- **createDealerContact()** (5 connections) — `backend/src/services/crmClient.js`
-- **updateDealerCodeInCrm()** (5 connections) — `backend/src/services/crmClient.js`
-- **resolveContactNames()** (4 connections) — `backend/src/services/crmClient.js`
-- **deactivateAccountInCrm()** (3 connections) — `backend/src/services/crmClient.js`
-- **deactivateContactInCrm()** (3 connections) — `backend/src/services/crmClient.js`
-- **getDealerAccount()** (3 connections) — `backend/src/services/crmClient.js`
-- **isCrmConfigured()** (3 connections) — `backend/src/services/crmClient.js`
-- **getAccessToken()** (2 connections) — `backend/src/services/crmClient.js`
-- **getDealerContact()** (2 connections) — `backend/src/services/crmClient.js`
-- **getPrimaryContactForAccount()** (2 connections) — `backend/src/services/crmClient.js`
-- **linkContactToBackendUser()** (2 connections) — `backend/src/services/crmClient.js`
-- **FIELDS** (1 connections) — `backend/src/services/crmClient.js`
+- **3. Exactly which keys to fetch, and from where** (9 connections) — `docs/ZOHO-INTEGRATION.md`
+- **ZOHO-INTEGRATION.md — Live Zoho Commerce & Books Backend** (7 connections) — `docs/ZOHO-INTEGRATION.md`
+- **5. API surface** (2 connections) — `docs/ZOHO-INTEGRATION.md`
+- **ZOHO-INTEGRATION.md** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **1. Active Integration Summary** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **2. The Code Seams** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.1 Organization ID — from the Commerce dashboard** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.2 Client ID + Client Secret — from the API console, not the store** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.3 Refresh Token — generated once, then permanent** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.4 Scopes** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.5 Data centre** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.6 The API call the keys unlock** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.7 Still to confirm — only the store owner can answer** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **4. Architecture — the part that cannot be skipped** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **6. Migration checklist** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **How to hand the credentials over safely** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **Sources** (1 connections) — `docs/ZOHO-INTEGRATION.md`
 
 ## Relationships
 
-- [[Community 46]] (17 shared connections)
-- [[Community 73]] (5 shared connections)
-- [[Client Products Data Store]] (5 shared connections)
-- [[Community 45]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `backend/src/services/crmClient.js`
-- `backend/src/utils/validators.js`
+- `docs/ZOHO-INTEGRATION.md`
 
 ## Audit Trail
 
-- EXTRACTED: 97 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

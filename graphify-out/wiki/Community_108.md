@@ -1,39 +1,49 @@
 # Community 108
 
-> 17 nodes · cohesion 0.12
+> 17 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **HIG reference lookup** (16 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **hig-lookup.md** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Content** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Layout and organization** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Menus and actions** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Navigation and search** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Presentation** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Selection and input** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Status** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › System experiences** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Curated guides** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Foundations** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Getting started** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Inputs** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Pages Apple publishes that are not included** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Patterns** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Technologies** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Icon()** (18 connections) — `src/ui.jsx`
+- **ContentAdminDashboard.jsx** (12 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **HeroSlider.jsx** (11 connections) — `src/components/HeroSlider.jsx`
+- **video.js** (5 connections) — `src/utils/video.js`
+- **FileOrUrlInput.jsx** (4 connections) — `src/components/FileOrUrlInput.jsx`
+- **parseVideoUrl()** (4 connections) — `src/utils/video.js`
+- **HeroSlider()** (3 connections) — `src/components/HeroSlider.jsx`
+- **STATS** (3 connections) — `src/data/site.js`
+- **video-banner.test.mjs** (3 connections) — `src/data/video-banner.test.mjs`
+- **FileOrUrlInput()** (2 connections) — `src/components/FileOrUrlInput.jsx`
+- **ContentAdminDashboard()** (2 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **getVideoBadgeLabel()** (2 connections) — `src/utils/video.js`
+- **getCachedBanners()** (1 connections) — `src/components/HeroSlider.jsx`
+- **DEFAULT_BANNER_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **DEFAULT_BRANDING_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **DEFAULT_SCHEME_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **QUICK_COLORS** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Product Brand & Business Vision]] (17 shared connections)
+- [[Project Readme & Layout]] (5 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (3 shared connections)
+- [[Community 76]] (2 shared connections)
+- [[Community 40]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig-lookup.md`
+- `src/components/FileOrUrlInput.jsx`
+- `src/components/HeroSlider.jsx`
+- `src/data/site.js`
+- `src/data/video-banner.test.mjs`
+- `src/pages/ContentAdminDashboard.jsx`
+- `src/ui.jsx`
+- `src/utils/video.js`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 73 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

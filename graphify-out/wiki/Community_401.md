@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **6. Line Height** (4 connections) — `.agents/skills/refero-design/references/typography.md`
+- **2. Type Scale** (4 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Common Ratios** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 - **CSS Tokens** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Principles** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Quick Reference** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Practical Scale (Minor Third × 16px base)** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- [[Community 226]] (1 shared connections)
+- [[Community 230]] (1 shared connections)
 
 ## Source Files
 

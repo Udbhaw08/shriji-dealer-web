@@ -1,8 +1,8 @@
 # ll()
 
-> God node · 40 connections · `android/app/src/main/assets/public/assets/index-2OxP_Ib6.js`
+> God node · 38 connections · `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
 
-**Community:** [[Product Pages Specification]]
+**Community:** [[Architecture Doc Generator]]
 
 ## Connections by Relation
 
@@ -15,18 +15,18 @@
 - [[r()]] `EXTRACTED`
 - [[jc()]] `EXTRACTED`
 - [[ol()]] `EXTRACTED`
-- [[sa()]] `EXTRACTED`
-- [[ba()]] `EXTRACTED`
-- [[Bi()]] `EXTRACTED`
-- [[il()]] `EXTRACTED`
-- [[ga()]] `EXTRACTED`
-- [[la()]] `EXTRACTED`
-- [[Sp()]] `EXTRACTED`
-- [[we()]] `EXTRACTED`
 - [[ya()]] `EXTRACTED`
+- [[zi()]] `EXTRACTED`
+- [[Ce()]] `EXTRACTED`
+- [[il()]] `EXTRACTED`
+- [[Sp()]] `EXTRACTED`
+- [[pa()]] `EXTRACTED`
 - [[zd()]] `EXTRACTED`
-- [[Qi()]] `EXTRACTED`
+- [[Da()]] `EXTRACTED`
 - [[Fc()]] `EXTRACTED`
+- [[sa()]] `EXTRACTED`
+- [[sl()]] `EXTRACTED`
+- [[Mc()]] `EXTRACTED`
 
 ### contains
 - [[_()]] `EXTRACTED`

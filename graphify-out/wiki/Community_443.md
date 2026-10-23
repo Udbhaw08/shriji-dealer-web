@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **variant** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- [[Zoho Integration Skill]] (1 shared connections)
+- [[Community 68]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 

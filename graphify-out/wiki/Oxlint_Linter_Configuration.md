@@ -1,51 +1,52 @@
 # Oxlint Linter Configuration
 
-> 44 nodes · cohesion 0.05
+> 43 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **properties** (30 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **label** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **pad** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **row** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **brand** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **from** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **fromSide** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **id** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **kind** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **labelAt** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **labelDx** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **labelDy** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **pos** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **route** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **sublabel** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **tag** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **to** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **toSide** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **variant** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **width** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- *... and 19 more nodes in this community*
+- **properties** (28 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **label** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelSegment** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **brand** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **channelX** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **channelY** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **classification** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **from** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **fromSide** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelAt** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelDx** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelDy** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **route** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **sublabel** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **tag** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **to** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **toSide** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **variant** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **yOffset** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [[Community 121]] (5 shared connections)
-- [[Community 266]] (2 shared connections)
-- [[Community 429]] (1 shared connections)
-- [[Community 430]] (1 shared connections)
-- [[Community 347]] (1 shared connections)
+- [[Community 196]] (3 shared connections)
+- [[Community 437]] (1 shared connections)
+- [[Community 438]] (1 shared connections)
+- [[Community 439]] (1 shared connections)
+- [[Community 406]] (1 shared connections)
+- [[Community 407]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 96 (100%)
+- EXTRACTED: 92 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

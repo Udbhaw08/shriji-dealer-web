@@ -1,40 +1,44 @@
 # Community 98
 
-> 18 nodes · cohesion 0.11
+> 19 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **BACKEND-ARCHITECTURE.md — Dedicated Node Backend, Supabase Postgres & Zoho Ownership Model** (11 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **1. What is done in Zoho (setup checklist)** (4 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **6. Decision record — why this stack** (3 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **5. Storage — what the backend keeps** (2 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **BACKEND-ARCHITECTURE.md** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **0. The Ownership Rule — one sentence per system** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **1.1 CRM — dealers and staff** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **1.2 CRM — API access** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **1.3 Commerce** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **2. Backend responsibilities** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **3. Integration flows** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **4. Data movement** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **5.1 Schema (Supabase Postgres)** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **7. Service layout** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **8. Phased delivery** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **9. Migration checklist** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **Database: Supabase (chosen over Postgres-elsewhere and Firebase)** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **Runtime: dedicated Node.js 20 service (chosen over extending Vercel serverless)** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **cacheRename()** (13 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cacheRm()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **captureMutationParentSnapshots()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **invalidateCacheToken()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **prepareCacheDirectory()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **resolveCacheTarget()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stableCacheEntry()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **verifyCacheToken()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **guardedCacheMutation()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertSafeDirectory()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **isSameFile()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cacheMkdirWithToken()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stablePreparedDirectory()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **verifyDirectorySnapshots()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **verifyMutationContext()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **verifyMutationParentSnapshots()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertCacheTargetAbsent()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **canonicalizeTrustedDirectoryPrefix()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **isWithinDirectory()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 49]] (21 shared connections)
+- [[Community 104]] (14 shared connections)
+- [[Community 113]] (7 shared connections)
+- [[Community 207]] (1 shared connections)
 
 ## Source Files
 
-- `docs/BACKEND-ARCHITECTURE.md`
+- `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 130 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

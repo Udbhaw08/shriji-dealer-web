@@ -1,48 +1,62 @@
 # Community 48
 
-> 29 nodes · cohesion 0.09
+> 30 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **AppDelegate** (10 connections) — `ios/App/App/AppDelegate.swift`
-- **.application()** (7 connections) — `ios/App/App/AppDelegate.swift`
-- **.scene()** (7 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIApplication** (6 connections) — `ios/App/App/AppDelegate.swift`
-- **SceneDelegate** (5 connections) — `ios/App/App/SceneDelegate.swift`
-- **AppDelegate.swift** (3 connections) — `ios/App/App/AppDelegate.swift`
-- **SceneDelegate.swift** (3 connections) — `ios/App/App/SceneDelegate.swift`
-- **.applicationDidBecomeActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationDidEnterBackground()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillEnterForeground()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillResignActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillTerminate()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **Capacitor** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIWindow** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIKit** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIResponder** (2 connections)
-- **Any** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **Bool** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIScene** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UISceneSession** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIWindow** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIScene** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **UISceneSession** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **NSUserActivity** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **Set** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- *... and 4 more nodes in this community*
+- **server.js** (37 connections) — `backend/src/server.js`
+- **health.js** (8 connections) — `backend/src/routes/health.js`
+- **errorHandler.js** (7 connections) — `backend/src/middleware/errorHandler.js`
+- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
+- **upload.js** (5 connections) — `backend/src/routes/upload.js`
+- **uploads.js** (5 connections) — `backend/src/routes/uploads.js`
+- **migrate()** (4 connections) — `backend/src/db/migrate.js`
+- **rateLimit.js** (4 connections) — `backend/src/middleware/rateLimit.js`
+- **applied()** (3 connections) — `backend/src/db/migrate.js`
+- **startJobs()** (3 connections) — `backend/src/jobs/index.js`
+- **httpError()** (3 connections) — `backend/src/middleware/errorHandler.js`
+- **rateLimit()** (3 connections) — `backend/src/middleware/rateLimit.js`
+- **start()** (3 connections) — `backend/src/server.js`
+- **errorHandler()** (2 connections) — `backend/src/middleware/errorHandler.js`
+- **authRouter** (2 connections) — `backend/src/routes/auth.js`
+- **contentRouter** (2 connections) — `backend/src/routes/content.js`
+- **dealersRouter** (2 connections) — `backend/src/routes/dealers.js`
+- **healthRouter** (2 connections) — `backend/src/routes/health.js`
+- **uploadRouter** (2 connections) — `backend/src/routes/upload.js`
+- **uploadsRouter** (2 connections) — `backend/src/routes/uploads.js`
+- **dir** (1 connections) — `backend/src/db/migrate.js`
+- **buckets** (1 connections) — `backend/src/middleware/rateLimit.js`
+- **ALLOWED_FOLDERS** (1 connections) — `backend/src/routes/upload.js`
+- **MIME_TYPES** (1 connections) — `backend/src/routes/uploads.js`
+- **allowedOrigins** (1 connections) — `backend/src/server.js`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Pricing Regression Test Suite]] (17 shared connections)
+- [[Community 52]] (10 shared connections)
+- [[Community 59]] (6 shared connections)
+- [[Dealer Auth & Session Management]] (2 shared connections)
+- [[Community 138]] (2 shared connections)
+- [[Community 114]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/AppDelegate.swift`
-- `ios/App/App/SceneDelegate.swift`
+- `backend/src/db/migrate.js`
+- `backend/src/jobs/index.js`
+- `backend/src/middleware/errorHandler.js`
+- `backend/src/middleware/rateLimit.js`
+- `backend/src/routes/auth.js`
+- `backend/src/routes/content.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/routes/health.js`
+- `backend/src/routes/upload.js`
+- `backend/src/routes/uploads.js`
+- `backend/src/server.js`
 
 ## Audit Trail
 
-- EXTRACTED: 72 (100%)
+- EXTRACTED: 115 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
