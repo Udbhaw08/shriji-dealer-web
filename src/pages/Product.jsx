@@ -302,6 +302,7 @@ export default function Product() {
     : (p?.tag ? [p.tag] : []))
     .map((t) => (typeof t === "string" ? t : (t?.tag_name || t?.name || "")).trim())
     .filter(Boolean);
+  const tag = productTags[0] || null;
 
   const displayTitle = p?.name || p?.model || "";
 
