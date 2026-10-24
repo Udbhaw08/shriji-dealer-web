@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-24T23:28:53.436+05:30 (GMT+5:30)
-> Total Project Files: 1851
+> Last synchronized: 2026-10-25T03:21:08.217+05:30 (GMT+5:30)
+> Total Project Files: 1858
 
 ---
 
@@ -134,7 +134,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/data/portalGate.js`** (0.8 KB)
 - **`src/data/pricing.test.mjs`** (4.2 KB)
 - **`src/data/products.js`** (1.8 KB)
-- **`src/data/productsStore.js`** (5.9 KB)
+- **`src/data/productsStore.js`** (6.0 KB)
 - **`src/data/searchHelper.js`** (9.8 KB)
 - **`src/data/session.js`** (9.1 KB)
 - **`src/data/site.js`** (3.6 KB)
