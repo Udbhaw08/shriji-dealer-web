@@ -25,5 +25,6 @@ When starting any new task, bug fix, feature, or code exploration:
 2. **Zero-Price Items**: If a price is `0` or missing, display "Price on Request" (never ₹0).
 3. **Role Gating**: Customers only see MRP. Dealer wholesale rates are masked behind "View Dealer Price". `?from=` links force customer view for all viewers.
 4. **Mobile-First Layout**: Always maintain `overflow-x: clip;` and `min-width: 0;` constraints to prevent mobile browser zoom-out and horizontal panning.
-5. **No Auto-Push**: Keep changes local. Never run `git push` unless explicitly requested.
-6. **Sync Everything (Web, Mobile & Docs)**: Run `npm run sync` whenever components, routes, models, or styles change to automatically update `CODEBASE.md`, compile production assets, synchronize native `android/` and `ios/` Capacitor folders, and refresh the knowledge graph.
+5. **Multi-Skill Redesign Synthesis**: Whenever redesigning any component or page, visit the design triad: `refero-design` (website & visual design), `apple-design` (cross-platform HIG standards & materials), and `swiftui-pro` (mobile app UX & ergonomics) as detailed in `instructions.md` to create unified, highly responsive desktop and mobile app experiences.
+6. **No Auto-Push**: Keep changes local. Never run `git push` unless explicitly requested.
+7. **Sync Everything (Web, Mobile & Docs)**: Run `npm run sync` whenever components, routes, models, or styles change to automatically update `CODEBASE.md`, compile production assets, synchronize native `android/` and `ios/` Capacitor folders, and refresh the knowledge graph.

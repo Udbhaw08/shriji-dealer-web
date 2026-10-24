@@ -1,13 +1,18 @@
 # Community 223
 
-> 4 nodes · cohesion 0.50
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **common.schema.json** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **$id** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **$schema** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **title** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **Siri** (7 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Getting your app to work with Siri** (2 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **siri.md** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Customizing your app’s experience with Siri** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Editorial guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Sharing contextual information** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
 
 ## Relationships
 
@@ -15,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/apple-design/references/hig/siri.md`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

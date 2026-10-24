@@ -1,50 +1,51 @@
 # Community 49
 
-> 25 nodes · cohesion 0.17
+> 30 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **update-contract.mjs** (16 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **update-contract.test.mjs** (10 connections) — `.agents/skills/archify/test/update-contract.test.mjs`
-- **compareSemver()** (9 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **validateStableUpdateManifest()** (8 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **normalizeState()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **isStableCoreVersion()** (7 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **parseSemver()** (7 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **validateLocalRelease()** (7 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **validateCachedCandidate()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **validateReleaseNotesUrl()** (5 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **isPlainObject()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **hasExactKeys()** (4 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **releaseChannelForVersion()** (4 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **UpdateContractError** (4 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **hasOnlyKeys()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **validateClaimOwner()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **compareNumericIdentifiers()** (3 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **comparePrerelease()** (3 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **validateCanonicalUtcTimestamp()** (3 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **emptyState()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **validateManifest()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **isPlainObject()** (2 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **.constructor()** (1 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **localRelease()** (1 connections) — `.agents/skills/archify/test/update-contract.test.mjs`
-- **stableManifest()** (1 connections) — `.agents/skills/archify/test/update-contract.test.mjs`
+- **check-update.mjs** (99 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **encodeRecoverableState()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **guardedCacheEntryRead()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **notification()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **operationIsActive()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stateAfterFailedCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stateWithFailureCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertSafeCacheEntry()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cancelResponseBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **corruptClaimStatus()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **encodeBoundedState()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **eventKeyForDigest()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **metadataIsWithinLease()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **nextFailedCheck()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **readBoundedBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stateAfterAcknowledgement()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertRenameableCacheEntry()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertSafeRegularFile()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **CacheOperationRaceError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **CachePathChangedError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **defaultCacheDirectory()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **defaultReleasePath** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **FileIdentityChangedError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **isMainModule()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **MAX_CACHE_HORIZON_MS** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [[Community 40]] (16 shared connections)
-- [[Vercel Deployment Routing]] (3 shared connections)
-- [[Community 83]] (3 shared connections)
+- [[Community 94]] (21 shared connections)
+- [[Community 111]] (19 shared connections)
+- [[Community 102]] (19 shared connections)
+- [[Community 67]] (16 shared connections)
+- [[Community 38]] (1 shared connections)
 
 ## Source Files
 
 - `.agents/skills/archify/scripts/check-update.mjs`
-- `.agents/skills/archify/scripts/update-contract.mjs`
-- `.agents/skills/archify/test/update-contract.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 122 (100%)
+- EXTRACTED: 152 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

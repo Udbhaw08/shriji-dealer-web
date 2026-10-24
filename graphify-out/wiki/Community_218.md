@@ -1,14 +1,18 @@
 # Community 218
 
-> 5 nodes · cohesion 0.40
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **ErrorBoundary** (5 connections) — `src/main.jsx`
-- **.componentDidCatch()** (1 connections) — `src/main.jsx`
-- **.constructor()** (1 connections) — `src/main.jsx`
-- **.getDerivedStateFromError()** (1 connections) — `src/main.jsx`
-- **.render()** (1 connections) — `src/main.jsx`
+- **Playing video** (6 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Integrating with the TV app** (3 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **playing-video.md** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Exiting playback** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Loading content** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
 
 ## Relationships
 
@@ -16,11 +20,11 @@
 
 ## Source Files
 
-- `src/main.jsx`
+- `.agents/skills/apple-design/references/hig/playing-video.md`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,30 +1,36 @@
 # Community 137
 
-> 9 nodes · cohesion 0.22
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **Delivery contract** (8 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **delivery-contract.md** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Automated browser evidence** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Handoff receipt** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Last-Good Live Preview** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Optional opening** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Perceptual delivery gate** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Recovering a failed comparison** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Validate and deliver** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **architecture-delta.test.mjs** (16 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **ArchitectureDeltaError** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **baseFixture** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **checkedArtifact** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **checkedReceipt** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **headFixture** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **read()** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 66]] (4 shared connections)
+- [[Community 112]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/references/delivery-contract.md`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
+- `.agents/skills/archify/test/architecture-delta.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 30 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

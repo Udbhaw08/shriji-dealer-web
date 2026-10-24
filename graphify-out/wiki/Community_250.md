@@ -1,24 +1,33 @@
 # Community 250
 
-> 3 nodes · cohesion 0.67
+> 8 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **cornerRadius** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **createDealerContact()** (9 connections) — `api/_lib/zoho.js`
+- **getAccessToken()** (6 connections) — `api/_lib/zoho.js`
+- **loadEnv()** (4 connections) — `api/_lib/zoho.js`
+- **test-zoho-api.mjs** (4 connections) — `scripts/test-zoho-api.mjs`
+- **apply.js** (3 connections) — `api/dealer/apply.js`
+- **handler()** (2 connections) — `api/dealer/apply.js`
+- **readDiskCache()** (2 connections) — `api/_lib/zoho.js`
+- **{ dc, orgId }** (1 connections) — `scripts/test-zoho-api.mjs`
 
 ## Relationships
 
-- [[Zoho Integration Skill]] (1 shared connections)
+- [[Community 57]] (6 shared connections)
+- [[Community 130]] (5 shared connections)
+- [[Community 166]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `api/_lib/zoho.js`
+- `api/dealer/apply.js`
+- `scripts/test-zoho-api.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 31 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

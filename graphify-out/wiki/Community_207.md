@@ -1,15 +1,19 @@
 # Community 207
 
-> 6 nodes · cohesion 0.33
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **render-output-checks.test.mjs** (5 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
-- **checker** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
-- **checkHtml()** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **Workflow Renderer** (6 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **Layout contracts** (3 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **Design Rules** (2 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **README.md** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **Fixed v1** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **Input** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **Legend** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **Migration and layout receipt** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **Optional semantic checks** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **Readable v2** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
 
 ## Relationships
 
@@ -17,11 +21,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/render-output-checks.test.mjs`
+- `.agents/skills/archify/renderers/workflow/README.md`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

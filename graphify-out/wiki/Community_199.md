@@ -1,27 +1,32 @@
 # Community 199
 
-> 6 nodes · cohesion 0.33
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **.oxlintrc.json** (3 connections) — `.oxlintrc.json`
-- **rules** (3 connections) — `.oxlintrc.json`
-- **plugins** (1 connections) — `.oxlintrc.json`
-- **react/only-export-components** (1 connections) — `.oxlintrc.json`
-- **react/rules-of-hooks** (1 connections) — `.oxlintrc.json`
-- **$schema** (1 connections) — `.oxlintrc.json`
+- **workflow.schema.json** (8 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$defs** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **side** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$id** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$schema** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **title** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 110]] (1 shared connections)
+- [[Community 233]] (1 shared connections)
 
 ## Source Files
 
-- `.oxlintrc.json`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

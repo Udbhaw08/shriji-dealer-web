@@ -1,22 +1,30 @@
 # Community 288
 
-> 1 nodes · cohesion 1.00
+> 8 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **dataflow** (0 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **sequence-column-fit.test.mjs** (9 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **labelledSequence()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **render()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **renderOutcome()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **wideSequence()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **participantBoxes()** (1 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 46]] (1 shared connections)
+- [[Graphify Workflow]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- `.agents/skills/archify/test/sequence-column-fit.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

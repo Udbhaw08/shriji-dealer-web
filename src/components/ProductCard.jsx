@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Icon } from "../ui";
-import { inr, priceFor, tagFor, productSlug } from "../data/dealer";
+import { inr, priceFor, productSlug } from "../data/dealer";
 import { useLanguage } from "../data/i18n";
 import { useFavorites } from "../data/favoritesStore";
 
@@ -11,7 +11,6 @@ export default function ProductCard({ p }) {
   const [imgErr, setImgErr] = useState(false);
   const { t } = useLanguage();
 
-  const tag = tagFor(p);
   const { mrp, isPriceOnRequest } = priceFor(p);
 
   const subtitle =
@@ -19,14 +18,16 @@ export default function ProductCard({ p }) {
       ? p.name
       : [p.features?.[0] || p.finish, p.catLabel].filter(Boolean).join(" ");
 
-  const badges = [];
-  if (tag) badges.push(tag);
-  if (p.isNew && (!tag || tag.label !== "New")) {
-    badges.push({ label: "New", kind: "blue" });
-  }
+  // Tag badge on image from live Zoho Commerce "tags" field (e.g. 'HOT SELLING', 'NEW', 'BESTSELLER')
+  const productTags = (Array.isArray(p.tags) && p.tags.length > 0
+    ? p.tags
+    : (p.tag ? [p.tag] : []))
+    .map((t) => (typeof t === "string" ? t : (t?.tag_name || t?.name || "")).trim())
+    .filter(Boolean);
 
   return (
     <article className="prod">
+      {/* Elevated Floating Heart Button (Top-Right) */}
       <button
         type="button"
         className="heart"
@@ -39,7 +40,7 @@ export default function ProductCard({ p }) {
           toggleFavorite(p.id);
         }}
       >
-        <Icon name="heart" size={16} />
+        <Icon name="heart" size={17} />
       </button>
 
       <Link to={`/products/${p.slug || productSlug(p) || p.id}`} className="prod-link">
@@ -54,8 +55,23 @@ export default function ProductCard({ p }) {
             />
           ) : (
             <span className="prod-fallback">
-              <Icon name={p.cat === "chimneys" ? "chimney" : p.cat === "small_appliances" ? "blender" : "stove"} size={28} />
+              <Icon name={p.cat === "chimneys" ? "chimney" : p.cat === "small_appliances" ? "blender" : "stove"} size={32} />
             </span>
+          )}
+          {/* Tag badge(s) from Zoho Commerce in top-left of image area */}
+          {productTags.length > 0 && (
+            <div className="prod-tags-group" style={{ position: "absolute", top: "10px", left: "10px", display: "flex", flexWrap: "wrap", gap: "4px", maxWidth: "80%", zIndex: 1 }}>
+              {productTags.slice(0, 2).map((tVal, idx) => (
+                <span key={idx} className="badge badge-blue prod-tag">
+                  {tVal}
+                </span>
+              ))}
+              {productTags.length > 2 && (
+                <span className="badge badge-blue prod-tag" style={{ opacity: 0.9 }}>
+                  +{productTags.length - 2}
+                </span>
+              )}
+            </div>
           )}
         </span>
 
@@ -63,26 +79,18 @@ export default function ProductCard({ p }) {
           <b className="prod-title">{p.model && p.model.toLowerCase() !== "test" ? p.model : p.name}</b>
           {subtitle && <span className="prod-subtitle">{subtitle}</span>}
 
-          {badges.length > 0 && (
-            <span className="prod-badges-row">
-              {badges.map((b, idx) => (
-                <span key={idx} className={`badge badge-${b.kind === "blue" ? "blue" : b.kind === "ok" ? "ok" : "blue"}`}>
-                  {b.label}
-                </span>
-              ))}
-            </span>
-          )}
-
           <span className="prod-price-block">
             <span className="prod-price-row">
-              <span className="prod-price-lbl mrp-lbl">{t("price_mrp_label") || "MRP"}</span>
-              <b className="prod-price-val">
-                {isPriceOnRequest || mrp <= 0 ? t("price_on_request") : inr(mrp)}
-              </b>
+              <span className="prod-price-lbl mrp-lbl">{t("price_mrp_label") || "Retail MRP"}</span>
+              <div className="prod-mrp-group">
+                <b className="prod-price-val">
+                  {isPriceOnRequest || mrp <= 0 ? t("price_on_request") || "Price on Request" : inr(mrp)}
+                </b>
+                {!isPriceOnRequest && mrp > 0 && (
+                  <span className="prod-tax-note">(Incl. taxes)</span>
+                )}
+              </div>
             </span>
-            {mrp > 0 && !isPriceOnRequest && (
-              <small className="prod-tax-sub">{t("price_incl_taxes") || "Incl. of all taxes"}</small>
-            )}
           </span>
         </span>
       </Link>

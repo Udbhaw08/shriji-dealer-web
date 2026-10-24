@@ -1,8 +1,13 @@
 import { useSyncExternalStore } from "react";
 import { CATEGORIES as INITIAL_CATEGORIES } from "./products";
 import { apiFetch, apiUrl } from "./api";
+import { getAccessToken } from "./auth";
 
-const CACHE_KEY = "shriji.zoho.products.v2";
+const CACHE_KEY_PREFIX = "shriji.zoho.products.v6";
+
+function getCacheKey(pbId) {
+  return pbId ? `${CACHE_KEY_PREFIX}:${pbId}` : `${CACHE_KEY_PREFIX}:default`;
+}
 
 const PREFERRED_ORDER = ["hob_tops", "gas_stoves", "hobs", "chimneys", "small_appliances"];
 
@@ -26,17 +31,25 @@ function sanitizeCategories(cats) {
   });
 }
 
-function loadCached() {
+const CACHE_TTL_MS = 3 * 60 * 1000; // 3 minutes fresh cache
+
+let activePricebookId = null;
+
+function loadCached(pbId = activePricebookId) {
   try {
     const raw = localStorage.getItem(CACHE_KEY);
     if (raw) {
       const data = JSON.parse(raw);
+      const isStale = !data.time || (Date.now() - data.time > CACHE_TTL_MS);
+      const hasAnyTags = Array.isArray(data.products) && data.products.some((p) => p.tags && p.tags.length > 0);
       if (Array.isArray(data.products) && data.products.length > 0) {
         return {
           products: data.products,
           categories: sanitizeCategories(data.categories),
           loaded: true,
-          syncing: false,
+          syncing: isStale || !hasAnyTags,
+          pricebookId: pbId,
+          needsRefresh: isStale || !hasAnyTags,
         };
       }
     }
@@ -46,6 +59,8 @@ function loadCached() {
     categories: INITIAL_CATEGORIES,
     loaded: false,
     syncing: true,
+    pricebookId: pbId,
+    needsRefresh: true,
   };
 }
 
@@ -64,8 +79,16 @@ export function fetchLiveProducts(force = false) {
   storeState = { ...storeState, syncing: true };
   emit();
 
-  const url = force ? "/api/products?refresh=true" : "/api/products";
-  fetchPromise = apiFetch(url)
+  const params = new URLSearchParams();
+  if (force) params.set("refresh", "true");
+  if (targetPb) params.set("pricebook_id", targetPb);
+  const q = params.toString();
+  const url = q ? `/api/products?${q}` : "/api/products";
+  const headers = {};
+  const token = typeof getAccessToken === "function" ? getAccessToken() : null;
+  if (token) headers.Authorization = `Bearer ${token}`;
+
+  fetchPromise = apiFetch(url, { headers })
     .then((res) => res.json())
     .then((data) => {
       fetchPromise = null;
@@ -73,8 +96,17 @@ export function fetchLiveProducts(force = false) {
         const liveCategories = data.categories?.length
           ? sanitizeCategories(data.categories)
           : storeState.categories;
+
+        // Ensure restricted pricing is never cached for unauthenticated users
+        const safeCachedProducts = data.products.map((p) => {
+          const item = { ...p };
+          delete item.purchaseRate;
+          if (!targetPb) delete item.dealerRate;
+          return item;
+        });
+
         storeState = {
-          products: data.products,
+          products: safeCachedProducts,
           categories: liveCategories,
           loaded: true,
           syncing: false,
@@ -83,7 +115,7 @@ export function fetchLiveProducts(force = false) {
           localStorage.setItem(
             CACHE_KEY,
             JSON.stringify({
-              products: data.products,
+              products: safeCachedProducts,
               categories: storeState.categories,
               time: Date.now(),
             })
@@ -109,7 +141,20 @@ export function fetchLiveProducts(force = false) {
 
 // Automatically fetch latest live Zoho catalog whenever store is loaded
 if (typeof window !== "undefined") {
-  fetchLiveProducts();
+  fetchLiveProducts(Boolean(storeState.needsRefresh));
+}
+
+export async function syncTagsLive() {
+  try {
+    const res = await apiFetch("/api/products/sync-tags");
+    const data = await res.json();
+    if (data.ok) {
+      await fetchLiveProducts(true, activePricebookId);
+      return data;
+    }
+  } catch (err) {
+    console.warn("Failed to sync tags:", err);
+  }
 }
 
 export function useProducts() {

@@ -1,611 +1,1573 @@
-import { useState } from "react";
-import { Link, useNavigate, useSearchParams } from "react-router-dom";
-import { DEALERS, dealerById } from "../data/dealer";
-import { setSession, signOut, useSession } from "../data/session";
+import { useState, useEffect, useRef } from "react";
+import { Link, useNavigate, useLocation, useSearchParams } from "react-router-dom";
+import { useSession, signOut, revalidateSession } from "../data/session";
+import { isDealer } from "../data/dealer";
+import {
+  requestOtp,
+  verifyOtp,
+  signup,
+  login,
+  googleLogin,
+  lookupStaffCode,
+  staffSignup,
+} from "../data/auth";
+import { formatLoginCode } from "../data/loginCode";
+import { isValidEmail, isValidName, isValidPhone } from "../data/validators";
 import { Icon } from "../ui";
-import { useLanguage } from "../data/i18n";
-import { apiFetch, apiUrl } from "../data/api";
+
+const RESEND_COOLDOWN_SECONDS = 30;
 
 export default function Login() {
-  const { t } = useLanguage();
-  const s = useSession();
-  const nav = useNavigate();
-  const [params] = useSearchParams();
-  const needAuth = params.get("needAuth") === "true";
-  const initialTab = params.get("tab") === "apply" ? "apply" : params.get("tab") === "customer" ? "customer" : "dealer";
-  const [activeTab, setActiveTab] = useState(initialTab); // "dealer" | "customer" | "apply"
+  const session = useSession();
+  const navigate = useNavigate();
+  const location = useLocation();
+  const [searchParams, setSearchParams] = useSearchParams();
 
-  // Dealer login states
+  // Navigation target from protected route redirection
+  const fromPath = location.state?.from?.pathname || "/products";
+
+  // Role Selection Gateway: null | "dealer" | "staff" (Customer & Brand are disabled/faded out)
+  const urlRole = searchParams.get("role");
+  const [selectedRole, setSelectedRole] = useState(
+    urlRole && ["dealer", "staff"].includes(urlRole) ? urlRole : null
+  );
+
+  const handleSelectRole = (role) => {
+    setSelectedRole(role);
+    if (role) {
+      setSearchParams({ role });
+    } else {
+      setSearchParams({});
+    }
+    setError(null);
+  };
+
+  useEffect(() => {
+    if (urlRole && ["dealer", "staff"].includes(urlRole)) {
+      setSelectedRole(urlRole);
+    }
+  }, [urlRole]);
+
+  // Dealer Sign-In sub-method: "whatsapp" (default) | "email"
+  const [authMethod, setAuthMethod] = useState("whatsapp");
+
+  // WhatsApp states
+  const [step, setStep] = useState("phone"); // "phone" | "otp"
   const [phone, setPhone] = useState("");
-  const [dealerLoading, setDealerLoading] = useState(false);
-  const [dealerError, setDealerError] = useState("");
+  const [otp, setOtp] = useState(["", "", "", "", "", ""]);
+  const [cooldown, setCooldown] = useState(0);
 
-  // Application form states
-  const [applyForm, setApplyForm] = useState({ shop: "", person: "", phone: "", email: "", city: "", gst: "" });
-  const [applyLoading, setApplyLoading] = useState(false);
-  const [applyError, setApplyError] = useState("");
+  // Email & Password states
+  const [emailMode, setEmailMode] = useState("login"); // "login" | "signup"
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [fullName, setFullName] = useState("");
+  const [showPassword, setShowPassword] = useState(false);
 
-  // Pending approval refresh states
-  const [refreshing, setRefreshing] = useState(false);
-  const [refreshMsg, setRefreshMsg] = useState("");
+  // Staff Gateway states
+  const [staffCode, setStaffCode] = useState("");
+  const [staffStoreInfo, setStaffStoreInfo] = useState(null);
+  const [staffLookupLoading, setStaffLookupLoading] = useState(false);
+  const [staffLookupError, setStaffLookupError] = useState("");
+  const [staffForm, setStaffForm] = useState({
+    fullName: "",
+    email: "",
+    phone: "",
+    password: "",
+    confirmPassword: "",
+  });
+  const [staffSubmitLoading, setStaffSubmitLoading] = useState(false);
+  const [staffSubmitError, setStaffSubmitError] = useState("");
 
-  const handleDealerLogin = async (inputVal) => {
-    const val = (inputVal || phone).trim();
-    if (!val || dealerLoading) return;
-    setDealerLoading(true);
-    setDealerError("");
+  // Shared states
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
+  const [googleNotice, setGoogleNotice] = useState(null);
 
-    try {
-      const res = await apiFetch("/api/dealer/login", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ phone: val }),
-      });
+  const otpInputRefs = useRef([]);
+  const cooldownTimerRef = useRef(null);
+  const googleBtnRef = useRef(null);
 
-      const data = await res.json();
-      if (!res.ok || data.error) {
-        throw new Error(data.error || "No dealer account found in Zoho with that phone/email.");
-      }
+  const isAuthenticated = session && session.role !== "guest";
+  const dealerActive = isDealer(session);
 
-      const d = data.dealer;
-      setSession({
-        role: "dealer",
-        status: d.status, // "approved" or "pending"
-        dealerId: d.id,
-        dealer: d,
-        shop: d.name,
-        person: d.person,
-        phone: d.phone,
-        city: d.city,
-      });
+  // Localhost check for Google Identity Services
+  const isLocalhost =
+    typeof window !== "undefined" &&
+    (window.location.hostname === "localhost" ||
+      window.location.hostname === "127.0.0.1" ||
+      window.location.hostname.endsWith(".local"));
 
-      if (d.status === "approved") {
-        nav("/products");
-      }
-    } catch (err) {
-      setDealerError(err.message === "Failed to fetch" ? "Unable to reach server. Please check internet connection." : err.message);
-    } finally {
-      setDealerLoading(false);
+  // Clean phone input (digits only, max 10)
+  const handlePhoneChange = (e) => {
+    const val = e.target.value.replace(/\D/g, "").slice(0, 10);
+    setPhone(val);
+    if (error) setError(null);
+  };
+
+  const isPhoneValid = /^[6-9]\d{9}$/.test(phone);
+
+  // Countdown timer for OTP resend
+  useEffect(() => {
+    if (cooldown > 0) {
+      cooldownTimerRef.current = setTimeout(() => {
+        setCooldown((c) => c - 1);
+      }, 1000);
     }
-  };
+    return () => {
+      if (cooldownTimerRef.current) clearTimeout(cooldownTimerRef.current);
+    };
+  }, [cooldown]);
 
-  const handleCustomerLogin = (name = "Customer") => {
-    setSession({
-      role: "customer",
-      person: name,
-    });
-    nav("/products");
-  };
-
-  const handleApplySubmit = async (e) => {
-    e.preventDefault();
-    if (!applyForm.shop.trim() || !applyForm.person.trim() || !applyForm.phone.trim() || applyLoading) return;
-    setApplyLoading(true);
-    setApplyError("");
-
-    try {
-      const res = await apiFetch("/api/dealer/apply", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(applyForm),
-      });
-
-      const data = await res.json();
-      if (!res.ok || data.error) {
-        throw new Error(data.error || "Failed to submit dealer application to Zoho.");
-      }
-
-      setSession({
-        role: "dealer",
-        status: "pending",
-        dealerId: data.dealer?.id,
-        dealer: data.dealer,
-        shop: applyForm.shop,
-        person: applyForm.person,
-        phone: applyForm.phone,
-        city: applyForm.city,
-      });
-    } catch (err) {
-      setApplyError(err.message);
-    } finally {
-      setApplyLoading(false);
+  // Auto-focus first OTP input on switching to OTP step
+  useEffect(() => {
+    if (step === "otp" && otpInputRefs.current[0]) {
+      setTimeout(() => {
+        otpInputRefs.current[0]?.focus();
+      }, 100);
     }
-  };
+  }, [step]);
 
-  const checkApprovalStatus = async () => {
-    if (!s.phone) return;
-    setRefreshing(true);
-    setRefreshMsg("");
-    try {
-      const res = await apiFetch("/api/dealer/login", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ phone: s.phone }),
-      });
-      const data = await res.json();
-      if (res.ok && data.dealer) {
-        if (data.dealer.status === "approved") {
-          setSession({
-            role: "dealer",
-            status: "approved",
-            dealerId: data.dealer.id,
-            dealer: data.dealer,
-            shop: data.dealer.name,
-            person: data.dealer.person,
-            phone: data.dealer.phone,
-            city: data.dealer.city,
+  // Initialize official Google Identity Services (GSI) button safely in production
+  useEffect(() => {
+    if (isAuthenticated || selectedRole !== "dealer") return;
+    // On localhost, Google returns 403 Origin Not Allowed unless added in Google Console.
+    // We suppress the GSI iframe on localhost to avoid polluting the console.
+    if (isLocalhost) return;
+
+    const googleClientId = import.meta.env?.VITE_GOOGLE_CLIENT_ID;
+    if (!googleClientId) return;
+
+    let checkInterval = null;
+
+    const renderGoogleButton = () => {
+      if (window.google?.accounts?.id && googleBtnRef.current) {
+        try {
+          window.google.accounts.id.initialize({
+            client_id: googleClientId,
+            callback: async (response) => {
+              if (!response?.credential) return;
+              setLoading(true);
+              setError(null);
+              try {
+                await googleLogin(response.credential);
+                await revalidateSession();
+                navigate(fromPath !== "/login" ? fromPath : "/products", { replace: true });
+              } catch (err) {
+                setError(err.message || "Google sign-in failed. Please try again.");
+              } finally {
+                setLoading(false);
+              }
+            },
           });
-          setRefreshMsg("🎉 Approved in Zoho! Your trade pricing and price list are unlocked.");
-          setTimeout(() => nav("/products"), 1200);
-        } else {
-          setRefreshMsg("Status: Contact is in Zoho, waiting for admin approval.");
+
+          googleBtnRef.current.innerHTML = "";
+          window.google.accounts.id.renderButton(googleBtnRef.current, {
+            theme: "outline",
+            size: "large",
+            type: "standard",
+            shape: "rectangular",
+            text: "continue_with",
+            logo_alignment: "left",
+            width: 320,
+          });
+
+          if (checkInterval) clearInterval(checkInterval);
+          return true;
+        } catch (e) {
+          console.warn("[GSI] render error:", e);
         }
       }
-    } catch {
-      setRefreshMsg("Unable to reach Zoho right now. Please try again.");
+      return false;
+    };
+
+    if (!renderGoogleButton()) {
+      checkInterval = setInterval(() => {
+        if (renderGoogleButton()) {
+          clearInterval(checkInterval);
+        }
+      }, 250);
+      const timeout = setTimeout(() => {
+        if (checkInterval) clearInterval(checkInterval);
+      }, 4000);
+      return () => {
+        if (checkInterval) clearInterval(checkInterval);
+        clearTimeout(timeout);
+      };
+    }
+  }, [isAuthenticated, fromPath, navigate, selectedRole, isLocalhost]);
+
+  /* ---- WhatsApp Flow Handlers ---- */
+  const handleSendOtp = async (e) => {
+    if (e) e.preventDefault();
+    if (!isPhoneValid || loading) return;
+
+    setLoading(true);
+    setError(null);
+
+    try {
+      await requestOtp(phone);
+      setStep("otp");
+      setCooldown(RESEND_COOLDOWN_SECONDS);
+      setOtp(["", "", "", "", "", ""]);
+    } catch (err) {
+      setError(err.message || "Failed to send WhatsApp verification code. Please try again.");
     } finally {
-      setRefreshing(false);
+      setLoading(false);
     }
   };
 
-  const dealer = s.dealer || (s.dealerId ? dealerById(s.dealerId) : null);
+  const handleResendOtp = async () => {
+    if (cooldown > 0 || loading) return;
+    await handleSendOtp();
+  };
 
-  // ----------------------------------------------------
-  // VIEW 1: ALREADY LOGGED IN AS APPROVED DEALER
-  // ----------------------------------------------------
-  if (s.role === "dealer" && s.status === "approved" && dealer) {
-    return (
-      <section className="sec" style={{ paddingTop: "var(--s6)" }}>
-        <div className="wrap" style={{ maxWidth: 680 }}>
-          <div className="authcard" style={{ borderTop: "4px solid var(--blue-600, #2563eb)" }}>
-            <div className="authcard-head">
-              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 12 }}>
-                <div>
-                  <span className="badge badge-ok" style={{ marginBottom: "8px" }}>
-                    {t("active_dealer_portal")}
+  const handleOtpDigitChange = (index, val) => {
+    const raw = val.replace(/\D/g, "");
+    if (!raw) {
+      const newOtp = [...otp];
+      newOtp[index] = "";
+      setOtp(newOtp);
+      return;
+    }
+
+    // MULTI-DIGIT PASTE / AUTOFILL (keyboard autofill or pasted string)
+    if (raw.length > 1) {
+      const digits = raw.slice(0, 6).split("");
+      const newOtp = [...otp];
+      const startIdx = raw.length >= 6 ? 0 : index;
+      for (let i = 0; i < 6; i++) {
+        if (i >= startIdx && digits[i - startIdx] !== undefined) {
+          newOtp[i] = digits[i - startIdx];
+        }
+      }
+      setOtp(newOtp);
+      if (error) setError(null);
+
+      const nextFocus = Math.min(startIdx + digits.length, 5);
+      otpInputRefs.current[nextFocus]?.focus();
+
+      const fullCode = newOtp.join("");
+      if (fullCode.length === 6) {
+        handleVerifyOtp(fullCode);
+      }
+      return;
+    }
+
+    // SINGLE DIGIT ENTRY
+    const newOtp = [...otp];
+    newOtp[index] = raw;
+    setOtp(newOtp);
+    if (error) setError(null);
+
+    if (index < 5) {
+      otpInputRefs.current[index + 1]?.focus();
+    } else if (index === 5) {
+      const fullCode = newOtp.join("");
+      if (fullCode.length === 6) {
+        handleVerifyOtp(fullCode);
+      }
+    }
+  };
+
+  const handleOtpKeyDown = (index, e) => {
+    if (e.key === "Backspace" && !otp[index] && index > 0) {
+      otpInputRefs.current[index - 1]?.focus();
+    }
+  };
+
+  const handleOtpPaste = (e) => {
+    e.preventDefault();
+    const clip = e.clipboardData || window.clipboardData;
+    const pasted = (clip ? clip.getData("text") : "").replace(/\D/g, "").slice(0, 6);
+    if (!pasted) return;
+
+    const digits = pasted.split("");
+    const newOtp = ["", "", "", "", "", ""];
+    for (let i = 0; i < 6; i++) {
+      newOtp[i] = digits[i] || "";
+    }
+    setOtp(newOtp);
+    if (error) setError(null);
+
+    const focusIdx = Math.min(pasted.length, 5);
+    otpInputRefs.current[focusIdx]?.focus();
+
+    if (pasted.length === 6) {
+      handleVerifyOtp(pasted);
+    }
+  };
+
+  const handleVerifyOtp = async (codeToVerify) => {
+    const code = codeToVerify || otp.join("");
+    if (code.length !== 6 || loading) return;
+
+    setLoading(true);
+    setError(null);
+
+    try {
+      await verifyOtp(phone, code);
+      await revalidateSession();
+      navigate(fromPath !== "/login" ? fromPath : "/products", { replace: true });
+    } catch (err) {
+      setError(err.message || "Invalid verification code. Please check and try again.");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  /* ---- Email Flow Handlers ---- */
+  const handleEmailAuthSubmit = async (e) => {
+    if (e) e.preventDefault();
+    if (loading) return;
+
+    const cleanEmail = email.trim().toLowerCase();
+    if (!cleanEmail || !isValidEmail(cleanEmail)) {
+      setError("Please enter a valid email address.");
+      return;
+    }
+
+    if (!password || password.length < 8) {
+      setError("Password must be at least 8 characters long.");
+      return;
+    }
+
+    if (emailMode === "signup") {
+      const cleanName = fullName.trim();
+      if (!cleanName || !isValidName(cleanName)) {
+        setError("Please enter your full name (letters only, min 2 characters).");
+        return;
+      }
+    }
+
+    setLoading(true);
+    setError(null);
+
+    try {
+      if (emailMode === "signup") {
+        await signup({
+          email: cleanEmail,
+          password,
+          full_name: fullName.trim(),
+        });
+      } else {
+        await login({
+          email: cleanEmail,
+          password,
+        });
+      }
+
+      await revalidateSession();
+      navigate(fromPath !== "/login" ? fromPath : "/products", { replace: true });
+    } catch (err) {
+      setError(err.message || (emailMode === "signup" ? "Account creation failed." : "Invalid email or password."));
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  /* ---- Staff Code Lookup & Join Handlers ---- */
+  const handleStaffLookup = async (e) => {
+    if (e) e.preventDefault();
+    const raw = staffCode.trim();
+    if (!raw) {
+      setStaffLookupError("Please enter your Store / Dealer Code.");
+      return;
+    }
+
+    setStaffLookupError("");
+    setStaffLookupLoading(true);
+    try {
+      const res = await lookupStaffCode(raw);
+      setStaffStoreInfo(res);
+      setStaffLookupError("");
+    } catch (err) {
+      setStaffStoreInfo(null);
+      setStaffLookupError(err.message || "Unrecognized Dealer / Business Code. Please check with your store owner.");
+    } finally {
+      setStaffLookupLoading(false);
+    }
+  };
+
+  const handleStaffSignupSubmit = async (e) => {
+    if (e) e.preventDefault();
+    if (!staffStoreInfo) return;
+
+    if (!staffForm.fullName.trim() || !isValidName(staffForm.fullName)) {
+      setStaffSubmitError("Please enter your full name (letters only).");
+      return;
+    }
+    if (!staffForm.email.trim() || !isValidEmail(staffForm.email)) {
+      setStaffSubmitError("Please enter a valid work email address.");
+      return;
+    }
+    if (staffForm.phone.trim() && !isValidPhone(staffForm.phone)) {
+      setStaffSubmitError("Please enter a valid 10-digit mobile number.");
+      return;
+    }
+    if (!staffForm.password || staffForm.password.length < 8) {
+      setStaffSubmitError("Password must be at least 8 characters long.");
+      return;
+    }
+    if (staffForm.password !== staffForm.confirmPassword) {
+      setStaffSubmitError("Passwords do not match.");
+      return;
+    }
+
+    setStaffSubmitLoading(true);
+    setStaffSubmitError("");
+
+    try {
+      await staffSignup({
+        dealer_code: staffStoreInfo.dealer_code || staffCode,
+        invite_code: staffStoreInfo.dealer_code || staffCode,
+        email: staffForm.email.trim(),
+        phone: staffForm.phone.trim() || undefined,
+        password: staffForm.password,
+        full_name: staffForm.fullName.trim(),
+      });
+
+      await revalidateSession().catch(() => {});
+      navigate("/dealer/pending?kind=staff", { replace: true });
+    } catch (err) {
+      setStaffSubmitError(err.message || "Failed to submit staff registration.");
+    } finally {
+      setStaffSubmitLoading(false);
+    }
+  };
+
+  return (
+    <section className="sec" style={{ paddingTop: "clamp(var(--s4), 3.5vw, var(--s6))", minHeight: "85vh" }}>
+      <div className="wrap" style={{ maxWidth: 980, margin: "0 auto", minWidth: 0, overflowX: "clip" }}>
+
+        {/* ALREADY AUTHENTICATED STATE */}
+        {isAuthenticated && (() => {
+          const isPending = session.status === "pending" || session.dealer?.status === "pending";
+
+          return (
+            <div
+              className="card pad"
+              style={{
+                maxWidth: 480,
+                margin: "0 auto 24px",
+                boxShadow: "0 10px 30px -10px rgba(16, 38, 58, 0.12)",
+                textAlign: "center",
+                borderRadius: "var(--r-lg, 18px)",
+              }}
+            >
+              <div
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: 6,
+                  padding: "5px 14px",
+                  borderRadius: 999,
+                  background: isPending ? "var(--amber-50, #fffbeb)" : dealerActive ? "var(--ok-bg)" : "var(--blue-50)",
+                  color: isPending ? "var(--amber-700, #b45309)" : dealerActive ? "var(--ok-tx)" : "var(--navy-2)",
+                  fontSize: "0.82rem",
+                  fontWeight: 700,
+                  marginBottom: 16,
+                  border: isPending ? "1px solid #fde68a" : "none",
+                }}
+              >
+                <Icon name={dealerActive ? "shield" : isPending ? "clock" : "user"} size={14} />
+                {isPending
+                  ? "Dealership Application Under Review"
+                  : dealerActive
+                  ? (session.dealer?.name || "Verified Dealer")
+                  : "Customer / Retail Account"}
+              </div>
+
+              <div style={{ fontSize: "1.25rem", fontWeight: 800, color: "var(--tx)", marginBottom: 4 }}>
+                {session.fullName || (session.phone ? `+91 ${session.phone}` : session.email || "Signed In User")}
+              </div>
+
+              <div style={{ display: "flex", justifyContent: "center", flexWrap: "wrap", gap: 8, marginTop: 10, marginBottom: 20 }}>
+                {session.phone && (
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: 4, padding: "3px 10px", borderRadius: 999, fontSize: ".78rem", fontWeight: 600, background: session.phone_verified ? "#f0fdf4" : "#fef2f2", color: session.phone_verified ? "#166534" : "#991b1b" }}>
+                    <Icon name={session.phone_verified ? "check" : "close"} size={12} />
+                    {session.phone_verified ? "WhatsApp Phone Verified" : "Phone Not Verified"}
                   </span>
-                  <h2 style={{ fontSize: "1.4rem" }}>{dealer.name}</h2>
-                  <p style={{ margin: "4px 0 0" }}>
-                    {dealer.person || dealer.name} · {dealer.city || "Verified Partner"}
-                  </p>
-                </div>
-                <button
-                  className="btn btn-ghost btn-sm"
-                  onClick={signOut}
-                  style={{ color: "var(--tx-3)" }}
-                  title="Sign out of dealer session"
-                >
-                  {t("sign_out")}
-                </button>
-              </div>
-            </div>
-
-            <div className="authcard-body" style={{ marginTop: "var(--s3)" }}>
-              <div style={{ background: "var(--bg-subtle, #f8fafc)", padding: "14px 18px", borderRadius: "var(--r-md)", border: "1px solid var(--line)" }}>
-                <table className="spec" style={{ margin: 0 }}>
-                  <tbody>
-                    <tr>
-                      <th scope="row">Dealer ID</th>
-                      <td><b>{dealer.id}</b></td>
-                    </tr>
-                    {dealer.phone && (
-                      <tr>
-                        <th scope="row">{t("phone_label")}</th>
-                        <td>{dealer.phone}</td>
-                      </tr>
-                    )}
-                    {dealer.city && (
-                      <tr>
-                        <th scope="row">Location</th>
-                        <td>{dealer.city}</td>
-                      </tr>
-                    )}
-                  </tbody>
-                </table>
+                )}
+                {session.email && (
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: 4, padding: "3px 10px", borderRadius: 999, fontSize: ".78rem", fontWeight: 600, background: session.email_verified ? "#f0fdf4" : "#fef2f2", color: session.email_verified ? "#166534" : "#991b1b" }}>
+                    <Icon name={session.email_verified ? "check" : "close"} size={12} />
+                    {session.email_verified ? "Email Verified" : "Email Not Verified"}
+                  </span>
+                )}
               </div>
 
-              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "10px", marginTop: "var(--s3)" }}>
-                <Link className="btn btn-navy btn-block" to="/products" style={{ textAlign: "center" }}>
-                  <Icon name="stove" size={17} /> {t("nav_products")}
+              <div style={{ display: "grid", gap: 10 }}>
+                {isPending && (
+                  <Link to="/dealer/pending" className="btn btn-navy btn-block" style={{ minHeight: 48, background: "var(--amber-600, #d97706)", borderColor: "var(--amber-600, #d97706)" }}>
+                    <Icon name="clock" size={16} /> View Application Status
+                  </Link>
+                )}
+
+                <Link to="/products" className="btn btn-navy btn-block" style={{ minHeight: 48 }}>
+                  <Icon name="grid" size={16} /> Continue to Product Catalog
                 </Link>
+
+                {dealerActive && (
+                  <Link to="/dealer" className="btn btn-ghost btn-block" style={{ minHeight: 48 }}>
+                    <Icon name="user" size={16} /> Dealership Dashboard
+                  </Link>
+                )}
+
                 <button
                   className="btn btn-ghost btn-block"
-                  onClick={() => handleCustomerLogin("Customer")}
+                  onClick={async () => {
+                    await signOut();
+                    handleSelectRole(null);
+                    setStep("phone");
+                    setPhone("");
+                    setOtp(["", "", "", "", "", ""]);
+                    setEmail("");
+                    setPassword("");
+                  }}
+                  style={{
+                    color: "var(--err, #dc4545)",
+                    borderColor: "rgba(220, 69, 69, 0.3)",
+                    background: "#fef2f2",
+                    minHeight: 48,
+                    fontWeight: 700,
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    gap: 8,
+                  }}
                 >
-                  Switch to Customer View
+                  <Icon name="logout" size={16} />
+                  <span>Log Out / Switch Account</span>
                 </button>
               </div>
-
-              <p className="note" style={{ textAlign: "center", marginTop: "4px" }}>
-                You see wholesale dealer rates. Any link you share with customers automatically opens retail MRP.
-              </p>
             </div>
-          </div>
-        </div>
-      </section>
-    );
-  }
+          );
+        })()}
 
-  // ----------------------------------------------------
-  // VIEW 2: APPLICATION PENDING IN ZOHO
-  // ----------------------------------------------------
-  if (s.role === "dealer" && s.status === "pending") {
-    return (
-      <section className="sec" style={{ paddingTop: "var(--s6)" }}>
-        <div className="wrap" style={{ maxWidth: 640 }}>
-          <div className="authcard" style={{ borderTop: "4px solid var(--amber-500, #f59e0b)" }}>
-            <div className="authcard-head">
-              <span className="badge badge-warn" style={{ marginBottom: "8px" }}>
-                {t("pending_approval")}
-              </span>
-              <h2 style={{ fontSize: "1.3rem" }}>Application Submitted, {s.person || s.shop || "Partner"}</h2>
-              <p>
-                Your application for <b>{s.shop || "your firm"}</b> has been registered in Zoho Books. Once our distribution team activates your account in Zoho, your wholesale pricing unlocks immediately.
-              </p>
-            </div>
+        {/* UNAUTHENTICATED EXECUTIVE WORKSPACE (Split view on Desktop, single card on mobile) */}
+        {!isAuthenticated && (
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 420px), 1fr))",
+              gap: "clamp(20px, 3vw, 36px)",
+              alignItems: "start",
+            }}
+          >
+            {/* LEFT COLUMN: BRAND SHOWCASE & TRUST HIGHLIGHTS */}
+            <div
+              style={{
+                background: "linear-gradient(145deg, #10263a 0%, #163854 100%)",
+                borderRadius: "var(--r-xl, 22px)",
+                padding: "clamp(24px, 4vw, 36px)",
+                color: "#ffffff",
+                boxShadow: "0 16px 40px -12px rgba(16, 38, 58, 0.4)",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "space-between",
+                minHeight: 480,
+              }}
+            >
+              <div>
+                <div
+                  style={{
+                    display: "inline-flex",
+                    alignItems: "center",
+                    gap: 8,
+                    padding: "5px 12px",
+                    borderRadius: 999,
+                    background: "rgba(255, 255, 255, 0.12)",
+                    border: "1px solid rgba(255, 255, 255, 0.18)",
+                    fontSize: "0.78rem",
+                    fontWeight: 700,
+                    letterSpacing: "0.04em",
+                    marginBottom: 18,
+                  }}
+                >
+                  <Icon name="shield" size={13} />
+                  <span>Authorized Sunshine Distributor</span>
+                </div>
 
-            <div className="authcard-body">
-              <div style={{ background: "var(--bg-subtle, #f8fafc)", padding: "12px 16px", borderRadius: "var(--r-md)", border: "1px solid var(--line)" }}>
-                <table className="spec" style={{ margin: 0 }}>
-                  <tbody>
-                    {s.shop && (
-                      <tr>
-                        <th scope="row">{t("shop_name_label")}</th>
-                        <td>{s.shop}</td>
-                      </tr>
-                    )}
-                    {s.person && (
-                      <tr>
-                        <th scope="row">{t("contact_person_label")}</th>
-                        <td>{s.person}</td>
-                      </tr>
-                    )}
-                    {s.phone && (
-                      <tr>
-                        <th scope="row">{t("phone_label")}</th>
-                        <td>{s.phone}</td>
-                      </tr>
-                    )}
-                  </tbody>
-                </table>
+                <h2
+                  style={{
+                    fontSize: "clamp(1.5rem, 2.5vw, 1.95rem)",
+                    fontWeight: 800,
+                    lineHeight: 1.25,
+                    margin: "0 0 12px",
+                    letterSpacing: "-0.025em",
+                    color: "#ffffff",
+                  }}
+                >
+                  Wholesale & Showroom Portal
+                </h2>
+
+                <p
+                  style={{
+                    fontSize: "0.92rem",
+                    lineHeight: 1.55,
+                    color: "rgba(255, 255, 255, 0.8)",
+                    margin: "0 0 28px",
+                  }}
+                >
+                  Dedicated trade access for verified dealer store owners and showroom sales associates across India.
+                </p>
+
+                {/* 3 Value Pillars */}
+                <div style={{ display: "grid", gap: 16 }}>
+                  <div style={{ display: "flex", alignItems: "flex-start", gap: 12 }}>
+                    <div
+                      style={{
+                        width: 36,
+                        height: 36,
+                        borderRadius: "var(--r-sm, 10px)",
+                        background: "rgba(255, 255, 255, 0.1)",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        flexShrink: 0,
+                      }}
+                    >
+                      <Icon name="badge" size={18} />
+                    </div>
+                    <div>
+                      <strong style={{ fontSize: "0.92rem", display: "block", color: "#ffffff" }}>
+                        Wholesale Rate Masking
+                      </strong>
+                      <span style={{ fontSize: "0.82rem", color: "rgba(255, 255, 255, 0.72)", lineHeight: 1.4, display: "block" }}>
+                        B2B discount pricebooks securely protected from public customer view.
+                      </span>
+                    </div>
+                  </div>
+
+                  <div style={{ display: "flex", alignItems: "flex-start", gap: 12 }}>
+                    <div
+                      style={{
+                        width: 36,
+                        height: 36,
+                        borderRadius: "var(--r-sm, 10px)",
+                        background: "rgba(255, 255, 255, 0.1)",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        flexShrink: 0,
+                      }}
+                    >
+                      <Icon name="wa" size={18} />
+                    </div>
+                    <div>
+                      <strong style={{ fontSize: "0.92rem", display: "block", color: "#ffffff" }}>
+                        Instant WhatsApp Verification
+                      </strong>
+                      <span style={{ fontSize: "0.82rem", color: "rgba(255, 255, 255, 0.72)", lineHeight: 1.4, display: "block" }}>
+                        Secure passwordless login linked directly to your registered business mobile.
+                      </span>
+                    </div>
+                  </div>
+
+                  <div style={{ display: "flex", alignItems: "flex-start", gap: 12 }}>
+                    <div
+                      style={{
+                        width: 36,
+                        height: 36,
+                        borderRadius: "var(--r-sm, 10px)",
+                        background: "rgba(255, 255, 255, 0.1)",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        flexShrink: 0,
+                      }}
+                    >
+                      <Icon name="user" size={18} />
+                    </div>
+                    <div>
+                      <strong style={{ fontSize: "0.92rem", display: "block", color: "#ffffff" }}>
+                        Showroom Team Linking
+                      </strong>
+                      <span style={{ fontSize: "0.82rem", color: "rgba(255, 255, 255, 0.72)", lineHeight: 1.4, display: "block" }}>
+                        Staff connect via store Dealer Code to share customer catalogs and calculate margins.
+                      </span>
+                    </div>
+                  </div>
+                </div>
               </div>
 
-              {refreshMsg && (
-                <div style={{ padding: "10px 14px", background: "var(--blue-50, #eff6ff)", color: "var(--blue-700, #1d4ed8)", borderRadius: "var(--r-md)", fontSize: "0.88rem", fontWeight: 500 }}>
-                  {refreshMsg}
+              {/* Trust Footer */}
+              <div
+                style={{
+                  marginTop: 32,
+                  paddingTop: 18,
+                  borderTop: "1px solid rgba(255, 255, 255, 0.14)",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                  fontSize: "0.78rem",
+                  color: "rgba(255, 255, 255, 0.65)",
+                }}
+              >
+                <span>ReSTOR · Shriji Appliances</span>
+                <span>Powered by Zoho CRM</span>
+              </div>
+            </div>
+
+            {/* RIGHT COLUMN: INTERACTIVE ROLE GATEWAY & FORMS */}
+            <div>
+              {/* VIEW A: THE 4 ROLES GATEWAY (Shown when no active role is picked) */}
+              {!selectedRole && (
+                <div
+                  className="card pad"
+                  style={{
+                    boxShadow: "0 10px 30px -10px rgba(16, 38, 58, 0.1)",
+                    borderRadius: "var(--r-xl, 20px)",
+                    border: "1.5px solid var(--line, #dce4ed)",
+                    padding: "clamp(20px, 3.5vw, 32px)",
+                  }}
+                >
+                  <div style={{ marginBottom: 20 }}>
+                    <h1 style={{ fontSize: "1.55rem", fontWeight: 800, margin: "0 0 6px", color: "var(--tx)", letterSpacing: "-0.02em" }}>
+                      Sign In or Join
+                    </h1>
+                    <p style={{ margin: 0, color: "var(--tx-2)", fontSize: "0.88rem", lineHeight: 1.5 }}>
+                      Select your account pathway to continue into the portal:
+                    </p>
+                  </div>
+
+                  <div style={{ display: "grid", gap: 12 }}>
+                    {/* OPTION 1: LOGIN AS DEALER (ACTIVE) */}
+                    <button
+                      type="button"
+                      onClick={() => handleSelectRole("dealer")}
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "space-between",
+                        padding: "16px 18px",
+                        borderRadius: "var(--r, 14px)",
+                        border: "1.5px solid var(--line, #dce4ed)",
+                        background: "#ffffff",
+                        textAlign: "left",
+                        cursor: "pointer",
+                        transition: "all 0.2s ease",
+                        boxShadow: "0 2px 8px rgba(16, 38, 58, 0.04)",
+                      }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.borderColor = "var(--navy, #10263a)";
+                        e.currentTarget.style.boxShadow = "0 6px 20px -4px rgba(16, 38, 58, 0.12)";
+                        e.currentTarget.style.transform = "translateY(-1px)";
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.borderColor = "var(--line, #dce4ed)";
+                        e.currentTarget.style.boxShadow = "0 2px 8px rgba(16, 38, 58, 0.04)";
+                        e.currentTarget.style.transform = "none";
+                      }}
+                    >
+                      <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
+                        <div
+                          style={{
+                            width: 44,
+                            height: 44,
+                            borderRadius: "var(--r-sm, 10px)",
+                            background: "var(--navy, #10263a)",
+                            color: "#fff",
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            flexShrink: 0,
+                          }}
+                        >
+                          <Icon name="shield" size={20} />
+                        </div>
+                        <div>
+                          <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 2 }}>
+                            <span style={{ fontSize: "1.02rem", fontWeight: 800, color: "var(--tx)" }}>
+                              Login as Dealer
+                            </span>
+                            <span style={{ fontSize: "0.72rem", fontWeight: 700, padding: "2px 8px", borderRadius: 999, background: "#dbeafe", color: "#1e40af" }}>
+                              Wholesale
+                            </span>
+                          </div>
+                          <span style={{ fontSize: "0.82rem", color: "var(--tx-2)", display: "block" }}>
+                            Store owners with wholesale trade rate access
+                          </span>
+                        </div>
+                      </div>
+                      <span style={{ color: "var(--navy, #10263a)", fontSize: "1.1rem", fontWeight: 700 }}>→</span>
+                    </button>
+
+                    {/* OPTION 2: CONTINUE AS STAFF (ACTIVE) */}
+                    <button
+                      type="button"
+                      onClick={() => handleSelectRole("staff")}
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "space-between",
+                        padding: "16px 18px",
+                        borderRadius: "var(--r, 14px)",
+                        border: "1.5px solid var(--line, #dce4ed)",
+                        background: "#ffffff",
+                        textAlign: "left",
+                        cursor: "pointer",
+                        transition: "all 0.2s ease",
+                        boxShadow: "0 2px 8px rgba(16, 38, 58, 0.04)",
+                      }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.borderColor = "var(--navy, #10263a)";
+                        e.currentTarget.style.boxShadow = "0 6px 20px -4px rgba(16, 38, 58, 0.12)";
+                        e.currentTarget.style.transform = "translateY(-1px)";
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.borderColor = "var(--line, #dce4ed)";
+                        e.currentTarget.style.boxShadow = "0 2px 8px rgba(16, 38, 58, 0.04)";
+                        e.currentTarget.style.transform = "none";
+                      }}
+                    >
+                      <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
+                        <div
+                          style={{
+                            width: 44,
+                            height: 44,
+                            borderRadius: "var(--r-sm, 10px)",
+                            background: "#e0e7ff",
+                            color: "#3730a3",
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            flexShrink: 0,
+                          }}
+                        >
+                          <Icon name="user" size={20} />
+                        </div>
+                        <div>
+                          <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 2 }}>
+                            <span style={{ fontSize: "1.02rem", fontWeight: 800, color: "var(--tx)" }}>
+                              Continue as Staff
+                            </span>
+                            <span style={{ fontSize: "0.72rem", fontWeight: 700, padding: "2px 8px", borderRadius: 999, background: "#ede9fe", color: "#5b21b6" }}>
+                              Store Code
+                            </span>
+                          </div>
+                          <span style={{ fontSize: "0.82rem", color: "var(--tx-2)", display: "block" }}>
+                            Sales team joining showroom with Dealer Code
+                          </span>
+                        </div>
+                      </div>
+                      <span style={{ color: "var(--navy, #10263a)", fontSize: "1.1rem", fontWeight: 700 }}>→</span>
+                    </button>
+
+                    {/* OPTION 3: CONTINUE AS CUSTOMER (FADED OUT & UNCLICKABLE) */}
+                    <div
+                      aria-disabled="true"
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "space-between",
+                        padding: "16px 18px",
+                        borderRadius: "var(--r, 14px)",
+                        border: "1.5px solid var(--line, #dce4ed)",
+                        background: "#fafafa",
+                        opacity: 0.38,
+                        pointerEvents: "none",
+                        cursor: "not-allowed",
+                        userSelect: "none",
+                      }}
+                    >
+                      <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
+                        <div
+                          style={{
+                            width: 44,
+                            height: 44,
+                            borderRadius: "var(--r-sm, 10px)",
+                            background: "#f1f5f9",
+                            color: "#64748b",
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            flexShrink: 0,
+                          }}
+                        >
+                          <Icon name="grid" size={20} />
+                        </div>
+                        <div>
+                          <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 2 }}>
+                            <span style={{ fontSize: "1.02rem", fontWeight: 700, color: "var(--tx-3)" }}>
+                              Continue as Customer
+                            </span>
+                            <span style={{ fontSize: "0.72rem", fontWeight: 700, padding: "2px 8px", borderRadius: 999, background: "#e2e8f0", color: "#64748b" }}>
+                              Direct Browse Only
+                            </span>
+                          </div>
+                          <span style={{ fontSize: "0.82rem", color: "var(--tx-3)", display: "block" }}>
+                            Retail catalog viewing is available directly from catalogue
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* OPTION 4: CONTINUE AS BRAND (FADED OUT & UNCLICKABLE) */}
+                    <div
+                      aria-disabled="true"
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "space-between",
+                        padding: "16px 18px",
+                        borderRadius: "var(--r, 14px)",
+                        border: "1.5px solid var(--line, #dce4ed)",
+                        background: "#fafafa",
+                        opacity: 0.38,
+                        pointerEvents: "none",
+                        cursor: "not-allowed",
+                        userSelect: "none",
+                      }}
+                    >
+                      <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
+                        <div
+                          style={{
+                            width: 44,
+                            height: 44,
+                            borderRadius: "var(--r-sm, 10px)",
+                            background: "#f1f5f9",
+                            color: "#64748b",
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            flexShrink: 0,
+                          }}
+                        >
+                          <Icon name="badge" size={20} />
+                        </div>
+                        <div>
+                          <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 2 }}>
+                            <span style={{ fontSize: "1.02rem", fontWeight: 700, color: "var(--tx-3)" }}>
+                              Continue as Brand
+                            </span>
+                            <span style={{ fontSize: "0.72rem", fontWeight: 700, padding: "2px 8px", borderRadius: 999, background: "#e2e8f0", color: "#64748b" }}>
+                              Invite Only
+                            </span>
+                          </div>
+                          <span style={{ fontSize: "0.82rem", color: "var(--tx-3)", display: "block" }}>
+                            Dealership onboarding currently by direct invitation only
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               )}
 
-              <button
-                className="btn btn-navy btn-block"
-                onClick={checkApprovalStatus}
-                disabled={refreshing}
-              >
-                <Icon name="bolt" size={16} style={{ animation: refreshing ? "spin 1s linear infinite" : "none" }} />
-                {refreshing ? t("verifying_zoho") : t("check_status_btn")}
-              </button>
+              {/* VIEW B: ACTIVE ROLE WORKFLOWS (DEALER OR STAFF) */}
+              {selectedRole && (
+                <div>
+                  {/* ROLE NAVIGATION & SEGMENTED SWITCHER (Apple HIG Style) */}
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                      gap: 8,
+                      marginBottom: 16,
+                      flexWrap: "wrap",
+                    }}
+                  >
+                    <button
+                      type="button"
+                      onClick={() => handleSelectRole(null)}
+                      style={{
+                        display: "inline-flex",
+                        alignItems: "center",
+                        gap: 6,
+                        background: "transparent",
+                        border: "none",
+                        color: "var(--navy-2, #174d7a)",
+                        fontSize: "0.88rem",
+                        fontWeight: 700,
+                        cursor: "pointer",
+                        padding: "6px 0",
+                      }}
+                    >
+                      ← All Options
+                    </button>
 
-              <div style={{ display: "flex", gap: "10px", marginTop: "4px" }}>
-                <Link className="btn btn-ghost btn-block" to="/products">
-                  {t("browse_catalog_directly")}
-                </Link>
-                <button className="btn btn-ghost btn-block" onClick={signOut}>
-                  {t("sign_out")}
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    );
-  }
-
-  // ----------------------------------------------------
-  // VIEW 3: SIGN IN SCREEN (TABBED INTERFACE)
-  // ----------------------------------------------------
-  return (
-    <section className="sec" style={{ paddingTop: "var(--s6)" }}>
-      <div className="wrap" style={{ maxWidth: 740 }}>
-        {/* Top Header */}
-        <div style={{ textAlign: "center", marginBottom: "var(--s5)" }}>
-          {needAuth && (
-            <div
-              style={{
-                background: "var(--blue-50, #eff6ff)",
-                border: "1px solid var(--blue-200, #bfdbfe)",
-                color: "var(--blue-ink, #1e40af)",
-                padding: "12px 18px",
-                borderRadius: "var(--r-md, 10px)",
-                marginBottom: "var(--s4)",
-                display: "inline-flex",
-                alignItems: "center",
-                gap: "10px",
-                fontSize: "0.92rem",
-                fontWeight: 600,
-                textAlign: "left",
-                maxWidth: 620,
-              }}
-            >
-              <Icon name="bolt" size={20} style={{ flexShrink: 0 }} />
-              <span>
-                <b>Verified Dealer Access Only:</b> Please sign in with your registered dealer number to unlock the wholesale catalogue, trade pricing, and schemes.
-              </span>
-            </div>
-          )}
-
-          <h1 className="d2">{t("auth_access_title")}</h1>
-          <p className="sub" style={{ marginTop: "var(--s2)" }}>
-            {t("auth_access_sub")}
-          </p>
-
-          {/* Segmented Pill Tabs */}
-          <div className="tabs" role="tablist" style={{ marginTop: "var(--s4)", display: "inline-flex" }}>
-            <button
-              className="tab"
-              role="tab"
-              aria-selected={activeTab === "dealer"}
-              onClick={() => setActiveTab("dealer")}
-            >
-              {t("tab_dealer_signin")}
-            </button>
-            <button
-              className="tab"
-              role="tab"
-              aria-selected={activeTab === "customer"}
-              onClick={() => setActiveTab("customer")}
-            >
-              {t("tab_customer_access")}
-            </button>
-            <button
-              className="tab"
-              role="tab"
-              aria-selected={activeTab === "apply"}
-              onClick={() => setActiveTab("apply")}
-            >
-              {t("tab_apply_dealer")}
-            </button>
-          </div>
-        </div>
-
-        {/* TAB 1: DEALER SIGN IN */}
-        {activeTab === "dealer" && (
-          <div className="authcard rise" style={{ borderTop: "4px solid var(--blue-600, #2563eb)" }}>
-            <div className="authcard-head">
-              <h2>{t("dealer_login_title")}</h2>
-              <p>
-                {t("dealer_login_sub")}
-              </p>
-            </div>
-
-            <div className="authcard-body">
-              <form onSubmit={(e) => { e.preventDefault(); handleDealerLogin(); }} style={{ display: "contents" }}>
-                <p className="field">
-                  <label htmlFor="dealer-phone">{t("dealer_phone_label")}</label>
-                  <input
-                    id="dealer-phone"
-                    type="text"
-                    required
-                    value={phone}
-                    onChange={(e) => setPhone(e.target.value)}
-                    placeholder={t("dealer_phone_placeholder")}
-                    autoComplete="tel"
-                  />
-                </p>
-
-                {dealerError && (
-                  <div style={{ padding: "8px 12px", background: "var(--red-50, #fef2f2)", color: "var(--red-700, #b91c1c)", borderRadius: "var(--r-md)", fontSize: "0.85rem" }}>
-                    {dealerError}
+                    {/* Segmented Capsule: Only Active Roles (Dealer & Staff) */}
+                    <div
+                      role="tablist"
+                      aria-label="Role selector"
+                      style={{
+                        display: "inline-flex",
+                        background: "var(--bg-2, #f0f5fc)",
+                        borderRadius: 999,
+                        padding: 3,
+                        gap: 2,
+                      }}
+                    >
+                      {[
+                        { id: "dealer", label: "Dealer" },
+                        { id: "staff", label: "Staff" },
+                      ].map((r) => (
+                        <button
+                          key={r.id}
+                          type="button"
+                          role="tab"
+                          aria-selected={selectedRole === r.id}
+                          onClick={() => handleSelectRole(r.id)}
+                          style={{
+                            border: "none",
+                            borderRadius: 999,
+                            padding: "6px 16px",
+                            fontSize: "0.82rem",
+                            fontWeight: selectedRole === r.id ? 800 : 600,
+                            background: selectedRole === r.id ? "var(--navy, #10263a)" : "transparent",
+                            color: selectedRole === r.id ? "#ffffff" : "var(--tx-2)",
+                            cursor: "pointer",
+                            transition: "all 0.15s ease",
+                          }}
+                        >
+                          {r.label}
+                        </button>
+                      ))}
+                    </div>
                   </div>
-                )}
 
-                <button
-                  type="submit"
-                  className="btn btn-navy btn-block"
-                  disabled={!phone.trim() || dealerLoading}
-                  style={{ padding: "12px", fontSize: "1rem" }}
-                >
-                  <Icon name="lock" size={16} />
-                  {dealerLoading ? t("verifying_zoho") : t("dealer_signin_btn")}
-                </button>
-              </form>
+                  {/* ACTIVE ROLE 1: DEALER SIGN-IN */}
+                  {selectedRole === "dealer" && (
+                    <div
+                      className="card pad"
+                      style={{
+                        boxShadow: "0 10px 30px -10px rgba(16, 38, 58, 0.1)",
+                        borderRadius: "var(--r-xl, 20px)",
+                        border: "1.5px solid var(--line, #dce4ed)",
+                        padding: "clamp(20px, 3.5vw, 32px)",
+                      }}
+                    >
+                      <div style={{ textAlign: "center", marginBottom: 20 }}>
+                        <div
+                          style={{
+                            width: 48,
+                            height: 48,
+                            borderRadius: "var(--r, 14px)",
+                            background: "var(--navy, #10263a)",
+                            color: "#fff",
+                            display: "inline-flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            marginBottom: 10,
+                          }}
+                        >
+                          <Icon name="shield" size={24} />
+                        </div>
+                        <h2 style={{ fontSize: "1.45rem", fontWeight: 800, margin: "0 0 4px", color: "var(--tx)" }}>
+                          Dealer Sign-In
+                        </h2>
+                        <p style={{ margin: 0, color: "var(--tx-2)", fontSize: "0.86rem" }}>
+                          Sign in with your registered WhatsApp number or Google Account.
+                        </p>
+                      </div>
 
-              {/* Quick 1-Click Client Testing Chips */}
-              <div style={{ marginTop: "var(--s4)", padding: "14px 16px", background: "var(--bg-subtle, #f8fafc)", borderRadius: "var(--r-md)", border: "1px dashed var(--blue-300, #93c5fd)" }}>
-                <p style={{ margin: "0 0 10px", fontSize: "0.82rem", fontWeight: 700, color: "var(--blue-900, #1e3a8a)", display: "flex", alignItems: "center", gap: 6 }}>
-                  <Icon name="bolt" size={15} /> 1-Click Test Accounts for Client Testing:
-                </p>
-                <div style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
-                  <button
-                    type="button"
-                    className="btn btn-white btn-sm"
-                    style={{ borderColor: "var(--blue-300)", fontWeight: 600, fontSize: "0.82rem" }}
-                    onClick={() => {
-                      setPhone("9876541237");
-                      handleDealerLogin("9876541237");
-                    }}
-                  >
-                    ⚡ Test Dealer: 9876541237
-                  </button>
-                  <button
-                    type="button"
-                    className="btn btn-white btn-sm"
-                    style={{ borderColor: "var(--blue-300)", fontWeight: 600, fontSize: "0.82rem" }}
-                    onClick={() => {
-                      setPhone("7896543217");
-                      handleDealerLogin("7896543217");
-                    }}
-                  >
-                    ⚡ Test Dealer: hello (Mumbai PL May 2026)
-                  </button>
-                  <button
-                    type="button"
-                    className="btn btn-white btn-sm"
-                    style={{ borderColor: "var(--line)", fontWeight: 600, fontSize: "0.82rem" }}
-                    onClick={() => {
-                      setSession({ role: "dealer", status: "approved", dealerId: DEALERS[0].id, dealer: DEALERS[0] });
-                      nav("/products");
-                    }}
-                  >
-                    🏢 Shah Electronics
-                  </button>
-                  <button
-                    type="button"
-                    className="btn btn-white btn-sm"
-                    style={{ borderColor: "var(--line)", fontWeight: 600, fontSize: "0.82rem" }}
-                    onClick={() => {
-                      setSession({ role: "dealer", status: "approved", dealerId: DEALERS[1].id, dealer: DEALERS[1] });
-                      nav("/products");
-                    }}
-                  >
-                    🏪 Rajesh Appliances
-                  </button>
+                      {/* Method Selector Tabs */}
+                      <div
+                        style={{
+                          display: "grid",
+                          gridTemplateColumns: "1fr 1fr",
+                          gap: 6,
+                          padding: 4,
+                          background: "var(--bg-2, #f0f5fc)",
+                          borderRadius: "var(--r, 14px)",
+                          marginBottom: 18,
+                        }}
+                      >
+                        <button
+                          type="button"
+                          onClick={() => setAuthMethod("whatsapp")}
+                          style={{
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            gap: 6,
+                            minHeight: 42,
+                            border: "none",
+                            borderRadius: "var(--r-sm, 10px)",
+                            background: authMethod === "whatsapp" ? "#fff" : "transparent",
+                            fontWeight: authMethod === "whatsapp" ? 700 : 600,
+                            fontSize: "0.86rem",
+                            boxShadow: authMethod === "whatsapp" ? "0 2px 8px rgba(0,0,0,0.06)" : "none",
+                            cursor: "pointer",
+                          }}
+                        >
+                          <span style={{ color: "#25D366", display: "flex" }}>
+                            <Icon name="wa" size={16} />
+                          </span>
+                          WhatsApp OTP
+                        </button>
+
+                        <button
+                          type="button"
+                          onClick={() => setAuthMethod("email")}
+                          style={{
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            gap: 6,
+                            minHeight: 42,
+                            border: "none",
+                            borderRadius: "var(--r-sm, 10px)",
+                            background: authMethod === "email" ? "#fff" : "transparent",
+                            fontWeight: authMethod === "email" ? 700 : 600,
+                            fontSize: "0.86rem",
+                            boxShadow: authMethod === "email" ? "0 2px 8px rgba(0,0,0,0.06)" : "none",
+                            cursor: "pointer",
+                          }}
+                        >
+                          <Icon name="mail" size={16} />
+                          Email Password
+                        </button>
+                      </div>
+
+                      {error && (
+                        <div
+                          role="alert"
+                          style={{
+                            display: "flex",
+                            alignItems: "flex-start",
+                            gap: 10,
+                            padding: "10px 12px",
+                            borderRadius: 8,
+                            background: "var(--err-bg, #fde8e8)",
+                            color: "var(--err, #dc4545)",
+                            fontSize: "0.85rem",
+                            marginBottom: 16,
+                          }}
+                        >
+                          <Icon name="flame" size={16} />
+                          <div style={{ flex: 1 }}>{error}</div>
+                        </div>
+                      )}
+
+                      {/* WhatsApp OTP Form */}
+                      {authMethod === "whatsapp" && (
+                        <div>
+                          {step === "phone" ? (
+                            <form onSubmit={handleSendOtp} style={{ display: "grid", gap: 14 }}>
+                              <div>
+                                <label htmlFor="dealer-phone-in" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, marginBottom: 6 }}>
+                                  Registered WhatsApp Number
+                                </label>
+                                <div style={{ display: "flex", border: "1.5px solid var(--line)", borderRadius: "var(--r-sm, 10px)", overflow: "hidden", background: "#fff" }}>
+                                  <div style={{ padding: "0 14px", height: 48, display: "flex", alignItems: "center", background: "var(--bg-2)", borderRight: "1.5px solid var(--line)", fontWeight: 700, color: "var(--navy)", fontSize: "0.95rem" }}>
+                                    +91
+                                  </div>
+                                  <input
+                                    id="dealer-phone-in"
+                                    type="tel"
+                                    inputMode="tel"
+                                    placeholder="98765 43210"
+                                    value={phone}
+                                    onChange={handlePhoneChange}
+                                    disabled={loading}
+                                    style={{ flex: 1, height: 48, border: "none", outline: "none", padding: "0 12px", fontSize: "1rem", fontWeight: 600 }}
+                                  />
+                                </div>
+                              </div>
+
+                              <button
+                                type="submit"
+                                disabled={!isPhoneValid || loading}
+                                className="btn btn-navy btn-block"
+                                style={{ height: 48, fontSize: "0.95rem", fontWeight: 700 }}
+                              >
+                                {loading ? "Sending Code..." : "Send WhatsApp OTP"}
+                              </button>
+                            </form>
+                          ) : (
+                            <div style={{ display: "grid", gap: 16 }}>
+                              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", fontSize: "0.84rem" }}>
+                                <span>Sent to: <strong>+91 {phone}</strong></span>
+                                <button
+                                  type="button"
+                                  onClick={() => setStep("phone")}
+                                  style={{ background: "transparent", border: "none", color: "var(--blue-ink)", fontWeight: 700, cursor: "pointer" }}
+                                >
+                                  Change
+                                </button>
+                              </div>
+
+                              <div
+                                onPaste={handleOtpPaste}
+                                style={{
+                                  display: "grid",
+                                  gridTemplateColumns: "repeat(6, minmax(0, 1fr))",
+                                  gap: "clamp(6px, 1.8vw, 10px)",
+                                  width: "100%",
+                                  maxWidth: 340,
+                                  margin: "0 auto",
+                                  boxSizing: "border-box",
+                                }}
+                              >
+                                {otp.map((digit, idx) => (
+                                  <input
+                                    key={idx}
+                                    ref={(el) => (otpInputRefs.current[idx] = el)}
+                                    type="text"
+                                    inputMode="numeric"
+                                    pattern="[0-9]*"
+                                    maxLength={6}
+                                    autoComplete={idx === 0 ? "one-time-code" : "off"}
+                                    value={digit}
+                                    onChange={(e) => handleOtpDigitChange(idx, e.target.value)}
+                                    onKeyDown={(e) => handleOtpKeyDown(idx, e)}
+                                    onPaste={handleOtpPaste}
+                                    disabled={loading}
+                                    style={{
+                                      width: "100%",
+                                      minWidth: 0,
+                                      maxWidth: "100%",
+                                      boxSizing: "border-box",
+                                      height: 52,
+                                      padding: 0,
+                                      textAlign: "center",
+                                      fontSize: "1.3rem",
+                                      fontWeight: 800,
+                                      borderRadius: 10,
+                                      border: digit ? "2px solid var(--navy, #10263a)" : "1.5px solid var(--line, #dce4ed)",
+                                      background: digit ? "var(--blue-50, #f0f7ff)" : "#fff",
+                                      color: "var(--navy, #10263a)",
+                                      outline: "none",
+                                      boxShadow: digit ? "0 2px 8px rgba(16, 38, 58, 0.08)" : "none",
+                                      transition: "all 0.15s ease",
+                                    }}
+                                  />
+                                ))}
+                              </div>
+
+                              <button
+                                type="button"
+                                onClick={() => handleVerifyOtp()}
+                                disabled={otp.join("").length !== 6 || loading}
+                                className="btn btn-navy btn-block"
+                                style={{ height: 48, fontWeight: 700 }}
+                              >
+                                {loading ? "Verifying..." : "Verify & Sign In"}
+                              </button>
+
+                              <div style={{ textAlign: "center", fontSize: "0.84rem" }}>
+                                {cooldown > 0 ? (
+                                  <span style={{ color: "var(--tx-3)" }}>Resend code in {cooldown}s</span>
+                                ) : (
+                                  <button
+                                    type="button"
+                                    onClick={handleResendOtp}
+                                    style={{ background: "transparent", border: "none", color: "var(--blue-ink)", fontWeight: 700, cursor: "pointer" }}
+                                  >
+                                    Resend WhatsApp Code
+                                  </button>
+                                )}
+                              </div>
+                            </div>
+                          )}
+                        </div>
+                      )}
+
+                      {/* Email Password Form */}
+                      {authMethod === "email" && (
+                        <form onSubmit={handleEmailAuthSubmit} style={{ display: "grid", gap: 14 }}>
+                          <div>
+                            <label htmlFor="dealer-email-in" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, marginBottom: 4 }}>
+                              Email Address
+                            </label>
+                            <input
+                              id="dealer-email-in"
+                              type="email"
+                              value={email}
+                              onChange={(e) => setEmail(e.target.value)}
+                              placeholder="name@dealership.com"
+                              style={{ width: "100%", height: 48, borderRadius: "var(--r-sm, 10px)", border: "1.5px solid var(--line)", padding: "0 12px" }}
+                            />
+                          </div>
+
+                          <div>
+                            <label htmlFor="dealer-pass-in" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, marginBottom: 4 }}>
+                              Password
+                            </label>
+                            <div style={{ display: "flex", border: "1.5px solid var(--line)", borderRadius: "var(--r-sm, 10px)", overflow: "hidden" }}>
+                              <input
+                                id="dealer-pass-in"
+                                type={showPassword ? "text" : "password"}
+                                value={password}
+                                onChange={(e) => setPassword(e.target.value)}
+                                placeholder="••••••••"
+                                style={{ flex: 1, height: 48, border: "none", outline: "none", padding: "0 12px" }}
+                              />
+                              <button
+                                type="button"
+                                onClick={() => setShowPassword((s) => !s)}
+                                style={{ background: "transparent", border: "none", padding: "0 12px", cursor: "pointer", color: "var(--tx-3)" }}
+                              >
+                                <Icon name={showPassword ? "eyeoff" : "eye"} size={16} />
+                              </button>
+                            </div>
+                          </div>
+
+                          <button type="submit" disabled={loading} className="btn btn-navy btn-block" style={{ height: 48, fontWeight: 700 }}>
+                            {loading ? "Signing In..." : "Sign In with Email"}
+                          </button>
+                        </form>
+                      )}
+
+                      {/* Clean Google Sign-In Integration (Without 403 Origin Errors on Localhost) */}
+                      <div style={{ marginTop: 20, paddingTop: 16, borderTop: "1px solid var(--line)" }}>
+                        {isLocalhost ? (
+                          <div style={{ display: "grid", gap: 8 }}>
+                            <button
+                              type="button"
+                              onClick={() => {
+                                setGoogleNotice(
+                                  "Google 1-Click Access is active on production (restor.in). On localhost, please sign in with your WhatsApp number above."
+                                );
+                              }}
+                              className="btn btn-ghost btn-block"
+                              style={{
+                                height: 46,
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "center",
+                                gap: 10,
+                                border: "1px solid var(--line, #dce4ed)",
+                                background: "#fff",
+                                color: "var(--tx)",
+                                fontWeight: 600,
+                                fontSize: "0.9rem",
+                              }}
+                            >
+                              <svg width="18" height="18" viewBox="0 0 18 18">
+                                <path fill="#4285F4" d="M17.64 9.2c0-.637-.057-1.251-.164-1.84H9v3.481h4.844c-.209 1.125-.843 2.078-1.796 2.717v2.258h2.908c1.702-1.567 2.684-3.874 2.684-6.616z"/>
+                                <path fill="#34A853" d="M9 18c2.43 0 4.467-.806 5.956-2.184l-2.908-2.258c-.806.54-1.837.86-3.048.86-2.344 0-4.328-1.584-5.036-3.711H.957v2.332A8.997 8.997 0 0 0 9 18z"/>
+                                <path fill="#FBBC05" d="M3.964 10.707c-.18-.54-.282-1.117-.282-1.707s.102-1.167.282-1.707V4.961H.957A8.996 8.996 0 0 0 0 9c0 1.452.348 2.827.957 4.039l3.007-2.332z"/>
+                                <path fill="#EA4335" d="M9 3.58c1.321 0 2.508.454 3.44 1.345l2.582-2.58C13.463.891 11.426 0 9 0A8.997 8.997 0 0 0 .957 4.961L3.964 7.293C4.672 5.166 6.656 3.58 9 3.58z"/>
+                              </svg>
+                              Continue with Google
+                            </button>
+                            {googleNotice && (
+                              <p style={{ margin: 0, fontSize: "0.78rem", color: "var(--tx-3)", textAlign: "center", lineHeight: 1.4 }}>
+                                {googleNotice}
+                              </p>
+                            )}
+                          </div>
+                        ) : (
+                          <div style={{ display: "flex", justifyContent: "center", minHeight: 44 }}>
+                            <div ref={googleBtnRef} style={{ width: "100%", maxWidth: 320, display: "flex", justifyContent: "center" }} />
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* ACTIVE ROLE 2: STAFF ACCESS */}
+                  {selectedRole === "staff" && (
+                    <div
+                      className="card pad"
+                      style={{
+                        boxShadow: "0 10px 30px -10px rgba(16, 38, 58, 0.1)",
+                        borderRadius: "var(--r-xl, 20px)",
+                        border: "1.5px solid var(--line, #dce4ed)",
+                        padding: "clamp(20px, 3.5vw, 32px)",
+                      }}
+                    >
+                      <div style={{ textAlign: "center", marginBottom: 20 }}>
+                        <div
+                          style={{
+                            width: 48,
+                            height: 48,
+                            borderRadius: "var(--r, 14px)",
+                            background: "#e0e7ff",
+                            color: "#3730a3",
+                            display: "inline-flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            marginBottom: 10,
+                          }}
+                        >
+                          <Icon name="user" size={24} />
+                        </div>
+                        <h2 style={{ fontSize: "1.45rem", fontWeight: 800, margin: "0 0 4px", color: "var(--tx)" }}>
+                          Staff Portal Access
+                        </h2>
+                        <p style={{ margin: 0, color: "var(--tx-2)", fontSize: "0.86rem" }}>
+                          Enter your store's Dealer / Business Code to join your showroom workspace.
+                        </p>
+                      </div>
+
+                      {staffLookupError && (
+                        <div style={{ padding: "10px 12px", borderRadius: 8, background: "#fee2e2", color: "#991b1b", fontSize: "0.85rem", marginBottom: 14 }}>
+                          {staffLookupError}
+                        </div>
+                      )}
+                      {staffSubmitError && (
+                        <div style={{ padding: "10px 12px", borderRadius: 8, background: "#fee2e2", color: "#991b1b", fontSize: "0.85rem", marginBottom: 14 }}>
+                          {staffSubmitError}
+                        </div>
+                      )}
+
+                      {!staffStoreInfo ? (
+                        <form onSubmit={handleStaffLookup} style={{ display: "grid", gap: 14 }}>
+                          <div>
+                            <label htmlFor="staff-code-in" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, marginBottom: 6 }}>
+                              Store / Dealer Code
+                            </label>
+                            <input
+                              id="staff-code-in"
+                              type="text"
+                              placeholder="e.g. SHR-12345 or DE-ABC-1234"
+                              value={staffCode}
+                              onChange={(e) => {
+                                setStaffCode(formatLoginCode(e.target.value));
+                                setStaffLookupError("");
+                              }}
+                              style={{
+                                width: "100%",
+                                height: 48,
+                                borderRadius: "var(--r-sm, 10px)",
+                                border: "1.5px solid var(--line)",
+                                padding: "0 14px",
+                                fontSize: "1rem",
+                                fontWeight: 700,
+                                letterSpacing: "0.08em",
+                                textTransform: "uppercase",
+                              }}
+                            />
+                          </div>
+
+                          <button
+                            type="submit"
+                            disabled={staffLookupLoading || !staffCode.trim()}
+                            className="btn btn-navy btn-block"
+                            style={{ height: 48, fontWeight: 700 }}
+                          >
+                            {staffLookupLoading ? "Verifying Code..." : "Verify Store Code →"}
+                          </button>
+                        </form>
+                      ) : (
+                        <form onSubmit={handleStaffSignupSubmit} style={{ display: "grid", gap: 14 }}>
+                          {/* Verified Store Card (SVG Icon, No Emoji) */}
+                          <div style={{ padding: "12px 14px", borderRadius: 10, background: "#f0fdf4", border: "1px solid #bbf7d0", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                            <div>
+                              <div style={{ display: "flex", alignItems: "center", gap: 6, fontSize: "0.78rem", fontWeight: 700, color: "#166534", textTransform: "uppercase" }}>
+                                <Icon name="check" size={13} />
+                                Verified Store
+                              </div>
+                              <div style={{ fontSize: "0.98rem", fontWeight: 800, color: "var(--tx)" }}>
+                                {staffStoreInfo.name || staffStoreInfo.business_name || "Authorized Dealership"}
+                              </div>
+                            </div>
+                            <button
+                              type="button"
+                              onClick={() => {
+                                setStaffStoreInfo(null);
+                                setStaffCode("");
+                              }}
+                              style={{ background: "transparent", border: "none", color: "var(--tx-3)", fontSize: "0.78rem", cursor: "pointer", textDecoration: "underline" }}
+                            >
+                              Change
+                            </button>
+                          </div>
+
+                          <div>
+                            <label htmlFor="staff-name-in" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, marginBottom: 4 }}>
+                              Full Name
+                            </label>
+                            <input
+                              id="staff-name-in"
+                              type="text"
+                              required
+                              placeholder="Rajesh Sharma"
+                              value={staffForm.fullName}
+                              onChange={(e) => setStaffForm((f) => ({ ...f, fullName: e.target.value }))}
+                              style={{ width: "100%", height: 46, borderRadius: 8, border: "1.5px solid var(--line)", padding: "0 12px" }}
+                            />
+                          </div>
+
+                          <div>
+                            <label htmlFor="staff-email-in" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, marginBottom: 4 }}>
+                              Work Email
+                            </label>
+                            <input
+                              id="staff-email-in"
+                              type="email"
+                              required
+                              placeholder="staff@dealership.com"
+                              value={staffForm.email}
+                              onChange={(e) => setStaffForm((f) => ({ ...f, email: e.target.value }))}
+                              style={{ width: "100%", height: 46, borderRadius: 8, border: "1.5px solid var(--line)", padding: "0 12px" }}
+                            />
+                          </div>
+
+                          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>
+                            <div>
+                              <label htmlFor="staff-pass-in" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, marginBottom: 4 }}>
+                                Password
+                              </label>
+                              <input
+                                id="staff-pass-in"
+                                type="password"
+                                required
+                                placeholder="••••••••"
+                                value={staffForm.password}
+                                onChange={(e) => setStaffForm((f) => ({ ...f, password: e.target.value }))}
+                                style={{ width: "100%", height: 46, borderRadius: 8, border: "1.5px solid var(--line)", padding: "0 12px" }}
+                              />
+                            </div>
+                            <div>
+                              <label htmlFor="staff-cpass-in" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, marginBottom: 4 }}>
+                                Confirm
+                              </label>
+                              <input
+                                id="staff-cpass-in"
+                                type="password"
+                                required
+                                placeholder="••••••••"
+                                value={staffForm.confirmPassword}
+                                onChange={(e) => setStaffForm((f) => ({ ...f, confirmPassword: e.target.value }))}
+                                style={{ width: "100%", height: 46, borderRadius: 8, border: "1.5px solid var(--line)", padding: "0 12px" }}
+                              />
+                            </div>
+                          </div>
+
+                          <button
+                            type="submit"
+                            disabled={staffSubmitLoading}
+                            className="btn btn-navy btn-block"
+                            style={{ height: 48, fontWeight: 700, marginTop: 6 }}
+                          >
+                            {staffSubmitLoading ? "Submitting Registration..." : "Complete Staff Registration"}
+                          </button>
+                        </form>
+                      )}
+                    </div>
+                  )}
                 </div>
-              </div>
+              )}
             </div>
-
-            <p className="note authcard-foot" style={{ textAlign: "center" }}>
-              New dealer? <button type="button" className="link" onClick={() => setActiveTab("apply")}>Apply for dealer access</button> or <button type="button" className="link" onClick={() => setActiveTab("customer")}>browse as customer</button>.
-            </p>
           </div>
         )}
 
-        {/* TAB 2: CUSTOMER ACCESS */}
-        {activeTab === "customer" && (
-          <div className="authcard rise" style={{ borderTop: "4px solid var(--navy, #0f172a)" }}>
-            <div className="authcard-head">
-              <h2>{t("customer_view_title")}</h2>
-              <p>
-                {t("customer_view_sub")}
-              </p>
-            </div>
-
-            <div className="authcard-body">
-              <div style={{ background: "var(--bg-subtle, #f8fafc)", padding: "16px", borderRadius: "var(--r-md)", border: "1px solid var(--line)" }}>
-                <ul style={{ margin: 0, paddingLeft: "1.2rem", fontSize: "0.9rem", lineHeight: 1.8, color: "var(--tx-2)" }}>
-                  <li>Browse 400+ genuine Sunshine kitchen appliances</li>
-                  <li>View official retail MRP and technical specifications</li>
-                  <li>Direct WhatsApp & Phone calling to authorized dealers</li>
-                  <li>No registration or approval needed to browse</li>
-                </ul>
-              </div>
-
-              <div style={{ display: "grid", gap: "10px", marginTop: "var(--s2)" }}>
-                <button
-                  className="btn btn-navy btn-block"
-                  style={{ padding: "12px", fontSize: "1rem" }}
-                  onClick={() => handleCustomerLogin("Customer")}
-                >
-                  <Icon name="arrowsm" size={16} /> {t("customer_enter_btn")}
-                </button>
-                <Link className="btn btn-ghost btn-block" to="/products">
-                  {t("browse_catalog_directly")}
-                </Link>
-              </div>
-            </div>
-
-            <p className="note authcard-foot" style={{ textAlign: "center" }}>
-              Are you a dealer? <button type="button" className="link" onClick={() => setActiveTab("dealer")}>Sign in for wholesale trade rates</button>.
-            </p>
-          </div>
-        )}
-
-        {/* TAB 3: APPLY FOR DEALER ACCESS */}
-        {activeTab === "apply" && (
-          <div className="authcard rise" style={{ borderTop: "4px solid var(--green-600, #16a34a)" }}>
-            <div className="authcard-head">
-              <h2>{t("apply_dealer_title")}</h2>
-              <p>
-                {t("apply_dealer_sub")}
-              </p>
-            </div>
-
-            <div className="authcard-body">
-              <form onSubmit={handleApplySubmit} style={{ display: "contents" }}>
-                <div className="form-grid">
-                  <p className="field">
-                    <label htmlFor="apply-shop">{t("shop_name_label")} *</label>
-                    <input
-                      id="apply-shop"
-                      required
-                      value={applyForm.shop}
-                      onChange={(e) => setApplyForm({ ...applyForm, shop: e.target.value })}
-                      placeholder="e.g. Shah Electronics"
-                    />
-                  </p>
-                  <p className="field">
-                    <label htmlFor="apply-person">{t("contact_person_label")} *</label>
-                    <input
-                      id="apply-person"
-                      required
-                      value={applyForm.person}
-                      onChange={(e) => setApplyForm({ ...applyForm, person: e.target.value })}
-                      placeholder="e.g. Kunal Shah"
-                    />
-                  </p>
-                  <p className="field">
-                    <label htmlFor="apply-phone">{t("phone_label")} *</label>
-                    <input
-                      id="apply-phone"
-                      type="tel"
-                      required
-                      value={applyForm.phone}
-                      onChange={(e) => setApplyForm({ ...applyForm, phone: e.target.value })}
-                      placeholder="e.g. 98200 12345"
-                    />
-                  </p>
-                  <p className="field">
-                    <label htmlFor="apply-email">Email Address</label>
-                    <input
-                      id="apply-email"
-                      type="email"
-                      value={applyForm.email}
-                      onChange={(e) => setApplyForm({ ...applyForm, email: e.target.value })}
-                      placeholder="dealer@example.com"
-                    />
-                  </p>
-                  <p className="field">
-                    <label htmlFor="apply-city">{t("city_label")} / Region</label>
-                    <input
-                      id="apply-city"
-                      value={applyForm.city}
-                      onChange={(e) => setApplyForm({ ...applyForm, city: e.target.value })}
-                      placeholder="e.g. Mumbai"
-                    />
-                  </p>
-                  <p className="field">
-                    <label htmlFor="apply-gst">GST Number (optional)</label>
-                    <input
-                      id="apply-gst"
-                      value={applyForm.gst}
-                      onChange={(e) => setApplyForm({ ...applyForm, gst: e.target.value })}
-                      placeholder="27AAAPT2184Q1Z2"
-                    />
-                  </p>
-                </div>
-
-                {applyError && (
-                  <div style={{ padding: "8px 12px", background: "var(--red-50, #fef2f2)", color: "var(--red-700, #b91c1c)", borderRadius: "var(--r-md)", fontSize: "0.85rem" }}>
-                    {applyError}
-                  </div>
-                )}
-
-                <button
-                  type="submit"
-                  className="btn btn-navy btn-block"
-                  disabled={!applyForm.shop.trim() || !applyForm.person.trim() || !applyForm.phone.trim() || applyLoading}
-                  style={{ padding: "12px", fontSize: "1rem" }}
-                >
-                  <Icon name="check" size={16} />
-                  {applyLoading ? t("verifying_zoho") : t("apply_submit_btn")}
-                </button>
-              </form>
-            </div>
-
-            <p className="note authcard-foot" style={{ textAlign: "center" }}>
-              Already approved in Zoho? <button type="button" className="link" onClick={() => setActiveTab("dealer")}>Sign in directly with your registered phone</button>.
-            </p>
-          </div>
-        )}
+        {/* Quick Nav Footer Links */}
+        <nav
+          aria-label="Quick navigation"
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            flexWrap: "wrap",
+            gap: 12,
+            marginTop: 28,
+            padding: "8px 16px",
+          }}
+        >
+          <Link to="/products" className="btn btn-sm btn-ghost">
+            <Icon name="grid" size={14} /> Catalog
+          </Link>
+          <Link to="/" className="btn btn-sm btn-ghost">
+            <Icon name="home" size={14} /> Home
+          </Link>
+        </nav>
       </div>
     </section>
   );

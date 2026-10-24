@@ -1,22 +1,26 @@
 # Community 216
 
-> 5 nodes · cohesion 0.40
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **focus** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **Multitasking** (5 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Platform considerations** (4 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **multitasking.md** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
 
 ## Relationships
 
-- [[Community 113]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/apple-design/references/hig/multitasking.md`
 
 ## Audit Trail
 

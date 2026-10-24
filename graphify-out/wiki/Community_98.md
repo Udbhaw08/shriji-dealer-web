@@ -1,37 +1,39 @@
 # Community 98
 
-> 14 nodes · cohesion 0.14
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **workflow-migration.test.mjs** (22 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **copyFixture()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **explicitPinConflictWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **fixture** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **heightConstrainedWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **parseJsonOutput()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **profileDivergenceWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **runMigration()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **runValidation()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **DESIGN.md — the design system as actually built** (8 connections) — `docs/DESIGN.md`
+- **4. Components already built — reuse these** (7 connections) — `docs/DESIGN.md`
+- **2. Tokens** (4 connections) — `docs/DESIGN.md`
+- **DESIGN.md** (1 connections) — `docs/DESIGN.md`
+- **1. The direction in one paragraph** (1 connections) — `docs/DESIGN.md`
+- **3. Layout primitives** (1 connections) — `docs/DESIGN.md`
+- **5. Icons** (1 connections) — `docs/DESIGN.md`
+- **6. Responsive rules** (1 connections) — `docs/DESIGN.md`
+- **7. Motion and accessibility** (1 connections) — `docs/DESIGN.md`
+- **Actions** (1 connections) — `docs/DESIGN.md`
+- **Colour** (1 connections) — `docs/DESIGN.md`
+- **Content** (1 connections) — `docs/DESIGN.md`
+- **Detail** (1 connections) — `docs/DESIGN.md`
+- **Listing sidebar** (1 connections) — `docs/DESIGN.md`
+- **Navigation and filtering** (1 connections) — `docs/DESIGN.md`
+- **Product** (1 connections) — `docs/DESIGN.md`
+- **Spacing, radius, shadow, motion** (1 connections) — `docs/DESIGN.md`
+- **Type** (1 connections) — `docs/DESIGN.md`
 
 ## Relationships
 
-- [[Community 173]] (5 shared connections)
-- [[Community 93]] (3 shared connections)
-- [[Community 63]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/workflow-migration.test.mjs`
+- `docs/DESIGN.md`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 34 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,17 +1,20 @@
 # Community 167
 
-> 8 nodes · cohesion 0.29
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **stable-update-manifest.test.mjs** (7 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **annotatedTaggerTime()** (2 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **git()** (2 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **checker** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **runCheck()** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
-- **writeJson()** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **Archify** (10 connections) — `.agents/skills/archify/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Authoring invariants** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Delivery** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Fast authoring path** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Mermaid input** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Optional viewer capabilities** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Output** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Setup and fallback** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Type router** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Update awareness** (1 connections) — `.agents/skills/archify/SKILL.md`
 
 ## Relationships
 
@@ -19,11 +22,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- `.agents/skills/archify/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,17 +1,21 @@
 # Community 156
 
-> 8 nodes · cohesion 0.25
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **landing.test.mjs** (7 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **docsRoot** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **landing** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **manifest** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **proofs** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
+- **Menus** (10 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **menus.md** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Icons** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **In-game menus** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Labels** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Organization** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Submenus** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Toggled items** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
 
 ## Relationships
 
@@ -19,11 +23,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/landing.test.mjs`
+- `.agents/skills/apple-design/references/hig/menus.md`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,16 +1,19 @@
 # Community 186
 
-> 7 nodes · cohesion 0.33
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **preview.test.mjs** (8 connections) — `.agents/skills/archify/test/preview.test.mjs`
-- **stateAt()** (2 connections) — `.agents/skills/archify/test/preview.test.mjs`
-- **waitForState()** (2 connections) — `.agents/skills/archify/test/preview.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
-- **rawRequest()** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
+- **AirPlay** (6 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Using AirPlay icons** (4 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **airplay.md** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Black AirPlay icon** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Custom color AirPlay icon** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Referring to AirPlay** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **White AirPlay icon** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
 
 ## Relationships
 
@@ -18,11 +21,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/preview.test.mjs`
+- `.agents/skills/apple-design/references/hig/airplay.md`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

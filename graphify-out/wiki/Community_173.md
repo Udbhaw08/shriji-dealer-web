@@ -1,17 +1,20 @@
 # Community 173
 
-> 8 nodes · cohesion 0.43
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **workflow-migration-geometry.mjs** (10 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **createMappedWorkflowCandidate()** (9 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **intrinsicWorkflow()** (8 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **planningWorkflow()** (7 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **createHorizontalRankMapper()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **clone()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **mapExplicitCoordinates()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **mappedNumber()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **Gestures** (7 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Specifications** (2 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **gestures.md** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Custom gestures** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Standard gestures** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
 
 ## Relationships
 
@@ -23,12 +26,12 @@
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- `.agents/skills/apple-design/references/hig/gestures.md`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 20 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

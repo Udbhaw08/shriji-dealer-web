@@ -1,24 +1,29 @@
 # Community 257
 
-> 3 nodes · cohesion 0.67
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **width** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **Image views** (6 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **image-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
 
 ## Relationships
 
-- [[Mobile Responsive UI Skill]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `.agents/skills/apple-design/references/hig/image-views.md`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

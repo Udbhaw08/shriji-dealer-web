@@ -1,28 +1,32 @@
 # Community 73
 
-> 19 nodes · cohesion 0.26
+> 23 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **cacheRename()** (13 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheRm()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **captureMutationParentSnapshots()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **invalidateCacheToken()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **prepareCacheDirectory()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **resolveCacheTarget()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stableCacheEntry()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **verifyCacheToken()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **guardedCacheMutation()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertSafeDirectory()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **isSameFile()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheMkdirWithToken()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stablePreparedDirectory()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **verifyDirectorySnapshots()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **verifyMutationContext()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **verifyMutationParentSnapshots()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertCacheTargetAbsent()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **canonicalizeTrustedDirectoryPrefix()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **isWithinDirectory()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **package.json** (9 connections) — `backend/package.json`
+- **dependencies** (7 connections) — `backend/package.json`
+- **scripts** (7 connections) — `backend/package.json`
+- **engines** (2 connections) — `backend/package.json`
+- **dotenv** (1 connections) — `backend/package.json`
+- **express** (1 connections) — `backend/package.json`
+- **google-auth-library** (1 connections) — `backend/package.json`
+- **jsonwebtoken** (1 connections) — `backend/package.json`
+- **postgres** (1 connections) — `backend/package.json`
+- **resend** (1 connections) — `backend/package.json`
+- **description** (1 connections) — `backend/package.json`
+- **node** (1 connections) — `backend/package.json`
+- **main** (1 connections) — `backend/package.json`
+- **name** (1 connections) — `backend/package.json`
+- **private** (1 connections) — `backend/package.json`
+- **build** (1 connections) — `backend/package.json`
+- **check:ready** (1 connections) — `backend/package.json`
+- **dev** (1 connections) — `backend/package.json`
+- **migrate** (1 connections) — `backend/package.json`
+- **start** (1 connections) — `backend/package.json`
+- **test** (1 connections) — `backend/package.json`
+- **type** (1 connections) — `backend/package.json`
+- **version** (1 connections) — `backend/package.json`
 
 ## Relationships
 
@@ -33,12 +37,12 @@
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-update.mjs`
+- `backend/package.json`
 
 ## Audit Trail
 
-- EXTRACTED: 130 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 44 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

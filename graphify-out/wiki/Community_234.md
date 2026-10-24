@@ -1,13 +1,18 @@
 # Community 234
 
-> 4 nodes · cohesion 0.50
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **community-proof-intake.test.mjs** (3 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
-- **read()** (1 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
+- **generate-validators.mjs** (8 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **ajv** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **diagramTypes** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **output** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **root** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **schemaIds** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **schemasDir** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **validatorCode** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
 
 ## Relationships
 
@@ -15,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/community-proof-intake.test.mjs`
+- `.agents/skills/archify/scripts/generate-validators.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,15 +1,18 @@
 # Community 210
 
-> 6 nodes · cohesion 0.33
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **story-trail.test.mjs** (5 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
+- **Primary Commands** (5 connections) — `.agents/skills/graphify/SKILL.md`
+- **Graphify Knowledge Graph Skill** (4 connections) — `.agents/skills/graphify/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **1. Query the Graph (Context-Efficient)** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **2. Trace Relationships (Shortest Path)** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **3. Explain a Node or Symbol** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **4. Update the Graph (AST Re-Extraction)** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **Key Output Artifacts in `graphify-out/`** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **Why Use Graphify** (1 connections) — `.agents/skills/graphify/SKILL.md`
 
 ## Relationships
 
@@ -17,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/story-trail.test.mjs`
+- `.agents/skills/graphify/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

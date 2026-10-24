@@ -1,44 +1,60 @@
 # Community 58
 
-> 22 nodes · cohesion 0.09
+> 26 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **CODEBASE.md — Project Architecture & Feature Guide** (8 connections) — `CODEBASE.md`
-- **2. Core Pricing & Identity Architecture** (6 connections) — `CODEBASE.md`
-- **4. Codebase Directory Map** (6 connections) — `CODEBASE.md`
-- **5. Zoho API Endpoints** (4 connections) — `CODEBASE.md`
-- **CODEBASE.md** (1 connections) — `CODEBASE.md`
-- **1. System Overview** (1 connections) — `CODEBASE.md`
-- **2.1 The Two Audiences (Zero Leakage Rule)** (1 connections) — `CODEBASE.md`
-- **2.2 Pricing Resolution Engine (`api/zoho.js` & `src/data/dealer.js`)** (1 connections) — `CODEBASE.md`
-- **2.3 Guest Access Control & Portal Gating (`src/data/portalGate.js`)** (1 connections) — `CODEBASE.md`
-- **2.4 Shareable Product Link & Zero-Leakage Experience (`src/pages/Product.jsx`)** (1 connections) — `CODEBASE.md`
-- **2.5 Navigation & Bottom Bar Dynamic Filtering** (1 connections) — `CODEBASE.md`
-- **3. Application Routes & Navigation** (1 connections) — `CODEBASE.md`
-- **4.1 Pages (`src/pages/`)** (1 connections) — `CODEBASE.md`
-- **4.2 Reusable Components (`src/components/` & `src/ui.jsx`)** (1 connections) — `CODEBASE.md`
-- **4.3 State & Business Logic (`src/data/`)** (1 connections) — `CODEBASE.md`
-- **4.4 Zoho API & Serverless Handlers (`api/`)** (1 connections) — `CODEBASE.md`
-- **4.5 Automation & Utility Scripts (`scripts/`)** (1 connections) — `CODEBASE.md`
-- **5.1 Zoho Commerce Storefront API** (1 connections) — `CODEBASE.md`
-- **5.2 Zoho Books Contacts & Pricebooks API** (1 connections) — `CODEBASE.md`
-- **5.3 Auto-Recovery Token Architecture** (1 connections) — `CODEBASE.md`
-- **6. How to Run & Verify** (1 connections) — `CODEBASE.md`
-- **7. Development & Git Workflow Guidelines** (1 connections) — `CODEBASE.md`
+- **.send()** (54 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **reader-layout-browser.test.mjs** (13 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **export-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **motion-governor-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **load()** (6 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **run()** (5 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **run()** (5 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **evaluate()** (5 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **record()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **screenshot()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **stable()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **viewport()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **inactive()** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 68]] (11 shared connections)
+- [[Community 90]] (8 shared connections)
+- [[Community 147]] (7 shared connections)
+- [[Community 125]] (7 shared connections)
+- [[Community 143]] (5 shared connections)
+- [[Community 144]] (5 shared connections)
+- [[Community 247]] (4 shared connections)
+- [[Vercel Deployment Routing]] (3 shared connections)
+- [[Community 104]] (1 shared connections)
+- [[Community 43]] (1 shared connections)
 
 ## Source Files
 
-- `CODEBASE.md`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/test/export-browser.test.mjs`
+- `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- `.agents/skills/archify/test/reader-layout-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 144 (99%)
+- INFERRED: 2 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

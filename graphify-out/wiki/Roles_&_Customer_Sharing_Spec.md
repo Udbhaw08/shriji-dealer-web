@@ -1,67 +1,56 @@
 # Roles & Customer Sharing Spec
 
-> 49 nodes · cohesion 0.11
+> 49 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **render-lifecycle.mjs** (81 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **esc()** (31 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **escapeHtml()** (26 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **animateAttr()** (16 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **focusEdgeAttrs()** (15 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **labelPoint()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **renderBrandMark()** (14 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **renderNode()** (13 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderState()** (13 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **focusNodeAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **renderSemanticSigil()** (13 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **renderComponent()** (12 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderParticipant()** (12 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **brandLabelFitWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **brandMetadataFor()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **focusNodeTitle()** (12 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **routePointsValue()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **fittedNodeFontSize()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **variantAccent()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **renderConnectionLabel()** (8 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderFlowLabel()** (8 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderTransitionLabel()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderMessage()** (8 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **brandMarkFor()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **messageLabel()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **ff()** (26 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **Tu()** (19 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **gl()** (15 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **fi()** (13 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **uu()** (13 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **delete()** (11 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **lu()** (11 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **vu()** (11 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **zl()** (10 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **ep()** (9 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **hl()** (9 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **Iu()** (9 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **ku()** (9 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **l()** (9 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **mu()** (9 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **ui()** (9 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **wl()** (9 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **jd()** (8 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **Sp()** (8 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **wa()** (8 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **bl()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **cu()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **Eu()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **hc()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **yl()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
 - *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (45 shared connections)
-- [[Graphify Agent Rules]] (42 shared connections)
-- [[Graphify Workflow]] (35 shared connections)
-- [[Product Brand & Business Vision]] (21 shared connections)
-- [[Community 63]] (14 shared connections)
-- [[Community 80]] (12 shared connections)
-- [[Design System & UI Tokens]] (11 shared connections)
-- [[Oxlint Linter Configuration]] (7 shared connections)
-- [[Community 48]] (5 shared connections)
-- [[Community 66]] (2 shared connections)
+- [[Dealer Auth & Session Management]] (56 shared connections)
+- [[Master Codebase Architecture Reference]] (20 shared connections)
+- [[Architecture Doc Generator]] (13 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (11 shared connections)
+- [[Community 42]] (8 shared connections)
+- [[Community 105]] (6 shared connections)
+- [[Community 165]] (5 shared connections)
+- [[Community 51]] (5 shared connections)
+- [[Community 41]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/cli.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/i18n.mjs`
-- `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
 
 ## Audit Trail
 
-- EXTRACTED: 406 (90%)
-- INFERRED: 44 (10%)
+- EXTRACTED: 354 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

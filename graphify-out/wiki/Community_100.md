@@ -1,36 +1,39 @@
 # Community 100
 
-> 13 nodes · cohesion 0.15
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **architecture-delta.test.mjs** (16 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **ArchitectureDeltaError** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **.constructor()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **baseFixture** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **checkedArtifact** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **checkedReceipt** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **headFixture** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **read()** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **PRD — Shriji Domestic Appliances Dealer Web** (11 connections) — `PRD.md`
+- **3. Scope** (3 connections) — `PRD.md`
+- **6. Data** (3 connections) — `PRD.md`
+- **7. Evidence ledger — what is verified vs. what is sample** (3 connections) — `PRD.md`
+- **PRD.md** (1 connections) — `PRD.md`
+- **10. Conventions worth knowing** (1 connections) — `PRD.md`
+- **1. What this is** (1 connections) — `PRD.md`
+- **2. Who uses it** (1 connections) — `PRD.md`
+- **4. Stack** (1 connections) — `PRD.md`
+- **5. The pricing model — the core business rule** (1 connections) — `PRD.md`
+- **8. Roadmap** (1 connections) — `PRD.md`
+- **9. Decision log** (1 connections) — `PRD.md`
+- **Built and working** (1 connections) — `PRD.md`
+- **⚠️ Known discrepancy** (1 connections) — `PRD.md`
+- **Not built yet (and deliberately so)** (1 connections) — `PRD.md`
+- **Product record shape** (1 connections) — `PRD.md`
+- **Sample / invented for the draft — must stay labelled as such** (1 connections) — `PRD.md`
+- **Verified (scraped from shrijidomestic.com, 2026-09-18)** (1 connections) — `PRD.md`
 
 ## Relationships
 
-- [[Community 48]] (4 shared connections)
-- [[Community 84]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
-- `.agents/skills/archify/test/architecture-delta.test.mjs`
+- `PRD.md`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
+- EXTRACTED: 34 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

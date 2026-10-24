@@ -1,41 +1,50 @@
 # Community 67
 
-> 20 nodes · cohesion 0.10
+> 25 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **PRODUCT-PAGES.md — listing, detail, and dealer pricing** (9 connections) — `docs/PRODUCT-PAGES.md`
-- **4. Product listing — `/products`, `src/pages/Products.jsx`** (6 connections) — `docs/PRODUCT-PAGES.md`
-- **6. Product detail — `/products/:id`, `src/pages/Product.jsx`** (6 connections) — `docs/PRODUCT-PAGES.md`
-- **PRODUCT-PAGES.md** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **1. Price visibility — the rule everything else follows** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **2. The pricing module — `src/data/dealer.js`** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **3. `<PriceBlock>` — `src/components/PriceBlock.jsx`** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **5. Product card — `src/components/ProductCard.jsx`** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **7. What is deliberately not here** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **8. Files touched on 2026-09-20** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Below the whole grid** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Filters and facets** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Left column** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Pagination** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Responsive behaviour** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Right column** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Share with Customer** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Sort** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Structure** (1 connections) — `docs/PRODUCT-PAGES.md`
-- **Tabs** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **update-contract.mjs** (16 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **update-contract.test.mjs** (10 connections) — `.agents/skills/archify/test/update-contract.test.mjs`
+- **compareSemver()** (9 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **validateStableUpdateManifest()** (8 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **normalizeState()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **isStableCoreVersion()** (7 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **parseSemver()** (7 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **validateLocalRelease()** (7 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **validateCachedCandidate()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **validateReleaseNotesUrl()** (5 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **isPlainObject()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **hasExactKeys()** (4 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **releaseChannelForVersion()** (4 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **UpdateContractError** (4 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **hasOnlyKeys()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **validateClaimOwner()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **compareNumericIdentifiers()** (3 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **comparePrerelease()** (3 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **validateCanonicalUtcTimestamp()** (3 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **emptyState()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **validateManifest()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **isPlainObject()** (2 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
+- **localRelease()** (1 connections) — `.agents/skills/archify/test/update-contract.test.mjs`
+- **stableManifest()** (1 connections) — `.agents/skills/archify/test/update-contract.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 49]] (16 shared connections)
+- [[Community 38]] (3 shared connections)
+- [[Community 111]] (3 shared connections)
 
 ## Source Files
 
-- `docs/PRODUCT-PAGES.md`
+- `.agents/skills/archify/scripts/check-update.mjs`
+- `.agents/skills/archify/scripts/update-contract.mjs`
+- `.agents/skills/archify/test/update-contract.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
+- EXTRACTED: 122 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

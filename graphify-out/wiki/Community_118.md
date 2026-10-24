@@ -1,37 +1,36 @@
 # Community 118
 
-> 10 nodes · cohesion 0.31
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **df()** (10 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **rf()** (9 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **ff()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **nf()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **sf()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **lf()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **uf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **qr()** (2 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **yf()** (2 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **Buttons** (8 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Desktop (macOS)** (5 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **buttons.md** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Help buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Image buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Push buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Role** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Square buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Style** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (11 shared connections)
-- [[Dependencies & Package Config]] (7 shared connections)
-- [[Community 30]] (3 shared connections)
-- [[Architecture Doc Generator]] (3 shared connections)
-- [[Master Codebase Architecture Reference]] (1 shared connections)
-- [[Product Requirements Documentation]] (1 shared connections)
-- [[Community 64]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- `.agents/skills/apple-design/references/hig/buttons.md`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

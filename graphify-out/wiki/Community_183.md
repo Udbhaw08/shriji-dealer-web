@@ -1,16 +1,20 @@
 # Community 183
 
-> 7 nodes · cohesion 0.29
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **intent-trace.test.mjs** (6 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
+- **release-package-gates.test.mjs** (10 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **canonicalZipTest()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **centralDirectoryModes()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **currentNodeMajor** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **spawnBuildZip()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **stagedFixture()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **workflowJob()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **workflowStep()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **writeArchive()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
 
 ## Relationships
 
@@ -18,11 +22,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/intent-trace.test.mjs`
+- `.agents/skills/archify/test/release-package-gates.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

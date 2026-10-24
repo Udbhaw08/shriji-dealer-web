@@ -1,17 +1,21 @@
 # Community 152
 
-> 8 nodes · cohesion 0.43
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **open-artifact.mjs** (7 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **openLoopbackUrl()** (5 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **open-artifact.test.mjs** (5 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
-- **launchTarget()** (4 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **openArtifact()** (4 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **spawn()** (2 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
-- **OPENERS** (1 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **target** (1 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
+- **Charts** (11 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **charts.md** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Axes** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Color** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Descriptive content** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Enhancing the accessibility of a chart** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Marks** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
 
 ## Relationships
 
@@ -20,13 +24,12 @@
 
 ## Source Files
 
-- `.agents/skills/archify/bin/open-artifact.mjs`
-- `.agents/skills/archify/test/open-artifact.test.mjs`
+- `.agents/skills/apple-design/references/hig/charts.md`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (90%)
-- INFERRED: 3 (10%)
+- EXTRACTED: 22 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

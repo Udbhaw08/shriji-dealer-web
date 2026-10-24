@@ -1,31 +1,36 @@
 # Community 132
 
-> 10 nodes · cohesion 0.20
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **Workflow Renderer** (6 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Layout contracts** (3 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Design Rules** (2 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **README.md** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Fixed v1** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Input** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Legend** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Migration and layout receipt** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Optional semantic checks** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Readable v2** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **required** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **edges** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **groups** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **phases** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Testing & Workflow Skill]] (5 shared connections)
+- [[Community 110]] (5 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/workflow/README.md`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 52 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,38 +1,43 @@
 # Community 103
 
-> 13 nodes · cohesion 0.28
+> 18 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **guided-views-browser.test.mjs** (17 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **run()** (8 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **point()** (4 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **settled()** (4 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **activate()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **hash()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **move()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
-- **variant()** (1 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **output-path.mjs** (22 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **resolveOutputPath()** (11 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **futurePathsAlias()** (6 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **pathsAlias()** (6 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **canonicalFuturePath()** (5 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **sameFileIdentity()** (5 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **probeDirectorySemantics()** (4 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **canonicalize()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **directoryIdentityKey()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **hasFileIdentity()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **pathIsInside()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **probeNamesAlias()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **sameDirectory()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **nearestExistingDirectory()** (2 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **OutputPathError** (2 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **splitAbsolute()** (2 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **directorySemanticsCache** (1 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
 
 ## Relationships
 
-- [[Community 43]] (5 shared connections)
-- [[Community 51]] (3 shared connections)
-- [[Community 39]] (1 shared connections)
-- [[Community 91]] (1 shared connections)
+- [[Community 65]] (5 shared connections)
+- [[Community 79]] (4 shared connections)
+- [[Community 46]] (4 shared connections)
+- [[Community 48]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- `.agents/skills/archify/renderers/shared/output-path.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 82 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

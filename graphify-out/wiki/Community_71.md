@@ -1,45 +1,46 @@
 # Community 71
 
-> 19 nodes · cohesion 0.13
+> 24 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **sl()** (10 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Cu()** (9 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Sp()** (8 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Bo()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **ba()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Iu()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **kl()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Ou()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **rl()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **gm()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **il()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **ol()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **wl()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Cp()** (3 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **pl()** (3 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **ya()** (3 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **al()** (2 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **_m()** (2 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Su()** (2 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **properties** (11 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **viewBox** (6 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **animation** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **locale** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **output** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **subtitle** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **views** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **items** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (19 shared connections)
-- [[Zoho Integration Architecture]] (7 shared connections)
-- [[Pricing Regression Test Suite]] (7 shared connections)
-- [[Community 31]] (6 shared connections)
-- [[Project Readme & Layout]] (3 shared connections)
-- [[Community 29]] (3 shared connections)
+- [[Community 195]] (1 shared connections)
+- [[Community 116]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CPb6hema.js`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 89 (100%)
+- EXTRACTED: 48 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

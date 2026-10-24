@@ -1,51 +1,54 @@
 # Graphify Knowledge Graph Skill
 
-> 44 nodes · cohesion 0.05
+> 49 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **properties** (30 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **label** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **pad** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **row** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **brand** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **from** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **fromSide** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **id** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **kind** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **labelAt** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **labelDx** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **labelDy** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **pos** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **route** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **sublabel** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **tag** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **to** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **toSide** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **variant** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **width** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- *... and 19 more nodes in this community*
+- **ff()** (26 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **Tu()** (19 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **gl()** (15 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **fi()** (13 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **uu()** (13 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **delete()** (11 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **lu()** (11 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **vu()** (11 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **zl()** (10 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **ep()** (9 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **hl()** (9 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **Iu()** (9 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **ku()** (9 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **l()** (9 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **mu()** (9 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **ui()** (9 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **wl()** (9 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **jd()** (8 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **Sp()** (8 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **wa()** (8 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **bl()** (7 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **cu()** (7 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **Eu()** (7 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **hc()** (7 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **yl()** (7 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [[Community 88]] (5 shared connections)
-- [[Community 153]] (2 shared connections)
-- [[Community 243]] (1 shared connections)
-- [[Community 244]] (1 shared connections)
-- [[Community 200]] (1 shared connections)
+- [[Price Presentation & Product UI]] (57 shared connections)
+- [[Product Requirements Documentation]] (19 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (13 shared connections)
+- [[Dependencies & Package Config]] (12 shared connections)
+- [[Community 34]] (8 shared connections)
+- [[Community 55]] (8 shared connections)
+- [[Community 61]] (7 shared connections)
+- [[Community 33]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `ios/App/App/public/assets/index-CnGpWhyw.js`
 
 ## Audit Trail
 
-- EXTRACTED: 96 (100%)
+- EXTRACTED: 354 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

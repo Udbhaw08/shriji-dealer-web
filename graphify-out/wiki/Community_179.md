@@ -1,28 +1,33 @@
 # Community 179
 
-> 7 nodes · cohesion 0.29
+> 11 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **chapter-handoff.test.mjs** (6 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
+- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **states** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **additionalProperties** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **required** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **transitions** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Claude Agent Instructions]] (3 shared connections)
+- [[Community 123]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/chapter-handoff.test.mjs`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 34 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

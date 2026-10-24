@@ -1,54 +1,59 @@
 # Product Pages Specification
 
-> 61 nodes · cohesion 0.07
+> 65 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **D()** (25 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **mt()** (18 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **O()** (15 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **St()** (14 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **ae()** (13 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **dn()** (13 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Fd()** (12 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Vd()** (12 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **ut()** (11 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **vn()** (11 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **vt()** (11 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **bt()** (10 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **dt()** (10 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **ip()** (10 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **en()** (9 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **pt()** (9 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **an()** (8 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **In()** (8 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **k()** (8 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **ke()** (8 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Bn()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **E()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **ft()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **pn()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Rd()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- *... and 36 more nodes in this community*
+- **auth.js** (52 connections) — `backend/src/routes/auth.js`
+- **hash.js** (25 connections) — `backend/src/utils/hash.js`
+- **phase2DealerStaffOnboarding.test.mjs** (17 connections) — `backend/test/phase2DealerStaffOnboarding.test.mjs`
+- **loginCode.js** (17 connections) — `backend/src/utils/loginCode.js`
+- **dealerRegistrationTwoChannel.test.mjs** (15 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- **onboardingVerification.test.mjs** (15 connections) — `backend/test/onboardingVerification.test.mjs`
+- **hashOtp()** (10 connections) — `backend/src/utils/hash.js`
+- **verifyOtpHash()** (10 connections) — `backend/src/utils/hash.js`
+- **hash.test.mjs** (9 connections) — `backend/test/hash.test.mjs`
+- **sha256()** (9 connections) — `backend/src/utils/hash.js`
+- **formatLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
+- **generateLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
+- **loginCode.test.mjs** (7 connections) — `backend/test/loginCode.test.mjs`
+- **issueSession()** (5 connections) — `backend/src/routes/auth.js`
+- **generateOtp()** (5 connections) — `backend/src/utils/hash.js`
+- **hashPassword()** (5 connections) — `backend/src/utils/hash.js`
+- **resolveUserWithDealer()** (4 connections) — `backend/src/routes/auth.js`
+- **verifyPassword()** (4 connections) — `backend/src/utils/hash.js`
+- **isValidLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
+- **parseLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
+- **findUserByEmail()** (3 connections) — `backend/src/routes/auth.js`
+- **publicUser()** (3 connections) — `backend/src/routes/auth.js`
+- **handleDealerRegistrationFinalize()** (3 connections) — `backend/src/routes/dealers.js`
+- **scryptKey()** (3 connections) — `backend/src/utils/hash.js`
+- **USER_CATEGORIES** (3 connections) — `backend/src/utils/loginCode.js`
+- *... and 40 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (72 shared connections)
-- [[Project Readme & Layout]] (28 shared connections)
-- [[Pricing Regression Test Suite]] (19 shared connections)
-- [[Community 29]] (19 shared connections)
-- [[Zoho Integration Architecture]] (13 shared connections)
-- [[Community 38]] (8 shared connections)
-- [[Community 31]] (5 shared connections)
-- [[Community 52]] (1 shared connections)
+- [[Mobile Responsive UI Skill]] (30 shared connections)
+- [[Graphify Agent Rules]] (24 shared connections)
+- [[Product Brand & Business Vision]] (8 shared connections)
+- [[Community 161]] (5 shared connections)
+- [[Community 142]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CPb6hema.js`
+- `backend/src/routes/auth.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/utils/hash.js`
+- `backend/src/utils/loginCode.js`
+- `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- `backend/test/hash.test.mjs`
+- `backend/test/loginCode.test.mjs`
+- `backend/test/onboardingVerification.test.mjs`
+- `backend/test/phase2DealerStaffOnboarding.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 421 (100%)
+- EXTRACTED: 293 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

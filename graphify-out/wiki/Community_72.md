@@ -1,33 +1,39 @@
 # Community 72
 
-> 19 nodes · cohesion 0.11
+> 24 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **properties** (9 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **sequence.schema.json** (7 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **participants** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **segments** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **cards** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **schema_version** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **properties** (12 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **viewBox** (6 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **column_fit** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **animation** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **locale** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **output** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **subtitle** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **views** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 - **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$id** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **description** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **items** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 - **minItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 - **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$schema** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **title** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- [[Community 107]] (4 shared connections)
-- [[Community 228]] (1 shared connections)
+- [[Community 198]] (1 shared connections)
+- [[Community 453]] (1 shared connections)
+- [[Community 418]] (1 shared connections)
 
 ## Source Files
 
@@ -35,7 +41,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 41 (100%)
+- EXTRACTED: 49 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

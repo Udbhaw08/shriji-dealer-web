@@ -1,30 +1,35 @@
 # Community 141
 
-> 9 nodes · cohesion 0.22
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **generate-validators.mjs** (8 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **ajv** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **diagramTypes** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **output** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **root** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **schemaIds** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **schemasDir** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **validatorCode** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
+- **run()** (2 connections) — `scripts/audit_prices.mjs`
+- **content** (1 connections) — `scripts/audit_prices.mjs`
+- **csvItems** (1 connections) — `scripts/audit_prices.mjs`
+- **idIdx** (1 connections) — `scripts/audit_prices.mjs`
+- **lines** (1 connections) — `scripts/audit_prices.mjs`
+- **lpIdx** (1 connections) — `scripts/audit_prices.mjs`
+- **nameIdx** (1 connections) — `scripts/audit_prices.mjs`
+- **parseCSVLine()** (1 connections) — `scripts/audit_prices.mjs`
+- **parsedHeader** (1 connections) — `scripts/audit_prices.mjs`
+- **showIdx** (1 connections) — `scripts/audit_prices.mjs`
+- **spIdx** (1 connections) — `scripts/audit_prices.mjs`
+- **statusIdx** (1 connections) — `scripts/audit_prices.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 130]] (2 shared connections)
+- [[Community 57]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/generate-validators.mjs`
+- `scripts/audit_prices.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 27 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

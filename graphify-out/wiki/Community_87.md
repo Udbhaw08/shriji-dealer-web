@@ -1,25 +1,29 @@
 # Community 87
 
-> 16 nodes · cohesion 0.17
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **legend-contract.test.mjs** (15 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **legendKinds()** (3 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **run()** (3 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **attrValues()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **canonicalSvg()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **clone()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **render()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **validateFailure()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **withLegend()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **AUTO_KINDS** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **CATALOGS** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **FIXTURES** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **Example Workflow: SaaS Pricing Page** (7 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Phase 1: Styles Research** (4 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Phase 5: Implementation Blueprint** (4 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Phase 2: Screen Research** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Phase 3: Flow Research** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Phase 4: Synthesis** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **example-workflow.md** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Design Decision Ledger** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Flow Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Flow Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Page Structure** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Phase 0: Discovery** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Quality Gate** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Research Summary** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Screen Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Screen Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Style Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Style Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Tokens** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **Visual Direction Synthesis** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
 
 ## Relationships
 
@@ -27,11 +31,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/legend-contract.test.mjs`
+- `.agents/skills/refero-design/references/example-workflow.md`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
+- EXTRACTED: 38 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

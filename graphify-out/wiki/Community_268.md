@@ -1,23 +1,29 @@
 # Community 268
 
-> 2 nodes · cohesion 1.00
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **step** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **Tab bars** (5 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
+- **tab-bars.md** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
+- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/tab-bars.md`
 
 ## Relationships
 
-- [[Zoho Integration Skill]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `.agents/skills/apple-design/references/hig/tab-bars.md`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

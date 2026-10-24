@@ -1,30 +1,39 @@
 # Community 134
 
-> 9 nodes · cohesion 0.22
+> 14 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **2. Customer vs. Dealer Price Resolution (`src/data/dealer.js`)** (4 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **PRICING-ARCHITECTURE.md — Pricing Engine & Audit Specification** (4 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **1. Source of Truth: Live Zoho Commerce Store API** (2 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **PRICING-ARCHITECTURE.md** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **2.1 Customer View** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **2.2 Dealer View** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **2.3 Share Link Invariant** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **3. Automated Pricing Regression Protection** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **Rate Priority Hierarchy** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **i18n.test.mjs** (20 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **catalogKeys()** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **authoredExample()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **evaluate()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **example()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **loadArtifact()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **AUTHORED_TEXT_KEYS** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **templatePath** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 46]] (5 shared connections)
+- [[Vercel Deployment Routing]] (1 shared connections)
+- [[Community 147]] (1 shared connections)
+- [[Community 125]] (1 shared connections)
 
 ## Source Files
 
-- `docs/PRICING-ARCHITECTURE.md`
+- `.agents/skills/archify/renderers/shared/i18n.mjs`
+- `.agents/skills/archify/test/i18n.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 38 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

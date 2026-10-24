@@ -1,13 +1,18 @@
 # Community 221
 
-> 4 nodes · cohesion 0.67
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Test** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
-- **ExampleInstrumentedTest.java** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
-- **ExampleInstrumentedTest** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
-- **.useAppContext()** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
+- **Segmented controls** (6 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **segmented-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
 
 ## Relationships
 
@@ -15,11 +20,11 @@
 
 ## Source Files
 
-- `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
+- `.agents/skills/apple-design/references/hig/segmented-controls.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

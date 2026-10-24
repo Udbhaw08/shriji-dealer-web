@@ -1,32 +1,34 @@
 # Community 106
 
-> 12 nodes · cohesion 0.26
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **favoritesStore.js** (18 connections) — `src/data/favoritesStore.js`
-- **persist()** (5 connections) — `src/data/favoritesStore.js`
-- **addFavorite()** (3 connections) — `src/data/favoritesStore.js`
-- **isFavorite()** (3 connections) — `src/data/favoritesStore.js`
-- **removeFavorite()** (3 connections) — `src/data/favoritesStore.js`
-- **toggleFavorite()** (3 connections) — `src/data/favoritesStore.js`
-- **clearFavorites()** (2 connections) — `src/data/favoritesStore.js`
-- **notify()** (2 connections) — `src/data/favoritesStore.js`
-- **favoritesState** (1 connections) — `src/data/favoritesStore.js`
-- **getFavorites()** (1 connections) — `src/data/favoritesStore.js`
-- **listeners** (1 connections) — `src/data/favoritesStore.js`
-- **loadFromStorage()** (1 connections) — `src/data/favoritesStore.js`
+- **pricing.test.mjs** (19 connections) — `src/data/pricing.test.mjs`
+- **crystal** (1 connections) — `src/data/pricing.test.mjs`
+- **crystalDealer** (1 connections) — `src/data/pricing.test.mjs`
+- **crystalGuest** (1 connections) — `src/data/pricing.test.mjs`
+- **genericDealer** (1 connections) — `src/data/pricing.test.mjs`
+- **genericGuest** (1 connections) — `src/data/pricing.test.mjs`
+- **genericItem** (1 connections) — `src/data/pricing.test.mjs`
+- **kettle** (1 connections) — `src/data/pricing.test.mjs`
+- **kettleDealer** (1 connections) — `src/data/pricing.test.mjs`
+- **kettleGuest** (1 connections) — `src/data/pricing.test.mjs`
+- **tcjDealer** (1 connections) — `src/data/pricing.test.mjs`
+- **tcjGuest** (1 connections) — `src/data/pricing.test.mjs`
+- **tripleCookJumbo** (1 connections) — `src/data/pricing.test.mjs`
+- **vernaGuest** (1 connections) — `src/data/pricing.test.mjs`
+- **vernaPlus** (1 connections) — `src/data/pricing.test.mjs`
+- **zeroItem** (1 connections) — `src/data/pricing.test.mjs`
+- **zeroPricedResult** (1 connections) — `src/data/pricing.test.mjs`
 
 ## Relationships
 
-- [[Community 35]] (4 shared connections)
-- [[Community 42]] (3 shared connections)
-- [[Community 92]] (1 shared connections)
-- [[Community 44]] (1 shared connections)
+- [[Community 47]] (3 shared connections)
 
 ## Source Files
 
-- `src/data/favoritesStore.js`
+- `src/data/pricing.test.mjs`
 
 ## Audit Trail
 

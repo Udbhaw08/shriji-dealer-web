@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Link, useParams, useSearchParams, useNavigate } from "react-router-dom";
 import { useProducts } from "../data/productsStore";
 import { COMPANY } from "../data/site";
-import { registerDealer, shareLink, tagFor, viewerFor, inr, priceFor, slugifyProduct } from "../data/dealer";
+import { registerDealer, shareLink, viewerFor, inr, priceFor, slugifyProduct } from "../data/dealer";
 import { useSession } from "../data/session";
 import { Icon } from "../ui";
 import { useLanguage } from "../data/i18n";
@@ -13,25 +13,8 @@ import { useFavorites } from "../data/favoritesStore";
 import { isPortalGated } from "../data/portalGate";
 import { apiFetch } from "../data/api";
 
-/* Feature boxes mirror the mockup: icon over a two-line label. */
-function featureBoxes(p, t) {
-  const out = [];
-  if (p.burners) out.push({ icon: "flame", label: `${p.burners} ${t("feat_brass_burners")}` });
-  if (p.features.includes("Auto Ignition")) out.push({ icon: "bolt", label: t("feat_auto_ignition") });
-  if (p.fkey === "glass") out.push({ icon: "glass", label: t("feat_toughened_glass") });
-  if (p.fkey === "steel" || p.fkey === "alloy") out.push({ icon: "steel", label: t("feat_ss_body") });
-  if (p.features.includes("BLDC Motor")) out.push({ icon: "bolt", label: t("feat_bldc_motor") });
-  if (p.features.includes("Spill Proof")) out.push({ icon: "shield", label: t("feat_spill_proof") });
-  if (p.features.includes("Flame Failure Device")) out.push({ icon: "shield", label: t("feat_flame_failure") });
-  out.push({ icon: "shield", label: t("feat_sunshine_warranty") });
-  return out.slice(0, 4);
-}
 
-const TAB_ITEMS = [
-  { key: "Overview", labelKey: "tab_overview" },
-  { key: "Specifications", labelKey: "tab_specs" },
-  { key: "Videos", labelKey: "tab_videos" },
-];
+
 
 export default function Product() {
   const { id } = useParams();
@@ -106,7 +89,7 @@ export default function Product() {
 
   const [shot, setShot] = useState(0);
   const [shotError, setShotError] = useState(false);
-  const [tab, setTab] = useState(TAB_ITEMS[0].key);
+  const [tab, setTab] = useState("Overview");
   const [copied, setCopied] = useState(false);
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [lightboxIdx, setLightboxIdx] = useState(0);
@@ -311,24 +294,77 @@ export default function Product() {
     );
   }
 
-  const tag = tagFor(p);
+  const productTags = (Array.isArray(p?.tags) && p.tags.length > 0
+    ? p.tags
+    : (p?.tag ? [p.tag] : []))
+    .map((t) => (typeof t === "string" ? t : (t?.tag_name || t?.name || "")).trim())
+    .filter(Boolean);
+  const tag = productTags[0] || null;
 
   const displayTitle = p?.model && p.model.toLowerCase() !== "test" ? p.model : (p?.name || "");
 
-  const specs = [
+  // 1. Zoho Specifications from Zoho API
+  const zohoSpecs = (p.specifications || [])
+    .filter((s) => s && (s.name || s.value))
+    .map((s) => [
+      s.group && s.group !== "General" ? `${s.group} - ${s.name}` : s.name,
+      s.value,
+    ]);
+
+  // 2. Extra custom fields from Zoho
+  const extraCfSpecs = (p.extraFields || []).map((f) => [f.label, f.value]);
+
+  // 3. Known product attributes that actually have non-empty values
+  const attrSpecs = [
     [t("spec_model"), displayTitle],
-    [t("spec_full_name"), p.name],
-    [t("spec_category"), tCat(p.cat, p.catLabel)],
+    p.zohoTitle && p.zohoTitle !== displayTitle && [t("spec_full_name"), p.zohoTitle],
+    p.cat && [t("spec_category"), tCat(p.cat, p.catLabel)],
     p.size && [t("spec_size"), p.size],
-    [t("spec_finish"), p.finish],
-    [t("spec_brand"), p.brand],
-    p.features.length && [t("spec_features"), p.features.join(", ")],
-    [t("spec_code"), `${p.code}-${p.id.slice(-6)}`],
+    p.finish && p.finish !== "Standard" && [t("spec_finish"), p.finish],
+    p.burners && ["Burners", `${p.burners} Brass Burners`],
+    p.brand && [t("spec_brand"), p.brand],
+    p.features?.length > 0 && [t("spec_features"), p.features.join(", ")],
+    p.customFields?.warranty && ["Warranty", p.customFields.warranty],
+    p.code && [t("spec_code"), `${p.code}-${p.id.slice(-6)}`],
   ].filter(Boolean);
 
-  const overview = `The Sunshine ${displayTitle} combines ${p.finish.toLowerCase()} construction with ${
-    p.features.length ? p.features.join(" and ").toLowerCase() : "everyday reliability"
-  }, making it a dependable choice for the modern Indian kitchen.`;
+  const allSpecsList = [...zohoSpecs, ...extraCfSpecs, ...attrSpecs].filter(
+    ([k, v]) => Boolean(k) && Boolean(v) && String(v).trim().toLowerCase() !== "test" && String(v).trim().toLowerCase() !== "null"
+  );
+
+  const seenSpecNames = new Set();
+  const specs = [];
+  for (const [k, v] of allSpecsList) {
+    const normK = k.toLowerCase().trim();
+    if (!seenSpecNames.has(normK)) {
+      seenSpecNames.add(normK);
+      specs.push([k, v]);
+    }
+  }
+
+  // Specifications tab shows all unified attributes and Zoho specs
+  const hasSpecs = specs.length > 0;
+
+  // Clean overview: strip empty HTML tags to prevent literal <br/> artifacts
+  const cleanOverviewText = (p.customFields?.overview || "").trim();
+  const rawDescText = (p.description || "").replace(/<[^>]*>/g, "").replace(/&nbsp;/gi, " ").trim();
+  const cleanDesc = rawDescText ? p.description : "";
+  const defaultOverview = `Engineered for superior reliability, high efficiency, and everyday convenience. The ${displayTitle} by ${p.brand || "Sunshine"} features durable construction, advanced safety standards, and optimal performance for Indian kitchens.`;
+  const overview = cleanOverviewText || cleanDesc || defaultOverview;
+  const hasKeyFeatures = Boolean(p.customFields?.keyFeatures?.trim());
+  const hasWarranty = Boolean(p.customFields?.warranty?.trim());
+  const hasOverview = Boolean(overview || hasKeyFeatures || hasWarranty);
+  const hasVideos = Array.isArray(p.videos) && p.videos.length > 0;
+
+  const availableTabs = [
+    { key: "Overview", labelKey: "tab_overview" },
+    hasSpecs && { key: "Specifications", labelKey: "tab_specs" },
+    hasVideos && { key: "Videos", labelKey: "tab_videos" },
+  ].filter(Boolean);
+
+  const activeTabKey = availableTabs.some((tItem) => tItem.key === tab)
+    ? tab
+    : (availableTabs[0]?.key || "");
 
   const share = () => {
     const url = shareLink(p, me || sharedBy);
@@ -367,22 +403,27 @@ export default function Product() {
             <Icon name="chevleft" size={18} />
             <span>{t("back") || "Back"}</span>
           </button>
-          <span className="app-mobile-title">{displayTitle}</span>
-          {p && (
+          <div style={{ marginLeft: "auto", display: "flex", alignItems: "center", gap: "8px" }}>
             <button
               type="button"
               onClick={() => toggleFavorite(p.id)}
               className="app-mobile-icon-btn"
-              style={isFavorite(p.id) ? { color: "#d64545" } : undefined}
-              aria-label={isFavorite(p.id) ? "Remove from favorites" : "Save to favorites"}
-              title={isFavorite(p.id) ? "Remove from favorites" : "Save to favorites"}
+              aria-label={isFavorite(p.id) ? "Remove from Favorites" : "Save to Favorites"}
+              style={isFavorite(p.id) ? { color: "#dc4545", borderColor: "#fecaca", background: "#fef2f2" } : undefined}
+              title={isFavorite(p.id) ? "Saved in Favorites" : "Save to Favorites"}
             >
-              <Icon name="heart" size={17} style={isFavorite(p.id) ? { fill: "#d64545" } : undefined} />
+              <Icon name="heart" size={17} style={isFavorite(p.id) ? { fill: "#dc4545" } : undefined} />
             </button>
-          )}
-          <button type="button" onClick={share} className="app-mobile-icon-btn" aria-label="Share product">
-            <Icon name="share" size={17} />
-          </button>
+            <button
+              type="button"
+              onClick={share}
+              className="app-mobile-icon-btn"
+              aria-label="Share product"
+              title="Share product link"
+            >
+              <Icon name="share" size={17} />
+            </button>
+          </div>
         </div>
 
         <div className="product-top-bar desktop-only">
@@ -417,7 +458,7 @@ export default function Product() {
               </button>
             </div>
           )}
-      </div>
+        </div>
 
         <div className="detail">
           {/* ---- gallery ---- */}
@@ -433,6 +474,7 @@ export default function Product() {
               onMouseDown={handleMouseDown}
               onMouseUp={handleMouseUp}
               onMouseLeave={handleMouseLeave}
+              style={{ position: "relative" }}
             >
               {shots.length && !shotError ? (
                 <img
@@ -447,13 +489,13 @@ export default function Product() {
               ) : (
                 <Icon name={p.cat === "chimneys" ? "chimney" : p.cat === "small_appliances" ? "blender" : "stove"} size={90} style={{ color: "var(--tx-3)" }} />
               )}
-              {tag && <span className={`badge badge-${tag.kind === "blue" ? "blue" : ""} prod-tag`}>{tag.label}</span>}
+              {tag && <span className="badge badge-blue prod-tag">{tag}</span>}
 
               {shots.length > 1 && (
                 <>
                   <button
                     type="button"
-                    className="gallery-nav gallery-nav-prev"
+                    className="gallery-nav-arrow-btn prev"
                     aria-label="Previous image"
                     onClick={(e) => {
                       e.stopPropagation();
@@ -465,7 +507,7 @@ export default function Product() {
 
                   <button
                     type="button"
-                    className="gallery-nav gallery-nav-next"
+                    className="gallery-nav-arrow-btn next"
                     aria-label="Next image"
                     onClick={(e) => {
                       e.stopPropagation();
@@ -475,7 +517,7 @@ export default function Product() {
                     <Icon name="chev" size={18} />
                   </button>
 
-                  <div className="gallery-counter">
+                  <div className="gallery-counter-badge">
                     {shot + 1} / {shots.length}
                   </div>
                 </>
@@ -528,21 +570,108 @@ export default function Product() {
 
           {/* ---- info ---- */}
           <div>
-            <h1 className="d2">{displayTitle}</h1>
-            <p className="muted" style={{ marginTop: 6, fontWeight: 600 }}>
-              {[p.size, p.features[0], p.catLabel].filter(Boolean).join(" · ")}
-            </p>
-
-            <div className="feats">
-              {featureBoxes(p, t).map((f) => (
-                <div className="feat" key={f.label}>
-                  <Icon name={f.icon} size={20} />
-                  <span style={{ whiteSpace: "pre-line" }}>{f.label}</span>
-                </div>
+            {/* Category Pill and Multiple Tags */}
+            <div className="detail-meta-row" style={{ display: "flex", flexWrap: "wrap", gap: "8px", alignItems: "center" }}>
+              <span className="detail-cat-pill">
+                {tCat(p.cat, p.catLabel) || "Small Appliances"}
+              </span>
+              {productTags.map((tagText, idx) => (
+                <span
+                  key={idx}
+                  className="badge badge-blue detail-tag-pill"
+                  style={{ textTransform: "uppercase", fontSize: "0.75rem", letterSpacing: "0.04em", padding: "4px 8px", borderRadius: "4px", fontWeight: 700 }}
+                >
+                  {tagText}
+                </span>
               ))}
             </div>
 
-            <PriceBlock p={p} customerView={customerView} dealer={me} sharedBy={sharedBy} />
+            <h1 className="d2" style={{ fontSize: "1.75rem", fontWeight: 800, letterSpacing: "-0.02em" }}>
+              {displayTitle}
+            </h1>
+
+            {/* Feature Tiles: Dynamic from Zoho Commerce Tile Icons (1..8) or product attributes */}
+            {Array.isArray(p.tileIcons) && p.tileIcons.length > 0 ? (
+              <div className="detail-feature-tiles-grid">
+                {p.tileIcons.slice(0, 4).map((tile, idx) => (
+                  <div key={tile.index || idx} className="detail-feature-tile-card">
+                    <div className="detail-feature-tile-icon-wrap">
+                      {tile.image ? (
+                        <img
+                          src={tile.image}
+                          alt={tile.text || `Feature ${tile.index || idx + 1}`}
+                          style={{ width: 22, height: 22, objectFit: "contain", display: "block" }}
+                          onError={(e) => {
+                            e.currentTarget.style.display = "none";
+                          }}
+                        />
+                      ) : (
+                        <Icon
+                          name={idx === 0 ? "bolt" : idx === 1 ? "flame" : idx === 2 ? "layers" : "shield"}
+                          size={20}
+                        />
+                      )}
+                    </div>
+                    <span className="detail-feature-tile-sub">{tile.label || `Feature ${tile.index || idx + 1}`}</span>
+                    <span className="detail-feature-tile-val">{tile.text}</span>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              (() => {
+                const activeAttrTiles = [
+                  (p.finish && p.finish !== "Standard" ? p.finish : (p.fkey === "glass" ? "Matte Toughened Glass" : (p.fkey === "steel" ? "Stainless Steel" : null))) && {
+                    icon: "layers",
+                    sub: "Body Quality",
+                    val: p.finish || (p.fkey === "glass" ? "Matte Toughened Glass" : "Stainless Steel")
+                  },
+                  p.customFields?.warranty && {
+                    icon: "shield",
+                    sub: "Coverage",
+                    val: p.customFields.warranty
+                  },
+                  p.burners && {
+                    icon: "stove",
+                    sub: "Burners",
+                    val: `${p.burners} Brass Burners`
+                  },
+                  p.size && {
+                    icon: "layers",
+                    sub: "Dimensions",
+                    val: p.size
+                  },
+                  p.features?.length > 0 && {
+                    icon: "bolt",
+                    sub: "Key Tech",
+                    val: p.features[0]
+                  }
+                ].filter(Boolean);
+
+                if (activeAttrTiles.length === 0) return null;
+
+                return (
+                  <div className="detail-feature-tiles-grid">
+                    {activeAttrTiles.slice(0, 4).map((tile, idx) => (
+                      <div key={idx} className="detail-feature-tile-card">
+                        <div className="detail-feature-tile-icon-wrap">
+                          <Icon name={tile.icon} size={20} />
+                        </div>
+                        <span className="detail-feature-tile-sub">{tile.sub}</span>
+                        <span className="detail-feature-tile-val">{tile.val}</span>
+                      </div>
+                    ))}
+                  </div>
+                );
+              })()
+            )}
+
+            <PriceBlock
+              p={p}
+              customerView={customerView}
+              dealer={me}
+              sharedBy={sharedBy}
+              canSeeDealerPrice={session?.canSeeDealerPrice !== false}
+            />
 
             {!customerView && (
               <div className="actions" style={{ display: "grid", gap: "var(--s3)", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))" }}>
@@ -597,52 +726,98 @@ export default function Product() {
               </p>
             )}
 
-            <div className="utabs" role="tablist">
-              {TAB_ITEMS.map((tItem) => (
-                <button key={tItem.key} className="utab" role="tab" aria-selected={tab === tItem.key} onClick={() => setTab(tItem.key)}>
-                  {t(tItem.labelKey)}
-                </button>
-              ))}
-            </div>
+            {availableTabs.length > 1 && (
+              <div className="utabs" role="tablist">
+                {availableTabs.map((tItem) => (
+                  <button
+                    key={tItem.key}
+                    className="utab"
+                    role="tab"
+                    aria-selected={activeTabKey === tItem.key}
+                    onClick={() => setTab(tItem.key)}
+                  >
+                    {t(tItem.labelKey)}
+                  </button>
+                ))}
+              </div>
+            )}
 
-            <div className="overview" role="tabpanel">
-              {tab === "Overview" && (
-                <>
-                  <h3>{t("overview_engineered_title")}</h3>
-                  <p className="muted" style={{ fontSize: "0.93rem" }}>
-                    {overview}
-                  </p>
-                </>
-              )}
+            {availableTabs.length > 0 && (
+              <div className="overview" role="tabpanel">
+                {activeTabKey === "Overview" && hasOverview && (
+                  <>
+                    <h3>{t("overview_engineered_title")}</h3>
+                    {overview && (
+                      /<[a-z][\s\S]*>/i.test(overview) ? (
+                        <div
+                          className="muted overview-html"
+                          style={{ fontSize: "0.93rem", lineHeight: 1.6 }}
+                          dangerouslySetInnerHTML={{ __html: overview }}
+                        />
+                      ) : (
+                        <p className="muted" style={{ fontSize: "0.93rem", whiteSpace: "pre-line", lineHeight: 1.6 }}>
+                          {overview}
+                        </p>
+                      )
+                    )}
+                    {p.customFields?.keyFeatures && (
+                      <div style={{ marginTop: "var(--s4)" }}>
+                        <h4 style={{ fontSize: "1rem", marginBottom: "var(--s2)", fontWeight: 600 }}>Key Features</h4>
+                        <p className="muted" style={{ fontSize: "0.93rem", whiteSpace: "pre-line" }}>
+                          {p.customFields.keyFeatures}
+                        </p>
+                      </div>
+                    )}
+                    {p.customFields?.warranty && (
+                      <div style={{ marginTop: "var(--s4)" }}>
+                        <h4 style={{ fontSize: "1rem", marginBottom: "var(--s2)", fontWeight: 600 }}>Warranty</h4>
+                        <p className="muted" style={{ fontSize: "0.93rem" }}>
+                          {p.customFields.warranty}
+                        </p>
+                      </div>
+                    )}
+                  </>
+                )}
 
-              {tab === "Specifications" && (
-                <>
-                  <h3>{t("tab_specs")}</h3>
-                  <table className="spec">
-                    <tbody>
-                      {specs.map(([k, v]) => (
-                        <tr key={k}>
-                          <th scope="row">{k}</th>
-                          <td>{v}</td>
-                        </tr>
+                {activeTabKey === "Specifications" && hasSpecs && (
+                  <>
+                    <h3>{t("tab_specs")}</h3>
+                    <table className="spec">
+                      <tbody>
+                        {specs.map(([k, v]) => (
+                          <tr key={k}>
+                            <th scope="row">{k}</th>
+                            <td>{v}</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                    <p className="note" style={{ marginTop: "var(--s4)" }}>
+                      {t("spec_live_note")}
+                    </p>
+                  </>
+                )}
+
+                {activeTabKey === "Videos" && hasVideos && (
+                  <>
+                    <h3>{t("tab_videos")}</h3>
+                    <div style={{ display: "grid", gap: "var(--s4)", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", marginTop: "var(--s3)" }}>
+                      {p.videos.map((vid, idx) => (
+                        <div key={idx} style={{ position: "relative", paddingBottom: "56.25%", height: 0, overflow: "hidden", borderRadius: "8px", background: "#000" }}>
+                          <iframe
+                            src={vid}
+                            title={`${displayTitle} Video ${idx + 1}`}
+                            style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: 0 }}
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                          />
+                        </div>
                       ))}
-                    </tbody>
-                  </table>
-                  <p className="note" style={{ marginTop: "var(--s4)" }}>
-                    {t("spec_live_note")}
-                  </p>
-                </>
-              )}
-
-              {tab === "Videos" && (
-                <>
-                  <h3>{t("tab_videos")}</h3>
-                  <p className="muted" style={{ fontSize: "0.93rem" }}>
-                    {t("no_videos_uploaded", { model: p.model })}
-                  </p>
-                </>
-              )}
-            </div>
+                    </div>
+                  </>
+                )}
+              </div>
+            )}
           </div>
         </div>
 

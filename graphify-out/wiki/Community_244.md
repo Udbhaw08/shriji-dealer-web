@@ -1,25 +1,32 @@
 # Community 244
 
-> 3 nodes · cohesion 0.67
+> 9 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **labelSegment** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **release-identity.test.mjs** (8 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **writeFile()** (5 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **stableUpdateManifest()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **writeValidDevelopmentFixture()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **writeValidStableFixture()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **checker** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **runCheck()** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
 
 ## Relationships
 
-- [[Graphify Knowledge Graph Skill]] (1 shared connections)
+- [[Community 76]] (1 shared connections)
+- [[Community 359]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `.agents/skills/archify/test/release-identity.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 24 (92%)
+- INFERRED: 2 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

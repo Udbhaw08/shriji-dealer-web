@@ -1,11 +1,17 @@
 # Community 270
 
-> 2 nodes · cohesion 1.00
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **checkout-line-endings.test.mjs** (1 connections) — `.agents/skills/archify/test/checkout-line-endings.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/checkout-line-endings.test.mjs`
+- **Text fields** (5 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **text-fields.md** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
 
 ## Relationships
 
@@ -13,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/checkout-line-endings.test.mjs`
+- `.agents/skills/apple-design/references/hig/text-fields.md`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

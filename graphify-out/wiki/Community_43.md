@@ -1,59 +1,57 @@
 # Community 43
 
-> 27 nodes · cohesion 0.13
+> 35 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **.send()** (54 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **viewer-camera-browser.test.mjs** (11 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **export-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **motion-governor-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **.inspect()** (5 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **run()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **evaluate()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **record()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **media()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **screenshot()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **stable()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **viewport()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **.waitFor()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **screenshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- *... and 2 more nodes in this community*
+- **workflow-migration.test.mjs** (22 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **workflow-v2.mjs** (21 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **migrateWorkflowDocument()** (15 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **compileWorkflow()** (13 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **workflow-migration-geometry.mjs** (10 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **createMappedWorkflowCandidate()** (9 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **intrinsicWorkflow()** (8 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **planningWorkflow()** (7 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **clone()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **legacyLayoutProbe()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **legacyRequirementProbe()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **createHorizontalRankMapper()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **expandableViewBox()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **requiredViewBoxFrom()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **schemaDiagnostics()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **workflow-semantic-contract.test.mjs** (3 connections) — `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
+- **clone()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **mapExplicitCoordinates()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **diagnostic()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **result()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **copyFixture()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **explicitPinConflictWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **fixture** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [[Community 51]] (11 shared connections)
-- [[Community 70]] (8 shared connections)
-- [[Community 65]] (7 shared connections)
-- [[Community 91]] (7 shared connections)
-- [[Community 39]] (5 shared connections)
-- [[Community 102]] (5 shared connections)
-- [[Community 103]] (5 shared connections)
-- [[Community 115]] (4 shared connections)
-- [[Community 79]] (1 shared connections)
-- [[Community 173]] (1 shared connections)
+- [[Community 53]] (9 shared connections)
+- [[Community 40]] (4 shared connections)
+- [[Community 79]] (3 shared connections)
+- [[Pricing Regression Test Suite]] (3 shared connections)
+- [[Community 146]] (2 shared connections)
+- [[Community 64]] (2 shared connections)
+- [[Community 58]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/export-browser.test.mjs`
-- `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- `.agents/skills/archify/migrations/workflow-v2.mjs`
+- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- `.agents/skills/archify/test/workflow-migration.test.mjs`
+- `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 146 (99%)
+- EXTRACTED: 156 (99%)
 - INFERRED: 2 (1%)
 - AMBIGUOUS: 0 (0%)
 

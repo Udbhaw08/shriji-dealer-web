@@ -1,38 +1,44 @@
 # Community 81
 
-> 17 nodes · cohesion 0.12
+> 21 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **pricing.test.mjs** (19 connections) — `src/data/pricing.test.mjs`
-- **crystal** (1 connections) — `src/data/pricing.test.mjs`
-- **crystalDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **crystalGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **genericDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **genericGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **genericItem** (1 connections) — `src/data/pricing.test.mjs`
-- **kettle** (1 connections) — `src/data/pricing.test.mjs`
-- **kettleDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **kettleGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **tcjDealer** (1 connections) — `src/data/pricing.test.mjs`
-- **tcjGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **tripleCookJumbo** (1 connections) — `src/data/pricing.test.mjs`
-- **vernaGuest** (1 connections) — `src/data/pricing.test.mjs`
-- **vernaPlus** (1 connections) — `src/data/pricing.test.mjs`
-- **zeroItem** (1 connections) — `src/data/pricing.test.mjs`
-- **zeroPricedResult** (1 connections) — `src/data/pricing.test.mjs`
+- **properties** (9 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **architecture.schema.json** (7 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **meta** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **components** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **cards** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **schema_version** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$id** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$schema** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **title** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- [[Community 35]] (3 shared connections)
+- [[Community 121]] (3 shared connections)
+- [[Community 74]] (1 shared connections)
+- [[Community 88]] (1 shared connections)
 
 ## Source Files
 
-- `src/data/pricing.test.mjs`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 45 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

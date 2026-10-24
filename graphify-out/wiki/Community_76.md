@@ -1,40 +1,50 @@
 # Community 76
 
-> 18 nodes · cohesion 0.11
+> 23 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **PRD — Shriji Domestic Appliances Dealer Web** (11 connections) — `PRD.md`
-- **3. Scope** (3 connections) — `PRD.md`
-- **6. Data** (3 connections) — `PRD.md`
-- **7. Evidence ledger — what is verified vs. what is sample** (3 connections) — `PRD.md`
-- **PRD.md** (1 connections) — `PRD.md`
-- **10. Conventions worth knowing** (1 connections) — `PRD.md`
-- **1. What this is** (1 connections) — `PRD.md`
-- **2. Who uses it** (1 connections) — `PRD.md`
-- **4. Stack** (1 connections) — `PRD.md`
-- **5. The pricing model — the core business rule** (1 connections) — `PRD.md`
-- **8. Roadmap** (1 connections) — `PRD.md`
-- **9. Decision log** (1 connections) — `PRD.md`
-- **Built and working** (1 connections) — `PRD.md`
-- **⚠️ Known discrepancy** (1 connections) — `PRD.md`
-- **Not built yet (and deliberately so)** (1 connections) — `PRD.md`
-- **Product record shape** (1 connections) — `PRD.md`
-- **Sample / invented for the draft — must stay labelled as such** (1 connections) — `PRD.md`
-- **Verified (scraped from shrijidomestic.com, 2026-09-18)** (1 connections) — `PRD.md`
+- **pull-hig.mjs** (65 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **crawlSection()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **fetchPageJson()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **abstractOf()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **anchorEntries()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **anchorMapFor()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **listedPages()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **plainText()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **ALL_PLATFORMS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **cellText()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **collectReferences()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **CURATED_FILES** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **DESIGNING_FOR_COVERAGE** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **DROPPED_PLATFORMS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **githubSlug()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **IMAGE_GLYPHS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **KEPT_PLATFORMS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **OMITTED_PAGES** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **PLATFORM_LIST_RE** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **PLATFORM_NAMES** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **platformsOf()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **REPO_ROOT** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **SECTIONS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 200]] (10 shared connections)
+- [[Community 201]] (10 shared connections)
+- [[Community 235]] (9 shared connections)
+- [[Community 275]] (8 shared connections)
+- [[Community 359]] (6 shared connections)
+- [[Community 244]] (1 shared connections)
 
 ## Source Files
 
-- `PRD.md`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 95 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

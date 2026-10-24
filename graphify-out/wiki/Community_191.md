@@ -1,16 +1,19 @@
 # Community 191
 
-> 7 nodes · cohesion 0.29
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **semantic-lens.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **Notifications** (9 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **notifications.md** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Badging** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Notification actions** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
 
 ## Relationships
 
@@ -18,11 +21,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/semantic-lens.test.mjs`
+- `.agents/skills/apple-design/references/hig/notifications.md`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,30 +1,38 @@
 # Community 165
 
-> 8 nodes · cohesion 0.32
+> 11 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **sequence-column-fit.test.mjs** (9 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **labelledSequence()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **render()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **renderOutcome()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **wideSequence()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **participantBoxes()** (1 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **tf()** (10 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **ef()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **lf()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **uf()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **of()** (6 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **sf()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **jf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **vf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **Wf()** (3 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **hp()** (2 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
 
 ## Relationships
 
-- [[Community 80]] (1 shared connections)
-- [[Graphify Agent Rules]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (12 shared connections)
+- [[Architecture Doc Generator]] (6 shared connections)
+- [[Roles & Customer Sharing Spec]] (5 shared connections)
+- [[Community 42]] (2 shared connections)
+- [[Community 41]] (2 shared connections)
+- [[Community 51]] (1 shared connections)
+- [[Master Codebase Architecture Reference]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 59 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

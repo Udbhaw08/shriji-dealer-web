@@ -1,41 +1,43 @@
 # Community 77
 
-> 18 nodes · cohesion 0.22
+> 22 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **acquireOperation()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheTokenFor()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheWriteFile()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **promoteOperationClaim()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **reserveOperation()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **guardedCacheRead()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheMkdir()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **inspectActiveClaim()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **readState()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **fenceLowerOperations()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **listOperations()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationName()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationWasFenced()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **prepareOperationClaim()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **retireActiveClaim()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **hasActivePendingOperation()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationIsSuperseded()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **discardPreparedClaim()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **CODEBASE.md — Project Architecture & Feature Guide** (8 connections) — `CODEBASE.md`
+- **2. Core Pricing & Identity Architecture** (6 connections) — `CODEBASE.md`
+- **4. Codebase Directory Map** (6 connections) — `CODEBASE.md`
+- **5. Zoho API Endpoints** (4 connections) — `CODEBASE.md`
+- **CODEBASE.md** (1 connections) — `CODEBASE.md`
+- **1. System Overview** (1 connections) — `CODEBASE.md`
+- **2.1 The Two Audiences (Zero Leakage Rule)** (1 connections) — `CODEBASE.md`
+- **2.2 Pricing Resolution Engine (`api/zoho.js` & `src/data/dealer.js`)** (1 connections) — `CODEBASE.md`
+- **2.3 Guest Access Control & Portal Gating (`src/data/portalGate.js`)** (1 connections) — `CODEBASE.md`
+- **2.4 Shareable Product Link & Zero-Leakage Experience (`src/pages/Product.jsx`)** (1 connections) — `CODEBASE.md`
+- **2.5 Navigation & Bottom Bar Dynamic Filtering** (1 connections) — `CODEBASE.md`
+- **3. Application Routes & Navigation** (1 connections) — `CODEBASE.md`
+- **4.1 Pages (`src/pages/`)** (1 connections) — `CODEBASE.md`
+- **4.2 Reusable Components (`src/components/` & `src/ui.jsx`)** (1 connections) — `CODEBASE.md`
+- **4.3 State & Business Logic (`src/data/`)** (1 connections) — `CODEBASE.md`
+- **4.4 Zoho API & Serverless Handlers (`api/`)** (1 connections) — `CODEBASE.md`
+- **4.5 Automation & Utility Scripts (`scripts/`)** (1 connections) — `CODEBASE.md`
+- **5.1 Zoho Commerce Storefront API** (1 connections) — `CODEBASE.md`
+- **5.2 Zoho Books Contacts & Pricebooks API** (1 connections) — `CODEBASE.md`
+- **5.3 Auto-Recovery Token Architecture** (1 connections) — `CODEBASE.md`
+- **6. How to Run & Verify** (1 connections) — `CODEBASE.md`
+- **7. Development & Git Workflow Guidelines** (1 connections) — `CODEBASE.md`
 
 ## Relationships
 
-- [[Community 40]] (19 shared connections)
-- [[Community 73]] (14 shared connections)
-- [[Community 83]] (12 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-update.mjs`
+- `CODEBASE.md`
 
 ## Audit Trail
 
-- EXTRACTED: 113 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

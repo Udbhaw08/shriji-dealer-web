@@ -1,13 +1,18 @@
 # Community 240
 
-> 4 nodes · cohesion 0.50
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **vercel.json** (3 connections) — `vercel.json`
-- **framework** (1 connections) — `vercel.json`
-- **headers** (1 connections) — `vercel.json`
-- **rewrites** (1 connections) — `vercel.json`
+- **chapter-delta-preview.test.mjs** (8 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **delta()** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **PROOF_CASES** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
 
 ## Relationships
 
@@ -15,11 +20,11 @@
 
 ## Source Files
 
-- `vercel.json`
+- `.agents/skills/archify/test/chapter-delta-preview.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

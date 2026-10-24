@@ -1,32 +1,35 @@
 # Community 127
 
-> 10 nodes · cohesion 0.20
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **workflow.schema.json** (8 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$defs** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **side** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$id** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$schema** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **title** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **File management** (7 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Desktop (macOS)** (3 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Mobile (iOS, iPadOS)** (3 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **file-management.md** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Creating and opening files** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Custom file management** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Document launcher** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **File provider app extension** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Finder Sync extensions** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Quick Look previews** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Saving work** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
 
 ## Relationships
 
-- [[Community 62]] (1 shared connections)
-- [[Community 140]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `.agents/skills/apple-design/references/hig/file-management.md`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

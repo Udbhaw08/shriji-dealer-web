@@ -1,60 +1,74 @@
 # Product Brand & Business Vision
 
-> 51 nodes · cohesion 0.06
+> 50 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **render-architecture.mjs** (122 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderLegend()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **grid.mjs** (6 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **alignFacingPorts()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **buildLayoutReport()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **layoutBoundaryTitles()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **sideAwareBridgeCandidates()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **relationshipLegendObstacles()** (5 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **resolveComponentPos()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **validateGridPlacement()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **boundaryLabelWidth()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **measureBoundaryTitle()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **resolveBoundaryTitles()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **routeClearsComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **routeClearsEndpointComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **minimumReadableSourceTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **layout-report.mjs** (4 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
-- **grid.test.mjs** (4 connections) — `.agents/skills/archify/test/grid.test.mjs`
-- **gridLayout()** (3 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **autoViewBoxFor()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **expandBoundaryForReadableTitle()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **resolvedViewBoxWidth()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **connectionPath()** (3 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
-- **connectionEndpointSide()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **legendY()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- *... and 26 more nodes in this community*
+- **server.js** (39 connections) — `backend/src/server.js`
+- **pool.js** (33 connections) — `backend/src/db/pool.js`
+- **env.js** (16 connections) — `backend/src/config/env.js`
+- **catalog.js** (16 connections) — `backend/src/services/catalog.js`
+- **webhooks.js** (14 connections) — `backend/src/routes/webhooks.js`
+- **logger.js** (14 connections) — `backend/src/utils/logger.js`
+- **env** (13 connections) — `backend/src/config/env.js`
+- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
+- **log** (13 connections) — `backend/src/utils/logger.js`
+- **applyCrmAccountState()** (12 connections) — `backend/src/services/dealerApp.js`
+- **index.js** (11 connections) — `backend/src/jobs/index.js`
+- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
+- **health.js** (8 connections) — `backend/src/routes/health.js`
+- **syncCatalog()** (7 connections) — `backend/src/services/catalog.js`
+- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
+- **prices.js** (6 connections) — `backend/src/routes/prices.js`
+- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
+- **isCommerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
+- **migrate()** (4 connections) — `backend/src/db/migrate.js`
+- **catalogFor()** (4 connections) — `backend/src/services/catalog.js`
+- **loadCatalog()** (4 connections) — `backend/src/services/catalog.js`
+- **applied()** (3 connections) — `backend/src/db/migrate.js`
+- **catalogSync()** (3 connections) — `backend/src/jobs/catalogSync.js`
+- **tokenCleanup()** (3 connections) — `backend/src/jobs/catalogSync.js`
+- **markPollRun()** (3 connections) — `backend/src/jobs/crmPoll.js`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (35 shared connections)
-- [[Roles & Customer Sharing Spec]] (21 shared connections)
-- [[Graphify Agent Rules]] (19 shared connections)
-- [[Graphify Workflow]] (14 shared connections)
-- [[Design System & UI Tokens]] (5 shared connections)
-- [[Community 80]] (4 shared connections)
-- [[Community 39]] (3 shared connections)
-- [[Oxlint Linter Configuration]] (1 shared connections)
-- [[Community 63]] (1 shared connections)
+- [[Graphify Agent Rules]] (37 shared connections)
+- [[Mobile Responsive UI Skill]] (22 shared connections)
+- [[Community 50]] (11 shared connections)
+- [[Community 142]] (10 shared connections)
+- [[Product Pages Specification]] (8 shared connections)
+- [[Community 161]] (8 shared connections)
+- [[Community 83]] (3 shared connections)
+- [[Community 248]] (2 shared connections)
+- [[Community 227]] (1 shared connections)
+- [[Community 395]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/grid.mjs`
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- `.agents/skills/archify/renderers/shared/layout-report.mjs`
-- `.agents/skills/archify/renderers/shared/legend.mjs`
-- `.agents/skills/archify/test/grid.test.mjs`
+- `backend/scripts/migrate-content.js`
+- `backend/src/config/env.js`
+- `backend/src/db/migrate.js`
+- `backend/src/db/pool.js`
+- `backend/src/jobs/catalogSync.js`
+- `backend/src/jobs/crmPoll.js`
+- `backend/src/jobs/index.js`
+- `backend/src/routes/auth.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/routes/health.js`
+- `backend/src/routes/prices.js`
+- `backend/src/routes/webhooks.js`
+- `backend/src/server.js`
+- `backend/src/services/catalog.js`
+- `backend/src/services/commerceClient.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/utils/logger.js`
+- `backend/test/crmSync.test.mjs`
+- `backend/test/priceGate.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 253 (100%)
+- EXTRACTED: 305 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

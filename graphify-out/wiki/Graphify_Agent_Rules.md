@@ -1,63 +1,69 @@
 # Graphify Agent Rules
 
-> 37 nodes · cohesion 0.14
+> 42 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **render-sequence.mjs** (67 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **textUnits()** (33 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **validateArchitecture()** (22 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **validateDataflow()** (22 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **validateLifecycle()** (22 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **cleanCrossingProblems()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **rectsOverlap()** (16 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **validateSequence()** (15 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **cleanAmbiguousCorridorProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanBorderRunProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanRouteRhythmProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanLabelRouteClearanceProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **brandTopRailProblem()** (13 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **minimumNodeTextWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **text-fit.mjs** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **availableNodeTextWidth()** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **segmentLabelBox()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **collectEligibleRoutedRelations()** (6 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **qualityProfileForGate()** (6 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **flowLabelSize()** (4 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **messageGeometry()** (4 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **messageLabelBox()** (4 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **messageRouteBox()** (2 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **arrowClass** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **compositionFrames** (1 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- *... and 12 more nodes in this community*
+- **sql** (76 connections) — `backend/src/db/pool.js`
+- **dealers.js** (46 connections) — `backend/src/routes/dealers.js`
+- **staff.js** (23 connections) — `backend/src/services/staff.js`
+- **audit()** (18 connections) — `backend/src/utils/audit.js`
+- **auth.js** (12 connections) — `backend/src/middleware/auth.js`
+- **generateUniqueDealerCode()** (10 connections) — `backend/src/utils/loginCode.js`
+- **applyDealer()** (7 connections) — `backend/src/services/dealerApp.js`
+- **audit.js** (7 connections) — `backend/src/utils/audit.js`
+- **provisionDealerInCrm()** (6 connections) — `backend/src/services/dealerApp.js`
+- **createInvite()** (6 connections) — `backend/src/services/staff.js`
+- **jwtAuth()** (5 connections) — `backend/src/middleware/auth.js`
+- **requireAdmin()** (5 connections) — `backend/src/middleware/auth.js`
+- **seed-content.js** (4 connections) — `backend/scripts/seed-content.js`
+- **deactivateDealer()** (4 connections) — `backend/src/services/dealerApp.js`
+- **approveStaff()** (4 connections) — `backend/src/services/staff.js`
+- **deleteStaff()** (4 connections) — `backend/src/services/staff.js`
+- **holdStaff()** (4 connections) — `backend/src/services/staff.js`
+- **resumeStaff()** (4 connections) — `backend/src/services/staff.js`
+- **revokeStaff()** (4 connections) — `backend/src/services/staff.js`
+- **toggleAllStaffPrice()** (4 connections) — `backend/src/services/staff.js`
+- **toggleStaffPrice()** (4 connections) — `backend/src/services/staff.js`
+- **info.js** (3 connections) — `api/dealer/info.js`
+- **requireApprovedDealer()** (3 connections) — `backend/src/middleware/auth.js`
+- **inspect-db.js** (3 connections) — `backend/scripts/inspect-db.js`
+- **setup-buckets.js** (3 connections) — `backend/scripts/setup-buckets.js`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (63 shared connections)
-- [[Roles & Customer Sharing Spec]] (42 shared connections)
-- [[Graphify Workflow]] (27 shared connections)
-- [[Product Brand & Business Vision]] (19 shared connections)
-- [[Community 63]] (14 shared connections)
-- [[Design System & UI Tokens]] (9 shared connections)
-- [[Community 80]] (5 shared connections)
-- [[Oxlint Linter Configuration]] (3 shared connections)
-- [[Community 165]] (1 shared connections)
+- [[Product Brand & Business Vision]] (37 shared connections)
+- [[Mobile Responsive UI Skill]] (27 shared connections)
+- [[Product Pages Specification]] (24 shared connections)
+- [[Community 83]] (11 shared connections)
+- [[Community 50]] (7 shared connections)
+- [[Community 161]] (5 shared connections)
+- [[Community 142]] (5 shared connections)
+- [[Community 227]] (2 shared connections)
+- [[Community 395]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `api/dealer/info.js`
+- `backend/scripts/check-readiness.js`
+- `backend/scripts/inspect-db.js`
+- `backend/scripts/seed-content.js`
+- `backend/scripts/setup-buckets.js`
+- `backend/scripts/setup-policies.js`
+- `backend/scripts/test-storage.js`
+- `backend/src/db/pool.js`
+- `backend/src/middleware/auth.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/services/staff.js`
+- `backend/src/utils/audit.js`
+- `backend/src/utils/loginCode.js`
 
 ## Audit Trail
 
-- EXTRACTED: 367 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 296 (99%)
+- INFERRED: 4 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

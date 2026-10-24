@@ -1,16 +1,19 @@
 # Community 194
 
-> 7 nodes · cohesion 0.29
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **story-beat-navigator.test.mjs** (6 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
+- **Viewer Runtime reference** (6 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Canonical exports** (4 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **viewer-runtime.md** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Exploration** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Guided views and story** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Motion and presentation** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Reach Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Route Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Truth boundary** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
 
 ## Relationships
 
@@ -18,11 +21,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/story-beat-navigator.test.mjs`
+- `.agents/skills/archify/references/viewer-runtime.md`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

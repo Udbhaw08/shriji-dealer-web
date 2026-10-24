@@ -1,26 +1,30 @@
 # Community 80
 
-> 17 nodes · cohesion 0.21
+> 21 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **utils.mjs** (26 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **i18n.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **translateMessage()** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **applyTemplate()** (9 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **resolveLocale()** (7 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **componentContext()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **viewerCatalog()** (4 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **localizeTemplate()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **translateCount()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **formatMessage()** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **serializeScriptJson()** (2 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **CATALOGS** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **ESCAPE_MAP** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **MESSAGE_PAIRS** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **SIGIL_SHAPE** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **SIGIL_TONE** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **TEMPLATE_PLACEHOLDERS** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **Machine learning** (15 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **The role of machine learning in your app** (6 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **machine-learning.md** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Attribution** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Calibration** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Confidence** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Corrections** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Critical or complementary** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Dynamic or static** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Explicit feedback** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Implicit feedback** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Limitations** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Mistakes** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Multiple options** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Planning your design** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Private or public** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Proactive or reactive** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Visible or invisible** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
 
 ## Relationships
 
@@ -37,14 +41,12 @@
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/shared/i18n.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `.agents/skills/apple-design/references/hig/machine-learning.md`
 
 ## Audit Trail
 
-- EXTRACTED: 107 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 40 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

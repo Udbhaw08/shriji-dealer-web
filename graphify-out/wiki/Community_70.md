@@ -1,46 +1,46 @@
 # Community 70
 
-> 19 nodes · cohesion 0.16
+> 24 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **finder-browser.test.mjs** (12 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **route-probe-browser.test.mjs** (12 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
-- **run()** (6 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **run()** (6 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
-- **viewer-click.mjs** (4 connections) — `.agents/skills/archify/test/helpers/viewer-click.mjs`
-- **createViewerClick()** (4 connections) — `.agents/skills/archify/test/helpers/viewer-click.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **search()** (3 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **opened()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **hash()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
-- **route()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
-- **installClickObserver()** (1 connections) — `.agents/skills/archify/test/helpers/viewer-click.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **Refero Design** (13 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Tool Routing** (5 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Research Workflow** (4 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Synthesis** (4 connections) — `.agents/skills/refero-design/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **1. Research Visual Direction With Styles** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **2. Research Screens For Product Details** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **3. Research Flows For Journey Logic** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Design Craft** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Discovery** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Example** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Journey Logic** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **MCP Setup** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Non-Negotiables** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Present Findings** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Product Pattern** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Quality Gate** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Research Depth** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Use Flows For Journeys** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Use Screens For Concrete UI Patterns** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Use Styles First For Visual Work** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Use Visual Workflow For Images And QA** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Visual Direction** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Workflow Routing** (1 connections) — `.agents/skills/refero-design/SKILL.md`
 
 ## Relationships
 
-- [[Community 43]] (8 shared connections)
-- [[Community 39]] (2 shared connections)
-- [[Community 65]] (2 shared connections)
-- [[Community 91]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/finder-browser.test.mjs`
-- `.agents/skills/archify/test/helpers/viewer-click.mjs`
-- `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- `.agents/skills/refero-design/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 69 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 46 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

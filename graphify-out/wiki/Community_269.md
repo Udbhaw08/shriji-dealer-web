@@ -1,11 +1,17 @@
 # Community 269
 
-> 2 nodes · cohesion 1.00
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **make-scheme-pdfs.mjs** (1 connections) — `scripts/make-scheme-pdfs.mjs`
-- **createPdfWithJpg()** (1 connections) — `scripts/make-scheme-pdfs.mjs`
+- **Tab views** (6 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **tab-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
 
 ## Relationships
 
@@ -13,11 +19,11 @@
 
 ## Source Files
 
-- `scripts/make-scheme-pdfs.mjs`
+- `.agents/skills/apple-design/references/hig/tab-views.md`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

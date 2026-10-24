@@ -1,27 +1,31 @@
 # Community 198
 
-> 6 nodes · cohesion 0.33
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **Lifecycle Renderer** (5 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
-- **README.md** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
-- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
-- **Input** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
-- **Layout budget** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
-- **Legend** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **entries** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **legend** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **mode** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **properties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 72]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/lifecycle/README.md`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

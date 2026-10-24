@@ -1,23 +1,29 @@
 # Community 266
 
-> 2 nodes · cohesion 1.00
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **fromSide** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **Sidebars** (5 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
+- **sidebars.md** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
 
 ## Relationships
 
-- [[Zoho Integration Skill]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `.agents/skills/apple-design/references/hig/sidebars.md`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

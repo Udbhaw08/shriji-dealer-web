@@ -1,37 +1,41 @@
 # Community 102
 
-> 13 nodes · cohesion 0.31
+> 18 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **focus-browser.test.mjs** (17 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **run()** (8 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **stable()** (6 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **click()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **point()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **key()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **move()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **select()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **focus()** (2 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **variant()** (1 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **acquireOperation()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cacheTokenFor()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cacheWriteFile()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **promoteOperationClaim()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **reserveOperation()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **guardedCacheRead()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cacheMkdir()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **inspectActiveClaim()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **readState()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **fenceLowerOperations()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **listOperations()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **operationName()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **operationWasFenced()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **prepareOperationClaim()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **retireActiveClaim()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **hasActivePendingOperation()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **operationIsSuperseded()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **discardPreparedClaim()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Relationships
 
-- [[Community 43]] (5 shared connections)
-- [[Community 51]] (3 shared connections)
-- [[Community 39]] (1 shared connections)
-- [[Community 91]] (1 shared connections)
+- [[Community 49]] (19 shared connections)
+- [[Community 94]] (14 shared connections)
+- [[Community 111]] (12 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/focus-browser.test.mjs`
+- `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (100%)
+- EXTRACTED: 113 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

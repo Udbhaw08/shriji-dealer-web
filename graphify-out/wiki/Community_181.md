@@ -1,16 +1,20 @@
 # Community 181
 
-> 7 nodes · cohesion 0.29
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **diagram-guide.test.mjs** (6 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
+- **multiAuth.test.mjs** (8 connections) — `backend/test/multiAuth.test.mjs`
+- **MockOAuth2Client** (3 connections) — `backend/test/multiAuth.test.mjs`
+- **app** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **db** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **.constructor()** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **.verifyIdToken()** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **mockSql()** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **resetDb()** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **startServer()** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **stopServer()** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **testEnv** (1 connections) — `backend/test/multiAuth.test.mjs`
 
 ## Relationships
 
@@ -18,11 +22,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/diagram-guide.test.mjs`
+- `backend/test/multiAuth.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

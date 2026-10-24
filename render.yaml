@@ -1,0 +1,81 @@
+# ==============================================================================
+# RENDER BLUEPRINT SPECIFICATION — SHRIJI DEALER BACKEND
+# ==============================================================================
+# Docs: https://render.com/docs/blueprint-spec
+# To deploy: Render Dashboard -> Blueprints -> New Blueprint Instance -> Select Repo
+# ==============================================================================
+
+services:
+  - type: web
+    name: shriji-backend
+    runtime: node
+    region: singapore # Closest to AWS ap-south-1 Mumbai (Supabase) & Zoho India (.in)
+    plan: starter     # Recommended: 24/7 uptime for crmPoll & catalogSync (or 'free')
+    branch: feature/backend-auth-testing
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    autoDeploy: true
+
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URL
+        sync: false # Prompts in Render dashboard or copy from backend/.env
+      - key: JWT_SECRET
+        sync: false # Copy from backend/.env to preserve existing sessions
+      - key: FRONTEND_ORIGINS
+        value: https://restor.in,https://www.restor.in,https://test.restor.in,http://localhost:5173
+      - key: ENABLE_JOBS
+        value: "true"
+      - key: CRM_POLL_MINUTES
+        value: "5"
+      - key: CATALOG_TTL_MINUTES
+        value: "60"
+
+      # Zoho CRM & Commerce Credentials
+      - key: ZOHO_DC
+        value: in
+      - key: ZOHO_CRM_CLIENT_ID
+        sync: false
+      - key: ZOHO_CRM_CLIENT_SECRET
+        sync: false
+      - key: ZOHO_CRM_REFRESH_TOKEN
+        sync: false
+      - key: ZOHO_CRM_ORG_ID
+        sync: false
+      - key: ZOHO_CLIENT_ID
+        sync: false
+      - key: ZOHO_CLIENT_SECRET
+        sync: false
+      - key: ZOHO_REFRESH_TOKEN
+        sync: false
+      - key: ZOHO_ORG_ID
+        sync: false
+      - key: ZOHO_DEALER_PRICEBOOK_ID
+        value: "3334672000000547177"
+      - key: WEBHOOK_SECRET
+        sync: false
+
+      # Notification & Auth Integrations
+      - key: RESEND_API_KEY
+        sync: false
+      - key: GOOGLE_CLIENT_ID
+        sync: false
+      - key: GOOGLE_CLIENT_SECRET
+        sync: false
+
+      # WhatsApp Cloud API OTP Integration
+      - key: WHATSAPP_TOKEN
+        sync: false
+      - key: WHATSAPP_PHONE_ID
+        value: "1454730707713736"
+      - key: WHATSAPP_TEMPLATE_NAME
+        value: "otp_template"
+      - key: WHATSAPP_TEMPLATE_LANG
+        value: "en"
+      - key: WHATSAPP_GRAPH_API_VERSION
+        value: "v21.0"
+      - key: WHATSAPP_TEMPLATE_HAS_BUTTON
+        value: "true"

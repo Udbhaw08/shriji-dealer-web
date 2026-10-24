@@ -1,10 +1,17 @@
 # Community 289
 
-> 1 nodes · cohesion 1.00
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **lifecycle** (0 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **share-card-export.test.mjs** (7 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **svgBlock()** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
 
 ## Relationships
 
@@ -12,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- `.agents/skills/archify/test/share-card-export.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

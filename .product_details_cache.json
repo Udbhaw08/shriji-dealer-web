@@ -1,0 +1,248 @@
+{
+  "3334672000000194828": {
+    "product": {
+      "id": "3334672000000194828",
+      "slug": "kuchenbau-electric-kettle-1-8l",
+      "name": "Kuchenbau Electric Kettle 1.8L",
+      "model": "Kuchenbau Electric Kettle 1.8L",
+      "zohoTitle": "1.8L Electric Kettle SA KuchenBau",
+      "shortDescription": "Kuchenbau Electric Kettle 1.8L",
+      "size": "1.8 Litres",
+      "burners": null,
+      "finish": "Stainless Steel Body",
+      "fkey": "steel",
+      "features": [
+        "Auto Cut-Off",
+        "Concealed Heating Element",
+        "360° Swivel Base",
+        "Rapid Boil Technology"
+      ],
+      "brand": "KuchenBau",
+      "tags": [
+        "HOT SELLING"
+      ],
+      "cat": "small_appliances",
+      "catLabel": "Small Appliances",
+      "code": "SM",
+      "mrp": 2999,
+      "sellingPrice": 2999,
+      "labelPrice": 2999,
+      "dealerRate": 1025,
+      "purchaseRate": 500,
+      "stock": 105,
+      "img": "https://cdn2.zohoecommerce.com/product-images/imgi_4_Kuchenbau_Electric_Kettle_1024x1024.jpg/3334672000003942261/600x600?storefront_domain=www.shrijidomestic.com",
+      "images": [
+        "https://cdn2.zohoecommerce.com/product-images/imgi_4_Kuchenbau_Electric_Kettle_1024x1024.jpg/3334672000003942261/600x600?storefront_domain=www.shrijidomestic.com",
+        "https://cdn2.zohoecommerce.com/product-images/imgi_13_WhatsApp_Image_2025-02-11_at_10.28.17_AM_1024x1024.jpg/3334672000003942249/600x600?storefront_domain=www.shrijidomestic.com",
+        "https://cdn2.zohoecommerce.com/product-images/imgi_3_WhatsApp_Image_2025-02-11_at_10.28.15_AM_1_1024x1024.jpg/3334672000003942251/600x600?storefront_domain=www.shrijidomestic.com",
+        "https://cdn2.zohoecommerce.com/product-images/imgi_11_WhatsApp_Image_2025-02-11_at_10.28.17_AM_2_1024x1024.jpg/3334672000003942253/600x600?storefront_domain=www.shrijidomestic.com",
+        "https://cdn2.zohoecommerce.com/product-images/imgi_10_WhatsApp_Image_2025-02-11_at_10.28.15_AM_2_1024x1024.jpg/3334672000003942255/600x600?storefront_domain=www.shrijidomestic.com",
+        "https://cdn2.zohoecommerce.com/product-images/imgi_6_WhatsApp_Image_2025-02-11_at_10.28.14_AM_1024x1024.jpg/3334672000003942257/600x600?storefront_domain=www.shrijidomestic.com",
+        "https://cdn2.zohoecommerce.com/product-images/imgi_8_WhatsApp_Image_2025-02-11_at_10.28.16_AM_1_1024x1024.jpg/3334672000003942259/600x600?storefront_domain=www.shrijidomestic.com",
+        "https://cdn2.zohoecommerce.com/product-images/imgi_15_WhatsApp_Image_2025-02-11_at_10.28.15_AM_5_1024x1024.jpg/3334672000003942263/600x600?storefront_domain=www.shrijidomestic.com",
+        "https://cdn2.zohoecommerce.com/product-images/imgi_43_WhatsApp_Image_2025-02-11_at_10.28.15_AM_1.jpg/3334672000003942265/600x600?storefront_domain=www.shrijidomestic.com",
+        "https://cdn2.zohoecommerce.com/product-images/imgi_9_b2941b23-1601-44e2-9140-e62e9e462d89_1024x1024.jpg/3334672000003942267/600x600?storefront_domain=www.shrijidomestic.com",
+        "https://cdn2.zohoecommerce.com/product-images/imgi_17_IMG-0842_1024x1024.jpg/3334672000003942269/600x600?storefront_domain=www.shrijidomestic.com",
+        "https://cdn2.zohoecommerce.com/product-images/imgi_12_WhatsApp_Image_2025-02-11_at_10.28.16_AM_11_1024x1024.jpg/3334672000003942271/600x600?storefront_domain=www.shrijidomestic.com"
+      ],
+      "description": "Experience the perfect blend of modernity and functionality with the Kuchenbau Electric Kettle, designed for quick boiling, safety, and long-lasting durability.",
+      "productDescriptionHtml": "",
+      "tileIcons": [
+        {
+          "index": 1,
+          "image": "",
+          "text": "Auto Ignition",
+          "label": "Tile Icon Text 1"
+        },
+        {
+          "index": 2,
+          "image": "",
+          "text": "Quick Performance",
+          "label": "Tile Icon Text 2"
+        },
+        {
+          "index": 3,
+          "image": "",
+          "text": "Stainless Steel Body",
+          "label": "Tile Icon Text 3"
+        }
+      ],
+      "customFields": {
+        "warranty": "Sunshine 1-Yr Official Warranty",
+        "keyFeatures": "Auto Cut-Off Protection · Concealed Rapid Boil Element · 360° Swivel Base · Stainless Steel Body",
+        "overview": "Experience the perfect blend of modernity and functionality with the Kuchenbau Electric Kettle, designed for quick boiling, safety, and long-lasting durability in modern Indian kitchens."
+      },
+      "extraFields": [
+        {
+          "label": "Operating Voltage",
+          "value": "230V AC ~ 50Hz",
+          "key": "voltage"
+        },
+        {
+          "label": "Power Consumption",
+          "value": "1500 Watts",
+          "key": "power"
+        },
+        {
+          "label": "Body Finish",
+          "value": "Stainless Steel Body",
+          "key": "finish"
+        }
+      ],
+      "specifications": [
+        {
+          "group": "General",
+          "name": "Capacity",
+          "value": "1.8 Litres"
+        },
+        {
+          "group": "General",
+          "name": "Body Material",
+          "value": "Food Grade Stainless Steel"
+        },
+        {
+          "group": "Performance",
+          "name": "Power",
+          "value": "1500W"
+        },
+        {
+          "group": "Safety",
+          "name": "Auto Shut-Off",
+          "value": "Yes, with Boil-Dry Protection"
+        },
+        {
+          "group": "Convenience",
+          "name": "Base Type",
+          "value": "360° Cordless Swivel Base"
+        }
+      ],
+      "videos": [],
+      "status": "active",
+      "showInStore": true
+    },
+    "time": 1792780000000
+  },
+  "kuchenbau-electric-kettle-1-8l": {
+    "product": {
+      "id": "3334672000000194828",
+      "slug": "kuchenbau-electric-kettle-1-8l",
+      "name": "Kuchenbau Electric Kettle 1.8L",
+      "model": "Kuchenbau Electric Kettle 1.8L",
+      "zohoTitle": "1.8L Electric Kettle SA KuchenBau",
+      "shortDescription": "Kuchenbau Electric Kettle 1.8L",
+      "size": "1.8 Litres",
+      "burners": null,
+      "finish": "Stainless Steel Body",
+      "fkey": "steel",
+      "features": [
+        "Auto Cut-Off",
+        "Concealed Heating Element",
+        "360° Swivel Base",
+        "Rapid Boil Technology"
+      ],
+      "brand": "KuchenBau",
+      "tags": [
+        "HOT SELLING"
+      ],
+      "cat": "small_appliances",
+      "catLabel": "Small Appliances",
+      "code": "SM",
+      "mrp": 2999,
+      "sellingPrice": 2999,
+      "labelPrice": 2999,
+      "dealerRate": 1025,
+      "purchaseRate": 500,
+      "stock": 105,
+      "img": "https://cdn2.zohoecommerce.com/product-images/imgi_4_Kuchenbau_Electric_Kettle_1024x1024.jpg/3334672000003942261/600x600?storefront_domain=www.shrijidomestic.com",
+      "images": [
+        "https://cdn2.zohoecommerce.com/product-images/imgi_4_Kuchenbau_Electric_Kettle_1024x1024.jpg/3334672000003942261/600x600?storefront_domain=www.shrijidomestic.com",
+        "https://cdn2.zohoecommerce.com/product-images/imgi_13_WhatsApp_Image_2025-02-11_at_10.28.17_AM_1024x1024.jpg/3334672000003942249/600x600?storefront_domain=www.shrijidomestic.com",
+        "https://cdn2.zohoecommerce.com/product-images/imgi_3_WhatsApp_Image_2025-02-11_at_10.28.15_AM_1_1024x1024.jpg/3334672000003942251/600x600?storefront_domain=www.shrijidomestic.com",
+        "https://cdn2.zohoecommerce.com/product-images/imgi_11_WhatsApp_Image_2025-02-11_at_10.28.17_AM_2_1024x1024.jpg/3334672000003942253/600x600?storefront_domain=www.shrijidomestic.com",
+        "https://cdn2.zohoecommerce.com/product-images/imgi_10_WhatsApp_Image_2025-02-11_at_10.28.15_AM_2_1024x1024.jpg/3334672000003942255/600x600?storefront_domain=www.shrijidomestic.com",
+        "https://cdn2.zohoecommerce.com/product-images/imgi_6_WhatsApp_Image_2025-02-11_at_10.28.14_AM_1024x1024.jpg/3334672000003942257/600x600?storefront_domain=www.shrijidomestic.com",
+        "https://cdn2.zohoecommerce.com/product-images/imgi_8_WhatsApp_Image_2025-02-11_at_10.28.16_AM_1_1024x1024.jpg/3334672000003942259/600x600?storefront_domain=www.shrijidomestic.com",
+        "https://cdn2.zohoecommerce.com/product-images/imgi_15_WhatsApp_Image_2025-02-11_at_10.28.15_AM_5_1024x1024.jpg/3334672000003942263/600x600?storefront_domain=www.shrijidomestic.com",
+        "https://cdn2.zohoecommerce.com/product-images/imgi_43_WhatsApp_Image_2025-02-11_at_10.28.15_AM_1.jpg/3334672000003942265/600x600?storefront_domain=www.shrijidomestic.com",
+        "https://cdn2.zohoecommerce.com/product-images/imgi_9_b2941b23-1601-44e2-9140-e62e9e462d89_1024x1024.jpg/3334672000003942267/600x600?storefront_domain=www.shrijidomestic.com",
+        "https://cdn2.zohoecommerce.com/product-images/imgi_17_IMG-0842_1024x1024.jpg/3334672000003942269/600x600?storefront_domain=www.shrijidomestic.com",
+        "https://cdn2.zohoecommerce.com/product-images/imgi_12_WhatsApp_Image_2025-02-11_at_10.28.16_AM_11_1024x1024.jpg/3334672000003942271/600x600?storefront_domain=www.shrijidomestic.com"
+      ],
+      "description": "Experience the perfect blend of modernity and functionality with the Kuchenbau Electric Kettle, designed for quick boiling, safety, and long-lasting durability.",
+      "productDescriptionHtml": "",
+      "tileIcons": [
+        {
+          "index": 1,
+          "image": "",
+          "text": "Auto Ignition",
+          "label": "Tile Icon Text 1"
+        },
+        {
+          "index": 2,
+          "image": "",
+          "text": "Quick Performance",
+          "label": "Tile Icon Text 2"
+        },
+        {
+          "index": 3,
+          "image": "",
+          "text": "Stainless Steel Body",
+          "label": "Tile Icon Text 3"
+        }
+      ],
+      "customFields": {
+        "warranty": "Sunshine 1-Yr Official Warranty",
+        "keyFeatures": "Auto Cut-Off Protection · Concealed Rapid Boil Element · 360° Swivel Base · Stainless Steel Body",
+        "overview": "Experience the perfect blend of modernity and functionality with the Kuchenbau Electric Kettle, designed for quick boiling, safety, and long-lasting durability in modern Indian kitchens."
+      },
+      "extraFields": [
+        {
+          "label": "Operating Voltage",
+          "value": "230V AC ~ 50Hz",
+          "key": "voltage"
+        },
+        {
+          "label": "Power Consumption",
+          "value": "1500 Watts",
+          "key": "power"
+        },
+        {
+          "label": "Body Finish",
+          "value": "Stainless Steel Body",
+          "key": "finish"
+        }
+      ],
+      "specifications": [
+        {
+          "group": "General",
+          "name": "Capacity",
+          "value": "1.8 Litres"
+        },
+        {
+          "group": "General",
+          "name": "Body Material",
+          "value": "Food Grade Stainless Steel"
+        },
+        {
+          "group": "Performance",
+          "name": "Power",
+          "value": "1500W"
+        },
+        {
+          "group": "Safety",
+          "name": "Auto Shut-Off",
+          "value": "Yes, with Boil-Dry Protection"
+        },
+        {
+          "group": "Convenience",
+          "name": "Base Type",
+          "value": "360° Cordless Swivel Base"
+        }
+      ],
+      "videos": [],
+      "status": "active",
+      "showInStore": true
+    },
+    "time": 1792780000000
+  }
+}

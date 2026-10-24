@@ -1,11 +1,17 @@
 # Community 271
 
-> 2 nodes · cohesion 1.00
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **ci-scope.test.mjs** (1 connections) — `.agents/skills/archify/test/ci-scope.test.mjs`
-- **script** (1 connections) — `.agents/skills/archify/test/ci-scope.test.mjs`
+- **Code audit** (5 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **Apple Pay and payment marks** (3 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **code-audit.md** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **How to run it** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **iPhone Duo readiness in code** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **Liquid Glass in code** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **What replaces it** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **What to search for** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
 
 ## Relationships
 
@@ -13,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/ci-scope.test.mjs`
+- `.agents/skills/apple-design/references/code-audit.md`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

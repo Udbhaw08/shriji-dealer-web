@@ -1,0 +1,43 @@
+{
+  "name": "app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/sync-all.mjs",
+    "sync": "node scripts/sync-all.mjs",
+    "watch:sync": "node scripts/watch-sync.mjs",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "test": "node --test src/data/dealer.test.mjs && node src/data/pricing.test.mjs && node --test src/data/auth-session.test.mjs && node --test src/data/video-banner.test.mjs",
+    "docs": "node scripts/generate-codebase-doc.mjs",
+    "graphify:update": "graphify update . && python scripts/build_wiki.py",
+    "cap:sync": "node scripts/generate-codebase-doc.mjs && vite build && cap sync",
+    "cap:android": "cap open android",
+    "cap:ios": "cap open ios",
+    "start:backend": "npm --prefix backend start",
+    "build:backend": "npm --prefix backend install"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.5.2",
+    "@capacitor/app": "^8.1.1",
+    "@capacitor/cli": "^8.5.2",
+    "@capacitor/core": "^8.5.2",
+    "@capacitor/ios": "^8.5.2",
+    "@capacitor/preferences": "^8.0.1",
+    "dotenv": "^16.4.5",
+    "jsonwebtoken": "^9.0.2",
+    "postgres": "^3.4.5",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-router-dom": "^7.18.4"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "oxlint": "^1.81.0",
+    "vite": "^8.3.0"
+  }
+}

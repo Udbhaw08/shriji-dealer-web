@@ -1,12 +1,17 @@
 # Community 258
 
-> 3 nodes · cohesion 0.67
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **sync-all.mjs** (2 connections) — `scripts/sync-all.mjs`
-- **rootDir** (1 connections) — `scripts/sync-all.mjs`
-- **run()** (1 connections) — `scripts/sync-all.mjs`
+- **Keyboards** (7 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **keyboards.md** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Custom keyboard shortcuts** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Standard keyboard shortcuts** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
 
 ## Relationships
 
@@ -14,11 +19,11 @@
 
 ## Source Files
 
-- `scripts/sync-all.mjs`
+- `.agents/skills/apple-design/references/hig/keyboards.md`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

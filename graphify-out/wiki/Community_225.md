@@ -1,13 +1,18 @@
 # Community 225
 
-> 4 nodes · cohesion 0.50
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **width** (4 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **Virtual keyboards** (7 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **virtual-keyboards.md** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Custom input views** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Custom keyboards** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
 
 ## Relationships
 
@@ -15,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,44 +1,47 @@
 # Community 60
 
-> 21 nodes · cohesion 0.10
+> 26 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **properties** (9 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **architecture.schema.json** (7 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **meta** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **components** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **cards** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **schema_version** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$id** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$schema** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **title** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **Widgets** (9 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Best practices** (6 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Anatomy** (4 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Rendering modes** (4 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Mobile (iOS, iPadOS)** (3 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Specifications** (3 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **widgets.md** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Accented** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Accessory widgets** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Adding interactivity** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Appearances** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Apple HomeView** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Choosing margins and padding** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Displaying text in widgets** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Full-color** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **iOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **iPadOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Previews and placeholders** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **StandBy and CarPlay** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **System family widgets** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Updating widget content** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Using color** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [[Community 88]] (3 shared connections)
-- [[Community 57]] (1 shared connections)
-- [[Community 69]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `.agents/skills/apple-design/references/hig/widgets.md`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (100%)
+- EXTRACTED: 50 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

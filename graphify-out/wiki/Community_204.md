@@ -1,27 +1,33 @@
 # Community 204
 
-> 6 nodes · cohesion 0.33
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **authoring-safety-contract.test.mjs** (5 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
-- **authoringContract** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
-- **schemaReadme** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
-- **skill** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- **site-language-continuity.test.mjs** (12 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **clickAndNavigate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **evaluate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **loadRuntime()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **navigate()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **navigationPath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **runtimePath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **startStaticServer()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Vercel Deployment Routing]] (1 shared connections)
+- [[Community 147]] (1 shared connections)
+- [[Community 125]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- `.agents/skills/archify/test/site-language-continuity.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 23 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

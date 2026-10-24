@@ -1,33 +1,41 @@
 # Community 130
 
-> 10 nodes · cohesion 0.22
+> 14 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **site-language-continuity.test.mjs** (12 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **clickAndNavigate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **evaluate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **loadRuntime()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **navigate()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **navigationPath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **runtimePath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **startStaticServer()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **fetchZohoProductById()** (18 connections) — `api/_lib/zoho.js`
+- **fetchZohoProducts()** (14 connections) — `api/_lib/zoho.js`
+- **getZohoConfig()** (10 connections) — `api/_lib/zoho.js`
+- **fetchZohoWithRetry()** (9 connections) — `api/_lib/zoho.js`
+- **fetchAllRawZohoProducts()** (6 connections) — `api/_lib/zoho.js`
+- **fetchZohoPricebookItems()** (6 connections) — `api/_lib/zoho.js`
+- **getCategoryVisibilityMap()** (5 connections) — `api/_lib/zoho.js`
+- **resolvePricebookId()** (5 connections) — `api/_lib/zoho.js`
+- **fetchZohoPricebooks()** (4 connections) — `api/_lib/zoho.js`
+- **fetchZohoRawCategories()** (4 connections) — `api/_lib/zoho.js`
+- **getDealerById()** (4 connections) — `api/_lib/zoho.js`
+- **readProductDetailsDiskCache()** (3 connections) — `api/_lib/zoho.js`
+- **readProductsDiskCache()** (3 connections) — `api/_lib/zoho.js`
+- **writeProductDetailDiskCache()** (3 connections) — `api/_lib/zoho.js`
 
 ## Relationships
 
-- [[Community 39]] (1 shared connections)
-- [[Community 65]] (1 shared connections)
-- [[Community 91]] (1 shared connections)
+- [[Community 57]] (17 shared connections)
+- [[Community 227]] (5 shared connections)
+- [[Community 166]] (5 shared connections)
+- [[Community 250]] (5 shared connections)
+- [[Community 351]] (2 shared connections)
+- [[Community 248]] (2 shared connections)
+- [[Community 141]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- `api/_lib/zoho.js`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
+- EXTRACTED: 94 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

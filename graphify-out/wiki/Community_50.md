@@ -1,52 +1,60 @@
 # Community 50
 
-> 24 nodes · cohesion 0.11
+> 29 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **preview.mjs** (23 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **startPreview()** (10 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **cli-output-types.test.mjs** (10 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **runPreview()** (3 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **compactMessage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **initialAuthoredOutput()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **previewPage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **redactDiagnostic()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **sha256()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **sourceDigest()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **cliPath** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **diagramTypes** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **here** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **parseReceipt()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **responseHeaders()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **safeJson()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **architecture** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **base** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **head** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **root** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **workflow** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **workspace()** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **compatibilitySuite.test.mjs** (20 connections) — `backend/test/compatibilitySuite.test.mjs`
+- **securityPhase1.test.mjs** (16 connections) — `backend/test/securityPhase1.test.mjs`
+- **upload.js** (11 connections) — `backend/src/routes/upload.js`
+- **upload.js** (9 connections) — `api/upload.js`
+- **verifyAdminAuth()** (9 connections) — `api/_lib/adminAuth.js`
+- **uploads.js** (8 connections) — `backend/src/routes/uploads.js`
+- **adminAuth.js** (6 connections) — `api/_lib/adminAuth.js`
+- **handler()** (4 connections) — `api/upload.js`
+- **contentRouter** (4 connections) — `backend/src/routes/content.js`
+- **uploadRouter** (4 connections) — `backend/src/routes/upload.js`
+- **uploadsRouter** (4 connections) — `backend/src/routes/uploads.js`
+- **login.js** (3 connections) — `api/admin/login.js`
+- **handler()** (2 connections) — `api/admin/login.js`
+- **validateMagicBytes()** (2 connections) — `api/upload.js`
+- **ALLOWED_EXTENSIONS** (1 connections) — `api/upload.js`
+- **ALLOWED_FOLDERS** (1 connections) — `api/upload.js`
+- **MIME_TYPES** (1 connections) — `api/upload.js`
+- **ALLOWED_FOLDERS** (1 connections) — `backend/src/routes/upload.js`
+- **SAFE_EXTENSIONS** (1 connections) — `backend/src/routes/upload.js`
+- **validateMagicBytes()** (1 connections) — `backend/src/routes/upload.js`
+- **ALLOWED_FOLDERS** (1 connections) — `backend/src/routes/uploads.js`
+- **MIME_TYPES** (1 connections) — `backend/src/routes/uploads.js`
+- **json()** (1 connections) — `backend/test/compatibilitySuite.test.mjs`
+- **status()** (1 connections) — `backend/test/compatibilitySuite.test.mjs`
+- **json()** (1 connections) — `backend/test/securityPhase1.test.mjs`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [[Community 152]] (3 shared connections)
-- [[Community 78]] (3 shared connections)
-- [[Community 37]] (2 shared connections)
-- [[Community 129]] (2 shared connections)
-- [[Community 186]] (2 shared connections)
-- [[Community 150]] (2 shared connections)
+- [[Product Brand & Business Vision]] (11 shared connections)
+- [[Graphify Agent Rules]] (7 shared connections)
+- [[Community 83]] (6 shared connections)
+- [[Community 227]] (4 shared connections)
+- [[Community 166]] (3 shared connections)
+- [[Community 161]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/preview.mjs`
-- `.agents/skills/archify/test/cli-output-types.test.mjs`
+- `api/_lib/adminAuth.js`
+- `api/admin/login.js`
+- `api/upload.js`
+- `backend/src/routes/content.js`
+- `backend/src/routes/upload.js`
+- `backend/src/routes/uploads.js`
+- `backend/test/compatibilitySuite.test.mjs`
+- `backend/test/securityPhase1.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 71 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 117 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

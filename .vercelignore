@@ -1,0 +1,19 @@
+# Native mobile apps (Android & iOS Capacitor builds)
+android/
+ios/
+
+# Backend local node_modules & logs
+backend/node_modules/
+backend/*.log
+*.log
+
+# Documentation & AI Knowledge Graph
+graphify-out/
+.agents/
+docs/archify/
+
+# Local test & temporary files
+.tempmediaStorage/
+.user_uploaded/
+scratch/
+coverage/

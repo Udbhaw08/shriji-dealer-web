@@ -1,33 +1,35 @@
 # Community 129
 
-> 10 nodes · cohesion 0.20
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **output-path.test.mjs** (16 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **baseFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **copyInstalledSkill()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **directoryAliasesNames()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **headFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **workflowFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **web-DKV-N4CX.js** (13 connections) — `ios/App/App/public/assets/web-DKV-N4CX.js`
+- **applyPrefix()** (4 connections) — `ios/App/App/public/assets/web-DKV-N4CX.js`
+- **keys()** (4 connections) — `ios/App/App/public/assets/web-DKV-N4CX.js`
+- **get()** (3 connections) — `ios/App/App/public/assets/web-DKV-N4CX.js`
+- **migrate()** (3 connections) — `ios/App/App/public/assets/web-DKV-N4CX.js`
+- **rawKeys()** (3 connections) — `ios/App/App/public/assets/web-DKV-N4CX.js`
+- **clear()** (2 connections) — `ios/App/App/public/assets/web-DKV-N4CX.js`
+- **remove()** (2 connections) — `ios/App/App/public/assets/web-DKV-N4CX.js`
+- **removeOld()** (2 connections) — `ios/App/App/public/assets/web-DKV-N4CX.js`
+- **set()** (2 connections) — `ios/App/App/public/assets/web-DKV-N4CX.js`
+- **configure()** (1 connections) — `ios/App/App/public/assets/web-DKV-N4CX.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-DKV-N4CX.js`
+- **impl()** (1 connections) — `ios/App/App/public/assets/web-DKV-N4CX.js`
+- **prefix()** (1 connections) — `ios/App/App/public/assets/web-DKV-N4CX.js`
 
 ## Relationships
 
-- [[Design System & UI Tokens]] (3 shared connections)
-- [[Community 50]] (2 shared connections)
-- [[Community 78]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/output-path.test.mjs`
+- `ios/App/App/public/assets/web-DKV-N4CX.js`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

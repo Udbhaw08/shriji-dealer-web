@@ -1,55 +1,58 @@
 # Pricing Regression Test Suite
 
-> 54 nodes · cohesion 0.08
+> 55 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **get()** (23 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **np()** (21 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **b()** (19 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **.addEventListener()** (18 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Au()** (16 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **h()** (14 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **fp()** (13 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **.removeEventListener()** (13 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **bm()** (12 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **sn()** (11 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **am()** (9 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **tp()** (9 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **cm()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **ju()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **lp()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **mm()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **tm()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **zm()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **zt()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **em()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **.blur()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **.scrollIntoView()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **jm()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **nm()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **om()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- *... and 29 more nodes in this community*
+- **geometry.mjs** (75 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **compileWorkflowInternal()** (67 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **asArray()** (43 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **geometry.test.mjs** (34 connections) — `.agents/skills/archify/test/geometry.test.mjs`
+- **cleanCrossingProblems()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **isFinitePoint()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanFlowProblems()** (17 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanEndpointSideProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **collectLabelRouteClearance()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **segmentIntersectsRect()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **suggestLabelObstacleFix()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **anchor()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **collectBorderRuns()** (10 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **normalizeRoutePoints()** (10 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **routeHonorsEndpointSides()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **collectAmbiguousCorridors()** (8 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **polylinePath()** (8 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **segmentRectClearance()** (8 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **suggestLabelPairFix()** (8 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **recordDiagnostic()** (7 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **collectRouteRhythmIssues()** (7 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **roundedPath()** (7 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **routeBudgetMetrics()** (6 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **automaticPortRhythmBridge()** (5 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **forwardCollinearAnalysisSegments()** (5 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- *... and 30 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (55 shared connections)
-- [[Project Readme & Layout]] (19 shared connections)
-- [[Product Pages Specification]] (19 shared connections)
-- [[Community 31]] (16 shared connections)
-- [[Zoho Integration Architecture]] (12 shared connections)
-- [[Community 38]] (9 shared connections)
-- [[Community 71]] (7 shared connections)
-- [[Community 29]] (4 shared connections)
-- [[Community 52]] (2 shared connections)
+- [[Graphify Workflow]] (59 shared connections)
+- [[Community 53]] (36 shared connections)
+- [[Zoho Integration Architecture]] (34 shared connections)
+- [[Client Products Data Store]] (28 shared connections)
+- [[Community 56]] (28 shared connections)
+- [[Community 46]] (9 shared connections)
+- [[Community 40]] (7 shared connections)
+- [[Live Pricing Audit Tool]] (6 shared connections)
+- [[Community 43]] (3 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CPb6hema.js`
+- `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- `.agents/skills/archify/renderers/shared/geometry.mjs`
+- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- `.agents/skills/archify/test/geometry.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 369 (100%)
+- EXTRACTED: 512 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

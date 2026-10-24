@@ -1,10 +1,17 @@
 # Community 280
 
-> 1 nodes · cohesion 1.00
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **capacitor.build.gradle** (0 connections) — `android/app/capacitor.build.gradle`
+- **preset-tryon.test.mjs** (7 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
+- **presetRuntime()** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
+- **svgBlock()** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/preset-tryon.test.mjs`
 
 ## Relationships
 
@@ -12,11 +19,11 @@
 
 ## Source Files
 
-- `android/app/capacitor.build.gradle`
+- `.agents/skills/archify/test/preset-tryon.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

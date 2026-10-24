@@ -1,24 +1,33 @@
 # Community 247
 
-> 3 nodes · cohesion 0.67
+> 9 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **height** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **viewer-camera-browser.test.mjs** (11 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **run()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **stable()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **viewport()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **screenshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
 
 ## Relationships
 
-- [[Pricing & Roles Skill]] (1 shared connections)
+- [[Community 58]] (4 shared connections)
+- [[Vercel Deployment Routing]] (1 shared connections)
+- [[Community 147]] (1 shared connections)
+- [[Community 125]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 31 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

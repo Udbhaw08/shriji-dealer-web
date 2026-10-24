@@ -1,18 +1,21 @@
 # Community 151
 
-> 9 nodes · cohesion 0.22
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **vertical-edge.test.mjs** (8 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **bin** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **edgePath()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **REPRO** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **segments()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **Apple Pencil and Scribble** (11 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **apple-pencil-and-scribble.md** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Barrel roll** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Custom drawing** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Double tap** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Hover** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Scribble** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Squeeze** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
 
 ## Relationships
 
@@ -20,11 +23,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/vertical-edge.test.mjs`
+- `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

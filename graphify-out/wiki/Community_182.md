@@ -1,16 +1,20 @@
 # Community 182
 
-> 7 nodes · cohesion 0.29
+> 11 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **finder.test.mjs** (6 connections) — `.agents/skills/archify/test/finder.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
-- **svg()** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
+- **readme-showcase.test.mjs** (10 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **inspectGif()** (2 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **skipSubBlocks()** (2 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **assetPath** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **git()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **receiptPath** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **writeStarHistoryCharts()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
 
 ## Relationships
 
@@ -18,11 +22,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/finder.test.mjs`
+- `.agents/skills/archify/test/readme-showcase.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

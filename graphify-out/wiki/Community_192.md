@@ -1,16 +1,19 @@
 # Community 192
 
-> 7 nodes · cohesion 0.29
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **semantic-passport.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
-- **svg()** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **Settings** (8 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **settings.md** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **General settings** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **System settings** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Task-specific options** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
 
 ## Relationships
 
@@ -18,11 +21,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/semantic-passport.test.mjs`
+- `.agents/skills/apple-design/references/hig/settings.md`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

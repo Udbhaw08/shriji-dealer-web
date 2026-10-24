@@ -1,30 +1,37 @@
 # Community 143
 
-> 9 nodes · cohesion 0.22
+> 13 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **Critical Mobile Responsiveness Safeguards** (6 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **Shriji Responsive UI Skill** (3 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **1. Viewport Zoom-Out Prevention** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **2. CSS Grid Child Shrinking** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **3. Product Card Rows on Mobile (`<= 719px`)** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **4. Horizontal Scrollable Tabs (`.utabs`, `.tabs`)** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **5. Hero Banner on Small Screens (`<= 640px`)** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **Design System Tokens** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **focus-browser.test.mjs** (17 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **run()** (8 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **stable()** (6 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **click()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **key()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **select()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **focus()** (2 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **variant()** (1 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 58]] (5 shared connections)
+- [[Community 68]] (3 shared connections)
+- [[Vercel Deployment Routing]] (1 shared connections)
+- [[Community 125]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/shriji-responsive-ui/SKILL.md`
+- `.agents/skills/archify/test/focus-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 58 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

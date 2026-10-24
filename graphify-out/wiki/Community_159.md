@@ -1,17 +1,21 @@
 # Community 159
 
-> 8 nodes · cohesion 0.25
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **relationship-direct-explorer.test.mjs** (7 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- **Search fields** (6 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Phone (iOS)** (4 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **search-fields.md** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Scope bars and tokens** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Search as a tab** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Search as an inline field** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Search in a toolbar** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Tablet and desktop (iPadOS, macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
 
 ## Relationships
 
@@ -19,11 +23,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- `.agents/skills/apple-design/references/hig/search-fields.md`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,12 +1,17 @@
 # Community 261
 
-> 3 nodes · cohesion 0.67
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **toolbar-polish.test.mjs** (2 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
+- **Offering help** (6 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **offering-help.md** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Creating tips** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Desktop (macOS, visionOS)** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
 
 ## Relationships
 
@@ -14,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/toolbar-polish.test.mjs`
+- `.agents/skills/apple-design/references/hig/offering-help.md`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

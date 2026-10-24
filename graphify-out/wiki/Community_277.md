@@ -1,10 +1,17 @@
 # Community 277
 
-> 1 nodes · cohesion 1.00
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **settings.gradle** (0 connections) — `android/settings.gradle`
+- **crmProvisioningReliability.test.mjs** (7 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **crmCalls** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **db** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **mockCrm** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **mockSql()** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **resetCrm()** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **resetDb()** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **testEnv** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
 
 ## Relationships
 
@@ -12,11 +19,11 @@
 
 ## Source Files
 
-- `android/settings.gradle`
+- `backend/test/crmProvisioningReliability.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

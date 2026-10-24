@@ -1,48 +1,64 @@
 # Community 46
 
-> 26 nodes · cohesion 0.09
+> 33 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **layout-rules.test.mjs** (25 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **assertRelationshipsAvoidAllNodeBorders()** (5 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **workflowNodeBorderOverlap()** (3 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **assertWorkflowEdgesAvoidAllNodeBorders()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **axisOverlapLength()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **workflowEdgePoints()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **workflowNodeRect()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **ambiguousCorridorDocument()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **autoRoutePassThroughDocument()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **boundaryFrameRect()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **boundaryTitleMasks()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **hash()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **load()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **rectanglesOverlap()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **rectContainsRect()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **SHRINK_CASES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **TAG_SHRINK_CASES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **tangentViaLifecycle()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **validateCli()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- *... and 1 more nodes in this community*
+- **cli.mjs** (43 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **utils.mjs** (26 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **i18n.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **translateMessage()** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **svgAccessibleText()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **svgRootAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **renderDefinitions()** (11 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **writeDiagram()** (10 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **loadDiagram()** (9 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **applyTemplate()** (9 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **resolveLocale()** (7 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **viewerCatalog()** (4 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **validateGuidedViews()** (3 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **validateRelationshipIds()** (3 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **localizeTemplate()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **translateCount()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **renderCards()** (3 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **formatMessage()** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **SUPPORTED_LOCALES** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **serializeScriptJson()** (2 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **outputPathGuards** (1 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **RELATIONSHIP_COLLECTIONS** (1 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Zoho Integration Architecture]] (26 shared connections)
+- [[Graphify Workflow]] (14 shared connections)
+- [[Community 53]] (13 shared connections)
+- [[Client Products Data Store]] (11 shared connections)
+- [[Community 40]] (10 shared connections)
+- [[Pricing Regression Test Suite]] (9 shared connections)
+- [[Community 56]] (9 shared connections)
+- [[Pricing & Roles Skill]] (5 shared connections)
+- [[Community 134]] (5 shared connections)
+- [[Community 103]] (4 shared connections)
+- [[Community 164]] (3 shared connections)
+- [[Community 65]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/layout-rules.test.mjs`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- `.agents/skills/archify/renderers/shared/cli.mjs`
+- `.agents/skills/archify/renderers/shared/i18n.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 60 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 233 (99%)
+- INFERRED: 3 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

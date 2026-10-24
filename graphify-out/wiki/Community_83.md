@@ -1,43 +1,50 @@
 # Community 83
 
-> 17 nodes · cohesion 0.23
+> 20 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **checkForUpdate()** (19 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **commitOperation()** (14 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **acknowledgeUpdate()** (13 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cancelOperation()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **resultForCandidate()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **silent()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **resultAfterLosingOperation()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **readJsonFile()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **transitionOperation()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationOwnsActiveClaim()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **runCli()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **freshStateResult()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **versionCacheDirectory()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertBoundedRegularFile()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **digestForEventKey()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **fetchCandidate()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **waitUntilRetry()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **content.js** (19 connections) — `backend/src/services/content.js`
+- **content.js** (16 connections) — `backend/src/routes/content.js`
+- **content.js** (14 connections) — `api/content.js`
+- **handler()** (11 connections) — `api/content.js`
+- **getSupabaseBanners()** (9 connections) — `backend/src/services/content.js`
+- **getSupabaseSchemes()** (8 connections) — `backend/src/services/content.js`
+- **getSupabaseBranding()** (7 connections) — `backend/src/services/content.js`
+- **getActiveContent()** (6 connections) — `backend/src/services/content.js`
+- **getHeroSliderSettings()** (6 connections) — `backend/src/services/content.js`
+- **saveHeroSliderSettings()** (5 connections) — `backend/src/services/content.js`
+- **deleteStoreContent()** (4 connections) — `backend/src/services/content.js`
+- **getAllStoreContent()** (4 connections) — `backend/src/services/content.js`
+- **toggleStoreContentActive()** (4 connections) — `backend/src/services/content.js`
+- **upsertStoreContent()** (4 connections) — `backend/src/services/content.js`
+- **fetchZohoBanners()** (3 connections) — `api/_lib/zoho.js`
+- **fetchZohoSchemes()** (3 connections) — `api/_lib/zoho.js`
+- **loadContentService()** (2 connections) — `vite.config.js`
+- **ALLOWED_CONTENT_TYPES** (1 connections) — `api/content.js`
+- **ALLOWED_CONTENT_TYPES** (1 connections) — `backend/src/routes/content.js`
+- **formatGoogleDriveUrl()** (1 connections) — `backend/src/services/content.js`
 
 ## Relationships
 
-- [[Community 40]] (19 shared connections)
-- [[Community 77]] (12 shared connections)
-- [[Community 73]] (7 shared connections)
-- [[Community 49]] (3 shared connections)
-- [[Vercel Deployment Routing]] (2 shared connections)
+- [[Graphify Agent Rules]] (11 shared connections)
+- [[Community 166]] (8 shared connections)
+- [[Community 50]] (6 shared connections)
+- [[Product Brand & Business Vision]] (3 shared connections)
+- [[Community 57]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-update.mjs`
+- `api/_lib/zoho.js`
+- `api/content.js`
+- `backend/src/routes/content.js`
+- `backend/src/services/content.js`
+- `vite.config.js`
 
 ## Audit Trail
 
-- EXTRACTED: 105 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 124 (97%)
+- INFERRED: 4 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

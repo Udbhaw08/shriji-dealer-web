@@ -1,23 +1,29 @@
 # Community 267
 
-> 2 nodes · cohesion 1.00
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **labelAt** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **Sliders** (5 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **sliders.md** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
 
 ## Relationships
 
-- [[Zoho Integration Skill]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `.agents/skills/apple-design/references/hig/sliders.md`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

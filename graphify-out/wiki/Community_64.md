@@ -1,49 +1,48 @@
 # Community 64
 
-> 20 nodes · cohesion 0.15
+> 26 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **Mi()** (15 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **Qi()** (15 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **Lr()** (12 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **Pi()** (11 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **Xr()** (10 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **Oi()** (9 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **ic()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **Ii()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **hi()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **Li()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **wi()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **Dr()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **ir()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **zi()** (5 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **Er()** (4 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **ul()** (4 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **vi()** (4 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **y()** (3 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **Bi()** (2 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **lo()** (2 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- **workflow-compiler.test.mjs** (27 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **assertReadableAdjacentResult()** (6 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **attribute()** (4 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **numericRect()** (4 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **edgeLabelRect()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **edgePoints()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **nodeRect()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **svgViewBox()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **asciiGroupLabelTextRect()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **assertRectInsideViewBox()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **compileSuccessfully()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **groupFrameRect()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **adjacentWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **asciiLaneHeaderTextRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **assertRectInsideRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **attributeOrUndefined()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **clone()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **legendGeometry()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **orthogonalSegmentIntersectsRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **readJson()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **rectsOverlap()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (28 shared connections)
-- [[Master Codebase Architecture Reference]] (12 shared connections)
-- [[Architecture Doc Generator]] (12 shared connections)
-- [[Claude Agent Instructions]] (9 shared connections)
-- [[Dependencies & Package Config]] (7 shared connections)
-- [[Product Requirements Documentation]] (6 shared connections)
-- [[Community 33]] (3 shared connections)
-- [[Community 30]] (2 shared connections)
-- [[Community 118]] (1 shared connections)
+- [[Community 43]] (2 shared connections)
+- [[Community 53]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- `.agents/skills/archify/test/workflow-compiler.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 138 (100%)
+- EXTRACTED: 75 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

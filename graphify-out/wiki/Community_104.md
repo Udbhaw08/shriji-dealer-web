@@ -1,36 +1,42 @@
 # Community 104
 
-> 13 nodes · cohesion 0.21
+> 18 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **semantic-radar.test.mjs** (15 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **evaluate()** (5 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **dragMouse()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **loadArtifact()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **observe()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **radarRects()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **overlaps()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **viewer-chrome-layout.test.mjs** (21 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **evaluate()** (5 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **waitForLayout()** (4 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **finalGeometry()** (3 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **resize()** (3 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **edgePaintHitsUnderDock()** (2 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **state()** (2 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **clearStage()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **renderWithoutLegend()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **variant()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **zero()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
 
 ## Relationships
 
-- [[Community 39]] (1 shared connections)
-- [[Community 65]] (1 shared connections)
-- [[Community 91]] (1 shared connections)
+- [[Vercel Deployment Routing]] (2 shared connections)
+- [[Community 147]] (1 shared connections)
+- [[Community 125]] (1 shared connections)
+- [[Community 58]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/semantic-radar.test.mjs`
+- `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 53 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

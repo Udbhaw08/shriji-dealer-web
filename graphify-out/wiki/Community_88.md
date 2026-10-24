@@ -1,29 +1,36 @@
 # Community 88
 
-> 15 nodes · cohesion 0.19
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **sources** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **required** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **boundaries** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **connections** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **properties** (13 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **animation** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **engineering_profile** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **locale** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **output** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **subtitle** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **views** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 - **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 - **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 - **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- [[Graphify Knowledge Graph Skill]] (5 shared connections)
-- [[Community 60]] (3 shared connections)
+- [[Community 176]] (1 shared connections)
+- [[Community 122]] (1 shared connections)
+- [[Community 356]] (1 shared connections)
+- [[Community 81]] (1 shared connections)
 
 ## Source Files
 
@@ -31,7 +38,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 48 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

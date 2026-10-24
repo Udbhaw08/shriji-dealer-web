@@ -1,0 +1,16 @@
+{
+  "projectId": "prj_K0oobsk37gkXDWAin2nDc0qfCm68",
+  "orgId": "team_BQHZXUQTPjIPlbT2go2nsAQK",
+  "projectName": "shriji-dealer-web",
+  "settings": {
+    "createdAt": 1789926962195,
+    "framework": "vite",
+    "devCommand": null,
+    "installCommand": null,
+    "buildCommand": null,
+    "outputDirectory": null,
+    "rootDirectory": null,
+    "directoryListing": false,
+    "nodeVersion": "24.x"
+  }
+}

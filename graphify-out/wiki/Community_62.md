@@ -1,45 +1,47 @@
 # Community 62
 
-> 21 nodes · cohesion 0.10
+> 26 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **properties** (12 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **meta** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **lanes** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **mainPath** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **nodes** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **cards** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **schema_version** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **Copywriting Guide** (15 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Banned Words** (5 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Microcopy** (4 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Product UI Copy** (4 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **copywriting.md** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **AI Slop Markers** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Avoid on Operational Surfaces** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Buttons** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Core Belief** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Corporate Zombie** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Empty States** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Errors** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Filler** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Headings: Descriptive, Not Aspirational** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Hype** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Info-Style Thinking** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Living Words vs Dead Words** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Marketing Hero Section** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Pre-Publish Checklist** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Proof Beats Hype** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Rhythm** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **The Order of Great Copy** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **The Sticky Line Test** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Universal Copy Structure** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **When Marketing Tone IS Appropriate in Product** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [[Community 94]] (5 shared connections)
-- [[Community 61]] (2 shared connections)
-- [[Community 127]] (1 shared connections)
-- [[Community 32]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `.agents/skills/refero-design/references/copywriting.md`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (100%)
+- EXTRACTED: 50 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

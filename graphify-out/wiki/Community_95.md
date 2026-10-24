@@ -1,23 +1,28 @@
 # Community 95
 
-> 14 nodes · cohesion 0.14
+> 19 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **generate-brand-marks.mjs** (13 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **catalog** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **catalogPath** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **domains** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **fail()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **generated** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **here** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **ids** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **lookupForms()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **lookupKeys** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **normalizedList()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **outputPath** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **root** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **simpleBySlug** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **golden.mjs** (18 connections) — `.agents/skills/archify/test/golden.mjs`
+- **expectFailure()** (3 connections) — `.agents/skills/archify/test/golden.mjs`
+- **check()** (2 connections) — `.agents/skills/archify/test/golden.mjs`
+- **render()** (2 connections) — `.agents/skills/archify/test/golden.mjs`
+- **blocks()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **GOLDEN** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **landingPage** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **landingVersions** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **lock** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **normalizeNewlines()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **pkg** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **shieldsBadgeMessages()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **skillMd** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **webApp** (1 connections) — `.agents/skills/archify/test/golden.mjs`
 
 ## Relationships
 
@@ -25,11 +30,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- `.agents/skills/archify/test/golden.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

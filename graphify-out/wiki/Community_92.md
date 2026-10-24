@@ -1,23 +1,28 @@
 # Community 92
 
-> 14 nodes · cohesion 0.29
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **Products.jsx** (25 connections) — `src/pages/Products.jsx`
-- **ProductSearchBar.jsx** (15 connections) — `src/components/ProductSearchBar.jsx`
-- **useProducts()** (12 connections) — `src/data/productsStore.js`
-- **searchHelper.js** (11 connections) — `src/data/searchHelper.js`
-- **ProductSearchBar()** (6 connections) — `src/components/ProductSearchBar.jsx`
-- **getSuggestions()** (5 connections) — `src/data/searchHelper.js`
-- **autocorrectQuery()** (4 connections) — `src/data/searchHelper.js`
-- **buildSearchDictionary()** (4 connections) — `src/data/searchHelper.js`
-- **getPopularSearches()** (2 connections) — `src/data/searchHelper.js`
-- **scoreProduct()** (2 connections) — `src/data/searchHelper.js`
-- **COLLOQUIAL_SYNONYMS** (1 connections) — `src/data/searchHelper.js`
-- **levenshteinDistance()** (1 connections) — `src/data/searchHelper.js`
-- **Group()** (1 connections) — `src/pages/Products.jsx`
-- **SORT_FNS** (1 connections) — `src/pages/Products.jsx`
+- **The menu bar** (15 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **the-menu-bar.md** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **App menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **App-specific menus** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Dynamic menu items** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Edit menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **File menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Format menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Help menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Menu bar extras** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **View menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Window menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
 
 ## Relationships
 
@@ -30,14 +35,11 @@
 
 ## Source Files
 
-- `src/components/ProductSearchBar.jsx`
-- `src/data/productsStore.js`
-- `src/data/searchHelper.js`
-- `src/pages/Products.jsx`
+- `.agents/skills/apple-design/references/hig/the-menu-bar.md`
 
 ## Audit Trail
 
-- EXTRACTED: 90 (100%)
+- EXTRACTED: 36 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

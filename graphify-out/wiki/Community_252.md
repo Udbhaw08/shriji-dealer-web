@@ -1,12 +1,17 @@
 # Community 252
 
-> 3 nodes · cohesion 0.67
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **labelSegment** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **Controls** (7 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Camera experiences on a locked device** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
 
 ## Relationships
 
@@ -14,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `.agents/skills/apple-design/references/hig/controls.md`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

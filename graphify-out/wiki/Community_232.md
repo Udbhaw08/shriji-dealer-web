@@ -1,13 +1,18 @@
 # Community 232
 
-> 4 nodes · cohesion 0.50
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **watch-sync.mjs** (3 connections) — `scripts/watch-sync.mjs`
-- **rootDir** (1 connections) — `scripts/watch-sync.mjs`
-- **srcDir** (1 connections) — `scripts/watch-sync.mjs`
-- **triggerSync()** (1 connections) — `scripts/watch-sync.mjs`
+- **Archify JSON IR Schemas** (7 connections) — `.agents/skills/archify/schemas/README.md`
+- **Files** (2 connections) — `.agents/skills/archify/schemas/README.md`
+- **README.md** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Error format** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Legend presentation contract** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Runtime validation** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **schema_version policy** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Shared definitions (common.schema.json)** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Visual quality and engineering truth** (1 connections) — `.agents/skills/archify/schemas/README.md`
 
 ## Relationships
 
@@ -15,11 +20,11 @@
 
 ## Source Files
 
-- `scripts/watch-sync.mjs`
+- `.agents/skills/archify/schemas/README.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,52 +1,55 @@
 # Community 51
 
-> 24 nodes · cohesion 0.14
+> 29 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **intent-trace-browser.test.mjs** (15 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **semantic-lens-browser.test.mjs** (14 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **desktop-browser.mjs** (8 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
-- **run()** (6 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **run()** (6 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **desktopBrowser()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
-- **desktopPointerCheck()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **point()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **point()** (4 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **media()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **move()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **move()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **afterTimer()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **hash()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **s()** (15 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **bi()** (10 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **co()** (9 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **hh()** (9 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **yh()** (9 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **c()** (8 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **Si()** (8 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **mh()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **yi()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **dh()** (6 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **fh()** (6 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **lh()** (6 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **Mp()** (6 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **ph()** (6 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **Sh()** (6 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **xi()** (6 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **ao()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **bh()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **Ih()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **Ka()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **vi()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **Ca()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **lo()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **qs()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **ut()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [[Community 43]] (11 shared connections)
-- [[Community 39]] (3 shared connections)
-- [[Community 102]] (3 shared connections)
-- [[Community 103]] (3 shared connections)
-- [[Community 91]] (2 shared connections)
-- [[Community 65]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (34 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (23 shared connections)
+- [[Architecture Doc Generator]] (11 shared connections)
+- [[Master Codebase Architecture Reference]] (5 shared connections)
+- [[Roles & Customer Sharing Spec]] (5 shared connections)
+- [[Community 105]] (4 shared connections)
+- [[Community 41]] (3 shared connections)
+- [[Community 165]] (1 shared connections)
+- [[Community 42]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/helpers/desktop-browser.mjs`
-- `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
 
 ## Audit Trail
 
-- EXTRACTED: 103 (100%)
+- EXTRACTED: 177 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

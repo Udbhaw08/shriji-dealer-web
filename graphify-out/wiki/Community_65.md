@@ -1,54 +1,54 @@
 # Community 65
 
-> 20 nodes · cohesion 0.12
+> 25 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **ChromeVisualBrowser** (21 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **visual-check.test.mjs** (14 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **PipeCdp** (7 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.attach()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.close()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.constructor()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **chromeVisualBrowserArgs()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.failAll()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.consume()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **VISUAL_CHECK_VIEWPORTS** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.constructor()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.failure()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **artifact()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **fakeBrowser()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **fakeChromeChild()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **png** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **preview.mjs** (23 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **output-path.test.mjs** (16 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **startPreview()** (10 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **runPreview()** (3 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **compactMessage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **initialAuthoredOutput()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **previewPage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **redactDiagnostic()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **sha256()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **sourceDigest()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **cliPath** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **diagramTypes** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **here** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **parseReceipt()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **responseHeaders()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **safeJson()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **baseFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **copyInstalledSkill()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **directoryAliasesNames()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **headFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **workflowFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
 
 ## Relationships
 
-- [[Community 39]] (8 shared connections)
-- [[Community 43]] (7 shared connections)
-- [[Community 91]] (2 shared connections)
-- [[Community 70]] (2 shared connections)
-- [[Community 51]] (1 shared connections)
-- [[Community 90]] (1 shared connections)
-- [[Zoho API Diagnostic Script]] (1 shared connections)
-- [[Community 115]] (1 shared connections)
-- [[Community 150]] (1 shared connections)
-- [[Community 104]] (1 shared connections)
-- [[Community 130]] (1 shared connections)
-- [[Community 79]] (1 shared connections)
+- [[Community 103]] (5 shared connections)
+- [[Community 249]] (3 shared connections)
+- [[Community 46]] (3 shared connections)
+- [[Community 79]] (2 shared connections)
+- [[Community 241]] (2 shared connections)
+- [[Community 327]] (2 shared connections)
+- [[Community 245]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/visual-check.test.mjs`
+- `.agents/skills/archify/bin/preview.mjs`
+- `.agents/skills/archify/test/output-path.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 71 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 78 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

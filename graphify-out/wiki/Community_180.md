@@ -1,16 +1,20 @@
 # Community 180
 
-> 7 nodes · cohesion 0.29
+> 11 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **chapter-rail.test.mjs** (6 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
+- **degraded.test.mjs** (10 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **assertFriendlyFailure()** (2 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **render()** (2 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **ARRAY_FIELDS** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **filter()** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **installedRoot** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **mulberry32()** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
 
 ## Relationships
 
@@ -18,11 +22,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/chapter-rail.test.mjs`
+- `.agents/skills/archify/test/degraded.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

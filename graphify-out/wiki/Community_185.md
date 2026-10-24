@@ -1,16 +1,19 @@
 # Community 185
 
-> 7 nodes · cohesion 0.29
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **presentation.test.mjs** (6 connections) — `.agents/skills/archify/test/presentation.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
-- **svg()** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/presentation.test.mjs`
+- **Accessibility** (9 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **accessibility.md** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Cognitive** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Hearing** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Mobility** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Speech** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Vision** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
 
 ## Relationships
 
@@ -18,11 +21,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/presentation.test.mjs`
+- `.agents/skills/apple-design/references/hig/accessibility.md`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

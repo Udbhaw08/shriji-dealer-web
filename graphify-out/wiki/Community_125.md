@@ -1,32 +1,48 @@
 # Community 125
 
-> 10 nodes · cohesion 0.29
+> 14 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **lanes** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **additionalProperties** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **required** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **findChrome()** (22 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **export-cleanup-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **viewer-identifiers-browser.test.mjs** (7 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **evaluate()** (4 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **executable()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **findOnPath()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **run()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **exported()** (2 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
 
 ## Relationships
 
-- [[Zoho Integration Skill]] (3 shared connections)
-- [[Community 86]] (3 shared connections)
+- [[Community 58]] (7 shared connections)
+- [[Vercel Deployment Routing]] (6 shared connections)
+- [[Community 90]] (2 shared connections)
+- [[Community 68]] (2 shared connections)
+- [[Community 147]] (2 shared connections)
+- [[Community 143]] (1 shared connections)
+- [[Community 144]] (1 shared connections)
+- [[Community 134]] (1 shared connections)
+- [[Community 32]] (1 shared connections)
+- [[Community 245]] (1 shared connections)
+- [[Community 145]] (1 shared connections)
+- [[Community 204]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 62 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

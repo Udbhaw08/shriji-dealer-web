@@ -1,17 +1,20 @@
 # Community 170
 
-> 8 nodes · cohesion 0.25
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **story-follow-camera.test.mjs** (7 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
+- **Apple In-App Purchase** (5 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Auto-renewable subscriptions** (4 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Best practices** (3 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **apple-in-app-purchase.md** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Helping people manage their subscriptions** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Making signup effortless** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Providing help** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Supporting Family Sharing** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Supporting offer codes** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
 
 ## Relationships
 
@@ -19,11 +22,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/story-follow-camera.test.mjs`
+- `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

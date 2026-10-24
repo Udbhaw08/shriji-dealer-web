@@ -1,33 +1,36 @@
 # Community 131
 
-> 10 nodes · cohesion 0.20
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **v1-compatibility.test.mjs** (9 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **validate()** (3 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **check()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **legacyDataflowDocument()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **narrowExplicitViewBoxDocuments()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **OFFICIAL_V1_EXAMPLES** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **Icons & Glyphs Guide** (10 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Libraries** (4 connections) — `.agents/skills/refero-design/references/icons.md`
+- **icons.md** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Accessibility** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Color** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **For Product UI (SVG-based)** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Icon Sizing** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Icon + Text Pairing** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Optical Corrections** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Style Consistency** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Two Contexts** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Variable Glyph Systems** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **When to Use What** (1 connections) — `.agents/skills/refero-design/references/icons.md`
 
 ## Relationships
 
-- [[Community 73]] (1 shared connections)
-- [[Design System & UI Tokens]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- `.agents/skills/refero-design/references/icons.md`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (90%)
-- INFERRED: 2 (10%)
+- EXTRACTED: 26 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

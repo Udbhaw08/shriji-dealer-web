@@ -1,34 +1,33 @@
 # Community 174
 
-> 7 nodes · cohesion 0.29
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **commandCompare()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commitComparePair()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractCompareOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **formatDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportCompareFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **compareCommitError()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **compareReceiptPath()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **Toggles** (5 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Desktop (macOS)** (4 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **toggles.md** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Checkboxes** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Radio buttons** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Switches** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
 
 ## Relationships
 
-- [[Community 37]] (11 shared connections)
-- [[Community 84]] (4 shared connections)
-- [[Community 99]] (3 shared connections)
-- [[Community 66]] (2 shared connections)
-- [[Community 48]] (2 shared connections)
-- [[Community 78]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
+- `.agents/skills/apple-design/references/hig/toggles.md`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (75%)
-- INFERRED: 9 (25%)
+- EXTRACTED: 20 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

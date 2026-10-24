@@ -1,51 +1,48 @@
 # Community 52
 
-> 24 nodes · cohesion 0.13
+> 29 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **lc()** (16 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **kc()** (9 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **fc()** (8 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Gc()** (8 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **jd()** (8 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **ea()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **ec()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **sc()** (7 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Ei()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **lh()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **nc()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **oc()** (6 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **dh()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **rs()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **Ti()** (5 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **go()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **ja()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **ns()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **pc()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **vo()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **yt()** (4 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **cc()** (3 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **If()** (3 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
-- **tc()** (3 connections) — `ios/App/App/public/assets/index-CPb6hema.js`
+- **AppDelegate** (10 connections) — `ios/App/App/AppDelegate.swift`
+- **.application()** (7 connections) — `ios/App/App/AppDelegate.swift`
+- **.scene()** (7 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIApplication** (6 connections) — `ios/App/App/AppDelegate.swift`
+- **SceneDelegate** (5 connections) — `ios/App/App/SceneDelegate.swift`
+- **AppDelegate.swift** (3 connections) — `ios/App/App/AppDelegate.swift`
+- **SceneDelegate.swift** (3 connections) — `ios/App/App/SceneDelegate.swift`
+- **.applicationDidBecomeActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationDidEnterBackground()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillEnterForeground()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillResignActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillTerminate()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **Capacitor** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIWindow** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIKit** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIResponder** (2 connections)
+- **Any** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **Bool** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIScene** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UISceneSession** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIWindow** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIScene** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **UISceneSession** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **NSUserActivity** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **Set** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (30 shared connections)
-- [[Zoho Integration Architecture]] (17 shared connections)
-- [[Project Readme & Layout]] (9 shared connections)
-- [[Community 38]] (7 shared connections)
-- [[Pricing Regression Test Suite]] (2 shared connections)
-- [[Community 31]] (2 shared connections)
-- [[Product Pages Specification]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CPb6hema.js`
+- `ios/App/App/AppDelegate.swift`
+- `ios/App/App/SceneDelegate.swift`
 
 ## Audit Trail
 
-- EXTRACTED: 142 (100%)
+- EXTRACTED: 72 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

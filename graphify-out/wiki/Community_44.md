@@ -1,35 +1,35 @@
 # Community 44
 
-> 26 nodes · cohesion 0.17
+> 34 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **ui.jsx** (37 connections) — `src/ui.jsx`
-- **Home.jsx** (24 connections) — `src/pages/Home.jsx`
-- **site.js** (20 connections) — `src/data/site.js`
-- **Support.jsx** (15 connections) — `src/pages/Support.jsx`
-- **Icon()** (15 connections) — `src/ui.jsx`
-- **Schemes.jsx** (14 connections) — `src/pages/Schemes.jsx`
-- **COMPANY** (12 connections) — `src/data/site.js`
-- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
-- **HeroSlider.jsx** (7 connections) — `src/components/HeroSlider.jsx`
-- **UnderMaintenance()** (5 connections) — `src/components/UnderMaintenance.jsx`
-- **EnquiryButtons()** (4 connections) — `src/ui.jsx`
-- **HeroSlider()** (3 connections) — `src/components/HeroSlider.jsx`
-- **SCHEMES** (3 connections) — `src/data/site.js`
-- **STATS** (3 connections) — `src/data/site.js`
-- **ISSUE_TYPES** (2 connections) — `src/data/site.js`
-- **MATERIALS** (2 connections) — `src/data/site.js`
-- **NAV** (2 connections) — `src/data/site.js`
-- **QUICK_ACCESS** (2 connections) — `src/data/site.js`
-- **QUICK_NAV** (2 connections) — `src/data/site.js`
-- **useAutoScroll()** (2 connections) — `src/pages/Home.jsx`
-- **LangToggle()** (2 connections) — `src/ui.jsx`
-- **STORE_BANNERS** (1 connections) — `src/components/HeroSlider.jsx`
-- **DealerField()** (1 connections) — `src/pages/Support.jsx`
-- **base** (1 connections) — `src/ui.jsx`
-- **Mark()** (1 connections) — `src/ui.jsx`
-- *... and 1 more nodes in this community*
+- **Typography** (10 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **iOS, iPadOS Dynamic Type sizes** (8 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **iOS, iPadOS larger accessibility type sizes** (6 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Specifications** (5 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **iOS, iPadOS, visionOS tracking values** (4 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Tracking values** (3 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **typography.md** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **AX1** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **AX2** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **AX3** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **AX4** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **AX5** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Conveying hierarchy** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Ensuring legibility** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Large (default)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **macOS built-in text styles** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **macOS tracking values** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Medium** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **New York** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **SF Pro** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
@@ -42,18 +42,12 @@
 
 ## Source Files
 
-- `src/components/HeroSlider.jsx`
-- `src/components/UnderMaintenance.jsx`
-- `src/data/site.js`
-- `src/pages/Home.jsx`
-- `src/pages/Schemes.jsx`
-- `src/pages/Support.jsx`
-- `src/ui.jsx`
+- `.agents/skills/apple-design/references/hig/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 188 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 66 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

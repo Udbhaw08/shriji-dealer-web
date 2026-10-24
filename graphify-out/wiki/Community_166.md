@@ -1,29 +1,41 @@
 # Community 166
 
-> 8 nodes · cohesion 0.25
+> 11 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **share-card-export.test.mjs** (7 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
-- **svgBlock()** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **vite.config.js** (19 connections) — `vite.config.js`
+- **zohoApiPlugin()** (12 connections) — `vite.config.js`
+- **download.js** (6 connections) — `api/download.js`
+- **handler()** (5 connections) — `api/download.js`
+- **ssrf.js** (5 connections) — `api/_lib/ssrf.js`
+- **validateSafeDownloadUrl()** (5 connections) — `api/_lib/ssrf.js`
+- **safeFetchWithRedirects()** (3 connections) — `api/download.js`
+- **isPrivateOrReservedIp()** (3 connections) — `api/_lib/ssrf.js`
+- **wrapJpegInPdf()** (2 connections) — `api/download.js`
+- **ALLOWED_REMOTE_HOSTS** (1 connections) — `api/_lib/ssrf.js`
+- **liveAutoSyncPlugin()** (1 connections) — `vite.config.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 83]] (8 shared connections)
+- [[Community 248]] (5 shared connections)
+- [[Community 130]] (5 shared connections)
+- [[Community 50]] (3 shared connections)
+- [[Community 250]] (2 shared connections)
+- [[Community 227]] (2 shared connections)
+- [[Community 351]] (2 shared connections)
+- [[Community 57]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/share-card-export.test.mjs`
+- `api/_lib/ssrf.js`
+- `api/download.js`
+- `vite.config.js`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 62 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,28 +1,34 @@
 # Community 178
 
-> 7 nodes · cohesion 0.29
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **artifact-receipt-flush.test.mjs** (6 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **checker** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **denseArchitecture()** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **properties** (9 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **note** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **dot** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **maxLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 231]] (3 shared connections)
+- [[Community 392]] (1 shared connections)
+- [[Community 177]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 25 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

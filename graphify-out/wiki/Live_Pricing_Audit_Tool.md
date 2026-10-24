@@ -33,8 +33,8 @@
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (6 shared connections)
-- [[Community 39]] (4 shared connections)
+- [[Pricing Regression Test Suite]] (6 shared connections)
+- [[Vercel Deployment Routing]] (4 shared connections)
 
 ## Source Files
 

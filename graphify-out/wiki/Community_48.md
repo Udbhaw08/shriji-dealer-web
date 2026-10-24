@@ -1,52 +1,54 @@
 # Community 48
 
-> 25 nodes · cohesion 0.13
+> 30 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **architecture-delta.mjs** (65 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **validateArchitectureDeltaHtml()** (11 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **renderArchitectureDeltaHtml()** (6 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **architectureDeltaChangeRows()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **compareEntities()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **reviewTargetTags()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **expectedReviewTargetSignature()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **primaryReviewTags()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **reviewIdentity()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **reviewPrimaryStates()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **sortedObjects()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **addState()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **fieldChanges()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **normalizeComponent()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **normalizedField()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **reviewTargetSignature()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **safeJson()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **statusFor()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **total()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **BOUNDARY_FIELDS** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **codepointOrder()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **COMPONENT_FIELDS** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **CONNECTION_FIELDS** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **normalizeBoundary()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **sorted()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **archify.mjs** (50 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandCompare()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **fail()** (15 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **usage()** (11 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **runNode()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandDemo()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **exitFrom()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandExamples()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandVisualCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportArtifactFailure()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandDoctor()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commitComparePair()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractCompareOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractMigrationOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **formatDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportArtifactArgumentFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportCompareFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportDeliveryFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportValidateFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandGuide()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **compareCommitError()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **compareReceiptPath()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **CHECK_FIXES** (1 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **[command, ...args]** (1 connections) — `.agents/skills/archify/bin/archify.mjs`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [[Community 66]] (20 shared connections)
-- [[Community 84]] (18 shared connections)
-- [[Roles & Customer Sharing Spec]] (5 shared connections)
-- [[Community 100]] (4 shared connections)
-- [[Community 109]] (2 shared connections)
-- [[Community 174]] (2 shared connections)
+- [[Community 79]] (41 shared connections)
+- [[Community 112]] (4 shared connections)
+- [[Pricing & Roles Skill]] (2 shared connections)
+- [[Community 84]] (2 shared connections)
+- [[Community 66]] (2 shared connections)
+- [[Community 103]] (2 shared connections)
+- [[Vercel Deployment Routing]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
+- `.agents/skills/archify/bin/archify.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 129 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 167 (94%)
+- INFERRED: 10 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,31 +1,37 @@
 # Community 121
 
-> 10 nodes · cohesion 0.20
+> 15 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **Viewer Runtime reference** (6 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Canonical exports** (4 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **viewer-runtime.md** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Exploration** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Guided views and story** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Motion and presentation** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Reach Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Route Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Truth boundary** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **sources** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **additionalProperties** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **required** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **boundaries** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **connections** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Zoho Integration Skill]] (5 shared connections)
+- [[Community 81]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/references/viewer-runtime.md`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 48 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,35 +1,39 @@
 # Community 97
 
-> 14 nodes · cohesion 0.14
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **real-repository-proof.test.mjs** (15 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **automaticMcoRoot()** (2 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **artifactPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **connectionLabelGeometry()** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **evidencePayload()** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **experimentArtifactPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **experimentSourcePath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **pinnedSource** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **shareCardPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **sourcePath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **BACKEND-ARCHITECTURE.md — Dedicated Node Backend, Supabase Postgres & Zoho Ownership Model** (11 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **1. What is done in Zoho (setup checklist)** (4 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **6. Decision record — why this stack** (3 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **5. Storage — what the backend keeps** (2 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **BACKEND-ARCHITECTURE.md** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **0. The Ownership Rule — one sentence per system** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **1.1 CRM — dealers and staff** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **1.2 CRM — API access** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **1.3 Commerce** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **2. Backend responsibilities** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **3. Integration flows** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **4. Data movement** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **5.1 Schema (Supabase Postgres)** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **7. Service layout** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **8. Phased delivery** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **9. Migration checklist** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **Database: Supabase (chosen over Postgres-elsewhere and Firebase)** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **Runtime: dedicated Node.js 20 service (chosen over extending Vercel serverless)** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
 
 ## Relationships
 
-- [[Community 109]] (3 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- `docs/BACKEND-ARCHITECTURE.md`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (100%)
+- EXTRACTED: 34 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

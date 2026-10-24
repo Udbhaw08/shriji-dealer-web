@@ -1,17 +1,20 @@
 # Community 169
 
-> 8 nodes · cohesion 0.25
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **story-director-strip.test.mjs** (7 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **App icons** (10 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **app-icons.md** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Appearances** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Design** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Icon shape** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Layer design** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Specifications** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Visual effects** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
 
 ## Relationships
 
@@ -19,11 +22,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/story-director-strip.test.mjs`
+- `.agents/skills/apple-design/references/hig/app-icons.md`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,16 +1,19 @@
 # Community 190
 
-> 7 nodes · cohesion 0.29
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **semantic-flow.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
+- **Maps** (7 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Place cards** (3 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **maps.md** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Adding place cards outside of a map** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Custom information** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Displaying place cards in a map** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Indoor maps** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
 
 ## Relationships
 
@@ -18,11 +21,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/semantic-flow.test.mjs`
+- `.agents/skills/apple-design/references/hig/maps.md`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

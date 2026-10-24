@@ -1,14 +1,18 @@
 # Community 219
 
-> 5 nodes · cohesion 0.40
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **base-input-compatibility.test.mjs** (4 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
-- **renderBaseFixture()** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
+- **Right to left** (8 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
+- **right-to-left.md** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
+- **Controls** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
+- **Images** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
+- **Interface icons** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
+- **Numbers and characters** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
+- **Text alignment** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
 
 ## Relationships
 
@@ -16,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/base-input-compatibility.test.mjs`
+- `.agents/skills/apple-design/references/hig/right-to-left.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

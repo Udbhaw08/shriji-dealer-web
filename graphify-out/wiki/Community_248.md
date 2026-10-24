@@ -1,24 +1,35 @@
 # Community 248
 
-> 3 nodes · cohesion 0.67
+> 8 nodes · cohesion 0.57
 
 ## Key Concepts
 
-- **row** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **securityPhase2.test.mjs** (11 connections) — `backend/test/securityPhase2.test.mjs`
+- **og.js** (7 connections) — `api/og.js`
+- **htmlEscape.js** (6 connections) — `api/_lib/htmlEscape.js`
+- **escapeHtml()** (6 connections) — `api/_lib/htmlEscape.js`
+- **sanitizeUrl()** (6 connections) — `api/_lib/htmlEscape.js`
+- **handler()** (5 connections) — `api/og.js`
+- **sanitizeHost()** (4 connections) — `api/_lib/htmlEscape.js`
+- **mockWebhookAuthCheck()** (1 connections) — `backend/test/securityPhase2.test.mjs`
 
 ## Relationships
 
-- [[Pricing & Roles Skill]] (1 shared connections)
+- [[Community 166]] (5 shared connections)
+- [[Community 227]] (4 shared connections)
+- [[Community 130]] (2 shared connections)
+- [[Product Brand & Business Vision]] (2 shared connections)
+- [[Community 57]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `api/_lib/htmlEscape.js`
+- `api/og.js`
+- `backend/test/securityPhase2.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 46 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

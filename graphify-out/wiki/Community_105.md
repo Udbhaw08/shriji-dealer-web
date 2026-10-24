@@ -1,35 +1,45 @@
 # Community 105
 
-> 13 nodes · cohesion 0.21
+> 17 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **workflow-compiler-hard-contract.test.mjs** (14 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **workflow()** (4 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **oneLaneAnchors()** (3 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **oneLaneWorkflow()** (3 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **crossingAtForwardCollinearViaWorkflow()** (2 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **nestedOutsideRightCorridorWorkflow()** (2 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **assertExplicitPinConflict()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **assertOrthogonal()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **assertSupportedFixesNameChangedEdge()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **clone()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **mutate()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **routeContainsChannel()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **segmentMeetsRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **n()** (33 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **t()** (18 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **cs()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **go()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **O()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **j()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **x()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **ee()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **M()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **qo()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **rs()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **ba()** (3 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **ho()** (3 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **ms()** (3 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **te()** (3 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **xa()** (3 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **nf()** (2 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
 
 ## Relationships
 
-- [[Community 93]] (2 shared connections)
-- [[Community 63]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (25 shared connections)
+- [[Master Codebase Architecture Reference]] (12 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (10 shared connections)
+- [[Architecture Doc Generator]] (7 shared connections)
+- [[Roles & Customer Sharing Spec]] (6 shared connections)
+- [[Community 51]] (4 shared connections)
+- [[Community 42]] (2 shared connections)
+- [[Community 41]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 115 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

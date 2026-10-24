@@ -1,16 +1,19 @@
 # Community 189
 
-> 7 nodes · cohesion 0.29
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **semantic-camera.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
-- **svg()** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
+- **Lists and tables** (7 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
+- **lists-and-tables.md** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
+- **Mobile (iOS, iPadOS, visionOS)** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
+- **Style** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
 
 ## Relationships
 
@@ -18,11 +21,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/semantic-camera.test.mjs`
+- `.agents/skills/apple-design/references/hig/lists-and-tables.md`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

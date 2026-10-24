@@ -1,30 +1,44 @@
 # Community 147
 
-> 9 nodes · cohesion 0.22
+> 12 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **preview-contract.test.mjs** (8 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **chinese** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **delivery** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **english** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **readme** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **skill** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **ChromeVisualBrowser** (21 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **PipeCdp** (7 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.inspect()** (5 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.attach()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.close()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.constructor()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **evaluate()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.failAll()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.consume()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.waitFor()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.failure()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Vercel Deployment Routing]] (7 shared connections)
+- [[Community 58]] (7 shared connections)
+- [[Community 125]] (2 shared connections)
+- [[Community 90]] (2 shared connections)
+- [[Community 68]] (1 shared connections)
+- [[Community 134]] (1 shared connections)
+- [[Community 32]] (1 shared connections)
+- [[Community 245]] (1 shared connections)
+- [[Community 145]] (1 shared connections)
+- [[Community 204]] (1 shared connections)
+- [[Community 247]] (1 shared connections)
+- [[Community 104]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/preview-contract.test.mjs`
+- `.agents/skills/archify/bin/visual-check.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 54 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

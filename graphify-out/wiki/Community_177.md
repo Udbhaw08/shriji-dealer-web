@@ -1,28 +1,33 @@
 # Community 177
 
-> 7 nodes · cohesion 0.29
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **Sequence Renderer** (5 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **Layout budget** (2 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **README.md** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **Column fit** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **Input** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **Legend** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **legendEntry** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **label** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **visible** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **maxLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minProperties** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 75]] (1 shared connections)
+- [[Community 178]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/sequence/README.md`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

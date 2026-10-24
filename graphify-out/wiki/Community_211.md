@@ -1,14 +1,18 @@
 # Community 211
 
-> 5 nodes · cohesion 0.40
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **CLAUDE.md — read this before touching anything** (4 connections) — `CLAUDE.md`
-- **CLAUDE.md** (1 connections) — `CLAUDE.md`
-- **Commands** (1 connections) — `CLAUDE.md`
-- **Doc map** (1 connections) — `CLAUDE.md`
-- **Hard rules (these exist to stop hallucination)** (1 connections) — `CLAUDE.md`
+- **Context menus** (6 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **context-menus.md** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
 
 ## Relationships
 
@@ -16,11 +20,11 @@
 
 ## Source Files
 
-- `CLAUDE.md`
+- `.agents/skills/apple-design/references/hig/context-menus.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

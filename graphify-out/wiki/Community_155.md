@@ -1,17 +1,21 @@
 # Community 155
 
-> 8 nodes · cohesion 0.25
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **guided-views.test.mjs** (7 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **fixture()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **svg()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **Inclusion** (11 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **inclusion.md** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Accessibility** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Avoiding stereotypes** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Being approachable** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Gender identity** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Inclusive by design** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Languages** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **People and settings** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Welcoming language** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
 
 ## Relationships
 
@@ -19,11 +23,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/guided-views.test.mjs`
+- `.agents/skills/apple-design/references/hig/inclusion.md`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

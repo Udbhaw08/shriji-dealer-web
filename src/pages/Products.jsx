@@ -83,6 +83,8 @@ export default function Products() {
   const selectedIgnitions = parseListParam("ignition");
   const selectedFinishes = parseListParam("finish");
   const onlyFavorites = params.get("saved") === "true";
+  const onlyScheme = params.get("scheme") === "true";
+  const onlyFreight = params.get("freight") === "true";
   const urlQ = params.get("q") || "";
 
   const [q, setQ] = useState(urlQ);
@@ -109,6 +111,8 @@ export default function Products() {
     ignitions = selectedIgnitions,
     finishes = selectedFinishes,
     saved = onlyFavorites,
+    scheme = onlyScheme,
+    freight = onlyFreight,
     query = q,
   }) => {
     const next = new URLSearchParams();
@@ -118,6 +122,8 @@ export default function Products() {
     if (ignitions.length > 0) next.set("ignition", ignitions.join(","));
     if (finishes.length > 0) next.set("finish", finishes.join(","));
     if (saved) next.set("saved", "true");
+    if (scheme) next.set("scheme", "true");
+    if (freight) next.set("freight", "true");
     if (query && query.trim()) next.set("q", query.trim());
 
     setParams(next, { replace: true });
@@ -175,6 +181,8 @@ export default function Products() {
 
     const matchesFilter = (p, term) => {
       if (onlyFavorites && !isFavorite(p.id)) return false;
+      if (onlyScheme && !(p.scheme || p.tag || p.isSchemeEligible || (p.burners && p.burners >= 3))) return false;
+      if (onlyFreight && !(p.freeFreight || p.isFreeFreight || (p.rate || p.mrp || 0) > 3500)) return false;
       if (selectedCats.length > 0 && !selectedCats.includes(p.cat)) return false;
       if (selectedFinishes.length > 0 && !selectedFinishes.includes(p.finish)) return false;
       if (selectedBrands.length > 0 && !selectedBrands.includes(p.brand)) return false;
@@ -206,6 +214,8 @@ export default function Products() {
     return { results: sorted, isUsingAutocorrect: usedCorrection };
   }, [
     onlyFavorites,
+    onlyScheme,
+    onlyFreight,
     selectedCats,
     selectedFinishes,
     selectedBrands,
@@ -226,6 +236,8 @@ export default function Products() {
       selectedBurners.length ||
       selectedIgnitions.length ||
       onlyFavorites ||
+      onlyScheme ||
+      onlyFreight ||
       q.trim()
   );
 
@@ -236,6 +248,8 @@ export default function Products() {
     selectedIgnitions.length +
     selectedFinishes.length +
     (onlyFavorites ? 1 : 0) +
+    (onlyScheme ? 1 : 0) +
+    (onlyFreight ? 1 : 0) +
     (q.trim() ? 1 : 0);
 
   const clearAll = () => {
@@ -254,9 +268,12 @@ export default function Products() {
 
   return (
     <>
-      <section className="catalog-hero">
+      {/* Catalogue Header */}
+      <section className="catalog-header-section">
         <div className="wrap">
-          <h1 className="d2">{t("catalog_title")}</h1>
+          <div className="catalog-title-row">
+            <h1 className="catalog-main-title">{t("catalog_title") || "Catalogue"}</h1>
+          </div>
         </div>
       </section>
 
@@ -276,10 +293,11 @@ export default function Products() {
                 setVerbatimQ("");
                 updateFilters({ query: val });
               }}
-              placeholder={t("search_app_placeholder") || "Search products, models, categories..."}
+              placeholder={t("search_app_placeholder") || "Search products, models, SKU..."}
             />
 
             <button
+              type="button"
               className="icon-btn filter-btn"
               aria-expanded={openFilters}
               aria-controls="filters"
@@ -309,10 +327,10 @@ export default function Products() {
       <div className="toolbar toolbar-chips-only">
         <div className="wrap">
           <div className="catchips" role="group" aria-label="Filter by category">
-            {/* All Products Chip */}
+            {/* All Products Chip (Selected = Dark Navy in Frame 1) */}
             <button
               type="button"
-              className="catchip catchip-all"
+              className={`catchip catchip-all ${selectedCats.length === 0 && !onlyFavorites ? "catchip-stitch-selected" : ""}`}
               aria-pressed={selectedCats.length === 0 && !onlyFavorites}
               onClick={() => updateFilters({ cats: [], saved: false })}
             >
@@ -321,25 +339,25 @@ export default function Products() {
                   width: "46px",
                   height: "46px",
                   borderRadius: "8px",
-                  background: "var(--blue-50)",
+                  background: selectedCats.length === 0 && !onlyFavorites ? "rgba(255,255,255,0.18)" : "var(--blue-50)",
                   display: "grid",
                   placeItems: "center",
-                  color: "var(--blue-ink)",
+                  color: selectedCats.length === 0 && !onlyFavorites ? "#ffffff" : "var(--blue-ink)",
                 }}
               >
                 <Icon name="grid" size={22} />
               </div>
               <span>
-                {t("filter_all") || "All Products"}
+                {t("filter_all") || "All"}
                 <br />
-                <small style={{ fontWeight: 500, opacity: 0.7 }}>{PRODUCTS.length}</small>
+                <small style={{ fontWeight: 600, opacity: 0.85 }}>{PRODUCTS.length}</small>
               </span>
             </button>
 
             {/* Saved Favorites Chip */}
             <button
               type="button"
-              className="catchip catchip-fav"
+              className={`catchip catchip-fav ${onlyFavorites ? "catchip-stitch-selected" : ""}`}
               aria-pressed={onlyFavorites}
               onClick={() => updateFilters({ saved: !onlyFavorites })}
               title="Show saved favorites only"
@@ -349,13 +367,13 @@ export default function Products() {
                   width: "46px",
                   height: "46px",
                   borderRadius: "8px",
-                  background: "#fff1f1",
+                  background: onlyFavorites ? "rgba(255,255,255,0.18)" : "#fff1f1",
                   display: "grid",
                   placeItems: "center",
-                  color: "#d64545",
+                  color: onlyFavorites ? "#ffffff" : "#d64545",
                 }}
               >
-                <Icon name="heart" size={22} style={onlyFavorites ? { fill: "#d64545" } : undefined} />
+                <Icon name="heart" size={22} style={onlyFavorites ? { fill: "#ffffff" } : undefined} />
               </div>
               <span>
                 {t("filter_saved_only") || "Saved"}
@@ -370,7 +388,7 @@ export default function Products() {
               return (
                 <button
                   key={c.key}
-                  className="catchip"
+                  className={`catchip ${isSelected ? "catchip-stitch-selected" : ""}`}
                   aria-pressed={isSelected}
                   onClick={() => updateFilters({ cats: toggleInList(selectedCats, c.key) })}
                   title={isSelected ? `Remove ${c.label}` : `Add ${c.label}`}
@@ -385,7 +403,7 @@ export default function Products() {
                   <span>
                     {tCat(c.key, c.label)}
                     <br />
-                    <small style={{ fontWeight: 500, opacity: 0.7 }}>{counts[c.key] || 0}</small>
+                    <small style={{ fontWeight: 500, opacity: isSelected ? 0.9 : 0.7 }}>{counts[c.key] || 0}</small>
                   </span>
                 </button>
               );
@@ -393,6 +411,208 @@ export default function Products() {
           </div>
         </div>
       </div>
+
+      {/* Frame 3: Filters & Attributes Bottom Sheet Modal */}
+      {openFilters && (
+        <>
+          <div
+            className="filters-backdrop"
+            onClick={() => setOpenFilters(false)}
+            aria-hidden="true"
+          />
+          <div
+            className="filters-sheet"
+            role="dialog"
+            aria-modal="true"
+            aria-label="Filters & Attributes"
+          >
+            <div className="sheet-drag-handle" />
+
+            <div className="sheet-header">
+              <div className="sheet-title-group">
+                <h2 className="sheet-title">Filters & Attributes</h2>
+                {activeFilterCount > 0 && (
+                  <span className="sheet-active-pill">{activeFilterCount} Active</span>
+                )}
+              </div>
+              <div className="sheet-header-actions">
+                {dirty && (
+                  <button type="button" className="sheet-reset-btn" onClick={clearAll}>
+                    Reset All
+                  </button>
+                )}
+                <button
+                  type="button"
+                  className="sheet-close-btn"
+                  onClick={() => setOpenFilters(false)}
+                  aria-label="Close filters"
+                >
+                  <Icon name="close" size={15} />
+                </button>
+              </div>
+            </div>
+
+            <div className="sheet-body">
+              {/* 1. Sort By */}
+              <div className="sheet-section">
+                <div className="sheet-sec-header">
+                  <h3 className="sheet-sec-title">Sort By</h3>
+                  <span className="sheet-sec-sub">Default: Wholesale Relevance</span>
+                </div>
+                <div className="sheet-chips-row">
+                  <button
+                    type="button"
+                    className={`sheet-chip ${sort === "popularity" ? "active" : ""}`}
+                    onClick={() => { setSort("popularity"); reset(); }}
+                  >
+                    Featured
+                  </button>
+                  <button
+                    type="button"
+                    className={`sheet-chip ${sort === "low" ? "active" : ""}`}
+                    onClick={() => { setSort("low"); reset(); }}
+                  >
+                    Wholesale Price: Low to High
+                  </button>
+                  <button
+                    type="button"
+                    className={`sheet-chip ${sort === "high" ? "active" : ""}`}
+                    onClick={() => { setSort("high"); reset(); }}
+                  >
+                    Wholesale Price: High to Low
+                  </button>
+                </div>
+              </div>
+
+              {/* 2. Categories 2-Column Grid */}
+              <div className="sheet-section">
+                <div className="sheet-sec-header">
+                  <h3 className="sheet-sec-title">Categories</h3>
+                  {selectedCats.length > 0 && (
+                    <button
+                      type="button"
+                      className="sheet-reset-btn"
+                      onClick={() => updateFilters({ cats: [] })}
+                    >
+                      Clear Category
+                    </button>
+                  )}
+                </div>
+                <div className="sheet-cats-grid">
+                  {CATEGORIES.map((c) => {
+                    const isSelected = selectedCats.includes(c.key);
+                    return (
+                      <button
+                        key={c.key}
+                        type="button"
+                        className={`sheet-cat-card ${isSelected ? "active" : ""}`}
+                        onClick={() => updateFilters({ cats: toggleInList(selectedCats, c.key) })}
+                      >
+                        <span>{tCat(c.key, c.label)}</span>
+                        <span className="sheet-cat-count">{counts[c.key] || 0}</span>
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+
+              {/* 3. Burner Configuration */}
+              <div className="sheet-section">
+                <div className="sheet-sec-header">
+                  <h3 className="sheet-sec-title">Burner Configuration</h3>
+                  <span className="sheet-sec-sub">Multi-Select</span>
+                </div>
+                <div className="sheet-chips-row">
+                  {["2", "3", "4"].map((b) => {
+                    const isSelected = selectedBurners.includes(b);
+                    return (
+                      <button
+                        key={b}
+                        type="button"
+                        className={`sheet-chip ${isSelected ? "active" : ""}`}
+                        onClick={() => updateFilters({ burners: toggleInList(selectedBurners, b) })}
+                      >
+                        {isSelected ? `✓ ${b}-Burner` : `${b}-Burner`}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+
+              {/* 4. Special B2B Criteria */}
+              <div className="sheet-section">
+                <div className="sheet-sec-header">
+                  <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
+                    <h3 className="sheet-sec-title">Special B2B Criteria</h3>
+                    <span className="b2b-criteria-badge" style={{ background: "var(--blue-100)", color: "var(--blue-ink)" }}>
+                      Enterprise
+                    </span>
+                  </div>
+                  <span className="sheet-sec-sub">Dealer Perks</span>
+                </div>
+
+                <div className="b2b-criteria-card">
+                  <div className="b2b-criteria-info">
+                    <div className="b2b-criteria-title-row">
+                      <span className="b2b-criteria-title">Active Annual Scheme Models</span>
+                      <span className="b2b-criteria-badge">Q4 TARGET</span>
+                    </div>
+                    <span className="b2b-criteria-desc">
+                      Includes eligible volume bonus & turnover incentive points
+                    </span>
+                  </div>
+                  <button
+                    type="button"
+                    className={`ios-toggle ${onlyScheme ? "on" : ""}`}
+                    onClick={() => updateFilters({ scheme: !onlyScheme })}
+                    aria-label="Toggle active annual scheme models"
+                  >
+                    <span className="ios-toggle-knob" />
+                  </button>
+                </div>
+
+                <div className="b2b-criteria-card">
+                  <div className="b2b-criteria-info">
+                    <div className="b2b-criteria-title-row">
+                      <span className="b2b-criteria-title">Free Freight Eligible 📦</span>
+                    </div>
+                    <span className="b2b-criteria-desc">
+                      Orders eligible for zero-freight dispatch from regional depot
+                    </span>
+                  </div>
+                  <button
+                    type="button"
+                    className={`ios-toggle ${onlyFreight ? "on" : ""}`}
+                    onClick={() => updateFilters({ freight: !onlyFreight })}
+                    aria-label="Toggle free freight eligible"
+                  >
+                    <span className="ios-toggle-knob" />
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            {/* Sticky Sheet Footer */}
+            <div className="sheet-footer">
+              <button
+                type="button"
+                className="sheet-clear-btn"
+                onClick={clearAll}
+              >
+                Clear ({activeFilterCount})
+              </button>
+              <button
+                type="button"
+                className="sheet-apply-btn"
+                onClick={() => setOpenFilters(false)}
+              >
+                <span>Show {results.length} Models • ReSTOR Hub</span>
+                <span className="sheet-apply-arrow">➔</span>
+              </button>
+            </div>
+          </div>
+        </>
+      )}
 
       <section className="sec">
         <div className="wrap listing">

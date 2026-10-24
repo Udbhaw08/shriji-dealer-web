@@ -1,14 +1,18 @@
 # Community 217
 
-> 5 nodes · cohesion 0.40
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **render-examples.mjs** (4 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
-- **outputRoot** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
-- **TARGETS** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
+- **Playing audio** (6 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **playing-audio.md** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Handling interruptions** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
 
 ## Relationships
 
@@ -16,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/render-examples.mjs`
+- `.agents/skills/apple-design/references/hig/playing-audio.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

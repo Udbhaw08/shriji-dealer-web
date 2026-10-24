@@ -1,55 +1,54 @@
 # Product Requirements Documentation
 
-> 54 nodes · cohesion 0.08
+> 62 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **get()** (23 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **np()** (21 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **b()** (19 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **.addEventListener()** (18 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **Au()** (16 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **h()** (14 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **fp()** (13 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **.removeEventListener()** (13 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **bm()** (12 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **sn()** (11 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **am()** (9 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **tp()** (9 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **cm()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **ju()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **lp()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **mm()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **tm()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **zm()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **zt()** (7 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **em()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **.blur()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **.scrollIntoView()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **jm()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **nm()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- **om()** (6 connections) — `android/app/src/main/assets/public/assets/index-CPb6hema.js`
-- *... and 29 more nodes in this community*
+- **D()** (22 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **.addEventListener()** (19 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **np()** (19 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **b()** (17 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **fp()** (14 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **jt()** (14 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **bm()** (13 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **h()** (13 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **lm()** (13 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **.removeEventListener()** (12 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **vn()** (11 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **Zt()** (11 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **am()** (10 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **ip()** (9 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **mm()** (9 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **fn()** (8 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **ln()** (8 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **om()** (8 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **tm()** (8 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **tp()** (8 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **jm()** (7 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **lp()** (7 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **tn()** (7 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **zm()** (7 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **cm()** (6 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- *... and 37 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (55 shared connections)
-- [[Architecture Doc Generator]] (23 shared connections)
-- [[Dependencies & Package Config]] (19 shared connections)
-- [[Community 30]] (16 shared connections)
-- [[Master Codebase Architecture Reference]] (12 shared connections)
-- [[Claude Agent Instructions]] (7 shared connections)
-- [[Community 64]] (6 shared connections)
-- [[Community 33]] (4 shared connections)
-- [[Community 118]] (1 shared connections)
+- [[Price Presentation & Product UI]] (58 shared connections)
+- [[Graphify Knowledge Graph Skill]] (19 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (18 shared connections)
+- [[Dependencies & Package Config]] (17 shared connections)
+- [[Community 34]] (17 shared connections)
+- [[Community 61]] (7 shared connections)
+- [[Community 33]] (5 shared connections)
+- [[Community 55]] (3 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CPb6hema.js`
+- `ios/App/App/public/assets/index-CnGpWhyw.js`
 
 ## Audit Trail
 
-- EXTRACTED: 369 (100%)
+- EXTRACTED: 424 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

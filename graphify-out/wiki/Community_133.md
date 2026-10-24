@@ -1,18 +1,23 @@
 # Community 133
 
-> 9 nodes · cohesion 0.22
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **web-CCRxgSRk.js** (8 connections) — `android/app/src/main/assets/public/assets/web-CCRxgSRk.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-CCRxgSRk.js`
-- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-CCRxgSRk.js`
-- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-CCRxgSRk.js`
-- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-CCRxgSRk.js`
-- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-CCRxgSRk.js`
-- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-CCRxgSRk.js`
-- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-CCRxgSRk.js`
-- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-CCRxgSRk.js`
+- **generate-brand-marks.mjs** (13 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **catalog** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **catalogPath** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **domains** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **fail()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **generated** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **here** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **ids** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **lookupForms()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **lookupKeys** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **normalizedList()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **outputPath** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **root** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **simpleBySlug** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
 
 ## Relationships
 
@@ -20,11 +25,11 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/web-CCRxgSRk.js`
+- `.agents/skills/archify/scripts/generate-brand-marks.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,25 +1,39 @@
 # Community 227
 
-> 4 nodes · cohesion 0.50
+> 9 nodes · cohesion 0.47
 
 ## Key Concepts
 
-- **width** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **dealerPricingAuth.js** (9 connections) — `api/_lib/dealerPricingAuth.js`
+- **getDealerPricingEligibility()** (8 connections) — `api/_lib/dealerPricingAuth.js`
+- **index.js** (7 connections) — `api/products/index.js`
+- **fetchZohoCategories()** (6 connections) — `api/_lib/zoho.js`
+- **[id].js** (6 connections) — `api/products/[id].js`
+- **maskCatalogPricing()** (5 connections) — `api/_lib/dealerPricingAuth.js`
+- **maskProductPricing()** (5 connections) — `api/_lib/dealerPricingAuth.js`
+- **handler()** (5 connections) — `api/products/index.js`
+- **handler()** (4 connections) — `api/products/[id].js`
 
 ## Relationships
 
-- [[Zoho Integration Skill]] (1 shared connections)
+- [[Community 130]] (5 shared connections)
+- [[Community 50]] (4 shared connections)
+- [[Community 248]] (4 shared connections)
+- [[Community 57]] (3 shared connections)
+- [[Graphify Agent Rules]] (2 shared connections)
+- [[Community 166]] (2 shared connections)
+- [[Product Brand & Business Vision]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `api/_lib/dealerPricingAuth.js`
+- `api/_lib/zoho.js`
+- `api/products/[id].js`
+- `api/products/index.js`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 55 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

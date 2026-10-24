@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { COMPANY, NAV } from "./data/site";
-import { isDealer, useSession } from "./data/session";
+import { isDealer, useSession, signOut } from "./data/session";
 import { dealerById } from "./data/dealer";
 import { useLanguage } from "./data/i18n";
 import { isPortalGated } from "./data/portalGate";
 import { useFavorites } from "./data/favoritesStore";
+import { apiFetch } from "./data/api";
 
 /* Line icons, one 1.6 stroke family — matches the mockup's icon set. */
 const base = {
@@ -164,6 +165,12 @@ const PATHS = {
       <path d="M7 8.6V6.8a3 3 0 0 1 6 0v1.8" />
     </>
   ),
+  eye: (
+    <>
+      <path d="M2 10s3-5 8-5 8 5 8 5-3 5-8 5-8-5-8-5Z" />
+      <circle cx="10" cy="10" r="2.5" />
+    </>
+  ),
   eyeoff: (
     <>
       <path d="M7.6 7.7a3 3 0 0 0 4.2 4.2" />
@@ -183,6 +190,67 @@ const PATHS = {
       <path d="M4 6h12M7 6V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2m2 0v11a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6" />
     </>
   ),
+  bell: (
+    <>
+      <path d="M15 13.5v-4a5 5 0 0 0-10 0v4l-1.5 2h13L15 13.5Z" />
+      <path d="M8.5 17.5a1.8 1.8 0 0 0 3 0" />
+    </>
+  ),
+  user: (
+    <>
+      <circle cx="10" cy="6" r="3.5" />
+      <path d="M4 17a6 6 0 0 1 12 0" />
+    </>
+  ),
+  layers: (
+    <>
+      <path d="m10 3 7 3.5-7 3.5-7-3.5L10 3Z" />
+      <path d="m3 10.5 7 3.5 7-3.5" />
+      <path d="m3 14.5 7 3.5 7-3.5" />
+    </>
+  ),
+  clock: (
+    <>
+      <circle cx="10" cy="10" r="6.8" />
+      <path d="M10 6.2v3.8l2.6 1.8" />
+    </>
+  ),
+  chat: (
+    <>
+      <path d="M4 4.5h12a1.5 1.5 0 0 1 1.5 1.5v6.5a1.5 1.5 0 0 1-1.5 1.5H7.5L4 16.5V6A1.5 1.5 0 0 1 4 4.5Z" />
+      <path d="M7 8.5h6M7 11h3.5" />
+    </>
+  ),
+  play: (
+    <polygon points="7,5 15,10 7,15" fill="currentColor" stroke="none" />
+  ),
+  help: (
+    <>
+      <circle cx="10" cy="10" r="7" />
+      <path d="M8.5 8a1.8 1.8 0 0 1 3.2.9c0 1.2-1.7 1.6-1.7 2.6" />
+      <circle cx="10" cy="14" r="0.6" fill="currentColor" />
+    </>
+  ),
+  refresh: (
+    <>
+      <path d="M16 10A6 6 0 1 1 14.2 5.8L16 4" />
+      <path d="M16 8V4h-4" />
+    </>
+  ),
+  external: (
+    <>
+      <path d="M9 4.5H5.2A1.7 1.7 0 0 0 3.5 6.2v8.6a1.7 1.7 0 0 0 1.7 1.7h8.6a1.7 1.7 0 0 0 1.7-1.7V11" />
+      <path d="M11.5 3.5h5v5" />
+      <path d="m9.5 10.5 7-7" />
+    </>
+  ),
+  logout: (
+    <>
+      <path d="M7 3.5H4a1.5 1.5 0 0 0-1.5 1.5v10A1.5 1.5 0 0 0 4 16.5h3" />
+      <path d="M12 6.5 15.5 10 12 13.5" />
+      <path d="M15.5 10H7" />
+    </>
+  ),
 };
 
 export function Icon({ name, size = 18, ...rest }) {
@@ -194,15 +262,60 @@ export function Icon({ name, size = 18, ...rest }) {
 }
 
 export function Mark() {
+  const [brandLogo, setBrandLogo] = useState(() => {
+    try {
+      const raw = sessionStorage.getItem("shriji_supabase_branding_v2");
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        if (parsed && parsed.imageUrl) return parsed;
+      }
+    } catch {}
+    return null;
+  });
+
+  useEffect(() => {
+    let active = true;
+    apiFetch("/api/branding")
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (active && data?.branding) {
+          const primary = Array.isArray(data.branding)
+            ? data.branding.find((b) => b.id === "logo-primary" || b.id.includes("logo")) || data.branding[0]
+            : data.branding;
+          if (primary && primary.imageUrl) {
+            setBrandLogo(primary);
+            try {
+              sessionStorage.setItem("shriji_supabase_branding_v2", JSON.stringify(primary));
+            } catch {}
+          }
+        }
+      })
+      .catch(() => {});
+    return () => {
+      active = false;
+    };
+  }, []);
+
+  if (brandLogo?.imageUrl) {
+    return (
+      <Link to="/" className="mark mark-restor-wrap mark-custom-logo" aria-label={brandLogo.title || "ReSTOR — Shriji Domestic Appliances"}>
+        <img
+          src={brandLogo.imageUrl}
+          alt={brandLogo.title || "ReSTOR"}
+          className="mark-logo-img"
+          style={{ maxHeight: 34, maxWidth: 140, objectFit: "contain", display: "block" }}
+          onError={() => setBrandLogo(null)}
+        />
+      </Link>
+    );
+  }
+
   return (
-    <Link to="/" className="mark" aria-label="ReSTOR — Shriji Domestic Appliances">
-      <img
-        src="/img/logo.png"
-        alt="ReSTOR"
-        className="mark-logo"
-        width="145"
-        height="38"
-      />
+    <Link to="/" className="mark mark-restor-wrap" aria-label="ReSTOR — Shriji Domestic Appliances">
+      <span className="mark-restor-text">
+        <span className="mark-restor-re">Re</span>
+        <span className="mark-restor-stor">STOR</span>
+      </span>
     </Link>
   );
 }
@@ -227,26 +340,61 @@ export function LangToggle({ className = "" }) {
 /* One control, rendered twice (inside the mobile nav and beside it on desktop). */
 function AccountLink({ className = "" }) {
   const s = useSession();
-  const { t } = useLanguage();
-  const dealer = isDealer(s) ? dealerById(s.dealerId) : null;
+  const dealer = isDealer(s) ? (dealerById(s.dealerId) || s.dealer) : null;
+  const isPending = s && (s.status === "pending" || s.dealer?.status === "pending");
+  const isAuthenticated = s && s.role !== "guest";
+
+  if (isPending) {
+    return (
+      <Link className={`acct ${className}`.trim()} to="/dealer/pending" title="Dealership application under review · Click to check status">
+        <span className="acct-dot" style={{ background: "var(--amber-500, #f59e0b)", color: "#fff" }} aria-hidden="true">
+          <Icon name="clock" size={13} />
+        </span>
+        <span>
+          <b>{s.dealer?.business_name || s.dealer?.name || "Dealer App"}</b>
+          <span style={{ color: "#d97706", fontWeight: 700 }}>Under Review</span>
+        </span>
+      </Link>
+    );
+  }
 
   if (dealer) {
     return (
-      <Link className={`acct ${className}`.trim()} to="/login">
+      <Link className={`acct ${className}`.trim()} to="/dealer" title={`Active Dealer: ${dealer.name} · Click for Workspace`}>
         <span className="acct-dot" aria-hidden="true">
-          {dealer.name.slice(0, 1)}
+          {dealer.name.slice(0, 1).toUpperCase()}
         </span>
         <span>
           <b>{dealer.name}</b>
-          <span>{dealer.tier}</span>
+          <span style={{ color: "#16a34a", fontWeight: 700 }}>Dealer ({dealer.dealer_code || "Active"})</span>
+        </span>
+      </Link>
+    );
+  }
+
+  if (isAuthenticated) {
+    return (
+      <Link className={`acct ${className}`.trim()} to="/login" title={`Logged in as ${s.fullName || 'User'} · Click to manage`}>
+        <span className="acct-dot" style={{ background: "var(--navy-2, #174d7a)", color: "#fff" }} aria-hidden="true">
+          {s.fullName ? s.fullName.charAt(0).toUpperCase() : <Icon name="user" size={14} />}
+        </span>
+        <span>
+          <b>{s.fullName || "My Account"}</b>
+          <span style={{ color: "var(--tx-2, #475569)" }}>Active Session</span>
         </span>
       </Link>
     );
   }
 
   return (
-    <Link className={`btn btn-navy btn-sm ${className}`.trim()} to="/login">
-      {s.role === "dealer" ? t("approval_pending") : "Verified Dealer Login"}
+    <Link className={`acct ${className}`.trim()} to="/login" title="Sign In or Join · Dealer, Staff, Customer, Brand">
+      <span className="acct-dot" style={{ background: "var(--navy-2, #174d7a)", color: "#fff" }} aria-hidden="true">
+        <Icon name="user" size={14} />
+      </span>
+      <span>
+        <b>Sign In / Join</b>
+        <span style={{ color: "var(--tx-2, #475569)" }}>Choose Your Role</span>
+      </span>
     </Link>
   );
 }
@@ -258,6 +406,8 @@ export function Header() {
   const { pathname, hash } = useLocation();
   const isGated = isPortalGated(s);
   const { count: favCount } = useFavorites();
+  const dealer = isDealer(s) ? (dealerById(s.dealerId) || s.dealer) : null;
+  const isAuthenticated = s && s.role !== "guest";
 
   useEffect(() => {
     setOpen(false);
@@ -292,6 +442,30 @@ export function Header() {
           <div className="nav-drawer-actions">
             <LangToggle />
             <AccountLink />
+            {isAuthenticated && (
+              <button
+                type="button"
+                onClick={async () => {
+                  await signOut();
+                  window.location.href = "/login";
+                }}
+                className="btn btn-ghost btn-block"
+                style={{
+                  color: "var(--err, #dc4545)",
+                  borderColor: "rgba(220, 69, 69, 0.3)",
+                  minHeight: 46,
+                  fontWeight: 700,
+                  marginTop: 8,
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  gap: 8,
+                }}
+              >
+                <Icon name="logout" size={15} />
+                <span>Log Out ({s.fullName || s.dealer?.name || "Account"})</span>
+              </button>
+            )}
           </div>
         </nav>
 
@@ -319,18 +493,91 @@ export function Header() {
           )}
           <LangToggle />
           <AccountLink />
+          {isAuthenticated && (
+            <button
+              type="button"
+              onClick={async () => {
+                await signOut();
+                window.location.href = "/login";
+              }}
+              className="hdr-logout-btn"
+              title="Log Out of your account"
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                gap: 5,
+                padding: "6px 12px",
+                borderRadius: "var(--r-sm, 10px)",
+                border: "1px solid var(--line, #dce4ed)",
+                background: "#fff",
+                color: "var(--err, #dc4545)",
+                fontSize: "0.82rem",
+                fontWeight: 700,
+                cursor: "pointer",
+                height: 38,
+                transition: "all 0.15s ease",
+              }}
+            >
+              <Icon name="logout" size={14} />
+              <span>Log Out</span>
+            </button>
+          )}
         </div>
 
+        <div className="hdr-mobile-right">
+          {isAuthenticated && (
+            <button
+              type="button"
+              onClick={async () => {
+                await signOut();
+                window.location.href = "/login";
+              }}
+              className="hdr-mobile-logout-btn"
+              title="Log Out"
+              aria-label="Log Out"
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                justifyContent: "center",
+                width: 38,
+                height: 38,
+                borderRadius: "50%",
+                border: "1px solid var(--line, #dce4ed)",
+                background: "#fff",
+                color: "var(--err, #dc4545)",
+                cursor: "pointer",
+                padding: 0,
+                boxShadow: "0 1px 4px rgba(0,0,0,0.04)",
+              }}
+            >
+              <Icon name="logout" size={16} />
+            </button>
+          )}
 
-        <button
-          className="icon-btn burger"
-          aria-expanded={open}
-          aria-controls="nav"
-          aria-label={open ? "Close menu" : "Open menu"}
-          onClick={() => setOpen((v) => !v)}
-        >
-          <Icon name={open ? "close" : "menu"} size={19} />
-        </button>
+          <Link
+            to="/login"
+            className="hdr-profile-avatar-btn"
+            aria-label={dealer ? `Dealer ${dealer.name}` : "Account"}
+            title={dealer ? `Dealer: ${dealer.name}` : "Account Login"}
+          >
+            {dealer ? (
+              <span className="hdr-avatar-letter">{dealer.name.slice(0, 1).toUpperCase()}</span>
+            ) : (
+              <Icon name="user" size={18} />
+            )}
+            {dealer && <span className="hdr-verified-badge">✓</span>}
+          </Link>
+
+          <button
+            className="icon-btn burger"
+            aria-expanded={open}
+            aria-controls="nav"
+            aria-label={open ? "Close menu" : "Open menu"}
+            onClick={() => setOpen((v) => !v)}
+          >
+            <Icon name={open ? "close" : "menu"} size={22} />
+          </button>
+        </div>
       </div>
     </header>
   );
@@ -429,7 +676,13 @@ export function Footer() {
           <span>
             © {new Date().getFullYear()} {COMPANY.legal}
           </span>
-          <span>{t("ftr_auth_dist")} · Sunshine India</span>
+          <div style={{ display: "flex", gap: "var(--s3)", alignItems: "center", flexWrap: "wrap" }}>
+            <Link to="/privacy" style={{ color: "inherit", textDecoration: "underline" }}>Privacy Policy</Link>
+            <span>·</span>
+            <Link to="/terms" style={{ color: "inherit", textDecoration: "underline" }}>Terms of Service</Link>
+            <span>·</span>
+            <span>{t("ftr_auth_dist")} · Sunshine India</span>
+          </div>
         </div>
       </div>
     </footer>

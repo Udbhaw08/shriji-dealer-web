@@ -1,12 +1,17 @@
 # Community 253
 
-> 3 nodes · cohesion 0.67
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **title** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **minLength** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **Disclosure controls** (6 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **disclosure-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **Disclosure buttons** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **Disclosure triangles** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **Mobile (iOS, iPadOS, visionOS)** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
 
 ## Relationships
 
@@ -14,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/sequence.schema.json`
+- `.agents/skills/apple-design/references/hig/disclosure-controls.md`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,19 +1,24 @@
 # Community 120
 
-> 10 nodes · cohesion 0.20
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **ROLES-AND-SHARING.md — who sees which price** (9 connections) — `docs/ROLES-AND-SHARING.md`
-- **ROLES-AND-SHARING.md** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **1. The four viewers** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **2. The rule, in one function** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **3. ⚠️ What this is not** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **4. The share link** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **5. What the customer sees — `CustomerPrice` in `PriceBlock.jsx`** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **6. The login flow** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **7. Also gated** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **8. Checks** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **Sign in with Apple** (6 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Using the system-provided buttons** (5 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Creating a custom Sign in with Apple button** (3 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Displaying buttons** (3 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **sign-in-with-apple.md** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Black** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Button size and corner radius** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Collecting data** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Custom buttons with a logo and text** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Custom logo-only buttons** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Offering Sign in with Apple** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **White** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **White with outline** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
 
 ## Relationships
 
@@ -21,11 +26,11 @@
 
 ## Source Files
 
-- `docs/ROLES-AND-SHARING.md`
+- `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

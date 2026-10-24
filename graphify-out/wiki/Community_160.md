@@ -1,17 +1,21 @@
 # Community 160
 
-> 8 nodes · cohesion 0.25
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **relationship-lens.test.mjs** (7 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **escapeAttr()** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **svg()** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **SF Symbols** (11 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **sf-symbols.md** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Animations** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Custom symbols** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Design variants** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Gradients** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Rendering modes** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Variable color** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Weights and scales** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
 
 ## Relationships
 
@@ -19,11 +23,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/relationship-lens.test.mjs`
+- `.agents/skills/apple-design/references/hig/sf-symbols.md`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

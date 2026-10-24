@@ -1,10 +1,17 @@
 # Community 286
 
-> 1 nodes · cohesion 1.00
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **build_wiki.py** (0 connections) — `scripts/build_wiki.py`
+- **route-share-card.test.mjs** (7 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
 
 ## Relationships
 
@@ -12,11 +19,11 @@
 
 ## Source Files
 
-- `scripts/build_wiki.py`
+- `.agents/skills/archify/test/route-share-card.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

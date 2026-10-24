@@ -1,12 +1,17 @@
 # Community 256
 
-> 3 nodes · cohesion 0.67
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **variant** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **Going full screen** (5 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **going-full-screen.md** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
 
 ## Relationships
 
@@ -14,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `.agents/skills/apple-design/references/hig/going-full-screen.md`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,0 +1,27 @@
+{
+  "name": "shriji-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Shriji Dealer Web backend — auth, roles, Zoho CRM sync, price proxy",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "build": "node -e \"process.exit(0)\"",
+    "dev": "node --watch src/server.js",
+    "migrate": "node src/db/migrate.js",
+    "check:ready": "node scripts/check-readiness.js",
+    "test": "node --test --experimental-test-module-mocks \"test/*.test.mjs\""
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "google-auth-library": "^11.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "postgres": "^3.4.5",
+    "resend": "^6.32.0"
+  }
+}

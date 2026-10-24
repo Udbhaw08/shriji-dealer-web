@@ -1,28 +1,31 @@
 # Community 195
 
-> 7 nodes · cohesion 0.29
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **story-horizon.test.mjs** (6 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **entries** (4 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **legend** (4 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **mode** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **properties** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 71]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/story-horizon.test.mjs`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

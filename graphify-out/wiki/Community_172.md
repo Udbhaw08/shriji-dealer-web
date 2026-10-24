@@ -1,17 +1,20 @@
 # Community 172
 
-> 8 nodes · cohesion 0.25
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **story-shelf.test.mjs** (7 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **Design principles** (10 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **design-principles.md** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Agency** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Craft** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Delight** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Familiarity** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Flexibility** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Purpose** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Responsibility** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Simplicity** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
 
 ## Relationships
 
@@ -19,11 +22,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/story-shelf.test.mjs`
+- `.agents/skills/apple-design/references/hig/design-principles.md`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

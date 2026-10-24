@@ -1,13 +1,18 @@
 # Community 222
 
-> 4 nodes · cohesion 0.67
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Test** (2 connections) — `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
-- **ExampleUnitTest.java** (2 connections) — `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
-- **ExampleUnitTest** (2 connections) — `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
-- **.addition_isCorrect()** (2 connections) — `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
+- **Sheets** (6 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **sheets.md** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
 
 ## Relationships
 
@@ -15,11 +20,11 @@
 
 ## Source Files
 
-- `android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java`
+- `.agents/skills/apple-design/references/hig/sheets.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

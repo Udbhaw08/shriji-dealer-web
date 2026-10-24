@@ -1,16 +1,19 @@
 # Community 184
 
-> 7 nodes · cohesion 0.29
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **motion-governor.test.mjs** (6 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
-- **svgBlock()** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
+- **ROLES-AND-SHARING.md — who sees which price** (9 connections) — `docs/ROLES-AND-SHARING.md`
+- **ROLES-AND-SHARING.md** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **1. The four viewers** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **2. The rule, in one function** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **3. ⚠️ What this is not** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **4. The share link** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **5. What the customer sees — `CustomerPrice` in `PriceBlock.jsx`** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **6. The login flow** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **7. Also gated** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **8. Checks** (1 connections) — `docs/ROLES-AND-SHARING.md`
 
 ## Relationships
 
@@ -18,11 +21,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/motion-governor.test.mjs`
+- `docs/ROLES-AND-SHARING.md`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

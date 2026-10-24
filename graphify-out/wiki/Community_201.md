@@ -1,27 +1,33 @@
 # Community 201
 
-> 6 nodes · cohesion 0.33
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **viewBox** (6 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **renderBlock()** (11 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderAside()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderBlocks()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderTable()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderList()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderRow()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderTabs()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderTermList()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **resolveSpans()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **trimBlankEdges()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- [[Community 69]] (1 shared connections)
+- [[Community 76]] (10 shared connections)
+- [[Community 200]] (2 shared connections)
+- [[Community 275]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 33 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

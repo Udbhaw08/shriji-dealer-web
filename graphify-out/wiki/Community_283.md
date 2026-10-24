@@ -1,10 +1,17 @@
 # Community 283
 
-> 1 nodes · cohesion 1.00
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **CapApp-SPM.swift** (0 connections) — `ios/App/CapApp-SPM/Sources/CapApp-SPM/CapApp-SPM.swift`
+- **relationship-lens.test.mjs** (7 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **escapeAttr()** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **svg()** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
 
 ## Relationships
 
@@ -12,11 +19,11 @@
 
 ## Source Files
 
-- `ios/App/CapApp-SPM/Sources/CapApp-SPM/CapApp-SPM.swift`
+- `.agents/skills/archify/test/relationship-lens.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

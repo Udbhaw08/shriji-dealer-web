@@ -9,9 +9,44 @@
         { "key": "Access-Control-Allow-Methods", "value": "GET,OPTIONS,PATCH,DELETE,POST,PUT" },
         { "key": "Access-Control-Allow-Headers", "value": "X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version, Authorization" }
       ]
+    },
+    {
+      "source": "/uploads/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" },
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
+      ]
     }
   ],
   "rewrites": [
+    {
+      "source": "/api/banners",
+      "destination": "/api/content?scope=banners"
+    },
+    {
+      "source": "/api/schemes",
+      "destination": "/api/content?scope=schemes"
+    },
+    {
+      "source": "/api/branding",
+      "destination": "/api/content?scope=branding"
+    },
+    {
+      "source": "/uploads/(.*)",
+      "destination": "/api/upload?path=$1"
+    },
+    {
+      "source": "/api/uploads",
+      "destination": "/api/upload"
+    },
+    {
+      "source": "/api/products/sync-tags",
+      "destination": "/api/products/sync-tags"
+    },
+    {
+      "source": "/api/products/:id",
+      "destination": "/api/products/[id]?id=:id"
+    },
     {
       "source": "/api/(.*)",
       "destination": "/api/$1"

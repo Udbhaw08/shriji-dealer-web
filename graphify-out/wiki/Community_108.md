@@ -1,21 +1,26 @@
 # Community 108
 
-> 12 nodes · cohesion 0.17
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **generate-codebase-doc.mjs** (11 connections) — `scripts/generate-codebase-doc.mjs`
-- **allFiles** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **apiFiles** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **components** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **dataStores** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **getFiles()** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **istDateString** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **pages** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **pkg** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **rootDir** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **routes** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **scripts** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **HIG reference lookup** (16 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **hig-lookup.md** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Components › Content** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Components › Layout and organization** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Components › Menus and actions** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Components › Navigation and search** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Components › Presentation** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Components › Selection and input** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Components › Status** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Components › System experiences** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Curated guides** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Foundations** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Getting started** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Inputs** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Pages Apple publishes that are not included** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Patterns** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Technologies** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
 
 ## Relationships
 
@@ -23,11 +28,11 @@
 
 ## Source Files
 
-- `scripts/generate-codebase-doc.mjs`
+- `.agents/skills/apple-design/references/hig-lookup.md`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

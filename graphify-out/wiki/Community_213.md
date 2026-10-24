@@ -1,14 +1,18 @@
 # Community 213
 
-> 5 nodes · cohesion 0.40
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Shriji Domestic Appliances — Sunshine Dealer Web** (4 connections) — `README.md`
-- **README.md** (1 connections) — `README.md`
-- **Documentation** (1 connections) — `README.md`
-- **Layout** (1 connections) — `README.md`
-- **Two things to know before you change anything** (1 connections) — `README.md`
+- **Drag and drop** (6 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **drag-and-drop.md** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Accepting drops** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Providing feedback** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
 
 ## Relationships
 
@@ -16,11 +20,11 @@
 
 ## Source Files
 
-- `README.md`
+- `.agents/skills/apple-design/references/hig/drag-and-drop.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

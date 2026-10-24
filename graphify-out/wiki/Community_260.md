@@ -1,12 +1,17 @@
 # Community 260
 
-> 3 nodes · cohesion 0.67
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **repository-language-metadata.test.mjs** (2 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
-- **linguistGenerated()** (1 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
+- **Motion** (7 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **motion.md** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **Leveraging platform capabilities** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **Providing feedback** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
 
 ## Relationships
 
@@ -14,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/repository-language-metadata.test.mjs`
+- `.agents/skills/apple-design/references/hig/motion.md`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

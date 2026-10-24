@@ -1,13 +1,18 @@
 # Community 226
 
-> 4 nodes · cohesion 0.50
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **via** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **web-WguWp9Wm.js** (8 connections) — `ios/App/App/public/assets/web-WguWp9Wm.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-WguWp9Wm.js`
+- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-WguWp9Wm.js`
+- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-WguWp9Wm.js`
+- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-WguWp9Wm.js`
+- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-WguWp9Wm.js`
+- **getState()** (1 connections) — `ios/App/App/public/assets/web-WguWp9Wm.js`
+- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-WguWp9Wm.js`
+- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-WguWp9Wm.js`
 
 ## Relationships
 
@@ -15,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `ios/App/App/public/assets/web-WguWp9Wm.js`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -75,9 +75,9 @@ assert.equal(
 const link = shareLink(TEST_PRODUCTS[0], a);
 assert.ok(link.includes("/products/test-3b-gas-stove"), `link should contain product slug: ${link}`);
 assert.ok(link.includes("pid=test-stove-1"), `link should contain pid: ${link}`);
-assert.ok(link.includes("from=SD-4587"), `link should contain from: ${link}`);
-assert.ok(link.includes("name=Shah+Electronics") || link.includes("name=Shah%20Electronics"), `link should contain dealer name: ${link}`);
-assert.ok(link.includes("state=Maharashtra"), `link should contain dealer state: ${link}`);
+assert.ok(link.includes(`from=${a.id}`), `link should contain from: ${link}`);
+assert.ok(link.includes(a.name.replace(/\s+/g, "+")) || link.includes(encodeURIComponent(a.name)), `link should contain dealer name: ${link}`);
+assert.ok(link.includes(a.state.replace(/\s+/g, "+")) || link.includes(encodeURIComponent(a.state)), `link should contain dealer state: ${link}`);
 
 const paramsWithState = new URLSearchParams({ from: "SD-4587", state: "Delhi", name: "Custom Dealer" });
 const viewWithState = viewerFor(guest, "SD-4587", paramsWithState);

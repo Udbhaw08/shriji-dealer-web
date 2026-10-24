@@ -1,39 +1,49 @@
 # Community 75
 
-> 18 nodes · cohesion 0.11
+> 23 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **DESIGN.md — the design system as actually built** (8 connections) — `docs/DESIGN.md`
-- **4. Components already built — reuse these** (7 connections) — `docs/DESIGN.md`
-- **2. Tokens** (4 connections) — `docs/DESIGN.md`
-- **DESIGN.md** (1 connections) — `docs/DESIGN.md`
-- **1. The direction in one paragraph** (1 connections) — `docs/DESIGN.md`
-- **3. Layout primitives** (1 connections) — `docs/DESIGN.md`
-- **5. Icons** (1 connections) — `docs/DESIGN.md`
-- **6. Responsive rules** (1 connections) — `docs/DESIGN.md`
-- **7. Motion and accessibility** (1 connections) — `docs/DESIGN.md`
-- **Actions** (1 connections) — `docs/DESIGN.md`
-- **Colour** (1 connections) — `docs/DESIGN.md`
-- **Content** (1 connections) — `docs/DESIGN.md`
-- **Detail** (1 connections) — `docs/DESIGN.md`
-- **Listing sidebar** (1 connections) — `docs/DESIGN.md`
-- **Navigation and filtering** (1 connections) — `docs/DESIGN.md`
-- **Product** (1 connections) — `docs/DESIGN.md`
-- **Spacing, radius, shadow, motion** (1 connections) — `docs/DESIGN.md`
-- **Type** (1 connections) — `docs/DESIGN.md`
+- **$defs** (16 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **common.schema.json** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **animation** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **brandMark** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **componentType** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **legendMode** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **locale** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **qualityProfile** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **side** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **variant** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **visualPreset** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **oneOf** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **$id** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **$schema** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **title** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 231]] (1 shared connections)
+- [[Community 443]] (1 shared connections)
+- [[Community 444]] (1 shared connections)
+- [[Community 177]] (1 shared connections)
+- [[Community 357]] (1 shared connections)
+- [[Community 445]] (1 shared connections)
 
 ## Source Files
 
-- `docs/DESIGN.md`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
+- EXTRACTED: 50 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,13 +1,18 @@
 # Community 228
 
-> 4 nodes · cohesion 0.50
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **meta** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **Delivery contract** (8 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **delivery-contract.md** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Automated browser evidence** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Handoff receipt** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Last-Good Live Preview** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Optional opening** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Perceptual delivery gate** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Recovering a failed comparison** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **Validate and deliver** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
 
 ## Relationships
 
@@ -16,11 +21,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/sequence.schema.json`
+- `.agents/skills/archify/references/delivery-contract.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

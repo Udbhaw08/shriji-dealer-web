@@ -1,27 +1,34 @@
 # Community 200
 
-> 6 nodes · cohesion 0.33
+> 10 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **size** (6 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **renderInline()** (6 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderInlineNode()** (6 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderHigLink()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderLink()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderParagraph()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderImage()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderReference()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **imageLabel()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **resolveAnchor()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **wrapInline()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- [[Graphify Knowledge Graph Skill]] (1 shared connections)
+- [[Community 76]] (10 shared connections)
+- [[Community 201]] (2 shared connections)
+- [[Community 235]] (1 shared connections)
+- [[Community 275]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 36 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

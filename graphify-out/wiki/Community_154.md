@@ -1,17 +1,21 @@
 # Community 154
 
-> 8 nodes · cohesion 0.25
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **animation.test.mjs** (7 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **NODE_COLLECTION** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **svgBlock()** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **Generative AI** (11 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **generative-ai.md** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Continuous improvement** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Inputs** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Models and datasets** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Outputs** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Privacy** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Transparency** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
 
 ## Relationships
 
@@ -19,11 +23,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/animation.test.mjs`
+- `.agents/skills/apple-design/references/hig/generative-ai.md`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,24 +1,29 @@
 # Community 254
 
-> 3 nodes · cohesion 0.67
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **y** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **Game controls** (7 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **game-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Keyboards** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Physical controllers** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Touch controls** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
 
 ## Relationships
 
-- [[Community 56]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/sequence.schema.json`
+- `.agents/skills/apple-design/references/hig/game-controls.md`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
