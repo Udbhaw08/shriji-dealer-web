@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **community-proof-intake.test.mjs** (3 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
-- **read()** (1 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
+- **delivery-contract.test.mjs** (3 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
+- **delivery** (1 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
+- **skill** (1 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/community-proof-intake.test.mjs`
+- `.agents/skills/archify/test/delivery-contract.test.mjs`
 
 ## Audit Trail
 

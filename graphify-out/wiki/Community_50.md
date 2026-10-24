@@ -1,56 +1,51 @@
 # Community 50
 
-> 30 nodes · cohesion 0.12
+> 30 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **Products.jsx** (25 connections) — `src/pages/Products.jsx`
-- **productsStore.js** (23 connections) — `src/data/productsStore.js`
-- **ProductSearchBar.jsx** (15 connections) — `src/components/ProductSearchBar.jsx`
-- **useProducts()** (12 connections) — `src/data/productsStore.js`
-- **searchHelper.js** (11 connections) — `src/data/searchHelper.js`
-- **syncPricebookWithSession()** (7 connections) — `src/data/productsStore.js`
-- **ProductSearchBar()** (6 connections) — `src/components/ProductSearchBar.jsx`
-- **fetchLiveProducts()** (6 connections) — `src/data/productsStore.js`
-- **products.js** (5 connections) — `src/data/products.js`
-- **getSuggestions()** (5 connections) — `src/data/searchHelper.js`
-- **loadCached()** (4 connections) — `src/data/productsStore.js`
-- **autocorrectQuery()** (4 connections) — `src/data/searchHelper.js`
-- **buildSearchDictionary()** (4 connections) — `src/data/searchHelper.js`
-- **emit()** (3 connections) — `src/data/productsStore.js`
-- **syncTagsLive()** (3 connections) — `src/data/productsStore.js`
-- **loadCachedSession()** (3 connections) — `src/data/session.js`
-- **CATEGORIES** (2 connections) — `src/data/products.js`
-- **getCacheKey()** (2 connections) — `src/data/productsStore.js`
-- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
-- **useProduct()** (2 connections) — `src/data/productsStore.js`
-- **getPopularSearches()** (2 connections) — `src/data/searchHelper.js`
-- **scoreProduct()** (2 connections) — `src/data/searchHelper.js`
-- **PRODUCTS** (1 connections) — `src/data/products.js`
-- **listeners** (1 connections) — `src/data/productsStore.js`
-- **PREFERRED_ORDER** (1 connections) — `src/data/productsStore.js`
+- **check-update.mjs** (99 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **encodeRecoverableState()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **guardedCacheEntryRead()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **notification()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **operationIsActive()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stateAfterFailedCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stateWithFailureCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertSafeCacheEntry()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cancelResponseBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **corruptClaimStatus()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **encodeBoundedState()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **eventKeyForDigest()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **metadataIsWithinLease()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **nextFailedCheck()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **readBoundedBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stateAfterAcknowledgement()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertRenameableCacheEntry()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertSafeRegularFile()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **CacheOperationRaceError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **CachePathChangedError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **defaultCacheDirectory()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **defaultReleasePath** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **FileIdentityChangedError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **isMainModule()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **MAX_CACHE_HORIZON_MS** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
 - *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [[Product Pages Specification]] (21 shared connections)
-- [[Community 41]] (15 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (11 shared connections)
-- [[Community 165]] (2 shared connections)
-- [[Community 164]] (1 shared connections)
+- [[Community 94]] (21 shared connections)
+- [[Community 109]] (19 shared connections)
+- [[Community 101]] (19 shared connections)
+- [[Community 61]] (16 shared connections)
+- [[Community 39]] (1 shared connections)
 
 ## Source Files
 
-- `src/components/ProductSearchBar.jsx`
-- `src/data/products.js`
-- `src/data/productsStore.js`
-- `src/data/searchHelper.js`
-- `src/data/session.js`
-- `src/pages/Products.jsx`
+- `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 156 (100%)
+- EXTRACTED: 152 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

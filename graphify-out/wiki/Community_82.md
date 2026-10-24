@@ -1,44 +1,54 @@
 # Community 82
 
-> 20 nodes · cohesion 0.15
+> 20 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **buildDeltaSvg()** (16 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **annotateArchitectureSideSvg()** (9 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundaryElements()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **edgeSymbolMarkup()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **markerFor()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **addNodeMarker()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundaryChangeMap()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundaryMarkupByKey()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundaryMarkupParts()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundarySymbolMarkup()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **changeMap()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **elementById()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **forceElementState()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **nodeGroupRanges()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **prefixSvgIds()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **staticize()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **transformBoundaryElements()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **transformNodeGroups()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **forceBoundaryState()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **viewBoxSize()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **ChromeVisualBrowser** (21 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **visual-check.test.mjs** (14 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **PipeCdp** (7 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.attach()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.close()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.constructor()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **chromeVisualBrowserArgs()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.failAll()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.consume()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **VISUAL_CHECK_VIEWPORTS** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.failure()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **artifact()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **fakeBrowser()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **fakeChromeChild()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **png** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
 
 ## Relationships
 
-- [[Community 59]] (20 shared connections)
-- [[Community 295]] (2 shared connections)
-- [[Community 48]] (2 shared connections)
+- [[Community 49]] (8 shared connections)
+- [[Community 53]] (7 shared connections)
+- [[Community 124]] (2 shared connections)
+- [[Community 89]] (2 shared connections)
+- [[Community 63]] (1 shared connections)
+- [[Community 122]] (1 shared connections)
+- [[Community 32]] (1 shared connections)
+- [[Community 181]] (1 shared connections)
+- [[Community 244]] (1 shared connections)
+- [[Community 146]] (1 shared connections)
+- [[Community 206]] (1 shared connections)
+- [[Community 103]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/test/visual-check.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 71 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

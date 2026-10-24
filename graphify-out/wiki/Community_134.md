@@ -22,9 +22,9 @@
 ## Relationships
 
 - [[Client Products Data Store]] (9 shared connections)
-- [[Community 63]] (6 shared connections)
-- [[Community 34]] (3 shared connections)
-- [[Mobile Responsive UI Skill]] (2 shared connections)
+- [[Community 65]] (6 shared connections)
+- [[Community 36]] (3 shared connections)
+- [[Project Readme & Layout]] (2 shared connections)
 
 ## Source Files
 

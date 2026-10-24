@@ -21,13 +21,13 @@
 
 ## Relationships
 
-- [[Community 294]] (8 shared connections)
+- [[Community 293]] (8 shared connections)
 - [[Zoho Integration Architecture]] (4 shared connections)
-- [[Community 79]] (4 shared connections)
-- [[Community 45]] (3 shared connections)
+- [[Community 80]] (4 shared connections)
+- [[Community 47]] (3 shared connections)
 - [[Community 137]] (3 shared connections)
 - [[Community 147]] (2 shared connections)
-- [[Community 58]] (2 shared connections)
+- [[Community 57]] (2 shared connections)
 
 ## Source Files
 

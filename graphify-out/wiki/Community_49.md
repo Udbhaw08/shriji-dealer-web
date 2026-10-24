@@ -33,18 +33,18 @@
 
 ## Relationships
 
-- [[Community 81]] (8 shared connections)
-- [[Community 125]] (6 shared connections)
+- [[Community 82]] (8 shared connections)
+- [[Community 124]] (6 shared connections)
 - [[Community 53]] (5 shared connections)
-- [[Architecture Doc Generator]] (4 shared connections)
-- [[Community 61]] (3 shared connections)
-- [[Product Brand & Business Vision]] (3 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (4 shared connections)
+- [[Community 63]] (3 shared connections)
+- [[Architecture Doc Generator]] (3 shared connections)
 - [[Community 138]] (2 shared connections)
 - [[Community 89]] (2 shared connections)
-- [[Community 104]] (2 shared connections)
+- [[Community 103]] (2 shared connections)
 - [[Community 144]] (1 shared connections)
 - [[Community 145]] (1 shared connections)
-- [[Community 123]] (1 shared connections)
+- [[Community 122]] (1 shared connections)
 
 ## Source Files
 

@@ -28,8 +28,8 @@
 
 - [[Community 53]] (8 shared connections)
 - [[Community 49]] (2 shared connections)
-- [[Community 81]] (2 shared connections)
-- [[Community 125]] (2 shared connections)
+- [[Community 82]] (2 shared connections)
+- [[Community 124]] (2 shared connections)
 
 ## Source Files
 

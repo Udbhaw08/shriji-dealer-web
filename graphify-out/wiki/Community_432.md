@@ -1,12 +1,12 @@
 # Community 432
 
-> 3 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **MainActivity.java** (2 connections) — `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
-- **MainActivity** (2 connections) — `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
-- **BridgeActivity** (2 connections)
+- **Designing for iPadOS** (2 connections) — `.agents/skills/apple-design/references/hig/designing-for-ipados.md`
+- **designing-for-ipados.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-ipados.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-ipados.md`
 
 ## Relationships
 
@@ -14,11 +14,11 @@
 
 ## Source Files
 
-- `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
+- `.agents/skills/apple-design/references/hig/designing-for-ipados.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

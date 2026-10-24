@@ -1,31 +1,27 @@
 # Community 352
 
-> 6 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **na()** (6 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
-- **Yt()** (6 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
-- **en()** (5 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
-- **an()** (4 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
-- **qt()** (3 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
-- **ea()** (2 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **Design** (5 connections) — `.agents/skills/swiftui-pro/references/design.md`
+- **design.md** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
+- **Creating a uniform design in this app** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
+- **Ensuring designs work for everyone** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
+- **Requirements for flexible, accessible design** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
+- **Standard system styling** (1 connections) — `.agents/skills/swiftui-pro/references/design.md`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (6 shared connections)
-- [[Master Codebase Architecture Reference]] (3 shared connections)
-- [[Pricing Regression Test Suite]] (3 shared connections)
-- [[Community 69]] (1 shared connections)
-- [[Dependencies & Package Config]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- `.agents/skills/swiftui-pro/references/design.md`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

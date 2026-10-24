@@ -1,53 +1,48 @@
 # Community 81
 
-> 20 nodes · cohesion 0.12
+> 20 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **ChromeVisualBrowser** (21 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **visual-check.test.mjs** (14 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **PipeCdp** (7 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.attach()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.close()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.constructor()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **chromeVisualBrowserArgs()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.failAll()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.consume()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **VISUAL_CHECK_VIEWPORTS** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.constructor()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.failure()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **artifact()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **fakeBrowser()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **fakeChromeChild()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **png** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **fetchZohoProductById()** (18 connections) — `api/zoho.js`
+- **fetchZohoProducts()** (16 connections) — `api/zoho.js`
+- **fetchZohoWithRetry()** (12 connections) — `api/zoho.js`
+- **getZohoConfig()** (12 connections) — `api/zoho.js`
+- **fetchAllRawZohoProducts()** (8 connections) — `api/zoho.js`
+- **fetchZohoCategories()** (8 connections) — `api/zoho.js`
+- **getCategoryVisibilityMap()** (7 connections) — `api/zoho.js`
+- **fetchZohoPricebookItems()** (6 connections) — `api/zoho.js`
+- **resolvePricebookId()** (5 connections) — `api/zoho.js`
+- **fetchZohoPricebooks()** (4 connections) — `api/zoho.js`
+- **fetchZohoRawCategories()** (4 connections) — `api/zoho.js`
+- **index.js** (4 connections) — `api/products/index.js`
+- **og.js** (3 connections) — `api/og.js`
+- **readProductDetailsDiskCache()** (3 connections) — `api/zoho.js`
+- **readProductsDiskCache()** (3 connections) — `api/zoho.js`
+- **writeProductDetailDiskCache()** (3 connections) — `api/zoho.js`
+- **[id].js** (3 connections) — `api/products/[id].js`
+- **handler()** (3 connections) — `api/products/index.js`
+- **handler()** (2 connections) — `api/og.js`
+- **handler()** (2 connections) — `api/products/[id].js`
 
 ## Relationships
 
-- [[Community 49]] (8 shared connections)
-- [[Community 53]] (7 shared connections)
-- [[Community 125]] (2 shared connections)
-- [[Community 89]] (2 shared connections)
-- [[Community 61]] (1 shared connections)
-- [[Community 123]] (1 shared connections)
-- [[Community 31]] (1 shared connections)
-- [[Community 181]] (1 shared connections)
-- [[Community 245]] (1 shared connections)
-- [[Community 146]] (1 shared connections)
-- [[Community 206]] (1 shared connections)
-- [[Community 104]] (1 shared connections)
+- [[Community 48]] (23 shared connections)
+- [[Community 96]] (7 shared connections)
+- [[Community 162]] (5 shared connections)
+- [[Community 246]] (5 shared connections)
+- [[Community 143]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/visual-check.test.mjs`
+- `api/og.js`
+- `api/products/[id].js`
+- `api/products/index.js`
+- `api/zoho.js`
 
 ## Audit Trail
 
-- EXTRACTED: 71 (100%)
+- EXTRACTED: 126 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

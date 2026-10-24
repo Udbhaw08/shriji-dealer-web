@@ -1,56 +1,47 @@
 # Community 44
 
-> 33 nodes · cohesion 0.17
+> 34 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **crmClient.js** (34 connections) — `backend/src/services/crmClient.js`
-- **normalizePhone()** (19 connections) — `backend/src/utils/phone.js`
-- **normalizeEmail()** (18 connections) — `backend/src/utils/validators.js`
-- **validators.js** (15 connections) — `backend/src/utils/validators.js`
-- **crmFetch()** (14 connections) — `backend/src/services/crmClient.js`
-- **finalizeDealerRegistration()** (12 connections) — `backend/src/services/dealerApp.js`
-- **isValidPhone()** (11 connections) — `backend/src/utils/validators.js`
-- **cleanName()** (9 connections) — `backend/src/utils/validators.js`
-- **crmConfigured()** (8 connections) — `backend/src/services/crmClient.js`
-- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
-- **verifyDealerRegistrationOtp()** (7 connections) — `backend/src/services/dealerApp.js`
-- **phone.js** (7 connections) — `backend/src/utils/phone.js`
-- **isValidEmail()** (7 connections) — `backend/src/utils/validators.js`
-- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
-- **isValidName()** (6 connections) — `backend/src/utils/validators.js`
-- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
-- **createDealerContact()** (5 connections) — `backend/src/services/crmClient.js`
-- **findOwnerContactInAccount()** (5 connections) — `backend/src/services/crmClient.js`
-- **updateContactDetails()** (5 connections) — `backend/src/services/crmClient.js`
-- **updateDealerCodeInCrm()** (5 connections) — `backend/src/services/crmClient.js`
-- **isValidGstin()** (5 connections) — `backend/src/utils/validators.js`
-- **resolveContactNames()** (4 connections) — `backend/src/services/crmClient.js`
-- **emailOnlyIdentifier()** (3 connections) — `backend/src/routes/auth.js`
-- **deactivateAccountInCrm()** (3 connections) — `backend/src/services/crmClient.js`
-- **deactivateContactInCrm()** (3 connections) — `backend/src/services/crmClient.js`
-- *... and 8 more nodes in this community*
+- **Typography** (10 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **iOS, iPadOS Dynamic Type sizes** (8 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **iOS, iPadOS larger accessibility type sizes** (6 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Specifications** (5 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **iOS, iPadOS, visionOS tracking values** (4 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Tracking values** (3 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **typography.md** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **AX1** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **AX2** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **AX3** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **AX4** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **AX5** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Conveying hierarchy** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Ensuring legibility** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Large (default)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **macOS built-in text styles** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **macOS tracking values** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Medium** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **New York** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **SF Pro** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [[Community 63]] (32 shared connections)
-- [[Mobile Responsive UI Skill]] (17 shared connections)
-- [[Community 34]] (12 shared connections)
-- [[Client Products Data Store]] (4 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `backend/src/routes/auth.js`
-- `backend/src/services/crmClient.js`
-- `backend/src/services/dealerApp.js`
-- `backend/src/utils/phone.js`
-- `backend/src/utils/validators.js`
-- `backend/test/interconnection.test.mjs`
-- `backend/test/validators.test.mjs`
+- `.agents/skills/apple-design/references/hig/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 241 (100%)
+- EXTRACTED: 66 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

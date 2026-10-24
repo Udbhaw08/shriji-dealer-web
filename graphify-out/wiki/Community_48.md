@@ -1,70 +1,53 @@
 # Community 48
 
-> 31 nodes · cohesion 0.22
+> 31 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **compileWorkflowInternal()** (67 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **esc()** (31 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **escapeHtml()** (26 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **animateAttr()** (16 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **focusEdgeAttrs()** (15 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **labelPoint()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **renderBrandMark()** (14 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **renderNode()** (13 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderState()** (13 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **focusNodeAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **renderSemanticSigil()** (13 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **renderComponent()** (12 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderParticipant()** (12 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **brandLabelFitWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **brandMetadataFor()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **focusNodeTitle()** (12 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **routePointsValue()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **fittedNodeFontSize()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **variantAccent()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **renderConnectionLabel()** (8 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderFlowLabel()** (8 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderTransitionLabel()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderMessage()** (8 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **brandMarkFor()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **renderConnectionPath()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **zoho.js** (60 connections) — `api/zoho.js`
+- **syncRecentProductTags()** (7 connections) — `api/zoho.js`
+- **normalizeProduct()** (6 connections) — `api/zoho.js`
+- **readTagCache()** (6 connections) — `api/zoho.js`
+- **updateCachedProductTags()** (4 connections) — `api/zoho.js`
+- **sync-tags.js** (4 connections) — `api/products/sync-tags.js`
+- **getCachedProductTags()** (3 connections) — `api/zoho.js`
+- **isItemOnline()** (3 connections) — `api/zoho.js`
+- **handler()** (3 connections) — `api/products/sync-tags.js`
+- **clearDiskCache()** (2 connections) — `api/zoho.js`
+- **isItemCategoryOnline()** (2 connections) — `api/zoho.js`
+- **parseRate()** (2 connections) — `api/zoho.js`
+- **slugifyCategory()** (2 connections) — `api/zoho.js`
+- **slugifyProduct()** (2 connections) — `api/zoho.js`
+- **writeProductsDiskCache()** (2 connections) — `api/zoho.js`
+- **writeTagCache()** (2 connections) — `api/zoho.js`
+- **cachedPricebooks** (1 connections) — `api/zoho.js`
+- **cachedProductDetails** (1 connections) — `api/zoho.js`
+- **cachedProductsByPricebook** (1 connections) — `api/zoho.js`
+- **isBannerItem()** (1 connections) — `api/zoho.js`
+- **isLogoItem()** (1 connections) — `api/zoho.js`
+- **isSchemeItem()** (1 connections) — `api/zoho.js`
+- **localCacheFile** (1 connections) — `api/zoho.js`
+- **localDetailCacheFile** (1 connections) — `api/zoho.js`
+- **localProductsCacheFile** (1 connections) — `api/zoho.js`
 - *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [[Community 30]] (38 shared connections)
-- [[Community 35]] (32 shared connections)
-- [[Community 47]] (28 shared connections)
-- [[Live Pricing Audit Tool]] (23 shared connections)
-- [[Product Brand & Business Vision]] (22 shared connections)
-- [[Community 79]] (18 shared connections)
-- [[Community 105]] (10 shared connections)
-- [[Zoho Integration Architecture]] (10 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (6 shared connections)
-- [[Community 59]] (5 shared connections)
-- [[Community 294]] (3 shared connections)
-- [[Community 82]] (2 shared connections)
+- [[Community 81]] (23 shared connections)
+- [[Community 246]] (6 shared connections)
+- [[Community 162]] (6 shared connections)
+- [[Community 96]] (3 shared connections)
+- [[Community 143]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/cli.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/i18n.mjs`
-- `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
-- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- `api/products/sync-tags.js`
+- `api/zoho.js`
 
 ## Audit Trail
 
-- EXTRACTED: 356 (90%)
-- INFERRED: 41 (10%)
+- EXTRACTED: 125 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

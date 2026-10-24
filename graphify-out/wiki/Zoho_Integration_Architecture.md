@@ -33,18 +33,18 @@
 
 ## Relationships
 
-- [[Community 35]] (10 shared connections)
-- [[Community 48]] (10 shared connections)
-- [[Community 30]] (9 shared connections)
-- [[Community 79]] (8 shared connections)
-- [[Community 105]] (7 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (6 shared connections)
+- [[Graphify Knowledge Graph Skill]] (11 shared connections)
+- [[Community 42]] (10 shared connections)
+- [[Community 40]] (9 shared connections)
+- [[Community 80]] (8 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (8 shared connections)
+- [[Community 104]] (7 shared connections)
+- [[Vercel Deployment Routing]] (6 shared connections)
 - [[Community 161]] (6 shared connections)
-- [[Product Brand & Business Vision]] (5 shared connections)
-- [[Community 47]] (5 shared connections)
-- [[Community 103]] (4 shared connections)
-- [[Live Pricing Audit Tool]] (4 shared connections)
+- [[Architecture Doc Generator]] (5 shared connections)
+- [[Community 102]] (4 shared connections)
 - [[Community 130]] (4 shared connections)
+- [[Community 205]] (3 shared connections)
 
 ## Source Files
 

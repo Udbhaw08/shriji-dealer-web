@@ -1,32 +1,29 @@
 # Community 296
 
-> 7 nodes · cohesion 0.43
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **HeroSlider.jsx** (11 connections) — `src/components/HeroSlider.jsx`
-- **video.js** (5 connections) — `src/utils/video.js`
-- **parseVideoUrl()** (4 connections) — `src/utils/video.js`
-- **HeroSlider()** (3 connections) — `src/components/HeroSlider.jsx`
-- **video-banner.test.mjs** (3 connections) — `src/data/video-banner.test.mjs`
-- **getVideoBadgeLabel()** (2 connections) — `src/utils/video.js`
-- **getCachedBanners()** (1 connections) — `src/components/HeroSlider.jsx`
+- **Charting data** (6 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
+- **charting-data.md** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
+- **Designing effective charts** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
 
 ## Relationships
 
-- [[Product Pages Specification]] (9 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/components/HeroSlider.jsx`
-- `src/data/video-banner.test.mjs`
-- `src/utils/video.js`
+- `.agents/skills/apple-design/references/hig/charting-data.md`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 12 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,48 +1,53 @@
 # Pricing & Roles Skill
 
-> 45 nodes · cohesion 0.06
+> 46 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **generated-validators.mjs** (41 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **func3()** (11 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **generate-validators.test.mjs** (5 connections) — `.agents/skills/archify/test/generate-validators.test.mjs`
-- **validate20()** (4 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate22()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate27()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate28()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate30()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate31()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate33()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate34()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate36()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate37()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate24()** (2 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **pattern17** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **pattern18** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **pattern20** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **pattern4** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **pattern57** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema112** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema116** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema118** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema149** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema31** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema33** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- *... and 20 more nodes in this community*
+- **ff()** (27 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
+- **Tu()** (17 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
+- **gl()** (14 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
+- **pi()** (13 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
+- **uu()** (13 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
+- **delete()** (11 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
+- **lu()** (11 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
+- **vu()** (11 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
+- **di()** (10 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
+- **zl()** (10 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
+- **hl()** (9 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
+- **Iu()** (9 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
+- **ku()** (9 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
+- **mu()** (9 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
+- **wl()** (9 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
+- **jd()** (8 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
+- **wa()** (8 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
+- **bl()** (7 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
+- **Eu()** (7 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
+- **hc()** (7 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
+- **yl()** (7 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
+- **cu()** (6 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
+- **fu()** (6 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
+- **ju()** (6 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
+- **kl()** (6 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Integration Architecture]] (1 shared connections)
+- [[Price Presentation & Product UI]] (51 shared connections)
+- [[Design System & UI Tokens]] (17 shared connections)
+- [[Product Requirements Documentation]] (12 shared connections)
+- [[Oxlint Linter Configuration]] (11 shared connections)
+- [[Master Codebase Architecture Reference]] (11 shared connections)
+- [[Community 35]] (7 shared connections)
+- [[Live Pricing Audit Tool]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- `.agents/skills/archify/test/generate-validators.test.mjs`
+- `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
 
 ## Audit Trail
 
-- EXTRACTED: 121 (100%)
+- EXTRACTED: 325 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

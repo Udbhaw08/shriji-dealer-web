@@ -18,8 +18,8 @@
 ## Relationships
 
 - [[Zoho Integration Architecture]] (3 shared connections)
-- [[Community 60]] (2 shared connections)
-- [[Community 103]] (2 shared connections)
+- [[Community 62]] (2 shared connections)
+- [[Community 102]] (2 shared connections)
 
 ## Source Files
 

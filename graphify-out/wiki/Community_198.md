@@ -17,8 +17,8 @@
 
 ## Relationships
 
-- [[Zoho API Diagnostic Script]] (3 shared connections)
-- [[Community 116]] (3 shared connections)
+- [[Graphify Workflow]] (3 shared connections)
+- [[Community 115]] (3 shared connections)
 
 ## Source Files
 

@@ -1,52 +1,56 @@
 # Community 46
 
-> 31 nodes · cohesion 0.09
+> 33 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **zoho.js** (60 connections) — `api/zoho.js`
-- **syncRecentProductTags()** (7 connections) — `api/zoho.js`
-- **normalizeProduct()** (6 connections) — `api/zoho.js`
-- **readTagCache()** (6 connections) — `api/zoho.js`
-- **updateCachedProductTags()** (4 connections) — `api/zoho.js`
-- **sync-tags.js** (4 connections) — `api/products/sync-tags.js`
-- **getCachedProductTags()** (3 connections) — `api/zoho.js`
-- **isItemOnline()** (3 connections) — `api/zoho.js`
-- **handler()** (3 connections) — `api/products/sync-tags.js`
-- **clearDiskCache()** (2 connections) — `api/zoho.js`
-- **isItemCategoryOnline()** (2 connections) — `api/zoho.js`
-- **parseRate()** (2 connections) — `api/zoho.js`
-- **slugifyCategory()** (2 connections) — `api/zoho.js`
-- **slugifyProduct()** (2 connections) — `api/zoho.js`
-- **writeProductsDiskCache()** (2 connections) — `api/zoho.js`
-- **writeTagCache()** (2 connections) — `api/zoho.js`
-- **cachedPricebooks** (1 connections) — `api/zoho.js`
-- **cachedProductDetails** (1 connections) — `api/zoho.js`
-- **cachedProductsByPricebook** (1 connections) — `api/zoho.js`
-- **isBannerItem()** (1 connections) — `api/zoho.js`
-- **isLogoItem()** (1 connections) — `api/zoho.js`
-- **isSchemeItem()** (1 connections) — `api/zoho.js`
-- **localCacheFile** (1 connections) — `api/zoho.js`
-- **localDetailCacheFile** (1 connections) — `api/zoho.js`
-- **localProductsCacheFile** (1 connections) — `api/zoho.js`
-- *... and 6 more nodes in this community*
+- **crmClient.js** (34 connections) — `backend/src/services/crmClient.js`
+- **normalizePhone()** (19 connections) — `backend/src/utils/phone.js`
+- **normalizeEmail()** (18 connections) — `backend/src/utils/validators.js`
+- **validators.js** (15 connections) — `backend/src/utils/validators.js`
+- **crmFetch()** (14 connections) — `backend/src/services/crmClient.js`
+- **finalizeDealerRegistration()** (12 connections) — `backend/src/services/dealerApp.js`
+- **isValidPhone()** (11 connections) — `backend/src/utils/validators.js`
+- **cleanName()** (9 connections) — `backend/src/utils/validators.js`
+- **crmConfigured()** (8 connections) — `backend/src/services/crmClient.js`
+- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
+- **verifyDealerRegistrationOtp()** (7 connections) — `backend/src/services/dealerApp.js`
+- **phone.js** (7 connections) — `backend/src/utils/phone.js`
+- **isValidEmail()** (7 connections) — `backend/src/utils/validators.js`
+- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
+- **isValidName()** (6 connections) — `backend/src/utils/validators.js`
+- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
+- **createDealerContact()** (5 connections) — `backend/src/services/crmClient.js`
+- **findOwnerContactInAccount()** (5 connections) — `backend/src/services/crmClient.js`
+- **updateContactDetails()** (5 connections) — `backend/src/services/crmClient.js`
+- **updateDealerCodeInCrm()** (5 connections) — `backend/src/services/crmClient.js`
+- **isValidGstin()** (5 connections) — `backend/src/utils/validators.js`
+- **resolveContactNames()** (4 connections) — `backend/src/services/crmClient.js`
+- **emailOnlyIdentifier()** (3 connections) — `backend/src/routes/auth.js`
+- **deactivateAccountInCrm()** (3 connections) — `backend/src/services/crmClient.js`
+- **deactivateContactInCrm()** (3 connections) — `backend/src/services/crmClient.js`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [[Community 80]] (23 shared connections)
-- [[Community 247]] (6 shared connections)
-- [[Community 162]] (6 shared connections)
-- [[Community 97]] (3 shared connections)
-- [[Community 143]] (1 shared connections)
+- [[Community 65]] (32 shared connections)
+- [[Project Readme & Layout]] (17 shared connections)
+- [[Community 36]] (12 shared connections)
+- [[Client Products Data Store]] (4 shared connections)
 
 ## Source Files
 
-- `api/products/sync-tags.js`
-- `api/zoho.js`
+- `backend/src/routes/auth.js`
+- `backend/src/services/crmClient.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/utils/phone.js`
+- `backend/src/utils/validators.js`
+- `backend/test/interconnection.test.mjs`
+- `backend/test/validators.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 125 (100%)
+- EXTRACTED: 241 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

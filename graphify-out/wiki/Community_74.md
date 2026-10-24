@@ -4,45 +4,40 @@
 
 ## Key Concepts
 
-- **$defs** (16 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **id** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **animation** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **brandMark** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **componentType** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **legendMode** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **locale** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **qualityProfile** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **side** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **variant** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **visualPreset** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **oneOf** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **pattern** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **CODEBASE.md — Project Architecture & Feature Guide** (8 connections) — `CODEBASE.md`
+- **2. Core Pricing & Identity Architecture** (6 connections) — `CODEBASE.md`
+- **4. Codebase Directory Map** (6 connections) — `CODEBASE.md`
+- **5. Zoho API Endpoints** (4 connections) — `CODEBASE.md`
+- **CODEBASE.md** (1 connections) — `CODEBASE.md`
+- **1. System Overview** (1 connections) — `CODEBASE.md`
+- **2.1 The Two Audiences (Zero Leakage Rule)** (1 connections) — `CODEBASE.md`
+- **2.2 Pricing Resolution Engine (`api/zoho.js` & `src/data/dealer.js`)** (1 connections) — `CODEBASE.md`
+- **2.3 Guest Access Control & Portal Gating (`src/data/portalGate.js`)** (1 connections) — `CODEBASE.md`
+- **2.4 Shareable Product Link & Zero-Leakage Experience (`src/pages/Product.jsx`)** (1 connections) — `CODEBASE.md`
+- **2.5 Navigation & Bottom Bar Dynamic Filtering** (1 connections) — `CODEBASE.md`
+- **3. Application Routes & Navigation** (1 connections) — `CODEBASE.md`
+- **4.1 Pages (`src/pages/`)** (1 connections) — `CODEBASE.md`
+- **4.2 Reusable Components (`src/components/` & `src/ui.jsx`)** (1 connections) — `CODEBASE.md`
+- **4.3 State & Business Logic (`src/data/`)** (1 connections) — `CODEBASE.md`
+- **4.4 Zoho API & Serverless Handlers (`api/`)** (1 connections) — `CODEBASE.md`
+- **4.5 Automation & Utility Scripts (`scripts/`)** (1 connections) — `CODEBASE.md`
+- **5.1 Zoho Commerce Storefront API** (1 connections) — `CODEBASE.md`
+- **5.2 Zoho Books Contacts & Pricebooks API** (1 connections) — `CODEBASE.md`
+- **5.3 Auto-Recovery Token Architecture** (1 connections) — `CODEBASE.md`
+- **6. How to Run & Verify** (1 connections) — `CODEBASE.md`
+- **7. Development & Git Workflow Guidelines** (1 connections) — `CODEBASE.md`
 
 ## Relationships
 
-- [[Community 413]] (1 shared connections)
-- [[Community 232]] (1 shared connections)
-- [[Community 442]] (1 shared connections)
-- [[Community 175]] (1 shared connections)
-- [[Community 358]] (1 shared connections)
-- [[Community 443]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `CODEBASE.md`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

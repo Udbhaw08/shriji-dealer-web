@@ -4,25 +4,25 @@
 
 ## Key Concepts
 
-- **Visual Workflow** (6 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **visual-workflow.md** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Generated Assets** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Image Generation Capability** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Three Visual Directions** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Visual QA** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
-- **Visual Target Gate** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **lifecycle.schema.json** (7 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$id** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$schema** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **title** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 115]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/visual-workflow.md`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

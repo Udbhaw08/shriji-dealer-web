@@ -17,8 +17,8 @@
 
 ## Relationships
 
-- [[Claude Agent Instructions]] (3 shared connections)
-- [[Community 115]] (3 shared connections)
+- [[Testing & Workflow Skill]] (3 shared connections)
+- [[Community 114]] (3 shared connections)
 
 ## Source Files
 

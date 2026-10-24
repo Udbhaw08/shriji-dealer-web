@@ -1,31 +1,27 @@
 # Community 338
 
-> 6 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **na()** (6 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
-- **Yt()** (6 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
-- **en()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
-- **an()** (4 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
-- **qt()** (3 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
-- **ea()** (2 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **Action sheets** (4 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
+- **action-sheets.md** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (6 shared connections)
-- [[Design System & UI Tokens]] (3 shared connections)
-- [[Product Requirements Documentation]] (3 shared connections)
-- [[Community 33]] (1 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- `.agents/skills/apple-design/references/hig/action-sheets.md`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

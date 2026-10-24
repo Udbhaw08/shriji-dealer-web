@@ -1,59 +1,53 @@
 # Community 63
 
-> 24 nodes · cohesion 0.19
+> 24 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **dealerApp.js** (44 connections) — `backend/src/services/dealerApp.js`
-- **notifications.js** (16 connections) — `backend/src/services/notifications.js`
-- **webhooks.js** (14 connections) — `backend/src/routes/webhooks.js`
-- **requestDealerRegistrationOtp()** (14 connections) — `backend/src/services/dealerApp.js`
-- **logger.js** (14 connections) — `backend/src/utils/logger.js`
-- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
-- **log** (13 connections) — `backend/src/utils/logger.js`
-- **applyCrmAccountState()** (12 connections) — `backend/src/services/dealerApp.js`
-- **generateUniqueDealerCode()** (10 connections) — `backend/src/utils/loginCode.js`
-- **errorHandler.js** (8 connections) — `backend/src/middleware/errorHandler.js`
-- **httpError()** (8 connections) — `backend/src/middleware/errorHandler.js`
-- **applyDealer()** (7 connections) — `backend/src/services/dealerApp.js`
-- **sendWhatsAppOtp()** (7 connections) — `backend/src/services/notifications.js`
-- **provisionDealerInCrm()** (6 connections) — `backend/src/services/dealerApp.js`
-- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
-- **applyCrmContactState()** (5 connections) — `backend/src/services/dealerApp.js`
-- **sendEmailOtp()** (5 connections) — `backend/src/services/notifications.js`
-- **markPollRun()** (3 connections) — `backend/src/jobs/crmPoll.js`
-- **acquireContactOtpCooldown()** (3 connections) — `backend/src/services/dealerApp.js`
-- **notify()** (3 connections) — `backend/src/services/notifications.js`
-- **sendOtpNotification()** (3 connections) — `backend/src/services/notifications.js`
-- **releaseContactOtpCooldown()** (2 connections) — `backend/src/services/dealerApp.js`
-- **crmSync.test.mjs** (2 connections) — `backend/test/crmSync.test.mjs`
-- **ts()** (1 connections) — `backend/src/utils/logger.js`
+- **intent-trace-browser.test.mjs** (15 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **semantic-lens-browser.test.mjs** (14 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **desktop-browser.mjs** (8 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **desktopBrowser()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **desktopPointerCheck()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **afterTimer()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **hash()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
 
 ## Relationships
 
-- [[Community 44]] (32 shared connections)
-- [[Community 34]] (30 shared connections)
-- [[Client Products Data Store]] (24 shared connections)
-- [[Mobile Responsive UI Skill]] (18 shared connections)
-- [[Community 134]] (6 shared connections)
-- [[Community 179]] (3 shared connections)
-- [[Community 177]] (1 shared connections)
+- [[Community 53]] (11 shared connections)
+- [[Community 49]] (3 shared connections)
+- [[Community 144]] (3 shared connections)
+- [[Community 145]] (3 shared connections)
+- [[Community 124]] (2 shared connections)
+- [[Community 82]] (1 shared connections)
 
 ## Source Files
 
-- `backend/src/jobs/crmPoll.js`
-- `backend/src/middleware/errorHandler.js`
-- `backend/src/routes/webhooks.js`
-- `backend/src/services/dealerApp.js`
-- `backend/src/services/notifications.js`
-- `backend/src/utils/logger.js`
-- `backend/src/utils/loginCode.js`
-- `backend/test/crmSync.test.mjs`
+- `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 217 (100%)
-- INFERRED: 1 (0%)
+- EXTRACTED: 103 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

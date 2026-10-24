@@ -4,42 +4,41 @@
 
 ## Key Concepts
 
-- **properties** (12 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **semanticChecks** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **lanes** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **mainPath** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **nodes** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **cards** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **schema_version** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **properties** (9 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **architecture.schema.json** (7 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **meta** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **components** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **cards** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **schema_version** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$id** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$schema** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **title** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- [[Community 132]] (5 shared connections)
-- [[Community 109]] (2 shared connections)
-- [[Community 200]] (1 shared connections)
-- [[Community 37]] (1 shared connections)
+- [[Community 120]] (3 shared connections)
+- [[Community 72]] (1 shared connections)
+- [[Community 87]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (100%)
+- EXTRACTED: 45 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

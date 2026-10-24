@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **web-CG3It7S5.js** (8 connections) — `ios/App/App/public/assets/web-CG3It7S5.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-CG3It7S5.js`
-- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-CG3It7S5.js`
-- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-CG3It7S5.js`
-- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-CG3It7S5.js`
-- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-CG3It7S5.js`
-- **getState()** (1 connections) — `ios/App/App/public/assets/web-CG3It7S5.js`
-- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-CG3It7S5.js`
-- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-CG3It7S5.js`
+- **web-DZ8gtE8B.js** (8 connections) — `ios/App/App/public/assets/web-DZ8gtE8B.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-DZ8gtE8B.js`
+- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-DZ8gtE8B.js`
+- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-DZ8gtE8B.js`
+- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-DZ8gtE8B.js`
+- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-DZ8gtE8B.js`
+- **getState()** (1 connections) — `ios/App/App/public/assets/web-DZ8gtE8B.js`
+- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-DZ8gtE8B.js`
+- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-DZ8gtE8B.js`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-CG3It7S5.js`
+- `ios/App/App/public/assets/web-DZ8gtE8B.js`
 
 ## Audit Trail
 

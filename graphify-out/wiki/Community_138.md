@@ -20,9 +20,9 @@
 
 ## Relationships
 
-- [[Community 45]] (27 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (3 shared connections)
-- [[Community 295]] (3 shared connections)
+- [[Community 47]] (27 shared connections)
+- [[Vercel Deployment Routing]] (3 shared connections)
+- [[Community 294]] (3 shared connections)
 - [[Community 49]] (2 shared connections)
 
 ## Source Files

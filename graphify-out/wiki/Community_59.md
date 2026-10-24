@@ -32,12 +32,12 @@
 
 ## Relationships
 
-- [[Community 82]] (20 shared connections)
-- [[Community 111]] (18 shared connections)
-- [[Community 48]] (5 shared connections)
+- [[Community 83]] (20 shared connections)
+- [[Community 110]] (18 shared connections)
+- [[Graphify Knowledge Graph Skill]] (5 shared connections)
 - [[Community 139]] (4 shared connections)
 - [[Community 161]] (2 shared connections)
-- [[Community 295]] (2 shared connections)
+- [[Community 294]] (2 shared connections)
 
 ## Source Files
 

@@ -1,55 +1,58 @@
 # Project Readme & Layout
 
-> 43 nodes · cohesion 0.05
+> 44 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **properties** (33 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **fromCol** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **height** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **variant** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **brand** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **channelX** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **channelY** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **fromSide** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **id** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **labelAt** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **labelDx** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **labelDy** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **lane** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **role** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **route** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **sublabel** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **tag** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **toSide** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **yOffset** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **maximum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- *... and 18 more nodes in this community*
+- **auth.js** (52 connections) — `backend/src/routes/auth.js`
+- **hash.js** (24 connections) — `backend/src/utils/hash.js`
+- **phase2DealerStaffOnboarding.test.mjs** (17 connections) — `backend/test/phase2DealerStaffOnboarding.test.mjs`
+- **onboardingVerification.test.mjs** (15 connections) — `backend/test/onboardingVerification.test.mjs`
+- **verifyOtpHash()** (10 connections) — `backend/src/utils/hash.js`
+- **hash.test.mjs** (9 connections) — `backend/test/hash.test.mjs`
+- **hashOtp()** (9 connections) — `backend/src/utils/hash.js`
+- **sha256()** (9 connections) — `backend/src/utils/hash.js`
+- **issueSession()** (5 connections) — `backend/src/routes/auth.js`
+- **generateOtp()** (5 connections) — `backend/src/utils/hash.js`
+- **hashPassword()** (5 connections) — `backend/src/utils/hash.js`
+- **isUserFullyOnboarded()** (4 connections) — `backend/src/routes/auth.js`
+- **resolveUserWithDealer()** (4 connections) — `backend/src/routes/auth.js`
+- **verifyPassword()** (4 connections) — `backend/src/utils/hash.js`
+- **findUserByEmail()** (3 connections) — `backend/src/routes/auth.js`
+- **publicUser()** (3 connections) — `backend/src/routes/auth.js`
+- **handleDealerRegistrationFinalize()** (3 connections) — `backend/src/routes/dealers.js`
+- **scryptKey()** (3 connections) — `backend/src/utils/hash.js`
+- **generateCode()** (2 connections) — `backend/src/utils/hash.js`
+- **randomToken()** (2 connections) — `backend/src/utils/hash.js`
+- **googleClient** (1 connections) — `backend/src/routes/auth.js`
+- **lastCrmSyncByDealerId** (1 connections) — `backend/src/routes/auth.js`
+- **strictLimit** (1 connections) — `backend/src/routes/auth.js`
+- **app** (1 connections) — `backend/test/onboardingVerification.test.mjs`
+- **authHeader()** (1 connections) — `backend/test/onboardingVerification.test.mjs`
+- *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [[Community 132]] (5 shared connections)
-- [[Community 234]] (2 shared connections)
-- [[Community 419]] (1 shared connections)
-- [[Community 420]] (1 shared connections)
-- [[Community 453]] (1 shared connections)
-- [[Community 454]] (1 shared connections)
-- [[Community 421]] (1 shared connections)
-- [[Community 109]] (1 shared connections)
-- [[Community 455]] (1 shared connections)
+- [[Community 65]] (18 shared connections)
+- [[Community 46]] (17 shared connections)
+- [[Community 36]] (14 shared connections)
+- [[Community 179]] (9 shared connections)
+- [[Client Products Data Store]] (7 shared connections)
+- [[Community 177]] (3 shared connections)
+- [[Community 134]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `backend/src/routes/auth.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/utils/hash.js`
+- `backend/test/hash.test.mjs`
+- `backend/test/onboardingVerification.test.mjs`
+- `backend/test/phase2DealerStaffOnboarding.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 98 (100%)
+- EXTRACTED: 212 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

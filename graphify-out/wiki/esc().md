@@ -2,7 +2,7 @@
 
 > God node · 31 connections · `.agents/skills/archify/delta/architecture-delta.mjs`
 
-**Community:** [[Community 48]]
+**Community:** [[Graphify Knowledge Graph Skill]]
 
 ## Connections by Relation
 

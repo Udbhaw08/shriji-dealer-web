@@ -1,58 +1,50 @@
 # Community 41
 
-> 35 nodes · cohesion 0.15
+> 36 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **Product.jsx** (34 connections) — `src/pages/Product.jsx`
-- **dealer.js** (29 connections) — `src/data/dealer.js`
-- **Favorites.jsx** (20 connections) — `src/pages/Favorites.jsx`
-- **ProductCard.jsx** (19 connections) — `src/components/ProductCard.jsx`
-- **dealer.test.mjs** (18 connections) — `src/data/dealer.test.mjs`
-- **PriceBlock.jsx** (15 connections) — `src/components/PriceBlock.jsx`
-- **ProductCard()** (15 connections) — `src/components/ProductCard.jsx`
-- **Product()** (15 connections) — `src/pages/Product.jsx`
-- **priceFor()** (14 connections) — `src/data/dealer.js`
-- **useFavorites()** (13 connections) — `src/data/favoritesStore.js`
-- **inr()** (12 connections) — `src/data/dealer.js`
-- **viewerFor()** (8 connections) — `src/data/dealer.js`
-- **CustomerPrice()** (7 connections) — `src/components/PriceBlock.jsx`
-- **productSlug()** (7 connections) — `src/data/dealer.js`
-- **registerDealer()** (7 connections) — `src/data/dealer.js`
-- **shareLink()** (7 connections) — `src/data/dealer.js`
-- **tagFor()** (6 connections) — `src/data/dealer.js`
-- **DealerPrice()** (5 connections) — `src/components/PriceBlock.jsx`
-- **formatWhatsAppPhone()** (4 connections) — `src/data/dealer.js`
-- **slugifyProduct()** (4 connections) — `src/data/dealer.js`
-- **tierOf()** (4 connections) — `src/data/dealer.js`
-- **DEALERS** (3 connections) — `src/data/dealer.js`
-- **isFavorite()** (3 connections) — `src/data/favoritesStore.js`
-- **PriceBlock()** (2 connections) — `src/components/PriceBlock.jsx`
-- **price99()** (2 connections) — `src/data/dealer.js`
-- *... and 10 more nodes in this community*
+- **auth.js** (50 connections) — `src/data/auth.js`
+- **json()** (31 connections) — `src/data/auth.js`
+- **callBackend()** (28 connections) — `src/data/auth.js`
+- **DealerDashboard.jsx** (23 connections) — `src/pages/DealerDashboard.jsx`
+- **broadcastAuthChange()** (13 connections) — `src/data/auth.js`
+- **applyAuthResponse()** (9 connections) — `src/data/auth.js`
+- **staffSignup()** (7 connections) — `src/data/auth.js`
+- **finalizeDealerRegistration()** (6 connections) — `src/data/auth.js`
+- **logout()** (6 connections) — `src/data/auth.js`
+- **verifyEmailOtp()** (6 connections) — `src/data/auth.js`
+- **fetchMe()** (5 connections) — `src/data/auth.js`
+- **googleLogin()** (5 connections) — `src/data/auth.js`
+- **login()** (5 connections) — `src/data/auth.js`
+- **lookupStaffCode()** (5 connections) — `src/data/auth.js`
+- **requestEmailOtp()** (5 connections) — `src/data/auth.js`
+- **signup()** (5 connections) — `src/data/auth.js`
+- **staffTogglePrice()** (5 connections) — `src/data/auth.js`
+- **staffTogglePriceAll()** (5 connections) — `src/data/auth.js`
+- **verifyOtp()** (5 connections) — `src/data/auth.js`
+- **verifyPhoneOtp()** (5 connections) — `src/data/auth.js`
+- **persistTokens()** (4 connections) — `src/data/auth.js`
+- **requestOtp()** (4 connections) — `src/data/auth.js`
+- **requestPhoneOtp()** (4 connections) — `src/data/auth.js`
+- **staffApprove()** (4 connections) — `src/data/auth.js`
+- **staffDeactivate()** (4 connections) — `src/data/auth.js`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [[Product Pages Specification]] (60 shared connections)
-- [[Community 50]] (15 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (13 shared connections)
-- [[Community 165]] (5 shared connections)
-- [[Community 164]] (5 shared connections)
-- [[Community 106]] (3 shared connections)
+- [[Zoho Integration Skill]] (43 shared connections)
+- [[Dependencies & Package Config]] (8 shared connections)
+- [[Community 58]] (7 shared connections)
 
 ## Source Files
 
-- `src/components/PriceBlock.jsx`
-- `src/components/ProductCard.jsx`
-- `src/data/dealer.js`
-- `src/data/dealer.test.mjs`
-- `src/data/favoritesStore.js`
-- `src/pages/Favorites.jsx`
-- `src/pages/Product.jsx`
+- `src/data/auth.js`
+- `src/pages/DealerDashboard.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 283 (100%)
+- EXTRACTED: 290 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,49 +1,40 @@
 # Community 97
 
-> 18 nodes · cohesion 0.33
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **content.js** (19 connections) — `backend/src/services/content.js`
-- **zohoApiPlugin()** (13 connections) — `vite.config.js`
-- **content.js** (11 connections) — `api/content.js`
-- **content.js** (11 connections) — `backend/src/routes/content.js`
-- **handler()** (10 connections) — `api/content.js`
-- **getSupabaseBanners()** (9 connections) — `backend/src/services/content.js`
-- **getSupabaseSchemes()** (8 connections) — `backend/src/services/content.js`
-- **fetchZohoBanners()** (7 connections) — `api/zoho.js`
-- **fetchZohoSchemes()** (7 connections) — `api/zoho.js`
-- **getSupabaseBranding()** (7 connections) — `backend/src/services/content.js`
-- **getActiveContent()** (6 connections) — `backend/src/services/content.js`
-- **getHeroSliderSettings()** (6 connections) — `backend/src/services/content.js`
-- **saveHeroSliderSettings()** (5 connections) — `backend/src/services/content.js`
-- **deleteStoreContent()** (4 connections) — `backend/src/services/content.js`
-- **getAllStoreContent()** (4 connections) — `backend/src/services/content.js`
-- **toggleStoreContentActive()** (4 connections) — `backend/src/services/content.js`
-- **upsertStoreContent()** (4 connections) — `backend/src/services/content.js`
-- **formatGoogleDriveUrl()** (1 connections) — `backend/src/services/content.js`
+- **BACKEND-ARCHITECTURE.md — Dedicated Node Backend, Supabase Postgres & Zoho Ownership Model** (11 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **1. What is done in Zoho (setup checklist)** (4 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **6. Decision record — why this stack** (3 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **5. Storage — what the backend keeps** (2 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **BACKEND-ARCHITECTURE.md** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **0. The Ownership Rule — one sentence per system** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **1.1 CRM — dealers and staff** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **1.2 CRM — API access** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **1.3 Commerce** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **2. Backend responsibilities** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **3. Integration flows** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **4. Data movement** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **5.1 Schema (Supabase Postgres)** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **7. Service layout** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **8. Phased delivery** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **9. Migration checklist** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **Database: Supabase (chosen over Postgres-elsewhere and Firebase)** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **Runtime: dedicated Node.js 20 service (chosen over extending Vercel serverless)** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
 
 ## Relationships
 
-- [[Community 162]] (10 shared connections)
-- [[Community 34]] (9 shared connections)
-- [[Community 80]] (7 shared connections)
-- [[Client Products Data Store]] (4 shared connections)
-- [[Community 46]] (3 shared connections)
-- [[Community 247]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `api/content.js`
-- `api/zoho.js`
-- `backend/src/routes/content.js`
-- `backend/src/services/content.js`
-- `vite.config.js`
+- `docs/BACKEND-ARCHITECTURE.md`
 
 ## Audit Trail
 
-- EXTRACTED: 132 (97%)
-- INFERRED: 4 (3%)
+- EXTRACTED: 34 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import { useSession, revalidateSession } from "../data/session";
+import { Link, useNavigate } from "react-router-dom";
+import { useSession, revalidateSession, signOut } from "../data/session";
 import {
   staffInvite, staffList, staffApprove, staffHold, staffResume, staffRevoke, staffDelete,
   staffTogglePrice, staffTogglePriceAll,
@@ -12,6 +12,7 @@ import { generateLoginCode, formatLoginCode } from "../data/loginCode";
  * live Zoho CRM sync, and comprehensive staff permissions management.
  */
 export default function DealerDashboard() {
+  const navigate = useNavigate();
   const s = useSession();
   const [staff, setStaff] = useState([]);
   const [invite, setInvite] = useState(null);
@@ -259,9 +260,29 @@ export default function DealerDashboard() {
                 fontSize: 14,
                 boxShadow: "0 1px 4px rgba(0,0,0,0.12)",
               }}
+              title={`Store: ${s.dealer?.name || 'Dealership'}`}
             >
               {storeInitial}
             </div>
+            <button
+              type="button"
+              className="dealer-ws-back-btn"
+              onClick={async () => {
+                await signOut();
+                navigate("/login");
+              }}
+              title="Log Out of Dealership"
+              aria-label="Log Out"
+              style={{
+                color: "var(--err, #dc2626)",
+                border: "1px solid rgba(220, 38, 38, 0.25)",
+                background: "#fef2f2",
+              }}
+            >
+              <span className="material-symbols-outlined" style={{ fontSize: 18 }}>
+                logout
+              </span>
+            </button>
           </div>
         </div>
       </header>

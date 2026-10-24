@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { COMPANY, NAV } from "./data/site";
-import { isDealer, useSession } from "./data/session";
+import { isDealer, useSession, signOut } from "./data/session";
 import { dealerById } from "./data/dealer";
 import { useLanguage } from "./data/i18n";
 import { isPortalGated } from "./data/portalGate";
@@ -244,6 +244,13 @@ const PATHS = {
       <path d="m9.5 10.5 7-7" />
     </>
   ),
+  logout: (
+    <>
+      <path d="M7 3.5H4a1.5 1.5 0 0 0-1.5 1.5v10A1.5 1.5 0 0 0 4 16.5h3" />
+      <path d="M12 6.5 15.5 10 12 13.5" />
+      <path d="M15.5 10H7" />
+    </>
+  ),
 };
 
 export function Icon({ name, size = 18, ...rest }) {
@@ -335,16 +342,17 @@ function AccountLink({ className = "" }) {
   const s = useSession();
   const dealer = isDealer(s) ? (dealerById(s.dealerId) || s.dealer) : null;
   const isPending = s && (s.status === "pending" || s.dealer?.status === "pending");
+  const isAuthenticated = s && s.role !== "guest";
 
   if (isPending) {
     return (
       <Link className={`acct ${className}`.trim()} to="/dealer/pending" title="Dealership application under review · Click to check status">
         <span className="acct-dot" style={{ background: "var(--amber-500, #f59e0b)", color: "#fff" }} aria-hidden="true">
-          ⏳
+          <Icon name="clock" size={13} />
         </span>
         <span>
           <b>{s.dealer?.business_name || s.dealer?.name || "Dealer App"}</b>
-          <span style={{ color: "#d97706", fontWeight: 700 }}>● Under Review</span>
+          <span style={{ color: "#d97706", fontWeight: 700 }}>Under Review</span>
         </span>
       </Link>
     );
@@ -352,13 +360,27 @@ function AccountLink({ className = "" }) {
 
   if (dealer) {
     return (
-      <Link className={`acct ${className}`.trim()} to="/dealer" title={`Active Dealer: ${dealer.name} · Click to manage`}>
+      <Link className={`acct ${className}`.trim()} to="/dealer" title={`Active Dealer: ${dealer.name} · Click for Workspace`}>
         <span className="acct-dot" aria-hidden="true">
           {dealer.name.slice(0, 1).toUpperCase()}
         </span>
         <span>
           <b>{dealer.name}</b>
-          <span style={{ color: "#16a34a", fontWeight: 700 }}>● Dealer ({dealer.dealer_code || "Active"})</span>
+          <span style={{ color: "#16a34a", fontWeight: 700 }}>Dealer ({dealer.dealer_code || "Active"})</span>
+        </span>
+      </Link>
+    );
+  }
+
+  if (isAuthenticated) {
+    return (
+      <Link className={`acct ${className}`.trim()} to="/login" title={`Logged in as ${s.fullName || 'User'} · Click to manage`}>
+        <span className="acct-dot" style={{ background: "var(--navy-2, #174d7a)", color: "#fff" }} aria-hidden="true">
+          {s.fullName ? s.fullName.charAt(0).toUpperCase() : <Icon name="user" size={14} />}
+        </span>
+        <span>
+          <b>{s.fullName || "My Account"}</b>
+          <span style={{ color: "var(--tx-2, #475569)" }}>Active Session</span>
         </span>
       </Link>
     );
@@ -385,6 +407,7 @@ export function Header() {
   const isGated = isPortalGated(s);
   const { count: favCount } = useFavorites();
   const dealer = isDealer(s) ? (dealerById(s.dealerId) || s.dealer) : null;
+  const isAuthenticated = s && s.role !== "guest";
 
   useEffect(() => {
     setOpen(false);
@@ -419,6 +442,30 @@ export function Header() {
           <div className="nav-drawer-actions">
             <LangToggle />
             <AccountLink />
+            {isAuthenticated && (
+              <button
+                type="button"
+                onClick={async () => {
+                  await signOut();
+                  window.location.href = "/login";
+                }}
+                className="btn btn-ghost btn-block"
+                style={{
+                  color: "var(--err, #dc4545)",
+                  borderColor: "rgba(220, 69, 69, 0.3)",
+                  minHeight: 46,
+                  fontWeight: 700,
+                  marginTop: 8,
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  gap: 8,
+                }}
+              >
+                <Icon name="logout" size={15} />
+                <span>Log Out ({s.fullName || s.dealer?.name || "Account"})</span>
+              </button>
+            )}
           </div>
         </nav>
 
@@ -446,9 +493,67 @@ export function Header() {
           )}
           <LangToggle />
           <AccountLink />
+          {isAuthenticated && (
+            <button
+              type="button"
+              onClick={async () => {
+                await signOut();
+                window.location.href = "/login";
+              }}
+              className="hdr-logout-btn"
+              title="Log Out of your account"
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                gap: 5,
+                padding: "6px 12px",
+                borderRadius: "var(--r-sm, 10px)",
+                border: "1px solid var(--line, #dce4ed)",
+                background: "#fff",
+                color: "var(--err, #dc4545)",
+                fontSize: "0.82rem",
+                fontWeight: 700,
+                cursor: "pointer",
+                height: 38,
+                transition: "all 0.15s ease",
+              }}
+            >
+              <Icon name="logout" size={14} />
+              <span>Log Out</span>
+            </button>
+          )}
         </div>
 
         <div className="hdr-mobile-right">
+          {isAuthenticated && (
+            <button
+              type="button"
+              onClick={async () => {
+                await signOut();
+                window.location.href = "/login";
+              }}
+              className="hdr-mobile-logout-btn"
+              title="Log Out"
+              aria-label="Log Out"
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                justifyContent: "center",
+                width: 38,
+                height: 38,
+                borderRadius: "50%",
+                border: "1px solid var(--line, #dce4ed)",
+                background: "#fff",
+                color: "var(--err, #dc4545)",
+                cursor: "pointer",
+                padding: 0,
+                boxShadow: "0 1px 4px rgba(0,0,0,0.04)",
+              }}
+            >
+              <Icon name="logout" size={16} />
+            </button>
+          )}
+
           <Link
             to="/login"
             className="hdr-profile-avatar-btn"

@@ -2,7 +2,7 @@
 
 > God node · 43 connections · `.agents/skills/archify/renderers/shared/geometry.mjs`
 
-**Community:** [[Live Pricing Audit Tool]]
+**Community:** [[Zoho Backend & Proxy Endpoints]]
 
 ## Connections by Relation
 

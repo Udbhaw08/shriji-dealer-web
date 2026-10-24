@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Third-party notices** (5 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **THIRD_PARTY_NOTICES.md** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **JetBrains Mono** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **No additional rights granted** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **OpenAI mark** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **Simple Icons** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
+- **Activity views** (5 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **activity-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **Share and action extensions** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
+- `.agents/skills/apple-design/references/hig/activity-views.md`
 
 ## Audit Trail
 

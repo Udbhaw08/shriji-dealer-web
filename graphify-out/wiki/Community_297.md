@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **MockStorage** (6 connections) — `src/data/auth-session.test.mjs`
-- **auth-session.test.mjs** (1 connections) — `src/data/auth-session.test.mjs`
-- **.clear()** (1 connections) — `src/data/auth-session.test.mjs`
-- **.constructor()** (1 connections) — `src/data/auth-session.test.mjs`
-- **.getItem()** (1 connections) — `src/data/auth-session.test.mjs`
-- **.removeItem()** (1 connections) — `src/data/auth-session.test.mjs`
-- **.setItem()** (1 connections) — `src/data/auth-session.test.mjs`
+- **Entering data** (5 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **entering-data.md** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `src/data/auth-session.test.mjs`
+- `.agents/skills/apple-design/references/hig/entering-data.md`
 
 ## Audit Trail
 

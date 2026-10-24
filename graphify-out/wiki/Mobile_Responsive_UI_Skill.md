@@ -1,58 +1,53 @@
 # Mobile Responsive UI Skill
 
-> 44 nodes · cohesion 0.08
+> 46 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **auth.js** (52 connections) — `backend/src/routes/auth.js`
-- **hash.js** (24 connections) — `backend/src/utils/hash.js`
-- **phase2DealerStaffOnboarding.test.mjs** (17 connections) — `backend/test/phase2DealerStaffOnboarding.test.mjs`
-- **onboardingVerification.test.mjs** (15 connections) — `backend/test/onboardingVerification.test.mjs`
-- **verifyOtpHash()** (10 connections) — `backend/src/utils/hash.js`
-- **hash.test.mjs** (9 connections) — `backend/test/hash.test.mjs`
-- **hashOtp()** (9 connections) — `backend/src/utils/hash.js`
-- **sha256()** (9 connections) — `backend/src/utils/hash.js`
-- **issueSession()** (5 connections) — `backend/src/routes/auth.js`
-- **generateOtp()** (5 connections) — `backend/src/utils/hash.js`
-- **hashPassword()** (5 connections) — `backend/src/utils/hash.js`
-- **isUserFullyOnboarded()** (4 connections) — `backend/src/routes/auth.js`
-- **resolveUserWithDealer()** (4 connections) — `backend/src/routes/auth.js`
-- **verifyPassword()** (4 connections) — `backend/src/utils/hash.js`
-- **findUserByEmail()** (3 connections) — `backend/src/routes/auth.js`
-- **publicUser()** (3 connections) — `backend/src/routes/auth.js`
-- **handleDealerRegistrationFinalize()** (3 connections) — `backend/src/routes/dealers.js`
-- **scryptKey()** (3 connections) — `backend/src/utils/hash.js`
-- **generateCode()** (2 connections) — `backend/src/utils/hash.js`
-- **randomToken()** (2 connections) — `backend/src/utils/hash.js`
-- **googleClient** (1 connections) — `backend/src/routes/auth.js`
-- **lastCrmSyncByDealerId** (1 connections) — `backend/src/routes/auth.js`
-- **strictLimit** (1 connections) — `backend/src/routes/auth.js`
-- **app** (1 connections) — `backend/test/onboardingVerification.test.mjs`
-- **authHeader()** (1 connections) — `backend/test/onboardingVerification.test.mjs`
-- *... and 19 more nodes in this community*
+- **ff()** (27 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **Tu()** (17 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **gl()** (14 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **pi()** (13 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **uu()** (13 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **delete()** (11 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **lu()** (11 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **vu()** (11 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **di()** (10 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **zl()** (10 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **hl()** (9 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **Iu()** (9 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **ku()** (9 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **mu()** (9 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **wl()** (9 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **jd()** (8 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **wa()** (8 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **bl()** (7 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **Eu()** (7 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **hc()** (7 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **yl()** (7 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **cu()** (6 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **fu()** (6 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **ju()** (6 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **kl()** (6 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [[Community 63]] (18 shared connections)
-- [[Community 44]] (17 shared connections)
-- [[Community 34]] (14 shared connections)
-- [[Community 179]] (9 shared connections)
-- [[Client Products Data Store]] (7 shared connections)
-- [[Community 177]] (3 shared connections)
-- [[Community 134]] (2 shared connections)
+- [[Dealer Auth & Session Management]] (52 shared connections)
+- [[Product Pages Specification]] (20 shared connections)
+- [[Product Brand & Business Vision]] (13 shared connections)
+- [[Graphify Agent Rules]] (10 shared connections)
+- [[Pricing Regression Test Suite]] (8 shared connections)
+- [[Community 37]] (7 shared connections)
+- [[Roles & Customer Sharing Spec]] (1 shared connections)
 
 ## Source Files
 
-- `backend/src/routes/auth.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/utils/hash.js`
-- `backend/test/hash.test.mjs`
-- `backend/test/onboardingVerification.test.mjs`
-- `backend/test/phase2DealerStaffOnboarding.test.mjs`
+- `ios/App/App/public/assets/index-BCLPPqt8.js`
 
 ## Audit Trail
 
-- EXTRACTED: 212 (100%)
+- EXTRACTED: 325 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

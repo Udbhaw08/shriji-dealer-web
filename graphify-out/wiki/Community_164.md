@@ -18,9 +18,9 @@
 
 ## Relationships
 
-- [[Community 41]] (5 shared connections)
-- [[Product Pages Specification]] (2 shared connections)
-- [[Community 50]] (1 shared connections)
+- [[Community 43]] (5 shared connections)
+- [[Dependencies & Package Config]] (2 shared connections)
+- [[Community 125]] (1 shared connections)
 
 ## Source Files
 

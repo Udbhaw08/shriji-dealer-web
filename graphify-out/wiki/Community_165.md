@@ -18,10 +18,10 @@
 
 ## Relationships
 
-- [[Product Pages Specification]] (9 shared connections)
-- [[Community 41]] (5 shared connections)
-- [[Community 50]] (2 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (1 shared connections)
+- [[Dependencies & Package Config]] (9 shared connections)
+- [[Community 43]] (5 shared connections)
+- [[Community 125]] (2 shared connections)
+- [[Zoho Integration Skill]] (1 shared connections)
 
 ## Source Files
 

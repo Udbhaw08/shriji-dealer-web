@@ -1,55 +1,53 @@
 # Pricing Regression Test Suite
 
-> 56 nodes · cohesion 0.08
+> 56 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **ot()** (22 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
-- **k()** (20 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
-- **nt()** (15 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
-- **ft()** (14 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
-- **lt()** (14 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
-- **A()** (12 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
-- **mt()** (12 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
-- **F()** (11 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
-- **be()** (10 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
-- **kt()** (10 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
-- **P()** (10 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
-- **tf()** (10 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
-- **yn()** (10 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
-- **af()** (9 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
-- **mn()** (9 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
-- **O()** (9 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
-- **ut()** (9 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
-- **at()** (8 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
-- **ct()** (8 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
-- **it()** (8 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
-- **L()** (8 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
-- **on()** (8 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
-- **ef()** (7 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
-- **kf()** (7 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
-- **lf()** (7 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **yc()** (20 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **ic()** (16 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **Md()** (15 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **s()** (15 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **nc()** (13 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **pa()** (12 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **xi()** (12 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **nl()** (11 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **wc()** (11 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **il()** (10 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **yh()** (10 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **hh()** (9 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **kd()** (9 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **Si()** (9 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **c()** (8 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **co()** (8 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **ec()** (7 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **gs()** (7 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **ha()** (7 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **Id()** (7 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **jc()** (7 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **mh()** (7 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **rc()** (7 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **ac()** (6 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **bi()** (6 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
 - *... and 31 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (65 shared connections)
-- [[Master Codebase Architecture Reference]] (22 shared connections)
-- [[Dependencies & Package Config]] (21 shared connections)
-- [[Community 69]] (12 shared connections)
-- [[Graphify Knowledge Graph Skill]] (12 shared connections)
-- [[Community 54]] (8 shared connections)
-- [[Vercel Deployment Routing]] (6 shared connections)
-- [[Community 92]] (4 shared connections)
-- [[Community 352]] (3 shared connections)
+- [[Dealer Auth & Session Management]] (66 shared connections)
+- [[Graphify Agent Rules]] (31 shared connections)
+- [[Product Brand & Business Vision]] (19 shared connections)
+- [[Roles & Customer Sharing Spec]] (18 shared connections)
+- [[Product Pages Specification]] (14 shared connections)
+- [[Community 37]] (9 shared connections)
+- [[Mobile Responsive UI Skill]] (8 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- `ios/App/App/public/assets/index-BCLPPqt8.js`
 
 ## Audit Trail
 
-- EXTRACTED: 397 (100%)
+- EXTRACTED: 385 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

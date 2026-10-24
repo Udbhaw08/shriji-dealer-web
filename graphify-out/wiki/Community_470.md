@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **fromSide** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **step** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- [[Zoho API Diagnostic Script]] (1 shared connections)
+- [[Graphify Workflow]] (1 shared connections)
 
 ## Source Files
 

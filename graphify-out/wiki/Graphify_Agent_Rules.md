@@ -1,47 +1,54 @@
 # Graphify Agent Rules
 
-> 41 nodes · cohesion 0.05
+> 42 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **Motion & Micro-interactions Guide** (13 connections) — `.agents/skills/refero-design/references/motion.md`
-- **8. Anti-Patterns** (7 connections) — `.agents/skills/refero-design/references/motion.md`
-- **1. The Motion Pyramid** (5 connections) — `.agents/skills/refero-design/references/motion.md`
-- **4. Micro-interactions That Work** (5 connections) — `.agents/skills/refero-design/references/motion.md`
-- **2. Timing That Actually Works** (4 connections) — `.agents/skills/refero-design/references/motion.md`
-- **3. Easing: Native Feel Without Cringe** (4 connections) — `.agents/skills/refero-design/references/motion.md`
-- **6. Reduced Motion: Not Optional** (4 connections) — `.agents/skills/refero-design/references/motion.md`
-- **5. Motion Tokens for Design Systems** (3 connections) — `.agents/skills/refero-design/references/motion.md`
-- **7. Libraries and Tools** (3 connections) — `.agents/skills/refero-design/references/motion.md`
-- **motion.md** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **9. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Animations Must Be Interruptible** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Basic Principle** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Buttons and Controls** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Component Mapping** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Critical: Never Use `transition: all`** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **CSS Shortcut** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **CSS Tokens** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Duration Reference** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **For Complex Scenarios** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **For Web/SaaS (React/Next)** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Implementation** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Inputs** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- *... and 16 more nodes in this community*
+- **al()** (40 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **ia()** (20 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **bc()** (18 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **lm()** (12 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **r()** (12 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **ta()** (10 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **Ci()** (9 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **da()** (8 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **kc()** (8 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **ma()** (8 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **no()** (8 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **oa()** (8 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **Sp()** (8 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **ao()** (7 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **cs()** (7 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **dc()** (6 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **fa()** (6 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **la()** (6 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **lh()** (6 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **oo()** (6 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **Ca()** (5 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **jl()** (5 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **qn()** (5 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **rl()** (5 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **im()** (4 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (51 shared connections)
+- [[Pricing Regression Test Suite]] (31 shared connections)
+- [[Product Pages Specification]] (22 shared connections)
+- [[Community 37]] (11 shared connections)
+- [[Mobile Responsive UI Skill]] (10 shared connections)
+- [[Product Brand & Business Vision]] (9 shared connections)
+- [[Roles & Customer Sharing Spec]] (9 shared connections)
+- [[Community 349]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/motion.md`
+- `ios/App/App/public/assets/index-BCLPPqt8.js`
 
 ## Audit Trail
 
-- EXTRACTED: 80 (100%)
+- EXTRACTED: 286 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

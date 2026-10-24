@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **make-scheme-pdfs.mjs** (1 connections) — `scripts/make-scheme-pdfs.mjs`
-- **createPdfWithJpg()** (1 connections) — `scripts/make-scheme-pdfs.mjs`
+- **checkout-line-endings.test.mjs** (1 connections) — `.agents/skills/archify/test/checkout-line-endings.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/checkout-line-endings.test.mjs`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `scripts/make-scheme-pdfs.mjs`
+- `.agents/skills/archify/test/checkout-line-endings.test.mjs`
 
 ## Audit Trail
 

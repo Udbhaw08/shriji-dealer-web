@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **generate-viewer.test.mjs** (3 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
-- **fixture()** (1 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
-- **fragments** (1 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
+- **proof-aperture.test.mjs** (3 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
+- **cssRule()** (1 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
+- **landing** (1 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/generate-viewer.test.mjs`
+- `.agents/skills/archify/test/proof-aperture.test.mjs`
 
 ## Audit Trail
 

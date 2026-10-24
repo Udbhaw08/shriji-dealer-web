@@ -1,48 +1,43 @@
 # Community 125
 
-> 14 nodes · cohesion 0.19
+> 14 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **findChrome()** (22 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **export-cleanup-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **viewer-identifiers-browser.test.mjs** (7 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **evaluate()** (4 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **executable()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **findOnPath()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **run()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **exported()** (2 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **Products.jsx** (25 connections) — `src/pages/Products.jsx`
+- **ProductSearchBar.jsx** (15 connections) — `src/components/ProductSearchBar.jsx`
+- **useProducts()** (12 connections) — `src/data/productsStore.js`
+- **searchHelper.js** (11 connections) — `src/data/searchHelper.js`
+- **ProductSearchBar()** (6 connections) — `src/components/ProductSearchBar.jsx`
+- **getSuggestions()** (5 connections) — `src/data/searchHelper.js`
+- **autocorrectQuery()** (4 connections) — `src/data/searchHelper.js`
+- **buildSearchDictionary()** (4 connections) — `src/data/searchHelper.js`
+- **getPopularSearches()** (2 connections) — `src/data/searchHelper.js`
+- **scoreProduct()** (2 connections) — `src/data/searchHelper.js`
+- **COLLOQUIAL_SYNONYMS** (1 connections) — `src/data/searchHelper.js`
+- **levenshteinDistance()** (1 connections) — `src/data/searchHelper.js`
+- **Group()** (1 connections) — `src/pages/Products.jsx`
+- **SORT_FNS** (1 connections) — `src/pages/Products.jsx`
 
 ## Relationships
 
-- [[Community 53]] (7 shared connections)
-- [[Community 49]] (6 shared connections)
-- [[Community 89]] (2 shared connections)
-- [[Community 61]] (2 shared connections)
-- [[Community 81]] (2 shared connections)
-- [[Community 144]] (1 shared connections)
-- [[Community 145]] (1 shared connections)
-- [[Community 123]] (1 shared connections)
-- [[Community 31]] (1 shared connections)
-- [[Community 181]] (1 shared connections)
-- [[Community 245]] (1 shared connections)
-- [[Community 146]] (1 shared connections)
+- [[Dependencies & Package Config]] (18 shared connections)
+- [[Community 43]] (12 shared connections)
+- [[Community 58]] (4 shared connections)
+- [[Community 165]] (2 shared connections)
+- [[Community 164]] (1 shared connections)
+- [[Zoho Integration Skill]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- `src/components/ProductSearchBar.jsx`
+- `src/data/productsStore.js`
+- `src/data/searchHelper.js`
+- `src/pages/Products.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 62 (100%)
+- EXTRACTED: 90 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

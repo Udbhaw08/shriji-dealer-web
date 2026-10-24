@@ -21,8 +21,8 @@
 
 ## Relationships
 
-- [[Project Readme & Layout]] (5 shared connections)
-- [[Community 78]] (5 shared connections)
+- [[Community 34]] (5 shared connections)
+- [[Community 108]] (5 shared connections)
 
 ## Source Files
 

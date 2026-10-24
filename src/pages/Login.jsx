@@ -223,17 +223,46 @@ export default function Login() {
   };
 
   const handleOtpDigitChange = (index, val) => {
-    const digit = val.replace(/\D/g, "").slice(-1);
+    const raw = val.replace(/\D/g, "");
+    if (!raw) {
+      const newOtp = [...otp];
+      newOtp[index] = "";
+      setOtp(newOtp);
+      return;
+    }
+
+    // MULTI-DIGIT PASTE / AUTOFILL (keyboard autofill or pasted string)
+    if (raw.length > 1) {
+      const digits = raw.slice(0, 6).split("");
+      const newOtp = [...otp];
+      const startIdx = raw.length >= 6 ? 0 : index;
+      for (let i = 0; i < 6; i++) {
+        if (i >= startIdx && digits[i - startIdx] !== undefined) {
+          newOtp[i] = digits[i - startIdx];
+        }
+      }
+      setOtp(newOtp);
+      if (error) setError(null);
+
+      const nextFocus = Math.min(startIdx + digits.length, 5);
+      otpInputRefs.current[nextFocus]?.focus();
+
+      const fullCode = newOtp.join("");
+      if (fullCode.length === 6) {
+        handleVerifyOtp(fullCode);
+      }
+      return;
+    }
+
+    // SINGLE DIGIT ENTRY
     const newOtp = [...otp];
-    newOtp[index] = digit;
+    newOtp[index] = raw;
     setOtp(newOtp);
     if (error) setError(null);
 
-    if (digit && index < 5) {
+    if (index < 5) {
       otpInputRefs.current[index + 1]?.focus();
-    }
-
-    if (digit && index === 5) {
+    } else if (index === 5) {
       const fullCode = newOtp.join("");
       if (fullCode.length === 6) {
         handleVerifyOtp(fullCode);
@@ -249,12 +278,14 @@ export default function Login() {
 
   const handleOtpPaste = (e) => {
     e.preventDefault();
-    const pasted = e.clipboardData.getData("text").replace(/\D/g, "").slice(0, 6);
+    const clip = e.clipboardData || window.clipboardData;
+    const pasted = (clip ? clip.getData("text") : "").replace(/\D/g, "").slice(0, 6);
     if (!pasted) return;
 
-    const newOtp = [...otp];
+    const digits = pasted.split("");
+    const newOtp = ["", "", "", "", "", ""];
     for (let i = 0; i < 6; i++) {
-      newOtp[i] = pasted[i] || "";
+      newOtp[i] = digits[i] || "";
     }
     setOtp(newOtp);
     if (error) setError(null);
@@ -494,9 +525,20 @@ export default function Login() {
                     setEmail("");
                     setPassword("");
                   }}
-                  style={{ color: "var(--err)", borderColor: "var(--line)", minHeight: 48 }}
+                  style={{
+                    color: "var(--err, #dc4545)",
+                    borderColor: "rgba(220, 69, 69, 0.3)",
+                    background: "#fef2f2",
+                    minHeight: 48,
+                    fontWeight: 700,
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    gap: 8,
+                  }}
                 >
-                  Log Out / Switch Account
+                  <Icon name="logout" size={16} />
+                  <span>Log Out / Switch Account</span>
                 </button>
               </div>
             </div>
@@ -1151,7 +1193,15 @@ export default function Login() {
 
                               <div
                                 onPaste={handleOtpPaste}
-                                style={{ display: "grid", gridTemplateColumns: "repeat(6, 1fr)", gap: 6, maxWidth: 300, margin: "0 auto" }}
+                                style={{
+                                  display: "grid",
+                                  gridTemplateColumns: "repeat(6, minmax(0, 1fr))",
+                                  gap: "clamp(6px, 1.8vw, 10px)",
+                                  width: "100%",
+                                  maxWidth: 340,
+                                  margin: "0 auto",
+                                  boxSizing: "border-box",
+                                }}
                               >
                                 {otp.map((digit, idx) => (
                                   <input
@@ -1159,20 +1209,31 @@ export default function Login() {
                                     ref={(el) => (otpInputRefs.current[idx] = el)}
                                     type="text"
                                     inputMode="numeric"
-                                    maxLength={1}
+                                    pattern="[0-9]*"
+                                    maxLength={6}
+                                    autoComplete={idx === 0 ? "one-time-code" : "off"}
                                     value={digit}
                                     onChange={(e) => handleOtpDigitChange(idx, e.target.value)}
                                     onKeyDown={(e) => handleOtpKeyDown(idx, e)}
+                                    onPaste={handleOtpPaste}
                                     disabled={loading}
                                     style={{
-                                      height: 48,
+                                      width: "100%",
+                                      minWidth: 0,
+                                      maxWidth: "100%",
+                                      boxSizing: "border-box",
+                                      height: 52,
+                                      padding: 0,
                                       textAlign: "center",
-                                      fontSize: "1.25rem",
+                                      fontSize: "1.3rem",
                                       fontWeight: 800,
-                                      borderRadius: 8,
-                                      border: digit ? "2px solid var(--navy)" : "1.5px solid var(--line)",
-                                      background: digit ? "var(--blue-50)" : "#fff",
+                                      borderRadius: 10,
+                                      border: digit ? "2px solid var(--navy, #10263a)" : "1.5px solid var(--line, #dce4ed)",
+                                      background: digit ? "var(--blue-50, #f0f7ff)" : "#fff",
+                                      color: "var(--navy, #10263a)",
                                       outline: "none",
+                                      boxShadow: digit ? "0 2px 8px rgba(16, 38, 58, 0.08)" : "none",
+                                      transition: "all 0.15s ease",
                                     }}
                                   />
                                 ))}

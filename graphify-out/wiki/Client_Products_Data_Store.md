@@ -33,13 +33,13 @@
 
 ## Relationships
 
-- [[Community 34]] (29 shared connections)
-- [[Community 63]] (24 shared connections)
+- [[Community 36]] (29 shared connections)
+- [[Community 65]] (24 shared connections)
 - [[Community 134]] (9 shared connections)
-- [[Mobile Responsive UI Skill]] (7 shared connections)
-- [[Community 44]] (4 shared connections)
-- [[Community 97]] (4 shared connections)
-- [[Community 395]] (1 shared connections)
+- [[Project Readme & Layout]] (7 shared connections)
+- [[Community 46]] (4 shared connections)
+- [[Community 96]] (4 shared connections)
+- [[Community 392]] (1 shared connections)
 
 ## Source Files
 

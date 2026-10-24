@@ -4,23 +4,24 @@
 
 ## Key Concepts
 
-- **focus** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **sync-supabase-content.js** (6 connections) — `backend/scripts/sync-supabase-content.js`
+- **syncAll()** (2 connections) — `backend/scripts/sync-supabase-content.js`
+- **__dirname** (1 connections) — `backend/scripts/sync-supabase-content.js`
+- **IMAGES** (1 connections) — `backend/scripts/sync-supabase-content.js`
+- **PROJECT_ROOT** (1 connections) — `backend/scripts/sync-supabase-content.js`
 
 ## Relationships
 
-- [[Community 176]] (1 shared connections)
+- [[Community 36]] (2 shared connections)
+- [[Client Products Data Store]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `backend/scripts/sync-supabase-content.js`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
