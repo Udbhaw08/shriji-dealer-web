@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import { validateSafeDownloadUrl } from "./ssrf.js";
+import { validateSafeDownloadUrl } from "./_lib/ssrf.js";
 
 export function wrapJpegInPdf(jpegBuf) {
   let imgWidth = 595;

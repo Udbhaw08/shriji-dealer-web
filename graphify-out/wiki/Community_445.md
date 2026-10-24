@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **cornerRadius** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **height** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 - **minimum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 - **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- [[Graphify Agent Rules]] (1 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (1 shared connections)
 
 ## Source Files
 

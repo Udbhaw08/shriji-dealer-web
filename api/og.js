@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
-import { fetchZohoProductById } from "./zoho.js";
-import { escapeHtml, sanitizeUrl, sanitizeHost } from "./htmlEscape.js";
+import { fetchZohoProductById } from "./_lib/zoho.js";
+import { escapeHtml, sanitizeUrl, sanitizeHost } from "./_lib/htmlEscape.js";
 
 /**
  * Serverless handler for product pages on Vercel.

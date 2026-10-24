@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Multitasking** (5 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Platform considerations** (4 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **multitasking.md** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Siri** (7 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Getting your app to work with Siri** (2 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **siri.md** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Customizing your app’s experience with Siri** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Editorial guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Sharing contextual information** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/multitasking.md`
+- `.agents/skills/apple-design/references/hig/siri.md`
 
 ## Audit Trail
 

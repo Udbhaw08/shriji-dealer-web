@@ -2,7 +2,7 @@
 
 > God node · 33 connections · `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
 
-**Community:** [[Community 44]]
+**Community:** [[Community 33]]
 
 ## Connections by Relation
 

@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Path controls** (4 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
-- **path-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
+- **Shriji Domestic Appliances — Sunshine Dealer Web** (4 connections) — `README.md`
+- **README.md** (1 connections) — `README.md`
+- **Documentation** (1 connections) — `README.md`
+- **Layout** (1 connections) — `README.md`
+- **Two things to know before you change anything** (1 connections) — `README.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/path-controls.md`
+- `README.md`
 
 ## Audit Trail
 

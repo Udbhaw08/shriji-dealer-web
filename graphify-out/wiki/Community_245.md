@@ -1,30 +1,33 @@
 # Community 245
 
-> 9 nodes · cohesion 0.22
+> 9 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **relationship-permalink.test.mjs** (8 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **fixture()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **relationshipKey()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **viewer-camera-browser.test.mjs** (11 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **run()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **stable()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **viewport()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **screenshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 59]] (4 shared connections)
+- [[Graphify Workflow]] (1 shared connections)
+- [[Community 147]] (1 shared connections)
+- [[Community 126]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 31 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

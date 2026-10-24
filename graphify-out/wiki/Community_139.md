@@ -1,37 +1,34 @@
 # Community 139
 
-> 14 nodes · cohesion 0.14
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **workflow-migration.test.mjs** (22 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **copyFixture()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **explicitPinConflictWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **fixture** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **heightConstrainedWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **parseJsonOutput()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **profileDivergenceWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **runMigration()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **runValidation()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **Shriji Dealer Backend — Render Deployment Runbook** (7 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **5. Connecting Frontend to the Live Backend** (4 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **2. Choosing Your Deployment Method** (3 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **RENDER-DEPLOYMENT-RUNBOOK.md** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **1. In Vercel (or production frontend host):** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **1. Summary of Changes Made to Prepare the Codebase** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **2. In Local `.env.local` (for testing):** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **3. Environment Variables Reference** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **3. In Zoho CRM Workflow (Dealer Approval Webhook):** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **4. Free vs. Starter Plan Note** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **6. How to Verify After Deployment** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **Method A: One-Click Render Blueprint (Recommended)** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **Method B: Manual Web Service Setup (Step-by-Step)** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
 
 ## Relationships
 
-- [[Community 296]] (5 shared connections)
-- [[Community 132]] (3 shared connections)
-- [[Community 81]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/workflow-migration.test.mjs`
+- `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 24 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

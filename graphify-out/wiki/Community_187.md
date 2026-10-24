@@ -1,20 +1,19 @@
 # Community 187
 
-> 11 nodes · cohesion 0.18
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **release-package-gates.test.mjs** (10 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **canonicalZipTest()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **centralDirectoryModes()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **currentNodeMajor** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **spawnBuildZip()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **stagedFixture()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **workflowJob()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **workflowStep()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
-- **writeArchive()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **Maps** (7 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Place cards** (3 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **maps.md** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Adding place cards outside of a map** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Custom information** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Displaying place cards in a map** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Indoor maps** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
 
 ## Relationships
 
@@ -22,11 +21,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/release-package-gates.test.mjs`
+- `.agents/skills/apple-design/references/hig/maps.md`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

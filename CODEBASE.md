@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-24T20:53:51.722+05:30 (GMT+5:30)
-> Total Project Files: 1807
+> Last synchronized: 2026-10-24T23:28:53.436+05:30 (GMT+5:30)
+> Total Project Files: 1851
 
 ---
 
@@ -144,20 +144,20 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 
 ### 4.4 Zoho API & Serverless Handlers (`api/`)
 - **`api/admin/login.js`** (2.4 KB)
-- **`api/adminAuth.js`** (1.6 KB)
 - **`api/content.js`** (4.7 KB)
 - **`api/dealer/apply.js`** (1.0 KB)
 - **`api/dealer/info.js`** (1.9 KB)
-- **`api/dealerPricingAuth.js`** (4.0 KB)
 - **`api/download.js`** (8.0 KB)
-- **`api/htmlEscape.js`** (1.1 KB)
 - **`api/og.js`** (4.9 KB)
 - **`api/products/index.js`** (1.8 KB)
 - **`api/products/sync-tags.js`** (0.8 KB)
 - **`api/products/[id].js`** (2.0 KB)
-- **`api/ssrf.js`** (5.6 KB)
 - **`api/upload.js`** (10.6 KB)
-- **`api/zoho.js`** (42.5 KB)
+- **`api/_lib/adminAuth.js`** (1.6 KB)
+- **`api/_lib/dealerPricingAuth.js`** (4.0 KB)
+- **`api/_lib/htmlEscape.js`** (1.1 KB)
+- **`api/_lib/ssrf.js`** (5.6 KB)
+- **`api/_lib/zoho.js`** (42.5 KB)
 
 ### 4.5 Automation & Utility Scripts (`scripts/`)
 - **`scripts/audit_prices.mjs`** (3.8 KB)

@@ -1,35 +1,31 @@
 # Community 185
 
-> 11 nodes · cohesion 0.29
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **reader-layout-browser.test.mjs** (13 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **load()** (6 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **evaluate()** (5 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **media()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **stable()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **viewport()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **inactive()** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **variant()** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **Layout** (7 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Adaptability** (2 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **layout.md** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Guides and safe areas** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Size classes** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Visual hierarchy** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
 
 ## Relationships
 
-- [[Community 54]] (4 shared connections)
-- [[Community 49]] (1 shared connections)
-- [[Community 82]] (1 shared connections)
-- [[Community 127]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- `.agents/skills/apple-design/references/hig/layout.md`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

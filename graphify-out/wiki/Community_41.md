@@ -1,62 +1,55 @@
 # Community 41
 
-> 35 nodes · cohesion 0.09
+> 36 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **render-dataflow.mjs** (78 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **legend.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **renderLegend()** (14 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **svgAccessibleText()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **svgRootAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **renderDefinitions()** (11 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **resolveLegend()** (10 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **renderSvg()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderLegend()** (6 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **legendFootprint()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **measureLegend()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **stageX()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **componentFill** (5 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **componentText** (4 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **lifecycleAreaBottom()** (3 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **measureNode()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **routeVia()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **stageFrame()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **legendY()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderLifecycleRail()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- *... and 10 more nodes in this community*
+- **Or()** (23 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **jr()** (22 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **gf()** (21 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **af()** (10 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **Ar()** (9 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **hr()** (9 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **mr()** (8 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **qr()** (8 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **Fr()** (7 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **Oi()** (7 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **xr()** (7 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **Ir()** (6 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **pr()** (6 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **Rr()** (6 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **wr()** (6 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **bn()** (5 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **br()** (5 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **qf()** (5 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **sm()** (5 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **ur()** (5 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **Vr()** (5 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **xn()** (5 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **gr()** (4 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **Ld()** (4 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **Lr()** (4 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [[Graphify Knowledge Graph Skill]] (35 shared connections)
-- [[Product Pages Specification]] (33 shared connections)
-- [[Community 37]] (27 shared connections)
-- [[Architecture Doc Generator]] (14 shared connections)
-- [[Zoho Integration Architecture]] (10 shared connections)
-- [[Community 105]] (10 shared connections)
-- [[Community 81]] (10 shared connections)
-- [[Testing & Workflow Skill]] (1 shared connections)
+- [[Price Presentation & Product UI]] (37 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (12 shared connections)
+- [[Graphify Knowledge Graph Skill]] (8 shared connections)
+- [[Master Codebase Architecture Reference]] (5 shared connections)
+- [[Community 52]] (4 shared connections)
+- [[Community 33]] (4 shared connections)
+- [[Product Brand & Business Vision]] (2 shared connections)
+- [[Community 58]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/cli.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/legend.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
 
 ## Audit Trail
 
-- EXTRACTED: 249 (99%)
-- INFERRED: 3 (1%)
+- EXTRACTED: 237 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

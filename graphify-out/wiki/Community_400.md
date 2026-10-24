@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **Status bars** (3 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
-- **status-bars.md** (1 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
+- **Using modern SwiftUI API** (3 connections) — `.agents/skills/swiftui-pro/references/api.md`
+- **api.md** (1 connections) — `.agents/skills/swiftui-pro/references/api.md`
+- **Toolbars** (1 connections) — `.agents/skills/swiftui-pro/references/api.md`
+- **Using ObservableObject** (1 connections) — `.agents/skills/swiftui-pro/references/api.md`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/status-bars.md`
+- `.agents/skills/swiftui-pro/references/api.md`
 
 ## Audit Trail
 

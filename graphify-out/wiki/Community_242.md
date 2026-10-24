@@ -1,31 +1,32 @@
 # Community 242
 
-> 9 nodes · cohesion 0.22
+> 9 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **authored-reachability.test.mjs** (8 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **reachabilityFunction()** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **release-identity.test.mjs** (8 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **writeFile()** (5 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **stableUpdateManifest()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **writeValidDevelopmentFixture()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **writeValidStableFixture()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **checker** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **runCheck()** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 79]] (1 shared connections)
+- [[Community 356]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/authored-reachability.test.mjs`
+- `.agents/skills/archify/test/release-identity.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 24 (92%)
+- INFERRED: 2 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

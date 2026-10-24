@@ -1,45 +1,43 @@
 # Community 112
 
-> 16 nodes · cohesion 0.33
+> 17 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **fetchZohoProductById()** (18 connections) — `api/zoho.js`
-- **fetchZohoProducts()** (16 connections) — `api/zoho.js`
-- **zohoApiPlugin()** (15 connections) — `vite.config.js`
-- **fetchZohoWithRetry()** (12 connections) — `api/zoho.js`
-- **getZohoConfig()** (12 connections) — `api/zoho.js`
-- **fetchAllRawZohoProducts()** (8 connections) — `api/zoho.js`
-- **fetchZohoCategories()** (8 connections) — `api/zoho.js`
-- **fetchZohoBanners()** (7 connections) — `api/zoho.js`
-- **fetchZohoSchemes()** (7 connections) — `api/zoho.js`
-- **getCategoryVisibilityMap()** (7 connections) — `api/zoho.js`
-- **getDealerById()** (7 connections) — `api/zoho.js`
-- **fetchZohoPricebookItems()** (6 connections) — `api/zoho.js`
-- **resolvePricebookId()** (5 connections) — `api/zoho.js`
-- **fetchZohoPricebooks()** (4 connections) — `api/zoho.js`
-- **fetchZohoRawCategories()** (4 connections) — `api/zoho.js`
-- **readProductsDiskCache()** (3 connections) — `api/zoho.js`
+- **checkForUpdate()** (19 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **commitOperation()** (14 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **acknowledgeUpdate()** (13 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cancelOperation()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **resultForCandidate()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **silent()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **resultAfterLosingOperation()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **readJsonFile()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **transitionOperation()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **operationOwnsActiveClaim()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **runCli()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **freshStateResult()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **versionCacheDirectory()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertBoundedRegularFile()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **digestForEventKey()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **fetchCandidate()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **waitUntilRetry()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Relationships
 
-- [[Community 45]] (24 shared connections)
-- [[Community 111]] (10 shared connections)
-- [[Community 140]] (8 shared connections)
-- [[Community 104]] (7 shared connections)
-- [[Community 249]] (6 shared connections)
-- [[Community 146]] (2 shared connections)
-- [[Vercel Deployment Routing]] (2 shared connections)
+- [[Community 50]] (19 shared connections)
+- [[Community 104]] (12 shared connections)
+- [[Community 97]] (7 shared connections)
+- [[Community 67]] (3 shared connections)
+- [[Community 38]] (2 shared connections)
 
 ## Source Files
 
-- `api/zoho.js`
-- `vite.config.js`
+- `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 137 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 105 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

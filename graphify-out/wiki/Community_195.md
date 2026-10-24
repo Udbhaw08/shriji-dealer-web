@@ -1,31 +1,32 @@
 # Community 195
 
-> 10 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Notifications** (9 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **notifications.md** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Badging** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Notification actions** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **lanes** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **additionalProperties** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **required** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Agent Guidelines (AGENTS.md)]] (3 shared connections)
+- [[Community 118]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/notifications.md`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Right to left** (8 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **right-to-left.md** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Controls** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Images** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Interface icons** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Numbers and characters** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
-- **Text alignment** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
+- **web-D5B9-15S.js** (8 connections) — `ios/App/App/public/assets/web-D5B9-15S.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-D5B9-15S.js`
+- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-D5B9-15S.js`
+- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-D5B9-15S.js`
+- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-D5B9-15S.js`
+- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-D5B9-15S.js`
+- **getState()** (1 connections) — `ios/App/App/public/assets/web-D5B9-15S.js`
+- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-D5B9-15S.js`
+- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-D5B9-15S.js`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/right-to-left.md`
+- `ios/App/App/public/assets/web-D5B9-15S.js`
 
 ## Audit Trail
 

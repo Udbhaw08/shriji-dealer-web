@@ -1,27 +1,30 @@
 # Community 349
 
-> 6 nodes · cohesion 0.33
+> 6 nodes · cohesion 0.53
 
 ## Key Concepts
 
-- **Printing** (4 connections) — `.agents/skills/apple-design/references/hig/printing.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/printing.md`
-- **printing.md** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
+- **syncRecentProductTags()** (7 connections) — `api/_lib/zoho.js`
+- **readTagCache()** (6 connections) — `api/_lib/zoho.js`
+- **updateCachedProductTags()** (4 connections) — `api/_lib/zoho.js`
+- **sync-tags.js** (4 connections) — `api/products/sync-tags.js`
+- **handler()** (3 connections) — `api/products/sync-tags.js`
+- **writeTagCache()** (2 connections) — `api/_lib/zoho.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 57]] (6 shared connections)
+- [[Community 131]] (2 shared connections)
+- [[Community 164]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/printing.md`
+- `api/_lib/zoho.js`
+- `api/products/sync-tags.js`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

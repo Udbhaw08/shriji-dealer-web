@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **SKILL.md** (3 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **Output Format** (3 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **ContentView.swift** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **Core Instructions** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **References** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **Summary** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **automatic-port-spread.test.mjs** (5 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- **connectionPoints()** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- **fanOutArchitecture()** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/automatic-port-spread.test.mjs`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/SKILL.md`
+- `.agents/skills/archify/test/automatic-port-spread.test.mjs`
 
 ## Audit Trail
 

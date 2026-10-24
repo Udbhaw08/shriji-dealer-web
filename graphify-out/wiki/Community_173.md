@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **Apple In-App Purchase** (5 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
-- **Auto-renewable subscriptions** (4 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
-- **Best practices** (3 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
-- **apple-in-app-purchase.md** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
-- **Helping people manage their subscriptions** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
-- **Making signup effortless** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
-- **Providing help** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
-- **Supporting Family Sharing** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
-- **Supporting offer codes** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Website & App Redesign Instructions** (7 connections) — `instructions.md`
+- **2. Tri-Skill Synthesis Engine** (4 connections) — `instructions.md`
+- **instructions.md** (1 connections) — `instructions.md`
+- **1. Core Purpose & Architectural Goals** (1 connections) — `instructions.md`
+- **3. Adaptive Platform UX Strategies** (1 connections) — `instructions.md`
+- **4. Mobile Responsiveness & Layout Hard Rules** (1 connections) — `instructions.md`
+- **5. Domain Rules for Shriji Dealer Web** (1 connections) — `instructions.md`
+- **6. Execution Flow for Redesign Tasks** (1 connections) — `instructions.md`
+- **Skill 1: `refero-design` (Website & Aesthetic Authority)** (1 connections) — `instructions.md`
+- **Skill 2: `apple-design` (HIG Standards & Design Audit Authority)** (1 connections) — `instructions.md`
+- **Skill 3: `swiftui-pro` (Mobile App Ergonomics & View Performance Authority)** (1 connections) — `instructions.md`
 
 ## Relationships
 
@@ -22,7 +22,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- `instructions.md`
 
 ## Audit Trail
 

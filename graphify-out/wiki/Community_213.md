@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **web-D5B9-15S.js** (8 connections) — `android/app/src/main/assets/public/assets/web-D5B9-15S.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-D5B9-15S.js`
-- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-D5B9-15S.js`
-- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-D5B9-15S.js`
-- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-D5B9-15S.js`
-- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-D5B9-15S.js`
-- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-D5B9-15S.js`
-- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-D5B9-15S.js`
-- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-D5B9-15S.js`
+- **Materials** (6 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **materials.md** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Liquid Glass** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Standard materials** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/web-D5B9-15S.js`
+- `.agents/skills/apple-design/references/hig/materials.md`
 
 ## Audit Trail
 

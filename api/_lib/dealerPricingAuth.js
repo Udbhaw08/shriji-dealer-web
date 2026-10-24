@@ -1,5 +1,5 @@
-import { verifyAccessToken } from "../backend/src/services/tokens.js";
-import { sql } from "../backend/src/db/pool.js";
+import { verifyAccessToken } from "../../backend/src/services/tokens.js";
+import { sql } from "../../backend/src/db/pool.js";
 
 const DEFAULT_DEALER_PRICEBOOK_ID = process.env.ZOHO_DEALER_PRICEBOOK_ID || "3334672000000547177";
 

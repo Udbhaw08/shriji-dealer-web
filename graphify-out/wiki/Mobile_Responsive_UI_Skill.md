@@ -1,69 +1,53 @@
 # Mobile Responsive UI Skill
 
-> 47 nodes · cohesion 0.08
+> 46 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **server.js** (39 connections) — `backend/src/server.js`
-- **pool.js** (33 connections) — `backend/src/db/pool.js`
-- **env.js** (16 connections) — `backend/src/config/env.js`
-- **catalog.js** (16 connections) — `backend/src/services/catalog.js`
-- **webhooks.js** (14 connections) — `backend/src/routes/webhooks.js`
-- **logger.js** (14 connections) — `backend/src/utils/logger.js`
-- **env** (13 connections) — `backend/src/config/env.js`
-- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
-- **log** (13 connections) — `backend/src/utils/logger.js`
-- **index.js** (11 connections) — `backend/src/jobs/index.js`
-- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
-- **health.js** (8 connections) — `backend/src/routes/health.js`
-- **syncCatalog()** (7 connections) — `backend/src/services/catalog.js`
-- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
-- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
-- **migrate()** (4 connections) — `backend/src/db/migrate.js`
-- **catalogFor()** (4 connections) — `backend/src/services/catalog.js`
-- **loadCatalog()** (4 connections) — `backend/src/services/catalog.js`
-- **applied()** (3 connections) — `backend/src/db/migrate.js`
-- **catalogSync()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **tokenCleanup()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **markPollRun()** (3 connections) — `backend/src/jobs/crmPoll.js`
-- **startJobs()** (3 connections) — `backend/src/jobs/index.js`
-- **migrate-content.js** (3 connections) — `backend/scripts/migrate-content.js`
-- **test-storage.js** (3 connections) — `backend/scripts/test-storage.js`
-- *... and 22 more nodes in this community*
+- **at()** (21 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **k()** (20 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **A()** (12 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **pt()** (12 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **dt()** (11 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **mt()** (11 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **ye()** (11 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **tf()** (10 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **st()** (9 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **xt()** (9 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **kf()** (8 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **lt()** (8 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **tt()** (8 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **ef()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **Gt()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **it()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **je()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **jn()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **lf()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **rt()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **uf()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **F()** (6 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **hf()** (6 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **of()** (6 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **qt()** (6 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [[Vercel Deployment Routing]] (34 shared connections)
-- [[Community 43]] (18 shared connections)
-- [[Community 35]] (18 shared connections)
-- [[Community 136]] (10 shared connections)
-- [[Community 80]] (8 shared connections)
-- [[Community 232]] (6 shared connections)
-- [[Community 111]] (3 shared connections)
-- [[Community 104]] (3 shared connections)
+- [[Dealer Auth & Session Management]] (56 shared connections)
+- [[Pricing Regression Test Suite]] (23 shared connections)
+- [[Community 47]] (17 shared connections)
+- [[Product Requirements Documentation]] (15 shared connections)
+- [[Dependencies & Package Config]] (13 shared connections)
+- [[Live Pricing Audit Tool]] (8 shared connections)
+- [[Architecture Doc Generator]] (6 shared connections)
 
 ## Source Files
 
-- `backend/scripts/migrate-content.js`
-- `backend/scripts/test-storage.js`
-- `backend/src/config/env.js`
-- `backend/src/db/migrate.js`
-- `backend/src/db/pool.js`
-- `backend/src/jobs/catalogSync.js`
-- `backend/src/jobs/crmPoll.js`
-- `backend/src/jobs/index.js`
-- `backend/src/routes/auth.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/routes/health.js`
-- `backend/src/routes/webhooks.js`
-- `backend/src/server.js`
-- `backend/src/services/catalog.js`
-- `backend/src/utils/logger.js`
-- `backend/test/priceGate.test.mjs`
+- `ios/App/App/public/assets/index-HNFh_-5t.js`
 
 ## Audit Trail
 
-- EXTRACTED: 282 (100%)
+- EXTRACTED: 308 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

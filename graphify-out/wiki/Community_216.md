@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Context menus** (6 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
-- **context-menus.md** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **Playing video** (6 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Integrating with the TV app** (3 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **playing-video.md** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Exiting playback** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Loading content** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/context-menus.md`
+- `.agents/skills/apple-design/references/hig/playing-video.md`
 
 ## Audit Trail
 

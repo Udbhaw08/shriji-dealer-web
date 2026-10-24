@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Controls** (7 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Camera experiences on a locked device** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Game controls** (7 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **game-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Keyboards** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Physical controllers** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Touch controls** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/controls.md`
+- `.agents/skills/apple-design/references/hig/game-controls.md`
 
 ## Audit Trail
 

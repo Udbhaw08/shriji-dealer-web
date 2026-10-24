@@ -1,47 +1,57 @@
 # Community 56
 
-> 26 nodes · cohesion 0.08
+> 27 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **Widgets** (9 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Best practices** (6 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Anatomy** (4 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Rendering modes** (4 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Mobile (iOS, iPadOS)** (3 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Specifications** (3 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **widgets.md** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Accented** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Accessory widgets** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Adding interactivity** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Appearances** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Apple HomeView** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Choosing margins and padding** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Displaying text in widgets** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Full-color** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **iOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **iPadOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Previews and placeholders** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **StandBy and CarPlay** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **System family widgets** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Updating widget content** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Using color** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- *... and 1 more nodes in this community*
+- **render-dataflow.mjs** (78 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **automaticPortSpread()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **chosenSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **defaultFromSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **defaultToSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **pathFor()** (8 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **connectionSides()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **arrowClassMap** (6 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **flowSides()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderFlowPath()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **stageX()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **transitionSides()** (5 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **componentFill** (5 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **componentText** (4 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **connectionEndpointSide()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **measureNode()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **routeVia()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **stageFrame()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **automaticPorts** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **compositionFrames** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **layout** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **LEGEND_CATALOG** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **nodes** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **nodeSteps** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Client Products Data Store]] (28 shared connections)
+- [[Zoho Integration Architecture]] (28 shared connections)
+- [[Community 29]] (17 shared connections)
+- [[Community 54]] (11 shared connections)
+- [[Roles & Customer Sharing Spec]] (10 shared connections)
+- [[Community 45]] (9 shared connections)
+- [[Pricing & Roles Skill]] (2 shared connections)
+- [[Community 40]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/widgets.md`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- `.agents/skills/archify/renderers/shared/geometry.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (100%)
+- EXTRACTED: 188 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,6 +1,6 @@
 # Dependencies & Package Config
 
-> 69 nodes · cohesion 0.07
+> 66 nodes · cohesion 0.07
 
 ## Key Concepts
 
@@ -26,21 +26,20 @@
 - **om()** (8 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
 - **tm()** (8 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
 - **tp()** (8 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **Gt()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **bl()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
 - **hn()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
 - **jm()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- *... and 44 more nodes in this community*
+- *... and 41 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (68 shared connections)
-- [[Pricing Regression Test Suite]] (26 shared connections)
-- [[Product Brand & Business Vision]] (22 shared connections)
-- [[Oxlint Linter Configuration]] (16 shared connections)
-- [[Community 164]] (13 shared connections)
-- [[Pricing & Roles Skill]] (9 shared connections)
-- [[Roles & Customer Sharing Spec]] (8 shared connections)
-- [[Community 53]] (3 shared connections)
+- [[Dealer Auth & Session Management]] (74 shared connections)
+- [[Live Pricing Audit Tool]] (24 shared connections)
+- [[Pricing Regression Test Suite]] (23 shared connections)
+- [[Mobile Responsive UI Skill]] (13 shared connections)
+- [[Architecture Doc Generator]] (11 shared connections)
+- [[Product Requirements Documentation]] (10 shared connections)
+- [[Community 47]] (6 shared connections)
 
 ## Source Files
 
@@ -48,7 +47,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 477 (100%)
+- EXTRACTED: 463 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

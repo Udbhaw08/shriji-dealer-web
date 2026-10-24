@@ -1,20 +1,19 @@
 # Community 184
 
-> 11 nodes · cohesion 0.18
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **multiAuth.test.mjs** (8 connections) — `backend/test/multiAuth.test.mjs`
-- **MockOAuth2Client** (3 connections) — `backend/test/multiAuth.test.mjs`
-- **app** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **db** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **.constructor()** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **.verifyIdToken()** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **mockSql()** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **resetDb()** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **startServer()** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **stopServer()** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **testEnv** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **App Shortcuts** (6 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Best practices** (2 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **app-shortcuts.md** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Editorial guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Responding to App Shortcuts** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
 
 ## Relationships
 
@@ -22,11 +21,11 @@
 
 ## Source Files
 
-- `backend/test/multiAuth.test.mjs`
+- `.agents/skills/apple-design/references/hig/app-shortcuts.md`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

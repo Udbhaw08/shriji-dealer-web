@@ -4,26 +4,26 @@
 
 ## Key Concepts
 
-- **wraps** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **via** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **animation.test.mjs** (7 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **NODE_COLLECTION** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **svgBlock()** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
 
 ## Relationships
 
-- [[Claude Agent Instructions]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `.agents/skills/archify/test/animation.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

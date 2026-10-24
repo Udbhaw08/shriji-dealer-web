@@ -33,8 +33,8 @@
 
 ## Relationships
 
-- [[Product Pages Specification]] (6 shared connections)
-- [[Community 49]] (4 shared connections)
+- [[Zoho Integration Architecture]] (6 shared connections)
+- [[Graphify Workflow]] (4 shared connections)
 
 ## Source Files
 

@@ -10,7 +10,7 @@
 
 ## Relationships
 
-- [[Zoho API Diagnostic Script]] (1 shared connections)
+- [[Vercel Deployment Routing]] (1 shared connections)
 
 ## Source Files
 

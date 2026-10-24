@@ -1,62 +1,64 @@
 # Community 49
 
-> 31 nodes · cohesion 0.12
+> 30 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **visual-check.mjs** (50 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **runVisualCheck()** (18 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **desktop-readability.mjs** (9 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **adaptive-reader-layout.test.mjs** (9 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **desktop-reader-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
-- **DESKTOP_READABILITY_VIEWPORT** (5 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **observationDiagnostics()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **safeUnlink()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **writeAtomic()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **baseReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **cleanupCaptureSidecars()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **contactSheetHtml()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **failureDiagnostic()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **persistReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **sha256()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **sidecarPaths()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **htmlEscape()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **observation()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **screenshotKey()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **viewportSubject()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **CAPTURE_VIEWPORTS** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **EXIT** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **THEMES** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **reader** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- *... and 6 more nodes in this community*
+- **server.js** (39 connections) — `backend/src/server.js`
+- **errorHandler.js** (9 connections) — `backend/src/middleware/errorHandler.js`
+- **securityPhase3.test.mjs** (9 connections) — `backend/test/securityPhase3.test.mjs`
+- **admin.js** (8 connections) — `backend/src/routes/admin.js`
+- **health.js** (8 connections) — `backend/src/routes/health.js`
+- **rateLimit.js** (7 connections) — `backend/src/middleware/rateLimit.js`
+- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
+- **rateLimit()** (6 connections) — `backend/src/middleware/rateLimit.js`
+- **migrate()** (4 connections) — `backend/src/db/migrate.js`
+- **applied()** (3 connections) — `backend/src/db/migrate.js`
+- **startJobs()** (3 connections) — `backend/src/jobs/index.js`
+- **errorHandler()** (3 connections) — `backend/src/middleware/errorHandler.js`
+- **adminRouter** (3 connections) — `backend/src/routes/admin.js`
+- **start()** (3 connections) — `backend/src/server.js`
+- **authRouter** (2 connections) — `backend/src/routes/auth.js`
+- **dealersRouter** (2 connections) — `backend/src/routes/dealers.js`
+- **healthRouter** (2 connections) — `backend/src/routes/health.js`
+- **webhooksRouter** (2 connections) — `backend/src/routes/webhooks.js`
+- **dir** (1 connections) — `backend/src/db/migrate.js`
+- **buckets** (1 connections) — `backend/src/middleware/rateLimit.js`
+- **loginRateLimit** (1 connections) — `backend/src/routes/admin.js`
+- **allowedOrigins** (1 connections) — `backend/src/server.js`
+- **app** (1 connections) — `backend/src/server.js`
+- **defaultOrigins** (1 connections) — `backend/src/server.js`
+- **envOrigins** (1 connections) — `backend/src/server.js`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [[Community 82]] (8 shared connections)
-- [[Community 127]] (6 shared connections)
-- [[Community 54]] (5 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (4 shared connections)
-- [[Community 64]] (3 shared connections)
-- [[Architecture Doc Generator]] (3 shared connections)
-- [[Community 141]] (2 shared connections)
-- [[Community 89]] (2 shared connections)
-- [[Community 103]] (2 shared connections)
-- [[Community 147]] (1 shared connections)
-- [[Community 148]] (1 shared connections)
-- [[Community 125]] (1 shared connections)
+- [[Community 68]] (13 shared connections)
+- [[Oxlint Linter Configuration]] (11 shared connections)
+- [[Product Pages Specification]] (7 shared connections)
+- [[Community 51]] (7 shared connections)
+- [[Zoho Integration Skill]] (4 shared connections)
+- [[Community 77]] (4 shared connections)
+- [[Community 86]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- `backend/src/db/migrate.js`
+- `backend/src/jobs/index.js`
+- `backend/src/middleware/errorHandler.js`
+- `backend/src/middleware/rateLimit.js`
+- `backend/src/routes/admin.js`
+- `backend/src/routes/auth.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/routes/health.js`
+- `backend/src/routes/webhooks.js`
+- `backend/src/server.js`
+- `backend/test/securityPhase3.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 150 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 131 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

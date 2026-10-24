@@ -1,33 +1,34 @@
 # Community 161
 
-> 12 nodes · cohesion 0.17
+> 12 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **Privacy** (8 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Requesting permission** (3 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **privacy.md** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Location button** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Pre-alert screens, windows, or views** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Protecting data** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Tracking requests** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **additionalProperties** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **required** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **messages** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **activations** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 75]] (4 shared connections)
+- [[Community 96]] (4 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/privacy.md`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

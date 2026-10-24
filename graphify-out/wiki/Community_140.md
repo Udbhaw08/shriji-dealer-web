@@ -1,42 +1,34 @@
 # Community 140
 
-> 13 nodes · cohesion 0.23
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **vite.config.js** (23 connections) — `vite.config.js`
-- **download.js** (6 connections) — `api/download.js`
-- **handler()** (5 connections) — `api/download.js`
-- **ssrf.js** (5 connections) — `api/ssrf.js`
-- **validateSafeDownloadUrl()** (5 connections) — `api/ssrf.js`
-- **safeFetchWithRedirects()** (3 connections) — `api/download.js`
-- **isPrivateOrReservedIp()** (3 connections) — `api/ssrf.js`
-- **wrapJpegInPdf()** (2 connections) — `api/download.js`
-- **DEFAULT_SCHEMES** (2 connections) — `api/zoho.js`
-- **DEFAULT_STORE_BANNERS** (2 connections) — `api/zoho.js`
-- **loadContentService()** (2 connections) — `vite.config.js`
-- **ALLOWED_REMOTE_HOSTS** (1 connections) — `api/ssrf.js`
-- **liveAutoSyncPlugin()** (1 connections) — `vite.config.js`
+- **Toolbars** (9 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Platform considerations** (4 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **toolbars.md** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Actions** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Item groupings** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Navigation** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Titles** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
 
 ## Relationships
 
-- [[Community 112]] (8 shared connections)
-- [[Community 104]] (5 shared connections)
-- [[Community 45]] (4 shared connections)
-- [[Community 35]] (3 shared connections)
-- [[Community 111]] (3 shared connections)
-- [[Community 249]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `api/download.js`
-- `api/ssrf.js`
-- `api/zoho.js`
-- `vite.config.js`
+- `.agents/skills/apple-design/references/hig/toolbars.md`
 
 ## Audit Trail
 
-- EXTRACTED: 60 (100%)
+- EXTRACTED: 24 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

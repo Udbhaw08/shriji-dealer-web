@@ -4,27 +4,28 @@
 
 ## Key Concepts
 
-- **web-D5B9-15S.js** (8 connections) — `ios/App/App/public/assets/web-D5B9-15S.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-D5B9-15S.js`
-- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-D5B9-15S.js`
-- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-D5B9-15S.js`
-- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-D5B9-15S.js`
-- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-D5B9-15S.js`
-- **getState()** (1 connections) — `ios/App/App/public/assets/web-D5B9-15S.js`
-- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-D5B9-15S.js`
-- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-D5B9-15S.js`
+- **semanticRelation** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **from** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **to** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Graphify Agent Rules]] (2 shared connections)
+- [[Community 197]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-D5B9-15S.js`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

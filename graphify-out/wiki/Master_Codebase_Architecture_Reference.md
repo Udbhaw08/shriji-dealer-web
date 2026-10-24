@@ -12,8 +12,8 @@
 - **jt()** (14 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
 - **bm()** (13 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
 - **h()** (13 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **lm()** (13 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
 - **.removeEventListener()** (12 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **r()** (11 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
 - **vn()** (11 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
 - **Zt()** (11 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
 - **am()** (10 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
@@ -24,23 +24,23 @@
 - **om()** (8 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
 - **tm()** (8 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
 - **tp()** (8 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **hn()** (7 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
 - **jm()** (7 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
 - **lp()** (7 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
 - **tn()** (7 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
 - **zm()** (7 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **cm()** (6 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
 - *... and 37 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (60 shared connections)
-- [[Live Pricing Audit Tool]] (21 shared connections)
-- [[Product Requirements Documentation]] (18 shared connections)
+- [[Price Presentation & Product UI]] (57 shared connections)
+- [[Product Brand & Business Vision]] (20 shared connections)
+- [[Graphify Knowledge Graph Skill]] (18 shared connections)
 - [[Zoho Backend & Proxy Endpoints]] (17 shared connections)
-- [[Community 44]] (15 shared connections)
-- [[Community 39]] (8 shared connections)
-- [[Community 40]] (7 shared connections)
-- [[Community 169]] (1 shared connections)
+- [[Community 33]] (17 shared connections)
+- [[Community 58]] (7 shared connections)
+- [[Community 41]] (5 shared connections)
+- [[Community 52]] (3 shared connections)
 
 ## Source Files
 
@@ -48,7 +48,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 423 (100%)
+- EXTRACTED: 424 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

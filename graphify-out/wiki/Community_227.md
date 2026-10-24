@@ -4,27 +4,38 @@
 
 ## Key Concepts
 
-- **Sheets** (6 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **sheets.md** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **Typography Guide** (18 connections) — `.agents/skills/refero-design/references/typography.md`
+- **13. AI-Slop Anti-Patterns** (3 connections) — `.agents/skills/refero-design/references/typography.md`
+- **typography.md** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **15. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **1. The Safe SaaS Preset** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Instant Red Flags** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Quick Test** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 382]] (1 shared connections)
+- [[Community 402]] (1 shared connections)
+- [[Community 383]] (1 shared connections)
+- [[Community 403]] (1 shared connections)
+- [[Community 404]] (1 shared connections)
+- [[Community 405]] (1 shared connections)
+- [[Community 384]] (1 shared connections)
+- [[Community 406]] (1 shared connections)
+- [[Community 407]] (1 shared connections)
+- [[Community 385]] (1 shared connections)
+- [[Community 228]] (1 shared connections)
+- [[Community 437]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/sheets.md`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

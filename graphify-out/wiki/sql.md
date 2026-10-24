@@ -2,7 +2,7 @@
 
 > God node · 76 connections · `backend/src/db/pool.js`
 
-**Community:** [[Vercel Deployment Routing]]
+**Community:** [[Oxlint Linter Configuration]]
 
 ## Connections by Relation
 
@@ -46,9 +46,9 @@
 - [[crmPoll.js]] `EXTRACTED`
 - [[auth.js]] `EXTRACTED`
 - [[upload.js]] `EXTRACTED`
-- [[dealerPricingAuth.js]] `EXTRACTED`
 - [[upload.js]] `EXTRACTED`
 - [[catalogSync.js]] `EXTRACTED`
+- [[dealerPricingAuth.js]] `EXTRACTED`
 - [[health.js]] `EXTRACTED`
 - [[uploads.js]] `EXTRACTED`
 - [[audit.js]] `EXTRACTED`

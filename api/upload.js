@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import crypto from "crypto";
 import { sql } from "../backend/src/db/pool.js";
-import { verifyAdminAuth } from "./adminAuth.js";
+import { verifyAdminAuth } from "./_lib/adminAuth.js";
 
 const ALLOWED_FOLDERS = ["hero-banners", "banners", "schemes", "branding", "circulars", "webstore-assets", "products"];
 

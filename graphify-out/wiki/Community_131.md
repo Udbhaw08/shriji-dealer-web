@@ -1,35 +1,41 @@
 # Community 131
 
-> 14 nodes · cohesion 0.23
+> 14 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **web-CUagVh65.js** (13 connections) — `ios/App/App/public/assets/web-CUagVh65.js`
-- **applyPrefix()** (4 connections) — `ios/App/App/public/assets/web-CUagVh65.js`
-- **keys()** (4 connections) — `ios/App/App/public/assets/web-CUagVh65.js`
-- **get()** (3 connections) — `ios/App/App/public/assets/web-CUagVh65.js`
-- **migrate()** (3 connections) — `ios/App/App/public/assets/web-CUagVh65.js`
-- **rawKeys()** (3 connections) — `ios/App/App/public/assets/web-CUagVh65.js`
-- **clear()** (2 connections) — `ios/App/App/public/assets/web-CUagVh65.js`
-- **remove()** (2 connections) — `ios/App/App/public/assets/web-CUagVh65.js`
-- **removeOld()** (2 connections) — `ios/App/App/public/assets/web-CUagVh65.js`
-- **set()** (2 connections) — `ios/App/App/public/assets/web-CUagVh65.js`
-- **configure()** (1 connections) — `ios/App/App/public/assets/web-CUagVh65.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-CUagVh65.js`
-- **impl()** (1 connections) — `ios/App/App/public/assets/web-CUagVh65.js`
-- **prefix()** (1 connections) — `ios/App/App/public/assets/web-CUagVh65.js`
+- **fetchZohoProductById()** (18 connections) — `api/_lib/zoho.js`
+- **fetchZohoProducts()** (14 connections) — `api/_lib/zoho.js`
+- **getZohoConfig()** (10 connections) — `api/_lib/zoho.js`
+- **fetchZohoWithRetry()** (9 connections) — `api/_lib/zoho.js`
+- **fetchAllRawZohoProducts()** (6 connections) — `api/_lib/zoho.js`
+- **fetchZohoPricebookItems()** (6 connections) — `api/_lib/zoho.js`
+- **getCategoryVisibilityMap()** (5 connections) — `api/_lib/zoho.js`
+- **resolvePricebookId()** (5 connections) — `api/_lib/zoho.js`
+- **fetchZohoPricebooks()** (4 connections) — `api/_lib/zoho.js`
+- **fetchZohoRawCategories()** (4 connections) — `api/_lib/zoho.js`
+- **getDealerById()** (4 connections) — `api/_lib/zoho.js`
+- **readProductDetailsDiskCache()** (3 connections) — `api/_lib/zoho.js`
+- **readProductsDiskCache()** (3 connections) — `api/_lib/zoho.js`
+- **writeProductDetailDiskCache()** (3 connections) — `api/_lib/zoho.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 57]] (17 shared connections)
+- [[Community 225]] (5 shared connections)
+- [[Community 164]] (5 shared connections)
+- [[Community 248]] (5 shared connections)
+- [[Community 349]] (2 shared connections)
+- [[Community 246]] (2 shared connections)
+- [[Community 142]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-CUagVh65.js`
+- `api/_lib/zoho.js`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 94 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

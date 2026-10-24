@@ -1,48 +1,63 @@
 # Graphify Workflow
 
-> 41 nodes · cohesion 0.05
+> 42 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **Motion & Micro-interactions Guide** (13 connections) — `.agents/skills/refero-design/references/motion.md`
-- **8. Anti-Patterns** (7 connections) — `.agents/skills/refero-design/references/motion.md`
-- **1. The Motion Pyramid** (5 connections) — `.agents/skills/refero-design/references/motion.md`
-- **4. Micro-interactions That Work** (5 connections) — `.agents/skills/refero-design/references/motion.md`
-- **2. Timing That Actually Works** (4 connections) — `.agents/skills/refero-design/references/motion.md`
-- **3. Easing: Native Feel Without Cringe** (4 connections) — `.agents/skills/refero-design/references/motion.md`
-- **6. Reduced Motion: Not Optional** (4 connections) — `.agents/skills/refero-design/references/motion.md`
-- **5. Motion Tokens for Design Systems** (3 connections) — `.agents/skills/refero-design/references/motion.md`
-- **7. Libraries and Tools** (3 connections) — `.agents/skills/refero-design/references/motion.md`
-- **motion.md** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **9. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Animations Must Be Interruptible** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Basic Principle** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Buttons and Controls** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Component Mapping** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Critical: Never Use `transition: all`** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **CSS Shortcut** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **CSS Tokens** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Duration Reference** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **For Complex Scenarios** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **For Web/SaaS (React/Next)** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Implementation** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- **Inputs** (1 connections) — `.agents/skills/refero-design/references/motion.md`
-- *... and 16 more nodes in this community*
+- **visual-check.mjs** (50 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **runVisualCheck()** (18 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **visual-check.test.mjs** (14 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **desktop-readability.mjs** (9 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **adaptive-reader-layout.test.mjs** (9 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **desktop-reader-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- **DESKTOP_READABILITY_VIEWPORT** (5 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **observationDiagnostics()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **safeUnlink()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **writeAtomic()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **baseReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **chromeVisualBrowserArgs()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **cleanupCaptureSidecars()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **contactSheetHtml()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **failureDiagnostic()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **persistReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **sha256()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **sidecarPaths()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **htmlEscape()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **observation()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **screenshotKey()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **viewportSubject()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **VISUAL_CHECK_VIEWPORTS** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **CAPTURE_VIEWPORTS** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **EXIT** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 147]] (7 shared connections)
+- [[Community 126]] (6 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (4 shared connections)
+- [[Community 69]] (3 shared connections)
+- [[Community 59]] (3 shared connections)
+- [[Roles & Customer Sharing Spec]] (3 shared connections)
+- [[Community 48]] (2 shared connections)
+- [[Community 93]] (2 shared connections)
+- [[Community 106]] (2 shared connections)
+- [[Community 143]] (1 shared connections)
+- [[Community 144]] (1 shared connections)
+- [[Community 135]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/motion.md`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- `.agents/skills/archify/test/visual-check.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 80 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 177 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

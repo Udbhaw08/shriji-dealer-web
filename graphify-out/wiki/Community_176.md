@@ -4,29 +4,31 @@
 
 ## Key Concepts
 
-- **Gestures** (7 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Specifications** (2 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **gestures.md** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Custom gestures** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Standard gestures** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **properties** (9 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **note** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **dot** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **maxLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 229]] (3 shared connections)
+- [[Community 389]] (1 shared connections)
+- [[Community 175]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/gestures.md`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 25 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

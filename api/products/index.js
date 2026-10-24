@@ -1,5 +1,5 @@
-import { fetchZohoProducts, fetchZohoCategories } from "../zoho.js";
-import { getDealerPricingEligibility, maskCatalogPricing } from "../dealerPricingAuth.js";
+import { fetchZohoProducts, fetchZohoCategories } from "../_lib/zoho.js";
+import { getDealerPricingEligibility, maskCatalogPricing } from "../_lib/dealerPricingAuth.js";
 
 export default async function handler(req, res) {
   res.setHeader("Access-Control-Allow-Origin", "*");

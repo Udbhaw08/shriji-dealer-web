@@ -1,55 +1,68 @@
 # Oxlint Linter Configuration
 
-> 47 nodes · cohesion 0.09
+> 45 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **fl()** (25 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **at()** (21 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **k()** (20 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **me()** (13 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **A()** (12 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **pt()** (12 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **dt()** (11 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **ml()** (11 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **mt()** (11 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **ye()** (11 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **be()** (9 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **pl()** (9 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **Se()** (9 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **st()** (9 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **xt()** (9 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **kf()** (8 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **lt()** (8 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **tt()** (8 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **I()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **it()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **je()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **jn()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **P()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **rt()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **F()** (6 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- *... and 22 more nodes in this community*
+- **sql** (76 connections) — `backend/src/db/pool.js`
+- **dealers.js** (46 connections) — `backend/src/routes/dealers.js`
+- **staff.js** (23 connections) — `backend/src/services/staff.js`
+- **audit()** (18 connections) — `backend/src/utils/audit.js`
+- **auth.js** (12 connections) — `backend/src/middleware/auth.js`
+- **generateUniqueDealerCode()** (10 connections) — `backend/src/utils/loginCode.js`
+- **applyDealer()** (7 connections) — `backend/src/services/dealerApp.js`
+- **audit.js** (7 connections) — `backend/src/utils/audit.js`
+- **sync-supabase-content.js** (6 connections) — `backend/scripts/sync-supabase-content.js`
+- **provisionDealerInCrm()** (6 connections) — `backend/src/services/dealerApp.js`
+- **createInvite()** (6 connections) — `backend/src/services/staff.js`
+- **jwtAuth()** (5 connections) — `backend/src/middleware/auth.js`
+- **requireAdmin()** (5 connections) — `backend/src/middleware/auth.js`
+- **seed-content.js** (4 connections) — `backend/scripts/seed-content.js`
+- **deactivateDealer()** (4 connections) — `backend/src/services/dealerApp.js`
+- **approveStaff()** (4 connections) — `backend/src/services/staff.js`
+- **deleteStaff()** (4 connections) — `backend/src/services/staff.js`
+- **holdStaff()** (4 connections) — `backend/src/services/staff.js`
+- **resumeStaff()** (4 connections) — `backend/src/services/staff.js`
+- **revokeStaff()** (4 connections) — `backend/src/services/staff.js`
+- **toggleAllStaffPrice()** (4 connections) — `backend/src/services/staff.js`
+- **toggleStaffPrice()** (4 connections) — `backend/src/services/staff.js`
+- **info.js** (3 connections) — `api/dealer/info.js`
+- **requireApprovedDealer()** (3 connections) — `backend/src/middleware/auth.js`
+- **inspect-db.js** (3 connections) — `backend/scripts/inspect-db.js`
+- *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (54 shared connections)
-- [[Pricing Regression Test Suite]] (31 shared connections)
-- [[Dependencies & Package Config]] (16 shared connections)
-- [[Community 53]] (15 shared connections)
-- [[Roles & Customer Sharing Spec]] (14 shared connections)
-- [[Product Brand & Business Vision]] (7 shared connections)
-- [[Community 164]] (6 shared connections)
-- [[Pricing & Roles Skill]] (6 shared connections)
+- [[Community 68]] (27 shared connections)
+- [[Zoho Integration Skill]] (27 shared connections)
+- [[Product Pages Specification]] (24 shared connections)
+- [[Community 49]] (11 shared connections)
+- [[Community 86]] (11 shared connections)
+- [[Community 77]] (10 shared connections)
+- [[Community 51]] (7 shared connections)
+- [[Community 225]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-HNFh_-5t.js`
+- `api/dealer/info.js`
+- `backend/scripts/check-readiness.js`
+- `backend/scripts/inspect-db.js`
+- `backend/scripts/seed-content.js`
+- `backend/scripts/setup-buckets.js`
+- `backend/scripts/setup-policies.js`
+- `backend/scripts/sync-supabase-content.js`
+- `backend/src/db/pool.js`
+- `backend/src/middleware/auth.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/services/staff.js`
+- `backend/src/utils/audit.js`
+- `backend/src/utils/loginCode.js`
 
 ## Audit Trail
 
-- EXTRACTED: 353 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 303 (99%)
+- INFERRED: 4 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

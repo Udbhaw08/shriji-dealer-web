@@ -4,29 +4,30 @@
 
 ## Key Concepts
 
-- **Dark Mode** (6 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Dark Mode colors** (3 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **dark-mode.md** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Icons and images** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Text** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **entries** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **legend** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **mode** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **properties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 91]] (1 shared connections)
+- [[Community 78]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/dark-mode.md`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

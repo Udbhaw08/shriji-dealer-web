@@ -1,54 +1,51 @@
 # Community 39
 
-> 36 nodes · cohesion 0.13
+> 37 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **Or()** (23 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **jr()** (22 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **gf()** (21 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **af()** (10 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **Ar()** (9 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **hr()** (9 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **mr()** (8 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **qr()** (8 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **Fr()** (7 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **Oi()** (7 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **xr()** (7 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **Ir()** (6 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **pr()** (6 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **Rr()** (6 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **wr()** (6 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **bn()** (5 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **br()** (5 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **qf()** (5 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **sm()** (5 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **ur()** (5 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **Vr()** (5 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **xn()** (5 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **gr()** (4 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **Ld()** (4 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **Lr()** (4 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- *... and 11 more nodes in this community*
+- **auth.js** (52 connections) — `src/data/auth.js`
+- **json()** (31 connections) — `src/data/auth.js`
+- **callBackend()** (28 connections) — `src/data/auth.js`
+- **DealerDashboard.jsx** (23 connections) — `src/pages/DealerDashboard.jsx`
+- **broadcastAuthChange()** (13 connections) — `src/data/auth.js`
+- **EmailVerificationPrompt.jsx** (10 connections) — `src/components/EmailVerificationPrompt.jsx`
+- **applyAuthResponse()** (9 connections) — `src/data/auth.js`
+- **finalizeDealerRegistration()** (7 connections) — `src/data/auth.js`
+- **staffSignup()** (7 connections) — `src/data/auth.js`
+- **logout()** (6 connections) — `src/data/auth.js`
+- **verifyEmailOtp()** (6 connections) — `src/data/auth.js`
+- **fetchMe()** (5 connections) — `src/data/auth.js`
+- **googleLogin()** (5 connections) — `src/data/auth.js`
+- **login()** (5 connections) — `src/data/auth.js`
+- **lookupStaffCode()** (5 connections) — `src/data/auth.js`
+- **requestEmailOtp()** (5 connections) — `src/data/auth.js`
+- **signup()** (5 connections) — `src/data/auth.js`
+- **staffTogglePrice()** (5 connections) — `src/data/auth.js`
+- **staffTogglePriceAll()** (5 connections) — `src/data/auth.js`
+- **verifyOtp()** (5 connections) — `src/data/auth.js`
+- **verifyPhoneOtp()** (5 connections) — `src/data/auth.js`
+- **persistTokens()** (4 connections) — `src/data/auth.js`
+- **requestOtp()** (4 connections) — `src/data/auth.js`
+- **requestPhoneOtp()** (4 connections) — `src/data/auth.js`
+- **staffApprove()** (4 connections) — `src/data/auth.js`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (37 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (11 shared connections)
-- [[Product Requirements Documentation]] (8 shared connections)
-- [[Master Codebase Architecture Reference]] (8 shared connections)
-- [[Community 40]] (3 shared connections)
-- [[Community 169]] (2 shared connections)
-- [[Live Pricing Audit Tool]] (2 shared connections)
-- [[Community 44]] (2 shared connections)
+- [[Zoho API Diagnostic Script]] (48 shared connections)
+- [[Community 99]] (9 shared connections)
+- [[Design System & UI Tokens]] (8 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- `src/components/EmailVerificationPrompt.jsx`
+- `src/data/auth.js`
+- `src/pages/DealerDashboard.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 237 (100%)
+- EXTRACTED: 303 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

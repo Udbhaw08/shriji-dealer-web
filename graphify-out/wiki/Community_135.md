@@ -1,35 +1,39 @@
 # Community 135
 
-> 14 nodes · cohesion 0.14
+> 14 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **generate-brand-marks.mjs** (13 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **catalog** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **catalogPath** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **domains** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **fail()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **generated** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **here** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **ids** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **lookupForms()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **lookupKeys** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **normalizedList()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **outputPath** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **root** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **simpleBySlug** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **i18n.test.mjs** (20 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **catalogKeys()** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **authoredExample()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **evaluate()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **example()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **loadArtifact()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **AUTHORED_TEXT_KEYS** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **templatePath** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 45]] (5 shared connections)
+- [[Graphify Workflow]] (1 shared connections)
+- [[Community 147]] (1 shared connections)
+- [[Community 126]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- `.agents/skills/archify/renderers/shared/i18n.mjs`
+- `.agents/skills/archify/test/i18n.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 38 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

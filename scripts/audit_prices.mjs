@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import { fetchZohoProducts } from "../api/zoho.js";
+import { fetchZohoProducts } from "../api/_lib/zoho.js";
 
 const csvPath = "C:/Users/udbha/.gemini/antigravity-ide/brain/24b5df03-676f-4e08-92c5-460f7bfe7326/.user_uploaded/media_1789938249196.csv";
 const content = fs.readFileSync(csvPath, "utf-8");

@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Playing video** (6 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Integrating with the TV app** (3 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **playing-video.md** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Exiting playback** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Loading content** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Virtual keyboards** (7 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **virtual-keyboards.md** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Custom input views** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Custom keyboards** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/playing-video.md`
+- `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
 
 ## Audit Trail
 

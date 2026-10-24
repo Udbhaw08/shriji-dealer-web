@@ -1,6 +1,6 @@
 # Pricing Regression Test Suite
 
-> 57 nodes · cohesion 0.07
+> 56 nodes · cohesion 0.07
 
 ## Key Concepts
 
@@ -21,7 +21,6 @@
 - **so()** (9 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
 - **kc()** (8 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
 - **ma()** (8 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **hc()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
 - **jc()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
 - **oo()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
 - **ra()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
@@ -29,18 +28,18 @@
 - **Do()** (6 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
 - **lh()** (6 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
 - **xe()** (6 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- *... and 32 more nodes in this community*
+- **ao()** (5 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- *... and 31 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (62 shared connections)
-- [[Roles & Customer Sharing Spec]] (33 shared connections)
-- [[Oxlint Linter Configuration]] (31 shared connections)
-- [[Dependencies & Package Config]] (26 shared connections)
-- [[Product Brand & Business Vision]] (17 shared connections)
-- [[Pricing & Roles Skill]] (14 shared connections)
-- [[Community 164]] (6 shared connections)
-- [[Community 53]] (4 shared connections)
+- [[Dealer Auth & Session Management]] (66 shared connections)
+- [[Product Requirements Documentation]] (34 shared connections)
+- [[Dependencies & Package Config]] (23 shared connections)
+- [[Mobile Responsive UI Skill]] (23 shared connections)
+- [[Live Pricing Audit Tool]] (16 shared connections)
+- [[Community 47]] (14 shared connections)
+- [[Architecture Doc Generator]] (14 shared connections)
 
 ## Source Files
 
@@ -48,7 +47,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 411 (100%)
+- EXTRACTED: 404 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

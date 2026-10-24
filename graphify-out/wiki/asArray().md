@@ -2,7 +2,7 @@
 
 > God node · 43 connections · `.agents/skills/archify/renderers/shared/geometry.mjs`
 
-**Community:** [[Product Pages Specification]]
+**Community:** [[Zoho Integration Architecture]]
 
 ## Connections by Relation
 

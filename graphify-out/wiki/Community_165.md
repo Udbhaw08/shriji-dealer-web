@@ -1,34 +1,32 @@
 # Community 165
 
-> 12 nodes · cohesion 0.21
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **guidedViews** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **cards** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **additionalProperties** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **required** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **Archify** (10 connections) — `.agents/skills/archify/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Authoring invariants** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Delivery** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Fast authoring path** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Mermaid input** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Optional viewer capabilities** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Output** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Setup and fallback** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Type router** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **Update awareness** (1 connections) — `.agents/skills/archify/SKILL.md`
 
 ## Relationships
 
-- [[Community 181]] (3 shared connections)
-- [[Community 73]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/archify/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

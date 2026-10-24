@@ -4,28 +4,29 @@
 
 ## Key Concepts
 
-- **Windows** (5 connections) — `.agents/skills/apple-design/references/hig/windows.md`
-- **Desktop (macOS)** (3 connections) — `.agents/skills/apple-design/references/hig/windows.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/windows.md`
-- **windows.md** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
-- **macOS window anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
-- **macOS window states** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
-- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **workflow.schema.json** (8 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$defs** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **side** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$id** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$schema** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **title** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 111]] (1 shared connections)
+- [[Community 231]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/windows.md`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

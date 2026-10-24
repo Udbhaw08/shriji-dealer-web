@@ -9,7 +9,7 @@ import {
   getSupabaseSchemes,
   getSupabaseBranding,
 } from "../backend/src/services/content.js";
-import { verifyAdminAuth } from "./adminAuth.js";
+import { verifyAdminAuth } from "./_lib/adminAuth.js";
 
 const ALLOWED_CONTENT_TYPES = ["hero_banner", "scheme", "branding", "setting"];
 

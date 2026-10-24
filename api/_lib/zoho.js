@@ -1112,7 +1112,7 @@ export async function fetchAllRawZohoProducts({ refresh = false } = {}) {
  */
 export async function fetchZohoBanners() {
   try {
-    const { getSupabaseBanners } = await import("../backend/src/services/content.js");
+    const { getSupabaseBanners } = await import("../../backend/src/services/content.js");
     return await getSupabaseBanners();
   } catch {
     return [];
@@ -1125,7 +1125,7 @@ export async function fetchZohoBanners() {
  */
 export async function fetchZohoSchemes() {
   try {
-    const { getSupabaseSchemes } = await import("../backend/src/services/content.js");
+    const { getSupabaseSchemes } = await import("../../backend/src/services/content.js");
     return await getSupabaseSchemes();
   } catch {
     return { active: [], upcoming: [], past: [] };

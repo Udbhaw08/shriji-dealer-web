@@ -1,33 +1,30 @@
 # Community 209
 
-> 10 nodes · cohesion 0.22
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **site-language-continuity.test.mjs** (12 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **clickAndNavigate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **evaluate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **loadRuntime()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **navigate()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **navigationPath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **runtimePath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **startStaticServer()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **Context menus** (6 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **context-menus.md** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
 
 ## Relationships
 
-- [[Community 49]] (1 shared connections)
-- [[Community 82]] (1 shared connections)
-- [[Community 127]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- `.agents/skills/apple-design/references/hig/context-menus.md`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

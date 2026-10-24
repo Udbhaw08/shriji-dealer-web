@@ -1,30 +1,32 @@
 # Community 229
 
-> 9 nodes · cohesion 0.22
+> 9 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **Split views** (5 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
-- **Platform considerations** (4 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
-- **split-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
-- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
-- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **cards** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **additionalProperties** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **required** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 176]] (3 shared connections)
+- [[Community 82]] (1 shared connections)
+- [[Community 440]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/split-views.md`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 27 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

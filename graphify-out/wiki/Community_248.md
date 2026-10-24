@@ -1,30 +1,33 @@
 # Community 248
 
-> 9 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **vertical-edge.test.mjs** (8 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **bin** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **edgePath()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **REPRO** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **segments()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **createDealerContact()** (9 connections) — `api/_lib/zoho.js`
+- **getAccessToken()** (6 connections) — `api/_lib/zoho.js`
+- **loadEnv()** (4 connections) — `api/_lib/zoho.js`
+- **test-zoho-api.mjs** (4 connections) — `scripts/test-zoho-api.mjs`
+- **apply.js** (3 connections) — `api/dealer/apply.js`
+- **handler()** (2 connections) — `api/dealer/apply.js`
+- **readDiskCache()** (2 connections) — `api/_lib/zoho.js`
+- **{ dc, orgId }** (1 connections) — `scripts/test-zoho-api.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 57]] (6 shared connections)
+- [[Community 131]] (5 shared connections)
+- [[Community 164]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/vertical-edge.test.mjs`
+- `api/_lib/zoho.js`
+- `api/dealer/apply.js`
+- `scripts/test-zoho-api.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 31 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

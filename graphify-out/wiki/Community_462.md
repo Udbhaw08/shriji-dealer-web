@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **esm-D6jX8Q1A.js** (1 connections) — `ios/App/App/public/assets/esm-D6jX8Q1A.js`
-- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-D6jX8Q1A.js`
+- **.mcp.json** (1 connections) — `.mcp.json`
+- **supabase** (1 connections) — `.mcp.json`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/esm-D6jX8Q1A.js`
+- `.mcp.json`
 
 ## Audit Trail
 

@@ -1,46 +1,43 @@
 # Community 80
 
-> 21 nodes · cohesion 0.23
+> 22 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **crmClient.js** (34 connections) — `backend/src/services/crmClient.js`
-- **normalizePhone()** (19 connections) — `backend/src/utils/phone.js`
-- **crmFetch()** (14 connections) — `backend/src/services/crmClient.js`
-- **crmConfigured()** (8 connections) — `backend/src/services/crmClient.js`
-- **phone.js** (7 connections) — `backend/src/utils/phone.js`
-- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
-- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
-- **createDealerContact()** (5 connections) — `backend/src/services/crmClient.js`
-- **findOwnerContactInAccount()** (5 connections) — `backend/src/services/crmClient.js`
-- **updateContactDetails()** (5 connections) — `backend/src/services/crmClient.js`
-- **updateDealerCodeInCrm()** (5 connections) — `backend/src/services/crmClient.js`
-- **resolveContactNames()** (4 connections) — `backend/src/services/crmClient.js`
-- **deactivateAccountInCrm()** (3 connections) — `backend/src/services/crmClient.js`
-- **deactivateContactInCrm()** (3 connections) — `backend/src/services/crmClient.js`
-- **getDealerAccount()** (3 connections) — `backend/src/services/crmClient.js`
-- **isCrmConfigured()** (3 connections) — `backend/src/services/crmClient.js`
-- **getAccessToken()** (2 connections) — `backend/src/services/crmClient.js`
-- **getDealerContact()** (2 connections) — `backend/src/services/crmClient.js`
-- **getPrimaryContactForAccount()** (2 connections) — `backend/src/services/crmClient.js`
-- **linkContactToBackendUser()** (2 connections) — `backend/src/services/crmClient.js`
-- **FIELDS** (1 connections) — `backend/src/services/crmClient.js`
+- **CODEBASE.md — Project Architecture & Feature Guide** (8 connections) — `CODEBASE.md`
+- **2. Core Pricing & Identity Architecture** (6 connections) — `CODEBASE.md`
+- **4. Codebase Directory Map** (6 connections) — `CODEBASE.md`
+- **5. Zoho API Endpoints** (4 connections) — `CODEBASE.md`
+- **CODEBASE.md** (1 connections) — `CODEBASE.md`
+- **1. System Overview** (1 connections) — `CODEBASE.md`
+- **2.1 The Two Audiences (Zero Leakage Rule)** (1 connections) — `CODEBASE.md`
+- **2.2 Pricing Resolution Engine (`api/zoho.js` & `src/data/dealer.js`)** (1 connections) — `CODEBASE.md`
+- **2.3 Guest Access Control & Portal Gating (`src/data/portalGate.js`)** (1 connections) — `CODEBASE.md`
+- **2.4 Shareable Product Link & Zero-Leakage Experience (`src/pages/Product.jsx`)** (1 connections) — `CODEBASE.md`
+- **2.5 Navigation & Bottom Bar Dynamic Filtering** (1 connections) — `CODEBASE.md`
+- **3. Application Routes & Navigation** (1 connections) — `CODEBASE.md`
+- **4.1 Pages (`src/pages/`)** (1 connections) — `CODEBASE.md`
+- **4.2 Reusable Components (`src/components/` & `src/ui.jsx`)** (1 connections) — `CODEBASE.md`
+- **4.3 State & Business Logic (`src/data/`)** (1 connections) — `CODEBASE.md`
+- **4.4 Zoho API & Serverless Handlers (`api/`)** (1 connections) — `CODEBASE.md`
+- **4.5 Automation & Utility Scripts (`scripts/`)** (1 connections) — `CODEBASE.md`
+- **5.1 Zoho Commerce Storefront API** (1 connections) — `CODEBASE.md`
+- **5.2 Zoho Books Contacts & Pricebooks API** (1 connections) — `CODEBASE.md`
+- **5.3 Auto-Recovery Token Architecture** (1 connections) — `CODEBASE.md`
+- **6. How to Run & Verify** (1 connections) — `CODEBASE.md`
+- **7. Development & Git Workflow Guidelines** (1 connections) — `CODEBASE.md`
 
 ## Relationships
 
-- [[Community 43]] (27 shared connections)
-- [[Mobile Responsive UI Skill]] (8 shared connections)
-- [[Vercel Deployment Routing]] (5 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `backend/src/services/crmClient.js`
-- `backend/src/utils/phone.js`
-- `backend/test/interconnection.test.mjs`
+- `CODEBASE.md`
 
 ## Audit Trail
 
-- EXTRACTED: 138 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

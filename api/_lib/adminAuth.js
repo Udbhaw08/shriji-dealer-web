@@ -1,5 +1,5 @@
 import crypto from 'node:crypto';
-import { verifyAccessToken } from '../backend/src/services/tokens.js';
+import { verifyAccessToken } from '../../backend/src/services/tokens.js';
 
 /**
  * Validates server-side administrative identity.

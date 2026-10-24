@@ -4,33 +4,32 @@
 
 ## Key Concepts
 
-- **architecture-delta.test.mjs** (16 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **ArchitectureDeltaError** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **.constructor()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **baseFixture** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **checkedArtifact** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **checkedReceipt** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **headFixture** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **read()** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
+- **run()** (2 connections) — `scripts/audit_prices.mjs`
+- **content** (1 connections) — `scripts/audit_prices.mjs`
+- **csvItems** (1 connections) — `scripts/audit_prices.mjs`
+- **idIdx** (1 connections) — `scripts/audit_prices.mjs`
+- **lines** (1 connections) — `scripts/audit_prices.mjs`
+- **lpIdx** (1 connections) — `scripts/audit_prices.mjs`
+- **nameIdx** (1 connections) — `scripts/audit_prices.mjs`
+- **parseCSVLine()** (1 connections) — `scripts/audit_prices.mjs`
+- **parsedHeader** (1 connections) — `scripts/audit_prices.mjs`
+- **showIdx** (1 connections) — `scripts/audit_prices.mjs`
+- **spIdx** (1 connections) — `scripts/audit_prices.mjs`
+- **statusIdx** (1 connections) — `scripts/audit_prices.mjs`
 
 ## Relationships
 
-- [[Community 60]] (4 shared connections)
-- [[Community 113]] (2 shared connections)
+- [[Community 131]] (2 shared connections)
+- [[Community 57]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
-- `.agents/skills/archify/test/architecture-delta.test.mjs`
+- `scripts/audit_prices.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
+- EXTRACTED: 27 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

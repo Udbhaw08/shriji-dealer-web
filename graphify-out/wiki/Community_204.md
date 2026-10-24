@@ -1,34 +1,31 @@
 # Community 204
 
-> 10 nodes · cohesion 0.24
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **renderInline()** (6 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderInlineNode()** (6 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderHigLink()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderLink()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderParagraph()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderImage()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderReference()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **imageLabel()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **resolveAnchor()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **wrapInline()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **whatsappOtp.test.mjs** (9 connections) — `backend/test/whatsappOtp.test.mjs`
+- **resetConfig()** (2 connections) — `backend/test/whatsappOtp.test.mjs`
+- **resetDb()** (2 connections) — `backend/test/whatsappOtp.test.mjs`
+- **app** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **db** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **logEntries** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **mockSql()** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **startServer()** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **stopServer()** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **testEnv** (1 connections) — `backend/test/whatsappOtp.test.mjs`
 
 ## Relationships
 
-- [[Community 74]] (10 shared connections)
-- [[Community 205]] (2 shared connections)
-- [[Community 238]] (1 shared connections)
-- [[Community 275]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- `backend/test/whatsappOtp.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

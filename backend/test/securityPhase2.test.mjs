@@ -1,8 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import crypto from 'node:crypto';
-import { escapeHtml, sanitizeUrl, sanitizeHost } from '../../api/htmlEscape.js';
-import { maskProductPricing, maskCatalogPricing, getDealerPricingEligibility } from '../../api/dealerPricingAuth.js';
+import { escapeHtml, sanitizeUrl, sanitizeHost } from '../../api/_lib/htmlEscape.js';
+import { maskProductPricing, maskCatalogPricing, getDealerPricingEligibility } from '../../api/_lib/dealerPricingAuth.js';
 import { signAccessToken } from '../src/services/tokens.js';
 import { env } from '../src/config/env.js';
 

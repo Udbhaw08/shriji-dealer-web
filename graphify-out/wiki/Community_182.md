@@ -1,33 +1,31 @@
 # Community 182
 
-> 11 nodes · cohesion 0.25
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **states** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **additionalProperties** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **required** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **transitions** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **Accessibility** (9 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **accessibility.md** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Cognitive** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Hearing** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Mobility** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Speech** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Vision** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
 
 ## Relationships
 
-- [[Graphify Agent Rules]] (3 shared connections)
-- [[Community 124]] (3 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `.agents/skills/apple-design/references/hig/accessibility.md`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

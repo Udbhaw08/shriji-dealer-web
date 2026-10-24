@@ -1,45 +1,42 @@
 # Community 104
 
-> 17 nodes · cohesion 0.32
+> 18 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **content.js** (19 connections) — `backend/src/services/content.js`
-- **content.js** (16 connections) — `backend/src/routes/content.js`
-- **content.js** (14 connections) — `api/content.js`
-- **handler()** (11 connections) — `api/content.js`
-- **getSupabaseBanners()** (9 connections) — `backend/src/services/content.js`
-- **getSupabaseSchemes()** (8 connections) — `backend/src/services/content.js`
-- **getSupabaseBranding()** (7 connections) — `backend/src/services/content.js`
-- **getActiveContent()** (6 connections) — `backend/src/services/content.js`
-- **getHeroSliderSettings()** (6 connections) — `backend/src/services/content.js`
-- **saveHeroSliderSettings()** (5 connections) — `backend/src/services/content.js`
-- **deleteStoreContent()** (4 connections) — `backend/src/services/content.js`
-- **getAllStoreContent()** (4 connections) — `backend/src/services/content.js`
-- **toggleStoreContentActive()** (4 connections) — `backend/src/services/content.js`
-- **upsertStoreContent()** (4 connections) — `backend/src/services/content.js`
-- **ALLOWED_CONTENT_TYPES** (1 connections) — `api/content.js`
-- **ALLOWED_CONTENT_TYPES** (1 connections) — `backend/src/routes/content.js`
-- **formatGoogleDriveUrl()** (1 connections) — `backend/src/services/content.js`
+- **acquireOperation()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cacheTokenFor()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cacheWriteFile()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **promoteOperationClaim()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **reserveOperation()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **guardedCacheRead()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cacheMkdir()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **inspectActiveClaim()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **readState()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **fenceLowerOperations()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **listOperations()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **operationName()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **operationWasFenced()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **prepareOperationClaim()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **retireActiveClaim()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **hasActivePendingOperation()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **operationIsSuperseded()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **discardPreparedClaim()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Relationships
 
-- [[Vercel Deployment Routing]] (9 shared connections)
-- [[Community 35]] (8 shared connections)
-- [[Community 112]] (7 shared connections)
-- [[Community 140]] (5 shared connections)
-- [[Mobile Responsive UI Skill]] (3 shared connections)
+- [[Community 50]] (19 shared connections)
+- [[Community 97]] (14 shared connections)
+- [[Community 112]] (12 shared connections)
 
 ## Source Files
 
-- `api/content.js`
-- `backend/src/routes/content.js`
-- `backend/src/services/content.js`
+- `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 118 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 113 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

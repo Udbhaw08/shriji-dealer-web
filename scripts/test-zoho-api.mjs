@@ -1,4 +1,4 @@
-import { getAccessToken, getZohoConfig } from "../api/zoho.js";
+import { getAccessToken, getZohoConfig } from "../api/_lib/zoho.js";
 
 const { dc, orgId } = getZohoConfig();
 

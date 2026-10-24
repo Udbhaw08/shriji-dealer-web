@@ -1,42 +1,51 @@
 # Community 86
 
-> 20 nodes · cohesion 0.10
+> 20 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **Example Workflow: SaaS Pricing Page** (7 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 1: Styles Research** (4 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 5: Implementation Blueprint** (4 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 2: Screen Research** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 3: Flow Research** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 4: Synthesis** (3 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **example-workflow.md** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Design Decision Ledger** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Flow Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Flow Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Page Structure** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Phase 0: Discovery** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Quality Gate** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Research Summary** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Screen Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Screen Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Style Findings** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Style Searches** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Tokens** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
-- **Visual Direction Synthesis** (1 connections) — `.agents/skills/refero-design/references/example-workflow.md`
+- **content.js** (19 connections) — `backend/src/services/content.js`
+- **content.js** (16 connections) — `backend/src/routes/content.js`
+- **content.js** (14 connections) — `api/content.js`
+- **handler()** (11 connections) — `api/content.js`
+- **getSupabaseBanners()** (9 connections) — `backend/src/services/content.js`
+- **getSupabaseSchemes()** (8 connections) — `backend/src/services/content.js`
+- **getSupabaseBranding()** (7 connections) — `backend/src/services/content.js`
+- **getActiveContent()** (6 connections) — `backend/src/services/content.js`
+- **getHeroSliderSettings()** (6 connections) — `backend/src/services/content.js`
+- **saveHeroSliderSettings()** (5 connections) — `backend/src/services/content.js`
+- **deleteStoreContent()** (4 connections) — `backend/src/services/content.js`
+- **getAllStoreContent()** (4 connections) — `backend/src/services/content.js`
+- **toggleStoreContentActive()** (4 connections) — `backend/src/services/content.js`
+- **upsertStoreContent()** (4 connections) — `backend/src/services/content.js`
+- **fetchZohoBanners()** (3 connections) — `api/_lib/zoho.js`
+- **fetchZohoSchemes()** (3 connections) — `api/_lib/zoho.js`
+- **loadContentService()** (2 connections) — `vite.config.js`
+- **ALLOWED_CONTENT_TYPES** (1 connections) — `api/content.js`
+- **ALLOWED_CONTENT_TYPES** (1 connections) — `backend/src/routes/content.js`
+- **formatGoogleDriveUrl()** (1 connections) — `backend/src/services/content.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Oxlint Linter Configuration]] (11 shared connections)
+- [[Community 164]] (8 shared connections)
+- [[Community 51]] (6 shared connections)
+- [[Community 57]] (2 shared connections)
+- [[Community 68]] (2 shared connections)
+- [[Community 49]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/example-workflow.md`
+- `api/_lib/zoho.js`
+- `api/content.js`
+- `backend/src/routes/content.js`
+- `backend/src/services/content.js`
+- `vite.config.js`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 124 (97%)
+- INFERRED: 4 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

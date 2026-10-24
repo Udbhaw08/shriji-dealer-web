@@ -1,6 +1,6 @@
 import crypto from "node:crypto";
 import { signAdminToken } from "../../backend/src/services/tokens.js";
-import { verifyAdminAuth } from "../adminAuth.js";
+import { verifyAdminAuth } from "../_lib/adminAuth.js";
 
 /**
  * Serverless handler for Admin Authentication

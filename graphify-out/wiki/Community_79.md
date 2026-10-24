@@ -1,45 +1,50 @@
 # Community 79
 
-> 21 nodes · cohesion 0.10
+> 23 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **properties** (15 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **from** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **to** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **brand** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **id** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **note** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **participant** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **sublabel** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **variant** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **pull-hig.mjs** (65 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **crawlSection()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **fetchPageJson()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **abstractOf()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **anchorEntries()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **anchorMapFor()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **listedPages()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **plainText()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **ALL_PLATFORMS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **cellText()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **collectReferences()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **CURATED_FILES** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **DESIGNING_FOR_COVERAGE** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **DROPPED_PLATFORMS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **githubSlug()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **IMAGE_GLYPHS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **KEPT_PLATFORMS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **OMITTED_PAGES** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **PLATFORM_LIST_RE** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **PLATFORM_NAMES** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **platformsOf()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **REPO_ROOT** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **SECTIONS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- [[Community 166]] (4 shared connections)
-- [[Community 448]] (1 shared connections)
-- [[Community 450]] (1 shared connections)
+- [[Community 198]] (10 shared connections)
+- [[Community 199]] (10 shared connections)
+- [[Community 233]] (9 shared connections)
+- [[Community 273]] (8 shared connections)
+- [[Community 356]] (6 shared connections)
+- [[Community 242]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/sequence.schema.json`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 95 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

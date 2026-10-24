@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **2. Customer vs. Dealer Price Resolution (`src/data/dealer.js`)** (4 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **PRICING-ARCHITECTURE.md — Pricing Engine & Audit Specification** (4 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **1. Source of Truth: Live Zoho Commerce Store API** (2 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **PRICING-ARCHITECTURE.md** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **2.1 Customer View** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **2.2 Dealer View** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **2.3 Share Link Invariant** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **3. Automated Pricing Regression Protection** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **Rate Priority Hierarchy** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **Multitasking** (5 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Platform considerations** (4 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **multitasking.md** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `docs/PRICING-ARCHITECTURE.md`
+- `.agents/skills/apple-design/references/hig/multitasking.md`
 
 ## Audit Trail
 

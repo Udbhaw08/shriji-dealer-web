@@ -1,31 +1,29 @@
 # Community 275
 
-> 8 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **isDroppedPlatformText()** (5 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **headingLine()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **relabelHeading()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **isDroppedBoilerplate()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **platformsMentioned()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **reduceHeading()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **isDroppedPlatformLabel()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **platformGroupLabel()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **crmProvisioningReliability.test.mjs** (7 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **crmCalls** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **db** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **mockCrm** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **mockSql()** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **resetCrm()** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **resetDb()** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **testEnv** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
 
 ## Relationships
 
-- [[Community 74]] (8 shared connections)
-- [[Community 205]] (1 shared connections)
-- [[Community 204]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- `backend/test/crmProvisioningReliability.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

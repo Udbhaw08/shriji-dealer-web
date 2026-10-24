@@ -1,54 +1,60 @@
 # Roles & Customer Sharing Spec
 
-> 50 nodes · cohesion 0.08
+> 50 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **yc()** (19 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **ic()** (15 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **Md()** (15 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **s()** (15 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **nc()** (12 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **bi()** (10 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **nl()** (10 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **co()** (9 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **ha()** (9 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **hh()** (9 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **kd()** (9 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **wc()** (9 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **c()** (8 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **gs()** (8 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **pa()** (8 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **rc()** (8 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **Si()** (8 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **ec()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **fa()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **Id()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **oc()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **yi()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **zc()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **ac()** (6 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **dh()** (6 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **render-architecture.mjs** (122 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **pathFor()** (10 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **renderLegend()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **routeVia()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **grid.mjs** (6 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
+- **alignFacingPorts()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **buildLayoutReport()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **sideAwareBridgeCandidates()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **relationshipLegendObstacles()** (5 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **resolveComponentPos()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
+- **validateGridPlacement()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
+- **componentContext()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **resolveBoundaryTitles()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **routeClearsComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **routeClearsEndpointComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **minimumReadableSourceTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **layout-report.mjs** (4 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
+- **grid.test.mjs** (4 connections) — `.agents/skills/archify/test/grid.test.mjs`
+- **gridLayout()** (3 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
+- **autoViewBoxFor()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **resolvedViewBoxWidth()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **connectionPath()** (3 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
+- **boundaryRect()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **legendY()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **measureComponent()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
 - *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (64 shared connections)
-- [[Pricing Regression Test Suite]] (33 shared connections)
-- [[Oxlint Linter Configuration]] (14 shared connections)
-- [[Pricing & Roles Skill]] (10 shared connections)
-- [[Dependencies & Package Config]] (8 shared connections)
-- [[Product Brand & Business Vision]] (7 shared connections)
-- [[Community 53]] (7 shared connections)
-- [[Community 164]] (6 shared connections)
+- [[Zoho Integration Architecture]] (28 shared connections)
+- [[Client Products Data Store]] (23 shared connections)
+- [[Community 29]] (22 shared connections)
+- [[Community 45]] (11 shared connections)
+- [[Community 56]] (10 shared connections)
+- [[Community 54]] (8 shared connections)
+- [[Graphify Workflow]] (3 shared connections)
+- [[Pricing & Roles Skill]] (2 shared connections)
+- [[Community 40]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-HNFh_-5t.js`
+- `.agents/skills/archify/renderers/architecture/grid.mjs`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- `.agents/skills/archify/renderers/shared/layout-report.mjs`
+- `.agents/skills/archify/renderers/shared/legend.mjs`
+- `.agents/skills/archify/test/grid.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 347 (100%)
+- EXTRACTED: 258 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,54 +1,48 @@
 # Community 53
 
-> 29 nodes · cohesion 0.11
+> 29 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **zd()** (13 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **Nd()** (11 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **qd()** (11 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **tf()** (10 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **nt()** (8 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **Xd()** (8 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **ef()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **Gd()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **lf()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **uf()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **cl()** (6 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **of()** (6 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **Rd()** (6 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **Bd()** (5 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **sf()** (5 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **sl()** (5 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **cf()** (4 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **jf()** (4 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **mf()** (4 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **vf()** (4 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **Zo()** (4 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **Hd()** (3 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **Ud()** (3 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **Vd()** (3 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **Wf()** (3 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **AppDelegate** (10 connections) — `ios/App/App/AppDelegate.swift`
+- **.application()** (7 connections) — `ios/App/App/AppDelegate.swift`
+- **.scene()** (7 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIApplication** (6 connections) — `ios/App/App/AppDelegate.swift`
+- **SceneDelegate** (5 connections) — `ios/App/App/SceneDelegate.swift`
+- **AppDelegate.swift** (3 connections) — `ios/App/App/AppDelegate.swift`
+- **SceneDelegate.swift** (3 connections) — `ios/App/App/SceneDelegate.swift`
+- **.applicationDidBecomeActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationDidEnterBackground()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillEnterForeground()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillResignActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillTerminate()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **Capacitor** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIWindow** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIKit** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIResponder** (2 connections)
+- **Any** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **Bool** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIScene** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UISceneSession** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIWindow** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIScene** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **UISceneSession** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **NSUserActivity** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **Set** (1 connections) — `ios/App/App/SceneDelegate.swift`
 - *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (31 shared connections)
-- [[Oxlint Linter Configuration]] (15 shared connections)
-- [[Product Brand & Business Vision]] (8 shared connections)
-- [[Roles & Customer Sharing Spec]] (7 shared connections)
-- [[Pricing & Roles Skill]] (4 shared connections)
-- [[Pricing Regression Test Suite]] (4 shared connections)
-- [[Dependencies & Package Config]] (3 shared connections)
-- [[Community 164]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-HNFh_-5t.js`
+- `ios/App/App/AppDelegate.swift`
+- `ios/App/App/SceneDelegate.swift`
 
 ## Audit Trail
 
-- EXTRACTED: 163 (100%)
+- EXTRACTED: 72 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

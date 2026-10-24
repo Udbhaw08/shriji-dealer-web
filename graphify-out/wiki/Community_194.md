@@ -4,28 +4,28 @@
 
 ## Key Concepts
 
-- **Maps** (7 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Place cards** (3 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **maps.md** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Adding place cards outside of a map** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Custom information** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Displaying place cards in a map** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Indoor maps** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **entries** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **legend** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **mode** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **properties** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 73]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/maps.md`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

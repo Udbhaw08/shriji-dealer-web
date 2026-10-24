@@ -7,9 +7,9 @@ import {
   fetchZohoProductById,
   fetchZohoCategories,
   syncRecentProductTags,
-} from './api/zoho.js'
+} from './api/_lib/zoho.js'
 import downloadHandler from './api/download.js'
-import { escapeHtml, sanitizeUrl } from './api/htmlEscape.js'
+import { escapeHtml, sanitizeUrl } from './api/_lib/htmlEscape.js'
 
 async function loadContentService() {
   try {
@@ -297,7 +297,7 @@ function zohoApiPlugin() {
         // Products catalogue route
         if (req.url === '/api/products' || req.url.startsWith('/api/products?')) {
           try {
-            const { getDealerPricingEligibility, maskCatalogPricing } = await import('./api/dealerPricingAuth.js');
+            const { getDealerPricingEligibility, maskCatalogPricing } = await import('./api/_lib/dealerPricingAuth.js');
             const urlObj = new URL(req.url, 'http://localhost');
             const refresh = urlObj.searchParams.get('refresh') === 'true';
 
@@ -325,7 +325,7 @@ function zohoApiPlugin() {
         // Single product route: /api/products/:id
         if (req.url.startsWith('/api/products/') && req.method === 'GET') {
           try {
-            const { getDealerPricingEligibility, maskProductPricing } = await import('./api/dealerPricingAuth.js');
+            const { getDealerPricingEligibility, maskProductPricing } = await import('./api/_lib/dealerPricingAuth.js');
             const urlObj = new URL(req.url, 'http://localhost');
             const urlParts = urlObj.pathname.split('/');
             const id = urlParts[urlParts.length - 1];
@@ -520,6 +520,9 @@ export default defineConfig({
   plugins: [react(), zohoApiPlugin(), liveAutoSyncPlugin()],
   server: {
     host: true,
+    watch: {
+      ignored: ['**/android/**', '**/ios/**', '**/graphify-out/**', '**/.vercel/**', '**/dist/**', '**/.git/**'],
+    },
   },
 })
 

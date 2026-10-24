@@ -1,32 +1,33 @@
 # Community 71
 
-> 23 nodes · cohesion 0.09
+> 24 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **package.json** (9 connections) — `backend/package.json`
-- **dependencies** (7 connections) — `backend/package.json`
-- **scripts** (7 connections) — `backend/package.json`
-- **engines** (2 connections) — `backend/package.json`
-- **dotenv** (1 connections) — `backend/package.json`
-- **express** (1 connections) — `backend/package.json`
-- **google-auth-library** (1 connections) — `backend/package.json`
-- **jsonwebtoken** (1 connections) — `backend/package.json`
-- **postgres** (1 connections) — `backend/package.json`
-- **resend** (1 connections) — `backend/package.json`
-- **description** (1 connections) — `backend/package.json`
-- **node** (1 connections) — `backend/package.json`
-- **main** (1 connections) — `backend/package.json`
-- **name** (1 connections) — `backend/package.json`
-- **private** (1 connections) — `backend/package.json`
-- **build** (1 connections) — `backend/package.json`
-- **check:ready** (1 connections) — `backend/package.json`
-- **dev** (1 connections) — `backend/package.json`
-- **migrate** (1 connections) — `backend/package.json`
-- **start** (1 connections) — `backend/package.json`
-- **test** (1 connections) — `backend/package.json`
-- **type** (1 connections) — `backend/package.json`
-- **version** (1 connections) — `backend/package.json`
+- **Refero Design** (13 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Tool Routing** (5 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Research Workflow** (4 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Synthesis** (4 connections) — `.agents/skills/refero-design/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **1. Research Visual Direction With Styles** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **2. Research Screens For Product Details** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **3. Research Flows For Journey Logic** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Design Craft** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Discovery** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Example** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Journey Logic** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **MCP Setup** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Non-Negotiables** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Present Findings** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Product Pattern** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Quality Gate** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Research Depth** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Use Flows For Journeys** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Use Screens For Concrete UI Patterns** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Use Styles First For Visual Work** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Use Visual Workflow For Images And QA** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Visual Direction** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Workflow Routing** (1 connections) — `.agents/skills/refero-design/SKILL.md`
 
 ## Relationships
 
@@ -34,11 +35,11 @@
 
 ## Source Files
 
-- `backend/package.json`
+- `.agents/skills/refero-design/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (100%)
+- EXTRACTED: 46 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

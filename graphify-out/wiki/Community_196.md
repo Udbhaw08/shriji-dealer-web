@@ -4,28 +4,28 @@
 
 ## Key Concepts
 
-- **Settings** (8 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **settings.md** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **General settings** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **System settings** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Task-specific options** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **entries** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **legend** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **mode** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **properties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 74]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/settings.md`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

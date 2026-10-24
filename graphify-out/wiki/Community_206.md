@@ -1,19 +1,18 @@
 # Community 206
 
-> 10 nodes · cohesion 0.20
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Shriji Backend Skill** (9 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Commands** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Environment (backend/.env — never committed)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Frontend Integration (built)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Hard Rules** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Key Files (populated as built)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Ownership Rule (invariant)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Pending Seam — price proxy switch (do when backend is deployed)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Stack Record — what was chosen, do not substitute** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **web-D5B9-15S.js** (8 connections) — `android/app/src/main/assets/public/assets/web-D5B9-15S.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-D5B9-15S.js`
+- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-D5B9-15S.js`
+- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-D5B9-15S.js`
+- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-D5B9-15S.js`
+- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-D5B9-15S.js`
+- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-D5B9-15S.js`
+- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-D5B9-15S.js`
+- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-D5B9-15S.js`
 
 ## Relationships
 
@@ -21,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/shriji-backend/SKILL.md`
+- `android/app/src/main/assets/public/assets/web-D5B9-15S.js`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

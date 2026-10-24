@@ -11,7 +11,7 @@
 
 ## Relationships
 
-- [[Graphify Agent Rules]] (1 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (1 shared connections)
 
 ## Source Files
 

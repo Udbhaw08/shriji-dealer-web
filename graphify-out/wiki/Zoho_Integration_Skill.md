@@ -1,48 +1,59 @@
 # Zoho Integration Skill
 
-> 45 nodes · cohesion 0.06
+> 45 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **generated-validators.mjs** (41 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **func3()** (11 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **generate-validators.test.mjs** (5 connections) — `.agents/skills/archify/test/generate-validators.test.mjs`
-- **validate20()** (4 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate22()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate27()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate28()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate30()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate31()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate33()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate34()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate36()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate37()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate24()** (2 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **pattern17** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **pattern18** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **pattern20** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **pattern4** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **pattern57** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema112** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema116** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema118** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema149** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema31** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema33** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **dealerApp.js** (44 connections) — `backend/src/services/dealerApp.js`
+- **crmClient.js** (34 connections) — `backend/src/services/crmClient.js`
+- **normalizePhone()** (19 connections) — `backend/src/utils/phone.js`
+- **normalizeEmail()** (18 connections) — `backend/src/utils/validators.js`
+- **notifications.js** (16 connections) — `backend/src/services/notifications.js`
+- **validators.js** (15 connections) — `backend/src/utils/validators.js`
+- **crmFetch()** (14 connections) — `backend/src/services/crmClient.js`
+- **requestDealerRegistrationOtp()** (14 connections) — `backend/src/services/dealerApp.js`
+- **finalizeDealerRegistration()** (12 connections) — `backend/src/services/dealerApp.js`
+- **isValidPhone()** (11 connections) — `backend/src/utils/validators.js`
+- **cleanName()** (9 connections) — `backend/src/utils/validators.js`
+- **httpError()** (8 connections) — `backend/src/middleware/errorHandler.js`
+- **crmConfigured()** (8 connections) — `backend/src/services/crmClient.js`
+- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
+- **verifyDealerRegistrationOtp()** (7 connections) — `backend/src/services/dealerApp.js`
+- **sendWhatsAppOtp()** (7 connections) — `backend/src/services/notifications.js`
+- **phone.js** (7 connections) — `backend/src/utils/phone.js`
+- **isValidEmail()** (7 connections) — `backend/src/utils/validators.js`
+- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
+- **isValidName()** (6 connections) — `backend/src/utils/validators.js`
+- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
+- **createDealerContact()** (5 connections) — `backend/src/services/crmClient.js`
+- **findOwnerContactInAccount()** (5 connections) — `backend/src/services/crmClient.js`
+- **updateContactDetails()** (5 connections) — `backend/src/services/crmClient.js`
+- **updateDealerCodeInCrm()** (5 connections) — `backend/src/services/crmClient.js`
 - *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Integration Architecture]] (1 shared connections)
+- [[Product Pages Specification]] (30 shared connections)
+- [[Oxlint Linter Configuration]] (27 shared connections)
+- [[Community 68]] (20 shared connections)
+- [[Community 49]] (4 shared connections)
+- [[Community 77]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- `.agents/skills/archify/test/generate-validators.test.mjs`
+- `backend/src/middleware/errorHandler.js`
+- `backend/src/routes/auth.js`
+- `backend/src/services/crmClient.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/services/notifications.js`
+- `backend/src/utils/phone.js`
+- `backend/src/utils/validators.js`
+- `backend/test/interconnection.test.mjs`
+- `backend/test/validators.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 121 (100%)
+- EXTRACTED: 355 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

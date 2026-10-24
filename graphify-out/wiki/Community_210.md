@@ -1,33 +1,31 @@
 # Community 210
 
-> 10 nodes · cohesion 0.20
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **v1-compatibility.test.mjs** (9 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **validate()** (3 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **check()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **legacyDataflowDocument()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **narrowExplicitViewBoxDocuments()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **OFFICIAL_V1_EXAMPLES** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **Designing for games** (8 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **designing-for-games.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Adopt Apple technologies** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Enable intuitive interactions** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Jump into gameplay** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Look stunning on every display** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Welcome everyone** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
 
 ## Relationships
 
-- [[Community 94]] (1 shared connections)
-- [[Zoho Integration Architecture]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- `.agents/skills/apple-design/references/hig/designing-for-games.md`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (90%)
-- INFERRED: 2 (10%)
+- EXTRACTED: 16 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

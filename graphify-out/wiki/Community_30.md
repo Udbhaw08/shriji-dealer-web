@@ -1,35 +1,35 @@
 # Community 30
 
-> 40 nodes · cohesion 0.09
+> 41 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **webm-artifact.smoke.mjs** (39 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **navigateReady()** (12 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **evaluate()** (11 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **delay()** (7 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **withTimeout()** (7 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **verifyArchitectureDeltaNavigator()** (5 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **captureCopiedShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **captureReachShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **captureRouteShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **captureRouteVisualMatrix()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **captureShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **verifyDynamicReducedMotionRoute()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **verifyResolvedLegendContract()** (3 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **verifySemanticPassportDismissal()** (3 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **devtoolsEndpoint()** (2 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **removeTempTree()** (2 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **waitForExit()** (2 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **chrome** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **chromeProcess** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **connectCdp()** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **executable()** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **ffmpeg** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **freePort()** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **input** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- *... and 15 more nodes in this community*
+- **Motion & Micro-interactions Guide** (13 connections) — `.agents/skills/refero-design/references/motion.md`
+- **8. Anti-Patterns** (7 connections) — `.agents/skills/refero-design/references/motion.md`
+- **1. The Motion Pyramid** (5 connections) — `.agents/skills/refero-design/references/motion.md`
+- **4. Micro-interactions That Work** (5 connections) — `.agents/skills/refero-design/references/motion.md`
+- **2. Timing That Actually Works** (4 connections) — `.agents/skills/refero-design/references/motion.md`
+- **3. Easing: Native Feel Without Cringe** (4 connections) — `.agents/skills/refero-design/references/motion.md`
+- **6. Reduced Motion: Not Optional** (4 connections) — `.agents/skills/refero-design/references/motion.md`
+- **5. Motion Tokens for Design Systems** (3 connections) — `.agents/skills/refero-design/references/motion.md`
+- **7. Libraries and Tools** (3 connections) — `.agents/skills/refero-design/references/motion.md`
+- **motion.md** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **9. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Animations Must Be Interruptible** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Basic Principle** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Buttons and Controls** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Component Mapping** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Critical: Never Use `transition: all`** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **CSS Shortcut** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **CSS Tokens** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Duration Reference** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **For Complex Scenarios** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **For Web/SaaS (React/Next)** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Implementation** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Inputs** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
@@ -37,11 +37,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- `.agents/skills/refero-design/references/motion.md`
 
 ## Audit Trail
 
-- EXTRACTED: 140 (100%)
+- EXTRACTED: 80 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

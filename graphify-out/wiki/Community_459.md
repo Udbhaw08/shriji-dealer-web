@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **Package.swift** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
-- **PackageDescription** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
+- **README.md** (1 connections) — `ios/App/CapApp-SPM/README.md`
+- **CapApp-SPM** (1 connections) — `ios/App/CapApp-SPM/README.md`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `ios/App/CapApp-SPM/Package.swift`
+- `ios/App/CapApp-SPM/README.md`
 
 ## Audit Trail
 

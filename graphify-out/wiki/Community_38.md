@@ -1,51 +1,49 @@
 # Community 38
 
-> 37 nodes · cohesion 0.18
+> 38 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **auth.js** (52 connections) — `src/data/auth.js`
-- **json()** (31 connections) — `src/data/auth.js`
-- **callBackend()** (28 connections) — `src/data/auth.js`
-- **DealerDashboard.jsx** (23 connections) — `src/pages/DealerDashboard.jsx`
-- **broadcastAuthChange()** (13 connections) — `src/data/auth.js`
-- **EmailVerificationPrompt.jsx** (10 connections) — `src/components/EmailVerificationPrompt.jsx`
-- **applyAuthResponse()** (9 connections) — `src/data/auth.js`
-- **finalizeDealerRegistration()** (7 connections) — `src/data/auth.js`
-- **staffSignup()** (7 connections) — `src/data/auth.js`
-- **logout()** (6 connections) — `src/data/auth.js`
-- **verifyEmailOtp()** (6 connections) — `src/data/auth.js`
-- **fetchMe()** (5 connections) — `src/data/auth.js`
-- **googleLogin()** (5 connections) — `src/data/auth.js`
-- **login()** (5 connections) — `src/data/auth.js`
-- **lookupStaffCode()** (5 connections) — `src/data/auth.js`
-- **requestEmailOtp()** (5 connections) — `src/data/auth.js`
-- **signup()** (5 connections) — `src/data/auth.js`
-- **staffTogglePrice()** (5 connections) — `src/data/auth.js`
-- **staffTogglePriceAll()** (5 connections) — `src/data/auth.js`
-- **verifyOtp()** (5 connections) — `src/data/auth.js`
-- **verifyPhoneOtp()** (5 connections) — `src/data/auth.js`
-- **persistTokens()** (4 connections) — `src/data/auth.js`
-- **requestOtp()** (4 connections) — `src/data/auth.js`
-- **requestPhoneOtp()** (4 connections) — `src/data/auth.js`
-- **staffApprove()** (4 connections) — `src/data/auth.js`
-- *... and 12 more nodes in this community*
+- **update-notifier.test.mjs** (43 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **operationPath()** (5 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **stateDirectory()** (4 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **fixture()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **remoteReleaseForVersion()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **runCheckInChild()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **statePath()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **writeCompactCommittedState()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **assertUnsafeCacheStateIsIgnored()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **committedStateFiles()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **compactStateSource()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **localRelease()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **pauseOpenOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **pauseRenameMatchingOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **pauseRenameOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **pauseWriteOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **remoteRelease()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **writeJson()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **writePendingOperation()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **baseTime** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **cachedStateWithHistory()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **cachedUpdateState()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **cancel()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **candidateStateForDigest()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **checkerPath** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [[Project Readme & Layout]] (48 shared connections)
-- [[Community 96]] (9 shared connections)
-- [[Design System & UI Tokens]] (8 shared connections)
+- [[Community 67]] (3 shared connections)
+- [[Community 112]] (2 shared connections)
+- [[Community 50]] (1 shared connections)
 
 ## Source Files
 
-- `src/components/EmailVerificationPrompt.jsx`
-- `src/data/auth.js`
-- `src/pages/DealerDashboard.jsx`
+- `.agents/skills/archify/test/update-notifier.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 303 (100%)
+- EXTRACTED: 108 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
