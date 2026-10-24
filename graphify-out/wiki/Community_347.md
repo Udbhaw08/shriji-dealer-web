@@ -4,24 +4,24 @@
 
 ## Key Concepts
 
-- **point** (6 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **Modality** (5 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **modality.md** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
 
 ## Relationships
 
-- [[Community 82]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/apple-design/references/hig/modality.md`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

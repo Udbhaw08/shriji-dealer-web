@@ -1,56 +1,58 @@
 # Community 41
 
-> 37 nodes · cohesion 0.09
+> 35 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **session.js** (50 connections) — `src/data/session.js`
-- **productsStore.js** (23 connections) — `src/data/productsStore.js`
-- **apiFetch()** (20 connections) — `src/data/api.js`
-- **api.js** (11 connections) — `src/data/api.js`
-- **setSession()** (10 connections) — `src/data/session.js`
-- **apiUrl()** (9 connections) — `src/data/api.js`
+- **Product.jsx** (34 connections) — `src/pages/Product.jsx`
+- **dealer.js** (29 connections) — `src/data/dealer.js`
+- **Favorites.jsx** (20 connections) — `src/pages/Favorites.jsx`
+- **ProductCard.jsx** (19 connections) — `src/components/ProductCard.jsx`
+- **dealer.test.mjs** (18 connections) — `src/data/dealer.test.mjs`
+- **PriceBlock.jsx** (15 connections) — `src/components/PriceBlock.jsx`
+- **ProductCard()** (15 connections) — `src/components/ProductCard.jsx`
+- **Product()** (15 connections) — `src/pages/Product.jsx`
+- **priceFor()** (14 connections) — `src/data/dealer.js`
+- **useFavorites()** (13 connections) — `src/data/favoritesStore.js`
+- **inr()** (12 connections) — `src/data/dealer.js`
+- **viewerFor()** (8 connections) — `src/data/dealer.js`
+- **CustomerPrice()** (7 connections) — `src/components/PriceBlock.jsx`
+- **productSlug()** (7 connections) — `src/data/dealer.js`
 - **registerDealer()** (7 connections) — `src/data/dealer.js`
-- **syncPricebookWithSession()** (7 connections) — `src/data/productsStore.js`
-- **fetchLiveProducts()** (6 connections) — `src/data/productsStore.js`
-- **products.js** (5 connections) — `src/data/products.js`
-- **signOut()** (5 connections) — `src/data/session.js`
-- **switchToDealerSession()** (5 connections) — `src/data/session.js`
-- **loadCached()** (4 connections) — `src/data/productsStore.js`
-- **switchToViewerSession()** (4 connections) — `src/data/session.js`
-- **sessionFromAuth()** (3 connections) — `src/data/auth.js`
-- **emit()** (3 connections) — `src/data/productsStore.js`
-- **syncTagsLive()** (3 connections) — `src/data/productsStore.js`
-- **loadCachedSession()** (3 connections) — `src/data/session.js`
-- **onAuthBroadcast()** (2 connections) — `src/data/auth.js`
-- **CATEGORIES** (2 connections) — `src/data/products.js`
-- **getCacheKey()** (2 connections) — `src/data/productsStore.js`
-- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
-- **useProduct()** (2 connections) — `src/data/productsStore.js`
-- **emit()** (2 connections) — `src/data/session.js`
-- **PRODUCTS** (1 connections) — `src/data/products.js`
-- *... and 12 more nodes in this community*
+- **shareLink()** (7 connections) — `src/data/dealer.js`
+- **tagFor()** (6 connections) — `src/data/dealer.js`
+- **DealerPrice()** (5 connections) — `src/components/PriceBlock.jsx`
+- **formatWhatsAppPhone()** (4 connections) — `src/data/dealer.js`
+- **slugifyProduct()** (4 connections) — `src/data/dealer.js`
+- **tierOf()** (4 connections) — `src/data/dealer.js`
+- **DEALERS** (3 connections) — `src/data/dealer.js`
+- **isFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **PriceBlock()** (2 connections) — `src/components/PriceBlock.jsx`
+- **price99()** (2 connections) — `src/data/dealer.js`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [[Design System & UI Tokens]] (36 shared connections)
-- [[Architecture Doc Generator]] (18 shared connections)
-- [[Mobile Responsive UI Skill]] (15 shared connections)
-- [[Community 60]] (7 shared connections)
-- [[Community 207]] (1 shared connections)
+- [[Product Pages Specification]] (60 shared connections)
+- [[Community 50]] (15 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (13 shared connections)
+- [[Community 165]] (5 shared connections)
+- [[Community 164]] (5 shared connections)
+- [[Community 106]] (3 shared connections)
 
 ## Source Files
 
-- `src/data/api.js`
-- `src/data/auth.js`
+- `src/components/PriceBlock.jsx`
+- `src/components/ProductCard.jsx`
 - `src/data/dealer.js`
-- `src/data/products.js`
-- `src/data/productsStore.js`
-- `src/data/session.js`
+- `src/data/dealer.test.mjs`
+- `src/data/favoritesStore.js`
+- `src/pages/Favorites.jsx`
+- `src/pages/Product.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 203 (100%)
+- EXTRACTED: 283 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

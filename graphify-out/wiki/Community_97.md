@@ -1,45 +1,49 @@
 # Community 97
 
-> 19 nodes · cohesion 0.23
+> 18 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **update-contract.mjs** (16 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **update-contract.test.mjs** (10 connections) — `.agents/skills/archify/test/update-contract.test.mjs`
-- **compareSemver()** (9 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **validateStableUpdateManifest()** (8 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **isStableCoreVersion()** (7 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **parseSemver()** (7 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **validateLocalRelease()** (7 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **validateReleaseNotesUrl()** (5 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **hasExactKeys()** (4 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **releaseChannelForVersion()** (4 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **UpdateContractError** (4 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **compareNumericIdentifiers()** (3 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **comparePrerelease()** (3 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **validateCanonicalUtcTimestamp()** (3 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **validateManifest()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **isPlainObject()** (2 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **.constructor()** (1 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **localRelease()** (1 connections) — `.agents/skills/archify/test/update-contract.test.mjs`
-- **stableManifest()** (1 connections) — `.agents/skills/archify/test/update-contract.test.mjs`
+- **content.js** (19 connections) — `backend/src/services/content.js`
+- **zohoApiPlugin()** (13 connections) — `vite.config.js`
+- **content.js** (11 connections) — `api/content.js`
+- **content.js** (11 connections) — `backend/src/routes/content.js`
+- **handler()** (10 connections) — `api/content.js`
+- **getSupabaseBanners()** (9 connections) — `backend/src/services/content.js`
+- **getSupabaseSchemes()** (8 connections) — `backend/src/services/content.js`
+- **fetchZohoBanners()** (7 connections) — `api/zoho.js`
+- **fetchZohoSchemes()** (7 connections) — `api/zoho.js`
+- **getSupabaseBranding()** (7 connections) — `backend/src/services/content.js`
+- **getActiveContent()** (6 connections) — `backend/src/services/content.js`
+- **getHeroSliderSettings()** (6 connections) — `backend/src/services/content.js`
+- **saveHeroSliderSettings()** (5 connections) — `backend/src/services/content.js`
+- **deleteStoreContent()** (4 connections) — `backend/src/services/content.js`
+- **getAllStoreContent()** (4 connections) — `backend/src/services/content.js`
+- **toggleStoreContentActive()** (4 connections) — `backend/src/services/content.js`
+- **upsertStoreContent()** (4 connections) — `backend/src/services/content.js`
+- **formatGoogleDriveUrl()** (1 connections) — `backend/src/services/content.js`
 
 ## Relationships
 
-- [[Community 38]] (13 shared connections)
-- [[Community 39]] (3 shared connections)
-- [[Community 104]] (3 shared connections)
+- [[Community 162]] (10 shared connections)
+- [[Community 34]] (9 shared connections)
+- [[Community 80]] (7 shared connections)
+- [[Client Products Data Store]] (4 shared connections)
+- [[Community 46]] (3 shared connections)
+- [[Community 247]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-update.mjs`
-- `.agents/skills/archify/scripts/update-contract.mjs`
-- `.agents/skills/archify/test/update-contract.test.mjs`
+- `api/content.js`
+- `api/zoho.js`
+- `backend/src/routes/content.js`
+- `backend/src/services/content.js`
+- `vite.config.js`
 
 ## Audit Trail
 
-- EXTRACTED: 97 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 132 (97%)
+- INFERRED: 4 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

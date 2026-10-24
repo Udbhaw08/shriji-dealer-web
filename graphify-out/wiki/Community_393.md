@@ -1,13 +1,14 @@
 # Community 393
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **Cross-platform translation** (3 connections) — `.agents/skills/apple-design/references/cross-platform.md`
-- **cross-platform.md** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
-- **Conventions to check** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
-- **Vocabulary** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
+- **export_pricebooks_for_crm.mjs** (4 connections) — `scripts/export_pricebooks_for_crm.mjs`
+- **getAccessToken()** (2 connections) — `scripts/export_pricebooks_for_crm.mjs`
+- **main()** (2 connections) — `scripts/export_pricebooks_for_crm.mjs`
+- **env** (1 connections) — `scripts/export_pricebooks_for_crm.mjs`
+- **getMergedEnv()** (1 connections) — `scripts/export_pricebooks_for_crm.mjs`
 
 ## Relationships
 
@@ -15,11 +16,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/cross-platform.md`
+- `scripts/export_pricebooks_for_crm.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **dataflow** (0 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **settings.gradle** (0 connections) — `android/settings.gradle`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- `android/settings.gradle`
 
 ## Audit Trail
 

@@ -1,44 +1,48 @@
 # Community 80
 
-> 23 nodes · cohesion 0.09
+> 20 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **package.json** (9 connections) — `backend/package.json`
-- **dependencies** (7 connections) — `backend/package.json`
-- **scripts** (7 connections) — `backend/package.json`
-- **engines** (2 connections) — `backend/package.json`
-- **dotenv** (1 connections) — `backend/package.json`
-- **express** (1 connections) — `backend/package.json`
-- **google-auth-library** (1 connections) — `backend/package.json`
-- **jsonwebtoken** (1 connections) — `backend/package.json`
-- **postgres** (1 connections) — `backend/package.json`
-- **resend** (1 connections) — `backend/package.json`
-- **description** (1 connections) — `backend/package.json`
-- **node** (1 connections) — `backend/package.json`
-- **main** (1 connections) — `backend/package.json`
-- **name** (1 connections) — `backend/package.json`
-- **private** (1 connections) — `backend/package.json`
-- **build** (1 connections) — `backend/package.json`
-- **check:ready** (1 connections) — `backend/package.json`
-- **dev** (1 connections) — `backend/package.json`
-- **migrate** (1 connections) — `backend/package.json`
-- **start** (1 connections) — `backend/package.json`
-- **test** (1 connections) — `backend/package.json`
-- **type** (1 connections) — `backend/package.json`
-- **version** (1 connections) — `backend/package.json`
+- **fetchZohoProductById()** (18 connections) — `api/zoho.js`
+- **fetchZohoProducts()** (16 connections) — `api/zoho.js`
+- **fetchZohoWithRetry()** (12 connections) — `api/zoho.js`
+- **getZohoConfig()** (12 connections) — `api/zoho.js`
+- **fetchAllRawZohoProducts()** (8 connections) — `api/zoho.js`
+- **fetchZohoCategories()** (8 connections) — `api/zoho.js`
+- **getCategoryVisibilityMap()** (7 connections) — `api/zoho.js`
+- **fetchZohoPricebookItems()** (6 connections) — `api/zoho.js`
+- **resolvePricebookId()** (5 connections) — `api/zoho.js`
+- **fetchZohoPricebooks()** (4 connections) — `api/zoho.js`
+- **fetchZohoRawCategories()** (4 connections) — `api/zoho.js`
+- **index.js** (4 connections) — `api/products/index.js`
+- **og.js** (3 connections) — `api/og.js`
+- **readProductDetailsDiskCache()** (3 connections) — `api/zoho.js`
+- **readProductsDiskCache()** (3 connections) — `api/zoho.js`
+- **writeProductDetailDiskCache()** (3 connections) — `api/zoho.js`
+- **[id].js** (3 connections) — `api/products/[id].js`
+- **handler()** (3 connections) — `api/products/index.js`
+- **handler()** (2 connections) — `api/og.js`
+- **handler()** (2 connections) — `api/products/[id].js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 46]] (23 shared connections)
+- [[Community 97]] (7 shared connections)
+- [[Community 162]] (5 shared connections)
+- [[Community 247]] (5 shared connections)
+- [[Community 143]] (2 shared connections)
 
 ## Source Files
 
-- `backend/package.json`
+- `api/og.js`
+- `api/products/[id].js`
+- `api/products/index.js`
+- `api/zoho.js`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (100%)
+- EXTRACTED: 126 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

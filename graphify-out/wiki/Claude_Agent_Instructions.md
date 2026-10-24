@@ -1,58 +1,52 @@
 # Claude Agent Instructions
 
-> 44 nodes · cohesion 0.08
+> 43 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **auth.js** (52 connections) — `backend/src/routes/auth.js`
-- **hash.js** (24 connections) — `backend/src/utils/hash.js`
-- **phase2DealerStaffOnboarding.test.mjs** (17 connections) — `backend/test/phase2DealerStaffOnboarding.test.mjs`
-- **onboardingVerification.test.mjs** (15 connections) — `backend/test/onboardingVerification.test.mjs`
-- **verifyOtpHash()** (10 connections) — `backend/src/utils/hash.js`
-- **hash.test.mjs** (9 connections) — `backend/test/hash.test.mjs`
-- **hashOtp()** (9 connections) — `backend/src/utils/hash.js`
-- **sha256()** (9 connections) — `backend/src/utils/hash.js`
-- **issueSession()** (5 connections) — `backend/src/routes/auth.js`
-- **generateOtp()** (5 connections) — `backend/src/utils/hash.js`
-- **hashPassword()** (5 connections) — `backend/src/utils/hash.js`
-- **isUserFullyOnboarded()** (4 connections) — `backend/src/routes/auth.js`
-- **resolveUserWithDealer()** (4 connections) — `backend/src/routes/auth.js`
-- **verifyPassword()** (4 connections) — `backend/src/utils/hash.js`
-- **findUserByEmail()** (3 connections) — `backend/src/routes/auth.js`
-- **publicUser()** (3 connections) — `backend/src/routes/auth.js`
-- **handleDealerRegistrationFinalize()** (3 connections) — `backend/src/routes/dealers.js`
-- **scryptKey()** (3 connections) — `backend/src/utils/hash.js`
-- **generateCode()** (2 connections) — `backend/src/utils/hash.js`
-- **randomToken()** (2 connections) — `backend/src/utils/hash.js`
-- **googleClient** (1 connections) — `backend/src/routes/auth.js`
-- **lastCrmSyncByDealerId** (1 connections) — `backend/src/routes/auth.js`
-- **strictLimit** (1 connections) — `backend/src/routes/auth.js`
-- **app** (1 connections) — `backend/test/onboardingVerification.test.mjs`
-- **authHeader()** (1 connections) — `backend/test/onboardingVerification.test.mjs`
-- *... and 19 more nodes in this community*
+- **properties** (28 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **label** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelSegment** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **brand** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **channelX** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **channelY** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **classification** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **from** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **fromSide** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelAt** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelDx** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **labelDy** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **route** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **sublabel** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **tag** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **to** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **toSide** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **variant** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **yOffset** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [[Community 73]] (18 shared connections)
-- [[Community 51]] (17 shared connections)
-- [[Community 36]] (14 shared connections)
-- [[Community 175]] (9 shared connections)
-- [[Client Products Data Store]] (7 shared connections)
-- [[Community 173]] (3 shared connections)
-- [[Community 132]] (2 shared connections)
+- [[Community 196]] (3 shared connections)
+- [[Community 444]] (1 shared connections)
+- [[Community 445]] (1 shared connections)
+- [[Community 446]] (1 shared connections)
+- [[Community 414]] (1 shared connections)
+- [[Community 415]] (1 shared connections)
 
 ## Source Files
 
-- `backend/src/routes/auth.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/utils/hash.js`
-- `backend/test/hash.test.mjs`
-- `backend/test/onboardingVerification.test.mjs`
-- `backend/test/phase2DealerStaffOnboarding.test.mjs`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 212 (100%)
+- EXTRACTED: 92 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

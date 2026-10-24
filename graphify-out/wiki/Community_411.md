@@ -4,22 +4,22 @@
 
 ## Key Concepts
 
-- **watch-sync.mjs** (3 connections) — `scripts/watch-sync.mjs`
-- **rootDir** (1 connections) — `scripts/watch-sync.mjs`
-- **srcDir** (1 connections) — `scripts/watch-sync.mjs`
-- **triggerSync()** (1 connections) — `scripts/watch-sync.mjs`
+- **6. Line Height** (4 connections) — `.agents/skills/refero-design/references/typography.md`
+- **CSS Tokens** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Principles** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Quick Reference** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 230]] (1 shared connections)
 
 ## Source Files
 
-- `scripts/watch-sync.mjs`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

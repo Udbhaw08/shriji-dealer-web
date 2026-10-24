@@ -1,10 +1,11 @@
 # Community 476
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **CapApp-SPM.swift** (0 connections) — `ios/App/CapApp-SPM/Sources/CapApp-SPM/CapApp-SPM.swift`
+- **ci-scope.test.mjs** (1 connections) — `.agents/skills/archify/test/ci-scope.test.mjs`
+- **script** (1 connections) — `.agents/skills/archify/test/ci-scope.test.mjs`
 
 ## Relationships
 
@@ -12,11 +13,11 @@
 
 ## Source Files
 
-- `ios/App/CapApp-SPM/Sources/CapApp-SPM/CapApp-SPM.swift`
+- `.agents/skills/archify/test/ci-scope.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,44 +4,44 @@
 
 ## Key Concepts
 
-- **scripts** (15 connections) — `package.json`
-- **dependencies** (12 connections) — `package.json`
-- **package.json** (7 connections) — `package.json`
-- **devDependencies** (6 connections) — `package.json`
-- **@capacitor/android** (1 connections) — `package.json`
-- **@capacitor/app** (1 connections) — `package.json`
-- **@capacitor/cli** (1 connections) — `package.json`
-- **@capacitor/core** (1 connections) — `package.json`
-- **@capacitor/ios** (1 connections) — `package.json`
-- **@capacitor/preferences** (1 connections) — `package.json`
-- **dotenv** (1 connections) — `package.json`
-- **postgres** (1 connections) — `package.json`
-- **react** (1 connections) — `package.json`
-- **react-dom** (1 connections) — `package.json`
-- **react-router-dom** (1 connections) — `package.json`
-- **oxlint** (1 connections) — `package.json`
-- **@types/react** (1 connections) — `package.json`
-- **@types/react-dom** (1 connections) — `package.json`
-- **vite** (1 connections) — `package.json`
-- **@vitejs/plugin-react** (1 connections) — `package.json`
-- **name** (1 connections) — `package.json`
-- **private** (1 connections) — `package.json`
-- **build** (1 connections) — `package.json`
-- **build:backend** (1 connections) — `package.json`
-- **cap:android** (1 connections) — `package.json`
+- **properties** (11 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **viewBox** (6 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **meta** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **entries** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **legend** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **animation** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **locale** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **mode** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **output** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **subtitle** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **views** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **properties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 - *... and 13 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 78]] (1 shared connections)
 
 ## Source Files
 
-- `package.json`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 74 (100%)
+- EXTRACTED: 75 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

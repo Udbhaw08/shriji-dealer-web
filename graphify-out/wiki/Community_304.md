@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Snippets** (6 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
-- **snippets.md** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **Loading** (6 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **loading.md** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **Showing progress** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/snippets.md`
+- `.agents/skills/apple-design/references/hig/loading.md`
 
 ## Audit Trail
 

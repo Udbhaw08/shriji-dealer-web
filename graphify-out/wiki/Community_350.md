@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **SKILL.md** (3 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **Output Format** (3 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **ContentView.swift** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **Core Instructions** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **References** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **Summary** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **Rating indicators** (5 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
+- **rating-indicators.md** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/SKILL.md`
+- `.agents/skills/apple-design/references/hig/rating-indicators.md`
 
 ## Audit Trail
 

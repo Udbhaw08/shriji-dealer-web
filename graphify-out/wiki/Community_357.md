@@ -4,24 +4,24 @@
 
 ## Key Concepts
 
-- **story-trail.test.mjs** (5 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
+- **viewBox** (6 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 86]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/story-trail.test.mjs`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

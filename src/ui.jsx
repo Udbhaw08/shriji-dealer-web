@@ -365,13 +365,13 @@ function AccountLink({ className = "" }) {
   }
 
   return (
-    <Link className={`acct ${className}`.trim()} to="/login" title="Account / Customer View · Click to manage or apply as dealer">
-      <span className="acct-dot" style={{ background: "var(--tx-3, #64748b)" }} aria-hidden="true">
-        {s?.fullName ? s.fullName.slice(0, 1).toUpperCase() : "C"}
+    <Link className={`acct ${className}`.trim()} to="/login" title="Sign In or Join · Dealer, Staff, Customer, Brand">
+      <span className="acct-dot" style={{ background: "var(--navy-2, #174d7a)", color: "#fff" }} aria-hidden="true">
+        <Icon name="user" size={14} />
       </span>
       <span>
-        <b>{s?.fullName || "Customer View"}</b>
-        <span style={{ color: "var(--tx-2, #475569)" }}>{s?.userId ? "Profile · Apply Dealer" : "MRP · Sign In"}</span>
+        <b>Sign In / Join</b>
+        <span style={{ color: "var(--tx-2, #475569)" }}>Choose Your Role</span>
       </span>
     </Link>
   );

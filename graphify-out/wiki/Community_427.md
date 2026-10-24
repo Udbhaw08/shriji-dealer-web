@@ -1,24 +1,25 @@
 # Community 427
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **9. Line Length (Measure)** (3 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Guidelines** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Implementation** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **delivery-contract.test.mjs** (3 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
+- **delivery** (1 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
+- **skill** (1 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
 
 ## Relationships
 
-- [[Community 227]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/archify/test/delivery-contract.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

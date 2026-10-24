@@ -1,35 +1,35 @@
 # Community 32
 
-> 40 nodes · cohesion 0.09
+> 39 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **webm-artifact.smoke.mjs** (39 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **navigateReady()** (12 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **evaluate()** (11 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **delay()** (7 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **withTimeout()** (7 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **verifyArchitectureDeltaNavigator()** (5 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **captureCopiedShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **captureReachShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **captureRouteShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **captureRouteVisualMatrix()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **captureShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **verifyDynamicReducedMotionRoute()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **verifyResolvedLegendContract()** (3 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **verifySemanticPassportDismissal()** (3 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **devtoolsEndpoint()** (2 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **removeTempTree()** (2 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **waitForExit()** (2 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **chrome** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **chromeProcess** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **connectCdp()** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **executable()** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **ffmpeg** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **freePort()** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **input** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- *... and 15 more nodes in this community*
+- **scenarios.mjs** (15 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **FakeElement** (12 connections) — `.agents/skills/archify/test/start-page.test.mjs`
+- **gallery.test.mjs** (9 connections) — `.agents/skills/archify/test/gallery.test.mjs`
+- **start-page.test.mjs** (8 connections) — `.agents/skills/archify/test/start-page.test.mjs`
+- **guide.test.mjs** (6 connections) — `.agents/skills/archify/test/guide.test.mjs`
+- **recommendScenario()** (4 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **SCENARIO_RECIPES** (4 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **detectGuideLanguage()** (3 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **listScenarioRecipes()** (3 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **formatScenarioList()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **localized()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **normalized()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **publicGuideData()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **scoreRecipe()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **startPromptsFor()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **formatScenarioRecommendation()** (1 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **RAW_RECIPES** (1 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
+- **generatedRoot** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
+- **normalize()** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/start-page.test.mjs`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
@@ -37,11 +37,14 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- `.agents/skills/archify/recipes/scenarios.mjs`
+- `.agents/skills/archify/test/gallery.test.mjs`
+- `.agents/skills/archify/test/guide.test.mjs`
+- `.agents/skills/archify/test/start-page.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 140 (100%)
+- EXTRACTED: 100 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

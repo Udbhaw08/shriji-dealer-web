@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **make-scheme-pdfs.mjs** (1 connections) — `scripts/make-scheme-pdfs.mjs`
-- **createPdfWithJpg()** (1 connections) — `scripts/make-scheme-pdfs.mjs`
+- **Package.swift** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
+- **PackageDescription** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `scripts/make-scheme-pdfs.mjs`
+- `ios/App/CapApp-SPM/Package.swift`
 
 ## Audit Trail
 

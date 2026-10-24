@@ -1,47 +1,58 @@
 # Community 47
 
-> 34 nodes · cohesion 0.06
+> 31 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **Typography** (10 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **iOS, iPadOS Dynamic Type sizes** (8 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **iOS, iPadOS larger accessibility type sizes** (6 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Specifications** (5 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **iOS, iPadOS, visionOS tracking values** (4 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Tracking values** (3 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **typography.md** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX1** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX2** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX3** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX4** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX5** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Conveying hierarchy** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Ensuring legibility** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Large (default)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **macOS built-in text styles** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **macOS tracking values** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Medium** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **New York** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **SF Pro** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- *... and 9 more nodes in this community*
+- **render-dataflow.mjs** (78 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **anchor()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **automaticPortSpread()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **chosenSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **defaultFromSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **defaultToSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **pathFor()** (8 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **pathFor()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **polylinePath()** (8 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **roundedPath()** (7 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **connectionSides()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **arrowClassMap** (6 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **flowSides()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **stageX()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **transitionSides()** (5 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **componentFill** (5 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **componentText** (4 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **connectionEndpointSide()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **measureNode()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **routeVia()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **stageFrame()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **routeVia()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **automaticPorts** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **compositionFrames** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 48]] (28 shared connections)
+- [[Live Pricing Audit Tool]] (24 shared connections)
+- [[Community 30]] (18 shared connections)
+- [[Community 35]] (18 shared connections)
+- [[Product Brand & Business Vision]] (15 shared connections)
+- [[Community 79]] (9 shared connections)
+- [[Zoho Integration Architecture]] (5 shared connections)
+- [[Community 105]] (3 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/typography.md`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- `.agents/skills/archify/renderers/shared/geometry.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (100%)
+- EXTRACTED: 219 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

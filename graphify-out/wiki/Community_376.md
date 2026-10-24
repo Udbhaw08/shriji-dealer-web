@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **4. Text Color System** (5 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Anti-pattern** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Dark Mode Inversion** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Rules That Actually Work** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **The System** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Home Screen quick actions** (4 connections) — `.agents/skills/apple-design/references/hig/home-screen-quick-actions.md`
+- **home-screen-quick-actions.md** (1 connections) — `.agents/skills/apple-design/references/hig/home-screen-quick-actions.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/home-screen-quick-actions.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/home-screen-quick-actions.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/home-screen-quick-actions.md`
 
 ## Relationships
 
-- [[Community 227]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/apple-design/references/hig/home-screen-quick-actions.md`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

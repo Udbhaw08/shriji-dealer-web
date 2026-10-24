@@ -1,12 +1,13 @@
 # Community 424
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **Brand marks** (2 connections) — `.agents/skills/archify/references/brand-marks.md`
-- **brand-marks.md** (1 connections) — `.agents/skills/archify/references/brand-marks.md`
-- **Agent decision path** (1 connections) — `.agents/skills/archify/references/brand-marks.md`
+- **Shriji Testing & Workflow Skill** (3 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
+- **Daily Development Commands** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
+- **Hard Workflow Rules** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
 
 ## Relationships
 
@@ -14,11 +15,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/references/brand-marks.md`
+- `.agents/skills/shriji-testing-and-workflow/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

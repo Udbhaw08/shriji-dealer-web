@@ -1,57 +1,54 @@
 # Testing & Workflow Skill
 
-> 43 nodes · cohesion 0.08
+> 41 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **brand-marks.mjs** (51 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **brand-marks.test.mjs** (15 connections) — `.agents/skills/archify/test/brand-marks.test.mjs`
-- **captureRemoteBrand()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **prepareDiagramBrandMarks()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **captureBrandReference()** (6 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **findBrandMark()** (5 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **checkedFetch()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **isPrivateBrandAddress()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **resolveRequestTarget()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **asUrl()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **iconCandidates()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **imageData()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **ipv4Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **ipv6Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **lookupForms()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **readLimited()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **validateUrlShape()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **generated-brand-marks.mjs** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
-- **BRAND_MARKS** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
-- **attribute()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **beforeDeadline()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **captureTimeoutMilliseconds()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **domainMark()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **mapConcurrent()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **remoteBrand()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- *... and 18 more nodes in this community*
+- **jr()** (24 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **Or()** (22 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **gf()** (18 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **Oi()** (11 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **Ai()** (10 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **gr()** (9 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **Si()** (9 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **Ar()** (8 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **kr()** (7 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **fr()** (6 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **gn()** (6 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **hr()** (6 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **Ir()** (6 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **mr()** (6 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **Sr()** (6 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **vr()** (6 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **bh()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **Nr()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **qf()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **Rr()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **sm()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **Sn()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **wr()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **xn()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **zr()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (7 shared connections)
+- [[Price Presentation & Product UI]] (43 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (19 shared connections)
+- [[Design System & UI Tokens]] (9 shared connections)
 - [[Product Requirements Documentation]] (6 shared connections)
-- [[Graphify Knowledge Graph Skill]] (3 shared connections)
-- [[Community 40]] (3 shared connections)
-- [[Product Brand & Business Vision]] (1 shared connections)
-- [[Community 44]] (1 shared connections)
-- [[Community 106]] (1 shared connections)
+- [[Community 33]] (4 shared connections)
 - [[Community 87]] (1 shared connections)
+- [[Roles & Customer Sharing Spec]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
-- `.agents/skills/archify/test/brand-marks.test.mjs`
+- `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
 
 ## Audit Trail
 
-- EXTRACTED: 164 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 259 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

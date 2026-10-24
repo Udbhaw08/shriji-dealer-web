@@ -1,39 +1,33 @@
 # Community 158
 
-> 12 nodes · cohesion 0.20
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **desktop-readability.mjs** (9 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **adaptive-reader-layout.test.mjs** (9 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **desktop-reader-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
-- **DESKTOP_READABILITY_VIEWPORT** (5 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **reader** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **skill** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
-- **packagedHtmlExamples** (1 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- **SF Symbols** (11 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **sf-symbols.md** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Animations** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Custom symbols** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Design variants** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Gradients** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Rendering modes** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Variable color** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Weights and scales** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
 
 ## Relationships
 
-- [[Vercel Deployment Routing]] (4 shared connections)
-- [[Roles & Customer Sharing Spec]] (4 shared connections)
-- [[Product Brand & Business Vision]] (3 shared connections)
-- [[Community 105]] (1 shared connections)
-- [[Community 123]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- `.agents/skills/apple-design/references/hig/sf-symbols.md`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

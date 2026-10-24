@@ -1,56 +1,48 @@
 # Community 51
 
-> 33 nodes · cohesion 0.17
+> 29 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **crmClient.js** (34 connections) — `backend/src/services/crmClient.js`
-- **normalizePhone()** (19 connections) — `backend/src/utils/phone.js`
-- **normalizeEmail()** (18 connections) — `backend/src/utils/validators.js`
-- **validators.js** (15 connections) — `backend/src/utils/validators.js`
-- **crmFetch()** (14 connections) — `backend/src/services/crmClient.js`
-- **finalizeDealerRegistration()** (12 connections) — `backend/src/services/dealerApp.js`
-- **isValidPhone()** (11 connections) — `backend/src/utils/validators.js`
-- **cleanName()** (9 connections) — `backend/src/utils/validators.js`
-- **crmConfigured()** (8 connections) — `backend/src/services/crmClient.js`
-- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
-- **verifyDealerRegistrationOtp()** (7 connections) — `backend/src/services/dealerApp.js`
-- **phone.js** (7 connections) — `backend/src/utils/phone.js`
-- **isValidEmail()** (7 connections) — `backend/src/utils/validators.js`
-- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
-- **isValidName()** (6 connections) — `backend/src/utils/validators.js`
-- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
-- **createDealerContact()** (5 connections) — `backend/src/services/crmClient.js`
-- **findOwnerContactInAccount()** (5 connections) — `backend/src/services/crmClient.js`
-- **updateContactDetails()** (5 connections) — `backend/src/services/crmClient.js`
-- **updateDealerCodeInCrm()** (5 connections) — `backend/src/services/crmClient.js`
-- **isValidGstin()** (5 connections) — `backend/src/utils/validators.js`
-- **resolveContactNames()** (4 connections) — `backend/src/services/crmClient.js`
-- **emailOnlyIdentifier()** (3 connections) — `backend/src/routes/auth.js`
-- **deactivateAccountInCrm()** (3 connections) — `backend/src/services/crmClient.js`
-- **deactivateContactInCrm()** (3 connections) — `backend/src/services/crmClient.js`
-- *... and 8 more nodes in this community*
+- **AppDelegate** (10 connections) — `ios/App/App/AppDelegate.swift`
+- **.application()** (7 connections) — `ios/App/App/AppDelegate.swift`
+- **.scene()** (7 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIApplication** (6 connections) — `ios/App/App/AppDelegate.swift`
+- **SceneDelegate** (5 connections) — `ios/App/App/SceneDelegate.swift`
+- **AppDelegate.swift** (3 connections) — `ios/App/App/AppDelegate.swift`
+- **SceneDelegate.swift** (3 connections) — `ios/App/App/SceneDelegate.swift`
+- **.applicationDidBecomeActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationDidEnterBackground()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillEnterForeground()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillResignActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillTerminate()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **Capacitor** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIWindow** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIKit** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIResponder** (2 connections)
+- **Any** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **Bool** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIScene** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UISceneSession** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIWindow** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIScene** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **UISceneSession** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **NSUserActivity** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **Set** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [[Community 73]] (32 shared connections)
-- [[Claude Agent Instructions]] (17 shared connections)
-- [[Community 36]] (12 shared connections)
-- [[Client Products Data Store]] (4 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `backend/src/routes/auth.js`
-- `backend/src/services/crmClient.js`
-- `backend/src/services/dealerApp.js`
-- `backend/src/utils/phone.js`
-- `backend/src/utils/validators.js`
-- `backend/test/interconnection.test.mjs`
-- `backend/test/validators.test.mjs`
+- `ios/App/App/AppDelegate.swift`
+- `ios/App/App/SceneDelegate.swift`
 
 ## Audit Trail
 
-- EXTRACTED: 241 (100%)
+- EXTRACTED: 72 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

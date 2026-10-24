@@ -4,27 +4,38 @@
 
 ## Key Concepts
 
-- **generate-validators.mjs** (8 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **ajv** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **diagramTypes** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **output** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **root** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **schemaIds** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **schemasDir** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **validatorCode** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **Typography Guide** (18 connections) — `.agents/skills/refero-design/references/typography.md`
+- **9. Line Length (Measure)** (3 connections) — `.agents/skills/refero-design/references/typography.md`
+- **typography.md** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **15. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **1. The Safe SaaS Preset** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Guidelines** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Implementation** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 385]] (1 shared connections)
+- [[Community 406]] (1 shared connections)
+- [[Community 386]] (1 shared connections)
+- [[Community 439]] (1 shared connections)
+- [[Community 407]] (1 shared connections)
+- [[Community 408]] (1 shared connections)
+- [[Community 409]] (1 shared connections)
+- [[Community 387]] (1 shared connections)
+- [[Community 410]] (1 shared connections)
+- [[Community 411]] (1 shared connections)
+- [[Community 388]] (1 shared connections)
+- [[Community 231]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/generate-validators.mjs`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

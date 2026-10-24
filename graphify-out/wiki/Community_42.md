@@ -1,55 +1,47 @@
 # Community 42
 
-> 36 nodes · cohesion 0.10
+> 34 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **qd()** (14 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **zd()** (14 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **Nd()** (13 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **Le()** (11 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **Li()** (11 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **tf()** (11 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **af()** (10 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **ef()** (8 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **Gd()** (8 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **Id()** (7 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **lf()** (7 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **Mp()** (7 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **of()** (7 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **rt()** (7 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **uf()** (7 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **yi()** (7 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **Bd()** (6 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **Pd()** (6 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **xc()** (6 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **Rd()** (5 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **sf()** (5 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **Gu()** (4 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **jf()** (4 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **mf()** (4 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- *... and 11 more nodes in this community*
+- **Typography** (10 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **iOS, iPadOS Dynamic Type sizes** (8 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **iOS, iPadOS larger accessibility type sizes** (6 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Specifications** (5 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **iOS, iPadOS, visionOS tracking values** (4 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Tracking values** (3 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **typography.md** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **AX1** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **AX2** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **AX3** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **AX4** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **AX5** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Conveying hierarchy** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Ensuring legibility** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Large (default)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **macOS built-in text styles** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **macOS tracking values** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Medium** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **New York** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **SF Pro** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (41 shared connections)
-- [[Dependencies & Package Config]] (19 shared connections)
-- [[Project Readme & Layout]] (12 shared connections)
-- [[Live Pricing Audit Tool]] (7 shared connections)
-- [[Pricing Regression Test Suite]] (7 shared connections)
-- [[Community 67]] (6 shared connections)
-- [[Community 53]] (5 shared connections)
-- [[Community 56]] (3 shared connections)
-- [[Community 49]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- `.agents/skills/apple-design/references/hig/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 225 (100%)
+- EXTRACTED: 66 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

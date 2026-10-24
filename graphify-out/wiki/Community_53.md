@@ -1,56 +1,60 @@
 # Community 53
 
-> 31 nodes · cohesion 0.17
+> 27 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **kr()** (24 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **Mr()** (23 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **gf()** (19 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **Ir()** (15 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **r()** (14 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **Si()** (13 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **ii()** (9 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **jr()** (9 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **Lr()** (8 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **yr()** (8 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **Cr()** (7 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **Oi()** (7 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **pr()** (7 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **Cn()** (6 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **fr()** (6 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **gr()** (6 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **Ur()** (6 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **zr()** (6 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **Br()** (5 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **hr()** (5 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **Rr()** (5 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **vr()** (5 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **Ar()** (4 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **ei()** (4 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **jt()** (4 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- *... and 6 more nodes in this community*
+- **.send()** (54 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **viewer-camera-browser.test.mjs** (11 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **export-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **motion-governor-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **.inspect()** (5 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **run()** (5 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **run()** (5 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **run()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **evaluate()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **record()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **screenshot()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **stable()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **viewport()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **.waitFor()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **screenshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (39 shared connections)
-- [[Project Readme & Layout]] (8 shared connections)
-- [[Pricing Regression Test Suite]] (8 shared connections)
-- [[Dependencies & Package Config]] (7 shared connections)
-- [[Community 67]] (7 shared connections)
-- [[Community 56]] (7 shared connections)
-- [[Community 42]] (5 shared connections)
-- [[Community 49]] (3 shared connections)
-- [[Live Pricing Audit Tool]] (2 shared connections)
+- [[Community 61]] (11 shared connections)
+- [[Community 89]] (8 shared connections)
+- [[Community 81]] (7 shared connections)
+- [[Community 125]] (7 shared connections)
+- [[Community 49]] (5 shared connections)
+- [[Community 144]] (5 shared connections)
+- [[Community 145]] (5 shared connections)
+- [[Community 181]] (4 shared connections)
+- [[Community 104]] (1 shared connections)
+- [[Community 294]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/test/export-browser.test.mjs`
+- `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 244 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 146 (99%)
+- INFERRED: 2 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

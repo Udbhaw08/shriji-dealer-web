@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Text views** (5 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
-- **text-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
+- **Managing accounts** (6 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- **managing-accounts.md** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- **Deleting accounts** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- **TV provider accounts** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/text-views.md`
+- `.agents/skills/apple-design/references/hig/managing-accounts.md`
 
 ## Audit Trail
 

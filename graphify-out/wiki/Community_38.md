@@ -1,50 +1,49 @@
 # Community 38
 
-> 38 nodes · cohesion 0.08
+> 38 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **check-update.mjs** (99 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **normalizeState()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **encodeRecoverableState()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **validateCachedCandidate()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **isPlainObject()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **canonicalizeTrustedDirectoryPrefix()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **guardedCacheEntryRead()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **hasOnlyKeys()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **isWithinDirectory()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **notification()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationIsActive()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stateAfterFailedCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stateWithFailureCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **validateClaimOwner()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertSafeCacheEntry()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cancelResponseBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **corruptClaimStatus()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **emptyState()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **encodeBoundedState()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **eventKeyForDigest()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **metadataIsWithinLease()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **nextFailedCheck()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **readBoundedBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stateAfterAcknowledgement()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertRenameableCacheEntry()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **update-notifier.test.mjs** (43 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **operationPath()** (5 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **stateDirectory()** (4 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **fixture()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **remoteReleaseForVersion()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **runCheckInChild()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **statePath()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **writeCompactCommittedState()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **assertUnsafeCacheStateIsIgnored()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **committedStateFiles()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **compactStateSource()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **localRelease()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **pauseOpenOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **pauseRenameMatchingOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **pauseRenameOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **pauseWriteOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **remoteRelease()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **writeJson()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **writePendingOperation()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **baseTime** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **cachedStateWithHistory()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **cachedUpdateState()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **cancel()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **candidateStateForDigest()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **checkerPath** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
 - *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [[Community 48]] (39 shared connections)
-- [[Community 104]] (20 shared connections)
-- [[Community 97]] (13 shared connections)
-- [[Community 39]] (1 shared connections)
+- [[Community 95]] (3 shared connections)
+- [[Community 110]] (2 shared connections)
+- [[Community 40]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-update.mjs`
+- `.agents/skills/archify/test/update-notifier.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 183 (100%)
+- EXTRACTED: 108 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

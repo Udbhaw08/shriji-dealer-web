@@ -1,14 +1,15 @@
 # Community 364
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.47
 
 ## Key Concepts
 
-- **Gyroscope and accelerometer** (4 connections) — `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
-- **gyro-and-accelerometer.md** (1 connections) — `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
+- **clean-skill-staging.test.mjs** (5 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
+- **repositoryFixture()** (3 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
+- **git()** (2 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
+- **write()** (2 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
+- **canonicalNotices** (1 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
+- **stagerPath** (1 connections) — `.agents/skills/archify/test/clean-skill-staging.test.mjs`
 
 ## Relationships
 
@@ -16,11 +17,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
+- `.agents/skills/archify/test/clean-skill-staging.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

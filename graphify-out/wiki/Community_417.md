@@ -4,22 +4,22 @@
 
 ## Key Concepts
 
-- **guide-page.test.mjs** (3 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
+- **width** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Zoho API Diagnostic Script]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/guide-page.test.mjs`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

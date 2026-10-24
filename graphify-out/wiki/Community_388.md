@@ -1,25 +1,26 @@
 # Community 388
 
-> 4 nodes · cohesion 0.67
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **Test** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
-- **ExampleInstrumentedTest.java** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
-- **ExampleInstrumentedTest** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
-- **.useAppContext()** (2 connections) — `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
+- **7. Vertical Rhythm** (5 connections) — `.agents/skills/refero-design/references/typography.md`
+- **CSS Implementation** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Example** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Golden Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **The Simple Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 230]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

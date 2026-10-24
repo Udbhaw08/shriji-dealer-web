@@ -1,50 +1,70 @@
 # Community 48
 
-> 34 nodes · cohesion 0.16
+> 31 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **cacheRename()** (13 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **acquireOperation()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheRm()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheTokenFor()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **captureMutationParentSnapshots()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheWriteFile()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **invalidateCacheToken()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **prepareCacheDirectory()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **promoteOperationClaim()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **reserveOperation()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **resolveCacheTarget()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stableCacheEntry()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **verifyCacheToken()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **guardedCacheMutation()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **guardedCacheRead()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertSafeDirectory()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheMkdir()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **inspectActiveClaim()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **isSameFile()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheMkdirWithToken()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **fenceLowerOperations()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **listOperations()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationName()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationWasFenced()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **prepareOperationClaim()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- *... and 9 more nodes in this community*
+- **compileWorkflowInternal()** (67 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **esc()** (31 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **escapeHtml()** (26 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **animateAttr()** (16 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **focusEdgeAttrs()** (15 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **labelPoint()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **renderBrandMark()** (14 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **renderNode()** (13 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderState()** (13 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **focusNodeAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **renderSemanticSigil()** (13 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **renderComponent()** (12 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **renderParticipant()** (12 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **brandLabelFitWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **brandMetadataFor()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **focusNodeTitle()** (12 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **routePointsValue()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **fittedNodeFontSize()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- **variantAccent()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **renderConnectionLabel()** (8 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **renderFlowLabel()** (8 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderTransitionLabel()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderMessage()** (8 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **brandMarkFor()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **renderConnectionPath()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [[Community 38]] (39 shared connections)
-- [[Community 104]] (18 shared connections)
-- [[Community 203]] (1 shared connections)
+- [[Community 30]] (38 shared connections)
+- [[Community 35]] (32 shared connections)
+- [[Community 47]] (28 shared connections)
+- [[Live Pricing Audit Tool]] (23 shared connections)
+- [[Product Brand & Business Vision]] (22 shared connections)
+- [[Community 79]] (18 shared connections)
+- [[Community 105]] (10 shared connections)
+- [[Zoho Integration Architecture]] (10 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (6 shared connections)
+- [[Community 59]] (5 shared connections)
+- [[Community 294]] (3 shared connections)
+- [[Community 82]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-update.mjs`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- `.agents/skills/archify/renderers/shared/cli.mjs`
+- `.agents/skills/archify/renderers/shared/geometry.mjs`
+- `.agents/skills/archify/renderers/shared/i18n.mjs`
+- `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 231 (100%)
-- INFERRED: 1 (0%)
+- EXTRACTED: 356 (90%)
+- INFERRED: 41 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

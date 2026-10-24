@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Loading** (6 connections) — `.agents/skills/apple-design/references/hig/loading.md`
-- **loading.md** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
-- **Showing progress** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **MockStorage** (6 connections) — `src/data/auth-session.test.mjs`
+- **auth-session.test.mjs** (1 connections) — `src/data/auth-session.test.mjs`
+- **.clear()** (1 connections) — `src/data/auth-session.test.mjs`
+- **.constructor()** (1 connections) — `src/data/auth-session.test.mjs`
+- **.getItem()** (1 connections) — `src/data/auth-session.test.mjs`
+- **.removeItem()** (1 connections) — `src/data/auth-session.test.mjs`
+- **.setItem()** (1 connections) — `src/data/auth-session.test.mjs`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/loading.md`
+- `src/data/auth-session.test.mjs`
 
 ## Audit Trail
 

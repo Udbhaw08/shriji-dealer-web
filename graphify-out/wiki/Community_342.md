@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Steppers** (4 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
-- **steppers.md** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
+- **Activity views** (5 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **activity-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **Share and action extensions** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/steppers.md`
+- `.agents/skills/apple-design/references/hig/activity-views.md`
 
 ## Audit Trail
 

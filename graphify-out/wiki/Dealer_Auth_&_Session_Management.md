@@ -1,55 +1,55 @@
 # Dealer Auth & Session Management
 
-> 97 nodes · cohesion 0.03
+> 105 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **_()** (455 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **Di()** (11 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **yh()** (10 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **hh()** (9 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **kt()** (8 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **mh()** (7 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **request()** (7 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **Sh()** (7 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **fh()** (6 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **gt()** (6 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **lh()** (6 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **ph()** (6 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **Ae()** (5 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **eh()** (5 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **Ih()** (5 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **th()** (5 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **unavailable()** (5 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **Bf()** (4 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **bh()** (4 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **De()** (4 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **Dr()** (4 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **je()** (4 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **pi()** (4 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **removeWindowListener()** (4 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **Ta()** (4 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- *... and 72 more nodes in this community*
+- **_()** (450 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **t()** (19 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **ao()** (7 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **ga()** (7 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **go()** (7 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **request()** (7 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **Ih()** (6 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **lh()** (6 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **os()** (6 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **ps()** (6 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **zc()** (6 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **eh()** (5 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **es()** (5 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **jl()** (5 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **js()** (5 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **Pd()** (5 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **th()** (5 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **ts()** (5 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **unavailable()** (5 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **Ae()** (4 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **ds()** (4 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **fs()** (4 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **ht()** (4 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **Ka()** (4 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **ke()** (4 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- *... and 80 more nodes in this community*
 
 ## Relationships
 
-- [[Product Pages Specification]] (74 shared connections)
-- [[Zoho Integration Architecture]] (60 shared connections)
-- [[Oxlint Linter Configuration]] (50 shared connections)
-- [[Graphify Agent Rules]] (48 shared connections)
-- [[Community 45]] (39 shared connections)
-- [[Community 55]] (39 shared connections)
-- [[Community 52]] (38 shared connections)
-- [[Community 43]] (34 shared connections)
-- [[Community 68]] (34 shared connections)
+- [[Dependencies & Package Config]] (101 shared connections)
+- [[Pricing Regression Test Suite]] (65 shared connections)
+- [[Master Codebase Architecture Reference]] (61 shared connections)
+- [[Graphify Knowledge Graph Skill]] (53 shared connections)
+- [[Vercel Deployment Routing]] (43 shared connections)
+- [[Community 54]] (29 shared connections)
+- [[Community 69]] (26 shared connections)
+- [[Community 92]] (22 shared connections)
+- [[Community 352]] (6 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DTX277AJ.js`
+- `ios/App/App/public/assets/index-Cb8ETnt_.js`
 
 ## Audit Trail
 
-- EXTRACTED: 733 (100%)
+- EXTRACTED: 759 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **generate-codebase-doc.mjs** (11 connections) — `scripts/generate-codebase-doc.mjs`
-- **allFiles** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **apiFiles** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **components** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **dataStores** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **getFiles()** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **istDateString** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **pages** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **pkg** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **rootDir** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **routes** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **scripts** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **Search fields** (6 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Phone (iOS)** (4 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **search-fields.md** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Scope bars and tokens** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Search as a tab** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Search as an inline field** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Search in a toolbar** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Tablet and desktop (iPadOS, macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
 
 ## Relationships
 
@@ -23,7 +23,7 @@
 
 ## Source Files
 
-- `scripts/generate-codebase-doc.mjs`
+- `.agents/skills/apple-design/references/hig/search-fields.md`
 
 ## Audit Trail
 

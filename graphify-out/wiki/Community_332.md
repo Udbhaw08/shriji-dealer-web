@@ -1,15 +1,16 @@
 # Community 332
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Action sheets** (4 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
-- **action-sheets.md** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
+- **semantic-flow.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-flow.test.mjs`
 
 ## Relationships
 
@@ -17,11 +18,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/action-sheets.md`
+- `.agents/skills/archify/test/semantic-flow.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

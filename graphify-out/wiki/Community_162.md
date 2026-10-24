@@ -1,32 +1,38 @@
 # Community 162
 
-> 11 nodes · cohesion 0.18
+> 11 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **Alerts** (8 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **alerts.md** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Buttons** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **vite.config.js** (20 connections) — `vite.config.js`
+- **getDealerById()** (7 connections) — `api/zoho.js`
+- **handler()** (4 connections) — `api/download.js`
+- **download.js** (3 connections) — `api/download.js`
+- **info.js** (3 connections) — `api/dealer/info.js`
+- **wrapJpegInPdf()** (2 connections) — `api/download.js`
+- **DEFAULT_SCHEMES** (2 connections) — `api/zoho.js`
+- **DEFAULT_STORE_BANNERS** (2 connections) — `api/zoho.js`
+- **handler()** (2 connections) — `api/dealer/info.js`
+- **loadContentService()** (2 connections) — `vite.config.js`
+- **liveAutoSyncPlugin()** (1 connections) — `vite.config.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 97]] (10 shared connections)
+- [[Community 46]] (6 shared connections)
+- [[Community 80]] (5 shared connections)
+- [[Community 247]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/alerts.md`
+- `api/dealer/info.js`
+- `api/download.js`
+- `api/zoho.js`
+- `vite.config.js`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 48 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

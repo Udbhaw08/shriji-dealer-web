@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **integration.test.mjs** (4 connections) — `backend/test/integration.test.mjs`
-- **api()** (1 connections) — `backend/test/integration.test.mjs`
-- **COMMERCE_FIXTURE** (1 connections) — `backend/test/integration.test.mjs`
-- **crmMock** (1 connections) — `backend/test/integration.test.mjs`
-- **uniq()** (1 connections) — `backend/test/integration.test.mjs`
+- **12. Performance Typography** (5 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Performance Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Requirements** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Rules** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **System Font Stack** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 230]] (1 shared connections)
 
 ## Source Files
 
-- `backend/test/integration.test.mjs`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

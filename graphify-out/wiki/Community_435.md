@@ -4,21 +4,21 @@
 
 ## Key Concepts
 
-- **row** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **Designing for macOS** (2 connections) — `.agents/skills/apple-design/references/hig/designing-for-macos.md`
+- **designing-for-macos.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-macos.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-macos.md`
 
 ## Relationships
 
-- [[Zoho API Diagnostic Script]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `.agents/skills/apple-design/references/hig/designing-for-macos.md`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,47 +1,52 @@
 # Community 61
 
-> 26 nodes · cohesion 0.08
+> 24 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **Widgets** (9 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Best practices** (6 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Anatomy** (4 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Rendering modes** (4 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Mobile (iOS, iPadOS)** (3 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Specifications** (3 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **widgets.md** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Accented** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Accessory widgets** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Adding interactivity** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Appearances** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Apple HomeView** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Choosing margins and padding** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Displaying text in widgets** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Full-color** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **iOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **iPadOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Previews and placeholders** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **StandBy and CarPlay** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **System family widgets** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Updating widget content** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Using color** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- *... and 1 more nodes in this community*
+- **intent-trace-browser.test.mjs** (15 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **semantic-lens-browser.test.mjs** (14 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **desktop-browser.mjs** (8 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **desktopBrowser()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **desktopPointerCheck()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **afterTimer()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **hash()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 53]] (11 shared connections)
+- [[Community 49]] (3 shared connections)
+- [[Community 144]] (3 shared connections)
+- [[Community 145]] (3 shared connections)
+- [[Community 125]] (2 shared connections)
+- [[Community 81]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/widgets.md`
+- `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (100%)
+- EXTRACTED: 103 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

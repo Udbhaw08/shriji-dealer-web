@@ -1,25 +1,26 @@
 # Community 387
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **Shriji Dealer Web — Agent Guidelines** (3 connections) — `AGENTS.md`
-- **AGENTS.md** (1 connections) — `AGENTS.md`
-- **Hard Rules** (1 connections) — `AGENTS.md`
-- **Specialized Skills Available** (1 connections) — `AGENTS.md`
+- **4. Text Color System** (5 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Anti-pattern** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Dark Mode Inversion** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Rules That Actually Work** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **The System** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 230]] (1 shared connections)
 
 ## Source Files
 
-- `AGENTS.md`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

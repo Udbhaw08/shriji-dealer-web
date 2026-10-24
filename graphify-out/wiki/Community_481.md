@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **architecture** (0 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **capacitor.settings.gradle** (0 connections) — `android/capacitor.settings.gradle`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- `android/capacitor.settings.gradle`
 
 ## Audit Trail
 

@@ -1,38 +1,34 @@
 # Community 159
 
-> 11 nodes · cohesion 0.24
+> 12 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **vite.config.js** (20 connections) — `vite.config.js`
-- **getDealerById()** (7 connections) — `api/zoho.js`
-- **handler()** (4 connections) — `api/download.js`
-- **download.js** (3 connections) — `api/download.js`
-- **info.js** (3 connections) — `api/dealer/info.js`
-- **wrapJpegInPdf()** (2 connections) — `api/download.js`
-- **DEFAULT_SCHEMES** (2 connections) — `api/zoho.js`
-- **DEFAULT_STORE_BANNERS** (2 connections) — `api/zoho.js`
-- **handler()** (2 connections) — `api/dealer/info.js`
-- **loadContentService()** (2 connections) — `vite.config.js`
-- **liveAutoSyncPlugin()** (1 connections) — `vite.config.js`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **additionalProperties** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **required** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **messages** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **activations** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- [[Community 99]] (10 shared connections)
-- [[Community 54]] (6 shared connections)
-- [[Community 88]] (5 shared connections)
-- [[Community 243]] (1 shared connections)
+- [[Community 77]] (4 shared connections)
+- [[Community 93]] (4 shared connections)
 
 ## Source Files
 
-- `api/dealer/info.js`
-- `api/download.js`
-- `api/zoho.js`
-- `vite.config.js`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

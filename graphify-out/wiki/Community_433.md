@@ -4,21 +4,21 @@
 
 ## Key Concepts
 
-- **relationshipWidth** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **Designing for iOS** (2 connections) — `.agents/skills/apple-design/references/hig/designing-for-ios.md`
+- **designing-for-ios.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-ios.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-ios.md`
 
 ## Relationships
 
-- [[Community 82]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/apple-design/references/hig/designing-for-ios.md`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

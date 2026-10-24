@@ -1,54 +1,47 @@
 # Community 67
 
-> 25 nodes · cohesion 0.14
+> 24 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **Md()** (15 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **ic()** (12 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **nc()** (12 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **kd()** (9 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **tc()** (9 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **wi()** (9 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **Ci()** (8 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **qs()** (8 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **uo()** (8 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **va()** (7 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **xi()** (7 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **cc()** (6 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **dh()** (6 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **ko()** (6 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **lo()** (6 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **bi()** (5 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **df()** (5 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **Fc()** (5 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **Oo()** (5 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **fo()** (4 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **sc()** (4 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **wc()** (4 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **Yd()** (4 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **zs()** (3 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **componentDidCatch()** (2 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **properties** (12 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **viewBox** (6 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **column_fit** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **animation** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **locale** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **output** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **subtitle** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **views** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **description** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **items** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (33 shared connections)
-- [[Pricing Regression Test Suite]] (15 shared connections)
-- [[Live Pricing Audit Tool]] (9 shared connections)
-- [[Dependencies & Package Config]] (8 shared connections)
-- [[Community 53]] (7 shared connections)
-- [[Community 42]] (6 shared connections)
-- [[Community 56]] (4 shared connections)
-- [[Project Readme & Layout]] (4 shared connections)
-- [[Community 49]] (1 shared connections)
+- [[Community 199]] (1 shared connections)
+- [[Community 451]] (1 shared connections)
+- [[Community 418]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 169 (100%)
+- EXTRACTED: 49 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

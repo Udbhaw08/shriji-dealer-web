@@ -4,22 +4,23 @@
 
 ## Key Concepts
 
-- **proof-aperture.test.mjs** (3 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
-- **cssRule()** (1 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
-- **landing** (1 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
+- **meta** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 93]] (1 shared connections)
+- [[Community 67]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/proof-aperture.test.mjs`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

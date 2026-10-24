@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **Design principles** (10 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **design-principles.md** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Agency** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Craft** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Delight** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Familiarity** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Flexibility** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Purpose** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Responsibility** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
-- **Simplicity** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Alerts** (8 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **alerts.md** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Buttons** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
 
 ## Relationships
 
@@ -22,7 +22,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/design-principles.md`
+- `.agents/skills/apple-design/references/hig/alerts.md`
 
 ## Audit Trail
 

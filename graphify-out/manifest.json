@@ -105,8 +105,8 @@
     "semantic_hash": ""
   },
   "src/pages/Login.jsx": {
-    "mtime": 1792803241.7433496,
-    "ast_hash": "4bb7e9f6ef2210fe20610ea206634e83",
+    "mtime": 1792835861.311258,
+    "ast_hash": "0759ebd7f3328f25269b6b64e60ed253",
     "semantic_hash": ""
   },
   "src/pages/Product.jsx": {
@@ -130,8 +130,8 @@
     "semantic_hash": ""
   },
   "src/ui.jsx": {
-    "mtime": 1792794698.5593133,
-    "ast_hash": "269956b979280d3f97c03d1eff3e73dd",
+    "mtime": 1792835311.4253151,
+    "ast_hash": "42511a56228259c9e5b17e6e5e3cea7a",
     "semantic_hash": ""
   },
   "vercel.json": {
@@ -185,8 +185,8 @@
     "semantic_hash": ""
   },
   "CODEBASE.md": {
-    "mtime": 1792803489.5758116,
-    "ast_hash": "8a7562132257552572595bd1a1b95a87",
+    "mtime": 1792835975.0218537,
+    "ast_hash": "26292b482993bbd82d3bfbbd420a7f51",
     "semantic_hash": ""
   },
   "PRD.md": {
@@ -595,7 +595,7 @@
     "semantic_hash": ""
   },
   "android/app/capacitor.build.gradle": {
-    "mtime": 1792803492.4983644,
+    "mtime": 1792835977.8045948,
     "ast_hash": "6f95eb3e9a08ae902e6ebee49fae0e87",
     "semantic_hash": ""
   },
@@ -605,22 +605,22 @@
     "semantic_hash": ""
   },
   "android/app/src/main/assets/capacitor.config.json": {
-    "mtime": 1792803492.452191,
+    "mtime": 1792835977.759426,
     "ast_hash": "c3b7521daf5e0ffb05c899566a409603",
     "semantic_hash": ""
   },
   "android/app/src/main/assets/capacitor.plugins.json": {
-    "mtime": 1792803492.4789855,
+    "mtime": 1792835977.7842884,
     "ast_hash": "5b7f24f78381c296e8f45d2e08b3387d",
     "semantic_hash": ""
   },
   "android/app/src/main/assets/public/cordova.js": {
-    "mtime": 1792803492.4953637,
+    "mtime": 1792835977.8014362,
     "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
   "android/app/src/main/assets/public/cordova_plugins.js": {
-    "mtime": 1792803492.4953637,
+    "mtime": 1792835977.8014362,
     "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
@@ -640,17 +640,17 @@
     "semantic_hash": ""
   },
   "android/capacitor-cordova-android-plugins/build.gradle": {
-    "mtime": 1792803492.5003653,
+    "mtime": 1792835977.807212,
     "ast_hash": "2af61653d70c95d20802c8b5c433ba90",
     "semantic_hash": ""
   },
   "android/capacitor-cordova-android-plugins/cordova.variables.gradle": {
-    "mtime": 1792803492.5003653,
+    "mtime": 1792835977.8082163,
     "ast_hash": "d2372a0ae9aa60abb8d03e7f06bf9194",
     "semantic_hash": ""
   },
   "android/capacitor.settings.gradle": {
-    "mtime": 1792803492.4983644,
+    "mtime": 1792835977.8040788,
     "ast_hash": "33ed8a9bcb1cb579ff402e4441ceba0e",
     "semantic_hash": ""
   },
@@ -700,22 +700,22 @@
     "semantic_hash": ""
   },
   "ios/App/App/capacitor.config.json": {
-    "mtime": 1792803492.6231523,
+    "mtime": 1792835977.9245253,
     "ast_hash": "153d51185cd9c15b71dd6730350bbb1e",
     "semantic_hash": ""
   },
   "ios/App/App/public/cordova.js": {
-    "mtime": 1792803492.6003675,
+    "mtime": 1792835977.904935,
     "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
   "ios/App/App/public/cordova_plugins.js": {
-    "mtime": 1792803492.6008945,
+    "mtime": 1792835977.9054651,
     "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
   "ios/App/CapApp-SPM/Package.swift": {
-    "mtime": 1792803492.6062605,
+    "mtime": 1792835977.9108655,
     "ast_hash": "d382a118912be7b151ceff8ace266e42",
     "semantic_hash": ""
   },
@@ -3320,8 +3320,8 @@
     "semantic_hash": ""
   },
   "android/app/src/main/assets/public/index.html": {
-    "mtime": 1792803491.1123354,
-    "ast_hash": "c86adcc1472188251e55f0de4065096c",
+    "mtime": 1792835976.4930074,
+    "ast_hash": "aee4a529bc4393598e6eaec73a197e71",
     "semantic_hash": ""
   },
   "android/app/src/main/assets/public/privacy.html": {
@@ -3345,8 +3345,8 @@
     "semantic_hash": ""
   },
   "ios/App/App/public/index.html": {
-    "mtime": 1792803491.1123354,
-    "ast_hash": "c86adcc1472188251e55f0de4065096c",
+    "mtime": 1792835976.4930074,
+    "ast_hash": "aee4a529bc4393598e6eaec73a197e71",
     "semantic_hash": ""
   },
   "ios/App/App/public/privacy.html": {
@@ -4110,8 +4110,8 @@
     "semantic_hash": ""
   },
   ".tag_cache.json": {
-    "mtime": 1792801291.2903147,
-    "ast_hash": "16a822721a569ca081ddfe371d1160a5",
+    "mtime": 1792835917.4731283,
+    "ast_hash": "7199815217054b0a9c2202de96c8d3c1",
     "semantic_hash": ""
   },
   "api/products/sync-tags.js": {
@@ -4135,8 +4135,8 @@
     "semantic_hash": ""
   },
   ".products_cache.json": {
-    "mtime": 1792801288.5281346,
-    "ast_hash": "2687ddbc8e270d9ad51d70d32a1ff430",
+    "mtime": 1792835913.645004,
+    "ast_hash": "022b53980a5f61d3086559a8276662af",
     "semantic_hash": ""
   },
   "backend/src/db/migrations/010_phone_verified_and_onboarding.sql": {
@@ -4155,8 +4155,8 @@
     "semantic_hash": ""
   },
   "src/pages/DealerApply.jsx": {
-    "mtime": 1792801365.201341,
-    "ast_hash": "fbf2074414fcf3343b078dddb7d0da5e",
+    "mtime": 1792835276.7547982,
+    "ast_hash": "b1a457ffee961de728be685765660d40",
     "semantic_hash": ""
   },
   "src/pages/DealerPending.jsx": {
@@ -4184,49 +4184,54 @@
     "ast_hash": "a3eb15f50d4ef6fe8b51a80a00c3cb14",
     "semantic_hash": ""
   },
-  "android/app/src/main/assets/public/assets/esm-U7SNAx3b.js": {
-    "mtime": 1792803491.1103344,
-    "ast_hash": "f6ce3ca284436a345205aa4a184f7bd4",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/assets/index-DTX277AJ.js": {
-    "mtime": 1792803491.1093333,
-    "ast_hash": "7fbd7ff613113468dd7ad124df475115",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/assets/web-DqScoSLy.js": {
-    "mtime": 1792803491.1113353,
-    "ast_hash": "d45584a1c58db3d8486f374e75b338e6",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/assets/web-k0MXV5d8.js": {
-    "mtime": 1792803491.1113353,
-    "ast_hash": "82827961a5664d43cfe949db365b52ba",
-    "semantic_hash": ""
-  },
   "backend/src/db/migrations/012_dealer_registration_token_hash.sql": {
     "mtime": 1792803064.9664195,
     "ast_hash": "e0f17cbc13a4d485d41101b2ebbdb2dc",
     "semantic_hash": ""
   },
-  "ios/App/App/public/assets/esm-U7SNAx3b.js": {
-    "mtime": 1792803491.1103344,
-    "ast_hash": "f6ce3ca284436a345205aa4a184f7bd4",
+  "src/components/BrandApplyFlow.jsx": {
+    "mtime": 1792835768.9803603,
+    "ast_hash": "5c33ccd35ed6377b114d21a0d90842e2",
     "semantic_hash": ""
   },
-  "ios/App/App/public/assets/index-DTX277AJ.js": {
-    "mtime": 1792803491.1093333,
-    "ast_hash": "7fbd7ff613113468dd7ad124df475115",
+  "android/app/src/main/assets/public/assets/esm-DdgExXu1.js": {
+    "mtime": 1792835976.492007,
+    "ast_hash": "a75f95898a963c0945e8976b5fa45e56",
     "semantic_hash": ""
   },
-  "ios/App/App/public/assets/web-DqScoSLy.js": {
-    "mtime": 1792803491.1113353,
-    "ast_hash": "d45584a1c58db3d8486f374e75b338e6",
+  "android/app/src/main/assets/public/assets/index-Cb8ETnt_.js": {
+    "mtime": 1792835976.491014,
+    "ast_hash": "14b493655e8286486258d13b9bc1095a",
     "semantic_hash": ""
   },
-  "ios/App/App/public/assets/web-k0MXV5d8.js": {
-    "mtime": 1792803491.1113353,
-    "ast_hash": "82827961a5664d43cfe949db365b52ba",
+  "android/app/src/main/assets/public/assets/web-CG3It7S5.js": {
+    "mtime": 1792835976.492007,
+    "ast_hash": "0d0c2e8c6f42c88ffa0ba2dc4daa96d0",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/assets/web-CkG7Eq16.js": {
+    "mtime": 1792835976.4930074,
+    "ast_hash": "b4ee361290aa979c944f3d3ba1095564",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/assets/esm-DdgExXu1.js": {
+    "mtime": 1792835976.492007,
+    "ast_hash": "a75f95898a963c0945e8976b5fa45e56",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/assets/index-Cb8ETnt_.js": {
+    "mtime": 1792835976.491014,
+    "ast_hash": "14b493655e8286486258d13b9bc1095a",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/assets/web-CG3It7S5.js": {
+    "mtime": 1792835976.492007,
+    "ast_hash": "0d0c2e8c6f42c88ffa0ba2dc4daa96d0",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/assets/web-CkG7Eq16.js": {
+    "mtime": 1792835976.4930074,
+    "ast_hash": "b4ee361290aa979c944f3d3ba1095564",
     "semantic_hash": ""
   }
 }

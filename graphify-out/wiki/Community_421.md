@@ -1,24 +1,25 @@
 # Community 421
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **Designing for iOS** (2 connections) — `.agents/skills/apple-design/references/hig/designing-for-ios.md`
-- **designing-for-ios.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-ios.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-ios.md`
+- **toCol** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **maximum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Project Readme & Layout]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/designing-for-ios.md`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

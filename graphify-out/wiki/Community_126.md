@@ -4,20 +4,20 @@
 
 ## Key Concepts
 
-- **Tablet (iPadOS)** (6 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Pointing devices** (5 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **pointing-devices.md** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Customizing pointers** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Pointer accessories** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Pointer magnetism** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Pointer shape and content effects** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Pointers** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Standard pointers and effects** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Augmented reality** (13 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **augmented-reality.md** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Communicating with people** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Designing object interactions** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Handling interruptions** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Helping people place objects** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Icons and badges** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Offering a multiuser experience** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Providing coaching** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Reacting to real-world objects** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Suggesting problem resolutions** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
 
 ## Relationships
 
@@ -25,7 +25,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- `.agents/skills/apple-design/references/hig/augmented-reality.md`
 
 ## Audit Trail
 

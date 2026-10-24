@@ -1,50 +1,42 @@
 # Community 83
 
-> 23 nodes · cohesion 0.10
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **pull-hig.mjs** (65 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **crawlSection()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **fetchPageJson()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **abstractOf()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **anchorEntries()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **anchorMapFor()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **listedPages()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **plainText()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **ALL_PLATFORMS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **cellText()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **collectReferences()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **CURATED_FILES** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **DESIGNING_FOR_COVERAGE** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **DROPPED_PLATFORMS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **githubSlug()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **IMAGE_GLYPHS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **KEPT_PLATFORMS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **OMITTED_PAGES** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **PLATFORM_LIST_RE** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **PLATFORM_NAMES** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **platformsOf()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **REPO_ROOT** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **SECTIONS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **PRODUCT-PAGES.md — listing, detail, and dealer pricing** (9 connections) — `docs/PRODUCT-PAGES.md`
+- **4. Product listing — `/products`, `src/pages/Products.jsx`** (6 connections) — `docs/PRODUCT-PAGES.md`
+- **6. Product detail — `/products/:id`, `src/pages/Product.jsx`** (6 connections) — `docs/PRODUCT-PAGES.md`
+- **PRODUCT-PAGES.md** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **1. Price visibility — the rule everything else follows** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **2. The pricing module — `src/data/dealer.js`** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **3. `<PriceBlock>` — `src/components/PriceBlock.jsx`** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **5. Product card — `src/components/ProductCard.jsx`** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **7. What is deliberately not here** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **8. Files touched on 2026-09-20** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Below the whole grid** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Filters and facets** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Left column** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Pagination** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Responsive behaviour** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Right column** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Share with Customer** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Sort** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Structure** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Tabs** (1 connections) — `docs/PRODUCT-PAGES.md`
 
 ## Relationships
 
-- [[Community 198]] (10 shared connections)
-- [[Community 199]] (10 shared connections)
-- [[Community 231]] (9 shared connections)
-- [[Community 268]] (8 shared connections)
-- [[Community 348]] (6 shared connections)
-- [[Community 239]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- `docs/PRODUCT-PAGES.md`
 
 ## Audit Trail
 
-- EXTRACTED: 95 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 38 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

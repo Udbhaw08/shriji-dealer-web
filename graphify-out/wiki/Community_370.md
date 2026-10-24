@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Path controls** (4 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
-- **path-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
+- **Agent Operating Guidelines & Zero-Token Context Strategy** (3 connections) — `GEMINI.md`
+- **Shriji Domestic Appliances — Sunshine Dealer Web** (2 connections) — `GEMINI.md`
+- **GEMINI.md** (1 connections) — `GEMINI.md`
+- **Mandatory Context Rule: Knowledge Graph First** (1 connections) — `GEMINI.md`
+- **Project Hard Rules** (1 connections) — `GEMINI.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/path-controls.md`
+- `GEMINI.md`
 
 ## Audit Trail
 

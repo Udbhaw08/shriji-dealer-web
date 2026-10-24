@@ -1,55 +1,47 @@
 # Community 56
 
-> 29 nodes · cohesion 0.11
+> 26 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **n()** (28 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **t()** (17 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **ts()** (16 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **ys()** (8 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **cs()** (7 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **ds()** (7 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **s()** (7 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **us()** (7 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **ms()** (6 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **vs()** (6 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **bs()** (5 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **gs()** (5 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **hs()** (5 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **j()** (5 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **oc()** (5 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **x()** (5 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **es()** (4 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **ks()** (4 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **ls()** (4 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **ps()** (4 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **ss()** (4 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **Ad()** (3 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **ee()** (3 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **fs()** (3 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **xs()** (3 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- *... and 4 more nodes in this community*
+- **Copywriting Guide** (15 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Banned Words** (5 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Microcopy** (4 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Product UI Copy** (4 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **copywriting.md** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **AI Slop Markers** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Avoid on Operational Surfaces** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Buttons** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Core Belief** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Corporate Zombie** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Empty States** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Errors** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Filler** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Headings: Descriptive, Not Aspirational** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Hype** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Info-Style Thinking** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Living Words vs Dead Words** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Marketing Hero Section** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Pre-Publish Checklist** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Proof Beats Hype** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Rhythm** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **The Order of Great Copy** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **The Sticky Line Test** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Universal Copy Structure** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **When Marketing Tone IS Appropriate in Product** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (37 shared connections)
-- [[Project Readme & Layout]] (11 shared connections)
-- [[Pricing Regression Test Suite]] (10 shared connections)
-- [[Dependencies & Package Config]] (9 shared connections)
-- [[Community 53]] (7 shared connections)
-- [[Community 49]] (5 shared connections)
-- [[Community 67]] (4 shared connections)
-- [[Community 42]] (3 shared connections)
-- [[Live Pricing Audit Tool]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- `.agents/skills/refero-design/references/copywriting.md`
 
 ## Audit Trail
 
-- EXTRACTED: 179 (100%)
+- EXTRACTED: 50 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

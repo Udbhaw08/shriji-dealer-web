@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **Gestures** (7 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Specifications** (2 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **gestures.md** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Custom gestures** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Standard gestures** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **App icons** (10 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **app-icons.md** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Appearances** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Design** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Icon shape** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Layer design** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Specifications** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Visual effects** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
 
 ## Relationships
 
@@ -22,7 +22,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/gestures.md`
+- `.agents/skills/apple-design/references/hig/app-icons.md`
 
 ## Audit Trail
 

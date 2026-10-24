@@ -1,34 +1,34 @@
 # Community 177
 
-> 11 nodes · cohesion 0.29
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **reader-layout-browser.test.mjs** (13 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **load()** (6 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **evaluate()** (5 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **media()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **stable()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **viewport()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **inactive()** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **variant()** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **dealerRegistrationTwoChannel.test.mjs** (15 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- **app** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- **crmCalls** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- **db** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- **mockCrm** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- **mockNotifications** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- **mockSql()** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- **resetCrmCalls()** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- **resetDb()** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- **sentOtps** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- **testEnv** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
 
 ## Relationships
 
-- [[Community 46]] (4 shared connections)
-- [[Vercel Deployment Routing]] (2 shared connections)
-- [[Community 123]] (1 shared connections)
+- [[Mobile Responsive UI Skill]] (3 shared connections)
+- [[Community 179]] (1 shared connections)
+- [[Community 63]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- `backend/test/dealerRegistrationTwoChannel.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (100%)
+- EXTRACTED: 25 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

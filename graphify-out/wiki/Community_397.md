@@ -1,25 +1,26 @@
 # Community 397
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **3. Font Pairing** (4 connections) — `.agents/skills/refero-design/references/typography.md`
-- **If You Must Pair** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Safe Font Choices by Product Type** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **The One-Font Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **base-input-compatibility.test.mjs** (4 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
+- **renderBaseFixture()** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
 
 ## Relationships
 
-- [[Community 227]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/archify/test/base-input-compatibility.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

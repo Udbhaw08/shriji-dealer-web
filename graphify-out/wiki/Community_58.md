@@ -1,47 +1,48 @@
 # Community 58
 
-> 29 nodes · cohesion 0.07
+> 26 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **Live Activities** (8 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Anatomy** (6 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Best practices** (6 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Presentation** (6 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Specifications** (5 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **live-activities.md** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Adding transitions and animating content updates** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **CarPlay** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **CarPlay dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Choosing colors** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Compact** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Compact presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Creating Live Activity layouts** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Expanded** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Expanded presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **iOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **iPadOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Lock Screen** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Lock Screen presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **macOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Minimal** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Minimal presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- *... and 4 more nodes in this community*
+- **workflow-compiler.test.mjs** (27 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **assertReadableAdjacentResult()** (6 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **attribute()** (4 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **numericRect()** (4 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **edgeLabelRect()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **edgePoints()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **nodeRect()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **svgViewBox()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **asciiGroupLabelTextRect()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **assertRectInsideViewBox()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **compileSuccessfully()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **groupFrameRect()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **adjacentWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **asciiLaneHeaderTextRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **assertRectInsideRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **attributeOrUndefined()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **clone()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **legendGeometry()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **orthogonalSegmentIntersectsRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **readJson()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **rectsOverlap()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 130]] (2 shared connections)
+- [[Community 79]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/live-activities.md`
+- `.agents/skills/archify/test/workflow-compiler.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 56 (100%)
+- EXTRACTED: 75 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

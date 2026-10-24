@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **Search fields** (6 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Phone (iOS)** (4 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **search-fields.md** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Scope bars and tokens** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Search as a tab** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Search as an inline field** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Search in a toolbar** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Tablet and desktop (iPadOS, macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Inclusion** (11 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **inclusion.md** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Accessibility** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Avoiding stereotypes** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Being approachable** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Gender identity** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Inclusive by design** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Languages** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **People and settings** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Welcoming language** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
 
 ## Relationships
 
@@ -23,7 +23,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/search-fields.md`
+- `.agents/skills/apple-design/references/hig/inclusion.md`
 
 ## Audit Trail
 

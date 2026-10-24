@@ -1,54 +1,47 @@
 # Community 52
 
-> 32 nodes · cohesion 0.12
+> 29 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **qd()** (14 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **zd()** (14 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **Nd()** (13 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **Le()** (11 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **Li()** (11 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **tf()** (11 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **af()** (10 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **ef()** (8 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **Gd()** (8 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **Id()** (7 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **lf()** (7 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **of()** (7 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **rt()** (7 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **uf()** (7 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **yi()** (7 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **Bd()** (6 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **Pd()** (6 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **xc()** (6 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **Rd()** (5 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **sf()** (5 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **cf()** (4 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **Gu()** (4 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **jf()** (4 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **mf()** (4 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **nt()** (4 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- *... and 7 more nodes in this community*
+- **Live Activities** (8 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Anatomy** (6 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Best practices** (6 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Presentation** (6 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Specifications** (5 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **live-activities.md** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Adding transitions and animating content updates** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **CarPlay** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **CarPlay dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Choosing colors** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Compact** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Compact presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Creating Live Activity layouts** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Expanded** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Expanded presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **iOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **iPadOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Lock Screen** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Lock Screen presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **macOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Minimal** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Minimal presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (38 shared connections)
-- [[Product Pages Specification]] (18 shared connections)
-- [[Oxlint Linter Configuration]] (11 shared connections)
-- [[Graphify Agent Rules]] (7 shared connections)
-- [[Zoho Integration Architecture]] (7 shared connections)
-- [[Community 68]] (6 shared connections)
-- [[Community 55]] (4 shared connections)
-- [[Community 45]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DTX277AJ.js`
+- `.agents/skills/apple-design/references/hig/live-activities.md`
 
 ## Audit Trail
 
-- EXTRACTED: 209 (100%)
+- EXTRACTED: 56 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,26 +4,26 @@
 
 ## Key Concepts
 
-- **wraps** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **via** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **Tab views** (6 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **tab-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
 
 ## Relationships
 
-- [[Pricing & Roles Skill]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `.agents/skills/apple-design/references/hig/tab-views.md`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

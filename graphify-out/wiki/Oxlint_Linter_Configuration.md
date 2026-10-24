@@ -1,55 +1,51 @@
 # Oxlint Linter Configuration
 
-> 45 nodes · cohesion 0.10
+> 44 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **i()** (67 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **get()** (26 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **D()** (24 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **np()** (21 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **Eu()** (17 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **bm()** (12 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **bn()** (12 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **ip()** (11 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **ep()** (10 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **tp()** (10 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **am()** (9 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **qt()** (9 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **dn()** (8 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **mm()** (8 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **mn()** (7 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **Mp()** (7 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **sn()** (7 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **wu()** (7 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **zm()** (7 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **ji()** (6 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **jm()** (6 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **om()** (6 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **un()** (6 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **an()** (5 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **en()** (5 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- *... and 20 more nodes in this community*
+- **properties** (30 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **label** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **pad** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **row** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **brand** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **from** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **fromSide** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **kind** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **labelAt** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **labelDx** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **labelDy** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **pos** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **route** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **sublabel** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **tag** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **to** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **toSide** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **variant** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **width** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (50 shared connections)
-- [[Product Pages Specification]] (36 shared connections)
-- [[Zoho Integration Architecture]] (26 shared connections)
-- [[Community 43]] (21 shared connections)
-- [[Graphify Agent Rules]] (21 shared connections)
-- [[Community 45]] (14 shared connections)
-- [[Community 52]] (11 shared connections)
-- [[Community 55]] (9 shared connections)
-- [[Community 68]] (4 shared connections)
+- [[Community 121]] (5 shared connections)
+- [[Community 272]] (2 shared connections)
+- [[Community 440]] (1 shared connections)
+- [[Community 441]] (1 shared connections)
+- [[Community 356]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DTX277AJ.js`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 388 (100%)
+- EXTRACTED: 96 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

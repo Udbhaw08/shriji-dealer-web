@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Data flow, shared state, and property wrappers** (7 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **data.md** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **Bindings** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **If the project uses SwiftData with CloudKit** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **Local state** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **Shared state** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **SwiftData** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **Working with data** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
+- **Sliders** (5 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **sliders.md** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sliders.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/data.md`
+- `.agents/skills/apple-design/references/hig/sliders.md`
 
 ## Audit Trail
 

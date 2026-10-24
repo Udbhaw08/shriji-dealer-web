@@ -1,56 +1,62 @@
 # Community 49
 
-> 33 nodes · cohesion 0.11
+> 31 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **.addEventListener()** (19 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **b()** (18 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **h()** (15 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **fp()** (13 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **.removeEventListener()** (12 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **lp()** (7 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **cm()** (6 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **em()** (6 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **.blur()** (6 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **.scrollIntoView()** (6 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **tm()** (6 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **v()** (6 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **g()** (5 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **hm()** (5 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **Rp()** (5 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **uh()** (5 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **wl()** (5 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **Bp()** (4 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **.getClientRects()** (4 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **pm()** (4 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **up()** (4 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **Vp()** (4 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **cl()** (3 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **.focusLast()** (3 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- **.unobserveUsing()** (3 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
-- *... and 8 more nodes in this community*
+- **visual-check.mjs** (50 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **runVisualCheck()** (18 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **desktop-readability.mjs** (9 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **adaptive-reader-layout.test.mjs** (9 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **desktop-reader-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- **DESKTOP_READABILITY_VIEWPORT** (5 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **observationDiagnostics()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **safeUnlink()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **writeAtomic()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **baseReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **cleanupCaptureSidecars()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **contactSheetHtml()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **failureDiagnostic()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **persistReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **sha256()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **sidecarPaths()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **htmlEscape()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **observation()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **screenshotKey()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **viewportSubject()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **CAPTURE_VIEWPORTS** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **EXIT** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **THEMES** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **reader** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (30 shared connections)
-- [[Project Readme & Layout]] (20 shared connections)
-- [[Live Pricing Audit Tool]] (7 shared connections)
-- [[Dependencies & Package Config]] (7 shared connections)
-- [[Community 56]] (5 shared connections)
-- [[Pricing Regression Test Suite]] (5 shared connections)
-- [[Community 53]] (3 shared connections)
-- [[Community 42]] (1 shared connections)
-- [[Community 67]] (1 shared connections)
+- [[Community 81]] (8 shared connections)
+- [[Community 125]] (6 shared connections)
+- [[Community 53]] (5 shared connections)
+- [[Architecture Doc Generator]] (4 shared connections)
+- [[Community 61]] (3 shared connections)
+- [[Product Brand & Business Vision]] (3 shared connections)
+- [[Community 138]] (2 shared connections)
+- [[Community 89]] (2 shared connections)
+- [[Community 104]] (2 shared connections)
+- [[Community 144]] (1 shared connections)
+- [[Community 145]] (1 shared connections)
+- [[Community 123]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 193 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 150 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

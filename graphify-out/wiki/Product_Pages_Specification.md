@@ -1,56 +1,74 @@
 # Product Pages Specification
 
-> 65 nodes · cohesion 0.07
+> 66 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **ml()** (27 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **st()** (19 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **k()** (18 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **pt()** (16 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **za()** (16 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **A()** (14 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **ut()** (14 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **ge()** (13 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **ht()** (13 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **F()** (12 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **sa()** (12 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **gl()** (11 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **it()** (11 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **fa()** (10 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **ga()** (10 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **kn()** (10 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **ma()** (10 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **P()** (10 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **c()** (9 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **co()** (9 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **dt()** (9 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **hl()** (9 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **nn()** (9 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **on()** (9 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **Se()** (9 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- *... and 40 more nodes in this community*
+- **main.jsx** (50 connections) — `src/main.jsx`
+- **ui.jsx** (44 connections) — `src/ui.jsx`
+- **useSession()** (38 connections) — `src/data/session.js`
+- **useLanguage()** (31 connections) — `src/data/i18n.js`
+- **Home.jsx** (26 connections) — `src/pages/Home.jsx`
+- **site.js** (24 connections) — `src/data/site.js`
+- **Icon()** (20 connections) — `src/ui.jsx`
+- **isDealer()** (18 connections) — `src/data/dealer.js`
+- **t()** (18 connections) — `src/data/i18n.js`
+- **Schemes.jsx** (17 connections) — `src/pages/Schemes.jsx`
+- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
+- **COMPANY** (16 connections) — `src/data/site.js`
+- **Support.jsx** (16 connections) — `src/pages/Support.jsx`
+- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
+- **dealerById()** (12 connections) — `src/data/dealer.js`
+- **ContentAdminDashboard.jsx** (12 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **EmailVerificationPrompt.jsx** (10 connections) — `src/components/EmailVerificationPrompt.jsx`
+- **Favorites()** (9 connections) — `src/pages/Favorites.jsx`
+- **Products()** (9 connections) — `src/pages/Products.jsx`
+- **Header()** (9 connections) — `src/ui.jsx`
+- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
+- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
+- **portalGate.js** (8 connections) — `src/data/portalGate.js`
+- **Home()** (8 connections) — `src/pages/Home.jsx`
+- **Login()** (7 connections) — `src/pages/Login.jsx`
+- *... and 41 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (74 shared connections)
-- [[Oxlint Linter Configuration]] (36 shared connections)
-- [[Zoho Integration Architecture]] (35 shared connections)
-- [[Community 52]] (18 shared connections)
-- [[Community 45]] (10 shared connections)
-- [[Graphify Agent Rules]] (10 shared connections)
-- [[Community 68]] (8 shared connections)
-- [[Community 43]] (8 shared connections)
-- [[Community 55]] (7 shared connections)
+- [[Community 41]] (60 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (45 shared connections)
+- [[Community 50]] (21 shared connections)
+- [[Community 165]] (9 shared connections)
+- [[Community 296]] (9 shared connections)
+- [[Community 39]] (8 shared connections)
+- [[Community 164]] (2 shared connections)
+- [[Community 396]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DTX277AJ.js`
+- `src/components/EmailVerificationPrompt.jsx`
+- `src/components/FileOrUrlInput.jsx`
+- `src/components/MobileBottomNav.jsx`
+- `src/components/NativeBackHandler.jsx`
+- `src/components/UnderMaintenance.jsx`
+- `src/data/dealer.js`
+- `src/data/i18n.js`
+- `src/data/portalGate.js`
+- `src/data/session.js`
+- `src/data/site.js`
+- `src/main.jsx`
+- `src/pages/ContentAdminDashboard.jsx`
+- `src/pages/DealerApply.jsx`
+- `src/pages/DealerDashboard.jsx`
+- `src/pages/Favorites.jsx`
+- `src/pages/Home.jsx`
+- `src/pages/LegalPrivacy.jsx`
+- `src/pages/LegalTerms.jsx`
+- `src/pages/Login.jsx`
+- `src/pages/PrivacyPolicy.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 514 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 560 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

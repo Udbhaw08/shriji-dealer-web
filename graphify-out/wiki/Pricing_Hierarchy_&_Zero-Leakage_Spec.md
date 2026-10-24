@@ -1,66 +1,62 @@
 # Pricing Hierarchy & Zero-Leakage Spec
 
-> 49 nodes · cohesion 0.11
+> 46 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **render-lifecycle.mjs** (81 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **esc()** (31 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **escapeHtml()** (26 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **animateAttr()** (16 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **focusEdgeAttrs()** (15 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **labelPoint()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **renderBrandMark()** (14 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **renderNode()** (13 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderState()** (13 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **focusNodeAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **renderSemanticSigil()** (13 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **renderComponent()** (12 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderParticipant()** (12 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **brandLabelFitWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **brandMetadataFor()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **focusNodeTitle()** (12 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **routePointsValue()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **fittedNodeFontSize()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **variantAccent()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **renderConnectionLabel()** (8 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderFlowLabel()** (8 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderTransitionLabel()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderMessage()** (8 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **brandMarkFor()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **messageLabel()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- *... and 24 more nodes in this community*
+- **session.js** (51 connections) — `src/data/session.js`
+- **Login.jsx** (43 connections) — `src/pages/Login.jsx`
+- **DealerApply.jsx** (26 connections) — `src/pages/DealerApply.jsx`
+- **BrandApplyFlow.jsx** (20 connections) — `src/components/BrandApplyFlow.jsx`
+- **apiFetch()** (20 connections) — `src/data/api.js`
+- **StaffJoin.jsx** (14 connections) — `src/pages/StaffJoin.jsx`
+- **revalidateSession()** (13 connections) — `src/data/session.js`
+- **api.js** (11 connections) — `src/data/api.js`
+- **loginCode.js** (11 connections) — `src/data/loginCode.js`
+- **setSession()** (10 connections) — `src/data/session.js`
+- **validators.js** (10 connections) — `src/data/validators.js`
+- **apiUrl()** (9 connections) — `src/data/api.js`
+- **applyAsDealer()** (6 connections) — `src/data/auth.js`
+- **formatLoginCode()** (6 connections) — `src/data/loginCode.js`
+- **isValidEmail()** (6 connections) — `src/data/validators.js`
+- **DealerPending.jsx** (6 connections) — `src/pages/DealerPending.jsx`
+- **requestDealerRegistrationOtp()** (5 connections) — `src/data/auth.js`
+- **verifyDealerRegistrationOtp()** (5 connections) — `src/data/auth.js`
+- **signOut()** (5 connections) — `src/data/session.js`
+- **switchToDealerSession()** (5 connections) — `src/data/session.js`
+- **isValidName()** (5 connections) — `src/data/validators.js`
+- **isValidPhone()** (5 connections) — `src/data/validators.js`
+- **BrandApplyFlow()** (4 connections) — `src/components/BrandApplyFlow.jsx`
+- **hasSession()** (4 connections) — `src/data/auth.js`
+- **GST_TREATMENT_OPTIONS** (4 connections) — `src/data/loginCode.js`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (45 shared connections)
-- [[Community 40]] (42 shared connections)
-- [[Community 44]] (35 shared connections)
-- [[Product Brand & Business Vision]] (21 shared connections)
-- [[Community 87]] (14 shared connections)
-- [[Community 106]] (12 shared connections)
-- [[Product Requirements Documentation]] (11 shared connections)
-- [[Master Codebase Architecture Reference]] (7 shared connections)
-- [[Testing & Workflow Skill]] (7 shared connections)
+- [[Community 39]] (49 shared connections)
+- [[Product Pages Specification]] (45 shared connections)
+- [[Community 41]] (13 shared connections)
+- [[Community 50]] (11 shared connections)
+- [[Community 296]] (2 shared connections)
+- [[Community 165]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/cli.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/i18n.mjs`
-- `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `src/components/BrandApplyFlow.jsx`
+- `src/data/api.js`
+- `src/data/auth.js`
+- `src/data/loginCode.js`
+- `src/data/session.js`
+- `src/data/validators.js`
+- `src/pages/DealerApply.jsx`
+- `src/pages/DealerPending.jsx`
+- `src/pages/Login.jsx`
+- `src/pages/StaffJoin.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 406 (90%)
-- INFERRED: 44 (10%)
+- EXTRACTED: 345 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

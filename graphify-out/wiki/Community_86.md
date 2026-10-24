@@ -1,42 +1,44 @@
 # Community 86
 
-> 21 nodes · cohesion 0.10
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **Machine learning** (15 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **The role of machine learning in your app** (6 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **machine-learning.md** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Attribution** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Calibration** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Confidence** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Corrections** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Critical or complementary** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Dynamic or static** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Explicit feedback** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Implicit feedback** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Limitations** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Mistakes** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Multiple options** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Planning your design** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Private or public** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Proactive or reactive** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Visible or invisible** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **properties** (13 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **animation** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **engineering_profile** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **locale** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **output** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **subtitle** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **views** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 174]] (1 shared connections)
+- [[Community 122]] (1 shared connections)
+- [[Community 357]] (1 shared connections)
+- [[Community 76]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/machine-learning.md`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

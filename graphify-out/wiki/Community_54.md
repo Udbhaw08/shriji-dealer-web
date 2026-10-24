@@ -1,52 +1,54 @@
 # Community 54
 
-> 31 nodes · cohesion 0.09
+> 27 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **zoho.js** (60 connections) — `api/zoho.js`
-- **syncRecentProductTags()** (7 connections) — `api/zoho.js`
-- **normalizeProduct()** (6 connections) — `api/zoho.js`
-- **readTagCache()** (6 connections) — `api/zoho.js`
-- **updateCachedProductTags()** (4 connections) — `api/zoho.js`
-- **sync-tags.js** (4 connections) — `api/products/sync-tags.js`
-- **getCachedProductTags()** (3 connections) — `api/zoho.js`
-- **isItemOnline()** (3 connections) — `api/zoho.js`
-- **handler()** (3 connections) — `api/products/sync-tags.js`
-- **clearDiskCache()** (2 connections) — `api/zoho.js`
-- **isItemCategoryOnline()** (2 connections) — `api/zoho.js`
-- **parseRate()** (2 connections) — `api/zoho.js`
-- **slugifyCategory()** (2 connections) — `api/zoho.js`
-- **slugifyProduct()** (2 connections) — `api/zoho.js`
-- **writeProductsDiskCache()** (2 connections) — `api/zoho.js`
-- **writeTagCache()** (2 connections) — `api/zoho.js`
-- **cachedPricebooks** (1 connections) — `api/zoho.js`
-- **cachedProductDetails** (1 connections) — `api/zoho.js`
-- **cachedProductsByPricebook** (1 connections) — `api/zoho.js`
-- **isBannerItem()** (1 connections) — `api/zoho.js`
-- **isLogoItem()** (1 connections) — `api/zoho.js`
-- **isSchemeItem()** (1 connections) — `api/zoho.js`
-- **localCacheFile** (1 connections) — `api/zoho.js`
-- **localDetailCacheFile** (1 connections) — `api/zoho.js`
-- **localProductsCacheFile** (1 connections) — `api/zoho.js`
-- *... and 6 more nodes in this community*
+- **zd()** (16 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **Ii()** (12 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **qd()** (12 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **Nd()** (11 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **wc()** (11 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **co()** (8 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **Gd()** (8 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **rt()** (7 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **Bd()** (6 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **df()** (6 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **dh()** (6 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **Rd()** (6 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **so()** (6 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **vi()** (6 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **xc()** (6 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **Cc()** (5 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **dt()** (5 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **lo()** (4 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **Sc()** (4 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **Zo()** (4 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **Hd()** (3 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **mf()** (3 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **Ud()** (3 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **componentDidCatch()** (2 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **Fd()** (2 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [[Community 88]] (23 shared connections)
-- [[Community 243]] (6 shared connections)
-- [[Community 159]] (6 shared connections)
-- [[Community 99]] (3 shared connections)
-- [[Community 139]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (29 shared connections)
+- [[Dependencies & Package Config]] (20 shared connections)
+- [[Pricing Regression Test Suite]] (8 shared connections)
+- [[Graphify Knowledge Graph Skill]] (6 shared connections)
+- [[Vercel Deployment Routing]] (5 shared connections)
+- [[Community 69]] (5 shared connections)
+- [[Master Codebase Architecture Reference]] (4 shared connections)
+- [[Community 92]] (3 shared connections)
 
 ## Source Files
 
-- `api/products/sync-tags.js`
-- `api/zoho.js`
+- `ios/App/App/public/assets/index-Cb8ETnt_.js`
 
 ## Audit Trail
 
-- EXTRACTED: 125 (100%)
+- EXTRACTED: 166 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,22 +4,22 @@
 
 ## Key Concepts
 
-- **community-proof-intake.test.mjs** (3 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
-- **read()** (1 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
+- **common.schema.json** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **$id** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **$schema** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **title** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 74]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/community-proof-intake.test.mjs`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

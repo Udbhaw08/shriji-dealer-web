@@ -1,31 +1,35 @@
 # Community 181
 
-> 10 nodes · cohesion 0.20
+> 11 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **ROLES-AND-SHARING.md — who sees which price** (9 connections) — `docs/ROLES-AND-SHARING.md`
-- **ROLES-AND-SHARING.md** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **1. The four viewers** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **2. The rule, in one function** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **3. ⚠️ What this is not** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **4. The share link** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **5. What the customer sees — `CustomerPrice` in `PriceBlock.jsx`** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **6. The login flow** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **7. Also gated** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **8. Checks** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **reader-layout-browser.test.mjs** (13 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **load()** (6 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **evaluate()** (5 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **stable()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **viewport()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **inactive()** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **variant()** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 53]] (4 shared connections)
+- [[Community 49]] (1 shared connections)
+- [[Community 81]] (1 shared connections)
+- [[Community 125]] (1 shared connections)
 
 ## Source Files
 
-- `docs/ROLES-AND-SHARING.md`
+- `.agents/skills/archify/test/reader-layout-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 39 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Context menus** (6 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
-- **context-menus.md** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **web-CG3It7S5.js** (8 connections) — `android/app/src/main/assets/public/assets/web-CG3It7S5.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-CG3It7S5.js`
+- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-CG3It7S5.js`
+- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-CG3It7S5.js`
+- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-CG3It7S5.js`
+- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-CG3It7S5.js`
+- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-CG3It7S5.js`
+- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-CG3It7S5.js`
+- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-CG3It7S5.js`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/context-menus.md`
+- `android/app/src/main/assets/public/assets/web-CG3It7S5.js`
 
 ## Audit Trail
 

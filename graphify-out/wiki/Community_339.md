@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Panels** (5 connections) — `.agents/skills/apple-design/references/hig/panels.md`
-- **panels.md** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
-- **HUD-style panels** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
+- **Third-party notices** (5 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
+- **THIRD_PARTY_NOTICES.md** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
+- **JetBrains Mono** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
+- **No additional rights granted** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
+- **OpenAI mark** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
+- **Simple Icons** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/panels.md`
+- `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
 
 ## Audit Trail
 

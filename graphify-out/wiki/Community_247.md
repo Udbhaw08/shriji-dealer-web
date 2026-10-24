@@ -1,29 +1,34 @@
 # Community 247
 
-> 8 nodes · cohesion 0.25
+> 8 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **Game controls** (7 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **game-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **Keyboards** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **Physical controllers** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **Touch controls** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **createDealerContact()** (9 connections) — `api/zoho.js`
+- **getAccessToken()** (6 connections) — `api/zoho.js`
+- **loadEnv()** (4 connections) — `api/zoho.js`
+- **test-zoho-api.mjs** (4 connections) — `scripts/test-zoho-api.mjs`
+- **apply.js** (3 connections) — `api/dealer/apply.js`
+- **readDiskCache()** (2 connections) — `api/zoho.js`
+- **handler()** (2 connections) — `api/dealer/apply.js`
+- **{ dc, orgId }** (1 connections) — `scripts/test-zoho-api.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 46]] (6 shared connections)
+- [[Community 80]] (5 shared connections)
+- [[Community 162]] (1 shared connections)
+- [[Community 97]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/game-controls.md`
+- `api/dealer/apply.js`
+- `api/zoho.js`
+- `scripts/test-zoho-api.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 31 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

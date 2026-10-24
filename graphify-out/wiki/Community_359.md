@@ -1,27 +1,30 @@
 # Community 359
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **Agent Operating Guidelines & Zero-Token Context Strategy** (3 connections) — `GEMINI.md`
-- **Shriji Domestic Appliances — Sunshine Dealer Web** (2 connections) — `GEMINI.md`
-- **GEMINI.md** (1 connections) — `GEMINI.md`
-- **Mandatory Context Rule: Knowledge Graph First** (1 connections) — `GEMINI.md`
-- **Project Hard Rules** (1 connections) — `GEMINI.md`
+- **main()** (7 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **pruneStaleFiles()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **uniqueBySlug()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **generatedFiles()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **mapWithConcurrency()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **parseArgs()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 71]] (6 shared connections)
+- [[Community 236]] (2 shared connections)
+- [[Community 244]] (1 shared connections)
 
 ## Source Files
 
-- `GEMINI.md`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 18 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

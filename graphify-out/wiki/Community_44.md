@@ -1,62 +1,57 @@
 # Community 44
 
-> 35 nodes · cohesion 0.09
+> 33 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **render-dataflow.mjs** (78 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **legend.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **renderLegend()** (14 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **svgAccessibleText()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **svgRootAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **renderDefinitions()** (11 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **resolveLegend()** (10 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **renderSvg()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderLegend()** (6 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **legendFootprint()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **measureLegend()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **stageX()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **componentFill** (5 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **componentText** (4 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **lifecycleAreaBottom()** (3 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **measureNode()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **routeVia()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **stageFrame()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **legendY()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderLifecycleRail()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- *... and 10 more nodes in this community*
+- **crmClient.js** (34 connections) — `backend/src/services/crmClient.js`
+- **normalizePhone()** (19 connections) — `backend/src/utils/phone.js`
+- **normalizeEmail()** (18 connections) — `backend/src/utils/validators.js`
+- **validators.js** (15 connections) — `backend/src/utils/validators.js`
+- **crmFetch()** (14 connections) — `backend/src/services/crmClient.js`
+- **finalizeDealerRegistration()** (12 connections) — `backend/src/services/dealerApp.js`
+- **isValidPhone()** (11 connections) — `backend/src/utils/validators.js`
+- **cleanName()** (9 connections) — `backend/src/utils/validators.js`
+- **crmConfigured()** (8 connections) — `backend/src/services/crmClient.js`
+- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
+- **verifyDealerRegistrationOtp()** (7 connections) — `backend/src/services/dealerApp.js`
+- **phone.js** (7 connections) — `backend/src/utils/phone.js`
+- **isValidEmail()** (7 connections) — `backend/src/utils/validators.js`
+- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
+- **isValidName()** (6 connections) — `backend/src/utils/validators.js`
+- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
+- **createDealerContact()** (5 connections) — `backend/src/services/crmClient.js`
+- **findOwnerContactInAccount()** (5 connections) — `backend/src/services/crmClient.js`
+- **updateContactDetails()** (5 connections) — `backend/src/services/crmClient.js`
+- **updateDealerCodeInCrm()** (5 connections) — `backend/src/services/crmClient.js`
+- **isValidGstin()** (5 connections) — `backend/src/utils/validators.js`
+- **resolveContactNames()** (4 connections) — `backend/src/services/crmClient.js`
+- **emailOnlyIdentifier()** (3 connections) — `backend/src/routes/auth.js`
+- **deactivateAccountInCrm()** (3 connections) — `backend/src/services/crmClient.js`
+- **deactivateContactInCrm()** (3 connections) — `backend/src/services/crmClient.js`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (35 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (33 shared connections)
-- [[Community 40]] (27 shared connections)
-- [[Product Brand & Business Vision]] (14 shared connections)
-- [[Product Requirements Documentation]] (10 shared connections)
-- [[Community 106]] (10 shared connections)
-- [[Community 87]] (10 shared connections)
-- [[Testing & Workflow Skill]] (1 shared connections)
+- [[Community 63]] (32 shared connections)
+- [[Mobile Responsive UI Skill]] (17 shared connections)
+- [[Community 34]] (12 shared connections)
+- [[Client Products Data Store]] (4 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/cli.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/legend.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `backend/src/routes/auth.js`
+- `backend/src/services/crmClient.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/utils/phone.js`
+- `backend/src/utils/validators.js`
+- `backend/test/interconnection.test.mjs`
+- `backend/test/validators.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 249 (99%)
-- INFERRED: 3 (1%)
+- EXTRACTED: 241 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

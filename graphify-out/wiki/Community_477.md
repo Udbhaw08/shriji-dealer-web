@@ -1,10 +1,11 @@
 # Community 477
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **context.md** (0 connections) — `design/context.md`
+- **graphify.md** (1 connections) — `.agents/workflows/graphify.md`
+- **Workflow: graphify** (1 connections) — `.agents/workflows/graphify.md`
 
 ## Relationships
 
@@ -12,11 +13,11 @@
 
 ## Source Files
 
-- `design/context.md`
+- `.agents/workflows/graphify.md`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

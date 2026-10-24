@@ -1,60 +1,54 @@
 # Vercel Deployment Routing
 
-> 42 nodes · cohesion 0.08
+> 41 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **visual-check.mjs** (50 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **ChromeVisualBrowser** (21 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **runVisualCheck()** (18 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **visual-check.test.mjs** (14 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **PipeCdp** (7 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.inspect()** (5 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **observationDiagnostics()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **safeUnlink()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **writeAtomic()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **baseReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.attach()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.close()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.constructor()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **chromeVisualBrowserArgs()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **cleanupCaptureSidecars()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **contactSheetHtml()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **evaluate()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **failureDiagnostic()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **persistReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.failAll()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **sha256()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **sidecarPaths()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **htmlEscape()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **observation()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.consume()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- *... and 17 more nodes in this community*
+- **jr()** (24 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **Or()** (22 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **gf()** (18 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **Oi()** (11 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **Ai()** (10 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **gr()** (9 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **Si()** (9 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **Ar()** (8 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **kr()** (7 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **fr()** (6 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **gn()** (6 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **hr()** (6 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **Ir()** (6 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **mr()** (6 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **Sr()** (6 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **vr()** (6 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **bh()** (5 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **Nr()** (5 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **qf()** (5 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **Rr()** (5 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **sm()** (5 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **Sn()** (5 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **wr()** (5 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **xn()** (5 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **zr()** (5 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [[Community 46]] (12 shared connections)
-- [[Community 123]] (7 shared connections)
-- [[Community 158]] (4 shared connections)
-- [[Community 71]] (4 shared connections)
-- [[Graphify Knowledge Graph Skill]] (2 shared connections)
-- [[Community 121]] (2 shared connections)
-- [[Community 34]] (2 shared connections)
-- [[Community 177]] (2 shared connections)
-- [[Community 240]] (2 shared connections)
-- [[Community 142]] (2 shared connections)
-- [[Community 202]] (2 shared connections)
-- [[Community 242]] (2 shared connections)
+- [[Dealer Auth & Session Management]] (43 shared connections)
+- [[Dependencies & Package Config]] (18 shared connections)
+- [[Master Codebase Architecture Reference]] (9 shared connections)
+- [[Pricing Regression Test Suite]] (6 shared connections)
+- [[Community 54]] (5 shared connections)
+- [[Community 92]] (1 shared connections)
+- [[Graphify Knowledge Graph Skill]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/visual-check.test.mjs`
+- `ios/App/App/public/assets/index-Cb8ETnt_.js`
 
 ## Audit Trail
 
-- EXTRACTED: 192 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 259 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,68 +1,59 @@
 # Mobile Responsive UI Skill
 
-> 45 nodes · cohesion 0.09
+> 44 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **ui.jsx** (43 connections) — `src/ui.jsx`
-- **Home.jsx** (26 connections) — `src/pages/Home.jsx`
-- **site.js** (24 connections) — `src/data/site.js`
-- **Icon()** (19 connections) — `src/ui.jsx`
-- **Schemes.jsx** (17 connections) — `src/pages/Schemes.jsx`
-- **COMPANY** (16 connections) — `src/data/site.js`
-- **Support.jsx** (16 connections) — `src/pages/Support.jsx`
-- **ContentAdminDashboard.jsx** (12 connections) — `src/pages/ContentAdminDashboard.jsx`
-- **HeroSlider.jsx** (11 connections) — `src/components/HeroSlider.jsx`
-- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
-- **UnderMaintenance()** (5 connections) — `src/components/UnderMaintenance.jsx`
-- **LegalPrivacy.jsx** (5 connections) — `src/pages/LegalPrivacy.jsx`
-- **LegalTerms.jsx** (5 connections) — `src/pages/LegalTerms.jsx`
-- **PrivacyPolicy.jsx** (5 connections) — `src/pages/PrivacyPolicy.jsx`
-- **TermsOfService.jsx** (5 connections) — `src/pages/TermsOfService.jsx`
-- **video.js** (5 connections) — `src/utils/video.js`
-- **FileOrUrlInput.jsx** (4 connections) — `src/components/FileOrUrlInput.jsx`
-- **EnquiryButtons()** (4 connections) — `src/ui.jsx`
-- **parseVideoUrl()** (4 connections) — `src/utils/video.js`
-- **HeroSlider()** (3 connections) — `src/components/HeroSlider.jsx`
-- **SCHEMES** (3 connections) — `src/data/site.js`
-- **STATS** (3 connections) — `src/data/site.js`
-- **video-banner.test.mjs** (3 connections) — `src/data/video-banner.test.mjs`
-- **FileOrUrlInput()** (2 connections) — `src/components/FileOrUrlInput.jsx`
-- **ISSUE_TYPES** (2 connections) — `src/data/site.js`
-- *... and 20 more nodes in this community*
+- **auth.js** (52 connections) — `backend/src/routes/auth.js`
+- **hash.js** (24 connections) — `backend/src/utils/hash.js`
+- **phase2DealerStaffOnboarding.test.mjs** (17 connections) — `backend/test/phase2DealerStaffOnboarding.test.mjs`
+- **onboardingVerification.test.mjs** (15 connections) — `backend/test/onboardingVerification.test.mjs`
+- **verifyOtpHash()** (10 connections) — `backend/src/utils/hash.js`
+- **hash.test.mjs** (9 connections) — `backend/test/hash.test.mjs`
+- **hashOtp()** (9 connections) — `backend/src/utils/hash.js`
+- **sha256()** (9 connections) — `backend/src/utils/hash.js`
+- **issueSession()** (5 connections) — `backend/src/routes/auth.js`
+- **generateOtp()** (5 connections) — `backend/src/utils/hash.js`
+- **hashPassword()** (5 connections) — `backend/src/utils/hash.js`
+- **isUserFullyOnboarded()** (4 connections) — `backend/src/routes/auth.js`
+- **resolveUserWithDealer()** (4 connections) — `backend/src/routes/auth.js`
+- **verifyPassword()** (4 connections) — `backend/src/utils/hash.js`
+- **findUserByEmail()** (3 connections) — `backend/src/routes/auth.js`
+- **publicUser()** (3 connections) — `backend/src/routes/auth.js`
+- **handleDealerRegistrationFinalize()** (3 connections) — `backend/src/routes/dealers.js`
+- **scryptKey()** (3 connections) — `backend/src/utils/hash.js`
+- **generateCode()** (2 connections) — `backend/src/utils/hash.js`
+- **randomToken()** (2 connections) — `backend/src/utils/hash.js`
+- **googleClient** (1 connections) — `backend/src/routes/auth.js`
+- **lastCrmSyncByDealerId** (1 connections) — `backend/src/routes/auth.js`
+- **strictLimit** (1 connections) — `backend/src/routes/auth.js`
+- **app** (1 connections) — `backend/test/onboardingVerification.test.mjs`
+- **authHeader()** (1 connections) — `backend/test/onboardingVerification.test.mjs`
+- *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [[Architecture Doc Generator]] (36 shared connections)
-- [[Community 60]] (31 shared connections)
-- [[Community 41]] (15 shared connections)
-- [[Design System & UI Tokens]] (8 shared connections)
-- [[Community 180]] (5 shared connections)
-- [[Community 207]] (4 shared connections)
-- [[Community 161]] (1 shared connections)
+- [[Community 63]] (18 shared connections)
+- [[Community 44]] (17 shared connections)
+- [[Community 34]] (14 shared connections)
+- [[Community 179]] (9 shared connections)
+- [[Client Products Data Store]] (7 shared connections)
+- [[Community 177]] (3 shared connections)
+- [[Community 134]] (2 shared connections)
 
 ## Source Files
 
-- `src/components/FileOrUrlInput.jsx`
-- `src/components/HeroSlider.jsx`
-- `src/components/UnderMaintenance.jsx`
-- `src/data/site.js`
-- `src/data/video-banner.test.mjs`
-- `src/pages/ContentAdminDashboard.jsx`
-- `src/pages/Home.jsx`
-- `src/pages/LegalPrivacy.jsx`
-- `src/pages/LegalTerms.jsx`
-- `src/pages/PrivacyPolicy.jsx`
-- `src/pages/Schemes.jsx`
-- `src/pages/Support.jsx`
-- `src/pages/TermsOfService.jsx`
-- `src/ui.jsx`
-- `src/utils/video.js`
+- `backend/src/routes/auth.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/utils/hash.js`
+- `backend/test/hash.test.mjs`
+- `backend/test/onboardingVerification.test.mjs`
+- `backend/test/phase2DealerStaffOnboarding.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 279 (100%)
-- INFERRED: 1 (0%)
+- EXTRACTED: 212 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

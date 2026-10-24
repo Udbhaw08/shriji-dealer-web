@@ -1,36 +1,32 @@
 # Community 180
 
-> 10 nodes · cohesion 0.27
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **i18n.js** (25 connections) — `src/data/i18n.js`
-- **setLanguage()** (3 connections) — `src/data/i18n.js`
-- **emit()** (2 connections) — `src/data/i18n.js`
-- **toggleLanguage()** (2 connections) — `src/data/i18n.js`
-- **translations.js** (2 connections) — `src/data/translations.js`
-- **TRANSLATIONS** (2 connections) — `src/data/translations.js`
-- **currentLang** (1 connections) — `src/data/i18n.js`
-- **getInitialLang()** (1 connections) — `src/data/i18n.js`
-- **getLanguage()** (1 connections) — `src/data/i18n.js`
-- **listeners** (1 connections) — `src/data/i18n.js`
+- **multiAuth.test.mjs** (8 connections) — `backend/test/multiAuth.test.mjs`
+- **MockOAuth2Client** (3 connections) — `backend/test/multiAuth.test.mjs`
+- **app** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **db** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **.constructor()** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **.verifyIdToken()** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **mockSql()** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **resetDb()** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **startServer()** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **stopServer()** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **testEnv** (1 connections) — `backend/test/multiAuth.test.mjs`
 
 ## Relationships
 
-- [[Architecture Doc Generator]] (8 shared connections)
-- [[Mobile Responsive UI Skill]] (5 shared connections)
-- [[Community 60]] (1 shared connections)
-- [[Community 207]] (1 shared connections)
-- [[Design System & UI Tokens]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/data/i18n.js`
-- `src/data/translations.js`
+- `backend/test/multiAuth.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

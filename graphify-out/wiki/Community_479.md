@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **cordova_plugins.js** (0 connections) — `ios/App/App/public/cordova_plugins.js`
+- **cordova_plugins.js** (0 connections) — `android/app/src/main/assets/public/cordova_plugins.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/cordova_plugins.js`
+- `android/app/src/main/assets/public/cordova_plugins.js`
 
 ## Audit Trail
 

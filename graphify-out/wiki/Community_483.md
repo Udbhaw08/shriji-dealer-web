@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **lifecycle** (0 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **variables.gradle** (0 connections) — `android/variables.gradle`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- `android/variables.gradle`
 
 ## Audit Trail
 

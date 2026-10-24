@@ -1,35 +1,36 @@
 # Community 122
 
-> 14 nodes · cohesion 0.23
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **web-k0MXV5d8.js** (13 connections) — `android/app/src/main/assets/public/assets/web-k0MXV5d8.js`
-- **applyPrefix()** (4 connections) — `android/app/src/main/assets/public/assets/web-k0MXV5d8.js`
-- **keys()** (4 connections) — `android/app/src/main/assets/public/assets/web-k0MXV5d8.js`
-- **get()** (3 connections) — `android/app/src/main/assets/public/assets/web-k0MXV5d8.js`
-- **migrate()** (3 connections) — `android/app/src/main/assets/public/assets/web-k0MXV5d8.js`
-- **rawKeys()** (3 connections) — `android/app/src/main/assets/public/assets/web-k0MXV5d8.js`
-- **clear()** (2 connections) — `android/app/src/main/assets/public/assets/web-k0MXV5d8.js`
-- **remove()** (2 connections) — `android/app/src/main/assets/public/assets/web-k0MXV5d8.js`
-- **removeOld()** (2 connections) — `android/app/src/main/assets/public/assets/web-k0MXV5d8.js`
-- **set()** (2 connections) — `android/app/src/main/assets/public/assets/web-k0MXV5d8.js`
-- **configure()** (1 connections) — `android/app/src/main/assets/public/assets/web-k0MXV5d8.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-k0MXV5d8.js`
-- **impl()** (1 connections) — `android/app/src/main/assets/public/assets/web-k0MXV5d8.js`
-- **prefix()** (1 connections) — `android/app/src/main/assets/public/assets/web-k0MXV5d8.js`
+- **repository** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **properties** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **revision** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **url** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **link_mode** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **provider** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **pattern** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 86]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/web-k0MXV5d8.js`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 29 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

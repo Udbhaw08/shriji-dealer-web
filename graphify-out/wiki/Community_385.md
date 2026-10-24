@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **base-input-compatibility.test.mjs** (4 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
-- **renderBaseFixture()** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
+- **10. Text Polish Details** (5 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Content Overflow** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Punctuation** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Tabular Numbers** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Text Wrapping for Headings** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 230]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/base-input-compatibility.test.mjs`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

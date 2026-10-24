@@ -1,14 +1,14 @@
 # Community 382
 
-> 5 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **export_pricebooks_for_crm.mjs** (4 connections) — `scripts/export_pricebooks_for_crm.mjs`
-- **getAccessToken()** (2 connections) — `scripts/export_pricebooks_for_crm.mjs`
-- **main()** (2 connections) — `scripts/export_pricebooks_for_crm.mjs`
-- **env** (1 connections) — `scripts/export_pricebooks_for_crm.mjs`
-- **getMergedEnv()** (1 connections) — `scripts/export_pricebooks_for_crm.mjs`
+- **Ratings and reviews** (4 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
+- **ratings-and-reviews.md** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
 
 ## Relationships
 
@@ -16,11 +16,11 @@
 
 ## Source Files
 
-- `scripts/export_pricebooks_for_crm.mjs`
+- `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

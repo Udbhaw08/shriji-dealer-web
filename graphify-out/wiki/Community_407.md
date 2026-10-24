@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **col** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **maximum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **14. Hierarchy Checklist** (4 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Anti-patterns** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Hierarchy Test** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Visual Weight Stack** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- [[Community 29]] (1 shared connections)
+- [[Community 230]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 

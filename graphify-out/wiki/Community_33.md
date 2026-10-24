@@ -1,54 +1,54 @@
 # Community 33
 
-> 39 nodes · cohesion 0.07
+> 38 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **preview.mjs** (23 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **startPreview()** (10 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **cli-output-types.test.mjs** (10 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **preview.test.mjs** (8 connections) — `.agents/skills/archify/test/preview.test.mjs`
-- **open-artifact.mjs** (7 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **openLoopbackUrl()** (5 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **open-artifact.test.mjs** (5 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
-- **launchTarget()** (4 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **openArtifact()** (4 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **runPreview()** (3 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **compactMessage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **initialAuthoredOutput()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **previewPage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **redactDiagnostic()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **sha256()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **sourceDigest()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **spawn()** (2 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
-- **stateAt()** (2 connections) — `.agents/skills/archify/test/preview.test.mjs`
-- **waitForState()** (2 connections) — `.agents/skills/archify/test/preview.test.mjs`
-- **OPENERS** (1 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **cliPath** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **diagramTypes** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **here** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **parseReceipt()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **responseHeaders()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- *... and 14 more nodes in this community*
+- **fl()** (22 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **zd()** (16 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **he()** (13 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **Ii()** (12 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **qd()** (12 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **ml()** (11 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **Nd()** (11 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **xe()** (10 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **Ce()** (9 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **pl()** (9 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **Gd()** (8 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **Xd()** (8 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **rt()** (7 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **aa()** (6 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **Bd()** (6 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **cl()** (6 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **jo()** (6 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **Rd()** (6 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **vi()** (6 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **xo()** (6 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **sl()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **ua()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **dl()** (4 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **hm()** (4 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **Zo()** (4 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [[Community 59]] (5 shared connections)
-- [[Graphify Knowledge Graph Skill]] (4 shared connections)
-- [[Community 240]] (2 shared connections)
+- [[Price Presentation & Product UI]] (43 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (21 shared connections)
+- [[Product Requirements Documentation]] (18 shared connections)
+- [[Design System & UI Tokens]] (9 shared connections)
+- [[Roles & Customer Sharing Spec]] (7 shared connections)
+- [[Testing & Workflow Skill]] (4 shared connections)
+- [[Community 338]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/open-artifact.mjs`
-- `.agents/skills/archify/bin/preview.mjs`
-- `.agents/skills/archify/test/cli-output-types.test.mjs`
-- `.agents/skills/archify/test/open-artifact.test.mjs`
-- `.agents/skills/archify/test/preview.test.mjs`
+- `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
 
 ## Audit Trail
 
-- EXTRACTED: 113 (97%)
-- INFERRED: 4 (3%)
+- EXTRACTED: 247 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

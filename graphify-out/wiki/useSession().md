@@ -1,8 +1,8 @@
 # useSession()
 
-> God node · 36 connections · `src/data/session.js`
+> God node · 38 connections · `src/data/session.js`
 
-**Community:** [[Community 60]]
+**Community:** [[Product Pages Specification]]
 
 ## Connections by Relation
 
@@ -19,6 +19,7 @@
 - [[AccountLink()]] `EXTRACTED`
 - [[Footer()]] `EXTRACTED`
 - [[Support()]] `EXTRACTED`
+- [[BrandApplyFlow()]] `EXTRACTED`
 - [[StaffJoin()]] `EXTRACTED`
 - [[EmailVerificationPrompt()]] `EXTRACTED`
 - [[DealerApply()]] `EXTRACTED`
@@ -35,10 +36,11 @@
 - [[ui.jsx]] `EXTRACTED`
 - [[Login.jsx]] `EXTRACTED`
 - [[Product.jsx]] `EXTRACTED`
+- [[DealerApply.jsx]] `EXTRACTED`
 - [[Home.jsx]] `EXTRACTED`
 - [[Products.jsx]] `EXTRACTED`
-- [[DealerApply.jsx]] `EXTRACTED`
 - [[DealerDashboard.jsx]] `EXTRACTED`
+- [[BrandApplyFlow.jsx]] `EXTRACTED`
 - [[Favorites.jsx]] `EXTRACTED`
 - [[ProductCard.jsx]] `EXTRACTED`
 - [[Schemes.jsx]] `EXTRACTED`

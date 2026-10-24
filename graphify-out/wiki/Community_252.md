@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Launching** (6 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **launching.md** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **Launch screens** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
+- **Game controls** (7 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **game-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Keyboards** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Physical controllers** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Touch controls** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/launching.md`
+- `.agents/skills/apple-design/references/hig/game-controls.md`
 
 ## Audit Trail
 

@@ -1,54 +1,55 @@
 # Graphify Knowledge Graph Skill
 
-> 49 nodes · cohesion 0.12
+> 46 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **archify.mjs** (50 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandDeliver()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandMigrate()** (17 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **fail()** (15 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandValidate()** (13 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **usage()** (11 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandRender()** (10 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandPreview()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **diagnostic()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rendererPath()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **runNode()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **renderValidatedArchitecture()** (8 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractQualityArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractRepoRootArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rejectCliArgument()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **assertEvidenceType()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **checkerDiagnostics()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandDemo()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **exitFrom()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rendererEnv()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rendererFailure()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandBrands()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandExamples()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandVisualCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- *... and 24 more nodes in this community*
+- **ff()** (27 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **Tu()** (17 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **gl()** (14 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **pi()** (13 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **uu()** (13 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **delete()** (11 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **lu()** (11 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **vu()** (11 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **di()** (10 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **zl()** (10 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **hl()** (9 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **Iu()** (9 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **ku()** (9 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **mu()** (9 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **wl()** (9 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **jd()** (8 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **wa()** (8 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **bl()** (7 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **Eu()** (7 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **hc()** (7 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **yl()** (7 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **cu()** (6 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **fu()** (6 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **ju()** (6 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **kl()** (6 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [[Master Codebase Architecture Reference]] (11 shared connections)
-- [[Community 33]] (4 shared connections)
-- [[Community 59]] (4 shared connections)
-- [[Testing & Workflow Skill]] (3 shared connections)
-- [[Community 128]] (3 shared connections)
-- [[Vercel Deployment Routing]] (2 shared connections)
+- [[Dealer Auth & Session Management]] (53 shared connections)
+- [[Master Codebase Architecture Reference]] (17 shared connections)
+- [[Dependencies & Package Config]] (14 shared connections)
+- [[Pricing Regression Test Suite]] (12 shared connections)
+- [[Community 54]] (6 shared connections)
+- [[Community 69]] (5 shared connections)
+- [[Community 92]] (3 shared connections)
+- [[Vercel Deployment Routing]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- `ios/App/App/public/assets/index-Cb8ETnt_.js`
 
 ## Audit Trail
 
-- EXTRACTED: 305 (97%)
-- INFERRED: 10 (3%)
+- EXTRACTED: 325 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

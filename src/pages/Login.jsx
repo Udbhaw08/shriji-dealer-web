@@ -1,11 +1,19 @@
 import { useState, useEffect, useRef } from "react";
-import { Link, useNavigate, useLocation } from "react-router-dom";
-import { useSession, signOut, switchToDealerSession, switchToViewerSession } from "../data/session";
+import { Link, useNavigate, useLocation, useSearchParams } from "react-router-dom";
+import { useSession, signOut, revalidateSession } from "../data/session";
 import { isDealer } from "../data/dealer";
-import { requestOtp, verifyOtp, signup, login, googleLogin } from "../data/auth";
-import { revalidateSession } from "../data/session";
+import {
+  requestOtp,
+  verifyOtp,
+  signup,
+  login,
+  googleLogin,
+  lookupStaffCode,
+  staffSignup,
+} from "../data/auth";
+import { formatLoginCode } from "../data/loginCode";
+import { isValidEmail, isValidName, isValidPhone } from "../data/validators";
 import { Icon } from "../ui";
-import { isValidEmail, isValidName } from "../data/validators";
 
 const RESEND_COOLDOWN_SECONDS = 30;
 
@@ -13,14 +21,37 @@ export default function Login() {
   const session = useSession();
   const navigate = useNavigate();
   const location = useLocation();
+  const [searchParams, setSearchParams] = useSearchParams();
 
-  // Navigation target from protected route redirection (or default)
-  const fromPath = location.state?.from?.pathname || (session?.role === "dealer" ? "/products" : "/products");
+  // Navigation target from protected route redirection
+  const fromPath = location.state?.from?.pathname || "/products";
 
-  // Primary authentication method: "whatsapp" (default) | "email"
+  // Role Selection Gateway: null | "dealer" | "staff" (Customer & Brand are disabled/faded out)
+  const urlRole = searchParams.get("role");
+  const [selectedRole, setSelectedRole] = useState(
+    urlRole && ["dealer", "staff"].includes(urlRole) ? urlRole : null
+  );
+
+  const handleSelectRole = (role) => {
+    setSelectedRole(role);
+    if (role) {
+      setSearchParams({ role });
+    } else {
+      setSearchParams({});
+    }
+    setError(null);
+  };
+
+  useEffect(() => {
+    if (urlRole && ["dealer", "staff"].includes(urlRole)) {
+      setSelectedRole(urlRole);
+    }
+  }, [urlRole]);
+
+  // Dealer Sign-In sub-method: "whatsapp" (default) | "email"
   const [authMethod, setAuthMethod] = useState("whatsapp");
 
-  // WhatsApp states (preserved 100%)
+  // WhatsApp states
   const [step, setStep] = useState("phone"); // "phone" | "otp"
   const [phone, setPhone] = useState("");
   const [otp, setOtp] = useState(["", "", "", "", "", ""]);
@@ -33,9 +64,25 @@ export default function Login() {
   const [fullName, setFullName] = useState("");
   const [showPassword, setShowPassword] = useState(false);
 
+  // Staff Gateway states
+  const [staffCode, setStaffCode] = useState("");
+  const [staffStoreInfo, setStaffStoreInfo] = useState(null);
+  const [staffLookupLoading, setStaffLookupLoading] = useState(false);
+  const [staffLookupError, setStaffLookupError] = useState("");
+  const [staffForm, setStaffForm] = useState({
+    fullName: "",
+    email: "",
+    phone: "",
+    password: "",
+    confirmPassword: "",
+  });
+  const [staffSubmitLoading, setStaffSubmitLoading] = useState(false);
+  const [staffSubmitError, setStaffSubmitError] = useState("");
+
   // Shared states
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
+  const [googleNotice, setGoogleNotice] = useState(null);
 
   const otpInputRefs = useRef([]);
   const cooldownTimerRef = useRef(null);
@@ -43,6 +90,13 @@ export default function Login() {
 
   const isAuthenticated = session && session.role !== "guest";
   const dealerActive = isDealer(session);
+
+  // Localhost check for Google Identity Services
+  const isLocalhost =
+    typeof window !== "undefined" &&
+    (window.location.hostname === "localhost" ||
+      window.location.hostname === "127.0.0.1" ||
+      window.location.hostname.endsWith(".local"));
 
   // Clean phone input (digits only, max 10)
   const handlePhoneChange = (e) => {
@@ -74,9 +128,13 @@ export default function Login() {
     }
   }, [step]);
 
-  // Initialize official Google Identity Services (GSI) button
+  // Initialize official Google Identity Services (GSI) button safely in production
   useEffect(() => {
-    if (isAuthenticated) return;
+    if (isAuthenticated || selectedRole !== "dealer") return;
+    // On localhost, Google returns 403 Origin Not Allowed unless added in Google Console.
+    // We suppress the GSI iframe on localhost to avoid polluting the console.
+    if (isLocalhost) return;
+
     const googleClientId = import.meta.env?.VITE_GOOGLE_CLIENT_ID;
     if (!googleClientId) return;
 
@@ -111,7 +169,7 @@ export default function Login() {
             shape: "rectangular",
             text: "continue_with",
             logo_alignment: "left",
-            width: 360,
+            width: 320,
           });
 
           if (checkInterval) clearInterval(checkInterval);
@@ -131,17 +189,15 @@ export default function Login() {
       }, 250);
       const timeout = setTimeout(() => {
         if (checkInterval) clearInterval(checkInterval);
-      }, 5000);
+      }, 4000);
       return () => {
         if (checkInterval) clearInterval(checkInterval);
         clearTimeout(timeout);
       };
     }
-  }, [isAuthenticated, fromPath, navigate, authMethod, emailMode]);
+  }, [isAuthenticated, fromPath, navigate, selectedRole, isLocalhost]);
 
   /* ---- WhatsApp Flow Handlers ---- */
-
-  // Request WhatsApp OTP
   const handleSendOtp = async (e) => {
     if (e) e.preventDefault();
     if (!isPhoneValid || loading) return;
@@ -161,13 +217,11 @@ export default function Login() {
     }
   };
 
-  // Resend OTP
   const handleResendOtp = async () => {
     if (cooldown > 0 || loading) return;
     await handleSendOtp();
   };
 
-  // OTP digit entry handling
   const handleOtpDigitChange = (index, val) => {
     const digit = val.replace(/\D/g, "").slice(-1);
     const newOtp = [...otp];
@@ -175,12 +229,10 @@ export default function Login() {
     setOtp(newOtp);
     if (error) setError(null);
 
-    // Auto-advance
     if (digit && index < 5) {
       otpInputRefs.current[index + 1]?.focus();
     }
 
-    // Auto-submit on 6th digit if complete
     if (digit && index === 5) {
       const fullCode = newOtp.join("");
       if (fullCode.length === 6) {
@@ -189,14 +241,12 @@ export default function Login() {
     }
   };
 
-  // OTP Keydown handling for backspace
   const handleOtpKeyDown = (index, e) => {
     if (e.key === "Backspace" && !otp[index] && index > 0) {
       otpInputRefs.current[index - 1]?.focus();
     }
   };
 
-  // OTP Paste handling (distributes 6 digits across inputs)
   const handleOtpPaste = (e) => {
     e.preventDefault();
     const pasted = e.clipboardData.getData("text").replace(/\D/g, "").slice(0, 6);
@@ -217,7 +267,6 @@ export default function Login() {
     }
   };
 
-  // Verify OTP
   const handleVerifyOtp = async (codeToVerify) => {
     const code = codeToVerify || otp.join("");
     if (code.length !== 6 || loading) return;
@@ -236,15 +285,14 @@ export default function Login() {
     }
   };
 
-  /* ---- Email & Password Flow Handlers ---- */
-
+  /* ---- Email Flow Handlers ---- */
   const handleEmailAuthSubmit = async (e) => {
     if (e) e.preventDefault();
     if (loading) return;
 
     const cleanEmail = email.trim().toLowerCase();
     if (!cleanEmail || !isValidEmail(cleanEmail)) {
-      setError("Please enter a valid email address (e.g. name@domain.com).");
+      setError("Please enter a valid email address.");
       return;
     }
 
@@ -256,7 +304,7 @@ export default function Login() {
     if (emailMode === "signup") {
       const cleanName = fullName.trim();
       if (!cleanName || !isValidName(cleanName)) {
-        setError("Please enter your full name (letters only, at least 2 characters).");
+        setError("Please enter your full name (letters only, min 2 characters).");
         return;
       }
     }
@@ -287,87 +335,110 @@ export default function Login() {
     }
   };
 
+  /* ---- Staff Code Lookup & Join Handlers ---- */
+  const handleStaffLookup = async (e) => {
+    if (e) e.preventDefault();
+    const raw = staffCode.trim();
+    if (!raw) {
+      setStaffLookupError("Please enter your Store / Dealer Code.");
+      return;
+    }
+
+    setStaffLookupError("");
+    setStaffLookupLoading(true);
+    try {
+      const res = await lookupStaffCode(raw);
+      setStaffStoreInfo(res);
+      setStaffLookupError("");
+    } catch (err) {
+      setStaffStoreInfo(null);
+      setStaffLookupError(err.message || "Unrecognized Dealer / Business Code. Please check with your store owner.");
+    } finally {
+      setStaffLookupLoading(false);
+    }
+  };
+
+  const handleStaffSignupSubmit = async (e) => {
+    if (e) e.preventDefault();
+    if (!staffStoreInfo) return;
+
+    if (!staffForm.fullName.trim() || !isValidName(staffForm.fullName)) {
+      setStaffSubmitError("Please enter your full name (letters only).");
+      return;
+    }
+    if (!staffForm.email.trim() || !isValidEmail(staffForm.email)) {
+      setStaffSubmitError("Please enter a valid work email address.");
+      return;
+    }
+    if (staffForm.phone.trim() && !isValidPhone(staffForm.phone)) {
+      setStaffSubmitError("Please enter a valid 10-digit mobile number.");
+      return;
+    }
+    if (!staffForm.password || staffForm.password.length < 8) {
+      setStaffSubmitError("Password must be at least 8 characters long.");
+      return;
+    }
+    if (staffForm.password !== staffForm.confirmPassword) {
+      setStaffSubmitError("Passwords do not match.");
+      return;
+    }
+
+    setStaffSubmitLoading(true);
+    setStaffSubmitError("");
+
+    try {
+      await staffSignup({
+        dealer_code: staffStoreInfo.dealer_code || staffCode,
+        invite_code: staffStoreInfo.dealer_code || staffCode,
+        email: staffForm.email.trim(),
+        phone: staffForm.phone.trim() || undefined,
+        password: staffForm.password,
+        full_name: staffForm.fullName.trim(),
+      });
+
+      await revalidateSession().catch(() => {});
+      navigate("/dealer/pending?kind=staff", { replace: true });
+    } catch (err) {
+      setStaffSubmitError(err.message || "Failed to submit staff registration.");
+    } finally {
+      setStaffSubmitLoading(false);
+    }
+  };
+
   return (
-    <section className="sec" style={{ paddingTop: "clamp(var(--s4), 5vw, var(--s7))", minHeight: "80vh" }}>
-      <div className="wrap" style={{ maxWidth: 460, margin: "0 auto", minWidth: 0, overflowX: "clip" }}>
+    <section className="sec" style={{ paddingTop: "clamp(var(--s4), 3.5vw, var(--s6))", minHeight: "85vh" }}>
+      <div className="wrap" style={{ maxWidth: 980, margin: "0 auto", minWidth: 0, overflowX: "clip" }}>
 
-        {/* Brand Header */}
-        <div style={{ textAlign: "center", marginBottom: "var(--s5)" }}>
-          <div
-            style={{
-              width: 52,
-              height: 52,
-              borderRadius: "var(--r, 14px)",
-              background: isAuthenticated
-                ? "var(--navy, #10263a)"
-                : authMethod === "whatsapp"
-                ? "#25D366"
-                : "var(--navy, #10263a)",
-              color: "#fff",
-              display: "inline-flex",
-              alignItems: "center",
-              justifyContent: "center",
-              boxShadow: authMethod === "whatsapp" && !isAuthenticated
-                ? "0 8px 24px -6px rgba(37, 211, 102, 0.45)"
-                : "0 8px 24px -6px rgba(16, 38, 58, 0.35)",
-              marginBottom: 14,
-              transition: "background-color 0.2s ease, box-shadow 0.2s ease",
-            }}
-          >
-            {isAuthenticated ? (
-              <Icon name="shield" size={26} />
-            ) : authMethod === "whatsapp" ? (
-              <Icon name="wa" size={28} />
-            ) : (
-              <Icon name="mail" size={26} />
-            )}
-          </div>
-
-          <h1 style={{ fontSize: "1.75rem", fontWeight: 800, margin: "0 0 8px", color: "var(--tx)", letterSpacing: "-0.02em" }}>
-            {isAuthenticated
-              ? "Your Account"
-              : authMethod === "whatsapp"
-              ? step === "phone"
-                ? "Sign In with WhatsApp"
-                : "Verify Your Number"
-              : emailMode === "login"
-              ? "Sign In with Email"
-              : "Create an Account"}
-          </h1>
-
-          <p style={{ margin: 0, color: "var(--tx-2)", fontSize: "0.92rem", lineHeight: 1.5 }}>
-            {isAuthenticated
-              ? "You are currently authenticated in the Shriji Dealer Portal."
-              : authMethod === "whatsapp"
-              ? step === "phone"
-                ? "Enter your WhatsApp mobile number to receive a secure 6-digit one-time password."
-                : `Enter the 6-digit code sent to +91 ${phone.slice(0, 5)} ${phone.slice(5)}`
-              : emailMode === "login"
-              ? "Enter your registered email address and password to sign in."
-              : "Create a customer account to browse retail prices and manage saved items."}
-          </p>
-        </div>
-
-        {/* ALREADY AUTHENTICATED CARD */}
+        {/* ALREADY AUTHENTICATED STATE */}
         {isAuthenticated && (() => {
           const isPending = session.status === "pending" || session.dealer?.status === "pending";
-          const needsVerification = !session.email_verified || !session.phone_verified;
 
           return (
-            <div className="card pad" style={{ marginBottom: 24, boxShadow: "var(--sh)", textAlign: "center" }}>
-              <div style={{
-                display: "inline-flex",
-                alignItems: "center",
-                gap: 6,
-                padding: "5px 14px",
-                borderRadius: 999,
-                background: isPending ? "var(--amber-50, #fffbeb)" : dealerActive ? "var(--ok-bg)" : "var(--blue-50)",
-                color: isPending ? "var(--amber-700, #b45309)" : dealerActive ? "var(--ok-tx)" : "var(--navy-2)",
-                fontSize: "0.82rem",
-                fontWeight: 700,
-                marginBottom: 16,
-                border: isPending ? "1px solid #fde68a" : "none",
-              }}>
+            <div
+              className="card pad"
+              style={{
+                maxWidth: 480,
+                margin: "0 auto 24px",
+                boxShadow: "0 10px 30px -10px rgba(16, 38, 58, 0.12)",
+                textAlign: "center",
+                borderRadius: "var(--r-lg, 18px)",
+              }}
+            >
+              <div
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: 6,
+                  padding: "5px 14px",
+                  borderRadius: 999,
+                  background: isPending ? "var(--amber-50, #fffbeb)" : dealerActive ? "var(--ok-bg)" : "var(--blue-50)",
+                  color: isPending ? "var(--amber-700, #b45309)" : dealerActive ? "var(--ok-tx)" : "var(--navy-2)",
+                  fontSize: "0.82rem",
+                  fontWeight: 700,
+                  marginBottom: 16,
+                  border: isPending ? "1px solid #fde68a" : "none",
+                }}
+              >
                 <Icon name={dealerActive ? "shield" : isPending ? "clock" : "user"} size={14} />
                 {isPending
                   ? "Dealership Application Under Review"
@@ -376,132 +447,54 @@ export default function Login() {
                   : "Customer / Retail Account"}
               </div>
 
-              <div style={{ fontSize: "1.15rem", fontWeight: 700, color: "var(--tx)", marginBottom: 4 }}>
+              <div style={{ fontSize: "1.25rem", fontWeight: 800, color: "var(--tx)", marginBottom: 4 }}>
                 {session.fullName || (session.phone ? `+91 ${session.phone}` : session.email || "Signed In User")}
               </div>
 
-              {/* Contact Verification Badges */}
-              <div style={{
-                display: "flex",
-                justifyContent: "center",
-                flexWrap: "wrap",
-                gap: 8,
-                marginTop: 10,
-                marginBottom: 18,
-              }}>
+              <div style={{ display: "flex", justifyContent: "center", flexWrap: "wrap", gap: 8, marginTop: 10, marginBottom: 20 }}>
                 {session.phone && (
-                  <span style={{
-                    display: "inline-flex",
-                    alignItems: "center",
-                    gap: 4,
-                    padding: "3px 10px",
-                    borderRadius: 999,
-                    fontSize: ".78rem",
-                    fontWeight: 600,
-                    background: session.phone_verified ? "#f0fdf4" : "#fef2f2",
-                    color: session.phone_verified ? "#166534" : "#991b1b",
-                    border: session.phone_verified ? "1px solid #bbf7d0" : "1px solid #fecaca",
-                  }}>
-                    {session.phone_verified ? "✓ WhatsApp Phone Verified" : "⚠️ Phone Not Verified"}
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: 4, padding: "3px 10px", borderRadius: 999, fontSize: ".78rem", fontWeight: 600, background: session.phone_verified ? "#f0fdf4" : "#fef2f2", color: session.phone_verified ? "#166534" : "#991b1b" }}>
+                    <Icon name={session.phone_verified ? "check" : "close"} size={12} />
+                    {session.phone_verified ? "WhatsApp Phone Verified" : "Phone Not Verified"}
                   </span>
                 )}
-                {session.email ? (
-                  <span style={{
-                    display: "inline-flex",
-                    alignItems: "center",
-                    gap: 4,
-                    padding: "3px 10px",
-                    borderRadius: 999,
-                    fontSize: ".78rem",
-                    fontWeight: 600,
-                    background: session.email_verified ? "#f0fdf4" : "#fef2f2",
-                    color: session.email_verified ? "#166534" : "#991b1b",
-                    border: session.email_verified ? "1px solid #bbf7d0" : "1px solid #fecaca",
-                  }}>
-                    {session.email_verified ? "✓ Email Verified" : "⚠️ Email Not Verified"}
-                  </span>
-                ) : (
-                  <span style={{
-                    display: "inline-flex",
-                    alignItems: "center",
-                    gap: 4,
-                    padding: "3px 10px",
-                    borderRadius: 999,
-                    fontSize: ".78rem",
-                    fontWeight: 600,
-                    background: "#f8fafc",
-                    color: "#64748b",
-                    border: "1px solid #e2e8f0",
-                  }}>
-                    ℹ️ No Email Added
+                {session.email && (
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: 4, padding: "3px 10px", borderRadius: 999, fontSize: ".78rem", fontWeight: 600, background: session.email_verified ? "#f0fdf4" : "#fef2f2", color: session.email_verified ? "#166534" : "#991b1b" }}>
+                    <Icon name={session.email_verified ? "check" : "close"} size={12} />
+                    {session.email_verified ? "Email Verified" : "Email Not Verified"}
                   </span>
                 )}
               </div>
 
-              {/* Persistent Verification Notice if not verified */}
-              {!dealerActive && needsVerification && (
-                <div style={{
-                  padding: "10px 14px",
-                  background: "#eff6ff",
-                  border: "1px solid #bfdbfe",
-                  borderRadius: 10,
-                  fontSize: ".84rem",
-                  color: "#1e40af",
-                  textAlign: "left",
-                  marginBottom: 18,
-                  lineHeight: 1.45,
-                }}>
-                  <div style={{ fontWeight: 700, marginBottom: 2 }}>Contact Verification Required for Dealers:</div>
-                  Dealer applications require both a verified email address and a verified WhatsApp phone number.
-                </div>
-              )}
-
-              {dealerActive && session.dealer?.dealer_code && (
-                <div style={{ fontSize: "0.82rem", color: "var(--tx-3)", marginBottom: 18 }}>
-                  Dealer Code: <strong>{session.dealer.dealer_code}</strong> · Price Tier: {session.dealer.price_tier || "Standard"}
-                </div>
-              )}
-
-              {/* Navigation Action Buttons */}
               <div style={{ display: "grid", gap: 10 }}>
                 {isPending && (
-                  <Link to="/dealer/pending" className="btn btn-navy btn-block" style={{ minHeight: 46, background: "var(--amber-600, #d97706)", borderColor: "var(--amber-600, #d97706)" }}>
-                    <Icon name="clock" size={16} /> View Dealer Application Status
+                  <Link to="/dealer/pending" className="btn btn-navy btn-block" style={{ minHeight: 48, background: "var(--amber-600, #d97706)", borderColor: "var(--amber-600, #d97706)" }}>
+                    <Icon name="clock" size={16} /> View Application Status
                   </Link>
                 )}
 
-                <Link to="/products" className="btn btn-navy btn-block" style={{ minHeight: 46 }}>
+                <Link to="/products" className="btn btn-navy btn-block" style={{ minHeight: 48 }}>
                   <Icon name="grid" size={16} /> Continue to Product Catalog
                 </Link>
 
                 {dealerActive && (
-                  <Link to="/dealer" className="btn btn-ghost btn-block" style={{ minHeight: 46 }}>
-                    <Icon name="user" size={16} /> Team & Pricing Dashboard
+                  <Link to="/dealer" className="btn btn-ghost btn-block" style={{ minHeight: 48 }}>
+                    <Icon name="user" size={16} /> Dealership Dashboard
                   </Link>
-                )}
-
-                {!dealerActive && !isPending && (
-                  <>
-                    <Link to="/dealer/apply" className="btn btn-ghost btn-block" style={{ minHeight: 46, borderColor: "var(--brand-green, #16a34a)", color: "var(--brand-green, #16a34a)", fontWeight: 700 }}>
-                      <Icon name="shield" size={16} /> Apply as Dealer Owner
-                    </Link>
-                    <Link to="/dealer/join" className="btn btn-ghost btn-block" style={{ minHeight: 46 }}>
-                      <Icon name="user" size={16} /> Join Store as Staff (Enter Code)
-                    </Link>
-                  </>
                 )}
 
                 <button
                   className="btn btn-ghost btn-block"
                   onClick={async () => {
                     await signOut();
+                    handleSelectRole(null);
                     setStep("phone");
                     setPhone("");
                     setOtp(["", "", "", "", "", ""]);
                     setEmail("");
                     setPassword("");
                   }}
-                  style={{ color: "var(--err)", borderColor: "var(--line)", minHeight: 46 }}
+                  style={{ color: "var(--err)", borderColor: "var(--line)", minHeight: 48 }}
                 >
                   Log Out / Switch Account
                 </button>
@@ -510,860 +503,992 @@ export default function Login() {
           );
         })()}
 
-        {/* UNAUTHENTICATED MULTI-METHOD LOGIN CARD */}
+        {/* UNAUTHENTICATED EXECUTIVE WORKSPACE (Split view on Desktop, single card on mobile) */}
         {!isAuthenticated && (
-          <div className="card pad" style={{ boxShadow: "var(--sh)" }}>
-
-            {/* REGISTERED DEALER SIGN-IN CLARIFICATION NOTICE */}
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 420px), 1fr))",
+              gap: "clamp(20px, 3vw, 36px)",
+              alignItems: "start",
+            }}
+          >
+            {/* LEFT COLUMN: BRAND SHOWCASE & TRUST HIGHLIGHTS */}
             <div
               style={{
+                background: "linear-gradient(145deg, #10263a 0%, #163854 100%)",
+                borderRadius: "var(--r-xl, 22px)",
+                padding: "clamp(24px, 4vw, 36px)",
+                color: "#ffffff",
+                boxShadow: "0 16px 40px -12px rgba(16, 38, 58, 0.4)",
                 display: "flex",
-                alignItems: "flex-start",
-                gap: 10,
-                padding: "11px 14px",
-                background: "rgba(37, 99, 235, 0.06)",
-                border: "1px solid rgba(37, 99, 235, 0.18)",
-                borderRadius: "var(--r-sm, 10px)",
-                marginBottom: 18,
-                fontSize: "0.84rem",
-                lineHeight: 1.45,
-                color: "var(--tx-2, #334155)",
-                textAlign: "left",
+                flexDirection: "column",
+                justifyContent: "space-between",
+                minHeight: 480,
               }}
             >
-              <div style={{ marginTop: 2, flexShrink: 0, color: "#2563eb" }}>
-                <Icon name="shield" size={16} />
-              </div>
               <div>
-                <strong style={{ color: "var(--tx, #0f172a)", display: "block", marginBottom: 2 }}>
-                  Registered Dealer Sign-In
-                </strong>
-                Newly registered dealer owners sign in using <strong>WhatsApp Phone OTP</strong> with your registered mobile number, or with <strong>Google Sign-In</strong> using your matching registered Google account.
-              </div>
-            </div>
-
-            {/* SEGMENTED TAB SELECTOR (Apple HIG Style) */}
-            <div
-              role="tablist"
-              aria-label="Login options"
-              style={{
-                display: "grid",
-                gridTemplateColumns: "1fr 1fr",
-                gap: 6,
-                padding: 4,
-                background: "var(--bg-2, #f0f5fc)",
-                borderRadius: "var(--r, 14px)",
-                marginBottom: 22,
-              }}
-            >
-              <button
-                type="button"
-                role="tab"
-                id="tab-whatsapp"
-                aria-selected={authMethod === "whatsapp"}
-                aria-controls="panel-whatsapp"
-                onClick={() => {
-                  setAuthMethod("whatsapp");
-                  setError(null);
-                }}
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  gap: 8,
-                  minHeight: 44,
-                  border: "none",
-                  borderRadius: "var(--r-sm, 10px)",
-                  background: authMethod === "whatsapp" ? "#fff" : "transparent",
-                  color: authMethod === "whatsapp" ? "var(--tx)" : "var(--tx-2)",
-                  fontWeight: authMethod === "whatsapp" ? 700 : 600,
-                  fontSize: "0.88rem",
-                  boxShadow: authMethod === "whatsapp" ? "0 2px 8px rgba(0,0,0,0.06)" : "none",
-                  cursor: "pointer",
-                  transition: "all 0.15s ease",
-                }}
-              >
-                <span style={{ color: authMethod === "whatsapp" ? "#25D366" : "inherit", display: "flex" }}>
-                  <Icon name="wa" size={16} />
-                </span>
-                WhatsApp OTP
-              </button>
-
-              <button
-                type="button"
-                role="tab"
-                id="tab-email"
-                aria-selected={authMethod === "email"}
-                aria-controls="panel-email"
-                onClick={() => {
-                  setAuthMethod("email");
-                  setError(null);
-                }}
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  gap: 8,
-                  minHeight: 44,
-                  border: "none",
-                  borderRadius: "var(--r-sm, 10px)",
-                  background: authMethod === "email" ? "#fff" : "transparent",
-                  color: authMethod === "email" ? "var(--tx)" : "var(--tx-2)",
-                  fontWeight: authMethod === "email" ? 700 : 600,
-                  fontSize: "0.88rem",
-                  boxShadow: authMethod === "email" ? "0 2px 8px rgba(0,0,0,0.06)" : "none",
-                  cursor: "pointer",
-                  transition: "all 0.15s ease",
-                }}
-              >
-                <span style={{ color: authMethod === "email" ? "var(--navy)" : "inherit", display: "flex" }}>
-                  <Icon name="mail" size={16} />
-                </span>
-                Email & Password
-              </button>
-            </div>
-
-            {/* Error Message Alert */}
-            {error && (
-              <div
-                role="alert"
-                style={{
-                  display: "flex",
-                  alignItems: "flex-start",
-                  gap: 10,
-                  padding: "12px 14px",
-                  borderRadius: "var(--r-sm, 10px)",
-                  background: "var(--err-bg, #fde8e8)",
-                  border: "1px solid rgba(220, 69, 69, 0.2)",
-                  color: "var(--err, #dc4545)",
-                  fontSize: "0.88rem",
-                  marginBottom: 18,
-                  lineHeight: 1.45,
-                }}
-              >
-                <div style={{ marginTop: 2, flexShrink: 0 }}>
-                  <Icon name="flame" size={16} />
-                </div>
-                <div style={{ flex: 1 }}>{error}</div>
-                <button
-                  type="button"
-                  onClick={() => setError(null)}
-                  aria-label="Dismiss error"
+                <div
                   style={{
-                    background: "transparent",
-                    border: "none",
-                    cursor: "pointer",
-                    padding: 0,
-                    color: "inherit",
-                    opacity: 0.7,
+                    display: "inline-flex",
+                    alignItems: "center",
+                    gap: 8,
+                    padding: "5px 12px",
+                    borderRadius: 999,
+                    background: "rgba(255, 255, 255, 0.12)",
+                    border: "1px solid rgba(255, 255, 255, 0.18)",
+                    fontSize: "0.78rem",
+                    fontWeight: 700,
+                    letterSpacing: "0.04em",
+                    marginBottom: 18,
                   }}
                 >
-                  <Icon name="close" size={14} />
-                </button>
-              </div>
-            )}
+                  <Icon name="shield" size={13} />
+                  <span>Authorized Sunshine Distributor</span>
+                </div>
 
-            {/* TAB PANEL 1: WHATSAPP OTP */}
-            {authMethod === "whatsapp" && (
-              <div id="panel-whatsapp" role="tabpanel" aria-labelledby="tab-whatsapp">
-                {/* STEP 1: PHONE NUMBER INPUT */}
-                {step === "phone" && (
-                  <form onSubmit={handleSendOtp} style={{ display: "grid", gap: 18 }}>
-                    <div>
-                      <label
-                        htmlFor="whatsapp-phone-input"
-                        style={{
-                          display: "block",
-                          fontSize: "0.84rem",
-                          fontWeight: 700,
-                          color: "var(--tx)",
-                          marginBottom: 8,
-                          textTransform: "uppercase",
-                          letterSpacing: "0.04em",
-                        }}
-                      >
-                        Mobile Phone Number
-                      </label>
+                <h2
+                  style={{
+                    fontSize: "clamp(1.5rem, 2.5vw, 1.95rem)",
+                    fontWeight: 800,
+                    lineHeight: 1.25,
+                    margin: "0 0 12px",
+                    letterSpacing: "-0.025em",
+                    color: "#ffffff",
+                  }}
+                >
+                  Wholesale & Showroom Portal
+                </h2>
 
-                      <div
-                        style={{
-                          display: "flex",
-                          alignItems: "center",
-                          border: "1.5px solid var(--line, #dce4ed)",
-                          borderRadius: "var(--r, 14px)",
-                          background: "#fff",
-                          transition: "border-color 0.15s ease",
-                          overflow: "hidden",
-                        }}
-                      >
-                        {/* Country Code Prefix */}
-                        <div
-                          style={{
-                            padding: "0 14px",
-                            height: 50,
-                            display: "flex",
-                            alignItems: "center",
-                            gap: 6,
-                            background: "var(--bg-2, #f0f5fc)",
-                            borderRight: "1.5px solid var(--line, #dce4ed)",
-                            fontSize: "0.95rem",
-                            fontWeight: 700,
-                            color: "var(--navy)",
-                            userSelect: "none",
-                          }}
-                        >
-                          <span aria-hidden="true">🇮🇳</span> +91
-                        </div>
+                <p
+                  style={{
+                    fontSize: "0.92rem",
+                    lineHeight: 1.55,
+                    color: "rgba(255, 255, 255, 0.8)",
+                    margin: "0 0 28px",
+                  }}
+                >
+                  Dedicated trade access for verified dealer store owners and showroom sales associates across India.
+                </p>
 
-                        {/* 10-digit Input */}
-                        <input
-                          id="whatsapp-phone-input"
-                          type="tel"
-                          inputMode="tel"
-                          autoComplete="tel-national"
-                          placeholder="98765 43210"
-                          value={phone}
-                          onChange={handlePhoneChange}
-                          disabled={loading}
-                          style={{
-                            flex: 1,
-                            height: 50,
-                            border: "none",
-                            outline: "none",
-                            padding: "0 14px",
-                            fontSize: "1.08rem",
-                            fontWeight: 600,
-                            letterSpacing: "0.03em",
-                            color: "var(--tx)",
-                            background: "transparent",
-                          }}
-                        />
-
-                        {phone && (
-                          <button
-                            type="button"
-                            onClick={() => setPhone("")}
-                            aria-label="Clear phone number"
-                            style={{
-                              background: "transparent",
-                              border: "none",
-                              padding: "0 14px",
-                              cursor: "pointer",
-                              color: "var(--tx-3)",
-                            }}
-                          >
-                            <Icon name="close" size={16} />
-                          </button>
-                        )}
-                      </div>
-
-                      <p style={{ margin: "7px 0 0", fontSize: "0.8rem", color: "var(--tx-3)" }}>
-                        Must be a 10-digit Indian mobile number registered with WhatsApp. Registered dealer owners can sign in here.
-                      </p>
-                    </div>
-
-                    <button
-                      type="submit"
-                      disabled={!isPhoneValid || loading}
-                      className="btn btn-navy btn-block"
-                      style={{
-                        height: 50,
-                        fontSize: "0.98rem",
-                        fontWeight: 700,
-                        cursor: !isPhoneValid || loading ? "not-allowed" : "pointer",
-                        opacity: !isPhoneValid || loading ? 0.65 : 1,
-                      }}
-                    >
-                      {loading ? (
-                        <span>Sending Code...</span>
-                      ) : (
-                        <>
-                          <Icon name="wa" size={18} /> Send Code via WhatsApp
-                        </>
-                      )}
-                    </button>
-
+                {/* 3 Value Pillars */}
+                <div style={{ display: "grid", gap: 16 }}>
+                  <div style={{ display: "flex", alignItems: "flex-start", gap: 12 }}>
                     <div
                       style={{
+                        width: 36,
+                        height: 36,
+                        borderRadius: "var(--r-sm, 10px)",
+                        background: "rgba(255, 255, 255, 0.1)",
                         display: "flex",
                         alignItems: "center",
                         justifyContent: "center",
-                        gap: 6,
-                        fontSize: "0.78rem",
-                        color: "var(--tx-3)",
-                        marginTop: 2,
+                        flexShrink: 0,
                       }}
                     >
-                      <Icon name="shield" size={14} /> Official Meta WhatsApp Cloud Service · No Password Needed
+                      <Icon name="badge" size={18} />
                     </div>
-                  </form>
-                )}
-
-                {/* STEP 2: 6-DIGIT OTP VERIFICATION */}
-                {step === "otp" && (
-                  <div style={{ display: "grid", gap: 20 }}>
-                    {/* Back / Edit number header */}
-                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", fontSize: "0.85rem" }}>
-                      <span style={{ color: "var(--tx-2)" }}>
-                        Recipient: <strong>+91 {phone}</strong>
-                      </span>
-                      <button
-                        type="button"
-                        onClick={() => {
-                          setStep("phone");
-                          setError(null);
-                        }}
-                        style={{
-                          background: "transparent",
-                          border: "none",
-                          color: "var(--blue-ink, #174d7a)",
-                          fontWeight: 700,
-                          cursor: "pointer",
-                          padding: "4px 8px",
-                          borderRadius: 6,
-                        }}
-                      >
-                        Change Number
-                      </button>
-                    </div>
-
-                    {/* 6 Digit Input Boxes */}
                     <div>
-                      <label
-                        style={{
-                          display: "block",
-                          fontSize: "0.82rem",
-                          fontWeight: 700,
-                          color: "var(--tx)",
-                          marginBottom: 10,
-                          textTransform: "uppercase",
-                          letterSpacing: "0.04em",
-                          textAlign: "center",
-                        }}
-                      >
-                        Enter 6-Digit WhatsApp Code
-                      </label>
+                      <strong style={{ fontSize: "0.92rem", display: "block", color: "#ffffff" }}>
+                        Wholesale Rate Masking
+                      </strong>
+                      <span style={{ fontSize: "0.82rem", color: "rgba(255, 255, 255, 0.72)", lineHeight: 1.4, display: "block" }}>
+                        B2B discount pricebooks securely protected from public customer view.
+                      </span>
+                    </div>
+                  </div>
 
-                      <div
-                        onPaste={handleOtpPaste}
-                        style={{
-                          display: "grid",
-                          gridTemplateColumns: "repeat(6, 1fr)",
-                          gap: 8,
-                          maxWidth: 340,
-                          margin: "0 auto",
-                        }}
-                      >
-                        {otp.map((digit, idx) => (
-                          <input
-                            key={idx}
-                            ref={(el) => (otpInputRefs.current[idx] = el)}
-                            type="text"
-                            inputMode="numeric"
-                            pattern="[0-9]*"
-                            maxLength={1}
-                            value={digit}
-                            onChange={(e) => handleOtpDigitChange(idx, e.target.value)}
-                            onKeyDown={(e) => handleOtpKeyDown(idx, e)}
-                            disabled={loading}
-                            aria-label={`Digit ${idx + 1}`}
-                            style={{
-                              width: "100%",
-                              height: 52,
-                              textAlign: "center",
-                              fontSize: "1.35rem",
-                              fontWeight: 800,
-                              borderRadius: "var(--r-sm, 10px)",
-                              border: digit
-                                ? "2px solid var(--navy, #10263a)"
-                                : "1.5px solid var(--line, #dce4ed)",
-                              background: digit ? "var(--blue-50, #f0f5fc)" : "#fff",
-                              color: "var(--tx)",
-                              outline: "none",
-                              transition: "border-color 0.15s, background-color 0.15s",
-                            }}
-                          />
-                        ))}
+                  <div style={{ display: "flex", alignItems: "flex-start", gap: 12 }}>
+                    <div
+                      style={{
+                        width: 36,
+                        height: 36,
+                        borderRadius: "var(--r-sm, 10px)",
+                        background: "rgba(255, 255, 255, 0.1)",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        flexShrink: 0,
+                      }}
+                    >
+                      <Icon name="wa" size={18} />
+                    </div>
+                    <div>
+                      <strong style={{ fontSize: "0.92rem", display: "block", color: "#ffffff" }}>
+                        Instant WhatsApp Verification
+                      </strong>
+                      <span style={{ fontSize: "0.82rem", color: "rgba(255, 255, 255, 0.72)", lineHeight: 1.4, display: "block" }}>
+                        Secure passwordless login linked directly to your registered business mobile.
+                      </span>
+                    </div>
+                  </div>
+
+                  <div style={{ display: "flex", alignItems: "flex-start", gap: 12 }}>
+                    <div
+                      style={{
+                        width: 36,
+                        height: 36,
+                        borderRadius: "var(--r-sm, 10px)",
+                        background: "rgba(255, 255, 255, 0.1)",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        flexShrink: 0,
+                      }}
+                    >
+                      <Icon name="user" size={18} />
+                    </div>
+                    <div>
+                      <strong style={{ fontSize: "0.92rem", display: "block", color: "#ffffff" }}>
+                        Showroom Team Linking
+                      </strong>
+                      <span style={{ fontSize: "0.82rem", color: "rgba(255, 255, 255, 0.72)", lineHeight: 1.4, display: "block" }}>
+                        Staff connect via store Dealer Code to share customer catalogs and calculate margins.
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Trust Footer */}
+              <div
+                style={{
+                  marginTop: 32,
+                  paddingTop: 18,
+                  borderTop: "1px solid rgba(255, 255, 255, 0.14)",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                  fontSize: "0.78rem",
+                  color: "rgba(255, 255, 255, 0.65)",
+                }}
+              >
+                <span>ReSTOR · Shriji Appliances</span>
+                <span>Powered by Zoho CRM</span>
+              </div>
+            </div>
+
+            {/* RIGHT COLUMN: INTERACTIVE ROLE GATEWAY & FORMS */}
+            <div>
+              {/* VIEW A: THE 4 ROLES GATEWAY (Shown when no active role is picked) */}
+              {!selectedRole && (
+                <div
+                  className="card pad"
+                  style={{
+                    boxShadow: "0 10px 30px -10px rgba(16, 38, 58, 0.1)",
+                    borderRadius: "var(--r-xl, 20px)",
+                    border: "1.5px solid var(--line, #dce4ed)",
+                    padding: "clamp(20px, 3.5vw, 32px)",
+                  }}
+                >
+                  <div style={{ marginBottom: 20 }}>
+                    <h1 style={{ fontSize: "1.55rem", fontWeight: 800, margin: "0 0 6px", color: "var(--tx)", letterSpacing: "-0.02em" }}>
+                      Sign In or Join
+                    </h1>
+                    <p style={{ margin: 0, color: "var(--tx-2)", fontSize: "0.88rem", lineHeight: 1.5 }}>
+                      Select your account pathway to continue into the portal:
+                    </p>
+                  </div>
+
+                  <div style={{ display: "grid", gap: 12 }}>
+                    {/* OPTION 1: LOGIN AS DEALER (ACTIVE) */}
+                    <button
+                      type="button"
+                      onClick={() => handleSelectRole("dealer")}
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "space-between",
+                        padding: "16px 18px",
+                        borderRadius: "var(--r, 14px)",
+                        border: "1.5px solid var(--line, #dce4ed)",
+                        background: "#ffffff",
+                        textAlign: "left",
+                        cursor: "pointer",
+                        transition: "all 0.2s ease",
+                        boxShadow: "0 2px 8px rgba(16, 38, 58, 0.04)",
+                      }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.borderColor = "var(--navy, #10263a)";
+                        e.currentTarget.style.boxShadow = "0 6px 20px -4px rgba(16, 38, 58, 0.12)";
+                        e.currentTarget.style.transform = "translateY(-1px)";
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.borderColor = "var(--line, #dce4ed)";
+                        e.currentTarget.style.boxShadow = "0 2px 8px rgba(16, 38, 58, 0.04)";
+                        e.currentTarget.style.transform = "none";
+                      }}
+                    >
+                      <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
+                        <div
+                          style={{
+                            width: 44,
+                            height: 44,
+                            borderRadius: "var(--r-sm, 10px)",
+                            background: "var(--navy, #10263a)",
+                            color: "#fff",
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            flexShrink: 0,
+                          }}
+                        >
+                          <Icon name="shield" size={20} />
+                        </div>
+                        <div>
+                          <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 2 }}>
+                            <span style={{ fontSize: "1.02rem", fontWeight: 800, color: "var(--tx)" }}>
+                              Login as Dealer
+                            </span>
+                            <span style={{ fontSize: "0.72rem", fontWeight: 700, padding: "2px 8px", borderRadius: 999, background: "#dbeafe", color: "#1e40af" }}>
+                              Wholesale
+                            </span>
+                          </div>
+                          <span style={{ fontSize: "0.82rem", color: "var(--tx-2)", display: "block" }}>
+                            Store owners with wholesale trade rate access
+                          </span>
+                        </div>
+                      </div>
+                      <span style={{ color: "var(--navy, #10263a)", fontSize: "1.1rem", fontWeight: 700 }}>→</span>
+                    </button>
+
+                    {/* OPTION 2: CONTINUE AS STAFF (ACTIVE) */}
+                    <button
+                      type="button"
+                      onClick={() => handleSelectRole("staff")}
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "space-between",
+                        padding: "16px 18px",
+                        borderRadius: "var(--r, 14px)",
+                        border: "1.5px solid var(--line, #dce4ed)",
+                        background: "#ffffff",
+                        textAlign: "left",
+                        cursor: "pointer",
+                        transition: "all 0.2s ease",
+                        boxShadow: "0 2px 8px rgba(16, 38, 58, 0.04)",
+                      }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.borderColor = "var(--navy, #10263a)";
+                        e.currentTarget.style.boxShadow = "0 6px 20px -4px rgba(16, 38, 58, 0.12)";
+                        e.currentTarget.style.transform = "translateY(-1px)";
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.borderColor = "var(--line, #dce4ed)";
+                        e.currentTarget.style.boxShadow = "0 2px 8px rgba(16, 38, 58, 0.04)";
+                        e.currentTarget.style.transform = "none";
+                      }}
+                    >
+                      <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
+                        <div
+                          style={{
+                            width: 44,
+                            height: 44,
+                            borderRadius: "var(--r-sm, 10px)",
+                            background: "#e0e7ff",
+                            color: "#3730a3",
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            flexShrink: 0,
+                          }}
+                        >
+                          <Icon name="user" size={20} />
+                        </div>
+                        <div>
+                          <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 2 }}>
+                            <span style={{ fontSize: "1.02rem", fontWeight: 800, color: "var(--tx)" }}>
+                              Continue as Staff
+                            </span>
+                            <span style={{ fontSize: "0.72rem", fontWeight: 700, padding: "2px 8px", borderRadius: 999, background: "#ede9fe", color: "#5b21b6" }}>
+                              Store Code
+                            </span>
+                          </div>
+                          <span style={{ fontSize: "0.82rem", color: "var(--tx-2)", display: "block" }}>
+                            Sales team joining showroom with Dealer Code
+                          </span>
+                        </div>
+                      </div>
+                      <span style={{ color: "var(--navy, #10263a)", fontSize: "1.1rem", fontWeight: 700 }}>→</span>
+                    </button>
+
+                    {/* OPTION 3: CONTINUE AS CUSTOMER (FADED OUT & UNCLICKABLE) */}
+                    <div
+                      aria-disabled="true"
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "space-between",
+                        padding: "16px 18px",
+                        borderRadius: "var(--r, 14px)",
+                        border: "1.5px solid var(--line, #dce4ed)",
+                        background: "#fafafa",
+                        opacity: 0.38,
+                        pointerEvents: "none",
+                        cursor: "not-allowed",
+                        userSelect: "none",
+                      }}
+                    >
+                      <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
+                        <div
+                          style={{
+                            width: 44,
+                            height: 44,
+                            borderRadius: "var(--r-sm, 10px)",
+                            background: "#f1f5f9",
+                            color: "#64748b",
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            flexShrink: 0,
+                          }}
+                        >
+                          <Icon name="grid" size={20} />
+                        </div>
+                        <div>
+                          <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 2 }}>
+                            <span style={{ fontSize: "1.02rem", fontWeight: 700, color: "var(--tx-3)" }}>
+                              Continue as Customer
+                            </span>
+                            <span style={{ fontSize: "0.72rem", fontWeight: 700, padding: "2px 8px", borderRadius: 999, background: "#e2e8f0", color: "#64748b" }}>
+                              Direct Browse Only
+                            </span>
+                          </div>
+                          <span style={{ fontSize: "0.82rem", color: "var(--tx-3)", display: "block" }}>
+                            Retail catalog viewing is available directly from catalogue
+                          </span>
+                        </div>
                       </div>
                     </div>
 
-                    {/* Verify Submit Button */}
-                    <button
-                      type="button"
-                      onClick={() => handleVerifyOtp()}
-                      disabled={otp.join("").length !== 6 || loading}
-                      className="btn btn-navy btn-block"
+                    {/* OPTION 4: CONTINUE AS BRAND (FADED OUT & UNCLICKABLE) */}
+                    <div
+                      aria-disabled="true"
                       style={{
-                        height: 50,
-                        fontSize: "0.98rem",
-                        fontWeight: 700,
-                        cursor: otp.join("").length !== 6 || loading ? "not-allowed" : "pointer",
-                        opacity: otp.join("").length !== 6 || loading ? 0.65 : 1,
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "space-between",
+                        padding: "16px 18px",
+                        borderRadius: "var(--r, 14px)",
+                        border: "1.5px solid var(--line, #dce4ed)",
+                        background: "#fafafa",
+                        opacity: 0.38,
+                        pointerEvents: "none",
+                        cursor: "not-allowed",
+                        userSelect: "none",
                       }}
                     >
-                      {loading ? (
-                        <span>Verifying...</span>
-                      ) : (
-                        <>
-                          <Icon name="check" size={18} /> Verify & Sign In
-                        </>
-                      )}
-                    </button>
-
-                    {/* Resend Cooldown Section */}
-                    <div style={{ textAlign: "center", fontSize: "0.88rem", color: "var(--tx-2)" }}>
-                      {cooldown > 0 ? (
-                        <span style={{ color: "var(--tx-3)" }}>
-                          Resend code in <strong>{cooldown}s</strong>
-                        </span>
-                      ) : (
-                        <button
-                          type="button"
-                          onClick={handleResendOtp}
-                          disabled={loading}
+                      <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
+                        <div
                           style={{
-                            background: "transparent",
-                            border: "none",
-                            color: "var(--blue-ink, #174d7a)",
-                            fontWeight: 700,
-                            cursor: "pointer",
-                            textDecoration: "underline",
-                            textUnderlineOffset: 3,
-                            padding: 0,
+                            width: 44,
+                            height: 44,
+                            borderRadius: "var(--r-sm, 10px)",
+                            background: "#f1f5f9",
+                            color: "#64748b",
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            flexShrink: 0,
                           }}
                         >
-                          Resend Code via WhatsApp
-                        </button>
-                      )}
+                          <Icon name="badge" size={20} />
+                        </div>
+                        <div>
+                          <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 2 }}>
+                            <span style={{ fontSize: "1.02rem", fontWeight: 700, color: "var(--tx-3)" }}>
+                              Continue as Brand
+                            </span>
+                            <span style={{ fontSize: "0.72rem", fontWeight: 700, padding: "2px 8px", borderRadius: 999, background: "#e2e8f0", color: "#64748b" }}>
+                              Invite Only
+                            </span>
+                          </div>
+                          <span style={{ fontSize: "0.82rem", color: "var(--tx-3)", display: "block" }}>
+                            Dealership onboarding currently by direct invitation only
+                          </span>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                )}
-              </div>
-            )}
+                </div>
+              )}
 
-            {/* TAB PANEL 2: EMAIL & PASSWORD */}
-            {authMethod === "email" && (
-              <div id="panel-email" role="tabpanel" aria-labelledby="tab-email">
-                <form onSubmit={handleEmailAuthSubmit} style={{ display: "grid", gap: 16 }}>
-                  {/* Notice for dealer owners */}
+              {/* VIEW B: ACTIVE ROLE WORKFLOWS (DEALER OR STAFF) */}
+              {selectedRole && (
+                <div>
+                  {/* ROLE NAVIGATION & SEGMENTED SWITCHER (Apple HIG Style) */}
                   <div
                     style={{
                       display: "flex",
                       alignItems: "center",
+                      justifyContent: "space-between",
                       gap: 8,
-                      padding: "9px 12px",
-                      background: "var(--bg-2, #f8fafc)",
-                      border: "1px solid var(--line, #e2e8f0)",
-                      borderRadius: "var(--r-sm, 8px)",
-                      fontSize: "0.8rem",
-                      color: "var(--tx-3, #64748b)",
+                      marginBottom: 16,
+                      flexWrap: "wrap",
                     }}
                   >
-                    <Icon name="shield" size={14} />
-                    <span>
-                      Dealer owners: Use <strong>WhatsApp OTP</strong> or <strong>Google Sign-In</strong> (password sign-in is for staff & retail customers).
-                    </span>
+                    <button
+                      type="button"
+                      onClick={() => handleSelectRole(null)}
+                      style={{
+                        display: "inline-flex",
+                        alignItems: "center",
+                        gap: 6,
+                        background: "transparent",
+                        border: "none",
+                        color: "var(--navy-2, #174d7a)",
+                        fontSize: "0.88rem",
+                        fontWeight: 700,
+                        cursor: "pointer",
+                        padding: "6px 0",
+                      }}
+                    >
+                      ← All Options
+                    </button>
+
+                    {/* Segmented Capsule: Only Active Roles (Dealer & Staff) */}
+                    <div
+                      role="tablist"
+                      aria-label="Role selector"
+                      style={{
+                        display: "inline-flex",
+                        background: "var(--bg-2, #f0f5fc)",
+                        borderRadius: 999,
+                        padding: 3,
+                        gap: 2,
+                      }}
+                    >
+                      {[
+                        { id: "dealer", label: "Dealer" },
+                        { id: "staff", label: "Staff" },
+                      ].map((r) => (
+                        <button
+                          key={r.id}
+                          type="button"
+                          role="tab"
+                          aria-selected={selectedRole === r.id}
+                          onClick={() => handleSelectRole(r.id)}
+                          style={{
+                            border: "none",
+                            borderRadius: 999,
+                            padding: "6px 16px",
+                            fontSize: "0.82rem",
+                            fontWeight: selectedRole === r.id ? 800 : 600,
+                            background: selectedRole === r.id ? "var(--navy, #10263a)" : "transparent",
+                            color: selectedRole === r.id ? "#ffffff" : "var(--tx-2)",
+                            cursor: "pointer",
+                            transition: "all 0.15s ease",
+                          }}
+                        >
+                          {r.label}
+                        </button>
+                      ))}
+                    </div>
                   </div>
-                  {/* Full Name field (Only in Signup mode) */}
-                  {emailMode === "signup" && (
-                    <div>
-                      <label
-                        htmlFor="email-fullname-input"
+
+                  {/* ACTIVE ROLE 1: DEALER SIGN-IN */}
+                  {selectedRole === "dealer" && (
+                    <div
+                      className="card pad"
+                      style={{
+                        boxShadow: "0 10px 30px -10px rgba(16, 38, 58, 0.1)",
+                        borderRadius: "var(--r-xl, 20px)",
+                        border: "1.5px solid var(--line, #dce4ed)",
+                        padding: "clamp(20px, 3.5vw, 32px)",
+                      }}
+                    >
+                      <div style={{ textAlign: "center", marginBottom: 20 }}>
+                        <div
+                          style={{
+                            width: 48,
+                            height: 48,
+                            borderRadius: "var(--r, 14px)",
+                            background: "var(--navy, #10263a)",
+                            color: "#fff",
+                            display: "inline-flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            marginBottom: 10,
+                          }}
+                        >
+                          <Icon name="shield" size={24} />
+                        </div>
+                        <h2 style={{ fontSize: "1.45rem", fontWeight: 800, margin: "0 0 4px", color: "var(--tx)" }}>
+                          Dealer Sign-In
+                        </h2>
+                        <p style={{ margin: 0, color: "var(--tx-2)", fontSize: "0.86rem" }}>
+                          Sign in with your registered WhatsApp number or Google Account.
+                        </p>
+                      </div>
+
+                      {/* Method Selector Tabs */}
+                      <div
                         style={{
-                          display: "block",
-                          fontSize: "0.82rem",
-                          fontWeight: 700,
-                          color: "var(--tx)",
-                          marginBottom: 6,
-                          textTransform: "uppercase",
-                          letterSpacing: "0.04em",
+                          display: "grid",
+                          gridTemplateColumns: "1fr 1fr",
+                          gap: 6,
+                          padding: 4,
+                          background: "var(--bg-2, #f0f5fc)",
+                          borderRadius: "var(--r, 14px)",
+                          marginBottom: 18,
                         }}
                       >
-                        Full Name
-                      </label>
-                      <input
-                        id="email-fullname-input"
-                        type="text"
-                        autoComplete="name"
-                        placeholder="e.g. Rajesh Sharma"
-                        value={fullName}
-                        onChange={(e) => {
-                          setFullName(e.target.value);
-                          if (error) setError(null);
-                        }}
-                        disabled={loading}
-                        style={{
-                          width: "100%",
-                          height: 50,
-                          border: "1.5px solid var(--line, #dce4ed)",
-                          borderRadius: "var(--r, 14px)",
-                          padding: "0 14px",
-                          fontSize: "1rem",
-                          color: "var(--tx)",
-                          background: "#fff",
-                          outline: "none",
-                          boxSizing: "border-box",
-                        }}
-                      />
+                        <button
+                          type="button"
+                          onClick={() => setAuthMethod("whatsapp")}
+                          style={{
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            gap: 6,
+                            minHeight: 42,
+                            border: "none",
+                            borderRadius: "var(--r-sm, 10px)",
+                            background: authMethod === "whatsapp" ? "#fff" : "transparent",
+                            fontWeight: authMethod === "whatsapp" ? 700 : 600,
+                            fontSize: "0.86rem",
+                            boxShadow: authMethod === "whatsapp" ? "0 2px 8px rgba(0,0,0,0.06)" : "none",
+                            cursor: "pointer",
+                          }}
+                        >
+                          <span style={{ color: "#25D366", display: "flex" }}>
+                            <Icon name="wa" size={16} />
+                          </span>
+                          WhatsApp OTP
+                        </button>
+
+                        <button
+                          type="button"
+                          onClick={() => setAuthMethod("email")}
+                          style={{
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            gap: 6,
+                            minHeight: 42,
+                            border: "none",
+                            borderRadius: "var(--r-sm, 10px)",
+                            background: authMethod === "email" ? "#fff" : "transparent",
+                            fontWeight: authMethod === "email" ? 700 : 600,
+                            fontSize: "0.86rem",
+                            boxShadow: authMethod === "email" ? "0 2px 8px rgba(0,0,0,0.06)" : "none",
+                            cursor: "pointer",
+                          }}
+                        >
+                          <Icon name="mail" size={16} />
+                          Email Password
+                        </button>
+                      </div>
+
+                      {error && (
+                        <div
+                          role="alert"
+                          style={{
+                            display: "flex",
+                            alignItems: "flex-start",
+                            gap: 10,
+                            padding: "10px 12px",
+                            borderRadius: 8,
+                            background: "var(--err-bg, #fde8e8)",
+                            color: "var(--err, #dc4545)",
+                            fontSize: "0.85rem",
+                            marginBottom: 16,
+                          }}
+                        >
+                          <Icon name="flame" size={16} />
+                          <div style={{ flex: 1 }}>{error}</div>
+                        </div>
+                      )}
+
+                      {/* WhatsApp OTP Form */}
+                      {authMethod === "whatsapp" && (
+                        <div>
+                          {step === "phone" ? (
+                            <form onSubmit={handleSendOtp} style={{ display: "grid", gap: 14 }}>
+                              <div>
+                                <label htmlFor="dealer-phone-in" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, marginBottom: 6 }}>
+                                  Registered WhatsApp Number
+                                </label>
+                                <div style={{ display: "flex", border: "1.5px solid var(--line)", borderRadius: "var(--r-sm, 10px)", overflow: "hidden", background: "#fff" }}>
+                                  <div style={{ padding: "0 14px", height: 48, display: "flex", alignItems: "center", background: "var(--bg-2)", borderRight: "1.5px solid var(--line)", fontWeight: 700, color: "var(--navy)", fontSize: "0.95rem" }}>
+                                    +91
+                                  </div>
+                                  <input
+                                    id="dealer-phone-in"
+                                    type="tel"
+                                    inputMode="tel"
+                                    placeholder="98765 43210"
+                                    value={phone}
+                                    onChange={handlePhoneChange}
+                                    disabled={loading}
+                                    style={{ flex: 1, height: 48, border: "none", outline: "none", padding: "0 12px", fontSize: "1rem", fontWeight: 600 }}
+                                  />
+                                </div>
+                              </div>
+
+                              <button
+                                type="submit"
+                                disabled={!isPhoneValid || loading}
+                                className="btn btn-navy btn-block"
+                                style={{ height: 48, fontSize: "0.95rem", fontWeight: 700 }}
+                              >
+                                {loading ? "Sending Code..." : "Send WhatsApp OTP"}
+                              </button>
+                            </form>
+                          ) : (
+                            <div style={{ display: "grid", gap: 16 }}>
+                              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", fontSize: "0.84rem" }}>
+                                <span>Sent to: <strong>+91 {phone}</strong></span>
+                                <button
+                                  type="button"
+                                  onClick={() => setStep("phone")}
+                                  style={{ background: "transparent", border: "none", color: "var(--blue-ink)", fontWeight: 700, cursor: "pointer" }}
+                                >
+                                  Change
+                                </button>
+                              </div>
+
+                              <div
+                                onPaste={handleOtpPaste}
+                                style={{ display: "grid", gridTemplateColumns: "repeat(6, 1fr)", gap: 6, maxWidth: 300, margin: "0 auto" }}
+                              >
+                                {otp.map((digit, idx) => (
+                                  <input
+                                    key={idx}
+                                    ref={(el) => (otpInputRefs.current[idx] = el)}
+                                    type="text"
+                                    inputMode="numeric"
+                                    maxLength={1}
+                                    value={digit}
+                                    onChange={(e) => handleOtpDigitChange(idx, e.target.value)}
+                                    onKeyDown={(e) => handleOtpKeyDown(idx, e)}
+                                    disabled={loading}
+                                    style={{
+                                      height: 48,
+                                      textAlign: "center",
+                                      fontSize: "1.25rem",
+                                      fontWeight: 800,
+                                      borderRadius: 8,
+                                      border: digit ? "2px solid var(--navy)" : "1.5px solid var(--line)",
+                                      background: digit ? "var(--blue-50)" : "#fff",
+                                      outline: "none",
+                                    }}
+                                  />
+                                ))}
+                              </div>
+
+                              <button
+                                type="button"
+                                onClick={() => handleVerifyOtp()}
+                                disabled={otp.join("").length !== 6 || loading}
+                                className="btn btn-navy btn-block"
+                                style={{ height: 48, fontWeight: 700 }}
+                              >
+                                {loading ? "Verifying..." : "Verify & Sign In"}
+                              </button>
+
+                              <div style={{ textAlign: "center", fontSize: "0.84rem" }}>
+                                {cooldown > 0 ? (
+                                  <span style={{ color: "var(--tx-3)" }}>Resend code in {cooldown}s</span>
+                                ) : (
+                                  <button
+                                    type="button"
+                                    onClick={handleResendOtp}
+                                    style={{ background: "transparent", border: "none", color: "var(--blue-ink)", fontWeight: 700, cursor: "pointer" }}
+                                  >
+                                    Resend WhatsApp Code
+                                  </button>
+                                )}
+                              </div>
+                            </div>
+                          )}
+                        </div>
+                      )}
+
+                      {/* Email Password Form */}
+                      {authMethod === "email" && (
+                        <form onSubmit={handleEmailAuthSubmit} style={{ display: "grid", gap: 14 }}>
+                          <div>
+                            <label htmlFor="dealer-email-in" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, marginBottom: 4 }}>
+                              Email Address
+                            </label>
+                            <input
+                              id="dealer-email-in"
+                              type="email"
+                              value={email}
+                              onChange={(e) => setEmail(e.target.value)}
+                              placeholder="name@dealership.com"
+                              style={{ width: "100%", height: 48, borderRadius: "var(--r-sm, 10px)", border: "1.5px solid var(--line)", padding: "0 12px" }}
+                            />
+                          </div>
+
+                          <div>
+                            <label htmlFor="dealer-pass-in" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, marginBottom: 4 }}>
+                              Password
+                            </label>
+                            <div style={{ display: "flex", border: "1.5px solid var(--line)", borderRadius: "var(--r-sm, 10px)", overflow: "hidden" }}>
+                              <input
+                                id="dealer-pass-in"
+                                type={showPassword ? "text" : "password"}
+                                value={password}
+                                onChange={(e) => setPassword(e.target.value)}
+                                placeholder="••••••••"
+                                style={{ flex: 1, height: 48, border: "none", outline: "none", padding: "0 12px" }}
+                              />
+                              <button
+                                type="button"
+                                onClick={() => setShowPassword((s) => !s)}
+                                style={{ background: "transparent", border: "none", padding: "0 12px", cursor: "pointer", color: "var(--tx-3)" }}
+                              >
+                                <Icon name={showPassword ? "eyeoff" : "eye"} size={16} />
+                              </button>
+                            </div>
+                          </div>
+
+                          <button type="submit" disabled={loading} className="btn btn-navy btn-block" style={{ height: 48, fontWeight: 700 }}>
+                            {loading ? "Signing In..." : "Sign In with Email"}
+                          </button>
+                        </form>
+                      )}
+
+                      {/* Clean Google Sign-In Integration (Without 403 Origin Errors on Localhost) */}
+                      <div style={{ marginTop: 20, paddingTop: 16, borderTop: "1px solid var(--line)" }}>
+                        {isLocalhost ? (
+                          <div style={{ display: "grid", gap: 8 }}>
+                            <button
+                              type="button"
+                              onClick={() => {
+                                setGoogleNotice(
+                                  "Google 1-Click Access is active on production (restor.in). On localhost, please sign in with your WhatsApp number above."
+                                );
+                              }}
+                              className="btn btn-ghost btn-block"
+                              style={{
+                                height: 46,
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "center",
+                                gap: 10,
+                                border: "1px solid var(--line, #dce4ed)",
+                                background: "#fff",
+                                color: "var(--tx)",
+                                fontWeight: 600,
+                                fontSize: "0.9rem",
+                              }}
+                            >
+                              <svg width="18" height="18" viewBox="0 0 18 18">
+                                <path fill="#4285F4" d="M17.64 9.2c0-.637-.057-1.251-.164-1.84H9v3.481h4.844c-.209 1.125-.843 2.078-1.796 2.717v2.258h2.908c1.702-1.567 2.684-3.874 2.684-6.616z"/>
+                                <path fill="#34A853" d="M9 18c2.43 0 4.467-.806 5.956-2.184l-2.908-2.258c-.806.54-1.837.86-3.048.86-2.344 0-4.328-1.584-5.036-3.711H.957v2.332A8.997 8.997 0 0 0 9 18z"/>
+                                <path fill="#FBBC05" d="M3.964 10.707c-.18-.54-.282-1.117-.282-1.707s.102-1.167.282-1.707V4.961H.957A8.996 8.996 0 0 0 0 9c0 1.452.348 2.827.957 4.039l3.007-2.332z"/>
+                                <path fill="#EA4335" d="M9 3.58c1.321 0 2.508.454 3.44 1.345l2.582-2.58C13.463.891 11.426 0 9 0A8.997 8.997 0 0 0 .957 4.961L3.964 7.293C4.672 5.166 6.656 3.58 9 3.58z"/>
+                              </svg>
+                              Continue with Google
+                            </button>
+                            {googleNotice && (
+                              <p style={{ margin: 0, fontSize: "0.78rem", color: "var(--tx-3)", textAlign: "center", lineHeight: 1.4 }}>
+                                {googleNotice}
+                              </p>
+                            )}
+                          </div>
+                        ) : (
+                          <div style={{ display: "flex", justifyContent: "center", minHeight: 44 }}>
+                            <div ref={googleBtnRef} style={{ width: "100%", maxWidth: 320, display: "flex", justifyContent: "center" }} />
+                          </div>
+                        )}
+                      </div>
                     </div>
                   )}
 
-                  {/* Email address field */}
-                  <div>
-                    <label
-                      htmlFor="email-address-input"
-                      style={{
-                        display: "block",
-                        fontSize: "0.82rem",
-                        fontWeight: 700,
-                        color: "var(--tx)",
-                        marginBottom: 6,
-                        textTransform: "uppercase",
-                        letterSpacing: "0.04em",
-                      }}
-                    >
-                      Email Address
-                    </label>
-                    <input
-                      id="email-address-input"
-                      type="email"
-                      inputMode="email"
-                      autoComplete="username email"
-                      placeholder="name@domain.com"
-                      value={email}
-                      onChange={(e) => {
-                        setEmail(e.target.value);
-                        if (error) setError(null);
-                      }}
-                      disabled={loading}
-                      style={{
-                        width: "100%",
-                        height: 50,
-                        border: "1.5px solid var(--line, #dce4ed)",
-                        borderRadius: "var(--r, 14px)",
-                        padding: "0 14px",
-                        fontSize: "1rem",
-                        color: "var(--tx)",
-                        background: "#fff",
-                        outline: "none",
-                        boxSizing: "border-box",
-                      }}
-                    />
-                  </div>
-
-                  {/* Password field with toggle visibility */}
-                  <div>
-                    <label
-                      htmlFor="email-password-input"
-                      style={{
-                        display: "block",
-                        fontSize: "0.82rem",
-                        fontWeight: 700,
-                        color: "var(--tx)",
-                        marginBottom: 6,
-                        textTransform: "uppercase",
-                        letterSpacing: "0.04em",
-                      }}
-                    >
-                      Password
-                    </label>
+                  {/* ACTIVE ROLE 2: STAFF ACCESS */}
+                  {selectedRole === "staff" && (
                     <div
+                      className="card pad"
                       style={{
-                        display: "flex",
-                        alignItems: "center",
+                        boxShadow: "0 10px 30px -10px rgba(16, 38, 58, 0.1)",
+                        borderRadius: "var(--r-xl, 20px)",
                         border: "1.5px solid var(--line, #dce4ed)",
-                        borderRadius: "var(--r, 14px)",
-                        background: "#fff",
-                        overflow: "hidden",
+                        padding: "clamp(20px, 3.5vw, 32px)",
                       }}
                     >
-                      <input
-                        id="email-password-input"
-                        type={showPassword ? "text" : "password"}
-                        autoComplete={emailMode === "signup" ? "new-password" : "current-password"}
-                        placeholder={emailMode === "signup" ? "At least 8 characters" : "Enter your password"}
-                        value={password}
-                        onChange={(e) => {
-                          setPassword(e.target.value);
-                          if (error) setError(null);
-                        }}
-                        disabled={loading}
-                        style={{
-                          flex: 1,
-                          height: 50,
-                          border: "none",
-                          padding: "0 14px",
-                          fontSize: "1rem",
-                          color: "var(--tx)",
-                          outline: "none",
-                          background: "transparent",
-                        }}
-                      />
-                      <button
-                        type="button"
-                        onClick={() => setShowPassword((s) => !s)}
-                        aria-label={showPassword ? "Hide password" : "Show password"}
-                        style={{
-                          background: "transparent",
-                          border: "none",
-                          padding: "0 14px",
-                          cursor: "pointer",
-                          color: "var(--tx-3)",
-                          display: "flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                          height: 50,
-                        }}
-                      >
-                        <Icon name={showPassword ? "eyeoff" : "eye"} size={18} />
-                      </button>
+                      <div style={{ textAlign: "center", marginBottom: 20 }}>
+                        <div
+                          style={{
+                            width: 48,
+                            height: 48,
+                            borderRadius: "var(--r, 14px)",
+                            background: "#e0e7ff",
+                            color: "#3730a3",
+                            display: "inline-flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            marginBottom: 10,
+                          }}
+                        >
+                          <Icon name="user" size={24} />
+                        </div>
+                        <h2 style={{ fontSize: "1.45rem", fontWeight: 800, margin: "0 0 4px", color: "var(--tx)" }}>
+                          Staff Portal Access
+                        </h2>
+                        <p style={{ margin: 0, color: "var(--tx-2)", fontSize: "0.86rem" }}>
+                          Enter your store's Dealer / Business Code to join your showroom workspace.
+                        </p>
+                      </div>
+
+                      {staffLookupError && (
+                        <div style={{ padding: "10px 12px", borderRadius: 8, background: "#fee2e2", color: "#991b1b", fontSize: "0.85rem", marginBottom: 14 }}>
+                          {staffLookupError}
+                        </div>
+                      )}
+                      {staffSubmitError && (
+                        <div style={{ padding: "10px 12px", borderRadius: 8, background: "#fee2e2", color: "#991b1b", fontSize: "0.85rem", marginBottom: 14 }}>
+                          {staffSubmitError}
+                        </div>
+                      )}
+
+                      {!staffStoreInfo ? (
+                        <form onSubmit={handleStaffLookup} style={{ display: "grid", gap: 14 }}>
+                          <div>
+                            <label htmlFor="staff-code-in" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, marginBottom: 6 }}>
+                              Store / Dealer Code
+                            </label>
+                            <input
+                              id="staff-code-in"
+                              type="text"
+                              placeholder="e.g. SHR-12345 or DE-ABC-1234"
+                              value={staffCode}
+                              onChange={(e) => {
+                                setStaffCode(formatLoginCode(e.target.value));
+                                setStaffLookupError("");
+                              }}
+                              style={{
+                                width: "100%",
+                                height: 48,
+                                borderRadius: "var(--r-sm, 10px)",
+                                border: "1.5px solid var(--line)",
+                                padding: "0 14px",
+                                fontSize: "1rem",
+                                fontWeight: 700,
+                                letterSpacing: "0.08em",
+                                textTransform: "uppercase",
+                              }}
+                            />
+                          </div>
+
+                          <button
+                            type="submit"
+                            disabled={staffLookupLoading || !staffCode.trim()}
+                            className="btn btn-navy btn-block"
+                            style={{ height: 48, fontWeight: 700 }}
+                          >
+                            {staffLookupLoading ? "Verifying Code..." : "Verify Store Code →"}
+                          </button>
+                        </form>
+                      ) : (
+                        <form onSubmit={handleStaffSignupSubmit} style={{ display: "grid", gap: 14 }}>
+                          {/* Verified Store Card (SVG Icon, No Emoji) */}
+                          <div style={{ padding: "12px 14px", borderRadius: 10, background: "#f0fdf4", border: "1px solid #bbf7d0", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                            <div>
+                              <div style={{ display: "flex", alignItems: "center", gap: 6, fontSize: "0.78rem", fontWeight: 700, color: "#166534", textTransform: "uppercase" }}>
+                                <Icon name="check" size={13} />
+                                Verified Store
+                              </div>
+                              <div style={{ fontSize: "0.98rem", fontWeight: 800, color: "var(--tx)" }}>
+                                {staffStoreInfo.name || staffStoreInfo.business_name || "Authorized Dealership"}
+                              </div>
+                            </div>
+                            <button
+                              type="button"
+                              onClick={() => {
+                                setStaffStoreInfo(null);
+                                setStaffCode("");
+                              }}
+                              style={{ background: "transparent", border: "none", color: "var(--tx-3)", fontSize: "0.78rem", cursor: "pointer", textDecoration: "underline" }}
+                            >
+                              Change
+                            </button>
+                          </div>
+
+                          <div>
+                            <label htmlFor="staff-name-in" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, marginBottom: 4 }}>
+                              Full Name
+                            </label>
+                            <input
+                              id="staff-name-in"
+                              type="text"
+                              required
+                              placeholder="Rajesh Sharma"
+                              value={staffForm.fullName}
+                              onChange={(e) => setStaffForm((f) => ({ ...f, fullName: e.target.value }))}
+                              style={{ width: "100%", height: 46, borderRadius: 8, border: "1.5px solid var(--line)", padding: "0 12px" }}
+                            />
+                          </div>
+
+                          <div>
+                            <label htmlFor="staff-email-in" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, marginBottom: 4 }}>
+                              Work Email
+                            </label>
+                            <input
+                              id="staff-email-in"
+                              type="email"
+                              required
+                              placeholder="staff@dealership.com"
+                              value={staffForm.email}
+                              onChange={(e) => setStaffForm((f) => ({ ...f, email: e.target.value }))}
+                              style={{ width: "100%", height: 46, borderRadius: 8, border: "1.5px solid var(--line)", padding: "0 12px" }}
+                            />
+                          </div>
+
+                          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>
+                            <div>
+                              <label htmlFor="staff-pass-in" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, marginBottom: 4 }}>
+                                Password
+                              </label>
+                              <input
+                                id="staff-pass-in"
+                                type="password"
+                                required
+                                placeholder="••••••••"
+                                value={staffForm.password}
+                                onChange={(e) => setStaffForm((f) => ({ ...f, password: e.target.value }))}
+                                style={{ width: "100%", height: 46, borderRadius: 8, border: "1.5px solid var(--line)", padding: "0 12px" }}
+                              />
+                            </div>
+                            <div>
+                              <label htmlFor="staff-cpass-in" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, marginBottom: 4 }}>
+                                Confirm
+                              </label>
+                              <input
+                                id="staff-cpass-in"
+                                type="password"
+                                required
+                                placeholder="••••••••"
+                                value={staffForm.confirmPassword}
+                                onChange={(e) => setStaffForm((f) => ({ ...f, confirmPassword: e.target.value }))}
+                                style={{ width: "100%", height: 46, borderRadius: 8, border: "1.5px solid var(--line)", padding: "0 12px" }}
+                              />
+                            </div>
+                          </div>
+
+                          <button
+                            type="submit"
+                            disabled={staffSubmitLoading}
+                            className="btn btn-navy btn-block"
+                            style={{ height: 48, fontWeight: 700, marginTop: 6 }}
+                          >
+                            {staffSubmitLoading ? "Submitting Registration..." : "Complete Staff Registration"}
+                          </button>
+                        </form>
+                      )}
                     </div>
-                    {emailMode === "signup" && (
-                      <p style={{ margin: "6px 0 0", fontSize: "0.78rem", color: "var(--tx-3)" }}>
-                        Must be at least 8 characters.
-                      </p>
-                    )}
-                  </div>
-
-                  {/* Email submit button */}
-                  <button
-                    type="submit"
-                    disabled={loading}
-                    className="btn btn-navy btn-block"
-                    style={{
-                      height: 50,
-                      fontSize: "0.98rem",
-                      fontWeight: 700,
-                      marginTop: 4,
-                      cursor: loading ? "not-allowed" : "pointer",
-                      opacity: loading ? 0.7 : 1,
-                    }}
-                  >
-                    {loading ? (
-                      <span>{emailMode === "signup" ? "Creating Account..." : "Signing In..."}</span>
-                    ) : (
-                      <>
-                        <Icon name={emailMode === "signup" ? "user" : "mail"} size={18} />
-                        {emailMode === "signup" ? "Create Account" : "Sign In with Email"}
-                      </>
-                    )}
-                  </button>
-
-                  {/* Toggle between Login and Signup modes */}
-                  <div style={{ textAlign: "center", fontSize: "0.88rem", color: "var(--tx-2)", marginTop: 4 }}>
-                    {emailMode === "login" ? (
-                      <>
-                        Don't have an account?{" "}
-                        <button
-                          type="button"
-                          onClick={() => {
-                            setEmailMode("signup");
-                            setError(null);
-                          }}
-                          style={{
-                            background: "transparent",
-                            border: "none",
-                            color: "var(--blue-ink, #174d7a)",
-                            fontWeight: 700,
-                            cursor: "pointer",
-                            textDecoration: "underline",
-                            textUnderlineOffset: 3,
-                            padding: 0,
-                          }}
-                        >
-                          Create one now
-                        </button>
-                      </>
-                    ) : (
-                      <>
-                        Already have an account?{" "}
-                        <button
-                          type="button"
-                          onClick={() => {
-                            setEmailMode("login");
-                            setError(null);
-                          }}
-                          style={{
-                            background: "transparent",
-                            border: "none",
-                            color: "var(--blue-ink, #174d7a)",
-                            fontWeight: 700,
-                            cursor: "pointer",
-                            textDecoration: "underline",
-                            textUnderlineOffset: 3,
-                            padding: 0,
-                          }}
-                        >
-                          Sign in here
-                        </button>
-                      </>
-                    )}
-                  </div>
-                </form>
-              </div>
-            )}
-
-            {/* GOOGLE SIGN-IN INTEGRATION (Visible under both WhatsApp and Email tabs) */}
-            <div style={{ marginTop: 24, paddingTop: 18, borderTop: "1.5px solid var(--line, #e2e8f0)" }}>
-              <div
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  gap: 10,
-                  marginBottom: 14,
-                }}
-              >
-                <div style={{ flex: 1, height: 1, background: "var(--line, #e2e8f0)" }} />
-                <span
-                  style={{
-                    fontSize: "0.74rem",
-                    fontWeight: 800,
-                    color: "var(--tx-3)",
-                    textTransform: "uppercase",
-                    letterSpacing: "0.06em",
-                  }}
-                >
-                  Or continue with
-                </span>
-                <div style={{ flex: 1, height: 1, background: "var(--line, #e2e8f0)" }} />
-              </div>
-
-              {/* Google Identity Services Render Container */}
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  minHeight: 46,
-                  width: "100%",
-                }}
-              >
-                <div
-                  ref={googleBtnRef}
-                  style={{
-                    width: "100%",
-                    maxWidth: 360,
-                    display: "flex",
-                    justifyContent: "center",
-                    minHeight: 44,
-                  }}
-                />
-              </div>
-
-              <div
-                style={{
-                  textAlign: "center",
-                  marginTop: 10,
-                  fontSize: "0.78rem",
-                  color: "var(--tx-3)",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  gap: 6,
-                }}
-              >
-                <Icon name="shield" size={13} /> Official Google Identity Services · Instant 1-Click Access for matching registered accounts
-              </div>
-
-              {/* DEALER & STAFF ONBOARDING ENTRY POINTS */}
-              <div
-                style={{
-                  marginTop: 22,
-                  paddingTop: 18,
-                  borderTop: "1px solid var(--line, #e2e8f0)",
-                  textAlign: "center",
-                  display: "grid",
-                  gap: 10,
-                }}
-              >
-                <div style={{ fontSize: "0.88rem", color: "var(--tx-2)" }}>
-                  Are you an appliance business owner?{" "}
-                  <Link
-                    to="/dealer/apply"
-                    style={{
-                      color: "var(--brand-green, #16a34a)",
-                      fontWeight: 700,
-                      textDecoration: "none",
-                    }}
-                  >
-                    Apply for Dealership →
-                  </Link>
+                  )}
                 </div>
-                <div style={{ fontSize: "0.88rem", color: "var(--tx-2)" }}>
-                  Have a Dealer Code from your store?{" "}
-                  <Link
-                    to="/dealer/join"
-                    style={{
-                      color: "var(--navy, #10263a)",
-                      fontWeight: 700,
-                      textDecoration: "none",
-                    }}
-                  >
-                    Join Store as Staff →
-                  </Link>
-                </div>
-              </div>
+              )}
             </div>
           </div>
         )}
 
-        {/* RESTRICTED LOCAL DEVELOPMENT SWITCHER (DEV ONLY) */}
-        {import.meta.env.DEV && (
-          <div
-            style={{
-              marginTop: 32,
-              padding: "16px 20px",
-              background: "var(--card-2, #f8fafc)",
-              borderRadius: "var(--r, 14px)",
-              border: "1.5px dashed var(--line, #dce4ed)",
-            }}
-          >
-            <details>
-              <summary
-                style={{
-                  cursor: "pointer",
-                  fontSize: "0.82rem",
-                  fontWeight: 700,
-                  color: "var(--tx-2)",
-                  textTransform: "uppercase",
-                  letterSpacing: "0.05em",
-                  userSelect: "none",
-                }}
-              >
-                🛠️ Developer Test Workspaces (Local Dev Only)
-              </summary>
-              <p style={{ fontSize: "0.8rem", color: "var(--tx-3)", margin: "8px 0 14px" }}>
-                Restricted to local development. Allows testing CRM-linked dealer wholesale views or customer retail views without live Meta WhatsApp credentials.
-              </p>
-              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>
-                <button
-                  type="button"
-                  className="btn btn-sm btn-ghost"
-                  onClick={() => {
-                    switchToDealerSession();
-                    navigate("/products");
-                  }}
-                  style={{ justifyContent: "center" }}
-                >
-                  <Icon name="shield" size={14} /> Dev: Dealer
-                </button>
-                <button
-                  type="button"
-                  className="btn btn-sm btn-ghost"
-                  onClick={() => {
-                    switchToViewerSession();
-                    navigate("/products");
-                  }}
-                  style={{ justifyContent: "center" }}
-                >
-                  <Icon name="grid" size={14} /> Dev: Customer
-                </button>
-              </div>
-            </details>
-          </div>
-        )}
-
-        {/* Quick Nav Footer */}
+        {/* Quick Nav Footer Links */}
         <nav
           aria-label="Quick navigation"
           style={{
@@ -1371,8 +1496,8 @@ export default function Login() {
             justifyContent: "center",
             flexWrap: "wrap",
             gap: 12,
-            marginTop: 24,
-            padding: "12px 16px",
+            marginTop: 28,
+            padding: "8px 16px",
           }}
         >
           <Link to="/products" className="btn btn-sm btn-ghost">

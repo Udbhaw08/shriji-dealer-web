@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Archify Diagram Generation Protocol** (4 connections) — `.agents/rules/archify.md`
-- **archify.md** (1 connections) — `.agents/rules/archify.md`
-- **Rule 1: Dedicated Subfolder Per Diagram** (1 connections) — `.agents/rules/archify.md`
-- **Rule 2: Output Artifacts (HTML & Dark Image Only)** (1 connections) — `.agents/rules/archify.md`
-- **Rule 3: Intermediate File Cleanup** (1 connections) — `.agents/rules/archify.md`
+- **Image wells** (4 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
+- **image-wells.md** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/rules/archify.md`
+- `.agents/skills/apple-design/references/hig/image-wells.md`
 
 ## Audit Trail
 

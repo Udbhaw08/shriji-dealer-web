@@ -4,30 +4,29 @@
 
 ## Key Concepts
 
-- **entries** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **legend** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **mode** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **properties** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **properties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **Design principles** (10 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **design-principles.md** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Agency** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Craft** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Delight** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Familiarity** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Flexibility** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Purpose** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Responsibility** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
+- **Simplicity** (1 connections) — `.agents/skills/apple-design/references/hig/design-principles.md`
 
 ## Relationships
 
-- [[Community 63]] (1 shared connections)
-- [[Community 81]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `.agents/skills/apple-design/references/hig/design-principles.md`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

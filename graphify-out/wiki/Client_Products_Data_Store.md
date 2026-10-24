@@ -33,13 +33,13 @@
 
 ## Relationships
 
-- [[Community 36]] (29 shared connections)
-- [[Community 73]] (24 shared connections)
-- [[Community 132]] (9 shared connections)
-- [[Claude Agent Instructions]] (7 shared connections)
-- [[Community 51]] (4 shared connections)
-- [[Community 99]] (4 shared connections)
-- [[Community 384]] (1 shared connections)
+- [[Community 34]] (29 shared connections)
+- [[Community 63]] (24 shared connections)
+- [[Community 134]] (9 shared connections)
+- [[Mobile Responsive UI Skill]] (7 shared connections)
+- [[Community 44]] (4 shared connections)
+- [[Community 97]] (4 shared connections)
+- [[Community 395]] (1 shared connections)
 
 ## Source Files
 

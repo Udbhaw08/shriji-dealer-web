@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **test-supabase.mjs** (1 connections) — `scripts/test-supabase.mjs`
-- **test()** (1 connections) — `scripts/test-supabase.mjs`
+- **README.md** (1 connections) — `ios/App/CapApp-SPM/README.md`
+- **CapApp-SPM** (1 connections) — `ios/App/CapApp-SPM/README.md`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `scripts/test-supabase.mjs`
+- `ios/App/CapApp-SPM/README.md`
 
 ## Audit Trail
 

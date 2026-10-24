@@ -1,23 +1,24 @@
 # Community 452
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **esm-U7SNAx3b.js** (1 connections) — `ios/App/App/public/assets/esm-U7SNAx3b.js`
-- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-U7SNAx3b.js`
+- **y** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 77]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/esm-U7SNAx3b.js`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

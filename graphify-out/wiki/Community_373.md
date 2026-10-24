@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Performance** (4 connections) — `.agents/skills/swiftui-pro/references/performance.md`
-- **performance.md** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
-- **Collections and row updates** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
-- **Frequent changes** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
-- **Remote images** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
+- **Dock menus** (4 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
+- **dock-menus.md** (1 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/performance.md`
+- `.agents/skills/apple-design/references/hig/dock-menus.md`
 
 ## Audit Trail
 

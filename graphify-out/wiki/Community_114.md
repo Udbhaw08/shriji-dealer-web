@@ -4,36 +4,34 @@
 
 ## Key Concepts
 
-- **properties** (8 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **meta** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **nodes** (4 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **flows** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **cards** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **schema_version** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **Refero MCP Tools Reference** (7 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **Screens** (5 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **Flows** (3 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **Styles** (3 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **mcp-tools.md** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **Common Mistakes** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **If Results Are Weak** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_get_flow`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_get_screen`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_get_screen_image`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_get_similar_screens`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_get_style`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_search_flows`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_search_screens`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_search_styles`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **Response Formats** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
 
 ## Relationships
 
-- [[Community 193]] (3 shared connections)
-- [[Community 310]] (1 shared connections)
-- [[Community 75]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `.agents/skills/refero-design/references/mcp-tools.md`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 30 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

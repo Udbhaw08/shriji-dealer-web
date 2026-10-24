@@ -4,28 +4,29 @@
 
 ## Key Concepts
 
-- **Shriji Backend Skill** (9 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Commands** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Environment (backend/.env — never committed)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Frontend Integration (built)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Hard Rules** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Key Files (populated as built)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Ownership Rule (invariant)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Pending Seam — price proxy switch (do when backend is deployed)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Stack Record — what was chosen, do not substitute** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **workflow.schema.json** (8 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$defs** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **side** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$id** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$schema** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **title** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 78]] (1 shared connections)
+- [[Community 234]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/shriji-backend/SKILL.md`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

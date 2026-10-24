@@ -1,61 +1,53 @@
 # Community 46
 
-> 34 nodes · cohesion 0.11
+> 31 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **.send()** (54 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **finder-browser.test.mjs** (12 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **route-probe-browser.test.mjs** (12 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
-- **export-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **motion-governor-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **run()** (6 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **run()** (6 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **viewer-click.mjs** (4 connections) — `.agents/skills/archify/test/helpers/viewer-click.mjs`
-- **createViewerClick()** (4 connections) — `.agents/skills/archify/test/helpers/viewer-click.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **record()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **search()** (3 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **media()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **screenshot()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **opened()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- *... and 9 more nodes in this community*
+- **zoho.js** (60 connections) — `api/zoho.js`
+- **syncRecentProductTags()** (7 connections) — `api/zoho.js`
+- **normalizeProduct()** (6 connections) — `api/zoho.js`
+- **readTagCache()** (6 connections) — `api/zoho.js`
+- **updateCachedProductTags()** (4 connections) — `api/zoho.js`
+- **sync-tags.js** (4 connections) — `api/products/sync-tags.js`
+- **getCachedProductTags()** (3 connections) — `api/zoho.js`
+- **isItemOnline()** (3 connections) — `api/zoho.js`
+- **handler()** (3 connections) — `api/products/sync-tags.js`
+- **clearDiskCache()** (2 connections) — `api/zoho.js`
+- **isItemCategoryOnline()** (2 connections) — `api/zoho.js`
+- **parseRate()** (2 connections) — `api/zoho.js`
+- **slugifyCategory()** (2 connections) — `api/zoho.js`
+- **slugifyProduct()** (2 connections) — `api/zoho.js`
+- **writeProductsDiskCache()** (2 connections) — `api/zoho.js`
+- **writeTagCache()** (2 connections) — `api/zoho.js`
+- **cachedPricebooks** (1 connections) — `api/zoho.js`
+- **cachedProductDetails** (1 connections) — `api/zoho.js`
+- **cachedProductsByPricebook** (1 connections) — `api/zoho.js`
+- **isBannerItem()** (1 connections) — `api/zoho.js`
+- **isLogoItem()** (1 connections) — `api/zoho.js`
+- **isSchemeItem()** (1 connections) — `api/zoho.js`
+- **localCacheFile** (1 connections) — `api/zoho.js`
+- **localDetailCacheFile** (1 connections) — `api/zoho.js`
+- **localProductsCacheFile** (1 connections) — `api/zoho.js`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [[Vercel Deployment Routing]] (12 shared connections)
-- [[Community 71]] (11 shared connections)
-- [[Community 123]] (8 shared connections)
-- [[Community 140]] (5 shared connections)
-- [[Community 141]] (5 shared connections)
-- [[Community 177]] (4 shared connections)
-- [[Community 242]] (4 shared connections)
-- [[Community 105]] (1 shared connections)
-- [[Community 289]] (1 shared connections)
+- [[Community 80]] (23 shared connections)
+- [[Community 247]] (6 shared connections)
+- [[Community 162]] (6 shared connections)
+- [[Community 97]] (3 shared connections)
+- [[Community 143]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/export-browser.test.mjs`
-- `.agents/skills/archify/test/finder-browser.test.mjs`
-- `.agents/skills/archify/test/helpers/viewer-click.mjs`
-- `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- `api/products/sync-tags.js`
+- `api/zoho.js`
 
 ## Audit Trail
 
-- EXTRACTED: 174 (98%)
-- INFERRED: 3 (2%)
+- EXTRACTED: 125 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

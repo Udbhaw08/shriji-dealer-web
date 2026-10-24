@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **.oxlintrc.json** (3 connections) — `.oxlintrc.json`
-- **rules** (3 connections) — `.oxlintrc.json`
-- **plugins** (1 connections) — `.oxlintrc.json`
-- **react/only-export-components** (1 connections) — `.oxlintrc.json`
-- **react/rules-of-hooks** (1 connections) — `.oxlintrc.json`
-- **$schema** (1 connections) — `.oxlintrc.json`
+- **Collaboration and sharing** (5 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
+- **collaboration-and-sharing.md** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.oxlintrc.json`
+- `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
 
 ## Audit Trail
 

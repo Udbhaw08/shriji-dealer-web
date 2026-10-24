@@ -4,27 +4,28 @@
 
 ## Key Concepts
 
-- **architecture-compare-recovery.test.mjs** (8 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **base** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **fixture()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **hash()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **head** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **inject()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **semanticRelation** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **from** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **to** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Project Readme & Layout]] (2 shared connections)
+- [[Community 200]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

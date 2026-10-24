@@ -1,48 +1,40 @@
 # Community 88
 
-> 20 nodes · cohesion 0.22
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **fetchZohoProductById()** (18 connections) — `api/zoho.js`
-- **fetchZohoProducts()** (16 connections) — `api/zoho.js`
-- **fetchZohoWithRetry()** (12 connections) — `api/zoho.js`
-- **getZohoConfig()** (12 connections) — `api/zoho.js`
-- **fetchAllRawZohoProducts()** (8 connections) — `api/zoho.js`
-- **fetchZohoCategories()** (8 connections) — `api/zoho.js`
-- **getCategoryVisibilityMap()** (7 connections) — `api/zoho.js`
-- **fetchZohoPricebookItems()** (6 connections) — `api/zoho.js`
-- **resolvePricebookId()** (5 connections) — `api/zoho.js`
-- **fetchZohoPricebooks()** (4 connections) — `api/zoho.js`
-- **fetchZohoRawCategories()** (4 connections) — `api/zoho.js`
-- **index.js** (4 connections) — `api/products/index.js`
-- **og.js** (3 connections) — `api/og.js`
-- **readProductDetailsDiskCache()** (3 connections) — `api/zoho.js`
-- **readProductsDiskCache()** (3 connections) — `api/zoho.js`
-- **writeProductDetailDiskCache()** (3 connections) — `api/zoho.js`
-- **[id].js** (3 connections) — `api/products/[id].js`
-- **handler()** (3 connections) — `api/products/index.js`
-- **handler()** (2 connections) — `api/og.js`
-- **handler()** (2 connections) — `api/products/[id].js`
+- **Apple Design Skill** (7 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Step 3: Audit through five lenses, in this order** (6 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Review process** (5 connections) — `.agents/skills/apple-design/SKILL.md`
+- **The references** (3 connections) — `.agents/skills/apple-design/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Always load** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Apple's design principles** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Design improvement mode** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Lens 1: Accessibility (failures are Critical)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Lens 2: Platform conventions (failures are usually High)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Lens 3: Visual design and craft (findings are High or Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Lens 4: Interaction (findings are usually Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Lens 5: Content and writing (findings are usually Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Load by what is on screen** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Specialized review modes** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Step 1: Establish context** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Step 2: Load references** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Step 4: Write the report** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Working rules** (1 connections) — `.agents/skills/apple-design/SKILL.md`
 
 ## Relationships
 
-- [[Community 54]] (23 shared connections)
-- [[Community 99]] (7 shared connections)
-- [[Community 159]] (5 shared connections)
-- [[Community 243]] (5 shared connections)
-- [[Community 139]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `api/og.js`
-- `api/products/[id].js`
-- `api/products/index.js`
-- `api/zoho.js`
+- `.agents/skills/apple-design/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 126 (100%)
+- EXTRACTED: 36 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

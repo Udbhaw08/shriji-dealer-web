@@ -1,48 +1,50 @@
 # Community 69
 
-> 25 nodes · cohesion 0.08
+> 23 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **properties** (9 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **architecture.schema.json** (7 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **meta** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **components** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **boundaries** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **connections** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **cards** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **schema_version** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$id** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$schema** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **title** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **fl()** (22 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **he()** (13 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **ml()** (11 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **xe()** (10 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **Ce()** (9 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **pl()** (9 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **Xd()** (8 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **aa()** (6 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **cl()** (6 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **jo()** (6 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **xo()** (6 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **sl()** (5 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **ua()** (5 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **dl()** (4 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **hm()** (4 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **ki()** (3 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **ll()** (3 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **ol()** (3 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **ra()** (3 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **Vd()** (3 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **Ym()** (3 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **vc()** (2 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
+- **ve()** (2 connections) — `ios/App/App/public/assets/index-Cb8ETnt_.js`
 
 ## Relationships
 
-- [[Pricing & Roles Skill]] (3 shared connections)
-- [[Community 81]] (1 shared connections)
-- [[Community 63]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (26 shared connections)
+- [[Pricing Regression Test Suite]] (12 shared connections)
+- [[Dependencies & Package Config]] (9 shared connections)
+- [[Master Codebase Architecture Reference]] (8 shared connections)
+- [[Graphify Knowledge Graph Skill]] (5 shared connections)
+- [[Community 54]] (5 shared connections)
+- [[Community 352]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `ios/App/App/public/assets/index-Cb8ETnt_.js`
 
 ## Audit Trail
 
-- EXTRACTED: 53 (100%)
+- EXTRACTED: 146 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **Toggles** (5 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Desktop (macOS)** (4 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **toggles.md** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Checkboxes** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Radio buttons** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Switches** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Apple In-App Purchase** (5 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Auto-renewable subscriptions** (4 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Best practices** (3 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **apple-in-app-purchase.md** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Helping people manage their subscriptions** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Making signup effortless** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Providing help** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Supporting Family Sharing** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Supporting offer codes** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
 
 ## Relationships
 
@@ -22,7 +22,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/toggles.md`
+- `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
 
 ## Audit Trail
 

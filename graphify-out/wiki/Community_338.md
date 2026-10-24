@@ -1,27 +1,31 @@
 # Community 338
 
-> 6 nodes · cohesion 0.33
+> 6 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **Modality** (5 connections) — `.agents/skills/apple-design/references/hig/modality.md`
-- **modality.md** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **na()** (6 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **Yt()** (6 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **en()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **an()** (4 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **qt()** (3 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
+- **ea()** (2 connections) — `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (6 shared connections)
+- [[Design System & UI Tokens]] (3 shared connections)
+- [[Product Requirements Documentation]] (3 shared connections)
+- [[Community 33]] (1 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/modality.md`
+- `android/app/src/main/assets/public/assets/index-Cb8ETnt_.js`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

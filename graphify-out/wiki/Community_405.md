@@ -4,23 +4,22 @@
 
 ## Key Concepts
 
-- **meta** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **Cross-platform translation** (3 connections) — `.agents/skills/apple-design/references/cross-platform.md`
+- **cross-platform.md** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
+- **Conventions to check** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
+- **Vocabulary** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
 
 ## Relationships
 
-- [[Community 95]] (1 shared connections)
-- [[Community 77]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/sequence.schema.json`
+- `.agents/skills/apple-design/references/cross-platform.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

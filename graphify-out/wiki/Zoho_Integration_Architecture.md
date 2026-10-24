@@ -1,56 +1,66 @@
 # Zoho Integration Architecture
 
-> 55 nodes · cohesion 0.08
+> 56 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **sl()** (43 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **rc()** (16 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **hc()** (15 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **zc()** (15 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **ra()** (13 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **il()** (12 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **lm()** (12 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **ol()** (12 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **ha()** (11 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **kc()** (11 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **ac()** (10 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **oa()** (10 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **ec()** (9 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **jc()** (9 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **qc()** (9 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **Sp()** (9 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **io()** (8 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **ki()** (8 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **nl()** (8 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **ia()** (7 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **qo()** (7 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **vc()** (7 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **Yo()** (7 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **aa()** (6 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- **al()** (6 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
-- *... and 30 more nodes in this community*
+- **cli.mjs** (43 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **diagnostics.mjs** (27 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **throwDiagnosticError()** (16 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **throwDiagnosticProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **writeDiagram()** (10 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **engineering-profiles.mjs** (10 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **validator.mjs** (10 connections) — `.agents/skills/archify/renderers/shared/validator.mjs`
+- **validateSchema()** (10 connections) — `.agents/skills/archify/renderers/shared/validator.mjs`
+- **engineering-profile.test.mjs** (10 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **render-workflow.mjs** (10 connections) — `.agents/skills/archify/renderers/workflow/render-workflow.mjs`
+- **loadDiagram()** (9 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **loadDiagramWithBrandMarks()** (8 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **settled-flow.test.mjs** (8 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **validateEngineeringProfile()** (6 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **normalizedDiagnostic()** (4 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **deploymentOwnershipDiagnostics()** (4 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **validateGuidedViews()** (3 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **validateRelationshipIds()** (3 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **fallbackDiagnostic()** (3 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **withDiagnosticRecordingSuppressed()** (3 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **renderCards()** (3 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **installRendererDiagnosticBoundary()** (2 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **plainObject()** (2 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **rendererFailure()** (2 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **subject()** (2 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- *... and 31 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (60 shared connections)
-- [[Product Pages Specification]] (35 shared connections)
-- [[Oxlint Linter Configuration]] (26 shared connections)
-- [[Community 68]] (15 shared connections)
-- [[Community 45]] (10 shared connections)
-- [[Community 55]] (8 shared connections)
-- [[Community 52]] (7 shared connections)
-- [[Graphify Agent Rules]] (6 shared connections)
-- [[Community 43]] (5 shared connections)
+- [[Community 35]] (10 shared connections)
+- [[Community 48]] (10 shared connections)
+- [[Community 30]] (9 shared connections)
+- [[Community 79]] (8 shared connections)
+- [[Community 105]] (7 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (6 shared connections)
+- [[Community 161]] (6 shared connections)
+- [[Product Brand & Business Vision]] (5 shared connections)
+- [[Community 47]] (5 shared connections)
+- [[Community 103]] (4 shared connections)
+- [[Live Pricing Audit Tool]] (4 shared connections)
+- [[Community 130]] (4 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DTX277AJ.js`
+- `.agents/skills/archify/renderers/shared/cli.mjs`
+- `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `.agents/skills/archify/renderers/shared/validator.mjs`
+- `.agents/skills/archify/renderers/workflow/render-workflow.mjs`
+- `.agents/skills/archify/test/engineering-profile.test.mjs`
+- `.agents/skills/archify/test/settled-flow.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 396 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 256 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

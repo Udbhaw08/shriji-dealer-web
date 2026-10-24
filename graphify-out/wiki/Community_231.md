@@ -4,29 +4,27 @@
 
 ## Key Concepts
 
-- **renderPage()** (7 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderLookup()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **collapseBlankLines()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **coveredPlatformsLine()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **prettyPlatforms()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **groupBySection()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **lastChangeLine()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **omissionReason()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderBody()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **8. Letter Spacing (Tracking)** (9 connections) — `.agents/skills/refero-design/references/typography.md`
+- **ALL CAPS Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **CSS Tokens** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Pre-Implementation Checklist** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Quick Reference** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Small Text Rule — Often Forgotten** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Units** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **When to Tighten** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Why It Matters** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- [[Community 83]] (9 shared connections)
-- [[Community 348]] (2 shared connections)
-- [[Community 198]] (1 shared connections)
+- [[Community 230]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 17 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

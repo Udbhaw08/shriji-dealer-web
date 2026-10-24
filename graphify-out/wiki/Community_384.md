@@ -4,24 +4,23 @@
 
 ## Key Concepts
 
-- **sync-supabase-content.js** (6 connections) — `backend/scripts/sync-supabase-content.js`
-- **syncAll()** (2 connections) — `backend/scripts/sync-supabase-content.js`
-- **__dirname** (1 connections) — `backend/scripts/sync-supabase-content.js`
-- **IMAGES** (1 connections) — `backend/scripts/sync-supabase-content.js`
-- **PROJECT_ROOT** (1 connections) — `backend/scripts/sync-supabase-content.js`
+- **Performance** (4 connections) — `.agents/skills/swiftui-pro/references/performance.md`
+- **performance.md** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
+- **Collections and row updates** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
+- **Frequent changes** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
+- **Remote images** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
 
 ## Relationships
 
-- [[Community 36]] (2 shared connections)
-- [[Client Products Data Store]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `backend/scripts/sync-supabase-content.js`
+- `.agents/skills/swiftui-pro/references/performance.md`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
