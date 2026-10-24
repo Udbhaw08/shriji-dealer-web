@@ -33,14 +33,7 @@
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (35 shared connections)
-- [[Product Pages Specification]] (19 shared connections)
-- [[Zoho Integration Architecture]] (13 shared connections)
-- [[Project Readme & Layout]] (9 shared connections)
-- [[Community 31]] (4 shared connections)
-- [[Pricing Regression Test Suite]] (4 shared connections)
-- [[Community 71]] (3 shared connections)
-- [[Community 38]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 

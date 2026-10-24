@@ -677,6 +677,7 @@ h4 {
 .hero-grad {
   background: linear-gradient(135deg, var(--navy) 0%, #1d4e7f 55%, #2563eb 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -1735,6 +1736,7 @@ h4 {
 .prod-foot b {
   display: -webkit-box;
   -webkit-line-clamp: 2;
+  line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
   font-size: 0.95rem;
@@ -1747,6 +1749,7 @@ h4 {
 .prod-foot > span:not([class]) {
   display: -webkit-box;
   -webkit-line-clamp: 2;
+  line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
   font-size: 0.81rem;

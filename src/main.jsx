@@ -22,6 +22,7 @@ import LegalTerms from "./pages/LegalTerms";
 import { useSession } from "./data/session";
 import { isPortalGated } from "./data/portalGate";
 import NativeBackHandler from "./components/NativeBackHandler";
+import EmailVerificationPrompt from "./components/EmailVerificationPrompt";
 
 class ErrorBoundary extends Component {
   constructor(props) {
@@ -101,6 +102,7 @@ createRoot(document.getElementById("root")).render(
         <NativeBackHandler />
         <a className="skip" href="#main">Skip to content</a>
         <Header />
+        <EmailVerificationPrompt />
         <main id="main">
           <Routes>
             <Route path="/" element={<Home />} />

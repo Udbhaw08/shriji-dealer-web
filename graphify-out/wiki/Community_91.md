@@ -26,18 +26,7 @@
 
 ## Relationships
 
-- [[Community 43]] (7 shared connections)
-- [[Community 39]] (6 shared connections)
-- [[Community 70]] (2 shared connections)
-- [[Community 51]] (2 shared connections)
-- [[Community 65]] (2 shared connections)
-- [[Community 102]] (1 shared connections)
-- [[Community 103]] (1 shared connections)
-- [[Community 90]] (1 shared connections)
-- [[Zoho API Diagnostic Script]] (1 shared connections)
-- [[Community 115]] (1 shared connections)
-- [[Community 150]] (1 shared connections)
-- [[Community 104]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 

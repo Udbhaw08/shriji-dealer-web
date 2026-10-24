@@ -30,10 +30,7 @@
 
 ## Relationships
 
-- [[Community 40]] (21 shared connections)
-- [[Community 77]] (14 shared connections)
-- [[Community 83]] (7 shared connections)
-- [[Community 131]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 

@@ -29,6 +29,7 @@ export default function Schemes() {
   const [, setLoading] = useState(() => !schemesData.active?.length);
   const [activeTab, setActiveTab] = useState("active"); // "active" | "upcoming" | "past"
   const [activeFlyer, setActiveFlyer] = useState(null); // scheme object for modal
+  const [activeVideo, setActiveVideo] = useState(null); // scheme object for video player modal
   const [toastMsg, setToastMsg] = useState("");
 
   // Fetch dynamic schemes from Supabase via /api/schemes
@@ -183,10 +184,10 @@ export default function Schemes() {
       {/* Schemes Grid */}
       <section className="sec" style={{ paddingTop: "var(--s4)" }}>
         <div className="wrap">
-          {activeTab === "active" ? (
+          {activeTab === "active" && activeSchemes.length > 0 ? (
             <div className="schemes-grid">
-              {SCHEMES.active.map((s) => {
-                const isDiwali = s.id.includes("diwali");
+              {activeSchemes.map((s) => {
+                const isDiwali = s.id && String(s.id).toLowerCase().includes("diwali");
                 return (
                   <article key={s.id} className="scheme-card">
                     {/* Header Banner */}
@@ -255,7 +256,7 @@ export default function Schemes() {
                       </div>
                     </div>
 
-                    {/* Actions: Download Scheme PDF as mock */}
+                    {/* Actions: Download Scheme PDF + WhatsApp enquiry */}
                     <div className="scheme-card-actions">
                       <button
                         type="button"
@@ -308,16 +309,20 @@ export default function Schemes() {
                   : "No Active Schemes Right Now"}
               </h3>
               <p className="sub" style={{ marginTop: "var(--s2)", maxWidth: "45ch", marginInline: "auto" }}>
-                All live dealer schemes are currently active. Please switch to the Active tab to view and download available scheme PDFs.
+                {activeTab === "active"
+                  ? "New festive and seasonal offers are updated directly from Zoho Commerce. Please check back soon!"
+                  : "All live dealer schemes are currently active. Please switch to the Active tab to view and download available scheme PDFs."}
               </p>
-              <button
-                type="button"
-                className="btn btn-navy"
-                style={{ marginTop: "var(--s4)" }}
-                onClick={() => setActiveTab("active")}
-              >
-                View Active Schemes (2)
-              </button>
+              {activeTab !== "active" && (
+                <button
+                  type="button"
+                  className="btn btn-navy"
+                  style={{ marginTop: "var(--s4)" }}
+                  onClick={() => setActiveTab("active")}
+                >
+                  View Active Schemes ({activeSchemes.length})
+                </button>
+              )}
             </div>
           )}
         </div>

@@ -60,3 +60,6 @@ ios/App/.build/
 *.moved-aside
 *.pbxuser
 *.perspectivev3
+.zcode/
+
+.vercel

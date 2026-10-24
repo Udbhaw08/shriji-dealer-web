@@ -1,6 +1,6 @@
 # Community 89
 
-> 15 nodes · cohesion 0.13
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 

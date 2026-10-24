@@ -37,34 +37,41 @@ export default function Product() {
 
   const pid = params.get("pid");
 
+  const canSeePrice = session?.canSeeDealerPrice !== false;
+
   useEffect(() => {
     const lookupKey = pid || id;
     if (lookupKey) {
-      apiFetch(`/api/products/${encodeURIComponent(lookupKey)}`)
+      const targetPb = canSeePrice ? (session?.dealer?.pricebookId || session?.dealer?.price_tier || "") : "";
+      const pbParam = targetPb ? `?pricebook_id=${encodeURIComponent(targetPb)}` : "";
+      apiFetch(`/api/products/${encodeURIComponent(lookupKey)}${pbParam}`)
         .then((r) => r.json())
         .then((data) => {
           if (data.ok && data.product) setFetchedProduct(data.product);
         })
         .catch(() => {});
     }
-  }, [id, pid]);
+  }, [id, pid, session?.dealer?.pricebookId, session?.dealer?.price_tier, canSeePrice]);
 
   const p = useMemo(() => {
-    if (fetchedProduct) return fetchedProduct;
-    if (pid) {
-      const matchPid = PRODUCTS.find((x) => x.id === pid);
-      if (matchPid) return matchPid;
+    let base = fetchedProduct;
+    if (!base && pid) {
+      base = PRODUCTS.find((x) => x.id === pid);
     }
-    return (
-      PRODUCTS.find(
+    if (!base) {
+      base = PRODUCTS.find(
         (x) =>
           x.id === id ||
           x.slug === id ||
           slugifyProduct(x.name) === id ||
           slugifyProduct(x.model) === id
-      ) || null
-    );
-  }, [fetchedProduct, PRODUCTS, id, pid]);
+      ) || null;
+    }
+    if (base && !canSeePrice && base.dealerRate) {
+      return { ...base, dealerRate: null };
+    }
+    return base;
+  }, [fetchedProduct, PRODUCTS, id, pid, canSeePrice]);
 
   useEffect(() => {
     if (p) {
@@ -135,19 +142,15 @@ export default function Product() {
     [p, PRODUCTS],
   );
 
-  // Gallery shots: use product images from Zoho, clean duplicates, or fallback
+  // Gallery shots: use product images from Zoho, clean duplicates, or fallback to main product image only
   const shots = useMemo(() => {
     if (!p) return [];
     if (p.images && p.images.length > 0) {
       const clean = p.images.filter(Boolean);
       return Array.from(new Set(clean));
     }
-    const others = PRODUCTS.filter((x) => x.cat === p.cat && x.img && x.img !== p.img)
-      .map((x) => x.img)
-      .filter((v, i, a) => a.indexOf(v) === i)
-      .slice(0, 3);
-    return [p.img, ...others].filter(Boolean);
-  }, [p, PRODUCTS]);
+    return [p.img].filter(Boolean);
+  }, [p]);
 
   const prevShot = useCallback(() => {
     if (shots.length <= 1) return;
@@ -301,7 +304,7 @@ export default function Product() {
     .filter(Boolean);
   const tag = productTags[0] || null;
 
-  const displayTitle = p?.model && p.model.toLowerCase() !== "test" ? p.model : (p?.name || "");
+  const displayTitle = p?.name || p?.model || "";
 
   // 1. Zoho Specifications from Zoho API
   const zohoSpecs = (p.specifications || [])

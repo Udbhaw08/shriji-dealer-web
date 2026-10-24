@@ -9,6 +9,7 @@
     <domain-config cleartextTrafficPermitted="true">
         <domain includeSubdomains="true">localhost</domain>
         <domain includeSubdomains="true">restor.in</domain>
+        <domain includeSubdomains="true">onrender.com</domain>
         <domain includeSubdomains="true">vercel.app</domain>
         <domain includeSubdomains="true">zohoapis.in</domain>
         <domain includeSubdomains="true">zoho.in</domain>

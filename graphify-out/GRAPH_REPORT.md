@@ -143,8 +143,10 @@
 - [[_COMMUNITY_Community 130|Community 130]]
 - [[_COMMUNITY_Community 131|Community 131]]
 - [[_COMMUNITY_Community 132|Community 132]]
+- [[_COMMUNITY_Community 133|Community 133]]
 - [[_COMMUNITY_Community 134|Community 134]]
 - [[_COMMUNITY_Community 135|Community 135]]
+- [[_COMMUNITY_Community 136|Community 136]]
 - [[_COMMUNITY_Community 137|Community 137]]
 - [[_COMMUNITY_Community 138|Community 138]]
 - [[_COMMUNITY_Community 139|Community 139]]
@@ -265,6 +267,7 @@
 - [[_COMMUNITY_Community 256|Community 256]]
 - [[_COMMUNITY_Community 257|Community 257]]
 - [[_COMMUNITY_Community 258|Community 258]]
+- [[_COMMUNITY_Community 259|Community 259]]
 - [[_COMMUNITY_Community 260|Community 260]]
 - [[_COMMUNITY_Community 261|Community 261]]
 - [[_COMMUNITY_Community 262|Community 262]]
@@ -274,9 +277,24 @@
 - [[_COMMUNITY_Community 266|Community 266]]
 - [[_COMMUNITY_Community 267|Community 267]]
 - [[_COMMUNITY_Community 268|Community 268]]
+- [[_COMMUNITY_Community 269|Community 269]]
 - [[_COMMUNITY_Community 270|Community 270]]
 - [[_COMMUNITY_Community 271|Community 271]]
 - [[_COMMUNITY_Community 272|Community 272]]
+- [[_COMMUNITY_Community 273|Community 273]]
+- [[_COMMUNITY_Community 274|Community 274]]
+- [[_COMMUNITY_Community 275|Community 275]]
+- [[_COMMUNITY_Community 276|Community 276]]
+- [[_COMMUNITY_Community 277|Community 277]]
+- [[_COMMUNITY_Community 278|Community 278]]
+- [[_COMMUNITY_Community 279|Community 279]]
+- [[_COMMUNITY_Community 280|Community 280]]
+- [[_COMMUNITY_Community 281|Community 281]]
+- [[_COMMUNITY_Community 282|Community 282]]
+- [[_COMMUNITY_Community 283|Community 283]]
+- [[_COMMUNITY_Community 284|Community 284]]
+- [[_COMMUNITY_Community 285|Community 285]]
+- [[_COMMUNITY_Community 286|Community 286]]
 - [[_COMMUNITY_Community 287|Community 287]]
 - [[_COMMUNITY_Community 288|Community 288]]
 - [[_COMMUNITY_Community 289|Community 289]]
@@ -672,11 +690,7 @@ Nodes (35): Bd(), be(), cl(), dl(), Fd(), fl(), Gd(), ge() (+27 more)
 Cohesion: 0.11
 Nodes (21): clone(), diagnostic(), expandableViewBox(), legacyLayoutProbe(), legacyRequirementProbe(), migrateWorkflowDocument(), requiredViewBoxFrom(), result() (+13 more)
 
-### Community 33 - "Community 33"
-Cohesion: 0.10
-Nodes (33): Bd(), bl(), ca(), da(), ef(), ep(), fa(), Fi() (+25 more)
-
-### Community 34 - "Community 34"
+### Community 44 - "Community 44"
 Cohesion: 0.06
 Nodes (33): AX1, AX2, AX3, AX4, AX5, Change log, Conveying hierarchy, Desktop (macOS) (+25 more)
 
@@ -804,11 +818,7 @@ Nodes (23): minimum, type, minimum, type, maximum, minimum, type, minimum (+15 m
 Cohesion: 0.09
 Nodes (22): enum, oneOf, enum, $defs, animation, brandMark, componentType, legendMode (+14 more)
 
-### Community 61 - "Community 61"
-Cohesion: 0.11
-Nodes (21): items, type, items, type, $ref, allowedRoots, allowedTerminals, requiredEdges (+13 more)
-
-### Community 62 - "Community 62"
+### Community 76 - "Community 76"
 Cohesion: 0.10
 Nodes (18): abstractOf(), ALL_PLATFORMS, anchorEntries(), anchorMapFor(), crawlSection(), CURATED_FILES, DESIGNING_FOR_COVERAGE, DROPPED_PLATFORMS (+10 more)
 
@@ -824,11 +834,11 @@ Nodes (21): 1. Executive Summary & Problem Statement, 2. Multi-Tier Entity Hiera
 Cohesion: 0.25
 Nodes (21): assertEvidenceType(), checkerDiagnostics(), commandDeliver(), commandMigrate(), commandPreview(), commandRender(), commandValidate(), diagnostic() (+13 more)
 
-### Community 67 - "Community 67"
+### Community 80 - "Community 80"
 Cohesion: 0.10
 Nodes (20): Attribution, Calibration, Change log, Confidence, Corrections, Critical or complementary, Dynamic or static, Explicit feedback (+12 more)
 
-### Community 68 - "Community 68"
+### Community 81 - "Community 81"
 Cohesion: 0.10
 Nodes (20): additionalProperties, $ref, minItems, type, const, $id, additionalProperties, required (+12 more)
 
@@ -928,7 +938,7 @@ Nodes (11): CASES, __dirname, edgePaintHitsUnderDock(), evaluate(), finalGeometr
 Cohesion: 0.18
 Nodes (17): ba(), cs(), ee(), go(), ho(), j(), M(), ms() (+9 more)
 
-### Community 86 - "Community 86"
+### Community 106 - "Community 106"
 Cohesion: 0.12
 Nodes (16): crystal, crystalDealer, crystalGuest, genericDealer, genericGuest, genericItem, kettle, kettleDealer (+8 more)
 
@@ -1288,7 +1298,7 @@ Nodes (9): Canonical exports, Exploration, Guided views and story, Motion and pr
 Cohesion: 0.20
 Nodes (10): additionalProperties, properties, type, additionalProperties, properties, type, $ref, entries (+2 more)
 
-### Community 167 - "Community 167"
+### Community 196 - "Community 196"
 Cohesion: 0.29
 Nodes (10): items, additionalProperties, required, type, items, stages, items, maxItems (+2 more)
 
@@ -1754,7 +1764,7 @@ Nodes (6): Best practices, Change log, Getting started, Platform considerations,
 
 ### Community 315 - "Community 315"
 Cohesion: 0.29
-Nodes (7): commandCompare(), commitComparePair(), compareCommitError(), compareReceiptPath(), extractCompareOptions(), formatDiagnostics(), reportCompareFailure()
+Nodes (6): Generated Assets, Image Generation Capability, Three Visual Directions, Visual QA, Visual Target Gate, Visual Workflow
 
 ### Community 316 - "Community 316"
 Cohesion: 0.29
@@ -2250,7 +2260,7 @@ Nodes (3): minLength, type, label
 
 ### Community 456 - "Community 456"
 Cohesion: 0.67
-Nodes (3): variant, enum, $ref
+Nodes (3): minimum, type, labelSegment
 
 ### Community 457 - "Community 457"
 Cohesion: 0.67

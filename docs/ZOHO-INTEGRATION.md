@@ -3,6 +3,11 @@
 The site (shrijidomestic.com) is fully integrated with **Zoho Commerce Store API** and **Zoho Books API** via `api/zoho.js`.
 **Status: Implemented & Active in Production.**
 
+> **Zoho CRM & the dealer-approval backend:** the new `backend/` Node service adds a CRM
+> integration (dealer Accounts/Contacts, approval webhook, `ZohoCRM.modules.ALL` Self Client).
+> That setup lives in [BACKEND-ARCHITECTURE.md](BACKEND-ARCHITECTURE.md) §1 — this doc covers
+> the Commerce/Books integration only.
+
 ---
 
 ## 1. Active Integration Summary

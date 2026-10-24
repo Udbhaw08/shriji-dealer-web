@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
+import { apiFetch } from "../data/api";
 import { Icon } from "../ui";
 import { parseVideoUrl } from "../utils/video";
 
@@ -111,6 +112,7 @@ export default function HeroSlider({ isGated = true }) {
 
   // Keyboard navigation
   const handleKeyDown = (e) => {
+    if (isSingle) return;
     if (e.key === "ArrowLeft") {
       prevSlide();
     } else if (e.key === "ArrowRight") {
@@ -120,13 +122,14 @@ export default function HeroSlider({ isGated = true }) {
 
   // Touch swipe handling for mobile
   const handleTouchStart = (e) => {
+    if (isSingle) return;
     touchStartXRef.current = e.touches[0].clientX;
     touchStartYRef.current = e.touches[0].clientY;
     isSwipingRef.current = true;
   };
 
   const handleTouchEnd = (e) => {
-    if (!isSwipingRef.current) return;
+    if (isSingle || !isSwipingRef.current) return;
     isSwipingRef.current = false;
     const touchEndX = e.changedTouches[0].clientX;
     const touchEndY = e.changedTouches[0].clientY;
@@ -378,23 +381,17 @@ export default function HeroSlider({ isGated = true }) {
             className="store-banner-track"
             style={{
               transform: `translateX(-${activeIdx * 100}%)`,
-              transition: "transform 0.5s cubic-bezier(0.25, 1, 0.5, 1)",
+              transition: isSingle ? "none" : "transform 0.5s cubic-bezier(0.25, 1, 0.5, 1)",
             }}
           >
-            {STORE_BANNERS.map((slide, idx) => (
+            {banners.map((slide, idx) => (
               <div
-                key={slide.id}
+                key={slide.id || idx}
                 className="store-banner-slide"
-                style={{ background: slide.bgColor }}
+                style={{ background: slide.bgColor || "#0110a7" }}
                 aria-hidden={idx !== activeIdx}
               >
-                <img
-                  src={slide.src}
-                  alt={slide.alt}
-                  className="store-banner-img"
-                  loading={idx === 0 ? "eager" : "lazy"}
-                  draggable={false}
-                />
+                {renderSlideContent(slide, idx)}
               </div>
             ))}
           </div>

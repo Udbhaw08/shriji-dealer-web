@@ -25,10 +25,7 @@
 
 ## Relationships
 
-- [[Community 37]] (27 shared connections)
-- [[Oxlint Linter Configuration]] (3 shared connections)
-- [[Community 174]] (3 shared connections)
-- [[Community 39]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 

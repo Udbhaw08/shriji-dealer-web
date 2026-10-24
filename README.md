@@ -11,6 +11,13 @@ npm run lint
 node src/data/dealer.test.mjs  # pricing self-check
 ```
 
+for backend 
+cd backend 
+npm start
+
+for frontend
+npm run dev
+
 ## Documentation
 
 **Read [CLAUDE.md](CLAUDE.md) first** if you are an AI agent, or [PRD.md](PRD.md) if you are a

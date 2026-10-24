@@ -1,22 +1,24 @@
 import { useSyncExternalStore } from "react";
 import { isDealer, tierOf, registerDealer } from "./dealer";
-import { apiFetch, apiUrl } from "./api";
+import {
+  initTokens, hasSession, fetchMe, logout as authLogout, sessionFromAuth,
+  broadcastAuthChange, onAuthBroadcast, SESSION_PROFILE_KEY,
+} from "./auth";
+import { syncPricebookWithSession } from "./productsStore";
 
-export { isDealer, tierOf };
+export { isDealer, tierOf, broadcastAuthChange };
 
 /* Who is looking at the screen.
  *
  * ponytail: a tiny external store instead of a context provider — no wrapper in
- * main.jsx, and `useSession()` works from any component. localStorage keeps the
- * demo alive across reloads.
+ * main.jsx, and `useSession()` works from any component.
  *
- * THIS IS DEMO AUTHENTICATION. It proves the flow, not the security. The real
- * rule is server-side and non-negotiable: dealer pricing is returned only to a
- * request carrying an approved dealer's session. A client-side role check is a
- * UI convenience, never the thing that protects a price. See docs/ROLES-AND-SHARING.md.
+ * REAL AUTHENTICATION (backend service): the session mirrors the backend's
+ * /api/auth/me — JWT access token in memory, refresh token in secure storage
+ * (src/data/auth.js). Dealer approval status always comes from the server via
+ * CRM. A client-side role check is a UI convenience, never the thing that
+ * protects a price. See docs/BACKEND-ARCHITECTURE.md and docs/ROLES-AND-SHARING.md.
  */
-
-const KEY = "shriji.session";
 
 export const GUEST = { role: "guest" };
 
@@ -104,16 +106,10 @@ function loadCachedSession() {
   return GUEST;
 }
 
-let state = load();
+let state = loadCachedSession();
 const subs = new Set();
 
 function emit() {
-  try {
-    if (state.role === "guest") localStorage.removeItem(KEY);
-    else localStorage.setItem(KEY, JSON.stringify(state));
-  } catch {
-    /* private mode — the session just does not survive a reload */
-  }
   for (const fn of subs) fn();
 }
 
@@ -146,13 +142,32 @@ function isSessionEqual(a, b) {
 }
 
 export function setSession(next) {
-  if (next.dealer) registerDealer(next.dealer);
+  if (next?.dealer) registerDealer(next.dealer);
   state = next;
+  syncPricebookWithSession(next);
+  if (typeof window !== "undefined") {
+    try {
+      if (!next || next.role === "guest") {
+        localStorage.removeItem(SESSION_PROFILE_KEY);
+        sessionStorage.removeItem(SESSION_PROFILE_KEY);
+      } else {
+        localStorage.setItem(SESSION_PROFILE_KEY, JSON.stringify(next));
+      }
+    } catch {}
+  }
   emit();
 }
 
-export function signOut() {
+export async function signOut() {
+  await authLogout().catch(() => {});
+  if (typeof window !== "undefined") {
+    try {
+      localStorage.removeItem(SESSION_PROFILE_KEY);
+      sessionStorage.removeItem(SESSION_PROFILE_KEY);
+    } catch {}
+  }
   setSession(GUEST);
+  broadcastAuthChange("AUTH_UPDATED");
 }
 
 export function switchToDealerSession() {
@@ -231,8 +246,59 @@ export function useSession() {
   );
 }
 
-// Automatically sync latest status & pricebook from Zoho on startup
-if (typeof window !== "undefined") {
-  revalidateSession();
+// Background live sync timer: polls every 2.5 seconds to auto-detect
+// staff price visibility toggles or status changes without manual page refresh.
+let pollTimer = null;
+
+export function startSessionPolling() {
+  if (pollTimer || typeof window === "undefined") return;
+  pollTimer = setInterval(() => {
+    if (hasSession() && (document.visibilityState === "visible" || state?.authRole === "dealer_staff")) {
+      revalidateSession();
+    }
+  }, 2500);
 }
 
+export function stopSessionPolling() {
+  if (pollTimer) {
+    clearInterval(pollTimer);
+    pollTimer = null;
+  }
+}
+
+// Restore tokens from secure storage and hydrate the session on startup
+if (typeof window !== "undefined") {
+  initTokens().then(() => {
+    revalidateSession();
+    startSessionPolling();
+  });
+
+  // Cross-tab real-time sync via BroadcastChannel
+  onAuthBroadcast((msg) => {
+    if (msg?.type === "AUTH_UPDATED" || msg?.type === "STAFF_PRICE_TOGGLED" || msg?.type === "STAFF_UPDATED") {
+      revalidateSession();
+    }
+  });
+
+  // Immediate revalidation on tab focus or visibility change
+  window.addEventListener("focus", () => {
+    if (hasSession()) revalidateSession();
+  });
+
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible" && hasSession()) {
+      revalidateSession();
+    }
+  });
+
+  // Cross-tab fallback via storage events
+  window.addEventListener("storage", (e) => {
+    if (e.key === "shriji_auth_token" || e.key === "shriji.auth.tokens" || e.key === SESSION_PROFILE_KEY) {
+      if (!hasSession()) {
+        setSession(GUEST);
+      } else {
+        revalidateSession();
+      }
+    }
+  });
+}

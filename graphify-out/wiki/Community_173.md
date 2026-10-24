@@ -18,11 +18,7 @@
 
 ## Relationships
 
-- [[Community 93]] (8 shared connections)
-- [[Community 98]] (5 shared connections)
-- [[Community 63]] (4 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (3 shared connections)
-- [[Community 43]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 

@@ -33,15 +33,7 @@
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (39 shared connections)
-- [[Product Requirements Documentation]] (16 shared connections)
-- [[Architecture Doc Generator]] (8 shared connections)
-- [[Master Codebase Architecture Reference]] (7 shared connections)
-- [[Claude Agent Instructions]] (6 shared connections)
-- [[Dependencies & Package Config]] (5 shared connections)
-- [[Community 33]] (4 shared connections)
-- [[Community 118]] (3 shared connections)
-- [[Community 64]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 

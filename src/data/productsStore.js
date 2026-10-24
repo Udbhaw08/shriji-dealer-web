@@ -37,7 +37,7 @@ let activePricebookId = null;
 
 function loadCached(pbId = activePricebookId) {
   try {
-    const raw = localStorage.getItem(CACHE_KEY);
+    const raw = localStorage.getItem(getCacheKey(pbId));
     if (raw) {
       const data = JSON.parse(raw);
       const isStale = !data.time || (Date.now() - data.time > CACHE_TTL_MS);
@@ -73,8 +73,9 @@ function emit() {
 
 let fetchPromise = null;
 
-export function fetchLiveProducts(force = false) {
-  if (fetchPromise && !force) return fetchPromise;
+export function fetchLiveProducts(force = false, pricebookId = null) {
+  const targetPb = pricebookId !== null ? pricebookId : activePricebookId;
+  if (fetchPromise && !force && targetPb === storeState.pricebookId) return fetchPromise;
 
   storeState = { ...storeState, syncing: true };
   emit();
@@ -110,10 +111,11 @@ export function fetchLiveProducts(force = false) {
           categories: liveCategories,
           loaded: true,
           syncing: false,
+          pricebookId: targetPb,
         };
         try {
           localStorage.setItem(
-            CACHE_KEY,
+            getCacheKey(targetPb),
             JSON.stringify({
               products: safeCachedProducts,
               categories: storeState.categories,
@@ -137,6 +139,26 @@ export function fetchLiveProducts(force = false) {
     });
 
   return fetchPromise;
+}
+
+/**
+ * Called by session store whenever authentication or dealer state converges.
+ * Ensures the product store instantly adapts to the dealer's assigned Zoho Commerce Pricebook.
+ */
+export function syncPricebookWithSession(session) {
+  const canSeePrice = session?.canSeeDealerPrice !== false;
+  const pbId = (session && session.role === "dealer" && session.status === "approved" && canSeePrice)
+    ? (session.dealer?.pricebookId || session.dealer?.price_tier || null)
+    : null;
+  if (pbId !== activePricebookId) {
+    activePricebookId = pbId;
+    const cached = loadCached(pbId);
+    if (cached.loaded) {
+      storeState = cached;
+      emit();
+    }
+    fetchLiveProducts(true, pbId);
+  }
 }
 
 // Automatically fetch latest live Zoho catalog whenever store is loaded
@@ -172,7 +194,7 @@ export function useProducts() {
     categories: state.categories,
     loaded: state.loaded,
     syncing: state.syncing,
-    refresh: () => fetchLiveProducts(true),
+    refresh: () => fetchLiveProducts(true, activePricebookId),
   };
 }
 

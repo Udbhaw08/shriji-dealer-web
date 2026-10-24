@@ -1,7 +1,7 @@
 import { Capacitor, CapacitorHttp } from "@capacitor/core";
 
 export const API_BASE = Capacitor.isNativePlatform()
-  ? (import.meta.env.VITE_API_URL || "https://restor.in")
+  ? (import.meta.env?.VITE_API_URL || "https://restor.in")
   : "";
 
 export function apiUrl(path) {

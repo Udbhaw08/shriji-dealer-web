@@ -26,12 +26,7 @@
 
 ## Relationships
 
-- [[Community 42]] (12 shared connections)
-- [[Community 35]] (11 shared connections)
-- [[Community 44]] (7 shared connections)
-- [[Community 45]] (5 shared connections)
-- [[Community 119]] (2 shared connections)
-- [[Community 106]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 

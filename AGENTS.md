@@ -3,6 +3,7 @@
 ## Specialized Skills Available
 The project includes progressive-disclosure skills in `.agents/skills/`:
 - `graphify`: Knowledge graph querying (`graphify query`), token-efficient architecture navigation, and updates.
+- `shriji-backend`: `backend/` Node service — auth/JWT, dealer applications, Zoho CRM sync & approval webhook, staff invites, price proxy, Supabase Postgres.
 - `shriji-zoho-integration`: Zoho Commerce API, live sync, pricebooks, OAuth auto-recovery.
 - `shriji-responsive-ui`: Design system, mobile-first responsiveness, zero-overflow rules.
 - `shriji-pricing-and-roles`: MRP vs dealer price masking, ?from= customer link rules, 5+1 schemes.

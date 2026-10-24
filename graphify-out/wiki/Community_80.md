@@ -28,16 +28,7 @@
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (12 shared connections)
-- [[Graphify Workflow]] (10 shared connections)
-- [[Design System & UI Tokens]] (7 shared connections)
-- [[Graphify Agent Rules]] (5 shared connections)
-- [[Community 90]] (5 shared connections)
-- [[Product Brand & Business Vision]] (4 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (4 shared connections)
-- [[Community 63]] (3 shared connections)
-- [[Oxlint Linter Configuration]] (1 shared connections)
-- [[Community 165]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 

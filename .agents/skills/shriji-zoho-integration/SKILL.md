@@ -3,7 +3,9 @@ name: shriji-zoho-integration
 description: >-
   Use this skill when working with Zoho Commerce & Books API, syncing products,
   fetching individual products, pricebook lookups, dealer login, dealer applications,
-  or backend API endpoints in api/zoho.js and vite.config.js.
+  or backend API endpoints in api/zoho.js and vite.config.js. For the Zoho CRM
+  dealer-approval integration (Accounts/Contacts, approval webhook, backend/ service),
+  use the shriji-backend skill instead.
 ---
 
 # Shriji Zoho Integration Skill

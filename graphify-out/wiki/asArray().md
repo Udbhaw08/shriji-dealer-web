@@ -2,7 +2,7 @@
 
 > God node · 43 connections · `.agents/skills/archify/renderers/shared/geometry.mjs`
 
-**Community:** [[Zoho Backend & Proxy Endpoints]]
+**Community:** [[Pricing Regression Test Suite]]
 
 ## Connections by Relation
 

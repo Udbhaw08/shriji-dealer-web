@@ -31,10 +31,7 @@
 
 ## Relationships
 
-- [[Community 111]] (1 shared connections)
-- [[Community 89]] (1 shared connections)
-- [[Community 201]] (1 shared connections)
-- [[Community 60]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 

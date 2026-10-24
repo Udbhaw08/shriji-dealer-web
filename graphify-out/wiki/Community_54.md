@@ -33,8 +33,7 @@
 
 ## Relationships
 
-- [[Community 124]] (1 shared connections)
-- [[Community 86]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 

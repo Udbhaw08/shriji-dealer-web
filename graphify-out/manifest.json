@@ -45,8 +45,8 @@
     "semantic_hash": ""
   },
   "src/components/PriceBlock.jsx": {
-    "mtime": 1790542571.961546,
-    "ast_hash": "9342e9dc39006c9aded4b087cff989dd",
+    "mtime": 1791837348.8174937,
+    "ast_hash": "e78613b1a223e1da92320c15f92d8967",
     "semantic_hash": ""
   },
   "src/components/ProductCard.jsx": {
@@ -160,8 +160,8 @@
     "semantic_hash": ""
   },
   ".agents/skills/shriji-zoho-integration/SKILL.md": {
-    "mtime": 1789991211.9128902,
-    "ast_hash": "0a6b91850e3ee33ac43f4f8f71129700",
+    "mtime": 1791154432.4305458,
+    "ast_hash": "75c0ee51bbfc030f81b0b5b621d054d1",
     "semantic_hash": ""
   },
   ".agents/workflows/graphify.md": {
@@ -195,8 +195,8 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1789857885.5999382,
-    "ast_hash": "cc8eb91947159d30e285ab1feb16facb",
+    "mtime": 1791706378.0550911,
+    "ast_hash": "56904a5707fcd8c36b1c4c1fda8d83bf",
     "semantic_hash": ""
   },
   "docs/DESIGN.md": {
@@ -220,8 +220,8 @@
     "semantic_hash": ""
   },
   "docs/ZOHO-INTEGRATION.md": {
-    "mtime": 1789938660.2299867,
-    "ast_hash": "d8611d70d5a958252761e3a75f4e91ac",
+    "mtime": 1791154426.2304697,
+    "ast_hash": "f1cec8ebffd0c10e478c055bef9f0e36",
     "semantic_hash": ""
   },
   "index.html": {
@@ -720,8 +720,8 @@
     "semantic_hash": ""
   },
   "src/data/api.js": {
-    "mtime": 1790616093.5848575,
-    "ast_hash": "3433b7d7f626353f3cbb134f147769c4",
+    "mtime": 1791895652.2799299,
+    "ast_hash": "8bac315a1299a9fe280594f1be0dec7f",
     "semantic_hash": ""
   },
   ".github/workflows/build-apps.yml": {
@@ -945,8 +945,8 @@
     "semantic_hash": ""
   },
   "scripts/sync-all.mjs": {
-    "mtime": 1790542747.7018507,
-    "ast_hash": "aa993aee8f831298cb53d435b10dfec6",
+    "mtime": 1792275052.7598863,
+    "ast_hash": "9507073e04ceea193fc364d5a122b10c",
     "semantic_hash": ""
   },
   "scripts/watch-sync.mjs": {
@@ -1970,27 +1970,27 @@
     "semantic_hash": ""
   },
   ".agents/skills/archify/examples/dataflow-product-analytics.html": {
-    "mtime": 1790546335.842937,
+    "mtime": 1790733442.9478202,
     "ast_hash": "0c6ddbe306fb34622298cbece5812709",
     "semantic_hash": ""
   },
   ".agents/skills/archify/examples/lifecycle-agent-run.html": {
-    "mtime": 1790546335.843946,
+    "mtime": 1790733443.0807252,
     "ast_hash": "5db1f05dfe8c3767a8d0fa669101debb",
     "semantic_hash": ""
   },
   ".agents/skills/archify/examples/sequence-cache-miss-request.html": {
-    "mtime": 1790546335.8459365,
+    "mtime": 1790733442.8090527,
     "ast_hash": "261cdba992b22192dea5879c1e21550f",
     "semantic_hash": ""
   },
   ".agents/skills/archify/examples/web-app-rendered.html": {
-    "mtime": 1790546335.8469439,
+    "mtime": 1790733443.2192843,
     "ast_hash": "2b7fc3c01247308f41d30ccaf13bd6fe",
     "semantic_hash": ""
   },
   ".agents/skills/archify/examples/workflow-agent-tool-call-rendered.html": {
-    "mtime": 1790546335.8479364,
+    "mtime": 1790733442.672971,
     "ast_hash": "62deaa597827a7d43539d144df01e787",
     "semantic_hash": ""
   },
@@ -2084,19 +2084,19 @@
     "ast_hash": "1720227d399f557a96238fa605896c04",
     "semantic_hash": ""
   },
-  "android/app/src/main/assets/public/assets/index-CPb6hema.js": {
-    "mtime": 1790616956.1667569,
-    "ast_hash": "6579a793aa4e439fe80ce6adaaf6ea1b",
+  ".agents/skills/shriji-backend/SKILL.md": {
+    "mtime": 1791156895.2048032,
+    "ast_hash": "d6a277a554ffbcf7c55596aecb602cbf",
     "semantic_hash": ""
   },
-  "android/app/src/main/assets/public/assets/web-CCRxgSRk.js": {
-    "mtime": 1790616956.1679926,
-    "ast_hash": "f2bcfdb1e5971cb38fdbe7277866fa6e",
+  ".zcode/plans/plan-sess_d749a0f7-b4fd-4736-a57d-4aeb4776a331.md": {
+    "mtime": 1791154245.5535297,
+    "ast_hash": "db373625659f829295185bf0039936c3",
     "semantic_hash": ""
   },
-  "ios/App/App/public/assets/index-CPb6hema.js": {
-    "mtime": 1790616956.1667569,
-    "ast_hash": "6579a793aa4e439fe80ce6adaaf6ea1b",
+  "docs/BACKEND-ARCHITECTURE.md": {
+    "mtime": 1791700535.9536426,
+    "ast_hash": "a67d9738b5e5a302c866620f545f07c9",
     "semantic_hash": ""
   },
   "backend/package.json": {
