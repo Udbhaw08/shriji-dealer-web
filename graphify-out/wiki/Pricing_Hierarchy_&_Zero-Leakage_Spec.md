@@ -33,7 +33,7 @@
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (6 shared connections)
+- [[Product Pages Specification]] (6 shared connections)
 - [[Community 49]] (4 shared connections)
 
 ## Source Files

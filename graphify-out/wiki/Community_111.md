@@ -1,37 +1,47 @@
 # Community 111
 
-> 16 nodes · cohesion 0.12
+> 16 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Color** (10 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Specifications** (3 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **color.md** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **App accent colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Color management** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Inclusive color** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **iOS, iPadOS system gray colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Liquid Glass color** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **System colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **System colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **securityPhase2.test.mjs** (11 connections) — `backend/test/securityPhase2.test.mjs`
+- **dealerPricingAuth.js** (9 connections) — `api/dealerPricingAuth.js`
+- **getDealerPricingEligibility()** (8 connections) — `api/dealerPricingAuth.js`
+- **og.js** (7 connections) — `api/og.js`
+- **index.js** (7 connections) — `api/products/index.js`
+- **htmlEscape.js** (6 connections) — `api/htmlEscape.js`
+- **escapeHtml()** (6 connections) — `api/htmlEscape.js`
+- **sanitizeUrl()** (6 connections) — `api/htmlEscape.js`
+- **[id].js** (6 connections) — `api/products/[id].js`
+- **maskCatalogPricing()** (5 connections) — `api/dealerPricingAuth.js`
+- **maskProductPricing()** (5 connections) — `api/dealerPricingAuth.js`
+- **handler()** (5 connections) — `api/og.js`
+- **handler()** (5 connections) — `api/products/index.js`
+- **sanitizeHost()** (4 connections) — `api/htmlEscape.js`
+- **handler()** (4 connections) — `api/products/[id].js`
+- **mockWebhookAuthCheck()** (1 connections) — `backend/test/securityPhase2.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 112]] (10 shared connections)
+- [[Community 35]] (4 shared connections)
+- [[Mobile Responsive UI Skill]] (3 shared connections)
+- [[Community 140]] (3 shared connections)
+- [[Community 45]] (3 shared connections)
+- [[Vercel Deployment Routing]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/color.md`
+- `api/dealerPricingAuth.js`
+- `api/htmlEscape.js`
+- `api/og.js`
+- `api/products/[id].js`
+- `api/products/index.js`
+- `backend/test/securityPhase2.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
+- EXTRACTED: 95 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

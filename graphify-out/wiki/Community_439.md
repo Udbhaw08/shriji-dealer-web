@@ -10,7 +10,7 @@
 
 ## Relationships
 
-- [[Agent Guidelines (AGENTS.md)]] (1 shared connections)
+- [[Claude Agent Instructions]] (1 shared connections)
 
 ## Source Files
 

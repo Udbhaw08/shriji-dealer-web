@@ -1,34 +1,42 @@
 # Community 140
 
-> 13 nodes · cohesion 0.15
+> 13 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **Shriji Dealer Backend — Render Deployment Runbook** (7 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **5. Connecting Frontend to the Live Backend** (4 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **2. Choosing Your Deployment Method** (3 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **RENDER-DEPLOYMENT-RUNBOOK.md** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **1. In Vercel (or production frontend host):** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **1. Summary of Changes Made to Prepare the Codebase** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **2. In Local `.env.local` (for testing):** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **3. Environment Variables Reference** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **3. In Zoho CRM Workflow (Dealer Approval Webhook):** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **4. Free vs. Starter Plan Note** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **6. How to Verify After Deployment** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **Method A: One-Click Render Blueprint (Recommended)** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **Method B: Manual Web Service Setup (Step-by-Step)** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **vite.config.js** (23 connections) — `vite.config.js`
+- **download.js** (6 connections) — `api/download.js`
+- **handler()** (5 connections) — `api/download.js`
+- **ssrf.js** (5 connections) — `api/ssrf.js`
+- **validateSafeDownloadUrl()** (5 connections) — `api/ssrf.js`
+- **safeFetchWithRedirects()** (3 connections) — `api/download.js`
+- **isPrivateOrReservedIp()** (3 connections) — `api/ssrf.js`
+- **wrapJpegInPdf()** (2 connections) — `api/download.js`
+- **DEFAULT_SCHEMES** (2 connections) — `api/zoho.js`
+- **DEFAULT_STORE_BANNERS** (2 connections) — `api/zoho.js`
+- **loadContentService()** (2 connections) — `vite.config.js`
+- **ALLOWED_REMOTE_HOSTS** (1 connections) — `api/ssrf.js`
+- **liveAutoSyncPlugin()** (1 connections) — `vite.config.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 112]] (8 shared connections)
+- [[Community 104]] (5 shared connections)
+- [[Community 45]] (4 shared connections)
+- [[Community 35]] (3 shared connections)
+- [[Community 111]] (3 shared connections)
+- [[Community 249]] (1 shared connections)
 
 ## Source Files
 
-- `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- `api/download.js`
+- `api/ssrf.js`
+- `api/zoho.js`
+- `vite.config.js`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
+- EXTRACTED: 60 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,53 +1,53 @@
 # Community 48
 
-> 31 nodes · cohesion 0.09
+> 32 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **zoho.js** (60 connections) — `api/zoho.js`
-- **syncRecentProductTags()** (7 connections) — `api/zoho.js`
-- **normalizeProduct()** (6 connections) — `api/zoho.js`
-- **readTagCache()** (6 connections) — `api/zoho.js`
-- **updateCachedProductTags()** (4 connections) — `api/zoho.js`
-- **sync-tags.js** (4 connections) — `api/products/sync-tags.js`
-- **getCachedProductTags()** (3 connections) — `api/zoho.js`
-- **isItemOnline()** (3 connections) — `api/zoho.js`
-- **handler()** (3 connections) — `api/products/sync-tags.js`
-- **clearDiskCache()** (2 connections) — `api/zoho.js`
-- **isItemCategoryOnline()** (2 connections) — `api/zoho.js`
-- **parseRate()** (2 connections) — `api/zoho.js`
-- **slugifyCategory()** (2 connections) — `api/zoho.js`
-- **slugifyProduct()** (2 connections) — `api/zoho.js`
-- **writeProductsDiskCache()** (2 connections) — `api/zoho.js`
-- **writeTagCache()** (2 connections) — `api/zoho.js`
-- **cachedPricebooks** (1 connections) — `api/zoho.js`
-- **cachedProductDetails** (1 connections) — `api/zoho.js`
-- **cachedProductsByPricebook** (1 connections) — `api/zoho.js`
-- **isBannerItem()** (1 connections) — `api/zoho.js`
-- **isLogoItem()** (1 connections) — `api/zoho.js`
-- **isSchemeItem()** (1 connections) — `api/zoho.js`
-- **localCacheFile** (1 connections) — `api/zoho.js`
-- **localDetailCacheFile** (1 connections) — `api/zoho.js`
-- **localProductsCacheFile** (1 connections) — `api/zoho.js`
-- *... and 6 more nodes in this community*
+- **archify.mjs** (50 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandDeliver()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandMigrate()** (17 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandValidate()** (13 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandRender()** (10 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandPreview()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **diagnostic()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **rendererPath()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **renderValidatedArchitecture()** (8 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractQualityArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractRepoRootArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **rejectCliArgument()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **assertEvidenceType()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **checkerDiagnostics()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **rendererEnv()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **rendererFailure()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportArtifactFailure()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **inputDiagnostic()** (4 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **engineeringProfileFromArtifact()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **migrationPathDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **migrationReport()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportArtifactArgumentFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportDeliveryFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportValidateFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **sourceEvidenceFromArtifact()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [[Community 81]] (23 shared connections)
-- [[Community 246]] (6 shared connections)
-- [[Community 162]] (6 shared connections)
-- [[Community 96]] (3 shared connections)
-- [[Community 143]] (1 shared connections)
+- [[Community 141]] (27 shared connections)
+- [[Community 297]] (11 shared connections)
+- [[Community 102]] (4 shared connections)
+- [[Community 132]] (3 shared connections)
+- [[Community 250]] (2 shared connections)
+- [[Community 63]] (2 shared connections)
 
 ## Source Files
 
-- `api/products/sync-tags.js`
-- `api/zoho.js`
+- `.agents/skills/archify/bin/archify.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 125 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 221 (97%)
+- INFERRED: 6 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

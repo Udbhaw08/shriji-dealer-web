@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **Windows** (5 connections) — `.agents/skills/apple-design/references/hig/windows.md`
-- **Desktop (macOS)** (3 connections) — `.agents/skills/apple-design/references/hig/windows.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/windows.md`
-- **windows.md** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
-- **macOS window anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
-- **macOS window states** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
-- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **Lists and tables** (7 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
+- **lists-and-tables.md** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
+- **Mobile (iOS, iPadOS, visionOS)** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
+- **Style** (1 connections) — `.agents/skills/apple-design/references/hig/lists-and-tables.md`
 
 ## Relationships
 
@@ -21,7 +21,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/windows.md`
+- `.agents/skills/apple-design/references/hig/lists-and-tables.md`
 
 ## Audit Trail
 

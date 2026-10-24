@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Multi-Skill Redesign & Cross-Platform UI Protocol** (4 connections) — `.agents/rules/redesign_instructions.md`
-- **redesign_instructions.md** (1 connections) — `.agents/rules/redesign_instructions.md`
-- **Rule 1: Mandatory Multi-Skill Consultation** (1 connections) — `.agents/rules/redesign_instructions.md`
-- **Rule 2: Adaptive Multi-Device Responsiveness** (1 connections) — `.agents/rules/redesign_instructions.md`
-- **Rule 3: Merge for Better Results** (1 connections) — `.agents/rules/redesign_instructions.md`
+- **Archify Diagram Generation Protocol** (4 connections) — `.agents/rules/archify.md`
+- **archify.md** (1 connections) — `.agents/rules/archify.md`
+- **Rule 1: Dedicated Subfolder Per Diagram** (1 connections) — `.agents/rules/archify.md`
+- **Rule 2: Output Artifacts (HTML & Dark Image Only)** (1 connections) — `.agents/rules/archify.md`
+- **Rule 3: Intermediate File Cleanup** (1 connections) — `.agents/rules/archify.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/rules/redesign_instructions.md`
+- `.agents/rules/archify.md`
 
 ## Audit Trail
 

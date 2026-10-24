@@ -1,53 +1,54 @@
 # Product Requirements Documentation
 
-> 57 nodes · cohesion 0.08
+> 58 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **ot()** (22 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **k()** (20 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **lt()** (15 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **nt()** (15 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **ft()** (14 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **A()** (12 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **mt()** (12 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **F()** (11 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **be()** (10 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **kt()** (10 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **P()** (10 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **tf()** (10 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **yn()** (10 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **af()** (9 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **mn()** (9 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **O()** (9 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **ut()** (9 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **at()** (8 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **ct()** (8 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **it()** (8 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **L()** (8 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **on()** (8 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **ef()** (7 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **kf()** (7 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **lf()** (7 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- *... and 32 more nodes in this community*
+- **get()** (27 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **at()** (21 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **k()** (20 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **U()** (19 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **ct()** (16 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **la()** (15 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **A()** (12 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **Dn()** (12 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **pt()** (12 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **dt()** (11 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **mt()** (11 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **no()** (11 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **ye()** (11 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **so()** (9 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **st()** (9 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **xt()** (9 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **kf()** (8 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **lt()** (8 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **tt()** (8 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **Gt()** (7 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **it()** (7 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **jc()** (7 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **je()** (7 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **jn()** (7 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **oo()** (7 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- *... and 33 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (66 shared connections)
-- [[Design System & UI Tokens]] (23 shared connections)
-- [[Master Codebase Architecture Reference]] (19 shared connections)
-- [[Community 35]] (18 shared connections)
-- [[Pricing & Roles Skill]] (12 shared connections)
-- [[Oxlint Linter Configuration]] (12 shared connections)
-- [[Live Pricing Audit Tool]] (7 shared connections)
+- [[Dealer Auth & Session Management]] (68 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (39 shared connections)
+- [[Community 40]] (20 shared connections)
+- [[Master Codebase Architecture Reference]] (18 shared connections)
+- [[Community 44]] (16 shared connections)
+- [[Live Pricing Audit Tool]] (14 shared connections)
+- [[Community 39]] (8 shared connections)
+- [[Community 169]] (6 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
+- `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
 
 ## Audit Trail
 
-- EXTRACTED: 403 (100%)
+- EXTRACTED: 423 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

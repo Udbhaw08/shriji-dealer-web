@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **story-horizon.test.mjs** (6 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **semantic-passport.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **svg()** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/story-horizon.test.mjs`
+- `.agents/skills/archify/test/semantic-passport.test.mjs`
 
 ## Audit Trail
 

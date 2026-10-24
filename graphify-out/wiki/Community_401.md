@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **Using modern SwiftUI API** (3 connections) — `.agents/skills/swiftui-pro/references/api.md`
-- **api.md** (1 connections) — `.agents/skills/swiftui-pro/references/api.md`
-- **Toolbars** (1 connections) — `.agents/skills/swiftui-pro/references/api.md`
-- **Using ObservableObject** (1 connections) — `.agents/skills/swiftui-pro/references/api.md`
+- **Web views** (3 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
+- **web-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/api.md`
+- `.agents/skills/apple-design/references/hig/web-views.md`
 
 ## Audit Trail
 

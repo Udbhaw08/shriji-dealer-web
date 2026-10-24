@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **10. Text Polish Details** (5 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Content Overflow** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Punctuation** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Tabular Numbers** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Text Wrapping for Headings** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Shriji Domestic Appliances — Sunshine Dealer Web** (4 connections) — `README.md`
+- **README.md** (1 connections) — `README.md`
+- **Documentation** (1 connections) — `README.md`
+- **Layout** (1 connections) — `README.md`
+- **Two things to know before you change anything** (1 connections) — `README.md`
 
 ## Relationships
 
-- [[Community 230]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `README.md`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

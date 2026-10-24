@@ -1,36 +1,35 @@
 # Community 146
 
-> 13 nodes · cohesion 0.21
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **semantic-radar.test.mjs** (15 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **evaluate()** (5 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **dragMouse()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **loadArtifact()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **observe()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **radarRects()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **overlaps()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
+- **run()** (2 connections) — `scripts/audit_prices.mjs`
+- **content** (1 connections) — `scripts/audit_prices.mjs`
+- **csvItems** (1 connections) — `scripts/audit_prices.mjs`
+- **idIdx** (1 connections) — `scripts/audit_prices.mjs`
+- **lines** (1 connections) — `scripts/audit_prices.mjs`
+- **lpIdx** (1 connections) — `scripts/audit_prices.mjs`
+- **nameIdx** (1 connections) — `scripts/audit_prices.mjs`
+- **parseCSVLine()** (1 connections) — `scripts/audit_prices.mjs`
+- **parsedHeader** (1 connections) — `scripts/audit_prices.mjs`
+- **showIdx** (1 connections) — `scripts/audit_prices.mjs`
+- **spIdx** (1 connections) — `scripts/audit_prices.mjs`
+- **statusIdx** (1 connections) — `scripts/audit_prices.mjs`
 
 ## Relationships
 
-- [[Community 49]] (1 shared connections)
-- [[Community 82]] (1 shared connections)
-- [[Community 124]] (1 shared connections)
+- [[Community 112]] (2 shared connections)
+- [[Community 45]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/semantic-radar.test.mjs`
+- `scripts/audit_prices.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 27 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

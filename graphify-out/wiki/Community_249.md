@@ -1,29 +1,33 @@
 # Community 249
 
-> 8 nodes · cohesion 0.25
+> 8 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **Controls** (7 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Camera experiences on a locked device** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **createDealerContact()** (9 connections) — `api/zoho.js`
+- **getAccessToken()** (6 connections) — `api/zoho.js`
+- **loadEnv()** (4 connections) — `api/zoho.js`
+- **test-zoho-api.mjs** (4 connections) — `scripts/test-zoho-api.mjs`
+- **apply.js** (3 connections) — `api/dealer/apply.js`
+- **readDiskCache()** (2 connections) — `api/zoho.js`
+- **handler()** (2 connections) — `api/dealer/apply.js`
+- **{ dc, orgId }** (1 connections) — `scripts/test-zoho-api.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 45]] (6 shared connections)
+- [[Community 112]] (6 shared connections)
+- [[Community 140]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/controls.md`
+- `api/dealer/apply.js`
+- `api/zoho.js`
+- `scripts/test-zoho-api.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 31 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

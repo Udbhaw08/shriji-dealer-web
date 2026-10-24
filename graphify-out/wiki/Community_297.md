@@ -4,26 +4,31 @@
 
 ## Key Concepts
 
-- **Entering data** (5 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **entering-data.md** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **commandCompare()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commitComparePair()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractCompareOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **formatDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportCompareFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **compareCommitError()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **compareReceiptPath()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 48]] (11 shared connections)
+- [[Community 113]] (4 shared connections)
+- [[Community 141]] (3 shared connections)
+- [[Community 83]] (2 shared connections)
+- [[Community 60]] (2 shared connections)
+- [[Community 102]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/entering-data.md`
+- `.agents/skills/archify/bin/archify.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 27 (75%)
+- INFERRED: 9 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

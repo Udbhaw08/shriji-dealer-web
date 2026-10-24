@@ -27,8 +27,8 @@
 
 ## Relationships
 
-- [[Community 59]] (20 shared connections)
-- [[Community 294]] (2 shared connections)
+- [[Community 60]] (20 shared connections)
+- [[Community 297]] (2 shared connections)
 - [[Graphify Knowledge Graph Skill]] (2 shared connections)
 
 ## Source Files

@@ -1,54 +1,55 @@
 # Graphify Agent Rules
 
-> 42 nodes · cohesion 0.08
+> 42 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **al()** (40 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **ia()** (20 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **bc()** (18 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **lm()** (12 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **r()** (12 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **ta()** (10 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **Ci()** (9 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **da()** (8 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **kc()** (8 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **ma()** (8 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **no()** (8 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **oa()** (8 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **Sp()** (8 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **ao()** (7 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **cs()** (7 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **dc()** (6 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **fa()** (6 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **la()** (6 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **lh()** (6 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **oo()** (6 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **Ca()** (5 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **jl()** (5 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **qn()** (5 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **rl()** (5 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **im()** (4 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
+- **properties** (30 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **col** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **height** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **brand** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **channelX** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **channelY** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **from** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **labelDx** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **labelDy** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **lane** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **note** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **route** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **sublabel** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **tag** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **to** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **toSide** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **variant** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **yOffset** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **maximum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 - *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (51 shared connections)
-- [[Pricing Regression Test Suite]] (31 shared connections)
-- [[Product Pages Specification]] (22 shared connections)
-- [[Community 37]] (11 shared connections)
-- [[Mobile Responsive UI Skill]] (10 shared connections)
-- [[Product Brand & Business Vision]] (9 shared connections)
-- [[Roles & Customer Sharing Spec]] (9 shared connections)
-- [[Community 349]] (1 shared connections)
+- [[Community 182]] (3 shared connections)
+- [[Community 445]] (1 shared connections)
+- [[Community 468]] (1 shared connections)
+- [[Community 446]] (1 shared connections)
+- [[Community 469]] (1 shared connections)
+- [[Community 447]] (1 shared connections)
+- [[Community 470]] (1 shared connections)
+- [[Community 413]] (1 shared connections)
+- [[Community 414]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BCLPPqt8.js`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 286 (100%)
+- EXTRACTED: 93 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

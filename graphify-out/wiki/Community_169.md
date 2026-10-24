@@ -1,32 +1,38 @@
 # Community 169
 
-> 11 nodes · cohesion 0.18
+> 11 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **Dark Mode** (6 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Dark Mode colors** (3 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **dark-mode.md** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Icons and images** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Text** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **tf()** (10 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **ef()** (7 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **lf()** (7 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **uf()** (7 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **of()** (6 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **sf()** (5 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **jf()** (4 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **vf()** (4 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **Wf()** (3 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **hp()** (2 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (12 shared connections)
+- [[Product Requirements Documentation]] (6 shared connections)
+- [[Live Pricing Audit Tool]] (5 shared connections)
+- [[Community 40]] (2 shared connections)
+- [[Community 39]] (2 shared connections)
+- [[Community 44]] (1 shared connections)
+- [[Master Codebase Architecture Reference]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/dark-mode.md`
+- `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 59 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

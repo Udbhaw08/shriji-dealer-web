@@ -1,61 +1,48 @@
 # Zoho Integration Skill
 
-> 45 nodes · cohesion 0.11
+> 45 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **session.js** (51 connections) — `src/data/session.js`
-- **Login.jsx** (43 connections) — `src/pages/Login.jsx`
-- **DealerApply.jsx** (26 connections) — `src/pages/DealerApply.jsx`
-- **BrandApplyFlow.jsx** (20 connections) — `src/components/BrandApplyFlow.jsx`
-- **StaffJoin.jsx** (14 connections) — `src/pages/StaffJoin.jsx`
-- **revalidateSession()** (13 connections) — `src/data/session.js`
-- **loginCode.js** (11 connections) — `src/data/loginCode.js`
-- **setSession()** (10 connections) — `src/data/session.js`
-- **validators.js** (10 connections) — `src/data/validators.js`
-- **registerDealer()** (7 connections) — `src/data/dealer.js`
-- **signOut()** (7 connections) — `src/data/session.js`
-- **applyAsDealer()** (6 connections) — `src/data/auth.js`
-- **formatLoginCode()** (6 connections) — `src/data/loginCode.js`
-- **isValidEmail()** (6 connections) — `src/data/validators.js`
-- **DealerPending.jsx** (6 connections) — `src/pages/DealerPending.jsx`
-- **requestDealerRegistrationOtp()** (5 connections) — `src/data/auth.js`
-- **verifyDealerRegistrationOtp()** (5 connections) — `src/data/auth.js`
-- **switchToDealerSession()** (5 connections) — `src/data/session.js`
-- **isValidName()** (5 connections) — `src/data/validators.js`
-- **isValidPhone()** (5 connections) — `src/data/validators.js`
-- **BrandApplyFlow()** (4 connections) — `src/components/BrandApplyFlow.jsx`
-- **hasSession()** (4 connections) — `src/data/auth.js`
-- **GST_TREATMENT_OPTIONS** (4 connections) — `src/data/loginCode.js`
-- **switchToViewerSession()** (4 connections) — `src/data/session.js`
-- **isValidGstin()** (4 connections) — `src/data/validators.js`
+- **generated-validators.mjs** (41 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **func3()** (11 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **generate-validators.test.mjs** (5 connections) — `.agents/skills/archify/test/generate-validators.test.mjs`
+- **validate20()** (4 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate22()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate27()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate28()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate30()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate31()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate33()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate34()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate36()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate37()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate24()** (2 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern17** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern18** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern20** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern4** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern57** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema112** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema116** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema118** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema149** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema31** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema33** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
 - *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [[Community 41]] (43 shared connections)
-- [[Dependencies & Package Config]] (40 shared connections)
-- [[Community 58]] (14 shared connections)
-- [[Community 43]] (10 shared connections)
-- [[Community 125]] (1 shared connections)
-- [[Community 165]] (1 shared connections)
+- [[Zoho Integration Architecture]] (1 shared connections)
 
 ## Source Files
 
-- `src/components/BrandApplyFlow.jsx`
-- `src/data/auth.js`
-- `src/data/dealer.js`
-- `src/data/loginCode.js`
-- `src/data/session.js`
-- `src/data/validators.js`
-- `src/pages/DealerApply.jsx`
-- `src/pages/DealerPending.jsx`
-- `src/pages/Login.jsx`
-- `src/pages/StaffJoin.jsx`
+- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- `.agents/skills/archify/test/generate-validators.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 317 (100%)
+- EXTRACTED: 121 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

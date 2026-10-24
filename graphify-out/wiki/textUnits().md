@@ -2,7 +2,7 @@
 
 > God node · 33 connections · `.agents/skills/archify/renderers/shared/utils.mjs`
 
-**Community:** [[Community 40]]
+**Community:** [[Community 37]]
 
 ## Connections by Relation
 

@@ -1,47 +1,56 @@
 # Community 55
 
-> 26 nodes · cohesion 0.08
+> 26 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **Copywriting Guide** (15 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Banned Words** (5 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Microcopy** (4 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Product UI Copy** (4 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **copywriting.md** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **AI Slop Markers** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Avoid on Operational Surfaces** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Buttons** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Core Belief** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Corporate Zombie** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Empty States** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Errors** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Filler** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Headings: Descriptive, Not Aspirational** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Hype** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Info-Style Thinking** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Living Words vs Dead Words** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Marketing Hero Section** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Pre-Publish Checklist** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Proof Beats Hype** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Rhythm** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **The Order of Great Copy** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **The Sticky Line Test** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Universal Copy Structure** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **When Marketing Tone IS Appropriate in Product** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **i18n.js** (25 connections) — `src/data/i18n.js`
+- **Products.jsx** (25 connections) — `src/pages/Products.jsx`
+- **ProductSearchBar.jsx** (15 connections) — `src/components/ProductSearchBar.jsx`
+- **useProducts()** (12 connections) — `src/data/productsStore.js`
+- **searchHelper.js** (11 connections) — `src/data/searchHelper.js`
+- **ProductSearchBar()** (6 connections) — `src/components/ProductSearchBar.jsx`
+- **getSuggestions()** (5 connections) — `src/data/searchHelper.js`
+- **autocorrectQuery()** (4 connections) — `src/data/searchHelper.js`
+- **buildSearchDictionary()** (4 connections) — `src/data/searchHelper.js`
+- **setLanguage()** (3 connections) — `src/data/i18n.js`
+- **tCat()** (3 connections) — `src/data/i18n.js`
+- **emit()** (2 connections) — `src/data/i18n.js`
+- **toggleLanguage()** (2 connections) — `src/data/i18n.js`
+- **useProduct()** (2 connections) — `src/data/productsStore.js`
+- **getPopularSearches()** (2 connections) — `src/data/searchHelper.js`
+- **scoreProduct()** (2 connections) — `src/data/searchHelper.js`
+- **translations.js** (2 connections) — `src/data/translations.js`
+- **TRANSLATIONS** (2 connections) — `src/data/translations.js`
+- **currentLang** (1 connections) — `src/data/i18n.js`
+- **getInitialLang()** (1 connections) — `src/data/i18n.js`
+- **getLanguage()** (1 connections) — `src/data/i18n.js`
+- **listeners** (1 connections) — `src/data/i18n.js`
+- **COLLOQUIAL_SYNONYMS** (1 connections) — `src/data/searchHelper.js`
+- **levenshteinDistance()** (1 connections) — `src/data/searchHelper.js`
+- **Group()** (1 connections) — `src/pages/Products.jsx`
 - *... and 1 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Design System & UI Tokens]] (27 shared connections)
+- [[Community 47]] (17 shared connections)
+- [[Community 96]] (4 shared connections)
+- [[Project Readme & Layout]] (2 shared connections)
+- [[Community 152]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/copywriting.md`
+- `src/components/ProductSearchBar.jsx`
+- `src/data/i18n.js`
+- `src/data/productsStore.js`
+- `src/data/searchHelper.js`
+- `src/data/translations.js`
+- `src/pages/Products.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (100%)
+- EXTRACTED: 135 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

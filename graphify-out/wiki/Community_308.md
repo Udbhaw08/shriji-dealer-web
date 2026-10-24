@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Searching** (6 connections) — `.agents/skills/apple-design/references/hig/searching.md`
-- **searching.md** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
-- **Systemwide search** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **Pop-up buttons** (5 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
+- **pop-up-buttons.md** (1 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/searching.md`
+- `.agents/skills/apple-design/references/hig/pop-up-buttons.md`
 
 ## Audit Trail
 

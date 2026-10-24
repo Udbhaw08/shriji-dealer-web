@@ -1,38 +1,33 @@
 # Community 162
 
-> 11 nodes · cohesion 0.24
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **vite.config.js** (20 connections) — `vite.config.js`
-- **getDealerById()** (7 connections) — `api/zoho.js`
-- **handler()** (4 connections) — `api/download.js`
-- **download.js** (3 connections) — `api/download.js`
-- **info.js** (3 connections) — `api/dealer/info.js`
-- **wrapJpegInPdf()** (2 connections) — `api/download.js`
-- **DEFAULT_SCHEMES** (2 connections) — `api/zoho.js`
-- **DEFAULT_STORE_BANNERS** (2 connections) — `api/zoho.js`
-- **handler()** (2 connections) — `api/dealer/info.js`
-- **loadContentService()** (2 connections) — `vite.config.js`
-- **liveAutoSyncPlugin()** (1 connections) — `vite.config.js`
+- **Search fields** (6 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Phone (iOS)** (4 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **search-fields.md** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Scope bars and tokens** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Search as a tab** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Search as an inline field** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Search in a toolbar** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Tablet and desktop (iPadOS, macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
 
 ## Relationships
 
-- [[Community 96]] (10 shared connections)
-- [[Community 48]] (6 shared connections)
-- [[Community 81]] (5 shared connections)
-- [[Community 246]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `api/dealer/info.js`
-- `api/download.js`
-- `api/zoho.js`
-- `vite.config.js`
+- `.agents/skills/apple-design/references/hig/search-fields.md`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

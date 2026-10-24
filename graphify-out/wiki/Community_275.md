@@ -1,29 +1,31 @@
 # Community 275
 
-> 8 nodes · cohesion 0.25
+> 8 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **guided-views.test.mjs** (7 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **fixture()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **svg()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **isDroppedPlatformText()** (5 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **headingLine()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **relabelHeading()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **isDroppedBoilerplate()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **platformsMentioned()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **reduceHeading()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **isDroppedPlatformLabel()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **platformGroupLabel()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 74]] (8 shared connections)
+- [[Community 205]] (1 shared connections)
+- [[Community 204]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/guided-views.test.mjs`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

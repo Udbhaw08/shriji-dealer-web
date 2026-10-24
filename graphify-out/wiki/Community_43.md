@@ -1,59 +1,60 @@
 # Community 43
 
-> 34 nodes · cohesion 0.16
+> 34 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **Product.jsx** (34 connections) — `src/pages/Product.jsx`
-- **dealer.js** (29 connections) — `src/data/dealer.js`
-- **Favorites.jsx** (20 connections) — `src/pages/Favorites.jsx`
-- **ProductCard.jsx** (19 connections) — `src/components/ProductCard.jsx`
-- **dealer.test.mjs** (18 connections) — `src/data/dealer.test.mjs`
-- **PriceBlock.jsx** (15 connections) — `src/components/PriceBlock.jsx`
-- **ProductCard()** (15 connections) — `src/components/ProductCard.jsx`
-- **Product()** (15 connections) — `src/pages/Product.jsx`
-- **priceFor()** (14 connections) — `src/data/dealer.js`
-- **useFavorites()** (13 connections) — `src/data/favoritesStore.js`
-- **inr()** (12 connections) — `src/data/dealer.js`
-- **viewerFor()** (8 connections) — `src/data/dealer.js`
-- **CustomerPrice()** (7 connections) — `src/components/PriceBlock.jsx`
-- **productSlug()** (7 connections) — `src/data/dealer.js`
-- **shareLink()** (7 connections) — `src/data/dealer.js`
-- **tagFor()** (6 connections) — `src/data/dealer.js`
-- **DealerPrice()** (5 connections) — `src/components/PriceBlock.jsx`
-- **formatWhatsAppPhone()** (4 connections) — `src/data/dealer.js`
-- **slugifyProduct()** (4 connections) — `src/data/dealer.js`
-- **tierOf()** (4 connections) — `src/data/dealer.js`
-- **DEALERS** (3 connections) — `src/data/dealer.js`
-- **isFavorite()** (3 connections) — `src/data/favoritesStore.js`
-- **PriceBlock()** (2 connections) — `src/components/PriceBlock.jsx`
-- **price99()** (2 connections) — `src/data/dealer.js`
-- **BAND** (1 connections) — `src/data/dealer.js`
+- **auth.js** (52 connections) — `backend/src/routes/auth.js`
+- **dealerApp.js** (44 connections) — `backend/src/services/dealerApp.js`
+- **normalizeEmail()** (18 connections) — `backend/src/utils/validators.js`
+- **notifications.js** (16 connections) — `backend/src/services/notifications.js`
+- **validators.js** (15 connections) — `backend/src/utils/validators.js`
+- **requestDealerRegistrationOtp()** (14 connections) — `backend/src/services/dealerApp.js`
+- **finalizeDealerRegistration()** (12 connections) — `backend/src/services/dealerApp.js`
+- **isValidPhone()** (11 connections) — `backend/src/utils/validators.js`
+- **cleanName()** (9 connections) — `backend/src/utils/validators.js`
+- **httpError()** (8 connections) — `backend/src/middleware/errorHandler.js`
+- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
+- **verifyDealerRegistrationOtp()** (7 connections) — `backend/src/services/dealerApp.js`
+- **sendWhatsAppOtp()** (7 connections) — `backend/src/services/notifications.js`
+- **isValidEmail()** (7 connections) — `backend/src/utils/validators.js`
+- **isValidName()** (6 connections) — `backend/src/utils/validators.js`
+- **issueSession()** (5 connections) — `backend/src/routes/auth.js`
+- **applyCrmContactState()** (5 connections) — `backend/src/services/dealerApp.js`
+- **sendEmailOtp()** (5 connections) — `backend/src/services/notifications.js`
+- **isValidGstin()** (5 connections) — `backend/src/utils/validators.js`
+- **isUserFullyOnboarded()** (4 connections) — `backend/src/routes/auth.js`
+- **resolveUserWithDealer()** (4 connections) — `backend/src/routes/auth.js`
+- **emailOnlyIdentifier()** (3 connections) — `backend/src/routes/auth.js`
+- **findUserByEmail()** (3 connections) — `backend/src/routes/auth.js`
+- **publicUser()** (3 connections) — `backend/src/routes/auth.js`
+- **handleDealerRegistrationFinalize()** (3 connections) — `backend/src/routes/dealers.js`
 - *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [[Dependencies & Package Config]] (60 shared connections)
-- [[Community 125]] (12 shared connections)
-- [[Zoho Integration Skill]] (10 shared connections)
-- [[Community 165]] (5 shared connections)
-- [[Community 164]] (5 shared connections)
-- [[Community 58]] (5 shared connections)
-- [[Community 105]] (3 shared connections)
+- [[Vercel Deployment Routing]] (34 shared connections)
+- [[Community 80]] (27 shared connections)
+- [[Mobile Responsive UI Skill]] (18 shared connections)
+- [[Client Products Data Store]] (16 shared connections)
+- [[Community 232]] (5 shared connections)
+- [[Community 136]] (4 shared connections)
+- [[Community 35]] (2 shared connections)
 
 ## Source Files
 
-- `src/components/PriceBlock.jsx`
-- `src/components/ProductCard.jsx`
-- `src/data/dealer.js`
-- `src/data/dealer.test.mjs`
-- `src/data/favoritesStore.js`
-- `src/pages/Favorites.jsx`
-- `src/pages/Product.jsx`
+- `backend/src/middleware/errorHandler.js`
+- `backend/src/routes/auth.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/services/notifications.js`
+- `backend/src/utils/validators.js`
+- `backend/test/crmSync.test.mjs`
+- `backend/test/validators.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 276 (100%)
+- EXTRACTED: 292 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

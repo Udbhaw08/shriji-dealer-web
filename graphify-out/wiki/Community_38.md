@@ -1,47 +1,51 @@
 # Community 38
 
-> 38 nodes · cohesion 0.05
+> 37 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **scripts** (15 connections) — `package.json`
-- **dependencies** (12 connections) — `package.json`
-- **package.json** (7 connections) — `package.json`
-- **devDependencies** (6 connections) — `package.json`
-- **@capacitor/android** (1 connections) — `package.json`
-- **@capacitor/app** (1 connections) — `package.json`
-- **@capacitor/cli** (1 connections) — `package.json`
-- **@capacitor/core** (1 connections) — `package.json`
-- **@capacitor/ios** (1 connections) — `package.json`
-- **@capacitor/preferences** (1 connections) — `package.json`
-- **dotenv** (1 connections) — `package.json`
-- **postgres** (1 connections) — `package.json`
-- **react** (1 connections) — `package.json`
-- **react-dom** (1 connections) — `package.json`
-- **react-router-dom** (1 connections) — `package.json`
-- **oxlint** (1 connections) — `package.json`
-- **@types/react** (1 connections) — `package.json`
-- **@types/react-dom** (1 connections) — `package.json`
-- **vite** (1 connections) — `package.json`
-- **@vitejs/plugin-react** (1 connections) — `package.json`
-- **name** (1 connections) — `package.json`
-- **private** (1 connections) — `package.json`
-- **build** (1 connections) — `package.json`
-- **build:backend** (1 connections) — `package.json`
-- **cap:android** (1 connections) — `package.json`
-- *... and 13 more nodes in this community*
+- **auth.js** (52 connections) — `src/data/auth.js`
+- **json()** (31 connections) — `src/data/auth.js`
+- **callBackend()** (28 connections) — `src/data/auth.js`
+- **DealerDashboard.jsx** (23 connections) — `src/pages/DealerDashboard.jsx`
+- **broadcastAuthChange()** (13 connections) — `src/data/auth.js`
+- **EmailVerificationPrompt.jsx** (10 connections) — `src/components/EmailVerificationPrompt.jsx`
+- **applyAuthResponse()** (9 connections) — `src/data/auth.js`
+- **finalizeDealerRegistration()** (7 connections) — `src/data/auth.js`
+- **staffSignup()** (7 connections) — `src/data/auth.js`
+- **logout()** (6 connections) — `src/data/auth.js`
+- **verifyEmailOtp()** (6 connections) — `src/data/auth.js`
+- **fetchMe()** (5 connections) — `src/data/auth.js`
+- **googleLogin()** (5 connections) — `src/data/auth.js`
+- **login()** (5 connections) — `src/data/auth.js`
+- **lookupStaffCode()** (5 connections) — `src/data/auth.js`
+- **requestEmailOtp()** (5 connections) — `src/data/auth.js`
+- **signup()** (5 connections) — `src/data/auth.js`
+- **staffTogglePrice()** (5 connections) — `src/data/auth.js`
+- **staffTogglePriceAll()** (5 connections) — `src/data/auth.js`
+- **verifyOtp()** (5 connections) — `src/data/auth.js`
+- **verifyPhoneOtp()** (5 connections) — `src/data/auth.js`
+- **persistTokens()** (4 connections) — `src/data/auth.js`
+- **requestOtp()** (4 connections) — `src/data/auth.js`
+- **requestPhoneOtp()** (4 connections) — `src/data/auth.js`
+- **staffApprove()** (4 connections) — `src/data/auth.js`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Project Readme & Layout]] (48 shared connections)
+- [[Community 96]] (9 shared connections)
+- [[Design System & UI Tokens]] (8 shared connections)
 
 ## Source Files
 
-- `package.json`
+- `src/components/EmailVerificationPrompt.jsx`
+- `src/data/auth.js`
+- `src/pages/DealerDashboard.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 74 (100%)
+- EXTRACTED: 303 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

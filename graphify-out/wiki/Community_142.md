@@ -4,31 +4,33 @@
 
 ## Key Concepts
 
-- **Product** (12 connections) — `PRODUCT.md`
-- **PRODUCT.md** (1 connections) — `PRODUCT.md`
-- **Accessibility & Inclusion** (1 connections) — `PRODUCT.md`
-- **Brand Commitments** (1 connections) — `PRODUCT.md`
-- **Capabilities and Constraints** (1 connections) — `PRODUCT.md`
-- **Evidence on Hand** (1 connections) — `PRODUCT.md`
-- **Operating Context** (1 connections) — `PRODUCT.md`
-- **Platform** (1 connections) — `PRODUCT.md`
-- **Positioning** (1 connections) — `PRODUCT.md`
-- **Product Principles** (1 connections) — `PRODUCT.md`
-- **Product Purpose** (1 connections) — `PRODUCT.md`
-- **Stack** (1 connections) — `PRODUCT.md`
-- **Users** (1 connections) — `PRODUCT.md`
+- **architecture-delta.test.mjs** (16 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **ArchitectureDeltaError** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **baseFixture** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **checkedArtifact** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **checkedReceipt** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **headFixture** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **read()** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 60]] (4 shared connections)
+- [[Community 113]] (2 shared connections)
 
 ## Source Files
 
-- `PRODUCT.md`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
+- `.agents/skills/archify/test/architecture-delta.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
+- EXTRACTED: 30 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

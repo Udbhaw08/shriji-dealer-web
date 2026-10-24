@@ -4,27 +4,27 @@
 
 ## Key Concepts
 
-- **8. Letter Spacing (Tracking)** (9 connections) — `.agents/skills/refero-design/references/typography.md`
-- **ALL CAPS Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **CSS Tokens** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Pre-Implementation Checklist** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Quick Reference** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Small Text Rule — Often Forgotten** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Units** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **When to Tighten** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Why It Matters** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **web-D5B9-15S.js** (8 connections) — `ios/App/App/public/assets/web-D5B9-15S.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-D5B9-15S.js`
+- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-D5B9-15S.js`
+- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-D5B9-15S.js`
+- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-D5B9-15S.js`
+- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-D5B9-15S.js`
+- **getState()** (1 connections) — `ios/App/App/public/assets/web-D5B9-15S.js`
+- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-D5B9-15S.js`
+- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-D5B9-15S.js`
 
 ## Relationships
 
-- [[Community 230]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `ios/App/App/public/assets/web-D5B9-15S.js`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

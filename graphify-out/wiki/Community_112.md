@@ -1,38 +1,45 @@
 # Community 112
 
-> 16 nodes · cohesion 0.12
+> 16 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **Anti-AI-Slop Guide** (15 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **anti-ai-slop.md** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **Litmus Tests** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **Safe vs. Intentional** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #1 TELL: INDIGO/VIOLET** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #2 TELL: CARDS EVERYWHERE** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #3 TELL: DARK MODE BY DEFAULT** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #4 TELL: CALM EDITORIAL SERIF ON AUTOPILOT** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #5 TELL: EMOJI AS ICONS** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #6 TELL: LEFT ACCENT STRIPE** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #7 TELL: REFERENCE AVERAGING** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #8 TELL: TOKEN ROLE DRIFT** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #9 TELL: FAKE GRAPHICS OR TEXT-ONLY COLLAPSE** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **The AI Slop Detector Checklist** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **The Antidote: Intentional Design** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **What Makes Design Look Generic** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
+- **fetchZohoProductById()** (18 connections) — `api/zoho.js`
+- **fetchZohoProducts()** (16 connections) — `api/zoho.js`
+- **zohoApiPlugin()** (15 connections) — `vite.config.js`
+- **fetchZohoWithRetry()** (12 connections) — `api/zoho.js`
+- **getZohoConfig()** (12 connections) — `api/zoho.js`
+- **fetchAllRawZohoProducts()** (8 connections) — `api/zoho.js`
+- **fetchZohoCategories()** (8 connections) — `api/zoho.js`
+- **fetchZohoBanners()** (7 connections) — `api/zoho.js`
+- **fetchZohoSchemes()** (7 connections) — `api/zoho.js`
+- **getCategoryVisibilityMap()** (7 connections) — `api/zoho.js`
+- **getDealerById()** (7 connections) — `api/zoho.js`
+- **fetchZohoPricebookItems()** (6 connections) — `api/zoho.js`
+- **resolvePricebookId()** (5 connections) — `api/zoho.js`
+- **fetchZohoPricebooks()** (4 connections) — `api/zoho.js`
+- **fetchZohoRawCategories()** (4 connections) — `api/zoho.js`
+- **readProductsDiskCache()** (3 connections) — `api/zoho.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 45]] (24 shared connections)
+- [[Community 111]] (10 shared connections)
+- [[Community 140]] (8 shared connections)
+- [[Community 104]] (7 shared connections)
+- [[Community 249]] (6 shared connections)
+- [[Community 146]] (2 shared connections)
+- [[Vercel Deployment Routing]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/anti-ai-slop.md`
+- `api/zoho.js`
+- `vite.config.js`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 137 (99%)
+- INFERRED: 2 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

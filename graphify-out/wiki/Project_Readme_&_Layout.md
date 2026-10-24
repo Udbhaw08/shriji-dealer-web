@@ -1,58 +1,59 @@
 # Project Readme & Layout
 
-> 44 nodes · cohesion 0.08
+> 43 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **auth.js** (52 connections) — `backend/src/routes/auth.js`
-- **hash.js** (24 connections) — `backend/src/utils/hash.js`
-- **phase2DealerStaffOnboarding.test.mjs** (17 connections) — `backend/test/phase2DealerStaffOnboarding.test.mjs`
-- **onboardingVerification.test.mjs** (15 connections) — `backend/test/onboardingVerification.test.mjs`
-- **verifyOtpHash()** (10 connections) — `backend/src/utils/hash.js`
-- **hash.test.mjs** (9 connections) — `backend/test/hash.test.mjs`
-- **hashOtp()** (9 connections) — `backend/src/utils/hash.js`
-- **sha256()** (9 connections) — `backend/src/utils/hash.js`
-- **issueSession()** (5 connections) — `backend/src/routes/auth.js`
-- **generateOtp()** (5 connections) — `backend/src/utils/hash.js`
-- **hashPassword()** (5 connections) — `backend/src/utils/hash.js`
-- **isUserFullyOnboarded()** (4 connections) — `backend/src/routes/auth.js`
-- **resolveUserWithDealer()** (4 connections) — `backend/src/routes/auth.js`
-- **verifyPassword()** (4 connections) — `backend/src/utils/hash.js`
-- **findUserByEmail()** (3 connections) — `backend/src/routes/auth.js`
-- **publicUser()** (3 connections) — `backend/src/routes/auth.js`
-- **handleDealerRegistrationFinalize()** (3 connections) — `backend/src/routes/dealers.js`
-- **scryptKey()** (3 connections) — `backend/src/utils/hash.js`
-- **generateCode()** (2 connections) — `backend/src/utils/hash.js`
-- **randomToken()** (2 connections) — `backend/src/utils/hash.js`
-- **googleClient** (1 connections) — `backend/src/routes/auth.js`
-- **lastCrmSyncByDealerId** (1 connections) — `backend/src/routes/auth.js`
-- **strictLimit** (1 connections) — `backend/src/routes/auth.js`
-- **app** (1 connections) — `backend/test/onboardingVerification.test.mjs`
-- **authHeader()** (1 connections) — `backend/test/onboardingVerification.test.mjs`
-- *... and 19 more nodes in this community*
+- **session.js** (51 connections) — `src/data/session.js`
+- **Login.jsx** (43 connections) — `src/pages/Login.jsx`
+- **DealerApply.jsx** (26 connections) — `src/pages/DealerApply.jsx`
+- **BrandApplyFlow.jsx** (21 connections) — `src/components/BrandApplyFlow.jsx`
+- **StaffJoin.jsx** (14 connections) — `src/pages/StaffJoin.jsx`
+- **revalidateSession()** (13 connections) — `src/data/session.js`
+- **loginCode.js** (11 connections) — `src/data/loginCode.js`
+- **setSession()** (10 connections) — `src/data/session.js`
+- **validators.js** (10 connections) — `src/data/validators.js`
+- **registerDealer()** (7 connections) — `src/data/dealer.js`
+- **signOut()** (7 connections) — `src/data/session.js`
+- **applyAsDealer()** (6 connections) — `src/data/auth.js`
+- **formatLoginCode()** (6 connections) — `src/data/loginCode.js`
+- **isValidEmail()** (6 connections) — `src/data/validators.js`
+- **requestDealerRegistrationOtp()** (5 connections) — `src/data/auth.js`
+- **verifyDealerRegistrationOtp()** (5 connections) — `src/data/auth.js`
+- **switchToDealerSession()** (5 connections) — `src/data/session.js`
+- **isValidName()** (5 connections) — `src/data/validators.js`
+- **isValidPhone()** (5 connections) — `src/data/validators.js`
+- **BrandApplyFlow()** (4 connections) — `src/components/BrandApplyFlow.jsx`
+- **hasSession()** (4 connections) — `src/data/auth.js`
+- **GST_TREATMENT_OPTIONS** (4 connections) — `src/data/loginCode.js`
+- **switchToViewerSession()** (4 connections) — `src/data/session.js`
+- **isValidGstin()** (4 connections) — `src/data/validators.js`
+- **isValidPincode()** (4 connections) — `src/data/validators.js`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [[Community 65]] (18 shared connections)
-- [[Community 46]] (17 shared connections)
-- [[Community 36]] (14 shared connections)
-- [[Community 179]] (9 shared connections)
-- [[Client Products Data Store]] (7 shared connections)
-- [[Community 177]] (3 shared connections)
-- [[Community 134]] (2 shared connections)
+- [[Community 38]] (48 shared connections)
+- [[Design System & UI Tokens]] (35 shared connections)
+- [[Community 96]] (14 shared connections)
+- [[Community 47]] (10 shared connections)
+- [[Community 55]] (2 shared connections)
 
 ## Source Files
 
-- `backend/src/routes/auth.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/utils/hash.js`
-- `backend/test/hash.test.mjs`
-- `backend/test/onboardingVerification.test.mjs`
-- `backend/test/phase2DealerStaffOnboarding.test.mjs`
+- `src/components/BrandApplyFlow.jsx`
+- `src/data/auth.js`
+- `src/data/dealer.js`
+- `src/data/loginCode.js`
+- `src/data/session.js`
+- `src/data/validators.js`
+- `src/pages/DealerApply.jsx`
+- `src/pages/Login.jsx`
+- `src/pages/StaffJoin.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 212 (100%)
+- EXTRACTED: 309 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

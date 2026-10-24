@@ -25,11 +25,11 @@
 
 ## Relationships
 
-- [[Community 47]] (4 shared connections)
+- [[Community 48]] (4 shared connections)
 - [[Zoho Integration Architecture]] (4 shared connections)
-- [[Community 62]] (3 shared connections)
-- [[Community 294]] (2 shared connections)
-- [[Community 205]] (2 shared connections)
+- [[Community 63]] (3 shared connections)
+- [[Community 297]] (2 shared connections)
+- [[Community 208]] (2 shared connections)
 
 ## Source Files
 

@@ -1,53 +1,69 @@
 # Mobile Responsive UI Skill
 
-> 46 nodes · cohesion 0.10
+> 47 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **ff()** (27 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **Tu()** (17 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **gl()** (14 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **pi()** (13 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **uu()** (13 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **delete()** (11 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **lu()** (11 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **vu()** (11 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **di()** (10 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **zl()** (10 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **hl()** (9 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **Iu()** (9 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **ku()** (9 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **mu()** (9 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **wl()** (9 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **jd()** (8 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **wa()** (8 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **bl()** (7 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **Eu()** (7 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **hc()** (7 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **yl()** (7 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **cu()** (6 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **fu()** (6 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **ju()** (6 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- **kl()** (6 connections) — `ios/App/App/public/assets/index-BCLPPqt8.js`
-- *... and 21 more nodes in this community*
+- **server.js** (39 connections) — `backend/src/server.js`
+- **pool.js** (33 connections) — `backend/src/db/pool.js`
+- **env.js** (16 connections) — `backend/src/config/env.js`
+- **catalog.js** (16 connections) — `backend/src/services/catalog.js`
+- **webhooks.js** (14 connections) — `backend/src/routes/webhooks.js`
+- **logger.js** (14 connections) — `backend/src/utils/logger.js`
+- **env** (13 connections) — `backend/src/config/env.js`
+- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
+- **log** (13 connections) — `backend/src/utils/logger.js`
+- **index.js** (11 connections) — `backend/src/jobs/index.js`
+- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
+- **health.js** (8 connections) — `backend/src/routes/health.js`
+- **syncCatalog()** (7 connections) — `backend/src/services/catalog.js`
+- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
+- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
+- **migrate()** (4 connections) — `backend/src/db/migrate.js`
+- **catalogFor()** (4 connections) — `backend/src/services/catalog.js`
+- **loadCatalog()** (4 connections) — `backend/src/services/catalog.js`
+- **applied()** (3 connections) — `backend/src/db/migrate.js`
+- **catalogSync()** (3 connections) — `backend/src/jobs/catalogSync.js`
+- **tokenCleanup()** (3 connections) — `backend/src/jobs/catalogSync.js`
+- **markPollRun()** (3 connections) — `backend/src/jobs/crmPoll.js`
+- **startJobs()** (3 connections) — `backend/src/jobs/index.js`
+- **migrate-content.js** (3 connections) — `backend/scripts/migrate-content.js`
+- **test-storage.js** (3 connections) — `backend/scripts/test-storage.js`
+- *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (52 shared connections)
-- [[Product Pages Specification]] (20 shared connections)
-- [[Product Brand & Business Vision]] (13 shared connections)
-- [[Graphify Agent Rules]] (10 shared connections)
-- [[Pricing Regression Test Suite]] (8 shared connections)
-- [[Community 37]] (7 shared connections)
-- [[Roles & Customer Sharing Spec]] (1 shared connections)
+- [[Vercel Deployment Routing]] (34 shared connections)
+- [[Community 43]] (18 shared connections)
+- [[Community 35]] (18 shared connections)
+- [[Community 136]] (10 shared connections)
+- [[Community 80]] (8 shared connections)
+- [[Community 232]] (6 shared connections)
+- [[Community 111]] (3 shared connections)
+- [[Community 104]] (3 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BCLPPqt8.js`
+- `backend/scripts/migrate-content.js`
+- `backend/scripts/test-storage.js`
+- `backend/src/config/env.js`
+- `backend/src/db/migrate.js`
+- `backend/src/db/pool.js`
+- `backend/src/jobs/catalogSync.js`
+- `backend/src/jobs/crmPoll.js`
+- `backend/src/jobs/index.js`
+- `backend/src/routes/auth.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/routes/health.js`
+- `backend/src/routes/webhooks.js`
+- `backend/src/server.js`
+- `backend/src/services/catalog.js`
+- `backend/src/utils/logger.js`
+- `backend/test/priceGate.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 325 (100%)
+- EXTRACTED: 282 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

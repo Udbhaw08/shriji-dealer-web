@@ -1,47 +1,54 @@
 # Community 44
 
-> 34 nodes · cohesion 0.06
+> 33 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **Typography** (10 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **iOS, iPadOS Dynamic Type sizes** (8 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **iOS, iPadOS larger accessibility type sizes** (6 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Specifications** (5 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **iOS, iPadOS, visionOS tracking values** (4 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Tracking values** (3 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **typography.md** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX1** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX2** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX3** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX4** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX5** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Conveying hierarchy** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Ensuring legibility** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Large (default)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **macOS built-in text styles** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **macOS tracking values** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Medium** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **New York** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **SF Pro** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- *... and 9 more nodes in this community*
+- **n()** (33 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **t()** (18 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **s()** (15 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **hh()** (9 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **yh()** (9 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **c()** (8 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **ma()** (8 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **cs()** (7 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **go()** (7 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **O()** (7 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **fh()** (6 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **Mp()** (6 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **ph()** (6 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **Sh()** (6 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **j()** (5 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **Ka()** (5 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **x()** (5 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **ee()** (4 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **Ko()** (4 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **M()** (4 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **qo()** (4 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **qs()** (4 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **rs()** (4 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **vh()** (4 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **ba()** (3 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (48 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (21 shared connections)
+- [[Product Requirements Documentation]] (16 shared connections)
+- [[Master Codebase Architecture Reference]] (15 shared connections)
+- [[Live Pricing Audit Tool]] (8 shared connections)
+- [[Community 40]] (2 shared connections)
+- [[Community 39]] (2 shared connections)
+- [[Community 169]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/typography.md`
+- `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (100%)
+- EXTRACTED: 213 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

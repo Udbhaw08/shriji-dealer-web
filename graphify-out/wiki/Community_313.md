@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Writing** (6 connections) — `.agents/skills/apple-design/references/hig/writing.md`
-- **writing.md** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
-- **Getting started** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **Text views** (5 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
+- **text-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/writing.md`
+- `.agents/skills/apple-design/references/hig/text-views.md`
 
 ## Audit Trail
 

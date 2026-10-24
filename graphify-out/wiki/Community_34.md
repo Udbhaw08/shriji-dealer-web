@@ -33,7 +33,7 @@
 
 ## Relationships
 
-- [[Community 132]] (5 shared connections)
+- [[Community 134]] (5 shared connections)
 - [[Community 93]] (2 shared connections)
 - [[Community 416]] (1 shared connections)
 - [[Community 417]] (1 shared connections)
@@ -41,7 +41,7 @@
 - [[Community 451]] (1 shared connections)
 - [[Community 452]] (1 shared connections)
 - [[Community 419]] (1 shared connections)
-- [[Community 60]] (1 shared connections)
+- [[Community 61]] (1 shared connections)
 - [[Community 453]] (1 shared connections)
 
 ## Source Files

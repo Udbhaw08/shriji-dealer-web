@@ -1,8 +1,8 @@
 # sql
 
-> God node · 70 connections · `backend/src/db/pool.js`
+> God node · 76 connections · `backend/src/db/pool.js`
 
-**Community:** [[Community 36]]
+**Community:** [[Vercel Deployment Routing]]
 
 ## Connections by Relation
 
@@ -11,6 +11,7 @@
 - [[requestDealerRegistrationOtp()]] `EXTRACTED`
 - [[applyCrmAccountState()]] `EXTRACTED`
 - [[generateUniqueDealerCode()]] `INFERRED`
+- [[getDealerPricingEligibility()]] `EXTRACTED`
 - [[syncCatalog()]] `EXTRACTED`
 - [[applyDealer()]] `EXTRACTED`
 - [[verifyDealerRegistrationOtp()]] `EXTRACTED`
@@ -20,13 +21,12 @@
 - [[createInvite()]] `EXTRACTED`
 - [[crmPoll()]] `EXTRACTED`
 - [[jwtAuth()]] `EXTRACTED`
+- [[requireAdmin()]] `EXTRACTED`
 - [[saveHeroSliderSettings()]] `EXTRACTED`
 - [[applyCrmContactState()]] `EXTRACTED`
+- [[handler()]] `EXTRACTED`
 - [[resolveUserWithDealer()]] `EXTRACTED`
 - [[loadCatalog()]] `EXTRACTED`
-- [[deleteStoreContent()]] `EXTRACTED`
-- [[getAllStoreContent()]] `EXTRACTED`
-- [[toggleStoreContentActive()]] `EXTRACTED`
 
 ### contains
 - [[pool.js]] `EXTRACTED`
@@ -37,21 +37,21 @@
 - [[dealerApp.js]] `EXTRACTED`
 - [[server.js]] `EXTRACTED`
 - [[staff.js]] `EXTRACTED`
+- [[compatibilitySuite.test.mjs]] `EXTRACTED`
+- [[content.js]] `EXTRACTED`
 - [[content.js]] `EXTRACTED`
 - [[catalog.js]] `EXTRACTED`
 - [[notifications.js]] `EXTRACTED`
 - [[webhooks.js]] `EXTRACTED`
 - [[crmPoll.js]] `EXTRACTED`
-- [[content.js]] `EXTRACTED`
-- [[catalogSync.js]] `EXTRACTED`
 - [[auth.js]] `EXTRACTED`
+- [[upload.js]] `EXTRACTED`
+- [[dealerPricingAuth.js]] `EXTRACTED`
+- [[upload.js]] `EXTRACTED`
+- [[catalogSync.js]] `EXTRACTED`
 - [[health.js]] `EXTRACTED`
-- [[audit.js]] `EXTRACTED`
-- [[migrate.js]] `EXTRACTED`
-- [[sync-supabase-content.js]] `EXTRACTED`
-- [[upload.js]] `EXTRACTED`
-- [[upload.js]] `EXTRACTED`
 - [[uploads.js]] `EXTRACTED`
+- [[audit.js]] `EXTRACTED`
 
 ---
 

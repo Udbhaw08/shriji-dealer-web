@@ -4,21 +4,21 @@
 
 ## Key Concepts
 
-- **Sign in with Apple** (6 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Using the system-provided buttons** (5 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Creating a custom Sign in with Apple button** (3 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Displaying buttons** (3 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **sign-in-with-apple.md** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Black** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Button size and corner radius** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Collecting data** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Custom buttons with a logo and text** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Custom logo-only buttons** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Offering Sign in with Apple** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **White** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **White with outline** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Buttons** (8 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Desktop (macOS)** (5 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **buttons.md** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Help buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Image buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Push buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Role** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Square buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Style** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
 
 ## Relationships
 
@@ -26,7 +26,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- `.agents/skills/apple-design/references/hig/buttons.md`
 
 ## Audit Trail
 

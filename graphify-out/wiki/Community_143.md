@@ -4,32 +4,31 @@
 
 ## Key Concepts
 
-- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
-- **run()** (2 connections) — `scripts/audit_prices.mjs`
-- **content** (1 connections) — `scripts/audit_prices.mjs`
-- **csvItems** (1 connections) — `scripts/audit_prices.mjs`
-- **idIdx** (1 connections) — `scripts/audit_prices.mjs`
-- **lines** (1 connections) — `scripts/audit_prices.mjs`
-- **lpIdx** (1 connections) — `scripts/audit_prices.mjs`
-- **nameIdx** (1 connections) — `scripts/audit_prices.mjs`
-- **parseCSVLine()** (1 connections) — `scripts/audit_prices.mjs`
-- **parsedHeader** (1 connections) — `scripts/audit_prices.mjs`
-- **showIdx** (1 connections) — `scripts/audit_prices.mjs`
-- **spIdx** (1 connections) — `scripts/audit_prices.mjs`
-- **statusIdx** (1 connections) — `scripts/audit_prices.mjs`
+- **Shriji Dealer Backend — Render Deployment Runbook** (7 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **5. Connecting Frontend to the Live Backend** (4 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **2. Choosing Your Deployment Method** (3 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **RENDER-DEPLOYMENT-RUNBOOK.md** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **1. In Vercel (or production frontend host):** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **1. Summary of Changes Made to Prepare the Codebase** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **2. In Local `.env.local` (for testing):** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **3. Environment Variables Reference** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **3. In Zoho CRM Workflow (Dealer Approval Webhook):** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **4. Free vs. Starter Plan Note** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **6. How to Verify After Deployment** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **Method A: One-Click Render Blueprint (Recommended)** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **Method B: Manual Web Service Setup (Step-by-Step)** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
 
 ## Relationships
 
-- [[Community 81]] (2 shared connections)
-- [[Community 48]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `scripts/audit_prices.mjs`
+- `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (100%)
+- EXTRACTED: 24 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

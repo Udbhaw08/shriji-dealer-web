@@ -1,32 +1,32 @@
 # al()
 
-> God node · 40 connections · `ios/App/App/public/assets/index-BCLPPqt8.js`
+> God node · 40 connections · `ios/App/App/public/assets/index-HNFh_-5t.js`
 
-**Community:** [[Graphify Agent Rules]]
+**Community:** [[Pricing Regression Test Suite]]
 
 ## Connections by Relation
 
 ### calls
+- [[la()]] `EXTRACTED`
 - [[fp()]] `EXTRACTED`
-- [[Ii()]] `EXTRACTED`
 - [[lm()]] `EXTRACTED`
-- [[r()]] `EXTRACTED`
-- [[nl()]] `EXTRACTED`
-- [[be()]] `EXTRACTED`
+- [[aa()]] `EXTRACTED`
 - [[il()]] `EXTRACTED`
-- [[ta()]] `EXTRACTED`
-- [[kc()]] `EXTRACTED`
 - [[no()]] `EXTRACTED`
-- [[oa()]] `EXTRACTED`
+- [[r()]] `EXTRACTED`
+- [[ye()]] `EXTRACTED`
+- [[nl()]] `EXTRACTED`
+- [[ta()]] `EXTRACTED`
+- [[ha()]] `EXTRACTED`
+- [[kc()]] `EXTRACTED`
 - [[Sp()]] `EXTRACTED`
 - [[Xd()]] `EXTRACTED`
-- [[ao()]] `EXTRACTED`
+- [[fa()]] `EXTRACTED`
 - [[ga()]] `EXTRACTED`
-- [[ha()]] `EXTRACTED`
 - [[hc()]] `EXTRACTED`
 - [[jc()]] `EXTRACTED`
-- [[aa()]] `EXTRACTED`
-- [[fa()]] `EXTRACTED`
+- [[oo()]] `EXTRACTED`
+- [[mo()]] `EXTRACTED`
 
 ### contains
 - [[_()]] `EXTRACTED`

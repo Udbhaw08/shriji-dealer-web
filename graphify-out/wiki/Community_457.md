@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **esm-DVTDU2Md.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-DVTDU2Md.js`
-- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-DVTDU2Md.js`
+- **esm-D6jX8Q1A.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-D6jX8Q1A.js`
+- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-D6jX8Q1A.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/esm-DVTDU2Md.js`
+- `android/app/src/main/assets/public/assets/esm-D6jX8Q1A.js`
 
 ## Audit Trail
 

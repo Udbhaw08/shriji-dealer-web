@@ -1,48 +1,53 @@
 # Community 81
 
-> 20 nodes · cohesion 0.22
+> 21 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **fetchZohoProductById()** (18 connections) — `api/zoho.js`
-- **fetchZohoProducts()** (16 connections) — `api/zoho.js`
-- **fetchZohoWithRetry()** (12 connections) — `api/zoho.js`
-- **getZohoConfig()** (12 connections) — `api/zoho.js`
-- **fetchAllRawZohoProducts()** (8 connections) — `api/zoho.js`
-- **fetchZohoCategories()** (8 connections) — `api/zoho.js`
-- **getCategoryVisibilityMap()** (7 connections) — `api/zoho.js`
-- **fetchZohoPricebookItems()** (6 connections) — `api/zoho.js`
-- **resolvePricebookId()** (5 connections) — `api/zoho.js`
-- **fetchZohoPricebooks()** (4 connections) — `api/zoho.js`
-- **fetchZohoRawCategories()** (4 connections) — `api/zoho.js`
-- **index.js** (4 connections) — `api/products/index.js`
-- **og.js** (3 connections) — `api/og.js`
-- **readProductDetailsDiskCache()** (3 connections) — `api/zoho.js`
-- **readProductsDiskCache()** (3 connections) — `api/zoho.js`
-- **writeProductDetailDiskCache()** (3 connections) — `api/zoho.js`
-- **[id].js** (3 connections) — `api/products/[id].js`
-- **handler()** (3 connections) — `api/products/index.js`
-- **handler()** (2 connections) — `api/og.js`
-- **handler()** (2 connections) — `api/products/[id].js`
+- **workflow-compiler.mjs** (102 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **createReadableLayout()** (12 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **readableGroupBounds()** (5 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **authoredNodeWidth()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **compileWorkflowWithFeedback()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **authoredNodeHeight()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **compilerFailure()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **feedbackFailure()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **nodeWidthContributor()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **verticalIntervalsOverlap()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **workflowLabelWidth()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **createLegacyLayout()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **stableCompare()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **stableText()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **stableValueKey()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **workflowEdgeName()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **WorkflowLayoutFeedback** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **cloneWorkflow()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **LEGACY_COLUMN_CENTERS** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **READABLE_CANDIDATE_COST_PRIORITY** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
 
 ## Relationships
 
-- [[Community 48]] (23 shared connections)
-- [[Community 96]] (7 shared connections)
-- [[Community 162]] (5 shared connections)
-- [[Community 246]] (5 shared connections)
-- [[Community 143]] (2 shared connections)
+- [[Product Pages Specification]] (31 shared connections)
+- [[Graphify Knowledge Graph Skill]] (14 shared connections)
+- [[Community 37]] (14 shared connections)
+- [[Community 41]] (10 shared connections)
+- [[Zoho Integration Architecture]] (8 shared connections)
+- [[Community 132]] (4 shared connections)
+- [[Community 296]] (4 shared connections)
+- [[Community 105]] (3 shared connections)
+- [[Community 150]] (1 shared connections)
+- [[Community 59]] (1 shared connections)
+- [[Community 139]] (1 shared connections)
+- [[Testing & Workflow Skill]] (1 shared connections)
 
 ## Source Files
 
-- `api/og.js`
-- `api/products/[id].js`
-- `api/products/index.js`
-- `api/zoho.js`
+- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 126 (100%)
+- EXTRACTED: 161 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,60 +1,55 @@
 # Community 53
 
-> 27 nodes · cohesion 0.13
+> 29 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **.send()** (54 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **viewer-camera-browser.test.mjs** (11 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **export-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **motion-governor-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **.inspect()** (5 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **run()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **evaluate()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **record()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **media()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **screenshot()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **stable()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **viewport()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **.waitFor()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **screenshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- *... and 2 more nodes in this community*
+- **zd()** (13 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **Nd()** (11 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **qd()** (11 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **tf()** (10 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **nt()** (8 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **Xd()** (8 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **ef()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **Gd()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **lf()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **uf()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **cl()** (6 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **of()** (6 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **Rd()** (6 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **Bd()** (5 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **sf()** (5 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **sl()** (5 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **cf()** (4 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **jf()** (4 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **mf()** (4 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **vf()** (4 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **Zo()** (4 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **Hd()** (3 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **Ud()** (3 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **Vd()** (3 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **Wf()** (3 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [[Community 63]] (11 shared connections)
-- [[Community 89]] (8 shared connections)
-- [[Community 82]] (7 shared connections)
-- [[Community 124]] (7 shared connections)
-- [[Community 49]] (5 shared connections)
-- [[Community 144]] (5 shared connections)
-- [[Community 145]] (5 shared connections)
-- [[Community 181]] (4 shared connections)
-- [[Community 103]] (1 shared connections)
-- [[Community 293]] (1 shared connections)
+- [[Price Presentation & Product UI]] (31 shared connections)
+- [[Oxlint Linter Configuration]] (15 shared connections)
+- [[Product Brand & Business Vision]] (8 shared connections)
+- [[Roles & Customer Sharing Spec]] (7 shared connections)
+- [[Pricing & Roles Skill]] (4 shared connections)
+- [[Pricing Regression Test Suite]] (4 shared connections)
+- [[Dependencies & Package Config]] (3 shared connections)
+- [[Community 164]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/export-browser.test.mjs`
-- `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- `ios/App/App/public/assets/index-HNFh_-5t.js`
 
 ## Audit Trail
 
-- EXTRACTED: 146 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 163 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

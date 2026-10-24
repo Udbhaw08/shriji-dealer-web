@@ -1,50 +1,45 @@
 # Community 104
 
-> 17 nodes · cohesion 0.21
+> 17 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **utils.mjs** (26 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **i18n.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **translateMessage()** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **applyTemplate()** (9 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **resolveLocale()** (7 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **componentContext()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **viewerCatalog()** (4 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **localizeTemplate()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **translateCount()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **formatMessage()** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **serializeScriptJson()** (2 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **CATALOGS** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **ESCAPE_MAP** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **MESSAGE_PAIRS** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **SIGIL_SHAPE** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **SIGIL_TONE** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **TEMPLATE_PLACEHOLDERS** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **content.js** (19 connections) — `backend/src/services/content.js`
+- **content.js** (16 connections) — `backend/src/routes/content.js`
+- **content.js** (14 connections) — `api/content.js`
+- **handler()** (11 connections) — `api/content.js`
+- **getSupabaseBanners()** (9 connections) — `backend/src/services/content.js`
+- **getSupabaseSchemes()** (8 connections) — `backend/src/services/content.js`
+- **getSupabaseBranding()** (7 connections) — `backend/src/services/content.js`
+- **getActiveContent()** (6 connections) — `backend/src/services/content.js`
+- **getHeroSliderSettings()** (6 connections) — `backend/src/services/content.js`
+- **saveHeroSliderSettings()** (5 connections) — `backend/src/services/content.js`
+- **deleteStoreContent()** (4 connections) — `backend/src/services/content.js`
+- **getAllStoreContent()** (4 connections) — `backend/src/services/content.js`
+- **toggleStoreContentActive()** (4 connections) — `backend/src/services/content.js`
+- **upsertStoreContent()** (4 connections) — `backend/src/services/content.js`
+- **ALLOWED_CONTENT_TYPES** (1 connections) — `api/content.js`
+- **ALLOWED_CONTENT_TYPES** (1 connections) — `backend/src/routes/content.js`
+- **formatGoogleDriveUrl()** (1 connections) — `backend/src/services/content.js`
 
 ## Relationships
 
-- [[Graphify Knowledge Graph Skill]] (12 shared connections)
-- [[Community 42]] (10 shared connections)
-- [[Zoho Integration Architecture]] (7 shared connections)
-- [[Community 40]] (5 shared connections)
-- [[Community 122]] (5 shared connections)
-- [[Architecture Doc Generator]] (4 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (4 shared connections)
-- [[Community 80]] (3 shared connections)
-- [[Vercel Deployment Routing]] (1 shared connections)
-- [[Community 285]] (1 shared connections)
+- [[Vercel Deployment Routing]] (9 shared connections)
+- [[Community 35]] (8 shared connections)
+- [[Community 112]] (7 shared connections)
+- [[Community 140]] (5 shared connections)
+- [[Mobile Responsive UI Skill]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/shared/i18n.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `api/content.js`
+- `backend/src/routes/content.js`
+- `backend/src/services/content.js`
 
 ## Audit Trail
 
-- EXTRACTED: 107 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 118 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

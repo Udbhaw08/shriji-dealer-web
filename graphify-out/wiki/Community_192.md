@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **Settings** (8 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **settings.md** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **General settings** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **System settings** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Task-specific options** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Layout** (7 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Adaptability** (2 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **layout.md** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Guides and safe areas** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Size classes** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Visual hierarchy** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
 
 ## Relationships
 
@@ -21,7 +21,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/settings.md`
+- `.agents/skills/apple-design/references/hig/layout.md`
 
 ## Audit Trail
 

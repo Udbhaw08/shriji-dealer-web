@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Collections** (4 connections) — `.agents/skills/apple-design/references/hig/collections.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/collections.md`
-- **collections.md** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
+- **Activity views** (5 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **activity-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **Share and action extensions** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/collections.md`
+- `.agents/skills/apple-design/references/hig/activity-views.md`
 
 ## Audit Trail
 

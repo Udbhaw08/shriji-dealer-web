@@ -4,38 +4,27 @@
 
 ## Key Concepts
 
-- **Typography Guide** (18 connections) — `.agents/skills/refero-design/references/typography.md`
-- **13. AI-Slop Anti-Patterns** (3 connections) — `.agents/skills/refero-design/references/typography.md`
-- **typography.md** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **15. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **1. The Safe SaaS Preset** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Instant Red Flags** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Quick Test** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Virtual keyboards** (7 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **virtual-keyboards.md** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Custom input views** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Custom keyboards** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
 
 ## Relationships
 
-- [[Community 382]] (1 shared connections)
-- [[Community 403]] (1 shared connections)
-- [[Community 383]] (1 shared connections)
-- [[Community 404]] (1 shared connections)
-- [[Community 405]] (1 shared connections)
-- [[Community 406]] (1 shared connections)
-- [[Community 384]] (1 shared connections)
-- [[Community 407]] (1 shared connections)
-- [[Community 408]] (1 shared connections)
-- [[Community 385]] (1 shared connections)
-- [[Community 231]] (1 shared connections)
-- [[Community 437]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

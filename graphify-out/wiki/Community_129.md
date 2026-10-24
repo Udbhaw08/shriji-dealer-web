@@ -1,23 +1,23 @@
 # Community 129
 
-> 14 nodes · cohesion 0.23
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **web-C-yEarL3.js** (13 connections) — `ios/App/App/public/assets/web-C-yEarL3.js`
-- **applyPrefix()** (4 connections) — `ios/App/App/public/assets/web-C-yEarL3.js`
-- **keys()** (4 connections) — `ios/App/App/public/assets/web-C-yEarL3.js`
-- **get()** (3 connections) — `ios/App/App/public/assets/web-C-yEarL3.js`
-- **migrate()** (3 connections) — `ios/App/App/public/assets/web-C-yEarL3.js`
-- **rawKeys()** (3 connections) — `ios/App/App/public/assets/web-C-yEarL3.js`
-- **clear()** (2 connections) — `ios/App/App/public/assets/web-C-yEarL3.js`
-- **remove()** (2 connections) — `ios/App/App/public/assets/web-C-yEarL3.js`
-- **removeOld()** (2 connections) — `ios/App/App/public/assets/web-C-yEarL3.js`
-- **set()** (2 connections) — `ios/App/App/public/assets/web-C-yEarL3.js`
-- **configure()** (1 connections) — `ios/App/App/public/assets/web-C-yEarL3.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-C-yEarL3.js`
-- **impl()** (1 connections) — `ios/App/App/public/assets/web-C-yEarL3.js`
-- **prefix()** (1 connections) — `ios/App/App/public/assets/web-C-yEarL3.js`
+- **File management** (7 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Desktop (macOS)** (3 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Mobile (iOS, iPadOS)** (3 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **file-management.md** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Creating and opening files** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Custom file management** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Document launcher** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **File provider app extension** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Finder Sync extensions** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Quick Look previews** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Saving work** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
 
 ## Relationships
 
@@ -25,11 +25,11 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-C-yEarL3.js`
+- `.agents/skills/apple-design/references/hig/file-management.md`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

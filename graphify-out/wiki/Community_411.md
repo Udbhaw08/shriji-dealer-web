@@ -11,7 +11,7 @@
 
 ## Relationships
 
-- [[Testing & Workflow Skill]] (1 shared connections)
+- [[Zoho API Diagnostic Script]] (1 shared connections)
 
 ## Source Files
 

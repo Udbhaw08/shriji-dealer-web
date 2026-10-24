@@ -1,53 +1,63 @@
 # Community 35
 
-> 38 nodes · cohesion 0.10
+> 38 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **fl()** (22 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **zd()** (16 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **he()** (13 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **Ii()** (12 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **qd()** (12 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **ml()** (11 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **Nd()** (11 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **xe()** (10 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **Ce()** (9 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **pl()** (9 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **Gd()** (8 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **Xd()** (8 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **rt()** (7 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **aa()** (6 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **Bd()** (6 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **cl()** (6 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **jo()** (6 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **Rd()** (6 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **vi()** (6 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **xo()** (6 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **sl()** (5 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **ua()** (5 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **dl()** (4 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **hm()** (4 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
-- **Zo()** (4 connections) — `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
+- **compatibilitySuite.test.mjs** (20 connections) — `backend/test/compatibilitySuite.test.mjs`
+- **securityPhase1.test.mjs** (16 connections) — `backend/test/securityPhase1.test.mjs`
+- **auth.js** (12 connections) — `backend/src/middleware/auth.js`
+- **upload.js** (11 connections) — `backend/src/routes/upload.js`
+- **verifyAdminAuth()** (9 connections) — `api/adminAuth.js`
+- **upload.js** (9 connections) — `api/upload.js`
+- **admin.js** (8 connections) — `backend/src/routes/admin.js`
+- **uploads.js** (8 connections) — `backend/src/routes/uploads.js`
+- **adminAuth.js** (6 connections) — `api/adminAuth.js`
+- **prices.js** (6 connections) — `backend/src/routes/prices.js`
+- **jwtAuth()** (5 connections) — `backend/src/middleware/auth.js`
+- **requireAdmin()** (5 connections) — `backend/src/middleware/auth.js`
+- **handler()** (4 connections) — `api/upload.js`
+- **contentRouter** (4 connections) — `backend/src/routes/content.js`
+- **uploadRouter** (4 connections) — `backend/src/routes/upload.js`
+- **uploadsRouter** (4 connections) — `backend/src/routes/uploads.js`
+- **login.js** (3 connections) — `api/admin/login.js`
+- **adminRouter** (3 connections) — `backend/src/routes/admin.js`
+- **handler()** (2 connections) — `api/admin/login.js`
+- **validateMagicBytes()** (2 connections) — `api/upload.js`
+- **pricesRouter** (2 connections) — `backend/src/routes/prices.js`
+- **ALLOWED_EXTENSIONS** (1 connections) — `api/upload.js`
+- **ALLOWED_FOLDERS** (1 connections) — `api/upload.js`
+- **MIME_TYPES** (1 connections) — `api/upload.js`
+- **requireRole()** (1 connections) — `backend/src/middleware/auth.js`
 - *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (44 shared connections)
-- [[Product Requirements Documentation]] (18 shared connections)
-- [[Oxlint Linter Configuration]] (12 shared connections)
-- [[Master Codebase Architecture Reference]] (9 shared connections)
-- [[Design System & UI Tokens]] (9 shared connections)
-- [[Pricing & Roles Skill]] (7 shared connections)
-- [[Live Pricing Audit Tool]] (4 shared connections)
+- [[Mobile Responsive UI Skill]] (18 shared connections)
+- [[Vercel Deployment Routing]] (11 shared connections)
+- [[Community 104]] (8 shared connections)
+- [[Community 111]] (4 shared connections)
+- [[Community 140]] (3 shared connections)
+- [[Community 43]] (2 shared connections)
+- [[Community 232]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BCLPPqt8.js`
+- `api/admin/login.js`
+- `api/adminAuth.js`
+- `api/upload.js`
+- `backend/src/middleware/auth.js`
+- `backend/src/routes/admin.js`
+- `backend/src/routes/content.js`
+- `backend/src/routes/prices.js`
+- `backend/src/routes/upload.js`
+- `backend/src/routes/uploads.js`
+- `backend/test/compatibilitySuite.test.mjs`
+- `backend/test/securityPhase1.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 247 (100%)
+- EXTRACTED: 160 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

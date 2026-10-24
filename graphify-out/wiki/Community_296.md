@@ -1,29 +1,34 @@
 # Community 296
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **Charting data** (6 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
-- **charting-data.md** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
-- **Designing effective charts** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
+- **workflow-migration-geometry.mjs** (10 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **createMappedWorkflowCandidate()** (9 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **intrinsicWorkflow()** (8 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **planningWorkflow()** (7 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **createHorizontalRankMapper()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **clone()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **mapExplicitCoordinates()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **mappedNumber()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 132]] (8 shared connections)
+- [[Community 139]] (5 shared connections)
+- [[Community 81]] (4 shared connections)
+- [[Product Pages Specification]] (3 shared connections)
+- [[Community 54]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/charting-data.md`
+- `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 44 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -33,15 +33,15 @@
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (45 shared connections)
-- [[Community 40]] (42 shared connections)
-- [[Community 42]] (35 shared connections)
+- [[Product Pages Specification]] (45 shared connections)
+- [[Community 37]] (42 shared connections)
+- [[Community 41]] (35 shared connections)
 - [[Architecture Doc Generator]] (21 shared connections)
-- [[Community 80]] (14 shared connections)
-- [[Community 104]] (12 shared connections)
+- [[Community 81]] (14 shared connections)
+- [[Community 105]] (12 shared connections)
 - [[Zoho Integration Architecture]] (11 shared connections)
-- [[Vercel Deployment Routing]] (7 shared connections)
-- [[Community 59]] (5 shared connections)
+- [[Testing & Workflow Skill]] (7 shared connections)
+- [[Community 60]] (5 shared connections)
 - [[Community 83]] (2 shared connections)
 
 ## Source Files
