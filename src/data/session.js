@@ -75,10 +75,10 @@ export const DEFAULT_VIEWER_SESSION = {
 };
 
 export const DEFAULT_AUTH_TOKENS = {
-  accessToken: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMmVhODE1Mi1lNzY0LTRjMTAtOGZlOC1mMDVmZDViNWZmMzIiLCJyb2xlIjoiZGVhbGVyIiwiZGVhbGVyX2lkIjoiZmEwZTllZjQtMjlkNS00ODE2LTllMjItYzNmZWZlZTM1NGJlIiwic3RhdHVzIjoiYWN0aXZlIiwiaWF0IjoxNzkyNTgzNzIxLCJleHAiOjE3OTUxNzU3MjF9.YAByYn7wNSsOvWh0BGoHaWzLMhvocyuAaWCwLZqt8Fc",
-  refreshToken: "rv1WztfH8Wq5RTBjIdQ2o6fgE1BvoS4cT6uBVTvM_Pk",
-  savedAt: Date.now(),
-  expiresAt: Date.now() + 30 * 24 * 60 * 60 * 1000,
+  accessToken: null,
+  refreshToken: null,
+  savedAt: null,
+  expiresAt: null,
 };
 
 function loadCachedSession() {
