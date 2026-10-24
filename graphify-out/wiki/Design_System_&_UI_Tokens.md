@@ -33,14 +33,14 @@
 
 ## Relationships
 
-- [[Community 46]] (60 shared connections)
-- [[Zoho API Diagnostic Script]] (35 shared connections)
-- [[Community 60]] (27 shared connections)
-- [[Community 99]] (11 shared connections)
+- [[Community 47]] (60 shared connections)
+- [[Project Readme & Layout]] (35 shared connections)
+- [[Community 59]] (27 shared connections)
+- [[Community 96]] (11 shared connections)
 - [[Community 39]] (8 shared connections)
 - [[Community 148]] (8 shared connections)
 - [[Community 149]] (2 shared connections)
-- [[Community 392]] (1 shared connections)
+- [[Community 396]] (1 shared connections)
 
 ## Source Files
 

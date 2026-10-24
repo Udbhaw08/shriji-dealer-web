@@ -4,26 +4,25 @@
 
 ## Key Concepts
 
-- **settled-flow.test.mjs** (8 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **semantic-passport.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **svg()** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
 
 ## Relationships
 
-- [[Community 45]] (1 shared connections)
-- [[Client Products Data Store]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/settled-flow.test.mjs`
+- `.agents/skills/archify/test/semantic-passport.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

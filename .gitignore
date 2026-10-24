@@ -40,6 +40,8 @@ Thumbs.db
 # Graphify
 graphify-out/cache/
 graphify-out/.*
+graphify-out/20*/
+
 
 # Mobile Native Builds (Capacitor)
 .gradle/

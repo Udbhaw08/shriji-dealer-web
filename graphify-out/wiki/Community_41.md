@@ -4,47 +4,48 @@
 
 ## Key Concepts
 
-- **Or()** (23 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **jr()** (22 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **gf()** (21 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **af()** (10 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **Ar()** (9 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **hr()** (9 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **mr()** (8 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **qr()** (8 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **Fr()** (7 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **Oi()** (7 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **xr()** (7 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **Ir()** (6 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **pr()** (6 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **Rr()** (6 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **wr()** (6 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **bn()** (5 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **br()** (5 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **qf()** (5 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **sm()** (5 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **ur()** (5 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **Vr()** (5 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **xn()** (5 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **gr()** (4 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **Ld()** (4 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **Lr()** (4 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **Or()** (23 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **jr()** (22 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **gf()** (21 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **af()** (10 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **Ar()** (9 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **hr()** (9 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **mr()** (8 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **qr()** (8 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **Fr()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **Oi()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **xr()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **Ir()** (6 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **pr()** (6 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **Rr()** (6 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **wr()** (6 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **bn()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **br()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **qf()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **sm()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **ur()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **Vr()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **xn()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **gr()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **Ld()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **Lr()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
 - *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (37 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (12 shared connections)
-- [[Graphify Knowledge Graph Skill]] (8 shared connections)
-- [[Master Codebase Architecture Reference]] (5 shared connections)
-- [[Community 52]] (4 shared connections)
-- [[Community 33]] (4 shared connections)
-- [[Product Brand & Business Vision]] (2 shared connections)
-- [[Community 58]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (37 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (9 shared connections)
+- [[Architecture Doc Generator]] (8 shared connections)
+- [[Master Codebase Architecture Reference]] (8 shared connections)
+- [[Community 42]] (3 shared connections)
+- [[Community 51]] (3 shared connections)
+- [[Community 165]] (2 shared connections)
+- [[Roles & Customer Sharing Spec]] (2 shared connections)
+- [[Community 105]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
 
 ## Audit Trail
 

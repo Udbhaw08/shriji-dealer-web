@@ -1,47 +1,54 @@
 # Community 61
 
-> 26 nodes · cohesion 0.08
+> 26 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **Widgets** (9 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Best practices** (6 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Anatomy** (4 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Rendering modes** (4 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Mobile (iOS, iPadOS)** (3 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Specifications** (3 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **widgets.md** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Accented** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Accessory widgets** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Adding interactivity** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Appearances** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Apple HomeView** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Choosing margins and padding** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Displaying text in widgets** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Full-color** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **iOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **iPadOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Previews and placeholders** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **StandBy and CarPlay** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **System family widgets** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Updating widget content** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Using color** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **fl()** (25 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **me()** (13 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **aa()** (12 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **ia()** (11 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **ml()** (11 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **na()** (10 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **ta()** (10 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **be()** (9 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **pl()** (9 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **Se()** (9 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **I()** (7 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **P()** (7 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **ra()** (7 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **jo()** (6 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **xo()** (6 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **he()** (5 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **ua()** (5 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **dl()** (4 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **ea()** (4 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **ue()** (4 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **dm()** (3 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **ll()** (3 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **ol()** (3 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **pp()** (3 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **qn()** (3 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
 - *... and 1 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (29 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (17 shared connections)
+- [[Dependencies & Package Config]] (15 shared connections)
+- [[Graphify Knowledge Graph Skill]] (7 shared connections)
+- [[Product Requirements Documentation]] (7 shared connections)
+- [[Community 55]] (6 shared connections)
+- [[Community 34]] (4 shared connections)
+- [[Community 33]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/widgets.md`
+- `ios/App/App/public/assets/index-CnGpWhyw.js`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (100%)
+- EXTRACTED: 191 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

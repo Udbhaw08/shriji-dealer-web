@@ -33,13 +33,13 @@
 
 ## Relationships
 
-- [[Community 83]] (41 shared connections)
-- [[Community 113]] (4 shared connections)
+- [[Community 79]] (41 shared connections)
+- [[Community 112]] (4 shared connections)
 - [[Pricing & Roles Skill]] (2 shared connections)
-- [[Community 87]] (2 shared connections)
+- [[Community 84]] (2 shared connections)
 - [[Community 66]] (2 shared connections)
-- [[Community 105]] (2 shared connections)
-- [[Graphify Workflow]] (2 shared connections)
+- [[Community 103]] (2 shared connections)
+- [[Vercel Deployment Routing]] (2 shared connections)
 
 ## Source Files
 

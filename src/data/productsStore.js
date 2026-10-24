@@ -84,6 +84,7 @@ export function fetchLiveProducts(force = false, pricebookId = null) {
   if (force) params.set("refresh", "true");
   if (targetPb) params.set("pricebook_id", targetPb);
   const q = params.toString();
+  const url = q ? `/api/products?${q}` : "/api/products";
   const headers = {};
   const token = typeof getAccessToken === "function" ? getAccessToken() : null;
   if (token) headers.Authorization = `Bearer ${token}`;

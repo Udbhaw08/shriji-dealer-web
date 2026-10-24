@@ -1,54 +1,54 @@
 # Graphify Knowledge Graph Skill
 
-> 49 nodes · cohesion 0.08
+> 49 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **get()** (27 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **at()** (21 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **k()** (20 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **ct()** (16 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **la()** (15 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **A()** (12 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **Dn()** (12 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **pt()** (12 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **dt()** (11 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **mt()** (11 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **no()** (11 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **ye()** (11 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **so()** (9 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **st()** (9 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **xt()** (9 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **kf()** (8 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **lt()** (8 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **tt()** (8 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **Gt()** (7 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **it()** (7 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **je()** (7 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **jn()** (7 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **oo()** (7 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **rt()** (7 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
-- **dc()** (6 connections) — `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- **ff()** (26 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **Tu()** (19 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **gl()** (15 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **fi()** (13 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **uu()** (13 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **delete()** (11 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **lu()** (11 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **vu()** (11 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **zl()** (10 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **ep()** (9 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **hl()** (9 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **Iu()** (9 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **ku()** (9 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **l()** (9 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **mu()** (9 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **ui()** (9 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **wl()** (9 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **jd()** (8 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **Sp()** (8 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **wa()** (8 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **bl()** (7 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **cu()** (7 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **Eu()** (7 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **hc()** (7 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **yl()** (7 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
 - *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (55 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (35 shared connections)
-- [[Master Codebase Architecture Reference]] (18 shared connections)
-- [[Community 58]] (17 shared connections)
-- [[Community 33]] (16 shared connections)
-- [[Product Brand & Business Vision]] (13 shared connections)
-- [[Community 52]] (11 shared connections)
-- [[Community 41]] (8 shared connections)
+- [[Price Presentation & Product UI]] (57 shared connections)
+- [[Product Requirements Documentation]] (19 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (13 shared connections)
+- [[Dependencies & Package Config]] (12 shared connections)
+- [[Community 34]] (8 shared connections)
+- [[Community 55]] (8 shared connections)
+- [[Community 61]] (7 shared connections)
+- [[Community 33]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-HNFh_-5t.js`
+- `ios/App/App/public/assets/index-CnGpWhyw.js`
 
 ## Audit Trail
 
-- EXTRACTED: 369 (100%)
+- EXTRACTED: 354 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

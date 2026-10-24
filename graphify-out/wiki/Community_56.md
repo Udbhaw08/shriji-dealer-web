@@ -33,12 +33,12 @@
 
 ## Relationships
 
-- [[Client Products Data Store]] (28 shared connections)
 - [[Zoho Integration Architecture]] (28 shared connections)
-- [[Community 29]] (17 shared connections)
-- [[Community 54]] (11 shared connections)
-- [[Roles & Customer Sharing Spec]] (10 shared connections)
-- [[Community 45]] (9 shared connections)
+- [[Pricing Regression Test Suite]] (28 shared connections)
+- [[Graphify Workflow]] (17 shared connections)
+- [[Community 53]] (11 shared connections)
+- [[Client Products Data Store]] (10 shared connections)
+- [[Community 46]] (9 shared connections)
 - [[Pricing & Roles Skill]] (2 shared connections)
 - [[Community 40]] (1 shared connections)
 

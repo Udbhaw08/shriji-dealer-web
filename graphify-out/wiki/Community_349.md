@@ -1,30 +1,27 @@
 # Community 349
 
-> 6 nodes · cohesion 0.53
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **syncRecentProductTags()** (7 connections) — `api/_lib/zoho.js`
-- **readTagCache()** (6 connections) — `api/_lib/zoho.js`
-- **updateCachedProductTags()** (4 connections) — `api/_lib/zoho.js`
-- **sync-tags.js** (4 connections) — `api/products/sync-tags.js`
-- **handler()** (3 connections) — `api/products/sync-tags.js`
-- **writeTagCache()** (2 connections) — `api/_lib/zoho.js`
+- **Rating indicators** (5 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
+- **rating-indicators.md** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
 
 ## Relationships
 
-- [[Community 57]] (6 shared connections)
-- [[Community 131]] (2 shared connections)
-- [[Community 164]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `api/_lib/zoho.js`
-- `api/products/sync-tags.js`
+- `.agents/skills/apple-design/references/hig/rating-indicators.md`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

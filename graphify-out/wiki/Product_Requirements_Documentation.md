@@ -1,53 +1,54 @@
 # Product Requirements Documentation
 
-> 57 nodes · cohesion 0.07
+> 62 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **yc()** (19 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **ic()** (15 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **Md()** (15 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **s()** (15 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **nc()** (12 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **bi()** (10 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **nl()** (10 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **co()** (9 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **ha()** (9 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **hh()** (9 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **kd()** (9 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **wc()** (9 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **yh()** (9 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **c()** (8 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **gs()** (8 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **pa()** (8 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **rc()** (8 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **Si()** (8 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **ec()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **fa()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **Id()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **mh()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **oc()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **yi()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **zc()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- *... and 32 more nodes in this community*
+- **D()** (22 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **.addEventListener()** (19 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **np()** (19 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **b()** (17 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **fp()** (14 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **jt()** (14 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **bm()** (13 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **h()** (13 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **lm()** (13 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **.removeEventListener()** (12 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **vn()** (11 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **Zt()** (11 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **am()** (10 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **ip()** (9 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **mm()** (9 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **fn()** (8 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **ln()** (8 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **om()** (8 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **tm()** (8 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **tp()** (8 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **jm()** (7 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **lp()** (7 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **tn()** (7 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **zm()** (7 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **cm()** (6 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- *... and 37 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (71 shared connections)
-- [[Pricing Regression Test Suite]] (34 shared connections)
-- [[Mobile Responsive UI Skill]] (15 shared connections)
-- [[Architecture Doc Generator]] (12 shared connections)
-- [[Dependencies & Package Config]] (10 shared connections)
-- [[Live Pricing Audit Tool]] (9 shared connections)
-- [[Community 47]] (7 shared connections)
+- [[Price Presentation & Product UI]] (58 shared connections)
+- [[Graphify Knowledge Graph Skill]] (19 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (18 shared connections)
+- [[Dependencies & Package Config]] (17 shared connections)
+- [[Community 34]] (17 shared connections)
+- [[Community 61]] (7 shared connections)
+- [[Community 33]] (5 shared connections)
+- [[Community 55]] (3 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-HNFh_-5t.js`
+- `ios/App/App/public/assets/index-CnGpWhyw.js`
 
 ## Audit Trail
 
-- EXTRACTED: 384 (100%)
+- EXTRACTED: 424 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

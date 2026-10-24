@@ -32,13 +32,13 @@
 
 ## Relationships
 
-- [[Community 105]] (5 shared connections)
-- [[Community 247]] (3 shared connections)
-- [[Community 45]] (3 shared connections)
-- [[Community 83]] (2 shared connections)
-- [[Community 239]] (2 shared connections)
-- [[Community 325]] (2 shared connections)
-- [[Community 243]] (2 shared connections)
+- [[Community 103]] (5 shared connections)
+- [[Community 249]] (3 shared connections)
+- [[Community 46]] (3 shared connections)
+- [[Community 79]] (2 shared connections)
+- [[Community 241]] (2 shared connections)
+- [[Community 327]] (2 shared connections)
+- [[Community 245]] (2 shared connections)
 
 ## Source Files
 

@@ -1,53 +1,59 @@
 # Mobile Responsive UI Skill
 
-> 46 nodes · cohesion 0.08
+> 45 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **at()** (21 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **k()** (20 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **A()** (12 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **pt()** (12 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **dt()** (11 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **mt()** (11 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **ye()** (11 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **tf()** (10 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **st()** (9 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **xt()** (9 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **kf()** (8 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **lt()** (8 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **tt()** (8 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **ef()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **Gt()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **it()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **je()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **jn()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **lf()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **rt()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **uf()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **F()** (6 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **hf()** (6 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **of()** (6 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **qt()** (6 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- *... and 21 more nodes in this community*
+- **dealerApp.js** (44 connections) — `backend/src/services/dealerApp.js`
+- **crmClient.js** (34 connections) — `backend/src/services/crmClient.js`
+- **normalizePhone()** (19 connections) — `backend/src/utils/phone.js`
+- **normalizeEmail()** (18 connections) — `backend/src/utils/validators.js`
+- **notifications.js** (16 connections) — `backend/src/services/notifications.js`
+- **validators.js** (15 connections) — `backend/src/utils/validators.js`
+- **crmFetch()** (14 connections) — `backend/src/services/crmClient.js`
+- **requestDealerRegistrationOtp()** (14 connections) — `backend/src/services/dealerApp.js`
+- **finalizeDealerRegistration()** (12 connections) — `backend/src/services/dealerApp.js`
+- **isValidPhone()** (11 connections) — `backend/src/utils/validators.js`
+- **cleanName()** (9 connections) — `backend/src/utils/validators.js`
+- **httpError()** (8 connections) — `backend/src/middleware/errorHandler.js`
+- **crmConfigured()** (8 connections) — `backend/src/services/crmClient.js`
+- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
+- **verifyDealerRegistrationOtp()** (7 connections) — `backend/src/services/dealerApp.js`
+- **sendWhatsAppOtp()** (7 connections) — `backend/src/services/notifications.js`
+- **phone.js** (7 connections) — `backend/src/utils/phone.js`
+- **isValidEmail()** (7 connections) — `backend/src/utils/validators.js`
+- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
+- **isValidName()** (6 connections) — `backend/src/utils/validators.js`
+- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
+- **createDealerContact()** (5 connections) — `backend/src/services/crmClient.js`
+- **findOwnerContactInAccount()** (5 connections) — `backend/src/services/crmClient.js`
+- **updateContactDetails()** (5 connections) — `backend/src/services/crmClient.js`
+- **updateDealerCodeInCrm()** (5 connections) — `backend/src/services/crmClient.js`
+- *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (56 shared connections)
-- [[Pricing Regression Test Suite]] (23 shared connections)
-- [[Community 47]] (17 shared connections)
-- [[Product Requirements Documentation]] (15 shared connections)
-- [[Dependencies & Package Config]] (13 shared connections)
-- [[Live Pricing Audit Tool]] (8 shared connections)
-- [[Architecture Doc Generator]] (6 shared connections)
+- [[Product Pages Specification]] (30 shared connections)
+- [[Graphify Agent Rules]] (27 shared connections)
+- [[Product Brand & Business Vision]] (22 shared connections)
+- [[Community 161]] (2 shared connections)
+- [[Community 142]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-HNFh_-5t.js`
+- `backend/src/middleware/errorHandler.js`
+- `backend/src/routes/auth.js`
+- `backend/src/services/crmClient.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/services/notifications.js`
+- `backend/src/utils/phone.js`
+- `backend/src/utils/validators.js`
+- `backend/test/interconnection.test.mjs`
+- `backend/test/validators.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 308 (100%)
+- EXTRACTED: 355 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **performance-plus.md** (1 connections) — `.agents/skills/swiftui-pro/references/performance-plus.md`
-- **Deeper performance work** (1 connections) — `.agents/skills/swiftui-pro/references/performance-plus.md`
+- **esm-Eoj6eAye.js** (1 connections) — `ios/App/App/public/assets/esm-Eoj6eAye.js`
+- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-Eoj6eAye.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/performance-plus.md`
+- `ios/App/App/public/assets/esm-Eoj6eAye.js`
 
 ## Audit Trail
 

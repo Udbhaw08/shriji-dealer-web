@@ -33,14 +33,14 @@
 
 ## Relationships
 
-- [[Client Products Data Store]] (8 shared connections)
-- [[Community 45]] (5 shared connections)
-- [[Community 29]] (4 shared connections)
+- [[Zoho Integration Architecture]] (8 shared connections)
+- [[Community 46]] (5 shared connections)
+- [[Graphify Workflow]] (4 shared connections)
 - [[Community 40]] (4 shared connections)
 - [[Community 48]] (2 shared connections)
-- [[Roles & Customer Sharing Spec]] (2 shared connections)
+- [[Client Products Data Store]] (2 shared connections)
 - [[Community 56]] (2 shared connections)
-- [[Community 54]] (1 shared connections)
+- [[Community 53]] (1 shared connections)
 
 ## Source Files
 

@@ -1,55 +1,55 @@
 # Community 34
 
-> 39 nodes · cohesion 0.07
+> 39 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **offline-font-browser.test.mjs** (13 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
-- **cli.test.mjs** (11 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **offline-self-containment.test.mjs** (9 connections) — `.agents/skills/archify/test/offline-self-containment.test.mjs`
-- **generated-artifact-xml.test.mjs** (8 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
-- **offline-fonts.mjs** (7 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **inspectDocuments()** (5 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **xml.mjs** (5 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
-- **assertFontCss()** (4 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **assertOfflineArtifact()** (4 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **extractSvgs()** (4 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
-- **parseXml()** (3 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
-- **visit()** (3 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
-- **evaluate()** (2 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
-- **exported()** (2 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
-- **EXPECTED_FACES** (1 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **FONT_LICENSE** (1 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **copyInstalledSkill()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **makeFakeOpeners()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **artifactRoots** (1 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
+- **n()** (33 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **t()** (18 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **s()** (15 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **hh()** (9 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **yh()** (9 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **c()** (8 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **ma()** (8 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **cs()** (7 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **go()** (7 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **hn()** (7 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **mh()** (7 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **O()** (7 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **fh()** (6 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **Mp()** (6 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **ph()** (6 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **Sh()** (6 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **bh()** (5 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **Ih()** (5 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **j()** (5 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **Ka()** (5 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **th()** (5 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **x()** (5 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **ee()** (4 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **Ko()** (4 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
+- **M()** (4 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
 - *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [[Graphify Workflow]] (1 shared connections)
-- [[Community 147]] (1 shared connections)
-- [[Community 126]] (1 shared connections)
+- [[Price Presentation & Product UI]] (50 shared connections)
+- [[Dependencies & Package Config]] (23 shared connections)
+- [[Product Requirements Documentation]] (17 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (16 shared connections)
+- [[Graphify Knowledge Graph Skill]] (8 shared connections)
+- [[Community 61]] (4 shared connections)
+- [[Community 33]] (4 shared connections)
+- [[Community 55]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/cli.test.mjs`
-- `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
-- `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- `.agents/skills/archify/test/helpers/xml.mjs`
-- `.agents/skills/archify/test/offline-font-browser.test.mjs`
-- `.agents/skills/archify/test/offline-self-containment.test.mjs`
+- `ios/App/App/public/assets/index-CnGpWhyw.js`
 
 ## Audit Trail
 
-- EXTRACTED: 103 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 244 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -20,10 +20,10 @@
 
 ## Relationships
 
-- [[Community 59]] (5 shared connections)
-- [[Community 69]] (3 shared connections)
-- [[Graphify Workflow]] (1 shared connections)
-- [[Community 126]] (1 shared connections)
+- [[Community 58]] (5 shared connections)
+- [[Community 68]] (3 shared connections)
+- [[Vercel Deployment Routing]] (1 shared connections)
+- [[Community 125]] (1 shared connections)
 
 ## Source Files
 

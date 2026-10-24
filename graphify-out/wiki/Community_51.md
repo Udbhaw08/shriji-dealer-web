@@ -1,59 +1,55 @@
 # Community 51
 
-> 29 nodes · cohesion 0.10
+> 29 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **compatibilitySuite.test.mjs** (20 connections) — `backend/test/compatibilitySuite.test.mjs`
-- **securityPhase1.test.mjs** (16 connections) — `backend/test/securityPhase1.test.mjs`
-- **upload.js** (11 connections) — `backend/src/routes/upload.js`
-- **upload.js** (9 connections) — `api/upload.js`
-- **verifyAdminAuth()** (9 connections) — `api/_lib/adminAuth.js`
-- **uploads.js** (8 connections) — `backend/src/routes/uploads.js`
-- **adminAuth.js** (6 connections) — `api/_lib/adminAuth.js`
-- **handler()** (4 connections) — `api/upload.js`
-- **contentRouter** (4 connections) — `backend/src/routes/content.js`
-- **uploadRouter** (4 connections) — `backend/src/routes/upload.js`
-- **uploadsRouter** (4 connections) — `backend/src/routes/uploads.js`
-- **login.js** (3 connections) — `api/admin/login.js`
-- **handler()** (2 connections) — `api/admin/login.js`
-- **validateMagicBytes()** (2 connections) — `api/upload.js`
-- **ALLOWED_EXTENSIONS** (1 connections) — `api/upload.js`
-- **ALLOWED_FOLDERS** (1 connections) — `api/upload.js`
-- **MIME_TYPES** (1 connections) — `api/upload.js`
-- **ALLOWED_FOLDERS** (1 connections) — `backend/src/routes/upload.js`
-- **SAFE_EXTENSIONS** (1 connections) — `backend/src/routes/upload.js`
-- **validateMagicBytes()** (1 connections) — `backend/src/routes/upload.js`
-- **ALLOWED_FOLDERS** (1 connections) — `backend/src/routes/uploads.js`
-- **MIME_TYPES** (1 connections) — `backend/src/routes/uploads.js`
-- **json()** (1 connections) — `backend/test/compatibilitySuite.test.mjs`
-- **status()** (1 connections) — `backend/test/compatibilitySuite.test.mjs`
-- **json()** (1 connections) — `backend/test/securityPhase1.test.mjs`
+- **s()** (15 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **bi()** (10 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **co()** (9 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **hh()** (9 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **yh()** (9 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **c()** (8 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **Si()** (8 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **mh()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **yi()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **dh()** (6 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **fh()** (6 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **lh()** (6 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **Mp()** (6 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **ph()** (6 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **Sh()** (6 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **xi()** (6 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **ao()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **bh()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **Ih()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **Ka()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **vi()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **Ca()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **lo()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **qs()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **ut()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
 - *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [[Oxlint Linter Configuration]] (7 shared connections)
-- [[Community 49]] (7 shared connections)
-- [[Community 68]] (6 shared connections)
-- [[Community 86]] (6 shared connections)
-- [[Community 225]] (4 shared connections)
-- [[Community 164]] (3 shared connections)
+- [[Dealer Auth & Session Management]] (34 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (23 shared connections)
+- [[Architecture Doc Generator]] (11 shared connections)
+- [[Master Codebase Architecture Reference]] (5 shared connections)
+- [[Roles & Customer Sharing Spec]] (5 shared connections)
+- [[Community 105]] (4 shared connections)
+- [[Community 41]] (3 shared connections)
+- [[Community 165]] (1 shared connections)
+- [[Community 42]] (1 shared connections)
 
 ## Source Files
 
-- `api/_lib/adminAuth.js`
-- `api/admin/login.js`
-- `api/upload.js`
-- `backend/src/routes/content.js`
-- `backend/src/routes/upload.js`
-- `backend/src/routes/uploads.js`
-- `backend/test/compatibilitySuite.test.mjs`
-- `backend/test/securityPhase1.test.mjs`
+- `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
 
 ## Audit Trail
 
-- EXTRACTED: 117 (100%)
+- EXTRACTED: 177 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

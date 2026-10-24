@@ -1,18 +1,19 @@
 # Community 206
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **web-D5B9-15S.js** (8 connections) — `android/app/src/main/assets/public/assets/web-D5B9-15S.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-D5B9-15S.js`
-- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-D5B9-15S.js`
-- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-D5B9-15S.js`
-- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-D5B9-15S.js`
-- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-D5B9-15S.js`
-- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-D5B9-15S.js`
-- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-D5B9-15S.js`
-- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-D5B9-15S.js`
+- **whatsappOtp.test.mjs** (9 connections) — `backend/test/whatsappOtp.test.mjs`
+- **resetConfig()** (2 connections) — `backend/test/whatsappOtp.test.mjs`
+- **resetDb()** (2 connections) — `backend/test/whatsappOtp.test.mjs`
+- **app** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **db** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **logEntries** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **mockSql()** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **startServer()** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **stopServer()** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **testEnv** (1 connections) — `backend/test/whatsappOtp.test.mjs`
 
 ## Relationships
 
@@ -20,11 +21,11 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/web-D5B9-15S.js`
+- `backend/test/whatsappOtp.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,41 +1,39 @@
 # Community 227
 
-> 9 nodes · cohesion 0.22
+> 9 nodes · cohesion 0.47
 
 ## Key Concepts
 
-- **Typography Guide** (18 connections) — `.agents/skills/refero-design/references/typography.md`
-- **13. AI-Slop Anti-Patterns** (3 connections) — `.agents/skills/refero-design/references/typography.md`
-- **typography.md** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **15. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **1. The Safe SaaS Preset** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Instant Red Flags** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Quick Test** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **dealerPricingAuth.js** (9 connections) — `api/_lib/dealerPricingAuth.js`
+- **getDealerPricingEligibility()** (8 connections) — `api/_lib/dealerPricingAuth.js`
+- **index.js** (7 connections) — `api/products/index.js`
+- **fetchZohoCategories()** (6 connections) — `api/_lib/zoho.js`
+- **[id].js** (6 connections) — `api/products/[id].js`
+- **maskCatalogPricing()** (5 connections) — `api/_lib/dealerPricingAuth.js`
+- **maskProductPricing()** (5 connections) — `api/_lib/dealerPricingAuth.js`
+- **handler()** (5 connections) — `api/products/index.js`
+- **handler()** (4 connections) — `api/products/[id].js`
 
 ## Relationships
 
-- [[Community 382]] (1 shared connections)
-- [[Community 402]] (1 shared connections)
-- [[Community 383]] (1 shared connections)
-- [[Community 403]] (1 shared connections)
-- [[Community 404]] (1 shared connections)
-- [[Community 405]] (1 shared connections)
-- [[Community 384]] (1 shared connections)
-- [[Community 406]] (1 shared connections)
-- [[Community 407]] (1 shared connections)
-- [[Community 385]] (1 shared connections)
-- [[Community 228]] (1 shared connections)
-- [[Community 437]] (1 shared connections)
+- [[Community 130]] (5 shared connections)
+- [[Community 50]] (4 shared connections)
+- [[Community 248]] (4 shared connections)
+- [[Community 57]] (3 shared connections)
+- [[Graphify Agent Rules]] (2 shared connections)
+- [[Community 166]] (2 shared connections)
+- [[Product Brand & Business Vision]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `api/_lib/dealerPricingAuth.js`
+- `api/_lib/zoho.js`
+- `api/products/[id].js`
+- `api/products/index.js`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 55 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

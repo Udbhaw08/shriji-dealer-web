@@ -4,55 +4,53 @@
 
 ## Key Concepts
 
-- **workflow-migration.test.mjs** (22 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **workflow-v2.mjs** (21 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **migrateWorkflowDocument()** (15 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **compileWorkflow()** (13 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **workflow-migration-geometry.mjs** (10 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **createMappedWorkflowCandidate()** (9 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **intrinsicWorkflow()** (8 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **planningWorkflow()** (7 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **clone()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **legacyLayoutProbe()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **legacyRequirementProbe()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **createHorizontalRankMapper()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **expandableViewBox()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **requiredViewBoxFrom()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **schemaDiagnostics()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **workflow-semantic-contract.test.mjs** (3 connections) — `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
-- **clone()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **mapExplicitCoordinates()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **diagnostic()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **result()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **copyFixture()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **explicitPinConflictWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **fixture** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **fl()** (25 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **me()** (13 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **zd()** (13 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **ml()** (11 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **Nd()** (11 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **qd()** (11 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **be()** (9 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **pl()** (9 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **Se()** (9 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **nt()** (8 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **Xd()** (8 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **Gd()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **I()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **P()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **cl()** (6 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **jo()** (6 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **Rd()** (6 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **xo()** (6 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **Bd()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **he()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **sl()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **ua()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **dl()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **mf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **ue()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
 - *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [[Community 54]] (9 shared connections)
-- [[Community 40]] (4 shared connections)
-- [[Community 83]] (3 shared connections)
-- [[Zoho Integration Architecture]] (3 shared connections)
-- [[Community 146]] (2 shared connections)
-- [[Community 64]] (2 shared connections)
-- [[Community 59]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (40 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (18 shared connections)
+- [[Architecture Doc Generator]] (17 shared connections)
+- [[Roles & Customer Sharing Spec]] (8 shared connections)
+- [[Master Codebase Architecture Reference]] (7 shared connections)
+- [[Community 41]] (3 shared connections)
+- [[Community 165]] (2 shared connections)
+- [[Community 105]] (2 shared connections)
+- [[Community 51]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/migrations/workflow-v2.mjs`
-- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- `.agents/skills/archify/test/workflow-migration.test.mjs`
-- `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
+- `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
 
 ## Audit Trail
 
-- EXTRACTED: 156 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 232 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

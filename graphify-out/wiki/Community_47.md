@@ -1,53 +1,58 @@
 # Community 47
 
-> 33 nodes · cohesion 0.12
+> 33 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **fl()** (25 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **me()** (13 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **zd()** (13 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **ml()** (11 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **Nd()** (11 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **qd()** (11 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **be()** (9 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **pl()** (9 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **Se()** (9 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **nt()** (8 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **Xd()** (8 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **Gd()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **I()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **P()** (7 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **cl()** (6 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **jo()** (6 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **Rd()** (6 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **xo()** (6 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **Bd()** (5 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **he()** (5 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **sl()** (5 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **ua()** (5 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **mf()** (4 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **ue()** (4 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
-- **Zo()** (4 connections) — `ios/App/App/public/assets/index-HNFh_-5t.js`
+- **Product.jsx** (34 connections) — `src/pages/Product.jsx`
+- **dealer.js** (29 connections) — `src/data/dealer.js`
+- **Favorites.jsx** (20 connections) — `src/pages/Favorites.jsx`
+- **ProductCard.jsx** (19 connections) — `src/components/ProductCard.jsx`
+- **dealer.test.mjs** (18 connections) — `src/data/dealer.test.mjs`
+- **PriceBlock.jsx** (15 connections) — `src/components/PriceBlock.jsx`
+- **ProductCard()** (15 connections) — `src/components/ProductCard.jsx`
+- **Product()** (15 connections) — `src/pages/Product.jsx`
+- **priceFor()** (14 connections) — `src/data/dealer.js`
+- **useFavorites()** (13 connections) — `src/data/favoritesStore.js`
+- **inr()** (12 connections) — `src/data/dealer.js`
+- **viewerFor()** (8 connections) — `src/data/dealer.js`
+- **CustomerPrice()** (7 connections) — `src/components/PriceBlock.jsx`
+- **productSlug()** (7 connections) — `src/data/dealer.js`
+- **shareLink()** (7 connections) — `src/data/dealer.js`
+- **tagFor()** (6 connections) — `src/data/dealer.js`
+- **DealerPrice()** (5 connections) — `src/components/PriceBlock.jsx`
+- **formatWhatsAppPhone()** (4 connections) — `src/data/dealer.js`
+- **slugifyProduct()** (4 connections) — `src/data/dealer.js`
+- **tierOf()** (4 connections) — `src/data/dealer.js`
+- **DEALERS** (3 connections) — `src/data/dealer.js`
+- **PriceBlock()** (2 connections) — `src/components/PriceBlock.jsx`
+- **price99()** (2 connections) — `src/data/dealer.js`
+- **BAND** (1 connections) — `src/data/dealer.js`
+- **hash()** (1 connections) — `src/data/dealer.js`
 - *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (39 shared connections)
-- [[Mobile Responsive UI Skill]] (17 shared connections)
-- [[Pricing Regression Test Suite]] (14 shared connections)
-- [[Live Pricing Audit Tool]] (8 shared connections)
-- [[Product Requirements Documentation]] (7 shared connections)
-- [[Dependencies & Package Config]] (6 shared connections)
-- [[Architecture Doc Generator]] (4 shared connections)
+- [[Design System & UI Tokens]] (60 shared connections)
+- [[Community 59]] (17 shared connections)
+- [[Project Readme & Layout]] (10 shared connections)
+- [[Community 149]] (6 shared connections)
+- [[Community 96]] (5 shared connections)
+- [[Community 106]] (3 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-HNFh_-5t.js`
+- `src/components/PriceBlock.jsx`
+- `src/components/ProductCard.jsx`
+- `src/data/dealer.js`
+- `src/data/dealer.test.mjs`
+- `src/data/favoritesStore.js`
+- `src/pages/Favorites.jsx`
+- `src/pages/Product.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 225 (100%)
+- EXTRACTED: 273 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

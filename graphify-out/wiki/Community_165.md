@@ -1,32 +1,38 @@
 # Community 165
 
-> 11 nodes · cohesion 0.18
+> 11 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **Archify** (10 connections) — `.agents/skills/archify/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Authoring invariants** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Delivery** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Fast authoring path** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Mermaid input** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Optional viewer capabilities** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Output** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Setup and fallback** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Type router** (1 connections) — `.agents/skills/archify/SKILL.md`
-- **Update awareness** (1 connections) — `.agents/skills/archify/SKILL.md`
+- **tf()** (10 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **ef()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **lf()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **uf()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **of()** (6 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **sf()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **jf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **vf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **Wf()** (3 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **hp()** (2 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (12 shared connections)
+- [[Architecture Doc Generator]] (6 shared connections)
+- [[Roles & Customer Sharing Spec]] (5 shared connections)
+- [[Community 42]] (2 shared connections)
+- [[Community 41]] (2 shared connections)
+- [[Community 51]] (1 shared connections)
+- [[Master Codebase Architecture Reference]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/SKILL.md`
+- `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 59 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

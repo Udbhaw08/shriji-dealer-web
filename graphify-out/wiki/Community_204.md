@@ -4,28 +4,30 @@
 
 ## Key Concepts
 
-- **whatsappOtp.test.mjs** (9 connections) — `backend/test/whatsappOtp.test.mjs`
-- **resetConfig()** (2 connections) — `backend/test/whatsappOtp.test.mjs`
-- **resetDb()** (2 connections) — `backend/test/whatsappOtp.test.mjs`
-- **app** (1 connections) — `backend/test/whatsappOtp.test.mjs`
-- **db** (1 connections) — `backend/test/whatsappOtp.test.mjs`
-- **logEntries** (1 connections) — `backend/test/whatsappOtp.test.mjs`
-- **mockSql()** (1 connections) — `backend/test/whatsappOtp.test.mjs`
-- **startServer()** (1 connections) — `backend/test/whatsappOtp.test.mjs`
-- **stopServer()** (1 connections) — `backend/test/whatsappOtp.test.mjs`
-- **testEnv** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **site-language-continuity.test.mjs** (12 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **clickAndNavigate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **evaluate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **loadRuntime()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **navigate()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **navigationPath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **runtimePath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **startStaticServer()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Vercel Deployment Routing]] (1 shared connections)
+- [[Community 147]] (1 shared connections)
+- [[Community 125]] (1 shared connections)
 
 ## Source Files
 
-- `backend/test/whatsappOtp.test.mjs`
+- `.agents/skills/archify/test/site-language-continuity.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 23 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

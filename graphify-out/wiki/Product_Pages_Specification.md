@@ -33,11 +33,11 @@
 
 ## Relationships
 
-- [[Zoho Integration Skill]] (30 shared connections)
-- [[Oxlint Linter Configuration]] (24 shared connections)
-- [[Community 49]] (7 shared connections)
-- [[Community 68]] (6 shared connections)
-- [[Community 77]] (2 shared connections)
+- [[Mobile Responsive UI Skill]] (30 shared connections)
+- [[Graphify Agent Rules]] (24 shared connections)
+- [[Product Brand & Business Vision]] (8 shared connections)
+- [[Community 161]] (5 shared connections)
+- [[Community 142]] (2 shared connections)
 
 ## Source Files
 

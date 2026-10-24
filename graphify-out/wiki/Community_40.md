@@ -33,18 +33,18 @@
 
 ## Relationships
 
-- [[Community 45]] (10 shared connections)
-- [[Community 54]] (9 shared connections)
-- [[Zoho Integration Architecture]] (7 shared connections)
+- [[Community 46]] (10 shared connections)
+- [[Community 53]] (9 shared connections)
+- [[Pricing Regression Test Suite]] (7 shared connections)
 - [[Pricing & Roles Skill]] (4 shared connections)
-- [[Community 42]] (4 shared connections)
-- [[Community 29]] (3 shared connections)
-- [[Community 163]] (3 shared connections)
-- [[Roles & Customer Sharing Spec]] (1 shared connections)
-- [[Community 56]] (1 shared connections)
+- [[Community 43]] (4 shared connections)
+- [[Graphify Workflow]] (3 shared connections)
+- [[Community 164]] (3 shared connections)
 - [[Client Products Data Store]] (1 shared connections)
-- [[Claude Agent Instructions]] (1 shared connections)
-- [[Community 203]] (1 shared connections)
+- [[Community 56]] (1 shared connections)
+- [[Zoho Integration Architecture]] (1 shared connections)
+- [[Oxlint Linter Configuration]] (1 shared connections)
+- [[Community 205]] (1 shared connections)
 
 ## Source Files
 
