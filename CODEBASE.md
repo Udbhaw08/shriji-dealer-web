@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-25T03:21:08.217+05:30 (GMT+5:30)
-> Total Project Files: 1858
+> Last synchronized: 2026-10-25T04:27:12.614+05:30 (GMT+5:30)
+> Total Project Files: 1920
 
 ---
 
@@ -110,15 +110,19 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/pages/TermsOfService.jsx`** (0.0 KB)
 
 ### 4.2 Reusable Components (`src/components/` & `src/ui.jsx`)
+- **`src/components/A11yAnnouncer.jsx`** (0.5 KB)
 - **`src/components/BrandApplyFlow.jsx`** (47.2 KB)
 - **`src/components/EmailVerificationPrompt.jsx`** (9.8 KB)
+- **`src/components/ErrorBoundary.jsx`** (0.8 KB)
 - **`src/components/FileOrUrlInput.jsx`** (14.7 KB)
 - **`src/components/HeroSlider.jsx`** (16.8 KB)
 - **`src/components/MobileBottomNav.jsx`** (4.8 KB)
 - **`src/components/NativeBackHandler.jsx`** (3.7 KB)
+- **`src/components/NetworkStatusBadge.jsx`** (0.8 KB)
 - **`src/components/PriceBlock.jsx`** (6.4 KB)
 - **`src/components/ProductCard.jsx`** (3.8 KB)
 - **`src/components/ProductSearchBar.jsx`** (16.6 KB)
+- **`src/components/SkipToContent.jsx`** (0.7 KB)
 - **`src/components/UnderMaintenance.jsx`** (2.1 KB)
 - **`src/ui.jsx`**: Core UI components (Header, Footer, Icon, Search, CategoryCarousel).
 
@@ -132,12 +136,16 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/data/i18n.js`** (1.7 KB)
 - **`src/data/loginCode.js`** (3.1 KB)
 - **`src/data/portalGate.js`** (0.8 KB)
+- **`src/data/portalGate.test.mjs`** (1.0 KB)
 - **`src/data/pricing.test.mjs`** (4.2 KB)
 - **`src/data/products.js`** (1.8 KB)
 - **`src/data/productsStore.js`** (6.0 KB)
+- **`src/data/productsStore.test.mjs`** (0.4 KB)
 - **`src/data/searchHelper.js`** (9.8 KB)
+- **`src/data/searchHelper.test.mjs`** (0.9 KB)
 - **`src/data/session.js`** (9.1 KB)
 - **`src/data/site.js`** (3.6 KB)
+- **`src/data/site.test.mjs`** (0.7 KB)
 - **`src/data/translations.js`** (32.0 KB)
 - **`src/data/validators.js`** (1.6 KB)
 - **`src/data/video-banner.test.mjs`** (2.3 KB)
@@ -161,6 +169,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 
 ### 4.5 Automation & Utility Scripts (`scripts/`)
 - **`scripts/audit_prices.mjs`** (3.8 KB)
+- **`scripts/check-env.mjs`** (0.3 KB)
 - **`scripts/export_pricebooks_for_crm.mjs`** (2.9 KB)
 - **`scripts/generate-codebase-doc.mjs`** (9.1 KB)
 - **`scripts/get-refresh-token.mjs`** (2.3 KB)
@@ -168,6 +177,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`scripts/sync-all.mjs`** (1.8 KB)
 - **`scripts/test-supabase.mjs`** (0.6 KB)
 - **`scripts/test-zoho-api.mjs`** (1.4 KB)
+- **`scripts/verify-all.mjs`** (0.3 KB)
 - **`scripts/watch-sync.mjs`** (1.4 KB)
 
 ---
