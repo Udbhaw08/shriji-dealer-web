@@ -1,55 +1,54 @@
 # Graphify Knowledge Graph Skill
 
-> 48 nodes · cohesion 0.09
+> 49 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **ct()** (19 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
-- **k()** (17 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
-- **A()** (14 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
-- **dt()** (14 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
-- **gt()** (13 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
-- **F()** (12 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
-- **ft()** (12 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
-- **mt()** (11 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
-- **P()** (10 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
-- **Te()** (10 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
-- **Ce()** (9 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
-- **mm()** (9 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
-- **Pn()** (9 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
-- **an()** (8 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
-- **it()** (8 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
-- **O()** (8 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
-- **Se()** (8 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
-- **Id()** (7 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
-- **kf()** (7 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
-- **Nt()** (7 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
-- **ot()** (7 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
-- **st()** (7 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
-- **ut()** (7 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
-- **Xt()** (7 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
-- **hf()** (6 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
-- *... and 23 more nodes in this community*
+- **archify.mjs** (50 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandDeliver()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandMigrate()** (17 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **fail()** (15 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandValidate()** (13 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **usage()** (11 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandRender()** (10 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandPreview()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **diagnostic()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **rendererPath()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **runNode()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **renderValidatedArchitecture()** (8 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractQualityArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractRepoRootArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **rejectCliArgument()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **assertEvidenceType()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **checkerDiagnostics()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandDemo()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **exitFrom()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **rendererEnv()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **rendererFailure()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandBrands()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandExamples()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandVisualCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (54 shared connections)
-- [[Zoho Integration Skill]] (23 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (14 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (14 shared connections)
-- [[Zoho Integration Architecture]] (13 shared connections)
-- [[Community 44]] (11 shared connections)
-- [[Community 29]] (9 shared connections)
-- [[Community 55]] (4 shared connections)
+- [[Master Codebase Architecture Reference]] (11 shared connections)
+- [[Community 33]] (4 shared connections)
+- [[Community 59]] (4 shared connections)
+- [[Testing & Workflow Skill]] (3 shared connections)
+- [[Community 128]] (3 shared connections)
+- [[Vercel Deployment Routing]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CLMClDFk.js`
+- `.agents/skills/archify/bin/archify.mjs`
+- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 338 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 305 (97%)
+- INFERRED: 10 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,38 +1,32 @@
 # Community 164
 
-> 11 nodes · cohesion 0.24
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **vite.config.js** (20 connections) — `vite.config.js`
-- **getDealerById()** (7 connections) — `api/zoho.js`
-- **handler()** (4 connections) — `api/download.js`
-- **download.js** (3 connections) — `api/download.js`
-- **info.js** (3 connections) — `api/dealer/info.js`
-- **wrapJpegInPdf()** (2 connections) — `api/download.js`
-- **DEFAULT_SCHEMES** (2 connections) — `api/zoho.js`
-- **DEFAULT_STORE_BANNERS** (2 connections) — `api/zoho.js`
-- **handler()** (2 connections) — `api/dealer/info.js`
-- **loadContentService()** (2 connections) — `vite.config.js`
-- **liveAutoSyncPlugin()** (1 connections) — `vite.config.js`
+- **Apple In-App Purchase** (5 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Auto-renewable subscriptions** (4 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Best practices** (3 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **apple-in-app-purchase.md** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Helping people manage their subscriptions** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Making signup effortless** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Providing help** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Supporting Family Sharing** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Supporting offer codes** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
 
 ## Relationships
 
-- [[Community 77]] (10 shared connections)
-- [[Community 47]] (6 shared connections)
-- [[Community 111]] (5 shared connections)
-- [[Community 248]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `api/dealer/info.js`
-- `api/download.js`
-- `api/zoho.js`
-- `vite.config.js`
+- `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

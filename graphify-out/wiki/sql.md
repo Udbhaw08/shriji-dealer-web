@@ -1,19 +1,22 @@
 # sql
 
-> God node · 67 connections · `backend/src/db/pool.js`
+> God node · 70 connections · `backend/src/db/pool.js`
 
-**Community:** [[Community 37]]
+**Community:** [[Community 36]]
 
 ## Connections by Relation
 
 ### calls
 - [[audit()]] `EXTRACTED`
+- [[requestDealerRegistrationOtp()]] `EXTRACTED`
 - [[applyCrmAccountState()]] `EXTRACTED`
 - [[generateUniqueDealerCode()]] `INFERRED`
 - [[syncCatalog()]] `EXTRACTED`
+- [[applyDealer()]] `EXTRACTED`
+- [[verifyDealerRegistrationOtp()]] `EXTRACTED`
 - [[getActiveContent()]] `EXTRACTED`
 - [[getHeroSliderSettings()]] `EXTRACTED`
-- [[applyDealer()]] `EXTRACTED`
+- [[provisionDealerInCrm()]] `EXTRACTED`
 - [[createInvite()]] `EXTRACTED`
 - [[crmPoll()]] `EXTRACTED`
 - [[jwtAuth()]] `EXTRACTED`
@@ -24,18 +27,15 @@
 - [[deleteStoreContent()]] `EXTRACTED`
 - [[getAllStoreContent()]] `EXTRACTED`
 - [[toggleStoreContentActive()]] `EXTRACTED`
-- [[upsertStoreContent()]] `EXTRACTED`
-- [[deactivateDealer()]] `EXTRACTED`
-- [[approveStaff()]] `EXTRACTED`
 
 ### contains
 - [[pool.js]] `EXTRACTED`
 
 ### imports
 - [[auth.js]] `EXTRACTED`
-- [[server.js]] `EXTRACTED`
 - [[dealers.js]] `EXTRACTED`
 - [[dealerApp.js]] `EXTRACTED`
+- [[server.js]] `EXTRACTED`
 - [[staff.js]] `EXTRACTED`
 - [[content.js]] `EXTRACTED`
 - [[catalog.js]] `EXTRACTED`

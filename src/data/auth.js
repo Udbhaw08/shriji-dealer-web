@@ -293,6 +293,29 @@ export async function applyAsDealer(form) {
   return data;
 }
 
+export async function requestDealerRegistrationOtp({ flowId, channel, phone, email }) {
+  const targetChannel = channel || (phone ? "phone" : "email");
+  const res = await apiFetch(`${AUTH_BASE}/api/dealers/register/${targetChannel}/request-otp`, json({ flowId, phone, email }));
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.error || `Could not send verification code to ${targetChannel}`);
+  return data;
+}
+
+export async function verifyDealerRegistrationOtp({ flowId, channel, phone, email, code }) {
+  const targetChannel = channel || (phone ? "phone" : "email");
+  const res = await apiFetch(`${AUTH_BASE}/api/dealers/register/${targetChannel}/verify-otp`, json({ flowId, phone, email, code }));
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.error || `Invalid or expired ${targetChannel} verification code`);
+  return data;
+}
+
+export async function finalizeDealerRegistration(form) {
+  const res = await apiFetch(`${AUTH_BASE}/api/dealers/register/finalize`, json(form));
+  const data = await applyAuthResponse(res);
+  broadcastAuthChange("DEALER_REGISTERED");
+  return data;
+}
+
 export async function updateDealerCode(code) {
   const res = await callBackend("/api/dealers/code", json({ code }));
   const data = await res.json();

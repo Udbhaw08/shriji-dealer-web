@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Shriji Pricing & Roles Skill** (5 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **User Roles & View Modes** (4 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **1. Guest View (Public)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **2. Dealer View (Authenticated)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **3. Customer Shared View (`?from=<dealer_id>`)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **Key Files** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **Schemes Logic** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
-- **Zero-Price Handling** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **preview-contract.test.mjs** (8 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **chinese** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **delivery** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **english** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **readme** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **skill** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- `.agents/skills/archify/test/preview-contract.test.mjs`
 
 ## Audit Trail
 

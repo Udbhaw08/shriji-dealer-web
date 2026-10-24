@@ -1,15 +1,14 @@
 # Community 360
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **render-output-checks.test.mjs** (5 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
-- **checker** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
-- **checkHtml()** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/render-output-checks.test.mjs`
+- **Column views** (4 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
+- **column-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
 
 ## Relationships
 
@@ -17,11 +16,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/render-output-checks.test.mjs`
+- `.agents/skills/apple-design/references/hig/column-views.md`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

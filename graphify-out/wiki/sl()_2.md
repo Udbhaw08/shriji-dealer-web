@@ -1,8 +1,8 @@
 # sl()
 
-> God node · 46 connections · `ios/App/App/public/assets/index-CLMClDFk.js`
+> God node · 43 connections · `ios/App/App/public/assets/index-DTX277AJ.js`
 
-**Community:** [[Zoho Backend & Proxy Endpoints]]
+**Community:** [[Zoho Integration Architecture]]
 
 ## Connections by Relation
 
@@ -10,23 +10,23 @@
 - [[i()]] `EXTRACTED`
 - [[n()]] `EXTRACTED`
 - [[ff()]] `EXTRACTED`
-- [[ra()]] `EXTRACTED`
+- [[za()]] `EXTRACTED`
 - [[zc()]] `EXTRACTED`
-- [[fp()]] `EXTRACTED`
-- [[ol()]] `EXTRACTED`
 - [[r()]] `EXTRACTED`
+- [[fp()]] `EXTRACTED`
+- [[ra()]] `EXTRACTED`
 - [[il()]] `EXTRACTED`
 - [[lm()]] `EXTRACTED`
-- [[kc()]] `EXTRACTED`
-- [[qc()]] `EXTRACTED`
-- [[Ri()]] `EXTRACTED`
+- [[ol()]] `EXTRACTED`
 - [[sa()]] `EXTRACTED`
+- [[kc()]] `EXTRACTED`
+- [[Li()]] `EXTRACTED`
+- [[ma()]] `EXTRACTED`
+- [[co()]] `EXTRACTED`
+- [[jc()]] `EXTRACTED`
+- [[qc()]] `EXTRACTED`
 - [[so()]] `EXTRACTED`
 - [[Sp()]] `EXTRACTED`
-- [[io()]] `EXTRACTED`
-- [[jc()]] `EXTRACTED`
-- [[nl()]] `EXTRACTED`
-- [[Se()]] `EXTRACTED`
 
 ### contains
 - [[_()]] `EXTRACTED`

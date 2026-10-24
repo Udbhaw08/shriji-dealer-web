@@ -2,7 +2,16 @@ import { Router } from 'express';
 import { sql } from '../db/pool.js';
 import { jwtAuth, requireApprovedDealer } from '../middleware/auth.js';
 import { httpError } from '../middleware/errorHandler.js';
-import { applyDealer, applyCrmAccountState, deleteDealer } from '../services/dealerApp.js';
+import { rateLimit } from '../middleware/rateLimit.js';
+import {
+  applyDealer,
+  applyCrmAccountState,
+  deleteDealer,
+  requestDealerRegistrationOtp,
+  verifyDealerRegistrationOtp,
+  finalizeDealerRegistration,
+} from '../services/dealerApp.js';
+import { issueSession } from './auth.js';
 import { createInvite, approveStaff, revokeStaff, holdStaff, resumeStaff, deleteStaff, toggleStaffPrice, toggleAllStaffPrice } from '../services/staff.js';
 import * as crm from '../services/crmClient.js';
 const { updateDealerCodeInCrm, getDealerAccount } = crm;
@@ -12,6 +21,144 @@ import { isValidName, cleanName, isValidGstin, isValidPhone } from '../utils/val
 
 export const dealersRouter = Router();
 
+const strictLimit = rateLimit({ windowMs: 60_000, max: 10 });
+const otpRequestLimit = rateLimit({ windowMs: 10 * 60_000, max: 6 });
+
+/* ==========================================================================
+ * Public Dealer Registration (Guest Form-First, Verify-Both-Channels)
+ * No permanent user/dealer rows or CRM calls occur until both channels verify
+ * and registration is atomically finalized.
+ * ========================================================================== */
+
+/* POST /api/dealers/register/phone/request-otp */
+dealersRouter.post('/register/phone/request-otp', otpRequestLimit, async (req, res, next) => {
+  try {
+    const result = await requestDealerRegistrationOtp({
+      flowId: req.body?.flowId || req.body?.flow_id,
+      channel: 'phone',
+      phone: req.body?.phone,
+    });
+    res.json(result);
+  } catch (err) { next(err); }
+});
+
+/* POST /api/dealers/register/phone/verify-otp */
+dealersRouter.post('/register/phone/verify-otp', strictLimit, async (req, res, next) => {
+  try {
+    const result = await verifyDealerRegistrationOtp({
+      flowId: req.body?.flowId || req.body?.flow_id,
+      channel: 'phone',
+      phone: req.body?.phone,
+      code: req.body?.code,
+    });
+    res.json(result);
+  } catch (err) { next(err); }
+});
+
+/* POST /api/dealers/register/email/request-otp */
+dealersRouter.post('/register/email/request-otp', otpRequestLimit, async (req, res, next) => {
+  try {
+    const result = await requestDealerRegistrationOtp({
+      flowId: req.body?.flowId || req.body?.flow_id,
+      channel: 'email',
+      email: req.body?.email,
+    });
+    res.json(result);
+  } catch (err) { next(err); }
+});
+
+/* POST /api/dealers/register/email/verify-otp */
+dealersRouter.post('/register/email/verify-otp', strictLimit, async (req, res, next) => {
+  try {
+    const result = await verifyDealerRegistrationOtp({
+      flowId: req.body?.flowId || req.body?.flow_id,
+      channel: 'email',
+      email: req.body?.email,
+      code: req.body?.code,
+    });
+    res.json(result);
+  } catch (err) { next(err); }
+});
+
+/* Unified POST /api/dealers/register/otp/request */
+dealersRouter.post('/register/otp/request', otpRequestLimit, async (req, res, next) => {
+  try {
+    const channel = req.body?.channel || (req.body?.phone ? 'phone' : 'email');
+    const result = await requestDealerRegistrationOtp({
+      flowId: req.body?.flowId || req.body?.flow_id,
+      channel,
+      phone: req.body?.phone,
+      email: req.body?.email,
+    });
+    res.json(result);
+  } catch (err) { next(err); }
+});
+
+/* Unified POST /api/dealers/register/otp/verify */
+dealersRouter.post('/register/otp/verify', strictLimit, async (req, res, next) => {
+  try {
+    const channel = req.body?.channel || (req.body?.phone ? 'phone' : 'email');
+    const result = await verifyDealerRegistrationOtp({
+      flowId: req.body?.flowId || req.body?.flow_id,
+      channel,
+      phone: req.body?.phone,
+      email: req.body?.email,
+      code: req.body?.code,
+    });
+    res.json(result);
+  } catch (err) { next(err); }
+});
+
+/* POST /api/dealers/register/finalize & POST /api/dealers/register */
+async function handleDealerRegistrationFinalize(req, res, next) {
+  try {
+    const {
+      flowId,
+      flow_id,
+      verificationToken,
+      verification_token,
+      business_name,
+      person_name,
+      first_name,
+      last_name,
+      phone,
+      email,
+      gst_treatment,
+      gst_number,
+      address,
+    } = req.body || {};
+
+    const { user, dealer } = await finalizeDealerRegistration({
+      flowId: flowId || flow_id,
+      verificationToken: verificationToken || verification_token,
+      business_name,
+      person_name,
+      first_name,
+      last_name,
+      phone,
+      email,
+      gst_treatment,
+      gst_number,
+      address,
+    });
+
+    const session = await issueSession(user);
+    res.status(201).json({
+      ok: true,
+      status: 'pending',
+      dealer_id: dealer.id,
+      dealer_code: dealer.dealer_code,
+      ...session,
+    });
+  } catch (err) { next(err); }
+}
+
+dealersRouter.post('/register/finalize', strictLimit, handleDealerRegistrationFinalize);
+dealersRouter.post('/register', strictLimit, handleDealerRegistrationFinalize);
+
+/* ==========================================================================
+ * Authenticated Dealer Endpoints (Requires Valid Session)
+ * ========================================================================== */
 dealersRouter.use(jwtAuth);
 
 /* POST /api/dealers/apply — submit the GST + business application. */

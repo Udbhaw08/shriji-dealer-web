@@ -1,62 +1,52 @@
 # Community 54
 
-> 28 nodes · cohesion 0.14
+> 31 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **pool.js** (30 connections) — `backend/src/db/pool.js`
-- **catalog.js** (16 connections) — `backend/src/services/catalog.js`
-- **env.js** (14 connections) — `backend/src/config/env.js`
-- **logger.js** (14 connections) — `backend/src/utils/logger.js`
-- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
-- **log** (13 connections) — `backend/src/utils/logger.js`
-- **env** (11 connections) — `backend/src/config/env.js`
-- **index.js** (11 connections) — `backend/src/jobs/index.js`
-- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
-- **syncCatalog()** (7 connections) — `backend/src/services/catalog.js`
-- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
-- **catalogFor()** (4 connections) — `backend/src/services/catalog.js`
-- **loadCatalog()** (4 connections) — `backend/src/services/catalog.js`
-- **catalogSync()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **tokenCleanup()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **markPollRun()** (3 connections) — `backend/src/jobs/crmPoll.js`
-- **migrate-content.js** (3 connections) — `backend/scripts/migrate-content.js`
-- **test-storage.js** (3 connections) — `backend/scripts/test-storage.js`
-- **priceView()** (3 connections) — `backend/src/services/catalog.js`
-- **priceGate.test.mjs** (3 connections) — `backend/test/priceGate.test.mjs`
-- **bool()** (1 connections) — `backend/src/config/env.js`
-- **__dirname** (1 connections) — `backend/src/config/env.js`
-- **num()** (1 connections) — `backend/src/config/env.js`
-- **tx()** (1 connections) — `backend/src/db/pool.js`
-- **main()** (1 connections) — `backend/scripts/migrate-content.js`
-- *... and 3 more nodes in this community*
+- **zoho.js** (60 connections) — `api/zoho.js`
+- **syncRecentProductTags()** (7 connections) — `api/zoho.js`
+- **normalizeProduct()** (6 connections) — `api/zoho.js`
+- **readTagCache()** (6 connections) — `api/zoho.js`
+- **updateCachedProductTags()** (4 connections) — `api/zoho.js`
+- **sync-tags.js** (4 connections) — `api/products/sync-tags.js`
+- **getCachedProductTags()** (3 connections) — `api/zoho.js`
+- **isItemOnline()** (3 connections) — `api/zoho.js`
+- **handler()** (3 connections) — `api/products/sync-tags.js`
+- **clearDiskCache()** (2 connections) — `api/zoho.js`
+- **isItemCategoryOnline()** (2 connections) — `api/zoho.js`
+- **parseRate()** (2 connections) — `api/zoho.js`
+- **slugifyCategory()** (2 connections) — `api/zoho.js`
+- **slugifyProduct()** (2 connections) — `api/zoho.js`
+- **writeProductsDiskCache()** (2 connections) — `api/zoho.js`
+- **writeTagCache()** (2 connections) — `api/zoho.js`
+- **cachedPricebooks** (1 connections) — `api/zoho.js`
+- **cachedProductDetails** (1 connections) — `api/zoho.js`
+- **cachedProductsByPricebook** (1 connections) — `api/zoho.js`
+- **isBannerItem()** (1 connections) — `api/zoho.js`
+- **isLogoItem()** (1 connections) — `api/zoho.js`
+- **isSchemeItem()** (1 connections) — `api/zoho.js`
+- **localCacheFile** (1 connections) — `api/zoho.js`
+- **localDetailCacheFile** (1 connections) — `api/zoho.js`
+- **localProductsCacheFile** (1 connections) — `api/zoho.js`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [[Community 37]] (31 shared connections)
-- [[Community 39]] (16 shared connections)
-- [[Claude Agent Instructions]] (15 shared connections)
-- [[Community 136]] (8 shared connections)
-- [[Community 111]] (2 shared connections)
-- [[Community 397]] (1 shared connections)
-- [[Community 390]] (1 shared connections)
+- [[Community 88]] (23 shared connections)
+- [[Community 243]] (6 shared connections)
+- [[Community 159]] (6 shared connections)
+- [[Community 99]] (3 shared connections)
+- [[Community 139]] (1 shared connections)
 
 ## Source Files
 
-- `backend/scripts/migrate-content.js`
-- `backend/scripts/test-storage.js`
-- `backend/src/config/env.js`
-- `backend/src/db/pool.js`
-- `backend/src/jobs/catalogSync.js`
-- `backend/src/jobs/crmPoll.js`
-- `backend/src/jobs/index.js`
-- `backend/src/services/catalog.js`
-- `backend/src/utils/logger.js`
-- `backend/test/priceGate.test.mjs`
+- `api/products/sync-tags.js`
+- `api/zoho.js`
 
 ## Audit Trail
 
-- EXTRACTED: 180 (100%)
+- EXTRACTED: 125 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

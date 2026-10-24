@@ -1,55 +1,55 @@
 # Community 45
 
-> 32 nodes · cohesion 0.09
+> 35 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **np()** (21 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **bm()** (13 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **Oi()** (12 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **qc()** (11 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **am()** (10 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **Ai()** (9 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **mi()** (9 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **mm()** (9 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **om()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **zm()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **ia()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **kt()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **Fi()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **ki()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **km()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **M()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **Ni()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **qm()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **sm()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **hu()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **Ld()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **nn()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **pl()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **po()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **sn()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- *... and 7 more nodes in this community*
+- **n()** (28 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **t()** (17 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **ts()** (16 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **ys()** (8 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **cs()** (7 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **ds()** (7 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **s()** (7 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **us()** (7 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **ms()** (6 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **vs()** (6 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **bs()** (5 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **gs()** (5 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **hs()** (5 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **is()** (5 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **j()** (5 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **ns()** (5 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **oc()** (5 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **rs()** (5 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **x()** (5 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **es()** (4 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **ks()** (4 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **ls()** (4 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **ps()** (4 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **qa()** (4 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **ss()** (4 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (33 shared connections)
-- [[Product Pages Specification]] (24 shared connections)
-- [[Design System & UI Tokens]] (19 shared connections)
-- [[Live Pricing Audit Tool]] (13 shared connections)
-- [[Roles & Customer Sharing Spec]] (8 shared connections)
-- [[Community 46]] (6 shared connections)
-- [[Community 53]] (3 shared connections)
-- [[Community 80]] (1 shared connections)
-- [[Community 210]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (39 shared connections)
+- [[Oxlint Linter Configuration]] (14 shared connections)
+- [[Product Pages Specification]] (10 shared connections)
+- [[Zoho Integration Architecture]] (10 shared connections)
+- [[Community 55]] (7 shared connections)
+- [[Community 68]] (6 shared connections)
+- [[Community 43]] (6 shared connections)
+- [[Community 52]] (2 shared connections)
+- [[Graphify Agent Rules]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- `ios/App/App/public/assets/index-DTX277AJ.js`
 
 ## Audit Trail
 
-- EXTRACTED: 198 (100%)
+- EXTRACTED: 203 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

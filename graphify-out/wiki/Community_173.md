@@ -4,29 +4,31 @@
 
 ## Key Concepts
 
-- **Toggles** (5 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Desktop (macOS)** (4 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **toggles.md** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Checkboxes** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Radio buttons** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
-- **Switches** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **dealerRegistrationTwoChannel.test.mjs** (15 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- **app** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- **crmCalls** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- **db** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- **mockCrm** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- **mockNotifications** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- **mockSql()** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- **resetCrmCalls()** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- **resetDb()** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- **sentOtps** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- **testEnv** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Claude Agent Instructions]] (3 shared connections)
+- [[Community 175]] (1 shared connections)
+- [[Community 73]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/toggles.md`
+- `backend/test/dealerRegistrationTwoChannel.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 25 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

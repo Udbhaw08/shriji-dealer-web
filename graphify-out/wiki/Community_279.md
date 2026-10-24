@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **relationship-direct-explorer.test.mjs** (7 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- **route-share-card.test.mjs** (7 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/relationship-direct-explorer.test.mjs`
+- `.agents/skills/archify/test/route-share-card.test.mjs`
 
 ## Audit Trail
 

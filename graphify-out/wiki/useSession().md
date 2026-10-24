@@ -2,7 +2,7 @@
 
 > God node · 36 connections · `src/data/session.js`
 
-**Community:** [[Master Codebase Architecture Reference]]
+**Community:** [[Community 60]]
 
 ## Connections by Relation
 
@@ -37,8 +37,8 @@
 - [[Product.jsx]] `EXTRACTED`
 - [[Home.jsx]] `EXTRACTED`
 - [[Products.jsx]] `EXTRACTED`
-- [[DealerDashboard.jsx]] `EXTRACTED`
 - [[DealerApply.jsx]] `EXTRACTED`
+- [[DealerDashboard.jsx]] `EXTRACTED`
 - [[Favorites.jsx]] `EXTRACTED`
 - [[ProductCard.jsx]] `EXTRACTED`
 - [[Schemes.jsx]] `EXTRACTED`

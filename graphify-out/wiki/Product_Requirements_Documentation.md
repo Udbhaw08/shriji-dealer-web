@@ -1,6 +1,6 @@
 # Product Requirements Documentation
 
-> 59 nodes · cohesion 0.05
+> 56 nodes · cohesion 0.06
 
 ## Key Concepts
 
@@ -17,7 +17,6 @@
 - **loadDiagram()** (9 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
 - **loadDiagramWithBrandMarks()** (8 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
 - **settled-flow.test.mjs** (8 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **prepareDiagramBrandMarks()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 - **validateEngineeringProfile()** (6 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
 - **normalizedDiagnostic()** (4 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
 - **deploymentOwnershipDiagnostics()** (4 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
@@ -26,29 +25,29 @@
 - **fallbackDiagnostic()** (3 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
 - **withDiagnosticRecordingSuppressed()** (3 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
 - **renderCards()** (3 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **captureTimeoutMilliseconds()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **mapConcurrent()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 - **installRendererDiagnosticBoundary()** (2 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- *... and 34 more nodes in this community*
+- **plainObject()** (2 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **rendererFailure()** (2 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **subject()** (2 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- *... and 31 more nodes in this community*
 
 ## Relationships
 
-- [[Dependencies & Package Config]] (12 shared connections)
-- [[Pricing & Roles Skill]] (11 shared connections)
-- [[Community 43]] (11 shared connections)
-- [[Testing & Workflow Skill]] (7 shared connections)
-- [[Community 49]] (7 shared connections)
-- [[Community 105]] (7 shared connections)
-- [[Community 163]] (6 shared connections)
-- [[Client Products Data Store]] (5 shared connections)
-- [[Community 42]] (5 shared connections)
-- [[Community 103]] (4 shared connections)
-- [[Community 132]] (4 shared connections)
-- [[Community 205]] (3 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (11 shared connections)
+- [[Community 44]] (10 shared connections)
+- [[Community 40]] (9 shared connections)
+- [[Community 87]] (8 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (8 shared connections)
+- [[Community 106]] (7 shared connections)
+- [[Community 59]] (7 shared connections)
+- [[Testing & Workflow Skill]] (6 shared connections)
+- [[Community 64]] (6 shared connections)
+- [[Product Brand & Business Vision]] (5 shared connections)
+- [[Community 128]] (4 shared connections)
+- [[Zoho Integration Skill]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 - `.agents/skills/archify/renderers/shared/cli.mjs`
 - `.agents/skills/archify/renderers/shared/diagnostics.mjs`
 - `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
@@ -60,7 +59,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 267 (100%)
+- EXTRACTED: 256 (100%)
 - INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 

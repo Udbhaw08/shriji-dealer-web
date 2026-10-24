@@ -514,6 +514,34 @@ export default function Login() {
         {!isAuthenticated && (
           <div className="card pad" style={{ boxShadow: "var(--sh)" }}>
 
+            {/* REGISTERED DEALER SIGN-IN CLARIFICATION NOTICE */}
+            <div
+              style={{
+                display: "flex",
+                alignItems: "flex-start",
+                gap: 10,
+                padding: "11px 14px",
+                background: "rgba(37, 99, 235, 0.06)",
+                border: "1px solid rgba(37, 99, 235, 0.18)",
+                borderRadius: "var(--r-sm, 10px)",
+                marginBottom: 18,
+                fontSize: "0.84rem",
+                lineHeight: 1.45,
+                color: "var(--tx-2, #334155)",
+                textAlign: "left",
+              }}
+            >
+              <div style={{ marginTop: 2, flexShrink: 0, color: "#2563eb" }}>
+                <Icon name="shield" size={16} />
+              </div>
+              <div>
+                <strong style={{ color: "var(--tx, #0f172a)", display: "block", marginBottom: 2 }}>
+                  Registered Dealer Sign-In
+                </strong>
+                Newly registered dealer owners sign in using <strong>WhatsApp Phone OTP</strong> with your registered mobile number, or with <strong>Google Sign-In</strong> using your matching registered Google account.
+              </div>
+            </div>
+
             {/* SEGMENTED TAB SELECTOR (Apple HIG Style) */}
             <div
               role="tablist"
@@ -730,7 +758,7 @@ export default function Login() {
                       </div>
 
                       <p style={{ margin: "7px 0 0", fontSize: "0.8rem", color: "var(--tx-3)" }}>
-                        Must be a 10-digit Indian mobile number registered with WhatsApp.
+                        Must be a 10-digit Indian mobile number registered with WhatsApp. Registered dealer owners can sign in here.
                       </p>
                     </div>
 
@@ -917,6 +945,25 @@ export default function Login() {
             {authMethod === "email" && (
               <div id="panel-email" role="tabpanel" aria-labelledby="tab-email">
                 <form onSubmit={handleEmailAuthSubmit} style={{ display: "grid", gap: 16 }}>
+                  {/* Notice for dealer owners */}
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: 8,
+                      padding: "9px 12px",
+                      background: "var(--bg-2, #f8fafc)",
+                      border: "1px solid var(--line, #e2e8f0)",
+                      borderRadius: "var(--r-sm, 8px)",
+                      fontSize: "0.8rem",
+                      color: "var(--tx-3, #64748b)",
+                    }}
+                  >
+                    <Icon name="shield" size={14} />
+                    <span>
+                      Dealer owners: Use <strong>WhatsApp OTP</strong> or <strong>Google Sign-In</strong> (password sign-in is for staff & retail customers).
+                    </span>
+                  </div>
                   {/* Full Name field (Only in Signup mode) */}
                   {emailMode === "signup" && (
                     <div>
@@ -1215,7 +1262,7 @@ export default function Login() {
                   gap: 6,
                 }}
               >
-                <Icon name="shield" size={13} /> Official Google Identity Services · Instant 1-Click Access
+                <Icon name="shield" size={13} /> Official Google Identity Services · Instant 1-Click Access for matching registered accounts
               </div>
 
               {/* DEALER & STAFF ONBOARDING ENTRY POINTS */}

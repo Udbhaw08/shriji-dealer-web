@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-24T05:22:20.074+05:30 (GMT+5:30)
-> Total Project Files: 1779
+> Last synchronized: 2026-10-24T06:28:09.574+05:30 (GMT+5:30)
+> Total Project Files: 1785
 
 ---
 
@@ -93,14 +93,14 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 
 ### 4.1 Pages (`src/pages/`)
 - **`src/pages/ContentAdminDashboard.jsx`** (64.0 KB)
-- **`src/pages/DealerApply.jsx`** (27.4 KB)
+- **`src/pages/DealerApply.jsx`** (35.5 KB)
 - **`src/pages/DealerDashboard.jsx`** (50.6 KB)
 - **`src/pages/DealerPending.jsx`** (18.2 KB)
 - **`src/pages/Favorites.jsx`** (16.4 KB)
 - **`src/pages/Home.jsx`** (20.6 KB)
 - **`src/pages/LegalPrivacy.jsx`** (5.7 KB)
 - **`src/pages/LegalTerms.jsx`** (4.2 KB)
-- **`src/pages/Login.jsx`** (50.3 KB)
+- **`src/pages/Login.jsx`** (52.4 KB)
 - **`src/pages/PrivacyPolicy.jsx`** (0.0 KB)
 - **`src/pages/Product.jsx`** (35.2 KB)
 - **`src/pages/Products.jsx`** (33.5 KB)
@@ -124,7 +124,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 ### 4.3 State & Business Logic (`src/data/`)
 - **`src/data/api.js`** (1.7 KB)
 - **`src/data/auth-session.test.mjs`** (5.6 KB)
-- **`src/data/auth.js`** (15.2 KB)
+- **`src/data/auth.js`** (16.3 KB)
 - **`src/data/dealer.js`** (9.0 KB)
 - **`src/data/dealer.test.mjs`** (4.3 KB)
 - **`src/data/favoritesStore.js`** (2.3 KB)

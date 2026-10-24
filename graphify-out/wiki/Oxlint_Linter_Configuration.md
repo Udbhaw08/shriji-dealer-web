@@ -1,53 +1,55 @@
 # Oxlint Linter Configuration
 
-> 45 nodes · cohesion 0.08
+> 45 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **hash.js** (22 connections) — `backend/src/utils/hash.js`
-- **phase2DealerStaffOnboarding.test.mjs** (17 connections) — `backend/test/phase2DealerStaffOnboarding.test.mjs`
-- **loginCode.js** (16 connections) — `backend/src/utils/loginCode.js`
-- **onboardingVerification.test.mjs** (15 connections) — `backend/test/onboardingVerification.test.mjs`
-- **hash.test.mjs** (9 connections) — `backend/test/hash.test.mjs`
-- **sha256()** (9 connections) — `backend/src/utils/hash.js`
-- **formatLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
-- **generateLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
-- **loginCode.test.mjs** (7 connections) — `backend/test/loginCode.test.mjs`
-- **verifyOtpHash()** (7 connections) — `backend/src/utils/hash.js`
-- **hashOtp()** (6 connections) — `backend/src/utils/hash.js`
-- **hashPassword()** (5 connections) — `backend/src/utils/hash.js`
-- **verifyPassword()** (4 connections) — `backend/src/utils/hash.js`
-- **isValidLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
-- **parseLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
-- **generateOtp()** (3 connections) — `backend/src/utils/hash.js`
-- **scryptKey()** (3 connections) — `backend/src/utils/hash.js`
-- **USER_CATEGORIES** (3 connections) — `backend/src/utils/loginCode.js`
-- **generateCode()** (2 connections) — `backend/src/utils/hash.js`
-- **randomToken()** (2 connections) — `backend/src/utils/hash.js`
-- **generateRandomDigits()** (2 connections) — `backend/src/utils/loginCode.js`
-- **generateRandomLetters()** (2 connections) — `backend/src/utils/loginCode.js`
-- **GST_TREATMENT_OPTIONS** (2 connections) — `backend/src/utils/loginCode.js`
-- **app** (1 connections) — `backend/test/onboardingVerification.test.mjs`
-- **authHeader()** (1 connections) — `backend/test/onboardingVerification.test.mjs`
+- **i()** (67 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **get()** (26 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **D()** (24 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **np()** (21 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **Eu()** (17 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **bm()** (12 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **bn()** (12 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **ip()** (11 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **ep()** (10 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **tp()** (10 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **am()** (9 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **qt()** (9 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **dn()** (8 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **mm()** (8 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **mn()** (7 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **Mp()** (7 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **sn()** (7 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **wu()** (7 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **zm()** (7 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **ji()** (6 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **jm()** (6 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **om()** (6 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **un()** (6 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **an()** (5 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
+- **en()** (5 connections) — `ios/App/App/public/assets/index-DTX277AJ.js`
 - *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [[Community 37]] (14 shared connections)
-- [[Claude Agent Instructions]] (8 shared connections)
+- [[Dealer Auth & Session Management]] (50 shared connections)
+- [[Product Pages Specification]] (36 shared connections)
+- [[Zoho Integration Architecture]] (26 shared connections)
+- [[Community 43]] (21 shared connections)
+- [[Graphify Agent Rules]] (21 shared connections)
+- [[Community 45]] (14 shared connections)
+- [[Community 52]] (11 shared connections)
+- [[Community 55]] (9 shared connections)
+- [[Community 68]] (4 shared connections)
 
 ## Source Files
 
-- `backend/src/utils/hash.js`
-- `backend/src/utils/loginCode.js`
-- `backend/test/hash.test.mjs`
-- `backend/test/loginCode.test.mjs`
-- `backend/test/onboardingVerification.test.mjs`
-- `backend/test/phase2DealerStaffOnboarding.test.mjs`
+- `ios/App/App/public/assets/index-DTX277AJ.js`
 
 ## Audit Trail
 
-- EXTRACTED: 182 (100%)
+- EXTRACTED: 388 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

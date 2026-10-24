@@ -86,7 +86,7 @@ export function publicUser(user) {
   };
 }
 
-async function issueSession(rawUser) {
+export async function issueSession(rawUser) {
   const user = await resolveUserWithDealer(rawUser);
   return { accessToken: signAccessToken(user), refreshToken: await issueRefreshToken(user.id), expiresIn: 30 * 24 * 60 * 60, user: publicUser(user) };
 }

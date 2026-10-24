@@ -1,7 +1,12 @@
 import { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useSession, revalidateSession } from "../data/session";
-import { applyAsDealer, requestEmailOtp, verifyEmailOtp, requestPhoneOtp, verifyPhoneOtp } from "../data/auth";
+import {
+  applyAsDealer,
+  requestDealerRegistrationOtp,
+  verifyDealerRegistrationOtp,
+  finalizeDealerRegistration,
+} from "../data/auth";
 import { GST_TREATMENT_OPTIONS } from "../data/loginCode";
 import { isValidEmail, isValidPhone, isValidName, isValidGstin, isValidPincode } from "../data/validators";
 import { Icon } from "../ui";
@@ -10,21 +15,39 @@ export default function DealerApply() {
   const session = useSession();
   const navigate = useNavigate();
 
-  const isAuthenticated = session && session.role !== "guest";
   const isDealerRole = session?.role === "dealer" || session?.dealer;
   const isApprovedDealer = isDealerRole && session?.status === "approved";
   const isPendingDealer = isDealerRole && session?.status === "pending";
+
+  // Redirect if already an approved dealer or pending
+  useEffect(() => {
+    if (isApprovedDealer) {
+      navigate("/dealer", { replace: true });
+    } else if (isPendingDealer) {
+      navigate("/dealer/pending", { replace: true });
+    }
+  }, [isApprovedDealer, isPendingDealer, navigate]);
 
   // Form inputs
   const [form, setForm] = useState({
     business_name: "",
     person_name: session?.fullName || "",
+    phone: session?.phone || "",
+    email: session?.email || "",
     gst_treatment: "Registered Business - Regular",
     gst_number: "",
     address_line: "",
     city: "",
     pin: "",
   });
+
+  // Two-channel verification state
+  const [flowId, setFlowId] = useState(null);
+  const [phoneVerified, setPhoneVerified] = useState(Boolean(session?.phone_verified));
+  const [emailVerified, setEmailVerified] = useState(Boolean(session?.email_verified));
+  const [verificationToken, setVerificationToken] = useState(null);
+  const [verifiedPhone, setVerifiedPhone] = useState(session?.phone_verified ? (session?.phone || "") : "");
+  const [verifiedEmail, setVerifiedEmail] = useState(session?.email_verified ? (session?.email || "") : "");
 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -39,18 +62,7 @@ export default function DealerApply() {
   const [verifyError, setVerifyError] = useState("");
   const [devCode, setDevCode] = useState("");
 
-  // Redirect if already an approved dealer or pending
-  useEffect(() => {
-    if (isApprovedDealer) {
-      navigate("/dealer", { replace: true });
-    } else if (isPendingDealer) {
-      navigate("/dealer/pending", { replace: true });
-    }
-  }, [isApprovedDealer, isPendingDealer, navigate]);
-
-  const emailVerified = Boolean(session?.email_verified);
-  const phoneVerified = Boolean(session?.phone_verified);
-  const canSubmit = emailVerified && phoneVerified;
+  const canSubmit = phoneVerified && emailVerified;
 
   const handleFieldChange = (field, value) => {
     setForm((prev) => {
@@ -64,6 +76,25 @@ export default function DealerApply() {
       }
       return next;
     });
+
+    // Invalidate phone verification if phone number is altered after verification
+    if (field === "phone") {
+      const clean = value.replace(/\D/g, "");
+      if (phoneVerified && clean !== verifiedPhone.replace(/\D/g, "")) {
+        setPhoneVerified(false);
+        setVerificationToken(null);
+      }
+    }
+
+    // Invalidate email verification if email is altered after verification
+    if (field === "email") {
+      const clean = value.trim().toLowerCase();
+      if (emailVerified && clean !== verifiedEmail.trim().toLowerCase()) {
+        setEmailVerified(false);
+        setVerificationToken(null);
+      }
+    }
+
     if (fieldErrors[field]) {
       setFieldErrors((prev) => ({ ...prev, [field]: null }));
     }
@@ -78,6 +109,16 @@ export default function DealerApply() {
 
     if (form.person_name.trim() && !isValidName(form.person_name.trim())) {
       errs.person_name = "Owner name should contain letters only (min 2 characters).";
+    }
+
+    const cleanPhone = form.phone.replace(/\D/g, "");
+    if (!cleanPhone || !isValidPhone(cleanPhone)) {
+      errs.phone = "Please enter a valid 10-digit Indian mobile number.";
+    }
+
+    const cleanEmail = form.email.trim().toLowerCase();
+    if (!cleanEmail || !isValidEmail(cleanEmail)) {
+      errs.email = "Please enter a valid email address.";
     }
 
     const isRegistered = form.gst_treatment.includes("Registered");
@@ -99,13 +140,9 @@ export default function DealerApply() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!isAuthenticated) {
-      navigate("/login", { state: { from: { pathname: "/dealer/apply" } } });
-      return;
-    }
 
     if (!canSubmit) {
-      setError("Both verified email and verified phone number are required before applying for dealer access.");
+      setError("Both verified WhatsApp phone number and verified email address are required before submitting.");
       return;
     }
 
@@ -121,13 +158,30 @@ export default function DealerApply() {
     ].filter(Boolean);
 
     try {
-      await applyAsDealer({
+      const cleanPhone = form.phone.replace(/\D/g, "");
+      const cleanEmail = form.email.trim().toLowerCase();
+
+      const payload = {
+        flowId,
+        verificationToken,
         business_name: form.business_name.trim(),
         person_name: form.person_name.trim() || undefined,
+        phone: cleanPhone,
+        email: cleanEmail,
         gst_treatment: form.gst_treatment || undefined,
         gst_number: form.gst_number.trim() ? form.gst_number.trim().toUpperCase() : undefined,
         address: addressParts.join(" - ") || undefined,
-      });
+      };
+
+      if (flowId) {
+        // Guest registration with two-channel verification grant
+        await finalizeDealerRegistration(payload);
+      } else if (session?.userId && session?.email_verified && session?.phone_verified) {
+        // Authenticated customer applying with previously verified account contacts
+        await applyAsDealer(payload);
+      } else {
+        throw new Error("Please verify both phone and email before submitting.");
+      }
 
       await revalidateSession();
       navigate("/dealer/pending?applied=true", { replace: true });
@@ -141,7 +195,7 @@ export default function DealerApply() {
   // Quick Inline Contact Verification Flow
   const startVerification = (channel) => {
     setVerifyingChannel(channel);
-    setVerifyInput(channel === "email" ? (session?.email || "") : (session?.phone || ""));
+    setVerifyInput(channel === "email" ? form.email : form.phone);
     setVerifyOtpCode("");
     setVerifyOtpSent(false);
     setVerifyError("");
@@ -158,7 +212,19 @@ export default function DealerApply() {
         if (!clean || !isValidEmail(clean)) {
           throw new Error("Please enter a valid email address.");
         }
-        const res = await requestEmailOtp(clean);
+        const res = await requestDealerRegistrationOtp({
+          flowId,
+          channel: "email",
+          email: clean,
+        });
+        if (res.flowId) setFlowId(res.flowId);
+        setForm((prev) => ({ ...prev, email: clean }));
+        if (res.already_verified) {
+          setEmailVerified(true);
+          setVerifiedEmail(clean);
+          setVerifyingChannel(null);
+          return;
+        }
         setVerifyOtpSent(true);
         if (res.dev_code) setDevCode(res.dev_code);
       } else {
@@ -166,7 +232,19 @@ export default function DealerApply() {
         if (!isValidPhone(clean)) {
           throw new Error("Please enter a valid 10-digit Indian mobile number.");
         }
-        const res = await requestPhoneOtp(clean);
+        const res = await requestDealerRegistrationOtp({
+          flowId,
+          channel: "phone",
+          phone: clean,
+        });
+        if (res.flowId) setFlowId(res.flowId);
+        setForm((prev) => ({ ...prev, phone: clean }));
+        if (res.already_verified) {
+          setPhoneVerified(true);
+          setVerifiedPhone(clean);
+          setVerifyingChannel(null);
+          return;
+        }
         setVerifyOtpSent(true);
         if (res.dev_code) setDevCode(res.dev_code);
       }
@@ -183,12 +261,34 @@ export default function DealerApply() {
     setVerifyLoading(true);
     try {
       if (verifyingChannel === "email") {
-        await verifyEmailOtp(verifyInput.trim().toLowerCase(), verifyOtpCode.trim());
+        const cleanEmail = verifyInput.trim().toLowerCase();
+        const res = await verifyDealerRegistrationOtp({
+          flowId,
+          channel: "email",
+          email: cleanEmail,
+          code: verifyOtpCode.trim(),
+        });
+        setEmailVerified(true);
+        setVerifiedEmail(cleanEmail);
+        setForm((prev) => ({ ...prev, email: cleanEmail }));
+        if (res.verification_token) setVerificationToken(res.verification_token);
+        if (res.phone_verified) setPhoneVerified(true);
+        setVerifyingChannel(null);
       } else {
-        await verifyPhoneOtp(verifyInput.replace(/\D/g, ""), verifyOtpCode.trim());
+        const cleanPhone = verifyInput.replace(/\D/g, "");
+        const res = await verifyDealerRegistrationOtp({
+          flowId,
+          channel: "phone",
+          phone: cleanPhone,
+          code: verifyOtpCode.trim(),
+        });
+        setPhoneVerified(true);
+        setVerifiedPhone(cleanPhone);
+        setForm((prev) => ({ ...prev, phone: cleanPhone }));
+        if (res.verification_token) setVerificationToken(res.verification_token);
+        if (res.email_verified) setEmailVerified(true);
+        setVerifyingChannel(null);
       }
-      await revalidateSession();
-      setVerifyingChannel(null);
     } catch (err) {
       setVerifyError(err.message || "Invalid or expired verification code.");
     } finally {
@@ -198,9 +298,9 @@ export default function DealerApply() {
 
   return (
     <section className="sec" style={{ paddingTop: "clamp(var(--s4), 5vw, var(--s7))", minHeight: "85vh" }}>
-      <div className="wrap" style={{ maxWidth: 620, margin: "0 auto", minWidth: 0, overflowX: "clip" }}>
+      <div className="wrap" style={{ maxWidth: 640, margin: "0 auto", minWidth: 0, overflowX: "clip" }}>
 
-        {/* Breadcrumb / Top Link */}
+        {/* Top Breadcrumb Link */}
         <div style={{ marginBottom: 16 }}>
           <Link to="/" style={{ display: "inline-flex", alignItems: "center", gap: 6, fontSize: "0.88rem", color: "var(--tx-2)", textDecoration: "none", fontWeight: 600 }}>
             <Icon name="arrowsm" size={14} style={{ transform: "rotate(180deg)" }} />
@@ -208,8 +308,8 @@ export default function DealerApply() {
           </Link>
         </div>
 
-        {/* Header Header */}
-        <div style={{ marginBottom: 28 }}>
+        {/* Header Block */}
+        <div style={{ marginBottom: 26 }}>
           <div style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "5px 14px", borderRadius: 999, background: "var(--blue-50, #eff6ff)", color: "var(--blue-700, #1d4ed8)", fontSize: "0.82rem", fontWeight: 700, marginBottom: 12 }}>
             <Icon name="badge" size={15} />
             Official B2B Dealership Application
@@ -222,7 +322,7 @@ export default function DealerApply() {
           </p>
         </div>
 
-        {/* STEP A: CONTACT VERIFICATION PREREQUISITE CARD */}
+        {/* STEP A: PREREQUISITE CONTACT VERIFICATION CARD */}
         <div
           className="card pad"
           style={{
@@ -233,15 +333,15 @@ export default function DealerApply() {
         >
           <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 14 }}>
             <span style={{ fontSize: "0.85rem", fontWeight: 800, textTransform: "uppercase", letterSpacing: "0.05em", color: canSubmit ? "#16a34a" : "#b45309" }}>
-              Prerequisite 1: Contact Verification
+              Prerequisite: Two-Channel Verification
             </span>
             <span style={{ fontSize: "0.82rem", fontWeight: 700, padding: "3px 10px", borderRadius: 999, background: canSubmit ? "#dcfce7" : "#fef3c7", color: canSubmit ? "#15803d" : "#b45309" }}>
-              {canSubmit ? "✓ Ready to Apply" : "Action Required"}
+              {canSubmit ? "✓ Ready to Apply" : "Verification Required"}
             </span>
           </div>
 
           <p style={{ fontSize: "0.88rem", color: "var(--tx-2)", margin: "0 0 16px", lineHeight: 1.45 }}>
-            To safeguard dealer pricing and synchronize with Zoho CRM, your account must have both a verified email address and verified WhatsApp phone number.
+            To safeguard wholesale pricing and synchronize with Zoho CRM, both a verified WhatsApp phone number and a verified email address are required before application submission.
           </p>
 
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12 }}>
@@ -256,9 +356,9 @@ export default function DealerApply() {
                 )}
               </div>
               <span style={{ fontSize: "0.92rem", fontWeight: 600, color: "var(--tx)" }}>
-                {session?.phone ? `+91 ${session.phone}` : "No phone added"}
+                {form.phone ? `+91 ${form.phone}` : "No phone entered"}
               </span>
-              {!phoneVerified && (
+              {!phoneVerified ? (
                 <button
                   type="button"
                   className="btn btn-navy"
@@ -266,6 +366,14 @@ export default function DealerApply() {
                   onClick={() => startVerification("phone")}
                 >
                   Verify via WhatsApp
+                </button>
+              ) : (
+                <button
+                  type="button"
+                  style={{ background: "none", border: "none", color: "var(--tx-3)", fontSize: "0.75rem", textAlign: "left", cursor: "pointer", padding: 0 }}
+                  onClick={() => startVerification("phone")}
+                >
+                  Change phone
                 </button>
               )}
             </div>
@@ -281,9 +389,9 @@ export default function DealerApply() {
                 )}
               </div>
               <span style={{ fontSize: "0.92rem", fontWeight: 600, color: "var(--tx)", textOverflow: "ellipsis", overflow: "hidden", whiteSpace: "nowrap" }}>
-                {session?.email || "No email added"}
+                {form.email || "No email entered"}
               </span>
-              {!emailVerified && (
+              {!emailVerified ? (
                 <button
                   type="button"
                   className="btn btn-navy"
@@ -292,12 +400,20 @@ export default function DealerApply() {
                 >
                   Verify via Email
                 </button>
+              ) : (
+                <button
+                  type="button"
+                  style={{ background: "none", border: "none", color: "var(--tx-3)", fontSize: "0.75rem", textAlign: "left", cursor: "pointer", padding: 0 }}
+                  onClick={() => startVerification("email")}
+                >
+                  Change email
+                </button>
               )}
             </div>
           </div>
         </div>
 
-        {/* INLINE VERIFICATION MODAL / DRAWER */}
+        {/* INLINE OTP VERIFICATION DRAWER */}
         {verifyingChannel && (
           <div
             style={{
@@ -332,7 +448,7 @@ export default function DealerApply() {
               <form onSubmit={handleSendChannelOtp} style={{ display: "grid", gap: 14 }}>
                 <p style={{ margin: 0, fontSize: "0.88rem", color: "var(--tx-2)" }}>
                   {verifyingChannel === "email"
-                    ? "We will send a 6-digit confirmation code via Resend to verify ownership."
+                    ? "We will send a 6-digit confirmation code via Email to verify ownership."
                     : "We will send a 6-digit OTP to your WhatsApp via Meta Cloud API."}
                 </p>
                 <div>
@@ -345,13 +461,13 @@ export default function DealerApply() {
                     required
                     value={verifyInput}
                     onChange={(e) => setVerifyInput(e.target.value)}
-                    placeholder={verifyingChannel === "email" ? "owner@business.com" : "98765 43210"}
-                    style={{ width: "100%", height: 46, borderRadius: 8, border: "1.5px solid var(--line)", padding: "0 14px", fontSize: "0.95rem" }}
+                    placeholder={verifyingChannel === "email" ? "owner@business.com" : "9876543210"}
+                    style={{ width: "100%", height: 48, borderRadius: 8, border: "1.5px solid var(--line)", padding: "0 14px", fontSize: "0.95rem" }}
                   />
                 </div>
                 <div style={{ display: "flex", gap: 10 }}>
-                  <button type="submit" className="btn btn-navy" disabled={verifyLoading} style={{ minHeight: 42 }}>
-                    {verifyLoading ? "Sending OTP…" : "Send Verification Code"}
+                  <button type="submit" className="btn btn-navy" disabled={verifyLoading} style={{ minHeight: 44 }}>
+                    {verifyLoading ? "Sending Code…" : "Send Verification Code"}
                   </button>
                   <button type="button" className="btn btn-ghost" onClick={() => setVerifyingChannel(null)}>
                     Cancel
@@ -381,15 +497,15 @@ export default function DealerApply() {
                     value={verifyOtpCode}
                     onChange={(e) => setVerifyOtpCode(e.target.value.replace(/\D/g, "").slice(0, 6))}
                     placeholder="123456"
-                    style={{ width: "100%", height: 46, borderRadius: 8, border: "1.5px solid var(--line)", padding: "0 14px", fontSize: "1.1rem", letterSpacing: "0.2em", fontWeight: 700, textAlign: "center" }}
+                    style={{ width: "100%", height: 48, borderRadius: 8, border: "1.5px solid var(--line)", padding: "0 14px", fontSize: "1.1rem", letterSpacing: "0.2em", fontWeight: 700, textAlign: "center" }}
                   />
                 </div>
                 <div style={{ display: "flex", gap: 10 }}>
-                  <button type="submit" className="btn btn-navy" disabled={verifyLoading || verifyOtpCode.length < 6} style={{ minHeight: 42 }}>
+                  <button type="submit" className="btn btn-navy" disabled={verifyLoading || verifyOtpCode.length < 6} style={{ minHeight: 44 }}>
                     {verifyLoading ? "Confirming…" : "Verify & Save"}
                   </button>
                   <button type="button" className="btn btn-ghost" onClick={() => setVerifyOtpSent(false)}>
-                    Back
+                    Back / Resend
                   </button>
                 </div>
               </form>
@@ -490,7 +606,92 @@ export default function DealerApply() {
             )}
           </div>
 
-          {/* 3. GST Treatment Dropdown */}
+          {/* 3. Contact Details: Phone & Email with Verification Badges */}
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12 }}>
+            <div>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 6 }}>
+                <label htmlFor="dealer-phone" style={{ fontSize: "0.85rem", fontWeight: 700, color: "var(--tx)" }}>
+                  Mobile (WhatsApp) <span style={{ color: "var(--err)" }}>*</span>
+                </label>
+                {phoneVerified ? (
+                  <span style={{ color: "#16a34a", fontSize: "0.75rem", fontWeight: 700 }}>✓ Verified</span>
+                ) : (
+                  <button
+                    type="button"
+                    onClick={() => startVerification("phone")}
+                    style={{ background: "none", border: "none", color: "var(--blue-600, #2563eb)", fontSize: "0.75rem", fontWeight: 700, cursor: "pointer", padding: 0 }}
+                  >
+                    Verify OTP
+                  </button>
+                )}
+              </div>
+              <input
+                id="dealer-phone"
+                type="tel"
+                required
+                disabled={loading}
+                value={form.phone}
+                onChange={(e) => handleFieldChange("phone", e.target.value)}
+                placeholder="9876543210"
+                style={{
+                  width: "100%",
+                  height: 48,
+                  borderRadius: "var(--r-sm, 10px)",
+                  border: fieldErrors.phone ? "1.5px solid var(--err)" : phoneVerified ? "1.5px solid #16a34a" : "1.5px solid var(--line)",
+                  padding: "0 14px",
+                  fontSize: "0.95rem",
+                }}
+              />
+              {fieldErrors.phone && (
+                <span style={{ display: "block", color: "var(--err)", fontSize: "0.8rem", marginTop: 4 }}>
+                  {fieldErrors.phone}
+                </span>
+              )}
+            </div>
+
+            <div>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 6 }}>
+                <label htmlFor="dealer-email" style={{ fontSize: "0.85rem", fontWeight: 700, color: "var(--tx)" }}>
+                  Email Address <span style={{ color: "var(--err)" }}>*</span>
+                </label>
+                {emailVerified ? (
+                  <span style={{ color: "#16a34a", fontSize: "0.75rem", fontWeight: 700 }}>✓ Verified</span>
+                ) : (
+                  <button
+                    type="button"
+                    onClick={() => startVerification("email")}
+                    style={{ background: "none", border: "none", color: "var(--blue-600, #2563eb)", fontSize: "0.75rem", fontWeight: 700, cursor: "pointer", padding: 0 }}
+                  >
+                    Verify OTP
+                  </button>
+                )}
+              </div>
+              <input
+                id="dealer-email"
+                type="email"
+                required
+                disabled={loading}
+                value={form.email}
+                onChange={(e) => handleFieldChange("email", e.target.value)}
+                placeholder="owner@business.com"
+                style={{
+                  width: "100%",
+                  height: 48,
+                  borderRadius: "var(--r-sm, 10px)",
+                  border: fieldErrors.email ? "1.5px solid var(--err)" : emailVerified ? "1.5px solid #16a34a" : "1.5px solid var(--line)",
+                  padding: "0 14px",
+                  fontSize: "0.95rem",
+                }}
+              />
+              {fieldErrors.email && (
+                <span style={{ display: "block", color: "var(--err)", fontSize: "0.8rem", marginTop: 4 }}>
+                  {fieldErrors.email}
+                </span>
+              )}
+            </div>
+          </div>
+
+          {/* 4. GST Treatment Dropdown */}
           <div>
             <label htmlFor="dealer-gst-treatment" style={{ display: "block", fontSize: "0.85rem", fontWeight: 700, color: "var(--tx)", marginBottom: 6 }}>
               GST Treatment <span style={{ color: "var(--err)" }}>*</span>
@@ -520,7 +721,7 @@ export default function DealerApply() {
             </select>
           </div>
 
-          {/* 4. GSTIN (Conditional Requirement) */}
+          {/* 5. GSTIN (Conditional Requirement) */}
           <div>
             <label htmlFor="dealer-gst-number" style={{ display: "block", fontSize: "0.85rem", fontWeight: 700, color: "var(--tx)", marginBottom: 6 }}>
               GSTIN {form.gst_treatment.includes("Registered") ? <span style={{ color: "var(--err)" }}>*</span> : "(Optional)"}
@@ -553,7 +754,7 @@ export default function DealerApply() {
             )}
           </div>
 
-          {/* 5. Address Details (Street, City, PIN Code) */}
+          {/* 6. Address Details (Street, City, PIN Code) */}
           <div>
             <label htmlFor="dealer-address" style={{ display: "block", fontSize: "0.85rem", fontWeight: 700, color: "var(--tx)", marginBottom: 6 }}>
               Shop / Warehouse Address
@@ -649,7 +850,7 @@ export default function DealerApply() {
 
             {!canSubmit && (
               <p style={{ margin: "10px 0 0", textAlign: "center", fontSize: "0.82rem", color: "#b45309" }}>
-                ⚠ Complete email and phone verification above to unlock application submission.
+                ⚠ Complete WhatsApp phone and email verification above to unlock application submission.
               </p>
             )}
           </div>

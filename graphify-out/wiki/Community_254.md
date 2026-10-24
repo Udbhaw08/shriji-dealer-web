@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Going full screen** (5 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
-- **going-full-screen.md** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **Offering help** (6 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **offering-help.md** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Creating tips** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Desktop (macOS, visionOS)** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- `.agents/skills/apple-design/references/hig/offering-help.md`
 
 ## Audit Trail
 

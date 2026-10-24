@@ -1,14 +1,14 @@
 # Testing & Workflow Skill
 
-> 42 nodes · cohesion 0.08
+> 43 nodes · cohesion 0.08
 
 ## Key Concepts
 
 - **brand-marks.mjs** (51 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 - **brand-marks.test.mjs** (15 connections) — `.agents/skills/archify/test/brand-marks.test.mjs`
 - **captureRemoteBrand()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **prepareDiagramBrandMarks()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 - **captureBrandReference()** (6 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **commandBrands()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
 - **findBrandMark()** (5 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 - **checkedFetch()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 - **isPrivateBrandAddress()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
@@ -25,36 +25,33 @@
 - **BRAND_MARKS** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
 - **attribute()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 - **beforeDeadline()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **captureTimeoutMilliseconds()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 - **domainMark()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **listBrandMarks()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **mapConcurrent()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 - **remoteBrand()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **requestPinned()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- *... and 17 more nodes in this community*
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [[Pricing & Roles Skill]] (7 shared connections)
-- [[Product Requirements Documentation]] (7 shared connections)
-- [[Community 43]] (2 shared connections)
-- [[Community 38]] (1 shared connections)
-- [[Community 119]] (1 shared connections)
-- [[Client Products Data Store]] (1 shared connections)
-- [[Community 42]] (1 shared connections)
-- [[Community 49]] (1 shared connections)
-- [[Dependencies & Package Config]] (1 shared connections)
-- [[Community 105]] (1 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (7 shared connections)
+- [[Product Requirements Documentation]] (6 shared connections)
+- [[Graphify Knowledge Graph Skill]] (3 shared connections)
+- [[Community 40]] (3 shared connections)
+- [[Product Brand & Business Vision]] (1 shared connections)
+- [[Community 44]] (1 shared connections)
+- [[Community 106]] (1 shared connections)
+- [[Community 87]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
 - `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 - `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
 - `.agents/skills/archify/test/brand-marks.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 157 (98%)
-- INFERRED: 4 (2%)
+- EXTRACTED: 164 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

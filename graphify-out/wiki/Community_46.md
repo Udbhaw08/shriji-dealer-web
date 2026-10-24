@@ -1,56 +1,61 @@
 # Community 46
 
-> 32 nodes · cohesion 0.11
+> 34 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **ff()** (24 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **Eu()** (17 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **du()** (14 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **lu()** (11 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **Nu()** (9 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **Sp()** (9 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **vl()** (9 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **yu()** (9 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **Ea()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **wu()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **xl()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **gm()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **pu()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **qu()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **mu()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **vo()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **yl()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **bl()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **bu()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **fu()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **Gu()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **ku()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **xu()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **Ru()** (3 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **wp()** (3 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- *... and 7 more nodes in this community*
+- **.send()** (54 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **finder-browser.test.mjs** (12 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **route-probe-browser.test.mjs** (12 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **export-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **motion-governor-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **run()** (5 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **run()** (5 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **viewer-click.mjs** (4 connections) — `.agents/skills/archify/test/helpers/viewer-click.mjs`
+- **createViewerClick()** (4 connections) — `.agents/skills/archify/test/helpers/viewer-click.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **record()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **search()** (3 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **screenshot()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **opened()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (38 shared connections)
-- [[Product Pages Specification]] (18 shared connections)
-- [[Design System & UI Tokens]] (9 shared connections)
-- [[Live Pricing Audit Tool]] (8 shared connections)
-- [[Community 45]] (6 shared connections)
-- [[Roles & Customer Sharing Spec]] (4 shared connections)
-- [[Community 53]] (2 shared connections)
-- [[Community 210]] (2 shared connections)
-- [[Community 80]] (1 shared connections)
+- [[Vercel Deployment Routing]] (12 shared connections)
+- [[Community 71]] (11 shared connections)
+- [[Community 123]] (8 shared connections)
+- [[Community 140]] (5 shared connections)
+- [[Community 141]] (5 shared connections)
+- [[Community 177]] (4 shared connections)
+- [[Community 242]] (4 shared connections)
+- [[Community 105]] (1 shared connections)
+- [[Community 289]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/test/export-browser.test.mjs`
+- `.agents/skills/archify/test/finder-browser.test.mjs`
+- `.agents/skills/archify/test/helpers/viewer-click.mjs`
+- `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- `.agents/skills/archify/test/route-probe-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 202 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 174 (98%)
+- INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

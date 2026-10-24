@@ -1,56 +1,58 @@
 # Design System & UI Tokens
 
-> 59 nodes · cohesion 0.07
+> 57 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **i()** (66 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **sl()** (46 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **n()** (26 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **D()** (24 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **t()** (21 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **zc()** (17 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **hc()** (15 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **oa()** (13 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **il()** (12 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **lm()** (12 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **kc()** (11 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **ac()** (10 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **io()** (8 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **jc()** (8 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **ys()** (8 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **ga()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **qo()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **va()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **za()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **al()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **E()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **Mc()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **vc()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **vs()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **Yo()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- *... and 34 more nodes in this community*
+- **auth.js** (49 connections) — `src/data/auth.js`
+- **Login.jsx** (41 connections) — `src/pages/Login.jsx`
+- **json()** (31 connections) — `src/data/auth.js`
+- **callBackend()** (28 connections) — `src/data/auth.js`
+- **DealerApply.jsx** (24 connections) — `src/pages/DealerApply.jsx`
+- **DealerDashboard.jsx** (22 connections) — `src/pages/DealerDashboard.jsx`
+- **StaffJoin.jsx** (14 connections) — `src/pages/StaffJoin.jsx`
+- **broadcastAuthChange()** (13 connections) — `src/data/auth.js`
+- **revalidateSession()** (12 connections) — `src/data/session.js`
+- **loginCode.js** (10 connections) — `src/data/loginCode.js`
+- **applyAuthResponse()** (9 connections) — `src/data/auth.js`
+- **validators.js** (9 connections) — `src/data/validators.js`
+- **staffSignup()** (7 connections) — `src/data/auth.js`
+- **finalizeDealerRegistration()** (6 connections) — `src/data/auth.js`
+- **logout()** (6 connections) — `src/data/auth.js`
+- **verifyEmailOtp()** (6 connections) — `src/data/auth.js`
+- **formatLoginCode()** (6 connections) — `src/data/loginCode.js`
+- **applyAsDealer()** (5 connections) — `src/data/auth.js`
+- **fetchMe()** (5 connections) — `src/data/auth.js`
+- **googleLogin()** (5 connections) — `src/data/auth.js`
+- **login()** (5 connections) — `src/data/auth.js`
+- **lookupStaffCode()** (5 connections) — `src/data/auth.js`
+- **requestEmailOtp()** (5 connections) — `src/data/auth.js`
+- **signup()** (5 connections) — `src/data/auth.js`
+- **staffTogglePrice()** (5 connections) — `src/data/auth.js`
+- *... and 32 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (68 shared connections)
-- [[Product Pages Specification]] (43 shared connections)
-- [[Roles & Customer Sharing Spec]] (30 shared connections)
-- [[Live Pricing Audit Tool]] (22 shared connections)
-- [[Community 45]] (19 shared connections)
-- [[Community 61]] (14 shared connections)
-- [[Community 46]] (9 shared connections)
-- [[Community 53]] (8 shared connections)
-- [[Community 210]] (7 shared connections)
-- [[Community 80]] (5 shared connections)
+- [[Community 41]] (36 shared connections)
+- [[Community 60]] (18 shared connections)
+- [[Mobile Responsive UI Skill]] (8 shared connections)
+- [[Architecture Doc Generator]] (6 shared connections)
+- [[Community 180]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- `src/data/auth.js`
+- `src/data/loginCode.js`
+- `src/data/session.js`
+- `src/data/validators.js`
+- `src/pages/DealerApply.jsx`
+- `src/pages/DealerDashboard.jsx`
+- `src/pages/Login.jsx`
+- `src/pages/StaffJoin.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 481 (100%)
+- EXTRACTED: 449 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

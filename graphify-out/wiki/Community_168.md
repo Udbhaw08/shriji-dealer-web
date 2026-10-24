@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **App icons** (10 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **app-icons.md** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Appearances** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Design** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Icon shape** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Layer design** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Specifications** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Visual effects** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Toggles** (5 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Desktop (macOS)** (4 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **toggles.md** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Checkboxes** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Radio buttons** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Switches** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
 
 ## Relationships
 
@@ -22,7 +22,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/app-icons.md`
+- `.agents/skills/apple-design/references/hig/toggles.md`
 
 ## Audit Trail
 

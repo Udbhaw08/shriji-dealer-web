@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Segmented controls** (6 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
-- **segmented-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **web-DqScoSLy.js** (8 connections) — `ios/App/App/public/assets/web-DqScoSLy.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-DqScoSLy.js`
+- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-DqScoSLy.js`
+- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-DqScoSLy.js`
+- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-DqScoSLy.js`
+- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-DqScoSLy.js`
+- **getState()** (1 connections) — `ios/App/App/public/assets/web-DqScoSLy.js`
+- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-DqScoSLy.js`
+- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-DqScoSLy.js`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- `ios/App/App/public/assets/web-DqScoSLy.js`
 
 ## Audit Trail
 

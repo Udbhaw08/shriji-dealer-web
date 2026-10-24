@@ -1,45 +1,54 @@
 # Community 67
 
-> 24 nodes · cohesion 0.08
+> 25 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **Refero Design** (13 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Tool Routing** (5 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Research Workflow** (4 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Synthesis** (4 connections) — `.agents/skills/refero-design/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **1. Research Visual Direction With Styles** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **2. Research Screens For Product Details** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **3. Research Flows For Journey Logic** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Design Craft** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Discovery** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Example** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Journey Logic** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **MCP Setup** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Non-Negotiables** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Present Findings** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Product Pattern** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Quality Gate** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Research Depth** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Use Flows For Journeys** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Use Screens For Concrete UI Patterns** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Use Styles First For Visual Work** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Use Visual Workflow For Images And QA** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Visual Direction** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Workflow Routing** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **Md()** (15 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **ic()** (12 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **nc()** (12 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **kd()** (9 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **tc()** (9 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **wi()** (9 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **Ci()** (8 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **qs()** (8 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **uo()** (8 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **va()** (7 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **xi()** (7 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **cc()** (6 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **dh()** (6 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **ko()** (6 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **lo()** (6 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **bi()** (5 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **df()** (5 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **Fc()** (5 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **Oo()** (5 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **fo()** (4 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **sc()** (4 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **wc()** (4 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **Yd()** (4 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **zs()** (3 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **componentDidCatch()** (2 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (33 shared connections)
+- [[Pricing Regression Test Suite]] (15 shared connections)
+- [[Live Pricing Audit Tool]] (9 shared connections)
+- [[Dependencies & Package Config]] (8 shared connections)
+- [[Community 53]] (7 shared connections)
+- [[Community 42]] (6 shared connections)
+- [[Community 56]] (4 shared connections)
+- [[Project Readme & Layout]] (4 shared connections)
+- [[Community 49]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/SKILL.md`
+- `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (100%)
+- EXTRACTED: 169 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

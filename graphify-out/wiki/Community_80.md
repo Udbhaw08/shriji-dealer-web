@@ -1,50 +1,44 @@
 # Community 80
 
-> 21 nodes · cohesion 0.15
+> 23 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **Ci()** (12 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **jt()** (11 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **yh()** (10 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **c()** (9 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **hh()** (9 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **mh()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **fh()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **Ih()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **ph()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **Sh()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **bh()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **th()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **nh()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **Or()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **vh()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **Dr()** (3 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **Er()** (3 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **rh()** (3 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **Tt()** (3 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **vt()** (3 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
-- **zh()** (2 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **package.json** (9 connections) — `backend/package.json`
+- **dependencies** (7 connections) — `backend/package.json`
+- **scripts** (7 connections) — `backend/package.json`
+- **engines** (2 connections) — `backend/package.json`
+- **dotenv** (1 connections) — `backend/package.json`
+- **express** (1 connections) — `backend/package.json`
+- **google-auth-library** (1 connections) — `backend/package.json`
+- **jsonwebtoken** (1 connections) — `backend/package.json`
+- **postgres** (1 connections) — `backend/package.json`
+- **resend** (1 connections) — `backend/package.json`
+- **description** (1 connections) — `backend/package.json`
+- **node** (1 connections) — `backend/package.json`
+- **main** (1 connections) — `backend/package.json`
+- **name** (1 connections) — `backend/package.json`
+- **private** (1 connections) — `backend/package.json`
+- **build** (1 connections) — `backend/package.json`
+- **check:ready** (1 connections) — `backend/package.json`
+- **dev** (1 connections) — `backend/package.json`
+- **migrate** (1 connections) — `backend/package.json`
+- **start** (1 connections) — `backend/package.json`
+- **test** (1 connections) — `backend/package.json`
+- **type** (1 connections) — `backend/package.json`
+- **version** (1 connections) — `backend/package.json`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (25 shared connections)
-- [[Product Pages Specification]] (11 shared connections)
-- [[Roles & Customer Sharing Spec]] (7 shared connections)
-- [[Design System & UI Tokens]] (5 shared connections)
-- [[Live Pricing Audit Tool]] (4 shared connections)
-- [[Community 61]] (3 shared connections)
-- [[Community 53]] (2 shared connections)
-- [[Community 46]] (1 shared connections)
-- [[Community 45]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- `backend/package.json`
 
 ## Audit Trail
 
-- EXTRACTED: 121 (100%)
+- EXTRACTED: 44 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

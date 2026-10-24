@@ -1,51 +1,47 @@
 # Community 47
 
-> 32 nodes · cohesion 0.09
+> 34 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **zoho.js** (60 connections) — `api/zoho.js`
-- **syncRecentProductTags()** (7 connections) — `api/zoho.js`
-- **normalizeProduct()** (6 connections) — `api/zoho.js`
-- **readTagCache()** (6 connections) — `api/zoho.js`
-- **updateCachedProductTags()** (4 connections) — `api/zoho.js`
-- **sync-tags.js** (4 connections) — `api/products/sync-tags.js`
-- **getCachedProductTags()** (3 connections) — `api/zoho.js`
-- **isItemOnline()** (3 connections) — `api/zoho.js`
-- **readProductDetailsDiskCache()** (3 connections) — `api/zoho.js`
-- **writeProductDetailDiskCache()** (3 connections) — `api/zoho.js`
-- **handler()** (3 connections) — `api/products/sync-tags.js`
-- **isItemCategoryOnline()** (2 connections) — `api/zoho.js`
-- **parseRate()** (2 connections) — `api/zoho.js`
-- **slugifyCategory()** (2 connections) — `api/zoho.js`
-- **slugifyProduct()** (2 connections) — `api/zoho.js`
-- **writeProductsDiskCache()** (2 connections) — `api/zoho.js`
-- **writeTagCache()** (2 connections) — `api/zoho.js`
-- **cachedPricebooks** (1 connections) — `api/zoho.js`
-- **cachedProductDetails** (1 connections) — `api/zoho.js`
-- **cachedProductsByPricebook** (1 connections) — `api/zoho.js`
-- **isBannerItem()** (1 connections) — `api/zoho.js`
-- **isLogoItem()** (1 connections) — `api/zoho.js`
-- **isSchemeItem()** (1 connections) — `api/zoho.js`
-- **localCacheFile** (1 connections) — `api/zoho.js`
-- **localDetailCacheFile** (1 connections) — `api/zoho.js`
-- *... and 7 more nodes in this community*
+- **Typography** (10 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **iOS, iPadOS Dynamic Type sizes** (8 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **iOS, iPadOS larger accessibility type sizes** (6 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Specifications** (5 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **iOS, iPadOS, visionOS tracking values** (4 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Tracking values** (3 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **typography.md** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **AX1** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **AX2** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **AX3** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **AX4** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **AX5** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Conveying hierarchy** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Ensuring legibility** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Large (default)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **macOS built-in text styles** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **macOS tracking values** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Medium** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **New York** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **SF Pro** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [[Community 77]] (26 shared connections)
-- [[Community 248]] (6 shared connections)
-- [[Community 164]] (6 shared connections)
-- [[Community 144]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `api/products/sync-tags.js`
-- `api/zoho.js`
+- `.agents/skills/apple-design/references/hig/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 129 (100%)
+- EXTRACTED: 66 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

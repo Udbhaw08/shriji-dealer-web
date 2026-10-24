@@ -1,65 +1,55 @@
 # Dependencies & Package Config
 
-> 67 nodes · cohesion 0.10
+> 65 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **geometry.mjs** (75 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **compileWorkflowInternal()** (67 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **asArray()** (43 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **geometry.test.mjs** (34 connections) — `.agents/skills/archify/test/geometry.test.mjs`
-- **validateArchitecture()** (22 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **validateDataflow()** (22 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **validateLifecycle()** (22 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **cleanCrossingProblems()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **isFinitePoint()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanFlowProblems()** (17 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **rectsOverlap()** (16 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **validateSequence()** (15 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **cleanAmbiguousCorridorProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanBorderRunProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanRouteRhythmProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanEndpointSideProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanLabelRouteClearanceProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **brandTopRailProblem()** (13 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **collectLabelRouteClearance()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **segmentIntersectsRect()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **suggestLabelObstacleFix()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **availableNodeTextWidth()** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **collectBorderRuns()** (10 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **normalizeRoutePoints()** (10 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **collectAmbiguousCorridors()** (8 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- *... and 42 more nodes in this community*
+- **ml()** (27 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **st()** (19 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **k()** (18 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **pt()** (16 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **za()** (16 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **A()** (14 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **ut()** (14 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **ge()** (13 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **ht()** (13 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **F()** (12 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **sa()** (12 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **gl()** (11 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **it()** (11 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **fa()** (10 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **ga()** (10 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **kn()** (10 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **ma()** (10 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **P()** (10 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **c()** (9 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **co()** (9 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **dt()** (9 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **hl()** (9 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **nn()** (9 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **on()** (9 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- **Se()** (9 connections) — `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
+- *... and 40 more nodes in this community*
 
 ## Relationships
 
-- [[Community 43]] (54 shared connections)
-- [[Pricing & Roles Skill]] (45 shared connections)
-- [[Community 42]] (39 shared connections)
-- [[Client Products Data Store]] (36 shared connections)
-- [[Community 49]] (26 shared connections)
-- [[Product Requirements Documentation]] (12 shared connections)
-- [[Architecture Doc Generator]] (6 shared connections)
-- [[Community 105]] (4 shared connections)
-- [[Community 293]] (3 shared connections)
-- [[Testing & Workflow Skill]] (1 shared connections)
+- [[Price Presentation & Product UI]] (75 shared connections)
+- [[Project Readme & Layout]] (35 shared connections)
+- [[Pricing Regression Test Suite]] (35 shared connections)
+- [[Community 42]] (19 shared connections)
+- [[Live Pricing Audit Tool]] (11 shared connections)
+- [[Community 56]] (9 shared connections)
+- [[Community 67]] (8 shared connections)
+- [[Community 53]] (7 shared connections)
+- [[Community 49]] (7 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- `.agents/skills/archify/test/geometry.test.mjs`
+- `android/app/src/main/assets/public/assets/index-DTX277AJ.js`
 
 ## Audit Trail
 
-- EXTRACTED: 690 (100%)
+- EXTRACTED: 514 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
