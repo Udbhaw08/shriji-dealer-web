@@ -9,6 +9,7 @@ import { pricesRouter } from './routes/prices.js';
 import { webhooksRouter } from './routes/webhooks.js';
 import { healthRouter } from './routes/health.js';
 import { contentRouter } from './routes/content.js';
+import { adminRouter } from './routes/admin.js';
 import { uploadRouter } from './routes/upload.js';
 import { uploadsRouter } from './routes/uploads.js';
 import { startJobs } from './jobs/index.js';
@@ -19,7 +20,7 @@ import { sql } from './db/pool.js';
 const app = express();
 app.disable('x-powered-by');
 app.set('trust proxy', 1); // behind Railway/Render/Vercel proxies
-app.use(express.json({ limit: '50mb', verify: (req, _res, buf) => { req.rawBody = buf; } }));
+app.use(express.json({ limit: '1mb', verify: (req, _res, buf) => { req.rawBody = buf; } }));
 
 // CORS — the web app lives on a different origin in dev (Vite :5173),
 // production (restor.in), and Vercel preview deploys.
@@ -97,6 +98,7 @@ app.use('/api/auth', rateLimit({ windowMs: 60_000, max: 60 }), authRouter);
 app.use('/api/dealers', rateLimit({ windowMs: 60_000, max: 60 }), dealersRouter);
 app.use('/api/prices', pricesRouter);
 app.use('/api/content', contentRouter);
+app.use('/api/admin', adminRouter);
 app.use('/api/upload', uploadRouter);
 app.use('/api/uploads', uploadsRouter);
 app.use('/uploads', uploadsRouter);

@@ -38,7 +38,13 @@ export const sha256 = (value) =>
  * Binds the OTP to identifier and server secret to prevent rainbow table precomputations.
  */
 export function hashOtp(code, identifier = '') {
-  const secret = process.env.OTP_SECRET || process.env.JWT_SECRET || 'shriji-default-otp-salt';
+  const secret = process.env.OTP_SECRET || process.env.JWT_SECRET;
+  if (!secret) {
+    if (process.env.NODE_ENV === 'production') {
+      throw new Error('[hashOtp] FATAL: Neither OTP_SECRET nor JWT_SECRET is configured in production.');
+    }
+    return crypto.createHmac('sha256', 'dev-otp-salt').update(`${identifier}:${code}`).digest('hex');
+  }
   return crypto.createHmac('sha256', secret).update(`${identifier}:${code}`).digest('hex');
 }
 

@@ -1,12 +1,15 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fetchZohoProductById } from "./zoho.js";
+import { escapeHtml, sanitizeUrl, sanitizeHost } from "./htmlEscape.js";
 
 /**
  * Serverless handler for product pages on Vercel.
  * Dynamically injects Open Graph meta tags (og:title, og:image, og:description)
  * so that WhatsApp, Telegram, Facebook, and Twitter crawlers render rich previews
  * with the product image and dealer details.
+ *
+ * Fully protected against Reflected XSS and Attribute Injection.
  */
 export default async function handler(req, res) {
   try {
@@ -42,58 +45,78 @@ export default async function handler(req, res) {
       return res.status(200).send(html);
     }
 
-    const dealerName = name || "";
-    const dealerCity = city || "";
-    const dealerState = state || "";
+    const dealerName = typeof name === "string" ? name.trim() : "";
+    const dealerCity = typeof city === "string" ? city.trim() : "";
+    const dealerState = typeof state === "string" ? state.trim() : "";
     const dealerLoc = [dealerCity, dealerState].filter(Boolean).join(", ");
     const priceStr = product.mrp > 0 ? `₹${Number(product.mrp).toLocaleString("en-IN")}` : "Price on Request";
 
-    const title = `${product.name} · Sunshine Appliances`;
-    const desc = dealerName
+    const rawTitle = `${product.name || "Sunshine Appliance"} · Sunshine Appliances`;
+    const rawDesc = dealerName
       ? `Retail MRP: ${priceStr} (Incl. of all taxes) · Available with ${dealerName}${dealerLoc ? ` (${dealerLoc})` : ""}`
       : `Retail MRP: ${priceStr} (Incl. of all taxes) · Sunshine ReSTOR`;
 
-    const proto = req.headers["x-forwarded-proto"] || "https";
-    const host = req.headers["x-forwarded-host"] || req.headers.host || "restor.in";
-    const imgUrl = product.img || `${proto}://${host}/img/hero-stove.webp`;
-    const currentUrl = `${proto}://${host}${req.url}`;
+    // Strictly sanitize scheme, host and path
+    const forwardedProto = req.headers["x-forwarded-proto"];
+    const proto = forwardedProto === "http" ? "http" : "https";
+    const rawHost = req.headers["x-forwarded-host"] || req.headers.host || "restor.in";
+    const host = sanitizeHost(rawHost);
+
+    const rawImg = product.img || `${proto}://${host}/img/hero-stove.webp`;
+    const safeImgUrl = sanitizeUrl(rawImg) || `https://${host}/img/hero-stove.webp`;
+
+    // Parse and reconstruct canonical request URL safely
+    let currentUrl = `https://${host}/`;
+    try {
+      const parsedReqUrl = new URL(req.url || "/", `${proto}://${host}`);
+      currentUrl = parsedReqUrl.href;
+    } catch {
+      currentUrl = `https://${host}/`;
+    }
+
+    // HTML entity escaping for attributes & title
+    const escapedTitle = escapeHtml(rawTitle);
+    const escapedDesc = escapeHtml(rawDesc);
+    const escapedImg = escapeHtml(safeImgUrl);
+    const escapedUrl = escapeHtml(currentUrl);
 
     let transformed = html;
-    transformed = transformed.replace(/<title>.*?<\/title>/i, `<title>${title}</title>`);
+    transformed = transformed.replace(/<title>.*?<\/title>/i, `<title>${escapedTitle}</title>`);
     transformed = transformed.replace(
       /<meta\s+name=["']description["'].*?>/i,
-      `<meta name="description" content="${desc}" />`
+      `<meta name="description" content="${escapedDesc}" />`
     );
     transformed = transformed.replace(
       /<meta\s+property=["']og:title["'].*?>/i,
-      `<meta property="og:title" content="${title}" />`
+      `<meta property="og:title" content="${escapedTitle}" />`
     );
     transformed = transformed.replace(
       /<meta\s+property=["']og:description["'].*?>/i,
-      `<meta property="og:description" content="${desc}" />`
+      `<meta property="og:description" content="${escapedDesc}" />`
     );
     transformed = transformed.replace(
       /<meta\s+property=["']og:image["'].*?>/i,
-      `<meta property="og:image" content="${imgUrl}" />\n    <meta property="og:image:secure_url" content="${imgUrl}" />\n    <meta property="og:image:type" content="image/jpeg" />\n    <meta property="og:image:width" content="600" />\n    <meta property="og:image:height" content="600" />\n    <meta property="og:url" content="${currentUrl}" />`
+      `<meta property="og:image" content="${escapedImg}" />\n    <meta property="og:image:secure_url" content="${escapedImg}" />\n    <meta property="og:image:type" content="image/jpeg" />\n    <meta property="og:image:width" content="600" />\n    <meta property="og:image:height" content="600" />\n    <meta property="og:url" content="${escapedUrl}" />`
     );
     transformed = transformed.replace(
       /<meta\s+name=["']twitter:title["'].*?>/i,
-      `<meta name="twitter:title" content="${title}" />`
+      `<meta name="twitter:title" content="${escapedTitle}" />`
     );
     transformed = transformed.replace(
       /<meta\s+name=["']twitter:description["'].*?>/i,
-      `<meta name="twitter:description" content="${desc}" />`
+      `<meta name="twitter:description" content="${escapedDesc}" />`
     );
     transformed = transformed.replace(
       /<meta\s+name=["']twitter:image["'].*?>/i,
-      `<meta name="twitter:image" content="${imgUrl}" />`
+      `<meta name="twitter:image" content="${escapedImg}" />`
     );
 
     res.setHeader("Content-Type", "text/html; charset=utf-8");
+    res.setHeader("X-Content-Type-Options", "nosniff");
     res.setHeader("Cache-Control", "s-maxage=300, stale-while-revalidate=600");
     return res.status(200).send(transformed);
   } catch (err) {
     console.error("Error in api/og handler:", err);
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: "Failed to generate page metadata" });
   }
 }

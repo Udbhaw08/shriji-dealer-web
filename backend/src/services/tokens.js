@@ -19,6 +19,19 @@ export function signAccessToken(user) {
   );
 }
 
+export function signAdminToken(options = {}) {
+  const expiresIn = options.expiresIn || 3600; // 1 hour short-lived session
+  return jwt.sign(
+    {
+      sub: 'admin',
+      role: 'admin',
+      purpose: 'admin_session',
+    },
+    env.jwtSecret,
+    { expiresIn },
+  );
+}
+
 export function verifyAccessToken(token) {
   return jwt.verify(token, env.jwtSecret); // throws on invalid/expired
 }
@@ -44,7 +57,12 @@ export async function rotateRefreshToken(rawToken) {
     return null;
   }
   if (row.status === 'rejected' || row.status === 'revoked' || row.status === 'inactive') return null;
-  await sql`update refresh_tokens set revoked = true where id = ${row.id}`;
+  // Atomic revocation: guarantees only one concurrent rotation succeeds
+  const updated = await sql`
+    update refresh_tokens set revoked = true where id = ${row.id} and revoked = false returning id`;
+  if (!updated || updated.length === 0) {
+    return null;
+  }
   const fresh = await issueRefreshToken(row.user_id);
   return {
     user: { id: row.uid, email: row.email, role: row.role, status: row.status, dealer_id: row.dealer_id },

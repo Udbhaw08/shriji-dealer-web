@@ -57,7 +57,7 @@ if (!env.databaseUrl) {
 }
 if (!env.jwtSecret) {
   if (process.env.NODE_ENV === 'production') {
-    console.error('[config] JWT_SECRET is required in production');
+    throw new Error('[config] FATAL: JWT_SECRET is required in production environment.');
   } else {
     console.warn('[config] JWT_SECRET not set — using a per-process dev secret (tokens reset on restart)');
     env.jwtSecret = `dev-${Math.random().toString(36).slice(2)}`;

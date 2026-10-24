@@ -16,10 +16,44 @@ export const webhooksRouter = Router();
  */
 webhooksRouter.all(['/crm/approval', '/crm/sync', '/crm/update', '/crm/webhook'], async (req, res, next) => {
   try {
+    // Query string secrets are forbidden (logged in access logs/proxies)
+    if (req.query?.secret) {
+      throw Object.assign(new Error('webhook secret in query string is forbidden; provide via X-Webhook-Secret header'), {
+        statusCode: 400,
+        publicMessage: 'secret_in_query_forbidden',
+      });
+    }
+
+    const configuredSecret = env.webhookSecret || process.env.WEBHOOK_SECRET;
+    if (!configuredSecret) {
+      // In production, fail closed immediately if WEBHOOK_SECRET is unconfigured
+      if (process.env.NODE_ENV === 'production') {
+        throw Object.assign(new Error('webhook service unconfigured: WEBHOOK_SECRET missing in production'), {
+          statusCode: 503,
+          publicMessage: 'service_unavailable',
+        });
+      }
+      throw Object.assign(new Error('webhook secret required'), {
+        statusCode: 401,
+        publicMessage: 'unauthorized',
+      });
+    }
+
     const headerSecret = req.headers['x-webhook-secret'];
-    const querySecret = req.query?.secret;
-    if (env.webhookSecret && headerSecret !== env.webhookSecret && querySecret !== env.webhookSecret) {
-      throw Object.assign(new Error('invalid webhook secret'), { statusCode: 401, publicMessage: 'unauthorized' });
+    if (typeof headerSecret !== 'string') {
+      throw Object.assign(new Error('missing X-Webhook-Secret header'), {
+        statusCode: 401,
+        publicMessage: 'unauthorized',
+      });
+    }
+
+    const headerBuf = Buffer.from(headerSecret);
+    const secretBuf = Buffer.from(configuredSecret);
+    if (headerBuf.length !== secretBuf.length || !crypto.timingSafeEqual(headerBuf, secretBuf)) {
+      throw Object.assign(new Error('invalid webhook secret'), {
+        statusCode: 401,
+        publicMessage: 'unauthorized',
+      });
     }
 
     const payload = req.body || {};

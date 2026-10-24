@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useSession, revalidateSession } from "../data/session";
 import {
-  applyAsDealer,
+  finalizeDealerRegistration,
   requestDealerRegistrationOtp,
   verifyDealerRegistrationOtp,
 } from "../data/auth";
@@ -241,6 +241,7 @@ export default function BrandApplyFlow({ onBack }) {
 
     setSubmitLoading(true);
     try {
+      const fullAddress = [form.address_line, form.city, form.pin].filter(Boolean).join(", ");
       const payload = {
         business_name: form.business_name.trim(),
         person_name: form.person_name.trim() || undefined,
@@ -248,14 +249,17 @@ export default function BrandApplyFlow({ onBack }) {
         email: verifiedEmail.trim().toLowerCase() || form.email.trim().toLowerCase(),
         gst_treatment: form.gst_treatment,
         gst_number: form.gst_number.trim() ? form.gst_number.toUpperCase().trim() : undefined,
+        address: fullAddress || undefined,
         address_line: form.address_line.trim() || undefined,
         city: form.city.trim() || undefined,
         pin: form.pin.trim() || undefined,
         verification_token: verificationToken || undefined,
+        verificationToken: verificationToken || undefined,
         flow_id: flowId || undefined,
+        flowId: flowId || undefined,
       };
 
-      await applyAsDealer(payload);
+      await finalizeDealerRegistration(payload);
       await revalidateSession().catch(() => {});
       navigate("/dealer/pending", { replace: true });
     } catch (err) {

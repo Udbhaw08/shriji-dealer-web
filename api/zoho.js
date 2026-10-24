@@ -842,7 +842,6 @@ function normalizeProduct(p, livePricebookRates = {}) {
     sellingPrice,
     labelPrice: labelRate,
     dealerRate,
-    purchaseRate,
     stock: p.overall_stock ?? variant.stock_on_hand ?? 0,
     img,
     images: images.length ? images : (img ? [img] : []),

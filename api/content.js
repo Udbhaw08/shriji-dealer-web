@@ -9,6 +9,9 @@ import {
   getSupabaseSchemes,
   getSupabaseBranding,
 } from "../backend/src/services/content.js";
+import { verifyAdminAuth } from "./adminAuth.js";
+
+const ALLOWED_CONTENT_TYPES = ["hero_banner", "scheme", "branding", "setting"];
 
 export default async function handler(req, res) {
   res.setHeader("Content-Type", "application/json");
@@ -17,6 +20,15 @@ export default async function handler(req, res) {
     const method = req.method?.toUpperCase() || "GET";
     const urlObj = new URL(req.url, "http://localhost");
     const query = Object.fromEntries(urlObj.searchParams.entries());
+
+    // Check admin authentication for any mutation operation
+    const isMutation = method !== "GET" || query.action === "toggle";
+    if (isMutation) {
+      const auth = await verifyAdminAuth(req);
+      if (!auth.ok) {
+        return res.status(401).json({ ok: false, error: "admin_auth_required" });
+      }
+    }
 
     // 1. Banners scope: GET /api/content?scope=banners or /api/banners
     if (query.scope === "banners") {

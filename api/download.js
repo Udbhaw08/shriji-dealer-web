@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import { validateSafeDownloadUrl } from "./ssrf.js";
 
 export function wrapJpegInPdf(jpegBuf) {
   let imgWidth = 595;
@@ -57,37 +58,152 @@ export function wrapJpegInPdf(jpegBuf) {
   return Buffer.concat([hBuf, o1Buf, o2Buf, o3Buf, o4Buf, o5Pre, jpegBuf, o5Suf, trBuf]);
 }
 
+const MAX_DOWNLOAD_SIZE = 15 * 1024 * 1024; // 15MB limit
+
+/**
+ * Safely fetches a remote file with redirect validation and size limits.
+ */
+async function safeFetchWithRedirects(initialUrl, maxRedirects = 3) {
+  let currentUrl = initialUrl;
+  let redirectsRemaining = maxRedirects;
+
+  while (redirectsRemaining >= 0) {
+    await validateSafeDownloadUrl(currentUrl);
+
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 6000);
+
+    let res;
+    try {
+      res = await fetch(currentUrl, {
+        signal: controller.signal,
+        redirect: 'manual',
+        headers: {
+          'User-Agent': 'ReSTOR-Downloader/2.0',
+        },
+      });
+    } finally {
+      clearTimeout(timeout);
+    }
+
+    // Check for redirects (301, 302, 303, 307, 308)
+    if ([301, 302, 303, 307, 308].includes(res.status)) {
+      const location = res.headers.get('location');
+      if (!location) {
+        throw new Error('Redirect without Location header');
+      }
+      redirectsRemaining--;
+      if (redirectsRemaining < 0) {
+        throw new Error('Too many redirects');
+      }
+      currentUrl = new URL(location, currentUrl).toString();
+      continue;
+    }
+
+    if (!res.ok) {
+      throw new Error(`Upstream server returned HTTP ${res.status}`);
+    }
+
+    const contentLengthHeader = res.headers.get('content-length');
+    if (contentLengthHeader) {
+      const declaredLen = parseInt(contentLengthHeader, 10);
+      if (declaredLen > MAX_DOWNLOAD_SIZE) {
+        throw new Error(`File size (${declaredLen} bytes) exceeds limit of ${MAX_DOWNLOAD_SIZE} bytes`);
+      }
+    }
+
+    const arrayBuf = await res.arrayBuffer();
+    if (arrayBuf.byteLength > MAX_DOWNLOAD_SIZE) {
+      throw new Error(`Received payload exceeds limit of ${MAX_DOWNLOAD_SIZE} bytes`);
+    }
+
+    return {
+      buffer: Buffer.from(arrayBuf),
+      contentType: res.headers.get('content-type') || 'application/octet-stream',
+    };
+  }
+
+  throw new Error('Failed to fetch remote file');
+}
+
 export default async function handler(req, res) {
   try {
-    const targetUrl = (req.query?.url || "").trim();
+    const rawTarget = (req.query?.url || "").trim();
     let filename = (req.query?.filename || "scheme.pdf").trim();
+
+    // Sanitize filename to prevent header injection or path traversal in Content-Disposition
+    filename = path.basename(filename).replace(/[^a-zA-Z0-9._-]/g, "_");
     if (!filename.toLowerCase().endsWith(".pdf")) {
       filename += ".pdf";
     }
 
-    if (!targetUrl) {
+    if (!rawTarget) {
       return res.status(400).json({ error: "Missing url parameter" });
+    }
+
+    // Reject null bytes
+    if (rawTarget.includes("\0") || filename.includes("\0")) {
+      return res.status(400).json({ error: "Invalid characters in request" });
     }
 
     let fileBuffer = null;
     let contentType = "application/pdf";
 
-    if (targetUrl.startsWith("http://") || targetUrl.startsWith("https://")) {
-      const upstreamRes = await fetch(targetUrl);
-      if (!upstreamRes.ok) {
-        return res.status(upstreamRes.status).send(`Failed to fetch file from source: ${upstreamRes.statusText}`);
+    // TRUST BOUNDARY 1: Remote URLs (HTTP / HTTPS)
+    if (rawTarget.startsWith("http://") || rawTarget.startsWith("https://")) {
+      try {
+        const { buffer, contentType: remoteContentType } = await safeFetchWithRedirects(rawTarget);
+        fileBuffer = buffer;
+        contentType = remoteContentType;
+      } catch (ssrfErr) {
+        return res.status(403).json({ error: `Forbidden: ${ssrfErr.message}` });
       }
-      const arrayBuf = await upstreamRes.arrayBuffer();
-      fileBuffer = Buffer.from(arrayBuf);
-      contentType = upstreamRes.headers.get("content-type") || contentType;
     } else {
-      // Local path in public/
-      const cleanPath = targetUrl.startsWith("/") ? targetUrl.slice(1) : targetUrl;
-      const localFilePath = path.resolve(process.cwd(), "public", cleanPath);
-      if (!fs.existsSync(localFilePath)) {
+      // TRUST BOUNDARY 2: Local filesystem reads strictly restricted to public/ directory
+      const baseDir = path.resolve(process.cwd(), "public");
+
+      // Strip leading slashes and decode
+      let decodedPath = rawTarget;
+      try {
+        decodedPath = decodeURIComponent(rawTarget);
+      } catch {}
+      const cleanRelativePath = decodedPath.replace(/^\/+/, "");
+
+      // Resolve candidate path against public directory
+      const resolvedPath = path.resolve(baseDir, cleanRelativePath);
+
+      // Verify containment using path.relative
+      const rel = path.relative(baseDir, resolvedPath);
+      if (rel.startsWith("..") || path.isAbsolute(rel) || resolvedPath === baseDir) {
+        return res.status(403).json({ error: "Access denied" });
+      }
+
+      // Check if file exists
+      if (!fs.existsSync(resolvedPath)) {
         return res.status(404).send("File not found on server");
       }
-      fileBuffer = fs.readFileSync(localFilePath);
+
+      // Check symlink containment using realpath
+      try {
+        const real = fs.realpathSync(resolvedPath);
+        const realRel = path.relative(baseDir, real);
+        if (realRel.startsWith("..") || path.isAbsolute(realRel)) {
+          return res.status(403).json({ error: "Access denied" });
+        }
+
+        const stat = fs.statSync(real);
+        if (!stat.isFile()) {
+          return res.status(403).json({ error: "Access denied" });
+        }
+
+        if (stat.size > MAX_DOWNLOAD_SIZE) {
+          return res.status(413).json({ error: "File exceeds maximum permitted download size" });
+        }
+
+        fileBuffer = fs.readFileSync(real);
+      } catch (fsErr) {
+        return res.status(403).json({ error: "Access denied" });
+      }
     }
 
     // Check if buffer is JPEG (0xFF, 0xD8)
@@ -105,9 +221,10 @@ export default async function handler(req, res) {
     res.setHeader("Content-Type", contentType);
     res.setHeader("Content-Disposition", `attachment; filename="${filename}"`);
     res.setHeader("Content-Length", finalBuffer.length);
+    res.setHeader("X-Content-Type-Options", "nosniff");
     res.setHeader("Cache-Control", "public, max-age=3600");
     return res.status(200).send(finalBuffer);
   } catch (err) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: "Download processing failed" });
   }
 }

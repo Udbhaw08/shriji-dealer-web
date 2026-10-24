@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-24T15:51:06.292+05:30 (GMT+5:30)
-> Total Project Files: 1796
+> Last synchronized: 2026-10-24T20:42:29.097+05:30 (GMT+5:30)
+> Total Project Files: 1807
 
 ---
 
@@ -92,7 +92,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 ## 4. Codebase Directory Map
 
 ### 4.1 Pages (`src/pages/`)
-- **`src/pages/ContentAdminDashboard.jsx`** (64.0 KB)
+- **`src/pages/ContentAdminDashboard.jsx`** (72.5 KB)
 - **`src/pages/DealerApply.jsx`** (0.3 KB)
 - **`src/pages/DealerDashboard.jsx`** (51.4 KB)
 - **`src/pages/DealerPending.jsx`** (18.2 KB)
@@ -110,9 +110,9 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/pages/TermsOfService.jsx`** (0.0 KB)
 
 ### 4.2 Reusable Components (`src/components/` & `src/ui.jsx`)
-- **`src/components/BrandApplyFlow.jsx`** (47.0 KB)
+- **`src/components/BrandApplyFlow.jsx`** (47.2 KB)
 - **`src/components/EmailVerificationPrompt.jsx`** (9.8 KB)
-- **`src/components/FileOrUrlInput.jsx`** (14.4 KB)
+- **`src/components/FileOrUrlInput.jsx`** (14.7 KB)
 - **`src/components/HeroSlider.jsx`** (16.8 KB)
 - **`src/components/MobileBottomNav.jsx`** (4.8 KB)
 - **`src/components/NativeBackHandler.jsx`** (3.7 KB)
@@ -134,7 +134,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/data/portalGate.js`** (0.8 KB)
 - **`src/data/pricing.test.mjs`** (4.2 KB)
 - **`src/data/products.js`** (1.8 KB)
-- **`src/data/productsStore.js`** (5.5 KB)
+- **`src/data/productsStore.js`** (5.9 KB)
 - **`src/data/searchHelper.js`** (9.8 KB)
 - **`src/data/session.js`** (9.1 KB)
 - **`src/data/site.js`** (3.6 KB)
@@ -143,15 +143,20 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/data/video-banner.test.mjs`** (2.3 KB)
 
 ### 4.4 Zoho API & Serverless Handlers (`api/`)
-- **`api/content.js`** (4.3 KB)
+- **`api/admin/login.js`** (2.4 KB)
+- **`api/adminAuth.js`** (1.6 KB)
+- **`api/content.js`** (4.7 KB)
 - **`api/dealer/apply.js`** (1.0 KB)
-- **`api/dealer/info.js`** (0.9 KB)
-- **`api/download.js`** (4.4 KB)
-- **`api/og.js`** (3.9 KB)
-- **`api/products/index.js`** (1.1 KB)
+- **`api/dealer/info.js`** (1.9 KB)
+- **`api/dealerPricingAuth.js`** (4.0 KB)
+- **`api/download.js`** (8.0 KB)
+- **`api/htmlEscape.js`** (1.1 KB)
+- **`api/og.js`** (4.9 KB)
+- **`api/products/index.js`** (1.8 KB)
 - **`api/products/sync-tags.js`** (0.8 KB)
-- **`api/products/[id].js`** (1.3 KB)
-- **`api/upload.js`** (7.5 KB)
+- **`api/products/[id].js`** (2.0 KB)
+- **`api/ssrf.js`** (5.6 KB)
+- **`api/upload.js`** (10.6 KB)
 - **`api/zoho.js`** (42.5 KB)
 
 ### 4.5 Automation & Utility Scripts (`scripts/`)

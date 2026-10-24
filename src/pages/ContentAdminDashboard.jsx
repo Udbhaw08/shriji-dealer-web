@@ -78,6 +78,58 @@ export default function ContentAdminDashboard() {
   const [brandingForm, setBrandingForm] = useState(DEFAULT_BRANDING_FORM);
   const [editingId, setEditingId] = useState(null);
 
+  // Admin Session State (In-memory only, never persisted in localStorage/sessionStorage)
+  const [adminToken, setAdminToken] = useState(null);
+  const [showAuthModal, setShowAuthModal] = useState(false);
+  const [adminKeyInput, setAdminKeyInput] = useState("");
+  const [authError, setAuthError] = useState("");
+  const [authBusy, setAuthBusy] = useState(false);
+
+  const getAuthHeaders = () => ({
+    "Content-Type": "application/json",
+    ...(adminToken ? { Authorization: `Bearer ${adminToken}` } : {}),
+  });
+
+  const handleAdminLogin = async (e) => {
+    if (e) e.preventDefault();
+    if (!adminKeyInput.trim()) {
+      setAuthError("Please enter the Admin Security Key.");
+      return;
+    }
+    setAuthBusy(true);
+    setAuthError("");
+    try {
+      const res = await fetch("/api/admin/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ adminKey: adminKeyInput.trim() }),
+      });
+      const data = await res.json();
+      if (!res.ok || !data.ok || !data.token) {
+        throw new Error(data.message || data.error || "Authentication failed. Check your key.");
+      }
+      setAdminToken(data.token);
+      setAdminKeyInput("");
+      setShowAuthModal(false);
+      notify("✓ Administrative session unlocked (valid for 1 hour).");
+    } catch (err) {
+      setAuthError(err.message || "Failed to authenticate administrator.");
+    } finally {
+      setAuthBusy(false);
+    }
+  };
+
+  const handleAdminLogout = () => {
+    setAdminToken(null);
+    notify("Admin session locked. Mutation operations are now protected.");
+  };
+
+  const handleAuthRequired = () => {
+    setAdminToken(null);
+    setShowAuthModal(true);
+    setError("Administrative authentication required. Please unlock with your Admin Key.");
+  };
+
   // Global Slider Settings
   const [globalInterval, setGlobalInterval] = useState(5);
   const [globalAutoplay, setGlobalAutoplay] = useState(true);
@@ -100,11 +152,15 @@ export default function ContentAdminDashboard() {
   };
 
   const handleSaveGlobalSettings = async () => {
+    if (!adminToken) {
+      setShowAuthModal(true);
+      return;
+    }
     try {
       setSettingsSaving(true);
       const res = await fetch("/api/content?scope=slider_settings", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: getAuthHeaders(),
         body: JSON.stringify({
           autoplay_interval: globalInterval,
           autoplay_enabled: globalAutoplay,
@@ -112,9 +168,15 @@ export default function ContentAdminDashboard() {
         }),
       });
       const data = await res.json();
+      if (res.status === 401) {
+        handleAuthRequired();
+        return;
+      }
       if (data.ok) {
         await refreshLiveCache();
         notify(`✓ Carousel rotation speed updated to ${globalInterval}s per slide!`);
+      } else {
+        throw new Error(data.error || "Failed to update carousel settings");
       }
     } catch (err) {
       setError(err.message || "Failed to update carousel settings");
@@ -188,13 +250,22 @@ export default function ContentAdminDashboard() {
 
   // Toggle active status
   const handleToggle = async (item) => {
+    if (!adminToken) {
+      setShowAuthModal(true);
+      return;
+    }
     setBusy(true);
     setError("");
     try {
       const res = await fetch(`/api/content?action=toggle&id=${encodeURIComponent(item.id)}`, {
         method: "POST",
+        headers: getAuthHeaders(),
       });
       const data = await res.json();
+      if (res.status === 401) {
+        handleAuthRequired();
+        return;
+      }
       if (data.ok) {
         await refreshLiveCache();
         notify(`✓ Status toggled for "${item.title}"`);
@@ -210,6 +281,10 @@ export default function ContentAdminDashboard() {
 
   // Delete item
   const handleDelete = async (item) => {
+    if (!adminToken) {
+      setShowAuthModal(true);
+      return;
+    }
     if (!window.confirm(`Are you sure you want to delete "${item.title}" from Supabase? This cannot be undone.`)) {
       return;
     }
@@ -218,8 +293,13 @@ export default function ContentAdminDashboard() {
     try {
       const res = await fetch(`/api/content?id=${encodeURIComponent(item.id)}`, {
         method: "DELETE",
+        headers: getAuthHeaders(),
       });
       const data = await res.json();
+      if (res.status === 401) {
+        handleAuthRequired();
+        return;
+      }
       if (data.ok) {
         if (editingId === item.id) {
           setEditingId(null);
@@ -308,6 +388,10 @@ export default function ContentAdminDashboard() {
   // Submit Banner Form
   const saveBanner = async (e) => {
     e.preventDefault();
+    if (!adminToken) {
+      setShowAuthModal(true);
+      return;
+    }
     setBusy(true);
     setError("");
 
@@ -331,10 +415,14 @@ export default function ContentAdminDashboard() {
     try {
       const res = await fetch("/api/content", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: getAuthHeaders(),
         body: JSON.stringify(payload),
       });
       const data = await res.json();
+      if (res.status === 401) {
+        handleAuthRequired();
+        return;
+      }
       if (data.ok) {
         setEditingId(null);
         setBannerForm(DEFAULT_BANNER_FORM);
@@ -353,6 +441,10 @@ export default function ContentAdminDashboard() {
   // Submit Scheme Form
   const saveScheme = async (e) => {
     e.preventDefault();
+    if (!adminToken) {
+      setShowAuthModal(true);
+      return;
+    }
     setBusy(true);
     setError("");
 
@@ -372,10 +464,14 @@ export default function ContentAdminDashboard() {
     try {
       const res = await fetch("/api/content", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: getAuthHeaders(),
         body: JSON.stringify(payload),
       });
       const data = await res.json();
+      if (res.status === 401) {
+        handleAuthRequired();
+        return;
+      }
       if (data.ok) {
         setEditingId(null);
         setSchemeForm(DEFAULT_SCHEME_FORM);
@@ -394,6 +490,10 @@ export default function ContentAdminDashboard() {
   // Submit Branding Form
   const saveBranding = async (e) => {
     e.preventDefault();
+    if (!adminToken) {
+      setShowAuthModal(true);
+      return;
+    }
     setBusy(true);
     setError("");
 
@@ -419,10 +519,14 @@ export default function ContentAdminDashboard() {
     try {
       const res = await fetch("/api/content", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: getAuthHeaders(),
         body: JSON.stringify(payload),
       });
       const data = await res.json();
+      if (res.status === 401) {
+        handleAuthRequired();
+        return;
+      }
       if (data.ok) {
         setEditingId(null);
         await refreshLiveCache();
@@ -455,6 +559,29 @@ export default function ContentAdminDashboard() {
           </div>
 
           <div className="content-admin-header-actions">
+            {adminToken ? (
+              <div style={{ display: "inline-flex", alignItems: "center", gap: 10, padding: "6px 14px", background: "#f0fdf4", border: "1px solid #bbf7d0", borderRadius: 8, color: "#166534", fontSize: "0.82rem", fontWeight: 700 }}>
+                <span>🟢 Admin Session Active</span>
+                <button
+                  type="button"
+                  onClick={handleAdminLogout}
+                  style={{ background: "transparent", border: "none", color: "#b91c1c", cursor: "pointer", fontWeight: 700, textDecoration: "underline", padding: 0 }}
+                >
+                  Lock
+                </button>
+              </div>
+            ) : (
+              <button
+                type="button"
+                className="btn btn-navy"
+                onClick={() => { setShowAuthModal(true); setAuthError(""); }}
+                style={{ background: "#0110a7", color: "#fff", display: "inline-flex", alignItems: "center", gap: 6 }}
+              >
+                <Icon name="lock" size={15} />
+                <span>Unlock Admin Controls</span>
+              </button>
+            )}
+
             <button
               type="button"
               className="btn btn-ghost"
@@ -471,6 +598,98 @@ export default function ContentAdminDashboard() {
             </Link>
           </div>
         </div>
+
+        {/* Admin Unlock Modal */}
+        {showAuthModal && (
+          <div
+            style={{
+              position: "fixed",
+              top: 0,
+              left: 0,
+              right: 0,
+              bottom: 0,
+              backgroundColor: "rgba(16, 38, 58, 0.6)",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              zIndex: 9999,
+              padding: 20,
+              backdropFilter: "blur(4px)",
+            }}
+          >
+            <div
+              style={{
+                background: "#ffffff",
+                borderRadius: 16,
+                padding: "28px 24px",
+                maxWidth: 440,
+                width: "100%",
+                boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
+                border: "1px solid #e2e8f0",
+              }}
+            >
+              <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 12 }}>
+                <div style={{ width: 36, height: 36, borderRadius: 10, background: "#eff6ff", color: "#0110a7", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                  <Icon name="lock" size={20} />
+                </div>
+                <div>
+                  <h3 style={{ margin: 0, fontSize: "1.1rem", fontWeight: 700, color: "#10263a" }}>Admin Operations Locked</h3>
+                  <p style={{ margin: 0, fontSize: "0.82rem", color: "#64748b" }}>Enter your security key to unlock mutations and uploads.</p>
+                </div>
+              </div>
+
+              {authError && (
+                <div style={{ padding: "8px 12px", background: "#fef2f2", border: "1px solid #fecaca", borderRadius: 8, color: "#991b1b", fontSize: "0.82rem", marginBottom: 14 }}>
+                  {authError}
+                </div>
+              )}
+
+              <form onSubmit={handleAdminLogin}>
+                <div style={{ marginBottom: 16 }}>
+                  <label htmlFor="admin-key-field" style={{ display: "block", fontSize: "0.82rem", fontWeight: 600, color: "#334155", marginBottom: 6 }}>
+                    Admin Security Key
+                  </label>
+                  <input
+                    id="admin-key-field"
+                    type="password"
+                    value={adminKeyInput}
+                    onChange={(e) => setAdminKeyInput(e.target.value)}
+                    placeholder="Enter ADMIN_API_KEY..."
+                    autoFocus
+                    style={{
+                      width: "100%",
+                      padding: "10px 12px",
+                      borderRadius: 8,
+                      border: "1px solid #cbd5e1",
+                      fontSize: "0.9rem",
+                      boxSizing: "border-box",
+                    }}
+                  />
+                  <small style={{ display: "block", marginTop: 4, fontSize: "0.74rem", color: "#64748b" }}>
+                    Issues a 1-hour short-lived in-memory session. Never saved to disk or browser storage.
+                  </small>
+                </div>
+
+                <div style={{ display: "flex", justifyContent: "flex-end", gap: 10 }}>
+                  <button
+                    type="button"
+                    onClick={() => { setShowAuthModal(false); setAuthError(""); setAdminKeyInput(""); }}
+                    style={{ padding: "8px 16px", borderRadius: 8, border: "1px solid #cbd5e1", background: "#ffffff", color: "#475569", fontWeight: 600, fontSize: "0.85rem", cursor: "pointer" }}
+                  >
+                    Cancel
+                  </button>
+                  <button
+                    type="submit"
+                    disabled={authBusy || !adminKeyInput.trim()}
+                    style={{ padding: "8px 18px", borderRadius: 8, border: "none", background: "#0110a7", color: "#ffffff", fontWeight: 700, fontSize: "0.85rem", cursor: "pointer", opacity: authBusy || !adminKeyInput.trim() ? 0.6 : 1 }}
+                  >
+                    {authBusy ? "Authenticating…" : "Unlock Session"}
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        )}
 
         {/* Alerts */}
         {error && (
@@ -686,6 +905,8 @@ export default function ContentAdminDashboard() {
                     folder="hero-banners"
                     fileTypeLabel="Banner Image"
                     required={!bannerForm.video_url}
+                    adminToken={adminToken}
+                    onRequireAuth={() => setShowAuthModal(true)}
                     presets={[
                       { label: "01_Hero_Banner_Image.jpg", url: "/img/01_Hero_Banner_Image.jpg" },
                       { label: "1st.jpeg", url: "/img/1st.jpeg" },
@@ -768,6 +989,8 @@ export default function ContentAdminDashboard() {
                     folder="hero-banners"
                     fileTypeLabel="Video Asset"
                     previewType="video"
+                    adminToken={adminToken}
+                    onRequireAuth={() => setShowAuthModal(true)}
                     helperText="Paste any YouTube URL (e.g. youtube.com/watch?v=...), Vimeo, Google Drive link, or upload an MP4/WebM video file."
                   />
                 </div>
@@ -1158,6 +1381,8 @@ export default function ContentAdminDashboard() {
                     folder="schemes"
                     fileTypeLabel="Flyer Image"
                     required
+                    adminToken={adminToken}
+                    onRequireAuth={() => setShowAuthModal(true)}
                     presets={[
                       { label: "02_Scheme_Flyer_Image.jpg", url: "/img/02_Scheme_Flyer_Image.jpg" },
                       { label: "scheme-annual-business-2026.jpg", url: "/img/scheme-annual-business-2026.jpg" },
@@ -1201,6 +1426,8 @@ export default function ContentAdminDashboard() {
                     folder="circulars"
                     fileTypeLabel="PDF Document"
                     previewType="pdf"
+                    adminToken={adminToken}
+                    onRequireAuth={() => setShowAuthModal(true)}
                     presets={[
                       { label: "03_Scheme_Official_Circular.pdf", url: "/downloads/03_Scheme_Official_Circular.pdf" },
                     ]}
@@ -1438,6 +1665,8 @@ export default function ContentAdminDashboard() {
                     folder="branding"
                     fileTypeLabel="Brand Logo"
                     required
+                    adminToken={adminToken}
+                    onRequireAuth={() => setShowAuthModal(true)}
                     presets={[
                       { label: "logo.webp", url: "/img/logo.webp" },
                       { label: "logo.png", url: "/img/logo.png" },

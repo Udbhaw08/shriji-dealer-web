@@ -22,6 +22,8 @@ export default function FileOrUrlInput({
   helperText = "",
   required = false,
   previewType = "image", // 'image' | 'pdf' | 'video' | 'auto'
+  adminToken = null,
+  onRequireAuth = null,
 }) {
   // Determine initial mode based on current value
   const isUploadedFile = typeof value === "string" && value.startsWith("/uploads/");
@@ -83,7 +85,10 @@ export default function FileOrUrlInput({
 
       const res = await fetch("/api/upload", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+          ...(adminToken ? { Authorization: `Bearer ${adminToken}` } : {}),
+        },
         body: JSON.stringify({
           filename: file.name,
           fileType: file.type,
@@ -94,6 +99,11 @@ export default function FileOrUrlInput({
 
       setUploadProgress(85);
       const data = await res.json();
+
+      if (res.status === 401) {
+        if (onRequireAuth) onRequireAuth();
+        throw new Error(data.message || data.error || "Administrative authentication required for file uploads.");
+      }
 
       if (data.ok && data.url) {
         setUploadedMeta({

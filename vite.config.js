@@ -9,6 +9,8 @@ import {
   syncRecentProductTags,
 } from './api/zoho.js'
 import downloadHandler from './api/download.js'
+import { escapeHtml, sanitizeUrl } from './api/htmlEscape.js'
+import { getDealerPricingEligibility, maskCatalogPricing, maskProductPricing } from './api/dealerPricingAuth.js'
 
 async function loadContentService() {
   try {
@@ -192,6 +194,50 @@ function zohoApiPlugin() {
           }
         }
 
+        // Admin Auth route: /api/admin/login and /api/admin/session
+        if (req.url === '/api/admin/login' || req.url.startsWith('/api/admin/login?') ||
+            req.url === '/api/admin/session' || req.url.startsWith('/api/admin/session?')) {
+          try {
+            const adminLoginHandler = (await import('./api/admin/login.js')).default;
+            let body = '';
+            req.on('data', (chunk) => { body += chunk; });
+            req.on('end', async () => {
+              try {
+                const fakeReq = {
+                  method: req.method,
+                  url: req.url,
+                  headers: req.headers,
+                  body: body ? JSON.parse(body) : {},
+                };
+                const fakeRes = {
+                  statusCode: 200,
+                  setHeader(name, val) { res.setHeader(name, val); },
+                  status(code) {
+                    this.statusCode = code;
+                    res.statusCode = code;
+                    return this;
+                  },
+                  json(obj) {
+                    res.statusCode = this.statusCode;
+                    res.setHeader('Content-Type', 'application/json');
+                    return res.end(JSON.stringify(obj));
+                  },
+                };
+                await adminLoginHandler(fakeReq, fakeRes);
+              } catch (parseErr) {
+                res.statusCode = 400;
+                res.setHeader('Content-Type', 'application/json');
+                return res.end(JSON.stringify({ ok: false, error: parseErr.message }));
+              }
+            });
+            return;
+          } catch (err) {
+            res.statusCode = 500;
+            res.setHeader('Content-Type', 'application/json');
+            return res.end(JSON.stringify({ ok: false, error: err.message }));
+          }
+        }
+
         // Content CMS CRUD route: /api/content (Supabase Content Manager)
         if (req.url === '/api/content' || req.url.startsWith('/api/content?') || req.url.startsWith('/api/content/')) {
           try {
@@ -254,14 +300,18 @@ function zohoApiPlugin() {
           try {
             const urlObj = new URL(req.url, 'http://localhost');
             const refresh = urlObj.searchParams.get('refresh') === 'true';
-            const pricebookId = urlObj.searchParams.get('pricebook_id') || '3334672000000547177';
+
+            const { eligible, pricebookId } = await getDealerPricingEligibility(req);
+            const targetPb = eligible && pricebookId ? pricebookId : '3334672000000547177';
+
             if (refresh) {
               await syncRecentProductTags({ force: true, limit: 40 });
             }
-            const [products, categories] = await Promise.all([
-              fetchZohoProducts({ refresh, pricebookId }),
+            const [rawProducts, categories] = await Promise.all([
+              fetchZohoProducts({ refresh, pricebookId: targetPb }),
               fetchZohoCategories({ refresh }),
             ]);
+            const products = maskCatalogPricing(rawProducts, eligible);
             res.statusCode = 200;
             res.setHeader('Content-Type', 'application/json');
             return res.end(JSON.stringify({ ok: true, count: products.length, products, categories }));
@@ -278,16 +328,20 @@ function zohoApiPlugin() {
             const urlObj = new URL(req.url, 'http://localhost');
             const urlParts = urlObj.pathname.split('/');
             const id = urlParts[urlParts.length - 1];
-            const pricebookId = urlObj.searchParams.get('pricebook_id') || '3334672000000547177';
-            const product = await fetchZohoProductById(id, { pricebookId });
+
+            const { eligible, pricebookId } = await getDealerPricingEligibility(req);
+            const targetPb = eligible && pricebookId ? pricebookId : '3334672000000547177';
+
+            const product = await fetchZohoProductById(id, { pricebookId: targetPb });
             if (!product) {
               res.statusCode = 404;
               res.setHeader('Content-Type', 'application/json');
               return res.end(JSON.stringify({ error: 'Product not found in Zoho' }));
             }
+            const safeProduct = maskProductPricing(product, eligible);
             res.statusCode = 200;
             res.setHeader('Content-Type', 'application/json');
-            return res.end(JSON.stringify({ ok: true, product }));
+            return res.end(JSON.stringify({ ok: true, product: safeProduct }));
           } catch (err) {
             res.statusCode = 500;
             res.setHeader('Content-Type', 'application/json');
@@ -297,22 +351,25 @@ function zohoApiPlugin() {
 
         if (req.url.startsWith('/api/dealer/info') && req.method === 'GET') {
           try {
+            const dealerInfoHandler = (await import('./api/dealer/info.js')).default;
             const urlObj = new URL(req.url, 'http://localhost');
-            const id = urlObj.searchParams.get('id');
-            if (!id) {
-              res.statusCode = 400;
-              res.setHeader('Content-Type', 'application/json');
-              return res.end(JSON.stringify({ error: 'Missing dealer id parameter' }));
-            }
-            const dealer = await getDealerById(id);
-            if (!dealer) {
-              res.statusCode = 404;
-              res.setHeader('Content-Type', 'application/json');
-              return res.end(JSON.stringify({ error: 'Dealer not found in Zoho' }));
-            }
-            res.statusCode = 200;
-            res.setHeader('Content-Type', 'application/json');
-            return res.end(JSON.stringify({ ok: true, dealer }));
+            const fakeReq = {
+              method: 'GET',
+              url: req.url,
+              headers: req.headers,
+              query: Object.fromEntries(urlObj.searchParams.entries()),
+            };
+            const fakeRes = {
+              statusCode: 200,
+              setHeader(name, val) { res.setHeader(name, val); },
+              status(code) { this.statusCode = code; res.statusCode = code; return this; },
+              json(obj) {
+                res.statusCode = this.statusCode;
+                res.setHeader('Content-Type', 'application/json');
+                return res.end(JSON.stringify(obj));
+              },
+            };
+            return await dealerInfoHandler(fakeReq, fakeRes);
           } catch (err) {
             res.statusCode = 500;
             res.setHeader('Content-Type', 'application/json');
@@ -363,12 +420,16 @@ function zohoApiPlugin() {
               const dealerCity = urlObj.searchParams.get('city') || '';
               const dealerState = urlObj.searchParams.get('state') || '';
               const dealerLoc = [dealerCity, dealerState].filter(Boolean).join(', ');
-              const title = `${product.name} · Sunshine Appliances`;
+              const rawTitle = `${product.name || 'Sunshine Appliance'} · Sunshine Appliances`;
               const priceStr = product.mrp > 0 ? `₹${Number(product.mrp).toLocaleString('en-IN')}` : 'Price on Request';
-              const desc = dealerName
+              const rawDesc = dealerName
                 ? `Retail MRP: ${priceStr} (Incl. of all taxes) · Available with ${dealerName}${dealerLoc ? ` (${dealerLoc})` : ''}`
                 : `Retail MRP: ${priceStr} (Incl. of all taxes) · Sunshine ReSTOR`;
-              const imgUrl = product.img || '/img/hero-stove.webp';
+              const safeImgUrl = sanitizeUrl(product.img) || '/img/hero-stove.webp';
+
+              const title = escapeHtml(rawTitle);
+              const desc = escapeHtml(rawDesc);
+              const imgUrl = escapeHtml(safeImgUrl);
 
               let transformed = html;
               transformed = transformed.replace(/<title>.*?<\/title>/i, `<title>${title}</title>`);

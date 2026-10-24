@@ -40,6 +40,8 @@ export const requireRole = (...roles) => (req, res, next) => {
   next();
 };
 
+import crypto from 'node:crypto';
+
 /** Dealer must be active AND their dealer record approved (for dealer-only powers). */
 export async function requireApprovedDealer(req, res, next) {
   if (!req.user || req.user.role !== 'dealer') {
@@ -53,3 +55,65 @@ export async function requireApprovedDealer(req, res, next) {
   req.dealer = dealer;
   next();
 }
+
+/**
+ * Enforces server-side administrative identity.
+ * Validates either a matching ADMIN_API_KEY (via X-Admin-Key or Bearer token)
+ * or a verified JWT for an active user with role === 'admin'.
+ * Fails closed if neither is provided.
+ */
+export async function requireAdmin(req, res, next) {
+  const adminKeyHeader = req.headers['x-admin-key'];
+  const authHeader = req.headers.authorization || '';
+  const bearerToken = authHeader.startsWith('Bearer ') ? authHeader.slice(7) : null;
+  const configuredAdminKey = process.env.ADMIN_API_KEY || '';
+
+  // 1. Verify ADMIN_API_KEY using timing-safe comparison
+  if (configuredAdminKey && configuredAdminKey.length >= 16) {
+    const candidateKey = adminKeyHeader || bearerToken;
+    if (candidateKey && candidateKey.length === configuredAdminKey.length) {
+      if (crypto.timingSafeEqual(Buffer.from(candidateKey), Buffer.from(configuredAdminKey))) {
+        req.isAdmin = true;
+        return next();
+      }
+    }
+  }
+
+  // 2. Verify JWT token for role === 'admin'
+  if (bearerToken) {
+    try {
+      const claims = verifyAccessToken(bearerToken);
+      if (claims && claims.role === 'admin') {
+        if (claims.purpose === 'admin_session') {
+          req.isAdmin = true;
+          req.adminPurpose = 'admin_session';
+          return next();
+        }
+        if (claims.sub && claims.sub !== 'admin') {
+          try {
+            const rows = await sql`
+              select u.id, u.email, u.role, u.status
+              from users u
+              where u.id = ${claims.sub}`;
+            const user = rows[0];
+            if (user && user.role === 'admin' && user.status === 'active') {
+              req.user = user;
+              req.isAdmin = true;
+              return next();
+            }
+          } catch {
+            // DB lookup failed or unavailable
+          }
+        }
+      }
+    } catch {
+      // Invalid/expired token
+    }
+  }
+
+  return res.status(401).json({
+    error: 'admin_auth_required',
+    message: 'Administrative authentication is required for this operation.',
+  });
+}
+

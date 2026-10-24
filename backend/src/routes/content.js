@@ -8,6 +8,7 @@ import {
   saveHeroSliderSettings,
 } from '../services/content.js';
 import { sql } from '../db/pool.js';
+import { requireAdmin } from '../middleware/auth.js';
 
 export const contentRouter = Router();
 
@@ -35,8 +36,8 @@ contentRouter.get('/settings/hero', async (req, res, next) => {
   }
 });
 
-// POST /api/content/settings/hero
-contentRouter.post('/settings/hero', async (req, res, next) => {
+// POST /api/content/settings/hero (Admin Only)
+contentRouter.post('/settings/hero', requireAdmin, async (req, res, next) => {
   try {
     const saved = await saveHeroSliderSettings(req.body);
     return res.json({ ok: true, settings: saved });
@@ -81,8 +82,10 @@ contentRouter.get('/all', async (req, res, next) => {
   }
 });
 
-// POST /api/content (Upsert item in Supabase OR toggle active)
-contentRouter.post('/', async (req, res, next) => {
+const ALLOWED_CONTENT_TYPES = ['hero_banner', 'scheme', 'branding', 'setting'];
+
+// POST /api/content (Upsert item in Supabase OR toggle active) (Admin Only)
+contentRouter.post('/', requireAdmin, async (req, res, next) => {
   try {
     if (req.query.action === 'toggle' || req.body?.action === 'toggle') {
       const id = req.query.id || req.body?.id;
@@ -116,6 +119,15 @@ contentRouter.post('/', async (req, res, next) => {
       return res.status(400).json({ error: 'id, type, and title are required.' });
     }
 
+    if (!ALLOWED_CONTENT_TYPES.includes(type)) {
+      return res.status(400).json({ error: `Invalid content type: ${type}` });
+    }
+
+    // Length constraints to prevent database bloat
+    if (String(title).length > 200 || String(subtitle).length > 300 || String(badge).length > 100) {
+      return res.status(400).json({ error: 'Field length exceeds maximum permitted limit.' });
+    }
+
     const inserted = await sql`
       INSERT INTO public.store_content (
         id, type, title, subtitle, badge, image_url, file_url, video_url, link_url, bg_color, display_order, is_active, metadata, updated_at
@@ -145,8 +157,8 @@ contentRouter.post('/', async (req, res, next) => {
   }
 });
 
-// DELETE /api/content/:id
-contentRouter.delete('/:id', async (req, res, next) => {
+// DELETE /api/content/:id (Admin Only)
+contentRouter.delete('/:id', requireAdmin, async (req, res, next) => {
   try {
     const { id } = req.params;
     const deleted = await sql`
@@ -160,8 +172,8 @@ contentRouter.delete('/:id', async (req, res, next) => {
   }
 });
 
-// PATCH /api/content/:id/toggle
-contentRouter.patch('/:id/toggle', async (req, res, next) => {
+// PATCH /api/content/:id/toggle (Admin Only)
+contentRouter.patch('/:id/toggle', requireAdmin, async (req, res, next) => {
   try {
     const { id } = req.params;
     const updated = await sql`

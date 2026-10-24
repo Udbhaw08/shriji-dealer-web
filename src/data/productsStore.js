@@ -1,6 +1,7 @@
 import { useSyncExternalStore } from "react";
 import { CATEGORIES as INITIAL_CATEGORIES } from "./products";
 import { apiFetch, apiUrl } from "./api";
+import { getAccessToken } from "./auth";
 
 const CACHE_KEY_PREFIX = "shriji.zoho.products.v6";
 
@@ -83,9 +84,11 @@ export function fetchLiveProducts(force = false, pricebookId = null) {
   if (force) params.set("refresh", "true");
   if (targetPb) params.set("pricebook_id", targetPb);
   const q = params.toString();
-  const url = q ? `/api/products?${q}` : "/api/products";
+  const headers = {};
+  const token = typeof getAccessToken === "function" ? getAccessToken() : null;
+  if (token) headers.Authorization = `Bearer ${token}`;
 
-  fetchPromise = apiFetch(url)
+  fetchPromise = apiFetch(url, { headers })
     .then((res) => res.json())
     .then((data) => {
       fetchPromise = null;
@@ -93,8 +96,17 @@ export function fetchLiveProducts(force = false, pricebookId = null) {
         const liveCategories = data.categories?.length
           ? sanitizeCategories(data.categories)
           : storeState.categories;
+
+        // Ensure restricted pricing is never cached for unauthenticated users
+        const safeCachedProducts = data.products.map((p) => {
+          const item = { ...p };
+          delete item.purchaseRate;
+          if (!targetPb) delete item.dealerRate;
+          return item;
+        });
+
         storeState = {
-          products: data.products,
+          products: safeCachedProducts,
           categories: liveCategories,
           loaded: true,
           syncing: false,
@@ -104,7 +116,7 @@ export function fetchLiveProducts(force = false, pricebookId = null) {
           localStorage.setItem(
             getCacheKey(targetPb),
             JSON.stringify({
-              products: data.products,
+              products: safeCachedProducts,
               categories: storeState.categories,
               time: Date.now(),
             })

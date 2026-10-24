@@ -18,7 +18,14 @@ export function rateLimit({ windowMs = 60_000, max = 30, keyFn = (req) => req.ip
     }
     arr.push(now);
     buckets.set(key, arr);
-    if (buckets.size > 10_000) buckets.clear(); // crude memory bound
+    if (buckets.size > 10_000) {
+      // Evict oldest 20% of entries to bound memory without clearing all users' limits
+      let toRemove = Math.floor(buckets.size * 0.2);
+      for (const oldestKey of buckets.keys()) {
+        buckets.delete(oldestKey);
+        if (--toRemove <= 0) break;
+      }
+    }
     next();
   };
 }

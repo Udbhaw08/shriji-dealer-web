@@ -156,6 +156,10 @@ export function hasSession() {
   return Boolean(accessToken || currentRefreshToken);
 }
 
+export function getAccessToken() {
+  return accessToken;
+}
+
 async function callBackend(path, options = {}, attempt = 0) {
   const headers = { "Content-Type": "application/json", ...(options.headers || {}) };
   if (accessToken) headers.Authorization = `Bearer ${accessToken}`;
