@@ -18,28 +18,73 @@ async function markPollRun() {
 export async function crmPoll() {
   if (!crm.isCrmConfigured()) return;
 
-  // 1. retry CRM record creation for applications that failed earlier
-  const unlinked = await sql`
-    select d.id, d.business_name, d.gst_number, d.address, u.id as owner_id,
-           u.email, u.phone
+  // 1. retry CRM record creation for applications that failed earlier (zoho_account_id is null)
+  const unlinkedAccounts = await sql`
+    select d.id, d.business_name, d.gst_number, d.gst_treatment, d.address, d.dealer_code,
+           u.id as owner_id, u.email, u.phone, u.full_name
     from dealers d join users u on u.id = d.owner_user_id
     where d.status = 'pending' and d.zoho_account_id is null`;
-  for (const d of unlinked) {
+  for (const d of unlinkedAccounts) {
     try {
       const accountId = await crm.createDealerAccount({
-        businessName: d.business_name, gstNumber: d.gst_number,
-        phone: d.phone, email: d.email, address: d.address,
-      });
-      const contactId = await crm.createDealerContact({
-        accountId, personName: d.business_name, phone: d.phone, email: d.email, portalRole: 'Owner',
+        businessName: d.business_name,
+        gstNumber: d.gst_number,
+        gstTreatment: d.gst_treatment,
+        phone: d.phone,
+        email: d.email,
+        address: d.address,
         userSource: 'ReStor Dealer',
+        dealerCode: d.dealer_code,
       });
-      await crm.linkContactToBackendUser(contactId, d.owner_id);
-      await sql`update dealers set zoho_account_id = ${accountId} where id = ${d.id}`;
-      await sql`update users set zoho_contact_id = ${contactId} where id = ${d.owner_id}`;
-      log.info(`[crmPoll] linked dealer ${d.id} → CRM account ${accountId}`);
+      if (accountId) {
+        await sql`update dealers set zoho_account_id = ${accountId} where id = ${d.id}`;
+        d.zoho_account_id = accountId;
+        log.info(`[crmPoll] created CRM account ${accountId} for dealer ${d.id} (dealer_code: ${d.dealer_code})`);
+      }
     } catch (err) {
-      log.warn(`[crmPoll] CRM create retry failed for dealer ${d.id}: ${err.message}`);
+      log.warn(`[crmPoll] CRM account create retry failed for dealer ${d.id}: ${err.message}`);
+    }
+  }
+
+  // 2. resume Owner Contact provisioning for dealers with Account ID but missing Contact ID
+  const unlinkedContacts = await sql`
+    select d.id, d.business_name, d.dealer_code, d.zoho_account_id,
+           u.id as owner_id, u.email, u.phone, u.full_name
+    from dealers d join users u on u.id = d.owner_user_id
+    where d.zoho_account_id is not null and u.zoho_contact_id is null`;
+  for (const d of unlinkedContacts) {
+    try {
+      // First attempt recovery within this already-linked Account using Backend_User_ID / identity
+      const existingContact = await crm.findOwnerContactInAccount(d.zoho_account_id, {
+        backendUserId: d.owner_id,
+        email: d.email,
+        phone: d.phone,
+      });
+
+      if (existingContact?.ambiguous) {
+        log.warn(`[crmPoll] Ambiguous contacts under account ${d.zoho_account_id} for user ${d.owner_id}; skipping auto-link`);
+        continue;
+      }
+
+      let contactId = existingContact?.zohoContactId || null;
+      if (!contactId) {
+        contactId = await crm.createDealerContact({
+          accountId: d.zoho_account_id,
+          personName: d.full_name || d.business_name,
+          phone: d.phone,
+          email: d.email,
+          portalRole: 'Owner',
+          userSource: 'ReStor Dealer',
+          dealerCode: d.dealer_code,
+          backendUserId: d.owner_id,
+        });
+      }
+
+      await crm.linkContactToBackendUser(contactId, d.owner_id);
+      await sql`update users set zoho_contact_id = ${contactId} where id = ${d.owner_id}`;
+      log.info(`[crmPoll] linked dealer ${d.id} → CRM contact ${contactId}`);
+    } catch (err) {
+      log.warn(`[crmPoll] CRM contact create/link retry failed for dealer ${d.id}: ${err.message}`);
     }
   }
 

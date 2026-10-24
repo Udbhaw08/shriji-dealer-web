@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **5. Font Weight** (4 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Rules** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Standard Weights** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Weight + Size Relationship** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **14. Hierarchy Checklist** (4 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Anti-patterns** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Hierarchy Test** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Visual Weight Stack** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- [[Community 230]] (1 shared connections)
+- [[Community 232]] (1 shared connections)
 
 ## Source Files
 

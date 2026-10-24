@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **animation.test.mjs** (7 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **NODE_COLLECTION** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **svgBlock()** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **Resizable windows and adaptive layouts** (7 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
+- **resizability.md** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
+- **Checking changes** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
+- **Choosing layouts** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
+- **Fold and camera geometry** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
+- **Presentations** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
+- **Safe areas** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
+- **Tab bars and toolbars** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/animation.test.mjs`
+- `.agents/skills/swiftui-pro/references/resizability.md`
 
 ## Audit Trail
 

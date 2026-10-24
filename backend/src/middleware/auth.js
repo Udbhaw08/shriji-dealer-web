@@ -18,8 +18,8 @@ export async function jwtAuth(req, res, next) {
   }
 
   const rows = await sql`
-    select u.id, u.email, u.phone, u.role, u.status, u.dealer_id, u.email_verified,
-           u.can_see_dealer_price, d.hide_staff_dealer_price, u.created_at
+    select u.id, u.email, u.phone, u.phone_verified, u.role, u.status, u.dealer_id, u.email_verified,
+           u.can_see_dealer_price, d.hide_staff_dealer_price, u.created_at, u.full_name
     from users u
     left join dealers d on d.id = u.dealer_id
     where u.id = ${claims.sub}`;

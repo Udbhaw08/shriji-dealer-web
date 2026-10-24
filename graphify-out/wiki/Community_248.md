@@ -1,29 +1,33 @@
 # Community 248
 
-> 8 nodes · cohesion 0.25
+> 8 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **Disclosure controls** (6 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
-- **disclosure-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
-- **Disclosure buttons** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
-- **Disclosure triangles** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
-- **Mobile (iOS, iPadOS, visionOS)** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **createDealerContact()** (9 connections) — `api/zoho.js`
+- **getAccessToken()** (6 connections) — `api/zoho.js`
+- **loadEnv()** (4 connections) — `api/zoho.js`
+- **test-zoho-api.mjs** (4 connections) — `scripts/test-zoho-api.mjs`
+- **apply.js** (3 connections) — `api/dealer/apply.js`
+- **readDiskCache()** (2 connections) — `api/zoho.js`
+- **handler()** (2 connections) — `api/dealer/apply.js`
+- **{ dc, orgId }** (1 connections) — `scripts/test-zoho-api.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 47]] (6 shared connections)
+- [[Community 77]] (6 shared connections)
+- [[Community 164]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- `api/dealer/apply.js`
+- `api/zoho.js`
+- `scripts/test-zoho-api.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 31 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

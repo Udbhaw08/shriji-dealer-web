@@ -4,38 +4,27 @@
 
 ## Key Concepts
 
-- **Typography Guide** (18 connections) — `.agents/skills/refero-design/references/typography.md`
-- **13. AI-Slop Anti-Patterns** (3 connections) — `.agents/skills/refero-design/references/typography.md`
-- **typography.md** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **15. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **1. The Safe SaaS Preset** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Instant Red Flags** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Quick Test** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **web-b90pxERA.js** (8 connections) — `ios/App/App/public/assets/web-b90pxERA.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-b90pxERA.js`
+- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-b90pxERA.js`
+- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-b90pxERA.js`
+- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-b90pxERA.js`
+- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-b90pxERA.js`
+- **getState()** (1 connections) — `ios/App/App/public/assets/web-b90pxERA.js`
+- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-b90pxERA.js`
+- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-b90pxERA.js`
 
 ## Relationships
 
-- [[Community 379]] (1 shared connections)
-- [[Community 399]] (1 shared connections)
-- [[Community 380]] (1 shared connections)
-- [[Community 400]] (1 shared connections)
-- [[Community 401]] (1 shared connections)
-- [[Community 402]] (1 shared connections)
-- [[Community 381]] (1 shared connections)
-- [[Community 403]] (1 shared connections)
-- [[Community 404]] (1 shared connections)
-- [[Community 382]] (1 shared connections)
-- [[Community 231]] (1 shared connections)
-- [[Community 432]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `ios/App/App/public/assets/web-b90pxERA.js`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

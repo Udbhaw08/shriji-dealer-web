@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Sheets** (6 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **sheets.md** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **Scroll views** (6 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
+- **scroll-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
+- **Scroll edge effects** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/sheets.md`
+- `.agents/skills/apple-design/references/hig/scroll-views.md`
 
 ## Audit Trail
 

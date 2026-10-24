@@ -349,61 +349,166 @@ export default function Login() {
         </div>
 
         {/* ALREADY AUTHENTICATED CARD */}
-        {isAuthenticated && (
-          <div className="card pad" style={{ marginBottom: 24, boxShadow: "var(--sh)", textAlign: "center" }}>
-            <div style={{ display: "inline-flex", alignItems: "center", gap: 6, padding: "5px 14px", borderRadius: 999, background: dealerActive ? "var(--ok-bg)" : "var(--blue-50)", color: dealerActive ? "var(--ok-tx)" : "var(--navy-2)", fontSize: "0.82rem", fontWeight: 700, marginBottom: 16 }}>
-              <Icon name={dealerActive ? "shield" : "user"} size={14} />
-              {dealerActive ? (session.dealer?.name || "Verified Dealer") : "Customer / Viewer"}
-            </div>
+        {isAuthenticated && (() => {
+          const isPending = session.status === "pending" || session.dealer?.status === "pending";
+          const needsVerification = !session.email_verified || !session.phone_verified;
 
-            <div style={{ fontSize: "1.1rem", fontWeight: 700, color: "var(--tx)", marginBottom: 4 }}>
-              {session.fullName || (session.phone ? `+91 ${session.phone}` : session.email || "Signed In User")}
-            </div>
-
-            {session.phone && (
-              <div style={{ fontSize: "0.86rem", color: "var(--tx-2)", marginBottom: session.email ? 4 : 16 }}>
-                Phone: +91 {session.phone}
+          return (
+            <div className="card pad" style={{ marginBottom: 24, boxShadow: "var(--sh)", textAlign: "center" }}>
+              <div style={{
+                display: "inline-flex",
+                alignItems: "center",
+                gap: 6,
+                padding: "5px 14px",
+                borderRadius: 999,
+                background: isPending ? "var(--amber-50, #fffbeb)" : dealerActive ? "var(--ok-bg)" : "var(--blue-50)",
+                color: isPending ? "var(--amber-700, #b45309)" : dealerActive ? "var(--ok-tx)" : "var(--navy-2)",
+                fontSize: "0.82rem",
+                fontWeight: 700,
+                marginBottom: 16,
+                border: isPending ? "1px solid #fde68a" : "none",
+              }}>
+                <Icon name={dealerActive ? "shield" : isPending ? "clock" : "user"} size={14} />
+                {isPending
+                  ? "Dealership Application Under Review"
+                  : dealerActive
+                  ? (session.dealer?.name || "Verified Dealer")
+                  : "Customer / Retail Account"}
               </div>
-            )}
 
-            {session.email && (
-              <div style={{ fontSize: "0.86rem", color: "var(--tx-2)", marginBottom: 16 }}>
-                Email: {session.email} {session.email_verified ? "✓ (Verified)" : "(Pending Verification)"}
+              <div style={{ fontSize: "1.15rem", fontWeight: 700, color: "var(--tx)", marginBottom: 4 }}>
+                {session.fullName || (session.phone ? `+91 ${session.phone}` : session.email || "Signed In User")}
               </div>
-            )}
 
-            {dealerActive && session.dealer?.dealer_code && (
-              <div style={{ fontSize: "0.82rem", color: "var(--tx-3)", marginBottom: 20 }}>
-                Dealer Code: <strong>{session.dealer.dealer_code}</strong> · Price Tier: {session.dealer.price_tier || "Standard"}
+              {/* Contact Verification Badges */}
+              <div style={{
+                display: "flex",
+                justifyContent: "center",
+                flexWrap: "wrap",
+                gap: 8,
+                marginTop: 10,
+                marginBottom: 18,
+              }}>
+                {session.phone && (
+                  <span style={{
+                    display: "inline-flex",
+                    alignItems: "center",
+                    gap: 4,
+                    padding: "3px 10px",
+                    borderRadius: 999,
+                    fontSize: ".78rem",
+                    fontWeight: 600,
+                    background: session.phone_verified ? "#f0fdf4" : "#fef2f2",
+                    color: session.phone_verified ? "#166534" : "#991b1b",
+                    border: session.phone_verified ? "1px solid #bbf7d0" : "1px solid #fecaca",
+                  }}>
+                    {session.phone_verified ? "✓ WhatsApp Phone Verified" : "⚠️ Phone Not Verified"}
+                  </span>
+                )}
+                {session.email ? (
+                  <span style={{
+                    display: "inline-flex",
+                    alignItems: "center",
+                    gap: 4,
+                    padding: "3px 10px",
+                    borderRadius: 999,
+                    fontSize: ".78rem",
+                    fontWeight: 600,
+                    background: session.email_verified ? "#f0fdf4" : "#fef2f2",
+                    color: session.email_verified ? "#166534" : "#991b1b",
+                    border: session.email_verified ? "1px solid #bbf7d0" : "1px solid #fecaca",
+                  }}>
+                    {session.email_verified ? "✓ Email Verified" : "⚠️ Email Not Verified"}
+                  </span>
+                ) : (
+                  <span style={{
+                    display: "inline-flex",
+                    alignItems: "center",
+                    gap: 4,
+                    padding: "3px 10px",
+                    borderRadius: 999,
+                    fontSize: ".78rem",
+                    fontWeight: 600,
+                    background: "#f8fafc",
+                    color: "#64748b",
+                    border: "1px solid #e2e8f0",
+                  }}>
+                    ℹ️ No Email Added
+                  </span>
+                )}
               </div>
-            )}
 
-            <div style={{ display: "grid", gap: 10 }}>
-              <Link to="/products" className="btn btn-navy btn-block" style={{ minHeight: 46 }}>
-                <Icon name="grid" size={16} /> Continue to Product Catalog
-              </Link>
-              {dealerActive && (
-                <Link to="/dealer" className="btn btn-ghost btn-block" style={{ minHeight: 46 }}>
-                  <Icon name="user" size={16} /> Team & Pricing Dashboard
-                </Link>
+              {/* Persistent Verification Notice if not verified */}
+              {!dealerActive && needsVerification && (
+                <div style={{
+                  padding: "10px 14px",
+                  background: "#eff6ff",
+                  border: "1px solid #bfdbfe",
+                  borderRadius: 10,
+                  fontSize: ".84rem",
+                  color: "#1e40af",
+                  textAlign: "left",
+                  marginBottom: 18,
+                  lineHeight: 1.45,
+                }}>
+                  <div style={{ fontWeight: 700, marginBottom: 2 }}>Contact Verification Required for Dealers:</div>
+                  Dealer applications require both a verified email address and a verified WhatsApp phone number.
+                </div>
               )}
-              <button
-                className="btn btn-ghost btn-block"
-                onClick={async () => {
-                  await signOut();
-                  setStep("phone");
-                  setPhone("");
-                  setOtp(["", "", "", "", "", ""]);
-                  setEmail("");
-                  setPassword("");
-                }}
-                style={{ color: "var(--err)", borderColor: "var(--line)", minHeight: 46 }}
-              >
-                Log Out / Switch Account
-              </button>
+
+              {dealerActive && session.dealer?.dealer_code && (
+                <div style={{ fontSize: "0.82rem", color: "var(--tx-3)", marginBottom: 18 }}>
+                  Dealer Code: <strong>{session.dealer.dealer_code}</strong> · Price Tier: {session.dealer.price_tier || "Standard"}
+                </div>
+              )}
+
+              {/* Navigation Action Buttons */}
+              <div style={{ display: "grid", gap: 10 }}>
+                {isPending && (
+                  <Link to="/dealer/pending" className="btn btn-navy btn-block" style={{ minHeight: 46, background: "var(--amber-600, #d97706)", borderColor: "var(--amber-600, #d97706)" }}>
+                    <Icon name="clock" size={16} /> View Dealer Application Status
+                  </Link>
+                )}
+
+                <Link to="/products" className="btn btn-navy btn-block" style={{ minHeight: 46 }}>
+                  <Icon name="grid" size={16} /> Continue to Product Catalog
+                </Link>
+
+                {dealerActive && (
+                  <Link to="/dealer" className="btn btn-ghost btn-block" style={{ minHeight: 46 }}>
+                    <Icon name="user" size={16} /> Team & Pricing Dashboard
+                  </Link>
+                )}
+
+                {!dealerActive && !isPending && (
+                  <>
+                    <Link to="/dealer/apply" className="btn btn-ghost btn-block" style={{ minHeight: 46, borderColor: "var(--brand-green, #16a34a)", color: "var(--brand-green, #16a34a)", fontWeight: 700 }}>
+                      <Icon name="shield" size={16} /> Apply as Dealer Owner
+                    </Link>
+                    <Link to="/dealer/join" className="btn btn-ghost btn-block" style={{ minHeight: 46 }}>
+                      <Icon name="user" size={16} /> Join Store as Staff (Enter Code)
+                    </Link>
+                  </>
+                )}
+
+                <button
+                  className="btn btn-ghost btn-block"
+                  onClick={async () => {
+                    await signOut();
+                    setStep("phone");
+                    setPhone("");
+                    setOtp(["", "", "", "", "", ""]);
+                    setEmail("");
+                    setPassword("");
+                  }}
+                  style={{ color: "var(--err)", borderColor: "var(--line)", minHeight: 46 }}
+                >
+                  Log Out / Switch Account
+                </button>
+              </div>
             </div>
-          </div>
-        )}
+          );
+        })()}
 
         {/* UNAUTHENTICATED MULTI-METHOD LOGIN CARD */}
         {!isAuthenticated && (
@@ -1111,6 +1216,45 @@ export default function Login() {
                 }}
               >
                 <Icon name="shield" size={13} /> Official Google Identity Services · Instant 1-Click Access
+              </div>
+
+              {/* DEALER & STAFF ONBOARDING ENTRY POINTS */}
+              <div
+                style={{
+                  marginTop: 22,
+                  paddingTop: 18,
+                  borderTop: "1px solid var(--line, #e2e8f0)",
+                  textAlign: "center",
+                  display: "grid",
+                  gap: 10,
+                }}
+              >
+                <div style={{ fontSize: "0.88rem", color: "var(--tx-2)" }}>
+                  Are you an appliance business owner?{" "}
+                  <Link
+                    to="/dealer/apply"
+                    style={{
+                      color: "var(--brand-green, #16a34a)",
+                      fontWeight: 700,
+                      textDecoration: "none",
+                    }}
+                  >
+                    Apply for Dealership →
+                  </Link>
+                </div>
+                <div style={{ fontSize: "0.88rem", color: "var(--tx-2)" }}>
+                  Have a Dealer Code from your store?{" "}
+                  <Link
+                    to="/dealer/join"
+                    style={{
+                      color: "var(--navy, #10263a)",
+                      fontWeight: 700,
+                      textDecoration: "none",
+                    }}
+                  >
+                    Join Store as Staff →
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

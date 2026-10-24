@@ -1,70 +1,56 @@
 # Community 46
 
-> 31 nodes · cohesion 0.22
+> 32 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **compileWorkflowInternal()** (67 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **esc()** (31 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **escapeHtml()** (26 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **animateAttr()** (16 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **focusEdgeAttrs()** (15 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **labelPoint()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **renderBrandMark()** (14 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **renderNode()** (13 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderState()** (13 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **focusNodeAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **renderSemanticSigil()** (13 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **renderComponent()** (12 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderParticipant()** (12 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **brandLabelFitWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **brandMetadataFor()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **focusNodeTitle()** (12 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **routePointsValue()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **fittedNodeFontSize()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **variantAccent()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **renderConnectionLabel()** (8 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderFlowLabel()** (8 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderTransitionLabel()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderMessage()** (8 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **brandMarkFor()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **renderConnectionPath()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- *... and 6 more nodes in this community*
+- **ff()** (24 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **Eu()** (17 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **du()** (14 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **lu()** (11 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **Nu()** (9 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **Sp()** (9 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **vl()** (9 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **yu()** (9 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **Ea()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **wu()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **xl()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **gm()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **pu()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **qu()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **mu()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **vo()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **yl()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **bl()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **bu()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **fu()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **Gu()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **ku()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **xu()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **Ru()** (3 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **wp()** (3 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [[Community 30]] (38 shared connections)
-- [[Community 34]] (32 shared connections)
-- [[Community 45]] (28 shared connections)
-- [[Client Products Data Store]] (23 shared connections)
-- [[Zoho Integration Architecture]] (22 shared connections)
-- [[Community 83]] (18 shared connections)
-- [[Community 107]] (10 shared connections)
-- [[Product Requirements Documentation]] (10 shared connections)
-- [[Zoho Integration Skill]] (6 shared connections)
-- [[Community 58]] (5 shared connections)
-- [[Community 290]] (3 shared connections)
-- [[Community 86]] (2 shared connections)
+- [[Price Presentation & Product UI]] (38 shared connections)
+- [[Product Pages Specification]] (18 shared connections)
+- [[Design System & UI Tokens]] (9 shared connections)
+- [[Live Pricing Audit Tool]] (8 shared connections)
+- [[Community 45]] (6 shared connections)
+- [[Roles & Customer Sharing Spec]] (4 shared connections)
+- [[Community 53]] (2 shared connections)
+- [[Community 210]] (2 shared connections)
+- [[Community 80]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/cli.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/i18n.mjs`
-- `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
-- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
 
 ## Audit Trail
 
-- EXTRACTED: 356 (90%)
-- INFERRED: 41 (10%)
+- EXTRACTED: 202 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

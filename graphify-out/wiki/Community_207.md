@@ -17,7 +17,7 @@
 
 ## Relationships
 
-- [[Community 98]] (1 shared connections)
+- [[Community 96]] (1 shared connections)
 - [[Product Requirements Documentation]] (1 shared connections)
 
 ## Source Files

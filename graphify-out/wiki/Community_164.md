@@ -1,33 +1,38 @@
 # Community 164
 
-> 12 nodes · cohesion 0.17
+> 11 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **generate-codebase-doc.mjs** (11 connections) — `scripts/generate-codebase-doc.mjs`
-- **allFiles** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **apiFiles** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **components** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **dataStores** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **getFiles()** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **istDateString** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **pages** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **pkg** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **rootDir** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **routes** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **scripts** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **vite.config.js** (20 connections) — `vite.config.js`
+- **getDealerById()** (7 connections) — `api/zoho.js`
+- **handler()** (4 connections) — `api/download.js`
+- **download.js** (3 connections) — `api/download.js`
+- **info.js** (3 connections) — `api/dealer/info.js`
+- **wrapJpegInPdf()** (2 connections) — `api/download.js`
+- **DEFAULT_SCHEMES** (2 connections) — `api/zoho.js`
+- **DEFAULT_STORE_BANNERS** (2 connections) — `api/zoho.js`
+- **handler()** (2 connections) — `api/dealer/info.js`
+- **loadContentService()** (2 connections) — `vite.config.js`
+- **liveAutoSyncPlugin()** (1 connections) — `vite.config.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 77]] (10 shared connections)
+- [[Community 47]] (6 shared connections)
+- [[Community 111]] (5 shared connections)
+- [[Community 248]] (1 shared connections)
 
 ## Source Files
 
-- `scripts/generate-codebase-doc.mjs`
+- `api/dealer/info.js`
+- `api/download.js`
+- `api/zoho.js`
+- `vite.config.js`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 48 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -28,8 +28,11 @@ export const DEFAULT_DEALER_SESSION = {
   userStatus: "active",
   userId: "22ea8152-e764-4c10-8fe8-f05fd5b5ff32",
   phone: "8826867932",
+  phone_verified: true,
   fullName: "Owner (8826)",
   email: null,
+  email_verified: false,
+  is_fully_onboarded: false,
   authRole: "dealer",
   canSeeDealerPrice: true,
   dealerId: "fa0e9ef4-29d5-4816-9e22-c3fefee354be",
@@ -61,6 +64,9 @@ export const DEFAULT_VIEWER_SESSION = {
   userStatus: "active",
   userId: "customer-viewer",
   phone: null,
+  phone_verified: false,
+  email_verified: false,
+  is_fully_onboarded: false,
   fullName: "Customer / Viewer",
   authRole: "customer",
   canSeeDealerPrice: false,
@@ -121,6 +127,8 @@ function isSessionEqual(a, b) {
     Boolean(a.email_verified) === Boolean(b.email_verified) &&
     a.fullName === b.fullName &&
     a.phone === b.phone &&
+    Boolean(a.phone_verified) === Boolean(b.phone_verified) &&
+    Boolean(a.is_fully_onboarded) === Boolean(b.is_fully_onboarded) &&
     a.dealerId === b.dealerId &&
     a.dealer?.name === b.dealer?.name &&
     a.dealer?.status === b.dealer?.status &&

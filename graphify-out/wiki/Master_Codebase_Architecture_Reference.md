@@ -1,56 +1,73 @@
 # Master Codebase Architecture Reference
 
-> 58 nodes · cohesion 0.07
+> 60 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **c()** (22 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **lt()** (20 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **k()** (19 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **Nd()** (15 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **A()** (13 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **fa()** (13 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **bc()** (12 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **it()** (11 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **Ce()** (10 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **ft()** (10 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **ht()** (10 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **wi()** (10 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **yh()** (10 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **dt()** (9 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **hh()** (9 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **pt()** (9 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **s()** (9 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **st()** (9 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **Ad()** (8 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **ct()** (8 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **jn()** (8 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **Da()** (7 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **fh()** (7 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **ic()** (7 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **jt()** (7 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- *... and 33 more nodes in this community*
+- **useSession()** (36 connections) — `src/data/session.js`
+- **Product.jsx** (34 connections) — `src/pages/Product.jsx`
+- **useLanguage()** (31 connections) — `src/data/i18n.js`
+- **dealer.js** (29 connections) — `src/data/dealer.js`
+- **Products.jsx** (25 connections) — `src/pages/Products.jsx`
+- **Favorites.jsx** (20 connections) — `src/pages/Favorites.jsx`
+- **ProductCard.jsx** (19 connections) — `src/components/ProductCard.jsx`
+- **isDealer()** (18 connections) — `src/data/dealer.js`
+- **dealer.test.mjs** (18 connections) — `src/data/dealer.test.mjs`
+- **t()** (18 connections) — `src/data/i18n.js`
+- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
+- **PriceBlock.jsx** (15 connections) — `src/components/PriceBlock.jsx`
+- **ProductCard()** (15 connections) — `src/components/ProductCard.jsx`
+- **Product()** (15 connections) — `src/pages/Product.jsx`
+- **priceFor()** (14 connections) — `src/data/dealer.js`
+- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
+- **useFavorites()** (13 connections) — `src/data/favoritesStore.js`
+- **dealerById()** (12 connections) — `src/data/dealer.js`
+- **inr()** (12 connections) — `src/data/dealer.js`
+- **useProducts()** (12 connections) — `src/data/productsStore.js`
+- **Favorites()** (9 connections) — `src/pages/Favorites.jsx`
+- **Products()** (9 connections) — `src/pages/Products.jsx`
+- **Header()** (9 connections) — `src/ui.jsx`
+- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
+- **viewerFor()** (8 connections) — `src/data/dealer.js`
+- *... and 35 more nodes in this community*
 
 ## Relationships
 
-- [[Dependencies & Package Config]] (65 shared connections)
-- [[Price Presentation & Product UI]] (30 shared connections)
-- [[Architecture Doc Generator]] (24 shared connections)
-- [[Claude Agent Instructions]] (15 shared connections)
-- [[Community 39]] (15 shared connections)
-- [[Community 78]] (13 shared connections)
-- [[Community 37]] (12 shared connections)
-- [[Community 84]] (8 shared connections)
-- [[Vercel Deployment Routing]] (2 shared connections)
+- [[Product Brand & Business Vision]] (73 shared connections)
+- [[Community 32]] (22 shared connections)
+- [[Pricing Regression Test Suite]] (13 shared connections)
+- [[Community 212]] (11 shared connections)
+- [[Community 183]] (9 shared connections)
+- [[Community 166]] (7 shared connections)
+- [[Community 106]] (3 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- `src/components/MobileBottomNav.jsx`
+- `src/components/PriceBlock.jsx`
+- `src/components/ProductCard.jsx`
+- `src/components/ProductSearchBar.jsx`
+- `src/data/dealer.js`
+- `src/data/dealer.test.mjs`
+- `src/data/favoritesStore.js`
+- `src/data/i18n.js`
+- `src/data/portalGate.js`
+- `src/data/productsStore.js`
+- `src/data/session.js`
+- `src/main.jsx`
+- `src/pages/Favorites.jsx`
+- `src/pages/Home.jsx`
+- `src/pages/Login.jsx`
+- `src/pages/Product.jsx`
+- `src/pages/Products.jsx`
+- `src/pages/Schemes.jsx`
+- `src/pages/Support.jsx`
+- `src/ui.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 430 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 555 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

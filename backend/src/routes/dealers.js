@@ -30,7 +30,14 @@ dealersRouter.post('/apply', async (req, res, next) => {
     if (gst_treatment?.includes('Registered') && (!gst_number || !isValidGstin(gst_number))) {
       throw httpError(400, 'Please enter a valid 15-character GSTIN (e.g. 27AABCR1234D1Z5)');
     }
-    const cleanPhone = phone ? String(phone).trim() : (req.user.phone || null);
+    if (!req.user.email_verified) {
+      throw httpError(403, 'Email verification is required before applying for dealer access');
+    }
+    if (!req.user.phone_verified) {
+      throw httpError(403, 'Phone verification via WhatsApp OTP is required before applying for dealer access');
+    }
+
+    const cleanPhone = req.user.phone || (phone ? String(phone).trim() : null);
     if (cleanPhone && !isValidPhone(cleanPhone)) {
       throw httpError(400, 'Please enter a valid 10-digit mobile number');
     }

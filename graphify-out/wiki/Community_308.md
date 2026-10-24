@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Text views** (5 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
-- **text-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
+- **Snippets** (6 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **snippets.md** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/text-views.md`
+- `.agents/skills/apple-design/references/hig/snippets.md`
 
 ## Audit Trail
 

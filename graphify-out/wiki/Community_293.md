@@ -1,30 +1,34 @@
 # Community 293
 
-> 7 nodes · cohesion 0.33
+> 8 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **loginCode.js** (8 connections) — `src/data/loginCode.js`
-- **formatLoginCode()** (4 connections) — `src/data/loginCode.js`
-- **generateLoginCode()** (2 connections) — `src/data/loginCode.js`
-- **GST_TREATMENT_OPTIONS** (2 connections) — `src/data/loginCode.js`
-- **isValidLoginCode()** (2 connections) — `src/data/loginCode.js`
-- **PREFIX_MAP** (1 connections) — `src/data/loginCode.js`
-- **USER_CATEGORIES** (1 connections) — `src/data/loginCode.js`
+- **workflow-migration-geometry.mjs** (10 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **createMappedWorkflowCandidate()** (9 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **intrinsicWorkflow()** (8 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **planningWorkflow()** (7 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **createHorizontalRankMapper()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **clone()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **mapExplicitCoordinates()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **mappedNumber()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
 
 ## Relationships
 
-- [[Community 40]] (3 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (3 shared connections)
+- [[Community 132]] (8 shared connections)
+- [[Community 139]] (5 shared connections)
+- [[Community 43]] (4 shared connections)
+- [[Dependencies & Package Config]] (3 shared connections)
+- [[Community 56]] (1 shared connections)
 
 ## Source Files
 
-- `src/data/loginCode.js`
+- `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 44 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

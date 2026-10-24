@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import { OAuth2Client } from 'google-auth-library';
 import { sql } from '../db/pool.js';
-import { hashPassword, verifyPassword, generateOtp, sha256, formatLoginCode } from '../utils/hash.js';
+import { hashPassword, verifyPassword, generateOtp, sha256, formatLoginCode, hashOtp, verifyOtpHash } from '../utils/hash.js';
 import { signAccessToken, issueRefreshToken, rotateRefreshToken, revokeRefreshToken } from '../services/tokens.js';
 import { jwtAuth } from '../middleware/auth.js';
 import { rateLimit } from '../middleware/rateLimit.js';
@@ -61,7 +61,16 @@ export async function findUserByEmail(email) {
   return rows[0] || null;
 }
 
-function publicUser(user) {
+export function isUserFullyOnboarded(user) {
+  if (!user) return false;
+  const hasEmail = Boolean(user.email && normalizeEmail(user.email));
+  const emailVerified = Boolean(user.email_verified);
+  const hasPhone = Boolean(user.phone && isValidPhone(user.phone));
+  const phoneVerified = Boolean(user.phone_verified);
+  return hasEmail && emailVerified && hasPhone && phoneVerified;
+}
+
+export function publicUser(user) {
   return {
     id: user.id,
     email: user.email || null,
@@ -71,6 +80,8 @@ function publicUser(user) {
     status: user.status,
     dealer_id: user.dealer_id,
     email_verified: Boolean(user.email_verified),
+    phone_verified: Boolean(user.phone_verified),
+    is_fully_onboarded: isUserFullyOnboarded(user),
     can_see_dealer_price: user.can_see_dealer_price !== false,
   };
 }
@@ -97,7 +108,7 @@ authRouter.post('/otp/request', rateLimit({ windowMs: 10 * 60_000, max: 6 }), as
     await sql.begin(async (tx) => {
       await tx`delete from otp_codes where identifier = ${norm.nationalNumber} or identifier = ${norm.e164}`;
       await tx`insert into otp_codes (identifier, code_hash, expires_at)
-               values (${norm.nationalNumber}, ${sha256(code)}, ${expiresAt})`;
+               values (${norm.nationalNumber}, ${hashOtp(code, norm.nationalNumber)}, ${expiresAt})`;
     });
 
     try {
@@ -109,7 +120,7 @@ authRouter.post('/otp/request', rateLimit({ windowMs: 10 * 60_000, max: 6 }), as
       });
     } catch (sendError) {
       // If delivery failed, immediately purge the un-delivered OTP so no ghost code remains active
-      await sql`delete from otp_codes where identifier = ${norm.nationalNumber} and code_hash = ${sha256(code)}`.catch(() => {});
+      await sql`delete from otp_codes where identifier = ${norm.nationalNumber} and (code_hash = ${hashOtp(code, norm.nationalNumber)} or code_hash = ${sha256(code)})`.catch(() => {});
       throw sendError;
     }
   } catch (error) { next(error); }
@@ -131,7 +142,6 @@ authRouter.post('/otp/verify', strictLimit, async (req, res, next) => {
       throw httpError(400, 'A valid 6-digit verification code is required');
     }
 
-    const hashedInput = sha256(cleanCode);
     let verifiedUser;
 
     await sql.begin(async (tx) => {
@@ -155,7 +165,7 @@ authRouter.post('/otp/verify', strictLimit, async (req, res, next) => {
         throw httpError(429, 'Too many failed verification attempts. Please request a new code.');
       }
 
-      if (otp.code_hash !== hashedInput) {
+      if (!verifyOtpHash(cleanCode, otp.code_hash, otp.identifier || norm.nationalNumber)) {
         const nextAttempts = otp.attempts + 1;
         if (nextAttempts >= OTP_MAX_ATTEMPTS) {
           await tx`delete from otp_codes where id = ${otp.id}`;
@@ -185,16 +195,15 @@ authRouter.post('/otp/verify', strictLimit, async (req, res, next) => {
       if (!user) {
         // Auto-register new customer account
         const [newUser] = await tx`
-          insert into users (phone, role, status, email_verified)
-          values (${norm.nationalNumber}, 'customer', 'active', false)
+          insert into users (phone, role, status, email_verified, phone_verified)
+          values (${norm.nationalNumber}, 'customer', 'active', false, true)
           returning *`;
         user = newUser;
         await audit(user.id, 'auth.otp_signup', 'user', user.id);
       } else {
-        if (!user.phone || user.phone !== norm.nationalNumber) {
-          await tx`update users set phone = ${norm.nationalNumber} where id = ${user.id}`;
-          user.phone = norm.nationalNumber;
-        }
+        await tx`update users set phone = ${norm.nationalNumber}, phone_verified = true where id = ${user.id}`;
+        user.phone = norm.nationalNumber;
+        user.phone_verified = true;
         await audit(user.id, 'auth.otp_verified', 'user', user.id);
       }
 
@@ -288,16 +297,32 @@ authRouter.post('/staff/lookup-code', strictLimit, async (req, res, next) => {
 
 authRouter.post('/staff/signup', strictLimit, async (req, res, next) => {
   try {
-    const { email, password, invite_code, dealer_code, code, full_name, first_name, last_name } = req.body || {};
+    const { email, password, invite_code, dealer_code, code, full_name, first_name, last_name, phone } = req.body || {};
     const cleanEmail = normalizeEmail(email);
     const inputCode = String(dealer_code || code || invite_code || '').trim();
     if (!cleanEmail || !password || String(password).length < 8 || !inputCode) throw httpError(400, 'Email, password (8+ chars) and Dealer Code are required');
     if (first_name && !isValidName(first_name)) throw httpError(400, 'First name should contain letters only (min 2 characters)');
     if (last_name && !isValidName(last_name)) throw httpError(400, 'Last name should contain letters only (min 2 characters)');
     const name = full_name || [first_name, last_name].filter(Boolean).join(' ') || null;
-    const duplicate = await sql`select id, role, status from users where lower(email) = ${cleanEmail}`;
+
+    let cleanPhone = null;
+    if (phone) {
+      const norm = normalizePhone(phone);
+      if (!norm.nationalNumber || !isValidPhone(norm.nationalNumber)) {
+        throw httpError(400, 'Valid 10-digit phone number is required');
+      }
+      cleanPhone = '+91' + norm.nationalNumber;
+    }
+
+    const duplicate = await sql`select id, role, status, phone from users where lower(email) = ${cleanEmail}`;
     const existing = duplicate[0];
     if (existing && !((existing.role === 'dealer_staff' && existing.status === 'pending') || existing.role === 'customer')) throw httpError(409, 'Email already registered');
+
+    if (cleanPhone) {
+      const phoneDup = await sql`select id from users where phone = ${cleanPhone} and (${existing?.id ? sql`id != ${existing.id}` : sql`true`}) limit 1`;
+      if (phoneDup.length) throw httpError(409, 'Phone number already registered to another account');
+    }
+
     const formatted = formatLoginCode(inputCode);
     const dealers = await sql`select id, staff_limit from dealers where (lower(dealer_code) = lower(${inputCode}) or lower(dealer_code) = lower(${formatted})) and status = 'approved' limit 1`;
     let dealerId, inviteId;
@@ -313,8 +338,8 @@ authRouter.post('/staff/signup', strictLimit, async (req, res, next) => {
       dealerId = invite.dealer_id; inviteId = invite.id;
     }
     let user;
-    if (existing) [user] = await sql`update users set password_hash = ${await hashPassword(String(password))}, full_name = ${name ? String(name).trim() : null}, role = 'dealer_staff', status = 'pending', dealer_id = ${dealerId}, email = ${cleanEmail} where id = ${existing.id} returning *`;
-    else [user] = await sql`insert into users (email, password_hash, full_name, role, status, dealer_id) values (${cleanEmail}, ${await hashPassword(String(password))}, ${name ? String(name).trim() : null}, 'dealer_staff', 'pending', ${dealerId}) returning *`;
+    if (existing) [user] = await sql`update users set password_hash = ${await hashPassword(String(password))}, full_name = ${name ? String(name).trim() : null}, role = 'dealer_staff', status = 'pending', dealer_id = ${dealerId}, email = ${cleanEmail}, phone = coalesce(${cleanPhone}, phone) where id = ${existing.id} returning *`;
+    else [user] = await sql`insert into users (email, phone, password_hash, full_name, role, status, dealer_id) values (${cleanEmail}, ${cleanPhone}, ${await hashPassword(String(password))}, ${name ? String(name).trim() : null}, 'dealer_staff', 'pending', ${dealerId}) returning *`;
     if (inviteId) await sql`update staff_invites set used_by = ${user.id}, used_at = now() where id = ${inviteId}`;
     await audit(user.id, 'staff.signed_up', 'dealer', dealerId);
     const owners = await sql`select owner_user_id from dealers where id = ${dealerId}`;
@@ -347,7 +372,11 @@ authRouter.post('/email/request-otp', jwtAuth, rateLimit({ windowMs: 10 * 60_000
     const existing = await sql`select id from users where lower(email) = ${email} and id != ${req.user.id} limit 1`;
     if (existing.length) throw httpError(409, 'This email address is already registered to another account');
     const code = generateOtp();
-    await sql`insert into otp_codes (user_id, identifier, code_hash, expires_at) values (${req.user.id}, ${email}, ${sha256(code)}, ${new Date(Date.now() + OTP_TTL_MINUTES * 60_000)})`;
+    const expiresAt = new Date(Date.now() + OTP_TTL_MINUTES * 60_000);
+    await sql.begin(async (tx) => {
+      await tx`delete from otp_codes where user_id = ${req.user.id} and identifier = ${email}`;
+      await tx`insert into otp_codes (user_id, identifier, code_hash, expires_at) values (${req.user.id}, ${email}, ${hashOtp(code, email)}, ${expiresAt})`;
+    });
     await sendEmailOtp({ email, code });
     res.json({ ok: true, email, expires_in_minutes: OTP_TTL_MINUTES, ...(process.env.ENABLE_DEV_OTP === 'true' ? { dev_code: code } : {}) });
   } catch (error) { next(error); }
@@ -355,16 +384,204 @@ authRouter.post('/email/request-otp', jwtAuth, rateLimit({ windowMs: 10 * 60_000
 
 authRouter.post('/email/verify-otp', jwtAuth, strictLimit, async (req, res, next) => {
   try {
-    const email = normalizeEmail(req.body?.email), code = String(req.body?.code || '').trim();
+    const email = normalizeEmail(req.body?.email || req.user.email);
+    const code = String(req.body?.code || '').trim();
     if (!email || !code) throw httpError(400, 'Valid email and 6-digit verification code are required');
-    const rows = await sql`select id, attempts, code_hash from otp_codes where (identifier = ${email} or user_id = ${req.user.id}) and expires_at > now() and attempts < ${OTP_MAX_ATTEMPTS} order by created_at desc limit 1`;
-    const otp = rows[0];
-    if (!otp || otp.code_hash !== sha256(code)) { if (otp) await sql`update otp_codes set attempts = attempts + 1 where id = ${otp.id}`; throw httpError(401, 'Invalid or expired verification code'); }
-    await sql`delete from otp_codes where id = ${otp.id}`;
-    await sql`update users set email = ${email}, email_verified = true where id = ${req.user.id}`;
-    const [user] = await sql`select * from users where id = ${req.user.id}`;
-    if (user?.zoho_contact_id && crm.isCrmConfigured()) try { await crm.crmFetch('/Contacts', { method: 'PUT', body: { data: [{ id: user.zoho_contact_id, Email: email }] } }); } catch (error) { log.warn('[auth:email] CRM sync skipped:', error.message); }
-    await audit(req.user.id, 'auth.email_verified', 'user', req.user.id);
-    res.json({ ok: true, email, email_verified: true, user: publicUser(user) });
+    if (!/^\d{6}$/.test(code)) throw httpError(400, 'A valid 6-digit verification code is required');
+
+    const duplicate = await sql`select id from users where lower(email) = ${email} and id != ${req.user.id} limit 1`;
+    if (duplicate.length) throw httpError(409, 'This email address is already registered to another account');
+
+    let updatedUser;
+
+    await sql.begin(async (tx) => {
+      const rows = await tx`
+        select id, attempts, code_hash
+        from otp_codes
+        where user_id = ${req.user.id}
+          and identifier = ${email}
+          and expires_at > now()
+        order by created_at desc
+        limit 1
+        for update`;
+      const otp = rows[0];
+      if (!otp) throw httpError(401, 'Invalid or expired verification code');
+
+      if (otp.attempts >= OTP_MAX_ATTEMPTS) {
+        await tx`delete from otp_codes where id = ${otp.id}`;
+        throw httpError(429, 'Too many failed verification attempts. Please request a new code.');
+      }
+
+      if (!verifyOtpHash(code, otp.code_hash, email)) {
+        const nextAttempts = otp.attempts + 1;
+        if (nextAttempts >= OTP_MAX_ATTEMPTS) {
+          await tx`delete from otp_codes where id = ${otp.id}`;
+          throw httpError(429, 'Too many failed verification attempts. Please request a new code.');
+        }
+        await tx`update otp_codes set attempts = ${nextAttempts} where id = ${otp.id}`;
+        const remaining = OTP_MAX_ATTEMPTS - nextAttempts;
+        throw httpError(401, `Invalid verification code. ${remaining} attempt${remaining === 1 ? '' : 's'} remaining.`);
+      }
+
+      await tx`delete from otp_codes where id = ${otp.id}`;
+      const [u] = await tx`update users set email = ${email}, email_verified = true where id = ${req.user.id} returning *`;
+      updatedUser = u;
+      await audit(req.user.id, 'auth.email_verified', 'user', req.user.id);
+    });
+
+    let crmSynced = false;
+    if (updatedUser?.zoho_contact_id && crm.isCrmConfigured()) {
+      try {
+        crmSynced = await crm.updateContactDetails(updatedUser.zoho_contact_id, { email });
+      } catch (error) {
+        log.warn('[auth:email] CRM sync error:', error.message);
+        crmSynced = false;
+      }
+    }
+
+    res.json({
+      ok: true,
+      email,
+      email_verified: true,
+      user: publicUser(updatedUser),
+      ...(updatedUser?.zoho_contact_id ? { crm_synced: crmSynced } : {}),
+    });
+  } catch (error) { next(error); }
+});
+
+/* POST /api/auth/phone/request-otp — authenticated request to add/verify phone */
+authRouter.post('/phone/request-otp', jwtAuth, rateLimit({ windowMs: 10 * 60_000, max: 6 }), async (req, res, next) => {
+  try {
+    const rawPhone = req.body?.phone || req.user.phone;
+    if (!rawPhone) throw httpError(400, 'Mobile phone number is required');
+    const norm = normalizePhone(rawPhone);
+    if (!isValidPhone(rawPhone) || !norm.nationalNumber) {
+      throw httpError(400, 'Please enter a valid 10-digit Indian mobile number');
+    }
+
+    const existing = await sql`
+      select id from users
+      where (phone = ${norm.nationalNumber} or phone = ${norm.e164} or phone like ${`%${norm.nationalNumber}`})
+        and id != ${req.user.id}
+      limit 1`;
+    if (existing.length) {
+      throw httpError(409, 'This phone number is already registered to another account');
+    }
+
+    const code = generateOtp();
+    const expiresAt = new Date(Date.now() + OTP_TTL_MINUTES * 60_000);
+
+    await sql.begin(async (tx) => {
+      await tx`delete from otp_codes where user_id = ${req.user.id} or identifier = ${norm.nationalNumber} or identifier = ${norm.e164}`;
+      await tx`insert into otp_codes (user_id, identifier, code_hash, expires_at)
+               values (${req.user.id}, ${norm.nationalNumber}, ${hashOtp(code, norm.nationalNumber)}, ${expiresAt})`;
+    });
+
+    try {
+      await sendWhatsAppOtp({ phone: norm.nationalNumber, code });
+      res.json({
+        ok: true,
+        phone: norm.nationalNumber,
+        destination: 'phone',
+        expires_in_minutes: OTP_TTL_MINUTES,
+        ...(process.env.ENABLE_DEV_OTP === 'true' ? { dev_code: code } : {}) || {},
+      });
+    } catch (sendError) {
+      await sql`delete from otp_codes where user_id = ${req.user.id} and identifier = ${norm.nationalNumber} and (code_hash = ${hashOtp(code, norm.nationalNumber)} or code_hash = ${sha256(code)})`.catch(() => {});
+      throw sendError;
+    }
+  } catch (error) { next(error); }
+});
+
+/* POST /api/auth/phone/verify-otp — authenticated verification of phone OTP */
+authRouter.post('/phone/verify-otp', jwtAuth, strictLimit, async (req, res, next) => {
+  try {
+    const rawPhone = req.body?.phone || req.user.phone;
+    const rawCode = req.body?.code;
+    if (!rawPhone) throw httpError(400, 'Mobile phone number is required');
+    const norm = normalizePhone(rawPhone);
+    if (!isValidPhone(rawPhone) || !norm.nationalNumber) {
+      throw httpError(400, 'Please enter a valid 10-digit Indian mobile number');
+    }
+
+    const cleanCode = String(rawCode || '').trim();
+    if (!cleanCode || !/^\d{6}$/.test(cleanCode)) {
+      throw httpError(400, 'A valid 6-digit verification code is required');
+    }
+
+    const existing = await sql`
+      select id from users
+      where (phone = ${norm.nationalNumber} or phone = ${norm.e164} or phone like ${`%${norm.nationalNumber}`})
+        and id != ${req.user.id}
+      limit 1`;
+    if (existing.length) {
+      throw httpError(409, 'This phone number is already registered to another account');
+    }
+
+    let updatedUser;
+
+    await sql.begin(async (tx) => {
+      const otpRows = await tx`
+        select id, attempts, code_hash, identifier
+        from otp_codes
+        where user_id = ${req.user.id}
+          and (identifier = ${norm.nationalNumber} or identifier = ${norm.e164})
+          and expires_at > now()
+        order by created_at desc
+        limit 1
+        for update`;
+
+      const otp = otpRows[0];
+      if (!otp) {
+        throw httpError(401, 'Invalid or expired verification code');
+      }
+
+      if (otp.attempts >= OTP_MAX_ATTEMPTS) {
+        await tx`delete from otp_codes where id = ${otp.id}`;
+        throw httpError(429, 'Too many failed verification attempts. Please request a new code.');
+      }
+
+      if (!verifyOtpHash(cleanCode, otp.code_hash, otp.identifier || norm.nationalNumber)) {
+        const nextAttempts = otp.attempts + 1;
+        if (nextAttempts >= OTP_MAX_ATTEMPTS) {
+          await tx`delete from otp_codes where id = ${otp.id}`;
+          throw httpError(429, 'Too many failed verification attempts. Please request a new code.');
+        }
+        await tx`update otp_codes set attempts = ${nextAttempts} where id = ${otp.id}`;
+        const remaining = OTP_MAX_ATTEMPTS - nextAttempts;
+        throw httpError(401, `Invalid verification code. ${remaining} attempt${remaining === 1 ? '' : 's'} remaining.`);
+      }
+
+      // Atomically consume OTP
+      await tx`delete from otp_codes where id = ${otp.id}`;
+
+      const [user] = await tx`
+        update users
+        set phone = ${norm.nationalNumber}, phone_verified = true
+        where id = ${req.user.id}
+        returning *`;
+      updatedUser = user;
+
+      await audit(req.user.id, 'auth.phone_verified', 'user', req.user.id);
+    });
+
+    // Zoho CRM sync if user already has a linked CRM contact
+    let crmSynced = false;
+    if (updatedUser?.zoho_contact_id && crm.isCrmConfigured()) {
+      try {
+        crmSynced = await crm.updateContactDetails(updatedUser.zoho_contact_id, { phone: norm.nationalNumber });
+      } catch (error) {
+        log.warn('[auth:phone] CRM sync error:', error.message);
+        crmSynced = false;
+      }
+    }
+
+    res.json({
+      ok: true,
+      phone: norm.nationalNumber,
+      phone_verified: true,
+      user: publicUser(updatedUser),
+      ...(updatedUser?.zoho_contact_id ? { crm_synced: crmSynced } : {}),
+    });
   } catch (error) { next(error); }
 });

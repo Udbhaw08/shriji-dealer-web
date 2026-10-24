@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Resizable windows and adaptive layouts** (7 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
-- **resizability.md** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
-- **Checking changes** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
-- **Choosing layouts** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
-- **Fold and camera geometry** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
-- **Presentations** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
-- **Safe areas** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
-- **Tab bars and toolbars** (1 connections) — `.agents/skills/swiftui-pro/references/resizability.md`
+- **Text fields** (5 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **text-fields.md** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/resizability.md`
+- `.agents/skills/apple-design/references/hig/text-fields.md`
 
 ## Audit Trail
 

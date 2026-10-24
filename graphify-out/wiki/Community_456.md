@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **esm-DBPBBrk1.js** (1 connections) — `ios/App/App/public/assets/esm-DBPBBrk1.js`
-- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-DBPBBrk1.js`
+- **Package.swift** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
+- **PackageDescription** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/esm-DBPBBrk1.js`
+- `ios/App/CapApp-SPM/Package.swift`
 
 ## Audit Trail
 

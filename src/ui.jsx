@@ -334,29 +334,44 @@ export function LangToggle({ className = "" }) {
 function AccountLink({ className = "" }) {
   const s = useSession();
   const dealer = isDealer(s) ? (dealerById(s.dealerId) || s.dealer) : null;
+  const isPending = s && (s.status === "pending" || s.dealer?.status === "pending");
+
+  if (isPending) {
+    return (
+      <Link className={`acct ${className}`.trim()} to="/dealer/pending" title="Dealership application under review · Click to check status">
+        <span className="acct-dot" style={{ background: "var(--amber-500, #f59e0b)", color: "#fff" }} aria-hidden="true">
+          ⏳
+        </span>
+        <span>
+          <b>{s.dealer?.business_name || s.dealer?.name || "Dealer App"}</b>
+          <span style={{ color: "#d97706", fontWeight: 700 }}>● Under Review</span>
+        </span>
+      </Link>
+    );
+  }
 
   if (dealer) {
     return (
-      <Link className={`acct ${className}`.trim()} to="/login" title="Active Dealer: ownershop (8826) · Click to switch">
+      <Link className={`acct ${className}`.trim()} to="/dealer" title={`Active Dealer: ${dealer.name} · Click to manage`}>
         <span className="acct-dot" aria-hidden="true">
           {dealer.name.slice(0, 1).toUpperCase()}
         </span>
         <span>
           <b>{dealer.name}</b>
-          <span style={{ color: "#16a34a", fontWeight: 700 }}>● Dealer (8826)</span>
+          <span style={{ color: "#16a34a", fontWeight: 700 }}>● Dealer ({dealer.dealer_code || "Active"})</span>
         </span>
       </Link>
     );
   }
 
   return (
-    <Link className={`acct ${className}`.trim()} to="/login" title="Customer View · Click to switch to Dealer">
+    <Link className={`acct ${className}`.trim()} to="/login" title="Account / Customer View · Click to manage or apply as dealer">
       <span className="acct-dot" style={{ background: "var(--tx-3, #64748b)" }} aria-hidden="true">
-        C
+        {s?.fullName ? s.fullName.slice(0, 1).toUpperCase() : "C"}
       </span>
       <span>
-        <b>Customer View</b>
-        <span style={{ color: "var(--tx-2, #475569)" }}>MRP · Switch</span>
+        <b>{s?.fullName || "Customer View"}</b>
+        <span style={{ color: "var(--tx-2, #475569)" }}>{s?.userId ? "Profile · Apply Dealer" : "MRP · Sign In"}</span>
       </span>
     </Link>
   );

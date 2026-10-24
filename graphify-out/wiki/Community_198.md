@@ -17,8 +17,8 @@
 
 ## Relationships
 
-- [[Zoho API Diagnostic Script]] (3 shared connections)
-- [[Community 120]] (3 shared connections)
+- [[Vercel Deployment Routing]] (3 shared connections)
+- [[Community 117]] (3 shared connections)
 
 ## Source Files
 

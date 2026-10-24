@@ -1,55 +1,56 @@
 # Product Pages Specification
 
-> 80 nodes · cohesion 0.04
+> 65 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **_()** (453 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **Me()** (7 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **request()** (7 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **_f()** (6 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **du()** (5 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **eh()** (5 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **th()** (5 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **unavailable()** (5 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **ye()** (5 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **be()** (4 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **De()** (4 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **ge()** (4 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **he()** (4 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **ke()** (4 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **Ne()** (4 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **oa()** (4 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **removeWindowListener()** (4 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **_u()** (4 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **Wt()** (4 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **zt()** (4 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **addListener()** (3 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **addWindowListener()** (3 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **ah()** (3 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **Dr()** (3 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **ea()** (3 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- *... and 55 more nodes in this community*
+- **get()** (26 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **ml()** (24 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **ra()** (20 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **ct()** (19 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **k()** (17 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **ha()** (16 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **Ii()** (16 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **A()** (14 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **dt()** (14 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **gt()** (13 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **F()** (12 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **ft()** (12 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **hi()** (12 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **delete()** (11 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **gl()** (11 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **l()** (11 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **mt()** (11 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **pi()** (11 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **P()** (10 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **pa()** (10 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **Te()** (10 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **Zi()** (10 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **Ce()** (9 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **hl()** (9 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **Pn()** (9 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- *... and 40 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (85 shared connections)
-- [[Design System & UI Tokens]] (65 shared connections)
-- [[Roles & Customer Sharing Spec]] (48 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (47 shared connections)
-- [[Graphify Agent Rules]] (43 shared connections)
-- [[Community 38]] (41 shared connections)
-- [[Community 42]] (39 shared connections)
-- [[Community 80]] (22 shared connections)
-- [[Community 88]] (21 shared connections)
+- [[Price Presentation & Product UI]] (86 shared connections)
+- [[Design System & UI Tokens]] (43 shared connections)
+- [[Roles & Customer Sharing Spec]] (28 shared connections)
+- [[Community 45]] (24 shared connections)
+- [[Live Pricing Audit Tool]] (20 shared connections)
+- [[Community 46]] (18 shared connections)
+- [[Community 80]] (11 shared connections)
+- [[Community 210]] (6 shared connections)
+- [[Community 53]] (5 shared connections)
+- [[Community 61]] (4 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-jHj_87_x.js`
+- `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
 
 ## Audit Trail
 
-- EXTRACTED: 658 (100%)
+- EXTRACTED: 563 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

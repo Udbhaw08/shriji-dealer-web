@@ -48,6 +48,9 @@ export async function applyDealer({ user, businessName, gstNumber, gstTreatment,
       userSource: 'ReStor Dealer',
       dealerCode,
     });
+    if (zohoAccountId) {
+      await sql`update dealers set zoho_account_id = ${zohoAccountId} where id = ${dealer.id}`;
+    }
     const contactId = await crm.createDealerContact({
       accountId: zohoAccountId,
       personName: combinedName,
@@ -58,9 +61,9 @@ export async function applyDealer({ user, businessName, gstNumber, gstTreatment,
       portalRole: 'Owner',
       userSource: 'ReStor Dealer',
       dealerCode,
+      backendUserId: user.id,
     });
     await crm.linkContactToBackendUser(contactId, user.id);
-    await sql`update dealers set zoho_account_id = ${zohoAccountId} where id = ${dealer.id}`;
     await sql`update users set zoho_contact_id = ${contactId} where id = ${user.id}`;
     ensureContactPricebookForCrmAccount(zohoAccountId).catch(() => {});
   } catch (err) {

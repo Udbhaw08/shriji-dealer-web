@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Managing accounts** (6 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **managing-accounts.md** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **Deleting accounts** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **TV provider accounts** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- **Loading** (6 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **loading.md** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **Showing progress** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- `.agents/skills/apple-design/references/hig/loading.md`
 
 ## Audit Trail
 

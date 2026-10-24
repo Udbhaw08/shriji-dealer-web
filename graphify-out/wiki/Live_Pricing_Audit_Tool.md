@@ -1,49 +1,55 @@
 # Live Pricing Audit Tool
 
-> 50 nodes · cohesion 0.07
+> 50 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **check-render-output.mjs** (57 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **parseAttrs()** (7 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectArrows()** (6 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **numberAttr()** (6 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectCompositionFrames()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectLegendBoxes()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **lineSegments()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectDesktopReadability()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectNonFiniteAttrs()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **pathSegments()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **straightPathSegments()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **textBox()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **projectedNodeTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **attrEntries()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectLegendCollisions()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectRelationshipLabelMasks()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **crossProduct()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **isCommand()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **pointsFromPath()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **properSegmentIntersection()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **segmentIntersectsBox()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **segmentsIntersect()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **stripTags()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectRelationshipCrossings()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **decodeNumericReferences()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **.addEventListener()** (19 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **b()** (18 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **h()** (14 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **fp()** (13 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **.removeEventListener()** (12 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **xn()** (12 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **en()** (11 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **ip()** (11 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **ep()** (10 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **fn()** (10 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **tp()** (9 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **cn()** (8 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **hn()** (8 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **cm()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **lp()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **tm()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **vn()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **dn()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **em()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **.blur()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **.scrollIntoView()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **v()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **g()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **on()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **pm()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
 - *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [[Client Products Data Store]] (6 shared connections)
-- [[Community 47]] (4 shared connections)
+- [[Price Presentation & Product UI]] (45 shared connections)
+- [[Design System & UI Tokens]] (22 shared connections)
+- [[Product Pages Specification]] (20 shared connections)
+- [[Community 45]] (13 shared connections)
+- [[Community 46]] (8 shared connections)
+- [[Community 53]] (6 shared connections)
+- [[Community 80]] (4 shared connections)
+- [[Roles & Customer Sharing Spec]] (2 shared connections)
+- [[Community 210]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- `.agents/skills/archify/scripts/check-render-output.mjs`
+- `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
 
 ## Audit Trail
 
-- EXTRACTED: 182 (100%)
+- EXTRACTED: 308 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

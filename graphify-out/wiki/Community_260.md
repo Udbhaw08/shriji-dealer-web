@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Progress indicators** (4 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
-- **Mobile (iOS, iPadOS)** (2 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
-- **progress-indicators.md** (1 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
-- **Refresh content controls** (1 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
+- **Onboarding** (7 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **onboarding.md** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Additional content** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Additional requests** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/progress-indicators.md`
+- `.agents/skills/apple-design/references/hig/onboarding.md`
 
 ## Audit Trail
 

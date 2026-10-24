@@ -1,62 +1,52 @@
 # Community 47
 
-> 31 nodes · cohesion 0.12
+> 32 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **visual-check.mjs** (50 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **runVisualCheck()** (18 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **desktop-readability.mjs** (9 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **adaptive-reader-layout.test.mjs** (9 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **desktop-reader-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
-- **DESKTOP_READABILITY_VIEWPORT** (5 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **observationDiagnostics()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **safeUnlink()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **writeAtomic()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **baseReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **cleanupCaptureSidecars()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **contactSheetHtml()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **failureDiagnostic()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **persistReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **sha256()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **sidecarPaths()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **htmlEscape()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **observation()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **screenshotKey()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **viewportSubject()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **CAPTURE_VIEWPORTS** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **EXIT** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **THEMES** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **reader** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- *... and 6 more nodes in this community*
+- **zoho.js** (60 connections) — `api/zoho.js`
+- **syncRecentProductTags()** (7 connections) — `api/zoho.js`
+- **normalizeProduct()** (6 connections) — `api/zoho.js`
+- **readTagCache()** (6 connections) — `api/zoho.js`
+- **updateCachedProductTags()** (4 connections) — `api/zoho.js`
+- **sync-tags.js** (4 connections) — `api/products/sync-tags.js`
+- **getCachedProductTags()** (3 connections) — `api/zoho.js`
+- **isItemOnline()** (3 connections) — `api/zoho.js`
+- **readProductDetailsDiskCache()** (3 connections) — `api/zoho.js`
+- **writeProductDetailDiskCache()** (3 connections) — `api/zoho.js`
+- **handler()** (3 connections) — `api/products/sync-tags.js`
+- **isItemCategoryOnline()** (2 connections) — `api/zoho.js`
+- **parseRate()** (2 connections) — `api/zoho.js`
+- **slugifyCategory()** (2 connections) — `api/zoho.js`
+- **slugifyProduct()** (2 connections) — `api/zoho.js`
+- **writeProductsDiskCache()** (2 connections) — `api/zoho.js`
+- **writeTagCache()** (2 connections) — `api/zoho.js`
+- **cachedPricebooks** (1 connections) — `api/zoho.js`
+- **cachedProductDetails** (1 connections) — `api/zoho.js`
+- **cachedProductsByPricebook** (1 connections) — `api/zoho.js`
+- **isBannerItem()** (1 connections) — `api/zoho.js`
+- **isLogoItem()** (1 connections) — `api/zoho.js`
+- **isSchemeItem()** (1 connections) — `api/zoho.js`
+- **localCacheFile** (1 connections) — `api/zoho.js`
+- **localDetailCacheFile** (1 connections) — `api/zoho.js`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [[Community 85]] (8 shared connections)
-- [[Community 129]] (6 shared connections)
-- [[Community 53]] (5 shared connections)
-- [[Live Pricing Audit Tool]] (4 shared connections)
-- [[Community 63]] (3 shared connections)
-- [[Zoho Integration Architecture]] (3 shared connections)
-- [[Community 142]] (2 shared connections)
-- [[Community 93]] (2 shared connections)
-- [[Community 106]] (2 shared connections)
-- [[Community 147]] (1 shared connections)
-- [[Community 148]] (1 shared connections)
-- [[Community 127]] (1 shared connections)
+- [[Community 77]] (26 shared connections)
+- [[Community 248]] (6 shared connections)
+- [[Community 164]] (6 shared connections)
+- [[Community 144]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- `api/products/sync-tags.js`
+- `api/zoho.js`
 
 ## Audit Trail
 
-- EXTRACTED: 150 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 129 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

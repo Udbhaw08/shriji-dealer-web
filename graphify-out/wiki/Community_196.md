@@ -17,8 +17,8 @@
 
 ## Relationships
 
-- [[Oxlint Linter Configuration]] (3 shared connections)
-- [[Community 119]] (3 shared connections)
+- [[Zoho API Diagnostic Script]] (3 shared connections)
+- [[Community 116]] (3 shared connections)
 
 ## Source Files
 

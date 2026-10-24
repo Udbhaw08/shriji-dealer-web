@@ -21,9 +21,11 @@ export default function EmailVerificationPrompt() {
   const [success, setSuccess] = useState(false);
   const [devCode, setDevCode] = useState("");
 
-  // Only show for logged in users whose email is not yet verified
+  // Only show for logged in users whose email is not yet verified.
+  // On dealer onboarding routes, do not allow dismissal to bypass verification requirements.
+  const isOnDealerRoute = typeof window !== "undefined" && window.location.pathname.startsWith("/dealer");
   const isLoggedIn = Boolean(session.userId || (session.role && session.role !== "guest"));
-  if (!isLoggedIn || session.email_verified || dismissed) {
+  if (!isLoggedIn || session.email_verified || (dismissed && !isOnDealerRoute)) {
     return null;
   }
 

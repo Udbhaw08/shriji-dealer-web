@@ -1,72 +1,72 @@
 # Product Brand & Business Vision
 
-> 50 nodes · cohesion 0.11
+> 51 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **main.jsx** (44 connections) — `src/main.jsx`
-- **ui.jsx** (42 connections) — `src/ui.jsx`
-- **useSession()** (30 connections) — `src/data/session.js`
+- **main.jsx** (50 connections) — `src/main.jsx`
+- **ui.jsx** (43 connections) — `src/ui.jsx`
 - **Home.jsx** (26 connections) — `src/pages/Home.jsx`
 - **site.js** (24 connections) — `src/data/site.js`
-- **isDealer()** (18 connections) — `src/data/dealer.js`
+- **Icon()** (19 connections) — `src/ui.jsx`
 - **Schemes.jsx** (17 connections) — `src/pages/Schemes.jsx`
-- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
 - **COMPANY** (16 connections) — `src/data/site.js`
 - **Support.jsx** (16 connections) — `src/pages/Support.jsx`
-- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
-- **dealerById()** (12 connections) — `src/data/dealer.js`
-- **EmailVerificationPrompt.jsx** (10 connections) — `src/components/EmailVerificationPrompt.jsx`
-- **Header()** (9 connections) — `src/ui.jsx`
-- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
+- **ContentAdminDashboard.jsx** (12 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **HeroSlider.jsx** (11 connections) — `src/components/HeroSlider.jsx`
 - **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
-- **portalGate.js** (8 connections) — `src/data/portalGate.js`
-- **Home()** (8 connections) — `src/pages/Home.jsx`
-- **Login()** (7 connections) — `src/pages/Login.jsx`
-- **Schemes()** (6 connections) — `src/pages/Schemes.jsx`
-- **AccountLink()** (6 connections) — `src/ui.jsx`
-- **Footer()** (6 connections) — `src/ui.jsx`
+- **UnderMaintenance()** (5 connections) — `src/components/UnderMaintenance.jsx`
 - **LegalPrivacy.jsx** (5 connections) — `src/pages/LegalPrivacy.jsx`
 - **LegalTerms.jsx** (5 connections) — `src/pages/LegalTerms.jsx`
 - **PrivacyPolicy.jsx** (5 connections) — `src/pages/PrivacyPolicy.jsx`
-- *... and 25 more nodes in this community*
+- **TermsOfService.jsx** (5 connections) — `src/pages/TermsOfService.jsx`
+- **video.js** (5 connections) — `src/utils/video.js`
+- **FileOrUrlInput.jsx** (4 connections) — `src/components/FileOrUrlInput.jsx`
+- **EnquiryButtons()** (4 connections) — `src/ui.jsx`
+- **parseVideoUrl()** (4 connections) — `src/utils/video.js`
+- **EmailVerificationPrompt()** (3 connections) — `src/components/EmailVerificationPrompt.jsx`
+- **HeroSlider()** (3 connections) — `src/components/HeroSlider.jsx`
+- **SCHEMES** (3 connections) — `src/data/site.js`
+- **STATS** (3 connections) — `src/data/site.js`
+- **video-banner.test.mjs** (3 connections) — `src/data/video-banner.test.mjs`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [[Project Readme & Layout]] (74 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (29 shared connections)
-- [[Community 108]] (17 shared connections)
-- [[Community 76]] (13 shared connections)
-- [[Community 40]] (7 shared connections)
-- [[Community 167]] (2 shared connections)
-- [[Community 389]] (1 shared connections)
+- [[Master Codebase Architecture Reference]] (73 shared connections)
+- [[Community 32]] (18 shared connections)
+- [[Pricing Regression Test Suite]] (17 shared connections)
+- [[Community 183]] (5 shared connections)
+- [[Community 212]] (4 shared connections)
+- [[Community 391]] (1 shared connections)
+- [[Community 166]] (1 shared connections)
 
 ## Source Files
 
 - `src/components/EmailVerificationPrompt.jsx`
-- `src/components/MobileBottomNav.jsx`
+- `src/components/FileOrUrlInput.jsx`
+- `src/components/HeroSlider.jsx`
 - `src/components/NativeBackHandler.jsx`
 - `src/components/UnderMaintenance.jsx`
-- `src/data/dealer.js`
-- `src/data/portalGate.js`
-- `src/data/session.js`
 - `src/data/site.js`
+- `src/data/video-banner.test.mjs`
 - `src/main.jsx`
+- `src/pages/ContentAdminDashboard.jsx`
 - `src/pages/DealerDashboard.jsx`
 - `src/pages/Home.jsx`
 - `src/pages/LegalPrivacy.jsx`
 - `src/pages/LegalTerms.jsx`
-- `src/pages/Login.jsx`
 - `src/pages/PrivacyPolicy.jsx`
 - `src/pages/Schemes.jsx`
 - `src/pages/Support.jsx`
 - `src/pages/TermsOfService.jsx`
 - `src/ui.jsx`
+- `src/utils/video.js`
 
 ## Audit Trail
 
-- EXTRACTED: 423 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 340 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,58 +1,55 @@
 # Community 45
 
-> 31 nodes · cohesion 0.11
+> 32 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **render-dataflow.mjs** (78 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **anchor()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **automaticPortSpread()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **chosenSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **defaultFromSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **defaultToSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **pathFor()** (8 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **pathFor()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **polylinePath()** (8 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **roundedPath()** (7 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **connectionSides()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **arrowClassMap** (6 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **flowSides()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **stageX()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **transitionSides()** (5 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **componentFill** (5 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **componentText** (4 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **connectionEndpointSide()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **measureNode()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **routeVia()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **stageFrame()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **routeVia()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **automaticPorts** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **compositionFrames** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- *... and 6 more nodes in this community*
+- **np()** (21 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **bm()** (13 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **Oi()** (12 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **qc()** (11 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **am()** (10 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **Ai()** (9 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **mi()** (9 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **mm()** (9 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **om()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **zm()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **ia()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **kt()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **Fi()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **ki()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **km()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **M()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **Ni()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **qm()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **sm()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **hu()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **Ld()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **nn()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **pl()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **po()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **sn()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [[Community 46]] (28 shared connections)
-- [[Client Products Data Store]] (24 shared connections)
-- [[Community 30]] (18 shared connections)
-- [[Community 34]] (18 shared connections)
-- [[Zoho Integration Architecture]] (15 shared connections)
-- [[Community 83]] (9 shared connections)
-- [[Product Requirements Documentation]] (5 shared connections)
-- [[Community 107]] (3 shared connections)
-- [[Zoho Integration Skill]] (1 shared connections)
+- [[Price Presentation & Product UI]] (33 shared connections)
+- [[Product Pages Specification]] (24 shared connections)
+- [[Design System & UI Tokens]] (19 shared connections)
+- [[Live Pricing Audit Tool]] (13 shared connections)
+- [[Roles & Customer Sharing Spec]] (8 shared connections)
+- [[Community 46]] (6 shared connections)
+- [[Community 53]] (3 shared connections)
+- [[Community 80]] (1 shared connections)
+- [[Community 210]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
+- `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
 
 ## Audit Trail
 
-- EXTRACTED: 219 (100%)
+- EXTRACTED: 198 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

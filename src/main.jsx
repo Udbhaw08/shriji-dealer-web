@@ -13,6 +13,9 @@ import Schemes from "./pages/Schemes";
 import Support from "./pages/Support";
 import Login from "./pages/Login";
 import DealerDashboard from "./pages/DealerDashboard";
+import DealerApply from "./pages/DealerApply";
+import StaffJoin from "./pages/StaffJoin";
+import DealerPending from "./pages/DealerPending";
 import ContentAdminDashboard from "./pages/ContentAdminDashboard";
 import LegalPrivacy from "./pages/LegalPrivacy";
 import LegalTerms from "./pages/LegalTerms";
@@ -136,6 +139,10 @@ createRoot(document.getElementById("root")).render(
             <Route path="/terms-of-service" element={<LegalTerms />} />
             <Route path="/data-deletion" element={<LegalPrivacy />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/dealer/apply" element={<DealerApply />} />
+            <Route path="/dealer/join" element={<StaffJoin />} />
+            <Route path="/join" element={<StaffJoin />} />
+            <Route path="/dealer/pending" element={<DealerPending />} />
             <Route
               path="/dealer"
               element={

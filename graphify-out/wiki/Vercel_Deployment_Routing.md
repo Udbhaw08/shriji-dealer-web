@@ -1,54 +1,55 @@
 # Vercel Deployment Routing
 
-> 40 nodes · cohesion 0.12
+> 42 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **Q()** (24 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **Ou()** (19 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **fu()** (14 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **pu()** (14 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **yl()** (12 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **gi()** (11 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **mi()** (11 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **bl()** (9 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **mu()** (9 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **xu()** (9 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **zu()** (9 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **jl()** (8 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **ku()** (8 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **eu()** (7 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **Md()** (7 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **tu()** (7 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **wl()** (7 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **xl()** (7 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **yo()** (7 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **bu()** (6 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **kl()** (6 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **gm()** (5 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **hu()** (5 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **ju()** (5 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **ql()** (5 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- *... and 15 more nodes in this community*
+- **properties** (30 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **col** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **height** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **brand** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **channelX** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **channelY** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **from** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **labelDx** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **labelDy** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **lane** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **note** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **route** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **sublabel** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **tag** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **to** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **toSide** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **variant** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **yOffset** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **maximum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [[Dependencies & Package Config]] (43 shared connections)
-- [[Price Presentation & Product UI]] (25 shared connections)
-- [[Architecture Doc Generator]] (9 shared connections)
-- [[Community 78]] (5 shared connections)
-- [[Community 39]] (5 shared connections)
-- [[Community 84]] (4 shared connections)
-- [[Claude Agent Instructions]] (3 shared connections)
-- [[Master Codebase Architecture Reference]] (2 shared connections)
+- [[Community 198]] (3 shared connections)
+- [[Community 443]] (1 shared connections)
+- [[Community 465]] (1 shared connections)
+- [[Community 444]] (1 shared connections)
+- [[Community 466]] (1 shared connections)
+- [[Community 445]] (1 shared connections)
+- [[Community 467]] (1 shared connections)
+- [[Community 411]] (1 shared connections)
+- [[Community 412]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 280 (100%)
+- EXTRACTED: 93 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

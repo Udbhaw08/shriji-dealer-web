@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Collections** (4 connections) — `.agents/skills/apple-design/references/hig/collections.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/collections.md`
-- **collections.md** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/collections.md`
+- **Collaboration and sharing** (5 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
+- **collaboration-and-sharing.md** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/collections.md`
+- `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
 
 ## Audit Trail
 

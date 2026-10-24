@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Loading** (6 connections) — `.agents/skills/apple-design/references/hig/loading.md`
-- **loading.md** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
-- **Showing progress** (1 connections) — `.agents/skills/apple-design/references/hig/loading.md`
+- **Live-viewing apps** (6 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- **live-viewing-apps.md** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- **Cloud DVR** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- **EPG experience** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/loading.md`
+- `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
 
 ## Audit Trail
 

@@ -1,17 +1,18 @@
 # Community 247
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Controls** (7 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Camera experiences on a locked device** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **vertical-edge.test.mjs** (8 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **bin** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **edgePath()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **REPRO** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **segments()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
 
 ## Relationships
 
@@ -19,11 +20,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/controls.md`
+- `.agents/skills/archify/test/vertical-edge.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

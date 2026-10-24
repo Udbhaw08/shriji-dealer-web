@@ -149,6 +149,7 @@ export async function createDealerContact({
   dealerCode,
   userSource = 'ReStor Dealer',
   reportingToContactId,
+  backendUserId,
 }) {
   const norm = normalizePhone(phone);
   const defaultLast = portalRole === 'Staff' ? 'Dealer Staff' : 'Dealer Owner';
@@ -166,6 +167,7 @@ export async function createDealerContact({
     ...(dealerCode ? { [FIELDS.account.dealerCode()]: dealerCode } : {}),
     ...(userSource ? { [FIELDS.contact.userSource()]: userSource } : {}),
     ...(reportingToContactId ? { Reporting_To: { id: reportingToContactId } } : {}),
+    ...(backendUserId ? { [FIELDS.contact.backendUserId()]: String(backendUserId) } : {}),
   };
   const data = await crmFetch('/Contacts', {
     method: 'POST',
@@ -260,6 +262,78 @@ export async function getPrimaryContactForAccount(zohoAccountId) {
 }
 
 /**
+ * Safely find an existing Owner Contact under a specific known CRM Account.
+ * Used for idempotent recovery when Account creation succeeded but Contact linkage was interrupted.
+ *
+ * Rules:
+ * 1. Scope search ONLY within the specified zohoAccountId.
+ * 2. Match primarily by backendUserId.
+ * 3. Fallback: match if exactly one contact has Owner role and matching email/phone.
+ * 4. Never attach an arbitrary contact if multiple or ambiguous contacts exist.
+ */
+export async function findOwnerContactInAccount(zohoAccountId, { backendUserId, email, phone } = {}) {
+  if (!zohoAccountId || !crmConfigured()) return null;
+  try {
+    const res = await crmFetch(`/Contacts/search?criteria=(Account_Name:equals:${zohoAccountId})`);
+    const contacts = res?.data || [];
+    if (!contacts.length) return null;
+
+    // 1. Primary match: Backend_User_ID
+    if (backendUserId) {
+      const byUserId = contacts.find((c) => {
+        const cUserId = c[FIELDS.contact.backendUserId()] || c.Backend_User_ID;
+        return cUserId && String(cUserId) === String(backendUserId);
+      });
+      if (byUserId) {
+        return {
+          zohoContactId: byUserId.id,
+          matchedBy: 'backend_user_id',
+          contact: byUserId,
+        };
+      }
+    }
+
+    // 2. Secondary match: Owner role with matching email or phone
+    const norm = phone ? normalizePhone(phone) : null;
+    const cleanEmail = email ? normalizeEmail(email) : null;
+
+    const ownerCandidates = contacts.filter((c) => {
+      const role = c[FIELDS.contact.portalRole()] || c.Portal_Role;
+      const isOwnerRole = role === 'Owner' || !c.Reporting_To;
+      if (!isOwnerRole) return false;
+
+      const emailMatches = cleanEmail && normalizeEmail(c.Email) === cleanEmail;
+      const phoneMatches = norm?.nationalNumber && (
+        c.Phone === norm.nationalNumber ||
+        c.Mobile === norm.nationalNumber ||
+        String(c.Phone).endsWith(norm.nationalNumber) ||
+        String(c.Mobile).endsWith(norm.nationalNumber)
+      );
+
+      return emailMatches || phoneMatches;
+    });
+
+    if (ownerCandidates.length === 1) {
+      return {
+        zohoContactId: ownerCandidates[0].id,
+        matchedBy: 'owner_identity',
+        contact: ownerCandidates[0],
+      };
+    }
+
+    if (ownerCandidates.length > 1) {
+      log.warn(`[crm] Multiple potential owner contacts found under account ${zohoAccountId}`);
+      return { ambiguous: true };
+    }
+
+    return null;
+  } catch (err) {
+    log.warn(`[crm] findOwnerContactInAccount failed for account ${zohoAccountId}:`, err.message);
+    return null;
+  }
+}
+
+/**
  * Update the Store Code (api name: Dealer_Code) on both the Account
  * and its associated Contacts in Zoho CRM.
  */
@@ -339,6 +413,28 @@ export async function deactivateContactInCrm(contactId, role = 'Inactive') {
     return true;
   } catch (err) {
     log.warn(`[crm] Failed to deactivate Contact ${contactId}: ${err.message}`);
+    return false;
+  }
+}
+
+/** Update verified contact details (phone, email) on an existing CRM Contact. */
+export async function updateContactDetails(contactId, { phone, email } = {}) {
+  if (!contactId || !crmConfigured()) return false;
+  const norm = phone ? normalizePhone(phone) : null;
+  const updatePayload = {
+    id: String(contactId),
+    ...(norm?.nationalNumber ? { Phone: norm.nationalNumber, Mobile: norm.nationalNumber } : {}),
+    ...(email ? { Email: normalizeEmail(email) } : {}),
+  };
+  try {
+    await crmFetch('/Contacts', {
+      method: 'PUT',
+      body: { data: [updatePayload] },
+    });
+    log.info(`[crm] Successfully updated Contact ${contactId} details`);
+    return true;
+  } catch (err) {
+    log.warn(`[crm] Failed to update Contact ${contactId} details: ${err.message}`);
     return false;
   }
 }

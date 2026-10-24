@@ -18,8 +18,8 @@
 ## Relationships
 
 - [[Product Requirements Documentation]] (3 shared connections)
-- [[Community 62]] (2 shared connections)
-- [[Community 105]] (2 shared connections)
+- [[Community 73]] (2 shared connections)
+- [[Community 103]] (2 shared connections)
 
 ## Source Files
 

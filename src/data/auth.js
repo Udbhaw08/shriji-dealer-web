@@ -240,12 +240,11 @@ export async function lookupStaffCode(code) {
   return data;
 }
 
-export async function staffSignup({ email, password, dealer_code, invite_code, full_name }) {
-  const res = await callBackend("/api/auth/staff/signup", json({
-    email, password, dealer_code, invite_code, full_name,
-  }));
-  const data = await res.json();
-  if (!res.ok) throw new Error(data.error || "Staff signup failed");
+export async function staffSignup({ email, password, dealer_code, invite_code, full_name, phone }) {
+  const data = await applyAuthResponse(await callBackend("/api/auth/staff/signup", json({
+    email, password, dealer_code, invite_code, full_name, phone,
+  })));
+  broadcastAuthChange("STAFF_SIGNUP");
   return data;
 }
 
@@ -261,6 +260,21 @@ export async function verifyEmailOtp(email, code) {
   const data = await res.json();
   if (!res.ok) throw new Error(data.error || "Could not verify email OTP");
   broadcastAuthChange("EMAIL_VERIFIED");
+  return data;
+}
+
+export async function requestPhoneOtp(phone) {
+  const res = await callBackend("/api/auth/phone/request-otp", json({ phone }));
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.error || "Could not send verification OTP to phone");
+  return data;
+}
+
+export async function verifyPhoneOtp(phone, code) {
+  const res = await callBackend("/api/auth/phone/verify-otp", json({ phone, code }));
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.error || "Could not verify phone OTP");
+  broadcastAuthChange("PHONE_VERIFIED");
   return data;
 }
 
@@ -430,6 +444,9 @@ export function sessionFromAuth(user, dealer) {
       : null,
     email: user.email || null,
     email_verified: Boolean(user.email_verified),
+    phone: user.phone || null,
+    phone_verified: Boolean(user.phone_verified),
+    is_fully_onboarded: Boolean(user.is_fully_onboarded),
     fullName: user.full_name || null,
     userId: user.id,
     authRole: user.role, // customer | dealer | dealer_staff — the backend's real role

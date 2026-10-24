@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Playing video** (6 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Integrating with the TV app** (3 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **playing-video.md** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Exiting playback** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Loading content** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Multitasking** (5 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Platform considerations** (4 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **multitasking.md** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/playing-video.md`
+- `.agents/skills/apple-design/references/hig/multitasking.md`
 
 ## Audit Trail
 

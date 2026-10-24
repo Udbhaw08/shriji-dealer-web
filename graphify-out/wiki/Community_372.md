@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Image wells** (4 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
-- **image-wells.md** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
+- **iCloud** (4 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
+- **icloud.md** (1 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/image-wells.md`
+- `.agents/skills/apple-design/references/hig/icloud.md`
 
 ## Audit Trail
 

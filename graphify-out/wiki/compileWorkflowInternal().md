@@ -2,7 +2,7 @@
 
 > God node · 67 connections · `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
 
-**Community:** [[Community 46]]
+**Community:** [[Dependencies & Package Config]]
 
 ## Connections by Relation
 

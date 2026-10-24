@@ -1,55 +1,57 @@
 # Claude Agent Instructions
 
-> 42 nodes · cohesion 0.08
+> 44 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **n()** (30 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **t()** (25 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **rs()** (14 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **ks()** (8 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **P()** (8 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **ds()** (7 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **fs()** (7 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **us()** (7 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **bs()** (6 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **cc()** (6 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **gs()** (6 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **js()** (6 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **os()** (6 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **xs()** (6 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **ee()** (5 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **ie()** (5 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **is()** (5 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **j()** (5 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **ns()** (5 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **te()** (5 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **vs()** (5 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **x()** (5 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **Zo()** (5 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **as()** (4 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **hs()** (4 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- *... and 17 more nodes in this community*
+- **auth.js** (51 connections) — `backend/src/routes/auth.js`
+- **crmClient.js** (33 connections) — `backend/src/services/crmClient.js`
+- **notifications.js** (15 connections) — `backend/src/services/notifications.js`
+- **normalizePhone()** (15 connections) — `backend/src/utils/phone.js`
+- **validators.js** (15 connections) — `backend/src/utils/validators.js`
+- **normalizeEmail()** (14 connections) — `backend/src/utils/validators.js`
+- **crmFetch()** (13 connections) — `backend/src/services/crmClient.js`
+- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
+- **isValidPhone()** (8 connections) — `backend/src/utils/validators.js`
+- **crmConfigured()** (7 connections) — `backend/src/services/crmClient.js`
+- **phone.js** (7 connections) — `backend/src/utils/phone.js`
+- **cleanName()** (7 connections) — `backend/src/utils/validators.js`
+- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
+- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
+- **createDealerContact()** (5 connections) — `backend/src/services/crmClient.js`
+- **updateContactDetails()** (5 connections) — `backend/src/services/crmClient.js`
+- **updateDealerCodeInCrm()** (5 connections) — `backend/src/services/crmClient.js`
+- **sendWhatsAppOtp()** (5 connections) — `backend/src/services/notifications.js`
+- **isUserFullyOnboarded()** (4 connections) — `backend/src/routes/auth.js`
+- **resolveUserWithDealer()** (4 connections) — `backend/src/routes/auth.js`
+- **resolveContactNames()** (4 connections) — `backend/src/services/crmClient.js`
+- **isValidEmail()** (4 connections) — `backend/src/utils/validators.js`
+- **isValidName()** (4 connections) — `backend/src/utils/validators.js`
+- **emailOnlyIdentifier()** (3 connections) — `backend/src/routes/auth.js`
+- **findUserByEmail()** (3 connections) — `backend/src/routes/auth.js`
+- *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [[Dependencies & Package Config]] (47 shared connections)
-- [[Price Presentation & Product UI]] (26 shared connections)
-- [[Master Codebase Architecture Reference]] (15 shared connections)
-- [[Architecture Doc Generator]] (12 shared connections)
-- [[Community 37]] (5 shared connections)
-- [[Community 78]] (3 shared connections)
-- [[Community 84]] (3 shared connections)
-- [[Community 39]] (3 shared connections)
-- [[Vercel Deployment Routing]] (3 shared connections)
+- [[Community 37]] (27 shared connections)
+- [[Community 54]] (15 shared connections)
+- [[Community 39]] (10 shared connections)
+- [[Oxlint Linter Configuration]] (8 shared connections)
+- [[Community 136]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- `backend/src/routes/auth.js`
+- `backend/src/services/crmClient.js`
+- `backend/src/services/notifications.js`
+- `backend/src/utils/phone.js`
+- `backend/src/utils/validators.js`
+- `backend/test/interconnection.test.mjs`
+- `backend/test/validators.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 249 (100%)
+- EXTRACTED: 294 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

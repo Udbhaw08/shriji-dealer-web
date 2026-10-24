@@ -1,55 +1,56 @@
 # Price Presentation & Product UI
 
-> 82 nodes · cohesion 0.06
+> 89 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **i()** (66 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **D()** (25 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **get()** (23 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **np()** (21 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **.addEventListener()** (19 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **b()** (18 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **bm()** (13 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **fp()** (13 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **h()** (13 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **tn()** (13 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **.removeEventListener()** (12 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **lm()** (12 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **r()** (12 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **delete()** (11 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **ep()** (11 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **fn()** (11 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **g()** (11 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **ip()** (11 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **sn()** (11 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **tp()** (10 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **am()** (9 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **pn()** (9 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **gn()** (8 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **mm()** (8 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- **lp()** (7 connections) — `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
-- *... and 57 more nodes in this community*
+- **_()** (451 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **tf()** (11 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **ef()** (8 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **it()** (8 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **lf()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **Mp()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **request()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **uf()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **Xt()** (7 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **Me()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **of()** (6 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **eh()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **ht()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **je()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **Pd()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **rt()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **sf()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **Ta()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **unavailable()** (5 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **jf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **ka()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **Oe()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **qa()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- **removeWindowListener()** (4 connections) — `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
+- *... and 64 more nodes in this community*
 
 ## Relationships
 
-- [[Dependencies & Package Config]] (85 shared connections)
-- [[Master Codebase Architecture Reference]] (30 shared connections)
-- [[Claude Agent Instructions]] (26 shared connections)
-- [[Vercel Deployment Routing]] (25 shared connections)
-- [[Architecture Doc Generator]] (24 shared connections)
-- [[Community 84]] (12 shared connections)
-- [[Community 37]] (11 shared connections)
-- [[Community 39]] (10 shared connections)
-- [[Community 78]] (10 shared connections)
+- [[Product Pages Specification]] (86 shared connections)
+- [[Design System & UI Tokens]] (68 shared connections)
+- [[Roles & Customer Sharing Spec]] (57 shared connections)
+- [[Live Pricing Audit Tool]] (45 shared connections)
+- [[Community 46]] (38 shared connections)
+- [[Community 53]] (34 shared connections)
+- [[Community 45]] (33 shared connections)
+- [[Community 61]] (27 shared connections)
+- [[Community 80]] (25 shared connections)
+- [[Community 210]] (9 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-jHj_87_x.js`
+- `android/app/src/main/assets/public/assets/index-CLMClDFk.js`
 
 ## Audit Trail
 
-- EXTRACTED: 621 (100%)
+- EXTRACTED: 715 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

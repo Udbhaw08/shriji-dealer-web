@@ -1,59 +1,54 @@
 # Pricing Hierarchy & Zero-Leakage Spec
 
-> 46 nodes · cohesion 0.09
+> 49 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **session.js** (47 connections) — `src/data/session.js`
-- **Login.jsx** (41 connections) — `src/pages/Login.jsx`
-- **productsStore.js** (23 connections) — `src/data/productsStore.js`
-- **apiFetch()** (17 connections) — `src/data/api.js`
-- **api.js** (11 connections) — `src/data/api.js`
-- **setSession()** (10 connections) — `src/data/session.js`
-- **apiUrl()** (9 connections) — `src/data/api.js`
-- **revalidateSession()** (9 connections) — `src/data/session.js`
-- **registerDealer()** (7 connections) — `src/data/dealer.js`
-- **syncPricebookWithSession()** (7 connections) — `src/data/productsStore.js`
-- **validators.js** (7 connections) — `src/data/validators.js`
-- **fetchLiveProducts()** (6 connections) — `src/data/productsStore.js`
-- **products.js** (5 connections) — `src/data/products.js`
-- **switchToDealerSession()** (5 connections) — `src/data/session.js`
-- **hasSession()** (4 connections) — `src/data/auth.js`
-- **loadCached()** (4 connections) — `src/data/productsStore.js`
-- **signOut()** (4 connections) — `src/data/session.js`
-- **switchToViewerSession()** (4 connections) — `src/data/session.js`
-- **sessionFromAuth()** (3 connections) — `src/data/auth.js`
-- **emit()** (3 connections) — `src/data/productsStore.js`
-- **syncTagsLive()** (3 connections) — `src/data/productsStore.js`
-- **loadCachedSession()** (3 connections) — `src/data/session.js`
-- **isValidEmail()** (3 connections) — `src/data/validators.js`
-- **onAuthBroadcast()** (2 connections) — `src/data/auth.js`
-- **CATEGORIES** (2 connections) — `src/data/products.js`
-- *... and 21 more nodes in this community*
+- **.addEventListener()** (19 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
+- **b()** (18 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
+- **h()** (14 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
+- **fp()** (13 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
+- **.removeEventListener()** (12 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
+- **xn()** (12 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
+- **delete()** (11 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
+- **en()** (11 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
+- **ip()** (11 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
+- **ep()** (10 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
+- **fn()** (10 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
+- **tp()** (9 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
+- **cn()** (8 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
+- **hn()** (8 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
+- **cm()** (7 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
+- **lp()** (7 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
+- **tm()** (7 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
+- **vn()** (7 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
+- **dn()** (6 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
+- **.blur()** (6 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
+- **.scrollIntoView()** (6 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
+- **v()** (6 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
+- **g()** (5 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
+- **on()** (5 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
+- **pm()** (5 connections) — `ios/App/App/public/assets/index-CLMClDFk.js`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [[Community 40]] (29 shared connections)
-- [[Product Brand & Business Vision]] (29 shared connections)
-- [[Project Readme & Layout]] (18 shared connections)
-- [[Community 76]] (4 shared connections)
-- [[Community 108]] (3 shared connections)
-- [[Community 293]] (3 shared connections)
+- [[Dealer Auth & Session Management]] (46 shared connections)
+- [[Zoho Integration Skill]] (19 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (17 shared connections)
+- [[Community 29]] (14 shared connections)
+- [[Graphify Knowledge Graph Skill]] (14 shared connections)
+- [[Community 55]] (6 shared connections)
+- [[Zoho Integration Architecture]] (6 shared connections)
+- [[Community 44]] (2 shared connections)
 
 ## Source Files
 
-- `src/data/api.js`
-- `src/data/auth.js`
-- `src/data/dealer.js`
-- `src/data/products.js`
-- `src/data/productsStore.js`
-- `src/data/session.js`
-- `src/data/validators.js`
-- `src/pages/Login.jsx`
+- `ios/App/App/public/assets/index-CLMClDFk.js`
 
 ## Audit Trail
 
-- EXTRACTED: 268 (100%)
+- EXTRACTED: 308 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

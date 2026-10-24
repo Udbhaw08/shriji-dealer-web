@@ -2,7 +2,7 @@
 
 > God node · 67 connections · `backend/src/db/pool.js`
 
-**Community:** [[Pricing Regression Test Suite]]
+**Community:** [[Community 37]]
 
 ## Connections by Relation
 

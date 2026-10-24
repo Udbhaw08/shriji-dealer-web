@@ -1,56 +1,58 @@
 # Community 42
 
-> 34 nodes · cohesion 0.12
+> 33 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **jd()** (14 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **Bd()** (12 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **Pd()** (12 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **nf()** (11 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **xi()** (11 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **ze()** (11 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **Kd()** (9 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **of()** (9 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **ot()** (9 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **uf()** (8 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **zd()** (8 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **at()** (7 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **df()** (7 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **af()** (6 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **ef()** (6 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **Fd()** (6 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **ja()** (6 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **kf()** (6 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **qd()** (6 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **tf()** (5 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **Vd()** (5 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **cf()** (4 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **jf()** (4 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **mf()** (4 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- **sf()** (4 connections) — `ios/App/App/public/assets/index-jHj_87_x.js`
-- *... and 9 more nodes in this community*
+- **render-lifecycle.mjs** (81 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **anchor()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **automaticPortSpread()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **chosenSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **defaultFromSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **defaultToSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **pathFor()** (8 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **pathFor()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **connectionSides()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **renderLegend()** (6 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **flowSides()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderBands()** (5 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderTransitionPath()** (5 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **transitionSides()** (5 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **bandFor()** (3 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **bandTitles()** (3 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **lifecycleAreaBottom()** (3 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **connectionEndpointSide()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **routeVia()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **legendY()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **measureState()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **routeVia()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **automaticPorts** (1 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **laneLabels** (1 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [[Product Pages Specification]] (39 shared connections)
-- [[Design System & UI Tokens]] (15 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (10 shared connections)
-- [[Roles & Customer Sharing Spec]] (5 shared connections)
-- [[Graphify Agent Rules]] (5 shared connections)
-- [[Community 88]] (4 shared connections)
-- [[Community 80]] (4 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (3 shared connections)
-- [[Community 38]] (3 shared connections)
+- [[Dependencies & Package Config]] (39 shared connections)
+- [[Pricing & Roles Skill]] (32 shared connections)
+- [[Community 43]] (11 shared connections)
+- [[Community 49]] (10 shared connections)
+- [[Client Products Data Store]] (9 shared connections)
+- [[Product Requirements Documentation]] (5 shared connections)
+- [[Community 105]] (3 shared connections)
+- [[Testing & Workflow Skill]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-jHj_87_x.js`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- `.agents/skills/archify/renderers/shared/geometry.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 218 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 213 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---
